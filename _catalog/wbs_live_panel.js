@@ -59,7 +59,7 @@
   }
   function Panel({ m, P }) {
     const tpl = (window.WBS_TPL || {})[window.wbsTplFor ? window.wbsTplFor({ name: m.n, category: m.cat }) : 'amp'] || { controls: [] };
-    const comm = /COMMUNICATION/.test(m.cat || '') || /intercom|talkback|micro ?com|crosspoint/i.test(m.n || '');
+    const comm = /COMMUNICATION|MICRO SERIES|INTERCOM/.test(m.cat || '') || /intercom|talkback|micro ?com|crosspoint/i.test(m.n || '');
     return h('div', { className: 'wl-face' },
       h('div', { className: 'wl-screw' }),
       h('div', { className: 'wl-badge' }, 'WBS'),

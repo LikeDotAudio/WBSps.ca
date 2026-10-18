@@ -53,7 +53,7 @@ function tplFor(m) {
   if (/distribution|\bda\b/.test(n)) return 'da';
   if (/power supply|psu/.test(n) || c === 'POWER') return 'psu';
   if (/monitor/.test(n) || c === 'MONITORING') return 'monitor';
-  if (/talkback|intercom|crosspoint/.test(n) || c === 'COMMUNICATION') return 'intercom';
+  if (/talkback|intercom|crosspoint/.test(n) || c === 'COMMUNICATION' || c === 'MICRO SERIES') return 'intercom';   // the Micro series is the intercom line
   if (/switch|selector|interface|router/.test(n) || c === 'ROUTING') return 'select';
   if (/summ|master|submaster|mix/.test(n) || c === 'SUMMING') return 'sum';
   if (/input|pre-?amp|mic/.test(n) || c === 'INPUT-PRE-AMPS') return 'input';

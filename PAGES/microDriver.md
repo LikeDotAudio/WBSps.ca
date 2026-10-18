@@ -27,7 +27,7 @@ tags: ["product", "micro-series", "2010s"]
 
 _What it is made of and what it is part of._
 
-<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="microDriver" data-n="Miniature Stereo Headphone Module" data-cat="MICRO SERIES"></div><svg class="wbs-panel" data-m="microDriver" data-n="Miniature Stereo Headphone Module" data-cat="MICRO SERIES" role="img" aria-label="microDriver front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"microDriver","title":"Miniature Stereo Headphone Module","rto":null,"parts":[],"parents":[{"label":"ABS1","href":"ABS1.html","note":"on 4 drawings with it: Audio Bit Spitter Portab"},{"label":"SLM","href":"SLM.html","note":"on 4 drawings with it: Series Stereo Loudness M"}]}</script></div></div><script src="wbs_spice.js"></script>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="microDriver" data-n="Miniature Stereo Headphone Module" data-cat="MICRO SERIES"></div><svg class="wbs-panel" data-m="microDriver" data-n="Miniature Stereo Headphone Module" data-cat="MICRO SERIES" role="img" aria-label="microDriver front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"microDriver","title":"Miniature Stereo Headphone Module","rto":null,"parts":[],"parents":[{"label":"SLM","href":"SLM.html","note":"on 4 drawings with it: Series Stereo Loudness M"},{"label":"ABS1","href":"ABS1.html","note":"on 4 drawings with it: Audio Bit Spitter Portab"}]}</script></div></div><script src="wbs_spice.js"></script>
 
 ## Dates found in the documents
 

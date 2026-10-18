@@ -1,6 +1,6 @@
 # Archive status
 
-_Updated 2026-10-18 19:33:43 — refreshed every minute by `timelines/stats_loop.sh`._
+_Updated 2026-10-18 19:42:57 — refreshed every minute by `timelines/stats_loop.sh`._
 
 ## Work in progress
 
@@ -10,7 +10,7 @@ _Updated 2026-10-18 19:33:43 — refreshed every minute by `timelines/stats_loop
 | Module PDFs — every page (OCR) | 2,774 / 2,774 (100%) | done |
 | Drawing title blocks (OCR) | 4,561 / 5,645 (81%) | done (the rest have no readable title block) |
 | Unsorted scans (OCR) | 1,902 / 1,931 (98%) | done (the rest are blank or unreadable) |
-| Rebuild of 2026 (run_all.sh) | — | done 2026-10-18 19:33 |
+| Rebuild of 2026 (run_all.sh) | — | done 2026-10-18 19:34 |
 | Hover links: word positions of module numbers | 1,427 / 1,427 (100%) | done |
 | Scanned parts lists re-read (word positions) | 432 / 432 (100%) | done |
 | Other session: wbsPS-NOT UPLOADED | 1047 scanned, 654 with a confident home | idle |

@@ -5,7 +5,9 @@ title: "Timeline"
 
 # Ward-Beck timeline
 
-The timeline is built from **projects**: every job / serial number, dated by its number (first two digits) and by the dates on its drawings. Under each year: the modules used in those projects, then the price lists, the devices whose earliest dated document falls in that year, and the ads. Open a year for details, or `timelines/timeline.html` for the visual timeline.
+**[→ Switch to the visual timeline](../timelines/timeline.html)** (years left to right, projects wired to their modules)
+
+The timeline is built from **projects**: every job / serial number, dated by its number (first two digits) and by the dates on its drawings. Under each year: the modules used in those projects, then the price lists, the devices whose earliest dated document falls in that year, and the ads. Open a year for details.
 
 ## 1960s
 

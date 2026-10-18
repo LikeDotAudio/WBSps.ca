@@ -63,6 +63,14 @@ body:has(#ribbon:not([hidden])) .wbs-like { bottom:96px !important }   /* the LI
 @media print { #close, #ribbon, #zoom { display:none } }
 pre { margin:0; padding:16px; white-space:pre-wrap; word-break:break-word; font:13px/1.5 ui-monospace, monospace }
 .none { padding:32px 16px; max-width:640px }
+#ocrbtn { font:inherit; color:var(--accent); background:none; border:1px solid var(--line); border-radius:4px; padding:1px 8px; cursor:pointer }
+#ocrbtn.on { background:var(--accent); color:#fff }
+#ocr { position:fixed; right:0; top:0; bottom:0; width:min(420px, 92vw); z-index:25; background:var(--panel); border-left:1px solid var(--line);
+  box-shadow:-8px 0 24px #0003; display:flex; flex-direction:column }
+#ocr[hidden] { display:none } #ocr .hd { display:flex; gap:8px; align-items:center; padding:10px 14px; border-bottom:1px solid var(--line) }
+#ocr .hd b { flex:1 } #ocr button { font:inherit; font-size:13px; cursor:pointer; border:1px solid var(--line); background:var(--bg); color:var(--ink); border-radius:4px; padding:2px 8px }
+#ocr pre { flex:1; overflow:auto; margin:0; padding:12px 14px; white-space:pre-wrap; word-break:break-word; font:13px/1.5 ui-monospace, monospace; user-select:text }
+#ocr h4 { margin:12px 0 4px; font:700 12px system-ui, sans-serif; color:var(--muted); text-transform:uppercase }
 </style>
 </head>
 <body>
@@ -73,6 +81,7 @@ pre { margin:0; padding:16px; white-space:pre-wrap; word-break:break-word; font:
     <span class="meta" id="meta"></span>
     <a id="orig" href="#">Original file</a>
     <a id="note" href="#">Note (.md)</a>
+    <button id="ocrbtn" type="button" hidden title="The words read off this file (OCR): select and copy them">Text read on it</button>
     <a href="index.html">Index</a>
   </header>
   <div id="mods" hidden></div>
@@ -83,6 +92,8 @@ pre { margin:0; padding:16px; white-space:pre-wrap; word-break:break-word; font:
   </nav>
 </div>
 <button id="close" title="Close (Esc)" aria-label="Close the viewer">✕</button>
+<aside id="ocr" hidden aria-label="Text read on this file"><div class="hd"><b>Text read on it</b><button id="ocrcopy" type="button">Copy all</button>
+  <button id="ocrclose" type="button" title="Close">✕</button></div><pre id="ocrtext"></pre></aside>
 <script src="_previews/manifest.js"></script>
 <script src="_catalog/hotspots.js"></script>
 <script src="_catalog/drive_lookup.js"></script>
@@ -317,6 +328,25 @@ function closeViewer() {
   else { window.close(); setTimeout(() => location.href = 'index.html', 150); }
 }
 document.getElementById('close').addEventListener('click', closeViewer);
+
+// the words read off the file (its note's OCR text and title block): a panel to read, select and copy them
+(() => {
+  if (!rel) return;
+  const btn = document.getElementById('ocrbtn'), panel = document.getElementById('ocr'), pre = document.getElementById('ocrtext');
+  fetch(enc(rel) + '.md').then(r => r.ok ? r.text() : '').then(md => {
+    const part = re => (md.match(re) || [])[1] || '';
+    const tb = part(/## Title block[^\n]*\n([\s\S]*?)(?=\n## |\n- \*\*Original)/).replace(/\*\*/g, '').replace(/^- /gm, '').trim();
+    const full = part(/## (?:Full text|Text recovered by OCR)\n([\s\S]*?)(?=\n## |$)/).replace(/```\w*\n?/g, '').replace(/^> /gm, '').trim();
+    if (!tb && !full) return;
+    pre.textContent = (tb ? 'TITLE BLOCK\n' + tb + '\n\n' : '') + full.replace(/^### /gm, '\n— ').trim();
+    btn.hidden = false;
+  }).catch(() => {});
+  const show = on => { panel.hidden = !on; btn.classList.toggle('on', on); };
+  btn.onclick = () => show(panel.hidden);
+  document.getElementById('ocrclose').onclick = () => show(false);
+  document.getElementById('ocrcopy').onclick = () => navigator.clipboard && navigator.clipboard.writeText(pre.textContent);
+  addEventListener('keydown', e => { if (e.key === 't' && !e.target.closest('input, textarea') && !btn.hidden) show(panel.hidden); });
+})();
 </script>
 <script src="_catalog/wbs_scan.js?v=7792b3a7"></script></body>
 </html>

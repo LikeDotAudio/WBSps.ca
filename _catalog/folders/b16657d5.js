@@ -1,1 +1,1 @@
-window.WBS_FOLDER={"d":"Consoles/1990-1999/930279","f":[["1993 - 930279 - DOC - Scan_20210323.jpg","a79771267d614b923fc9"]]};
+window.WBS_FOLDER={"d":"Consoles/1990-1999/930279","f":[["1993 - 930279 - Binder spine - CBC MONTREAL - STEREO TALKBACK PANEL (01).jpg",""],["1993 - 930279 - Binder spine - CBC MONTREAL - STEREO TALKBACK PANEL (02).jpg",""],["1993 - 930279 - DOC - Scan_20210323.jpg","a79771267d614b923fc9"]]};
