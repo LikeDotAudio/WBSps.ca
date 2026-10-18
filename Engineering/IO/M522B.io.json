@@ -1,0 +1,37 @@
+{
+ "code": "M522B",
+ "series": null,
+ "type": "M522B",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "I1",
+   "signal": "Input (Rd)",
+   "dir": "in",
+   "pos": "I1P",
+   "neg": "I1N",
+   "src_page": 14
+  },
+  {
+   "port": "I2",
+   "signal": "Input (Bk)",
+   "dir": "in",
+   "pos": "I2P",
+   "neg": "I2N",
+   "src_page": 14
+  }
+ ],
+ "power": [],
+ "logic": [],
+ "ground": [
+  "CHASSIS"
+ ],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "7d8e35d6ef4c02c765799d927de645e098bae1267995d66d56130da35c770427"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one. (this device has one)"
+}

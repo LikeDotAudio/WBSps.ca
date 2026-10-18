@@ -1,0 +1,693 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>RM424S — Shielded -Prewired Jackfield</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../../../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../../../index.html">Index</a><a href="../../../Home.html">Wiki home</a><a href="../../../PAGES/Timeline.html">Timeline</a><a href="../../../search.html">Search</a><a href="../../../status.html">Status</a></div><h1>RM424S — Shielded -Prewired Jackfield</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="../../../PAGES/Category-UNSORTED.html">UNSORTED</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../../../simulator.html?m=RM424S">simulator &amp; front panel</a> · <a href="../../../_packages/RM424S.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a> — price list</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>listed in 20170522_122029_022.jpg</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>medium</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a>, <a href="../../../PAGES/Year-1995.html">1995|28</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/wbsPS-NOT%20UPLOADED/">DOCUMENTS/wbsPS-NOT UPLOADED</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="index.html">Modules/AMPLIFIERS/M600</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../M604/index.html">Modules/AMPLIFIERS/M604</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections</h2>
+<p><em>What it is made of and what it is part of.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="RM424S" data-n="Shielded -Prewired Jackfield" data-cat="UNSORTED"></div><svg class="wbs-panel" data-m="RM424S" data-n="Shielded -Prewired Jackfield" data-cat="UNSORTED" role="img" aria-label="RM424S front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"RM424S","title":"Shielded -Prewired Jackfield","rto":null,"parts":[],"parents":[{"label":"M412","href":"M412.html","note":"on 27 drawings with it: Multi-frequency Oscilato"},{"label":"M621","href":"M621.html","note":"on 27 drawings with it: 20 Watt Monitor Amplifie"},{"label":"M757","href":"M757.html","note":"on 27 drawings with it: Splitting Network Card"},{"label":"M712","href":"M712.html","note":"on 27 drawings with it: Intercom Matrix Switchin"},{"label":"M702","href":"M702.html","note":"on 27 drawings with it: Intercom Output Amplifie"},{"label":"M724","href":"M724.html","note":"on 27 drawings with it: Intercom Crosspoint (par"},{"label":"M605","href":"M605.html","note":"on 27 drawings with it: Audio Distribution Ampli"},{"label":"M441M","href":"M441M.html","note":"on 27 drawings with it: Channel Amplifier"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/1975%20-%20RM424S%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg"><img loading="lazy" src="../../../Modules/UNSORTED/RM424S/1975%20-%20RM424S%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg" alt="" data-f="Modules/UNSORTED/RM424S/1975 - RM424S - PRICE LIST - PRICE LIST.jpg" data-size="320" onerror="wbsOff(this)">1975 - RM424S - PRICE LIST - PRICE LIST.jpg</a><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20Archived%20-%20wbsps%20-%20promo%20-%20rm424s%20patch%20bay%20-%20003.jpg"><img loading="lazy" src="../../../Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20Archived%20-%20wbsps%20-%20promo%20-%20rm424s%20patch%20bay%20-%20003.jpg" alt="" data-f="Modules/UNSORTED/RM424S/19xx - RM424S - Archived - wbsps - promo - rm424s patch bay - 003.jpg" data-size="320" onerror="wbsOff(this)">19xx - RM424S - Archived - wbsps - promo - rm424s patch bay - 003.jpg</a><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20Archived%20-%20wbsps%20-%20promo%20-%20rm424s%20patch%20bay%20-%20004.jpg"><img loading="lazy" src="../../../Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20Archived%20-%20wbsps%20-%20promo%20-%20rm424s%20patch%20bay%20-%20004.jpg" alt="" data-f="Modules/UNSORTED/RM424S/19xx - RM424S - Archived - wbsps - promo - rm424s patch bay - 004.jpg" data-size="320" onerror="wbsOff(this)">19xx - RM424S - Archived - wbsps - promo - rm424s patch bay - 004.jpg</a><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20RM424S.jpg"><img loading="lazy" src="../../../Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20RM424S.jpg" alt="" data-f="Modules/UNSORTED/RM424S/19xx - RM424S - RM424S.jpg" data-size="320" onerror="wbsOff(this)">19xx - RM424S - RM424S.jpg</a><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbspatch0.jpg"><img loading="lazy" src="../../../Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbspatch0.jpg" alt="" data-f="Modules/UNSORTED/RM424S/19xx - RM424S - wbspatch0.jpg" data-size="320" onerror="wbsOff(this)">19xx - RM424S - wbspatch0.jpg</a><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbspatch1.jpg"><img loading="lazy" src="../../../Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbspatch1.jpg" alt="" data-f="Modules/UNSORTED/RM424S/19xx - RM424S - wbspatch1.jpg" data-size="320" onerror="wbsOff(this)">19xx - RM424S - wbspatch1.jpg</a><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbspatch2.jpg"><img loading="lazy" src="../../../Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbspatch2.jpg" alt="" data-f="Modules/UNSORTED/RM424S/19xx - RM424S - wbspatch2.jpg" data-size="320" onerror="wbsOff(this)">19xx - RM424S - wbspatch2.jpg</a><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbspatch3.jpg"><img loading="lazy" src="../../../Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbspatch3.jpg" alt="" data-f="Modules/UNSORTED/RM424S/19xx - RM424S - wbspatch3.jpg" data-size="320" onerror="wbsOff(this)">19xx - RM424S - wbspatch3.jpg</a><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbsps%20-%20module%20-%20rm424s%20patch%20bay%20-%20back.jpg"><img loading="lazy" src="../../../Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbsps%20-%20module%20-%20rm424s%20patch%20bay%20-%20back.jpg" alt="" data-f="Modules/UNSORTED/RM424S/19xx - RM424S - wbsps - module - rm424s patch bay - back.jpg" data-size="320" onerror="wbsOff(this)">19xx - RM424S - wbsps - module - rm424s patch bay - back.jpg</a><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbsps%20-%20module%20-%20rm424s%20patch%20bay%20-%20back_small.jpg"><img loading="lazy" src="../../../Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbsps%20-%20module%20-%20rm424s%20patch%20bay%20-%20back_small.jpg" alt="" data-f="Modules/UNSORTED/RM424S/19xx - RM424S - wbsps - module - rm424s patch bay - back_small.jpg" data-size="320" onerror="wbsOff(this)">19xx - RM424S - wbsps - module - rm424s patch bay - back_small.jpg</a><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbsps%20-%20module%20-%20rm424s%20patch%20bay%20-%20front.jpg"><img loading="lazy" src="../../../Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbsps%20-%20module%20-%20rm424s%20patch%20bay%20-%20front.jpg" alt="" data-f="Modules/UNSORTED/RM424S/19xx - RM424S - wbsps - module - rm424s patch bay - front.jpg" data-size="320" onerror="wbsOff(this)">19xx - RM424S - wbsps - module - rm424s patch bay - front.jpg</a><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbsps%20-%20promo%20-%20rm424s%20patch%20bay%20-%20back.jpg"><img loading="lazy" src="../../../Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbsps%20-%20promo%20-%20rm424s%20patch%20bay%20-%20back.jpg" alt="" data-f="Modules/UNSORTED/RM424S/19xx - RM424S - wbsps - promo - rm424s patch bay - back.jpg" data-size="320" onerror="wbsOff(this)">19xx - RM424S - wbsps - promo - rm424s patch bay - back.jpg</a><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbsps%20-%20promo%20-%20rm424s%20patch%20bay%20-%20front.jpg"><img loading="lazy" src="../../../Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbsps%20-%20promo%20-%20rm424s%20patch%20bay%20-%20front.jpg" alt="" data-f="Modules/UNSORTED/RM424S/19xx - RM424S - wbsps - promo - rm424s patch bay - front.jpg" data-size="320" onerror="wbsOff(this)">19xx - RM424S - wbsps - promo - rm424s patch bay - front.jpg</a><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbsps%20-%20promo%20-%20rm424s%20patch%20bay%20-%20front_small.jpg"><img loading="lazy" src="../../../Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbsps%20-%20promo%20-%20rm424s%20patch%20bay%20-%20front_small.jpg" alt="" data-f="Modules/UNSORTED/RM424S/19xx - RM424S - wbsps - promo - rm424s patch bay - front_small.jpg" data-size="320" onerror="wbsOff(this)">19xx - RM424S - wbsps - promo - rm424s patch bay - front_small.jpg</a><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/wbsps%20-%20promo%20-%20rm424s%20patch%20bay%20-%20002.jpg"><img loading="lazy" src="../../../Modules/UNSORTED/RM424S/wbsps%20-%20promo%20-%20rm424s%20patch%20bay%20-%20002.jpg" alt="" data-f="Modules/UNSORTED/RM424S/wbsps - promo - rm424s patch bay - 002.jpg" data-size="320" onerror="wbsOff(this)">wbsps - promo - rm424s patch bay - 002.jpg</a></div>
+<h2>Price history</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Price</th>
+<th>Listed as</th>
+<th>Effective</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td>list price</td>
+<td>190.00 USD</td>
+<td>Shielded -Prewired Jackfield</td>
+<td>May 1975</td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/1975%20-%20RM424S%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">source</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../../../viewer.html?f=ADVERTISEMENTS/NAB%20photos/1975%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/1975%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M600/1975%20-%20M600%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M600 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M604/1975%20-%20M604%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M604 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M605/1975%20-%20M605%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M605 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M610/1975%20-%20M610%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M610 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612/1975%20-%20M612%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M612 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M621/1975%20-%20M621%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M621 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M666/1975%20-%20M666%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M666 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../../../viewer.html?f=Modules/COMMUNICATION/M701/1975%20-%20M701%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M701 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../../../viewer.html?f=Modules/COMMUNICATION/M702/1975%20-%20M702%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M702 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../../../viewer.html?f=Modules/COMMUNICATION/M703/1975%20-%20M703%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M703 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../../../viewer.html?f=Modules/COMMUNICATION/M712/1975%20-%20M712%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M712 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../../../viewer.html?f=Modules/COMMUNICATION/M724/1975%20-%20M724%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M724 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../../../viewer.html?f=Modules/COMMUNICATION/M757/1975%20-%20M757%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M757 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../../../viewer.html?f=Modules/COMPUTERS/M524/1975%20-%20M524%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M524 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../../../viewer.html?f=Modules/DYNAMICS/M406B/1975%20-%20M406B%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M406B - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../../../viewer.html?f=Modules/DYNAMICS/M415/1975%20-%20M415%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M415 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M402B/1975%20-%20M402B%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M402B - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404A/1975%20-%20M404A%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M404A - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M441M/1975%20-%20M441M%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M441M - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M405C - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../../../viewer.html?f=Modules/MONITORING/M412/1975%20-%20M412%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M412 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../../../viewer.html?f=Modules/POWER/M628/1975%20-%20M628%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M628 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../../../viewer.html?f=Modules/POWER/M648/1975%20-%20M648%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M648 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/1975%20-%20RM424S%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - RM424S - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (39)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/1975%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/1975%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M600/1975%20-%20M600%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M600 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M600/1975%20-%20M600%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M604/1975%20-%20M604%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M604 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M604/1975%20-%20M604%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M605/1975%20-%20M605%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M605 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M605/1975%20-%20M605%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M610/1975%20-%20M610%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M610 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M610/1975%20-%20M610%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612/1975%20-%20M612%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M612 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612/1975%20-%20M612%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M621/1975%20-%20M621%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M621 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M621/1975%20-%20M621%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M666/1975%20-%20M666%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M666 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M666/1975%20-%20M666%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/COMMUNICATION/M701/1975%20-%20M701%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M701 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/COMMUNICATION/M701/1975%20-%20M701%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/COMMUNICATION/M702/1975%20-%20M702%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M702 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/COMMUNICATION/M702/1975%20-%20M702%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/COMMUNICATION/M703/1975%20-%20M703%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M703 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/COMMUNICATION/M703/1975%20-%20M703%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/COMMUNICATION/M712/1975%20-%20M712%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M712 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/COMMUNICATION/M712/1975%20-%20M712%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/COMMUNICATION/M724/1975%20-%20M724%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M724 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/COMMUNICATION/M724/1975%20-%20M724%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/COMMUNICATION/M757/1975%20-%20M757%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M757 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/COMMUNICATION/M757/1975%20-%20M757%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/COMPUTERS/M524/1975%20-%20M524%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M524 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/COMPUTERS/M524/1975%20-%20M524%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/DYNAMICS/M406B/1975%20-%20M406B%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M406B - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/DYNAMICS/M406B/1975%20-%20M406B%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/DYNAMICS/M415/1975%20-%20M415%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M415 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/DYNAMICS/M415/1975%20-%20M415%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M402B/1975%20-%20M402B%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M402B - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M402B/1975%20-%20M402B%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404A/1975%20-%20M404A%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M404A - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404A/1975%20-%20M404A%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M441M/1975%20-%20M441M%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M441M - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M441M/1975%20-%20M441M%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M405C - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/MONITORING/M412/1975%20-%20M412%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M412 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/MONITORING/M412/1975%20-%20M412%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/POWER/M628/1975%20-%20M628%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M628 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/POWER/M628/1975%20-%20M628%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/POWER/M648/1975%20-%20M648%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M648 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/POWER/M648/1975%20-%20M648%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/1975%20-%20RM424S%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - RM424S - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/1975%20-%20RM424S%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20Archived%20-%20wbsps%20-%20promo%20-%20rm424s%20patch%20bay%20-%20003.jpg">19xx - RM424S - Archived - wbsps - promo - rm424s patch bay - 003.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20Archived%20-%20wbsps%20-%20promo%20-%20rm424s%20patch%20bay%20-%20003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20Archived%20-%20wbsps%20-%20promo%20-%20rm424s%20patch%20bay%20-%20004.jpg">19xx - RM424S - Archived - wbsps - promo - rm424s patch bay - 004.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20Archived%20-%20wbsps%20-%20promo%20-%20rm424s%20patch%20bay%20-%20004.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20RM424S.jpg">19xx - RM424S - RM424S.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20RM424S.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbspatch0.jpg">19xx - RM424S - wbspatch0.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbspatch0.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbspatch1.jpg">19xx - RM424S - wbspatch1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbspatch1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbspatch2.jpg">19xx - RM424S - wbspatch2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbspatch2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbspatch3.jpg">19xx - RM424S - wbspatch3.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbspatch3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbsps%20-%20module%20-%20rm424s%20patch%20bay%20-%20back.jpg">19xx - RM424S - wbsps - module - rm424s patch bay - back.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbsps%20-%20module%20-%20rm424s%20patch%20bay%20-%20back.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbsps%20-%20module%20-%20rm424s%20patch%20bay%20-%20back_small.jpg">19xx - RM424S - wbsps - module - rm424s patch bay - back_small.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbsps%20-%20module%20-%20rm424s%20patch%20bay%20-%20back_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbsps%20-%20module%20-%20rm424s%20patch%20bay%20-%20front.jpg">19xx - RM424S - wbsps - module - rm424s patch bay - front.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbsps%20-%20module%20-%20rm424s%20patch%20bay%20-%20front.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbsps%20-%20promo%20-%20rm424s%20patch%20bay%20-%20back.jpg">19xx - RM424S - wbsps - promo - rm424s patch bay - back.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbsps%20-%20promo%20-%20rm424s%20patch%20bay%20-%20back.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbsps%20-%20promo%20-%20rm424s%20patch%20bay%20-%20front.jpg">19xx - RM424S - wbsps - promo - rm424s patch bay - front.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbsps%20-%20promo%20-%20rm424s%20patch%20bay%20-%20front.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbsps%20-%20promo%20-%20rm424s%20patch%20bay%20-%20front_small.jpg">19xx - RM424S - wbsps - promo - rm424s patch bay - front_small.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbsps%20-%20promo%20-%20rm424s%20patch%20bay%20-%20front_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/wbsps%20-%20promo%20-%20rm424s%20patch%20bay%20-%20002.jpg">wbsps - promo - rm424s patch bay - 002.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/wbsps%20-%20promo%20-%20rm424s%20patch%20bay%20-%20002.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (3)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT%20%282%29.docx">1995 - M405P - ITEMIMP(1).TXT (2).docx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT.docx">1995 - M405P - ITEMIMP(1).TXT.docx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP.TXT.docx">1995 - M405P - ITEMIMP.TXT.docx</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="../../../PAGES/Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>General description (2)</h3>
+<details><summary>Description — 180 words · 19xx - RM424S - wbsps - promo - rm424s patch bay - front.jpg, page 1</summary><p>The RM424S Prewired Shielded Jackfield comprises a twenty-four position jack strip assembly and associated cable harness and terminal block. The assembly is designed to mount in a standard EIA rack_ 239A-type telephone jacks are incor- porated and designation strip for circuit identification purposes is provided. FEATURES: Convenient, ready-to-install pre- packaged assembly_ Conventional tip, ring and sleeve wiring practices are followed, with appropriate connections being terminated via high quality telephone-type terminal block_ Balanced, 239A-type jacks with individual shield connections.</p><p>A unique swivel bracket assembly enables free access to customer-side wiring for installation and inspection Large designation strip, protected by clear Plexiglass overlay_ Four lengths of cable forms enable four rows of jacks to be positioned verti- cally, and their associated terminal blocks to be arranged from left to right directly behind the jack strips and within a seven inch dimension.</p><p>Accesory terminal block mounting brackets and swivel assembly com- ponents facilitate wiring and inspec- tion. Four positions permit high density placement within standard rack: Tip, ring; and sleeve circuits, as well as associated normals, wired to high quality telephone-type terminal blocks_</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbsps%20-%20promo%20-%20rm424s%20patch%20bay%20-%20front.jpg">19xx - RM424S - wbsps - promo - rm424s patch bay - front.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Description — 164 words · 19xx - RM424S - wbsps - module - rm424s patch bay - front.jpg, page 1</summary><p>The RM4245 Prewired Shiclded Jack lield comprises twunty-four position jack strip assembly associated cable harness end termninal ulock; The assemuly designed maunt standard ElA rack: 239A-type phona jacks are ncor pulaied and = designation strip for circuit identificatioan purposes provided_ FEATURES: Convenient, ready-to-install pre- packaged assembly- Lonventiona tip, ring and sleeve wiring practices are follovred, with appropriate connectdi being Tminated V7 high quality lephone-type termina block: Balanced; 23QA-type jacks with individual shield connections.</p><p>unique swivel bracket assembly enabies free accu _ for installation and inspection; customer-side wiring Large designation strip, protected by clear Plexiglass overlay. Four lengihs Cable forms enable aat jacks pasitioned Verti- v , and their associated Termina blocks arranged om left right directly behind the jack strips and within seven inch dimension: Accesary terminal block mounting brackets and swivel assembly com- ponents facilitate wiring and inspec tion Four positions permit high density placement wthin standard Fack: Tip ring; and sleeve circuits, well associated narmals, wircd higt quality telephone TIVuC teuminz blocks</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbsps%20-%20module%20-%20rm424s%20patch%20bay%20-%20front.jpg">19xx - RM424S - wbsps - module - rm424s patch bay - front.jpg</a>, p. 1</li>
+</ul>
+<h3>Specifications (4)</h3>
+<details><summary>Technical Data — 103 words · 19xx - RM424S - wbsps - promo - rm424s patch bay - back.jpg, page 1</summary><p>JACKFIELD WIRING SCHEMATIC RING SLEEVE SHIELD Prewired Shielded Jackfield includes 24 Jacks on panel with 2 Jackstrip mounting brackets and Shielded Wire soldered to a terminal block Assembly WHEN ORDERING: Please specify position RM 424S POS: or POS: 2 etc. 2 ACCESSORIES: RM424TB Double Bracket assembly and 6 screws designed to mount terminal block and to permit swivelling to left or right assembly RM424B Horizontal Rack Bars designed to mount up to 4 vertical terminal blocks pair_ WARD-BECK SYSTEMS LTD_ WARD-BECK SYSTEMS INC, 841 Progress Ave,Scarborough, Ont.</p><p>M1H 2x4 290 Larkin St, Buffalo; New York 14210 Telephone: (416) 438-6550 Telex: 06-23469 WBS TIP</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbsps%20-%20promo%20-%20rm424s%20patch%20bay%20-%20back.jpg">19xx - RM424S - wbsps - promo - rm424s patch bay - back.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Technical Data — 102 words · 19xx - RM424S - RM424S.jpg, page 1</summary><p>JACKFIELD WiRing SCHEMATIC R/NG SLEEVE SHIELD Prewired Shielded Jackfield includes 24 Jacks on panel with 2 Jackstrip mounting brackets and Shielded Wire soldered to a terminal block Assembly WHEN ORDERING: Please specify position RM 424S POS: or POS 2 etc: ACCESSORIES: RM424TB Double Bracket assembly and 6 screws designed to mount terminal block and to permit swivelling to left or right assembly_ RM424B Horizontal Rack Bars designed to mount up to 4 vertical terminal blocks pair_ WARD-BECK SYSTEMS LTD_ WARD-BECK SYSTEMS INC_ 841 Progress Ave,Scarborough Ont M1H 2x4 290 Larkin St; Buffalo; New York 14210 Telephone: (416) 438-6550 Telex: 06-23469 WBS TIP</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20RM424S.jpg">19xx - RM424S - RM424S.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Technical Data — 87 words · 19xx - RM424S - wbsps - module - rm424s patch bay - back.jpg, page 1</summary><p>JFieLD ATNG SCNEMATi S-C Prewired Shielded Jackfield includes 24 Jacks on panci with Jackstrip mountirg brackets and Shielded Wire soldered [0 termina block Assembly #WHEN ORDERING= Please epccity DoSitiun RM 4245 POS: Pos; ACCESSORIES: RMAZ4TB Double Bracket assembly and screw5 designed moint terminal block and permit swivelling to left or right assembly RM424B Horizontal Rack Bars clesigued mouNt Up [0 VCcul termina blacks pail.</p><p>WARD BECK SYSTEms LTD WARD Beck SYSTEMS INC AAFcorebe Ave ScarcoronOnl M1h|2X4 290 Lorkin BJEc 14eO Talephcre [416) 4Z0 5SS0 Telcx 05-23465 WBS</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20wbsps%20-%20module%20-%20rm424s%20patch%20bay%20-%20back.jpg">19xx - RM424S - wbsps - module - rm424s patch bay - back.jpg</a>, p. 1</li>
+<li>also in: <a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/wbsps%20-%20promo%20-%20rm424s%20patch%20bay%20-%20002.jpg">wbsps - promo - rm424s patch bay - 002.jpg</a>, p. 1</li>
+</ul>
+<h2>Drawings (2)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Drawn by</a></th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>—</td>
+<td>RM424S</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/19xx%20-%20RM424S%20-%20RM424S.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/UNSORTED/RM424S/wbsps%20-%20promo%20-%20rm424s%20patch%20bay%20-%20002.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;RM424S&quot;,
+ &quot;name&quot;: &quot;Shielded -Prewired Jackfield&quot;,
+ &quot;category&quot;: &quot;UNSORTED&quot;,
+ &quot;year&quot;: 1975,
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/RM424S/1975 - RM424S - PRICE LIST - PRICE LIST.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/RM424S/19xx - RM424S - Archived - wbsps - promo - rm424s patch bay - 003.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/RM424S/19xx - RM424S - Archived - wbsps - promo - rm424s patch bay - 004.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/RM424S/19xx - RM424S - RM424S.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/RM424S/19xx - RM424S - wbspatch0.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/RM424S/19xx - RM424S - wbspatch1.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/RM424S/19xx - RM424S - wbspatch2.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/RM424S/19xx - RM424S - wbspatch3.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/RM424S/19xx - RM424S - wbsps - module - rm424s patch bay - back.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/RM424S/19xx - RM424S - wbsps - module - rm424s patch bay - back_small.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/RM424S/19xx - RM424S - wbsps - module - rm424s patch bay - front.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/RM424S/19xx - RM424S - wbsps - promo - rm424s patch bay - back.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/RM424S/19xx - RM424S - wbsps - promo - rm424s patch bay - front.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/RM424S/19xx - RM424S - wbsps - promo - rm424s patch bay - front_small.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/RM424S/wbsps - promo - rm424s patch bay - 002.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../../../_catalog/wbs_reels.js" defer></script><script src="../../../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../../../_catalog/libcontrol/libcontrol.css"><script src="../../../_catalog/libcontrol/react.js"></script><script src="../../../_catalog/libcontrol/react-dom.js"></script><script src="../../../_catalog/libcontrol/libcontrol.js"></script><script src="../../../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from RM424S.md</small></div></article><script src="../../../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

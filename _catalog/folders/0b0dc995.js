@@ -1,0 +1,1 @@
+window.WBS_FOLDER={"d":"Modules/COMMUNICATION/M774","f":[["19xx - M774 - DOC - 774-03-002 - REMOVE BURRS (traced).dxf",""],["19xx - M774 - DOC - 774-03-002 - REMOVE BURRS.jpg",""],["19xx - M774 - DOC - 774-03-991 - TAB ADDED REVISION (traced).dxf",""],["19xx - M774 - DOC - 774-03-991 - TAB ADDED REVISION.jpg",""]]};

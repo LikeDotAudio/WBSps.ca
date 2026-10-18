@@ -1,0 +1,1055 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M459 — VIDEO FOLLOW FILTER SELECTOR SCHEMATIC</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>M459 — VIDEO FOLLOW FILTER SELECTOR SCHEMATIC</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="Category-ROUTING.html">ROUTING</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../simulator.html?m=M459">simulator &amp; front panel</a> · <a href="../_packages/M459.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="Year-1976.html">1976|9</a> — title-block date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"DATE AuG76" in WBS Photos-1-001/459-02-002c.jpg</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="Year-1976.html">1976|9</a>, <a href="Year-1979.html">1979|12</a></td>
+</tr>
+<tr>
+<td>Used in jobs</td>
+<td><a href="Job-790236.html">790236</a> (1979|12)</td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../Modules/ROUTING/M459/index.html">Modules/ROUTING/M459</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections</h2>
+<p><em>What it is made of and what it is part of.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M459" data-n="VIDEO FOLLOW FILTER SELECTOR SCHEMATIC" data-cat="ROUTING"></div><svg class="wbs-panel" data-m="M459" data-n="VIDEO FOLLOW FILTER SELECTOR SCHEMATIC" data-cat="ROUTING" role="img" aria-label="M459 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M459","title":"VIDEO FOLLOW FILTER SELECTOR SCHEMATIC","rto":{"code":"M459","series":null,"type":"M459 - video follow filter selector","row_count":null,"impedance":{"out":600},"note":null,"audio":[],"bus_out":[],"bus_in":[],"power":[],"jumpers":[],"logic":[]},"parts":[{"item":"5-116","title":"Iiss Mod","label":"5-116 Iiss Mod","href":"Register-Sub-assemblies-n-nnn.html#5-116","note":"Sub-assemblies (n-nnn)"}],"parents":[{"label":"790236","href":"Job-790236.html","note":"Maryland L3242A"},{"label":"M453A","href":"M453A.html","note":"on 1 drawing with it: Cue Amplifier"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20459-02-002%20-%20M459A%20EFFECTS%20SWITCHER%20MODULE%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%202%20%282%29.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1976%20-%20459-02-002%20-%20M459A%20EFFECTS%20SWITCHER%20MODULE%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%202%20%282%29.jpg" alt="" data-f="Modules/ROUTING/M459/1976 - 459-02-002 - M459A EFFECTS SWITCHER MODULE SCHEMATIC - DRN GEB - ISS 2 (2).jpg" data-size="320" onerror="wbsOff(this)">1976 - 459-02-002 - M459A EFFECTS SWITCHER MODULE SCHEMATIC - DRN GEB - ISS 2 (2).jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1975%20-%20459-04-001%20-%20ASSEMBLY%20-%20DRN%20DM%20%282%29.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1975%20-%20459-04-001%20-%20ASSEMBLY%20-%20DRN%20DM%20%282%29.jpg" alt="" data-f="Modules/ROUTING/M459/1975 - 459-04-001 - ASSEMBLY - DRN DM (2).jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1975 - 459-04-001 - ASSEMBLY - DRN DM (2).jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1975%20-%20459-04-001%20-%20ASSEMBLY%20-%20DRN%20DM%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1975%20-%20459-04-001%20-%20ASSEMBLY%20-%20DRN%20DM%20-%20ISS%201.jpg" alt="" data-f="Modules/ROUTING/M459/1975 - 459-04-001 - ASSEMBLY - DRN DM - ISS 1.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1975 - 459-04-001 - ASSEMBLY - DRN DM - ISS 1.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1975%20-%20459-04-001%20-%20ASSEMBLY%20-%20DRN%20DM.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1975%20-%20459-04-001%20-%20ASSEMBLY%20-%20DRN%20DM.jpg" alt="" data-f="Modules/ROUTING/M459/1975 - 459-04-001 - ASSEMBLY - DRN DM.jpg" data-size="320" onerror="wbsOff(this)">1975 - 459-04-001 - ASSEMBLY - DRN DM.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1975%20-%205-116-06-001%20-%20PCB%20LAYOUT%20-%20DRN%20DM%20-%20ISS%201%20%282%29.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1975%20-%205-116-06-001%20-%20PCB%20LAYOUT%20-%20DRN%20DM%20-%20ISS%201%20%282%29.jpg" alt="" data-f="Modules/ROUTING/M459/1975 - 5-116-06-001 - PCB LAYOUT - DRN DM - ISS 1 (2).jpg" data-size="320" onerror="wbsOff(this)">1975 - 5-116-06-001 - PCB LAYOUT - DRN DM - ISS 1 (2).jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1975%20-%205-116-06-001%20-%20PCB%20LAYOUT%20-%20DRN%20DM%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1975%20-%205-116-06-001%20-%20PCB%20LAYOUT%20-%20DRN%20DM%20-%20ISS%201.jpg" alt="" data-f="Modules/ROUTING/M459/1975 - 5-116-06-001 - PCB LAYOUT - DRN DM - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1975 - 5-116-06-001 - PCB LAYOUT - DRN DM - ISS 1.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20459-02-002%20-%20M459A%20EFFECTS%20SWITCHER%20MODULE%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%202.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1976%20-%20459-02-002%20-%20M459A%20EFFECTS%20SWITCHER%20MODULE%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%202.jpg" alt="" data-f="Modules/ROUTING/M459/1976 - 459-02-002 - M459A EFFECTS SWITCHER MODULE SCHEMATIC - DRN GEB - ISS 2.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1976 - 459-02-002 - M459A EFFECTS SWITCHER MODULE SCHEMATIC - DRN GEB - ISS 2.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20459-02-002%20-%20M459A%20EFFECTS%20SWITCHER%20MODULE%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%203.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1976%20-%20459-02-002%20-%20M459A%20EFFECTS%20SWITCHER%20MODULE%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%203.jpg" alt="" data-f="Modules/ROUTING/M459/1976 - 459-02-002 - M459A EFFECTS SWITCHER MODULE SCHEMATIC - DRN GEB - ISS 3.jpg" data-size="320" onerror="wbsOff(this)">1976 - 459-02-002 - M459A EFFECTS SWITCHER MODULE SCHEMATIC - DRN GEB - ISS 3.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20B%20459-02%20-%20EFFECTS%20SW...%20MODULE%20SCH%20-%20DRN%20GEB%20%282%29.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1976%20-%20B%20459-02%20-%20EFFECTS%20SW...%20MODULE%20SCH%20-%20DRN%20GEB%20%282%29.jpg" alt="" data-f="Modules/ROUTING/M459/1976 - B 459-02 - EFFECTS SW... MODULE SCH - DRN GEB (2).jpg" data-size="320" onerror="wbsOff(this)">1976 - B 459-02 - EFFECTS SW... MODULE SCH - DRN GEB (2).jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20B%20459-02%20-%20EFFECTS%20SW...%20MODULE%20SCH%20-%20DRN%20GEB.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1976%20-%20B%20459-02%20-%20EFFECTS%20SW...%20MODULE%20SCH%20-%20DRN%20GEB.jpg" alt="" data-f="Modules/ROUTING/M459/1976 - B 459-02 - EFFECTS SW... MODULE SCH - DRN GEB.jpg" data-size="320" onerror="wbsOff(this)">1976 - B 459-02 - EFFECTS SW... MODULE SCH - DRN GEB.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20000%20-%20cover%20%282%29.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1976%20-%20M459%20-%20000%20-%20cover%20%282%29.jpg" alt="" data-f="Modules/ROUTING/M459/1976 - M459 - 000 - cover (2).jpg" data-size="320" onerror="wbsOff(this)">1976 - M459 - 000 - cover (2).jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20000%20-%20cover.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1976%20-%20M459%20-%20000%20-%20cover.jpg" alt="" data-f="Modules/ROUTING/M459/1976 - M459 - 000 - cover.jpg" data-size="320" onerror="wbsOff(this)">1976 - M459 - 000 - cover.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20001%20%282%29.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1976%20-%20M459%20-%20001%20%282%29.jpg" alt="" data-f="Modules/ROUTING/M459/1976 - M459 - 001 (2).jpg" data-size="320" onerror="wbsOff(this)">1976 - M459 - 001 (2).jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20001.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1976%20-%20M459%20-%20001.jpg" alt="" data-f="Modules/ROUTING/M459/1976 - M459 - 001.jpg" data-size="320" onerror="wbsOff(this)">1976 - M459 - 001.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20002%20%282%29.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1976%20-%20M459%20-%20002%20%282%29.jpg" alt="" data-f="Modules/ROUTING/M459/1976 - M459 - 002 (2).jpg" data-size="320" onerror="wbsOff(this)">1976 - M459 - 002 (2).jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20002.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1976%20-%20M459%20-%20002.jpg" alt="" data-f="Modules/ROUTING/M459/1976 - M459 - 002.jpg" data-size="320" onerror="wbsOff(this)">1976 - M459 - 002.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20003%20%282%29.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1976%20-%20M459%20-%20003%20%282%29.jpg" alt="" data-f="Modules/ROUTING/M459/1976 - M459 - 003 (2).jpg" data-size="320" onerror="wbsOff(this)">1976 - M459 - 003 (2).jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20003.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1976%20-%20M459%20-%20003.jpg" alt="" data-f="Modules/ROUTING/M459/1976 - M459 - 003.jpg" data-size="320" onerror="wbsOff(this)">1976 - M459 - 003.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20005.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1976%20-%20M459%20-%20005.jpg" alt="" data-f="Modules/ROUTING/M459/1976 - M459 - 005.jpg" data-size="320" onerror="wbsOff(this)">1976 - M459 - 005.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20006%20copy-91807389.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1976%20-%20M459%20-%20006%20copy-91807389.jpg" alt="" data-f="Modules/ROUTING/M459/1976 - M459 - 006 copy-91807389.jpg" data-size="320" onerror="wbsOff(this)">1976 - M459 - 006 copy-91807389.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20006%20copy.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1976%20-%20M459%20-%20006%20copy.jpg" alt="" data-f="Modules/ROUTING/M459/1976 - M459 - 006 copy.jpg" data-size="320" onerror="wbsOff(this)">1976 - M459 - 006 copy.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%2004-001.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1976%20-%20M459%20-%2004-001.jpg" alt="" data-f="Modules/ROUTING/M459/1976 - M459 - 04-001.jpg" data-size="320" onerror="wbsOff(this)">1976 - M459 - 04-001.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20459-02-001%20-%20VIDEO%20FOLLOW%20FILTER%20SELECTOP%20SCHEMATIC.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1976%20-%20M459%20-%20459-02-001%20-%20VIDEO%20FOLLOW%20FILTER%20SELECTOP%20SCHEMATIC.jpg" alt="" data-f="Modules/ROUTING/M459/1976 - M459 - 459-02-001 - VIDEO FOLLOW FILTER SELECTOP SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)">1976 - M459 - 459-02-001 - VIDEO FOLLOW FILTER SELECTOP SCHEMATIC.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20459-02-001%20-%20VIDEO%20FOLLOW%20FILTER%20SELECTOR%20SCHEMATIC.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1976%20-%20M459%20-%20459-02-001%20-%20VIDEO%20FOLLOW%20FILTER%20SELECTOR%20SCHEMATIC.jpg" alt="" data-f="Modules/ROUTING/M459/1976 - M459 - 459-02-001 - VIDEO FOLLOW FILTER SELECTOR SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)">1976 - M459 - 459-02-001 - VIDEO FOLLOW FILTER SELECTOR SCHEMATIC.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20459-02-002%20-%20FECTS%20SWITCHER%20DULE%20SCHEMATIC.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1976%20-%20M459%20-%20459-02-002%20-%20FECTS%20SWITCHER%20DULE%20SCHEMATIC.jpg" alt="" data-f="Modules/ROUTING/M459/1976 - M459 - 459-02-002 - FECTS SWITCHER DULE SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1976 - M459 - 459-02-002 - FECTS SWITCHER DULE SCHEMATIC.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20459-02-002%20-%20LAMP%20LEVELCTL%20LEVEL.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1976%20-%20M459%20-%20459-02-002%20-%20LAMP%20LEVELCTL%20LEVEL.jpg" alt="" data-f="Modules/ROUTING/M459/1976 - M459 - 459-02-002 - LAMP LEVELCTL LEVEL.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1976 - M459 - 459-02-002 - LAMP LEVELCTL LEVEL.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20459-02-002%20-%20PUT%20OUTPJT%20ISS-HOPCKD%20USED.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1976%20-%20M459%20-%20459-02-002%20-%20PUT%20OUTPJT%20ISS-HOPCKD%20USED.jpg" alt="" data-f="Modules/ROUTING/M459/1976 - M459 - 459-02-002 - PUT OUTPJT ISS-HOPCKD USED.jpg" data-size="320" onerror="wbsOff(this)">1976 - M459 - 459-02-002 - PUT OUTPJT ISS-HOPCKD USED.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20459-04-001%20-%20LISS%20MODIICKD%20USED.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1976%20-%20M459%20-%20459-04-001%20-%20LISS%20MODIICKD%20USED.jpg" alt="" data-f="Modules/ROUTING/M459/1976 - M459 - 459-04-001 - LISS MODIICKD USED.jpg" data-size="320" onerror="wbsOff(this)">1976 - M459 - 459-04-001 - LISS MODIICKD USED.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%205-116-06-001%20-%20IISS%20MOD.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1976%20-%20M459%20-%205-116-06-001%20-%20IISS%20MOD.jpg" alt="" data-f="Modules/ROUTING/M459/1976 - M459 - 5-116-06-001 - IISS MOD.jpg" data-size="320" onerror="wbsOff(this)">1976 - M459 - 5-116-06-001 - IISS MOD.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%205-116-06-001%20-%20WAAD-BECK%20SYSTEMB.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1976%20-%20M459%20-%205-116-06-001%20-%20WAAD-BECK%20SYSTEMB.jpg" alt="" data-f="Modules/ROUTING/M459/1976 - M459 - 5-116-06-001 - WAAD-BECK SYSTEMB.jpg" data-size="320" onerror="wbsOff(this)">1976 - M459 - 5-116-06-001 - WAAD-BECK SYSTEMB.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20M453A%20-%20M459%20-%20%2B24V%2024V%20CHASSIS%20-%20SCHEMATIC.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1976%20-%20M459%20-%20M453A%20-%20M459%20-%20%2B24V%2024V%20CHASSIS%20-%20SCHEMATIC.jpg" alt="" data-f="Modules/ROUTING/M459/1976 - M459 - M453A - M459 - +24V 24V CHASSIS - SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)">1976 - M459 - M453A - M459 - +24V 24V CHASSIS - SCHEMATIC.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20M459%20-%2079023-02-006%20-%20J2%20SHA%20ENG%20SRH%20EFFECTS%20SWITCHER%20-%20DOCUMENT.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1976%20-%20M459%20-%20M459%20-%2079023-02-006%20-%20J2%20SHA%20ENG%20SRH%20EFFECTS%20SWITCHER%20-%20DOCUMENT.jpg" alt="" data-f="Modules/ROUTING/M459/1976 - M459 - M459 - 79023-02-006 - J2 SHA ENG SRH EFFECTS SWITCHER - DOCUMENT.jpg" data-size="320" onerror="wbsOff(this)">1976 - M459 - M459 - 79023-02-006 - J2 SHA ENG SRH EFFECTS SWITCHER - DOCUMENT.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20VIDEO%20FOLLOW%20FILTER%20SELECTOR%20SCHEMATIC.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1976%20-%20M459%20-%20VIDEO%20FOLLOW%20FILTER%20SELECTOR%20SCHEMATIC.jpg" alt="" data-f="Modules/ROUTING/M459/1976 - M459 - VIDEO FOLLOW FILTER SELECTOR SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)">1976 - M459 - VIDEO FOLLOW FILTER SELECTOR SCHEMATIC.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1979%20-%20M459%20-%20730230-02-006%20-%20EFFECTS%20S-ITCHER%20CHEMATIC.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1979%20-%20M459%20-%20730230-02-006%20-%20EFFECTS%20S-ITCHER%20CHEMATIC.jpg" alt="" data-f="Modules/ROUTING/M459/1979 - M459 - 730230-02-006 - EFFECTS S-ITCHER CHEMATIC.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1979 - M459 - 730230-02-006 - EFFECTS S-ITCHER CHEMATIC.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1979%20-%20M459%20-%20790236-02-006%20%282%29.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1979%20-%20M459%20-%20790236-02-006%20%282%29.jpg" alt="" data-f="Modules/ROUTING/M459/1979 - M459 - 790236-02-006 (2).jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1979 - M459 - 790236-02-006 (2).jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/1979%20-%20M459%20-%20790236-02-006.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/1979%20-%20M459%20-%20790236-02-006.jpg" alt="" data-f="Modules/ROUTING/M459/1979 - M459 - 790236-02-006.jpg" data-size="320" onerror="wbsOff(this)">1979 - M459 - 790236-02-006.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/M459%20-%20004%20copy.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/M459%20-%20004%20copy.jpg" alt="" data-f="Modules/ROUTING/M459/M459 - 004 copy.jpg" data-size="320" onerror="wbsOff(this)">M459 - 004 copy.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/M459%20-%20005%20copy%281%29.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/M459%20-%20005%20copy%281%29.jpg" alt="" data-f="Modules/ROUTING/M459/M459 - 005 copy(1).jpg" data-size="320" onerror="wbsOff(this)">M459 - 005 copy(1).jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/M459%20-%20006%20copy-91807389%281%29.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/M459%20-%20006%20copy-91807389%281%29.jpg" alt="" data-f="Modules/ROUTING/M459/M459 - 006 copy-91807389(1).jpg" data-size="320" onerror="wbsOff(this)">M459 - 006 copy-91807389(1).jpg</a><a href="../viewer.html?f=Modules/ROUTING/M459/M459%20-%20006%20copy.jpg"><img loading="lazy" src="../Modules/ROUTING/M459/M459%20-%20006%20copy.jpg" alt="" data-f="Modules/ROUTING/M459/M459 - 006 copy.jpg" data-size="320" onerror="wbsOff(this)">M459 - 006 copy.jpg</a><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20459-02-002%20-%20FECTS%20SWITCHER%20DULE%20SCHEMATIC.jpg"><img loading="lazy" src="../Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20459-02-002%20-%20FECTS%20SWITCHER%20DULE%20SCHEMATIC.jpg" alt="" data-f="Consoles/1970-1979/790236 - Maryland L3242A/1979 - 790236 - 459-02-002 - FECTS SWITCHER DULE SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)">1979 - 790236 - 459-02-002 - FECTS SWITCHER DULE SCHEMATIC.jpg</a><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20459-02-002%20-%20LAMP%20LEVELCTL%20LEVEL.jpg"><img loading="lazy" src="../Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20459-02-002%20-%20LAMP%20LEVELCTL%20LEVEL.jpg" alt="" data-f="Consoles/1970-1979/790236 - Maryland L3242A/1979 - 790236 - 459-02-002 - LAMP LEVELCTL LEVEL.jpg" data-size="320" onerror="wbsOff(this)">1979 - 790236 - 459-02-002 - LAMP LEVELCTL LEVEL.jpg</a><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20459-02-002%20-%20INPUT%20OUTPUT.jpg"><img loading="lazy" src="../Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20459-02-002%20-%20INPUT%20OUTPUT.jpg" alt="" data-f="Consoles/1970-1979/790236 - Maryland L3242A/1979 - 790236 - 459-02-002 - INPUT OUTPUT.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1979 - 790236 - 459-02-002 - INPUT OUTPUT.jpg</a><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20459-02-002.jpg"><img loading="lazy" src="../Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20459-02-002.jpg" alt="" data-f="Consoles/1970-1979/790236 - Maryland L3242A/1979 - 790236 - 459-02-002.jpg" data-size="320" onerror="wbsOff(this)">1979 - 790236 - 459-02-002.jpg</a><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20459-02-002%20%282%29.jpg"><img loading="lazy" src="../Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20459-02-002%20%282%29.jpg" alt="" data-f="Consoles/1970-1979/790236 - Maryland L3242A/1979 - 790236 - 459-02-002 (2).jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1979 - 790236 - 459-02-002 (2).jpg</a></div>
+
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td>title-block date</td>
+<td><code>DATE AuG76</code></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20459-02-002%20-%20M459A%20EFFECTS%20SWITCHER%20MODULE%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%202%20%282%29.jpg">1976 - 459-02-002 - M459A EFFECTS SWITCHER MODULE SCHEMATIC - DRN GEB - ISS 2 (2).jpg</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Physical manual inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Location</th>
+<th>Status</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M459 - video follow filter selector</td>
+<td></td>
+<td>DUPLICATE</td>
+<td>Recently scanned and stiched by WB</td>
+</tr>
+<tr>
+<td>M459 - video follow filter selector</td>
+<td></td>
+<td></td>
+<td>Kylie did -  SCANNED BUT NEEDS STICHING</td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (40)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1975%20-%20459-04-001%20-%20ASSEMBLY%20-%20DRN%20DM%20%282%29.jpg">1975 - 459-04-001 - ASSEMBLY - DRN DM (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1975%20-%20459-04-001%20-%20ASSEMBLY%20-%20DRN%20DM%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1975%20-%20459-04-001%20-%20ASSEMBLY%20-%20DRN%20DM%20-%20ISS%201.jpg">1975 - 459-04-001 - ASSEMBLY - DRN DM - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1975%20-%20459-04-001%20-%20ASSEMBLY%20-%20DRN%20DM%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1975%20-%20459-04-001%20-%20ASSEMBLY%20-%20DRN%20DM.jpg">1975 - 459-04-001 - ASSEMBLY - DRN DM.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1975%20-%20459-04-001%20-%20ASSEMBLY%20-%20DRN%20DM.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1975%20-%205-116-06-001%20-%20PCB%20LAYOUT%20-%20DRN%20DM%20-%20ISS%201%20%282%29.jpg">1975 - 5-116-06-001 - PCB LAYOUT - DRN DM - ISS 1 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1975%20-%205-116-06-001%20-%20PCB%20LAYOUT%20-%20DRN%20DM%20-%20ISS%201%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1975%20-%205-116-06-001%20-%20PCB%20LAYOUT%20-%20DRN%20DM%20-%20ISS%201.jpg">1975 - 5-116-06-001 - PCB LAYOUT - DRN DM - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1975%20-%205-116-06-001%20-%20PCB%20LAYOUT%20-%20DRN%20DM%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20459-02-002%20-%20M459A%20EFFECTS%20SWITCHER%20MODULE%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%202%20%282%29.jpg">1976 - 459-02-002 - M459A EFFECTS SWITCHER MODULE SCHEMATIC - DRN GEB - ISS 2 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20459-02-002%20-%20M459A%20EFFECTS%20SWITCHER%20MODULE%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%202%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20459-02-002%20-%20M459A%20EFFECTS%20SWITCHER%20MODULE%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%202.jpg">1976 - 459-02-002 - M459A EFFECTS SWITCHER MODULE SCHEMATIC - DRN GEB - ISS 2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20459-02-002%20-%20M459A%20EFFECTS%20SWITCHER%20MODULE%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20459-02-002%20-%20M459A%20EFFECTS%20SWITCHER%20MODULE%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%203.jpg">1976 - 459-02-002 - M459A EFFECTS SWITCHER MODULE SCHEMATIC - DRN GEB - ISS 3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20459-02-002%20-%20M459A%20EFFECTS%20SWITCHER%20MODULE%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%203.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20B%20459-02%20-%20EFFECTS%20SW...%20MODULE%20SCH%20-%20DRN%20GEB%20%282%29.jpg">1976 - B 459-02 - EFFECTS SW... MODULE SCH - DRN GEB (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20B%20459-02%20-%20EFFECTS%20SW...%20MODULE%20SCH%20-%20DRN%20GEB%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20B%20459-02%20-%20EFFECTS%20SW...%20MODULE%20SCH%20-%20DRN%20GEB.jpg">1976 - B 459-02 - EFFECTS SW... MODULE SCH - DRN GEB.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20B%20459-02%20-%20EFFECTS%20SW...%20MODULE%20SCH%20-%20DRN%20GEB.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20000%20-%20cover%20%282%29.jpg">1976 - M459 - 000 - cover (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20000%20-%20cover%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20000%20-%20cover.jpg">1976 - M459 - 000 - cover.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20000%20-%20cover.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20001%20%282%29.jpg">1976 - M459 - 001 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20001%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20001.jpg">1976 - M459 - 001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20002%20%282%29.jpg">1976 - M459 - 002 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20002%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20002.jpg">1976 - M459 - 002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20003%20%282%29.jpg">1976 - M459 - 003 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20003%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20003.jpg">1976 - M459 - 003.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20005.jpg">1976 - M459 - 005.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20005.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20006%20copy-91807389.jpg">1976 - M459 - 006 copy-91807389.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20006%20copy-91807389.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20006%20copy.jpg">1976 - M459 - 006 copy.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20006%20copy.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%2004-001.jpg">1976 - M459 - 04-001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%2004-001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20459-02-001%20-%20VIDEO%20FOLLOW%20FILTER%20SELECTOP%20SCHEMATIC.jpg">1976 - M459 - 459-02-001 - VIDEO FOLLOW FILTER SELECTOP SCHEMATIC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20459-02-001%20-%20VIDEO%20FOLLOW%20FILTER%20SELECTOP%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20459-02-001%20-%20VIDEO%20FOLLOW%20FILTER%20SELECTOR%20SCHEMATIC.jpg">1976 - M459 - 459-02-001 - VIDEO FOLLOW FILTER SELECTOR SCHEMATIC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20459-02-001%20-%20VIDEO%20FOLLOW%20FILTER%20SELECTOR%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20459-02-002%20-%20FECTS%20SWITCHER%20DULE%20SCHEMATIC.jpg">1976 - M459 - 459-02-002 - FECTS SWITCHER DULE SCHEMATIC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20459-02-002%20-%20FECTS%20SWITCHER%20DULE%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20459-02-002%20-%20LAMP%20LEVELCTL%20LEVEL.jpg">1976 - M459 - 459-02-002 - LAMP LEVELCTL LEVEL.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20459-02-002%20-%20LAMP%20LEVELCTL%20LEVEL.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20459-02-002%20-%20PUT%20OUTPJT%20ISS-HOPCKD%20USED.jpg">1976 - M459 - 459-02-002 - PUT OUTPJT ISS-HOPCKD USED.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20459-02-002%20-%20PUT%20OUTPJT%20ISS-HOPCKD%20USED.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20459-04-001%20-%20LISS%20MODIICKD%20USED.jpg">1976 - M459 - 459-04-001 - LISS MODIICKD USED.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20459-04-001%20-%20LISS%20MODIICKD%20USED.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%205-116-06-001%20-%20IISS%20MOD.jpg">1976 - M459 - 5-116-06-001 - IISS MOD.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%205-116-06-001%20-%20IISS%20MOD.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%205-116-06-001%20-%20WAAD-BECK%20SYSTEMB.jpg">1976 - M459 - 5-116-06-001 - WAAD-BECK SYSTEMB.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%205-116-06-001%20-%20WAAD-BECK%20SYSTEMB.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20M453A%20-%20M459%20-%20%2B24V%2024V%20CHASSIS%20-%20SCHEMATIC.jpg">1976 - M459 - M453A - M459 - +24V 24V CHASSIS - SCHEMATIC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20M453A%20-%20M459%20-%20%2B24V%2024V%20CHASSIS%20-%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20M459%20-%2079023-02-006%20-%20J2%20SHA%20ENG%20SRH%20EFFECTS%20SWITCHER%20-%20DOCUMENT.jpg">1976 - M459 - M459 - 79023-02-006 - J2 SHA ENG SRH EFFECTS SWITCHER - DOCUMENT.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20M459%20-%2079023-02-006%20-%20J2%20SHA%20ENG%20SRH%20EFFECTS%20SWITCHER%20-%20DOCUMENT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20VIDEO%20FOLLOW%20FILTER%20SELECTOR%20SCHEMATIC.jpg">1976 - M459 - VIDEO FOLLOW FILTER SELECTOR SCHEMATIC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20VIDEO%20FOLLOW%20FILTER%20SELECTOR%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1979%20-%20M459%20-%20730230-02-006%20-%20EFFECTS%20S-ITCHER%20CHEMATIC.jpg">1979 - M459 - 730230-02-006 - EFFECTS S-ITCHER CHEMATIC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1979%20-%20M459%20-%20730230-02-006%20-%20EFFECTS%20S-ITCHER%20CHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1979%20-%20M459%20-%20790236-02-006%20%282%29.jpg">1979 - M459 - 790236-02-006 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1979%20-%20M459%20-%20790236-02-006%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1979%20-%20M459%20-%20790236-02-006.jpg">1979 - M459 - 790236-02-006.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1979%20-%20M459%20-%20790236-02-006.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/M459%20-%20004%20copy.jpg">M459 - 004 copy.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/M459%20-%20004%20copy.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/M459%20-%20005%20copy%281%29.jpg">M459 - 005 copy(1).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/M459%20-%20005%20copy%281%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/M459%20-%20006%20copy-91807389%281%29.jpg">M459 - 006 copy-91807389(1).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/M459%20-%20006%20copy-91807389%281%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/M459%20-%20006%20copy.jpg">M459 - 006 copy.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/M459%20-%20006%20copy.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Sub-assemblies &amp; parts used (1)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What</th>
+<th>Family</th>
+<th>Year</th>
+<th>How we know</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#5-116">5-116</a></td>
+<td>Iiss Mod</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1975|8</td>
+<td>drawing filed with it</td>
+</tr>
+</tbody>
+</table>
+<h2>Consoles &amp; jobs it is connected to (1)</h2>
+<p><em>Their own drawings name this module.</em></p>
+<table>
+<thead>
+<tr>
+<th>Job</th>
+<th>Year</th>
+<th>Drawing</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Job-790236.html">790236</a></td>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20459-02-002%20-%20FECTS%20SWITCHER%20DULE%20SCHEMATIC.jpg">1979 - 790236 - 459-02-002 - FECTS SWITCHER DULE SCHEMATIC.jpg</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (1)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../viewer.html?f=Products/RTO/RTO-144/19xx%20-%20RTO-144%20-%20Module%20RTO-144%20Jumper%20calculator.xlsx">19xx - RTO-144 - Module RTO-144 Jumper calculator.xlsx</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>Drawings (32)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="People.html#drawing-staff">Drawn by</a></th>
+<th><a href="People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>B 459-04-001</td>
+<td>M459 ASSEMBLY</td>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td><a href="Person-DM.html">DM</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1975%20-%20459-04-001%20-%20ASSEMBLY%20-%20DRN%20DM.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 459-04-001</td>
+<td>M459 ASSEMBLY</td>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td><a href="Person-DM.html">DM</a></td>
+<td><a href="Person-RNL.html">RNL</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1975%20-%20459-04-001%20-%20ASSEMBLY%20-%20DRN%20DM%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 459-04-001</td>
+<td>M459 ASSEMBLY</td>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td><a href="Person-DM.html">DM</a></td>
+<td><a href="Person-RNL.html">RNL</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1975%20-%20459-04-001%20-%20ASSEMBLY%20-%20DRN%20DM%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>C 5-116-06-001</td>
+<td>PCB LAYOUT</td>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td><a href="Person-DM.html">DM</a></td>
+<td><a href="Person-RPJ.html">RPJ</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1975%20-%205-116-06-001%20-%20PCB%20LAYOUT%20-%20DRN%20DM%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>C 5-116-06-001</td>
+<td>PCB LAYOUT</td>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td><a href="Person-DM.html">DM</a></td>
+<td><a href="Person-RPJ.html">RPJ</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1975%20-%205-116-06-001%20-%20PCB%20LAYOUT%20-%20DRN%20DM%20-%20ISS%201%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>459-02-002</td>
+<td>Lamp Levelctl Level</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20459-02-002%20-%20LAMP%20LEVELCTL%20LEVEL.jpg">file</a></td>
+</tr>
+<tr>
+<td>459-02-002</td>
+<td>Input Output</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20459-02-002%20-%20INPUT%20OUTPUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>459-02-002</td>
+<td>Lamp Levelctl Level</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20459-02-002%20-%20LAMP%20LEVELCTL%20LEVEL.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 459-02-</td>
+<td>M459 EFFECTS SW... / MODULE SCH...</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20B%20459-02%20-%20EFFECTS%20SW...%20MODULE%20SCH%20-%20DRN%20GEB.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 459-02-</td>
+<td>M459 EFFECTS SW... / MODULE SCH...</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20B%20459-02%20-%20EFFECTS%20SW...%20MODULE%20SCH%20-%20DRN%20GEB%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 459-02-002</td>
+<td>M459A / EFFECTS SWITCHER / MODULE SCHEMATIC</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20459-02-002%20-%20M459A%20EFFECTS%20SWITCHER%20MODULE%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 459-02-002</td>
+<td>M459A / EFFECTS SWITCHER / MODULE SCHEMATIC</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20459-02-002%20-%20M459A%20EFFECTS%20SWITCHER%20MODULE%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%202%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 459-02-002</td>
+<td>M459A / EFFECTS SWITCHER / MODULE SCHEMATIC</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20459-02-002%20-%20M459A%20EFFECTS%20SWITCHER%20MODULE%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Video Follow Filter Selector Schematic</td>
+<td></td>
+<td><a href="Person-D-DATE.html">D DATE</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20VIDEO%20FOLLOW%20FILTER%20SELECTOR%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/M459%20-%20004%20copy.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/M459%20-%20005%20copy%281%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/M459%20-%20006%20copy-91807389%281%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/M459%20-%20006%20copy.jpg">file</a></td>
+</tr>
+<tr>
+<td>459-02-001</td>
+<td>Video Follow Filter Selector Schematic</td>
+<td></td>
+<td><a href="Person-DM.html">DM</a></td>
+<td>AN</td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20459-02-001%20-%20VIDEO%20FOLLOW%20FILTER%20SELECTOR%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>459-02-001</td>
+<td>Video Follow Filter Selectop Schematic</td>
+<td></td>
+<td><a href="Person-DN.html">DN</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20459-02-001%20-%20VIDEO%20FOLLOW%20FILTER%20SELECTOP%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>459-02-002</td>
+<td>Fects Switcher Dule Schematic</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20459-02-002%20-%20FECTS%20SWITCHER%20DULE%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>459-02-002</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20459-02-002.jpg">file</a></td>
+</tr>
+<tr>
+<td>459-02-002</td>
+<td>Put Outpjt Iss-Hopckd Used</td>
+<td></td>
+<td></td>
+<td><a href="Person-RC.html">RC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20459-02-002%20-%20PUT%20OUTPJT%20ISS-HOPCKD%20USED.jpg">file</a></td>
+</tr>
+<tr>
+<td>459-02-002</td>
+<td>Fects Switcher Dule Schematic</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20459-02-002%20-%20FECTS%20SWITCHER%20DULE%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>459-02-002</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20459-02-002%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>459-04-001</td>
+<td>Liss Modiickd Used</td>
+<td></td>
+<td></td>
+<td><a href="Person-FA.html">FA</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20459-04-001%20-%20LISS%20MODIICKD%20USED.jpg">file</a></td>
+</tr>
+<tr>
+<td>5-116-06-001</td>
+<td>Waad-Beck Systemb</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%205-116-06-001%20-%20WAAD-BECK%20SYSTEMB.jpg">file</a></td>
+</tr>
+<tr>
+<td>5-116-06-001</td>
+<td>Iiss Mod</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%205-116-06-001%20-%20IISS%20MOD.jpg">file</a></td>
+</tr>
+<tr>
+<td>730230-02-006</td>
+<td>Effects S/Itcher Chematic</td>
+<td></td>
+<td></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1979%20-%20M459%20-%20730230-02-006%20-%20EFFECTS%20S-ITCHER%20CHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>730236-02-006</td>
+<td>Effects Switcher</td>
+<td></td>
+<td><a href="Person-ERH.html">ERH</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20M459%20-%2079023-02-006%20-%20J2%20SHA%20ENG%20SRH%20EFFECTS%20SWITCHER%20-%20DOCUMENT.jpg">file</a></td>
+</tr>
+<tr>
+<td>790236-02-006</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1979%20-%20M459%20-%20790236-02-006.jpg">file</a></td>
+</tr>
+<tr>
+<td>790236-02-006</td>
+<td></td>
+<td></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-RC.html">RC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1979%20-%20M459%20-%20790236-02-006%20%282%29.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M459&quot;,
+ &quot;name&quot;: &quot;VIDEO FOLLOW FILTER SELECTOR SCHEMATIC&quot;,
+ &quot;category&quot;: &quot;ROUTING&quot;,
+ &quot;year&quot;: 1976,
+ &quot;made_of&quot;: [
+  &quot;5-116&quot;
+ ],
+ &quot;part_of&quot;: [
+  &quot;790236&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1975 - 459-04-001 - ASSEMBLY - DRN DM (2).jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1975 - 459-04-001 - ASSEMBLY - DRN DM - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1975 - 459-04-001 - ASSEMBLY - DRN DM.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1975 - 5-116-06-001 - PCB LAYOUT - DRN DM - ISS 1 (2).jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1975 - 5-116-06-001 - PCB LAYOUT - DRN DM - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1976 - 459-02-002 - M459A EFFECTS SWITCHER MODULE SCHEMATIC - DRN GEB - ISS 2 (2).jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1976 - 459-02-002 - M459A EFFECTS SWITCHER MODULE SCHEMATIC - DRN GEB - ISS 2.jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1976 - 459-02-002 - M459A EFFECTS SWITCHER MODULE SCHEMATIC - DRN GEB - ISS 3.jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1976 - B 459-02 - EFFECTS SW... MODULE SCH - DRN GEB (2).jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1976 - B 459-02 - EFFECTS SW... MODULE SCH - DRN GEB.jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1976 - M459 - 000 - cover (2).jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1976 - M459 - 000 - cover.jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1976 - M459 - 001 (2).jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1976 - M459 - 001.jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1976 - M459 - 002 (2).jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1976 - M459 - 002.jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1976 - M459 - 003 (2).jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1976 - M459 - 003.jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1976 - M459 - 005.jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1976 - M459 - 006 copy-91807389.jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1976 - M459 - 006 copy.jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1976 - M459 - 04-001.jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1976 - M459 - 459-02-001 - VIDEO FOLLOW FILTER SELECTOP SCHEMATIC.jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1976 - M459 - 459-02-001 - VIDEO FOLLOW FILTER SELECTOR SCHEMATIC.jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1976 - M459 - 459-02-002 - FECTS SWITCHER DULE SCHEMATIC.jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1976 - M459 - 459-02-002 - LAMP LEVELCTL LEVEL.jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1976 - M459 - 459-02-002 - PUT OUTPJT ISS-HOPCKD USED.jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;modules&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1976 - M459 - 459-04-001 - LISS MODIICKD USED.jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1976 - M459 - 5-116-06-001 - IISS MOD.jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1976 - M459 - 5-116-06-001 - WAAD-BECK SYSTEMB.jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1976 - M459 - M453A - M459 - +24V 24V CHASSIS - SCHEMATIC.jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1976 - M459 - M459 - 79023-02-006 - J2 SHA ENG SRH EFFECTS SWITCHER - DOCUMENT.jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1976 - M459 - VIDEO FOLLOW FILTER SELECTOR SCHEMATIC.jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1979 - M459 - 730230-02-006 - EFFECTS S-ITCHER CHEMATIC.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1979 - M459 - 790236-02-006 (2).jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/1979 - M459 - 790236-02-006.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/M459 - 004 copy.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/M459 - 005 copy(1).jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/M459 - 006 copy-91807389(1).jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M459/M459 - 006 copy.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../_catalog/libcontrol/libcontrol.css"><script src="../_catalog/libcontrol/react.js"></script><script src="../_catalog/libcontrol/react-dom.js"></script><script src="../_catalog/libcontrol/libcontrol.js"></script><script src="../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M459.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

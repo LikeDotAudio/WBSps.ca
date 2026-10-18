@@ -1,0 +1,92 @@
+M920 INPUT MODULE PREAMPLIFIER                Revised:       May  1, 1996
+14-331-02-001/1                               Revision: 0
+Bill Of Materials                 June   10, 1996     8:05:00     Page    1
+
+ Item  Quantity  Reference                 Part                  
+__________________________________________________________________
+
+    1      17    CX1,CX2,CX3,CX4,CX7,CX8,  47/50                 
+                 CX9,CX10,CX13,CX18,CX21,
+                 CX22,CX57,CX58,CX64,CX69,
+                 CX71
+    2       8    CX5,CX6,CX11,CX12,CX19,   0.1                   
+                 CX20,CX26,CX27
+    3       3    CX14,CX15,CX16            470P                  
+    4       1    CX17                      1000P                 
+    5       8    RX21,RX23,CX23,RX25,RX95, SOT                   
+                 RX96,RX97,RX98
+    6       2    CX24,CX25                 4U7/10                
+    7       4    CX28,CX29,CX53,CX55       22P                   
+    8       6    CX30,CX31,CX32,CX33,CX34, 220/10                
+                 CX35
+    9      10    CX36,CX37,CX40,CX41,CX54, 0.1/50                
+                 CX56,CX59,CX61,CX65,CX67
+   10       2    CX38,CX39                 47P                   
+   11       3    CX42,CX43,CX46            68/10                 
+   12       2    CX44,CX45                 0.068                 
+   13       6    CX47,CX48,CX49,CX50,CX51, 10/50                 
+                 CX52
+   14       6    CX60,CX62,CX63,CX66,CX68, 22/25                 
+                 CX70
+   15       8    DX1,DX2,DX3,DX4,DX5,DX6,  1N752A                
+                 DX7,DX8
+   16       9    DX9,DX10,DX11,DX12,DX13,  1N4148                
+                 DX14,DX15,DX16,DX17
+   17       2    JP1,JP2                   BERG3                 
+   18       4    JX1,JX2,JX3,JX4           CON2                  
+   19       1    K1                        G6AK-234P-ST-US-5VDC  
+   20       4    P1,P2,P3,P4               65646-112             
+   21       5    QX1,QX2,QX4,QX8,QX9       2N3904                
+   22       1    QX3                       2N6731                
+   23       2    QX5,QX7                   2N3906                
+   24       1    QX6                       2N6730                
+   25       5    RX1,RX2,RX10,RX11,RX46    6K81 1%               
+   26       4    RX3,RX4,RX12,RX13         49R9 1%               
+   27       4    RX5,RX14,RX15,RX20        10K 1%                
+   28       4    RX6,RX7,RX16,RX17         1K58 1%               
+   29       4    RX8,RX9,RX18,RX19         150 1%                
+   30       1    RX22                      100 1/2W              
+   31      14    RX24,RX26,RX64,RX65,RX66, 100K                  
+                 RX69,RX70,RX71,RX76,RX78,
+                 RX84,RX87,RX89,RX94
+   32       6    RX27,RX28,RX29,RX30,RX31, 10K                   
+                 RX32
+   33       1    RX33                      7K5                   
+   34       1    RX34                      2K7                   
+   35      15    RX35,RX36,RX39,RX40,RX50, 16K2 1%               
+                 RX51,RX52,RX62,RX63,RX67,
+                 RX68,RX72,RX73,RX74,RX75
+   36       6    RX37,RX38,RX41,RX42,RX43, 100K 1%               
+                 RX44
+M920 INPUT MODULE PREAMPLIFIER                Revised:       May  1, 1996
+14-331-02-001/1                               Revision: 0
+Bill Of Materials                 June   10, 1996     8:05:00     Page    2
+
+ Item  Quantity  Reference                 Part                  
+__________________________________________________________________
+
+   37       2    RX45,RX49                 8K25 1%               
+   38       1    RX47                      5K                    
+   39       1    RX48                      82K5 1%               
+   40       1    RX53                      620K                  
+   41       1    RX54                      1K                    
+   42       1    RX55                      150K                  
+   43       1    RX56                      1M                    
+   44       2    RX57,RX59                 27K                   
+   45       2    RX58,RX60                 56K                   
+   46       1    RX61                      470K                  
+   47       4    RX77,RX79,RX80,RX81       30 1W                 
+   48       2    RX82,RX85                 22                    
+   49       2    RX83,RX86                 5K8                   
+   50       2    RX88,RX90                 9K1                   
+   51       1    RX91                      390                   
+   52       1    RX92                      3K9                   
+   53       1    RX93                      3K3                   
+   54       1    UX1                       74HC123               
+   55       1    UX2                       SSM2017P              
+   56       7    U1,U2,UX3,UX4,UX10,UX11,  MC14053               
+                 UX14
+   57       2    UX5,UX6                   LM833N                
+   58       2    UX7,UX13                  74HC00N               
+   59       1    UX8                       74HC14N               
+   60       1    UX12                      OPA2604               

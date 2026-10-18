@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Everything Finder</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap">
+<style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#d6d0c0; --link:#1f3f6b; --hl:#fff1a8; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:24px 16px 60px; color:var(--ink); font:14.5px/1.5 "Courier Prime","Courier New",monospace }
+.sheet { max-width:1100px; margin:0 auto; background:var(--paper); padding:clamp(18px,4vw,44px) clamp(14px,4vw,48px) 40px; box-shadow:0 18px 40px rgba(0,0,0,.5) }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:12px } a { color:var(--link) }
+h1 { font-size:21px; margin:0 0 6px; text-transform:uppercase; text-decoration:underline; text-underline-offset:6px }
+.lede { color:var(--faint); max-width:80ch; margin:6px 0 14px }
+.bar { position:sticky; top:0; background:var(--paper); padding:10px 0; border-bottom:1px solid var(--rule); display:flex; flex-wrap:wrap; gap:8px 14px; align-items:center; z-index:2 }
+.bar input[type=search] { font:inherit; font-size:16px; border:0; border-bottom:1.5px solid var(--ink); background:transparent; width:min(34ch, 100%); padding:2px 4px }
+.bar select, .bar label { font:inherit }
+#count { color:var(--faint) }
+ol { list-style:none; margin:0; padding:0 }
+li { padding:10px 0; border-bottom:1px dotted var(--rule) }
+li .n { font-weight:700; word-break:break-word }
+li .m { color:var(--faint); font-size:12.5px; word-break:break-word }
+li .t { margin-top:3px; font-size:13px } mark { background:var(--hl) }
+li .c span { display:inline-block; font-size:12px; border:1px solid var(--rule); padding:0 5px; margin:2px 3px 0 0 }
+button.more { font:inherit; margin:16px 0; padding:6px 14px; background:#ece6d2; border:1px solid var(--rule); cursor:pointer }
+.foot { margin-top:36px; text-align:center; color:var(--faint); font-size:13px }
+</style>
+</head>
+<body>
+<article class="sheet">
+  <div class="top"><a href="index.html">Index</a><a href="Home.html">Wiki home</a><a href="search.html">Search (filed files)</a><a href="timelines/timeline.html">Timeline</a><a href="status.html">Status</a></div>
+  <h1>Everything in the archive</h1>
+  <p class="lede" id="lede">Loading…</p>
+  <div class="bar">
+    <input type="search" id="q" placeholder="M466, CFTO, compressor, 1976…" aria-label="Search everything" autofocus>
+    <select id="type" aria-label="File type"><option value="">all types</option></select>
+    <select id="sec" aria-label="Manual section"><option value="">any section</option><option value="general">general description</option><option value="specs">specifications</option><option value="circuit">circuit description</option><option value="installation">installation</option><option value="operation">operation</option><option value="maintenance">maintenance &amp; alignment</option><option value="parts">parts list</option><option value="warranty">warranty</option></select>
+    <label><input type="checkbox" id="textonly"> with text only</label>
+    <label><input type="checkbox" id="unfiled"> not filed in 2026 only</label>
+    <span id="count"></span>
+  </div>
+  <ol id="list"></ol>
+  <button class="more" id="more" hidden>Show more</button>
+  <div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a></div>
+</article>
+<script src="_catalog/everything.js"></script>
+<script src="_catalog/drive_lookup.js"></script>
+<script>
+const R = window.EVERYTHING || [];
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const enc = p => p.split('/').map(encodeURIComponent).join('/');
+const size = b => b > 1e6 ? (b / 1e6).toFixed(1) + ' MB' : b > 1e3 ? Math.round(b / 1e3) + ' kB' : b + ' B';
+const withText = R.filter(r => r.t).length, filed = R.filter(r => r.k).length;
+$('lede').textContent = `${R.length.toLocaleString()} distinct files in WBSps.env (identical copies counted once). ` +
+  `${withText.toLocaleString()} have recovered text (documents, OCR, CAD labels); ${filed.toLocaleString()} are filed in 2026. ` +
+  `Search matches names, folders, codes, years and text.`;
+const types = {}; R.forEach(r => types[r.e] = (types[r.e] || 0) + 1);
+Object.entries(types).sort((a, b) => b[1] - a[1]).forEach(([e, n]) => { const o = document.createElement('option'); o.value = e; o.textContent = `${e || '(none)'} (${n})`; $('type').appendChild(o); });
+const hay = R.map(r => (r.n + ' ' + r.f + ' ' + r.c.join(' ') + ' ' + r.y.join(' ') + ' ' + r.t).toLowerCase());
+let hits = [], shown = 0;
+function mark(s, terms) { let h = esc(s); terms.forEach(t => { if (t.length > 1) h = h.replace(new RegExp(t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi'), m => `<mark>${m}</mark>`); }); return h; }
+function search() {
+  const terms = $('q').value.toLowerCase().split(/\s+/).filter(Boolean), ty = $('type').value, sec = $('sec').value;
+  hits = [];
+  for (let i = 0; i < R.length; i++) {
+    const r = R[i];
+    if (ty && r.e !== ty) continue;
+    if (sec && !(r.x || []).includes(sec)) continue;
+    if ($('textonly').checked && !r.t) continue;
+    if ($('unfiled').checked && r.k) continue;
+    if (terms.every(t => hay[i].includes(t))) hits.push(i);
+  }
+  $('count').textContent = `${hits.length.toLocaleString()} found`;
+  $('list').innerHTML = ''; shown = 0; more(terms);
+}
+function more(terms) {
+  terms = terms || $('q').value.toLowerCase().split(/\s+/).filter(Boolean);
+  const html = hits.slice(shown, shown + 100).map(i => { const r = R[i];
+    const open = r.k ? `<a href="viewer.html?f=${encodeURIComponent(r.k)}">open (filed copy)</a>` : `<a href="../WBSps.env/${enc(r.o)}">open original</a>`;
+    const drive = `<span class="drv" data-o="${esc(r.o)}"></span>`;   // filled in lazily: its copy on the archive's Google Drive
+    return `<li><div class="n">${mark(r.n, terms)}</div>
+      <div class="m">${esc(r.e.toUpperCase() || 'file')} · ${size(r.s)}${r.d ? ' · saved ' + r.d : ''} · ${mark(r.f, terms)} · ${open}${r.k ? ` · <a href="../WBSps.env/${enc(r.o)}">original</a>` : ''}${drive}</div>
+      ${r.c.length || r.y.length || (r.x || []).length ? `<div class="c">${r.c.map(c => `<span>${esc(c)}</span>`).join('')}${r.y.map(y => `<span>${y}</span>`).join('')}${(r.x || []).map(x => `<span>§ ${esc(x)}</span>`).join('')}</div>` : ''}
+      ${r.t ? `<div class="t">${mark(r.t, terms)}${r.t.length >= 360 ? '…' : ''}</div>` : ''}</li>`; }).join('');
+  $('list').insertAdjacentHTML('beforeend', html); shown += 100;
+  // look up the Drive copies of just these cards (one small shard each, cached)
+  if (window.driveLookup) $('list').querySelectorAll('.drv:not([data-done])').forEach(s => {
+    s.dataset.done = '1';
+    window.driveLookup('../WBSps.env/' + s.dataset.o).then(dv => {
+      if (dv) s.innerHTML = ` · <a href="https://drive.google.com/file/d/${dv[0]}/view${dv[1] ? '?resourcekey=' + dv[1] : ''}" target="_blank" rel="noopener">on Google Drive${dv[2] ? '' : ' (sign in)'}</a>`;
+    });
+  });
+  $('more').hidden = shown >= hits.length;
+}
+let timer; $('q').addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(search, 180); });
+['type', 'sec', 'textonly', 'unfiled'].forEach(id => $(id).addEventListener('change', search));
+$('more').onclick = () => more();
+// load the next cards by itself when the "Show more" button scrolls into view
+if ('IntersectionObserver' in window) {
+  const io = new IntersectionObserver(es => {
+    if (es.some(e => e.isIntersecting) && !$('more').hidden) {
+      $('more').click();
+      requestAnimationFrame(() => { io.unobserve($('more')); io.observe($('more')); });   // still in view? fire again
+    }
+  }, { rootMargin: '600px 0px' });
+  io.observe($('more'));
+}
+search();
+</script>
+<script src="_catalog/wbs_scan.js?v=7792b3a7"></script></body>
+</html>

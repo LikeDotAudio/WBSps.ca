@@ -1,0 +1,193 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M6202AE — HD/SD-SDI AES/EBU Audio Demuxer With Dolby Decoder</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>M6202AE — HD/SD-SDI AES/EBU Audio Demuxer With Dolby Decoder</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>product</td>
+</tr>
+<tr>
+<td>Series</td>
+<td><a href="Series-OPENGEAR.html">OPENGEAR</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../simulator.html?m=M6202AE">simulator &amp; front panel</a> · <a href="../_packages/M6202AE.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="Year-2015.html">2015|48</a> — copyright</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"©2015" in PUBLIC/Manuals + tech DOCUMENTS/openGear Series Manuals/M6202AE Manual _(1).docx</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="Year-2015.html">2015|48</a></td>
+</tr>
+<tr>
+<td>Variants</td>
+<td><a href="M6202A.html">M6202A</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../Products/OPENGEAR/M6202AE/index.html">Products/OPENGEAR/M6202AE</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections</h2>
+<p><em>What it is made of and what it is part of.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M6202AE" data-n="HD/SD-SDI AES/EBU Audio Demuxer With Dolby Decoder" data-cat="OPENGEAR"></div><svg class="wbs-panel" data-m="M6202AE" data-n="HD/SD-SDI AES/EBU Audio Demuxer With Dolby Decoder" data-cat="OPENGEAR" role="img" aria-label="M6202AE front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M6202AE","title":"HD/SD-SDI AES/EBU Audio Demuxer With Dolby Decoder","rto":null,"parts":[],"parents":[{"label":"M6202A","href":"M6202A.html","note":"on 2 drawings with it: HD/SD-SDI Demuxer w/Up T"}]}</script></div></div>
+<script src="wbs_spice.js"></script>
+
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-2015.html">2015|48</a></td>
+<td>copyright</td>
+<td><code>©2015</code></td>
+<td><a href="../viewer.html?f=Products/OPENGEAR/M6202AE/2015%20-%20M6202AE%20-%20Manual%20_%20%282%29.docx">2015 - M6202AE - Manual _ (2).docx</a></td>
+</tr>
+<tr>
+<td><a href="Year-2015.html">2015|48</a></td>
+<td>month &amp; year</td>
+<td><code>Jan.01 2015</code></td>
+<td><a href="../viewer.html?f=Products/OPENGEAR/M6202AE/2015%20-%20M6202AE%20-%20Manual%20_%20%282%29.docx">2015 - M6202AE - Manual _ (2).docx</a></td>
+</tr>
+<tr>
+<td><a href="Year-2015.html">2015|48</a></td>
+<td>copyright</td>
+<td><code>©2015</code></td>
+<td><a href="../viewer.html?f=Products/OPENGEAR/M6202AE/2015%20-%20M6202AE%20-%20Manual%20_.docx">2015 - M6202AE - Manual _.docx</a></td>
+</tr>
+<tr>
+<td><a href="Year-2015.html">2015|48</a></td>
+<td>month &amp; year</td>
+<td><code>Jan.01 2015</code></td>
+<td><a href="../viewer.html?f=Products/OPENGEAR/M6202AE/2015%20-%20M6202AE%20-%20Manual%20_.docx">2015 - M6202AE - Manual _.docx</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Documents (2)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2015|48</td>
+<td><a href="../viewer.html?f=Products/OPENGEAR/M6202AE/2015%20-%20M6202AE%20-%20Manual%20_%20%282%29.docx">2015 - M6202AE - Manual _ (2).docx</a></td>
+<td><a href="../viewer.html?f=Products/OPENGEAR/M6202AE/2015%20-%20M6202AE%20-%20Manual%20_%20%282%29.docx.md">note</a></td>
+</tr>
+<tr>
+<td>2015|48</td>
+<td><a href="../viewer.html?f=Products/OPENGEAR/M6202AE/2015%20-%20M6202AE%20-%20Manual%20_.docx">2015 - M6202AE - Manual _.docx</a></td>
+<td><a href="../viewer.html?f=Products/OPENGEAR/M6202AE/2015%20-%20M6202AE%20-%20Manual%20_.docx.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>General description (2)</h3>
+<details><summary>Description — 1325 words · 2015 - M6202AE - Manual _ (2).docx, page 1</summary><p>Card Communication Summary (Read Only)</p><p>M6202AE Product identification code</p><p>Card State (Green Dot) Ok Card is functioning properly and appropriate signals are connected</p><p>(Red Dot) SDI Unlocked SDI signal is not present</p><p>(Grey Dot) No connection to device Communication between card and Dashboard is unavailable</p><p>Connection (Green Dot) Online Communication between card, frame and Dashboard is unavailable</p><p>(Red Dot) Offline Communication between card and Dashboard is unavailable</p><p>(Grey Dot) No connection to frame Communication between frame and Dashboard is unavailable</p><p>3. Card Info Menu MENU ITEM DISPLAY</p><p>Card Info (Read Only) Product M6202AE Product identification code</p><p>Name MD-SDI Embedded Audio Demultiplexer w/ Dolby Decoding Product functional description</p><p>Manufacturer Ward-Beck Systems Inc. Manufacturer of the card</p><p>Software Rev. ### Three digit software revision code</p><p>Web site www.ward-beck.com Manufacturer’s web address</p><p>4. Card Status Menu MENU HEADING ITEM DISPLAY</p><p>General Tasks (Button) REFRESH When pressed, refreshes the dashboard display.</p><p>UPLOAD Reserved.</p><p>REBOOT When pressed, reboots the card.</p><p>CLOSE When pressed, closes monitor control window.</p><p>Application Processing Dolby Digital or Dolby E Audio with Dolby Decoder Enabled3981450361950 Set dip switch settings according to figure 5 to decode Dolby Digital or E audio. Dip switch [5,6] (AES5 / AES6 Selector &amp; Dolby Decoder Input Group Selector) selects the group location of the Dolby signal proceeded by the Dolby decoder. Dip switch 4 (Dolby Decoder Input AES Selector) selects the AES1 or AES2 location of the Dolby signal within the respective group. Embedded audio transitioning from Dolby to PCM/Compressed will automatically be detected and passed by the card using these settings. outputs AES1-4 will function according to table 2. AES5 and AES6 outputs will always function as the de-embedded output set by dip switch ⅚.</p><p>Creating Lt/Rt Downmix of the Main Audio Program using Dolby Decoder Toggle dip switch 2 to the ON position show in Figure 6, to create a Lt/Rt downmix of the main program (Program 1). A downmix will now be available on output AES4 OUT.</p><p>Dolby E Program Config or Dolby Digital coding mode Main Output Channel Assignment</p><p>AES1 OUT AES2OUT AES3 OUT *AES4 OUT</p><p>Ch 1 Ch 2 Ch 3 Ch 4 Ch 5 Ch 6 Ch 7 Ch 8 5.1 + 2 1L 1R 1C 1LFE 1Ls 1Rs 2L 2R 5.1 + 1 + 1 1L 1R 1C 1LFE 1Ls 1Rs 2C 3C 4 + 4 1L 1R 1C 1S 2C 2S 2L 2R 4 + 2 + 2 1L 1R 1C 1S 3L 3R 2L 2R 4 + 2 + 1 + 1 1L 1R 1C 1S 3C 4C 2L 2R 4 + 1 + 1 + 1 +1 1L 1R 1C 1S 4C 5C 2C 3C 2 + 2 + 2 + 2 1L 1R 3L 3R 4L 4R 2L 2R 2 + 2 + 2 + 1 + 1 1L 1R 3L 3R 4C 5C 2L 2R 2 + 2 + 1 + 1 + 1 + 1 1L 1R 3C 4C 5C 6C 2L 2R 2 + 1 + 1 + 1 + 1 + 1 + 1 1L 1R 4C 5C 6C 7C 2C 3C 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 1C 2C 3C 4C 5C 6C 7C 8C 5.1 1L 1R 1C 1LFE 1Ls 1Rs none none 4 + 2 1L 1R 1C 1S none none 2L 2R 4 + 1 + 1 1L 1R 1C 1S none none 2C 3C 2 + 2 + 2 1L 1R 3L 3R none none 2L 2R 2 + 2 + 1 + 1 1L 1R 3C 4C none none 2L 2R 2 + 1 + 1 + 1 + 1 1L 1R 4C 5C none none 2C 3C 1 + 1 + 1 + 1 + 1 + 1 1C 2C 3C 4C 5C 6C none none 4 1L 1R 1C 1S none none none none 2 + 2 1L 1R none none none none 2L 2R 2 + 1 + 1 1L 1R none none none none 2C 3C 1 + 1 + 1 + 1 1C 2C 3C 4C none none none none 3/2L (Dolby Digital) 1L 1R 1C 1LFE 1Ls 1Rs none none 3/2 (Dolby Digital) 1L 1R 1C none 1Ls 1Rs none none 2/2L (Dolby Digital) 1L 1R none 1LFE 1Ls 1Rs none none 2/2 (Dolby Digital) 1L 1R none none 1Ls 1Rs none none 3/1L (Dolby Digital) 1L 1R 1C 1LFE 1S none none none 3/1 (Dolby Digital) 1L 1R 1C none 1S none none none 2/1L (Dolby Digital) 1L 1R none 1LFE 1S none none none 2/1 (Dolby Digital) 1L 1R none none 1S none none none 3/0L (Dolby Digital) 1L 1R 1C 1LFE none none none none 3/0 (Dolby Digital) 1L 1R 1C none none none none none 2/0 (Dolby Digital) 1L 1R none none none none none none 1/0 (Dolby Digital) none none 1C none none none none none 1 + 1 (Dolby Digital) 1C 2C none none none none none none PCM 1L 1R none none none none none none * Note: When dip switch 2 is up, AES4 OUT functions as an Lt/Rt downmix and does not function according to table.</p><p>Table 2: Output Channel Assignment</p><p>Processing PCM or Dolby Audio with Dolby Decoder Disabled A three group demux is available on the AES 1-6 outputs with the Dolby decoder disabled. Set dip switch settings according to Figure 7. Dip switch [5,6] (AES5 / AES6 Selector &amp; Dolby Decoder Input Group Selector) selects the audio group of AES5 OUT and AES6 OUT. Dip switch 4 has no effect in this mode. Refer to section Dip Switch Settings for full details. The AES 1-6 outputs will function according to table 3 below.</p><p>Name of Output Audio Description AES1 OUT Embedded Group 1, AES1 AES2 OUT Embedded Group 1, AES2 AES3 OUT Embedded Group 2,AES1 AES4 OUT Embedded Group 2, AES2 AES5 OUT Selectable via dip switch 5,6 AES6 OUT Selectable via dip switch 5,6 Table 3</p><p>Technical Specifications</p><p>AES/EBU OUTPUTS</p><p>Output Impedance 75 Ohm or 110 Ohm transformer balanced Output Level 1 V p-p terminated Standard AES3ID-1995</p><p>METADATA OUTPUT</p><p>Type 3-pin Phoenix connector female Standard RS-485 Bit Rate 115.2 kbps</p><p>SDI INPUT/ OUTPUT (RE-CLOCKED)</p><p>Connector Type BNC Female Format (HD-SDI) 1920 x 1080: 60, 59.94, 50 Hz 1280 x 720: 60, 59.94 Hz Format (SD-SDI) 625-270, 525-270 Impedance</p><p>Input Level 75 Ohm Max Cable Length 0.8 Vp-p Output Jitter (HD) 100 m Output Jitter (SD) Less than 200 ps Less than 950 ps Standard HD-SDI as per SMPTE 292M SD-SDI as per SMPTE 259M</p><p>GENERAL</p><p>Dimensions 3.025” high x 12.800” deep Power Requirements +12V, 4 Watts, MAX Weight approx. 0.145 kg (.319 lbs)</p><p>Ward-Beck Systems Inc. reserves the right to change performance specifications without prior notice. Warranty and Repair Policy</p><p>The openGear M6202AE is warranted to be free of any defect with respect to performance, quality, reliability, and workmanship for a period of FIVE (5) years from the date of shipment from our factory.  In the event that your openGear M6202AE proves to be defective in any way during this warranty period, Ward-Beck Sy</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Products/OPENGEAR/M6202AE/2015%20-%20M6202AE%20-%20Manual%20_%20%282%29.docx">2015 - M6202AE - Manual _ (2).docx</a>, p. 1</li>
+<li>also in: <a href="../viewer.html?f=Products/OPENGEAR/M6202AE/2015%20-%20M6202AE%20-%20Manual%20_.docx">2015 - M6202AE - Manual _.docx</a>, p. 1</li>
+</ul>
+<h3>Operation (2)</h3>
+<details><summary>Controls — 704 words · 2015 - M6202AE - Manual _ (2).docx, page 1</summary><p>“DIP switch settings” section of this manual.</p><p>Figure 2. Rear Modules Board Installation Use the following procedure to install the M6202AE in an openGear Series frame.  Refer to the User Manual of the openGear OG3-FR-C series frame to ensure that the frame is properly installed according to instructions.  When using the M6202AE with the OG3-FR-C frame, please note that the even numbered slots are to be used.   Plug the M6202AE modules into slots 2,4,6,8,10,12,14,16,18, and 20 for a maximum of 10 cards.  Slot 1 is the left most slot as you look into the frame from the front. After selecting the desired frame installation slot, hold the M6202AE card by the edges and carefully align the card edges with the slots in the frame.  Then fully insert the card into the frame until the rear connection plugs are properly seated on the midplane and on the rear module. This completes the procedure for installing the M6202AE in an openGear OG3-FR-C Series frame. User Controls User Control Diagram Figure 3.  Card-edge User Controls LEDs The front-edge of the card features LEDs that display the status of the input signals. As selections are made in the menus, (refer to the subsequent chapter for complete menu  descriptions), the LEDs display the status of the input signals. Descriptions are provided in the following table:</p><p>LED Color Location  Display and Description SD Green Top of the card When on there is a valid SD-SDI signal at the input.</p><p>HD Green Second from the top When on there is a valid HD-SDI signal at the input.</p><p>ERR Red Third from the top When on a valid SD-SDI or HD-SDI signal is not present AES1 Yellow Fourth from the top When on this indicates there is audio present within the SDI signal AES2 Yellow Fifth from the top When on this indicates there is audio present within the SDI signal AES3 Yellow Sixth from the top When on this indicates there is audio present within the SDI signal AES4 Yellow Seventh from the top When on this indicates there is audio present within the SDI signal Com Activity Green Eighth from the top When on this indicates that the M6202AE is communicating to Dashboard through the CAN bus. Error Red Ninth from the top When on this indicates that there is an error in the communications to Dashboard through the CAN bus. Table 1:  Status LED Descriptions DIP switch settings</p><p>SW1 Reserved SW2 Program 7 and 8 / Downmix Selector SW3 Dolby Enable SW4 Dolby Decoder Input AES Selector</p><p>SW5 AES5/AES6 MSB Selector&amp; Dolby Decoder Input Group Selector SW6 AES5 / AES6 LSB Selector &amp; Dolby Decoder Input Group Selector SW7 Reserved SW8 Reserved</p><p>Program 7 and 8 / Downmix Selector SW2</p><p>ON Lt/Rt Downmix on AES4 OFF Program7 and 8 on AES4</p><p>Dolby Enable SW3</p><p>ON Dolby decoding enabled OFF Dolby decoding disabled</p><p>Dolby Decoder AES1 / AES2 Selector SW4</p><p>ON Decode embedded AES2 of selected group OFF Decode embedded AES1 of selected group</p><p>AES5 / AES6 OUT Group Selector &amp; Dolby Decoder Input Group Selector SW5, SW6</p><p>MSB (SW5) LSB (SW6) Group 1 OFF OFF 1(Default)  2 OFF ON 2 3 ON OFF 3 4 ON ON 4</p><p>Remote Control General Information This card may be monitored by a remote computer through Dashboard version 2.2.1 or higher. This free configuration monitoring software is available to openGear users at www.opengear.tv and is compatible with operating systems such as Windows, Linux and Mac.</p><p>The Dashboard control system is built on Ethernet and TCP/IP, allowing remote access across both LAN and WAN architectures. Multiple frames and cards can be connected to multiple control and monitoring stations at once.</p><p>Dashboard Control</p><p>The five sections pertinent to card control monitoring are shown in Figure 8 below: Basic Tree View Card Communication Summary Card Info Menu Card Status Menu General Tasks</p><p>Figure 4.  Dashboard Remote Monitoring User Interface</p><p>1. BasicTree View The basic tree view lists all frames connected remotely to Dashboard. Double-click the frame corresponding to the M6202AE card. An expanded list of all cards connected to the frame will appear. Locate the card labelled M6202AE and double-click to open the control monitoring panels for this card.</p><p>2. Card Communication Summary MENU ITEM DISPLAY</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Products/OPENGEAR/M6202AE/2015%20-%20M6202AE%20-%20Manual%20_%20%282%29.docx">2015 - M6202AE - Manual _ (2).docx</a>, p. 1</li>
+<li>also in: <a href="../viewer.html?f=Products/OPENGEAR/M6202AE/2015%20-%20M6202AE%20-%20Manual%20_.docx">2015 - M6202AE - Manual _.docx</a>, p. 1</li>
+</ul>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M6202AE&quot;,
+ &quot;name&quot;: &quot;HD/SD-SDI AES/EBU Audio Demuxer With Dolby Decoder&quot;,
+ &quot;category&quot;: &quot;OPENGEAR&quot;,
+ &quot;year&quot;: 2015,
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Products/OPENGEAR/M6202AE/2015 - M6202AE - Manual _ (2).docx&quot;,
+   &quot;year&quot;: 2015,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/OPENGEAR/M6202AE/2015 - M6202AE - Manual _.docx&quot;,
+   &quot;year&quot;: 2015,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../_catalog/libcontrol/libcontrol.css"><script src="../_catalog/libcontrol/react.js"></script><script src="../_catalog/libcontrol/react-dom.js"></script><script src="../_catalog/libcontrol/libcontrol.js"></script><script src="../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M6202AE.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

@@ -1,0 +1,53 @@
+{
+  "code": "M462C",
+  "series": null,
+  "type": "M462C-M562C - Stereo Equalizer",
+  "row_count": null,
+  "impedance": {
+    "out": 600
+  },
+  "note": null,
+  "audio": [
+    {
+      "port": "A1",
+      "signal": "EQ IN LEFT",
+      "dir": "in",
+      "pos": "1",
+      "neg": "2",
+      "pad_pos": "1.A.1.P",
+      "pad_neg": "2.A.1.N"
+    },
+    {
+      "port": "A2",
+      "signal": "EQ OUT LEFT",
+      "dir": "out",
+      "pos": "12",
+      "neg": "13",
+      "pad_pos": "12.A.2.P",
+      "pad_neg": "13.A.2.N"
+    },
+    {
+      "port": "A3",
+      "signal": "EQ IN Right",
+      "dir": "in",
+      "pos": "4",
+      "neg": "5",
+      "pad_pos": "4.A.3.P",
+      "pad_neg": "5.A.3.N"
+    },
+    {
+      "port": "A4",
+      "signal": "EQ OUT Right",
+      "dir": "out",
+      "pos": "15",
+      "neg": "16",
+      "pad_pos": "15.A.4.P",
+      "pad_neg": "16.A.4.N"
+    }
+  ],
+  "bus_out": [],
+  "bus_in": [],
+  "power": [],
+  "jumpers": [],
+  "logic": []
+}

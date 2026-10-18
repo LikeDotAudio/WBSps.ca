@@ -1,0 +1,1 @@
+window.WBS_FOLDER={"d":"Consoles/1990-1999/920342 - Motorolla Central Switch Project No. (1of4)","f":[["1992 - 920342 - DOC - 920342-01-001 - PUTS SPARE JACKS FROM CONSOLES JALKS (traced).dxf",""],["1992 - 920342 - DOC - 920342-01-001 - PUTS SPARE JACKS FROM CONSOLES JALKS.jpg",""]]};

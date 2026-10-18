@@ -1,0 +1,138 @@
+# 19xx - 900-03-315 - TV SERIES METER PANELS (STANDARD) - DRN DRG - ISS 1.jpg
+Wiki page: [M900](../../../PAGES/M900.md)
+
+
+- **Year:** unknown (title block (read by eye))
+- **Module:** M900
+- **Category:** UNSORTED
+- **Module year estimate:** unknown —
+
+## Title block (found by software, read by eye)
+
+- **Drawing:** D 900-03-315
+- **Size:** D
+- **Title:** TV SERIES / METER PANELS (STANDARD)
+- **Drawn:** DRG
+- **Issue:** 1
+- **Confidence:** high
+
+- **Original file:** `WBSps.env/WBS Photos-1-001/WBSps.ca 20210319 -  (13).jpg`
+- **SHA-256:** `27eeeec9d6eb3ac90b4990751c792a33b36e9450f2ebe28f81cb6a9b6453c77a`
+- **Size:** 443,159 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 1 words corrected)
+
+```text
+13
+0.150 DIA
+REQ'D
+8
+L00 0.500 DATUM
+39 ~4
+3 22
+8 S8
+{ 58 85
+2
+28 53
+8 1
+DATUM
+1,228
+DETAIL
+2.796
+2.,394
+4.928
+392
+8.41
+PUNCH 0.375 Dia
+REQ"D
+"PE" Studi NsRt448042 THISSSIDE STUD #FH-440-12 REQ'D
+PUNCH 0-500 S0
+3 8 3
+PUNCH 3.330 1.715
+17 REC"D
+83 53
+1
+088
+(SEE Body OF DIG)
+060
+0.035
+DETAIL
+2.060
+2.330
+MATERIAL: ALUM ALLOY 0.080 THICK
+FINISH: SAND 120 GRIT AND PAINT TEXTURED BEIGE (452C) TEXCOTE VNYL (MEDIUM TEXTURE) NOTE. REMOVE ALL BURRS AND SHARP EDGES; TOLERANCES: X5+/_0.015 XXXet /-0.005 FOR SILKSCREEN SEE:  #900_08
+SSUEI DATE
+REVSICN
+APP.
+0.245
+1.570
+0.3YRRAD
+WBS
+WARD-BECK  SYSTEMS
+DRN: ENG CKo
+TV  SERIES METER PANELS (STANDARD) SCALE DISC_NO: Sts01 ISSUE 1: 2 CoDf; 900-03-315 CEe
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+13
+0.150 DIA
+REQ'D
+8
+L00 0.500 DATUM
+39 ~4
+3 22
+8 S8
+{ 58 85
+2
+28 53
+8 1
+DATUM
+1,228
+DETAIL
+2.796
+2.,394
+4.928
+392
+8.41
+PUNCH 0.375 Dia
+REQ"D
+"PE" Studi NsRt448042 THISSSIDE STUD #FH-440-12 REQ'D
+PUNCH 0-500 S0
+3 8 3
+PUNCH 3.330 1.715
+17 REC"D
+83 53
+1
+088
+(SEE Body OF DIG)
+060
+0.035
+DETAIL
+2.060
+2.330
+MATERIAL: ALUM ALLOY 0.080 THICK
+FINISH: SAND 120 GRIT AND PAINT TEXTURED BEIGE (452C) TEXCOTE VNYL (MEDIUM TEXTURE) NOTE. REMOVE ALL BURRS AND SHARP EOGES; TOLERANCES: X5+/_0.015 XXXet /-0.005 FOR SILKSCREEN SEE:  #900_08
+SSUEI DATE
+REVSICN
+APP.
+0.245
+1.570
+0.3YRRAD
+WBS
+WARD-BECK  SYSTEMS
+DRN: ENG CKo
+TV  SERIES METER PANELS (STANDARD) SCALE DISC_NO: Sts01 ISSUE 1: 2 CoDf; 900-03-315 CEe
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/UNSORTED/M900/19xx - 900-03-315 - TV SERIES METER PANELS (STANDARD) - DRN DRG - ISS 1.jpg","sha256":"27eeeec9d6eb3ac90b4990751c792a33b36e9450f2ebe28f81cb6a9b6453c77a","kind":"module","models":["M900"],"pages":1,"order":[{"page":1,"title_block":[{"number":"D 900-03-315","type":"wiring","title":"TV SERIES / METER PANELS (STANDARD)","drawn":"DRG","issue":"1"}],"text":["DATUL","DETA","440C12 FUNcK","W8","DETAIL","MATERIAL: ALUM ALLOY 0.080 THICK","FINISH; SAND GRIT AND PAINT","TEXTURED   BEICE (452C) Sse DATE","TEXCOTE MNY. WBS WARD-BECK   SYSTEMS","(MEDIUM TEXTURE)","BLaRS ELSES Tv SERIES","SLSCRFFN METER PANELS (STANDARD)","1.2 CCDL: 900-03-315"]}],"drawing":{"svg":"_traces/27eeeec9d6eb3ac9.svg","viewBox":[2000,1240],"rotate":0,"size":"D","number":"D 900-03-315","title":"TV SERIES / METER PANELS (STANDARD)","dtype":"03","outlines":"see _traces/27eeeec9d6eb3ac9.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/27eeeec9d6eb3ac9.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[210,315,"DATUL"],[1588,380,"DETA"],[529,606,"440C12"],[1658,600,"FUNcK"],[1582,650,"W8"],[786,941,"DETAIL"],[159,1016,"MATERIAL:"],[234,1016,"ALUM"],[276,1016,"ALLOY 0.080 THICK"],[159,1044,"FINISH;"],[211,1044,"SAND"],[284,1046,"GRIT AND PAINT"],[1512,1048,"Sse DATE"],[211,1061,"TEXTURED   BEICE (452C)"],[211,1074,"TEXCOTE MNY."],[1466,1079,"WBS"],[1569,1079,"WARD-BECK   SYSTEMS"],[211,1089,"(MEDIUM TEXTURE)"],[230,1107,"BLaRS"],[318,1107,"ELSES"],[1606,1119,"Tv SERIES"],[192,1125,"SLSCRFFN"],[1536,1136,"METER"],[1594,1139,"PANELS (STANDARD)"],[1449,1171,"1.2"],[1481,1174,"CCDL:"],[1606,1171,"900-03-315"]]}}
+```

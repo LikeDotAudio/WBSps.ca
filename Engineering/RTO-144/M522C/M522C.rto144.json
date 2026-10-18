@@ -1,0 +1,70 @@
+{
+  "code": "M522C",
+  "series": null,
+  "type": "Stereo Equalizer",
+  "row_count": null,
+  "impedance": {},
+  "note": null,
+  "audio": [
+    {
+      "port": "A1",
+      "signal": "Left(Mono) IN",
+      "dir": "in",
+      "pos": "4",
+      "neg": "5",
+      "pad_pos": "4.A.1.P",
+      "pad_neg": "5.A.1.N"
+    },
+    {
+      "port": "A2",
+      "signal": "LEFT(MONO) OUT",
+      "dir": "out",
+      "pos": "6",
+      "neg": "7",
+      "pad_pos": "6.A.2.P",
+      "pad_neg": "7.A.2.N"
+    },
+    {
+      "port": "A3",
+      "signal": "Right IN",
+      "dir": "in",
+      "pos": "9",
+      "neg": "10",
+      "pad_pos": "9.A.3.P",
+      "pad_neg": "10.A.3.N"
+    },
+    {
+      "port": "A4",
+      "signal": "Right Out",
+      "dir": "out",
+      "pos": "11",
+      "neg": "12",
+      "pad_pos": "11.A.4.P",
+      "pad_neg": "12.A.4.N"
+    }
+  ],
+  "bus_out": [],
+  "bus_in": [],
+  "power": [
+    {
+      "rail": "VEE-AUDIO",
+      "style": "NEW",
+      "volts": -25,
+      "max_a": 0.2,
+      "supply": "19",
+      "ground": "20",
+      "link": 2
+    },
+    {
+      "rail": "VCC-AUDIO",
+      "style": "NEW",
+      "volts": 25,
+      "max_a": 0.2,
+      "supply": "21",
+      "ground": "20",
+      "link": 1
+    }
+  ],
+  "jumpers": [],
+  "logic": []
+}

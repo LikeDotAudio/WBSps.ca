@@ -1,0 +1,128 @@
+# 1995 - 950250-03-001 - METER PANEL - DRN DRG - ISS 1.jpg
+Wiki page: [Job-950250](../../../PAGES/Job-950250.md)
+
+
+- **Year:** 1995 (title block date)
+- **Job / serial number:** 950250
+- **Project:** —
+
+## Title block (found by software, read by eye)
+
+- **Drawing:** D 950250-03-001
+- **Size:** D
+- **Title:** METER PANEL
+- **Date:** 7/95
+- **Drawn:** DRG(7/95)
+- **Issue:** 1
+- **Confidence:** high
+
+- **Original file:** `WBSps.env/WBS Photos-1-001/2021-3-16-23-50-0.jpg`
+- **SHA-256:** `3a266539804c81c03d1268bb77b3e3cbd6478ea198477cd0d756048e806702c7`
+- **Size:** 372,458 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 3 words corrected)
+
+```text
+0.150 DIA
+REQ"D
+3
+3
+8 8
+33
+0.500 DATUM
+2
+2
+3
+3
+4
+3
+DATUM
+DETAIL
+DETAIL
+3388 2.950
+PUNCH 3.720
+2.000
+REQ"D
+150
+4150
+0.583
+0.583
+PUNCH 0.985 (0.032 RADS)
+PUNCH 0.985 (0.032 RADS)
+DETAIL
+DETAIL
+"PEV1 Dinud NSERT448918 DLA INSERT FROM THIS SIDE REQ'D
+~Pew" INSERT [4E898 ThIS STUO #FH- REQo
+0.130 PREQ D
+0.130 "REQo
+0.675
+PITCH(O.700)
+025
+PITCH(0.700)
+MATERIAL: ALUM ALLOY 0.080 THICK FINISH: SAND 120 GRIT AND PAINT TEXTURED BEIGE (452C) TEXCOTE VINYL.
+SSUE] DATE REMSION APP; WBS WARD-BECK   SYSTEMS
+DRN: DRG(7 /95)
+METER PANEL
+NOTE REMOVE ALL BURRS AND SHARP EDGES: TOLERANCES; XXat / 015 X7x=t 0.005 FOR S/s ARTWORK SEE 950250 08-001.
+SCALE DISC NO; STs01 1: 2 COOE: 0525Ch0
+ISSUE 950250-03- 001
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+0.150 DIA
+REQ"D
+3
+3
+8 8
+33
+0.500 DATUM
+2
+2
+3
+3
+4
+3
+DATUM
+DETAIL
+DETAIL
+3388 2.950
+PUNCH 3.720
+2.000
+REQ"D
+150
+4150
+0.583
+0.583
+PUNCH 0.985 (0.032 RADS)
+PUNCH 0.985 (0.032 RADS)
+DETAIL
+DETAIL
+"PEV1 Dinud NSERT448918 DLA INSERT FROM THIS SIDE REQ'D
+~Pew" INSERT [4E898 ThIS STUO #FH- REQo
+0.130 PREQ D
+0.130 "REQo
+0.675
+PITCH(O.700)
+025
+PITCH(0.700)
+MATERIAL: ALUM ALLOY 0.080 THICK FINISH: SAND 120 GRIT AND PAINT TEXTURED BEIGE (452C) TEXCOTE VINYL.
+SSUE] DATEL REMSION APP; WBS WARD-BECK   SYSTEMS
+DRN: DRG(7 /95)
+METER PANEL
+NOTE REVOVE ALL BURRS AND SHARP EDGES: TOLERANCES; XXat / 015 X7x=t 0.005 FOR S/s ARTWIORK SEE 950250 08-001.
+SCALE DISC NO; STs01 1: 2 COOE: 0525Ch0
+ISSUE 950250-03- 001
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"Consoles/1990-1999/950250/1995 - 950250-03-001 - METER PANEL - DRN DRG - ISS 1.jpg","sha256":"3a266539804c81c03d1268bb77b3e3cbd6478ea198477cd0d756048e806702c7","kind":"job","models":["950250"],"year":1995,"pages":1,"order":[{"page":1,"title_block":[{"number":"D 950250-03-001","type":"wiring","title":"METER PANEL","date":"7/95","year":1995,"drawn":"DRG","issue":"1"}],"text":["2 Rzo\"D","0 507","DATUU","RFOD","0,305","0,985","DETAIL DETAIL","INsrT","PITC-{0.7C0) (J) = 0.875","MATERIAL: ALUM ALLOY 0.080 Thick","PAINT WBS WARD-BECK   SYSTEMS","FINISH: SAND 120 GRIT AND TEXTURED BEIGE (452C)","TEXCOTE MNYL:","METER PANEL","RURRS","+-001s 950250-03-001"]}],"drawing":{"svg":"_traces/3a266539804c81c0.svg","viewBox":[2000,1284],"rotate":0,"size":"D","number":"D 950250-03-001","title":"METER PANEL","dtype":"03","outlines":"see _traces/3a266539804c81c0.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/3a266539804c81c0.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[531,484,"Rzo\"D"],[300,543,"0 507"],[285,620,"DATUU"],[1362,775,"RFOD"],[650,933,"0,305"],[578,973,"0,985"],[1291,986,"DETAIL"],[736,996,"DETAIL"],[1042,1020,"INsrT"],[1209,1096,"0.875"],[731,1104,"PITC-{0.7C0) (J) ="],[239,1149,"MATERIAL:"],[316,1150,"ALUM ALLOY 0.080 Thick"],[239,1179,"FINISH:"],[294,1179,"SAND 120 GRIT AND"],[441,1177,"PAINT"],[1626,1174,"WBS"],[1734,1172,"WARD-BECK   SYSTEMS"],[294,1194,"TEXTURED BEIGE (452C)"],[296,1209,"TEXCOTE"],[361,1206,"MNYL:"],[1761,1221,"METER PANEL"],[315,1243,"RURRS"],[345,1253,"+-001s"],[1764,1267,"950250-03-001"]]}}
+```

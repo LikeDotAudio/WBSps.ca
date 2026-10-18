@@ -1,0 +1,43 @@
+{
+  "board": "14-266 - AP93001",
+  "title": "",
+  "format": "tango",
+  "sha256": "6229aa0d0bbff5d01288388325e9846005c1307042c30f91ccd77563c4fd7b08",
+  "source": "WBSps Engineering from H drive/Wbsps - MASTERS/AP93001/14-266.PCB",
+  "copies": [
+    "WBSps Engineering from H drive/Wbsps - MASTERS/AP93001/14-266.PCB",
+    "WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/Wbsps - MASTERS/AP93001/14-266.PCB"
+  ],
+  "kicad_pcb": "14-266 - AP93001/14-266.kicad_pcb",
+  "netlist": null,
+  "convert": {
+    "source": "/home/anthony/Documents/GitProjects/WBSps.ca/WBSps.env/WBSps Engineering from H drive/Wbsps - MASTERS/AP93001/14-266.PCB",
+    "kicad_pcb": "/home/anthony/Documents/GitProjects/WBSps.ca/2026/Engineering/PCB/14-266 - AP93001/14-266.kicad_pcb",
+    "format": "Tango-PCB PLUS V2.02 Series II",
+    "edge_layer": 14,
+    "tango_layers_used": {
+      "0": 146,
+      "1": 466,
+      "4": 312,
+      "8": 849,
+      "10": 3,
+      "12": 10,
+      "14": 10,
+      "16": 163,
+      "17": 14,
+      "18": 62
+    },
+    "counts": {
+      "components": 122,
+      "pads": 321,
+      "tracks": 562,
+      "vias": 4,
+      "graphics": 1170,
+      "texts": 298,
+      "pours": 5
+    },
+    "nets": null
+  },
+  "top": "14-266 - AP93001/14-266-top.svg",
+  "bottom": "14-266 - AP93001/14-266-bottom.svg"
+}

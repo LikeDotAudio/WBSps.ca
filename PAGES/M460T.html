@@ -1,0 +1,249 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M460T — Input Module - Pin Outs</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>M460T — Input Module - Pin Outs</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="Category-INPUT-PRE-AMPS.html">INPUT-PRE-AMPS</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../simulator.html?m=M460T">simulator &amp; front panel</a> · <a href="../_packages/M460T.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="Year-1974.html">1974|7</a> — estimate from a dated variant</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>from M460L</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>family</td>
+</tr>
+<tr>
+<td>Variants</td>
+<td><a href="M460.html">M460</a>, <a href="M460A.html">M460A</a>, <a href="M460B.html">M460B</a>, <a href="M460C.html">M460C</a>, <a href="M460D.html">M460D</a>, <a href="M460E.html">M460E</a>, <a href="M460F.html">M460F</a>, <a href="M460K.html">M460K</a>, <a href="M460L.html">M460L</a>, <a href="M460LA.html">M460LA</a>, <a href="M460M.html">M460M</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../Modules/INPUT-PRE-AMPS/M460T/index.html">Modules/INPUT-PRE-AMPS/M460T</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections and circuit (ideal SPICE model)</h2>
+<p><em>Drawn live from its RTO-144 connections: run the generator, turn the gain, watch the VU. Open the netlist to see how the model is built.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M460T" data-n="Input Module - Pin Outs" data-cat="INPUT-PRE-AMPS"></div><svg class="wbs-panel" data-m="M460T" data-n="Input Module - Pin Outs" data-cat="INPUT-PRE-AMPS" role="img" aria-label="M460T front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M460T","title":"Input Module - Pin Outs","rto":{"code":"M460T","series":null,"type":"M460T - Input Module - Pin Outs","row_count":null,"impedance":{"out":600},"note":null,"audio":[{"port":"A1","signal":"MIC-IN","dir":"in","pos":"P1-1","neg":"P1-A","pad_pos":"P1-1.A.1.P","pad_neg":"P1-A.A.1.N"},{"port":"A2","signal":"LINE-IN","dir":"in","pos":"P1-17","neg":"P1-U","pad_pos":"P1-17.A.2.P","pad_neg":"P1-U.A.2.N"},{"port":"A3","signal":"BUS-RIGHT-OUT","dir":"out","pos":"P2-5","neg":"P2-E","pad_pos":"P2-5.A.3.P","pad_neg":"P2-E.A.3.N"},{"port":"A4","signal":"DIRECT OUT","dir":"out","pos":"P2-12","neg":"P2-N","pad_pos":"P2-12.A.4.P","pad_neg":"P2-N.A.4.N"},{"port":"B1","signal":"INSERT-OUT","dir":"out","pos":"P1-22","neg":"P1-Z","pad_pos":"P1-22.B.1.P","pad_neg":"P1-Z.B.1.N"},{"port":"B2","signal":"INSERT-RETURN","dir":"in","pos":"P1-21","neg":"P1-Y","pad_pos":"P1-21.B.2.P","pad_neg":"P1-Y.B.2.N"},{"port":"B3","signal":"CH-ON-SWITCH OUT","dir":"out","pos":"P1-20","neg":"P1-X","pad_pos":"P1-20.B.3.P","pad_neg":"P1-x.B.3.N"},{"port":"B4","signal":"FADER-RETURN","dir":"in","pos":"P1-19","neg":"P1-W","pad_pos":"P1-19.B.4.P","pad_neg":"P1-W.B.4.N"}],"bus_out":[],"bus_in":[],"power":[{"rail":"VEE-AUDIO","style":"NEW","volts":-25,"max_a":0.1,"supply":"P2-19","ground":"P2-20","link":2},{"rail":"VCC-AUDIO","style":"NEW","volts":25,"max_a":0.2,"supply":"P2-21","ground":"P2-20","link":1},{"rail":"VCC-LOGIC","style":"NEW","volts":24,"max_a":0.1,"supply":"P2-Y","ground":"P2-18","link":null}],"jumpers":[{"function":"CH ON LAMP","designation":"JMP.Z.W","from":"P2-Z","to":"P2-W"},{"function":"CH ON GND ","designation":"JMP.X.18","from":"P2-X","to":"P2-18"},{"function":"24V Jumper","designation":"JMP.Y.21","from":"P2-Y","to":"P2-21"},{"function":"CH ON GND ","designation":"JMP.3","from":"P2-20","to":"P2-18"},{"function":"Insert +","designation":"JMP.22.21","from":"P1-22","to":"P1-21"},{"function":"Insert -","designation":"JMP.Z.Y","from":"P1-Z","to":"P1-Y"},{"function":"Fader +","designation":"JMP.20.19","from":"P1-20","to":"P1-19"},{"function":"Fader - ","designation":"JMP.X.W","from":"P1-X","to":"P1-W"}],"logic":[],"chassis":"P2-22"},"parts":[],"parents":[]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460T/1974%20-%20M460T%20-%20Pin%20Out%20P1.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M460T/1974%20-%20M460T%20-%20Pin%20Out%20P1.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M460T/1974 - M460T - Pin Out P1.jpg" data-size="320" onerror="wbsOff(this)">1974 - M460T - Pin Out P1.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460T/1974%20-%20M460T%20-%20Pin%20Out%20P2.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M460T/1974%20-%20M460T%20-%20Pin%20Out%20P2.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M460T/1974 - M460T - Pin Out P2.jpg" data-size="320" onerror="wbsOff(this)">1974 - M460T - Pin Out P2.jpg</a></div>
+<h2>Price history</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Price</th>
+<th>Listed as</th>
+<th>Effective</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-2005.html">2005|38</a></td>
+<td>used market value</td>
+<td>250.00</td>
+<td>M460T - Input</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/old website/PriceGuide.htm</td>
+</tr>
+<tr>
+<td><a href="Year-2006.html">2006|39</a></td>
+<td>used market value</td>
+<td>250.00</td>
+<td>M460T - Input</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/jan 2006 shell/priceguide.htm</td>
+</tr>
+</tbody>
+</table>
+<h2>Physical manual inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Location</th>
+<th>Status</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M460T - Input Module - Pin Outs</td>
+<td></td>
+<td></td>
+<td>PDF - Already scanned</td>
+</tr>
+</tbody>
+</table>
+<h2>Documents (2)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1974|7</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460T/1974%20-%20M460T%20-%20Input%20Module%20-%20Pin%20Outs%20%282%29.pdf">1974 - M460T - Input Module - Pin Outs (2).pdf</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460T/1974%20-%20M460T%20-%20Input%20Module%20-%20Pin%20Outs%20%282%29.pdf.md">note</a></td>
+</tr>
+<tr>
+<td>1974|7</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460T/1974%20-%20M460T%20-%20Input%20Module%20-%20Pin%20Outs.pdf">1974 - M460T - Input Module - Pin Outs.pdf</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460T/1974%20-%20M460T%20-%20Input%20Module%20-%20Pin%20Outs.pdf.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (2)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1974|7</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460T/1974%20-%20M460T%20-%20Pin%20Out%20P1.jpg">1974 - M460T - Pin Out P1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460T/1974%20-%20M460T%20-%20Pin%20Out%20P1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1974|7</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460T/1974%20-%20M460T%20-%20Pin%20Out%20P2.jpg">1974 - M460T - Pin Out P2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460T/1974%20-%20M460T%20-%20Pin%20Out%20P2.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (1)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../viewer.html?f=Products/RTO/RTO-144/19xx%20-%20RTO-144%20-%20Module%20RTO-144%20Jumper%20calculator.xlsx">19xx - RTO-144 - Module RTO-144 Jumper calculator.xlsx</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M460T&quot;,
+ &quot;name&quot;: &quot;Input Module - Pin Outs&quot;,
+ &quot;category&quot;: &quot;INPUT-PRE-AMPS&quot;,
+ &quot;year&quot;: 1974,
+ &quot;connections&quot;: {
+  &quot;from&quot;: &quot;RTO-144 sheet&quot;,
+  &quot;inputs&quot;: [
+   &quot;MIC-IN&quot;,
+   &quot;LINE-IN&quot;,
+   &quot;INSERT-RETURN&quot;,
+   &quot;FADER-RETURN&quot;
+  ],
+  &quot;outputs&quot;: [
+   &quot;BUS-RIGHT-OUT&quot;,
+   &quot;DIRECT OUT&quot;,
+   &quot;INSERT-OUT&quot;,
+   &quot;CH-ON-SWITCH OUT&quot;
+  ],
+  &quot;power&quot;: [
+   &quot;VEE-AUDIO&quot;,
+   &quot;VCC-AUDIO&quot;,
+   &quot;VCC-LOGIC&quot;
+  ],
+  &quot;control&quot;: []
+ },
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M460T/1974 - M460T - Input Module - Pin Outs (2).pdf&quot;,
+   &quot;year&quot;: 1974,
+   &quot;pages&quot;: 2,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M460T/1974 - M460T - Input Module - Pin Outs.pdf&quot;,
+   &quot;year&quot;: 1974,
+   &quot;pages&quot;: 2,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M460T/1974 - M460T - Pin Out P1.jpg&quot;,
+   &quot;year&quot;: 1974,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M460T/1974 - M460T - Pin Out P2.jpg&quot;,
+   &quot;year&quot;: 1974,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../_catalog/libcontrol/libcontrol.css"><script src="../_catalog/libcontrol/react.js"></script><script src="../_catalog/libcontrol/react-dom.js"></script><script src="../_catalog/libcontrol/libcontrol.js"></script><script src="../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M460T.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

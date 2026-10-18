@@ -1,0 +1,104 @@
+{
+ "code": "M470C",
+ "series": null,
+ "type": "M470C",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "I1",
+   "signal": "Line In",
+   "dir": "in",
+   "pos": "I1P",
+   "neg": "I1N",
+   "src_page": 19
+  },
+  {
+   "port": "O1",
+   "signal": "Master 2 Out",
+   "dir": "out",
+   "pos": "O1P",
+   "neg": "O1N",
+   "src_page": 19
+  },
+  {
+   "port": "O2",
+   "signal": "Att Out",
+   "dir": "out",
+   "pos": "O2P",
+   "neg": "O2N",
+   "src_page": 19
+  },
+  {
+   "port": "O3",
+   "signal": "Sub 5 Out",
+   "dir": "out",
+   "pos": "O3P",
+   "neg": "O3N",
+   "src_page": 19
+  },
+  {
+   "port": "O4",
+   "signal": "Cch On Out",
+   "dir": "out",
+   "pos": "O4P",
+   "neg": "O4N",
+   "src_page": 19
+  },
+  {
+   "port": "O5",
+   "signal": "Pre Out",
+   "dir": "out",
+   "pos": "O5P",
+   "neg": "O5N",
+   "src_page": 19
+  }
+ ],
+ "power": [
+  {
+   "rail": "+24V",
+   "volts": 24.0,
+   "supply": "+24V",
+   "ground": "CONTROL COMMON",
+   "max_a": null
+  }
+ ],
+ "logic": [
+  {
+   "signal": "P2-L ) Control",
+   "pin": ""
+  },
+  {
+   "signal": "Solo Select",
+   "pin": ""
+  },
+  {
+   "signal": "Solo Cont Rol",
+   "pin": ""
+  },
+  {
+   "signal": "Mute Control",
+   "pin": ""
+  },
+  {
+   "signal": "Pfl",
+   "pin": ""
+  },
+  {
+   "signal": "Ctl",
+   "pin": ""
+  }
+ ],
+ "ground": [
+  "CONTROL COMMON",
+  "25V COMMON"
+ ],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "0204ff4fda9787724b3e7b9720820e4ffe51d35a45820c06df3b99b77ebee76b",
+  "956b95813ba5d58032bdf17aab0730be84bfd7d81be9a9e02aeed281a62701c8"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one. (this device has one)"
+}

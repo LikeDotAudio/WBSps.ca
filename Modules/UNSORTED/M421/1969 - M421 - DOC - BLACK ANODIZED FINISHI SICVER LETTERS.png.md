@@ -1,0 +1,98 @@
+# 1969 - M421 - DOC - BLACK ANODIZED FINISHI SICVER LETTERS.png
+Wiki page: [Documents](../../../PAGES/Documents.md)
+
+
+- **Year:** 1969 (found in this ad: "DATE SEPT 69")
+- **Type:** document scan
+- **About:** M421
+
+## Text recovered by OCR
+
+> 6 25 32 2.875 SQUARE CORNERS 58 5/ SURFACE A 433 1 2 c'BORE 32 DIA ON UNDERSIDE 3/6 DEEP. HOLE 35D14 C'BoRE 3 DIA X43 DEEP 64 NOTES STATED DIMENSIONS SYMMETRICAC ABoUT $ $ UNLESS I= GN SORFACE 'A' 2FINISH 240 GRIT & VAPOUR_BLAST SurFAcE TO BE PHoTO ETCHED SIDES ThIS ON BLAck ANoDiZED FiNIShI SICVER LETTERS To Dwg No 3 6.25 2 HOLES 8-32TAPE CSK AT 82 To 4 DIA DRN FinISH DJG WARD BECK SVSTEMS LI DATE SEPT 69 NoTE 2 MATERIA ESCOTCHEON CHKD Rnk 60. M421 SCALE Ful Size ALum TOLS FRACT 541/64 DEC TO Assss specificor ANGLES 1/2 MIN_BEND RAD: LESS B M421 63 00 | SS FJ {
+- **Original file:** `WBSps.env/PUBLIC/RECENT SCANS/WBSps.ca 20210321 - scans/Scan_20210321 (16).png`
+- **SHA-256:** `fa6ddbc904dd5fd3fc46073c185949b1234c8d70cfc67d3abdba61990ce6ff89`
+- **Size:** 16,045,321 bytes
+- **Pages:** 1
+
+## Dates found in this file
+
+- **1969** (labelled): `DATE SEPT 69` — …TAPE CSK AT 82 To 4 DIA DRN FinISH DJG WARD BECK SVSTEMS LI DATE SEPT 69 NoTE 2 MATERIA ESCOTCHEON CHKD Rnk 60. M421 SCALE Ful Size…
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 5 words corrected)
+
+```text
+6
+25 32
+2.875
+SQUARE CORNERS
+58
+5/
+SURFACE A
+433 1 2 c'BORE 32 DIA ON UNDERSIDE 3/6 DEEP.
+HOLE 35D14 C'BoRE 3 DIA X43 DEEP 64
+NOTES STATED DIMENSIONS SYMMETRICAL ABoUT $ $ UNLESS I= GN SURFACE 'A' 2FINISH 240 GRIT & VAPOUR_BLAST SurFAcE TO BE PHoTO ETCHED SIDES ThIS ON BLAck ANoDiZED FINISH SILVER LETTERS To Dwg No 3
+6.25
+2 HOLES 8-32TAPE CSK AT 82 To 4 DIA
+DRN
+FinISH DJG WARD BECK SVSTEMS LI DATE SEPT 69 NoTE 2 MATERIA ESCUTCHEON CHKD Rnk 60. M421 SCALE Ful Size ALum TOLS FRACT 541/64 DEC TO Assss specificor ANGLES 1/2 MIN_BEND RAD: LESS B M421 63 00 | SS
+FJ {
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+6
+25 32
+2.875
+SQUARE CORNERS
+58
+5/
+SURFACE A
+433 1 2 c'BORE 32 DIA ON UNDERSIDE 3/6 DEEP.
+HOLE 35D14 C'BoRE 3 DIA X43 DEEP 64
+NOTES STATED DIMENSIONS SYMMETRICAC ABoUT $ $ UNLESS I= GN SORFACE 'A' 2FINISH 240 GRIT & VAPOUR_BLAST SurFAcE TO BE PHoTO ETCHED SIDES ThIS ON BLAck ANoDiZED FiNIShI SICVER LETTERS To Dwg No 3
+6.25
+2 HOLES 8-32TAPE CSK AT 82 To 4 DIA
+DRN
+FinISH DJG WARD BECK SVSTEMS LI DATE SEPT 69 NoTE 2 MATERIA ESCOTCHEON CHKD Rnk 60. M421 SCALE Ful Size ALum TOLS FRACT 541/64 DEC TO Assss specificor ANGLES 1/2 MIN_BEND RAD: LESS B M421 63 00 | SS
+FJ {
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Modules/UNSORTED/M421/1969 - M421 - DOC - BLACK ANODIZED FINISHI SICVER LETTERS.png",
+ "sha256": "fa6ddbc904dd5fd3fc46073c185949b1234c8d70cfc67d3abdba61990ce6ff89",
+ "kind": "doc",
+ "models": [
+  "M421"
+ ],
+ "year": 1969,
+ "pages": 1,
+ "order": [
+  {
+   "page": 1,
+   "title_block": [
+    {
+     "title": "Black Anodized Finishi Sicver Letters",
+     "date": "SEPT 69",
+     "year": 1969,
+     "checked": "RNK"
+    }
+   ],
+   "dates": [
+    {
+     "year": 1969,
+     "kind": "labelled",
+     "text": "DATE SEPT 69"
+    }
+   ]
+  }
+ ]
+}
+```

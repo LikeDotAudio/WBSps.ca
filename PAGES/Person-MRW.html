@@ -1,0 +1,1392 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>MRW</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>MRW</h1>
+<p><a href="People.html">← People</a></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Initials</td>
+<td>MRW</td>
+</tr>
+<tr>
+<td>Name</td>
+<td>unknown — add to timelines/people.json</td>
+</tr>
+<tr>
+<td>Note</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Drawings</td>
+<td>474</td>
+</tr>
+<tr>
+<td>Roles</td>
+<td>drawn, engineer</td>
+</tr>
+<tr>
+<td>Active (dated drawings)</td>
+<td>1971–1989</td>
+</tr>
+<tr>
+<td>Projects</td>
+<td><a href="Job-1-117.html">1-117</a>, <a href="Job-1-119.html">1-119</a>, <a href="Job-441.html">441</a>, <a href="Job-666.html">666</a>, <a href="Job-808.html">808</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Drawings</h2>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="People.html#drawing-staff">Drawn by</a></th>
+<th><a href="People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>B 142-06-0?1</td>
+<td>M405 / EXTENDED RANGE VU-METER / PC-BOARD LAYOUT</td>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>5</td>
+<td><a href="../viewer.html?f=Modules/METER/M405/1971%20-%20B%20142-06-0-1%20-%20EXTENDED%20RANGE%20VU-METER%20PC-BOARD%20LAYOUT%20-%20DRN%20MRW%20-%20ISS%205.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 441-02-004</td>
+<td>M441C / INPUT MODULE / SCHEMATIC</td>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-02-004%20-%20M441C%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20MRW%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 752-02-001</td>
+<td>M 752 / STROBE GENERATOR</td>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M752/1971%20-%20752-02-001%20-%20M%20752%20STROBE%20GENERATOR%20-%20DRN%20MRW%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 107-03-004</td>
+<td>MODULE BASE</td>
+<td><a href="Year-1972.html">1972|5</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M107/1972%20-%20107-03-004%20-%20MODULE%20BASE%20-%20DRN%20MRW.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 406-04-010</td>
+<td>M406B(C) COMPRESSOR / MODULE LAYOUT</td>
+<td><a href="Year-1972.html">1972|5</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RAX.html">RAX</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M406/1972%20-%20406-04-010%20-%20M406B%28C%29%20COMPRESSOR%20MODULE%20LAYOUT%20-%20DRN%20MRW%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 406-04-010</td>
+<td>M406B(C) COMPRESSOR / MODULE LAYOUT</td>
+<td><a href="Year-1972.html">1972|5</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RAX.html">RAX</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M406/1972%20-%20406-04-010%20-%20M406B%28C%29%20COMPRESSOR%20MODULE%20LAYOUT%20-%20DRN%20MRW%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 752-02-008</td>
+<td>M752-7 / STROBE GENERATOR</td>
+<td><a href="Year-1972.html">1972|5</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M752/1972%20-%20752-02-008%20-%207%20STROBE%20GENERATOR%20-%20DRN%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 757-02-001</td>
+<td>M757 / 0 TO 24 BCD ENCODER / (NEGATIVE LOGIC)</td>
+<td><a href="Year-1972.html">1972|5</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M757/1972%20-%20757-02-001%20-%200%20TO%2024%20BCD%20ENCODER%20%28NEGATIVE%20LOGIC%29%20-%20DRN%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 4-114-02-002</td>
+<td>EXPANDED PUSHBUTTON INPUT / SCHEMATIC</td>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1975%20-%204-114-02-002%20-%20EXPANDED%20PUSHBUTTON%20INPUT%20SCHEMATIC%20-%20DRN%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 604-02-002</td>
+<td>M604A / 25 Hz OSCILLATOR / SCHEMATIC</td>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M604/1975%20-%20604-02-002%20-%20M604A%2025%20Hz%20OSCILLATOR%20SCHEMATIC%20-%20DRN%20MRW%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Fmisa Compressor/ Limiter Component Layout</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M466/1976%20-%20M466%20-%20Compressor%20-%20Limiter.pdf">file</a> p.49</td>
+</tr>
+<tr>
+<td>6-106-02-001</td>
+<td>Compressor Control Amplifier</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M466/1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29.pdf">file</a> p.51</td>
+</tr>
+<tr>
+<td>6-106-02-001</td>
+<td>Last Component Designations Are Cis</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RB.html">RB (Rodger Beck)</a></td>
+<td>5</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M466/1976%20-%20M466%20-%20Compressor%20-%20Limiter.pdf">file</a> p.51</td>
+</tr>
+<tr>
+<td>6-106-02-001</td>
+<td>Compressor Control Amplifier Schematic</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>5</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M466/1976%20-%20M466%20-%206-106-02-001%20-%20COMPRESSOR%20CONTROL%20AMPLIFIER%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>6-106-06-001</td>
+<td>Mating Connector Pins Used Are</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-ROL.html">ROL</a></td>
+<td>5</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M466/1976%20-%20M466%20-%20Compressor%20-%20Limiter.pdf">file</a> p.52</td>
+</tr>
+<tr>
+<td>6-106-06-001</td>
+<td>Fimish Compressor Control Amplifier Component Layout</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-ROL.html">ROL</a></td>
+<td>5</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M466/1976%20-%20M466%20-%206-106-06-001%20-%20FIMISH%20COMPRESSOR%20CONTROL%20AMPLIFIER%20COMPONENT%20LAYOUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 6-106-02-001</td>
+<td>6-106 / COMPRESSOR CONTROL AMPLIFIER / SCHEMATIC</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>5</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M466/1976%20-%206-106-02-001%20-%206-106%20COMPRESSOR%20CONTROL%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20MRW%20-%20ISS%205.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 6-106-06-001</td>
+<td>6-106 / COMPRESSOR CONTROL AMPLIFIER / COMPONENT LAYOUT</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>5</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M466/1976%20-%206-106-06-001%20-%206-106%20COMPRESSOR%20CONTROL%20AMPLIFIER%20COMPONENT%20LAYOUT%20-%20DRN%20MRW%20-%20ISS%205.jpg">file</a></td>
+</tr>
+<tr>
+<td>472-02-001</td>
+<td>Waad-Beck Bybtemb</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M472/1977%20-%20M472%20-%20DOC%20-%20472-02-001%20-%20WAAD-BECK%20BYBTEMB.png">file</a></td>
+</tr>
+<tr>
+<td>B 472-01-001</td>
+<td>EQUALIZER MODULE / FUNCTIONAL DIAGRAM</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M472/1977%20-%20472-01-001%20-%20EQUALIZER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20MRW%20-%20ENG%20RKB%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 472-02-001</td>
+<td>M472 / EQUALIZER MODULE / SCHEMATIC</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>6</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M472/1977%20-%20472-02-001%20-%20EQUALIZER%20MODULE%20SCHEMATIC%20-%20DRN%20MRW%20-%20ISS%206.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 472-02-001</td>
+<td>M472 / EQUALIZER MODULE / SCHEMATIC</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M472/1977%20-%20472-02-001%20-%20EQUALIZER%20MODULE%20SCHEMATIC%20-%20DRN%20MRW%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>B 472-06-001</td>
+<td>M472 / EQUALIZER MODULE / COMPONENT LAYOUT</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>6</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M472/1977%20-%20472-06-001%20-%20EQUALIZER%20MODULE%20COMPONENT%20LAYOUT%20-%20DRN%20MRW%20-%20ISS%206.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 7-107-02-001</td>
+<td>7-107 / DYNAMIC MIC PRE-AMP / SCHEMATIC</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1977%20-%207-107-02-001%20-%207-107%20DYNAMIC%20MIC%20PRE-AMP%20SCHEMATIC%20-%20DRN%20MRW%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>B 745-03-001</td>
+<td>M745 A&amp;B / HEATSINK DETAIL</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RRL.html">RRL</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M745/1977%20-%20745-03-001%20-%20A%26B%20HEATSINK%20DETAIL%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 666-02-001</td>
+<td>M666 / 100W MONITOR AMPLIFIER / SCHEMATIC</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>7</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M666/1977%20-%20666-02-001%20-%20100W%20MONITOR%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20MRW%20-%20ISS%207.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 666-02-002</td>
+<td>M666 / 100W MONITOR AMPLIFIER / SYSTEM WIRING</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>4</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M666/1977%20-%20666-02-002%20-%20100W%20MONITOR%20AMPLIFIER%20SYSTEM%20WIRING%20-%20DRN%20MRW%20-%20ISS%204.jpg">file</a></td>
+</tr>
+<tr>
+<td>117-02-001</td>
+<td>1-117 REGULATOR BOARD / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RNL.html">RNL</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M117/1978%20-%20117-02-001%20-%201-117%20REGULATOR%20BOARD%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 453-06-002</td>
+<td>M453A / CUE AMPLIFIER / COMPONENT LAYOUT</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>4</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M453/1978%20-%20453-06-002%20-%20M453A%20CUE%20AMPLIFIER%20COMPONENT%20LAYOUT%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%204.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 453-06-002</td>
+<td>M453A / CUE AMPLIFIER / COMPONENT LAYOUT</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>5</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M453/1978%20-%20453-06-002%20-%20M453A%20CUE%20AMPLIFIER%20COMPONENT%20LAYOUT%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%205.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 468-02-033</td>
+<td>M468V / REVERB ASSIGN MODULE / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M468/1978%20-%20468-02-033%20-%20M468V%20REVERB%20ASSIGN%20MODULE%20SCHEMATIC%20-%20DRN%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 494-02-001</td>
+<td>REMOTE LINE TB/CUE MODULE / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M494/1978%20-%20494-02-001%20-%20REMOTE%20LINE%20TB%20CUE%20MODULE%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 494-02-001</td>
+<td>M494 / REMOTE LINE TB/CUE MODULE / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M494/1978%20-%20494-02-001%20-%20REMOTE%20LINE%20TB%20CUE%20MODULE%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%202%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 495-01-001</td>
+<td>STEREO MONITOR MODULE / FUNCTIONAL DIAGRAM</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M495/1978%20-%20495-01-001%20-%20STEREO%20MONITOR%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 60-14</td>
+<td>60-14 INPUT TRANSFORMER</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RNL.html">RNL</a></td>
+<td>3</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1978%20-%20B%2060-14%20-%2060-14%20INPUT%20TRANSFORMER%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%203.png">file</a></td>
+</tr>
+<tr>
+<td>B 60-14</td>
+<td>60-14 / INPUT TRANSFORMER</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RBH.html">RBH</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1978%20-%20B%2060-14%20-%2060-14%20INPUT%20TRANSFORMER%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%202.png">file</a></td>
+</tr>
+<tr>
+<td>B 60-14</td>
+<td>60-14 / INPUT TRANSFORMER</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1978%20-%20B%2060-14%20-%2060-14%20INPUT%20TRANSFORMER%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%203%20%282%29.png">file</a></td>
+</tr>
+<tr>
+<td>B 813-02-001</td>
+<td>M813 / RELAY SWITCHER LOGIC CARD / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M813/1978%20-%20813-02-001%20-%20RELAY%20SWITCHER%20LOGIC%20CARD%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%202.png">file</a></td>
+</tr>
+<tr>
+<td>B 813-02-002</td>
+<td>M813 / RELAY SWITCHER LOGIC CARD / TYPICAL SYSTEM WIRING</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M813/1978%20-%20813-02-002%20-%20RELAY%20SWITCHER%20LOGIC%20CARD%20TYPICAL%20SYSTEM%20WIRING%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>D 701-02-101</td>
+<td>M701B / INTERCOM PRE-AMPLIFIER / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RBJ.html">RBJ</a></td>
+<td>12</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M701/1978%20-%20701-02-101%20-%20M701B%20INTERCOM%20PRE-AMPLIFIER%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%2012.jpg">file</a></td>
+</tr>
+<tr>
+<td>D 701-02-101</td>
+<td>M701B / INTERCOM PRE-AMPLIFIER / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M701/1978%20-%20701-02-101%20-%20M701B%20INTERCOM%20PRE-AMPLIFIER%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%202.png">file</a></td>
+</tr>
+<tr>
+<td>D 702-02-101</td>
+<td>M702B / INTERCOM OUTPUT AMPLIFIER / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>5</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/1978%20-%20702-02-101%20-%20M702B%20INTERCOM%20OUTPUT%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%205.jpg">file</a></td>
+</tr>
+<tr>
+<td>D 702-02-101</td>
+<td>M702B / INTERCOM OUTPUT AMPLIFIER / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/1978%20-%20702-02-101%20-%20M702B%20INTERCOM%20OUTPUT%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW.png">file</a></td>
+</tr>
+<tr>
+<td>LB 1-117-02-001</td>
+<td>1-117 / REGULATOR BOARD / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>11</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1978%20-%201-117-02-001%20-%201-117%20REGULATOR%20BOARD%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%2011.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 808-02-002</td>
+<td>M808A / 8x1 RELAY SWITCHER CARD / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M808/1978%20-%20808-02-002%20-%20M808A%208x1%20RELAY%20SWITCHER%20CARD%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 808-02-002</td>
+<td>M808A / 8x1 RELAY SWITCHER CARD / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M808/1978%20-%20808-02-002%20-%20M808A%208x1%20RELAY%20SWITCHER%20CARD%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%202%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 808-02-002</td>
+<td>M808A / 8x1 RELAY SWITCHER CARD / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M808/1978%20-%20808-02-002%20-%20M808A%208x1%20RELAY%20SWITCHER%20CARD%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%202%20%283%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 808-02-002</td>
+<td>M808A / 8x1 RELAY SWITCHER CARD / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M808/1978%20-%20808-02-002%20-%20M808A%208x1%20RELAY%20SWITCHER%20CARD%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%202%20%284%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 808-02-002</td>
+<td>M808A / 8x1 RELAY SWITCHER CARD / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M808/1978%20-%20808-02-002%20-%20M808A%208x1%20RELAY%20SWITCHER%20CARD%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%202%20%285%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 808-02-002</td>
+<td>M808A / 8x1 RELAY SWITCHER CARD / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M808/1978%20-%20808-02-002%20-%20M808A%208x1%20RELAY%20SWITCHER%20CARD%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%202%20%286%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 808-02-002</td>
+<td>M808A / 8x1 RELAY SWITCHER CARD / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M808/1978%20-%20808-02-002%20-%20M808A%208x1%20RELAY%20SWITCHER%20CARD%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%202%20%287%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 808-02-002</td>
+<td>M808A / 8x1 RELAY SWITCHER CARD / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M808/1978%20-%20808-02-002%20-%20M808A%208x1%20RELAY%20SWITCHER%20CARD%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%202%20%288%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 808-02-002</td>
+<td>8x1 RELAY SWITCHER CARD / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M808/1978%20-%20808-02-002%20-%208x1%20RELAY%20SWITCHER%20CARD%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 808-02-002</td>
+<td>8x1 RELAY SWITCHER CARD / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M808/1978%20-%20808-02-002%20-%208x1%20RELAY%20SWITCHER%20CARD%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%202%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 808-02-002</td>
+<td>8x1 RELAY SWITCHER CARD / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M808/1978%20-%20808-02-002%20-%208x1%20RELAY%20SWITCHER%20CARD%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%202%20%283%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 808-02-002</td>
+<td>8x1 RELAY SWITCHER CARD / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M808/1978%20-%20808-02-002%20-%208x1%20RELAY%20SWITCHER%20CARD%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%202%20%284%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 808-02-002</td>
+<td>8x1 RELAY SWITCHER CARD / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M808/1978%20-%20808-02-002%20-%208x1%20RELAY%20SWITCHER%20CARD%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%202%20%285%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 808-02-002</td>
+<td>8x1 RELAY SWITCHER CARD / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M808/1978%20-%20808-02-002%20-%208x1%20RELAY%20SWITCHER%20CARD%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%202%20%286%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 808-02-002</td>
+<td>8x1 RELAY SWITCHER CARD / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M808/1978%20-%20808-02-002%20-%208x1%20RELAY%20SWITCHER%20CARD%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%202%20%287%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>80-24 / POWER TRANSFORMER</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RM.html">RM</a></td>
+<td></td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1979%20-%2080-24%20POWER%20TRANSFORMER%20-%20DRN%20MRW%20-%20ENG%20RKB.png">file</a></td>
+</tr>
+<tr>
+<td>B 1-119-02-002</td>
+<td>M7953-3 / STROBE GENERATOR / SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1979%20-%201-119-02-002%20-%20M7953-3%20STROBE%20GENERATOR%20SCHEMATIC%20-%20DRN%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 201-06-001</td>
+<td>M201 RELAY MODULE / COMPONENT LAYOUT</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/LOGIC/M201/1979%20-%20201-06-001%20-%20RELAY%20MODULE%20COMPONENT%20LAYOUT%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 477-06-001</td>
+<td>M477 / MASTER MODULE / COMPONENT LAYOUT</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>6</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M477/1979%20-%20477-06-001%20-%20MASTER%20MODULE%20COMPONENT%20LAYOUT%20-%20DRN%20MRW%20-%20ISS%206.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 80-22</td>
+<td>80-22 / POWER TRANSFORMER</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>5</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1979%20-%20B%2080-22%20-%2080-22%20POWER%20TRANSFORMER%20-%20DRN%20MRW%20-%20ENG%20RKB%20-%20ISS%205.png">file</a></td>
+</tr>
+<tr>
+<td>B 80-24</td>
+<td>80-24 / POWER TRANSFORMER</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>4</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1979%20-%20B%2080-24%20-%2080-24%20POWER%20TRANSFORMER%20-%20DRN%20MRW%20-%20ENG%20RKB%20-%20ISS%204.png">file</a></td>
+</tr>
+<tr>
+<td>D 203-02-001</td>
+<td>M203 / TURRET INTERFACE / SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M203/1979%20-%20203-02-001%20-%20TURRET%20INTERFACE%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>D 712-02-102</td>
+<td>M712B / INTERCOM MATRIX AMPLIFIER / CONNECTION OF MULTIPLE MODULES</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1979%20-%20712-02-102%20-%20M712B%20INTERCOM%20MATRIX%20AMPLIFIER%20CONNECTION%20OF%20MULTIPLE%20MODULES%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 495-02-001</td>
+<td>STEREO MONITOR MODULE / SCHEMATIC</td>
+<td><a href="Year-1980.html">1980|13</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M495/1980%20-%20495-02-001%20-%20STEREO%20MONITOR%20MODULE%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 9612</td>
+<td>RACK MOUNT PANEL WING / EXTRUSION</td>
+<td><a href="Year-1981.html">1981|14</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1981%20-%20B%209612%20-%20RACK%20MOUNT%20PANEL%20WING%20EXTRUSION%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 9613</td>
+<td>PANEL STIFFENER &amp; TRIM / EXTRUSION</td>
+<td><a href="Year-1981.html">1981|14</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1981%20-%20B%209613%20-%20PANEL%20STIFFENER%20%26%20TRIM%20EXTRUSION%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 1-117-02-001</td>
+<td>1-117 / REGULATOR BOARD / SCHEMATIC</td>
+<td><a href="Year-1982.html">1982|15</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RM.html">RM</a></td>
+<td>8</td>
+<td><a href="../viewer.html?f=Modules/POWER/M485B/1982%20-%201-117-02-001%20-%201-117%20REGULATOR%20BOARD%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%208.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 1-117-02-001</td>
+<td>1-117 REGULATOR BOARD / SCHEMATIC</td>
+<td><a href="Year-1982.html">1982|15</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RNL.html">RNL</a></td>
+<td>8</td>
+<td><a href="../viewer.html?f=Modules/POWER/M625B/1982%20-%201-117-02-001%20-%201-117%20REGULATOR%20BOARD%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%208.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 208-03-001</td>
+<td>VAC. FORMED MOLD FOR / M208 ATTENUATOR BLOCK</td>
+<td><a href="Year-1984.html">1984|17</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M208/1984%20-%20208-03-001%20-%20VAC.%20FORMED%20MOLD%20FOR%20M208%20ATTENUATOR%20BLOCK%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 86-03-005</td>
+<td>MF86 Mounting Frame / Rear Panel Support Bar</td>
+<td><a href="Year-1985.html">1985|18</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1985%20-%2086-03-005%20-%20MF86%20Mounting%20Frame%20Rear%20Panel%20Support%20Bar%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 524-03-103</td>
+<td>M524A / Front Panel Display Screens</td>
+<td><a href="Year-1986.html">1986|19</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/COMPUTERS/M524/1986%20-%20524-03-103%20-%20M524A%20Front%20Panel%20Display%20Screens%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 520-03-004</td>
+<td>M520 SERIES MODULE / HEATSINK</td>
+<td><a href="Year-1989.html">1989|22</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520/1989%20-%20520-03-004%20-%20SERIES%20MODULE%20HEATSINK%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Regulator Board</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625A/1978%20-%20M625A%20-%20Power%20Supply%20%282%29.pdf">file</a> p.17</td>
+</tr>
+<tr>
+<td>—</td>
+<td>Dual Master Module</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497/1978%20-%20M497%20-%20Dual-Master-Module%20%282%29.pdf">file</a> p.21</td>
+</tr>
+<tr>
+<td>—</td>
+<td>Matil-L Conl-Lector I'Il-Ls</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M466/1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29.pdf">file</a> p.52</td>
+</tr>
+<tr>
+<td>—</td>
+<td>Circuit Addedi</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RM.html">RM</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/POWER/M485B/1982%20-%20M485B%20-%2025V%20power%20Supply.pdf">file</a> p.13</td>
+</tr>
+<tr>
+<td>—</td>
+<td>Socel Rzi</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RM.html">RM</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625A/1978%20-%20M625A%20-%20Power%20Supply.pdf">file</a> p.17</td>
+</tr>
+<tr>
+<td>—</td>
+<td>Equalizer Module Component Layout Mimish</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RAJ.html">RAJ</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M472/1977%20-%20M472%20-%20472-06-001%20-%20ISCALE%20COMPONENT%20LAYOUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Series Reg Base</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RC.html">RC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/POWER/M485B/1978%20-%20M485B%20-%20SERIES%20REG%20BASE.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Notes For Componen See</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M604/1967%20-%20M604%20-%201-129-02-001%20-%20UNLESS%20OTHERW%20RESISTORS%20ARE.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Ris Ria Cic</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M604/1971%20-%20M604%20-%201-129-06-001%20-%20HNZES%20BARD.jpg">file</a></td>
+</tr>
+<tr>
+<td>1-117-02-001</td>
+<td>Notes All Resistors Are</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RM.html">RM</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625B/1978%20-%20M625B%20-%201-117-02-001%20-%20NOTES%20ALL%20RESISTORS%20ARE.jpg">file</a></td>
+</tr>
+<tr>
+<td>1-117-02-001</td>
+<td>Circuit Added</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RM.html">RM</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/POWER/M485B/1978%20-%20M485B%20-%201-117-02-001%20-%20CIRCUIT%20ADDED.jpg">file</a></td>
+</tr>
+<tr>
+<td>1-117-02-001</td>
+<td>Regulator Board Schematic</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RA.html">RA</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/POWER/M625B/1978%20-%20M625B%20-%20Power%20supply.pdf">file</a> p.26</td>
+</tr>
+<tr>
+<td>1-117-02-001</td>
+<td>Regulator Board Schematic Eng</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RM.html">RM</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625B/1978%20-%20M625B%20-%201-117-02-001%20-%20NOTES%20ALL%20RESISTORS%20ARE.jpg">file</a></td>
+</tr>
+<tr>
+<td>1-129-06-001</td>
+<td>Hnzes Bard</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M604/1971%20-%20M604%20-%201-129-06-001%20-%20HNZES%20BARD.jpg">file</a></td>
+</tr>
+<tr>
+<td>117-02-001</td>
+<td>Ircuit Adced Iissuejdate Revision</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RM.html">RM</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625A/1978%20-%20M625A%20-%20117-02-001%20-%20IRCUIT%20ADCED%20IISSUEJDATE%20REVISION.jpg">file</a></td>
+</tr>
+<tr>
+<td>142-06-001</td>
+<td>Places Given Angles</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-GF.html">GF</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20142-06-001%20-%20PLACES%20GIVEN%20ANGLES.jpg">file</a></td>
+</tr>
+<tr>
+<td>201-06-001</td>
+<td>Cko Ril Relay Module Component Layout</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/LOGIC/M201/1979%20-%20M201%20-%20201-06-001%20-%20CKO%20RIL%20RELAY%20MODULE%20COMPONENT%20LAYOUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>201-06-001</td>
+<td>Relay Module Component Layout</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/LOGIC/M201/1979%20-%20M201%20-%20201-06-001%20-%20RELAY%20MODULE%20COMPONENT%20LAYOUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>29-05-001</td>
+<td>Unless Otherwise Specified Jayl Resistors Are</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M604/1967%20-%20M604%20-%201-129-02-001%20-%20ESS%20OTHERWISE%20SPECIFIED%20IALL%20ISTORS%20ARE.jpg">file</a></td>
+</tr>
+<tr>
+<td>453-02-002</td>
+<td>Mute Assign</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M453A/1978%20-%20M453A%20-%20453-02-002%20-%20MUTE%20ASSIGN.jpg">file</a></td>
+</tr>
+<tr>
+<td>453-02-002</td>
+<td>Puk Issuoate Vilc</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M453A/1978%20-%20M453A%20-%20453-02-002%20-%20PUK%20ISSUOATE%20VILC.jpg">file</a></td>
+</tr>
+<tr>
+<td>453-06-002</td>
+<td>Cue Amplifier Component Layout</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M453A/1979%20-%20M453A%20-%20Cue%20Amplifier.pdf">file</a> p.16</td>
+</tr>
+<tr>
+<td>472-01-001</td>
+<td>Terminology Updated Aas</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M472/1977%20-%20M472%20-%20472-01-001%20-%20TERMINOLOGY%20UPDATED%20AAS.jpg">file</a></td>
+</tr>
+<tr>
+<td>472-01-001</td>
+<td>Terminology Updated Aas</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M472/1977%20-%20M472%20-%20Equalizer%20%282%29.pdf">file</a> p.9</td>
+</tr>
+<tr>
+<td>472-01-001</td>
+<td>Cut Freq- Boosti Cut Freq</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M472/1977%20-%20M472%20-%20Equalizer.pdf">file</a> p.9</td>
+</tr>
+<tr>
+<td>472-01-001</td>
+<td>Terminology Updated Revision Aas</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M472/1977%20-%20M472%20-%20472-01-001%20-%20TERMINOLOGY%20UPDATED%20AAS.jpg">file</a></td>
+</tr>
+<tr>
+<td>472-02-001</td>
+<td>Last Component Designations Czi</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RGL.html">RGL</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M472/1977%20-%20M472%20-%20472-02-001%20-%20LAST%20COMPONENT%20DESIGNATIONS%20CZI.jpg">file</a></td>
+</tr>
+<tr>
+<td>472-02-001</td>
+<td>Equalizer Module Schematic Chassis</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M472/1977%20-%20M472%20-%20Equalizer.pdf">file</a> p.10</td>
+</tr>
+<tr>
+<td>472-06-001</td>
+<td>Iscale Component Layout</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td>RAA</td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M472/1977%20-%20M472%20-%20472-06-001%20-%20ISCALE%20COMPONENT%20LAYOUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>477-01-001</td>
+<td>Ohm Monitor Output Metering Output Solo Solo Summing</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M477/1979%20-%20M477%20-%20Master%20Module.pdf">file</a> p.20</td>
+</tr>
+<tr>
+<td>477-01-001</td>
+<td>Ohm Monitor Output Metering Output Solo Solo Summing</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M477/1979%20-%20M477%20-%20477-01-001%20-%20OHM%20MONITOR%20OUTPUT%20METERING%20OUTPUT%20SOLO%20SOLO%20SUMMING.jpg">file</a></td>
+</tr>
+<tr>
+<td>477-02-001</td>
+<td>Master Module Schematic</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M477/1979%20-%20M477%20-%20Master%20Module.pdf">file</a> p.21</td>
+</tr>
+<tr>
+<td>477-06-001</td>
+<td>Master Module Component Layout</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M477/1979%20-%20M477%20-%20Master%20Module.pdf">file</a> p.25</td>
+</tr>
+<tr>
+<td>477-06-001</td>
+<td>Master Module Component Lay</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>6</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M477/1979%20-%20M477%20-%20477-06-001%20-%20MASTER%20MODULE%20COMPONENT%20LAY.jpg">file</a></td>
+</tr>
+<tr>
+<td>487-06-001</td>
+<td>Dual Master Module Component Layout</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20Dual%20Master%20Module.pdf">file</a> p.21</td>
+</tr>
+<tr>
+<td>494-01-001</td>
+<td>Ell- Remote Line Tb/Cue Module Functional</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-ELL.html">ELL</a></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M494/19xx%20-%20M494%20-%20494-01-001%20-%20ELL-%20REMOTE%20LINE%20TB-CUE%20MODULE%20FUNCTIONAL.jpg">file</a></td>
+</tr>
+<tr>
+<td>494-01-001</td>
+<td>Line Listen Out Cue</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RK.html">RK</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M494/19xx%20-%20M494%20-%20Remote%20Line%20Tb%20Module%20%282%29.pdf">file</a> p.9</td>
+</tr>
+<tr>
+<td>494-01-001</td>
+<td>Line Listen Out Cue Program Cue</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-ELL.html">ELL</a></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M494/19xx%20-%20M494%20-%20494-01-001%20-%20ELL-%20REMOTE%20LINE%20TB-CUE%20MODULE%20FUNCTIONAL.jpg">file</a></td>
+</tr>
+<tr>
+<td>494-02-001</td>
+<td>And All Capacitors</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RC.html">RC</a></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M494/19xx%20-%20M494%20-%20494-02-001%20-%20AND%20ALL%20CAPACITORS.jpg">file</a></td>
+</tr>
+<tr>
+<td>494-02-001</td>
+<td>Remote Line</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RO.html">RO</a></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M494/19xx%20-%20M494%20-%20494-02-001%20-%20AND%20ALL%20CAPACITORS.jpg">file</a></td>
+</tr>
+<tr>
+<td>494-02-001</td>
+<td>Remote Line Tb/Cue Module</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RC.html">RC</a></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M494/19xx%20-%20M494%20-%20DOC%20-%20494-02-001%20-%20REMOTE%20LINE%20TB-CUE%20MODULE.jpg">file</a></td>
+</tr>
+<tr>
+<td>494-06-001</td>
+<td>Remote Line</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td>RGE</td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M494/19xx%20-%20M494%20-%20494-06-001%20-%20REMOTE%20LINE.jpg">file</a></td>
+</tr>
+<tr>
+<td>494-06-001</td>
+<td>Remote Line</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RE.html">RE</a></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M494/19xx%20-%20M494%20-%20494-06-001%20-%20REMOTE%20LINE.jpg">file</a></td>
+</tr>
+<tr>
+<td>495-01-001</td>
+<td>Eng Ckdral Stereo Monitor Module</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M495/1975%20-%20M495%20-%20495-01-001%20-%20ENG%20CKDRAL%20STEREO%20MONITOR%20MODULE.jpg">file</a></td>
+</tr>
+<tr>
+<td>495-01-001</td>
+<td>Stereo Mon Itor Module Functional Diagram</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M495/1975%20-%20M495%20-%20Stereo%20Monitor%20Module%20%282%29.pdf">file</a> p.19</td>
+</tr>
+<tr>
+<td>495-01-001</td>
+<td>Ohm Right Mute Control Mute Assign</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M495/1975%20-%20M495%20-%20495-01-001%20-%20ENG%20CKDRAL%20STEREO%20MONITOR%20MODULE.jpg">file</a></td>
+</tr>
+<tr>
+<td>495-06-001</td>
+<td>Ckdra Stereo Monitor Modue</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M495/1975%20-%20M495%20-%20495-06-001%20-%20CKDRA%20STEREO%20MONITOR%20MODUE.jpg">file</a></td>
+</tr>
+<tr>
+<td>495-06-001</td>
+<td>Stereo Monitor Module Component Layout</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M495/1975%20-%20M495%20-%20Stereo%20Monitor%20Module.pdf">file</a> p.23</td>
+</tr>
+<tr>
+<td>495-06-001</td>
+<td>Stereo Monitor Module Ckdra Component Layout</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M495/1975%20-%20M495%20-%20495-06-001%20-%20CKDRA%20STEREO%20MONITOR%20MODUE.jpg">file</a></td>
+</tr>
+<tr>
+<td>497-01-001</td>
+<td>Dual Master Module Functional Diagram</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497/1978%20-%20M497%20-%20Dual-Master-Module.pdf">file</a> p.21</td>
+</tr>
+<tr>
+<td>497-01-002</td>
+<td>Designation Revision Geb</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-01-002%20-%20DESIGNATION%20REVISION%20GEB.jpg">file</a></td>
+</tr>
+<tr>
+<td>497-01-002</td>
+<td>Dual Master Module Functional Diagram</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RT.html">RT</a></td>
+<td>I</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20Dual%20Master%20Module%20%282%29.pdf">file</a> p.20</td>
+</tr>
+<tr>
+<td>497-01-002</td>
+<td>Ohm Left Monitor Output Mono Summing Output Program</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20Dual%20Master%20Module.pdf">file</a> p.20</td>
+</tr>
+<tr>
+<td>497-01-002</td>
+<td>Ohm Left Monitor Output Mono Summing Output Program</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-01-002%20-%20DESIGNATION%20REVISION%20GEB.jpg">file</a></td>
+</tr>
+<tr>
+<td>497-02-001</td>
+<td>Version Rarr Are Front Panel Level Controls</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RGL.html">RGL</a></td>
+<td>U</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-02-001%20-%20VERSION%20RARR%20ARE%20FRONT%20PANEL%20LEVEL%20CONTROLS.jpg">file</a></td>
+</tr>
+<tr>
+<td>497-02-001</td>
+<td>Version Raurl Are Front Panel Level Controls</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RA.html">RA</a></td>
+<td>U</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-02-001%20-%20VERSION%20RARR%20ARE%20FRONT%20PANEL%20LEVEL%20CONTROLS.jpg">file</a></td>
+</tr>
+<tr>
+<td>497-06-001</td>
+<td>Dual Master Module Component Layout</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>U</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497/1978%20-%20M497%20-%20Dual-Master-Module.pdf">file</a> p.22</td>
+</tr>
+<tr>
+<td>497-06-002</td>
+<td>Dual Master Module Component Layout</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20Dual%20Master%20Module.pdf">file</a> p.24</td>
+</tr>
+<tr>
+<td>497-06-002</td>
+<td>Dual Master Module Component Layout</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-06-002%20-%20DUAL%20MASTER%20MODULE.jpg">file</a></td>
+</tr>
+<tr>
+<td>499-02-001</td>
+<td>Processor Input From Processor Oltput</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M499/19xx%20-%20M499%20-%20DOC%20-%20499-02-001%20-%20PROCESSOR%20INPUT%20FROM%20PROCESSOR%20OLTPUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>524-03-103</td>
+<td>Front Panel Display Screens</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/COMPUTERS/M524A/19xx%20-%20M524A%20-%20DOC%20-%20524-03-103%20-%20FRONT%20PANEL%20DISPLAY%20SCREENS.jpg">file</a></td>
+</tr>
+<tr>
+<td>701-02-101</td>
+<td>Mzoib Intercom Pre-Amplifier Ckdrax</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20701-02-101%20-%20MZOIB%20INTERCOM%20PRE-AMPLIFIER%20CKDRAX.jpg">file</a></td>
+</tr>
+<tr>
+<td>701-02-101</td>
+<td>Iook Swioz Line/Mic Like</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20701-02-101%20-%20MZOIB%20INTERCOM%20PRE-AMPLIFIER%20CKDRAX.jpg">file</a></td>
+</tr>
+<tr>
+<td>701-02-101</td>
+<td>Rlig Iook Swioz Line/Mic Line</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RA.html">RA</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M472/19xx%20-%20M472%20-%20DOC%20-%20701-02-101%20-%20RLIG%20IOOK%20SWIOZ%20LINE-MIC%20LINE.jpg">file</a></td>
+</tr>
+<tr>
+<td>813-02-001</td>
+<td>Relay Switcher Logic Card Schematic</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M813/19xx%20-%20M813%20-%20DOC%20-%20813-02-001%20-%20RELAY%20SWITCHER%20LOGIC%20CARD%20SCHEMATIC.png">file</a></td>
+</tr>
+<tr>
+<td>813-02-002</td>
+<td>Relay Switcher Logic Card Typical System Wiring</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M813/19xx%20-%20M813%20-%20DOC%20-%20813-02-002%20-%20RELAY%20SWITCHER%20LOGIC%20CARD%20TYPICAL%20SYSTEM%20WIRING.png">file</a></td>
+</tr>
+<tr>
+<td>B 497-02-004</td>
+<td>DUAL MASTER MODULE / SCHEMATIC</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RNL.html">RNL</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497/19xx%20-%20497-02-004%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 60-15</td>
+<td>60-15 / INPUT TRANSFORMER</td>
+<td>14/79</td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/19xx%20-%20B%2060-15%20-%2060-15%20INPUT%20TRANSFORMER%20-%20DRN%20MRW%20-%20ENG%20RKB%20-%20ISS%201.png">file</a></td>
+</tr>
+</tbody>
+</table><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from Person-MRW.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

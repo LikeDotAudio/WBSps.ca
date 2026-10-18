@@ -1,0 +1,1357 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Parts lists (bills of materials)</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>Parts lists (bills of materials)</h1>
+<p>Component lists found in the archive's manuals and engineering files, by board. The full table is <code>timelines/data/bom.csv</code>; each device page shows its own list.</p>
+<table>
+<thead>
+<tr>
+<th>Board</th>
+<th>Device</th>
+<th>Parts</th>
+<th>Top manufacturers</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>02-001</td>
+<td>76045 - CFTO</td>
+<td>9</td>
+<td>3059W - 1- 203, 3059W - 1- 20 3K, All resistors</td>
+<td>1971 - M415 - M415 - 8415-02-001 - MICROPHONE INPUT 88 DB MAX. (TRANSDUCER) - COMPONENT LAYOUT.pdf</td>
+</tr>
+<tr>
+<td>14-152B</td>
+<td><a href="M922.html">M922</a></td>
+<td>12</td>
+<td>Philips, LM833N, ITT</td>
+<td>14-152BC.WP</td>
+</tr>
+<tr>
+<td>14-246H</td>
+<td>—</td>
+<td>9</td>
+<td>HLMP-1401 YL, Sprague, HLMP-1301 RD</td>
+<td>14-246HA.WP</td>
+</tr>
+<tr>
+<td>14-247H</td>
+<td>—</td>
+<td>21</td>
+<td>Philips, Bourns, Kemet</td>
+<td>14-247H.WP</td>
+</tr>
+<tr>
+<td>14-292</td>
+<td><a href="M405M.html">M405M</a></td>
+<td>17</td>
+<td>ITT, 47K, Piher</td>
+<td>14-292#2.WP</td>
+</tr>
+<tr>
+<td>14-305</td>
+<td><a href="M445.html">M445</a></td>
+<td>43</td>
+<td>Piher, Siemens, 20K</td>
+<td>14-305#2.WP</td>
+</tr>
+<tr>
+<td>14-305A</td>
+<td><a href="M445.html">M445</a></td>
+<td>43</td>
+<td>Piher, ITT, Bourns</td>
+<td>14-305A.WP</td>
+</tr>
+<tr>
+<td>14-307A</td>
+<td>—</td>
+<td>6</td>
+<td>HLMP-2450, Phillips</td>
+<td>14-307A - 2.WP</td>
+</tr>
+<tr>
+<td>1970 - M468 - 8X1 High level Switcher (2)</td>
+<td><a href="M468.html">M468</a></td>
+<td>39</td>
+<td>IN4003, 387, lN4003</td>
+<td>1970 - M468 - 8X1 High level Switcher (2).pdf</td>
+</tr>
+<tr>
+<td>1972 - M463J - Submaster Module (2)</td>
+<td><a href="M463J.html">M463J</a></td>
+<td>28</td>
+<td>Philips, PN364 5, Pi her</td>
+<td>1972 - M463J - Submaster Module (2).pdf</td>
+</tr>
+<tr>
+<td>1974 - M463 - Submaster Module (2)</td>
+<td><a href="M463.html">M463</a></td>
+<td>3</td>
+<td>Kelllet</td>
+<td>1974 - M463 - Submaster Module (2).pdf</td>
+</tr>
+<tr>
+<td>1974 - M463L - Submaster Module (2)</td>
+<td><a href="M463L.html">M463L</a></td>
+<td>5</td>
+<td>Phil i ps, Ph il i ps</td>
+<td>1974 - M463L - Submaster Module (2).pdf</td>
+</tr>
+<tr>
+<td>1974 - M463LA - Submaster Module (2)</td>
+<td><a href="M463LA.html">M463LA</a></td>
+<td>5</td>
+<td>Phil i ps, Ph il i ps</td>
+<td>1974 - M463LA - Submaster Module (2).pdf</td>
+</tr>
+<tr>
+<td>1975 - M456B - Dual Mixdown Module (2)</td>
+<td><a href="M456B.html">M456B</a></td>
+<td>10</td>
+<td>S1;, 51;, lOOK</td>
+<td>1975 - M456B - Dual Mixdown Module (2).pdf</td>
+</tr>
+<tr>
+<td>1975 - M495 - Stereo Monitor Module (2)</td>
+<td><a href="M495.html">M495</a></td>
+<td>5</td>
+<td></td>
+<td>1975 - M495 - Stereo Monitor Module (2).pdf</td>
+</tr>
+<tr>
+<td>1976 - M466 - Compressor - Limiter (2)</td>
+<td><a href="M466.html">M466</a></td>
+<td>4</td>
+<td>1" 414, T1P 298</td>
+<td>1976 - M466 - Compressor - Limiter (2).pdf</td>
+</tr>
+<tr>
+<td>1977 - M450A - Program Amplifer</td>
+<td><a href="M450A.html">M450A</a></td>
+<td>3</td>
+<td>Philips, Da!e</td>
+<td>1977 - M450A - Program Amplifer.pdf</td>
+</tr>
+<tr>
+<td>1977 - M457A - Pre Mixer Master Module</td>
+<td><a href="M457A.html">M457A</a></td>
+<td>3</td>
+<td>V</td>
+<td>1977 - M457A - Pre Mixer Master Module.pdf</td>
+</tr>
+<tr>
+<td>1977 - M470C - Input Module (2)</td>
+<td><a href="M470C.html">M470C</a></td>
+<td>3</td>
+<td>Ph!1ips</td>
+<td>1977 - M470C - Input Module (2).pdf</td>
+</tr>
+<tr>
+<td>1977 - M472 - Equalizer (2)</td>
+<td><a href="M472.html">M472</a></td>
+<td>4</td>
+<td>AI', m, VBS 10-025</td>
+<td>1977 - M472 - Equalizer (2).pdf</td>
+</tr>
+<tr>
+<td>1978 - M451 - Talkback Module</td>
+<td><a href="M451.html">M451</a></td>
+<td>4</td>
+<td>m, "</td>
+<td>1978 - M451 - Talkback Module.pdf</td>
+</tr>
+<tr>
+<td>1978 - M451 - Talkback Module (2)</td>
+<td><a href="M451.html">M451</a></td>
+<td>4</td>
+<td>m, "</td>
+<td>1978 - M451 - Talkback Module (2).pdf</td>
+</tr>
+<tr>
+<td>1978 - M462 - M562 - Equalizer</td>
+<td><a href="M462.html">M462</a></td>
+<td>4</td>
+<td>T39 0£ 416M02 5AS</td>
+<td>1978 - M462 - M562 - Equalizer.pdf</td>
+</tr>
+<tr>
+<td>1978 - M497 - Dual-Master-Module (2)</td>
+<td><a href="M497.html">M497</a></td>
+<td>2</td>
+<td>Phi lips, Ph i lips</td>
+<td>1978 - M497 - Dual-Master-Module (2).pdf</td>
+</tr>
+<tr>
+<td>1978 - M497A - Dual Master Module (2)</td>
+<td><a href="M497A.html">M497A</a></td>
+<td>12</td>
+<td>PT 10V 2K, Phil i ps, Ph il i ps</td>
+<td>1978 - M497A - Dual Master Module (2).pdf</td>
+</tr>
+<tr>
+<td>1978 - M497C - Dual Master Module (2)</td>
+<td><a href="M497C.html">M497C</a></td>
+<td>5</td>
+<td>Phil i ps, Ph il i ps</td>
+<td>1978 - M497C - Dual Master Module (2).pdf</td>
+</tr>
+<tr>
+<td>1978 - M497D - Dual Master Module (2)</td>
+<td><a href="M497D.html">M497D</a></td>
+<td>5</td>
+<td>Phil i ps, Ph il i ps</td>
+<td>1978 - M497D - Dual Master Module (2).pdf</td>
+</tr>
+<tr>
+<td>1978 - M612 - Audio DA</td>
+<td><a href="M612.html">M612</a></td>
+<td>4</td>
+<td>PD4D·7636, BNF-2</td>
+<td>1978 - M612 - Audio DA.pdf</td>
+</tr>
+<tr>
+<td>1979 - M460A - Input Module</td>
+<td><a href="M460A.html">M460A</a></td>
+<td>4</td>
+<td></td>
+<td>1979 - M460A - Input Module.pdf</td>
+</tr>
+<tr>
+<td>1979 - M477 - Master Module (2)</td>
+<td><a href="M477.html">M477</a></td>
+<td>3</td>
+<td>15K</td>
+<td>1979 - M477 - Master Module (2).pdf</td>
+</tr>
+<tr>
+<td>1983 - M460M - Input Module</td>
+<td><a href="M460M.html">M460M</a></td>
+<td>17</td>
+<td>Keaet, Kelllet, xeee t</td>
+<td>1983 - M460M - Input Module.pdf</td>
+</tr>
+<tr>
+<td>1983 - M490F - Stereo Input Module</td>
+<td><a href="M490F.html">M490F</a></td>
+<td>8</td>
+<td>Kemet</td>
+<td>1983 - M490F - Stereo Input Module.pdf</td>
+</tr>
+<tr>
+<td>1983 - M497B - Dual Master Module (2)</td>
+<td><a href="M497B.html">M497B</a></td>
+<td>5</td>
+<td>Phil i ps, Ph il i ps</td>
+<td>1983 - M497B - Dual Master Module (2).pdf</td>
+</tr>
+<tr>
+<td>1984 - M473B - Stereo Submaster (2)</td>
+<td><a href="M473B.html">M473B</a></td>
+<td>8</td>
+<td>Ph i l ips, Ph il i ps, FG-BLACK</td>
+<td>1984 - M473B - Stereo Submaster (2).pdf</td>
+</tr>
+<tr>
+<td>1986 - M463AB - Submaster Module (2)</td>
+<td><a href="M463AB.html">M463AB</a></td>
+<td>11</td>
+<td>Ph ilips, Ph il ips, Philips</td>
+<td>1986 - M463AB - Submaster Module (2).pdf</td>
+</tr>
+<tr>
+<td>1986 - M463AC - Master Module (2)</td>
+<td><a href="M463AC.html">M463AC</a></td>
+<td>5</td>
+<td>Phil i ps, Ph il i ps</td>
+<td>1986 - M463AC - Master Module (2).pdf</td>
+</tr>
+<tr>
+<td>3-102</td>
+<td><a href="M416.html">M416</a></td>
+<td>23</td>
+<td></td>
+<td>04a963a4027a0073f2c9253cf8069c0ec451e91dffd63fd54de660eec9df957a#1</td>
+</tr>
+<tr>
+<td>4-060</td>
+<td><a href="MP1.html">MP1</a></td>
+<td>1</td>
+<td></td>
+<td>2e8f6016920a30842fbf6a9e0cc1ce6acea50cae8876ea880ed32e9abec8b65e#1</td>
+</tr>
+<tr>
+<td>4-109</td>
+<td><a href="M461.html">M461</a></td>
+<td>2</td>
+<td></td>
+<td>740127a47a940c134f978fb72b9c90ec35c121606b916837853306af1e338118#1</td>
+</tr>
+<tr>
+<td>4-109</td>
+<td><a href="M464.html">M464</a></td>
+<td>7</td>
+<td></td>
+<td>0e20c8a07427a20f685fab8f54dda9e605c0907b97e287fb04132eb00a6b4f32#1</td>
+</tr>
+<tr>
+<td>4-109</td>
+<td><a href="M465.html">M465</a></td>
+<td>16</td>
+<td></td>
+<td>240bd81366e519ca29efb26aef4ab81480e73e1148aca9ea6eebeec3d3c8ee6c#1</td>
+</tr>
+<tr>
+<td>4-112</td>
+<td><a href="M462B.html">M462B</a></td>
+<td>6</td>
+<td></td>
+<td>ef3ac2bb0dffe20ea64e228da76febee26f4064c275cb76b1866dfee4b7c2fb3#29</td>
+</tr>
+<tr>
+<td>4-120</td>
+<td><a href="M415.html">M415</a></td>
+<td>14</td>
+<td></td>
+<td>999db7af8c61e27ca3153033af52d339e0e5ae4c43155447521adae782205842#1</td>
+</tr>
+<tr>
+<td>4-123</td>
+<td><a href="M5200A.html">M5200A</a></td>
+<td>1</td>
+<td></td>
+<td>ace9784ce390a744723eeebb3bfdb40754eef1188eb8ded367f34ab2a5375cc1#1</td>
+</tr>
+<tr>
+<td>4-126</td>
+<td><a href="M460B.html">M460B</a></td>
+<td>28</td>
+<td></td>
+<td>c92ee149de2eafa40f322a3340f27d57e79780d40f13fc0913feacec4de6470f#1</td>
+</tr>
+<tr>
+<td>4-126</td>
+<td><a href="M463K.html">M463K</a></td>
+<td>3</td>
+<td></td>
+<td>8b25b141322c2fe3b4adfafadea950cb6f78959281e2b257f6265d4af7b05f70#1</td>
+</tr>
+<tr>
+<td>4-141</td>
+<td><a href="M463K.html">M463K</a></td>
+<td>1</td>
+<td></td>
+<td>bc0f60f3f7fa29bc0cc8b490af0ab9831f4749ddbebdfd1248838d76bea764a8#1</td>
+</tr>
+<tr>
+<td>5-108</td>
+<td><a href="M405C.html">M405C</a></td>
+<td>44</td>
+<td></td>
+<td>6cfa0897ea4014d523b5bb69ad20a018a028d319c1ff969438548e4591d8422f#1</td>
+</tr>
+<tr>
+<td>7-112</td>
+<td><a href="M490L.html">M490L</a></td>
+<td>3</td>
+<td></td>
+<td>4d98608bb4c7e4cc66bea4844ecde2371759b964dcc990cbca0880cf7f25ef89#1</td>
+</tr>
+<tr>
+<td>7-140</td>
+<td><a href="M405C.html">M405C</a></td>
+<td>21</td>
+<td></td>
+<td>4dc8b72de80cedcfbe02c3dfb87b4840004ba75ac4257b714d0be47b743dc8fe#1</td>
+</tr>
+<tr>
+<td>8-109</td>
+<td><a href="M455.html">M455</a></td>
+<td>4</td>
+<td></td>
+<td>3a73e4fcce546fe205f0f07a2f39ca61a75e0340c1778b71c39080bfda5a0a7a#1</td>
+</tr>
+<tr>
+<td>8-109</td>
+<td><a href="M460B.html">M460B</a></td>
+<td>1</td>
+<td></td>
+<td>33d0eb4a058eadaff5601045d72dec22a119d8e07c2ce57f94675edd471f50c8#1</td>
+</tr>
+<tr>
+<td>8-109</td>
+<td><a href="M462B.html">M462B</a></td>
+<td>1</td>
+<td></td>
+<td>3c13a574571e5f81db1df997012eac566da09b2c2f42498876b304238e145505#1</td>
+</tr>
+<tr>
+<td>8-109</td>
+<td><a href="M467.html">M467</a></td>
+<td>19</td>
+<td></td>
+<td>f982101bdfa81ccf38eafe711cdbc0cd53817bfb2180c8596a9dda752c726fe1#19</td>
+</tr>
+<tr>
+<td>8-109</td>
+<td><a href="M473A.html">M473A</a></td>
+<td>4</td>
+<td></td>
+<td>6aa393fe21e67fb44dfacff0199398232ec0da3d2e870f08b3cc7439a83ded7c#16</td>
+</tr>
+<tr>
+<td>8-109</td>
+<td><a href="M487.html">M487</a></td>
+<td>1</td>
+<td></td>
+<td>91ed63d3c2b5a5885ddfab70ee77a2197b63ecad264ddcfe9b0c99515cdd05f4#1</td>
+</tr>
+<tr>
+<td>8-116</td>
+<td><a href="M605A.html">M605A</a></td>
+<td>16</td>
+<td></td>
+<td>ecaa8832acb4c5b8014f21af2ebcb9c071e759e87e383ba2f6caa53f10888c14#11</td>
+</tr>
+<tr>
+<td>8-448</td>
+<td><a href="M605A.html">M605A</a></td>
+<td>6</td>
+<td></td>
+<td>ecaa8832acb4c5b8014f21af2ebcb9c071e759e87e383ba2f6caa53f10888c14#15</td>
+</tr>
+<tr>
+<td>9-109</td>
+<td><a href="M611.html">M611</a></td>
+<td>9</td>
+<td></td>
+<td>be823d6fe293f3df3352ff3e2ec7ccead0ec16f56f602016dcf1326dffd5a413#1</td>
+</tr>
+<tr>
+<td>909CUSTM</td>
+<td>—</td>
+<td>29</td>
+<td>Piher, 1K3, Bourns</td>
+<td>909CUSTM.WP</td>
+</tr>
+<tr>
+<td>922&amp;922A</td>
+<td>—</td>
+<td>28</td>
+<td>023-3525, 021-2225, Philips</td>
+<td>922&amp;922A.WP</td>
+</tr>
+<tr>
+<td>CLK1</td>
+<td>—</td>
+<td>11</td>
+<td>SA14-201, SA14-202, SA14-203</td>
+<td>CLK1.WP</td>
+</tr>
+<tr>
+<td>D8212ER</td>
+<td>—</td>
+<td>3</td>
+<td>M8202A, M8245, FEU 031.1653</td>
+<td>D8212ER.WP</td>
+</tr>
+<tr>
+<td>D8212F</td>
+<td>—</td>
+<td>4</td>
+<td>M8205B, M8245, FEU 031.1653</td>
+<td>D8212F.WPD</td>
+</tr>
+<tr>
+<td>ES 370 - 005.jpg</td>
+<td>—</td>
+<td>1</td>
+<td></td>
+<td>ce48a1186513e8cb2d9c205a72ebe8196727a575d2ba2dc6968ffad354f0c81f#1</td>
+</tr>
+<tr>
+<td>IKR10</td>
+<td>—</td>
+<td>22</td>
+<td>Philips, Bourns, 0.5 A</td>
+<td>IKR10.WP</td>
+</tr>
+<tr>
+<td>IKR10A</td>
+<td>—</td>
+<td>25</td>
+<td>Philips, Bourns, 0.5 A</td>
+<td>IKR10A.WP</td>
+</tr>
+<tr>
+<td>IKR4A</td>
+<td>—</td>
+<td>21</td>
+<td>Philips, Bourns, "</td>
+<td>IKR4A.WP</td>
+</tr>
+<tr>
+<td>IPH-1E</td>
+<td>—</td>
+<td>11</td>
+<td>SA14-215B, SA14-277B, Sprague</td>
+<td>IPH-1E.WP</td>
+</tr>
+<tr>
+<td>IPH-4E</td>
+<td>—</td>
+<td>10</td>
+<td>Clarostat, SA14-215, SA14-277</td>
+<td>IPH-4E.WP</td>
+</tr>
+<tr>
+<td>M201</td>
+<td><a href="M201.html">M201</a></td>
+<td>9</td>
+<td></td>
+<td>d9410c1bdb1a0731dc3952e55bf540f81b1b53db1a50df8016b1d9da4492b895#1</td>
+</tr>
+<tr>
+<td>M202</td>
+<td><a href="M202.html">M202</a></td>
+<td>2</td>
+<td></td>
+<td>25b95205743c15d8e9987c6008574646abca6311d73f988efbd2d31ada834c06#1</td>
+</tr>
+<tr>
+<td>M207</td>
+<td><a href="M207.html">M207</a></td>
+<td>6</td>
+<td></td>
+<td>116a18edece95c988d956a744c6feacdfb9065900e88ab0b43f19a9f9bbd0cdd#3</td>
+</tr>
+<tr>
+<td>M404</td>
+<td><a href="M404.html">M404</a></td>
+<td>33</td>
+<td></td>
+<td>124301b97f2d5001f713cbffabe60a655e8c93e1cdcd7d5a18160e8f25b95de2#1</td>
+</tr>
+<tr>
+<td>M404A</td>
+<td><a href="M404A.html">M404A</a></td>
+<td>30</td>
+<td></td>
+<td>fbb89e8f88c95567b0b7c9a7c2cce4bdf8d6ea4b2ab5267fac953287e967aa10#1</td>
+</tr>
+<tr>
+<td>M405</td>
+<td><a href="M405.html">M405</a></td>
+<td>24</td>
+<td></td>
+<td>2131f561de7937fa0a7d441d89ee8622ae1fdeaacc14014d43dca43ee402bdeb#1</td>
+</tr>
+<tr>
+<td>M405M</td>
+<td><a href="M405M.html">M405M</a></td>
+<td>8</td>
+<td>SA14-292B, M703C, AGC0.75</td>
+<td>M405M.WP</td>
+</tr>
+<tr>
+<td>M405P</td>
+<td><a href="M405P.html">M405P</a></td>
+<td>10</td>
+<td></td>
+<td>7bb6492d06f6775f483f87153e1c9026e055080af7721775bcd25a2c3129c6bb#12</td>
+</tr>
+<tr>
+<td>M406B</td>
+<td><a href="M406B.html">M406B</a></td>
+<td>27</td>
+<td></td>
+<td>696031d534a3f69ab53cc85a219d192cf2ea05e2cce8d71d4acdfc1111b7f330#1</td>
+</tr>
+<tr>
+<td>M411</td>
+<td><a href="M411.html">M411</a></td>
+<td>39</td>
+<td></td>
+<td>0016c955e6cf732e306707e227bd6fe6900340f75e3131840582cf05f469edf9#1</td>
+</tr>
+<tr>
+<td>M412</td>
+<td><a href="M412.html">M412</a></td>
+<td>50</td>
+<td></td>
+<td>2117f4e2e8c79c0aed0803b710ed60f9279f8be2be43be458af70bb1ac0f3a54#1</td>
+</tr>
+<tr>
+<td>M413</td>
+<td><a href="M413.html">M413</a></td>
+<td>28</td>
+<td></td>
+<td>63d7be20cd3b99b8dc3e39cd55540c1fa08ea442fb0fc71173bfc612cb74e6a6#1</td>
+</tr>
+<tr>
+<td>M415</td>
+<td><a href="M415.html">M415</a></td>
+<td>70</td>
+<td></td>
+<td>205e511bd2c73f285764cde8a8d776e976906423afa71278ad59c5b222c9a606#1</td>
+</tr>
+<tr>
+<td>M441M</td>
+<td><a href="M441M.html">M441M</a></td>
+<td>64</td>
+<td></td>
+<td>726c59624361bf9023df5576f2dca5fd5f2414b856eceae99d1931237614c162#1</td>
+</tr>
+<tr>
+<td>M445</td>
+<td><a href="M445.html">M445</a></td>
+<td>12</td>
+<td>", SA14-305, SA14-304</td>
+<td>M445.WP</td>
+</tr>
+<tr>
+<td>M450</td>
+<td><a href="M450.html">M450</a></td>
+<td>7</td>
+<td></td>
+<td>33ea6245f08de5036f7c8043b78810ef6efca2301f019e9e76db883df20888ff#1</td>
+</tr>
+<tr>
+<td>M450B</td>
+<td><a href="M450B.html">M450B</a></td>
+<td>25</td>
+<td></td>
+<td>03f637fcb72c5f546c684b5cdb07c7379bf39389bfe901e29d7224336a448b16#10</td>
+</tr>
+<tr>
+<td>M453</td>
+<td><a href="M453.html">M453</a></td>
+<td>25</td>
+<td></td>
+<td>6e114af35f97f6931622d73da651216731a7a4dfdfa58dcc80c3a3a41bf1e7e3#1</td>
+</tr>
+<tr>
+<td>M453A</td>
+<td><a href="M453A.html">M453A</a></td>
+<td>24</td>
+<td></td>
+<td>019cd4a86a5482113bc334ffbc2c90e8c90d791ad9b972b7de6c9bba4e3b3b40#1</td>
+</tr>
+<tr>
+<td>M455</td>
+<td><a href="M455.html">M455</a></td>
+<td>9</td>
+<td></td>
+<td>af04294dc364d309b933c218975cb1d02ae4bd730d947ff043725e0786292d44#1</td>
+</tr>
+<tr>
+<td>M457</td>
+<td><a href="M457.html">M457</a></td>
+<td>67</td>
+<td></td>
+<td>1ad43f38a22715a9cb00ddf676d509fd96b9c56f7f5657cbe57e7c01e4ff37ed#11</td>
+</tr>
+<tr>
+<td>M460B</td>
+<td><a href="M460B.html">M460B</a></td>
+<td>25</td>
+<td></td>
+<td>3f199d92582f38f99a86eb1547276c6506381baf9b6988736e1e0b47eb516484#1</td>
+</tr>
+<tr>
+<td>M461</td>
+<td><a href="M461.html">M461</a></td>
+<td>27</td>
+<td></td>
+<td>4fb58448d14c15211fd39b1b6fc1b296fef4d5447475c35ce4649b64b949aab2#1</td>
+</tr>
+<tr>
+<td>M461M</td>
+<td><a href="M461M.html">M461M</a></td>
+<td>45</td>
+<td></td>
+<td>0d57505b6118b88ecd8f8e2b0c091dc7d6aad595bee7871fee1ccde91c25fa76#1</td>
+</tr>
+<tr>
+<td>M462B</td>
+<td><a href="M462B.html">M462B</a></td>
+<td>25</td>
+<td></td>
+<td>b231dfdb2695b883205aedf59b78889b8a03594248340870aebb5a8ba580d036#1</td>
+</tr>
+<tr>
+<td>M462C</td>
+<td><a href="M462C.html">M462C</a></td>
+<td>62</td>
+<td></td>
+<td>0a398c59bd32878f88ca4e03d073878b393e06b4ae8cacf1c021f6fc0e4af41a#1</td>
+</tr>
+<tr>
+<td>M463K</td>
+<td><a href="M463K.html">M463K</a></td>
+<td>6</td>
+<td></td>
+<td>56f3cc095396f081959e7d7fa63cb9e2f854cf6b2a5066ef6931bdecb5d91643#1</td>
+</tr>
+<tr>
+<td>M464</td>
+<td><a href="M464.html">M464</a></td>
+<td>11</td>
+<td></td>
+<td>874c0b8e8ec289a07c7cee333cb09738cf110077f4dcc08fd24d6a6e58e26da0#1</td>
+</tr>
+<tr>
+<td>M465</td>
+<td><a href="M465.html">M465</a></td>
+<td>20</td>
+<td></td>
+<td>057516ce6a109e5757810dbfd0e8422502e71f570c7d73a8c67c721e51fd2aa8#1</td>
+</tr>
+<tr>
+<td>M467</td>
+<td><a href="M467.html">M467</a></td>
+<td>50</td>
+<td></td>
+<td>8abe09f9a7030d92ca30199ed75c9f4def2ab08a154c3d6fe14e9f92858cd552#1</td>
+</tr>
+<tr>
+<td>M470A</td>
+<td><a href="M470A.html">M470A</a></td>
+<td>10</td>
+<td></td>
+<td>de789b0c76b01252c60c952d3881a4f52b0cb969c522552a75d5b57ec345ddf2#13</td>
+</tr>
+<tr>
+<td>M470E</td>
+<td><a href="M470E.html">M470E</a></td>
+<td>5</td>
+<td></td>
+<td>0daaa4a8382a53f272de97cb6bd71625b4c204718cb3df1220cdf75462c06351#1</td>
+</tr>
+<tr>
+<td>M471A</td>
+<td><a href="M471A.html">M471A</a></td>
+<td>13</td>
+<td></td>
+<td>8ccbd08fcf220c1fbd14c94b524b6f7e971984365aa915f31bd2db10587e7d3f#1</td>
+</tr>
+<tr>
+<td>M471C</td>
+<td><a href="M471C.html">M471C</a></td>
+<td>96</td>
+<td></td>
+<td>0d7fa9df0ddc234b3e75f842870cf6f43ea08a9fbe8c94058195ca9997257f27#1</td>
+</tr>
+<tr>
+<td>M472A</td>
+<td><a href="M472A.html">M472A</a></td>
+<td>34</td>
+<td></td>
+<td>19dcc3d0776bcca849335f44ad989b750a19e3ef0b3ba082e281fa9d28a70b54#1</td>
+</tr>
+<tr>
+<td>M473A</td>
+<td><a href="M473A.html">M473A</a></td>
+<td>8</td>
+<td></td>
+<td>7ba88cbc33cf5877886ea4c16eddcbd4fdb1940366522f56d59d663967cd6479#1</td>
+</tr>
+<tr>
+<td>M475</td>
+<td><a href="M475.html">M475</a></td>
+<td>19</td>
+<td></td>
+<td>1637dcb6150234e29ba505374a2d7dc3c3d32c2d95b938c13a632d6e323ec259#1</td>
+</tr>
+<tr>
+<td>M475A</td>
+<td><a href="M475A.html">M475A</a></td>
+<td>16</td>
+<td></td>
+<td>5bc0dddc1eaba641624442208b35a806604274eceb554bfba724f44717209b83#1</td>
+</tr>
+<tr>
+<td>M478H</td>
+<td><a href="M478H.html">M478H</a></td>
+<td>2</td>
+<td></td>
+<td>f399146d9d5560639d0f4956ae0d9341280ef6cda9cb82f7785f58fbf2df1b4f#1</td>
+</tr>
+<tr>
+<td>M479</td>
+<td><a href="M479.html">M479</a></td>
+<td>27</td>
+<td></td>
+<td>3655088ad70dd84d43bfb0dd0a0edab3555f608b69486efee328cb10c72f64ed#1</td>
+</tr>
+<tr>
+<td>M480B</td>
+<td><a href="M480B.html">M480B</a></td>
+<td>63</td>
+<td></td>
+<td>04f0f99e49a73c83ad3a1f38cba89b0f79ae63810b1da4b4d507478ba62748f7#1</td>
+</tr>
+<tr>
+<td>M480C</td>
+<td><a href="M480C.html">M480C</a></td>
+<td>76</td>
+<td></td>
+<td>08ef1d6a7adbc70fdc9ef8cd5c61851ffa891c7042e2e730204946ed648d9f04#1</td>
+</tr>
+<tr>
+<td>M481B</td>
+<td><a href="M481B.html">M481B</a></td>
+<td>20</td>
+<td></td>
+<td>1aecbbd0bbbacebd1a4913abaacb5eda98a0baad56131f0a8fecec99af1d48c0#1</td>
+</tr>
+<tr>
+<td>M482B</td>
+<td><a href="M482B.html">M482B</a></td>
+<td>19</td>
+<td></td>
+<td>40dbbada78941f2f725c61cce547bf046d7259efb04afe5c560ab4e1eb982ea3#6</td>
+</tr>
+<tr>
+<td>M485B</td>
+<td><a href="M485B.html">M485B</a></td>
+<td>34</td>
+<td></td>
+<td>6bf1d9694be4d68d6ea5eb291b1a0f6728207cbe8ba784ac46d0f387b670aaa7#4</td>
+</tr>
+<tr>
+<td>M487</td>
+<td><a href="M487.html">M487</a></td>
+<td>14</td>
+<td></td>
+<td>6d92d4a1e018bea93f3f6c6f81b5ade5602b211d59b62562c34646ec8507b910#1</td>
+</tr>
+<tr>
+<td>M490A</td>
+<td><a href="M490A.html">M490A</a></td>
+<td>33</td>
+<td></td>
+<td>a7bf38f75b2ea6856cc631ed629e960e376f650b8437143e79230f42cf6e8ddb#1</td>
+</tr>
+<tr>
+<td>M490G</td>
+<td><a href="M490G.html">M490G</a></td>
+<td>10</td>
+<td></td>
+<td>87cfb6ea1db70b2557c5616471f15b8a10944a375ebb4acd86df328f31ad96b4#1</td>
+</tr>
+<tr>
+<td>M490H</td>
+<td><a href="M490H.html">M490H</a></td>
+<td>60</td>
+<td></td>
+<td>2b7c1b969e40711509986f892b75a2ddeb02771036680814ecedb5e1ae3f7fb6#1</td>
+</tr>
+<tr>
+<td>M490J</td>
+<td><a href="M490J.html">M490J</a></td>
+<td>15</td>
+<td></td>
+<td>a1ab3966cbdb77ec644eb757c173b0efc70d5bc39fd0c055f69e61151a094bf6#1</td>
+</tr>
+<tr>
+<td>M490K</td>
+<td><a href="M490K.html">M490K</a></td>
+<td>21</td>
+<td></td>
+<td>43ab1d0b617355b53938bf86d894d58cfde15ed05dc5b82ed62146c5c744da5f#1</td>
+</tr>
+<tr>
+<td>M490L</td>
+<td><a href="M490L.html">M490L</a></td>
+<td>33</td>
+<td></td>
+<td>252f1b1227fc71e02cedb54b2a0dc0255457150949c8b553e33908e3e331768d#1</td>
+</tr>
+<tr>
+<td>M490M</td>
+<td><a href="M490M.html">M490M</a></td>
+<td>24</td>
+<td></td>
+<td>52c0fb2b62c16901a9cca58bd05544e6c17d5a9363a6cea83efe67b1440a7c06#1</td>
+</tr>
+<tr>
+<td>M490N</td>
+<td><a href="M490N.html">M490N</a></td>
+<td>24</td>
+<td></td>
+<td>a69cfd886063180e8690d5034111149848856624c57e4c00c611079072d9fa6e#1</td>
+</tr>
+<tr>
+<td>M5200A</td>
+<td><a href="M5200A.html">M5200A</a></td>
+<td>46</td>
+<td></td>
+<td>0368de6912ccaa7717612b8701e94b0e7915d646f018a6826aa5e3e8763ccdd9#1</td>
+</tr>
+<tr>
+<td>M5201</td>
+<td><a href="M5201.html">M5201</a></td>
+<td>24</td>
+<td></td>
+<td>26e2a0571833e446bfda916f9b0642afb0bd387346c85c11f05cf9309b3acc52#1</td>
+</tr>
+<tr>
+<td>M520A</td>
+<td><a href="M520A.html">M520A</a></td>
+<td>103</td>
+<td></td>
+<td>19d6f72955b27f574da2531d2cc5ff2dec814660c573e703c53bbc51def8db75#1</td>
+</tr>
+<tr>
+<td>M521A</td>
+<td><a href="M521A.html">M521A</a></td>
+<td>72</td>
+<td></td>
+<td>72f02e06b6bb9bf43f210d1493efd47b05ef6e4fd1e8a06af9ff505a06e1645e#1</td>
+</tr>
+<tr>
+<td>M522</td>
+<td><a href="M522.html">M522</a></td>
+<td>45</td>
+<td></td>
+<td>8456667b47ba46e06453bf8e433bf5914a24b427290957fbba3d40a62670e783#1</td>
+</tr>
+<tr>
+<td>M522B</td>
+<td><a href="M522B.html">M522B</a></td>
+<td>39</td>
+<td></td>
+<td>7d8e35d6ef4c02c765799d927de645e098bae1267995d66d56130da35c770427#10</td>
+</tr>
+<tr>
+<td>M523</td>
+<td><a href="M523.html">M523</a></td>
+<td>24</td>
+<td></td>
+<td>602bc5b877b38d99a90079a84ae4487430861db7233fc8add7ebd5c488f80222#1</td>
+</tr>
+<tr>
+<td>M527</td>
+<td><a href="M527.html">M527</a></td>
+<td>29</td>
+<td></td>
+<td>18aebaa9f656d6b5aaeab07494c37f1161ac4b6688014a764f6c0ecc94f1f642#1</td>
+</tr>
+<tr>
+<td>M528</td>
+<td><a href="M528.html">M528</a></td>
+<td>27</td>
+<td></td>
+<td>4c9808b9773a31db28cdef925858791c694343d908f040eb3b2f9402f4985255#1</td>
+</tr>
+<tr>
+<td>M529</td>
+<td><a href="M529.html">M529</a></td>
+<td>56</td>
+<td></td>
+<td>0a8ab500584ef048f9658e4ed4ae4726bbe809f5e752fd33ca12d3673e189f06#11</td>
+</tr>
+<tr>
+<td>M538</td>
+<td><a href="M538.html">M538</a></td>
+<td>3</td>
+<td></td>
+<td>5ace56932ed87f50d392c112bff2b914778635ab4552b37184c884eb148fd772#1</td>
+</tr>
+<tr>
+<td>M600</td>
+<td><a href="M600.html">M600</a></td>
+<td>2</td>
+<td></td>
+<td>d60b6bec42d2e552ddf26e6f451188f6e009ae68fb0e52f1d22e69de3dddbe43#1</td>
+</tr>
+<tr>
+<td>M605A</td>
+<td><a href="M605A.html">M605A</a></td>
+<td>31</td>
+<td></td>
+<td>1927f70b00ac67cbf821e478bb999898db6a8135b28e30f1bb3152803414ef71#1</td>
+</tr>
+<tr>
+<td>M609</td>
+<td><a href="M609.html">M609</a></td>
+<td>12</td>
+<td></td>
+<td>7b29bb2cdbc4cf4e7374e53737f0ead183b5ba10deae9352dd5a1b98062c6c73#1</td>
+</tr>
+<tr>
+<td>M612A</td>
+<td><a href="M612A.html">M612A</a></td>
+<td>5</td>
+<td></td>
+<td>b065f8f09bb31a39b2ceb0d4a780f94d87bfc1508081f14719765178c945cb9c#1</td>
+</tr>
+<tr>
+<td>M625A</td>
+<td><a href="M625A.html">M625A</a></td>
+<td>8</td>
+<td></td>
+<td>3b6f030040370aa2d446778f20edd0cbe28444c19ad5b1b63d27d313d0f26765#1</td>
+</tr>
+<tr>
+<td>M625B</td>
+<td><a href="M625B.html">M625B</a></td>
+<td>20</td>
+<td></td>
+<td>47d3149903778d02819c058a25b97081765fd06c30647becd70d4c4ef1374468#1</td>
+</tr>
+<tr>
+<td>M702D</td>
+<td><a href="M703D.html">M703D</a></td>
+<td>17</td>
+<td>1N4148, Piher, ITT</td>
+<td>M702D.WPD</td>
+</tr>
+<tr>
+<td>M703</td>
+<td><a href="M703.html">M703</a></td>
+<td>25</td>
+<td></td>
+<td>75b6bf5a5eb24d6ae4fbf5786a62f329e75c932851f64e6f26cecf6933819368#1</td>
+</tr>
+<tr>
+<td>M703B</td>
+<td><a href="M703B.html">M703B</a></td>
+<td>52</td>
+<td></td>
+<td>14acd20ff86e03aa25b18c11ffaf88f31fdd20a1d44d87df0bf6068aefc94344#1</td>
+</tr>
+<tr>
+<td>M718</td>
+<td><a href="M718.html">M718</a></td>
+<td>20</td>
+<td>Bourns, 1K, Sprague</td>
+<td>M718.WP</td>
+</tr>
+<tr>
+<td>M7880H</td>
+<td><a href="M7880H.html">M7880H</a></td>
+<td>13</td>
+<td>SA14-270G, SA14-271, SA14-246H</td>
+<td>M7880H.WP</td>
+</tr>
+<tr>
+<td>M7882</td>
+<td>—</td>
+<td>55</td>
+<td>NAZ15S-E, NCZ37S-E, NAZ15P-E</td>
+<td>7882&amp;83.WP</td>
+</tr>
+<tr>
+<td>M7885A</td>
+<td><a href="M7885A.html">M7885A</a></td>
+<td>6</td>
+<td>SA14-218, SA14-219, MDL-1.5</td>
+<td>M7885A.WP</td>
+</tr>
+<tr>
+<td>M808C</td>
+<td><a href="M808C.html">M808C</a></td>
+<td>7</td>
+<td>1N746A, 2N6731, 4K7</td>
+<td>M808C.WP</td>
+</tr>
+<tr>
+<td>M8200</td>
+<td><a href="M8200.html">M8200</a></td>
+<td>15</td>
+<td></td>
+<td>f3ccece0299f3b1753a9e3083d3a2d4e721a4a1d274260c126fdebef0ac12aab#1</td>
+</tr>
+<tr>
+<td>M8205#6</td>
+<td><a href="M8205.html">M8205</a></td>
+<td>14</td>
+<td>Bourns, Kemet, 2N4401</td>
+<td>M8205#6.WP</td>
+</tr>
+<tr>
+<td>M8205B#6</td>
+<td><a href="M8205B.html">M8205B</a></td>
+<td>15</td>
+<td>Bourns, Kemet, 2N4401</td>
+<td>M8205B#6.WP</td>
+</tr>
+<tr>
+<td>M8207</td>
+<td><a href="M8207.html">M8207</a></td>
+<td>36</td>
+<td>Piher, 75, 1K</td>
+<td>M8207.WP</td>
+</tr>
+<tr>
+<td>M8208</td>
+<td><a href="M8208.html">M8208</a></td>
+<td>40</td>
+<td>Piher, 75, ITT</td>
+<td>M8208.WP</td>
+</tr>
+<tr>
+<td>M901A#5</td>
+<td><a href="M901A.html">M901A</a></td>
+<td>112</td>
+<td>Piher, 22K, 929705-01-03</td>
+<td>M901A#5.WP</td>
+</tr>
+<tr>
+<td>M901B#4</td>
+<td><a href="M901B.html">M901B</a></td>
+<td>82</td>
+<td>10K, Piher, 22K</td>
+<td>M901B#4.WP</td>
+</tr>
+<tr>
+<td>M901C#4</td>
+<td><a href="M901C.html">M901C</a></td>
+<td>64</td>
+<td>10K, Piher, Bourns</td>
+<td>M901C#4.WP</td>
+</tr>
+<tr>
+<td>M901D</td>
+<td><a href="M901D.html">M901D</a></td>
+<td>114</td>
+<td>Piher, 22K, 1N4003</td>
+<td>M901D.WP</td>
+</tr>
+<tr>
+<td>M901NW</td>
+<td><a href="M901NW.html">M901NW</a></td>
+<td>64</td>
+<td>Piher, 3K3, 15K</td>
+<td>M901NW.WP</td>
+</tr>
+<tr>
+<td>M905B</td>
+<td><a href="M905B.html">M905B</a></td>
+<td>40</td>
+<td>Piher, 15K, 30K</td>
+<td>M905B.WP</td>
+</tr>
+<tr>
+<td>M907#2</td>
+<td><a href="M907.html">M907</a></td>
+<td>19</td>
+<td>Piher, 1K5, Philips</td>
+<td>M907#2.WP</td>
+</tr>
+<tr>
+<td>M924</td>
+<td><a href="M924.html">M924</a></td>
+<td>13</td>
+<td>Wima, 1N1202A, 1N4751A</td>
+<td>M924.WP</td>
+</tr>
+<tr>
+<td>M924A</td>
+<td><a href="M924A.html">M924A</a></td>
+<td>13</td>
+<td>Wima, 1N1202A, 1N4751A</td>
+<td>M924A.WP</td>
+</tr>
+<tr>
+<td>MF82-4</td>
+<td>—</td>
+<td>5</td>
+<td>SA14-288, SA14-289, 307-24-00-02</td>
+<td>MF82-4.WP</td>
+</tr>
+<tr>
+<td>MP1</td>
+<td><a href="MP1.html">MP1</a></td>
+<td>2</td>
+<td></td>
+<td>ff1ec4e4a4567ef3e132e4c9e0ac38a41ca05757e4645dadb9efeb5accc4c172#1</td>
+</tr>
+<tr>
+<td>POD5SRV</td>
+<td><a href="POD5.html">POD5</a></td>
+<td>119</td>
+<td>CR25, MRS25F, R01MF</td>
+<td>POD5SRV.WPD</td>
+</tr>
+<tr>
+<td>RS8216</td>
+<td>—</td>
+<td>4</td>
+<td>SA14-300, SA14-301, MDL.500</td>
+<td>RS8216.WP</td>
+</tr>
+<tr>
+<td>SA14-076</td>
+<td><a href="M521.html">M521</a></td>
+<td>20</td>
+<td></td>
+<td>4f77bc512b8994f065daa16cbd2cc11edc14ca5e44380ff286b38812c25fd09e#1</td>
+</tr>
+<tr>
+<td>SA14-077</td>
+<td><a href="M521.html">M521</a></td>
+<td>9</td>
+<td></td>
+<td>6ffbb95c0b60552f7bbc6d4c66e4b1155a9fa9ed787520ece6fe70bb3e977bf2#1</td>
+</tr>
+<tr>
+<td>SA14-077</td>
+<td><a href="M523.html">M523</a></td>
+<td>28</td>
+<td></td>
+<td>52ca927467ff6da92432188dca1462641d6f86b427a15ca577972367d3620f21#1</td>
+</tr>
+<tr>
+<td>SA14-086</td>
+<td><a href="M523.html">M523</a></td>
+<td>23</td>
+<td></td>
+<td>1771c3f90ec08a0a99a667523c5b5289a1a72535432b8648c1faa732e4b6dcde#1</td>
+</tr>
+<tr>
+<td>SA14-087</td>
+<td><a href="M523.html">M523</a></td>
+<td>45</td>
+<td></td>
+<td>0c9ebc07c30811aaa60c924e60cd575f188464655522a43ca651eb37f15ea885#1</td>
+</tr>
+<tr>
+<td>SA14-094</td>
+<td><a href="M5200.html">M5200</a></td>
+<td>8</td>
+<td></td>
+<td>01a925562489d8770b0b8ad48beef4dc366262af6ccc083a5702e93cb597121a#1</td>
+</tr>
+<tr>
+<td>SA14-094</td>
+<td><a href="M5200A.html">M5200A</a></td>
+<td>58</td>
+<td></td>
+<td>10f3a31ba963fabaec8e9db6c35e7da92d96ee249c4f761ba3eac4fcf19fa5ea#1</td>
+</tr>
+<tr>
+<td>SA14-095</td>
+<td><a href="M5200.html">M5200</a></td>
+<td>32</td>
+<td></td>
+<td>26947353fcecc2537e22f5f546124fc30b0845c4efd847630a5b85293ce09d5d#1</td>
+</tr>
+<tr>
+<td>SA14-101</td>
+<td><a href="M609.html">M609</a></td>
+<td>1</td>
+<td></td>
+<td>74a385b79730a85dc4ef741dbc20c67f73d961c3897ffded548f39006e6e6351#1</td>
+</tr>
+<tr>
+<td>SA14-109</td>
+<td><a href="M462C.html">M462C</a></td>
+<td>18</td>
+<td></td>
+<td>cffa0d4c8bf71c833ffa02e3f76f9e016498a13e9fc17bded08e35a33199a402#37</td>
+</tr>
+<tr>
+<td>SA14-109</td>
+<td><a href="M528.html">M528</a></td>
+<td>8</td>
+<td></td>
+<td>3f62f40ddd9b116ca28eb7a16703d8fae42c904e577cb5f6ea13c016dc58396c#1</td>
+</tr>
+<tr>
+<td>SA14-121</td>
+<td><a href="MP1.html">MP1</a></td>
+<td>2</td>
+<td></td>
+<td>b6dbe0e6ea818974f749440e0bdb509ddd0502314d632a1d2ed0527469e99e44#1</td>
+</tr>
+<tr>
+<td>SA14-122</td>
+<td><a href="M5200A.html">M5200A</a></td>
+<td>3</td>
+<td></td>
+<td>6c20a764690b138b7e725a94b9bb9732a99a9feba90083a95ba3607eda13bc65#39</td>
+</tr>
+<tr>
+<td>SA14-123</td>
+<td><a href="M5200A.html">M5200A</a></td>
+<td>31</td>
+<td></td>
+<td>46f6318cae1f9d4d0c0df5d8dfe5090dcc99637b745a0080bfddddfc986f4370#1</td>
+</tr>
+<tr>
+<td>SA14-124</td>
+<td><a href="M529.html">M529</a></td>
+<td>30</td>
+<td></td>
+<td>0a8ab500584ef048f9658e4ed4ae4726bbe809f5e752fd33ca12d3673e189f06#25</td>
+</tr>
+<tr>
+<td>SA14-141</td>
+<td><a href="M5201.html">M5201</a></td>
+<td>7</td>
+<td></td>
+<td>2e85a03123d146eccccc98cbbcae4f30f08d8e1ad2c7866f8b40d1b88d349e70#1</td>
+</tr>
+<tr>
+<td>SA14-161</td>
+<td><a href="M5201.html">M5201</a></td>
+<td>28</td>
+<td></td>
+<td>052717617a3dee8acb89d51e220b18f2b6fcdaea6b1a3867aa106e01cd480fea#1</td>
+</tr>
+<tr>
+<td>SA14-325</td>
+<td><a href="M921.html">M921</a></td>
+<td>581</td>
+<td>Phillips, National, ITT</td>
+<td>14-325.WP</td>
+</tr>
+<tr>
+<td>TMR1</td>
+<td>—</td>
+<td>10</td>
+<td>", SA14-204, SA14-205</td>
+<td>TMR1.WP</td>
+</tr>
+</tbody>
+</table><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from Parts-lists.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

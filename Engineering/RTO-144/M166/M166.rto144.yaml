@@ -1,0 +1,35 @@
+code: M166
+series: S400-LINE
+type: SUMMING
+row_count: 15
+impedance:
+  line_in: 600
+  out: 600
+note: 10Ω
+audio:
+- port: A1
+  signal: SUMMING-IN-10kΩ
+  dir: in
+  pos: '1'
+  neg: '2'
+  pad_pos: 1.A.1.P
+  pad_neg: 2.A.1.N
+- port: A2
+  signal: PREAMP-OUT-1
+  dir: out
+  pos: '10'
+  neg: '11'
+  pad_pos: 10.A.2.P
+  pad_neg: 11.A.2.N
+bus_out: []
+bus_in: []
+power:
+- rail: VCC-AUDIO
+  style: OLD
+  volts: 48
+  max_a: 0.1
+  supply: '15'
+  ground: '12'
+  link: null
+jumpers: []
+logic: []

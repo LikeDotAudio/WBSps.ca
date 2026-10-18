@@ -1,0 +1,42 @@
+{
+  "board": "M920-1 - M920",
+  "title": "",
+  "format": "tango",
+  "sha256": "3c12c32d606690f72d94c81c99501d7b71c992dd2b9c310dfb23d85dc0efac88",
+  "source": "WBSps Engineering from H drive/WBSps - CONSOLES/REN TV Console/M920/M920-1.PCB",
+  "copies": [
+    "WBSps Engineering from H drive/WBSps - CONSOLES/REN TV Console/M920/M920-1.PCB",
+    "wbsPS-NOT UPLOADED/XXX - REN TV Console-20221115T024141Z-001/REN TV Console/M920/M920-1.PCB",
+    "WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - CONSOLES/REN TV Console/M920/M920-1.PCB"
+  ],
+  "kicad_pcb": "M920-1 - M920/M920-1.kicad_pcb",
+  "netlist": null,
+  "convert": {
+    "source": "/home/anthony/Documents/GitProjects/WBSps.ca/WBSps.env/WBSps Engineering from H drive/WBSps - CONSOLES/REN TV Console/M920/M920-1.PCB",
+    "kicad_pcb": "/home/anthony/Documents/GitProjects/WBSps.ca/2026/Engineering/PCB/M920-1 - M920/M920-1.kicad_pcb",
+    "format": "Tango-PCB PLUS V2.02 Series II",
+    "edge_layer": 14,
+    "tango_layers_used": {
+      "0": 3043,
+      "1": 2429,
+      "4": 1,
+      "8": 2527,
+      "12": 155,
+      "13": 35,
+      "14": 53,
+      "18": 29
+    },
+    "counts": {
+      "components": 564,
+      "pads": 2493,
+      "tracks": 5405,
+      "vias": 301,
+      "graphics": 2542,
+      "texts": 254,
+      "pours": 71
+    },
+    "nets": null
+  },
+  "top": "M920-1 - M920/M920-1-top.svg",
+  "bottom": "M920-1 - M920/M920-1-bottom.svg"
+}

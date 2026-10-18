@@ -1,0 +1,785 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M461M</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../../../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../../../index.html">Index</a><a href="../../../Home.html">Wiki home</a><a href="../../../PAGES/Timeline.html">Timeline</a><a href="../../../search.html">Search</a><a href="../../../status.html">Status</a></div><h1>M461M</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="../../../PAGES/Category-INPUT-PRE-AMPS.html">INPUT-PRE-AMPS</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../../../simulator.html?m=M461M">simulator &amp; front panel</a> · <a href="../../../_packages/M461M.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="../../../PAGES/Year-1976.html">1976|9</a> — title block date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"8 SEPT 76" on 1975 - M461M - 461-01-002 - SOLO CONTROL SOLO COMMON CONTROL.jpg</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="../../../PAGES/Year-1976.html">1976|9</a></td>
+</tr>
+<tr>
+<td>Used in jobs</td>
+<td><a href="../../../PAGES/Job-76045.html">76045</a> (1976|9)</td>
+</tr>
+<tr>
+<td>Variants</td>
+<td><a href="../../../PAGES/M461.html">M461</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="index.html">Modules/INPUT-PRE-AMPS/M461M</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections and circuit (ideal SPICE model)</h2>
+<p><em>Drawn live from its RTO-144 connections: run the generator, turn the gain, watch the VU. Open the netlist to see how the model is built.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M461M" data-n="" data-cat="INPUT-PRE-AMPS"></div><svg class="wbs-panel" data-m="M461M" data-n="" data-cat="INPUT-PRE-AMPS" role="img" aria-label="M461M front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M461M","title":"","rto":{"code":"M461M","series":null,"type":"Microphone Preamp","row_count":null,"impedance":{"out":600},"note":null,"audio":[{"port":"A1","signal":"Mic In","dir":"in","pos":"1","neg":"A","pad_pos":"1.A.1.P","pad_neg":"A.A.1.N"},{"port":"A2","signal":"Line","dir":"io","pos":"10","neg":"L","pad_pos":"10.A.2.P","pad_neg":"L.A.2.N"},{"port":"A3","signal":"Right OUT","dir":"out","pos":"16","neg":"T","pad_pos":"16.A.3.P","pad_neg":"T.A.3.N"},{"port":"B1","signal":"Insert Send","dir":"out","pos":"14","neg":"R","pad_pos":"14.B.1.P","pad_neg":"R.B.1.N"},{"port":"B2","signal":"Insert Return","dir":"in","pos":"13","neg":"P","pad_pos":"13.B.2.P","pad_neg":"P.B.2.N"},{"port":"B3","signal":"CHON OUT - OUT","dir":"out","pos":"12","neg":"N","pad_pos":"12.B.3.P","pad_neg":"N.B.3.N"},{"port":"B4","signal":"Fader Return","dir":"in","pos":"11","neg":"M","pad_pos":"11.B.4.P","pad_neg":"M.B.4.N"}],"bus_out":[],"bus_in":[],"power":[{"rail":"VEE-AUDIO","style":"NEW","volts":-25,"max_a":0.1,"supply":"19","ground":"20","link":2},{"rail":"VCC-AUDIO","style":"NEW","volts":25,"max_a":0.2,"supply":"21","ground":"20","link":1},{"rail":"VCC-LAMP","style":"NEW","volts":24,"max_a":0.1,"supply":"Y","ground":"18","link":null}],"jumpers":[{"function":"CH ON LAMP","designation":"JMP.Z.W","from":"Z","to":"W"},{"function":"24V Ground","designation":"JMP.X.18","from":"X","to":"18"},{"function":"24V to 25V","designation":"JMP.Y.21","from":"Y","to":"21"},{"function":"CH ON GND ","designation":"JMP.3","from":"20","to":"18"},{"function":"Insert  SEND","designation":"JMP.14.13","from":"14","to":"13"},{"function":"Insert  Return","designation":"JMP.R.P","from":"R","to":"P"},{"function":"Fader Send","designation":"JMP.12.11","from":"12","to":"11"},{"function":"Fader Return","designation":"JMP.N.M","from":"N","to":"M"}],"logic":[]},"parts":[{"item":"10-014","title":"","label":"10-014","href":"Register-Sub-assemblies-n-nnn.html#10-014","note":"Sub-assemblies (n-nnn)"},{"item":"4-108","title":"","label":"4-108","href":"Register-Sub-assemblies-n-nnn.html#4-108","note":"Sub-assemblies (n-nnn)"},{"item":"8-109","title":"Booster Amplifier Component Layout","label":"8-109 Booster Amplifier Componen","href":"Register-Sub-assemblies-n-nnn.html#8-109","note":"Sub-assemblies (n-nnn)"}],"parents":[{"label":"76045","href":"Job-76045.html","note":"CFTO"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20461-01-002%20-%20SOLO%20CONTROL%20SOLO%20COMMON%20CONTROL%20%282%29.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20461-01-002%20-%20SOLO%20CONTROL%20SOLO%20COMMON%20CONTROL%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M461M/1975 - M461M - 461-01-002 - SOLO CONTROL SOLO COMMON CONTROL (2).jpg" data-size="320" onerror="wbsOff(this)">1975 - M461M - 461-01-002 - SOLO CONTROL SOLO COMMON CONTROL (2).jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20461-01-002%20-%20SOLO%20CONTROL%20SOLO%20COMMON%20CONTROL.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20461-01-002%20-%20SOLO%20CONTROL%20SOLO%20COMMON%20CONTROL.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M461M/1975 - M461M - 461-01-002 - SOLO CONTROL SOLO COMMON CONTROL.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1975 - M461M - 461-01-002 - SOLO CONTROL SOLO COMMON CONTROL.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20461-02-004%20-%20CONTRCL%20CONTROL.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20461-02-004%20-%20CONTRCL%20CONTROL.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M461M/1975 - M461M - 461-02-004 - CONTRCL CONTROL.jpg" data-size="320" onerror="wbsOff(this)">1975 - M461M - 461-02-004 - CONTRCL CONTROL.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20461-04-008%20-%20INPUT%20MODULE%20ASSEMBLY.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20461-04-008%20-%20INPUT%20MODULE%20ASSEMBLY.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M461M/1975 - M461M - 461-04-008 - INPUT MODULE ASSEMBLY.jpg" data-size="320" onerror="wbsOff(this)">1975 - M461M - 461-04-008 - INPUT MODULE ASSEMBLY.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20461-04-008%20-%20MOD%20ICKD%20USED.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20461-04-008%20-%20MOD%20ICKD%20USED.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M461M/1975 - M461M - 461-04-008 - MOD ICKD USED.jpg" data-size="320" onerror="wbsOff(this)">1975 - M461M - 461-04-008 - MOD ICKD USED.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20P1.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20P1.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M461M/1975 - M461M - P1.jpg" data-size="320" onerror="wbsOff(this)">1975 - M461M - P1.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20P2.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20P2.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M461M/1975 - M461M - P2.jpg" data-size="320" onerror="wbsOff(this)">1975 - M461M - P2.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20P3.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20P3.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M461M/1975 - M461M - P3.jpg" data-size="320" onerror="wbsOff(this)">1975 - M461M - P3.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20P4.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20P4.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M461M/1975 - M461M - P4.jpg" data-size="320" onerror="wbsOff(this)">1975 - M461M - P4.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20WBS%20461M%20Pinouts.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20WBS%20461M%20Pinouts.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M461M/1975 - M461M - WBS 461M Pinouts.jpg" data-size="320" onerror="wbsOff(this)">1975 - M461M - WBS 461M Pinouts.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20WBS%20461M%20Schematic%201.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20WBS%20461M%20Schematic%201.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M461M/1975 - M461M - WBS 461M Schematic 1.jpg" data-size="320" onerror="wbsOff(this)">1975 - M461M - WBS 461M Schematic 1.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461/1975%20-%20M461%20-%20WBS%20461%20Hookup%20Info.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M461/1975%20-%20M461%20-%20WBS%20461%20Hookup%20Info.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M461/1975 - M461 - WBS 461 Hookup Info.jpg" data-size="320" onerror="wbsOff(this)">1975 - M461 - WBS 461 Hookup Info.jpg</a></div>
+
+<h2>Physical manual inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Location</th>
+<th>Status</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M461M</td>
+<td></td>
+<td></td>
+<td>Recently scanned and stiched by WB</td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (11)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20461-01-002%20-%20SOLO%20CONTROL%20SOLO%20COMMON%20CONTROL%20%282%29.jpg">1975 - M461M - 461-01-002 - SOLO CONTROL SOLO COMMON CONTROL (2).jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20461-01-002%20-%20SOLO%20CONTROL%20SOLO%20COMMON%20CONTROL%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20461-01-002%20-%20SOLO%20CONTROL%20SOLO%20COMMON%20CONTROL.jpg">1975 - M461M - 461-01-002 - SOLO CONTROL SOLO COMMON CONTROL.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20461-01-002%20-%20SOLO%20CONTROL%20SOLO%20COMMON%20CONTROL.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20461-02-004%20-%20CONTRCL%20CONTROL.jpg">1975 - M461M - 461-02-004 - CONTRCL CONTROL.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20461-02-004%20-%20CONTRCL%20CONTROL.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20461-04-008%20-%20INPUT%20MODULE%20ASSEMBLY.jpg">1975 - M461M - 461-04-008 - INPUT MODULE ASSEMBLY.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20461-04-008%20-%20INPUT%20MODULE%20ASSEMBLY.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20461-04-008%20-%20MOD%20ICKD%20USED.jpg">1975 - M461M - 461-04-008 - MOD ICKD USED.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20461-04-008%20-%20MOD%20ICKD%20USED.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20P1.jpg">1975 - M461M - P1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20P1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20P2.jpg">1975 - M461M - P2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20P2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20P3.jpg">1975 - M461M - P3.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20P3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20P4.jpg">1975 - M461M - P4.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20P4.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20WBS%20461M%20Pinouts.jpg">1975 - M461M - WBS 461M Pinouts.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20WBS%20461M%20Pinouts.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20WBS%20461M%20Schematic%201.jpg">1975 - M461M - WBS 461M Schematic 1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20WBS%20461M%20Schematic%201.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Sub-assemblies &amp; parts used (3)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What</th>
+<th>Family</th>
+<th>Year</th>
+<th>How we know</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Register-Sub-assemblies-n-nnn.html#10-014">10-014</a></td>
+<td></td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1988|21</td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Register-Sub-assemblies-n-nnn.html#4-108">4-108</a></td>
+<td></td>
+<td>Sub-assemblies (n-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Register-Sub-assemblies-n-nnn.html#8-109">8-109</a></td>
+<td>Booster Amplifier Component Layout</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1974|7</td>
+<td>named in its manual</td>
+</tr>
+</tbody>
+</table>
+<h2>Parts list — board M461M (45 parts)</h2>
+<p><em>From <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20P3.jpg">1975 - M461M - P3.jpg</a>, page 1 (scanned); also in <code>timelines/data/bom.csv</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>Part</th>
+<th>Value</th>
+<th>Manufacturer</th>
+<th>Mfr part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R55</td>
+<td>delete)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R56</td>
+<td>Resistor #w 5% 470K Phi lips</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R57</td>
+<td>de lete)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R58</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R59</td>
+<td>de lete)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R60</td>
+<td>Resistor #w 5% IK Phi Tips</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SW2</td>
+<td>Schadow WBS</td>
+<td></td>
+<td></td>
+<td>11-002</td>
+</tr>
+<tr>
+<td>SW3</td>
+<td>clare-Pendar SB</td>
+<td>2310</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SW6</td>
+<td>delete)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SW7</td>
+<td>Switch Schadow WBS</td>
+<td></td>
+<td></td>
+<td>11-002</td>
+</tr>
+<tr>
+<td>SW8</td>
+<td>de lete)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SW10</td>
+<td>Swi tch Schadow WBS</td>
+<td></td>
+<td></td>
+<td>11-005</td>
+</tr>
+<tr>
+<td>SW12</td>
+<td>WBS</td>
+<td></td>
+<td></td>
+<td>11-004</td>
+</tr>
+<tr>
+<td>SW13</td>
+<td>(delete)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R20</td>
+<td>Resi stor #w 15K Phi lips</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R25</td>
+<td>(delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R26</td>
+<td>de lete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R27</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R28</td>
+<td>delete E</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R29</td>
+<td>Resistor %W 5% 4K7 Phi lips</td>
+<td>6</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R3</td>
+<td>R30 de lete delete . { .</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R32</td>
+<td>de lete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R33</td>
+<td>de lete) _ "</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R34</td>
+<td>Resistor #W 5% 5.60 Phi ips Sf</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R35</td>
+<td>delete)</td>
+<td>7</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R36</td>
+<td>Resi stor #w 5% 5.60 Philips</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R38</td>
+<td>(delete) ;</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R39</td>
+<td>delete)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R42</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R43</td>
+<td>de lete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R44</td>
+<td>de lete)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R45</td>
+<td>Potentiometer dual A/ B WBS</td>
+<td></td>
+<td></td>
+<td>10-003</td>
+</tr>
+<tr>
+<td>R49</td>
+<td>delete) :</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R50</td>
+<td>delete 4`</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R5I</td>
+<td>de lete) 2` - - ~.</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R52</td>
+<td>de lete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R53</td>
+<td>de lete)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R54</td>
+<td>Potentiometer, ing le A/ B WBS</td>
+<td></td>
+<td></td>
+<td>10-014</td>
+</tr>
+<tr>
+<td>DS2</td>
+<td>Light Bu b, V 387</td>
+<td>28</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R12</td>
+<td>de lete) . ` '~ .</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R13</td>
+<td>Resi stor #w 5% Phi ]ips ;.^ 7{</td>
+<td>15K</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R15</td>
+<td>(delete)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R16</td>
+<td>(delete) .o 'as</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R17</td>
+<td>Resi stor #w 59 Philips</td>
+<td>15K</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R19</td>
+<td>(delete)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Consoles &amp; jobs it is connected to (1)</h2>
+<p><em>Their own drawings name this module.</em></p>
+<table>
+<thead>
+<tr>
+<th>Job</th>
+<th>Year</th>
+<th>Drawing</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Job-76045.html">76045</a></td>
+<td>1976|9</td>
+<td><a href="../../../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%2001-010b.pdf">1976 - 76045 - 01-010b.pdf</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (2)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../viewer.html?f=Products/RTO/RTO-144/19xx%20-%20RTO-144%20-%20Module%20RTO-144%20Jumper%20calculator.xlsx">19xx - RTO-144 - Module RTO-144 Jumper calculator.xlsx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461/1975%20-%20M461%20-%20WBS%20461%20Hookup%20Info.jpg">1975 - M461 - WBS 461 Hookup Info.jpg</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="../../../PAGES/Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>Parts list (text) (1)</h3>
+<details><summary>Parts List — 147 words · 1975 - M461M - P1.jpg, page 1</summary><p>M46 IM INPUT   MODULE PART DESCR PTION MFG MFG PART NUMBER Capacitor 22 uF/25 V Siemens 41313-45226-Z 8 0.022 uF CR Diode CR2 CR3 CRL CRS LED red Aselco cQ92-MC- 223M 1N4003 IRC Fairchild FLV 117 DS2 Light Bu b, 28 V 387 Transistor Nat_ Semic. PN 3569 PN 3645 TIP 29B TIP 30B PN 3569</p><p>8 Q6 Resistor #w 5% 15K I5K 3 3.30 , 30 30 R6 3 .30 R7 7 ` 15K R8 5K R9 R10 e . 15K R ]1 (delete R12 de lete) R13 Resi stor #w 5% 5K R14 15K R15 (delete) R16 (delete) R17 Resi stor #w 59 15K R18 15K R19 (delete) Texas Inst. Nat Semic_ 4 &lt; . 4{ : &#x27;. PN 3645 .n Phi ]ips  6. ~ &#x27;t} .: ` : 3;&quot;: . &#x27; . . ` &#x27;~ ;.^ c . 7  Phi ]ips .. &#x27;as   Phi]ips</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20P1.jpg">1975 - M461M - P1.jpg</a>, p. 1</li>
+</ul>
+<h2>Drawings (5)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Drawn by</a></th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>461-01-002</td>
+<td>Solo Control Solo Common Control</td>
+<td><a href="../../../PAGES/Year-1976.html">1976|9</a></td>
+<td><a href="../../../PAGES/Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20461-01-002%20-%20SOLO%20CONTROL%20SOLO%20COMMON%20CONTROL%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>461-01-002</td>
+<td>Solo Control Solo Common Control</td>
+<td><a href="../../../PAGES/Year-1976.html">1976|9</a></td>
+<td><a href="../../../PAGES/Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20461-01-002%20-%20SOLO%20CONTROL%20SOLO%20COMMON%20CONTROL.jpg">file</a></td>
+</tr>
+<tr>
+<td>461-02-004</td>
+<td>Contrcl Control</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20461-02-004%20-%20CONTRCL%20CONTROL.jpg">file</a></td>
+</tr>
+<tr>
+<td>461-04-008</td>
+<td>Mod Ickd Used</td>
+<td></td>
+<td>MUE</td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20461-04-008%20-%20MOD%20ICKD%20USED.jpg">file</a></td>
+</tr>
+<tr>
+<td>461-04-008</td>
+<td>Input Module Assembly</td>
+<td></td>
+<td>MNE</td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20461-04-008%20-%20INPUT%20MODULE%20ASSEMBLY.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M461M&quot;,
+ &quot;category&quot;: &quot;INPUT-PRE-AMPS&quot;,
+ &quot;year&quot;: 1976,
+ &quot;connections&quot;: {
+  &quot;from&quot;: &quot;RTO-144 sheet&quot;,
+  &quot;inputs&quot;: [
+   &quot;Mic In&quot;,
+   &quot;Insert Return&quot;,
+   &quot;Fader Return&quot;
+  ],
+  &quot;outputs&quot;: [
+   &quot;Line&quot;,
+   &quot;Right OUT&quot;,
+   &quot;Insert Send&quot;,
+   &quot;CHON OUT - OUT&quot;
+  ],
+  &quot;power&quot;: [
+   &quot;VEE-AUDIO&quot;,
+   &quot;VCC-AUDIO&quot;,
+   &quot;VCC-LAMP&quot;
+  ],
+  &quot;control&quot;: []
+ },
+ &quot;made_of&quot;: [
+  &quot;10-014&quot;,
+  &quot;4-108&quot;,
+  &quot;8-109&quot;
+ ],
+ &quot;part_of&quot;: [
+  &quot;76045&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M461M/1975 - M461M - 461-01-002 - SOLO CONTROL SOLO COMMON CONTROL (2).jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;modules&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M461M/1975 - M461M - 461-01-002 - SOLO CONTROL SOLO COMMON CONTROL.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M461M/1975 - M461M - 461-02-004 - CONTRCL CONTROL.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;modules&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M461M/1975 - M461M - 461-04-008 - INPUT MODULE ASSEMBLY.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M461M/1975 - M461M - 461-04-008 - MOD ICKD USED.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M461M/1975 - M461M - P1.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M461M/1975 - M461M - P2.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M461M/1975 - M461M - P3.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M461M/1975 - M461M - P4.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M461M/1975 - M461M - WBS 461M Pinouts.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M461M/1975 - M461M - WBS 461M Schematic 1.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  }
+ ]
+}</pre></details><script src="../../../_catalog/wbs_reels.js" defer></script><script src="../../../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../../../_catalog/libcontrol/libcontrol.css"><script src="../../../_catalog/libcontrol/react.js"></script><script src="../../../_catalog/libcontrol/react-dom.js"></script><script src="../../../_catalog/libcontrol/libcontrol.js"></script><script src="../../../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M461M.md</small></div></article><script src="../../../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

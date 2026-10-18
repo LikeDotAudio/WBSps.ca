@@ -1,0 +1,287 @@
+OrCAD Capture schematic (.DSN). This binary format needs OrCAD Capture to view as a drawing.
+Text recovered from the file (part names, values, sheet titles, net names):
+
+TitleBlock0
+C:\ORCADWIN\CAPTURE\LIBRARY\CAPSYM.OLB
+Title
+Size
+Document Number
+Date:
+Sheet                   of
+TitleBlock2
+C:\ORCADWIN\CAPTURE\DESIGN2.DSN
+OFFPAGELEFT-L
+$PIN0
+GND POWER
+OFFPAGELEFT-R
+VCC_ARROW
+RESISTOR.Normal
+C:\ORCADWIN\CAPTURE\SAMPLES\BENCH93S.OLB
+RELAY DPST.Normal
+C:\ORCADWIN\CAPTURE\LIBRARY\DEVICE.OLB
+COMMON1
+COMMON2
+COIL1
+COIL2
+74LS00.Convert
+C:\ORCADWIN\CAPTURE\LIBRARY\TTL.OLB
+JFET P.Normal
+GATE
+DRAIN
+SOURCE
+11401.Normal
+C:\ORCADWIN\CAPTURE\LIBRARY\ANALOG.OLB
+OFFSET1
+OFFSET2
+CAP.Normal
+FUSE.Normal
+124_1.Normal
+101.Normal
+COMP1
+COMP2
+COMP3
+DIODE ZENER1.Normal
+ANODE
+CATHODE
+74LS00.Normal
+LM1877.Normal
+IN1+
+-FDBK1
+IN2+
+-FDBK2
+OUT1
+OUT2
+BIAS
+PNP.Normal
+BASE
+EMITTER
+COLLECTOR
+LM1877_0.Normal
+LED1.Normal
+124_2_0.Normal
+R.Normal
+CONNECTOR EDGE44.Normal
+POT.Normal
+WIPER
+124_2.Normal
+NPN.Normal
+SW DPDT.Normal
+JUMPER.Normal
+DIODE.Normal
+4016.Normal
+C:\ORCADWIN\CAPTURE\LIBRARY\CMOS.OLB
+1458.Normal
+LED.Normal
+74LS00_0.Normal
+CAPACITOR NON-POL.Normal
+74LS00_0.Convert
+124_0.Normal
+124_0_0.Normal
+4016_0.Normal
+124.Normal
+LM1877_0
+FUSE
+DIODE ZENER1
+CAPACITOR NON-POL
+RELAY DPST
+74LS00
+74LS00_0
+DIODE
+LED1
+JFET P
+LM1877
+JUMPER
+RESISTOR
+CONNECTOR EDGE44
+SW DPDT
+LM348N_1
+LM348N_2
+AD507
+AD849
+LM348N
+OP260
+LM316A
+LM348N_0_0
+CAPACITOR
+LM348N_2_0
+LM348N_0
+PAGE1
+CR107
+CR106
+LK101
+LK102
+LK103
+LK104
+CR103
+CR108
+CR109
+DS102
+DS101
+CR104
+CR102
+CR101
+SW102
+CR105
+DYNAMIC MIC INPUT
+-75 dBm to -45 dBm
+150 Ohms
+CARBON MIC INPUT
+-25 dBm to +5 dBm
+LINE INPUT
+-20 dBm to +10 dBm
+600 Ohms
+INPUT
+SHIELD
+REMOTE
+DYN/CBN SEL
+OUTPUT
++8 dBm 600 Ohms
+COMMON
+BYPASS
+AMPLIFIER
+Notes:
+1. All Resistors are 1/4W 5% and all Capacitors
+are in UF unless specified otherwise.
+2. Last Component Designations:
+C141, CR109, DS102, K101, LK104, Q109,
+R180, SW102 & U105.
+LEVEL INDICATORS
+OVERLOAD
+NORMAL
+PAGE2
+CR201
+CR202
+CR203
+CR204
+CR205
+CR206
+CR209
+CR210
+CR208
+CR211
+CR212
+DS201
+CR207
+C232, CR212, DS201, F201, Q206, R260 & U204.
+MUTE
+OVERRIDE
+PART
++32V UNREGULATED
+UNBALANCED OUTPUT
+8 Ohms 3W max.
+BALANCED OUTPUT
+SCHEMATIC1
+POT_0.Normal
+POT_0
+Page Create Date
+RevCode
+Page Size
+Page Number
+Page Count
+March  8, 1995
+OrgName
+OrgAddr1
+OrgAddr2
+OrgAddr3
+OrgAddr4
+Part Reference
+Value
+PCB Footprint
+TO-92
+R03WE
+IC14
+TANTB.2
+TANTA.1
+TANTE.2
+DO-41
+SDTSourceLibName
+C:\rd\ui\DEVICE.LIB
+PN3569
+RAD.125
+CAP.2
+EC150A
+RAD.1
+DIP8
+SSM2017P
+DIP14
+HTRIM
+Name
+DIN14
+Is No Connect
+LM1877N
+CON2
+VTRIM
+CAP.1
+EC100/25
+POLY.15
+DO-43
+EC100/40
+M703D INTERCOM PREAMPLIFIER
+M703D INTERCOM PREAMPLIFIER SCHEMATIC
+555LED
+TSDSW
+EDGE44/156
+link3
+LINK3
+EDGE
+M701D Intercom Pre-Amplifier Schematic
+Ward-Beck Systems Ltd.
+WARNING:  [DRC0005]  Unconnected pin
+ERROR:  [DRC0027]  Other parts in this package have different values or PCB footprints.
+Order
+ERROR:  [DRC0016]  User properties exist on an object that is not a part instance
+NE5534N
+REL2C
+Cage Code
+M703D Intercom Preamplifier Schematic
+CD4016CN
+OPA2604
+RRRR
+TIP30
+TIP29
+R05WE
+0.5A FB
+POLY.3
+CAP.3
+M702D Intercom Output Amplifier
+WARNING:  [DRC0007]  Net has no driving source
+TO-220S
+SW101
+OrCAD Windows Design
+"Arial
+1Courier New
+Comm4
+RGB(255,
+ether to show the bo
+RGB(  0, 64,
+RGB(128,
+RGB(  0,  0,160)
+Autopan Border W
+1ST PART FIELD
+2ND PART FIELD
+3RD PART FIELD
+4TH PART FIELD
+5TH PART FIELD
+6TH PART FIELD
+7TH PART FIELD
+Root Entry
+Cache
+Cells
+Parts
+Views
+Pages
+Schematic
+Library
+Symbols
+$Types$
+Graphics
+Packages
+Hierarchy
+ExportBlocks
+Cells Directory
+Parts Directory
+Views Directory
+Symbols Directory
+Graphics Directory
+Packages Directory
+ExportBlocks Directory

@@ -1,0 +1,40 @@
+# 19xx - microCOM II - DOC - IMG_2090-2013-04-08.jpg
+Wiki page: [Documents](../../../PAGES/Documents.md)
+
+
+- **Year:** unknown (unknown)
+- **Type:** document scan
+- **About:** microCOM II
+
+## Text recovered by OCR
+
+> KCET-TV 48 X 96 MicroCOM II COMMUNICATIONS SYSTEM PROJECT #940009
+- **Original file:** `WBSps.env/PUBLIC/RAW Photos/WBS BINDER SPINE PICTURES/IMG_2090-2013-04-08.jpg`
+- **SHA-256:** `e2c673942f8623a5b454f966354e9753dc2b2fd3e14f2750c5450a9da229c5ef`
+- **Size:** 115,471 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR)
+
+```text
+KCET-TV 48 X 96
+MicroCOM II
+COMMUNICATIONS SYSTEM
+PROJECT #940009
+```
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Products/MICRO SERIES/microCOM II/19xx - microCOM II - DOC - IMG_2090-2013-04-08.jpg",
+ "sha256": "e2c673942f8623a5b454f966354e9753dc2b2fd3e14f2750c5450a9da229c5ef",
+ "kind": "doc",
+ "models": [
+  "microCOM II"
+ ],
+ "pages": 1
+}
+```

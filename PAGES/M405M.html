@@ -1,0 +1,454 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M405M — Extended Range VU Monitoring System</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>M405M — Extended Range VU Monitoring System</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="Category-METER.html">METER</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../simulator.html?m=M405M">simulator &amp; front panel</a> · <a href="../_packages/M405M.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="Year-1995.html">1995|28</a> — manual issue date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"Issue #1 March 20, 1995" in WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - Word Perfect Manuals/M405M.WP</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="Year-1995.html">1995|28</a></td>
+</tr>
+<tr>
+<td>Variants</td>
+<td><a href="M405.html">M405</a>, <a href="M405C.html">M405C</a>, <a href="M405D.html">M405D</a>, <a href="M405F.html">M405F</a>, <a href="M405P.html">M405P</a>, <a href="M405PSS.html">M405PSS</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../Modules/METER/M405M/index.html">Modules/METER/M405M</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections</h2>
+<p><em>What it is made of and what it is part of.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M405M" data-n="Extended Range VU Monitoring System" data-cat="METER"></div><svg class="wbs-panel" data-m="M405M" data-n="Extended Range VU Monitoring System" data-cat="METER" role="img" aria-label="M405M front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M405M","title":"Extended Range VU Monitoring System","rto":null,"parts":[{"item":"SA14-292","title":"3 P1 CONNECTOR 3-1 - LAYOUT","label":"SA14-292 3 P1 CONNECTOR 3-1 - LAYOU","href":"Register-Circuit-boards-SA14-nnn.html#sa14-292","note":"Circuit boards (SA14-nnn)"}],"parents":[]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=Modules/METER/M405M/1995%20-%20M405M%20-%20Archived%20-%20M405M%20-%20METER%20-%20MONITOR%20001.jpg"><img loading="lazy" src="../Modules/METER/M405M/1995%20-%20M405M%20-%20Archived%20-%20M405M%20-%20METER%20-%20MONITOR%20001.jpg" alt="" data-f="Modules/METER/M405M/1995 - M405M - Archived - M405M - METER - MONITOR 001.jpg" data-size="320" onerror="wbsOff(this)">1995 - M405M - Archived - M405M - METER - MONITOR 001.jpg</a><a href="../viewer.html?f=Modules/METER/M405M/1995%20-%20M405M%20-%20Archived%20-%20M405M%20-%20METER%20-%20MONITOR%20002.jpg"><img loading="lazy" src="../Modules/METER/M405M/1995%20-%20M405M%20-%20Archived%20-%20M405M%20-%20METER%20-%20MONITOR%20002.jpg" alt="" data-f="Modules/METER/M405M/1995 - M405M - Archived - M405M - METER - MONITOR 002.jpg" data-size="320" onerror="wbsOff(this)">1995 - M405M - Archived - M405M - METER - MONITOR 002.jpg</a><a href="../viewer.html?f=Modules/METER/M405M/1995%20-%20M405M%20-%20Archived%20-%20M405M%20-%20METER%20-%20MONITOR%20003.jpg"><img loading="lazy" src="../Modules/METER/M405M/1995%20-%20M405M%20-%20Archived%20-%20M405M%20-%20METER%20-%20MONITOR%20003.jpg" alt="" data-f="Modules/METER/M405M/1995 - M405M - Archived - M405M - METER - MONITOR 003.jpg" data-size="320" onerror="wbsOff(this)">1995 - M405M - Archived - M405M - METER - MONITOR 003.jpg</a><a href="../viewer.html?f=Modules/METER/M405/1995%20-%20405-03-082%20-%20M405M%20PCB%20CONNECTOR%20BRACKET%20-%20DRN%20DRG%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/METER/M405/1995%20-%20405-03-082%20-%20M405M%20PCB%20CONNECTOR%20BRACKET%20-%20DRN%20DRG%20-%20ISS%201.jpg" alt="" data-f="Modules/METER/M405/1995 - 405-03-082 - M405M PCB CONNECTOR BRACKET - DRN DRG - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1995 - 405-03-082 - M405M PCB CONNECTOR BRACKET - DRN DRG - ISS 1.jpg</a></div>
+
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-1995.html">1995|28</a></td>
+<td>manual issue date</td>
+<td><code>Issue #1 March 20, 1995</code></td>
+<td><a href="../viewer.html?f=Modules/METER/M405M/1995%20-%20M405M%20-%2014-292-02-003%20-%203%20P1%20CONNECTOR%203-1%20-%20LAYOUT.wp">1995 - M405M - 14-292-02-003 - 3 P1 CONNECTOR 3-1 - LAYOUT.wp</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Documents (1)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1995|28</td>
+<td><a href="../viewer.html?f=Modules/METER/M405M/1995%20-%20M405M%20-%2014-292-02-003%20-%203%20P1%20CONNECTOR%203-1%20-%20LAYOUT.wp">1995 - M405M - 14-292-02-003 - 3 P1 CONNECTOR 3-1 - LAYOUT.wp</a></td>
+<td><a href="../viewer.html?f=Modules/METER/M405M/1995%20-%20M405M%20-%2014-292-02-003%20-%203%20P1%20CONNECTOR%203-1%20-%20LAYOUT.wp.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (3)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1995|28</td>
+<td><a href="../viewer.html?f=Modules/METER/M405M/1995%20-%20M405M%20-%20Archived%20-%20M405M%20-%20METER%20-%20MONITOR%20001.jpg">1995 - M405M - Archived - M405M - METER - MONITOR 001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/METER/M405M/1995%20-%20M405M%20-%20Archived%20-%20M405M%20-%20METER%20-%20MONITOR%20001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../viewer.html?f=Modules/METER/M405M/1995%20-%20M405M%20-%20Archived%20-%20M405M%20-%20METER%20-%20MONITOR%20002.jpg">1995 - M405M - Archived - M405M - METER - MONITOR 002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/METER/M405M/1995%20-%20M405M%20-%20Archived%20-%20M405M%20-%20METER%20-%20MONITOR%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../viewer.html?f=Modules/METER/M405M/1995%20-%20M405M%20-%20Archived%20-%20M405M%20-%20METER%20-%20MONITOR%20003.jpg">1995 - M405M - Archived - M405M - METER - MONITOR 003.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/METER/M405M/1995%20-%20M405M%20-%20Archived%20-%20M405M%20-%20METER%20-%20MONITOR%20003.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Sub-assemblies &amp; parts used (1)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What</th>
+<th>Family</th>
+<th>Year</th>
+<th>How we know</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-292">SA14-292</a></td>
+<td>3 P1 CONNECTOR 3-1 - LAYOUT</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>its circuit board</td>
+</tr>
+</tbody>
+</table>
+<h2>Parts list — board 14-292 (17 parts)</h2>
+<p><em>From 14-292#2.WP; also in <code>timelines/data/bom.csv</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>Part</th>
+<th>Value</th>
+<th>Manufacturer</th>
+<th>Mfr part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C1</td>
+<td>Capacitor</td>
+<td>10 uF/25 V</td>
+<td>ITT</td>
+<td>10M25</td>
+</tr>
+<tr>
+<td>C10</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C11</td>
+<td>Capacitor</td>
+<td>1 uF/35 V</td>
+<td>ITT</td>
+<td>1M35</td>
+</tr>
+<tr>
+<td>CR1</td>
+<td>Diode</td>
+<td>Motorola</td>
+<td>1N4148</td>
+<td></td>
+</tr>
+<tr>
+<td>P3</td>
+<td>Connector, 2 Pin Bergstik</td>
+<td>Berg</td>
+<td>65645-202</td>
+<td></td>
+</tr>
+<tr>
+<td>Q1</td>
+<td>Transistor</td>
+<td>National</td>
+<td>2N3906</td>
+<td></td>
+</tr>
+<tr>
+<td>R1</td>
+<td>Resistor</td>
+<td>1/4W 5%</td>
+<td>47K</td>
+<td>Philips CR25</td>
+</tr>
+<tr>
+<td>R11</td>
+<td>Resistor</td>
+<td>1/4W 1%</td>
+<td>9K09</td>
+<td>Philips MRS 25F</td>
+</tr>
+<tr>
+<td>R16</td>
+<td>Resistor</td>
+<td>1/4W 5%</td>
+<td>43K</td>
+<td>Philips CR25</td>
+</tr>
+<tr>
+<td>R17</td>
+<td>Potentiometer</td>
+<td>50K</td>
+<td>Piher</td>
+<td>PT10V 50K</td>
+</tr>
+<tr>
+<td>R18</td>
+<td>Resistor</td>
+<td>1/4W 5%</td>
+<td>22K</td>
+<td>Philips CR25</td>
+</tr>
+<tr>
+<td>R29</td>
+<td>Resistor</td>
+<td>1/4W 5%</td>
+<td>4K7</td>
+<td>Philips CR25</td>
+</tr>
+<tr>
+<td>R33</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R34</td>
+<td>Potentiometer</td>
+<td>20K</td>
+<td>Piher</td>
+<td>PT10V 20K</td>
+</tr>
+<tr>
+<td>R35</td>
+<td>Resistor</td>
+<td>1/4W 5%</td>
+<td>47K</td>
+<td>Philips CR25</td>
+</tr>
+<tr>
+<td>U1</td>
+<td>Integrated Circuit</td>
+<td>National</td>
+<td>LM833N</td>
+<td></td>
+</tr>
+<tr>
+<td>U1, U3</td>
+<td>8 Pin Dip Socket</td>
+<td>AMP</td>
+<td>640463-3</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Parts list — board M405M (8 parts)</h2>
+<p><em>From M405M.WP; also in <code>timelines/data/bom.csv</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>Part</th>
+<th>Value</th>
+<th>Manufacturer</th>
+<th>Mfr part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A1</td>
+<td>VU Meter Amplifier</td>
+<td>WBS</td>
+<td>SA14-292B</td>
+<td></td>
+</tr>
+<tr>
+<td>A2</td>
+<td>Intercom pre and Output Amplifier</td>
+<td>WBS</td>
+<td>M703C</td>
+<td></td>
+</tr>
+<tr>
+<td>F1</td>
+<td>314 Amp fast blow fuse</td>
+<td>Buss</td>
+<td>AGC0.75</td>
+<td></td>
+</tr>
+<tr>
+<td>J1</td>
+<td>Jack 1/4" headphone</td>
+<td>Switchcraft</td>
+<td>NL-11413</td>
+<td></td>
+</tr>
+<tr>
+<td>LS1</td>
+<td>Speaker</td>
+<td>Misco</td>
+<td>DC22S</td>
+<td></td>
+</tr>
+<tr>
+<td>M1</td>
+<td>Vu Meter</td>
+<td>Bach-Simpson</td>
+<td>544WL</td>
+<td></td>
+</tr>
+<tr>
+<td>R1</td>
+<td>Speaker Level</td>
+<td>Clarostat</td>
+<td>WBS 10-073</td>
+<td></td>
+</tr>
+<tr>
+<td>SW1-SW7</td>
+<td>Switch</td>
+<td>Schadow</td>
+<td>2CF-GHT-AA</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (4)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../viewer.html?f=Modules/METER/M405/1995%20-%20405-03-082%20-%20M405M%20PCB%20CONNECTOR%20BRACKET%20-%20DRN%20DRG%20-%20ISS%201.jpg">1995 - 405-03-082 - M405M PCB CONNECTOR BRACKET - DRN DRG - ISS 1.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT%20%282%29.docx">1995 - M405P - ITEMIMP(1).TXT (2).docx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT.docx">1995 - M405P - ITEMIMP(1).TXT.docx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP.TXT.docx">1995 - M405P - ITEMIMP.TXT.docx</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>Specifications (1)</h3>
+<details><summary>Technical Data — 301 words · 1995 - M405M - 14-292-02-003 - 3 P1 CONNECTOR 3-1 - LAYOUT.wp, page 1</summary><p>M405M EXTENDED RANGE VU MONITORING SYSTEM</p><p>Range:         -10 dBu to +10 dBu in five steps.</p><p>Input Selection:        Pushbutton select between two sources.</p><p>Source Impedance:      600 ohms or less, balanced.</p><p>Input Impedance:      Greater than 20K ohms.</p><p>Attenuator Tracking:       ±0.25dB per step, non-cumulative.</p><p>Meter Ballistics:       Complies with ANSI C16.5.</p><p>Frequency Response:     ±0.25 dB 30 Hz to 15 kHz.</p><p>Monitor Output:     ±1 dB from 100 Hz to 5 kHz.</p><p>Total Harmonic Distortion Headset Output:     Less than 1%, from 50 Hz to 10 kHz. Speaker Output:     Less than 1%, 50 Hz to 10 kHz</p><p>Noise:          40 dB below   0 VU reference. GENERAL</p><p>M405M EXTENDED RANGE VU MONITORING SYSTEM</p><p>The M405M has been designed to measure and monitor the average level of an audio signal. This instrument is self-contained and mounts in an EIA standard 19&quot; equipment rack. It is powered by a 24 volt DC wall mount power supply.</p><p>A &quot;range&quot; attenuator, providing 5 steps (-10, 0, +4, +8, +10 dBu), accommodates audio input levels from -10 to +10 dBu for a 0 meter reading. The M405M accepts two inputs (A or B) at the rear of the instrument. Selection between the A or B inputs may be made by a pushbutton selector on the front of the unit.</p><p>An internal speaker, complete with level control, is mounted in the front panel to permit the user to listen to the source being metered.  A headset jack is also provided on the front panel for headphone monitoring. A1 VU Meter Amplifier      WBS SA14-292B</p><p>A2  Intercom pre and Output Amplifier   WBS M703C</p><p>F1  314 Amp fast blow fuse  Buss    AGC0.75</p><p>J1    Jack 1/4&quot; headphone        Switchcraft NL-11413</p><p>LS1  Speaker         Misco   DC22S</p><p>M1  Vu Meter            Bach-Simpson    544WL</p><p>R1  Speaker Level       Clarostat   WBS 10-073</p><p>SW1-SW7    Switch          Schadow 2CF-GHT-AA</p><p>M405M</p><p>EXTENDED RANGE VU MONITORING SYSTEM Issue #1 March 20, 1995 MW94002/M405M.WP</p><p class="bp">Also: <a href="Boilerplate.html#bp-8fd3687598abf1c3">general boilerplate (5 devices)</a></p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/METER/M405M/1995%20-%20M405M%20-%2014-292-02-003%20-%203%20P1%20CONNECTOR%203-1%20-%20LAYOUT.wp">1995 - M405M - 14-292-02-003 - 3 P1 CONNECTOR 3-1 - LAYOUT.wp</a>, p. 1</li>
+</ul>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M405M&quot;,
+ &quot;name&quot;: &quot;Extended Range VU Monitoring System&quot;,
+ &quot;category&quot;: &quot;METER&quot;,
+ &quot;year&quot;: 1995,
+ &quot;made_of&quot;: [
+  &quot;SA14-292&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/METER/M405M/1995 - M405M - 14-292-02-003 - 3 P1 CONNECTOR 3-1 - LAYOUT.wp&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M405M/1995 - M405M - Archived - M405M - METER - MONITOR 001.jpg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M405M/1995 - M405M - Archived - M405M - METER - MONITOR 002.jpg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M405M/1995 - M405M - Archived - M405M - METER - MONITOR 003.jpg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../_catalog/libcontrol/libcontrol.css"><script src="../_catalog/libcontrol/react.js"></script><script src="../_catalog/libcontrol/react-dom.js"></script><script src="../_catalog/libcontrol/libcontrol.js"></script><script src="../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M405M.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

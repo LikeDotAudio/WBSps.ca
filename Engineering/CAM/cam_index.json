@@ -1,0 +1,379 @@
+{
+ "boards": [
+  {
+   "name": "14-325 - M921",
+   "folder": "14-325 - M921",
+   "source": "WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - SA14-XXX/SA14-325/TANGO/M921",
+   "copies": [
+    "WBSps Engineering from H drive-20261018T013433Z-1-003/WBSps Engineering from H drive/WBSps - SA14-XXX/SA14-325/TANGO/M921",
+    "WBSps Engineering from H drive/WBSps - SA14-XXX/SA14-325/TANGO/M921",
+    "WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - SA14-XXX/SA14-325/TANGO/M921/325ISS1.ZIP",
+    "WBSps Engineering from H drive/WBSps - SA14-XXX/SA14-325/TANGO/M921/325ISS1.ZIP"
+   ],
+   "date": "1996-06-21",
+   "layers": [
+    {
+     "file": "14-325.BOT",
+     "role": "copper bottom",
+     "format": "gerber"
+    },
+    {
+     "file": "14-325.TOP",
+     "role": "copper top",
+     "format": "gerber"
+    },
+    {
+     "file": "14-325.SMK",
+     "role": "solder mask",
+     "format": "gerber"
+    },
+    {
+     "file": "14-325.SLK",
+     "role": "silkscreen",
+     "format": "gerber"
+    },
+    {
+     "file": "14-325.DRL",
+     "role": "drill drawing",
+     "format": "gerber"
+    },
+    {
+     "file": "14-325.NCD",
+     "role": "drill",
+     "format": "excellon"
+    }
+   ],
+   "apertures": "14-325.APT",
+   "unit": 0.0001,
+   "documents": [
+    "14-325.APT",
+    "14-325.STA"
+   ]
+  },
+  {
+   "name": "POD8",
+   "folder": "POD8",
+   "source": "WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - POD_OLD/POD8/POD8.ZIP",
+   "copies": [
+    "WBSps Engineering from H drive/WBSps - POD_OLD/POD8/POD8.ZIP"
+   ],
+   "date": "1997-05-26",
+   "layers": [
+    {
+     "file": "POD8.BOT",
+     "role": "copper bottom",
+     "format": "gerber"
+    },
+    {
+     "file": "POD8.TOP",
+     "role": "copper top",
+     "format": "gerber"
+    },
+    {
+     "file": "POD8.SMK",
+     "role": "solder mask",
+     "format": "gerber"
+    },
+    {
+     "file": "POD8.SLK",
+     "role": "silkscreen",
+     "format": "gerber"
+    },
+    {
+     "file": "POD8.EXL",
+     "role": "drill",
+     "format": "excellon"
+    }
+   ],
+   "apertures": "POD8.REP",
+   "unit": 0.0001,
+   "documents": [
+    "POD8.REP"
+   ]
+  },
+  {
+   "name": "S26 - SYNCH",
+   "folder": "S26 - SYNCH",
+   "source": "WBSps Engineering from H drive-20261018T013433Z-1-003/WBSps Engineering from H drive/WBSps - D2000 Digital rack/GERBER/SYNCH/C97026.ZIP",
+   "copies": [
+    "WBSps Engineering from H drive/WBSps - D2000 Digital rack/GERBER/SYNCH/C97026.ZIP"
+   ],
+   "date": "1997-03-05",
+   "layers": [
+    {
+     "file": "S26.SLD",
+     "role": "copper bottom",
+     "format": "gerber"
+    },
+    {
+     "file": "S26.CMP",
+     "role": "copper top",
+     "format": "gerber"
+    },
+    {
+     "file": "S26.CMK",
+     "role": "component mask",
+     "format": "gerber"
+    },
+    {
+     "file": "S26.SMK",
+     "role": "solder mask",
+     "format": "gerber"
+    },
+    {
+     "file": "S26.SCR",
+     "role": "silkscreen",
+     "format": "gerber"
+    },
+    {
+     "file": "S26.DRL",
+     "role": "drill drawing",
+     "format": "gerber"
+    },
+    {
+     "file": "S26.TAP",
+     "role": "drill",
+     "format": "excellon"
+    }
+   ],
+   "apertures": "FILM.USR",
+   "unit": 0.001,
+   "documents": [
+    "FILM.GAP",
+    "FILM.USR",
+    "S26.REP",
+    "S26READ.ME"
+   ]
+  }
+ ],
+ "plots": [
+  {
+   "file": "CONSOLES/REN TV Console/921/OLD/SA14326A.PLT",
+   "source": "WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - CONSOLES/REN TV Console/921/OLD/SA14326A.PLT",
+   "sha256": "b291c55e3a55e0f575d88404cdbe7690a4126a7d7a02dbbd419dd6ca2640d6de",
+   "bytes": 32143
+  },
+  {
+   "file": "CONSOLES/REN TV Console/M920/M920-F1.PLT",
+   "source": "WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - CONSOLES/REN TV Console/M920/M920-F1.PLT",
+   "sha256": "6f76631e3714c44bc9b2e40a24f780e5411ac7978b7fc369a27ad853d12ffd41",
+   "bytes": 715956
+  },
+  {
+   "file": "CONSOLES/REN TV Console/TVFUNCA.PLT",
+   "source": "WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - CONSOLES/REN TV Console/TVFUNCA.PLT",
+   "sha256": "e694803e3ed4c5463a43a66e517c63312371aec8f7a1be2cd7c89a64d6541c27",
+   "bytes": 65233
+  },
+  {
+   "file": "D2000 Digital rack/D2000/ACAD/MECHANIC/MM82-066.PLT",
+   "source": "WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - D2000 Digital rack/D2000/ACAD/MECHANIC/MM82-066.PLT",
+   "sha256": "b698a2ce3663a4cacbb507c625cf5ecf22b74c71fe1ce44eb6e9732933c96594",
+   "bytes": 203373
+  },
+  {
+   "file": "IKR/IKR10A/L10AIKR.PLT",
+   "source": "WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - IKR/IKR10A/L10AIKR.PLT",
+   "sha256": "8a1c03d9198625abd454a49128a2975398fb74b37e2f7d3cc1a109fd936345f3",
+   "bytes": 616123
+  },
+  {
+   "file": "POD_OLD/POD1/FAPOD1.PLT",
+   "source": "WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - POD_OLD/POD1/FAPOD1.PLT",
+   "sha256": "37bf5208af25b539e118ca1774ba303f67efd22e3abdedd421f5a2f446769fd6",
+   "bytes": 50676
+  },
+  {
+   "file": "POD_OLD/POD3/PETER.PLT",
+   "source": "WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - POD_OLD/POD3/PETER.PLT",
+   "sha256": "8e68a88073e24d8cc53c77fbce1a49f3c0c8cb1a9e9ce95c76521e23aad6c8e5",
+   "bytes": 26740
+  },
+  {
+   "file": "POD_OLD/POD3/POD3-1.PLT",
+   "source": "WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - POD_OLD/POD3/POD3-1.PLT",
+   "sha256": "4d7eaa4248062862effa0c85ad0971b8895766cdf11af7e7be88dbf6014c3014",
+   "bytes": 43406
+  },
+  {
+   "file": "POD_OLD/POD4/LMPOD4-2.PLT",
+   "source": "WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - POD_OLD/POD4/LMPOD4-2.PLT",
+   "sha256": "32774247e348b0e7da228887fe6a10611c000f720cdb1250e5ab779fc3dd5da3",
+   "bytes": 258219
+  },
+  {
+   "file": "POD_OLD/POD4/P4SALES.PLT",
+   "source": "WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - POD_OLD/POD4/P4SALES.PLT",
+   "sha256": "1ded7c7689b0368439c80c9e0d425c422f4065afc2dd08000a14a65a774fbf69",
+   "bytes": 542836
+  },
+  {
+   "file": "POD_OLD/POD4/POD4-1A.PLT",
+   "source": "WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - POD_OLD/POD4/POD4-1A.PLT",
+   "sha256": "15f2789c73270d2dac2fc9d22dbfdcadac4e8d941fedc5a97b01575d29241cd3",
+   "bytes": 359087
+  },
+  {
+   "file": "POD_OLD/POD4/POD4C.PLT",
+   "source": "WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - POD_OLD/POD4/POD4C.PLT",
+   "sha256": "ef6d68cef56bb324f81da5bad53ddc6c32505fd248c6e2e7db414265eec10417",
+   "bytes": 34202
+  },
+  {
+   "file": "POD_OLD/POD4/REAR.PLT",
+   "source": "WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - POD_OLD/POD4/REAR.PLT",
+   "sha256": "c4e61402114a69ef53673fe40938baa58d2e41d4e29986af1f626ebb14648b69",
+   "bytes": 303692
+  },
+  {
+   "file": "POD_OLD/POD5/ORCAD/POD5B.PLT",
+   "source": "WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - POD_OLD/POD5/ORCAD/POD5B.PLT",
+   "sha256": "39dd2e60e1204d96a1e3574ae4b650f43ed0ad2f4cec56d0ab6b8f8032aaa543",
+   "bytes": 26342
+  },
+  {
+   "file": "POD_OLD/POD5/TANGO/314WP.PLT",
+   "source": "WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - POD_OLD/POD5/TANGO/314WP.PLT",
+   "sha256": "ec2af58bf79b0d4ce77b26bf0bbdcc81889da1a359d5edbabb04eaef0395e630",
+   "bytes": 63276
+  },
+  {
+   "file": "POD_OLD/POD7/ISS1/MANUAL/LMPOD1A.PLT",
+   "source": "WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - POD_OLD/POD7/ISS1/MANUAL/LMPOD1A.PLT",
+   "sha256": "b84993f46a1efa7944704da740ac0c31d8801fdb6bc3f67429cdd74fbea75c5f",
+   "bytes": 25653
+  },
+  {
+   "file": "POD_OLD/POD7/ISS1/MANUAL/POD7-1.PLT",
+   "source": "WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - POD_OLD/POD7/ISS1/MANUAL/POD7-1.PLT",
+   "sha256": "3f413046e95da7aa68862f221a2cb18fbe113e67a09e7612e72a26df81e0a9cd",
+   "bytes": 207816
+  },
+  {
+   "file": "SA14-XXX/SA14-325/ACAD/14325P2.PLT",
+   "source": "WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - SA14-XXX/SA14-325/ACAD/14325P2.PLT",
+   "sha256": "b6fc6b2b900c7d086474e42ae504e870b31dd148bc6596133977a45fe5c5dc64",
+   "bytes": 95191
+  },
+  {
+   "file": "CONSOLES/REN TV Console/921/OLD/SA14326.PLT",
+   "source": "WBSps Engineering from H drive-20261018T013433Z-1-003/WBSps Engineering from H drive/WBSps - CONSOLES/REN TV Console/921/OLD/SA14326.PLT",
+   "sha256": "7421f18e3f12de6df7ace960efeac4b89f07260e21781d1c4324f7dd1f742ad7",
+   "bytes": 55175
+  },
+  {
+   "file": "CONSOLES/REN TV Console/TVFUNC.PLT",
+   "source": "WBSps Engineering from H drive-20261018T013433Z-1-003/WBSps Engineering from H drive/WBSps - CONSOLES/REN TV Console/TVFUNC.PLT",
+   "sha256": "0d1bef62ed8c1dd2e4ca91b84e9186ea3d3956fb29cbcafe072eb030582fe04f",
+   "bytes": 328117
+  },
+  {
+   "file": "D2000 Digital rack/D2000/ORCAD/SA14330/SA14330.PLT",
+   "source": "WBSps Engineering from H drive-20261018T013433Z-1-003/WBSps Engineering from H drive/WBSps - D2000 Digital rack/D2000/ORCAD/SA14330/SA14330.PLT",
+   "sha256": "a738c73c12363b67a7fc0cda2bcb953db6915262bbebeecd8a582922f531979c",
+   "bytes": 102489
+  },
+  {
+   "file": "D2000 Digital rack/D2000/ORCAD/SA14330/SA14330A.PLT",
+   "source": "WBSps Engineering from H drive-20261018T013433Z-1-003/WBSps Engineering from H drive/WBSps - D2000 Digital rack/D2000/ORCAD/SA14330/SA14330A.PLT",
+   "sha256": "88fbd4a550579f694ab15af88af743bc77a56b884d205d2261c5ea4de4708f90",
+   "bytes": 51666
+  },
+  {
+   "file": "POD_OLD/POD5/TANGO/167.PLT",
+   "source": "WBSps Engineering from H drive-20261018T013433Z-1-003/WBSps Engineering from H drive/WBSps - POD_OLD/POD5/TANGO/167.PLT",
+   "sha256": "a65457bed9f44b625bd629728a7ecd743b0e71b24a21b901ad0a126e66e7f093",
+   "bytes": 57488
+  },
+  {
+   "file": "POD_OLD/POD7/ISS1/14-316.PLT",
+   "source": "WBSps Engineering from H drive-20261018T013433Z-1-003/WBSps Engineering from H drive/WBSps - POD_OLD/POD7/ISS1/14-316.PLT",
+   "sha256": "55ef7cb16e4db30f7919b59b005e140674a83d6e1f4b418b9fc118242ee20993",
+   "bytes": 493267
+  },
+  {
+   "file": "SA14-XXX/SA14-330/ORCAD/SA14330.PLT",
+   "source": "WBSps Engineering from H drive-20261018T013433Z-1-003/WBSps Engineering from H drive/WBSps - SA14-XXX/SA14-330/ORCAD/SA14330.PLT",
+   "sha256": "d359b70cce3673668fe1b0632dff23ac685135d70090210cdbf866ea9e24f91e",
+   "bytes": 102489
+  },
+  {
+   "file": "CONSOLES/REN TV Console/921/OLD/SA14326B.PLT",
+   "source": "WBSps Engineering from H drive/WBSps - CONSOLES/REN TV Console/921/OLD/SA14326B.PLT",
+   "sha256": "e4c61a9bbe0d414ba0ea9a5b301dcde14ace8adea472f1b06f4b53295d5f905a",
+   "bytes": 55518
+  },
+  {
+   "file": "IKR/IKR10A/FUNC10AM.PLT",
+   "source": "WBSps Engineering from H drive/WBSps - IKR/IKR10A/FUNC10AM.PLT",
+   "sha256": "5e80d1bb399863c24ab344fdb2fa7220353e77b034fec330e863be4c527546c2",
+   "bytes": 24067
+  },
+  {
+   "file": "POD_OLD/POD3/14-308.PLT",
+   "source": "WBSps Engineering from H drive/WBSps - POD_OLD/POD3/14-308.PLT",
+   "sha256": "2f11153c280fe31e25157a1933079e182f94fb483f15e98097054ecb99d8e3a0",
+   "bytes": 519101
+  },
+  {
+   "file": "POD_OLD/POD3/BOARD.PLT",
+   "source": "WBSps Engineering from H drive/WBSps - POD_OLD/POD3/BOARD.PLT",
+   "sha256": "5cf79d706943c8e1deb43740656da47bf6782ed46c3523fb0b7a6c841dc9d0b4",
+   "bytes": 23035
+  },
+  {
+   "file": "POD_OLD/POD3/FA.PLT",
+   "source": "WBSps Engineering from H drive/WBSps - POD_OLD/POD3/FA.PLT",
+   "sha256": "262743d8914bb1ed4dc3b9e0c3af769d72fc708854d1e496e61f60afb5731523",
+   "bytes": 52539
+  },
+  {
+   "file": "POD_OLD/POD4/14-306.PLT",
+   "source": "WBSps Engineering from H drive/WBSps - POD_OLD/POD4/14-306.PLT",
+   "sha256": "34ca33f0f1fada22b2afef454f942ddf401cbf4c065411033842ec774bd0d415",
+   "bytes": 616235
+  },
+  {
+   "file": "POD_OLD/POD4/FAPOD4.PLT",
+   "source": "WBSps Engineering from H drive/WBSps - POD_OLD/POD4/FAPOD4.PLT",
+   "sha256": "24e0852666d37857e307bc1560d32dce6ec7054c3b731f56baca0fe88ecbdb24",
+   "bytes": 80407
+  },
+  {
+   "file": "POD_OLD/POD4/LMPOD4-3.PLT",
+   "source": "WBSps Engineering from H drive/WBSps - POD_OLD/POD4/LMPOD4-3.PLT",
+   "sha256": "e07b9d3d9f2030a35a4de9b1439f0f92f05d94e7fd31370598d94ef12f82959b",
+   "bytes": 300503
+  },
+  {
+   "file": "POD_OLD/POD4/P4SER.PLT",
+   "source": "WBSps Engineering from H drive/WBSps - POD_OLD/POD4/P4SER.PLT",
+   "sha256": "f1ecea2f6a69c6413f201a139b1bd51d4c19063e0969273d8404d5063efa785d",
+   "bytes": 34444
+  },
+  {
+   "file": "POD_OLD/POD4/POD4-1C.PLT",
+   "source": "WBSps Engineering from H drive/WBSps - POD_OLD/POD4/POD4-1C.PLT",
+   "sha256": "2942a33f824c9cfc2c4af1b7412f6ee3cba1c1b5b365ddeed7605d83e5f25e90",
+   "bytes": 307794
+  },
+  {
+   "file": "POD_OLD/POD4/POD4B.PLT",
+   "source": "WBSps Engineering from H drive/WBSps - POD_OLD/POD4/POD4B.PLT",
+   "sha256": "892765731c86ff15c1572fde5124b2549e940b4b61ad303bcaa4a353a471ad3a",
+   "bytes": 38381
+  },
+  {
+   "file": "POD_OLD/POD7/ISS1/MANUAL/FA.PLT",
+   "source": "WBSps Engineering from H drive/WBSps - POD_OLD/POD7/ISS1/MANUAL/FA.PLT",
+   "sha256": "42577673a8ee3c68fc2905c2a7cd1833ed3fbab776238e401aef557e52499f4b",
+   "bytes": 134200
+  },
+  {
+   "file": "SA14-XXX/SA14-330/ORCAD/SA14330A.PLT",
+   "source": "WBSps Engineering from H drive/WBSps - SA14-XXX/SA14-330/ORCAD/SA14330A.PLT",
+   "sha256": "c72c74ec2a509300500ae2258e8438f3b8f72f5b6853d1e0bdb7f1f05736c498",
+   "bytes": 51607
+  }
+ ]
+}

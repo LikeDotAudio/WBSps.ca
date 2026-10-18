@@ -1,0 +1,1 @@
+window.WBS_FOLDER={"d":"Products/METERING/AMS8-1CAM","f":[["2018 - AMS8-1CAM - Information Sheet.jpg","66240b653eda96ac6755"],["2018 - AMS8-1CAM - Manual (2).docx","f275cf623d93bce1ebcc"],["2018 - AMS8-1CAM - Manual.docx","1386da107017a0bd7b4c"],["2018 - AMS8-1CAM - Rear.jpg","3d17c29879275f23271d"]]};

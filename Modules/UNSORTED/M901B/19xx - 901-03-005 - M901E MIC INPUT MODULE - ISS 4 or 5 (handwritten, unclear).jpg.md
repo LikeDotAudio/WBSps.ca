@@ -1,0 +1,189 @@
+# 19xx - 901-03-005 - M901E MIC INPUT MODULE - ISS 4 or 5 (handwritten, unclear).jpg
+Wiki page: [M901B](../../../PAGES/M901B.md)
+
+
+- **Year:** unknown (title block (read by eye))
+- **Module:** M901B
+- **Category:** UNSORTED
+- **Module year estimate:** 1994 — original file date saved 1994-06-29: WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - FA93001/M901B.DWG
+
+## Title block (found by software, read by eye)
+
+- **Drawing:** D 901-03-005
+- **Size:** D
+- **Title:** M901B/M901E / MIC INPUT / MODULE
+- **Issue:** 4 or 5 (handwritten, unclear)
+- **Confidence:** medium
+
+- **Original file:** `WBSps.env/WBS Photos-1-001/WBSps.ca 20210319 -  (51).jpg`
+- **SHA-256:** `54b5b7a098156d78340ecaf095be2a5dd621b2e359d62d5216be9690e4338b22`
+- **Size:** 725,880 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 1 words corrected)
+
+```text
+-32 UNC C'SK to 0.250 Dia 2 REQ'D
+8 8 3 3 3
+0.100 DIA-c'SK TO 0.180,DIA REQ'D
+DATUM 0.200
+W9018
+Hadib
+MBOIE
+PUNCH 0.380 Sq (0.04 RAD CORNERS) "Sk REAR Of PANEL 500 DIA; 90 DEG M1 REC'D 1.462
+800
+1.252
+957
+2.242
+2.452
+0.20 APPROX
+0.203 DIA
+REQ"D
+468
+828
+Shows ORIENTATION
+296
++
+993 0.257 DIA 3REQ'D
+0.070
+PAN
+BAL
+PAN
+5.727
+0.035
+PRE /PST
+DPRE/PST _ * AUX1 AUX ?
+PRE/PST
+DPrE /PST X AUX2
+(0.05
+0.07)
+6.511
+AUX
+7.217
+0.125 DIA = TO 0.240 DIA 2 REQ'D 7.832
+SECTION AA
+7.692
+DETAIL (SCALE 41)
+0.125 'Mdth 4.440 LONG (FULL RAD SLOT)
+SGFE DORIENTATIONS REC"D FAR  SIDE
+MATERIAL: ALUM ALLOY 0.125 THICK
+80
+80
+80
+FINISH: SAND 120 CRIT AND PAINT TEXTURED BEIGE (452C) TEXCOTE VINYL_ (EXTRA FINE  TEXTURE) NOTE- REMOVE ALL BURRS AND SHARP EDGES 2. TOLERANCES: Ma +/-0.015 XXX /-0.005 SILKSCREEN T0 #901-08 OO5B (FOR V901B) 0901-08 DOSE (FOR MIOIE)
+12,272
+12.412
+12,887
++ OFF + CH ON R
+OFF
+15,764
+PUNCH 0.939 0.755
++ CH ON R
+14.688
+15.350
+PUNCH 1.064 0.755
+R
+ISSUEL DATE
+REMSION
+APP
+15.950 16.150
+WBS
+WARD-BECK SYSTEMS
+DRN: ENG. CKD.
+DRG
+M9O1B/M9OE MIC INPUT MODULE
+3 3
+SCALE DISC_NO:SLl CODE: odions
+SSUE
+901-03-005
+Upoe
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+-32 UNC C'SK to 0.250 Dia 2 REQ'D
+8 8 3 3 3
+0.100 DIA-c'SK TO 0.180,DIA REQ'D
+DATUM 0.200
+W9018
+Hadib
+MBOIE
+PUNCH 0.380 Sq (0.04 RAD CORNERS) "Sk REAR Of PANEL 500 DIA; 90 DEG M1 REC'D 1.462
+800
+1.252
+957
+2.242
+2.452
+0.20 APPROX
+0.203 DIA
+REQ"D
+468
+828
+Shows ORIENTATION
+296
++
+993 0.257 DIA 3REQ'D
+0.070
+PAN
+BAL
+PAN
+5.727
+0.035
+PRE /PST
+DPRE/PST _ * AUX1 AUX ?
+PRE/PST
+DPrE /PST X AUX2
+(0.05
+0.07)
+6.511
+AUX
+7.217
+0.125 DIA = TO 0.240 DIA 2 REQ'D 7.832
+SECTION AA
+7.692
+DETAIL (SCALE 41)
+0.125 'Mdth 4.440 LONG (FULL RAD SLOT)
+SGFE DORIENTATIONS REC"D FAR  SIDE
+MATERIAL: ALUM ALLOY 0.125 THICK
+80
+80
+80
+FINISH: SAND 120 CRIT AND PAINT TEXTURED BEIGE (452C) TEXCOTE VINYL_ (EXTRA FINE  TEXTURE) NOTE- REMOVE ALL BURRS AND SHARP EDGES 2. TOLERANCES: Ma +/-0.015 XXX /-0.005 SILKSCREEN T0 #901-08 OO5B (FOR V901B) 0901-08 DOSE (FOR MIOIE)
+12,272
+12.412
+12,887
++ OFF + CH ON R
+OFF
+15,764
+PUNCH 0.939 0.755
++ CH ON R
+14.688
+15.350
+PUNCH 1.064 0.755
+R
+ISSUEI DATE
+REMSION
+APP
+15.950 16.150
+WBS
+WARD-BECK SYSTEMS
+DRN: ENG. CKD.
+DRG
+M9O1B/M9OE MIC INPUT MODULE
+3 3
+SCALE DISC_NO:SLl CODE: odions
+SSUE
+901-03-005
+Upoe
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/UNSORTED/M901B/19xx - 901-03-005 - M901E MIC INPUT MODULE - ISS 4 or 5 (handwritten, unclear).jpg","sha256":"54b5b7a098156d78340ecaf095be2a5dd621b2e359d62d5216be9690e4338b22","kind":"module","models":["M901B"],"pages":1,"order":[{"page":1,"title_block":[{"number":"D 901-03-005","type":"wiring","title":"M901B/M901E / MIC INPUT / MODULE","issue":"4 or 5 (handwritten, unclear)"}],"modules":["M101"],"module_boxes":[{"code":"-32 UNC","box":[0.2705,0.0679,0.2923,0.0762]},{"code":"C'SK","box":[0.2941,0.0666,0.3068,0.0762]},{"code":"8","box":[0.1695,0.0679,0.175,0.0885]},{"code":"8 3 3","box":[0.1823,0.0652,0.2077,0.0899]},{"code":"3","box":[0.215,0.0625,0.2205,0.0899]},{"code":"to","box":[0.2641,0.0679,0.2714,0.083]},{"code":"0.250 Dia","box":[0.2714,0.0748,0.2968,0.083]},{"code":"2 REQ'D","box":[0.2695,0.0817,0.2905,0.0913]},{"code":"0.100 DIA-c'SK","box":[0.0877,0.0927,0.1268,0.1023]},{"code":"TO 0.180,DIA","box":[0.0886,0.0995,0.1205,0.1091]},{"code":"REQ'D","box":[0.1005,0.1064,0.115,0.116]},{"code":"DATUM","box":[0.2459,0.127,0.2641,0.1352]},{"code":"0.200","box":[0.2468,0.1352,0.2614,0.1448]},{"code":"W9018","box":[0.3714,0.1366,0.3859,0.1462]},{"code":"Hadib","box":[0.445,0.1366,0.4586,0.1448]},{"code":"MBOIE","box":[0.5341,0.1366,0.5486,0.1448]},{"code":"PUNCH 0.380 Sq","box":[0.0832,0.1517,0.125,0.1599]},{"code":"(0.04 RAD CORNERS)","box":[0.0832,0.1585,0.1341,0.1682]},{"code":"\"Sk REAR Of PANEL","box":[0.0868,0.1654,0.1332,0.175]},{"code":"800","box":[0.2514,0.1627,0.2614,0.1723]},{"code":"500 DIA;","box":[0.0877,0.175,0.1077,0.1833]},{"code":"90 DEG","box":[0.1141,0.1736,0.1341,0.1833]},{"code":"M1 REC'D","box":[0.0895,0.1805,0.1123,0.1901]},{"code":"1.252","box":[0.2468,0.1833,0.2605,0.1929]},{"code":"1.462","box":[0.1268,0.1942,0.1414,0.2025]},{"code":"957","box":[0.1305,0.2162,0.1414,0.2258]},{"code":"2.242","box":[0.2468,0.2286,0.2614,0.2368]},{"code":"2.452","box":[0.1268,0.2382,0.1414,0.2478]},{"code":"0.20 APPROX","box":[0.6977,0.2354,0.7305,0.245]},{"code":"0.203 DIA","box":[0.2614,0.2629,0.2859,0.2711]},{"code":"REQ\"D","box":[0.2986,0.2615,0.3141,0.2711]},{"code":"468","box":[0.1314,0.2848,0.1414,0.2944]},{"code":"828","box":[0.1314,0.3013,0.1414,0.3095]},{"code":"Shows","box":[0.6968,0.3082,0.715,0.3178]},{"code":"ORIENTATION","box":[0.6977,0.315,0.7277,0.3246]},{"code":"296","box":[0.1314,0.3233,0.1414,0.3315]},{"code":"+","box":[0.6045,0.3143,0.6173,0.3363]},{"code":"993","box":[0.1314,0.3548,0.1414,0.3644]},{"code":"0.070","box":[0.8514,0.3603,0.8668,0.3699]},{"code":"0.257 DIA","box":[0.0805,0.3713,0.105,0.3795]},{"code":"3REQ'D","box":[0.1123,0.3686,0.1332,0.3823]},{"code":"PAN","box":[0.4332,0.3713,0.445,0.3795]},{"code":"BAL","box":[0.5232,0.3713,0.5332,0.3795]},{"code":"PAN","box":[0.5959,0.3699,0.6077,0.3795]},{"code":"5.727","box":[0.1268,0.3878,0.1414,0.3974]},{"code":"0.035","box":[0.8514,0.3864,0.8668,0.396]},{"code":"PRE /PST","box":[0.355,0.4029,0.3768,0.4111]},{"code":"DPRE/PST _","box":[0.4214,0.4015,0.4514,0.4111]},{"code":"PRE/PST","box":[0.5177,0.4015,0.5395,0.4111]},{"code":"DPrE /PST","box":[0.585,0.4001,0.6132,0.4097]},{"code":"(0.05","box":[0.7223,0.3974,0.7359,0.4056]},{"code":"0.07)","box":[0.7441,0.396,0.7577,0.407]},{"code":"6.511","box":[0.2468,0.4235,0.2605,0.4317]},{"code":"*","box":[0.4395,0.4111,0.4605,0.4399]},{"code":"X","box":[0.6032,0.4097,0.6232,0.4399]},{"code":"AUX","box":[0.3695,0.4372,0.3805,0.4454]},{"code":"AUX1","box":[0.4195,0.4372,0.4341,0.4454]},{"code":"AUX ?","box":[0.4441,0.4358,0.4586,0.4454]},{"code":"AUX2","box":[0.6077,0.4358,0.6223,0.4441]},{"code":"7.217","box":[0.1277,0.4564,0.1414,0.4647]},{"code":"0.125 DIA =","box":[0.2614,0.4564,0.2886,0.466]},{"code":"TO 0.240 DIA","box":[0.2614,0.4633,0.2941,0.4715]},{"code":"SECTION AA","box":[0.7723,0.4633,0.8005,0.4729]},{"code":"2 REQ'D","box":[0.2668,0.4701,0.2877,0.4798]},{"code":"7.692","box":[0.1268,0.477,0.1414,0.4866]},{"code":"7.832","box":[0.2468,0.4839,0.2623,0.4921]},{"code":"DETAIL","box":[0.805,0.5168,0.8286,0.5292]},{"code":"(SCALE 41)","box":[0.8023,0.5292,0.8323,0.5388]},{"code":"0.125 'Mdth","box":[0.2568,0.5937,0.2868,0.6033]},{"code":"4.440 LONG","box":[0.2623,0.5992,0.2923,0.6088]},{"code":"(FULL RAD SLOT)","box":[0.2568,0.606,0.2986,0.617]},{"code":"SGFE","box":[0.0955,0.615,0.1091,0.6314]},{"code":"DORIENTATIONS","box":[0.1073,0.615,0.1436,0.6314]},{"code":"REC\"D FAR  SIDE","box":[0.1086,0.6294,0.1477,0.639]},{"code":"MATERIAL:","box":[0.8068,0.6555,0.8432,0.6678]},{"code":"ALUM ALLOY 0.125 THICK","box":[0.8468,0.6541,0.9377,0.6678]},{"code":"80","box":[0.3595,0.6706,0.3668,0.6857]},{"code":"80","box":[0.4323,0.6692,0.4405,0.6843]},{"code":"80","box":[0.5959,0.6692,0.6032,0.6843]},{"code":"FINISH:","box":[0.8059,0.6774,0.8314,0.6911]},{"code":"SAND 120","box":[0.8355,0.6774,0.8714,0.6918]},{"code":"CRIT","box":[0.8741,0.6788,0.8905,0.6898]},{"code":"AND PAINT","box":[0.8932,0.6774,0.9323,0.6898]},{"code":"12,272","box":[0.2468,0.6857,0.2641,0.6939]},{"code":"12.412","box":[0.125,0.6925,0.1423,0.7008]},{"code":"TEXTURED BEIGE (452C)","box":[0.8345,0.6863,0.9218,0.7042]},{"code":"TEXCOTE","box":[0.835,0.7008,0.8668,0.7145]},{"code":"VINYL_","box":[0.8695,0.7021,0.8895,0.7131]},{"code":"12,887","box":[0.125,0.7145,0.1423,0.7227]},{"code":"+","box":[0.4255,0.7042,0.4382,0.7261]},{"code":"(EXTRA","box":[0.8359,0.7145,0.8568,0.7255]},{"code":"FINE  TEXTURE)","box":[0.8595,0.7131,0.9032,0.7241]},{"code":"OFF","box":[0.4341,0.7255,0.4441,0.7351]},{"code":"OFF","box":[0.5968,0.7255,0.6068,0.7337]},{"code":"NOTE-","box":[0.8068,0.7296,0.8214,0.7378]},{"code":"REMOVE ALL BURRS AND SHARP EDGES","box":[0.8132,0.7364,0.9105,0.7461]},{"code":"2. TOLERANCES:","box":[0.8068,0.7447,0.8459,0.7543]},{"code":"Ma","box":[0.8509,0.7467,0.8609,0.7509]},{"code":"+/-0.015","box":[0.86,0.7433,0.8841,0.7529]},{"code":"XXX","box":[0.8914,0.7447,0.9032,0.7529]},{"code":"/-0.005","box":[0.9095,0.7447,0.9295,0.7529]},{"code":"15,764","box":[0.125,0.7543,0.1423,0.7625]},{"code":"SILKSCREEN T0 #901-08","box":[0.8141,0.7529,0.8741,0.7625]},{"code":"OO5B (FOR V901B)","box":[0.8768,0.7529,0.9223,0.7612]},{"code":"0901-08","box":[0.8523,0.7612,0.8741,0.7708]},{"code":"DOSE (FOR MIOIE)","box":[0.8759,0.7598,0.9223,0.7694]},{"code":"PUNCH 0.939","box":[0.075,0.7735,0.1077,0.7831]},{"code":"0.755","box":[0.1141,0.7735,0.1286,0.7817]},{"code":"+","box":[0.4227,0.7316,0.4582,0.8195]},{"code":"+","box":[0.5855,0.7316,0.6209,0.8195]},{"code":"14.688","box":[0.125,0.7955,0.1423,0.8051]},{"code":"CH","box":[0.425,0.8147,0.4368,0.8284]},{"code":"ON","box":[0.4405,0.8161,0.4532,0.8284]},{"code":"CH","box":[0.5877,0.8147,0.5995,0.8284]},{"code":"ON","box":[0.6041,0.8147,0.6159,0.827]},{"code":"15.350","box":[0.2468,0.8243,0.2641,0.8339]},{"code":"PUNCH 1.064","box":[0.0777,0.8298,0.1105,0.8394]},{"code":"0.755","box":[0.1168,0.8298,0.1323,0.838]},{"code":"R","box":[0.4177,0.8353,0.435,0.8627]},{"code":"R","box":[0.5082,0.8373,0.5227,0.8593]},{"code":"R","box":[0.5818,0.8346,0.5964,0.8607]},{"code":"ISSUEI DATE","box":[0.8441,0.8463,0.8732,0.8545]},{"code":"REMSION","box":[0.9123,0.8449,0.9341,0.8545]},{"code":"APP","box":[0.975,0.8449,0.985,0.8531]},{"code":"15.950","box":[0.2468,0.8518,0.2641,0.8614]},{"code":"16.150","box":[0.2468,0.8614,0.2641,0.871]},{"code":"WBS","box":[0.8182,0.8634,0.8582,0.8799]},{"code":"WARD-BECK","box":[0.8745,0.862,0.9327,0.8785]},{"code":"SYSTEMS","box":[0.9355,0.8607,0.9791,0.8771]},{"code":"DRN:","box":[0.8077,0.8888,0.8205,0.897]},{"code":"DRG","box":[0.8277,0.8888,0.8386,0.897]},{"code":"M9O1B/M9OE","box":[0.8859,0.8888,0.9468,0.9025]},{"code":"ENG.","box":[0.8086,0.8998,0.8195,0.9094]},{"code":"MIC INPUT","box":[0.8936,0.9005,0.9382,0.917]},{"code":"CKD.","box":[0.8086,0.9121,0.8205,0.9204]},{"code":"3 3","box":[0.2023,0.908,0.2195,0.9327]},{"code":"MODULE","box":[0.8986,0.9149,0.9332,0.9286]},{"code":"SCALE","box":[0.8114,0.9341,0.8277,0.9423]},{"code":"DISC_NO:SLl","box":[0.8295,0.9341,0.8695,0.9451]},{"code":"SSUE","box":[0.9705,0.9327,0.9832,0.941]},{"code":"CODE:","box":[0.8305,0.9451,0.845,0.9533]},{"code":"odions","box":[0.8518,0.9458,0.8664,0.9513]},{"code":"901-03-005","box":[0.8995,0.9369,0.9559,0.9506]},{"code":"Upoe","box":[0.6073,0.1352,0.6214,0.1434]}],"text":["8 8 3 3 3 to -32 UNC C'SK","0.250 Dia","2 REQ'D","0.100 DIA-c'SK","TO 0.180,DIA","REQ'D","DATUM","0.200 W9018 Hadib MBOIE Upoe","PUNCH 0.380 Sq","(0.04 RAD CORNERS) 800","\"Sk REAR Of PANEL","500 DIA; 90 DEG","M1 REC'D 1.252","1.462","957","2.242","2.452 0.20 APPROX","0.203 DIA REQ\"D","468","828","Shows","+ ORIENTATION","296","993 0.070","0.257 DIA 3REQ'D PAN BAL PAN","5.727 0.035","DPRE/PST _ PRE/PST DPrE /PST (0.05 0.07)","PRE /PST X","6.511 *","AUX AUX1 AUX ? AUX2","7.217 0.125 DIA =","TO 0.240 DIA SECTION AA","2 REQ'D","7.692","7.832","DETAIL","(SCALE 41)","0.125 'Mdth 4.440 LONG","(FULL RAD SLOT)","SGFE DORIENTATIONS","REC\"D FAR  SIDE","MATERIAL: ALUM ALLOY 0.125 THICK","80 80 80 FINISH: AND PAINT","SAND 120 CRIT","12,272 TEXTURED BEIGE (452C)","12.412","+ TEXCOTE VINYL_","12,887 (EXTRA FINE  TEXTURE)","OFF OFF NOTE-","REMOVE ALL BURRS AND SHARP EDGES","2. TOLERANCES: Ma +/-0.015 XXX /-0.005","15,764 SILKSCREEN T0 #901-08 OO5B (FOR V901B)","+ + 0901-08 DOSE (FOR MIOIE)","PUNCH 0.939 0.755","14.688","CH ON CH ON","PUNCH 1.064 0.755 15.350","R R R ISSUEI DATE REMSION APP","15.950","16.150 WBS WARD-BECK SYSTEMS","DRN: DRG M9O1B/M9OE","ENG. MIC INPUT","3 3 CKD. MODULE","SCALE DISC_NO:SLl 901-03-005 SSUE","CODE: odions"]}],"drawing":{"svg":"_traces/54b5b7a098156d78.svg","viewBox":[2000,1325],"rotate":0,"size":"D","number":"D 901-03-005","title":"M901B/M901E / MIC INPUT / MODULE","dtype":"03","outlines":"see _traces/54b5b7a098156d78.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/54b5b7a098156d78.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[541,101,"-32 UNC"],[588,101,"C'SK"],[365,119,"8 3 3"],[528,110,"to"],[543,110,"0.250 Dia"],[539,121,"2 REQ'D"],[175,136,"0.100 DIA-c'SK"],[177,145,"TO 0.180,DIA"],[201,154,"REQ'D"],[492,179,"DATUM"],[494,192,"0.200"],[743,194,"W9018"],[890,192,"Hadib"],[1068,192,"MBOIE"],[166,212,"PUNCH 0.380 Sq"],[166,223,"(0.04 RAD CORNERS)"],[174,232,"\"Sk REAR Of PANEL"],[503,228,"800"],[175,243,"500 DIA;"],[228,243,"90 DEG"],[179,252,"M1 REC'D"],[494,256,"1.252"],[254,268,"1.462"],[261,299,"957"],[494,314,"2.242"],[254,328,"2.452"],[1395,325,"0.20 APPROX"],[523,359,"0.203 DIA"],[597,359,"REQ\"D"],[263,390,"468"],[263,410,"828"],[1394,421,"Shows"],[1395,430,"ORIENTATION"],[263,439,"296"],[263,483,"993"],[1703,490,"0.070"],[161,503,"0.257 DIA"],[225,507,"3REQ'D"],[866,503,"PAN"],[1046,503,"BAL"],[1192,503,"PAN"],[254,527,"5.727"],[1703,525,"0.035"],[710,545,"PRE /PST"],[843,545,"DPRE/PST _"],[1035,545,"PRE/PST"],[1170,543,"DPrE /PST"],[1445,537,"(0.05"],[1488,539,"0.07)"],[494,572,"6.511"],[739,590,"AUX"],[839,590,"AUX1"],[888,590,"AUX ?"],[1215,588,"AUX2"],[255,616,"7.217"],[523,617,"0.125 DIA ="],[523,625,"TO 0.240 DIA"],[1545,627,"SECTION AA"],[534,636,"2 REQ'D"],[254,645,"7.692"],[494,652,"7.832"],[1610,701,"DETAIL"],[1605,714,"(SCALE 41)"],[514,799,"0.125 'Mdth"],[525,807,"4.440 LONG"],[514,818,"(FULL RAD SLOT)"],[191,837,"SGFE"],[215,837,"DORIENTATIONS"],[217,847,"REC\"D FAR  SIDE"],[1614,885,"MATERIAL:"],[1694,885,"ALUM ALLOY 0.125 THICK"],[719,909,"80"],[865,907,"80"],[1192,907,"80"],[1612,916,"FINISH:"],[1671,917,"SAND 120"],[1748,914,"CRIT"],[1786,914,"AND PAINT"],[494,919,"12,272"],[250,929,"12.412"],[1669,933,"TEXTURED BEIGE (452C)"],[1670,947,"TEXCOTE"],[1739,945,"VINYL_"],[250,958,"12,887"],[1672,961,"(EXTRA"],[1719,959,"FINE  TEXTURE)"],[868,974,"OFF"],[1194,972,"OFF"],[1614,978,"NOTE-"],[1626,989,"REMOVE ALL BURRS AND SHARP EDGES"],[1614,999,"2. TOLERANCES:"],[1702,995,"Ma"],[1720,998,"+/-0.015"],[1783,998,"XXX"],[1819,998,"/-0.005"],[250,1010,"15,764"],[1628,1010,"SILKSCREEN T0 #901-08"],[1754,1009,"OO5B (FOR V901B)"],[1705,1021,"0901-08"],[1752,1019,"DOSE (FOR MIOIE)"],[150,1038,"PUNCH 0.939"],[228,1036,"0.755"],[250,1067,"14.688"],[850,1098,"CH"],[881,1098,"ON"],[1175,1098,"CH"],[1208,1096,"ON"],[494,1105,"15.350"],[155,1112,"PUNCH 1.064"],[234,1110,"0.755"],[1688,1132,"ISSUEI DATE"],[1825,1132,"REMSION"],[1950,1130,"APP"],[494,1141,"15.950"],[494,1154,"16.150"],[1636,1166,"WBS"],[1749,1164,"WARD-BECK"],[1871,1162,"SYSTEMS"],[1615,1189,"DRN:"],[1655,1189,"DRG"],[1772,1196,"M9O1B/M9OE"],[1617,1205,"ENG."],[1787,1215,"MIC INPUT"],[1617,1220,"CKD."],[405,1236,"3 3"],[1797,1230,"MODULE"],[1623,1249,"SCALE"],[1659,1252,"DISC_NO:SLl"],[1941,1247,"SSUE"],[1661,1263,"CODE:"],[1704,1260,"odions"],[1799,1260,"901-03-005"],[1215,190,"Upoe"]]}}
+```

@@ -1,0 +1,212 @@
+# 1978 - M490G - 490-04-015 - CUE OUT RIGHT OFF TALLY.jpg
+Wiki page: [M490G](../../../PAGES/M490G.md)
+
+
+- **Year:** 1978 (module estimate (family))
+- **Module:** M490G
+- **Category:** INPUT-PRE-AMPS
+- **Module year estimate:** 1978 — family from M490
+- **Original file:** `WBSps.env/wbsps - website ARCHIVE/WBSPS 2008/RAW SCANS/To Be edited/M490G - Mic Input Module/M490G - P026 - B490-04-015 L.jpg`
+- **SHA-256:** `1710f59721ccc9fc65e588a303849bd3c0dea8caaff10ef8cc40f7e394ab0e6e`
+- **Size:** 190,403 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 1 words corrected)
+
+```text
+P1
+P2
+PGM 1 OUT
+MIC B
+Al 1
+2
+PGM 1 OUt
+NC
+Bl 2
+3
+PGM 3 OUt
+Mic A
+ci 3
+PGM 3 OUt
+NC
+DJ 4
+5
+PGM 2 OUt
+INSERT
+El5
+6
+PGM 2 Out
+INSERT
+F 6
+7
+PGM 4 OUt
+INSERT
+HI 7
+8
+PGM 4 Out
+INSERT
+J 8
+9
+SHIELD
+SHIELD
+K/ 9
+10
+NC
+Mic B CTL
+L/1o
+IC
+MIC CTL COM
+MMII
+12
+ic
+EXT Ch ON
+N/12
+113
+ic
+CH B CTL OUT
+P/13
+14
+ic
+TIMER RESET
+R/14
+15
+CUE OUT, LEFT
+ON CTL
+sh15
+16
+CUE Out , LEFT
+IC
+T/16
+17
+CUE OuT, RIGHT
+OFF CTL
+U/17
+18
+CUE OUT, RIGHT
+OFF TALLY
+V/18
+19
+NC
+25V
+Wl1g
+20
+NC
+25V COM-
+x/2o
+21
+NC
++25V
+Y/21
+22
+CHASSIS
+CTL COM
+2/22
+UPPER)
+LOWER
+LEGEND NC : NOT CONNECTED IC: INTERNALLY CONNECTED
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+P1
+P2
+PGM 1 OUT
+MIC B
+Al 1
+2
+PGM 1 OUt
+NC
+Bl 2
+3
+PGM 3 OUt
+Mic A
+ci 3
+PGM 3 OUt
+NC
+DJ 4
+5
+PGM 2 OUt
+INSERT
+El5
+6
+PGM 2 Out
+INSERT
+F 6
+7
+PGM 4 OUt
+INSERT
+HI 7
+8
+PGM 4 Out
+INSERT
+J 8
+9
+SHIELD
+SHIELD
+K/ 9
+10
+NC
+Mic B CTL
+L/1o
+IC
+MIC CTL COM
+MMII
+12
+ic
+EXT Ch ON
+N/12
+113
+ic
+CH B CTL OUT
+P/13
+14
+ic
+TIMER RESET
+R/14
+15
+CUE OUT, LEFT
+ON CTL
+sh15
+16
+CUE Out , LEFT
+IC
+T/16
+17
+CUE OuT, RIGHT
+OFF CTL
+U/17
+18
+CUE OUT, RIGHT
+OFF TALLY
+V/18
+19
+NC
+25V
+Wl1g
+20
+NC
+25V COM-
+x/2o
+21
+NC
++25V
+Y/21
+22
+CHASSIS
+CTL COM
+2/22
+UPPER)
+LOWEE
+LEGEND NC : NOT CONNECTED IC: INTERNALLY CONNECTED
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - 490-04-015 - CUE OUT RIGHT OFF TALLY.jpg","sha256":"1710f59721ccc9fc65e588a303849bd3c0dea8caaff10ef8cc40f7e394ab0e6e","kind":"module","models":["M490G"],"year":1978,"pages":1,"order":[{"page":1,"title_block":[{"number":"490-04-015","type":"layout / outline","title":"Cue Out Right Off Tally"}],"text":["P1 P2","PGM OUt Mic B","PGM Out NC Bl 2","3 PGM 3 Out MiC A cl 3","4 PGM 3 OUt NC D","5 PGM OUt NSERT E 5","6 PGM 2 Out INSERT F 6","7 PGM 4 OUt INSERT H","8 PGM 4 Out INSERT 8","9 SHIELD SHIELD K/ 9","10 NC Mic B CTL L/1o","11 IC Mic CTL COM ML","12 IC EXT CH ON N/12","13 IC CH B CTL Out P/13","14 IC TIMER RESET R/14","15 CUE   OUT, LEFT On CTL s/15","16 CUE Out, LEFT ic T/16","17 CUE   Out, RIGHT OFF CTL U/17","118 CUE OUT, RIGHT OFF TALLY v/18","19 NC 25V wlig","20 NC 25V COM- Xi2o","21 NC +25V Yl2i","22 CHASSIS CTL COM 2/22","UPPER) (LOWE","LEGEND","NC : Not CONNECTED","IC: INTERNALLY CONNECTED"]}],"drawing":{"svg":"_traces/1710f59721ccc9fc.svg","viewBox":[1568,2000],"rotate":0,"number":"490-04-015","title":"Cue Out Right Off Tally","dtype":"04","outlines":"see _traces/1710f59721ccc9fc.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[490,192,"P1"],[1517,192,"P2"],[565,255,"PGM"],[675,252,"OUt"],[1359,255,"Mic B"],[562,315,"PGM"],[675,315,"Out"],[1414,318,"NC"],[1506,314,"Bl"],[562,378,"PGM"],[675,375,"Out"],[1359,378,"MiC A"],[1504,380,"cl 3"],[562,440,"PGM"],[675,440,"OUt"],[1414,442,"NC"],[562,502,"PGM"],[675,502,"OUt"],[1362,500,"NSERT"],[562,562,"PGM"],[672,562,"Out"],[1344,562,"INSERT"],[562,625,"PGM"],[672,623,"OUt"],[1347,625,"INSERT"],[562,685,"PGM"],[672,685,"Out"],[1344,685,"INSERT"],[560,745,"SHIELD"],[1339,750,"SHIELD"],[1504,752,"K/ 9"],[480,810,"10"],[562,810,"NC"],[1282,810,"Mic"],[1357,812,"B CTL"],[1502,810,"L/1o"],[480,875,"11"],[565,872,"IC"],[1244,875,"Mic CTL COM"],[1502,872,"ML"],[477,932,"12"],[565,935,"IC"],[1282,932,"EXT"],[1357,935,"CH ON"],[1502,938,"N/12"],[477,998,"13"],[562,995,"IC"],[1227,998,"CH"],[1319,998,"CTL"],[1392,998,"Out"],[1502,1000,"P/13"],[477,1058,"14"],[562,1058,"IC"],[1247,1058,"TIMER"],[1353,1059,"RESET"],[1499,1058,"R/14"],[477,1120,"15"],[557,1120,"CUE   OUT,"],[727,1120,"LEFT"],[1337,1120,"On CTL"],[1499,1122,"s/15"],[477,1180,"16"],[557,1180,"CUE"],[632,1180,"Out,"],[725,1183,"LEFT"],[1412,1178,"ic"],[1499,1183,"T/16"],[477,1240,"17"],[560,1245,"CUE   Out,"],[725,1240,"RIGHT"],[1317,1240,"OFF"],[1389,1245,"CTL"],[1499,1245,"U/17"],[475,1300,"118"],[557,1302,"CUE"],[632,1302,"OUT,"],[725,1305,"RIGHT"],[1279,1302,"OFF"],[1354,1305,"TALLY"],[1499,1305,"v/18"],[475,1368,"19"],[560,1365,"NC"],[1389,1370,"25V"],[1497,1370,"wlig"],[475,1428,"20"],[557,1428,"NC"],[1317,1433,"25V"],[1389,1430,"COM-"],[1497,1428,"Xi2o"],[475,1488,"21"],[557,1490,"NC"],[1369,1490,"+25V"],[1497,1490,"Yl2i"],[475,1552,"22"],[557,1552,"CHASSIS"],[1314,1555,"CTL COM"],[1497,1552,"2/22"],[457,1621,"UPPER)"],[1472,1618,"(LOWE"],[5,1795,"LEGEND"],[5,1822,"NC :"],[93,1828,"Not CONNECTED"],[8,1855,"IC:"],[95,1855,"INTERNALLY"],[295,1858,"CONNECTED"]]}}
+```

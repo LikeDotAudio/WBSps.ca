@@ -1,0 +1,1 @@
+window.WBS_FOLDER={"d":"DOCUMENTS/Photos/History","f":[["19xx - DOC - wbsps - ad - 600 series.jpg","49358d377146d2d53f32"],["19xx - DOC - wbsps - ad - communications in the digital world.jpg","2e48a443171f07ef485e"],["19xx - DOC - wbsps - ad - made to measure.jpg","38fcda4086ede2b89610"]]};

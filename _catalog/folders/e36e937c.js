@@ -1,0 +1,1 @@
+window.WBS_FOLDER={"d":"Products/METERING/AMS8-1BA","f":[["2015 - AMS8-1BA - , AMS8-1BAM _ AMS8-1BAEM Manual (2).docx","9b654c8ac5e4f71ee901"],["2015 - AMS8-1BA - , AMS8-1BAM _ AMS8-1BAEM Manual.docx","077fc4913b8edde4f27e"]]};

@@ -1,0 +1,293 @@
+# 1978 - 702-02-101 - M702B INTERCOM OUTPUT AMPLIFIER SCHEMATIC - DRN MRW - ENG MRW - ISS 5.jpg
+Wiki page: [M702](../../../PAGES/M702.md)
+
+
+- **Year:** 1978 (title block date)
+- **Module:** M702
+- **Category:** COMMUNICATION
+- **Module year estimate:** 1997 — original file date saved 1997-06-12: WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - M7XX/M703D/ACAD/M702-3.DWG
+
+## Title block (found by software, read by eye)
+
+- **Drawing:** D 702-02-101
+- **Size:** D
+- **Title:** M702B / INTERCOM OUTPUT AMPLIFIER / SCHEMATIC
+- **Date:** 11/78
+- **Drawn:** MRW 11/78
+- **Checked:** (signature)
+- **Engineer:** MRW
+- **Issue:** 5
+- **Confidence:** high
+
+Intercom output amplifier schematic with title block at bottom right.
+
+- **Original file:** `WBSps.env/WBS Photos-1-001/2021-3-16-19-46-8.jpg`
+- **SHA-256:** `e489e0853884c346e9da3c48dc19b7d27af269a81361afae4474c132e6cc6036`
+- **Size:** 1,220,031 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 2 words corrected)
+
+```text
+NOTES ALL RESiSTors ARE "I4w 5% AND ALL CAPACITORS IN AF UNLESS DESIGNATED OTHERWISE 2 LAST COMPONENT DesignATiONS C223, Cr2o7 Ds 201 , F2o1, @ 202 , R2s5_ 4204 USE PcB 8-//4
+212
+2zo
+U2OHA
+iok
+F2oi
+Cr 205
+RZIo
+R222
+)13,P +32v UNREGULATED
+20n Sw C2ib 220/40
+5A FB IN4003
+R232
+R233 ISK
+R235 4k7 V2w
+C2i2 22q140
+PART MUTE 2448 R2I7 Zok
+29v
+R2zz
+C1og 22/25
+0202 FN3569
+DS 201
+cr207 In5364A 33
++I2v
+Czii 22/25-
+R234 IOk
+R2I? M ISK
+R22i
+uzorch
+iok
+R247
+R243
+R248
+C220
+U2c+ 8
+R237< R2292 Isk IOO C2i4
+100/25
+R23o 620
+Czio
+3-75
+cd4olbcn
+2lse R245 4k7
+R2i4
+'C1sp
+C2o7
+Uzoi-er
+M2oIAN
+Zok
+22/25
+U203
+R74
+R252 4kT
+Rzoi ISk
+CR2O6
+R2I8
+BALANCED Output +8dBm 6oon
+R228 2kT
+R2zi
+c2il I22/n5
+47434
+INPUT dBm 600n
+R2i8< ISK
+R42 4K7
+ISk
+R253 4k7
+R249 W 62k
+r2oz ISK
+R2ig
+R229 2kt
+Czis
+470op R24o S I0O
+LM3795
+RZis
+Czo8 22/25
+R2so (2zi
+1/35
+Uwol-Dl
+U24 E"z C2ib
+2ok
+INPUT Shield
+100/25 LEVEL Trim #Iode R251 Zok Czig 22/25 C222 ~2y UNBALANCED OUTPUT 680/16 82 3w MAX
+3.75
+R2o3 Ook cRZoi
+GkZ
+cr 204
+R2og
+74coon
+tiZv
+MUTE
+In+148 R224
+IN4148 ISok +2V C2os Rzbg< '1/35 R2o4 cOK cR 202 R2o7
+202-
+U202-B
+R2ss 4.7 C223 068
+Cnce 0/35
+R254
+MUTE OVERRIDE
+tZv
+In466 Isok Fi2v rzis6 C2oA_ IMS '1/35 - R2o5 Dok CR 203 rzo8
+227 zz0k
+22,7 COM
+R225
+PART MUTE
+Uzoz €
+Oz01 PN3569
+uzo2-D
+47k R22e Iook
+1n4148
+Isok Rzk Clos LiM '135
+INPUT AMPLIFIER BYPASS
+2/2 B/2 3/82 2772 ISSUE DATE
+A4S
+376 374 3681 360 REVISION
+MEM
+APP
+WBS
+WARD-BECK SYSTEMS
+DRN.MRW 41778 ENG MRW CKD Tc
+M7028
+INTERCOM OUTPUT AMPLIFIER SCHEMATIC ISSUE 702-02-101
+SCALE
+Rr?a
+2Lop
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+NOTES ALL RESiSTors ARE "I4w 5% AND ALL CAPACITORS IN AF UNLESS DESIGNATED OTHERWISE 2 LAST COMPONENT DesignATiONS C223, Cr2o7 Ds 201 , F2o1, @ 202 , R2s5_ 4204 USE PcB 8-//4
+212
+2zo
+U2OHA
+iok
+F2oi
+Cr 205
+RZIo
+R222
+)13,P +32v UNREGULATED
+20n Sw C2ib 220/40
+5A FB IN4003
+R232
+R233 ISK
+R235 4k7 V2w
+C2i2 22q140
+PART MUTE 2448 R2I7 Zok
+29v
+R2zz
+C1og 22/25
+0202 FN3569
+DS 201
+cr207 In5364A 33
++I2v
+Czii 22/25-
+R234 IOk
+R2I? M ISK
+R22i
+uzorch
+iok
+R247
+R243
+R248
+C220
+U2c+ 8
+R237< R2292 Isk IOO C2i4
+100/25
+R23o 620
+Czio
+3-75
+cd4olbcn
+2lse R245 4k7
+R2i4
+'C1sp
+C2o7
+Uzoi-er
+M2oIAN
+Zok
+22/25
+U203
+R74
+R252 4kT
+Rzoi ISk
+CR2O6
+R2I8
+BALANCED Output +8dBm 6oon
+R228 2kT
+R2zi
+c2il I22/n5
+47434
+INPUT dBm 600n
+R2i8< ISK
+R42 4K7
+ISk
+R253 4k7
+R249 W 62k
+r2oz ISK
+R2ig
+R229 2kt
+Czis
+470op R24o S I0O
+LM3795
+RZis
+Czo8 22/25
+R2so (2zi
+1/35
+Uwol-Dl
+U24 E"z C2ib
+2ok
+INPUT Shield
+100/25 LEVEL Trim #Iode R251 Zok Czig 22/25 C222 ~2y UNBALANCED OUTPUT 680/16 82 3w MAX
+3.75
+R2o3 Ook cRZoi
+GkZ
+cr 204
+R2og
+74coon
+tiZv
+MUTE
+In+148 R224
+IN4148 ISok +2V C2os Rzbg< '1/35 R2o4 cOK cR 202 R2o7
+202-
+U202-B
+R2ss 4.7 C223 068
+Cnce 0/35
+R254
+MUTE OVERRIDE
+tZv
+In466 Isok Fi2v rzis6 C2oA_ IMS '1/35 - R2o5 Dok CR 203 rzo8
+227 zz0k
+22,7 COM
+R225
+PART MUTE
+Uzoz €
+Oz01 PN3569
+uzo2-D
+47k R22e Iook
+1n4148
+Isok Rzk Clos LiM '135
+TNPUT AMPLIFIER BTpASS
+2/2 B/2 3/82 2772 ISSUE DATE
+A4S
+376 374 3681 360 REVISION
+MEM
+APP
+WBS
+WARD-BECK SYSTEMS
+DRN.MRW 41778 ENG MRW CKD Tc
+M7028
+INTERCOM OUTPUT AMPLIFIER SCHEMATIC ISSUE 702-02-101
+SCALE
+Rr?a
+2Lop
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/COMMUNICATION/M702/1978 - 702-02-101 - M702B INTERCOM OUTPUT AMPLIFIER SCHEMATIC - DRN MRW - ENG MRW - ISS 5.jpg","sha256":"e489e0853884c346e9da3c48dc19b7d27af269a81361afae4474c132e6cc6036","kind":"module","models":["M702"],"year":1978,"pages":1,"order":[{"page":1,"title_block":[{"number":"D 702-02-101","type":"schematic","title":"M702B / INTERCOM OUTPUT AMPLIFIER / SCHEMATIC","date":"11/78","year":1978,"drawn":"MRW","issue":"5"}],"text":["Resistors","IN 4F","UNLESS DESIGHATEO","Laat LO4PONEN","C229 ,","R255 V204","SRzos P UNREGULATEC","PAAT R933 R235","MUTE 477","22/29 057","Ck207","Cz RZX","R1zi 33y","3248","100/25","1cz4","2756","'950","R14","Rzoi R} BALANcED","R2ze","R5k8< R24Z 3253","R2o2 <","c2i5","Roo<","Triy","ode","R1ob Zok","CR 204 17n5","MUTE","[44148 V2on; LNBAAANCAC cutput","Rzss","'15 - R154","HUTE CR 202 Rzo7","OvErRIde A","nok 222 CoM","Cr2os R225","ParT","MLTE In4148","Icok THPLT","AMPLIFIER 4707","94o7","DATL","WBS WARD-DeCk SysTEMS","M7028","INTERCOM OUTPUT AmPliFiER","CHEMATIC","702-02-101"]}],"drawing":{"svg":"_traces/e489e0853884c346.svg","viewBox":[2000,1296],"rotate":0,"size":"D","number":"D 702-02-101","title":"M702B / INTERCOM OUTPUT AMPLIFIER / SCHEMATIC","dtype":"02","outlines":"see _traces/e489e0853884c346.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/e489e0853884c346.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[1816,89,"Resistors"],[1925,103,"IN 4F"],[1782,116,"UNLESS"],[1842,115,"DESIGHATEO"],[1788,128,"Laat"],[1822,130,"LO4PONEN"],[1786,146,"C229 ,"],[1786,161,"R255"],[1825,157,"V204"],[1381,264,"SRzos"],[1512,271,"UNREGULATEC"],[580,293,"PAAT"],[1056,291,"R933"],[1114,294,"R235"],[578,305,"MUTE"],[1111,304,"477"],[879,341,"22/29"],[1155,345,"057"],[1265,352,"Ck207"],[1034,366,"Cz"],[1096,366,"RZX"],[654,381,"R1zi"],[1272,375,"33y"],[1325,487,"3248"],[1362,510,"100/25"],[1151,531,"1cz4"],[1221,544,"2756"],[1152,552,"'950"],[1142,612,"R14"],[324,619,"Rzoi"],[1461,629,"BALANcED"],[814,639,"R2ze"],[1076,661,"R5k8&lt;"],[1146,654,"R24Z"],[1364,659,"3253"],[324,694,"R2o2 &lt;"],[1149,716,"c2i5"],[1116,754,"Roo&lt;"],[1398,792,"Triy"],[1380,802,"ode"],[1356,834,"Zok"],[648,852,"CR 204"],[1339,861,"17n5"],[236,874,"MUTE"],[314,884,"[44148"],[488,882,"V2on;"],[1455,877,"LNBAAANCAC"],[1541,884,"cutput"],[1304,904,"Rzss"],[381,919,"'15 -"],[1351,916,"R154"],[235,950,"HUTE"],[312,947,"CR 202"],[379,951,"Rzo7"],[212,966,"OvErRIde"],[666,1006,"nok"],[1424,1006,"222"],[1456,1006,"CoM"],[624,1029,"R225"],[234,1039,"ParT"],[306,1039,"Cr2os"],[232,1050,"MLTE"],[306,1059,"In4148"],[631,1079,"Icok"],[1458,1080,"THPLT"],[1454,1101,"AMPLIFIER"],[1845,1095,"4707"],[1838,1132,"94o7"],[1770,1145,"DATL"],[1686,1176,"WBS"],[1776,1181,"WARD-DeCk SysTEMS"],[1831,1216,"M7028"],[1754,1231,"INTERCOM OUTPUT AmPliFiER"],[1824,1246,"CHEMATIC"],[1801,1276,"702-02-101"],[328,841,"R1ob"]]}}
+```

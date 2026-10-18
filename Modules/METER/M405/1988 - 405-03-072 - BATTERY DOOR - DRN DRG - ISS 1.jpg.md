@@ -1,0 +1,68 @@
+# 1988 - 405-03-072 - BATTERY DOOR - DRN DRG - ISS 1.jpg
+Wiki page: [M405](../../../PAGES/M405.md)
+
+
+- **Year:** 1988 (title block date)
+- **Module:** M405
+- **Category:** METER
+- **Module year estimate:** 1975 — labelled "DATE 22 Apr.75" in WBS Photos-1-001/Scan_20210323 (82).jpg
+
+## Title block (found by software, read by eye)
+
+- **Drawing:** B 405-03-072
+- **Size:** B
+- **Title:** BATTERY DOOR
+- **Date:** 8/88
+- **Drawn:** DRG 8/88
+- **Issue:** 1
+- **Confidence:** high
+
+- **Original file:** `WBSps.env/WBS Photos-1-001/Scan_20210323 (75).jpg`
+- **SHA-256:** `06c9b13ab99df96012769737c33bd46681105a2d5643e81f615a893c098ca965`
+- **Size:** 706,312 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR)
+
+```text
+4.10
+ALUM ALLOY 0.125 THICK
+0.175
+3.75
+0.375
+3.000
+ALUM ALLOY 0.064  THICK
+0.20
+0.45
+0.962
+3.30
+2.40
+1.375
+2.900
+To BE RIVETED
+{8136 UNC 12 PLACES ALUM PIECE   ONLY)
+0.875
+0.157
+2 PITCHES OF 1.280 2.560
+0.14 DIA
+4 PLACES
+IISSUE DATE
+REVISION
+APP
+NOTES REMOVE ALL BURRS & SHARP EDGES_ 2 MATERIAL: SEE DRAWING FINISH: SAND 120 GRIT & PAINT TEXTURED GREY  TEXCOTE VINYL: 3.0 TOLERANCES: XX-+/-0.015 XXX-+/-0.005
+WBS
+WARD-BECK SYSTEMS
+DRN; DRG 8/88 ENG  CKD: APP . SCALE DISC NO: 163 1:1 CODE: 405m72
+BA TTERY DOOR
+ISSUE
+B
+405-03-072
+```
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/METER/M405/1988 - 405-03-072 - BATTERY DOOR - DRN DRG - ISS 1.jpg","sha256":"06c9b13ab99df96012769737c33bd46681105a2d5643e81f615a893c098ca965","kind":"module","models":["M405"],"year":1988,"pages":1,"order":[{"page":1,"title_block":[{"number":"B 405-03-072","type":"wiring","title":"BATTERY DOOR","date":"8/88","year":1988,"drawn":"DRG","issue":"1"}],"text":["4.10","ALUM ALLOY 0.125 THICK","0.175 3.75","0.375 3.000 ALUM ALLOY 0.064 THICK","0.20","0.45","0.962","3.30 2.40 1.375 2.900","To BE RIVETED","0.875 #2-56 UNC 12 PLACES","(0.125 ALUM PIECE ONLY)","0.157 2 PITCHES OF 0.14 DIA PLACES","1.280 2.560","ISSUE| DATE REVSION APP","NOTES WBS WARD-BECK SYSTEMS","1.. REMOVE ALL BURRS & SHARP EDGES;","MATERIAL: SEE DRAMNG","FINISH: SAND 120 GRIT & PAINT TEXTURED DRN: DRG 8/88","GREY TEXCOTE VINYL","TOLERANCES: XX-+/-0.015 XXX-+/-0.005 ENG-","CKD; BA TTERY DOOR","APP","SCALE DISC NO: 163 ISSUE","1:1 B 405-03-072","CODE: 405m72"]}],"drawing":{"svg":"_traces/06c9b13ab99df960.svg","viewBox":[2000,1414],"rotate":0,"size":"B","number":"B 405-03-072","title":"BATTERY DOOR","dtype":"03","outlines":"see _traces/06c9b13ab99df960.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/06c9b13ab99df960.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[699,299,"4.10"],[1334,354,"ALUM ALLOY"],[1464,354,"0.125 THICK"],[344,371,"0.175"],[701,371,"3.75"],[346,439,"0.375"],[696,441,"3.000"],[1439,441,"ALUM"],[1501,441,"ALLOY 0.064 THICK"],[1119,491,"0.20"],[279,541,"0.45"],[356,574,"0.962"],[189,714,"3.30"],[279,716,"2.40"],[356,716,"1.375"],[1071,716,"2.900"],[1469,794,"To BE RIVETED"],[541,999,"0.875"],[1070,995,"#2-56 UNC"],[1216,989,"12 PLACES"],[1074,1011,"(0.125 ALUM PIECE ONLY)"],[409,1056,"0.157"],[606,1049,"2 PITCHES"],[714,1047,"OF"],[989,1051,"0.14"],[1039,1051,"DIA"],[1124,1051,"PLACES"],[599,1071,"1.280"],[686,1071,"2.560"],[1341,1104,"ISSUE| DATE"],[1611,1104,"REVSION"],[1864,1104,"APP"],[211,1146,"NOTES"],[214,1169,"1.. REMOVE ALL BURRS"],[439,1169,"&amp; SHARP EDGES;"],[1242,1170,"WBS"],[1462,1168,"WARD-BECK"],[1710,1168,"SYSTEMS"],[241,1189,"MATERIAL:"],[346,1189,"SEE"],[394,1189,"DRAMNG"],[241,1209,"FINISH:"],[319,1209,"SAND 120 GRIT"],[474,1212,"&amp; PAINT TEXTURED"],[1194,1216,"DRN:"],[1246,1216,"DRG"],[1296,1216,"8/88"],[319,1231,"GREY TEXCOTE VINYL"],[241,1252,"TOLERANCES:"],[389,1254,"XX-+/-0.015"],[564,1254,"XXX-+/-0.005"],[1194,1246,"ENG-"],[1194,1276,"CKD;"],[1515,1278,"BA TTERY"],[1678,1278,"DOOR"],[1194,1307,"APP"],[1206,1337,"SCALE"],[1284,1339,"DISC NO:"],[1386,1339,"163"],[1839,1337,"ISSUE"],[1215,1365,"1:1"],[1284,1366,"CODE:"],[1356,1366,"405m72"],[1550,1365,"405-03-072"]]}}
+```

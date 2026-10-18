@@ -1,0 +1,1 @@
+window.WBS_FOLDER={"d":"Products/METERING/AMX6","f":[["2015 - AMX6 - Front.jpg","6eb072e191d26275059a"],["2015 - AMX6 - Manual (2).docx","24dfb196c0b3d715b7a1"],["2015 - AMX6 - Manual.docx","0e8df0d3ce7f0d6351d9"],["2015 - AMX6 - Rear.jpg","0a5b88ca6331a0b0d57e"]]};

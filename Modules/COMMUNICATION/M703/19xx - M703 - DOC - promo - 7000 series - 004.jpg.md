@@ -1,0 +1,933 @@
+# 19xx - M703 - DOC - promo - 7000 series - 004.jpg
+Wiki page: [Documents](../../../PAGES/Documents.md)
+
+
+- **Year:** unknown (unknown)
+- **Type:** document scan
+- **About:** M702, M703, M712
+
+## Text recovered by OCR
+
+> M703 M712 TECHNICAL DATA: PREAMPLIFIER SECTION (M7O1) GAIN: 80dB (Max.) + 2dB FREQUENCY RESPONSE: + IdB 100 Hz to 1OkHz NOISE: Equivalent to 122dBm relative input noise TOTAL HAR- MONIC DISTOR- Less than 1% measured at +18dBm TION: output INPUT: 60dBm, 150 ohms balanced (conditional strapping determines dynamic or carbon source) OUTPUT: 8dBm, 600 ohms balanced (+18dBm Max:) COMPRESSION: 25dB range (may be switched out) POWER +24 to 36 volts dc unregulated. REQUI REMENTS: 35mA approx M712 1 x 12 Crosspoint mother board GAIN: Unity (+6dB pre-set control incor- porated FREQUENCY RESPONSE: + 0.5dB 50Hz to 10kHz NOISE: S/N better than 7OdB measured from +8dBm TOTAL HAR- MONIC DISTOR- Less than 0.5% measured at TION: +18dBm INPUT: +8dBm nominal (+18dBm Max:) balanced from direct line or from M703 preamplifier INPUT IMPEDANCE: 30k ohm balanced bridging OUTPUT: OdBm to +8dBm nominal (+18dBm Max: ) CROSSPOINT ISOLATION/CUT OFF: 1OOdB TURN ON/OFF TRANSIENT: Inaudible POWER REQUI REMENTS: 24 volts dc regulated 15mA POWER AMPLIFIER SECTION (M702) GAIN: 35dB (Max:) + 2dB FREQUENCY RESPONSE: + IdB 100 Hz to 8kHz NOISE: S/N better than 75dB measured from 3W output TOTAL HAR- MONIC DISTOR- Less than 15% measured at 3W TION: INPUT: OdBm to 18dBm, 600 ohms balanced from crosspoint matrix OUTPUT: 3 Watts directly into 8 ohms (not balanced) COMPRESSION: POWER +24 to 36 volts dc unregulated, 25mA REQUI REMENTS: (quiescent), 30OmA (at Max_ output)
+- **Original file:** `WBSps.env/wbsps - website ARCHIVE/WBSPS 2008/WBSPS - To Be edited/Intercom System/promo - 7000 series - 004.jpg`
+- **SHA-256:** `19a699f954bc9607b51f251e60618ec789c7aeee847260989c84f43dc91dcd40`
+- **Size:** 1,203,317 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 1 words corrected)
+
+```text
+M703
+M712
+TECHNICAL DATA:
+PREAMPLIFIER SECTION (M7O1) GAIN: 80dB (Max.) + 2dB FREQUENCY RESPONSE: + IdB 100 Hz to 1OkHz NOISE: Equivalent to 122dBm relative input noise TOTAL HAR- MONIC DISTOR- Less than 1% measured at +18dBm TION: output INPUT: 60dBm, 150 ohms balanced (conditional strapping determines dynamic or carbon source) OUTPUT: 8dBm, 600 ohms balanced (+18dBm Max:) COMPRESSION: 25dB range (may be switched out) POWER +24 to 36 volts dc unregulated. REQUI REMENTS: 35mA approx
+M712
+1 x 12 Crosspoint mother board GAIN: Unity (+6dB pre-set control incor- ported FREQUENCY RESPONSE: + 0.5dB 50Hz to 10kHz NOISE: S/N better than 7OdB measured from +8dBm TOTAL HAR- MONIC DISTOR- Less than 0.5% measured at TION: +18dBm INPUT: +8dBm nominal (+18dBm Max:) balanced from direct line or from M703 preamplifier INPUT IMPEDANCE: 30k ohm balanced bridging OUTPUT: OdBm to +8dBm nominal (+18dBm Max: ) CROSSPOINT ISOLATION/CUT OFF: 1OOdB TURN ON/OFF TRANSIENT: Inaudible POWER REQUI REMENTS: 24 volts dc regulated 15mA
+POWER AMPLIFIER SECTION (M702) GAIN: 35dB (Max:) + 2dB FREQUENCY RESPONSE: + IdB 100 Hz to 8kHz NOISE: S/N better than 75dB measured from 3W output TOTAL HAR- MONIC DISTOR- Less than 15% measured at 3W TION: INPUT: OdBm to 18dBm, 600 ohms balanced from crosspoint matrix OUTPUT: 3 Watts directly into 8 ohms (not balanced) COMPRESSION: POWER +24 to 36 volts dc unregulated, 25mA REQUI REMENTS:   (quiescent), 30OmA (at Max_ output)
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+M703
+M712
+TECHNICAL DATA:
+PREAMPLIFIER SECTION (M7O1) GAIN: 80dB (Max.) + 2dB FREQUENCY RESPONSE: + IdB 100 Hz to 1OkHz NOISE: Equivalent to 122dBm relative input noise TOTAL HAR- MONIC DISTOR- Less than 1% measured at +18dBm TION: output INPUT: 60dBm, 150 ohms balanced (conditional strapping determines dynamic or carbon source) OUTPUT: 8dBm, 600 ohms balanced (+18dBm Max:) COMPRESSION: 25dB range (may be switched out) POWER +24 to 36 volts dc unregulated. REQUI REMENTS: 35mA approx
+M712
+1 x 12 Crosspoint mother board GAIN: Unity (+6dB pre-set control incor- porated FREQUENCY RESPONSE: + 0.5dB 50Hz to 10kHz NOISE: S/N better than 7OdB measured from +8dBm TOTAL HAR- MONIC DISTOR- Less than 0.5% measured at TION: +18dBm INPUT: +8dBm nominal (+18dBm Max:) balanced from direct line or from M703 preamplifier INPUT IMPEDANCE: 30k ohm balanced bridging OUTPUT: OdBm to +8dBm nominal (+18dBm Max: ) CROSSPOINT ISOLATION/CUT OFF: 1OOdB TURN ON/OFF TRANSIENT: Inaudible POWER REQUI REMENTS: 24 volts dc regulated 15mA
+POWER AMPLIFIER SECTION (M702) GAIN: 35dB (Max:) + 2dB FREQUENCY RESPONSE: + IdB 100 Hz to 8kHz NOISE: S/N better than 75dB measured from 3W output TOTAL HAR- MONIC DISTOR- Less than 15% measured at 3W TION: INPUT: OdBm to 18dBm, 600 ohms balanced from crosspoint matrix OUTPUT: 3 Watts directly into 8 ohms (not balanced) COMPRESSION: POWER +24 to 36 volts dc unregulated, 25mA REQUI REMENTS:   (quiescent), 30OmA (at Max_ output)
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Modules/COMMUNICATION/M703/19xx - M703 - DOC - promo - 7000 series - 004.jpg",
+ "sha256": "19a699f954bc9607b51f251e60618ec789c7aeee847260989c84f43dc91dcd40",
+ "kind": "doc",
+ "models": [
+  "M702",
+  "M703",
+  "M712"
+ ],
+ "pages": 1,
+ "order": [
+  {
+   "page": 1,
+   "sections": [
+    {
+     "heading": "TECHNICAL DATA",
+     "kind": "specs"
+    },
+    {
+     "heading": "TECHNICAL DATA",
+     "kind": "specs"
+    },
+    {
+     "heading": "TECHNICAL DATA",
+     "kind": "specs"
+    },
+    {
+     "heading": "TECHNICAL DATA",
+     "kind": "specs"
+    }
+   ],
+   "modules": [
+    "M701"
+   ],
+   "module_boxes": [
+    {
+     "code": "M703",
+     "box": [
+      0.2451,
+      0.2159,
+      0.3092,
+      0.2359
+     ]
+    },
+    {
+     "code": "M712",
+     "box": [
+      0.6997,
+      0.2177,
+      0.765,
+      0.2377
+     ]
+    },
+    {
+     "code": "TECHNICAL DATA:",
+     "box": [
+      0.3929,
+      0.2591,
+      0.6184,
+      0.2809
+     ]
+    },
+    {
+     "code": "PREAMPLIFIER SECTION (M7O1)",
+     "box": [
+      0.1412,
+      0.2945,
+      0.4208,
+      0.3095
+     ]
+    },
+    {
+     "code": "M712",
+     "box": [
+      0.7134,
+      0.2964,
+      0.7608,
+      0.3109
+     ]
+    },
+    {
+     "code": "GAIN:",
+     "box": [
+      0.0819,
+      0.3118,
+      0.127,
+      0.3236
+     ]
+    },
+    {
+     "code": "80dB (Max.) + 2dB",
+     "box": [
+      0.2178,
+      0.3114,
+      0.3496,
+      0.3277
+     ]
+    },
+    {
+     "code": "1 x 12 Crosspoint mother board",
+     "box": [
+      0.6166,
+      0.3114,
+      0.8635,
+      0.3277
+     ]
+    },
+    {
+     "code": "FREQUENCY",
+     "box": [
+      0.0819,
+      0.3273,
+      0.1792,
+      0.34
+     ]
+    },
+    {
+     "code": "GAIN:",
+     "box": [
+      0.546,
+      0.3282,
+      0.5923,
+      0.3409
+     ]
+    },
+    {
+     "code": "Unity (+6dB pre-set control incor-",
+     "box": [
+      0.6825,
+      0.3286,
+      0.9086,
+      0.3436
+     ]
+    },
+    {
+     "code": "RESPONSE:",
+     "box": [
+      0.0819,
+      0.3391,
+      0.1674,
+      0.3518
+     ]
+    },
+    {
+     "code": "+ IdB 100 Hz to 1OkHz",
+     "box": [
+      0.2196,
+      0.3395,
+      0.3786,
+      0.3527
+     ]
+    },
+    {
+     "code": "porated",
+     "box": [
+      0.6819,
+      0.3418,
+      0.7359,
+      0.3545
+     ]
+    },
+    {
+     "code": "NOISE:",
+     "box": [
+      0.0819,
+      0.3545,
+      0.1341,
+      0.3664
+     ]
+    },
+    {
+     "code": "Equivalent to",
+     "box": [
+      0.2196,
+      0.3545,
+      0.3098,
+      0.3691
+     ]
+    },
+    {
+     "code": "122dBm relative",
+     "box": [
+      0.3157,
+      0.3545,
+      0.4261,
+      0.3682
+     ]
+    },
+    {
+     "code": "FREQUENCY",
+     "box": [
+      0.5472,
+      0.3555,
+      0.6433,
+      0.3691
+     ]
+    },
+    {
+     "code": "input noise",
+     "box": [
+      0.2166,
+      0.3677,
+      0.2944,
+      0.3814
+     ]
+    },
+    {
+     "code": "RESPONSE:",
+     "box": [
+      0.5472,
+      0.3682,
+      0.6326,
+      0.3809
+     ]
+    },
+    {
+     "code": "+ 0.5dB 50Hz to 10kHz",
+     "box": [
+      0.6837,
+      0.3691,
+      0.8415,
+      0.3818
+     ]
+    },
+    {
+     "code": "TOTAL HAR-",
+     "box": [
+      0.0807,
+      0.3818,
+      0.1769,
+      0.3936
+     ]
+    },
+    {
+     "code": "NOISE:",
+     "box": [
+      0.546,
+      0.3827,
+      0.6006,
+      0.3955
+     ]
+    },
+    {
+     "code": "S/N better than 7OdB measured from",
+     "box": [
+      0.6837,
+      0.3827,
+      0.9282,
+      0.3968
+     ]
+    },
+    {
+     "code": "MONIC DISTOR-",
+     "box": [
+      0.0819,
+      0.3936,
+      0.1994,
+      0.4064
+     ]
+    },
+    {
+     "code": "Less than",
+     "box": [
+      0.2196,
+      0.3945,
+      0.2825,
+      0.4064
+     ]
+    },
+    {
+     "code": "1% measured at +18dBm",
+     "box": [
+      0.2861,
+      0.3932,
+      0.4504,
+      0.4082
+     ]
+    },
+    {
+     "code": "+8dBm",
+     "box": [
+      0.6813,
+      0.3941,
+      0.7329,
+      0.4086
+     ]
+    },
+    {
+     "code": "TION:",
+     "box": [
+      0.0807,
+      0.4064,
+      0.1258,
+      0.4182
+     ]
+    },
+    {
+     "code": "output",
+     "box": [
+      0.2184,
+      0.4082,
+      0.2671,
+      0.42
+     ]
+    },
+    {
+     "code": "TOTAL HAR-",
+     "box": [
+      0.546,
+      0.41,
+      0.6409,
+      0.4218
+     ]
+    },
+    {
+     "code": "INPUT:",
+     "box": [
+      0.0807,
+      0.4209,
+      0.1341,
+      0.4327
+     ]
+    },
+    {
+     "code": "60dBm, 150 ohms balanced",
+     "box": [
+      0.2226,
+      0.4209,
+      0.4077,
+      0.4345
+     ]
+    },
+    {
+     "code": "MONIC DISTOR-",
+     "box": [
+      0.546,
+      0.4227,
+      0.6635,
+      0.4355
+     ]
+    },
+    {
+     "code": "Less than 0.5% measured at",
+     "box": [
+      0.6837,
+      0.4227,
+      0.8653,
+      0.4355
+     ]
+    },
+    {
+     "code": "(conditional strapping determines",
+     "box": [
+      0.2184,
+      0.4345,
+      0.4427,
+      0.4482
+     ]
+    },
+    {
+     "code": "TION:",
+     "box": [
+      0.546,
+      0.4345,
+      0.5899,
+      0.4473
+     ]
+    },
+    {
+     "code": "+18dBm",
+     "box": [
+      0.6813,
+      0.4355,
+      0.7407,
+      0.4482
+     ]
+    },
+    {
+     "code": "dynamic or carbon source)",
+     "box": [
+      0.2178,
+      0.4473,
+      0.3964,
+      0.46
+     ]
+    },
+    {
+     "code": "INPUT:",
+     "box": [
+      0.5448,
+      0.45,
+      0.5982,
+      0.4618
+     ]
+    },
+    {
+     "code": "+8dBm nominal (+18dBm Max:)",
+     "box": [
+      0.6813,
+      0.4486,
+      0.895,
+      0.4636
+     ]
+    },
+    {
+     "code": "OUTPUT:",
+     "box": [
+      0.0801,
+      0.4609,
+      0.1501,
+      0.4736
+     ]
+    },
+    {
+     "code": "8dBm, 600 ohms balanced",
+     "box": [
+      0.2267,
+      0.4609,
+      0.4036,
+      0.4745
+     ]
+    },
+    {
+     "code": "balanced from direct line or from",
+     "box": [
+      0.6825,
+      0.4618,
+      0.9021,
+      0.4759
+     ]
+    },
+    {
+     "code": "(+18dBm Max:)",
+     "box": [
+      0.2172,
+      0.4736,
+      0.324,
+      0.4864
+     ]
+    },
+    {
+     "code": "M703 preamplifier",
+     "box": [
+      0.6825,
+      0.4745,
+      0.8059,
+      0.4895
+     ]
+    },
+    {
+     "code": "COMPRESSION:",
+     "box": [
+      0.0807,
+      0.4882,
+      0.197,
+      0.5018
+     ]
+    },
+    {
+     "code": "25dB range (may be switched out)",
+     "box": [
+      0.2172,
+      0.4873,
+      0.4469,
+      0.5036
+     ]
+    },
+    {
+     "code": "INPUT",
+     "box": [
+      0.5448,
+      0.49,
+      0.5935,
+      0.5009
+     ]
+    },
+    {
+     "code": "POWER",
+     "box": [
+      0.0807,
+      0.5027,
+      0.1365,
+      0.5164
+     ]
+    },
+    {
+     "code": "+24 to 36 volts dc unregulated.",
+     "box": [
+      0.2184,
+      0.5036,
+      0.4237,
+      0.5177
+     ]
+    },
+    {
+     "code": "IMPEDANCE:",
+     "box": [
+      0.5448,
+      0.5018,
+      0.6421,
+      0.5145
+     ]
+    },
+    {
+     "code": "30k ohm balanced bridging",
+     "box": [
+      0.6825,
+      0.5027,
+      0.8629,
+      0.5173
+     ]
+    },
+    {
+     "code": "REQUI REMENTS:",
+     "box": [
+      0.0819,
+      0.5155,
+      0.2113,
+      0.5282
+     ]
+    },
+    {
+     "code": "35mA approx",
+     "box": [
+      0.2184,
+      0.5164,
+      0.3134,
+      0.53
+     ]
+    },
+    {
+     "code": "OUTPUT:",
+     "box": [
+      0.5448,
+      0.5173,
+      0.6136,
+      0.5291
+     ]
+    },
+    {
+     "code": "OdBm to +8dBm nominal (+18dBm",
+     "box": [
+      0.6819,
+      0.5164,
+      0.9151,
+      0.5309
+     ]
+    },
+    {
+     "code": "Max: )",
+     "box": [
+      0.6825,
+      0.53,
+      0.7217,
+      0.5418
+     ]
+    },
+    {
+     "code": "CROSSPOINT",
+     "box": [
+      0.5448,
+      0.5445,
+      0.6433,
+      0.5573
+     ]
+    },
+    {
+     "code": "ISOLATION/CUT",
+     "box": [
+      0.5436,
+      0.5564,
+      0.6682,
+      0.57
+     ]
+    },
+    {
+     "code": "OFF:",
+     "box": [
+      0.5448,
+      0.5691,
+      0.5828,
+      0.5809
+     ]
+    },
+    {
+     "code": "1OOdB",
+     "box": [
+      0.6825,
+      0.57,
+      0.7264,
+      0.5818
+     ]
+    },
+    {
+     "code": "TURN ON/OFF",
+     "box": [
+      0.5448,
+      0.5845,
+      0.6528,
+      0.5964
+     ]
+    },
+    {
+     "code": "TRANSIENT:",
+     "box": [
+      0.5448,
+      0.5964,
+      0.6398,
+      0.6091
+     ]
+    },
+    {
+     "code": "Inaudible",
+     "box": [
+      0.6801,
+      0.5973,
+      0.7454,
+      0.6091
+     ]
+    },
+    {
+     "code": "POWER AMPLIFIER SECTION (M702)",
+     "box": [
+      0.1187,
+      0.6014,
+      0.4309,
+      0.6164
+     ]
+    },
+    {
+     "code": "POWER",
+     "box": [
+      0.5448,
+      0.6118,
+      0.6006,
+      0.6245
+     ]
+    },
+    {
+     "code": "GAIN:",
+     "box": [
+      0.0795,
+      0.6173,
+      0.1258,
+      0.63
+     ]
+    },
+    {
+     "code": "35dB (Max:) + 2dB",
+     "box": [
+      0.2172,
+      0.6182,
+      0.3466,
+      0.6318
+     ]
+    },
+    {
+     "code": "REQUI REMENTS:",
+     "box": [
+      0.5448,
+      0.6236,
+      0.673,
+      0.6373
+     ]
+    },
+    {
+     "code": "24 volts dc regulated 15mA",
+     "box": [
+      0.6813,
+      0.6241,
+      0.8617,
+      0.6386
+     ]
+    },
+    {
+     "code": "FREQUENCY",
+     "box": [
+      0.0795,
+      0.6327,
+      0.1769,
+      0.6455
+     ]
+    },
+    {
+     "code": "RESPONSE:",
+     "box": [
+      0.0807,
+      0.6445,
+      0.1662,
+      0.6582
+     ]
+    },
+    {
+     "code": "+ IdB 100 Hz to 8kHz",
+     "box": [
+      0.2172,
+      0.6455,
+      0.3691,
+      0.6582
+     ]
+    },
+    {
+     "code": "NOISE:",
+     "box": [
+      0.0795,
+      0.66,
+      0.1329,
+      0.6718
+     ]
+    },
+    {
+     "code": "S/N better than 75dB measured from",
+     "box": [
+      0.216,
+      0.66,
+      0.4629,
+      0.6727
+     ]
+    },
+    {
+     "code": "3W output",
+     "box": [
+      0.2172,
+      0.6727,
+      0.2896,
+      0.6864
+     ]
+    },
+    {
+     "code": "TOTAL HAR-",
+     "box": [
+      0.0789,
+      0.6868,
+      0.1757,
+      0.6991
+     ]
+    },
+    {
+     "code": "MONIC DISTOR-",
+     "box": [
+      0.0789,
+      0.7,
+      0.1982,
+      0.7127
+     ]
+    },
+    {
+     "code": "Less than 15% measured at 3W",
+     "box": [
+      0.2172,
+      0.7009,
+      0.4226,
+      0.7136
+     ]
+    },
+    {
+     "code": "TION:",
+     "box": [
+      0.0795,
+      0.7127,
+      0.1246,
+      0.7245
+     ]
+    },
+    {
+     "code": "INPUT:",
+     "box": [
+      0.0783,
+      0.7273,
+      0.1318,
+      0.7391
+     ]
+    },
+    {
+     "code": "OdBm to",
+     "box": [
+      0.216,
+      0.7282,
+      0.2766,
+      0.74
+     ]
+    },
+    {
+     "code": "18dBm, 600 ohms balanced",
+     "box": [
+      0.2866,
+      0.7273,
+      0.4712,
+      0.7409
+     ]
+    },
+    {
+     "code": "crosspoint matrix",
+     "box": [
+      0.2522,
+      0.74,
+      0.3703,
+      0.7545
+     ]
+    },
+    {
+     "code": "OUTPUT:",
+     "box": [
+      0.0795,
+      0.7545,
+      0.1496,
+      0.7682
+     ]
+    },
+    {
+     "code": "3 Watts directly into 8 ohms (not",
+     "box": [
+      0.2184,
+      0.755,
+      0.4392,
+      0.7691
+     ]
+    },
+    {
+     "code": "balanced)",
+     "box": [
+      0.2154,
+      0.7682,
+      0.2807,
+      0.78
+     ]
+    },
+    {
+     "code": "COMPRESSION:",
+     "box": [
+      0.0795,
+      0.7818,
+      0.1935,
+      0.7945
+     ]
+    },
+    {
+     "code": "POWER",
+     "box": [
+      0.0783,
+      0.7973,
+      0.1353,
+      0.8109
+     ]
+    },
+    {
+     "code": "+24 to 36 volts dc unregulated, 25mA",
+     "box": [
+      0.216,
+      0.7973,
+      0.4688,
+      0.8123
+     ]
+    },
+    {
+     "code": "REQUI REMENTS:   (quiescent), 30OmA (at Max_",
+     "box": [
+      0.0795,
+      0.8095,
+      0.4047,
+      0.8245
+     ]
+    },
+    {
+     "code": "output)",
+     "box": [
+      0.4095,
+      0.8118,
+      0.4629,
+      0.8236
+     ]
+    },
+    {
+     "code": "from",
+     "box": [
+      0.2142,
+      0.7395,
+      0.2528,
+      0.7545
+     ]
+    }
+   ]
+  }
+ ]
+}
+```

@@ -1,0 +1,69 @@
+{
+ "code": "M490K",
+ "series": null,
+ "type": "M490K",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "I1",
+   "signal": "Line Inputs",
+   "dir": "in",
+   "pos": "I1P",
+   "neg": "I1N",
+   "src_page": 25
+  },
+  {
+   "port": "O1",
+   "signal": "Added Direcr Outputs'",
+   "dir": "out",
+   "pos": "O1P",
+   "neg": "O1N",
+   "src_page": 26
+  }
+ ],
+ "power": [
+  {
+   "rail": "+12V",
+   "volts": 12.0,
+   "supply": "+12V",
+   "ground": "GND",
+   "max_a": null
+  }
+ ],
+ "logic": [
+  {
+   "signal": "Off Tally 18 Off Tally",
+   "pin": ""
+  },
+  {
+   "signal": "Ctl Com",
+   "pin": ""
+  },
+  {
+   "signal": "Clock B 0",
+   "pin": ""
+  },
+  {
+   "signal": "I Cue)E--",
+   "pin": ""
+  },
+  {
+   "signal": "On Tally",
+   "pin": ""
+  },
+  {
+   "signal": "Ctl Fi I0",
+   "pin": ""
+  }
+ ],
+ "ground": [],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "0550d6b4130e108e292dfcddcc0c24baa55378b7d36962b8f326e00fd61b4a2f",
+  "0964088ad78ad82576453b5e22faa79c66a665c7dc1f3dada96be8bc7682e637"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one. (this device has one)"
+}

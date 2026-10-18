@@ -1,0 +1,1 @@
+window.WBS_FOLDER={"d":"Products/METERING/XTM4","f":[["2014 - XTM4 - Front Three Quarter.jpg","e60ea659a93ad8929fb5"],["2014 - XTM4 - Information Sheet.jpg","35ea3594a4e43cd789b2"],["2014 - XTM4 - MANUAL (2).docx","09d37f317b91677361c3"],["2014 - XTM4 - MANUAL.docx","85771ea60a92e5abcbcf"]]};

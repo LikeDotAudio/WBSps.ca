@@ -1,0 +1,85 @@
+# 19xx - 922-03-001 - M922A STEREO EQUALIZER MODULE - DRN DRG - ISS 3.jpg
+Wiki page: [M922](../../../PAGES/M922.md)
+
+
+- **Year:** unknown (title block (read by eye))
+- **Module:** M922
+- **Category:** FILTERS
+- **Module year estimate:** 1994 — month "MAY 24,1994" in WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - CONSOLES/REN TV Console/M922/OLD/14-290.PCB
+
+## Title block (found by software, read by eye)
+
+- **Drawing:** D 922-03-001
+- **Size:** D
+- **Title:** M922/M922A / STEREO EQUALIZER MODULE
+- **Drawn:** DRG
+- **Issue:** 3
+- **Confidence:** high
+
+- **Original file:** `WBSps.env/WBS Photos-1-001/WBSps.ca 20210319 -  (29).jpg`
+- **SHA-256:** `3f7ca7c8a86e22d00149ed8662c25686cb5a901aa96e1dd5f676d8f274069048`
+- **Size:** 938,846 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR)
+
+```text
+0.20 APPROX
+8 3
+3
+f8-825UNG1AC"SK REQ'0
+0100 DIA_CSk 0.180,Dia REQ'D
+DATUM 0.200
+ShOWS ORIENTATION
+V922
+WB8
+4922
+WBS
+V92Z4
+WB8
+40z? 4
+PUNCH (0.04 RAD CORNERS) SK REAR PANEL OREoo 90 DEG 14600
+0.800
+0.070
+0.590
+REQ'D
+0.035
+(0.05
+0.07)
+2.375
+SEE  DETAIL NOTE   ORIENTATIONS REQ'D FAR SIDE
+025
+SECTION
+3.675
+325
+DETAIL (SCALE 41)
+975
+257 DIA
+REO 'D
+5.625
+400
+7.200
+7.800 B.000
+R
+R
+R
+MATERIAL: ALUM ALLOY 0.125 THICK
+FINISH: SAND 120 GRIT AND PAINT TEXTURED BEICE (452C) TEXCOTE VINYL_ (EXTRA FINE TEXTURE) NOTE. REMOVE ALL BURRS AND SHARP EDGES TOLERANCES= 0.015 Ee 0.005 SILKSCREEN TO 4922-08 (FOR M922) 0922-08 OO1A (FOR M922/)
+SSUE DAMF
+REWSION
+WBS
+WARD-BECK SYSTEMS
+DRN: DRG ENG CKD APP_ SCALE DISC CODE:
+M922/M922A
+STEREO 'EQUALIZER MODULE Uaeaoo  922-03-001 922001
+ISSUE
+o4ek1
+```
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/FILTERS/M922/19xx - 922-03-001 - M922A STEREO EQUALIZER MODULE - DRN DRG - ISS 3.jpg","sha256":"3f7ca7c8a86e22d00149ed8662c25686cb5a901aa96e1dd5f676d8f274069048","kind":"module","models":["M922"],"pages":1,"order":[{"page":1,"title_block":[{"number":"D 922-03-001","type":"wiring","title":"M922/M922A / STEREO EQUALIZER MODULE","drawn":"DRG","issue":"3"}],"text":["3 REC @","938 Cs","0200 SHCNSAtiON","RAD CQ","0,070","0.DS","(0.03","FAR SIDE","1675","DETAIL","(SCHE #1)","0.257","6.470","R MATERIAL: ALUM ALLOY 0.125 THICK","BcOC","FINISH: SAND 120 GRIT AND PAINT","TEXTURED BEIGE (452C)","EXCOTE","(EXTRA FINE TEXTURE)","TCLERANCOS 0,005","M9224)","REMSIC","WBS WARD BECK SYSTEMS","M922/M922A","STEREO EQUALIZER","MODULE","SCALC Icisc ND 922-03-001","LCOE;"]}],"drawing":{"svg":"_traces/3f7ca7c8a86e22d0.svg","viewBox":[2000,1317],"rotate":0,"size":"D","number":"D 922-03-001","title":"M922/M922A / STEREO EQUALIZER MODULE","dtype":"03","outlines":"see _traces/3f7ca7c8a86e22d0.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/3f7ca7c8a86e22d0.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[554,341,"REC @"],[184,359,"938"],[234,351,"Cs"],[498,410,"0200"],[1431,414,"SHCNSAtiON"],[201,449,"RAD CQ"],[1735,475,"0,070"],[1735,510,"0.DS"],[1479,524,"(0.03"],[251,581,"FAR SIDE"],[258,617,"1675"],[1641,689,"DETAIL"],[1636,701,"(SCHE #1)"],[155,735,"0.257"],[255,782,"6.470"],[1642,875,"MATERIAL:"],[1724,873,"ALUM ALLOY 0.125"],[1864,873,"THICK"],[490,882,"BcOC"],[1644,903,"FINISH:"],[1699,903,"SAND 120 GRIT AND PAINT"],[1699,918,"TEXTURED BEIGE"],[1821,921,"(452C)"],[1699,933,"EXCOTE"],[1701,948,"(EXTRA FINE TEXTURE)"],[1658,982,"TCLERANCOS"],[1855,985,"0,005"],[1838,1005,"M9224)"],[1850,1132,"REMSIC"],[1666,1166,"WBS"],[1776,1166,"WARD"],[1839,1166,"BECK SYSTEMS"],[1804,1201,"M922/M922A"],[1779,1216,"STEREO EQUALIZER"],[1824,1233,"MODULE"],[1650,1247,"SCALC"],[1685,1250,"Icisc ND"],[1688,1262,"LCOE;"],[1826,1263,"922-03-001"]]}}
+```

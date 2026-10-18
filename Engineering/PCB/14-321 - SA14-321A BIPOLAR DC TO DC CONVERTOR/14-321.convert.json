@@ -1,0 +1,34 @@
+{
+  "source": "/home/anthony/Documents/GitProjects/WBSps.ca/WBSps.env/WBSps Engineering from H drive/WBSps - SA14-XXX/SA14-321/TANGO/14-321.PCB",
+  "kicad_pcb": "/home/anthony/Documents/GitProjects/WBSps.ca/2026/Engineering/PCB/14-321 - SA14-321A BIPOLAR DC TO DC CONVERTOR/14-321.kicad_pcb",
+  "format": "Tango-PCB PLUS V2.02 Series II",
+  "edge_layer": 14,
+  "tango_layers_used": {
+    "0": 141,
+    "1": 1368,
+    "4": 2,
+    "8": 143,
+    "10": 2,
+    "11": 35,
+    "12": 60,
+    "14": 4,
+    "16": 87,
+    "18": 28
+  },
+  "counts": {
+    "components": 41,
+    "pads": 88,
+    "tracks": 1426,
+    "vias": 7,
+    "graphics": 309,
+    "texts": 80,
+    "pours": 55
+  },
+  "nets": {
+    "netlist": "/home/anthony/Documents/GitProjects/WBSps.ca/WBSps.env/WBSps Engineering from H drive/WBSps - SA14-XXX/SA14-321/ORCADWIN/SA14321A.NET",
+    "nets": 12,
+    "pins_matched": 60,
+    "pins_in_netlist": 60,
+    "applied": true
+  }
+}

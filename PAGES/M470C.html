@@ -1,0 +1,666 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M470C — Input Module</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>M470C — Input Module</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="Category-INPUT-PRE-AMPS.html">INPUT-PRE-AMPS</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../simulator.html?m=M470C">simulator &amp; front panel</a> · <a href="../_packages/M470C.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="Year-1977.html">1977|10</a> — estimate from a dated variant</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>from M470</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>family</td>
+</tr>
+<tr>
+<td>Variants</td>
+<td><a href="M470.html">M470</a>, <a href="M470A.html">M470A</a>, <a href="M470D.html">M470D</a>, <a href="M470E.html">M470E</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../Modules/INPUT-PRE-AMPS/M470C/index.html">Modules/INPUT-PRE-AMPS/M470C</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections and circuit (ideal SPICE model)</h2>
+<p><em>Drawn live from its RTO-144 connections: run the generator, turn the gain, watch the VU. Open the netlist to see how the model is built.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M470C" data-n="Input Module" data-cat="INPUT-PRE-AMPS"></div><svg class="wbs-panel" data-m="M470C" data-n="Input Module" data-cat="INPUT-PRE-AMPS" role="img" aria-label="M470C front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M470C","title":"Input Module","rto":{"code":"M470C","series":"L-PRE","type":"PREAMP","row_count":88,"impedance":{"line_in":600,"out":600},"note":null,"audio":[{"port":"A1","signal":"LINE-IN","dir":"in","pos":"P2-1","neg":"P2-A","pad_pos":"P2-1.A.1.P","pad_neg":"P2-A.A.1.N"},{"port":"A2","signal":"MIC-IN-1","dir":"in","pos":"P1-19","neg":"P1-W","pad_pos":"P1-19.A.2.P","pad_neg":"P1-W.A.2.N"},{"port":"A3","signal":"M2-OUT","dir":"out","pos":"P1-1","neg":"P1-A","pad_pos":"P1-1.A.3.P","pad_neg":"P1-A.A.3.N"},{"port":"A4","signal":"DIRECT OUT","dir":"out","pos":"P2-3","neg":"P2-C","pad_pos":"P2-3.A.4.P","pad_neg":"P2-C.A.4.N"},{"port":"B1","signal":"INSERT-OUT","dir":"out","pos":"P2-8","neg":"P2-J","pad_pos":"P2-8.B.1.P","pad_neg":"P2-J.B.1.N"},{"port":"B2","signal":"INSERT-RETURN","dir":"in","pos":"P2-6","neg":"P2-F","pad_pos":"P2-6.B.2.P","pad_neg":"P2-F.B.2.N"},{"port":"B3","signal":"CH-ON-SWITCH OUT","dir":"out","pos":"P2-7","neg":"P2-H","pad_pos":"P2-7.B.3.P","pad_neg":"P2-H.B.3.N"},{"port":"B4","signal":"FADER-RETURN","dir":"in","pos":"P2-5","neg":"P2-E","pad_pos":"P2-5.B.4.P","pad_neg":"P2-E.B.4.N"}],"bus_out":[{"bus":"LEFT","signal":"BUS-LEFT-OUT","pos":"P1-5","neg":"P1-E"},{"bus":"RIGHT","signal":"BUS-RIGHT-OUT","pos":"P1-1","neg":"P1-A"},{"bus":"SUB1-RS1","signal":"BUS-SUB1","pos":"P1-8","neg":"P1-J"},{"bus":"SUB2-RS2","signal":"BUS-SUB2","pos":"P1-4","neg":"P1-D"},{"bus":"SUB3-RS3","signal":"BUS-SUB3","pos":"P1-7","neg":"P1-H"},{"bus":"SUB4-RS4","signal":"BUS-SUB4","pos":"P1-3","neg":"P1-C"},{"bus":"SUB5","signal":"BUS-SUB5","pos":"P1-6","neg":"P1-F"},{"bus":"SUB6","signal":"BUS-SUB6","pos":"P1-2","neg":"P1-B"},{"bus":"AUX1-FB1","signal":"BUS-AUX1","pos":"P1-12","neg":"P1-N"},{"bus":"AUX2-FB2","signal":"BUS-AUX2","pos":"P1-11","neg":"P1-M"},{"bus":"AUX3-FB3","signal":"BUS-AUX3","pos":"P1-10","neg":"P1-L"},{"bus":"AUX4-FB4","signal":"BUS-AUX4","pos":"P1-9","neg":"P1-K"},{"bus":"SOLO-CUE","signal":"BUS-SOLO-CUE-OUT","pos":"P1-14","neg":"P1-R"},{"bus":"PFL","signal":"BUS-PFL","pos":"P1-13","neg":"P1-P"}],"bus_in":[],"power":[{"rail":"VEE-AUDIO","style":"NEW","volts":-25,"max_a":0.2,"supply":"P2-19","ground":"P2-20","link":2},{"rail":"VCC-AUDIO","style":"NEW","volts":25,"max_a":0.2,"supply":"P2-21","ground":"P2-20","link":1},{"rail":"VCC-LOGIC","style":"NEW","volts":24,"max_a":0.2,"supply":"P2-Y","ground":"P2-18","link":null}],"jumpers":[{"function":"CH ON LAMP","designation":"JMP.Z.W","from":"P2-Z","to":"P2-W"},{"function":"CH ON GND ","designation":"JMP.2","from":"P2-W","to":"P2-18"},{"function":"24V Jumper","designation":"JMP.Y.21","from":"P2-Y","to":"P2-21"},{"function":"CH ON GND ","designation":"JMP.20.18","from":"P2-20","to":"P2-18"},{"function":"Insert +","designation":"JMP.8.6","from":"P2-8","to":"P2-6"},{"function":"Insert -","designation":"JMP.J.F","from":"P2-J","to":"P2-F"},{"function":"Fader +","designation":"JMP.7.5","from":"P2-7","to":"P2-5"},{"function":"Fader - ","designation":"JMP.H.E","from":"P2-H","to":"P2-E"},{"function":"EQ BYPASS","designation":"JMP.Z.22","from":"P1-Z","to":"P1-22"}],"logic":[],"chassis":"P2-22"},"parts":[{"item":"10-014","title":"","label":"10-014","href":"Register-Sub-assemblies-n-nnn.html#10-014","note":"Sub-assemblies (n-nnn)"},{"item":"10-015","title":"","label":"10-015","href":"Register-Sub-assemblies-n-nnn.html#10-015","note":"Sub-assemblies (n-nnn)"},{"item":"60-12","title":"60-12 / INPUT TRANSFORMER","label":"60-12 60-12 / INPUT TRANSFORMER","href":"Transformers.html#60-12","note":"Input transformers (60-n)"}],"parents":[]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20470-01-004%20-%20INPUT%20MODULE.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20470-01-004%20-%20INPUT%20MODULE.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-01-004 - INPUT MODULE.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470C - 470-01-004 - INPUT MODULE.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20470-02-004%20-%20INPUT%20MODULE%20SSCAL%20SCHEMATIC.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20470-02-004%20-%20INPUT%20MODULE%20SSCAL%20SCHEMATIC.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-02-004 - INPUT MODULE SSCAL SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470C - 470-02-004 - INPUT MODULE SSCAL SCHEMATIC.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20470-04-008%20-%20CONNECTOR%20REAR%20VIEW.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20470-04-008%20-%20CONNECTOR%20REAR%20VIEW.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20470-04-010%20-%20ADDI%20ONA%20EQUIPPED%20WITH%20CONTACTS.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20470-04-010%20-%20ADDI%20ONA%20EQUIPPED%20WITH%20CONTACTS.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-010 - ADDI ONA EQUIPPED WITH CONTACTS.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470C - 470-04-010 - ADDI ONA EQUIPPED WITH CONTACTS.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20470-06-004%20-%20SIDE%20ISSMOD%20ICKD%20USED.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20470-06-004%20-%20SIDE%20ISSMOD%20ICKD%20USED.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-06-004 - SIDE ISSMOD ICKD USED.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470C - 470-06-004 - SIDE ISSMOD ICKD USED.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P001%20-%20Title%20Page.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P001%20-%20Title%20Page.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - P001 - Title Page.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470C - P001 - Title Page.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P002%20-%201-1.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P002%20-%201-1.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - P002 - 1-1.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470C - P002 - 1-1.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P003%20-%202-1.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P003%20-%202-1.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - P003 - 2-1.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470C - P003 - 2-1.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P004%20-%202-2.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P004%20-%202-2.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - P004 - 2-2.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470C - P004 - 2-2.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P005%20-%202-3.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P005%20-%202-3.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - P005 - 2-3.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470C - P005 - 2-3.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P006%20-%203-1.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P006%20-%203-1.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - P006 - 3-1.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470C - P006 - 3-1.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P007%20-%204-1.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P007%20-%204-1.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - P007 - 4-1.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470C - P007 - 4-1.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P008%20-%204-2.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P008%20-%204-2.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - P008 - 4-2.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470C - P008 - 4-2.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P009%20-%204-3.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P009%20-%204-3.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - P009 - 4-3.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470C - P009 - 4-3.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P010%20-%204-4.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P010%20-%204-4.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - P010 - 4-4.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470C - P010 - 4-4.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P011%20-%204-5.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P011%20-%204-5.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - P011 - 4-5.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470C - P011 - 4-5.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P012%20-%204-6.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P012%20-%204-6.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - P012 - 4-6.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470C - P012 - 4-6.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P013%20-%204-7.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P013%20-%204-7.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - P013 - 4-7.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470C - P013 - 4-7.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P014%20-%204-8.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P014%20-%204-8.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - P014 - 4-8.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470C - P014 - 4-8.jpg</a><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210315%20-%20Large%20dwg%20-%20Needs%20rename%20/19xx%20-%20DOC%20-%20WBSps.ca%20-2021-3-15-19-3-51%20%288%29.jpg"><img loading="lazy" src="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210315%20-%20Large%20dwg%20-%20Needs%20rename%20/19xx%20-%20DOC%20-%20WBSps.ca%20-2021-3-15-19-3-51%20%288%29.jpg" alt="" data-f="DOCUMENTS/RECENT SCANS/WBSps.ca 20210315 - Large dwg - Needs rename /19xx - DOC - WBSps.ca -2021-3-15-19-3-51 (8).jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - WBSps.ca -2021-3-15-19-3-51 (8).jpg</a></div>
+<h2>Price history</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Price</th>
+<th>Listed as</th>
+<th>Effective</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-2005.html">2005|38</a></td>
+<td>used market value</td>
+<td>150.00</td>
+<td>M470C Input</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/old website/PriceGuide.htm</td>
+</tr>
+<tr>
+<td><a href="Year-2006.html">2006|39</a></td>
+<td>used market value</td>
+<td>150.00</td>
+<td>M470C Input</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/jan 2006 shell/priceguide.htm</td>
+</tr>
+</tbody>
+</table>
+<h2>Physical manual inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Location</th>
+<th>Status</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M470C - Input Module</td>
+<td></td>
+<td></td>
+<td>PDF - Already scanned</td>
+</tr>
+</tbody>
+</table>
+<h2>Documents (2)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20Input%20Module%20%282%29.pdf">1977 - M470C - Input Module (2).pdf</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20Input%20Module%20%282%29.pdf.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20Input%20Module.pdf">1977 - M470C - Input Module.pdf</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20Input%20Module.pdf.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (19)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20470-01-004%20-%20INPUT%20MODULE.jpg">1977 - M470C - 470-01-004 - INPUT MODULE.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20470-01-004%20-%20INPUT%20MODULE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20470-02-004%20-%20INPUT%20MODULE%20SSCAL%20SCHEMATIC.jpg">1977 - M470C - 470-02-004 - INPUT MODULE SSCAL SCHEMATIC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20470-02-004%20-%20INPUT%20MODULE%20SSCAL%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20470-04-008%20-%20CONNECTOR%20REAR%20VIEW.jpg">1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20470-04-008%20-%20CONNECTOR%20REAR%20VIEW.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20470-04-010%20-%20ADDI%20ONA%20EQUIPPED%20WITH%20CONTACTS.jpg">1977 - M470C - 470-04-010 - ADDI ONA EQUIPPED WITH CONTACTS.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20470-04-010%20-%20ADDI%20ONA%20EQUIPPED%20WITH%20CONTACTS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20470-06-004%20-%20SIDE%20ISSMOD%20ICKD%20USED.jpg">1977 - M470C - 470-06-004 - SIDE ISSMOD ICKD USED.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20470-06-004%20-%20SIDE%20ISSMOD%20ICKD%20USED.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P001%20-%20Title%20Page.jpg">1977 - M470C - P001 - Title Page.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P001%20-%20Title%20Page.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P002%20-%201-1.jpg">1977 - M470C - P002 - 1-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P002%20-%201-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P003%20-%202-1.jpg">1977 - M470C - P003 - 2-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P003%20-%202-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P004%20-%202-2.jpg">1977 - M470C - P004 - 2-2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P004%20-%202-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P005%20-%202-3.jpg">1977 - M470C - P005 - 2-3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P005%20-%202-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P006%20-%203-1.jpg">1977 - M470C - P006 - 3-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P006%20-%203-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P007%20-%204-1.jpg">1977 - M470C - P007 - 4-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P007%20-%204-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P008%20-%204-2.jpg">1977 - M470C - P008 - 4-2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P008%20-%204-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P009%20-%204-3.jpg">1977 - M470C - P009 - 4-3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P009%20-%204-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P010%20-%204-4.jpg">1977 - M470C - P010 - 4-4.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P010%20-%204-4.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P011%20-%204-5.jpg">1977 - M470C - P011 - 4-5.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P011%20-%204-5.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P012%20-%204-6.jpg">1977 - M470C - P012 - 4-6.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P012%20-%204-6.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P013%20-%204-7.jpg">1977 - M470C - P013 - 4-7.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P013%20-%204-7.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P014%20-%204-8.jpg">1977 - M470C - P014 - 4-8.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P014%20-%204-8.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Sub-assemblies &amp; parts used (3)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What</th>
+<th>Family</th>
+<th>Year</th>
+<th>How we know</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#10-014">10-014</a></td>
+<td></td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1988|21</td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#10-015">10-015</a></td>
+<td></td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1988|21</td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Input-transformers-60-n.html#60-12">60-12</a></td>
+<td>60-12 / INPUT TRANSFORMER</td>
+<td>Input transformers (60-n)</td>
+<td>1990|23</td>
+<td>named in its manual</td>
+</tr>
+</tbody>
+</table>
+<h2>Parts list — board 1977 - M470C - Input Module (2) (3 parts)</h2>
+<p><em>From 1977 - M470C - Input Module (2).pdf; also in <code>timelines/data/bom.csv</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>Part</th>
+<th>Value</th>
+<th>Manufacturer</th>
+<th>Mfr part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R5</td>
+<td>lOOK</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R6</td>
+<td>lOOK</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R27</td>
+<td>Res 1 ~ tor laW SI</td>
+<td>m</td>
+<td>Ph!1ips</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (3)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210315%20-%20Large%20dwg%20-%20Needs%20rename%20/19xx%20-%20DOC%20-%20WBSps.ca%20-2021-3-15-19-3-51%20%288%29.jpg">19xx - DOC - WBSps.ca -2021-3-15-19-3-51 (8).jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470/19xx%20-%20M470%20-%20DOC%20-%20WBSps.ca%20-2021-3-15-19-3-51%20%283%29.jpg">19xx - M470 - DOC - WBSps.ca -2021-3-15-19-3-51 (3).jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Products/RTO/RTO-144/19xx%20-%20RTO-144%20-%20Module%20RTO-144%20Jumper%20calculator.xlsx">19xx - RTO-144 - Module RTO-144 Jumper calculator.xlsx</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>General description (1)</h3>
+<details><summary>Description — 720 words · 1977 - M470C - Input Module (2).pdf, page 4</summary><p>M470C    INPUT MOOULE</p><p>Preamplifier Output and PHASE Reversa l     The output of the filter feeds the preamplifie r output s t e ae ,     consisting of ZI, Q6. 07. zz , 08 and Q9. The actively     balanced output is subsequently routed through the PHASE     reversal switch to the insert point .      INSERT Poin t     A balanced INSERT point is provided betwee n P2 , pins 8tJ     and P2. pi ns 6tF to allow t he use of insert j ecks , permit t t ng     the insertion of e nc t llary equipment into the signal path .     The INSERT point is followed by the CHANNEL ON switc h.     CHANNEL ON Switch</p><p>The CHANNEl ON switch SW8 controls a 11 outputs of the module     with the exception of the PFl output.     PREFADE -liSTEN (PFLl and PEAK Overload Indicator     The bridging takeoff for the PFl output and the PEAK overload     indicator is picked up between the INSERT point and the     CHANNEl ON switch. Z3 operates as a voltage comparator.                 It     compares the rectified audt c signal with an externally     suppl ied reference voltage, applied to connector P2. pin 16.     With the reference voltage ranging from 0 to approximately     +10 vo l t s , c e t t br-e t t c n of the overload point from -6 d8m to     +27 dBm is possible . PEAK overload is indica ted on DS2.</p><p>Following SW8, the signal is brought out of the modul e via      P2. pins 7tH for insertion of a balanced fader . The output      of the fader is returned to the module on P2 , pins 5/E. The      input side of the fad er also supplies the feed for the four      PREFADE AUXILIARY channels via switches SW9 through SWI2.                                                                                  a                                                                             .c</p><p>Booster Ampl ifier                                                                          ps                                                                       BS</p><p>Z4 and Z5 comp r t s e the booster amplifier. operating at a gain      of 15 dB. The booster recovers t he loss incurred with the                                                                     W</p><p>fader pl ece d in its nominal 15 d8 &quot;in-h and &quot; posit ion.                                                                   ://                                                                tp                                                              ht</p><p>1-1</p><p>W A Ro * eE CK S YSTEM S L TC .</p><p>CIR CUIT</p><p>H470C   INPUT MODUL E</p><p>DIRECT Output     The output signal of the booster amplifier feeds the DIRECT     output a t connector Pl, pins 3/C. This output is designed     to operate into a bridging load of 10 1: ohms or higher . The     nominal level of the DJRECT output is 0 dBm.     HASTER, SUBHASTER and AUXILIARY Outputs     The booster amp l t rte r also provid es the fe eds for the left     and right HASTER a nd SUBHASTER outputs via PAN s ....i tch SII13     and PAN control RB4 through R8J . Addition al f e e d s are     supplied to the SOLO output via SWll and to the four     AUXILIARY outputs ....hen in the POSTFADE mode . With the     exception of the DIRECT output , all outputs are designed     a s 30 1: ohm current sources, to oper ate into zero impedance     summing nodes.     Each summing output is equipped ....i th its     own assignment s ....i tch .     Con t r o l Functions     DC control and logic muting functions are provid ed through     the HIC/L1NE INPUT Selector switchu a nd the CHANNEL ON     switch to facilitate studio mute control functions.        To     mi n i mi z e system transients, the dc current in these ci rcuits     should be limited to I mAo Further control contacts are     pr ovided on the SOLO s ....i tch SWU as well as on all SUBHASTER     and MASTER assignment swi t c he s .     Power Supply De c o up l i nq     Power sup ply dec oupling is pr ovided by OlD, 011 a nd their     a s s oc ia t e d compone nts. The decoup ling ne twc r k reduces the     module vo lt a ge tot lO volts from the nominal sup ply voltage     of:!:l5 volts .                           .                                                                             a                                                                             .c                                                                        ps                                                                     BS                                                                   W                                                                 ://                                                               tp                                                             ht</p><p>1-3</p><p>WARD-BECK SYSTEMS LTD .</p><p>HIGH PASS FI LTER CHARACTERI STICS                      M47 0 (   I NPUT MOOULE</p><p>FREQUENCY IN HERTZ                                                              a                                                             .c                                                             ps                                                         BS                                                         W                                                     ://                                                    tp                                                    ht</p><p>3- 1</p><p>WA R D-B E CK S YS T EM S L T C .</p><p>PARTS LIS T</p><p>K470 C INPUT MODULE</p><p>PART</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20Input%20Module%20%282%29.pdf">1977 - M470C - Input Module (2).pdf</a>, p. 4</li>
+</ul>
+<h3>Specifications (1)</h3>
+<details><summary>Technical Data — 211 words · 1977 - M470C - P002 - 1-1.jpg, page 1</summary><p>M4ZOC_INPUI_MODULE Input Sensitivities Line: Mic Pad Mic: 10 +20 dBm (ref 600 ohm -40 10 dBm (ref 150 o hm 2: s ource -60 to -30 dBm (ref 150 ohm +0.25 dB from 30 Hz to 20 kHz. 125 dBm EIN a t maximum sensitivity (20 Hz to 20 kHz) 75 dB S/N ratio or better for Tine sensitivities from to +20 dBm Frequency Response Noise: Harmonic Distortion: Less than 0.358 from 30 Hz to 15 kHz a t +24 dBm output or Ies s Less than 0 .1&quot; a t 1 kHz at +24 dBm output.</p><p>Source Impedances Line Mic 150/600 ohms ba Tanced/unba lanced 150 ohms bajanced/unbalanced Input Impedances Line Mic 30 ,000 ohms 750 o hms minimum. Output Impedance Less than 100 ohms at insert and direct outputs Load Impedance 600 ohms ba lanced (at insertion point) 10k ohms ba lanced (at direct output) _ Output Leve) : dBm nomina 1 , +26 dBm maximum.</p><p>Phas ing: Input and output termina 1 s des ignated by numbers are in Pha se Power Requirements +25 volts dc , 20 ma nomina] , 80 MA maximum Ambient Temperature: to 60 degrees Celsius wide 14.15&quot; high hm} 6 . 5 &quot; deep {4i mm X 360 mm 165 Dimensions : 1-1</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20P002%20-%201-1.jpg">1977 - M470C - P002 - 1-1.jpg</a>, p. 1</li>
+</ul>
+<h3>Parts list (text) (1)</h3>
+<details><summary>Parts List — 279 words · 1977 - M470C - Input Module (2).pdf, page 11</summary><p>M470C INPUT MODULE</p><p>PART    OESCRIPTION                              HFG          MFG PART NUMBER   .67     Res i ~ to r ~ W   S~   I&#x27;               Ph ~ 11 ps   &#x27;68                             I&#x27;   &#x27;69                             620   RIO                             m   R7l                             eax   R72                             6K2   R73                             6K2   R74                             6K2   R75                             6K2   &#x27;76                             18K   R77                             18K   R78                             620   R79                             620   R80                             18K   &quot; I                             18K   .8Z                             m   &#x27;83                             m   R84}   R8S}   R86}           Potentiomete r                           Bourns       vas 10-017   R8T}   .88     Res i ~ tor ~ W SI      1&lt;8              Ph11ips</p><p>&#x27;&quot;   &quot;0   &quot;I                                   lK8                                   lK8                                   lK8   es                              2K4</p><p>esa                             2K4   R94                             2K4   .95                             2K4   .96                                                                                   a</p><p>2K4                                                                               .c</p><p>&#x27;&quot;                                                                               ps</p><p>2K4                                                                          BS</p><p>&#x27;&quot;   &#x27;&quot;                                   2K4                                                                        W</p><p>2K4   RIOO    Pot ent iometer                          Bour ns      WBS !O·O I5                                                                      ://</p><p>RIOl                                                                    tp</p><p>RI 02                                                                  ht</p><p>&#x27;- 5</p><p>W ARO-BEC K SYS T EM S L T O</p><p>H4 70 C I&quot;PU T KOOUL E</p><p>PART       OES CRI PTION                         .,.           MFG PART NUMBER    Rl39       Res i ~ to r &#x27;*W SI   10&lt;             Ph!ll p s    R140                             &#x27;1&#x27;    R141                             41</p><p>SW1)</p><p>~=B Switch    SW4)                                                     Sc h a do w   was 1 1- 031</p><p>SW5                                                            wa s !I -030</p><p>&#x27;&quot;    sw,    sve                                                                   wa s 11 -010                                                                   v a s 11-011    svs                                                            va s 11 -005    SW10    5W11    SW12    SW13                                                           wa s 11 -002</p><p>SW14l    SW1S    svrs                                                           wa s 11 -028    SWI 7)</p><p>~ ~ ~ ;l                                                       wa s 11- 08 3    5 W20)    5W21 )</p><p>SW22                                                           v as 11-00 2    SW2J                                                           v a s ! 1-005    5w2 4                                                                                     a</p><p>SW25                                                                                    .c</p><p>SW26                                                                                    ps                                                                              BS</p><p>SW27                                                           wa s 11 -0 0 5                                                                             W                                                                            ://                                                                       tp</p><p>Tl         Transformer                           was           6 0-12                                                                    ht</p><p>.-,</p><p>W A R C- B E C K SYS TEMS LTC.</p><p>!.lli..L!:.!.ll                                 )114 70 C I NPUT MOOULE</p><p>PART</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20Input%20Module%20%282%29.pdf">1977 - M470C - Input Module (2).pdf</a>, p. 11</li>
+</ul>
+<h2>Drawings (9)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="People.html#drawing-staff">Drawn by</a></th>
+<th><a href="People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>470-01-004</td>
+<td>Input Module</td>
+<td></td>
+<td></td>
+<td></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20470-01-004%20-%20INPUT%20MODULE.jpg">file</a></td>
+</tr>
+<tr>
+<td>470-01-004</td>
+<td>Funct Ional Diagram</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20Input%20Module%20%282%29.pdf">file</a> p.16</td>
+</tr>
+<tr>
+<td>470-01-004</td>
+<td>Control Aux Solo Control Common Solo Control External</td>
+<td></td>
+<td></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20Input%20Module.pdf">file</a> p.16</td>
+</tr>
+<tr>
+<td>470-02-004</td>
+<td>Input Module Sscal Schematic</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20470-02-004%20-%20INPUT%20MODULE%20SSCAL%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>470-04-008</td>
+<td>Connector Rear View</td>
+<td></td>
+<td></td>
+<td></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20470-04-008%20-%20CONNECTOR%20REAR%20VIEW.jpg">file</a></td>
+</tr>
+<tr>
+<td>470-04-008</td>
+<td>Internally Connected Mzoc Input Module Connector Rear View</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20Input%20Module.pdf">file</a> p.19</td>
+</tr>
+<tr>
+<td>470-04-010</td>
+<td>Addi Ona Equipped With Contacts</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20470-04-010%20-%20ADDI%20ONA%20EQUIPPED%20WITH%20CONTACTS.jpg">file</a></td>
+</tr>
+<tr>
+<td>470-06-004</td>
+<td>Side Issmod Ickd Used</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20470-06-004%20-%20SIDE%20ISSMOD%20ICKD%20USED.jpg">file</a></td>
+</tr>
+<tr>
+<td>70-04-008</td>
+<td>Equal Out Equal</td>
+<td></td>
+<td></td>
+<td>CON</td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470C/1977%20-%20M470C%20-%20Input%20Module%20%282%29.pdf">file</a> p.19</td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M470C&quot;,
+ &quot;name&quot;: &quot;Input Module&quot;,
+ &quot;category&quot;: &quot;INPUT-PRE-AMPS&quot;,
+ &quot;year&quot;: 1977,
+ &quot;connections&quot;: {
+  &quot;from&quot;: &quot;RTO-144 sheet&quot;,
+  &quot;inputs&quot;: [
+   &quot;LINE-IN&quot;,
+   &quot;MIC-IN-1&quot;,
+   &quot;INSERT-RETURN&quot;,
+   &quot;FADER-RETURN&quot;
+  ],
+  &quot;outputs&quot;: [
+   &quot;M2-OUT&quot;,
+   &quot;DIRECT OUT&quot;,
+   &quot;INSERT-OUT&quot;,
+   &quot;CH-ON-SWITCH OUT&quot;
+  ],
+  &quot;power&quot;: [
+   &quot;VEE-AUDIO&quot;,
+   &quot;VCC-AUDIO&quot;,
+   &quot;VCC-LOGIC&quot;
+  ],
+  &quot;control&quot;: []
+ },
+ &quot;made_of&quot;: [
+  &quot;10-014&quot;,
+  &quot;10-015&quot;,
+  &quot;60-12&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-01-004 - INPUT MODULE.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-02-004 - INPUT MODULE SSCAL SCHEMATIC.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-010 - ADDI ONA EQUIPPED WITH CONTACTS.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-06-004 - SIDE ISSMOD ICKD USED.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - Input Module (2).pdf&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 19,
+   &quot;holds&quot;: [
+    &quot;connections&quot;,
+    &quot;modules&quot;,
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - Input Module.pdf&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 19,
+   &quot;holds&quot;: [
+    &quot;connections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - P001 - Title Page.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - P002 - 1-1.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - P003 - 2-1.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - P004 - 2-2.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - P005 - 2-3.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - P006 - 3-1.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - P007 - 4-1.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - P008 - 4-2.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - P009 - 4-3.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - P010 - 4-4.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - P011 - 4-5.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - P012 - 4-6.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - P013 - 4-7.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - P014 - 4-8.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../_catalog/libcontrol/libcontrol.css"><script src="../_catalog/libcontrol/react.js"></script><script src="../_catalog/libcontrol/react-dom.js"></script><script src="../_catalog/libcontrol/libcontrol.js"></script><script src="../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M470C.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

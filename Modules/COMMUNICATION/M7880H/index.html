@@ -1,0 +1,364 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M7880H</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../../../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../../../index.html">Index</a><a href="../../../Home.html">Wiki home</a><a href="../../../PAGES/Timeline.html">Timeline</a><a href="../../../search.html">Search</a><a href="../../../status.html">Status</a></div><h1>M7880H</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="../../../PAGES/Category-COMMUNICATION.html">COMMUNICATION</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../../../simulator.html?m=M7880H">simulator &amp; front panel</a> · <a href="../../../_packages/M7880H.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="../../../PAGES/Year-1994.html">1994|27</a> — original file date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>saved 1994-09-07: WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - Word Perfect Manuals/M7880H.WP</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>medium</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="../../../PAGES/Year-1994.html">1994|27</a></td>
+</tr>
+<tr>
+<td>Variants</td>
+<td><a href="../../../PAGES/M7880.html">M7880</a>, <a href="../../../PAGES/M7880DA.html">M7880DA</a>, <a href="../../../PAGES/M7880G.html">M7880G</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../../../Consoles/1990-1999/940294%20-%20CBC%20Ottawa/index.html">Consoles/1990-1999/940294 - CBC Ottawa</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210323%20-%20Scans/">DOCUMENTS/RECENT SCANS/WBSps.ca 20210323 - Scans</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="index.html">Modules/COMMUNICATION/M7880H</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections</h2>
+<p><em>What it is made of and what it is part of.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M7880H" data-n="" data-cat="COMMUNICATION"></div><svg class="wbs-panel" data-m="M7880H" data-n="" data-cat="COMMUNICATION" role="img" aria-label="M7880H front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M7880H","title":"","rto":null,"parts":[{"item":"SA14-246","title":"COMPONENT LAYOUT","label":"SA14-246 COMPONENT LAYOUT","href":"Register-Circuit-boards-SA14-nnn.html#sa14-246","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-271","title":"","label":"SA14-271","href":"Register-Circuit-boards-SA14-nnn.html#sa14-271","note":"Circuit boards (SA14-nnn)"}],"parents":[]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../../../viewer.html?f=Consoles/1990-1999/940294%20-%20CBC%20Ottawa/1994%20-%20940294%20-%20DOC%20-%20940294-01-001%20-%20PER%20CUSTOMER%20REVISION.jpg"><img loading="lazy" src="../../../Consoles/1990-1999/940294%20-%20CBC%20Ottawa/1994%20-%20940294%20-%20DOC%20-%20940294-01-001%20-%20PER%20CUSTOMER%20REVISION.jpg" alt="" data-f="Consoles/1990-1999/940294 - CBC Ottawa/1994 - 940294 - DOC - 940294-01-001 - PER CUSTOMER REVISION.jpg" data-size="320" onerror="wbsOff(this)">1994 - 940294 - DOC - 940294-01-001 - PER CUSTOMER REVISION.jpg</a></div>
+
+<h2>Documents (1)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1994|27</td>
+<td><a href="../../../viewer.html?f=Modules/COMMUNICATION/M7880H/1994%20-%20M7880H%20-%20M7880H%20-%2014-246-02-003%20-%20COMPONENT%20LAYOUT.wp">1994 - M7880H - M7880H - 14-246-02-003 - COMPONENT LAYOUT.wp</a></td>
+<td><a href="../../../viewer.html?f=Modules/COMMUNICATION/M7880H/1994%20-%20M7880H%20-%20M7880H%20-%2014-246-02-003%20-%20COMPONENT%20LAYOUT.wp.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (3)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1994|27</td>
+<td><a href="../../../viewer.html?f=Consoles/1990-1999/940294%20-%20CBC%20Ottawa/1994%20-%20940294%20-%20DOC%20-%20940294-01-001%20-%20PER%20CUSTOMER%20REVISION.jpg">1994 - 940294 - DOC - 940294-01-001 - PER CUSTOMER REVISION.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1990-1999/940294%20-%20CBC%20Ottawa/1994%20-%20940294%20-%20DOC%20-%20940294-01-001%20-%20PER%20CUSTOMER%20REVISION.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1994|27</td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210323%20-%20Scans/1994%20-%20DOC%20-%20940294-01-001%20-%20PER%20CUSTOMER%20REVISION.jpg">1994 - DOC - 940294-01-001 - PER CUSTOMER REVISION.jpg</a></td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210323%20-%20Scans/1994%20-%20DOC%20-%20940294-01-001%20-%20PER%20CUSTOMER%20REVISION.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1994|27</td>
+<td><a href="../../../viewer.html?f=Modules/COMMUNICATION/M7880H/1994%20-%20M7880H%20-%20DOC%20-%20940294-01-001%20-%20PER%20CUSTOMER%20REVISION.jpg">1994 - M7880H - DOC - 940294-01-001 - PER CUSTOMER REVISION.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/COMMUNICATION/M7880H/1994%20-%20M7880H%20-%20DOC%20-%20940294-01-001%20-%20PER%20CUSTOMER%20REVISION.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Sub-assemblies &amp; parts used (2)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What</th>
+<th>Family</th>
+<th>Year</th>
+<th>How we know</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Register-Circuit-boards-SA14-nnn.html#sa14-246">SA14-246</a></td>
+<td>COMPONENT LAYOUT</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>drawing filed with it</td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Register-Circuit-boards-SA14-nnn.html#sa14-271">SA14-271</a></td>
+<td></td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+</tbody>
+</table>
+<h2>Parts list — board M7880H (13 parts)</h2>
+<p><em>From M7880H.WP; also in <code>timelines/data/bom.csv</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>Part</th>
+<th>Value</th>
+<th>Manufacturer</th>
+<th>Mfr part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SA14-270G</td>
+<td>Controller Assembly</td>
+<td>WBS</td>
+<td>SA14-270G</td>
+<td></td>
+</tr>
+<tr>
+<td>SA14-271</td>
+<td>Audio Assembly</td>
+<td>"</td>
+<td>SA14-271</td>
+<td></td>
+</tr>
+<tr>
+<td>SA14-246H</td>
+<td>Key Switch Assembly</td>
+<td>"</td>
+<td>SA14-246H</td>
+<td></td>
+</tr>
+<tr>
+<td>SA14-247H</td>
+<td>Logic Assembly</td>
+<td>"</td>
+<td>SA14-247H</td>
+<td></td>
+</tr>
+<tr>
+<td>LF1</td>
+<td>Line Filter</td>
+<td>Curtis</td>
+<td>F3000AA06</td>
+<td></td>
+</tr>
+<tr>
+<td>F1</td>
+<td>Fuse, 1.5 Amp S.B.</td>
+<td>Buss</td>
+<td>MDL 1.5</td>
+<td></td>
+</tr>
+<tr>
+<td>R2</td>
+<td>Potentiometer 5K 'A'</td>
+<td>Clarostat</td>
+<td>WBS 10-049</td>
+<td></td>
+</tr>
+<tr>
+<td>J1</td>
+<td>Connector, 9 Pin Female</td>
+<td>TEEE</td>
+<td>NEZ 9S-E</td>
+<td></td>
+</tr>
+<tr>
+<td>J2</td>
+<td>Connector, 15 Pin Female</td>
+<td>"</td>
+<td>NAZ 15S-E</td>
+<td></td>
+</tr>
+<tr>
+<td>J6</td>
+<td>Connector, 25 Pin Female</td>
+<td>TEEE</td>
+<td>NBZ 25S-E</td>
+<td></td>
+</tr>
+<tr>
+<td>R2</td>
+<td>Knob, Black 10mm</td>
+<td>Elma</td>
+<td>021-2225</td>
+<td></td>
+</tr>
+<tr>
+<td>J6</td>
+<td>Connector Hood, 25 Pin</td>
+<td>"</td>
+<td>TCE 25</td>
+<td></td>
+</tr>
+<tr>
+<td>SA14-270G</td>
+<td>Fish Paper</td>
+<td>"</td>
+<td>C7880-014</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (3)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT%20%282%29.docx">1995 - M405P - ITEMIMP(1).TXT (2).docx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT.docx">1995 - M405P - ITEMIMP(1).TXT.docx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP.TXT.docx">1995 - M405P - ITEMIMP.TXT.docx</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="../../../PAGES/Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>General description (1)</h3>
+<details><summary>Description — 915 words · 1994 - M7880H - M7880H - 14-246-02-003 - COMPONENT LAYOUT.wp, page 1</summary><p>MFG    MFG PART NUMBER</p><p>J1    Connector Hood, 9 Pin       TEEE    TCE 9</p><p>J2  Connector Hood, 15 Pin          &quot;  TCE 15 (supplied upon request)</p><p>J6 Connector Hood, 25 Pin          &quot;  TCE 25 (supplied upon request)</p><p>SPKR   Speaker Screen              WBS B9769</p><p>SA14-270G   Fish Paper                  &quot;  C7880-014 SA14-271      &quot;                          &quot;  C7880-015 SA14-246H     &quot;                          &quot;  C7880-064</p><p>P/S 1   Power Supply Housing            &quot;  C7880-42 Terminal                   Useco   4826-1-05-16</p><p>Grommet                  Ontario Rubber  225 Screw, Metric, Slotted HD           &quot;  M3X5</p><p>WBS recommends the use of replacement parts made by the specified manufacturers for continued optimum equipment performance. The M7880H is a simplified sixteen key communications terminal. Providing simplified operational characteristics where the full capability of the M7880D terminal is not required.</p><p>This terminal is self powered, containing the required audio amplifiers and microprocessor based control system, to operate all control and communications paths to and from the central switching matrix. It is inclusive of an integral dynamic gooseneck microphone, loudspeaker and sixteen talk select keyswitches.</p><p>The control, assignment and programming of keyswitch data is transferred to and from the central matrix on a balanced serial RS422 data line. The audio input and output of the M7880H are balanced 600 ohm lines operating at +8 or +4 dBu. The above three balanced lines allow full communications between the terminal and the central matrix.</p><p>The M7880H has sixteen programmable talk keyswitch functions, each consisting of a momentary and a lock pushbutton. The pushbutton pair replicates the traditional telephone lever key, with its centre off position, an up lock and a down momentary position. The lock key position is cancelled any time the momentary function is selected.</p><p>Associated with the sixteenth talk keyswitch is a Call Assign pushbutton. This keyswitch is reserved for answering unassigned calls to the communications station (Call Waiting). No assignment is accepted by this keyswitch from the central assignment computer.</p><p>Optionally the lock keyswitch tally may be programmed as an identifying calling tally.</p><p>Audio from the integral dynamic or the external headset microphone is amplified to a nominal line level of +8/+4 dBu. A front panel sensitivity control (SENS) is available to make level adjustments for variations in operating techniques. Input levels over a sensitivity range of 30 dB are accommodated.</p><p>An auto levelling type limiter stabilizes the audio output from the microphone preamplifier, assuring constant system levels over a large range of voice variations. Two level indicators, located above the sensitivity control are provided. One labelled NORM (normal), it flashes when the preamplifier output is a nominal +8/+4 VU. The other labelled OVLD (overload) flashes when the limiting action becomes excessive (greater than 20 dB).</p><p>A third indicator, labelled XMIT illuminates when an assigned talk keyswitch is operated, indicating audio is being transmitted from the communications terminal. An external footswitch control may be looped in series with the lock talk keyswitch control functions.</p><p>A power amplifier boosts the incoming audio signal from the matrix and drives an integral speaker. A front panel level control is provided for the speaker output. The amplifier is capable of delivering up to 3 watts into an 8 ohm load.</p><p>The terminal is powered from an integral modular power supply, operating from 115/230 Volts AC 50/60 Hz.</p><p>The M7880H terminal is housed in a 3-1/2 inch high (2RU) aluminum chassis, designed for standard nineteen inch rack mounting. Its shallow depth (less than 10 inches) allows the terminal to be easily mounted in typical television production desk operating areas. It is constructed on a modular philosophy, with all active circuit modules interconnected via ribbon cables and chassis type connectors. All modules are easily removed for any required service. Enhancements:</p><p>Enhancements are incorporated from time to time, to address or improve product operational characteristics. Usually these enhancements are compatible with existing systems. It may be necessary to obtain an overall systems software update package to make use of incorporated changes. Front Panel Control Functions Refer to drawing B 7880-04-022</p><p>This manual section outlines the fea­tures and func­tions of the M7880H communi­cations terminal with operating system software &quot;MTG&quot; #50-715, rel. 1.01 or greater. The operating system soft­ware is installed in the SA14-270G controller assem­bly in EPROM U3.</p><p>1) TALK KEYSWITCHES</p><p>Sixteen programmable talk keyswitch func­tions are provided, each with a momen­tary pushbutton and a latching pushbutton with an integral LED indica­tor. This keyswitch pair repli­cates the traditional telephone lever key. The lower momen­tary pushbutton acts as the momentary down stroke of the tele­phone lever key. The upper latching pushbutton acts as the up lock position of the lever key, the latch condition is tallied with a red LED indi­cator. Operating the lower momentary pushbutton will cancel the latch condi­tion of the upper push but­ton if it was set.</p><p>Fifteen of the talk keyswitches (labelled 1 to 15 are programmable from the cen­tral assignment com­puter. The sixteenth or Call Reply key with its asso­ci­ated Call Assign pushbutton is dedi­cated to answer­ing calls to the com­munications station, that are not assigned to the other keyswitches.</p><p>The talk keyswitches may be pro­grammed to talk to a number of stations simulta­neously. This can be done by the Group (GRP) func­tion associ­ated with each ter­minal or by the Call Array (CA) feature. Also they may be pro­grammed via the Event func­tions of the Elec­tronic Peg Board (EPC) to operate any crosspoints in the sys­tem on a co-ordinate basis.</p><p>The locking talk keyswitches loop through an external footswitch function that is access­ible on rear connector P2.</p><p>If this function is not used a bypass jumper must be installed on P2. As sup­plied a bypass jumper</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/COMMUNICATION/M7880H/1994%20-%20M7880H%20-%20M7880H%20-%2014-246-02-003%20-%20COMPONENT%20LAYOUT.wp">1994 - M7880H - M7880H - 14-246-02-003 - COMPONENT LAYOUT.wp</a>, p. 1</li>
+</ul>
+<h2>Drawings (1)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Drawn by</a></th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>940294-01-001</td>
+<td>Per Customer Revision</td>
+<td></td>
+<td><a href="../../../PAGES/Person-WS.html">WS</a></td>
+<td>AND</td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1990-1999/940294%20-%20CBC%20Ottawa/1994%20-%20940294%20-%20DOC%20-%20940294-01-001%20-%20PER%20CUSTOMER%20REVISION.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M7880H&quot;,
+ &quot;category&quot;: &quot;COMMUNICATION&quot;,
+ &quot;year&quot;: 1994,
+ &quot;made_of&quot;: [
+  &quot;SA14-246&quot;,
+  &quot;SA14-271&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M7880H/1994 - M7880H - DOC - 940294-01-001 - PER CUSTOMER REVISION.jpg&quot;,
+   &quot;year&quot;: 1994,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;modules&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M7880H/1994 - M7880H - M7880H - 14-246-02-003 - COMPONENT LAYOUT.wp&quot;,
+   &quot;year&quot;: 1994,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../../../_catalog/wbs_reels.js" defer></script><script src="../../../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../../../_catalog/libcontrol/libcontrol.css"><script src="../../../_catalog/libcontrol/react.js"></script><script src="../../../_catalog/libcontrol/react-dom.js"></script><script src="../../../_catalog/libcontrol/libcontrol.js"></script><script src="../../../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M7880H.md</small></div></article><script src="../../../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

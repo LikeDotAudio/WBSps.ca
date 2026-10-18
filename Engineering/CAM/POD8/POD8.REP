@@ -1,0 +1,301 @@
+
+
+    Aperture Information                                            POD8.PCB
+
+                                    WARD-BECK
+
+                         Aperture and Tool Descriptions
+    ========================================================================
+
+    Code   Shape    X    Y     Hole  Type   Comment
+    ------------------------------------------------------------------------
+    D10    Ellipse  004  004   000   Draw   4 Mil Round Line Draw
+    D11    Ellipse  008  008   000   Draw   8 Mil Round Line Draw
+    D12    Ellipse  010  010   000   Draw   10 Mil Round Line Draw
+    D13    Ellipse  012  012   000   Draw   12 Mil Round Line Draw
+    D14    Ellipse  014  014   000   Draw   14 Mil Round Line Draw
+    D15    Ellipse  024  024   000   Draw   24 Mil Round Line Draw
+    D16    Ellipse  050  050   000   Draw   50 Mil Round Line Draw
+    D17    Ellipse  100  100   000   Draw   100 Mil Round Line Draw
+    D18    Ellipse  060  060   000   Flash  60 Mil Round Pad
+    D19    Ellipse  070  070   000   Flash  70 Mil Round Pad
+    D20    Ellipse  074  074   000   Flash  74 Mil Round Pad
+    D21    Ellipse  078  078   000   Flash  78 Mil Round Pad
+    D22    Ellipse  080  080   000   Flash  80 Mil Round Pad
+    D23    Ellipse  100  100   000   Flash  100 Mil Round Pad
+    D24    Ellipse  050  050   000   Flash  50 Mil Mt. Hole (Cross-Hair)
+    D25    Ellipse  130  130   000   Flash  130 Mil Mt. Hole (Cross-Hair)
+    D26    Ellipse  200  200   000   Flash  200 Mil Mt. Hole (Cross-Hair)
+    D27    Sq Rect  060  060   000   Flash  60 Mil Square Pad
+    D28    Sq Rect  070  070   000   Flash  70 Mil Square Pad
+    D29    Sq Rect  074  074   000   Flash  74 Mil Square Pad
+    D30    Sq Rect  078  078   000   Flash  78 Mil Square Pad
+    D31    Sq Rect  080  080   000   Flash  80 Mil Square Pad
+    D32    Sq Rect  100  100   000   Flash  100 Mil Square Pad
+    D33    Ellipse  050  050   000   Flash  50 Mil Round Via
+    D34    Ellipse  061  061   000   Flash  61 Mil Round Solder Mask
+    D35    Ellipse  071  071   000   Flash  71 Mil Round Solder Mask
+    D36    Ellipse  075  075   000   Flash  75 Mil Round Solder Mask
+    D37    Ellipse  079  079   000   Flash  79 Mil Round Solder Mask
+    D38    Ellipse  081  081   000   Flash  81 Mil Round Solder Mask
+    D39    Ellipse  101  101   000   Flash  101 Mil Round Solder Mask
+    D40    Sq Rect  061  061   000   Flash  61 Mil Square Solder Mask
+    D41    Sq Rect  071  071   000   Flash  71 Mil Square Solder Mask
+    D42    Sq Rect  075  075   000   Flash  75 Mil Square Solder Mask
+    D43    Sq Rect  079  079   000   Flash  79 Mil Square Solder Mask
+    D44    Sq Rect  081  081   000   Flash  81 Mil Square Solder Mask
+    D45    Sq Rect  101  101   000   Flash  101 Mil Square Solder Mask
+    D46    Ellipse  051  051   000   Flash   51 Mil Round Solder Mask
+    
+
+
+    Code   Hole Diameter
+    --------------------
+    T01    024
+    T02    030
+    T03    036
+    T04    038
+    T05    047
+    T06    050
+    T07    065
+    T08    130
+    T09    200
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    WARD-BECK
+
+    26-May-97  09:23                                                 Page  1
+
+    Aperture Information                                            POD8.PCB
+
+                                    WARD-BECK
+
+                          Aperture and Tool Assignments
+    ========================================================================
+
+    Item                     Normal  S Mask   Plane   Thermal  Drl Sym  Tool
+    ------------------------------------------------------------------------
+    DRAW APERTURE            D10      -        -       -        -        -
+    LINE_004                 D10      -        -       -        -        -
+    LINE_008                 D11      -        -       -        -        -
+    LINE_010                 D12      -        -       -        -        -
+    LINE_012                 D13      -        -       -        -        -
+    LINE_014                 D14      -        -       -        -        -
+    LINE_024                 D15      -        -       -        -        -
+    LINE_050                 D16      -        -       -        -        -
+    LINE_100                 D17      -        -       -        -        -
+    P_EL_0060_0060_038_AL    D18     D34       *       *        -        -
+    P_EL_0070_0070_036_AL    D19     D35       *       *        -        -
+    P_EL_0070_0070_038_AL    D19     D35       *       *        -        -
+    P_EL_0074_0074_036_AL    D20     D36       *       *        -        -
+    P_EL_0074_0074_038_AL    D20     D36       *       *        -        -
+    P_EL_0078_0078_047_AL    D21     D37       *       *        -        -
+    P_EL_0080_0080_050_AL    D22     D38       *       *        -        -
+    P_EL_0100_0100_065_AL    D23     D39       *       *        -        -
+    P_MH_0050_0050_050_AL    D24      -        *       -        -        -
+    P_MH_0130_0130_130_AL    D25      -        *       -        -        -
+    P_MH_0200_0200_200_AL    D26      -        *       -        -        -
+    P_SQ_0060_0060_038_AL    D27     D40       *       *        -        -
+    P_SQ_0070_0070_038_AL    D28     D41       *       *        -        -
+    P_SQ_0074_0074_038_AL    D29     D42       *       *        -        -
+    P_SQ_0078_0078_047_AL    D30     D43       *       *        -        -
+    P_SQ_0080_0080_050_AL    D31     D44       *       *        -        -
+    P_SQ_0100_0100_065_AL    D32     D45       *       *        -        -
+    V_CR_050_024             D33     D46       *       *        -        -
+    V_CR_050_030             D33     D46       *       *        -        -
+    HOLE_024                  -       -        -       -        *       T01
+    HOLE_030                  -       -        -       -        *       T02
+    HOLE_036                  -       -        -       -        *       T03
+    HOLE_038                  -       -        -       -        *       T04
+    HOLE_047                  -       -        -       -        *       T05
+    HOLE_050                  -       -        -       -        *       T06
+    HOLE_065                  -       -        -       -        *       T07
+    HOLE_130                  -       -        -       -        *       T08
+    HOLE_200                  -       -        -       -        *       T09
+    
+
+    - : Not applicable.                   * : Aperture/tool is not assigned.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    WARD-BECK
+
+    26-May-97  09:23                                                 Page  2

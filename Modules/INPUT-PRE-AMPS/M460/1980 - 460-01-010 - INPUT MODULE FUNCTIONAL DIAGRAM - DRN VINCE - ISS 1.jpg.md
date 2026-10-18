@@ -1,0 +1,150 @@
+# 1980 - 460-01-010 - INPUT MODULE FUNCTIONAL DIAGRAM - DRN VINCE - ISS 1.jpg
+Wiki page: [M460](../../../PAGES/M460.md)
+
+
+- **Year:** 1980 (title block date)
+- **Module:** M460
+- **Category:** INPUT-PRE-AMPS
+- **Module year estimate:** 1976 — labelled "DATE DEC 76" in WBS Photos-1-001/M460B - P033 - B460-01-003(1).jpg
+
+## Title block (found by software, read by eye)
+
+- **Drawing:** B 460-01-010
+- **Size:** B
+- **Title:** INPUT MODULE / FUNCTIONAL DIAGRAM
+- **Date:** 80/1/18
+- **Drawn:** VINCE
+- **Checked:** Rnl
+- **Issue:** 1
+- **Confidence:** medium
+
+- **Original file:** `WBSps.env/WBS Photos-1-001/M460L - Block Diagram.jpg`
+- **SHA-256:** `b211d4bd205225fb4f16c304a67892e606d0f0afb8fe64f6481ec9d0c0a5be08`
+- **Size:** 940,925 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 1 words corrected)
+
+```text
+SENSitivity 30 dB
+DIRECT OUTPUt 10 dBm
+E Q INSERT
+PAN INSERT
+LINE
+LINE IN -20/+10 dBm 600 Ohms
+CHAN INSERT JACKS PHASE ON ~10 dBm
+LEFT Output
+OFF
+FADER -15dB )
+4-110
+-126
+8109A
+8-109
+PAD
+Right Output
+mic
+PRE /POST
+Mic IN 70/-20 dBm 150 Ohms
+FB
+FB 2
+HpF
+FOLDBACK PRE/POST
+25 - 250 Hz
+LINE CONTROL INTERLOCK mic
+FB 3
+FB 4
+FOLDBACK PRE /POST
+CONTROL common
+>RS 1
+RS 2
+REVERB SEND
+SUMMING BUS OutPuts
+PRE/POST
+PA
+PA
+PA CONTROL
+SOLO
+SOLO CONTROL
+PFL
+PFL
+PFL CONTROL
+CONTROL ComMON
+ISS MOD  CKD_
+USED ON
+MATL
+WBS WAAD BeCK SySTEMs LTD_
+DRNVINce DATE B0/ 18 CKD: LYE SCALE XX TOLS Tna
+M46OL INPUT MODULE FUNCTIONAL DIAGRAM
+FINISH
+B
+460 - 01- 010
+ISS
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+SENSitivity 30 dB
+DIRECT OUTPUt 10 dBm
+E Q INSERT
+PAN INSERT
+LINE
+LINE IN -20/+10 dBm 600 Ohms
+CHAN INSERT JACKS PHASE ON ~10 dBm
+LEFT Output
+OFF
+FADER -15dB )
+4-110
+-126
+8109A
+8-109
+PAD
+Right Output
+mic
+PRE /POST
+Mic IN 70/-20 dBm 150 Ohms
+FB
+FB 2
+HpF
+FOLDBACK PRE/POST
+25 - 250 Hz
+LINE CONTROL NTERLOCK mic
+FB 3
+FB 4
+FOLDBACK PRE /POST
+CONTROL common
+>RS 1
+RS 2
+REVERB SEND
+SUMMING BUS OutPuts
+PRE/POST
+PA
+PA
+PA CONTROL
+SOLO
+SOLO CONTROL
+PFL
+PFL
+PFL CONTROL
+CONTROL ComMON
+ISS MOD  CKD_
+USED ON
+MATL
+WBS WAAD BeCK SySTEMs LTD_
+DRNVINce DATE B0/ 18 CKD: LYE SCALE XX TOLS Tna
+M46OL INPUT MODULE FUNCTIONAL DIAGRAM
+FINISH
+B
+460 - 01- 010
+ISS
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/INPUT-PRE-AMPS/M460/1980 - 460-01-010 - INPUT MODULE FUNCTIONAL DIAGRAM - DRN VINCE - ISS 1.jpg","sha256":"b211d4bd205225fb4f16c304a67892e606d0f0afb8fe64f6481ec9d0c0a5be08","kind":"module","models":["M460"],"year":1980,"pages":1,"order":[{"page":1,"title_block":[{"number":"B 460-01-010","type":"functional / block diagram","title":"INPUT MODULE / FUNCTIONAL DIAGRAM","date":"80/1/18","year":1980,"checked":"RNL","issue":"1"}],"text":["sensitivity DIRECT Output","E Q 10 dBm","LINE 30 dB PAN","LINE IN INSERT INSERT","20/+ 10 dBm CHAN LEFT Output","600 OHMS OFF INSERT JACKS FADER","PHASE ON","4-110 -126 8*109A ~10 dBm (-I5d8) 8-109","PAD","Right Output","mic PRE /PosT","Mic 7 FB","70/-20 dBm FB 2","150 Ohms HPF FOLDBACK","25 - 250 Hz PRE/POST","LINE > FB 3","CONTROL","NTERLOCK FOLDBACK FB 4","Mic _ CONTROL PRE / POST",">RS",">RS 2","REVERB SUMMING","PRE/POST SEND BUS","outputs","PA","CONTROL PA","SOLO","SOLO","CONTROL","PFL","PFL","CONTROL PFL","COMMON CONTROL","IsS MOD  CKD_ USED ON MATL","WBS WARD BECK systeMs LTD","DRNVINCE M46OL","FIMISH DATE INPUT MODULE","CKD: Ay FUNCTIONAL DIAGRAM","[SCALE","TOLS 460 01 - 010 ISS_"]}],"drawing":{"svg":"_traces/b211d4bd205225fb.svg","viewBox":[2000,1296],"rotate":0,"size":"B","number":"B 460-01-010","title":"INPUT MODULE / FUNCTIONAL DIAGRAM","dtype":"01","outlines":"see _traces/b211d4bd205225fb.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/b211d4bd205225fb.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","blocks":[[1496,238,57,70],[610,284,70,59],[1308,410,107,40],[1308,510,108,42],[1308,608,108,41],[1310,704,108,41]],"words":[[441,184,"sensitivity"],[1729,176,"DIRECT Output"],[1744,194,"10 dBm"],[491,211,"30 dB"],[704,204,"E Q"],[1509,209,"PAN"],[271,219,"LINE"],[89,236,"LINE IN"],[691,229,"INSERT"],[1499,229,"INSERT"],[36,264,"20/+ 10"],[101,264,"dBm"],[1114,276,"CHAN"],[1731,274,"LEFT Output"],[49,291,"600 OHMS"],[244,294,"OFF"],[884,289,"INSERT JACKS"],[1034,299,"PHASE"],[1131,299,"ON"],[1246,294,"FADER"],[481,324,"4-110"],[629,324,"-126"],[789,324,"8*109A"],[916,324,"~10 dBm"],[1241,319,"(-I5d8)"],[1384,319,"8-109"],[244,341,"PAD"],[1731,369,"Right Output"],[249,409,"mic"],[1314,401,"PRE /PosT"],[86,426,"Mic"],[1704,421,"7 FB"],[40,455,"70/-20 dBm"],[1729,461,"FB 2"],[36,476,"150 Ohms"],[531,481,"HPF"],[1434,474,"FOLDBACK"],[499,504,"25 - 250 Hz"],[1316,499,"PRE/POST"],[114,519,"LINE"],[1704,521,"&gt; FB 3"],[6,549,"CONTROL"],[1734,561,"FB 4"],[0,571,"NTERLOCK"],[1436,574,"FOLDBACK"],[124,599,"Mic _"],[1086,591,"CONTROL"],[1314,596,"PRE / POST"],[1708,619,"&gt;RS"],[1704,659,"&gt;RS 2"],[1444,674,"REVERB"],[1839,671,"SUMMING"],[1314,696,"PRE/POST"],[1459,694,"SEND"],[1864,696,"BUS"],[1836,724,"outputs"],[1734,736,"PA"],[1734,774,"PA"],[1729,791,"CONTROL"],[1731,826,"SOLO"],[1734,866,"SOLO"],[1731,884,"CONTROL"],[1561,909,"PFL"],[1734,926,"PFL"],[1736,961,"PFL"],[1391,974,"CONTROL"],[1731,979,"CONTROL"],[1392,991,"COMMON"],[684,1084,"IsS MOD  CKD_"],[896,1084,"USED"],[961,1081,"ON"],[1049,1084,"MATL"],[1332,1120,"WBS"],[1512,1112,"WARD"],[1638,1112,"BECK"],[1748,1109,"systeMs"],[1926,1109,"LTD"],[1299,1166,"DRNVINCE"],[1704,1174,"M46OL"],[1046,1203,"FIMISH"],[1299,1193,"DATE"],[1658,1205,"INPUT"],[1748,1205,"MODULE"],[1301,1224,"CKD:"],[1386,1224,"Ay"],[1615,1235,"FUNCTIONAL"],[1780,1231,"DIAGRAM"],[1299,1249,"[SCALE"],[1301,1288,"TOLS"],[1606,1284,"460"],[1681,1284,"01 - 010"],[1904,1281,"ISS_"]]}}
+```

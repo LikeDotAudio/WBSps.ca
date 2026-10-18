@@ -1,0 +1,27 @@
+{
+  "source": "/home/anthony/Documents/GitProjects/WBSps.ca/WBSps.env/WBSps Engineering from H drive/WBSps - D2000 Digital rack/D2000/TANGO/14-334.PCB",
+  "kicad_pcb": "/home/anthony/Documents/GitProjects/WBSps.ca/2026/Engineering/PCB/14-334/14-334.kicad_pcb",
+  "format": "Tango-PCB PLUS V2.02 Series II",
+  "edge_layer": 14,
+  "tango_layers_used": {
+    "0": 57,
+    "1": 65,
+    "4": 52,
+    "8": 238,
+    "10": 2,
+    "12": 156,
+    "14": 8,
+    "16": 85,
+    "18": 28
+  },
+  "counts": {
+    "components": 15,
+    "pads": 132,
+    "tracks": 106,
+    "vias": 0,
+    "graphics": 509,
+    "texts": 76,
+    "pours": 0
+  },
+  "nets": null
+}

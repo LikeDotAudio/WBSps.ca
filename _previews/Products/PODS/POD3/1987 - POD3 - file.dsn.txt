@@ -1,0 +1,165 @@
+OrCAD Capture schematic (.DSN). This binary format needs OrCAD Capture to view as a drawing.
+Text recovered from the file (part names, values, sheet titles, net names):
+
+GND SIGNAL
+M:\LIB\DEVICE.OLB
+TitleBlock1
+C:\ORCADWIN\CAPTURE\LIBRARY\CAPSYM.OLB
+Title
+Size
+Document Number
+Date:
+Sheet
+GND POWER
+PORTRIGHT-R
+GND EARTH
+VCC_ARROW
+LM317T.Normal
+C:\DOS\XLATTEMP.OLB
+VOUT
+CAP NP.Normal
+FUSE.Normal
+CAP.Normal
+DIODE ZENER.Normal
+ANODE
+CATHODE
+R.Normal
+LM3915.Normal
+SIG IN
+MODE
+REF ADJ
+REF OUT
+LED1
+LED2
+LED3
+LED4
+LED5
+LED6
+LED7
+LED8
+LED9
+LED10
+POT.Normal
+WIPER
+LM337T.Normal
+DIODE.Normal
+SW SPST.Normal
+COMMON
+1458.Normal
+C:\ORCADWIN\CAPTURE\LIBRARY\ANALOG.OLB
+LED.Normal
+SW SPDT.Normal
+4053.Normal
+M:\LIB\CMOS.OLB
+LM3916.Normal
+BRIDGE.Normal
+124.Normal
+SW SPST
+FUSE
+DIODE ZENER
+CAP NP
+DIODE
+BRIDGE
+LM3915
+LM317T
+LM3916
+LM337T
+SW SPDT
+74HC4053
+CAPACITOR NON-POL
+LF353
+LM833
+LF347B
+NE5532
+LM393
+RESISTOR
+POD3.SCH
+CHASSIS
+CR10
+CR11
+CR12
+CR13
+CR14
+CR15
+CR16
+CR17
+CR18
+CR19
+CR20
+CR21
+CR22
+CR23
+CR24
+CR29
+CR25
+XLR-3F
+BALANCED
+INPUT
++4 dB
+NORMINAL
+RIGHT
+NOTES:
+IN MICROFARADS UNLESS OTHERWISE SPECIFIED.
+ALL RESISTORS ARE 1/4W AND ALL CAPACITORS ARE
+LEFT
+LAST COMPONENTS USED: C57, CR29, DS51, F3, J2,
+R98, SW2, T1, U20.
+FOR 115V: OPEN JP1, SHORT JP2 & JP3.
+FOR 230V: SHORT JP1, OPEN JP2 & JP3.
+SPARE
+POD3
+OrCAD Windows Design
+"Arial
+erence
+74ALS763
+1ST PART FIELD
+2ND PART FIELD
+3RD PART FIELD
+4TH PART FIELD
+5TH PART FIELD
+6TH PART FIELD
+7TH PART FIELD
+PCB Footprint
+TitleBlock
+Page Count
+Page Number
+Page Size
+OrgAddr1
+OrgName
+RevCode
+Page Create Date
+March  8, 1995
+Page Modify Date
+Olla-Podrida
+Part Reference
+Value
+0.5A SB
+SENS.
+CMRR
+CD4053BCN
+CR26
+CR27
+CR28
+Name
+PbDf
+Root Entry
+Cache
+Cells
+Parts
+Views
+Pages
+QRSTU
+Schematic
+Library
+Symbols
+$Types$
+Graphics
+Packages
+ExportBlocks
+Cells Directory
+Parts Directory
+Views Directory
+Symbols Directory
+Graphics Directory
+Packages Directory
+ExportBlocks Directory

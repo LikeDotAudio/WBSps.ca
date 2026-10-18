@@ -1,0 +1,217 @@
+{
+  "code": "M460A",
+  "series": "S460",
+  "type": "PREAMP",
+  "row_count": 44,
+  "impedance": {
+    "line_in": 600,
+    "out": 600
+  },
+  "note": "CONFIRMED WITH SCHEMATIC",
+  "audio": [
+    {
+      "port": "A1",
+      "signal": "MIC-IN",
+      "dir": "in",
+      "pos": "P1-1",
+      "neg": "P1-A",
+      "pad_pos": "P1-1.A.1.P",
+      "pad_neg": "P1-A.A.1.N"
+    },
+    {
+      "port": "A2",
+      "signal": "LINE-IN",
+      "dir": "in",
+      "pos": "P1-17",
+      "neg": "P1-U",
+      "pad_pos": "P1-17.A.2.P",
+      "pad_neg": "P1-U.A.2.N"
+    },
+    {
+      "port": "A3",
+      "signal": "BUS-RIGHT-OUT",
+      "dir": "out",
+      "pos": "P2-5",
+      "neg": "P2-E",
+      "pad_pos": "P2-5.A.3.P",
+      "pad_neg": "P2-E.A.3.N"
+    },
+    {
+      "port": "A4",
+      "signal": "DIRECT OUT",
+      "dir": "out",
+      "pos": "P2-12",
+      "neg": "P2-N",
+      "pad_pos": "P2-12.A.4.P",
+      "pad_neg": "P2-N.A.4.N"
+    },
+    {
+      "port": "B1",
+      "signal": "INSERT-OUT",
+      "dir": "out",
+      "pos": "P1-22",
+      "neg": "P1-Z",
+      "pad_pos": "P1-22.B.1.P",
+      "pad_neg": "P1-Z.B.1.N"
+    },
+    {
+      "port": "B2",
+      "signal": "INSERT-RETURN",
+      "dir": "in",
+      "pos": "P1-21",
+      "neg": "P1-Y",
+      "pad_pos": "P1-21.B.2.P",
+      "pad_neg": "P1-Y.B.2.N"
+    },
+    {
+      "port": "B3",
+      "signal": "CH-ON-SWITCH OUT",
+      "dir": "out",
+      "pos": "P1-20",
+      "neg": "P1-X",
+      "pad_pos": "P1-20.B.3.P",
+      "pad_neg": "P1-x.B.3.N"
+    },
+    {
+      "port": "B4",
+      "signal": "FADER-RETURN",
+      "dir": "in",
+      "pos": "P1-19",
+      "neg": "P1-W",
+      "pad_pos": "P1-19.B.4.P",
+      "pad_neg": "P1-W.B.4.N"
+    }
+  ],
+  "bus_out": [
+    {
+      "bus": "LEFT",
+      "signal": "BUS-LEFT-OUT",
+      "pos": "P2-3",
+      "neg": "P2-C"
+    },
+    {
+      "bus": "RIGHT",
+      "signal": "BUS-RIGHT-OUT",
+      "pos": "P2-5",
+      "neg": "P2-E"
+    },
+    {
+      "bus": "SUB1-RS1",
+      "signal": "BUS-SUB1-RS1-OUT",
+      "pos": "P1-9",
+      "neg": "P1-K"
+    },
+    {
+      "bus": "SUB2-RS2",
+      "signal": "BUS-SUB2-RS2-OUT",
+      "pos": "P1-8",
+      "neg": "P1-J"
+    },
+    {
+      "bus": "AUX1-FB1",
+      "signal": "BUS-FB1-OUT",
+      "pos": "P1-5",
+      "neg": "P1-E"
+    },
+    {
+      "bus": "AUX2-FB2",
+      "signal": "BUS-FB2-OUT",
+      "pos": "P1-4",
+      "neg": "P1-E"
+    },
+    {
+      "bus": "AUX8-PA",
+      "signal": "BUS-AUX8-PA-OUT",
+      "pos": "P1-3",
+      "neg": "P1-C"
+    },
+    {
+      "bus": "SOLO-CUE",
+      "signal": "BUS-SOLO-CUE-OUT",
+      "pos": "P1-12",
+      "neg": "P1-N"
+    }
+  ],
+  "bus_in": [],
+  "power": [
+    {
+      "rail": "VEE-AUDIO",
+      "style": "NEW",
+      "volts": -25,
+      "max_a": 0.1,
+      "supply": "P2-19",
+      "ground": "P2-20",
+      "link": 2
+    },
+    {
+      "rail": "VCC-AUDIO",
+      "style": "NEW",
+      "volts": 25,
+      "max_a": 0.2,
+      "supply": "P2-21",
+      "ground": "P2-20",
+      "link": 1
+    },
+    {
+      "rail": "VCC-LAMP",
+      "style": "NEW",
+      "volts": 24,
+      "max_a": 0.1,
+      "supply": "P2-Y",
+      "ground": "P2-18",
+      "link": null
+    }
+  ],
+  "jumpers": [
+    {
+      "function": "CH ON LAMP",
+      "designation": "JMP.Z.W",
+      "from": "P2-Z",
+      "to": "P2-W"
+    },
+    {
+      "function": "CH ON GND ",
+      "designation": "JMP.X.18",
+      "from": "P2-X",
+      "to": "P2-18"
+    },
+    {
+      "function": "24V Jumper",
+      "designation": "JMP.Y.21",
+      "from": "P2-Y",
+      "to": "P2-21"
+    },
+    {
+      "function": "CH ON GND ",
+      "designation": "JMP.3",
+      "from": "P2-20",
+      "to": "P2-18"
+    },
+    {
+      "function": "Insert +",
+      "designation": "JMP.22.21",
+      "from": "P1-22",
+      "to": "P1-21"
+    },
+    {
+      "function": "Insert -",
+      "designation": "JMP.Z.Y",
+      "from": "P1-Z",
+      "to": "P1-Y"
+    },
+    {
+      "function": "Fader +",
+      "designation": "JMP.20.19",
+      "from": "P1-20",
+      "to": "P1-19"
+    },
+    {
+      "function": "Fader - ",
+      "designation": "JMP.X.W",
+      "from": "P1-X",
+      "to": "P1-W"
+    }
+  ],
+  "logic": [],
+  "chassis": "P2-22"
+}

@@ -1,0 +1,195 @@
+# 19xx - M753 - DOC - WBSps.ca -2021-3-15-19-3-51.jpg
+Wiki page: [Documents](../../../PAGES/Documents.md)
+
+
+- **Year:** unknown (unknown)
+- **Type:** document scan
+- **About:** M753
+
+## Text recovered by OCR
+
+> 3 = ON Buss r3 < 620 [12200 220o cie 24 2322 Zi Cis 6. e/6v c18 29 28 Ciz7 26 25 4R7 3k3 24 DFE crS 855s 4f 26 <620 c[i 2200 997 221 R39 0k2 6 8/6v 26 4Kt 22k NOIES COMAONEATO LCLE LSFollOvJE OLES2 IDECICIEC Re? 22k ZN 5137 7400 7402 7405 7404 22 R3i 4TCH ENTER @ <2 R40 25 7403 7407 3053 8093 2/5 Ska 2/2 226 Ci9 I {68/6 Z7 28 29 02 R32 4K7 22k 5137 rio DIODES IN 914 RESiSToRS I4w 5% DUE ciecuit @EQUIPEMENTS COMPONENTS MAY BE Dhitted Ci2 4of R33 I0o Rzo RA 09 36= RI7 22k RiB C20 G/6 21 Ri9: ok OGic READ Ts3 235 I00 225 6kz R4? 3k3 22k R22 Czi Ge/t 236 3k3 M - 8ertrol TS4 037 40 R3o @Ke R42 202 027 228 05 C2z G68/6 19 < 5137 22k 229 X-STRoBE OfF Steobe 9033 LAMP R45 6bo AVAILABLE TolS SYSIES M753 MEMORY ATCH f DT 30/7/ Lock UP CONTROL SCHEMATIC R44 l80 753-02 0oi 12200
+- **Original file:** `WBSps.env/PUBLIC/RECENT SCANS/WBSps.ca 20210315 - Large dwg - Needs rename /WBSps.ca -2021-3-15-19-3-51 (40).jpg`
+- **SHA-256:** `dcb40616c1f6323bab49dfbc2e0145c9f1858eb637226c312e77d495037213b0`
+- **Size:** 20,712,581 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 4 words corrected)
+
+```text
+3 =
+ON Buss
+r3 < 620 [12200
+220o
+cie 24 2322 Zi
+Cis 6. e/6v
+c18
+29 28
+Ciz7 26 25
+4R7
+3k3 24 DFE crS 855s 4f 26 <620 cli 2200
+997 221
+R39 0k2
+6 8/6v
+26 4Kt
+22k
+NOISE COMAONEATO LCLE LSFollOvJE OLES2 IDECICIEC
+Re? 22k ZN 5137
+7400 7402 7405 7404
+22
+R3i
+4TCH ENTER
+@ <2
+R40
+25
+7403 7407 3053 8093
+2/5 Ska
+2/2 226
+Ci9 I {68/6
+Z7 28 29
+02
+R32 4K7
+22k
+5137
+rio
+DIODES IN 914 RESiSToRS I4w 5% DUE circuit @EQUIPEMENTS COMPONENTS MAY BE Dhitted
+Ci2 4of
+R33 I0o
+Rzo
+RA
+09
+36=
+RI7
+22k RiB
+C20 G/6
+21
+Ri9: ok
+OGic READ
+Ts3 235 I00
+225 6kz
+R4?
+3k3
+22k R22
+Czi Ge/t
+236 3k3
+M - 8ertrol TS4 037 40
+R3o
+@Ke
+R42
+202 027 228
+05
+C2z G68/6
+19 <
+5137
+22k 229
+X-STRoBE OfF
+Strobe
+9033
+LAMP
+R45 6bo
+AVAILABLE
+TolS
+SYSIES M753 MEMORY ATCH f DT 30/7/ Lock UP CONTROL SCHEMATIC
+R44 l80
+753-02 0oi
+12200
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+3 =
+ON Buss
+r3 < 620 [12200
+220o
+cie 24 2322 Zi
+Cis 6. e/6v
+c18
+29 28
+Ciz7 26 25
+4R7
+3k3 24 DFE crS 855s 4f 26 <620 c[i 2200
+997 221
+R39 0k2
+6 8/6v
+26 4Kt
+22k
+NOIES COMAONEATO LCLE LSFollOvJE OLES2 IDECICIEC
+Re? 22k ZN 5137
+7400 7402 7405 7404
+22
+R3i
+4TCH ENTER
+@ <2
+R40
+25
+7403 7407 3053 8093
+2/5 Ska
+2/2 226
+Ci9 I {68/6
+Z7 28 29
+02
+R32 4K7
+22k
+5137
+rio
+DIODES IN 914 RESiSToRS I4w 5% DUE ciecuit @EQUIPEMENTS COMPONENTS MAY BE Dhitted
+Ci2 4of
+R33 I0o
+Rzo
+RA
+09
+36=
+RI7
+22k RiB
+C20 G/6
+21
+Ri9: ok
+OGic READ
+Ts3 235 I00
+225 6kz
+R4?
+3k3
+22k R22
+Czi Ge/t
+236 3k3
+M - 8ertrol TS4 037 40
+R3o
+@Ke
+R42
+202 027 228
+05
+C2z G68/6
+19 <
+5137
+22k 229
+X-STRoBE OfF
+Steobe
+9033
+LAMP
+R45 6bo
+AVAILABLE
+TolS
+SYSIES M753 MEMORY ATCH f DT 30/7/ Lock UP CONTROL SCHEMATIC
+R44 l80
+753-02 0oi
+12200
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Modules/COMMUNICATION/M753/19xx - M753 - DOC - WBSps.ca -2021-3-15-19-3-51.jpg",
+ "sha256": "dcb40616c1f6323bab49dfbc2e0145c9f1858eb637226c312e77d495037213b0",
+ "kind": "doc",
+ "models": [
+  "M753"
+ ],
+ "pages": 1
+}
+```

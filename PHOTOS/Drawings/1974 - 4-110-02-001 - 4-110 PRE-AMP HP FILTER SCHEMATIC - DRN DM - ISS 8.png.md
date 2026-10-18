@@ -1,0 +1,148 @@
+# 1974 - 4-110-02-001 - 4-110 PRE-AMP HP FILTER SCHEMATIC - DRN DM - ISS 8.png
+Wiki page: [Consoles](../../PAGES/Consoles.md)
+
+
+- **Year:** 1974 (title block date)
+- **Type:** drawing / photo from WBS Photos-1-001
+
+## Title block (found by software, read by eye)
+
+- **Drawing:** B 4-110-02-001
+- **Size:** B
+- **Title:** 4-110 / PRE-AMP/HP FILTER / SCHEMATIC
+- **Date:** 8 MAR 74
+- **Drawn:** DM
+- **Checked:** R. Bell (signature)
+- **Issue:** 8
+- **Confidence:** high
+
+- **Original file:** `WBSps.env/WBS Photos-1-001/WBSps.ca - 20210317 11X 17 Scans  (51).png`
+- **SHA-256:** `c2c7699ab9d179b77572ef0d2e12cbcf266f8dfd58de66d2356a81636e5af38a`
+- **Size:** 1,558,675 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 2 words corrected)
+
+```text
+PRE AMPLIFIER
+HIGH PASS FILTER
+E4 +21v
+R4 22k
+R5 18
+C6 10/25
+C12 33/10
+R2 ISk
+Q4 2N4403
+E5 BYPASS Ci3 33/10 E6
+Q3 2N4403 Icle IOpF R6 2ok
+Rla 4k7
+C3 47pF
+*C9 068
+CI 33 pF
+Q1 2N5209 C2 Q2 47pF 2N5209
+Ris FILTER 470k CONTROL C14 33h0 E7
+C5
+*C8 *C1O
+21 2/ 531
+IOpF
+033
+INPUT
+CI
+R7 Ik2
+R8 330
+OUT
+560pF4' Ri 2k2 E2
+Rio iok
+R3 22k
+95 2N5209
+RI3 9kI
+Ci5 33ko E8 FILTER CONTROL RI6 330k
+C4 I50ho
+E3 SENSITIVITY
+R9 Ik
+Rui 1k5
+R12 150
+E9 0-21v
+C7 10/25
+LAST COMPONENT DESIGN _
+Rig cig,  05,21
+ISS MODICCKD: USED ON 2 eskk s 4-0 3 lkodk pocc s kepkA 6 3iu Rc B591PKM 8 3690 ML
+MATL
+WBS WARD-BECK BySTEMS LTD'
+NOTES ALL RESISTORS $W,5% UNLESS OTHERWISE SPECIFIED_ 2. C8,C9 Cio SELECTED To I5% OF VALUES Shown: TR NSTEX Joo-1-74
+DRN_ Do DATE ETRZ CKD_ 74 SCALE TOLS {a B
+4-110
+FINISH
+PRE-AMPIHP FILTER SCHEMATIC
+4-II0-02-001
+ISS:
+6
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+PRE AMPLIFIER
+HIGH PASS FILTER
+E4 +21v
+R4 22k
+R5 18
+C6 10/25
+C12 33/10
+R2 ISk
+Q4 2N4403
+E5 BYPASS Ci3 33/10 E6
+Q3 2N4403 Icle IOpF R6 2ok
+Rla 4k7
+C3 47pF
+*C9 068
+CI 33 pF
+Q1 2N5209 C2 Q2 47pF 2N5209
+Ris FILTER 470k CONTROL C14 33h0 E7
+C5
+*C8 *C1O
+21 2/ 531
+IOpF
+033
+INPUT
+CI
+R7 Ik2
+R8 330
+OUT
+560pF4' Ri 2k2 E2
+Rio iok
+R3 22k
+95 2N5209
+RI3 9kI
+Ci5 33ko E8 FILTER CONTROL RI6 330k
+C4 I50ho
+E3 SENSiTIvITYO
+R9 Ik
+Rui 1k5
+R12 150
+E9 0-21v
+C7 10/25
+LAST COMPONENT DESiCN _
+Rig cig,  05,21
+ISS MODICCKD: USED ON 2 eskk s 4-0 3 lkodk pocc s kepkA 6 3iu Rc B591PKM 8 3690 ML
+MATL
+WBS WARD-BECK BySTEMS LTD'
+NOTES ALL RESISTORS $W,5% UNLESS OTHERWISE SPECIFIED_ 2. C8,C9 Cio SELECTED To I5% OF VALUES Shown: TR NSTEX Joo-1-74
+DRN_ Do DATE ETRZ CKD_ 74 SCALE TOLS {a B
+4-110
+FINISH
+PRE-AMPIHP FILTER SCHEMATIC
+4-II0-02-001
+ISS:
+6
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"PHOTOS/Drawings/1974 - 4-110-02-001 - 4-110 PRE-AMP HP FILTER SCHEMATIC - DRN DM - ISS 8.png","sha256":"c2c7699ab9d179b77572ef0d2e12cbcf266f8dfd58de66d2356a81636e5af38a","kind":"photo","year":1974,"pages":1,"order":[{"page":1,"title_block":[{"number":"B 4-110-02-001","type":"schematic","title":"4-110 / PRE-AMP/HP FILTER / SCHEMATIC","date":"8 MAR 74","year":1974,"drawn":"DM","issue":"8"}],"text":["PRE AMPLIFIER HIGH PASS FILTER","E4","+21v","R4 RS C12","C6 22k 18","10/25 R2 33/10 E5","ISk Q4 BYPASS","Q3 2N4403 RI4 Ci3","C3 2N4403 4k7 33//0","47pF E6","Itzi *C9","IOpF R6 063 Ch","2ok 33 pF Ris","FILTER","2N5209 470k CONTROL","C2 Q2 C5 *c8 *Cio C1a","47pf 2N5209 33/0 E7","IOpF 033 21","531","INPUT Ci R7 R8 OUT","56OpF4 Ik2 330","Rio","RI R3 iok Q5","2k2 22k C4 2N5209 RI3 Ci5","E2 9ki","Is0ho 33ko E8 FILTER","E3 CONTROL","SENSiTiViTYO RI6","R9 RI2 330k","Ik 1k5 150","E9","0-21v","C7 LAST COMPONENT DESiCN- RIg,Cig,q5,21","10/25 Iss MOD CCKD USED ON MATL _","2 WBS WARD-BECK LTD","NQTES 3","pcl DRN: Do 4-110","ALL RESISTORS 4W,5% UNLESS pez FINISH PRE-AMP/HP FILTER","OTHERWISE SPECIFIED: Rc CKD",",C1o Jiuv SCALE SCHEMATIC","2.C8,C9 SELECTED To I5% 3591 PKM","OF TOLS _ B 4-110-02-001 ISS-","VALUES Shown: 3690 ML"]}],"drawing":{"svg":"_traces/c2c7699ab9d179b7.svg","viewBox":[2000,1414],"rotate":0,"size":"B","number":"B 4-110-02-001","title":"4-110 / PRE-AMP/HP FILTER / SCHEMATIC","dtype":"02","outlines":"see _traces/c2c7699ab9d179b7.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/c2c7699ab9d179b7.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[478,170,"PRE"],[560,170,"AMPLIFIER"],[1198,168,"HIGH"],[1298,168,"PASS FILTER"],[1661,196,"E4"],[1702,225,"+21v"],[732,250,"R4"],[925,248,"RS"],[240,270,"C6"],[730,278,"22k"],[922,275,"18"],[1168,265,"C12"],[220,300,"10/25"],[432,293,"R2"],[1155,293,"33/10"],[422,320,"ISk"],[925,323,"Q4"],[1660,310,"E5"],[1710,333,"BYPASS"],[740,367,"Q3"],[911,367,"2N4403"],[1452,375,"RI4"],[1595,363,"Ci3"],[462,393,"C3"],[736,391,"2N4403"],[1456,399,"4k7"],[1595,388,"33//0"],[1665,408,"E6"],[460,420,"47pF"],[641,446,"Itzi"],[1138,455,"*C9"],[654,469,"IOpF"],[755,465,"R6"],[1162,478,"063"],[1425,473,"Ch"],[745,490,"2ok"],[1425,505,"33 pF"],[1605,510,"Ris"],[1745,510,"FILTER"],[432,540,"2N5209"],[1600,540,"470k"],[1738,543,"CONTROL"],[338,568,"C2"],[565,570,"Q2"],[755,568,"C5"],[1025,573,"*c8"],[1135,565,"*Cio"],[1600,573,"C1a"],[332,598,"47pf"],[524,601,"2N5209"],[1594,614,"33/0 E7"],[1345,625,"21"],[757,650,"IOpF"],[1340,650,"531"],[40,668,"INPUT"],[244,669,"Ci"],[560,673,"R7"],[658,670,"R8"],[1662,673,"OUT"],[212,704,"56OpF4"],[555,700,"Ik2"],[656,694,"330"],[745,723,"Rio"],[335,745,"RI"],[435,743,"R3"],[746,744,"iok"],[930,750,"Q5"],[330,773,"2k2"],[428,773,"22k"],[935,778,"2N5209"],[1192,778,"RI3"],[1598,783,"Ci5"],[211,789,"E2"],[565,790,"C4"],[532,818,"Is0ho"],[1201,801,"9ki"],[1585,813,"33ko"],[1662,833,"E8 FILTER"],[218,870,"E3"],[1710,863,"CONTROL"],[20,890,"SENSiTiViTYO"],[1545,893,"RI6"],[662,930,"R9"],[930,928,"RI2"],[1542,920,"330k"],[665,958,"Ik"],[828,960,"1k5"],[930,963,"150"],[1670,1018,"E9"],[1678,1043,"0-21v"],[450,1105,"C7"],[820,1098,"LAST"],[918,1098,"COMPONENT"],[1135,1098,"DESiCN-"],[1294,1111,"RIg,Cig,q5,21"],[442,1140,"10/25"],[684,1144,"Iss"],[729,1144,"MOD CCKD"],[886,1142,"USED ON"],[1036,1142,"MATL _"],[1312,1178,"WBS"],[1482,1170,"WARD-BECK"],[1881,1166,"LTD"],[109,1221,"NQTES"],[725,1238,"pcl"],[1281,1219,"DRN:"],[1351,1221,"Do"],[1685,1233,"4-110"],[112,1250,"ALL"],[179,1261,"RESISTORS 4W,5% UNLESS"],[722,1265,"pez"],[1036,1254,"FINISH"],[1606,1265,"PRE-AMP/HP FILTER"],[1279,1274,"CKD"],[112,1288,"OTHERWISE"],[312,1288,"SPECIFIED:"],[729,1289,"Jiuv"],[785,1290,"Rc"],[1279,1299,"SCALE"],[1650,1295,"SCHEMATIC"],[75,1320,"2.C8,C9"],[295,1318,"SELECTED To I5%"],[726,1316,"3591 PKM"],[110,1348,"OF"],[170,1353,"VALUES Shown:"],[731,1344,"3690"],[794,1344,"ML"],[1279,1337,"TOLS _"],[1616,1339,"4-110-02-001"],[1859,1331,"ISS-"],[1159,651,"033"],[213,1320,",C1o"]]}}
+```

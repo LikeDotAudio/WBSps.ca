@@ -1,0 +1,1323 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M441</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>M441</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="Category-INPUT-PRE-AMPS.html">INPUT-PRE-AMPS</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../simulator.html?m=M441">simulator &amp; front panel</a> · <a href="../_packages/M441.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="Year-1971.html">1971|4</a> — title-block date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"DATE JUNE '71" in WBS Photos-1-001/Scan_20210321 (10).png</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="Year-1971.html">1971|4</a></td>
+</tr>
+<tr>
+<td>Used in jobs</td>
+<td><a href="Job-73050.html">73050</a> (1973|6)</td>
+</tr>
+<tr>
+<td>Variants</td>
+<td><a href="M441F.html">M441F</a>, <a href="M441M.html">M441M</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210321%20-%20scans/">DOCUMENTS/RECENT SCANS/WBSps.ca 20210321 - scans</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../Modules/INPUT-PRE-AMPS/M441/index.html">Modules/INPUT-PRE-AMPS/M441</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections</h2>
+<p><em>What it is made of and what it is part of.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M441" data-n="" data-cat="INPUT-PRE-AMPS"></div><svg class="wbs-panel" data-m="M441" data-n="" data-cat="INPUT-PRE-AMPS" role="img" aria-label="M441 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M441","title":"","rto":null,"parts":[],"parents":[{"label":"73050","href":"Job-73050.html","note":"T1202"},{"label":"M441F","href":"M441F.html","note":"on 2 drawings with it"},{"label":"M441M","href":"M441M.html","note":"on 2 drawings with it: Channel Amplifier"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-002%20-%20SWITCH%20MTG%20PLATE%20-%20DRN%20GP%20-%20ISS%204.png"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-002%20-%20SWITCH%20MTG%20PLATE%20-%20DRN%20GP%20-%20ISS%204.png" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - 441-03-002 - SWITCH MTG PLATE - DRN GP - ISS 4.png" data-size="320" onerror="wbsOff(this)">1971 - 441-03-002 - SWITCH MTG PLATE - DRN GP - ISS 4.png</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-007%20-%20COVER%20MTG%20PLATE%20M441E%20-%20DRN%20WWH%20-%20ISS%203.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-007%20-%20COVER%20MTG%20PLATE%20M441E%20-%20DRN%20WWH%20-%20ISS%203.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - 441-03-007 - COVER MTG PLATE M441E - DRN WWH - ISS 3.jpg" data-size="320" onerror="wbsOff(this)">1971 - 441-03-007 - COVER MTG PLATE M441E - DRN WWH - ISS 3.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-008%20-%20ESCUTCHEON%20%28INPUT%20MODULE%29%20-%20DRN%20DJG%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-008%20-%20ESCUTCHEON%20%28INPUT%20MODULE%29%20-%20DRN%20DJG%20-%20ISS%201.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - 441-03-008 - ESCUTCHEON (INPUT MODULE) - DRN DJG - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1971 - 441-03-008 - ESCUTCHEON (INPUT MODULE) - DRN DJG - ISS 1.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-009%20-%20SWITCH%20PLATE%20%28INPUT%20MODULE%29%20-%20DRN%20DJG%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-009%20-%20SWITCH%20PLATE%20%28INPUT%20MODULE%29%20-%20DRN%20DJG%20-%20ISS%201.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - 441-03-009 - SWITCH PLATE (INPUT MODULE) - DRN DJG - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1971 - 441-03-009 - SWITCH PLATE (INPUT MODULE) - DRN DJG - ISS 1.jpg</a><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210321%20-%20scans/1973%20-%20DOC%20-%20181-02-001%20-%20SERIES%20PRE%20AMPLIFIER%20SCHEMATIC.jpg"><img loading="lazy" src="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210321%20-%20scans/1973%20-%20DOC%20-%20181-02-001%20-%20SERIES%20PRE%20AMPLIFIER%20SCHEMATIC.jpg" alt="" data-f="DOCUMENTS/RECENT SCANS/WBSps.ca 20210321 - scans/1973 - DOC - 181-02-001 - SERIES PRE AMPLIFIER SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)">1973 - DOC - 181-02-001 - SERIES PRE AMPLIFIER SCHEMATIC.jpg</a><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210321%20-%20scans/1973%20-%20DOC%20-%202021-3-21-17-20-52.jpg"><img loading="lazy" src="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210321%20-%20scans/1973%20-%20DOC%20-%202021-3-21-17-20-52.jpg" alt="" data-f="DOCUMENTS/RECENT SCANS/WBSps.ca 20210321 - scans/1973 - DOC - 2021-3-21-17-20-52.jpg" data-size="320" onerror="wbsOff(this)">1973 - DOC - 2021-3-21-17-20-52.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1970%20-%20441-02-002%20-%20M441A%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20DJG.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1970%20-%20441-02-002%20-%20M441A%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20DJG.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1970 - 441-02-002 - M441A INPUT MODULE SCHEMATIC - DRN DJG.jpg" data-size="320" onerror="wbsOff(this)">1970 - 441-02-002 - M441A INPUT MODULE SCHEMATIC - DRN DJG.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-02-004%20-%20M441C%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20MRW%20-%20ISS%202.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-02-004%20-%20M441C%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20MRW%20-%20ISS%202.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - 441-02-004 - M441C INPUT MODULE SCHEMATIC - DRN MRW - ISS 2.jpg" data-size="320" onerror="wbsOff(this)">1971 - 441-02-004 - M441C INPUT MODULE SCHEMATIC - DRN MRW - ISS 2.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-02-006%20-%20M441E%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20GP%20-%20ISS%202.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-02-006%20-%20M441E%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20GP%20-%20ISS%202.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - 441-02-006 - M441E INPUT MODULE SCHEMATIC - DRN GP - ISS 2.jpg" data-size="320" onerror="wbsOff(this)">1971 - 441-02-006 - M441E INPUT MODULE SCHEMATIC - DRN GP - ISS 2.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-02-007%20-%20M441F%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20GP%20-%20ISS%202.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-02-007%20-%20M441F%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20GP%20-%20ISS%202.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - 441-02-007 - M441F INPUT MODULE SCHEMATIC - DRN GP - ISS 2.jpg" data-size="320" onerror="wbsOff(this)">1971 - 441-02-007 - M441F INPUT MODULE SCHEMATIC - DRN GP - ISS 2.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-005%20-%20COVER%20MTG%20PLATE%20M441S%20-%20DRN%20WWH%20-%20ISS%204.png"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-005%20-%20COVER%20MTG%20PLATE%20M441S%20-%20DRN%20WWH%20-%20ISS%204.png" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - 441-03-005 - COVER MTG PLATE M441S - DRN WWH - ISS 4.png" data-size="320" onerror="wbsOff(this)">1971 - 441-03-005 - COVER MTG PLATE M441S - DRN WWH - ISS 4.png</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-006%20-%20ESCUTCHEON%20DRILLING%20DETAIL%20-%20DRN%20WWH%20-%20ISS%203.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-006%20-%20ESCUTCHEON%20DRILLING%20DETAIL%20-%20DRN%20WWH%20-%20ISS%203.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - 441-03-006 - ESCUTCHEON DRILLING DETAIL - DRN WWH - ISS 3.jpg" data-size="320" onerror="wbsOff(this)">1971 - 441-03-006 - ESCUTCHEON DRILLING DETAIL - DRN WWH - ISS 3.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-04-007%20-%20M441F%20INPUT%20MODULE%20LAYOUT%20-%20DRN%20GP%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-04-007%20-%20M441F%20INPUT%20MODULE%20LAYOUT%20-%20DRN%20GP%20-%20ISS%201.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - 441-04-007 - M441F INPUT MODULE LAYOUT - DRN GP - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1971 - 441-04-007 - M441F INPUT MODULE LAYOUT - DRN GP - ISS 1.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20181-02-001%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20181-02-001%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - 181-02-001 (2).jpg" data-size="320" onerror="wbsOff(this)">1971 - M441 - 181-02-001 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20181-02-001.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20181-02-001.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - 181-02-001.jpg" data-size="320" onerror="wbsOff(this)">1971 - M441 - 181-02-001.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20441-02-013%20-%20PIN%20PIN%20PIN.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20441-02-013%20-%20PIN%20PIN%20PIN.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - 441-02-013 - PIN PIN PIN.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1971 - M441 - 441-02-013 - PIN PIN PIN.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20441-02-013%20-%20UNLESS%20OTHERWISE%20SPECIFIED%20ARE.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20441-02-013%20-%20UNLESS%20OTHERWISE%20SPECIFIED%20ARE.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - 441-02-013 - UNLESS OTHERWISE SPECIFIED ARE.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1971 - M441 - 441-02-013 - UNLESS OTHERWISE SPECIFIED ARE.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20441-02-013.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20441-02-013.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - 441-02-013.jpg" data-size="320" onerror="wbsOff(this)">1971 - M441 - 441-02-013.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0276.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0276.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - IMG_0276.jpg" data-size="320" onerror="wbsOff(this)">1971 - M441 - IMG_0276.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0279.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0279.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - IMG_0279.jpg" data-size="320" onerror="wbsOff(this)">1971 - M441 - IMG_0279.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0280.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0280.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - IMG_0280.jpg" data-size="320" onerror="wbsOff(this)">1971 - M441 - IMG_0280.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0282.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0282.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - IMG_0282.jpg" data-size="320" onerror="wbsOff(this)">1971 - M441 - IMG_0282.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0283.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0283.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - IMG_0283.jpg" data-size="320" onerror="wbsOff(this)">1971 - M441 - IMG_0283.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0284.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0284.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - IMG_0284.jpg" data-size="320" onerror="wbsOff(this)">1971 - M441 - IMG_0284.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0285.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0285.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - IMG_0285.jpg" data-size="320" onerror="wbsOff(this)">1971 - M441 - IMG_0285.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0286.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0286.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - IMG_0286.jpg" data-size="320" onerror="wbsOff(this)">1971 - M441 - IMG_0286.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0288.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0288.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - IMG_0288.jpg" data-size="320" onerror="wbsOff(this)">1971 - M441 - IMG_0288.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0289.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0289.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - IMG_0289.jpg" data-size="320" onerror="wbsOff(this)">1971 - M441 - IMG_0289.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0296.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0296.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - IMG_0296.jpg" data-size="320" onerror="wbsOff(this)">1971 - M441 - IMG_0296.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0297.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0297.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - IMG_0297.jpg" data-size="320" onerror="wbsOff(this)">1971 - M441 - IMG_0297.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0298.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0298.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - IMG_0298.jpg" data-size="320" onerror="wbsOff(this)">1971 - M441 - IMG_0298.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0308.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0308.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - IMG_0308.jpg" data-size="320" onerror="wbsOff(this)">1971 - M441 - IMG_0308.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.51.52%20PM.png"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.51.52%20PM.png" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - Screen Shot 2013-03-27 at 10.51.52 PM.png" data-size="320" onerror="wbsOff(this)">1971 - M441 - Screen Shot 2013-03-27 at 10.51.52 PM.png</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.51.58%20PM.png"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.51.58%20PM.png" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - Screen Shot 2013-03-27 at 10.51.58 PM.png" data-size="320" onerror="wbsOff(this)">1971 - M441 - Screen Shot 2013-03-27 at 10.51.58 PM.png</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.03%20PM.png"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.03%20PM.png" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - Screen Shot 2013-03-27 at 10.52.03 PM.png" data-size="320" onerror="wbsOff(this)">1971 - M441 - Screen Shot 2013-03-27 at 10.52.03 PM.png</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.10%20PM.png"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.10%20PM.png" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - Screen Shot 2013-03-27 at 10.52.10 PM.png" data-size="320" onerror="wbsOff(this)">1971 - M441 - Screen Shot 2013-03-27 at 10.52.10 PM.png</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.15%20PM.png"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.15%20PM.png" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - Screen Shot 2013-03-27 at 10.52.15 PM.png" data-size="320" onerror="wbsOff(this)">1971 - M441 - Screen Shot 2013-03-27 at 10.52.15 PM.png</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.22%20PM.png"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.22%20PM.png" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - Screen Shot 2013-03-27 at 10.52.22 PM.png" data-size="320" onerror="wbsOff(this)">1971 - M441 - Screen Shot 2013-03-27 at 10.52.22 PM.png</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.30%20PM.png"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.30%20PM.png" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - Screen Shot 2013-03-27 at 10.52.30 PM.png" data-size="320" onerror="wbsOff(this)">1971 - M441 - Screen Shot 2013-03-27 at 10.52.30 PM.png</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.36%20PM.png"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.36%20PM.png" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - Screen Shot 2013-03-27 at 10.52.36 PM.png" data-size="320" onerror="wbsOff(this)">1971 - M441 - Screen Shot 2013-03-27 at 10.52.36 PM.png</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.44%20PM.png"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.44%20PM.png" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - Screen Shot 2013-03-27 at 10.52.44 PM.png" data-size="320" onerror="wbsOff(this)">1971 - M441 - Screen Shot 2013-03-27 at 10.52.44 PM.png</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.50%20PM.png"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.50%20PM.png" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - Screen Shot 2013-03-27 at 10.52.50 PM.png" data-size="320" onerror="wbsOff(this)">1971 - M441 - Screen Shot 2013-03-27 at 10.52.50 PM.png</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Ward%20Beck%20Systems%20M441%202.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Ward%20Beck%20Systems%20M441%202.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - Ward Beck Systems M441 2.jpg" data-size="320" onerror="wbsOff(this)">1971 - M441 - Ward Beck Systems M441 2.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Ward%20Beck%20Systems%20M441.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Ward%20Beck%20Systems%20M441.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - Ward Beck Systems M441.jpg" data-size="320" onerror="wbsOff(this)">1971 - M441 - Ward Beck Systems M441.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20series%20preamp%20schematic.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20series%20preamp%20schematic.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - series preamp schematic.jpg" data-size="320" onerror="wbsOff(this)">1971 - M441 - series preamp schematic.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20wbsps%20-%20module%20-%20m441%20-%20pre%20amp%20-%20td.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20wbsps%20-%20module%20-%20m441%20-%20pre%20amp%20-%20td.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - wbsps - module - m441 - pre amp - td.jpg" data-size="320" onerror="wbsOff(this)">1971 - M441 - wbsps - module - m441 - pre amp - td.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20wbsps%20-%20module%20-%20m441%20-%20pre%20amp%20-%20td_small.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20wbsps%20-%20module%20-%20m441%20-%20pre%20amp%20-%20td_small.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - wbsps - module - m441 - pre amp - td_small.jpg" data-size="320" onerror="wbsOff(this)">1971 - M441 - wbsps - module - m441 - pre amp - td_small.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1973%20-%20441-02-013%20-%20DRN%20GP.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1973%20-%20441-02-013%20-%20DRN%20GP.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1973 - 441-02-013 - DRN GP.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1973 - 441-02-013 - DRN GP.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1973%20-%20441-02-013%20-%20M441M%20CHANNEL%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GP%20-%20ISS%204.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1973%20-%20441-02-013%20-%20M441M%20CHANNEL%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GP%20-%20ISS%204.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1973 - 441-02-013 - M441M CHANNEL AMPLIFIER SCHEMATIC - DRN GP - ISS 4.jpg" data-size="320" onerror="wbsOff(this)">1973 - 441-02-013 - M441M CHANNEL AMPLIFIER SCHEMATIC - DRN GP - ISS 4.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1973%20-%20441-04-013%20-%20M441M%20CHANNEL%20AMPLIFIER%20MODULE%20LAYOUT%20-%20DRN%20BWJ%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1973%20-%20441-04-013%20-%20M441M%20CHANNEL%20AMPLIFIER%20MODULE%20LAYOUT%20-%20DRN%20BWJ%20-%20ISS%201.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1973 - 441-04-013 - M441M CHANNEL AMPLIFIER MODULE LAYOUT - DRN BWJ - ISS 1.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1973 - 441-04-013 - M441M CHANNEL AMPLIFIER MODULE LAYOUT - DRN BWJ - ISS 1.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1974%20-%20441-03-014%20-%20ESCUTCHEON%20-%20M441H%20-%20DRN%20DPS%20-%20ISS%202.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1974%20-%20441-03-014%20-%20ESCUTCHEON%20-%20M441H%20-%20DRN%20DPS%20-%20ISS%202.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1974 - 441-03-014 - ESCUTCHEON - M441H - DRN DPS - ISS 2.jpg" data-size="320" onerror="wbsOff(this)">1974 - 441-03-014 - ESCUTCHEON - M441H - DRN DPS - ISS 2.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1974%20-%20441-03-015%20-%20ESCUTCHEON%20MTG%20PLATE%20%28M441%20H%29%20-%20DRN%20DPS%20-%20ISS%201.png"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1974%20-%20441-03-015%20-%20ESCUTCHEON%20MTG%20PLATE%20%28M441%20H%29%20-%20DRN%20DPS%20-%20ISS%201.png" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1974 - 441-03-015 - ESCUTCHEON MTG PLATE (M441 H) - DRN DPS - ISS 1.png" data-size="320" onerror="wbsOff(this)">1974 - 441-03-015 - ESCUTCHEON MTG PLATE (M441 H) - DRN DPS - ISS 1.png</a><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210321%20-%20scans/19xx%20-%20DOC%20-%20441-03-014%20-%20RAD%20TYP.png"><img loading="lazy" src="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210321%20-%20scans/19xx%20-%20DOC%20-%20441-03-014%20-%20RAD%20TYP.png" alt="" data-f="DOCUMENTS/RECENT SCANS/WBSps.ca 20210321 - scans/19xx - DOC - 441-03-014 - RAD TYP.png" data-size="320" onerror="wbsOff(this)">19xx - DOC - 441-03-014 - RAD TYP.png</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/19xx%20-%20441-02-003%20-%20M441B%20INPUT%20MODULE%20SCHEMATIC%20-%20ISS%204.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/19xx%20-%20441-02-003%20-%20M441B%20INPUT%20MODULE%20SCHEMATIC%20-%20ISS%204.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/19xx - 441-02-003 - M441B INPUT MODULE SCHEMATIC - ISS 4.jpg" data-size="320" onerror="wbsOff(this)">19xx - 441-02-003 - M441B INPUT MODULE SCHEMATIC - ISS 4.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/19xx%20-%20441-02-013%20-%20EL%20AMPLIFIER%20...EMATIC%20%28partial%3B%20model%20text%20...411M%29%20-%20ISS%203.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/19xx%20-%20441-02-013%20-%20EL%20AMPLIFIER%20...EMATIC%20%28partial%3B%20model%20text%20...411M%29%20-%20ISS%203.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/19xx - 441-02-013 - EL AMPLIFIER ...EMATIC (partial; model text ...411M) - ISS 3.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">19xx - 441-02-013 - EL AMPLIFIER ...EMATIC (partial; model text ...411M) - ISS 3.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/Ward%20Beck%20Systems%20M441%202.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/Ward%20Beck%20Systems%20M441%202.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/Ward Beck Systems M441 2.jpg" data-size="320" onerror="wbsOff(this)">Ward Beck Systems M441 2.jpg</a><a href="../viewer.html?f=PHOTOS/Photos/IMG_1251.jpg"><img loading="lazy" src="../PHOTOS/Photos/IMG_1251.jpg" alt="" data-f="PHOTOS/Photos/IMG_1251.jpg" data-size="320" onerror="wbsOff(this)">IMG_1251.jpg</a><a href="../viewer.html?f=PHOTOS/Photos/IMG_2008.jpg"><img loading="lazy" src="../PHOTOS/Photos/IMG_2008.jpg" alt="" data-f="PHOTOS/Photos/IMG_2008.jpg" data-size="320" onerror="wbsOff(this)">IMG_2008.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441F/1972%20-%20M441F%20-%20vint%20P1.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441F/1972%20-%20M441F%20-%20vint%20P1.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441F/1972 - M441F - vint P1.jpg" data-size="320" onerror="wbsOff(this)">1972 - M441F - vint P1.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441M/1973%20-%20M441M%20-%20docs-2.gif"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441M/1973%20-%20M441M%20-%20docs-2.gif" alt="" data-f="Modules/INPUT-PRE-AMPS/M441M/1973 - M441M - docs-2.gif" data-size="320" onerror="wbsOff(this)">1973 - M441M - docs-2.gif</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441M/1973%20-%20M441M%20-%20wbsps%20-%20module%20-%20m441m%20pre-amp%20-%20front.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441M/1973%20-%20M441M%20-%20wbsps%20-%20module%20-%20m441m%20pre-amp%20-%20front.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441M/1973 - M441M - wbsps - module - m441m pre-amp - front.jpg" data-size="320" onerror="wbsOff(this)">1973 - M441M - wbsps - module - m441m pre-amp - front.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M181/1973%20-%20181-02-001%20-%20M441%20SERIES%20PRE%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GP%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/UNSORTED/M181/1973%20-%20181-02-001%20-%20M441%20SERIES%20PRE%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GP%20-%20ISS%201.jpg" alt="" data-f="Modules/UNSORTED/M181/1973 - 181-02-001 - M441 SERIES PRE AMPLIFIER SCHEMATIC - DRN GP - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1973 - 181-02-001 - M441 SERIES PRE AMPLIFIER SCHEMATIC - DRN GP - ISS 1.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M182/1973%20-%20182-02-001%20-%20M441%20SERIES%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GP%20-%20ENG%20GEB%20in%20revision%20table%20at%20left.jpg"><img loading="lazy" src="../Modules/UNSORTED/M182/1973%20-%20182-02-001%20-%20M441%20SERIES%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GP%20-%20ENG%20GEB%20in%20revision%20table%20at%20left.jpg" alt="" data-f="Modules/UNSORTED/M182/1973 - 182-02-001 - M441 SERIES BOOSTER AMPLIFIER SCHEMATIC - DRN GP - ENG GEB in revision table at left.jpg" data-size="320" onerror="wbsOff(this)">1973 - 182-02-001 - M441 SERIES BOOSTER AMPLIFIER SCHEMATIC - DRN GP - ENG GEB in revision table at left.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%204.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20M416%20-%204.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - M416 - 4.jpg" data-size="320" onerror="wbsOff(this)">1973 - M416 - 4.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P4.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20M416%20-%20P4.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - M416 - P4.jpg" data-size="320" onerror="wbsOff(this)">1973 - M416 - P4.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M453/1976%20-%20M453%20-%20vint%20P5.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M453/1976%20-%20M453%20-%20vint%20P5.jpg" alt="" data-f="Modules/AMPLIFIERS/M453/1976 - M453 - vint P5.jpg" data-size="320" onerror="wbsOff(this)">1976 - M453 - vint P5.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441M/1973%20-%20M441M%20-%20DOC%20-%20441-03-010%20-%20MOD%20ICKD%20USED.png"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441M/1973%20-%20M441M%20-%20DOC%20-%20441-03-010%20-%20MOD%20ICKD%20USED.png" alt="" data-f="Modules/INPUT-PRE-AMPS/M441M/1973 - M441M - DOC - 441-03-010 - MOD ICKD USED.png" data-size="320" onerror="wbsOff(this)">1973 - M441M - DOC - 441-03-010 - MOD ICKD USED.png</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441M/1973%20-%20M441M%20-%20441-04-013%20-%20WAAD-BECK%20BYSTEMS%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441M/1973%20-%20M441M%20-%20441-04-013%20-%20WAAD-BECK%20BYSTEMS%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441M/1973 - M441M - 441-04-013 - WAAD-BECK BYSTEMS (2).jpg" data-size="320" onerror="wbsOff(this)">1973 - M441M - 441-04-013 - WAAD-BECK BYSTEMS (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441M/1973%20-%20M441M%20-%20441-04-013%20-%20WAAD-BECK%20BYSTEMS.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441M/1973%20-%20M441M%20-%20441-04-013%20-%20WAAD-BECK%20BYSTEMS.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441M/1973 - M441M - 441-04-013 - WAAD-BECK BYSTEMS.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1973 - M441M - 441-04-013 - WAAD-BECK BYSTEMS.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441M/1973%20-%20M441M%20-%20441-02-013%20-%20PIN%20PIN%20PIN%20PIN%20SUF%20MUTE.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441M/1973%20-%20M441M%20-%20441-02-013%20-%20PIN%20PIN%20PIN%20PIN%20SUF%20MUTE.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441M/1973 - M441M - 441-02-013 - PIN PIN PIN PIN SUF MUTE.jpg" data-size="320" onerror="wbsOff(this)">1973 - M441M - 441-02-013 - PIN PIN PIN PIN SUF MUTE.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441F/1972%20-%20M441F%20-%20441-04-007.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441F/1972%20-%20M441F%20-%20441-04-007.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M441F/1972 - M441F - 441-04-007.jpg" data-size="320" onerror="wbsOff(this)">1972 - M441F - 441-04-007.jpg</a></div>
+
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td>title-block date</td>
+<td><code>DATE JUNE '71</code></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-002%20-%20SWITCH%20MTG%20PLATE%20-%20DRN%20GP%20-%20ISS%204.png">1971 - 441-03-002 - SWITCH MTG PLATE - DRN GP - ISS 4.png</a></td>
+</tr>
+<tr>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td>month &amp; year</td>
+<td><code>Oct 71</code></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-007%20-%20COVER%20MTG%20PLATE%20M441E%20-%20DRN%20WWH%20-%20ISS%203.jpg">1971 - 441-03-007 - COVER MTG PLATE M441E - DRN WWH - ISS 3.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td>title-block date</td>
+<td><code>Date APRIL 71</code></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-008%20-%20ESCUTCHEON%20%28INPUT%20MODULE%29%20-%20DRN%20DJG%20-%20ISS%201.jpg">1971 - 441-03-008 - ESCUTCHEON (INPUT MODULE) - DRN DJG - ISS 1.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td>month &amp; year</td>
+<td><code>APRIL 71</code></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-009%20-%20SWITCH%20PLATE%20%28INPUT%20MODULE%29%20-%20DRN%20DJG%20-%20ISS%201.jpg">1971 - 441-03-009 - SWITCH PLATE (INPUT MODULE) - DRN DJG - ISS 1.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>title-block date</td>
+<td><code>DATE APR 73</code></td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210321%20-%20scans/1973%20-%20DOC%20-%20181-02-001%20-%20SERIES%20PRE%20AMPLIFIER%20SCHEMATIC.jpg">1973 - DOC - 181-02-001 - SERIES PRE AMPLIFIER SCHEMATIC.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>month &amp; year</td>
+<td><code>APR 73</code></td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210321%20-%20scans/1973%20-%20DOC%20-%202021-3-21-17-20-52.jpg">1973 - DOC - 2021-3-21-17-20-52.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>title-block date</td>
+<td><code>DATE APR 73</code></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1973%20-%20M441%20-%20DOC%20-%20181-02-001%20-%20SERIES%20PRE%20AMPLIFIER%20SCHEMATIC.jpg">1973 - M441 - DOC - 181-02-001 - SERIES PRE AMPLIFIER SCHEMATIC.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>month &amp; year</td>
+<td><code>APR 73</code></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1973%20-%20M441%20-%20DOC%20-%202021-3-21-17-20-52.jpg">1973 - M441 - DOC - 2021-3-21-17-20-52.jpg</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (59)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1970%20-%20441-02-002%20-%20M441A%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20DJG.jpg">1970 - 441-02-002 - M441A INPUT MODULE SCHEMATIC - DRN DJG.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1970%20-%20441-02-002%20-%20M441A%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20DJG.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-02-004%20-%20M441C%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20MRW%20-%20ISS%202.jpg">1971 - 441-02-004 - M441C INPUT MODULE SCHEMATIC - DRN MRW - ISS 2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-02-004%20-%20M441C%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20MRW%20-%20ISS%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-02-006%20-%20M441E%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20GP%20-%20ISS%202.jpg">1971 - 441-02-006 - M441E INPUT MODULE SCHEMATIC - DRN GP - ISS 2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-02-006%20-%20M441E%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20GP%20-%20ISS%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-02-007%20-%20M441F%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20GP%20-%20ISS%202.jpg">1971 - 441-02-007 - M441F INPUT MODULE SCHEMATIC - DRN GP - ISS 2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-02-007%20-%20M441F%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20GP%20-%20ISS%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-002%20-%20SWITCH%20MTG%20PLATE%20-%20DRN%20GP%20-%20ISS%204.png">1971 - 441-03-002 - SWITCH MTG PLATE - DRN GP - ISS 4.png</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-002%20-%20SWITCH%20MTG%20PLATE%20-%20DRN%20GP%20-%20ISS%204.png.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-005%20-%20COVER%20MTG%20PLATE%20M441S%20-%20DRN%20WWH%20-%20ISS%204.png">1971 - 441-03-005 - COVER MTG PLATE M441S - DRN WWH - ISS 4.png</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-005%20-%20COVER%20MTG%20PLATE%20M441S%20-%20DRN%20WWH%20-%20ISS%204.png.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-006%20-%20ESCUTCHEON%20DRILLING%20DETAIL%20-%20DRN%20WWH%20-%20ISS%203.jpg">1971 - 441-03-006 - ESCUTCHEON DRILLING DETAIL - DRN WWH - ISS 3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-006%20-%20ESCUTCHEON%20DRILLING%20DETAIL%20-%20DRN%20WWH%20-%20ISS%203.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-007%20-%20COVER%20MTG%20PLATE%20M441E%20-%20DRN%20WWH%20-%20ISS%203.jpg">1971 - 441-03-007 - COVER MTG PLATE M441E - DRN WWH - ISS 3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-007%20-%20COVER%20MTG%20PLATE%20M441E%20-%20DRN%20WWH%20-%20ISS%203.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-008%20-%20ESCUTCHEON%20%28INPUT%20MODULE%29%20-%20DRN%20DJG%20-%20ISS%201.jpg">1971 - 441-03-008 - ESCUTCHEON (INPUT MODULE) - DRN DJG - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-008%20-%20ESCUTCHEON%20%28INPUT%20MODULE%29%20-%20DRN%20DJG%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-009%20-%20SWITCH%20PLATE%20%28INPUT%20MODULE%29%20-%20DRN%20DJG%20-%20ISS%201.jpg">1971 - 441-03-009 - SWITCH PLATE (INPUT MODULE) - DRN DJG - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-009%20-%20SWITCH%20PLATE%20%28INPUT%20MODULE%29%20-%20DRN%20DJG%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-04-007%20-%20M441F%20INPUT%20MODULE%20LAYOUT%20-%20DRN%20GP%20-%20ISS%201.jpg">1971 - 441-04-007 - M441F INPUT MODULE LAYOUT - DRN GP - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-04-007%20-%20M441F%20INPUT%20MODULE%20LAYOUT%20-%20DRN%20GP%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20181-02-001%20%282%29.jpg">1971 - M441 - 181-02-001 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20181-02-001%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20181-02-001.jpg">1971 - M441 - 181-02-001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20181-02-001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20441-02-013%20-%20PIN%20PIN%20PIN.jpg">1971 - M441 - 441-02-013 - PIN PIN PIN.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20441-02-013%20-%20PIN%20PIN%20PIN.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20441-02-013%20-%20UNLESS%20OTHERWISE%20SPECIFIED%20ARE.jpg">1971 - M441 - 441-02-013 - UNLESS OTHERWISE SPECIFIED ARE.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20441-02-013%20-%20UNLESS%20OTHERWISE%20SPECIFIED%20ARE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20441-02-013.jpg">1971 - M441 - 441-02-013.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20441-02-013.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0276.jpg">1971 - M441 - IMG_0276.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0276.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0279.jpg">1971 - M441 - IMG_0279.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0279.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0280.jpg">1971 - M441 - IMG_0280.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0280.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0282.jpg">1971 - M441 - IMG_0282.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0282.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0283.jpg">1971 - M441 - IMG_0283.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0283.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0284.jpg">1971 - M441 - IMG_0284.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0284.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0285.jpg">1971 - M441 - IMG_0285.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0285.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0286.jpg">1971 - M441 - IMG_0286.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0286.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0288.jpg">1971 - M441 - IMG_0288.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0288.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0289.jpg">1971 - M441 - IMG_0289.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0289.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0296.jpg">1971 - M441 - IMG_0296.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0296.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0297.jpg">1971 - M441 - IMG_0297.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0297.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0298.jpg">1971 - M441 - IMG_0298.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0298.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0308.jpg">1971 - M441 - IMG_0308.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20IMG_0308.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.51.52%20PM.png">1971 - M441 - Screen Shot 2013-03-27 at 10.51.52 PM.png</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.51.52%20PM.png.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.51.58%20PM.png">1971 - M441 - Screen Shot 2013-03-27 at 10.51.58 PM.png</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.51.58%20PM.png.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.03%20PM.png">1971 - M441 - Screen Shot 2013-03-27 at 10.52.03 PM.png</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.03%20PM.png.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.10%20PM.png">1971 - M441 - Screen Shot 2013-03-27 at 10.52.10 PM.png</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.10%20PM.png.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.15%20PM.png">1971 - M441 - Screen Shot 2013-03-27 at 10.52.15 PM.png</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.15%20PM.png.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.22%20PM.png">1971 - M441 - Screen Shot 2013-03-27 at 10.52.22 PM.png</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.22%20PM.png.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.30%20PM.png">1971 - M441 - Screen Shot 2013-03-27 at 10.52.30 PM.png</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.30%20PM.png.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.36%20PM.png">1971 - M441 - Screen Shot 2013-03-27 at 10.52.36 PM.png</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.36%20PM.png.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.44%20PM.png">1971 - M441 - Screen Shot 2013-03-27 at 10.52.44 PM.png</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.44%20PM.png.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.50%20PM.png">1971 - M441 - Screen Shot 2013-03-27 at 10.52.50 PM.png</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.50%20PM.png.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Ward%20Beck%20Systems%20M441%202.jpg">1971 - M441 - Ward Beck Systems M441 2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Ward%20Beck%20Systems%20M441%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Ward%20Beck%20Systems%20M441.jpg">1971 - M441 - Ward Beck Systems M441.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Ward%20Beck%20Systems%20M441.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20series%20preamp%20schematic.jpg">1971 - M441 - series preamp schematic.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20series%20preamp%20schematic.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20wbsps%20-%20module%20-%20m441%20-%20pre%20amp%20-%20td.jpg">1971 - M441 - wbsps - module - m441 - pre amp - td.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20wbsps%20-%20module%20-%20m441%20-%20pre%20amp%20-%20td.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20wbsps%20-%20module%20-%20m441%20-%20pre%20amp%20-%20td_small.jpg">1971 - M441 - wbsps - module - m441 - pre amp - td_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20wbsps%20-%20module%20-%20m441%20-%20pre%20amp%20-%20td_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210321%20-%20scans/1973%20-%20DOC%20-%20181-02-001%20-%20SERIES%20PRE%20AMPLIFIER%20SCHEMATIC.jpg">1973 - DOC - 181-02-001 - SERIES PRE AMPLIFIER SCHEMATIC.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210321%20-%20scans/1973%20-%20DOC%20-%20181-02-001%20-%20SERIES%20PRE%20AMPLIFIER%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210321%20-%20scans/1973%20-%20DOC%20-%202021-3-21-17-20-52.jpg">1973 - DOC - 2021-3-21-17-20-52.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210321%20-%20scans/1973%20-%20DOC%20-%202021-3-21-17-20-52.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1973%20-%20441-02-013%20-%20DRN%20GP.jpg">1973 - 441-02-013 - DRN GP.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1973%20-%20441-02-013%20-%20DRN%20GP.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1973%20-%20441-02-013%20-%20M441M%20CHANNEL%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GP%20-%20ISS%204.jpg">1973 - 441-02-013 - M441M CHANNEL AMPLIFIER SCHEMATIC - DRN GP - ISS 4.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1973%20-%20441-02-013%20-%20M441M%20CHANNEL%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GP%20-%20ISS%204.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1973%20-%20441-04-013%20-%20M441M%20CHANNEL%20AMPLIFIER%20MODULE%20LAYOUT%20-%20DRN%20BWJ%20-%20ISS%201.jpg">1973 - 441-04-013 - M441M CHANNEL AMPLIFIER MODULE LAYOUT - DRN BWJ - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1973%20-%20441-04-013%20-%20M441M%20CHANNEL%20AMPLIFIER%20MODULE%20LAYOUT%20-%20DRN%20BWJ%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1973%20-%20M441%20-%20DOC%20-%20181-02-001%20-%20SERIES%20PRE%20AMPLIFIER%20SCHEMATIC.jpg">1973 - M441 - DOC - 181-02-001 - SERIES PRE AMPLIFIER SCHEMATIC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1973%20-%20M441%20-%20DOC%20-%20181-02-001%20-%20SERIES%20PRE%20AMPLIFIER%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1973%20-%20M441%20-%20DOC%20-%202021-3-21-17-20-52.jpg">1973 - M441 - DOC - 2021-3-21-17-20-52.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1973%20-%20M441%20-%20DOC%20-%202021-3-21-17-20-52.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1974|7</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1974%20-%20441-03-014%20-%20ESCUTCHEON%20-%20M441H%20-%20DRN%20DPS%20-%20ISS%202.jpg">1974 - 441-03-014 - ESCUTCHEON - M441H - DRN DPS - ISS 2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1974%20-%20441-03-014%20-%20ESCUTCHEON%20-%20M441H%20-%20DRN%20DPS%20-%20ISS%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1974|7</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1974%20-%20441-03-015%20-%20ESCUTCHEON%20MTG%20PLATE%20%28M441%20H%29%20-%20DRN%20DPS%20-%20ISS%201.png">1974 - 441-03-015 - ESCUTCHEON MTG PLATE (M441 H) - DRN DPS - ISS 1.png</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1974%20-%20441-03-015%20-%20ESCUTCHEON%20MTG%20PLATE%20%28M441%20H%29%20-%20DRN%20DPS%20-%20ISS%201.png.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210321%20-%20scans/19xx%20-%20DOC%20-%20441-03-014%20-%20RAD%20TYP.png">19xx - DOC - 441-03-014 - RAD TYP.png</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210321%20-%20scans/19xx%20-%20DOC%20-%20441-03-014%20-%20RAD%20TYP.png.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/19xx%20-%20441-02-003%20-%20M441B%20INPUT%20MODULE%20SCHEMATIC%20-%20ISS%204.jpg">19xx - 441-02-003 - M441B INPUT MODULE SCHEMATIC - ISS 4.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/19xx%20-%20441-02-003%20-%20M441B%20INPUT%20MODULE%20SCHEMATIC%20-%20ISS%204.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/19xx%20-%20441-02-013%20-%20EL%20AMPLIFIER%20...EMATIC%20%28partial%3B%20model%20text%20...411M%29%20-%20ISS%203.jpg">19xx - 441-02-013 - EL AMPLIFIER ...EMATIC (partial; model text ...411M) - ISS 3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/19xx%20-%20441-02-013%20-%20EL%20AMPLIFIER%20...EMATIC%20%28partial%3B%20model%20text%20...411M%29%20-%20ISS%203.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/19xx%20-%20M441%20-%20DOC%20-%20441-03-014%20-%20RAD%20TYP.png">19xx - M441 - DOC - 441-03-014 - RAD TYP.png</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/19xx%20-%20M441%20-%20DOC%20-%20441-03-014%20-%20RAD%20TYP.png.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/Ward%20Beck%20Systems%20M441%202.jpg">Ward Beck Systems M441 2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/Ward%20Beck%20Systems%20M441%202.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Consoles &amp; jobs it is connected to (1)</h2>
+<p><em>Their own drawings name this module.</em></p>
+<table>
+<thead>
+<tr>
+<th>Job</th>
+<th>Year</th>
+<th>Drawing</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Job-73050.html">73050</a></td>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/73050%20-%20T1202/1973%20-%2073050%20-%2012%20Channel%20Audio%20Mixing%20Console.pdf">1973 - 73050 - 12 Channel Audio Mixing Console.pdf</a></td>
+<td>21</td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (12)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../viewer.html?f=PHOTOS/Photos/IMG_1251.jpg">IMG_1251.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=PHOTOS/Photos/IMG_2008.jpg">IMG_2008.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441F/1972%20-%20M441F%20-%20vint%20P1.jpg">1972 - M441F - vint P1.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441M/1973%20-%20M441M%20-%20Channel%20Amplifier%20%282%29.pdf">1973 - M441M - Channel Amplifier (2).pdf</a></td>
+<td>2</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441M/1973%20-%20M441M%20-%20Channel%20Amplifier.pdf">1973 - M441M - Channel Amplifier.pdf</a></td>
+<td>2</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441M/1973%20-%20M441M%20-%20docs-2.gif">1973 - M441M - docs-2.gif</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441M/1973%20-%20M441M%20-%20wbsps%20-%20module%20-%20m441m%20pre-amp%20-%20front.jpg">1973 - M441M - wbsps - module - m441m pre-amp - front.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M181/1973%20-%20181-02-001%20-%20M441%20SERIES%20PRE%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GP%20-%20ISS%201.jpg">1973 - 181-02-001 - M441 SERIES PRE AMPLIFIER SCHEMATIC - DRN GP - ISS 1.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M182/1973%20-%20182-02-001%20-%20M441%20SERIES%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GP%20-%20ENG%20GEB%20in%20revision%20table%20at%20left.jpg">1973 - 182-02-001 - M441 SERIES BOOSTER AMPLIFIER SCHEMATIC - DRN GP - ENG GEB in revision table at left.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%204.jpg">1973 - M416 - 4.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P4.jpg">1973 - M416 - P4.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M453/1976%20-%20M453%20-%20vint%20P5.jpg">1976 - M453 - vint P5.jpg</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>Specifications (3)</h3>
+<details><summary>Technical Data — 275 words · 1971 - M441 - Ward Beck Systems M441 2.jpg, page 1</summary><p>SOURCE IMPEDANCE Microphone input 150 ohms balanced  GAIN Line input 600 ohms or less balanced  a) Preamplifier Booster amplifier input 600 ohms or less balanced Microphone input 6OdB to 1OdB + 0.5dB selectable via INPUT IMPEDANCE sensitivity switch_ Microphone input 750 ohms or greater balanced_ b) Line input unity to 18dB + 0.5dB selectable via sensitivity Line input 20K ohms balanced (may be externally terminated switch.</p><p>in 600 or 150 ohms) . b) Booster amplifier 1SdB + 0.25dB Booster amplifier input 4000 ohms balanced_ FREQUENCY RESPONSE OUTPUT LEVEL +0.25dB 30Hz to 2OkHz Preamplifier 1OdBm nominal_ +27dBm maximum. NOISE Booster ampli- fier 1OdBm nominal, +2OdBm maximum_ Microphone input equivalent to -124 input noise for 70 sensitivity LOAD IMPEDANCE Line input greater than 75dB signal to noise (referred to a test level Preamplifier 600 ohms balanced.</p><p>1OdB above the nominal operating level) . Booster amplifier 600 ohms balanced_ TOTAL HARMONIC DISTORTION OUTPUT IMPEDANCE: Less than 0.25% 30Hz to 20kHz measured with preamplifier out- Preamplifier less than 25 ohms Booster amplifier less than put level of +24dBm and a booster amplifier output level of +18dBm. 25 ohms INPUT LEVEL PHASING Microphone input -7OdBm to 2OdBm nominal, -35dBm to +1SdBm The numbered terminal of the input pair is in phase with the maximum: numbered terminal of the output pair.</p><p>Line Input 1OdBm to +8dBm nominal, +25dBm maximum_ POWER REQUIREMENTS Booster amplifier input -25dBm nominal, +SdBm maximum: 48Vdc regulated 65 ma AMBIENT TEMPERATURE ACCESSORIES: 0o to 600C DIMENSIONS 1.6&quot;W x 6.625&quot;H x 6.5&quot;D WEIGHT 1.5 Ibs WARD-BECK SYSTEMS LTD_ WARD-BECK SYSTEMS INC, 841 Progress Ave_Scarborough,Ont; MH 2x4 290 Larkin St; Buffalo; New York 14210 Telephone: (416) 438-6550 Telex: 06-23469 WBS</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Ward%20Beck%20Systems%20M441%202.jpg">1971 - M441 - Ward Beck Systems M441 2.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Technical Data — 245 words · Ward Beck Systems M441 2.jpg, page 1</summary><p>SOURCE IMPEDANCE Microphone input 150 ohms balanced nn @ 600 ohms GAIN nalanced Juoater umpmcr input 600 ohms ess halanced Preamplifier Micraphone input GOdB OdB 0.SdB selectable via INPUT IMPEDANCE sensitivity switch: Microphone input 750 ohms grcater balanced: bl Line input unity 18dB O.5dB selectahle via sensitivity Line input 20K ohms halanced nmin extemnally terminated Swltcha 600 or 150 ohms) blBo oste amplifier 15dB 0.25dB Booster amplifier input 4000 ohms balanced.</p><p>FREQUENCY RESPONSE OUTPUT LEVEL 40.25d8 30H2 20KHz Preamplifier . 1OdBm nominal, +27dBm maximum NOISE 3o0,(Cr ampliner ludBmnominal +2ud3m maximum Microphone input equivalent 4124 input noise for -m Isensitivity LOAD IMPEDANCE Input 4rcalcr Inan 75dB signal to noise (referred test level Preamplifier 600 ohms balanced. 1OdB above thenomina operating levell Bocste Karnplifie BO0 ohms balanced: TOTAL HARMONIC DistoRTion OUTPUT IMPEDANCE: Less than 25% 30Hz t0 20kHz mcasured with preamplifier out Preamplifier less than 25 ohms Booster amplifier less than put leve +24dBm booster ampuntter qutoullevel AedBm 25 ohms; INPUT LEVEL PHASING Microphone input -70dBm 20dBm nominal 35dBm SdBm The numbered terminal of the input pair phase writh the maximum numbered terminal 07 Ine ouinuDiln Line Input - IOdBm to +8dBm nominal; +25dBm maximum: POWER REQUIREMENTS Booster amplifier input -25dBm nominal, SdBm maximum.</p><p>48Vdc regulated 65 ma AMBIENT TEMPERATURE ACCESSORIES: 60OC DIMENSIONS 1.6&quot;W x 6.625&quot;H * 6.5&quot;D WeIGHT 1.5 Ibs. WARD-BECK SYSTEMS LTDE WARD BECk SYSTEMS INC_ B4FO % ~Scorbron Ont Mhi2x4 Lin St Eluttn O Na Yo 14210 Tetchen [4.3i 4388550 ct 6C-2dace NSSos WBS</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/Ward%20Beck%20Systems%20M441%202.jpg">Ward Beck Systems M441 2.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Technical Data — 198 words · 1971 - M441 - wbsps - module - m441 - pre amp - td.jpg, page 1</summary><p>WBS M441 CHANNEL AMPLIFIER The M441 is a high performance active, balanced channel amplifier for use in Ward-Beck audio control consoles which comprise alternative configurations of plug in modules The channel amplifier incorporates microphone and line level inputs , sens itivity control, reverberation, selector and level control, cue or pre-hear pushbutton and illuminated channel on alternate action pushbutton_ PREAMPLIFIER FUNCTION MICROPHONE INPUT: -7Odbm nominal, in 5 steps of 10db +15dbm max INPUT NOISE; ~124dBm (10 Hz to 100 kHz) INPUT IMPEDANCE: Unloaded input, 5 X source TOTAL HARMONIC DISTORTION: Less than 0 .</p><p>1% from 2OHz to 20kHz at nominal levels Less than 0 . 25% from 2OHz to 2OkHz at maximum levels (before clipping) MAXIMUM OUTPUT : +25dBm (providing 35dB signal headroom at all times from nominal output 1 evel) HIGH LEVEL FUNCTION LINE INPUT: ~lOdBm to +8dBm nominal in 3 steps (calibrated) +24dBm max   SIGNAL TO NOISE: (7OaB measured from nominal output level ~80dBm absolute +25dBm (providing 35dB .</p><p>signal headroom at all times from nominal output level) MAXIMUM OUTPUT: FREQUENCY RESPONSE : +0 . 2aB from 2OHz to 20kHz POWER REQUIREMENTS : 48V regulated, 5OmA DIMENSIONS : 1.6 X 6.6 * 6 (below, panel) inches</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20wbsps%20-%20module%20-%20m441%20-%20pre%20amp%20-%20td.jpg">1971 - M441 - wbsps - module - m441 - pre amp - td.jpg</a>, p. 1</li>
+</ul>
+<h2>Drawings (31)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="People.html#drawing-staff">Drawn by</a></th>
+<th><a href="People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>B 441-02-002</td>
+<td>M441A / INPUT MODULE / SCHEMATIC</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1970%20-%20441-02-002%20-%20M441A%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20DJG.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 441-02-004</td>
+<td>M441C / INPUT MODULE / SCHEMATIC</td>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-02-004%20-%20M441C%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20MRW%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 441-02-006</td>
+<td>M441E / INPUT MODULE / SCHEMATIC</td>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td><a href="Person-GP.html">GP</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-02-006%20-%20M441E%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20GP%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 441-02-007</td>
+<td>M441F / INPUT MODULE / SCHEMATIC</td>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td><a href="Person-GP.html">GP</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-02-007%20-%20M441F%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20GP%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 441-03-002</td>
+<td>SWITCH MTG PLATE</td>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td><a href="Person-GP.html">GP</a></td>
+<td></td>
+<td>4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-002%20-%20SWITCH%20MTG%20PLATE%20-%20DRN%20GP%20-%20ISS%204.png">file</a></td>
+</tr>
+<tr>
+<td>B 441-03-005</td>
+<td>COVER MTG PLATE / M441S</td>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td><a href="Person-WWH.html">WWH</a></td>
+<td><a href="Person-DPS.html">DPS</a></td>
+<td>4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-005%20-%20COVER%20MTG%20PLATE%20M441S%20-%20DRN%20WWH%20-%20ISS%204.png">file</a></td>
+</tr>
+<tr>
+<td>B 441-03-006</td>
+<td>ESCUTCHEON / DRILLING DETAIL</td>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td><a href="Person-WWH.html">WWH</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-006%20-%20ESCUTCHEON%20DRILLING%20DETAIL%20-%20DRN%20WWH%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 441-03-007</td>
+<td>COVER MTG PLATE / M441E</td>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td><a href="Person-WWH.html">WWH</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-007%20-%20COVER%20MTG%20PLATE%20M441E%20-%20DRN%20WWH%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 441-03-008</td>
+<td>ESCUTCHEON / (INPUT MODULE)</td>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-008%20-%20ESCUTCHEON%20%28INPUT%20MODULE%29%20-%20DRN%20DJG%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 441-03-009</td>
+<td>SWITCH PLATE / (INPUT MODULE)</td>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-009%20-%20SWITCH%20PLATE%20%28INPUT%20MODULE%29%20-%20DRN%20DJG%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 441-04-007</td>
+<td>M441F / INPUT MODULE / LAYOUT</td>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td><a href="Person-GP.html">GP</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-04-007%20-%20M441F%20INPUT%20MODULE%20LAYOUT%20-%20DRN%20GP%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>181-02-001</td>
+<td>Series Pre Amplifier Schematic</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-GP.html">GP</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1973%20-%20M441%20-%20DOC%20-%20181-02-001%20-%20SERIES%20PRE%20AMPLIFIER%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>441-02-013</td>
+<td></td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-GP.html">GP</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1973%20-%20441-02-013%20-%20DRN%20GP.jpg">file</a></td>
+</tr>
+<tr>
+<td>441-03-010</td>
+<td>Mod Ickd Used</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-GP.html">GP</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441M/1973%20-%20M441M%20-%20DOC%20-%20441-03-010%20-%20MOD%20ICKD%20USED.png">file</a></td>
+</tr>
+<tr>
+<td>441-04-013</td>
+<td>Waad-Beck Bystems</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441M/1973%20-%20M441M%20-%20441-04-013%20-%20WAAD-BECK%20BYSTEMS%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>441-04-013</td>
+<td>Waad-Beck Bystems</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441M/1973%20-%20M441M%20-%20441-04-013%20-%20WAAD-BECK%20BYSTEMS.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 441-02-013</td>
+<td>M441M / CHANNEL AMPLIFIER / SCHEMATIC</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-GP.html">GP</a></td>
+<td><a href="Person-RB.html">RB (Rodger Beck)</a></td>
+<td>4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1973%20-%20441-02-013%20-%20M441M%20CHANNEL%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GP%20-%20ISS%204.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 441-04-013</td>
+<td>M441M / CHANNEL AMPLIFIER / MODULE LAYOUT</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-BWJ.html">BWJ</a></td>
+<td><a href="Person-DPS.html">DPS</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1973%20-%20441-04-013%20-%20M441M%20CHANNEL%20AMPLIFIER%20MODULE%20LAYOUT%20-%20DRN%20BWJ%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 441-03-014</td>
+<td>ESCUTCHEON - M441H</td>
+<td><a href="Year-1974.html">1974|7</a></td>
+<td><a href="Person-DPS.html">DPS</a></td>
+<td><a href="Person-AF.html">AF</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1974%20-%20441-03-014%20-%20ESCUTCHEON%20-%20M441H%20-%20DRN%20DPS%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 441-03-015</td>
+<td>ESCUTCHEON MTG PLATE / (M441 H)</td>
+<td><a href="Year-1974.html">1974|7</a></td>
+<td><a href="Person-DPS.html">DPS</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1974%20-%20441-03-015%20-%20ESCUTCHEON%20MTG%20PLATE%20%28M441%20H%29%20-%20DRN%20DPS%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/Ward%20Beck%20Systems%20M441%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>181-02-001</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20181-02-001.jpg">file</a></td>
+</tr>
+<tr>
+<td>181-02-001</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20181-02-001%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>441-02-013</td>
+<td>Pin Pin Pin Pin Suf Mute</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441M/1973%20-%20M441M%20-%20441-02-013%20-%20PIN%20PIN%20PIN%20PIN%20SUF%20MUTE.jpg">file</a></td>
+</tr>
+<tr>
+<td>441-02-013</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20441-02-013.jpg">file</a></td>
+</tr>
+<tr>
+<td>441-02-013</td>
+<td>Pin Pin Pin</td>
+<td></td>
+<td><a href="Person-GF.html">GF</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20441-02-013%20-%20PIN%20PIN%20PIN.jpg">file</a></td>
+</tr>
+<tr>
+<td>441-02-013</td>
+<td>Unless Otherwise Specified Are</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20441-02-013%20-%20UNLESS%20OTHERWISE%20SPECIFIED%20ARE.jpg">file</a></td>
+</tr>
+<tr>
+<td>441-02-013</td>
+<td>...EL AMPLIFIER / ...EMATIC (partial; model text ...411M)</td>
+<td></td>
+<td></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/19xx%20-%20441-02-013%20-%20EL%20AMPLIFIER%20...EMATIC%20%28partial%3B%20model%20text%20...411M%29%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>441-03-014</td>
+<td>Rad Typ</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/19xx%20-%20M441%20-%20DOC%20-%20441-03-014%20-%20RAD%20TYP.png">file</a></td>
+</tr>
+<tr>
+<td>441-04-007</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441F/1972%20-%20M441F%20-%20441-04-007.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 441-02-003</td>
+<td>M441B / INPUT MODULE / SCHEMATIC</td>
+<td></td>
+<td></td>
+<td></td>
+<td>4</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/19xx%20-%20441-02-003%20-%20M441B%20INPUT%20MODULE%20SCHEMATIC%20-%20ISS%204.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M441&quot;,
+ &quot;category&quot;: &quot;INPUT-PRE-AMPS&quot;,
+ &quot;year&quot;: 1971,
+ &quot;part_of&quot;: [
+  &quot;73050&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1970 - 441-02-002 - M441A INPUT MODULE SCHEMATIC - DRN DJG.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - 441-02-004 - M441C INPUT MODULE SCHEMATIC - DRN MRW - ISS 2.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - 441-02-006 - M441E INPUT MODULE SCHEMATIC - DRN GP - ISS 2.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - 441-02-007 - M441F INPUT MODULE SCHEMATIC - DRN GP - ISS 2.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - 441-03-002 - SWITCH MTG PLATE - DRN GP - ISS 4.png&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - 441-03-005 - COVER MTG PLATE M441S - DRN WWH - ISS 4.png&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - 441-03-006 - ESCUTCHEON DRILLING DETAIL - DRN WWH - ISS 3.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - 441-03-007 - COVER MTG PLATE M441E - DRN WWH - ISS 3.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - 441-03-008 - ESCUTCHEON (INPUT MODULE) - DRN DJG - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - 441-03-009 - SWITCH PLATE (INPUT MODULE) - DRN DJG - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - 441-04-007 - M441F INPUT MODULE LAYOUT - DRN GP - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - 181-02-001 (2).jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - 181-02-001.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - 441-02-013 - PIN PIN PIN.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - 441-02-013 - UNLESS OTHERWISE SPECIFIED ARE.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - 441-02-013.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - IMG_0276.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - IMG_0279.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - IMG_0280.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - IMG_0282.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - IMG_0283.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - IMG_0284.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - IMG_0285.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - IMG_0286.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - IMG_0288.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - IMG_0289.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - IMG_0296.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - IMG_0297.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - IMG_0298.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - IMG_0308.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - Screen Shot 2013-03-27 at 10.51.52 PM.png&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - Screen Shot 2013-03-27 at 10.51.58 PM.png&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - Screen Shot 2013-03-27 at 10.52.03 PM.png&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - Screen Shot 2013-03-27 at 10.52.10 PM.png&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - Screen Shot 2013-03-27 at 10.52.15 PM.png&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - Screen Shot 2013-03-27 at 10.52.22 PM.png&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - Screen Shot 2013-03-27 at 10.52.30 PM.png&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - Screen Shot 2013-03-27 at 10.52.36 PM.png&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - Screen Shot 2013-03-27 at 10.52.44 PM.png&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - Screen Shot 2013-03-27 at 10.52.50 PM.png&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - Ward Beck Systems M441 2.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - Ward Beck Systems M441.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - series preamp schematic.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - wbsps - module - m441 - pre amp - td.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1971 - M441 - wbsps - module - m441 - pre amp - td_small.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1973 - 441-02-013 - DRN GP.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1973 - 441-02-013 - M441M CHANNEL AMPLIFIER SCHEMATIC - DRN GP - ISS 4.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1973 - 441-04-013 - M441M CHANNEL AMPLIFIER MODULE LAYOUT - DRN BWJ - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1973 - M441 - DOC - 181-02-001 - SERIES PRE AMPLIFIER SCHEMATIC.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1973 - M441 - DOC - 2021-3-21-17-20-52.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1974 - 441-03-014 - ESCUTCHEON - M441H - DRN DPS - ISS 2.jpg&quot;,
+   &quot;year&quot;: 1974,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/1974 - 441-03-015 - ESCUTCHEON MTG PLATE (M441 H) - DRN DPS - ISS 1.png&quot;,
+   &quot;year&quot;: 1974,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/19xx - 441-02-003 - M441B INPUT MODULE SCHEMATIC - ISS 4.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/19xx - 441-02-013 - EL AMPLIFIER ...EMATIC (partial; model text ...411M) - ISS 3.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/19xx - M441 - DOC - 441-03-014 - RAD TYP.png&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M441/Ward Beck Systems M441 2.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../_catalog/libcontrol/libcontrol.css"><script src="../_catalog/libcontrol/react.js"></script><script src="../_catalog/libcontrol/react-dom.js"></script><script src="../_catalog/libcontrol/libcontrol.js"></script><script src="../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M441.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

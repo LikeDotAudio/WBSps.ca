@@ -1,0 +1,43 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="refresh" content="30"><title>Archive Status</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap">
+<style>
+/* a typed status sheet in the black vinyl WBS binder, like the index pages */
+:root { --vinyl:#151515; --paper:#fbfaf4; --type:#1f1e1c; --faint:#6d6a63; --rule:#d6d0c0; --link:#1f3f6b; --ok:#2e6b34; --run:#a8442a; }
+* { box-sizing:border-box }
+html { background:var(--vinyl) }
+body { margin:0; color:var(--type); font:15px/1.6 "Courier Prime","Courier New",Courier,monospace; padding:28px 16px 60px }
+.page { position:relative; max-width:8.5in; min-height:11in; margin:0 auto; background:var(--paper); color-scheme:light;
+  padding:clamp(28px,7vw,72px) clamp(20px,7vw,72px) 64px clamp(34px,9vw,96px); box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.55) }
+/* letter 3-hole punch: 5/16in holes, centres 1/2in from the edge at 1 1/4, 5 1/2 and 9 3/4in */
+.page::before { content:""; position:absolute; left:.25in; top:0; width:.5in; height:11in; pointer-events:none;
+  background: radial-gradient(circle at 50% 1.25in, var(--vinyl) .15625in, rgba(0,0,0,.18) .17in, transparent .19in),
+              radial-gradient(circle at 50% 5.5in, var(--vinyl) .15625in, rgba(0,0,0,.18) .17in, transparent .19in),
+              radial-gradient(circle at 50% 9.75in, var(--vinyl) .15625in, rgba(0,0,0,.18) .17in, transparent .19in) }
+.top { display:flex; flex-wrap:wrap; gap:4px 18px; font-size:13px } a { color:var(--link); text-underline-offset:3px }
+h1 { font:700 18px/1.3 inherit; text-transform:uppercase; letter-spacing:.08em; text-align:center; margin:30px 0 4px;
+  text-decoration:underline; text-underline-offset:6px }
+.sub { text-align:center; color:var(--faint); font-size:13px; margin-bottom:28px }
+h2 { font:700 15px/1.4 inherit; margin:30px 0 10px; text-decoration:underline; text-underline-offset:4px }
+ul { list-style:none; margin:0; padding:0 }
+.work li { display:grid; grid-template-columns:minmax(0,1.3fr) minmax(0,1.6fr) minmax(0,.9fr); gap:2px 1.4ch; padding:5px 0;
+  border-bottom:1px dotted var(--rule); align-items:baseline }
+.tb { white-space:nowrap; letter-spacing:-.02em }
+.p { font-variant-numeric:tabular-nums; font-size:14px }
+.s.done { color:var(--ok); font-weight:700 } .s.running { color:var(--run); font-weight:700 }
+.s:not(.done):not(.running) { color:var(--faint) }
+.facts li { display:flex; align-items:baseline; gap:.6ch; padding:2px 0 }
+.facts .dots { flex:1; border-bottom:1.5px dotted var(--faint); transform:translateY(-4px); min-width:2ch }
+.facts .n { font-variant-numeric:tabular-nums; white-space:nowrap }
+.foot { position:absolute; left:0; right:0; bottom:22px; text-align:center; color:var(--faint); font-size:13px }
+@media (max-width:620px) { .page::before { display:none } .work li { grid-template-columns:1fr } .page { min-height:0 } }
+</style></head><body>
+<article class="page">
+  <div class="top"><a href="index.html">← Index</a><a href="Home.html">Wiki</a><a href="timelines/timeline.html">Timeline</a><a href="everything.html">Everything</a></div>
+  <h1>Archive&nbsp;&nbsp;status</h1>
+  <div class="sub">Typed 2026-10-18 18:51:59 · retyped every 30 seconds</div>
+  <h2>Work in progress:</h2><ul class="work"><li><span class="k">Everything in WBSps.env (OCR, both ends)</span><span class="p"><span class="tb">[####################]</span> 16,006 / 16,006 (100%)</span><span class="s done">done (the two ends met)</span></li><li><span class="k">Module PDFs — every page (OCR)</span><span class="p"><span class="tb">[####################]</span> 2,774 / 2,774 (100%)</span><span class="s done">done</span></li><li><span class="k">Drawing title blocks (OCR)</span><span class="p"><span class="tb">[##################··]</span> 4,561 / 5,113 (89%)</span><span class="s done">done (the rest have no readable title block)</span></li><li><span class="k">Unsorted scans (OCR)</span><span class="p"><span class="tb">[####################]</span> 1,902 / 1,931 (98%)</span><span class="s done">done (the rest are blank or unreadable)</span></li><li><span class="k">Rebuild of 2026 (run_all.sh)</span><span class="p">—</span><span class="s done">done 2026-10-18 18:32</span></li><li><span class="k">Hover links: word positions of module numbers</span><span class="p"><span class="tb">[####################]</span> 1,427 / 1,427 (100%)</span><span class="s done">done</span></li><li><span class="k">Scanned parts lists re-read (word positions)</span><span class="p"><span class="tb">[####################]</span> 432 / 432 (100%)</span><span class="s done">done</span></li><li><span class="k">Other session: wbsPS-NOT UPLOADED</span><span class="p">1047 scanned, 654 with a confident home</span><span class="s idle">idle</span></li></ul>
+  <h2>The archive holds:</h2><ul class="facts"><li><span class="k">Files filed in 2026</span><span class="dots" aria-hidden="true"></span><span class="n">14,376</span></li><li><span class="k">Modules / products / console models</span><span class="dots" aria-hidden="true"></span><span class="n">521</span></li><li><span class="k">… with a year</span><span class="dots" aria-hidden="true"></span><span class="n">521</span></li><li><span class="k">… with a name</span><span class="dots" aria-hidden="true"></span><span class="n">312</span></li><li><span class="k">Jobs (job / serial numbers)</span><span class="dots" aria-hidden="true"></span><span class="n">206</span></li><li><span class="k">Projects without a job number</span><span class="dots" aria-hidden="true"></span><span class="n">29</span></li><li><span class="k">Projects with a client name</span><span class="dots" aria-hidden="true"></span><span class="n">95</span></li><li><span class="k">People (initials on drawings)</span><span class="dots" aria-hidden="true"></span><span class="n">257</span></li><li><span class="k">… named</span><span class="dots" aria-hidden="true"></span><span class="n">3</span></li><li><span class="k">Drawing title blocks read</span><span class="dots" aria-hidden="true"></span><span class="n">5,235</span></li><li><span class="k">Drawing images OCR&#x27;d for title blocks</span><span class="dots" aria-hidden="true"></span><span class="n">4,561</span></li><li><span class="k">Prices (list + used value)</span><span class="dots" aria-hidden="true"></span><span class="n">297</span></li><li><span class="k">Documents read (PDF, Word, images)</span><span class="dots" aria-hidden="true"></span><span class="n">18,947</span></li><li><span class="k">Pages of text</span><span class="dots" aria-hidden="true"></span><span class="n">27,076</span></li><li><span class="k">… of them OCR</span><span class="dots" aria-hidden="true"></span><span class="n">19,238</span></li><li><span class="k">Date mentions found</span><span class="dots" aria-hidden="true"></span><span class="n">11,294</span></li><li><span class="k">Files with original save dates</span><span class="dots" aria-hidden="true"></span><span class="n">1,681</span></li><li><span class="k">History blobs (file_history)</span><span class="dots" aria-hidden="true"></span><span class="n">184,539</span></li><li><span class="k">Manual sections</span><span class="dots" aria-hidden="true"></span><span class="n">1,520</span></li><li><span class="k">Parts-list rows</span><span class="dots" aria-hidden="true"></span><span class="n">4,739</span></li><li><span class="k">Modules named in other drawings</span><span class="dots" aria-hidden="true"></span><span class="n">6,620</span></li><li><span class="k">Console lives</span><span class="dots" aria-hidden="true"></span><span class="n">16</span></li><li><span class="k">Wiki pages</span><span class="dots" aria-hidden="true"></span><span class="n">1,134</span></li><li><span class="k">Browser previews</span><span class="dots" aria-hidden="true"></span><span class="n">466</span></li><li><span class="k">Year range</span><span class="dots" aria-hidden="true"></span><span class="n">1967|0 – 2021|54</span></li></ul>
+  <div class="foot">An archive by Anthony Peter Kuzub · WBSps.Kuzub.com · WBSps.ca</div>
+</article>
+<script src="_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

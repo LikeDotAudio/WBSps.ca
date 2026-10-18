@@ -1,0 +1,40 @@
+# 19xx - microCOM II - DOC - IMG_2076-2013-04-08.jpg
+Wiki page: [Documents](../../../PAGES/Documents.md)
+
+
+- **Year:** unknown (unknown)
+- **Type:** document scan
+- **About:** microCOM II
+
+## Text recovered by OCR
+
+> CKVR TELEVISION 48 48 Microcom II SYSTEM PROJECT 890276
+- **Original file:** `WBSps.env/PUBLIC/RAW Photos/WBS BINDER SPINE PICTURES/IMG_2076-2013-04-08.jpg`
+- **SHA-256:** `ccaca3300df111ea960bd5c66b92cb2c9066eaa8369423d26905f734aa4e901f`
+- **Size:** 117,875 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR)
+
+```text
+CKVR
+TELEVISION
+48
+48 Microcom II SYSTEM PROJECT 890276
+```
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Products/MICRO SERIES/microCOM II/19xx - microCOM II - DOC - IMG_2076-2013-04-08.jpg",
+ "sha256": "ccaca3300df111ea960bd5c66b92cb2c9066eaa8369423d26905f734aa4e901f",
+ "kind": "doc",
+ "models": [
+  "microCOM II"
+ ],
+ "pages": 1
+}
+```

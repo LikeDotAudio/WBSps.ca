@@ -1,0 +1,36 @@
+{
+ "code": "M463AB",
+ "series": null,
+ "type": "M463AB",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "O1",
+   "signal": "Out Put Amplifier",
+   "dir": "out",
+   "pos": "O1P",
+   "neg": "O1N",
+   "src_page": 29
+  }
+ ],
+ "power": [
+  {
+   "rail": "-5V",
+   "volts": -5.0,
+   "supply": "-5V",
+   "ground": "GND",
+   "max_a": null
+  }
+ ],
+ "logic": [],
+ "ground": [],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "2073589e4ee7e2787476df4ba393a6e7ab5e20f6e2a532f23c5150c6a974f072",
+  "ef63f2a2ac384333b947338a4bf673523cba5e541de2e1fc359cccdea2b95aa7"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."
+}

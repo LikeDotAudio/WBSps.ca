@@ -1,0 +1,98 @@
+code: M497B
+series: null
+type: M497B - Dual Master Module
+row_count: null
+impedance: {}
+note: null
+audio:
+- port: A1
+  signal: Left Sum IN
+  dir: in
+  pos: P2-1
+  neg: P2-A
+  pad_pos: 1.A.1.P
+  pad_neg: A.A.1.N
+- port: A2
+  signal: Right SUM in
+  dir: in
+  pos: P2-2
+  neg: P2-B
+  pad_pos: 2.A.2.P
+  pad_neg: B.A.2.N
+- port: A3
+  signal: OUT LEFT
+  dir: out
+  pos: P2-12
+  neg: P2-N
+  pad_pos: 12.A.3.P
+  pad_neg: N.A.3.N
+- port: A4
+  signal: OUT RIGHT
+  dir: out
+  pos: P2-15
+  neg: P2-S
+  pad_pos: 15.A.4.P
+  pad_neg: S.A.4.N
+- port: B1
+  signal: Left Line IN
+  dir: in
+  pos: P2-4
+  neg: P2-D
+  pad_pos: 4.B.1.P
+  pad_neg: D.B.1.N
+- port: B2
+  signal: Right Line in
+  dir: in
+  pos: P2-5
+  neg: P2-E
+  pad_pos: 5.B.2.P
+  pad_neg: E.B.2.N
+- port: B3
+  signal: VU OUT LEFT
+  dir: out
+  pos: P2-14
+  neg: P2-R
+  pad_pos: 14.B.3.P
+  pad_neg: R.B.3.N
+- port: B4
+  signal: VU OUT RIGHT
+  dir: out
+  pos: P2-17
+  neg: P2-U
+  pad_pos: 17.B.4.P
+  pad_neg: U.B.4.N
+bus_out: []
+bus_in: []
+power:
+- rail: VEE-AUDIO
+  style: NEW
+  volts: -25
+  max_a: 0.2
+  supply: P2-19
+  ground: P2-20
+  link: 2
+- rail: VCC-AUDIO
+  style: NEW
+  volts: 25
+  max_a: 0.2
+  supply: P2-21
+  ground: P2-20
+  link: 1
+jumpers:
+- function: Insert LEFT +
+  designation: JMP.8.6
+  from: P2-8
+  to: P2-6
+- function: Insert LEFT -
+  designation: JMP.F.J
+  from: P2-J
+  to: P2-F
+- function: Insert Right +
+  designation: JMP.7.9
+  from: P2-7
+  to: P2-9
+- function: Insert Right -
+  designation: JMP.H.K
+  from: P2-H
+  to: P2-K
+logic: []

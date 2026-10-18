@@ -1,0 +1,269 @@
+# 1969 - M406 - SEL RECOVERY METER CAL.jpg
+Wiki page: [M406](../../../PAGES/M406.md)
+
+
+- **Year:** 1969 (found in this file: "DATE MAR 69")
+- **Module:** M406
+- **Category:** DYNAMICS
+- **Module year estimate:** 1968 — labelled "DATE Oct - 68" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M406 -  Compressor de-esser - SCHEMATICS and BOARD LAYOUT/406-09-002.jpg
+- **Original file:** `WBSps.env/PUBLIC/RECENT SCANS/WBSps.ca 20210319 - Redone of what Sampson scanned/WBSps.ca - M406 compressor.jpg`
+- **SHA-256:** `77327e30a10900a1262969f53334cc14a750a86f6b0ca736ed992f3033773c7e`
+- **Size:** 9,728,008 bytes
+- **Pages:** 1
+
+## Dates found in this file
+
+- **1969** (labelled): `DATE MAR 69` — …CAL 7k DA DJG Mard BECK S"STEMS M M4OS COMPRESSOR SCHEMATIC DATE MAR 69 CHKD SCAE TOLs EC%B2 B' PLAC 406- 02- 0oi 220p…
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 2 words corrected)
+
+```text
+504 735
+C25 33p
+CRZ Fd23s5
+2008 C3O 50/35
+ISk
+iok
+2102
+716c
+4278
+100/15
+R25 47k
+22/35 Qutj  13mr
+SwZ
+716€
+50/35
+4401
+10/35 Swi
+Z20k
+THAESHCLD
+Ioo
+716 =
+R26 22k
+Lsk
+ICOp
+IOCp
+OUT Yin RIs 225]
+682 _
+Jlooq} < Rzo
+SE22
+Ico/5 R2s R24 <7k 4TK
+2735
+L2KS
+470
+Cz0 5035 47051
+NOTES UNLESS OHERWSE STATED ALL RESISTORS Vaw VALUE IN OHMS CAPACITOR VALUES IN MICRCFARADS
+Csi RZO RZI < A32 3,3k < 33k 53k R33
+R36 6ek
+R37 33k
+RSz 62k
+5w4-C
+F02365 CRZ CRS
+R67 BZk
+R7 82k
+A73 I5k
+R74 9IK
+ZNZI0Z
+2 LAST COMPONENT DESIGNATIONS RBO C40 Qii CRII 8 25
+470p 
+5546
+CR9
+74iC
+CRS
+SW4-B
+crB
+iOK
+F02365
+Sw3
+Level R68
+210 M0
+n
+IS0?
+7i0€
+SW4A
+Qion Rsk <R54 {8584168 = R57 LZK 47k <iok 3k comPRESSION
+CRIO 702365 C40
+879 3.3k
+4275
+88 26kr64} R<0< Rezg Re3< RE4S 22m
+440L
+3646
+220- C35 TICCp
+CRS
+30
+5087
+6027
+2N4275 4275
+CRS 7544
+R3s IOk
+R44R45 346 R47 SSE<91K Lsk
+R49 ASCR 24k >
+Res- 447<
+Re6< 47KS
+2k9
+R72
+R75 R76 ~SEL 5k
+CALL 794e 6Bv
+<SEL
+RECOVERY
+MEteR CAL
+7k
+DA
+DJG
+Mard BECK S"STEMS M M4OS COMPRESSOR SCHEMATIC
+DATE MAR 69
+CHKD
+SCAE
+TOLs
+EC%B2 B' PLAC
+406- 02- 0oi
+220p
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+504 735
+C25 33p
+CRZ Fd23s5
+2008 C3O 50/35
+ISk
+iok
+2102
+716c
+4278
+100/15
+R25 47k
+22/35 Qutj  13mr
+SwZ
+716€
+50/35
+4401
+10/35 Swi
+Z20k
+THAESHCLD
+Ioo
+716 =
+R26 22k
+Lsk
+ICOp
+IOCp
+OUT Yin RIs 225]
+682 _
+Jlooq} < Rzo
+SE22
+Ico/5 R2s R24 <7k 4TK
+2735
+L2KS
+470
+Cz0 5035 47051
+NOTES UNLESS OHERWSE STATED ALL RESISTORS Vaw VALUE IN OHMS CAPACITOR VALUES IN MICRCFARADS
+Csi RZO RZI < A32 3,3k < 33k 53k R33
+R36 6ek
+R37 33k
+RSz 62k
+5w4-C
+F02365 CRZ CRS
+R67 BZk
+R7 82k
+A73 I5k
+R74 9IK
+ZNZI0Z
+2 LAST COMPONENT DESIGNATIONS RBO C40 Qii CRII 8 25
+470p 
+5546
+CR9
+74iC
+CRS
+SW4-B
+crB
+iOK
+F02365
+Sw3
+YeveL R68
+210 M0
+n
+IS0?
+7i0€
+SW4A
+Qion Rsk <R54 {8584168 = R57 LZK 47k <iok 3k comPRESSION
+CRIO 702365 C40
+879 3.3k
+4275
+88 26kr64} R<0< Rezg Re3< RE4S 22m
+440L
+3646
+220- C35 TICCp
+CRS
+30
+5087
+6027
+2N4275 4275
+CRS 7544
+R3s IOk
+R44R45 346 R47 SSE<91K Lsk
+R49 ASCR 24k >
+Res- 447<
+Re6< 47KS
+2k9
+R72
+R75 R76 ~SEL 5k
+CAII 794e 6Bv
+<SEL
+RECOVERY
+MEteR CAL
+7k
+DA
+DJG
+Mard BECK S"STEMS M M4OS COMPRESSOR SCHEMATIC
+DATE MAR 69
+CHKD
+SCAE
+TOLs
+EC%B2 B' PLAC
+406- 02- 0oi
+220p
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Modules/DYNAMICS/M406/1969 - M406 - SEL RECOVERY METER CAL.jpg",
+ "sha256": "77327e30a10900a1262969f53334cc14a750a86f6b0ca736ed992f3033773c7e",
+ "kind": "module",
+ "models": [
+  "M406"
+ ],
+ "year": 1969,
+ "pages": 1,
+ "order": [
+  {
+   "page": 1,
+   "title_block": [
+    {
+     "title": "Sel Recovery Meter Cal",
+     "date": "MAR 69",
+     "year": 1969
+    }
+   ],
+   "dates": [
+    {
+     "year": 1969,
+     "kind": "labelled",
+     "text": "DATE MAR 69"
+    },
+    {
+     "year": 2008,
+     "kind": "year",
+     "text": "2008"
+    }
+   ]
+  }
+ ]
+}
+```

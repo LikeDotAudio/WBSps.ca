@@ -1,0 +1,26 @@
+SA14-321A BIPOLAR DC TO DC CONVERTOR  Revised: Tuesday, December 12, 1995
+14-321-02-002          Revision: 0
+
+Ward-Beck Systems Ltd
+841 PROGRESS AVENUE
+SCARBOROUGH, ON, M1H 2X4
+
+
+
+Bill Of Materials        January10,1996      9:24:51	Page1
+
+Item	Quantity	Reference	Part
+______________________________________________
+
+1	3	CR1,CR2,CR3		1N5822	
+2	2	C3,C1		0.1/50	
+3	2	C11,C4		2200/25	
+4	3	C6,C8,C10		47/50	
+5	2	C9,C7		27/35	
+6	2	L3,L1		80-36	
+7	2	P1,P2		CON3	
+8	2	R3,R2		22K	
+9	2	R5,R4		20K	
+10	2	R7,R6		931 1%	
+11	2	R9,R8		1R5 3W	
+12	2	U2,U1		LM2575T-ADJ	

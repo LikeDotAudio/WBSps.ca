@@ -1,0 +1,54 @@
+code: M479
+series: null
+type: M479 Dual Auxiliary Module
+row_count: null
+impedance: {}
+note: null
+audio:
+- port: A1
+  signal: Summing IN 1
+  dir: in
+  pos: P2-1
+  neg: P2-2
+  pad_pos: 1.A.1.P
+  pad_neg: 2.A.1.N
+- port: A2
+  signal: Summing IN 2
+  dir: in
+  pos: P2-3
+  neg: P2-4
+  pad_pos: 3.A.2.P
+  pad_neg: 4.A.2.N
+- port: A3
+  signal: OUT 1
+  dir: out
+  pos: P2-11
+  neg: P2-12
+  pad_pos: 11.A.3.P
+  pad_neg: 12.A.3.N
+- port: A4
+  signal: OUT 2
+  dir: out
+  pos: P2-15
+  neg: P2-16
+  pad_pos: 15.A.4.P
+  pad_neg: 16.A.4.N
+bus_out: []
+bus_in: []
+power:
+- rail: VEE-AUDIO
+  style: NEW
+  volts: -25
+  max_a: 0.1
+  supply: P2-19
+  ground: P2-20
+  link: 2
+- rail: VCC-AUDIO
+  style: NEW
+  volts: 25
+  max_a: 0.2
+  supply: P2-21
+  ground: P2-20
+  link: 1
+jumpers: []
+logic: []

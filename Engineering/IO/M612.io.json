@@ -1,0 +1,116 @@
+{
+ "code": "M612",
+ "series": null,
+ "type": "M612",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "I1",
+   "signal": "9Vlcr R4 Zz0K Cr4757A In 01481",
+   "dir": "in",
+   "pos": "I1P",
+   "neg": "I1N",
+   "src_page": 18
+  },
+  {
+   "port": "I2",
+   "signal": "Input 3",
+   "dir": "in",
+   "pos": "I2P",
+   "neg": "I2N",
+   "src_page": 24
+  },
+  {
+   "port": "I3",
+   "signal": "Input 4",
+   "dir": "in",
+   "pos": "I3P",
+   "neg": "I3N",
+   "src_page": 24
+  },
+  {
+   "port": "I4",
+   "signal": "Input Shield Buss",
+   "dir": "in",
+   "pos": "I4P",
+   "neg": "I4N",
+   "src_page": 24
+  },
+  {
+   "port": "I5",
+   "signal": "Tp 0 In",
+   "dir": "in",
+   "pos": "I5P",
+   "neg": "I5N",
+   "src_page": 18
+  },
+  {
+   "port": "I6",
+   "signal": "Input 2",
+   "dir": "in",
+   "pos": "I6P",
+   "neg": "I6N",
+   "src_page": 24
+  },
+  {
+   "port": "I7",
+   "signal": "Return To Ins",
+   "dir": "in",
+   "pos": "0",
+   "neg": "I7N",
+   "src_page": 24
+  },
+  {
+   "port": "I8",
+   "signal": "Input 11",
+   "dir": "in",
+   "pos": "I8P",
+   "neg": "I8N",
+   "src_page": 24
+  },
+  {
+   "port": "I9",
+   "signal": "Typ Ical In Put / Out Put",
+   "dir": "in",
+   "pos": "I9P",
+   "neg": "I9N",
+   "src_page": 25
+  },
+  {
+   "port": "O1",
+   "signal": "Tp Out",
+   "dir": "out",
+   "pos": "O1P",
+   "neg": "O1N",
+   "src_page": 20
+  },
+  {
+   "port": "O2",
+   "signal": "Outputs Note 3)",
+   "dir": "out",
+   "pos": "O2P",
+   "neg": "O2N",
+   "src_page": 26
+  },
+  {
+   "port": "O3",
+   "signal": "Out I",
+   "dir": "out",
+   "pos": "O3P",
+   "neg": "O3N",
+   "src_page": 23
+  }
+ ],
+ "power": [],
+ "logic": [],
+ "ground": [],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "9aa2846127a30468ac18f552c284164170db1b4cc561c5d777c53a149eb2d6cb",
+  "c0d9ad8e3f3a17deef62e7d7b2ecee4f6565c164f141696a340f32637e6ebcdf"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."
+}

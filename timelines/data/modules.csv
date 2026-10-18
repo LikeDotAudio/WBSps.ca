@@ -1,0 +1,523 @@
+code,category,year,year_source,year_detail,confidence,all_years,name
+D8201,8200 SERIES,2015,month,"""Jan.01 2015"" in PUBLIC/Manuals + tech DOCUMENTS/8200 Series Manuals/D8201 Manual(1).docx",medium,2015,AES/EBU Reclocking Distribution Amplifier
+D8201A,8200 SERIES,2015,month,"""Jan.01 2015"" in PUBLIC/Manuals + tech DOCUMENTS/8200 Series Manuals/D8201A Manual(1).docx",medium,2015,AES/EBU Reclocking Distribution Amplifier
+D8202,8200 SERIES,2015,month,"""Jan.01 2015"" in PUBLIC/Manuals + tech DOCUMENTS/8200 Series Manuals/D8202 Manual(1).docx",medium,2015,AES/EBU Digital To Analog Converter
+D8203,8200 SERIES,2015,month,"""Jan.01 2015"" in PUBLIC/Manuals + tech DOCUMENTS/8200 Series Manuals/D8203 Manual.docx",medium,2015,Analog To AES/EBU Digital Converter
+D8204,8200 SERIES,2015,month,"""Jan.01 2015"" in PUBLIC/Manuals + tech DOCUMENTS/8200 Series Manuals/D8204 Manual(1).docx",medium,2015,AES/EBU Reclocking Distribution Amplifier
+D8204A,8200 SERIES,2015,month,"""Jan.01 2015"" in PUBLIC/Manuals + tech DOCUMENTS/8200 Series Manuals/D8204A Manual(1).docx",medium,2015,AES/EBU Reclocking Distribution Amplifier
+D8204B,8200 SERIES,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),2013,AES/EBU Reclocking Distribution Amplifier
+D8204C,8200 SERIES,2015,month,"""Jan.01 2015"" in PUBLIC/Manuals + tech DOCUMENTS/8200 Series Manuals/D8204C Manual(1).docx",medium,2015,AES/EBU Distribution Amplifier
+D8212,8200 SERIES,1986,manual_issue,"""ISSUE #2 APRIL 3, 1986"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/D8212 -Audio Distribution System/D8212 - 002.jpg",high,"1986,1997",Audio Distribution System
+D8212E,8200 SERIES,1998,original file date,saved 1998-01-27: WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - D8212F/OLD/D8212E.WPD,medium,1998,Audio Distribution System
+D8212F,8200 SERIES,1995,manual_issue,"""MANUAL ISSUE #1 November 28,1995"" in WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - Word Perfect Manuals/D8212F.WP",high,"1995,1996,1997,1998",Audio Distribution System
+M8202A,8200 SERIES,1995,manual_issue,"""Manual Issue #1 December 12, 1995"" in WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - Word Perfect Manuals/M8202A.WP",high,1995,Remote Sensitivity Amplifier
+M8204A,8200 SERIES,1993,named in document,named in 1993 - M8205W - file.pcb,low (named by),"1993,1995,2013,2015",Stereo Audio Distribution Amplifier
+M8204B,8200 SERIES,1995,month,"""March 8, 1995"" in WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - M82X_OLD/M8204/M8204B.DSN",medium,"1995,1997",Stereo Audio Distribution Amplifier
+M8205B,8200 SERIES,1995,manual_issue,"""Issue #6 17 May 1995"" in WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - Word Perfect Manuals/M8205B#6.WP",high,1995,Audio Distribution Amplifier
+M8205W,8200 SERIES,1993,manual_issue,"""Issue 14-265 Gerry Bell Feb 01,1993"" in WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - M82X_OLD/M8204/M8205W.PCB",high,"1993,1997",Audio Distribution Amplifier
+M8209A,8200 SERIES,1995,similar models,"numbering neighbours M8206 1986, M8207 1995, M8208 1995",estimate,1995,
+M8245A,8200 SERIES,2015,month,"""Jul.01 2015"" in PUBLIC/Manuals + tech DOCUMENTS/8200 Series Manuals/M8245A MANUAL.docx",medium,2015,Power Supply
+M8251,8200 SERIES,2015,month,"""Jan.01 2015"" in PUBLIC/Manuals + tech DOCUMENTS/8200 Series Manuals/M8251 Manual(1).docx",medium,2015,Video Distribution Amplifier
+MF8210,8200 SERIES,1998,named in document,named in 1998 - D8212F - 8200MNX.wpd,low (named by),"1998,2013",
+MF8212,8200 SERIES,2015,month,"""Jul.01 2015"" in PUBLIC/Manuals + tech DOCUMENTS/8200 Series Manuals/MF8212 Frame Manual(1).docx",medium,2015,
+M124,AMPLIFIERS,1968,labelled,"""DATE Aug 68"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M124/124-09-001.jpg",high,1968,
+M166A,AMPLIFIERS,1973,named in document,named in 1973 - 166-02-005 - M166A SUMMING AMPLIFIER SCHEMATIC - DRN BWJ - ISS 4.jpg,low (named by),1973,Active Summing Module
+M411,AMPLIFIERS,1969,labelled,"""DATE AUG 69"" in WBS Photos-1-001/Scan_20210323 (17).jpg",high,1969,Transcription Preamplifier
+M450,AMPLIFIERS,1975,labelled,"""DATE APR 75"" in WBS Photos-1-001/Scan_20210321 (2).png",high,"1975,1976,1977",Program Summing Amp
+M450A,AMPLIFIERS,1973,month,"""MAR 73"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M450A - Program Amplifer.pdf",medium,"1973,1977",Program Amplifer
+M450B,AMPLIFIERS,1979,manual_issue,"""ISSuE /I 3 BS W OCTOBER 1979"" in wbsps - website ARCHIVE/WBSPS 2008/PDF NEW/Ward-Beck Systems - M450B Program - Summing Amplifier - www.WBSps.ca.pdf",high,1979,Program - Summing Amplifier
+M453,AMPLIFIERS,1976,used in job,job 76045,low (in use by),,Cue Amplifier Designed And MANUFAcTURED
+M453A,AMPLIFIERS,1978,labelled,"""ISSUE 41 APRIL 1978"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M453A/WBS M453A P2(1).JPG",high,"1978,1979",Cue Amplifier
+M481,AMPLIFIERS,1975,labelled,"""DATE MAy 75"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M481 - Oscilator and Cue Amp/M481 - P006 - B-481-02-001 R.jpg",high,1975,Oscilator and Cue Amp
+M481B,AMPLIFIERS,1982,manual_issue,"""I SSUE 12 BS DECE MBER 1982"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/Ward-Beck Systems - M481B Cue OSC Re-entry Module - www.WBSps.ca.pdf",high,1982,Cue OSC Re-entry Module
+M600,AMPLIFIERS,1970,labelled,"""DATE Oct 70"" in WBS Photos-1-001/WBSps.ca -2021-3-15-19-3-51 (44).jpg",high,"1970,1987",Universal Amplifier
+M604,AMPLIFIERS,1967,month,"""Sept 67"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M604 - Dual Frequency Oscillator.pdf",medium,"1967,1971,1975",
+M605,AMPLIFIERS,1971,labelled,"""APP 71"" in WBS Photos-1-001/US Sales Brochure M605 functional diagram copy.jpg",high,1971,Audio Distribution Amplifier
+M605A,AMPLIFIERS,1987,labelled,"""ISSUE 3 JANUARY 1987"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M605A - Audio DA.pdf",high,1987,
+M605C,AMPLIFIERS,1971,family,from M605,family,,Audio Distribution Amplifier
+M606,AMPLIFIERS,2008,file dates,existed by then: on the 2008 WBSps website,low (existed by),2008,
+M608,AMPLIFIERS,1975,month,"""Sep-75"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M608 - Audio DA.pdf",medium,"1975,1980",
+M609,AMPLIFIERS,1983,manual_issue,"""ISSUE #1 JUNE 1983"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M609 - Remote sensitivity and DA/M609 - P028 - SA8-117.jpg",high,"1983,1985,1986",Remote sensitivity and DA
+M610,AMPLIFIERS,1970,named in document,named in 1970 - 171-06-001 - M610 10 WATT AMPLIFIER ASS'Y - DRN PS - ISS 1.jpg,low (named by),"1970,1975",10 Watt Monitor Amplifier
+M612,AMPLIFIERS,1977,labelled,"""REVISION 77"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M612 - Audio DA.pdf",high,"1977,1978,1987",Audio Distribution Amplifier
+M612A,AMPLIFIERS,1983,manual_issue,"""ISSUE #1 JUNE 1983"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M612A - Audio DA/M612A - P025 - SA8-117.jpg",high,1983,
+M621,AMPLIFIERS,1970,labelled,"""DATE 27 july 70"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M621 vint/173-06-001.jpg",high,"1970,1973",20 Watt Monitor Amplifier
+M626,AMPLIFIERS,1971,month,"""APRIL 1971"" in WBS Photos-1-001/WBSps.ca - 20210317 11X 17 Scans  (35).png",medium,1971,
+M629,AMPLIFIERS,1973,title block date,"""OCT 73"" on 1973 - 629-02-001 - TRICKLE CHARGER SCH - DRN BJ - ISS 1.png",high,1973,
+M666,AMPLIFIERS,1975,price list,listed in 20170522_122029_022.jpg,medium,"1975,1977",
+M801,AMPLIFIERS,1971,title block date,"""4 Nov 71"" on 1971 - 801-02-001 - SWITCHER ISOLATION AMPLIFIER - ISS 2.jpg",high,1971,
+M802,AMPLIFIERS,1985,used in job,job 851052,low (in use by),,
+M802C,AMPLIFIERS,1996,original file date,saved 1996-01-04: WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - M8XX/M802C/SCHEM/XSM802C.DWG,medium,1996,
+M804,AMPLIFIERS,1973,title block date,"""15 JAN 73"" on 1973 - 804-02-001 - 8X1 RELAY SWITCHER MODULE SCHEMATIC - DRN GC - ISS 2.jpg",high,1973,
+M805,AMPLIFIERS,1983,title block date,"""AUG 83"" on 1983 - 805-03-001 - M805D E & M806D E CARD MOUNTING PLATE - DRN GEB - ENG GEB - ISS 3.jpg",high,"1983,1987",
+M806A,AMPLIFIERS,2014,file dates,existed by then: l12beckadcon-01.jpg was photographed,low (existed by),2014,
+M807,AMPLIFIERS,1972,labelled,"""DATE DEC 72"" in WBS Photos-1-001/WBSps.ca - 20210317 11X 17 Scans  (37).png",high,1972,Fade Generator
+M808,AMPLIFIERS,1975,title block date,"""15 JAN 75"" on 1994 - M808 - RELAY SWITCHER MOPLLE SCHEMATIC.jpg",high,"1975,1978",RELAY Switcher MOPLLE SCHEMATIC
+M808A,AMPLIFIERS,1978,named in document,named in 1978 - 808-02-002 - 8x1 RELAY SWITCHER CARD SCHEMATIC - DRN MRW - ENG MRW - ISS 2 (6).jpg,low (named by),1978,
+M808B,AMPLIFIERS,1994,family,from M808C,family,,
+M808C,AMPLIFIERS,1994,original file date,saved 1994-08-09: WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - Word Perfect Manuals/M808C.WP,medium,1994,
+M809C,AMPLIFIERS,1996,original file date,saved 1996-01-05: WBSps Engineering from H drive-20261018T013433Z-1-003/WBSps Engineering from H drive/WBSps - M8XX/M809/M809C/ACAD/FA809C.DWG,medium,1996,
+M813,AMPLIFIERS,1974,labelled,"""iss 74"" in WBS Photos-1-001/WBSps.ca - 20210317 11X 17 Scans  (42).png",high,1974,Relay Switcher
+M815,AMPLIFIERS,1975,similar models,"filed with 37 dated models in ""WBSps.ca 20210317 - Small 11X17 drawings""",estimate,1975,Distribution Amplifier
+M816,AMPLIFIERS,1975,similar models,"filed with 37 dated models in ""WBSps.ca 20210317 - Small 11X17 drawings""",estimate,1975,Distribution Amplifier
+M8200,AMPLIFIERS,1993,manual_issue,"""MANUAL ISSUE #2 August 12, 1993"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M8200 - Mic Pre-Amp/M8200 - P001 - Title Page.jpg",high,1993,Microphone Preamplifier
+M8201,AMPLIFIERS,1994,used in job,job 94021,low (in use by),"1994,1995,1996,1997,1998",
+M8202,AMPLIFIERS,1995,named in document,named in 1995 - M8202A - OUTPUT LEVEL 0 DBU TO +8 DBU NOMINAL - PARTS LIST.wp,low (named by),"1995,1997,1998,2013",
+M8204,AMPLIFIERS,1993,month,"""Feb 01,1993"" in WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - M82X_OLD/M8204/14-265.PCB",medium,"1993,1997,2004,2015",
+M8205,AMPLIFIERS,1995,manual_issue,"""Issue #6 11 May 1995"" in WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - Word Perfect Manuals/M8205#6.WP",high,"1995,1997",Audio Distribution Amplifier
+M8206,AMPLIFIERS,1986,named in document,named in 1986 - 8205-03-003 - HEATSINK USED ON 14-147 & 14-148 PCB (M8205 & M8206 DA) - DRN J - ISS 1.png,low (named by),"1986,1988,1995,1997,1998",Matrixing Amplifier
+M8208,AMPLIFIERS,1995,manual_issue,"""Issue #1 March 30, 1995"" in WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - Word Perfect Manuals/M8208.WP",high,1995,Remote Level Distribution Amplifier
+M827,AMPLIFIERS,1972,labelled,"""DATE NOV 72"" in WBS Photos-1-001/WBSps.ca - 20210317 11X 17 Scans  (57).png",high,1972,
+M845,AMPLIFIERS,1972,labelled,"""DATE Nov 72"" in WBS Photos-1-001/WBSps.ca 20210320 - Scans (26).jpg",high,1972,
+ABB1,BUDDIES,2015,month,"""Jan.01 2015"" in PUBLIC/Manuals + tech DOCUMENTS/Buddies/ABB1 Manual(1).docx",medium,2015,Audio Bit Buddy Portable Digital/Analog Audio Monitor
+ABS1,BUDDIES,2015,month,"""Jan.01 2015"" in PUBLIC/Manuals + tech DOCUMENTS/Buddies/ABS1 Manual(1).docx",medium,2015,Audio Bit Spitter Portable Digital/Analog Audio Generator
+M494,COMMUNICATION,1978,title block date,"""2/78"" on 1978 - 494-02-001 - REMOTE LINE TB CUE MODULE SCHEMATIC - DRN MRW - ENG MRW - ISS 2.jpg",high,"1978,2005",Remote Line Tb Module
+M529,COMMUNICATION,1985,manual_issue,"""Issue #1 August 1985"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M529 - Communications Module/M529 - 023(1).jpg",high,1985,Communication Modules
+M7000,COMMUNICATION,1977,numeric,"""6/15/77"" in PUBLIC/Manuals + tech DOCUMENTS/Intercom/M7000 - Intercom System/price list.jpg",medium,1977,
+M701,COMMUNICATION,1975,price list,listed in 20170522_122029_022.jpg,medium,"1975,1977,1978,1979,1980,1995,1996",Intercom Input Amplifier
+M7012C,COMMUNICATION,1995,original file date,saved 1995-05-25: WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - M7XXX/M7012C/7012F02.DWG,medium,1995,
+M701D,COMMUNICATION,1996,original file date,saved 1996-04-16: WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - M7XX/M703D/TANGO/M701D.PCB,medium,1996,
+M702,COMMUNICATION,1997,original file date,saved 1997-06-12: WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - M7XX/M703D/ACAD/M702-3.DWG,medium,1997,Intercom Output Amplifier
+M702D,COMMUNICATION,1996,manual_issue,"""Issue #1 January 17, 1996"" in WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - M7XX/M703D/WP/M702D.WPD",high,1996,Intercom Output Amplifier
+M703,COMMUNICATION,1977,manual_issue,"""MANUAL ISSUE #2 JUNE 1977"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M703 M703A/WBS M703 M703A p3.JPG",high,1977,Intercom Input/Output Amplifier
+M703B,COMMUNICATION,1980,manual_issue,"""MANUAL ISSUE #3 AUGUST 1980"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M703B - Intercom Pre and Output Amp/M703B - 003.jpg",high,1980,Intercom Pre And Output Amplifier
+M703D,COMMUNICATION,1995,manual_issue,"""Issue 14-318 Wagdy Saleh DEC 12, 1995"" in WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - M7XX/M703D/TANGO/14-318.PCB",high,"1995,1996",Intercom Preamplifier
+M704,COMMUNICATION,1970,title block date,"""20 MAY 1970"" on 1970 - 704-02-001 - M 704 INTERCOM PRE-AMPLIFIER SCHEMATIC - DRN DPS - ISS 1.jpg",high,1970,
+M705,COMMUNICATION,1973,title block date,"""AUG 73"" on 1973 - 705-02-004 - M705A HYBRID NETWORK SCHEMATIC - DRN BWJ - ISS 2.jpg",high,"1973,1976",
+M706,COMMUNICATION,1973,labelled,"""DATE Nov 73"" in WBS Photos-1-001/WBSps.ca - 20210317 11X 17 Scans  (27).png",high,1973,
+M711,COMMUNICATION,1971,title block date,"""JUNE 71"" on 1971 - 711-02-001 - RELAY SWITCHER MODULE SCHEMATIC - ISS 4.jpg",high,1971,
+M712,COMMUNICATION,1972,labelled,"""DATE MAY 1972"" in WBS Photos-1-001/mmm2021-3-21-21-56-41 (4).jpg",high,"1972,1973,1974",Intercom Matrix Switching Board
+M712B,COMMUNICATION,1982,labelled,"""ISSUE 42 May, 1982"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M712B - Intercom Matrix Amplifier/M712B - 002.jpg",high,1982,Intercom Matrix Amplifier
+M718,COMMUNICATION,1995,manual_issue,"""Issue #1 March 30, 1995"" in WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - Word Perfect Manuals/M718.WP",high,1995,Talkback Address Module
+M718A,COMMUNICATION,1995,original file date,saved 1995-03-07: WBSps Engineering from H drive-20261018T013433Z-1-003/WBSps Engineering from H drive/WBSps - M7XX/M718/M718A/14-291A.PCB,medium,1995,
+M719,COMMUNICATION,1994,month,"""Sep-94"" in WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - M7XX/M719/ORCAD/#ESP_OUT.TXT",medium,"1994,1995",
+M724,COMMUNICATION,1973,named in document,named in 1973 - 712-02-008 - M724 CROSSPOINT - DRN GEB.jpg,low (named by),"1973,1975,1982,1988,1995",Intercom Crosspoint (part mute-switch ON)
+M730,COMMUNICATION,1972,title block date,"""JULY 72"" on 1972 - 730-02-001 - 10V POWER SUPPLY SCHEMATIC - DRN GEB - ISS 2.jpg",high,1972,
+M731,COMMUNICATION,1972,title block date,"""JULY 72"" on 1972 - 731-02-001 - 20V. POWER SUPPLY SCHEMATIC - DRN GEB - ISS 2.jpg",high,1972,
+M740,COMMUNICATION,1973,similar models,"numbering neighbours M741 1973, M743 1971, M745 1974",estimate,1973,
+M741,COMMUNICATION,1973,title block date,"""SEPT 73"" on 1973 - 741-02-002 - M741A REGISTER MODULE SCHEMATIC - DRN PC.jpg",high,1973,
+M742,COMMUNICATION,1972,similar models,"numbering neighbours M741 1973, M743 1971, M745 1974, M748 1971",estimate,1972,
+M743,COMMUNICATION,1971,title block date,"""28 JULY 71"" on 1971 - 743-02-001 - (M743) INTERCOM ENCODER CARD SCHEMATIC - ISS 2.jpg",high,1971,
+M745,COMMUNICATION,1974,labelled,"""DATE SEPT 74"" in WBS Photos-1-001/WBSps.ca - 20210317 11X 17 Scans  (20).png",high,1974,
+M748,COMMUNICATION,1971,title block date,"""28 JULY 71"" on 1971 - M748 - M748 MEMORY CARD SCHEMATIC - ISS 2.jpg",high,1971,
+M749,COMMUNICATION,1970,month,"""Nov 1970"" in WBS Photos-1-001/2021-3-21-17-29-42.jpg",medium,1970,
+M750,COMMUNICATION,1971,title block date,"""JUNE 71"" on 1971 - 750-02-002 - & M750-1 LINE RECEIVER DRIVER SCHEMATIC - DRN PHL - ISS 3.jpg",high,"1971,1973",
+M751,COMMUNICATION,1971,title block date,"""JUNE 71"" on 1971 - 751-02-002 - 1 DUAL MEMORY LATCH SCHEMATIC - DRN GP - ISS 1.jpg",high,"1971,1978",
+M751B,COMMUNICATION,1971,similar models,sibling M751,estimate,1971,
+M752,COMMUNICATION,1971,title block date,"""JULY 71"" on 1971 - 752-02-001 - M 752 STROBE GENERATOR - DRN MRW - ISS 2.jpg",high,"1971,1972",Strobe Generator
+M753,COMMUNICATION,1971,title block date,"""SEPT 30/71"" on 1971 - 753-02-001 - MEMORY LATCH LOCK UP CONTROL SCHEMATIC - DRN GP - ISS 2.jpg",high,1971,
+M755,COMMUNICATION,1971,title block date,"""Sept 71"" on 1971 - 755-02-002 - 1 LAMP DRIVER MODULE SCHEMATIC - DRN PHIL.jpg",high,1971,
+M756,COMMUNICATION,1971,title block date,"""Oct 71"" on 1971 - 756-02-001 - ENCODER AND STROBE DRIVER SCHEMATIC - DRN PHIL - ISS 1.jpg",high,1971,
+M757,COMMUNICATION,1972,title block date,"""SEPT. 72"" on 1972 - 757-02-001 - 0 TO 24 BCD ENCODER (NEGATIVE LOGIC) - DRN MRW - ISS 1.jpg",high,"1972,1975",Splitting Network Card
+M770,COMMUNICATION,1982,named in document,named in 1982 - microCOM - Instruction Manual.pdf,low (named by),"1982,1988,1995",
+M771,COMMUNICATION,1982,named in document,named in 1982 - microCOM - Instruction Manual.pdf,low (named by),"1982,1988",
+M772,COMMUNICATION,1982,named in document,named in 1982 - microCOM - Instruction Manual.pdf,low (named by),1982,Summing Mixer
+M773,COMMUNICATION,1982,title block date,"""11/82"" on 1982 - 773-03-004 - M773A FISH PAPER COVER - DRN GEB - ENG GEB - ISS 1.jpg",high,1982,
+M774,COMMUNICATION,1981,named in document,named in 1981 - microCOM - Inst Man p49.jpg,low (named by),"1981,1982,1983",
+M777,COMMUNICATION,1982,title block date,"""8/82"" on 1982 - 777-03-005 - BACK PLANE MTG. ANGLES - DRN P. Mahoney - ENG MRW - ISS 3.jpg",high,"1982,1988",
+M778,COMMUNICATION,1982,named in document,named in 1982 - microCOM - Instruction Manual.pdf,low (named by),1982,
+M780,COMMUNICATION,1981,title block date,"""06/81"" on 1981 - 780-03-005 - , M780A POWER SUPPLY SHIELD - DRN P. MAHONEY - ENG MBW - ISS 1.png",high,"1981,1982,1995",
+M7800,COMMUNICATION,1981,named in document,named in 1981 - microCOM - Inst Man p51.jpg,low (named by),"1981,1982",
+M7810,COMMUNICATION,1982,named in document,named in 1982 - microCOM - Instruction Manual.pdf,low (named by),1982,
+M7820,COMMUNICATION,1982,named in document,named in 1982 - microCOM - Instruction Manual.pdf,low (named by),1982,
+M7830,COMMUNICATION,1982,named in document,named in 1982 - microCOM - Instruction Manual.pdf,low (named by),1982,
+M7840,COMMUNICATION,1993,used in job,job 93047,low (in use by),"1993,1995",
+M7880,COMMUNICATION,1994,original file date,saved 1994-10-22: WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - M7XXX/M7880/SA14-271.DWG,medium,"1994,1995",
+M7880DA,COMMUNICATION,1994,family,from M7880,family,,
+M7880G,COMMUNICATION,1995,original file date,saved 1995-08-30: WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - M7XXX/M7880G/S14-173G.DWG,medium,1995,Keypad La Yout Director Script Switcher
+M7880H,COMMUNICATION,1994,original file date,saved 1994-09-07: WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - Word Perfect Manuals/M7880H.WP,medium,1994,
+M7884,COMMUNICATION,1995,named in document,named in 1995 - M405P - ITEMIMP(1).TXT.docx,low (named by),1995,
+M7885A,COMMUNICATION,1994,original file date,saved 1994-07-18: WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - Word Perfect Manuals/M7885A.WP,medium,1994,
+M812B,COMMUNICATION,1975,similar models,"filed with 37 dated models in ""WBSps.ca 20210317 - Small 11X17 drawings""",estimate,1975,Audio Inputs 12x1 Switcher
+M5200,COMPUTERS,1985,manual_issue,"""Issue #1 August 1985"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M5200 Controller Module/WBS M5200 p16(1).JPG",high,"1985,1986",Controller Module
+M5201,COMPUTERS,1986,manual_issue,"""Issue #1 February 1986"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M5201/WBS M5201 p42(1).JPG",high,"1986,1987",Machine CoNTROL Module
+M524,COMPUTERS,1986,manual_issue,"""MANUAL ISSUE #1 NOVEMBER 21 , 1986"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M524 - Programmer Module/m524 manual.pdf",high,1986,24 Volt dc Dual Lamp/Relay Power Supply
+M524A,COMPUTERS,1986,named in document,named in 1986 - 524-03-103 - M524A Front Panel Display Screens - DRN MRW - ENG MRW - ISS 1.jpg,low (named by),"1986,1988,1995",
+M526,COMPUTERS,1985,named in document,named in 1985 - M5200A - 002.pdf,low (named by),"1985,1987,1988,1995",
+L1202A,CONSOLE,2001,manual_issue,"""ISSUE 5 = 12001"" in WBS Photos-1-001/L1202A - P48 - Penny and Giles Fader Schematic(1).jpg",high,2001,
+L2042,CONSOLE,1977,named in document,named in 1977 - 77012 - 01-001 iss 5 L2042 Functional.psd,low (named by),"1977,1978,1985",
+L2484,CONSOLE,2014,file dates,existed by then: 2014-09-07 17.23.06.jpg was photographed,low (existed by),2014,
+L3242,CONSOLE,1977,named in document,named in 1977 - 77038 - 04-002 iss 1 L3242 console outline.psd,low (named by),"1977,1978,1979,1985",
+M1002,CONSOLE,1977,numeric,"""11/29/77"" in PUBLIC/Manuals + tech DOCUMENTS/Consoles/M1002 - Transportable Audio Console/M1002 - 010.jpg",medium,1977,Transportable Audio Console
+M1022,CONSOLE,2008,file dates,existed by then: on the 2008 WBSps website,low (existed by),2008,
+M1025,CONSOLE,2008,file dates,existed by then: on the 2008 WBSps website,low (existed by),2008,
+M1026,CONSOLE,2008,similar models,"numbering neighbours M1022 2008, M1025 2008",estimate,2008,Audio Control Console
+M1121,CONSOLE,1974,similar models,"filed with 6 dated models in ""WBSps.ca - Scans 20220207 - 11 X 48s""",estimate,1974,
+M1204,CONSOLE,1988,used in job,job 880651,low (in use by),1988,
+M1204A,CONSOLE,1978,title block date,"""MAY 78"" on 1978 - M1204A - L 2042 & M1204A SHIPPING CABINETS - DRN P. MAHONEY.jpg",high,1978,
+M1204B,CONSOLE,1988,used in job,job 880651,low (in use by),,
+M2406,CONSOLE,2008,file dates,existed by then: on the 2008 WBSps website,low (existed by),2008,
+M2484B,CONSOLE,2008,file dates,existed by then: on the 2008 WBSps website,low (existed by),2008,
+R1400,CONSOLE,1990,named in document,named in 1990 - DOC - CHIN Radio R14000001.pdf,low (named by),"1990,1992",
+RM450,CONSOLE,1973,similar models,rack-mount version of M450A,estimate,1973,
+ST2442,CONSOLE,1984,title block date,"""NOV 84"" on 1984 - 2442-04-001 - STEREO TELEVISION CONSOLE OUTLINE - DRN BD - ISS 1.jpg",high,"1984,1988",
+ST3642,CONSOLE,1984,title block date,"""NOV 84"" on 1984 - 3642-04-001 - STEREO TELEVISION CONSOLE OUTLINE - DRN BD - ISS 1.jpg",high,"1984,1987,1988",Stereo Television Console
+T1202A,CONSOLE,1982,title block date,"""MAR/82"" on 1982 - 1202-04-005 - WBS T1202A CONSOLE OUTLINE - DRN DN - ENG Schubert - ISS 1.jpg",high,1982,
+M406,DYNAMICS,1968,labelled,"""DATE Oct - 68"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M406 -  Compressor de-esser - SCHEMATICS and BOARD LAYOUT/406-09-002.jpg",high,"1968,1969,1970,1972",Compressor - Limiter
+M406A,DYNAMICS,1968,family,from M406,family,,
+M406B,DYNAMICS,1969,month,"""DEC 69"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M406B/M406B - Compressors Schematic 406-02-013 - DEC 1969/Raw scan - /WBSps.ca - M406B - Part 4.png",medium,1969,Compressor/Limiter
+M406C,DYNAMICS,1968,family,from M406,family,,
+M406M,DYNAMICS,1968,family,from M406,family,,
+M415,DYNAMICS,1971,labelled,"""DATE 7.APRIL 1971"" in WBS Photos-1-001/Scan_20210323 (5).jpg",high,1971,Mic/line Amplifier with compression
+M465,DYNAMICS,1974,drawing job number,74042 in PUBLIC/Manuals + tech DOCUMENTS/Modules/M465 - M465A - M465B - Reverb Module/M465 - REVERB MODULE /B 74042-02-011.jpg,high,"1974,1975,1977,1979",Reverb Module
+M465A,DYNAMICS,1977,labelled,"""ISSUE 01 oct. 1977"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M465 - M465A - M465B - Reverb Module/M465A - REVERB MODULE /WBS M465A p2.JPG",high,1977,Reverb Module
+M465B,DYNAMICS,1982,manual_issue,"""MANUAL ISSUE #1 DECEMBER 1982"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M465 - M465A - M465B - Reverb Module/M465B - REVERB MODULE /WBS M465B p2.JPG",high,1982,Reverb Module
+M466,DYNAMICS,1976,labelled,"""DATE AUG 76"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M466 Compressor - Limiter/M466 - P47 - Component Layout.jpg",high,"1976,1978",Compressor - Limiter
+M466C,DYNAMICS,1976,named in document,named in 1976 - M466 - Compressor - Limiter.pdf,low (named by),"1976,1977,2005",
+M466M,DYNAMICS,1976,labelled,"""DATE SEPT 76"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M466M Meter Module.pdf",high,1976,Meter Module
+M467,DYNAMICS,1976,labelled,"""DATE DEC 76"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M467-567 - Noise Gate and Meter Module/M467-567 - P025 - B467-01-001.jpg",high,"1976,1980,1985",
+M8207,DYNAMICS,1995,manual_issue,"""Issue #1 December 6, 1995"" in WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - Word Perfect Manuals/M8207.WP",high,"1995,1996",
+M402,FILTERS,1968,labelled,"""DATE AUg 68"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M402/402-09-001.jpg",high,1968,
+M402A,FILTERS,1968,family,from M402,family,,Spec Sheet
+M402B,FILTERS,1970,labelled,"""DATE JAN 70"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M402 - Equalizer/m402b-docs-10.gif",high,"1970,1971",Effects Equalizer
+M404,FILTERS,1968,labelled,"""DATE AUG 68"" in WBS Photos-1-001/WBSPS - M404 M402 Connector Hookup .png",high,1968,
+M404A,FILTERS,1968,month,"""SEP, 68"" in PUBLIC/RECENT SCANS/WBSps.ca 20210310 - Damaged drawings/M404 - Hi _ LO Equalizer Schematic/M404A - 404-02-010 -C.png",medium,1968,Hi/Lo Pass Filter
+M462,FILTERS,1974,labelled,"""DATE JULY 74"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M462-562 - P035 - B4-126-06-001.jpg",high,"1974,1976,1978,1985",
+M462A,FILTERS,1976,title block date,"""OCT 76"" on 1976 - M462A - DOC - 462-02-002 - EQUALIZER MODULE SCHEMATIC.png",high,"1976,1978,1988,1990,2005",
+M462B,FILTERS,1974,labelled,"""DATE SEP 74"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M462B EQ Modules/M462B - P34 - Component Layout.jpg",high,"1974,1976,1979",
+M462C,FILTERS,1985,manual_issue,"""I ssu e Oc tobe r 1985"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/Ward-Beck Systems - M462C-M562C - Stereo Equalizer - www.WBSps.ca.pdf",high,"1985,1987",
+M464,FILTERS,1976,labelled,"""DATE DEC 76"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M464 - HP LP Filter.pdf",high,"1976,1977",HP LP Filter
+M472,FILTERS,1977,labelled,"""DATE JULY 77"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/Ward-Beck Systems - M472 - Equalizer - www.WBSps.ca.pdf",high,1977,
+M472A,FILTERS,1986,manual_issue,"""MANUAL ISSUE #1 MARCH 1986"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/RE-SCAN - M472A - Stereo Equalizer/M472A - P001 - Title Page.jpg",high,1986,Stereo Equalizer Module
+M522,FILTERS,1985,named in document,named in 1985 - M471C - Stereo Input Module.pdf,low (named by),"1985,1988,1995,2005",Input Module
+M522B,FILTERS,1995,named in document,named in 1995 - M405P - ITEMIMP(1).TXT.docx,low (named by),"1995,2005",
+M522C,FILTERS,1995,named in document,named in 1995 - M405P - ITEMIMP(1).TXT.docx,low (named by),"1995,2005",
+M562C,FILTERS,1985,manual_issue,"""Issue #1 October 1985"" in PUBLIC/RAW Photos/FILTERS/M562C---Stereo-4-Band-EQ/M462C562C - P029 - SA14-109A.jpg",high,"1985,1987",Stereo Equalizer Module
+M922,FILTERS,1994,month,"""MAY 24,1994"" in WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - CONSOLES/REN TV Console/M922/OLD/14-290.PCB",medium,"1994,1995",Mono Equalizer
+M441,INPUT-PRE-AMPS,1971,labelled,"""DATE JUNE '71"" in WBS Photos-1-001/Scan_20210321 (10).png",high,1971,
+M441F,INPUT-PRE-AMPS,1972,month,"""MAR 20 1972"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M441F/WBS M441F vint P1(1).JPG",medium,1972,
+M441M,INPUT-PRE-AMPS,1973,labelled,"""DATE APR 73"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M441M - Microphone preamp #Master/M441M - Channel Amplifier.pdf",high,1973,Channel Amplifier
+M460,INPUT-PRE-AMPS,1976,labelled,"""DATE DEC 76"" in WBS Photos-1-001/M460B - P033 - B460-01-003(1).jpg",high,1976,
+M460A,INPUT-PRE-AMPS,1976,labelled,"""DATE 8 DEC 76"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M460A - Input Module.pdf",high,"1976,1977,1979,1983",Input Module
+M460B,INPUT-PRE-AMPS,1976,labelled,"""DATE DEC 76"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M460B - Input Module/M460B - P033 - B460-01-003.jpg",high,"1976,1977",Input Module
+M460C,INPUT-PRE-AMPS,1974,family,from M460L,family,,Input Module Schematic
+M460D,INPUT-PRE-AMPS,1974,family,from M460L,family,,Input Module Schematic
+M460E,INPUT-PRE-AMPS,1974,family,from M460L,family,,
+M460F,INPUT-PRE-AMPS,1974,family,from M460L,family,,Input Module Schematic
+M460K,INPUT-PRE-AMPS,1974,family,from M460L,family,,Input Module Schematic
+M460L,INPUT-PRE-AMPS,1974,labelled,"""DATE JULY 74"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M460L - Input Module/4-126 - Equalizer Filter Component Assembly.jpg",high,"1974,1976",Input Module
+M460LA,INPUT-PRE-AMPS,1974,family,from M460L,family,,
+M460M,INPUT-PRE-AMPS,1974,labelled,"""DATE JUL74"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M460M - Input Module/M460M - P047 - B4-126-06-001.jpg",high,"1974,1983",Input Module
+M460T,INPUT-PRE-AMPS,1974,family,from M460L,family,,Input Module - Pin Outs
+M461,INPUT-PRE-AMPS,1975,labelled,"""DATE Oct 75"" in WBS Photos-1-001/2014-06-27 18.40.57.jpg",high,"1975,1976,1977",Input Module Functional
+M461M,INPUT-PRE-AMPS,1976,title block date,"""8 SEPT 76"" on 1975 - M461M - 461-01-002 - SOLO CONTROL SOLO COMMON CONTROL.jpg",high,1976,
+M470,INPUT-PRE-AMPS,1977,labelled,"""REVISION 10/77"" in WBS Photos-1-001/M470A - P18 - Functional Diagram(1).jpg",high,1977,Input Module
+M470A,INPUT-PRE-AMPS,1977,labelled,"""DATE MAY 77"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M470A Input Module.pdf",high,"1977,1979",Input Module
+M470C,INPUT-PRE-AMPS,1977,family,from M470,family,,Input Module
+M470D,INPUT-PRE-AMPS,1977,family,from M470,family,,2AUX with pan
+M470E,INPUT-PRE-AMPS,1984,manual_issue,"""MANUAL ISSU E II BS W July 1984"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/Ward-Beck Systems - M470E - Input Module - www.WBSps.ca.pdf",high,1984,Input Module
+M471,INPUT-PRE-AMPS,1977,used in job,job 77012,low (in use by),"1977,1982,1985",Stereo Input Module
+M471A,INPUT-PRE-AMPS,1985,manual_issue,"""MANUAL ISSUE #3. DECEMBER 1985"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M471A - Stereo Input Module/M471A - P002.jpg",high,1985,Stereo Input Module
+M471C,INPUT-PRE-AMPS,1979,labelled,"""ISS.1 10/79"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M471C Stereo Input Module/M471C - 28 - Schematic.jpg",high,"1979,1985",Stereo Input Module
+M480,INPUT-PRE-AMPS,1975,month,"""APR 75"" in WBS Photos-1-001/2021-3-16-19-35-4.jpg",medium,1975,Input Module
+M480A,INPUT-PRE-AMPS,2020,title block date,"""AUG 20"" on 1975 - M480A - MIXER BUSSES IGV.jpg",high,2020,MIXER BUSSES IGV
+M480B,INPUT-PRE-AMPS,1980,manual_issue,"""MANUAL ISSUE #2 NOVEMBER 1980"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M480 - #A #B #C/M480B - Input Module/M480B - Scan 2/M480B complete_Page_01.jpg",high,1980,Input Module Schematic
+M480C,INPUT-PRE-AMPS,1982,manual_issue,"""MANUAL ISSUE #2 DECEMBER 1982"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M480C Input Module.pdf",high,1982,Input Module
+M490,INPUT-PRE-AMPS,1978,labelled,"""DRAWN 2/78"" in WBS Photos-1-001/M490A - 002.jpg",high,1978,Stereo Input Module
+M490A,INPUT-PRE-AMPS,1978,labelled,"""APP 2/78"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M490A - Mic Pre-amp /M490A - 019 - Schematic.jpg",high,1978,
+M490B,INPUT-PRE-AMPS,1978,family,from M490,family,,
+M490C,INPUT-PRE-AMPS,1978,manual_issue,"""MANUAL ISSUE #4 JUNE 1978"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M490C - Line Input/M490C - 002.jpg",high,1978,
+M490D,INPUT-PRE-AMPS,1978,labelled,"""APP 2/78"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M490D - schem-490-02-005.pdf",high,1978,
+M490E,INPUT-PRE-AMPS,1978,named in document,named in 1978 - 490-01-005 - M490E STEREO INPUT MODULE FUNCTIONAL DIAGRAM - DRN GEB - ENG GEB - ISS 3.jpg,low (named by),"1978,1990,1992,1995,2006",Stereo Input Module
+M490F,INPUT-PRE-AMPS,1978,labelled,"""DRAWN 2/78"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M490F - Stereo Input/M490F - 021 - Functional.jpg",high,"1978,1983",Stereo Input Module
+M490G,INPUT-PRE-AMPS,1978,family,from M490,family,,Mic Input Module
+M490H,INPUT-PRE-AMPS,1978,family,from M490,family,,Line Input Module
+M490J,INPUT-PRE-AMPS,1983,manual_issue,"""MANUAL ISSUE #1 DECEMBER 1983"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M490J - Mic Input Module/M490J - P001 - Title Page.jpg",high,1983,Mic Input Module
+M490K,INPUT-PRE-AMPS,1983,manual_issue,"""ISSUE 111 W :// DECEMBER 1983"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/Ward-Beck Systems - M490K - Line Input Module - www.WBSps.ca.pdf",high,1983,Line Input Module
+M490L,INPUT-PRE-AMPS,1983,manual_issue,"""ISSUE #1 _ OCTOBER 1983"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M490L - Stereo Input Module/M490L - P025 - 7-112.jpg",high,1983,Stereo Input Module
+M490M,INPUT-PRE-AMPS,1988,manual_issue,"""Issue #2 May 27, 1988"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M490M - Stereo Input Module/M490M - P029 - SA14-120.jpg",high,"1988,1992",Stereo Input Module
+M490N,INPUT-PRE-AMPS,1985,month,"""MARCH 1985"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M490N - Stereo Input Module/M490N - P001 - Title Page.jpg",medium,"1985,1988",Stereo Input Module
+M490T,INPUT-PRE-AMPS,1978,family,from M490,family,,
+M520,INPUT-PRE-AMPS,1988,used in job,job 880134,low (in use by),,Mono Input Module
+M5200A,INPUT-PRE-AMPS,1985,manual_issue,"""Issue #1 August 1985"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M5200A - Controller Module/M5200A - 015(1).jpg",high,"1985,1986,1987",
+M520A,INPUT-PRE-AMPS,1988,manual_issue,"""MANUAL ISSUE # January 5, 1988"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M520/M520/M520A_Page_02.jpg",high,1988,
+M520K,INPUT-PRE-AMPS,1988,family,from M520,family,,Stereo Input
+M521,INPUT-PRE-AMPS,1985,manual_issue,"""Issue #1 May 1985"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M521 - stereo input/M521 - 023(1).jpg",high,1985,Sterio Input Module Connector Layout
+M521A,INPUT-PRE-AMPS,1982,month,"""DEC 82"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M521A stereo input module/B14-075-06-001(1).jpg",medium,"1982,1988",Stereo Input Module
+M201,LOGIC,1979,manual_issue,"""MANUAL ISSUE #1 MARCH 1979"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M201/WBS M201 p1.JPG",high,1979,Relay Module
+M202,LOGIC,1979,manual_issue,"""MANUAL ISSUE #1 MARCH 1979"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M202/WBS M202 p1.JPG",high,1979,Logic Latch Module
+M401,METER,1968,labelled,"""DATE DEC 68"" in WBS Photos-1-001/Scan_20210323 (92).jpg",high,1968,
+M405,METER,1975,labelled,"""DATE 22 Apr.75"" in WBS Photos-1-001/Scan_20210323 (82).jpg",high,"1975,1984",Portable Extended Vu Meter
+M405C,METER,1975,title block date,"""2 MAY 75"" on 1975 - 5-108-06-001 - PCB 5-108 COMPONENT LAYOUT - DRN REB - ISS 2.jpg",high,1975,Rack Mounted Extended Range VU Meter
+M405D,METER,1984,manual_issue,"""MANUAL ISSUE #2 JUNE 1984"" in PUBLIC/Manuals + tech DOCUMENTS/METERING/M405D---Extended-Range-VU-and-Peak-Program-Meter/M405D - 010.jpg",high,1984,
+M405F,METER,1984,manual_issue,"""MANUAL ISSUE #1 JUNE 1984"" in PUBLIC/Manuals + tech DOCUMENTS/METERING/M405F---Extended-Range-VU-meter-/M405F - 018.jpg",high,1984,
+M405M,METER,1995,manual_issue,"""Issue #1 March 20, 1995"" in WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - Word Perfect Manuals/M405M.WP",high,1995,Extended Range VU Monitoring System
+M405P,METER,1990,manual_issue,"""MANUAL ISSUE #5 November 2, 1990"" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/M405P manual.pdf",high,"1990,1995,1998",
+M405PSS,METER,1975,family,from M405,family,,
+M433,METER,1992,manual_issue,"""MANUAL ISSUE #Z April 9, 1992"" in PUBLIC/Manuals + tech DOCUMENTS/METERING/M433---M434---Peak-Program-Meter/M433-434 - P001 - Title Page.jpg",high,1992,Peak Program Meter
+M435,METER,1994,manual_issue,"""MANUAL ISSUE# April 1994"" in PUBLIC/Manuals + tech DOCUMENTS/METERING/-M435---M436---VU-Meter/M435-436 - P001 - Title Page.jpg",high,1994,
+M436L,METER,2014,archivist,custom WBS monitor module built for WILMA: 16 fitted by 2014 (wilma for sale.htm); a homage in the 2025 meter bridge (Anthony P. Kuzub),certain,2014,
+M445,METER,1996,manual_issue,"""Issue #1 January 10, 1996"" in WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - Word Perfect Manuals/M445.WP",high,1996,Extended Range Meter
+RM401,METER,1968,similar models,rack-mount version of M401,estimate,1968,
+RM405,METER,1971,named in document,named in 1971 - 405-03-010 - RM405A JACK MOUNTING STRIP - DRN PHL - ISS 2.jpg,low (named by),1971,
+32ME,METERING,2014,month,"""Oct.01 2014"" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/32ME MANUAL(1).docx",medium,2014,High Density 32 Channel Audio Meter
+32ME-AES,METERING,2015,month,"""Mar.06 2015"" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/32ME-AES MANUAL(1).docx",medium,2015,High Density 32 Channel Audio Meter
+AIP8,METERING,2015,similar models,"filed with 19 dated models in ""Metering and Monitoring Manuals""",estimate,2015,
+AMS16,METERING,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),"2013,2014,2021",
+AMS16-2A,METERING,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),"2013,2014",
+AMS16-2AE,METERING,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),"2013,2014",
+AMS16-2AM,METERING,2014,month,"""Nov.07 2014"" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/AMS16-2AM _ AMS16-2AEM MANUAL(1).docx",medium,2014,
+AMS2,METERING,2015,month,"""Jul.01 2015"" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/AMS2 MANUAL(1).docx",medium,2015,Mini Cue Stereo Speaker With Digital & Analog Inputs
+AMS4,METERING,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),"2013,2016,2021",Audio Monitor System
+AMS4-1AA,METERING,2016,month,"""Feb.02 2016"" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/AMS4-1AA _ AMS4-1AAM MANUAL(1).docx",medium,2016,Audio Monitor System
+AMS8-1,METERING,2014,month,"""Oct.01 2014"" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/AMS8-1 MANUAL (Archived - OBSOLETE as of July 13, 2018)(1).docx",medium,"2014,2018",Mkiii 8 Channel Audio Monitoring System
+AMS8-1A,METERING,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),"2013,2015",Mkiii 8 Channel Audio Monitoring System
+AMS8-1AA,METERING,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),2013,Mkiii 8 Channel Audio Monitoring System
+AMS8-1AAE,METERING,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),2013,Mkiii 8 Channel Audio Monitoring System
+AMS8-1AAEM,METERING,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),2013,Mkiii 8 Channel Audio Monitoring System
+AMS8-1AAM,METERING,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),2013,Mkiii 8 Channel Audio Monitoring System
+AMS8-1AE,METERING,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),2013,Mkiii 8 Channel Audio Monitoring System
+AMS8-1AEM,METERING,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),2013,Mkiii 8 Channel Audio Monitoring System
+AMS8-1AM,METERING,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),2013,Mkiii 8 Channel Audio Monitoring System
+AMS8-1BA,METERING,2015,month,"""Mar.01 2015"" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/AMS8-1BA, AMS8-1BAM _ AMS8-1BAEM Manual(1).docx",medium,2015,Mkiii 8 Channel Audio Monitoring System
+AMS8-1CA,METERING,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),"2013,2018",Mkiii 8 Channel Audio Monitoring System
+AMS8-1CAEM,METERING,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),2013,Mkiii 8 Channel Audio Monitoring System
+AMS8-1CAM,METERING,2018,month,"""Aug.13 2018"" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/AMS8-1CAM Manual(1).docx",medium,2018,Mkiii 8 Channel Audio Monitoring System
+AMS8-2,METERING,2014,month,"""Oct.01 2014"" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/AMS8-2 MANUAL(1).docx",medium,2014,Mkiii 8 Channel Audio Monitoring System
+AMS8-2A,METERING,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),2013,Mkiii 8 Channel Audio Monitoring System
+AMS8-2AA,METERING,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),2013,Mkiii 8 Channel Audio Monitoring System
+AMS8-2AAE,METERING,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),2013,Mkiii 8 Channel Audio Monitoring System
+AMS8-2AAEM,METERING,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),2013,Mkiii 8 Channel Audio Monitoring System
+AMS8-2AAM,METERING,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),2013,Mkiii 8 Channel Audio Monitoring System
+AMS8-2AE,METERING,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),2013,Mkiii 8 Channel Audio Monitoring System
+AMS8-2AEM,METERING,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),2013,Mkiii 8 Channel Audio Monitoring System
+AMS8-2AM,METERING,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),2013,Mkiii 8 Channel Audio Monitoring System
+AMX6,METERING,2015,month,"""Jan.01 2015"" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/AMX6 Manual(1).docx",medium,2015,Audio Monitor System
+AMX9A,METERING,2014,month,"""Dec.08 2014"" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/AMX9A Manual_(1).docx",medium,2014,Audio Monitor System
+DMS1,METERING,2015,month,"""Jan.01 2015"" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/DMS1 Manual(1).docx",medium,2015,Select Series Digital Monitoring System
+MLC6A,METERING,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),2013,
+MLC8,METERING,2017,dated folder,"in ""WBS.NAB - 2017 - Rack layout images""",low (named by),"2017,2018,2019",Multi-Channel Level Control
+MLC8A,METERING,2018,month,"""August 13, 2018"" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/MLC8A MANUAL(1).docx",medium,2018,Multi-Channel Level Control
+MLC8B,METERING,2019,month,"""Apr .25 2019"" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/MLC8B MANUAL.docx",medium,2019,Multi-Channel Level Control
+MLC8C,METERING,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),2013,Multi-Channel Level Control
+MLC8D,METERING,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),2013,Multi-Channel Level Control
+MP1,METERING,1992,manual_issue,"""MANUAL ISSUE #2 January &, 1992"" in PUBLIC/Manuals + tech DOCUMENTS/Other Solutions/MP1-MP2-MP3-MP4 Meter Panels/MP1-MP2-MP3-MP4 - P001 - Title Page.jpg",high,1992,PPM/VU Meter
+MP2,METERING,1992,named in document,named in 1992 - MP1 - MP2-MP3-MP4 - P001 - Title Page.jpg,low (named by),"1992,1995,2013,2021",
+MP3,METERING,1976,named in document,named in 1976 - M466 - MIMISA COMPRESSOR-LIMITER COMPONENT LAYOUT.jpg,low (named by),"1976,1979,1992,1994,1995,2013,2021",
+MP4,METERING,2014,month,"""Oct.01 2014"" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/MP4 MANUAL(1).docx",medium,2014,Classic Rackmount Analog Needle Meter
+SLM,METERING,2014,month,"""Oct.01 2014"" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/SLM Series MANUAL_(1).docx",medium,2014,Series Stereo Loudness Meter
+VMS33,METERING,2015,similar models,"filed with 19 dated models in ""Metering and Monitoring Manuals""",estimate,2015,Video And Audio Monitoring System
+XTM4,METERING,2014,month,"""Oct.01 2014"" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/XTM4 MANUAL(1).docx",medium,2014,Extended Range Test Meter
+microAMP,MICRO SERIES,2015,month,"""Jul. 01 2015"" in PUBLIC/Manuals + tech DOCUMENTS/micro Series Manuals/microAMP Manual(1).docx",medium,2015,Miniature 30 Watt Class D Amplifier With Digital Input
+microCOM,MICRO SERIES,1981,numeric,"""07/13/81"" in PUBLIC/Manuals + tech DOCUMENTS/Intercom/microcom/WBS MicroCOM Inst Man p49.JPG",medium,"1981,1982",Instruct Ion
+microCOM II,MICRO SERIES,1988,manual_issue,"""MANUAL ISSUE #2 March 17 , 1988"" in PUBLIC/Manuals + tech DOCUMENTS/Intercom/MicroCOM II/WBS microCOM II Communications System.pdf",high,1988,II Communications System
+microDriver,MICRO SERIES,2014,month,"""Oct.01 2014"" in PUBLIC/Manuals + tech DOCUMENTS/micro Series Manuals/MICRODRIVER MANUAL - OBSOLETE THRU-HOLE VERSION(1).docx",medium,"2014,2016",Miniature Stereo Headphone Module
+microMATCH,MICRO SERIES,2015,month,"""Jul. 01 2015"" in PUBLIC/Manuals + tech DOCUMENTS/micro Series Manuals/microMATCH Manual(1).docx",medium,2015,Stand Alone Unbalanced To Balanced Converter
+M412,MONITORING,1969,labelled,"""DATE: Nov.-69"" in WBS Photos-1-001/Scan_20210323 (16).jpg",high,"1969,1970,1972",Multi-frequency Oscilator
+M413,MONITORING,1969,labelled,"""DATE NOv 69"" in WBS Photos-1-001/Scan_20210323 (11).jpg",high,"1969,1978",Talkback Amplifier
+M451,MONITORING,1977,labelled,"""REVISION 9/77"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M451 - Talkback Module.pdf",high,"1977,1978",Talkback Module
+M452,MONITORING,1971,month,"""SEPT . 19 71"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/Ward-Beck Systems - M452 Oscillator Module - www.WBSps.ca.pdf",medium,"1971,1974,1977",Oscillator Module
+M475,MONITORING,1977,labelled,"""DATE JUNE 77"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/Ward-Beck Systems - M475 Monitor Module - www.WBSps.ca.pdf",high,"1977,1978",Monitor Module
+M475A,MONITORING,1986,month,"""MAY 1986"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M475A - Stereo Monitor Module/M475A - P001 - Title Page.jpg",medium,1986,Stereo Monitor Module
+M482B,MONITORING,1982,manual_issue,"""I SSUE 112 BS MANUAL W DECE MBER 1982"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/Ward-Beck Systems - M482B Monitor Module - www.WBSps.ca.pdf",high,1982,Monitor Module
+M495,MONITORING,1975,labelled,"""DATE FEB 75"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M495 - Stereo Monitor Module/M495 - P025 - B5-101-06-003 L.jpg",high,1975,Stereo Monitor Module
+M525,MONITORING,1985,named in document,named in 1985 - M5200A - 002.pdf,low (named by),"1985,1988,1995",
+M8203,MONITORING,2015,month,"""Jan.01 2015"" in PUBLIC/Manuals + tech DOCUMENTS/8200 Series Manuals/M8203 Manual(1).docx",medium,2015,
+AA6201A,OPENGEAR,2015,copyright,"""©2015"" in PUBLIC/Manuals + tech DOCUMENTS/openGear Series Manuals/AA6201A Manual(1).docx",high,2015,Universal Analog Audio Distribution Amplifier
+AV6201A,OPENGEAR,2015,copyright,"""©2015"" in PUBLIC/Manuals + tech DOCUMENTS/openGear Series Manuals/AV6201A Manual(1).docx",high,2015,"Analog Video Distribution Amplifier w/ Differential Input, Clamping And Cable Equalization"
+AV6202A,OPENGEAR,2015,copyright,"""©2015"" in PUBLIC/Manuals + tech DOCUMENTS/openGear Series Manuals/AV6202A Manual(1).docx",high,2015,Utility Analog Video Distribution Amplifier
+D6201A,OPENGEAR,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),2013,Dual 1 x 4 AES/EBU Distribution Amplifier - 75 Ohm With SRC
+D6201B,OPENGEAR,2015,copyright,"""©2015"" in PUBLIC/Manuals + tech DOCUMENTS/openGear Series Manuals/D6201B Manual(1).docx",high,2015,Dual 1 x 4 AES/EBU Distribution Amplifier - 75 Ohm With SRC
+D6202A,OPENGEAR,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),2013,AES/EBU Distribution Amplifier
+D6202B,OPENGEAR,2015,copyright,"""©2015"" in PUBLIC/Manuals + tech DOCUMENTS/openGear Series Manuals/D6202B Manual(1).docx",high,2015,AES/EBU Distribution Amplifier
+D6203A,OPENGEAR,2015,copyright,"""©2015"" in PUBLIC/Manuals + tech DOCUMENTS/openGear Series Manuals/D6203A Manual(1).docx",high,2015,Analog To AES/EBU Digital Audio Converter
+D6204A,OPENGEAR,2015,copyright,"""©2015"" in PUBLIC/Manuals + tech DOCUMENTS/openGear Series Manuals/D6204A Manual(1).docx",high,2015,AES/EBU Digital To Analog Audio Converter - 75 Ohm
+D6207A,OPENGEAR,2015,copyright,"""©2015"" in PUBLIC/Manuals + tech DOCUMENTS/openGear Series Manuals/D6207A Manual(1).docx",high,2015,DolbyE/AC3 Decoder
+M6202A,OPENGEAR,2015,copyright,"""©2015"" in PUBLIC/Manuals + tech DOCUMENTS/openGear Series Manuals/M6202A Manual _(1).docx",high,2015,HD/SD-SDI Demuxer w/Up To 6 AES/EBU Outputs
+M6202AE,OPENGEAR,2015,copyright,"""©2015"" in PUBLIC/Manuals + tech DOCUMENTS/openGear Series Manuals/M6202AE Manual _(1).docx",high,2015,HD/SD-SDI AES/EBU Audio Demuxer With Dolby Decoder
+M6203A,OPENGEAR,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),"2013,2015",HD/SD-SDI 3G Reclocked Distribution Amplifier
+M6203A-3G,OPENGEAR,2015,copyright,"""©2015"" in PUBLIC/Manuals + tech DOCUMENTS/openGear Series Manuals/M6203A-3G Manual(1).docx",high,2015,HD/SD-SDI 3G Reclocked Distribution Amplifier
+M6204A,OPENGEAR,2015,copyright,"""©2015"" in PUBLIC/Manuals + tech DOCUMENTS/openGear Series Manuals/M6204A Manual(1).docx",high,2015,HD/SD-SDI AES/EBU Audio Muxer
+M6205A,OPENGEAR,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),"2013,2015","HD/SD-SDI 3G Embedded Audio Processor w/Level Trim, And Channel Swap, Shuffle And Replacement"
+M6205A-3G,OPENGEAR,2015,copyright,"""©2015"" in PUBLIC/Manuals + tech DOCUMENTS/openGear Series Manuals/M6205A-3G Manual(1).docx",high,2015,"HD/SD-SDI 3G Embedded Audio Processor w/Level Trim, And Channel Swap, Shuffle And Replacement"
+J8248Q,OTHER SOLUTIONS,1995,named in document,named in 1995 - M405P - ITEMIMP(1).TXT.docx,low (named by),1995,
+RA24,OTHER SOLUTIONS,2015,similar models,its manual says Select Series; 10 dated documents of that series,estimate,2015,Audio Switcher
+POD1,PODS,1995,month,"""December 7, 1995"" in WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - POD_OLD/POD1/INTER1.WPD",medium,"1995,2014",Bi-Directional Audio Interface
+POD10,PODS,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),"2013,2014",Digital Audio Switcher
+POD10A,PODS,2014,month,"""Oct.01 2014"" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD10A MANUAL(1).docx",medium,2014,AES Switcher
+POD11A,PODS,2014,month,"""Oct.01 2014"" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD11A MANUAL(1).docx",medium,2014,Digital Stereo Loudness Meter
+POD12,PODS,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),"2013,2014",Digital Audio Distribution Amplifier
+POD12A,PODS,2014,month,"""Oct.01 2014"" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD12A MANUAL(1).docx",medium,2014,Digital Audio DA
+POD13A,PODS,2014,month,"""Oct.01 2014"" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD13A MANUAL(1).docx",medium,2014,Dual Digital-Analog Converter
+POD14A,PODS,2014,month,"""Oct.01 2014"" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD14A MANUAL(1).docx",medium,2014,Dual Analog To Digital Converter
+POD14B,PODS,2014,month,"""Nov.12 2014"" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD14B MANUAL(1).docx",medium,2014,Dual Analog To Digital Converter
+POD15A,PODS,2014,month,"""Oct.01 2014"" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD15A MANUAL(1).docx",medium,2014,Analog Video Distribution Amplifier
+POD16,PODS,2014,month,"""Oct.01 2014"" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD16 MANUAL(1).docx",medium,2014,Stereo Audio Fader
+POD17,PODS,2014,month,"""Oct.01 2014"" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD17 MANUAL(1).docx",medium,2014,Digital Audio Distribution Amplifier
+POD18,PODS,2014,month,"""Oct.01 2014"" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD18 MANUAL(1).docx",medium,2014,Quad Audio Interface
+POD2,PODS,1997,month,"""OCT 7,1997"" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD2 - #Schematic.pdf",medium,"1997,2014",Stereo Audio Switcher
+POD22,PODS,2014,named in document,named in 2014 - POD22A - MANUAL.docx,low (named by),2014,Stereo Loudness Meter
+POD22A,PODS,2014,month,"""Oct.01 2014"" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD22A MANUAL(1).docx",medium,2014,Stereo Loudness Meter
+POD24,PODS,2014,month,"""Oct.01 2014"" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD24 MANUAL(1).docx",medium,2014,Power Amplifier
+POD25,PODS,2014,month,"""Oct.01 2014"" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD25 MANUAL(1).docx",medium,2014,Silence Detector
+POD26,PODS,2014,month,"""Oct.01 2014"" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD26 MANUAL(1).docx",medium,2014,Audio Level Amplifier
+POD27,PODS,2014,month,"""Oct.01 2014"" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD27 MANUAL(1).docx",medium,2014,Audio Muxer
+POD28,PODS,2014,month,"""Oct. 01 2014"" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD28 MANUAL(1).docx",medium,2014,HD-SDI Distribution Amplifier
+POD29,PODS,2014,month,"""Oct.01 2014"" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD29 MANUAL(1).docx",medium,2014,Regulated Power Supply
+POD3,PODS,1994,month,"""Sep-94"" in WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - POD_OLD/POD3/#ESP_OUT.TXT",medium,"1994,1995,1996,1997",Stereo Level VU Meter
+POD30,PODS,2014,month,"""Oct.01 2014"" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD30 MANUAL(1).docx",medium,2014,4x1 HD-SDI Switcher
+POD31,PODS,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),"2013,2021",SD/HD-SDI AES Demuxer
+POD32,PODS,2013,dated folder,"in ""WBS PRODUCTS 2013 - documents-export-2013-03-08""",low (named by),2013,MD-SDI AES Muxer
+POD33,PODS,2017,month,"""Mar.07 2017"" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD33 MANUAL(1).docx",medium,2017,AES DARS Tone Generator
+POD34,PODS,2015,month,"""Jul.01 2015"" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD34 MANUAL(1).docx",medium,2015,30 Watt Class D Amplifier With Digital & Analog Input
+POD3A,PODS,2014,month,"""Oct.01 2014"" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD3A MANUAL(1).docx",medium,2014,Analog Stereo Loudness Meter
+POD4,PODS,1995,month,"""December 7, 1995"" in WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - POD_OLD/POD4/INTER4.WPD",medium,"1995,1996,1997,2014",Dual Microphone Preamplifier
+POD5,PODS,1995,month,"""December 7, 1995"" in WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - POD_OLD/POD5/MANUAL/INTER5.WPD",medium,"1995,1996,1997,1998,2014",Dual Headset Amplifier
+POD5A,PODS,1995,month,"""March 8, 1995"" in WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - POD_OLD/POD5/ORCAD/POD5A.DSN",medium,"1995,1998",Dual Headset Amplifier
+POD5B,PODS,1995,month,"""March 8, 1995"" in WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - POD_OLD/POD5/ORCAD/POD5B.DSN",medium,"1995,1998",Dual Headset Amplifier
+POD6,PODS,1997,original file date,saved 1997-08-29: WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - POD_OLD/POD6/POD6MAN.CDR,medium,1997,Miniature Stereo Headphone Module
+POD6B,PODS,1997,family,from POD6,family,,Miniature Stereo Headphone Module
+POD6C,PODS,1997,family,from POD6,family,,Miniature Stereo Headphone Module
+POD7,PODS,1994,month,"""Sep-94"" in WBSps Engineering from H drive-20261018T013433Z-1-003/WBSps Engineering from H drive/WBSps - POD_OLD/POD7/ISS1/ORCAD/#ESP_OUT.TXT",medium,"1994,1995,1996,1997,2014",Universal Interface
+POD7A,PODS,1997,original file date,saved 1997-06-18: WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - POD_OLD/POD7/POD7A.WPD,medium,1997,Universal Interface
+POD7B,PODS,1997,original file date,saved 1997-08-28: WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - POD_OLD/POD7/POD7B.WPD,medium,1997,Universal Interface
+POD8,PODS,1995,original file date,saved 1995-09-11: WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - POD_OLD/POD8/ACAD/LMPOD8-1.DWG,medium,"1995,2014",Stereo Distribution Amplifier
+POD8A,PODS,2015,month,"""Jul.20 2015"" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD8A MANUAL(1).docx",medium,2015,Analog Audio Distribution Amplifier
+POD9,PODS,1995,original file date,saved 1995-09-11: WBSps Engineering from H drive-20261018T013433Z-1-003/WBSps Engineering from H drive/WBSps - POD_OLD/POD9/ACAD/FAPOD9.DWG,medium,"1995,1997,2014",Video Switcher
+M128,POWER,1968,title block date,"""22 NOV 68"" on 1968 - M128-06-003 - COMPONENT LAYOUT OF M128 FOR M402A EQUALIZER (AMPLIFIER SECTION) - DRN DJG - ISS 1 (2).jpg",high,"1968,1969",
+M207,POWER,1982,labelled,"""ISSUE NOVEMBER 1982"" in WBS Photos-1-001/M207 - P01 - TOC.jpg",high,1982,Phantom Power Card
+M485,POWER,1979,title block date,"""79/12/10"" on 1979 - 485-03-004 - TRANSFORMER MTG. PLATE - DRN P. Mahoney - ISS 2.jpg",high,"1979,1980",
+M485B,POWER,1978,labelled,"""REVISION 6/78"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M485B 25V power Supply/M485B - P12 - Regulator Layout.jpg",high,"1978,1982",SERIES REG BASE
+M611,POWER,1982,manual_issue,"""MANUAL ISSUE #2 SEPTEMBER 1982"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M611 - M611A Power Supply (ST Series)/WBS - M611 - M611A Power Supply - 001.jpg",high,1982,
+M624,POWER,1968,labelled,"""DATE JULY 68"" in WBS Photos-1-001/WBSps.ca - 20210317 11X 17 Scans  (9).png",high,"1968,1979",Power Supply
+M625,POWER,1978,month,"""MAY 78"" in wbsps - website ARCHIVE/WBSPS 2008/M625-TEMP.pdf",medium,1978,Power Supply
+M625A,POWER,1972,title block date,"""JUNNE 72"" on 1978 - M625A - Power Supply.pdf",high,"1972,1977,1979,2005",Power Supply
+M625B,POWER,1978,labelled,"""DATE MAY 78"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M625B - Power Supply/M625B - P015 - LB625-02-003 5.jpg",high,1978,Power Supply
+M628,POWER,1970,title block date,"""OCT 70"" on 1970 - M628 - DOC - REGULATOR COMPONENT LAYOUT FOR.jpg",high,"1970,1975",Intercom Power Supply
+M632,POWER,1983,title block date,"""17/6/83"" on 1983 - 632-06-002 - POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ENG MRW - ISS 2.jpg",high,"1983,1994,1995,2005",Power Supply
+M648,POWER,1970,month,"""JUNE 70"" in WBS Photos-1-001/WBSps.ca - 20210317 11X 17 Scans  (50).png",medium,"1970,1983",Power Supply
+32ME-N,RAVENNA AES67,2014,family,from 32ME,family,,
+AMS2-N,RAVENNA AES67,2016,month,"""Aug.16 2016"" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/AMS2-N MANUAL(1).docx",medium,2016,Stereo Audio Monitor Speaker w/ Digital & Ravenna® AES67 Inputs
+AMS222,RAVENNA AES67,2021,dated folder,"in ""2021 Information sheets""",low (named by),2021,
+AMS8-1AN,RAVENNA AES67,2014,family,from AMS8-1,family,,
+MLC8-N,RAVENNA AES67,2017,dated folder,"in ""WBS.NAB - 2017 - Rack layout images""",low (named by),"2017,2021",Three Quarter
+preMO-221,RAVENNA AES67,2021,dated folder,"in ""2021 Information sheets""",low (named by),2021,
+preMO-222,RAVENNA AES67,2021,dated folder,"in ""2021 Information sheets""",low (named by),2021,
+preMO-A1,RAVENNA AES67,2017,dated folder,"in ""WBS.NAB - 2017 - Rack layout images""",low (named by),"2017,2021",
+M126,ROUTING,1968,similar models,"numbering neighbours M124 1968, M128 1968, M129 1968",estimate,1968,
+M454,ROUTING,1974,labelled,"""DATE Nov 74"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M454 - Slate Assign Module/M454 - P005 - B-454-04-001.jpg",high,1974,Slate Assign Module
+M455,ROUTING,1974,labelled,"""DATE DEC 74"" in WBS Photos-1-001/455-04-001.jpg",high,"1974,1979",Auxiliary Module
+M456,ROUTING,1975,named in document,named in 1975 - M456B - Dual Mixdown Module (2).pdf,low (named by),"1975,1976,1977,1978",Dual Mixdown Module
+M456B,ROUTING,1975,labelled,"""DATE FEB 75"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M456B - Dual Mixdown Module/M456B - P030 - B5-101-06-001 R.jpg",high,"1975,1978",Dual Mixdown Module
+M457,ROUTING,1975,labelled,"""DATE FEB 75"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M457 - Pre-Mixer/M457 - 022.jpg",high,"1975,1977",Pre-Mixer Module
+M457A,ROUTING,1975,labelled,"""DATE FEB 75"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M457A - Pre Mixer Master Module.pdf",high,"1975,1977",Pre Mixer Master Module
+M459,ROUTING,1976,labelled,"""DATE AuG76"" in WBS Photos-1-001/459-02-002c.jpg",high,"1976,1979",VIDEO FOLLOW FILTER SELECTOR SCHEMATIC
+M468,ROUTING,1970,labelled,"""DATE OCt 70"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M468 - 8X1 High level Switcher.pdf",high,"1970,1973,1976,1978,1987,1990",High Level Switcher
+M468A,ROUTING,1970,family,from M468,family,,
+M468AN,ROUTING,1970,family,from M468,family,,Routing Switcher Module
+M468M,ROUTING,1976,title block date,"""SEPR 76"" on 19xx - M468M - DOC - 468-02-025 - ASSIGN MODULE SCHEMATIC.jpg",high,1976,
+M498,ROUTING,1977,used in job,job 77012,low (in use by),"1977,1978,1979,1987,1988,1990,1992,1993,1995,2005,2012",Stereo Setector
+M498A,ROUTING,1984,used in job,job 840300,low (in use by),"1984,1995,2005",10 X 1 Selector
+M538,ROUTING,1985,manual_issue,"""MANUAL ISSUE #1 AuGuST 1985"" in wbsps - website ARCHIVE/WBSPS 2008/RAW SCANS/To Be edited/M538 - A, B, C switcher modules /M538 - 001.jpg",high,1985,Aicw 8x1 Stereo Switcher
+M538C,ROUTING,1985,named in document,named in 1985 - M538 - 001.jpg,low (named by),"1985,1988,1995",
+M559A,ROUTING,1995,similar models,"numbering neighbours M562C 1985, M568N 1995, M568P 1995",estimate,1995,
+M568,ROUTING,1985,title block date,"""'85"" on 1985 - 568-01-004 - M568C M568D TRACK MASTER FUNCTIONAL - ENG ECJ - ISS 2.jpg",high,"1985,1987,1995",Assignment Module
+M568N,ROUTING,1995,named in document,named in 1995 - M405P - ITEMIMP(1).TXT.docx,low (named by),1995,
+M568P,ROUTING,1995,named in document,named in 1995 - M405P - ITEMIMP(1).TXT.docx,low (named by),1995,
+M568Q,ROUTING,1995,named in document,named in 1995 - M405P - ITEMIMP(1).TXT.docx,low (named by),1995,Stereoassignment Module
+M568W,ROUTING,1985,similar models,its drawings are M568 sheets,estimate,1985,
+RTO-144,RTO,2020,file dates,existed by then: WBS-RTO-144-REV 10.pdf was made,low (existed by),2020,DOCUMENT NUMBER DRAWING NAME NAME
+M166,SUMMING,1970,title block date,"""9 FEB 1970"" on 1970 - 166-06-001 - ACTIVE SUMMING AMPLIFIER LAYOUT - DRN DPS.jpg",high,"1970,1973",Active Summing Module
+M463,SUMMING,1972,labelled,"""DATE 22 APR72"" in WBS Photos-1-001/M463 - P029 - B463-01-001 R.jpg",high,"1972,1974,1976,1977,1979",Submaster Module
+M463A,SUMMING,1972,family,from M463,family,,Submaster Module
+M463AB,SUMMING,1986,manual_issue,"""MANUAL ISSUE #1 APRIL 1986"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M463AB - Submaster Module/M463AB - P001 - Title Page.jpg",high,1986,Submaster Module
+M463AC,SUMMING,1986,manual_issue,"""MANUAL ISSUE #1 APRIL 1986"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M463AC - Master Module/M463AC - P001 - Title Page.jpg",high,1986,Master Module
+M463B,SUMMING,1974,title block date,"""DEC 74"" on 1972 - M463B - 4-141-06-001 - WAAD-BECK SYSTEMB.jpg",high,"1974,1977",
+M463J,SUMMING,1972,family,from M463,family,,Submaster Module
+M463K,SUMMING,1974,labelled,"""DATE DEC 74"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M463K - Submaster Module/M463K - P046 - B4-141-06-001 R.jpg",high,"1974,1979,1983",Submaster Module
+M463L,SUMMING,1974,labelled,"""DATE DEC 74"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M463L - Submaster Module/M463L - P050 - B4-141-06-001 R.jpg",high,"1974,1976,1983",Submaster Module
+M463LA,SUMMING,1974,labelled,"""DATE DEC 74"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M463LA - Submaster Module.pdf",high,"1974,1976,1982,1983",Submaster Module
+M473,SUMMING,1984,numeric,"""8/7/84"" in WBS Photos-1-001/M473B - P005 - B473-01-003 R.jpg",medium,1984,Submaster Module
+M473A,SUMMING,1977,labelled,"""DATE JUNE . 77"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/Ward-Beck Systems - M473A Submaster Module - www.WBSps.ca.pdf",high,"1977,1979",Submaster Module
+M473B,SUMMING,1984,manual_issue,"""MANUAL ISSUE #1 BS //W OCTOBER 1984"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/Ward-Beck Systems - M473B - Stereo Submaster - www.WBSps.ca.pdf",high,1984,Stereo Submaster
+M477,SUMMING,1979,manual_issue,"""I SSUE '4 BS W MARCil 1979"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/Ward-Beck Systems - M477 Master Module - www.WBSps.ca.pdf",high,1979,Master Module
+M479,SUMMING,1978,manual_issue,"""ISSUE#2 AUG 1978"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/Summing - Done - M479 Dual Auxiliary Module/M479 - P03 - TOC.jpg",high,1978,Dual Auxiliary Module
+M484,SUMMING,1975,labelled,"""DATE 27 MAY 75"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M484 - Dual Summing Amplifer.pdf",high,1975,Dual Summing Amplifer
+M487,SUMMING,1982,manual_issue,"""MANUAL ISSUE ""2 BS W DECEMBER 1982"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/Ward-Beck Systems - M487 Dual Master Module - www.WBSps.ca.pdf",high,1982,Dual Master Module
+M497,SUMMING,1978,manual_issue,"""MANUAL ISSUE #2 I ps OC T. 1978"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/Ward-Beck Systems - M497-Dual-Master-Module - www.WBSps.ca.pdf",high,"1978,1984",Dual-Master-Module
+M497A,SUMMING,1978,labelled,"""REVISION 7/78"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M497A - Dual Master Module.pdf",high,1978,Dual Master Module
+M497B,SUMMING,1983,manual_issue,"""I SSUE If! W SEPTEMBER 1983"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/Ward-Beck Systems - M497B - Dual Master Module - www.WBSps.ca.pdf",high,1983,Dual Master Module
+M497C,SUMMING,1978,family,from M497,family,,Dual Master Module
+M497D,SUMMING,1978,family,from M497,family,,Dual Master Module
+M523,SUMMING,1985,manual_issue,"""Issue #1 April 1985"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M523 - Stereo SubMaster Modules (ST Series)/WBS - M523 - ST Series - Stereo Submaster Module - 021 - SA14-077 Control Assembly.jpg",high,1985,Stereo Submaster Module
+M527,SUMMING,1985,named in document,named in 1985 - M529 - Communication Modules.pdf,low (named by),"1985,1988,1995",Master Module
+M528,SUMMING,1988,used in job,job 880134,low (in use by),"1988,1995",Dual Auxiliary Module
+M020,UNSORTED,1978,similar models,its drawings are M490 sheets,estimate,1978,
+M101,UNSORTED,1972,labelled,"""DATe APR 72"" in WBS Photos-1-001/WBSps.ca 20210320 - Scans (97).jpg",high,"1972,1975",
+M107,UNSORTED,1972,month,"""JAN.72"" in WBS Photos-1-001/WBSps.ca 20210320 - Scans (102).jpg",medium,1972,
+M110,UNSORTED,1975,similar models,"shares parts with M460A (4-110), M460B (4-110), M460L (4-110), M460M (4-110)",estimate,1975,
+M117,UNSORTED,1987,month,"""DEC 87"" in WBS Photos-1-001/M625A - P017 - LB1-117-02-001.jpg",medium,1987,
+M121,UNSORTED,1973,used in job,job 73050,low (in use by),1973,Intercom Crosspoint (normaIIy OFF-switch ON)
+M122,UNSORTED,1995,named in document,named in 1995 - M405P - ITEMIMP(1).TXT.docx,low (named by),1995,Intercom Crosspoint permanently ON)
+M129,UNSORTED,1968,title block date,"""SEP-68"" on 1968 - 129-06-002 - COMPONENT LAYOUT M129 BOARD (EQUALIZER SECTION) - DRN C.S. O'CONNELL - ISS 1.jpg",high,1968,
+M136,UNSORTED,1970,named in document,named in 1970 - 648-02-002 - M648A POWER SUPPLY SCHMATIC - DRN DJG - ISS 4.png,low (named by),"1970,1971,1983",
+M144,UNSORTED,1968,title block date,"""25 NOV 68"" on 1968 - 144-06-002 - COMPONENT LAYOUT OF M144 FROM M402A EQUALIZER (EQUALIZER SECTION) - DRN DJG - ISS 1.jpg",high,1968,
+M146,UNSORTED,1968,title block date,"""JULY-68"" on 1968 - 146-06-001 - COMPRESSOR BOARD M146 COMPONENT LAYOUT - DRN C.S. O'CONNELL - ISS 2 (2).jpg",high,"1968,1969",
+M147,UNSORTED,1968,title block date,"""JULY-68"" on 1968 - 147-06-001 - COMPRESSOR BOARD M147 COMPONENT LAYOUT - DRN C.S. O'CONNELL - ISS 2.jpg",high,"1968,1969",
+M150,UNSORTED,1995,manual_issue,"""Issue M150 Peter Wong JAN 24, 1995"" in WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - M150/M150.PCB",high,1995,
+M152,UNSORTED,1987,labelled,"""REVISION 87"" in WBS Photos-1-001/M612 - P021 - LB152-06-001 R(1).jpg",high,1987,
+M158,UNSORTED,1969,title block date,"""AUG 69"" on 1969 - 158-06-003 - COMPONENT LAYOUT M158 - DRN DJG - ISS 6.jpg",high,1969,
+M168,UNSORTED,1970,month,"""FEB.1970"" in WBS Photos-1-001/168-06-001.jpg",medium,1970,
+M171,UNSORTED,1970,title block date,"""MAY 1970"" on 1970 - 171-06-001 - M610 10 WATT AMPLIFIER ASS'Y - DRN PS - ISS 1.jpg",high,1970,
+M173,UNSORTED,1973,labelled,"""DATE SEPT 1973"" in WBS Photos-1-001/M621-621T - P014 - B173-02-001 04.jpg",high,1973,
+M174,UNSORTED,1970,title block date,"""DEC 70"" on 1970 - 174-02-001 - M721 TO M727 I C CROSSPOINTS SCHEMATIC - DRN DJG - ISS 1.jpg",high,"1970,1973",
+M175,UNSORTED,1972,named in document,named in 1972 - DOC - 712-02-012 - DIRECT SUMMING INPUT.jpg,low (named by),1972,Slot Card
+M178,UNSORTED,1970,month,"""OCT 70"" in WBS Photos-1-001/M468 - P007 - B178-06-001 R.jpg",medium,1970,
+M181,UNSORTED,1973,labelled,"""DATE APR 73"" in WBS Photos-1-001/2021-3-21-17-26-2.jpg",high,1973,
+M182,UNSORTED,1973,month,"""APR 73"" in WBS Photos-1-001/2021-3-21-17-20-52.jpg",medium,1973,
+M203,UNSORTED,1979,title block date,"""2/79"" on 1979 - 203-02-001 - TURRET INTERFACE SCHEMATIC - DRN MRW - ENG MRW - ISS 1.jpg",high,1979,
+M208,UNSORTED,1983,named in document,named in 1983 - M609 - Remote sensitivity and DA (2).pdf,low (named by),"1983,1984,1995",
+M400,UNSORTED,1972,labelled,"""DATE 72"" in WBS Photos-1-001/Scan_20210323 (98).jpg",high,1972,
+M403,UNSORTED,1968,similar models,"numbering neighbours M402 1968, M402B 1970, M404 1968, M404A 1968",estimate,1968,
+M407,UNSORTED,1974,title block date,"""OCT 74"" on 1974 - 407-02-003 - A TURRET - DRN GEB - ISS 3.jpg",high,1974,
+M414,UNSORTED,1970,month,"""OCT. 1970"" in WBS Photos-1-001/Scan_20210323 (9).jpg",medium,1970,
+M416,UNSORTED,1973,labelled,"""DATE 20 April 73"" in WBS Photos-1-001/Scan_20210323 (2).jpg",high,1973,Cue Amplifier Instruction
+M420,UNSORTED,1969,labelled,"""DATE SEPT 69"" in WBS Photos-1-001/2021-3-21-20-54-25.jpg",high,1969,
+M421,UNSORTED,1969,labelled,"""DATE Sept 69"" in WBS Photos-1-001/Scan_20210321 (15).png",high,1969,
+M422,UNSORTED,1969,labelled,"""DATE SEPT69"" in WBS Photos-1-001/Scan_20210321 (14).png",high,1969,
+M424,UNSORTED,1969,labelled,"""DATE NOv 69"" in WBS Photos-1-001/Scan_20210321 (12).png",high,1969,
+M424S,UNSORTED,1969,family,from M424,family,,
+M448,UNSORTED,1969,labelled,"""DATE JAN-69"" in WBS Photos-1-001/WBSps.ca - 20210317 11X 17 Scans  (107).png",high,1969,
+M458,UNSORTED,1977,title block date,"""11/77"" on 1977 - 458-02-001 - QUAD PEAK OVERLOAD INDICATOR SCHEMATIC - DRN ELJ - ENG ELJ - ISS 2.png",high,"1977,1983",
+M469,UNSORTED,1978,title block date,"""11/78"" on 1978 - 469-02-001 - M469A ASSIGNMENT MODULE SCHEMATIC - DRN P. Mahoney - ENG PC - ISS 2.jpg",high,"1978,1981,1985,1986",Assignment Module
+M478,UNSORTED,1976,used in job,job 76045,low (in use by),,Assign Module
+M478H,UNSORTED,1984,manual_issue,"""MANUAL ISSUE #1 MA Y 1984"" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M478H - Slate Assign Module/M478H - 002.jpg",high,1984,Slate Assign Module
+M483,UNSORTED,1978,title block date,"""MARCH 78"" on 1978 - 483-02-002 - M483A MONITOR MODULE - DRN DM-ELJ - ISS 1.jpg",high,1978,
+M499,UNSORTED,1990,used in job,job 900438,low (in use by),,Insertion Switcher
+M500,UNSORTED,1968,labelled,"""DATE 24 MAY-68"" in WBS Photos-1-001/WBSps.ca - 20210317 11X 17 Scans  (90).png",high,1968,
+M501,UNSORTED,1968,labelled,"""DATE 24 MAY-68"" in WBS Photos-1-001/IMG_20210307_135739-2048x1536.jpg",high,1968,
+M503,UNSORTED,1968,title block date,"""SEPT-68"" on 1968 - 503-09-001 - CUE AMPLIFIER FRAME WIRING - DRN C.S. O'CONNELL.jpg",high,1968,
+M510,UNSORTED,1969,title block date,"""JAN-69"" on 1969 - 510-02-001 - 510 MONITOR AMP SCHEMATIC - DRN C.S. O'CONNELL - ISS 1.jpg",high,1969,
+M530,UNSORTED,1985,similar models,"numbering neighbours M526 1985, M527 1985, M528 1988, M529 1985",estimate,1985,
+M900,UNSORTED,1994,title block date,"""7/94"" on 1994 - 900-03-009 - MK SERIES TUB RIB, DIVIDER & FISH PAPER - DRN DRG.jpg",high,"1994,1995,1996",
+M901,UNSORTED,1994,used in job,job 940238,low (in use by),"1994,1995,1996",
+M901A,UNSORTED,1994,original file date,saved 1994-06-29: WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - FA93001/M901A.DWG,medium,"1994,1995",Input Module
+M901B,UNSORTED,1994,original file date,saved 1994-06-29: WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - FA93001/M901B.DWG,medium,"1994,1995,1997",Mic Input Module
+M901BY,UNSORTED,1994,used in job,job 940444,low (in use by),"1994,1995",CONNECTOR DETAIL
+M901C,UNSORTED,1994,original file date,saved 1994-06-29: WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - FA93001/M901C.DWG,medium,"1994,1996",Stereo Line Input Module
+M901CY,UNSORTED,1994,used in job,job 940444,low (in use by),"1994,1995,1996",
+M901D,UNSORTED,1995,manual_issue,"""Issue #1 December 7, 1995"" in WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - Word Perfect Manuals/M901D.WP",high,1995,Input Module
+M901NW,UNSORTED,1994,original file date,saved 1994-10-27: WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - Word Perfect Manuals/M901NW.WP,medium,1994,
+M905A,UNSORTED,1994,original file date,saved 1994-06-06: WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - FA93001/M905A.DWG,medium,1994,Cr Monitcr Module
+M905B,UNSORTED,1994,original file date,saved 1994-06-07: WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - FA93001/M905B.DWG,medium,1994,Studio Monitor Module
+M907,UNSORTED,1994,manual_issue,"""Issue #2 November 2, 1994"" in WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - Word Perfect Manuals/M907#2.WP",high,1994,Summing/Output Module
+M908,UNSORTED,1994,original file date,saved 1994-01-06: WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - FA93001/M908.DWG,medium,1994,Dual Stereo Line Selector
+M909,UNSORTED,1994,original file date,saved 1994-06-03: WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - FA93001/M909.DWG,medium,1994,Custom Meter
+M920,UNSORTED,1994,labelled,"""REV 0 21-APRIL-94"" in WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - CONSOLES/REN TV Console/M920/M920WRK.PCB",high,"1994,1995,1996,1997,1998",
+M921,UNSORTED,1996,manual_issue,"""Issue 14-325 P.W. FEB. 02, 1996"" in WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - SA14-XXX/SA14-325/TANGO/M921/14-325.PCB",high,"1996,1997",
+M923,UNSORTED,1994,month,"""Sep-94"" in WBSps Engineering from H drive-20261018T013433Z-1-003/WBSps Engineering from H drive/WBSps - CONSOLES/REN TV Console/M923/OLD/#ESP_OUT.TXT",medium,"1994,1996,1997",
+M923A,UNSORTED,1994,family,from M923,family,,
+M923B,UNSORTED,1994,family,from M923,family,,
+M923C,UNSORTED,1994,family,from M923,family,,
+M923D,UNSORTED,1994,family,from M923,family,,
+M923E,UNSORTED,1994,family,from M923,family,,
+M923F,UNSORTED,1994,family,from M923,family,,
+M923H,UNSORTED,1994,family,from M923,family,,
+M924,UNSORTED,1994,manual_issue,"""Issue #2 October 31, 1994"" in WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - Word Perfect Manuals/M924.WP",high,"1994,1995",Kbs Power Supply
+M924A,UNSORTED,1994,manual_issue,"""Issue #1 December 15, 1994"" in WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - Word Perfect Manuals/M924A.WP",high,"1994,1995",Power Supply
+M926,UNSORTED,1994,month,"""Sep-94"" in WBSps Engineering from H drive-20261018T013433Z-1-003/WBSps Engineering from H drive/WBSps - CONSOLES/REN TV Console/M926/OLD2/OLD_M926/#ESP_OUT.TXT",medium,"1994,1995,1996,1997",
+M927,UNSORTED,1997,original file date,saved 1997-05-12: WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - CONSOLES/REN TV Console/M920/M927-F1.DWG,medium,1997,
+M999,UNSORTED,1993,similar models,"drawn by DRG, who drew Ward-Beck drawings 1988–1998",estimate,1993,
+RM424S,UNSORTED,1975,price list,listed in 20170522_122029_022.jpg,medium,"1975,1995",Shielded -Prewired Jackfield
+RM650,UNSORTED,1974,similar models,"filed with 6 dated models in ""WBSps.ca - Scans 20220207 - 11 X 48s""",estimate,1974,
+

@@ -1,0 +1,878 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M202 — Logic Latch Module</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../../../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../../../index.html">Index</a><a href="../../../Home.html">Wiki home</a><a href="../../../PAGES/Timeline.html">Timeline</a><a href="../../../search.html">Search</a><a href="../../../status.html">Status</a></div><h1>M202 — Logic Latch Module</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="../../../PAGES/Category-LOGIC.html">LOGIC</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../../../simulator.html?m=M202">simulator &amp; front panel</a> · <a href="../../../_packages/M202.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="../../../PAGES/Year-1979.html">1979|12</a> — manual issue date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"MANUAL ISSUE #1 MARCH 1979" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M202/WBS M202 p1.JPG</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="../../../PAGES/Year-1979.html">1979|12</a></td>
+</tr>
+<tr>
+<td>Used in jobs</td>
+<td>WBSStSeriesStereoConsole</td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="index.html">Modules/LOGIC/M202</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections</h2>
+<p><em>What it is made of and what it is part of.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M202" data-n="Logic Latch Module" data-cat="LOGIC"></div><svg class="wbs-panel" data-m="M202" data-n="Logic Latch Module" data-cat="LOGIC" role="img" aria-label="M202 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M202","title":"Logic Latch Module","rto":{"code":"M202","series":null,"type":"M202 Logic Latch","row_count":30,"impedance":{"line_in":600,"out":600},"note":null,"audio":[],"bus_out":[],"bus_in":[],"power":[],"jumpers":[],"logic":[]},"parts":[],"parents":[{"label":"WBSStSeriesStereoConsole","href":"#","note":"console / job"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20Table%20of%20Contents%20M202%20Logic%20Latch%20Module.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20Table%20of%20Contents%20M202%20Logic%20Latch%20Module.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - Table of Contents M202 Logic Latch Module.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - Table of Contents M202 Logic Latch Module.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20p1.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20p1.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - p1.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - p1.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20202-02-001%20-%20FTTVLA%20LOGIC%20LATCH%20MODULE%20SCHEMATIC.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20202-02-001%20-%20FTTVLA%20LOGIC%20LATCH%20MODULE%20SCHEMATIC.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - 202-02-001 - FTTVLA LOGIC LATCH MODULE SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - 202-02-001 - FTTVLA LOGIC LATCH MODULE SCHEMATIC.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20202-02-001.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20202-02-001.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - 202-02-001.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - 202-02-001.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20202-04-001%20-%20LOGIC%20LATCH%20MODULE.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20202-04-001%20-%20LOGIC%20LATCH%20MODULE.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - 202-04-001 - LOGIC LATCH MODULE.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1979 - M202 - 202-04-001 - LOGIC LATCH MODULE.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20202-06-001%20-%20ARW%20LOGIC%20LATCH%20MOOULE.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20202-06-001%20-%20ARW%20LOGIC%20LATCH%20MOOULE.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - 202-06-001 - ARW LOGIC LATCH MOOULE.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - 202-06-001 - ARW LOGIC LATCH MOOULE.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20202-06-001%20-%20LOGIC%20LATCH%20MODULE%20CKO%20RUUL%20COMPONENT%20LAYOUT.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20202-06-001%20-%20LOGIC%20LATCH%20MODULE%20CKO%20RUUL%20COMPONENT%20LAYOUT.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - 202-06-001 - LOGIC LATCH MODULE CKO RUUL COMPONENT LAYOUT.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1979 - M202 - 202-06-001 - LOGIC LATCH MODULE CKO RUUL COMPONENT LAYOUT.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3518.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3518.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - IMG_3518.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - IMG_3518.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3519.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3519.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - IMG_3519.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - IMG_3519.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3521.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3521.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - IMG_3521.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - IMG_3521.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3523.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3523.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - IMG_3523.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - IMG_3523.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3525.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3525.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - IMG_3525.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - IMG_3525.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3526.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3526.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - IMG_3526.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - IMG_3526.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3528.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3528.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - IMG_3528.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - IMG_3528.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3529.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3529.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - IMG_3529.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - IMG_3529.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3531.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3531.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - IMG_3531.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - IMG_3531.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3533.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3533.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - IMG_3533.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - IMG_3533.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3534.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3534.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - IMG_3534.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - IMG_3534.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3537.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3537.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - IMG_3537.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - IMG_3537.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20P001%20-%20Title%20Page.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20P001%20-%20Title%20Page.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - P001 - Title Page.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - P001 - Title Page.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20P002%20-%201-1.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20P002%20-%201-1.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - P002 - 1-1.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - P002 - 1-1.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20P003%20-%201-2.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20P003%20-%201-2.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - P003 - 1-2.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - P003 - 1-2.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20P004%20-%2074C42.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20P004%20-%2074C42.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - P004 - 74C42.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - P004 - 74C42.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20P005%20-%2074C75.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20P005%20-%2074C75.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - P005 - 74C75.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - P005 - 74C75.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20P006%20-%203-1.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20P006%20-%203-1.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - P006 - 3-1.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - P006 - 3-1.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20P007%20-%203-2.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20P007%20-%203-2.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - P007 - 3-2.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - P007 - 3-2.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20P008%20-%203-3.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20P008%20-%203-3.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - P008 - 3-3.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - P008 - 3-3.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20p10.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20p10.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - p10.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - p10.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20p2.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20p2.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - p2.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - p2.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20p3.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20p3.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - p3.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - p3.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20p4.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20p4.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - p4.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - p4.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20p5.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20p5.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - p5.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - p5.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20p6.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20p6.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - p6.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - p6.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20p7.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20p7.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - p7.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - p7.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20p8.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20p8.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - p8.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - p8.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20p9.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/1979%20-%20M202%20-%20p9.jpg" alt="" data-f="Modules/LOGIC/M202/1979 - M202 - p9.jpg" data-size="320" onerror="wbsOff(this)">1979 - M202 - p9.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/19xx%20-%20202-04-001.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/19xx%20-%20202-04-001.jpg" alt="" data-f="Modules/LOGIC/M202/19xx - 202-04-001.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">19xx - 202-04-001.jpg</a><a href="../../../viewer.html?f=Modules/LOGIC/M202/19xx%20-%20M202%20-%20Integrated%20Circuit%20Data%2074C76%20Dual%20J-K%20Flip-Flop.jpg"><img loading="lazy" src="../../../Modules/LOGIC/M202/19xx%20-%20M202%20-%20Integrated%20Circuit%20Data%2074C76%20Dual%20J-K%20Flip-Flop.jpg" alt="" data-f="Modules/LOGIC/M202/19xx - M202 - Integrated Circuit Data 74C76 Dual J-K Flip-Flop.jpg" data-size="320" onerror="wbsOff(this)">19xx - M202 - Integrated Circuit Data 74C76 Dual J-K Flip-Flop.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M568P/19xx%20-%20M568P%20-%20stiched.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M568P/19xx%20-%20M568P%20-%20stiched.jpg" alt="" data-f="Modules/ROUTING/M568P/19xx - M568P - stiched.jpg" data-size="320" onerror="wbsOff(this)">19xx - M568P - stiched.jpg</a></div>
+<h2>Price history</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Price</th>
+<th>Listed as</th>
+<th>Effective</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Year-2005.html">2005|38</a></td>
+<td>used market value</td>
+<td>5.00</td>
+<td>M202 Logic Latch</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/old website/PriceGuide.htm</td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-2006.html">2006|39</a></td>
+<td>used market value</td>
+<td>5.00</td>
+<td>M202 Logic Latch</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/jan 2006 shell/priceguide.htm</td>
+</tr>
+</tbody>
+</table>
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Year-1979.html">1979|12</a></td>
+<td>manual issue date</td>
+<td><code>MANUAL ISSUE #1 MARCH 1979</code></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20Table%20of%20Contents%20M202%20Logic%20Latch%20Module.jpg">1979 - M202 - Table of Contents M202 Logic Latch Module.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1979.html">1979|12</a></td>
+<td>manual issue date</td>
+<td><code>MANUAL ISSUE #1 MARCH 1979</code></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20p1.jpg">1979 - M202 - p1.jpg</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Physical manual inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Location</th>
+<th>Status</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M202 Logic Latch</td>
+<td>LOOSE BOX</td>
+<td>DUPLICATE</td>
+<td></td>
+</tr>
+<tr>
+<td>M202</td>
+<td></td>
+<td></td>
+<td>Recently scanned and stiched by WB</td>
+</tr>
+<tr>
+<td>M202 - Logic Latch Module</td>
+<td></td>
+<td></td>
+<td>PDF - Already scanned</td>
+</tr>
+</tbody>
+</table>
+<h2>Documents (2)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20Logic%20Latch%20Module%20%282%29.pdf">1979 - M202 - Logic Latch Module (2).pdf</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20Logic%20Latch%20Module%20%282%29.pdf.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20Logic%20Latch%20Module.pdf">1979 - M202 - Logic Latch Module.pdf</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20Logic%20Latch%20Module.pdf.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (38)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20202-02-001%20-%20FTTVLA%20LOGIC%20LATCH%20MODULE%20SCHEMATIC.jpg">1979 - M202 - 202-02-001 - FTTVLA LOGIC LATCH MODULE SCHEMATIC.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20202-02-001%20-%20FTTVLA%20LOGIC%20LATCH%20MODULE%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20202-02-001.jpg">1979 - M202 - 202-02-001.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20202-02-001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20202-04-001%20-%20LOGIC%20LATCH%20MODULE.jpg">1979 - M202 - 202-04-001 - LOGIC LATCH MODULE.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20202-04-001%20-%20LOGIC%20LATCH%20MODULE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20202-06-001%20-%20ARW%20LOGIC%20LATCH%20MOOULE.jpg">1979 - M202 - 202-06-001 - ARW LOGIC LATCH MOOULE.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20202-06-001%20-%20ARW%20LOGIC%20LATCH%20MOOULE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20202-06-001%20-%20LOGIC%20LATCH%20MODULE%20CKO%20RUUL%20COMPONENT%20LAYOUT.jpg">1979 - M202 - 202-06-001 - LOGIC LATCH MODULE CKO RUUL COMPONENT LAYOUT.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20202-06-001%20-%20LOGIC%20LATCH%20MODULE%20CKO%20RUUL%20COMPONENT%20LAYOUT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3518.jpg">1979 - M202 - IMG_3518.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3518.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3519.jpg">1979 - M202 - IMG_3519.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3519.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3521.jpg">1979 - M202 - IMG_3521.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3521.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3523.jpg">1979 - M202 - IMG_3523.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3523.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3525.jpg">1979 - M202 - IMG_3525.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3525.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3526.jpg">1979 - M202 - IMG_3526.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3526.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3528.jpg">1979 - M202 - IMG_3528.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3528.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3529.jpg">1979 - M202 - IMG_3529.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3529.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3531.jpg">1979 - M202 - IMG_3531.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3531.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3533.jpg">1979 - M202 - IMG_3533.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3533.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3534.jpg">1979 - M202 - IMG_3534.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3534.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3537.jpg">1979 - M202 - IMG_3537.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20IMG_3537.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20P001%20-%20Title%20Page.jpg">1979 - M202 - P001 - Title Page.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20P001%20-%20Title%20Page.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20P002%20-%201-1.jpg">1979 - M202 - P002 - 1-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20P002%20-%201-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20P003%20-%201-2.jpg">1979 - M202 - P003 - 1-2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20P003%20-%201-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20P004%20-%2074C42.jpg">1979 - M202 - P004 - 74C42.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20P004%20-%2074C42.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20P005%20-%2074C75.jpg">1979 - M202 - P005 - 74C75.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20P005%20-%2074C75.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20P006%20-%203-1.jpg">1979 - M202 - P006 - 3-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20P006%20-%203-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20P007%20-%203-2.jpg">1979 - M202 - P007 - 3-2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20P007%20-%203-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20P008%20-%203-3.jpg">1979 - M202 - P008 - 3-3.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20P008%20-%203-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20Table%20of%20Contents%20M202%20Logic%20Latch%20Module.jpg">1979 - M202 - Table of Contents M202 Logic Latch Module.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20Table%20of%20Contents%20M202%20Logic%20Latch%20Module.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20p1.jpg">1979 - M202 - p1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20p1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20p10.jpg">1979 - M202 - p10.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20p10.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20p2.jpg">1979 - M202 - p2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20p2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20p3.jpg">1979 - M202 - p3.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20p3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20p4.jpg">1979 - M202 - p4.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20p4.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20p5.jpg">1979 - M202 - p5.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20p5.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20p6.jpg">1979 - M202 - p6.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20p6.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20p7.jpg">1979 - M202 - p7.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20p7.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20p8.jpg">1979 - M202 - p8.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20p8.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20p9.jpg">1979 - M202 - p9.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20p9.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/19xx%20-%20202-04-001.jpg">19xx - 202-04-001.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/19xx%20-%20202-04-001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/19xx%20-%20M202%20-%20Integrated%20Circuit%20Data%2074C76%20Dual%20J-K%20Flip-Flop.jpg">19xx - M202 - Integrated Circuit Data 74C76 Dual J-K Flip-Flop.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/19xx%20-%20M202%20-%20Integrated%20Circuit%20Data%2074C76%20Dual%20J-K%20Flip-Flop.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Parts list — board M202 (2 parts)</h2>
+<p><em>From <a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20p10.jpg">1979 - M202 - p10.jpg</a>, page 1 (scanned); also in <code>timelines/data/bom.csv</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>Part</th>
+<th>Value</th>
+<th>Manufacturer</th>
+<th>Mfr part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M202</td>
+<td>LOGIC LAICH MODULE</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R1</td>
+<td>Resistor 'W 47K Philips</td>
+<td>5 %</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Consoles &amp; jobs it is connected to (1)</h2>
+<p><em>Their own drawings name this module.</em></p>
+<table>
+<thead>
+<tr>
+<th>Job</th>
+<th>Year</th>
+<th>Drawing</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>WBSStSeriesStereoConsole</td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/WBS%20St%20Series%20Stereo%20Console/1985%20-%20ST%20-%20ward%20beck%20systems%20st%20console%20installation.pdf">1985 - ST - ward beck systems st console installation.pdf</a></td>
+<td>13</td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (2)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M568P/19xx%20-%20M568P%20-%20stiched.jpg">19xx - M568P - stiched.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/RTO/RTO-144/19xx%20-%20RTO-144%20-%20Module%20RTO-144%20Jumper%20calculator.xlsx">19xx - RTO-144 - Module RTO-144 Jumper calculator.xlsx</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="../../../PAGES/Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>General description (3)</h3>
+<details><summary>Description — 490 words · 1979 - M202 - Logic Latch Module.pdf, page 2</summary><p>M202 LoGIc LATCH MQDULE The M202 Logic Latch module accepts three momentary pushbutton inputs and stores or Tatches the status of the pushbutton depressed . Only one of the three status outputs wili be latched at any one time . 5 ;= 1 + 0&#x27;1? 27&#x27;0 / Additionally an alternate action type Iatch is provided for fourth pushbutton input. ,eD #Tuqiuc ~78 4360 70( Nat AaV Tc 6 =9 A6t n; 50 501n T0 nj 6 670722 (in St72: A&#x27; Inputs a0t e - ) :Heuod 270 27082;G76 `1 529n1 1f 270.321109 F_jjtso 4J63 P70&quot; ? 32- C3&#x27;8in: 0 ) = 7J? 67 &#x27; - Cc-&#x27; The input circuit configuration is identical for all four pushbutton inputs. With the control inputs floating, the open-circuit voltage at the control pins is approximately 19 volts The inputs are protected against inadvertent high-voltage application and may be sa fely opera- ted at potentials UP to +30 volts An R/c network guards the inputs against the effects of switch bounce . Each input circuit is followed by an inverting Schmitt trigger. Uf&quot; [ 9k2_? nmob Ija 4J Dre 276 312 5&#x27;7) en 7Ubn? 052764? &#x27;j&quot; {) In order IO affect change of status, logic &quot;0&quot; is applied t0 any of the inputs, ranging from to +2 volts, and having minimum duration of 100 milliseconds W1P0J Cc&#x27; &#x27;JA BA Anterlocking Three Pushbutton Control Legic nia 6 1.35 W&#x27;gc: 67 , 6| ! &gt; Oya 1700(73 90) Zluan: The function of the three control inputs at pins 2, B and 13 can be compared t0 that of bank of three interlocking pushbutton switches, where the operation of any one switch causes the other Wo to release . 92u 80 (0 150q8 82s1lov 2r,iOE-svlbzor This operation is achieved in the following way F1 F -a ona bewueiino? CUJ c 0ui5ae- @ 94T u2 is BCD t0 decimal decoder , used as priority decoder . Of the four available binary inputs, only the first three are being used, namely A (pin 15) , B (pin 14) and c (pin 13) . As these inputs are individually addressed with logic &quot;1&quot; level originating from the outputs of U1 , the decoder wili produce logic &quot;0&quot; decimal output signal at output (pin 2) , output 2 (pin 3) or output (pin 5) f more than one input is addressed simultaneously, no decoder output wiii result. 4Q&#x27;Uo 407&#x27; 7f KO PL&quot;( 04 enivinb naa The three decimal outputs are combined via an OR gate  consisting of CR9, CRIO and CRII, the output of which triggers one-shot multivibrator configured from [Wo of the four gates con tained in u3 . negative-going pulse of about 20 milliseconds duration is generated at u3_ pin Routed via CR12, this pulse feeds the CLEAR inputs of the R/s type latches U4A, ULB and USA . b9l GnoGto3n1 Traj (cuondi I5&#x27;inoica rommoj T0&quot;&#x27;Ol? 4 :) 1o @ninone &#x27;d 7olang er{IEE-FO I-1</p><p>WAAD-BECX SYSTems LTD; OTJ evateye &gt;iOze-QAW</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20Logic%20Latch%20Module.pdf">1979 - M202 - Logic Latch Module.pdf</a>, p. 2</li>
+</ul>
+<details><summary>Description — 340 words · 1979 - M202 - P002 - 1-1.jpg, page 1</summary><p>M202 LOGIc LATCH_MODULE The M202 Logic Latch module accepts three momentary pushbutton inputs and tores Ia [ches the status the pushbutton depressed Only one the three status OUIPUts will be latched at any one time Additionally an alternate action type Iatch provided for pushbutton input. 4 |a^ 50 Sna Inputs ~Cuo7o 65 ` ) fourth The input circuit configuration identica for al four pushbutton inputs With the control inputs floating, the open-circuit voltage the controi pins approximately volts.</p><p>The inputs are protected against inadvertent high-voltage application and may be safely opera- ted potentials uP +30 volts An R/c network guards the inputs against the effects switch bounce . Each input circui followed by an inverting Schmitt trigger. J9 0b order affect change the inputs ranging from duration 100 milliseconds . status logic &quot;0&quot; applied any +2 volts and having minimum LRC FC; &#x27;Je Inter Iocking Three Pushbutton Control_Legic 0ig 1.1 7*13 Jdni The function the three con trol inputs pins and can be compared that bank three interlocking pushbutton switches where the operation any one switch causes the other two release.</p><p>@S10v 2niO€- This operation achieved the following way u2 BCD decimal decoder , used a5 priority decoder . Of the four available binary inputs only the first three are being used, namely (pin 15) , (pin 14) and (pin 13) . As these inputs are individually addressed with logic &quot;1&quot; level originating from the outputs u1 , the decoder wili produce logic &quot;0&quot; decimal output Signal output (pin 2) , output (pin output (pin 5) .</p><p>more than one input addressed simultaneously , no decoder output wili result. The three decimal outputs are combined via an OR gate consisting CR9 CRIO and CRII, the output which triggers one-shot multivibrator configured from two the four gates contained u3 _ negative-going pulse about  20 milliseconds duration generated u3 pin Routed via CR12 this pulse feeds the CLEAR inputs Ris the type latches U4A, U4B and USA .</p><p>09] Gnog oon CAj F ! &quot; (t2 NocO CittinttrJ_ T0*]nub enirsnc&#x27;d ToJnB eri)eE-RQ</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20P002%20-%201-1.jpg">1979 - M202 - P002 - 1-1.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Description — 306 words · 1979 - M202 - P003 - 1-2.jpg, page 1</summary><p>M202 LOGIc LATCH_MQDULE Aside from clearing the three Iatches the negative-going OUEPuIs generated pin u2 wili preset the corresponding Iatch resulting logic &quot;1&quot; at the &quot;0&quot; output the particular Iatch (pins 15/16 11/12) . Cif)&quot; 2 When at logic each the &quot;0&quot; outputs drives [Wo separate transistors into turation, and 02 the case ULA . The collectors these transistors are brought out the module connectors via current limiting resistors Each these output termi- nals capable sinking maximum current MA from volt source and may be used for control tally purposes Vc3ino3 Lnitial_Reset bns noi*8?i 098 vbon: When power initially applied the combination C7 , R17 , CR13 and CR14 wil puli down the CLEAR inputs U4A U4B and USA until C7 fully charged= thus ensuring that the three Iatches are the &quot;OFF&quot; state and through 06 are non- ~conducting.</p><p>EAf^ 2]J49, 37&quot; Alternate Action Logic 2onojobii0 00[ 0ou:, &#x27;0 The input circuit pin inputs described above. ing Schmitt triggers the module connector identical the followed by [wo series-connected invert- When Pin addressed with logic &quot;0&quot; ground input negative-going voltage will appear at the clock input (pin u5B _ The B-section u5 configured J-K flip-flop and will change state every time negative-going input transition takes Place Both the &quot;0&quot; as weli as the &quot;0&quot; output are followed by transistor switch identica the ones described earlier _ separate reset circuit, consisting C6 R12 and CRIS, clears USB when power initially applied.</p><p>the cleared reset state, 08 conducting and 07 switched off When driving 40 MA load from any the control outputs the voltage the module output terminals wili be less than volt. 92 Q9? Steering Network J0 J1: inoj Mg70i (i|Lr 0^/02 M1Bp seperate and independent steering network, consisting CRI7 through CR2I incorporated into the module. may be used for OR-gating and/or branching the controi common potential 1-2</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20P003%20-%201-2.jpg">1979 - M202 - P003 - 1-2.jpg</a>, p. 1</li>
+</ul>
+<h3>Circuit description (1)</h3>
+<details><summary>Circuit Description — 1232 words · 1979 - M202 - Logic Latch Module.pdf, page 3</summary><p>M202 Logic LATCH MODULE Aside from clearing the three Iatches, the negative-going OUtPuts generated at pin 2, 3 or of u2 wili preset the corresponding Iatch, resulting in logic &quot;1&quot; at the &quot;0&quot; output of the particular Iatch (pins 15/16 or 11/12) 17  &#x27;( - J0; 630iv0n0 7t31si GQyi CIf &gt; &#x27;.35 37 €0751 7D v&#x27;e7o ) &#x27;ph^ When at logic &quot;&quot; each of the &quot;0&quot; outputs drives [Wo separate transistors into sa turation, i.e 01 and 02 in the case of ULA The collectors of these transistors are brought out [0 the module connectors via current limiting resistors Each of these OUtPut termi- nals is capable of sinking maximum current of 40 MA from 24 volt source and may be used for control or tally purposes 2). 4&quot;| &quot;u=s&quot; U&quot; 6= JJen: 0V 42| Bmn OFC7&quot; L = ^ &quot;(Fnos &#x27; ~1 ] Initial Reset F0 4&#x27; ja #a P;6 noi&#x27;83ilacb #2R&#x27;in -7E&#x27;7 {F9jevbsn: &#x27;c7 206 ~J 07B44&quot; 4&quot;W&#x27;_0 3.9 na 2 4&lt; V Oc- 2&quot; 4 QU 2 _ &#x27;n90C :1 C $ When power is initially applied, the combination of C7 , R17 , CRI3 and CRI4 wili pul / down the CLEAR inputs of ULA , U4B and USA until C7 is fully charged, thus ensuring that the three Iatches are in the &quot;OFF&quot; state and 01 through 06 are non-conducting. Ve 0I 7807 } r | ~J*v = A bne L&quot;&#x27;^ ereaBn 2) ur, 77&#x27; T4 Alternate Action Logic 1onojcbi0 O0t T0 0o &quot;`. The input circuit at pin of the module connector is identical t0 the inputs described above. It is followed by [Wo series-connected invert- ing Schmitt triggers _ 2, !iQ 2iJoni P_&quot;4 | ~h ? AF &quot; A 7o &#x27;Jat 47,47 1&quot; no:aieL9 Bni4-o1791f: 9474&#x27; Kic Anba 04 3n&quot; 08 +onrot? When Pin P is addressed with logic &quot;0&quot; or ground input, negative-going voltage wili appear at the clock input (pin 6 ) of UsB E&quot; &#x27;0i :` RJL Oo Tfcc 4~ T The B-section of u5 is configured a5 J-K flip-flop and wiii change state every time negative-going input transition takes place . Both the &quot;0&quot; as weli as the &quot;0&quot;output are followed by transistor switch, identical to the ones described earlier. r&#x27;C ! &#x27;3 - 0i 0 Mo7 C7i&#x27; snlei-0 3 20| beazgabc L Yuocl &#x27;d : separate reset circuit, consisting of C6, R12 and CRIS, clears USB when power is initially applied . In the cleared Or reset  state, 08 is conducting and 07 is switched off. 292:9* @ _ L O^ 9 O When driving 40 MA Ioad from any of the control outputs, the voltage at the module output terminals wili be less than volt. Fd 7328/-1 OjT 0 Iq&quot;O 9J Do u Oia3 Q9J Steer ing Network ~R0 &quot;uo? 4F&quot; &#x27;o 0wa {o1 tojue&quot;iric , ~%&quot;/ : &quot; NC &#x27; : 4JU0 Zcno-JZ&#x27;^&#x27;t cf #Uc_L To 92/JQ 2&quot;ce-&quot;vi1dpSn seperate and independent steering network, consisting of CR17 through CR2I is incorporated into the module. It may be used for OR-gating and/or branching of the control common potential 1-2</p><p>WAAD-BECK SYSTEms LTD_ INTEGRATED CIRCUII_DAIA 24042 BCD IO DECIMAL DECODER The 74c42 one-of-ten decoder is monolithic CMOS circuit This decoder Produces logic &#x27;0 at the output ;ofreseonding to four bit binary input from zero to nine, and Togic 1 at the other outputs For binary inputs from ten to fifteen a11 outputs are logic &#x27;1&#x27; OUTPUtS Vcc 16 15 14 13 12 11 10 TOP VIEW GND OUTPUTS Inputs outputs 0 1 2 3 4 5 6 7 8 9 TRUth TABLE D C B A 2 1 1 i &amp; 1 1 1 { 0 8 8 i L i 1 ; H 1 74042</p><p>WAAD-BECX Systems LTD_ INTEGRATED CIRCUII_DAIA 14C16 DUAL J-K FLIP-FLOP WIIH CLEAR AND_PRESET The 74c76 J-K flip-fTop is monolithic CMOs circuit Each flip- flop has independent J , K clock, clear and preset inputs a$ we11 a $ Q and W outputs The flip-flops are edge sensitive to the clock input and change s tate on the negative going transition 0 f the clock pulses Clear or preset i5 independent 0 f the clock and is accomplished by Tow Teve] on the respective input. 16 CLOCK A KA PRESET A CLEAR Q4 CLOCK CLEAR A 64 PRESET JA GND Vcc Kb PRESET CLOCK Q8 CLOCK 10 PRESET B CLEAR Q8 CLEAR B Je TOP VIEW logic &quot;0&quot; on clear sets Q to Togic &quot;0&quot; A logic &quot;0&quot; on preset sets Q t0 logic Note I: Note 2: tn tn+1 Truth TABLE Qn 1 0 1 Qn tn bit time before clock pulse tn+l bit time a fter clock pulse Preset Clear Qn lQn 0 0 0 1 1 0 8 Ii Lan #No change in output from previous state 74C76</p><p>WARD-BECX SYSTEMS LTD_ OTJ emetey 4Ja8-OAAW PARIS LIST M202 LOGIC LAICH_MODULE PARI DESCRIPIION MFG MEG PART MUMBER C1 C2 C3 C4 c5 Capacitor 0 . 1 uF/35 Kemet T3904104M035a5 18 5 cq92-MC-222m 3 2200 PF Aselco C6 C7 c8 c9 C10 22 uF/25 Kemet T3900226m025AS Tc T390B105M0 354 T3900475m035as X.F485= V 7 uF/35 V 281 ( fi9 tA 70j?/ 2#9 K8 31 69 ;9 2 , CRI CR2 CR3 CR4 CRS Diode Fa irchild 1n4148 54 8 M IS 8 4 0 A 0 [9 CR6 CR7 CR8 CR9 CR10 0 i [ $ S6 c Ix #69 2 ] 9 CR11 CR12 CR13 CR14 CR1S 0 ! 9 5{3 84 9 2 !A 05S CR16 CR17 CR18 CR19 CR2O Motorola XS XS 1n4003 4S SaS X $ SY: SXS ;&#x27;9 -3r {Sf 4 5 4 2s8 CR21 3-1</p><p>WAAD-BECX SYsTems LTD OTJ emateyz XW3B-OAAW PARIS LIST M202 LOGIC LAICH_MQDULE PART DESCR[PTION    Transistor 8 2 3 Q5 HS -S-Jm t0j 06 &#x27; Q7 Q8 CcE ? {^-^ o&quot;- aCjre &quot; 37K MFG MFG_PART NUMBER JsmisX Nationa 1  2n3569 3 0 3 3 ~[ i Cj&#x27;9? % J0 Ucss 19393 L:72 67 26 `u 25 ,70 5,$ RI R2 R3 R4 RS Resistor #w 5% 47k 47k 8w[ 4  47k 47k 470k Philips s00 ; Q I93 30 : 293 17 7 (7) R6 R7 R8 R9 R10 470k 470k 470k 47k 10k 0 ^ ) T7, 34- € v &quot; &quot;; R1l R12 R13 R14 R15 47k 47k 47k 47k 47k [[ ; , 47 Ei 7 ` P153 2[) ) R16 R17 R18 R19 R20 47k 47k 2k2 2k2 2k2 0 f 4J TiR ` 6[9j [ 2 - 6S/; R2 1 R22 R23 R24 R25 2k2 2k2 2k2 2k2 2k2 &gt;&#x27; 3-2</p><p>WAAD-BECK SYSTEMS LTD PARIS LISI M202 LOGIC LAICH_MQDULE PART DESCRIPIION MFG MFG PART NUMBER R26 R27 R28 R29 R30 Resistor Sw 5% 4k7 4k7 4k7 4k7 4k7 Philips R31 R32 R33 R34 R35 4k7 4K7 4k7 Resistor Iw 5% 100 4.7 R36 R37 R38 R39 R40 100 4.7 100 4 4 R41 4.7 Integrated circuit Nationa] Mm74c14n MM74C42n MMzacqon 4 U6 Voltage Regulator Lm340T-12 WBS recommends the use of replacement parts made by the specified manufacturers for continued optimum equipment performance 3-3</p><p>P34 NOTES ALL resistors ARe Xw 5 % ALL CapAciTORS IN Af UNLESS specified Otherwise 2 LAST COMPONENT DESigNaTiONs Are cio Cr 2i 08,RA1,U6 2 UsE PcB 9-102 7c A1 TALLY rib ioo &#x27;hw Qi 2N3569 2kz Rz6 +i2v 74-76 Ri 47k - Cri Ri3 47k Rss 74614 3 A2 CDNTROL crs in4l4B Rs Atok 47 #w Q2 Znss64 Inal</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20Logic%20Latch%20Module.pdf">1979 - M202 - Logic Latch Module.pdf</a>, p. 3</li>
+</ul>
+<h3>Parts list (text) (1)</h3>
+<details><summary>Parts List — 334 words · 1979 - M202 - Logic Latch Module (2).pdf, page 6</summary><p>MZOZ   LOGIC LATCH MODULE</p><p>PART      DESCRIPT ION                                           , &#x27;&quot; •                  &quot;,    PART NUMBER   Cl        Cap aci to r    o. 1 uf n S          K••l t           T390AI04M03SAS   C2             •               •                                            •   C3             •               •                  •                         •                  •               •                  •                         •   &quot;   C5             •                  •                             ZZDO p&#x27;                                     ,                                                  Aseleo           CQ9Z -HC-ZZZM                             ZZ uf/Z5             h.lt             T3900ZZ6MOZ5AS   &quot;   C7   C8                  •                  •                                   •                             I uf/3S V                                      ,                                                     •                                                     •                                                                               •                                                                   T390 B10 5KO35A5    cs            •          4 . 7 uFnS              •             T39 0 D47 5MO 35AS    Cl.           •                •                 •                         •</p><p>CR!       Ofo de                               f e lrell l1 d   I N4 14 8    CR2           •                                  •               •    CR3           •                                  •               •   CR4            •                                  •               •   CR5            •                                  •               •                  •                                  •               •   &#x27;&quot;    CR7    CRB                  •                  •                  •                                                     •                                                     •                                                     •                                                                     •                                                                     •                                                                     •    cas    CliO          •                                  •               •    CRt I         •                                  •               •    CR IZ         •                                  •               •    CR13          •                                  •               •    CRt.          •                                  •               •    CR I 5        •                                  •               •    CRI6          •                               Motoro la        1N4 0 0 3    CRt7          •                                  •               •    CRI8          •                                  •               •    CR I9         •                                  •               •                  •                                  •               •                                                                                        a</p><p>CRZO                                                                                    .c                                                                                    ps</p><p>CR2 1         •                                  •               •                                                                                   BS                                                                               W                                                                           ://                                                                         tp                                                                     ht</p><p>a- i</p><p>WA~O ·BEC K   S YSTEMS LTO .</p><p>PART S LI ST</p><p>M20 2   LOGI C L AT C ~ MOOULE</p><p>PART    DESCR[PTI ON                            HF G         MFG PART NU MBER</p><p>QI      Trllnsistor                             Nati onal    2N 35 69   Q2            0                                   0            0</p><p>QJ            0                                   0            0</p><p>0                                   0            0   Q&#x27;            0                                   0            0   Q&#x27;                 0                                   0            0   Q&#x27;   Q7            0</p><p>0                                                     0</p><p>0                                                                  0</p><p>0   Q&#x27;</p><p>&#x27;I     Res i s t or                 0                          .- &quot; mm                  Ph il ip s                                                     0</p><p>&quot;   RJ   R4                 0</p><p>0                                  m                                  m                                                     0</p><p>0</p><p>0    R5           0                                  47 01&lt;                 0                                    0    R6                            47 01&lt;                 0                                   0    R7                            47 01::    RB           0                                  47 01&lt;             0</p><p>R9           0                                  m                  0</p><p>RI O         0                                  10K                0</p><p>RlI          0                                  m                   0</p><p>Rl2          0                                  m                   0</p><p>RlJ          0                                  m                   0</p><p>RI&#x27;          0                                  m                   0</p><p>RI &#x27;         0</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20Logic%20Latch%20Module%20%282%29.pdf">1979 - M202 - Logic Latch Module (2).pdf</a>, p. 6</li>
+</ul>
+<h2>Drawings (8)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Drawn by</a></th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>—</td>
+<td>Table of Contents M202 Logic Latch Module</td>
+<td><a href="../../../PAGES/Year-1979.html">1979|12</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20Table%20of%20Contents%20M202%20Logic%20Latch%20Module.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Integrated Circuit Data 74C76 Dual J-K Flip-Flop</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/19xx%20-%20M202%20-%20Integrated%20Circuit%20Data%2074C76%20Dual%20J-K%20Flip-Flop.jpg">file</a></td>
+</tr>
+<tr>
+<td>202-02-001</td>
+<td>Fttvla Logic Latch Module Schematic</td>
+<td></td>
+<td></td>
+<td></td>
+<td>U</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20202-02-001%20-%20FTTVLA%20LOGIC%20LATCH%20MODULE%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>202-02-001</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20202-02-001.jpg">file</a></td>
+</tr>
+<tr>
+<td>202-04-001</td>
+<td>Logic Latch Module</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20202-04-001%20-%20LOGIC%20LATCH%20MODULE.jpg">file</a></td>
+</tr>
+<tr>
+<td>202-06-001</td>
+<td>Arw Logic Latch Mooule</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20202-06-001%20-%20ARW%20LOGIC%20LATCH%20MOOULE.jpg">file</a></td>
+</tr>
+<tr>
+<td>202-06-001</td>
+<td>Logic Latch Module Cko Ruul Component Layout</td>
+<td></td>
+<td><a href="../../../PAGES/Person-KRW.html">KRW</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/1979%20-%20M202%20-%20202-06-001%20-%20LOGIC%20LATCH%20MODULE%20CKO%20RUUL%20COMPONENT%20LAYOUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 202-04-001</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/LOGIC/M202/19xx%20-%20202-04-001.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M202&quot;,
+ &quot;name&quot;: &quot;Logic Latch Module&quot;,
+ &quot;category&quot;: &quot;LOGIC&quot;,
+ &quot;year&quot;: 1979,
+ &quot;part_of&quot;: [
+  &quot;WBSStSeriesStereoConsole&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - 202-02-001 - FTTVLA LOGIC LATCH MODULE SCHEMATIC.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - 202-02-001.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - 202-04-001 - LOGIC LATCH MODULE.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - 202-06-001 - ARW LOGIC LATCH MOOULE.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - 202-06-001 - LOGIC LATCH MODULE CKO RUUL COMPONENT LAYOUT.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - IMG_3518.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - IMG_3519.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - IMG_3521.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - IMG_3523.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - IMG_3525.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - IMG_3526.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - IMG_3528.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - IMG_3529.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - IMG_3531.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - IMG_3533.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - IMG_3534.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - IMG_3537.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - Logic Latch Module (2).pdf&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 11,
+   &quot;holds&quot;: [
+    &quot;connections&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - Logic Latch Module.pdf&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 11,
+   &quot;holds&quot;: [
+    &quot;connections&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - P001 - Title Page.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - P002 - 1-1.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - P003 - 1-2.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - P004 - 74C42.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - P005 - 74C75.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - P006 - 3-1.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - P007 - 3-2.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - P008 - 3-3.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - Table of Contents M202 Logic Latch Module.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - p1.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - p10.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - p2.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - p3.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - p4.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - p5.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - p6.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - p7.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - p8.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/1979 - M202 - p9.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/19xx - 202-04-001.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/LOGIC/M202/19xx - M202 - Integrated Circuit Data 74C76 Dual J-K Flip-Flop.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../../../_catalog/wbs_reels.js" defer></script><script src="../../../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../../../_catalog/libcontrol/libcontrol.css"><script src="../../../_catalog/libcontrol/react.js"></script><script src="../../../_catalog/libcontrol/react-dom.js"></script><script src="../../../_catalog/libcontrol/libcontrol.js"></script><script src="../../../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M202.md</small></div></article><script src="../../../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

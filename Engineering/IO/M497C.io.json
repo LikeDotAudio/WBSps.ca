@@ -1,0 +1,53 @@
+{
+ "code": "M497C",
+ "series": null,
+ "type": "M497C",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "O1",
+   "signal": "Mono Out Ow 11D Mono Out",
+   "dir": "out",
+   "pos": "O1P",
+   "neg": "O1N",
+   "src_page": 8
+  },
+  {
+   "port": "O2",
+   "signal": "Output Aplifier",
+   "dir": "out",
+   "pos": "O2P",
+   "neg": "O2N",
+   "src_page": 12
+  }
+ ],
+ "power": [
+  {
+   "rail": "-15V",
+   "volts": -15.0,
+   "supply": "-15V",
+   "ground": "NC OZ 220 CHASSIS",
+   "max_a": null
+  },
+  {
+   "rail": "-5V",
+   "volts": -5.0,
+   "supply": "-5V",
+   "ground": "NC OZ 220 CHASSIS",
+   "max_a": null
+  }
+ ],
+ "logic": [],
+ "ground": [
+  "NC OZ 220 CHASSIS"
+ ],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "1ecc4b6b18afe2ce0a8bbf83686bfefa501369d7507bef761c20f17bee086b7f",
+  "2c7ffbadfe302791f575298409cd63fc1b6c7d798e4e5295996c8c53043fbee2"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one. (this device has one)"
+}

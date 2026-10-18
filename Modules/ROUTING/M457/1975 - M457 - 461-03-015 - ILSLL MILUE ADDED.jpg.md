@@ -1,0 +1,100 @@
+# 1975 - M457 - 461-03-015 - ILSLL MILUE ADDED.jpg
+Wiki page: [M457](../../../PAGES/M457.md)
+
+
+- **Year:** 1975 (found in this file: "DATE SEPT 75")
+- **Module:** M457
+- **Category:** ROUTING
+- **Module year estimate:** 1975 — labelled "DATE FEB 75" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M457 - Pre-Mixer/M457 - 022.jpg
+- **Original file:** `WBSps.env/PUBLIC/RAW Photos/ROUTING/M457-M557---4-channel-Pre-mixer-module/M457 - 019.jpg`
+- **SHA-256:** `d558c6028bab79c392843c6a714192cd8a208a7527e2d3fef64431ea15953688`
+- **Size:** 1,115,720 bytes
+- **Pages:** 1
+
+## Dates found in this file
+
+- **1975** (labelled): `DATE SEPT 75` — …1354] PKM 6 3612 ML MatL _ WBS WAAD-BECK Byotrmd LtC DRA 2n DATE SEPT 75 M 457 CKD. Ra 4 X 2 PRE-Mixer (SCALE MOIHERBOARD LAYOUT TOL…
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 3 words corrected)
+
+```text
+R29 JISK CDRI-A
+SWi
+Sw2
+Rgo _gK
+R45 JK 4lecb ~C8*4 Rao 22* C9 C7 R3g !02 1l3s R38 Isk R4l I3K Ri7 3 R42 Jk R46 5z0 'E10_Ciosr_ ~c5E8 6pc2i - R24 #1* R2g 220 rso/cC13  41 22 "46725 R28 * e
+4cib- ~C1848 R25 W C19 947_ V5s R2o 2 13s Rig 1@ ~RIs !* Ti88 Rib IK L RI6 JK R2739 K R2i ISK L R35 Isr R22 I T2 R36 LK 8 6exzo ~C15592 R26 S2o Eii R44 _K ~class '@ Tg? R4? 220 QQT? C23_ C22 E5 "{Sokt ToTzs R48 %re 21 98 E70 RA-A R3 R2-A R1 R5S ISK R56 Jgr ~C36"?_ ~C38419 R8s _ "18c26 _ ~C28*93 R65  R75 LSK c39 91 RBO 22* C29 C27 Rbo _k R76 JEK 7/35 I0o Vss 7/35 R79 R59 JCo Otg/t4 95 R78 JE* R58 JEK Toc45C3 Cotocso R77 1* R81-us* R57 4 A61 JEK T0C466 Ctocst R82 _ R6z JK IK 682C40-_ ~C35489 Re6 5zo 68 Eceo _ ~C2509 RgG 620 R93 _k 8g4 R84 1k ~C41-58 RGA 2 (31*28 R9i JeK R83-220 R6g 228 E6 C43 C42+ C33 _ Rg2 JEK C32 730/6 7710723 24 15o/< 16/25 23 E8 R88_ 2k2 R68 2k2
+R4g JsK ID Rg-A
+SW?
+SWA
+~R5o- JsK
+R6g JSK SRs-A
+
+SW5
+SWG
+R7o !gk
+61
+R8-A R7 RGA BE 620 Ric _ ES C54 Rioe5; C49 74 C48 7435 '5k 28 1K 26 Rio9 Rioi To Rio7JEK To Rgg LEk 3i6 Rio5go R+2U R97 5o Riog JER R93 =EK ~C579p 1+ ~04719p PINN I+ PiNM 'sC51 C5o %1 I/ C46 C4= I5s Pinn2 27 PiNTi 25 Rioy_#*7 Rsa 41 R1o3*" R9s #
+R89- JK
+R7-A
+SW7
+SW8
+Rgo ZEK ~Rio2 ZeK ITO C49 ~Rit-K (toc54
+Ri2 39P c4 Ioeks 8 ~CRzo C2 2/2s
+C3 Ri-R8 CND 100/25 ci es
+R14320 E4 1d4oo] CRI 0
+LEGEND: PIn To MOUNT PCB 5-IOIA ON SOLDER SIDE: STAND-Off N? 461-03-015 MOUNTED ON Pin: ALL 1.C,'5 ARE LM ZoiAN ALL trANSiSToRS ARE 2n4401
+ISSMODICKD USEDON 2 z486~ 3 2x5/R& 4 IlsLL MILE : ADDED 5 1354] PKM 6 3612 ML
+MatL _
+WBS WAAD-BECK Byotrmd LtC
+DRA 2n DATE SEPT 75 M 457 CKD. Ra 4 X 2 PRE-Mixer (SCALE MOTHERBOARD LAYOUT TOLs . E B 5-106-06-001 Iss_
+FINISH
+NQTE; R2z,R47, R67 ANDR87 MoUNTED On R2,R4, RG AND R8
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+R29 JISK CDRI-A
+SWi
+Sw2
+Rgo _gK
+R45 JK 4lecb ~C8*4 Rao 22* C9 C7 R3g !02 1l3s R38 Isk R4l I3K Ri7 3 R42 Jk R46 5z0 'E10_Ciosr_ ~c5E8 6pc2i - R24 #1* R2g 220 rso/cC13  41 22 "46725 R28 * e
+4cib- ~C1848 R25 W C19 947_ V5s R2o 2 13s Rig 1@ ~RIs !* Ti88 Rib IK L RI6 JK R2739 K R2i ISK L R35 Isr R22 I T2 R36 LK 8 6exzo ~C15592 R26 S2o Eii R44 _K ~cliss '@ Tg? R4? 220 QQT? C23_ C22 E5 "{Sokt ToTzs R48 %re 21 98 E70 RA-A R3 R2-A R1 R5S ISK R56 Jgr ~C36"?_ ~C38419 R8s _ "18c26 _ ~C28*93 R65  R75 LSK c39 91 RBO 22* C29 C27 Rbo _k R76 JEK 7/35 I0o Vss 7/35 R79 R59 JCo Otg/t4 95 R78 JE* R58 JEK Toc45C3 Cotocso R77 1* R81-us* R57 4 A61 JEK T0C466 Ctocst R82 _ R6z JK IK 682C40-_ ~C35489 Re6 5zo 68 Eceo _ ~C2509 RgG 620 R93 _k 8g4 R84 1k ~C41-58 RGA 2 (31*28 R9i JeK R83-220 R6g 228 E6 C43 C42+ C33 _ Rg2 JEK C32 730/6 7710723 24 15o/< 16/25 23 E8 R88_ 2k2 R68 2k2
+R4g JsK ID Rg-A
+SW?
+SWA
+~R5o- JsK
+R6g JSK SRs-A
+
+SW5
+SWG
+R7o !gk
+61
+R8-A R7 RGA BE 620 Ric _ ES C54 Rioe5; C49 74 C48 7435 '5k 28 1K 26 Rio9 Rioi To Rio7JEK To Rgg LEk 3i6 Rio5go R+2U R97 5o Riog JER R93 =EK ~C579p 1+ ~04719p PINN I+ PiNM 'sC51 C5o %1 I/ C46 C4= I5s Pinn2 27 PiNTi 25 Rioy_#*7 Rsa 41 R1o3*" R9s #
+R89- JK
+R7-A
+SW7
+SW8
+Rgo ZEK ~Rio2 ZeK ITO C49 ~Rit-K (toc54
+Ri2 39P c4 Ioeks 8 ~CRzo C2 2/2s
+C3 Ri-R8 CND 100/25 ci es
+R14320 E4 1d4oo] CRI 0
+LEGEND: PIn To MOUNT PCB 5-IOIA ON SOLDER SIDE: STAND-Off N? 461-03-015 MOUNTED ON Pin: ALL 1.C,'5 ARE LM ZoiAN ALL trANSiSToRS ARE 2n4401
+ISSMODICKD USEDON 2 z486~ 3 2x5/R& 4 IlsLL MILUE : ADDED 5 1354] PKM 6 3612 ML
+MatL _
+WBS WAAD-BECK Byotrmd LtC
+DRA 2n DATE SEPT 75 M 457 CKD. Ra 4 X 2 PRE-Mixer (SCALE MOIHERBOARD LAYOUT TOLs . E B 5-106-06-001 Iss_
+FINISH
+NQTE; R2z,R47, R67 ANDR87 MoUNTED On R2,R4, RG AND R8
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/ROUTING/M457/1975 - M457 - 461-03-015 - ILSLL MILUE ADDED.jpg","sha256":"d558c6028bab79c392843c6a714192cd8a208a7527e2d3fef64431ea15953688","kind":"module","models":["M457"],"year":1975,"pages":1,"order":[{"page":1,"title_block":[{"number":"461-03-015","type":"wiring","title":"Ilsll Milue Added","date":"SEPT 75","year":1975,"checked":"RA"}],"dates":[{"year":1975,"kind":"labelled","text":"DATE SEPT 75"}],"text":["R29 JEK IDRI-A","SWi","SW2","R45 J 4JeCb - ~c8*24 R25 J","4 R4O 22* R2o 28","R3g !02 7i8","R38 JSK Rib IEK","R3-A 3 R2738 K Rai Iek 3 Ri7 @K 7288 ~R35 IsK","25 R22 K ~R36 LEK","Sw? 8 R46 520 6 R26 S2o ei@ Zj?","R44 _K 6p2c21 - ~R2a #* ~cliss","R43 220 R2g 222 QQT?","C23 Cz2 42","SW4 E5 22 Kelrs 21 98","R28 E70","R5o JsK R3 R2-A R55 IEK","R56 I*","R85 _ R75 LEK","c39 RBo 22* R76 JK","R6g JEK R79 400 R59 I0o Stgita","CORS-A","SW5 T4 R77 R8i E* 73 Cotocst","R82 = R6z K R93 %* EK","68 2C40 - ~C35*89_ Re6 68Ec30 ~C2584 894","R84 ReA = R9i","SWG Re3 220 R6? 228' R32 JEK","E6 C43_ 442 + C33 C32","730/2 7o/13 24 Fole 23 E8 0","R7o !gk R88 2k2 R6g- 2k2","R8-A R7 RGA E?","C54+ Rio8 5? 620 9 Rico C48","R89JK R7-A 741 Riog 28 Rioi B 26","FeU Riosszo R97 40","SW7 R93 =k","PinN PInM","Is/ C46 c45/","Sw8 25","R95 # R96","R9o !*","~~Rioz _ek COTO C49 Ri2 322 _ C3 ~Rit320","~Rin_K (3toc54 8 Ri-R8 CND /00/25 E4","C2 ~CRI","22/2s \"hs","LEGEND:","Pin To MouNT PCB 5-IOIA ON SOLDER SIDE.","STAND-Off Ne 461-03-015 MOUNTED On Pin: USED ON MatL","WBS WAAD-Beck Ltc","ALL 1.C;\"'5 ARE LM 204AN","ALL traNSiSToRS ARE 2n4401 DRN: Dm M 457","S1B54PKU FINISH DATE PRE-MixER","NOIE; CKD KA( X2","636i2 ML Ecale MOTHERBOARD LAYOUT","R27,R47, R67 ANDRe7 MouNTED ON Rz,R4,RG AND R8","TOLs B 5-106-06-001"]}],"drawing":{"svg":"_traces/d558c6028bab79c3.svg","viewBox":[2000,1750],"rotate":0,"number":"461-03-015","title":"Ilsll Milue Added","dtype":"03","outlines":"see _traces/d558c6028bab79c3.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/d558c6028bab79c3.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[478,160,"R29 JEK"],[586,156,"IDRI-A"],[519,204,"SWi"],[516,294,"SW2"],[1069,359,"R45 J"],[1262,358,"~c8*24"],[1375,358,"R25 J"],[1069,381,"R4O 22*"],[1378,385,"R2o 28"],[1067,408,"R3g !02"],[1069,431,"R38 JSK"],[1378,435,"Rib IEK"],[1459,431,"7i8"],[626,459,"R3-A"],[928,457,"R2738 K"],[1067,457,"Rai Iek"],[1239,456,"Ri7"],[1518,463,"~R35 IsK"],[1280,485,"25"],[1375,485,"R22 K"],[1454,491,"7288"],[1520,488,"~R36 LEK"],[519,516,"Sw?"],[1067,507,"R46 520"],[1378,510,"R26 S2o"],[925,535,"R44 _K"],[1070,535,"6p2c21 -"],[1211,534,"~R2a #*"],[1390,535,"~cliss"],[1579,534,"Zj?"],[929,559,"R43"],[976,549,"220"],[1234,556,"R2g 222"],[1574,568,"QQT?"],[884,574,"C23"],[965,575,"Cz2"],[1275,580,"42"],[519,599,"SW4"],[814,586,"E5"],[1076,596,"22"],[1239,609,"R28"],[1285,605,"Kelrs"],[1381,599,"21"],[1475,612,"E70"],[1570,615,"98"],[501,651,"R5o"],[981,651,"R3"],[1206,654,"R2-A"],[1540,648,"R55 IEK"],[1542,673,"R56 I*"],[1065,705,"R85 _"],[1542,702,"R75 LEK"],[881,719,"c39"],[1065,730,"RBo 22*"],[1542,727,"R76 JK"],[479,761,"R6g JEK"],[1066,754,"R79"],[1116,744,"400"],[1374,754,"R59"],[1429,744,"I0o"],[1576,751,"Stgita"],[579,764,"CORS-A"],[929,804,"R77"],[1066,804,"R8i"],[1579,804,"Cotocst"],[519,816,"SW5"],[899,814,"T4"],[1062,830,"R82 ="],[1209,814,"73"],[1372,832,"R6z K"],[1589,831,"EK"],[855,855,"68 2C40 -"],[1064,851,"Re6"],[1169,851,"68Ec30"],[1262,855,"~C2584"],[1541,861,"R93 %*"],[1544,861,"894"],[929,881,"R84"],[1236,879,"ReA ="],[1544,886,"R9i"],[516,904,"SWG"],[926,906,"Re3"],[976,896,"220"],[1232,905,"R6? 228'"],[1545,915,"R32 JEK"],[816,921,"E6"],[884,921,"C43_"],[970,925,"442 +"],[1194,919,"C33"],[1274,921,"C32"],[885,936,"730/2"],[1076,941,"24"],[1189,934,"Fole"],[1381,941,"23"],[1472,945,"E8 0"],[500,960,"R7o !gk"],[931,954,"R88"],[999,951,"2k2"],[1234,954,"R6g-"],[1309,951,"2k2"],[896,996,"R8-A"],[976,996,"R7"],[1204,996,"RGA"],[926,1019,"Rio8"],[1001,1014,"620"],[1239,1016,"Rico"],[881,1031,"C54+"],[1270,1038,"C48"],[482,1068,"R89JK"],[621,1066,"R7-A"],[888,1068,"741 Riog"],[1074,1054,"28"],[1236,1069,"Rioi B"],[1384,1054,"26"],[840,1105,"FeU"],[519,1116,"SW7"],[1241,1116,"R93 =k"],[1376,1109,"R97"],[1426,1101,"40"],[931,1144,"PinN"],[1241,1146,"PInM"],[1149,1169,"Is/ C46"],[1284,1181,"c45/"],[519,1206,"Sw8"],[1384,1196,"25"],[1236,1216,"R96"],[1235,1240,"R95 #"],[498,1260,"R9o !*"],[452,1285,"~~Rioz _ek"],[586,1286,"COTO C49"],[902,1297,"Ri2 322"],[1264,1294,"C3"],[1380,1295,"~Rit320"],[488,1315,"~Rin_K (3toc54"],[1149,1319,"Ri-R8 CND"],[1259,1309,"/00/25"],[1506,1319,"E4"],[1036,1349,"C2"],[1381,1346,"~CRI"],[1024,1366,"22/2s"],[1260,1373,"\"hs"],[26,1491,"LEGEND:"],[65,1522,"Pin To MouNT"],[265,1522,"PCB"],[325,1522,"5-IOIA ON SOLDER"],[575,1525,"SIDE."],[1039,1541,"USED ON"],[1174,1541,"MatL"],[62,1556,"STAND-Off"],[220,1556,"Ne 461-03-015"],[410,1558,"MOUNTED On Pin:"],[1428,1577,"WBS"],[1584,1569,"WAAD-Beck"],[1949,1571,"Ltc"],[64,1591,"ALL"],[144,1591,"1.C;\"'5"],[239,1591,"ARE"],[331,1594,"LM"],[385,1592,"204AN"],[59,1619,"ALL"],[129,1619,"traNSiSToRS"],[324,1619,"ARE"],[400,1622,"2n4401"],[1396,1614,"DRN:"],[1469,1616,"Dm"],[1752,1630,"M 457"],[860,1653,"S1B54PKU"],[1176,1646,"FINISH"],[1396,1639,"DATE"],[20,1678,"NOIE;"],[1396,1664,"CKD"],[1454,1666,"KA("],[1704,1659,"X2"],[1762,1660,"PRE-MixER"],[864,1679,"636i2"],[956,1674,"ML"],[1394,1689,"Ecale"],[1630,1688,"MOTHERBOARD"],[1842,1688,"LAYOUT"],[51,1704,"R27,R47, R67 ANDRe7"],[324,1701,"MouNTED"],[471,1701,"ON"],[522,1705,"Rz,R4,RG AND R8"],[1394,1721,"TOLs"],[1710,1730,"5-106-06-001"],[1178,359,"4JeCb -"],[1461,537,"ei@"],[543,648,"JsK"],[951,857,"~C35*89_"],[973,942,"7o/13"],[1063,1110,"Riosszo"]]}}
+```

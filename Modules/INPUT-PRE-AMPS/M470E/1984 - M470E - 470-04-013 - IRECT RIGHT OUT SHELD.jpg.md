@@ -1,0 +1,135 @@
+# 1984 - M470E - 470-04-013 - IRECT RIGHT OUT SHELD.jpg
+Wiki page: [M470E](../../../PAGES/M470E.md)
+
+
+- **Year:** 1984 (module estimate (manual_issue))
+- **Module:** M470E
+- **Category:** INPUT-PRE-AMPS
+- **Module year estimate:** 1984 — manual_issue "MANUAL ISSU E II BS W July 1984" in PUBLIC/Manuals + tech DOCUMENTS/Modules/Ward-Beck Systems - M470E - Input Module - www.WBSps.ca.pdf
+- **Original file:** `WBSps.env/wbsps - website ARCHIVE/WBSPS 2008/RAW SCANS/To Be edited/M470E - Input Module/M470E - P020 - B470-04-013 L.jpg`
+- **SHA-256:** `7293debb433bfa6c385b32bf137ce930d0eb7096ce616847ccb248ed8156eb63`
+- **Size:** 246,450 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR)
+
+```text
+Pi
+SUB 4 RIGHT OUt
+A
+SUB 4 RIGHT Out
+LINE in
+A
+SUB 3 RIGHT Out
+B
+2
+SUB 3 R IGHT Out
+NC
+B
+SUB 2 RIGHT Out
+C
+3
+SUB 2 RGHT Out
+D RECT
+SUB 1 RIGHT Out
+D
+SUB 7 RIGHT Out
+SHIELD
+D
+SUB 4 LEFT Out
+E
+5
+SUB 4 LEFT Out
+Att Out
+E
+SUB 3 LEFT OUT
+F
+6
+SUB 3 LEFT Out
+CH ON IN
+F
+SUB 2 LEFT Out
+H
+7
+SUB 2 LEFT OUt
+CH ON Out
+H PRE OUt J NC K NC SUB 3 CTL M
+SUB 1 LEFT Out
+J 8
+SUB 1 LEFT Out
+AUX 4 Out
+K 9
+AUX 4 Out
+AUX 3 Out
+L
+10 AUX 3 Out
+AUX 2 Out
+M
+AUX 2 Out
+AUX 1 OUt
+N
+12
+AUX 1 Out
+SUB 2 CTL
+N
+PFL
+P
+13 PFL
+SUB 1 CTL
+P
+SOLO
+R
+14 SOLO
+SUB_ CTL COM
+R
+NC
+S
+15 NC
+CH ON AUX CONTACT
+S
+NC
+T
+16 NC
+LINE MUTE CTL
+T
+NC
+U
+17 NC
+Mic 1 MUTE CTL
+U V W
+NC
+V
+18 NC
+SOLO CTL
+MiC 1
+W 19 MiC 1
+Ch On CTL COM
+MIC 2
+X
+20 MIC 2
+MIC/LINE CTL COM
+X
+MIC SHIELD
+21
+MiC SHIELD
++24V
+Y
+EQUAL OUT
+2
+22 EQUAL IN
+CH: On LAMP
+2
+(UPPER)
+LEGEND
+NC : NOT CONNECTED
+iC:
+INTERNALLY CONNECTED
+```
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/INPUT-PRE-AMPS/M470E/1984 - M470E - 470-04-013 - IRECT RIGHT OUT SHELD.jpg","sha256":"7293debb433bfa6c385b32bf137ce930d0eb7096ce616847ccb248ed8156eb63","kind":"module","models":["M470E"],"year":1984,"pages":1,"order":[{"page":1,"title_block":[{"number":"470-04-013","type":"layout / outline","title":"Irect Right Out Sheld"}],"text":["Pi","SUB 4 RIGHT Out A SUB 4 RIGHT Out LINE in","SUB 3 RIGHT Out B SUB 3 RIGhT Out NC B","SUB RIGHT Out C 3 SUB 2 RIGHT Out D IRECT c","SUB RIGHT Out D 4 SUB RIGHT Out SHIELD D","SUB 4 LEFT Out E 5 SUB 4 LEFT OUt E","SUB 3 LEFT OUt F 6 SUB 3 LEFT Out ChOn In F","SUB 2 LEFT OUt H 7 SUB LEFT OUt CH","SUB LEFT  Out J 8 SUB LEFT OUt PRE Out","AUX 4 Out K 9 AUX 4 Out NC","AUX 3 Out 10 AUX 3 Out NC","AUX 2 Out M AUX 2 OUt SUB 3 CTL","AUX N 12 AUX Out SUB 2 CTL","PFL P 13 PFL SUB CTL P","SOLO R 14 SOLO SUB. CTL COM R","NC S 15 NC CH ON AUX CONTACT S","NC T 16 NC LINE MUTE CTL","NC U 17 NC MiC MUTE CTL","NC V 18 NC SOLO CTL","Mic W 19 Mic Ch On CTL COM w","Mic 2 X 20 MIC 2 MIc/LINE ` CTL COM X","MIC SHIELD Y 21 MIC SHIELD +24V Y","EQUAL '_OUT 2 22 EQUAL IN CH: ON LAMP 2","UPPER)","LEGEND","NC : NOT CONNECTED","IC: INTERNALLY CONNECTED"]}],"drawing":{"svg":"_traces/7293debb433bfa6c.svg","viewBox":[1557,2000],"rotate":0,"number":"470-04-013","title":"Irect Right Out Sheld","dtype":"04","outlines":"see _traces/7293debb433bfa6c.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[505,172,"Pi"],[135,240,"SUB"],[245,238,"RIGHT"],[357,238,"Out"],[615,235,"SUB 4"],[722,232,"RIGHT"],[835,232,"Out"],[1327,228,"LINE"],[1422,228,"in"],[135,300,"SUB"],[245,300,"RIGHT"],[357,298,"Out"],[615,298,"SUB"],[722,292,"RIGhT"],[835,295,"Out"],[1420,290,"NC"],[135,362,"SUB"],[245,360,"RIGHT"],[357,360,"Out"],[615,358,"SUB"],[725,358,"RIGHT"],[835,355,"Out"],[1345,352,"D IRECT"],[135,422,"SUB"],[245,420,"RIGHT"],[357,422,"Out"],[615,420,"SUB"],[725,420,"RIGHT"],[837,418,"Out"],[1347,415,"SHIELD"],[155,485,"SUB 4"],[265,485,"LEFT"],[360,482,"Out"],[615,482,"SUB 4"],[725,480,"LEFT OUt"],[155,545,"SUB"],[265,545,"LEFT"],[360,545,"OUt"],[617,542,"SUB"],[727,542,"LEFT"],[820,540,"Out"],[1312,538,"ChOn"],[1424,535,"In"],[155,608,"SUB"],[265,608,"LEFT"],[360,605,"OUt"],[617,605,"SUB"],[727,600,"LEFT"],[820,602,"OUt"],[1295,598,"CH"],[155,668,"SUB"],[267,668,"LEFT  Out"],[617,665,"SUB"],[727,665,"LEFT"],[820,662,"OUt"],[1330,658,"PRE"],[1405,658,"Out"],[250,730,"AUX 4"],[360,728,"Out"],[617,725,"AUX 4"],[730,725,"Out"],[1422,718,"NC"],[252,788,"AUX"],[360,788,"Out"],[545,788,"10"],[620,785,"AUX"],[730,785,"Out"],[1424,780,"NC"],[252,850,"AUX"],[362,848,"Out"],[620,848,"AUX"],[730,845,"OUt"],[1297,840,"SUB"],[1405,840,"CTL"],[252,910,"AUX"],[545,905,"12"],[620,908,"AUX"],[730,908,"Out"],[1297,902,"SUB"],[1375,902,"2 CTL"],[362,972,"PFL"],[547,970,"13"],[620,970,"PFL"],[1297,965,"SUB"],[1405,962,"CTL"],[342,1032,"SOLO"],[547,1032,"14"],[620,1032,"SOLO"],[1262,1025,"SUB. CTL COM"],[382,1090,"NC"],[547,1092,"15"],[622,1092,"NC"],[1155,1088,"CH"],[1210,1088,"ON"],[1265,1088,"AUX CONTACT"],[382,1155,"NC"],[547,1152,"16"],[622,1150,"NC"],[1227,1148,"LINE MUTE CTL"],[382,1215,"NC"],[550,1212,"17"],[622,1215,"NC"],[1210,1210,"MiC"],[1315,1210,"MUTE"],[1407,1208,"CTL"],[385,1278,"NC"],[550,1275,"18"],[622,1275,"NC"],[1315,1270,"SOLO CTL"],[327,1338,"Mic"],[547,1340,"19"],[622,1335,"Mic"],[1230,1330,"Ch On CTL COM"],[327,1400,"Mic"],[550,1398,"20"],[622,1398,"MIC"],[1175,1392,"MIc/LINE ` CTL"],[1410,1390,"COM"],[235,1462,"MIC"],[310,1460,"SHIELD"],[552,1458,"21"],[622,1460,"MIC SHIELD"],[1390,1450,"+24V"],[255,1525,"EQUAL '_OUT"],[552,1522,"22"],[622,1525,"EQUAL"],[737,1518,"IN"],[1282,1515,"CH: ON LAMP"],[495,1584,"UPPER)"],[52,1680,"LEGEND"],[57,1738,"NC :"],[145,1738,"NOT CONNECTED"],[60,1798,"IC:"],[150,1798,"INTERNALLY CONNECTED"]]}}
+```

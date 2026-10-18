@@ -1,0 +1,663 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Eugene L. Johnson (ELJ)</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>Eugene L. Johnson (ELJ)</h1>
+<p><a href="People.html">← People</a></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Initials</td>
+<td>ELJ</td>
+</tr>
+<tr>
+<td>Name</td>
+<td>Eugene L. Johnson</td>
+</tr>
+<tr>
+<td>Note</td>
+<td>identified by Anthony Kuzub (2026-10-18)</td>
+</tr>
+<tr>
+<td>Drawings</td>
+<td>80</td>
+</tr>
+<tr>
+<td>Roles</td>
+<td>checked, drawn, engineer</td>
+</tr>
+<tr>
+<td>Active (dated drawings)</td>
+<td>1976–1985</td>
+</tr>
+<tr>
+<td>Projects</td>
+<td><a href="Job-76045.html">76045</a>, <a href="Job-790236.html">790236</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Drawings</h2>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="People.html#drawing-staff">Drawn by</a></th>
+<th><a href="People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>—</td>
+<td>Summing Bus Outputs Sblo Solo Control Common Solo</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20461-01-002%20-%20SOLO%20CONTROL%20SOLO%20COMMON%20CONTROL%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>461-01-002</td>
+<td>Solo Control Solo Common Control</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20461-01-002%20-%20SOLO%20CONTROL%20SOLO%20COMMON%20CONTROL%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>461-01-002</td>
+<td>Solo Control Solo Common Control</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20461-01-002%20-%20SOLO%20CONTROL%20SOLO%20COMMON%20CONTROL.jpg">file</a></td>
+</tr>
+<tr>
+<td>461-02-004</td>
+<td>Ise Spec Fied</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%20461-02-004.pdf">file</a></td>
+</tr>
+<tr>
+<td>B 461-01-002</td>
+<td>M461M / INPUT MODULE / FUNCTIONAL DIAGRAM</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M461/1976%20-%20461-01-002%20-%20M461M%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20ELJ%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 461-01-002</td>
+<td>M461M / INPUT MODULE / FUNCTIONAL DIAGRAM</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M461/1976%20-%20461-01-002%20-%20M461M%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20ELJ%20-%20ISS%203%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 468-02-026</td>
+<td>M468N / ASSIGN MODULE SCHEMATIC</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M468/1976%20-%20468-02-026%20-%20M468N%20ASSIGN%20MODULE%20SCHEMATIC%20-%20DRN%20ELJ%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 70-8</td>
+<td>OUTPUT TRANSFORMER / TYPE 70-8</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1976%20-%20B%2070-8%20-%20OUTPUT%20TRANSFORMER%20TYPE%2070-8%20-%20DRN%20ELJ%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Fimish Padboard</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%2076045-04-005%20-%20ELJ%20FIMISH%20DATEJAN.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Low Level Cables Dress Separately</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%2076045-02-003%20-%20SOLC%20ASMS%20INPUT%20PIN.jpg">file</a></td>
+</tr>
+<tr>
+<td>453-02-005</td>
+<td>Com Dea</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%20453-02-005%20-%20COM%20DEA.jpg">file</a></td>
+</tr>
+<tr>
+<td>76045-02-001</td>
+<td></td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%2076045-02-001.jpg">file</a></td>
+</tr>
+<tr>
+<td>76045-02-002</td>
+<td></td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%2076045-02-002%20-%20DRN%20ELJ.jpg">file</a></td>
+</tr>
+<tr>
+<td>76045-02-003</td>
+<td>Sub Channel</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%2076045-02-003%20-%20SUB%20CHANNEL%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>76045-02-003</td>
+<td>Sub Channel</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%2076045-02-003%20-%20SUB%20CHANNEL.jpg">file</a></td>
+</tr>
+<tr>
+<td>76045-02-004</td>
+<td></td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%2076045-02-004%20%283%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>76045-02-004</td>
+<td></td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%2076045-02-004.jpg">file</a></td>
+</tr>
+<tr>
+<td>76045-02-006</td>
+<td></td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%2076045-02-006.jpg">file</a></td>
+</tr>
+<tr>
+<td>76045-02-007</td>
+<td></td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%2076045-02-007%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>76045-02-007</td>
+<td></td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%2076045-02-007%20%283%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>76045-02-007</td>
+<td>Mute Log</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%2076045-02-007%20-%20MUTE%20LOG.jpg">file</a></td>
+</tr>
+<tr>
+<td>76045-02-008</td>
+<td>Monroe Channel</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%2076045-02-008%20-%20MONROE%20CHANNEL.jpg">file</a></td>
+</tr>
+<tr>
+<td>76045-02-009</td>
+<td>Eue Oscillatord Aux Processing</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%2076045-02-009%20-%20EUE%20OSCILLATORD%20AUX%20PROCESSING.jpg">file</a></td>
+</tr>
+<tr>
+<td>76045-02-009</td>
+<td>Pass Filter</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%2076045-02-009%20-%20PASS%20FILTER.jpg">file</a></td>
+</tr>
+<tr>
+<td>76045-02-010</td>
+<td>Power Distpibution</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%2076045-02-010%20-%20POWER%20DISTPIBUTION.jpg">file</a></td>
+</tr>
+<tr>
+<td>76045-04-003</td>
+<td>Modules Ext Inputs Olsc</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%2076045-04-003%20-%20MODULES%20EXT%20INPUTS%20OLSC.jpg">file</a></td>
+</tr>
+<tr>
+<td>76045-04-004</td>
+<td>Waad-Beck Systi</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%2076045-04-004%20-%20WAAD-BECK%20SYSTI.jpg">file</a></td>
+</tr>
+<tr>
+<td>76045-04-067</td>
+<td></td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%2076045-04-067.jpg">file</a></td>
+</tr>
+<tr>
+<td>76045-04-069</td>
+<td></td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%2076045-04-069.jpg">file</a></td>
+</tr>
+<tr>
+<td>7645-02-009</td>
+<td>Pel Cue Oscillator&amp; Aux Processig</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%207645-02-009%20-%20PEL%20CUE%20OSCILLATOR%26%20AUX%20PROCESSIG.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 458-02-001</td>
+<td>M458 / QUAD PEAK OVERLOAD INDICATOR / SCHEMATIC</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M458/1977%20-%20458-02-001%20-%20QUAD%20PEAK%20OVERLOAD%20INDICATOR%20SCHEMATIC%20-%20DRN%20ELJ%20-%20ENG%20ELJ%20-%20ISS%202.png">file</a></td>
+</tr>
+<tr>
+<td>B 76045-</td>
+<td>INPUT ... / SCHE...</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1977%20-%20B%2076045%20-%20INPUT%20...%20SCHE%20-%20DRN%20ELJ.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 76045-</td>
+<td>CR ...</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1977%20-%20B%2076045%20-%20CR%20-%20DRN%20ELJ.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 76045-0</td>
+<td>INPUT C... / SCH...</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%20B%2076045-0%20-%20INPUT%20C...%20SCH%20-%20DRN%20ELJ.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 76045-0</td>
+<td>AUX C... / SCH...</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%20B%2076045-0%20-%20AUX%20C...%20SCH%20-%20DRN%20ELJ.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 76045-02-</td>
+<td>SUB CHA... / SCHEMAT...</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%20B%2076045-02%20-%20SUB%20CHA...%20SCHEMAT%20-%20DRN%20ELJ.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 76045-02-</td>
+<td>CR MON... / SCHEM...</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%20B%2076045-02%20-%20CR%20MON...%20SCHEM%20-%20DRN%20ELJ.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 76045-02-00</td>
+<td>STUDIO A MONITOR... / SCHEMATIC</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%20B%2076045-02-00%20-%20STUDIO%20A%20MONITOR...%20SCHEMATIC%20-%20DRN%20ELJ.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 76045-02-001</td>
+<td>INPUT CHANNEL (1-24) / SCHEMATIC</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%2076045-02-001%20-%20INPUT%20CHANNEL%20%281-24%29%20SCHEMATIC%20-%20DRN%20ELJ%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 76045-02-003</td>
+<td>SUB CHANNEL / SCHEMATIC</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%2076045-02-003%20-%20SUB%20CHANNEL%20SCHEMATIC%20-%20DRN%20ELJ%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 76045-02-004</td>
+<td>MASTER CHANNEL / SCHEMATIC</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%2076045-02-004%20-%20MASTER%20CHANNEL%20SCHEMATIC%20-%20DRN%20ELJ%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 76045-02-004</td>
+<td>MASTER CHANNEL / SCHEMATIC</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%2076045-02-004%20-%20MASTER%20CHANNEL%20SCHEMATIC%20-%20DRN%20ELJ%20-%20ISS%201%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 76045-02-005</td>
+<td>AUX CHANNEL / SCHEMATIC</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%2076045-02-005%20-%20AUX%20CHANNEL%20SCHEMATIC%20-%20DRN%20ELJ%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 76045-02-005</td>
+<td>AUX CHANNEL / SCHEMATIC</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%2076045-02-005%20-%20AUX%20CHANNEL%20SCHEMATIC%20-%20DRN%20ELJ%20-%20ISS%201%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 76045-02-006</td>
+<td>CR MONITOR #1 / SCHEMATIC</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%2076045-02-006%20-%20CR%20MONITOR%20">file</a></td>
+</tr>
+<tr>
+<td>B 76045-02-006</td>
+<td>CR MONITOR #1 / SCHEMATIC</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%2076045-02-006%20-%20CR%20MONITOR%20">file</a></td>
+</tr>
+<tr>
+<td>B 76045-02-007</td>
+<td>CR MONITOR #2 / SCHEMATIC</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%2076045-02-007%20-%20CR%20MONITOR%20">file</a></td>
+</tr>
+<tr>
+<td>B 76045-02-008</td>
+<td>STUDIO A MONITOR CHANNEL / SCHEMATIC</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%2076045-02-008%20-%20STUDIO%20A%20MONITOR%20CHANNEL%20SCHEMATIC%20-%20DRN%20ELJ%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 76045-02-009</td>
+<td>PFL/CUE, OSCILLATOR &amp; AUX PROCESSING MODULES, SCHEMATIC</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%2076045-02-009%20-%20PFL%20CUE%2C%20OSCILLATOR%20%26%20AUX%20PROCESSING%20MODULES%2C%20SCHEMATIC%20-%20DRN%20ELJ%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 76045-04-005</td>
+<td>PADBOARD #1 / LAYOUT</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%2076045-04-005%20-%20PADBOARD%20">file</a></td>
+</tr>
+<tr>
+<td>B 76045-04-006</td>
+<td>PADBOARD #2 / LAYOUT</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%2076045-04-006%20-%20PADBOARD%20">file</a></td>
+</tr>
+<tr>
+<td>D 790236-01-002</td>
+<td>L3242A / DC TALLY &amp; LOGIC / FUNCTIONAL &amp; WIRING DIAGRAM</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1978%20-%20790236-01-002%20-%20L3242A%20DC%20TALLY%20%26%20LOGIC%20FUNCTIONAL%20%26%20WIRING%20DIAGRAM%20-%20DRN%20ELJ%20-%20ENG%20ELJ%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>D 790236-01-002</td>
+<td>L3242A / DC TALLY &amp; LOGIC / FUNCTIONAL &amp; WIRING DIAGRAM</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1978%20-%20790236-01-002%20-%20L3242A%20DC%20TALLY%20%26%20LOGIC%20FUNCTIONAL%20%26%20WIRING%20DIAGRAM%20-%20DRN%20ELJ%20-%20ENG%20ELJ%20-%20ISS%201%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 458-02-002</td>
+<td>M458 / WIRING SCHEMATIC</td>
+<td><a href="Year-1983.html">1983|16</a></td>
+<td><a href="Person-JP.html">JP</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M458/1983%20-%20458-02-002%20-%20WIRING%20SCHEMATIC%20-%20DRN%20JP%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Module Sur Master Schematic</td>
+<td></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%20463-02-007.pdf">file</a></td>
+</tr>
+<tr>
+<td>453-02-004</td>
+<td>Lao Mansllectors</td>
+<td></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%20453-02-004%20-%20LAO%20MANSLLECTORS.jpg">file</a></td>
+</tr>
+<tr>
+<td>458-02-001</td>
+<td>Quad Peak Overload Indicator Schematic</td>
+<td></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M458/19xx%20-%20M458%20-%20DOC%20-%20458-02-001%20-%20QUAD%20PEAK%20OVERLOAD%20INDICATOR%20SCHEMATIC.png">file</a></td>
+</tr>
+<tr>
+<td>461-02-004</td>
+<td>Control Control Cor Note</td>
+<td></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%20461-02-004%20-%20CONTROL%20CONTROL%20COR%20NOTE.jpg">file</a></td>
+</tr>
+<tr>
+<td>76045-02-005</td>
+<td></td>
+<td></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%2076045-02-005.jpg">file</a></td>
+</tr>
+<tr>
+<td>76045-02-008</td>
+<td></td>
+<td></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%2076045-02-008.jpg">file</a></td>
+</tr>
+<tr>
+<td>76045-02-008</td>
+<td>Log Fat Ccatec</td>
+<td></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%2076045-02-008%20-%20LOG%20FAT%20CCATEC.jpg">file</a></td>
+</tr>
+<tr>
+<td>76045-04-006</td>
+<td>Pad Boaeb</td>
+<td></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%2076045-04-006%20-%20PAD%20BOAEB.jpg">file</a></td>
+</tr>
+<tr>
+<td>76045-04-014</td>
+<td>Waad-Beck Bystems</td>
+<td></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%2076045-04-014%20-%20WAAD-BECK%20BYSTEMS.jpg">file</a></td>
+</tr>
+</tbody>
+</table><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from Person-ELJ.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

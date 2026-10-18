@@ -1,0 +1,2291 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M445 — Extended Range Meter</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../../../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../../../index.html">Index</a><a href="../../../Home.html">Wiki home</a><a href="../../../PAGES/Timeline.html">Timeline</a><a href="../../../search.html">Search</a><a href="../../../status.html">Status</a></div><h1>M445 — Extended Range Meter</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="../../../PAGES/Category-METER.html">METER</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../../../simulator.html?m=M445">simulator &amp; front panel</a> · <a href="../../../_packages/M445.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="../../../PAGES/Year-1996.html">1996|29</a> — manual issue date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"Issue #1 January 10, 1996" in WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - Word Perfect Manuals/M445.WP</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="../../../PAGES/Year-1996.html">1996|29</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/">DOCUMENTS/RECENT SCANS/WBSps.ca 20210320 - Scans</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/WBSps%20-%20Word%20Perfect%20Manuals-20221115T024240Z-001/WBSps%20-%20Word%20Perfect%20Manuals/">DOCUMENTS/WBSps - Word Perfect Manuals-20221115T024240Z-001/WBSps - Word Perfect Manuals</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="index.html">Modules/METER/M445</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections</h2>
+<p><em>What it is made of and what it is part of.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M445" data-n="Extended Range Meter" data-cat="METER"></div><svg class="wbs-panel" data-m="M445" data-n="Extended Range Meter" data-cat="METER" role="img" aria-label="M445 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M445","title":"Extended Range Meter","rto":null,"parts":[{"item":"SA14-305","title":"B 14-305-02-001-1 - SA14-305 STEREO EXTENDED RANGE METER - SCHEMATIC","label":"SA14-305 B 14-305-02-001-1 - SA14-3","href":"Register-Circuit-boards-SA14-nnn.html#sa14-305","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-304","title":"","label":"SA14-304","href":"Register-Circuit-boards-SA14-nnn.html#sa14-304","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-307","title":"B 14-307-02-001 - SA14-307 EXTENDED RANGE METER LIGHT BAR - SCHEMATIC","label":"SA14-307 B 14-307-02-001 - SA14-307","href":"Register-Circuit-boards-SA14-nnn.html#sa14-307","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-311","title":"B 14-311-02-001 - SA14-311 SPEAKER DRIVER - SCHEMATIC","label":"SA14-311 B 14-311-02-001 - SA14-311","href":"Register-Circuit-boards-SA14-nnn.html#sa14-311","note":"Circuit boards (SA14-nnn)"}],"parents":[]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../../../viewer.html?f=Modules/METER/M445/1995%20-%20445-03-010%20-%20FRONT%20LOCK%20LATCH%20%26%20BLOCK%20-%20DRN%20DRG%20-%20ISS%201.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1995%20-%20445-03-010%20-%20FRONT%20LOCK%20LATCH%20%26%20BLOCK%20-%20DRN%20DRG%20-%20ISS%201.jpg" alt="" data-f="Modules/METER/M445/1995 - 445-03-010 - FRONT LOCK LATCH &amp; BLOCK - DRN DRG - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1995 - 445-03-010 - FRONT LOCK LATCH &amp; BLOCK - DRN DRG - ISS 1.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1995%20-%20445-03-016%20-%20EXTENDED%20RANGE%20METER%20SPEAKER%20SCREEN%20-%20DRN%20DRG%20-%20ISS%201.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1995%20-%20445-03-016%20-%20EXTENDED%20RANGE%20METER%20SPEAKER%20SCREEN%20-%20DRN%20DRG%20-%20ISS%201.jpg" alt="" data-f="Modules/METER/M445/1995 - 445-03-016 - EXTENDED RANGE METER SPEAKER SCREEN - DRN DRG - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1995 - 445-03-016 - EXTENDED RANGE METER SPEAKER SCREEN - DRN DRG - ISS 1.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20%24_57-1.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20%24_57-1.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - $_57-1.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - $_57-1.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20%24_57-2.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20%24_57-2.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - $_57-2.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - $_57-2.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20%24_57-3.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20%24_57-3.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - $_57-3.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - $_57-3.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20%24_57-4.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20%24_57-4.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - $_57-4.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - $_57-4.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20%24_57-5.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20%24_57-5.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - $_57-5.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - $_57-5.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20%24_57-6.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20%24_57-6.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - $_57-6.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - $_57-6.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20%24_57-7.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20%24_57-7.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - $_57-7.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - $_57-7.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20%24_57.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20%24_57.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - $_57.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - $_57.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%201.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%201.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - 1.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - 1.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%2010.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%2010.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - 10.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - 10.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%2011.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%2011.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - 11.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - 11.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%2018.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%2018.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - 18.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - 18.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%2019.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%2019.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - 19.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - 19.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%202.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%202.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - 2.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - 2.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%2022.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%2022.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - 22.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - 22.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%2024.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%2024.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - 24.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - 24.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%2026.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%2026.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - 26.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - 26.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%203.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%203.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - 3.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - 3.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%204.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%204.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - 4.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - 4.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%205.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%205.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - 5.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - 5.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%206.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%206.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - 6.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - 6.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%207.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%207.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - 7.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - 7.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%208.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%208.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - 8.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - 8.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%209.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%209.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - 9.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - 9.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20Archived%20-%20M445%20-%20EXTENDED%20RANGE%20METER%20-%20MONITOR%20001.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20Archived%20-%20M445%20-%20EXTENDED%20RANGE%20METER%20-%20MONITOR%20001.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - Archived - M445 - EXTENDED RANGE METER - MONITOR 001.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - Archived - M445 - EXTENDED RANGE METER - MONITOR 001.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20Archived%20-%20M445%20-%20EXTENDED%20RANGE%20METER%20-%20MONITOR%20002.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20Archived%20-%20M445%20-%20EXTENDED%20RANGE%20METER%20-%20MONITOR%20002.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - Archived - M445 - EXTENDED RANGE METER - MONITOR 002.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - Archived - M445 - EXTENDED RANGE METER - MONITOR 002.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20Archived%20-%20M445%20-%20EXTENDED%20RANGE%20METER%20-%20MONITOR%20003.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20Archived%20-%20M445%20-%20EXTENDED%20RANGE%20METER%20-%20MONITOR%20003.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - Archived - M445 - EXTENDED RANGE METER - MONITOR 003.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - Archived - M445 - EXTENDED RANGE METER - MONITOR 003.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%2014-304-02-001%20-%20SA14-304%20LCD-ENCODER%20BOARD%20-%20SCHEMATIC.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20B%2014-304-02-001%20-%20SA14-304%20LCD-ENCODER%20BOARD%20-%20SCHEMATIC.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - B 14-304-02-001 - SA14-304 LCD-ENCODER BOARD - SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1996 - M445 - B 14-304-02-001 - SA14-304 LCD-ENCODER BOARD - SCHEMATIC.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%2014-305-02-001-1%20-%20SA14-305%20STEREO%20EXTENDED%20RANGE%20METER%20-%20SCHEMATIC.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20B%2014-305-02-001-1%20-%20SA14-305%20STEREO%20EXTENDED%20RANGE%20METER%20-%20SCHEMATIC.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - B 14-305-02-001-1 - SA14-305 STEREO EXTENDED RANGE METER - SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1996 - M445 - B 14-305-02-001-1 - SA14-305 STEREO EXTENDED RANGE METER - SCHEMATIC.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%2014-305-02-001-2%20-%20SA14-305%20STEREO%20EXTENDED%20RANGE%20METER%20-%20SCHEMATIC.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20B%2014-305-02-001-2%20-%20SA14-305%20STEREO%20EXTENDED%20RANGE%20METER%20-%20SCHEMATIC.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - B 14-305-02-001-2 - SA14-305 STEREO EXTENDED RANGE METER - SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - B 14-305-02-001-2 - SA14-305 STEREO EXTENDED RANGE METER - SCHEMATIC.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%2014-307-02-001%20-%20SA14-307%20EXTENDED%20RANGE%20METER%20LIGHT%20BAR%20-%20SCHEMATIC.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20B%2014-307-02-001%20-%20SA14-307%20EXTENDED%20RANGE%20METER%20LIGHT%20BAR%20-%20SCHEMATIC.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - B 14-307-02-001 - SA14-307 EXTENDED RANGE METER LIGHT BAR - SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1996 - M445 - B 14-307-02-001 - SA14-307 EXTENDED RANGE METER LIGHT BAR - SCHEMATIC.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%2014-311-02-001%20-%20SA14-311%20SPEAKER%20DRIVER%20-%20SCHEMATIC.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20B%2014-311-02-001%20-%20SA14-311%20SPEAKER%20DRIVER%20-%20SCHEMATIC.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - B 14-311-02-001 - SA14-311 SPEAKER DRIVER - SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - B 14-311-02-001 - SA14-311 SPEAKER DRIVER - SCHEMATIC.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%2014-311-06-001%20-%20SA14-311%20SPEAKER%20DRIVER%20-%20COMPONENT%20LAYOUT.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20B%2014-311-06-001%20-%20SA14-311%20SPEAKER%20DRIVER%20-%20COMPONENT%20LAYOUT.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - B 14-311-06-001 - SA14-311 SPEAKER DRIVER - COMPONENT LAYOUT.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1996 - M445 - B 14-311-06-001 - SA14-311 SPEAKER DRIVER - COMPONENT LAYOUT.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%20445-01-001%20-%20M445%20EXTENDED%20RANGE%20METER-MONITOR%20-%20FUNCTIONAL.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20B%20445-01-001%20-%20M445%20EXTENDED%20RANGE%20METER-MONITOR%20-%20FUNCTIONAL.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - B 445-01-001 - M445 EXTENDED RANGE METER-MONITOR - FUNCTIONAL.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1996 - M445 - B 445-01-001 - M445 EXTENDED RANGE METER-MONITOR - FUNCTIONAL.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%20445-02-001%20-%20M445%20RACK%20MOUNT%20FRAME%20-%20SCHEMATIC.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20B%20445-02-001%20-%20M445%20RACK%20MOUNT%20FRAME%20-%20SCHEMATIC.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - B 445-02-001 - M445 RACK MOUNT FRAME - SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - B 445-02-001 - M445 RACK MOUNT FRAME - SCHEMATIC.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%20445-02-002%20-%20M445%20EXTENDED%20RANGE%20METER%20-%20SCHEMATIC.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20B%20445-02-002%20-%20M445%20EXTENDED%20RANGE%20METER%20-%20SCHEMATIC.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - B 445-02-002 - M445 EXTENDED RANGE METER - SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - B 445-02-002 - M445 EXTENDED RANGE METER - SCHEMATIC.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%20445-04-001%20-%20M445%20EXTENDED%20RANGE%20METER-MONITOR%20-%20OUTLINE.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20B%20445-04-001%20-%20M445%20EXTENDED%20RANGE%20METER-MONITOR%20-%20OUTLINE.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - B 445-04-001 - M445 EXTENDED RANGE METER-MONITOR - OUTLINE.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1996 - M445 - B 445-04-001 - M445 EXTENDED RANGE METER-MONITOR - OUTLINE.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%20445-04-002%20-%20M445%20EXTENDED%20RANGE%20METER-MONITOR%20-%20FRONT%20PANEL%20LAYOUT.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20B%20445-04-002%20-%20M445%20EXTENDED%20RANGE%20METER-MONITOR%20-%20FRONT%20PANEL%20LAYOUT.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - B 445-04-002 - M445 EXTENDED RANGE METER-MONITOR - FRONT PANEL LAYOUT.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1996 - M445 - B 445-04-002 - M445 EXTENDED RANGE METER-MONITOR - FRONT PANEL LAYOUT.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%20445-04-003%20-%20M445%20EXTENDED%20RANGE%20METER-MONITOR%20-%20REAR%20PANEL%20LAYOUT.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20B%20445-04-003%20-%20M445%20EXTENDED%20RANGE%20METER-MONITOR%20-%20REAR%20PANEL%20LAYOUT.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - B 445-04-003 - M445 EXTENDED RANGE METER-MONITOR - REAR PANEL LAYOUT.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1996 - M445 - B 445-04-003 - M445 EXTENDED RANGE METER-MONITOR - REAR PANEL LAYOUT.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20BACK%20%282%29.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20BACK%20%282%29.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - BACK (2).jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - BACK (2).jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20BACK.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20BACK.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - BACK.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - BACK.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20EXTENDED%20RANGE%20METER%20-%20MONITOR%20001.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20EXTENDED%20RANGE%20METER%20-%20MONITOR%20001.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - EXTENDED RANGE METER - MONITOR 001.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - EXTENDED RANGE METER - MONITOR 001.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20EXTENDED%20RANGE%20METER%20-%20MONITOR%20002.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20EXTENDED%20RANGE%20METER%20-%20MONITOR%20002.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - EXTENDED RANGE METER - MONITOR 002.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - EXTENDED RANGE METER - MONITOR 002.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20EXTENDED%20RANGE%20METER%20-%20MONITOR%20003.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20EXTENDED%20RANGE%20METER%20-%20MONITOR%20003.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - EXTENDED RANGE METER - MONITOR 003.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - EXTENDED RANGE METER - MONITOR 003.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20FRONT%20%282%29.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20FRONT%20%282%29.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - FRONT (2).jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - FRONT (2).jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20FRONT%20%283%29.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20FRONT%20%283%29.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - FRONT (3).jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - FRONT (3).jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20FRONT.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20FRONT.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - FRONT.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - FRONT.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20163.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20163.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - VU meter 163.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - VU meter 163.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20164.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20164.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - VU meter 164.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - VU meter 164.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20165.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20165.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - VU meter 165.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - VU meter 165.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20166.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20166.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - VU meter 166.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - VU meter 166.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20167.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20167.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - VU meter 167.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - VU meter 167.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20168.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20168.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - VU meter 168.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - VU meter 168.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20169.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20169.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - VU meter 169.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - VU meter 169.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20170.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20170.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - VU meter 170.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - VU meter 170.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20171.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20171.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - VU meter 171.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - VU meter 171.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20172.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20172.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - VU meter 172.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - VU meter 172.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20173.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20173.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - VU meter 173.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - VU meter 173.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20174.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20174.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - VU meter 174.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - VU meter 174.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20175.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20175.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - VU meter 175.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - VU meter 175.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20176.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20176.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - VU meter 176.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - VU meter 176.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20177.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20177.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - VU meter 177.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - VU meter 177.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20178.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20178.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - VU meter 178.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - VU meter 178.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20179.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20179.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - VU meter 179.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - VU meter 179.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20180.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20180.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - VU meter 180.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - VU meter 180.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20181.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20181.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - VU meter 181.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - VU meter 181.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20182.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20182.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - VU meter 182.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - VU meter 182.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20183.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20183.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - VU meter 183.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - VU meter 183.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20184.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20184.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - VU meter 184.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - VU meter 184.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20185.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20185.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - VU meter 185.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - VU meter 185.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20186.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20186.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - VU meter 186.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - VU meter 186.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20187.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20187.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - VU meter 187.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - VU meter 187.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20188.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20188.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - VU meter 188.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - VU meter 188.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20189.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20189.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - VU meter 189.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - VU meter 189.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20190.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20190.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - VU meter 190.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - VU meter 190.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20191.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20191.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - VU meter 191.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - VU meter 191.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20192.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20192.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - VU meter 192.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - VU meter 192.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20193.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20193.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - VU meter 193.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - VU meter 193.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20wbs-445-meter-fb.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20wbs-445-meter-fb.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - wbs-445-meter-fb.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - wbs-445-meter-fb.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20wbs-445-meter-ff.jpg"><img loading="lazy" src="../../../Modules/METER/M445/1996%20-%20M445%20-%20wbs-445-meter-ff.jpg" alt="" data-f="Modules/METER/M445/1996 - M445 - wbs-445-meter-ff.jpg" data-size="320" onerror="wbsOff(this)">1996 - M445 - wbs-445-meter-ff.jpg</a><a href="../../../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/19xx%20-%20DOC%20-%20445-03-007%20-%20NQTES%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES.jpg"><img loading="lazy" src="../../../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/19xx%20-%20DOC%20-%20445-03-007%20-%20NQTES%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES.jpg" alt="" data-f="DOCUMENTS/RECENT SCANS/WBSps.ca 20210320 - Scans/19xx - DOC - 445-03-007 - NQTES REMOVE ALL BURRS AND SHARP EDGES.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 445-03-007 - NQTES REMOVE ALL BURRS AND SHARP EDGES.jpg</a><a href="../../../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/19xx%20-%20DOC%20-%20445-03-016%20-%20PAINT%20EXTRA%20FINE%20TEXTURED%20BLACK%20TEXCOTE.jpg"><img loading="lazy" src="../../../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/19xx%20-%20DOC%20-%20445-03-016%20-%20PAINT%20EXTRA%20FINE%20TEXTURED%20BLACK%20TEXCOTE.jpg" alt="" data-f="DOCUMENTS/RECENT SCANS/WBSps.ca 20210320 - Scans/19xx - DOC - 445-03-016 - PAINT EXTRA FINE TEXTURED BLACK TEXCOTE.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 445-03-016 - PAINT EXTRA FINE TEXTURED BLACK TEXCOTE.jpg</a><a href="../../../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/19xx%20-%20DOC%20-%20445-03-026%20-%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOLERANCES.jpg"><img loading="lazy" src="../../../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/19xx%20-%20DOC%20-%20445-03-026%20-%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOLERANCES.jpg" alt="" data-f="DOCUMENTS/RECENT SCANS/WBSps.ca 20210320 - Scans/19xx - DOC - 445-03-026 - REMOVE ALL BURRS AND SHARP EDGES TOLERANCES.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 445-03-026 - REMOVE ALL BURRS AND SHARP EDGES TOLERANCES.jpg</a><a href="../../../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/19xx%20-%20DOC%20-%20445-03-028%20-%20NQTES%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOLERANCES.jpg"><img loading="lazy" src="../../../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/19xx%20-%20DOC%20-%20445-03-028%20-%20NQTES%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOLERANCES.jpg" alt="" data-f="DOCUMENTS/RECENT SCANS/WBSps.ca 20210320 - Scans/19xx - DOC - 445-03-028 - NQTES REMOVE ALL BURRS AND SHARP EDGES TOLERANCES.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 445-03-028 - NQTES REMOVE ALL BURRS AND SHARP EDGES TOLERANCES.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/19xx%20-%20445-03-011%20-%20M445A%20EXTENDED%20RANGE%20METER%20BATTERY%20HOLDER%20%26%20CLIP%20-%20DRN%20WS%20-%20ENG%20WS%20-%20ISS%202.jpg"><img loading="lazy" src="../../../Modules/METER/M445/19xx%20-%20445-03-011%20-%20M445A%20EXTENDED%20RANGE%20METER%20BATTERY%20HOLDER%20%26%20CLIP%20-%20DRN%20WS%20-%20ENG%20WS%20-%20ISS%202.jpg" alt="" data-f="Modules/METER/M445/19xx - 445-03-011 - M445A EXTENDED RANGE METER BATTERY HOLDER &amp; CLIP - DRN WS - ENG WS - ISS 2.jpg" data-size="320" onerror="wbsOff(this)">19xx - 445-03-011 - M445A EXTENDED RANGE METER BATTERY HOLDER &amp; CLIP - DRN WS - ENG WS - ISS 2.jpg</a><a href="../../../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20WBS%20-%20Ad%20-%20new%20from%20WBS%20-%201997.jpg"><img loading="lazy" src="../../../Modules/METER/M405P/1990%20-%20M405P%20-%20WBS%20-%20Ad%20-%20new%20from%20WBS%20-%201997.jpg" alt="" data-f="Modules/METER/M405P/1990 - M405P - WBS - Ad - new from WBS - 1997.jpg" data-size="320" onerror="wbsOff(this)">1990 - M405P - WBS - Ad - new from WBS - 1997.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/19xx%20-%20445-01-001%20-%20EXTENDED%20RANGE%20METER%20MONITOR%20FUNCTIONAL%20-%20ISS%201.jpg"><img loading="lazy" src="../../../Modules/METER/M445/19xx%20-%20445-01-001%20-%20EXTENDED%20RANGE%20METER%20MONITOR%20FUNCTIONAL%20-%20ISS%201.jpg" alt="" data-f="Modules/METER/M445/19xx - 445-01-001 - EXTENDED RANGE METER MONITOR FUNCTIONAL - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">19xx - 445-01-001 - EXTENDED RANGE METER MONITOR FUNCTIONAL - ISS 1.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/19xx%20-%20445-02-001%20-%20RACK%20MOUNT%20FRAME%20SCHEMATIC%20-%20ISS%201.jpg"><img loading="lazy" src="../../../Modules/METER/M445/19xx%20-%20445-02-001%20-%20RACK%20MOUNT%20FRAME%20SCHEMATIC%20-%20ISS%201.jpg" alt="" data-f="Modules/METER/M445/19xx - 445-02-001 - RACK MOUNT FRAME SCHEMATIC - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">19xx - 445-02-001 - RACK MOUNT FRAME SCHEMATIC - ISS 1.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/19xx%20-%20445-02-002%20-%20EXTENDED%20RANGE%20METER%20SCHEMATIC%20-%20ISS%202.jpg"><img loading="lazy" src="../../../Modules/METER/M445/19xx%20-%20445-02-002%20-%20EXTENDED%20RANGE%20METER%20SCHEMATIC%20-%20ISS%202.jpg" alt="" data-f="Modules/METER/M445/19xx - 445-02-002 - EXTENDED RANGE METER SCHEMATIC - ISS 2.jpg" data-size="320" onerror="wbsOff(this)">19xx - 445-02-002 - EXTENDED RANGE METER SCHEMATIC - ISS 2.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/19xx%20-%20445-04-001%20-%20EXTENDED%20RANGE%20METER%20MONITOR%20OUTLINE%20-%20ISS%201.jpg"><img loading="lazy" src="../../../Modules/METER/M445/19xx%20-%20445-04-001%20-%20EXTENDED%20RANGE%20METER%20MONITOR%20OUTLINE%20-%20ISS%201.jpg" alt="" data-f="Modules/METER/M445/19xx - 445-04-001 - EXTENDED RANGE METER MONITOR OUTLINE - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">19xx - 445-04-001 - EXTENDED RANGE METER MONITOR OUTLINE - ISS 1.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/19xx%20-%20445-04-002%20-%20EXTENDED%20RANGE%20METER%20MONITOR%20FRONT%20PANEL%20LAYOUT%20-%20ISS%201.jpg"><img loading="lazy" src="../../../Modules/METER/M445/19xx%20-%20445-04-002%20-%20EXTENDED%20RANGE%20METER%20MONITOR%20FRONT%20PANEL%20LAYOUT%20-%20ISS%201.jpg" alt="" data-f="Modules/METER/M445/19xx - 445-04-002 - EXTENDED RANGE METER MONITOR FRONT PANEL LAYOUT - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">19xx - 445-04-002 - EXTENDED RANGE METER MONITOR FRONT PANEL LAYOUT - ISS 1.jpg</a><a href="../../../viewer.html?f=Modules/METER/M445/19xx%20-%20445-04-003%20-%20EXTENDED%20RANGE%20METER%20MONITOR%20REAR%20PANEL%20LAYOUT%20-%20ISS%201.jpg"><img loading="lazy" src="../../../Modules/METER/M445/19xx%20-%20445-04-003%20-%20EXTENDED%20RANGE%20METER%20MONITOR%20REAR%20PANEL%20LAYOUT%20-%20ISS%201.jpg" alt="" data-f="Modules/METER/M445/19xx - 445-04-003 - EXTENDED RANGE METER MONITOR REAR PANEL LAYOUT - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">19xx - 445-04-003 - EXTENDED RANGE METER MONITOR REAR PANEL LAYOUT - ISS 1.jpg</a></div>
+
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Year-1995.html">1995|28</a></td>
+<td>manual issue date</td>
+<td><code>Issue #2 November 23, 1995</code></td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/WBSps%20-%20Word%20Perfect%20Manuals-20221115T024240Z-001/WBSps%20-%20Word%20Perfect%20Manuals/1995%20-%20DOC%20-%20CONTROL%20SYSTEM%20-%20POWER%20MANAGEMENT%20-%20PARTS%20LIST%20%2814-305">1995 - DOC - CONTROL SYSTEM - POWER MANAGEMENT - PARTS LIST (14-305#2).wp</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1995.html">1995|28</a></td>
+<td>manual issue date</td>
+<td><code>Issue #1 November 23, 1995</code></td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/WBSps%20-%20Word%20Perfect%20Manuals-20221115T024240Z-001/WBSps%20-%20Word%20Perfect%20Manuals/1995%20-%20DOC%20-%20CONTROL%20SYSTEM%20-%20POWER%20MANAGEMENT%20-%20PARTS%20LIST%20%2814-305A%29.wp">1995 - DOC - CONTROL SYSTEM - POWER MANAGEMENT - PARTS LIST (14-305A).wp</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1995.html">1995|28</a></td>
+<td>manual issue date</td>
+<td><code>Issue #1 September 27, 1995</code></td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/WBSps%20-%20Word%20Perfect%20Manuals-20221115T024240Z-001/WBSps%20-%20Word%20Perfect%20Manuals/1995%20-%20DOC%20-%20CONTROL%20SYSTEM%20-%20POWER%20MANAGEMENT%20-%20PARTS%20LIST%20%28SA14-305%29.wp">1995 - DOC - CONTROL SYSTEM - POWER MANAGEMENT - PARTS LIST (SA14-305).wp</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1995.html">1995|28</a></td>
+<td>manual issue date</td>
+<td><code>Issue #2 November 23, 1995</code></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1995%20-%20M445%20-%20DOC%20-%20CONTROL%20SYSTEM%20-%20POWER%20MANAGEMENT%20-%20PARTS%20LIST%20%2814-305">1995 - M445 - DOC - CONTROL SYSTEM - POWER MANAGEMENT - PARTS LIST (14-305#2).wp</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1995.html">1995|28</a></td>
+<td>manual issue date</td>
+<td><code>Issue #1 November 23, 1995</code></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1995%20-%20M445%20-%20DOC%20-%20CONTROL%20SYSTEM%20-%20POWER%20MANAGEMENT%20-%20PARTS%20LIST%20%2814-305A%29.wp">1995 - M445 - DOC - CONTROL SYSTEM - POWER MANAGEMENT - PARTS LIST (14-305A).wp</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1995.html">1995|28</a></td>
+<td>manual issue date</td>
+<td><code>Issue #1 September 27, 1995</code></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1995%20-%20M445%20-%20DOC%20-%20CONTROL%20SYSTEM%20-%20POWER%20MANAGEMENT%20-%20PARTS%20LIST%20%28SA14-305%29.wp">1995 - M445 - DOC - CONTROL SYSTEM - POWER MANAGEMENT - PARTS LIST (SA14-305).wp</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1996.html">1996|29</a></td>
+<td>manual issue date</td>
+<td><code>Issue #1 January 10, 1996</code></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%2014-304-02-001%20-%20SCHEMATIC.wp">1996 - M445 - 14-304-02-001 - SCHEMATIC.wp</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Documents (7)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/WBSps%20-%20Word%20Perfect%20Manuals-20221115T024240Z-001/WBSps%20-%20Word%20Perfect%20Manuals/1995%20-%20DOC%20-%20CONTROL%20SYSTEM%20-%20POWER%20MANAGEMENT%20-%20PARTS%20LIST%20%2814-305">1995 - DOC - CONTROL SYSTEM - POWER MANAGEMENT - PARTS LIST (14-305#2).wp</a></td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/WBSps%20-%20Word%20Perfect%20Manuals-20221115T024240Z-001/WBSps%20-%20Word%20Perfect%20Manuals/1995%20-%20DOC%20-%20CONTROL%20SYSTEM%20-%20POWER%20MANAGEMENT%20-%20PARTS%20LIST%20%2814-305">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/WBSps%20-%20Word%20Perfect%20Manuals-20221115T024240Z-001/WBSps%20-%20Word%20Perfect%20Manuals/1995%20-%20DOC%20-%20CONTROL%20SYSTEM%20-%20POWER%20MANAGEMENT%20-%20PARTS%20LIST%20%2814-305A%29.wp">1995 - DOC - CONTROL SYSTEM - POWER MANAGEMENT - PARTS LIST (14-305A).wp</a></td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/WBSps%20-%20Word%20Perfect%20Manuals-20221115T024240Z-001/WBSps%20-%20Word%20Perfect%20Manuals/1995%20-%20DOC%20-%20CONTROL%20SYSTEM%20-%20POWER%20MANAGEMENT%20-%20PARTS%20LIST%20%2814-305A%29.wp.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/WBSps%20-%20Word%20Perfect%20Manuals-20221115T024240Z-001/WBSps%20-%20Word%20Perfect%20Manuals/1995%20-%20DOC%20-%20CONTROL%20SYSTEM%20-%20POWER%20MANAGEMENT%20-%20PARTS%20LIST%20%28SA14-305%29.wp">1995 - DOC - CONTROL SYSTEM - POWER MANAGEMENT - PARTS LIST (SA14-305).wp</a></td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/WBSps%20-%20Word%20Perfect%20Manuals-20221115T024240Z-001/WBSps%20-%20Word%20Perfect%20Manuals/1995%20-%20DOC%20-%20CONTROL%20SYSTEM%20-%20POWER%20MANAGEMENT%20-%20PARTS%20LIST%20%28SA14-305%29.wp.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1995%20-%20M445%20-%20DOC%20-%20CONTROL%20SYSTEM%20-%20POWER%20MANAGEMENT%20-%20PARTS%20LIST%20%2814-305">1995 - M445 - DOC - CONTROL SYSTEM - POWER MANAGEMENT - PARTS LIST (14-305#2).wp</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1995%20-%20M445%20-%20DOC%20-%20CONTROL%20SYSTEM%20-%20POWER%20MANAGEMENT%20-%20PARTS%20LIST%20%2814-305">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1995%20-%20M445%20-%20DOC%20-%20CONTROL%20SYSTEM%20-%20POWER%20MANAGEMENT%20-%20PARTS%20LIST%20%2814-305A%29.wp">1995 - M445 - DOC - CONTROL SYSTEM - POWER MANAGEMENT - PARTS LIST (14-305A).wp</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1995%20-%20M445%20-%20DOC%20-%20CONTROL%20SYSTEM%20-%20POWER%20MANAGEMENT%20-%20PARTS%20LIST%20%2814-305A%29.wp.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1995%20-%20M445%20-%20DOC%20-%20CONTROL%20SYSTEM%20-%20POWER%20MANAGEMENT%20-%20PARTS%20LIST%20%28SA14-305%29.wp">1995 - M445 - DOC - CONTROL SYSTEM - POWER MANAGEMENT - PARTS LIST (SA14-305).wp</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1995%20-%20M445%20-%20DOC%20-%20CONTROL%20SYSTEM%20-%20POWER%20MANAGEMENT%20-%20PARTS%20LIST%20%28SA14-305%29.wp.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%2014-304-02-001%20-%20SCHEMATIC.wp">1996 - M445 - 14-304-02-001 - SCHEMATIC.wp</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%2014-304-02-001%20-%20SCHEMATIC.wp.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (91)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1995%20-%20445-03-010%20-%20FRONT%20LOCK%20LATCH%20%26%20BLOCK%20-%20DRN%20DRG%20-%20ISS%201.jpg">1995 - 445-03-010 - FRONT LOCK LATCH &amp; BLOCK - DRN DRG - ISS 1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1995%20-%20445-03-010%20-%20FRONT%20LOCK%20LATCH%20%26%20BLOCK%20-%20DRN%20DRG%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1995%20-%20445-03-016%20-%20EXTENDED%20RANGE%20METER%20SPEAKER%20SCREEN%20-%20DRN%20DRG%20-%20ISS%201.jpg">1995 - 445-03-016 - EXTENDED RANGE METER SPEAKER SCREEN - DRN DRG - ISS 1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1995%20-%20445-03-016%20-%20EXTENDED%20RANGE%20METER%20SPEAKER%20SCREEN%20-%20DRN%20DRG%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20%24_57-1.jpg">1996 - M445 - $_57-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20%24_57-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20%24_57-2.jpg">1996 - M445 - $_57-2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20%24_57-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20%24_57-3.jpg">1996 - M445 - $_57-3.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20%24_57-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20%24_57-4.jpg">1996 - M445 - $_57-4.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20%24_57-4.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20%24_57-5.jpg">1996 - M445 - $_57-5.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20%24_57-5.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20%24_57-6.jpg">1996 - M445 - $_57-6.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20%24_57-6.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20%24_57-7.jpg">1996 - M445 - $_57-7.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20%24_57-7.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20%24_57.jpg">1996 - M445 - $_57.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20%24_57.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%201.jpg">1996 - M445 - 1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%2010.jpg">1996 - M445 - 10.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%2010.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%2011.jpg">1996 - M445 - 11.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%2011.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%2018.jpg">1996 - M445 - 18.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%2018.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%2019.jpg">1996 - M445 - 19.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%2019.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%202.jpg">1996 - M445 - 2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%2022.jpg">1996 - M445 - 22.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%2022.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%2024.jpg">1996 - M445 - 24.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%2024.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%2026.jpg">1996 - M445 - 26.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%2026.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%203.jpg">1996 - M445 - 3.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%203.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%204.jpg">1996 - M445 - 4.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%204.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%205.jpg">1996 - M445 - 5.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%205.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%206.jpg">1996 - M445 - 6.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%206.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%207.jpg">1996 - M445 - 7.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%207.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%208.jpg">1996 - M445 - 8.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%208.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%209.jpg">1996 - M445 - 9.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%209.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20Archived%20-%20M445%20-%20EXTENDED%20RANGE%20METER%20-%20MONITOR%20001.jpg">1996 - M445 - Archived - M445 - EXTENDED RANGE METER - MONITOR 001.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20Archived%20-%20M445%20-%20EXTENDED%20RANGE%20METER%20-%20MONITOR%20001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20Archived%20-%20M445%20-%20EXTENDED%20RANGE%20METER%20-%20MONITOR%20002.jpg">1996 - M445 - Archived - M445 - EXTENDED RANGE METER - MONITOR 002.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20Archived%20-%20M445%20-%20EXTENDED%20RANGE%20METER%20-%20MONITOR%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20Archived%20-%20M445%20-%20EXTENDED%20RANGE%20METER%20-%20MONITOR%20003.jpg">1996 - M445 - Archived - M445 - EXTENDED RANGE METER - MONITOR 003.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20Archived%20-%20M445%20-%20EXTENDED%20RANGE%20METER%20-%20MONITOR%20003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%2014-304-02-001%20-%20SA14-304%20LCD-ENCODER%20BOARD%20-%20SCHEMATIC.jpg">1996 - M445 - B 14-304-02-001 - SA14-304 LCD-ENCODER BOARD - SCHEMATIC.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%2014-304-02-001%20-%20SA14-304%20LCD-ENCODER%20BOARD%20-%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%2014-305-02-001-1%20-%20SA14-305%20STEREO%20EXTENDED%20RANGE%20METER%20-%20SCHEMATIC.jpg">1996 - M445 - B 14-305-02-001-1 - SA14-305 STEREO EXTENDED RANGE METER - SCHEMATIC.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%2014-305-02-001-1%20-%20SA14-305%20STEREO%20EXTENDED%20RANGE%20METER%20-%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%2014-305-02-001-2%20-%20SA14-305%20STEREO%20EXTENDED%20RANGE%20METER%20-%20SCHEMATIC.jpg">1996 - M445 - B 14-305-02-001-2 - SA14-305 STEREO EXTENDED RANGE METER - SCHEMATIC.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%2014-305-02-001-2%20-%20SA14-305%20STEREO%20EXTENDED%20RANGE%20METER%20-%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%2014-307-02-001%20-%20SA14-307%20EXTENDED%20RANGE%20METER%20LIGHT%20BAR%20-%20SCHEMATIC.jpg">1996 - M445 - B 14-307-02-001 - SA14-307 EXTENDED RANGE METER LIGHT BAR - SCHEMATIC.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%2014-307-02-001%20-%20SA14-307%20EXTENDED%20RANGE%20METER%20LIGHT%20BAR%20-%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%2014-311-02-001%20-%20SA14-311%20SPEAKER%20DRIVER%20-%20SCHEMATIC.jpg">1996 - M445 - B 14-311-02-001 - SA14-311 SPEAKER DRIVER - SCHEMATIC.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%2014-311-02-001%20-%20SA14-311%20SPEAKER%20DRIVER%20-%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%2014-311-06-001%20-%20SA14-311%20SPEAKER%20DRIVER%20-%20COMPONENT%20LAYOUT.jpg">1996 - M445 - B 14-311-06-001 - SA14-311 SPEAKER DRIVER - COMPONENT LAYOUT.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%2014-311-06-001%20-%20SA14-311%20SPEAKER%20DRIVER%20-%20COMPONENT%20LAYOUT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%20445-01-001%20-%20M445%20EXTENDED%20RANGE%20METER-MONITOR%20-%20FUNCTIONAL.jpg">1996 - M445 - B 445-01-001 - M445 EXTENDED RANGE METER-MONITOR - FUNCTIONAL.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%20445-01-001%20-%20M445%20EXTENDED%20RANGE%20METER-MONITOR%20-%20FUNCTIONAL.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%20445-02-001%20-%20M445%20RACK%20MOUNT%20FRAME%20-%20SCHEMATIC.jpg">1996 - M445 - B 445-02-001 - M445 RACK MOUNT FRAME - SCHEMATIC.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%20445-02-001%20-%20M445%20RACK%20MOUNT%20FRAME%20-%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%20445-02-002%20-%20M445%20EXTENDED%20RANGE%20METER%20-%20SCHEMATIC.jpg">1996 - M445 - B 445-02-002 - M445 EXTENDED RANGE METER - SCHEMATIC.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%20445-02-002%20-%20M445%20EXTENDED%20RANGE%20METER%20-%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%20445-04-001%20-%20M445%20EXTENDED%20RANGE%20METER-MONITOR%20-%20OUTLINE.jpg">1996 - M445 - B 445-04-001 - M445 EXTENDED RANGE METER-MONITOR - OUTLINE.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%20445-04-001%20-%20M445%20EXTENDED%20RANGE%20METER-MONITOR%20-%20OUTLINE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%20445-04-002%20-%20M445%20EXTENDED%20RANGE%20METER-MONITOR%20-%20FRONT%20PANEL%20LAYOUT.jpg">1996 - M445 - B 445-04-002 - M445 EXTENDED RANGE METER-MONITOR - FRONT PANEL LAYOUT.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%20445-04-002%20-%20M445%20EXTENDED%20RANGE%20METER-MONITOR%20-%20FRONT%20PANEL%20LAYOUT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%20445-04-003%20-%20M445%20EXTENDED%20RANGE%20METER-MONITOR%20-%20REAR%20PANEL%20LAYOUT.jpg">1996 - M445 - B 445-04-003 - M445 EXTENDED RANGE METER-MONITOR - REAR PANEL LAYOUT.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20B%20445-04-003%20-%20M445%20EXTENDED%20RANGE%20METER-MONITOR%20-%20REAR%20PANEL%20LAYOUT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20BACK%20%282%29.jpg">1996 - M445 - BACK (2).jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20BACK%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20BACK.jpg">1996 - M445 - BACK.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20BACK.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20EXTENDED%20RANGE%20METER%20-%20MONITOR%20001.jpg">1996 - M445 - EXTENDED RANGE METER - MONITOR 001.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20EXTENDED%20RANGE%20METER%20-%20MONITOR%20001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20EXTENDED%20RANGE%20METER%20-%20MONITOR%20002.jpg">1996 - M445 - EXTENDED RANGE METER - MONITOR 002.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20EXTENDED%20RANGE%20METER%20-%20MONITOR%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20EXTENDED%20RANGE%20METER%20-%20MONITOR%20003.jpg">1996 - M445 - EXTENDED RANGE METER - MONITOR 003.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20EXTENDED%20RANGE%20METER%20-%20MONITOR%20003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20FRONT%20%282%29.jpg">1996 - M445 - FRONT (2).jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20FRONT%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20FRONT%20%283%29.jpg">1996 - M445 - FRONT (3).jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20FRONT%20%283%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20FRONT.jpg">1996 - M445 - FRONT.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20FRONT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20163.jpg">1996 - M445 - VU meter 163.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20163.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20164.jpg">1996 - M445 - VU meter 164.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20164.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20165.jpg">1996 - M445 - VU meter 165.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20165.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20166.jpg">1996 - M445 - VU meter 166.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20166.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20167.jpg">1996 - M445 - VU meter 167.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20167.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20168.jpg">1996 - M445 - VU meter 168.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20168.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20169.jpg">1996 - M445 - VU meter 169.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20169.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20170.jpg">1996 - M445 - VU meter 170.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20170.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20171.jpg">1996 - M445 - VU meter 171.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20171.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20172.jpg">1996 - M445 - VU meter 172.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20172.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20173.jpg">1996 - M445 - VU meter 173.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20173.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20174.jpg">1996 - M445 - VU meter 174.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20174.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20175.jpg">1996 - M445 - VU meter 175.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20175.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20176.jpg">1996 - M445 - VU meter 176.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20176.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20177.jpg">1996 - M445 - VU meter 177.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20177.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20178.jpg">1996 - M445 - VU meter 178.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20178.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20179.jpg">1996 - M445 - VU meter 179.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20179.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20180.jpg">1996 - M445 - VU meter 180.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20180.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20181.jpg">1996 - M445 - VU meter 181.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20181.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20182.jpg">1996 - M445 - VU meter 182.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20182.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20183.jpg">1996 - M445 - VU meter 183.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20183.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20184.jpg">1996 - M445 - VU meter 184.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20184.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20185.jpg">1996 - M445 - VU meter 185.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20185.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20186.jpg">1996 - M445 - VU meter 186.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20186.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20187.jpg">1996 - M445 - VU meter 187.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20187.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20188.jpg">1996 - M445 - VU meter 188.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20188.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20189.jpg">1996 - M445 - VU meter 189.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20189.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20190.jpg">1996 - M445 - VU meter 190.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20190.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20191.jpg">1996 - M445 - VU meter 191.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20191.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20192.jpg">1996 - M445 - VU meter 192.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20192.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20193.jpg">1996 - M445 - VU meter 193.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20VU%20meter%20193.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20wbs-445-meter-fb.jpg">1996 - M445 - wbs-445-meter-fb.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20wbs-445-meter-fb.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20wbs-445-meter-ff.jpg">1996 - M445 - wbs-445-meter-ff.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%20wbs-445-meter-ff.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/19xx%20-%20DOC%20-%20445-03-007%20-%20NQTES%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES.jpg">19xx - DOC - 445-03-007 - NQTES REMOVE ALL BURRS AND SHARP EDGES.jpg</a></td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/19xx%20-%20DOC%20-%20445-03-007%20-%20NQTES%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/19xx%20-%20DOC%20-%20445-03-016%20-%20PAINT%20EXTRA%20FINE%20TEXTURED%20BLACK%20TEXCOTE.jpg">19xx - DOC - 445-03-016 - PAINT EXTRA FINE TEXTURED BLACK TEXCOTE.jpg</a></td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/19xx%20-%20DOC%20-%20445-03-016%20-%20PAINT%20EXTRA%20FINE%20TEXTURED%20BLACK%20TEXCOTE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/19xx%20-%20DOC%20-%20445-03-026%20-%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOLERANCES.jpg">19xx - DOC - 445-03-026 - REMOVE ALL BURRS AND SHARP EDGES TOLERANCES.jpg</a></td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/19xx%20-%20DOC%20-%20445-03-026%20-%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOLERANCES.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/19xx%20-%20DOC%20-%20445-03-028%20-%20NQTES%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOLERANCES.jpg">19xx - DOC - 445-03-028 - NQTES REMOVE ALL BURRS AND SHARP EDGES TOLERANCES.jpg</a></td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/19xx%20-%20DOC%20-%20445-03-028%20-%20NQTES%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOLERANCES.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/19xx%20-%20445-03-011%20-%20M445A%20EXTENDED%20RANGE%20METER%20BATTERY%20HOLDER%20%26%20CLIP%20-%20DRN%20WS%20-%20ENG%20WS%20-%20ISS%202.jpg">19xx - 445-03-011 - M445A EXTENDED RANGE METER BATTERY HOLDER &amp; CLIP - DRN WS - ENG WS - ISS 2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/19xx%20-%20445-03-011%20-%20M445A%20EXTENDED%20RANGE%20METER%20BATTERY%20HOLDER%20%26%20CLIP%20-%20DRN%20WS%20-%20ENG%20WS%20-%20ISS%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/19xx%20-%20M445%20-%20DOC%20-%20445-03-007%20-%20NQTES%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES.jpg">19xx - M445 - DOC - 445-03-007 - NQTES REMOVE ALL BURRS AND SHARP EDGES.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/19xx%20-%20M445%20-%20DOC%20-%20445-03-007%20-%20NQTES%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/19xx%20-%20M445%20-%20DOC%20-%20445-03-016%20-%20PAINT%20EXTRA%20FINE%20TEXTURED%20BLACK%20TEXCOTE.jpg">19xx - M445 - DOC - 445-03-016 - PAINT EXTRA FINE TEXTURED BLACK TEXCOTE.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/19xx%20-%20M445%20-%20DOC%20-%20445-03-016%20-%20PAINT%20EXTRA%20FINE%20TEXTURED%20BLACK%20TEXCOTE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/19xx%20-%20M445%20-%20DOC%20-%20445-03-026%20-%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOLERANCES.jpg">19xx - M445 - DOC - 445-03-026 - REMOVE ALL BURRS AND SHARP EDGES TOLERANCES.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/19xx%20-%20M445%20-%20DOC%20-%20445-03-026%20-%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOLERANCES.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/19xx%20-%20M445%20-%20DOC%20-%20445-03-028%20-%20NQTES%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOLERANCES.jpg">19xx - M445 - DOC - 445-03-028 - NQTES REMOVE ALL BURRS AND SHARP EDGES TOLERANCES.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/19xx%20-%20M445%20-%20DOC%20-%20445-03-028%20-%20NQTES%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOLERANCES.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Sub-assemblies &amp; parts used (4)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What</th>
+<th>Family</th>
+<th>Year</th>
+<th>How we know</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Register-Circuit-boards-SA14-nnn.html#sa14-305">SA14-305</a></td>
+<td>B 14-305-02-001-1 - SA14-305 STEREO EXTENDED RANGE METER - SCHEMATIC</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>its circuit board</td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Register-Circuit-boards-SA14-nnn.html#sa14-304">SA14-304</a></td>
+<td></td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>drawing filed with it</td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Register-Circuit-boards-SA14-nnn.html#sa14-307">SA14-307</a></td>
+<td>B 14-307-02-001 - SA14-307 EXTENDED RANGE METER LIGHT BAR - SCHEMATIC</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>drawing filed with it</td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Register-Circuit-boards-SA14-nnn.html#sa14-311">SA14-311</a></td>
+<td>B 14-311-02-001 - SA14-311 SPEAKER DRIVER - SCHEMATIC</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>drawing filed with it</td>
+</tr>
+</tbody>
+</table>
+<h2>Parts list — board 14-305 (43 parts)</h2>
+<p><em>From 14-305#2.WP; also in <code>timelines/data/bom.csv</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>Part</th>
+<th>Value</th>
+<th>Manufacturer</th>
+<th>Mfr part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C1</td>
+<td>Capacitor</td>
+<td>22 uF/25V</td>
+<td>Siemens</td>
+<td>85200</td>
+</tr>
+<tr>
+<td>C41</td>
+<td>Capacitor</td>
+<td>10 uF/25V</td>
+<td>ITT</td>
+<td>10M25</td>
+</tr>
+<tr>
+<td>C87</td>
+<td>Capacitor</td>
+<td>22 uF/25V</td>
+<td>Siemens</td>
+<td>85200</td>
+</tr>
+<tr>
+<td>C88</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C89</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C94</td>
+<td>Capacitor</td>
+<td>0.047 uF/100V</td>
+<td>Aselco</td>
+<td>CQ92-MC-100-473M</td>
+</tr>
+<tr>
+<td>CR55</td>
+<td>Diode</td>
+<td>National</td>
+<td>1N4003</td>
+<td></td>
+</tr>
+<tr>
+<td>Q15</td>
+<td>Transistor</td>
+<td>National</td>
+<td>2N3904</td>
+<td></td>
+</tr>
+<tr>
+<td>R54</td>
+<td>Resistor</td>
+<td>1/4W 1%</td>
+<td>82K5</td>
+<td>Philips MRS25F</td>
+</tr>
+<tr>
+<td>R69</td>
+<td>Potentiometer</td>
+<td>5K</td>
+<td>Piher</td>
+<td>PT10V-5K</td>
+</tr>
+<tr>
+<td>R70</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R71</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R72</td>
+<td>Resistor</td>
+<td>1/4W 1%</td>
+<td>10K</td>
+<td>Philips MRS25F</td>
+</tr>
+<tr>
+<td>R84</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R85</td>
+<td>Potentiometer</td>
+<td>5K</td>
+<td>Piher</td>
+<td>PT10V-5K</td>
+</tr>
+<tr>
+<td>R86</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R87</td>
+<td>Resistor</td>
+<td>1/4W 1%</td>
+<td>2K43</td>
+<td>Philips MRS25F</td>
+</tr>
+<tr>
+<td>R88</td>
+<td>Potentiometer</td>
+<td>5K</td>
+<td>Piher</td>
+<td>PT10V-5K</td>
+</tr>
+<tr>
+<td>R89</td>
+<td>Resistor</td>
+<td>1/4W 1%</td>
+<td>20K</td>
+<td>Philips MRS25F</td>
+</tr>
+<tr>
+<td>R94</td>
+<td>Resistor</td>
+<td>1/4W 5%</td>
+<td>20K</td>
+<td>Philips CR25</td>
+</tr>
+<tr>
+<td>R131</td>
+<td>SIP Resistor</td>
+<td>39K</td>
+<td>Bourns</td>
+<td>15-014</td>
+</tr>
+<tr>
+<td>R135</td>
+<td>Resistor</td>
+<td>1/4W 5%</td>
+<td>39K</td>
+<td>Philips CR25</td>
+</tr>
+<tr>
+<td>R136</td>
+<td>SIP Resistor</td>
+<td>39K</td>
+<td>Bourns</td>
+<td>15-014</td>
+</tr>
+<tr>
+<td>R137</td>
+<td>Resistor</td>
+<td>1/4W 5%</td>
+<td>39K</td>
+<td>Philips CR25</td>
+</tr>
+<tr>
+<td>R144</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R145</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R146</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R150</td>
+<td>Resistor</td>
+<td>1/4W 5%</td>
+<td>100K</td>
+<td>Philips CR25</td>
+</tr>
+<tr>
+<td>R250</td>
+<td>SOT</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R251</td>
+<td>SOT</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>K1, K2</td>
+<td>Relay</td>
+<td>Omron</td>
+<td>GGAK234PSTUSDC5</td>
+<td></td>
+</tr>
+<tr>
+<td>L1, L2</td>
+<td>Choke</td>
+<td>Delevan</td>
+<td>1537-76</td>
+<td></td>
+</tr>
+<tr>
+<td>L3</td>
+<td>Filter Inductor</td>
+<td>E.C.</td>
+<td>80-36</td>
+<td></td>
+</tr>
+<tr>
+<td>SW1</td>
+<td>Switch</td>
+<td>Schadow</td>
+<td>2CF-GHT-AA</td>
+<td></td>
+</tr>
+<tr>
+<td>U1</td>
+<td>Inegrated Circuit</td>
+<td>Analog Devices</td>
+<td>OP492GP</td>
+<td></td>
+</tr>
+<tr>
+<td>XT1</td>
+<td>Crystal, 4000 MHz</td>
+<td>Fox</td>
+<td>FOX040-HC49U</td>
+<td></td>
+</tr>
+<tr>
+<td>Q16</td>
+<td>Heat Sink</td>
+<td>Aavid</td>
+<td>577102</td>
+<td></td>
+</tr>
+<tr>
+<td>Q14, Q16, U18</td>
+<td>TO220 Single Insulator</td>
+<td>Bergquist</td>
+<td>K4-58</td>
+<td></td>
+</tr>
+<tr>
+<td>SW1-SW4</td>
+<td>Lens Cap, Black/White</td>
+<td>Schadow</td>
+<td>FA201-BL/WH</td>
+<td></td>
+</tr>
+<tr>
+<td>SW5</td>
+<td>Lens Cap, Black/Red</td>
+<td>Schadow</td>
+<td>FA201-BL/RD</td>
+<td></td>
+</tr>
+<tr>
+<td>SW1-SW5</td>
+<td>Switch Frame</td>
+<td>WBS</td>
+<td>445-024</td>
+<td></td>
+</tr>
+<tr>
+<td>LK2-LK4</td>
+<td>2 Pin Jumper</td>
+<td>Aptronics</td>
+<td>929955-06</td>
+<td></td>
+</tr>
+<tr>
+<td>U12</td>
+<td>52 Pin Square Socket</td>
+<td>"</td>
+<td>82155-1</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Parts list — board 14-305A (43 parts)</h2>
+<p><em>From 14-305A.WP; also in <code>timelines/data/bom.csv</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>Part</th>
+<th>Value</th>
+<th>Manufacturer</th>
+<th>Mfr part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C1</td>
+<td>Capacitor</td>
+<td>22 uF/25V</td>
+<td>Siemens</td>
+<td>85200</td>
+</tr>
+<tr>
+<td>C41</td>
+<td>Capacitor</td>
+<td>10 uF/25V</td>
+<td>ITT</td>
+<td>10M25</td>
+</tr>
+<tr>
+<td>C81</td>
+<td>Capacitor</td>
+<td>10 uF35V</td>
+<td>ITT</td>
+<td>10M35</td>
+</tr>
+<tr>
+<td>Q15</td>
+<td>Transistor</td>
+<td>National</td>
+<td>2N3904</td>
+<td></td>
+</tr>
+<tr>
+<td>R69</td>
+<td>Potentiometer</td>
+<td>5K</td>
+<td>Piher</td>
+<td>PT10V-5K</td>
+</tr>
+<tr>
+<td>R70</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R71</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R72</td>
+<td>Resistor</td>
+<td>1/4W 1%</td>
+<td>10K</td>
+<td>Philips MRS25F</td>
+</tr>
+<tr>
+<td>R84</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R85</td>
+<td>Potentiometer</td>
+<td>5K</td>
+<td>Piher</td>
+<td>PT10V-5K</td>
+</tr>
+<tr>
+<td>R86</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R87</td>
+<td>Resistor</td>
+<td>1/4W 1%</td>
+<td>2K43</td>
+<td>Philips MRS25F</td>
+</tr>
+<tr>
+<td>R88</td>
+<td>Potentiometer</td>
+<td>5K</td>
+<td>Piher</td>
+<td>PT10V-5K</td>
+</tr>
+<tr>
+<td>R89</td>
+<td>Resistor</td>
+<td>1/4W 1%</td>
+<td>20K</td>
+<td>Philips MRS25F</td>
+</tr>
+<tr>
+<td>R131</td>
+<td>SIP Resistor</td>
+<td>39K</td>
+<td>Bourns</td>
+<td>15-014</td>
+</tr>
+<tr>
+<td>R135</td>
+<td>Resistor</td>
+<td>1/4W 5%</td>
+<td>39K</td>
+<td>Philips CR25</td>
+</tr>
+<tr>
+<td>R136</td>
+<td>SIP Resistor</td>
+<td>39K</td>
+<td>Bourns</td>
+<td>15-014</td>
+</tr>
+<tr>
+<td>R137</td>
+<td>Resistor</td>
+<td>1/4W 5%</td>
+<td>39K</td>
+<td>Philips CR25</td>
+</tr>
+<tr>
+<td>R144</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R145</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R146</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R150</td>
+<td>Resistor</td>
+<td>1/4W 5%</td>
+<td>100K</td>
+<td>Philips CR25</td>
+</tr>
+<tr>
+<td>R171</td>
+<td>Potentiometer</td>
+<td>5K</td>
+<td>Piher</td>
+<td>PT10H-5K</td>
+</tr>
+<tr>
+<td>R172</td>
+<td>Resistor</td>
+<td>1/4W 5%</td>
+<td>5K1</td>
+<td>Philips CR25</td>
+</tr>
+<tr>
+<td>R196</td>
+<td>Resistor</td>
+<td>1/4W 5%</td>
+<td>12K</td>
+<td>" "</td>
+</tr>
+<tr>
+<td>R213</td>
+<td>Potentiometer</td>
+<td>5K</td>
+<td>Piher</td>
+<td>PT10H-5K</td>
+</tr>
+<tr>
+<td>R214</td>
+<td>Resistor</td>
+<td>1/4W 5%</td>
+<td>5K1</td>
+<td>Philips CR25</td>
+</tr>
+<tr>
+<td>R223</td>
+<td>Resistor</td>
+<td>1/4W 1%</td>
+<td>1M</td>
+<td>Phillips MR25F</td>
+</tr>
+<tr>
+<td>R250</td>
+<td>SOT</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R251</td>
+<td>SOT</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>K1, K2</td>
+<td>Relay</td>
+<td>Omron</td>
+<td>GGAK234PSTUSDC5</td>
+<td></td>
+</tr>
+<tr>
+<td>L1, L2</td>
+<td>Choke</td>
+<td>Delevan</td>
+<td>1537-76</td>
+<td></td>
+</tr>
+<tr>
+<td>L3</td>
+<td>Filter Inductor</td>
+<td>E.C.</td>
+<td>80-36</td>
+<td></td>
+</tr>
+<tr>
+<td>SW1</td>
+<td>Switch</td>
+<td>Schadow</td>
+<td>2CF-GHT-AA</td>
+<td></td>
+</tr>
+<tr>
+<td>U1</td>
+<td>Inegrated Circuit</td>
+<td>Analog Devices</td>
+<td>OP492GP</td>
+<td></td>
+</tr>
+<tr>
+<td>XT1</td>
+<td>Crystal, 4000 MHz</td>
+<td>Fox</td>
+<td>FOX040-HC49U</td>
+<td></td>
+</tr>
+<tr>
+<td>Q16</td>
+<td>Heat Sink</td>
+<td>Aavid</td>
+<td>577102</td>
+<td></td>
+</tr>
+<tr>
+<td>Q14, Q16, U18</td>
+<td>TO220 Single Insulator</td>
+<td>Bergquist</td>
+<td>K4-58</td>
+<td></td>
+</tr>
+<tr>
+<td>SW1-SW4</td>
+<td>Lens Cap, Black/White</td>
+<td>Schadow</td>
+<td>FA201-BL/WH</td>
+<td></td>
+</tr>
+<tr>
+<td>SW5</td>
+<td>Lens Cap, Black/Red</td>
+<td>Schadow</td>
+<td>FA201-BL/RD</td>
+<td></td>
+</tr>
+<tr>
+<td>SW1-SW5</td>
+<td>Switch Frame</td>
+<td>WBS</td>
+<td>445-024</td>
+<td></td>
+</tr>
+<tr>
+<td>LK2-LK4</td>
+<td>2 Pin Jumper</td>
+<td>Aptronics</td>
+<td>929955-06</td>
+<td></td>
+</tr>
+<tr>
+<td>U12</td>
+<td>52 Pin Square Socket</td>
+<td>"</td>
+<td>82155-1</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Parts list — board M445 (12 parts)</h2>
+<p><em>From M445.WP; also in <code>timelines/data/bom.csv</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>Part</th>
+<th>Value</th>
+<th>Manufacturer</th>
+<th>Mfr part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SA14-305</td>
+<td>Motherboard Assembly</td>
+<td>WBS</td>
+<td>SA14-305</td>
+<td></td>
+</tr>
+<tr>
+<td>SA14-304</td>
+<td>LCD, Encoder Assembly</td>
+<td>"</td>
+<td>SA14-304</td>
+<td></td>
+</tr>
+<tr>
+<td>SA14-307</td>
+<td>Meter Light Bar Assembly</td>
+<td>"</td>
+<td>SA14-307</td>
+<td></td>
+</tr>
+<tr>
+<td>SA14-311</td>
+<td>Speaker Amplifier Assembly</td>
+<td>"</td>
+<td>SA14-311</td>
+<td></td>
+</tr>
+<tr>
+<td>F1, F2</td>
+<td>Fuse, 0.5 Amp S.B.</td>
+<td>Buss</td>
+<td>MDL.500</td>
+<td></td>
+</tr>
+<tr>
+<td>TS1</td>
+<td>Terminal Block</td>
+<td>Cinch</td>
+<td>12-140</td>
+<td></td>
+</tr>
+<tr>
+<td>P1</td>
+<td>Connector, 24P, D-Ribbon</td>
+<td>3M</td>
+<td>3548-1001</td>
+<td></td>
+</tr>
+<tr>
+<td>J4</td>
+<td>Connector, 24P, D-Ribbon</td>
+<td>3M</td>
+<td>3549-1000</td>
+<td></td>
+</tr>
+<tr>
+<td>F1</td>
+<td>Fuse Holder</td>
+<td>Buss</td>
+<td>HKP</td>
+<td></td>
+</tr>
+<tr>
+<td>F2</td>
+<td>Fuse Holder</td>
+<td>Littelfuse</td>
+<td>357-001</td>
+<td></td>
+</tr>
+<tr>
+<td>SW1</td>
+<td>Cap,</td>
+<td>Black 15mm</td>
+<td>"</td>
+<td>C150-Black</td>
+</tr>
+<tr>
+<td>R15</td>
+<td>Cap,</td>
+<td>Black 10mm</td>
+<td>"</td>
+<td>040-1615</td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (3)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20WBS%20-%20Ad%20-%20new%20from%20WBS%20-%201997.jpg">1990 - M405P - WBS - Ad - new from WBS - 1997.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/BUDDIES/ABS1/2015%20-%20ABS1%20-%20Manual%20%282%29.docx">2015 - ABS1 - Manual (2).docx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/BUDDIES/ABS1/2015%20-%20ABS1%20-%20Manual.docx">2015 - ABS1 - Manual.docx</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="../../../PAGES/Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>General description (3)</h3>
+<details><summary>Description — 326 words · 1996 - M445 - 8.jpg, page 1</summary><p>M445 EXTENDEDRANGE METERMONITOR Refer_to Front Panel drawing B 445-04-002 1) Left ChanneL_VU Meter 5) Termination Switch Meter which indicates the volume units (in dBu) of the input audio Signal. A sinusoidal waveform will indicate &#x27;0&#x27; On  this meter when it&#x27;s amplitude matches the sensitivity indicated on the   liquid   crystal display. Under   normal  operating  conditions; this meter indicates the Signal level of the left channel.</p><p>When released, the termination switch allows the meter to present &amp; bridging load to the audio source. Once depressed, the impedance selected by the Impedance Selector (Z), is connected across the audio input terminals. Lmpedance_Selector When &#x27;sum and difference mode is selected by mode switch (3) , this meter will display the algebraic sum of the left and right channel audio signal.</p><p>This switch terminates the input source with 600 ohms (relaxed) O 150 ohms (engaged): provided the termination Switch has been actuated_ 2) Right Channel VU Meter Monitor Receptacle Operates as (1), except in normal operation right channel audio is displayed  In &quot;sum ind differegce&quot; beodec thiseneft indcaghE channel audio. The difference indication is useful for verifying stereo phase coherence. A 1/4&quot; standard TRS (tip-ring-sleeve) stereo receptacle for monitoring the metered audio sunabandividk povidrs olipht ?uGbod quality, high impedance (600 ohms) headphones will provide optimum audio fidelity.</p><p>3) Mode_Switch 8) Left and Right Front Panel Inputs When depressed, places the M445 in &#x27;sum and  difference mode; otherwise  discrete Telephone style, balanced, long frame 1/4&quot; left and right signal levels are displayed on jacks, which have the rear chassis input their associated meters &#x27;normalled&quot; through   When plug (ADC PJ-2 Or   equivalent) is  inserted, the rear HP Filter Swtch chassis input audio is interrupted, allowing any audio present at the front panel to be Normally, the M445 measures the audio measured andlor monitored.</p><p>signal across the full audible band_ When aSSigned, the   high pass   filter attenuates frequencies below it&#x27;s 75 Hz corner at &amp; rate 9) Power_Switch of -18 dB per octave 3-1</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%208.jpg">1996 - M445 - 8.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Description — 211 words · 1996 - M445 - 9.jpg, page 1</summary><p>MAAS EXTENDEDRANGEMETERMMONITOR 12) Security Latch 9) Power_Switch When engaged, this latch prevents the M445 from being extracted Powers the meter&#x27;s active circuitry, exclusive of the battery management system. When docked; engaging the power switch also activates the meter illumination and the power amplifier which drives the speakers_ 13)  Speaker_Level Control This rotary control adjusts the level of the audio in the monitor speakers.</p><p>10) Liquid Crystal Sensitivity Display 14) Right Channel Speaker Controlled by (11), this display indicates the audio reference level in dBu: When &quot;lo batt&quot; is displayed in the display, the batteries require   charging;  which is accomplished whenever the meter is &quot;docked&quot; . Should the batteries deplete to a point where accurate measurements are no longer possible, the audio reference display will blank: However; the &quot;lo batt&quot; will still be visible_ In &quot;normal&quot; mode, right channel audio may be monitored via this speaker: In &quot;sum and difference&quot; mode, the difference signal will be present through this speaker: 15) Left Channel Speaker Discrete left channel audio is monitored in this speaker in &quot;normal&quot; mode, while in &quot;sum and difference&quot; , this speaker contains the sum (L+R) signal.</p><p>11) Sensitivity Adiustment Control rotary encoder which sets the reference level for a &#x27;0&#x27; indication on the meters of the M445 . 3-2</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%209.jpg">1996 - M445 - 9.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Description — 111 words · 1996 - M445 - 10.jpg, page 1</summary><p>M445 EXTENDEDRANGE METERMONITOR Rack Mounted Dock Refer to Rear Panel drawing B445-04-003 16) Power_Input Connector 18) Rear Chassis Connector This connector mates   with the ring-lock cable plug from the external power supply. Twenty-four volts (+24V) DC at 500 mA is required by the M445. Audio inputs (&quot;normalled&quot; through the font panel jacks), and audio monitor outputs may be connected to external equipment on this barrier strip 17) Power Fuse 19) Rear Chassis_Security Screw 1/2 amp, slow-blow fuse to protect the entire M44S from a fault condition: captive screw which; when   engaged, prevents the meter from being withdrawn from the rack mount frame regardless of the position ofthe front panel lock 3-3</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%2010.jpg">1996 - M445 - 10.jpg</a>, p. 1</li>
+</ul>
+<h3>Circuit description (4)</h3>
+<details><summary>Circuit Description — 440 words · 1996 - M445 - 18.jpg, page 1</summary><p>SA14305 MOTHERBOARDASSEMBLY Refer to drawing B 14-305-02-001/2 Control System PowerManagement U13, fast   charge   controller: The charge controller maintains a time and voltage charge to the batteries whenever it is furnished with +24 volts at P8. Control of the M445 is managed by U12,a one- time programmable (OTP) microcontroller: When power is initially applied, a reset pulse is provided to U12 by R138 and C60.</p><p>The oscillator consisting of Xl, R139, C63 and C64; along with circuitry within Ul2 begins to free run: The reset pulse transitions to +5 volts; at which time the software programmed within U1l2 begins to execute_ Battery   voltage is monitored  by window detector realized by U16 and associated components. The output of UI6A sends a low battery indication to Ul2, which displays the &quot;lo bat&quot; signal in the LCD display.</p><p>When the voltage decreases to point where the M445 can no longer   function  accurately, Ul6B generates signal This allows U12 to disable the meter&#x27;s audio path, and displays the recharge necessary indication; a5 detailed in the operations section: The status of LK2 and LK3 is read_ Based on the result (see the operational description); the initial level is sent to the LCD display through P7; and to the audio chain&#x27;s Ul1, U2 through U4, and U6 through U8.</p><p>Integrated circuit Ull receives mute signal which calibrates it internally. Relays Kl and K2 are also triggered to place them in the correct state for the chosen initial reference. The audio circuitry within the meter requires bipolar power. To generate negative voltage from the batteries; a small inverting switching power supply is utilized  This consists of U14, U15,Q13,and associated components_ quadrature signal, received from the rotary encoder on SA14-304; is read and interpreted by the microcontroller.</p><p>By rotating the encoder clockwise; the reference level is increased. Counter-clockwise rotation reduces the reference level: When the M445 is powered from +24 volts DC, integrated   circuit regulator Ul8 generates +5 volts DC to power the meter as though it was running off of batteries. Note; Connector P10 and LKI are for factory use onlv: These connectors are used to test the meter&#x27;s function when first manufactured_ Improper use may result in loss of M445 function_ WBS recommends the use of the supplied NiCd batteries at all times.</p><p>If it becomes necessary to utilize batteries which are not those supplied; you must remove LK4. Removing LK4 will disable the charging circuit: Any damage caused to the M445 through failure tO observe this recommendation is not covered under warranty_ The SA14-305 is powered by &#x27;AA NiCd batteries, connected in series through P9 pins 4 and 5. The batteries are always connected to 1-1</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%2018.jpg">1996 - M445 - 18.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Circuit Description — 389 words · 1996 - M445 - 19.jpg, page 1</summary><p>SAL4-305 MQTHERBOARDASSEMBLY Refer to drawing B 14-305-02-001/2 Audio Circuitry Audio which is amplified (Or attenuated) by these first three stages is switched into US section A and B, where it is unbalanced and either attenuated by 10 dB, Or transmitted with no net gain into the high pass filter switch and the filter itself: The high pass  filter is a  third order butterworth filter with -3dB point at 7SHz.</p><p>Switch SW4 determines which signal, broadband or filtered enters Ull. Both the left and right   channels   function similarly. This discussion will pertain to the left channel Differences with the right channel will be noted as necessary. The M445, owing to its large input sensitivity range, uses three different input amplifiers to spread across the full sensitivity range. The CS3310 (U11) is a Stereo Digital Volume Control: Internally; Ull contains two ladders which are digitally controlled by a 16 bit control word.</p><p>The control word is fed serially from the microprocessor to pin of Ul1. All   level transitions are internally timed to occur at audio Zero crossings, eliminating the &quot;zipper&quot; effect. The gain structure of the M445 is set up so that a nominal -15 dBu level at the output of U11 will generate a 0 VU signal on the front panel meter: The first amplifier; comprised of UL sections A and B, is an instrumentation amplifier input stage with gain of +25 dB.</p><p>Magnetically latched relay Kl controls audio flow into this amplifier; while U2 controls the output signal into US section A and B. This amplifier stage is active for front panel sensitivity settings of -60 dB to 335 dB. The second   amplifier consists of U3 and associated components. This is essentially unity gain stage, which also has it&#x27;s input assigned by Kl.</p><p>Analog multiplexer U3 simply switches the signal into US or not for front panel sensitivities from -34 dB to 0 dB. The output of Ull is switched through SWS, which controls the mixing of L+R and L-R signals; if selected. The audio signal is then amplified by U9C (+13 dB) Amplifier UlOB generates balanced audio   signal which  is coupled to the meter; rear panel outputs and the front panel headphone jack through a series of buildout resistors.</p><p>A loss stage; consisting of U4 and it&#x27;s input pad, manages input sensitivities from +] to +30 dB. 1-2</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%2019.jpg">1996 - M445 - 19.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Circuit Description — 158 words · 1996 - M445 - 22.jpg, page 1</summary><p>SA14-304LCDENCODERBOARD The SAl4-304 provides physical mounting for the rotary encoder; and the front panel LCD display. To minimize interconnections between the microcontroller on the main circuit board and the LCD; &amp; serial interconnect scheme has been implemented. A serial code generated by the microcontroller is received at Pl on 2 This code containing the sensitivity data, is decoded by Ul, a liquid crystal display driver: The MM5453 stores the received data, and latches it to the LCD display until new data is clocked in.</p><p>Resistor Rl and capacitor Cl provide timing for a free running oscillator which drives the LCD backplane. Rotary encoder  PUI, generates quadrature signal when rotated. When rotated in &amp; clockwise direction; the output of pin 1 will lead pin 2 by 45 degrees: Pin 2 leads pin 1 when PUI is rotated anti-clockwise. This   signal is passed tO the microcontroller where it is decoded to &amp; sensitiv- ity adjustment signal for the meter: 1-1</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%2022.jpg">1996 - M445 - 22.jpg</a>, p. 1</li>
+<li>also in: <a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%2026.jpg">1996 - M445 - 26.jpg</a>, p. 1</li>
+</ul>
+<h3>Installation (1)</h3>
+<details><summary>Installation — 433 words · 1996 - M445 - 14-304-02-001 - SCHEMATIC.wp, page 1</summary><p>M445 EXTENDED RANGE METER/MONITOR</p><p>Initial Inspection</p><p>The M445 carton should contain:</p><p>1 - This User&#x27;s Manual 1 - ac adapter complete with connector. 1- M445 meter 1- Rackmount speaker assembly</p><p>Installation</p><p>The ac adapter, meter, and rack mount assembly should all be separated for installation.</p><p>1)   Place the rackmount assembly in your equipment rack. Finger tighten the four screws.</p><p>2)   Carefully dock the M445 in the rack assembly. It may be necessary to adjust the rack frame slightly so that the meter will insert and extract easily. Tighten the four rack screws while the meter is docked.</p><p>3)  At the rear of your rack, insert and lock the power connector. Connect your audio source and power amplifier (if needed) to the barrier strip and plug the unit in.</p><p>4)    The meter will operate when the power switch is engaged on the front panel.</p><p>Note: Before using the meter in portable mode, it should be left docked overnight to ensure that the batteries are fully exercised and charged.</p><p>Configuration Selection</p><p>The M445 is factory configured to return to +4 dBu reference sensitivity when initialized. Should your prefer 0 dBu or +8 dBu as the reference sensitivity, you can configure the M445 to reset to this state by changing two internal shorting clips.</p><p>Simply remove the top cover of the meter. To set a 0 dBu initial reference, remove the shorting clip across LK3, ensuring that the LK2 clip remains in place. For configuration to +8 dBu reference level, leave LK3 in place and remove LK2.</p><p>It is a good idea to save any shorting clips that you remove for possible future use. SA14-305   Motherboard Assembly        WBS SA14-305</p><p>SA14-304 LCD, Encoder Assembly       &quot;  SA14-304</p><p>SA14-307 Meter Light Bar Assembly        &quot;  SA14-307</p><p>SA14-311 Speaker Amplifier Assembly      &quot;  SA14-311</p><p>F1, F2   Fuse, 0.5 Amp S.B.      Buss    MDL.500</p><p>JACK 1    Headset Jack, Long Bushing  Switchcraft NL-114B</p><p>JACK 2    Jack, 3 Conductor, Single Long Frame    ADC PJ339</p><p>JACK 3  Jack, 3 Conductor, Single Long Frame    ADC PJ339</p><p>METER 1 VU Meter &quot;A&quot; Wilbac       Bach Simpson    1823</p><p>METER 2  VU Meter &quot;A&quot; Wilbac       Bach Simpson    1823</p><p>TS1  Terminal Block      Cinch   12-140</p><p>RECEPTACLE Chassis Receptacle      Preh    71206-021</p><p>SPEAKER 1   Speaker with Shielded Ferrite Magnet    Misco   SD22S</p><p>SPEAKER 2   Speaker with Shielded Ferrite Magnet        &quot;  SD22S</p><p>P1  Connector, 24P, D-Ribbon    3M  3548-1001</p><p>J4  Connector, 24P, D-Ribbon    3M  3549-1000</p><p>305J1,305J2 Connector, 6S Female Socket Panduit CE100F26-6 305J7,304J1, 311J1,311J2</p><p>305J9 Connector, 6S Female Socket Panduit CE100F22-6</p><p>305J3,305J5    Connector, 3S Female Socket Panduit CE100F26-3 305J6</p><p>305J4,311J3  Connector, 3S Female Socket Panduit CE100F22-3</p><p>305J8  Connector, 26S Ribbon Interface 3M  3399-6600</p><p>BATTERY Battery AA, Rechargeable    Panasonic   P-60AA</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%2014-304-02-001%20-%20SCHEMATIC.wp">1996 - M445 - 14-304-02-001 - SCHEMATIC.wp</a>, p. 1</li>
+</ul>
+<h3>Warranty (1)</h3>
+<details><summary>Warranty — 321 words · 1996 - M445 - 4.jpg, page 1</summary><p>AII Ward-Beck Systems Ltd., products are warranted against defective materials and workmanship for 2 period of one year from the date of shipment . Ward-Beck Systems Ltd , will repair or replace at its option and without charge, all said products or parts thereof which upon factory inspection prove to be defective during the warranty period, provided that: the original serial numbers are intact and have not been tampered with , 2) the purchaser shall return any equipment or parts thereof to Ward-Beck Systems Ltd , only after obtaining prior authorization and shipping instructions from the factory (Ward-Beck Systems Ltd.</p><p>reserves the right to inspect or repair equipment on the purchaser&#x27;s premises) , and 3) the purchaser assumes the obligation for all expenses incurred in connection with the shipping and return of such goods one authorization has been obtained. This warranty does not cover items normally considered expendable, such as fuses and lamps_ This warranty does not cover damages caused by misuse, accident; neglect; unauthorized alteration, repair by unauthorized personnel, or damage caused by an act of God; war or civil insurrection.</p><p>In no event shall Ward-Beck Systems Ltd , be liable for consequential damages. Ward-Beck Systems Ltd., shall have the rights to final determination as to the application of this warranty. Ward-Beck Systems Ltd,, reserves the right; at any time and without notice, to make changes in its equipment, components, specifications, or designs, as may be warranted by progress in state-of-the-art or technology Ward-Beck Systems Ltd , reserves the right to make design changes_ additions to, and improvements in its products, without obligation to install such revisions in products previously manufactured.</p><p>The warranty set forth herein is in lieu of all other warranties expressed or implied, including the warranties of merchantability and fitness_ WARD-BECK SYSTEMS LTD: 455 Milner Avenue, Unit1O, Toronto, Ontario, Canada MIB 2K4 Tel: (416) 335-5999,Fax: (416) 335-5202, Toll Free; 1-800-771-2556 Web site: www.wbsltd .com, E-mail: [e-mail removed]</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/METER/M445/1996%20-%20M445%20-%204.jpg">1996 - M445 - 4.jpg</a>, p. 1</li>
+</ul>
+<h2>Drawings (13)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Drawn by</a></th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>B 445-03-010</td>
+<td>FRONT LOCK / LATCH &amp; BLOCK</td>
+<td><a href="../../../PAGES/Year-1995.html">1995|28</a></td>
+<td><a href="../../../PAGES/Person-DRG.html">DRG</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1995%20-%20445-03-010%20-%20FRONT%20LOCK%20LATCH%20%26%20BLOCK%20-%20DRN%20DRG%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 445-03-016</td>
+<td>M445 / EXTENDED RANGE METER / SPEAKER SCREEN</td>
+<td><a href="../../../PAGES/Year-1995.html">1995|28</a></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/1995%20-%20445-03-016%20-%20EXTENDED%20RANGE%20METER%20SPEAKER%20SCREEN%20-%20DRN%20DRG%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>445-03-007</td>
+<td>Nqtes Remove All Burrs And Sharp Edges</td>
+<td></td>
+<td><a href="../../../PAGES/Person-WS.html">WS</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/19xx%20-%20M445%20-%20DOC%20-%20445-03-007%20-%20NQTES%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES.jpg">file</a></td>
+</tr>
+<tr>
+<td>445-03-016</td>
+<td>Paint Extra Fine Textured Black Texcote</td>
+<td></td>
+<td><a href="../../../PAGES/Person-DRG.html">DRG</a></td>
+<td></td>
+<td>B</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/19xx%20-%20M445%20-%20DOC%20-%20445-03-016%20-%20PAINT%20EXTRA%20FINE%20TEXTURED%20BLACK%20TEXCOTE.jpg">file</a></td>
+</tr>
+<tr>
+<td>445-03-026</td>
+<td>Remove All Burrs And Sharp Edges Tolerances</td>
+<td></td>
+<td><a href="../../../PAGES/Person-WS.html">WS</a></td>
+<td></td>
+<td>B</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/19xx%20-%20M445%20-%20DOC%20-%20445-03-026%20-%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOLERANCES.jpg">file</a></td>
+</tr>
+<tr>
+<td>445-03-028</td>
+<td>Nqtes Remove All Burrs And Sharp Edges Tolerances</td>
+<td></td>
+<td><a href="../../../PAGES/Person-WS.html">WS</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/19xx%20-%20M445%20-%20DOC%20-%20445-03-028%20-%20NQTES%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOLERANCES.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 445-01-001</td>
+<td>M445 EXTENDED RANGE METER/MONITOR / FUNCTIONAL</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/19xx%20-%20445-01-001%20-%20EXTENDED%20RANGE%20METER%20MONITOR%20FUNCTIONAL%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 445-02-001</td>
+<td>M445 RACK MOUNT FRAME / SCHEMATIC</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/19xx%20-%20445-02-001%20-%20RACK%20MOUNT%20FRAME%20SCHEMATIC%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 445-02-002</td>
+<td>M445 EXTENDED RANGE METER / SCHEMATIC</td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/19xx%20-%20445-02-002%20-%20EXTENDED%20RANGE%20METER%20SCHEMATIC%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 445-03-011</td>
+<td>M445A / EXTENDED RANGE METER / BATTERY HOLDER &amp; CLIP</td>
+<td></td>
+<td><a href="../../../PAGES/Person-WS.html">WS</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/19xx%20-%20445-03-011%20-%20M445A%20EXTENDED%20RANGE%20METER%20BATTERY%20HOLDER%20%26%20CLIP%20-%20DRN%20WS%20-%20ENG%20WS%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 445-04-001</td>
+<td>M445 EXTENDED RANGE METER/MONITOR / OUTLINE</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/19xx%20-%20445-04-001%20-%20EXTENDED%20RANGE%20METER%20MONITOR%20OUTLINE%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 445-04-002</td>
+<td>M445 EXTENDED RANGE METER/MONITOR / FRONT PANEL LAYOUT</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/19xx%20-%20445-04-002%20-%20EXTENDED%20RANGE%20METER%20MONITOR%20FRONT%20PANEL%20LAYOUT%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 445-04-003</td>
+<td>M445 EXTENDED RANGE METER/MONITOR / REAR PANEL LAYOUT</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M445/19xx%20-%20445-04-003%20-%20EXTENDED%20RANGE%20METER%20MONITOR%20REAR%20PANEL%20LAYOUT%20-%20ISS%201.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M445&quot;,
+ &quot;name&quot;: &quot;Extended Range Meter&quot;,
+ &quot;category&quot;: &quot;METER&quot;,
+ &quot;year&quot;: 1996,
+ &quot;made_of&quot;: [
+  &quot;SA14-304&quot;,
+  &quot;SA14-305&quot;,
+  &quot;SA14-307&quot;,
+  &quot;SA14-311&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1995 - 445-03-010 - FRONT LOCK LATCH &amp; BLOCK - DRN DRG - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1995 - 445-03-016 - EXTENDED RANGE METER SPEAKER SCREEN - DRN DRG - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1995 - M445 - DOC - CONTROL SYSTEM - POWER MANAGEMENT - PARTS LIST (14-305#2).wp&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1995 - M445 - DOC - CONTROL SYSTEM - POWER MANAGEMENT - PARTS LIST (14-305A).wp&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1995 - M445 - DOC - CONTROL SYSTEM - POWER MANAGEMENT - PARTS LIST (SA14-305).wp&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - $_57-1.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - $_57-2.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - $_57-3.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - $_57-4.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - $_57-5.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - $_57-6.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - $_57-7.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - $_57.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - 1.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - 10.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - 11.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - 14-304-02-001 - SCHEMATIC.wp&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - 18.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - 19.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - 2.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - 22.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - 24.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - 26.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - 3.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - 4.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - 5.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - 6.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - 7.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - 8.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - 9.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - Archived - M445 - EXTENDED RANGE METER - MONITOR 001.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - Archived - M445 - EXTENDED RANGE METER - MONITOR 002.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - Archived - M445 - EXTENDED RANGE METER - MONITOR 003.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - B 14-304-02-001 - SA14-304 LCD-ENCODER BOARD - SCHEMATIC.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - B 14-305-02-001-1 - SA14-305 STEREO EXTENDED RANGE METER - SCHEMATIC.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - B 14-305-02-001-2 - SA14-305 STEREO EXTENDED RANGE METER - SCHEMATIC.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - B 14-307-02-001 - SA14-307 EXTENDED RANGE METER LIGHT BAR - SCHEMATIC.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - B 14-311-02-001 - SA14-311 SPEAKER DRIVER - SCHEMATIC.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - B 14-311-06-001 - SA14-311 SPEAKER DRIVER - COMPONENT LAYOUT.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - B 445-01-001 - M445 EXTENDED RANGE METER-MONITOR - FUNCTIONAL.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - B 445-02-001 - M445 RACK MOUNT FRAME - SCHEMATIC.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - B 445-02-002 - M445 EXTENDED RANGE METER - SCHEMATIC.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - B 445-04-001 - M445 EXTENDED RANGE METER-MONITOR - OUTLINE.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - B 445-04-002 - M445 EXTENDED RANGE METER-MONITOR - FRONT PANEL LAYOUT.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - B 445-04-003 - M445 EXTENDED RANGE METER-MONITOR - REAR PANEL LAYOUT.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - BACK (2).jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - BACK.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - EXTENDED RANGE METER - MONITOR 001.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - EXTENDED RANGE METER - MONITOR 002.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - EXTENDED RANGE METER - MONITOR 003.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - FRONT (2).jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - FRONT (3).jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - FRONT.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - VU meter 163.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - VU meter 164.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - VU meter 165.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - VU meter 166.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - VU meter 167.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - VU meter 168.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - VU meter 169.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - VU meter 170.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - VU meter 171.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - VU meter 172.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - VU meter 173.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - VU meter 174.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - VU meter 175.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - VU meter 176.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - VU meter 177.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - VU meter 178.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - VU meter 179.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - VU meter 180.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - VU meter 181.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - VU meter 182.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - VU meter 183.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - VU meter 184.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - VU meter 185.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - VU meter 186.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - VU meter 187.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - VU meter 188.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - VU meter 189.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - VU meter 190.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - VU meter 191.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - VU meter 192.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - VU meter 193.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - wbs-445-meter-fb.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/1996 - M445 - wbs-445-meter-ff.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/19xx - 445-03-011 - M445A EXTENDED RANGE METER BATTERY HOLDER &amp; CLIP - DRN WS - ENG WS - ISS 2.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/19xx - M445 - DOC - 445-03-007 - NQTES REMOVE ALL BURRS AND SHARP EDGES.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/19xx - M445 - DOC - 445-03-016 - PAINT EXTRA FINE TEXTURED BLACK TEXCOTE.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/19xx - M445 - DOC - 445-03-026 - REMOVE ALL BURRS AND SHARP EDGES TOLERANCES.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M445/19xx - M445 - DOC - 445-03-028 - NQTES REMOVE ALL BURRS AND SHARP EDGES TOLERANCES.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../../../_catalog/wbs_reels.js" defer></script><script src="../../../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../../../_catalog/libcontrol/libcontrol.css"><script src="../../../_catalog/libcontrol/react.js"></script><script src="../../../_catalog/libcontrol/react-dom.js"></script><script src="../../../_catalog/libcontrol/libcontrol.js"></script><script src="../../../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M445.md</small></div></article><script src="../../../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

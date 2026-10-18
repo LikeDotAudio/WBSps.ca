@@ -1,0 +1,60 @@
+{
+ "code": "microCOM",
+ "series": null,
+ "type": "microCOM",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "I1",
+   "signal": "Input/Output Control",
+   "dir": "in",
+   "pos": "I1P",
+   "neg": "I1N",
+   "src_page": 30
+  },
+  {
+   "port": "I2",
+   "signal": "Dial In Diraxb Sela Gfx Engctl",
+   "dir": "in",
+   "pos": "I2P",
+   "neg": "I2N",
+   "src_page": 51
+  },
+  {
+   "port": "O1",
+   "signal": "Output",
+   "dir": "out",
+   "pos": "O1P",
+   "neg": "O1N",
+   "src_page": 26
+  }
+ ],
+ "power": [
+  {
+   "rail": "-12V",
+   "volts": -12.0,
+   "supply": "-12V",
+   "ground": "GND",
+   "max_a": null
+  }
+ ],
+ "logic": [
+  {
+   "signal": "'Calling Tally Data",
+   "pin": ""
+  },
+  {
+   "signal": "Inputioutput Control Logic",
+   "pin": ""
+  }
+ ],
+ "ground": [],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "65a4e1d40e57fc0dd55092c87d8f5581107c9f960b008243ec9a4ba0a7b58b25"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."
+}

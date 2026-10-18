@@ -1,0 +1,219 @@
+# 1973 - M441M - schematic1_assembled.gif
+Wiki page: [M441M](../../../PAGES/M441M.md)
+
+
+- **Year:** 1973 (module estimate (labelled))
+- **Module:** M441M
+- **Category:** INPUT-PRE-AMPS
+- **Module year estimate:** 1973 — labelled "DATE APR 73" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M441M - Microphone preamp #Master/M441M - Channel Amplifier.pdf
+- **Original file:** `WBSps.env/wbsps - website ARCHIVE/WBSPS 2008/RAW SCANS/Done/Done - M441M - Microphone Pre-Amp/m441m-schematic1_assembled.gif`
+- **SHA-256:** `f772e8408c38d8237377b808d5e15aaf2ad3caff8af7d3adb9bc9f1627bbd4a7`
+- **Size:** 469,617 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 2 words corrected)
+
+```text
+FCLDRACX LEvEL
+SENsitivity switch
+Sw
+To PC 182 PIN 15 Pc 181
+FOLDBACK
+044 R232 6-c/10
+Rzos Rzos
+PIN I0
+R2o7
+Sw5 PHASE Switch
+2k5 R238
+R23o
+FOLDBACK OUT
+PC 1B1
+BOOSTER AMP OUTPUT
+to Ri PC 181
+Cas R23s 6 8/10 TCk
+To PIN
+LINE INPUT
+Rzoz-
+SwiA
+2k5
+R23i
+To PC132 ~PIN $ PC 1b1 TiN ? Contr )L
+To Rz PC 181
+R2o+
+60-9 BN RD
+To R3 Pc 181 PRE-AMP INPUT To R4 Pc '81
+Sw CHON
+Rzo 680
+R2i3 270
+To PIN 16
+32c8 R2os
+R2i4
+REVERB SEND Swza C37 10/25
+p226
+Rzo3
+GN
+PCLI
+343 BXITC :
+Rzio 7.5
+R2zs 620
+SwitchEd OUTPUT
+Swzeo 4fF P227 32 A2zo OM PRE < IOK IOK Rzzi JOk R22b
+OR
+PC 181
+R2sj 4k7
+2k5
+5234
+To PIN
+Rzii
+Sw IB
+322
+R2is
+To PIN W
+PINA PC181
+Sw2c
+2k5
+R235
+PIN 20 (+24v)
+SwZD
+MIC INPUT
+R2iz 580
+C9C 10/25
+051
+R22s IOM
+To Pin PC 18i
+C47 c4e
+Pit PIN PIN
+c26 C27 C2s C29 Rev SENu REYSENU
+PiN
+PIN PIN D< CTLJ DC 181
+REV SEND PRE CUE SELECT
+Su5 Myte PC 181
+OFE
+PC 4bi NOTES: UNLESS OTHERWISE SPECIFIED ALL RESISTORS ARE TOLERANCE 15% VALUES IN OHMS ( n) CAPACITANCE INMICROFARADS (F) LAST COMPONENT DESIGNATIONS 4RE 4S FolLOwS 04s DSi 0239 Sw 5
+Sw IC
+C5 PC 18i
+ISS MOD_ CKD
+USTD ON
+WBS WAAD- BECK bybtem8 LTD
+PRE AMP SENsiTivity
+02o:
+R2is VIk
+R2i6 R2i7 R2is Ik2 I2k < 270
+DRN; DATE AFA CKD SCALE TOLS #
+" iiv CHANNEL AMPLIFIER SCHENAT'C B 441-02 017 ISS_
+INISH
+To Pc 13i
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+FCLDRACX LEvEL
+SENsitivity switch
+Sw
+To PC 182 PIN 15 Pc 181
+FOLDBACK
+044 R232 6-c/10
+Rzos Rzos
+PIN I0
+R2o7
+Sw5 PHASE Switch
+2k5 R238
+R23o
+FOLDBACK OUT
+PC 1B1
+BOOSTER AMP CUTPUT
+to Ri PC 181
+Cas R23s 6 8/10 TCk
+To PIN
+LINE INPUT
+Rzoz-
+SwiA
+2k5
+R23i
+To PC132 ~PIN $ PC 1b1 TiN ? Contr )L
+To Rz PC 181
+R2o+
+60-9 BN RD
+To R3 Pc 181 PRE-AMP INPUT To R4 Pc '81
+Sw CHON
+Rzo 680
+R2i3 270
+To PIN 16
+32c8 R2os
+R2i4
+REVERB SEND Swza C37 10/25
+p226
+Rzo3
+GN
+PCLI
+343 BXITC :
+Rzio 7.5
+R2zs 620
+SwitchEd OUTPUT
+Swzeo 4fF P227 32 A2zo OM PRE < IOK IOK Rzzi JOk R22b
+OR
+PC 181
+R2sj 4k7
+2k5
+5234
+To PIN
+Rzii
+Sw IB
+322
+R2is
+To PIN W
+PINA PC181
+Sw2c
+2k5
+R235
+PIN 20 (+24v)
+SwZD
+MIC INPUT
+R2iz 580
+C9C 10/25
+051
+R22s IOM
+To Pin PC 18i
+C47 c4e
+Pit PIN PIN
+c26 C27 C2s C29 Rev SENu REYSENU
+PiN
+PIN PIN D< CTLJ DC 181
+REV SEND PRE CUE SELECT
+Su5 Myte PC 181
+OFE
+PC 4bi NOTES: UNLESS OTHERWISE SPECIFIED ALL RESISTORS ARE TOLERANCE 15% VALUES IN OHMS ( n) CAPACITANCE INMICROFARADS (F) LAST COMPONENT DESIGNATIONS 4RE 4S FolLOwS 04s DSi 0239 Sw 5
+Sw IC
+C5 PC 18i
+ISS MOD_ CKD
+USTD ON
+WBS WAAD- BECK bybtem8 LTD
+PRE AMP SENsiTivity
+02o:
+R2is VIk
+R2i6 R2i7 R2is Ik2 I2k < 270
+DRN; DATE AFA CKD SCALE TOLS #
+" iiv CHANNEL ANPLIFIER SCHENAT'C B 441-02 017 ISS_
+INISH
+To Pc 13i
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Modules/INPUT-PRE-AMPS/M441M/1973 - M441M - schematic1_assembled.gif",
+ "sha256": "f772e8408c38d8237377b808d5e15aaf2ad3caff8af7d3adb9bc9f1627bbd4a7",
+ "kind": "module",
+ "models": [
+  "M441M"
+ ],
+ "year": 1973,
+ "pages": 1
+}
+```

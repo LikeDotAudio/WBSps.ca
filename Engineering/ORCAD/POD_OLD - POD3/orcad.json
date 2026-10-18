@@ -1,0 +1,1015 @@
+{
+ "name": "POD_OLD/POD3",
+ "folder": "POD_OLD - POD3",
+ "source": "WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - POD_OLD/POD3",
+ "title": "14-308",
+ "number": "14-308-02-001",
+ "date": "July  5, 1995",
+ "sheets": [
+  {
+   "title": "14-308",
+   "number": "",
+   "date": "July  5, 1995",
+   "company": [],
+   "parts": [
+    {
+     "ref": "CR29",
+     "value": "1N4740A",
+     "x": 1380,
+     "y": 660
+    },
+    {
+     "ref": "U16",
+     "value": "CD4053BCN",
+     "x": 1910,
+     "y": 70
+    },
+    {
+     "ref": "U15",
+     "value": "CD4053BCN",
+     "x": 1910,
+     "y": 840
+    },
+    {
+     "ref": "C3",
+     "value": "22P",
+     "x": 430,
+     "y": 1000
+    },
+    {
+     "ref": "C5",
+     "value": "22P",
+     "x": 590,
+     "y": 1250
+    },
+    {
+     "ref": "R21",
+     "value": "10K",
+     "x": 1030,
+     "y": 1690
+    }
+   ],
+   "labels": [
+    {
+     "text": "AC INPUT",
+     "x": 50,
+     "y": 1700
+    },
+    {
+     "text": "115/230V AC",
+     "x": 40,
+     "y": 1710
+    },
+    {
+     "text": "50/60 Hz",
+     "x": 50,
+     "y": 1720
+    },
+    {
+     "text": "JP1",
+     "x": 430,
+     "y": 1700
+    },
+    {
+     "text": "JP2",
+     "x": 370,
+     "y": 1680
+    },
+    {
+     "text": "JP3",
+     "x": 390,
+     "y": 1720
+    },
+    {
+     "text": "Y1",
+     "x": 470,
+     "y": 1646
+    },
+    {
+     "text": "Y4",
+     "x": 472,
+     "y": 1752
+    },
+    {
+     "text": "Y3",
+     "x": 472,
+     "y": 1685
+    },
+    {
+     "text": "Y2",
+     "x": 472,
+     "y": 1712
+    }
+   ],
+   "ports": [
+    {
+     "text": "CHASSIS",
+     "x": 180,
+     "y": 1520
+    },
+    {
+     "text": "CHASSIS",
+     "x": 180,
+     "y": 600
+    }
+   ],
+   "sheets": [],
+   "file": "POD3.SCH"
+  },
+  {
+   "title": "POD3-Podrida",
+   "number": "14-308-02-001",
+   "date": "September 26, 1995",
+   "company": [],
+   "parts": [
+    {
+     "ref": "R21",
+     "value": "10K",
+     "x": 1030,
+     "y": 190
+    }
+   ],
+   "labels": [
+    {
+     "text": "AC INPUT",
+     "x": 50,
+     "y": 200
+    },
+    {
+     "text": "115/230V AC",
+     "x": 40,
+     "y": 210
+    },
+    {
+     "text": "50/60 Hz",
+     "x": 50,
+     "y": 220
+    },
+    {
+     "text": "JP1",
+     "x": 430,
+     "y": 200
+    },
+    {
+     "text": "JP2",
+     "x": 370,
+     "y": 180
+    },
+    {
+     "text": "JP3",
+     "x": 390,
+     "y": 220
+    },
+    {
+     "text": "Y1",
+     "x": 470,
+     "y": 146
+    },
+    {
+     "text": "Y4",
+     "x": 472,
+     "y": 252
+    },
+    {
+     "text": "Y3",
+     "x": 472,
+     "y": 185
+    },
+    {
+     "text": "Y2",
+     "x": 472,
+     "y": 212
+    }
+   ],
+   "ports": [],
+   "sheets": [],
+   "file": "SM143081.SCH"
+  },
+  {
+   "title": "POD3-Podrida",
+   "number": "14-308-02-002",
+   "date": "September 26, 1995",
+   "company": [],
+   "parts": [],
+   "labels": [],
+   "ports": [
+    {
+     "text": "CHASSIS",
+     "x": 180,
+     "y": 600
+    },
+    {
+     "text": "A",
+     "x": 1300,
+     "y": 100
+    },
+    {
+     "text": "B",
+     "x": 1300,
+     "y": 440
+    },
+    {
+     "text": "C",
+     "x": 1300,
+     "y": 800
+    },
+    {
+     "text": "D",
+     "x": 810,
+     "y": 930
+    }
+   ],
+   "sheets": [],
+   "file": "SM143082.SCH"
+  },
+  {
+   "title": "POD3-Podrida",
+   "number": "14-308-02-003",
+   "date": "September 26, 1995",
+   "company": [],
+   "parts": [
+    {
+     "ref": "C3",
+     "value": "22P",
+     "x": 430,
+     "y": 210
+    },
+    {
+     "ref": "C5",
+     "value": "22P",
+     "x": 590,
+     "y": 460
+    }
+   ],
+   "labels": [],
+   "ports": [
+    {
+     "text": "CHASSIS",
+     "x": 180,
+     "y": 730
+    },
+    {
+     "text": "C",
+     "x": 160,
+     "y": 60
+    },
+    {
+     "text": "D",
+     "x": 160,
+     "y": 130
+    },
+    {
+     "text": "E",
+     "x": 1300,
+     "y": 110
+    },
+    {
+     "text": "F",
+     "x": 1300,
+     "y": 450
+    }
+   ],
+   "sheets": [],
+   "file": "SM143083.SCH"
+  },
+  {
+   "title": "POD3-Podrida",
+   "number": "14-308-02-004",
+   "date": "September 26, 1995",
+   "company": [],
+   "parts": [
+    {
+     "ref": "U16",
+     "value": "CD4053BCN",
+     "x": 590,
+     "y": 70
+    },
+    {
+     "ref": "CR29",
+     "value": "1N4740A",
+     "x": 170,
+     "y": 660
+    }
+   ],
+   "labels": [],
+   "ports": [
+    {
+     "text": "A",
+     "x": 20,
+     "y": 110
+    },
+    {
+     "text": "B",
+     "x": 20,
+     "y": 210
+    },
+    {
+     "text": "G",
+     "x": 20,
+     "y": 750
+    },
+    {
+     "text": "H",
+     "x": 20,
+     "y": 770
+    }
+   ],
+   "sheets": [],
+   "file": "SM143084.SCH"
+  },
+  {
+   "title": "POD3-Podrida",
+   "number": "14-308-02-005",
+   "date": "September 26, 1995",
+   "company": [],
+   "parts": [
+    {
+     "ref": "U15",
+     "value": "CD4053BCN",
+     "x": 530,
+     "y": 80
+    }
+   ],
+   "labels": [],
+   "ports": [
+    {
+     "text": "E",
+     "x": 20,
+     "y": 120
+    },
+    {
+     "text": "F",
+     "x": 20,
+     "y": 230
+    },
+    {
+     "text": "G",
+     "x": 20,
+     "y": 640
+    },
+    {
+     "text": "H",
+     "x": 1090,
+     "y": 210
+    }
+   ],
+   "sheets": [],
+   "file": "SM143085.SCH"
+  },
+  {
+   "title": "POD3-Podrida",
+   "number": "14-308-02-001",
+   "date": "December 13, 1995",
+   "company": [],
+   "parts": [
+    {
+     "ref": "R21",
+     "value": "10K",
+     "x": 1030,
+     "y": 190
+    }
+   ],
+   "labels": [
+    {
+     "text": "AC INPUT",
+     "x": 50,
+     "y": 200
+    },
+    {
+     "text": "115/230V AC",
+     "x": 40,
+     "y": 210
+    },
+    {
+     "text": "50/60 Hz",
+     "x": 50,
+     "y": 220
+    },
+    {
+     "text": "JP1",
+     "x": 430,
+     "y": 200
+    },
+    {
+     "text": "JP2",
+     "x": 370,
+     "y": 180
+    },
+    {
+     "text": "JP3",
+     "x": 390,
+     "y": 220
+    },
+    {
+     "text": "Y1",
+     "x": 470,
+     "y": 146
+    },
+    {
+     "text": "Y4",
+     "x": 472,
+     "y": 252
+    },
+    {
+     "text": "Y3",
+     "x": 472,
+     "y": 185
+    },
+    {
+     "text": "Y2",
+     "x": 472,
+     "y": 212
+    }
+   ],
+   "ports": [],
+   "sheets": [],
+   "file": "SM14308A.SCH"
+  },
+  {
+   "title": "POD3-Podrida",
+   "number": "14-308-02-002",
+   "date": "December 13, 1995",
+   "company": [],
+   "parts": [],
+   "labels": [],
+   "ports": [
+    {
+     "text": "CHASSIS",
+     "x": 180,
+     "y": 600
+    },
+    {
+     "text": "A",
+     "x": 1300,
+     "y": 100
+    },
+    {
+     "text": "B",
+     "x": 1300,
+     "y": 440
+    },
+    {
+     "text": "C",
+     "x": 1300,
+     "y": 800
+    },
+    {
+     "text": "D",
+     "x": 810,
+     "y": 930
+    }
+   ],
+   "sheets": [],
+   "file": "SM14308B.SCH"
+  },
+  {
+   "title": "POD3-Podrida",
+   "number": "14-308-02-003",
+   "date": "December 13, 1995",
+   "company": [],
+   "parts": [
+    {
+     "ref": "C3",
+     "value": "22P",
+     "x": 430,
+     "y": 210
+    },
+    {
+     "ref": "C5",
+     "value": "22P",
+     "x": 590,
+     "y": 460
+    }
+   ],
+   "labels": [],
+   "ports": [
+    {
+     "text": "CHASSIS",
+     "x": 180,
+     "y": 730
+    },
+    {
+     "text": "C",
+     "x": 160,
+     "y": 60
+    },
+    {
+     "text": "D",
+     "x": 160,
+     "y": 130
+    },
+    {
+     "text": "E",
+     "x": 1300,
+     "y": 110
+    },
+    {
+     "text": "F",
+     "x": 1300,
+     "y": 450
+    }
+   ],
+   "sheets": [],
+   "file": "SM14308C.SCH"
+  },
+  {
+   "title": "OLLA-PODRICA",
+   "number": "14-309-02-001",
+   "date": "September 26, 1995",
+   "company": [],
+   "parts": [],
+   "labels": [],
+   "ports": [],
+   "sheets": [],
+   "file": "SM14309.SCH"
+  }
+ ],
+ "netlists": [],
+ "boms": [
+  {
+   "file": "POD3.BOM",
+   "header": [
+    "                                              Revised:      June  2, 1995",
+    "POD3                                          Revision: 1",
+    "Bill Of Materials                 June    2, 1995     7:52:37     Page    1"
+   ],
+   "items": [
+    {
+     "item": 1,
+     "qty": 3,
+     "refs": "SW1",
+     "part": ","
+    },
+    {
+     "item": 2,
+     "qty": 20,
+     "refs": "CR1,CR2,CR3,CR4,CR5,CR6,CR7,CR8,CR9,CR10,CR11,CR12,CR15,CR16,CR17,CR18,CR21,CR22,CR23,CR24",
+     "part": "1N4148"
+    },
+    {
+     "item": 3,
+     "qty": 4,
+     "refs": "CR13,CR14,CR19,CR20",
+     "part": "1N4003"
+    },
+    {
+     "item": 4,
+     "qty": 1,
+     "refs": "CR25",
+     "part": "4x1N4003"
+    },
+    {
+     "item": 5,
+     "qty": 1,
+     "refs": "CR29",
+     "part": "1N4740A"
+    },
+    {
+     "item": 6,
+     "qty": 3,
+     "refs": "C1,C11,C18",
+     "part": "0.047"
+    },
+    {
+     "item": 7,
+     "qty": 6,
+     "refs": "C2,C4,C8,C19,C21,C25",
+     "part": "220/10"
+    },
+    {
+     "item": 8,
+     "qty": 4,
+     "refs": "C3,C5,C20,C22",
+     "part": "22P"
+    },
+    {
+     "item": 9,
+     "qty": 10,
+     "refs": "C6,C7,C9,C16,C17,C23,C24,C26,C31,C32",
+     "part": "0.1"
+    },
+    {
+     "item": 10,
+     "qty": 3,
+     "refs": "C10,C27,C28",
+     "part": "2.2"
+    },
+    {
+     "item": 11,
+     "qty": 2,
+     "refs": "C12,C13",
+     "part": "470/40V"
+    },
+    {
+     "item": 12,
+     "qty": 18,
+     "refs": "C14,C15,C29,C30,C35,C37,C39,C40,C41,C42,C43,C44,C45,C46,C49,C50,C51,C52",
+     "part": "0.1/100"
+    },
+    {
+     "item": 13,
+     "qty": 2,
+     "refs": "C33,C34",
+     "part": "1/35"
+    },
+    {
+     "item": 14,
+     "qty": 2,
+     "refs": "C36,C38",
+     "part": "0.47"
+    },
+    {
+     "item": 15,
+     "qty": 2,
+     "refs": "C48,C47",
+     "part": "3.3"
+    },
+    {
+     "item": 16,
+     "qty": 1,
+     "refs": "DS1",
+     "part": "551-0405"
+    },
+    {
+     "item": 17,
+     "qty": 2,
+     "refs": "DS27,DS2",
+     "part": "-40"
+    },
+    {
+     "item": 18,
+     "qty": 2,
+     "refs": "DS28,DS3",
+     "part": "-37"
+    },
+    {
+     "item": 19,
+     "qty": 2,
+     "refs": "DS29,DS4",
+     "part": "-34"
+    },
+    {
+     "item": 20,
+     "qty": 2,
+     "refs": "DS30,DS5",
+     "part": "-31"
+    },
+    {
+     "item": 21,
+     "qty": 2,
+     "refs": "DS31,DS6",
+     "part": "-28"
+    },
+    {
+     "item": 22,
+     "qty": 2,
+     "refs": "DS32,DS7",
+     "part": "-25"
+    },
+    {
+     "item": 23,
+     "qty": 2,
+     "refs": "DS33,DS8",
+     "part": "-22"
+    },
+    {
+     "item": 24,
+     "qty": 2,
+     "refs": "DS9,DS34",
+     "part": "-19"
+    },
+    {
+     "item": 25,
+     "qty": 2,
+     "refs": "DS35,DS10",
+     "part": "-16"
+    },
+    {
+     "item": 26,
+     "qty": 2,
+     "refs": "DS36,DS11",
+     "part": "-13"
+    },
+    {
+     "item": 27,
+     "qty": 2,
+     "refs": "DS37,DS12",
+     "part": "-10"
+    },
+    {
+     "item": 28,
+     "qty": 2,
+     "refs": "DS38,DS13",
+     "part": "-7"
+    },
+    {
+     "item": 29,
+     "qty": 2,
+     "refs": "DS39,DS14",
+     "part": "-5"
+    },
+    {
+     "item": 30,
+     "qty": 2,
+     "refs": "DS40,DS15",
+     "part": "-3"
+    },
+    {
+     "item": 31,
+     "qty": 2,
+     "refs": "DS41,DS16",
+     "part": "-1"
+    },
+    {
+     "item": 32,
+     "qty": 2,
+     "refs": "DS17,DS42",
+     "part": "0"
+    },
+    {
+     "item": 33,
+     "qty": 2,
+     "refs": "DS18,DS43",
+     "part": "+1"
+    },
+    {
+     "item": 34,
+     "qty": 2,
+     "refs": "DS19,DS44",
+     "part": "+2"
+    },
+    {
+     "item": 35,
+     "qty": 2,
+     "refs": "DS20,DS45",
+     "part": "+3"
+    },
+    {
+     "item": 36,
+     "qty": 2,
+     "refs": "DS21,DS46",
+     "part": "+6"
+    },
+    {
+     "item": 37,
+     "qty": 2,
+     "refs": "DS22,DS47",
+     "part": "+9"
+    },
+    {
+     "item": 38,
+     "qty": 2,
+     "refs": "DS23,DS48",
+     "part": "+12"
+    },
+    {
+     "item": 39,
+     "qty": 2,
+     "refs": "DS24,DS49",
+     "part": "+15"
+    },
+    {
+     "item": 40,
+     "qty": 2,
+     "refs": "DS25,DS50",
+     "part": "+18"
+    },
+    {
+     "item": 41,
+     "qty": 2,
+     "refs": "DS26,DS51",
+     "part": "+21"
+    },
+    {
+     "item": 42,
+     "qty": 1,
+     "refs": "F1",
+     "part": "0.5A SB"
+    },
+    {
+     "item": 43,
+     "qty": 2,
+     "refs": "F2,F3",
+     "part": "0.50A"
+    },
+    {
+     "item": 44,
+     "qty": 29,
+     "refs": "R1,R2,R8,R10,R24,R25,R26,R32,R34,R49,R50,R51,R52,R53,R54,R55,R56,R57,R65,R66,R90,R91,R92,R93,R94,R95,R96,R97,R98",
+     "part": "100K 1%"
+    },
+    {
+     "item": 45,
+     "qty": 2,
+     "refs": "R3,R27",
+     "part": "43K"
+    },
+    {
+     "item": 46,
+     "qty": 4,
+     "refs": "R4,R6,R28,R30",
+     "part": "20K 1%"
+    },
+    {
+     "item": 47,
+     "qty": 6,
+     "refs": "R5,R29,R58,R59,R60,R61",
+     "part": "150K 1%"
+    },
+    {
+     "item": 48,
+     "qty": 4,
+     "refs": "R7,R9,R31,R33",
+     "part": "16K2 1%"
+    },
+    {
+     "item": 49,
+     "qty": 2,
+     "refs": "R11,R35",
+     "part": "47K"
+    },
+    {
+     "item": 50,
+     "qty": 2,
+     "refs": "R12,R40",
+     "part": "30K"
+    },
+    {
+     "item": 51,
+     "qty": 6,
+     "refs": "R13,R14,R15,R36,R37,R38",
+     "part": "3K"
+    },
+    {
+     "item": 52,
+     "qty": 2,
+     "refs": "R16,R39",
+     "part": "28K5 1%"
+    },
+    {
+     "item": 53,
+     "qty": 4,
+     "refs": "R17,R18,R19,R20",
+     "part": "100K"
+    },
+    {
+     "item": 54,
+     "qty": 6,
+     "refs": "R21,R43,R46,R47,R62,R63",
+     "part": "10K"
+    },
+    {
+     "item": 55,
+     "qty": 4,
+     "refs": "R22,R23,R44,R45",
+     "part": "20K"
+    },
+    {
+     "item": 56,
+     "qty": 2,
+     "refs": "R69,R41",
+     "part": "5K1"
+    },
+    {
+     "item": 57,
+     "qty": 5,
+     "refs": "R42,R76,R77,R80,R81",
+     "part": "1K"
+    },
+    {
+     "item": 58,
+     "qty": 2,
+     "refs": "R48,R67",
+     "part": "510"
+    },
+    {
+     "item": 59,
+     "qty": 2,
+     "refs": "R64,R68",
+     "part": "1K62 1%"
+    },
+    {
+     "item": 60,
+     "qty": 2,
+     "refs": "R70,R75",
+     "part": "5K"
+    },
+    {
+     "item": 61,
+     "qty": 2,
+     "refs": "R71,R74",
+     "part": "4K75 1%"
+    },
+    {
+     "item": 62,
+     "qty": 2,
+     "refs": "R72,R73",
+     "part": "4K12 1%"
+    },
+    {
+     "item": 63,
+     "qty": 2,
+     "refs": "R78,R79",
+     "part": "3K9"
+    },
+    {
+     "item": 64,
+     "qty": 2,
+     "refs": "R82,R83",
+     "part": "330"
+    },
+    {
+     "item": 65,
+     "qty": 2,
+     "refs": "R84,R87",
+     "part": "5K36 1%"
+    },
+    {
+     "item": 66,
+     "qty": 2,
+     "refs": "R85,R89",
+     "part": "6K19 1%"
+    },
+    {
+     "item": 67,
+     "qty": 2,
+     "refs": "R86,R88",
+     "part": "43K 1%"
+    },
+    {
+     "item": 68,
+     "qty": 1,
+     "refs": "SW2",
+     "part": "(L & R) // (L+R & L-R)"
+    },
+    {
+     "item": 69,
+     "qty": 1,
+     "refs": "T1",
+     "part": "229B40"
+    },
+    {
+     "item": 70,
+     "qty": 1,
+     "refs": "U1",
+     "part": "LM317T"
+    },
+    {
+     "item": 71,
+     "qty": 1,
+     "refs": "U2",
+     "part": "LM337T"
+    },
+    {
+     "item": 72,
+     "qty": 2,
+     "refs": "U3,U4",
+     "part": "LM833"
+    },
+    {
+     "item": 73,
+     "qty": 2,
+     "refs": "U5,U6",
+     "part": "LF347B"
+    },
+    {
+     "item": 74,
+     "qty": 3,
+     "refs": "U7,U8,U20",
+     "part": "LF353"
+    },
+    {
+     "item": 75,
+     "qty": 4,
+     "refs": "U9,U11,U12,U14",
+     "part": "LM3915"
+    },
+    {
+     "item": 76,
+     "qty": 2,
+     "refs": "U10,U13",
+     "part": "LM3916"
+    },
+    {
+     "item": 77,
+     "qty": 2,
+     "refs": "U16,U15",
+     "part": "CD4053BCN"
+    },
+    {
+     "item": 78,
+     "qty": 1,
+     "refs": "U17",
+     "part": "LM393"
+    },
+    {
+     "item": 79,
+     "qty": 2,
+     "refs": "U18,U19",
+     "part": "NE5532"
+    }
+   ]
+  }
+ ],
+ "libraries": []
+}

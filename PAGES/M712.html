@@ -1,0 +1,1490 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M712 — Intercom Matrix Switching Board</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>M712 — Intercom Matrix Switching Board</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="Category-COMMUNICATION.html">COMMUNICATION</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../simulator.html?m=M712">simulator &amp; front panel</a> · <a href="../_packages/M712.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="Year-1972.html">1972|5</a> — title-block date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"DATE MAY 1972" in WBS Photos-1-001/mmm2021-3-21-21-56-41 (4).jpg</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="Year-1972.html">1972|5</a>, <a href="Year-1973.html">1973|6</a>, <a href="Year-1974.html">1974|7</a></td>
+</tr>
+<tr>
+<td>Variants</td>
+<td><a href="M712B.html">M712B</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/">DOCUMENTS/Communication/7000 series - Intercom System</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210321%20-%20scans/">DOCUMENTS/RECENT SCANS/WBSps.ca 20210321 - scans</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/">DOCUMENTS/WBSPS - To Be edited/Intercom System</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections</h2>
+<p><em>What it is made of and what it is part of.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M712" data-n="Intercom Matrix Switching Board" data-cat="COMMUNICATION"></div><svg class="wbs-panel" data-m="M712" data-n="Intercom Matrix Switching Board" data-cat="COMMUNICATION" role="img" aria-label="M712 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M712","title":"Intercom Matrix Switching Board","rto":null,"parts":[],"parents":[{"label":"M703","href":"M703.html","note":"on 99 drawings with it: Intercom Input/Output Am"},{"label":"M702","href":"M702.html","note":"on 71 drawings with it: Intercom Output Amplifie"},{"label":"M701","href":"M701.html","note":"on 61 drawings with it: Intercom Input Amplifier"},{"label":"M724","href":"M724.html","note":"on 50 drawings with it: Intercom Crosspoint (par"},{"label":"M628","href":"M628.html","note":"on 49 drawings with it: Intercom Power Supply"},{"label":"M600","href":"M600.html","note":"on 47 drawings with it: Universal Amplifier"},{"label":"M412","href":"M412.html","note":"on 27 drawings with it: Multi-frequency Oscilato"},{"label":"M621","href":"M621.html","note":"on 27 drawings with it: 20 Watt Monitor Amplifie"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1977%20-%20M712%20-%20PRICE%20LIST%20-%20price%20list.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M712/1977%20-%20M712%20-%20PRICE%20LIST%20-%20price%20list.jpg" alt="" data-f="Modules/COMMUNICATION/M712/1977 - M712 - PRICE LIST - price list.jpg" data-size="320" onerror="wbsOff(this)">1977 - M712 - PRICE LIST - price list.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1977%20-%20M712%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M712/1977%20-%20M712%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg" alt="" data-f="Modules/COMMUNICATION/M712/1977 - M712 - PRICE LIST - 7000 series - price list.jpg" data-size="320" onerror="wbsOff(this)">1977 - M712 - PRICE LIST - 7000 series - price list.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1975%20-%20M712%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M712/1975%20-%20M712%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg" alt="" data-f="Modules/COMMUNICATION/M712/1975 - M712 - PRICE LIST - PRICE LIST.jpg" data-size="320" onerror="wbsOff(this)">1975 - M712 - PRICE LIST - PRICE LIST.jpg</a><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210321%20-%20scans/1972%20-%20DOC%20-%20712-02-012%20-%20DIRECT%20SUMMING%20INPUT.jpg"><img loading="lazy" src="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210321%20-%20scans/1972%20-%20DOC%20-%20712-02-012%20-%20DIRECT%20SUMMING%20INPUT.jpg" alt="" data-f="DOCUMENTS/RECENT SCANS/WBSps.ca 20210321 - scans/1972 - DOC - 712-02-012 - DIRECT SUMMING INPUT.jpg" data-size="320" onerror="wbsOff(this)">1972 - DOC - 712-02-012 - DIRECT SUMMING INPUT.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1972%20-%20712-02-003%20-%20PART%20FULL%20MUTE%20CROSS%20POINT%20SCHEMATIC%20-%20DRN%20TY%20-%20ISS%202.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M712/1972%20-%20712-02-003%20-%20PART%20FULL%20MUTE%20CROSS%20POINT%20SCHEMATIC%20-%20DRN%20TY%20-%20ISS%202.jpg" alt="" data-f="Modules/COMMUNICATION/M712/1972 - 712-02-003 - PART FULL MUTE CROSS POINT SCHEMATIC - DRN TY - ISS 2.jpg" data-size="320" onerror="wbsOff(this)">1972 - 712-02-003 - PART FULL MUTE CROSS POINT SCHEMATIC - DRN TY - ISS 2.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-004%20-%20CASCADE%20CONFIGURATION%20-%20DRN%20GEB%20-%20ISS%202.png"><img loading="lazy" src="../Modules/COMMUNICATION/M712/1973%20-%20712-02-004%20-%20CASCADE%20CONFIGURATION%20-%20DRN%20GEB%20-%20ISS%202.png" alt="" data-f="Modules/COMMUNICATION/M712/1973 - 712-02-004 - CASCADE CONFIGURATION - DRN GEB - ISS 2.png" data-size="320" onerror="wbsOff(this)">1973 - 712-02-004 - CASCADE CONFIGURATION - DRN GEB - ISS 2.png</a><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-007%20-%20M723%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%203.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M712/1973%20-%20712-02-007%20-%20M723%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%203.jpg" alt="" data-f="Modules/COMMUNICATION/M712/1973 - 712-02-007 - M723 CROSSPOINT - DRN GEB - ISS 3.jpg" data-size="320" onerror="wbsOff(this)">1973 - 712-02-007 - M723 CROSSPOINT - DRN GEB - ISS 3.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-008%20-%20M724%20CROSSPOINT%20-%20DRN%20GEB.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M712/1973%20-%20712-02-008%20-%20M724%20CROSSPOINT%20-%20DRN%20GEB.jpg" alt="" data-f="Modules/COMMUNICATION/M712/1973 - 712-02-008 - M724 CROSSPOINT - DRN GEB.jpg" data-size="320" onerror="wbsOff(this)">1973 - 712-02-008 - M724 CROSSPOINT - DRN GEB.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-010%20-%20M726%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%203.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M712/1973%20-%20712-02-010%20-%20M726%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%203.jpg" alt="" data-f="Modules/COMMUNICATION/M712/1973 - 712-02-010 - M726 CROSSPOINT - DRN GEB - ISS 3.jpg" data-size="320" onerror="wbsOff(this)">1973 - 712-02-010 - M726 CROSSPOINT - DRN GEB - ISS 3.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-012%20-%20M728%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%203.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M712/1973%20-%20712-02-012%20-%20M728%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%203.jpg" alt="" data-f="Modules/COMMUNICATION/M712/1973 - 712-02-012 - M728 CROSSPOINT - DRN GEB - ISS 3.jpg" data-size="320" onerror="wbsOff(this)">1973 - 712-02-012 - M728 CROSSPOINT - DRN GEB - ISS 3.jpg</a><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210321%20-%20scans/1974%20-%20DOC%20-%20WIL%20TURN%20OFF%20CROSSPOINT.jpg"><img loading="lazy" src="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210321%20-%20scans/1974%20-%20DOC%20-%20WIL%20TURN%20OFF%20CROSSPOINT.jpg" alt="" data-f="DOCUMENTS/RECENT SCANS/WBSps.ca 20210321 - scans/1974 - DOC - WIL TURN OFF CROSSPOINT.jpg" data-size="320" onerror="wbsOff(this)">1974 - DOC - WIL TURN OFF CROSSPOINT.jpg</a><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210321%20-%20scans/1974%20-%20DOC%20-%20WILL%20MUTE%20CROSSPOINT%20OWN%20ONTROL%20AUDIO%20INPUT%20SSMOD.jpg"><img loading="lazy" src="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210321%20-%20scans/1974%20-%20DOC%20-%20WILL%20MUTE%20CROSSPOINT%20OWN%20ONTROL%20AUDIO%20INPUT%20SSMOD.jpg" alt="" data-f="DOCUMENTS/RECENT SCANS/WBSps.ca 20210321 - scans/1974 - DOC - WILL MUTE CROSSPOINT OWN ONTROL AUDIO INPUT SSMOD.jpg" data-size="320" onerror="wbsOff(this)">1974 - DOC - WILL MUTE CROSSPOINT OWN ONTROL AUDIO INPUT SSMOD.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1974%20-%20712-02-009%20-%20M725%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%203.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M712/1974%20-%20712-02-009%20-%20M725%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%203.jpg" alt="" data-f="Modules/COMMUNICATION/M712/1974 - 712-02-009 - M725 CROSSPOINT - DRN GEB - ISS 3.jpg" data-size="320" onerror="wbsOff(this)">1974 - 712-02-009 - M725 CROSSPOINT - DRN GEB - ISS 3.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1972%20-%20M712%20-%207000%20series%20-%20M712%20Crosspoint%20Mb.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M712/1972%20-%20M712%20-%207000%20series%20-%20M712%20Crosspoint%20Mb.jpg" alt="" data-f="Modules/COMMUNICATION/M712/1972 - M712 - 7000 series - M712 Crosspoint Mb.jpg" data-size="320" onerror="wbsOff(this)">1972 - M712 - 7000 series - M712 Crosspoint Mb.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1972%20-%20M712%20-%20Crosspoint%20Mb.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M712/1972%20-%20M712%20-%20Crosspoint%20Mb.jpg" alt="" data-f="Modules/COMMUNICATION/M712/1972 - M712 - Crosspoint Mb.jpg" data-size="320" onerror="wbsOff(this)">1972 - M712 - Crosspoint Mb.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-006%20-%20M722%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%202.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M712/1973%20-%20712-02-006%20-%20M722%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%202.jpg" alt="" data-f="Modules/COMMUNICATION/M712/1973 - 712-02-006 - M722 CROSSPOINT - DRN GEB - ISS 2.jpg" data-size="320" onerror="wbsOff(this)">1973 - 712-02-006 - M722 CROSSPOINT - DRN GEB - ISS 2.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1974%20-%20712-02-013%20-%20M729%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M712/1974%20-%20712-02-013%20-%20M729%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%201.jpg" alt="" data-f="Modules/COMMUNICATION/M712/1974 - 712-02-013 - M729 CROSSPOINT - DRN GEB - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1974 - 712-02-013 - M729 CROSSPOINT - DRN GEB - ISS 1.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1979%20-%20712-02-102%20-%20M712B%20INTERCOM%20MATRIX%20AMPLIFIER%20CONNECTION%20OF%20MULTIPLE%20MODULES%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M712/1979%20-%20712-02-102%20-%20M712B%20INTERCOM%20MATRIX%20AMPLIFIER%20CONNECTION%20OF%20MULTIPLE%20MODULES%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%201.jpg" alt="" data-f="Modules/COMMUNICATION/M712/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1980%20-%20712-01-002%20-%20INTERCOM%20MATRIX%20AMPLIFIER%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20Mahoney%20-%20ISS%202.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M712/1980%20-%20712-01-002%20-%20INTERCOM%20MATRIX%20AMPLIFIER%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20Mahoney%20-%20ISS%202.jpg" alt="" data-f="Modules/COMMUNICATION/M712/1980 - 712-01-002 - INTERCOM MATRIX AMPLIFIER FUNCTIONAL DIAGRAM - DRN P. Mahoney - ISS 2.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1980 - 712-01-002 - INTERCOM MATRIX AMPLIFIER FUNCTIONAL DIAGRAM - DRN P. Mahoney - ISS 2.jpg</a><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20001.jpg"><img loading="lazy" src="../DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20001.jpg" alt="" data-f="DOCUMENTS/Communication/7000 series - Intercom System/19xx - DOC - 7000 series - 001.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 7000 series - 001.jpg</a><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20003.jpg"><img loading="lazy" src="../DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20003.jpg" alt="" data-f="DOCUMENTS/Communication/7000 series - Intercom System/19xx - DOC - 7000 series - 003.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 7000 series - 003.jpg</a><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20006.jpg"><img loading="lazy" src="../DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20006.jpg" alt="" data-f="DOCUMENTS/Communication/7000 series - Intercom System/19xx - DOC - 7000 series - 006.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 7000 series - 006.jpg</a><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20012.jpg"><img loading="lazy" src="../DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20012.jpg" alt="" data-f="DOCUMENTS/Communication/7000 series - Intercom System/19xx - DOC - 7000 series - 012.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 7000 series - 012.jpg</a><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20promo%20-%20002.jpg"><img loading="lazy" src="../DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20promo%20-%20002.jpg" alt="" data-f="DOCUMENTS/Communication/7000 series - Intercom System/19xx - DOC - 7000 series - promo - 002.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 7000 series - promo - 002.jpg</a><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20promo%20-%20003.jpg"><img loading="lazy" src="../DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20promo%20-%20003.jpg" alt="" data-f="DOCUMENTS/Communication/7000 series - Intercom System/19xx - DOC - 7000 series - promo - 003.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 7000 series - promo - 003.jpg</a><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20promo%20-%20004.jpg"><img loading="lazy" src="../DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20promo%20-%20004.jpg" alt="" data-f="DOCUMENTS/Communication/7000 series - Intercom System/19xx - DOC - 7000 series - promo - 004.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 7000 series - promo - 004.jpg</a><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20001.jpg"><img loading="lazy" src="../DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20001.jpg" alt="" data-f="DOCUMENTS/WBSPS - To Be edited/Intercom System/19xx - DOC - 7000 series - 001.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 7000 series - 001.jpg</a><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20003.jpg"><img loading="lazy" src="../DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20003.jpg" alt="" data-f="DOCUMENTS/WBSPS - To Be edited/Intercom System/19xx - DOC - 7000 series - 003.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 7000 series - 003.jpg</a><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20011.jpg"><img loading="lazy" src="../DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20011.jpg" alt="" data-f="DOCUMENTS/WBSPS - To Be edited/Intercom System/19xx - DOC - 7000 series - 011.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 7000 series - 011.jpg</a><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/19xx%20-%20DOC%20-%20promo%20-%207000%20series%20-%20002.jpg"><img loading="lazy" src="../DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/19xx%20-%20DOC%20-%20promo%20-%207000%20series%20-%20002.jpg" alt="" data-f="DOCUMENTS/WBSPS - To Be edited/Intercom System/19xx - DOC - promo - 7000 series - 002.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - promo - 7000 series - 002.jpg</a><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/19xx%20-%20DOC%20-%20promo%20-%207000%20series%20-%20003.jpg"><img loading="lazy" src="../DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/19xx%20-%20DOC%20-%20promo%20-%207000%20series%20-%20003.jpg" alt="" data-f="DOCUMENTS/WBSPS - To Be edited/Intercom System/19xx - DOC - promo - 7000 series - 003.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - promo - 7000 series - 003.jpg</a><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/19xx%20-%20DOC%20-%20promo%20-%207000%20series%20-%20004.jpg"><img loading="lazy" src="../DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/19xx%20-%20DOC%20-%20promo%20-%207000%20series%20-%20004.jpg" alt="" data-f="DOCUMENTS/WBSPS - To Be edited/Intercom System/19xx - DOC - promo - 7000 series - 004.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - promo - 7000 series - 004.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20712-02-104%20-%20M712A%20T%20TEST%20FIXTURE%20SCHEMATIC%20-%20DRN%20HM%20-%20ENG%20HM%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M712/19xx%20-%20712-02-104%20-%20M712A%20T%20TEST%20FIXTURE%20SCHEMATIC%20-%20DRN%20HM%20-%20ENG%20HM%20-%20ISS%201.jpg" alt="" data-f="Modules/COMMUNICATION/M712/19xx - 712-02-104 - M712A T TEST FIXTURE SCHEMATIC - DRN HM - ENG HM - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">19xx - 712-02-104 - M712A T TEST FIXTURE SCHEMATIC - DRN HM - ENG HM - ISS 1.jpg</a><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20013.jpg"><img loading="lazy" src="../DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20013.jpg" alt="" data-f="DOCUMENTS/Communication/7000 series - Intercom System/19xx - DOC - 7000 series - 013.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 7000 series - 013.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20012.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20012.jpg" alt="" data-f="Modules/COMMUNICATION/M7000/1977 - M7000 - 7000 series - 012.jpg" data-size="320" onerror="wbsOff(this)">1977 - M7000 - 7000 series - 012.jpg</a><a href="../viewer.html?f=Consoles/1990-1999/94063%20-%20CBC%20REGINA/1994%20-%2094063%20-%20DOC%20-%2094063-04-002%20-%20CAUTION%20DISCCNNECT%20POXER%20BEFORE%20EERMONG%20PONER%20SUPFLY.jpg"><img loading="lazy" src="../Consoles/1990-1999/94063%20-%20CBC%20REGINA/1994%20-%2094063%20-%20DOC%20-%2094063-04-002%20-%20CAUTION%20DISCCNNECT%20POXER%20BEFORE%20EERMONG%20PONER%20SUPFLY.jpg" alt="" data-f="Consoles/1990-1999/94063 - CBC REGINA/1994 - 94063 - DOC - 94063-04-002 - CAUTION DISCCNNECT POXER BEFORE EERMONG PONER SUPFLY.jpg" data-size="320" onerror="wbsOff(this)">1994 - 94063 - DOC - 94063-04-002 - CAUTION DISCCNNECT POXER BEFORE EERMONG PONER SUPFLY.jpg</a><a href="../viewer.html?f=Modules/POWER/M632/19xx%20-%20M632%20-%20DOC%20-%20712-02-104%20-%20TEST%20FIXTURE%20SCHEMATIC%20NOTE%20BINDING%20PEST%20TERMINALS%20USED.jpg"><img loading="lazy" src="../Modules/POWER/M632/19xx%20-%20M632%20-%20DOC%20-%20712-02-104%20-%20TEST%20FIXTURE%20SCHEMATIC%20NOTE%20BINDING%20PEST%20TERMINALS%20USED.jpg" alt="" data-f="Modules/POWER/M632/19xx - M632 - DOC - 712-02-104 - TEST FIXTURE SCHEMATIC NOTE BINDING PEST TERMINALS USED.jpg" data-size="320" onerror="wbsOff(this)">19xx - M632 - DOC - 712-02-104 - TEST FIXTURE SCHEMATIC NOTE BINDING PEST TERMINALS USED.jpg</a></div>
+<h2>Price history</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Price</th>
+<th>Listed as</th>
+<th>Effective</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>—</td>
+<td>list price</td>
+<td>65.00 USD</td>
+<td>Intercom Matrix Switching Board</td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1977%20-%20M712%20-%20PRICE%20LIST%20-%20price%20list.jpg">source</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>list price</td>
+<td>65.00 USD</td>
+<td>Intercom Matrix Switching Board</td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1977%20-%20M712%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">source</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>list price</td>
+<td>50.00 USD</td>
+<td>Intercom 12 X Crosspoint Board</td>
+<td>May 1975</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1975%20-%20M712%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">source</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-1972.html">1972|5</a></td>
+<td>month &amp; year</td>
+<td><code>JULY 1972</code></td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210321%20-%20scans/1972%20-%20DOC%20-%20712-02-012%20-%20DIRECT%20SUMMING%20INPUT.jpg">1972 - DOC - 712-02-012 - DIRECT SUMMING INPUT.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1972.html">1972|5</a></td>
+<td>title-block date</td>
+<td><code>DATE MAY 1972</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1972%20-%20712-02-003%20-%20PART%20FULL%20MUTE%20CROSS%20POINT%20SCHEMATIC%20-%20DRN%20TY%20-%20ISS%202.jpg">1972 - 712-02-003 - PART FULL MUTE CROSS POINT SCHEMATIC - DRN TY - ISS 2.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1972.html">1972|5</a></td>
+<td>month &amp; year</td>
+<td><code>JULY 1972</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1972%20-%20M712%20-%20DOC%20-%20712-02-012%20-%20DIRECT%20SUMMING%20INPUT.jpg">1972 - M712 - DOC - 712-02-012 - DIRECT SUMMING INPUT.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1972.html">1972|5</a></td>
+<td>month &amp; year</td>
+<td><code>JULY 1972</code></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M175/1972%20-%20M175%20-%20DOC%20-%20712-02-012%20-%20DIRECT%20SUMMING%20INPUT.jpg">1972 - M175 - DOC - 712-02-012 - DIRECT SUMMING INPUT.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>title-block date</td>
+<td><code>DATE JAN 73</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-004%20-%20CASCADE%20CONFIGURATION%20-%20DRN%20GEB%20-%20ISS%202.png">1973 - 712-02-004 - CASCADE CONFIGURATION - DRN GEB - ISS 2.png</a></td>
+</tr>
+<tr>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>title-block date</td>
+<td><code>DATE JAN73</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-007%20-%20M723%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%203.jpg">1973 - 712-02-007 - M723 CROSSPOINT - DRN GEB - ISS 3.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>title-block date</td>
+<td><code>DATE JAN73</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-008%20-%20M724%20CROSSPOINT%20-%20DRN%20GEB.jpg">1973 - 712-02-008 - M724 CROSSPOINT - DRN GEB.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>title-block date</td>
+<td><code>DATE JAN73</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-010%20-%20M726%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%203.jpg">1973 - 712-02-010 - M726 CROSSPOINT - DRN GEB - ISS 3.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>title-block date</td>
+<td><code>DATE JAN73</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-012%20-%20M728%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%203.jpg">1973 - 712-02-012 - M728 CROSSPOINT - DRN GEB - ISS 3.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1974.html">1974|7</a></td>
+<td>title-block date</td>
+<td><code>DATE APR 74</code></td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210321%20-%20scans/1974%20-%20DOC%20-%20WIL%20TURN%20OFF%20CROSSPOINT.jpg">1974 - DOC - WIL TURN OFF CROSSPOINT.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1974.html">1974|7</a></td>
+<td>title-block date</td>
+<td><code>DATE APR74</code></td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210321%20-%20scans/1974%20-%20DOC%20-%20WILL%20MUTE%20CROSSPOINT%20OWN%20ONTROL%20AUDIO%20INPUT%20SSMOD.jpg">1974 - DOC - WILL MUTE CROSSPOINT OWN ONTROL AUDIO INPUT SSMOD.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1974.html">1974|7</a></td>
+<td>title-block date</td>
+<td><code>DATE APR74</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1974%20-%20712-02-009%20-%20M725%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%203.jpg">1974 - 712-02-009 - M725 CROSSPOINT - DRN GEB - ISS 3.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1974.html">1974|7</a></td>
+<td>title-block date</td>
+<td><code>DATE APR 74</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1974%20-%20M712%20-%20DOC%20-%20WIL%20TURN%20OFF%20CROSSPOINT.jpg">1974 - M712 - DOC - WIL TURN OFF CROSSPOINT.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1974.html">1974|7</a></td>
+<td>title-block date</td>
+<td><code>DATE APR74</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1974%20-%20M712%20-%20DOC%20-%20WILL%20MUTE%20CROSSPOINT%20OWN%20ONTROL%20AUDIO%20INPUT%20SSMOD.jpg">1974 - M712 - DOC - WILL MUTE CROSSPOINT OWN ONTROL AUDIO INPUT SSMOD.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=ADVERTISEMENTS/NAB%20photos/1975%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/1975%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1975%20-%20M600%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M600 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M604/1975%20-%20M604%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M604 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M605/1975%20-%20M605%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M605 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M610/1975%20-%20M610%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M610 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/1975%20-%20M612%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M612 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1975%20-%20M621%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M621 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M666/1975%20-%20M666%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M666 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M701/1975%20-%20M701%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M701 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/1975%20-%20M702%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M702 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/1975%20-%20M703%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M703 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1975%20-%20M712%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M712 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M724/1975%20-%20M724%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M724 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M757/1975%20-%20M757%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M757 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/COMPUTERS/M524/1975%20-%20M524%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M524 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M406B/1975%20-%20M406B%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M406B - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M415/1975%20-%20M415%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M415 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402B/1975%20-%20M402B%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M402B - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M404A/1975%20-%20M404A%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M404A - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441M/1975%20-%20M441M%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M441M - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M405C - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M412/1975%20-%20M412%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M412 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/POWER/M628/1975%20-%20M628%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M628 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/POWER/M648/1975%20-%20M648%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M648 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/RM424S/1975%20-%20RM424S%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - RM424S - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (112)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1972|5</td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210321%20-%20scans/1972%20-%20DOC%20-%20712-02-012%20-%20DIRECT%20SUMMING%20INPUT.jpg">1972 - DOC - 712-02-012 - DIRECT SUMMING INPUT.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210321%20-%20scans/1972%20-%20DOC%20-%20712-02-012%20-%20DIRECT%20SUMMING%20INPUT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1972%20-%20712-02-003%20-%20PART%20FULL%20MUTE%20CROSS%20POINT%20SCHEMATIC%20-%20DRN%20TY%20-%20ISS%202.jpg">1972 - 712-02-003 - PART FULL MUTE CROSS POINT SCHEMATIC - DRN TY - ISS 2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1972%20-%20712-02-003%20-%20PART%20FULL%20MUTE%20CROSS%20POINT%20SCHEMATIC%20-%20DRN%20TY%20-%20ISS%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1972%20-%20M712%20-%207000%20series%20-%20M712%20Crosspoint%20Mb.jpg">1972 - M712 - 7000 series - M712 Crosspoint Mb.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1972%20-%20M712%20-%207000%20series%20-%20M712%20Crosspoint%20Mb.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1972%20-%20M712%20-%20Crosspoint%20Mb.jpg">1972 - M712 - Crosspoint Mb.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1972%20-%20M712%20-%20Crosspoint%20Mb.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1972%20-%20M712%20-%20DOC%20-%20712-02-012%20-%20DIRECT%20SUMMING%20INPUT.jpg">1972 - M712 - DOC - 712-02-012 - DIRECT SUMMING INPUT.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1972%20-%20M712%20-%20DOC%20-%20712-02-012%20-%20DIRECT%20SUMMING%20INPUT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M175/1972%20-%20M175%20-%20DOC%20-%20712-02-012%20-%20DIRECT%20SUMMING%20INPUT.jpg">1972 - M175 - DOC - 712-02-012 - DIRECT SUMMING INPUT.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M175/1972%20-%20M175%20-%20DOC%20-%20712-02-012%20-%20DIRECT%20SUMMING%20INPUT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-004%20-%20CASCADE%20CONFIGURATION%20-%20DRN%20GEB%20-%20ISS%202.png">1973 - 712-02-004 - CASCADE CONFIGURATION - DRN GEB - ISS 2.png</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-004%20-%20CASCADE%20CONFIGURATION%20-%20DRN%20GEB%20-%20ISS%202.png.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-006%20-%20M722%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%202.jpg">1973 - 712-02-006 - M722 CROSSPOINT - DRN GEB - ISS 2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-006%20-%20M722%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-007%20-%20M723%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%203.jpg">1973 - 712-02-007 - M723 CROSSPOINT - DRN GEB - ISS 3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-007%20-%20M723%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%203.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-008%20-%20M724%20CROSSPOINT%20-%20DRN%20GEB.jpg">1973 - 712-02-008 - M724 CROSSPOINT - DRN GEB.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-008%20-%20M724%20CROSSPOINT%20-%20DRN%20GEB.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-010%20-%20M726%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%203.jpg">1973 - 712-02-010 - M726 CROSSPOINT - DRN GEB - ISS 3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-010%20-%20M726%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%203.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-012%20-%20M728%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%203.jpg">1973 - 712-02-012 - M728 CROSSPOINT - DRN GEB - ISS 3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-012%20-%20M728%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%203.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1974|7</td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210321%20-%20scans/1974%20-%20DOC%20-%20WIL%20TURN%20OFF%20CROSSPOINT.jpg">1974 - DOC - WIL TURN OFF CROSSPOINT.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210321%20-%20scans/1974%20-%20DOC%20-%20WIL%20TURN%20OFF%20CROSSPOINT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1974|7</td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210321%20-%20scans/1974%20-%20DOC%20-%20WILL%20MUTE%20CROSSPOINT%20OWN%20ONTROL%20AUDIO%20INPUT%20SSMOD.jpg">1974 - DOC - WILL MUTE CROSSPOINT OWN ONTROL AUDIO INPUT SSMOD.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210321%20-%20scans/1974%20-%20DOC%20-%20WILL%20MUTE%20CROSSPOINT%20OWN%20ONTROL%20AUDIO%20INPUT%20SSMOD.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1974|7</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1974%20-%20712-02-009%20-%20M725%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%203.jpg">1974 - 712-02-009 - M725 CROSSPOINT - DRN GEB - ISS 3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1974%20-%20712-02-009%20-%20M725%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%203.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1974|7</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1974%20-%20712-02-013%20-%20M729%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%201.jpg">1974 - 712-02-013 - M729 CROSSPOINT - DRN GEB - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1974%20-%20712-02-013%20-%20M729%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1974|7</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1974%20-%20M712%20-%20DOC%20-%20WIL%20TURN%20OFF%20CROSSPOINT.jpg">1974 - M712 - DOC - WIL TURN OFF CROSSPOINT.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1974%20-%20M712%20-%20DOC%20-%20WIL%20TURN%20OFF%20CROSSPOINT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1974|7</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1974%20-%20M712%20-%20DOC%20-%20WILL%20MUTE%20CROSSPOINT%20OWN%20ONTROL%20AUDIO%20INPUT%20SSMOD.jpg">1974 - M712 - DOC - WILL MUTE CROSSPOINT OWN ONTROL AUDIO INPUT SSMOD.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1974%20-%20M712%20-%20DOC%20-%20WILL%20MUTE%20CROSSPOINT%20OWN%20ONTROL%20AUDIO%20INPUT%20SSMOD.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/1975%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/1975%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1975%20-%20M600%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M600 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1975%20-%20M600%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M604/1975%20-%20M604%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M604 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M604/1975%20-%20M604%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M605/1975%20-%20M605%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M605 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M605/1975%20-%20M605%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M610/1975%20-%20M610%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M610 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M610/1975%20-%20M610%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/1975%20-%20M612%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M612 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/1975%20-%20M612%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1975%20-%20M621%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M621 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1975%20-%20M621%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M666/1975%20-%20M666%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M666 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M666/1975%20-%20M666%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M701/1975%20-%20M701%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M701 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M701/1975%20-%20M701%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/1975%20-%20M702%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M702 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/1975%20-%20M702%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/1975%20-%20M703%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M703 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/1975%20-%20M703%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1975%20-%20M712%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M712 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1975%20-%20M712%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M724/1975%20-%20M724%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M724 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M724/1975%20-%20M724%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M757/1975%20-%20M757%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M757 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M757/1975%20-%20M757%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/COMPUTERS/M524/1975%20-%20M524%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M524 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMPUTERS/M524/1975%20-%20M524%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M406B/1975%20-%20M406B%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M406B - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M406B/1975%20-%20M406B%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M415/1975%20-%20M415%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M415 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M415/1975%20-%20M415%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402B/1975%20-%20M402B%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M402B - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402B/1975%20-%20M402B%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M404A/1975%20-%20M404A%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M404A - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M404A/1975%20-%20M404A%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441M/1975%20-%20M441M%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M441M - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441M/1975%20-%20M441M%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M405C - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M412/1975%20-%20M412%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M412 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M412/1975%20-%20M412%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/POWER/M628/1975%20-%20M628%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M628 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M628/1975%20-%20M628%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/POWER/M648/1975%20-%20M648%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M648 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M648/1975%20-%20M648%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/RM424S/1975%20-%20RM424S%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - RM424S - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/RM424S/1975%20-%20RM424S%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/1977%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">1977 - PRICE LIST - 7000 series - price list.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/1977%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/1977%20-%20PRICE%20LIST%20-%20list.jpg">1977 - PRICE LIST - list.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/1977%20-%20PRICE%20LIST%20-%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M701/1977%20-%20M701%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">1977 - M701 - PRICE LIST - 7000 series - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M701/1977%20-%20M701%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M701/1977%20-%20M701%20-%20PRICE%20LIST%20-%20price%20list.jpg">1977 - M701 - PRICE LIST - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M701/1977%20-%20M701%20-%20PRICE%20LIST%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/1977%20-%20M702%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">1977 - M702 - PRICE LIST - 7000 series - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/1977%20-%20M702%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/1977%20-%20M702%20-%20PRICE%20LIST%20-%20price%20list.jpg">1977 - M702 - PRICE LIST - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/1977%20-%20M702%20-%20PRICE%20LIST%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/1977%20-%20M703%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">1977 - M703 - PRICE LIST - 7000 series - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/1977%20-%20M703%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/1977%20-%20M703%20-%20PRICE%20LIST%20-%20price%20list.jpg">1977 - M703 - PRICE LIST - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/1977%20-%20M703%20-%20PRICE%20LIST%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1977%20-%20M712%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">1977 - M712 - PRICE LIST - 7000 series - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1977%20-%20M712%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1977%20-%20M712%20-%20PRICE%20LIST%20-%20price%20list.jpg">1977 - M712 - PRICE LIST - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1977%20-%20M712%20-%20PRICE%20LIST%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M724/1977%20-%20M724%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">1977 - M724 - PRICE LIST - 7000 series - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M724/1977%20-%20M724%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M724/1977%20-%20M724%20-%20PRICE%20LIST%20-%20price%20list.jpg">1977 - M724 - PRICE LIST - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M724/1977%20-%20M724%20-%20PRICE%20LIST%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1977%20-%20M624%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">1977 - M624 - PRICE LIST - 7000 series - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1977%20-%20M624%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1977%20-%20M624%20-%20PRICE%20LIST%20-%20price%20list.jpg">1977 - M624 - PRICE LIST - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1977%20-%20M624%20-%20PRICE%20LIST%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/POWER/M628/1977%20-%20M628%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">1977 - M628 - PRICE LIST - 7000 series - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M628/1977%20-%20M628%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/POWER/M628/1977%20-%20M628%20-%20PRICE%20LIST%20-%20price%20list.jpg">1977 - M628 - PRICE LIST - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M628/1977%20-%20M628%20-%20PRICE%20LIST%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M121/1977%20-%20M121%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">1977 - M121 - PRICE LIST - 7000 series - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M121/1977%20-%20M121%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M121/1977%20-%20M121%20-%20PRICE%20LIST%20-%20price%20list.jpg">1977 - M121 - PRICE LIST - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M121/1977%20-%20M121%20-%20PRICE%20LIST%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M122/1977%20-%20M122%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">1977 - M122 - PRICE LIST - 7000 series - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M122/1977%20-%20M122%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M122/1977%20-%20M122%20-%20PRICE%20LIST%20-%20price%20list.jpg">1977 - M122 - PRICE LIST - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M122/1977%20-%20M122%20-%20PRICE%20LIST%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1979%20-%20712-02-102%20-%20M712B%20INTERCOM%20MATRIX%20AMPLIFIER%20CONNECTION%20OF%20MULTIPLE%20MODULES%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%201.jpg">1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1979%20-%20712-02-102%20-%20M712B%20INTERCOM%20MATRIX%20AMPLIFIER%20CONNECTION%20OF%20MULTIPLE%20MODULES%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1980%20-%20712-01-002%20-%20INTERCOM%20MATRIX%20AMPLIFIER%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20Mahoney%20-%20ISS%202.jpg">1980 - 712-01-002 - INTERCOM MATRIX AMPLIFIER FUNCTIONAL DIAGRAM - DRN P. Mahoney - ISS 2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1980%20-%20712-01-002%20-%20INTERCOM%20MATRIX%20AMPLIFIER%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20Mahoney%20-%20ISS%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20001.jpg">19xx - DOC - 7000 series - 001.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20003.jpg">19xx - DOC - 7000 series - 003.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20006.jpg">19xx - DOC - 7000 series - 006.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20006.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20012.jpg">19xx - DOC - 7000 series - 012.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20012.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20promo%20-%20002.jpg">19xx - DOC - 7000 series - promo - 002.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20promo%20-%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20promo%20-%20003.jpg">19xx - DOC - 7000 series - promo - 003.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20promo%20-%20003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20promo%20-%20004.jpg">19xx - DOC - 7000 series - promo - 004.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20promo%20-%20004.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20001.jpg">19xx - DOC - 7000 series - 001.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20003.jpg">19xx - DOC - 7000 series - 003.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20011.jpg">19xx - DOC - 7000 series - 011.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20011.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/19xx%20-%20DOC%20-%20promo%20-%207000%20series%20-%20002.jpg">19xx - DOC - promo - 7000 series - 002.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/19xx%20-%20DOC%20-%20promo%20-%207000%20series%20-%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/19xx%20-%20DOC%20-%20promo%20-%207000%20series%20-%20003.jpg">19xx - DOC - promo - 7000 series - 003.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/19xx%20-%20DOC%20-%20promo%20-%207000%20series%20-%20003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/19xx%20-%20DOC%20-%20promo%20-%207000%20series%20-%20004.jpg">19xx - DOC - promo - 7000 series - 004.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/19xx%20-%20DOC%20-%20promo%20-%207000%20series%20-%20004.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%207000%20series%20-%20001%20%282%29.jpg">19xx - M600 - DOC - 7000 series - 001 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%207000%20series%20-%20001%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%207000%20series%20-%20001.jpg">19xx - M600 - DOC - 7000 series - 001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%207000%20series%20-%20001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%207000%20series%20-%20promo%20-%20002.jpg">19xx - M600 - DOC - 7000 series - promo - 002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%207000%20series%20-%20promo%20-%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%20promo%20-%207000%20series%20-%20002.jpg">19xx - M600 - DOC - promo - 7000 series - 002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%20promo%20-%207000%20series%20-%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M701/19xx%20-%20M701%20-%20DOC%20-%207000%20series%20-%20promo%20-%20003.jpg">19xx - M701 - DOC - 7000 series - promo - 003.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M701/19xx%20-%20M701%20-%20DOC%20-%207000%20series%20-%20promo%20-%20003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M701/19xx%20-%20M701%20-%20DOC%20-%20promo%20-%207000%20series%20-%20003.jpg">19xx - M701 - DOC - promo - 7000 series - 003.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M701/19xx%20-%20M701%20-%20DOC%20-%20promo%20-%207000%20series%20-%20003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/19xx%20-%20M702%20-%20DOC%20-%207000%20series%20-%20promo%20-%20003.jpg">19xx - M702 - DOC - 7000 series - promo - 003.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/19xx%20-%20M702%20-%20DOC%20-%207000%20series%20-%20promo%20-%20003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/19xx%20-%20M702%20-%20DOC%20-%207000%20series%20-%20promo%20-%20004.jpg">19xx - M702 - DOC - 7000 series - promo - 004.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/19xx%20-%20M702%20-%20DOC%20-%207000%20series%20-%20promo%20-%20004.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/19xx%20-%20M702%20-%20DOC%20-%20promo%20-%207000%20series%20-%20003.jpg">19xx - M702 - DOC - promo - 7000 series - 003.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/19xx%20-%20M702%20-%20DOC%20-%20promo%20-%207000%20series%20-%20003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/19xx%20-%20M702%20-%20DOC%20-%20promo%20-%207000%20series%20-%20004.jpg">19xx - M702 - DOC - promo - 7000 series - 004.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/19xx%20-%20M702%20-%20DOC%20-%20promo%20-%207000%20series%20-%20004.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/19xx%20-%20M703%20-%20DOC%20-%207000%20series%20-%20001%20%282%29.jpg">19xx - M703 - DOC - 7000 series - 001 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/19xx%20-%20M703%20-%20DOC%20-%207000%20series%20-%20001%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/19xx%20-%20M703%20-%20DOC%20-%207000%20series%20-%20001.jpg">19xx - M703 - DOC - 7000 series - 001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/19xx%20-%20M703%20-%20DOC%20-%207000%20series%20-%20001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/19xx%20-%20M703%20-%20DOC%20-%207000%20series%20-%20006.jpg">19xx - M703 - DOC - 7000 series - 006.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/19xx%20-%20M703%20-%20DOC%20-%207000%20series%20-%20006.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/19xx%20-%20M703%20-%20DOC%20-%207000%20series%20-%20011.jpg">19xx - M703 - DOC - 7000 series - 011.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/19xx%20-%20M703%20-%20DOC%20-%207000%20series%20-%20011.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/19xx%20-%20M703%20-%20DOC%20-%207000%20series%20-%20promo%20-%20002.jpg">19xx - M703 - DOC - 7000 series - promo - 002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/19xx%20-%20M703%20-%20DOC%20-%207000%20series%20-%20promo%20-%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/19xx%20-%20M703%20-%20DOC%20-%207000%20series%20-%20promo%20-%20003.jpg">19xx - M703 - DOC - 7000 series - promo - 003.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/19xx%20-%20M703%20-%20DOC%20-%207000%20series%20-%20promo%20-%20003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/19xx%20-%20M703%20-%20DOC%20-%207000%20series%20-%20promo%20-%20004.jpg">19xx - M703 - DOC - 7000 series - promo - 004.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/19xx%20-%20M703%20-%20DOC%20-%207000%20series%20-%20promo%20-%20004.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/19xx%20-%20M703%20-%20DOC%20-%20promo%20-%207000%20series%20-%20002.jpg">19xx - M703 - DOC - promo - 7000 series - 002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/19xx%20-%20M703%20-%20DOC%20-%20promo%20-%207000%20series%20-%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/19xx%20-%20M703%20-%20DOC%20-%20promo%20-%207000%20series%20-%20003.jpg">19xx - M703 - DOC - promo - 7000 series - 003.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/19xx%20-%20M703%20-%20DOC%20-%20promo%20-%207000%20series%20-%20003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/19xx%20-%20M703%20-%20DOC%20-%20promo%20-%207000%20series%20-%20004.jpg">19xx - M703 - DOC - promo - 7000 series - 004.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/19xx%20-%20M703%20-%20DOC%20-%20promo%20-%207000%20series%20-%20004.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20712-02-104%20-%20M712A%20T%20TEST%20FIXTURE%20SCHEMATIC%20-%20DRN%20HM%20-%20ENG%20HM%20-%20ISS%201.jpg">19xx - 712-02-104 - M712A T TEST FIXTURE SCHEMATIC - DRN HM - ENG HM - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20712-02-104%20-%20M712A%20T%20TEST%20FIXTURE%20SCHEMATIC%20-%20DRN%20HM%20-%20ENG%20HM%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%207000%20series%20-%20001%20%282%29.jpg">19xx - M712 - DOC - 7000 series - 001 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%207000%20series%20-%20001%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%207000%20series%20-%20001.jpg">19xx - M712 - DOC - 7000 series - 001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%207000%20series%20-%20001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%207000%20series%20-%20003%20%282%29.jpg">19xx - M712 - DOC - 7000 series - 003 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%207000%20series%20-%20003%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%207000%20series%20-%20003.jpg">19xx - M712 - DOC - 7000 series - 003.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%207000%20series%20-%20003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%207000%20series%20-%20006.jpg">19xx - M712 - DOC - 7000 series - 006.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%207000%20series%20-%20006.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%207000%20series%20-%20011.jpg">19xx - M712 - DOC - 7000 series - 011.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%207000%20series%20-%20011.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%207000%20series%20-%20012.jpg">19xx - M712 - DOC - 7000 series - 012.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%207000%20series%20-%20012.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%207000%20series%20-%20promo%20-%20002.jpg">19xx - M712 - DOC - 7000 series - promo - 002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%207000%20series%20-%20promo%20-%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%207000%20series%20-%20promo%20-%20003.jpg">19xx - M712 - DOC - 7000 series - promo - 003.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%207000%20series%20-%20promo%20-%20003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%207000%20series%20-%20promo%20-%20004.jpg">19xx - M712 - DOC - 7000 series - promo - 004.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%207000%20series%20-%20promo%20-%20004.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%20promo%20-%207000%20series%20-%20002.jpg">19xx - M712 - DOC - promo - 7000 series - 002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%20promo%20-%207000%20series%20-%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%20promo%20-%207000%20series%20-%20003.jpg">19xx - M712 - DOC - promo - 7000 series - 003.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%20promo%20-%207000%20series%20-%20003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%20promo%20-%207000%20series%20-%20004.jpg">19xx - M712 - DOC - promo - 7000 series - 004.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%20promo%20-%207000%20series%20-%20004.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (8)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20013.jpg">19xx - DOC - 7000 series - 013.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M701/19xx%20-%20M701%20-%20DOC%20-%207000%20series%20-%20013%20%282%29.jpg">19xx - M701 - DOC - 7000 series - 013 (2).jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20012.jpg">1977 - M7000 - 7000 series - 012.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Consoles/1990-1999/94063%20-%20CBC%20REGINA/1994%20-%2094063%20-%20DOC%20-%2094063-04-002%20-%20CAUTION%20DISCCNNECT%20POXER%20BEFORE%20EERMONG%20PONER%20SUPFLY.jpg">1994 - 94063 - DOC - 94063-04-002 - CAUTION DISCCNNECT POXER BEFORE EERMONG PONER SUPFLY.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Large%20pile%20of%20D/1994%20-%20DOC%20-%2094063-04-002%20-%20CAUTION%20DISCCNNECT%20POXER%20BEFORE%20EERMONG%20PONER%20SUPFLY.jpg">1994 - DOC - 94063-04-002 - CAUTION DISCCNNECT POXER BEFORE EERMONG PONER SUPFLY.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT%20%282%29.docx">1995 - M405P - ITEMIMP(1).TXT (2).docx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT.docx">1995 - M405P - ITEMIMP(1).TXT.docx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP.TXT.docx">1995 - M405P - ITEMIMP.TXT.docx</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>General description (4)</h3>
+<details><summary>Description — 273 words · 19xx - M712 - DOC - 7000 series - promo - 002.jpg, page 1</summary><p>THE WARD-BECK SYSTEMS 7000 Series solid-state Intercom Systems are designed to provide inter- communication between production and technical staff within a broadcast or production complex: Modular construction enhances the flexibility of the available configurations. 1 ) M7012 ~ 12 input, 12 output configuration with to 144 crosspoints (expansion capability to 12 x 16 with 1 to 192 crosspoints) . Requires 8 rack units of space.</p><p>2) M7024 24 input, 24 output configuration with to 576 crosspoints. Requires 14 rack units of space. Various capacity systems are conveniently assembled by re-arranging the modular components. The 7000 series Intercom Systems comprise centrally located amplifier and switching equipment which is remotely controlled from passive control stations situated in the appropriate personnel areas: The concept features entirely balanced circuitry for improved crosstalk and minimum transient and RF degradation: The system utilizes latest state-of-the-art operational amplifier techniques with solid-state balanced crosspoints and integrated circuit amplifier designs: Optimum efficiency in packaging is achieved by use of one MF7 frame type which accommodates the basic amplifier and crosspoint modules.</p><p>12 M703 inputloutput amplifier modules or 24 M712 cross- point modules may be accommodated in the 5-1/4 in. high (3 rack units) , standard 19 in. rack mounting MF7 equipment frame. The sophistication of the system may be expanded as required through the use of WBS 600 series power amplifiers and distribution amplifiers for higher listening levels and multiple output distribution: The inherent flexibility of the 7000 series system permits convenient integration of the facility with any existing system: In addition, the basic modules will accommodate dynamic or carbon micro- phone inputs from various sources or any make of camera equipment</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%207000%20series%20-%20promo%20-%20002.jpg">19xx - M712 - DOC - 7000 series - promo - 002.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Description — 0 words · 1977 - M712 - PRICE LIST - 7000 series - price list.jpg, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.html#bp-d4d5db29302a5871">general boilerplate (9 devices)</a> · <a href="Boilerplate.html#bp-a2ca273924b604bd">general boilerplate (9 devices)</a> · <a href="Boilerplate.html#bp-dbb37c792fdeade7">general boilerplate (9 devices)</a></p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/COMMUNICATION/M712/1977%20-%20M712%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">1977 - M712 - PRICE LIST - 7000 series - price list.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Description — 0 words · 1977 - M712 - PRICE LIST - price list.jpg, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.html#bp-7d29fd8ddb99c6cd">general boilerplate (10 devices)</a> · <a href="Boilerplate.html#bp-fefba14455cb61ee">general boilerplate (10 devices)</a> · <a href="Boilerplate.html#bp-e8014e017ace3409">general boilerplate (10 devices)</a></p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/COMMUNICATION/M712/1977%20-%20M712%20-%20PRICE%20LIST%20-%20price%20list.jpg">1977 - M712 - PRICE LIST - price list.jpg</a>, p. 1</li>
+<li>also in: <a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%20promo%20-%207000%20series%20-%20002.jpg">19xx - M712 - DOC - promo - 7000 series - 002.jpg</a>, p. 1</li>
+</ul>
+<h3>Specifications (3)</h3>
+<details><summary>Technical Data — 226 words · 19xx - M712 - DOC - 7000 series - promo - 004.jpg, page 1</summary><p>PREAMPLIFIER SECTION (M7O1) GAIN: 80dB (Max.) + 2dB FREQUENCY RESPONSE: + IdB 100 Hz to 1OkHz NOISE: Equivalent to 122dBm relative input noise TOTAL HAR- MONIC DISTOR- Less than 1% measured at +18dBm TION: output INPUT: 60dBm; 150 ohms balanced (conditional strapping determines dynamic or carbon source) OUTPUT: +8dBm, 600 ohms balanced (+18dBm Max.) COMPRESSION: 25dB range (may be switched out) POWER +24 to 36 volts dc unregulated.</p><p>REQUI REMENTS: 35mA approx: M712 1 x 12 Crosspoint mother board GAIN: Unity (+6dB pre-set control incor- porated FREQUENCY RESPONSE: + 0.5dB 50Hz to 10kHz NOISE: S/N better than 7OdB measured from +8dBm TOTAL HAR- MONIC DISTOR- Less than 0.5% measured at TION: +18dBm INPUT: +8dBm nominal (+18dBm Max:) balanced from direct line or from M703 preamplifier INPUT IMPEDANCE: 30k ohm balanced bridging OUTPUT: OdBm to +8dBm nominal (+18dBm Max: ) CROSSPOINT ISOLATION/CUT OFF: 1OOdB TURN ON/OFF TRANSIENT: Inaudible POWER REQUIREMENTS: 24 volts dc regulated 15mA POWER AMPLIFIER SECTION (M702) GAIN: 35dB (Max:) + 2dB FREQUENCY RESPONSE: + IdB 100 Hz to 8kHz NOISE: S/N better than 75dB measured from 3W output TOTAL HAR- MONIC DISTOR- Less than 15% measured at 3W TION: INPUT: OdBm to +18dBm, 600 ohms balanced from crosspoint matrix OUTPUT: 3 Watts directly into 8 ohms (not balanced) COMPRESSION: POWER +24 to 36 volts dc unregulated, 25mA REQUI REMENTS: (quiescent), 30OmA (at Max.</p><p>output)</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%207000%20series%20-%20promo%20-%20004.jpg">19xx - M712 - DOC - 7000 series - promo - 004.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Technical Data — 87 words · 19xx - M712 - DOC - 7000 series - 006.jpg, page 1</summary><p>M712 GAIN: Unity (#6dB pre-set control incorporated) FREQUENCY RESPONSE : 1 0 . 5dB 5OHz to 10kHz NOISE : S/N better than 7 0aB measured from +8dBm TOTAL HARMONIC DISTORTION : Less than 0.58 measured at +18dBm INPUT : +8dBm nominal (+18dBm Max . ) balanced from direct line or from M703 preamplifier INPUT IMPEDANCE : 30k ohm balanced bridging OUTPUT : OdBm to +8dBm nominal (+18dBm Max.</p><p>) CROSSPOINT ISOLATION/CUT OFF : 100dB TURN ON/OFF TRANSIENT : Inaudible POWER REQUIREMENTS : 24 volts dc regulated 15mA</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%207000%20series%20-%20006.jpg">19xx - M712 - DOC - 7000 series - 006.jpg</a>, p. 1</li>
+<li>also in: <a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%20promo%20-%207000%20series%20-%20004.jpg">19xx - M712 - DOC - promo - 7000 series - 004.jpg</a>, p. 1</li>
+</ul>
+<h2>Drawings (16)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="People.html#drawing-staff">Drawn by</a></th>
+<th><a href="People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>B 712-02-003</td>
+<td>M712 PART/ FULL MUTE / CROSS POINT / SCHEMATIC</td>
+<td><a href="Year-1972.html">1972|5</a></td>
+<td><a href="Person-TY.html">TY</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1972%20-%20712-02-003%20-%20PART%20FULL%20MUTE%20CROSS%20POINT%20SCHEMATIC%20-%20DRN%20TY%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 712-02-004</td>
+<td>M712 / CASCADE CONFIGURATION</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RB.html">RB (Rodger Beck)</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-004%20-%20CASCADE%20CONFIGURATION%20-%20DRN%20GEB%20-%20ISS%202.png">file</a></td>
+</tr>
+<tr>
+<td>B 712-02-006</td>
+<td>M722 / CROSSPOINT</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RRL.html">RRL</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-006%20-%20M722%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 712-02-007</td>
+<td>M723 / CROSSPOINT</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-007%20-%20M723%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 712-02-008</td>
+<td>M724 / CROSSPOINT</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-008%20-%20M724%20CROSSPOINT%20-%20DRN%20GEB.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 712-02-010</td>
+<td>M726 / CROSSPOINT</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-010%20-%20M726%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 712-02-012</td>
+<td>M728 / CROSSPOINT</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-012%20-%20M728%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Wil Turn Off Crosspoint</td>
+<td><a href="Year-1974.html">1974|7</a></td>
+<td><a href="Person-SEB.html">SEB</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1974%20-%20M712%20-%20DOC%20-%20WIL%20TURN%20OFF%20CROSSPOINT.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Will Mute Crosspoint Own Ontrol Audio Input Ssmod</td>
+<td><a href="Year-1974.html">1974|7</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1974%20-%20M712%20-%20DOC%20-%20WILL%20MUTE%20CROSSPOINT%20OWN%20ONTROL%20AUDIO%20INPUT%20SSMOD.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 712-02-009</td>
+<td>M725 / CROSSPOINT</td>
+<td><a href="Year-1974.html">1974|7</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1974%20-%20712-02-009%20-%20M725%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 712-02-013</td>
+<td>M729 / CROSSPOINT</td>
+<td><a href="Year-1974.html">1974|7</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1974%20-%20712-02-013%20-%20M729%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>D 712-02-102</td>
+<td>M712B / INTERCOM MATRIX AMPLIFIER / CONNECTION OF MULTIPLE MODULES</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1979%20-%20712-02-102%20-%20M712B%20INTERCOM%20MATRIX%20AMPLIFIER%20CONNECTION%20OF%20MULTIPLE%20MODULES%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 712-01-002</td>
+<td>INTERCOM MATRIX AMPLIFIER / FUNCTIONAL DIAGRAM</td>
+<td><a href="Year-1980.html">1980|13</a></td>
+<td><a href="Person-P-MAHONEY.html">P MAHONEY</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1980%20-%20712-01-002%20-%20INTERCOM%20MATRIX%20AMPLIFIER%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20Mahoney%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>712-02-012</td>
+<td>Direct Summing Input</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1972%20-%20M712%20-%20DOC%20-%20712-02-012%20-%20DIRECT%20SUMMING%20INPUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>712-02-104</td>
+<td>Test Fixture Schematic Note Binding Pest Terminals Used</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/POWER/M632/19xx%20-%20M632%20-%20DOC%20-%20712-02-104%20-%20TEST%20FIXTURE%20SCHEMATIC%20NOTE%20BINDING%20PEST%20TERMINALS%20USED.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 712-02-104</td>
+<td>M712A/T / TEST FIXTURE / SCHEMATIC</td>
+<td></td>
+<td><a href="Person-HM.html">HM</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20712-02-104%20-%20M712A%20T%20TEST%20FIXTURE%20SCHEMATIC%20-%20DRN%20HM%20-%20ENG%20HM%20-%20ISS%201.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M712&quot;,
+ &quot;name&quot;: &quot;Intercom Matrix Switching Board&quot;,
+ &quot;category&quot;: &quot;COMMUNICATION&quot;,
+ &quot;year&quot;: 1972,
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/1972 - 712-02-003 - PART FULL MUTE CROSS POINT SCHEMATIC - DRN TY - ISS 2.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/1972 - M712 - 7000 series - M712 Crosspoint Mb.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/1972 - M712 - Crosspoint Mb.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M175/1972 - M175 - DOC - 712-02-012 - DIRECT SUMMING INPUT.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/1973 - 712-02-004 - CASCADE CONFIGURATION - DRN GEB - ISS 2.png&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/1973 - 712-02-006 - M722 CROSSPOINT - DRN GEB - ISS 2.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/1973 - 712-02-007 - M723 CROSSPOINT - DRN GEB - ISS 3.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/1973 - 712-02-008 - M724 CROSSPOINT - DRN GEB.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;modules&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/1973 - 712-02-010 - M726 CROSSPOINT - DRN GEB - ISS 3.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/1973 - 712-02-012 - M728 CROSSPOINT - DRN GEB - ISS 3.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;modules&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/1974 - 712-02-009 - M725 CROSSPOINT - DRN GEB - ISS 3.jpg&quot;,
+   &quot;year&quot;: 1974,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/1974 - 712-02-013 - M729 CROSSPOINT - DRN GEB - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1974,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/1974 - M712 - DOC - WIL TURN OFF CROSSPOINT.jpg&quot;,
+   &quot;year&quot;: 1974,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/1974 - M712 - DOC - WILL MUTE CROSSPOINT OWN ONTROL AUDIO INPUT SSMOD.jpg&quot;,
+   &quot;year&quot;: 1974,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/RM424S/1975 - RM424S - PRICE LIST - PRICE LIST.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M122/1977 - M122 - PRICE LIST - 7000 series - price list.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M122/1977 - M122 - PRICE LIST - price list.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/1980 - 712-01-002 - INTERCOM MATRIX AMPLIFIER FUNCTIONAL DIAGRAM - DRN P. Mahoney - ISS 2.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/19xx - 712-02-104 - M712A T TEST FIXTURE SCHEMATIC - DRN HM - ENG HM - ISS 1.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;modules&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/19xx - M712 - DOC - 7000 series - 001 (2).jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/19xx - M712 - DOC - 7000 series - 001.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/19xx - M712 - DOC - 7000 series - 003 (2).jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/19xx - M712 - DOC - 7000 series - 003.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/19xx - M712 - DOC - 7000 series - 006.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/19xx - M712 - DOC - 7000 series - 011.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/19xx - M712 - DOC - 7000 series - 012.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/19xx - M712 - DOC - 7000 series - promo - 002.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/19xx - M712 - DOC - 7000 series - promo - 003.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/19xx - M712 - DOC - 7000 series - promo - 004.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/19xx - M712 - DOC - promo - 7000 series - 002.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/19xx - M712 - DOC - promo - 7000 series - 003.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/19xx - M712 - DOC - promo - 7000 series - 004.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../_catalog/libcontrol/libcontrol.css"><script src="../_catalog/libcontrol/react.js"></script><script src="../_catalog/libcontrol/react-dom.js"></script><script src="../_catalog/libcontrol/libcontrol.js"></script><script src="../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M712.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

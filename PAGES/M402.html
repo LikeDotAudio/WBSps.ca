@@ -1,0 +1,1167 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M402</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>M402</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="Category-FILTERS.html">FILTERS</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../simulator.html?m=M402">simulator &amp; front panel</a> · <a href="../_packages/M402.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="Year-1968.html">1968|1</a> — title-block date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"DATE AUg 68" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M402/402-09-001.jpg</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="Year-1968.html">1968|1</a></td>
+</tr>
+<tr>
+<td>Variants</td>
+<td><a href="M402A.html">M402A</a>, <a href="M402B.html">M402B</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../Modules/FILTERS/M402/index.html">Modules/FILTERS/M402</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../Modules/FILTERS/M404/index.html">Modules/FILTERS/M404</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections</h2>
+<p><em>What it is made of and what it is part of.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M402" data-n="" data-cat="FILTERS"></div><svg class="wbs-panel" data-m="M402" data-n="" data-cat="FILTERS" role="img" aria-label="M402 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M402","title":"","rto":null,"parts":[{"item":"60-7","title":"60-7 / INPUT TRANSFORMER","label":"60-7 60-7 / INPUT TRANSFORMER","href":"Transformers.html#60-7","note":"Input transformers (60-n)"}],"parents":[{"label":"M404","href":"M404.html","note":"on 4 drawings with it"},{"label":"M402B","href":"M402B.html","note":"on 4 drawings with it: Effects Equalizer"},{"label":"M402A","href":"M402A.html","note":"on 4 drawings with it: Spec Sheet"},{"label":"M404A","href":"M404A.html","note":"on 3 drawings with it: Hi/Lo Pass Filter"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20402-09-001%20-%20BEND%20RAD%20UNLESS%20SPECIFIED.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20402-09-001%20-%20BEND%20RAD%20UNLESS%20SPECIFIED.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - 402-09-001 - BEND RAD UNLESS SPECIFIED.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402 - 402-09-001 - BEND RAD UNLESS SPECIFIED.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/19xx%20-%20M402%20-%20AD%20-%2020170522_122029_020.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/19xx%20-%20M402%20-%20AD%20-%2020170522_122029_020.jpg" alt="" data-f="Modules/FILTERS/M402/19xx - M402 - AD - 20170522_122029_020.jpg" data-size="320" onerror="wbsOff(this)">19xx - M402 - AD - 20170522_122029_020.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20402-09-001%20-%20%26%20404%20EQUALIZER%20PLUG%20CONNECTIONS%20-%20DRN%20C.S.%20O%27CONNELL%20-%20ISS%202.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20402-09-001%20-%20%26%20404%20EQUALIZER%20PLUG%20CONNECTIONS%20-%20DRN%20C.S.%20O%27CONNELL%20-%20ISS%202.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - 402-09-001 - &amp; 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O&#x27;CONNELL - ISS 2.jpg" data-size="320" onerror="wbsOff(this)">1968 - 402-09-001 - &amp; 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O&#x27;CONNELL - ISS 2.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20402-09-001%20-%20%26%20404%20EQUALIZER%20PLUG%20CONNECTIONS%20-%20DRN%20C.S.%20O%27CONNELL.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20402-09-001%20-%20%26%20404%20EQUALIZER%20PLUG%20CONNECTIONS%20-%20DRN%20C.S.%20O%27CONNELL.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - 402-09-001 - &amp; 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O&#x27;CONNELL.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1968 - 402-09-001 - &amp; 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O&#x27;CONNELL.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20144-06-001%20-%20EATERTAL%20COMPONENT%20LAYOUT.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20144-06-001%20-%20EATERTAL%20COMPONENT%20LAYOUT.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - 144-06-001 - EATERTAL COMPONENT LAYOUT.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1968 - M402 - 144-06-001 - EATERTAL COMPONENT LAYOUT.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20144-06-002%20-%20BEND%20RAD%20UNLESS%20SPECIFIED.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20144-06-002%20-%20BEND%20RAD%20UNLESS%20SPECIFIED.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - 144-06-002 - BEND RAD UNLESS SPECIFIED.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1968 - M402 - 144-06-002 - BEND RAD UNLESS SPECIFIED.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20402-02-011.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20402-02-011.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - 402-02-011.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402 - 402-02-011.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20402-02-012%20-%20LPE%20MIN%20BEND%20RAD%20UNESS%20SPECIFIED.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20402-02-012%20-%20LPE%20MIN%20BEND%20RAD%20UNESS%20SPECIFIED.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - 402-02-012 - LPE MIN BEND RAD UNESS SPECIFIED.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1968 - M402 - 402-02-012 - LPE MIN BEND RAD UNESS SPECIFIED.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20402-02-013.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20402-02-013.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - 402-02-013.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402 - 402-02-013.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20402-04-005%20-%20QIN%20BEND%20RAD%20UNLESS.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20402-04-005%20-%20QIN%20BEND%20RAD%20UNLESS.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - 402-04-005 - QIN BEND RAD UNLESS.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1968 - M402 - 402-04-005 - QIN BEND RAD UNLESS.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20402bswitchschematic_assembled.gif"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20402bswitchschematic_assembled.gif" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - 402bswitchschematic_assembled.gif" data-size="320" onerror="wbsOff(this)">1968 - M402 - 402bswitchschematic_assembled.gif</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20B%201-139-02-001%20-%20M402B%20-%20EQUALIZER%20MODULE%20-%20PCB%20SCHEMATIC.gif"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20B%201-139-02-001%20-%20M402B%20-%20EQUALIZER%20MODULE%20-%20PCB%20SCHEMATIC.gif" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - B 1-139-02-001 - M402B - EQUALIZER MODULE - PCB SCHEMATIC.gif" data-size="320" onerror="wbsOff(this)">1968 - M402 - B 1-139-02-001 - M402B - EQUALIZER MODULE - PCB SCHEMATIC.gif</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P1.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20P1.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - P1.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402 - P1.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P10.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20P10.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - P10.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402 - P10.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P11.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20P11.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - P11.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402 - P11.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P12.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20P12.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - P12.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402 - P12.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P13.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20P13.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - P13.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402 - P13.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P14.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20P14.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - P14.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402 - P14.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P15.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20P15.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - P15.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402 - P15.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P16.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20P16.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - P16.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402 - P16.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P17.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20P17.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - P17.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402 - P17.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P18.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20P18.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - P18.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402 - P18.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P19.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20P19.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - P19.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402 - P19.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P2.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20P2.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - P2.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402 - P2.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P20.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20P20.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - P20.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402 - P20.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P21.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20P21.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - P21.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402 - P21.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P22.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20P22.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - P22.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402 - P22.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P23.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20P23.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - P23.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402 - P23.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P24.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20P24.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - P24.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402 - P24.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P25.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20P25.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - P25.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402 - P25.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P26.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20P26.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - P26.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402 - P26.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P3.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20P3.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - P3.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402 - P3.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P4.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20P4.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - P4.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402 - P4.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P5.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20P5.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - P5.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402 - P5.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P6.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20P6.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - P6.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402 - P6.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P7.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20P7.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - P7.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402 - P7.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P8.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20P8.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - P8.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402 - P8.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P9.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20P9.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - P9.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402 - P9.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20wbs-m402b1.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20wbs-m402b1.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - wbs-m402b1.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402 - wbs-m402b1.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20wbs-m402b2.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20M402%20-%20wbs-m402b2.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - M402 - wbs-m402b2.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402 - wbs-m402b2.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1969%20-%20402-03-004%20-%20SWITCH%20MTG%20BRKT%20M402A%20-%20ISS%204.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1969%20-%20402-03-004%20-%20SWITCH%20MTG%20BRKT%20M402A%20-%20ISS%204.jpg" alt="" data-f="Modules/FILTERS/M402/1969 - 402-03-004 - SWITCH MTG BRKT M402A - ISS 4.jpg" data-size="320" onerror="wbsOff(this)">1969 - 402-03-004 - SWITCH MTG BRKT M402A - ISS 4.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1970%20-%20402-02-011%20-%20M402A%20AND%20M404A%20EQUALIZER%20PLUG%20CONNECTIONS%20-%20DRN%20DJG%20-%20ISS%203.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1970%20-%20402-02-011%20-%20M402A%20AND%20M404A%20EQUALIZER%20PLUG%20CONNECTIONS%20-%20DRN%20DJG%20-%20ISS%203.jpg" alt="" data-f="Modules/FILTERS/M402/1970 - 402-02-011 - M402A AND M404A EQUALIZER PLUG CONNECTIONS - DRN DJG - ISS 3.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1970 - 402-02-011 - M402A AND M404A EQUALIZER PLUG CONNECTIONS - DRN DJG - ISS 3.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1970%20-%20402-02-012%20-%20M402A%20AND%20M404A%20SYSTEM%20WIRING%20-%20DRN%20DJG%20-%20ISS%202.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1970%20-%20402-02-012%20-%20M402A%20AND%20M404A%20SYSTEM%20WIRING%20-%20DRN%20DJG%20-%20ISS%202.jpg" alt="" data-f="Modules/FILTERS/M402/1970 - 402-02-012 - M402A AND M404A SYSTEM WIRING - DRN DJG - ISS 2.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1970 - 402-02-012 - M402A AND M404A SYSTEM WIRING - DRN DJG - ISS 2.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1970%20-%20402-02-012%20-%20M402A%28B%29%20%26%20M404A%20SYSTEM%20WIRING%20-%20DRN%20DJG%20-%20ISS%205.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1970%20-%20402-02-012%20-%20M402A%28B%29%20%26%20M404A%20SYSTEM%20WIRING%20-%20DRN%20DJG%20-%20ISS%205.jpg" alt="" data-f="Modules/FILTERS/M402/1970 - 402-02-012 - M402A(B) &amp; M404A SYSTEM WIRING - DRN DJG - ISS 5.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1970 - 402-02-012 - M402A(B) &amp; M404A SYSTEM WIRING - DRN DJG - ISS 5.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1971%20-%20402-02-013%20-%20M402B%20EQUALIZER%20MODULE%20SCHEMATIC%20-%20DRN%20PHIL%20-%20ISS%207.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1971%20-%20402-02-013%20-%20M402B%20EQUALIZER%20MODULE%20SCHEMATIC%20-%20DRN%20PHIL%20-%20ISS%207.jpg" alt="" data-f="Modules/FILTERS/M402/1971 - 402-02-013 - M402B EQUALIZER MODULE SCHEMATIC - DRN PHIL - ISS 7.jpg" data-size="320" onerror="wbsOff(this)">1971 - 402-02-013 - M402B EQUALIZER MODULE SCHEMATIC - DRN PHIL - ISS 7.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1971%20-%20402-02-013%20-%20M402B%20EQUALIZER%20MODULE%20SCHEMATIC%20-%20DRN%20PHL%20-%20ISS%204.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1971%20-%20402-02-013%20-%20M402B%20EQUALIZER%20MODULE%20SCHEMATIC%20-%20DRN%20PHL%20-%20ISS%204.jpg" alt="" data-f="Modules/FILTERS/M402/1971 - 402-02-013 - M402B EQUALIZER MODULE SCHEMATIC - DRN PHL - ISS 4.jpg" data-size="320" onerror="wbsOff(this)">1971 - 402-02-013 - M402B EQUALIZER MODULE SCHEMATIC - DRN PHL - ISS 4.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1971%20-%20402-03-003%20-%20ESCUTCHEON%20DRILLING%20DETAIL%20-%20DRN%20WWH%20-%20ISS%207.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1971%20-%20402-03-003%20-%20ESCUTCHEON%20DRILLING%20DETAIL%20-%20DRN%20WWH%20-%20ISS%207.jpg" alt="" data-f="Modules/FILTERS/M402/1971 - 402-03-003 - ESCUTCHEON DRILLING DETAIL - DRN WWH - ISS 7.jpg" data-size="320" onerror="wbsOff(this)">1971 - 402-03-003 - ESCUTCHEON DRILLING DETAIL - DRN WWH - ISS 7.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1971%20-%20402-04-005%20-%20M402B%20EQUALIZER%20MODULE%20LAYOUT%20-%20DRN%20PHL%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1971%20-%20402-04-005%20-%20M402B%20EQUALIZER%20MODULE%20LAYOUT%20-%20DRN%20PHL%20-%20ISS%201.jpg" alt="" data-f="Modules/FILTERS/M402/1971 - 402-04-005 - M402B EQUALIZER MODULE LAYOUT - DRN PHL - ISS 1.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1971 - 402-04-005 - M402B EQUALIZER MODULE LAYOUT - DRN PHL - ISS 1.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402B/m402b-docs-10.gif"><img loading="lazy" src="../Modules/FILTERS/M402B/m402b-docs-10.gif" alt="" data-f="Modules/FILTERS/M402B/m402b-docs-10.gif" data-size="320" onerror="wbsOff(this)">m402b-docs-10.gif</a><a href="../viewer.html?f=PHOTOS/Photos/Screen%20Shot%202015-05-12%20at%207.27.07%20AM-2015-05-12.png"><img loading="lazy" src="../PHOTOS/Photos/Screen%20Shot%202015-05-12%20at%207.27.07%20AM-2015-05-12.png" alt="" data-f="PHOTOS/Photos/Screen Shot 2015-05-12 at 7.27.07 AM-2015-05-12.png" data-size="320" onerror="wbsOff(this)">Screen Shot 2015-05-12 at 7.27.07 AM-2015-05-12.png</a><a href="../viewer.html?f=PHOTOS/Photos/WBSPS%20-%20M404%20M402%20Connector%20Hookup.png"><img loading="lazy" src="../PHOTOS/Photos/WBSPS%20-%20M404%20M402%20Connector%20Hookup.png" alt="" data-f="PHOTOS/Photos/WBSPS - M404 M402 Connector Hookup.png" data-size="320" onerror="wbsOff(this)">WBSPS - M404 M402 Connector Hookup.png</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P1.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P1.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P1.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P1.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P11.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P11.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P11.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P11.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P12.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P12.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P12.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P12.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P2.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P2.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P2.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P2.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P3.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P3.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P3.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P3.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P4.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P4.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P4.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P4.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P5.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P5.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P5.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P5.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P8.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P8.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P8.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P8.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P9.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P9.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P9.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P9.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M404A/1968%20-%20M404A%20-%20P2.jpg"><img loading="lazy" src="../Modules/FILTERS/M404A/1968%20-%20M404A%20-%20P2.jpg" alt="" data-f="Modules/FILTERS/M404A/1968 - M404A - P2.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404A - P2.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402B/1970%20-%20M402B%20-%20402-02-012%20-%20WAAD-BECK%20BYBTEMB%20LTO%20ISSMOCKD.gif"><img loading="lazy" src="../Modules/FILTERS/M402B/1970%20-%20M402B%20-%20402-02-012%20-%20WAAD-BECK%20BYBTEMB%20LTO%20ISSMOCKD.gif" alt="" data-f="Modules/FILTERS/M402B/1970 - M402B - 402-02-012 - WAAD-BECK BYBTEMB LTO ISSMOCKD.gif" data-size="320" onerror="wbsOff(this)">1970 - M402B - 402-02-012 - WAAD-BECK BYBTEMB LTO ISSMOCKD.gif</a><a href="../viewer.html?f=Modules/FILTERS/M402B/1970%20-%20M402B%20-%20P2.jpg"><img loading="lazy" src="../Modules/FILTERS/M402B/1970%20-%20M402B%20-%20P2.jpg" alt="" data-f="Modules/FILTERS/M402B/1970 - M402B - P2.jpg" data-size="320" onerror="wbsOff(this)">1970 - M402B - P2.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402B/1970%20-%20M402B%20-%20P3.jpg"><img loading="lazy" src="../Modules/FILTERS/M402B/1970%20-%20M402B%20-%20P3.jpg" alt="" data-f="Modules/FILTERS/M402B/1970 - M402B - P3.jpg" data-size="320" onerror="wbsOff(this)">1970 - M402B - P3.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.50%20PM.png"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.50%20PM.png" alt="" data-f="Modules/INPUT-PRE-AMPS/M441/1971 - M441 - Screen Shot 2013-03-27 at 10.52.50 PM.png" data-size="320" onerror="wbsOff(this)">1971 - M441 - Screen Shot 2013-03-27 at 10.52.50 PM.png</a><a href="../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20402-09-001%20-%20TIR%27%20MINBEND%20RAD%20UNLESS%20SPECIFIED.jpg"><img loading="lazy" src="../Modules/FILTERS/M404/1968%20-%20M404%20-%20402-09-001%20-%20TIR%27%20MINBEND%20RAD%20UNLESS%20SPECIFIED.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - 402-09-001 - TIR&#x27; MINBEND RAD UNLESS SPECIFIED.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1968 - M404 - 402-09-001 - TIR&#x27; MINBEND RAD UNLESS SPECIFIED.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20402-02-010%20-%20M402A%20EFFECTS%20EQUALIZER%20SCHEMATIC%20-%20CKD%20RB%20-%20ISS%206.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1968%20-%20402-02-010%20-%20M402A%20EFFECTS%20EQUALIZER%20SCHEMATIC%20-%20CKD%20RB%20-%20ISS%206.jpg" alt="" data-f="Modules/FILTERS/M402/1968 - 402-02-010 - M402A EFFECTS EQUALIZER SCHEMATIC - CKD RB - ISS 6.jpg" data-size="320" onerror="wbsOff(this)">1968 - 402-02-010 - M402A EFFECTS EQUALIZER SCHEMATIC - CKD RB - ISS 6.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M404A/1968%20-%20M404A%20-%20402-02-012%20-%20WATER%20PIPE.jpg"><img loading="lazy" src="../Modules/FILTERS/M404A/1968%20-%20M404A%20-%20402-02-012%20-%20WATER%20PIPE.jpg" alt="" data-f="Modules/FILTERS/M404A/1968 - M404A - 402-02-012 - WATER PIPE.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1968 - M404A - 402-02-012 - WATER PIPE.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1971%20-%20402-04-005%20-%20M402B%20EQUALIZER%20MODULE%20LAYOUT%20-%20DRN%20PHIL%20-%20ISS%201.gif"><img loading="lazy" src="../Modules/FILTERS/M402/1971%20-%20402-04-005%20-%20M402B%20EQUALIZER%20MODULE%20LAYOUT%20-%20DRN%20PHIL%20-%20ISS%201.gif" alt="" data-f="Modules/FILTERS/M402/1971 - 402-04-005 - M402B EQUALIZER MODULE LAYOUT - DRN PHIL - ISS 1.gif" data-size="320" onerror="wbsOff(this)">1971 - 402-04-005 - M402B EQUALIZER MODULE LAYOUT - DRN PHIL - ISS 1.gif</a><a href="../viewer.html?f=Modules/FILTERS/M404A/1968%20-%20M404A%20-%20402-02-011%20-%20FINE%20MIN%20BEND%20RAD%20UNLESS%20SPECIFIED.jpg"><img loading="lazy" src="../Modules/FILTERS/M404A/1968%20-%20M404A%20-%20402-02-011%20-%20FINE%20MIN%20BEND%20RAD%20UNLESS%20SPECIFIED.jpg" alt="" data-f="Modules/FILTERS/M404A/1968 - M404A - 402-02-011 - FINE MIN BEND RAD UNLESS SPECIFIED.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1968 - M404A - 402-02-011 - FINE MIN BEND RAD UNLESS SPECIFIED.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402B/1970%20-%20M402B%20-%20402-02-013.jpg"><img loading="lazy" src="../Modules/FILTERS/M402B/1970%20-%20M402B%20-%20402-02-013.jpg" alt="" data-f="Modules/FILTERS/M402B/1970 - M402B - 402-02-013.jpg" data-size="320" onerror="wbsOff(this)">1970 - M402B - 402-02-013.jpg</a></div>
+
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-1968.html">1968|1</a></td>
+<td>title-block date</td>
+<td><code>DATE AUg 68</code></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20402-09-001%20-%20BEND%20RAD%20UNLESS%20SPECIFIED.jpg">1968 - M402 - 402-09-001 - BEND RAD UNLESS SPECIFIED.jpg</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Physical manual inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Location</th>
+<th>Status</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M402</td>
+<td></td>
+<td></td>
+<td>Recently scanned and stiched by WB</td>
+</tr>
+</tbody>
+</table>
+<h2>Ads &amp; brochures</h2>
+<ul>
+<li><a href="../viewer.html?f=Modules/FILTERS/M402/19xx%20-%20M402%20-%20AD%20-%2020170522_122029_020.jpg">19xx - M402 - AD - 20170522_122029_020.jpg</a></li>
+<li><a href="../viewer.html?f=Modules/FILTERS/M404/19xx%20-%20M404%20-%20AD%20-%2020170522_122029_020.jpg">19xx - M404 - AD - 20170522_122029_020.jpg</a></li>
+</ul>
+<h2>Photos &amp; scans (47)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20402-09-001%20-%20%26%20404%20EQUALIZER%20PLUG%20CONNECTIONS%20-%20DRN%20C.S.%20O%27CONNELL%20-%20ISS%202.jpg">1968 - 402-09-001 - &amp; 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL - ISS 2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20402-09-001%20-%20%26%20404%20EQUALIZER%20PLUG%20CONNECTIONS%20-%20DRN%20C.S.%20O%27CONNELL%20-%20ISS%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20402-09-001%20-%20%26%20404%20EQUALIZER%20PLUG%20CONNECTIONS%20-%20DRN%20C.S.%20O%27CONNELL.jpg">1968 - 402-09-001 - &amp; 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20402-09-001%20-%20%26%20404%20EQUALIZER%20PLUG%20CONNECTIONS%20-%20DRN%20C.S.%20O%27CONNELL.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20144-06-001%20-%20EATERTAL%20COMPONENT%20LAYOUT.jpg">1968 - M402 - 144-06-001 - EATERTAL COMPONENT LAYOUT.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20144-06-001%20-%20EATERTAL%20COMPONENT%20LAYOUT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20144-06-002%20-%20BEND%20RAD%20UNLESS%20SPECIFIED.jpg">1968 - M402 - 144-06-002 - BEND RAD UNLESS SPECIFIED.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20144-06-002%20-%20BEND%20RAD%20UNLESS%20SPECIFIED.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20402-02-011.jpg">1968 - M402 - 402-02-011.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20402-02-011.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20402-02-012%20-%20LPE%20MIN%20BEND%20RAD%20UNESS%20SPECIFIED.jpg">1968 - M402 - 402-02-012 - LPE MIN BEND RAD UNESS SPECIFIED.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20402-02-012%20-%20LPE%20MIN%20BEND%20RAD%20UNESS%20SPECIFIED.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20402-02-013.jpg">1968 - M402 - 402-02-013.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20402-02-013.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20402-04-005%20-%20QIN%20BEND%20RAD%20UNLESS.jpg">1968 - M402 - 402-04-005 - QIN BEND RAD UNLESS.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20402-04-005%20-%20QIN%20BEND%20RAD%20UNLESS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20402-09-001%20-%20BEND%20RAD%20UNLESS%20SPECIFIED.jpg">1968 - M402 - 402-09-001 - BEND RAD UNLESS SPECIFIED.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20402-09-001%20-%20BEND%20RAD%20UNLESS%20SPECIFIED.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20402bswitchschematic_assembled.gif">1968 - M402 - 402bswitchschematic_assembled.gif</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20402bswitchschematic_assembled.gif.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20B%201-139-02-001%20-%20M402B%20-%20EQUALIZER%20MODULE%20-%20PCB%20SCHEMATIC.gif">1968 - M402 - B 1-139-02-001 - M402B - EQUALIZER MODULE - PCB SCHEMATIC.gif</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20B%201-139-02-001%20-%20M402B%20-%20EQUALIZER%20MODULE%20-%20PCB%20SCHEMATIC.gif.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P1.jpg">1968 - M402 - P1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P10.jpg">1968 - M402 - P10.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P10.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P11.jpg">1968 - M402 - P11.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P11.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P12.jpg">1968 - M402 - P12.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P12.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P13.jpg">1968 - M402 - P13.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P13.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P14.jpg">1968 - M402 - P14.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P14.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P15.jpg">1968 - M402 - P15.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P15.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P16.jpg">1968 - M402 - P16.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P16.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P17.jpg">1968 - M402 - P17.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P17.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P18.jpg">1968 - M402 - P18.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P18.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P19.jpg">1968 - M402 - P19.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P19.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P2.jpg">1968 - M402 - P2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P20.jpg">1968 - M402 - P20.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P20.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P21.jpg">1968 - M402 - P21.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P21.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P22.jpg">1968 - M402 - P22.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P22.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P23.jpg">1968 - M402 - P23.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P23.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P24.jpg">1968 - M402 - P24.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P24.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P25.jpg">1968 - M402 - P25.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P25.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P26.jpg">1968 - M402 - P26.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P26.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P3.jpg">1968 - M402 - P3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P4.jpg">1968 - M402 - P4.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P4.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P5.jpg">1968 - M402 - P5.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P5.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P6.jpg">1968 - M402 - P6.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P6.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P7.jpg">1968 - M402 - P7.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P7.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P8.jpg">1968 - M402 - P8.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P8.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P9.jpg">1968 - M402 - P9.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P9.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20wbs-m402b1.jpg">1968 - M402 - wbs-m402b1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20wbs-m402b1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20wbs-m402b2.jpg">1968 - M402 - wbs-m402b2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20wbs-m402b2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1969|2</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1969%20-%20402-03-004%20-%20SWITCH%20MTG%20BRKT%20M402A%20-%20ISS%204.jpg">1969 - 402-03-004 - SWITCH MTG BRKT M402A - ISS 4.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1969%20-%20402-03-004%20-%20SWITCH%20MTG%20BRKT%20M402A%20-%20ISS%204.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1970%20-%20402-02-011%20-%20M402A%20AND%20M404A%20EQUALIZER%20PLUG%20CONNECTIONS%20-%20DRN%20DJG%20-%20ISS%203.jpg">1970 - 402-02-011 - M402A AND M404A EQUALIZER PLUG CONNECTIONS - DRN DJG - ISS 3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1970%20-%20402-02-011%20-%20M402A%20AND%20M404A%20EQUALIZER%20PLUG%20CONNECTIONS%20-%20DRN%20DJG%20-%20ISS%203.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1970%20-%20402-02-012%20-%20M402A%20AND%20M404A%20SYSTEM%20WIRING%20-%20DRN%20DJG%20-%20ISS%202.jpg">1970 - 402-02-012 - M402A AND M404A SYSTEM WIRING - DRN DJG - ISS 2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1970%20-%20402-02-012%20-%20M402A%20AND%20M404A%20SYSTEM%20WIRING%20-%20DRN%20DJG%20-%20ISS%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1970%20-%20402-02-012%20-%20M402A%28B%29%20%26%20M404A%20SYSTEM%20WIRING%20-%20DRN%20DJG%20-%20ISS%205.jpg">1970 - 402-02-012 - M402A(B) &amp; M404A SYSTEM WIRING - DRN DJG - ISS 5.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1970%20-%20402-02-012%20-%20M402A%28B%29%20%26%20M404A%20SYSTEM%20WIRING%20-%20DRN%20DJG%20-%20ISS%205.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1971%20-%20402-02-013%20-%20M402B%20EQUALIZER%20MODULE%20SCHEMATIC%20-%20DRN%20PHIL%20-%20ISS%207.jpg">1971 - 402-02-013 - M402B EQUALIZER MODULE SCHEMATIC - DRN PHIL - ISS 7.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1971%20-%20402-02-013%20-%20M402B%20EQUALIZER%20MODULE%20SCHEMATIC%20-%20DRN%20PHIL%20-%20ISS%207.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1971%20-%20402-02-013%20-%20M402B%20EQUALIZER%20MODULE%20SCHEMATIC%20-%20DRN%20PHL%20-%20ISS%204.jpg">1971 - 402-02-013 - M402B EQUALIZER MODULE SCHEMATIC - DRN PHL - ISS 4.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1971%20-%20402-02-013%20-%20M402B%20EQUALIZER%20MODULE%20SCHEMATIC%20-%20DRN%20PHL%20-%20ISS%204.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1971%20-%20402-03-003%20-%20ESCUTCHEON%20DRILLING%20DETAIL%20-%20DRN%20WWH%20-%20ISS%207.jpg">1971 - 402-03-003 - ESCUTCHEON DRILLING DETAIL - DRN WWH - ISS 7.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1971%20-%20402-03-003%20-%20ESCUTCHEON%20DRILLING%20DETAIL%20-%20DRN%20WWH%20-%20ISS%207.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1971|4</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1971%20-%20402-04-005%20-%20M402B%20EQUALIZER%20MODULE%20LAYOUT%20-%20DRN%20PHL%20-%20ISS%201.jpg">1971 - 402-04-005 - M402B EQUALIZER MODULE LAYOUT - DRN PHL - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1971%20-%20402-04-005%20-%20M402B%20EQUALIZER%20MODULE%20LAYOUT%20-%20DRN%20PHL%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Sub-assemblies &amp; parts used (1)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What</th>
+<th>Family</th>
+<th>Year</th>
+<th>How we know</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Register-Input-transformers-60-n.html#60-7">60-7</a></td>
+<td>60-7 / INPUT TRANSFORMER</td>
+<td>Input transformers (60-n)</td>
+<td>1968|1</td>
+<td>named in its manual</td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (21)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402B/m402b-docs-10.gif">m402b-docs-10.gif</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=PHOTOS/Photos/Screen%20Shot%202015-05-12%20at%207.27.07%20AM-2015-05-12.png">Screen Shot 2015-05-12 at 7.27.07 AM-2015-05-12.png</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=PHOTOS/Photos/WBSPS%20-%20M404%20M402%20Connector%20Hookup.png">WBSPS - M404 M402 Connector Hookup.png</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P1.jpg">1968 - M402A - P1.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P11.jpg">1968 - M402A - P11.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P12.jpg">1968 - M402A - P12.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P2.jpg">1968 - M402A - P2.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P3.jpg">1968 - M402A - P3.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P4.jpg">1968 - M402A - P4.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P5.jpg">1968 - M402A - P5.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P8.jpg">1968 - M402A - P8.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P9.jpg">1968 - M402A - P9.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/FILTERS/M404A/1968%20-%20M404A%20-%20P2.jpg">1968 - M404A - P2.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402B/1970%20-%20M402B%20-%20402-02-012%20-%20WAAD-BECK%20BYBTEMB%20LTO%20ISSMOCKD.gif">1970 - M402B - 402-02-012 - WAAD-BECK BYBTEMB LTO ISSMOCKD.gif</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402B/1970%20-%20M402B%20-%20Equalizer%20%282%29.pdf">1970 - M402B - Equalizer (2).pdf</a></td>
+<td>10</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402B/1970%20-%20M402B%20-%20Equalizer%20%282%29.pdf">1970 - M402B - Equalizer (2).pdf</a></td>
+<td>12</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402B/1970%20-%20M402B%20-%20Equalizer.pdf">1970 - M402B - Equalizer.pdf</a></td>
+<td>10</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402B/1970%20-%20M402B%20-%20Equalizer.pdf">1970 - M402B - Equalizer.pdf</a></td>
+<td>12</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402B/1970%20-%20M402B%20-%20P2.jpg">1970 - M402B - P2.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402B/1970%20-%20M402B%20-%20P3.jpg">1970 - M402B - P3.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20M441%20-%20Screen%20Shot%202013-03-27%20at%2010.52.50%20PM.png">1971 - M441 - Screen Shot 2013-03-27 at 10.52.50 PM.png</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>Specifications (1)</h3>
+<details><summary>Technical Data — 135 words · 1968 - M402 - P3.jpg, page 1</summary><p>MATCHED GAIN: 38db FREQUENCY RESPONSE tO.bdb from 2Ohz to 2OKhz (effects controls at zero position) EQUIVALENT INPUT NOISE -115dbm (1Ohz to 1OOKhz bandwidth) HARMONIC DISTORTION Less than 0.5% from 3Ohz to 2OKhz (Measured at +18dbm output level) SOURCE IMPEDANCE 150/600 ohms balanced or unbalanced INPUT IMPEDANCE 150/600 ohms + 10% INPUT LEVEL -38db nominal, ~2Odb maximum LOAD IMPEDANCE 600 hms OUTPUT IMPEDANCE 600 ohms (150 ohms available) + 10% OUTPUT LEVEL +18dbm maximum PHASING The low terminal number of the input pair and the low terminal number of the output pair are in phase.</p><p>EQUALIZING CHARACTERISTICS In accordance with specified curves within # 0.Sdb POWER RE QUIREMENTS 48 volts dc, regulated from M848 or equivalent. 65mA AMBIENT TEMPERATURE 0 to 60%c DIMENSIONS 1.58W X 6.6251X 6D (depth below panel) inches WEIGHT : 12 lbs Net</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P3.jpg">1968 - M402 - P3.jpg</a>, p. 1</li>
+</ul>
+<h3>Circuit description (1)</h3>
+<details><summary>Circuit Description — 339 words · 1968 - M402 - P5.jpg, page 1</summary><p>Refer to schematic diagram 402-02-001 The M402 has three main active circuit sections low noise preamplifier, equalizer networks and output amplifier The equalizer section has Unity gain and is switched in and out between the preamplifier and output amplifier via switch SW6 _ With SW6 selected to the &quot;out&quot; position the preamplifier is connected directly to the output amplifier and the equalizer functions as conventional amplifier with flat response characteristics _ The input signal is applied to the preamplifier via the 14 pin connector and transformer T1 The input may be connected on the mating plug to operate from 150 or 600 ohm source impedances.</p><p>The Signal is applied to common emitter amplifier_ Q1 base Via T1 secondary. Q1 is direct coupled to emitter follower Q2. R4 and R5 set the gain of the preamplifier and introduce negative feedback through T1 secondary C5 is the preamplifier output coupling capacitor and connects to terminal B of the equalizer 14 pin connector SW6 is interconnected between the preamplifier and output amplifier Via terminals E and J This arrangement allows the use of a remote or external insert switch which may be connected using shielded cable of Up to 24 inches in length _ Thus, the equalizer insert function may be grouped with other illuminated assignment pushbuttons incorporated within custom mixing consoles_ Terminal M is the input to the integrated circuit balanced output amplifier R9O through R93 and C34 through C36 form compensation network to limit the response outside the audio spectrum C37 is the coupling capacitor to the non-inverting and inverting input to 23 and Z4 respectively.</p><p>C48 and C49 couple the actively balanced audio output from Z3 and 24 and present a +24dbm capability output Via terminals P and R balanced to ground The equalizer section is interposed Via SW6. Capacitor C6 couples the signal from SW6 to the input of the equalizer section. C6 in conjunction with resistors R1?2 through R17 form 6db/octave high pass filter Attenuation i5 achieved in 8db steps producing 3,6,9,12 and 1Sdb positions at 1OOhz_</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P5.jpg">1968 - M402 - P5.jpg</a>, p. 1</li>
+</ul>
+<h3>Installation (1)</h3>
+<details><summary>Installation — 266 words · 1968 - M402 - P4.jpg, page 1</summary><p>The M402 is designed to mount directly on mixing console front panel_ The dimensia s are such that the unit may be mounted in line with a standard straight line mixing attenuator associated with each mixing channel_ cutout 1.56W X 6L and two tapped holes will be required as shown in drawing 402-08-001 The escutcheon of the M402 will overlap the cutout and holes.</p><p>External connections are made to the 14 pin female mating connector in accordance with drawing 402-09-001 and Table 1, For optimum results_ use insulated, shielded twisted pairs for both input and output wiring. The optional external insert switch should be wired with shielded twisted pairs and located not more than 24 inches from the module. Dress all audio cables apart from ac and power supply wiring.</p><p>Ground shields at one end only and use separate ground return wire to the system common ground for the power supply and shields as shown in the System Wiring Diagram 404-09-002 The metal frame of the M402 equalizer should be bonded to the system ground. In this case it is permissible to loop through each unit with a common ground wire connected via pin &quot;N&quot; When used in system, such as an audio mixing console, the M402 equalizer should be operated from a separate power supply than the ones used to provide dc power to program amplifiers, cue amplifiers or other similar units operating at high output levels _ The latter units produce large current swings and the possibility of instability, noise or crosstalk should be avoided in systems which combine high gain and wide-band amplifiers</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P4.jpg">1968 - M402 - P4.jpg</a>, p. 1</li>
+</ul>
+<h3>Operation (1)</h3>
+<details><summary>Controls — 264 words · 1968 - M402 - P7.jpg, page 1</summary><p>The M402 has three groups of concentric controls to be used throughout the operation of the unit. These transient-free controls may be pre-set or adjusted during the operation of the unit. With the exception of the Mid- Low-Frequency boost and Presence Boost (these functions share five positions each side of a common selector switch) all functions are cumulative and may be used in combination to achieve multiple or combined effects Upper Concentric Group Inner (small) knob: 6OIN/6OOUT.</p><p>This knob i5 a two position selector and is used to insert the GOhz notch filter. Turning the knob CW places the filter in the circuit and the white dot on the knob aligns with the 60 IN position_ Outer (large) knob: HF  The high frequency knob provides 15Khz boost in the CW positions and 1OKhz cut in the CCW positions_ Centre Concentric Group Inner (small) knob: .7 , 1.4 , 2.5 , 3.4 , 5 .</p><p>This knob determines the presence frequency and operates in conjunction with the CCW five positions of tne PRES switch. Outer (large) knob: MLF = PRES. This knob produces two effects (separately). In the CW positions and to the right of 0 a Mid-Low- Frequency platform is produced below 1OOhz and in a shelf of 2db increments. In the CCW positions and to the left of 0 the degree of Presence is established.</p><p>This works in conjunction with the frequency selector (inner small knob) The frequency is determined by the inner knob and the amount of boost, at the selected frequency , is determined by the outer knob (1Odb max. )</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P7.jpg">1968 - M402 - P7.jpg</a>, p. 1</li>
+</ul>
+<h3>Maintenance &amp; alignment (1)</h3>
+<details><summary>Maintenance — 259 words · 1968 - M402 - P8.jpg, page 1</summary><p>The M402 is designed for dependable, trouble- free service; however as with all high quality electronic equipment, regular schedule of inspection should be established. Any accumulation of dust should be periodically removed with a soft brush and a vacuum hose To gain access to the component boards and switch decks it is necessary to remove the metal side cover which is to the left side of the etched escutcheon_ This is accomplished by removing the two 2-56 flat-head screws on the left side of the M402 escutcheon and the two 4-40 round-head screws located on the bottom of tke unit.</p><p>Do not loosen the 4-40 screw immediately adjacent to the M402 connector; this secures the frame ground lug internal to the equalizer The PC boards may be examined by placing the equalizer on a flat work area with the cover removed, the connector positioned to the left and with the control knobs positioned away from the inspector_ The amplifier and equalizer boards are located in position by retaining grooves fabricated from aluminum tabs spot welded to the equalizer case _ Both PC boards may be extended by the length of the cable assembly by gently lifting the boards alternately out of the retaining grooves The boards may be supported by moving each assembly over to the right and temporarily resting the edge of the PC board on the metal enclosure_ Care should be exercised to prevent damage to the interconnecting cable assemblies and upon reassembly, the flexible wires should be channeled Under the PC board notch-outs to prevent crimping</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20P8.jpg">1968 - M402 - P8.jpg</a>, p. 1</li>
+</ul>
+<h2>Drawings (26)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="People.html#drawing-staff">Drawn by</a></th>
+<th><a href="People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>402-09-001</td>
+<td>Tir' Minbend Rad Unless Specified</td>
+<td><a href="Year-1968.html">1968|1</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20402-09-001%20-%20TIR%27%20MINBEND%20RAD%20UNLESS%20SPECIFIED.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 402-02-010</td>
+<td>M402A EFFECTS / EQUALIZER SCHEMATIC</td>
+<td><a href="Year-1968.html">1968|1</a></td>
+<td></td>
+<td><a href="Person-RB.html">RB (Rodger Beck)</a></td>
+<td>6</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20402-02-010%20-%20M402A%20EFFECTS%20EQUALIZER%20SCHEMATIC%20-%20CKD%20RB%20-%20ISS%206.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 402-09-001</td>
+<td>M402 &amp; 404 EQUALIZER / PLUG CONNECTIONS</td>
+<td><a href="Year-1968.html">1968|1</a></td>
+<td></td>
+<td><a href="Person-RB.html">RB (Rodger Beck)</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20402-09-001%20-%20%26%20404%20EQUALIZER%20PLUG%20CONNECTIONS%20-%20DRN%20C.S.%20O%27CONNELL%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 402-09-001</td>
+<td>M402 &amp; 404 EQUALIZER / PLUG CONNECTIONS</td>
+<td><a href="Year-1968.html">1968|1</a></td>
+<td></td>
+<td><a href="Person-RB.html">RB (Rodger Beck)</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20402-09-001%20-%20%26%20404%20EQUALIZER%20PLUG%20CONNECTIONS%20-%20DRN%20C.S.%20O%27CONNELL.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 402-03-004</td>
+<td>SWITCH MTG BRKT / M402A</td>
+<td><a href="Year-1969.html">1969|2</a></td>
+<td></td>
+<td></td>
+<td>4</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1969%20-%20402-03-004%20-%20SWITCH%20MTG%20BRKT%20M402A%20-%20ISS%204.jpg">file</a></td>
+</tr>
+<tr>
+<td>402-02-012</td>
+<td>Lpe Min Bend Rad Uness Specified</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20402-02-012%20-%20LPE%20MIN%20BEND%20RAD%20UNESS%20SPECIFIED.jpg">file</a></td>
+</tr>
+<tr>
+<td>402-02-012</td>
+<td>Water Pipe</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M404A/1968%20-%20M404A%20-%20402-02-012%20-%20WATER%20PIPE.jpg">file</a></td>
+</tr>
+<tr>
+<td>402-02-012</td>
+<td>Water Pipe</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td></td>
+<td></td>
+<td>5</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402B/1970%20-%20M402B%20-%20Equalizer%20%282%29.pdf">file</a> p.10</td>
+</tr>
+<tr>
+<td>402-02-012</td>
+<td>Water Pipe</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td></td>
+<td></td>
+<td>5</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402B/1970%20-%20M402B%20-%20Equalizer.pdf">file</a> p.10</td>
+</tr>
+<tr>
+<td>402-02-012</td>
+<td>Waad-Beck Bybtemb Lto Issmockd</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td></td>
+<td></td>
+<td>5</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402B/1970%20-%20M402B%20-%20402-02-012%20-%20WAAD-BECK%20BYBTEMB%20LTO%20ISSMOCKD.gif">file</a></td>
+</tr>
+<tr>
+<td>B 402-02-011</td>
+<td>M402A AND M404A / EQUALIZER / PLUG CONNECTIONS</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1970%20-%20402-02-011%20-%20M402A%20AND%20M404A%20EQUALIZER%20PLUG%20CONNECTIONS%20-%20DRN%20DJG%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 402-02-012</td>
+<td>M402A AND M404A / SYSTEM WIRING</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1970%20-%20402-02-012%20-%20M402A%20AND%20M404A%20SYSTEM%20WIRING%20-%20DRN%20DJG%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 402-02-012</td>
+<td>M402A(B) &amp; M404A / SYSTEM WIRING</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td><a href="Person-DPS.html">DPS</a></td>
+<td>5</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1970%20-%20402-02-012%20-%20M402A%28B%29%20%26%20M404A%20SYSTEM%20WIRING%20-%20DRN%20DJG%20-%20ISS%205.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 402-02-013</td>
+<td>M402B / EQUALIZER MODULE / SCHEMATIC</td>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td></td>
+<td></td>
+<td>7</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1971%20-%20402-02-013%20-%20M402B%20EQUALIZER%20MODULE%20SCHEMATIC%20-%20DRN%20PHIL%20-%20ISS%207.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 402-02-013</td>
+<td>M402B / EQUALIZER MODULE / SCHEMATIC</td>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td><a href="Person-PHL.html">PHL</a></td>
+<td></td>
+<td>4</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1971%20-%20402-02-013%20-%20M402B%20EQUALIZER%20MODULE%20SCHEMATIC%20-%20DRN%20PHL%20-%20ISS%204.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 402-03-003</td>
+<td>ESCUTCHEON / DRILLING DETAIL</td>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td><a href="Person-WWH.html">WWH</a></td>
+<td><a href="Person-DPS.html">DPS</a></td>
+<td>7</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1971%20-%20402-03-003%20-%20ESCUTCHEON%20DRILLING%20DETAIL%20-%20DRN%20WWH%20-%20ISS%207.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 402-04-005</td>
+<td>M402B / EQUALIZER MODULE / LAYOUT</td>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td><a href="Person-PHL.html">PHL</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1971%20-%20402-04-005%20-%20M402B%20EQUALIZER%20MODULE%20LAYOUT%20-%20DRN%20PHL%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 402-04-005</td>
+<td>M402B / EQUALIZER MODULE / LAYOUT</td>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1971%20-%20402-04-005%20-%20M402B%20EQUALIZER%20MODULE%20LAYOUT%20-%20DRN%20PHIL%20-%20ISS%201.gif">file</a></td>
+</tr>
+<tr>
+<td>144-06-001</td>
+<td>Eatertal Component Layout</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20144-06-001%20-%20EATERTAL%20COMPONENT%20LAYOUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>144-06-002</td>
+<td>Bend Rad Unless Specified</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20144-06-002%20-%20BEND%20RAD%20UNLESS%20SPECIFIED.jpg">file</a></td>
+</tr>
+<tr>
+<td>402-02-011</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20402-02-011.jpg">file</a></td>
+</tr>
+<tr>
+<td>402-02-011</td>
+<td>Fine Min Bend Rad Unless Specified</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M404A/1968%20-%20M404A%20-%20402-02-011%20-%20FINE%20MIN%20BEND%20RAD%20UNLESS%20SPECIFIED.jpg">file</a></td>
+</tr>
+<tr>
+<td>402-02-013</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402B/1970%20-%20M402B%20-%20402-02-013.jpg">file</a></td>
+</tr>
+<tr>
+<td>402-02-013</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20402-02-013.jpg">file</a></td>
+</tr>
+<tr>
+<td>402-04-005</td>
+<td>Qin Bend Rad Unless</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20402-04-005%20-%20QIN%20BEND%20RAD%20UNLESS.jpg">file</a></td>
+</tr>
+<tr>
+<td>402-09-001</td>
+<td>Bend Rad Unless Specified</td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20402-09-001%20-%20BEND%20RAD%20UNLESS%20SPECIFIED.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M402&quot;,
+ &quot;category&quot;: &quot;FILTERS&quot;,
+ &quot;year&quot;: 1968,
+ &quot;made_of&quot;: [
+  &quot;60-7&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - 402-09-001 - &amp; 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O&#x27;CONNELL - ISS 2.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - 402-09-001 - &amp; 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O&#x27;CONNELL.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - 144-06-001 - EATERTAL COMPONENT LAYOUT.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - 144-06-002 - BEND RAD UNLESS SPECIFIED.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - 402-02-011.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - 402-02-012 - LPE MIN BEND RAD UNESS SPECIFIED.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - 402-02-013.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - 402-04-005 - QIN BEND RAD UNLESS.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - 402-09-001 - BEND RAD UNLESS SPECIFIED.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - 402bswitchschematic_assembled.gif&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - B 1-139-02-001 - M402B - EQUALIZER MODULE - PCB SCHEMATIC.gif&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - P1.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - P10.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - P11.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - P12.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - P13.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - P14.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - P15.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - P16.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - P17.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - P18.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - P19.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - P2.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - P20.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - P21.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - P22.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - P23.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - P24.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - P25.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - P26.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - P3.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - P4.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - P5.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - P6.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - P7.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - P8.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - P9.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - wbs-m402b1.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1968 - M402 - wbs-m402b2.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1969 - 402-03-004 - SWITCH MTG BRKT M402A - ISS 4.jpg&quot;,
+   &quot;year&quot;: 1969,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;modules&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1970 - 402-02-011 - M402A AND M404A EQUALIZER PLUG CONNECTIONS - DRN DJG - ISS 3.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1970 - 402-02-012 - M402A AND M404A SYSTEM WIRING - DRN DJG - ISS 2.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1970 - 402-02-012 - M402A(B) &amp; M404A SYSTEM WIRING - DRN DJG - ISS 5.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1971 - 402-02-013 - M402B EQUALIZER MODULE SCHEMATIC - DRN PHIL - ISS 7.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1971 - 402-02-013 - M402B EQUALIZER MODULE SCHEMATIC - DRN PHL - ISS 4.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1971 - 402-03-003 - ESCUTCHEON DRILLING DETAIL - DRN WWH - ISS 7.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402/1971 - 402-04-005 - M402B EQUALIZER MODULE LAYOUT - DRN PHL - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1971,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/19xx - M404 - AD - 20170522_122029_020.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;modules&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../_catalog/libcontrol/libcontrol.css"><script src="../_catalog/libcontrol/react.js"></script><script src="../_catalog/libcontrol/react-dom.js"></script><script src="../_catalog/libcontrol/libcontrol.js"></script><script src="../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M402.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

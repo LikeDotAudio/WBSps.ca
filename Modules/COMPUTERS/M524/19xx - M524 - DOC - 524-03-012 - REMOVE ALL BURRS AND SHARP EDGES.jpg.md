@@ -1,0 +1,43 @@
+# 19xx - M524 - DOC - 524-03-012 - REMOVE ALL BURRS AND SHARP EDGES.jpg
+Wiki page: [Documents](../../../PAGES/Documents.md)
+
+
+- **Year:** unknown (unknown)
+- **Type:** document scan
+- **About:** M524
+
+## Text recovered by OCR
+
+> 500 DIA _ NOTES MATERIAL 090 ALUM; ALLOY 2) TOLERANCES XXX 005 3) REMOVE ALL BURRS AND SHARP EDGES FINISH CLEAR ALODINE 700 385 I00 DIA { CSK 828 To .150 DIA' 2 PLACES L.250 875 375 4/e4 '700 WAS .750 ISSUE DATE REVISION 7r APP 375 WBS WARD-BECK SYSTEMS 700 DRN: TR Va4 ENG TR: CKD JAA APP SCALE 2X 3 M524 SwITCH MTG BRKT ISSUE 524-03-012
+- **Original file:** `WBSps.env/PUBLIC/RECENT SCANS/WBSps.ca 20210323 - Scans/Scan_20210323 (21).jpg`
+- **SHA-256:** `ccb272739e904c33276a18db469315832c319b34691746fdc94e359d994f2e37`
+- **Size:** 9,841,162 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR)
+
+```text
+500 DIA _
+NOTES MATERIAL 090 ALUM; ALLOY 2) TOLERANCES XXX 005 3) REMOVE ALL BURRS AND SHARP EDGES FINISH CLEAR ALODINE
+700 385
+I00 DIA { CSK 828 To .150 DIA' 2 PLACES
+L.250
+875
+375
+4/e4 '700 WAS .750 ISSUE DATE REVISION
+7r APP
+375
+WBS
+WARD-BECK SYSTEMS
+700
+DRN: TR Va4 ENG TR: CKD JAA APP SCALE 2X 3
+M524 SwITCH MTG BRKT ISSUE 524-03-012
+```
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/COMPUTERS/M524/19xx - M524 - DOC - 524-03-012 - REMOVE ALL BURRS AND SHARP EDGES.jpg","sha256":"ccb272739e904c33276a18db469315832c319b34691746fdc94e359d994f2e37","kind":"doc","models":["M524"],"pages":1,"order":[{"page":1,"title_block":[{"number":"524-03-012","type":"wiring","title":"Remove All Burrs And Sharp Edges","drawn":"TR","checked":"JAA"}]}],"drawing":{"svg":"_traces/ccb272739e904c33.svg","viewBox":[2000,1414],"rotate":0,"number":"524-03-012","dtype":"03","outlines":"see _traces/ccb272739e904c33.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/ccb272739e904c33.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[791,369,"500 DIA _"],[1469,414,"NOTES:"],[1471,436,"MATERIAL"],[1600,438,"040 ALUM; ALLOY"],[1451,461,"2) TOLERANCES"],[1641,461,"XXX"],[1706,461,"005"],[324,479,"700"],[1450,490,"3) REMOVE ALL BURRS AND SHARP EDGES"],[386,514,"385"],[1476,509,"FINISH"],[1569,509,"CLEAR ALODINE"],[831,634,"Ioo DIA,"],[939,634,"CSK 828"],[831,659,"To .150 DIA:"],[988,660,"2 PLACES"],[255,905,"L.250"],[331,951,"875"],[389,1011,"375"],[1550,1093,"4/84"],[1624,1094,"'700 WAS . 750"],[1484,1124,"ISSUE DATE"],[1714,1121,"REVISION"],[1924,1121,"APP"],[529,1151,"3375"],[1370,1193,"WBS"],[1562,1185,"WARD-BECK"],[1784,1181,"sysTEMs"],[576,1216,"700"],[1336,1239,"DRN:"],[1399,1239,"TR; /84"],[1334,1271,"ENG_"],[1399,1269,"TR:"],[1658,1273,"M524"],[1334,1301,"CKD:"],[1562,1320,"SwITCH"],[1702,1320,"MTG. BRKT;"],[1336,1331,"APP"],[1376,1359,"SCALE"],[1884,1356,"ISSUE"],[1378,1395,"2X"],[1595,1388,"524-03-012"]]}}
+```

@@ -1,0 +1,90 @@
+# 19xx - 900-03-211 - EQUALIZER MK SERIES CONSOLE SUPPORT TRIM - DRN DRG - ISS 1.jpg
+Wiki page: [M900](../../../PAGES/M900.md)
+
+
+- **Year:** unknown (title block (read by eye))
+- **Module:** M900
+- **Category:** UNSORTED
+- **Module year estimate:** unknown —
+
+## Title block (found by software, read by eye)
+
+- **Drawing:** D 900-03-211
+- **Size:** D
+- **Title:** EQUALIZER MK SERIES / CONSOLE SUPPORT/TRIM
+- **Drawn:** DRG
+- **Issue:** 1
+- **Confidence:** high
+
+Mechanical drawing of an aluminum angle console support/trim piece.
+
+- **Original file:** `WBSps.env/WBS Photos-1-001/WBSps.ca 20210319 -  (11).jpg`
+- **SHA-256:** `1b8367959633e1cf1e0eeac1350e35b76d8070f04d90b51cca3c9e4bc304445d`
+- **Size:** 380,432 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 3 words corrected)
+
+```text
+0.350
+0.372 0.750
+17.462
+0.28 RAD
+7.252
+NO INSERTS (SEE PEMSERT NOTE)
+28.628
+0.167 DIA REO"D (AFTER MILLING) INSERT FROM THIs Side PEM SO-440 REO 0 prior Aroc3z WeeRTlk8-5i6 ARE
+11,688
+9-183
+2.000
+0.750 0-575
+9.688
+29.095
+207
+30.302
+900-03-211-1 AS SHOWN (R.H.S) 900-03-211-2 OPP HAND (LA.s:)
+MATERIAL: ALUM ALLOY ANGLE 0.75 X 0.75 X 0.12 FINISH: SAND 120 GRIT AND PAINT TEXTURED BROWN (438C) TEXCOTE VINYL
+NOTE REMOVE BURRS AND SHARP EDGES; TOLERANCES: XX-+/-0.015 XXX=+ /-0.005
+JSUE DATE
+REMSIC"
+WBS DRN DRG
+WARD-BECK  SYSTEMS EQUALIZER MK  SERIES CONSOLE SUPPORT/TRIM SCALE DISC No: NTS SYS01 CCDE: Hunmi 900-03-211 SSUE
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+0.350
+0.372 0.750
+17.462
+0.28 RAD
+7.252
+NO INSERTS (SEE PEMSERT NOTE)
+28.628
+0.167 DIA REO"D (AFTER MILLING) INSERT FROM THIs Side PEM SO-440 REO 0 priOp Aroc3z WeeRTlk8-5i6 ARE
+11,688
+9-183
+2.000
+0.750 0-575
+9.688
+29.095
+207
+30.302
+900-03-211-1 AS SHOWN (R.H.S) 900-03-211-2 OPP HAND (LA.s:)
+MATERIAL: ALUM ALLOY ANGLE 0.75 X 0.75 X 0.12 FINISH: SAND 120 GRIT AND PAINT TEXTURED BROWN (438C) TEXCOTE VINYL
+NOTE REVOVE BURRS AND SHARP EDGES; TOLERANCES: XX-+/-0.015 XXX=+ /-0.005
+JSUE DATEI
+REMSIC"
+WBS DRN DRG
+WARD-BECK  SYSTEMS EQUALIZER MK  SERIES CONSOLE SUPPORT/TRIM SCALE DISC No: NTS SYS01 CCDE: Hunmi 900-03-211 SSUE
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/UNSORTED/M900/19xx - 900-03-211 - EQUALIZER MK SERIES CONSOLE SUPPORT TRIM - DRN DRG - ISS 1.jpg","sha256":"1b8367959633e1cf1e0eeac1350e35b76d8070f04d90b51cca3c9e4bc304445d","kind":"module","models":["M900"],"pages":1,"order":[{"page":1,"title_block":[{"number":"D 900-03-211","type":"wiring","title":"EQUALIZER MK SERIES / CONSOLE SUPPORT/TRIM","drawn":"DRG","issue":"1"}],"text":["08J","02y R40","NO INSERTS","(SLE PEVSERT NOIE)","78,025","REQD","AETFR","211-1 AS SHOWN (RH.S )","900-03-211-2 OPP HAND (LA.S:)","MATERIAL: ALUM ALLOY ANGLE 0.75 0.75","0.12","FINISH: SAND 120 GriT AND PAINT","TEXTURED BROWN (438C)","TEXCOTE MNY.","TULLRANOS XXES /-0.005 WBS WARD-BECK SYSTEMS","EQUALIZER MK    SERIES","CONSOLE SUPPORT/TRIM","NTS Visc NO","CCDE; 900-03-211"]}],"drawing":{"svg":"_traces/1b8367959633e1cf.svg","viewBox":[2000,1228],"rotate":0,"size":"D","number":"D 900-03-211","title":"EQUALIZER MK SERIES / CONSOLE SUPPORT/TRIM","dtype":"03","outlines":"see _traces/1b8367959633e1cf.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/1b8367959633e1cf.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[1710,297,"08J"],[1695,342,"02y R40"],[851,406,"NO INSERTS"],[844,416,"(SLE PEVSERT NOIE)"],[880,442,"78,025"],[1764,458,"REQD"],[1695,467,"AETFR"],[974,826,"211-1 AS SHOWN (RH.S )"],[912,857,"900-03-211-2 OPP HAND (LA.S:)"],[114,1006,"MATERIAL:"],[189,1013,"ALUM ALLOY ANGLE 0.75"],[376,1016,"0.75"],[426,1018,"0.12"],[114,1036,"FINISH:"],[166,1041,"SAND 120 GriT AND PAINT"],[166,1056,"TEXTURED BROWN (438C)"],[166,1066,"TEXCOTE MNY."],[125,1107,"TULLRANOS"],[266,1113,"XXES /-0.005"],[1501,1111,"WBS"],[1609,1118,"WARD-BECK SYSTEMS"],[1599,1153,"EQUALIZER"],[1689,1158,"MK    SERIES"],[1588,1179,"CONSOLE SUPPORT/TRIM"],[1520,1189,"Visc NO"],[1484,1203,"NTS"],[1520,1202,"CCDE;"],[1646,1208,"900-03-211"]]}}
+```

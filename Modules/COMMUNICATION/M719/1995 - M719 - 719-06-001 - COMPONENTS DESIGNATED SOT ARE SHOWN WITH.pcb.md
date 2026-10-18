@@ -1,0 +1,341 @@
+# 1995 - M719 - 719-06-001 - COMPONENTS DESIGNATED SOT ARE SHOWN WITH.pcb
+Wiki page: [M719](../../../PAGES/M719.md)
+
+
+- **Year:** 1995 (found in this file: "Issue 14-317 PETER WONG OCT. 13, 1995")
+- **Module:** M719
+- **Category:** COMMUNICATION
+- **Module year estimate:** 1994 — month "Sep-94" in WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - M7XX/M719/ORCAD/#ESP_OUT.TXT
+- **Original file:** `WBSps.env/WBSps Engineering from H drive/WBSps - M7XX/M719/TANGO/14-317.PCB`
+- **SHA-256:** `3f578cf6b054e616c10be56e32d96d67724bcc5e584fddca614e5769fc27cc39`
+- **Size:** 86,409 bytes
+- **Pages:** 1
+
+## Dates found in this file
+
+- **1995** (manual_issue): `Issue 14-317 PETER WONG OCT. 13, 1995` — …AMPLIFIER 5 Date File Drawn By Sheet of D Title Size Number Issue 14-317 PETER WONG OCT. 13, 1995 4 3 2 1 A B C D 1 2 3 4 D C B A 1 net N00001 net N00002 net…
+
+## Full text
+
+### Page 1 (cad)
+
+```text
+L1 
+R35 PT10V
+C27 CAP.3
+R45 R05WE
+R16 R01MF
+C23 EC165
+C21 CAP.1
+R15 R1/2
+C19 CAP.2
+C18 CAP.1
+C17 EC115
+R12 R1/4
+R13 R1/4
+R14 R1/4
+R18 R1/4
+Q1 TO-92
+R11 R1/4
+C15 RAD.1
+C37 EC115
+R10 R1/4
+R44 R05WE
+C39 EC165
+F1 AGC
+C40 EC165
+C22 EC165
+C25 CAP.2
+C20 RAD.1
+P1 EDGE15
+X2 TITLEB
+W5 4-40SCREW
+W3 4-40SCREW
+W2 4-40SCREW
+W1 4-40SCREW
+TITLE1 TITLE
+X1 4-40SCREW
+X4 4-40SCREW
+R25 R1/4
+R22 R1/4
+R24 R1/4
+U1 DIP14
+R39 R1/4
+R43 R1/4
+R40 R1/4
+R41 R1/4
+R42 R1/4
+R36 R1/4
+C28 RAD.1
+R19 R1/4
+R33 R1/4
+R34 R1/4
+C38 EC115
+R27 R1/4
+C36 CAP.2
+R38 R1/4
+R26 R1/4
+C30 TANTA.1
+R28 R1/4
+R20 R1/4
+C35 CAP.2
+R37 R1/4
+D1 DO-35
+D2 DO-35
+R21 R1/4
+U2 XDIL11
+C14 RAD.1
+C16 CAP.2
+R17 R01MF
+C24 CAP.1
+R29 R1/4
+C29 TANTA.1
+C34 RAD.1
+C26 RAD.1
+R9 PT10H
+Q2 TO-92
+R32 R1/4
+R23 R1/4
+R30 R1/4
+R31 PT10V
+C33 RAD.1
+C32 RAD.1
+C10 RAD.15
+C31 RAD.1
+1
+Component Side
+ISSUE 1
+14-317
+CANADA
+WBS
++
++
++
+E
++
++
++
+1
+15
+2
+Solder Side
+1
++
++
++
++
++
++
++
+1
+11
+U2
+Q1
++
++
+Q2
++
++
++
++
+U1
+B 719-06-001
+ISS. 1
+COMPONENT LAYOUT
+10 WATT POWER AMPLIFIER
+M719
+WARD-BECK
+SYSTEMS
+S
+G
+D
++
++
++
+E
++
++
++
+1
+15
+NOMINAL VALUES & SUPPLIED AS REQUIRED.
+2. COMPONENTS DESIGNATED SOT ARE SHOWN WITH
+1. R16 & R17 TO BE MOUNTED ABOVE BOARD SURFACE.
+NOTES:
+COMP SIDE
+WBS
+CANADA
+14-317
+ISSUE 1
+SENS
+4
+Top Silkscreen
+1
++
++
++
++
++
++
++
++
++
++
+1
+11
++
++
++
+5
+Top Solder Mask
+0.124 DIA. UNPLATED
+4.200
+4.200
+0.900
+0.065 DIA. PLATED THRU
+0.118
+10.540
+0.036 DIA. PLATED THRU
+0.040 DIA. PLATED THRU
+0.050 DIA. PLATED THRU
+FINISH:
+FUSED TIN LEAD PLATE.
+2 OZ. COPPER DOUBLED SIDED.
+FR-4 x 1/16 THICK GREEN PCB
+MATERIAL:
+Drill Legend
+Notes
+3
+0.024 DIA. PLATED THRU
+10.300
+10.268
+Drilling Detail
+2.495
+2.730
+0.200
+1.209
+10.600
+1.521
++0.000
+-0.005
+0.110 DIA. UNPLATED
+0.412
+2.312
+-0.005
++0.000
+45 DEG. x 0.060
+TYP.
+M719
+14-317.PCB
+10 WATT POWER AMPLIFIER
+5
+Date
+File
+Drawn By
+Sheet
+of
+D
+Title
+Size
+Number
+Issue
+14-317
+PETER WONG
+OCT. 13, 1995
+4
+3
+2
+1
+A
+B
+C
+D
+1
+2
+3
+4
+D
+C
+B
+A
+1
+net N00001
+net N00002
+net N00003
+net N00004
+net N00005
+net N00006
+net N00007
+net N00008
+net N00009
+net N00010
+net N00011
+net N00012
+net N00013
+net N00014
+net N00015
+net N00016
+net N00017
+net N00018
+net N00019
+net N00020
+net N00021
+net N00022
+net N00023
+net N00024
+net N00025
+net N00026
+net N00027
+net N00028
+net N00029
+net N00030
+net N00031
+net N00032
+net N00033
+net N00034
+net N00035
+net N00036
+net N00037
+net N00038
+net N00039
+net N00040
+net N00041
+net V/2
+net GND
+net VCC
+```
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Modules/COMMUNICATION/M719/1995 - M719 - 719-06-001 - COMPONENTS DESIGNATED SOT ARE SHOWN WITH.pcb",
+ "sha256": "3f578cf6b054e616c10be56e32d96d67724bcc5e584fddca614e5769fc27cc39",
+ "kind": "module",
+ "models": [
+  "M719"
+ ],
+ "year": 1995,
+ "pages": 1,
+ "order": [
+  {
+   "page": 1,
+   "title_block": [
+    {
+     "number": "719-06-001",
+     "type": "component layout",
+     "title": "Components Designated Sot Are Shown With",
+     "issue": "1"
+    }
+   ],
+   "dates": [
+    {
+     "year": 1995,
+     "kind": "manual_issue",
+     "text": "Issue 14-317 PETER WONG OCT. 13, 1995"
+    }
+   ]
+  }
+ ]
+}
+```

@@ -1,0 +1,44 @@
+{
+  "board": "14-301 - SA14-301",
+  "title": "",
+  "format": "tango",
+  "sha256": "3552a31abedf824c281941c27d2fbd0b2fe461ba702e73bc6be42810e0b874e5",
+  "source": "WBSps Engineering from H drive/WBSps - RS8216 Remote Switcher/SA14-301/14-301.PCB",
+  "copies": [
+    "WBSps Engineering from H drive/WBSps - RS8216 Remote Switcher/SA14-301/14-301.PCB",
+    "WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - RS8216 Remote Switcher/SA14-301/14-301.PCB"
+  ],
+  "kicad_pcb": "14-301 - SA14-301/14-301.kicad_pcb",
+  "netlist": null,
+  "convert": {
+    "source": "/home/anthony/Documents/GitProjects/WBSps.ca/WBSps.env/WBSps Engineering from H drive/WBSps - RS8216 Remote Switcher/SA14-301/14-301.PCB",
+    "kicad_pcb": "/home/anthony/Documents/GitProjects/WBSps.ca/2026/Engineering/PCB/14-301 - SA14-301/14-301.kicad_pcb",
+    "format": "Tango-PCB PLUS V2.02 Series II",
+    "edge_layer": 14,
+    "tango_layers_used": {
+      "0": 270,
+      "1": 243,
+      "4": 130,
+      "8": 295,
+      "9": 1,
+      "10": 2,
+      "11": 1,
+      "12": 60,
+      "14": 4,
+      "16": 151,
+      "18": 28
+    },
+    "counts": {
+      "components": 33,
+      "pads": 198,
+      "tracks": 501,
+      "vias": 22,
+      "graphics": 594,
+      "texts": 89,
+      "pours": 1
+    },
+    "nets": null
+  },
+  "top": "14-301 - SA14-301/14-301-top.svg",
+  "bottom": "14-301 - SA14-301/14-301-bottom.svg"
+}

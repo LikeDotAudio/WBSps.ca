@@ -1,0 +1,316 @@
+# 1994 - R2K - R201 R221 Input Module (1).docx
+Wiki page: [Consoles](../../../PAGES/Consoles.md)
+
+
+- **Year:** 1994 (inferred: project R2K: M908, which it is about (traced))
+- **Console:** R2K
+- **Project:** R2K
+- **Original file:** `WBSps.env/PUBLIC/Manuals + tech DOCUMENTS/Consoles/R2K/R201 R221 Input Module (1)(1).docx`
+- **SHA-256:** `da977ec3ff95c1cae6c38aa236ef0249f4f6ae6ee0a776cffede01887704e0ff`
+- **Size:** 11,352 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (Word document)
+
+```text
+R201 & R221
+STEREO INPUT MODULES
+
+The R201 & R221 accept two balanced stereo console, inputs, A or B, and has individual front panel accessible screw driver adjustments to trim the level of the left (lower trim) and right (upper trim) channels.  A MONO pushbutton switch will sum the left and right stereo signal.  This feature is particularly useful when only a mono signal is available at the input or either of the channels of the stereo signal is missing.  The MONO function may be selected by pressing the front panel pushbutton.
+
+Stereo balanced insert points are provided prior to the FADER and CHANNEL ON switch.  Convenient insert bypass jumpers are located on the module circuit board.
+
+The pre-FADER, pre-CHANNEL ON, CUE switch allows the operator to preview an incoming signal on the cue speaker located in the console meter bridge.
+
+The direct audio FADER controls the overall signal level through the module.  A reference indicating mark at the 12dB in-hand position is provided.  The CHANNEL ON control routes the signal to the output stage of the module.
+
+The signal may be assigned to any or all of stereo PROGRAM 1, 2, 3, 4 or MONO MIX 1,2 mixing buses.  All mixing buses are balanced.  Send levels to the MONO MIX 1 and 2 buses may be adjusted via front panel potentiometers only on the R221.  Each input module also has a stereo DIRECT output that follows the CHANNEL ON switch.
+
+All select, function and assignment switches are equipped with LED indicators.  The LED’s illuminate to indicate that the switch has been activated.  The R221 also has a separate channel on LED indicator in parallel to the channel on switch indicator.
+
+Each R201/R221 input module has four programmable input and four programmable output controls for external control.  The module may also be configured to activate the MUTE A, B, C, AUTO CUE or TIMER RESET buses.  An RS485 serial I/O port on the R221 allows some module functions to be under serial control. 
+
+
+
+R201 & R221
+STEREO INPUT MODULE CONTROL
+
+A-B SOURCE SELECT
+Source pushbuttons A and B are electronically interlocked and select between stereo inputs A and B respectively.  Left and right trim controls are accessible from the front panel.  These trim controls are post input select.
+
+MONO SELECT
+Pressing the MONO pushbutton will mix the left and right channels (L+R) with a -6dB gain. This mono mix is then fed equally to the left and right channels prior to the module insert out.
+
+P1-P4 PROGRAM ASSIGN
+Alternate action pushbuttons P1 to P4 assign the signal to the four stereo program mix buses. The audio signal assigned to buses P1 to P4 is picked up post fader and is channel on dependent. 
+
+
+
+
+M1 and M2  MONO ASSIGN
+Alternate action pushbuttons assign the signal to the two mono mix buses.  The audio may be picked up post-fader or pre-fader by setting programming jumpers and follows the channel on control.  The audio may be picked up pre-channel on or post-channel on by setting SW4 and SW5 on the DIP Switch.  Assignment to the mixing buses may be enabled or muted by setting SW6 and SW7 on the DIP Switch.  M1 and M2 may also be sent to the module direct output by setting SW8 appropriately.
+
+CUE  ASSIGN
+Assignment of the signal to the cue bus is via the alternate action CUE pushbutton. The end of travel switch on the fader will turn the CUE off. The signal for assignment to the cue bus is picked up pre fader and pre channel on.  The cue audio is heard on the local console speaker.  The volume control for this speaker is located on the R206/R206A utility module.  Pressing the cue button also activates the auto cue feature in the console headset circuit.  Auto cue superimposes pre fader audio, from the cued input channel, over the dimmed monitor audio in the right headset channel.  The level of the left monitor audio in the headset remains unchanged.  Cue speaker muting can be selective effected by mute bus A, B or C.
+
+CHANNEL ON
+The channel ON pushbutton enables the audio signal to the program assignment pushbuttons, P1 to P4, the mono assignment pushbuttons, M1 and M2 and the channel direct output. Pressing the channel ON button generates a timer reset and mute control. The timer reset bus is connected internally to the timer electronics and any module may be jumper programmed to reset the timer. The mute control may be jumper selected to any or all of mute buses A, B or C.  The mute control may also be set to follow input selection A or B.  The channel ON button normally operates as an alternate action switch to turn the channel on (switch illuminated) and off, or the channel may be programmed to always be on (switch illuminated) and the button may be used as an event start control. 
+
+EXTERNAL CONTROL
+For external control, the R221 input modules offer four control inputs and four control outputs.  Up to eight different pre-programmed operating modes are offered. The different modes are selected by setting a series of DIP switches and include the definition of the operation of the channel ON and OFF switches.
+
+DIP SWITCH SETTINGS (REF DES=SW2)
+
+SWITCH FUNCTIONS
+
+SW1
+
+Mode Selection
+SW2
+
+Mode Selection
+SW3
+
+Mode Selection
+SW4
+
+M1 Pre/Post Channel On
+SW5
+
+M2 Pre/Post Channel On
+SW6
+
+M1 Muted/Enabled
+SW7
+
+M2 Muted/Enabled
+SW8
+
+Direct Out Enable/Disable
+
+MODE SELECTION
+
+SW3
+SW2
+SW1
+OFF
+OFF
+OFF
+
+Mode0
+OFF
+OFF
+ON
+
+Mode1
+OFF
+ON
+OFF
+
+Mode2
+OFF
+ON
+ON
+
+Mode3
+ON
+OFF
+OFF
+
+Mode4
+ON
+OFF
+ON
+
+Mode5
+ON
+ON
+OFF
+
+Mode6
+ON
+ON
+ON
+
+Mode7
+
+
+
+M1 AND M2 CONTROLS
+
+SW4
+OFF
+
+M1 Pre-Channel On
+ON
+
+M1 Post-Channel On
+
+SW5
+OFF
+
+M2 Pre-Channel On
+ON
+
+M2 Post-Channel On
+
+SW6
+OFF
+
+M1 muted
+ON
+
+M1 enabled
+
+SW7
+OFF
+
+M2 muted
+ON
+
+M2 enabled
+
+SW8
+OFF
+
+Direct output disable (M1 to direct out left
+M2 to direct out right)
+ON
+
+Direct output enable
+
+
+Note: OFF position is down, ON position is up 
+
+
+
+
+
+
+
+MODES OF OPERATION:
+
+MODE 0:
+Control in 1- CH ON
+Control out 1- CH ON + INA Tally
+     
+Control in 2- CH OFF
+Control out 2- CH ON + INB Tally
+    
+Control in 3- A SEL
+Control out 3- A Tally
+
+
+Control in 4- B SEL
+Control out 4- B Tally
+
+
+
+Channel ON acts as an alternate action push button.
+
+MODE 1:
+Control in 1- CH ON
+Control out 1- CH ON  + INA event pulse
+Control in 2- CH OFF
+Control out 2- CH ON + INB event pulse
+Control in 3- A  SEL
+Control out 3- A Tally
+Control in 4- B SEL
+Control out 4- B Tally
+
+Channel ON\OFF button keeps the channel on all the time and is used as an event pulse generator. When bringing fader down, the end of travel turns the channel off.  
+
+MODE 2:
+Control in 1- CH ON
+Control out 1- CH ON + INA Tally
+Control in 2- CH OFF
+Control out 2- CH ON + INB Tally
+Control in 3- A  SEL
+Control out 3- CH OFF + INA Tally
+Control in 4- B SEL
+ Control out 4- CH OFF + INB Tally
+
+Channel ON acts as an alternate action pushbutton.
+
+
+
+MODES OF OPERATION(cont'd)
+MODE 3:
+Control in 1- CH ON
+Control out 1- CH ON  + INA event pulse
+Control in 2-CH OFF
+Control out 2- CH ON + INB event pulse
+Control in 3- A  SEL
+Control out 3- CH OFF  + INA event pulse
+Control in 4- B SEL
+Control out 4- CH OFF + INB event pulse
+
+
+
+Channel ON acts as an alternate action pushbutton
+
+MODE 4:
+Control in 1- CH ON
+Control out 1- CH ON event pulse
+Control in 2- CH OFF
+Control out 2- CH OFF Tally
+Control in 3- A  SEL
+Control out 3- A Tally
+Control in 4- B SEL
+Control out 4- B Tally
+
+When bringing fader down, the end of travel turns the channel off. Channel ON\OFF button keeps the channel on all the time and is used as an event pulse generator (control out 1).
+
+MODE 5:
+Control in 1- CH ON
+Control out 1- CH ON Tally
+Control in 2- CH OFF
+Control out 2- CH OFF Tally
+Control in 3- A SEL
+Control out 3- A Tally
+Control in 4- B SEL
+Control out 4- B Tally
+When bringing fader down, the end of travel turns the channel off. Channel ON acts as an alternate action pushbutton.
+
+
+MODE 6:
+Control in 1- CH ON
+Control out 1- CH ON Tally
+Control in 2- CH OFF
+Control out 2- CH OFF Tally
+Control in 3- CUE ON
+Control out 3- CUE ON Tally
+Control in 4- CUE OFF
+Control out 4- CUE OFF Tally
+
+When bringing fader down, the end of travel turns the channel off. Channel ON acts as an alternate action push button
+
+MODE 7:
+Control in 1- CH ON
+Control out 1- CH ON event pulse
+Control in 2- CH OFF
+Control out 2- CH OFF Tally
+Control in 3- Cue On
+Control out 3- Cue on Tally
+Control in 4- Cue Off
+Control out 4- Cue off Tally
+
+When bringing fader down the end of travel turns the channel off. Channel  ON\OFF button keeps the channel on all the time and is used as an event pulse generator (control out 1).
+```
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Consoles/1990-1999/R2K/1994 - R2K - R201 R221 Input Module (1).docx",
+ "sha256": "da977ec3ff95c1cae6c38aa236ef0249f4f6ae6ee0a776cffede01887704e0ff",
+ "kind": "console",
+ "models": [
+  "R2K"
+ ],
+ "year": 1994,
+ "pages": 1
+}
+```

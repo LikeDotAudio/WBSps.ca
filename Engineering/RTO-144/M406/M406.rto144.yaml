@@ -1,0 +1,50 @@
+code: M406
+series: null
+type: M406 Compressor
+row_count: null
+impedance:
+  out: 600
+note: null
+audio:
+- port: A1
+  signal: Compressor IN
+  dir: in
+  pos: '1'
+  neg: '2'
+  pad_pos: 1.A.1.P
+  pad_neg: 2.A.1.N
+- port: A2
+  signal: Compressor OUt
+  dir: out
+  pos: '13'
+  neg: '14'
+  pad_pos: 13.A.2.P
+  pad_neg: 14.A.2.N
+- port: B2
+  signal: Meter OUT
+  dir: out
+  pos: '15'
+  neg: '16'
+  pad_pos: 15.B.2.P
+  pad_neg: 16.B.2.N
+bus_out: []
+bus_in: []
+power:
+- rail: VCC-AUDIO
+  style: OLD
+  volts: 48
+  max_a: 0.1
+  supply: '22'
+  ground: '18'
+  link: null
+- rail: VCC-LAMP
+  style: OLD
+  volts: 24
+  max_a: 0.1
+  supply: '20'
+  ground: '19'
+  link: null
+jumpers: []
+logic:
+- signal: Side Chain
+  pin: '17'

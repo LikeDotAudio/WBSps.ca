@@ -1,0 +1,629 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>POD4 — Dual Microphone Preamplifier</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../../../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../../../index.html">Index</a><a href="../../../Home.html">Wiki home</a><a href="../../../PAGES/Timeline.html">Timeline</a><a href="../../../search.html">Search</a><a href="../../../status.html">Status</a></div><h1>POD4 — Dual Microphone Preamplifier</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>product</td>
+</tr>
+<tr>
+<td>Series</td>
+<td><a href="../../../PAGES/Series-PODS.html">PODS</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../../../simulator.html?m=POD4">simulator &amp; front panel</a> · <a href="../../../_packages/POD4.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="../../../PAGES/Year-1995.html">1995|28</a> — month &amp; year</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"December 7, 1995" in WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - POD_OLD/POD4/INTER4.WPD</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>medium</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="../../../PAGES/Year-1995.html">1995|28</a>, <a href="../../../PAGES/Year-1996.html">1996|29</a>, <a href="../../../PAGES/Year-1997.html">1997|30</a>, <a href="../../../PAGES/Year-2014.html">2014|47</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="index.html">Products/PODS/POD4</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections</h2>
+<p><em>What it is made of and what it is part of.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="POD4" data-n="Dual Microphone Preamplifier" data-cat="PODS"></div><svg class="wbs-panel" data-m="POD4" data-n="Dual Microphone Preamplifier" data-cat="PODS" role="img" aria-label="POD4 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"POD4","title":"Dual Microphone Preamplifier","rto":null,"parts":[{"item":"SA14-306","title":"Dual Mic Preamplifier Component Layout","label":"SA14-306 Dual Mic Preamplifier Comp","href":"Register-Circuit-boards-SA14-nnn.html#sa14-306","note":"Circuit boards (SA14-nnn)"}],"parents":[]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20Front.jpg"><img loading="lazy" src="../../../Products/PODS/POD4/1995%20-%20POD4%20-%20Front.jpg" alt="" data-f="Products/PODS/POD4/1995 - POD4 - Front.jpg" data-size="320" onerror="wbsOff(this)">1995 - POD4 - Front.jpg</a><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20Information%20Sheet.jpg"><img loading="lazy" src="../../../Products/PODS/POD4/1995%20-%20POD4%20-%20Information%20Sheet.jpg" alt="" data-f="Products/PODS/POD4/1995 - POD4 - Information Sheet.jpg" data-size="320" onerror="wbsOff(this)">1995 - POD4 - Information Sheet.jpg</a><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20Rear.jpg"><img loading="lazy" src="../../../Products/PODS/POD4/1995%20-%20POD4%20-%20Rear.jpg" alt="" data-f="Products/PODS/POD4/1995 - POD4 - Rear.jpg" data-size="320" onerror="wbsOff(this)">1995 - POD4 - Rear.jpg</a><a href="../../../viewer.html?f=Engineering/PCB/14-306%20-%20POD4%20DUAL%20MICROPHONE%20PRAMPLIFIER/14-306-top.svg"><img loading="lazy" src="../../../Engineering/PCB/14-306%20-%20POD4%20DUAL%20MICROPHONE%20PRAMPLIFIER/14-306-top.svg" alt="" data-f="Engineering/PCB/14-306 - POD4 DUAL MICROPHONE PRAMPLIFIER/14-306-top.svg" data-size="320" onerror="wbsOff(this)">14-306-top.svg</a><a href="../../../viewer.html?f=Engineering/PCB/14-306%20-%20POD4%20DUAL%20MICROPHONE%20PRAMPLIFIER/14-306-bottom.svg"><img loading="lazy" src="../../../Engineering/PCB/14-306%20-%20POD4%20DUAL%20MICROPHONE%20PRAMPLIFIER/14-306-bottom.svg" alt="" data-f="Engineering/PCB/14-306 - POD4 DUAL MICROPHONE PRAMPLIFIER/14-306-bottom.svg" data-size="320" onerror="wbsOff(this)">14-306-bottom.svg</a></div>
+
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Year-1995.html">1995|28</a></td>
+<td>month &amp; year</td>
+<td><code>NOV 24 1995</code></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20POD4%20-%2014-306%20-%20PCB.pcb">1995 - POD4 - POD4 - 14-306 - PCB.pcb</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1995.html">1995|28</a></td>
+<td>month &amp; year</td>
+<td><code>December 7, 1995</code></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20SCHEMATIC.wpd">1995 - POD4 - SCHEMATIC.wpd</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-2014.html">2014|47</a></td>
+<td>month &amp; year</td>
+<td><code>Oct.01 2014</code></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/2014%20-%20POD4%20-%20Manual%20%282%29.docx">2014 - POD4 - Manual (2).docx</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-2014.html">2014|47</a></td>
+<td>month &amp; year</td>
+<td><code>Oct.01 2014</code></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/2014%20-%20POD4%20-%20Manual.docx">2014 - POD4 - Manual.docx</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Documents (10)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20">1995 - POD4 - #ESP_OUT.txt</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20FN3%20%273RD%20PART%20FIELD%27%20-%20DOCUMENT.docx">1995 - POD4 - FN3 '3RD PART FIELD' - DOCUMENT.docx</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20FN3%20%273RD%20PART%20FIELD%27%20-%20DOCUMENT.docx.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20POD4%20-%20">1995 - POD4 - POD4 - #ESP_OUT.TXT - DOCUMENT.docx</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20POD4%20-%20">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20POD4%20-%20DRAFTERR.LOG%20-%20DOCUMENT.docx">1995 - POD4 - POD4 - DRAFTERR.LOG - DOCUMENT.docx</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20POD4%20-%20DRAFTERR.LOG%20-%20DOCUMENT.docx.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20SCHEMATIC.wpd">1995 - POD4 - SCHEMATIC.wpd</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20SCHEMATIC.wpd.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1996%20-%20POD4%20-%20POD4%20-%20POD4MAN.wpd">1996 - POD4 - POD4 - POD4MAN.wpd</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1996%20-%20POD4%20-%20POD4%20-%20POD4MAN.wpd.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1996%20-%20POD4%20-%20POD4%20-%20TRY.wpd">1996 - POD4 - POD4 - TRY.wpd</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1996%20-%20POD4%20-%20POD4%20-%20TRY.wpd.md">note</a></td>
+</tr>
+<tr>
+<td>1997|30</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1997%20-%20POD4%20-%20POD4%20-%20DUAL%20MICROPHONE%20PREAMPLIFIER%20-%20FRONT%20PANEL.wpd">1997 - POD4 - POD4 - DUAL MICROPHONE PREAMPLIFIER - FRONT PANEL.wpd</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1997%20-%20POD4%20-%20POD4%20-%20DUAL%20MICROPHONE%20PREAMPLIFIER%20-%20FRONT%20PANEL.wpd.md">note</a></td>
+</tr>
+<tr>
+<td>2014|47</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/2014%20-%20POD4%20-%20Manual%20%282%29.docx">2014 - POD4 - Manual (2).docx</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/2014%20-%20POD4%20-%20Manual%20%282%29.docx.md">note</a></td>
+</tr>
+<tr>
+<td>2014|47</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/2014%20-%20POD4%20-%20Manual.docx">2014 - POD4 - Manual.docx</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/2014%20-%20POD4%20-%20Manual.docx.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (3)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20Front.jpg">1995 - POD4 - Front.jpg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20Front.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20Information%20Sheet.jpg">1995 - POD4 - Information Sheet.jpg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20Information%20Sheet.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20Rear.jpg">1995 - POD4 - Rear.jpg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20Rear.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Drawings &amp; design files (18)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20POD4%20-%2014-306%20-%20PCB.pcb">1995 - POD4 - POD4 - 14-306 - PCB.pcb</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20POD4%20-%2014-306%20-%20PCB.pcb.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20POD4%20-%20FAPOD4-1%20-%20DRAWING%20%28AUTOCAD%29.dwg">1995 - POD4 - POD4 - FAPOD4-1 - DRAWING (AUTOCAD).dwg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20POD4%20-%20FAPOD4-1%20-%20DRAWING%20%28AUTOCAD%29.dwg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20POD4%20-%20LMPOD4-4%20-%20LAYOUT.dwg">1995 - POD4 - POD4 - LMPOD4-4 - LAYOUT.dwg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20POD4%20-%20LMPOD4-4%20-%20LAYOUT.dwg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20POD4%20-%20P4REAR%20-%20DRAWING%20%28AUTOCAD%29.dwg">1995 - POD4 - POD4 - P4REAR - DRAWING (AUTOCAD).dwg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20POD4%20-%20P4REAR%20-%20DRAWING%20%28AUTOCAD%29.dwg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20POD4%20-%20POD4-1C%20-%20DRAWING%20%28AUTOCAD%29.dwg">1995 - POD4 - POD4 - POD4-1C - DRAWING (AUTOCAD).dwg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20POD4%20-%20POD4-1C%20-%20DRAWING%20%28AUTOCAD%29.dwg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20POD4%20-%20WPFRONT%20-%20LAYOUT.dwg">1995 - POD4 - POD4 - WPFRONT - LAYOUT.dwg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20POD4%20-%20WPFRONT%20-%20LAYOUT.dwg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1996%20-%20POD4%20-%20POD4%20-%209MM3S01%20-%20SCHEMATIC.dwg">1996 - POD4 - POD4 - 9MM3S01 - SCHEMATIC.dwg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1996%20-%20POD4%20-%20POD4%20-%209MM3S01%20-%20SCHEMATIC.dwg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1996%20-%20POD4%20-%20POD4%20-%20FAPOD4%20-%20DRAWING%20%28AUTOCAD%29.dwg">1996 - POD4 - POD4 - FAPOD4 - DRAWING (AUTOCAD).dwg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1996%20-%20POD4%20-%20POD4%20-%20FAPOD4%20-%20DRAWING%20%28AUTOCAD%29.dwg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1996%20-%20POD4%20-%20POD4%20-%20LMPOD4-1%20-%20WIRING.dwg">1996 - POD4 - POD4 - LMPOD4-1 - WIRING.dwg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1996%20-%20POD4%20-%20POD4%20-%20LMPOD4-1%20-%20WIRING.dwg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1996%20-%20POD4%20-%20POD4%20-%20LMPOD4-2%20-%20LAYOUT.dwg">1996 - POD4 - POD4 - LMPOD4-2 - LAYOUT.dwg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1996%20-%20POD4%20-%20POD4%20-%20LMPOD4-2%20-%20LAYOUT.dwg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1996%20-%20POD4%20-%20POD4%20-%20LMPOD4-3%20-%20LAYOUT.dwg">1996 - POD4 - POD4 - LMPOD4-3 - LAYOUT.dwg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1996%20-%20POD4%20-%20POD4%20-%20LMPOD4-3%20-%20LAYOUT.dwg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1996%20-%20POD4%20-%20POD4%20-%20POD4-1A%20-%20DRAWING%20%28AUTOCAD%29.dwg">1996 - POD4 - POD4 - POD4-1A - DRAWING (AUTOCAD).dwg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1996%20-%20POD4%20-%20POD4%20-%20POD4-1A%20-%20DRAWING%20%28AUTOCAD%29.dwg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1996%20-%20POD4%20-%20POD4%20-%20POD4M01%20-%20DRAWING%20%28AUTOCAD%29.dwg">1996 - POD4 - POD4 - POD4M01 - DRAWING (AUTOCAD).dwg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1996%20-%20POD4%20-%20POD4%20-%20POD4M01%20-%20DRAWING%20%28AUTOCAD%29.dwg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1996%20-%20POD4%20-%20POD4%20-%20POD4M02%20-%20DRAWING%20%28AUTOCAD%29.dwg">1996 - POD4 - POD4 - POD4M02 - DRAWING (AUTOCAD).dwg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1996%20-%20POD4%20-%20POD4%20-%20POD4M02%20-%20DRAWING%20%28AUTOCAD%29.dwg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1996%20-%20POD4%20-%20POD4%20-%20POD4MAN1%20-%20LAYOUT.dwg">1996 - POD4 - POD4 - POD4MAN1 - LAYOUT.dwg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1996%20-%20POD4%20-%20POD4%20-%20POD4MAN1%20-%20LAYOUT.dwg.md">note</a></td>
+</tr>
+<tr>
+<td>1997|30</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1997%20-%20POD4%20-%20POD4%20-%20POD4SLKF%20-%20DOCUMENT.cdr">1997 - POD4 - POD4 - POD4SLKF - DOCUMENT.cdr</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1997%20-%20POD4%20-%20POD4%20-%20POD4SLKF%20-%20DOCUMENT.cdr.md">note</a></td>
+</tr>
+<tr>
+<td>1997|30</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1997%20-%20POD4%20-%20POD4%20-%20POD4SLKS%20-%20DOCUMENT.cdr">1997 - POD4 - POD4 - POD4SLKS - DOCUMENT.cdr</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1997%20-%20POD4%20-%20POD4%20-%20POD4SLKS%20-%20DOCUMENT.cdr.md">note</a></td>
+</tr>
+<tr>
+<td>1997|30</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1997%20-%20POD4%20-%20POD4%20-%20PODSLK%20-%20DOCUMENT.cdr">1997 - POD4 - POD4 - PODSLK - DOCUMENT.cdr</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1997%20-%20POD4%20-%20POD4%20-%20PODSLK%20-%20DOCUMENT.cdr.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Circuit boards (1)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Board</th>
+<th>Open</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20POD4%20-%2014-306%20-%20PCB.pcb">1995 - POD4 - POD4 - 14-306 - PCB.pcb</a></td>
+<td>POD4 DUAL MICROPHONE PRAMPLIFIER</td>
+<td><a href="../../../_previews/Products/PODS/POD4/1995%20-%20POD4%20-%20POD4%20-%2014-306%20-%20PCB.pcb.html">interactive viewer</a> · <a href="../../../viewer.html?f=Engineering/PCB/14-306%20-%20POD4%20DUAL%20MICROPHONE%20PRAMPLIFIER/14-306.kicad_pcb">KiCad board</a> · <a href="../../../viewer.html?f=Engineering/PCB/14-306%20-%20POD4%20DUAL%20MICROPHONE%20PRAMPLIFIER/14-306-top.svg">top render</a> · <a href="../../../viewer.html?f=Engineering/PCB/14-306%20-%20POD4%20DUAL%20MICROPHONE%20PRAMPLIFIER/14-306-bottom.svg">bottom render</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Sub-assemblies &amp; parts used (1)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What</th>
+<th>Family</th>
+<th>Year</th>
+<th>How we know</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Register-Circuit-boards-SA14-nnn.html#sa14-306">SA14-306</a></td>
+<td>Dual Mic Preamplifier Component Layout</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>drawing filed with it</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="../../../PAGES/Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>Specifications (3)</h3>
+<details><summary>Specifications — 84 words · 2014 - POD4 - Manual.docx, page 1</summary><p>Gain Range 28 - 70dB                                                                                                               Max Output Level + 28dBu Frequency Response +/- 0.2dB  20Hz to 20kHz Noise -124dB EIN (20Hz  to 20kHz) THD + Noise better than 0.1%, 20Hz to 20kHz Input Impedance 12 kOhms                                                                                           Source Impedance 150 Ohms Control Inputs 0 to 5 V DC max Common Mode Rejection                                                                     better than 60dB at 60Hz</p><p>Power Requirements  115 VAC,60Hz          (available upon request) 230 VAC,50Hz Dimensions 8.69&quot; wide x 1.73&quot; high x 7.0&quot; deep</p><p>(221mm x 44mm x 178mm) Weight 1.37 kg (3.01 lbs)</p><p class="bp">Also: <a href="../../../PAGES/Boilerplate.html#bp-d598fd57bc8328e0">specs boilerplate (56 devices)</a></p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Products/PODS/POD4/2014%20-%20POD4%20-%20Manual.docx">2014 - POD4 - Manual.docx</a>, p. 1</li>
+</ul>
+<details><summary>Specifications — 79 words · 1997 - POD4 - POD4 - DUAL MICROPHONE PREAMPLIFIER - FRONT PANEL.wpd, page 1</summary><p>Gain Range    28 - 70dB Max Output Level  +28dBu Frequency Response   ±0.2dB, 20Hz to 20kHz Noise  -124dB EIN (20Hz  to 20kHz) Total Harmonic Distortion  less than 0.25%, 20Hz to 20kHz Input Impedance  6000 ohms Source Impedance  150 ohms or less Common Mode Rejection  greater than 60dB at 60Hz Power Requirement 110 or 220 volts AC, 60 or 50Hz, 5 watts Ambient Temperature    0° to 50°Celsius Dimensions 8.69&quot; wide x 1.73&quot; high x 7.0&quot; deep (221mm x 44mm x 178mm)</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Products/PODS/POD4/1997%20-%20POD4%20-%20POD4%20-%20DUAL%20MICROPHONE%20PREAMPLIFIER%20-%20FRONT%20PANEL.wpd">1997 - POD4 - POD4 - DUAL MICROPHONE PREAMPLIFIER - FRONT PANEL.wpd</a>, p. 1</li>
+<li>also in: <a href="../../../viewer.html?f=Products/PODS/POD4/2014%20-%20POD4%20-%20Manual%20%282%29.docx">2014 - POD4 - Manual (2).docx</a>, p. 1</li>
+</ul>
+<h3>Operation (2)</h3>
+<details><summary>Operation — 165 words · 1996 - POD4 - POD4 - TRY.wpd, page 1</summary><p>FROM 110 VOLTS ac:</p><p>■   Two jumpers must be present, one connection Y1 to Y2, the other connection Y3 and Y4.  This corresponds to JP1 and JP3 being in place.</p><p>FOR</p><p>FROM 220 VOLTS ac:</p><p>■   One jumper must be present, connecting Y2 and Y3.  This corresponds to JP2 being in place.</p><p>Gain(bridging):                +64dB. Frequency Response:          ±0.2 dB, 20 Hz to 20 kHz. Noise:                    -126dB EIN. Total Harmonic Distortion:          Less than 0.25%, 20 Hz to 20 kHz. Dynamic Range:                88dB. Input Impedance:              1500 ohms or greater. Source Impedance:             150 ohms or less. Common Mode Rejection:            Greater than 60 dB at 60 Hz.                               Power Requirement:           110 or 220 volts ac, 60 or 50 Hz; 5 Watts. Ambient Temperature:         0o to 50o Celsius. Relative Humidity:               20 % to 90 %, non-condensing. Dimensions:                   8.69&quot; wide x 1.73&quot; high x 7.0&quot; deep (221 mm x 44 mm x 178 mm).</p><p>Olla-Podrida 841 Progress Avenue Scarborough, Ontario, Canada M1H 2X4 (416) 438-6550 FAX: (416) 428-3865</p><p>Designed and Built in Canada</p><p class="bp">Also: <a href="../../../PAGES/Boilerplate.html#bp-049e9d0d21dcde3e">operation boilerplate (5 devices)</a></p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Products/PODS/POD4/1996%20-%20POD4%20-%20POD4%20-%20TRY.wpd">1996 - POD4 - POD4 - TRY.wpd</a>, p. 1</li>
+<li>also in: <a href="../../../viewer.html?f=Products/PODS/POD4/1996%20-%20POD4%20-%20POD4%20-%20POD4MAN.wpd">1996 - POD4 - POD4 - POD4MAN.wpd</a>, p. 1</li>
+</ul>
+<h3>Warranty (2)</h3>
+<details><summary>Warranty — 0 words · 2014 - POD4 - Manual.docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="../../../PAGES/Boilerplate.html#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Products/PODS/POD4/2014%20-%20POD4%20-%20Manual.docx">2014 - POD4 - Manual.docx</a>, p. 1</li>
+</ul>
+<details><summary>Warranty — 0 words · 2014 - POD4 - Manual (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="../../../PAGES/Boilerplate.html#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Products/PODS/POD4/2014%20-%20POD4%20-%20Manual%20%282%29.docx">2014 - POD4 - Manual (2).docx</a>, p. 1</li>
+</ul>
+<h2>Drawings (1)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Drawn by</a></th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>14-306-06-001</td>
+<td>Dual Mic Preamplifier Component Layout</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD4/1995%20-%20POD4%20-%20POD4%20-%2014-306%20-%20PCB.pcb">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;POD4&quot;,
+ &quot;name&quot;: &quot;Dual Microphone Preamplifier&quot;,
+ &quot;category&quot;: &quot;PODS&quot;,
+ &quot;year&quot;: 1995,
+ &quot;made_of&quot;: [
+  &quot;SA14-306&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD4/1995 - POD4 - #ESP_OUT.txt&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD4/1995 - POD4 - FN3 &#x27;3RD PART FIELD&#x27; - DOCUMENT.docx&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD4/1995 - POD4 - Front.jpg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD4/1995 - POD4 - Information Sheet.jpg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD4/1995 - POD4 - POD4 - #ESP_OUT.TXT - DOCUMENT.docx&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD4/1995 - POD4 - POD4 - 14-306 - PCB.pcb&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD4/1995 - POD4 - POD4 - DRAFTERR.LOG - DOCUMENT.docx&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD4/1995 - POD4 - POD4 - FAPOD4-1 - DRAWING (AUTOCAD).dwg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD4/1995 - POD4 - POD4 - LMPOD4-4 - LAYOUT.dwg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD4/1995 - POD4 - POD4 - P4REAR - DRAWING (AUTOCAD).dwg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD4/1995 - POD4 - POD4 - POD4-1C - DRAWING (AUTOCAD).dwg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD4/1995 - POD4 - POD4 - WPFRONT - LAYOUT.dwg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD4/1995 - POD4 - Rear.jpg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD4/1995 - POD4 - SCHEMATIC.wpd&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD4/1996 - POD4 - POD4 - 9MM3S01 - SCHEMATIC.dwg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD4/1996 - POD4 - POD4 - FAPOD4 - DRAWING (AUTOCAD).dwg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD4/1996 - POD4 - POD4 - LMPOD4-1 - WIRING.dwg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD4/1996 - POD4 - POD4 - LMPOD4-2 - LAYOUT.dwg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD4/1996 - POD4 - POD4 - LMPOD4-3 - LAYOUT.dwg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD4/1996 - POD4 - POD4 - POD4-1A - DRAWING (AUTOCAD).dwg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD4/1996 - POD4 - POD4 - POD4M01 - DRAWING (AUTOCAD).dwg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD4/1996 - POD4 - POD4 - POD4M02 - DRAWING (AUTOCAD).dwg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD4/1996 - POD4 - POD4 - POD4MAN.wpd&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD4/1996 - POD4 - POD4 - POD4MAN1 - LAYOUT.dwg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD4/1996 - POD4 - POD4 - TRY.wpd&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD4/1997 - POD4 - POD4 - DUAL MICROPHONE PREAMPLIFIER - FRONT PANEL.wpd&quot;,
+   &quot;year&quot;: 1997,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD4/1997 - POD4 - POD4 - POD4SLKF - DOCUMENT.cdr&quot;,
+   &quot;year&quot;: 1997,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD4/1997 - POD4 - POD4 - POD4SLKS - DOCUMENT.cdr&quot;,
+   &quot;year&quot;: 1997,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD4/1997 - POD4 - POD4 - PODSLK - DOCUMENT.cdr&quot;,
+   &quot;year&quot;: 1997,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD4/2014 - POD4 - Manual (2).docx&quot;,
+   &quot;year&quot;: 2014,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD4/2014 - POD4 - Manual.docx&quot;,
+   &quot;year&quot;: 2014,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;sections&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../../../_catalog/wbs_reels.js" defer></script><script src="../../../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../../../_catalog/libcontrol/libcontrol.css"><script src="../../../_catalog/libcontrol/react.js"></script><script src="../../../_catalog/libcontrol/react-dom.js"></script><script src="../../../_catalog/libcontrol/libcontrol.js"></script><script src="../../../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from POD4.md</small></div></article><script src="../../../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

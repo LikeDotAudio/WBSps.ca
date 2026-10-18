@@ -1,0 +1,82 @@
+# 1988 - 880134 - 880134-04-002 - ELITE PANEL MSIONF COMTROLCE EXEEBNAL PQKER SUPPLES.jpg
+Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
+
+
+- **Year:** 1988 (job number 880134 (first two digits = year))
+- **Job / serial number:** 880134
+- **Project:** CFTO ST
+- **Project:** CFTO TV done
+- **Original file:** `WBSps.env/PUBLIC/Manuals + tech DOCUMENTS/Consoles/BIG CFTO TV done/880134-04-002.jpg`
+- **SHA-256:** `5fdba8a11e54b00528992fcba4182ad5c22f85217b279a3bcbdf7a6b532f9243`
+- **Size:** 30,669,159 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 1 words corrected)
+
+```text
+LJ_4o0
+PSS M6253
+PS+ Mb258
+M528 MODULES
+8 &
+0107,04
+PsS M6258
+PSG Mb258
+28.00
+46258
+M6258
+PSI M611
+PS2 M611
+Ps9 M648
+PSIO M648
+RBP
+BLANK PANEL
+RBP-} BLANK PANEL
+RBP;
+BLANK PANEL
+RBP_
+BLANK PANEL
+MSZO0A CONTROLLER
+EXTERNAL_POWER_SUPPLIES
+SSUELDAS REMSION WBS WARD-BECK  SYSTEMS DRN: PA 08/88 CFTO-TV CKD_ ST3642 STEREO TV CONSOLE APP_ FRONT VIEW LAYOUT SCALE DISC_NO; 241 1:4 ISSUE CODE: 80134L02 880134-04-002
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+LJ_4o0
+PSS M6253
+PS+ Mb258
+M528 MODULES
+8 &
+0107,04
+PsS M6258
+PSG Mb258
+28.00
+46258
+M6258
+PSI M611
+PS2 M611
+Ps9 M648
+PSIO M648
+RBP
+BLANK PANEL
+RBP-} BLANK PANEL
+RBP;
+BLANK PANEL
+RBP_
+BLANK PANEL
+MSZO0A CCNTROLLER
+EXTERNAL_POWER_SUPPLIES
+SSUELDAS REMSION WBS WARD-BECK  SYSTEMS DRN: PA 08/88 CFTO-TV CKD_ ST3642 STEREO TV CONSOLE APP_ FRONT VIEW LAYOUT SCALE DISC_NO; 241 1:4 ISSUE CODE: 80134L02 880134-04-002
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-04-002 - ELITE PANEL MSIONF COMTROLCE EXEEBNAL PQKER SUPPLES.jpg","sha256":"5fdba8a11e54b00528992fcba4182ad5c22f85217b279a3bcbdf7a6b532f9243","kind":"job","models":["880134"],"year":1988,"pages":1,"order":[{"page":1,"title_block":[{"number":"880134-04-002","type":"layout / outline","title":"Elite Panel Msionf Comtrolce Exeebnal Pqker Supples","issue":"U"},{"number":"880134-04-002","type":"layout / outline","title":"Ccntroller External Power Supplies Ssueldas Remsion","drawn":"PA"}],"modules":["M528","M611","M648"],"module_boxes":[{"code":"L7 _ed","box":[0.4918,0.3048,0.5064,0.309]},{"code":"PSS","box":[0.8305,0.3504,0.8414,0.3588]},{"code":"PS+","box":[0.895,0.3518,0.905,0.3603]},{"code":"M528","box":[0.6677,0.3574,0.6814,0.3673]},{"code":"M6253","box":[0.8277,0.3588,0.8441,0.3673]},{"code":"Mb258","box":[0.8923,0.3603,0.9086,0.3701]},{"code":"MODULES","box":[0.6627,0.3722,0.6859,0.3834]},{"code":"8 &","box":[0.6991,0.3736,0.7145,0.3904]},{"code":"0107,04","box":[0.6218,0.3862,0.6391,0.3919]},{"code":"PsS","box":[0.8295,0.4305,0.8405,0.4389]},{"code":"PS6","box":[0.8941,0.4319,0.9041,0.4403]},{"code":"M6258","box":[0.8268,0.4389,0.8432,0.4473]},{"code":"Mb258","box":[0.8914,0.4403,0.9077,0.4501]},{"code":"28.00","box":[0.9477,0.4515,0.9623,0.4614]},{"code":"46258","box":[0.8259,0.519,0.8423,0.5274]},{"code":"M6258","box":[0.8905,0.5204,0.9068,0.5288]},{"code":"PSI","box":[0.8141,0.5695,0.8241,0.5779]},{"code":"PS2","box":[0.8514,0.5709,0.8623,0.5794]},{"code":"Ps9","box":[0.8859,0.5709,0.8959,0.5808]},{"code":"PSIO","box":[0.9077,0.5723,0.9205,0.5808]},{"code":"M611","box":[0.8123,0.5779,0.825,0.5864]},{"code":"M611","box":[0.8514,0.5779,0.8623,0.5864]},{"code":"M648","box":[0.8841,0.5794,0.8977,0.5878]},{"code":"M648","box":[0.9077,0.5794,0.9214,0.5892]},{"code":"RBP","box":[0.5395,0.5864,0.5505,0.5948]},{"code":"BLANK PANEL","box":[0.5568,0.5864,0.5895,0.5948]},{"code":"RBP-} BLANK PANEL","box":[0.2205,0.6018,0.2723,0.6103]},{"code":"RBP;","box":[0.3814,0.6032,0.3923,0.6117]},{"code":"BLANK PANEL","box":[0.3986,0.6032,0.4323,0.6131]},{"code":"RBP_","box":[0.5395,0.606,0.5495,0.6145]},{"code":"BLANK PANEL","box":[0.5568,0.606,0.5895,0.6159]},{"code":"MSZO0A CCNTROLLER","box":[0.5395,0.6271,0.5895,0.6369]},{"code":"EXTERNAL_POWER_SUPPLIES","box":[0.825,0.6341,0.9023,0.6482]},{"code":"SSUELDAS","box":[0.8386,0.8785,0.8595,0.8883]},{"code":"REMSION","box":[0.9032,0.8799,0.925,0.8883]},{"code":"WBS","box":[0.8127,0.8947,0.8518,0.9115]},{"code":"WARD-BECK  SYSTEMS","box":[0.8659,0.8933,0.9682,0.9143]},{"code":"DRN: PA","box":[0.8014,0.9206,0.8205,0.9291]},{"code":"08/88","box":[0.8223,0.9221,0.8377,0.9319]},{"code":"CFTO-TV","box":[0.8877,0.9221,0.9259,0.9361]},{"code":"CKD_","box":[0.8014,0.9431,0.8114,0.9515]},{"code":"ST3642 STEREO","box":[0.8455,0.934,0.9127,0.9522]},{"code":"TV CONSOLE","box":[0.9145,0.9368,0.9682,0.9537]},{"code":"APP_","box":[0.8014,0.9544,0.8114,0.9628]},{"code":"FRONT","box":[0.8632,0.9501,0.8914,0.9642]},{"code":"VIEW LAYOUT","box":[0.8941,0.9515,0.9495,0.9656]},{"code":"SCALE","box":[0.8041,0.9656,0.8195,0.974]},{"code":"DISC_NO; 241","box":[0.8223,0.967,0.8523,0.9768]},{"code":"ISSUE","box":[0.9577,0.9684,0.9723,0.9782]},{"code":"1:4","box":[0.805,0.9726,0.8186,0.9838]},{"code":"CODE: 80134L02","box":[0.8223,0.9768,0.8605,0.9867]},{"code":"880134-04-002","box":[0.8791,0.9705,0.95,0.9888]}],"text":["L7 _ed","PSS PS+","M528 M6253 Mb258","MODULES 8 &","0107,04","PsS PS6","M6258 Mb258","28.00","46258 M6258","PSI PS2 Ps9 PSIO","M611 M611 M648 M648","RBP BLANK PANEL","RBP-} BLANK PANEL RBP; BLANK PANEL RBP_ BLANK PANEL","MSZO0A CCNTROLLER","EXTERNAL_POWER_SUPPLIES","SSUELDAS REMSION","WBS WARD-BECK  SYSTEMS","DRN: PA 08/88 CFTO-TV","CKD_ ST3642 STEREO TV CONSOLE","APP_ FRONT VIEW LAYOUT","SCALE DISC_NO; 241 ISSUE","1:4 CODE: 80134L02 880134-04-002"]}],"drawing":{"svg":"_traces/5fdba8a11e54b005.svg","viewBox":[2000,1294],"rotate":0,"number":"880134-04-002","title":"Ccntroller External Power Supplies Ssueldas Remsion","dtype":"04","outlines":"see _traces/5fdba8a11e54b005.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[984,400,"L7 _ed"],[1661,464,"PSS"],[1790,466,"PS+"],[1335,475,"M528"],[1655,475,"M6253"],[1785,479,"Mb258"],[1325,496,"MODULES"],[1244,507,"0107,04"],[1659,568,"PsS"],[1788,570,"PS6"],[1654,579,"M6258"],[1783,582,"Mb258"],[1895,597,"28.00"],[1652,682,"46258"],[1781,684,"M6258"],[1628,748,"PSI"],[1703,750,"PS2"],[1772,752,"Ps9"],[1815,752,"PSIO"],[1625,759,"M611"],[1703,759,"M611"],[1768,761,"M648"],[1815,762,"M648"],[1079,770,"RBP"],[1114,770,"BLANK PANEL"],[441,790,"RBP-} BLANK PANEL"],[763,792,"RBP;"],[797,793,"BLANK PANEL"],[1079,795,"RBP_"],[1114,797,"BLANK PANEL"],[1079,824,"MSZO0A CCNTROLLER"],[1650,839,"EXTERNAL_POWER_SUPPLIES"],[1677,1149,"SSUELDAS"],[1806,1149,"REMSION"],[1625,1179,"WBS"],[1732,1183,"WARD-BECK  SYSTEMS"],[1603,1202,"DRN: PA"],[1645,1206,"08/88"],[1775,1211,"CFTO-TV"],[1603,1231,"CKD_"],[1691,1232,"ST3642 STEREO"],[1829,1234,"TV CONSOLE"],[1603,1246,"APP_"],[1726,1248,"FRONT"],[1788,1249,"VIEW LAYOUT"],[1608,1260,"SCALE"],[1645,1264,"DISC_NO; 241"],[1915,1266,"ISSUE"],[1610,1273,"1:4"],[1645,1277,"CODE: 80134L02"],[1758,1280,"880134-04-002"]]}}
+```

@@ -1,0 +1,78 @@
+# 1994 - 940238-04-037 - CKNW CUSTOM POWER INTERFACE PANEL - DRN DRG - ISS 2.jpg
+Wiki page: [Job-940238](../../../PAGES/Job-940238.md)
+
+
+- **Year:** 1994 (job number 940238)
+- **Job / serial number:** 940238
+- **Project:** CKNW
+
+## Title block (found by software, read by eye)
+
+- **Drawing:** D 940238-04-037
+- **Size:** D
+- **Title:** CKNW CUSTOM / POWER INTERFACE / PANEL
+- **Drawn:** DRG
+- **Issue:** 2
+- **Customer:** CKNW
+- **Confidence:** high
+
+- **Original file:** `WBSps.env/WBS Photos-1-001/2021-3-16-23-32-12.jpg`
+- **SHA-256:** `f054aa8369ffcdc52f0cf9186618a3a022bb46fa73cbb56c872f26d1a9e2e7fa`
+- **Size:** 399,713 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 3 words corrected)
+
+```text
+P52
+PS2
+SIDE VIEW
+REAR MEW
+CONSOLE
+NOTE: PO"ER SUPPLY 1*2 CABLES SHOULD BE LONG ENOUGH ALLOT THE REMOVAL OF EITHER SUPPLY BEFORE UNPLUGGING CABLE
+TO CONSOLE
+INTERFACE PANEL SHOULD BE MOUNTED ON FRONT OF RACK MTH CC NECTCRS FACING THE REAR RACK.
+PS2
+FRONT MEW
+CONSOLE]
+SSUEI
+REVISION
+WBS
+Anp WARD-BECK SYSTEMS
+DRN: ENG
+DRG
+CKNW CUSTOM POWER INTERFACE PANEL SCALE DISC NO: 480 ISSUE 940238- 04-037 COOE; 94238L37
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+P52
+PS2
+SIDE VIEW
+REAR MEW
+CONSOLE
+NOTE: PO"ER SUPPLY 1*2 CABLES SHOULD BE LONG ENCUGH ALLOT THE REMOVAL OF EITHER SUPPLY BEFORE UNPLUGGING CABLE
+TO CONSOLE
+INTERFACE PANEL SHOULD BE MOUNTED ON FRONT OF RACK MTH CC NECTCRS FACINC THE REAR RACK.
+PS2
+FRONT MEW
+CONSQLE]
+SSUEI
+REVISION
+WBS
+Anp WARD-BECK SYSTEMS
+DRN: ENG
+DRG
+CKNW CUSTOM POWER INTERFACE PANEL SCALE DISC NO: 480 ISSUE 940238- 04-037 COOE; 94238L37
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"Consoles/1990-1999/940238 - CKNW/1994 - 940238-04-037 - CKNW CUSTOM POWER INTERFACE PANEL - DRN DRG - ISS 2.jpg","sha256":"f054aa8369ffcdc52f0cf9186618a3a022bb46fa73cbb56c872f26d1a9e2e7fa","kind":"job","models":["940238"],"year":1994,"pages":1,"order":[{"page":1,"title_block":[{"number":"D 940238-04-037","type":"layout / outline","title":"CKNW CUSTOM / POWER INTERFACE / PANEL","year":1994,"drawn":"DRG","issue":"2"}],"text":["POAFR CAELES","CCNSCLE","CAALE","CO NECTCRS","FROHT","WBS WARD-BECK SYSTEMS","CKNW CUSTOM","POWER INTERFACE","PANEL","SCALF DISC NO; 940238-04-037","CoDez 942JELJZ"]}],"drawing":{"svg":"_traces/f054aa8369ffcdc5.svg","viewBox":[2000,1280],"rotate":0,"size":"D","number":"D 940238-04-037","title":"CKNW CUSTOM / POWER INTERFACE / PANEL","dtype":"04","outlines":"see _traces/f054aa8369ffcdc5.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[1385,635,"POAFR"],[1480,637,"CAELES"],[1800,658,"CCNSCLE"],[1522,668,"CAALE"],[1410,707,"CO NECTCRS"],[1718,772,"FROHT"],[1611,1146,"WBS"],[1719,1146,"WARD-BECK SYSTEMS"],[1741,1176,"CKNW"],[1794,1176,"CUSTOM"],[1724,1196,"POWER INTERFACE"],[1771,1214,"PANEL"],[1595,1225,"SCALF"],[1630,1228,"DISC NO;"],[1630,1240,"CoDez"],[1662,1240,"942JELJZ"],[1749,1241,"940238-04-037"]]}}
+```

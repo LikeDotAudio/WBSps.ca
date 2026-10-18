@@ -1,0 +1,327 @@
+# 1978 - 450-02-003 - M450B PROGRAM SUMMING AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 3.jpg
+Wiki page: [M450](../../../PAGES/M450.md)
+
+
+- **Year:** 1978 (title block date)
+- **Module:** M450
+- **Category:** AMPLIFIERS
+- **Module year estimate:** 1975 — labelled "DATE APR 75" in WBS Photos-1-001/Scan_20210321 (2).png
+
+## Title block (found by software, read by eye)
+
+- **Drawing:** B 450-02-003
+- **Size:** B
+- **Title:** M450B / PROGRAM/SUMMING AMPLIFIER / SCHEMATIC
+- **Date:** 4/78
+- **Drawn:** GEB
+- **Checked:** R. Bell (signature)
+- **Engineer:** MRW 4/78
+- **Issue:** 3
+- **Confidence:** high
+
+- **Original file:** `WBSps.env/WBS Photos-1-001/WBSps.ca -2021-3-15-19-3-51 (50).jpg`
+- **SHA-256:** `1c0059872b4b9c8b543e7212cc969d672588ff4520940bd16414e95ec4a7bf32`
+- **Size:** 1,324,877 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 3 words corrected)
+
+```text
++I6v
+Re
+I5k
+R33 4K7
+R4O 22
+02 2n4401 2n440|
+03 PN3645
+qio 2n3645
+55 3.3p
+330/6
+Tis +
+l
+C2o
+Lf3s6
+Tip2sb
+R5 Xekz 64 47
+03 33p Pn3563
+2k7
+cib iop
+R44 6-8 V2w
+IBv
+R37
+R3e Wv Sk c2i
+RG 47k
+R3 2k7
+R5s 620
+R4G
+C23
+12
+5.6
+zo/i0
+33p
+R3c
+IooH
+R47 4K7
+R3 ISk
+Sk
+CR3 1n41+3
+R+5 6.B V2 W
+R35 ISk
+c22 10/25
+CRA 1n4148
+RAI 240
+612 Tip3ob
+Rio 2k CG
+INPUT
+R42 4K7
+R4 ISK
+56p
+R43 4k7
+24
+OUTPUT
+~IGv
+RIG ISk
+RI7 22
+24 v
+05 2n4401 2n4+01
+Pn2645
+R27 4k7
+R2e 22
+Pn3563
+330/6
+3.37 RIB Ik2
+014 2n3645
+Rzo Io0
++IBv LF3s6 22 Ci2 JBv IOP
+015 Tip2sb
+cio
+R23 W 2k2
+Cis
+Ri2 M 1C31 3k3 133p
+33/10
+7k5 ci 2200p
+013 33p Pn3569 R2G
+RB
+4k7
+R2i Ioo
+R32 6.8 V2W
+220
+RS6 620
+GAIN SET
+ISk
+Gic
+R34
+C24
+33
+Ci3 33 RZA ISk
+13
+PN3C45
+Lep
+z2o/10
+Ris 47k
+RIS ISk
+220p
+R48 4K7
+ICOLH
+CRI N4148
+IGv
+Ci7 I0/25
+R33 6.8 V2 W
+CRZ 1n4/4a
+R23 240
+O4V
+016
+R49 V 274 3w
+Tip3ob
+tibv Rsi I60 M
+R3o 4K7
+CRs
+Rso 330 MVv
+t25v
+TI6V
+IN4063
+C25 22/25
+c27 22/25
+C29 10/25
+C32 0.68/35
+R3i 4k7
+NOTES: ALL REsISTORS V4 W,5 % AND ALL CAPAciToRS IN,u LESS OTHERWISE SPECIFIED
++25v COMM
+Miter
+COMMON
+24 v
+C26 22/25
+C2b 22/25
+C30 18/25
+C33 0.68/35 ~I6v
+CRG
+-25v
+JM MV R52 330 R53 Ioo R5+ -Iev
+LaST coMPonEnT DESIGnATIONS C31 CRG 316 R56 22,L2
+3/83 6/79 ISSUE DATE
+4038 5640 REVISION
+IN4003
+PM APP
+27n 3w
+WBS
+WARD-BECK SYSTEMS
+DRN: GEB ENG MRW 478] CKD
+M45oB PROGRAMISUMMING AMPLIFIER SCHEMATIC ISSUE 450-02-003
+SCALE
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
++I6v
+Re
+I5k
+R33 4K7
+R4O 22
+02 2n4401 2n440|
+03 PN3645
+qio 2n3645
+55 3.3p
+330/6
+Tis +
+l
+C2o
+Lf3s6
+Tip2sb
+R5 Xekz 64 47
+03 33p Pn3563
+2k7
+cib iop
+R44 6-8 V2w
+IBv
+R37
+R3e Wv Sk c2i
+RG 47k
+R3 2k7
+R5s 620
+R4G
+C23
+12
+5.6
+zo/i0
+33p
+R3c
+IooH
+R47 4K7
+R3 ISk
+Sk
+CR3 1n41+3
+R+5 6.B V2 W
+R35 ISk
+c22 10/25
+CRA 1n4148
+RAI 240
+612 Tip3ob
+Rio 2k CG
+INPUT
+R42 4K7
+R4 ISK
+56p
+R43 4k7
+24
+OUTPUT
+~IGv
+RIG ISk
+RI7 22
+24 v
+05 2n4401 2n4+01
+Pn2645
+R27 4k7
+R2e 22
+Pn3563
+330/6
+3.37 RIB Ik2
+014 2n3645
+Rzo Io0
++IBv LF3s6 22 Ci2 JBv IOP
+015 Tip2sb
+cio
+R23 W 2k2
+Cis
+Ri2 M 1C31 3k3 133p
+33/10
+7k5 ci 2200p
+013 33p Pn3569 R2G
+RB
+4k7
+R2i Ioo
+R32 6.8 V2W
+220
+RS6 620
+GAIN SET
+ISk
+Gic
+R34
+C24
+33
+Ci3 33 RZA ISk
+13
+PN3C45
+Lep
+z2o/10
+Ris 47k
+RIS ISk
+220p
+R48 4K7
+ICOLH
+CRI N4148
+IGv
+Ci7 I0/25
+R33 6.8 V2 W
+CRZ 1n4/4a
+R23 240
+O4V
+016
+R49 V 274 3w
+Tip3ob
+tibv Rsi I60 M
+R3o 4K7
+CRs
+Rso 330 MVv
+t25v
+TI6V
+IN4063
+C25 22/25
+c27 22/25
+C29 10/25
+C32 0.68/35
+R3i 4k7
+NOTES: ALL REsISTORS V4 W,5 % AND ALL CAPAciToRS IN,u NLESS OTHERWISE SPECIFIED
++25v COMM
+MiTeK
+COMMON
+24 v
+C26 22/25
+C2b 22/25
+C30 18/25
+C33 0.68/35 ~I6v
+CRG
+-25v
+JM MV R52 330 R53 Ioo R5+ -Iev
+LaST coMPonEnT DESIGnATIONS C31 CRG 316 R56 22,L2
+3/83 6/79 ISSUE DATE
+4038 5640 REVISION
+IN4003
+PM APP
+27n 3w
+WBS
+WARD-BECK SYSTEMS
+DRN: GEB ENG MRW 478] CKD
+M45oB PROGRAMISUMMING AMPLIFIER CHEMATIC ISSUE 450-02-003
+SCALE
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/AMPLIFIERS/M450/1978 - 450-02-003 - M450B PROGRAM SUMMING AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 3.jpg","sha256":"1c0059872b4b9c8b543e7212cc969d672588ff4520940bd16414e95ec4a7bf32","kind":"module","models":["M450"],"year":1978,"pages":1,"order":[{"page":1,"title_block":[{"number":"B 450-02-003","type":"schematic","title":"M450B / PROGRAM/SUMMING AMPLIFIER / SCHEMATIC","date":"4/78","year":1978,"drawn":"GEB","issue":"3"}],"text":["R33 R40","PN3C45","cid","2N3.+5","330/6","3.30 C20","LF3s6 Tip2sb","03","P43563","iop R44","R3e","C23","220/i0","R4T","CRS","R+5","735","Ja2c","R4|","10414B","412","Tipaob","TNPUT R+2","4k7","ISk R42","OLT PUT","RIG RI7","R27 R2e","24-401","J3oie PNJSCS","Rzo 2N3l45","Tip2sb","3k3 R2i Ciz Pn3ggs","R32","GAIN","SET PN3C45","crI","R33","CrZ","044146","Tipaob","274 37 Ro","RSO 330","T25v","C25 C?3","22/25 22/25 10/25 0.63/35 NOTES 4k7","525v","COMM COMMON Resistors 57 AND","Cz8 230 UNLESS","22/25 22/25 125 Totelas ctherwise SPECifIED;","CRC CAST ccmpgnent DesigNaTiONS","-25v ~Icv 3893 4038","330 R53 Ice 231 CRC R56 22,L2 364","274 ?w WBS WARD-BeCK systeMs","PROGRAMISUMMING Amplifier","SCHEMATI","02-003"]}],"drawing":{"svg":"_traces/1c0059872b4b9c8b.svg","viewBox":[2000,1290],"rotate":0,"size":"B","number":"B 450-02-003","title":"M450B / PROGRAM/SUMMING AMPLIFIER / SCHEMATIC","dtype":"02","outlines":"see _traces/1c0059872b4b9c8b.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/1c0059872b4b9c8b.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[1251,109,"R33"],[1381,109,"R40"],[689,154,"PN3C45"],[1396,164,"cid"],[1381,179,"2N3.+5"],[401,189,"330/6"],[635,192,"3.30"],[1327,192,"C20"],[1054,211,"LF3s6"],[1514,206,"Tip2sb"],[1264,219,"03"],[1254,234,"P43563"],[1071,254,"iop"],[1288,252,"R3e"],[1444,249,"R44"],[1595,277,"C23"],[1574,306,"220/i0"],[1586,329,"R4T"],[1379,349,"CRS"],[1506,364,"R+5"],[968,368,"735"],[1270,377,"Ja2c"],[1429,391,"R4|"],[1371,404,"10414B"],[1521,414,"412"],[1511,429,"Tipaob"],[191,441,"TNPUT"],[1374,449,"R+2"],[1371,464,"4k7"],[401,499,"ISk"],[1372,500,"R42"],[1749,551,"OLT PUT"],[549,589,"RIG"],[679,589,"RI7"],[1246,624,"R27"],[1371,624,"R2e"],[448,632,"24-401"],[750,665,"PNJSCS"],[391,676,"J3oie"],[699,696,"Rzo"],[1376,691,"2N3l45"],[1509,719,"Tip2sb"],[551,746,"3k3"],[699,754,"R2i"],[1246,749,"Pn3ggs"],[1444,761,"R32"],[196,796,"GAIN"],[204,814,"SET"],[746,814,"PN3C45"],[1376,861,"crI"],[1494,876,"R33"],[1371,901,"CrZ"],[1368,913,"044146"],[1506,941,"Tipaob"],[419,966,"274 37"],[1369,964,"Ro"],[411,986,"RSO 330"],[216,996,"T25v"],[406,1021,"C25"],[566,1021,"C?3"],[406,1036,"22/25"],[479,1036,"22/25"],[568,1033,"10/25"],[621,1036,"0.63/35"],[904,1039,"NOTES"],[1366,1031,"4k7"],[211,1046,"525v"],[206,1064,"COMM"],[681,1059,"COMMON"],[954,1059,"Resistors"],[1086,1061,"57 AND"],[494,1079,"Cz8"],[581,1079,"230"],[1074,1074,"UNLESS"],[421,1094,"22/25"],[494,1094,"22/25"],[581,1094,"125"],[620,1098,"Totelas"],[916,1089,"ctherwise"],[1019,1089,"SPECifIED;"],[350,1098,"CRC"],[211,1114,"-25v"],[650,1112,"~Icv"],[916,1109,"CAST"],[969,1109,"ccmpgnent"],[1079,1111,"DesigNaTiONS"],[1779,1111,"3893"],[1861,1114,"4038"],[444,1126,"330"],[511,1126,"R53 Ice"],[916,1124,"231"],[964,1124,"CRC"],[1051,1124,"R56"],[1094,1126,"22,L2"],[1865,1125,"364"],[419,1171,"274 ?w"],[1694,1174,"WBS"],[1786,1171,"WARD-BeCK systeMs"],[1756,1221,"PROGRAMISUMMING Amplifier"],[1825,1235,"SCHEMATI"],[1841,1266,"02-003"],[1063,751,"Ciz"]]}}
+```

@@ -1,0 +1,319 @@
+{
+ "knob": {
+  "type": "_SmartKnob",
+  "label": {
+   "En": "Black Regular",
+   "Fr": "Black Regular",
+   "De": "Black Regular",
+   "Es": "Black Regular",
+   "show_label": true
+  },
+  "geometry": {
+   "width": 110,
+   "height": 110
+  },
+  "readout": {
+   "text_inside": false,
+   "label_position": "top"
+  },
+  "cosmetics": {
+   "visualization": "wbs-elma",
+   "colors": {
+    "primary": "#1c1c1c",
+    "cap": "#cfd2d6",
+    "tick": "#aaaaaa"
+   },
+   "styling": {
+    "fill_color": "#1c1c1c",
+    "cap_color": "#cfd2d6",
+    "outline_color": "#000",
+    "outline_thickness": 1
+   },
+   "flutes": 18,
+   "cap": {
+    "show": true,
+    "color": "#cfd2d6"
+   },
+   "wing": {
+    "show": false,
+    "color": "#1c1c1c",
+    "length": 0.2,
+    "both": false
+   },
+   "pointer_tip": {
+    "show": false,
+    "color": "#1c1c1c",
+    "length": 0.2
+   },
+   "line": {
+    "color": "#ffffff"
+   }
+  },
+  "domain": {
+   "primary": {
+    "min": 0,
+    "max": 100,
+    "value_default": 0
+   }
+  }
+ },
+ "fader": {
+  "type": "_CustomLTP",
+  "label": {
+   "active": {
+    "text": {
+     "En": "Kick",
+     "Fr": "Kick",
+     "De": "Kick",
+     "Es": "Kick"
+    },
+    "text_size": 12,
+    "text_color": "#cccccc"
+   }
+  },
+  "fader_config": {
+   "cosmetics": {
+    "colors": {
+     "highlight": "#FF3131"
+    }
+   },
+   "readout": {
+    "show_value": true,
+    "show_units": true
+   },
+   "domain": {
+    "min": -60.0,
+    "max": 12.0
+   },
+   "value": {
+    "default_value": -10.0
+   },
+   "unit_text": "dB"
+  },
+  "knob_config": {
+   "cap_radius": 22,
+   "cap_color": "#1a1a1a",
+   "cap_outline_color": "#FF3131",
+   "knob_style": "standard"
+  },
+  "style": {
+   "knob_shape": "circle",
+   "pointer_style": "line",
+   "arc_width": 5,
+   "tick_color": "#FF3131"
+  },
+  "layout": {
+   "width": 120,
+   "height": 420
+  }
+ },
+ "wink": {
+  "type": "_WinkButton",
+  "label": {
+   "active": {
+    "text": {
+     "En": "01",
+     "Fr": "01",
+     "De": "01",
+     "Es": "01"
+    },
+    "text_size": 12,
+    "text_color": "#cccccc"
+   }
+  },
+  "path": "audio/wink/target_demo_001",
+  "width": 60,
+  "height": 60,
+  "shape_type": "square",
+  "color": "#00FF00",
+  "shutter_color": "#000000",
+  "latching": false,
+  "open_speed": 0.22,
+  "close_speed": 0.33,
+  "text_inside": "GO",
+  "text_inside_color": "white",
+  "radius": 0,
+  "text_closed": ""
+ },
+ "trapezoid": {
+  "type": "_TrapezoidButton",
+  "domain": {
+   "min": 0.0,
+   "max": 1.0
+  },
+  "value": {
+   "default_value": false
+  },
+  "label": {
+   "active": {
+    "text": {
+     "En": "MUTE",
+     "Fr": "MUTE",
+     "De": "MUTE",
+     "Es": "MUTE"
+    },
+    "text_size": 12,
+    "text_color": "#cccccc"
+   }
+  },
+  "width": 70,
+  "height": 45,
+  "color": "#7d7d7d",
+  "led_color": "#FFFF00",
+  "latching": true,
+  "slant": 8,
+  "value_text_inside": true,
+  "show_value": true,
+  "show_units": false,
+  "notes": "Standard latching MUTE, yellow LED."
+ },
+ "trapezoid_toggler": {
+  "type": "_TrapezoidButtonToggler",
+  "value": {
+   "default_value": "Mic"
+  },
+  "label": {
+   "active": {
+    "text": {
+     "En": "Input",
+     "Fr": "Entr\u00e9e",
+     "De": "Eingang",
+     "Es": "Entrada"
+    },
+    "text_size": 12,
+    "text_color": "#cccccc"
+   }
+  },
+  "options": [
+   "Mic",
+   "Line",
+   "USB"
+  ],
+  "width": 80,
+  "height": 50,
+  "color": "#6a9955",
+  "led_color": "#00FF00",
+  "latching": true,
+  "slant": 15,
+  "value_text_inside": true,
+  "show_value": true,
+  "show_units": false,
+  "notes": "Input source selector (Mic/Line/USB)."
+ },
+ "toggler": {
+  "type": "_SmartToggler",
+  "geometry": {
+   "height": 18,
+   "font": 7
+  },
+  "interaction": {
+   "options": {
+    "1": {
+     "label": {
+      "active": {
+       "text": {
+        "En": "S1",
+        "Fr": "S1",
+        "De": "S1",
+        "Es": "S1"
+       },
+       "text_size": 12,
+       "text_color": "#cccccc"
+      }
+     }
+    },
+    "2": {
+     "label": {
+      "active": {
+       "text": {
+        "En": "S2",
+        "Fr": "S2",
+        "De": "S2",
+        "Es": "S2"
+       },
+       "text_size": 12,
+       "text_color": "#cccccc"
+      }
+     }
+    },
+    "3": {
+     "label": {
+      "active": {
+       "text": {
+        "En": "S3",
+        "Fr": "S3",
+        "De": "S3",
+        "Es": "S3"
+       },
+       "text_size": 12,
+       "text_color": "#cccccc"
+      }
+     },
+     "selected": true
+    }
+   }
+  }
+ },
+ "meter": {
+  "type": "_NeedleVUMeter",
+  "label": {
+   "En": "PGM 1",
+   "Fr": "PGM 1",
+   "De": "PGM 1",
+   "Es": "PGM 1",
+   "show_label": true
+  },
+  "notes": "Fast broadcast meter.",
+  "geometry": {
+   "width": 100,
+   "height": 100
+  },
+  "domain": {
+   "primary": {
+    "min": -20.0,
+    "max": 3.0,
+    "value_default": -20.0
+   }
+  },
+  "dynamics": {
+   "attack_ms": 50,
+   "release_ms": 200,
+   "dwell_time": 50,
+   "hold_time": 50,
+   "resting_point": -20.0
+  },
+  "cosmetics": {
+   "colors": {
+    "primary": "#8BC34A",
+    "alert": "#D32F2F"
+   },
+   "style_flags": {
+    "show_grid": true,
+    "visualization": "needle"
+   },
+   "style_overrides": {
+    "sub_ticks": 0,
+    "Meter_viewable_angle": 90.0,
+    "Meter_center_angle": 90.0,
+    "Counter_Clockwise": false,
+    "mask": true,
+    "meter_mode": "mono",
+    "Pointer_Style": "line",
+    "Pivot_size": 10,
+    "curve_thickness": 4,
+    "Scale_numbers": true,
+    "Peak_flag": true
+   },
+   "scale": {
+    "upper_range": 0.0
+   },
+   "pointer": {
+    "secondary_color": "#FF0000",
+    "thickness": 3
+   }
+  },
+  "interaction": {
+   "is_read_only": false
+  }
+ }
+}

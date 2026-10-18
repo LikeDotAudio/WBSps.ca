@@ -1,0 +1,28 @@
+{
+  "source": "/home/anthony/Documents/GitProjects/WBSps.ca/WBSps.env/WBSps Engineering from H drive/WBSps - SA14-XXX/SA14-273/14-273.PCB",
+  "kicad_pcb": "/home/anthony/Documents/GitProjects/WBSps.ca/2026/Engineering/PCB/14-273 - SA14-273 10X1 STEREO SELECTOR ASSEMBLY/14-273.kicad_pcb",
+  "format": "Tango-PCB PLUS V2.02 Series II",
+  "edge_layer": 14,
+  "tango_layers_used": {
+    "0": 551,
+    "1": 2136,
+    "4": 59,
+    "8": 1953,
+    "9": 1,
+    "10": 2,
+    "11": 1,
+    "14": 4,
+    "16": 124,
+    "18": 28
+  },
+  "counts": {
+    "components": 273,
+    "pads": 800,
+    "tracks": 2638,
+    "vias": 39,
+    "graphics": 2039,
+    "texts": 131,
+    "pours": 51
+  },
+  "nets": null
+}

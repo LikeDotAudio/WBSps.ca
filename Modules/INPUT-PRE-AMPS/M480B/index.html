@@ -1,0 +1,1612 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M480B — Input Module Schematic</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../../../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../../../index.html">Index</a><a href="../../../Home.html">Wiki home</a><a href="../../../PAGES/Timeline.html">Timeline</a><a href="../../../search.html">Search</a><a href="../../../status.html">Status</a></div><h1>M480B — Input Module Schematic</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="../../../PAGES/Category-INPUT-PRE-AMPS.html">INPUT-PRE-AMPS</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../../../simulator.html?m=M480B">simulator &amp; front panel</a> · <a href="../../../_packages/M480B.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="../../../PAGES/Year-1980.html">1980|13</a> — manual issue date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"MANUAL ISSUE #2 NOVEMBER 1980" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M480 - #A #B #C/M480B - Input Module/M480B - Scan 2/M480B complete_Page_01.jpg</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="../../../PAGES/Year-1980.html">1980|13</a></td>
+</tr>
+<tr>
+<td>Variants</td>
+<td><a href="../../../PAGES/M480.html">M480</a>, <a href="../../../PAGES/M480A.html">M480A</a>, <a href="../../../PAGES/M480C.html">M480C</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="index.html">Modules/INPUT-PRE-AMPS/M480B</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections and circuit (ideal SPICE model)</h2>
+<p><em>Drawn live from its RTO-144 connections: run the generator, turn the gain, watch the VU. Open the netlist to see how the model is built.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M480B" data-n="Input Module Schematic" data-cat="INPUT-PRE-AMPS"></div><svg class="wbs-panel" data-m="M480B" data-n="Input Module Schematic" data-cat="INPUT-PRE-AMPS" role="img" aria-label="M480B front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M480B","title":"Input Module Schematic","rto":{"code":"M480B","series":null,"type":"M480B Input Module","row_count":null,"impedance":{},"note":null,"audio":[{"port":"A1","signal":"MIC-IN-B","dir":"in","pos":"1","neg":"A","pad_pos":"1.A.1.P","pad_neg":"A.A.1.N"},{"port":"A2","signal":"Line IN-B","dir":"in","pos":"13","neg":"P","pad_pos":"13.A.2.P","pad_neg":"P.A.2.N"},{"port":"A3","signal":"M1 OUT","dir":"out","pos":"6","neg":"F","pad_pos":"6.A.3.P","pad_neg":"F.A.3.N"},{"port":"A4","signal":"M2 OUT","dir":"out","pos":"7","neg":"H","pad_pos":"7.A.4.P","pad_neg":"H.A.4.N"},{"port":"B1","signal":"Cue Solo","dir":"io","pos":"5","neg":"E","pad_pos":"5.B.1.P","pad_neg":"E.B.1.N"},{"port":"B2","signal":"Aux","dir":"io","pos":"4","neg":"D","pad_pos":"4.B.2.P","pad_neg":"D.B.2.N"},{"port":"B3","signal":"Fader Send","dir":"out","pos":"T","neg":"16","pad_pos":"T.B.3.P","pad_neg":"16.B.3.N"},{"port":"B4","signal":"Fader Return","dir":"in","pos":"L","neg":"10","pad_pos":"L.B.4.P","pad_neg":"10.B.4.N"}],"bus_out":[],"bus_in":[],"power":[{"rail":"VEE-AUDIO","style":"NEW","volts":-25,"max_a":0.2,"supply":"19","ground":"20","link":2},{"rail":"VCC-AUDIO","style":"NEW","volts":25,"max_a":0.2,"supply":"21","ground":"20","link":1}],"jumpers":[],"logic":[]},"parts":[{"item":"10-015","title":"","label":"10-015","href":"Register-Sub-assemblies-n-nnn.html#10-015","note":"Sub-assemblies (n-nnn)"},{"item":"60-12","title":"60-12 / INPUT TRANSFORMER","label":"60-12 60-12 / INPUT TRANSFORMER","href":"Transformers.html#60-12","note":"Input transformers (60-n)"}],"parents":[]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_01.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_01.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_01.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - M480B_Page_01.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_01.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_01.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_01.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - complete_Page_01.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480-01-001%20-%20SOLO%20CONTROL%20PEAK%20EXTERNAL%20PEAK%20CALIBRATION.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480-01-001%20-%20SOLO%20CONTROL%20PEAK%20EXTERNAL%20PEAK%20CALIBRATION.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - 480-01-001 - SOLO CONTROL PEAK EXTERNAL PEAK CALIBRATION.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - 480-01-001 - SOLO CONTROL PEAK EXTERNAL PEAK CALIBRATION.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480-01-001%20-%20W-IG%20INPUT%20MODULE.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480-01-001%20-%20W-IG%20INPUT%20MODULE.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - 480-01-001 - W-IG INPUT MODULE.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1980 - M480B - 480-01-001 - W-IG INPUT MODULE.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480-02-003%20-%20INPUT%20MODULE%20SCHEMATIC%20CHASSIS.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480-02-003%20-%20INPUT%20MODULE%20SCHEMATIC%20CHASSIS.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - 480-02-003 - INPUT MODULE SCHEMATIC CHASSIS.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - 480-02-003 - INPUT MODULE SCHEMATIC CHASSIS.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480-04-002%20-%20INPUT%20MODULE%20FRONT%20PANEL%20SCELE.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480-04-002%20-%20INPUT%20MODULE%20FRONT%20PANEL%20SCELE.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - 480-04-002 - INPUT MODULE FRONT PANEL SCELE.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - 480-04-002 - INPUT MODULE FRONT PANEL SCELE.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480-04-002%20-%20INPUT%20MODULE.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480-04-002%20-%20INPUT%20MODULE.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - 480-04-002 - INPUT MODULE.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1980 - M480B - 480-04-002 - INPUT MODULE.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480-06-002%20-%20INPUT%20MODULE%20COMPONENT%20LAYOUT.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480-06-002%20-%20INPUT%20MODULE%20COMPONENT%20LAYOUT.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - 480-06-002 - INPUT MODULE COMPONENT LAYOUT.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - 480-06-002 - INPUT MODULE COMPONENT LAYOUT.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480B-02-003.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480B-02-003.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - 480B-02-003.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - 480B-02-003.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480B-06-002.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480B-06-002.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - 480B-06-002.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - 480B-06-002.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_02.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_02.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_02.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - M480B_Page_02.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_03.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_03.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_03.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - M480B_Page_03.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_04.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_04.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_04.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - M480B_Page_04.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_05.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_05.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_05.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - M480B_Page_05.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_06.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_06.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_06.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - M480B_Page_06.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_07.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_07.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_07.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - M480B_Page_07.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_08.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_08.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_08.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - M480B_Page_08.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_09.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_09.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_09.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - M480B_Page_09.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_10.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_10.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_10.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - M480B_Page_10.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_11.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_11.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_11.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - M480B_Page_11.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_12.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_12.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_12.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - M480B_Page_12.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_13.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_13.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_13.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - M480B_Page_13.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_14.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_14.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_14.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - M480B_Page_14.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_15.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_15.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_15.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - M480B_Page_15.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_16.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_16.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_16.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - M480B_Page_16.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_17.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_17.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_17.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - M480B_Page_17.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_18.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_18.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_18.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - M480B_Page_18.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_19.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_19.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_19.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - M480B_Page_19.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_20.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_20.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_20.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - M480B_Page_20.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_21.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_21.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_21.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - M480B_Page_21.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_22.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_22.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_22.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - M480B_Page_22.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20Preamp.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20Preamp.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - Preamp.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - Preamp.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_02.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_02.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_02.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - complete_Page_02.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_03.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_03.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_03.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - complete_Page_03.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_04.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_04.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_04.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - complete_Page_04.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_05.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_05.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_05.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - complete_Page_05.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_06.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_06.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_06.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - complete_Page_06.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_07.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_07.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_07.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - complete_Page_07.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_08.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_08.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_08.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - complete_Page_08.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_09.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_09.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_09.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - complete_Page_09.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_10.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_10.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_10.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - complete_Page_10.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_11.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_11.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_11.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - complete_Page_11.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_12.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_12.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_12.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - complete_Page_12.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_13.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_13.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_13.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - complete_Page_13.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_14.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_14.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_14.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - complete_Page_14.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_15.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_15.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_15.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - complete_Page_15.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_16.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_16.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_16.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - complete_Page_16.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_17.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_17.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_17.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - complete_Page_17.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_18.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_18.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_18.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - complete_Page_18.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_19.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_19.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_19.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - complete_Page_19.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_20.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_20.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_20.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - complete_Page_20.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_21.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_21.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_21.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - complete_Page_21.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_22.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_22.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_22.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - complete_Page_22.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20wbsps%20-%20module%20-%20m480b%20preamp_small.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20wbsps%20-%20module%20-%20m480b%20preamp_small.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - wbsps - module - m480b preamp_small.jpg" data-size="320" onerror="wbsOff(this)">1980 - M480B - wbsps - module - m480b preamp_small.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/19xx%20-%20M480B%20-%20FREQUENCY%20RESPONSE%20CHARACTERISTICS%20M480B%20INPUT%20MODULE%20EQUALIZER.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M480B/19xx%20-%20M480B%20-%20FREQUENCY%20RESPONSE%20CHARACTERISTICS%20M480B%20INPUT%20MODULE%20EQUALIZER.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M480B/19xx - M480B - FREQUENCY RESPONSE CHARACTERISTICS M480B INPUT MODULE EQUALIZER.jpg" data-size="320" onerror="wbsOff(this)">19xx - M480B - FREQUENCY RESPONSE CHARACTERISTICS M480B INPUT MODULE EQUALIZER.jpg</a></div>
+<h2>Price history</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Price</th>
+<th>Listed as</th>
+<th>Effective</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Year-2005.html">2005|38</a></td>
+<td>used market value</td>
+<td>150.00</td>
+<td>M480B Pre-amp</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/old website/PriceGuide.htm</td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-2006.html">2006|39</a></td>
+<td>used market value</td>
+<td>150.00</td>
+<td>M480B Pre-amp</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/jan 2006 shell/priceguide.htm</td>
+</tr>
+</tbody>
+</table>
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Year-1980.html">1980|13</a></td>
+<td>manual issue date</td>
+<td><code>MANUAL ISSUE #2 NOVEMBER 1980</code></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_01.jpg">1980 - M480B - M480B_Page_01.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1980.html">1980|13</a></td>
+<td>manual issue date</td>
+<td><code>MANUAL ISSUE #2 NOVEMBER 1980</code></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20SCAN.pdf">1980 - M480B - SCAN.pdf</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1980.html">1980|13</a></td>
+<td>manual issue date</td>
+<td><code>MANUAL ISSUE #2 NOVEMBER 1980</code></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_01.jpg">1980 - M480B - complete_Page_01.jpg</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Physical manual inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Location</th>
+<th>Status</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M480B - Preamp</td>
+<td></td>
+<td></td>
+<td>Recently scanned and stiched by WB</td>
+</tr>
+</tbody>
+</table>
+<h2>Documents (2)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20Input%20Module%20Schematic.pdf">1980 - M480B - Input Module Schematic.pdf</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20Input%20Module%20Schematic.pdf.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20SCAN.pdf">1980 - M480B - SCAN.pdf</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20SCAN.pdf.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (55)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480-01-001%20-%20SOLO%20CONTROL%20PEAK%20EXTERNAL%20PEAK%20CALIBRATION.jpg">1980 - M480B - 480-01-001 - SOLO CONTROL PEAK EXTERNAL PEAK CALIBRATION.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480-01-001%20-%20SOLO%20CONTROL%20PEAK%20EXTERNAL%20PEAK%20CALIBRATION.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480-01-001%20-%20W-IG%20INPUT%20MODULE.jpg">1980 - M480B - 480-01-001 - W-IG INPUT MODULE.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480-01-001%20-%20W-IG%20INPUT%20MODULE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480-02-003%20-%20INPUT%20MODULE%20SCHEMATIC%20CHASSIS.jpg">1980 - M480B - 480-02-003 - INPUT MODULE SCHEMATIC CHASSIS.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480-02-003%20-%20INPUT%20MODULE%20SCHEMATIC%20CHASSIS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480-04-002%20-%20INPUT%20MODULE%20FRONT%20PANEL%20SCELE.jpg">1980 - M480B - 480-04-002 - INPUT MODULE FRONT PANEL SCELE.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480-04-002%20-%20INPUT%20MODULE%20FRONT%20PANEL%20SCELE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480-04-002%20-%20INPUT%20MODULE.jpg">1980 - M480B - 480-04-002 - INPUT MODULE.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480-04-002%20-%20INPUT%20MODULE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480-06-002%20-%20INPUT%20MODULE%20COMPONENT%20LAYOUT.jpg">1980 - M480B - 480-06-002 - INPUT MODULE COMPONENT LAYOUT.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480-06-002%20-%20INPUT%20MODULE%20COMPONENT%20LAYOUT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480B-02-003.jpg">1980 - M480B - 480B-02-003.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480B-02-003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480B-06-002.jpg">1980 - M480B - 480B-06-002.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480B-06-002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_01.jpg">1980 - M480B - M480B_Page_01.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_01.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_02.jpg">1980 - M480B - M480B_Page_02.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_02.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_03.jpg">1980 - M480B - M480B_Page_03.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_03.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_04.jpg">1980 - M480B - M480B_Page_04.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_04.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_05.jpg">1980 - M480B - M480B_Page_05.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_06.jpg">1980 - M480B - M480B_Page_06.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_06.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_07.jpg">1980 - M480B - M480B_Page_07.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_07.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_08.jpg">1980 - M480B - M480B_Page_08.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_08.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_09.jpg">1980 - M480B - M480B_Page_09.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_09.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_10.jpg">1980 - M480B - M480B_Page_10.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_10.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_11.jpg">1980 - M480B - M480B_Page_11.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_11.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_12.jpg">1980 - M480B - M480B_Page_12.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_12.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_13.jpg">1980 - M480B - M480B_Page_13.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_13.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_14.jpg">1980 - M480B - M480B_Page_14.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_14.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_15.jpg">1980 - M480B - M480B_Page_15.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_15.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_16.jpg">1980 - M480B - M480B_Page_16.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_16.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_17.jpg">1980 - M480B - M480B_Page_17.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_17.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_18.jpg">1980 - M480B - M480B_Page_18.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_18.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_19.jpg">1980 - M480B - M480B_Page_19.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_19.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_20.jpg">1980 - M480B - M480B_Page_20.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_20.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_21.jpg">1980 - M480B - M480B_Page_21.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_21.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_22.jpg">1980 - M480B - M480B_Page_22.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_22.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20Preamp.jpg">1980 - M480B - Preamp.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20Preamp.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_01.jpg">1980 - M480B - complete_Page_01.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_01.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_02.jpg">1980 - M480B - complete_Page_02.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_02.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_03.jpg">1980 - M480B - complete_Page_03.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_03.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_04.jpg">1980 - M480B - complete_Page_04.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_04.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_05.jpg">1980 - M480B - complete_Page_05.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_06.jpg">1980 - M480B - complete_Page_06.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_06.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_07.jpg">1980 - M480B - complete_Page_07.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_07.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_08.jpg">1980 - M480B - complete_Page_08.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_08.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_09.jpg">1980 - M480B - complete_Page_09.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_09.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_10.jpg">1980 - M480B - complete_Page_10.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_10.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_11.jpg">1980 - M480B - complete_Page_11.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_11.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_12.jpg">1980 - M480B - complete_Page_12.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_12.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_13.jpg">1980 - M480B - complete_Page_13.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_13.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_14.jpg">1980 - M480B - complete_Page_14.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_14.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_15.jpg">1980 - M480B - complete_Page_15.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_15.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_16.jpg">1980 - M480B - complete_Page_16.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_16.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_17.jpg">1980 - M480B - complete_Page_17.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_17.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_18.jpg">1980 - M480B - complete_Page_18.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_18.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_19.jpg">1980 - M480B - complete_Page_19.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_19.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_20.jpg">1980 - M480B - complete_Page_20.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_20.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_21.jpg">1980 - M480B - complete_Page_21.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_21.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_22.jpg">1980 - M480B - complete_Page_22.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_22.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20wbsps%20-%20module%20-%20m480b%20preamp_small.jpg">1980 - M480B - wbsps - module - m480b preamp_small.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20wbsps%20-%20module%20-%20m480b%20preamp_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/19xx%20-%20M480B%20-%20FREQUENCY%20RESPONSE%20CHARACTERISTICS%20M480B%20INPUT%20MODULE%20EQUALIZER.jpg">19xx - M480B - FREQUENCY RESPONSE CHARACTERISTICS M480B INPUT MODULE EQUALIZER.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/19xx%20-%20M480B%20-%20FREQUENCY%20RESPONSE%20CHARACTERISTICS%20M480B%20INPUT%20MODULE%20EQUALIZER.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Sub-assemblies &amp; parts used (2)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What</th>
+<th>Family</th>
+<th>Year</th>
+<th>How we know</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Register-Sub-assemblies-n-nnn.html#10-015">10-015</a></td>
+<td></td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1988|21</td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Register-Input-transformers-60-n.html#60-12">60-12</a></td>
+<td>60-12 / INPUT TRANSFORMER</td>
+<td>Input transformers (60-n)</td>
+<td>1990|23</td>
+<td>named in its manual</td>
+</tr>
+</tbody>
+</table>
+<h2>Parts list — board M480B (63 parts)</h2>
+<p><em>From <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20SCAN.pdf">1980 - M480B - SCAN.pdf</a>, page 14 (scanned); also in <code>timelines/data/bom.csv</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>Part</th>
+<th>Value</th>
+<th>Manufacturer</th>
+<th>Mfr part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M480B</td>
+<td>INPUT MODULE</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C38</td>
+<td>Capacitor uF/10 V Kemet</td>
+<td>4.7</td>
+<td></td>
+<td>T390B475MO1OAS</td>
+</tr>
+<tr>
+<td>C39</td>
+<td>.015 Aselco</td>
+<td></td>
+<td></td>
+<td>CQ-92-MC-153M</td>
+</tr>
+<tr>
+<td>C40</td>
+<td>PF Philips</td>
+<td>220</td>
+<td></td>
+<td>2222-630-03221</td>
+</tr>
+<tr>
+<td>C42</td>
+<td>uF Aselco</td>
+<td>068</td>
+<td></td>
+<td>CQ92-MC-683k</td>
+</tr>
+<tr>
+<td>CR3</td>
+<td>Fairchild</td>
+<td></td>
+<td></td>
+<td>IN4148</td>
+</tr>
+<tr>
+<td>DS2</td>
+<td>yellow</td>
+<td></td>
+<td></td>
+<td>FLV4IO</td>
+</tr>
+<tr>
+<td>Q1</td>
+<td>Transistor National</td>
+<td></td>
+<td></td>
+<td>2N4401</td>
+</tr>
+<tr>
+<td>R1</td>
+<td>Resistor 1/4w 15k Philips</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R9</td>
+<td>1/2ww  59% iOK</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R12</td>
+<td>5% 100 Dale</td>
+<td>3W</td>
+<td></td>
+<td>CWZB-100</td>
+</tr>
+<tr>
+<td>R14</td>
+<td>1/4w 22k Philips</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R16</td>
+<td>Resistor 1/4w 15k Philips</td>
+<td>59</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R21</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R22</td>
+<td>Resistor 1/4w 150 Philips</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R26</td>
+<td>Resistor 1/4w 22K Philips</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R35</td>
+<td>Resistor 1/4w 15K Philips</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C1</td>
+<td>Capacitor uF/25 V Philips</td>
+<td>22</td>
+<td></td>
+<td>426ETF22</td>
+</tr>
+<tr>
+<td>C5</td>
+<td>uF Aselco</td>
+<td>0.022</td>
+<td></td>
+<td>cQ92-MC-223M</td>
+</tr>
+<tr>
+<td>C7</td>
+<td>uF/35 V Kemet</td>
+<td>1</td>
+<td></td>
+<td>T39OB105MO35AS</td>
+</tr>
+<tr>
+<td>C8</td>
+<td>pF Aselco</td>
+<td>1500</td>
+<td></td>
+<td>CQ92-MC-152K</td>
+</tr>
+<tr>
+<td>C9</td>
+<td>uF 10 V Kemet</td>
+<td>4.7</td>
+<td></td>
+<td>T390B475MO1OAS</td>
+</tr>
+<tr>
+<td>C11</td>
+<td>uF/10 V Kemet</td>
+<td>68</td>
+<td></td>
+<td>T390D686M01OAS</td>
+</tr>
+<tr>
+<td>C12</td>
+<td>uF Aselco</td>
+<td>068</td>
+<td></td>
+<td>CQ92-MC-683K</td>
+</tr>
+<tr>
+<td>C13</td>
+<td>uF/35 V Kemet;</td>
+<td></td>
+<td></td>
+<td>T390B105M035AS</td>
+</tr>
+<tr>
+<td>C14</td>
+<td>PF Philips</td>
+<td>470</td>
+<td></td>
+<td>2222-630-03471</td>
+</tr>
+<tr>
+<td>C15</td>
+<td>uF/25 V Kemet</td>
+<td>10</td>
+<td></td>
+<td>T390C106MO25AS</td>
+</tr>
+<tr>
+<td>C16</td>
+<td>pF Philips</td>
+<td>47</td>
+<td></td>
+<td>2222-638-70479</td>
+</tr>
+<tr>
+<td>C17</td>
+<td>uF/25 V Kemet</td>
+<td>10</td>
+<td></td>
+<td>T390C106M025AS</td>
+</tr>
+<tr>
+<td>C20</td>
+<td>pF Philips</td>
+<td>470</td>
+<td></td>
+<td>2222-630-03471</td>
+</tr>
+<tr>
+<td>C22</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C23</td>
+<td>Capacitor uF/6 V Kemet</td>
+<td>150</td>
+<td></td>
+<td>T390E157MOO6AS</td>
+</tr>
+<tr>
+<td>C25</td>
+<td>pF Philips</td>
+<td>6.8</td>
+<td></td>
+<td>2222-638-09688</td>
+</tr>
+<tr>
+<td>C26</td>
+<td>PF (selected) Aselco</td>
+<td>4000</td>
+<td></td>
+<td>cQ92-MC-392k</td>
+</tr>
+<tr>
+<td>C27</td>
+<td>"i uF/25 V Kemet</td>
+<td>10</td>
+<td></td>
+<td>T390C106MO25AS</td>
+</tr>
+<tr>
+<td>C29</td>
+<td>PF Philips</td>
+<td>6.8</td>
+<td></td>
+<td>2222-638-09688</td>
+</tr>
+<tr>
+<td>C30</td>
+<td>uF/10 V Kemet</td>
+<td>220</td>
+<td></td>
+<td>T390F227M01OAS</td>
+</tr>
+<tr>
+<td>C31</td>
+<td>pF (selected) Aselco</td>
+<td>4000</td>
+<td></td>
+<td>cQ92-MC-392k</td>
+</tr>
+<tr>
+<td>C32</td>
+<td>uF/10 V Kemet</td>
+<td>220</td>
+<td></td>
+<td>T390F227M01OAS</td>
+</tr>
+<tr>
+<td>C34</td>
+<td>pF Philips</td>
+<td>220</td>
+<td></td>
+<td>2222-630-03221</td>
+</tr>
+<tr>
+<td>C35</td>
+<td>uF/10 V Kemet</td>
+<td>4.7</td>
+<td></td>
+<td>T390B475M01OAS</td>
+</tr>
+<tr>
+<td>R52</td>
+<td>Resistor 1/4w  59 Philips</td>
+<td>6k2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R55</td>
+<td>Resistor 1/4w  5% Phi Iips</td>
+<td>10K</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R62</td>
+<td>Resistor 1/4w 620 Philips</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R86</td>
+<td>Resistor 1/4w 1K Philips</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R88</td>
+<td>Resistor 1/4w 4K7 Philips</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SW3</td>
+<td>Switch iTT WBS</td>
+<td></td>
+<td></td>
+<td>11-093</td>
+</tr>
+<tr>
+<td>SW4</td>
+<td>TT WBS</td>
+<td></td>
+<td></td>
+<td>11-002</td>
+</tr>
+<tr>
+<td>SW5</td>
+<td>WBS</td>
+<td></td>
+<td></td>
+<td>11-005</td>
+</tr>
+<tr>
+<td>SW6</td>
+<td>WBS</td>
+<td></td>
+<td></td>
+<td>11-002</td>
+</tr>
+<tr>
+<td>SW8</td>
+<td>WBS</td>
+<td></td>
+<td></td>
+<td>11-094</td>
+</tr>
+<tr>
+<td>SW9</td>
+<td>WBS</td>
+<td></td>
+<td></td>
+<td>11-095</td>
+</tr>
+<tr>
+<td>T1</td>
+<td>Transformer Hammond WBS</td>
+<td></td>
+<td></td>
+<td>60-12</td>
+</tr>
+<tr>
+<td>U1</td>
+<td>Integrated Circuit National</td>
+<td></td>
+<td></td>
+<td>LF356</td>
+</tr>
+<tr>
+<td>U6</td>
+<td>ntegrated Circuit National</td>
+<td></td>
+<td></td>
+<td>LM2O1</td>
+</tr>
+<tr>
+<td>SW1</td>
+<td>Button (Grey ) TT FM-GREY</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SW2</td>
+<td>(White) FM-WH</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SW10</td>
+<td>(Grey ) FM-GREY</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R6Z</td>
+<td>Resistor 1/4w 5% Philips</td>
+<td>620</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Q3</td>
+<td>Fairchild</td>
+<td></td>
+<td></td>
+<td>2N3569</td>
+</tr>
+<tr>
+<td>R61</td>
+<td>Cap (Yellow</td>
+<td></td>
+<td></td>
+<td>010-305</td>
+</tr>
+<tr>
+<td>R45</td>
+<td>Dual A/B WBS</td>
+<td>100K</td>
+<td></td>
+<td>10-009</td>
+</tr>
+<tr>
+<td>R1B</td>
+<td>1/4W 22K Philips</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (1)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../viewer.html?f=Products/RTO/RTO-144/19xx%20-%20RTO-144%20-%20Module%20RTO-144%20Jumper%20calculator.xlsx">19xx - RTO-144 - Module RTO-144 Jumper calculator.xlsx</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="../../../PAGES/Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>General description (2)</h3>
+<details><summary>Description — 1035 words · 1980 - M480B - SCAN.pdf, page 5</summary><p>M48OB INPUT MODULE The M48OB input module provides the necessary input selection equalization and output assignment for the operation of smal mixing console, primarily the T1202 transportable console_ Input The INPUT SELECTOR switches SW1 SW2 and Sw3 allows choice of input selections between two Iine and two microphone inputs_ When operating from microphone source the input impedance of the unit is substantially higher than the source impedance In the LINE position_ the M48OB presents bridging impedance of 30k ohms to the source AII inputs to the module are transformer-coupled to the preamplifier _ Preampl ifiec The secondary side of the input transformer T1 connects to the pre- ampl ifier comprising Q1 02 u1 and their associated components SENSiTiViTY control R54 allows continous gain adjustment of all input signals over range of 30 dB _ The SENSiTiViTY control thus permits operation with microphone input levels from -70 dBm to -40 dBm and Iine input levels from -20 dBm to +10 dBm . Equalizer The signa output from the preamplifier is fed to the equalizer mix amplifier u2 _ This amplifier also receives feeds from the equalizer filter circuitry R2o is the cut/boost control for the HIGH FREQUENCY shelving of the equalizer and feeds an in-phase or out-of-phase proportional signal from the input or the output of u2 to high-pass fil- ter, consisting of u3 and its related components C8 and R16 are the frequency determining components The output from u3 is fed through R19 to the summing input of u2 . Depending upon its phase, this signal is either added or subtracted from the main signal through U2, affect ing cut or boost of the high frequency portion of the audio spectrum. Similarily, the cut/boost control R25 for the Low FREQUENCY section feeds signal to the low-pass filter consisting of U4 and iis associated components. The frequency determining components of this fi ter are C12 and R28 _ The output of u4 is fed through R18 to the summ ing input of u2 to be either added or subtracted from the main signal through u2, affecting cut or boost of the low frequency portion of the audio spectrum. 2-1</p><p>WAAD-BECK SYSTEMS LTD; CiRcuiT</p><p>M48OB NPUT MODULE SOLO/CUE Output SOLO/cuE Output is provided and appears at pins &amp; E at the module connector This output is designed as s0k ohm current source and operates into the zero impedance summing node of the SOLO/cuE summing bus_ The SOLO/cUE switch SW6 also provides dc control contact to effect control of external circuitry_ AuX Output An AuX output is provided to feed an auxiliary mixing bus With the PRE/ Post Sw tch SW7 the signal can be picked up either ahead of the attenuator (PRE) or after the attenuator (PosT) SdB loss pad in the PRE position of SW7 reduces the signal level in the PRE- position to that of the POST-position (nominal attenuator in-hand setting is 1SdB) Aux level control R87 provides level control for the Aux channel and switch SW1O is the AuX channel assignment switch. The AuX output, appearing at pins &amp; D at the module connector is designed as 20K ohm current source and operates into the zero impedance summing node of the AUX summing bus PEAK Indicator The signal for the PEAK indicator is picked up at the output of the output amplifier and is rectified with diodes CR7 and CR8 . u8 with its associated components forms voltage comparator which compares the rectified audio signal with an externally supplied reference voltage _ With the reference voltage ranging from to approximately +10 volts; calibration of the overload point from -6dBm t0 +24dBm is possible_ PEAK overload is indicated with LED DS2 _ Power Supply Decoupl ing CRI CRZ , C1 to C4 with R1o and R11 provide the decoupling network from the +/ - 25 volts power suppply bus [0 operate the internal amplifier circui try at nominal +/ - 16 volts_ CRI and CR2 guard against the inadvertant application of reverse power supply voltages 2-3</p><p>WAAD-BECK SysTeMS LTD_ FREQUENCY RESPONSE CHARACTERISTICS ML8oB INPUT MODULE EQUALIZER +10 +8 +6 OdB ~6 -8 Low FREQUENCY section BosT/cut: +/ - 10 dB _ FREQUENCY : 100 Hz _ 20Hz 10OHz 1kHz 10k 20k  30k +10 +8 +6 OdB -6 ~8 HIGH FREQUENCY section BoosT/cut: +/ - 10 dB _ FREQUENCY : 10 kHz . -10 -12 20Hz 100Hz 1kHz 10k 20k 30k 3-1</p><p>WAAD-BECK SYSTEMS LTD_ FREQUENCY RESPONSE CHARACTERISTiCS M48OB inPUT MODULE EQUALIZER +12 +10 +8 +6 OdB -6 ~8 Mid FREQUENCY section BoosT/cut: +/ - 10 dB. -12 FREQUENCY : 0.4 to 6.4 kHz: Z0Hz Q: 1.5 10OHz IkHz 10k 20k 30k +12 +10 +8 +6 OdB -6 -8 Mid FREQUENCY section ~10 BoosT/cuT: +/- 10 dB _ 0.4 6.4 kHz _ ~12 FREQUENCY: to ZOHz Q: 100Hz IkHz 10k 20k  30k 3-2</p><p>WARD-BECK SysteMs LTD_ PEAK IND ICATOR CHARACTERISTICS M48oB INPUT MODULE +20 +10 OdBm -10 1V 2v 3V 4V SV   6V 8V LEVEL Vs CONTROL VOL TAGE TABLE LEVEL (dBm) CONTROL VOL TAGE (volts) +0.15 +0.39 +0.70 +1.15 +2.00 +2.75 +3.50 +4.80 +7.50 +4 +8 +10 +14 +16 +18 +20 +22 NOTE: Level measured at preamplifier output_ 4-1</p><p>WAAD-BECK SYSTEMS LTD. PARTS LiST M48OB INPUT MODULE PART DESCR PTION MFG MFG PART NUMBER C1 C2 C3 C4 C5 Capacitor 22 uF/25 Philips 426ETF22 0 .022 uF Aselco CQ92-MC-223M C6 C7 C8 C9 C1o uF/35 1500 pF 4.7 uF 10 V 6.8 pF Kemet Aselco Kemet T390B105MO35AS CQ92-MC-152K T390B475M01OAS 2222-638-09688 C11 C12 C13 C14 C15 68 uF/1o 068 uF uF/35 470 PF 10 uF/25 Kemet Aselco Kemet Philips Kemet T390D686M01OAS CQ92-MC-683K T390B105MO35AS 2222-630-03471 T390C106M025AS C16 C17 C18 C19 C20 47 pF 10 uF/25 uF/35 4.7 uF/10 470 pF Philips Kemet 2222-638-70479 T390C1O6MO25AS T390B105M035AS T390B475M010A5 2222-630-03471 Philips C21 C22 C23 C24 C25 22 pF 2222-638-58229 delete Capacitor 150 uF/6 V Kemet T39OE 57MOO6AS 6.8 pF Philips 2222-638-09688 C26 C27 C28 C29 C30 4000 pF (selected) Aselco 10 uF/25 Kemet cQ92-MC-392K T390C106M025AS 6.8 PF 220 uF/10 Philips Kemet 2222-638-09688 T390F227M010AS C31 C32 C33 C34 C35 4000 pF (selected) Aselco 220 uF/10 Kemet uF/35 220 pF Philips 4.7 uF/10 V Kemet CQ92-MC-392k T390F227M01OAS T390B105M035AS 2222-630-03221 T390B475M01OAS C36 C37 5-1</p><p>WAA</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20SCAN.pdf">1980 - M480B - SCAN.pdf</a>, p. 5</li>
+</ul>
+<details><summary>Description — 359 words · 1980 - M480B - complete_Page_04.jpg, page 1</summary><p>M48oB INPUT MODULE The M48OB input module provides the necessary input selection equalization and output assignment for the operation of small mixing console, primarily the T1202 transportable console. Jnput The INPUT SELECTOR switches SW1 , SW2 and Sw3 lows choice of input selections between IWo Iine and two microphone inputs. When operating from microphone source, the input impedance of the unit is substantially higher than the source impedance .</p><p>In the LINE position, the M4BOB presents bridging impedance of 30k ohms to the source . AI inputs to the module are transformer-coupled to the preamplifier. Preamplifier The secondary side of the input transformer T1 connects to the pre- amplifier comprising Q1 , 02 U1 and their associated components. SENSITIViTY control R54 allows continous gain adjustment of all input signals over range of 30 dB _ The SENSITIVITY control thus permits operation with microphone input levels from -70 dBm to -40 dBm and Iine input levels from -20 dBm [0 +10 dBm .</p><p>Equalizer The signal output from the preamplifier is fed to the equalizer mix amplifier u2 . This amplifier Iso receives feeds from the equalizer filter circui try R20 is the cut/boost control for the HIGH FREQUENCY shelving of the equalizer and feeds an in-phase or out-of-phase proportiona signal from the input or the output of u2 to high-pass filter, consisting of u3 and its related components_ C8 and R16 are the frequency determining components The output from u3 is fed through R19 to the summing input of u2 .</p><p>Depending upon its phase, this signal is either added or subtracted from the main signal through u2 , affecting cU t or boost of the high frequency portion of the audio spectrum. Similarily, the cut/boost control R25 for the Low FREQUENCY section feeds signal to the Iow-pass filter, consisting of U4 and iis associated components. The frequency determining components of this filter are C12 and R28 .</p><p>The output of 44 is fed through R18 to the summing input of u2 to be either added or subtracted from the main signal through u2 , affecting cut or boost of the low frequency portion of the audio spectrum 2-1</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_04.jpg">1980 - M480B - complete_Page_04.jpg</a>, p. 1</li>
+</ul>
+<h3>Specifications (4)</h3>
+<details><summary>Technical Data — 308 words · 1980 - M480B - SCAN.pdf, page 3</summary><p>M48OB NPUT MODULE Input Sensitivities: Line: Mic: -20 to +10 dBm (ref 600 ohm source) -70 to -40 dBm (ref 150 ohm source) Frequency Response +/ - 0.25 dB from 30 Hz to 20 kHz _ (Equalizer in bypass position) Noise: -125 dB EN at maximum SENSITiVITY (20 Hz to 20 kHz ) 75 dB S/N with Sensitivity set to +8 dBm Line in (20 Hz to 20 kHz) Harmonic Distortion Less than 0.35% THD from 30 Hz to 20 KHz at +24 dBm or less at insertion point _ Less than 0.1% at kHz at +24 dBm . Equalizer controls in flat positions or not inserted _ Source mpedances Line: Mic: 600 ohms or less balanced unba anced _ 150 ohms, balanced/unbalanced _ Input mpedances Line: Mic: 30 , 000 ohms 750 ohms minimum Output mpedance Less than 100 ohms (at insertion point) 30 , 000 ohms (at module outputs) Load mpedance 600 ohms, balanced (at insertion point) _ Less than ohms (at module outputs) Output Level dBm nominal +24 dBm maximum (at insertion point) Phasing: Input and Output terminals designated by numbers are in phase . 1-1</p><p>WAAD-BECK SysTeMS LTD_</p><p>M48oB iNPUT MODULE Equalizer Controls: LF Section: Shelving type of equalization +/ - 10 dB maximum range at 100 Hz . MF Section: Bel | Shaped type of equalization with 0 selectable for 1.5 or 5 . Center frequency continuously variable from 400 Hz to 6.4 kHz . +/- 10 dB maximum range at center frequency HF Section Shelving type of equalization +/ - 10 dB maximum range at 10 kHz . Power Requirements +/ - 25 volts dc, 40 mA nominal 100 mA maximum. Ambient Temperature to 60 degrees celsius Dimensions 1.6&quot; wide 10.0&quot; high 5.6&quot; deep (41 mm 254 Mm 142 mm ) Weight: 1.7 Ibs (750 gms) _ 1-2</p><p>WAAD-BECK SYSTEMS LTD. CIRcUIT</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20SCAN.pdf">1980 - M480B - SCAN.pdf</a>, p. 3</li>
+</ul>
+<details><summary>Technical Data — 195 words · 1980 - M480B - M480B_Page_03.jpg, page 1</summary><p>M48OB INPUT MODULE Input Sensitivities: Line: Mic: -20 to +10 dBm (ref . 600 ohm source) -70 to -40 dBm ref.150 ohm source) Frequency Response: +/ - 0.25 dB from 30 Hz to 20 kHz _ (Equalizer in bypass position) _ Noise: -125 dB EIN at maximum SENSITIVITY (20 Hz to 20 kHz) _ 75 dB s/N with Sensitivity set to +8 dBm Line in (20 Hz to 20 kHz) _ Harmonic Distortion: Less than 0.359 THD from 30 Hz to 20 KHz at +24 dBm or less at insertion point _ Less than 0.1% at kHz at +24 dBm _ Equalizer controls in flat positions or not inserted _ Source mpedances: Line: Mic: 600 ohms or less balanced/unbalanced _ 150  ohms, balanced/unbalanced _ Input mpedances: Line: Mic: 30 , O0o ohms _ 750 ohms minimum Output mpedance: Less than 100  ohms (at insertion point) 30 , 000 ohms (at module outputs) _ Load Impedance: 600  ohms, balanced (at insertion point) .</p><p>Less than 5 ohms (at module ou tputs) . Output Level : 0 dBm nominal +24 dBm maximum (at insertion point)  Phasing: Input and Output terminals designated by numbers are in phase. 1-1</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_03.jpg">1980 - M480B - M480B_Page_03.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Technical Data — 189 words · 1980 - M480B - complete_Page_02.jpg, page 1</summary><p>M48OB INPUT MODULE Input Sensitivities: Line: Mic: -20 to +10 dBm (ref_ 600 ohm source) -70 to -40 dBm (ref 150 ohm source) Frequency Response +/- 0.25 dB from 30 Hz to 20 kHz _ (Equalizer in bypass position) _ Noise: -125 dB EIN at maximum SENSITIVITY (20 Hz to 20 kHz ) 75 dB S/N with Sensitivity set to +8 dBm Line in (20 Hz to 20 kHz)= Harmonic Distortion: Less than 0.35% THD from 30 Hz to 20 KHz at +24 dBm or less at insertion point_ Less than 0.19 at kHz at +24 dBm .</p><p>Equalizer controls in flat positions or not inserted. Source mpedances Line: Mic: 600 ohms or less balanced/unbalanced _ 150 ohms, balanced unbalanced _ Input mpedances Line: Mic: 30 , 000 ohms. 750 ohms minimum Output mpedance Less than 100 ohms (at insertion point) 30 , 000  ohms (at module outputs) _ Load mpedance 600 ohms, balanced (at insertion point) _ Less than ohms (at module outputs) _ Output Level dBm nominal +24 dBm max mum (at insertion point) Phasing: Input and Output termina numbers are in Phase .</p><p>designated by 1-1</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_02.jpg">1980 - M480B - complete_Page_02.jpg</a>, p. 1</li>
+<li>also in: <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_04.jpg">1980 - M480B - M480B_Page_04.jpg</a>, p. 1</li>
+</ul>
+<h3>Operation (6)</h3>
+<details><summary>Controls — 187 words · 1980 - M480B - SCAN.pdf, page 20</summary><p>M48OB iNPUT MODULE 13) hiGH FREQUENCY section BoosT/cut control R2o: Continously variable from -10 dB to +10 dB Sets the gain or loss of the high frequency content of the program material with reference to the nominal level . 14) MId FREQUENCY section, BoosT/cut control R34: Continously variable from -10 dB to +10 dB _ Sets the gain or loss of the mid frequency content of the program material with reference to the nomina level 15) Low FREQUENCY section BoosT/cut control R25: Continously variable from -10 dB to +1OdB . Sets the gain or the loss of Iow frequency content of the program material with reference t0 the nomina level 16) M2 ASSIGN switch Sw9 When depressed, the signal following the channel fader is fed via summing resistors to the externai M2 summing bus 6-2</p><p>8 3 L1 ; Mic INPUT Mic B INPUT 1 17 B 2 9 Mic INPUT Mic iNPUT 1 8 SHIELD SHIELD 1 1 8 Aux output AuX output I CUE/SOLO outputs E CUE/SOLo outPutS 3 M1 output M1 output M2 output H M2 outpuT 1 NC NC NC K EXT PEAK</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20SCAN.pdf">1980 - M480B - SCAN.pdf</a>, p. 20</li>
+</ul>
+<details><summary>Controls — 142 words · 1980 - M480B - M480B_Page_20.jpg, page 1</summary><p>M48OB INPUT MODULE 13) HIGH FREQUENCY section BoosT/cut control R2O: Continously variable from -10 dB to +10 dB _ Sets the gain or loss of the high frequency content of the program material with reference to the nominal Ievel _ 14) MId FREQUENCY section, BoosT/cut control R34: Continously variable from -10 dB to +10 dB _ Sets the gain or loss of the mid frequency content of the program material with reference to the nominal level 15 ) Low FREQUENCY section BoosT/cut control R25 : Continously variable from -10 dB to +1OdB _ Sets the gain or the loss of low frequency content of the program material with reference to the nominal level .</p><p>16 ) M2 ASSIGN switch Sw9 : When depressed_ the signal following the channel fader is fed via summing resistors to the externai M2 summing bus _ 6-2</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_20.jpg">1980 - M480B - M480B_Page_20.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Controls — 138 words · 1980 - M480B - complete_Page_17.jpg, page 1</summary><p>M48oB INPUT MODULE 13) HIGH FREQUENCY section, Boos/cut control R2o: Continously variable from -10 dB to +10 dB _ Sets the gain or loss of the high frequency content of the program material with reference [0 the nominal Ievel . 14) MID FREQUENCY section, Boost/cut control R34 : Continously variable from -10 dB to +10 dB _ Sets the gain or loss of the mid frequency content of the program material with reference to the nominal Ievel  15) Low FREQUENCY section, BOOST/CUT control R25 : Continously variable from -10 dB to +1OdB Sets the gain or the loss of low frequency content of the program material with reference to the nominal level 16 ) M2 AsSIGN switch Sw9 When depressed, the signal following the channel fader is fed via summing resistors to the external M2 summing bus 6-2</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_17.jpg">1980 - M480B - complete_Page_17.jpg</a>, p. 1</li>
+<li>also in: <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_16.jpg">1980 - M480B - complete_Page_16.jpg</a>, p. 1 · <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_19.jpg">1980 - M480B - M480B_Page_19.jpg</a>, p. 1 · <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20SCAN.pdf">1980 - M480B - SCAN.pdf</a>, p. 19</li>
+</ul>
+<h3>Maintenance &amp; alignment (3)</h3>
+<details><summary>Adjustment — 188 words · 1980 - M480B - SCAN.pdf, page 19</summary><p>control RLS/R61 Continously variable from 0.4 to 6.4 kHz . The calibration refers to the center frequency of the bel l-shaped (peaking) equalizing curve 6 ) MID FREQUENCY section, switch Sw5: Selects the 0-factor of the band pass fi ter to either 1.5 (Low ) or (HIGH ) EQUALIZER INSERT SW | tch SWL: When depressed, this switch inserts the EQUAL IZER section into the signal path and activates the associated LED indicator When released, the unequalized input signal is bypassed directly to the output amplifier 8 ) CUE switch SW6: When depressed, the signal origi nating ahead of the fader is fed via summing resistors to the external CUE/ SOLO summing bus 9 ) M1 ASSI GN switch SW8 : When depressed, the signal following the channel fader is fed via summing resistors to the external M1 summing bus 10) SENSITiVITY control R54: Provides continously adjustable gain control range of 30 dB for all input sources 11 ) PEAK OVERLOAD indicator DS2: Wili flash to indicate mined overload condition_ predeter- 12) AuX level control R87 Controls level to the AuX output - 6-1</p><p>WAAD-BECK SysTeMS LTD; OPERATIONAL</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20SCAN.pdf">1980 - M480B - SCAN.pdf</a>, p. 19</li>
+</ul>
+<details><summary>Adjustment — 188 words · 1980 - M480B - M480B_Page_19.jpg, page 1</summary><p>control R4S/R61 : Continously variable from 0.4 to 6.4 kHz _ The calibration refers to the center frequency of the bel /-shaped (peaking) equalizing curve MID FREQUENCY section, switch SW5: Selects the Q-factor of the band pass filter to either 1.5 (Low ) or 5 (HIGH) _ EQUALIZER INSERT switch SW4 : When depressed, this switch inserts the EQUALIZER section into the signal path and activates the associated LED indicator_ When released, the unequalized input signal is bypassed directly to the output amplifier.</p><p>8 ) CUE switch SW6 : When depressed, the signal originating ahead of the fader is fed via summing resistors to the ex ternal CUE/ SOLO summing bus _ 9 ) M1 ASSI GN switch Sw8 : When depressed_ the signal following the channel fader is fed via summing resistors to the external M1 summing bus _ 10) SENS Tivity control R54: Provides a continously adjustable gain control range of 30 dB for all input sources 11 ) PEAK OVERLOAD indicator DS2: Wili flash to indicate a predeter_ mined overload condition_ 12) AuX level control R87 : Controls level to the AuX output - 6-1</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_19.jpg">1980 - M480B - M480B_Page_19.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Adjustment — 176 words · 1980 - M480B - complete_Page_16.jpg, page 1</summary><p>control R4S/R61 Continously variable from 0.4 tO 6.4 kHz . The calibration refers to the center frequency of the bell-shaped (peaking) equalizing curve MID FREQUENCY section, switch SW5: Selects the 0-factor of the band pass filter [0 either 1.5 (Low ) or (HIGH ) EQUALIZER INSERT switch SW4: When depressed, this switch inserts the EQUALIZER section into the signal path and activates the associated LED indicator When released_ the unequalized input signal is bypassed directly to the output amplifier _ 8 ) CUE switch Sw6: When depressed, the signal originating ahead of the fader is fed via summing resistors to the external CUE/ SOLO summing bus 9 ) M1 ASSIGN switch SW8 : When depressed, the signal folowing the channel fader is fed via summing resistors to the external M1 summing bus 10) SENSITIVITY control R54: Provides continously adjustable gain control range of 30 dB for all input sources 11 ) PEAK OVERLOAD indicator DSZ: Will flash to indicate mined overload condition_ predeter- 12) Aux level control R87: Controls level to the AuX output _ 6-1</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20complete_Page_16.jpg">1980 - M480B - complete_Page_16.jpg</a>, p. 1</li>
+</ul>
+<h3>Parts list (text) (2)</h3>
+<details><summary>Parts List — 173 words · 1980 - M480B - M480B_Page_13.jpg, page 1</summary><p>M48OB INPUT MODULE PART DESCR PTION MFG MFG PART NUMBER C1 C2 C3 C4 C5 Capacitor 22 uF/25 V Philips 426ETF22 0 .022 uF Aselco CQ92-MC-223M C6 C7 C8 C9 C1o uF/35 V 1500 pF 4.7 uF 10 V 6.8 pF Kemet Aselco Kemet T390B105MO35AS CQ92-MC-152K T390B475MO1OAS 2222-638-09688 C11 C12 C13 C14 C15 68 uF/10 V 068 uF uF/35 V 470 pF 10 uF/25 V Kemet Aselco Kemet Philips Kemet T390D686MO1OAS cQ92-MC-683k T390B105M035AS 2222-630-03471 T390C106MO25AS C16 C17 C18 C19 C20 47 pF 10 uF/25 V uF/35 V 4.7 uF/10 V 470 pF Philips Kemet 2222-638-70479 T39OC1O6MO25AS T390B105MO35AS T390B475M01OAS 2222-630-03471 Philips C21 C22 C23 C24 C25 22 pF 2222-638-58229 delete Capacitor 150 uF/6 V Kemet T390E157MOO6AS 6.8 PF Philips 2222-638-09688 C26 C27 C28 C29 C30 4000 PF (selected) Aselco 10 uF/25 V Kemet cQ92-MC-392k T390C106MO25AS 6.8 pF 220 uF/10 V Philips Kemet 2222-638-09688 T390F227M01OAS C31 C32 C33 C34 C35 4000 pF (selected) Aselco 220 uF/10 V Kemet uF/35 V 220 pF Philips 4.7 uF/10 V Kemet CQ92-MC-392k T390F227M010AS T390B105M035AS 2222-630-03221 T390B475M010AS C36 C37 5-1</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_13.jpg">1980 - M480B - M480B_Page_13.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Parts List — 115 words · 1980 - M480B - M480B_Page_14.jpg, page 1</summary><p>L E M48OB INPUT MODULE PART DESCR PTION MFG MFG PART NUMBER C38 C39 C4o C41 C42 Capacitor 4.7 uF/10 V 015 220 PF 220 PF 068 uF Kemet Aselco Philips T390B475MO1OAS CQ-92-MC-153M 2222-630-03221 Aselco CQ92-MC-683k CRI CR2 CR3 CR4 CRS Diode Motorola IN4003 Fairchild IN4148 CR6 CR7 CR9 DSI DS2 [ LED, red yel: low FLVI17 FLV41O Q1 02 8 Transistor National 2N44O1 Fairchild 2N3569 2N3645 2N3569 06 2N3645 R1 R2 R3 R4 R5 Resistor 1/4w 5% 15k 15k 15k 15k 47 Philips R6 R7 R9 R1O 47 47 4OK 1/2w 5% 330 E R1I R12 R13 R14 R15 330 3w 5% 100 3w 5% 100 1/4w 5% 22k 22K Dale CW2B-100 Philips 5-2</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20M480B_Page_14.jpg">1980 - M480B - M480B_Page_14.jpg</a>, p. 1</li>
+</ul>
+<h2>Drawings (11)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Drawn by</a></th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>—</td>
+<td>Daie Revisioti Wes Waad-Beck</td>
+<td></td>
+<td>ENE</td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20Input%20Module%20Schematic.pdf">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>FREQUENCY RESPONSE CHARACTERISTICS M480B INPUT MODULE EQUALIZER</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/19xx%20-%20M480B%20-%20FREQUENCY%20RESPONSE%20CHARACTERISTICS%20M480B%20INPUT%20MODULE%20EQUALIZER.jpg">file</a></td>
+</tr>
+<tr>
+<td>480-01-001</td>
+<td>W/Ig Input Module</td>
+<td></td>
+<td></td>
+<td>BW</td>
+<td>3</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480-01-001%20-%20W-IG%20INPUT%20MODULE.jpg">file</a></td>
+</tr>
+<tr>
+<td>480-01-001</td>
+<td>Solo Control Peak External Peak Calibration</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480-01-001%20-%20SOLO%20CONTROL%20PEAK%20EXTERNAL%20PEAK%20CALIBRATION.jpg">file</a></td>
+</tr>
+<tr>
+<td>480-02-003</td>
+<td>Input Module Schematic Chassis</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20SCAN.pdf">file</a> p.25</td>
+</tr>
+<tr>
+<td>480-02-003</td>
+<td>Input Module Schematic Chassis</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480-02-003%20-%20INPUT%20MODULE%20SCHEMATIC%20CHASSIS.jpg">file</a></td>
+</tr>
+<tr>
+<td>480-04-002</td>
+<td>Input Module</td>
+<td></td>
+<td></td>
+<td></td>
+<td>B</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480-04-002%20-%20INPUT%20MODULE.jpg">file</a></td>
+</tr>
+<tr>
+<td>480-04-002</td>
+<td>Input Module Front Panel</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20SCAN.pdf">file</a> p.23</td>
+</tr>
+<tr>
+<td>480-04-002</td>
+<td>Input Module Front Panel Scele</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480-04-002%20-%20INPUT%20MODULE%20FRONT%20PANEL%20SCELE.jpg">file</a></td>
+</tr>
+<tr>
+<td>480-06-002</td>
+<td>Input Module Component Layout</td>
+<td></td>
+<td></td>
+<td><a href="../../../PAGES/Person-KC.html">KC</a></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20SCAN.pdf">file</a> p.26</td>
+</tr>
+<tr>
+<td>480-06-002</td>
+<td>Input Module Component Layout</td>
+<td></td>
+<td></td>
+<td></td>
+<td>A</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M480B/1980%20-%20M480B%20-%20480-06-002%20-%20INPUT%20MODULE%20COMPONENT%20LAYOUT.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M480B&quot;,
+ &quot;name&quot;: &quot;Input Module Schematic&quot;,
+ &quot;category&quot;: &quot;INPUT-PRE-AMPS&quot;,
+ &quot;year&quot;: 1980,
+ &quot;connections&quot;: {
+  &quot;from&quot;: &quot;RTO-144 sheet&quot;,
+  &quot;inputs&quot;: [
+   &quot;MIC-IN-B&quot;,
+   &quot;Line IN-B&quot;,
+   &quot;Fader Return&quot;
+  ],
+  &quot;outputs&quot;: [
+   &quot;M1 OUT&quot;,
+   &quot;M2 OUT&quot;,
+   &quot;Cue Solo&quot;,
+   &quot;Aux&quot;,
+   &quot;Fader Send&quot;
+  ],
+  &quot;power&quot;: [
+   &quot;VEE-AUDIO&quot;,
+   &quot;VCC-AUDIO&quot;
+  ],
+  &quot;control&quot;: []
+ },
+ &quot;made_of&quot;: [
+  &quot;10-015&quot;,
+  &quot;60-12&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - 480-01-001 - SOLO CONTROL PEAK EXTERNAL PEAK CALIBRATION.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - 480-01-001 - W-IG INPUT MODULE.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - 480-02-003 - INPUT MODULE SCHEMATIC CHASSIS.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - 480-04-002 - INPUT MODULE FRONT PANEL SCELE.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - 480-04-002 - INPUT MODULE.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - 480-06-002 - INPUT MODULE COMPONENT LAYOUT.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - 480B-02-003.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - 480B-06-002.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - Input Module Schematic.pdf&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;connections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_01.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_02.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_03.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_04.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_05.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_06.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_07.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_08.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_09.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_10.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_11.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_12.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_13.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_14.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_15.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_16.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_17.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_18.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_19.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_20.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_21.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - M480B_Page_22.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - Preamp.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - SCAN.pdf&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 26,
+   &quot;holds&quot;: [
+    &quot;connections&quot;,
+    &quot;dates&quot;,
+    &quot;parts&quot;,
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_01.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_02.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_03.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_04.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_05.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_06.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_07.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_08.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_09.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_10.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_11.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_12.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_13.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_14.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_15.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_16.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_17.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_18.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_19.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_20.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_21.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_22.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - wbsps - module - m480b preamp_small.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M480B/19xx - M480B - FREQUENCY RESPONSE CHARACTERISTICS M480B INPUT MODULE EQUALIZER.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../../../_catalog/wbs_reels.js" defer></script><script src="../../../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../../../_catalog/libcontrol/libcontrol.css"><script src="../../../_catalog/libcontrol/react.js"></script><script src="../../../_catalog/libcontrol/react-dom.js"></script><script src="../../../_catalog/libcontrol/libcontrol.js"></script><script src="../../../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M480B.md</small></div></article><script src="../../../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

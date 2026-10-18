@@ -1,0 +1,62 @@
+{
+ "code": "M480B",
+ "series": null,
+ "type": "M480B",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "O1",
+   "signal": "Preamp Out Put Ojbm Nominal To Attenlator",
+   "dir": "out",
+   "pos": "O1P",
+   "neg": "O1N",
+   "src_page": 25
+  }
+ ],
+ "power": [
+  {
+   "rail": "+24V",
+   "volts": 24.0,
+   "supply": "+24V",
+   "ground": "CHASSIS 22",
+   "max_a": null
+  },
+  {
+   "rail": "-24V",
+   "volts": -24.0,
+   "supply": "-24V",
+   "ground": "CHASSIS 22",
+   "max_a": null
+  }
+ ],
+ "logic": [
+  {
+   "signal": "Ms-Ctl Com",
+   "pin": ""
+  },
+  {
+   "signal": "713 Ctl Com",
+   "pin": ""
+  },
+  {
+   "signal": "Solo Ctl",
+   "pin": ""
+  },
+  {
+   "signal": "Cue/S3O",
+   "pin": ""
+  }
+ ],
+ "ground": [
+  "CHASSIS 22"
+ ],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "2220095fa4311a16ef2196c758d8b0310b24cbe90e961611c624e50ebbd1b0da",
+  "aeee7f2cf2b6070447b479f1538f1ace7cac9c80545f964e29c1fba57b0e54d3"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one. (this device has one)"
+}

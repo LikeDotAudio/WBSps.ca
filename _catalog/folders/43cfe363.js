@@ -1,0 +1,1 @@
+window.WBS_FOLDER={"d":"Products/8200 SERIES/M8245A","f":[["2015 - M8245A - Front.jpg","f646d60a81a29c447910"],["2015 - M8245A - MANUAL.docx","dd03f0b7cd9d78bc0de8"],["2015 - M8245A - Rear.jpg","8251daa43756bc0a074e"],["2015 - M8245A - Three Quarter.jpg","443ff733cb24942c1c04"]]};

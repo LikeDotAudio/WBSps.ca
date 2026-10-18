@@ -1,0 +1,113 @@
+# 19xx - M5200A - CONNECTOR LAYOUT M5200A CONTROLLER MODULE (2).jpg
+Wiki page: [M5200A](../../../PAGES/M5200A.md)
+
+
+- **Year:** unknown (title block (read by eye))
+- **Module:** M5200A
+- **Category:** INPUT-PRE-AMPS
+- **Module year estimate:** 1985 — manual_issue "Issue #1 August 1985" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M5200A - Controller Module/M5200A - 015(1).jpg
+
+## Title block (found by software, read by eye)
+
+- **Title:** CONNECTOR LAYOUT M5200A CONTROLLER MODULE
+
+Spiral-bound manual spread with M5200A connector pinouts, headers at top left of each page.
+
+- **Original file:** `WBSps.env/WBS Photos-1-001/M5200A - 010.jpg`
+- **SHA-256:** `6dec7ccf041123a1296f9c7297ca75896618042577c08cc23ec5e38efd706ea9`
+- **Size:** 931,789 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 2 words corrected)
+
+```text
+G3tMssry?Md#aORX
+WARD-BECK SYSTems LTD_
+OtJematwye X3aa-Da~
+WAAD-BECK systems LTD_
+CONNECTOR LAYouT
+CONNECTOR LAYouT
+MSZOOA CONTROLLER MODULE
+MSZOOA CONTROLLER MODULE
+~ '777  ~ ~7".#-
+LEGEND: NC:NOT CONNECTED IC : INTERNALLY CONNECTED XsV! G.
+LEGEND: NC:NOT CONNECTED IC : INTERNALLY CONNECTED
+7 Cetjan
+XMo:
+J8
+2 VI 2 1 8 3 "8  '
+3
+8 1 CONTROLs 5 8 8 3 1 8 CONGROE ; 8 0 Juntv^ 8 03} NC SPARE
+5
+5
+CONTROLS
+EXTERNAL iNPuTS
+EXTERNAL iNPuTS
+10
+# 15 16 NC
+13
+^Jio
+L ; CONGROE 15 16 +SV com coM TYPICAL MATING CONNECTOR PZ TYPICAL MATING CONNECTOR P8 TEB/ ANSLEY 609-37P TEB/ANSLEY 609-037 (MALE, 37 PIN 'D ' TYPE) (BACKSHELL ) G: TEB/ ANSLEY 609-37P MALE 37 PIN Jjo: 'D' TYPE) TEB/ANSLEY 609_O04A (JACKSCREW SET) d` TEB/ANSLEY 609-037 36 BACKSHELL ~X TEB/ANSLEY 609-004A (JACKSCREW SET ) 5-2 5-3
+5,
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+G3tMssry?Md#aORX
+WARD-BECK SYSTems LTD_
+OtJematwye X3aa-Da~
+WAAD-BECK systems LTD_
+CONNECTOR LAYouT
+CONNECTOR LAYouT
+MSZOOA CONTROLLER MODULE
+MSZOOA CONTROLLER MODULE
+~ '777  ~ ~7".#-
+LEGEND: NC:NOT CONNECTED IC : INTERNALL Y CONNECTED XsV! G.
+LEGEND: NC:NOT CONNECTED IC : INTERNALLY CONNECTED
+7 Cetjan
+XMo:
+J8
+2 VI 2 1 8 3 "8  '
+3
+8 1 CONTROLs 5 8 8 3 1 8 CONGROE ; 8 0 Juntv^ 8 03} NC SPARE
+5
+5
+CoNYROLs
+EXTERNAL iNPuTS
+EXTERNAL iNPuTS
+10
+# 15 16 NC
+13
+^Jio
+L ; CONGROE 15 16 +SV com coM TYPICAL MATING CONNECTOR PZ TYPICAL MATING CONNECTOR P8 TEB/ ANSLEY 609-37P TEB/ANSLEY 609-037 (MALE, 37 PIN 'D ' TYPE) (BACKSHELL ) G: TEB/ ANSLEY 609-37P MALE 37 PIN Jjo: 'D' TYPE) TEB/ANSLEY 609_O04A (JACKSCREW SET) d` TEB/ANSLEY 609-037 36 BACKSHELL ~X TEB/ANSLEY 609-004A (JACKSCREW SET ) 5-2 5-3
+5,
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Modules/INPUT-PRE-AMPS/M5200A/19xx - M5200A - CONNECTOR LAYOUT M5200A CONTROLLER MODULE (2).jpg",
+ "sha256": "6dec7ccf041123a1296f9c7297ca75896618042577c08cc23ec5e38efd706ea9",
+ "kind": "module",
+ "models": [
+  "M5200A"
+ ],
+ "pages": 1,
+ "order": [
+  {
+   "page": 1,
+   "title_block": [
+    {
+     "title": "CONNECTOR LAYOUT M5200A CONTROLLER MODULE"
+    }
+   ]
+  }
+ ]
+}
+```

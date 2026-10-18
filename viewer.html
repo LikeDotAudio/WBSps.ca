@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Archive Viewer</title>
+<link rel="icon" href="WBS_Logo.svg">
+<style>
+:root { --bg:#f6f4ef; --panel:#fff; --ink:#1d1d1b; --muted:#6b6a66; --line:#e2ded5; --accent:#1f5f8b; --logo-filter:none; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#161615; --panel:#1f1f1d; --ink:#ecebe7; --muted:#9c9a94; --line:#34332f; --accent:#6fb0e0; --logo-filter:invert(.92); } }
+:root[data-theme="dark"] { --bg:#161615; --panel:#1f1f1d; --ink:#ecebe7; --muted:#9c9a94; --line:#34332f; --accent:#6fb0e0; --logo-filter:invert(.92); }
+* { box-sizing:border-box }
+html, body { margin:0; height:100%; background:var(--bg); color:var(--ink); font:14px/1.45 system-ui, sans-serif }
+.app { display:grid; grid-template-rows:auto auto auto minmax(0, 1fr) auto; height:100% }   /* header · modules named here · traced drawing (when any) · the file · the folder's ribbon */
+header { display:flex; flex-wrap:wrap; gap:6px 14px; align-items:baseline; padding:10px 16px; background:var(--panel); border-bottom:1px solid var(--line) }
+.brand { align-self:center; display:block; width:84px } .brand img { display:block; width:100%; height:auto; filter:var(--logo-filter) }
+h1 { font-size:15px; margin:0; word-break:break-all }
+.meta { color:var(--muted) } a { color:var(--accent) }
+main { grid-row:4; position:relative; overflow:auto; min-height:0 }
+iframe, embed { border:0; width:100%; height:100%; display:block; background:#fff }
+.img { min-height:100%; display:grid; place-items:center; padding:16px }
+.img .pg { position:relative; display:inline-block; line-height:0 }
+.hot { position:absolute; display:block; border:1.5px solid #c8102e; background:#c8102e22; border-radius:2px; text-decoration:none }
+.hot:hover, .hot:focus { background:#c8102e44 }
+.hot span { display:none; position:absolute; left:0; bottom:calc(100% + 3px); white-space:nowrap; font:12px/1.4 system-ui, sans-serif;
+  background:#1f1e1c; color:#fff; padding:2px 7px; border-radius:3px; z-index:3 }
+.hot:hover span, .hot:focus span { display:block }
+#mods { padding:6px 16px; background:var(--panel); border-bottom:1px solid var(--line); font-size:13px }
+#mods a { margin-right:10px }
+#tracebar { padding:6px 16px; background:var(--panel); border-bottom:1px solid var(--line) }
+.img canvas { max-width:100%; max-height:calc(100vh - 90px); box-shadow:0 2px 12px #0003; background:#fff; display:block }
+.img img { max-width:100%; max-height:calc(100vh - 90px); box-shadow:0 2px 12px #0003; background:#fff }
+/* CAD-style navigation of a picture: wheel zooms at the pointer, drag pans, double-click fits */
+main.cad { overflow:hidden; cursor:grab; touch-action:none } main.cad.drag { cursor:grabbing }
+main.cad .img .pg { transform-origin:0 0; will-change:transform }
+main.cad .img img, main.cad .img canvas { max-height:calc(100vh - 140px); user-select:none; -webkit-user-drag:none }
+/* the on-screen handles: pan arrows round a fit button, zoom below; bottom left, clear of the LIKE.AUDIO badge on the right */
+#zoom { position:absolute; left:14px; bottom:14px; z-index:6; display:grid; grid-template-columns:repeat(3, 34px); gap:2px;
+  background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:4px; box-shadow:0 2px 10px #0003; font:14px/1 system-ui, sans-serif }
+#zoom button { font:inherit; height:32px; border:0; background:transparent; color:var(--ink); cursor:pointer; border-radius:5px; padding:0 }
+#zoom button:hover { background:var(--line) } #zoom .pc { font-size:11px } #zoom .gap { visibility:hidden }
+#zoom .row { grid-column:1 / -1; display:grid; grid-template-columns:34px 1fr 34px; gap:2px; border-top:1px solid var(--line); padding-top:2px; margin-top:2px }
+#zoom .nav { grid-template-columns:repeat(4, 1fr) } #zoom .count { grid-column:1 / -1; text-align:center; font-size:11px; color:var(--muted); padding:3px 0 1px }
+#zoom button:disabled { opacity:.3; cursor:default; background:transparent }
+/* the rest of the folder as a strip of thumbnails along the bottom: click one to open it */
+#ribbon { grid-row:5; display:flex; align-items:stretch; gap:0; background:var(--panel); border-top:1px solid var(--line); min-width:0 }
+#ribbon[hidden] { display:none }
+#ribbon .go { flex:none; width:38px; border:0; background:transparent; color:var(--ink); font:18px/1 system-ui, sans-serif; cursor:pointer }
+#ribbon .go:hover:not(:disabled) { background:var(--line) } #ribbon .go:disabled { opacity:.3; cursor:default }
+#ribbon .strip { flex:1; display:flex; gap:6px; overflow-x:auto; padding:6px 4px; scrollbar-width:thin; min-width:0 }
+#ribbon .fr { flex:none; width:64px; height:64px; display:grid; place-items:center; border:1px solid var(--line); border-radius:4px; background:#fff;
+  overflow:hidden; text-decoration:none; color:#555; font:9px/1.15 system-ui, sans-serif; text-align:center; padding:2px; word-break:break-all; opacity:.72 }
+#ribbon .fr:hover { opacity:1 } #ribbon .fr img { max-width:100%; max-height:100%; display:block }
+#ribbon .fr b { display:block; font-size:10px; color:#1f5f8b; margin-bottom:2px }
+#ribbon .fr .yr { display:block; font:700 12px/1.1 "Courier Prime","Courier New",monospace; font-style:normal; color:#1f1e1c; margin-bottom:2px }
+#ribbon .fr.cur { outline:2.5px solid var(--accent); outline-offset:1px; opacity:1 }
+body:has(#ribbon:not([hidden])) .wbs-like { bottom:96px !important }   /* the LIKE.AUDIO badge sits above the ribbon */
+#ribbon .count { flex:none; align-self:center; padding:0 8px; color:var(--muted); font-size:12px; white-space:nowrap }
+/* close: under the coffee cup that the shared page script puts at the top right */
+#close { position:fixed; right:10px; top:60px; z-index:30; width:44px; height:44px; border-radius:50%; border:1px solid #cfcabc; background:#fbfaf4ee;
+  color:#1f1e1c; font:22px/1 system-ui, sans-serif; cursor:pointer; box-shadow:0 2px 8px #0004; display:grid; place-items:center; padding:0 }
+#close:hover { transform:scale(1.08) }
+@media print { #close, #ribbon, #zoom { display:none } }
+pre { margin:0; padding:16px; white-space:pre-wrap; word-break:break-word; font:13px/1.5 ui-monospace, monospace }
+.none { padding:32px 16px; max-width:640px }
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <a class="brand" href="index.html" title="Back to the archive index"><img src="WBS_Logo.svg" alt="Ward-Beck Systems"></a>
+    <h1 id="name">Archive viewer</h1>
+    <span class="meta" id="meta"></span>
+    <a id="orig" href="#">Original file</a>
+    <a id="note" href="#">Note (.md)</a>
+    <a href="index.html">Index</a>
+  </header>
+  <div id="mods" hidden></div>
+  <div id="tracebar" class="tracebar" hidden></div>
+  <main id="view"></main>
+  <nav id="ribbon" hidden aria-label="Other files in this folder">
+    <button class="go" data-n="-1" title="Previous file (Page Up)">‹</button><div class="strip"></div><span class="count"></span><button class="go" data-n="1" title="Next file (Page Down)">›</button>
+  </nav>
+</div>
+<button id="close" title="Close (Esc)" aria-label="Close the viewer">✕</button>
+<script src="_previews/manifest.js"></script>
+<script src="_catalog/hotspots.js"></script>
+<script src="_catalog/drive_lookup.js"></script>
+<script src="_catalog/rotation.js"></script>
+<script src="_catalog/trace_overlay.js"></script>
+<script>
+// viewer.html?f=<path relative to 2026, URL-encoded>  — opens any archive file with the right viewer.
+const APPS = {"pdf": {"what": "PDF document", "apps": "any browser; Document Viewer"}, "jpg": {"what": "photo / scan", "apps": "any browser; Image Viewer; GIMP"}, "jpeg": {"what": "photo / scan", "apps": "any browser; Image Viewer; GIMP"}, "png": {"what": "image", "apps": "any browser; Image Viewer; GIMP"}, "gif": {"what": "image", "apps": "any browser; Image Viewer"}, "txt": {"what": "text", "apps": "any browser; Text Editor"}, "docx": {"what": "Word document (modern manuals)", "apps": "LibreOffice Writer"}, "doc": {"what": "Word 97 document", "apps": "LibreOffice Writer"}, "wpd": {"what": "WordPerfect document (original manuals)", "apps": "LibreOffice Writer"}, "wp": {"what": "WordPerfect 5 document (original manuals)", "apps": "LibreOffice Writer (rename to .wpd if it refuses)"}, "xlsx": {"what": "Excel spreadsheet", "apps": "LibreOffice Calc"}, "xls": {"what": "Excel 97 spreadsheet", "apps": "LibreOffice Calc"}, "cdr": {"what": "CorelDRAW artwork (labels, front panels)", "apps": "LibreOffice Draw; Inkscape"}, "psd": {"what": "Photoshop image", "apps": "GIMP"}, "tif": {"what": "TIFF scan", "apps": "GIMP; Image Viewer"}, "tiff": {"what": "TIFF scan", "apps": "GIMP; Image Viewer"}, "eps": {"what": "EPS artwork / logo", "apps": "Inkscape; GIMP"}, "ai": {"what": "Illustrator artwork", "apps": "Inkscape"}, "dxf": {"what": "AutoCAD DXF drawing (footprints, panels)", "apps": "LibreOffice Draw; Inkscape; KiCad (import)"}, "dwg": {"what": "AutoCAD DWG drawing (R11/R12 mechanical)", "apps": "needs a DWG viewer \u2014 ODA File Converter or DraftSight (not installed)"}, "pcb": {"what": "Tango-PCB PLUS board layout (1980s DOS)", "apps": "browser viewer here; KiCad after conversion (Engineering/PCB/)"}, "brd": {"what": "Eagle board layout", "apps": "KiCad (File \u2192 Import \u2192 Eagle); browser viewer here"}, "dsn": {"what": "OrCAD Capture schematic (binary)", "apps": "OrCAD Capture (not installed)"}, "sch": {"what": "OrCAD SDT schematic (DOS)", "apps": "OrCAD SDT (not installed)"}, "kicad_pcb": {"what": "KiCad board", "apps": "KiCad"}, "kicad_sch": {"what": "KiCad schematic", "apps": "KiCad"}, "svg": {"what": "vector drawing (renders, previews)", "apps": "any browser; Inkscape"}, "md": {"what": "Markdown note / wiki page", "apps": "Obsidian; VS Code; any text editor"}};
+const P = window.PREVIEWS || {};
+const rel = new URLSearchParams(location.search).get('f') || '';
+const TURN = (window.ROTATE || {})[rel] || 0;   // degrees counter-clockwise this drawing is shown turned
+const ext = (rel.match(/\.[^./]+$/) || [''])[0].toLowerCase();
+const enc = p => p.split('/').map(encodeURIComponent).join('/');
+const view = document.getElementById('view');
+let SIBS = [], HERE_I = -1;   // the files in this folder, and where this one is among them (filled in below)
+document.getElementById('name').textContent = rel ? rel.split('/').pop() : 'Archive viewer';
+document.getElementById('orig').href = enc(rel);
+document.getElementById('note').href = enc(rel) + '.md';
+const app = APPS[ext.slice(1)];
+document.getElementById('meta').textContent = rel ? `${ext.slice(1).toUpperCase()} · ${app ? app.what : 'file'}` : '';
+document.title = (rel.split('/').pop() || 'Archive') + ' · Viewer';
+
+function show(path) {
+  const e = (path.match(/\.[^./]+$/) || [''])[0].toLowerCase();
+  const url = enc(path);
+  if (['.jpg', '.jpeg', '.png', '.gif', '.svg', '.webp'].includes(e))
+    { view.innerHTML = `<div class="img"><div class="pg"><img src="${url}" alt="">${spotsHtml(1)}</div></div>`; setTimeout(turnImages); trace(); }
+  else if (e === '.pdf' || e === '.html') view.innerHTML = `<iframe src="${url}" title="document"></iframe>`;
+  else if (e === '.txt' || e === '.md') view.innerHTML = `<iframe src="${url}" title="text"></iframe>`;
+  else return false;
+  return true;
+}
+if (!rel) {
+  view.innerHTML = '<div class="none"><p>Open a file with <code>viewer.html?f=Modules/…/file.pdf</code>, or follow a link from the wiki, the index or search.</p></div>';
+} else if (!show(rel) && !(P[rel] && show(P[rel]))) {
+  const a = app ? `<p><b>Open with:</b> ${app.apps}</p>` : '';
+  view.innerHTML = `<div class="none"><p>No browser preview for this ${ext.slice(1).toUpperCase()} file yet.</p>${a}
+    <p><a href="${enc(rel)}">Download the original</a> · see <a href="FILE-TYPES.md">FILE-TYPES.md</a>.</p></div>`;
+}
+// online (GitHub Pages) the scans are not uploaded: say so, and show the file's note with its meta links instead
+if (rel && /^https?:/.test(location.protocol)) {
+  fetch(enc(rel), { method: 'HEAD' }).then(r => {
+    if (r.ok) return;
+    return (window.driveLookup ? window.driveLookup(rel) : Promise.resolve(null)).then(dv => showOffline(dv));
+  }).catch(() => {});
+}
+function showOffline(dv) {
+  {
+    if (dv) {   // from the archive's Google Drive: PUBLIC/ copies for everyone, the rest for whoever is signed in with access
+      const key = dv[1] ? '&resourcekey=' + encodeURIComponent(dv[1]) : '';
+      if (/\.(jpe?g|png|gif|bmp|webp|tiff?)$/i.test(rel))   // a picture: drawn here, so the hover links sit on it
+        { view.innerHTML = `<div class="img"><div class="pg"><img src="https://drive.google.com/thumbnail?sz=w2400&id=${dv[0]}${key}" alt="">${spotsHtml(1)}</div></div>`; turnImages(); trace(); }
+      else
+        view.innerHTML = `<iframe src="https://drive.google.com/file/d/${dv[0]}/preview${dv[1] ? '?resourcekey=' + encodeURIComponent(dv[1]) : ''}"
+          title="from the archive's Google Drive" allow="autoplay"></iframe>`;
+      document.getElementById('meta').textContent += dv[2] ? ' · from the archive\'s Google Drive'
+        : ' · from the archive\'s Google Drive (sign in with access to see it)';
+      return;
+    }
+    view.innerHTML = `<div class="none"><p><b>The original is kept in the Ward-Beck archive, not on this website.</b>
+      Its catalogue note is below; the local copy of the archive (docker, WBSps.ca) opens the file itself.</p><pre id="note">Loading the note…</pre></div>`;
+    fetch(enc(rel) + '.md').then(n => n.ok ? n.text() : '(no note for this file)').then(t => {
+      const pre = document.getElementById('note');
+      pre.textContent = t.replace(/^---[\s\S]*?\n---\n/, '');
+    });
+  }
+}
+// a drawing the tracer has vectorised: its SVG over the picture, with the CAD files it made (trace_overlay.js)
+function trace() {
+  const pg = view.querySelector('.pg');
+  if (pg && window.traceOverlay) window.traceOverlay(pg, rel, document.getElementById('tracebar'));
+  if (pg) cad(pg);
+}
+// CAD-style: wheel or +/− zooms at the pointer, drag pans, double-click / 0 / "fit" puts the whole sheet back
+function cad(pg) {
+  if (view.classList.contains('cad')) return;
+  view.classList.add('cad');
+  let s = 1, x = 0, y = 0, drag = null;
+  const zoom = document.createElement('div');
+  zoom.id = 'zoom';
+  zoom.innerHTML = '<span class="gap"></span><button data-p="0,1" title="Pan up (↑)">▲</button><span class="gap"></span>' +
+    '<button data-p="1,0" title="Pan left (←)">◀</button><button data-z="fit" title="Fit the sheet (0, double-click)">⤢</button><button data-p="-1,0" title="Pan right (→)">▶</button>' +
+    '<span class="gap"></span><button data-p="0,-1" title="Pan down (↓)">▼</button><span class="gap"></span>' +
+    '<div class="row"><button data-z="out" title="Zoom out (−)">−</button><button class="pc" data-z="fit" title="Fit the sheet">100%</button><button data-z="in" title="Zoom in (+)">+</button></div>';
+  view.appendChild(zoom);
+  navPad();
+  const put = () => { pg.style.transform = `translate(${x}px, ${y}px) scale(${s})`; zoom.querySelector('.pc').textContent = Math.round(s * 100) + '%'; };
+  const at = (k, cx, cy) => {   // zoom by k, keeping the sheet point under (cx, cy) where it is
+    const r = pg.getBoundingClientRect(), n = Math.min(40, Math.max(.2, s * k));
+    x += (cx - r.left) * (1 - n / s); y += (cy - r.top) * (1 - n / s); s = n; put();
+  };
+  const mid = () => { const r = view.getBoundingClientRect(); return [r.left + r.width / 2, r.top + r.height / 2]; };
+  const fit = () => { s = 1; x = 0; y = 0; put(); };
+  view.addEventListener('wheel', e => { e.preventDefault(); at(Math.exp(-e.deltaY * (e.ctrlKey ? .01 : .0018)), e.clientX, e.clientY); }, { passive: false });
+  view.addEventListener('pointerdown', e => {
+    if (e.button !== 0 || e.target.closest('a, #zoom')) return;
+    drag = { px: e.clientX, py: e.clientY, x, y, moved: false };
+    view.setPointerCapture(e.pointerId); view.classList.add('drag');
+  });
+  view.addEventListener('pointermove', e => {
+    if (!drag) return;
+    x = drag.x + e.clientX - drag.px; y = drag.y + e.clientY - drag.py; drag.moved = true; put();
+  });
+  const end = () => { drag = null; view.classList.remove('drag'); };
+  view.addEventListener('pointerup', end); view.addEventListener('pointercancel', end);
+  view.addEventListener('dblclick', e => { if (!e.target.closest('#zoom')) fit(); });
+  zoom.addEventListener('click', e => {
+    const b = e.target.closest('button');
+    if (!b || b.dataset.n) return;
+    if (b.dataset.p) { const [dx, dy] = b.dataset.p.split(',').map(Number), r = view.getBoundingClientRect();
+      x += dx * r.width * .25; y += dy * r.height * .25; put(); return; }   // a quarter of the screen a press
+    const z = b.dataset.z;
+    if (z === 'in') at(1.5, ...mid()); if (z === 'out') at(1 / 1.5, ...mid()); if (z === 'fit') fit();
+  });
+  addEventListener('keydown', e => {
+    if (e.target.closest('input, textarea')) return;
+    if (e.key === '+' || e.key === '=') at(1.4, ...mid());
+    if (e.key === '-' || e.key === '_') at(1 / 1.4, ...mid());
+    if (e.key === '0') fit();
+    const step = 80;
+    if (e.key === 'ArrowLeft') { x += step; put(); } if (e.key === 'ArrowRight') { x -= step; put(); }
+    if (e.key === 'ArrowUp') { y += step; put(); } if (e.key === 'ArrowDown') { y -= step; put(); }
+  });
+}
+// module numbers the OCR read on this file: list them; on images they are also boxes over the print
+function spotsFor() { return ((window.HOTSPOTS || {})[rel]) || []; }
+// a drawing the rotation audit says is on its side: shown upright, its hover boxes turned with it
+function turnBox(x0, y0, x1, y1) {   // fractions of the scan → fractions of the turned sheet (counter-clockwise)
+  const t = (x, y) => TURN === 90 ? [y, 1 - x] : TURN === 180 ? [1 - x, 1 - y] : TURN === 270 ? [1 - y, x] : [x, y];
+  const a = t(x0, y0), b = t(x1, y1);
+  return [Math.min(a[0], b[0]), Math.min(a[1], b[1]), Math.max(a[0], b[0]), Math.max(a[1], b[1])];
+}
+function turnImages() {   // every picture in the view, once loaded, is redrawn upright (wbsTurn in drive_lookup.js)
+  if (!TURN || !window.wbsTurn) return;
+  view.querySelectorAll('.pg img').forEach(i => {
+    i.dataset.rot = TURN;
+    if (i.complete && i.naturalWidth) window.wbsTurn(i); else i.addEventListener('load', () => window.wbsTurn(i), { once: true });
+  });
+  document.getElementById('meta').textContent += ` · shown turned ${TURN}° (rotation audit)`;
+}
+function spotsHtml(page) {
+  return spotsFor().filter(s => s[0] === page && s[1] !== null).map(s => [s[0], ...turnBox(s[1], s[2], s[3], s[4]), s[5]]).map(([, x0, y0, x1, y1, c]) =>
+    `<a class="hot" href="PAGES/${encodeURIComponent(c)}.html" style="left:${x0 * 100}%;top:${y0 * 100}%;width:${(x1 - x0) * 100}%;height:${(y1 - y0) * 100}%"
+       aria-label="${c} wiki page"><span>${c} — open its wiki page</span></a>`).join('');
+}
+{
+  const by = {};
+  spotsFor().forEach(([p, , , , , c]) => (by[c] = by[c] || new Set()).add(p));
+  const isPdf = /\.pdf$/i.test(rel), mods = document.getElementById('mods');
+  if (Object.keys(by).length) {
+    mods.hidden = false;
+    mods.innerHTML = '<b>Modules named here:</b> ' + Object.keys(by).sort().map(c => `<a href="PAGES/${encodeURIComponent(c)}.html">${c}</a>` +
+      (isPdf ? ` <small>(page ${[...by[c]].sort((a, b) => a - b).map(p => `<a href="#" data-p="${p}">${p}</a>`).join(', ')})</small>` : '')).join(' ');
+    mods.addEventListener('click', e => {
+      const p = e.target.dataset.p;
+      if (!p) return;
+      e.preventDefault();
+      const f = view.querySelector('iframe');
+      if (f) f.src = enc(rel) + '#page=' + p;
+    });
+  }
+}
+if (P[rel]) document.getElementById('meta').textContent += ' · showing a converted preview';
+// the folder this file is in (_catalog/folders/<fnv1a of the folder>.js, written by make_viewer.py): first / previous / next / last
+// in the pad, and the whole folder as a ribbon along the bottom. Moving through it replaces this page, so Close still goes back
+// to wherever the viewer was opened from.
+const DIR = rel.includes('/') ? rel.slice(0, rel.lastIndexOf('/')) : '';
+function fnv(t) { let h = 0x811c9dc5; for (const b of new TextEncoder().encode(t)) h = Math.imul(h ^ b, 0x01000193) >>> 0; return h.toString(16).padStart(8, '0'); }
+function openSib(i) {
+  if (i < 0 || i >= SIBS.length || i === HERE_I) return;
+  location.replace('viewer.html?f=' + encodeURIComponent((DIR ? DIR + '/' : '') + SIBS[i][0]));
+}
+function step(n) { if (HERE_I >= 0) openSib(n === 'first' ? 0 : n === 'last' ? SIBS.length - 1 : HERE_I + n); }
+function navPad() {   // a row of first / previous / next / last under the zoom, once the folder is known and has more than this file
+  const zoom = document.getElementById('zoom');
+  if (!zoom || zoom.querySelector('.nav') || SIBS.length < 2 || HERE_I < 0) return;
+  const row = document.createElement('div');
+  row.className = 'row nav';
+  row.innerHTML = '<button data-n="first" title="First file in the folder (Home)">⏮</button><button data-n="-1" title="Previous file (Page Up)">◀</button>' +
+    '<button data-n="1" title="Next file (Page Down)">▶</button><button data-n="last" title="Last file in the folder (End)">⏭</button>' +
+    `<span class="count">${HERE_I + 1} / ${SIBS.length}</span>`;
+  row.querySelectorAll('button').forEach(b => b.disabled = (b.dataset.n === 'first' || b.dataset.n === '-1') ? HERE_I === 0 : HERE_I === SIBS.length - 1);
+  row.addEventListener('click', e => { const b = e.target.closest('button'); if (b) step(isNaN(b.dataset.n) ? b.dataset.n : +b.dataset.n); });
+  zoom.appendChild(row);
+}
+function ribbon() {
+  const r = document.getElementById('ribbon'), strip = r.querySelector('.strip');
+  if (SIBS.length < 2 || HERE_I < 0) return;
+  // a slide with no picture is text: its year first (1971|4), then its kind and name
+  const yearOf = n => { const m = n.match(/^((?:19|20)\d\d|19xx|20xx)\b/); return m ? (/x/.test(m[1]) ? m[1] : `${m[1]}|${m[1] - 1967}`) : ''; };
+  const textFace = (n, e) => `<span>${yearOf(n) ? `<i class="yr">${yearOf(n)}</i>` : ''}<b>${e}</b>${n.replace(/^((?:19|20)\d\d|19xx|20xx) - /, '').replace(/[<&]/g, '').slice(0, 34)}</span>`;
+  strip.innerHTML = SIBS.map(([n, t], i) => {
+    const e = (n.match(/\.([^.]+)$/) || ['', ''])[1].toUpperCase();
+    const face = t ? `<img loading="lazy" src="_catalog/thumbs/${t}.jpg" alt="" data-text="${textFace(n, e).replace(/"/g, '&quot;')}" onerror="this.outerHTML=this.dataset.text">`
+      : textFace(n, e);
+    return `<a class="fr${i === HERE_I ? ' cur' : ''}" href="viewer.html?f=${encodeURIComponent((DIR ? DIR + '/' : '') + n)}" data-i="${i}" title="${n.replace(/"/g, '&quot;')}">${face}</a>`;
+  }).join('');
+  r.querySelector('.count').textContent = `${HERE_I + 1} / ${SIBS.length}`;
+  r.querySelector('[data-n="-1"]').disabled = HERE_I === 0;
+  r.querySelector('[data-n="1"]').disabled = HERE_I === SIBS.length - 1;
+  r.hidden = false;
+  r.addEventListener('click', e => {
+    const a = e.target.closest('a.fr'), b = e.target.closest('button.go');
+    if (a && !e.ctrlKey && !e.metaKey && !e.shiftKey) { e.preventDefault(); openSib(+a.dataset.i); }
+    if (b) step(+b.dataset.n);
+  });
+  const cur = strip.querySelector('.cur');
+  if (cur) strip.scrollLeft = cur.offsetLeft - strip.clientWidth / 2 + cur.offsetWidth / 2;
+  strip.addEventListener('wheel', e => { if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) { strip.scrollLeft += e.deltaY; e.preventDefault(); } }, { passive: false });
+}
+if (rel) {
+  const sc = document.createElement('script');
+  sc.src = `_catalog/folders/${fnv(DIR)}.js`;
+  sc.onload = () => {
+    const F = window.WBS_FOLDER;
+    if (!F || F.d !== DIR) return;
+    SIBS = F.f;
+    HERE_I = SIBS.findIndex(x => x[0] === rel.split('/').pop());
+    ribbon(); navPad();
+  };
+  document.head.appendChild(sc);
+}
+addEventListener('keydown', e => {
+  if (e.target.closest('input, textarea')) return;
+  if (e.key === 'PageDown') { e.preventDefault(); step(1); } if (e.key === 'PageUp') { e.preventDefault(); step(-1); }
+  if (e.key === 'Home') step('first'); if (e.key === 'End') step('last');
+  if (e.key === 'Escape') closeViewer();
+});
+// close: back to the page the viewer was opened from; a viewer opened in its own tab closes; otherwise the archive index
+function closeViewer() {
+  if (document.referrer && history.length > 1) history.back();
+  else { window.close(); setTimeout(() => location.href = 'index.html', 150); }
+}
+document.getElementById('close').addEventListener('click', closeViewer);
+</script>
+<script src="_catalog/wbs_scan.js?v=7792b3a7"></script></body>
+</html>

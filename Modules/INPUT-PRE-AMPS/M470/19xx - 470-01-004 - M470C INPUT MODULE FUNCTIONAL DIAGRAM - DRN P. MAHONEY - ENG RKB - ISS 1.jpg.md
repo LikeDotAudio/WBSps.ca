@@ -1,0 +1,91 @@
+# 19xx - 470-01-004 - M470C INPUT MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG RKB - ISS 1.jpg
+Wiki page: [M470](../../../PAGES/M470.md)
+
+
+- **Year:** unknown (title block (read by eye))
+- **Module:** M470
+- **Category:** INPUT-PRE-AMPS
+- **Module year estimate:** 1977 — labelled "REVISION 10/77" in WBS Photos-1-001/M470A - P18 - Functional Diagram(1).jpg
+
+## Title block (found by software, read by eye)
+
+- **Drawing:** B 470-01-004
+- **Size:** B
+- **Title:** M470C / INPUT MODULE / FUNCTIONAL DIAGRAM
+- **Drawn:** P. MAHONEY
+- **Checked:** (initials)
+- **Engineer:** RKB
+- **Issue:** 1
+- **Confidence:** high
+
+- **Original file:** `WBSps.env/WBS Photos-1-001/M470C - P016 - B470-01-004(1).jpg`
+- **SHA-256:** `a8511d7d77d7d26928f10ea9d0d6b7f5e7e770dcac415866299874a39e738027`
+- **Size:** 519,394 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR)
+
+```text
+Mic/liNE SELECTOR
+DIRECT OUTPUt dBm BRIDGING
+W
+mic input ~60/-10 dBm 150 Ohms
+SUB CTL COM MSTR TL COM
+751 ~CONTROL 753 CONTROL 755 > CONTROL 7Mi > CONTROL 752 CONTROL 754 7CONTROL 756 CONTROL M2 CONTROL
+Mic MVtE
+PAN INSERT
+Mic PAD
+EQ
+INSERT PHASE JACKS 0 dBm
+CHAN ON
+Mic 2 inPut 60 /_10 dB m 150 OhMS
+INSERT
+FADER ~15dB)
+PRE
+BST
+BST
+PAN
+Mic 2 MUTe
+100 Hz W
+SENSiTiViTy 30 dB
+(150 Hz )
+LINE inPUT 10 /+ 20 dBm 600 Ohms
+70 Hz
+PRE/PosT
+HP FiLtER
+AuX
+SUMMING
+LINE MUTE
+BUS
+AUX
+outputs
+CONTROL ComMoN
+AUX
+Aux
+CONTROL
+SOLO
+CONTROL common
+SOLo CONTROL
+EXTERNAL PEAK CALIBRATion
+PEAK INDICAToR
+PFL
+ISSUE |DATE
+REVISION
+APP
+WBS
+WARD-BECK SYSTEMS
+DRNPMaxoNey ENG RKB CKD:
+M47oc INPUT MODULE FUNCTIONAL DIAGRAM
+APP SCALE
+ISSUE
+3
+470-01-004
+```
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/INPUT-PRE-AMPS/M470/19xx - 470-01-004 - M470C INPUT MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG RKB - ISS 1.jpg","sha256":"a8511d7d77d7d26928f10ea9d0d6b7f5e7e770dcac415866299874a39e738027","kind":"module","models":["M470"],"pages":1,"order":[{"page":1,"title_block":[{"number":"B 470-01-004","type":"functional / block diagram","title":"M470C / INPUT MODULE / FUNCTIONAL DIAGRAM","drawn":"P MAHONEY","issue":"1"}],"text":["Mic/LiNE DIRECT OUTPUt","mic input SELECTOR dBm BRIDGING","60/-10 dBm SUB","CTL COm 751","150 Ohms MSTR 7CONTROL","CTL COM 753","mic PAN 7 CONTROL","INSERT 755","Mic PAD CONTROL","EQ INSERT CHAN","Mic 2 input INSERT PHASE JACKS ON FADER 7M1","60 /- 10 dBm PRE BST dBm 15dB) BST 7CONTROL","150 OhMS PAL","7 52","CONTROL","754","Mic 2 100 Hz ~ CONTROL","Mute SENSiTiViTY","756","30 dB (150 Hz ) 7 CONTROL","LINE INPUt M2","10 /+20 dBm 70 Hz PRE/PoST CONTROL","60 0 OHMS","AP FILTER Aux SUMMING","LINE BUS","MUTE AUX 2 outputs","ConTROL","AUX 3","CONTROL Aux","SOLO","CONTROL SOLO","common CONTROL","EXTERNAL PEAK PF L","PEAK INDICATOR","CALiBRATiON","ISSUE DATE REVISION APP","WBS WARD-BECK SYSTEMS","DRNPMaoN M47oc","ENG  RKB INPUT MODULE","CKD: FUNCTIONAL DIAGRAM","APP","SCALE ISSUE","3 470-01-004"]}],"drawing":{"svg":"_traces/a8511d7d77d7d269.svg","viewBox":[2000,1304],"rotate":0,"size":"B","number":"B 470-01-004","title":"M470C / INPUT MODULE / FUNCTIONAL DIAGRAM","dtype":"01","outlines":"see _traces/a8511d7d77d7d269.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/a8511d7d77d7d269.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","blocks":[[1348,224,54,63],[1328,490,91,32],[1326,614,90,33],[1326,674,90,32],[1500,1122,499,127],[1342,1214,157,31]],"words":[[201,59,"Mic/LiNE"],[1714,64,"DIRECT"],[1794,64,"OUTPUt"],[16,89,"mic"],[84,89,"input"],[200,80,"SELECTOR"],[1746,84,"dBm"],[1804,84,"BRIDGING"],[1091,99,"SUB"],[26,109,"60/-10 dBm"],[1069,116,"CTL COm"],[1684,114,"751"],[31,131,"150 Ohms"],[1089,141,"MSTR"],[1681,139,"7CONTROL"],[1066,156,"CTL"],[1111,159,"COM"],[1684,164,"753"],[59,186,"mic"],[1376,189,"PAN"],[1679,189,"7 CONTROL"],[1352,210,"INSERT"],[1686,214,"755"],[336,234,"PAD"],[614,244,"EQ"],[884,246,"INSERT"],[1708,240,"CONTROL"],[989,249,"CHAN"],[24,269,"Mic 2 input"],[594,269,"INSERT"],[791,274,"PHASE"],[884,269,"JACKS"],[1001,271,"ON"],[1086,271,"FADER"],[1686,264,"7M1"],[26,291,"60 /- 10 dBm"],[491,294,"PRE"],[709,291,"BST"],[904,291,"dBm"],[1104,294,"15dB)"],[1219,294,"BST"],[1681,289,"7CONTROL"],[1461,299,"PAL"],[34,311,"150 OhMS"],[1686,311,"7 52"],[1706,336,"CONTROL"],[1686,361,"754"],[64,374,"Mic 2"],[674,381,"100 Hz"],[1679,386,"~ CONTROL"],[64,396,"Mute"],[461,404,"SENSiTiViTY"],[1686,411,"756"],[496,426,"30 dB"],[666,431,"(150 Hz )"],[1686,436,"7 CONTROL"],[34,454,"LINE"],[91,454,"INPUt"],[1706,461,"M2"],[26,476,"10 /+20 dBm"],[686,481,"70 Hz"],[1334,481,"PRE/PoST"],[1709,486,"CONTROL"],[44,496,"60 0"],[86,496,"OHMS"],[636,516,"AP"],[679,516,"FILTER"],[1709,521,"Aux"],[1831,521,"SUMMING"],[59,559,"LINE"],[1849,554,"BUS"],[59,581,"MUTE"],[1706,579,"AUX 2"],[1826,591,"outputs"],[1061,606,"ConTROL"],[1706,644,"AUX 3"],[1706,704,"Aux"],[694,714,"CONTROL"],[1706,766,"SOLO"],[1366,814,"CONTROL"],[1706,816,"SOLO"],[1366,836,"common"],[1706,841,"CONTROL"],[661,881,"EXTERNAL"],[1139,881,"PEAK"],[1709,891,"PF L"],[691,901,"PEAK"],[1126,904,"INDICATOR"],[654,924,"CALiBRATiON"],[1506,1029,"ISSUE"],[1569,1031,"DATE"],[1739,1031,"REVISION"],[1951,1031,"APP"],[1385,1103,"WBS"],[1581,1095,"WARD-BECK"],[1808,1095,"SYSTEMS"],[1346,1151,"DRNPMaoN"],[1675,1163,"M47oc"],[1349,1179,"ENG"],[1416,1179,"RKB"],[1622,1195,"INPUT MODULE"],[1349,1212,"CKD:"],[1562,1228,"FUNCTIONAL"],[1755,1228,"DIAGRAM"],[1351,1242,"APP"],[1389,1272,"SCALE"],[1906,1274,"ISSUE"],[1600,1303,"470-01-004"],[291,235,"Mic"]]}}
+```

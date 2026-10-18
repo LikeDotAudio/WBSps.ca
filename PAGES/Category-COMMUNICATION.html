@@ -1,0 +1,461 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>COMMUNICATION</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>COMMUNICATION</h1>
+<p><a href="Modules.html">← All modules</a></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Name</th>
+<th>Earliest evidence</th>
+<th>Confidence</th>
+<th>Files</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="M494.html">M494</a></td>
+<td>Remote Line Tb Module</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td>high</td>
+<td>42</td>
+</tr>
+<tr>
+<td><a href="M529.html">M529</a></td>
+<td>Communication Modules</td>
+<td><a href="Year-1985.html">1985|18</a></td>
+<td>high</td>
+<td>68</td>
+</tr>
+<tr>
+<td><a href="M701.html">M701</a></td>
+<td>Intercom Input Amplifier</td>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>medium</td>
+<td>63</td>
+</tr>
+<tr>
+<td><a href="M701D.html">M701D</a></td>
+<td></td>
+<td><a href="Year-1996.html">1996|29</a></td>
+<td>medium</td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="M702.html">M702</a></td>
+<td>Intercom Output Amplifier</td>
+<td><a href="Year-1997.html">1997|30</a></td>
+<td>medium</td>
+<td>76</td>
+</tr>
+<tr>
+<td><a href="M702D.html">M702D</a></td>
+<td>Intercom Output Amplifier</td>
+<td><a href="Year-1996.html">1996|29</a></td>
+<td>high</td>
+<td>2</td>
+</tr>
+<tr>
+<td><a href="M703.html">M703</a></td>
+<td>Intercom Input/Output Amplifier</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td>high</td>
+<td>139</td>
+</tr>
+<tr>
+<td><a href="M703B.html">M703B</a></td>
+<td>Intercom Pre And Output Amplifier</td>
+<td><a href="Year-1980.html">1980|13</a></td>
+<td>high</td>
+<td>55</td>
+</tr>
+<tr>
+<td><a href="M703D.html">M703D</a></td>
+<td>Intercom Preamplifier</td>
+<td><a href="Year-1995.html">1995|28</a></td>
+<td>high</td>
+<td>5</td>
+</tr>
+<tr>
+<td><a href="M704.html">M704</a></td>
+<td></td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td>high</td>
+<td>2</td>
+</tr>
+<tr>
+<td><a href="M705.html">M705</a></td>
+<td></td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>high</td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="M706.html">M706</a></td>
+<td></td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>high</td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="M711.html">M711</a></td>
+<td></td>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td>high</td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="M712.html">M712</a></td>
+<td>Intercom Matrix Switching Board</td>
+<td><a href="Year-1972.html">1972|5</a></td>
+<td>high</td>
+<td>113</td>
+</tr>
+<tr>
+<td><a href="M712B.html">M712B</a></td>
+<td>Intercom Matrix Amplifier</td>
+<td><a href="Year-1982.html">1982|15</a></td>
+<td>high</td>
+<td>50</td>
+</tr>
+<tr>
+<td><a href="M718.html">M718</a></td>
+<td>Talkback Address Module</td>
+<td><a href="Year-1995.html">1995|28</a></td>
+<td>high</td>
+<td>12</td>
+</tr>
+<tr>
+<td><a href="M718A.html">M718A</a></td>
+<td></td>
+<td><a href="Year-1995.html">1995|28</a></td>
+<td>medium</td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="M719.html">M719</a></td>
+<td></td>
+<td><a href="Year-1994.html">1994|27</a></td>
+<td>medium</td>
+<td>3</td>
+</tr>
+<tr>
+<td><a href="M724.html">M724</a></td>
+<td>Intercom Crosspoint (part mute-switch ON)</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>low (named by)</td>
+<td>56</td>
+</tr>
+<tr>
+<td><a href="M730.html">M730</a></td>
+<td></td>
+<td><a href="Year-1972.html">1972|5</a></td>
+<td>high</td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="M731.html">M731</a></td>
+<td></td>
+<td><a href="Year-1972.html">1972|5</a></td>
+<td>high</td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="M740.html">M740</a></td>
+<td></td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>estimate</td>
+<td>3</td>
+</tr>
+<tr>
+<td><a href="M741.html">M741</a></td>
+<td></td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>high</td>
+<td>2</td>
+</tr>
+<tr>
+<td><a href="M742.html">M742</a></td>
+<td></td>
+<td><a href="Year-1972.html">1972|5</a></td>
+<td>estimate</td>
+<td>3</td>
+</tr>
+<tr>
+<td><a href="M743.html">M743</a></td>
+<td></td>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td>high</td>
+<td>3</td>
+</tr>
+<tr>
+<td><a href="M745.html">M745</a></td>
+<td></td>
+<td><a href="Year-1974.html">1974|7</a></td>
+<td>high</td>
+<td>9</td>
+</tr>
+<tr>
+<td><a href="M748.html">M748</a></td>
+<td></td>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td>high</td>
+<td>3</td>
+</tr>
+<tr>
+<td><a href="M749.html">M749</a></td>
+<td></td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td>medium</td>
+<td>6</td>
+</tr>
+<tr>
+<td><a href="M750.html">M750</a></td>
+<td></td>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td>high</td>
+<td>5</td>
+</tr>
+<tr>
+<td><a href="M751.html">M751</a></td>
+<td></td>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td>high</td>
+<td>8</td>
+</tr>
+<tr>
+<td><a href="M751B.html">M751B</a></td>
+<td></td>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td>estimate</td>
+<td>4</td>
+</tr>
+<tr>
+<td><a href="M752.html">M752</a></td>
+<td>Strobe Generator</td>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td>high</td>
+<td>4</td>
+</tr>
+<tr>
+<td><a href="M753.html">M753</a></td>
+<td></td>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td>high</td>
+<td>6</td>
+</tr>
+<tr>
+<td><a href="M755.html">M755</a></td>
+<td></td>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td>high</td>
+<td>2</td>
+</tr>
+<tr>
+<td><a href="M756.html">M756</a></td>
+<td></td>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td>high</td>
+<td>2</td>
+</tr>
+<tr>
+<td><a href="M757.html">M757</a></td>
+<td>Splitting Network Card</td>
+<td><a href="Year-1972.html">1972|5</a></td>
+<td>high</td>
+<td>27</td>
+</tr>
+<tr>
+<td><a href="M770.html">M770</a></td>
+<td></td>
+<td><a href="Year-1982.html">1982|15</a></td>
+<td>low (named by)</td>
+<td>5</td>
+</tr>
+<tr>
+<td><a href="M771.html">M771</a></td>
+<td></td>
+<td><a href="Year-1982.html">1982|15</a></td>
+<td>low (named by)</td>
+<td>3</td>
+</tr>
+<tr>
+<td><a href="M772.html">M772</a></td>
+<td>Summing Mixer</td>
+<td><a href="Year-1982.html">1982|15</a></td>
+<td>low (named by)</td>
+<td>5</td>
+</tr>
+<tr>
+<td><a href="M773.html">M773</a></td>
+<td></td>
+<td><a href="Year-1982.html">1982|15</a></td>
+<td>high</td>
+<td>3</td>
+</tr>
+<tr>
+<td><a href="M774.html">M774</a></td>
+<td></td>
+<td><a href="Year-1981.html">1981|14</a></td>
+<td>low (named by)</td>
+<td>7</td>
+</tr>
+<tr>
+<td><a href="M777.html">M777</a></td>
+<td></td>
+<td><a href="Year-1982.html">1982|15</a></td>
+<td>high</td>
+<td>7</td>
+</tr>
+<tr>
+<td><a href="M778.html">M778</a></td>
+<td></td>
+<td><a href="Year-1982.html">1982|15</a></td>
+<td>low (named by)</td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="M780.html">M780</a></td>
+<td></td>
+<td><a href="Year-1981.html">1981|14</a></td>
+<td>high</td>
+<td>4</td>
+</tr>
+<tr>
+<td><a href="M812B.html">M812B</a></td>
+<td>Audio Inputs 12x1 Switcher</td>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>estimate</td>
+<td>5</td>
+</tr>
+<tr>
+<td><a href="M7000.html">M7000</a></td>
+<td></td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td>medium</td>
+<td>28</td>
+</tr>
+<tr>
+<td><a href="M7012C.html">M7012C</a></td>
+<td></td>
+<td><a href="Year-1995.html">1995|28</a></td>
+<td>medium</td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="M7800.html">M7800</a></td>
+<td></td>
+<td><a href="Year-1981.html">1981|14</a></td>
+<td>low (named by)</td>
+<td>5</td>
+</tr>
+<tr>
+<td><a href="M7810.html">M7810</a></td>
+<td></td>
+<td><a href="Year-1982.html">1982|15</a></td>
+<td>low (named by)</td>
+<td>2</td>
+</tr>
+<tr>
+<td><a href="M7820.html">M7820</a></td>
+<td></td>
+<td><a href="Year-1982.html">1982|15</a></td>
+<td>low (named by)</td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="M7830.html">M7830</a></td>
+<td></td>
+<td><a href="Year-1982.html">1982|15</a></td>
+<td>low (named by)</td>
+<td>6</td>
+</tr>
+<tr>
+<td><a href="M7840.html">M7840</a></td>
+<td></td>
+<td><a href="Year-1993.html">1993|26</a></td>
+<td>low (in use by)</td>
+<td>21</td>
+</tr>
+<tr>
+<td><a href="M7880.html">M7880</a></td>
+<td></td>
+<td><a href="Year-1994.html">1994|27</a></td>
+<td>medium</td>
+<td>72</td>
+</tr>
+<tr>
+<td><a href="M7880DA.html">M7880DA</a></td>
+<td></td>
+<td><a href="Year-1994.html">1994|27</a></td>
+<td>family</td>
+<td>3</td>
+</tr>
+<tr>
+<td><a href="M7880G.html">M7880G</a></td>
+<td>Keypad La Yout Director Script Switcher</td>
+<td><a href="Year-1995.html">1995|28</a></td>
+<td>medium</td>
+<td>24</td>
+</tr>
+<tr>
+<td><a href="M7880H.html">M7880H</a></td>
+<td></td>
+<td><a href="Year-1994.html">1994|27</a></td>
+<td>medium</td>
+<td>4</td>
+</tr>
+<tr>
+<td><a href="M7884.html">M7884</a></td>
+<td></td>
+<td><a href="Year-1995.html">1995|28</a></td>
+<td>low (named by)</td>
+<td>7</td>
+</tr>
+<tr>
+<td><a href="M7885A.html">M7885A</a></td>
+<td></td>
+<td><a href="Year-1994.html">1994|27</a></td>
+<td>medium</td>
+<td>4</td>
+</tr>
+</tbody>
+</table><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from Category-COMMUNICATION.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

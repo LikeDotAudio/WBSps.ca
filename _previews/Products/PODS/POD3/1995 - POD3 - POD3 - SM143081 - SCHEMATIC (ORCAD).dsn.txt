@@ -1,0 +1,107 @@
+OrCAD Capture schematic (.DSN). This binary format needs OrCAD Capture to view as a drawing.
+Text recovered from the file (part names, values, sheet titles, net names):
+
+OrCAD Windows Design
+"Arial
+1Courier New
+1ST PART FIELD
+2ND PART FIELD
+3RD PART FIELD
+4TH PART FIELD
+5TH PART FIELD
+6TH PART FIELD
+7TH PART FIELD
+PCB Footprint
+TitleBlock
+Page Create Date
+March  8, 1995
+RevCode
+OrgName
+OrgAddr1
+OrgAddr2
+OrgAddr3
+Page Size
+Page Number
+Page Count
+Page Modify Date
+C:\ORCADWIN\CAPTURE\LIBRARY\CAPSYM.OLB
+Olla-Podrida
+POD-3
+STEREO PEAK/VU LEVEL METER
+SCHEMATIC
+M:\LIB\DEVICE.OLB
+Part Reference
+Value
+0.5A SB
+C:\ORCADWIN\CAPTURE\LIBRARY\ANALOG2.OLB
+LM317T
+LM337T
+CR26
+CR27
+CR28
+Name
+SM143081
+SM143081.SCH
+TitleBlock4N
+LED.Normal
+FUSE.Normal
+FUSE
+CAP.Normal
+DIODE.Normal
+CR13
+DIODE
+CR14
+CR19
+CR20
+R.Normal
+RESISTOR
+LM117.Normal
+LM133.Normal
+BRIDGE.Normal
+CR25
+BRIDGE
+SW SPDT.Normal
+SW SPDT
+CAP NP.Normal
+CAP NP
+GND POWER
+GND EARTH
+GND SIGNAL
+VCC_ARROW
+NOTES:
+IN MICROFARADS UNLESS OTHERWISE SPECIFIED.
+ALL RESISTORS ARE 1/4W AND ALL CAPACITORS ARE
+LAST COMPONENTS USED: C59, CR29, DS51, F3, J2,
+R99, SW2, T1, U22.
+FOR 115V: OPEN JP1, SHORT JP2 & JP3.
+FOR 230V: SHORT JP1, OPEN JP2 & JP3.
+Size
+Document Number
+Date:
+Sheet
+VOUT
+ANODE
+CATHODE
+COMMON
+LM117
+LM133
+Root Entry
+Parts
+Cells
+Packages
+Views
+Symbols
+Graphics
+ExportBlocks
+Library
+Pages
+Schematic
+$Types$
+Cache
+Parts Directory
+Cells Directory
+Packages Directory
+Views Directory
+Symbols Directory
+Graphics Directory
+ExportBlocks Directory

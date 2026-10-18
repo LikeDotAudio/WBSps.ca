@@ -1,0 +1,22 @@
+{
+  "source": "/home/anthony/Documents/GitProjects/WBSps.ca/WBSps.env/WBSps Engineering from H drive/WBSps - CONSOLES/REN TV Console/921/OLD/14-326.PCB",
+  "kicad_pcb": "/home/anthony/Documents/GitProjects/WBSps.ca/2026/Engineering/PCB/14-326 - SA14-326 STEREO LINE PREAMPLIFIER/14-326.kicad_pcb",
+  "format": "Tango-PCB PLUS V2.02 Series II",
+  "edge_layer": 14,
+  "tango_layers_used": {
+    "1": 4,
+    "4": 52,
+    "8": 344,
+    "14": 4
+  },
+  "counts": {
+    "components": 8,
+    "pads": 52,
+    "tracks": 0,
+    "vias": 0,
+    "graphics": 396,
+    "texts": 8,
+    "pours": 0
+  },
+  "nets": null
+}

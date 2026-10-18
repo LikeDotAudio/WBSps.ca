@@ -1,0 +1,128 @@
+{
+ "code": "M470E",
+ "series": null,
+ "type": "M470E",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "I1",
+   "signal": "Line In",
+   "dir": "in",
+   "pos": "I1P",
+   "neg": "I1N",
+   "src_page": 27
+  },
+  {
+   "port": "I2",
+   "signal": "Ch On In",
+   "dir": "in",
+   "pos": "I2P",
+   "neg": "I2N",
+   "src_page": 27
+  },
+  {
+   "port": "O1",
+   "signal": "Suemaster Outputs Miyer Bus",
+   "dir": "out",
+   "pos": "O1P",
+   "neg": "O1N",
+   "src_page": 23
+  },
+  {
+   "port": "O2",
+   "signal": "Pre Out",
+   "dir": "out",
+   "pos": "O2P",
+   "neg": "O2N",
+   "src_page": 27
+  }
+ ],
+ "power": [
+  {
+   "rail": "-24V",
+   "volts": -24.0,
+   "supply": "-24V",
+   "ground": "CHASSIS P2 -22",
+   "max_a": null
+  },
+  {
+   "rail": "+24V",
+   "volts": 24.0,
+   "supply": "+24V",
+   "ground": "CHASSIS P2 -22",
+   "max_a": null
+  }
+ ],
+ "logic": [
+  {
+   "signal": "Mute Control P2 - T",
+   "pin": ""
+  },
+  {
+   "signal": "J S3 Control",
+   "pin": ""
+  },
+  {
+   "signal": "Pfl",
+   "pin": ""
+  },
+  {
+   "signal": "Iub-3 Ctl M 11 Nc",
+   "pin": ""
+  },
+  {
+   "signal": "Mute Ctl T 16 Ctl Com",
+   "pin": ""
+  },
+  {
+   "signal": "Solo Ctl V 18 Ctl Com",
+   "pin": ""
+  },
+  {
+   "signal": "Ctl Com W 19 - 25V",
+   "pin": ""
+  },
+  {
+   "signal": "Line Mute Control",
+   "pin": ""
+  },
+  {
+   "signal": "Sold Control Contrcl Commcn",
+   "pin": ""
+  },
+  {
+   "signal": "Sub 3 Ctl",
+   "pin": ""
+  },
+  {
+   "signal": "Ub 2 Ctl",
+   "pin": ""
+  },
+  {
+   "signal": "Sub 4 Ctl",
+   "pin": "13"
+  },
+  {
+   "signal": "Sub Ctl Com",
+   "pin": "14"
+  },
+  {
+   "signal": "On Lamp",
+   "pin": ""
+  }
+ ],
+ "ground": [
+  "CHASSIS P2 -22",
+  "25V COMMON",
+  "CONTROL COMMON"
+ ],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "375561fd0a0fbbe9df21643635762b15645a304f46f458edfce635bd8a93523d",
+  "e265c9179e556db4c879be9752564aab08a0d96245e86dd21e8788437b035893"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one. (this device has one)"
+}

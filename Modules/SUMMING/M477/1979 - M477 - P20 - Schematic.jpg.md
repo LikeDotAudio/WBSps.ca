@@ -1,0 +1,291 @@
+# 1979 - M477 - P20 - Schematic.jpg
+Wiki page: [M477](../../../PAGES/M477.md)
+
+
+- **Year:** 1979 (module estimate (manual_issue))
+- **Module:** M477
+- **Category:** SUMMING
+- **Module year estimate:** 1979 — manual_issue "I SSUE '4 BS W MARCil 1979" in PUBLIC/Manuals + tech DOCUMENTS/Modules/Ward-Beck Systems - M477 Master Module - www.WBSps.ca.pdf
+- **Original file:** `WBSps.env/wbsps - website ARCHIVE/WBSPS 2008/RAW SCANS/Done/Done - M477 Master Module/M477 - P20 - Schematic.jpg`
+- **SHA-256:** `1284febc146122b63b12db98ad5ea92cff8eec4a77c8e4f1f2d3c926f892c347`
+- **Size:** 376,520 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 3 words corrected)
+
+```text
+Zov
+Rio ISk
+Ri?
+2N440i
+2n4401
+PN3645
+~2iv
+2iv
++iv
+Ziv
+33016
+3p?
+R3 Bkz
+INSERT
+223 227 2e2 264 3.109E
+711
+ISk
+R14 3k?3
+8-1094
+22k
+IOF
+OutPuT AMPLIFIER
+BOostER AMPLIFIER
+OUTPUT #| +BaBm 60on
+2ov
+EZ
+201 266 2E5
+S_MMing INPUT
+S00
+2eB
+345
+7k5
+R
+300
+Ris
+OUTPut #2 -8.37 600_
++ov
+2iv
+J0c cio 10/25
+RZ I5k
+RiI I56
+Ris
+04 05 2n4401 2N440
+Pn3645
+R25 620 Lie
+PN3569
+MonitoR OUTPUT
+330/6
+323 Ris Ik5 EVEL
+Ci7 4p7 tZ1v
+Ri7 0o
+R23
+IOP
+IOF R4
+CO
+33/10
+Sk
+ok2
+R7 Ik
+C14 220p
+Cis 1oop"
+32/10
+Ri3 IoO
+Ci3 ISOOP
+Rzi 47k
+Ziv Lmoi
+620
+METERING OUTPUt
+R24 I5k
+Ge
+PN3645
+352 A Lzo
+R9 ZZk
+Rie
+R20
+2ov
+Ziv
+IC
+CiI 1C/25
+Solo Sw Ic
+ChASSIS
+SoLO OUT
+Tip 29 &
+CR 2
+Roz
++25v
++2iv
+75k
+IN4003
+PN 3569
+R67 2k2
+PN3569
+SoLO CTL
+R6a ISk
+CR4
+C22 22/25
+C24 22/25
+Ro6 470k
+IN4003
+NOTES : 4L_ RESiSTORS '4W 5 % AND ALL CAPACiTORS IN AF UNLESs OTHERWISE SPECIFIED. 2 Last COMPONENT DESIGNATIONS 25, crs 014 R7| Swio,2 | 3 USE PcB 7-105
+CTL COMM
+:Z5v CoM
+COMMON
+C23 22/25
+Cr5
+C25 22/25
+IN40O5
+R6s (Sk
+3/79 561 3/79 5608 7/78 IO9E(A) WAS 4.109NE] Azel R7 ADPEDTO BoLO ISSU DATE REVISION
+0i4 PN 3645
+R6b Zkz
+0io PN 3645
+CR3
+R7o
+25v
+2iv
+WBS
+WARD-BECK sybteB
+2.2
+IN4003
+012 Tip 308
+DRM MRW ENG; CKDLaL
+M477 MA STER MODULE SCHEMATIC ISSUE 477-02 - 001
+SCALE
+374r
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+Zov
+Rio ISk
+Ri?
+2N440i
+2n4401
+PN3645
+~2iv
+2iv
++iv
+Ziv
+33016
+3p?
+R3 Bkz
+INSERT
+223 227 2e2 264 3.109E
+711
+ISk
+R14 3k?3
+8-1094
+22k
+IOF
+OutPuT AMPLIFIER
+BOostER AMPLIFIER
+OUTPUT #| +BaBm 60on
+2ov
+EZ
+201 266 2E5
+S_MMing INFUT
+S00
+2eB
+345
+7k5
+R
+300
+Ris
+OUTPut #2 -8.37 600_
++ov
+2iv
+J0c cio 10/25
+RZ I5k
+RiI I56
+Ris
+04 05 2n4401 2N440
+Pn3645
+R25 620 Lie
+PN3569
+MonitoR OUTPUT
+330/6
+323 Ris Ik5 EVEL
+Ci7 4p7 tZ1v
+Ri7 0o
+R23
+IOP
+IOF R4
+CO
+33/10
+Sk
+ok2
+R7 Ik
+C14 220p
+Cis 1oop"
+32/10
+Ri3 IoO
+Ci3 ISOOP
+Rzi 47k
+Zlv Lmoi
+620
+METEzinG OUTPUt
+R24 I5k
+Ge
+PN3645
+352 A Lzo
+R9 ZZk
+Rie
+R20
+2ov
+Ziv
+IC
+CiI 1C/25
+Solo Sw Ic
+ChASSIS
+SoLO OUT
+Tip 29 &
+CR 2
+Roz
++25v
++2iv
+75k
+IN4003
+PN 3569
+R67 2k2
+PN3569
+SoLO CTL
+R6a ISk
+CR4
+C22 22/25
+C24 22/25
+Ro6 470k
+IN4003
+NOTES : 4L_ RESiSTORS '4W 5 % AND ALL CAPACiTORS IN AF UNLESs OTHERWISE SPECIFIED. 2 Last COMPONENT DESIGNATIONS 25, crs 014 R7| Swio,2 | 3 USE PcB 7-105
+CTL COMM
+:Z5v CoM
+COMMON
+C23 22/25
+Cr5
+C25 22/25
+IN40O5
+R6s (Sk
+3/79 561 3/79 5608 7/78 IO9E(A) WAS 4.109NE] Azel R7 ADPEDTO BoLO ISSU DATE REVISION
+0i4 PN 3645
+R6b Zkz
+0io PN 3645
+CR3
+R7o
+25v
+2iv
+WBS
+WARD-BECK sybteB
+2.2
+IN4003
+012 Tip 308
+DRM MRW ENG; CKDLaL
+M477 MA STER MODULE SCHEMATIC ISSUE 477-02 - 001
+SCALE
+374r
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Modules/SUMMING/M477/1979 - M477 - P20 - Schematic.jpg",
+ "sha256": "1284febc146122b63b12db98ad5ea92cff8eec4a77c8e4f1f2d3c926f892c347",
+ "kind": "module",
+ "models": [
+  "M477"
+ ],
+ "year": 1979,
+ "pages": 1
+}
+```

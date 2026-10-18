@@ -1,0 +1,43 @@
+code: M473B
+series: null
+type: M473B - Stereo Submaster
+row_count: null
+impedance: {}
+note: null
+audio: []
+bus_out: []
+bus_in: []
+power:
+- rail: VEE-AUDIO
+  style: NEW
+  volts: -25
+  max_a: 0.1
+  supply: P2-19
+  ground: P2-20
+  link: 2
+- rail: VCC-AUDIO
+  style: NEW
+  volts: 25
+  max_a: 0.2
+  supply: P2-21
+  ground: P2-20
+  link: 1
+jumpers:
+- function: 24V Jumper
+  designation: JMP.Y.21
+  from: P2-Y
+  to: P2-21
+- function: 'CH ON GND '
+  designation: JMP.20.18
+  from: P2-20
+  to: P2-18
+- function: Insert +
+  designation: JMP.22.21
+  from: P2-22
+  to: P2-21
+- function: Insert -
+  designation: JMP.Z.Y
+  from: P2-Z
+  to: P2-Y
+logic: []
+chassis: P2-22

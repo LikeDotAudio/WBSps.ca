@@ -1,0 +1,162 @@
+# 1976 - B 70-8 - OUTPUT TRANSFORMER TYPE 70-8 - DRN ELJ - ISS 1.png
+Wiki page: [Consoles](../../PAGES/Consoles.md)
+
+
+- **Year:** 1976 (title block date)
+- **Type:** drawing / photo from WBS Photos-1-001
+
+## Title block (found by software, read by eye)
+
+- **Drawing:** B 70-8
+- **Size:** B
+- **Title:** OUTPUT TRANSFORMER / TYPE 70-8
+- **Date:** OCT 76
+- **Drawn:** ELJ
+- **Checked:** R. Bell (signature)
+- **Issue:** 1
+- **Confidence:** medium
+
+- **Original file:** `WBSps.env/WBS Photos-1-001/WBSps.ca - WBS output Transformer - 70-8.png`
+- **SHA-256:** `96dc6f4883d9596315c643290d3e7185a1e27d696946a59a93c469fce858c7a4`
+- **Size:** 264,777 bytes
+- **Pages:** 1
+
+## Dates found in this file
+
+- **1976** (labelled): `DATE OCT 76` — …SUE MFG NO: 113237 WBS WAAD-Beck BYSTEMS Lto NOTE: DRN: ELJ DATE OCT 76 CKD. ROL SCALE DNS: IX TOLS KG ANY NCURRED NSERTION Loss MU…
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 3 words corrected)
+
+```text
+SPEC IFLCATLON
+PRIMARY:
+600 OHMS *5% WITH WATT (+30 dBm) iNTO SECONDARY LOAD (SEE NOTE 1)
+2 . SECONDARY:
+150/600 OHMS +5% SPLIT
+3 . NO DC CURRENT IN PRI . OR SEC.
+4 . DC RES:
+10% OR LESS OF PR/  & SEC_ IMPEDANCE
+5 . MAX INSERTION Loss:
+0.5 dB @ kHz +30 dBm inTO SEC . LOA D (NOTE 1)
+3 5 4 &
+6 FREQUENCY RESPONSE: Within 0.1 dB 30 Hz to 20 kHz WA TT DOWN To MILLIWA TT
+231
+7 - DISTORTION:
+LESS THAN 0. 15% 30 Hz to 20 kHz WATT DOWN To MILLIWATT
+8 - PHA SE SHIFT:
+LESS THAN 50 9 TEMPERA TURE RA NGE: 0 To 650 C
+3.13
+2.13
+3.69
+10 . TEST VOLTAGE:
+250 V RMS
+I1- WINDING CONF | DURATION:
+12 _ PRIMARY SOURCE IMPEDANCE :
+600 OHMS
+13. SECONDARY LOA D IMPEDANCE :
+150 OR 600 OHMS
+PR I 600 OHMS
+SEC 150/600 OHMS
+14 . MOUNTING
+15. CONNECTIONS:
+SOLDER LUGs
+16 _ FINISH:
+NA TURAL-VARNISH
+SSUE
+MFG NO:
+113237
+WBS WAAD-Beck BYSTEMS Lto
+NOTE:
+DRN: ELJ DATE OCT 76 CKD. ROL SCALE DNS: IX TOLS KG
+ANY INCURRED INSERTION Loss MUST BE COUNTERED BY LOWER NG OF THE PR MARY IMPEDANCE
+OUTPUT TRANSFORMER TYPE 70-8
+70-8
+SS.
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+SPEC IFLCATLON
+PRIMARY:
+600 OHMS *5% WITH WATT (+30 dBm) iNTO SECONDARY LOAD (SEE NOTE 1)
+2 . SECONDARY:
+150/600 OHMS +5% SPLIT
+3 . NO DC CURRENT IN PRI . OR SEC.
+4 . DC RES:
+10% OR LESS OF PR/  & SEC_ IMPEDANCE
+5 . MAX INSERTION Loss:
+0.5 dB @ kHz +30 dBm inTO SEC . LOA D (NOTE 1)
+3 5 4 &
+6 FREQUENCY RESPONSE: Within 0.1 dB 30 Hz to 20 kHz WA TT DOWN To MILLIWA TT
+231
+7 - DISTORTION:
+LESS THAN 0. 15% 30 Hz to 20 kHz WATT DOWN To MILLIWATT
+8 - PHA SE SHIFT:
+LESS THAN 50 9 TEMPERA TURE RA NGE: 0 To 650 C
+3.13
+2.13
+3.69
+10 . TEST VOLTAGE:
+250 V RMS
+I1- WINDING CONF | GURATION:
+12 _ PRIMARY SOURCE IMPEDANCE :
+600 OHMS
+13. SECONDARY LOA D IMPEDANCE :
+150 OR 600 OHMS
+PR I 600 OHMS
+SEC 150/600 OHMS
+14 . MOUNTING
+15. CONNECTIONS:
+SOLDER LUGs
+16 _ FINISH:
+NA TURAL-VARNISH
+SSUE
+MFG NO:
+113237
+WBS WAAD-Beck BYSTEMS Lto
+NOTE:
+DRN: ELJ DATE OCT 76 CKD. ROL SCALE DNS: IX TOLS KG
+ANY NCURRED NSERTION Loss MUST BE COUNTERED BY LOWER NG OF THE PR MARY IMPEDANCE
+OUTPUT TRANSFORMER TYPE 70-8
+70-8
+SS.
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{
+ "file": "PHOTOS/Drawings/1976 - B 70-8 - OUTPUT TRANSFORMER TYPE 70-8 - DRN ELJ - ISS 1.png",
+ "sha256": "96dc6f4883d9596315c643290d3e7185a1e27d696946a59a93c469fce858c7a4",
+ "kind": "photo",
+ "year": 1976,
+ "pages": 1,
+ "order": [
+  {
+   "page": 1,
+   "title_block": [
+    {
+     "number": "B 70-8",
+     "title": "OUTPUT TRANSFORMER / TYPE 70-8",
+     "date": "OCT 76",
+     "year": 1976,
+     "drawn": "ELJ",
+     "issue": "1"
+    }
+   ],
+   "dates": [
+    {
+     "year": 1976,
+     "kind": "labelled",
+     "text": "DATE OCT 76"
+    }
+   ]
+  }
+ ]
+}
+```

@@ -1,0 +1,339 @@
+# 19xx - DOC - WBSps.ca - 20210317 11X 17 Scans (7).png
+Wiki page: [Documents](../../../PAGES/Documents.md)
+
+
+- **Year:** unknown (unknown)
+- **Type:** document scan
+- **About:** M462
+
+## Text recovered by OCR
+
+> HIGh FREQEnCY #-6kHz- 25khz Rz MId FREQUEnCY Low FREQUENCY 25 Hz 400 Az Rio Ril Ook Ook 400Hz-6.4khz R4 Rs Dok ok 03 Tipzsb CRI 25v+ 1n4603 P3569 AD ^ C 35 Pn3563 Rcs T5k FILTER AMPLIFIER 4-12 6 R3 7k5 Ri2 7k5 cr3 R77 47k 1n4003 240 22/25 -33 22/25 E12 IEI Eio 163 E9 NOTE: ALL I~'s LMZol ALL RESISToRS WAw, 5% AND ALL CA PAcitors IN MIcRoFARADS JNCESS SPECIFIED OTHERWISE 3, USE PcB N9 4-M1 REG + 2iv 20 Z5VCOM C33 22/25 C4i 22125 CRA 1N4003 Sw| 21V+ 2IV- Sw2 R70 T5k Rc 7k5 0G 7n36-5 R73 SHELF SHELF R76 5476+5 R74 cRZ 19 25V- R7S 5*6 1n4003 Tip3ob Beew Iok 4k7 R34 iok c 26 6.e/6 RsS 75k C29 6.3/6 R33 13+4 C37 Iok 6-8/6 R67 22 ChAsSIS RsB C33 6-3/6 6B6 75k 75k C23 6aB/i0 RsG 620 RsI c34 6.3/6 R28} 620 R63 38 C2b Sp C36 Isp sp ISk R52 4k7 5k R64 4k7 2iv+ 2iv + R57 R53 ISk 28 R6s 2i0 470 470 2iV- Rs4 4K7 2iv - 2iV- Rgg 4k7 C24 3300p C35 500p c27 6.8/6 6+7 6*8/6 25v+ L5 - 6.816 C45 6.3/6 242 6.8/6 R5o 4k7 V2w Ziv + 2iV - DSi Sw3 FLV 117 263 2E7 2E5 25v-` ISERT OUTPUT R43 2E40 AMPLIFIER 6k2 8-109A R47 ISk 2E1 2E6 R49 2E2 Gk2 R2| Ri3 RI4 Rig Le 5k c+3 6.8/6 IS5k 5k HF cuT /Boost c2i Ise/6 R2z <ik c2 8876 MF cuTI Boost Lf CuT/Boost 22op 2iv+ 47p R28 R3o R33 R3s R40 R43 R45 Sk Sk 5k Sk Sk TSk Sk 33/10 834 Xik CG 22op 6.8p 2iv+ R3i 620 C3 cie 220p 39 2iv+ R36<k20 ci CIz 220p 39p1 2iv+ R4 | gcol 215 cic 220p T3.9p R462azo Ci7 cib 220p 39p Cis OUTPUT RI7 75k R23 ISk PUT C2 33/10 Rzo 2iV - c8 R27 HF 47/25 33/0 Sk 2v+ Iso/6 ISk Ri8 75k 22 R32 2iV+ 23 Ci3 ci4 R37 H1 Iso/6 23/10 Isk 5k R42 25 21V - R2s R2G GAIN Ski APJusT c46 5k 26 @SSMOp IcKD] 3930N96 2534RM MpL 42L ML USEDION WBS WARD-Beck bybtemB LtDS 2iv- 2iV- DRM: GEB DATE CcT 7 CKD Lu SCALE TOLS M462 EQUALIZER MODULE SCHEMATIC 462-02*001
+- **Original file:** `WBSps.env/PUBLIC/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/WBSps.ca - 20210317 11X 17 Scans  (192).png`
+- **SHA-256:** `1931489a8b7c58a2a266a416cb9ffb4932d81368027fe972bc3e992b1221f3c7`
+- **Size:** 14,363,506 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 3 words corrected)
+
+```text
+HIGh FREQUENCY #-6kHz- 25khz Rz
+MId FREQUEnCY
+Low FREQUENCY 25 Hz 400 Az Rio Ril Ook Ook
+400Hz-6.4khz R4 Rs Dok ok
+03 Tipzsb
+CRI
+25v+
+1n4603 P3569
+AD ^ C
+35 Pn3563
+Rcs T5k
+FILTER AMPLIFIER 4-12 6
+R3 7k5
+Ri2 7k5
+cr3 R77 47k 1n4003
+240 22/25
+-33 22/25
+E12
+IEI
+Eio
+163
+E9
+NOTE: ALL I~'s LMZol ALL RESISToRS WAw, 5% AND ALL CA PAcitors IN MIcRoFARADS JNCESS SPECIFIED OTHERWISE 3, USE PcB N9 4-M1
+REG + 2iv
+20 Z5VCOM C33 22/25
+C4i 22125
+CRA
+1N4003
+Sw|
+21V+ 2IV-
+Sw2
+R70 T5k
+Rc 7k5
+0G 7n36-5
+R73
+SHELF
+SHELF R76
+5476+5
+R74
+cRZ
+19
+25V-
+R7S
+5*6
+1n4003
+Tip3ob
+Beew Iok 4k7 R34 iok c 26 6.e/6 RsS 75k
+C29 6.3/6
+R33 13+4 C37 Iok 6-8/6 R67
+22 ChAsSIS
+RsB
+C33 6-3/6
+6B6
+75k
+75k
+C23 6aB/i0 RsG 620 RsI
+c34 6.3/6 R28} 620 R63
+38
+C2b Sp
+C36 Isp
+sp
+ISk R52 4k7
+5k R64 4k7
+2iv+
+2iv +
+R57
+R53
+ISk
+28
+R6s
+2i0
+470
+470
+2iV- Rs4 4K7
+2iv -
+2iV- Rgg 4k7
+C24 3300p
+C35 500p
+c27 6.8/6
+6+7 6*8/6
+25v+
+L5 -
+6.816
+C45 6.3/6
+242 6.8/6
+R5o 4k7 V2w Ziv + 2iV - DSi Sw3 FLV 117 263 2E7 2E5 25v-` INSERT OUTPUT R43 2E40 AMPLIFIER 6k2 8-109A R47 ISk 2E1 2E6 R49 2E2 Gk2
+R2|
+Ri3
+RI4
+Rig Le 5k
+c+3 6.8/6
+IS5k
+5k HF cuT /Boost
+c2i Ise/6
+R2z <ik c2
+8876 MF cuTI Boost
+Lf CuT/Boost
+22op 2iv+
+47p
+R28
+R3o
+R33
+R3s
+R40
+R43
+R45
+Sk
+Sk
+5k
+Sk
+Sk
+TSk
+Sk
+33/10
+834 Xik CG 22op 6.8p 2iv+
+R3i 620 C3 cie 220p 39 2iv+
+R36<k20 ci CIz 220p 39p1 2iv+
+R4 | gcol 215 cic 220p T3.9p
+R462azo Ci7 cib 220p 39p Cis
+OUTPUT
+RI7 75k
+R23 ISk
+PUT
+C2 33/10 Rzo
+2iV -
+c8 R27 HF 47/25 33/0 Sk
+2v+
+Iso/6
+ISk Ri8 75k
+22
+R32
+2iV+
+23
+Ci3 ci4 R37 H1 Iso/6 23/10 Isk
+5k
+R42
+25
+21V - R2s R2G GAIN Ski ADJUST c46
+5k
+26
+@SSMOp IcKD] 3930N96 2534RM MpL 42L ML
+USEDION
+WBS WARD-Beck bybtemB LtDS
+2iv-
+2iV-
+DRM: GEB DATE CcT 7 CKD Lu SCALE TOLS
+M462
+EQUALIZER MODULE SCHEMATIC 462-02*001
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+HIGh FREQEnCY #-6kHz- 25khz Rz
+MId FREQUEnCY
+Low FREQUENCY 25 Hz 400 Az Rio Ril Ook Ook
+400Hz-6.4khz R4 Rs Dok ok
+03 Tipzsb
+CRI
+25v+
+1n4603 P3569
+AD ^ C
+35 Pn3563
+Rcs T5k
+FILTER AMPLIFIER 4-12 6
+R3 7k5
+Ri2 7k5
+cr3 R77 47k 1n4003
+240 22/25
+-33 22/25
+E12
+IEI
+Eio
+163
+E9
+NOTE: ALL I~'s LMZol ALL RESISToRS WAw, 5% AND ALL CA PAcitors IN MIcRoFARADS JNCESS SPECIFIED OTHERWISE 3, USE PcB N9 4-M1
+REG + 2iv
+20 Z5VCOM C33 22/25
+C4i 22125
+CRA
+1N4003
+Sw|
+21V+ 2IV-
+Sw2
+R70 T5k
+Rc 7k5
+0G 7n36-5
+R73
+SHELF
+SHELF R76
+5476+5
+R74
+cRZ
+19
+25V-
+R7S
+5*6
+1n4003
+Tip3ob
+Beew Iok 4k7 R34 iok c 26 6.e/6 RsS 75k
+C29 6.3/6
+R33 13+4 C37 Iok 6-8/6 R67
+22 ChAsSIS
+RsB
+C33 6-3/6
+6B6
+75k
+75k
+C23 6aB/i0 RsG 620 RsI
+c34 6.3/6 R28} 620 R63
+38
+C2b Sp
+C36 Isp
+sp
+ISk R52 4k7
+5k R64 4k7
+2iv+
+2iv +
+R57
+R53
+ISk
+28
+R6s
+2i0
+470
+470
+2iV- Rs4 4K7
+2iv -
+2iV- Rgg 4k7
+C24 3300p
+C35 500p
+c27 6.8/6
+6+7 6*8/6
+25v+
+L5 -
+6.816
+C45 6.3/6
+242 6.8/6
+R5o 4k7 V2w Ziv + 2iV - DSi Sw3 FLV 117 263 2E7 2E5 25v-` ISERT OUTPUT R43 2E40 AMPLIFIER 6k2 8-109A R47 ISk 2E1 2E6 R49 2E2 Gk2
+R2|
+Ri3
+RI4
+Rig Le 5k
+c+3 6.8/6
+IS5k
+5k HF cuT /Boost
+c2i Ise/6
+R2z <ik c2
+8876 MF cuTI Boost
+Lf CuT/Boost
+22op 2iv+
+47p
+R28
+R3o
+R33
+R3s
+R40
+R43
+R45
+Sk
+Sk
+5k
+Sk
+Sk
+TSk
+Sk
+33/10
+834 Xik CG 22op 6.8p 2iv+
+R3i 620 C3 cie 220p 39 2iv+
+R36<k20 ci CIz 220p 39p1 2iv+
+R4 | gcol 215 cic 220p T3.9p
+R462azo Ci7 cib 220p 39p Cis
+OUTPUT
+RI7 75k
+R23 ISk
+PUT
+C2 33/10 Rzo
+2iV -
+c8 R27 HF 47/25 33/0 Sk
+2v+
+Iso/6
+ISk Ri8 75k
+22
+R32
+2iV+
+23
+Ci3 ci4 R37 H1 Iso/6 23/10 Isk
+5k
+R42
+25
+21V - R2s R2G GAIN Ski APJusT c46
+5k
+26
+@SSMOp IcKD] 3930N96 2534RM MpL 42L ML
+USEDION
+WBS WARD-Beck bybtemB LtDS
+2iv-
+2iV-
+DRM: GEB DATE CcT 7 CKD Lu SCALE TOLS
+M462
+EQUALIZER MODULE SCHEMATIC 462-02*001
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{
+ "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/19xx - DOC - WBSps.ca - 20210317 11X 17 Scans (7).png",
+ "sha256": "1931489a8b7c58a2a266a416cb9ffb4932d81368027fe972bc3e992b1221f3c7",
+ "kind": "doc",
+ "models": [
+  "M462"
+ ],
+ "pages": 1
+}
+```

@@ -1,0 +1,42 @@
+{
+  "board": "M702D",
+  "title": "",
+  "format": "tango",
+  "sha256": "e9bbaf76857b27733eebd63394d64c6cca1cb4da3896c9a873cb9466a35c73ec",
+  "source": "WBSps Engineering from H drive/WBSps - M7XX/M703D/TANGO/M702D.PCB",
+  "copies": [
+    "WBSps Engineering from H drive/WBSps - M7XX/M703D/TANGO/M702D.PCB",
+    "WBSps Engineering from H drive-20261018T013433Z-1-003/WBSps Engineering from H drive/WBSps - M7XX/M703D/TANGO/M702D.PCB"
+  ],
+  "kicad_pcb": "M702D/M702D.kicad_pcb",
+  "netlist": null,
+  "convert": {
+    "source": "/home/anthony/Documents/GitProjects/WBSps.ca/WBSps.env/WBSps Engineering from H drive/WBSps - M7XX/M703D/TANGO/M702D.PCB",
+    "kicad_pcb": "/home/anthony/Documents/GitProjects/WBSps.ca/2026/Engineering/PCB/M702D/M702D.kicad_pcb",
+    "format": "Tango-PCB PLUS V2.02 Series II",
+    "edge_layer": 14,
+    "tango_layers_used": {
+      "0": 245,
+      "1": 437,
+      "4": 78,
+      "8": 791,
+      "10": 5,
+      "12": 155,
+      "14": 10,
+      "16": 31,
+      "17": 21
+    },
+    "counts": {
+      "components": 123,
+      "pads": 328,
+      "tracks": 638,
+      "vias": 4,
+      "graphics": 918,
+      "texts": 198,
+      "pours": 19
+    },
+    "nets": null
+  },
+  "top": "M702D/M702D-top.svg",
+  "bottom": "M702D/M702D-bottom.svg"
+}

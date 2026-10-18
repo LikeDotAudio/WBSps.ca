@@ -1,0 +1,61 @@
+# 1995 - 95024 - DOC - 95024-04-003 - MICROPHONE PREAMP CUSTOUER QUPPUED CONTROL SURFACE.jpg
+Wiki page: [Documents](../../../PAGES/Documents.md)
+
+
+- **Year:** 1995 (job number 95024)
+- **Type:** document scan
+- **About:** 95024
+
+## Text recovered by OCR
+
+> MICROPHONE PREAMP (CUSTOUER QUPPUED) CONTROL SURFACE I20D PM O TALKBACK SPEAKER Ato HEADSET LEVEL MIC ON wic OFF TALKBACK ISSUE REVISION WBS WARD-BECK SYSTEI DRN DRG 10/95 CFNY ENG. GUEST TURRET CKD_ LA YOUT APP. SCALE DISC NO: SYSO1 D 95024-04-003 1:2 CODE: 95024L03
+- **Original file:** `WBSps.env/PUBLIC/RECENT SCANS/WBSps.ca 20210319 - Redone of what Sampson scanned/WBSps.ca 20210319 -  (87).jpg`
+- **SHA-256:** `08de4c98ce47ad1d67a18555458e3aa14b7550a4147da86b4fa8da91e9b60edd`
+- **Size:** 9,171,397 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 2 words corrected)
+
+```text
+MICROPHONE PREAMP (CUSTOMER QUPPUED)
+CONTROL SURFACE
+I20D
+PM O
+TALKBACK SPEAKER
+Ato
+HEADSET LEVEL
+MIC ON
+wic OFF
+TALKBACK
+ISSUE
+REVISION
+WBS WARD-BECK  SYSTEM DRN DRG 10/95 CFNY ENG. GUEST TURRET CKD_ LA YOUT APP. SCALE DISC NO: SYSO1 D 95024-04-003 1:2 CODE: 95024L03
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+MICROPHONE PREAMP (CUSTOUER QUPPUED)
+CONTROL SURFACE
+I20D
+PM O
+TALKBACK SPEAKER
+Ato
+HEADSET LEVEL
+MIC ON
+wic OFF
+TALKBACK
+ISSUE
+REVISION
+WBS WARD-BECK  SYSTEI DRN DRG 10/95 CFNY ENG. GUEST TURRET CKD_ LA YOUT APP. SCALE DISC NO: SYSO1 D 95024-04-003 1:2 CODE: 95024L03
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"Consoles/1990-1999/95024/1995 - 95024 - DOC - 95024-04-003 - MICROPHONE PREAMP CUSTOUER QUPPUED CONTROL SURFACE.jpg","sha256":"08de4c98ce47ad1d67a18555458e3aa14b7550a4147da86b4fa8da91e9b60edd","kind":"doc","models":["95024"],"year":1995,"pages":1,"order":[{"page":1,"title_block":[{"number":"95024-04-003","type":"layout / outline","title":"Microphone Preamp Custouer Quppued Control Surface","drawn":"DRG"}],"text":["CONTROL SURFACE","22dD 1200","SSUEI REVISION","WBS WARD-BECK SYSTEI","DRN. DRG 10/95 CFNY","ENG: GUEST TURRET","CKD_ LAYOUT","APP .","SCALE DISC NO: SySO] 95024-04-003","1:2 CODE: 95024L03"]}],"drawing":{"svg":"_traces/08de4c98ce47ad1d.svg","viewBox":[2000,1643],"rotate":0,"number":"95024-04-003","title":"Microphone Preamp Custouer Quppued Control Surface","dtype":"04","outlines":"see _traces/08de4c98ce47ad1d.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[1164,461,"CONTROL SURFACE"],[820,510,"1200"],[322,530,"22dD"],[1611,1317,"SSUEI"],[1798,1314,"REVISION"],[1525,1368,"WBS"],[1701,1365,"WARD-BECK"],[1900,1363,"SYSTEI"],[1491,1409,"DRN. DRG"],[1571,1407,"10/95"],[1810,1415,"CFNY"],[1494,1434,"ENG:"],[1745,1448,"GUEST"],[1845,1446,"TURRET"],[1494,1457,"CKD_"],[1792,1475,"LAYOUT"],[1496,1482,"APP ."],[1504,1504,"SCALE"],[1564,1507,"DISC NO: SySO]"],[1765,1520,"95024-04-003"],[1502,1530,"1:2"],[1566,1529,"CODE: 95024L03"]]}}
+```

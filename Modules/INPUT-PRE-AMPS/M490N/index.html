@@ -1,0 +1,1292 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M490N — Stereo Input Module</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../../../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../../../index.html">Index</a><a href="../../../Home.html">Wiki home</a><a href="../../../PAGES/Timeline.html">Timeline</a><a href="../../../search.html">Search</a><a href="../../../status.html">Status</a></div><h1>M490N — Stereo Input Module</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="../../../PAGES/Category-INPUT-PRE-AMPS.html">INPUT-PRE-AMPS</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../../../simulator.html?m=M490N">simulator &amp; front panel</a> · <a href="../../../_packages/M490N.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="../../../PAGES/Year-1985.html">1985|18</a> — month &amp; year</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"MARCH 1985" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M490N - Stereo Input Module/M490N - P001 - Title Page.jpg</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>medium</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="../../../PAGES/Year-1985.html">1985|18</a>, <a href="../../../PAGES/Year-1988.html">1988|21</a></td>
+</tr>
+<tr>
+<td>Used in jobs</td>
+<td>R1400-R2400-sales</td>
+</tr>
+<tr>
+<td>Variants</td>
+<td><a href="../../../PAGES/M490.html">M490</a>, <a href="../../../PAGES/M490A.html">M490A</a>, <a href="../../../PAGES/M490B.html">M490B</a>, <a href="../../../PAGES/M490C.html">M490C</a>, <a href="../../../PAGES/M490D.html">M490D</a>, <a href="../../../PAGES/M490E.html">M490E</a>, <a href="../../../PAGES/M490F.html">M490F</a>, <a href="../../../PAGES/M490G.html">M490G</a>, <a href="../../../PAGES/M490H.html">M490H</a>, <a href="../../../PAGES/M490J.html">M490J</a>, <a href="../../../PAGES/M490K.html">M490K</a>, <a href="../../../PAGES/M490L.html">M490L</a>, <a href="../../../PAGES/M490M.html">M490M</a>, <a href="../../../PAGES/M490T.html">M490T</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="index.html">Modules/INPUT-PRE-AMPS/M490N</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../PHOTOS/Drawings/">PHOTOS/Drawings</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections and circuit (ideal SPICE model)</h2>
+<p><em>Drawn live from its RTO-144 connections: run the generator, turn the gain, watch the VU. Open the netlist to see how the model is built.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M490N" data-n="Stereo Input Module" data-cat="INPUT-PRE-AMPS"></div><svg class="wbs-panel" data-m="M490N" data-n="Stereo Input Module" data-cat="INPUT-PRE-AMPS" role="img" aria-label="M490N front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M490N","title":"Stereo Input Module","rto":{"code":"M490N","series":null,"type":"M490N - Stereo Input Module","row_count":null,"impedance":{},"note":null,"audio":[{"port":"A1","signal":"Mic in A","dir":"in","pos":"P2-1","neg":"P2-A","pad_pos":"P2-1.A.1.P","pad_neg":"P2-A.A.1.N"},{"port":"A2","signal":"Mic in B","dir":"in","pos":"P2-3","neg":"P2-C","pad_pos":"P2-3.A.2.P","pad_neg":"P2-C.A.2.N"},{"port":"A3","signal":"Left PGRM 1","dir":"io","pos":"P1-1","neg":"P1-2","pad_pos":"P1-1.A.3.P","pad_neg":"P1-2.A.3.N"},{"port":"A4","signal":"Right PGRM 1","dir":"io","pos":"P1-3","neg":"P1-4","pad_pos":"P1-3.A.4.P","pad_neg":"P1-4.A.4.N"},{"port":"B1","signal":"Insert Send","dir":"out","pos":"P2-6","neg":"P2-F","pad_pos":"P2-6.B.1.P","pad_neg":"P2-F.B.1.N"},{"port":"B2","signal":"Insert Return","dir":"in","pos":"P2-7","neg":"P2-H","pad_pos":"P2-7.B.2.P","pad_neg":"P2-H.B.2.N"}],"bus_out":[],"bus_in":[],"power":[{"rail":"VEE-AUDIO","style":"NEW","volts":-25,"max_a":0.2,"supply":"P2-19","ground":"P2-20","link":2},{"rail":"VCC-AUDIO","style":"NEW","volts":25,"max_a":0.2,"supply":"P2-21","ground":"P2-20","link":1}],"jumpers":[{"function":"Insert","designation":"JMP.6.7","from":"P2-6","to":"P2-7"},{"function":"Insert","designation":"JMP.F.H","from":"P2-F","to":"P2-H"}],"logic":[]},"parts":[{"item":"SA14-120","title":"Stereo Preamplifier Component Layout","label":"SA14-120 Stereo Preamplifier Compon","href":"Register-Circuit-boards-SA14-nnn.html#sa14-120","note":"Circuit boards (SA14-nnn)"},{"item":"4-120","title":"","label":"4-120","href":"Register-Sub-assemblies-n-nnn.html#4-120","note":"Sub-assemblies (n-nnn)"}],"parents":[{"label":"R1400-R2400-sales","href":"#","note":"console / job"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P001%20-%20Title%20Page.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P001%20-%20Title%20Page.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P001 - Title Page.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P001 - Title Page.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1988%20-%20M490N%20-%20P031%20-%20SA14-120.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1988%20-%20M490N%20-%20P031%20-%20SA14-120.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1988 - M490N - P031 - SA14-120.jpg" data-size="320" onerror="wbsOff(this)">1988 - M490N - P031 - SA14-120.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%2014-120-02-001%20-%20COMMON%20COMMON%20SPEC%20IFIED%20LAST%20COMPONENT%20DESIGNA.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%2014-120-02-001%20-%20COMMON%20COMMON%20SPEC%20IFIED%20LAST%20COMPONENT%20DESIGNA.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - 14-120-02-001 - COMMON COMMON SPEC IFIED LAST COMPONENT DESIGNA.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - 14-120-02-001 - COMMON COMMON SPEC IFIED LAST COMPONENT DESIGNA.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%2014-120-02-001%20-%20UNLESS%20OTHERWISE%20SPECIFIED%20IODES%20ARE.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%2014-120-02-001%20-%20UNLESS%20OTHERWISE%20SPECIFIED%20IODES%20ARE.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - 14-120-02-001 - UNLESS OTHERWISE SPECIFIED IODES ARE.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - 14-120-02-001 - UNLESS OTHERWISE SPECIFIED IODES ARE.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%2014-120-06-001%20-%20STEREO%20PREAMPLIFIER%20COMPONENT%20LAYOUT.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%2014-120-06-001%20-%20STEREO%20PREAMPLIFIER%20COMPONENT%20LAYOUT.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - 14-120-06-001 - STEREO PREAMPLIFIER COMPONENT LAYOUT.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - 14-120-06-001 - STEREO PREAMPLIFIER COMPONENT LAYOUT.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-01-014%20-%20OFFX%20ON-START%20TIMER%20RESET%20OFF%20TALLY%20OFF.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-01-014%20-%20OFFX%20ON-START%20TIMER%20RESET%20OFF%20TALLY%20OFF.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - 490-01-014 - OFFX ON-START TIMER RESET OFF TALLY OFF.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - 490-01-014 - OFFX ON-START TIMER RESET OFF TALLY OFF.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-01-014%20-%20STEREO%20INPUT%20MODULE%20FUNC%20TIONAL.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-01-014%20-%20STEREO%20INPUT%20MODULE%20FUNC%20TIONAL.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - 490-01-014 - STEREO INPUT MODULE FUNC TIONAL.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - 490-01-014 - STEREO INPUT MODULE FUNC TIONAL.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-02-014%20-%20STEREO%20INPUT%20MODULE%20SCHEMATIC.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-02-014%20-%20STEREO%20INPUT%20MODULE%20SCHEMATIC.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - 490-02-014 - STEREO INPUT MODULE SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - 490-02-014 - STEREO INPUT MODULE SCHEMATIC.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-02-014.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-02-014.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - 490-02-014.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1985 - M490N - 490-02-014.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-04-028%20-%20STEREO%20INPUT%20MODULE%20MODULE%20LAYOUT.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-04-028%20-%20STEREO%20INPUT%20MODULE%20MODULE%20LAYOUT.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - 490-04-028 - STEREO INPUT MODULE MODULE LAYOUT.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - 490-04-028 - STEREO INPUT MODULE MODULE LAYOUT.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-04-028.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-04-028.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - 490-04-028.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - 490-04-028.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-06-024%20-%20AUX%20PRE-POST%20ON-OFF.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-06-024%20-%20AUX%20PRE-POST%20ON-OFF.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - 490-06-024 - AUX PRE-POST ON-OFF.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - 490-06-024 - AUX PRE-POST ON-OFF.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-06-024%20-%20STEREO%20INPUT%20MODULE%20COMPONENT%20LAYOUT.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-06-024%20-%20STEREO%20INPUT%20MODULE%20COMPONENT%20LAYOUT.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - 490-06-024 - STEREO INPUT MODULE COMPONENT LAYOUT.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - 490-06-024 - STEREO INPUT MODULE COMPONENT LAYOUT.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P002.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P002.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P002.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P002.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P003.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P003.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P003.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P003.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P004%20-%201-1.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P004%20-%201-1.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P004 - 1-1.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P004 - 1-1.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P005%20-%201-2.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P005%20-%201-2.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P005 - 1-2.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P005 - 1-2.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P006%20-%202-1.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P006%20-%202-1.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P006 - 2-1.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P006 - 2-1.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P007%20-%202-2.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P007%20-%202-2.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P007 - 2-2.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P007 - 2-2.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P008%20-%203-1.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P008%20-%203-1.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P008 - 3-1.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P008 - 3-1.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P009%20-%203-2.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P009%20-%203-2.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P009 - 3-2.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P009 - 3-2.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P010%20-%203-3.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P010%20-%203-3.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P010 - 3-3.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P010 - 3-3.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P011%20-%204-1.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P011%20-%204-1.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P011 - 4-1.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P011 - 4-1.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P012%20-%204-2.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P012%20-%204-2.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P012 - 4-2.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P012 - 4-2.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P013%20-%204-3.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P013%20-%204-3.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P013 - 4-3.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P013 - 4-3.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P014%20-%204-4.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P014%20-%204-4.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P014 - 4-4.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P014 - 4-4.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P015%20-%204-5.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P015%20-%204-5.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P015 - 4-5.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P015 - 4-5.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P016%20-%205-1.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P016%20-%205-1.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P016 - 5-1.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P016 - 5-1.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P017%20-%205-2.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P017%20-%205-2.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P017 - 5-2.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P017 - 5-2.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P018%20-%205-3.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P018%20-%205-3.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P018 - 5-3.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P018 - 5-3.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P019%20-%205-4.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P019%20-%205-4.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P019 - 5-4.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P019 - 5-4.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P020%20-%205-5.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P020%20-%205-5.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P020 - 5-5.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P020 - 5-5.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P021%20-%205-6.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P021%20-%205-6.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P021 - 5-6.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P021 - 5-6.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P022%20-%205-7.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P022%20-%205-7.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P022 - 5-7.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P022 - 5-7.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P023%20-%205-8.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P023%20-%205-8.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P023 - 5-8.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P023 - 5-8.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P024%20-%206-1.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P024%20-%206-1.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P024 - 6-1.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P024 - 6-1.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P025%20-%206-2.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P025%20-%206-2.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P025 - 6-2.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P025 - 6-2.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P030.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P030.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P030.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P030.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P032%20-%20SA14-120%20-%201-1.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P032%20-%20SA14-120%20-%201-1.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P032 - SA14-120 - 1-1.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P032 - SA14-120 - 1-1.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P033%20-%20SA14-120%20-%201-2.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P033%20-%20SA14-120%20-%201-2.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P033 - SA14-120 - 1-2.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P033 - SA14-120 - 1-2.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P034%20-%20SA14-120%20-%202-1.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P034%20-%20SA14-120%20-%202-1.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P034 - SA14-120 - 2-1.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P034 - SA14-120 - 2-1.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P035%20-%20SA14-120%20-%202-2.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P035%20-%20SA14-120%20-%202-2.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P035 - SA14-120 - 2-2.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P035 - SA14-120 - 2-2.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P036%20-%20SA14-120%20-%202-3.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P036%20-%20SA14-120%20-%202-3.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P036 - SA14-120 - 2-3.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P036 - SA14-120 - 2-3.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P037%20-%20SA14-120%20-%202-4.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P037%20-%20SA14-120%20-%202-4.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P037 - SA14-120 - 2-4.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P037 - SA14-120 - 2-4.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P038%20-%20SA14-120%20-%202-5.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P038%20-%20SA14-120%20-%202-5.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P038 - SA14-120 - 2-5.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P038 - SA14-120 - 2-5.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P039%20-%20SA14-120%20-%202-6.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P039%20-%20SA14-120%20-%202-6.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P039 - SA14-120 - 2-6.jpg" data-size="320" onerror="wbsOff(this)">1985 - M490N - P039 - SA14-120 - 2-6.jpg</a><a href="../../../viewer.html?f=PHOTOS/Drawings/19xx%20-%2014-120-02-001%20-%20SA14-120%20STEREO%20PREAMPLIFIER%20SCHEMATIC%20-%20ISS%201.jpg"><img loading="lazy" src="../../../PHOTOS/Drawings/19xx%20-%2014-120-02-001%20-%20SA14-120%20STEREO%20PREAMPLIFIER%20SCHEMATIC%20-%20ISS%201.jpg" alt="" data-f="PHOTOS/Drawings/19xx - 14-120-02-001 - SA14-120 STEREO PREAMPLIFIER SCHEMATIC - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">19xx - 14-120-02-001 - SA14-120 STEREO PREAMPLIFIER SCHEMATIC - ISS 1.jpg</a><a href="../../../viewer.html?f=Consoles/1990-1999/R1400-R2400%20-%20sales/1990%20-%20R1400%20-%20R2400%20-%20011.jpg"><img loading="lazy" src="../../../Consoles/1990-1999/R1400-R2400%20-%20sales/1990%20-%20R1400%20-%20R2400%20-%20011.jpg" alt="" data-f="Consoles/1990-1999/R1400-R2400 - sales/1990 - R1400 - R2400 - 011.jpg" data-size="320" onerror="wbsOff(this)">1990 - R1400 - R2400 - 011.jpg</a></div>
+<h2>Price history</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Price</th>
+<th>Listed as</th>
+<th>Effective</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Year-2005.html">2005|38</a></td>
+<td>used market value</td>
+<td>100.00</td>
+<td>M490N Stereo Input</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/old website/PriceGuide.htm</td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-2006.html">2006|39</a></td>
+<td>used market value</td>
+<td>100.00</td>
+<td>M490N Stereo Input</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/jan 2006 shell/priceguide.htm</td>
+</tr>
+</tbody>
+</table>
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Year-1985.html">1985|18</a></td>
+<td>month &amp; year</td>
+<td><code>MARCH 1985</code></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P001%20-%20Title%20Page.jpg">1985 - M490N - P001 - Title Page.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1988.html">1988|21</a></td>
+<td>manual issue date</td>
+<td><code>Issue #2 May 27, 1988</code></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1988%20-%20M490N%20-%20P031%20-%20SA14-120.jpg">1988 - M490N - P031 - SA14-120.jpg</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Physical manual inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Location</th>
+<th>Status</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M490N - Stereo Input Module</td>
+<td></td>
+<td>DUPLICATE</td>
+<td>SCANNED BUT NEEDS STICHING</td>
+</tr>
+<tr>
+<td>M490N - Stereo Input Module</td>
+<td></td>
+<td></td>
+<td>PDF - Already scanned</td>
+</tr>
+<tr>
+<td>M490N - Stereo Input Module</td>
+<td></td>
+<td></td>
+<td>Recently scanned and stiched by WB</td>
+</tr>
+</tbody>
+</table>
+<h2>Documents (2)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29.pdf">1985 - M490N - Stereo Input Module (2).pdf</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29.pdf.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20Stereo%20Input%20Module.pdf">1985 - M490N - Stereo Input Module.pdf</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20Stereo%20Input%20Module.pdf.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (47)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%2014-120-02-001%20-%20COMMON%20COMMON%20SPEC%20IFIED%20LAST%20COMPONENT%20DESIGNA.jpg">1985 - M490N - 14-120-02-001 - COMMON COMMON SPEC IFIED LAST COMPONENT DESIGNA.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%2014-120-02-001%20-%20COMMON%20COMMON%20SPEC%20IFIED%20LAST%20COMPONENT%20DESIGNA.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%2014-120-02-001%20-%20UNLESS%20OTHERWISE%20SPECIFIED%20IODES%20ARE.jpg">1985 - M490N - 14-120-02-001 - UNLESS OTHERWISE SPECIFIED IODES ARE.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%2014-120-02-001%20-%20UNLESS%20OTHERWISE%20SPECIFIED%20IODES%20ARE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%2014-120-06-001%20-%20STEREO%20PREAMPLIFIER%20COMPONENT%20LAYOUT.jpg">1985 - M490N - 14-120-06-001 - STEREO PREAMPLIFIER COMPONENT LAYOUT.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%2014-120-06-001%20-%20STEREO%20PREAMPLIFIER%20COMPONENT%20LAYOUT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-01-014%20-%20OFFX%20ON-START%20TIMER%20RESET%20OFF%20TALLY%20OFF.jpg">1985 - M490N - 490-01-014 - OFFX ON-START TIMER RESET OFF TALLY OFF.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-01-014%20-%20OFFX%20ON-START%20TIMER%20RESET%20OFF%20TALLY%20OFF.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-01-014%20-%20STEREO%20INPUT%20MODULE%20FUNC%20TIONAL.jpg">1985 - M490N - 490-01-014 - STEREO INPUT MODULE FUNC TIONAL.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-01-014%20-%20STEREO%20INPUT%20MODULE%20FUNC%20TIONAL.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-02-014%20-%20STEREO%20INPUT%20MODULE%20SCHEMATIC.jpg">1985 - M490N - 490-02-014 - STEREO INPUT MODULE SCHEMATIC.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-02-014%20-%20STEREO%20INPUT%20MODULE%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-02-014.jpg">1985 - M490N - 490-02-014.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-02-014.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-04-028%20-%20STEREO%20INPUT%20MODULE%20MODULE%20LAYOUT.jpg">1985 - M490N - 490-04-028 - STEREO INPUT MODULE MODULE LAYOUT.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-04-028%20-%20STEREO%20INPUT%20MODULE%20MODULE%20LAYOUT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-04-028.jpg">1985 - M490N - 490-04-028.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-04-028.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-06-024%20-%20AUX%20PRE-POST%20ON-OFF.jpg">1985 - M490N - 490-06-024 - AUX PRE-POST ON-OFF.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-06-024%20-%20AUX%20PRE-POST%20ON-OFF.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-06-024%20-%20STEREO%20INPUT%20MODULE%20COMPONENT%20LAYOUT.jpg">1985 - M490N - 490-06-024 - STEREO INPUT MODULE COMPONENT LAYOUT.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-06-024%20-%20STEREO%20INPUT%20MODULE%20COMPONENT%20LAYOUT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P001%20-%20Title%20Page.jpg">1985 - M490N - P001 - Title Page.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P001%20-%20Title%20Page.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P002.jpg">1985 - M490N - P002.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P003.jpg">1985 - M490N - P003.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P004%20-%201-1.jpg">1985 - M490N - P004 - 1-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P004%20-%201-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P005%20-%201-2.jpg">1985 - M490N - P005 - 1-2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P005%20-%201-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P006%20-%202-1.jpg">1985 - M490N - P006 - 2-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P006%20-%202-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P007%20-%202-2.jpg">1985 - M490N - P007 - 2-2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P007%20-%202-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P008%20-%203-1.jpg">1985 - M490N - P008 - 3-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P008%20-%203-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P009%20-%203-2.jpg">1985 - M490N - P009 - 3-2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P009%20-%203-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P010%20-%203-3.jpg">1985 - M490N - P010 - 3-3.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P010%20-%203-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P011%20-%204-1.jpg">1985 - M490N - P011 - 4-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P011%20-%204-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P012%20-%204-2.jpg">1985 - M490N - P012 - 4-2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P012%20-%204-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P013%20-%204-3.jpg">1985 - M490N - P013 - 4-3.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P013%20-%204-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P014%20-%204-4.jpg">1985 - M490N - P014 - 4-4.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P014%20-%204-4.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P015%20-%204-5.jpg">1985 - M490N - P015 - 4-5.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P015%20-%204-5.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P016%20-%205-1.jpg">1985 - M490N - P016 - 5-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P016%20-%205-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P017%20-%205-2.jpg">1985 - M490N - P017 - 5-2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P017%20-%205-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P018%20-%205-3.jpg">1985 - M490N - P018 - 5-3.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P018%20-%205-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P019%20-%205-4.jpg">1985 - M490N - P019 - 5-4.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P019%20-%205-4.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P020%20-%205-5.jpg">1985 - M490N - P020 - 5-5.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P020%20-%205-5.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P021%20-%205-6.jpg">1985 - M490N - P021 - 5-6.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P021%20-%205-6.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P022%20-%205-7.jpg">1985 - M490N - P022 - 5-7.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P022%20-%205-7.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P023%20-%205-8.jpg">1985 - M490N - P023 - 5-8.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P023%20-%205-8.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P024%20-%206-1.jpg">1985 - M490N - P024 - 6-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P024%20-%206-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P025%20-%206-2.jpg">1985 - M490N - P025 - 6-2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P025%20-%206-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P030.jpg">1985 - M490N - P030.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P030.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P032%20-%20SA14-120%20-%201-1.jpg">1985 - M490N - P032 - SA14-120 - 1-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P032%20-%20SA14-120%20-%201-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P033%20-%20SA14-120%20-%201-2.jpg">1985 - M490N - P033 - SA14-120 - 1-2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P033%20-%20SA14-120%20-%201-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P034%20-%20SA14-120%20-%202-1.jpg">1985 - M490N - P034 - SA14-120 - 2-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P034%20-%20SA14-120%20-%202-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P035%20-%20SA14-120%20-%202-2.jpg">1985 - M490N - P035 - SA14-120 - 2-2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P035%20-%20SA14-120%20-%202-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P036%20-%20SA14-120%20-%202-3.jpg">1985 - M490N - P036 - SA14-120 - 2-3.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P036%20-%20SA14-120%20-%202-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P037%20-%20SA14-120%20-%202-4.jpg">1985 - M490N - P037 - SA14-120 - 2-4.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P037%20-%20SA14-120%20-%202-4.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P038%20-%20SA14-120%20-%202-5.jpg">1985 - M490N - P038 - SA14-120 - 2-5.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P038%20-%20SA14-120%20-%202-5.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P039%20-%20SA14-120%20-%202-6.jpg">1985 - M490N - P039 - SA14-120 - 2-6.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P039%20-%20SA14-120%20-%202-6.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1988%20-%20M490N%20-%20P031%20-%20SA14-120.jpg">1988 - M490N - P031 - SA14-120.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1988%20-%20M490N%20-%20P031%20-%20SA14-120.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=PHOTOS/Drawings/19xx%20-%2014-120-02-001%20-%20SA14-120%20STEREO%20PREAMPLIFIER%20SCHEMATIC%20-%20ISS%201.jpg">19xx - 14-120-02-001 - SA14-120 STEREO PREAMPLIFIER SCHEMATIC - ISS 1.jpg</a></td>
+<td><a href="../../../viewer.html?f=PHOTOS/Drawings/19xx%20-%2014-120-02-001%20-%20SA14-120%20STEREO%20PREAMPLIFIER%20SCHEMATIC%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Sub-assemblies &amp; parts used (2)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What</th>
+<th>Family</th>
+<th>Year</th>
+<th>How we know</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Register-Circuit-boards-SA14-nnn.html#sa14-120">SA14-120</a></td>
+<td>Stereo Preamplifier Component Layout</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>drawing filed with it</td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Register-Sub-assemblies-n-nnn.html#4-120">4-120</a></td>
+<td></td>
+<td>Sub-assemblies (n-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+</tbody>
+</table>
+<h2>Parts list — board M490N (24 parts)</h2>
+<p><em>From <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P016%20-%205-1.jpg">1985 - M490N - P016 - 5-1.jpg</a>, page 1 (scanned); also in <code>timelines/data/bom.csv</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>Part</th>
+<th>Value</th>
+<th>Manufacturer</th>
+<th>Mfr part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M490N</td>
+<td>STEREO INPUT MODULE</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C12</td>
+<td>uF/40 Philips</td>
+<td></td>
+<td></td>
+<td>L26ETG47</td>
+</tr>
+<tr>
+<td>C19</td>
+<td>Philips</td>
+<td></td>
+<td></td>
+<td>2222-638-34479</td>
+</tr>
+<tr>
+<td>C23</td>
+<td>uF/100 Sprague</td>
+<td></td>
+<td></td>
+<td>1CIOXZRIOGMOSOB</td>
+</tr>
+<tr>
+<td>C25</td>
+<td>uF/ 40 Philips</td>
+<td></td>
+<td></td>
+<td>426ETG47</td>
+</tr>
+<tr>
+<td>C35</td>
+<td>Capacitor uF/35 Keme</td>
+<td></td>
+<td></td>
+<td>T390A 105MO35AS</td>
+</tr>
+<tr>
+<td>C46</td>
+<td>uF/100 Sprague</td>
+<td></td>
+<td></td>
+<td>1CIOXZRIO4MOSOB</td>
+</tr>
+<tr>
+<td>CR16</td>
+<td>INLO03</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R11</td>
+<td>Resistor 1/4w  5%6 Philips</td>
+<td>10K</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R17</td>
+<td>Potentiometer Piher PTIOV z0k</td>
+<td>20k</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R18</td>
+<td>Resistor I/4w 100 Philips</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R22</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R25</td>
+<td>Resistor 1/LW Philips</td>
+<td>2.2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R29</td>
+<td>Poten tiometer Sk A&amp;B WBS</td>
+<td></td>
+<td></td>
+<td>10-023</td>
+</tr>
+<tr>
+<td>R30</td>
+<td>Resistor V/4w   1%6 Philips</td>
+<td>15k</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R36</td>
+<td>Resi tor 1/Lw 5%6</td>
+<td>30k</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R23</td>
+<td>Wing Knob (Black ) Elma</td>
+<td></td>
+<td></td>
+<td>023-3220</td>
+</tr>
+<tr>
+<td>R66</td>
+<td>Cap (Black</td>
+<td></td>
+<td></td>
+<td>0L0-3620</td>
+</tr>
+<tr>
+<td>SW3</td>
+<td>de ete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SW6</td>
+<td>White FM-Wh</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SW7</td>
+<td>(Grey FM-GRY</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SW9</td>
+<td>(Red ) 328- C071</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SW12</td>
+<td>Grey ) FGK-GREY</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>U2</td>
+<td>u3 Pin Dip Socket Amp</td>
+<td></td>
+<td></td>
+<td>640463-3</td>
+</tr>
+</tbody>
+</table>
+<h2>Consoles &amp; jobs it is connected to (1)</h2>
+<p><em>Their own drawings name this module.</em></p>
+<table>
+<thead>
+<tr>
+<th>Job</th>
+<th>Year</th>
+<th>Drawing</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R1400-R2400-sales</td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1990-1999/R1400-R2400%20-%20sales/1990%20-%20R1400%20-%20R2400%20-%20011.jpg">1990 - R1400 - R2400 - 011.jpg</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (4)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../viewer.html?f=Products/RTO/RTO-144/19xx%20-%20RTO-144%20-%20Module%20RTO-144%20Jumper%20calculator.xlsx">19xx - RTO-144 - Module RTO-144 Jumper calculator.xlsx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT%20%282%29.docx">1995 - M405P - ITEMIMP(1).TXT (2).docx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT.docx">1995 - M405P - ITEMIMP(1).TXT.docx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP.TXT.docx">1995 - M405P - ITEMIMP.TXT.docx</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="../../../PAGES/Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>General description (9)</h3>
+<details><summary>Description — 1368 words · 1985 - M490N - Stereo Input Module (2).pdf, page 14</summary><p>M490N ST EREO INPUT MOOULE</p><p>Channel Off;</p><p>Momenlary opera li&lt;&gt;&lt;&gt; of      the Channel   Olf sw,tch SW8 or momen lary ground closure of Ihe External Cha n ne l Off con trol input al P2, pin 12 will result in a negative going pulse at U8, p in 3 and &quot;clea r&quot; Ih e A-sec tion of U8, producing 0 v o ll s a l US, p in IS . ConseQuen tly, the le f t and righ t solid s t a t e Program switches will s w i tc h OFF . a s will s ree conducti&quot;&#x27;g. caus,,,,g OS3 to exlingulsh. and the muting control OUll)ut S at P2. p l&quot;, s 13 and P w i ll be di,....b.ed .</p><p>A separa le conlact is available cn SWB a&quot;,d is acce s sio le a l P2. pin 17 and U. II may be used for &quot;maChine 1101)&quot;.</p><p>A separate Cha&quot;&#x27;nel Off lally la mo               is   bu ilt ,nto SWS and           is con &quot;,ec ted to P2, pi&quot;,s 18 and V .</p><p>In addll,on to the nol&quot;tl&#x27;lal !&gt;Usn bu llon O()era ted Channel Off funcllon, bo th lef l and ri gh l so li d s ta te Program swi lches are swi lche(1 oH wherlev er lhe m , ,, i,,,g a ttenua lor Is MOved to t h e &quot;infi nite&quot; position and swi lch 5...,10 is closed. Th e 0 volt po terl iial c1evelooed a t U7, p i n 10 is fed direc t ly to the IWO p rogram s wi t c h e s and causes them to switc h OFF . However, th e st atus of US. the Channel On in d ica tor and the mUl lng controls remain unaffec ted by Ihis ooeration .</p><p>Cue;</p><p>Th e 8-sec lion of U8 is used to cco u-et Ih e solid s t a le Cue liwi lehes . The flip-flo p wi ll change s ta te ea Ch time a neg- a tive       goi ng    transi lion l a kes p l a ce at p in 6 01 US. Conse QuM tly, wit h ea ch In p ul pu lse, t he Cue channels will a l te rn a te be t w&lt;!&#x27;en ON and OF F .</p><p>Thi S change of Sta le Ca n          be b r ou g h l   about     by     anyone 01 thr e e differen t me thods :</p><p>a) Momentary op e ra t ion o f t h e Cu e s w it Ch s w it Ch SW12 t al .                                                                                        a</p><p>b) Mome n t a r y g r o u ...d cl os u re of   t h e Ex ter...a l Cu e COn t rO l                                                                                     .c</p><p>inpu t a t P2. p in 11 .                                                                                   ps</p><p>e ) Op era t ion of I h e &quot;overp r e s s&quot; s w i tCh 5W l l , loc a te d a t t h e                                                                           BS</p><p>s l i de erten uetor- b eyond th e &quot; in fin i te &quot; po s it ion .                                                                          W</p><p>T h e ON s t a t us of t he            c ha n ne ls    is   i ndi c a te d   by   052,                                                                       ://</p><p>which Is drive n by 04.                                                                  tp                                                                ht</p><p>W A R C - B E CK SYS T EM S LTC .</p><p>CIRCU IT DESCRIP T ION</p><p>M4 90N S TER EO I NP UT MODULE</p><p>Cue Off ;</p><p>An a d d itio n a l fe &quot; l u r e ens u r es t ha t t he C ue cha n n e ls w il l               &quot; Iw&quot; y s SWi lCh to OFF wh e ne ver the sl i d e a tle nu a tor is moved               o n to o r away from t he &quot;in f i nite &quot; p o si t ion , reg ard less of thei r               pr ior s t a t e . T h e co n trol s ig n a l for this ac t ion Is in it i a l e d               by     th e change of s ta te o f Ih e Atl e n u &quot;t o r CUI s w i t c h SW10 ,               T he r e s ultanl le ve l Ch a n g e , b eing e i l h e r pos il ive or n e g a l i v e               g o in g ,    i s p ro c e s s e d l h ro ugh U? , U9 , a n d UIO. The ou t p UI               produced a l pin 4 of Ul0 wi l l a l ways b e &quot; neg&quot; l ive g o i n g               pu lse o f a p p ro x ima t e l y 500 m ill is e c o nds d uralion . CRll passes               this pu lse 10 U8 , pi n 8, Ihe reby &quot;c learing &quot; th e B- seClion o f               t he f l i p _ f lo p , a n d r eS ul t i n g in p in 1 1of U8 to s w i t c h to (o r               : :~~:;esa~F FO. vol ts, i n t u r n Sw i t c h ing th e le ft a n d r ight Cue</p><p>log ic con trol in pu ls      are   bu ffere d   10 g u a rd againSI s p u r io u s n o is e    a nd s w it c h bou nce .</p><p>Pow er Su p pl y Decoupl i n q</p><p>The &quot; Cl i ve d e c o u plin g n e l wo r k c o n sis t i n g of 09 Ihro ug h 0 12 a lon g    wit h th e ir a ssoci al ed co mpon e n ts, decou p le o r regu lat e I h e in c o m i n g    +/_25 vo lt s u p p l y vol lag e do w n 10 +/ - 20 vol ts . CR19 an d C R20 s e r v e    10 p r even t a mp lif ier da mage i n t h e e v e n t o f s u p p l y vo l tag e r ever sal .    Th e    dec o up l i ng ne l wo rk d r o p s   t he   +/ _2 5 vol t s u p p ly        r a i ls 10 &quot;    nomin a l vol tage of         +/ -20 volts . 08       d e c o u p l e s an d f i l te r s t h e 20 V    p os itive s u p p l y rai i, res u i li ng i n a n OUlp UI of +t2 v olt s to o p era te    Ih e C MOS c irc ui l ry .</p><p>U2 , UJ , US a n d U6 a re fur the r dec ou p l e d to +/ - 18 vo l ts . Rl e, R1 9    a n d Cl 0 - C 13 d ec o u ple Ihe + 18 v o l ts w hile RSS, R56 a nd C23 _ C 26    d ecou p l e t h e _ 18 vol ts . Se p ara te o n-b oar d p o we r s u p pl y dec o u p l ing i s    p r o vi d e d on the SA14_ 120 Pre&quot;m pl ifie r Su basse mbly                                                                                                       a                                                                                                    .c                                                                                                 ps                                                                                          BS                                                                                         W                                                                                      ://</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29.pdf">1985 - M490N - Stereo Input Module (2).pdf</a>, p. 14</li>
+</ul>
+<details><summary>Description — 290 words · 1985 - M490N - P032 - SA14-120 - 1-1.jpg, page 1</summary><p>SA4L-120STEREO PREAMPLIFIER ASSEMBLY The SA14- 20 Stereo Preamplifier assembly contains the Left and Right channel preamplifiers Mode Select matrixing, Cue cnannel solid state switches ana buffers for the M49OM/N Stereo Input modules The circuitry for the Left and Right channels are identical, therefore only the description for the Left channel wil De ven . Preamelifier The Left cnannel input appears pins P2 _ 5 &amp; the sub- assembly connector with its ssociated components makes uP the actively balanced input preamplifier The preamplifier gain Mav be varied over dB range DY adjusting RII which accessable from the front panel the Stereo input rodule with sma trim screwdriver The longitudinal rejection the preamplifier input se by the adjustmen R6 _ This control factory set and under normal conditions should not require adjustment Mode Select SW1 along with u2 form the Left channel Mode matrix_ The output from the Left channel fed into this network via R12, while the Rignt channel fed via R14 Selector SWIA.</p><p>Tong with the mixing capabilities U2 _ following action pe taken the Left channel signal allows the Pass the Left channel stereo signal 45 supplied the module. &quot;5&quot; position the selector Pass the Left channel only both the Left and Right channels position on the selector Create Mono gnal by mixing the Left and Right channeis together &quot;m&quot; position the ecior = Reverse the routing the Left and Right signals through the Stereo module.</p><p>&quot;S&quot; position on the selector Route the Right channel signal into the Left channel &quot;R&quot; position the ector u2 forms the mixing amplifier for the Mode functions The Left channel feed Ou[ U2 coupled through C13 the module connector P2 , also coup ed into the Cue, Auxiliary inverting buffer USA _ 1-1</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P032%20-%20SA14-120%20-%201-1.jpg">1985 - M490N - P032 - SA14-120 - 1-1.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Description — 270 words · 1985 - M490N - P014 - 4-4.jpg, page 1</summary><p>M4IONSTEREO INPUT MODULE Channel Off; Momen tary operation the Channel Off switch SwB momentary grouna closure the External Channel Off controi input P2 pin will result negative going puise u8 pin and &quot;clear&quot; the A-section u8 proaucing voits u8 pin 15 Consequently the Teft and right solid state Program swi tches Wa switch OFF wili stop conducting, causing DS3 extinguish, and the muting controi Outputs P2 , pins and wil be disabled.</p><p>separate contact P2 , pin and U. available Sw8 and accessiple may pe used for machine stop separate Channel Off tally lamp connected P2 , pins and built into SW8 and ddition ine norma pushbutton operated Channel Off function botn left and right solid state Program Swi tches are switched off whenever the mixing attenuator moved the &quot;infinite&quot; position and switch SW1O closed The volt potential developed U7 pin fed directly the two program switches and causes them switch OFF However the status u8_ the Channel On indicator ana the muting controis remain unaffected by this operation.</p><p>Cue; The B-section u8 used control thc solid state Cue switches The flip-flop will change state each time neg ative going transition takes place pin u8 Consequently with each input pulse the Cue channels will alternate between ON and OFF . This change state can be brought about by any one three different methods: Momentary operation the Cue switch switch SW12 (0) Momentary ground closure the Externa Cue control input P2 , pin Operation the overpress&quot; switch SWii, located the slide attenuator beyond the &quot;infinite&quot; position The ON status the Cue channels which driven by 04 _ indicated by DS2 ,</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P014%20-%204-4.jpg">1985 - M490N - P014 - 4-4.jpg</a>, p. 1</li>
+<li>also in: <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P013%20-%204-3.jpg">1985 - M490N - P013 - 4-3.jpg</a>, p. 1 · <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P011%20-%204-1.jpg">1985 - M490N - P011 - 4-1.jpg</a>, p. 1 · <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P012%20-%204-2.jpg">1985 - M490N - P012 - 4-2.jpg</a>, p. 1 · <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P008%20-%203-1.jpg">1985 - M490N - P008 - 3-1.jpg</a>, p. 1 · <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P009%20-%203-2.jpg">1985 - M490N - P009 - 3-2.jpg</a>, p. 1 · <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P039%20-%20SA14-120%20-%202-6.jpg">1985 - M490N - P039 - SA14-120 - 2-6.jpg</a>, p. 1</li>
+</ul>
+<h3>Specifications (2)</h3>
+<details><summary>Technical Data — 183 words · 1985 - M490N - P004 - 1-1.jpg, page 1</summary><p>MLION_STEREO INPUT MODULE Input Sensitivity: -10 +10 dBm (ref . 600 onm source Frequency Response: -/-0.2 dB from Hz kHz . Noise dB below the nominal operating Ievel with the mixing attenuator set for dB &quot;in hand&quot; Hz kHz) Harmonic Distortion: Less than 0 . 1% Hz kHz adove the nomina operating Tevei dB Tess Input Level : -10 dBm +10 dBm for the nominal output operating evel 724 dBm maximum unity gain.</p><p>Input Impedance: 30 , 00o ohms actively balanced Source Impedance: 600 ohms ess, balanced Common Mode Rejection Ratio: Greater than dB Hz 15 kHz Corrmon Mode Voltage: voits peak maximum. Output Level dBm nominal equiva ent voltage into summing networks dBm   maximum equiva en t voltage Output Impedance: 30 , 000 ohms actively balanced for program circuits 60, 00o ohms actively balanced for cue circuits.</p><p>Load Impedance Less than 0.5 onm current summing nodes . Channel Separation: dB from Hz KHz . Phasing: Input and Output terminals designated by numbers are phase, lower number numbered pair phase with lower number other numbered pairs Power Requirements: +/-25 volts dc MA _</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P004%20-%201-1.jpg">1985 - M490N - P004 - 1-1.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Technical Data — 28 words · 1985 - M490N - P005 - 1-2.jpg, page 1</summary><p>M49ON STEREO INPUT MODULE Ambient Temperature: degrees Celsius Dimensions: 60&quot; wide 14.15&quot; high 6.50&quot; deep (41 Mm 360 Mm 165 mm / Weight: Ibs (1.10 kg) net. 1-2</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P005%20-%201-2.jpg">1985 - M490N - P005 - 1-2.jpg</a>, p. 1</li>
+</ul>
+<h3>Parts list (text) (2)</h3>
+<details><summary>Parts List — 112 words · 1985 - M490N - P016 - 5-1.jpg, page 1</summary><p>M49ON STEREO INPUT MODULE PART DESCRIPT ION MFG MFG PARI_NUMBER ATT1 Attenuator P&amp;G 550/4H35/100 Capacitor 2.2 uF/35 uF/ 35 33 uF /10 UF/35 uF/10 Kemet T390C225M035AS T390A 104M035AS 3900336M010AS 390A 105MO35AS 3900336M01045 pF PF UF/10 uF/10 uF/100 Philips 2222-638-34479 Kemet T3900336M010A5 Sprague 1CIOXZRIO4MOSOB uF/100 uF/40 uF/40 2.2 uF/35 LF/ 35 C12 C13 Philips L26ETG47 Keme&quot; T390C225M035AS 390A 0LMO3SAS C15 uF/10 uF / 35 uF/10 3900336M010AS T390A O5m035AS T3900336M010AS 2222-638-34479 C19 Cz0 Philips UF/10 uF/10 uF/100 uF/100 uF/ 40 Kemet T3900336M01045 C23 Sprague 1CIOXZRIOGMOSOB C25 Philips 426ETG47 uF/40 UF / 35 uF/35 uF/35 uF/35 Kemet T390A 104M035AS T390A105M035AS 4.7 uF/10 uF / 35 uF/25 2.2 uF/35 T390B475M010AS T390A 105M03545 T390E476M025A5 T390C225M035A5 C34 5-1</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P016%20-%205-1.jpg">1985 - M490N - P016 - 5-1.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Parts List — 104 words · 1985 - M490N - P019 - 5-4.jpg, page 1</summary><p>M49ON STEREO INPUT MQDULE PART DESCRIPLON MFG MFG PART_NUMBER R11 R12 R13 R1L R15 Resistor 1/4w  5%6 10K 1SK 15K 15k 47k Philips R16 R17 R18 R19 R2o 15k 20k 100 100 2.2 Potentiometer Resistor I/4w 5% Piher Philips PTIOV z0k R21 R22 R23 R24 R25 2.2 delete Resistor 1/LW 2.2 Philips R26 R27 R28 R29 2K4 2K4 Sk Poten tiometer part R66 A&amp;B WBS 10-023 R30 R31 R32 R33 R34 Resistor V/4w   1%6 15k 15K 1SK 15k 15K Philips R35 R36 R37 R38 R39 15k Resi tor 1/Lw 5%6 30k 30k 2k2 2k2 R4O R4i R42 R43 R4b 100k 470k 1M 1M 10K</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20P019%20-%205-4.jpg">1985 - M490N - P019 - 5-4.jpg</a>, p. 1</li>
+</ul>
+<h2>Drawings (12)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Drawn by</a></th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>14-120-02-001</td>
+<td>Common Common Spec Ified Last Component Designa</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%2014-120-02-001%20-%20COMMON%20COMMON%20SPEC%20IFIED%20LAST%20COMPONENT%20DESIGNA.jpg">file</a></td>
+</tr>
+<tr>
+<td>14-120-02-001</td>
+<td>Unless Otherwise Specified Iodes Are</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%2014-120-02-001%20-%20UNLESS%20OTHERWISE%20SPECIFIED%20IODES%20ARE.jpg">file</a></td>
+</tr>
+<tr>
+<td>14-120-06-001</td>
+<td>Stereo Preamplifier Component Layout</td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%2014-120-06-001%20-%20STEREO%20PREAMPLIFIER%20COMPONENT%20LAYOUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>490-01-014</td>
+<td>Offx On/Start Timer Reset Off Tally Off</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-01-014%20-%20OFFX%20ON-START%20TIMER%20RESET%20OFF%20TALLY%20OFF.jpg">file</a></td>
+</tr>
+<tr>
+<td>490-01-014</td>
+<td>Stereo Input Module Func Tional</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-01-014%20-%20STEREO%20INPUT%20MODULE%20FUNC%20TIONAL.jpg">file</a></td>
+</tr>
+<tr>
+<td>490-02-014</td>
+<td>Stereo Input Module Schematic</td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-02-014%20-%20STEREO%20INPUT%20MODULE%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>490-02-014</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-02-014.jpg">file</a></td>
+</tr>
+<tr>
+<td>490-04-028</td>
+<td>Stereo Input Module Module Layout</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-04-028%20-%20STEREO%20INPUT%20MODULE%20MODULE%20LAYOUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>490-04-028</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-04-028.jpg">file</a></td>
+</tr>
+<tr>
+<td>490-06-024</td>
+<td>Aux Pre/Post On/Off</td>
+<td></td>
+<td></td>
+<td></td>
+<td>3</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-06-024%20-%20AUX%20PRE-POST%20ON-OFF.jpg">file</a></td>
+</tr>
+<tr>
+<td>490-06-024</td>
+<td>Stereo Input Module Component Layout</td>
+<td></td>
+<td></td>
+<td></td>
+<td>3</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490N/1985%20-%20M490N%20-%20490-06-024%20-%20STEREO%20INPUT%20MODULE%20COMPONENT%20LAYOUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 14-120-02-001</td>
+<td>SA14-120 STEREO PREAMPLIFIER / SCHEMATIC</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=PHOTOS/Drawings/19xx%20-%2014-120-02-001%20-%20SA14-120%20STEREO%20PREAMPLIFIER%20SCHEMATIC%20-%20ISS%201.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M490N&quot;,
+ &quot;name&quot;: &quot;Stereo Input Module&quot;,
+ &quot;category&quot;: &quot;INPUT-PRE-AMPS&quot;,
+ &quot;year&quot;: 1985,
+ &quot;connections&quot;: {
+  &quot;from&quot;: &quot;RTO-144 sheet&quot;,
+  &quot;inputs&quot;: [
+   &quot;Mic in A&quot;,
+   &quot;Mic in B&quot;,
+   &quot;Insert Return&quot;
+  ],
+  &quot;outputs&quot;: [
+   &quot;Left PGRM 1&quot;,
+   &quot;Right PGRM 1&quot;,
+   &quot;Insert Send&quot;
+  ],
+  &quot;power&quot;: [
+   &quot;VEE-AUDIO&quot;,
+   &quot;VCC-AUDIO&quot;
+  ],
+  &quot;control&quot;: []
+ },
+ &quot;made_of&quot;: [
+  &quot;4-120&quot;,
+  &quot;SA14-120&quot;
+ ],
+ &quot;part_of&quot;: [
+  &quot;R1400-R2400-sales&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - 14-120-02-001 - COMMON COMMON SPEC IFIED LAST COMPONENT DESIGNA.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - 14-120-02-001 - UNLESS OTHERWISE SPECIFIED IODES ARE.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - 14-120-06-001 - STEREO PREAMPLIFIER COMPONENT LAYOUT.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - 490-01-014 - OFFX ON-START TIMER RESET OFF TALLY OFF.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - 490-01-014 - STEREO INPUT MODULE FUNC TIONAL.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - 490-02-014 - STEREO INPUT MODULE SCHEMATIC.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - 490-02-014.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - 490-04-028 - STEREO INPUT MODULE MODULE LAYOUT.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - 490-04-028.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - 490-06-024 - AUX PRE-POST ON-OFF.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - 490-06-024 - STEREO INPUT MODULE COMPONENT LAYOUT.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P001 - Title Page.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P002.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P003.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P004 - 1-1.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P005 - 1-2.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P006 - 2-1.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P007 - 2-2.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P008 - 3-1.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P009 - 3-2.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P010 - 3-3.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P011 - 4-1.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P012 - 4-2.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P013 - 4-3.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P014 - 4-4.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P015 - 4-5.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P016 - 5-1.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P017 - 5-2.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P018 - 5-3.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P019 - 5-4.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P020 - 5-5.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P021 - 5-6.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P022 - 5-7.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P023 - 5-8.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P024 - 6-1.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P025 - 6-2.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P030.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P032 - SA14-120 - 1-1.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P033 - SA14-120 - 1-2.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P034 - SA14-120 - 2-1.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P035 - SA14-120 - 2-2.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P036 - SA14-120 - 2-3.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P037 - SA14-120 - 2-4.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P038 - SA14-120 - 2-5.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - P039 - SA14-120 - 2-6.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - Stereo Input Module (2).pdf&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 46,
+   &quot;holds&quot;: [
+    &quot;connections&quot;,
+    &quot;dates&quot;,
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1985 - M490N - Stereo Input Module.pdf&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 46,
+   &quot;holds&quot;: [
+    &quot;connections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490N/1988 - M490N - P031 - SA14-120.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;PHOTOS/Drawings/19xx - 14-120-02-001 - SA14-120 STEREO PREAMPLIFIER SCHEMATIC - ISS 1.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../../../_catalog/wbs_reels.js" defer></script><script src="../../../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../../../_catalog/libcontrol/libcontrol.css"><script src="../../../_catalog/libcontrol/react.js"></script><script src="../../../_catalog/libcontrol/react-dom.js"></script><script src="../../../_catalog/libcontrol/libcontrol.js"></script><script src="../../../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M490N.md</small></div></article><script src="../../../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

@@ -1,0 +1,114 @@
+# 1995 - 950362-03-001 - METER PANEL (6 X EDGEWISE) - DRN DRG - ISS 1.jpg
+Wiki page: [Job-950362](../../../PAGES/Job-950362.md)
+
+
+- **Year:** 1995 (title block date)
+- **Job / serial number:** 950362
+- **Project:** —
+
+## Title block (found by software, read by eye)
+
+- **Drawing:** D 950362-03-001
+- **Size:** D
+- **Title:** METER PANEL / (6 X EDGEWISE)
+- **Date:** NOV95
+- **Drawn:** DRG(NOV95)
+- **Issue:** 1
+- **Confidence:** high
+
+- **Original file:** `WBSps.env/WBS Photos-1-001/2021-3-16-23-48-25.jpg`
+- **SHA-256:** `bf6fc047760784ba0793eb729db8495e873579d6eaa26f9855cd25c723c379d6`
+- **Size:** 506,347 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 1 words corrected)
+
+```text
+17.110
+0.172 DiA MILL Q.080 DEEP OTHER SIDE INSERT 'PEV" 40= 1 PLACES
+16.710
+PITCHES
+7.555
+15.110
+0.200
+0.680
+3.360 2.960
+2.000
+PITCHES OF 2.000
+10.000
+3.555
+DETAIL
+6 REQ'D
+600
+0.656
+0.328
+1260
+0.937
+MATERIAL: ALUM ALLOY 0.125 THICK.
+875
+2.520
+FINISH: SAND 120 GRIT AND PAINT TEXTURED GREY TEXCOTE VINYL:
+REMSION
+ISSUE
+WBS
+WARD-BECK SYSTEMS
+NOTE. REMOVE ALL BURRS AND SHARP EDGES; TOLERANCES: XX-+/-0.015 XXX-+/-0.005
+ORN: DRC(NOV95) ENG. CKD_
+DETAIL
+0.11] "PDM: finseRO ERI_FROV_2"RE 'REQ TUDE
+METER PANEL X EDGEWISE)
+SSUE
+SCALE DISC_ND: SYSO CODE: 95362m01
+950362-03-001
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+17.110
+0.172 DiA MILL Q.080 DEEP OTHER SIDE INSERT 'PEV" 40= 1 PLACES
+16.710
+PITCHES
+7.555
+15.110
+0.200
+0.680
+3.360 2.960
+2.000
+PITCHES OF 2.000
+10.000
+3.555
+DETAIL
+6 REQ'D
+600
+0.656
+0.328
+1260
+0.937
+MATERIAL: ALUM ALLOY 0.125 THICK.
+875
+2.520
+FINISH: SAND 120 GRIT AND PAINT TEXTURED GREY TEXCOTE VINYL:
+REMSION
+ISSUE
+WBS
+WARD-BECK SYSTEMS
+NOTE. REMOVE ALL BURRS AND SHARP EDCES; TOLERANCES: XX-+/-0.015 XXX-+/-0.005
+ORN: DRC(NOV95) ENG. CKD_
+DETAIL
+0.11] "PDM: finseRO ERI_FROV_2"RE 'REQ TUDE
+METER PANEL X EDGEWISE)
+SSUE
+SCALE DISC_ND: SYSO CODE: 95362m01
+950362-03-001
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"Consoles/1990-1999/950362/1995 - 950362-03-001 - METER PANEL (6 X EDGEWISE) - DRN DRG - ISS 1.jpg","sha256":"bf6fc047760784ba0793eb729db8495e873579d6eaa26f9855cd25c723c379d6","kind":"job","models":["950362"],"year":1995,"pages":1,"order":[{"page":1,"title_block":[{"number":"D 950362-03-001","type":"wiring","title":"METER PANEL / (6 X EDGEWISE)","date":"NOV95","year":1995,"issue":"1"}],"text":["17.1o 540-1","7.555 15.110","3,555 DETAIL REQ'D","0,600","MATERIAL: ALUM ALLOY 0.125 ThICK:","FINISH: SAND 120 GRIT AND PAINT","TEXTURED CREY    TEXCOTE VINYL.","WBS WARD-BECK SYSTEMS","TOLER\"NCES METER PANEL","DETAIL (6 X EDGEWISE)","950362-03-001","(CCOE: 95382M01"]}],"drawing":{"svg":"_traces/bf6fc047760784ba.svg","viewBox":[2000,1280],"rotate":0,"size":"D","number":"D 950362-03-001","title":"METER PANEL / (6 X EDGEWISE)","dtype":"03","outlines":"see _traces/bf6fc047760784ba.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/bf6fc047760784ba.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[950,282,"17.1o"],[1592,287,"540-1"],[962,345,"7.555"],[1008,345,"15.110"],[560,673,"3,555"],[1379,686,"DETAIL"],[1501,684,"REQ'D"],[935,880,"0,600"],[246,1086,"MATERIAL:"],[324,1084,"ALUM ALLOY 0.125"],[461,1081,"ThICK:"],[246,1116,"FINISH:"],[301,1114,"SAND"],[346,1114,"120 GRIT AND"],[449,1111,"PAINT"],[304,1129,"TEXTURED CREY    TEXCOTE"],[484,1126,"VINYL."],[1614,1154,"WBS"],[1721,1149,"WARD-BECK SYSTEMS"],[265,1175,"TOLER\"NCES"],[951,1196,"DETAIL"],[1741,1191,"METER"],[1801,1189,"PANEL"],[1731,1209,"(6 X EDGEWISE)"],[1756,1241,"950362-03-001"],[1634,1249,"(CCOE: 95382M01"]]}}
+```

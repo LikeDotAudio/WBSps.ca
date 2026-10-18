@@ -1,0 +1,35 @@
+{
+ "code": "M450B",
+ "series": null,
+ "type": "M450B",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "I1",
+   "signal": "Input",
+   "dir": "in",
+   "pos": "I1P",
+   "neg": "I1N",
+   "src_page": 13
+  }
+ ],
+ "power": [
+  {
+   "rail": "+24V",
+   "volts": 24.0,
+   "supply": "+24V",
+   "ground": "GND",
+   "max_a": null
+  }
+ ],
+ "logic": [],
+ "ground": [],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "03f637fcb72c5f546c684b5cdb07c7379bf39389bfe901e29d7224336a448b16"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."
+}

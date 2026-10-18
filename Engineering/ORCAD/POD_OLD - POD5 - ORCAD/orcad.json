@@ -1,0 +1,919 @@
+{
+ "name": "POD_OLD/POD5/ORCAD",
+ "folder": "POD_OLD - POD5 - ORCAD",
+ "source": "WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - POD_OLD/POD5/ORCAD",
+ "title": "POD 5 - DUAL HEADSET AMPLIFIER",
+ "number": "C 14-314-02-001/1",
+ "date": "February 22, 1996",
+ "sheets": [
+  {
+   "title": "POD 5 - DUAL HEADSET AMPLIFIER",
+   "number": "C 14-314-02-001/1",
+   "date": "February 22, 1996",
+   "company": [
+    "WARD-BECK SYSTEMS LTD.",
+    "841 PROGRESS AVENUE",
+    "SCARBOROUGH, ONTARIO, CANADA",
+    "M1H 2X4"
+   ],
+   "parts": [
+    {
+     "ref": "C3",
+     "value": "0.1/50",
+     "x": 890,
+     "y": 470
+    },
+    {
+     "ref": "C7",
+     "value": "0.1/50",
+     "x": 790,
+     "y": 820
+    },
+    {
+     "ref": "C8",
+     "value": "0.1/50",
+     "x": 890,
+     "y": 1080
+    },
+    {
+     "ref": "C10",
+     "value": "0.1/50",
+     "x": 1330,
+     "y": 440
+    },
+    {
+     "ref": "C11",
+     "value": "0.1/50",
+     "x": 1650,
+     "y": 570
+    },
+    {
+     "ref": "C12",
+     "value": "0.1/50",
+     "x": 1330,
+     "y": 1050
+    },
+    {
+     "ref": "C13",
+     "value": "0.1/50",
+     "x": 1650,
+     "y": 1180
+    },
+    {
+     "ref": "Q1",
+     "value": "TIP30",
+     "x": 1540,
+     "y": 540
+    },
+    {
+     "ref": "Q2",
+     "value": "TIP29",
+     "x": 1540,
+     "y": 440
+    },
+    {
+     "ref": "Q3",
+     "value": "TIP29",
+     "x": 1540,
+     "y": 1050
+    },
+    {
+     "ref": "Q4",
+     "value": "TIP30",
+     "x": 1540,
+     "y": 1150
+    },
+    {
+     "ref": "C19",
+     "value": "0.1/50",
+     "x": 230,
+     "y": 1290
+    },
+    {
+     "ref": "C20",
+     "value": "0.1/50",
+     "x": 1310,
+     "y": 1230
+    },
+    {
+     "ref": "C21",
+     "value": "0.1/50",
+     "x": 790,
+     "y": 210
+    },
+    {
+     "ref": "J5",
+     "value": "XLR3-31",
+     "x": 130,
+     "y": 1130
+    },
+    {
+     "ref": "C26",
+     "value": "0.1/50",
+     "x": 1320,
+     "y": 620
+    }
+   ],
+   "labels": [
+    {
+     "text": "TKBK",
+     "x": 590,
+     "y": 1050
+    },
+    {
+     "text": "TKBK",
+     "x": 480,
+     "y": 580
+    },
+    {
+     "text": "TKBK",
+     "x": 630,
+     "y": 1440
+    },
+    {
+     "text": "VL",
+     "x": 350,
+     "y": 1280
+    }
+   ],
+   "ports": [
+    {
+     "text": "TKBKC",
+     "x": 260,
+     "y": 1410
+    },
+    {
+     "text": "TKBK-",
+     "x": 470,
+     "y": 1330
+    },
+    {
+     "text": "TKBK+",
+     "x": 470,
+     "y": 1360
+    },
+    {
+     "text": "TKBK",
+     "x": 790,
+     "y": 1390
+    },
+    {
+     "text": "B+",
+     "x": 1420,
+     "y": 1010
+    },
+    {
+     "text": "B-",
+     "x": 1420,
+     "y": 1230
+    },
+    {
+     "text": "B+",
+     "x": 1430,
+     "y": 380
+    },
+    {
+     "text": "B-",
+     "x": 1420,
+     "y": 620
+    },
+    {
+     "text": "VL",
+     "x": 80,
+     "y": 1280
+    },
+    {
+     "text": "VEE",
+     "x": 710,
+     "y": 190
+    },
+    {
+     "text": "VCC",
+     "x": 960,
+     "y": 480
+    },
+    {
+     "text": "VEE",
+     "x": 710,
+     "y": 800
+    },
+    {
+     "text": "VCC",
+     "x": 950,
+     "y": 1090
+    },
+    {
+     "text": "VDD",
+     "x": 1380,
+     "y": 1240
+    },
+    {
+     "text": "VSS",
+     "x": 1390,
+     "y": 1040
+    },
+    {
+     "text": "VDD",
+     "x": 1380,
+     "y": 630
+    },
+    {
+     "text": "VSS",
+     "x": 1390,
+     "y": 430
+    }
+   ],
+   "sheets": [
+    "POD5A.SCH",
+    "POD5B.SCH"
+   ],
+   "file": "POD5.SCH"
+  },
+  {
+   "title": "POD 5 - DUAL HEADSET AMPLIFIER",
+   "number": "C 14-314-02-001",
+   "date": "February 22, 1996",
+   "company": [
+    "WARD-BECK SYSTEMS LTD.",
+    "841 PROGRESS AVENUE",
+    "SCARBOROUGH, ONTARIO, CANADA",
+    "M1H 2X4"
+   ],
+   "parts": [
+    {
+     "ref": "C28",
+     "value": "0.1/50",
+     "x": 890,
+     "y": 470
+    },
+    {
+     "ref": "C29",
+     "value": "220/10",
+     "x": 1070,
+     "y": 420
+    },
+    {
+     "ref": "C32",
+     "value": "0.1/50",
+     "x": 790,
+     "y": 820
+    },
+    {
+     "ref": "C33",
+     "value": "0.1/50",
+     "x": 890,
+     "y": 1080
+    },
+    {
+     "ref": "C34",
+     "value": "220/10",
+     "x": 1070,
+     "y": 1030
+    },
+    {
+     "ref": "C35",
+     "value": "0.1/50",
+     "x": 1330,
+     "y": 440
+    },
+    {
+     "ref": "C36",
+     "value": "0.1/50",
+     "x": 1650,
+     "y": 570
+    },
+    {
+     "ref": "U10",
+     "value": "NE5534",
+     "x": 1350,
+     "y": 1090
+    },
+    {
+     "ref": "C37",
+     "value": "0.1/50",
+     "x": 1330,
+     "y": 1050
+    },
+    {
+     "ref": "C38",
+     "value": "0.1/50",
+     "x": 1650,
+     "y": 1180
+    },
+    {
+     "ref": "Q5",
+     "value": "TIP30",
+     "x": 1540,
+     "y": 540
+    },
+    {
+     "ref": "Q6",
+     "value": "TIP29",
+     "x": 1540,
+     "y": 440
+    },
+    {
+     "ref": "Q7",
+     "value": "TIP29",
+     "x": 1540,
+     "y": 1050
+    },
+    {
+     "ref": "Q8",
+     "value": "TIP30",
+     "x": 1540,
+     "y": 1150
+    },
+    {
+     "ref": "C41",
+     "value": "0.1/50",
+     "x": 1320,
+     "y": 1240
+    },
+    {
+     "ref": "C42",
+     "value": "0.1/50",
+     "x": 740,
+     "y": 210
+    },
+    {
+     "ref": "C48",
+     "value": "0.1/50",
+     "x": 1320,
+     "y": 620
+    }
+   ],
+   "labels": [
+    {
+     "text": "VSS",
+     "x": 1390,
+     "y": 430
+    },
+    {
+     "text": "VSS",
+     "x": 1390,
+     "y": 1040
+    },
+    {
+     "text": "VCC",
+     "x": 960,
+     "y": 480
+    },
+    {
+     "text": "VDD",
+     "x": 1380,
+     "y": 1250
+    },
+    {
+     "text": "VCC",
+     "x": 950,
+     "y": 1090
+    },
+    {
+     "text": "VEE",
+     "x": 740,
+     "y": 800
+    },
+    {
+     "text": "VDD",
+     "x": 1380,
+     "y": 630
+    },
+    {
+     "text": "VEE",
+     "x": 760,
+     "y": 190
+    },
+    {
+     "text": "TKBKB",
+     "x": 590,
+     "y": 1050
+    },
+    {
+     "text": "TKBKB",
+     "x": 620,
+     "y": 1430
+    },
+    {
+     "text": "TKBKB",
+     "x": 480,
+     "y": 580
+    }
+   ],
+   "ports": [
+    {
+     "text": "TKBK-",
+     "x": 340,
+     "y": 1230
+    },
+    {
+     "text": "TKBK+",
+     "x": 340,
+     "y": 1280
+    },
+    {
+     "text": "TKBK",
+     "x": 470,
+     "y": 1050
+    },
+    {
+     "text": "B+",
+     "x": 1420,
+     "y": 1010
+    },
+    {
+     "text": "B-",
+     "x": 1420,
+     "y": 1230
+    },
+    {
+     "text": "B-",
+     "x": 1420,
+     "y": 620
+    },
+    {
+     "text": "B+",
+     "x": 1430,
+     "y": 380
+    },
+    {
+     "text": "VL",
+     "x": 610,
+     "y": 580
+    }
+   ],
+   "sheets": [],
+   "file": "POD5A.SCH"
+  },
+  {
+   "title": "POD 5 - DUAL HEADSET AMPLIFIER",
+   "number": "B 14-314-02-001/3",
+   "date": "November 30, 1995",
+   "company": [
+    "WARD-BECK SYSTEMS LTD.",
+    "841 PROGRESS AVENUE",
+    "SCARBOROUGH, ONTARIO, CANADA",
+    "M1H 2X4"
+   ],
+   "parts": [
+    {
+     "ref": "D10",
+     "value": "1N4003",
+     "x": 500,
+     "y": 380
+    },
+    {
+     "ref": "D11",
+     "value": "1N4003",
+     "x": 500,
+     "y": 430
+    },
+    {
+     "ref": "C54",
+     "value": "0.1/50",
+     "x": 1210,
+     "y": 580
+    },
+    {
+     "ref": "C55",
+     "value": "0.1/50",
+     "x": 1340,
+     "y": 430
+    },
+    {
+     "ref": "J12",
+     "value": "CON6",
+     "x": 120,
+     "y": 180
+    },
+    {
+     "ref": "D14",
+     "value": "1N4003",
+     "x": 550,
+     "y": 380
+    },
+    {
+     "ref": "D15",
+     "value": "1N4003",
+     "x": 550,
+     "y": 430
+    },
+    {
+     "ref": "Q13",
+     "value": "2N3906",
+     "x": 1080,
+     "y": 520
+    },
+    {
+     "ref": "Q12",
+     "value": "2N3904",
+     "x": 1080,
+     "y": 400
+    },
+    {
+     "ref": "Q11",
+     "value": "2N3904",
+     "x": 1300,
+     "y": 370
+    },
+    {
+     "ref": "Q10",
+     "value": "2N6731",
+     "x": 800,
+     "y": 360
+    },
+    {
+     "ref": "Q9",
+     "value": "2N6730",
+     "x": 800,
+     "y": 480
+    }
+   ],
+   "labels": [],
+   "ports": [
+    {
+     "text": "TKBKC",
+     "x": 230,
+     "y": 190
+    },
+    {
+     "text": "B-",
+     "x": 640,
+     "y": 290
+    },
+    {
+     "text": "B+",
+     "x": 640,
+     "y": 310
+    },
+    {
+     "text": "VDD",
+     "x": 970,
+     "y": 330
+    },
+    {
+     "text": "VSS",
+     "x": 970,
+     "y": 460
+    },
+    {
+     "text": "VCC",
+     "x": 1240,
+     "y": 400
+    },
+    {
+     "text": "VEE",
+     "x": 1240,
+     "y": 520
+    },
+    {
+     "text": "VL",
+     "x": 1360,
+     "y": 370
+    }
+   ],
+   "sheets": [],
+   "file": "POD5B.SCH"
+  }
+ ],
+ "netlists": [],
+ "boms": [
+  {
+   "file": "POD5.BOM",
+   "header": [
+    "POD 5 - DUAL HEADSET AMPLIFIER                Revised:  November  1, 1995",
+    "C 14-314-02-001/1                             Revision: 1",
+    "Bill Of Materials             November    1, 1995     12:12:58     Page    1"
+   ],
+   "items": [
+    {
+     "item": 1,
+     "qty": 14,
+     "refs": "C1,C2,C5,C6,C15,C16,C17,C18,C27,C30,C31,C39,C40,C49",
+     "part": "47/50"
+    },
+    {
+     "item": 2,
+     "qty": 23,
+     "refs": "C3,C7,C8,C10,C11,C12,C13,C19,C20,C21,C26,C28,C32,C33,C35,C36,C37,C38,C41,C42,C48,C54,C55",
+     "part": "0.1/50"
+    },
+    {
+     "item": 3,
+     "qty": 4,
+     "refs": "C4,C9,C29,C34",
+     "part": "220/10"
+    },
+    {
+     "item": 4,
+     "qty": 2,
+     "refs": "C14,C47",
+     "part": "0.01"
+    },
+    {
+     "item": 5,
+     "qty": 8,
+     "refs": "C22,C23,C24,C25,C43,C44,C45,C46",
+     "part": "22P"
+    },
+    {
+     "item": 6,
+     "qty": 4,
+     "refs": "C50,C51,C52,C53",
+     "part": "10/25"
+    },
+    {
+     "item": 7,
+     "qty": 2,
+     "refs": "C56,C57",
+     "part": "1000/63"
+    },
+    {
+     "item": 8,
+     "qty": 1,
+     "refs": "C58",
+     "part": "680/63"
+    },
+    {
+     "item": 9,
+     "qty": 1,
+     "refs": "DS1",
+     "part": "RED"
+    },
+    {
+     "item": 10,
+     "qty": 13,
+     "refs": "D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D14,D15",
+     "part": "1N4003"
+    },
+    {
+     "item": 11,
+     "qty": 2,
+     "refs": "D12,D13",
+     "part": "1N4748"
+    },
+    {
+     "item": 12,
+     "qty": 2,
+     "refs": "F1,F2",
+     "part": "MDL 1/2"
+    },
+    {
+     "item": 13,
+     "qty": 4,
+     "refs": "JP4,JP5,JP6,JP7",
+     "part": "BERG-6"
+    },
+    {
+     "item": 14,
+     "qty": 4,
+     "refs": "J3,J4,J5,J10",
+     "part": "XLR3-31"
+    },
+    {
+     "item": 15,
+     "qty": 2,
+     "refs": "J6,J9",
+     "part": "SN49B-12B"
+    },
+    {
+     "item": 16,
+     "qty": 1,
+     "refs": "J11",
+     "part": "CON4"
+    },
+    {
+     "item": 17,
+     "qty": 1,
+     "refs": "J12",
+     "part": "CON6"
+    },
+    {
+     "item": 18,
+     "qty": 1,
+     "refs": "P1",
+     "part": "BERG-3"
+    },
+    {
+     "item": 19,
+     "qty": 4,
+     "refs": "P2,P3,P4,P5",
+     "part": "1502-2"
+    },
+    {
+     "item": 20,
+     "qty": 1,
+     "refs": "P6",
+     "part": "CON3"
+    },
+    {
+     "item": 21,
+     "qty": 4,
+     "refs": "Q1,Q4,Q5,Q8",
+     "part": "TIP30"
+    },
+    {
+     "item": 22,
+     "qty": 4,
+     "refs": "Q2,Q3,Q6,Q7",
+     "part": "TIP29"
+    },
+    {
+     "item": 23,
+     "qty": 1,
+     "refs": "Q9",
+     "part": "2N6730"
+    },
+    {
+     "item": 24,
+     "qty": 1,
+     "refs": "Q10",
+     "part": "2N6731"
+    },
+    {
+     "item": 25,
+     "qty": 2,
+     "refs": "Q11,Q12",
+     "part": "2N3904"
+    },
+    {
+     "item": 26,
+     "qty": 1,
+     "refs": "Q13",
+     "part": "2N3906"
+    },
+    {
+     "item": 27,
+     "qty": 8,
+     "refs": "R1,R9,R31,R32,R50,R58,R80,R81",
+     "part": "100K 1%"
+    },
+    {
+     "item": 28,
+     "qty": 4,
+     "refs": "R2,R10,R51,R59",
+     "part": "8K25 1%"
+    },
+    {
+     "item": 29,
+     "qty": 4,
+     "refs": "R3,R11,R52,R60",
+     "part": "7K5 1%"
+    },
+    {
+     "item": 30,
+     "qty": 4,
+     "refs": "R4,R12,R53,R61",
+     "part": "2K"
+    },
+    {
+     "item": 31,
+     "qty": 6,
+     "refs": "R5,R13,R46,R48,R54,R62",
+     "part": "100K"
+    },
+    {
+     "item": 32,
+     "qty": 4,
+     "refs": "R6,R14,R55,R63",
+     "part": "8K2"
+    },
+    {
+     "item": 33,
+     "qty": 5,
+     "refs": "R7,R15,R56,R64,R99",
+     "part": "6K8"
+    },
+    {
+     "item": 34,
+     "qty": 4,
+     "refs": "R8,R16,R57,R65",
+     "part": "4K3"
+    },
+    {
+     "item": 35,
+     "qty": 6,
+     "refs": "R17,R24,R35,R66,R73,R84",
+     "part": "150K"
+    },
+    {
+     "item": 36,
+     "qty": 7,
+     "refs": "R18,R25,R67,R74,R95,R96,R98",
+     "part": "15K"
+    },
+    {
+     "item": 37,
+     "qty": 9,
+     "refs": "R19,R20,R26,R27,R68,R69,R75,R76,R92",
+     "part": "4K7"
+    },
+    {
+     "item": 38,
+     "qty": 8,
+     "refs": "R21,R22,R28,R29,R70,R71,R77,R78",
+     "part": "2R2 1W"
+    },
+    {
+     "item": 39,
+     "qty": 4,
+     "refs": "R23,R30,R72,R79",
+     "part": "100"
+    },
+    {
+     "item": 40,
+     "qty": 12,
+     "refs": "R33,R34,R36,R37,R38,R39,R82,R83,R85,R86,R87,R88",
+     "part": "33K2 1%"
+    },
+    {
+     "item": 41,
+     "qty": 1,
+     "refs": "R40",
+     "part": "2K2"
+    },
+    {
+     "item": 42,
+     "qty": 2,
+     "refs": "R41,R42",
+     "part": "33K"
+    },
+    {
+     "item": 43,
+     "qty": 1,
+     "refs": "R43",
+     "part": "10K"
+    },
+    {
+     "item": 44,
+     "qty": 4,
+     "refs": "R44,R45,R89,R90",
+     "part": "13K"
+    },
+    {
+     "item": 45,
+     "qty": 2,
+     "refs": "R47,R91",
+     "part": "10-072"
+    },
+    {
+     "item": 46,
+     "qty": 1,
+     "refs": "R49",
+     "part": "20K"
+    },
+    {
+     "item": 47,
+     "qty": 2,
+     "refs": "R93,R94",
+     "part": "270 3W"
+    },
+    {
+     "item": 48,
+     "qty": 2,
+     "refs": "R97,R101",
+     "part": "7K5"
+    },
+    {
+     "item": 49,
+     "qty": 1,
+     "refs": "R100",
+     "part": "91K"
+    },
+    {
+     "item": 50,
+     "qty": 1,
+     "refs": "R102",
+     "part": "10K 3W"
+    },
+    {
+     "item": 51,
+     "qty": 1,
+     "refs": "T1",
+     "part": "229C56"
+    },
+    {
+     "item": 52,
+     "qty": 4,
+     "refs": "U1,U2,U9,U10",
+     "part": "NE5534"
+    },
+    {
+     "item": 53,
+     "qty": 4,
+     "refs": "U3,U4,U8,U11",
+     "part": "LM833"
+    },
+    {
+     "item": 54,
+     "qty": 6,
+     "refs": "U5,U6,U7,U12,U13,U14",
+     "part": "4053"
+    }
+   ]
+  }
+ ],
+ "libraries": [
+  "POD5.LIB"
+ ]
+}

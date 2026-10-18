@@ -1,0 +1,222 @@
+# 1975 - B 9315 - 60-4 INPUT TRANSFORMER - DRN D.M'FARLANE - ISS 1 (2).jpg
+Wiki page: [Consoles](../../PAGES/Consoles.md)
+
+
+- **Year:** 1975 (title block date)
+- **Type:** drawing / photo from WBS Photos-1-001
+
+## Title block (found by software, read by eye)
+
+- **Drawing:** B 9315
+- **Size:** B
+- **Title:** 60-4 INPUT TRANSFORMER
+- **Date:** 1 DEC. 75
+- **Drawn:** D.M'FARLANE
+- **Checked:** RWW
+- **Issue:** 1
+- **Confidence:** high
+
+- **Original file:** `WBSps.env/WBS Photos-1-001/IMG_1103.JPG`
+- **SHA-256:** `2a163ad27abd09f8276df968aba20775e17e72c85d0fa327c10c88e11dcf03bf`
+- **Size:** 1,708,511 bytes
+- **Pages:** 1
+
+## Dates found in this file
+
+- **1975** (labelled): `DATE DEC. 75` — …SULATED FRom CASE WBS WARD-BECK ByBTEMB LTD. DRN UM FarLaNe DATE DEC. 75 60-4 inpuT CKD_ TRANSFORMER An SCALE I :1 TOLS _ Z 3 9715 I…
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 7 words corrected)
+
+```text
+SPECIFICATIOnS
+0 1.22
+06 2.27
+PRIMARY :
+150/600 0 #5%
+2 .
+SECONDARY :
+1000
++5%
+3 .
+NO DC CURRENT FLOWS In PR/ . OR SEC _
+DC RES INSTANCE:
+5% OF PR/ .
+SEC. IMPEDANCE
+INSERT ON Loss
+LESS THAN 0.5 dB POWER LEVEL
+kHz
+20 dBm INPUT
+1*015 1.712
+FREQUENCY RESPONSE
+*0.2 dB 20 kHz LEVEL
+20 Hz AND Within +0.15 dB 30 Hz To 20 dBm DOWN To - 70 dBm INPUT POWER
+0o T*
+DI STORTION:
+LESS THAN 0.39 20 Hz AND 0.15% 30 Hz To 20 kHz -20 dBm   DOWN To -60 dBm INPUT POWER LEVEL LESS THAN 50 50 Hz To 15 kHz
+8 _
+PHASE SHIFT:
+9 .
+TEST VOLTAGE :
+250 VDC
+48 DIA: ( GROMMET )
+2 STvDs 86*72 LNC, 2A, 77 LG
+10 _
+Winding CONF IGURAT ION:
+SUCH AS To GIVE REJECTiON To LoNG TUD I NAL NOiSE AND HUM ON PRI . (SEE F |G. 2)
+FIG ; 1.
+11 .
+PRI SOURCE IMPEDANCE:
+150/600
+12.
+SEC . LOAD IMPEDANCE :
+GREATER THAN 10 TIMES SEC . IMPEDANCE (10k 0) To 60"c
+13.
+TEMPERATURE RANGE
+Brown
+RED
+14.
+MounTinG:
+SEE FIG.
+INTERNAL
+ND /NG MOI SURE PROOF
+15. SHIELDING
+MU METAL CASE, ELECTROSTATIC SHIELD, INSULATED CORE AND WiND NG CONF |DURATION 6" TEFLON LEADS COLOR AS PER FIG. 2) BLACK ENAMEL
+Pri.
+Orange YELLOW
+450/600n
+SEC. i00o n
+16
+CONNECTiONS:
+17 _
+FiniSH:
+BLACK
+GREEN
+VIOLET ELECTROSTATIC SHIELD
+WHITE
+core
+IISSMMoD Tcko:
+USED ON
+MATL .
+FIG, 2 _
+NoTE CORE InSULATED FRom CASE
+WBS WARD-BECK ByBTEMB LTD. DRN UM FarLaNe DATE DEC. 75 60-4 inpuT CKD_ TRANSFORMER An SCALE I :1 TOLS _ Z 3 9715 IsS_
+FINISH
+TRANSTEX I0 23049 74
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+SPECIFICATIOnS
+0 1.22
+06 2.27
+PRIMARY :
+150/600 0 #5%
+2 .
+SECONDARY :
+1000
++5%
+3 .
+NO DC CURRENT FLOWS In PR/ . OR SEC _
+DC RES ISTANCE:
+5% OF PR/ .
+SEC. IMPEDANCE
+INSERTI ON Loss
+LESS THAN 0.5 dB POWER LEVEL
+kHz
+20 dBm INPUT
+1*015 1.712
+FREQUENCY RESPONSE
+*0.2 dB 20 kHz LEVEL
+20 Hz AND Within +0.15 dB 30 Hz To 20 dBm DOWN To - 70 dBm INPUT POWER
+0o T*
+DI STORTION:
+LESS THAN 0.39 20 Hz AND 0.15% 30 Hz To 20 kHz -20 dBm   DOWN To -60 dBm INPUT POWER LEVEL LESS THAN 50 50 Hz To 15 kHz
+8 _
+PHASE SHIFT:
+9 .
+TEST VOLTAGE :
+250 VDC
+48 DIA: ( GROMMET )
+2 STvDs 86*72 LNC, 2A, 77 LG
+10 _
+Winding CONF IGURAT ION:
+SUCH AS To GIVE REJECTiON To LoNG TUD I NAL NOiSE AND HUM ON PRI . (SEE F |G. 2)
+FIG ; 1.
+11 .
+PRI SOURCE IMPEDANCE:
+150/600
+12.
+SEC . LOAD IMPEDANCE :
+GREATER THAN 10 TIMES SEC . IMPEDANCE (10k 0) To 60"c
+13.
+TEMPERATURE RANGE
+Brown
+RED
+14.
+MounTinG:
+SEE FIG.
+INTERNAL
+ND /NG MOI STURE PROOF
+15. SHIELDING
+MU METAL CASE, ELECTROSTATIC SHIELD, INSULATED CORE AND WiND NG CONF |GURATION 6" TEFLON LEADS COLOR AS PER FIG. 2) BLACK ENAMEL
+Pri.
+OpanGE YELLOW
+450/600n
+SEC. i00o n
+16
+CONNECTiONS:
+17 _
+FiniSH:
+BLACK
+GZEEN
+VIOLET ELECTROSTATIC SHIELD
+WHITE
+core
+IISSMMoD Tcko:
+USED ON
+MATL .
+FIG, 2 _
+NoTE CORE InSULATED FRom CASE
+WBS WARD-BECK ByBTEMB LTD. DRN UM FarLaNe DATE DEC. 75 60-4 inpuT CKD_ TRANSFORMER An SCALE I :1 TOLS _ Z 3 9715 IsS_
+FFINISH
+TRANSTEX I0 23049 74
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{
+ "file": "PHOTOS/Drawings/1975 - B 9315 - 60-4 INPUT TRANSFORMER - DRN D.M'FARLANE - ISS 1 (2).jpg",
+ "sha256": "2a163ad27abd09f8276df968aba20775e17e72c85d0fa327c10c88e11dcf03bf",
+ "kind": "photo",
+ "year": 1975,
+ "pages": 1,
+ "order": [
+  {
+   "page": 1,
+   "title_block": [
+    {
+     "number": "B 9315",
+     "title": "60-4 INPUT TRANSFORMER",
+     "date": "1 DEC. 75",
+     "year": 1975,
+     "checked": "RWW",
+     "issue": "1"
+    }
+   ],
+   "dates": [
+    {
+     "year": 1975,
+     "kind": "labelled",
+     "text": "DATE DEC. 75"
+    }
+   ]
+  }
+ ]
+}
+```

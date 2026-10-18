@@ -1,0 +1,28 @@
+{
+  "source": "/home/anthony/Documents/GitProjects/WBSps.ca/WBSps.env/WBSps Engineering from H drive/WBSps - POD_OLD/POD4/14-306.PCB",
+  "kicad_pcb": "/home/anthony/Documents/GitProjects/WBSps.ca/2026/Engineering/PCB/14-306 - POD4 DUAL MICROPHONE PRAMPLIFIER/14-306.kicad_pcb",
+  "format": "Tango-PCB PLUS V2.02 Series II",
+  "edge_layer": 14,
+  "tango_layers_used": {
+    "0": 686,
+    "1": 726,
+    "4": 164,
+    "8": 1390,
+    "9": 1,
+    "10": 4,
+    "11": 1,
+    "14": 22,
+    "16": 384,
+    "18": 28
+  },
+  "counts": {
+    "components": 201,
+    "pads": 556,
+    "tracks": 1402,
+    "vias": 44,
+    "graphics": 1777,
+    "texts": 206,
+    "pours": 21
+  },
+  "nets": null
+}

@@ -1,0 +1,38 @@
+# 1992 - M433 - 14-060-06-001 - AMPLIFIER ASSEMBLY COMPONENT LAYOUT.jpg
+Wiki page: [M433](../../../PAGES/M433.md)
+
+
+- **Year:** 1992 (module estimate (manual_issue))
+- **Module:** M433
+- **Category:** METER
+- **Module year estimate:** 1992 — manual_issue "MANUAL ISSUE #Z April 9, 1992" in PUBLIC/Manuals + tech DOCUMENTS/METERING/M433---M434---Peak-Program-Meter/M433-434 - P001 - Title Page.jpg
+- **Original file:** `WBSps.env/wbsps - website ARCHIVE/WBSPS 2008/RAW SCANS/Done/Done - M433-434 - Peak Program Meter/M433-434 - P019 - B-14-060-06-001 L.jpg`
+- **SHA-256:** `5d0107b361b7047f27ef998324b6cc1458037d5795772e1289bd246751245a87`
+- **Size:** 304,583 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR)
+
+```text
+SENSITIVITY STRAP
+150 OHMS
+600 OHMS
+SV 0 0 StrAp
+THLD * SET2* SET 3k SET 0 SET 5* SET 6 * SET T 28 @8 2& 8 E88 E Ea? ZNss04 2 ZNss04 9 ZN61s04 8 ZNss]a 2 ZN5s04 1 ZNSs04 81 01 03 05 06 Ana_a3356 Eaee Jnaeee4 4 421-141813121338134 22328 8882839 2 828402282043 824222928 #FF1-1-IFIZI 9 3jg13418610 5 44 8 8 RLFJZSBN 8 U3 2222488 43 T #LezszeN 8 1 1 1 CAL ZNS906 R65 10 2 P1 330 3Z50 E8k SFI ZN3904 8 8 3oll 08et 14 4@1 UI 3 LFSSSBN 29 8 2828 2 4 2 2 14-060 3 ISSUE 3 47/16
+OdBm
++4dBm
++8dBm
++14dBm
+WBS WARD-BECK SYSTEMS
+SA14-060 PPM AMPLIFIER ASSEMBLY COMPONENT LAYOUT
+B 14-060-06-001
+ISS:
+```
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/METER/M433/1992 - M433 - 14-060-06-001 - AMPLIFIER ASSEMBLY COMPONENT LAYOUT.jpg","sha256":"5d0107b361b7047f27ef998324b6cc1458037d5795772e1289bd246751245a87","kind":"module","models":["M433"],"year":1992,"pages":1,"order":[{"page":1,"title_block":[{"number":"14-060-06-001","type":"component layout","title":"Amplifier Assembly Component Layout","issue":"7"}],"text":["SENSITIVITY STRAP","150 OHMS 600_QHMS","Sv8 THLD * SET 2k SET 3k SET 4* SET 5 * SET SET","OdBm STRAP 0 E E3 Ed8 Ex","2 9 3 2 3","80329 8","+4dBm II","8 U2 8 43","ILFSSSBN LFSSSBN 8","I","CAL ZN3906 R65","+8dBm P1 3jo 3Z51","BB 10 8 2N3904 8","441 29","(LFSSSBNI 8 38282","2 2","14-060","ISSUE 47/16","+14dBm","WBS WARD-BECK SYSTEMS","SA14-060","PPM AMPLIFIER ASSEMBL Y","COMPONENT LAYOUT","B 14-060-06-001 ISS."]}],"drawing":{"svg":"_traces/5d0107b361b7047f.svg","viewBox":[1875,1344],"rotate":0,"number":"14-060-06-001","title":"Amplifier Assembly Component Layout","dtype":"06","outlines":"see _traces/5d0107b361b7047f.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[186,162,"SENSITIVITY"],[328,159,"STRAP"],[58,220,"150"],[115,220,"OHMS"],[412,223,"600_QHMS"],[1070,278,"Sv8"],[1153,267,"THLD *"],[1249,269,"SET 2k"],[1350,269,"SET 3k"],[1451,272,"SET 4*"],[1554,272,"SET 5 *"],[1652,272,"SET"],[1754,268,"SET"],[260,295,"OdBm"],[1070,301,"STRAP 0"],[1469,307,"E3"],[1570,307,"Ed8"],[1673,307,"Ex"],[1243,425,"80329"],[1706,448,"II"],[253,457,"+4dBm"],[1433,526,"U2"],[1729,540,"43"],[1405,540,"ILFSSSBN"],[1649,545,"LFSSSBN"],[1063,599,"CAL"],[1590,592,"ZN3906"],[1714,596,"R65"],[252,615,"+8dBm"],[1487,615,"P1"],[1684,613,"3jo 3Z51"],[1060,639,"BB"],[1354,625,"10"],[1703,634,"2N3904"],[1040,681,"441"],[1226,677,"29"],[1131,685,"(LFSSSBNI"],[1604,700,"38282"],[1056,707,"2 2"],[1336,729,"14-060"],[1719,739,"47/16"],[1338,755,"ISSUE"],[246,778,"+14dBm"],[1235,1092,"WBS"],[1389,1090,"WARD-BECK"],[1616,1094,"SYSTEMS"],[1425,1148,"SA14-060"],[1301,1186,"PPM"],[1376,1188,"AMPLIFIER"],[1533,1188,"ASSEMBL Y"],[1341,1228,"COMPONENT"],[1530,1228,"LAYOUT"],[1207,1281,"B 14-060-06-001"],[1688,1279,"ISS."]]}}
+```

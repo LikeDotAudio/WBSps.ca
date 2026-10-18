@@ -1,0 +1,573 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>DJG</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>DJG</h1>
+<p><a href="People.html">← People</a></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Initials</td>
+<td>DJG</td>
+</tr>
+<tr>
+<td>Name</td>
+<td>unknown — add to timelines/people.json</td>
+</tr>
+<tr>
+<td>Note</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Drawings</td>
+<td>53</td>
+</tr>
+<tr>
+<td>Roles</td>
+<td>drawn</td>
+</tr>
+<tr>
+<td>Active (dated drawings)</td>
+<td>1968–1971</td>
+</tr>
+<tr>
+<td>Projects</td>
+<td><a href="Job-121.html">121</a>, <a href="Job-441.html">441</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Drawings</h2>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="People.html#drawing-staff">Drawn by</a></th>
+<th><a href="People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>B 144-06-002</td>
+<td>COMPONENT LAYOUT OF M144 FROM M402A EQUALIZER (EQUALIZER SECTION)</td>
+<td><a href="Year-1968.html">1968|1</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M144/1968%20-%20144-06-002%20-%20COMPONENT%20LAYOUT%20OF%20M144%20FROM%20M402A%20EQUALIZER%20%28EQUALIZER%20SECTION%29%20-%20DRN%20DJG%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 144-06-002</td>
+<td>COMPONENT LAYOUT OF M144 FROM M402A EQUALIZER (EQUALIZER SECTION)</td>
+<td><a href="Year-1968.html">1968|1</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M144/1968%20-%20144-06-002%20-%20COMPONENT%20LAYOUT%20OF%20M144%20FROM%20M402A%20EQUALIZER%20%28EQUALIZER%20SECTION%29%20-%20DRN%20DJG%20-%20ISS%201%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B M128-06-003</td>
+<td>COMPONENT LAYOUT OF M128 FOR M402A EQUALIZER (AMPLIFIER SECTION)</td>
+<td><a href="Year-1968.html">1968|1</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/POWER/M128/1968%20-%20M128-06-003%20-%20COMPONENT%20LAYOUT%20OF%20M128%20FOR%20M402A%20EQUALIZER%20%28AMPLIFIER%20SECTION%29%20-%20DRN%20DJG%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B M128-06-003</td>
+<td>COMPONENT LAYOUT OF M128 FOR M402A EQUALIZER (AMPLIFIER SECTION)</td>
+<td><a href="Year-1968.html">1968|1</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/POWER/M128/1968%20-%20M128-06-003%20-%20COMPONENT%20LAYOUT%20OF%20M128%20FOR%20M402A%20EQUALIZER%20%28AMPLIFIER%20SECTION%29%20-%20DRN%20DJG%20-%20ISS%201%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>420-03-003</td>
+<td>Symmetrical Aboot E'S Unless Stated</td>
+<td><a href="Year-1969.html">1969|2</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td><a href="Person-KN.html">KN</a></td>
+<td>44</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M420/1969%20-%20M420%20-%20DOC%20-%20420-03-003%20-%20SYMMETRICAL%20ABOOT%20E%27S%20UNLESS%20STATED.jpg">file</a></td>
+</tr>
+<tr>
+<td>420-04-001</td>
+<td>Given Angles Min Bend Rad</td>
+<td><a href="Year-1969.html">1969|2</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M420/1969%20-%20M420%20-%20DOC%20-%20420-04-001%20-%20GIVEN%20ANGLES%20MIN%20BEND%20RAD.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 146-06-010</td>
+<td>M406 B COMPRESSOR / M146 LAYOUT</td>
+<td><a href="Year-1969.html">1969|2</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M146/1969%20-%20146-06-010%20-%20M406%20B%20COMPRESSOR%20M146%20LAYOUT%20-%20DRN%20DJG%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 146-06-010</td>
+<td>M406 B COMPRESSOR / M146 LAYOUT</td>
+<td><a href="Year-1969.html">1969|2</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>5</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M146/1969%20-%20146-06-010%20-%20M406%20B%20COMPRESSOR%20M146%20LAYOUT%20-%20DRN%20DJG%20-%20ISS%205.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 146-06-010</td>
+<td>M406 B COMPRESSOR / M146 LAYOUT</td>
+<td><a href="Year-1969.html">1969|2</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>5</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M146/1969%20-%20146-06-010%20-%20M406%20B%20COMPRESSOR%20M146%20LAYOUT%20-%20DRN%20DJG%20-%20ISS%205.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 147-06-010</td>
+<td>M406B COMRESSOR / M147 COMPONENT LAYOUT</td>
+<td><a href="Year-1969.html">1969|2</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M147/1969%20-%20147-06-010%20-%20M406B%20COMRESSOR%20M147%20COMPONENT%20LAYOUT%20-%20DRN%20DJG%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 147-06-010</td>
+<td>M406B COMRESSOR / M147 COMPONENT LAYOUT</td>
+<td><a href="Year-1969.html">1969|2</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M147/1969%20-%20147-06-010%20-%20M406B%20COMRESSOR%20M147%20COMPONENT%20LAYOUT%20-%20DRN%20DJG%20-%20ISS%206.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 147-06-010</td>
+<td>M406B COMRESSOR / M147 COMPONENT LAYOUT</td>
+<td><a href="Year-1969.html">1969|2</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M147/1969%20-%20147-06-010%20-%20M406B%20COMRESSOR%20M147%20COMPONENT%20LAYOUT%20-%20DRN%20DJG%20-%20ISS%206.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 158-06-003</td>
+<td>COMPONENT LAYOUT / M158</td>
+<td><a href="Year-1969.html">1969|2</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M158/1969%20-%20158-06-003%20-%20COMPONENT%20LAYOUT%20M158%20-%20DRN%20DJG%20-%20ISS%206.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 406-02-010</td>
+<td>M406B COMPRESSOR / SCHEMATIC</td>
+<td><a href="Year-1969.html">1969|2</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>5</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M406/1969%20-%20406-02-010%20-%20M406B%20COMPRESSOR%20SCHEMATIC%20-%20DRN%20DJG%20-%20ISS%205.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 406-02-013</td>
+<td>M406B COMPRESSOR / SCHEMATIC / CEILING CONTROL MODIFIED</td>
+<td><a href="Year-1969.html">1969|2</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M406/1969%20-%20406-02-013%20-%20M406B%20COMPRESSOR%20SCHEMATIC%20CEILING%20CONTROL%20MODIFIED%20-%20DRN%20DJG%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 406-02-014</td>
+<td>M406C COMPRESSOR / SCHEMATIC</td>
+<td><a href="Year-1969.html">1969|2</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M406/1969%20-%20406-02-014%20-%20M406C%20COMPRESSOR%20SCHEMATIC%20-%20DRN%20DJG%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 420-03-003</td>
+<td>SWITCH MTG BRKT / M 420</td>
+<td><a href="Year-1969.html">1969|2</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M420/1969%20-%20420-03-003%20-%20SWITCH%20MTG%20BRKT%20M%20420%20-%20DRN%20DJG%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 421-03-002</td>
+<td>SWITCH MTG BRKT / M421</td>
+<td><a href="Year-1969.html">1969|2</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M421/1969%20-%20421-03-002%20-%20SWITCH%20MTG%20BRKT%20M421%20-%20DRN%20DJG%20-%20ISS%203.png">file</a></td>
+</tr>
+<tr>
+<td>B M128 06 001</td>
+<td>COMPONENT LAYOUT M128 / FOR M404 EQUALIZER</td>
+<td><a href="Year-1969.html">1969|2</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>7</td>
+<td><a href="../viewer.html?f=Modules/POWER/M128/1969%20-%20M128-06-001%20-%20COMPONENT%20LAYOUT%20M128%20FOR%20M404%20EQUALIZER%20-%20DRN%20DJG%20-%20ISS%207.jpg">file</a></td>
+</tr>
+<tr>
+<td>B M128 06 001</td>
+<td>COMPONENT LAYOUT M128 / FOR M404 EQUALIZER</td>
+<td><a href="Year-1969.html">1969|2</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>7</td>
+<td><a href="../viewer.html?f=Modules/POWER/M128/1969%20-%20M128-06-001%20-%20COMPONENT%20LAYOUT%20M128%20FOR%20M404%20EQUALIZER%20-%20DRN%20DJG%20-%20ISS%207%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Requir Wita Jum Shorting</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M468/1970%20-%20M468%20-%208X1%20High%20level%20Switcher.pdf">file</a> p.9</td>
+</tr>
+<tr>
+<td>402-02-012</td>
+<td>Lpe Min Bend Rad Uness Specified</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1968%20-%20M402%20-%20402-02-012%20-%20LPE%20MIN%20BEND%20RAD%20UNESS%20SPECIFIED.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 174-02-001</td>
+<td>M721 TO M727 / I/C CROSSPOINTS / SCHEMATIC</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td><a href="Person-RB.html">RB (Rodger Beck)</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M174/1970%20-%20174-02-001%20-%20M721%20TO%20M727%20I%20C%20CROSSPOINTS%20SCHEMATIC%20-%20DRN%20DJG%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 178-06-001</td>
+<td>PC178 COMPONENT LAYOUT</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M178/1970%20-%20178-06-001%20-%20PC178%20COMPONENT%20LAYOUT%20-%20DRN%20DJG%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 181-06-003</td>
+<td>PC181 / COMPONENT LAYOUT</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M181/1970%20-%20181-06-003%20-%20PC181%20COMPONENT%20LAYOUT%20-%20DRN%20DJG.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 181-06-003</td>
+<td>PC181 / COMPONENT LAYOUT</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M181/1970%20-%20181-06-003%20-%20PC181%20COMPONENT%20LAYOUT%20-%20DRN%20DJG%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 182-06-001</td>
+<td>PC182 / COMPONENT LAYOUT</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>5</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M182/1970%20-%20182-06-001%20-%20PC182%20COMPONENT%20LAYOUT%20-%20DRN%20DJG%20-%20ISS%205.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 402-02-011</td>
+<td>M402A AND M404A / EQUALIZER / PLUG CONNECTIONS</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1970%20-%20402-02-011%20-%20M402A%20AND%20M404A%20EQUALIZER%20PLUG%20CONNECTIONS%20-%20DRN%20DJG%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 402-02-012</td>
+<td>M402A AND M404A / SYSTEM WIRING</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1970%20-%20402-02-012%20-%20M402A%20AND%20M404A%20SYSTEM%20WIRING%20-%20DRN%20DJG%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 402-02-012</td>
+<td>M402A(B) &amp; M404A / SYSTEM WIRING</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td><a href="Person-DPS.html">DPS</a></td>
+<td>5</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1970%20-%20402-02-012%20-%20M402A%28B%29%20%26%20M404A%20SYSTEM%20WIRING%20-%20DRN%20DJG%20-%20ISS%205.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 406-02-011</td>
+<td>M406B COMPRESSOR / PLUG CONNECTIONS</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M406/1970%20-%20406-02-011%20-%20M406B%20COMPRESSOR%20PLUG%20CONNECTIONS%20-%20DRN%20DJG%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 406-02-011</td>
+<td>M406B COMPRESSOR / PLUG CONNECTIONS</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M406/1970%20-%20406-02-011%20-%20M406B%20COMPRESSOR%20PLUG%20CONNECTIONS%20-%20DRN%20DJG%20-%20ISS%202%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 406-02-011</td>
+<td>M406B COMPRESSOR / PLUG CONNECTIONS</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M406/1970%20-%20406-02-011%20-%20M406B%20COMPRESSOR%20PLUG%20CONNECTIONS%20-%20DRN%20DJG%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 406-02-012</td>
+<td>M406B COMPRESSOR / SYSTEM WIRING</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M406/1970%20-%20406-02-012%20-%20M406B%20COMPRESSOR%20SYSTEM%20WIRING%20-%20DRN%20DJG%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 406-02-012</td>
+<td>M406B COMPRESSOR / SYSTEM WIRING</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M406/1970%20-%20406-02-012%20-%20M406B%20COMPRESSOR%20SYSTEM%20WIRING%20-%20DRN%20DJG%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 406-02-012</td>
+<td>M406B COMPRESSOR / SYSTEM WIRING</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M406/1970%20-%20406-02-012%20-%20M406B%20COMPRESSOR%20SYSTEM%20WIRING%20-%20DRN%20DJG%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 441-02-002</td>
+<td>M441A / INPUT MODULE / SCHEMATIC</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1970%20-%20441-02-002%20-%20M441A%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20DJG.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 468-02-002</td>
+<td>M468 8 WAY / RELAY SWITCHER / SCHEMATIC</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td><a href="Person-RG.html">RG</a></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M468/1970%20-%20468-02-002%20-%208%20WAY%20RELAY%20SWITCHER%20SCHEMATIC%20-%20DRN%20DJG%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 468-?</td>
+<td>M468 / RELAY SWI... / SCHEMATIC</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td><a href="Person-RG.html">RG</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M468/1970%20-%20B%20468%20-%20RELAY%20SWI...%20SCHEMATIC%20-%20DRN%20DJG.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 648-02-002</td>
+<td>M648A / POWER SUPPLY SCHMATIC</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td><a href="Person-RB.html">RB (Rodger Beck)</a></td>
+<td>4</td>
+<td><a href="../viewer.html?f=Modules/POWER/M648/1970%20-%20648-02-002%20-%20M648A%20POWER%20SUPPLY%20SCHMATIC%20-%20DRN%20DJG%20-%20ISS%204.png">file</a></td>
+</tr>
+<tr>
+<td>B 703-02-001</td>
+<td>INTERCOM 701, 702, 703 INPUT OUTPUT AMP PIN CONNECTIONS &amp; STRAPPING</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td><a href="Person-AL.html">AL</a></td>
+<td>4</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/1970%20-%20703-02-001%20-%20INTERCOM%20701%2C%20702%2C%20703%20INPUT%20OUTPUT%20AMP%20PIN%20CONNECTIONS%20%26%20STRAPPING%20-%20DRN%20DJG%20-%20ISS%204.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 703-06-001</td>
+<td>M703 / I/C PRE &amp; OUTPUT AMPLIFIER / LAYOUT</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td><a href="Person-RM.html">RM</a></td>
+<td>4</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/1970%20-%20703-06-001%20-%20I%20C%20PRE%20%26%20OUTPUT%20AMPLIFIER%20LAYOUT%20-%20DRN%20DJG%20-%20ISS%204.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 441-03-008</td>
+<td>ESCUTCHEON / (INPUT MODULE)</td>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-008%20-%20ESCUTCHEON%20%28INPUT%20MODULE%29%20-%20DRN%20DJG%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 441-03-009</td>
+<td>SWITCH PLATE / (INPUT MODULE)</td>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441/1971%20-%20441-03-009%20-%20SWITCH%20PLATE%20%28INPUT%20MODULE%29%20-%20DRN%20DJG%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Schematic Ceiling Control Modified</td>
+<td></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M406B/1969%20-%20M406B%20-%20SCHEMATIC%20CEILING%20CONTROL%20MODIFIED.png">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Requin Mith Jum Shorting Relays</td>
+<td></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td><a href="Person-REL.html">REL</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M468/1970%20-%20M468%20-%20468-02-002%20-%20IRZE%20MIMBEND%20RADUNLESS%20SPEC.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Grit Clear Alodine Materia</td>
+<td></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td><a href="Person-RA.html">RA</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/19xx%20-%20M402A%20-%20DOC%20-%20GRIT%20CLEAR%20ALODINE%20MATERIA.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Igro Recx Sysies Ltu Mte Dec</td>
+<td></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M406B/1969%20-%20M406B%20-%20IGRO%20RECX%20SYSIES%20LTU%20MTE%20DEC.png">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Ful Sizu Tigac Iard Eck Svstems Lid Switch</td>
+<td></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M420/1969%20-%20M420%20-%20DOC%20-%20FUL%20SIZU%20TIGAC%20IARD%20ECK%20SVSTEMS%20LID%20SWITCH.png">file</a></td>
+</tr>
+<tr>
+<td>401-03-004</td>
+<td>Holes Dia</td>
+<td></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td><a href="Person-RI.html">RI</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/METER/M401/19xx%20-%20M401%20-%20DOC%20-%20401-03-004%20-%20HOLES%20DIA.jpg">file</a></td>
+</tr>
+<tr>
+<td>406-02-010</td>
+<td>Stereo Rico</td>
+<td></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M406/1968%20-%20M406%20-%20406-02-010%20-%20STEREO%20RICO.jpg">file</a></td>
+</tr>
+<tr>
+<td>468-02-002</td>
+<td>Irze Mimbend Radunless Spec</td>
+<td></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td><a href="Person-REL.html">REL</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M468/1970%20-%20M468%20-%20468-02-002%20-%20IRZE%20MIMBEND%20RADUNLESS%20SPEC.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 121-02-003</td>
+<td>M121 / REMOTE GAIN AMPLIFIER / SCHEMATIC</td>
+<td></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td><a href="Person-RB.html">RB (Rodger Beck)</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M121/19xx%20-%20121-02-003%20-%20REMOTE%20GAIN%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DJG%20-%20ISS%201.jpg">file</a></td>
+</tr>
+</tbody>
+</table><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from Person-DJG.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

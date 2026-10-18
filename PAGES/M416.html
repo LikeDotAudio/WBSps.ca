@@ -1,0 +1,1173 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M416 — Cue Amplifier Instruction</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>M416 — Cue Amplifier Instruction</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="Category-UNSORTED.html">UNSORTED</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../simulator.html?m=M416">simulator &amp; front panel</a> · <a href="../_packages/M416.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="Year-1973.html">1973|6</a> — title-block date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"DATE 20 April 73" in WBS Photos-1-001/Scan_20210323 (2).jpg</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+</tr>
+<tr>
+<td>Used in jobs</td>
+<td><a href="Job-73050.html">73050</a> (1973|6)</td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210323%20-%20Scans/">DOCUMENTS/RECENT SCANS/WBSps.ca 20210323 - Scans</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../Modules/UNSORTED/M416/index.html">Modules/UNSORTED/M416</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections</h2>
+<p><em>What it is made of and what it is part of.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M416" data-n="Cue Amplifier Instruction" data-cat="UNSORTED"></div><svg class="wbs-panel" data-m="M416" data-n="Cue Amplifier Instruction" data-cat="UNSORTED" role="img" aria-label="M416 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M416","title":"Cue Amplifier Instruction","rto":{"code":"M416","series":null,"type":null,"row_count":null,"impedance":{"out":600},"note":null,"audio":[],"bus_out":[],"bus_in":[],"power":[],"jumpers":[],"logic":[]},"parts":[{"item":"3-102","title":"Cue Amplifier","label":"3-102 Cue Amplifier","href":"Register-Sub-assemblies-n-nnn.html#3-102","note":"Sub-assemblies (n-nnn)"}],"parents":[{"label":"73050","href":"Job-73050.html","note":"T1202"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210323%20-%20Scans/1973%20-%20DOC%20-%2016-03-003%20-%20THICK%20BLACK%20PLEXIGLASS%20TYPE.jpg"><img loading="lazy" src="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210323%20-%20Scans/1973%20-%20DOC%20-%2016-03-003%20-%20THICK%20BLACK%20PLEXIGLASS%20TYPE.jpg" alt="" data-f="DOCUMENTS/RECENT SCANS/WBSps.ca 20210323 - Scans/1973 - DOC - 16-03-003 - THICK BLACK PLEXIGLASS TYPE.jpg" data-size="320" onerror="wbsOff(this)">1973 - DOC - 16-03-003 - THICK BLACK PLEXIGLASS TYPE.jpg</a><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210323%20-%20Scans/1973%20-%20DOC%20-%20416-03-003%20-%20THICK%20BLACK%20PLEXIGLASS%20TYPE.jpg"><img loading="lazy" src="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210323%20-%20Scans/1973%20-%20DOC%20-%20416-03-003%20-%20THICK%20BLACK%20PLEXIGLASS%20TYPE.jpg" alt="" data-f="DOCUMENTS/RECENT SCANS/WBSps.ca 20210323 - Scans/1973 - DOC - 416-03-003 - THICK BLACK PLEXIGLASS TYPE.jpg" data-size="320" onerror="wbsOff(this)">1973 - DOC - 416-03-003 - THICK BLACK PLEXIGLASS TYPE.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20416-03-002%20-%20ESCUTCHEON%20-%20DRN%20DPS%20-%20ISS%201%20%282%29.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20416-03-002%20-%20ESCUTCHEON%20-%20DRN%20DPS%20-%20ISS%201%20%282%29.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - 416-03-002 - ESCUTCHEON - DRN DPS - ISS 1 (2).jpg" data-size="320" onerror="wbsOff(this)">1973 - 416-03-002 - ESCUTCHEON - DRN DPS - ISS 1 (2).jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20416-03-002%20-%20ESCUTCHEON%20-%20DRN%20DPS%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20416-03-002%20-%20ESCUTCHEON%20-%20DRN%20DPS%20-%20ISS%201.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - 416-03-002 - ESCUTCHEON - DRN DPS - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1973 - 416-03-002 - ESCUTCHEON - DRN DPS - ISS 1.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%203-102-06-001%20-%20CUE%20AMPLIFIER%20PCB%20LAYOUT%20-%20DRN%20DGS%20-%20ISS%202.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%203-102-06-001%20-%20CUE%20AMPLIFIER%20PCB%20LAYOUT%20-%20DRN%20DGS%20-%20ISS%202.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - 3-102-06-001 - CUE AMPLIFIER PCB LAYOUT - DRN DGS - ISS 2.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1973 - 3-102-06-001 - CUE AMPLIFIER PCB LAYOUT - DRN DGS - ISS 2.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20416-02-001%20-%20CUE%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DGS%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20416-02-001%20-%20CUE%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DGS%20-%20ISS%201.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - 416-02-001 - CUE AMPLIFIER SCHEMATIC - DRN DGS - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1973 - 416-02-001 - CUE AMPLIFIER SCHEMATIC - DRN DGS - ISS 1.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20416-02-001%20-%20CUE%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DGS%20-%20ISS%202.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20416-02-001%20-%20CUE%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DGS%20-%20ISS%202.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - 416-02-001 - CUE AMPLIFIER SCHEMATIC - DRN DGS - ISS 2.jpg" data-size="320" onerror="wbsOff(this)">1973 - 416-02-001 - CUE AMPLIFIER SCHEMATIC - DRN DGS - ISS 2.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20416-03-003%20-%20SWITCH%20MOUNTING%20PLATE%20-%20DRN%20DPS%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20416-03-003%20-%20SWITCH%20MOUNTING%20PLATE%20-%20DRN%20DPS%20-%20ISS%201.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - 416-03-003 - SWITCH MOUNTING PLATE - DRN DPS - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1973 - 416-03-003 - SWITCH MOUNTING PLATE - DRN DPS - ISS 1.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%201.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20M416%20-%201.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - M416 - 1.jpg" data-size="320" onerror="wbsOff(this)">1973 - M416 - 1.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%2010.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20M416%20-%2010.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - M416 - 10.jpg" data-size="320" onerror="wbsOff(this)">1973 - M416 - 10.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%202.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20M416%20-%202.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - M416 - 2.jpg" data-size="320" onerror="wbsOff(this)">1973 - M416 - 2.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%203-102-06-001%20-%20CJE%20AMPLIFIER.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20M416%20-%203-102-06-001%20-%20CJE%20AMPLIFIER.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - M416 - 3-102-06-001 - CJE AMPLIFIER.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1973 - M416 - 3-102-06-001 - CJE AMPLIFIER.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%203-102-06-001%20-%20CUE%20AMPLIFIER.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20M416%20-%203-102-06-001%20-%20CUE%20AMPLIFIER.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - M416 - 3-102-06-001 - CUE AMPLIFIER.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1973 - M416 - 3-102-06-001 - CUE AMPLIFIER.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%203.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20M416%20-%203.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - M416 - 3.jpg" data-size="320" onerror="wbsOff(this)">1973 - M416 - 3.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%204.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20M416%20-%204.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - M416 - 4.jpg" data-size="320" onerror="wbsOff(this)">1973 - M416 - 4.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20412-02-002.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20M416%20-%20412-02-002.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - M416 - 412-02-002.jpg" data-size="320" onerror="wbsOff(this)">1973 - M416 - 412-02-002.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20412-02-003%20-%20PLACES%20GIVEN%20ANGLES.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20M416%20-%20412-02-003%20-%20PLACES%20GIVEN%20ANGLES.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - M416 - 412-02-003 - PLACES GIVEN ANGLES.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1973 - M416 - 412-02-003 - PLACES GIVEN ANGLES.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20416-02-001%20%282%29.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20M416%20-%20416-02-001%20%282%29.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - M416 - 416-02-001 (2).jpg" data-size="320" onerror="wbsOff(this)">1973 - M416 - 416-02-001 (2).jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20416-02-001.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20M416%20-%20416-02-001.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - M416 - 416-02-001.jpg" data-size="320" onerror="wbsOff(this)">1973 - M416 - 416-02-001.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%205.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20M416%20-%205.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - M416 - 5.jpg" data-size="320" onerror="wbsOff(this)">1973 - M416 - 5.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%206.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20M416%20-%206.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - M416 - 6.jpg" data-size="320" onerror="wbsOff(this)">1973 - M416 - 6.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%207.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20M416%20-%207.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - M416 - 7.jpg" data-size="320" onerror="wbsOff(this)">1973 - M416 - 7.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%208.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20M416%20-%208.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - M416 - 8.jpg" data-size="320" onerror="wbsOff(this)">1973 - M416 - 8.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%209.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20M416%20-%209.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - M416 - 9.jpg" data-size="320" onerror="wbsOff(this)">1973 - M416 - 9.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P1.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20M416%20-%20P1.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - M416 - P1.jpg" data-size="320" onerror="wbsOff(this)">1973 - M416 - P1.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P10.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20M416%20-%20P10.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - M416 - P10.jpg" data-size="320" onerror="wbsOff(this)">1973 - M416 - P10.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P2.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20M416%20-%20P2.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - M416 - P2.jpg" data-size="320" onerror="wbsOff(this)">1973 - M416 - P2.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P3.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20M416%20-%20P3.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - M416 - P3.jpg" data-size="320" onerror="wbsOff(this)">1973 - M416 - P3.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P4.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20M416%20-%20P4.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - M416 - P4.jpg" data-size="320" onerror="wbsOff(this)">1973 - M416 - P4.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P5.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20M416%20-%20P5.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - M416 - P5.jpg" data-size="320" onerror="wbsOff(this)">1973 - M416 - P5.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P6.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20M416%20-%20P6.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - M416 - P6.jpg" data-size="320" onerror="wbsOff(this)">1973 - M416 - P6.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P7.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20M416%20-%20P7.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - M416 - P7.jpg" data-size="320" onerror="wbsOff(this)">1973 - M416 - P7.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P8.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20M416%20-%20P8.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - M416 - P8.jpg" data-size="320" onerror="wbsOff(this)">1973 - M416 - P8.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P9.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/1973%20-%20M416%20-%20P9.jpg" alt="" data-f="Modules/UNSORTED/M416/1973 - M416 - P9.jpg" data-size="320" onerror="wbsOff(this)">1973 - M416 - P9.jpg</a><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210323%20-%20Scans/19xx%20-%20DOC%20-%20Scan_20210323%20%284%29.jpg"><img loading="lazy" src="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210323%20-%20Scans/19xx%20-%20DOC%20-%20Scan_20210323%20%284%29.jpg" alt="" data-f="DOCUMENTS/RECENT SCANS/WBSps.ca 20210323 - Scans/19xx - DOC - Scan_20210323 (4).jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - Scan_20210323 (4).jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/19xx%20-%20M416%20-%20M416%20%282%29.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/19xx%20-%20M416%20-%20M416%20%282%29.jpg" alt="" data-f="Modules/UNSORTED/M416/19xx - M416 - M416 (2).jpg" data-size="320" onerror="wbsOff(this)">19xx - M416 - M416 (2).jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/19xx%20-%20M416%20-%20M416%20Cue%20Amplifier%20Instruction%20Manual%20Index%20%282%29.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/19xx%20-%20M416%20-%20M416%20Cue%20Amplifier%20Instruction%20Manual%20Index%20%282%29.jpg" alt="" data-f="Modules/UNSORTED/M416/19xx - M416 - M416 Cue Amplifier Instruction Manual Index (2).jpg" data-size="320" onerror="wbsOff(this)">19xx - M416 - M416 Cue Amplifier Instruction Manual Index (2).jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/19xx%20-%20M416%20-%20M416%20Cue%20Amplifier%20Instruction%20Manual%20Index.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/19xx%20-%20M416%20-%20M416%20Cue%20Amplifier%20Instruction%20Manual%20Index.jpg" alt="" data-f="Modules/UNSORTED/M416/19xx - M416 - M416 Cue Amplifier Instruction Manual Index.jpg" data-size="320" onerror="wbsOff(this)">19xx - M416 - M416 Cue Amplifier Instruction Manual Index.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M416/19xx%20-%20M416%20-%20M416.jpg"><img loading="lazy" src="../Modules/UNSORTED/M416/19xx%20-%20M416%20-%20M416.jpg" alt="" data-f="Modules/UNSORTED/M416/19xx - M416 - M416.jpg" data-size="320" onerror="wbsOff(this)">19xx - M416 - M416.jpg</a><a href="../viewer.html?f=Consoles/1970-1979/73050%20-%20T1202/1973%20-%2073050%20-%200002.jpeg"><img loading="lazy" src="../Consoles/1970-1979/73050%20-%20T1202/1973%20-%2073050%20-%200002.jpeg" alt="" data-f="Consoles/1970-1979/73050 - T1202/1973 - 73050 - 0002.jpeg" data-size="320" onerror="wbsOff(this)">1973 - 73050 - 0002.jpeg</a><a href="../viewer.html?f=Modules/DYNAMICS/M415/1971%20-%20M415%20-%20416-06-001%20-%20MNSBEREGEABHES%20SEHE%20ANGLES.jpg"><img loading="lazy" src="../Modules/DYNAMICS/M415/1971%20-%20M415%20-%20416-06-001%20-%20MNSBEREGEABHES%20SEHE%20ANGLES.jpg" alt="" data-f="Modules/DYNAMICS/M415/1971 - M415 - 416-06-001 - MNSBEREGEABHES SEHE ANGLES.jpg" data-size="320" onerror="wbsOff(this)">1971 - M415 - 416-06-001 - MNSBEREGEABHES SEHE ANGLES.jpg</a></div>
+
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>title-block date</td>
+<td><code>DATE 20 April 73</code></td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210323%20-%20Scans/1973%20-%20DOC%20-%2016-03-003%20-%20THICK%20BLACK%20PLEXIGLASS%20TYPE.jpg">1973 - DOC - 16-03-003 - THICK BLACK PLEXIGLASS TYPE.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>title-block date</td>
+<td><code>DATE 20 April 73</code></td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210323%20-%20Scans/1973%20-%20DOC%20-%20416-03-003%20-%20THICK%20BLACK%20PLEXIGLASS%20TYPE.jpg">1973 - DOC - 416-03-003 - THICK BLACK PLEXIGLASS TYPE.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>title-block date</td>
+<td><code>DATE 20 April 73</code></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20416-03-002%20-%20ESCUTCHEON%20-%20DRN%20DPS%20-%20ISS%201%20%282%29.jpg">1973 - 416-03-002 - ESCUTCHEON - DRN DPS - ISS 1 (2).jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>title-block date</td>
+<td><code>DATE 20 April 73</code></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20416-03-002%20-%20ESCUTCHEON%20-%20DRN%20DPS%20-%20ISS%201.jpg">1973 - 416-03-002 - ESCUTCHEON - DRN DPS - ISS 1.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>title-block date</td>
+<td><code>DATE 20 April 73</code></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20DOC%20-%2016-03-003%20-%20THICK%20BLACK%20PLEXIGLASS%20TYPE.jpg">1973 - M416 - DOC - 16-03-003 - THICK BLACK PLEXIGLASS TYPE.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>title-block date</td>
+<td><code>DATE 20 April 73</code></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20DOC%20-%20416-03-003%20-%20THICK%20BLACK%20PLEXIGLASS%20TYPE.jpg">1973 - M416 - DOC - 416-03-003 - THICK BLACK PLEXIGLASS TYPE.jpg</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Physical manual inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Location</th>
+<th>Status</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>WB</td>
+<td></td>
+<td>Scanned</td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (42)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210323%20-%20Scans/1973%20-%20DOC%20-%2016-03-003%20-%20THICK%20BLACK%20PLEXIGLASS%20TYPE.jpg">1973 - DOC - 16-03-003 - THICK BLACK PLEXIGLASS TYPE.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210323%20-%20Scans/1973%20-%20DOC%20-%2016-03-003%20-%20THICK%20BLACK%20PLEXIGLASS%20TYPE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210323%20-%20Scans/1973%20-%20DOC%20-%20416-03-003%20-%20THICK%20BLACK%20PLEXIGLASS%20TYPE.jpg">1973 - DOC - 416-03-003 - THICK BLACK PLEXIGLASS TYPE.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210323%20-%20Scans/1973%20-%20DOC%20-%20416-03-003%20-%20THICK%20BLACK%20PLEXIGLASS%20TYPE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%203-102-06-001%20-%20CUE%20AMPLIFIER%20PCB%20LAYOUT%20-%20DRN%20DGS%20-%20ISS%202.jpg">1973 - 3-102-06-001 - CUE AMPLIFIER PCB LAYOUT - DRN DGS - ISS 2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%203-102-06-001%20-%20CUE%20AMPLIFIER%20PCB%20LAYOUT%20-%20DRN%20DGS%20-%20ISS%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20416-02-001%20-%20CUE%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DGS%20-%20ISS%201.jpg">1973 - 416-02-001 - CUE AMPLIFIER SCHEMATIC - DRN DGS - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20416-02-001%20-%20CUE%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DGS%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20416-02-001%20-%20CUE%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DGS%20-%20ISS%202.jpg">1973 - 416-02-001 - CUE AMPLIFIER SCHEMATIC - DRN DGS - ISS 2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20416-02-001%20-%20CUE%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DGS%20-%20ISS%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20416-03-002%20-%20ESCUTCHEON%20-%20DRN%20DPS%20-%20ISS%201%20%282%29.jpg">1973 - 416-03-002 - ESCUTCHEON - DRN DPS - ISS 1 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20416-03-002%20-%20ESCUTCHEON%20-%20DRN%20DPS%20-%20ISS%201%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20416-03-002%20-%20ESCUTCHEON%20-%20DRN%20DPS%20-%20ISS%201.jpg">1973 - 416-03-002 - ESCUTCHEON - DRN DPS - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20416-03-002%20-%20ESCUTCHEON%20-%20DRN%20DPS%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20416-03-003%20-%20SWITCH%20MOUNTING%20PLATE%20-%20DRN%20DPS%20-%20ISS%201.jpg">1973 - 416-03-003 - SWITCH MOUNTING PLATE - DRN DPS - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20416-03-003%20-%20SWITCH%20MOUNTING%20PLATE%20-%20DRN%20DPS%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%201.jpg">1973 - M416 - 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%2010.jpg">1973 - M416 - 10.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%2010.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%202.jpg">1973 - M416 - 2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%203-102-06-001%20-%20CJE%20AMPLIFIER.jpg">1973 - M416 - 3-102-06-001 - CJE AMPLIFIER.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%203-102-06-001%20-%20CJE%20AMPLIFIER.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%203-102-06-001%20-%20CUE%20AMPLIFIER.jpg">1973 - M416 - 3-102-06-001 - CUE AMPLIFIER.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%203-102-06-001%20-%20CUE%20AMPLIFIER.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%203.jpg">1973 - M416 - 3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%203.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%204.jpg">1973 - M416 - 4.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%204.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20412-02-002.jpg">1973 - M416 - 412-02-002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20412-02-002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20412-02-003%20-%20PLACES%20GIVEN%20ANGLES.jpg">1973 - M416 - 412-02-003 - PLACES GIVEN ANGLES.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20412-02-003%20-%20PLACES%20GIVEN%20ANGLES.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20416-02-001%20%282%29.jpg">1973 - M416 - 416-02-001 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20416-02-001%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20416-02-001.jpg">1973 - M416 - 416-02-001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20416-02-001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%205.jpg">1973 - M416 - 5.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%205.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%206.jpg">1973 - M416 - 6.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%206.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%207.jpg">1973 - M416 - 7.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%207.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%208.jpg">1973 - M416 - 8.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%208.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%209.jpg">1973 - M416 - 9.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%209.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20DOC%20-%2016-03-003%20-%20THICK%20BLACK%20PLEXIGLASS%20TYPE.jpg">1973 - M416 - DOC - 16-03-003 - THICK BLACK PLEXIGLASS TYPE.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20DOC%20-%2016-03-003%20-%20THICK%20BLACK%20PLEXIGLASS%20TYPE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20DOC%20-%20416-03-003%20-%20THICK%20BLACK%20PLEXIGLASS%20TYPE.jpg">1973 - M416 - DOC - 416-03-003 - THICK BLACK PLEXIGLASS TYPE.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20DOC%20-%20416-03-003%20-%20THICK%20BLACK%20PLEXIGLASS%20TYPE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P1.jpg">1973 - M416 - P1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P10.jpg">1973 - M416 - P10.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P10.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P2.jpg">1973 - M416 - P2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P3.jpg">1973 - M416 - P3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P4.jpg">1973 - M416 - P4.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P4.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P5.jpg">1973 - M416 - P5.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P5.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P6.jpg">1973 - M416 - P6.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P6.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P7.jpg">1973 - M416 - P7.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P7.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P8.jpg">1973 - M416 - P8.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P8.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P9.jpg">1973 - M416 - P9.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P9.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210323%20-%20Scans/19xx%20-%20DOC%20-%20Scan_20210323%20%284%29.jpg">19xx - DOC - Scan_20210323 (4).jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210323%20-%20Scans/19xx%20-%20DOC%20-%20Scan_20210323%20%284%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/19xx%20-%20M416%20-%20DOC%20-%20Scan_20210323.jpg">19xx - M416 - DOC - Scan_20210323.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/19xx%20-%20M416%20-%20DOC%20-%20Scan_20210323.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/19xx%20-%20M416%20-%20M416%20%282%29.jpg">19xx - M416 - M416 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/19xx%20-%20M416%20-%20M416%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/19xx%20-%20M416%20-%20M416%20Cue%20Amplifier%20Instruction%20Manual%20Index%20%282%29.jpg">19xx - M416 - M416 Cue Amplifier Instruction Manual Index (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/19xx%20-%20M416%20-%20M416%20Cue%20Amplifier%20Instruction%20Manual%20Index%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/19xx%20-%20M416%20-%20M416%20Cue%20Amplifier%20Instruction%20Manual%20Index.jpg">19xx - M416 - M416 Cue Amplifier Instruction Manual Index.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/19xx%20-%20M416%20-%20M416%20Cue%20Amplifier%20Instruction%20Manual%20Index.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/19xx%20-%20M416%20-%20M416.jpg">19xx - M416 - M416.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/19xx%20-%20M416%20-%20M416.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Sub-assemblies &amp; parts used (1)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What</th>
+<th>Family</th>
+<th>Year</th>
+<th>How we know</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#3-102">3-102</a></td>
+<td>Cue Amplifier</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1973|6</td>
+<td>drawing filed with it</td>
+</tr>
+</tbody>
+</table>
+<h2>Parts list — board 3-102 (23 parts)</h2>
+<p><em>From <a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P8.jpg">1973 - M416 - P8.jpg</a>, page 1 (scanned); also in <code>timelines/data/bom.csv</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>Part</th>
+<th>Value</th>
+<th>Manufacturer</th>
+<th>Mfr part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C2</td>
+<td>pEd 10v Ceramic Philips 2222 638</td>
+<td>6 . 8</td>
+<td></td>
+<td>09688</td>
+</tr>
+<tr>
+<td>C3</td>
+<td>mfd 20V Tantalum Dickson D47GSC 20M</td>
+<td>47</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C4</td>
+<td>6.8 pfd 10Ov Ceramic Philips 638</td>
+<td>2222</td>
+<td></td>
+<td>09688</td>
+</tr>
+<tr>
+<td>C5</td>
+<td>mfd 25V Tantalum Dickson D22GSC 2OM</td>
+<td>22</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C6</td>
+<td>nfd 25V Tantalum Dickson D22GSC 20M</td>
+<td>22</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C7</td>
+<td>mfd 25V Tantalum</td>
+<td>22</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C8</td>
+<td>mfd</td>
+<td>22</td>
+<td></td>
+<td>25V Tantalum</td>
+</tr>
+<tr>
+<td>C9</td>
+<td>mfd 25 V Tantalum DLOOGSc 20M</td>
+<td>100</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C13</td>
+<td>mfd 35V Siemens EB</td>
+<td>220</td>
+<td></td>
+<td>220/35</td>
+</tr>
+<tr>
+<td>C14</td>
+<td>mfd 15V EB</td>
+<td>1000</td>
+<td></td>
+<td>1000/15</td>
+</tr>
+<tr>
+<td>C15</td>
+<td>mfd 50V AEC</td>
+<td>0 .22</td>
+<td></td>
+<td>CQ92-MC-50-224M</td>
+</tr>
+<tr>
+<td>CR2</td>
+<td>Diode</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>CR3</td>
+<td>Diode</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>CR4</td>
+<td>Diode</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>CR6</td>
+<td>Diode Fairchild</td>
+<td></td>
+<td></td>
+<td>1N9l4</td>
+</tr>
+<tr>
+<td>CR7</td>
+<td>Diode Motorola</td>
+<td></td>
+<td></td>
+<td>1n4003</td>
+</tr>
+<tr>
+<td>Q1</td>
+<td>NPN Transistor Fairchild</td>
+<td></td>
+<td></td>
+<td>2N3569</td>
+</tr>
+<tr>
+<td>Q2</td>
+<td>NPN Transistor</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Q3</td>
+<td>NPN Transistor</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Q4</td>
+<td>PNP Transistor Texas Inst.</td>
+<td></td>
+<td></td>
+<td>TIP3OB</td>
+</tr>
+<tr>
+<td>Q5</td>
+<td>PNP Transistor Fairchild</td>
+<td></td>
+<td></td>
+<td>2N3645</td>
+</tr>
+<tr>
+<td>C10</td>
+<td>pfd 100v Ceramic Philips 2222 638</td>
+<td>6 . 8</td>
+<td></td>
+<td>09688</td>
+</tr>
+<tr>
+<td>C12</td>
+<td>pfd 10ov Ceramic</td>
+<td>100</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Consoles &amp; jobs it is connected to (1)</h2>
+<p><em>Their own drawings name this module.</em></p>
+<table>
+<thead>
+<tr>
+<th>Job</th>
+<th>Year</th>
+<th>Drawing</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Job-73050.html">73050</a></td>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/73050%20-%20T1202/1973%20-%2073050%20-%200002.jpeg">1973 - 73050 - 0002.jpeg</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (1)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../viewer.html?f=Products/RTO/RTO-144/19xx%20-%20RTO-144%20-%20Module%20RTO-144%20Jumper%20calculator.xlsx">19xx - RTO-144 - Module RTO-144 Jumper calculator.xlsx</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>Specifications (1)</h3>
+<details><summary>Technical Data — 103 words · 1973 - M416 - P3.jpg, page 1</summary><p>Gain: 45 dB (front panel level control provided) Frequency Response: within dB 50Hz to 10kIz . Noise: 75 dB below watts_ Total Harmonic Distortion: Less than 0 . 5% at lkHz at 3watts Output level Source Impedence: 600 ohms or less balanced or unbalanced . Input Impedenace: 20 K ohns Input Level -10 dBm for watts out +18dBm max Load Impedence: ohms Output Impedence: Less than 0.5 ohms Output Level: watts max Power Requirements: 25 to 36v dc unregulated 20 mA idling current 300 mA at full power output_ Ambient Temperature: Oc to 60&quot;c Dimensions: 1.58w X 6.25L X 6D Weight: 75 lbs</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P3.jpg">1973 - M416 - P3.jpg</a>, p. 1</li>
+</ul>
+<h3>Circuit description (2)</h3>
+<details><summary>Circuit Description — 245 words · 1973 - M416 - P4.jpg, page 1</summary><p>The M416 watt cue amplifier provides three 20K  ohm bridging inputs each of Ihich is isolated from one another In addition, sun input is provided which is intended to receive the cue feeds from the M441 input modules 21 and 22 form an actively balanced input which provides the necessary longitudional balance characteristics  The input amplifier is capable of handling an input level up to +l8dBm without over load The amplifier level control is located after the preamplifier _ This control may be extended via pins and 8 to permit the adjustment of the amplifier output level up to distance of 10 feet This external control operates in series with the control located on the module For this external control type of operation , the module level control should remain in the full clockwise position.</p><p>23 forms the driver amplifier for the output power transistor 03 through Q6 _ The output signal is coupled through to pin S _ CR3 to CR6 form the overdrive protection circuit to prevent excessive power dissipation if the amplifier is inadvertently shorted while signal i5 present 01 and Q2 form regulator circuit which provides the bias voltage (approximately 10V to pin of z1 , 22 and 23) The amplifier will operate from nominal 24 to 36 V dc unregulated supply which has the negative side on the common terminal The unregulated dc voltage i5 applied to pin X and fed through fuse Fl and polarity reversing protection diode CRI</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P4.jpg">1973 - M416 - P4.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Circuit Description — 242 words · 1973 - M416 - 4.jpg, page 1</summary><p>The M416 watt cue amplifier provides three 2OK ohm bridging inputs each of which is isolated from one another In addition, sum input is provided which is intended to receive the cue feeds from the M441 input modules z1 and 22 form an actively balanced input which provides the necessary longitudional balance characteristics The input amplifier is capable of handling an input level up to +l8dBm without over load .</p><p>The amplifier level control is located after the preamplifier. This control may be extended via pins and 8 to permit the adjustment of the amplifier output level up to distance of 10 feet This external control operates in series with the control located on the module For this external control type 0f operation, the module level control should remain in the full clockwise position.</p><p>23 forms the driver amplifier for the output power transistor 03 through Q6 _ The output signal is coupled through C to pin S CR3 to CR6 form the overdrive protection circuit to prevent excessive power dissipation if the amplifier is inadvertently shorted while signal is present 01 and Q2 form regulator circuit which provides the bias voltage (approximately 10V to pin of Z1, 22 and 23) The amplifier will operate from nominal 24 to 36 dc unregulated supply which has the negative side on the common terminal The unregulated dc voltage is applied to pin X and fed through fuse Fl and polarity reversing protection diode CRI</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%204.jpg">1973 - M416 - 4.jpg</a>, p. 1</li>
+</ul>
+<h3>Maintenance &amp; alignment (2)</h3>
+<details><summary>Test Procedure — 102 words · 1973 - M416 - 6.jpg, page 1</summary><p>Slowly apply Power and note idling current with no signal applied. This should nominally be 20 to 25 Il 2 check dc voltage at pin should be 12 volts. 0f z1 to 23 _ This voltage 3 , Apply signal and check for maximum gain (45dB) Confirn that the amplifier meets specifications: Gain Frequency Response Noise Distortion 5 The signal to noise ratio should decrease to approximately 85 dB with level control full counter clockwise.</p><p>At 3 watts oueput the supply current is 300 ma Shorting the amplifier output with signal present , the supply current wili rise Wo approximately 860 ma</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%206.jpg">1973 - M416 - 6.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Test Procedure — 103 words · 1973 - M416 - P6.jpg, page 1</summary><p>Slowly apply power and note idling current with no signal applied. This should nominally be 20 to 25 mA 2 check dc voltage at pin should be 12 volts . of 21 to 23_ This voltage 3 Apply signal and check for maximum gain (45dB) 4 Confirm that the amplifier meets specifications: Gain Frequency Response Noise Distortion 5 The signal to noise ratio should decrease to approximately 85 dB with level control full counter clockwise 6 At 3 watts output the supply current is 300 ma Shorting the amplifier output with signal present , the supply current will rise Wo approximately 860 mA</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20P6.jpg">1973 - M416 - P6.jpg</a>, p. 1</li>
+</ul>
+<h3>Parts list (text) (2)</h3>
+<details><summary>Parts List — 184 words · 1973 - M416 - 8.jpg, page 1</summary><p>SIBOL DESCRIPTIOL MFG PART_NUMBER Cl C2 C3 C4 C5 47 mfd 20v Tantalun 6 . 8 pfd 10ov Ceramic 47 mfd 20v7 Tantalum 6.8 pfd 10ov Ceramic 22 mfd 25V7 Tantalun Dickson Philips Dickson Philips Dickson D47CSC 2OM 2222 638 09688 D47CSC 2OM 2222 638 09688 D22GSC 20M C6 C7 C3 C9 C10 22 nfd 25V7 Tantalum 22 nfd 25V Tantalun 22 mfd 25v7 Tantalum 100 mfd 25 Tantalum 6 .</p><p>8 pfd 100v Ceramic Dickson D22GSC 20M DLOOGSC 20M 2222 638 09688 Philips cl1 C12 C13 C14 C15 100 pfc 10OV Ceramic 100 pfd 10ov Ceramic 220 mfd 35v7 1000 mfa 15V 0 . 22 mfd Sov Philips 2222 638 70101 Siemens EB 220/35 EB  1000/15 cQ92-MC-50-224M AEC CRI CR2 CR3 C?4 CRS Diode Diode Diode Diode Diode Fairchild 1N914 CRG CR7 Diode Diode Fairchild 1N914 Motorola 1N4003 01 02 03 04 05 NPN Transistor NPN Transistor NPN Transistor PNP Transistor PNP Transistor Fairchild 2N3569 Texas Inst TIP3OB Fairchild 213645 06 NPN Transistor Texas Inst TIP 29B 21 22 23 Integrated circuit Integrated circuit Integrated Circuit National LM 301 LM 301 LM 301</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%208.jpg">1973 - M416 - 8.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Parts List — 34 words · 1973 - M416 - 7.jpg, page 1</summary><p>SYMBOL DESCRIROX MFG PART NUMBER R12 SK 169 Pozen-ioneter PEC RA5021 528 SK Knob Rogan RBl-SK7-1/4 Fuse Rolder Littelfuse 3400204 Fuse 0575 A5p 312 750 Prizted Cizcuit Board WBS 3-102 Heaz Sic B 416-03-001</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%207.jpg">1973 - M416 - 7.jpg</a>, p. 1</li>
+</ul>
+<h2>Drawings (19)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="People.html#drawing-staff">Drawn by</a></th>
+<th><a href="People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>416-06-001</td>
+<td>Mnsberegeabhes Sehe Angles</td>
+<td><a href="Year-1971.html">1971|4</a></td>
+<td><a href="Person-GP.html">GP</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M415/1971%20-%20M415%20-%20416-06-001%20-%20MNSBEREGEABHES%20SEHE%20ANGLES.jpg">file</a></td>
+</tr>
+<tr>
+<td>16-03-003</td>
+<td>Thick Black Plexiglass Type</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-DP.html">DP</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20DOC%20-%2016-03-003%20-%20THICK%20BLACK%20PLEXIGLASS%20TYPE.jpg">file</a></td>
+</tr>
+<tr>
+<td>3-102-06-001</td>
+<td>Cue Amplifier</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-DGS.html">DGS</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%203-102-06-001%20-%20CUE%20AMPLIFIER.jpg">file</a></td>
+</tr>
+<tr>
+<td>416-03-003</td>
+<td>Thick Black Plexiglass Type</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-DPS.html">DPS</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20DOC%20-%20416-03-003%20-%20THICK%20BLACK%20PLEXIGLASS%20TYPE.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 3-102-06-001</td>
+<td>M416 / CUE AMPLIFIER PCB / LAYOUT</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-DGS.html">DGS</a></td>
+<td><a href="Person-DPS.html">DPS</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%203-102-06-001%20-%20CUE%20AMPLIFIER%20PCB%20LAYOUT%20-%20DRN%20DGS%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 416-02-001</td>
+<td>M416 / CUE AMPLIFIER / SCHEMATIC</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-DGS.html">DGS</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20416-02-001%20-%20CUE%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DGS%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 416-02-001</td>
+<td>M416 / CUE AMPLIFIER / SCHEMATIC</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-DGS.html">DGS</a></td>
+<td><a href="Person-RB.html">RB (Rodger Beck)</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20416-02-001%20-%20CUE%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DGS%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 416-03-002</td>
+<td>M416 / ESCUTCHEON</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-DPS.html">DPS</a></td>
+<td><a href="Person-AF.html">AF</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20416-03-002%20-%20ESCUTCHEON%20-%20DRN%20DPS%20-%20ISS%201%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 416-03-002/2</td>
+<td>M416 / ESCUTCHEON</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-DPS.html">DPS</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20416-03-002%20-%20ESCUTCHEON%20-%20DRN%20DPS%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 416-03-003</td>
+<td>SWITCH MOUNTING PLATE</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-DPS.html">DPS</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20416-03-003%20-%20SWITCH%20MOUNTING%20PLATE%20-%20DRN%20DPS%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>M416</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/19xx%20-%20M416%20-%20M416.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>M416 Cue Amplifier Instruction Manual Index</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/19xx%20-%20M416%20-%20M416%20Cue%20Amplifier%20Instruction%20Manual%20Index.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>M416</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/19xx%20-%20M416%20-%20M416%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>M416 Cue Amplifier Instruction Manual Index</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/19xx%20-%20M416%20-%20M416%20Cue%20Amplifier%20Instruction%20Manual%20Index%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>3-102-06-001</td>
+<td>Cje Amplifier</td>
+<td></td>
+<td></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%203-102-06-001%20-%20CJE%20AMPLIFIER.jpg">file</a></td>
+</tr>
+<tr>
+<td>412-02-002</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20412-02-002.jpg">file</a></td>
+</tr>
+<tr>
+<td>412-02-003</td>
+<td>Places Given Angles</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20412-02-003%20-%20PLACES%20GIVEN%20ANGLES.jpg">file</a></td>
+</tr>
+<tr>
+<td>416-02-001</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20416-02-001.jpg">file</a></td>
+</tr>
+<tr>
+<td>416-02-001</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20416-02-001%20%282%29.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M416&quot;,
+ &quot;name&quot;: &quot;Cue Amplifier Instruction&quot;,
+ &quot;category&quot;: &quot;UNSORTED&quot;,
+ &quot;year&quot;: 1973,
+ &quot;made_of&quot;: [
+  &quot;3-102&quot;
+ ],
+ &quot;part_of&quot;: [
+  &quot;73050&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - 3-102-06-001 - CUE AMPLIFIER PCB LAYOUT - DRN DGS - ISS 2.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - 416-02-001 - CUE AMPLIFIER SCHEMATIC - DRN DGS - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - 416-02-001 - CUE AMPLIFIER SCHEMATIC - DRN DGS - ISS 2.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - 416-03-002 - ESCUTCHEON - DRN DPS - ISS 1 (2).jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - 416-03-002 - ESCUTCHEON - DRN DPS - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - 416-03-003 - SWITCH MOUNTING PLATE - DRN DPS - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - M416 - 1.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - M416 - 10.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - M416 - 2.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - M416 - 3-102-06-001 - CJE AMPLIFIER.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - M416 - 3-102-06-001 - CUE AMPLIFIER.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - M416 - 3.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - M416 - 4.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - M416 - 412-02-002.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - M416 - 412-02-003 - PLACES GIVEN ANGLES.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - M416 - 416-02-001 (2).jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - M416 - 416-02-001.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - M416 - 5.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - M416 - 6.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - M416 - 7.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - M416 - 8.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - M416 - 9.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - M416 - DOC - 16-03-003 - THICK BLACK PLEXIGLASS TYPE.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - M416 - DOC - 416-03-003 - THICK BLACK PLEXIGLASS TYPE.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - M416 - P1.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - M416 - P10.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - M416 - P2.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - M416 - P3.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - M416 - P4.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - M416 - P5.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - M416 - P6.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - M416 - P7.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - M416 - P8.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/1973 - M416 - P9.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/19xx - M416 - DOC - Scan_20210323.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/19xx - M416 - M416 (2).jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/19xx - M416 - M416 Cue Amplifier Instruction Manual Index (2).jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/19xx - M416 - M416 Cue Amplifier Instruction Manual Index.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M416/19xx - M416 - M416.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../_catalog/libcontrol/libcontrol.css"><script src="../_catalog/libcontrol/react.js"></script><script src="../_catalog/libcontrol/react-dom.js"></script><script src="../_catalog/libcontrol/libcontrol.js"></script><script src="../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M416.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

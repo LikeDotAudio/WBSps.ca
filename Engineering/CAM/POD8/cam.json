@@ -1,0 +1,41 @@
+{
+ "name": "POD8",
+ "folder": "POD8",
+ "source": "WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - POD_OLD/POD8/POD8.ZIP",
+ "copies": [
+  "WBSps Engineering from H drive/WBSps - POD_OLD/POD8/POD8.ZIP"
+ ],
+ "date": "1997-05-26",
+ "layers": [
+  {
+   "file": "POD8.BOT",
+   "role": "copper bottom",
+   "format": "gerber"
+  },
+  {
+   "file": "POD8.TOP",
+   "role": "copper top",
+   "format": "gerber"
+  },
+  {
+   "file": "POD8.SMK",
+   "role": "solder mask",
+   "format": "gerber"
+  },
+  {
+   "file": "POD8.SLK",
+   "role": "silkscreen",
+   "format": "gerber"
+  },
+  {
+   "file": "POD8.EXL",
+   "role": "drill",
+   "format": "excellon"
+  }
+ ],
+ "apertures": "POD8.REP",
+ "unit": 0.0001,
+ "documents": [
+  "POD8.REP"
+ ]
+}

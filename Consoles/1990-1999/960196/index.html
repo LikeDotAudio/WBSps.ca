@@ -1,0 +1,313 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M7885A</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../../../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../../../index.html">Index</a><a href="../../../Home.html">Wiki home</a><a href="../../../PAGES/Timeline.html">Timeline</a><a href="../../../search.html">Search</a><a href="../../../status.html">Status</a></div><h1>M7885A</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="../../../PAGES/Category-COMMUNICATION.html">COMMUNICATION</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../../../simulator.html?m=M7885A">simulator &amp; front panel</a> · <a href="../../../_packages/M7885A.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="../../../PAGES/Year-1994.html">1994|27</a> — original file date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>saved 1994-07-18: WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - Word Perfect Manuals/M7885A.WP</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>medium</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="../../../PAGES/Year-1994.html">1994|27</a></td>
+</tr>
+<tr>
+<td>Used in jobs</td>
+<td><a href="../../../PAGES/Job-960196.html">960196</a> (1996|29)</td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="index.html">Consoles/1990-1999/960196</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210323%20-%20Scans/">DOCUMENTS/RECENT SCANS/WBSps.ca 20210323 - Scans</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../../../Modules/COMMUNICATION/M7885A/index.html">Modules/COMMUNICATION/M7885A</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections</h2>
+<p><em>What it is made of and what it is part of.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M7885A" data-n="" data-cat="COMMUNICATION"></div><svg class="wbs-panel" data-m="M7885A" data-n="" data-cat="COMMUNICATION" role="img" aria-label="M7885A front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M7885A","title":"","rto":null,"parts":[{"item":"SA14-218","title":"SA14-219 - ASSEMBLY - FRONT PANEL","label":"SA14-218 SA14-219 - ASSEMBLY - FRON","href":"Register-Circuit-boards-SA14-nnn.html#sa14-218","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-219","title":"SA14-219 - ASSEMBLY - FRONT PANEL","label":"SA14-219 SA14-219 - ASSEMBLY - FRON","href":"Register-Circuit-boards-SA14-nnn.html#sa14-219","note":"Circuit boards (SA14-nnn)"}],"parents":[{"label":"960196","href":"Job-960196.html","note":"console / job"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../../../viewer.html?f=Consoles/1990-1999/960196/1996%20-%20960196%20-%20DOC%20-%20Scan_20210323.jpg"><img loading="lazy" src="../../../Consoles/1990-1999/960196/1996%20-%20960196%20-%20DOC%20-%20Scan_20210323.jpg" alt="" data-f="Consoles/1990-1999/960196/1996 - 960196 - DOC - Scan_20210323.jpg" data-size="320" onerror="wbsOff(this)">1996 - 960196 - DOC - Scan_20210323.jpg</a><a href="../../../viewer.html?f=Consoles/1990-1999/960196/1996%20-%20960196-04-004%20-%20M7885A%20ASSIGNMENT%20TERMINAL%20FRONT%20PANEL%20LAYOUT%20-%20ISS%201.jpg"><img loading="lazy" src="../../../Consoles/1990-1999/960196/1996%20-%20960196-04-004%20-%20M7885A%20ASSIGNMENT%20TERMINAL%20FRONT%20PANEL%20LAYOUT%20-%20ISS%201.jpg" alt="" data-f="Consoles/1990-1999/960196/1996 - 960196-04-004 - M7885A ASSIGNMENT TERMINAL FRONT PANEL LAYOUT - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1996 - 960196-04-004 - M7885A ASSIGNMENT TERMINAL FRONT PANEL LAYOUT - ISS 1.jpg</a></div>
+
+<h2>Documents (1)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1994|27</td>
+<td><a href="../../../viewer.html?f=Modules/COMMUNICATION/M7885A/1994%20-%20M7885A%20-%20M7885A%20-%2014-218-02-001%20-%20SA14-219%20-%20ASSEMBLY%20-%20FRONT%20PANEL.wp">1994 - M7885A - M7885A - 14-218-02-001 - SA14-219 - ASSEMBLY - FRONT PANEL.wp</a></td>
+<td><a href="../../../viewer.html?f=Modules/COMMUNICATION/M7885A/1994%20-%20M7885A%20-%20M7885A%20-%2014-218-02-001%20-%20SA14-219%20-%20ASSEMBLY%20-%20FRONT%20PANEL.wp.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (3)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Consoles/1990-1999/960196/1996%20-%20960196%20-%20DOC%20-%20Scan_20210323.jpg">1996 - 960196 - DOC - Scan_20210323.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1990-1999/960196/1996%20-%20960196%20-%20DOC%20-%20Scan_20210323.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210323%20-%20Scans/1996%20-%20DOC%20-%20Scan_20210323%20%286%29.jpg">1996 - DOC - Scan_20210323 (6).jpg</a></td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210323%20-%20Scans/1996%20-%20DOC%20-%20Scan_20210323%20%286%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Modules/COMMUNICATION/M7885A/1996%20-%20M7885A%20-%20DOC%20-%20Scan_20210323.jpg">1996 - M7885A - DOC - Scan_20210323.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/COMMUNICATION/M7885A/1996%20-%20M7885A%20-%20DOC%20-%20Scan_20210323.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Sub-assemblies &amp; parts used (2)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What</th>
+<th>Family</th>
+<th>Year</th>
+<th>How we know</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Register-Circuit-boards-SA14-nnn.html#sa14-218">SA14-218</a></td>
+<td>SA14-219 - ASSEMBLY - FRONT PANEL</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>drawing filed with it</td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Register-Circuit-boards-SA14-nnn.html#sa14-219">SA14-219</a></td>
+<td>SA14-219 - ASSEMBLY - FRONT PANEL</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>drawing filed with it</td>
+</tr>
+</tbody>
+</table>
+<h2>Parts list — board M7885A (6 parts)</h2>
+<p><em>From M7885A.WP; also in <code>timelines/data/bom.csv</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>Part</th>
+<th>Value</th>
+<th>Manufacturer</th>
+<th>Mfr part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SA14-218</td>
+<td>Controller Assembly</td>
+<td>WBS</td>
+<td>SA14-218</td>
+<td></td>
+</tr>
+<tr>
+<td>SA14-219</td>
+<td>Front Panel PCB Assembly</td>
+<td>"</td>
+<td>SA14-219</td>
+<td></td>
+</tr>
+<tr>
+<td>F1</td>
+<td>Fuse, 1.5 Amp SB</td>
+<td>Buss</td>
+<td>MDL-1.5</td>
+<td></td>
+</tr>
+<tr>
+<td>PS1</td>
+<td>Power Supply</td>
+<td>Lambda</td>
+<td>LVS-45E-24</td>
+<td></td>
+</tr>
+<tr>
+<td>J3</td>
+<td>9 Pin Cover C/W Spring &amp; Slide</td>
+<td>TEEE</td>
+<td>TCE9</td>
+<td></td>
+</tr>
+<tr>
+<td>SA14-218</td>
+<td>Fish Paper</td>
+<td>"</td>
+<td>C7885-012</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Consoles &amp; jobs it is connected to (1)</h2>
+<p><em>Their own drawings name this module.</em></p>
+<table>
+<thead>
+<tr>
+<th>Job</th>
+<th>Year</th>
+<th>Drawing</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Job-960196.html">960196</a></td>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Consoles/1990-1999/960196/1996%20-%20960196-04-004%20-%20M7885A%20ASSIGNMENT%20TERMINAL%20FRONT%20PANEL%20LAYOUT%20-%20ISS%201.jpg">1996 - 960196-04-004 - M7885A ASSIGNMENT TERMINAL FRONT PANEL LAYOUT - ISS 1.jpg</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (3)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT%20%282%29.docx">1995 - M405P - ITEMIMP(1).TXT (2).docx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT.docx">1995 - M405P - ITEMIMP(1).TXT.docx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP.TXT.docx">1995 - M405P - ITEMIMP.TXT.docx</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="../../../PAGES/Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>General description (1)</h3>
+<details><summary>Description — 208 words · 1994 - M7885A - M7885A - 14-218-02-001 - SA14-219 - ASSEMBLY - FRONT PANEL.wp, page 1</summary><p>MFG   MFG PART NUMBER</p><p>218J10    Cover, 6 Pos, End           Panduit EC100F-6</p><p>J3   9 Pin Cover C/W Spring &amp; Slide  TEEE    TCE9</p><p>9 Pin &quot;D&quot; Female Connector     Souriau FDE-9S (Solder Type)</p><p>Connector Locking Brackets           &quot;  TFB</p><p>SA14-218  Fish Paper                  &quot;  C7885-012</p><p>WBS recommends the use of replacement parts made by the specified manufacturers for continued optimum equipment perfor­mance.</p><p>SECTION C. GENERAL</p><p>LAMBDA POWER SUPPLY</p><p>M7885A ASSIGNMENT TERMINAL</p><p>To address the requirements of certain regula­tory agencies,  M7885A assignment terminals may be installed with Lambda LVS-45E series of power supplies or an equivalent.</p><p>The power supply used is an LVS-45E-24. It provides +24V dc to the M7885A circuitry.</p><p>The 24V dc is decoupled down to 5V dc by an on board regulator, to power the SA14-218 con­troller assembly and the SA14-219 front panel display assembly.</p><p>The following pages are copies of the manufacturers supplied documentation. This includes information pertaining to specifica­tions and terminations.  This  power supply module is considered as a non-ser­viceable item and upon failure is totally replaced. PS1  Power Supply            Lambda  LVT-45E-24 24V DC</p><p>Power Line Filter           Curtis  F3000AA06</p><p>Filter Lugs         Hollingsworth   XS09723S</p><p>Power Supply         Molex   5199-10-63-3044 AC Receptacles</p><p>Power Supply               &quot;      &quot; DC Receptacles</p><p>Power Supply                &quot;  08-70-1030 Receptacles crimp terminals M7885A</p><p>ASSIGNMENT TERMINAL MANUAL ISSUE #1</p><p>MW94001/M7885A.WP</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/COMMUNICATION/M7885A/1994%20-%20M7885A%20-%20M7885A%20-%2014-218-02-001%20-%20SA14-219%20-%20ASSEMBLY%20-%20FRONT%20PANEL.wp">1994 - M7885A - M7885A - 14-218-02-001 - SA14-219 - ASSEMBLY - FRONT PANEL.wp</a>, p. 1</li>
+</ul>
+<h3>Installation (1)</h3>
+<details><summary>Connections — 798 words · 1994 - M7885A - M7885A - 14-218-02-001 - SA14-219 - ASSEMBLY - FRONT PANEL.wp, page 1</summary><p>Only P3 is the applicable data connector for the M7885A operation. Refer to the draw­ing on page 6-1 for details of the data inter­con­nect. Connector P2 is not appli­cable to the operation of the M7885A.</p><p>6) PANEL #2</p><p>Connectors J4 and P5 are not applicable to the operation of the M7885A. These con­nectors are an integral part of the standard SA14-218 controller assembly.</p><p>7)    PANEL #3 AND #4</p><p>These connectors are not supplied as part of the M7885A.</p><p>8) &amp; 9) AC FUSE &amp; AC POWER CORD</p><p>The fuse is for primary AC power. The rating is 1.5 ampere slow blow, 115 or 230 volt, of the 3AG type. Initial Inspection</p><p>After removal of all packaging material, inspect the Assignment Terminal for any loose components or for any physical damage that may have occurred in transit. If there is any damage, contact the carrier and file a claim immediately. Do not discard packing material until the carrier or his representative has noted the damage.</p><p>The M7885A is normally supplied with a 9 pin D connector, for the serial data port.</p><p>Determine the following:</p><p>1)   The keypad and designation strips are labelled according to the systems defini­tion requirements, or to the default generic terms.</p><p>2) The correct software version is installed as per MicroCOM II systems summary (refer to system manuals for detail).</p><p>Power Requirements</p><p>The M7885A operates directly from the AC power line. The integral modular power supply is accessible by removing the top and bottom covers of the terminal.</p><p>Note: Service and adjustment of the power supply should only be performed by personnel knowledgeable with the technology employed, and with the correct isolated power sources and test equipment. High voltages are present and extreme caution must be taken.</p><p>The power supply will accept either 115V or 230V AC but may have to be strapped inter­nally for the required operation. Refer to section C of this manual for the type of power supply installed and the required strapping. The terminal, when supplied with a communi­cations system, will normally be strapped for the customers AC power source.</p><p>Note: the power supply will be damaged if jumpered or strapped for 115 volts and oper­ated on 230 volts AC.</p><p>Mounting:</p><p>The M7885A is designed for standard nineteen inch rack mounting, requiring two rack units of vertical space (3-1/2 inches). The depth requirement with connectors in place is in the order of 12 inches (305 mm). The M7885A weighs 11 lbs. (5 kg.).</p><p>Matrix Connections:</p><p>The M7885A Assignment Terminal connects to the central matrix via a single pair data cable. Belden audio cable 8451 may be used for this data connection. Refer to page 6-1 for data connector layout details. Insure that the phase of the serial data pair is correct and the com­mon return (shield) is connected throughout.</p><p>The assignment terminals are connected to any­one of the last four data ports of the cen­tral matrix. Ports 45 to 48 for a 48x48 system, or ports 93 to 96 for a 96x96 system. If the audio inputs and outputs are required as well as the serial data port, a  ́Y ́ type cable connection may have to be made or parallel data port connectors installed. Refer to system intercon­nect drawings for detail.</p><p>Caution: Do not make cable solder connections with connectors installed and power applied to the assignment terminal or the central matrix. Data port devices could be damaged via power line leakage from soldering tools.</p><p>Assign Terminal Setup</p><p>The IFB matrix bus definitions and IFB pro­gram sound Mode definitions must first be made from the central assignment computer. This information must be sent to the MicroCOM II central matrix as part of the overall system configuration.</p><p>After the initial IFB system setup it will be necessary to manually enter a full set of assignments from the M7885A with it con­nected on line to the system.</p><p>The IFB program sound assignments from the M7885A are retained in memory in the M8504B input controller. These assignments in turn are passed on to the M8506B output con­troller, where they  are acted  upon.</p><p>IFB program sound assignments may originate either from the M7885A or the central assign­ment computer, but not concurrently. The intent is to use one or the other, but not both. The assignment displays of the M7885A will blank off (after approx. 5 sec) if IFB program sound source assignments are  made from the central assignment computer, as they become indeterminate.</p><p>Making an assignment to any IFB output from the M7885A results in all assignments originat­ing from the assignment terminal and they will be changed accordingly.</p><p>To assist in setting up the IFB program sound assignments on the M7885A, any keypad oper­ation will result in the displays being active for approximately 30 seconds. This applies whether the terminal is on line or not</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/COMMUNICATION/M7885A/1994%20-%20M7885A%20-%20M7885A%20-%2014-218-02-001%20-%20SA14-219%20-%20ASSEMBLY%20-%20FRONT%20PANEL.wp">1994 - M7885A - M7885A - 14-218-02-001 - SA14-219 - ASSEMBLY - FRONT PANEL.wp</a>, p. 1</li>
+</ul>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M7885A&quot;,
+ &quot;category&quot;: &quot;COMMUNICATION&quot;,
+ &quot;year&quot;: 1994,
+ &quot;made_of&quot;: [
+  &quot;SA14-218&quot;,
+  &quot;SA14-219&quot;
+ ],
+ &quot;part_of&quot;: [
+  &quot;960196&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M7885A/1994 - M7885A - M7885A - 14-218-02-001 - SA14-219 - ASSEMBLY - FRONT PANEL.wp&quot;,
+   &quot;year&quot;: 1994,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M7885A/1996 - M7885A - DOC - Scan_20210323.jpg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  }
+ ]
+}</pre></details><script src="../../../_catalog/wbs_reels.js" defer></script><script src="../../../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../../../_catalog/libcontrol/libcontrol.css"><script src="../../../_catalog/libcontrol/react.js"></script><script src="../../../_catalog/libcontrol/react-dom.js"></script><script src="../../../_catalog/libcontrol/libcontrol.js"></script><script src="../../../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M7885A.md</small></div></article><script src="../../../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

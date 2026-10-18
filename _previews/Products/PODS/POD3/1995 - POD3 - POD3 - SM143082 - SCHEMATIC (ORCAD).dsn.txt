@@ -1,0 +1,101 @@
+OrCAD Capture schematic (.DSN). This binary format needs OrCAD Capture to view as a drawing.
+Text recovered from the file (part names, values, sheet titles, net names):
+
+OrCAD Windows Design
+"Arial
+1ST PART FIELD
+2ND PART FIELD
+3RD PART FIELD
+4TH PART FIELD
+5TH PART FIELD
+6TH PART FIELD
+7TH PART FIELD
+PCB Footprint
+TitleBlock
+Page Create Date
+March  8, 1995
+RevCode
+OrgName
+OrgAddr1
+OrgAddr2
+OrgAddr3
+Page Size
+Page Number
+Page Count
+Page Modify Date
+C:\ORCADWIN\CAPTURE\LIBRARY\CAPSYM.OLB
+Olla-Podrida
+POD-3
+STEREO PEAK/VU LEVEL INDICATOR
+SCHEMATIC
+Part Reference
+Value
+C:\ORCADWIN\CAPTURE\LIBRARY\DEVICE.OLB
+SENS.
+CMRR
+Name
+CHASSIS
+SM143082
+SM143082.SCH
+TitleBlock4N
+R.Normal
+RESISTOR
+CAP.Normal
+CAP NP.Normal
+CAPACITOR NON-POL
+CAP NP
+DIODE.Normal
+DIODE
+CR10
+CR11
+CR12
+POT.Normal
+SW SPST.Normal
+SW SPST
+PORTRIGHT-R
+PORTRIGHT-L
+PORTLEFT-L
+GND POWER
+VCC_ARROW
+XLR-3F
+BALANCED
+INPUT
++4 dB
+NORMINAL
+LEFT
+Size
+Document Number
+Date:
+Sheet
+WIPER
+ANODE
+CATHODE
+COMMON
+Root Entry
+rectory
+Parts
+RCLE
+s Directory
+Cells
+GHT-L
+Packages
+Views
+Symbols
+Graphics
+tory
+ExportBlocks
+Library
+ectory
+Directory
+Pages
+ck0N
+#Schematic
+$Types$
+Cache
+Parts Directory
+Cells Directory
+Packages Directory
+Views Directory
+Symbols Directory
+Graphics Directory
+ExportBlocks Directory

@@ -1,0 +1,50 @@
+# 1983 - M609 - 14-066-06-002 - OUTPUT SPLITTER NETWORKS SCHEMATIC.jpg
+Wiki page: [M609](../../../PAGES/M609.md)
+
+
+- **Year:** 1983 (module estimate (manual_issue))
+- **Module:** M609
+- **Category:** AMPLIFIERS
+- **Module year estimate:** 1983 — manual_issue "ISSUE #1 JUNE 1983" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M609 - Remote sensitivity and DA/M609 - P028 - SA8-117.jpg
+- **Original file:** `WBSps.env/wbsps - website ARCHIVE/WBSPS 2008/RAW SCANS/To Be edited/M609 - Remote sensitivity and DA/M609 - P035 - B14-066-02-002 R.jpg`
+- **SHA-256:** `2e6e9c8a4c1dbeb2e13d90c3bd8a0ec0748098592c63e9092b55ffbd10f7c0f3`
+- **Size:** 373,147 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 2 words corrected)
+
+```text
+NOTES:
+1 . ALL RESISTORS ARE 1/2w 57 _
+2 . LAST COMPONENT DESIGNATE ION: R4 .
+3 , SA14-O66A USES COMPONENT LAYoUT B14-066-06-002 _ SA14-0663 USES COMPONENT LAYOUT B14-066-06-003. SA1L-O66C USES COMPONENT LAYOUT 814-066-06-004 .
+0 X 10
+To AMPHENOL 26-159-16 CONNECTOR
+10
+WBS WARD-BECK SYSTEMS
+SA14-O66A/BIC OUTPUT SPLITTER NETWORKS SCHEMATIC B 14-066 ~02-002 ISS.2
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+NQTES:
+1 . ALL RESISTORS ARE 1/2w 57 _
+2 . LAST COMPONENT DESIGNAT ION: R4 .
+3 , SA14-O66A USES COMPONENT LAYoUT B14-066-06-002 _ SA14-0663 USES COMPONENT LAYOUT B14-066-06-003. SA1L-O66C USES COMPONENT LAYOUT 814-066-06-004 .
+0 X 10
+To AMPHENOL 26-159-16 CONNECTOR
+10
+WBS WARD-BECK SYSTEMS
+SA14-O66A/BIC OUTPUT SPLITTER NETWORKS SCHEMATIC B 14-066 ~02-002 ISS.2
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/AMPLIFIERS/M609/1983 - M609 - 14-066-06-002 - OUTPUT SPLITTER NETWORKS SCHEMATIC.jpg","sha256":"2e6e9c8a4c1dbeb2e13d90c3bd8a0ec0748098592c63e9092b55ffbd10f7c0f3","kind":"module","models":["M609"],"year":1983,"pages":1,"order":[{"page":1,"title_block":[{"number":"14-066-06-002","type":"component layout","title":"Output Splitter Networks Schematic","issue":"2"}],"text":["NOTES:","ALL RESISTORS ARE 1/2w 576 .","2 . LAST COMPONENT DESIGNAT ION RL.","3 . SA1L-O66A usES COMPONENT LAYOUT B14-066-06-002","SA1L-0663 USES COMPONENT LAYOUT 814-066-06-003.","SA1L-O66C USES COMPONENT LAYOUT 814-066-06-004 _","To AMPHENOL","26-159-16","CONNECTOR","WBS WARD-BECK SYSTEMS","SA14-066A/B/C","OutPut SPLITTER NETWORKS","SCHEMATIC","B 14-066-02-002 ISS.2"]}],"drawing":{"svg":"_traces/2e6e9c8a4c1dbeb2.svg","viewBox":[1568,2000],"rotate":0,"number":"14-066-06-002","title":"Output Splitter Networks Schematic","dtype":"06","outlines":"see _traces/2e6e9c8a4c1dbeb2.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[192,328,"NOTES:"],[242,388,"ALL"],[317,386,"RESISTORS"],[495,388,"ARE"],[572,390,"1/2w"],[655,390,"576 ."],[244,450,"LAST"],[335,450,"COMPONENT"],[525,450,"DESIGNAT ION"],[757,448,"RL."],[245,512,"SA1L-O66A"],[410,512,"usES"],[495,512,"COMPONENT"],[690,510,"LAYOUT"],[820,510,"B14-066-06-002"],[245,542,"SA1L-0663"],[410,542,"USES"],[497,542,"COMPONENT"],[690,542,"LAYOUT"],[820,540,"814-066-06-003."],[245,575,"SA1L-O66C"],[410,572,"USES"],[497,572,"COMPONENT"],[690,572,"LAYOUT"],[820,572,"814-066-06-004 _"],[162,1030,"To"],[219,1030,"AMPHENOL"],[196,1060,"26-159-16"],[185,1092,"CONNECTOR"],[955,1710,"WBS"],[1104,1708,"WARD-BECK SYSTEMS"],[1070,1778,"SA14-066A/B/C"],[950,1820,"OutPut SPLITTER NETWORKS"],[1112,1852,"SCHEMATIC"],[975,1910,"14-066-02-002"],[1407,1900,"ISS.2"]]}}
+```

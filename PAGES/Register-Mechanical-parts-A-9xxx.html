@@ -1,0 +1,106 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Mechanical parts (A 9xxx)</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>Mechanical parts (A 9xxx)</h1>
+<p><a href="Registers.html">← Registers</a></p>
+<p><a id="a-9002"></a></p>
+<h3>A 9002</h3>
+<p><a href="Year-1968.html">1968|1</a> · 1 drawing</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1968%20-%20A%209002-001%20-%20BRKT.%20%28HORIZ.%29.png">1968 - A 9002-001 - BRKT. (HORIZ.).png</a></p>
+<p><a id="a-9009"></a></p>
+<h3>A 9009</h3>
+<p><a href="Year-1968.html">1968|1</a> · 1 drawing</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1968%20-%20A%209009%20-%20VERT.%2060-3%20XFMR%20MTG%20BRKT%20-%20ISS%201.png">1968 - A 9009 - VERT. 60-3 XFMR MTG BRKT - ISS 1.png</a></p>
+<p><a id="a-9016"></a></p>
+<h3>A 9016</h3>
+<p>1 drawing</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/19xx%20-%20A%209016%20-%20P.B.%20STANDOFF%20FOR%201%204%20THK.%20PNL.%20MTG%20-%20ISS%201.png">19xx - A 9016 - P.B. STANDOFF FOR 1 4 THK. PNL. MTG - ISS 1.png</a></p>
+<p><a id="a-9050"></a></p>
+<h3>A 9050</h3>
+<p><a href="Year-1969.html">1969|2</a> · 1 drawing</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1969%20-%20A%209050%20-%20INSULATOR.png">1969 - A 9050 - INSULATOR.png</a></p>
+<p><a id="a-9067"></a></p>
+<h3>A 9067 — SWITCH MOUNTING PLATE / 3 PENDAR BUTTONS</h3>
+<p><a href="Year-1970.html">1970|3</a> · 1 drawing</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1970%20-%20A%209067%20-%20SWITCH%20MOUNTING%20PLATE%203%20PENDAR%20BUTTONS.png">1970 - A 9067 - SWITCH MOUNTING PLATE 3 PENDAR BUTTONS.png</a></p>
+<p><a id="a-9089"></a></p>
+<h3>A 9089 — SENNEISER W66A-U600 / ATTENUATOR PIN CONNECTIONS / LAYOUT</h3>
+<p>1 drawing</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/19xx%20-%20A%209089%20-%20SENNEISER%20W66A-U600%20ATTENUATOR%20PIN%20CONNECTIONS%20LAYOUT%20-%20ISS%201.png">19xx - A 9089 - SENNEISER W66A-U600 ATTENUATOR PIN CONNECTIONS LAYOUT - ISS 1.png</a></p>
+<p><a id="a-9122"></a></p>
+<h3>A 9122 — SPEAKER SCREEN</h3>
+<p><a href="Year-1971.html">1971|4</a> · drawn <a href="Person-WWH.html">WWH</a> · 1 drawing</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1971%20-%20A%209122%20-%20SPEAKER%20SCREEN%20-%20DRN%20WWH%20-%20ISS%205.png">1971 - A 9122 - SPEAKER SCREEN - DRN WWH - ISS 5.png</a></p>
+<p><a id="a-9123"></a></p>
+<h3>A 9123 — SWITCH MOUNTING PLATE / SINGLE PENDAR BUTTON</h3>
+<p><a href="Year-1971.html">1971|4</a> · drawn <a href="Person-WWH.html">WWH</a> · 1 drawing</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1971%20-%20A%209123%20-%20SWITCH%20MOUNTING%20PLATE%20SINGLE%20PENDAR%20BUTTON%20-%20DRN%20WWH%20-%20ISS%201.png">1971 - A 9123 - SWITCH MOUNTING PLATE SINGLE PENDAR BUTTON - DRN WWH - ISS 1.png</a></p>
+<p><a id="a-9124"></a></p>
+<h3>A 9124 — FILLER PLATE</h3>
+<p><a href="Year-1971.html">1971|4</a> · drawn <a href="Person-WWH.html">WWH</a> · 1 drawing</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1971%20-%20A%209124%20-%20FILLER%20PLATE%20-%20DRN%20WWH%20-%20ISS%201.png">1971 - A 9124 - FILLER PLATE - DRN WWH - ISS 1.png</a></p>
+<p><a id="a-9126"></a></p>
+<h3>A 9126 — 6 5/8 FILLER, BRACKET SLOT</h3>
+<p><a href="Year-1971.html">1971|4</a> · drawn <a href="Person-WWH.html">WWH</a> · 1 drawing</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1971%20-%20A%209126%20-%206%205%208%20FILLER%2C%20BRACKET%20SLOT%20-%20DRN%20WWH%20-%20ISS%203.png">1971 - A 9126 - 6 5 8 FILLER, BRACKET SLOT - DRN WWH - ISS 3.png</a></p>
+<p><a id="a-9130"></a></p>
+<h3>A 9130 — MIC, CLAMP</h3>
+<p><a href="Year-1971.html">1971|4</a> · 1 drawing</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1971%20-%20A%209130%20-%20MIC%2C%20CLAMP%20-%20DRN%20PHIL%20-%20ISS%201.png">1971 - A 9130 - MIC, CLAMP - DRN PHIL - ISS 1.png</a></p>
+<p><a id="a-9165"></a></p>
+<h3>A 9165</h3>
+<p><a href="Year-1971.html">1971|4</a> · 1 drawing</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1971%20-%20A%209165%20-%20SINGLE%20JACK%20MTG%20PLATE%20-%20HORIZONTAL%20-%20ISS%202.png">1971 - A 9165 - SINGLE JACK MTG PLATE - HORIZONTAL - ISS 2.png</a></p>
+<p><a id="a-9188"></a></p>
+<h3>A 9188</h3>
+<p><a href="Year-1971.html">1971|4</a> · drawn <a href="Person-DGS.html">DGS</a> · 1 drawing</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1971%20-%20A%209188%20-%20SPACER%20-%20DRN%20DGS%20-%20ISS%202.png">1971 - A 9188 - SPACER - DRN DGS - ISS 2.png</a></p>
+<p><a id="a-9267"></a></p>
+<h3>A 9267</h3>
+<p><a href="Year-1974.html">1974|7</a> · 1 drawing</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1974%20-%20A%209267%20-%20TRANSFORMER%20MTG.%20BKT%20-%20ISS%201.png">1974 - A 9267 - TRANSFORMER MTG. BKT - ISS 1.png</a></p>
+<p><a id="a-9362"></a></p>
+<h3>A 9362 — MOUNTING BLOCK / USED ON / SUPPORT BAR (MISC)</h3>
+<p><a href="Year-1984.html">1984|17</a> · 1 drawing</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1984%20-%20A%209362%20-%20MOUNTING%20BLOCK%20USED%20ON%20SUPPORT%20BAR%20%28MISC%29%20-%20DRN%20J%20-%20ISS%204.png">1984 - A 9362 - MOUNTING BLOCK USED ON SUPPORT BAR (MISC) - DRN J - ISS 4.png</a></p>
+<p><a id="a-9404"></a></p>
+<h3>A 9404</h3>
+<p><a href="Year-1977.html">1977|10</a> · 1 drawing</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1977%20-%20A%209404%20-%20PC%20MOUNTING%20BRKT.%20PPM-%282-107%29%20-%20ISS%201.png">1977 - A 9404 - PC MOUNTING BRKT. PPM-(2-107) - ISS 1.png</a></p><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from Register-Mechanical-parts-A-9xxx.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

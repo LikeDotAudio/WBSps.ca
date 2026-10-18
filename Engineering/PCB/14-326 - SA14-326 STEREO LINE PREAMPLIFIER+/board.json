@@ -1,0 +1,40 @@
+{
+  "board": "14-326 - SA14-326 STEREO LINE PREAMPLIFIER+",
+  "title": "SA14-326 STEREO LINE PREAMPLIFIER",
+  "format": "tango",
+  "sha256": "70ad77071904fc51e19c7ea9dddf47631ef213bb89901811f45be2ef241611dd",
+  "source": "WBSps Engineering from H drive/WBSps - SA14-XXX/SA14-325/TANGO/14-326.PCB",
+  "copies": [
+    "WBSps Engineering from H drive/WBSps - SA14-XXX/SA14-325/TANGO/14-326.PCB",
+    "WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - SA14-XXX/SA14-325/TANGO/14-326.PCB"
+  ],
+  "kicad_pcb": "14-326 - SA14-326 STEREO LINE PREAMPLIFIER+/14-326.kicad_pcb",
+  "netlist": null,
+  "convert": {
+    "source": "/home/anthony/Documents/GitProjects/WBSps.ca/WBSps.env/WBSps Engineering from H drive/WBSps - SA14-XXX/SA14-325/TANGO/14-326.PCB",
+    "kicad_pcb": "/home/anthony/Documents/GitProjects/WBSps.ca/2026/Engineering/PCB/14-326 - SA14-326 STEREO LINE PREAMPLIFIER+/14-326.kicad_pcb",
+    "format": "Tango-PCB PLUS V2.02 Series II",
+    "edge_layer": 14,
+    "tango_layers_used": {
+      "0": 24,
+      "1": 243,
+      "4": 13,
+      "8": 1699,
+      "12": 16,
+      "14": 9,
+      "15": 387
+    },
+    "counts": {
+      "components": 229,
+      "pads": 748,
+      "tracks": 193,
+      "vias": 0,
+      "graphics": 2012,
+      "texts": 170,
+      "pours": 16
+    },
+    "nets": null
+  },
+  "top": "14-326 - SA14-326 STEREO LINE PREAMPLIFIER+/14-326-top.svg",
+  "bottom": "14-326 - SA14-326 STEREO LINE PREAMPLIFIER+/14-326-bottom.svg"
+}

@@ -1,0 +1,50 @@
+{
+ "code": "M648",
+ "series": null,
+ "type": "M648",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "I1",
+   "signal": "All Capacitors Are In Uf",
+   "dir": "in",
+   "pos": "1",
+   "neg": "I1N",
+   "src_page": 9
+  }
+ ],
+ "power": [
+  {
+   "rail": "+48V",
+   "volts": 48.0,
+   "supply": "+48V",
+   "ground": "CHASSIS",
+   "max_a": null
+  },
+  {
+   "rail": "+24V",
+   "volts": 24.0,
+   "supply": "+24V",
+   "ground": "CHASSIS",
+   "max_a": null
+  }
+ ],
+ "logic": [
+  {
+   "signal": "When Load Is Remote",
+   "pin": ""
+  }
+ ],
+ "ground": [
+  "CHASSIS"
+ ],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "9eaa605b0af817e3ef34e6e44c70b10c1b25f4e64f010f90ca04c0847eb26cb0",
+  "b445dd13d5286357d90d3163c0389d1d9f29883f167dd3254bd95063b619efc2"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."
+}

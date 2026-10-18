@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>WBSps Archive Search</title>
+<link rel="icon" href="WBS_Logo.svg">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Michroma&display=swap">
+<style>
+/* Layout: the binder's card catalogue - a typed search slip on top, results as filing cards. Single look by design. */
+:root { --vinyl: #141414; --card: #f4efdc; --paper: #fbfaf4; --type: #1c1c1c; --faint: #6d6a63; --rule: #1c1c1c;
+  --red: #a52a22; --blue: #2a5ea0; --typewriter: "Courier Prime", "Courier New", Courier, monospace;
+  --logotype: "Michroma", "Eurostile", "Arial Black", sans-serif; color-scheme: dark }
+* { box-sizing: border-box }
+body { margin: 0; background: var(--vinyl); color: var(--type); font: 15px/1.45 var(--typewriter);
+  padding-block: 22px 60px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)) }
+a { color: inherit }
+a:focus-visible, input:focus-visible, button:focus-visible { outline: 2px dashed #e8e2c8; outline-offset: 3px }
+.wrap { max-width: 1240px; margin: 0 auto; display: grid; gap: 22px }
+.slip { background: var(--paper); color-scheme: light; padding: 22px clamp(16px, 4vw, 40px); display: grid; gap: 14px; box-shadow: 0 14px 30px rgba(0,0,0,.5) }
+.top { display: flex; flex-wrap: wrap; gap: 10px 22px; align-items: baseline; justify-content: space-between }
+h1 { margin: 0; font: 700 18px var(--typewriter); text-transform: uppercase; letter-spacing: .06em }
+h1 u { text-underline-offset: 4px }
+.logo { display: block; width: 150px }
+.logo img { display: block; width: 100%; height: auto }
+.query { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap }
+.query label { text-transform: uppercase; font-weight: 700 }
+#q { flex: 1; min-width: 0; font: 20px var(--typewriter); color: var(--type); background: transparent; border: 0; border-bottom: 2px solid var(--rule); padding: 2px 4px }
+.filters { display: grid; gap: 6px }
+.frow { display: flex; flex-wrap: wrap; gap: 6px 8px; align-items: baseline }
+.frow > span { width: 9ch; color: var(--faint); text-transform: uppercase; font-size: 12px }
+.chip { font: 13px var(--typewriter); color: var(--type); background: transparent; border: 1px solid var(--faint); padding: 1px 8px; cursor: pointer }
+.chip[aria-pressed="true"] { background: var(--type); color: var(--paper); border-color: var(--type) }
+.status { color: var(--faint); font-size: 13px }
+.cards { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr)); gap: 16px }
+.card { position: relative; background: var(--card); color-scheme: light; padding: 12px 14px 12px; display: grid; gap: 6px; align-content: start;
+  box-shadow: 0 6px 16px rgba(0,0,0,.45); background-image: linear-gradient(transparent 31px, rgba(42,94,160,.18) 32px, transparent 33px),
+  repeating-linear-gradient(transparent 0 23px, rgba(42,94,160,.10) 23px 24px); background-position: 0 30px }
+.card::before { content: ""; position: absolute; left: 50%; bottom: 8px; width: 12px; height: 12px; margin-left: -6px; border-radius: 50%; background: var(--vinyl); opacity: .85 }
+.card .head { display: flex; justify-content: space-between; gap: 8px; font-weight: 700; text-transform: uppercase; min-height: 22px }
+.card .head span { color: var(--red) }
+.mname { font-size: 13px; text-transform: uppercase; margin-top: -4px }
+.thumb { display: block; aspect-ratio: 4 / 3; background: #e4dec6; overflow: hidden; border: 1px solid #cfc8ae }
+.thumb img { width: 100%; height: 100%; object-fit: contain; display: block; filter: grayscale(.15) contrast(1.05) }
+.thumb .ph { display: grid; place-items: center; height: 100%; color: var(--faint); text-transform: uppercase; font-size: 13px }
+.name { font-size: 13px; word-break: break-word }
+.name a { text-decoration: none } .name a:hover { text-decoration: underline }
+.meta { font-size: 12px; color: var(--faint); display: flex; flex-wrap: wrap; gap: 2px 12px }
+.snip { font-size: 12.5px; color: #3a3833; margin: 0 0 14px; word-break: break-word }
+mark { background: #f2d974; color: inherit; padding: 0 1px }
+.more { justify-self: center; font: 700 14px var(--typewriter); text-transform: uppercase; background: var(--paper); color: var(--type); border: 0; padding: 8px 18px; cursor: pointer }
+.empty { color: #e8e2c8; text-align: center; padding: 40px 0 }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <section class="slip" aria-label="Search">
+    <div class="top">
+      <h1><u>WBSps Archive Search</u></h1>
+      <a class="logo" href="index.html" title="Back to the archive index"><img src="WBS_Logo.svg" alt="Ward-Beck Systems"></a>
+    </div>
+    <div class="query">
+      <label for="q">Find:</label>
+      <input id="q" type="search" placeholder="M441M  schematic  1973" autocomplete="off" spellcheck="false">
+    </div>
+    <div class="filters" id="filters"></div>
+    <div class="status" id="status" aria-live="polite">Loading the catalog…</div>
+  </section>
+  <ul class="cards" id="cards"></ul>
+  <button class="more" id="more" hidden>Show more cards</button>
+</div>
+<script src="_catalog/catalog.js"></script>
+<script src="_catalog/drive_lookup.js"></script>
+<script>
+const data = (window.WBS_CATALOG || { files: [] }).files;
+const $ = id => document.getElementById(id);
+const PAGE = 120;
+const facets = { sec: 'Section', k: 'Kind', dec: 'Decade' };
+const active = { sec: new Set(), k: new Set(), dec: new Set() };
+let shown = PAGE, hits = [];
+data.forEach(d => {
+  d.dec = d.y ? Math.floor(d.y / 10) * 10 + 's' : 'undated';
+  d.hay = (d.n + ' ' + d.m + ' ' + (d.mn || '') + ' ' + d.cat + ' ' + d.sec + ' ' + (d.y || '') + ' ' + d.o + ' ' + d.x).toLowerCase();
+});
+const enc = p => p.split('/').map(encodeURIComponent).join('/');
+const VIEWER = true;  // viewer.html opens any file type, using its preview when there is one
+const open = d => VIEWER ? 'viewer.html?f=' + encodeURIComponent(d.p) : enc(d.p);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+function buildFilters() {
+  const box = $('filters');
+  for (const [key, label] of Object.entries(facets)) {
+    const counts = {};
+    data.forEach(d => counts[d[key] || 'other'] = (counts[d[key] || 'other'] || 0) + 1);
+    const row = document.createElement('div');
+    row.className = 'frow';
+    row.innerHTML = `<span>${label}</span>` + Object.keys(counts).sort().map(v =>
+      `<button class="chip" type="button" aria-pressed="false" data-key="${key}" data-val="${esc(v)}">${esc(v.replace(/-/g, ' '))} <small>${counts[v]}</small></button>`).join('');
+    box.appendChild(row);
+  }
+  box.addEventListener('click', e => {
+    const b = e.target.closest('.chip');
+    if (!b) return;
+    const set = active[b.dataset.key], v = b.dataset.val;
+    set.has(v) ? set.delete(v) : set.add(v);
+    b.setAttribute('aria-pressed', set.has(v));
+    run();
+  });
+}
+
+function snippet(d, terms) {
+  if (!terms.length || !d.x) return esc(d.x.slice(0, 160));
+  const low = d.x.toLowerCase();
+  const at = Math.max(0, low.indexOf(terms[0]) - 60);
+  let s = esc(d.x.slice(at, at + 200));
+  terms.forEach(t => { s = s.replace(new RegExp('(' + t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'ig'), '<mark>$1</mark>'); });
+  return (at ? '…' : '') + s + '…';
+}
+
+function card(d, terms) {
+  // a thumbnail that is not on the website: wbsOff (drive_lookup.js) looks up its Google Drive copy, only when it is needed
+  const lazyDrive = `data-f="${esc(d.p)}" data-size="320" onerror="wbsOff(this)"`;
+  const thumb = d.t ? `<img loading="lazy" src="${enc(d.t)}" alt="" ${lazyDrive}>`
+    : /\.(jpe?g|png|gif|tiff?|bmp|pdf)$/i.test(d.p) ? `<img loading="lazy" src="data:," alt="" ${lazyDrive}>` : `<span class="ph">${esc(d.k)}</span>`;
+  return `<li class="card">
+    <div class="head"><b>${d.mp ? `<a href="${enc(d.mp)}">${esc(d.m)}</a>` : esc(d.m || d.sec || '—')}</b><span>${d.y || ''}</span></div>
+    ${d.mn ? `<div class="mname">${esc(d.mn)}</div>` : ''}
+    <a class="thumb" href="${open(d)}" tabindex="-1">${thumb}</a>
+    <div class="name"><a href="${open(d)}">${esc(d.n)}</a></div>
+    <div class="meta"><span>${esc(d.sec)}${d.cat ? ' / ' + esc(d.cat) : ''}</span><span>${esc(d.k)}</span>${d.note ? `<a href="viewer.html?f=${encodeURIComponent(d.note)}">note</a>` : ''}</div>
+    ${terms.length ? `<p class="snip">${snippet(d, terms)}</p>` : '<p class="snip"></p>'}
+  </li>`;
+}
+
+function run() {
+  const terms = $('q').value.toLowerCase().split(/\s+/).filter(Boolean);
+  hits = data.filter(d => terms.every(t => d.hay.includes(t)) &&
+    Object.entries(active).every(([k, set]) => !set.size || set.has(d[k] || 'other')));
+  shown = PAGE;
+  render(terms);
+}
+
+function render(terms = $('q').value.toLowerCase().split(/\s+/).filter(Boolean)) {
+  $('cards').innerHTML = hits.length ? hits.slice(0, shown).map(d => card(d, terms)).join('')
+    : '<li class="empty">No cards match. Try fewer words or clear a filter.</li>';
+  $('more').hidden = shown >= hits.length;
+  $('status').textContent = `${hits.length.toLocaleString()} of ${data.length.toLocaleString()} files` +
+    (hits.length > shown ? ` · showing ${shown}` : '');
+}
+
+$('more').addEventListener('click', () => { shown += PAGE; render(); });
+// load the next cards by itself when the "Show more" button scrolls into view
+if ('IntersectionObserver' in window) {
+  const io = new IntersectionObserver(es => {
+    if (es.some(e => e.isIntersecting) && !$('more').hidden) {
+      $('more').click();
+      requestAnimationFrame(() => { io.unobserve($('more')); io.observe($('more')); });   // still in view? fire again
+    }
+  }, { rootMargin: '600px 0px' });
+  io.observe($('more'));
+}
+let timer;
+$('q').addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(run, 150); });
+if (!data.length) $('status').textContent = 'No catalog found. Run Engineering/_tools/make_catalog.py first.';
+else { buildFilters(); run(); }
+</script>
+<script src="_catalog/wbs_scan.js?v=7792b3a7"></script></body>
+</html>

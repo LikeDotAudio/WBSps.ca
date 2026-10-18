@@ -1,0 +1,29 @@
+{
+ "code": "M8200",
+ "series": null,
+ "type": "M8200",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "I1",
+   "signal": "Input",
+   "dir": "in",
+   "pos": "I1P",
+   "neg": "I1N",
+   "src_page": 18
+  }
+ ],
+ "power": [],
+ "logic": [],
+ "ground": [
+  "GROUND"
+ ],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "60290c2f14dadee8c2db3f215d99240da9213051bae5cc7c9d732b765bcda712"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."
+}

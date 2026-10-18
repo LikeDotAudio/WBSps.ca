@@ -1,0 +1,1880 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Prices</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>Prices</h1>
+<p><strong>List prices</strong> come from original Ward-Beck price schedules (OCR, checked row by row); <strong>used market value</strong> comes from the WBSps.ca price guide in each website snapshot. "As read" keeps the raw OCR so any price can be checked.</p>
+<h2>Undated — list price</h2>
+<p>Source: <a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/1977%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">7000 series - price list.jpg</a>, <a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/1977%20-%20PRICE%20LIST%20-%20list.jpg">price list.jpg</a></p>
+<table>
+<thead>
+<tr>
+<th>Model</th>
+<th>Listed as</th>
+<th>Price</th>
+<th>Effective</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="M121.html">M121</a></td>
+<td>Intercom Crosspoint (normaIy OFF-switch ON)</td>
+<td>9.00 USD</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M121.html">M121</a></td>
+<td>Intercom Crosspoint (normaIIy OFF-switch ON)</td>
+<td>9.00 USD</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M122.html">M122</a></td>
+<td>Intercom Crosspoint permanently ON)</td>
+<td>5.00 USD</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M122.html">M122</a></td>
+<td>Intercom Crosspoint permanently ON)</td>
+<td>5.00 USD</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M701.html">M701</a></td>
+<td>Intercom Input Amplifier</td>
+<td>130.00 USD</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M701.html">M701</a></td>
+<td>Intercom Input Amplifier</td>
+<td>130.00 USD</td>
+<td></td>
+</tr>
+<tr>
+<td>M7012</td>
+<td>Basic Intercom Matrix, 12 X 12 fully wired, and</td>
+<td>3,450.00 USD</td>
+<td></td>
+</tr>
+<tr>
+<td>M7012</td>
+<td>Basic Intercom Matrix, 12 X 12  fully wired, and</td>
+<td>3,450.00 USD</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M702.html">M702</a></td>
+<td>Intercom Output Amplifier</td>
+<td>110.00 USD</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M702.html">M702</a></td>
+<td>Intercom Output Amplifier</td>
+<td>110.00 USD</td>
+<td></td>
+</tr>
+<tr>
+<td>M7024</td>
+<td>Basic Intercom Matrix, 24 X 24, fully wired, and</td>
+<td>6,450.00 USD</td>
+<td></td>
+</tr>
+<tr>
+<td>M7024</td>
+<td>Basic Intercom Matrix, 24 X 24, fully wired , and S</td>
+<td>6,450.00 USD</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M703.html">M703</a></td>
+<td>Intercom Input/Output Ampl ifier</td>
+<td>200.00 USD</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M703.html">M703</a></td>
+<td>Intercom Input/Output Amplifier</td>
+<td>200.00 USD</td>
+<td></td>
+</tr>
+<tr>
+<td>M703A</td>
+<td>Intercom Input/Output Amplifier (CBS)</td>
+<td>210.00 USD</td>
+<td></td>
+</tr>
+<tr>
+<td>M703A</td>
+<td>Intercom Input/Output Amplifier (CBS)</td>
+<td>210.00 USD</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M712.html">M712</a></td>
+<td>Intercom Matrix Switching Board</td>
+<td>65.00 USD</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M712.html">M712</a></td>
+<td>Intercom Matrix Switching Board</td>
+<td>65.00 USD</td>
+<td></td>
+</tr>
+<tr>
+<td>M712A</td>
+<td>Intercom Matrix Switching Board (CBS)</td>
+<td>70.00 USD</td>
+<td></td>
+</tr>
+<tr>
+<td>M712A</td>
+<td>Intercom Matrix Switching Board (CBS)</td>
+<td>70.00 USD</td>
+<td></td>
+</tr>
+<tr>
+<td>M712AX</td>
+<td>Intercom Matrix Switching Board with 12 M721 Xpts_ (CBS)</td>
+<td>185.00 USD</td>
+<td></td>
+</tr>
+<tr>
+<td>M712AX</td>
+<td>Intercom Matrix Switching Board with 12 M721 Xpts (CBS)</td>
+<td>185.00 USD</td>
+<td></td>
+</tr>
+<tr>
+<td>M712X</td>
+<td>Intercom Matrix Switching Board with 12 M721 Xpts _</td>
+<td>180.00 USD</td>
+<td></td>
+</tr>
+<tr>
+<td>M712X</td>
+<td>Intercom Matrix Switching Board with 12 M721 Xpts</td>
+<td>180.00 USD</td>
+<td></td>
+</tr>
+<tr>
+<td>M723</td>
+<td>Intercom Crosspoint (norma lIy ON-switch OFF)</td>
+<td>9.00 USD</td>
+<td></td>
+</tr>
+<tr>
+<td>M723</td>
+<td>Intercom Crosspoint (normaly ON-switch OFF)</td>
+<td>9.00 USD</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M724.html">M724</a></td>
+<td>Intercom Crosspoint part mute-switch ON)</td>
+<td>12.00 USD</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M724.html">M724</a></td>
+<td>Intercom Crosspoint (part mute-switch ON)</td>
+<td>12.00 USD</td>
+<td></td>
+</tr>
+<tr>
+<td>M725</td>
+<td>Intercom Crosspoint (norma Iy ON-switch part mute)</td>
+<td>12.00 USD</td>
+<td></td>
+</tr>
+<tr>
+<td>M725</td>
+<td>Intercom Crosspoint (norma lIy ON-switch part mute)</td>
+<td>12.00 USD</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>1975 — list price</h2>
+<p>Source: <a href="../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/1975%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">20170522_122029_022.jpg</a></p>
+<table>
+<thead>
+<tr>
+<th>Model</th>
+<th>Listed as</th>
+<th>Price</th>
+<th>Effective</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="M402B.html">M402B</a></td>
+<td>Effects Equalizer</td>
+<td>415.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td><a href="M404A.html">M404A</a></td>
+<td>Hi/Lo Pass Filter</td>
+<td>415.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td><a href="M405C.html">M405C</a></td>
+<td>Rack Mounted Extended Range VU Meter</td>
+<td>425.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td><a href="M406B.html">M406B</a></td>
+<td>Compressor/Limiter</td>
+<td>435.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td>M411M</td>
+<td>Mono Phono Preamplifier</td>
+<td>335.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td><a href="M412.html">M412</a></td>
+<td>Multi-frequency Oscilator</td>
+<td>280.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td><a href="M415.html">M415</a></td>
+<td>Mic/line Ampli fier with compression</td>
+<td>485.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td><a href="M441M.html">M441M</a></td>
+<td>Channel Amplifier</td>
+<td>435.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td>M4HIS</td>
+<td>Stereo Phono Preamplifier</td>
+<td>435.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td><a href="M524.html">M524</a></td>
+<td>24 Volt dc Dual Lamp/Relay Power Supply</td>
+<td>200.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td>M6</td>
+<td>8 48 Volt dc Regulated Power Supply</td>
+<td>280.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td><a href="M600.html">M600</a></td>
+<td>Universal Amplifier</td>
+<td>200.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td><a href="M604.html">M604</a></td>
+<td>Oscillator</td>
+<td>175.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td><a href="M605.html">M605</a></td>
+<td>Audio Distribution Amplifier</td>
+<td>260.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td><a href="M610.html">M610</a></td>
+<td>10 Watt Monitor Amplifier</td>
+<td>300.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td><a href="M612.html">M612</a></td>
+<td>Audio Distribution Amplifier</td>
+<td>320.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td>M621T</td>
+<td>20 Watt Monitor Amplifier with output transformer</td>
+<td>410.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td><a href="M628.html">M628</a></td>
+<td>Intercom Power Supply</td>
+<td>245.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td><a href="M666.html">M666</a></td>
+<td>100 Watt Monitor Amplifier</td>
+<td>625.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td><a href="M701.html">M701</a></td>
+<td>Intercom Preamplifier</td>
+<td>110.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td><a href="M702.html">M702</a></td>
+<td>Intercom Output Ampl ifier-3 Watts</td>
+<td>110.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td><a href="M703.html">M703</a></td>
+<td>Intercom Preampl i fier/Output Amplifier</td>
+<td>200.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td><a href="M712.html">M712</a></td>
+<td>Intercom 12 X Crosspoint Board</td>
+<td>50.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td>M723</td>
+<td>Crosspoint-ON switched OFF 9.00 Edgewise gain reduction meter for M4O6B</td>
+<td>50.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td><a href="M724.html">M724</a></td>
+<td>Crosspoint-partial mute</td>
+<td>9.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td>M725</td>
+<td>Crosspoint (specials)</td>
+<td>on request</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td><a href="M757.html">M757</a></td>
+<td>Splitting Network Card</td>
+<td>12.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td>MF2</td>
+<td>Moideing guides Tess Frame 54 inches c/w 24 module connectors</td>
+<td>110.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td>MF6</td>
+<td>Mounting Frame 600 Series</td>
+<td>85.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td>MFR2</td>
+<td>Connector</td>
+<td>3.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td>MFR2A</td>
+<td>Connector</td>
+<td>3.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td>MFR6</td>
+<td>Connector For MF6 Frame</td>
+<td>3.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td>PJ71</td>
+<td>Patch Cord-1 Ft</td>
+<td>11.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td>PJ72</td>
+<td>-2 Ft</td>
+<td>11.75 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td>PJ73</td>
+<td>-3 Ft</td>
+<td>12.50 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td>PJ74</td>
+<td>-4 Ft</td>
+<td>13.75 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td>PJ76</td>
+<td>-6 Ft</td>
+<td>14.75 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td>RM424J</td>
+<td>Jack Strip Unwired c/w 24 Jacks</td>
+<td>85.00 USD</td>
+<td>May 1975</td>
+</tr>
+<tr>
+<td><a href="RM424S.html">RM424S</a></td>
+<td>Shielded -Prewired Jackfield</td>
+<td>190.00 USD</td>
+<td>May 1975</td>
+</tr>
+</tbody>
+</table>
+<h2>2005 — used market value</h2>
+<p>Source: wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/old website/PriceGuide.htm</p>
+<table>
+<thead>
+<tr>
+<th>Model</th>
+<th>Listed as</th>
+<th>Price</th>
+<th>Effective</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="M201.html">M201</a></td>
+<td>M201 Relay</td>
+<td>5.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M202.html">M202</a></td>
+<td>M202 Logic Latch</td>
+<td>5.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M207.html">M207</a></td>
+<td>M207 Phantom Power Card</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M405.html">M405</a></td>
+<td>M405 Portable Extended Range VU Meter</td>
+<td>200.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M406M.html">M406M</a></td>
+<td>M406M Compressors</td>
+<td>250.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M412.html">M412</a></td>
+<td>M412 Oscillator</td>
+<td>20.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M433.html">M433</a></td>
+<td>M433 Peak Program Meter</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td>M434</td>
+<td>M434 Peak Program Meter</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M435.html">M435</a></td>
+<td>M435 VU Meter</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td>M436</td>
+<td>M436 VU Meter</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M450A.html">M450A</a></td>
+<td>M450A Program Amplifier</td>
+<td>10.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M450B.html">M450B</a></td>
+<td>M450B Program - Summing Amplifier</td>
+<td>10.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M451.html">M451</a></td>
+<td>M451 Slate and M452 Oscillator</td>
+<td>10.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M451.html">M451</a></td>
+<td>M451 Talkback</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M452.html">M452</a></td>
+<td>M451 Slate and M452 Oscillator</td>
+<td>10.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M453A.html">M453A</a></td>
+<td>M453A Cue Amplifier</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M454.html">M454</a></td>
+<td>M454 Slate Assign</td>
+<td>10.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M455.html">M455</a></td>
+<td>M455 AUX sends</td>
+<td>10.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M457A.html">M457A</a></td>
+<td>M457A Pre-Mixer Master</td>
+<td>10.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M460.html">M460</a></td>
+<td>M460 Input</td>
+<td>250.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M460A.html">M460A</a></td>
+<td>M460A Input</td>
+<td>250.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M460B.html">M460B</a></td>
+<td>M460B Input</td>
+<td>250.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M460L.html">M460L</a></td>
+<td>M460L Input</td>
+<td>250.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M460LA.html">M460LA</a></td>
+<td>M460LA Input</td>
+<td>250.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M460M.html">M460M</a></td>
+<td>M460M Input</td>
+<td>250.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M460T.html">M460T</a></td>
+<td>M460T - Input</td>
+<td>250.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M461.html">M461</a></td>
+<td>M461 Input</td>
+<td>200.00</td>
+<td></td>
+</tr>
+<tr>
+<td>M461A</td>
+<td>M461A Stereo Input s</td>
+<td>50.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M462.html">M462</a></td>
+<td>M462 Equalizer</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M462A.html">M462A</a></td>
+<td>M462A Equalizer</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M462B.html">M462B</a></td>
+<td>M462B Equalizer</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M463.html">M463</a></td>
+<td>M463 Sub master</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M463A.html">M463A</a></td>
+<td>M463A Sub master</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M463AB.html">M463AB</a></td>
+<td>M463AB Sub master</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M463AC.html">M463AC</a></td>
+<td>M463AC Sub master</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M463J.html">M463J</a></td>
+<td>M463J Sub master</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M463K.html">M463K</a></td>
+<td>M463K Sub master</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M463L.html">M463L</a></td>
+<td>M463L Sub master</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M463LA.html">M463LA</a></td>
+<td>M463LA Sub master</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M464.html">M464</a></td>
+<td>M464 High Pass Low Pass Filter</td>
+<td>75.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M465.html">M465</a></td>
+<td>M465 Reverb return</td>
+<td>20.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M465B.html">M465B</a></td>
+<td>M465B Dual Mix down</td>
+<td>50.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M466.html">M466</a></td>
+<td>M466 Compressor/Limiter/De-esser</td>
+<td>300.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M466.html">M466</a></td>
+<td>M466M Meter for M466</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M466C.html">M466C</a></td>
+<td>M466C Compressor/Limiter/De-esser</td>
+<td>300.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M466M.html">M466M</a></td>
+<td>M466M Meter for M466</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M467.html">M467</a></td>
+<td>M467 Noise Gate and Meter</td>
+<td>75.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M468A.html">M468A</a></td>
+<td>M468A 8 X 1 High Level Switcher</td>
+<td>20.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M470.html">M470</a></td>
+<td>M470 Input</td>
+<td>150.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M470A.html">M470A</a></td>
+<td>M470A New Switches and new pots</td>
+<td>250.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M470A.html">M470A</a></td>
+<td>M470A Old Style Switches and Old Style Pots</td>
+<td>200.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M470C.html">M470C</a></td>
+<td>M470C Input</td>
+<td>150.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M470D.html">M470D</a></td>
+<td>M470D 2AUX with pan</td>
+<td>150.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M470E.html">M470E</a></td>
+<td>M470E Input</td>
+<td>150.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M471A.html">M471A</a></td>
+<td>M471A Stereo Input</td>
+<td>150.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M472.html">M472</a></td>
+<td>M472 Equalizer</td>
+<td>75.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M472A.html">M472A</a></td>
+<td>M472A Stereo Equalizer</td>
+<td>200.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M473.html">M473</a></td>
+<td>M473 Sub master</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M473A.html">M473A</a></td>
+<td>M473A Sub master</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M473B.html">M473B</a></td>
+<td>M473B Stereo Sub master</td>
+<td>50.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M475.html">M475</a></td>
+<td>M475 Monitor</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M475A.html">M475A</a></td>
+<td>M475A Stereo Monitor</td>
+<td>50.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M477.html">M477</a></td>
+<td>M477 Master</td>
+<td>50.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M479.html">M479</a></td>
+<td>M479 Dual Auxiliary</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M480B.html">M480B</a></td>
+<td>M480B Pre-amp</td>
+<td>150.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M480C.html">M480C</a></td>
+<td>M480C Input</td>
+<td>150.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M481.html">M481</a></td>
+<td>M481 Oscillator / Cue Amplifier</td>
+<td>10.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M481B.html">M481B</a></td>
+<td>M481B Cue OSC Re-entry</td>
+<td>10.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M482B.html">M482B</a></td>
+<td>M482B Monitor</td>
+<td>10.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M484.html">M484</a></td>
+<td>M484 / M484A Summing Amplifier</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td>M484A</td>
+<td>M484 / M484A Summing Amplifier</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M485B.html">M485B</a></td>
+<td>M485B 25V power Supply</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M487.html">M487</a></td>
+<td>M487 Dual Master</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M487.html">M487</a></td>
+<td>M487 Pre-amp</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M490F.html">M490F</a></td>
+<td>M490F Input</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M490G.html">M490G</a></td>
+<td>M490G Mic Input</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M490H.html">M490H</a></td>
+<td>M490H Line Input</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M490J.html">M490J</a></td>
+<td>M490J Mic Input</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M490K.html">M490K</a></td>
+<td>M490K Line Input</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M490L.html">M490L</a></td>
+<td>M490L Stereo Input</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M490M.html">M490M</a></td>
+<td>M490M Stereo Input</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M490N.html">M490N</a></td>
+<td>M490N Stereo Input</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M494.html">M494</a></td>
+<td>M494 Remote Line / Cue</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M495.html">M495</a></td>
+<td>M495 Stereo Monitor</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M497A.html">M497A</a></td>
+<td>M497A Dual Master</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M497B.html">M497B</a></td>
+<td>M497B Dual Master</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M497C.html">M497C</a></td>
+<td>M497C Dual Master</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M497D.html">M497D</a></td>
+<td>M497D Dual Master</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M498.html">M498</a></td>
+<td>M498 16 X 2 Stereo Switcher</td>
+<td>10.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M498A.html">M498A</a></td>
+<td>M498A 10 X 1 Selector</td>
+<td>10.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M520K.html">M520K</a></td>
+<td>M520K Stereo Input</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M522.html">M522</a></td>
+<td>M522 - Equalizer</td>
+<td>75.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M522.html">M522</a></td>
+<td>M522 Input</td>
+<td>150.00</td>
+<td></td>
+</tr>
+<tr>
+<td>M522A</td>
+<td>M522A - Equalizer</td>
+<td>75.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M522B.html">M522B</a></td>
+<td>M522B - Equalizer</td>
+<td>75.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M522C.html">M522C</a></td>
+<td>M522C - Equalizer</td>
+<td>75.00</td>
+<td></td>
+</tr>
+<tr>
+<td>M562</td>
+<td>M562 Equalizer</td>
+<td>150.00</td>
+<td></td>
+</tr>
+<tr>
+<td>M562B</td>
+<td>M562B Equalizer</td>
+<td>150.00</td>
+<td></td>
+</tr>
+<tr>
+<td>M566</td>
+<td>M566 Compressor/Limiter/De-esser</td>
+<td>300.00</td>
+<td></td>
+</tr>
+<tr>
+<td>M567</td>
+<td>M567 Noise Gate and Meter</td>
+<td>75.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M600.html">M600</a></td>
+<td>M600 Audio Distribution Amplifier</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M604.html">M604</a></td>
+<td>M604 Dual Frequency Oscillator</td>
+<td>10.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M605A.html">M605A</a></td>
+<td>M605A Audio DA</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M608.html">M608</a></td>
+<td>M608 Audio DA</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M609.html">M609</a></td>
+<td>M609 Remote Sensitivity Audio DA</td>
+<td>10.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M610.html">M610</a></td>
+<td>M610 10 Watt Monitor Amplifier</td>
+<td>75.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M612.html">M612</a></td>
+<td>M612 Audio DA</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M612A.html">M612A</a></td>
+<td>M612A Audio DA</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M624.html">M624</a></td>
+<td>M624 Power Supply</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M625A.html">M625A</a></td>
+<td>M625A Power Supply</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M625B.html">M625B</a></td>
+<td>M625B Power Supply</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M632.html">M632</a></td>
+<td>M632 Power Supply</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M648.html">M648</a></td>
+<td>M648 Power Supply</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M8200.html">M8200</a></td>
+<td>M8200 Microphone Preamplifier</td>
+<td>75.00</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>2006 — used market value</h2>
+<p>Source: wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/jan 2006 shell/priceguide.htm</p>
+<table>
+<thead>
+<tr>
+<th>Model</th>
+<th>Listed as</th>
+<th>Price</th>
+<th>Effective</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="M201.html">M201</a></td>
+<td>M201 Relay</td>
+<td>5.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M202.html">M202</a></td>
+<td>M202 Logic Latch</td>
+<td>5.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M207.html">M207</a></td>
+<td>M207 Phantom Power Card</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M405.html">M405</a></td>
+<td>M405 Portable Extended Range VU Meter</td>
+<td>200.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M406M.html">M406M</a></td>
+<td>M406M Compressors</td>
+<td>250.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M412.html">M412</a></td>
+<td>M412 Oscillator</td>
+<td>20.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M433.html">M433</a></td>
+<td>M433 Peak Program Meter</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td>M434</td>
+<td>M434 Peak Program Meter</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M435.html">M435</a></td>
+<td>M435 VU Meter</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td>M436</td>
+<td>M436 VU Meter</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M450A.html">M450A</a></td>
+<td>M450A Program Amplifier</td>
+<td>10.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M450B.html">M450B</a></td>
+<td>M450B Program - Summing Amplifier</td>
+<td>10.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M451.html">M451</a></td>
+<td>M451 Slate and M452 Oscillator</td>
+<td>10.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M451.html">M451</a></td>
+<td>M451 Talkback</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M452.html">M452</a></td>
+<td>M451 Slate and M452 Oscillator</td>
+<td>10.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M453A.html">M453A</a></td>
+<td>M453A Cue Amplifier</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M454.html">M454</a></td>
+<td>M454 Slate Assign</td>
+<td>10.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M455.html">M455</a></td>
+<td>M455 AUX sends</td>
+<td>10.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M457A.html">M457A</a></td>
+<td>M457A Pre-Mixer Master</td>
+<td>10.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M460.html">M460</a></td>
+<td>M460 Input</td>
+<td>250.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M460A.html">M460A</a></td>
+<td>M460A Input</td>
+<td>250.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M460B.html">M460B</a></td>
+<td>M460B Input</td>
+<td>250.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M460L.html">M460L</a></td>
+<td>M460L Input</td>
+<td>250.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M460LA.html">M460LA</a></td>
+<td>M460LA Input</td>
+<td>250.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M460M.html">M460M</a></td>
+<td>M460M Input</td>
+<td>250.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M460T.html">M460T</a></td>
+<td>M460T - Input</td>
+<td>250.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M461.html">M461</a></td>
+<td>M461 Input</td>
+<td>200.00</td>
+<td></td>
+</tr>
+<tr>
+<td>M461A</td>
+<td>M461A Stereo Input s</td>
+<td>50.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M462.html">M462</a></td>
+<td>M462 Equalizer</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M462A.html">M462A</a></td>
+<td>M462A Equalizer</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M462B.html">M462B</a></td>
+<td>M462B Equalizer</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M463.html">M463</a></td>
+<td>M463 Sub master</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M463A.html">M463A</a></td>
+<td>M463A Sub master</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M463AB.html">M463AB</a></td>
+<td>M463AB Sub master</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M463AC.html">M463AC</a></td>
+<td>M463AC Sub master</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M463J.html">M463J</a></td>
+<td>M463J Sub master</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M463K.html">M463K</a></td>
+<td>M463K Sub master</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M463L.html">M463L</a></td>
+<td>M463L Sub master</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M463LA.html">M463LA</a></td>
+<td>M463LA Sub master</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M464.html">M464</a></td>
+<td>M464 High Pass Low Pass Filter</td>
+<td>75.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M465.html">M465</a></td>
+<td>M465 Reverb return</td>
+<td>20.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M465B.html">M465B</a></td>
+<td>M465B Dual Mix down</td>
+<td>50.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M466.html">M466</a></td>
+<td>M466 Compressor/Limiter/De-esser</td>
+<td>300.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M466.html">M466</a></td>
+<td>M466M Meter for M466</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M466C.html">M466C</a></td>
+<td>M466C Compressor/Limiter/De-esser</td>
+<td>300.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M466M.html">M466M</a></td>
+<td>M466M Meter for M466</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M467.html">M467</a></td>
+<td>M467 Noise Gate and Meter</td>
+<td>75.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M468A.html">M468A</a></td>
+<td>M468A 8 X 1 High Level Switcher</td>
+<td>20.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M470.html">M470</a></td>
+<td>M470 Input</td>
+<td>150.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M470A.html">M470A</a></td>
+<td>M470A New Switches and new pots</td>
+<td>250.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M470A.html">M470A</a></td>
+<td>M470A Old Style Switches and Old Style Pots</td>
+<td>200.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M470C.html">M470C</a></td>
+<td>M470C Input</td>
+<td>150.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M470D.html">M470D</a></td>
+<td>M470D 2AUX with pan</td>
+<td>150.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M470E.html">M470E</a></td>
+<td>M470E Input</td>
+<td>150.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M471A.html">M471A</a></td>
+<td>M471A Stereo Input</td>
+<td>150.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M472.html">M472</a></td>
+<td>M472 Equalizer</td>
+<td>75.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M472A.html">M472A</a></td>
+<td>M472A Stereo Equalizer</td>
+<td>200.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M473.html">M473</a></td>
+<td>M473 Sub master</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M473A.html">M473A</a></td>
+<td>M473A Sub master</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M473B.html">M473B</a></td>
+<td>M473B Stereo Sub master</td>
+<td>50.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M475.html">M475</a></td>
+<td>M475 Monitor</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M475A.html">M475A</a></td>
+<td>M475A Stereo Monitor</td>
+<td>50.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M477.html">M477</a></td>
+<td>M477 Master</td>
+<td>50.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M479.html">M479</a></td>
+<td>M479 Dual Auxiliary</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M480B.html">M480B</a></td>
+<td>M480B Pre-amp</td>
+<td>150.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M480C.html">M480C</a></td>
+<td>M480C Input</td>
+<td>150.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M481.html">M481</a></td>
+<td>M481 Oscillator / Cue Amplifier</td>
+<td>10.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M481B.html">M481B</a></td>
+<td>M481B Cue OSC Re-entry</td>
+<td>10.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M482B.html">M482B</a></td>
+<td>M482B Monitor</td>
+<td>10.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M484.html">M484</a></td>
+<td>M484 / M484A Summing Amplifier</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td>M484A</td>
+<td>M484 / M484A Summing Amplifier</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M485B.html">M485B</a></td>
+<td>M485B 25V power Supply</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M487.html">M487</a></td>
+<td>M487 Dual Master</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M487.html">M487</a></td>
+<td>M487 Pre-amp</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M490F.html">M490F</a></td>
+<td>M490F Input</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M490G.html">M490G</a></td>
+<td>M490G Mic Input</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M490H.html">M490H</a></td>
+<td>M490H Line Input</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M490J.html">M490J</a></td>
+<td>M490J Mic Input</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M490K.html">M490K</a></td>
+<td>M490K Line Input</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M490L.html">M490L</a></td>
+<td>M490L Stereo Input</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M490M.html">M490M</a></td>
+<td>M490M Stereo Input</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M490N.html">M490N</a></td>
+<td>M490N Stereo Input</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M494.html">M494</a></td>
+<td>M494 Remote Line / Cue</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M495.html">M495</a></td>
+<td>M495 Stereo Monitor</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M497A.html">M497A</a></td>
+<td>M497A Dual Master</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M497B.html">M497B</a></td>
+<td>M497B Dual Master</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M497C.html">M497C</a></td>
+<td>M497C Dual Master</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M497D.html">M497D</a></td>
+<td>M497D Dual Master</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M498.html">M498</a></td>
+<td>M498 16 X 2 Stereo Switcher</td>
+<td>10.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M498A.html">M498A</a></td>
+<td>M498A 10 X 1 Selector</td>
+<td>10.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M520K.html">M520K</a></td>
+<td>M520K Stereo Input</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M522.html">M522</a></td>
+<td>M522 - Equalizer</td>
+<td>75.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M522.html">M522</a></td>
+<td>M522 Input</td>
+<td>150.00</td>
+<td></td>
+</tr>
+<tr>
+<td>M522A</td>
+<td>M522A - Equalizer</td>
+<td>75.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M522B.html">M522B</a></td>
+<td>M522B - Equalizer</td>
+<td>75.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M522C.html">M522C</a></td>
+<td>M522C - Equalizer</td>
+<td>75.00</td>
+<td></td>
+</tr>
+<tr>
+<td>M562</td>
+<td>M562 Equalizer</td>
+<td>150.00</td>
+<td></td>
+</tr>
+<tr>
+<td>M562B</td>
+<td>M562B Equalizer</td>
+<td>150.00</td>
+<td></td>
+</tr>
+<tr>
+<td>M566</td>
+<td>M566 Compressor/Limiter/De-esser</td>
+<td>300.00</td>
+<td></td>
+</tr>
+<tr>
+<td>M567</td>
+<td>M567 Noise Gate and Meter</td>
+<td>75.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M600.html">M600</a></td>
+<td>M600 Audio Distribution Amplifier</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M604.html">M604</a></td>
+<td>M604 Dual Frequency Oscillator</td>
+<td>10.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M605A.html">M605A</a></td>
+<td>M605A Audio DA</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M608.html">M608</a></td>
+<td>M608 Audio DA</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M609.html">M609</a></td>
+<td>M609 Remote Sensitivity Audio DA</td>
+<td>10.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M610.html">M610</a></td>
+<td>M610 10 Watt Monitor Amplifier</td>
+<td>75.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M612.html">M612</a></td>
+<td>M612 Audio DA</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M612A.html">M612A</a></td>
+<td>M612A Audio DA</td>
+<td>25.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M624.html">M624</a></td>
+<td>M624 Power Supply</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M625A.html">M625A</a></td>
+<td>M625A Power Supply</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M625B.html">M625B</a></td>
+<td>M625B Power Supply</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M632.html">M632</a></td>
+<td>M632 Power Supply</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M648.html">M648</a></td>
+<td>M648 Power Supply</td>
+<td>100.00</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M8200.html">M8200</a></td>
+<td>M8200 Microphone Preamplifier</td>
+<td>75.00</td>
+<td></td>
+</tr>
+</tbody>
+</table><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from Prices.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

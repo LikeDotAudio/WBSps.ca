@@ -1,0 +1,74 @@
+# 1996 - 960163-04-001 - CBC OTTAWA PARLIMENTARY BUREAU 48x96 MicroCOM RACK LAYOUT - DRN DRG - ISS 2.jpg
+Wiki page: [Job-960163](../../../PAGES/Job-960163.md)
+
+
+- **Year:** 1996 (job number 960163)
+- **Job / serial number:** 960163
+- **Project:** CBC OTTAWA
+
+## Title block (found by software, read by eye)
+
+- **Drawing:** D 960163-04-001
+- **Size:** D
+- **Title:** CBC OTTAWA / PARLIMENTARY BUREAU / 48x96 MicroCOM RACK LAYOUT
+- **Drawn:** DRG
+- **Issue:** 2
+- **Customer:** CBC OTTAWA
+- **Confidence:** medium
+
+- **Original file:** `WBSps.env/WBS Photos-1-001/2021-3-17-0-3-42.jpg`
+- **SHA-256:** `7055a11ec898bf2ab16f14a807a385fb4cad5e14af07f5ff919c0e70eb8c6503`
+- **Size:** 1,530,454 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 3 words corrected)
+
+```text
+2232
+3222
+9034
+0
+2 2
+33382E
+6 | $ | % | $ | R | $ | 6 | 8 | & | R | v | 8 | # | < | R | & | ~ | 8 | ? | ? / - / % | " / = / ? | ~ | = | 9 | 0 | 0 | ^ /  | # / + / n | ~
+2 2
+O#
+NOTES: EQUIPMENT FRAMES ARE SHOWN With DOORS REMOVED CONNECTIONS To MATRIX ARE VIA SUBMINIATURE TYPE   CONNECTORS
+ISSUEL DATE
+REVISION
+WBS
+WARD-BECK SYSTEMS
+DRN: ENG;
+CBC   OTTAWA PARLIMENTARY BUREAU 48x96 MicroCOM RACK LAYOUT SCALE DISC NO:  Sysoi ISSUE 960163-04-001 NTS CODE: 96163L0.
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+2232
+3222
+9034
+0
+2 2
+33382E
+6 | $ | % | $ | R | $ | 6 | 8 | & | R | v | 8 | # | < | R | & | ~ | 8 | ? | ? / - / % | " / = / ? | ~ | = | 9 | 0 | 0 | ^ /  | # / + / n | ~
+2 2
+O#
+NQTES: EQUIPMENT FRAMES ARE SHOWN With DOORS REMOVED CONNECTIONS To MATRIX ARE VIA SUBMINIATURE TYPE   CONNECTORS
+ISSUEI DATE
+REVSION
+WBS
+WARD-BECK SYSTEMS
+DRN: ENG;
+CBC   OTTAWA PARLIMENTARY BUREAU 48x96 MicroCOM RACK LAYOUT SCALE DISC NO:  Sysoi ISSUE 960163-04-001 NTS CODE: 96163L0.
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"Consoles/1990-1999/960163 - CBC OTTAWA/1996 - 960163-04-001 - CBC OTTAWA PARLIMENTARY BUREAU 48x96 MicroCOM RACK LAYOUT - DRN DRG - ISS 2.jpg","sha256":"7055a11ec898bf2ab16f14a807a385fb4cad5e14af07f5ff919c0e70eb8c6503","kind":"job","models":["960163"],"year":1996,"pages":1,"order":[{"page":1,"title_block":[{"number":"D 960163-04-001","type":"layout / outline","title":"CBC OTTAWA / PARLIMENTARY BUREAU / 48x96 MicroCOM RACK LAYOUT","year":1996,"drawn":"DRG","issue":"2"}],"text":["4","2","338826","5 | % | % | $ | 3 3 | 6 8| &","0.0","2","NOIes_","CONNECTORS ISSUE DATE","WBS WARD-BECK SYSTEMS","CBC OTTAWA","PARLIMENTARY BUREAU","48*96 MicroCOM RACK LAYOUT","CCALE IDISC NL 960163-04-001","Code: 96163L01"]}],"drawing":{"svg":"_traces/7055a11ec898bf2a.svg","viewBox":[2000,1342],"rotate":0,"size":"D","number":"D 960163-04-001","title":"CBC OTTAWA / PARLIMENTARY BUREAU / 48x96 MicroCOM RACK LAYOUT","dtype":"04","outlines":"see _traces/7055a11ec898bf2a.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[1022,469,"338826"],[331,564,"5 | % | % | $ | 3"],[491,561,"3 | 6"],[799,656,"0.0"],[1208,1135,"NOIes_"],[1508,1162,"CONNECTORS"],[1661,1171,"ISSUE DATE"],[1609,1201,"WBS"],[1724,1201,"WARD-BECK SYSTEMS"],[1759,1236,"CBC"],[1804,1233,"OTTAWA"],[1710,1253,"PARLIMENTARY"],[1839,1253,"BUREAU"],[1676,1271,"48*96"],[1736,1271,"MicroCOM RACK LAYOUT"],[1592,1285,"CCALE"],[1630,1287,"IDISC NL"],[1631,1303,"Code: 96163L01"],[1756,1298,"960163-04-001"]]}}
+```

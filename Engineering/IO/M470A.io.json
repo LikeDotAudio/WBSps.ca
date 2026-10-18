@@ -1,0 +1,175 @@
+{
+ "code": "M470A",
+ "series": null,
+ "type": "M470A",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "I1",
+   "signal": "Line In",
+   "dir": "in",
+   "pos": "I1P",
+   "neg": "I1N",
+   "src_page": 21
+  },
+  {
+   "port": "I2",
+   "signal": "Ch On In",
+   "dir": "in",
+   "pos": "I2P",
+   "neg": "I2N",
+   "src_page": 21
+  },
+  {
+   "port": "I3",
+   "signal": "Equal Out 2/22 Equal In (Upper)",
+   "dir": "in",
+   "pos": "I3P",
+   "neg": "I3N",
+   "src_page": 21
+  },
+  {
+   "port": "I4",
+   "signal": "Equal Out 1 22 Equal In",
+   "dir": "in",
+   "pos": "I4P",
+   "neg": "I4N",
+   "src_page": 21
+  },
+  {
+   "port": "O1",
+   "signal": "Sub Master Outputs To Mixer Bus",
+   "dir": "out",
+   "pos": "O1P",
+   "neg": "O1N",
+   "src_page": 19
+  },
+  {
+   "port": "O2",
+   "signal": "Master 2 Out",
+   "dir": "out",
+   "pos": "O2P",
+   "neg": "O2N",
+   "src_page": 21
+  },
+  {
+   "port": "O3",
+   "signal": "Sub 4 Out",
+   "dir": "out",
+   "pos": "O3P",
+   "neg": "O3N",
+   "src_page": 21
+  },
+  {
+   "port": "O4",
+   "signal": "Att Out",
+   "dir": "out",
+   "pos": "O4P",
+   "neg": "O4N",
+   "src_page": 21
+  },
+  {
+   "port": "O5",
+   "signal": "Ch On Out",
+   "dir": "out",
+   "pos": "O5P",
+   "neg": "O5N",
+   "src_page": 21
+  },
+  {
+   "port": "O6",
+   "signal": "Pre Out",
+   "dir": "out",
+   "pos": "O6P",
+   "neg": "O6N",
+   "src_page": 21
+  },
+  {
+   "port": "O7",
+   "signal": "Aux 4 Out",
+   "dir": "out",
+   "pos": "O7P",
+   "neg": "O7N",
+   "src_page": 21
+  },
+  {
+   "port": "O8",
+   "signal": "Aux 3 Out",
+   "dir": "out",
+   "pos": "O8P",
+   "neg": "O8N",
+   "src_page": 21
+  },
+  {
+   "port": "O9",
+   "signal": "Aux 2 Out",
+   "dir": "out",
+   "pos": "O9P",
+   "neg": "O9N",
+   "src_page": 21
+  },
+  {
+   "port": "O10",
+   "signal": "Aux Out",
+   "dir": "out",
+   "pos": "O10P",
+   "neg": "O10N",
+   "src_page": 21
+  }
+ ],
+ "power": [
+  {
+   "rail": "+24V",
+   "volts": 24.0,
+   "supply": "+24V",
+   "ground": "CHASSIS",
+   "max_a": null
+  },
+  {
+   "rail": "-24V",
+   "volts": -24.0,
+   "supply": "-24V",
+   "ground": "CHASSIS",
+   "max_a": null
+  }
+ ],
+ "logic": [
+  {
+   "signal": "Control",
+   "pin": ""
+  },
+  {
+   "signal": "Nf Mute Lontrcl",
+   "pin": ""
+  },
+  {
+   "signal": "Pfl",
+   "pin": ""
+  },
+  {
+   "signal": "Ctl",
+   "pin": ""
+  },
+  {
+   "signal": "Solo",
+   "pin": ""
+  },
+  {
+   "signal": "Ch On Lamp",
+   "pin": ""
+  }
+ ],
+ "ground": [
+  "CHASSIS",
+  ") CONTROL COMMON"
+ ],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "0c81ae696da10d55997c874f4c6f6625ac1798cf34acbfc556f9a87ff476d774",
+  "de789b0c76b01252c60c952d3881a4f52b0cb969c522552a75d5b57ec345ddf2"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one. (this device has one)"
+}

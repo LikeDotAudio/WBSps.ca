@@ -1,0 +1,107 @@
+OrCAD Capture schematic (.DSN). This binary format needs OrCAD Capture to view as a drawing.
+Text recovered from the file (part names, values, sheet titles, net names):
+
+TitleBlock4
+C:\ORCADWIN\CAPTURE\LIBRARY\CAPSYM.OLB
+Title
+Size
+Document Number
+Date:
+Sheet
+GND POWER
+C:\DOS\XLATTEMP.OLB
+Bookmark
+PORTNO-L
+CON6.Normal
+CAP NP.Normal
+CAP.Normal
+FUSE.Normal
+CON1.Normal
+DIODE ZENER.Normal
+ANODE
+CATHODE
+R.Normal
+DIODE.Normal
+TRANSFORMER FLAT COMPACT.Normal
+LED.Normal
+PNP EBC.Normal
+COLLECTOR
+BASE
+EMITTER
+CON3.Normal
+NPN EBC.Normal
+CON1
+FUSE
+DIODE ZENER
+CON3
+CAP NP
+CON6
+NPN EBC
+DIODE
+PNP EBC
+TRANSFORMER FLAT COMPACT
+POD5B.SCH
+TKBKC
+POD5B
+OrCAD Windows Design
+"Arial
+, ByVal PowerName() As Str
+1ST PART FIELD
+2ND PART FIELD
+3RD PART FIELD
+4TH PART FIELD
+5TH PART FIELD
+6TH PART FIELD
+7TH PART FIELD
+PCB Footprint
+Bookmark4
+TitleBlock
+Page Create Date
+March  8, 1995
+RevCode
+OrgName
+OrgAddr1
+OrgAddr2
+OrgAddr3
+Page Size
+Page Number
+Page Count
+Page Modify Date
+WARD-BECK SYSTEMS LTD.
+841 PROGRESS AVENUE
+SCARBOROUGH, ONTARIO, CANADA
+POD 5 - DUAL HEADSET AMPLIFIER
+Part Reference
+Value
+DO-41
+R03WE
+TANTB.2
+CAP.1
+EC165
+PAN3/156
+PHNX6/150
+MDL 1/2
+551LED
+TO-92
+TO-237
+Name
+Root Entry
+Cache
+Cells
+Parts
+Views
+Pages
+Schematic
+Library
+Symbols
+$Types$
+Graphics
+Packages
+ExportBlocks
+Cells Directory
+Parts Directory
+Views Directory
+Symbols Directory
+Graphics Directory
+Packages Directory
+ExportBlocks Directory

@@ -1,0 +1,127 @@
+{
+ "code": "M460A",
+ "series": null,
+ "type": "M460A",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "I1",
+   "signal": "Input Kjdule",
+   "dir": "in",
+   "pos": "I1P",
+   "neg": "I1N",
+   "src_page": 8
+  },
+  {
+   "port": "I2",
+   "signal": "Input Moduue",
+   "dir": "in",
+   "pos": "I2P",
+   "neg": "I2N",
+   "src_page": 40
+  },
+  {
+   "port": "I3",
+   "signal": "Line In",
+   "dir": "in",
+   "pos": "I3P",
+   "neg": "I3N",
+   "src_page": 41
+  },
+  {
+   "port": "I4",
+   "signal": "Booster In",
+   "dir": "in",
+   "pos": "I4P",
+   "neg": "I4N",
+   "src_page": 41
+  },
+  {
+   "port": "I5",
+   "signal": "Ch On In",
+   "dir": "in",
+   "pos": "I5P",
+   "neg": "I5N",
+   "src_page": 41
+  },
+  {
+   "port": "O1",
+   "signal": "Left Out",
+   "dir": "out",
+   "pos": "O1P",
+   "neg": "O1N",
+   "src_page": 41
+  },
+  {
+   "port": "O2",
+   "signal": "Right Out",
+   "dir": "out",
+   "pos": "O2P",
+   "neg": "O2N",
+   "src_page": 41
+  },
+  {
+   "port": "O3",
+   "signal": "Pre Out",
+   "dir": "out",
+   "pos": "O3P",
+   "neg": "O3N",
+   "src_page": 41
+  }
+ ],
+ "power": [
+  {
+   "rail": "+24V",
+   "volts": 24.0,
+   "supply": "+24V",
+   "ground": "CHASSIS 22",
+   "max_a": null
+  },
+  {
+   "rail": "-5V",
+   "volts": -5.0,
+   "supply": "-5V",
+   "ground": "CHASSIS 22",
+   "max_a": null
+  }
+ ],
+ "logic": [
+  {
+   "signal": "Pfl",
+   "pin": ""
+  },
+  {
+   "signal": "Solo",
+   "pin": ""
+  },
+  {
+   "signal": "Pa Control",
+   "pin": ""
+  },
+  {
+   "signal": "Mute Control",
+   "pin": ""
+  },
+  {
+   "signal": "Control Com",
+   "pin": ""
+  },
+  {
+   "signal": "N'3 Pa Ctl",
+   "pin": ""
+  }
+ ],
+ "ground": [
+  "CHASSIS 22",
+  "GND"
+ ],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "d7eb8ba368a6a6cb027f6b87d8024ca89935110b584af78d8e8ceb02197a228a",
+  "fde61e0a16dce51146f3248790dd7b21d03f4da6c3dcea524be545f63d935120"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one. (this device has one)"
+}

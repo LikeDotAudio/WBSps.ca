@@ -1,0 +1,117 @@
+# 19xx - M402A - DOC - GRIT CLEAR ALODINE MATERIA.jpg
+Wiki page: [Documents](../../../PAGES/Documents.md)
+
+
+- **Year:** unknown (unknown)
+- **Type:** document scan
+- **About:** M402A
+
+## Text recovered by OCR
+
+> ISSUE 256unC 2 HoLes Nou 4ofe DJG oc7 69 5.75 13 3HOLES 32 DIA 125 K F 812 4.500 3.250 812 = 49 DIA 64 NTS HOLE 5 HOLES 32 DIA 1.625 1.435 '80 350 9 17 HOLE 32 DIA (TYP, HOLES.093 DIA SKAT 82 To IZ7ODIA ThIS FACE 4.75 187 3/8 NOTES DIMENSIONS SYMMETRICAC ABoot E"s UNLESS STATED 4HOLES DRILL & TAP 2-SGuNc (2EACH SIDE) FinISH 120 Grit CLEAR ALoDine MATERIA DRN DJG WARD BECK SYSTEMS LTD SwiTeh MTG BRKT M402A B 402 03 004 4 DATE SEpt6s CHKD Ra Go SCALEF FuSIze 16 ALoM
+- **Original file:** `WBSps.env/PUBLIC/RECENT SCANS/WBSps.ca 20210323 - Scans/Scan_20210323 (88).jpg`
+- **SHA-256:** `1d43f133dbb2719f9d8724876272f61872b687df487d1df082b7e030a5ec183f`
+- **Size:** 10,118,616 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 4 words corrected)
+
+```text
+ISSUE 256unC 2 HoLes Nou 4ofe DJG oc7 69
+5.75
+13 3HOLES 32 DIA
+125
+K
+F
+812
+4.500 3.250
+812 =
+49 DIA 64 NTS HOLE
+5 HOLES 32 DIA
+1.625
+1.435 '80
+350
+9
+17
+HOLE 32 DIA
+(TYP,
+HOLES.093 DIA SKAT 82 To IZ7ODIA ThIS FACE
+4.75
+187
+3/8
+NOTES DIMENSIONS SYMMETRICAL About E"s UNLESS STATED
+4HOLES DRILL & TAP 2-SGuNc (2EACH SIDE)
+FinISH 120 Grit CLEAR ALoDine MATERIA
+DRN
+DJG
+WARD BECK SYSTEMS LTD Switch MTG BRKT M402A B 402 03 004 4
+DATE SEpt6s
+CHKD Ra Go SCALE FuSIze
+16 ALoM
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+ISSUE 256unC 2 HoLes Nou 4ofe DJG oc7 69
+5.75
+13 3HOLES 32 DIA
+125
+K
+F
+812
+4.500 3.250
+812 =
+49 DIA 64 NTS HOLE
+5 HOLES 32 DIA
+1.625
+1.435 '80
+350
+9
+17
+HOLE 32 DIA
+(TYP,
+HOLES.093 DIA SKAT 82 To IZ7ODIA ThIS FACE
+4.75
+187
+3/8
+NOTES DIMENSIONS SYMMETRICAC ABoot E"s UNLESS STATED
+4HOLES DRILL & TAP 2-SGuNc (2EACH SIDE)
+FinISH 120 Grit CLEAR ALoDine MATERIA
+DRN
+DJG
+WARD BECK SYSTEMS LTD SwiTeh MTG BRKT M402A B 402 03 004 4
+DATE SEpt6s
+CHKD Ra Go SCALEF FuSIze
+16 ALoM
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Modules/FILTERS/M402A/19xx - M402A - DOC - GRIT CLEAR ALODINE MATERIA.jpg",
+ "sha256": "1d43f133dbb2719f9d8724876272f61872b687df487d1df082b7e030a5ec183f",
+ "kind": "doc",
+ "models": [
+  "M402A"
+ ],
+ "pages": 1,
+ "order": [
+  {
+   "page": 1,
+   "title_block": [
+    {
+     "title": "Grit Clear Alodine Materia",
+     "drawn": "DJG",
+     "checked": "RA"
+    }
+   ]
+  }
+ ]
+}
+```

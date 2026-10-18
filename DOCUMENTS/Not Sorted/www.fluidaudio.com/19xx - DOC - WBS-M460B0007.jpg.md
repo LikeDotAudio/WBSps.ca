@@ -1,0 +1,41 @@
+# 19xx - DOC - WBS-M460B0007.jpg
+Wiki page: [Documents](../../../PAGES/Documents.md)
+
+
+- **Year:** unknown (unknown)
+- **Type:** document scan
+- **About:** M648
+
+## Text recovered by OCR
+
+> ROOM EQUALIZER model539 O4PLoID FdCUET WBS M648 wuS M6?s0
+- **Original file:** `WBSps.env/wbsps - website ARCHIVE/WBSPS 2008/WBSPS.CA/Photos/Not Sorted/www.fluidaudio.com/WBS-M460B0007.jpg`
+- **SHA-256:** `1f65298c0d36d0550a2cc2a7c41bf2c67091534de50ca51694330e1b7f88f1b0`
+- **Size:** 117,254 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR)
+
+```text
+ROOM EQUALIZER model539
+O4PLoID
+FdCUET
+WBS M648
+wuS M6?s0
+```
+
+## Contents (JSON)
+
+```json
+{
+ "file": "DOCUMENTS/Not Sorted/www.fluidaudio.com/19xx - DOC - WBS-M460B0007.jpg",
+ "sha256": "1f65298c0d36d0550a2cc2a7c41bf2c67091534de50ca51694330e1b7f88f1b0",
+ "kind": "doc",
+ "models": [
+  "M648"
+ ],
+ "pages": 1
+}
+```

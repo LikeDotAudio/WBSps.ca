@@ -1,0 +1,49 @@
+{
+ "code": "M490M",
+ "series": null,
+ "type": "M490M",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "I1",
+   "signal": "Input 8 Cn",
+   "dir": "in",
+   "pos": "I1P",
+   "neg": "I1N",
+   "src_page": 23
+  },
+  {
+   "port": "O1",
+   "signal": "Pgm 2 Out",
+   "dir": "out",
+   "pos": "O1P",
+   "neg": "O1N",
+   "src_page": 22
+  }
+ ],
+ "power": [],
+ "logic": [
+  {
+   "signal": "Off Tally",
+   "pin": "18"
+  },
+  {
+   "signal": "Cue",
+   "pin": ""
+  },
+  {
+   "signal": "On Tally",
+   "pin": ""
+  }
+ ],
+ "ground": [],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "475a036da9e8b614bb669f63d7769cfe0425759549938b92865a31ff92719354",
+  "813af599e6ad3146561db94e2bf7d9aafc9b957c443e216b4d1c47c53a52ac17"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one. (this device has one)"
+}

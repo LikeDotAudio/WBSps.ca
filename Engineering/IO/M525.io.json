@@ -1,0 +1,159 @@
+{
+ "code": "M525",
+ "series": null,
+ "type": "M525",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "I1",
+   "signal": "Input 15 Right",
+   "dir": "in",
+   "pos": "I1P",
+   "neg": "I1N",
+   "src_page": 1
+  },
+  {
+   "port": "I2",
+   "signal": "Input 14",
+   "dir": "in",
+   "pos": "I2P",
+   "neg": "I2N",
+   "src_page": 1
+  },
+  {
+   "port": "I3",
+   "signal": "Input 11 Right",
+   "dir": "in",
+   "pos": "I3P",
+   "neg": "I3N",
+   "src_page": 1
+  },
+  {
+   "port": "I4",
+   "signal": "Input 10",
+   "dir": "in",
+   "pos": "I4P",
+   "neg": "I4N",
+   "src_page": 1
+  },
+  {
+   "port": "I5",
+   "signal": "Input 9 Right",
+   "dir": "in",
+   "pos": "I5P",
+   "neg": "I5N",
+   "src_page": 1
+  },
+  {
+   "port": "I6",
+   "signal": "Input 8",
+   "dir": "in",
+   "pos": "I6P",
+   "neg": "I6N",
+   "src_page": 1
+  },
+  {
+   "port": "I7",
+   "signal": "Input 6",
+   "dir": "in",
+   "pos": "I7P",
+   "neg": "I7N",
+   "src_page": 1
+  },
+  {
+   "port": "I8",
+   "signal": "Input 5",
+   "dir": "in",
+   "pos": "I8P",
+   "neg": "I8N",
+   "src_page": 1
+  },
+  {
+   "port": "I9",
+   "signal": "Input 4 Right",
+   "dir": "in",
+   "pos": "I9P",
+   "neg": "I9N",
+   "src_page": 1
+  },
+  {
+   "port": "I10",
+   "signal": "Input 3",
+   "dir": "in",
+   "pos": "I10P",
+   "neg": "I10N",
+   "src_page": 1
+  },
+  {
+   "port": "I11",
+   "signal": "Input 2",
+   "dir": "in",
+   "pos": "I11P",
+   "neg": "I11N",
+   "src_page": 1
+  },
+  {
+   "port": "I12",
+   "signal": "Input 1 Right",
+   "dir": "in",
+   "pos": "I12P",
+   "neg": "I12N",
+   "src_page": 1
+  },
+  {
+   "port": "O1",
+   "signal": "Output 1 Left",
+   "dir": "out",
+   "pos": "O1P",
+   "neg": "O1N",
+   "src_page": 1
+  },
+  {
+   "port": "O2",
+   "signal": "Output 2 Left",
+   "dir": "out",
+   "pos": "O2P",
+   "neg": "O2N",
+   "src_page": 1
+  },
+  {
+   "port": "O3",
+   "signal": "Output 2 Right",
+   "dir": "out",
+   "pos": "O3P",
+   "neg": "O3N",
+   "src_page": 1
+  }
+ ],
+ "power": [
+  {
+   "rail": "+12V",
+   "volts": 12.0,
+   "supply": "+12V",
+   "ground": "CHASSIS",
+   "max_a": null
+  }
+ ],
+ "logic": [
+  {
+   "signal": "Solo Left",
+   "pin": ""
+  },
+  {
+   "signal": "Solo Right Shield Shield",
+   "pin": ""
+  }
+ ],
+ "ground": [
+  "CHASSIS"
+ ],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "6daebee634766045c9425726bee2e58a4a022f88d6b8cd4d9e7adacdfc9d8459",
+  "f9e611d105458401e5d9a9c8d8725fc4232558aa8a57cdcb1ae6531d61fb3b69"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."
+}

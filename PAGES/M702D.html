@@ -1,0 +1,275 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M702D — Intercom Output Amplifier</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>M702D — Intercom Output Amplifier</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="Category-COMMUNICATION.html">COMMUNICATION</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../simulator.html?m=M702D">simulator &amp; front panel</a> · <a href="../_packages/M702D.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="Year-1996.html">1996|29</a> — manual issue date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"Issue #1 January 17, 1996" in WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - M7XX/M703D/WP/M702D.WPD</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="Year-1996.html">1996|29</a></td>
+</tr>
+<tr>
+<td>Used in jobs</td>
+<td><a href="Job-960296.html">960296</a> (1996|29)</td>
+</tr>
+<tr>
+<td>Variants</td>
+<td><a href="M702.html">M702</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../Modules/COMMUNICATION/M702D/index.html">Modules/COMMUNICATION/M702D</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections</h2>
+<p><em>What it is made of and what it is part of.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M702D" data-n="Intercom Output Amplifier" data-cat="COMMUNICATION"></div><svg class="wbs-panel" data-m="M702D" data-n="Intercom Output Amplifier" data-cat="COMMUNICATION" role="img" aria-label="M702D front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M702D","title":"Intercom Output Amplifier","rto":null,"parts":[],"parents":[{"label":"960296","href":"Job-960296.html","note":"CBC REGINA"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=Engineering/PCB/M702D/M702D-top.svg"><img loading="lazy" src="../Engineering/PCB/M702D/M702D-top.svg" alt="" data-f="Engineering/PCB/M702D/M702D-top.svg" data-size="320" onerror="wbsOff(this)">M702D-top.svg</a><a href="../viewer.html?f=Engineering/PCB/M702D/M702D-bottom.svg"><img loading="lazy" src="../Engineering/PCB/M702D/M702D-bottom.svg" alt="" data-f="Engineering/PCB/M702D/M702D-bottom.svg" data-size="320" onerror="wbsOff(this)">M702D-bottom.svg</a><a href="../viewer.html?f=Consoles/1990-1999/960296%20-%20CBC%20REGINA/1996%20-%20960296-01-001%20-%20CBC%20REGINA%20CENTRAL%20ELECTRONICS%20FUNCTIONAL%20-%20DRN%20DRG%20-%20ISS%201.jpg"><img loading="lazy" src="../Consoles/1990-1999/960296%20-%20CBC%20REGINA/1996%20-%20960296-01-001%20-%20CBC%20REGINA%20CENTRAL%20ELECTRONICS%20FUNCTIONAL%20-%20DRN%20DRG%20-%20ISS%201.jpg" alt="" data-f="Consoles/1990-1999/960296 - CBC REGINA/1996 - 960296-01-001 - CBC REGINA CENTRAL ELECTRONICS FUNCTIONAL - DRN DRG - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1996 - 960296-01-001 - CBC REGINA CENTRAL ELECTRONICS FUNCTIONAL - DRN DRG - ISS 1.jpg</a><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/19xx%20-%20DOC%20-%20702-03-003%20-%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES.jpg"><img loading="lazy" src="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/19xx%20-%20DOC%20-%20702-03-003%20-%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES.jpg" alt="" data-f="DOCUMENTS/RECENT SCANS/WBSps.ca 20210320 - Scans/19xx - DOC - 702-03-003 - REMOVE ALL BURRS AND SHARP EDGES.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 702-03-003 - REMOVE ALL BURRS AND SHARP EDGES.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M702/19xx%20-%20702-03-003%20-%20M702D%20HEATSINK%20-%20DRN%20WS%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M702/19xx%20-%20702-03-003%20-%20M702D%20HEATSINK%20-%20DRN%20WS%20-%20ISS%201.jpg" alt="" data-f="Modules/COMMUNICATION/M702/19xx - 702-03-003 - M702D HEATSINK - DRN WS - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">19xx - 702-03-003 - M702D HEATSINK - DRN WS - ISS 1.jpg</a><a href="../viewer.html?f=Consoles/1990-1999/960296%20-%20CBC%20REGINA/1996%20-%20960296%20-%20DOC%20-%202021-3-16-23-22-21.jpg"><img loading="lazy" src="../Consoles/1990-1999/960296%20-%20CBC%20REGINA/1996%20-%20960296%20-%20DOC%20-%202021-3-16-23-22-21.jpg" alt="" data-f="Consoles/1990-1999/960296 - CBC REGINA/1996 - 960296 - DOC - 2021-3-16-23-22-21.jpg" data-size="320" onerror="wbsOff(this)">1996 - 960296 - DOC - 2021-3-16-23-22-21.jpg</a></div>
+
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-1996.html">1996|29</a></td>
+<td>manual issue date</td>
+<td><code>Issue #1 January 17, 1996</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702D/1996%20-%20M702D%20-%20file.wpd">1996 - M702D - file.wpd</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Documents (1)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1996|29</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702D/1996%20-%20M702D%20-%20file.wpd">1996 - M702D - file.wpd</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702D/1996%20-%20M702D%20-%20file.wpd.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Drawings &amp; design files (1)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1996|29</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702D/1996%20-%20M702D%20-%20file.pcb">1996 - M702D - file.pcb</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702D/1996%20-%20M702D%20-%20file.pcb.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Circuit boards (1)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Board</th>
+<th>Open</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702D/1996%20-%20M702D%20-%20file.pcb">1996 - M702D - file.pcb</a></td>
+<td>M702D</td>
+<td><a href="../_previews/Modules/COMMUNICATION/M702D/1996%20-%20M702D%20-%20file.pcb.html">interactive viewer</a> · <a href="../viewer.html?f=Engineering/PCB/M702D/M702D.kicad_pcb">KiCad board</a> · <a href="../viewer.html?f=Engineering/PCB/M702D/M702D-top.svg">top render</a> · <a href="../viewer.html?f=Engineering/PCB/M702D/M702D-bottom.svg">bottom render</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Consoles &amp; jobs it is connected to (1)</h2>
+<p><em>Their own drawings name this module.</em></p>
+<table>
+<thead>
+<tr>
+<th>Job</th>
+<th>Year</th>
+<th>Drawing</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Job-960296.html">960296</a></td>
+<td>1996|29</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/960296%20-%20CBC%20REGINA/1996%20-%20960296-01-001%20-%20CBC%20REGINA%20CENTRAL%20ELECTRONICS%20FUNCTIONAL%20-%20DRN%20DRG%20-%20ISS%201.jpg">1996 - 960296-01-001 - CBC REGINA CENTRAL ELECTRONICS FUNCTIONAL - DRN DRG - ISS 1.jpg</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (10)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/19xx%20-%20DOC%20-%20702-03-003%20-%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES.jpg">19xx - DOC - 702-03-003 - REMOVE ALL BURRS AND SHARP EDGES.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/19xx%20-%20702-03-003%20-%20M702D%20HEATSINK%20-%20DRN%20WS%20-%20ISS%201.jpg">19xx - 702-03-003 - M702D HEATSINK - DRN WS - ISS 1.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/19xx%20-%20M702%20-%20DOC%20-%20702-03-003%20-%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES.jpg">19xx - M702 - DOC - 702-03-003 - REMOVE ALL BURRS AND SHARP EDGES.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703D/1995%20-%20M703D%20-%20file.dsn">1995 - M703D - file.dsn</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Consoles/1990-1999/960296%20-%20CBC%20REGINA/1996%20-%20960296%20-%20DOC%20-%202021-3-16-23-22-21.jpg">1996 - 960296 - DOC - 2021-3-16-23-22-21.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Large%20pile%20of%20D/1996%20-%20DOC%20-%202021-3-16-23-22-21.jpg">1996 - DOC - 2021-3-16-23-22-21.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8208/1996%20-%20M8208%20-%20DOC%20-%202021-3-16-23-22-21.jpg">1996 - M8208 - DOC - 2021-3-16-23-22-21.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703D/1996%20-%20M703D%20-%20FM702D.dwg">1996 - M703D - FM702D.dwg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712B/1996%20-%20M712B%20-%20DOC%20-%202021-3-16-23-22-21.jpg">1996 - M712B - DOC - 2021-3-16-23-22-21.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/1997%20-%20M702%20-%20702-03-003%20-%20SIMPLEX%20CONTINUOUS%20SOLID%20LINE%20HIDDEN%20OUS.dwg">1997 - M702 - 702-03-003 - SIMPLEX CONTINUOUS SOLID LINE HIDDEN OUS.dwg</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>Specifications (1)</h3>
+<details><summary>Technical Data — 208 words · 1996 - M702D - file.wpd, page 1</summary><p>M702D INTERCOM OUTPUT AMPLIFIER</p><p>Gain (Bridging)</p><p>To Speaker Output:       +27 dB to +7 dB, ±1 dB. To Line Output:         +15 dB to -5 dB, ±1 dB.</p><p>Frequency Response:       ±1 dB from 100 Hz to 5 kHz.</p><p>Noise:                Better than 80 dB below 1.5 watts or +18 dBm (gain set to unity for line output or              +17 dBm for speaker output), 20 Hz to 20 kHz bandwidth.</p><p>Harmonic Distortion:      Less than 1%  from 100 Hz to 5 kHz at +18 dBm output (balanced, or 1.5 watts)</p><p>Input Level:            +8 dBm nominal, +19 dBm maximum.</p><p>Input Impedance:     10K ohms balanced and centre tapped.</p><p>Source Impedance:        600 ohms or less, balanced.</p><p>Output Levels:</p><p>Line:                +8 dBm nominal, +22 dBm maximum. Speaker:           300 mW nominal, 3 watts peak power.</p><p>Output Impedence:</p><p>Line:             Less than 30 ohms, balanced. Speaker:           Less than 1 ohm, unbalanced.</p><p>Load Impedence:</p><p>Line:              600 ohms or greater, balanced. Speaker:         8 ohms, nominal.</p><p>Muting:</p><p>Full:              100 dB down. Part:              6 dB to 24 dB down. Override:           Full output.</p><p>Power Requirements:      +32 volts DC unregulated. 45 mA idle, 350 mA maximum at 1.5 watts.</p><p>Ambient Temperature:       0 to 40 degrees Celsius.</p><p>Dimensions:          0.7&quot; wide x 4.4&quot; high x 11.0 deep. ( 18 mm x 112 mm x 280 mm ).</p><p>1-1</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/COMMUNICATION/M702D/1996%20-%20M702D%20-%20file.wpd">1996 - M702D - file.wpd</a>, p. 1</li>
+</ul>
+<h3>Circuit description (1)</h3>
+<details><summary>Circuit Description — 1254 words · 1996 - M702D - file.wpd, page 1</summary><p>M702D INTERCOM OUTPUT AMPLIFIER</p><p>The M702D Output Amplifier is designed to receive a +8 dBm nominal input signal and amplify it to a power level sufficient to operate a loud speaker to a maximum of 3 watts.</p><p>Input The input is applied to pins U and V of the module connector and is coupled by C201 and C202 to two separate resistive networks followed by two solid state switches. The switches provide two individual signal paths between the module input and the buffer and output amplifiers U203 and U204. The lower path is used to produce full output, while the upper path will produce a partially muted output. The control logic determines the choice of the signal path used for any given operational conditions.</p><p>Mute Control Logic Pins 18, 19 and 20 of the module connector serve as the control inputs to the logic gates U202A through D.</p><p>Under normal conditions, with no ground applied to any of the three control inputs, the B and D sections of U201 are switched on and the A and C sections are off. As a result, the amplifier is operating at full output (no muting applied).</p><p>If the mute input (pin 19) is grounded, sections B and D of U201 are off, blocking the main signal path. At the same time, sections A and C of U201 are on, opening the part mute path. The amount of muting is determined by R217, and is adjustable over a 20 dB range.</p><p>When pin 20 is grounded, it will override both full mute and part mute functions as described above. The results in full output via the B and D sections of U201.</p><p>Output The audio signal from the output of the solid state switches within U201 is coupled through C207 and C208 to U203 and the power output stage built around U204.</p><p>Integrated circuit U204, along with Q203, Q204, Q205 and Q206 plus associated components are configured as a 3 watt power booster stage for driving an 8 ohm speaker load. Its output appears at module connector pins 21 and Y.</p><p>An actively balanced +8 dBm, 600 ohm output is derived between U203B and U204. This is available at the module connector pins W and X. This output is capable of driving a single 600 ohm load.</p><p>R250 controls the amount of negative feedback applied to U203B. This serves as a gain trim control, allowing  ±10 dB adjustment range from the nominal system level of +8 dBm, or 300 mW respectively.</p><p>Power Supply Decoupling The module is powered by a +32 volt DC unregulated power source, connected to pins 13 and P of the module connector. After passing through an isolation diode (CR205), and  a fuse (F201), the supply voltage is decoupled by R235, C212 and C213. DS201 serves as a visual power indicator.</p><p>Q202 provides further filtering and reduces the supply voltage to 12 volts to operate U201 and U202.</p><p>Under idle conditions, the M702D draws approximately 45 mA, rising to 350 mA at 3 watt output. With the output shorted, the current will rise to approximately 750 mA.</p><p>A short circuit condition at the amplifier  output will not normally blow fuse F201, as long as the amplifier is operating with normal program material. However, sustained full output into a short circuit failure will cause the fuse to open.</p><p>2-1</p><p>C201       Capacitor   1 uF/35 V       ITT         1M35  C202      &quot;      1 uF/35 V         &quot;                &quot; C203     &quot;      0.1 uF/35 V       &quot;            0.1M35 C204     &quot;      0.1 uF/35 V       &quot;                &quot; C205     &quot;      0.1 uF/35 V       &quot;                &quot;</p><p>C206       &quot;      0.1 uF/35 V       &quot;                &quot;   C207       &quot;      22 uF/25 V      Philips         03016229 C208       &quot;      22 uF/25 V        &quot;                &quot; C209     &quot;      22 uF/25 V        &quot;                &quot; C210     &quot;      47 pF             &quot;            638-34479</p><p>C211        &quot;      22 uF/25 V        &quot;            03016229 C212       &quot;      220 uF/40 V       &quot;            03217221 C213       &quot;      220 uF/40 V       &quot;                &quot; C214     &quot;      0.1 uF/50 V     Aselco          CQ92-MC-100-153M C215       &quot;      10 uF/25 V      ITT         10M25</p><p>C216        &quot;      22 uF/25 V      Philips         03016229 C217       &quot;      47 pF             &quot;            638-34479 C218      &quot;      100 pF            &quot;            638-58101 C219      &quot;      22 uF/25 V        &quot;            03016229 C220       &quot;      100 uF/25 V       &quot;            03116101</p><p>C221     &quot;      100 uF/25 V       &quot;                &quot; C222     &quot;      680 uF/16 V       &quot;            03215681 C223       &quot;      10 uF/25 V      ITT         10M25 C224      &quot;      10 uF/25 V        &quot;                &quot; C225     &quot;      0.068 pF        Aselco          CQ92-MC-100-802M</p><p>C226     &quot;      22 uF/25 V      Philips         03016229 C227       &quot;      0.1 uF/50 V     Aselco          CQ92-MC-100-153M C228       &quot;      100 pF            &quot;            638-58101 C229      &quot;      100 pF            &quot;                &quot; C230     &quot;      SOT</p><p>C231      &quot;      47 pF             &quot;            638-34479 C232      &quot;      22 uF/25 V      Philips         03016229</p><p>CR201        Diode                   Motorola        1N4148 CR202        &quot;                    &quot;                &quot; CR203        &quot;                    &quot;                &quot; CR204        &quot;                    &quot;                &quot; CR205        &quot;                    &quot;            1N4003</p><p>CR206      &quot;                    &quot;            1N4148 CR207        &quot;                    &quot;            1N5364A CR208       &quot;                    &quot;            1N4148</p><p>3-1 CR209      Diode                   Motorola        1N4148</p><p>CR210      &quot;                    &quot;                &quot;   CR211      &quot;                    &quot;                &quot; CR212        &quot;                    &quot;                &quot;</p><p>DS201      LED, Yellow             Dialight            555-2401</p><p>F201     Fuse                    Amp         AGC.500</p><p>Q201      Transistor              National        PN3569 Q202             &quot;                    &quot;                &quot; Q203             &quot;                    &quot;            2N3904 Q204             &quot;                    &quot;            2N3906 Q205             &quot;                    &quot;            TIP30</p><p>Q206                &quot;                    &quot;            TIP29</p><p>R201        Resistor    1/4W 5% 15K     Philips         CR25 R202               &quot;        &quot;        15K       &quot;                &quot; R203             &quot;        &quot;        100K          &quot;                &quot; R204             &quot;        &quot;        100K          &quot;                &quot; R205             &quot;        &quot;        100K          &quot;                &quot;</p><p>R206               &quot;        &quot;        150K          &quot;                &quot; R207             &quot;        &quot;        150K          &quot;                &quot; R208             &quot;        &quot;        150K          &quot;                &quot; R209             &quot;        &quot;        1M        &quot;                &quot; R210             &quot;        &quot;        1M        &quot;                &quot;</p><p>R211               &quot;        &quot;        1M        &quot;                &quot; R212             &quot;        &quot;        15K       &quot;                &quot; R213             &quot;        &quot;        15K       &quot;                &quot; R214             &quot;        &quot;        20K       &quot;                &quot; R215             &quot;        &quot;        20K       &quot;                &quot;</p><p>R216               &quot;        &quot;        1K        &quot;                &quot; R217     Potentiometer       20K     Piher           PT10H 20K R218      Resistor    1/4W 5% 1K      Philips         CR25 R219               &quot;        &quot;        1K        &quot;                &quot; R220             &quot;        &quot;        10K       &quot;                &quot;</p><p>R221               &quot;        &quot;        10K       &quot;                &quot; R222             &quot;        &quot;        1K        &quot;                &quot; R223             &quot;        &quot;        1K        &quot;                &quot; R224             &quot;        &quot;        100K          &quot;                &quot; R225             &quot;        &quot;        47K       &quot;                &quot;</p><p>3-2 R226       Resistor    1/4W 5%         100K        P</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/COMMUNICATION/M702D/1996%20-%20M702D%20-%20file.wpd">1996 - M702D - file.wpd</a>, p. 1</li>
+</ul>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M702D&quot;,
+ &quot;name&quot;: &quot;Intercom Output Amplifier&quot;,
+ &quot;category&quot;: &quot;COMMUNICATION&quot;,
+ &quot;year&quot;: 1996,
+ &quot;part_of&quot;: [
+  &quot;960296&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M702D/1996 - M702D - file.pcb&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M702D/1996 - M702D - file.wpd&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;sections&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../_catalog/libcontrol/libcontrol.css"><script src="../_catalog/libcontrol/react.js"></script><script src="../_catalog/libcontrol/react-dom.js"></script><script src="../_catalog/libcontrol/libcontrol.js"></script><script src="../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M702D.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

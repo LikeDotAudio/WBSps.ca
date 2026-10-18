@@ -1,0 +1,33 @@
+code: M466M
+series: null
+type: M466M Meter Module
+row_count: null
+impedance: {}
+note: null
+audio:
+- port: B2
+  signal: VU Meter
+  dir: io
+  pos: '12'
+  neg: '13'
+  pad_pos: 12.B.2.P
+  pad_neg: 13.B.2.N
+- port: B3
+  signal: COMP TIE - 1
+  dir: io
+  pos: '10'
+  neg: '9'
+  pad_pos: 10.B.3.P
+  pad_neg: 9.B.3.N
+- port: B4
+  signal: COMP TIE - 2
+  dir: io
+  pos: '11'
+  neg: '9'
+  pad_pos: 11.B.4.P
+  pad_neg: 9.B.4.N
+bus_out: []
+bus_in: []
+power: []
+jumpers: []
+logic: []

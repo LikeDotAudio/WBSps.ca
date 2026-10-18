@@ -1,0 +1,28 @@
+{
+  "source": "/home/anthony/Documents/GitProjects/WBSps.ca/WBSps.env/WBSps Engineering from H drive/WBSps - IKR/IKR10/14-302.PCB",
+  "kicad_pcb": "/home/anthony/Documents/GitProjects/WBSps.ca/2026/Engineering/PCB/14-302 - IKR-10A INTERCOM KEY CONTROL & AUDIO FUNCTIONAL/14-302.kicad_pcb",
+  "format": "Tango-PCB PLUS V2.02 Series II",
+  "edge_layer": 14,
+  "tango_layers_used": {
+    "0": 622,
+    "1": 983,
+    "4": 247,
+    "8": 1863,
+    "9": 1,
+    "10": 5,
+    "11": 1,
+    "14": 28,
+    "16": 138,
+    "18": 27
+  },
+  "counts": {
+    "components": 257,
+    "pads": 769,
+    "tracks": 1515,
+    "vias": 85,
+    "graphics": 2143,
+    "texts": 196,
+    "pours": 61
+  },
+  "nets": null
+}

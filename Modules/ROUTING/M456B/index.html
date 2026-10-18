@@ -1,0 +1,1377 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M456B — Dual Mixdown Module</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../../../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../../../index.html">Index</a><a href="../../../Home.html">Wiki home</a><a href="../../../PAGES/Timeline.html">Timeline</a><a href="../../../search.html">Search</a><a href="../../../status.html">Status</a></div><h1>M456B — Dual Mixdown Module</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="../../../PAGES/Category-ROUTING.html">ROUTING</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../../../simulator.html?m=M456B">simulator &amp; front panel</a> · <a href="../../../_packages/M456B.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a> — title-block date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"DATE FEB 75" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M456B - Dual Mixdown Module/M456B - P030 - B5-101-06-001 R.jpg</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a>, <a href="../../../PAGES/Year-1978.html">1978|11</a></td>
+</tr>
+<tr>
+<td>Variants</td>
+<td><a href="../../../PAGES/M456.html">M456</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="index.html">Modules/ROUTING/M456B</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections and circuit (ideal SPICE model)</h2>
+<p><em>Inputs, outputs, power and control as its own documents name them (no RTO-144 sheet for it: pin numbers only where the page gives them). Run the generator, turn the gain, watch the VU.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M456B" data-n="Dual Mixdown Module" data-cat="ROUTING"></div><svg class="wbs-panel" data-m="M456B" data-n="Dual Mixdown Module" data-cat="ROUTING" role="img" aria-label="M456B front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M456B","title":"Dual Mixdown Module","rto":{"code":"M456B","series":null,"type":"M456B","impedance":{},"audio":[{"port":"I1","signal":"Fl6 Ch2 Pb In","dir":"in","pos":"I1P","neg":"I1N","src_page":28},{"port":"O1","signal":"Chi Pre Out","dir":"out","pos":"O1P","neg":"O1N","src_page":28}],"power":[{"rail":"+24V","volts":24.0,"supply":"+24V","ground":"GND","max_a":null},{"rail":"-24V","volts":-24.0,"supply":"-24V","ground":"GND","max_a":null}],"logic":[{"signal":"P2-V Solo En","pin":""},{"signal":"Pz-V Solo Ctl","pin":""}],"ground":[],"bus_out":[],"bus_in":[],"jumpers":[],"derived":true,"sources":["074c563cdd860e1b221bea1767b745a7e4e8229ff707efd74c1c66b6abf8f2df","7ca8c0133308190656ab7297abf51754f42bd5e786c5bd27b59f4187a7f949ac"],"note":"Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."},"parts":[{"item":"5-101","title":"Geb Used","label":"5-101 Geb Used","href":"Register-Sub-assemblies-n-nnn.html#5-101","note":"Sub-assemblies (n-nnn)"}],"parents":[]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20481-03-015%20-%20DUAL%20BOOSTER%20AMPLIFIER.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20481-03-015%20-%20DUAL%20BOOSTER%20AMPLIFIER.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - 481-03-015 - DUAL BOOSTER AMPLIFIER.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - 481-03-015 - DUAL BOOSTER AMPLIFIER.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1978%20-%20M456B%20-%20P002.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1978%20-%20M456B%20-%20P002.jpg" alt="" data-f="Modules/ROUTING/M456B/1978 - M456B - P002.jpg" data-size="320" onerror="wbsOff(this)">1978 - M456B - P002.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1978%20-%20M456B%20-%20P2.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1978%20-%20M456B%20-%20P2.jpg" alt="" data-f="Modules/ROUTING/M456B/1978 - M456B - P2.jpg" data-size="320" onerror="wbsOff(this)">1978 - M456B - P2.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-01-003%20-%20SOLO%20CONTROL%20COMMON%20%282%29.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-01-003%20-%20SOLO%20CONTROL%20COMMON%20%282%29.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - 456-01-003 - SOLO CONTROL COMMON (2).jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1975 - M456B - 456-01-003 - SOLO CONTROL COMMON (2).jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-01-003%20-%20SOLO%20CONTROL%20COMMON.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-01-003%20-%20SOLO%20CONTROL%20COMMON.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - 456-01-003 - SOLO CONTROL COMMON.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - 456-01-003 - SOLO CONTROL COMMON.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-02-003%20-%20PI-H%20SWIA%20RIES.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-02-003%20-%20PI-H%20SWIA%20RIES.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - 456-02-003 - PI-H SWIA RIES.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - 456-02-003 - PI-H SWIA RIES.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-02-003%20-%20YUD%20YZX.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-02-003%20-%20YUD%20YZX.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - 456-02-003 - YUD YZX.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - 456-02-003 - YUD YZX.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-04-006%20-%20DUAL%20MIXDOWN%20MODULE%20CONNECTOR%20REAR%20VIEW.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-04-006%20-%20DUAL%20MIXDOWN%20MODULE%20CONNECTOR%20REAR%20VIEW.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - 456-04-006 - DUAL MIXDOWN MODULE CONNECTOR REAR VIEW.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1975 - M456B - 456-04-006 - DUAL MIXDOWN MODULE CONNECTOR REAR VIEW.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-04-006%20-%20XDOWN%20MODULE%20CONNECTOR%20REAR%20VIEW.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-04-006%20-%20XDOWN%20MODULE%20CONNECTOR%20REAR%20VIEW.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - 456-04-006 - XDOWN MODULE CONNECTOR REAR VIEW.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - 456-04-006 - XDOWN MODULE CONNECTOR REAR VIEW.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-04-009%20-%20ENG%20DUAL%20MIXDOWN%20MODULE.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-04-009%20-%20ENG%20DUAL%20MIXDOWN%20MODULE.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - 456-04-009 - ENG DUAL MIXDOWN MODULE.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1975 - M456B - 456-04-009 - ENG DUAL MIXDOWN MODULE.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-04-009%20-%20SWITCH%20SWI%20WHEN%20DEPRESSED%20ACTIVATES%20CHANNE%20OUTPUT%20CIRCUITS.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-04-009%20-%20SWITCH%20SWI%20WHEN%20DEPRESSED%20ACTIVATES%20CHANNE%20OUTPUT%20CIRCUITS.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - 456-04-009 - SWITCH SWI WHEN DEPRESSED ACTIVATES CHANNE OUTPUT CIRCUITS.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - 456-04-009 - SWITCH SWI WHEN DEPRESSED ACTIVATES CHANNE OUTPUT CIRCUITS.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-06-001%20-%20COMPONENT%20SIDE%20NOTES%20RESISTORS%20RGO.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-06-001%20-%20COMPONENT%20SIDE%20NOTES%20RESISTORS%20RGO.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - 456-06-001 - COMPONENT SIDE NOTES RESISTORS RGO.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1975 - M456B - 456-06-001 - COMPONENT SIDE NOTES RESISTORS RGO.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-06-001%20-%20DUAL%20MIXDOWN%20MODULE.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-06-001%20-%20DUAL%20MIXDOWN%20MODULE.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - 456-06-001 - DUAL MIXDOWN MODULE.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - 456-06-001 - DUAL MIXDOWN MODULE.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%205-101-02-001%20-%20MOD%20ICKD%20USED.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%205-101-02-001%20-%20MOD%20ICKD%20USED.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - 5-101-02-001 - MOD ICKD USED.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1975 - M456B - 5-101-02-001 - MOD ICKD USED.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%205-101-06-001.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%205-101-06-001.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - 5-101-06-001.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - 5-101-06-001.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%205_101-02-001%20-%20BLACK%20COM%20ISSMODICKD%20USEDON.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%205_101-02-001%20-%20BLACK%20COM%20ISSMODICKD%20USEDON.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - 5_101-02-001 - BLACK COM ISSMODICKD USEDON.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - 5_101-02-001 - BLACK COM ISSMODICKD USEDON.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P001%20-%20Title%20Page.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P001%20-%20Title%20Page.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P001 - Title Page.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P001 - Title Page.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P003%20-%201-1.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P003%20-%201-1.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P003 - 1-1.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P003 - 1-1.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P004%20-%201-2.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P004%20-%201-2.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P004 - 1-2.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P004 - 1-2.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P005%20-%202-1.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P005%20-%202-1.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P005 - 2-1.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P005 - 2-1.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P006%20-%202-2.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P006%20-%202-2.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P006 - 2-2.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P006 - 2-2.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P007%20-%202-3.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P007%20-%202-3.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P007 - 2-3.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P007 - 2-3.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P008%20-%203-1.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P008%20-%203-1.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P008 - 3-1.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P008 - 3-1.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P009%20-%203-2.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P009%20-%203-2.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P009 - 3-2.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P009 - 3-2.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P010%20-%203-3.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P010%20-%203-3.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P010 - 3-3.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P010 - 3-3.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P011%20-%203-4.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P011%20-%203-4.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P011 - 3-4.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P011 - 3-4.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P012%20-%203-5.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P012%20-%203-5.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P012 - 3-5.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P012 - 3-5.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P013%20-%203-6.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P013%20-%203-6.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P013 - 3-6.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P013 - 3-6.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P014%20-%203-7.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P014%20-%203-7.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P014 - 3-7.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P014 - 3-7.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P015%20-%203-8.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P015%20-%203-8.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P015 - 3-8.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P015 - 3-8.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P016%20-%203-9.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P016%20-%203-9.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P016 - 3-9.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P016 - 3-9.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P017%20-%203-10.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P017%20-%203-10.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P017 - 3-10.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P017 - 3-10.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P018%20-%205-101.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P018%20-%205-101.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P018 - 5-101.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P018 - 5-101.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P019%20-%205-101-1-1.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P019%20-%205-101-1-1.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P019 - 5-101-1-1.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P019 - 5-101-1-1.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P020%20-%205-101-1-2.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P020%20-%205-101-1-2.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P020 - 5-101-1-2.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P020 - 5-101-1-2.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P021%20-%205-101-2-1.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P021%20-%205-101-2-1.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P021 - 5-101-2-1.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P021 - 5-101-2-1.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P022%20-%205-101-2-2.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P022%20-%205-101-2-2.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P022 - 5-101-2-2.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P022 - 5-101-2-2.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P023%20-%205-101-2-3.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P023%20-%205-101-2-3.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P023 - 5-101-2-3.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P023 - 5-101-2-3.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P1.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P1.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P1.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P1.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P10.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P10.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P10.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P10.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P11.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P11.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P11.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P11.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P12.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P12.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P12.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P12.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P13.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P13.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P13.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P13.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P14.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P14.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P14.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P14.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P15.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P15.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P15.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P15.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P16.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P16.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P16.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P16.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P17.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P17.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P17.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P17.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P18.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P18.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P18.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P18.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P19.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P19.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P19.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P19.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P20.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P20.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P20.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P20.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P21.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P21.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P21.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P21.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P22.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P22.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P22.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P22.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P23.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P23.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P23.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P23.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P24.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P24.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P24.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P24.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P3.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P3.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P3.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P3.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P4.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P4.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P4.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P4.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P5.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P5.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P5.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P5.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P6.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P6.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P6.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P6.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P7.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P7.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P7.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P7.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P8.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P8.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P8.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P8.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P9.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P9.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - P9.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - P9.jpg</a></div>
+
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td>title-block date</td>
+<td><code>DATE FEB 75</code></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20481-03-015%20-%20DUAL%20BOOSTER%20AMPLIFIER.jpg">1975 - M456B - 481-03-015 - DUAL BOOSTER AMPLIFIER.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td>title-block date</td>
+<td><code>DATE FEB 75</code></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29.pdf">1975 - M456B - Dual Mixdown Module (2).pdf</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1978.html">1978|11</a></td>
+<td>month &amp; year</td>
+<td><code>SEPT . 19 78</code></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29.pdf">1975 - M456B - Dual Mixdown Module (2).pdf</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1978.html">1978|11</a></td>
+<td>manual issue date</td>
+<td><code>MANUAL ISSUE#1 SEPT. 1978</code></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1978%20-%20M456B%20-%20P002.jpg">1978 - M456B - P002.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1978.html">1978|11</a></td>
+<td>manual issue date</td>
+<td><code>MANUAL ISSUE #1 SEPT _ 1978</code></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1978%20-%20M456B%20-%20P2.jpg">1978 - M456B - P2.jpg</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Physical manual inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Location</th>
+<th>Status</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M456B</td>
+<td></td>
+<td>DUPLICATE</td>
+<td>Recently scanned and stiched by WB</td>
+</tr>
+<tr>
+<td>M456B - Dual Mixdown Module</td>
+<td></td>
+<td></td>
+<td>PDF - Already scanned</td>
+</tr>
+</tbody>
+</table>
+<h2>Documents (2)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29.pdf">1975 - M456B - Dual Mixdown Module (2).pdf</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29.pdf.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20Dual%20Mixdown%20Module.pdf">1975 - M456B - Dual Mixdown Module.pdf</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20Dual%20Mixdown%20Module.pdf.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (61)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-01-003%20-%20SOLO%20CONTROL%20COMMON%20%282%29.jpg">1975 - M456B - 456-01-003 - SOLO CONTROL COMMON (2).jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-01-003%20-%20SOLO%20CONTROL%20COMMON%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-01-003%20-%20SOLO%20CONTROL%20COMMON.jpg">1975 - M456B - 456-01-003 - SOLO CONTROL COMMON.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-01-003%20-%20SOLO%20CONTROL%20COMMON.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-02-003%20-%20PI-H%20SWIA%20RIES.jpg">1975 - M456B - 456-02-003 - PI-H SWIA RIES.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-02-003%20-%20PI-H%20SWIA%20RIES.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-02-003%20-%20YUD%20YZX.jpg">1975 - M456B - 456-02-003 - YUD YZX.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-02-003%20-%20YUD%20YZX.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-04-006%20-%20DUAL%20MIXDOWN%20MODULE%20CONNECTOR%20REAR%20VIEW.jpg">1975 - M456B - 456-04-006 - DUAL MIXDOWN MODULE CONNECTOR REAR VIEW.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-04-006%20-%20DUAL%20MIXDOWN%20MODULE%20CONNECTOR%20REAR%20VIEW.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-04-006%20-%20XDOWN%20MODULE%20CONNECTOR%20REAR%20VIEW.jpg">1975 - M456B - 456-04-006 - XDOWN MODULE CONNECTOR REAR VIEW.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-04-006%20-%20XDOWN%20MODULE%20CONNECTOR%20REAR%20VIEW.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-04-009%20-%20ENG%20DUAL%20MIXDOWN%20MODULE.jpg">1975 - M456B - 456-04-009 - ENG DUAL MIXDOWN MODULE.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-04-009%20-%20ENG%20DUAL%20MIXDOWN%20MODULE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-04-009%20-%20SWITCH%20SWI%20WHEN%20DEPRESSED%20ACTIVATES%20CHANNE%20OUTPUT%20CIRCUITS.jpg">1975 - M456B - 456-04-009 - SWITCH SWI WHEN DEPRESSED ACTIVATES CHANNE OUTPUT CIRCUITS.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-04-009%20-%20SWITCH%20SWI%20WHEN%20DEPRESSED%20ACTIVATES%20CHANNE%20OUTPUT%20CIRCUITS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-06-001%20-%20COMPONENT%20SIDE%20NOTES%20RESISTORS%20RGO.jpg">1975 - M456B - 456-06-001 - COMPONENT SIDE NOTES RESISTORS RGO.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-06-001%20-%20COMPONENT%20SIDE%20NOTES%20RESISTORS%20RGO.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-06-001%20-%20DUAL%20MIXDOWN%20MODULE.jpg">1975 - M456B - 456-06-001 - DUAL MIXDOWN MODULE.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-06-001%20-%20DUAL%20MIXDOWN%20MODULE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20481-03-015%20-%20DUAL%20BOOSTER%20AMPLIFIER.jpg">1975 - M456B - 481-03-015 - DUAL BOOSTER AMPLIFIER.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20481-03-015%20-%20DUAL%20BOOSTER%20AMPLIFIER.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%205-101-02-001%20-%20MOD%20ICKD%20USED.jpg">1975 - M456B - 5-101-02-001 - MOD ICKD USED.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%205-101-02-001%20-%20MOD%20ICKD%20USED.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%205-101-06-001.jpg">1975 - M456B - 5-101-06-001.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%205-101-06-001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%205_101-02-001%20-%20BLACK%20COM%20ISSMODICKD%20USEDON.jpg">1975 - M456B - 5_101-02-001 - BLACK COM ISSMODICKD USEDON.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%205_101-02-001%20-%20BLACK%20COM%20ISSMODICKD%20USEDON.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P001%20-%20Title%20Page.jpg">1975 - M456B - P001 - Title Page.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P001%20-%20Title%20Page.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P003%20-%201-1.jpg">1975 - M456B - P003 - 1-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P003%20-%201-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P004%20-%201-2.jpg">1975 - M456B - P004 - 1-2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P004%20-%201-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P005%20-%202-1.jpg">1975 - M456B - P005 - 2-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P005%20-%202-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P006%20-%202-2.jpg">1975 - M456B - P006 - 2-2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P006%20-%202-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P007%20-%202-3.jpg">1975 - M456B - P007 - 2-3.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P007%20-%202-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P008%20-%203-1.jpg">1975 - M456B - P008 - 3-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P008%20-%203-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P009%20-%203-2.jpg">1975 - M456B - P009 - 3-2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P009%20-%203-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P010%20-%203-3.jpg">1975 - M456B - P010 - 3-3.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P010%20-%203-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P011%20-%203-4.jpg">1975 - M456B - P011 - 3-4.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P011%20-%203-4.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P012%20-%203-5.jpg">1975 - M456B - P012 - 3-5.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P012%20-%203-5.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P013%20-%203-6.jpg">1975 - M456B - P013 - 3-6.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P013%20-%203-6.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P014%20-%203-7.jpg">1975 - M456B - P014 - 3-7.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P014%20-%203-7.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P015%20-%203-8.jpg">1975 - M456B - P015 - 3-8.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P015%20-%203-8.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P016%20-%203-9.jpg">1975 - M456B - P016 - 3-9.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P016%20-%203-9.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P017%20-%203-10.jpg">1975 - M456B - P017 - 3-10.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P017%20-%203-10.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P018%20-%205-101.jpg">1975 - M456B - P018 - 5-101.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P018%20-%205-101.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P019%20-%205-101-1-1.jpg">1975 - M456B - P019 - 5-101-1-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P019%20-%205-101-1-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P020%20-%205-101-1-2.jpg">1975 - M456B - P020 - 5-101-1-2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P020%20-%205-101-1-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P021%20-%205-101-2-1.jpg">1975 - M456B - P021 - 5-101-2-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P021%20-%205-101-2-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P022%20-%205-101-2-2.jpg">1975 - M456B - P022 - 5-101-2-2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P022%20-%205-101-2-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P023%20-%205-101-2-3.jpg">1975 - M456B - P023 - 5-101-2-3.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P023%20-%205-101-2-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P1.jpg">1975 - M456B - P1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P10.jpg">1975 - M456B - P10.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P10.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P11.jpg">1975 - M456B - P11.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P11.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P12.jpg">1975 - M456B - P12.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P12.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P13.jpg">1975 - M456B - P13.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P13.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P14.jpg">1975 - M456B - P14.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P14.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P15.jpg">1975 - M456B - P15.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P15.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P16.jpg">1975 - M456B - P16.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P16.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P17.jpg">1975 - M456B - P17.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P17.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P18.jpg">1975 - M456B - P18.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P18.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P19.jpg">1975 - M456B - P19.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P19.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P20.jpg">1975 - M456B - P20.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P20.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P21.jpg">1975 - M456B - P21.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P21.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P22.jpg">1975 - M456B - P22.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P22.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P23.jpg">1975 - M456B - P23.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P23.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P24.jpg">1975 - M456B - P24.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P24.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P3.jpg">1975 - M456B - P3.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P4.jpg">1975 - M456B - P4.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P4.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P5.jpg">1975 - M456B - P5.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P5.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P6.jpg">1975 - M456B - P6.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P6.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P7.jpg">1975 - M456B - P7.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P7.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P8.jpg">1975 - M456B - P8.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P8.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P9.jpg">1975 - M456B - P9.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P9.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1978%20-%20M456B%20-%20P002.jpg">1978 - M456B - P002.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1978%20-%20M456B%20-%20P002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1978%20-%20M456B%20-%20P2.jpg">1978 - M456B - P2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1978%20-%20M456B%20-%20P2.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Sub-assemblies &amp; parts used (1)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What</th>
+<th>Family</th>
+<th>Year</th>
+<th>How we know</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Register-Sub-assemblies-n-nnn.html#5-101">5-101</a></td>
+<td>Geb Used</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1975|8</td>
+<td>drawing filed with it</td>
+</tr>
+</tbody>
+</table>
+<h2>Parts list — board 1975 - M456B - Dual Mixdown Module (2) (10 parts)</h2>
+<p><em>From 1975 - M456B - Dual Mixdown Module (2).pdf; also in <code>timelines/data/bom.csv</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>Part</th>
+<th>Value</th>
+<th>Manufacturer</th>
+<th>Mfr part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H4568</td>
+<td>Fun ct i o nal</td>
+<td>8456-0 1-003</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>H4568</td>
+<td>COlllp o ne n t Lilyout</td>
+<td>8456-06-00 1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M4568</td>
+<td>Connector La yo u t</td>
+<td>8456 -04 -006</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R9</td>
+<td>Re s 1 ~ tor 'lo W 51</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R29</td>
+<td>Resf~tor J"W 51</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R31</td>
+<td>Resl~tor " II 51</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R35</td>
+<td>lOOK</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>RI13</td>
+<td>Re s i ~ tor</td>
+<td>~W</td>
+<td>S1;</td>
+<td>15K Ph ~ 1 t ps</td>
+</tr>
+<tr>
+<td>R134</td>
+<td>Re s i ~tor</td>
+<td>~W</td>
+<td>51;</td>
+<td>4K7</td>
+</tr>
+<tr>
+<td>RU6</td>
+<td>Resi~tor</td>
+<td>!:ill 51;</td>
+<td>lOOK</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (1)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../viewer.html?f=Products/RTO/RTO-144/19xx%20-%20RTO-144%20-%20Module%20RTO-144%20Jumper%20calculator.xlsx">19xx - RTO-144 - Module RTO-144 Jumper calculator.xlsx</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="../../../PAGES/Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>General description (4)</h3>
+<details><summary>Description — 490 words · 1975 - M456B - Dual Mixdown Module.pdf, page 19</summary><p>5-101 AMPLIFIER_SERIES The 5-101 series 0 f amplifiers are utilized a$ plug-in units within certain Ward-Beck Systems  450 and  460 series modules There are two separate amplifiers per card each Pr?vidin9 an actively ba lanced output with maximum capability o f dBm 0n6 The following specifications apply to the 5-101 amp]ifiers _ UNII JJ9 INPUI 9   6 2}UG 0 GAIN MAX QUIPUI 9r} 7| 6q (5 f J 09 69 [ ob T vo  5-101 Ba lanced TLJJuo 15 dB 4  +25 dBm 6 9306 | 6 5-1014 Unbalanced ( summing ) Unity 25 dBm 5-101B_ Unbalanced 20   dB b9n +25 dBm Afof-2 9n JUqj U0 JVg &quot; entMmv Frequency Response: +0.25 dB from 30 Hz to 20 kHz 6079Jx9 2 | n6 Dn 6 JUqn Noise: 100 dBm from 20 Hz to 20 kHz 2mf 0 n 79  &amp;f0f-2 Harmonic Distortion: Less than 0.358 Thd from 20 Hz to 20 kHz at +24 dBm output _ 09305 ! 5 Output Impedance Less than 100 o hms djtk 79rJ900$ 029 0 f Load Impedance = 600 ohms minimum _ ea f fqvojab viyqu Power Requirements: +24 volts dc 20 MA quiescent current , 80 mA at +25 dBm output into 600 ohm Ioad Ambient Temperature: to 60 degrees Celsius . Dimensions 3 . 375 &quot; 4.125&quot; (86 105 15 S7mj . Mm Mm 5-101-1-1 &#x27;-TJ;-:</p><p>WAAD-BECK SYSTEMS LTD OTJ emateye 4o3e-ORAW DESCRIPIION 5-101 AMPLIFIER SERIES The operation f both amplifier sections one section will be described identical Only  4j 9 9 Each section consists 0 f two individua] inverting amp]ifiers namely 21 and 22 _ Thes are fo]lowed by their respective out- put stages Q1 through 04 0/ 496 2n0/}63F+72992 @nfwo f T 0} In the 5-101 , the two amplifier inputs are interconnected to cross coupled differential pair resulting in Baianded 6 ,000 o hm input The output i5 actively ba Tanced T -2 0  The 5-1014 is designed with the 22 section to be used a$ summing (mixing input The output 0 f this section at termina E4 externa | Ty connected to E1 , thus providing an unba anced input and an actively balanced output The 5-101B presents an unbalanced brid9i8a&#x27; input (I5k ohms ) to the source As is the case with the 5-10 the at actRvely n0m7 termina / is externally connected to E1 and is ba lanced Juqj R47 to R5o together with C1S and C16 provide on-card power supply decoupling . 0W} $ $ 6 f M1 2iriC 003 92016b9qm [ b 6 0 JnsttV3 09329 { Up 3 05 ab 2} {0v 05 + Rifc   00a  - Juqfuo Edb 8 $ + J6 Aa 08 6 ..0 :2703m97 | Up99 7970 20: 2-9} 2991.29d 0 j #T0 $ 6799m9T Jn9i dm &quot;Tz ( Aum c [ 25| MM 20 [ &quot;21E mM 38 ) 2110 | 209m  5-1C1-1-2 5-101-1-2</p><p>WAAD-BECK SYSTEMS LTD OtJ emateyz Xoba-OAAW PARIS_ LISI 5-101 DUAL BOOSTER AMPLIFIER PART</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20Dual%20Mixdown%20Module.pdf">1975 - M456B - Dual Mixdown Module.pdf</a>, p. 19</li>
+</ul>
+<details><summary>Description — 191 words · 1975 - M456B - Dual Mixdown Module (2).pdf, page 20</summary><p>5-10 1   AMPLIFIER SERIES</p><p>The operation of both amplifier sections is identical.        On ly  one section wi ll be described ,  Each section consists of two &#x27;i ndi vi dua l inverting amplifiers,  namely Zl and Z2. These are followed by their respective out-  put stages Ql through Q4.  In the 5-101, the two amplifier inputs are i nt e r conne ct e d to  provide a cross coupled different ial pair res ulting in a  balanced 6 ,000 ohm input. The output is actively balanced .  The 5-101A is designed with the Z2 section to be used as a  summing (mixing) input. The output of this section at termina l  E4 is externally connected to E1, thus providing an unbalanced  input and an actively balanced output.  The 5-101B presents an unbalanced bridging input (15k ohms) to  the source. As is the case with the 5-101A, the output at  terminal E4 is externally connected to E1 and is actively  balanced.   R47 to R50 together with C15 and C16 provide on-card power   supply decoup1ing.</p><p>a                                                                        .c                                                                        ps                                                                   BS                                                               //W                                                                :                                                             tp</p><p>5-101-1-2                                                           ht</p><p>5- 10 1- 1- 2</p><p>WARD-BECK SYSTEMS LTD</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29.pdf">1975 - M456B - Dual Mixdown Module (2).pdf</a>, p. 20</li>
+</ul>
+<details><summary>Description — 296 words · 1975 - M456B - P019 - 5-101-1-1.jpg, page 1</summary><p>5-101 AMPLIFIER SERIES The 5-101 series 0 f amp] i fiers are utilized a$ plug-in units within certain Ward-Beck Systems 450 and 460 series modules. ^ 91 096 ; 329 0o7jjse 96 There are two separate amp] ifiers per card each providing an actively ba lanced output with a maximum capability 0 f +25 dBm . 8 9VT`J9029t %u ee pns e The fo]lowing specifications apply to the 5- 101 amp]ifiers .</p><p>*2 Jv UNIT 6aj?9 INPUT $n| 37 6 Ztugnf 19 GAIN MAX OUTPUT 9f/$ nt V29t 7/5q (6+j097 b9 [ q sb fvoy 5-101 9 908 Balanced^ 2 f JUqjuo 9 15 dB uqn} +25 dBm 3 69206 | &amp; 5-101A Unba ]anced ( summing ) Unity +25 dBm 5-101B * 9 0UnbaTanced TJj9z 9 20 dB 0on +25 dBm A0(- 31 647779} not 2[dj 70 Juqjno 90 !</p><p>n (ent tm) eatmmu Frequency Response: T0 +0.25 dB from 30 Hz to 20 kHz . 61793*9 2 i JuqJuo 03506| 60 %9vij36 05 bn 6 Jugr Noise: -100 dBm from 20 Hz to 20 kHz  07 (2md0 A81) fuqa} entebnid 093ns! 6000 0s&#x27; 2f782974 af0 f  -? 5d Harmonic Distortion: Less than 0 . 35% THD from 20 Hz to 20 kHz^ 1i9vtj?6 at +24 dBm output _ e 2t 41 T67[779 693ns ( &amp; Output Impedance: Less than 100 ohms _ 40q 0163-10 9DTY0&quot;9 .</p><p>006 01 j Ajfw Jadjipof 029 0f IA Load  Impedance: 600 ohms minimum. en} (quoj9b viqqu Power Requirements: +24 volts dc, 20 MA quiescent current , 80 mA at +25 dBm output into 600 ohm Ioad _ Ambient Temperature: 0 to 60 _degrees Celsius: Dimensions : 3 .375 &quot; X 4.125&quot; X 0 . 57&quot; (86 mm X 105 mm X 15 ` mm) .</p><p>5-101-1-1 2 T-JT</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P019%20-%205-101-1-1.jpg">1975 - M456B - P019 - 5-101-1-1.jpg</a>, p. 1</li>
+<li>also in: <a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P21.jpg">1975 - M456B - P21.jpg</a>, p. 1</li>
+</ul>
+<h3>Specifications (4)</h3>
+<details><summary>Technical Data — 473 words · 1975 - M456B - Dual Mixdown Module (2).pdf, page 3</summary><p>M456B    DUAL MII DOW N MO DULE</p><p>Gain :                               Adj ustab le f ro ll +5 dB t o -5 dB ,                                         t t dB ( h de r full y open).    Fr eq ue ncy Re s pon se:            t o . 2 5 dB f rOIl 20 Hz to 20 kHz .</p><p>No is e :                             75 dB b el ow nOll i na l outpu t of - 10 dS.                                          ( 20 Hz to 20 kHl).    HarllOni c Disto r t io n:           l e s s th a n 0 .251: THO frO ll20 Hz to                                         20 kHz und er t he follo win g conditi on s:                                         I nput:               +24 dB.                                         Sensit ivity :        +B dB_                                          re eer :             - 15 dB                                         Output:               +6 dBII    So urce I llpe da nc e s :    I n put I llped a nce s :            30 ,000 oh es , bah nce d (6,000 oh_s                                         with vu ee te r con nec ted).    In pu t l e ve ls :                  o t o + 10 dBII noe tna t , +24 dB• •ali. u• .    Outp ut I llp e dan ce s :                     DIRECT:             l es s t hiln 200 ch es , ba lance d.                    SUMMI NG:            60, 000 ohllls or 30 , 000 o hlls                                         r e s pe c t i vel y, e ilch o u t p u t, ba l anced.    l Oild I llpe da nce s :                   DIR ECT:              60 0 0h llls &quot; i n ill l,l&quot; , ba la nce d .                  SUMMI NG:              50hlls o r l ess .    Ou t pu t lev els:                 DI RECT:                -1 0 dBm no mi na l , +2 0 dBm mal imum.                                                                                                    a</p><p>SUMMI NG:                De s i gne d t o pr odu c e - 10 dBm at output                                                                                                 .c                                                                                            ps</p><p>of un ity ga i n su mmin g ilmplH ie r .                                                                                        BS                                                                                       W                                                                                   ://                                                                                tp                                                                              ht</p><p>1- 1</p><p>WAFlO ·SECI&lt; S Y S T E M S LT O</p><p>H4568   DUAL HIXOOWN MODULE</p><p>Phas i ng :                        I nput an d output t e r minal s des i gna t e d                                        by n uebe t-s ar e in phase .</p><p>Power     Requi re lllen ts:       t25 v ol t s ec , 50 lilA noe t net , 75 iliA                                        lIaxhl llll .</p><p>A_bie nt TeMpe ratu r e :          0 t o 60 deg rees Ce l sius .</p><p>e t ee ns t c es .                 1.6 &quot; wi de X 14. 15 M h i gh X 6 .5 M de ep                                        (H 11111 X 360 1111 X 165 111M) .</p><p>a                                                                                        .c                                                                                   ps                                                                             BS                                                                            W                                                                          ://                                                                       tp                                                                     ht</p><p>I· &#x27;</p><p>WARO -BECK S YS T E MS LTO</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29.pdf">1975 - M456B - Dual Mixdown Module (2).pdf</a>, p. 3</li>
+</ul>
+<details><summary>Technical Data — 178 words · 1975 - M456B - P4.jpg, page 1</summary><p>M456B DUAL MIXDOWN_MODULE Ga in: Adjustable from +5 dB to -5 dB _ t1 dB (fader fully open) _ +0.25 dB from 20 Hz to 20 kHz . Frequency Response: Noise: 75 dB below nomina] output 0 f -10 dBm (20 Hz to 20 kHz) _ Harmonic Distortion: Less than 0 . 25% THD from 20 Hz to 20 kHz under the fo]owing conditions : Input: +24 dBm Sens itivity: +8 dBm Fader: -15 dB Output: +6 dBm Source Impedances 600 ohms ma Ximum , balanced _ Input Impedances 30 000 ohms ba lanced (6,000 ohms with vu meter connected) Input Levels : 0 to +10 dBm nomina] +24 dBm  maximum _ Output Impedances: DIRECT: SUMMING: Less than 200 ohms balanced _ 60 ,000 ohms or 30 ,000 ohms respectively , each output; balanced Load Impedances : DIRECT: SUMMING 600 ohms minimum, balanced _ 5 ohms or Tess .</p><p>Output Levels : DIRECT: SUMMING: -10 dBm nomina ] +20 dBm maximum _ Des i gned to produce -10 dBm at output 0 f unity gain summing amp]ifier. 1-1</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P4.jpg">1975 - M456B - P4.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Technical Data — 126 words · 1975 - M456B - P5.jpg, page 1</summary><p>M456B DUAL MIXDOWN MODULE Phas ing : Input and output termina]s designated ` by numbers are in phase . &#x27; : ` Power Requirements : +25 volts dc , 50 ma nomina] 75 mA ma Ximum . Ambient Temperature: 0 to 60 degrees Celsius _ Dimensions :  1.6&quot; wide X 14.15&quot; high X 6 . 5 &quot; deep  - ` s  (41 mm X 36 0 mm X 165 mm)  e ^ ..</p><p>_ t o  s P&gt;- 7 ` . . &quot; .nt. . &#x27;: .an: e ` :: .. 2  &#x27;  . 7 ^ n ;, ;  . ` . . &#x27;. &#x27;  ; .. &#x27;j  ;` K  &#x27; . Ue .. 2` .- 3  - &#x27;   c [. . : &#x27; .&#x27;! 1-2</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P5.jpg">1975 - M456B - P5.jpg</a>, p. 1</li>
+<li>also in: <a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P004%20-%201-2.jpg">1975 - M456B - P004 - 1-2.jpg</a>, p. 1</li>
+</ul>
+<h3>Circuit description (5)</h3>
+<details><summary>Circuit Description — 333 words · 1975 - M456B - P6.jpg, page 1</summary><p>M456B DUAL MIXDOWN_MODULE The M456B is dua] channe] unit designed to receive either conso ]e (DIRECT ) outputs or tape (PLAYBACK) outputs A solid state switch selects the desired input source The module outputs feed stereo mixing bus which in turn supplies the feed for the conso]e monitoring system_ Input (Channe] #1 described) Each channel is equipped with s0]id state switching circuit (Q3 through Q8 for channel #1) = This ci rcuj operates in two-po ]e doub ]e throw configuration and selects either the DIRECT or the PLAYBACK input for further process ing In the norma 7 &#x27; mode 0 f operation i.e with pin P2-T 0 f the modu le connector not connected the PLAYBACK input is switched ON and the DIRECT input is switched 0FF When pin P2-T is connected to ground potentia] the status 0 f the two inputs is reversed With the SyNC button sw8 depressed, the channe] switching is ass igned to separate contro] path for the purpose 0 f selective sync or overdub contro] A separate contact, permitting external Togic contro] via pin P2-U _ is part 0f Sw8  The output 0 f the so]id state Swj tch is followed by buffer amp]ifiers Z1 and 22 _ 22 with Q10 and Q11 combined with 23 Q12 and Q13 form an actively ba anced output circuit From here , the s igna ] is routed through the CHAnNEL ON swi tch SW1 and appears at pins P1-21/Y 0 f the module connector.</p><p>Metering_Circuit Associated with each channel is Meter Select relay (K1) The relay picks off the signa 7 ahead 0 f the audio so]id state switches for the DIRECT or PLAYBACK inputs The metering output appears at P2-9 /K for M1 (VU or PPM meter) Depending on the status 0 f the relay the metering circuit will bridge across either the DIRECT or the PLAYBACK input _ As result the meter circuit impedance wil] determine the input impedance 0 f the channel being monitored _ 2 -1</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P6.jpg">1975 - M456B - P6.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Circuit Description — 305 words · 1975 - M456B - P7.jpg, page 1</summary><p>M456B DUAL MIXDOWN_MODULE K1 is operated by transistor driver consting 0 f Q1 and Q2 . It may be switched directly by applying closure to the contro] common potentia] at P2-P or selectively via operation 0 f the Sync switch Sw8 at P2-R_ The me tering selection is independent 0 f the audio input selection With the a i d 0f externa] Togic , this permits the choice 0 f audio and me tering functions independent 0 f one another , or else in fo]low mode whichever may be desired .</p><p>Fader Pins Pl-21/Y feed the input 0 f ba lanced fader The fader output is returned to the mo dule at pins Pl-18/V . conso]e may be equipped with two sing] e slide attenuators occupying s ing]e modu]e space width, and thereby serving both channe] s 0 f an M456B modu]e Booster_Amplifier From pins Pl-18/V 0 f the module connector , the signa] is brought directly to the input 0 f one ha] f 0 f the 5-101 Booster Amplifier This amp]ifier operates at ga in 0 f 15 dB and recovers the Toss incurred when the fader is placed in the nominal 15 dB &quot;in-hand&quot; position .</p><p>Qutputs The output s igna ] 0 f the 5-101 amp] ifier feeds the LEFT and RIGHT main outputs via PAN switch Sw3 and PAN contro] R85 through R89 It a ]s0 provides the feed for the DIRECT output , and via SW2 for the SOLO output A separate contact on SW2 a ]lows the operation 0 f externa ] s0]0 Togic contro] circuitry .</p><p>Prefade REVERB SEND and FOLDBAck outputs are made ava iTab e with separate Teve] controls R68 through R71 , followed by ass ignment switches SW4 SW5  Sw6 and SW7 A11 module outputs are controlled by the CHANNEL on switch _ 2-2</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P7.jpg">1975 - M456B - P7.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Circuit Description — 306 words · 1975 - M456B - P006 - 2-2.jpg, page 1</summary><p>M456B_DUAL MIXDOWN_MODULE K1 is operated by transistor driver cons ting of Q1 and Q2 _ It may be switched directly by applying closure to the contro] common potentia] at P2_P or selectively via operation 0 f the SynC switch SN8 at P2-R. The me- tering selection is independent 0 f the audio input selection With the aid 0 f external Togic, this permits &#x27;the choice of audio and metering functions independent 0 f one another or else in fo ] 1ow mo de whichever may be des ired Fader Pins Pl-21/Y feed the input 0 f balanced fader The fader output is returned to the module at pins P1-18/V A console may be equipped with two single slide attenuators occupying ing ]e modu]e space width and thereby serving both channels 0 f an M456B module  .</p><p>= Booster_Amplifier  &quot; . ` . From pins Pl-18/V 0 f the module connector , the signa] is brought directly to the input 0 f one ha ] f 0 f the 5-101 Booster Amplifier This amplifier operates at ga in 0 f 15 and recovers the Tos 5 incurred when the fader is placed in the nomina 15 dB in-hand pos ition Outputs The output signa] 0 f the 5-101 amp]ifier feeds the LEFT and RIGHT ma in outputs via PAN swi tch SW3 and PAN contro] R85 through R89 It a ]s0 provides the feed for the DIRECT output and ia SW2 for the SOLO output separate contact on Sw2 a |lows the operation 0 f externa s0 |0 Togic contro] circuitry Prefade REVERB SEND and FOL DBAcK outputs are made ava i ab ]e with separate Tevel contro]s R68 through R71 , followed by a $s ignment switches SW4 SWs SW6 and SW7 A11 modu le outputs are con trolled by the CHANNEL On switch.</p><p>2 -2</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P006%20-%202-2.jpg">1975 - M456B - P006 - 2-2.jpg</a>, p. 1</li>
+<li>also in: <a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P8.jpg">1975 - M456B - P8.jpg</a>, p. 1 · <a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P007%20-%202-3.jpg">1975 - M456B - P007 - 2-3.jpg</a>, p. 1</li>
+</ul>
+<h3>Parts list (text) (4)</h3>
+<details><summary>Parts List — 470 words · 1975 - M456B - Dual Mixdown Module (2).pdf, page 14</summary><p>M4 56B          DUAL MIXDOW N MODU LE</p><p>PART     DESCRI PTION                                      MFG           MFG PART NUMB ER        RI13     Re s i ~ tor   ~W   S1;    15K                    Ph ~ 1 t ps        R114                                15K        R115                                15&#x27;        R116                                15&#x27;        R117                                3K3</p><p>Rl18        R119                 Tri m pot                 Re s i s t.or ~W S1;                                            &#x27;3K3                                             OK                    Pi he r                                                                   Ph i l i ps                                                                                 PT i o - 20K        Rl20        aia i                 Tr i m pot                 Re s i ~ to r &#x27;oW 51;                                            &#x27;15&#x27;OK                 Pi he r                                                                   Ph ~ 1 i ps                                                                                 PT IOv 20K        Rl22                                15&#x27;        Rl23                                15&#x27;        Rl24                                15&#x27;        Rl2 5                               4K7        Rl25                                4K7        Rl27                                4K7</p><p>Rl 28                               4K7        Rl 2 9                              2M2        Rl30        Rl31                                            2M&#x27;                                            2M&#x27;        Rl32                                2M2        Rl33                                IK5        R134     Re s i ~tor    ~W   51;    4K7        R135                                4K7        RU6      Resi~tor       !:ill 51;   lOOK        Rl37                                ear        R138                                33K        Rl 39                               l OOK        Rl 40                               l OOK        Rl 4 1                              l OOK        Rl 4 2                              m                                                                                                   a                                                                                                .c</p><p>Rl43                                47K                                                                                                ps</p><p>Rl44                                15&#x27;                                                                                         BS</p><p>Rl45                                62O        R146                                15K                                                                                        W</p><p>Rl47                                620                                                                                      ://                                                                                    tp</p><p>I                                                                                  ht</p><p>1-                                                       3-7</p><p>WARD - BECK SYSTE MS LTD .</p><p>PARTS LI ST</p><p>M45 6 B    DUAL MIXDOWN MODULE</p><p>PART     DESCRI PTI ON                                HFG        MFG PART NUMBER  Rl 4 8   Resi !t or %11 51       10K                  Ph11ip s  Rl 4 9                           180K  RI50                             15k  R151                             620  R152                             15k  RI5 3                            15K  Rl 54                            15k  Rl 5 5                           15k  Rl 56                            15K  Rl57                             33  RlS8                             33  RlS9                             33  Rl60                             33  Rl61                             10  R162</p><p>RI 6 3                                   &#x27;&quot;                                   10  Rl64  Rl6 5  Rl66                                   &#x27;&quot;                                   &#x27;&quot;  Rl67                             &#x27;&quot;                                   2&lt;,  Rl68  Rl69                            &#x27;&quot;  Rl7 0  Rl71                                  &#x27;&quot;                                  &#x27;&quot;  Rl n                            &#x27;&quot;                                  &#x27;&quot;  RI 13  Rl 74           P ot e~t 1 o .e t er                     AI!            IIBS !O -O22  RI75  Rl76  RI77     Re s is t o r %11 SI    15k              Phili ps                                                                                     a                                                                                  .c                                                                                  ps</p><p>R17 8                           15K  RI79                             15k                                                                           BS</p><p>RI 8 0                           15k  RI 8 l                                                                          W</p><p>15K  RI 8 2                          15K                                                                        ://                                                                     tp                                                                   ht</p><p>3- 8</p><p>WARD -B ECK S YS T E MS LTD .</p><p>PARTS LIS T</p><p>M456B         DUAL &quot;&#x27;UDOW&quot; MODULE</p><p>P....RT   DESCRIPTI ON                                             MFG PART &quot; UMBER</p><p>RI B3     Res f ~t or l:t; W 52:   15K   RI B4                              15K   RI 8 S   RI 86                                      &#x27;OK   RI 87                              &#x27;&quot;                                      100   RI 88                              100</p><p>R189 ~   R190      Pot ent i omet er   R191   RI 9Z}</p><p>R19 3     Re s f ~tor &quot;W 5S        lK8   R194                               lK8   R19 S   R196   R197                                      &#x27;&quot;                                      lK8                                      &#x27; 0&#x27;   R198                               &#x27; 0&#x27;   Rl 9 9   </p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29.pdf">1975 - M456B - Dual Mixdown Module (2).pdf</a>, p. 14</li>
+</ul>
+<details><summary>Parts List — 500 words · 1975 - M456B - Dual Mixdown Module (2).pdf, page 22</summary><p>5-101 DUAL BOOSTER AMPLIFIER</p><p>PART   OEseR I PTION                MFG          MFG PART NUMBER    R1     Resistor ~W 5% 47K           Ph~lips    R2         II                          47K    R3                    6K2    R4                    6K2    R5                    120K                                              to.</p><p>R6                     20K          Ph~lips    R7                     20K    R8                     18K    R9                     18K    R10                    620    Rll                    620    R12                    15K    R13                    15K    R14                    15K    R15                    15K    R16                    33    R17                    33    R18                    33    R19                    33    R20                    4K7    R21                    4K7    R22                    33    R23                    33    R24                    47K                -    R25                    47K    R26                    6K2    R27                    6K2    R28                    120K    R29                    20K    R30                    20K                                                                       a                                                                       .c</p><p>R31                    18K                                                                   ps</p><p>R32                    18K    R33                    620                                                                BS</p><p>R34                    620                                                             //W</p><p>R35                    15K                                                             :                                                          tp                                                         ht</p><p>5-101-2-2</p><p>WARD-BECK SYSTEMS LTD .</p><p>PA RTS LI ST                       5-101 DUAL BOO STER AMPLI FIER</p><p>PART    DESCRI PTIO N                   MFG          MFG PART NUMB ER    R36     Res is to r l,;W 5% 15K         Ph~lips    R37                         15K    R38                         15K    R39                         33    R40                         33    R41                       33    R42                       33    R43                       4K7    R44                       4K7    R45                       33    R46                     33    R47                     620    R48                     620    R49     Resistor ;,W 5% 180    R50                     180    R51     Resistor l,;W 5% 6K2    R52                      6K2    R53                      6K2    R54                      6K2    Zl      I ntegrated Ci rcuit            Nati ona l   LM201AN    Z2           &quot;                             &quot;            &quot;    Z3    Z4</p><p>WBS recommends the use of replaceme nt parts made by t he     specif ied manufa cturers for cont i nued optimum equ ipmen t     performance .                                                                             a                                                                            .c                                                                            ps                                                                      BS                                                                    //W                                                                      :                                                                   tp                                                                ht</p><p>5-101 -2-3</p><p>W8S    •   M4~8</p><p>MONITOR ASS IGNMENT switch es S&quot;&quot;&#x27;3. SW10 . SWI I ~~d f;~1 ~ Wh~~~~~~es ~:~&#x27;i s~~; s o u ~~u~x ~~~~: J f-------- - ---&lt;€===::---            1a mon i to r sUfIr.lin g buses I      to 4 .</p><p>SYNC        swit c bse ,      Whe n dep resse d,     th i s sw i t Ch a ~ s ig ns   t he   in p u t selection for c h e n&quot; e l I t o t he OVERDUB co nt rol c i r c u it of t t.c c ons ol e . S fmult en eoc slv . the a s soci a te d f -- - - - --              -   -   -   -   -   -   -   - -- LEO is i l l umina t e d an d a sepa r ate co nt ro l groun d is br ou gh t ou t o f t he modu l e f o r ex ter nal use .</p><p>~O                                                                                                                                           OS,</p><p>~~~n~~~O , 2 p ~~~~~e ~~~ ~o~o :~~: ou t~~~ t~~~~ f --             - - --          -   -   -   -   -   -   -   -   - --                                                                                                                                0OS,                                                                                                                                           0 REV SENO sw i t c h SW] : With switch de p r ess ed . t he ch a nnel I RS2 o utpu t bu s .                     p re f a de si gn a l i s f ed t o th e f --   - - --          -   -   -   -   -   -   -   -   -   -   -                                                                                                                                 o         c                                                                                                                                           os,</p><p>c o                                                                                                                                 OS,                                                                                                                                                  Chann e l 2 section :         All</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29.pdf">1975 - M456B - Dual Mixdown Module (2).pdf</a>, p. 22</li>
+</ul>
+<details><summary>Parts List — 168 words · 1975 - M456B - P021 - 5-101-2-1.jpg, page 1</summary><p>5-101 DUAL BOOSTER AMPLIFIER PART DESCRIPTIOn MFG MFG PART NUMBER 9 T3900336MO 1OAS [9 5S cQ92-MC-222m 6 2222-638-09688 49 29 C1 C2 83 C5 Capacitor 33 uF/10 V;49 Kemet 2200 pF Aselco 6 . 8 PF Philips XOsr 220 uF/10 V9 Kemet 0S 4os 33 uF/10 V 78 1 38 [ 2200 pF Ase]co s0 6 . 8 pF Philips C6 c8 C9 C]0 T390F227M010AS 89 [3 T3900336MO 1 OAS 89 e?</p><p>cQ92-MC-222m 0 [ 8 C1I C12 C13 C14 C15 2222-638-09688 | [ 8 Sf9 T390F227M010AS   [8 0 [ A B41313-A5226-2   FA 220 uF/10  Kemet 22 uF/25 V Siemens C16 €€ €€ E E{ a a[9 :a 919 0^ 039 CRI CRZ CR3 CR4 CRS Diode Itt 1N4148 TX? c8 Ts9 Ssa ESa 49 2s9 CR6 CRZ CR8 Transistor Nationa 1 S40 Xos { Xos X0s PN356 9 PN3645 PN3sGs PN3569 J99 [SA 8SR esa 029 3 8; 8 &quot;I 48 [ X8 [ 0sd 0sd Az| PN3645 PN3569 PN3645 I64 Se4 ce3 n 2E8 5 -101-2-14</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P021%20-%205-101-2-1.jpg">1975 - M456B - P021 - 5-101-2-1.jpg</a>, p. 1</li>
+<li>also in: <a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20P23.jpg">1975 - M456B - P23.jpg</a>, p. 1</li>
+</ul>
+<h2>Drawings (20)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Drawn by</a></th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>481-03-015</td>
+<td>Dual Booster Amplifier</td>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td><a href="../../../PAGES/Person-DM.html">DM</a></td>
+<td>R LAYOUT</td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20481-03-015%20-%20DUAL%20BOOSTER%20AMPLIFIER.jpg">file</a></td>
+</tr>
+<tr>
+<td>5-101-02-001</td>
+<td>Mod Ickd Used</td>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td><a href="../../../PAGES/Person-DM.html">DM</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%205-101-02-001%20-%20MOD%20ICKD%20USED.jpg">file</a></td>
+</tr>
+<tr>
+<td>5-101-06-001</td>
+<td>Staijd Off</td>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td><a href="../../../PAGES/Person-DM.html">DM</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29.pdf">file</a> p.30</td>
+</tr>
+<tr>
+<td>456-06-001</td>
+<td>Dual Mixdown Module</td>
+<td><a href="../../../PAGES/Year-1977.html">1977|10</a></td>
+<td><a href="../../../PAGES/Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="../../../PAGES/Person-RAX.html">RAX</a></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-06-001%20-%20DUAL%20MIXDOWN%20MODULE.jpg">file</a></td>
+</tr>
+<tr>
+<td>456-02-003</td>
+<td>Pi-H Swia Ries</td>
+<td><a href="../../../PAGES/Year-1978.html">1978|11</a></td>
+<td>PRM</td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-02-003%20-%20PI-H%20SWIA%20RIES.jpg">file</a></td>
+</tr>
+<tr>
+<td>456-01-003</td>
+<td>Solo Control Common</td>
+<td></td>
+<td>P MAHOVEY</td>
+<td></td>
+<td>3</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-01-003%20-%20SOLO%20CONTROL%20COMMON.jpg">file</a></td>
+</tr>
+<tr>
+<td>456-01-003</td>
+<td>Solo Control Common</td>
+<td></td>
+<td><a href="../../../PAGES/Person-P-MAHONEY.html">P MAHONEY</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-01-003%20-%20SOLO%20CONTROL%20COMMON%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>456-01-003</td>
+<td>Sel Control Sync Control Sync Ext Control</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20Dual%20Mixdown%20Module.pdf">file</a> p.25</td>
+</tr>
+<tr>
+<td>456-02-003</td>
+<td>Yud Yzx</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-02-003%20-%20YUD%20YZX.jpg">file</a></td>
+</tr>
+<tr>
+<td>456-04-006</td>
+<td>Xdown Module Connector Rear View</td>
+<td></td>
+<td></td>
+<td></td>
+<td>B</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-04-006%20-%20XDOWN%20MODULE%20CONNECTOR%20REAR%20VIEW.jpg">file</a></td>
+</tr>
+<tr>
+<td>456-04-006</td>
+<td>Dual Mixdown Module Connector Rear View</td>
+<td></td>
+<td></td>
+<td></td>
+<td>B</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-04-006%20-%20DUAL%20MIXDOWN%20MODULE%20CONNECTOR%20REAR%20VIEW.jpg">file</a></td>
+</tr>
+<tr>
+<td>456-04-006</td>
+<td>Dual Xduwn Module Connector Rear View</td>
+<td></td>
+<td><a href="../../../PAGES/Person-OUT.html">OUT</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20Dual%20Mixdown%20Module.pdf">file</a> p.28</td>
+</tr>
+<tr>
+<td>456-04-009</td>
+<td>Switch Swi When Depressed Activates Channe Output Circuits</td>
+<td></td>
+<td></td>
+<td><a href="../../../PAGES/Person-RL.html">RL</a></td>
+<td>B</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-04-009%20-%20SWITCH%20SWI%20WHEN%20DEPRESSED%20ACTIVATES%20CHANNE%20OUTPUT%20CIRCUITS.jpg">file</a></td>
+</tr>
+<tr>
+<td>456-04-009</td>
+<td>Eng Dual Mixdown Module</td>
+<td></td>
+<td></td>
+<td></td>
+<td>B</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-04-009%20-%20ENG%20DUAL%20MIXDOWN%20MODULE.jpg">file</a></td>
+</tr>
+<tr>
+<td>456-04-009</td>
+<td>Dual Mixdown Module Front Panel</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29.pdf">file</a> p.24</td>
+</tr>
+<tr>
+<td>456-06-001</td>
+<td>Component Side Notes Resistors Rgo</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-06-001%20-%20COMPONENT%20SIDE%20NOTES%20RESISTORS%20RGO.jpg">file</a></td>
+</tr>
+<tr>
+<td>461-03-015</td>
+<td>Dual Booster Amplifier Layout</td>
+<td></td>
+<td><a href="../../../PAGES/Person-DM.html">DM</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20Dual%20Mixdown%20Module.pdf">file</a> p.30</td>
+</tr>
+<tr>
+<td>5-101-02-001</td>
+<td>Mod Ickd Bkzigeb Used</td>
+<td></td>
+<td><a href="../../../PAGES/Person-DM.html">DM</a></td>
+<td><a href="../../../PAGES/Person-RL.html">RL</a></td>
+<td>2</td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20Dual%20Mixdown%20Module.pdf">file</a> p.29</td>
+</tr>
+<tr>
+<td>5-101-06-001</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%205-101-06-001.jpg">file</a></td>
+</tr>
+<tr>
+<td>5_101-02-001</td>
+<td>Black Com Issmodickd Usedon</td>
+<td></td>
+<td><a href="../../../PAGES/Person-DM.html">DM</a></td>
+<td><a href="../../../PAGES/Person-RK.html">RK</a></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%205_101-02-001%20-%20BLACK%20COM%20ISSMODICKD%20USEDON.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M456B&quot;,
+ &quot;name&quot;: &quot;Dual Mixdown Module&quot;,
+ &quot;category&quot;: &quot;ROUTING&quot;,
+ &quot;year&quot;: 1975,
+ &quot;connections&quot;: {
+  &quot;from&quot;: &quot;its own documents&quot;,
+  &quot;inputs&quot;: [
+   &quot;Fl6 Ch2 Pb In&quot;
+  ],
+  &quot;outputs&quot;: [
+   &quot;Chi Pre Out&quot;
+  ],
+  &quot;power&quot;: [
+   &quot;+24V&quot;,
+   &quot;-24V&quot;
+  ],
+  &quot;control&quot;: [
+   &quot;P2-V Solo En&quot;,
+   &quot;Pz-V Solo Ctl&quot;
+  ]
+ },
+ &quot;made_of&quot;: [
+  &quot;5-101&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - 456-01-003 - SOLO CONTROL COMMON (2).jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - 456-01-003 - SOLO CONTROL COMMON.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;modules&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - 456-02-003 - PI-H SWIA RIES.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - 456-02-003 - YUD YZX.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - 456-04-006 - DUAL MIXDOWN MODULE CONNECTOR REAR VIEW.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - 456-04-006 - XDOWN MODULE CONNECTOR REAR VIEW.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - 456-04-009 - ENG DUAL MIXDOWN MODULE.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - 456-04-009 - SWITCH SWI WHEN DEPRESSED ACTIVATES CHANNE OUTPUT CIRCUITS.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - 456-06-001 - COMPONENT SIDE NOTES RESISTORS RGO.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - 456-06-001 - DUAL MIXDOWN MODULE.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - 481-03-015 - DUAL BOOSTER AMPLIFIER.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - 5-101-02-001 - MOD ICKD USED.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - 5-101-06-001.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - 5_101-02-001 - BLACK COM ISSMODICKD USEDON.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - Dual Mixdown Module (2).pdf&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 30,
+   &quot;holds&quot;: [
+    &quot;connections&quot;,
+    &quot;dates&quot;,
+    &quot;modules&quot;,
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - Dual Mixdown Module.pdf&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 30,
+   &quot;holds&quot;: [
+    &quot;connections&quot;,
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P001 - Title Page.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P003 - 1-1.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P004 - 1-2.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P005 - 2-1.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P006 - 2-2.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P007 - 2-3.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P008 - 3-1.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P009 - 3-2.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P010 - 3-3.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P011 - 3-4.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P012 - 3-5.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P013 - 3-6.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P014 - 3-7.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P015 - 3-8.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P016 - 3-9.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P017 - 3-10.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P018 - 5-101.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P019 - 5-101-1-1.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P020 - 5-101-1-2.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P021 - 5-101-2-1.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P022 - 5-101-2-2.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P023 - 5-101-2-3.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P1.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P10.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P11.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P12.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P13.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P14.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P15.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P16.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P17.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P18.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P19.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P20.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P21.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P22.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P23.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P24.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P3.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P4.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P5.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P6.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P7.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P8.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1975 - M456B - P9.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1978 - M456B - P002.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M456B/1978 - M456B - P2.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../../../_catalog/wbs_reels.js" defer></script><script src="../../../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../../../_catalog/libcontrol/libcontrol.css"><script src="../../../_catalog/libcontrol/react.js"></script><script src="../../../_catalog/libcontrol/react-dom.js"></script><script src="../../../_catalog/libcontrol/libcontrol.js"></script><script src="../../../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M456B.md</small></div></article><script src="../../../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

@@ -1,0 +1,401 @@
+# 1976 - M466 - P46 - Schematic.jpg
+Wiki page: [M466](../../../PAGES/M466.md)
+
+
+- **Year:** 1976 (module estimate (labelled))
+- **Module:** M466
+- **Category:** DYNAMICS
+- **Module year estimate:** 1976 — labelled "DATE AUG 76" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M466 Compressor - Limiter/M466 - P47 - Component Layout.jpg
+- **Original file:** `WBSps.env/wbsps - website ARCHIVE/WBSPS 2008/RAW SCANS/To Be edited/M466 Compressor - Limiter/M466 - P46 - Schematic.jpg`
+- **SHA-256:** `af4d251b17ef76336edd95aa3f3b76eae9ec4bb061741774f8d515723457030d`
+- **Size:** 739,265 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 6 words corrected)
+
+```text
+COMP RELEASE Rus R45 7k5 220 {2 ' 610 P4e Icok REL ADJuST Riti Soo
+stereo Tie
+Cp IN4o}
+TIP 298
+Ree LiI RELEASE
+R43
++2Sv 21
++2iv
+PNJ569
+R12 PN 3569
+NQTE? Use PcB -105 LAST ~COMPONENT DESIGNATIONS Are: 044, Crie,Qm,Rizs, 379 Zi0
+crs IN4003
+CONTROL AMPLIFIER I06
+47/40
+5wb
+2415 ICOM @
+IEI5 RSR 8k2
+22/25
+4ok
+CR4 144o0)
+COMPRESSOR SLOPE
+47/40
+243 0.022
+Mx
+Aon
+PN3645 RI4+ ZKL
+C2s 10/25
+crs 14148
+R55 Ok
+FN364S CRZ IN4OOS
+723 ~evEL R4o CAL
+Rioz 610
+1n414B
+3p9
+25v
+Ziv
+Rso S3 M Rsi 35w1* R5Z isk
+R5} 4k7
+Reo Ooy
+InRa
+TiP 306
+235 00125
+crio 1n4148
+R103
+Ciov Riie 75k 3i2o> 16KS 3k9 Gr
+c2o V25
+R57 Zz0k
+0l Ocp
+R48 745
+RI24
+L4Sol Rios M cok
++I6v
+620 C39 22/25
+R49 Rr| 5k ICCVP TElD
+RST
+Ru 47k
+Rio7 4k7
+Zio
+R100 %8k # GL Rio5_ 620
+233 0/35
+Ri1 Icm
+0to 2225
+LA376
+6 Seegeuk 2.2/25
+LKs8 C24 cr6 10/25 IN414B
+cnl
+Riob 4k7 crii In4nb
+R5B 8k2
+R59 Sok An pe-ES2
+8p2
+L4348
+(OM
+DE-Ess NSERT
+390OP
+0/25
+546
+S6B
+576€
+14301
+Riis
+Rik 510
+PN345
+RiO6
+035
+Iav
+2.2/25 Pu3645 Ek Rio ~I6v
+RV6s 247
+Riz7 S2<7
+3i0
+19 +2i Vim COMROH TSN2B LLON 573a 6687 R78 -  8A 3412 F6b0 Rso R77 680 7888 374 R765 COMPRESSOR Rai R8s Limier Ikz s IHRESLOLD I4RESHOLD R93 025 430 Sw4 RT5 Sw5 S6z Ik5 R94 Sib isz 330 R7 48 278 Ris R9S 270
+Rlk Ww )SC43i7
+Sm2A
+8 Rv 4i0 eclb Rdi VEL I
+5w36
+C445SIS 22 (
+I+2iv RZb
+#2iv
+04i Tors
+Is InsERT
+2E5
+828 cio Z20p 4p7 +2Wv
+86 C23_ Bez -
+25
+R6
+OUTPUT AMPLIFIER 4-109 D
+S4Ta
+OUTPUT
+3906
+Sens
+6-l07
+33/i0
+sensitivity 450 Smib
+Rzo 60 20P Cis 4p7
+ZE6
+Q5)690/
+Lhsoi
+12E2
+5w78
+INPUT
+Rgk
+LMso SR
+{82 4i7
+SwZC
+410
+He
+MAKE-UP GAIN 233
+Sw7c
+Ri6 3yi0 ISk
+COMP2N
+I50K Re4 c29
+3/40 160
+Bus CAL
+R35 500
+Ziv 244 3.01
+Vv
+IooK
+B3
+R5k
+2p7
+R69 3k
+Ribi iok
+LMSI
+ELA 30k
+R65
+LMsoi
+2kZ
+~Ziv
+Ris
+549=
+RZ4 IkB
+-Ziv
+Rto Sk
+SHIELD GD
+Sw9a
+Eo8
+Qi+ Ps5re Ri3t 373
+R2z
+Swia
+0/25 S3s ~or6 SENS sENsiTiviTY
+Czo ISol6
+LhkS8
+R6e <Rw
+EXTERNAL GRIVU METER
+346
+ri3s 3k9
+cRB IN4l48
+22k
+CR9 WN4148 R66
+OSSMOD; CKD: 2943 3212 349
+USED_Oh
+MTT
+~I6v
+WBS WAAD-Brck Bybtemb LTD
+DRM DALE _JUNE 76 CKDSL SCALE TOlS
+IhISA
+M466
+Compressor/Limiter SCHEMATiC 466 = 0 01
+S5ois
+3S8
+#I6v
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+COMP RELEASE Rus R45 7k5 220 {2 ' 610 P4e Icok REL ADJuST Riti Soo
+stereo Tie
+Cp IN4o}
+TIP 298
+Ree LiI RELEASE
+R43
++2Sv 21
++2iv
+PNJ569
+R12 PN 3569
+NQTE? Use PcB -105 LAST ~OMPONENT DESIGNATICNS Are: 044, Crie,Qm,Rizs, 379 Zi0
+crs IN4003
+CONTROL AMPLIFIER I06
+47/40
+5wb
+2415 ICOM @
+IEI5 RSR 8k2
+22/25
+4ok
+CR4 144o0)
+COMPRESSOR SLOPE
+47/40
+243 0.022
+Mx
+Aon
+PN3645 RI4+ ZKL
+C2s 10/25
+crs 14148
+R55 Ok
+FN364S CRZ IN4OOS
+723 ~evEL R4o CAL
+Rioz 610
+1n414B
+3p9
+25v
+Ziv
+Rso S3 M Rsi 35w1* R5Z isk
+R5} 4k7
+Reo Ooy
+InRa
+TiP 306
+235 00125
+crio 1n4148
+R103
+Ciov Riie 75k 3i2o> 16KS 3k9 Gr
+c2o V25
+R57 Zz0k
+0l Ocp
+R48 745
+RI24
+L4Sol Rios M cok
++I6v
+620 C39 22/25
+R49 Rr| 5k ICCVP TElD
+RST
+Ru 47k
+Rio7 4k7
+Zio
+R100 %8k # GL Rio5_ 620
+233 0/35
+Ri1 Icm
+0to 2225
+LA376
+6 Seegeuk 2.2/25
+LKs8 C24 cr6 10/25 IN414B
+cnl
+Riob 4k7 crii In4nb
+R5B 8k2
+R59 Sok An pe-ES2
+8p2
+L4348
+(OM
+DE-Ess NSERT
+390OP
+0/25
+546
+S6B
+576€
+14301
+Riis
+Rik 510
+PN345
+RiO6
+035
+Iav
+2.2/25 Pu3645 Ek Rio ~I6v
+RV6s 247
+Riz7 S2<7
+3i0
+19 +2i Vim COMROH TSN2B LLON 573a 6687 R78 -  8A 3412 F6b0 Rso R77 680 7888 374 R765 COMPRESSCR Rai R8s Limier Ikz s IHRESLOLD I4RESHOLD R93 025 430 Sw4 RT5 Sw5 S6z Ik5 R94 Sib isz 330 R7 48 278 Ris R9S 270
+Rlk Ww )SC43i7
+Sm2A
+8 Rv 4i0 eclb Rdi VEL I
+5w36
+C445SIS 22 (
+I+2iv RZb
+#2iv
+04i Tors
+Is InsERT
+2E5
+828 cio Z20p 4p7 +2Wv
+86 C23_ Bez -
+25
+R6
+OUTPUT AMPLIFIER 4-109 D
+S4Ta
+OUTPUT
+3906
+Sens
+6-l07
+33/i0
+sensitivity 450 Smib
+Rzo 60 20P Cis 4p7
+ZE6
+Q5)690/
+Lhsoi
+12E2
+5w78
+INPUT
+Rgk
+LMso SR
+{82 4i7
+SwZC
+410
+He
+MAKE-UP GAIN 233
+Sw7c
+Ri6 3yi0 ISk
+COMP2N
+I50K Re4 c29
+3/40 160
+Bus CAL
+R35 500
+Zlv 244 3.01
+Vv
+IooK
+B3
+R5k
+2p7
+R69 3k
+Ribi iok
+LMSI
+ELA 30k
+R65
+LMsoi
+2kZ
+~Ziv
+Ris
+549=
+RZ4 IkB
+-Ziv
+Rto Sk
+ShIeCD GD
+Sw9a
+Eo8
+Qi+ Ps5re Ri3t 373
+R2z
+Swia
+0/25 S3s ~or6 SENS sENsiTiviTY
+Czo ISol6
+LhkS8
+R6e <Rw
+EXTERNAL GRIVU METER
+346
+ri3s 3k9
+cRB IN4l48
+22k
+CR9 WN4148 R66
+OSSMOD; CKD: 2943 3212 349
+USED_Oh
+MTT
+~I6v
+WBS WAAD-Brck Bybtemb LTD
+DRM DAIE _JUNE 76 CKDSL SCALE TOlS
+IhISA
+M466
+Compressor/Limiter SCHEMATiC 466 = 0 01
+S5ois
+3S8
+#I6v
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Modules/DYNAMICS/M466/1976 - M466 - P46 - Schematic.jpg",
+ "sha256": "af4d251b17ef76336edd95aa3f3b76eae9ec4bb061741774f8d515723457030d",
+ "kind": "module",
+ "models": [
+  "M466"
+ ],
+ "year": 1976,
+ "pages": 1
+}
+```

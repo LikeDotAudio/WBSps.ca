@@ -1,0 +1,22 @@
+{
+  "source": "/home/anthony/Documents/GitProjects/WBSps.ca/WBSps.env/WBSps Engineering from H drive/Wbsps - MASTERS/AP94005/14-290A.PCB",
+  "kicad_pcb": "/home/anthony/Documents/GitProjects/WBSps.ca/2026/Engineering/PCB/14-290A - AP94005/14-290A.kicad_pcb",
+  "format": "Tango-PCB PLUS V2.02 Series II",
+  "edge_layer": 14,
+  "tango_layers_used": {
+    "0": 1,
+    "4": 220,
+    "8": 1164,
+    "14": 22
+  },
+  "counts": {
+    "components": 167,
+    "pads": 471,
+    "tracks": 1,
+    "vias": 0,
+    "graphics": 1323,
+    "texts": 74,
+    "pours": 9
+  },
+  "nets": null
+}

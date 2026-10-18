@@ -1,0 +1,134 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M405C</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../../../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../../../index.html">Index</a><a href="../../../Home.html">Wiki home</a><a href="../../../PAGES/Timeline.html">Timeline</a><a href="../../../search.html">Search</a><a href="../../../status.html">Status</a></div><h1>M405C</h1>
+<p><a href="../../../PAGES/Consoles.html">← Consoles &amp; projects</a></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Years</td>
+<td>1975 (from the dated files in this project)</td>
+</tr>
+<tr>
+<td>Files</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Job number</td>
+<td>none found yet</td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="index.html">Modules/METER/M405C</a></td>
+</tr>
+</tbody>
+</table><h2>Pictures</h2><div class="thumbs"><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-1.jpg"><img loading="lazy" src="../../../Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-1.jpg" alt="" data-f="Modules/METER/M405C/1975 - M405C - $_57-1.jpg" data-size="320" onerror="wbsOff(this)">1975 - M405C - $_57-1.jpg</a><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-2.jpg"><img loading="lazy" src="../../../Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-2.jpg" alt="" data-f="Modules/METER/M405C/1975 - M405C - $_57-2.jpg" data-size="320" onerror="wbsOff(this)">1975 - M405C - $_57-2.jpg</a><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-3.jpg"><img loading="lazy" src="../../../Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-3.jpg" alt="" data-f="Modules/METER/M405C/1975 - M405C - $_57-3.jpg" data-size="320" onerror="wbsOff(this)">1975 - M405C - $_57-3.jpg</a><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-4.jpg"><img loading="lazy" src="../../../Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-4.jpg" alt="" data-f="Modules/METER/M405C/1975 - M405C - $_57-4.jpg" data-size="320" onerror="wbsOff(this)">1975 - M405C - $_57-4.jpg</a><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-5.jpg"><img loading="lazy" src="../../../Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-5.jpg" alt="" data-f="Modules/METER/M405C/1975 - M405C - $_57-5.jpg" data-size="320" onerror="wbsOff(this)">1975 - M405C - $_57-5.jpg</a><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-6.jpg"><img loading="lazy" src="../../../Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-6.jpg" alt="" data-f="Modules/METER/M405C/1975 - M405C - $_57-6.jpg" data-size="320" onerror="wbsOff(this)">1975 - M405C - $_57-6.jpg</a><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-7.jpg"><img loading="lazy" src="../../../Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-7.jpg" alt="" data-f="Modules/METER/M405C/1975 - M405C - $_57-7.jpg" data-size="320" onerror="wbsOff(this)">1975 - M405C - $_57-7.jpg</a><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-8.jpg"><img loading="lazy" src="../../../Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-8.jpg" alt="" data-f="Modules/METER/M405C/1975 - M405C - $_57-8.jpg" data-size="320" onerror="wbsOff(this)">1975 - M405C - $_57-8.jpg</a><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-9.jpg"><img loading="lazy" src="../../../Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-9.jpg" alt="" data-f="Modules/METER/M405C/1975 - M405C - $_57-9.jpg" data-size="320" onerror="wbsOff(this)">1975 - M405C - $_57-9.jpg</a><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57.jpg"><img loading="lazy" src="../../../Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57.jpg" alt="" data-f="Modules/METER/M405C/1975 - M405C - $_57.jpg" data-size="320" onerror="wbsOff(this)">1975 - M405C - $_57.jpg</a></div>
+<h2>Modules</h2>
+<ul>
+<li><a href="../../../PAGES/M405C.html">M405C</a> — Rack Mounted Extended Range VU Meter <em>(METER)</em></li>
+</ul>
+<h2>Files (10)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-1.jpg">1975 - M405C - $_57-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-2.jpg">1975 - M405C - $_57-2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-3.jpg">1975 - M405C - $_57-3.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-4.jpg">1975 - M405C - $_57-4.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-4.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-5.jpg">1975 - M405C - $_57-5.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-5.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-6.jpg">1975 - M405C - $_57-6.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-6.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-7.jpg">1975 - M405C - $_57-7.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-7.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-8.jpg">1975 - M405C - $_57-8.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-8.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-9.jpg">1975 - M405C - $_57-9.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57-9.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57.jpg">1975 - M405C - $_57.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20%24_57.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table><script src="../../../_catalog/wbs_reels.js" defer></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from Project-M405C.md</small></div></article><script src="../../../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

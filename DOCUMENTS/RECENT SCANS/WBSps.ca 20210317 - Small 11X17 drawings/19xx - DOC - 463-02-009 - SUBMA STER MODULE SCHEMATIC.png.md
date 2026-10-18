@@ -1,0 +1,391 @@
+# 19xx - DOC - 463-02-009 - SUBMA STER MODULE SCHEMATIC.png
+Wiki page: [Documents](../../../PAGES/Documents.md)
+
+
+- **Year:** unknown (unknown)
+- **Type:** document scan
+- **About:** M463
+
+## Text recovered by OCR
+
+> R43 75 M R4cS R45 2.2 M R46 2.2 MONITOR OuT +i8v 7 0 Rio ISK Ri2 22 IG DIRECT OUT >T +84Bm 600J 23 Pn3645 2n4401 2n4401 SWS CB t2iv 2iv 2iv 2iv R47 I2ok MV R4e I20k 33ol6 3*3p Mi OuT FADER (INSERT) 715 R3NK? S5 IOP IE3 IEi IE7 IE4 2E3 267 2E2 2E4 SWL PAN CRI In4003 >W MI CTL Isk R33< IkB R3s KB RB 22k RI4 3k3 8-10SA 8-I09F BoosTER AmplifieR 2E1 2E6 2E5 104 L 13$ P R2s 5k R3i 5k SWG M2 OUTPUT AMPLIFIER RARN?OK Rso 120k M CR2 IBv 12 M2 OUT 7N IE2 Ie6 E5 75 K < sumMinG 24B INPUT R3o R32 Sk R34 IkB R36 IKB Rc 2k M2 CTL in40O3 R2g Iki R27 iki MI M2 CTL Sw7 Solo +IBv 2iv Ioo cio 12/25 R28 390 R5| ISk W R2 ISk RII ISk Ri3 22 R52 isk M Solo OUT a6 Pn3645 > j 04 Q5 2N44OI 2n4401 Solo Ctl 37 Pn3569 R2s 620 C1s .022 Sw2 R S 330/6 c17 4.7p IOP eT+iev cib zi C1s 33/10 -IBv 33p LmZoi Ctl com 3*3p R1ss IkS EVE Ri7 I6o R23 3k3 RoSt R Isk C13 ISOOP R37 2ks WB Rsi IOp R53 Isk M R54 ISk M a3/i0 Gk2 R7 Ik Rib Ioo Rsi OUT Rzi 47k Ci4 220p R3B 2kS swS Rs2 R24 ISk Rss I5k MN R9 22k Ric sk Pn3C4S Sw3 FB RSC ISk Rs2 OuT Rzo 2iv ci 10l25 Ioo R39 2ks Swio FBi R57 isk M Rse isk M chassiS 22 75 FBi OT 7 E R4o 2k5 swii FB2 9 Tipzsb R5? RvK RGo Isk 74 cR3 R68 +25v 21 2iv Sw4 PA FB2 OUT IN4063 OS Pn3569 Rec 2k2 R4 2k5 Swiz PA 313 Pn3sc9 R6i WsK R6z isk W Rc3 ISK 73 PA OUT CRS PREFADE INPUT 14 7€ Czo 22125 c22 22/25 PRE Posto R42 2k5 Res 47ok IN4003 125v COM 20 cMMon c2i 22/25 CRG C23 22/25 IN4C03 NotES: ALL REsiStoRS V4 W, 5 % AND ALL CAPAciTORS IN AF UnLess ctherwise SPECifiEd_ 2 LAST ComponenT DESIGNATions c23, CRG Q14 Rc9, SWiz, zi 3, USE Pcb 8-105 Rc4 Isk 014 Pn3645 RG7 2k2 Ilub 3596 ISSUE IDATE REvISION VDL APR Qio Pn3645 CR4 RGs ~25v 2iv WBS WAAD-BECk BysteMS In4003 2.2 012 Tipzob DrN: GEB ENG GEB 4178 CKDTE/ APP SCALE M463] SUBMA STeR MODULE SCHEMATIC ISSUE 463-02-009
+- **Original file:** `WBSps.env/PUBLIC/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/WBSps.ca - 20210317 11X 17 Scans  (61).png`
+- **SHA-256:** `ded76519eebb4e9397d2120a8f99f7eda1c63689a9c476dc37494c053c833f25`
+- **Size:** 14,045,092 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 4 words corrected)
+
+```text
+R43 75 M R4cS R45 2.2 M R46 2.2
+MONITOR OuT
++i8v
+7 0
+Rio ISK
+Ri2 22
+IG DIRECT OUT >T +84Bm 600J
+23 Pn3645
+2n4401 2n4401
+SWS
+CB
+t2iv
+2iv
+2iv
+2iv
+R47 I2ok MV R4e I20k
+33ol6
+3*3p
+Mi OuT
+FADER (INSERT) 715
+R3NK? S5 IOP
+IE3 IEi
+IE7 IE4
+2E3 267 2E2 2E4
+SWL PAN
+CRI In4003
+>W MI CTL
+Isk
+R33< IkB
+R3s KB
+RB 22k
+RI4 3k3
+8-10SA
+8-I09F BoosTER AmplifieR 2E1 2E6 2E5
+104 L 13$ P
+R2s 5k
+R3i 5k
+SWG M2
+OUTPUT AMPLIFIER
+RARN?OK Rso 120k M CR2
+IBv
+12 M2 OUT 7N
+IE2 Ie6 E5
+75
+K <
+sumMinG 24B INPUT
+R3o
+R32 Sk
+R34 IkB
+R36 IKB
+Rc 2k
+M2 CTL
+in40O3
+R2g Iki
+R27 iki
+MI M2 CTL
+Sw7 Solo
++IBv
+2iv
+Ioo cio 12/25
+R28 390
+R5| ISk W
+R2 ISk
+RII ISk
+Ri3 22
+R52 isk M
+Solo OUT
+a6 Pn3645
+> j
+04 Q5 2N44OI 2n4401
+Solo Ctl
+37 Pn3569
+R2s 620
+C1s
+.022
+Sw2 R S
+330/6
+c17 4.7p IOP eT+iev cib zi C1s 33/10 -IBv 33p LmZoi
+Ctl com
+3*3p R1ss IkS EVE
+Ri7 I6o
+R23 3k3
+RoSt
+R Isk C13 ISOOP
+R37 2ks
+WB Rsi
+LOP
+R53 Isk M R54 ISk M
+a3/i0
+Gk2
+R7 Ik
+Rib Ioo
+Rsi OUT
+Rzi 47k
+Ci4 220p
+R3B 2kS
+swS Rs2
+R24 ISk
+Rss I5k MN
+R9 22k
+Ric sk
+Pn3C4S
+Sw3 FB
+RSC ISk
+Rs2 OuT
+Rzo
+2iv
+ci 10l25
+Ioo
+R39 2ks
+Swio FBi
+R57 isk M Rse isk M
+chassiS
+22
+75
+FBi OT
+7 E
+R4o 2k5
+swii FB2
+9
+Tipzsb
+R5? RvK RGo Isk
+74
+cR3
+R68
++25v
+21
+2iv
+Sw4 PA
+FB2 OUT
+IN4063
+OS
+Pn3569
+Rec 2k2
+R4 2k5
+Swiz PA
+313
+Pn3sc9
+R6i WsK R6z isk W
+Rc3 ISK
+73
+PA OUT
+CRS
+PREFADE INPUT
+14
+7€
+Czo 22125
+c22 22/25
+PRE Post
+R42 2k5
+Res 47ok
+IN4003
+125v COM
+20
+common
+c2i 22/25
+CRG
+C23 22/25
+IN4C03
+NotES: ALL REsiStoRS V4 W, 5 % AND ALL CAPAciTORS IN AF UnLess otherwise SPECifiEd_ 2 LAST ComponenT DESIGNATions c23, CRG Q14 Rc9, SWiz, zi 3, USE Pcb 8-105
+Rc4 Isk
+014
+Pn3645
+RG7 2k2
+Ilub 3596 ISSUE IDATE REvISION
+VDL APR
+Qio Pn3645
+CR4
+RGs
+~25v
+2iv
+WBS
+WAAD-BECk BysteMS
+In4003
+2.2
+012 Tipzob
+DrN: GEB ENG GEB 4178 CKDTE/ APP SCALE
+M463] SUBMA STeR MODULE SCHEMATIC ISSUE 463-02-009
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+R43 75 M R4cS R45 2.2 M R46 2.2
+MONITOR OuT
++i8v
+7 0
+Rio ISK
+Ri2 22
+IG DIRECT OUT >T +84Bm 600J
+23 Pn3645
+2n4401 2n4401
+SWS
+CB
+t2iv
+2iv
+2iv
+2iv
+R47 I2ok MV R4e I20k
+33ol6
+3*3p
+Mi OuT
+FADER (INSERT) 715
+R3NK? S5 IOP
+IE3 IEi
+IE7 IE4
+2E3 267 2E2 2E4
+SWL PAN
+CRI In4003
+>W MI CTL
+Isk
+R33< IkB
+R3s KB
+RB 22k
+RI4 3k3
+8-10SA
+8-I09F BoosTER AmplifieR 2E1 2E6 2E5
+104 L 13$ P
+R2s 5k
+R3i 5k
+SWG M2
+OUTPUT AMPLIFIER
+RARN?OK Rso 120k M CR2
+IBv
+12 M2 OUT 7N
+IE2 Ie6 E5
+75
+K <
+sumMinG 24B INPUT
+R3o
+R32 Sk
+R34 IkB
+R36 IKB
+Rc 2k
+M2 CTL
+in40O3
+R2g Iki
+R27 iki
+MI M2 CTL
+Sw7 Solo
++IBv
+2iv
+Ioo cio 12/25
+R28 390
+R5| ISk W
+R2 ISk
+RII ISk
+Ri3 22
+R52 isk M
+Solo OUT
+a6 Pn3645
+> j
+04 Q5 2N44OI 2n4401
+Solo Ctl
+37 Pn3569
+R2s 620
+C1s
+.022
+Sw2 R S
+330/6
+c17 4.7p IOP eT+iev cib zi C1s 33/10 -IBv 33p LmZoi
+Ctl com
+3*3p R1ss IkS EVE
+Ri7 I6o
+R23 3k3
+RoSt
+R Isk C13 ISOOP
+R37 2ks
+WB Rsi
+IOp
+R53 Isk M R54 ISk M
+a3/i0
+Gk2
+R7 Ik
+Rib Ioo
+Rsi OUT
+Rzi 47k
+Ci4 220p
+R3B 2kS
+swS Rs2
+R24 ISk
+Rss I5k MN
+R9 22k
+Ric sk
+Pn3C4S
+Sw3 FB
+RSC ISk
+Rs2 OuT
+Rzo
+2iv
+ci 10l25
+Ioo
+R39 2ks
+Swio FBi
+R57 isk M Rse isk M
+chassiS
+22
+75
+FBi OT
+7 E
+R4o 2k5
+swii FB2
+9
+Tipzsb
+R5? RvK RGo Isk
+74
+cR3
+R68
++25v
+21
+2iv
+Sw4 PA
+FB2 OUT
+IN4063
+OS
+Pn3569
+Rec 2k2
+R4 2k5
+Swiz PA
+313
+Pn3sc9
+R6i WsK R6z isk W
+Rc3 ISK
+73
+PA OUT
+CRS
+PREFADE INPUT
+14
+7€
+Czo 22125
+c22 22/25
+PRE Posto
+R42 2k5
+Res 47ok
+IN4003
+125v COM
+20
+cMMon
+c2i 22/25
+CRG
+C23 22/25
+IN4C03
+NotES: ALL REsiStoRS V4 W, 5 % AND ALL CAPAciTORS IN AF UnLess ctherwise SPECifiEd_ 2 LAST ComponenT DESIGNATions c23, CRG Q14 Rc9, SWiz, zi 3, USE Pcb 8-105
+Rc4 Isk
+014
+Pn3645
+RG7 2k2
+Ilub 3596 ISSUE IDATE REvISION
+VDL APR
+Qio Pn3645
+CR4
+RGs
+~25v
+2iv
+WBS
+WAAD-BECk BysteMS
+In4003
+2.2
+012 Tipzob
+DrN: GEB ENG GEB 4178 CKDTE/ APP SCALE
+M463] SUBMA STeR MODULE SCHEMATIC ISSUE 463-02-009
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/19xx - DOC - 463-02-009 - SUBMA STER MODULE SCHEMATIC.png","sha256":"ded76519eebb4e9397d2120a8f99f7eda1c63689a9c476dc37494c053c833f25","kind":"doc","models":["M463"],"pages":1,"order":[{"page":1,"title_block":[{"number":"463-02-009","type":"schematic","title":"Subma Ster Module Schematic","drawn":"GEB"}],"text":["R43","MoniTOR","Out","Rio Ri?","DIRECT OUT","R4c","204401 244401","4 SwS ME","R47 i20k","33016","FADER R4e i20k Mi ouT","RK? 1E3 (INSERT ) 203 2E7 smi FAN","Q1EI 715 0212 2E4 MI Ctl","ISk R3S","Ri+ I09F IkB 104","22 K 3k3 OUTPUT BeosteR R23 SwG 42 134P","Ampifier AMplifier RARNzOK","251 2E6 350 M2 OUT","summinG 24B 225 Rjo R32","INPUT R34 < R3c CRZ","Rc 2k IB M2 CTL","N4D03","R2c R27 M2 CTL","IkI S7","R28","Rig Gic 338","I5K 12/25 R52 Solo OUT","PNB6t5","2044ol 26440 Eolo CtL","07 R2s 022","Pn3569 Swz","620 Ctl CoM","330/6 3.3p","R23 Letlo","R37","2k5","ali0","R7 Ik Ci3 Ci4 Cis 33/10 Rsi OUT","Rzi 220p","IScOp [332 Z01 R3B","2ks 54s R52","R24 RSs Isk","08","Ric Pn3CAS RSRNSK RS2 Out","swio FBI","245 R57 I5k","chassis F3i OVT","340 F82","2ks","+25v Reo Isk FB2 OUT","1N4063","Pnases Rcc","2k2 Swiz Pa","013","Pn3scs 2k5 WsK","Re3 PA Out","ISk R62 isk","CRS PREFADE R42","czo Res C22 InPUT","22/25 1N4003 22/25 2k5","470k","comMon","czi 3Rc C23","22/25 22/25","Re4 ALL AND ALL CapaciToRS","Isk Otherwise specified","Pn3645 2 Laet CompcnenT DESiGNATionS","RG7 c23, CRC 014 Rcs WI2 b3526","ci0 2k2 ISsuDATE","CR4 Ph3c4s Rcs USE PCB 125","25v WBS","1N4603 012","Tipbob M463]","SUBMASTER MODULE","cKDPA ScHEMATIC","SCALE","463- 02-009"]}],"drawing":{"svg":"_traces/ded76519eebb4e93.svg","viewBox":[2000,1414],"rotate":0,"number":"463-02-009","dtype":"02","outlines":"see _traces/ded76519eebb4e93.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/ded76519eebb4e93.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[1674,91,"R43"],[1836,111,"MoniTOR"],[1851,129,"Out"],[336,149,"Rio"],[419,146,"Ri?"],[1829,171,"DIRECT"],[1901,171,"OUT"],[1674,184,"R4c"],[224,201,"204401"],[279,201,"244401"],[1591,214,"SwS ME"],[1676,229,"R47 i20k"],[176,244,"33016"],[1676,259,"R4e i20k"],[1829,256,"Mi"],[1864,256,"ouT"],[916,266,"FADER"],[319,289,"RK?"],[791,289,"1E3"],[904,286,"(INSERT )"],[1021,289,"203"],[1064,289,"2E7"],[1362,278,"smi"],[1401,284,"FAN"],[776,306,"Q1EI"],[904,304,"715"],[1004,304,"0212"],[1066,304,"2E4"],[1821,299,"MI"],[1856,299,"Ctl"],[181,311,"ISk"],[1486,316,"R3S"],[424,326,"Ri+"],[1044,326,"I09F"],[1484,331,"IkB"],[1794,326,"104"],[239,341,"22 K"],[421,341,"3k3"],[1201,341,"R23"],[1594,346,"SwG 42"],[1794,344,"134P"],[794,351,"OUTPUT"],[1021,349,"BeosteR"],[786,366,"Ampifier"],[1016,364,"AMplifier"],[1676,371,"RARNzOK"],[1021,389,"251"],[1064,389,"2E6"],[1678,388,"350"],[1829,389,"M2 OUT"],[14,399,"summinG"],[1199,399,"Rjo"],[1361,399,"R32"],[104,409,"24B"],[1046,406,"225"],[24,419,"INPUT"],[1286,421,"R34 &lt;"],[1486,419,"R3c"],[1696,421,"CRZ"],[306,431,"Rc 2k"],[1486,434,"IB"],[1814,434,"M2"],[1851,434,"CTL"],[1690,443,"N4D03"],[1099,469,"R2c"],[1204,469,"R27"],[1846,464,"M2 CTL"],[1588,473,"S7"],[1099,486,"IkI"],[1149,494,"R28"],[469,506,"Rig"],[575,508,"Gic"],[1146,514,"338"],[181,519,"I5K"],[571,526,"12/25"],[1674,524,"R52"],[1829,521,"Solo"],[1889,519,"OUT"],[384,546,"PNB6t5"],[225,559,"2044ol"],[280,558,"26440"],[1816,564,"Eolo"],[1879,564,"CtL"],[556,574,"07"],[786,576,"R2s"],[1676,579,"022"],[1352,580,"Swz"],[546,589,"Pn3569"],[785,588,"620"],[1819,596,"Ctl"],[1869,596,"CoM"],[171,601,"330/6"],[419,604,"3.3p"],[704,619,"R23"],[1321,624,"Letlo"],[1454,634,"R37"],[1451,649,"2k5"],[539,661,"ali0"],[389,671,"R7 Ik"],[609,679,"Ci3"],[706,674,"Ci4"],[771,674,"Cis"],[881,671,"33/10"],[1829,679,"Rsi"],[1876,679,"OUT"],[546,684,"Rzi"],[604,696,"IScOp"],[701,691,"220p"],[771,699,"[332"],[839,701,"Z01"],[1451,706,"R3B"],[1588,708,"54s"],[1624,711,"R52"],[701,724,"R24"],[1449,721,"2ks"],[1676,729,"RSs Isk"],[549,739,"08"],[426,761,"Ric"],[539,754,"Pn3CAS"],[1679,766,"RSRNSK"],[1829,756,"RS2"],[1876,754,"Out"],[1589,809,"swio FBI"],[1452,823,"245"],[1679,824,"R57 I5k"],[14,844,"chassis"],[1829,851,"F3i"],[1871,851,"OVT"],[1451,879,"340"],[1621,886,"F82"],[1451,894,"2ks"],[26,934,"+25v"],[1676,931,"Reo Isk"],[1829,929,"FB2 OUT"],[164,949,"1N4063"],[254,964,"Pnases"],[369,961,"Rcc"],[366,976,"2k2"],[1586,984,"Swiz Pa"],[449,989,"013"],[434,1004,"Pn3scs"],[1451,999,"2k5"],[1699,1009,"WsK"],[196,1016,"Re3"],[196,1031,"ISk"],[1676,1031,"R62 isk"],[1829,1026,"PA Out"],[394,1047,"CRS"],[946,1044,"PREFADE"],[191,1059,"czo"],[536,1056,"C22"],[954,1061,"InPUT"],[1451,1054,"R42"],[296,1064,"Res"],[1451,1066,"2k5"],[186,1074,"22/25"],[386,1071,"1N4003"],[534,1071,"22/25"],[291,1079,"470k"],[639,1096,"comMon"],[191,1121,"czi"],[398,1118,"3Rc"],[541,1119,"C23"],[184,1139,"22/25"],[534,1136,"22/25"],[199,1161,"Re4"],[906,1166,"ALL"],[1121,1166,"AND ALL"],[1201,1166,"CapaciToRS"],[199,1179,"Isk"],[1016,1181,"Otherwise"],[1129,1181,"specified"],[426,1201,"Pn3645"],[894,1204,"2 Laet"],[959,1204,"CompcnenT"],[1084,1204,"DESiGNATionS"],[374,1219,"RG7"],[904,1221,"c23, CRC"],[1001,1219,"014"],[1044,1219,"Rcs"],[1099,1219,"WI2"],[1769,1219,"b3526"],[270,1225,"ci0"],[374,1231,"2k2"],[1742,1230,"ISsuDATE"],[175,1240,"CR4"],[250,1240,"Ph3c4s"],[451,1244,"Rcs"],[909,1241,"USE"],[959,1241,"PCB"],[1021,1239,"125"],[44,1259,"25v"],[1684,1267,"WBS"],[164,1274,"1N4603"],[324,1282,"012"],[311,1296,"Tipbob"],[1836,1299,"M463]"],[1668,1320,"cKDPA"],[1796,1316,"SUBMASTER MODULE"],[1821,1334,"ScHEMATIC"],[1688,1348,"SCALE"],[1799,1364,"463-"],[1836,1362,"02-009"]]}}
+```

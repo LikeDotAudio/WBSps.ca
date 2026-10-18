@@ -1,0 +1,1185 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M624 — Power Supply</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>M624 — Power Supply</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="Category-POWER.html">POWER</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../simulator.html?m=M624">simulator &amp; front panel</a> · <a href="../_packages/M624.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="Year-1968.html">1968|1</a> — title-block date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"DATE JULY 68" in WBS Photos-1-001/WBSps.ca - 20210317 11X 17 Scans  (9).png</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="Year-1968.html">1968|1</a>, <a href="Year-1979.html">1979|12</a></td>
+</tr>
+<tr>
+<td>Used in jobs</td>
+<td><a href="Job-73050.html">73050</a> (1973|6), <a href="Job-77038.html">77038</a> (1977|10), <a href="Job-790236.html">790236</a> (1979|12)</td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/APK/wbs%20001/">DOCUMENTS/APK/wbs 001</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/">DOCUMENTS/Communication/7000 series - Intercom System</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/Done/Done%20-%20L2042%20Console/">DOCUMENTS/Done/Done - L2042 Console</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections</h2>
+<p><em>What it is made of and what it is part of.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M624" data-n="Power Supply" data-cat="POWER"></div><svg class="wbs-panel" data-m="M624" data-n="Power Supply" data-cat="POWER" role="img" aria-label="M624 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M624","title":"Power Supply","rto":null,"parts":[{"item":"80-9","title":"80-9 / POWER TRANSFORMER","label":"80-9 80-9 / POWER TRANSFORMER","href":"Transformers.html#80-9","note":"Power transformers (80-n)"}],"parents":[{"label":"73050","href":"Job-73050.html","note":"T1202"},{"label":"77038","href":"Job-77038.html","note":"04-001 L3242 layout iss 1"},{"label":"790236","href":"Job-790236.html","note":"Maryland L3242A"},{"label":"M621","href":"M621.html","note":"on 43 drawings with it: 20 Watt Monitor Amplifie"},{"label":"M612","href":"M612.html","note":"on 43 drawings with it: Audio Distribution Ampli"},{"label":"M605","href":"M605.html","note":"on 35 drawings with it: Audio Distribution Ampli"},{"label":"M625A","href":"M625A.html","note":"on 30 drawings with it: Power Supply"},{"label":"M462","href":"M462.html","note":"on 26 drawings with it"},{"label":"M467","href":"M467.html","note":"on 26 drawings with it"},{"label":"M457","href":"M457.html","note":"on 26 drawings with it: Pre-Mixer Module"},{"label":"M464","href":"M464.html","note":"on 26 drawings with it: HP LP Filter"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Small%2011X17%20drawings/1968%20-%20DOC%20-%20FRAME%20WIRING%20VIEWED%20FROM%20REAR.png"><img loading="lazy" src="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Small%2011X17%20drawings/1968%20-%20DOC%20-%20FRAME%20WIRING%20VIEWED%20FROM%20REAR.png" alt="" data-f="DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/1968 - DOC - FRAME WIRING VIEWED FROM REAR.png" data-size="320" onerror="wbsOff(this)">1968 - DOC - FRAME WIRING VIEWED FROM REAR.png</a><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20624-02-001%20-%20POWER%20SUPPLY%20M624%20SCHEMATIC%20-%20DRN%20C.S.O%27CONNELL%20-%20ISS%201.png"><img loading="lazy" src="../Modules/POWER/M624/1968%20-%20624-02-001%20-%20POWER%20SUPPLY%20M624%20SCHEMATIC%20-%20DRN%20C.S.O%27CONNELL%20-%20ISS%201.png" alt="" data-f="Modules/POWER/M624/1968 - 624-02-001 - POWER SUPPLY M624 SCHEMATIC - DRN C.S.O&#x27;CONNELL - ISS 1.png" data-size="320" onerror="wbsOff(this)">1968 - 624-02-001 - POWER SUPPLY M624 SCHEMATIC - DRN C.S.O&#x27;CONNELL - ISS 1.png</a><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/1977%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg"><img loading="lazy" src="../DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/1977%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg" alt="" data-f="DOCUMENTS/Communication/7000 series - Intercom System/1977 - PRICE LIST - 7000 series - price list.jpg" data-size="320" onerror="wbsOff(this)">1977 - PRICE LIST - 7000 series - price list.jpg</a><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/1977%20-%20PRICE%20LIST%20-%20list.jpg"><img loading="lazy" src="../DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/1977%20-%20PRICE%20LIST%20-%20list.jpg" alt="" data-f="DOCUMENTS/WBSPS - To Be edited/Intercom System/1977 - PRICE LIST - list.jpg" data-size="320" onerror="wbsOff(this)">1977 - PRICE LIST - list.jpg</a><a href="../viewer.html?f=Modules/POWER/M624/1979%20-%20M624%20-%20P03%20-%20TOC.jpg"><img loading="lazy" src="../Modules/POWER/M624/1979%20-%20M624%20-%20P03%20-%20TOC.jpg" alt="" data-f="Modules/POWER/M624/1979 - M624 - P03 - TOC.jpg" data-size="320" onerror="wbsOff(this)">1979 - M624 - P03 - TOC.jpg</a><a href="../viewer.html?f=Modules/POWER/M624/M624%20-%20P03%20-%20TOC.jpg"><img loading="lazy" src="../Modules/POWER/M624/M624%20-%20P03%20-%20TOC.jpg" alt="" data-f="Modules/POWER/M624/M624 - P03 - TOC.jpg" data-size="320" onerror="wbsOff(this)">M624 - P03 - TOC.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M605/19xx%20-%20M605%20-%20AD%20-%20wbsps%20-%20ad%20-%20600%20series.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M605/19xx%20-%20M605%20-%20AD%20-%20wbsps%20-%20ad%20-%20600%20series.jpg" alt="" data-f="Modules/AMPLIFIERS/M605/19xx - M605 - AD - wbsps - ad - 600 series.jpg" data-size="320" onerror="wbsOff(this)">19xx - M605 - AD - wbsps - ad - 600 series.jpg</a><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20OPERATION%20CONNECT%20PI.jpg"><img loading="lazy" src="../Modules/POWER/M624/1968%20-%20M624%20-%20OPERATION%20CONNECT%20PI.jpg" alt="" data-f="Modules/POWER/M624/1968 - M624 - OPERATION CONNECT PI.jpg" data-size="320" onerror="wbsOff(this)">1968 - M624 - OPERATION CONNECT PI.jpg</a><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20P01%20-%20Cover.jpg"><img loading="lazy" src="../Modules/POWER/M624/1968%20-%20M624%20-%20P01%20-%20Cover.jpg" alt="" data-f="Modules/POWER/M624/1968 - M624 - P01 - Cover.jpg" data-size="320" onerror="wbsOff(this)">1968 - M624 - P01 - Cover.jpg</a><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20P02.jpg"><img loading="lazy" src="../Modules/POWER/M624/1968%20-%20M624%20-%20P02.jpg" alt="" data-f="Modules/POWER/M624/1968 - M624 - P02.jpg" data-size="320" onerror="wbsOff(this)">1968 - M624 - P02.jpg</a><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20P04-%20Warranty.jpg"><img loading="lazy" src="../Modules/POWER/M624/1968%20-%20M624%20-%20P04-%20Warranty.jpg" alt="" data-f="Modules/POWER/M624/1968 - M624 - P04- Warranty.jpg" data-size="320" onerror="wbsOff(this)">1968 - M624 - P04- Warranty.jpg</a><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20P05%20-%201-1.jpg"><img loading="lazy" src="../Modules/POWER/M624/1968%20-%20M624%20-%20P05%20-%201-1.jpg" alt="" data-f="Modules/POWER/M624/1968 - M624 - P05 - 1-1.jpg" data-size="320" onerror="wbsOff(this)">1968 - M624 - P05 - 1-1.jpg</a><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20P06%20-%202-1.jpg"><img loading="lazy" src="../Modules/POWER/M624/1968%20-%20M624%20-%20P06%20-%202-1.jpg" alt="" data-f="Modules/POWER/M624/1968 - M624 - P06 - 2-1.jpg" data-size="320" onerror="wbsOff(this)">1968 - M624 - P06 - 2-1.jpg</a><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20P07%20-%203-1.jpg"><img loading="lazy" src="../Modules/POWER/M624/1968%20-%20M624%20-%20P07%20-%203-1.jpg" alt="" data-f="Modules/POWER/M624/1968 - M624 - P07 - 3-1.jpg" data-size="320" onerror="wbsOff(this)">1968 - M624 - P07 - 3-1.jpg</a><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20P08%20-%204-1.jpg"><img loading="lazy" src="../Modules/POWER/M624/1968%20-%20M624%20-%20P08%20-%204-1.jpg" alt="" data-f="Modules/POWER/M624/1968 - M624 - P08 - 4-1.jpg" data-size="320" onerror="wbsOff(this)">1968 - M624 - P08 - 4-1.jpg</a><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20WBS%20test%20procedures%200.jpeg"><img loading="lazy" src="../Modules/POWER/M624/1968%20-%20M624%20-%20WBS%20test%20procedures%200.jpeg" alt="" data-f="Modules/POWER/M624/1968 - M624 - WBS test procedures 0.jpeg" data-size="320" onerror="wbsOff(this)">1968 - M624 - WBS test procedures 0.jpeg</a><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20WBS%20test%20procedures%201.jpeg"><img loading="lazy" src="../Modules/POWER/M624/1968%20-%20M624%20-%20WBS%20test%20procedures%201.jpeg" alt="" data-f="Modules/POWER/M624/1968 - M624 - WBS test procedures 1.jpeg" data-size="320" onerror="wbsOff(this)">1968 - M624 - WBS test procedures 1.jpeg</a><a href="../viewer.html?f=Modules/POWER/M624/1979%20-%20624-02-001%20-%2024V%20POWER%20SUPPLY%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%202.jpg"><img loading="lazy" src="../Modules/POWER/M624/1979%20-%20624-02-001%20-%2024V%20POWER%20SUPPLY%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%202.jpg" alt="" data-f="Modules/POWER/M624/1979 - 624-02-001 - 24V POWER SUPPLY SCHEMATIC - DRN GEB - ENG GEB - ISS 2.jpg" data-size="320" onerror="wbsOff(this)">1979 - 624-02-001 - 24V POWER SUPPLY SCHEMATIC - DRN GEB - ENG GEB - ISS 2.jpg</a><a href="../viewer.html?f=DOCUMENTS/APK/wbs%20001/19xx%20-%20DOC%20-%20DSC03076%20copy.jpg"><img loading="lazy" src="../DOCUMENTS/APK/wbs%20001/19xx%20-%20DOC%20-%20DSC03076%20copy.jpg" alt="" data-f="DOCUMENTS/APK/wbs 001/19xx - DOC - DSC03076 copy.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - DSC03076 copy.jpg</a><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L2042%20Console/19xx%20-%20DOC%20-%20L2042%20-%20P05.jpg"><img loading="lazy" src="../DOCUMENTS/Done/Done%20-%20L2042%20Console/19xx%20-%20DOC%20-%20L2042%20-%20P05.jpg" alt="" data-f="DOCUMENTS/Done/Done - L2042 Console/19xx - DOC - L2042 - P05.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - L2042 - P05.jpg</a><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L2042%20Console/19xx%20-%20DOC%20-%20L2042%20-%20P11.jpg"><img loading="lazy" src="../DOCUMENTS/Done/Done%20-%20L2042%20Console/19xx%20-%20DOC%20-%20L2042%20-%20P11.jpg" alt="" data-f="DOCUMENTS/Done/Done - L2042 Console/19xx - DOC - L2042 - P11.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - L2042 - P11.jpg</a><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L3242%20Console/19xx%20-%20DOC%20-%20L3242%20-%20P05.jpg"><img loading="lazy" src="../DOCUMENTS/Done/Done%20-%20L3242%20Console/19xx%20-%20DOC%20-%20L3242%20-%20P05.jpg" alt="" data-f="DOCUMENTS/Done/Done - L3242 Console/19xx - DOC - L3242 - P05.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - L3242 - P05.jpg</a><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L3242%20Console/19xx%20-%20DOC%20-%20L3242%20-%20P11.jpg"><img loading="lazy" src="../DOCUMENTS/Done/Done%20-%20L3242%20Console/19xx%20-%20DOC%20-%20L3242%20-%20P11.jpg" alt="" data-f="DOCUMENTS/Done/Done - L3242 Console/19xx - DOC - L3242 - P11.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - L3242 - P11.jpg</a><a href="../viewer.html?f=DOCUMENTS/Photos/History/19xx%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg"><img loading="lazy" src="../DOCUMENTS/Photos/History/19xx%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg" alt="" data-f="DOCUMENTS/Photos/History/19xx - DOC - wbsps - ad - 600 series.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - wbsps - ad - 600 series.jpg</a><a href="../viewer.html?f=Consoles/1970-1979/73050%20-%20T1202/1973%20-%2073050-02-004%20-%20AUDIO%20CONSOLE%20MONITOR%20SCHEMATIC%20-%20DRN%20PC%20-%20ISS%201.jpeg"><img loading="lazy" src="../Consoles/1970-1979/73050%20-%20T1202/1973%20-%2073050-02-004%20-%20AUDIO%20CONSOLE%20MONITOR%20SCHEMATIC%20-%20DRN%20PC%20-%20ISS%201.jpeg" alt="" data-f="Consoles/1970-1979/73050 - T1202/1973 - 73050-02-004 - AUDIO CONSOLE MONITOR SCHEMATIC - DRN PC - ISS 1.jpeg" data-size="320" onerror="wbsOff(this)">1973 - 73050-02-004 - AUDIO CONSOLE MONITOR SCHEMATIC - DRN PC - ISS 1.jpeg</a><a href="../viewer.html?f=Consoles/1970-1979/77038%20-%2004-001%20L3242%20layout%20iss%201/1977%20-%2077038%20-%20c%20%282%29.jpg"><img loading="lazy" src="../Consoles/1970-1979/77038%20-%2004-001%20L3242%20layout%20iss%201/1977%20-%2077038%20-%20c%20%282%29.jpg" alt="" data-f="Consoles/1970-1979/77038 - 04-001 L3242 layout iss 1/1977 - 77038 - c (2).jpg" data-size="320" onerror="wbsOff(this)">1977 - 77038 - c (2).jpg</a><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20790236-04-001%20%285%29.jpg"><img loading="lazy" src="../Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20790236-04-001%20%285%29.jpg" alt="" data-f="Consoles/1970-1979/790236 - Maryland L3242A/1979 - 790236 - 790236-04-001 (5).jpg" data-size="320" onerror="wbsOff(this)">1979 - 790236 - 790236-04-001 (5).jpg</a><a href="../viewer.html?f=Modules/COMPUTERS/M524A/1986%20-%20M524A%20-%20IMG_3146.jpg"><img loading="lazy" src="../Modules/COMPUTERS/M524A/1986%20-%20M524A%20-%20IMG_3146.jpg" alt="" data-f="Modules/COMPUTERS/M524A/1986 - M524A - IMG_3146.jpg" data-size="320" onerror="wbsOff(this)">1986 - M524A - IMG_3146.jpg</a></div>
+<h2>Price history</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Price</th>
+<th>Listed as</th>
+<th>Effective</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-2005.html">2005|38</a></td>
+<td>used market value</td>
+<td>100.00</td>
+<td>M624 Power Supply</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/old website/PriceGuide.htm</td>
+</tr>
+<tr>
+<td><a href="Year-2006.html">2006|39</a></td>
+<td>used market value</td>
+<td>100.00</td>
+<td>M624 Power Supply</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/jan 2006 shell/priceguide.htm</td>
+</tr>
+</tbody>
+</table>
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-1968.html">1968|1</a></td>
+<td>title-block date</td>
+<td><code>DATE JULY 68</code></td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Small%2011X17%20drawings/1968%20-%20DOC%20-%20FRAME%20WIRING%20VIEWED%20FROM%20REAR.png">1968 - DOC - FRAME WIRING VIEWED FROM REAR.png</a></td>
+</tr>
+<tr>
+<td><a href="Year-1968.html">1968|1</a></td>
+<td>title-block date</td>
+<td><code>DATE JULY 68</code></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20624-02-001%20-%20POWER%20SUPPLY%20M624%20SCHEMATIC%20-%20DRN%20C.S.O%27CONNELL%20-%20ISS%201.png">1968 - 624-02-001 - POWER SUPPLY M624 SCHEMATIC - DRN C.S.O'CONNELL - ISS 1.png</a></td>
+</tr>
+<tr>
+<td><a href="Year-1968.html">1968|1</a></td>
+<td>title-block date</td>
+<td><code>DATE JULY 68</code></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20DOC%20-%20FRAME%20WIRING%20VIEWED%20FROM%20REAR.png">1968 - M624 - DOC - FRAME WIRING VIEWED FROM REAR.png</a></td>
+</tr>
+<tr>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td>title-block date</td>
+<td><code>Revised 6/15/77</code></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/1977%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">1977 - PRICE LIST - 7000 series - price list.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td>written date</td>
+<td><code>6/15/77</code></td>
+<td><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/1977%20-%20PRICE%20LIST%20-%20list.jpg">1977 - PRICE LIST - list.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td>title-block date</td>
+<td><code>Revised 6/15/77</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M701/1977%20-%20M701%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">1977 - M701 - PRICE LIST - 7000 series - price list.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td>written date</td>
+<td><code>6/15/77</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M701/1977%20-%20M701%20-%20PRICE%20LIST%20-%20price%20list.jpg">1977 - M701 - PRICE LIST - price list.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td>title-block date</td>
+<td><code>Revised 6/15/77</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/1977%20-%20M702%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">1977 - M702 - PRICE LIST - 7000 series - price list.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td>written date</td>
+<td><code>6/15/77</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/1977%20-%20M702%20-%20PRICE%20LIST%20-%20price%20list.jpg">1977 - M702 - PRICE LIST - price list.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td>title-block date</td>
+<td><code>Revised 6/15/77</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/1977%20-%20M703%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">1977 - M703 - PRICE LIST - 7000 series - price list.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td>written date</td>
+<td><code>6/15/77</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/1977%20-%20M703%20-%20PRICE%20LIST%20-%20price%20list.jpg">1977 - M703 - PRICE LIST - price list.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td>title-block date</td>
+<td><code>Revised 6/15/77</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1977%20-%20M712%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">1977 - M712 - PRICE LIST - 7000 series - price list.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td>written date</td>
+<td><code>6/15/77</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1977%20-%20M712%20-%20PRICE%20LIST%20-%20price%20list.jpg">1977 - M712 - PRICE LIST - price list.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td>title-block date</td>
+<td><code>Revised 6/15/77</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M724/1977%20-%20M724%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">1977 - M724 - PRICE LIST - 7000 series - price list.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td>written date</td>
+<td><code>6/15/77</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M724/1977%20-%20M724%20-%20PRICE%20LIST%20-%20price%20list.jpg">1977 - M724 - PRICE LIST - price list.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td>title-block date</td>
+<td><code>Revised 6/15/77</code></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1977%20-%20M624%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">1977 - M624 - PRICE LIST - 7000 series - price list.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td>written date</td>
+<td><code>6/15/77</code></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1977%20-%20M624%20-%20PRICE%20LIST%20-%20price%20list.jpg">1977 - M624 - PRICE LIST - price list.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td>title-block date</td>
+<td><code>Revised 6/15/77</code></td>
+<td><a href="../viewer.html?f=Modules/POWER/M628/1977%20-%20M628%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">1977 - M628 - PRICE LIST - 7000 series - price list.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td>written date</td>
+<td><code>6/15/77</code></td>
+<td><a href="../viewer.html?f=Modules/POWER/M628/1977%20-%20M628%20-%20PRICE%20LIST%20-%20price%20list.jpg">1977 - M628 - PRICE LIST - price list.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td>title-block date</td>
+<td><code>Revised 6/15/77</code></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M121/1977%20-%20M121%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">1977 - M121 - PRICE LIST - 7000 series - price list.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td>written date</td>
+<td><code>6/15/77</code></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M121/1977%20-%20M121%20-%20PRICE%20LIST%20-%20price%20list.jpg">1977 - M121 - PRICE LIST - price list.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td>title-block date</td>
+<td><code>Revised 6/15/77</code></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M122/1977%20-%20M122%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">1977 - M122 - PRICE LIST - 7000 series - price list.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td>written date</td>
+<td><code>6/15/77</code></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M122/1977%20-%20M122%20-%20PRICE%20LIST%20-%20price%20list.jpg">1977 - M122 - PRICE LIST - price list.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td>manual issue date</td>
+<td><code>MANUAL ISSUE # OCTOBER 1979</code></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1979%20-%20M624%20-%20P03%20-%20TOC.jpg">1979 - M624 - P03 - TOC.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td>manual issue date</td>
+<td><code>MANUAL ISSUE #1 OCTOBER 1979</code></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1979%20-%20M624%20-%20Power%20Supply%20%282%29.pdf">1979 - M624 - Power Supply (2).pdf</a></td>
+</tr>
+<tr>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td>manual issue date</td>
+<td><code>MANUAL ISSUE #1 OCTOBER 1979</code></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1979%20-%20M624%20-%20Power%20Supply.pdf">1979 - M624 - Power Supply.pdf</a></td>
+</tr>
+<tr>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td>title-block date</td>
+<td><code>ISSUE OCTOBER 1979</code></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/M624%20-%20P03%20-%20TOC.jpg">M624 - P03 - TOC.jpg</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Physical manual inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Location</th>
+<th>Status</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M624 Power Supply</td>
+<td></td>
+<td>DUPLICATE</td>
+<td>PDF - Already scanned</td>
+</tr>
+<tr>
+<td>M624 - Power Supply</td>
+<td></td>
+<td></td>
+<td>PDF - Already scanned</td>
+</tr>
+</tbody>
+</table>
+<h2>Ads &amp; brochures</h2>
+<ul>
+<li><a href="../viewer.html?f=Modules/AMPLIFIERS/M605/19xx%20-%20M605%20-%20AD%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M605 - AD - wbsps - ad - 600 series.jpg</a></li>
+<li><a href="../viewer.html?f=Modules/AMPLIFIERS/M610/19xx%20-%20M610%20-%20AD%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M610 - AD - wbsps - ad - 600 series.jpg</a></li>
+<li><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/19xx%20-%20M612%20-%20AD%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M612 - AD - wbsps - ad - 600 series.jpg</a></li>
+<li><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20AD%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M621 - AD - wbsps - ad - 600 series.jpg</a></li>
+<li><a href="../viewer.html?f=Modules/AMPLIFIERS/M666/19xx%20-%20M666%20-%20AD%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M666 - AD - wbsps - ad - 600 series.jpg</a></li>
+<li><a href="../viewer.html?f=Modules/POWER/M624/19xx%20-%20M624%20-%20AD%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M624 - AD - wbsps - ad - 600 series.jpg</a></li>
+<li><a href="../viewer.html?f=Modules/POWER/M648/19xx%20-%20M648%20-%20AD%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M648 - AD - wbsps - ad - 600 series.jpg</a></li>
+</ul>
+<h2>Documents (4)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20Power%20Supply%20%282%29.pdf">1968 - M624 - Power Supply (2).pdf</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20Power%20Supply%20%282%29.pdf.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20Power%20Supply.pdf">1968 - M624 - Power Supply.pdf</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20Power%20Supply.pdf.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1979%20-%20M624%20-%20Power%20Supply%20%282%29.pdf">1979 - M624 - Power Supply (2).pdf</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1979%20-%20M624%20-%20Power%20Supply%20%282%29.pdf.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1979%20-%20M624%20-%20Power%20Supply.pdf">1979 - M624 - Power Supply.pdf</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1979%20-%20M624%20-%20Power%20Supply.pdf.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (74)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Small%2011X17%20drawings/1968%20-%20DOC%20-%20FRAME%20WIRING%20VIEWED%20FROM%20REAR.png">1968 - DOC - FRAME WIRING VIEWED FROM REAR.png</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Small%2011X17%20drawings/1968%20-%20DOC%20-%20FRAME%20WIRING%20VIEWED%20FROM%20REAR.png.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20624-02-001%20-%20POWER%20SUPPLY%20M624%20SCHEMATIC%20-%20DRN%20C.S.O%27CONNELL%20-%20ISS%201.png">1968 - 624-02-001 - POWER SUPPLY M624 SCHEMATIC - DRN C.S.O'CONNELL - ISS 1.png</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20624-02-001%20-%20POWER%20SUPPLY%20M624%20SCHEMATIC%20-%20DRN%20C.S.O%27CONNELL%20-%20ISS%201.png.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20DOC%20-%20FRAME%20WIRING%20VIEWED%20FROM%20REAR.png">1968 - M624 - DOC - FRAME WIRING VIEWED FROM REAR.png</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20DOC%20-%20FRAME%20WIRING%20VIEWED%20FROM%20REAR.png.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20OPERATION%20CONNECT%20PI.jpg">1968 - M624 - OPERATION CONNECT PI.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20OPERATION%20CONNECT%20PI.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20P01%20-%20Cover.jpg">1968 - M624 - P01 - Cover.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20P01%20-%20Cover.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20P02.jpg">1968 - M624 - P02.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20P02.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20P04-%20Warranty.jpg">1968 - M624 - P04- Warranty.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20P04-%20Warranty.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20P05%20-%201-1.jpg">1968 - M624 - P05 - 1-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20P05%20-%201-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20P06%20-%202-1.jpg">1968 - M624 - P06 - 2-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20P06%20-%202-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20P07%20-%203-1.jpg">1968 - M624 - P07 - 3-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20P07%20-%203-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20P08%20-%204-1.jpg">1968 - M624 - P08 - 4-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20P08%20-%204-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20WBS%20test%20procedures%200.jpeg">1968 - M624 - WBS test procedures 0.jpeg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20WBS%20test%20procedures%200.jpeg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20WBS%20test%20procedures%201.jpeg">1968 - M624 - WBS test procedures 1.jpeg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20WBS%20test%20procedures%201.jpeg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/1977%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">1977 - PRICE LIST - 7000 series - price list.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/1977%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/1977%20-%20PRICE%20LIST%20-%20list.jpg">1977 - PRICE LIST - list.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/1977%20-%20PRICE%20LIST%20-%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M701/1977%20-%20M701%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">1977 - M701 - PRICE LIST - 7000 series - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M701/1977%20-%20M701%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M701/1977%20-%20M701%20-%20PRICE%20LIST%20-%20price%20list.jpg">1977 - M701 - PRICE LIST - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M701/1977%20-%20M701%20-%20PRICE%20LIST%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/1977%20-%20M702%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">1977 - M702 - PRICE LIST - 7000 series - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/1977%20-%20M702%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/1977%20-%20M702%20-%20PRICE%20LIST%20-%20price%20list.jpg">1977 - M702 - PRICE LIST - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/1977%20-%20M702%20-%20PRICE%20LIST%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/1977%20-%20M703%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">1977 - M703 - PRICE LIST - 7000 series - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/1977%20-%20M703%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/1977%20-%20M703%20-%20PRICE%20LIST%20-%20price%20list.jpg">1977 - M703 - PRICE LIST - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/1977%20-%20M703%20-%20PRICE%20LIST%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1977%20-%20M712%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">1977 - M712 - PRICE LIST - 7000 series - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1977%20-%20M712%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1977%20-%20M712%20-%20PRICE%20LIST%20-%20price%20list.jpg">1977 - M712 - PRICE LIST - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1977%20-%20M712%20-%20PRICE%20LIST%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M724/1977%20-%20M724%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">1977 - M724 - PRICE LIST - 7000 series - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M724/1977%20-%20M724%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M724/1977%20-%20M724%20-%20PRICE%20LIST%20-%20price%20list.jpg">1977 - M724 - PRICE LIST - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M724/1977%20-%20M724%20-%20PRICE%20LIST%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1977%20-%20M624%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">1977 - M624 - PRICE LIST - 7000 series - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1977%20-%20M624%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1977%20-%20M624%20-%20PRICE%20LIST%20-%20price%20list.jpg">1977 - M624 - PRICE LIST - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1977%20-%20M624%20-%20PRICE%20LIST%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/POWER/M628/1977%20-%20M628%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">1977 - M628 - PRICE LIST - 7000 series - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M628/1977%20-%20M628%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/POWER/M628/1977%20-%20M628%20-%20PRICE%20LIST%20-%20price%20list.jpg">1977 - M628 - PRICE LIST - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M628/1977%20-%20M628%20-%20PRICE%20LIST%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M121/1977%20-%20M121%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">1977 - M121 - PRICE LIST - 7000 series - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M121/1977%20-%20M121%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M121/1977%20-%20M121%20-%20PRICE%20LIST%20-%20price%20list.jpg">1977 - M121 - PRICE LIST - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M121/1977%20-%20M121%20-%20PRICE%20LIST%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M122/1977%20-%20M122%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">1977 - M122 - PRICE LIST - 7000 series - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M122/1977%20-%20M122%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M122/1977%20-%20M122%20-%20PRICE%20LIST%20-%20price%20list.jpg">1977 - M122 - PRICE LIST - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M122/1977%20-%20M122%20-%20PRICE%20LIST%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1979%20-%20624-02-001%20-%2024V%20POWER%20SUPPLY%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%202.jpg">1979 - 624-02-001 - 24V POWER SUPPLY SCHEMATIC - DRN GEB - ENG GEB - ISS 2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1979%20-%20624-02-001%20-%2024V%20POWER%20SUPPLY%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1979%20-%20M624%20-%20P03%20-%20TOC.jpg">1979 - M624 - P03 - TOC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1979%20-%20M624%20-%20P03%20-%20TOC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/APK/wbs%20001/19xx%20-%20DOC%20-%20DSC03076%20copy.jpg">19xx - DOC - DSC03076 copy.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/APK/wbs%20001/19xx%20-%20DOC%20-%20DSC03076%20copy.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L2042%20Console/19xx%20-%20DOC%20-%20L2042%20-%20P05.jpg">19xx - DOC - L2042 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L2042%20Console/19xx%20-%20DOC%20-%20L2042%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L2042%20Console/19xx%20-%20DOC%20-%20L2042%20-%20P11.jpg">19xx - DOC - L2042 - P11.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L2042%20Console/19xx%20-%20DOC%20-%20L2042%20-%20P11.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L3242%20Console/19xx%20-%20DOC%20-%20L3242%20-%20P05.jpg">19xx - DOC - L3242 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L3242%20Console/19xx%20-%20DOC%20-%20L3242%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L3242%20Console/19xx%20-%20DOC%20-%20L3242%20-%20P11.jpg">19xx - DOC - L3242 - P11.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L3242%20Console/19xx%20-%20DOC%20-%20L3242%20-%20P11.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Photos/History/19xx%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - DOC - wbsps - ad - 600 series.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Photos/History/19xx%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M605/19xx%20-%20M605%20-%20DOC%20-%20L2042%20-%20P05.jpg">19xx - M605 - DOC - L2042 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M605/19xx%20-%20M605%20-%20DOC%20-%20L2042%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M605/19xx%20-%20M605%20-%20DOC%20-%20L3242%20-%20P05.jpg">19xx - M605 - DOC - L3242 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M605/19xx%20-%20M605%20-%20DOC%20-%20L3242%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M610/19xx%20-%20M610%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M610 - DOC - wbsps - ad - 600 series.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M610/19xx%20-%20M610%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/19xx%20-%20M612%20-%20DOC%20-%20L2042%20-%20P05.jpg">19xx - M612 - DOC - L2042 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/19xx%20-%20M612%20-%20DOC%20-%20L2042%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/19xx%20-%20M612%20-%20DOC%20-%20L3242%20-%20P05.jpg">19xx - M612 - DOC - L3242 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/19xx%20-%20M612%20-%20DOC%20-%20L3242%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/19xx%20-%20M612%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M612 - DOC - wbsps - ad - 600 series.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/19xx%20-%20M612%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20DOC%20-%20L2042%20-%20P05.jpg">19xx - M621 - DOC - L2042 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20DOC%20-%20L2042%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20DOC%20-%20L3242%20-%20P05.jpg">19xx - M621 - DOC - L3242 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20DOC%20-%20L3242%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M621 - DOC - wbsps - ad - 600 series.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M666/19xx%20-%20M666%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M666 - DOC - wbsps - ad - 600 series.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M666/19xx%20-%20M666%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M466/19xx%20-%20M466%20-%20DOC%20-%20L3242%20-%20P05.jpg">19xx - M466 - DOC - L3242 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M466/19xx%20-%20M466%20-%20DOC%20-%20L3242%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M467/19xx%20-%20M467%20-%20DOC%20-%20L2042%20-%20P05.jpg">19xx - M467 - DOC - L2042 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M467/19xx%20-%20M467%20-%20DOC%20-%20L2042%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M467/19xx%20-%20M467%20-%20DOC%20-%20L3242%20-%20P05.jpg">19xx - M467 - DOC - L3242 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M467/19xx%20-%20M467%20-%20DOC%20-%20L3242%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M462/19xx%20-%20M462%20-%20DOC%20-%20L2042%20-%20P05.jpg">19xx - M462 - DOC - L2042 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M462/19xx%20-%20M462%20-%20DOC%20-%20L2042%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M462/19xx%20-%20M462%20-%20DOC%20-%20L3242%20-%20P05.jpg">19xx - M462 - DOC - L3242 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M462/19xx%20-%20M462%20-%20DOC%20-%20L3242%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M462A/19xx%20-%20M462A%20-%20DOC%20-%20L2042%20-%20P05.jpg">19xx - M462A - DOC - L2042 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M462A/19xx%20-%20M462A%20-%20DOC%20-%20L2042%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M462B/19xx%20-%20M462B%20-%20DOC%20-%20L2042%20-%20P05.jpg">19xx - M462B - DOC - L2042 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M462B/19xx%20-%20M462B%20-%20DOC%20-%20L2042%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M464/19xx%20-%20M464%20-%20DOC%20-%20L2042%20-%20P05.jpg">19xx - M464 - DOC - L2042 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M464/19xx%20-%20M464%20-%20DOC%20-%20L2042%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M464/19xx%20-%20M464%20-%20DOC%20-%20L3242%20-%20P05.jpg">19xx - M464 - DOC - L3242 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M464/19xx%20-%20M464%20-%20DOC%20-%20L3242%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/19xx%20-%20M624%20-%20DOC%20-%20DSC03076%20copy.jpg">19xx - M624 - DOC - DSC03076 copy.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/19xx%20-%20M624%20-%20DOC%20-%20DSC03076%20copy.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/19xx%20-%20M624%20-%20DOC%20-%20L2042%20-%20P05.jpg">19xx - M624 - DOC - L2042 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/19xx%20-%20M624%20-%20DOC%20-%20L2042%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/19xx%20-%20M624%20-%20DOC%20-%20L2042%20-%20P11.jpg">19xx - M624 - DOC - L2042 - P11.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/19xx%20-%20M624%20-%20DOC%20-%20L2042%20-%20P11.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/19xx%20-%20M624%20-%20DOC%20-%20L3242%20-%20P05.jpg">19xx - M624 - DOC - L3242 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/19xx%20-%20M624%20-%20DOC%20-%20L3242%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/19xx%20-%20M624%20-%20DOC%20-%20L3242%20-%20P11.jpg">19xx - M624 - DOC - L3242 - P11.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/19xx%20-%20M624%20-%20DOC%20-%20L3242%20-%20P11.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/19xx%20-%20M624%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M624 - DOC - wbsps - ad - 600 series.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/19xx%20-%20M624%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/M624%20-%20P03%20-%20TOC.jpg">M624 - P03 - TOC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/M624%20-%20P03%20-%20TOC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M625A/19xx%20-%20M625A%20-%20DOC%20-%20L2042%20-%20P05.jpg">19xx - M625A - DOC - L2042 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625A/19xx%20-%20M625A%20-%20DOC%20-%20L2042%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M625A/19xx%20-%20M625A%20-%20DOC%20-%20L3242%20-%20P05.jpg">19xx - M625A - DOC - L3242 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625A/19xx%20-%20M625A%20-%20DOC%20-%20L3242%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M625A/19xx%20-%20M625A%20-%20DOC%20-%20L3242%20-%20P11.jpg">19xx - M625A - DOC - L3242 - P11.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625A/19xx%20-%20M625A%20-%20DOC%20-%20L3242%20-%20P11.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M648/19xx%20-%20M648%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M648 - DOC - wbsps - ad - 600 series.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M648/19xx%20-%20M648%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M457/19xx%20-%20M457%20-%20DOC%20-%20L2042%20-%20P05.jpg">19xx - M457 - DOC - L2042 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M457/19xx%20-%20M457%20-%20DOC%20-%20L2042%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M457/19xx%20-%20M457%20-%20DOC%20-%20L3242%20-%20P05.jpg">19xx - M457 - DOC - L3242 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M457/19xx%20-%20M457%20-%20DOC%20-%20L3242%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M498/19xx%20-%20M498%20-%20DOC%20-%20L3242%20-%20P05.jpg">19xx - M498 - DOC - L3242 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M498/19xx%20-%20M498%20-%20DOC%20-%20L3242%20-%20P05.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Sub-assemblies &amp; parts used (1)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What</th>
+<th>Family</th>
+<th>Year</th>
+<th>How we know</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Register-Power-transformers-80-n.html#80-9">80-9</a></td>
+<td>80-9 / POWER TRANSFORMER</td>
+<td>Power transformers (80-n)</td>
+<td>1979|12</td>
+<td>named in its manual</td>
+</tr>
+</tbody>
+</table>
+<h2>Consoles &amp; jobs it is connected to (3)</h2>
+<p><em>Their own drawings name this module.</em></p>
+<table>
+<thead>
+<tr>
+<th>Job</th>
+<th>Year</th>
+<th>Drawing</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Job-73050.html">73050</a></td>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/73050%20-%20T1202/1973%20-%2073050-02-004%20-%20AUDIO%20CONSOLE%20MONITOR%20SCHEMATIC%20-%20DRN%20PC%20-%20ISS%201.jpeg">1973 - 73050-02-004 - AUDIO CONSOLE MONITOR SCHEMATIC - DRN PC - ISS 1.jpeg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="Job-77038.html">77038</a></td>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/77038%20-%2004-001%20L3242%20layout%20iss%201/1977%20-%2077038%20-%20c%20%282%29.jpg">1977 - 77038 - c (2).jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="Job-790236.html">790236</a></td>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20790236-04-001%20%285%29.jpg">1979 - 790236 - 790236-04-001 (5).jpg</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (4)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../viewer.html?f=Modules/COMPUTERS/M524A/1986%20-%20M524A%20-%20IMG_3146.jpg">1986 - M524A - IMG_3146.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT%20%282%29.docx">1995 - M405P - ITEMIMP(1).TXT (2).docx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT.docx">1995 - M405P - ITEMIMP(1).TXT.docx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP.TXT.docx">1995 - M405P - ITEMIMP.TXT.docx</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>General description (5)</h3>
+<details><summary>Description — 525 words · 1979 - M624 - Power Supply (2).pdf, page 6</summary><p>M624 POWER SUPPLY The M62h power supply is designed primarily for use with the Ward-Beck 600 scrics equipment but may be used for any application requiring 24 volts dc, such a5 the operation of relays and lamps, eIc. Two independently fused 24V , 1.5A dc outputs are provided selection of primary transformer winding taps permiit 10% adjust- ment of the nominal dc output voltage. conservatively rated silicon diode bridge assembly and computer grade filter capacitor ensure optimum performance characteristics and lony lerm dependabi ity The primary ac and secondary dc fuses are conveniently located on the module front panel power ON/OFF switch and associated indicator Vamp are also mounted on the front pancl AI connections are Made via the MF6 frame receptacles. The MF6 connectors are wired for the required ac and dc operating conditions of the M624 modulc. Modules may therefore be interchanged without affecting the operation of the system. The modest size of 3.4 13.7 inches allows five M624 power supplies to be accommodated in onc standard rack mounting (19W 3.Sh) MF6 cquipment frame Perforations in the mounting frame and rodule assure adequate vertical ventilation by natural convection 2-1</p><p>WARD-BECK SYSTEMS LTD INSIALLAIION M624 POWERSUPPLY The M624 plugs directly into the MF6 mounting frame which may bc in- stalled in standard EIA 19 inch equipment rack with the hardware supplied with the rack. The MF6 frame is furnished with full guide complement in order t0 accept maximum of five M624 power supplies or any combination of single Or multiple width miodules no[ exceeding 10 single width modules. If the mounting frame has been procured Icss reccptacles, these may first be installed in the appropriale module positions. Note that the receptacle containing the ac Iine voltage connections is inverted t0 provide thc mechanical polarizing necessary 40 prevent inadvertent insertion of other companion modules which do not operate Trom the ac Iine Jumper terminals P2 , 12 (chassis ground) of all power supplies on common framc together and connect #18 AWG wire from each frame of power supplies to the systems ground bus . If the M624 supply is used in WBS console system the following polarity and ground procedures apply: +24V : Fused side of all relay and Iamp circuits. 24V comimon: Normally connecled t0 ground_ When used in console systems, it is normal practice Lo connect the +24V t0 the common side of all lamps, relays, etc , The control sidc of component is then switched t0 ground via an appropriate control switch or contact . Because the M62h is intended for general purpose Jamp illumination relay operation or other non-critical applications, the aclual oulput voltage may vary in accordance with the Iine input, and the output Ioad Thus the 24V specified is nominal dc output. In general , the 24V dc wili be within 207 for ali conditions, but when applications arise utilizing relays that do not Pull In below 18V the M624 should nol be used Use fuses with the corrcct ratings for primary and secondary functions. Failure to corply in this regard may cause permanent damage to the power supply 3-1</p><p>WAAD-BECK Systems LTD PARTS LiST M624 POWER SUPPLY PARI</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/POWER/M624/1979%20-%20M624%20-%20Power%20Supply%20%282%29.pdf">1979 - M624 - Power Supply (2).pdf</a>, p. 6</li>
+</ul>
+<details><summary>Description — 180 words · 1968 - M624 - P06 - 2-1.jpg, page 1</summary><p>M624_POWER_SUPPLY The M624 power supply designed primarily for use with the Ward- Beck 600 seriecs cquipment but may be used for any application requiring volts dc, such a5 the operation relays and lamps; eIc . Two independently fuscd 24V , -5A dc outputs are provided. selection primary transformer winding taps permit 10% adjust- ment the nominal output voltage conservatively rated silicon diode bridge assembly and computer gradc filter capacitur ensure optimum rforma nce characteristics and long term dependability The primary and secondary dc fuses are conveniently located the module front panel _ power ON/OFF switch and associated indicator Vamp 4re also mounted on the front pancl .</p><p>Al connections are Made via the MF6 frame receptacles. The MF6 cannectors are wired for the required ac and dc operating conditions the M624 modulc. Modules may therefore be interchanged without affecting the operalion the system. Thc modest size 3.4 3.4 13.7 inches allows five M624 power supplies be accommodated one standard rack mounting 19w 3.SH) MF6 cquipment frame Periorations the mounting frame and rodule assurc adequate vertical ventilation by natural canvection.</p><p>2-1</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20P06%20-%202-1.jpg">1968 - M624 - P06 - 2-1.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Description — 0 words · 1977 - M624 - PRICE LIST - 7000 series - price list.jpg, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.html#bp-d4d5db29302a5871">general boilerplate (9 devices)</a> · <a href="Boilerplate.html#bp-a2ca273924b604bd">general boilerplate (9 devices)</a> · <a href="Boilerplate.html#bp-dbb37c792fdeade7">general boilerplate (9 devices)</a></p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/POWER/M624/1977%20-%20M624%20-%20PRICE%20LIST%20-%207000%20series%20-%20price%20list.jpg">1977 - M624 - PRICE LIST - 7000 series - price list.jpg</a>, p. 1</li>
+<li>also in: <a href="../viewer.html?f=Modules/POWER/M624/1979%20-%20M624%20-%20Power%20Supply.pdf">1979 - M624 - Power Supply.pdf</a>, p. 6 · <a href="../viewer.html?f=Modules/POWER/M624/1977%20-%20M624%20-%20PRICE%20LIST%20-%20price%20list.jpg">1977 - M624 - PRICE LIST - price list.jpg</a>, p. 1</li>
+</ul>
+<h3>Maintenance &amp; alignment (1)</h3>
+<details><summary>Test Procedure — 169 words · 1968 - M624 - WBS test procedures 1.jpeg, page 1</summary><p>M624 POWER SUPPLY Reference M624 Manual wiring using an ohmmeter Refer to WBS Check the module schematic B 624-02-001 Special attention should be given to the following: a) that the &quot;hot&quot; Iine of the Ac Iine voltage is Check connected between P1-7 and the end terminal of F1 (not the front ring) b ) Check that C1 is wired for the correct polarity _ c) Ensure that all fuses are the correct types (fast blow or slow blow) and sizes.</p><p>2  AC slowly through variac to 115V Ac and confirm Apply power the DC output voltages at V1 and V2 to be +24 nominally 3 _ a) Connect 16 ohm load with power handil ing capability of greater than 100w to one of the outputs b ) Measure the DC output voltage confirm it to be +24 nominally (across the load) and c) Measure the output ripple voltage which should be less than V rms.</p><p>d) Measure the load current which should be about 1.5 A. Page ISSUE APRIL/83</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20WBS%20test%20procedures%201.jpeg">1968 - M624 - WBS test procedures 1.jpeg</a>, p. 1</li>
+</ul>
+<h2>Drawings (9)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="People.html#drawing-staff">Drawn by</a></th>
+<th><a href="People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>—</td>
+<td>Frame Wiring Viewed From Rear</td>
+<td><a href="Year-1968.html">1968|1</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20DOC%20-%20FRAME%20WIRING%20VIEWED%20FROM%20REAR.png">file</a></td>
+</tr>
+<tr>
+<td>B 624-02-001</td>
+<td>POWER SUPPLY M624 / SCHEMATIC</td>
+<td><a href="Year-1968.html">1968|1</a></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20624-02-001%20-%20POWER%20SUPPLY%20M624%20SCHEMATIC%20-%20DRN%20C.S.O%27CONNELL%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>LB 624-02-001</td>
+<td>24V POWER SUPPLY / SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1979%20-%20624-02-001%20-%2024V%20POWER%20SUPPLY%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Ect Pi- At-J</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20Power%20Supply.pdf">file</a> p.9</td>
+</tr>
+<tr>
+<td>—</td>
+<td>Ect Pi- At-J</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20Power%20Supply%20%282%29.pdf">file</a> p.9</td>
+</tr>
+<tr>
+<td>—</td>
+<td>Operation Connect Pi-</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20OPERATION%20CONNECT%20PI.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/M624%20-%20P03%20-%20TOC.jpg">file</a></td>
+</tr>
+<tr>
+<td>624-02-001</td>
+<td>Operation Conniect Pi-</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1979%20-%20M624%20-%20Power%20Supply%20%282%29.pdf">file</a> p.9</td>
+</tr>
+<tr>
+<td>624-02-001</td>
+<td>Power Supply Schematic Eng</td>
+<td></td>
+<td></td>
+<td></td>
+<td>F</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1979%20-%20M624%20-%20Power%20Supply.pdf">file</a> p.9</td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M624&quot;,
+ &quot;name&quot;: &quot;Power Supply&quot;,
+ &quot;category&quot;: &quot;POWER&quot;,
+ &quot;year&quot;: 1968,
+ &quot;made_of&quot;: [
+  &quot;80-9&quot;
+ ],
+ &quot;part_of&quot;: [
+  &quot;73050&quot;,
+  &quot;77038&quot;,
+  &quot;790236&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M624/1968 - 624-02-001 - POWER SUPPLY M624 SCHEMATIC - DRN C.S.O&#x27;CONNELL - ISS 1.png&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M624/1968 - M624 - DOC - FRAME WIRING VIEWED FROM REAR.png&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M624/1968 - M624 - OPERATION CONNECT PI.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M624/1968 - M624 - P01 - Cover.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M624/1968 - M624 - P02.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M624/1968 - M624 - P04- Warranty.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M624/1968 - M624 - P05 - 1-1.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M624/1968 - M624 - P06 - 2-1.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M624/1968 - M624 - P07 - 3-1.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M624/1968 - M624 - P08 - 4-1.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M624/1968 - M624 - Power Supply (2).pdf&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 9,
+   &quot;holds&quot;: [
+    &quot;connections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M624/1968 - M624 - Power Supply.pdf&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 9,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M624/1968 - M624 - WBS test procedures 0.jpeg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M624/1968 - M624 - WBS test procedures 1.jpeg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M122/1977 - M122 - PRICE LIST - 7000 series - price list.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M122/1977 - M122 - PRICE LIST - price list.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M624/1979 - 624-02-001 - 24V POWER SUPPLY SCHEMATIC - DRN GEB - ENG GEB - ISS 2.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M624/1979 - M624 - P03 - TOC.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M624/1979 - M624 - Power Supply (2).pdf&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 9,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M624/1979 - M624 - Power Supply.pdf&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 9,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M624/19xx - M624 - DOC - DSC03076 copy.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M624/19xx - M624 - DOC - L2042 - P11.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M624/M624 - P03 - TOC.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M625A/19xx - M625A - DOC - L3242 - P11.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M648/19xx - M648 - AD - wbsps - ad - 600 series.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M648/19xx - M648 - DOC - wbsps - ad - 600 series.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M457/19xx - M457 - DOC - L2042 - P05.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M498/19xx - M498 - DOC - L3242 - P05.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../_catalog/libcontrol/libcontrol.css"><script src="../_catalog/libcontrol/react.js"></script><script src="../_catalog/libcontrol/react-dom.js"></script><script src="../_catalog/libcontrol/libcontrol.js"></script><script src="../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M624.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

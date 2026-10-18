@@ -1,0 +1,89 @@
+# 1995 - 95015 - DOC - 95015-04-002 - CANADIAN CHINESE RADIO ENG RENAISSANCE MKII.jpg
+Wiki page: [Documents](../../../PAGES/Documents.md)
+
+
+- **Year:** 1995 (job number 95015)
+- **Type:** document scan
+- **About:** M907, M908, 95015
+
+## Text recovered by OCR
+
+> CH 14 CH 15 CH 16 CR MON CH CH 10 CH 11 CH 12 CH 13 CH 4 CH CH CH CH 8 M907 M9O5A CH CH 2 CH M9O1A M9O1A MGOIA M9OIA METER M9O1A M9O1A M9O1A M9O1A MGO1A M9O1A M9O1A M9O1A M9O1A M9O1A M9O1A MGO1A M9og M908 VODE EQ INS 70 70 : 3 : 70 70 : 3 70 70 70 8 70 70 70 : 8 H6AgaHONe MUTE Voymor CH ON CH ON CH ON CH ON APP REVISION SSUE WARD-BECK SYSTEMS WBS DRN: DRG(6_ '95) CANADIAN CHINESE RADIO ENG RENAISSANCE MKII CKD CONSOLE LAYOUT APP_ ISSUE SCALE DISC NO:_SYSO1 C 95015-04-002 1:2 CODE: 95015L02
+- **Original file:** `WBSps.env/PUBLIC/RECENT SCANS/WBSps.ca 20210319 - Redone of what Sampson scanned/WBSps.ca 20210319 -  (90).jpg`
+- **SHA-256:** `1cde9691e1dffce5e59a321f8832b7d4111e3eb5bfdf7b39d4b5833ce0cc1215`
+- **Size:** 15,728,083 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR)
+
+```text
+CH 14
+CH 15
+CH 16
+CR MON
+CH
+CH 10
+CH 11
+CH 12
+CH 13
+CH 4
+CH
+CH
+CH
+CH 8
+M907
+M9O5A
+CH
+CH 2
+CH
+M9O1A
+M9O1A MGOIA M9OIA
+METER
+M9O1A
+M9O1A
+M9O1A
+M9O1A
+MGO1A
+M9O1A
+M9O1A
+M9O1A
+M9O1A
+M9O1A
+M9O1A
+MGO1A
+M9og
+M908
+VODE
+EQ INS
+70
+70
+: 3 :
+70
+70
+:
+3 70
+70 70 8
+70
+70
+70
+: 8
+H6AgaHONe
+MUTE
+Voymor
+CH ON
+CH ON
+CH ON
+CH ON
+APP
+REVISION
+SSUE
+WARD-BECK SYSTEMS WBS DRN: DRG(6_ '95) CANADIAN  CHINESE RADIO ENG RENAISSANCE MKII CKD  CONSOLE LAYOUT APP_ ISSUE SCALE DISC NO:_SYSO1 C 95015-04-002 1:2 CODE: 95015L02
+```
+
+## Contents (JSON)
+
+```json
+{"file":"Consoles/1990-1999/95015/1995 - 95015 - DOC - 95015-04-002 - CANADIAN CHINESE RADIO ENG RENAISSANCE MKII.jpg","sha256":"1cde9691e1dffce5e59a321f8832b7d4111e3eb5bfdf7b39d4b5833ce0cc1215","kind":"doc","models":["M907","M908","95015"],"year":1995,"pages":1,"order":[{"page":1,"title_block":[{"number":"95015-04-002","type":"layout / outline","title":"Canadian Chinese Radio Eng Renaissance Mkii","drawn":"DRG"}],"modules":["M901A","M905A"],"module_boxes":[{"code":"CH 14","box":[0.6932,0.1889,0.7168,0.1994]},{"code":"CH 15","box":[0.7286,0.1865,0.7514,0.1982]},{"code":"CH","box":[0.7632,0.1865,0.7741,0.1959]},{"code":"16","box":[0.7759,0.1865,0.7859,0.1947]},{"code":"CR","box":[0.8286,0.183,0.8386,0.1924]},{"code":"MON","box":[0.8414,0.1819,0.8577,0.1912]},{"code":"CH","box":[0.5241,0.1982,0.5359,0.2088]},{"code":"CH 10","box":[0.5577,0.1971,0.5805,0.2064]},{"code":"CH 11","box":[0.5932,0.1936,0.6141,0.2053]},{"code":"CH 12","box":[0.625,0.1924,0.6495,0.2029]},{"code":"CH 13","box":[0.6595,0.1912,0.6832,0.2018]},{"code":"CH 4","box":[0.3532,0.2076,0.3732,0.217]},{"code":"CH","box":[0.3868,0.2053,0.3986,0.2158]},{"code":"CH","box":[0.4214,0.2029,0.4332,0.2135]},{"code":"CH","box":[0.4559,0.2018,0.4677,0.2123]},{"code":"CH 8","box":[0.4905,0.2006,0.5105,0.2099]},{"code":"M907","box":[0.7986,0.2064,0.8186,0.2181]},{"code":"M9O5A","box":[0.8305,0.2053,0.8559,0.217]},{"code":"CH","box":[0.2505,0.2123,0.2632,0.2228]},{"code":"CH 2","box":[0.2841,0.2099,0.3041,0.2216]},{"code":"CH","box":[0.3195,0.2099,0.3314,0.2193]},{"code":"M9O1A","box":[0.6595,0.2146,0.6832,0.2263]},{"code":"M9O1A","box":[0.6941,0.2123,0.7177,0.224]},{"code":"MGOIA","box":[0.7268,0.2082,0.7527,0.2234]},{"code":"M9OIA","box":[0.7623,0.2088,0.7868,0.2205]},{"code":"METER","box":[0.1095,0.217,0.1355,0.2322]},{"code":"M9O1A","box":[0.4877,0.2228,0.5123,0.2345]},{"code":"M9O1A","box":[0.5223,0.2216,0.5468,0.2333]},{"code":"M9O1A","box":[0.5568,0.2193,0.5805,0.231]},{"code":"M9O1A","box":[0.5914,0.2181,0.615,0.2298]},{"code":"MGO1A","box":[0.625,0.2158,0.6495,0.2275]},{"code":"M9O1A","box":[0.2823,0.2333,0.3068,0.245]},{"code":"M9O1A","box":[0.3168,0.2322,0.3405,0.2439]},{"code":"M9O1A","box":[0.3505,0.2298,0.375,0.2415]},{"code":"M9O1A","box":[0.385,0.2287,0.4095,0.2404]},{"code":"M9O1A","box":[0.4195,0.2263,0.4441,0.238]},{"code":"M9O1A","box":[0.4541,0.2251,0.4777,0.2368]},{"code":"MGO1A","box":[0.2477,0.2357,0.2723,0.2474]},{"code":"M9og","box":[0.1132,0.2427,0.1332,0.2544]},{"code":"M908","box":[0.1468,0.2415,0.1677,0.2532]},{"code":"VODE","box":[0.8441,0.4298,0.8559,0.4368]},{"code":"EQ INS","box":[0.8514,0.5,0.8659,0.507]},{"code":"70","box":[0.4714,0.5526,0.4777,0.5678]},{"code":"70","box":[0.5059,0.5515,0.5123,0.5655]},{"code":":","box":[0.5395,0.5491,0.5459,0.5702]},{"code":":","box":[0.5741,0.548,0.5805,0.5678]},{"code":"70","box":[0.6086,0.5456,0.615,0.5608]},{"code":"70","box":[0.6432,0.5444,0.6486,0.5585]},{"code":":","box":[0.6768,0.5421,0.6832,0.562]},{"code":"3","box":[0.6836,0.5298,0.6955,0.5766]},{"code":"70","box":[0.7114,0.5409,0.7177,0.555]},{"code":"70","box":[0.2659,0.5643,0.2714,0.5784]},{"code":"70","box":[0.2995,0.562,0.3059,0.576]},{"code":"70","box":[0.3341,0.5608,0.3405,0.5749]},{"code":"70","box":[0.3686,0.5585,0.375,0.5725]},{"code":"70","box":[0.4023,0.5573,0.4086,0.5713]},{"code":":","box":[0.4368,0.555,0.4432,0.5749]},{"code":"8","box":[0.4436,0.5462,0.4555,0.5895]},{"code":"3","box":[0.5473,0.5497,0.5582,0.5836]},{"code":"H6AgaHONe","box":[0.8427,0.5626,0.8636,0.5673]},{"code":"MUTE","box":[0.8395,0.5749,0.8505,0.5819]},{"code":"8","box":[0.2741,0.5678,0.2832,0.5971]},{"code":"Voymor","box":[0.8482,0.6374,0.8636,0.6421]},{"code":"CH ON","box":[0.6414,0.6532,0.6605,0.6614]},{"code":"CH ON","box":[0.5386,0.6579,0.5577,0.6661]},{"code":"CH ON","box":[0.4359,0.6637,0.455,0.6731]},{"code":"CH ON","box":[0.2641,0.6731,0.2841,0.6825]},{"code":"APP","box":[0.9459,0.7503,0.9605,0.7596]},{"code":"REVISION","box":[0.8386,0.7538,0.8705,0.7655]},{"code":"SSUE","box":[0.7505,0.7608,0.7686,0.7702]},{"code":"WBS","box":[0.7118,0.7819,0.77,0.8058]},{"code":"WARD-BECK SYSTEMS","box":[0.7932,0.7702,0.9527,0.8]},{"code":"DRN: DRG(6_","box":[0.6955,0.8152,0.7373,0.8292]},{"code":"'95)","box":[0.7395,0.8158,0.7532,0.8263]},{"code":"CANADIAN  CHINESE RADIO","box":[0.7755,0.8047,0.9464,0.8345]},{"code":"ENG","box":[0.695,0.8322,0.7105,0.8439]},{"code":"RENAISSANCE MKII","box":[0.8014,0.8246,0.9218,0.8509]},{"code":"CKD ","box":[0.6959,0.8474,0.7114,0.8579]},{"code":"CONSOLE","box":[0.8036,0.8456,0.8641,0.8678]},{"code":"LAYOUT","box":[0.8677,0.8439,0.9186,0.8649]},{"code":"APP_","box":[0.6968,0.8614,0.7123,0.8731]},{"code":"ISSUE","box":[0.9386,0.8614,0.9614,0.8731]},{"code":"SCALE","box":[0.6995,0.8731,0.7245,0.8877]},{"code":"DISC NO:_SYSO1","box":[0.7282,0.8725,0.7873,0.8877]},{"code":"C","box":[0.7977,0.8766,0.8059,0.8906]},{"code":"95015-04-002","box":[0.8227,0.8678,0.9241,0.8924]},{"code":"1:2","box":[0.7009,0.8854,0.7227,0.9018]},{"code":"CODE: 95015L02","box":[0.7291,0.8865,0.79,0.9006]}],"text":["CH 15 CH 16 CR MON","CH 11 CH 12 CH 13 CH 14","CH CH 8 CH CH 10","CH 4 CH CH M907 M9O5A","CH CH 2 CH M9O1A M9O1A MGOIA M9OIA","METER M9O1A M9O1A M9O1A M9O1A MGO1A","M9O1A M9O1A M9O1A M9O1A","MGO1A M9O1A M9O1A","M9og M908","VODE","EQ INS",": 70 70 : 3 70","70 : 70 70 :","70 70 70 70 8 3 H6AgaHONe","8 MUTE","Voymor","CH ON CH ON","CH ON","CH ON","REVISION APP","SSUE","WBS WARD-BECK SYSTEMS","DRN: DRG(6_ '95) CANADIAN  CHINESE RADIO","ENG RENAISSANCE MKII","CKD  CONSOLE LAYOUT","APP_ 95015-04-002 ISSUE","SCALE DISC NO:_SYSO1 C","1:2 CODE: 95015L02"]}],"drawing":{"svg":"_traces/1cde9691e1dffce5.svg","viewBox":[2000,1555],"rotate":0,"number":"95015-04-002","title":"Canadian Chinese Radio Eng Renaissance Mkii","dtype":"04","outlines":"see _traces/1cde9691e1dffce5.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[1386,310,"CH 14"],[1457,308,"CH 15"],[1526,305,"CH"],[1552,303,"16"],[1657,299,"CR"],[1683,297,"MON"],[1048,325,"CH"],[1115,321,"CH 10"],[1186,319,"CH 11"],[1250,316,"CH 12"],[1319,314,"CH 13"],[706,337,"CH 4"],[774,336,"CH"],[843,332,"CH"],[912,330,"CH"],[981,326,"CH 8"],[1597,339,"M907"],[1661,337,"M9O5A"],[501,346,"CH"],[568,345,"CH 2"],[639,341,"CH"],[1319,352,"M9O1A"],[1388,348,"M9O1A"],[1454,347,"MGOIA"],[1525,343,"M9OIA"],[219,361,"METER"],[975,365,"M9O1A"],[1045,363,"M9O1A"],[1114,359,"M9O1A"],[1183,357,"M9O1A"],[1250,354,"MGO1A"],[565,381,"M9O1A"],[634,379,"M9O1A"],[701,376,"M9O1A"],[770,374,"M9O1A"],[839,370,"M9O1A"],[908,368,"M9O1A"],[495,385,"MGO1A"],[226,396,"M9og"],[294,394,"M908"],[1688,679,"VODE"],[1703,788,"EQ INS"],[943,883,"70"],[1012,879,"70"],[1217,872,"70"],[1286,868,"70"],[1423,863,"70"],[532,899,"70"],[599,896,"70"],[668,894,"70"],[737,890,"70"],[805,888,"70"],[1685,882,"H6AgaHONe"],[1679,905,"MUTE"],[1696,998,"Voymor"],[1283,1028,"CH ON"],[1077,1036,"CH ON"],[872,1047,"CH ON"],[528,1061,"CH ON"],[1892,1181,"APP"],[1677,1190,"REVISION"],[1501,1198,"SSUE"],[1424,1253,"WBS"],[1586,1244,"WARD-BECK SYSTEMS"],[1391,1289,"DRN: DRG(6_"],[1479,1285,"'95)"],[1551,1298,"CANADIAN  CHINESE RADIO"],[1390,1312,"ENG"],[1603,1323,"RENAISSANCE MKII"],[1392,1334,"CKD"],[1607,1349,"CONSOLE"],[1735,1345,"LAYOUT"],[1394,1358,"APP_"],[1877,1358,"ISSUE"],[1399,1380,"SCALE"],[1456,1380,"DISC NO:_SYSO1"],[1645,1388,"95015-04-002"],[1402,1402,"1:2"],[1458,1400,"CODE: 95015L02"]]}}
+```

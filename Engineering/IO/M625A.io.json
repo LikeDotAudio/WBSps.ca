@@ -1,0 +1,38 @@
+{
+ "code": "M625A",
+ "series": null,
+ "type": "M625A",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "I1",
+   "signal": "Cr7 In+/48",
+   "dir": "in",
+   "pos": "I1P",
+   "neg": "I1N",
+   "src_page": 15
+  }
+ ],
+ "power": [
+  {
+   "rail": "-25V",
+   "volts": -25.0,
+   "supply": "-25V",
+   "ground": "CHASSIS",
+   "max_a": null
+  }
+ ],
+ "logic": [],
+ "ground": [
+  "CHASSIS"
+ ],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "189587744824e072f1c3b9401d33f6836b2d91bd13896c4dcf1d57fe69ec5947",
+  "75516223a4b432fe4e6058f19b6a13ed954dafd44cf80639366d5ba60ab1728c"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."
+}

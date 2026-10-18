@@ -1,0 +1,647 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M625 — Power Supply</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>M625 — Power Supply</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="Category-POWER.html">POWER</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../simulator.html?m=M625">simulator &amp; front panel</a> · <a href="../_packages/M625.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="Year-1978.html">1978|11</a> — month &amp; year</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"MAY 78" in wbsps - website ARCHIVE/WBSPS 2008/M625-TEMP.pdf</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>medium</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+</tr>
+<tr>
+<td>Used in jobs</td>
+<td><a href="Job-76045.html">76045</a> (1976|9)</td>
+</tr>
+<tr>
+<td>Variants</td>
+<td><a href="M625A.html">M625A</a>, <a href="M625B.html">M625B</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/BROADCAST-SOLUTIONS/MF6---EQUIPMENT-MOUNTING-FRAME/">DOCUMENTS/BROADCAST-SOLUTIONS/MF6---EQUIPMENT-MOUNTING-FRAME</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/">DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/Manuals%20%2B%20tech%20DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/">DOCUMENTS/Manuals + tech DOCUMENTS/Internal and Eng Notes and drawings</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections and circuit (ideal SPICE model)</h2>
+<p><em>Inputs, outputs, power and control as its own documents name them (no RTO-144 sheet for it: pin numbers only where the page gives them). Run the generator, turn the gain, watch the VU.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M625" data-n="Power Supply" data-cat="POWER"></div><svg class="wbs-panel" data-m="M625" data-n="Power Supply" data-cat="POWER" role="img" aria-label="M625 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M625","title":"Power Supply","rto":{"code":"M625","series":null,"type":"M625","impedance":{},"audio":[{"port":"I1","signal":"Cr6 In+4B","dir":"in","pos":"I1P","neg":"I1N","src_page":20}],"power":[],"logic":[],"ground":["CHASSIS"],"bus_out":[],"bus_in":[],"jumpers":[],"derived":true,"sources":["6cad0d85bdeacbb2f45aa3bd46979068ff285991915fcc647e1e722ca4f540d6"],"note":"Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."},"parts":[],"parents":[{"label":"76045","href":"Job-76045.html","note":"CFTO"},{"label":"M612","href":"M612.html","note":"on 16 drawings with it: Audio Distribution Ampli"},{"label":"M648","href":"M648.html","note":"on 16 drawings with it: Power Supply"},{"label":"M605","href":"M605.html","note":"on 6 drawings with it: Audio Distribution Ampli"},{"label":"M625B","href":"M625B.html","note":"on 6 drawings with it: Power Supply"},{"label":"M625A","href":"M625A.html","note":"on 4 drawings with it: Power Supply"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=DOCUMENTS/Manuals%20%2B%20tech%20DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/1978%20-%20DOC%20-%20WBS%20eng%20memo%205.jpg"><img loading="lazy" src="../DOCUMENTS/Manuals%20%2B%20tech%20DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/1978%20-%20DOC%20-%20WBS%20eng%20memo%205.jpg" alt="" data-f="DOCUMENTS/Manuals + tech DOCUMENTS/Internal and Eng Notes and drawings/1978 - DOC - WBS eng memo 5.jpg" data-size="320" onerror="wbsOff(this)">1978 - DOC - WBS eng memo 5.jpg</a><a href="../viewer.html?f=Modules/POWER/M625/1978%20-%20M625%20-%20Power%20supply.jpg"><img loading="lazy" src="../Modules/POWER/M625/1978%20-%20M625%20-%20Power%20supply.jpg" alt="" data-f="Modules/POWER/M625/1978 - M625 - Power supply.jpg" data-size="320" onerror="wbsOff(this)">1978 - M625 - Power supply.jpg</a><a href="../viewer.html?f=DOCUMENTS/BROADCAST-SOLUTIONS/MF6---EQUIPMENT-MOUNTING-FRAME/19xx%20-%20DOC%20-%20Ward%20Beck%20Systems%20MF6%20b.jpg"><img loading="lazy" src="../DOCUMENTS/BROADCAST-SOLUTIONS/MF6---EQUIPMENT-MOUNTING-FRAME/19xx%20-%20DOC%20-%20Ward%20Beck%20Systems%20MF6%20b.jpg" alt="" data-f="DOCUMENTS/BROADCAST-SOLUTIONS/MF6---EQUIPMENT-MOUNTING-FRAME/19xx - DOC - Ward Beck Systems MF6 b.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - Ward Beck Systems MF6 b.jpg</a><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2010.jpg"><img loading="lazy" src="../DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2010.jpg" alt="" data-f="DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - US Sales Brochure pg 10.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - US Sales Brochure pg 10.jpg</a><a href="../viewer.html?f=DOCUMENTS/RAW%20SCANS/history%20-%20RAW%20IMAGES/19xx%20-%20DOC%20-%20wbsps%20-%20promo%20-%20mf6%20mounting%20frame%20-%20back.jpg"><img loading="lazy" src="../DOCUMENTS/RAW%20SCANS/history%20-%20RAW%20IMAGES/19xx%20-%20DOC%20-%20wbsps%20-%20promo%20-%20mf6%20mounting%20frame%20-%20back.jpg" alt="" data-f="DOCUMENTS/RAW SCANS/history - RAW IMAGES/19xx - DOC - wbsps - promo - mf6 mounting frame - back.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - wbsps - promo - mf6 mounting frame - back.jpg</a><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20625-06-002%20-%20M625B%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201%20%282%29.jpg"><img loading="lazy" src="../Modules/POWER/M625/19xx%20-%20625-06-002%20-%20M625B%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201%20%282%29.jpg" alt="" data-f="Modules/POWER/M625/19xx - 625-06-002 - M625B POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ISS 1 (2).jpg" data-size="320" onerror="wbsOff(this)">19xx - 625-06-002 - M625B POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ISS 1 (2).jpg</a><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20625-06-002%20-%20M625B%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201%20%283%29.jpg"><img loading="lazy" src="../Modules/POWER/M625/19xx%20-%20625-06-002%20-%20M625B%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201%20%283%29.jpg" alt="" data-f="Modules/POWER/M625/19xx - 625-06-002 - M625B POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ISS 1 (3).jpg" data-size="320" onerror="wbsOff(this)">19xx - 625-06-002 - M625B POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ISS 1 (3).jpg</a><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20625-06-002%20-%20M625B%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201%20%284%29.jpg"><img loading="lazy" src="../Modules/POWER/M625/19xx%20-%20625-06-002%20-%20M625B%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201%20%284%29.jpg" alt="" data-f="Modules/POWER/M625/19xx - 625-06-002 - M625B POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ISS 1 (4).jpg" data-size="320" onerror="wbsOff(this)">19xx - 625-06-002 - M625B POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ISS 1 (4).jpg</a><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20625-06-002%20-%20M625B%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201%20%285%29.jpg"><img loading="lazy" src="../Modules/POWER/M625/19xx%20-%20625-06-002%20-%20M625B%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201%20%285%29.jpg" alt="" data-f="Modules/POWER/M625/19xx - 625-06-002 - M625B POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ISS 1 (5).jpg" data-size="320" onerror="wbsOff(this)">19xx - 625-06-002 - M625B POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ISS 1 (5).jpg</a><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20625-06-002%20-%20M625B%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201%20%286%29.jpg"><img loading="lazy" src="../Modules/POWER/M625/19xx%20-%20625-06-002%20-%20M625B%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201%20%286%29.jpg" alt="" data-f="Modules/POWER/M625/19xx - 625-06-002 - M625B POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ISS 1 (6).jpg" data-size="320" onerror="wbsOff(this)">19xx - 625-06-002 - M625B POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ISS 1 (6).jpg</a><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20625-06-002%20-%20M625B%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/POWER/M625/19xx%20-%20625-06-002%20-%20M625B%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201.jpg" alt="" data-f="Modules/POWER/M625/19xx - 625-06-002 - M625B POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">19xx - 625-06-002 - M625B POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ISS 1.jpg</a><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20625-06-002%20-%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/POWER/M625/19xx%20-%20625-06-002%20-%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201.jpg" alt="" data-f="Modules/POWER/M625/19xx - 625-06-002 - POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">19xx - 625-06-002 - POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ISS 1.jpg</a><a href="../viewer.html?f=ADVERTISEMENTS/19xx%20-%20MF6.jpg"><img loading="lazy" src="../ADVERTISEMENTS/19xx%20-%20MF6.jpg" alt="" data-f="ADVERTISEMENTS/19xx - MF6.jpg" data-size="320" onerror="wbsOff(this)">19xx - MF6.jpg</a><a href="../viewer.html?f=PHOTOS/Photos/WBS%20console%20Value%20copy%202.png"><img loading="lazy" src="../PHOTOS/Photos/WBS%20console%20Value%20copy%202.png" alt="" data-f="PHOTOS/Photos/WBS console Value copy 2.png" data-size="320" onerror="wbsOff(this)">WBS console Value copy 2.png</a><a href="../viewer.html?f=PHOTOS/Photos/Ward%20Beck%20Systems%20MF6%20b.jpg"><img loading="lazy" src="../PHOTOS/Photos/Ward%20Beck%20Systems%20MF6%20b.jpg" alt="" data-f="PHOTOS/Photos/Ward Beck Systems MF6 b.jpg" data-size="320" onerror="wbsOff(this)">Ward Beck Systems MF6 b.jpg</a><a href="../viewer.html?f=Modules/POWER/M625A/1978%20-%20M625A%20-%20P007%20-%203-4.jpg"><img loading="lazy" src="../Modules/POWER/M625A/1978%20-%20M625A%20-%20P007%20-%203-4.jpg" alt="" data-f="Modules/POWER/M625A/1978 - M625A - P007 - 3-4.jpg" data-size="320" onerror="wbsOff(this)">1978 - M625A - P007 - 3-4.jpg</a><a href="../viewer.html?f=Modules/POWER/M625A/1978%20-%20M625A%20-%20625-06-001%20-%20ENER%20POWER%20SURTTY.jpg"><img loading="lazy" src="../Modules/POWER/M625A/1978%20-%20M625A%20-%20625-06-001%20-%20ENER%20POWER%20SURTTY.jpg" alt="" data-f="Modules/POWER/M625A/1978 - M625A - 625-06-001 - ENER POWER SURTTY.jpg" data-size="320" onerror="wbsOff(this)">1978 - M625A - 625-06-001 - ENER POWER SURTTY.jpg</a><a href="../viewer.html?f=Modules/POWER/M625B/1978%20-%20M625B%20-%20625-06-002.jpg"><img loading="lazy" src="../Modules/POWER/M625B/1978%20-%20M625B%20-%20625-06-002.jpg" alt="" data-f="Modules/POWER/M625B/1978 - M625B - 625-06-002.jpg" data-size="320" onerror="wbsOff(this)">1978 - M625B - 625-06-002.jpg</a><a href="../viewer.html?f=Modules/POWER/M625B/1978%20-%20M625B%20-%20625-06-002%20-%20LSMPONM%20EYOU%27%20ICALE%20SUE.jpg"><img loading="lazy" src="../Modules/POWER/M625B/1978%20-%20M625B%20-%20625-06-002%20-%20LSMPONM%20EYOU%27%20ICALE%20SUE.jpg" alt="" data-f="Modules/POWER/M625B/1978 - M625B - 625-06-002 - LSMPONM EYOU&#x27; ICALE SUE.jpg" data-size="320" onerror="wbsOff(this)">1978 - M625B - 625-06-002 - LSMPONM EYOU&#x27; ICALE SUE.jpg</a><a href="../viewer.html?f=Modules/POWER/M625B/1978%20-%20M625B%20-%20M625B%20-%20625-06-002%20-%20SBS%20M6258%20J2%20%28BLACK%29%2022%27%20POWER%20SUPPLY%20-%20COMPONENT%20LAYOUT.jpg"><img loading="lazy" src="../Modules/POWER/M625B/1978%20-%20M625B%20-%20M625B%20-%20625-06-002%20-%20SBS%20M6258%20J2%20%28BLACK%29%2022%27%20POWER%20SUPPLY%20-%20COMPONENT%20LAYOUT.jpg" alt="" data-f="Modules/POWER/M625B/1978 - M625B - M625B - 625-06-002 - SBS M6258 J2 (BLACK) 22&#x27; POWER SUPPLY - COMPONENT LAYOUT.jpg" data-size="320" onerror="wbsOff(this)">1978 - M625B - M625B - 625-06-002 - SBS M6258 J2 (BLACK) 22&#x27; POWER SUPPLY - COMPONENT LAYOUT.jpg</a></div>
+
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td>month &amp; year</td>
+<td><code>September 3 , 1978</code></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Manuals%20%2B%20tech%20DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/1978%20-%20DOC%20-%20WBS%20eng%20memo%205.jpg">1978 - DOC - WBS eng memo 5.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td>month &amp; year</td>
+<td><code>September 3 , 1978</code></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/1978%20-%20M625%20-%20DOC%20-%20WBS%20eng%20memo%205.jpg">1978 - M625 - DOC - WBS eng memo 5.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td>month &amp; year</td>
+<td><code>MAY 78</code></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/1978%20-%20M625%20-%20TEMP.pdf">1978 - M625 - TEMP.pdf</a></td>
+</tr>
+<tr>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td>month &amp; year</td>
+<td><code>MAY 78</code></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/1978%20-%20M625%20-%20TEMP.pdf">1978 - M625 - TEMP.pdf</a></td>
+</tr>
+<tr>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td>month &amp; year</td>
+<td><code>September 3 , 1978</code></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625A/1978%20-%20M625A%20-%20DOC%20-%20WBS%20eng%20memo%205.jpg">1978 - M625A - DOC - WBS eng memo 5.jpg</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Documents (1)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/1978%20-%20M625%20-%20TEMP.pdf">1978 - M625 - TEMP.pdf</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/1978%20-%20M625%20-%20TEMP.pdf.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (24)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Manuals%20%2B%20tech%20DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/1978%20-%20DOC%20-%20WBS%20eng%20memo%205.jpg">1978 - DOC - WBS eng memo 5.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Manuals%20%2B%20tech%20DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/1978%20-%20DOC%20-%20WBS%20eng%20memo%205.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/1978%20-%20M625%20-%20DOC%20-%20WBS%20eng%20memo%205.jpg">1978 - M625 - DOC - WBS eng memo 5.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/1978%20-%20M625%20-%20DOC%20-%20WBS%20eng%20memo%205.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/1978%20-%20M625%20-%20Power%20supply.jpg">1978 - M625 - Power supply.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/1978%20-%20M625%20-%20Power%20supply.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/POWER/M625A/1978%20-%20M625A%20-%20DOC%20-%20WBS%20eng%20memo%205.jpg">1978 - M625A - DOC - WBS eng memo 5.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625A/1978%20-%20M625A%20-%20DOC%20-%20WBS%20eng%20memo%205.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/BROADCAST-SOLUTIONS/MF6---EQUIPMENT-MOUNTING-FRAME/19xx%20-%20DOC%20-%20Ward%20Beck%20Systems%20MF6%20b.jpg">19xx - DOC - Ward Beck Systems MF6 b.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/BROADCAST-SOLUTIONS/MF6---EQUIPMENT-MOUNTING-FRAME/19xx%20-%20DOC%20-%20Ward%20Beck%20Systems%20MF6%20b.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2010.jpg">19xx - DOC - US Sales Brochure pg 10.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2010.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/RAW%20SCANS/history%20-%20RAW%20IMAGES/19xx%20-%20DOC%20-%20wbsps%20-%20promo%20-%20mf6%20mounting%20frame%20-%20back.jpg">19xx - DOC - wbsps - promo - mf6 mounting frame - back.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/RAW%20SCANS/history%20-%20RAW%20IMAGES/19xx%20-%20DOC%20-%20wbsps%20-%20promo%20-%20mf6%20mounting%20frame%20-%20back.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M605/19xx%20-%20M605%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2010.jpg">19xx - M605 - DOC - US Sales Brochure pg 10.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M605/19xx%20-%20M605%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2010.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/19xx%20-%20M612%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2010.jpg">19xx - M612 - DOC - US Sales Brochure pg 10.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/19xx%20-%20M612%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2010.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/19xx%20-%20M612%20-%20DOC%20-%20Ward%20Beck%20Systems%20MF6%20b.jpg">19xx - M612 - DOC - Ward Beck Systems MF6 b.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/19xx%20-%20M612%20-%20DOC%20-%20Ward%20Beck%20Systems%20MF6%20b.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/19xx%20-%20M612%20-%20DOC%20-%20wbsps%20-%20promo%20-%20mf6%20mounting%20frame%20-%20back.jpg">19xx - M612 - DOC - wbsps - promo - mf6 mounting frame - back.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/19xx%20-%20M612%20-%20DOC%20-%20wbsps%20-%20promo%20-%20mf6%20mounting%20frame%20-%20back.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20625-06-002%20-%20M625B%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201%20%282%29.jpg">19xx - 625-06-002 - M625B POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ISS 1 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20625-06-002%20-%20M625B%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20625-06-002%20-%20M625B%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201%20%283%29.jpg">19xx - 625-06-002 - M625B POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ISS 1 (3).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20625-06-002%20-%20M625B%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201%20%283%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20625-06-002%20-%20M625B%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201%20%284%29.jpg">19xx - 625-06-002 - M625B POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ISS 1 (4).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20625-06-002%20-%20M625B%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201%20%284%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20625-06-002%20-%20M625B%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201%20%285%29.jpg">19xx - 625-06-002 - M625B POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ISS 1 (5).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20625-06-002%20-%20M625B%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201%20%285%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20625-06-002%20-%20M625B%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201%20%286%29.jpg">19xx - 625-06-002 - M625B POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ISS 1 (6).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20625-06-002%20-%20M625B%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201%20%286%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20625-06-002%20-%20M625B%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201.jpg">19xx - 625-06-002 - M625B POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20625-06-002%20-%20M625B%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20625-06-002%20-%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201.jpg">19xx - 625-06-002 - POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20625-06-002%20-%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20M625%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2010.jpg">19xx - M625 - DOC - US Sales Brochure pg 10.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20M625%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2010.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20M625%20-%20DOC%20-%20Ward%20Beck%20Systems%20MF6%20b.jpg">19xx - M625 - DOC - Ward Beck Systems MF6 b.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20M625%20-%20DOC%20-%20Ward%20Beck%20Systems%20MF6%20b.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20M625%20-%20DOC%20-%20wbsps%20-%20promo%20-%20mf6%20mounting%20frame%20-%20back.jpg">19xx - M625 - DOC - wbsps - promo - mf6 mounting frame - back.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20M625%20-%20DOC%20-%20wbsps%20-%20promo%20-%20mf6%20mounting%20frame%20-%20back.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M648/19xx%20-%20M648%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2010.jpg">19xx - M648 - DOC - US Sales Brochure pg 10.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M648/19xx%20-%20M648%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2010.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M648/19xx%20-%20M648%20-%20DOC%20-%20Ward%20Beck%20Systems%20MF6%20b.jpg">19xx - M648 - DOC - Ward Beck Systems MF6 b.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M648/19xx%20-%20M648%20-%20DOC%20-%20Ward%20Beck%20Systems%20MF6%20b.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M648/19xx%20-%20M648%20-%20DOC%20-%20wbsps%20-%20promo%20-%20mf6%20mounting%20frame%20-%20back.jpg">19xx - M648 - DOC - wbsps - promo - mf6 mounting frame - back.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M648/19xx%20-%20M648%20-%20DOC%20-%20wbsps%20-%20promo%20-%20mf6%20mounting%20frame%20-%20back.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Consoles &amp; jobs it is connected to (1)</h2>
+<p><em>Their own drawings name this module.</em></p>
+<table>
+<thead>
+<tr>
+<th>Job</th>
+<th>Year</th>
+<th>Drawing</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Job-76045.html">76045</a></td>
+<td>1976|9</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%2001-010c.pdf">1976 - 76045 - 01-010c.pdf</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (12)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../viewer.html?f=ADVERTISEMENTS/19xx%20-%20MF6.jpg">19xx - MF6.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=PHOTOS/Photos/WBS%20console%20Value%20copy%202.png">WBS console Value copy 2.png</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=PHOTOS/Photos/Ward%20Beck%20Systems%20MF6%20b.jpg">Ward Beck Systems MF6 b.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/POWER/M625A/1978%20-%20M625A%20-%20P007%20-%203-4.jpg">1978 - M625A - P007 - 3-4.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/POWER/M625A/1978%20-%20M625A%20-%20Power%20Supply%20%282%29.pdf">1978 - M625A - Power Supply (2).pdf</a></td>
+<td>3</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Consoles/1990-1999/900438%20-%20CHIN%20Radio/1990%20-%20900438%20-%20DOC%20-%20CHIN%20Radio%20R14000001.pdf">1990 - 900438 - DOC - CHIN Radio R14000001.pdf</a></td>
+<td>28</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/1990%20-%20DOC%20-%20CHIN%20Radio%20R14000001.pdf">1990 - DOC - CHIN Radio R14000001.pdf</a></td>
+<td>28</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M453A/1990%20-%20M453A%20-%20DOC%20-%20CHIN%20Radio%20R14000001.pdf">1990 - M453A - DOC - CHIN Radio R14000001.pdf</a></td>
+<td>28</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/MONITORING/M495/1990%20-%20M495%20-%20DOC%20-%20CHIN%20Radio%20R14000001.pdf">1990 - M495 - DOC - CHIN Radio R14000001.pdf</a></td>
+<td>28</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/POWER/M625B/1990%20-%20M625B%20-%20DOC%20-%20CHIN%20Radio%20R14000001.pdf">1990 - M625B - DOC - CHIN Radio R14000001.pdf</a></td>
+<td>28</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/ROUTING/M498/1990%20-%20M498%20-%20DOC%20-%20CHIN%20Radio%20R14000001.pdf">1990 - M498 - DOC - CHIN Radio R14000001.pdf</a></td>
+<td>28</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M499/1990%20-%20M499%20-%20DOC%20-%20CHIN%20Radio%20R14000001.pdf">1990 - M499 - DOC - CHIN Radio R14000001.pdf</a></td>
+<td>28</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>Specifications (3)</h3>
+<details><summary>Technical Data — 150 words · 19xx - M625 - DOC - US Sales Brochure pg 10.jpg, page 1</summary><p>OVERALL DIMENSIONS 19W x 3.5H x 14.5D inches (less rear tray and cover) Five double modules, such as M612, M648, etc: each 3.4W inches INSTALLED WEIGHT (Less modules) 7 Ibs net Two quadruple modules, such as M62O, M625, etc each 6.8W inches (two single or one double space remains available) FINISH Natural anodize with WBS green detachable rack trim plates Any combination of the above, with the provision that the total width does not exceed that of ten single modules ACCOMMODATES Ten single modules, such as M6OO, M605, etc each 1.WW inches ACCESSORIES: MFR6 Frame receptacle (max.10) MF6-2 - Set of 3 cable brackets MF6-3 - Rear Component Tray MF6-4 Rear Cover MFB6-1 Single Module Blank MFB62 Double Module Blank MFB6-4 - Quadruple Module Blank WARD-BECK SYSTEMS LTD_ WARD-BECK SYSTEMS INC_ 841 Progress Ave_Scarborough Ont_ M1H Zx4 290 Larkin St;, Buffalo, New York 14210 Telephone: (416) 438-6550 Telex: 06-23469 WBS</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20M625%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2010.jpg">19xx - M625 - DOC - US Sales Brochure pg 10.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Technical Data — 148 words · 19xx - M625 - DOC - Ward Beck Systems MF6 b.jpg, page 1</summary><p>OVERALL DIMENSIONS 19W x 3.5H x 14.50 inches less rear tray and cover) Five double modules, such as M612, M648, etc_ each 3.4W inches INSTALLED WEIGHT (Less modules) 7 Ibs net Two quadruple modules, such as M620, M625, etc each 6.8W inches (two single or one double space remains available) FINISH Natural anodize with WBS green detachable rack trim plates Any combination of the above, with the provision that the total width does not exceed that of ten single modules ACCOMMODATES Ten single modules, such as M6OO, M6OS, etc: each 1.ZW inches ACCESSORIES: MFR6 - Frame receptacle (max.10) MF6-2 - Set of 3 cable brackets MF6-3 Rear Component Tray MF6-4 Rear Cover MFB6-1 Single Module Blank MFB6-2 Double Module Blank MFB6-4 Quadruple Module Blank WARD-BECK SYSTEMS LTD_ WARD-BECK SYSTEMS INC_ 841 Progress Ave,Scarborough,Ont_ MH 2x4 290 Larkin St; Buffalo, New York 14210 Telephone: (416) 438-6550 Telex: 06-23469 WBS</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20M625%20-%20DOC%20-%20Ward%20Beck%20Systems%20MF6%20b.jpg">19xx - M625 - DOC - Ward Beck Systems MF6 b.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Technical Data — 146 words · 19xx - M625 - DOC - wbsps - promo - mf6 mounting frame - back.jpg, page 1</summary><p>OVERALL DIMENSIONS 19W 3.5H 14.50 inches (less rear tray and cover) Five double modules, such as M612, M648, etc each 3.4W inches INSTALLED WEIGHT (Less modules) 7 Ibs net Two quadruple modules, such as M620, M625, etc_ each 6.8W inches two single or one double space remains available) FINISH Natural anodize with WBS green detachable rack trim plates Any combination of the above, with the provision that the total width does not exceed that of ten single modules: ACCOMMODATES Ten single modules, such as M6OO, M6OS, etc; each 1.ZW inches ACCESSORIES: MFR6 Frame receptacle (max.10) MF6-2 - Set of 3 cable brackets MF6-3 Rear Component T ray MF6-4 Rear Cover MFB6-1 Single Module Blank MFB6-2 Double Module Blank MFB6-4 Quadruple Module Blank WARD-BECK SYSTEMS LTD; WARD-BECK SYSTEMS INC  841 Progress Ave_Scarborough,Ont  M1H 2x4 290 Larkin St;, Buffalo; New York 14210 Telephone: (416) 438-655O Telex: 06-23469 WBS</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20M625%20-%20DOC%20-%20wbsps%20-%20promo%20-%20mf6%20mounting%20frame%20-%20back.jpg">19xx - M625 - DOC - wbsps - promo - mf6 mounting frame - back.jpg</a>, p. 1</li>
+</ul>
+<h2>Drawings (11)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="People.html#drawing-staff">Drawn by</a></th>
+<th><a href="People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>625-06-001</td>
+<td>Ener Power Surtty</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625A/1978%20-%20M625A%20-%20625-06-001%20-%20ENER%20POWER%20SURTTY.jpg">file</a></td>
+</tr>
+<tr>
+<td>625-06-002</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625B/1978%20-%20M625B%20-%20625-06-002.jpg">file</a></td>
+</tr>
+<tr>
+<td>625-06-002</td>
+<td>Lsmponm Eyou' Icale Sue</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625B/1978%20-%20M625B%20-%20625-06-002%20-%20LSMPONM%20EYOU%27%20ICALE%20SUE.jpg">file</a></td>
+</tr>
+<tr>
+<td>625-06-002</td>
+<td>Eng Power Supply</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/POWER/M625B/1978%20-%20M625B%20-%20M625B%20-%20625-06-002%20-%20SBS%20M6258%20J2%20%28BLACK%29%2022%27%20POWER%20SUPPLY%20-%20COMPONENT%20LAYOUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 625-06-002</td>
+<td>POWER SUPPLY / COMPONENT LAYOUT</td>
+<td></td>
+<td><a href="Person-P-MAHONEY.html">P MAHONEY</a></td>
+<td>ER</td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20625-06-002%20-%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 625-06-002</td>
+<td>M625B / POWER SUPPLY / COMPONENT LAYOUT</td>
+<td></td>
+<td><a href="Person-P-MAHONEY.html">P MAHONEY</a></td>
+<td><a href="Person-LR.html">LR</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20625-06-002%20-%20M625B%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 625-06-002</td>
+<td>M625B / POWER SUPPLY / COMPONENT LAYOUT</td>
+<td></td>
+<td><a href="Person-P-MAHONEY.html">P MAHONEY</a></td>
+<td><a href="Person-LR.html">LR</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20625-06-002%20-%20M625B%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 625-06-002</td>
+<td>M625B / POWER SUPPLY / COMPONENT LAYOUT</td>
+<td></td>
+<td><a href="Person-P-MAHONEY.html">P MAHONEY</a></td>
+<td><a href="Person-LR.html">LR</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20625-06-002%20-%20M625B%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201%20%283%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 625-06-002</td>
+<td>M625B / POWER SUPPLY / COMPONENT LAYOUT</td>
+<td></td>
+<td><a href="Person-P-MAHONEY.html">P MAHONEY</a></td>
+<td><a href="Person-LR.html">LR</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20625-06-002%20-%20M625B%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201%20%284%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 625-06-002</td>
+<td>M625B / POWER SUPPLY / COMPONENT LAYOUT</td>
+<td></td>
+<td><a href="Person-P-MAHONEY.html">P MAHONEY</a></td>
+<td><a href="Person-LR.html">LR</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20625-06-002%20-%20M625B%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201%20%285%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 625-06-002</td>
+<td>M625B / POWER SUPPLY / COMPONENT LAYOUT</td>
+<td></td>
+<td><a href="Person-P-MAHONEY.html">P MAHONEY</a></td>
+<td><a href="Person-LR.html">LR</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20625-06-002%20-%20M625B%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201%20%286%29.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M625&quot;,
+ &quot;name&quot;: &quot;Power Supply&quot;,
+ &quot;category&quot;: &quot;POWER&quot;,
+ &quot;year&quot;: 1978,
+ &quot;connections&quot;: {
+  &quot;from&quot;: &quot;its own documents&quot;,
+  &quot;inputs&quot;: [
+   &quot;Cr6 In+4B&quot;
+  ],
+  &quot;outputs&quot;: [],
+  &quot;power&quot;: [],
+  &quot;control&quot;: []
+ },
+ &quot;part_of&quot;: [
+  &quot;76045&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M625/1978 - M625 - Power supply.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M625A/1978 - M625A - DOC - WBS eng memo 5.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M625B/1978 - M625B - Power supply.pdf&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 28,
+   &quot;holds&quot;: [
+    &quot;connections&quot;,
+    &quot;dates&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M625/19xx - 625-06-002 - M625B POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ISS 1 (2).jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M625/19xx - 625-06-002 - M625B POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ISS 1 (3).jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M625/19xx - 625-06-002 - M625B POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ISS 1 (4).jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M625/19xx - 625-06-002 - M625B POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ISS 1 (5).jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M625/19xx - 625-06-002 - M625B POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ISS 1 (6).jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M625/19xx - 625-06-002 - M625B POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ISS 1.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M625/19xx - 625-06-002 - POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ISS 1.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M648/19xx - M648 - DOC - US Sales Brochure pg 10.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M648/19xx - M648 - DOC - Ward Beck Systems MF6 b.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M648/19xx - M648 - DOC - wbsps - promo - mf6 mounting frame - back.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../_catalog/libcontrol/libcontrol.css"><script src="../_catalog/libcontrol/react.js"></script><script src="../_catalog/libcontrol/react-dom.js"></script><script src="../_catalog/libcontrol/libcontrol.js"></script><script src="../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M625.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

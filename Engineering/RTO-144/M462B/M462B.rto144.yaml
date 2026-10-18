@@ -1,0 +1,57 @@
+code: M462B
+series: L-EFFECT
+type: EQUALIZER
+row_count: 22
+impedance:
+  line_in: 600
+  out: 600
+note: null
+audio:
+- port: A1
+  signal: EQ IN LEFT
+  dir: in
+  pos: P2-1
+  neg: P2-2
+  pad_pos: 1.A.1.P
+  pad_neg: 2.A.1.N
+- port: A2
+  signal: EQ OUT LEFT
+  dir: out
+  pos: P2-15
+  neg: P2-16
+  pad_pos: 15.A.2.P
+  pad_neg: 16.A.2.N
+- port: A3
+  signal: EQ IN Right
+  dir: in
+  pos: P2-1
+  neg: P2-2
+  pad_pos: 1.A.3.P
+  pad_neg: 2.A.3.N
+- port: A4
+  signal: EQ OUT Right
+  dir: out
+  pos: P2-15
+  neg: P2-16
+  pad_pos: 15.A.4.P
+  pad_neg: 16.A.4.N
+bus_out: []
+bus_in: []
+power:
+- rail: VEE-AUDIO
+  style: NEW
+  volts: -25
+  max_a: 0.2
+  supply: P2-19
+  ground: P2-20
+  link: 2
+- rail: VCC-AUDIO
+  style: NEW
+  volts: 25
+  max_a: 0.2
+  supply: P2-21
+  ground: P2-20
+  link: 1
+jumpers: []
+logic: []
+chassis: P2-22

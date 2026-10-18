@@ -1,0 +1,1474 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M487 — Dual Master Module</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>M487 — Dual Master Module</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="Category-SUMMING.html">SUMMING</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../simulator.html?m=M487">simulator &amp; front panel</a> · <a href="../_packages/M487.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="Year-1982.html">1982|15</a> — manual issue date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"MANUAL ISSUE "2 BS W DECEMBER 1982" in PUBLIC/Manuals + tech DOCUMENTS/Modules/Ward-Beck Systems - M487 Dual Master Module - www.WBSps.ca.pdf</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="Year-1982.html">1982|15</a></td>
+</tr>
+<tr>
+<td>Used in jobs</td>
+<td><a href="Job-840300.html">840300</a> (1984|17), T1202</td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/Done/Done%20-%20L1202A%20Console/">DOCUMENTS/Done/Done - L1202A Console</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/">DOCUMENTS/RECENT SCANS/WBSps.ca 20210320 - Scans</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../Modules/AMPLIFIERS/M481B/index.html">Modules/AMPLIFIERS/M481B</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections and circuit (ideal SPICE model)</h2>
+<p><em>Inputs, outputs, power and control as its own documents name them (no RTO-144 sheet for it: pin numbers only where the page gives them). Run the generator, turn the gain, watch the VU.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M487" data-n="Dual Master Module" data-cat="SUMMING"></div><svg class="wbs-panel" data-m="M487" data-n="Dual Master Module" data-cat="SUMMING" role="img" aria-label="M487 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M487","title":"Dual Master Module","rto":{"code":"M487","series":null,"type":"M487","impedance":{},"audio":[{"port":"I1","signal":"Section Inputs","dir":"in","pos":"I1P","neg":"I1N","src_page":10},{"port":"I2","signal":"Fader Insert In Sect","dir":"in","pos":"I2P","neg":"I2N","src_page":10},{"port":"O1","signal":"Out Pu Ts","dir":"out","pos":"O1P","neg":"O1N","src_page":10},{"port":"O2","signal":"Fader Insert Out Sect 2","dir":"out","pos":"O2P","neg":"O2N","src_page":10},{"port":"O3","signal":"Faoer Insert Out Sect","dir":"out","pos":"O3P","neg":"O3N","src_page":10}],"power":[{"rail":"-5V","volts":-5.0,"supply":"-5V","ground":"GND","max_a":null}],"logic":[],"ground":[],"bus_out":[],"bus_in":[],"jumpers":[],"derived":true,"sources":["8392aab00b175d309493db856921c0a0e1a118d0d24800c9622ed2b4bce0cd76","a3be42193f7d25f0d7c6c1adcd9f869bb0dac889260b8da9cb63d86a324872d8"],"note":"Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."},"parts":[{"item":"8-109","title":"Booster Amplifier Component Layout","label":"8-109 Booster Amplifier Componen","href":"Register-Sub-assemblies-n-nnn.html#8-109","note":"Sub-assemblies (n-nnn)"},{"item":"8-103","title":"LOAD TRANSFER CONTROL / SCHEMATIC","label":"8-103 LOAD TRANSFER CONTROL / SC","href":"Register-Sub-assemblies-n-nnn.html#8-103","note":"Sub-assemblies (n-nnn)"},{"item":"8-403","title":"SYSTEMI DRNVINKE ENG","label":"8-403 SYSTEMI DRNVINKE ENG","href":"Register-Sub-assemblies-n-nnn.html#8-403","note":"Sub-assemblies (n-nnn)"},{"item":"SA14-001","title":"14-001 / CUE LINE SELECTOR / SCHEMATIC","label":"SA14-001 14-001 / CUE LINE SELECTOR","href":"Register-Circuit-boards-SA14-nnn.html#sa14-001","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-002","title":"14-002 / OUTPUT LINE SELECTOR / SCHEMATIC","label":"SA14-002 14-002 / OUTPUT LINE SELEC","href":"Register-Circuit-boards-SA14-nnn.html#sa14-002","note":"Circuit boards (SA14-nnn)"}],"parents":[{"label":"840300","href":"Job-840300.html","note":"04-003"},{"label":"T1202","href":"#","note":"console / job"},{"label":"M481B","href":"M481B.html","note":"on 22 drawings with it: Cue OSC Re-entry Module"},{"label":"M485B","href":"M485B.html","note":"on 19 drawings with it: SERIES REG BASE"},{"label":"M207","href":"M207.html","note":"on 17 drawings with it: Phantom Power Card"},{"label":"M480C","href":"M480C.html","note":"on 13 drawings with it: Input Module"},{"label":"M482B","href":"M482B.html","note":"on 7 drawings with it: Monitor Module"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P01%20-%20TOC.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1982%20-%20M487%20-%20P01%20-%20TOC.jpg" alt="" data-f="Modules/SUMMING/M487/1982 - M487 - P01 - TOC.jpg" data-size="320" onerror="wbsOff(this)">1982 - M487 - P01 - TOC.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/M487%20-%20P01%20-%20TOC.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/M487%20-%20P01%20-%20TOC.jpg" alt="" data-f="Modules/SUMMING/M487/M487 - P01 - TOC.jpg" data-size="320" onerror="wbsOff(this)">M487 - P01 - TOC.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/1981%20-%20487-02-001%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC%20-%20DRN%20P.%20Mahoney%20-%20ENG%20MRW%20-%20ISS%203.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1981%20-%20487-02-001%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC%20-%20DRN%20P.%20Mahoney%20-%20ENG%20MRW%20-%20ISS%203.jpg" alt="" data-f="Modules/SUMMING/M487/1981 - 487-02-001 - DUAL MASTER MODULE SCHEMATIC - DRN P. Mahoney - ENG MRW - ISS 3.jpg" data-size="320" onerror="wbsOff(this)">1981 - 487-02-001 - DUAL MASTER MODULE SCHEMATIC - DRN P. Mahoney - ENG MRW - ISS 3.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20487-01-001%20-%20DUAL%20MASTER%20MODULE%20FUNCTIONAL%20DIAGRAM.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1982%20-%20M487%20-%20487-01-001%20-%20DUAL%20MASTER%20MODULE%20FUNCTIONAL%20DIAGRAM.jpg" alt="" data-f="Modules/SUMMING/M487/1982 - M487 - 487-01-001 - DUAL MASTER MODULE FUNCTIONAL DIAGRAM.jpg" data-size="320" onerror="wbsOff(this)">1982 - M487 - 487-01-001 - DUAL MASTER MODULE FUNCTIONAL DIAGRAM.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20487-02-001%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1982%20-%20M487%20-%20487-02-001%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC.jpg" alt="" data-f="Modules/SUMMING/M487/1982 - M487 - 487-02-001 - DUAL MASTER MODULE SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)">1982 - M487 - 487-02-001 - DUAL MASTER MODULE SCHEMATIC.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20487-02-001%20-%20OLHG%20DUAL%20MASTER%20MODULE.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1982%20-%20M487%20-%20487-02-001%20-%20OLHG%20DUAL%20MASTER%20MODULE.jpg" alt="" data-f="Modules/SUMMING/M487/1982 - M487 - 487-02-001 - OLHG DUAL MASTER MODULE.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1982 - M487 - 487-02-001 - OLHG DUAL MASTER MODULE.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20487-06-001%20-%20DUAL%20MASTER%20MODULE%20COMPONENT%20LAYOUT%20ENG.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1982%20-%20M487%20-%20487-06-001%20-%20DUAL%20MASTER%20MODULE%20COMPONENT%20LAYOUT%20ENG.jpg" alt="" data-f="Modules/SUMMING/M487/1982 - M487 - 487-06-001 - DUAL MASTER MODULE COMPONENT LAYOUT ENG.jpg" data-size="320" onerror="wbsOff(this)">1982 - M487 - 487-06-001 - DUAL MASTER MODULE COMPONENT LAYOUT ENG.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20487-06-001.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1982%20-%20M487%20-%20487-06-001.jpg" alt="" data-f="Modules/SUMMING/M487/1982 - M487 - 487-06-001.jpg" data-size="320" onerror="wbsOff(this)">1982 - M487 - 487-06-001.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%208-109-02-004.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1982%20-%20M487%20-%208-109-02-004.jpg" alt="" data-f="Modules/SUMMING/M487/1982 - M487 - 8-109-02-004.jpg" data-size="320" onerror="wbsOff(this)">1982 - M487 - 8-109-02-004.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%208-109-06-004%20-%20BOOSTER%20AMPLIFIER%20COMPONENT%20LAYOUT.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1982%20-%20M487%20-%208-109-06-004%20-%20BOOSTER%20AMPLIFIER%20COMPONENT%20LAYOUT.jpg" alt="" data-f="Modules/SUMMING/M487/1982 - M487 - 8-109-06-004 - BOOSTER AMPLIFIER COMPONENT LAYOUT.jpg" data-size="320" onerror="wbsOff(this)">1982 - M487 - 8-109-06-004 - BOOSTER AMPLIFIER COMPONENT LAYOUT.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%208-109-06-004%20-%20BOOSTER%20AMPLIFIER.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1982%20-%20M487%20-%208-109-06-004%20-%20BOOSTER%20AMPLIFIER.jpg" alt="" data-f="Modules/SUMMING/M487/1982 - M487 - 8-109-06-004 - BOOSTER AMPLIFIER.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1982 - M487 - 8-109-06-004 - BOOSTER AMPLIFIER.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20B%20487-01-001%20-%20M487%20-%20DUAL%20MASTER%20MODULE%20-%20FUNCTIONAL%20DIAGRAM.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1982%20-%20M487%20-%20B%20487-01-001%20-%20M487%20-%20DUAL%20MASTER%20MODULE%20-%20FUNCTIONAL%20DIAGRAM.jpg" alt="" data-f="Modules/SUMMING/M487/1982 - M487 - B 487-01-001 - M487 - DUAL MASTER MODULE - FUNCTIONAL DIAGRAM.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1982 - M487 - B 487-01-001 - M487 - DUAL MASTER MODULE - FUNCTIONAL DIAGRAM.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20BOOSTER%20AMPLIFIER%20SCHEMATIC.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1982%20-%20M487%20-%20BOOSTER%20AMPLIFIER%20SCHEMATIC.jpg" alt="" data-f="Modules/SUMMING/M487/1982 - M487 - BOOSTER AMPLIFIER SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)">1982 - M487 - BOOSTER AMPLIFIER SCHEMATIC.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20Mixer%20Slot.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1982%20-%20M487%20-%20Mixer%20Slot.jpg" alt="" data-f="Modules/SUMMING/M487/1982 - M487 - Mixer Slot.jpg" data-size="320" onerror="wbsOff(this)">1982 - M487 - Mixer Slot.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20Mixer%20Slot_small.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1982%20-%20M487%20-%20Mixer%20Slot_small.jpg" alt="" data-f="Modules/SUMMING/M487/1982 - M487 - Mixer Slot_small.jpg" data-size="320" onerror="wbsOff(this)">1982 - M487 - Mixer Slot_small.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P02%20-%201-1.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1982%20-%20M487%20-%20P02%20-%201-1.jpg" alt="" data-f="Modules/SUMMING/M487/1982 - M487 - P02 - 1-1.jpg" data-size="320" onerror="wbsOff(this)">1982 - M487 - P02 - 1-1.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P03%20-%201-2.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1982%20-%20M487%20-%20P03%20-%201-2.jpg" alt="" data-f="Modules/SUMMING/M487/1982 - M487 - P03 - 1-2.jpg" data-size="320" onerror="wbsOff(this)">1982 - M487 - P03 - 1-2.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P04%20-%202-1.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1982%20-%20M487%20-%20P04%20-%202-1.jpg" alt="" data-f="Modules/SUMMING/M487/1982 - M487 - P04 - 2-1.jpg" data-size="320" onerror="wbsOff(this)">1982 - M487 - P04 - 2-1.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P05%20-%202-2.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1982%20-%20M487%20-%20P05%20-%202-2.jpg" alt="" data-f="Modules/SUMMING/M487/1982 - M487 - P05 - 2-2.jpg" data-size="320" onerror="wbsOff(this)">1982 - M487 - P05 - 2-2.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P06%20-%203-1.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1982%20-%20M487%20-%20P06%20-%203-1.jpg" alt="" data-f="Modules/SUMMING/M487/1982 - M487 - P06 - 3-1.jpg" data-size="320" onerror="wbsOff(this)">1982 - M487 - P06 - 3-1.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P07%20-%203-2.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1982%20-%20M487%20-%20P07%20-%203-2.jpg" alt="" data-f="Modules/SUMMING/M487/1982 - M487 - P07 - 3-2.jpg" data-size="320" onerror="wbsOff(this)">1982 - M487 - P07 - 3-2.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P08%20-%203-3.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1982%20-%20M487%20-%20P08%20-%203-3.jpg" alt="" data-f="Modules/SUMMING/M487/1982 - M487 - P08 - 3-3.jpg" data-size="320" onerror="wbsOff(this)">1982 - M487 - P08 - 3-3.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P09%20-%203-4.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1982%20-%20M487%20-%20P09%20-%203-4.jpg" alt="" data-f="Modules/SUMMING/M487/1982 - M487 - P09 - 3-4.jpg" data-size="320" onerror="wbsOff(this)">1982 - M487 - P09 - 3-4.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P10%20-%204-1.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1982%20-%20M487%20-%20P10%20-%204-1.jpg" alt="" data-f="Modules/SUMMING/M487/1982 - M487 - P10 - 4-1.jpg" data-size="320" onerror="wbsOff(this)">1982 - M487 - P10 - 4-1.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P11.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1982%20-%20M487%20-%20P11.jpg" alt="" data-f="Modules/SUMMING/M487/1982 - M487 - P11.jpg" data-size="320" onerror="wbsOff(this)">1982 - M487 - P11.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P12%20-%208-109-1-1.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1982%20-%20M487%20-%20P12%20-%208-109-1-1.jpg" alt="" data-f="Modules/SUMMING/M487/1982 - M487 - P12 - 8-109-1-1.jpg" data-size="320" onerror="wbsOff(this)">1982 - M487 - P12 - 8-109-1-1.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P13%20-%208-109-1-2.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1982%20-%20M487%20-%20P13%20-%208-109-1-2.jpg" alt="" data-f="Modules/SUMMING/M487/1982 - M487 - P13 - 8-109-1-2.jpg" data-size="320" onerror="wbsOff(this)">1982 - M487 - P13 - 8-109-1-2.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P14%20-%208-109-2-1.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1982%20-%20M487%20-%20P14%20-%208-109-2-1.jpg" alt="" data-f="Modules/SUMMING/M487/1982 - M487 - P14 - 8-109-2-1.jpg" data-size="320" onerror="wbsOff(this)">1982 - M487 - P14 - 8-109-2-1.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P15%20-%208-109-2-2.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1982%20-%20M487%20-%20P15%20-%208-109-2-2.jpg" alt="" data-f="Modules/SUMMING/M487/1982 - M487 - P15 - 8-109-2-2.jpg" data-size="320" onerror="wbsOff(this)">1982 - M487 - P15 - 8-109-2-2.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P16%20-%208-109-2-3.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1982%20-%20M487%20-%20P16%20-%208-109-2-3.jpg" alt="" data-f="Modules/SUMMING/M487/1982 - M487 - P16 - 8-109-2-3.jpg" data-size="320" onerror="wbsOff(this)">1982 - M487 - P16 - 8-109-2-3.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P17%20-%208-109-2-4.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1982%20-%20M487%20-%20P17%20-%208-109-2-4.jpg" alt="" data-f="Modules/SUMMING/M487/1982 - M487 - P17 - 8-109-2-4.jpg" data-size="320" onerror="wbsOff(this)">1982 - M487 - P17 - 8-109-2-4.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P18%20-%208-109-2-5.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1982%20-%20M487%20-%20P18%20-%208-109-2-5.jpg" alt="" data-f="Modules/SUMMING/M487/1982 - M487 - P18 - 8-109-2-5.jpg" data-size="320" onerror="wbsOff(this)">1982 - M487 - P18 - 8-109-2-5.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20Preamp.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1982%20-%20M487%20-%20Preamp.jpg" alt="" data-f="Modules/SUMMING/M487/1982 - M487 - Preamp.jpg" data-size="320" onerror="wbsOff(this)">1982 - M487 - Preamp.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20Preamp_small.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/1982%20-%20M487%20-%20Preamp_small.jpg" alt="" data-f="Modules/SUMMING/M487/1982 - M487 - Preamp_small.jpg" data-size="320" onerror="wbsOff(this)">1982 - M487 - Preamp_small.jpg</a><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L1202A%20Console/19xx%20-%20DOC%20-%201202-02-012%20-%20OOP%20SHE-DS.jpg"><img loading="lazy" src="../DOCUMENTS/Done/Done%20-%20L1202A%20Console/19xx%20-%20DOC%20-%201202-02-012%20-%20OOP%20SHE-DS.jpg" alt="" data-f="DOCUMENTS/Done/Done - L1202A Console/19xx - DOC - 1202-02-012 - OOP SHE-DS.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 1202-02-012 - OOP SHE-DS.jpg</a><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L1202A%20Console/19xx%20-%20DOC%20-%201202-02-017%20-%20POSTS%20CHASSIS%20GROUND.jpg"><img loading="lazy" src="../DOCUMENTS/Done/Done%20-%20L1202A%20Console/19xx%20-%20DOC%20-%201202-02-017%20-%20POSTS%20CHASSIS%20GROUND.jpg" alt="" data-f="DOCUMENTS/Done/Done - L1202A Console/19xx - DOC - 1202-02-017 - POSTS CHASSIS GROUND.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 1202-02-017 - POSTS CHASSIS GROUND.jpg</a><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L1202A%20Console/19xx%20-%20DOC%20-%201202-04-007%20-%20OSCILLATOR%20CUE-SOLO%20RE-ENTRY%20AND%20AUX%20LEVEL%20SCHEMATIC.jpg"><img loading="lazy" src="../DOCUMENTS/Done/Done%20-%20L1202A%20Console/19xx%20-%20DOC%20-%201202-04-007%20-%20OSCILLATOR%20CUE-SOLO%20RE-ENTRY%20AND%20AUX%20LEVEL%20SCHEMATIC.jpg" alt="" data-f="DOCUMENTS/Done/Done - L1202A Console/19xx - DOC - 1202-04-007 - OSCILLATOR CUE-SOLO RE-ENTRY AND AUX LEVEL SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 1202-04-007 - OSCILLATOR CUE-SOLO RE-ENTRY AND AUX LEVEL SCHEMATIC.jpg</a><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L1202A%20Console/19xx%20-%20DOC%20-%20L1202A%20-%20P12%20-%201-9.jpg"><img loading="lazy" src="../DOCUMENTS/Done/Done%20-%20L1202A%20Console/19xx%20-%20DOC%20-%20L1202A%20-%20P12%20-%201-9.jpg" alt="" data-f="DOCUMENTS/Done/Done - L1202A Console/19xx - DOC - L1202A - P12 - 1-9.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - L1202A - P12 - 1-9.jpg</a><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L1202A%20Console/19xx%20-%20DOC%20-%20L1202A%20-%20P25%20-%20IV-1.jpg"><img loading="lazy" src="../DOCUMENTS/Done/Done%20-%20L1202A%20Console/19xx%20-%20DOC%20-%20L1202A%20-%20P25%20-%20IV-1.jpg" alt="" data-f="DOCUMENTS/Done/Done - L1202A Console/19xx - DOC - L1202A - P25 - IV-1.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - L1202A - P25 - IV-1.jpg</a><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/19xx%20-%20DOC%20-%20481-02-002%20-%20CUE%20OSC%20RE-ENTRY%20MODULE%20SCHEMATIC.jpg"><img loading="lazy" src="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/19xx%20-%20DOC%20-%20481-02-002%20-%20CUE%20OSC%20RE-ENTRY%20MODULE%20SCHEMATIC.jpg" alt="" data-f="DOCUMENTS/RECENT SCANS/WBSps.ca 20210320 - Scans/19xx - DOC - 481-02-002 - CUE OSC RE-ENTRY MODULE SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 481-02-002 - CUE OSC RE-ENTRY MODULE SCHEMATIC.jpg</a><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/19xx%20-%20DOC%20-%20487-02-001%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC.jpg"><img loading="lazy" src="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/19xx%20-%20DOC%20-%20487-02-001%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC.jpg" alt="" data-f="DOCUMENTS/RECENT SCANS/WBSps.ca 20210320 - Scans/19xx - DOC - 487-02-001 - DUAL MASTER MODULE SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 487-02-001 - DUAL MASTER MODULE SCHEMATIC.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/19xx%20-%20487-01-001%20-%20DUAL%20MASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20Mahoney%20-%20ENG%20RKB%20-%20ISS%201%20%282%29.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/19xx%20-%20487-01-001%20-%20DUAL%20MASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20Mahoney%20-%20ENG%20RKB%20-%20ISS%201%20%282%29.jpg" alt="" data-f="Modules/SUMMING/M487/19xx - 487-01-001 - DUAL MASTER MODULE FUNCTIONAL DIAGRAM - DRN P. Mahoney - ENG RKB - ISS 1 (2).jpg" data-size="320" onerror="wbsOff(this)">19xx - 487-01-001 - DUAL MASTER MODULE FUNCTIONAL DIAGRAM - DRN P. Mahoney - ENG RKB - ISS 1 (2).jpg</a><a href="../viewer.html?f=Consoles/1980-1989/840300%20-%2004-003/1984%20-%20840300%20-%20840300-04-003%20-%20DERS%20MACHINE%20CONTNOI%20PAMEL.jpg"><img loading="lazy" src="../Consoles/1980-1989/840300%20-%2004-003/1984%20-%20840300%20-%20840300-04-003%20-%20DERS%20MACHINE%20CONTNOI%20PAMEL.jpg" alt="" data-f="Consoles/1980-1989/840300 - 04-003/1984 - 840300 - 840300-04-003 - DERS MACHINE CONTNOI PAMEL.jpg" data-size="320" onerror="wbsOff(this)">1984 - 840300 - 840300-04-003 - DERS MACHINE CONTNOI PAMEL.jpg</a><a href="../viewer.html?f=Consoles/1980-1989/T1202/1982%20-%20T1202%20-%20IMG_6008.jpg"><img loading="lazy" src="../Consoles/1980-1989/T1202/1982%20-%20T1202%20-%20IMG_6008.jpg" alt="" data-f="Consoles/1980-1989/T1202/1982 - T1202 - IMG_6008.jpg" data-size="320" onerror="wbsOff(this)">1982 - T1202 - IMG_6008.jpg</a><a href="../viewer.html?f=Consoles/Models/L1202A/L1202A%20-%20P04%281%29.jpg"><img loading="lazy" src="../Consoles/Models/L1202A/L1202A%20-%20P04%281%29.jpg" alt="" data-f="Consoles/Models/L1202A/L1202A - P04(1).jpg" data-size="320" onerror="wbsOff(this)">L1202A - P04(1).jpg</a><a href="../viewer.html?f=Consoles/Models/L1202A/L1202A%20-%20P04.jpg"><img loading="lazy" src="../Consoles/Models/L1202A/L1202A%20-%20P04.jpg" alt="" data-f="Consoles/Models/L1202A/L1202A - P04.jpg" data-size="320" onerror="wbsOff(this)">L1202A - P04.jpg</a><a href="../viewer.html?f=Consoles/Models/L1202A/L1202A%20-%20P38%20-%20Master%20Channels%20Schematic.jpg"><img loading="lazy" src="../Consoles/Models/L1202A/L1202A%20-%20P38%20-%20Master%20Channels%20Schematic.jpg" alt="" data-f="Consoles/Models/L1202A/L1202A - P38 - Master Channels Schematic.jpg" data-size="320" onerror="wbsOff(this)">L1202A - P38 - Master Channels Schematic.jpg</a><a href="../viewer.html?f=Consoles/Models/L1202A/L1202A%20-%20P44%20-%20Power%20Distribution%20Schematic.jpg"><img loading="lazy" src="../Consoles/Models/L1202A/L1202A%20-%20P44%20-%20Power%20Distribution%20Schematic.jpg" alt="" data-f="Consoles/Models/L1202A/L1202A - P44 - Power Distribution Schematic.jpg" data-size="320" onerror="wbsOff(this)">L1202A - P44 - Power Distribution Schematic.jpg</a><a href="../viewer.html?f=Consoles/Models/L1202A/1982%20-%201202-02-012%20-%20MASTER%20CHANNELS%20SCHEMATIC%20-%20DRN%20JP%20-%20ENG%20MRW%20-%20ISS%201.jpg"><img loading="lazy" src="../Consoles/Models/L1202A/1982%20-%201202-02-012%20-%20MASTER%20CHANNELS%20SCHEMATIC%20-%20DRN%20JP%20-%20ENG%20MRW%20-%20ISS%201.jpg" alt="" data-f="Consoles/Models/L1202A/1982 - 1202-02-012 - MASTER CHANNELS SCHEMATIC - DRN JP - ENG MRW - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1982 - 1202-02-012 - MASTER CHANNELS SCHEMATIC - DRN JP - ENG MRW - ISS 1.jpg</a><a href="../viewer.html?f=Consoles/Models/T1202A/1982%20-%201202-02-017%20-%20POWER%20DISTRIBUTION%20SCHEMATIC%20-%20DRN%20JP%20-%20ENG%20MRW%20-%20ISS%201.jpg"><img loading="lazy" src="../Consoles/Models/T1202A/1982%20-%201202-02-017%20-%20POWER%20DISTRIBUTION%20SCHEMATIC%20-%20DRN%20JP%20-%20ENG%20MRW%20-%20ISS%201.jpg" alt="" data-f="Consoles/Models/T1202A/1982 - 1202-02-017 - POWER DISTRIBUTION SCHEMATIC - DRN JP - ENG MRW - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1982 - 1202-02-017 - POWER DISTRIBUTION SCHEMATIC - DRN JP - ENG MRW - ISS 1.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M481B/1982%20-%20M481B%20-%20481-02-002%20-%20CUE%20OSC%20RE-ENTRY%20MODULE%20SCHEMATIC.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M481B/1982%20-%20M481B%20-%20481-02-002%20-%20CUE%20OSC%20RE-ENTRY%20MODULE%20SCHEMATIC.jpg" alt="" data-f="Modules/AMPLIFIERS/M481B/1982 - M481B - 481-02-002 - CUE OSC RE-ENTRY MODULE SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)">1982 - M481B - 481-02-002 - CUE OSC RE-ENTRY MODULE SCHEMATIC.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M487/19xx%20-%20487-01-001%20-%20DUAL%20MASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20RKB%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/SUMMING/M487/19xx%20-%20487-01-001%20-%20DUAL%20MASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20RKB%20-%20ISS%201.jpg" alt="" data-f="Modules/SUMMING/M487/19xx - 487-01-001 - DUAL MASTER MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG RKB - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">19xx - 487-01-001 - DUAL MASTER MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG RKB - ISS 1.jpg</a></div>
+<h2>Price history</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Price</th>
+<th>Listed as</th>
+<th>Effective</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-2005.html">2005|38</a></td>
+<td>used market value</td>
+<td>25.00</td>
+<td>M487 Dual Master</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/old website/PriceGuide.htm</td>
+</tr>
+<tr>
+<td><a href="Year-2005.html">2005|38</a></td>
+<td>used market value</td>
+<td>100.00</td>
+<td>M487 Pre-amp</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/old website/PriceGuide.htm</td>
+</tr>
+<tr>
+<td><a href="Year-2006.html">2006|39</a></td>
+<td>used market value</td>
+<td>25.00</td>
+<td>M487 Dual Master</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/jan 2006 shell/priceguide.htm</td>
+</tr>
+<tr>
+<td><a href="Year-2006.html">2006|39</a></td>
+<td>used market value</td>
+<td>100.00</td>
+<td>M487 Pre-amp</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/jan 2006 shell/priceguide.htm</td>
+</tr>
+</tbody>
+</table>
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-1982.html">1982|15</a></td>
+<td>manual issue date</td>
+<td><code>MANUAL ISSUE "2 BS W DECEMBER 1982</code></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20Dual%20Master%20Module%20%282%29.pdf">1982 - M487 - Dual Master Module (2).pdf</a></td>
+</tr>
+<tr>
+<td><a href="Year-1982.html">1982|15</a></td>
+<td>manual issue date</td>
+<td><code>MANUAL ISSUE #2 DECEMBER 1982</code></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20Dual%20Master%20Module.pdf">1982 - M487 - Dual Master Module.pdf</a></td>
+</tr>
+<tr>
+<td><a href="Year-1982.html">1982|15</a></td>
+<td>manual issue date</td>
+<td><code>MANUAL ISSUE#2 DECEMBER 1982</code></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P01%20-%20TOC.jpg">1982 - M487 - P01 - TOC.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1982.html">1982|15</a></td>
+<td>manual issue date</td>
+<td><code>MANUAL ISSUE#2 DECEMBER 1982</code></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/M487%20-%20P01%20-%20TOC.jpg">M487 - P01 - TOC.jpg</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Physical manual inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Location</th>
+<th>Status</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M487 Dual Master Module</td>
+<td></td>
+<td></td>
+<td>PDF - Already scanned</td>
+</tr>
+</tbody>
+</table>
+<h2>Documents (2)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20Dual%20Master%20Module%20%282%29.pdf">1982 - M487 - Dual Master Module (2).pdf</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20Dual%20Master%20Module%20%282%29.pdf.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20Dual%20Master%20Module.pdf">1982 - M487 - Dual Master Module.pdf</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20Dual%20Master%20Module.pdf.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (62)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1981|14</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1981%20-%20487-02-001%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC%20-%20DRN%20P.%20Mahoney%20-%20ENG%20MRW%20-%20ISS%203.jpg">1981 - 487-02-001 - DUAL MASTER MODULE SCHEMATIC - DRN P. Mahoney - ENG MRW - ISS 3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1981%20-%20487-02-001%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC%20-%20DRN%20P.%20Mahoney%20-%20ENG%20MRW%20-%20ISS%203.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20487-01-001%20-%20DUAL%20MASTER%20MODULE%20FUNCTIONAL%20DIAGRAM.jpg">1982 - M487 - 487-01-001 - DUAL MASTER MODULE FUNCTIONAL DIAGRAM.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20487-01-001%20-%20DUAL%20MASTER%20MODULE%20FUNCTIONAL%20DIAGRAM.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20487-02-001%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC.jpg">1982 - M487 - 487-02-001 - DUAL MASTER MODULE SCHEMATIC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20487-02-001%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20487-02-001%20-%20OLHG%20DUAL%20MASTER%20MODULE.jpg">1982 - M487 - 487-02-001 - OLHG DUAL MASTER MODULE.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20487-02-001%20-%20OLHG%20DUAL%20MASTER%20MODULE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20487-06-001%20-%20DUAL%20MASTER%20MODULE%20COMPONENT%20LAYOUT%20ENG.jpg">1982 - M487 - 487-06-001 - DUAL MASTER MODULE COMPONENT LAYOUT ENG.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20487-06-001%20-%20DUAL%20MASTER%20MODULE%20COMPONENT%20LAYOUT%20ENG.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20487-06-001.jpg">1982 - M487 - 487-06-001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20487-06-001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%208-109-02-004.jpg">1982 - M487 - 8-109-02-004.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%208-109-02-004.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%208-109-06-004%20-%20BOOSTER%20AMPLIFIER%20COMPONENT%20LAYOUT.jpg">1982 - M487 - 8-109-06-004 - BOOSTER AMPLIFIER COMPONENT LAYOUT.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%208-109-06-004%20-%20BOOSTER%20AMPLIFIER%20COMPONENT%20LAYOUT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%208-109-06-004%20-%20BOOSTER%20AMPLIFIER.jpg">1982 - M487 - 8-109-06-004 - BOOSTER AMPLIFIER.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%208-109-06-004%20-%20BOOSTER%20AMPLIFIER.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20B%20487-01-001%20-%20M487%20-%20DUAL%20MASTER%20MODULE%20-%20FUNCTIONAL%20DIAGRAM.jpg">1982 - M487 - B 487-01-001 - M487 - DUAL MASTER MODULE - FUNCTIONAL DIAGRAM.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20B%20487-01-001%20-%20M487%20-%20DUAL%20MASTER%20MODULE%20-%20FUNCTIONAL%20DIAGRAM.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20BOOSTER%20AMPLIFIER%20SCHEMATIC.jpg">1982 - M487 - BOOSTER AMPLIFIER SCHEMATIC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20BOOSTER%20AMPLIFIER%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20Mixer%20Slot.jpg">1982 - M487 - Mixer Slot.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20Mixer%20Slot.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20Mixer%20Slot_small.jpg">1982 - M487 - Mixer Slot_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20Mixer%20Slot_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P01%20-%20TOC.jpg">1982 - M487 - P01 - TOC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P01%20-%20TOC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P02%20-%201-1.jpg">1982 - M487 - P02 - 1-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P02%20-%201-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P03%20-%201-2.jpg">1982 - M487 - P03 - 1-2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P03%20-%201-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P04%20-%202-1.jpg">1982 - M487 - P04 - 2-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P04%20-%202-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P05%20-%202-2.jpg">1982 - M487 - P05 - 2-2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P05%20-%202-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P06%20-%203-1.jpg">1982 - M487 - P06 - 3-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P06%20-%203-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P07%20-%203-2.jpg">1982 - M487 - P07 - 3-2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P07%20-%203-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P08%20-%203-3.jpg">1982 - M487 - P08 - 3-3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P08%20-%203-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P09%20-%203-4.jpg">1982 - M487 - P09 - 3-4.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P09%20-%203-4.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P10%20-%204-1.jpg">1982 - M487 - P10 - 4-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P10%20-%204-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P11.jpg">1982 - M487 - P11.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P11.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P12%20-%208-109-1-1.jpg">1982 - M487 - P12 - 8-109-1-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P12%20-%208-109-1-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P13%20-%208-109-1-2.jpg">1982 - M487 - P13 - 8-109-1-2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P13%20-%208-109-1-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P14%20-%208-109-2-1.jpg">1982 - M487 - P14 - 8-109-2-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P14%20-%208-109-2-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P15%20-%208-109-2-2.jpg">1982 - M487 - P15 - 8-109-2-2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P15%20-%208-109-2-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P16%20-%208-109-2-3.jpg">1982 - M487 - P16 - 8-109-2-3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P16%20-%208-109-2-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P17%20-%208-109-2-4.jpg">1982 - M487 - P17 - 8-109-2-4.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P17%20-%208-109-2-4.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P18%20-%208-109-2-5.jpg">1982 - M487 - P18 - 8-109-2-5.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P18%20-%208-109-2-5.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20Preamp.jpg">1982 - M487 - Preamp.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20Preamp.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20Preamp_small.jpg">1982 - M487 - Preamp_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20Preamp_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L1202A%20Console/19xx%20-%20DOC%20-%201202-02-012%20-%20OOP%20SHE-DS.jpg">19xx - DOC - 1202-02-012 - OOP SHE-DS.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L1202A%20Console/19xx%20-%20DOC%20-%201202-02-012%20-%20OOP%20SHE-DS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L1202A%20Console/19xx%20-%20DOC%20-%201202-02-017%20-%20POSTS%20CHASSIS%20GROUND.jpg">19xx - DOC - 1202-02-017 - POSTS CHASSIS GROUND.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L1202A%20Console/19xx%20-%20DOC%20-%201202-02-017%20-%20POSTS%20CHASSIS%20GROUND.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L1202A%20Console/19xx%20-%20DOC%20-%201202-04-007%20-%20OSCILLATOR%20CUE-SOLO%20RE-ENTRY%20AND%20AUX%20LEVEL%20SCHEMATIC.jpg">19xx - DOC - 1202-04-007 - OSCILLATOR CUE-SOLO RE-ENTRY AND AUX LEVEL SCHEMATIC.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L1202A%20Console/19xx%20-%20DOC%20-%201202-04-007%20-%20OSCILLATOR%20CUE-SOLO%20RE-ENTRY%20AND%20AUX%20LEVEL%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L1202A%20Console/19xx%20-%20DOC%20-%20L1202A%20-%20P12%20-%201-9.jpg">19xx - DOC - L1202A - P12 - 1-9.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L1202A%20Console/19xx%20-%20DOC%20-%20L1202A%20-%20P12%20-%201-9.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L1202A%20Console/19xx%20-%20DOC%20-%20L1202A%20-%20P25%20-%20IV-1.jpg">19xx - DOC - L1202A - P25 - IV-1.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L1202A%20Console/19xx%20-%20DOC%20-%20L1202A%20-%20P25%20-%20IV-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/19xx%20-%20DOC%20-%20481-02-002%20-%20CUE%20OSC%20RE-ENTRY%20MODULE%20SCHEMATIC.jpg">19xx - DOC - 481-02-002 - CUE OSC RE-ENTRY MODULE SCHEMATIC.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/19xx%20-%20DOC%20-%20481-02-002%20-%20CUE%20OSC%20RE-ENTRY%20MODULE%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/19xx%20-%20DOC%20-%20487-02-001%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC.jpg">19xx - DOC - 487-02-001 - DUAL MASTER MODULE SCHEMATIC.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/19xx%20-%20DOC%20-%20487-02-001%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M481B/19xx%20-%20M481B%20-%20DOC%20-%201202-02-012%20-%20OOP%20SHE-DS.jpg">19xx - M481B - DOC - 1202-02-012 - OOP SHE-DS.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M481B/19xx%20-%20M481B%20-%20DOC%20-%201202-02-012%20-%20OOP%20SHE-DS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M481B/19xx%20-%20M481B%20-%20DOC%20-%201202-02-017%20-%20POSTS%20CHASSIS%20GROUND.jpg">19xx - M481B - DOC - 1202-02-017 - POSTS CHASSIS GROUND.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M481B/19xx%20-%20M481B%20-%20DOC%20-%201202-02-017%20-%20POSTS%20CHASSIS%20GROUND.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M481B/19xx%20-%20M481B%20-%20DOC%20-%20L1202A%20-%20P12%20-%201-9.jpg">19xx - M481B - DOC - L1202A - P12 - 1-9.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M481B/19xx%20-%20M481B%20-%20DOC%20-%20L1202A%20-%20P12%20-%201-9.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M481B/19xx%20-%20M481B%20-%20DOC%20-%20L1202A%20-%20P25%20-%20IV-1.jpg">19xx - M481B - DOC - L1202A - P25 - IV-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M481B/19xx%20-%20M481B%20-%20DOC%20-%20L1202A%20-%20P25%20-%20IV-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M480C/19xx%20-%20M480C%20-%20DOC%20-%201202-02-017%20-%20POSTS%20CHASSIS%20GROUND.jpg">19xx - M480C - DOC - 1202-02-017 - POSTS CHASSIS GROUND.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M480C/19xx%20-%20M480C%20-%20DOC%20-%201202-02-017%20-%20POSTS%20CHASSIS%20GROUND.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M480C/19xx%20-%20M480C%20-%20DOC%20-%201202-04-007%20-%20OSCILLATOR%20CUE-SOLO%20RE-ENTRY%20AND%20AUX%20LEVEL%20SCHEMATIC.jpg">19xx - M480C - DOC - 1202-04-007 - OSCILLATOR CUE-SOLO RE-ENTRY AND AUX LEVEL SCHEMATIC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M480C/19xx%20-%20M480C%20-%20DOC%20-%201202-04-007%20-%20OSCILLATOR%20CUE-SOLO%20RE-ENTRY%20AND%20AUX%20LEVEL%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M482B/19xx%20-%20M482B%20-%20DOC%20-%201202-02-017%20-%20POSTS%20CHASSIS%20GROUND.jpg">19xx - M482B - DOC - 1202-02-017 - POSTS CHASSIS GROUND.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M482B/19xx%20-%20M482B%20-%20DOC%20-%201202-02-017%20-%20POSTS%20CHASSIS%20GROUND.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M207/19xx%20-%20M207%20-%20DOC%20-%201202-04-007%20-%20OSCILLATOR%20CUE-SOLO%20RE-ENTRY%20AND%20AUX%20LEVEL%20SCHEMATIC.jpg">19xx - M207 - DOC - 1202-04-007 - OSCILLATOR CUE-SOLO RE-ENTRY AND AUX LEVEL SCHEMATIC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M207/19xx%20-%20M207%20-%20DOC%20-%201202-04-007%20-%20OSCILLATOR%20CUE-SOLO%20RE-ENTRY%20AND%20AUX%20LEVEL%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M207/19xx%20-%20M207%20-%20DOC%20-%20L1202A%20-%20P12%20-%201-9.jpg">19xx - M207 - DOC - L1202A - P12 - 1-9.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M207/19xx%20-%20M207%20-%20DOC%20-%20L1202A%20-%20P12%20-%201-9.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M207/19xx%20-%20M207%20-%20DOC%20-%20L1202A%20-%20P25%20-%20IV-1.jpg">19xx - M207 - DOC - L1202A - P25 - IV-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M207/19xx%20-%20M207%20-%20DOC%20-%20L1202A%20-%20P25%20-%20IV-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M485B/19xx%20-%20M485B%20-%20DOC%20-%201202-02-017%20-%20POSTS%20CHASSIS%20GROUND.jpg">19xx - M485B - DOC - 1202-02-017 - POSTS CHASSIS GROUND.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M485B/19xx%20-%20M485B%20-%20DOC%20-%201202-02-017%20-%20POSTS%20CHASSIS%20GROUND.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M485B/19xx%20-%20M485B%20-%20DOC%20-%201202-04-007%20-%20OSCILLATOR%20CUE-SOLO%20RE-ENTRY%20AND%20AUX%20LEVEL%20SCHEMATIC.jpg">19xx - M485B - DOC - 1202-04-007 - OSCILLATOR CUE-SOLO RE-ENTRY AND AUX LEVEL SCHEMATIC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M485B/19xx%20-%20M485B%20-%20DOC%20-%201202-04-007%20-%20OSCILLATOR%20CUE-SOLO%20RE-ENTRY%20AND%20AUX%20LEVEL%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M485B/19xx%20-%20M485B%20-%20DOC%20-%20L1202A%20-%20P25%20-%20IV-1.jpg">19xx - M485B - DOC - L1202A - P25 - IV-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M485B/19xx%20-%20M485B%20-%20DOC%20-%20L1202A%20-%20P25%20-%20IV-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/19xx%20-%20487-01-001%20-%20DUAL%20MASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20Mahoney%20-%20ENG%20RKB%20-%20ISS%201%20%282%29.jpg">19xx - 487-01-001 - DUAL MASTER MODULE FUNCTIONAL DIAGRAM - DRN P. Mahoney - ENG RKB - ISS 1 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/19xx%20-%20487-01-001%20-%20DUAL%20MASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20Mahoney%20-%20ENG%20RKB%20-%20ISS%201%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/19xx%20-%20M487%20-%20DOC%20-%201202-02-012%20-%20OOP%20SHE-DS.jpg">19xx - M487 - DOC - 1202-02-012 - OOP SHE-DS.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/19xx%20-%20M487%20-%20DOC%20-%201202-02-012%20-%20OOP%20SHE-DS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/19xx%20-%20M487%20-%20DOC%20-%201202-02-017%20-%20POSTS%20CHASSIS%20GROUND.jpg">19xx - M487 - DOC - 1202-02-017 - POSTS CHASSIS GROUND.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/19xx%20-%20M487%20-%20DOC%20-%201202-02-017%20-%20POSTS%20CHASSIS%20GROUND.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/19xx%20-%20M487%20-%20DOC%20-%201202-04-007%20-%20OSCILLATOR%20CUE-SOLO%20RE-ENTRY%20AND%20AUX%20LEVEL%20SCHEMATIC.jpg">19xx - M487 - DOC - 1202-04-007 - OSCILLATOR CUE-SOLO RE-ENTRY AND AUX LEVEL SCHEMATIC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/19xx%20-%20M487%20-%20DOC%20-%201202-04-007%20-%20OSCILLATOR%20CUE-SOLO%20RE-ENTRY%20AND%20AUX%20LEVEL%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/19xx%20-%20M487%20-%20DOC%20-%20481-02-002%20-%20CUE%20OSC%20RE-ENTRY%20MODULE%20SCHEMATIC.jpg">19xx - M487 - DOC - 481-02-002 - CUE OSC RE-ENTRY MODULE SCHEMATIC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/19xx%20-%20M487%20-%20DOC%20-%20481-02-002%20-%20CUE%20OSC%20RE-ENTRY%20MODULE%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/19xx%20-%20M487%20-%20DOC%20-%20487-02-001%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC.jpg">19xx - M487 - DOC - 487-02-001 - DUAL MASTER MODULE SCHEMATIC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/19xx%20-%20M487%20-%20DOC%20-%20487-02-001%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/19xx%20-%20M487%20-%20DOC%20-%20L1202A%20-%20P12%20-%201-9.jpg">19xx - M487 - DOC - L1202A - P12 - 1-9.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/19xx%20-%20M487%20-%20DOC%20-%20L1202A%20-%20P12%20-%201-9.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/19xx%20-%20M487%20-%20DOC%20-%20L1202A%20-%20P25%20-%20IV-1.jpg">19xx - M487 - DOC - L1202A - P25 - IV-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/19xx%20-%20M487%20-%20DOC%20-%20L1202A%20-%20P25%20-%20IV-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/M487%20-%20P01%20-%20TOC.jpg">M487 - P01 - TOC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/M487%20-%20P01%20-%20TOC.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Sub-assemblies &amp; parts used (5)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What</th>
+<th>Family</th>
+<th>Year</th>
+<th>How we know</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#8-109">8-109</a></td>
+<td>Booster Amplifier Component Layout</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1974|7</td>
+<td>drawing filed with it</td>
+</tr>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#8-103">8-103</a></td>
+<td>LOAD TRANSFER CONTROL / SCHEMATIC</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1979|12</td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#8-403">8-403</a></td>
+<td>SYSTEMI DRNVINKE ENG</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-001">SA14-001</a></td>
+<td>14-001 / CUE LINE SELECTOR / SCHEMATIC</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td>1980|13</td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-002">SA14-002</a></td>
+<td>14-002 / OUTPUT LINE SELECTOR / SCHEMATIC</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td>1980|13</td>
+<td>named in its manual</td>
+</tr>
+</tbody>
+</table>
+<h2>Parts list — board 8-109 (1 parts)</h2>
+<p><em>From <a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P17%20-%208-109-2-4.jpg">1982 - M487 - P17 - 8-109-2-4.jpg</a>, page 1 (scanned); also in <code>timelines/data/bom.csv</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>Part</th>
+<th>Value</th>
+<th>Manufacturer</th>
+<th>Mfr part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R4</td>
+<td>Resistor delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Parts list — board M487 (14 parts)</h2>
+<p><em>From <a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20Dual%20Master%20Module.pdf">1982 - M487 - Dual Master Module.pdf</a>, page 6 (scanned); also in <code>timelines/data/bom.csv</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>Part</th>
+<th>Value</th>
+<th>Manufacturer</th>
+<th>Mfr part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M487</td>
+<td>DUAL MASTER_MODULE</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C1</td>
+<td>Capacitor uF/6 V Kemet</td>
+<td>330</td>
+<td></td>
+<td>1390F 337M006AS</td>
+</tr>
+<tr>
+<td>C5</td>
+<td>pF Philips</td>
+<td>47</td>
+<td></td>
+<td>2222-638-70479</td>
+</tr>
+<tr>
+<td>C15</td>
+<td>Capacitor pF</td>
+<td>47</td>
+<td></td>
+<td>2222-638-70479</td>
+</tr>
+<tr>
+<td>C17</td>
+<td>pF Aselco</td>
+<td>6800</td>
+<td></td>
+<td>cQ92 MC-682m</td>
+</tr>
+<tr>
+<td>C21</td>
+<td>uF/10 V Kemnet</td>
+<td>68</td>
+<td></td>
+<td>T3900686010A5</td>
+</tr>
+<tr>
+<td>C25</td>
+<td>uF/25 V Philips</td>
+<td>22</td>
+<td></td>
+<td>476ETF22</td>
+</tr>
+<tr>
+<td>R19</td>
+<td>Trim Pot Piher PT 10V (2.5)</td>
+<td>2K</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R20</td>
+<td>Resistor I/4w 11K Philips</td>
+<td>596</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R3I</td>
+<td>Resistor 1/4w 15K Philips</td>
+<td>57</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R45</td>
+<td>IKS</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R63</td>
+<td>Resistor i/4w 15K</td>
+<td>596</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R17</td>
+<td>Trim Pot Piher PT 10V (2.5)</td>
+<td>2K</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R31</td>
+<td>Resislor 1/4W 15K Philips</td>
+<td>570</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Consoles &amp; jobs it is connected to (2)</h2>
+<p><em>Their own drawings name this module.</em></p>
+<table>
+<thead>
+<tr>
+<th>Job</th>
+<th>Year</th>
+<th>Drawing</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Job-840300.html">840300</a></td>
+<td>1984|17</td>
+<td><a href="../viewer.html?f=Consoles/1980-1989/840300%20-%2004-003/1984%20-%20840300%20-%20840300-04-003%20-%20DERS%20MACHINE%20CONTNOI%20PAMEL.jpg">1984 - 840300 - 840300-04-003 - DERS MACHINE CONTNOI PAMEL.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td>T1202</td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1980-1989/T1202/1982%20-%20T1202%20-%20IMG_6008.jpg">1982 - T1202 - IMG_6008.jpg</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (11)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../viewer.html?f=Consoles/Models/L1202A/L1202A%20-%20P04%281%29.jpg">L1202A - P04(1).jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Consoles/Models/L1202A/L1202A%20-%20P04.jpg">L1202A - P04.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Consoles/Models/L1202A/L1202A%20-%20P38%20-%20Master%20Channels%20Schematic.jpg">L1202A - P38 - Master Channels Schematic.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Consoles/Models/L1202A/L1202A%20-%20P44%20-%20Power%20Distribution%20Schematic.jpg">L1202A - P44 - Power Distribution Schematic.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Products/RTO/RTO-144/19xx%20-%20RTO-144%20-%20Module%20RTO-144%20Jumper%20calculator.xlsx">19xx - RTO-144 - Module RTO-144 Jumper calculator.xlsx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Consoles/Models/L1202A/1982%20-%201202-02-012%20-%20MASTER%20CHANNELS%20SCHEMATIC%20-%20DRN%20JP%20-%20ENG%20MRW%20-%20ISS%201.jpg">1982 - 1202-02-012 - MASTER CHANNELS SCHEMATIC - DRN JP - ENG MRW - ISS 1.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Consoles/Models/T1202A/1982%20-%201202-02-017%20-%20POWER%20DISTRIBUTION%20SCHEMATIC%20-%20DRN%20JP%20-%20ENG%20MRW%20-%20ISS%201.jpg">1982 - 1202-02-017 - POWER DISTRIBUTION SCHEMATIC - DRN JP - ENG MRW - ISS 1.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M481B/1982%20-%20M481B%20-%20481-02-002%20-%20CUE%20OSC%20RE-ENTRY%20MODULE%20SCHEMATIC.jpg">1982 - M481B - 481-02-002 - CUE OSC RE-ENTRY MODULE SCHEMATIC.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M481B/1982%20-%20M481B%20-%20Cue%20OSC%20Re-entry%20Module%20%282%29.pdf">1982 - M481B - Cue OSC Re-entry Module (2).pdf</a></td>
+<td>5</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M481B/1982%20-%20M481B%20-%20Cue%20OSC%20Re-entry%20Module%20%282%29.pdf">1982 - M481B - Cue OSC Re-entry Module (2).pdf</a></td>
+<td>15</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M481B/1982%20-%20M481B%20-%20Cue%20OSC%20Re-entry%20Module.pdf">1982 - M481B - Cue OSC Re-entry Module.pdf</a></td>
+<td>15</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>General description (3)</h3>
+<details><summary>Description — 1056 words · 1982 - M487 - Dual Master Module.pdf, page 4</summary><p>M487 DUAL MASTER MODULE The M487 Dual Master Module accommodates IWo seperale signal channels Tt is designed t0 receive the mixer feeds irom the summing buses of an audio mi xing console The [wo sections of the unlt process and amplify their signals to standard Iine levels . The outputs of the M487 supply the main outputs of the mixing console. Both channels operate in similar mnanner. The follow ing description refers specifically Lo SECTION Loput The signal originating from the external summing bus enters the module at Pins and of the connector and i5 applied t0 the sumi ing nodes af U1 and U2 . An external 600 ohm input is also provided and appears at pins and of the module connector. The nominal level of this external input 15 +8 dBm while the summing input operates 4[ -15 dBrn from 30k ohm current source U1 through u3 with their associaled components prov ide actively balanced inputs 45 wel as balanced output. The outpul of the preamplifier operates at nom inal Ievel of -10 dBm and appears at pins 10 and of the module connector Attenuator Insert The balanced INSERT point, provided between pins 10 &amp; L and 11 &amp; M of the connector permits the insertion of an external altenuator and the reference oscillator slating selector . QutPut The 8-109C output amplifier operates with gain of 39 dB Tt recovers the signal loss of the attenuator and provides additional gain to produce nominal output level of +8 dBm at the module outputs. The output from the 8-109C is divides Tnto three por(5 . The first (PGM 1) is an acitively balanced 600 ohm oulput prov &#x27;iding the direct master output. The second (PGM 2 ) is low impedance output rouled to the T12024 output line selector, while the third provides an Isolated monitoring and metering output. 2-1</p><p>WAAD-BECK Bystems LTD; CIRcuiT DESCRIPT ION M487 DUAL MASTER MQDULE Power SuPply DecoUpl ing An active power supply decoup | ing network consisting of 01 through 06 provides isolation betwcen the module and the +/ - 25 volts power supply Transistors 03 and 06 mnonitor the supply current. In the eveni of excessive power supply demands, such 45 from cornponent failure or amplifier overdrive, the current flow ing through 01 and 04 will be Vimited_ CRI and CR2 guard against inadvertent application of reverse power supply voltages 2-2</p><p>WAAD-BECk systems LTD_ PARTS LiST M487 DUAL MASTER MODULE PART</p><p>8-109 AMPL IFIER SERIES The 8-109 series of amplifiers are utilized as an internal component within various WBS series of audio console modules. Each 8-109 amplifier miounts 45 plug-in assembly onto the mnodule motherboard- The 8-109 amplifier provides an actively balanced output with +30 dBm capability It is employed as an output or booster amplifier with either balanced or 4n unbalanced inpul _ Thc following specifications apply to the 8-109 series of amplifiers. Unit Input Gain 8-109 8-109A 8-109B 8-109C 8-1090 8-109L 8-109F 8-109G Balanced Unbalanced Balanced Balanced Unbalanced Balanced Balanced Balanced 15 dB db 18 dB 39 dB 29 dB 29 dB 33 dB 23 dB Frequency Responsc: +/ - 0.2 dB from 20 Hz [0 20 kHz . Noise: 108 dBm EIN Trom 20 Hz t0 20 kHz . Harmionic Distortion Less than 0 .1% THD from 20 Hz t0 20 Klz at +30 dBm output (typically Icss than 0.0270 at mid-band) Source Impedance: 600 onms or less, balanced 0r unbalanced. Input mpedances: Models with balanced input: Sk ohms minimum. 8-109A : 30k onms. 8-109D : 4700 ohms. Input Levels: Depending an gain Or particular modcl and system operating Ievels . (Refer 0 gain specifications above:) Output mpedance: Less than 100 ohms Load Impedance: 600 ohms, balanced. 8-109-1-1</p><p>WAAD-BECK systems LTD</p><p>8-109 AMPLIFIER SERIES Output Level : +30 dBm maximum Power Requirements; +/ = 21 .5 volts dc , 18 mA quiescent current. 65 MA at +30 dBm outpul. Ambient Temperature: t0 60 degrees Celsius. Dirensions: 3 .25&quot; 3.38&quot; 0.57&quot; (83 mm 86 mm 15 mm / The 8-109 compriscs tWo arriplifier sections, one consisting ot 21 wiln 01 through 04, and the other of 22 with 05 through Q8 The linear integrated circuit 21 operates 45 preamplirier and buffer stage t0 drive the transistor outpul amplifier section. In the majority of the 8-109 models, the inputs of the two amplifier sections are intercorinected as cross coupled differential pair to provide balanced input. Alternately , in the casc of the 8-|09A and D, single-ended, unbalanced input is used The balanced input yields several input characteristics similar t0 those of an input transformer. Output Ievel remains constant when the input is fed from either balanced Or an unbalanced source Good comnON mode rejection is another feature of this type oT input configuration For amplifiers operating in the balanced mode, the value of R15 establishes the feed back ratio of the [Wo amplifier sections and thus controls the amplifier gain. When utilized in the unbalanced arrangement, the lower amplifier section (22 with 05 through 08) is used a5 the input section, with the input signal applied to pin E2 . Amplifier gain is determined by the values of R6 , RII and R12 . One half of the balanced outpul signal appears at pin E6 . The upper half of the amplifier (21 with 01 through 04) opcrates 45 unity gain inverting amplifier with E1 externally strapped to E6 . The output OT all models 0i the 8-109 scries is actively balanced and T5 brought out at pins Eb and E6 8-109-1-2</p><p>WAAD-BECK systems LTD PARTS List 8-109 AMPLIFIER SERIES 8-109 PART DESCRIPT ION MFG MFG PART NUMBER C1 C2 C3 C4 C5 Capacitor 33 uF/10 V Kemet T3900336M01045 10 uF/25 V T390C1OGMOZSAS 4 . 7 pF Philips 2222-638-09478 C6 C7 CB c9 C10 15 pF 10 pF 68 pF 10 uF/25 4.7 pF 2222-638-10159 2222-638-10109 2222-638-70689 T39OC IO6MOZ5AS 2222-638-09478 Keret Philips C1I C12 C13 C14 C15 15 pF 10 PF 68 pF 10 uF/25 220 uF/10 2222-638-10159 2222-638-10109 2222-638-70689 T390C 1O6MO25AS 1390F 227M01045 Kemet C16 C17 delete CRI CR2 CR3 CR4 Diode Fairchild INA148 01 02 43 04 05 Transistor National PN3569 PN3645 2N2102 2NL037 PN3569 06 07 08 PN3645 2N2102 2N403</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20Dual%20Master%20Module.pdf">1982 - M487 - Dual Master Module.pdf</a>, p. 4</li>
+</ul>
+<details><summary>Description — 260 words · 1982 - M487 - P04 - 2-1.jpg, page 1</summary><p>M4B7_DUAL MASTER MODULE The M487 Dual Master Module ccommodates [Wo seperale signal channels designed receive the mixer feeds irom the summing buses an audio mixing console The [wo sections the unit process and amplify their signals standard ine levels The outputs the M487 supply the main outputs the mixing console Both channels operate in similar Manner The   following description refers specifically Lo SECTION Jnput The signal originating from the external summing bus enters the modu Pins and the connector and applied tne summing nodes and U2 .</p><p>An externa 600 ohm inpul also provided and appears pins and the module connector. The nominal level this external input dBm while the summing input operates 4[ -15 dBm Trom 30k ohm current source. through u3 with their associaled components prov ide actively balanced inputs 45 weli 4; balanced output. The outpul the preamplifier operates nominal Ievel -10 dBrn and appears pins and the module conneclor - Allenualor Insert The balanced INSERT point, provided between pins 10 and 11 &amp; M the connector permits the insertion an external altenuator and the reference OSc Vator slating selector_ QUtPYt The 8-109C output amplifier operates with gain dB.</p><p>recovers the signal loss the ttenuator and provides additional gain produce nominal output level +8 dBm the module outputs The output from the 8-109C divides Tnto three por(5 The first (PGM 1 ) an acitively balanced 600 ohm oulpul providing the direct master output. The second (PGM low impedance output rouled the 112024 output Tine lector, while the third prov des isolated mon toring and metering output.</p><p>2-1</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P04%20-%202-1.jpg">1982 - M487 - P04 - 2-1.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Description — 249 words · 1982 - M487 - P13 - 8-109-1-2.jpg, page 1</summary><p>109 AMPLIFIER SERIES Output Level: +30 dBm maximum_ Power Requirements: 21 .5 volts dC, mA quiescent current MA +30 dBm outpul Ambient Temiperature: degrees Celsius Dimensions; 3.25&quot; 3 . 38&quot; 0.57&quot;1 (83 Mm mm mm / _ The 8-109 compriscs two amplifier sections one consisting through 04, and the other 22 with 05 through Q8 wilh The linear integrated circuit operates a5 preamplrier and buffer stage dri ve the transi tor outpul Amplifier section.</p><p>the majority the B-109 models, the inputs the two amplifier sections are intercorinected as cross coupled differential pair provide balanced input. Alternately tne casc the 8-1094 and single-ended, unbalanced input used The balanced input yields severa input characteristics similar those an input transformer Output level remains constant when the input fed from either balanced an unbalanced source Good commnon mode rejection another feature this type input configuration For amplifiers operating thc balanced mode the value R15 establishes the feed back ratio the [Wo amplifier sections and thus controls the amplifier gain.</p><p>When utilized the unba anced arrangement tne lower amplifier section (22 with through 08) used the input section, with the input signal applied pin E2 Amplifier gain determined by the values R6 RII and R12 One half the balanced outpul Signal appears pin E6 . The upper half tne amplifier (z1 with through 04) operates 45 unity gain inverting amplifier with externally strapped E6 .</p><p>The output all models the 8-109 series is actively balanced and brought out pins E4 and E6 . 8-109-1-2</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P13%20-%208-109-1-2.jpg">1982 - M487 - P13 - 8-109-1-2.jpg</a>, p. 1</li>
+</ul>
+<h3>Specifications (2)</h3>
+<details><summary>Technical Data — 247 words · 1982 - M487 - Dual Master Module.pdf, page 2</summary><p>M487 DUAL MASTER MODULE Gain: 38 dB t/ - 0.5 dB (bridging gain) _ Frequency Response: 0/- 0.5 dB from 20 Hz t0 20 kHz . (tailored frequency response) Noise: 72 dB below +8 dBm output level (20 Hz to 20 kHz ) Harmonic Distortion: Less than 0.257 THD from 30 Hz to 20 kHz at +24 dBm output or less . Less than 0 .1% at kHz at +24 dBm outpul Source mpedances: Summing: External 30 ,000 ohms, balanced _ 600 ohms max imur, balanced. Input mnpedances: Summ ing External : Less than ohms. 600   ohms, balanced . Input Level : External 48 dBm nominal, +24 dBmn Maximum. Output Impedances: Out #1: Out #2: vu/Monitor Out: 600 ohms, balanced. 600 ohms, balanced 600 ohms, balanced . Load Impedances: Out #1: Out #2: VU/Monitor Out: 600 ohms, balanced 600 ohms, balanced Bridging, balanced (5000 ohms minimum) Output Level Out #1: Out #2: VU/Monitor Out: +8 dBm nominal +24 dBrn maximum. +8 dBm nominal, +24 dBm maximum. +8 dBrr nominal , +24 dBm maximum. 1-1</p><p>WARD-BECK BYBTemS LTD_</p><p>M487 DUAL MASTER MODULE Crosstalk Between Sections: 70 dB (30 Hz [0 15 kHz ) . Phasing: Input and Output terminals designated by numbers are in phase Power Requirements: +- 25 volts dc, 50 MA norninal 200 ITIA Maximum. Ambient Temperature: t0 60 degrecs Celsius. Dimensions: 1.6&quot; wide 10.0&quot; high 5.6&quot;  deep . (41 mm 254 mm 142 tritr ) Weighi: . Lbs (500 gms) 1-2</p><p>WAAD-BECK SySTeMS LTD CIRcULT</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20Dual%20Master%20Module.pdf">1982 - M487 - Dual Master Module.pdf</a>, p. 2</li>
+</ul>
+<details><summary>Technical Data — 155 words · 1982 - M487 - P02 - 1-1.jpg, page 1</summary><p>M4B7 DUAL MASTER MQDULE Gain: dB +/- 0.5 dB (bridging gain) _ Frequency Response: 0/ - 0.5 dB from 20 Hz 20 kHz . (tailored frequency response) Noise: dB below dBm outpui Ievel (20 Hz kHz) . Harmonic Distortion: Less than 257 THD from 20 kHz +24 dBm output Less than 0 .1% kHz outpul Hz less +24 dBm Source Impedances: Summing External 30 ,0oo ohms, balanced 600 ohms ma iMUri, balanced.</p><p>Input Imripedances: Summing: Externa Less than ohms 600  ohms, balanced Inpul Level External dBm nominal, +24 dBrn Maximum_ Output Impedances: Out #1: Out 72: vu/Mon tor Out: 600 ohms, balanced. 600 ohms balanced 600 ohms balanced Load Impedances Out #I: Out #2 VU/ Monitor Out 600 ohms, balanced. 600 ohms balanced. ba anced 5000 ohms Birdqing} . Output Level: Out #1 : Out #2 VU/ Monitor Out: dBm nominal dBm nomina +8 dBrri nominal +24 dBrn maximum +24 dBm maximum +24 dBm maximum</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P02%20-%201-1.jpg">1982 - M487 - P02 - 1-1.jpg</a>, p. 1</li>
+</ul>
+<h3>Parts list (text) (4)</h3>
+<details><summary>Parts List — 599 words · 1982 - M487 - Dual Master Module (2).pdf, page 6</summary><p>104487 DUAL MASTER MODULE</p><p>PART    DESCRIPT ION                              &quot; FO                &quot;FO PART NUMBER   co      Ca p a c ITor     330 uF!6 V             ,-,                  T39OFJJ7MOO6AS   C&#x27;         &quot;                  &quot;                    &quot;                        &quot;   C3   e-              &quot;              .&quot;                                 &quot;                                 &quot;                    .                                                      &quot;                        .                                                                               &quot;   C&#x27;                             &quot; ,F                    Phi lips            2222~638_10479</p><p>...   CO         &quot;                  &quot;                    ..&quot;   C&#x27;   C&#x27;         .              &quot;                             ..,                                 ,F                             &quot; &quot;, F                    &quot;                       .   C,   CO.        .&quot;                 &quot;                                                       &quot;                                                       &quot;                                                                         2222 ~638-09478</p><p>&quot;   ct t       ...            ea ,F                                 ..                    &quot;                       .                                                                         2222 -638- 70629   era                                                 &quot;   CU I   C14 )   e etere   crs     Capa cllor              ..             &quot; ,F.                     &quot;                 2222-638-10479</p><p>.   cre                                                 &quot;   en   COO        ...&quot;           6800 pF                                 &quot;                                                     esetee                                                       &quot;                       .                                                                         C092 -MC -682M</p><p>c rs              .              ••• ., F                  &quot;                 2222-638-09688   C&#x27;.   C&quot;   en         .••            .. ..                                 uF ! IO V          ,-,                                                       &quot;</p><p>&quot;                                                                               ••</p><p>..                                                                         T39OO686010...5</p><p>C23   C,.        .&quot;                 ..                    &quot;                                                       &quot;                       &quot;   C25        &quot;              22 uF/25    V           P h il i p&quot;         476E TF22</p><p>C&quot;              ...&quot;               ...                   &quot;                       &quot;   C22   no              ..                ...                    &quot;                                                       &quot;                                                                               &quot;                                                                               &quot;   C29   C30                          .                      &quot;                                                       &quot;                                                                               &quot;                                                                               &quot;   C&quot;      Diod e                                    Molo.... la         I N400J   C&#x27;2        &quot;                                        &quot;                   &quot;                                                                                            a                                                                                            .c</p><p>&quot;                                        &quot;   &#x27;&quot;                                                                      &quot;                                                                                       ps</p><p>C&quot;,        &quot;                                        &quot;                   &quot;                                                                                     BS</p><p>ct      Tr .. nllis tor                           Tex .    I n &quot; t.   TIP 29B                                                                                     W</p><p>02         &quot;                                      Ni1l l o nal        PNJ!&gt;69                                                                               ://                                                                            tp                                                                          ht</p><p>3_ ,</p><p>WARO ·BECK S YSTEM S LTO .</p><p>PARTS L IST</p><p>M487 DUAL   MAST ER MODUL E</p><p>PA RT   DESCR I PT IO N                                                     &quot;&#x27;G               &quot;&#x27;G   PART NUMBER</p><p>0&#x27;      T rll n &quot; i&quot; lor                         Na li a n a i     PN3569    0&#x27;         &quot;                                     Te x . I &quot; ~t.    TIP30B    0&#x27;         &quot;                                     NlI tl a n ll l   PN3645    0&#x27;         &quot;                                         &quot;               &quot;</p><p>&quot;ea     Re ~i ~to ..</p><p>&quot;                           1/4W       220K           Phi lip s               &quot;                      220K               &quot;               &quot;                                         &quot;    &quot;&quot;         &quot;                                      220K                                      220K               &quot;               &quot;                                         &quot;    &quot;                                 &#x27;&quot;    .,&quot;ae      &quot;               &quot;                    ,&#x27;&quot;&quot;                 &quot;                                                         &quot;    .,.W       &quot;               &quot;                    &#x27;&quot;                                    &#x27;&quot;                                                         &quot;                                                         &quot;</p><p>.&quot;               &quot;               &quot;                                    &#x27;&quot;                   &quot;                                                         &quot;    .&quot;                              &#x27;&quot;    &quot;&quot;    .&quot;               &quot;               &quot;               &quot;                                    &#x27;&quot;                                    &quot;0                                       </p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20Dual%20Master%20Module%20%282%29.pdf">1982 - M487 - Dual Master Module (2).pdf</a>, p. 6</li>
+</ul>
+<details><summary>Parts List — 98 words · 1982 - M487 - P14 - 8-109-2-1.jpg, page 1</summary><p>8-109 AMPLIFIER_SERIES 8-109 PART DESCRIPT ION MFG MFG PARI NUMBER Capacitor 33  UF/10 Kemet T390D336M01045 C2 c3 C4 C5 10 uF/25 390C106MO25AS 4.7 pF Philips 2222 638-09478 pF 10 pF 68 pF 10 uF/25 4.7 pF 2222 638-10159 2222 638-10109 2222 638 70689 1390C 1O6MO25AS 2222-638-09478 Kemet Philips C10 C1I C12 C13 C14 C15 15 10 22222 638-10159 2222-638-10109 2222-638-70689 T390C106MO25AS T390F227M01045 uF/25 220 UF/10 Kemet C16 C17 delete CRI CR2 CR3 CRL Diode Fairchild IN4148 Transistor Nationa PN3569 PN3645 2N2102 2N4037 PN3569 05 PN3645 2N2102 2N4037 Resistor 1/4w 5% 47K Gkr 6k2 6K2 Philips 3 R5 8-109-2-1</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P14%20-%208-109-2-1.jpg">1982 - M487 - P14 - 8-109-2-1.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Parts List — 62 words · 1982 - M487 - P17 - 8-109-2-4.jpg, page 1</summary><p>8-109 AMPLIFIER SERIES 09D Al parts as per 8-109 except J5 noted below PART DESCRIPT ION MFG MFG PARI NUMBER C6 C1 C17 Capacitor 4.7 Philips 2222-638 09478 0.015 uF Aselcu c492-MC-100-153m R3} R4 R5 R6 Resistor delete Resi tor 1/4w 5% 4K7 18K 470 Philips Ra R9 R38 75K 1M 8-109E AI Parts 45 per 8-109 except J5 noted below PART</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20P17%20-%208-109-2-4.jpg">1982 - M487 - P17 - 8-109-2-4.jpg</a>, p. 1</li>
+<li>also in: <a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20Dual%20Master%20Module.pdf">1982 - M487 - Dual Master Module.pdf</a>, p. 16</li>
+</ul>
+<h2>Drawings (23)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="People.html#drawing-staff">Drawn by</a></th>
+<th><a href="People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>B 487-02-001</td>
+<td>M487 / DUAL MASTER MODULE / SCHEMATIC</td>
+<td><a href="Year-1981.html">1981|14</a></td>
+<td><a href="Person-P-MAHONEY.html">P MAHONEY</a></td>
+<td><a href="Person-RRL.html">RRL</a></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1981%20-%20487-02-001%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC%20-%20DRN%20P.%20Mahoney%20-%20ENG%20MRW%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Booster Amplifier</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20Dual%20Master%20Module%20%282%29.pdf">file</a> p.23</td>
+</tr>
+<tr>
+<td>—</td>
+<td>Booster Amplifier Schematic</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>U</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20BOOSTER%20AMPLIFIER%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/M487%20-%20P01%20-%20TOC.jpg">file</a></td>
+</tr>
+<tr>
+<td>1202-02-012</td>
+<td>Oop She-Ds</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/19xx%20-%20M487%20-%20DOC%20-%201202-02-012%20-%20OOP%20SHE-DS.jpg">file</a></td>
+</tr>
+<tr>
+<td>1202-02-017</td>
+<td>Posts Chassis Ground</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/19xx%20-%20M487%20-%20DOC%20-%201202-02-017%20-%20POSTS%20CHASSIS%20GROUND.jpg">file</a></td>
+</tr>
+<tr>
+<td>1202-04-007</td>
+<td>Oscillator Cue/Solo Re-Entry And Aux Level Schematic</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/19xx%20-%20M487%20-%20DOC%20-%201202-04-007%20-%20OSCILLATOR%20CUE-SOLO%20RE-ENTRY%20AND%20AUX%20LEVEL%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>481-02-002</td>
+<td>Cue Osc Re-Entry Module Schematic</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/19xx%20-%20M487%20-%20DOC%20-%20481-02-002%20-%20CUE%20OSC%20RE-ENTRY%20MODULE%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>487-01-001</td>
+<td>Ohms Summing Input Pre Fader</td>
+<td></td>
+<td></td>
+<td>BIU</td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20Dual%20Master%20Module.pdf">file</a> p.19</td>
+</tr>
+<tr>
+<td>487-01-001</td>
+<td>Dual Master Module Functional Diagram</td>
+<td></td>
+<td></td>
+<td>II</td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20487-01-001%20-%20DUAL%20MASTER%20MODULE%20FUNCTIONAL%20DIAGRAM.jpg">file</a></td>
+</tr>
+<tr>
+<td>487-02-001</td>
+<td>Olhg Dual Master Module</td>
+<td></td>
+<td></td>
+<td><a href="Person-RAL.html">RAL</a></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20487-02-001%20-%20OLHG%20DUAL%20MASTER%20MODULE.jpg">file</a></td>
+</tr>
+<tr>
+<td>487-02-001</td>
+<td>Dual Master Module Schematic</td>
+<td></td>
+<td></td>
+<td><a href="Person-PAL.html">PAL</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20Dual%20Master%20Module.pdf">file</a> p.20</td>
+</tr>
+<tr>
+<td>487-02-001</td>
+<td>Dual Master Module Schematic</td>
+<td></td>
+<td></td>
+<td><a href="Person-PAL.html">PAL</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20487-02-001%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>487-02-001</td>
+<td>Dual Master Module Schematic</td>
+<td></td>
+<td></td>
+<td><a href="Person-PAL.html">PAL</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/19xx%20-%20M487%20-%20DOC%20-%20487-02-001%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>487-06-001</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20487-06-001.jpg">file</a></td>
+</tr>
+<tr>
+<td>487-06-001</td>
+<td>Dual Master Module Component Layout</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20Dual%20Master%20Module.pdf">file</a> p.21</td>
+</tr>
+<tr>
+<td>487-06-001</td>
+<td>Dual Master Module Component Layout Eng</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20487-06-001%20-%20DUAL%20MASTER%20MODULE%20COMPONENT%20LAYOUT%20ENG.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-004</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%208-109-02-004.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-06-004</td>
+<td>Booster Amplifier</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td>EXH</td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%208-109-06-004%20-%20BOOSTER%20AMPLIFIER.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-06-004</td>
+<td>Booster Amplifier Component Layout</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20Dual%20Master%20Module.pdf">file</a> p.23</td>
+</tr>
+<tr>
+<td>8-109-06-004</td>
+<td>Booster Amplifier Component Layout</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RUH.html">RUH</a></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%208-109-06-004%20-%20BOOSTER%20AMPLIFIER%20COMPONENT%20LAYOUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 487-01-001</td>
+<td>M487 / DUAL MASTER MODULE / FUNCTIONAL DIAGRAM</td>
+<td></td>
+<td><a href="Person-P-MAHONEY.html">P MAHONEY</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/19xx%20-%20487-01-001%20-%20DUAL%20MASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20RKB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 487-01-001</td>
+<td>DUAL MASTER MODULE / FUNCTIONAL DIAGRAM</td>
+<td></td>
+<td><a href="Person-P-MAHONEY.html">P MAHONEY</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/19xx%20-%20487-01-001%20-%20DUAL%20MASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20Mahoney%20-%20ENG%20RKB%20-%20ISS%201%20%282%29.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M487&quot;,
+ &quot;name&quot;: &quot;Dual Master Module&quot;,
+ &quot;category&quot;: &quot;SUMMING&quot;,
+ &quot;year&quot;: 1982,
+ &quot;connections&quot;: {
+  &quot;from&quot;: &quot;its own documents&quot;,
+  &quot;inputs&quot;: [
+   &quot;Section Inputs&quot;,
+   &quot;Fader Insert In Sect&quot;
+  ],
+  &quot;outputs&quot;: [
+   &quot;Out Pu Ts&quot;,
+   &quot;Fader Insert Out Sect 2&quot;,
+   &quot;Faoer Insert Out Sect&quot;
+  ],
+  &quot;power&quot;: [
+   &quot;-5V&quot;
+  ],
+  &quot;control&quot;: []
+ },
+ &quot;made_of&quot;: [
+  &quot;8-103&quot;,
+  &quot;8-109&quot;,
+  &quot;8-403&quot;,
+  &quot;SA14-001&quot;,
+  &quot;SA14-002&quot;
+ ],
+ &quot;part_of&quot;: [
+  &quot;840300&quot;,
+  &quot;T1202&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1981 - 487-02-001 - DUAL MASTER MODULE SCHEMATIC - DRN P. Mahoney - ENG MRW - ISS 3.jpg&quot;,
+   &quot;year&quot;: 1981,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - 487-01-001 - DUAL MASTER MODULE FUNCTIONAL DIAGRAM.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - 487-02-001 - DUAL MASTER MODULE SCHEMATIC.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;modules&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - 487-02-001 - OLHG DUAL MASTER MODULE.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - 487-06-001 - DUAL MASTER MODULE COMPONENT LAYOUT ENG.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - 487-06-001.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - 8-109-02-004.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - 8-109-06-004 - BOOSTER AMPLIFIER COMPONENT LAYOUT.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - 8-109-06-004 - BOOSTER AMPLIFIER.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - B 487-01-001 - M487 - DUAL MASTER MODULE - FUNCTIONAL DIAGRAM.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - BOOSTER AMPLIFIER SCHEMATIC.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - Dual Master Module (2).pdf&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 23,
+   &quot;holds&quot;: [
+    &quot;connections&quot;,
+    &quot;dates&quot;,
+    &quot;modules&quot;,
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - Dual Master Module.pdf&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 23,
+   &quot;holds&quot;: [
+    &quot;connections&quot;,
+    &quot;dates&quot;,
+    &quot;parts&quot;,
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - Mixer Slot.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - Mixer Slot_small.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - P01 - TOC.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - P02 - 1-1.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - P03 - 1-2.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - P04 - 2-1.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - P05 - 2-2.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - P06 - 3-1.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - P07 - 3-2.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - P08 - 3-3.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - P09 - 3-4.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - P10 - 4-1.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - P11.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - P12 - 8-109-1-1.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - P13 - 8-109-1-2.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - P14 - 8-109-2-1.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - P15 - 8-109-2-2.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - P16 - 8-109-2-3.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - P17 - 8-109-2-4.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - P18 - 8-109-2-5.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - Preamp.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/1982 - M487 - Preamp_small.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/19xx - 487-01-001 - DUAL MASTER MODULE FUNCTIONAL DIAGRAM - DRN P. Mahoney - ENG RKB - ISS 1 (2).jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/19xx - M487 - DOC - 1202-02-012 - OOP SHE-DS.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/19xx - M487 - DOC - 1202-02-017 - POSTS CHASSIS GROUND.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/19xx - M487 - DOC - 1202-04-007 - OSCILLATOR CUE-SOLO RE-ENTRY AND AUX LEVEL SCHEMATIC.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;modules&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/19xx - M487 - DOC - 481-02-002 - CUE OSC RE-ENTRY MODULE SCHEMATIC.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/19xx - M487 - DOC - 487-02-001 - DUAL MASTER MODULE SCHEMATIC.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/19xx - M487 - DOC - L1202A - P12 - 1-9.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/19xx - M487 - DOC - L1202A - P25 - IV-1.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M487/M487 - P01 - TOC.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;title_block&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../_catalog/libcontrol/libcontrol.css"><script src="../_catalog/libcontrol/react.js"></script><script src="../_catalog/libcontrol/react-dom.js"></script><script src="../_catalog/libcontrol/libcontrol.js"></script><script src="../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M487.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

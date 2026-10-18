@@ -1,0 +1,1238 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M497A — Dual Master Module</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>M497A — Dual Master Module</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="Category-SUMMING.html">SUMMING</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../simulator.html?m=M497A">simulator &amp; front panel</a> · <a href="../_packages/M497A.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="Year-1978.html">1978|11</a> — title-block date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"REVISION 7/78" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M497A - Dual Master Module.pdf</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+</tr>
+<tr>
+<td>Variants</td>
+<td><a href="M497.html">M497</a>, <a href="M497B.html">M497B</a>, <a href="M497C.html">M497C</a>, <a href="M497D.html">M497D</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/">DOCUMENTS/RECENT SCANS/WBSps.ca 20210320 - Scans</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/WBSPS%20-%20To%20Be%20edited/R1400-R2400%20-%20sales/">DOCUMENTS/WBSPS - To Be edited/R1400-R2400 - sales</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../Modules/COMMUNICATION/M494/index.html">Modules/COMMUNICATION/M494</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections and circuit (ideal SPICE model)</h2>
+<p><em>Drawn live from its RTO-144 connections: run the generator, turn the gain, watch the VU. Open the netlist to see how the model is built.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M497A" data-n="Dual Master Module" data-cat="SUMMING"></div><svg class="wbs-panel" data-m="M497A" data-n="Dual Master Module" data-cat="SUMMING" role="img" aria-label="M497A front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M497A","title":"Dual Master Module","rto":{"code":"M497A","series":null,"type":"M497A - Dual Master Module","row_count":null,"impedance":{},"note":null,"audio":[{"port":"A1","signal":"Left Sum IN","dir":"in","pos":"P2-1","neg":"P2-A","pad_pos":"1.A.1.P","pad_neg":"A.A.1.N"},{"port":"A2","signal":"Right SUM in","dir":"in","pos":"P2-2","neg":"P2-B","pad_pos":"2.A.2.P","pad_neg":"B.A.2.N"},{"port":"A3","signal":"OUT LEFT","dir":"out","pos":"P2-12","neg":"P2-N","pad_pos":"12.A.3.P","pad_neg":"N.A.3.N"},{"port":"A4","signal":"OUT RIGHT","dir":"out","pos":"P2-15","neg":"P2-S","pad_pos":"15.A.4.P","pad_neg":"S.A.4.N"},{"port":"B1","signal":"Left Line IN","dir":"in","pos":"P2-4","neg":"P2-D","pad_pos":"4.B.1.P","pad_neg":"D.B.1.N"},{"port":"B2","signal":"Right Line in","dir":"in","pos":"P2-5","neg":"P2-E","pad_pos":"5.B.2.P","pad_neg":"E.B.2.N"},{"port":"B3","signal":"VU OUT LEFT","dir":"out","pos":"P2-14","neg":"P2-R","pad_pos":"14.B.3.P","pad_neg":"R.B.3.N"},{"port":"B4","signal":"VU OUT RIGHT","dir":"out","pos":"P2-17","neg":"P2-U","pad_pos":"17.B.4.P","pad_neg":"U.B.4.N"}],"bus_out":[],"bus_in":[],"power":[{"rail":"VEE-AUDIO","style":"NEW","volts":-25,"max_a":0.2,"supply":"P2-19","ground":"P2-20","link":2},{"rail":"VCC-AUDIO","style":"NEW","volts":25,"max_a":0.2,"supply":"P2-21","ground":"P2-20","link":1}],"jumpers":[{"function":"Insert LEFT +","designation":"JMP.8.6","from":"P2-8","to":"P2-6"},{"function":"Insert LEFT -","designation":"JMP.F.J","from":"P2-J","to":"P2-F"},{"function":"Insert Right +","designation":"JMP.7.9","from":"P2-7","to":"P2-9"},{"function":"Insert Right -","designation":"JMP.H.K","from":"P2-H","to":"P2-K"}],"logic":[]},"parts":[{"item":"8-109","title":"Booster Amplifier Component Layout","label":"8-109 Booster Amplifier Componen","href":"Register-Sub-assemblies-n-nnn.html#8-109","note":"Sub-assemblies (n-nnn)"},{"item":"10-015","title":"","label":"10-015","href":"Register-Sub-assemblies-n-nnn.html#10-015","note":"Sub-assemblies (n-nnn)"}],"parents":[{"label":"M497","href":"M497.html","note":"on 28 drawings with it: Dual-Master-Module"},{"label":"M490","href":"M490.html","note":"on 24 drawings with it: Stereo Input Module"},{"label":"M479","href":"M479.html","note":"on 24 drawings with it: Dual Auxiliary Module"},{"label":"M495","href":"M495.html","note":"on 24 drawings with it: Stereo Monitor Module"},{"label":"M498","href":"M498.html","note":"on 17 drawings with it: Stereo Setector"},{"label":"M462","href":"M462.html","note":"on 17 drawings with it"},{"label":"M499","href":"M499.html","note":"on 17 drawings with it: Insertion Switcher"},{"label":"M625B","href":"M625B.html","note":"on 17 drawings with it: Power Supply"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-01-002%20-%20DESIGNATION%20REVISION%20GEB.jpg"><img loading="lazy" src="../Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-01-002%20-%20DESIGNATION%20REVISION%20GEB.jpg" alt="" data-f="Modules/SUMMING/M497A/1978 - M497A - 497-01-002 - DESIGNATION REVISION GEB.jpg" data-size="320" onerror="wbsOff(this)">1978 - M497A - 497-01-002 - DESIGNATION REVISION GEB.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%208-109-02-006%20-%208-109E%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/SUMMING/M497A/1978%20-%208-109-02-006%20-%208-109E%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.jpg" alt="" data-f="Modules/SUMMING/M497A/1978 - 8-109-02-006 - 8-109E BOOSTER AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1978 - 8-109-02-006 - 8-109E BOOSTER AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 1.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-01-002%20-%20OHM%20LEFT%20LEVEL%20INSERT.jpg"><img loading="lazy" src="../Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-01-002%20-%20OHM%20LEFT%20LEVEL%20INSERT.jpg" alt="" data-f="Modules/SUMMING/M497A/1978 - M497A - 497-01-002 - OHM LEFT LEVEL INSERT.jpg" data-size="320" onerror="wbsOff(this)">1978 - M497A - 497-01-002 - OHM LEFT LEVEL INSERT.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-02-001%20-%20IIK%20IOOP%20CII%20CIS.jpg"><img loading="lazy" src="../Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-02-001%20-%20IIK%20IOOP%20CII%20CIS.jpg" alt="" data-f="Modules/SUMMING/M497A/1978 - M497A - 497-02-001 - IIK IOOP CII CIS.jpg" data-size="320" onerror="wbsOff(this)">1978 - M497A - 497-02-001 - IIK IOOP CII CIS.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-02-001%20-%20VERSION%20RARR%20ARE%20FRONT%20PANEL%20LEVEL%20CONTROLS.jpg"><img loading="lazy" src="../Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-02-001%20-%20VERSION%20RARR%20ARE%20FRONT%20PANEL%20LEVEL%20CONTROLS.jpg" alt="" data-f="Modules/SUMMING/M497A/1978 - M497A - 497-02-001 - VERSION RARR ARE FRONT PANEL LEVEL CONTROLS.jpg" data-size="320" onerror="wbsOff(this)">1978 - M497A - 497-02-001 - VERSION RARR ARE FRONT PANEL LEVEL CONTROLS.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-04-002%20-%20CONNECTOR%20REAR%20VIEW.jpg"><img loading="lazy" src="../Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-04-002%20-%20CONNECTOR%20REAR%20VIEW.jpg" alt="" data-f="Modules/SUMMING/M497A/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-04-004%20-%20ENG%20DUAL%20MASTER%20MODULE.jpg"><img loading="lazy" src="../Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-04-004%20-%20ENG%20DUAL%20MASTER%20MODULE.jpg" alt="" data-f="Modules/SUMMING/M497A/1978 - M497A - 497-04-004 - ENG DUAL MASTER MODULE.jpg" data-size="320" onerror="wbsOff(this)">1978 - M497A - 497-04-004 - ENG DUAL MASTER MODULE.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-06-002%20-%20DUAL%20MASTER%20MODULE.jpg"><img loading="lazy" src="../Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-06-002%20-%20DUAL%20MASTER%20MODULE.jpg" alt="" data-f="Modules/SUMMING/M497A/1978 - M497A - 497-06-002 - DUAL MASTER MODULE.jpg" data-size="320" onerror="wbsOff(this)">1978 - M497A - 497-06-002 - DUAL MASTER MODULE.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-06-002%20-%20WET%20TIPGOE.jpg"><img loading="lazy" src="../Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-06-002%20-%20WET%20TIPGOE.jpg" alt="" data-f="Modules/SUMMING/M497A/1978 - M497A - 497-06-002 - WET TIPGOE.jpg" data-size="320" onerror="wbsOff(this)">1978 - M497A - 497-06-002 - WET TIPGOE.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%208-109-02-006%20-%20REVISION%20NOMINAL%20VALUE.jpg"><img loading="lazy" src="../Modules/SUMMING/M497A/1978%20-%20M497A%20-%208-109-02-006%20-%20REVISION%20NOMINAL%20VALUE.jpg" alt="" data-f="Modules/SUMMING/M497A/1978 - M497A - 8-109-02-006 - REVISION NOMINAL VALUE.jpg" data-size="320" onerror="wbsOff(this)">1978 - M497A - 8-109-02-006 - REVISION NOMINAL VALUE.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%208-109-02-006%20-%20RII%20RIZ.jpg"><img loading="lazy" src="../Modules/SUMMING/M497A/1978%20-%20M497A%20-%208-109-02-006%20-%20RII%20RIZ.jpg" alt="" data-f="Modules/SUMMING/M497A/1978 - M497A - 8-109-02-006 - RII RIZ.jpg" data-size="320" onerror="wbsOff(this)">1978 - M497A - 8-109-02-006 - RII RIZ.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%208-109-06-006%20-%20BOOSTER%20AMPLIFIER.jpg"><img loading="lazy" src="../Modules/SUMMING/M497A/1978%20-%20M497A%20-%208-109-06-006%20-%20BOOSTER%20AMPLIFIER.jpg" alt="" data-f="Modules/SUMMING/M497A/1978 - M497A - 8-109-06-006 - BOOSTER AMPLIFIER.jpg" data-size="320" onerror="wbsOff(this)">1978 - M497A - 8-109-06-006 - BOOSTER AMPLIFIER.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%208-109-06-006.jpg"><img loading="lazy" src="../Modules/SUMMING/M497A/1978%20-%20M497A%20-%208-109-06-006.jpg" alt="" data-f="Modules/SUMMING/M497A/1978 - M497A - 8-109-06-006.jpg" data-size="320" onerror="wbsOff(this)">1978 - M497A - 8-109-06-006.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P001%20-%20Title%20Page.jpg"><img loading="lazy" src="../Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P001%20-%20Title%20Page.jpg" alt="" data-f="Modules/SUMMING/M497A/1978 - M497A - P001 - Title Page.jpg" data-size="320" onerror="wbsOff(this)">1978 - M497A - P001 - Title Page.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P002%20-%201-1.jpg"><img loading="lazy" src="../Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P002%20-%201-1.jpg" alt="" data-f="Modules/SUMMING/M497A/1978 - M497A - P002 - 1-1.jpg" data-size="320" onerror="wbsOff(this)">1978 - M497A - P002 - 1-1.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P003%20-%201-2.jpg"><img loading="lazy" src="../Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P003%20-%201-2.jpg" alt="" data-f="Modules/SUMMING/M497A/1978 - M497A - P003 - 1-2.jpg" data-size="320" onerror="wbsOff(this)">1978 - M497A - P003 - 1-2.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P004%20-%202-1.jpg"><img loading="lazy" src="../Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P004%20-%202-1.jpg" alt="" data-f="Modules/SUMMING/M497A/1978 - M497A - P004 - 2-1.jpg" data-size="320" onerror="wbsOff(this)">1978 - M497A - P004 - 2-1.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P005%20-%202-2.jpg"><img loading="lazy" src="../Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P005%20-%202-2.jpg" alt="" data-f="Modules/SUMMING/M497A/1978 - M497A - P005 - 2-2.jpg" data-size="320" onerror="wbsOff(this)">1978 - M497A - P005 - 2-2.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P006%20-%203-1.jpg"><img loading="lazy" src="../Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P006%20-%203-1.jpg" alt="" data-f="Modules/SUMMING/M497A/1978 - M497A - P006 - 3-1.jpg" data-size="320" onerror="wbsOff(this)">1978 - M497A - P006 - 3-1.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P007%20-%203-2.jpg"><img loading="lazy" src="../Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P007%20-%203-2.jpg" alt="" data-f="Modules/SUMMING/M497A/1978 - M497A - P007 - 3-2.jpg" data-size="320" onerror="wbsOff(this)">1978 - M497A - P007 - 3-2.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P008%20-%203-3.jpg"><img loading="lazy" src="../Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P008%20-%203-3.jpg" alt="" data-f="Modules/SUMMING/M497A/1978 - M497A - P008 - 3-3.jpg" data-size="320" onerror="wbsOff(this)">1978 - M497A - P008 - 3-3.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P009%20-%203-4.jpg"><img loading="lazy" src="../Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P009%20-%203-4.jpg" alt="" data-f="Modules/SUMMING/M497A/1978 - M497A - P009 - 3-4.jpg" data-size="320" onerror="wbsOff(this)">1978 - M497A - P009 - 3-4.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P010%20-%203-5.jpg"><img loading="lazy" src="../Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P010%20-%203-5.jpg" alt="" data-f="Modules/SUMMING/M497A/1978 - M497A - P010 - 3-5.jpg" data-size="320" onerror="wbsOff(this)">1978 - M497A - P010 - 3-5.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P011%20-%208-109-1-1.jpg"><img loading="lazy" src="../Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P011%20-%208-109-1-1.jpg" alt="" data-f="Modules/SUMMING/M497A/1978 - M497A - P011 - 8-109-1-1.jpg" data-size="320" onerror="wbsOff(this)">1978 - M497A - P011 - 8-109-1-1.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P012%20-%208-109-1-2.jpg"><img loading="lazy" src="../Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P012%20-%208-109-1-2.jpg" alt="" data-f="Modules/SUMMING/M497A/1978 - M497A - P012 - 8-109-1-2.jpg" data-size="320" onerror="wbsOff(this)">1978 - M497A - P012 - 8-109-1-2.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P013%20-%208-109-2-1.jpg"><img loading="lazy" src="../Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P013%20-%208-109-2-1.jpg" alt="" data-f="Modules/SUMMING/M497A/1978 - M497A - P013 - 8-109-2-1.jpg" data-size="320" onerror="wbsOff(this)">1978 - M497A - P013 - 8-109-2-1.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P014%20-%208-109-2-2.jpg"><img loading="lazy" src="../Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P014%20-%208-109-2-2.jpg" alt="" data-f="Modules/SUMMING/M497A/1978 - M497A - P014 - 8-109-2-2.jpg" data-size="320" onerror="wbsOff(this)">1978 - M497A - P014 - 8-109-2-2.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P015%20-%208-109-2-3.jpg"><img loading="lazy" src="../Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P015%20-%208-109-2-3.jpg" alt="" data-f="Modules/SUMMING/M497A/1978 - M497A - P015 - 8-109-2-3.jpg" data-size="320" onerror="wbsOff(this)">1978 - M497A - P015 - 8-109-2-3.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P016%20-%208-109-2-4.jpg"><img loading="lazy" src="../Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P016%20-%208-109-2-4.jpg" alt="" data-f="Modules/SUMMING/M497A/1978 - M497A - P016 - 8-109-2-4.jpg" data-size="320" onerror="wbsOff(this)">1978 - M497A - P016 - 8-109-2-4.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P017%20-%208-109-2-5.jpg"><img loading="lazy" src="../Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P017%20-%208-109-2-5.jpg" alt="" data-f="Modules/SUMMING/M497A/1978 - M497A - P017 - 8-109-2-5.jpg" data-size="320" onerror="wbsOff(this)">1978 - M497A - P017 - 8-109-2-5.jpg</a><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/19xx%20-%20DOC%20-%20497-02-001%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC.jpg"><img loading="lazy" src="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/19xx%20-%20DOC%20-%20497-02-001%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC.jpg" alt="" data-f="DOCUMENTS/RECENT SCANS/WBSps.ca 20210320 - Scans/19xx - DOC - 497-02-001 - DUAL MASTER MODULE SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 497-02-001 - DUAL MASTER MODULE SCHEMATIC.jpg</a><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/R1400-R2400%20-%20sales/19xx%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg"><img loading="lazy" src="../DOCUMENTS/WBSPS%20-%20To%20Be%20edited/R1400-R2400%20-%20sales/19xx%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg" alt="" data-f="DOCUMENTS/WBSPS - To Be edited/R1400-R2400 - sales/19xx - DOC - R1400-R2400 - 007.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - R1400-R2400 - 007.jpg</a><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/R1400-R2400%20-%20sales/19xx%20-%20DOC%20-%20R1400-R2400%20-%20012.jpg"><img loading="lazy" src="../DOCUMENTS/WBSPS%20-%20To%20Be%20edited/R1400-R2400%20-%20sales/19xx%20-%20DOC%20-%20R1400-R2400%20-%20012.jpg" alt="" data-f="DOCUMENTS/WBSPS - To Be edited/R1400-R2400 - sales/19xx - DOC - R1400-R2400 - 012.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - R1400-R2400 - 012.jpg</a></div>
+<h2>Price history</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Price</th>
+<th>Listed as</th>
+<th>Effective</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-2005.html">2005|38</a></td>
+<td>used market value</td>
+<td>25.00</td>
+<td>M497A Dual Master</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/old website/PriceGuide.htm</td>
+</tr>
+<tr>
+<td><a href="Year-2006.html">2006|39</a></td>
+<td>used market value</td>
+<td>25.00</td>
+<td>M497A Dual Master</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/jan 2006 shell/priceguide.htm</td>
+</tr>
+</tbody>
+</table>
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td>title-block date</td>
+<td><code>REVISiON 2 7/78</code></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-01-002%20-%20DESIGNATION%20REVISION%20GEB.jpg">1978 - M497A - 497-01-002 - DESIGNATION REVISION GEB.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td>title-block date</td>
+<td><code>REVISION 7/78</code></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20Dual%20Master%20Module.pdf">1978 - M497A - Dual Master Module.pdf</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Physical manual inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Location</th>
+<th>Status</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M497A - Dual Master Module</td>
+<td></td>
+<td>DUPLICATE</td>
+<td>SCANNED BUT NEEDS STICHING</td>
+</tr>
+<tr>
+<td>M497A - Dual Master Module</td>
+<td></td>
+<td></td>
+<td>PDF - Already scanned</td>
+</tr>
+<tr>
+<td>M497A - Dual Master Module</td>
+<td></td>
+<td></td>
+<td>Recently scanned and stiched by WB</td>
+</tr>
+</tbody>
+</table>
+<h2>Documents (2)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20Dual%20Master%20Module%20%282%29.pdf">1978 - M497A - Dual Master Module (2).pdf</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20Dual%20Master%20Module%20%282%29.pdf.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20Dual%20Master%20Module.pdf">1978 - M497A - Dual Master Module.pdf</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20Dual%20Master%20Module.pdf.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (55)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%208-109-02-006%20-%208-109E%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.jpg">1978 - 8-109-02-006 - 8-109E BOOSTER AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%208-109-02-006%20-%208-109E%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-01-002%20-%20DESIGNATION%20REVISION%20GEB.jpg">1978 - M497A - 497-01-002 - DESIGNATION REVISION GEB.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-01-002%20-%20DESIGNATION%20REVISION%20GEB.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-01-002%20-%20OHM%20LEFT%20LEVEL%20INSERT.jpg">1978 - M497A - 497-01-002 - OHM LEFT LEVEL INSERT.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-01-002%20-%20OHM%20LEFT%20LEVEL%20INSERT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-02-001%20-%20IIK%20IOOP%20CII%20CIS.jpg">1978 - M497A - 497-02-001 - IIK IOOP CII CIS.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-02-001%20-%20IIK%20IOOP%20CII%20CIS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-02-001%20-%20VERSION%20RARR%20ARE%20FRONT%20PANEL%20LEVEL%20CONTROLS.jpg">1978 - M497A - 497-02-001 - VERSION RARR ARE FRONT PANEL LEVEL CONTROLS.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-02-001%20-%20VERSION%20RARR%20ARE%20FRONT%20PANEL%20LEVEL%20CONTROLS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-04-002%20-%20CONNECTOR%20REAR%20VIEW.jpg">1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-04-002%20-%20CONNECTOR%20REAR%20VIEW.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-04-004%20-%20ENG%20DUAL%20MASTER%20MODULE.jpg">1978 - M497A - 497-04-004 - ENG DUAL MASTER MODULE.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-04-004%20-%20ENG%20DUAL%20MASTER%20MODULE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-06-002%20-%20DUAL%20MASTER%20MODULE.jpg">1978 - M497A - 497-06-002 - DUAL MASTER MODULE.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-06-002%20-%20DUAL%20MASTER%20MODULE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-06-002%20-%20WET%20TIPGOE.jpg">1978 - M497A - 497-06-002 - WET TIPGOE.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-06-002%20-%20WET%20TIPGOE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%208-109-02-006%20-%20REVISION%20NOMINAL%20VALUE.jpg">1978 - M497A - 8-109-02-006 - REVISION NOMINAL VALUE.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%208-109-02-006%20-%20REVISION%20NOMINAL%20VALUE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%208-109-02-006%20-%20RII%20RIZ.jpg">1978 - M497A - 8-109-02-006 - RII RIZ.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%208-109-02-006%20-%20RII%20RIZ.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%208-109-06-006%20-%20BOOSTER%20AMPLIFIER.jpg">1978 - M497A - 8-109-06-006 - BOOSTER AMPLIFIER.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%208-109-06-006%20-%20BOOSTER%20AMPLIFIER.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%208-109-06-006.jpg">1978 - M497A - 8-109-06-006.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%208-109-06-006.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P001%20-%20Title%20Page.jpg">1978 - M497A - P001 - Title Page.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P001%20-%20Title%20Page.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P002%20-%201-1.jpg">1978 - M497A - P002 - 1-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P002%20-%201-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P003%20-%201-2.jpg">1978 - M497A - P003 - 1-2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P003%20-%201-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P004%20-%202-1.jpg">1978 - M497A - P004 - 2-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P004%20-%202-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P005%20-%202-2.jpg">1978 - M497A - P005 - 2-2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P005%20-%202-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P006%20-%203-1.jpg">1978 - M497A - P006 - 3-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P006%20-%203-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P007%20-%203-2.jpg">1978 - M497A - P007 - 3-2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P007%20-%203-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P008%20-%203-3.jpg">1978 - M497A - P008 - 3-3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P008%20-%203-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P009%20-%203-4.jpg">1978 - M497A - P009 - 3-4.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P009%20-%203-4.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P010%20-%203-5.jpg">1978 - M497A - P010 - 3-5.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P010%20-%203-5.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P011%20-%208-109-1-1.jpg">1978 - M497A - P011 - 8-109-1-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P011%20-%208-109-1-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P012%20-%208-109-1-2.jpg">1978 - M497A - P012 - 8-109-1-2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P012%20-%208-109-1-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P013%20-%208-109-2-1.jpg">1978 - M497A - P013 - 8-109-2-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P013%20-%208-109-2-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P014%20-%208-109-2-2.jpg">1978 - M497A - P014 - 8-109-2-2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P014%20-%208-109-2-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P015%20-%208-109-2-3.jpg">1978 - M497A - P015 - 8-109-2-3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P015%20-%208-109-2-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P016%20-%208-109-2-4.jpg">1978 - M497A - P016 - 8-109-2-4.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P016%20-%208-109-2-4.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P017%20-%208-109-2-5.jpg">1978 - M497A - P017 - 8-109-2-5.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P017%20-%208-109-2-5.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/19xx%20-%20DOC%20-%20497-02-001%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC.jpg">19xx - DOC - 497-02-001 - DUAL MASTER MODULE SCHEMATIC.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210320%20-%20Scans/19xx%20-%20DOC%20-%20497-02-001%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/R1400-R2400%20-%20sales/19xx%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg">19xx - DOC - R1400-R2400 - 007.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/R1400-R2400%20-%20sales/19xx%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/R1400-R2400%20-%20sales/19xx%20-%20DOC%20-%20R1400-R2400%20-%20012.jpg">19xx - DOC - R1400-R2400 - 012.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/R1400-R2400%20-%20sales/19xx%20-%20DOC%20-%20R1400-R2400%20-%20012.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M494/19xx%20-%20M494%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg">19xx - M494 - DOC - R1400-R2400 - 007.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M494/19xx%20-%20M494%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M466/19xx%20-%20M466%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg">19xx - M466 - DOC - R1400-R2400 - 007.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M466/19xx%20-%20M466%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M462/19xx%20-%20M462%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg">19xx - M462 - DOC - R1400-R2400 - 007.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M462/19xx%20-%20M462%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M464/19xx%20-%20M464%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg">19xx - M464 - DOC - R1400-R2400 - 007.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M464/19xx%20-%20M464%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490/19xx%20-%20M490%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg">19xx - M490 - DOC - R1400-R2400 - 007.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490/19xx%20-%20M490%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490/19xx%20-%20M490%20-%20DOC%20-%20R1400-R2400%20-%20012.jpg">19xx - M490 - DOC - R1400-R2400 - 012.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490/19xx%20-%20M490%20-%20DOC%20-%20R1400-R2400%20-%20012.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M451/19xx%20-%20M451%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg">19xx - M451 - DOC - R1400-R2400 - 007.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M451/19xx%20-%20M451%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M452/19xx%20-%20M452%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg">19xx - M452 - DOC - R1400-R2400 - 007.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M452/19xx%20-%20M452%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M495/19xx%20-%20M495%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg">19xx - M495 - DOC - R1400-R2400 - 007.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M495/19xx%20-%20M495%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M495/19xx%20-%20M495%20-%20DOC%20-%20R1400-R2400%20-%20012.jpg">19xx - M495 - DOC - R1400-R2400 - 012.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M495/19xx%20-%20M495%20-%20DOC%20-%20R1400-R2400%20-%20012.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M625B/19xx%20-%20M625B%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg">19xx - M625B - DOC - R1400-R2400 - 007.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625B/19xx%20-%20M625B%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M457/19xx%20-%20M457%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg">19xx - M457 - DOC - R1400-R2400 - 007.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M457/19xx%20-%20M457%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M498/19xx%20-%20M498%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg">19xx - M498 - DOC - R1400-R2400 - 007.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M498/19xx%20-%20M498%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M479/19xx%20-%20M479%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg">19xx - M479 - DOC - R1400-R2400 - 007.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M479/19xx%20-%20M479%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M479/19xx%20-%20M479%20-%20DOC%20-%20R1400-R2400%20-%20012.jpg">19xx - M479 - DOC - R1400-R2400 - 012.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M479/19xx%20-%20M479%20-%20DOC%20-%20R1400-R2400%20-%20012.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497/19xx%20-%20M497%20-%20DOC%20-%20497-02-001%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC.jpg">19xx - M497 - DOC - 497-02-001 - DUAL MASTER MODULE SCHEMATIC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497/19xx%20-%20M497%20-%20DOC%20-%20497-02-001%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497/19xx%20-%20M497%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg">19xx - M497 - DOC - R1400-R2400 - 007.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497/19xx%20-%20M497%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497/19xx%20-%20M497%20-%20DOC%20-%20R1400-R2400%20-%20012.jpg">19xx - M497 - DOC - R1400-R2400 - 012.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497/19xx%20-%20M497%20-%20DOC%20-%20R1400-R2400%20-%20012.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/19xx%20-%20M497A%20-%20DOC%20-%20497-02-001%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC.jpg">19xx - M497A - DOC - 497-02-001 - DUAL MASTER MODULE SCHEMATIC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/19xx%20-%20M497A%20-%20DOC%20-%20497-02-001%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/19xx%20-%20M497A%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg">19xx - M497A - DOC - R1400-R2400 - 007.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/19xx%20-%20M497A%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/19xx%20-%20M497A%20-%20DOC%20-%20R1400-R2400%20-%20012.jpg">19xx - M497A - DOC - R1400-R2400 - 012.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/19xx%20-%20M497A%20-%20DOC%20-%20R1400-R2400%20-%20012.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M499/19xx%20-%20M499%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg">19xx - M499 - DOC - R1400-R2400 - 007.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M499/19xx%20-%20M499%20-%20DOC%20-%20R1400-R2400%20-%20007.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Sub-assemblies &amp; parts used (2)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What</th>
+<th>Family</th>
+<th>Year</th>
+<th>How we know</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#8-109">8-109</a></td>
+<td>Booster Amplifier Component Layout</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1974|7</td>
+<td>drawing filed with it</td>
+</tr>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#10-015">10-015</a></td>
+<td></td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1988|21</td>
+<td>named in its manual</td>
+</tr>
+</tbody>
+</table>
+<h2>Parts list — board 1978 - M497A - Dual Master Module (2) (12 parts)</h2>
+<p><em>From 1978 - M497A - Dual Master Module (2).pdf; also in <code>timelines/data/bom.csv</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>Part</th>
+<th>Value</th>
+<th>Manufacturer</th>
+<th>Mfr part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Q4</td>
+<td>Te xas</td>
+<td>TIP30B</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Q5</td>
+<td>National</td>
+<td>PN36 45</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R1</td>
+<td>Resistor ~ W 5% 15K</td>
+<td>Philips</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R17</td>
+<td>Tr im pot</td>
+<td>Piher</td>
+<td>PT 10V 2K</td>
+<td></td>
+</tr>
+<tr>
+<td>R18</td>
+<td>Resistor '4W 5% 11K</td>
+<td>Phili ps</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R19</td>
+<td>Trim pot</td>
+<td>Piher</td>
+<td>PT 10V 2K</td>
+<td></td>
+</tr>
+<tr>
+<td>R20</td>
+<td>Resisto r ~ W 5% 11K</td>
+<td>Philips</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C6</td>
+<td>Cap acitor</td>
+<td>4.7 pF</td>
+<td>Phil i ps</td>
+<td>2222-638-09478</td>
+</tr>
+<tr>
+<td>R5</td>
+<td>Re s i stor 1/ 4W 5% 30 K</td>
+<td>P h i li p s</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R15</td>
+<td>Res is tor 1/4W 5% 9K l</td>
+<td>P h i l ips</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C6</td>
+<td>Capac i t or</td>
+<td>4 .7 p F</td>
+<td>Ph il i ps</td>
+<td>2222- 638 -09478</td>
+</tr>
+<tr>
+<td>R15</td>
+<td>Res i s t or 1/ 4 W 5% 240</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (1)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../viewer.html?f=Products/RTO/RTO-144/19xx%20-%20RTO-144%20-%20Module%20RTO-144%20Jumper%20calculator.xlsx">19xx - RTO-144 - Module RTO-144 Jumper calculator.xlsx</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>General description (3)</h3>
+<details><summary>Description — 158 words · 1978 - M497A - Dual Master Module (2).pdf, page 11</summary><p>8-109 AMPLIFIER SERIES</p><p>Un it                                 Ga in</p><p>Noise:                    -108 dBm EIN from 20 Hz to 20 kHz.</p><p>Source Impedance:         600 ohms or less, balanced or unbalanced.</p><p>spec if ications above.)                                                                             .c                                                                         ps</p><p>Output    Impedance:      Less than 100 ohms.                                                                     BS</p><p>Load     Impedance:       600 ohms, balanced.                                                                   //W                                                                    :                                                                 tp                                                              ht</p><p>8-109-1-1</p><p>WARD-BECK SYSTEMS LTD.                       . T</p><p>8-109 AMPLIFIER SERIES</p><p>Output Level :             +30   dBm max imum.</p><p>8-109-1-2</p><p>W ARD-BECK SYSTEMS L TD .</p><p>PARTS LI ST</p><p>8-109 AMPLIF IER SERIES</p><p>8-109</p><p>Rl                                                                               ps</p><p>Resistor 1/4W 5% 47K                    Phi lips    R2                       47K                     &quot;                                                                            BS</p><p>• R3                       6K2    R4                       6K2                                                                        //W</p><p>R5         ,,&#x27;           6K2                                                                       :                                                                    tp                                                                  ht</p><p>8-109- 2-1</p><p>WARD-BECK SYSTEMS LTD .</p><p>PARTS L IST</p><p>8-109 AMPLIF IER SER IES    8-109</p><p>PART    DESC RIPTION                             MFG            MFG PART NUMBER</p><p>R36                                                                                       .c</p><p>4K7   R37                           4K7                                                                                    ps</p><p>R38               &quot;            delete                                                                               BS</p><p>Zl       In teg rated Circuit                     Na t ion a l                                                                           //W</p><p>LF356N   Z2          &quot;                                      &quot;                                                                          :                                                                       tp</p><p>8-109-2-2                                                                    ht</p><p>WARD-BEC K SYSTEMS LTD</p><p class="bp">Also: <a href="Boilerplate.html#bp-8fb653616ca895cd">general boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-773f9349795448b9">general boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-6c03613c65ec935a">general boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-d520b5ee104f7a22">general boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-412ab92980ee7bd2">general boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-558d2c41fa60b86b">general boilerplate (8 devices)</a> · <a href="Boilerplate.html#bp-a1b1c6ca9572d446">general boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-55eb8043806a711d">general boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-910bd562a967f0a7">general boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-4482f07403b3dbea">general boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-c843a74bc6bfe1d7">general boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-bc17e4137492f407">general boilerplate (8 devices)</a> · <a href="Boilerplate.html#bp-004b60fd506e8e4f">general boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-cb736f56bbc66928">general boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-8863c99351da1cf8">general boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-6340b488c8951fce">general boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-2536be68cd6e3bd4">general boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-02816fa71c4dbf76">general boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-a8b0f076700c8e08">general boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-9863628542017524">general boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-739e6272540072a8">general boilerplate (7 devices)</a></p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20Dual%20Master%20Module%20%282%29.pdf">1978 - M497A - Dual Master Module (2).pdf</a>, p. 11</li>
+</ul>
+<details><summary>Description — 6 words · 1978 - M497A - Dual Master Module.pdf, page 11</summary><p>WARD-BECK SYSTEMS LTD; OtJ 2matzye Mjae-QAAW</p><p class="bp">Also: <a href="Boilerplate.html#bp-433840ca58e6a3a0">general boilerplate (8 devices)</a> · <a href="Boilerplate.html#bp-dac30e34aee514fe">general boilerplate (5 devices)</a> · <a href="Boilerplate.html#bp-f65a52d703a6ba42">general boilerplate (7 devices)</a></p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20Dual%20Master%20Module.pdf">1978 - M497A - Dual Master Module.pdf</a>, p. 11</li>
+</ul>
+<details><summary>Description — 0 words · 1978 - M497A - P012 - 8-109-1-2.jpg, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.html#bp-d3d280642734bd72">general boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-cd04956f7f2bd1d8">general boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-34a00626330e5561">general boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-bb97971281a084d5">general boilerplate (7 devices)</a></p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P012%20-%208-109-1-2.jpg">1978 - M497A - P012 - 8-109-1-2.jpg</a>, p. 1</li>
+</ul>
+<h3>Specifications (3)</h3>
+<details><summary>Technical Data — 577 words · 1978 - M497A - Dual Master Module (2).pdf, page 2</summary><p>M497A DUAL MASTER MODULE</p><p>Gain:                         8 dB ±0.5 dB nominal, 18 dB ±1 dB                                 maximum.   Frequency Response:           +0 -1 dB from 20 Hz to 20 kHz                                 (tailored frequency response).   Noise :                       72 dB below +8 dBm nominal output                                 level (20 Hz to 20 kHz).   Harmonic Distortion:          Less than 0.25% THO, from 30 Hz to                                 20 kHz at +24 dBm output or less.                                 Less tnan 0.1% at 1 kHz at +24 dBm                                 output.   Source Impedances:               Summing:          30,000 ohms,. balanced.              External:          600                                  c                                     ohms maximum, balanced.   Input Impedances:              Summing:           Less than 5 ohms.             External:           30,000 ohms.   Input Level:      External:                  o dBm nominal, +16 dBm maximum.   Output Impedances:               Program           600 ohms, balanced.               Monitor           600 ohms, ba1anced.                  Mono           75,000 ohms, bal anced.   Load Impedances:             Program             600 ohms, ba 1 anced.                                                                        a</p><p>Monitor             Bridging, balanced (5kohms minimum).                                                                        .c</p><p>Mono             Summing, less than 5 ohms ,balanced.                                                                      ps                                                                   BS                                                                //W                                                                  :                                                               tp                                                           ht</p><p>1-1</p><p>WARD-BECK SYSTEMS LTD</p><p>M497A DUAL MASTER MODULE</p><p>I   Output Level:          Program :          Monitor :             Mono:</p><p>Channel separati~n:                                   +8 dBm nominal. +24 dBm max mum.                                   +8 dBm nominal. +24 dBm max mum.                                   +8 dBm nominal when summed nto                                   a second M497.                                   60 dB between Left and Right channels                                   (30 Hz to 15 kHz).     Phasing :   1&#x27;1               Input and output terminals designated                                   b~ numbers are in phase .                                              .,     Power Requirements :          ±25 volts dc. 50 rnA nominal. 200 rnA                                   maximum.     Ambient Temperature:          o to 60 degrees Celsius.     Dimensions:                   1.6&quot; wide X 7&quot; high X 6.5&quot; deep.                                   (41 mm X 178 mm X 165 mm).</p><p>a                                                                           .c                                                                      ps                                                                   BS                                                                //W                                                                 :                                                              tp                                                           ht</p><p>1-2</p><p>WARD-BECK SYSTEMS LTD .</p><p>CTRCUTTDESCRTPTION                             ~497A   DUAL MASTER MODULE</p><p>The M497 accommodates two separate signal channels. It is        designed to receive the mixed feeds from the left and right        mixer buses of a console. The two signals are independently        processed and amplified to standard line levels. The outputs        of the M497A supply the main program outputs of the console 1-     system. Both channels operate in a similar manner . The        following description refers specifically to the LEFT channe l.</p><p>1.!!.E..!!.1        The signal originating from the external m1x1ng network enters        the module at pins l/A and is applied to the summing current        nodes of Zl and Z2.        Zl through Z3, with their associated components, provide an        actively balanced input as well as a balanced output. The        output operates at a nominal level of 0 dBm and appears at        pins 6/F.        Insert        A balanced INSERT point is provided between pins 6/F and 8/0,        permitting the insertion of an external equalizer, filter or        compressor, either using an M499 insert switcher or by direct        wiring.        &#x27;Leve l Adjustment        From the INSERT point, the signal is returned to the module        at pins 8/J and fed to the 8-l09E output amplifier via an        attenuator network. R42 serves as a master level adjustment,        located at the module front panel and operating with a nominal        10 dB &quot;in-hand&quot; setting.</p><p>The 8-l09E output amplifier operates with a gain of 29 dB. It        recovers the loss of the input network and provides additional        ga~n to produce a nominal line level of +8 dBm at the output                                                                          a                                                                          .c</p><p>of the module.                                                                    ps</p><p>A 600 ohm resistive dividing network, having a loss of 6 dB,        is inserted between the 8-l09E and the two module outputs at                                                                  BS</p><p>p i ns l2/N and l3/P. Each of the two outputs has a maximum                                                              //W</p><p>drive capability of +24 dBm into a 600 ohm load.                                                               :                                                            tp                                                          ht</p><p>2-1</p><p>WARD-BECK SYSTEMS LTD</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20Dual%20Master%20Module%20%282%29.pdf">1978 - M497A - Dual Master Module (2).pdf</a>, p. 2</li>
+</ul>
+<details><summary>Technical Data — 232 words · 1978 - M497A - P002 - 1-1.jpg, page 1</summary><p>M49ZA DUAL MASTER MODULE Ga in: 8 dB +0.5 dB nomina ] , 18 dB t+1 dB +uO maximum_ murtxsm mab AS+ 6snfmon nad m57207 9 Frequency Response: Isa +0 -1 dB from 20 Hz to 20 kHz oN 0€ nedw Cef (tailored frequency response) reat 0m039z Noise: 72 dB be Iow +8 dBm nomina 7 output 7snj Jdeta bo 6 JT9] ne Teve] (20 Hz to 20 kHz ) _ 602 Caraad?</p><p>(s0x 2 [ 0f IH&quot;O2 Harmonic Distortion: Less than 0 .25% THD , from 30 Hz to cne 290 607mt9 uqfnozo kHz at +24 dBm output or less.60 9 9284q af 916 Less than 0 . 1% at 1 kHz at +24 dBm output_ Am 0os Tsatmon Am 0a aJb 2510v 2s= afnemetups9 79w09 Source Impedances: Mumtxsm Summing:9) 2997030 000 ohms; ba lanced 679qm9T fnsfdmA Externa] : 600 ohms maximum, ba Tanced _ qaeh iefd &quot;5 9dTw 2mor2nsmfo Input Impedances : 6T 81I X MM Summing: Externa] : Less than 5 ohms _ 30,000 ohms _ Input Level : Externa] : 0 dBm nomina] , +16 dBm maximum _ Output Impedances : Program: Monitor: Mono: 600 ohms; ba Tanced .</p><p>600 ohms, ba lanced . 75,000 ohms, balanced . Load Impedances : Program: Monitor: Mono : 600 ohms, ba Tanced . Bridging , ba Tanced (Skohms minimum) _ Summing , Tess than 5 ohms ba lanced . 5 1-1</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P002%20-%201-1.jpg">1978 - M497A - P002 - 1-1.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Technical Data — 227 words · 1978 - M497A - P003 - 1-2.jpg, page 1</summary><p>M49ZA DUAL MASTER MODULE Output Level : Teafron Cb 8 0+ 86 8 ~t62 {Xsm Program: +8 dBm nomina ] . +24 dBm maximum_ Monitor: 0j :h 0s mc +8 dBm nomina ] +24 dBm maximum. 094] Mono: 297 Yoneups  +8 dBm nomina ] when summed into a second M497 _ JUqtvo I6nTmon #Jb 8 + wo[9d 86 Channe ] Separation: [ 04 60 dB between Left and Right channels (30 Hz to 15 kHz) .</p><p>0 ch O8 0ot} GhT ~2s. 0 06n to Phas ing : 70 suqjuo Man AS-Input and output termina ]s designated m8b AS+ J6 IHX 1 Je P[ by numbers are in phase _ Jvo Power Requirements: +25 volts dc , 50 mA nomina) , 200 MA maximum _ 29insbegm [ 937002 Ambient Temperature: ! 8d 0 to 60 degrees Celsius.u2 b93ns &amp;d @urtxsm mdoopa Dimensions : 1.6&quot; wide X 7&quot; high X 6 .</p><p>5 &quot; deep _ (41 mm X 178 mm X 165 mm) .qmI fuqni emdo 2 05n} 2294 amdo 0o0.02 @aFmmuz 6nt9f*3 [9v9] J#qn] Mumtxsm 08b 31 + Tsafmom Mau Tsnt9f*] 293nsbedm] Juqjuo 693rs { 6d 2mdo Do3 beans[ sd endo 0oa bejnsTed emao 000  Z5 067003 9 70Ji#0M onom 2930sb9qm [ 660] 69306[ sd 2mro 0o2 (mumfotm emdo 42) beznsf6d eafebttd b93as (sd emilo 2 Osn f 229 [ aeatmmuz {ms7po7 9 Jcffnoh onom 1-2</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P003%20-%201-2.jpg">1978 - M497A - P003 - 1-2.jpg</a>, p. 1</li>
+</ul>
+<h3>Circuit description (3)</h3>
+<details><summary>Circuit Description — 744 words · 1978 - M497A - Dual Master Module.pdf, page 4</summary><p>M49ZA DUAL MASTER_MODULE The M497 accommodates two separate igna] channels It is 9_ des gned to receive the mixed feeds from the Teft and right @#M mixer buses 0 f conso ]e The two 1s are independently standard 9ne processed and amplified to Tevels The outputs o f the M497A the ma in Program outputs of the console` seRennetb system_ Both operate in similar manner The foilowing description refers specifica ly to the LEFT channel . 9v0dg 090r7929d 25 90m643 19 ( Input 999 6 bn $ b9nr dmo) 976 2 [900s42 ijod qJuo omom 943 10 7 The signa ] originat from the externa mixing network enters i78 the module at pins and is applied to the umming current nodes 0 f 21 and 22 0do7q Z1 through 23 , with their associated components provide an 9 actively ba lanced input a $ we]1 a $ balanced output The output operates at nomina ] Teve] 0 f dBm and appears at 9&#x27;0 Pins 6/F_ enf+2f2n03 n enfiquo39b Kiqqu2 T9w0q 9 | 0A Insert 9+ D05 9 | @dom 9n] napwisd noffel02t z9b fvotq 30 deuo-mf ojFom J0 6ns 0j272ng [qqu 2 Tov ba lanced INSERT point T5 provided between Pins 6/F and 8/J , permitting the insertion 0 f an externa qua]izer filter or compressor either us ing an M499 insert switcher or by direct wiring_ Level Adjustment From the INSERT the i5 returned t0 the module Peants the 8*9892 at pins 8/J and to output amp]ifier via an attenuator network_ R42 serves a5 master Tevel adjustment ocated at the module front pane and operating with nomina 10 dB in-hand setting. Qutput The 8-109E output amplifier operates with ga in of 29 28adEionif recovers the Tos s o f the put network and provides ga in to produce nomina] line Tevel 0 f +8 dBm at the output of the module 600 ohm resistive network, having Toss 0 f 6  dB _ theid-18983 is inserted between the and the two modu le outputs at Pins 12/N and 13/P Each 0 f the two outputs has maximum drive capability o f +24 dBm into 600 ohm Toad 2 -1</p><p>WARD-BECK SYSTEMS LTD_ OTJ amataya 4j3a DAAW CIRCUII_DESCRIPTION M497A DUAL MASTER_MODULE separate MONITOR output is Provided , designed to feed the gdT M495&#x27; STEREO MONITOR module a 5 we1 as to drive standard 0 &#x27;e9b vu meter bn EAE 02n0j 292ud  79x(m 6nsj? bsiti (q05 Dn 6 69229507q RIGHI Channel and_MONO_Output 0079 ot Bm 9mJ rlqqu2 Ateam 941 10 990 e The right channel of the M497 operates in manner similar( to the Ieft channe as described above _ VGQ For the MonO output _ both channels are combined and appear at pins 11/M. The signa ] eve] of this output is such that, when connected to the summing input 0 f second M497A, it wil] produce an output 0 f +8 dBm , with the Teft or right channe] 0 f the first unit operating at +8 dBm. [S0] n 60 2 6 9m 2 5 Juqar 693n6i 6d rTsvt-ie Power_Supply_Decoupling To [9v9 [ T6nfmon J6 29f57990 JqJvo zni9 An active power supply decoupling network consisting 0 f Q1 through Q6 provides isolation between the module and the +25 volt supply ra {Is Transistors Q3 and Q6 monitor the supply current. the event excess ve power supply demands such as from component failure or amplifier overdrive, the mten current fiowing through Q1 and Q4 wit] be Timited. 702297900 ) An tnentzuibA_Leve_&#x27; o 94+ 0907059t [6a2} 2 an Jnioq Tr3Zm[ 94j mo  | 9 f9ms Juqfuo Je0[ - 8 9nj 09 t bns 6 |8 2nfq 15 Jnamtzucbs (9v9 195260 29v792 Sha 170wjen T0j6unatj6 Tenrmon dffw enff67900 Pne T9n6q Jajit Tubom 9mj JE 09;6jo | en+f1e2 bned-nf a8 0 [ JuqtuQ b eS T0 0 ; 62 affw 29j679q0 79f +f[9M6 JUqjuo Je0[ - 8 94T [snonffbb6 esbfv07q Dng Towjsn Jugnt 90j 220 [ 91] 279v0397 JuqJuo 9d $ J6 08 6 8+ T0 T9vs 9n $ _ Tsntmon 93060*q D nt 6 0 9 {ubom 94 $ A J0 220 [ eafvsd Xiowjen eafbivtb 9v/J21297 mdo 00o J 6 2JUqjuo s Fubom 0 94J bn5 3e0 [ ~8 9dj 099wj9d 69+792 F 2 f mumfKsm 260 290 0 9nj T0 0953 9 | € [ Dns MiSI 2nfq DE0 | Mno 003 otnt m8b AS+ T0 Wsifidsq6) 9v f 7b 2 -2</p><p>WAAD-BECK SYSTEMS LTD OTJ Bmataya MjjE-QAAW PARIS_LISI M49Z4 DUAL MASTER MODULE PARI</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20Dual%20Master%20Module.pdf">1978 - M497A - Dual Master Module.pdf</a>, p. 4</li>
+</ul>
+<details><summary>Circuit Description — 406 words · 1978 - M497A - P005 - 2-2.jpg, page 1</summary><p>M49ZA DUAL MASTER MODULE A separate MONITOR output is provided , designed to feed the 94T M495 STEREO MONITOR module a $ we1 as to drive a standard 0 fe9b vu meter.sqsbn} 916 2/ eae}2 Ow] 2dT 9[ 02003 To 292ud naxtm Lafuo 94 2 [9va; 90 ( [ btsbn8f2 0 J bsftffqms bn 6 692293019 RIGHT Channel and MONO_Output 00v9 of 6m 91} ktqqu2 Ateam s4} T0 79m05m Tmt = nt 9J67990 2 [9006d3 d+o8 mejzk?</p><p>The right channe1 0 f the M497 operates in a manner similar [ [ 0} to the Teft channe] a$ described above _ Juoal For the MonO output, both channels are combined and appear at pins 11/M. The signa 1 Teve1 0 f this output is such that, _ Ant when connected to the S umming input 0 f a second M497A  it wi1] produce an output 0 f +8 dBm , with the Ieft or right channe1 0 f the first unit operating at +8 dBm.</p><p>&amp; 7190; dfhw Ej devotdj II 94T Juqjuo beansfed 26 (Taw 86 IUqA( 69306 [ 6d rlevii3s Power Supply_Decoupling 0 T0 Tav9 [ Tsntmon 6 J6 29f5Y#90 JWqfuo T13 2n/9 An active power supply decoupling network consisting of Q1 through Q6 provides isolation between the module and the +25 gI voIt supply ra j]s Transistors Q3 and Q6 monitor the supply current In the event 0 f excessive power supply demands T6d 4 such a $ from component failure or amp] ifier overdrive, the mteq current flowing through Q1 and Q4 wi11 be Timited.</p><p>7022979m0) eaftfw Joemtzuiba [9ye&#x27; Tubom 94} O 6907uj9? 2 f [6ae} 2 4ft mofoq TRJZMI 9d+ 0on7 0s 6F v T9/ti (qms Juqfvo 4001-8 9d; 0f 6oi bns 618 2nfq J5 Jnamfzucbs T9v9 19326m 28 29v732 Sha {tewten 70f6unef}6 (enfaon 6 dstw @OTf6t990 bne T9nsq Jaott 9 Cubom 31f 1 6 69fijo[ entffe2 bned-n}&quot; at 0[ Juqiuo 1[ 40 es 70 0}6p dfiw 29761900 T9mt [9m6 09fno J801 8 94T (snofsfbbs a9bfvonq bne XtowjSn Jugot 90j to 220| s1] 279v0j9t JnqJuo sdj J6 G8b 8 + }0 T9vs[ snf[ Tsnfmon 93u6079 0} nf6p 9 Tubom 94$ T0 8b 3 30 220 [ 6 eaFvsd Atowten eafbfvfb 9v/j2/297 mdo 00o A J6 2JUqtvo 9 Tubom Owj 9d+ bns Jeo~8 9dj ne9wt9d b9fve2m} 2 f Mum fxsm 260 Zjngjuo owf 9d3 10 1353 9|8 [ bns MiSI 2nfq 060 ( moo 0oa 6 ofnf m8b 45+ T0 ufffidsq63 9vftb 2-2</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P005%20-%202-2.jpg">1978 - M497A - P005 - 2-2.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Circuit Description — 178 words · 1978 - M497A - Dual Master Module (2).pdf, page 5</summary><p>M497A   DUAL MASTER MODULE</p><p>A separate MONITOR output is prov ided, designed to feed the  M495 STEREO MONITOR module .as well as to drive a standard  vu meter.  RIGHT Channel and MONO Output  The right channel of the M497 operates in a manner similar  to the left channel as described above.              -  For the MONO output, both channels are combined and appear at  pins 111M. The signal level of this output is such that,  when connected to the summing input of a second M497A, it will  produce an output of +8 dBm, with the left or right channel of  the first unit operating at +8 dBm.  Power Supply Decoupling  An active power supply decoupling network consisting of 01  through 06 provides isolation between the module and the ±25  volt supply rails. Transistors 03 and 06 monitor the supply  current &gt; In the event of excessive power supply demands,  such as from component failure or amplifier overdrive, the  current flowing through 01 and 04 will be limited.</p><p>a                                                                   .c                                                                 ps                                                            BS                                                        //W                                                         :                                                      tp                                                    ht</p><p>2-2</p><p>WARO-BECK SYSTEMS LTO</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20Dual%20Master%20Module%20%282%29.pdf">1978 - M497A - Dual Master Module (2).pdf</a>, p. 5</li>
+</ul>
+<h3>Parts list (text) (9)</h3>
+<details><summary>Parts List — 469 words · 1978 - M497A - Dual Master Module (2).pdf, page 7</summary><p>M4 97A - DUAL MASTE R MODUL E</p><p>PART   DESCRIPTI ON                           MFG           MFG PART NUMBER   CRI    Diode                                  Mot orola     1N40 03   CR2   CR3   CR4   Ql     Tr ansi s t or                         Texas         TIP2 9B   Q2          &quot;                                 Nat i ona l   PN3569   Q3                                               &quot;             &quot;   Q4                                            Te xas        TIP30B   Q5                                            National      PN36 45   Q6</p><p>R1     Resistor ~ W 5% 15K                    Philips   R2         &quot;           15K                       &quot;   R3                     15K   R4                     15K   R5                     15K   R6                         15K   R7                         15K   R8                         15K   R9                         15K   RIO                        15K   R11                        15K   R12                        15K   R13                        620   R14                        620   R1 5                       12K   R16                     12K   R17    Tr im pot                              Piher         PT 10V 2K   R18    Resistor &#x27;4W 5% 11K                    Phili ps   R19    Trim pot                               Piher         PT 10V 2K                                                                              a                                                                           .c</p><p>R20    Resisto r ~ W 5% 11K                   Philips                                                                           ps</p><p>R21                       620                                                                         BS</p><p>- R22                       620                                                                   //W</p><p>R23                       8K2    R24                       8K2                                                                   :                                                                tp                                                               ht</p><p>3-2</p><p>WARD-BECK SYSTEMS LTD.                          CIT</p><p>PA RTS LIST                                      M497A DUAL MASTER MODULE</p><p>PART       OEseR I PTIO N                         MFG        MFG PART NUMBE R          R25        Resistor J&quot; W 5% 15K                   Phil ips          R26            II                                      15K                     II</p><p>R27                         620          R2 B                        620          R29                         15K          R30                           15K          R31                           15K          R32                           15K          R33                           15K          R34                           15K           R35           R36                                       1K2                                       1K2                                 ..                                       1K2           R37           R38                         1K2                                 ..           R39                         delete           R40           R41           R42       Pote ntiometer                      AlB           WBS 10-015           R43                          delete           R44       Potentiometer                       AlB           WBS 10-015           R45       Res istor J&quot; W 5% 300                  PhJ,lips           R46           II                                       300                             1           R47                         300           R4 8                        300           R49                         620           R50                          620           R51                          75K           R52                          75K           R53                          75K</p><p>~           R54                          75K                                                                                       f                                                                                       a                                                                                      .c</p><p>R55                          300                                                                                      ps</p><p>-           R56                          300                                                                                 BS</p><p>R57 . \                      300           R58                    4     300                                                                                //W</p><p>R59                          620                                                                              :                                                                           tp                                                                       ht</p><p>3- 3</p><p>WAFID-BECK SYSTEMS LTD .                                   . TJ</p><p>PARTS L I ST</p><p>M497A DUAL MASTER MODULE</p><p>PART   OE seR I PTI ON                                    MFG         MF G PA RT NUM BER      R60    Re s i s t or ~ W 5% 620                           Phil i ps                                                                  II      R6 1                        1K5      R62                         1K5      R63                         15K      R64                         15K      R65                                470 K      R66                                2K2      R67                                2K2      R68                                3.3      R69                                3.3      R70                                3.3      R71                                3.3      R72                                390      R73                                390      R74                                75K      R75                                75K      R76                                75      R77                                75      R78                                75      R79                                75</p><p>Zl      To     I n t eg r ated C ircui t                      Nat ional       L</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20Dual%20Master%20Module%20%282%29.pdf">1978 - M497A - Dual Master Module (2).pdf</a>, p. 7</li>
+</ul>
+<details><summary>Parts List — 247 words · 1978 - M497A - Dual Master Module (2).pdf, page 15</summary><p>8-109 AMPLIFIE R SER IE S</p><p>8-109A</p><p>PART        DESCRIPTI ON                              MFG            MFG PART NUMBER</p><p>R8                                470    R9                                33 K    R38             &quot;                 620K</p><p>8- 109B</p><p>8-109C</p><p>PARTS       DESCR IPT ION                             MFG            MF G PART NUMBER</p><p>Cll             &quot;                                       &quot;                                                                                        ps</p><p>8-109-2-3</p><p>WARD-BECK SYSTEMS LTD .                                                            QT</p><p>I   8- 1090                                              PARTS LI ST</p><p>8-109 A MPL I F I ER SERIES</p><p>PART       DESCR I PTION                              MFG         MFG PART NUMBE R</p><p>R8                                 470     R9                                 75K     R38                                1M                                                             &quot;</p><p>8-109E</p><p>PART       DESCRIPT ION                               MFG         MFG PART NUMBER</p><p>8-109F</p><p>Cl1             &quot;                                                                                         ps</p><p>.                                                                                  BS</p><p>R15        Res istor 1/4W 5% 510                                                                             ://W                                                                          tp                                                                        ht</p><p>8- 109-2-4</p><p>WARD-BECK SYSTEMS LTD</p><p>8-109 AMPLIFIER SERIES</p><p>8-109G</p><p>PART        DESCIPTION                             MFG         MFG PART NUMBER</p><p>R15         Res i s tor 1/ 4W 5% 2K4</p><p>a                                                                                   .c                                                                               ps                                                                            BS                                                                        //W                                                                        :                                                                     tp                                                                   ht</p><p>8-109-2-5</p><p>WBS   •   M497A</p><p>L                                                                          o       RI GHT CHANNEl l e vel control R44 , Det e rm i nes                                                                                    output l e &#x27;lel o f a ll       RIGHT Cha nne l    outp u ts .                                                                                                                                                    I</p><p>ISpa ce f o r clwinne l Identificat i on des ig nu ion . ~ L L L L                                                                            o       LEFT CHANNEl level co ntro l AA2: Det ermines                                                                                    o ut put l evol of . 11 l.EFT Cha nne l outpu U .                                                                                                                                                    I</p><p>L L                                                                      • L                                                                                                                                             a</p><p>l                                                                                                                                        .c                                                                                                                                 ps                                                                                                                             BS</p><p>l                                                                                                                   //W</p><p>ISSUE OAT[</p><p>(\NBS] WARC-BECK S YSTEM S                                                                                                              :                                                                                                           tp</p><p>l                                                                                        DRNJ?MiIfOlEJ                                                                                                     ht</p><p>M4 97A                                                                                         ENG.                                                                                          CKD. · &quot;&quot;·, II....,                                                                                                                         DUAL MASTER MODULE                                                                                          APP. --;;:&quot;C</p><p class="bp">Also: <a href="Boilerplate.html#bp-31469efbb75d41fb">parts boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-f9047cc24e59219f">parts boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-96ad47f623969553">parts boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-b6fb06b0df0b3df7">parts boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-78514d612e328532">parts boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-f23dc35c18f10679">parts boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-6f540bf354095351">parts boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-2498855555b1a673">parts boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-6a0d9a2d95feb5f6">parts boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-432c6e0e0f3b7223">parts boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-a20fe5cf9f8bb423">parts boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-68014c3e03aca208">parts boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-8ba7e3f6febeeb99">parts boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-4fe7c04e92bfbba4">parts boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-fc430110d967ad62">parts boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-e02f95c943d90a94">parts boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-da18ca3d188f6e99">parts boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-89e999d452efb0c0">parts boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-fbadad4cb4ed41eb">parts boilerplate (7 devices)</a> · <a href="Boilerplate.html#bp-c5425a6cfcbf132b">parts boilerplate (7 devices)</a></p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20Dual%20Master%20Module%20%282%29.pdf">1978 - M497A - Dual Master Module (2).pdf</a>, p. 15</li>
+</ul>
+<details><summary>Parts List — 170 words · 1978 - M497A - P007 - 3-2.jpg, page 1</summary><p>M497A DUAL MASTER MODULE PART DESCRIPIION MFG MFG PART NUMBER CRIOO  Diode €T CR2 CR3 QRG Transistor 3 8 4 0f-8Ed SsS Sced-88a SSS Q6 919% Motoro]a 1N4003 _ Texas Nationa 1 TIP29B PN3569 8 1 83 0 2) 0[J 2qffTd9 Texas Nationa] [ TIP30B PN3645 [2oF-8ed-Ssss R1of Resistor aW 5 % 15k R2 15k R3 Or-88d SsS 15k R4 15k R5 15k 854e0-38d- 19 R6 15k RZ eo-8ea SSS 15k R8 15k R9 15k R10 0maseo &quot;Gt 15k 10 02[ Philips [p IJ SI] E1) A[J 213 0 O0I J[J TIJ 84 ) 0i9 0sj 79 8 3 0f |{0 82 ISJ SsJ 69) 4sj 059 R1l R12 R13 R14 R15 15k 15k 620 620 12k Ss7t- Sa Js] 5SJ 893 PT 10v 2k esj 0ej PT 10V 2k [Ej Sej {2J 41 R16 12k R17 Trim pot R18 Resistor XW 5 % 11k R19 Trim pot R20 $s Resistor aw 5% 0 11K Piher Philips Piher Philips s$ R21e54_JM- P9J R22 R23 R24 620 620 8K2 8K2 3-2</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P007%20-%203-2.jpg">1978 - M497A - P007 - 3-2.jpg</a>, p. 1</li>
+<li>also in: <a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P008%20-%203-3.jpg">1978 - M497A - P008 - 3-3.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P010%20-%203-5.jpg">1978 - M497A - P010 - 3-5.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P016%20-%208-109-2-4.jpg">1978 - M497A - P016 - 8-109-2-4.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P015%20-%208-109-2-3.jpg">1978 - M497A - P015 - 8-109-2-3.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20P017%20-%208-109-2-5.jpg">1978 - M497A - P017 - 8-109-2-5.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20Dual%20Master%20Module.pdf">1978 - M497A - Dual Master Module.pdf</a>, p. 16</li>
+</ul>
+<h2>Drawings (22)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="People.html#drawing-staff">Drawn by</a></th>
+<th><a href="People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>B 8-109-02-006</td>
+<td>8-109E BOOSTER AMPLIFIER / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%208-109-02-006%20-%208-109E%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>497-01-002</td>
+<td>Designation Revision Geb</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-01-002%20-%20DESIGNATION%20REVISION%20GEB.jpg">file</a></td>
+</tr>
+<tr>
+<td>497-01-002</td>
+<td>Ohm Left Level Insert</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-01-002%20-%20OHM%20LEFT%20LEVEL%20INSERT.jpg">file</a></td>
+</tr>
+<tr>
+<td>497-01-002</td>
+<td>Dual Master Module Functional Diagram</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RT.html">RT</a></td>
+<td>I</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20Dual%20Master%20Module%20%282%29.pdf">file</a> p.20</td>
+</tr>
+<tr>
+<td>497-01-002</td>
+<td>Ohm Left Monitor Output Mono Summing Output Program</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20Dual%20Master%20Module.pdf">file</a> p.20</td>
+</tr>
+<tr>
+<td>497-02-001</td>
+<td>Version Rarr Are Front Panel Level Controls</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td><a href="Person-RGL.html">RGL</a></td>
+<td>U</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-02-001%20-%20VERSION%20RARR%20ARE%20FRONT%20PANEL%20LEVEL%20CONTROLS.jpg">file</a></td>
+</tr>
+<tr>
+<td>497-02-001</td>
+<td>Iik Ioop Cii Cis</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-02-001%20-%20IIK%20IOOP%20CII%20CIS.jpg">file</a></td>
+</tr>
+<tr>
+<td>497-02-001</td>
+<td>Hoil Yecor Gpoht Pehel Uvez Cohtrols</td>
+<td></td>
+<td></td>
+<td></td>
+<td>U</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20Dual%20Master%20Module.pdf">file</a> p.22</td>
+</tr>
+<tr>
+<td>497-02-001</td>
+<td>Dual Master Module Schematic</td>
+<td></td>
+<td></td>
+<td><a href="Person-RO.html">RO</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/19xx%20-%20M497A%20-%20DOC%20-%20497-02-001%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>497-04-002</td>
+<td>Connector Rear View</td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-04-002%20-%20CONNECTOR%20REAR%20VIEW.jpg">file</a></td>
+</tr>
+<tr>
+<td>497-04-004</td>
+<td>Eng Dual Master Module</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-04-004%20-%20ENG%20DUAL%20MASTER%20MODULE.jpg">file</a></td>
+</tr>
+<tr>
+<td>497-06-002</td>
+<td>Wet Tipgoe</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-06-002%20-%20WET%20TIPGOE.jpg">file</a></td>
+</tr>
+<tr>
+<td>497-06-002</td>
+<td>Dual Master Module</td>
+<td></td>
+<td></td>
+<td>RAZ</td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20497-06-002%20-%20DUAL%20MASTER%20MODULE.jpg">file</a></td>
+</tr>
+<tr>
+<td>497-06-002</td>
+<td>Dual Master Module</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20Dual%20Master%20Module%20%282%29.pdf">file</a> p.24</td>
+</tr>
+<tr>
+<td>497-06-002</td>
+<td>Dual Master Module Component Layout</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20Dual%20Master%20Module.pdf">file</a> p.24</td>
+</tr>
+<tr>
+<td>8-109-02-006</td>
+<td>Rii Riz</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%208-109-02-006%20-%20RII%20RIZ.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-006</td>
+<td>Revision Nominal Value</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%208-109-02-006%20-%20REVISION%20NOMINAL%20VALUE.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-006</td>
+<td>Issuldate Reviston Nominal Value</td>
+<td></td>
+<td><a href="Person-GFL.html">GFL</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20Dual%20Master%20Module.pdf">file</a> p.27</td>
+</tr>
+<tr>
+<td>8-109-06-006</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%208-109-06-006.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-06-006</td>
+<td>Booster Amplifier</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-EUL.html">EUL</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%208-109-06-006%20-%20BOOSTER%20AMPLIFIER.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-06-006</td>
+<td>Dater Revision</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>8</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20Dual%20Master%20Module%20%282%29.pdf">file</a> p.29</td>
+</tr>
+<tr>
+<td>8-109-06-006</td>
+<td>Booster Amplifier Component Layout</td>
+<td></td>
+<td></td>
+<td></td>
+<td>8</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%20Dual%20Master%20Module.pdf">file</a> p.29</td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M497A&quot;,
+ &quot;name&quot;: &quot;Dual Master Module&quot;,
+ &quot;category&quot;: &quot;SUMMING&quot;,
+ &quot;year&quot;: 1978,
+ &quot;connections&quot;: {
+  &quot;from&quot;: &quot;RTO-144 sheet&quot;,
+  &quot;inputs&quot;: [
+   &quot;Left Sum IN&quot;,
+   &quot;Right SUM in&quot;,
+   &quot;Left Line IN&quot;,
+   &quot;Right Line in&quot;
+  ],
+  &quot;outputs&quot;: [
+   &quot;OUT LEFT&quot;,
+   &quot;OUT RIGHT&quot;,
+   &quot;VU OUT LEFT&quot;,
+   &quot;VU OUT RIGHT&quot;
+  ],
+  &quot;power&quot;: [
+   &quot;VEE-AUDIO&quot;,
+   &quot;VCC-AUDIO&quot;
+  ],
+  &quot;control&quot;: []
+ },
+ &quot;made_of&quot;: [
+  &quot;10-015&quot;,
+  &quot;8-109&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497A/1978 - 8-109-02-006 - 8-109E BOOSTER AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497A/1978 - M497A - 497-01-002 - DESIGNATION REVISION GEB.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497A/1978 - M497A - 497-01-002 - OHM LEFT LEVEL INSERT.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497A/1978 - M497A - 497-02-001 - IIK IOOP CII CIS.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497A/1978 - M497A - 497-02-001 - VERSION RARR ARE FRONT PANEL LEVEL CONTROLS.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;modules&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497A/1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497A/1978 - M497A - 497-04-004 - ENG DUAL MASTER MODULE.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497A/1978 - M497A - 497-06-002 - DUAL MASTER MODULE.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497A/1978 - M497A - 497-06-002 - WET TIPGOE.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497A/1978 - M497A - Dual Master Module (2).pdf&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 29,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497A/1978 - M497A - Dual Master Module.pdf&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 29,
+   &quot;holds&quot;: [
+    &quot;connections&quot;,
+    &quot;dates&quot;,
+    &quot;modules&quot;,
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497A/1978 - M497A - P001 - Title Page.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497A/1978 - M497A - P002 - 1-1.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497A/1978 - M497A - P003 - 1-2.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497A/1978 - M497A - P004 - 2-1.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497A/1978 - M497A - P005 - 2-2.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497A/1978 - M497A - P006 - 3-1.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497A/1978 - M497A - P007 - 3-2.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497A/1978 - M497A - P008 - 3-3.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497A/1978 - M497A - P009 - 3-4.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497A/1978 - M497A - P010 - 3-5.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497D/1978 - M497D - 8-109-02-006 - REVISION NOMINAL VALUE.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497D/1978 - M497D - 8-109-02-006 - RII RIZ.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497D/1978 - M497D - 8-109-06-006 - BOOSTER AMPLIFIER.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497D/1978 - M497D - 8-109-06-006.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497D/1978 - M497D - P016 - 8-109-1-1.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497D/1978 - M497D - P017 - 8-109-1-2.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497D/1978 - M497D - P018 - 8-109-2-1.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497D/1978 - M497D - P019 - 8-109-2-2.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497D/1978 - M497D - P020 - 8-109-2-3.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497D/1978 - M497D - P021 - 8-109-2-4.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497D/1978 - M497D - P022 - 8-109-2-5.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497A/19xx - M497A - DOC - 497-02-001 - DUAL MASTER MODULE SCHEMATIC.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M497A/19xx - M497A - DOC - R1400-R2400 - 012.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M499/19xx - M499 - DOC - R1400-R2400 - 007.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../_catalog/libcontrol/libcontrol.css"><script src="../_catalog/libcontrol/react.js"></script><script src="../_catalog/libcontrol/react-dom.js"></script><script src="../_catalog/libcontrol/libcontrol.js"></script><script src="../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M497A.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

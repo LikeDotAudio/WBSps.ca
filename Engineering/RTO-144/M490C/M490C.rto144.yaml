@@ -1,0 +1,76 @@
+code: M490C
+series: null
+type: M490C - Line Input
+row_count: null
+impedance: {}
+note: null
+audio:
+- port: A1
+  signal: Mic in A
+  dir: in
+  pos: P2-1
+  neg: P2-A
+  pad_pos: P2-1.A.1.P
+  pad_neg: P2-A.A.1.N
+- port: A2
+  signal: Mic in B
+  dir: in
+  pos: P2-3
+  neg: P2-C
+  pad_pos: P2-3.A.2.P
+  pad_neg: P2-C.A.2.N
+- port: A3
+  signal: Left PGRM 1
+  dir: io
+  pos: P1-1
+  neg: P1-2
+  pad_pos: P1-1.A.3.P
+  pad_neg: P1-2.A.3.N
+- port: A4
+  signal: Right PGRM 1
+  dir: io
+  pos: P1-3
+  neg: P1-4
+  pad_pos: P1-3.A.4.P
+  pad_neg: P1-4.A.4.N
+- port: B1
+  signal: Insert Send
+  dir: out
+  pos: P2-6
+  neg: P2-F
+  pad_pos: P2-6.B.1.P
+  pad_neg: P2-F.B.1.N
+- port: B2
+  signal: Insert Return
+  dir: in
+  pos: P2-7
+  neg: P2-H
+  pad_pos: P2-7.B.2.P
+  pad_neg: P2-H.B.2.N
+bus_out: []
+bus_in: []
+power:
+- rail: VEE-AUDIO
+  style: NEW
+  volts: -25
+  max_a: 0.2
+  supply: P2-19
+  ground: P2-20
+  link: 2
+- rail: VCC-AUDIO
+  style: NEW
+  volts: 25
+  max_a: 0.2
+  supply: P2-21
+  ground: P2-20
+  link: 1
+jumpers:
+- function: Insert
+  designation: JMP.6.7
+  from: P2-6
+  to: P2-7
+- function: Insert
+  designation: JMP.F.H
+  from: P2-F
+  to: P2-H
+logic: []

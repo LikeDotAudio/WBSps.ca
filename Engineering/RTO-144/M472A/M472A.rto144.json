@@ -1,0 +1,51 @@
+{
+  "code": "M472A",
+  "series": null,
+  "type": "M472A - Stereo Equalizer",
+  "row_count": null,
+  "impedance": {},
+  "note": null,
+  "audio": [
+    {
+      "port": "A1",
+      "signal": "EQ(unbalanced) IN LEFT",
+      "dir": "in",
+      "pos": "4",
+      "neg": null,
+      "pad_pos": "4.A.1.P",
+      "pad_neg": ".A.1.N"
+    },
+    {
+      "port": "A2",
+      "signal": "EQ(unbalanced) OUT LEFT",
+      "dir": "out",
+      "pos": "6",
+      "neg": null,
+      "pad_pos": "6.A.2.P",
+      "pad_neg": ".A.2.N"
+    },
+    {
+      "port": "A3",
+      "signal": "EQ(unbalanced) IN RIGHT",
+      "dir": "in",
+      "pos": "9",
+      "neg": null,
+      "pad_pos": "9.A.3.P",
+      "pad_neg": ".A.3.N"
+    },
+    {
+      "port": "A4",
+      "signal": "EQ(unbalanced) OUT RIGHT",
+      "dir": "out",
+      "pos": "11",
+      "neg": null,
+      "pad_pos": "11.A.4.P",
+      "pad_neg": ".A.4.N"
+    }
+  ],
+  "bus_out": [],
+  "bus_in": [],
+  "power": [],
+  "jumpers": [],
+  "logic": []
+}

@@ -1,0 +1,106 @@
+{
+  "code": "M466",
+  "series": "L-EFFECT",
+  "type": "DYNAMICS",
+  "row_count": 22,
+  "impedance": {
+    "line_in": 600,
+    "out": 600
+  },
+  "note": null,
+  "audio": [
+    {
+      "port": "A1",
+      "signal": "Dynamics-IN-LEFT",
+      "dir": "in",
+      "pos": "1",
+      "neg": "2",
+      "pad_pos": "1.A.1.P",
+      "pad_neg": "2.A.1.N"
+    },
+    {
+      "port": "A2",
+      "signal": "Dynamics-OUT-LEFT",
+      "dir": "in",
+      "pos": "15",
+      "neg": "16",
+      "pad_pos": "15.A.2.P",
+      "pad_neg": "16.A.2.N"
+    },
+    {
+      "port": "A3",
+      "signal": "Dynamics-IN-Right",
+      "dir": "in",
+      "pos": "1",
+      "neg": "2",
+      "pad_pos": "1.A.3.P",
+      "pad_neg": "2.A.3.N"
+    },
+    {
+      "port": "A4",
+      "signal": "Dynamics-OUT-IN",
+      "dir": "in",
+      "pos": "15",
+      "neg": "16",
+      "pad_pos": "15.A.4.P",
+      "pad_neg": "16.A.4.N"
+    },
+    {
+      "port": "B2",
+      "signal": "VU Meter",
+      "dir": "io",
+      "pos": "12",
+      "neg": "13",
+      "pad_pos": "12.B.2.P",
+      "pad_neg": "13.B.2.N"
+    },
+    {
+      "port": "B3",
+      "signal": "COMP TIE - 1",
+      "dir": "io",
+      "pos": "10",
+      "neg": "9",
+      "pad_pos": "10.B.3.P",
+      "pad_neg": "9.B.3.N"
+    },
+    {
+      "port": "B4",
+      "signal": "COMP TIE - 2",
+      "dir": "io",
+      "pos": "11",
+      "neg": "9",
+      "pad_pos": "11.B.4.P",
+      "pad_neg": "9.B.4.N"
+    }
+  ],
+  "bus_out": [],
+  "bus_in": [],
+  "power": [
+    {
+      "rail": "VEE-AUDIO",
+      "style": "NEW",
+      "volts": -25,
+      "max_a": 0.2,
+      "supply": "19",
+      "ground": "20",
+      "link": 2
+    },
+    {
+      "rail": "VCC-AUDIO",
+      "style": "NEW",
+      "volts": 25,
+      "max_a": 0.2,
+      "supply": "21",
+      "ground": "20",
+      "link": 1
+    }
+  ],
+  "jumpers": [],
+  "logic": [
+    {
+      "signal": "STEREO TIE BUS",
+      "pin": "10"
+    }
+  ],
+  "chassis": "22"
+}

@@ -1,0 +1,883 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M450B — Program - Summing Amplifier</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>M450B — Program - Summing Amplifier</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="Category-AMPLIFIERS.html">AMPLIFIERS</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../simulator.html?m=M450B">simulator &amp; front panel</a> · <a href="../_packages/M450B.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="Year-1979.html">1979|12</a> — manual issue date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"ISSuE /I 3 BS W OCTOBER 1979" in wbsps - website ARCHIVE/WBSPS 2008/PDF NEW/Ward-Beck Systems - M450B Program - Summing Amplifier - www.WBSps.ca.pdf</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+</tr>
+<tr>
+<td>Used in jobs</td>
+<td><a href="Job-790236.html">790236</a> (1979|12), <a href="Job-880651.html">880651</a> (1988|21)</td>
+</tr>
+<tr>
+<td>Variants</td>
+<td><a href="M450.html">M450</a>, <a href="M450A.html">M450A</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../Modules/AMPLIFIERS/M450B/index.html">Modules/AMPLIFIERS/M450B</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections and circuit (ideal SPICE model)</h2>
+<p><em>Inputs, outputs, power and control as its own documents name them (no RTO-144 sheet for it: pin numbers only where the page gives them). Run the generator, turn the gain, watch the VU.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M450B" data-n="Program - Summing Amplifier" data-cat="AMPLIFIERS"></div><svg class="wbs-panel" data-m="M450B" data-n="Program - Summing Amplifier" data-cat="AMPLIFIERS" role="img" aria-label="M450B front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M450B","title":"Program - Summing Amplifier","rto":{"code":"M450B","series":null,"type":"M450B","impedance":{},"audio":[{"port":"I1","signal":"Input","dir":"in","pos":"I1P","neg":"I1N","src_page":13}],"power":[{"rail":"+24V","volts":24.0,"supply":"+24V","ground":"GND","max_a":null}],"logic":[],"ground":[],"bus_out":[],"bus_in":[],"jumpers":[],"derived":true,"sources":["03f637fcb72c5f546c684b5cdb07c7379bf39389bfe901e29d7224336a448b16"],"note":"Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."},"parts":[],"parents":[{"label":"790236","href":"Job-790236.html","note":"Maryland L3242A"},{"label":"880651","href":"Job-880651.html","note":"TVO M1204B"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P03%20-%20TOC.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P03%20-%20TOC.jpg" alt="" data-f="Modules/AMPLIFIERS/M450B/1979 - M450B - P03 - TOC.jpg" data-size="320" onerror="wbsOff(this)">1979 - M450B - P03 - TOC.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/M450B%20-%20P03%20-%20TOC.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450B/M450B%20-%20P03%20-%20TOC.jpg" alt="" data-f="Modules/AMPLIFIERS/M450B/M450B - P03 - TOC.jpg" data-size="320" onerror="wbsOff(this)">M450B - P03 - TOC.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20450-02-003%20-%20PROGRAMISUMMING%20AMPLIFIER.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20450-02-003%20-%20PROGRAMISUMMING%20AMPLIFIER.jpg" alt="" data-f="Modules/AMPLIFIERS/M450B/1979 - M450B - 450-02-003 - PROGRAMISUMMING AMPLIFIER.jpg" data-size="320" onerror="wbsOff(this)">1979 - M450B - 450-02-003 - PROGRAMISUMMING AMPLIFIER.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20450-06-003%20-%20MASOB%20ENG.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20450-06-003%20-%20MASOB%20ENG.jpg" alt="" data-f="Modules/AMPLIFIERS/M450B/1979 - M450B - 450-06-003 - MASOB ENG.jpg" data-size="320" onerror="wbsOff(this)">1979 - M450B - 450-06-003 - MASOB ENG.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P01%20-%20Cover.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P01%20-%20Cover.jpg" alt="" data-f="Modules/AMPLIFIERS/M450B/1979 - M450B - P01 - Cover.jpg" data-size="320" onerror="wbsOff(this)">1979 - M450B - P01 - Cover.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P02.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P02.jpg" alt="" data-f="Modules/AMPLIFIERS/M450B/1979 - M450B - P02.jpg" data-size="320" onerror="wbsOff(this)">1979 - M450B - P02.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P04%20-%20Warranty.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P04%20-%20Warranty.jpg" alt="" data-f="Modules/AMPLIFIERS/M450B/1979 - M450B - P04 - Warranty.jpg" data-size="320" onerror="wbsOff(this)">1979 - M450B - P04 - Warranty.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P05%20-%201-1.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P05%20-%201-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M450B/1979 - M450B - P05 - 1-1.jpg" data-size="320" onerror="wbsOff(this)">1979 - M450B - P05 - 1-1.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P06%20-%202-1.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P06%20-%202-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M450B/1979 - M450B - P06 - 2-1.jpg" data-size="320" onerror="wbsOff(this)">1979 - M450B - P06 - 2-1.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P07%20-%202-2.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P07%20-%202-2.jpg" alt="" data-f="Modules/AMPLIFIERS/M450B/1979 - M450B - P07 - 2-2.jpg" data-size="320" onerror="wbsOff(this)">1979 - M450B - P07 - 2-2.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P08%20-%203-1.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P08%20-%203-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M450B/1979 - M450B - P08 - 3-1.jpg" data-size="320" onerror="wbsOff(this)">1979 - M450B - P08 - 3-1.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P09%20-%204-1.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P09%20-%204-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M450B/1979 - M450B - P09 - 4-1.jpg" data-size="320" onerror="wbsOff(this)">1979 - M450B - P09 - 4-1.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P10%20-%204-2.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P10%20-%204-2.jpg" alt="" data-f="Modules/AMPLIFIERS/M450B/1979 - M450B - P10 - 4-2.jpg" data-size="320" onerror="wbsOff(this)">1979 - M450B - P10 - 4-2.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P11%20-%204-3.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P11%20-%204-3.jpg" alt="" data-f="Modules/AMPLIFIERS/M450B/1979 - M450B - P11 - 4-3.jpg" data-size="320" onerror="wbsOff(this)">1979 - M450B - P11 - 4-3.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P12%20-%204-4.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P12%20-%204-4.jpg" alt="" data-f="Modules/AMPLIFIERS/M450B/1979 - M450B - P12 - 4-4.jpg" data-size="320" onerror="wbsOff(this)">1979 - M450B - P12 - 4-4.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P15%20-%20Pin%20Outs.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P15%20-%20Pin%20Outs.jpg" alt="" data-f="Modules/AMPLIFIERS/M450B/1979 - M450B - P15 - Pin Outs.jpg" data-size="320" onerror="wbsOff(this)">1979 - M450B - P15 - Pin Outs.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20WBS%20test%20procedures%203.jpeg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20WBS%20test%20procedures%203.jpeg" alt="" data-f="Modules/AMPLIFIERS/M450B/1979 - M450B - WBS test procedures 3.jpeg" data-size="320" onerror="wbsOff(this)">1979 - M450B - WBS test procedures 3.jpeg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20WBS%20test%20procedures%204.jpeg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20WBS%20test%20procedures%204.jpeg" alt="" data-f="Modules/AMPLIFIERS/M450B/1979 - M450B - WBS test procedures 4.jpeg" data-size="320" onerror="wbsOff(this)">1979 - M450B - WBS test procedures 4.jpeg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20WBS%20test%20procedures%205.jpeg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20WBS%20test%20procedures%205.jpeg" alt="" data-f="Modules/AMPLIFIERS/M450B/1979 - M450B - WBS test procedures 5.jpeg" data-size="320" onerror="wbsOff(this)">1979 - M450B - WBS test procedures 5.jpeg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20WBS%20test%20procedures%206.jpeg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20WBS%20test%20procedures%206.jpeg" alt="" data-f="Modules/AMPLIFIERS/M450B/1979 - M450B - WBS test procedures 6.jpeg" data-size="320" onerror="wbsOff(this)">1979 - M450B - WBS test procedures 6.jpeg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/M450B%20-%20P15%20-%20Pin%20Outs%281%29.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450B/M450B%20-%20P15%20-%20Pin%20Outs%281%29.jpg" alt="" data-f="Modules/AMPLIFIERS/M450B/M450B - P15 - Pin Outs(1).jpg" data-size="320" onerror="wbsOff(this)">M450B - P15 - Pin Outs(1).jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/M450B%20-%20P15%20-%20Pin%20Outs.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450B/M450B%20-%20P15%20-%20Pin%20Outs.jpg" alt="" data-f="Modules/AMPLIFIERS/M450B/M450B - P15 - Pin Outs.jpg" data-size="320" onerror="wbsOff(this)">M450B - P15 - Pin Outs.jpg</a><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20790236-01-001%20-%20IDENTICAL%20CHAN%20CHAN%20INSERT%20FADER.jpg"><img loading="lazy" src="../Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20790236-01-001%20-%20IDENTICAL%20CHAN%20CHAN%20INSERT%20FADER.jpg" alt="" data-f="Consoles/1970-1979/790236 - Maryland L3242A/1979 - 790236 - 790236-01-001 - IDENTICAL CHAN CHAN INSERT FADER.jpg" data-size="320" onerror="wbsOff(this)">1979 - 790236 - 790236-01-001 - IDENTICAL CHAN CHAN INSERT FADER.jpg</a><a href="../viewer.html?f=Consoles/1980-1989/880651%20-%20TVO%20M1204B/1988%20-%20880651%20-%2011.jpg"><img loading="lazy" src="../Consoles/1980-1989/880651%20-%20TVO%20M1204B/1988%20-%20880651%20-%2011.jpg" alt="" data-f="Consoles/1980-1989/880651 - TVO M1204B/1988 - 880651 - 11.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880651 - 11.jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M901/19xx%20-%20901-03-012%20-%20M450B%20MOUNTING%20BRACKET%20FOR%20M901%20TEST%20JIG%20-%20DRN%20PAS%20-%20ENG%20PAS%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/UNSORTED/M901/19xx%20-%20901-03-012%20-%20M450B%20MOUNTING%20BRACKET%20FOR%20M901%20TEST%20JIG%20-%20DRN%20PAS%20-%20ENG%20PAS%20-%20ISS%201.jpg" alt="" data-f="Modules/UNSORTED/M901/19xx - 901-03-012 - M450B MOUNTING BRACKET FOR M901 TEST JIG - DRN PAS - ENG PAS - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">19xx - 901-03-012 - M450B MOUNTING BRACKET FOR M901 TEST JIG - DRN PAS - ENG PAS - ISS 1.jpg</a><a href="../viewer.html?f=PHOTOS/Drawings/2012%20-%20Wilma.png"><img loading="lazy" src="../PHOTOS/Drawings/2012%20-%20Wilma.png" alt="" data-f="PHOTOS/Drawings/2012 - Wilma.png" data-size="320" onerror="wbsOff(this)">2012 - Wilma.png</a></div>
+<h2>Price history</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Price</th>
+<th>Listed as</th>
+<th>Effective</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-2005.html">2005|38</a></td>
+<td>used market value</td>
+<td>10.00</td>
+<td>M450B Program - Summing Amplifier</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/old website/PriceGuide.htm</td>
+</tr>
+<tr>
+<td><a href="Year-2006.html">2006|39</a></td>
+<td>used market value</td>
+<td>10.00</td>
+<td>M450B Program - Summing Amplifier</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/jan 2006 shell/priceguide.htm</td>
+</tr>
+</tbody>
+</table>
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td>manual issue date</td>
+<td><code>MANUAL ISSUE # 3 OCTOBER 1979</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P03%20-%20TOC.jpg">1979 - M450B - P03 - TOC.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td>manual issue date</td>
+<td><code>ISSuE /I 3 BS W OCTOBER 1979</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20Program%20-%20Summing%20Amplifier%20%282%29.pdf">1979 - M450B - Program - Summing Amplifier (2).pdf</a></td>
+</tr>
+<tr>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td>manual issue date</td>
+<td><code>MANUAL ISSUE # OCTOBER 1979</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20Program%20-%20Summing%20Amplifier.pdf">1979 - M450B - Program - Summing Amplifier.pdf</a></td>
+</tr>
+<tr>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td>manual issue date</td>
+<td><code>MANUAL ISSUE # 3 OCTOBER 1979</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/M450B%20-%20P03%20-%20TOC.jpg">M450B - P03 - TOC.jpg</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Physical manual inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Location</th>
+<th>Status</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M450B Program - Summing Amplifier</td>
+<td></td>
+<td></td>
+<td>PDF - Already scanned</td>
+</tr>
+</tbody>
+</table>
+<h2>Documents (2)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20Program%20-%20Summing%20Amplifier%20%282%29.pdf">1979 - M450B - Program - Summing Amplifier (2).pdf</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20Program%20-%20Summing%20Amplifier%20%282%29.pdf.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20Program%20-%20Summing%20Amplifier.pdf">1979 - M450B - Program - Summing Amplifier.pdf</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20Program%20-%20Summing%20Amplifier.pdf.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (22)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20450-02-003%20-%20PROGRAMISUMMING%20AMPLIFIER.jpg">1979 - M450B - 450-02-003 - PROGRAMISUMMING AMPLIFIER.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20450-02-003%20-%20PROGRAMISUMMING%20AMPLIFIER.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20450-06-003%20-%20MASOB%20ENG.jpg">1979 - M450B - 450-06-003 - MASOB ENG.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20450-06-003%20-%20MASOB%20ENG.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P01%20-%20Cover.jpg">1979 - M450B - P01 - Cover.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P01%20-%20Cover.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P02.jpg">1979 - M450B - P02.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P02.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P03%20-%20TOC.jpg">1979 - M450B - P03 - TOC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P03%20-%20TOC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P04%20-%20Warranty.jpg">1979 - M450B - P04 - Warranty.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P04%20-%20Warranty.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P05%20-%201-1.jpg">1979 - M450B - P05 - 1-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P05%20-%201-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P06%20-%202-1.jpg">1979 - M450B - P06 - 2-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P06%20-%202-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P07%20-%202-2.jpg">1979 - M450B - P07 - 2-2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P07%20-%202-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P08%20-%203-1.jpg">1979 - M450B - P08 - 3-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P08%20-%203-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P09%20-%204-1.jpg">1979 - M450B - P09 - 4-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P09%20-%204-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P10%20-%204-2.jpg">1979 - M450B - P10 - 4-2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P10%20-%204-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P11%20-%204-3.jpg">1979 - M450B - P11 - 4-3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P11%20-%204-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P12%20-%204-4.jpg">1979 - M450B - P12 - 4-4.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P12%20-%204-4.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P15%20-%20Pin%20Outs.jpg">1979 - M450B - P15 - Pin Outs.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P15%20-%20Pin%20Outs.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20WBS%20test%20procedures%203.jpeg">1979 - M450B - WBS test procedures 3.jpeg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20WBS%20test%20procedures%203.jpeg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20WBS%20test%20procedures%204.jpeg">1979 - M450B - WBS test procedures 4.jpeg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20WBS%20test%20procedures%204.jpeg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20WBS%20test%20procedures%205.jpeg">1979 - M450B - WBS test procedures 5.jpeg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20WBS%20test%20procedures%205.jpeg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20WBS%20test%20procedures%206.jpeg">1979 - M450B - WBS test procedures 6.jpeg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20WBS%20test%20procedures%206.jpeg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/M450B%20-%20P03%20-%20TOC.jpg">M450B - P03 - TOC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/M450B%20-%20P03%20-%20TOC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/M450B%20-%20P15%20-%20Pin%20Outs%281%29.jpg">M450B - P15 - Pin Outs(1).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/M450B%20-%20P15%20-%20Pin%20Outs%281%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/M450B%20-%20P15%20-%20Pin%20Outs.jpg">M450B - P15 - Pin Outs.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/M450B%20-%20P15%20-%20Pin%20Outs.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Parts list — board M450B (25 parts)</h2>
+<p><em>From <a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20Program%20-%20Summing%20Amplifier.pdf">1979 - M450B - Program - Summing Amplifier.pdf</a>, page 12 (scanned); also in <code>timelines/data/bom.csv</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>Part</th>
+<th>Value</th>
+<th>Manufacturer</th>
+<th>Mfr part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R5I</td>
+<td>Resistor 1/4w 100 Philips</td>
+<td>596</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R54</td>
+<td>Resistor 5% 27 Dale</td>
+<td>3.75w</td>
+<td></td>
+<td>CW-2B</td>
+</tr>
+<tr>
+<td>R5S</td>
+<td>Resistor 1/4w 620 Philips</td>
+<td>57</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C3</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C4</td>
+<td>pF Philips</td>
+<td>47</td>
+<td></td>
+<td>2222-638-70479</td>
+</tr>
+<tr>
+<td>C7</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C8</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C10</td>
+<td>uF/10 V Kemct</td>
+<td>33</td>
+<td></td>
+<td>T3900336M010AS</td>
+</tr>
+<tr>
+<td>C1I</td>
+<td>Aselco</td>
+<td>2200 PF</td>
+<td></td>
+<td>ca92-MC-222M</td>
+</tr>
+<tr>
+<td>C12</td>
+<td>pF Philips</td>
+<td>10</td>
+<td></td>
+<td>2222-638-10109</td>
+</tr>
+<tr>
+<td>C17</td>
+<td>uF/25 V Kemet</td>
+<td>10</td>
+<td></td>
+<td>T390C 1O6MO25AS</td>
+</tr>
+<tr>
+<td>C18</td>
+<td>pF Philips</td>
+<td>10</td>
+<td></td>
+<td>2222-638-10109</td>
+</tr>
+<tr>
+<td>C22</td>
+<td>uF/25 V Kemet</td>
+<td>10</td>
+<td></td>
+<td>T390C106MO25AS</td>
+</tr>
+<tr>
+<td>C25</td>
+<td>uF/25 V Philips</td>
+<td>22</td>
+<td></td>
+<td>L26ETF22</td>
+</tr>
+<tr>
+<td>C29</td>
+<td>uF/25 V Kemet</td>
+<td>10</td>
+<td></td>
+<td>T390C106M02545</td>
+</tr>
+<tr>
+<td>C3I</td>
+<td>PF Philips</td>
+<td>33</td>
+<td></td>
+<td>2222-638-58339</td>
+</tr>
+<tr>
+<td>CR6</td>
+<td>Dioce Motorola</td>
+<td></td>
+<td></td>
+<td>IN4003</td>
+</tr>
+<tr>
+<td>R10</td>
+<td>Trim Pot Piher PT 1Ov</td>
+<td>2k</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R16</td>
+<td>Resistor 1/4w 15K Philips</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R32</td>
+<td>Resistor W 5%</td>
+<td>1/2</td>
+<td></td>
+<td>6 . 8</td>
+</tr>
+<tr>
+<td>R3L</td>
+<td>Resistor W 5% 5.6</td>
+<td>1/4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R4L</td>
+<td>Resistor 1/2w 6.8</td>
+<td>57</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R46</td>
+<td>Resistor 1/4w 5.6</td>
+<td>59</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R50</td>
+<td>Resistor 1/4w 536 Philips</td>
+<td>330</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R55</td>
+<td>Resistor I/2w  59 Philips</td>
+<td>620</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Consoles &amp; jobs it is connected to (2)</h2>
+<p><em>Their own drawings name this module.</em></p>
+<table>
+<thead>
+<tr>
+<th>Job</th>
+<th>Year</th>
+<th>Drawing</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Job-790236.html">790236</a></td>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20790236-01-001%20-%20IDENTICAL%20CHAN%20CHAN%20INSERT%20FADER.jpg">1979 - 790236 - 790236-01-001 - IDENTICAL CHAN CHAN INSERT FADER.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="Job-880651.html">880651</a></td>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Consoles/1980-1989/880651%20-%20TVO%20M1204B/1988%20-%20880651%20-%2011.jpg">1988 - 880651 - 11.jpg</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (3)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M901/19xx%20-%20901-03-012%20-%20M450B%20MOUNTING%20BRACKET%20FOR%20M901%20TEST%20JIG%20-%20DRN%20PAS%20-%20ENG%20PAS%20-%20ISS%201.jpg">19xx - 901-03-012 - M450B MOUNTING BRACKET FOR M901 TEST JIG - DRN PAS - ENG PAS - ISS 1.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Products/RTO/RTO-144/19xx%20-%20RTO-144%20-%20Module%20RTO-144%20Jumper%20calculator.xlsx">19xx - RTO-144 - Module RTO-144 Jumper calculator.xlsx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/2012%20-%20Wilma.png">2012 - Wilma.png</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>General description (2)</h3>
+<details><summary>Description — 474 words · 1979 - M450B - Program - Summing Amplifier.pdf, page 6</summary><p>MLSOB PROGRAM/SUMMING AMPL IFIER The MLSOB is direct replacement for the M4so dual purpose Program/ Summing Amplifier_ When used 29 suMm ing amplifier , the balanced inpul signal is appl ied via external summing resistors t0 pins and 5 . In the program amplifier riode, the input signal is applied [0 pins and of the edge connector and proceeds via R1 and R2 to the pre= amplifiers, thus presenting an input impedance of approximately Sk ohms t0 the source The input connects t0 [Wo preamplifiers, one consisting of 01 through 03, the other 04 through 08 From the output 0f the upper inverting amplifier the signal proceeds [0 the input of the lower amplifier via R1O, RII and C6_ Rio Serves as differential control t0 equalize any smal| gain differences between the Lwo amplifier sections, resulting in optimum common mode rejection. When used as summing amplifier, the M4SOB is normally operating at unity gain, whereas in the program amplifier mode the gain may be adjusted anywhere between 24 and 40 dB Al gain changes are achieved by external resistance strapping On pins 9 , 10 and 11 on the module connector, affecting the feedback loop within the lower preamplifier. C10 couples the oulput of the preamplifier La the output section . 22, 013, 014, 015 and 016 represen t the lower half of the output amplifier. 12 dB/octave low-pass filter consisting of R22 , R23, R24 , ci, C13 and C14 imits the bandwidth beyond the audiu passband One half of the output signal is derived frorn the lower half of the output amplifier and is brought out Lo pin 13 via C24, L2 and R56 . The input signal ior the second output amplifier half is routed via R35 to pin of 21 , followed by 09 through 012. C23 LI and R55 couple the output of this Part of the amplifier to pin 12 The actively balanced output 0f the unit, appearing at Pins 12 and 13, is capable of del i vering Watt into 600 ohm load. 2-1</p><p>WAAD-BECK SYSTEMS LTD CIRcUIT DESCR IPTION M4SoB PROGRAM/SUMMING AMPLIFIER The bipolar +/ - 25 volt supply voltages applied to pins 1, and 15 are coupled via isolation diodes CRS and CR6 [0 C25 and C26 Additional filter nelworks recuce the supply voltage t0 +/ - 18 and +/ - 16 volts tO operate the preamplifiers J5 wel / a5 the integrated circuits As result of the symmetry Ot the circuit, the dc voltages at the collector ot 03, a5 wel as the junctiuns R2o/R21 , RL4/RL5 and R32/R33 wili be 4L potential of volts +7 - 0.5 volt. In the quiescent state, the amplifier requires current of approxi- mately 40 MA, rising to 80 to 100 MA at full outpul, delivering +30 dBm into 600 ohm load _ 2-2</p><p>WARD-BECK SYSTemS LTD_ GAIn</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20Program%20-%20Summing%20Amplifier.pdf">1979 - M450B - Program - Summing Amplifier.pdf</a>, p. 6</li>
+</ul>
+<details><summary>Description — 281 words · 1979 - M450B - P06 - 2-1.jpg, page 1</summary><p>M4SOp PROGRAM_ SUMMING AMPLIFIER Tne MLSOB direct replacement for the M450 dual purpose Program/ Summing Amplifier When used as summing amplifier  the balanced inpul signal applied via external sumiming res tOrs pins and the program amplifier miode the input signal applied pins and the ecge connector and proceeds via and R2 the Pre= amplifiers, thus presenting an input impedance approximately 5k ohms the source The inout connects [Wo preamplifiers, one consisting 03 the other through 08 through From the proceeds ouiput the input the upper inverting amplifier the signal the lower amplifier via R1O, RI and C6.</p><p>R1o serves differenLial control equalize any smal gain differences between the wo amplifier sections, resulting optimum common mode rejection. When used as summing amplifier_ the M4SOB normally opera ting unity gain; wherea the Program amplifier mode the gain may pe adjusted anywhere between and 40 dB . AMI gain changes are achieved Dy external resistance strapp ing un pins 10 and the module connector, affecting the feedback loop within the lower preamplifier C10 couples the oulput the preamplifier the output section.</p><p>22 013, 014, 015 and Q16 represent the lower half the output amplifier dB/ octave low-pass ter cons isting R22 R23, R24 C11, C13 and C14 limits the bandwidth beyond the audiu passband One half the output signal derived frorn the ower half the output amplifier and brought out pin via C24 and R56 The input signal for Lhe second output amplifier half R35 pin 21 followed by 09 through 012 C23  coupie tne output this Part tne amplifier pin routed via and R55 The actively balanced output the unit, appearing capable del i vering watt inlo 600 ohm load pins and 2-1</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P06%20-%202-1.jpg">1979 - M450B - P06 - 2-1.jpg</a>, p. 1</li>
+</ul>
+<h3>Specifications (2)</h3>
+<details><summary>Technical Data — 1109 words · 1979 - M450B - Program - Summing Amplifier (2).pdf, page 5</summary><p>M4508 P ROGRAM / SUMM ING&#x27; AM P L IFI ER</p><p>U&quot;ed a&quot;                           Used as                                        PROGRA M AMP L IFIE R             SUMMING AMPLIF IER</p><p>Gll i n :                           24    10   40 d B .               Unity. w i t h &quot; x ternal                                                                          pa ir M lS I&lt; o h m                                                                          re&quot;i &quot;tor&quot; .    No is e :                           _68 dBm                           _82 dBm    { 20 H ~ to 20 kHz)                  (a t 40 d B gain ) .             (at u nity !la i n ).</p><p>I n p u t Imp ed a n ce,            SI( ohm&quot; ,                        30k ohm s                                                                          ( w il h extern al p31r                                                                          o f 15k o hm rea iU&quot;r,, ) .</p><p>(no t 3 p pli c a b l.,).        90 d B o r- better fr&#x27;Om                                                                          30 Hz to 20 k Hz.</p><p>Maxi mu m i np ul Lev el:           - to to +6 d Bm.                  +30 dBm.</p><p>U&quot;e d as P ROGRAM or SUMMING AMPL IFI ER</p><p>F r &quot; q uen c y R&quot;spon &quot;e ,         +/- 0.25 dB fr-om            20 Hz to 20 kHz.</p><p>Ha r mo n ic C iS lOr- tlon :       Leu        t h ll n 0 ,2&#x27;:. THO from 20 Hz   10   20 kH z.</p><p>Sou rce Imped ance :                600 oh m&quot; mll x im u m , balanced.</p><p>Max imu m Oulpu t Le v e l ;        +30 d Bm in to 600 ohm ,,,&quot;d, b al anced .</p><p>Ou tpu t Imp e d a n ce:            Le ss t h a n 35 ohms. bal lln ced.</p><p>Lo a d      I mp eda n ce,          600 ohm&quot; minimum.</p><p>P ha,ing :                          Lo w numb e r t ermina ls of in pu t a nd OI.J lP UI                                        li re i n ph a se.</p><p>Power Requ i remCn lS :             +/ - 25 v&quot;lt s dc, 40 rnA qu I&quot;sCer&#x27;\1 &#x27;: u rr&quot;n l .                                        100 mA a t + 30 d Bm Oulpu t In to 600 &quot; h m&quot; ,                                                                                                        a                                                                                                      .c</p><p>Amb i en t Temper &quot; t u Nl :        o I&quot; 60 deg re&quot;, Ce ls iu s .                                                                                                  ps                                                                                            BS</p><p>Dimen&quot;io n,, ;                      1.1&quot; w id ., X 3 , S&quot; hi gh X 7,0&quot; deep                                        ( 28 ..... X 8 9 mm X 176 mm l                                                                                           W                                                                                          ://                                                                                     tp                                                                                   ht</p><p>W A R D - B E CK SYSTE MS L T D .</p><p>CIRCUIT OESCRlPTION</p><p>M4S0B PROGRAM!SUMM ING AMP L t F IER</p><p>The- M4500            I~    a d;r1l&lt;;1 rep la ~ o:me n t       ,,.            d u~1         purpose-     P rog r &#x27;ltn/ s.......... ng Amoll fler .</p><p>Whe1&gt; u s ed a. .. su....... ln g amg llf lt r , t ho! b at ance-d Inp ut &quot;,lgnal Is     a ppli ed vi a e-x l er n al su...... l ng re-s ,S lors 10 Di n . 3 ., n d 5. tn th e     progra&#x27;&quot; . mo ll f 1er mode , Ih e- In pu l !llgnal i• ., p p I1e-d to p i n s 4 and 6     o f 11&#x27;1* ..dg e conn ec lor a nd p roceed&quot; v i. Rl a nd R2 10 the p &quot; e -     ampll &#x27;i &quot; ,. s, Ih u s presenl ing an        In p u t ImPil d a nee o f app rox ima te ly     51&lt; o hm s to Ihe sou rce.</p><p>Th e i no&quot;t connec ts 10 IWO preamp li fiers,              o ne eQn$i &quot; lin g o f Q1 th r ou g h     0 3 , the o ther 0 4 Ihrou gh 00.</p><p>From    Ihe- OU tpU t of t he u pp e- &quot;        Inverting &#x27;l &quot;,p l if ie-r , t h e- signal     p roce-eds to the input 0 &#x27; I he- te.... e r &quot;mp l ifi &quot; r via AIO, All a n d C6.</p><p>R IO !let&quot;Ve-s a s e d lfte-   t le l con l rol 10 eQ u a t ize a n y               !l&#x27;ftlIll   g., I n     dif/e r e-.. ces between Ih. t o ., ,,,p llf le r s ec t lon _, res u lt in g       In      optImum     commo n mod e r ej eclion.</p><p>When use d as a 51.IIrm jng a&quot;,pt lf ler, t h e M450B is n o ,.ma l l y opera t Ing     a t u n it y golln , w h e r e a .. in t he program e mplif le-r mo d e t h e gai n may     be ad juue-d :any w here be t w...&quot;&#x27;n 24 &quot;nd 40 dB . All g a i n c ha &quot;&#x27; g e-s are     a cnie-ve-d by &quot; &quot;, t e r nal r e&quot;, is t a n c e- s t rappi ng on p &quot; &quot; 9 , 10 a nd 11 00     t ne modu le c ooneclor , ., ffecl i ng the reedb ack loop wlI h l n Ihe lower     o ,.ca mp II fi er.</p><p>CIO cou pt es           ou t(lut o f t he p re&quot; mp l lfi . r to Ih e ou tPU I sec tion . Z2 ,     013.     0 14 ,          &quot;nd 0 16 repr ........ t the lo wer 1&#x27;1.. 1&#x27; 0 1 t he eoeeu e     ampli fi e r .</p><p>A 12 dB / oc t .. &quot; .. low- p a n f i lter con. i&quot;&#x27; ting o f R22, R23, R24,              Cll , Cl3     a nd C14 11 ml 15 t h e b4 nd widlh b~yond the au d i o p &quot;&quot;&quot;b .. n d.</p><p>On&quot; h&gt;! I F of t he ou tPu l Si g n a l I s de rived f rom thO! lowe-&quot; h a lf o f lh .     ou t p u t a mpll fi &quot;r .. n d is brought OUI 10 p in 13 vt e C2 4, L 2 lind R56.</p><p>Th &quot; i .. pu t s ig na l for In.. s econ d out p ut a mp l i f ier h a lf Is rou ted &quot;i a     A35 to p in 2 o f Z 1, reue wee b y 09 t h rou g h 0 12. cn. LI .. nd R5S     &lt;;ouple Ihe OUlpU I o f I h lS P il r t o f t h e .. &quot;&quot;, t i f ler 10 p in 12 .                                                                                                            a</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20Program%20-%20Summing%20Amplifier%20%282%29.pdf">1979 - M450B - Program - Summing Amplifier (2).pdf</a>, p. 5</li>
+</ul>
+<details><summary>Technical Data — 208 words · 1979 - M450B - Program - Summing Amplifier.pdf, page 5</summary><p>MLSOB PROGRAM/suMM NG AMPLIFIER Used as PROGRAM AMPLIFIER Used a5 Summ NG AMPLIFIER Gain: 24 t0 40 dB _ Unity, with external pair of ISk onm resistors. Noise: (20 Hz to 20 kHz) -68 dBm (at 40 dB gain) . -82 dBm (at unity gain)_ Input Impedance Sk ohms. 30k ohms (with external pair of 1S5k ohm resistors) Input Isolation: (not applicable) 90 dB or better from 30 Hz [0 20 kHz . Maximum Input Level -10 t0 +6  dBm. +30 dBm . Used a5 PROGRAM Or sumMING AMPLIFIER Frequency Response: +/ - 0.25 dB from 20 Hz La 20 kHz . Harmonic Distortion: Less than 0 . 27 THD from 20 Hz [0 20 kHz . Source Impedance: 600 ohms max imum, balanced Max imum Output Level +30 dBm into 600 ohm Ioad, balanced Output Impedance: Less than 35 ohms, balanced. Load Impedance: 600 ohms minimum Phasing: Low number terminals of input and outpul are in phase Power Requirements +/ - 25 volts dc, L0 mA quiescent currenia 100 mA at +30 dBm uutput into 600 ohms . Amb ient Temperature: to 60 degress Celsius. Dimensions; 1.1&quot; wide X 3.5&quot; high X 7.0&quot; deep (28 mm X 89 mm X 178 mm )</p><p>WAAD-BECK Systems LTD_ CIRcuIT</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20Program%20-%20Summing%20Amplifier.pdf">1979 - M450B - Program - Summing Amplifier.pdf</a>, p. 5</li>
+</ul>
+<h3>Maintenance &amp; alignment (3)</h3>
+<details><summary>Test Procedure — 234 words · 1979 - M450B - WBS test procedures 5.jpeg, page 1</summary><p>MLSOB PROGRAM/SUMM NG AMPLIFIER Confirm that the GAIN control can vary the output level by +/ - dB in the Sum _ 5 _ Check common mode rejection with the test jig controls in the following positions: AMP MODE to SUM_ com. MODE to ON BYPASS _ Apply input. 400 Hz, dBm, 600 ohm signal to the test jig Adjust R1o for than -50 dBm .</p><p>minimum output which should be less 6 Test frequency response with the test jig controls set as follows: AMP MODE to LINE. com. MODE to OFF BYPASS_ GAIN fully CW_ b ) Apply kHz, -20 dBm, 600 ohm signal to the test jig input _ Adjust GAIN or input level slightly to obtain an output level of exactly +20 dBm.</p><p>Check frequency response from 20 Hz to 20 kHz confirming that the ou tput remains at +20 dBm +/ - 0.25 dB _ a) Check output noise in the Line Amp jig controls set as follows: AMP MODE to LINE _ com MODE to OFF PAD iv) GAIN fully Cw Mode with the test b ) Remove the input signal and confirm an output noise level of -68 dBm or better measured over bandwidth of 20 Hz to 20 kHz c) Check output noise level in the Sum Amp Mode by switching the AMP MODE selector to suM and the Pad Insert switch to BYPASS .</p><p>Page of</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20WBS%20test%20procedures%205.jpeg">1979 - M450B - WBS test procedures 5.jpeg</a>, p. 1</li>
+</ul>
+<details><summary>Test Procedure — 215 words · 1979 - M450B - WBS test procedures 6.jpeg, page 1</summary><p>MLSOB PROGRAMSUMM NG AMPLIFIER 8  a) level with the test jig controls in Test maximum output the following positions: AMP MODE to LINE . Com MODE to OFF BYPASS , iv GAIN fully CW_ b ) nominal input level of -10 dBm at kHz and Apply confirm maximum output capability of +30 dBm without clipping_ Check the supply current at +30 dBm out.</p><p>Confirm nominal current of 70 to 75 mA _ 9 a) total harmonic distortion in the Line Amp  Mode Measure the test jig controls remaining set as in step 8 . a) with At +30 dBm the total harmonic distortion should be out, less than 27 from 20 Hz to 20 kHz _ 6b ) Total harmonic distortion may also be measured in the Sum AMP _ Mode as follows: Switch the AMP MODE selector to suM Apply +30 dBm input signal iii) At +30 dBm out measure THD which should be less than 2% from 20 Hz to 20 kHz .</p><p>Step b ) be performed at the discretion of the test Note: may technician_ Its is to test the preamplifier under purpose operating conditions. However, signal source with maximum capabitity of +30 dBm is required  The WBS maximum output MGOSA distribution amplifier may be used for this application Page of</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20WBS%20test%20procedures%206.jpeg">1979 - M450B - WBS test procedures 6.jpeg</a>, p. 1</li>
+</ul>
+<details><summary>Adjustment — 83 words · 1979 - M450B - Program - Summing Amplifier.pdf, page 8</summary><p>M450B PROGRAMLSUMMING AMPLIFIER A Used d5 PROGRAM AMPLIEIER 40 Resistor or pot be tween Pi ns 9 &amp; 10 30 3 = 8 20 10 Resi stor or pot between pins 10 &amp; M1 2 Resistance in k ohms B Used a$ SUMMING AMPLIEIER 4 500 ohm trim Pot connected between pins 10 and 11 wilt cause the ampli fier to operate at unity gain with trim adjus tment 0 f t1 dB 3-1</p><p>WAAD-BECK systems LTD_ PARTS List MASOB PROGRAM/SUMMING AMPLIFIER PART</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20Program%20-%20Summing%20Amplifier.pdf">1979 - M450B - Program - Summing Amplifier.pdf</a>, p. 8</li>
+</ul>
+<h2>Drawings (7)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="People.html#drawing-staff">Drawn by</a></th>
+<th><a href="People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>—</td>
+<td>Com Ponent Layout</td>
+<td></td>
+<td>GEE</td>
+<td></td>
+<td>I</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20Program%20-%20Summing%20Amplifier%20%282%29.pdf">file</a> p.14</td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/M450B%20-%20P03%20-%20TOC.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/M450B%20-%20P15%20-%20Pin%20Outs%281%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/M450B%20-%20P15%20-%20Pin%20Outs.jpg">file</a></td>
+</tr>
+<tr>
+<td>450-02-003</td>
+<td>Programisumming Amplifier</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>U</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20Program%20-%20Summing%20Amplifier.pdf">file</a> p.13</td>
+</tr>
+<tr>
+<td>450-02-003</td>
+<td>Programisumming Amplifier</td>
+<td></td>
+<td></td>
+<td>RN</td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20450-02-003%20-%20PROGRAMISUMMING%20AMPLIFIER.jpg">file</a></td>
+</tr>
+<tr>
+<td>450-06-003</td>
+<td>Masob Eng</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>U</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20450-06-003%20-%20MASOB%20ENG.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M450B&quot;,
+ &quot;name&quot;: &quot;Program - Summing Amplifier&quot;,
+ &quot;category&quot;: &quot;AMPLIFIERS&quot;,
+ &quot;year&quot;: 1979,
+ &quot;connections&quot;: {
+  &quot;from&quot;: &quot;its own documents&quot;,
+  &quot;inputs&quot;: [
+   &quot;Input&quot;
+  ],
+  &quot;outputs&quot;: [],
+  &quot;power&quot;: [
+   &quot;+24V&quot;
+  ],
+  &quot;control&quot;: []
+ },
+ &quot;part_of&quot;: [
+  &quot;790236&quot;,
+  &quot;880651&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450B/1979 - M450B - 450-02-003 - PROGRAMISUMMING AMPLIFIER.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450B/1979 - M450B - 450-06-003 - MASOB ENG.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450B/1979 - M450B - P01 - Cover.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450B/1979 - M450B - P02.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450B/1979 - M450B - P03 - TOC.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450B/1979 - M450B - P04 - Warranty.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450B/1979 - M450B - P05 - 1-1.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450B/1979 - M450B - P06 - 2-1.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450B/1979 - M450B - P07 - 2-2.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450B/1979 - M450B - P08 - 3-1.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450B/1979 - M450B - P09 - 4-1.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450B/1979 - M450B - P10 - 4-2.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450B/1979 - M450B - P11 - 4-3.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450B/1979 - M450B - P12 - 4-4.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450B/1979 - M450B - P15 - Pin Outs.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450B/1979 - M450B - Program - Summing Amplifier (2).pdf&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 15,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450B/1979 - M450B - Program - Summing Amplifier.pdf&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 15,
+   &quot;holds&quot;: [
+    &quot;connections&quot;,
+    &quot;dates&quot;,
+    &quot;parts&quot;,
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450B/1979 - M450B - WBS test procedures 3.jpeg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450B/1979 - M450B - WBS test procedures 4.jpeg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450B/1979 - M450B - WBS test procedures 5.jpeg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450B/1979 - M450B - WBS test procedures 6.jpeg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450B/M450B - P03 - TOC.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450B/M450B - P15 - Pin Outs(1).jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450B/M450B - P15 - Pin Outs.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../_catalog/libcontrol/libcontrol.css"><script src="../_catalog/libcontrol/react.js"></script><script src="../_catalog/libcontrol/react-dom.js"></script><script src="../_catalog/libcontrol/libcontrol.js"></script><script src="../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M450B.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

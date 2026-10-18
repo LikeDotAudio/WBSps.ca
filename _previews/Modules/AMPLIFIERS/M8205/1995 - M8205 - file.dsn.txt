@@ -1,0 +1,123 @@
+OrCAD Capture schematic (.DSN). This binary format needs OrCAD Capture to view as a drawing.
+Text recovered from the file (part names, values, sheet titles, net names):
+
+TitleBlock0
+C:\ORCADWIN\CAPTURE\LIBRARY\CAPSYM.OLB
+Title
+Size
+Document Number
+Date:
+Sheet
+GND SIGNAL
+PORTLEFT-L
+PORTRIGHT-R
+VCC_BAR
+C.Normal
+M:\LIB\DSB.OLB
+CAP NP.Normal
+C:\ORCADWIN\CAPTURE\LIBRARY\DEVICE.OLB
+CAP.Normal
+FUSE.Normal
+RV.Normal
+LF353.Normal
+PNP.Normal
+M:\LIB\DEVICE.OLB
+BASE
+EMITTER
+COLLECTOR
+CON20.Normal
+R.Normal
+D.Normal
+C:\ORCADWIN\CAPTURE\LIBRARY\DSB.OLB
+NPN.Normal
+CAPACITOR VAR.Normal
+DIODE.Normal
+ANODE
+CATHODE
+CAP POL.Normal
+FUSE
+CAPACITOR VAR
+CAP NP
+LF353
+CAP POL
+DIODE
+CON20
+CAPACITOR
+PAGE1
+CMRL-A
+LEVEL-A
+A-LEVEL
+PAGE 1 OF 2
+M8204B.DSN
+JUNE 14,1997
+WARD-BECK SYSTEMS
+MONO AUDIO DISTRIBUTION
+AMPLIFIER -14-265 ISS 2 PCB
+page1
+PAGE2
+OrCAD Windows Design
+"Arial
+1Courier New
+BRARY\CAPSYM.OLB
+PAGE 1 OF 1
+** THE RESISTOR VALUE IS 30R FOR THE M8205B, AND 300R FOR THE M8205.
+ExSt
+PAGE 2 OF 2
+OUTPUTS
+INPUT
+SHIELD
+M8205B MONO
+AUDIO
+DISTRIBUTION
+AMPLIFIER
+SA14-146 TERMINAL INTERFACE  ASSEMBLY
+1ST PART FIELD
+2ND PART FIELD
+3RD PART FIELD
+4TH PART FIELD
+5TH PART FIELD
+6TH PART FIELD
+7TH PART FIELD
+PCB Footprint
+OrgAddr4
+OrgAddr3
+OrgAddr2
+OrgAddr1
+OrgName
+Cage Code
+RevCode
+Page Size
+Page Number
+Page Count
+Page Modify Date
+Page Create Date
+March  8, 1995
+Part Reference
+Value
+TIP29C
+TIP30C
+Name
+SDTSourceLibName
+C:\rd\ui\CLK2-95.LIB
+&bVm0
+Root Entry
+Cache
+Cells
+Parts
+Views
+Pages
+Schematic
+Library
+Symbols
+nP07
+$Types$
+Graphics
+Packages
+ExportBlocks
+Cells Directory
+Parts Directory
+Views Directory
+Symbols Directory
+Graphics Directory
+Packages Directory
+ExportBlocks Directory

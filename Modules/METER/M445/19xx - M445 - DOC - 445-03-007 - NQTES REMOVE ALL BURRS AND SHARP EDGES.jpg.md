@@ -1,0 +1,71 @@
+# 19xx - M445 - DOC - 445-03-007 - NQTES REMOVE ALL BURRS AND SHARP EDGES.jpg
+Wiki page: [Documents](../../../PAGES/Documents.md)
+
+
+- **Year:** unknown (unknown)
+- **Type:** document scan
+- **About:** M445
+
+## Text recovered by OCR
+
+> 0.468 DIA: 2 PLC'S 0.775 0.400 TAP 6-32 THR' 2 PLC'S; 1.750 0.750 2.150 .775 0.700 0.375 0.200 0.600 0oo 0.130 DIA. PLC'S. ISSUE REVISION APP DRN: WS M445 ENG WS EXTENDED RANGE METER CKD: APP JACK STRIP SCALE DISC NO:M: M445 ISSUE 1:1 CODE: MM445-7 B 445-03-007 NQTES; REMOVE ALL BURRS AND SHARP EDGES 2. TOLERANCES: XXX 0.015 XXXX 1 0.005 3. MATL: 0.375 THK NACOLITE.
+- **Original file:** `WBSps.env/PUBLIC/RECENT SCANS/WBSps.ca 20210320 - Scans/WBSps.ca 20210320 - Scans (122).jpg`
+- **SHA-256:** `109c16c69a5f6e6bbf523c07158a0d7a81706d3f690195d705c59b793f7d267a`
+- **Size:** 9,339,431 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 1 words corrected)
+
+```text
+0.468 DIA: 2 PLC'S
+0.775
+0.400
+TAP 6-32 THR' 2 PLC'S;
+1.750 0.750
+2.150
+.775
+0.700
+0.375
+0.200 0.600
+0oo
+0.130 DIA. PLC'S.
+ISSUE
+REVISION
+APP
+DRN: WS M445 ENG WS EXTENDED RANGE METER CKD: APP JACK STRIP SCALE DISC NO:M: M445 ISSUE 1:1 CODE: MM445-7 B 445-03-007
+NOTES;
+REMOVE ALL BURRS AND SHARP EDGES 2. TOLERANCES: XXX 0.015 XXXX 1 0.005 3. MATL: 0.375 THK NACOLITE.
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+0.468 DIA: 2 PLC'S
+0.775
+0.400
+TAP 6-32 THR' 2 PLC'S;
+1.750 0.750
+2.150
+.775
+0.700
+0.375
+0.200 0.600
+0oo
+0.130 DIA. PLC'S.
+ISSUE
+REVISION
+APP
+DRN: WS M445 ENG WS EXTENDED RANGE METER CKD: APP JACK STRIP SCALE DISC NO:M: M445 ISSUE 1:1 CODE: MM445-7 B 445-03-007
+NQTES;
+REMOVE ALL BURRS AND SHARP EDGES 2. TOLERANCES: XXX 0.015 XXXX 1 0.005 3. MATL: 0.375 THK NACOLITE.
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/METER/M445/19xx - M445 - DOC - 445-03-007 - NQTES REMOVE ALL BURRS AND SHARP EDGES.jpg","sha256":"109c16c69a5f6e6bbf523c07158a0d7a81706d3f690195d705c59b793f7d267a","kind":"doc","models":["M445"],"pages":1,"order":[{"page":1,"title_block":[{"number":"445-03-007","type":"wiring","title":"Nqtes Remove All Burrs And Sharp Edges","drawn":"WS","issue":"1"}]}],"drawing":{"svg":"_traces/109c16c69a5f6e6b.svg","viewBox":[2000,1414],"rotate":0,"number":"445-03-007","dtype":"03","outlines":"see _traces/109c16c69a5f6e6b.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/109c16c69a5f6e6b.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[984,536,"0.468 DIA;"],[984,556,"2 PLC'S."],[749,566,"0.775"],[634,594,"0.400 ."],[1039,636,"TAP"],[1084,636,"6-32 THR'"],[1039,656,"2 PLC'S"],[674,719,"1.750"],[631,754,"0.750"],[934,751,"2.150"],[911,786,"775"],[624,839,"0.700"],[854,859,"0.375"],[594,914,"0.200"],[629,939,"0.600"],[959,994,"0.130 DIA."],[959,1014,"2 PLC'S;"],[1374,1166,"ISSUE"],[1576,1166,"REVISION"],[212,1205,"NQTES;"],[1251,1191,"DRN:"],[1301,1191,"WS"],[1580,1205,"M445"],[1251,1216,"ENG."],[1301,1216,"WS"],[239,1246,"REMOVE"],[326,1246,"ALL BURRS"],[441,1246,"AND"],[489,1246,"SHARP EDGES"],[1251,1241,"CKD:"],[1438,1235,"EXTENDED"],[1595,1235,"RANGE"],[1705,1238,"METER"],[244,1267,"TOLERANCES:"],[379,1267,"XXX"],[479,1267,"0.015"],[561,1269,"XXXX"],[684,1269,"005"],[1251,1269,"APP_"],[1535,1268,"JACK"],[1620,1270,"STRIP"],[241,1286,"MATL:"],[316,1289,"0.375  THK,"],[429,1289,"NACOLITE:"],[1261,1294,"SCALE"],[1324,1296,"DISC NOM: |M445"],[1799,1292,"ISSUE"],[1262,1320,"1:1"],[1326,1319,"CODE:"],[1379,1319,"MM445-7"],[1532,1313,"445-03-007"],[1815,1163,"ApP"]]}}
+```

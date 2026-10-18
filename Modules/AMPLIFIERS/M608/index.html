@@ -1,0 +1,1851 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M612A</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../../../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../../../index.html">Index</a><a href="../../../Home.html">Wiki home</a><a href="../../../PAGES/Timeline.html">Timeline</a><a href="../../../search.html">Search</a><a href="../../../status.html">Status</a></div><h1>M612A</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="../../../PAGES/Category-AMPLIFIERS.html">AMPLIFIERS</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../../../simulator.html?m=M612A">simulator &amp; front panel</a> · <a href="../../../_packages/M612A.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="../../../PAGES/Year-1983.html">1983|16</a> — manual issue date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"ISSUE #1 JUNE 1983" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M612A - Audio DA/M612A - P025 - SA8-117.jpg</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="../../../PAGES/Year-1983.html">1983|16</a></td>
+</tr>
+<tr>
+<td>Variants</td>
+<td><a href="../../../PAGES/M612.html">M612</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/RAW%20Photos/NS-10/">DOCUMENTS/RAW Photos/NS-10</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/RAW%20SCANS/history%20-%20RAW%20IMAGES/">DOCUMENTS/RAW SCANS/history - RAW IMAGES</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="index.html">Modules/AMPLIFIERS/M608</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections and circuit (ideal SPICE model)</h2>
+<p><em>Inputs, outputs, power and control as its own documents name them (no RTO-144 sheet for it: pin numbers only where the page gives them). Run the generator, turn the gain, watch the VU.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M612A" data-n="" data-cat="AMPLIFIERS"></div><svg class="wbs-panel" data-m="M612A" data-n="" data-cat="AMPLIFIERS" role="img" aria-label="M612A front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M612A","title":"","rto":{"code":"M612A","series":null,"type":"M612A","impedance":{},"audio":[{"port":"I1","signal":"Input I","dir":"in","pos":"I1P","neg":"I1N","src_page":17},{"port":"I2","signal":"Input 2","dir":"in","pos":"I2P","neg":"I2N","src_page":17},{"port":"I3","signal":"Input J","dir":"in","pos":"I3P","neg":"I3N","src_page":17},{"port":"I4","signal":"Input 4","dir":"in","pos":"I4P","neg":"I4N","src_page":17},{"port":"I5","signal":"Input 5","dir":"in","pos":"I5P","neg":"I5N","src_page":17},{"port":"O1","signal":"Out Puts","dir":"out","pos":"O1P","neg":"O1N","src_page":14}],"power":[],"logic":[],"ground":["CHASSIS","GROUND RETURN TO","INSULATED GROUND BUS","GROUND BAR","TECHNICAL GROUND"],"bus_out":[],"bus_in":[],"jumpers":[],"derived":true,"sources":["f46b038736afa8ab652609698c4b2652c6d6a4cbb3d4d8450ab773ce4bfa811c"],"note":"Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."},"parts":[{"item":"8-117","title":"Indicator Driver Component Layout","label":"8-117 Indicator Driver Component","href":"Register-Sub-assemblies-n-nnn.html#8-117","note":"Sub-assemblies (n-nnn)"},{"item":"SA14-065","title":"Ase Noleh","label":"SA14-065 Ase Noleh","href":"Register-Circuit-boards-SA14-nnn.html#sa14-065","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-066","title":"Output Splitter Networks Component Layout","label":"SA14-066 Output Splitter Networks C","href":"Register-Circuit-boards-SA14-nnn.html#sa14-066","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-086","title":"B 14-086-02-001 - SA14-086 SUMMING AMPLIFIER ASSEMBLY - SCHEMATIC","label":"SA14-086 B 14-086-02-001 - SA14-086","href":"Register-Circuit-boards-SA14-nnn.html#sa14-086","note":"Circuit boards (SA14-nnn)"}],"parents":[{"label":"M609","href":"M609.html","note":"on 10 drawings with it: Remote sensitivity and D"},{"label":"M608","href":"M608.html","note":"on 10 drawings with it"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P001%20-%20Title%20Page.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P001%20-%20Title%20Page.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - P001 - Title Page.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - P001 - Title Page.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P016%20-%20SA14-065.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P016%20-%20SA14-065.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - P016 - SA14-065.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - P016 - SA14-065.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P025%20-%20SA8-117.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P025%20-%20SA8-117.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - P025 - SA8-117.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - P025 - SA8-117.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P030%20-%20SA14-066.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P030%20-%20SA14-066.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - P030 - SA14-066.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - P030 - SA14-066.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M608/19xx%20-%20M608%20-%20AD%20-%20WBSPS%20-%20AD%20-%20for%20the%20engineer%20who%20has%20everything.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M608/19xx%20-%20M608%20-%20AD%20-%20WBSPS%20-%20AD%20-%20for%20the%20engineer%20who%20has%20everything.jpg" alt="" data-f="Modules/AMPLIFIERS/M608/19xx - M608 - AD - WBSPS - AD - for the engineer who has everything.jpg" data-size="320" onerror="wbsOff(this)">19xx - M608 - AD - WBSPS - AD - for the engineer who has everything.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20066-06-001%20-%20AUDIO%20AMPLIFIER%20ASSEMBLY%20COMPONENT%20LAYOUT.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20066-06-001%20-%20AUDIO%20AMPLIFIER%20ASSEMBLY%20COMPONENT%20LAYOUT.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - 066-06-001 - AUDIO AMPLIFIER ASSEMBLY COMPONENT LAYOUT.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - 066-06-001 - AUDIO AMPLIFIER ASSEMBLY COMPONENT LAYOUT.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20066-06-001%20-%20OUTPUT%20SPLITTER%20NETWORK%20COMPONENT%20LAYOUT.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20066-06-001%20-%20OUTPUT%20SPLITTER%20NETWORK%20COMPONENT%20LAYOUT.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - 066-06-001 - OUTPUT SPLITTER NETWORK COMPONENT LAYOUT.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - 066-06-001 - OUTPUT SPLITTER NETWORK COMPONENT LAYOUT.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2012-01-001%20-%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20FUNCTIONAL%20DIAGRAM.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2012-01-001%20-%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20FUNCTIONAL%20DIAGRAM.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - 12-01-001 - AUDIO DISTRIBUTION AMPLIFIER FUNCTIONAL DIAGRAM.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - 12-01-001 - AUDIO DISTRIBUTION AMPLIFIER FUNCTIONAL DIAGRAM.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2012-02-002%20-%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20SCHEMATIC.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2012-02-002%20-%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20SCHEMATIC.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - 12-02-002 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - 12-02-002 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2012-02-003%20-%20BYBTEMD%20TECHNICAL%20GROUND.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2012-02-003%20-%20BYBTEMD%20TECHNICAL%20GROUND.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - 12-02-003 - BYBTEMD TECHNICAL GROUND.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - 12-02-003 - BYBTEMD TECHNICAL GROUND.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2012-06-003%20-%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20PERSPECTIVE%20LAYOUT.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2012-06-003%20-%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20PERSPECTIVE%20LAYOUT.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - 12-06-003 - AUDIO DISTRIBUTION AMPLIFIER PERSPECTIVE LAYOUT.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - 12-06-003 - AUDIO DISTRIBUTION AMPLIFIER PERSPECTIVE LAYOUT.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2014-065-02-001%20-%20ASE%20NOLEH.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2014-065-02-001%20-%20ASE%20NOLEH.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - 14-065-02-001 - ASE NOLEH.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - 14-065-02-001 - ASE NOLEH.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2014-065-02-001%20-%20UNLCS%20OTHERWISE%20SPECIFIEO%20LAST%20COMPOVENT%20DESICNATIONS.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2014-065-02-001%20-%20UNLCS%20OTHERWISE%20SPECIFIEO%20LAST%20COMPOVENT%20DESICNATIONS.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - 14-065-02-001 - UNLCS OTHERWISE SPECIFIEO LAST COMPOVENT DESICNATIONS.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - 14-065-02-001 - UNLCS OTHERWISE SPECIFIEO LAST COMPOVENT DESICNATIONS.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2014-065-06-001.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2014-065-06-001.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - 14-065-06-001.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - 14-065-06-001.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2014-066-02-001%20-%20OUTPUT%20SPLITTER%20NETWORK%20SCHEMATIC.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2014-066-02-001%20-%20OUTPUT%20SPLITTER%20NETWORK%20SCHEMATIC.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - 14-066-02-001 - OUTPUT SPLITTER NETWORK SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - 14-066-02-001 - OUTPUT SPLITTER NETWORK SCHEMATIC.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2014-066-02-001.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2014-066-02-001.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - 14-066-02-001.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - 14-066-02-001.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2014-066-06-001.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2014-066-06-001.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - 14-066-06-001.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - 14-066-06-001.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20612-01-001%20-%20OVERLOAD%20REF%20NORMAL%20REF.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20612-01-001%20-%20OVERLOAD%20REF%20NORMAL%20REF.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - 612-01-001 - OVERLOAD REF NORMAL REF.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - 612-01-001 - OVERLOAD REF NORMAL REF.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20612-02-002%20-%20INDICATOR%20DRIVER.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20612-02-002%20-%20INDICATOR%20DRIVER.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - 612-02-002 - INDICATOR DRIVER.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - 612-02-002 - INDICATOR DRIVER.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20612-02-003%20-%20STAT%20ION%20TECHNICAL%20GROUND%20INSULATED%20GROUND%20BAR%20TIPLE.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20612-02-003%20-%20STAT%20ION%20TECHNICAL%20GROUND%20INSULATED%20GROUND%20BAR%20TIPLE.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - 612-02-003 - STAT ION TECHNICAL GROUND INSULATED GROUND BAR TIPLE.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - 612-02-003 - STAT ION TECHNICAL GROUND INSULATED GROUND BAR TIPLE.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20612-06-003.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20612-06-003.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - 612-06-003.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - 612-06-003.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%208-117-02-001%20-%20INDICATOR%20DRIVER%20ASSEMBLY%20SCHEMATIC.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%208-117-02-001%20-%20INDICATOR%20DRIVER%20ASSEMBLY%20SCHEMATIC.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - 8-117-02-001 - INDICATOR DRIVER ASSEMBLY SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - 8-117-02-001 - INDICATOR DRIVER ASSEMBLY SCHEMATIC.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%208-117-02-001.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%208-117-02-001.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - 8-117-02-001.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - 8-117-02-001.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%208-117-06-001%20-%20INDICATOR%20DRIVER%20ASSEMBLY%20COMPONENT%20LAYOUT.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%208-117-06-001%20-%20INDICATOR%20DRIVER%20ASSEMBLY%20COMPONENT%20LAYOUT.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - 8-117-06-001 - INDICATOR DRIVER ASSEMBLY COMPONENT LAYOUT.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - 8-117-06-001 - INDICATOR DRIVER ASSEMBLY COMPONENT LAYOUT.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%208-117-06-001%20-%20NOTES%20TRANSISTORS.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%208-117-06-001%20-%20NOTES%20TRANSISTORS.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - 8-117-06-001 - NOTES TRANSISTORS.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - 8-117-06-001 - NOTES TRANSISTORS.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3251.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3251.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3251.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3251.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3252.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3252.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3252.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3252.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3253.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3253.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3253.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3253.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3254.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3254.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3254.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3254.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3255.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3255.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3255.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3255.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3256.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3256.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3256.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3256.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3257.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3257.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3257.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3257.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3258.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3258.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3258.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3258.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3259.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3259.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3259.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3259.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3260.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3260.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3260.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3260.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3261.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3261.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3261.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3261.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3262.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3262.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3262.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3262.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3263.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3263.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3263.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3263.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3264.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3264.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3264.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3264.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3265.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3265.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3265.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3265.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3266.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3266.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3266.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3266.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3267.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3267.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3267.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3267.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3268.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3268.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3268.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3268.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3269.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3269.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3269.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3269.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3270.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3270.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3270.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3270.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3271.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3271.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3271.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3271.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3272.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3272.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3272.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3272.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3273.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3273.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3273.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3273.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3274.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3274.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3274.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3274.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3275.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3275.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3275.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3275.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3276.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3276.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3276.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3276.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3277.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3277.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3277.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3277.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3278.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3278.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3278.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3278.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3279.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3279.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3279.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3279.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3280.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3280.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3280.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3280.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3281.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3281.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3281.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3281.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3282.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3282.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3282.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3282.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3283.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3283.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3283.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3283.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3284.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3284.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3284.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3284.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3285.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3285.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3285.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3285.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3286.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3286.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3286.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3286.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3287.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3287.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3287.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3287.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3288.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3288.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3288.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3288.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3289.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3289.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3289.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - IMG_3289.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P002.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P002.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - P002.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - P002.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P003.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P003.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - P003.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - P003.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P004%20-%201-1.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P004%20-%201-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - P004 - 1-1.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - P004 - 1-1.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P005%20-%201-2.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P005%20-%201-2.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - P005 - 1-2.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - P005 - 1-2.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P006%20-%202-1.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P006%20-%202-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - P006 - 2-1.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - P006 - 2-1.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P007%20-%202-2.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P007%20-%202-2.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - P007 - 2-2.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - P007 - 2-2.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P008%20-%203-1.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P008%20-%203-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - P008 - 3-1.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - P008 - 3-1.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P009%20-%204-1.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P009%20-%204-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - P009 - 4-1.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - P009 - 4-1.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P010%20-%205-1.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P010%20-%205-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - P010 - 5-1.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - P010 - 5-1.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P015.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P015.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - P015.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - P015.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P017%20-%20SA14-065%20-%201-1.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P017%20-%20SA14-065%20-%201-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - P017 - SA14-065 - 1-1.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - P017 - SA14-065 - 1-1.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P018%20-%20SA14-065%20-%201-2.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P018%20-%20SA14-065%20-%201-2.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - P018 - SA14-065 - 1-2.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - P018 - SA14-065 - 1-2.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P019%20-%20SA14-065%20-%202-1.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P019%20-%20SA14-065%20-%202-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - P019 - SA14-065 - 2-1.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - P019 - SA14-065 - 2-1.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P020%20-%20SA14-065%20-%202-2.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P020%20-%20SA14-065%20-%202-2.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - P020 - SA14-065 - 2-2.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - P020 - SA14-065 - 2-2.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P021%20-%20SA14-065%20-%202-3.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P021%20-%20SA14-065%20-%202-3.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - P021 - SA14-065 - 2-3.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - P021 - SA14-065 - 2-3.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P022%20-%20SA14-065%20-%202-4.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P022%20-%20SA14-065%20-%202-4.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - P022 - SA14-065 - 2-4.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - P022 - SA14-065 - 2-4.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P026%20-%20SA8-117%20-%201-1.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P026%20-%20SA8-117%20-%201-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - P026 - SA8-117 - 1-1.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - P026 - SA8-117 - 1-1.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P027%20-%20SA8-117%20-%202-1.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P027%20-%20SA8-117%20-%202-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - P027 - SA8-117 - 2-1.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - P027 - SA8-117 - 2-1.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P031%20-%20SA14-066%20-%201-1.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P031%20-%20SA14-066%20-%201-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/1983 - M612A - P031 - SA14-066 - 1-1.jpg" data-size="320" onerror="wbsOff(this)">1983 - M612A - P031 - SA14-066 - 1-1.jpg</a><a href="../../../viewer.html?f=DOCUMENTS/RAW%20Photos/NS-10/19xx%20-%20DOC%20-%20NS-10%20005.jpg"><img loading="lazy" src="../../../DOCUMENTS/RAW%20Photos/NS-10/19xx%20-%20DOC%20-%20NS-10%20005.jpg" alt="" data-f="DOCUMENTS/RAW Photos/NS-10/19xx - DOC - NS-10 005.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - NS-10 005.jpg</a><a href="../../../viewer.html?f=DOCUMENTS/RAW%20Photos/NS-10/19xx%20-%20DOC%20-%20NS-10%20007.jpg"><img loading="lazy" src="../../../DOCUMENTS/RAW%20Photos/NS-10/19xx%20-%20DOC%20-%20NS-10%20007.jpg" alt="" data-f="DOCUMENTS/RAW Photos/NS-10/19xx - DOC - NS-10 007.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - NS-10 007.jpg</a><a href="../../../viewer.html?f=DOCUMENTS/RAW%20Photos/NS-10/19xx%20-%20DOC%20-%20NS-10%20008.jpg"><img loading="lazy" src="../../../DOCUMENTS/RAW%20Photos/NS-10/19xx%20-%20DOC%20-%20NS-10%20008.jpg" alt="" data-f="DOCUMENTS/RAW Photos/NS-10/19xx - DOC - NS-10 008.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - NS-10 008.jpg</a><a href="../../../viewer.html?f=DOCUMENTS/RAW%20SCANS/history%20-%20RAW%20IMAGES/19xx%20-%20DOC%20-%20WBSPS%20-%20AD%20-%20for%20the%20engineer%20who%20has%20everything.jpg"><img loading="lazy" src="../../../DOCUMENTS/RAW%20SCANS/history%20-%20RAW%20IMAGES/19xx%20-%20DOC%20-%20WBSPS%20-%20AD%20-%20for%20the%20engineer%20who%20has%20everything.jpg" alt="" data-f="DOCUMENTS/RAW SCANS/history - RAW IMAGES/19xx - DOC - WBSPS - AD - for the engineer who has everything.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - WBSPS - AD - for the engineer who has everything.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/19xx%20-%2014-065-02-001%20%282%29.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/19xx%20-%2014-065-02-001%20%282%29.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/19xx - 14-065-02-001 (2).jpg" data-size="320" onerror="wbsOff(this)">19xx - 14-065-02-001 (2).jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/19xx%20-%2014-065-02-001.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/19xx%20-%2014-065-02-001.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/19xx - 14-065-02-001.jpg" data-size="320" onerror="wbsOff(this)">19xx - 14-065-02-001.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/19xx%20-%2014-066-02-001%20%282%29.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/19xx%20-%2014-066-02-001%20%282%29.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/19xx - 14-066-02-001 (2).jpg" data-size="320" onerror="wbsOff(this)">19xx - 14-066-02-001 (2).jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/19xx%20-%2014-066-02-001.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/19xx%20-%2014-066-02-001.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/19xx - 14-066-02-001.jpg" data-size="320" onerror="wbsOff(this)">19xx - 14-066-02-001.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/19xx%20-%208-117-02-001.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M612A/19xx%20-%208-117-02-001.jpg" alt="" data-f="Modules/AMPLIFIERS/M612A/19xx - 8-117-02-001.jpg" data-size="320" onerror="wbsOff(this)">19xx - 8-117-02-001.jpg</a><a href="../../../viewer.html?f=PHOTOS/Drawings/19xx%20-%208-117-02-001%20-%20SA8-117%20INDICATOR%20DRIVER%20ASSEMBLY%20SCHEMATIC%20-%20ISS%201.jpg"><img loading="lazy" src="../../../PHOTOS/Drawings/19xx%20-%208-117-02-001%20-%20SA8-117%20INDICATOR%20DRIVER%20ASSEMBLY%20SCHEMATIC%20-%20ISS%201.jpg" alt="" data-f="PHOTOS/Drawings/19xx - 8-117-02-001 - SA8-117 INDICATOR DRIVER ASSEMBLY SCHEMATIC - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">19xx - 8-117-02-001 - SA8-117 INDICATOR DRIVER ASSEMBLY SCHEMATIC - ISS 1.jpg</a></div>
+<h2>Price history</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Price</th>
+<th>Listed as</th>
+<th>Effective</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Year-2005.html">2005|38</a></td>
+<td>used market value</td>
+<td>25.00</td>
+<td>M612A Audio DA</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/old website/PriceGuide.htm</td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-2006.html">2006|39</a></td>
+<td>used market value</td>
+<td>25.00</td>
+<td>M612A Audio DA</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/jan 2006 shell/priceguide.htm</td>
+</tr>
+</tbody>
+</table>
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Year-1983.html">1983|16</a></td>
+<td>month &amp; year</td>
+<td><code>JUNE 1983</code></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20Audio%20DA%20%282%29.pdf">1983 - M612A - Audio DA (2).pdf</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1983.html">1983|16</a></td>
+<td>month &amp; year</td>
+<td><code>JUNE 1983</code></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20Audio%20DA%20%282%29.pdf">1983 - M612A - Audio DA (2).pdf</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1983.html">1983|16</a></td>
+<td>manual issue date</td>
+<td><code>MANUAL ISSUE #L JUNE 1983</code></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P001%20-%20Title%20Page.jpg">1983 - M612A - P001 - Title Page.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1983.html">1983|16</a></td>
+<td>month &amp; year</td>
+<td><code>JUNE 1983</code></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P016%20-%20SA14-065.jpg">1983 - M612A - P016 - SA14-065.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1983.html">1983|16</a></td>
+<td>manual issue date</td>
+<td><code>ISSUE #1 JUNE 1983</code></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P025%20-%20SA8-117.jpg">1983 - M612A - P025 - SA8-117.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1983.html">1983|16</a></td>
+<td>manual issue date</td>
+<td><code>ISSUE #L JUNE 1983</code></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P030%20-%20SA14-066.jpg">1983 - M612A - P030 - SA14-066.jpg</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Physical manual inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Location</th>
+<th>Status</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M612A - Audio DA</td>
+<td></td>
+<td>DUPLICATE</td>
+<td>SCANNED BUT NEEDS STICHING</td>
+</tr>
+<tr>
+<td>M612A - Audio DA</td>
+<td></td>
+<td></td>
+<td>PDF - Already scanned</td>
+</tr>
+<tr>
+<td>M612A - Audio DA</td>
+<td></td>
+<td></td>
+<td>Recently scanned and stiched by WB</td>
+</tr>
+</tbody>
+</table>
+<h2>Ads &amp; brochures</h2>
+<ul>
+<li><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M608/19xx%20-%20M608%20-%20AD%20-%20WBSPS%20-%20AD%20-%20for%20the%20engineer%20who%20has%20everything.jpg">19xx - M608 - AD - WBSPS - AD - for the engineer who has everything.jpg</a></li>
+<li><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M609/19xx%20-%20M609%20-%20AD%20-%20WBSPS%20-%20AD%20-%20for%20the%20engineer%20who%20has%20everything.jpg">19xx - M609 - AD - WBSPS - AD - for the engineer who has everything.jpg</a></li>
+<li><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/19xx%20-%20M612A%20-%20AD%20-%20WBSPS%20-%20AD%20-%20for%20the%20engineer%20who%20has%20everything.jpg">19xx - M612A - AD - WBSPS - AD - for the engineer who has everything.jpg</a></li>
+</ul>
+<h2>Documents (2)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20Audio%20DA%20%282%29.pdf">1983 - M612A - Audio DA (2).pdf</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20Audio%20DA%20%282%29.pdf.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20Audio%20DA.pdf">1983 - M612A - Audio DA.pdf</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20Audio%20DA.pdf.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (98)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20066-06-001%20-%20AUDIO%20AMPLIFIER%20ASSEMBLY%20COMPONENT%20LAYOUT.jpg">1983 - M612A - 066-06-001 - AUDIO AMPLIFIER ASSEMBLY COMPONENT LAYOUT.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20066-06-001%20-%20AUDIO%20AMPLIFIER%20ASSEMBLY%20COMPONENT%20LAYOUT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20066-06-001%20-%20OUTPUT%20SPLITTER%20NETWORK%20COMPONENT%20LAYOUT.jpg">1983 - M612A - 066-06-001 - OUTPUT SPLITTER NETWORK COMPONENT LAYOUT.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20066-06-001%20-%20OUTPUT%20SPLITTER%20NETWORK%20COMPONENT%20LAYOUT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2012-01-001%20-%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20FUNCTIONAL%20DIAGRAM.jpg">1983 - M612A - 12-01-001 - AUDIO DISTRIBUTION AMPLIFIER FUNCTIONAL DIAGRAM.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2012-01-001%20-%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20FUNCTIONAL%20DIAGRAM.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2012-02-002%20-%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20SCHEMATIC.jpg">1983 - M612A - 12-02-002 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2012-02-002%20-%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2012-02-003%20-%20BYBTEMD%20TECHNICAL%20GROUND.jpg">1983 - M612A - 12-02-003 - BYBTEMD TECHNICAL GROUND.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2012-02-003%20-%20BYBTEMD%20TECHNICAL%20GROUND.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2012-06-003%20-%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20PERSPECTIVE%20LAYOUT.jpg">1983 - M612A - 12-06-003 - AUDIO DISTRIBUTION AMPLIFIER PERSPECTIVE LAYOUT.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2012-06-003%20-%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20PERSPECTIVE%20LAYOUT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2014-065-02-001%20-%20ASE%20NOLEH.jpg">1983 - M612A - 14-065-02-001 - ASE NOLEH.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2014-065-02-001%20-%20ASE%20NOLEH.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2014-065-02-001%20-%20UNLCS%20OTHERWISE%20SPECIFIEO%20LAST%20COMPOVENT%20DESICNATIONS.jpg">1983 - M612A - 14-065-02-001 - UNLCS OTHERWISE SPECIFIEO LAST COMPOVENT DESICNATIONS.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2014-065-02-001%20-%20UNLCS%20OTHERWISE%20SPECIFIEO%20LAST%20COMPOVENT%20DESICNATIONS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2014-065-06-001.jpg">1983 - M612A - 14-065-06-001.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2014-065-06-001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2014-066-02-001%20-%20OUTPUT%20SPLITTER%20NETWORK%20SCHEMATIC.jpg">1983 - M612A - 14-066-02-001 - OUTPUT SPLITTER NETWORK SCHEMATIC.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2014-066-02-001%20-%20OUTPUT%20SPLITTER%20NETWORK%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2014-066-02-001.jpg">1983 - M612A - 14-066-02-001.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2014-066-02-001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2014-066-06-001.jpg">1983 - M612A - 14-066-06-001.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2014-066-06-001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20612-01-001%20-%20OVERLOAD%20REF%20NORMAL%20REF.jpg">1983 - M612A - 612-01-001 - OVERLOAD REF NORMAL REF.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20612-01-001%20-%20OVERLOAD%20REF%20NORMAL%20REF.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20612-02-002%20-%20INDICATOR%20DRIVER.jpg">1983 - M612A - 612-02-002 - INDICATOR DRIVER.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20612-02-002%20-%20INDICATOR%20DRIVER.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20612-02-003%20-%20STAT%20ION%20TECHNICAL%20GROUND%20INSULATED%20GROUND%20BAR%20TIPLE.jpg">1983 - M612A - 612-02-003 - STAT ION TECHNICAL GROUND INSULATED GROUND BAR TIPLE.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20612-02-003%20-%20STAT%20ION%20TECHNICAL%20GROUND%20INSULATED%20GROUND%20BAR%20TIPLE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20612-06-003.jpg">1983 - M612A - 612-06-003.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20612-06-003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%208-117-02-001%20-%20INDICATOR%20DRIVER%20ASSEMBLY%20SCHEMATIC.jpg">1983 - M612A - 8-117-02-001 - INDICATOR DRIVER ASSEMBLY SCHEMATIC.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%208-117-02-001%20-%20INDICATOR%20DRIVER%20ASSEMBLY%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%208-117-02-001.jpg">1983 - M612A - 8-117-02-001.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%208-117-02-001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%208-117-06-001%20-%20INDICATOR%20DRIVER%20ASSEMBLY%20COMPONENT%20LAYOUT.jpg">1983 - M612A - 8-117-06-001 - INDICATOR DRIVER ASSEMBLY COMPONENT LAYOUT.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%208-117-06-001%20-%20INDICATOR%20DRIVER%20ASSEMBLY%20COMPONENT%20LAYOUT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%208-117-06-001%20-%20NOTES%20TRANSISTORS.jpg">1983 - M612A - 8-117-06-001 - NOTES TRANSISTORS.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%208-117-06-001%20-%20NOTES%20TRANSISTORS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3251.jpg">1983 - M612A - IMG_3251.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3251.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3252.jpg">1983 - M612A - IMG_3252.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3252.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3253.jpg">1983 - M612A - IMG_3253.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3253.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3254.jpg">1983 - M612A - IMG_3254.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3254.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3255.jpg">1983 - M612A - IMG_3255.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3255.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3256.jpg">1983 - M612A - IMG_3256.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3256.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3257.jpg">1983 - M612A - IMG_3257.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3257.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3258.jpg">1983 - M612A - IMG_3258.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3258.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3259.jpg">1983 - M612A - IMG_3259.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3259.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3260.jpg">1983 - M612A - IMG_3260.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3260.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3261.jpg">1983 - M612A - IMG_3261.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3261.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3262.jpg">1983 - M612A - IMG_3262.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3262.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3263.jpg">1983 - M612A - IMG_3263.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3263.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3264.jpg">1983 - M612A - IMG_3264.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3264.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3265.jpg">1983 - M612A - IMG_3265.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3265.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3266.jpg">1983 - M612A - IMG_3266.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3266.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3267.jpg">1983 - M612A - IMG_3267.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3267.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3268.jpg">1983 - M612A - IMG_3268.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3268.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3269.jpg">1983 - M612A - IMG_3269.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3269.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3270.jpg">1983 - M612A - IMG_3270.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3270.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3271.jpg">1983 - M612A - IMG_3271.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3271.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3272.jpg">1983 - M612A - IMG_3272.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3272.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3273.jpg">1983 - M612A - IMG_3273.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3273.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3274.jpg">1983 - M612A - IMG_3274.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3274.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3275.jpg">1983 - M612A - IMG_3275.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3275.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3276.jpg">1983 - M612A - IMG_3276.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3276.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3277.jpg">1983 - M612A - IMG_3277.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3277.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3278.jpg">1983 - M612A - IMG_3278.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3278.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3279.jpg">1983 - M612A - IMG_3279.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3279.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3280.jpg">1983 - M612A - IMG_3280.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3280.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3281.jpg">1983 - M612A - IMG_3281.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3281.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3282.jpg">1983 - M612A - IMG_3282.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3282.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3283.jpg">1983 - M612A - IMG_3283.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3283.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3284.jpg">1983 - M612A - IMG_3284.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3284.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3285.jpg">1983 - M612A - IMG_3285.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3285.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3286.jpg">1983 - M612A - IMG_3286.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3286.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3287.jpg">1983 - M612A - IMG_3287.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3287.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3288.jpg">1983 - M612A - IMG_3288.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3288.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3289.jpg">1983 - M612A - IMG_3289.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20IMG_3289.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P001%20-%20Title%20Page.jpg">1983 - M612A - P001 - Title Page.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P001%20-%20Title%20Page.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P002.jpg">1983 - M612A - P002.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P003.jpg">1983 - M612A - P003.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P004%20-%201-1.jpg">1983 - M612A - P004 - 1-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P004%20-%201-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P005%20-%201-2.jpg">1983 - M612A - P005 - 1-2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P005%20-%201-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P006%20-%202-1.jpg">1983 - M612A - P006 - 2-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P006%20-%202-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P007%20-%202-2.jpg">1983 - M612A - P007 - 2-2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P007%20-%202-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P008%20-%203-1.jpg">1983 - M612A - P008 - 3-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P008%20-%203-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P009%20-%204-1.jpg">1983 - M612A - P009 - 4-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P009%20-%204-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P010%20-%205-1.jpg">1983 - M612A - P010 - 5-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P010%20-%205-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P015.jpg">1983 - M612A - P015.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P015.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P016%20-%20SA14-065.jpg">1983 - M612A - P016 - SA14-065.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P016%20-%20SA14-065.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P017%20-%20SA14-065%20-%201-1.jpg">1983 - M612A - P017 - SA14-065 - 1-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P017%20-%20SA14-065%20-%201-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P018%20-%20SA14-065%20-%201-2.jpg">1983 - M612A - P018 - SA14-065 - 1-2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P018%20-%20SA14-065%20-%201-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P019%20-%20SA14-065%20-%202-1.jpg">1983 - M612A - P019 - SA14-065 - 2-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P019%20-%20SA14-065%20-%202-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P020%20-%20SA14-065%20-%202-2.jpg">1983 - M612A - P020 - SA14-065 - 2-2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P020%20-%20SA14-065%20-%202-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P021%20-%20SA14-065%20-%202-3.jpg">1983 - M612A - P021 - SA14-065 - 2-3.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P021%20-%20SA14-065%20-%202-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P022%20-%20SA14-065%20-%202-4.jpg">1983 - M612A - P022 - SA14-065 - 2-4.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P022%20-%20SA14-065%20-%202-4.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P025%20-%20SA8-117.jpg">1983 - M612A - P025 - SA8-117.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P025%20-%20SA8-117.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P026%20-%20SA8-117%20-%201-1.jpg">1983 - M612A - P026 - SA8-117 - 1-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P026%20-%20SA8-117%20-%201-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P027%20-%20SA8-117%20-%202-1.jpg">1983 - M612A - P027 - SA8-117 - 2-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P027%20-%20SA8-117%20-%202-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P030%20-%20SA14-066.jpg">1983 - M612A - P030 - SA14-066.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P030%20-%20SA14-066.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1983|16</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P031%20-%20SA14-066%20-%201-1.jpg">1983 - M612A - P031 - SA14-066 - 1-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P031%20-%20SA14-066%20-%201-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/RAW%20Photos/NS-10/19xx%20-%20DOC%20-%20NS-10%20005.jpg">19xx - DOC - NS-10 005.jpg</a></td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/RAW%20Photos/NS-10/19xx%20-%20DOC%20-%20NS-10%20005.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/RAW%20Photos/NS-10/19xx%20-%20DOC%20-%20NS-10%20007.jpg">19xx - DOC - NS-10 007.jpg</a></td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/RAW%20Photos/NS-10/19xx%20-%20DOC%20-%20NS-10%20007.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/RAW%20Photos/NS-10/19xx%20-%20DOC%20-%20NS-10%20008.jpg">19xx - DOC - NS-10 008.jpg</a></td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/RAW%20Photos/NS-10/19xx%20-%20DOC%20-%20NS-10%20008.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/RAW%20SCANS/history%20-%20RAW%20IMAGES/19xx%20-%20DOC%20-%20WBSPS%20-%20AD%20-%20for%20the%20engineer%20who%20has%20everything.jpg">19xx - DOC - WBSPS - AD - for the engineer who has everything.jpg</a></td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/RAW%20SCANS/history%20-%20RAW%20IMAGES/19xx%20-%20DOC%20-%20WBSPS%20-%20AD%20-%20for%20the%20engineer%20who%20has%20everything.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M608/19xx%20-%20M608%20-%20DOC%20-%20WBSPS%20-%20AD%20-%20for%20the%20engineer%20who%20has%20everything.jpg">19xx - M608 - DOC - WBSPS - AD - for the engineer who has everything.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M608/19xx%20-%20M608%20-%20DOC%20-%20WBSPS%20-%20AD%20-%20for%20the%20engineer%20who%20has%20everything.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M609/19xx%20-%20M609%20-%20DOC%20-%20WBSPS%20-%20AD%20-%20for%20the%20engineer%20who%20has%20everything.jpg">19xx - M609 - DOC - WBSPS - AD - for the engineer who has everything.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M609/19xx%20-%20M609%20-%20DOC%20-%20WBSPS%20-%20AD%20-%20for%20the%20engineer%20who%20has%20everything.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/19xx%20-%2014-065-02-001%20%282%29.jpg">19xx - 14-065-02-001 (2).jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/19xx%20-%2014-065-02-001%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/19xx%20-%2014-065-02-001.jpg">19xx - 14-065-02-001.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/19xx%20-%2014-065-02-001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/19xx%20-%2014-066-02-001%20%282%29.jpg">19xx - 14-066-02-001 (2).jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/19xx%20-%2014-066-02-001%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/19xx%20-%2014-066-02-001.jpg">19xx - 14-066-02-001.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/19xx%20-%2014-066-02-001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/19xx%20-%208-117-02-001.jpg">19xx - 8-117-02-001.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/19xx%20-%208-117-02-001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/19xx%20-%20M612A%20-%20DOC%20-%20NS-10%20005.jpg">19xx - M612A - DOC - NS-10 005.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/19xx%20-%20M612A%20-%20DOC%20-%20NS-10%20005.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/19xx%20-%20M612A%20-%20DOC%20-%20NS-10%20007.jpg">19xx - M612A - DOC - NS-10 007.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/19xx%20-%20M612A%20-%20DOC%20-%20NS-10%20007.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/19xx%20-%20M612A%20-%20DOC%20-%20NS-10%20008.jpg">19xx - M612A - DOC - NS-10 008.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/19xx%20-%20M612A%20-%20DOC%20-%20NS-10%20008.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/19xx%20-%20M612A%20-%20DOC%20-%20WBSPS%20-%20AD%20-%20for%20the%20engineer%20who%20has%20everything.jpg">19xx - M612A - DOC - WBSPS - AD - for the engineer who has everything.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/19xx%20-%20M612A%20-%20DOC%20-%20WBSPS%20-%20AD%20-%20for%20the%20engineer%20who%20has%20everything.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=PHOTOS/Drawings/19xx%20-%208-117-02-001%20-%20SA8-117%20INDICATOR%20DRIVER%20ASSEMBLY%20SCHEMATIC%20-%20ISS%201.jpg">19xx - 8-117-02-001 - SA8-117 INDICATOR DRIVER ASSEMBLY SCHEMATIC - ISS 1.jpg</a></td>
+<td><a href="../../../viewer.html?f=PHOTOS/Drawings/19xx%20-%208-117-02-001%20-%20SA8-117%20INDICATOR%20DRIVER%20ASSEMBLY%20SCHEMATIC%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Sub-assemblies &amp; parts used (4)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What</th>
+<th>Family</th>
+<th>Year</th>
+<th>How we know</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Register-Sub-assemblies-n-nnn.html#8-117">8-117</a></td>
+<td>Indicator Driver Component Layout</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td></td>
+<td>drawing filed with it</td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Register-Circuit-boards-SA14-nnn.html#sa14-065">SA14-065</a></td>
+<td>Ase Noleh</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>drawing filed with it</td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Register-Circuit-boards-SA14-nnn.html#sa14-066">SA14-066</a></td>
+<td>Output Splitter Networks Component Layout</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>drawing filed with it</td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Register-Circuit-boards-SA14-nnn.html#sa14-086">SA14-086</a></td>
+<td>B 14-086-02-001 - SA14-086 SUMMING AMPLIFIER ASSEMBLY - SCHEMATIC</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+</tbody>
+</table>
+<h2>Parts list — board M612A (5 parts)</h2>
+<p><em>From <a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P009%20-%204-1.jpg">1983 - M612A - P009 - 4-1.jpg</a>, page 1 (scanned); also in <code>timelines/data/bom.csv</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>Part</th>
+<th>Value</th>
+<th>Manufacturer</th>
+<th>Mfr part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M612A</td>
+<td>AUD0 DISTRIBUTION AMPLIFIER</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>F201</td>
+<td>Fuse 0.25A S.B. Buss MDL</td>
+<td>1/4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R201</td>
+<td>Potentiometer Sk Clarostat WBS</td>
+<td></td>
+<td></td>
+<td>10-037</td>
+</tr>
+<tr>
+<td>R203</td>
+<td>WBS</td>
+<td></td>
+<td></td>
+<td>10-045</td>
+</tr>
+<tr>
+<td>T201</td>
+<td>Transformer Hammond WBS</td>
+<td></td>
+<td></td>
+<td>80-26-2</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="../../../PAGES/Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>General description (3)</h3>
+<details><summary>Description — 124 words · 1983 - M612A - P018 - SA14-065 - 1-2.jpg, page 1</summary><p>SA14-065 AUD/0 AMPL IFIER_ASSEMBLX Power_Supely The power supply , integral the 5A14-065 assembly derives its Jc voltage appearing pins and 22 the assembly connector) from the externa power transformer T201 mounted the chassis the M6124 . Bridge rectifier CRS along with C31 and C32 rectifies and filters the ac voltage providing nominal +/-32 volt output These voltages drive the power output stage the 5A14-065 directly wel| as appearing connector pins 15 and for the purpose powering the external SA8-117 Indicator Driver Assembly The +/-32 volt voltages are further decoupled and filtered by 011 through 014 and C33 through C36 This provides +/-21 volt dc regulated supply voltages operate the integrated circuit amplifiers the 5A14-065 amplifier ssembly</p><p>.</p><p>.</p><p>.</p><p>&#x27;   = 4.</p><p>5A14-065 1-2</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P018%20-%20SA14-065%20-%201-2.jpg">1983 - M612A - P018 - SA14-065 - 1-2.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Description — 43 words · 1983 - M612A - P022 - SA14-065 - 2-4.jpg, page 1</summary><p>MFG MFG PART NUMBER UI , u2,43 U4,u5 Pin Dip Socket AMP 640463-3 04 05,09, 010 Heat Sink WBS A605-03-020 Heat Sink Standoffs WBS A605-03-022 WBS recommends the use replacement parts made by the specified manufacturers for continued optimum equipmen performance_ 5A14-065 2-4</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P022%20-%20SA14-065%20-%202-4.jpg">1983 - M612A - P022 - SA14-065 - 2-4.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Description — 37 words · 1983 - M612A - P009 - 4-1.jpg, page 1</summary><p>MFG MFG PART NUMBER R2o1 R202/ R203 Gain and Trim Con trol Knobs (Optiona Elma 021-1220 Black Caps (Optional ) 040-1620 WBS recommends tne use replacemen parts made by the specified manufacturers for continued imum equipmen performance</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P009%20-%204-1.jpg">1983 - M612A - P009 - 4-1.jpg</a>, p. 1</li>
+</ul>
+<h3>Specifications (3)</h3>
+<details><summary>Technical Data — 2363 words · 1983 - M612A - Audio DA (2).pdf, page 4</summary><p>M612A AUDIO DIS TR IBUTI ON AMP LI F IER</p><p>+40 dB to -6 dB c o n tinuou sly v ariable                                          wi lh a +/-3 dB trim (Bridgin g Gain) .</p><p>Frequ ency Re sponse:                +/ - 0. 2 dB   20 Hz to 20 kHz .</p><p>a t 4 0 d B ga in:</p><p>at un ity g ain :           Gr e a t e r t han 90 d B below +8 dB m                                          (me a s ured ov e r a 20 Hz to 20 k Hz bw).</p><p>Harmonic Di s torti on :             Le s s th a n 0.2% THO from 20 Hz to 20                                         k Hz up to +24 dBm output level w it h                                         12 output s s im u l l a n eo u s l y driv en .</p><p>Inpu t Lev el :                     -32 d Bm -t o +14 dBm nomina l for                                         +8 dBm outpul, +2 4 dBm maximum a t                                         unilY ga in .</p><p>Inp u t I mp e d a n c e :           J O, OOO ohms or g re a ler, bal anced.</p><p>Sourc e     Imp ed anc e :            600 o h ms or le s s,   b a la nced o r                                          unbal anced .</p><p>Com mo n Mo d e    Reject ion Rat i o :                  Gr e a t e r th an 65 dB.</p><p>Common Mod e Vo lt ag e :             70V p e ak ma ximu m.</p><p>Outpu t Lev e l:                     +8 d Bm nominal, +2 4 dBm maxim um a t                                         &quot; a ch ou tp ut , 12 o utputs ma ximum .</p><p>Out pu l    Impeda nce:              600 oh&quot;&#x27;s r&quot;&quot; is li v,, 11.\ e eeb out pu t,                                         activ&quot;el y b a la n c e d.</p><p>Lo a d    Imp e d a n c e:           60 0 ohms ba lanced for e a c h o utp ut.                                                                                                a                                                                                             .c</p><p>OUlpu t &#x27; sol a l io n:              6 0 dB or    gr&quot;a ter.                                                                                             ps                                                                                      BS</p><p>Phasing :                            Th e lo w l e r min a l numb er o f t h e in p ul                                         pa ll&#x27; and t h e lo w t &quot; r m l n a l numb&quot;r of                                                                                     W</p><p>Ihe ou tpu t pair a r e in p h a s &quot;.                                                                                    ://                                                                              tp                                                                            ht</p><p>WAR D - BECK S Y STE M S L TD.</p><p>TECHN IC AL      DA TA</p><p>M612A AUDIO    D ISTRIBUT IO N AMPLIF IER</p><p>P a we r Requiremen t:             115V AC +/ _ 1~ ,      50/ 60 Hz , 25 VA.</p><p>Ambie n t Tem pe r at ur. :        o IQ 60    d~ gr _ s   C .. lsiu s .</p><p>Dlmen . lon.:                      3 .4&quot; &quot; wi d .. x 3.4&quot; h i g h &quot; 13. 7 &quot; deep                                       ( 86 mm &quot; 86 mm &quot; 348 mm)</p><p>We i g h t :                       Si b s ( 2 . 25 Kg) n .. l.</p><p>a                                                                                       .c                                                                                      ps                                                                                  BS                                                                                 W                                                                                ://                                                                                tp                                                                              ht</p><p>WAFI O - B E C I&lt; S YS TEMS L T D .</p><p>~                           M6 12,t, AUDIO D IST R I BUTI ON AMPL IF IE R</p><p>The M6 12,t, Au di o DIS lr lbul lan Amp l ifi e r is an ec po ...ered madul a r     p lu g _ In u n il d e signed 10 b ri d g e a cral&#x27;s a s i n gl &quot; aud i o $OUre &quot; . It     p ro vides a multip le of        mutual l y Isol a te d aulpu lS at a s ta nd a r d     +8 dBm 600 ohm l e vel for d I str ibu t ion Ihrough an au d io s yS l em .</p><p>The a cti vely ba lanced          i n pu t prov id e s a high impeda nce br idgin g     loa d to tne soure&quot; a s ...,,11 as pro v idin g a high rejec llon 10 common     mod e vol l ages . Th i s a l ia ...,       for r-euee te      s ys l em OPeration to be     ach l&quot;ved ... i t hou t the inclu , lon of tr an s fo rmers , e ven t ho u g h large a c     po t en l lal e nteer eece s ma y &quot;&quot; ist be t wee n varI ous pa rt s of a n aud io     s y s l etIl . T h e a bsence o f conv ent ion al a u di o t r a n s fo r me r s and au tpu l     cauplin g ca pac i tor s re su l l s i n e &quot;ce p tl o n al ly h i g h pe r formance c be r-e c r-     e -taucs . Th &quot; s e lf-p o...e -e d re etuee Ins u r e s i n d i v i d u al     mo d ule r el1_     abl l il y an d t h &quot; fr eedom f ro m th e d e p e nd enc y of man y a mp l i f ie r s u pon     a s In g le c en t r alized p o w&quot;r s u p p l y .</p><p>A fr o nt    p an e l con tr o l permi t s  e: +40 dB to - 6 dB co n t i n u o us l y     va r ia b le gai n a d j u s tmen t to b e made . An a d di tiona l t r i m con trol     a l lo ws a fur l he r fi n e g ain adjustmen t of +/-3 d B . Su ff ic ie n t gai n 15     provi de d   t o br i dg e a      - 30 dam au di o SOUrc e wllh a l l 12 ou tp u ts     o pera t ing a t +8 d am p o...e r- le vel.     .</p><p>Th e t ...e tve 600 ohm ac t iv ely balanced out pu ts are a v a i l a b le d irec tly     a l t ne mo d ul&quot; con nec tor.s. Ea c h ou t p u t i s ca pable of dell v &quot;ring II.     ma &quot; lmu m of + 24 dam into a 600 oh m load . An Iso lation o f a t lea s l     60 de bet...Hn al l au tPU IS Is p r o v id e d . Th e int e rna l r e s is ti ve sp il lter     n et ork s mounted d i .. ecll y on I..... modu le c on n ec t or s e l iminate t ime     con ml ng extern al ... irlng . All connection s are made di rec ll y to t .....     MF6 f rame recept acles .</p><p>T hree    front pane l L EO In d ic a t ors prov id&quot; a</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20Audio%20DA%20%282%29.pdf">1983 - M612A - Audio DA (2).pdf</a>, p. 4</li>
+</ul>
+<details><summary>Technical Data — 175 words · 1983 - M612A - P004 - 1-1.jpg, page 1</summary><p>M612A AUDIO DISTRIBUTION AMPL IFIER Gain: +40 dB dB continuously variable with +/-3 dB trim (Bridging Gain) .</p><p>Frequency Response:  +/- 0.2 dB Hz 20 kHz</p><p>Noise:</p><p>40 dB gain:  unity gain: Greater than dB below dBm . 4&#x27;  dBm 20 kHz bw ) Greater than dB below (measured over 20 Hz Harmonic Distortion: Less than 0 . 2% THD from 20 Hz 20 kHz up +24 dBm output level with 12 outputs simultaneously driven . Input Level dBm +14 dBm nominal for dBm output, +24 dBm maximum at unity gain. Input Impedance: 30 , 0oo ohms greater balanced Source Impedance: 600 ohms less, balanced unbalanced Common Mode Rejection Ratio: Greater than 65 dB . Common Mode Voltage: 70v peak maximum. Output Level dBm nominal +24 dBm maximum at each output, 12 outputs maximum. Output Impedance: 600 ohms resistive actively balanced each output, Load Impedance: 600 ohms balanced for each output _ Output Isolation: dB or greater_ Phasing: The low terminal number the input pair and the low terminal number the output pair are phase</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P004%20-%201-1.jpg">1983 - M612A - P004 - 1-1.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Technical Data — 56 words · 1983 - M612A - P005 - 1-2.jpg, page 1</summary><p>M612A AUDIO DISTRIBUTION AMPL IFJER  Power Requirement:  T15V Ac +/-107 , 50/60 Hz, 25VA _ Ambient Temperature: degrees Celsius Dimensions: 3.4&quot; wide 3.4&quot;1 high 13.711 deep (86 mm mm 348 mmy      Weight: Ibs (2.25 Kg) net     . . .    `  .  .     .  .  .</p><p>4.</p><p>.  .  .</p><p>. &#x27;</p><p>;</p><p>4. &#x27;    .</p><p>1-2</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P005%20-%201-2.jpg">1983 - M612A - P005 - 1-2.jpg</a>, p. 1</li>
+</ul>
+<h3>Installation (1)</h3>
+<details><summary>Installation — 279 words · 1983 - M612A - P008 - 3-1.jpg, page 1</summary><p>M612A AUDI0 DISTRIBUTION AMPLIEIER The M612A plugs directly into the WBS MF6 series mounting frame, which may be installed standard EIA inch equipment rack The MF6 frame wiii accommodate maximum five M612A distribut- ion amplifiers any combination single multiple width modules not exceeding ten single width units. The vertical rack space required two rack units (3-1/2 inches) the mounting frame has been procured without receptacles, these must pe installed the ppropriate module positions_ Each M612A module requires two type MFR6 receptacles .</p><p>Note that the receptacle containing the ac line voltage input inverted provide the mechanical polarization necessary prevent inadvertent&#x27; insertion other companion modules which not operate from the ac power Iine Where vertical rack space permits and the ultimate noise and crosstalk performance desired recommended that only modules the same type be allocated each individual mounting frame_ Alternatively _ possible mix modules different types by exercising extreme care separate cables carrying different levels and functions_ Place all ac-powered units the right the frame as viewed from the front.</p><p>Install insulating rubber sleeves over all ac soldered terminal connections For refer external connections drawing 612-02-003 including shield and ground wiring, To obtain optimum resuits use insulated, shielded, twisted pairs for both input and output wiring Cables operating with level differ_ ences exceeding 25 dB should be laced separately and dressed apart from each other Keep power wiring away from low level circuits Ground cable shields one end only Ground loops must avoided generally ecommended as good engineering practice that one rack unit space be provided between full frames distribution amplifiers for optimum ventilation Consultation with the factory ecommended for applications where greater packaging density may be required deemed necessary</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20P008%20-%203-1.jpg">1983 - M612A - P008 - 3-1.jpg</a>, p. 1</li>
+</ul>
+<h3>Parts list (text) (1)</h3>
+<details><summary>Parts List — 539 words · 1983 - M612A - Audio DA (2).pdf, page 9</summary><p>M612 A AUDIO DISTR IBUT ION AMPLIFIER</p><p>Bus s    MOL 1/ 4</p><p>Connector , 22 Pin Fem ale</p><p>p,    pt       COO?,e ctor ,   16 Pi~ Mal e</p><p>Audio Amp lifi e r Assembly                      5A 14-065             Indica tor Dr iver Assem bl y                    5A8-117             Outpu t Sp iiller Network             As s embl ie s (4)</p><p>R201     Pot entiometer 5K    :~g~/</p><p>MISCELLANEOUS COMP ONENTS</p><p>R201               Gain a n d Trim ContN) 1    R20 2/             Kn o b s (Option al)    R203                       Black Cap s ( Opt io n a l )                                                                                     a                                                                                  .c                                                                            ps                                                                       BS                                                                      W</p><p>WBS recommends th e us e of replaceme n t pa r ts mad e by t h e sp ecified    manufacturers fo r c on t i n u e d op timum equi pment p erformanc e .                                                                   ://                                                                 tp                                                               ht</p><p>WAR D-BECK S Y S TEMS L TO.</p><p>P I AND P2 CONNECTOR LAYOUTS</p><p>M6 12A AUDIO D IS TRI BU T IO N AMPLIF IER</p><p>CHASSIS</p><p>&#x27;----=- +-.,J.I- OUTPUT &quot;&#x27; 0</p><p>AMPLI FIER ELECTRICAL                                         GROUND RETURN TO                                                                            a                                                                         .c</p><p>INSULATED GROUND BUS                                                                    ps                                                                BS                                                               W                                                              ://                                                            tp                                                          ht</p><p>I                                                                         (-9d B)                              I                                                                                                        (-6d B)                              I                              I                                                                         ( - 6dB )</p><p>I                                                                         (-6d B)</p><p>I                     TR IM                                                                                                        ( - 6d B)</p><p>I                               ~T</p><p>tr                                                   +/- : ;B                                             ( - 6d B)         IN PU T                          (                 RE -32 d Bm TO +14    dBm                             ~         Iv      30K o h ms.                                                                                                        (-6d B)</p><p>(&#x27;]                                            9&#x27;      GAIN                                                  +4 0/ -6 dB                                                                                                        ( - 6d B )                                        I                          I                                        I                          I                                        ~                          I                                    ( - 6d B )</p><p>( - 6 d B)</p><p>( - 6d B )</p><p>PROGR AM DETE CTORS                                                                                                        ( -6d B)                                                                                       .1/                                                                       &gt;-- - - --1 ~         OVERLOAD                                  REF</p><p>~                                                                       ;&gt;-----~ ~            NORMAL                                  RE F -         -- ----I                                                                                                           a                                                                                                        .c                                                                                                        ps</p><p>115V AC                          (                                                                                                  BS</p><p>50 /60 Hz</p><p>L                                                                                               //W                                                                                                :                                                                                             tp                                                                                         ht</p><p>-l                                           /                       (-9dB)                                       I,  &quot;-   2                       ( - 6d B)                                       I , &quot;- 3                       ( - 6 d B)                                       I , &quot;- 4                       (-6;;B )                                       I ·5                       ( - 6d B )                                       I        6                       ( - 6 d B) &quot;-</p><p>v   v                                       I,       7                                                     OUTP UTS                                                      +8 d Bm                                                     600 oh ms                       (-6 d B)                                       I        8                       (-6d B )                                       t        9                                           /                       ( - 6 d B)</p><p>-,--                                       I        10                       ( - 6d B)         </p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20Audio%20DA%20%282%29.pdf">1983 - M612A - Audio DA (2).pdf</a>, p. 9</li>
+</ul>
+<h2>Drawings (26)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Drawn by</a></th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>066-06-001</td>
+<td>Output Splitter Network Component Layout</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20066-06-001%20-%20OUTPUT%20SPLITTER%20NETWORK%20COMPONENT%20LAYOUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>066-06-001</td>
+<td>Audio Amplifier Assembly Component Layout</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20066-06-001%20-%20AUDIO%20AMPLIFIER%20ASSEMBLY%20COMPONENT%20LAYOUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>12-01-001</td>
+<td>Audio Distribution Amplifier Functional Diagram</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2012-01-001%20-%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20FUNCTIONAL%20DIAGRAM.jpg">file</a></td>
+</tr>
+<tr>
+<td>12-02-002</td>
+<td>Audio Distribution Amplifier Schematic</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2012-02-002%20-%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>12-02-003</td>
+<td>Bybtemd Technical Ground</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2012-02-003%20-%20BYBTEMD%20TECHNICAL%20GROUND.jpg">file</a></td>
+</tr>
+<tr>
+<td>12-06-003</td>
+<td>Audio Distribution Amplifier Perspective Layout</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2012-06-003%20-%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20PERSPECTIVE%20LAYOUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>14-065-02-001</td>
+<td>Ase Noleh</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2014-065-02-001%20-%20ASE%20NOLEH.jpg">file</a></td>
+</tr>
+<tr>
+<td>14-065-02-001</td>
+<td>Unlcs Otherwise Specifieo Last Compovent Desicnations</td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2014-065-02-001%20-%20UNLCS%20OTHERWISE%20SPECIFIEO%20LAST%20COMPOVENT%20DESICNATIONS.jpg">file</a></td>
+</tr>
+<tr>
+<td>14-065-06-001</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2014-065-06-001.jpg">file</a></td>
+</tr>
+<tr>
+<td>14-066-02-001</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2014-066-02-001.jpg">file</a></td>
+</tr>
+<tr>
+<td>14-066-02-001</td>
+<td>Output Splitter Network Schematic</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2014-066-02-001%20-%20OUTPUT%20SPLITTER%20NETWORK%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>14-066-06-001</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%2014-066-06-001.jpg">file</a></td>
+</tr>
+<tr>
+<td>612-01-001</td>
+<td>Overload Ref Normal Ref</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20612-01-001%20-%20OVERLOAD%20REF%20NORMAL%20REF.jpg">file</a></td>
+</tr>
+<tr>
+<td>612-02-002</td>
+<td>Indicator Driver</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20612-02-002%20-%20INDICATOR%20DRIVER.jpg">file</a></td>
+</tr>
+<tr>
+<td>612-02-003</td>
+<td>Stat Ion Technical Ground Insulated Ground Bar Tiple</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20612-02-003%20-%20STAT%20ION%20TECHNICAL%20GROUND%20INSULATED%20GROUND%20BAR%20TIPLE.jpg">file</a></td>
+</tr>
+<tr>
+<td>612-06-003</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%20612-06-003.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-117-02-001</td>
+<td>Indicator Driver Assembly Schematic</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%208-117-02-001%20-%20INDICATOR%20DRIVER%20ASSEMBLY%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-117-02-001</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%208-117-02-001.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-117-06-001</td>
+<td>Indicator Driver Assembly Component Layout</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%208-117-06-001%20-%20INDICATOR%20DRIVER%20ASSEMBLY%20COMPONENT%20LAYOUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-117-06-001</td>
+<td>Notes Transistors</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/1983%20-%20M612A%20-%208-117-06-001%20-%20NOTES%20TRANSISTORS.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 14-065-02-001</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/19xx%20-%2014-065-02-001.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 14-065-02-001</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/19xx%20-%2014-065-02-001%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 14-066-02-001</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/19xx%20-%2014-066-02-001.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 14-066-02-001</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/19xx%20-%2014-066-02-001%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 8-117-02-001</td>
+<td>SA8-117 INDICATOR DRIVER ASSEMBLY / SCHEMATIC</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=PHOTOS/Drawings/19xx%20-%208-117-02-001%20-%20SA8-117%20INDICATOR%20DRIVER%20ASSEMBLY%20SCHEMATIC%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 8-117-02-001</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M612A/19xx%20-%208-117-02-001.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M612A&quot;,
+ &quot;category&quot;: &quot;AMPLIFIERS&quot;,
+ &quot;year&quot;: 1983,
+ &quot;connections&quot;: {
+  &quot;from&quot;: &quot;its own documents&quot;,
+  &quot;inputs&quot;: [
+   &quot;Input I&quot;,
+   &quot;Input 2&quot;,
+   &quot;Input J&quot;,
+   &quot;Input 4&quot;,
+   &quot;Input 5&quot;
+  ],
+  &quot;outputs&quot;: [
+   &quot;Out Puts&quot;
+  ],
+  &quot;power&quot;: [],
+  &quot;control&quot;: []
+ },
+ &quot;made_of&quot;: [
+  &quot;8-117&quot;,
+  &quot;SA14-065&quot;,
+  &quot;SA14-066&quot;,
+  &quot;SA14-086&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - 066-06-001 - AUDIO AMPLIFIER ASSEMBLY COMPONENT LAYOUT.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - 066-06-001 - OUTPUT SPLITTER NETWORK COMPONENT LAYOUT.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - 12-01-001 - AUDIO DISTRIBUTION AMPLIFIER FUNCTIONAL DIAGRAM.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - 12-02-002 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - 12-02-003 - BYBTEMD TECHNICAL GROUND.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - 12-06-003 - AUDIO DISTRIBUTION AMPLIFIER PERSPECTIVE LAYOUT.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - 14-065-02-001 - ASE NOLEH.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - 14-065-02-001 - UNLCS OTHERWISE SPECIFIEO LAST COMPOVENT DESICNATIONS.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - 14-065-06-001.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - 14-066-02-001 - OUTPUT SPLITTER NETWORK SCHEMATIC.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - 14-066-02-001.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - 14-066-06-001.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - 612-01-001 - OVERLOAD REF NORMAL REF.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - 612-02-002 - INDICATOR DRIVER.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - 612-02-003 - STAT ION TECHNICAL GROUND INSULATED GROUND BAR TIPLE.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - 612-06-003.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - 8-117-02-001 - INDICATOR DRIVER ASSEMBLY SCHEMATIC.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - 8-117-02-001.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - 8-117-06-001 - INDICATOR DRIVER ASSEMBLY COMPONENT LAYOUT.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - 8-117-06-001 - NOTES TRANSISTORS.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - Audio DA (2).pdf&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 43,
+   &quot;holds&quot;: [
+    &quot;connections&quot;,
+    &quot;dates&quot;,
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - Audio DA.pdf&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 43,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3251.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3252.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3253.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3254.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3255.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3256.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3257.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3258.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3259.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3260.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3261.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3262.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3263.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3264.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3265.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3266.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3267.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3268.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3269.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3270.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3271.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3272.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3273.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3274.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3275.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3276.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3277.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3278.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3279.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3280.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3281.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3282.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3283.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3284.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3285.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3286.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3287.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3288.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - IMG_3289.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - P001 - Title Page.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - P002.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - P003.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - P004 - 1-1.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - P005 - 1-2.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - P006 - 2-1.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - P007 - 2-2.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - P008 - 3-1.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - P009 - 4-1.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - P010 - 5-1.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - P015.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - P016 - SA14-065.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - P017 - SA14-065 - 1-1.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - P018 - SA14-065 - 1-2.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - P019 - SA14-065 - 2-1.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - P020 - SA14-065 - 2-2.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - P021 - SA14-065 - 2-3.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - P022 - SA14-065 - 2-4.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - P025 - SA8-117.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - P026 - SA8-117 - 1-1.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - P027 - SA8-117 - 2-1.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - P030 - SA14-066.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/1983 - M612A - P031 - SA14-066 - 1-1.jpg&quot;,
+   &quot;year&quot;: 1983,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/19xx - 14-065-02-001 (2).jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/19xx - 14-065-02-001.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/19xx - 14-066-02-001 (2).jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/19xx - 14-066-02-001.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/19xx - 8-117-02-001.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/19xx - M612A - AD - WBSPS - AD - for the engineer who has everything.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/19xx - M612A - DOC - NS-10 005.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/19xx - M612A - DOC - NS-10 007.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/19xx - M612A - DOC - NS-10 008.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M612A/19xx - M612A - DOC - WBSPS - AD - for the engineer who has everything.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;PHOTOS/Drawings/19xx - 8-117-02-001 - SA8-117 INDICATOR DRIVER ASSEMBLY SCHEMATIC - ISS 1.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../../../_catalog/wbs_reels.js" defer></script><script src="../../../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../../../_catalog/libcontrol/libcontrol.css"><script src="../../../_catalog/libcontrol/react.js"></script><script src="../../../_catalog/libcontrol/react-dom.js"></script><script src="../../../_catalog/libcontrol/libcontrol.js"></script><script src="../../../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M612A.md</small></div></article><script src="../../../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

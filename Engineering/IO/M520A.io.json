@@ -1,0 +1,58 @@
+{
+ "code": "M520A",
+ "series": null,
+ "type": "M520A",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "I1",
+   "signal": "In Oe 5 In",
+   "dir": "in",
+   "pos": "I1P",
+   "neg": "I1N",
+   "src_page": 29
+  },
+  {
+   "port": "O1",
+   "signal": "Eq Insert Out",
+   "dir": "out",
+   "pos": "O1P",
+   "neg": "O1N",
+   "src_page": 28
+  },
+  {
+   "port": "O2",
+   "signal": "E Oulout 4N Monopost Fade Out",
+   "dir": "out",
+   "pos": "O2P",
+   "neg": "O2N",
+   "src_page": 28
+  }
+ ],
+ "power": [
+  {
+   "rail": "+12V",
+   "volts": 12.0,
+   "supply": "+12V",
+   "ground": "COMMON",
+   "max_a": null
+  }
+ ],
+ "logic": [
+  {
+   "signal": "Pfl",
+   "pin": ""
+  }
+ ],
+ "ground": [
+  "COMMON"
+ ],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "c0fcea23ae436fb8715a6e97359dcc5fdf63c9eff61c2d5d9a2816de97419faf"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."
+}

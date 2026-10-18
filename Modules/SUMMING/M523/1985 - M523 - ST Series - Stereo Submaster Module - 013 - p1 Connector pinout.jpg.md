@@ -1,0 +1,283 @@
+# 1985 - M523 - ST Series - Stereo Submaster Module - 013 - p1 Connector pinout.jpg
+Wiki page: [M523](../../../PAGES/M523.md)
+
+
+- **Year:** 1985 (module estimate (manual_issue))
+- **Module:** M523
+- **Category:** SUMMING
+- **Module year estimate:** 1985 — manual_issue "Issue #1 April 1985" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M523 - Stereo SubMaster Modules (ST Series)/WBS - M523 - ST Series - Stereo Submaster Module - 021 - SA14-077 Control Assembly.jpg
+- **Original file:** `WBSps.env/PUBLIC/Manuals + tech DOCUMENTS/Modules/M523 - Stereo SubMaster Modules (ST Series)/WBS - M523 - ST Series - Stereo Submaster Module - 013 - p1 Connector pinout.jpg`
+- **SHA-256:** `c996a7a1a673e7b318a6e4f2d33a32f5e71b184e0f32950da73e62adb5bde791`
+- **Size:** 869,608 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 1 words corrected)
+
+```text
+WAAD-BECK Systems LTD 
+P1 CONNECTOR LAYOUT
+M523 SUBMASTER MODULE
+M1 MONO
+2
+M1 MONO
+NC
+4
+3
+NC
+M2 MONO
+6
+5
+M2 MONO
+NC
+8
+7
+NC
+M1 LEFT
+10
+9
+M1 LEFT
+M1 RGHT
+12
+11
+M1 RIGHT
+M2 LEFT
+14
+13
+M2 LEFT
+To MiX BUSES
+To MIX BUSES
+M2 RIGHT
+16
+15
+M2 RIGHT
+AuX 4
+18
+17
+AuX 4
+AuX 3
+20
+19
+AUX 3
+AuX 2 RIGHT
+22
+21
+AuX 2 RIGHT
+AuX 2 LEFT
+24
+23
+4uX 2 LEFT
+AuX
+RIGHT
+26
+25
+AuX
+RIGHT
+AuX 1 LEFT
+28
+27
+AuX
+LEFT
+SOLO LEFT
+30
+29
+SOLO LEFT
+SOLO R IGHT
+32
+31
+SOLO RIGHT
+SHIELD
+34
+33
+SHIELD
+SHIELD
+36
+35
+SH IELD
+SUMM ING INPUT LEFT
+38
+37
+SUMM ING INPUT LEFT SUMMING INPUT R IGHT
+SUMMING INPUT RIGHT
+40
+39
+SHIELD
+42
+41
+SH IELD
+SHIELD
+44
+43
+SHIELD
+INSERT out
+L
+46
+45
+INSERT out
+R
+48
+47
+R
+INSERT PREFADE
+L R
+50
+49
+L
+INSERT PREFADE
+52
+51
+R
+INSERT IN
+L
+54
+53
+INSERT IN
+LEGEND: R NC : NOT CONNECTED IC : INTERNALLY CONNECTED
+56
+55
+6
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+WAAD-BECK Systems LTD 
+P1 CONNECTOR LAYOUT
+M523 SUBMASTER MODULE
+M1 MONO
+2
+M1 MONO
+NC
+4
+3
+NC
+M2 MONO
+6
+5
+M2 MONO
+NC
+8
+7
+NC
+M1 LEFT
+10
+9
+M1 LEFT
+M1 RGHT
+12
+11
+M1 RIGHT
+M2 LEFT
+14
+13
+M2 LEFT
+To MiX BUSES
+To MIX BUSES
+M2 RIGHT
+16
+15
+M2 RIGHT
+AuX 4
+18
+17
+AuX 4
+AuX 3
+20
+19
+AUX 3
+AuX 2 RIGHT
+22
+21
+AuX 2 RIGHT
+AuX 2 LEFT
+24
+23
+4uX 2 LEFT
+AuX
+RIGHT
+26
+25
+AuX
+RIGHT
+AuX 1 LEFT
+28
+27
+AuX
+LEFT
+SOLO LEFT
+30
+29
+SOLO LEFT
+SOLO R IGHT
+32
+31
+SOLO RIGHT
+SHIELD
+34
+33
+SHIELD
+SHIELD
+36
+35
+SH IELD
+SUMM ING INPUT LEFT
+38
+37
+SUMM ING INPUT LEFT SUMMING INPUT R IGHT
+SUMMING INPUT RIGHT
+40
+39
+SHIELD
+42
+41
+SH IELD
+SHIELD
+44
+43
+SHIELD
+INSERT out
+L
+46
+45
+INSERT out
+R
+48
+47
+R
+INSERT PREFADE
+L R
+50
+49
+L
+INSERT PREFADE
+52
+51
+R
+INSERT IN
+L
+54
+53
+INSERT IN
+LEGEND: R NC : NOT CONNECTED IC : INTERNALL Y CONNECTED
+56
+55
+6
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Modules/SUMMING/M523/1985 - M523 - ST Series - Stereo Submaster Module - 013 - p1 Connector pinout.jpg",
+ "sha256": "c996a7a1a673e7b318a6e4f2d33a32f5e71b184e0f32950da73e62adb5bde791",
+ "kind": "module",
+ "models": [
+  "M523"
+ ],
+ "year": 1985,
+ "pages": 1
+}
+```

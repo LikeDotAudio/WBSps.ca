@@ -1,0 +1,38 @@
+# 19xx - microCOM II - DOC - IMG_2053-2013-04-08.jpg
+Wiki page: [Documents](../../../PAGES/Documents.md)
+
+
+- **Year:** unknown (unknown)
+- **Type:** document scan
+- **About:** microCOM II
+
+## Text recovered by OCR
+
+> CBC TORONTO BROADCAST CENTRE STUDIOS B2,CI,C2,DLNL,NZ,N3 48 X 48 MicroCOM II COMMUNICATIONS SYSTEM 920004 TO 920010 BOOK OF 2
+- **Original file:** `WBSps.env/PUBLIC/RAW Photos/WBS BINDER SPINE PICTURES/IMG_2053-2013-04-08.jpg`
+- **SHA-256:** `5f1ba2556326ea713dd4c162950a3f7ba4acb91d70294a011e28743b1d6ef076`
+- **Size:** 106,042 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR)
+
+```text
+CBC TORONTO
+BROADCAST CENTRE STUDIOS B2,CI,C2,DLNL,NZ,N3 48 X 48 MicroCOM II COMMUNICATIONS SYSTEM 920004 TO 920010 BOOK OF 2
+```
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Products/MICRO SERIES/microCOM II/19xx - microCOM II - DOC - IMG_2053-2013-04-08.jpg",
+ "sha256": "5f1ba2556326ea713dd4c162950a3f7ba4acb91d70294a011e28743b1d6ef076",
+ "kind": "doc",
+ "models": [
+  "microCOM II"
+ ],
+ "pages": 1
+}
+```

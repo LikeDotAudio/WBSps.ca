@@ -1,0 +1,198 @@
+# 1975 - M457 - 5-101-02-002 - SPECIFIED LAST COMPONENT DESICNATIONS.jpg
+Wiki page: [M457](../../../PAGES/M457.md)
+
+
+- **Year:** 1975 (module estimate (labelled))
+- **Module:** M457
+- **Category:** ROUTING
+- **Module year estimate:** 1975 — labelled "DATE FEB 75" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M457 - Pre-Mixer/M457 - 022.jpg
+- **Original file:** `WBSps.env/PUBLIC/Manuals + tech DOCUMENTS/Modules/M457 - Pre-Mixer/M457 - 021.jpg`
+- **SHA-256:** `580796b878ad76c17cb6763b48fa486db7a7b6c648d64b73be0b3c92b82a7222`
+- **Size:** 3,168,020 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 3 words corrected)
+
+```text
+rNAC Connection
+EXtErnaL Connection
+R12 is
+}r85 ISk Q5 Pn3SG9 CRS R39 33 ci3
+Pn3569
+R8
+R31
+CRI
+Ri6 33 C6
++18v I8k
+H18v (8k
+R5i
+R2?
+R53 M- 18k
+R45
+33/10
+18k
+21
+33 zzo/io8 R2o 33 4k7
+E5
+33/10
+23
+2z0/o 33 R4o R43 33 4k7 06 Pn3645
+CR?
+CRS
+Rio 620
+R33 620 Cul 6.8p
+18v| Rg 620
+R1? ISk
+PN3645
+R24 S4zk
+18v R29 620
+R36 ISk
+C4 6.8p
+BOOSTER OUTPUT
+BOOSTER 2 OUTPut
+R2 47k
+R7 dhes 620 6.8P +18v Rit <88
+RI4 ISk
+R25 47k
+R3O 620 +181
+C12 6.8 R34 620
+R? ISk
+Q3 Pn3569 R18 33
+PN3569 R4i 33 cia
+CR3
+CR7
+E2 BooSTER INPUT
+Z2
+R23
+BooSTER E6 INPUT
+R46
+E8
+33 22o/10 Rig R2I 33 4k7
+220710 33 R42 R44 33 4k7
+I50/6
+150/6
+J2
+-18v R9
+CRA
+ES +24 R49 180,'2w
+-181 R32
+CRB
+9k/
++I8v-
+9k/
+08 Pn3645
+NOTES ALL ICs LMzoi AND DIODES 1n4(48 ALL RESISTORS '4 W AND ALL CAPACITORS IN JF UNLESS OThERWiSE Specified LAST COMPONENT DESIGNATIONS : C1o,CRA ,EIl, Q8,Rsi 24
+Ris ISk
+PN3645
+C15 22/25
+R38 ISk
+E10 com
+BRo
+USS MOD- CKD: p42 6E8
+USED ON
+MATL_
+NBSS WARD-BEcK ByBTeMO LT
+Ci6 22/25 R48
+Rso 130 E11 MAW 24
+DM 5-I0IA JN 751 DUAL BOOSTER AMPLIFIER cko RLL Sc4e SCHEMATIC TOL # LB 5- 101-02-002
+FINISH
+-18v-
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+rNAC ConhECTion
+EXtErnaL Connection
+R12 is
+}r85 ISk Q5 Pn3SG9 CRS R39 33 ci3
+Pn3569
+R8
+R31
+CRI
+Ri6 33 C6
++18v I8k
+H18v (8k
+R5i
+R2?
+R53 M- 18k
+R45
+33/10
+18k
+21
+33 zzo/io8 R2o 33 4k7
+E5
+33/10
+23
+2z0/o 33 R4o R43 33 4k7 06 Pn3645
+CR?
+CRS
+Rio 620
+R33 620 Cul 6.8p
+18v| Rg 620
+R1? ISk
+PN3645
+R24 S4zk
+18v R29 620
+R36 ISk
+C4 6.8p
+BOOSTER OUTPUT
+BOOSTER 2 OUTPut
+R2 47k
+R7 dhes 620 6.8P +18v Rit <88
+RI4 ISk
+R25 47k
+R3O 620 +181
+C12 6.8 R34 620
+R? ISk
+Q3 Pn3569 R18 33
+PN3569 R4i 33 cia
+CR3
+CR7
+E2 BooSTER INPUT
+Z2
+R23
+BooSTER E6 INPUT
+R46
+E8
+33 22o/10 Rig R2I 33 4k7
+220710 33 R42 R44 33 4k7
+I50/6
+150/6
+J2
+-18v R9
+CRA
+ES +24 R49 180,'2w
+-181 R32
+CRB
+9k/
++I8v-
+9k/
+08 Pn3645
+NOTES ALL ICs LMzoi AND DIODES 1n4(48 ALL RESISTORS '4 W AND ALL CAPACITORS IN JF INLESS OThERWiSE Specified LAST COMPONENT DESICNATiONS : C1o,CRA ,EIl, Q8,Rsi 24
+Ris ISk
+PN3645
+C15 22/25
+R38 ISk
+E10 com
+BRo
+USS MOD- CKD: p42 6E8
+USED ON
+MATL_
+NBSS WARD-BEcK ByBTeMO LT
+Ci6 22/25 R48
+Rso 130 E11 MAW 24
+DM 5-I0IA JN 751 DUAL BOOSTER AMPLIFIER cko RLL Sc4e SCHEMATIC TOL # LB 5- 101-02-002
+FINISH
+-18v-
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/ROUTING/M457/1975 - M457 - 5-101-02-002 - SPECIFIED LAST COMPONENT DESICNATIONS.jpg","sha256":"580796b878ad76c17cb6763b48fa486db7a7b6c648d64b73be0b3c92b82a7222","kind":"module","models":["M457"],"year":1975,"pages":1,"order":[{"page":1,"title_block":[{"number":"5-101-02-002","type":"schematic","title":"Specified Last Component Desicnations"}],"text":["Riz R3","05","Pn3S6? Pn3SG9","R31 CRS","CRi Ri6 R39","+18v (8k HBv (8k","C6 R2? R53 Ci3 R45","33/10 33/10","CRZ 320 CRS R43","467 4k7","Rio 02 R33 06","620 Pn3645 620 R36 Pn3645","ISk R24 R29","47k Cii ISk","620 620 6.8p","6-8p BOOSTER BOOSTER 2","C5 OUTPUT 82 OUTPUT","R14 R25 R30 R3","47k 620 ISk","t8v RII 03 +i8k R34 8vas69","620 Pn3569 620","CR3 CR7 Rai","Rib","R23 Boostek 33 Cl4 R46","BooStEr 'NPJT","inPUT 150/6 2zolio4 150/6 220/10","1Bv CRA R47 181 P32 CRb 342 R44","4k7 +I8v- +24 4k7","3k/ R49 9k/ 08","NOTES Pn3645 215 R38 Pn3645","RIs 22/25 ISk","ALL ICs DIODES 1n4(43 I5k","AND ALL","CAPACITORS JNLESS XCom MatL","NBS WARD-BECK","Ci6","LAST COMPONENT SICNATIONs: 22/25 Rso DEL 5-I0IA","R48 ao DUAL BOOSTER AmPLIFIER","I8v- 24 SCHEMATIC","E LB -101-02 - 002"]}],"drawing":{"svg":"_traces/580796b878ad76c1.svg","viewBox":[2000,708],"rotate":0,"number":"5-101-02-002","title":"Specified Last Component Desicnations","dtype":"02","outlines":"see _traces/580796b878ad76c1.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/580796b878ad76c1.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[599,54,"Riz"],[1639,51,"R3"],[1711,74,"05"],[666,89,"Pn3S6?"],[1709,89,"Pn3SG9"],[1534,99,"R31"],[601,114,"CRi"],[664,119,"Ri6"],[1641,111,"CRS"],[1704,121,"R39"],[459,134,"+18v (8k"],[1504,134,"HBv (8k"],[689,146,"C6"],[746,154,"R2?"],[1396,151,"R53"],[1729,144,"Ci3"],[1789,154,"R45"],[189,191,"33/10"],[1229,186,"33/10"],[599,206,"CRZ"],[734,199,"320"],[1641,206,"CRS"],[1776,201,"R43"],[731,214,"467"],[1774,214,"4k7"],[521,231,"Rio"],[669,236,"02"],[1564,231,"R33"],[1706,234,"06"],[519,246,"620"],[664,251,"Pn3645"],[1559,244,"620"],[1639,251,"R36"],[1701,249,"Pn3645"],[1231,256,"R24"],[596,266,"ISk"],[1229,269,"47k"],[1484,264,"R29"],[1556,271,"Cii"],[1639,266,"ISk"],[441,279,"620"],[1481,276,"620"],[511,289,"6-8p"],[841,291,"BOOSTER"],[1554,286,"6.8p"],[1889,299,"BOOSTER 2"],[514,316,"C5"],[599,326,"R14"],[846,311,"OUTPUT"],[1231,324,"R25"],[1481,324,"R30"],[1552,330,"82"],[1639,326,"R3"],[1894,319,"OUTPUT"],[1229,337,"47k"],[1481,337,"620"],[466,349,"t8v"],[521,352,"RII"],[666,352,"03"],[1499,346,"+i8k"],[1561,352,"R34"],[1639,341,"ISk"],[516,367,"620"],[666,367,"Pn3569"],[1559,367,"620"],[1705,368,"8vas69"],[599,379,"CR3"],[1639,382,"CR7"],[661,392,"Rib"],[1704,389,"Rai"],[1699,409,"33 Cl4"],[749,417,"R23"],[1086,417,"Boostek"],[1784,417,"R46"],[24,427,"BooStEr"],[1088,440,"'NPJT"],[28,454,"inPUT"],[186,452,"150/6"],[674,452,"2zolio4"],[1226,449,"150/6"],[1711,447,"220/10"],[466,464,"1Bv"],[596,474,"CRA"],[976,474,"R47"],[1506,467,"181 P32"],[1639,474,"CRb"],[1695,478,"342"],[1774,467,"R44"],[729,482,"4k7"],[1769,479,"4k7"],[494,497,"3k/"],[844,489,"+I8v-"],[1114,489,"+24"],[1536,494,"9k/"],[1046,504,"R49"],[1706,507,"08"],[144,522,"NOTES"],[664,519,"Pn3645"],[954,522,"215"],[1636,527,"R38"],[1700,523,"Pn3645"],[596,529,"RIs"],[161,547,"ALL ICs"],[366,547,"DIODES"],[436,544,"1n4(43"],[596,544,"I5k"],[951,537,"22/25"],[1636,539,"ISk"],[381,564,"AND ALL"],[160,584,"CAPACITORS"],[346,584,"JNLESS"],[1094,577,"XCom"],[1511,579,"MatL"],[1669,599,"NBS"],[1756,597,"WARD-BECK"],[954,609,"Ci6"],[161,629,"LAST COMPONENT"],[349,629,"SICNATIONs:"],[951,624,"22/25"],[1046,632,"Rso"],[1679,627,"DEL"],[1854,629,"5-I0IA"],[974,649,"R48"],[1036,654,"ao"],[1774,647,"DUAL"],[1824,649,"BOOSTER"],[1904,649,"AmPLIFIER"],[851,664,"I8v-"],[1121,664,"24"],[1839,667,"SCHEMATIC"],[1754,694,"LB"],[1821,692,"-101-02 - 002"]]}}
+```

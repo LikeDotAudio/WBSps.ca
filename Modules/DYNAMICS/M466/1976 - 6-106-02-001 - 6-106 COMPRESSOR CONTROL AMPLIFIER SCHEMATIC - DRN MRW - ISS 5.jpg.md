@@ -1,0 +1,212 @@
+# 1976 - 6-106-02-001 - 6-106 COMPRESSOR CONTROL AMPLIFIER SCHEMATIC - DRN MRW - ISS 5.jpg
+Wiki page: [M466](../../../PAGES/M466.md)
+
+
+- **Year:** 1976 (title block date)
+- **Module:** M466
+- **Category:** DYNAMICS
+- **Module year estimate:** 1976 — labelled "DATE AUG 76" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M466 Compressor - Limiter/M466 - P47 - Component Layout.jpg
+
+## Title block (found by software, read by eye)
+
+- **Drawing:** B 6-106-02-001
+- **Size:** B
+- **Title:** 6-106 / COMPRESSOR CONTROL AMPLIFIER / SCHEMATIC
+- **Date:** JULY '76
+- **Drawn:** MRW
+- **Checked:** (signature)
+- **Issue:** 5
+- **Confidence:** high
+
+- **Original file:** `WBSps.env/WBS Photos-1-001/M466 - P49 - Control Amplifier Schematic.jpg`
+- **SHA-256:** `0c5f35c21dcd09a7d30a94ebc28e813287aa71a95354633e18deb61be7e1d0d1`
+- **Size:** 556,129 bytes
+- **Pages:** 1
+
+## Dates found in this file
+
+- **1976** (labelled): `DATE JULY '76` — …RD-BECK syBTEMB LTD RELEASE CAL r29 ~I6v R3i E3 22k DRN MRW DATE JULY '76 CKD_Re SCALE TOLS . {6. 6-106 COMPRESSOR CONTROL AMPLIFIER…
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 1 words corrected)
+
+```text
+I6v
++I6v Ro 220 Ri R38 62k 22M R3 CR | R2 in4148 Sk 470k
+C2 .47/35
+R8
++l6v
+ES
+~i6v
+47k
+Q14Q2 BONdEd TOGETHER 2N4401
+C13 22/25
+BIAs SET
+Rii 620
+04 ISp
+R4o 3m3
+SLOPE
++I6v CRZ R9 IIn4148 iok Zi LM3oi RIO ~Iov C3 4M7 Kr7 CI 1735 = 620 ISp
+E6
+El COMPRESSOR
+R4 ISK
++l6v
+El4 EI5,
+22 4 LMco3  I6v cr3 In4148 CR4
+CRS
+CI4 2125
+Ri5 I0
+R36 3k6
+Rs 2z0k
+IN418 RI4 Lc6 C5 620 T4l SLOPE HH LiN 3p9 tI6v
+R37 ~I6v H6v IOM Rig
+E7
+Rib 500 Zn44oi
+Riz In 4148 47k EI E? COMPRESSOR RELEASE
+RI3
+iok
+EI2
+IOk
+73
+Ri7
++I6v
+ElO CONTROL
+LIMITER
+<rZi 620
+C8 3p9
+LM3ol ~I6v
+56k
+24
+LM301 ~I6v
++I6v
+R3s 22k
+z5 LM3ol FI6v R2Z Cr6
+Rzo C7 620 iop
+E9
+~I6v
+cis 47/10
+Ri8 4k7
+R24 22k
+Iook (9 1n4148 R23 '4p7 CRB
+EI3 Limit Mon;
+R26 22k
+R2s (THLDS CAL?5 Cio 68/6
+ICK CR 7 /1N4i48 1n4/48 R3z R33
+R34 620
+NOTES L LAST COMPONENT DESIGNATiONS ARE Cis cR8, Q2, R4O , Z6
+Is0k is0k cz]vio R27
+4M7
+R2a 620
+Cii ISp
++I6v LM3ol Z6
+ISSMODIICKD: 2 2948 k 3 3o16 Wu 3057 GEB 5 3411 b"
+USED ov M466
+MATL .
+IG v R3S M
+WBS WARD-BECK syBTEMB LTD
+RELEASE CAL r29
+~I6v R3i E3 22k
+DRN MRW DATE JULY '76 CKD_Re SCALE TOLS . {6.
+6-106 COMPRESSOR CONTROL AMPLIFIER SCHEMATIC B 6-106-02-001 ISS. 5
+FINISH
+E4
+Rzo Sok
+5ik
+LIMTER RELEASE
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+I6v
++I6v Ro 220 Ri R38 62k 22M R3 CR | R2 in4148 Sk 470k
+C2 .47/35
+R8
++l6v
+ES
+~i6v
+47k
+Q14Q2 BONdEd TOGETHER 2N4401
+C13 22/25
+BIAs SET
+Rii 620
+04 ISp
+R4o 3m3
+SLOPE
++I6v CRZ R9 IIn4148 iok Zi LM3oi RIO ~Iov C3 4M7 Kr7 CI 1735 = 620 ISp
+E6
+El COMPRESSOR
+R4 ISK
++l6v
+El4 EI5,
+22 4 LMco3  I6v cr3 In4148 CR4
+CRS
+CI4 2125
+Ri5 I0
+R36 3k6
+Rs 2z0k
+IN418 RI4 Lc6 C5 620 T4l SLOPE HH LiN 3p9 tI6v
+R37 ~I6v H6v IOM Rig
+E7
+Rlb 500 Zn44oi
+Riz In 4148 47k EI E? COMPRESSOR RELEASE
+RI3
+iok
+EI2
+IOk
+73
+Ri7
++I6v
+ElO CONTROL
+LIMITER
+<rZi 620
+C8 3p9
+LM3ol ~I6v
+56k
+24
+LM301 ~I6v
++I6v
+R3s 22k
+z5 LM3ol FI6v R2Z Cr6
+Rzo C7 620 iop
+E9
+~I6v
+cis 47/10
+Ri8 4k7
+R24 22k
+Iook (9 1n4148 R23 '4p7 CRB
+EI3 Limit Mon;
+R26 22k
+R2s (THLDS CAL?5 Cio 68/6
+ICK CR 7 /1N4i48 1n4/48 R3z R33
+R34 620
+NOTES L LAST COMPONENT DESIGNATiONS ARE Cis cR8, Q2, R4O , Z6
+Is0k is0k cz]vio R27
+4M7
+R2a 620
+Cii ISp
++I6v LM3ol Z6
+ISSMODIICKD: 2 2948 k 3 3o16 Wu 3057 GEB 5 3411 b"
+USED ov M466
+MATL .
+IG v R3S M
+WBS WARD-BECK syBTEMB LTD
+RELEASE CAL r29
+~I6v R3i E3 22k
+DRN MRW DATE JULY '76 CKD_Re SCALE TOLS . {6.
+6-106 COMPRESSOR CONTROL AMPLIFIER SCHEMATIC B 6-106-02-001 ISS. 5
+FINISH
+E4
+Rzo Sok
+5ik
+LIMTER RELEASE
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/DYNAMICS/M466/1976 - 6-106-02-001 - 6-106 COMPRESSOR CONTROL AMPLIFIER SCHEMATIC - DRN MRW - ISS 5.jpg","sha256":"0c5f35c21dcd09a7d30a94ebc28e813287aa71a95354633e18deb61be7e1d0d1","kind":"module","models":["M466"],"year":1976,"pages":1,"order":[{"page":1,"title_block":[{"number":"B 6-106-02-001","type":"schematic","title":"6-106 / COMPRESSOR CONTROL AMPLIFIER / SCHEMATIC","date":"JULY '76","year":1976,"drawn":"MRW","issue":"5"}],"dates":[{"year":1976,"kind":"labelled","text":"DATE JULY '76"}],"text":["I6v","2r0 47/35","RI R38 ES","62k 22M +I6v","~i6v","R2 R3 CRI 47k Qieq2 BOndEd","BIAS RII CIs","IN4148 R4o TOGETHER 22/25","SET Sk 470k 620 ISp SLOPE","+I6v CRZ R9 3m3 2N4401 E6","IIn4148 iok","ElI R4 Zi +lov","I5K CR5 Ci4","COMPRESSOR LM3ol 22","RIO R3b 2425","Iov C3 4M7  [4 Uo3 Ris 3k6","r7 1/35- IN4I48 R37","RS I6v I6v E7","220k 620 ISp cr3 <ri4 (6 +6v","IN4148 CR4 C5 620 T47P IOM RIg","SLOPE Rlb","Riz In 4148 in 500 Iok","47k tI6V Zn4401","IOk Ri7 +I6v","EI E2 73 EIO","LMITER Rzi COMPRESSOR RELEASE LM3ol 56k","620 Sps 74 CONTROL","~I6v 14 LM301","~I6v","+Iov","Rss Krzo","25 22k C7","E9 620 op","~I6v R2Z cr6 cis","Iiilio Ri8","R24 Icok IN4I48 4k7","22k 14p7 E13","R23 (RB Limit Mon","R26","R2s 22k ICOK R34","TH4LDS IN4/48","CALS5 620","Cio R3z R33","T68/6 NOTES","Is0k azvo IsOK L LAST COMPONENT DESIGNATIONS Are","R27 Cis , CR8,Q2, R4O, Z6","4M7","Rea Cii","620 ISp","+I6v ISSMOD ICKD: USED Ov MATL _","R39 LM3oI 2948 M466 WBS WARD-BECK syBTEMB LTD ","IG v 76","3o16 Wt","RELEASE (AL 4 3os-IGEB DRA MRW 6-106","~I6v DATE","r29 R3i ' FINISH JULY 76 COMPRESSOR CONTROL","CKD AMPLIFIER","R3o Sik E3 SCHEMATIC","ISCALE","Sok","LIMITER RELEASE TOLs 6-106-02-001 ISS_"]}],"drawing":{"svg":"_traces/0c5f35c21dcd09a7.svg","viewBox":[2000,1266],"rotate":0,"size":"B","number":"B 6-106-02-001","title":"6-106 / COMPRESSOR CONTROL AMPLIFIER / SCHEMATIC","dtype":"02","outlines":"see _traces/0c5f35c21dcd09a7.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/0c5f35c21dcd09a7.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[219,31,"I6v"],[386,46,"2r0"],[479,49,"47/35"],[216,69,"RI"],[284,74,"R38"],[216,91,"62k"],[284,94,"22M"],[1626,84,"+I6v"],[1930,87,"ES"],[1001,104,"~i6v"],[211,136,"R2"],[266,134,"R3"],[366,124,"CRI"],[454,126,"47k"],[1201,139,"Qieq2 BOndEd"],[1796,139,"CIs"],[120,152,"BIAS"],[364,154,"IN4148"],[801,149,"RII"],[125,182,"SET"],[211,174,"Sk"],[261,174,"470k"],[799,171,"620"],[874,174,"ISp"],[1046,170,"R4o"],[1234,166,"TOGETHER"],[1464,179,"SLOPE"],[1790,167,"22/25"],[461,191,"+I6v"],[514,196,"CRZ"],[591,196,"R9"],[1049,191,"3m3"],[1171,202,"2N4401"],[1929,206,"E6"],[504,216,"IIn4148"],[589,216,"iok"],[134,239,"ElI"],[266,229,"R4"],[409,241,"Zi"],[839,231,"+lov"],[259,254,"I5K"],[1821,261,"Ci4"],[9,269,"COMPRESSOR"],[476,274,"LM3ol"],[791,276,"22"],[1074,269,"CR5"],[466,291,"Iov"],[674,281,"RIO"],[1301,296,"Ris"],[1486,286,"R3b"],[1816,286,"2425"],[606,301,"C3"],[671,301,"4M7"],[836,299,"[4 Uo3"],[301,331,"RS"],[416,329,"r7"],[606,324,"1/35-"],[846,326,"I6v"],[1064,314,"IN4I48"],[1482,315,"3k6"],[1566,326,"R37"],[1631,326,"I6v"],[1926,331,"E7"],[296,354,"220k"],[419,351,"620"],[486,354,"ISp"],[769,346,"cr3"],[1060,352,"&lt;ri4"],[1636,354,"+6v"],[766,376,"IN4148"],[849,384,"CR4"],[1031,376,"C5"],[1077,380,"620 T47P"],[1567,380,"IOM RIg"],[1194,391,"SLOPE"],[1298,400,"Rlb"],[771,426,"Riz"],[851,426,"In 4148"],[1201,411,"in"],[1299,419,"500"],[1606,421,"Iok"],[1121,431,"tI6V"],[769,444,"47k"],[1329,446,"Zn4401"],[1469,456,"Ri7"],[621,474,"EI"],[786,476,"E2"],[951,469,"IOk"],[1071,479,"73"],[1654,466,"+I6v"],[1774,479,"EIO"],[11,505,"LMITER"],[416,491,"Rzi"],[619,499,"COMPRESSOR RELEASE"],[1136,499,"LM3ol"],[1464,501,"56k"],[419,511,"620"],[486,514,"Sps"],[1604,514,"74"],[1820,520,"CONTROL"],[1124,526,"~I6v"],[1648,535,"14 LM301"],[1659,556,"~I6v"],[461,569,"+Iov"],[1456,586,"Rss"],[411,611,"25"],[1451,611,"22k"],[1592,605,"Krzo"],[1679,604,"C7"],[1259,631,"E9"],[1611,624,"620"],[204,651,"~I6v"],[404,664,"R2Z"],[479,664,"cr6"],[1431,666,"cis"],[1402,692,"Iiilio"],[1546,679,"Ri8"],[209,696,"R24"],[1549,699,"4k7"],[211,716,"22k"],[396,706,"Icok"],[496,706,"IN4I48"],[1769,716,"E13"],[394,731,"R23"],[464,731,"14p7"],[511,734,"(RB"],[286,759,"R26"],[1815,752,"Limit Mon"],[209,781,"R2s"],[286,776,"22k"],[389,771,"ICOK"],[1574,781,"R34"],[145,797,"TH4LDS"],[446,789,"IN4/48"],[1576,801,"620"],[148,822,"CALS5"],[274,826,"Cio"],[389,819,"R3z"],[489,821,"R33"],[244,849,"T68/6"],[882,850,"NOTES"],[379,864,"Is0k"],[486,864,"IsOK"],[425,882,"azvo"],[885,880,"L LAST COMPONENT"],[1155,879,"DESIGNATIONS Are"],[321,894,"R27"],[928,915,"Cis , CR8,Q2, R4O, Z6"],[319,934,"4M7"],[411,984,"Rea"],[481,986,"Cii"],[411,1004,"620"],[481,1008,"ISp"],[451,1056,"+I6v"],[714,1054,"ISSMOD ICKD:"],[921,1054,"USED Ov"],[1069,1056,"MATL _"],[239,1091,"IG v"],[299,1089,"R39"],[491,1089,"LM3oI"],[764,1081,"2948"],[911,1081,"M466"],[1348,1096,"WBS"],[1522,1087,"WARD-BECK"],[1750,1086,"syBTEMB"],[1926,1089,"LTD"],[398,1105,"76"],[760,1115,"3o16"],[824,1111,"Wt"],[142,1150,"RELEASE (AL"],[444,1149,"~I6v"],[761,1141,"3os-IGEB"],[1314,1136,"DRA"],[1388,1140,"MRW"],[1715,1152,"6-106"],[294,1166,"r29"],[396,1169,"R3i"],[1066,1171,"FINISH"],[1314,1164,"DATE"],[1399,1161,"JULY 76"],[509,1196,"E3"],[1314,1191,"CKD"],[1539,1185,"COMPRESSOR CONTROL"],[1840,1187,"AMPLIFIER"],[191,1209,"R3o"],[299,1211,"Sik"],[1314,1216,"ISCALE"],[1686,1217,"SCHEMATIC"],[191,1233,"Sok"],[464,1259,"LIMITER RELEASE"],[1312,1257,"TOLs"],[1640,1262,"6-106-02-001"],[1901,1256,"ISS_"],[1675,628,"op"]]}}
+```

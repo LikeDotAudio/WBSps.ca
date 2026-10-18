@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 192" class="drawing"><style>
+.drawing { width: 100%; height: auto; font-family: "Overpass", "Helvetica Neue", Arial, sans-serif }
+.drawing .h { font: 700 15px "Overpass", Arial, sans-serif; letter-spacing: .12em; fill: #1c1c1c }
+.drawing .board { fill: #e7e2c9; stroke: #1c1c1c; stroke-width: 2 }
+.drawing .finger { stroke: #1c1c1c; stroke-width: 1.4 }
+.drawing .pin { font: 600 13px "Overpass Mono", monospace; fill: #555 }
+.drawing .pin.on { fill: #fff }
+.drawing .lead { stroke: #1c1c1c; stroke-width: 1 }
+.drawing .sig { font: 600 12px "Overpass", Arial, sans-serif; text-transform: uppercase }
+.drawing .side, .drawing .leg { font: 600 11px "Overpass Mono", monospace; fill: #1c1c1c; letter-spacing: .06em }
+.drawing .block { fill: #faf8ef; stroke: #1c1c1c; stroke-width: 2.5 }
+.drawing .code { font: 800 34px "Overpass", Arial, sans-serif; fill: #1c1c1c }
+.drawing .kind { font: 600 13px "Overpass", Arial, sans-serif; fill: #555; text-transform: uppercase; letter-spacing: .06em }
+.drawing .wire { stroke-width: 2.2 }
+.drawing .sig2 { font: 700 14px "Overpass", Arial, sans-serif; fill: #1c1c1c; text-transform: uppercase }
+.drawing .pins { font: 13px "Overpass Mono", monospace; fill: #444 }
+.drawing .jmp { font: 12px "Overpass Mono", monospace; fill: #4f7f8a }
+</style><rect x="400" y="40" width="300" height="122" class="block"/><text x="550.0" y="95.0" text-anchor="middle" class="code">M485B</text><text x="550.0" y="121.0" text-anchor="middle" class="kind">M485B 25V power Supply</text><text x="60" y="26" class="h">INPUTS</text><text x="1040" y="26" text-anchor="end" class="h">OUTPUTS</text></svg>

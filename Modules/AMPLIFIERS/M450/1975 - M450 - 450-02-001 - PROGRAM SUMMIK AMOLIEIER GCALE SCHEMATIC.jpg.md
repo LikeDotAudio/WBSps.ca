@@ -1,0 +1,252 @@
+# 1975 - M450 - 450-02-001 - PROGRAM SUMMIK AMOLIEIER GCALE SCHEMATIC.jpg
+Wiki page: [M450](../../../PAGES/M450.md)
+
+
+- **Year:** 1975 (module estimate (labelled))
+- **Module:** M450
+- **Category:** AMPLIFIERS
+- **Module year estimate:** 1975 — labelled "DATE APR 75" in WBS Photos-1-001/Scan_20210321 (2).png
+- **Original file:** `WBSps.env/PUBLIC/Manuals + tech DOCUMENTS/Modules/M450/450-02-001.jpg`
+- **SHA-256:** `2801e433c0309fa5e6f0e2b1c002d13ffeac16328447e24453c964fa0ffc05f7`
+- **Size:** 7,017,255 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 5 words corrected)
+
+```text
+R36
+C24 015
+R38
+50
+0 Tipbob
+R7 Xio
+22 c32 72YF R7E CRS ~i6v 4n4148 R4o 270 R37
+95s69 C27 RS9 47 LOOP R4i
+C9 6800P
+tI6v
+R46
+C5
+PN 3569
+620
+C28
+33016
+739 NOTI 7432 (94+1 047 R9 1*8 +I6v R8 7k5 cio
+470
+L2 R4s IOOLH 4k7
+12
+4 <_R3 2k7
+Sk C26
+22oi10
+R42
+Rs 47k
+CRG i044B
+Rii IOO
+100 P
+07 PN364s
+INPUT SHIELD 7 <
+R35 ISk
+Ri2 IO0
+Ri3 7k5
+R43 BK2
+Q8 Tip29b
+INPUT
+Ria
+LOOP
+Q2
+Pn36451
+R44
+R48 50 3w
+R6 47k
+~igv
+J3
+{B10 ~16v ~igv
+-24v
+c12 3300p
+-24v
++i6v
+R25
+OUTPUt
+Q3
+Pn3569
+{39 3433 NOTE 4 c2s 7t1 047 Ri8 7 {ik8 R2o Rsi 100 ~IGV C15 R22 Ri5 R16 R23 3k 2 23/0 765 4k7 417 2k4 22 R2t 739 R52 [3or C18 ICO0 Ik8 T14 C14 Ri7 Iizop 220p 220 C1g Ci9 +I6v Du3645 IOXP R24 47p Isk Ri9 I5k -I6v ~I6v
++24v
+330/6
+R4
++24v
+R49 30
+2k7
+C21 015
+R26
+Qio Tipbo8
+Pl3567
+C33 27p CR3 in 414B
+C22 R27 47 IOOOP R29 470
+R34
+GAIU SET
+10
+C23
+620
+R28 270
+713
+LI R33 touH 467
+22o/0
++24v
+CR4 1n4148
+R30
+CRi
+Ri
++25v
+#6v
+011 Pu3e4s
+1N4003
+330
+C3 22/25
+125v com:
+22/25
+R31 Br2
+Q12 Tip298
+NQTE: 1.ALL ResistoRs #W,5% AUJD ALL capaciTorS InjF UNLESS OTHERWISE STATED
+R32 Ik
+24v
+Rso 50 3w
+~I6v
+CR2
+R2
+-25v 15 <
+~I6v
+-24v
+iN4003
+330 C2 22/25
+21 To BE FACTORY SELECTED. 3 . LAST COMPONENT DESICNATKoNS : C33, CRG, L2 912 R5? , 22. 4. * UsE THESE COMPONENTS ONLY WHEN Specified_
+C4 22/25
+-24v
+ISS MOO [CKD USED OM IGAH4sQ 0 [752 [eu_ Sll9430/ T 2520 2184 RLS BEEE1A
+WBS WARO-Beck byatama LTo
+DRH: DALE M450 rZ CKDL PROGRAM Summit AmeLieier SCALE ScHEMATIC TOLS _ Ha_ B450-02-001
+IRISH
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+R36
+C24 015
+R38
+50
+0 Tipbob
+R7 Xio
+22 c32 72YF R7E CRS ~i6v 4n4148 R4o 270 R37
+95s69 C27 RS9 47 IOOp R4i
+C9 6800P
+tI6v
+R46
+C5
+PN 3569
+620
+C28
+33016
+739 NOTI 7432 (94+1 047 R9 1*8 +I6v R8 7k5 cio
+470
+L2 R4s IOOLH 4k7
+12
+4 <_R3 2k7
+Sk C26
+22oi10
+R42
+Rs 47k
+CRG i044B
+Rii IOO
+100 P
+07 PN364s
+INPUT SHIELD 7 <
+R35 ISk
+Ri2 IO0
+Ri3 7k5
+R43 BK2
+Q8 Tip29b
+INPUT
+Ria
+IOOP
+Q2
+Pn36451
+R44
+R48 50 3w
+R6 47k
+~igv
+J3
+{B10 ~16v ~igv
+-24v
+c12 3300p
+-24v
++i6v
+R25
+OUTPUt
+Q3
+Pn3569
+{39 3433 NOTE 4 c2s 7t1 047 Ri8 7 {ik8 R2o Rsi 100 ~IGV C15 R22 Ri5 R16 R23 3k 2 23/0 765 4k7 417 2k4 22 R2t 739 R52 [3or C18 ICO0 Ik8 T14 C14 Ri7 Iizop 220p 220 C1g Ci9 +I6v Du3645 IOXP R24 47p Isk Ri9 I5k -I6v ~I6v
++24v
+330/6
+R4
++24v
+R49 30
+2k7
+C21 015
+R26
+Qio Tipbo8
+Pl3567
+C33 27p CR3 in 414B
+C22 R27 47 IOOOP R29 470
+R34
+GAIU SET
+10
+C23
+620
+R28 270
+713
+LI R33 touH 467
+22o/0
++24v
+CR4 1n4148
+R30
+CRi
+Ri
++25v
+#6v
+011 Pu3e4s
+1N4003
+330
+C3 22/25
+125v com:
+22/25
+R31 Br2
+Q12 Tip298
+NQTE: 1.ALL ResistoRs #W,5% AUJD ALL capaciTorS InjF UNLESS OTUERWiSE STATED
+R32 Ik
+24v
+Rso 50 3w
+~I6v
+CR2
+R2
+-25v 15 <
+~I6v
+-24v
+iN4003
+330 C2 22/25
+21 To BE FACTORY SELECTED. 3 . LAST COMPONENT DESICNATKoNS : C33, CRG, L2 912 R5? , 22. 4. * UsE THESE COMPONENTS ONLY WHEN Specified_
+C4 22/25
+-24v
+ISS MOO [CKD USED OM IGAH4sQ 0 [752 [eu_ Sll9430/ T 2520 2184 RLS BEEE1A
+WBS WARO-Beck byatama LTo
+DRH: DALE M450 rZ CKDL PROGRAM SumMik AmeLieier SCALE ScHEMATIC TOLS _ Ha_ B450-02-001
+IHISH
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/AMPLIFIERS/M450/1975 - M450 - 450-02-001 - PROGRAM SUMMIK AMOLIEIER GCALE SCHEMATIC.jpg","sha256":"2801e433c0309fa5e6f0e2b1c002d13ffeac16328447e24453c964fa0ffc05f7","kind":"module","models":["M450"],"year":1975,"pages":1,"order":[{"page":1,"title_block":[{"number":"450-02-001","type":"schematic","title":"Program Summik Amolieier Gcale Schematic","drawn":"DO"},{"number":"450-02-001","type":"schematic","title":"Use These Components Only When Specified"}],"text":["R36","C24 R38","Tip3o8","6800p +I6v CRS <RS9","-{6v","3669 I2yo C28","330/6 739 R37","22on10 L2","R} R45","C26 CRG R42 4*7","47 +IGv","INPUT R35","SHIELD 7 < cio Ri? ISk","RI2 R43 08","ICO 765 8*2 7ip298","INPUT oop Q2","P43645 R44","R48","Rio -24v","I6v C12 24v","J300p +I6v","igv OUTpUT","R25","243569 +24v","330/6","NOTE +24v R49","Ri8 Rzo R5i R26","1k8 10 0i5","~IGv Cis R22 R2z Qio","RI5 R16 Tip308","09","3k2 33/i0 22","R2i 739","R52 C18 c22","C14 IkB CR3 R27","RI7 132 ci9 +i6v Iu4140","2200 220 Cis IcoOp","GAIU SET J4is4s IOP R24 47p","ISk R28","970","Ri9","ISk 220/10 R33","I6v 467","+24v CR4 R30","CRI","+25v Q1","1n4003 Puel4s","25v 8 22/25 22/25 83 Q12","coM: Tip298","NOTE: R32","24v ALL ResiSTORs Iw,5% AUD ALL CAPAciTors Rso","CR? INAF UNLESS otherwise ~I6v","STATED 3w","-25v 15 < I6v","IN4003 330 2. 21 To BE FACTORY SELECTED:","C2 LAST COMPONENT -24v","22/25 1 22/25 DESICNATioNS:","C33 CRG, L2 012 R5? 22.","USE THeSe COHPONENTS ONLY","WHEN SPECIFIED","H4so WARD-","3L752L","D M450","pszo AweLiEiR","2g1k! SCALE","@EPA D50-02-0"]}],"drawing":{"svg":"_traces/2801e433c0309fa5.svg","viewBox":[2000,1414],"rotate":0,"number":"450-02-001","title":"Use These Components Only When Specified","dtype":"02","outlines":"see _traces/2801e433c0309fa5.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/2801e433c0309fa5.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[1274,149,"R36"],[1316,219,"C24"],[1449,221,"R38"],[1586,269,"Tip3o8"],[559,344,"6800p"],[644,336,"+I6v"],[1356,336,"CRS"],[1436,334,"&lt;RS9"],[684,374,"3669"],[1254,359,"-{6v"],[1366,386,"I2yo"],[1596,384,"C28"],[416,394,"330/6"],[506,394,"739"],[1240,423,"R37"],[1589,421,"22on10"],[1729,414,"L2"],[1666,434,"R45"],[1244,446,"C26"],[1359,456,"CRG"],[1449,451,"R42"],[1664,449,"4*7"],[411,466,"47"],[499,471,"+IGv"],[1226,514,"R35"],[206,521,"INPUT"],[201,539,"SHIELD"],[511,536,"cio"],[664,541,"RI2"],[714,539,"Ri?"],[1226,529,"ISk"],[1356,544,"R43"],[1586,546,"08"],[661,556,"ICO"],[716,554,"765"],[1356,559,"8*2"],[1586,561,"7ip298"],[121,566,"INPUT"],[611,576,"Q2"],[656,579,"P43645"],[1446,581,"R44"],[1561,594,"R48"],[606,626,"Rio"],[1416,629,"-24v"],[644,646,"I6v"],[824,644,"C12"],[1539,646,"24v"],[821,661,"J300p"],[924,661,"+I6v"],[589,674,"igv"],[1271,686,"R25"],[1889,684,"OUTpUT"],[948,693,"243569"],[1531,704,"+24v"],[419,716,"330/6"],[1419,736,"+24v"],[1064,744,"NOTE"],[891,761,"Ri8"],[951,769,"Rzo"],[1089,771,"R5i"],[1446,769,"R26"],[889,776,"1k8"],[1317,773,"0i5"],[949,781,"10"],[761,796,"~IGv"],[979,796,"Cis"],[1026,804,"R22"],[1599,799,"Qio"],[749,814,"RI5"],[806,814,"R16"],[1140,820,"R2z"],[1599,814,"Tip308"],[1449,829,"09"],[744,841,"3k2"],[974,841,"33/i0"],[1261,841,"22"],[1259,851,"739"],[951,861,"R2i"],[1021,871,"R52"],[1181,869,"C18"],[1499,869,"c22"],[739,889,"C14"],[1021,884,"IkB"],[1356,881,"CR3"],[1446,884,"R27"],[796,891,"RI7"],[1178,888,"132"],[1360,888,"Iu4140"],[736,906,"2200"],[796,906,"220"],[1071,911,"Cis"],[1216,904,"ci9 +i6v"],[1495,904,"IcoOp"],[950,915,"J4is4s"],[154,929,"GAIU SET"],[1071,926,"IOP"],[1136,929,"R24"],[1216,926,"47p"],[1134,941,"ISk"],[1381,939,"R28"],[1385,945,"970"],[891,961,"Ri9"],[891,976,"ISk"],[1596,974,"220/10"],[1666,981,"R33"],[931,991,"I6v"],[1664,994,"467"],[549,1004,"+24v"],[1356,1004,"CR4"],[1444,1011,"R30"],[326,1034,"CRI"],[199,1051,"+25v"],[1446,1049,"Q1"],[321,1064,"1n4003"],[1448,1060,"Puel4s"],[206,1096,"25v 8"],[396,1091,"22/25"],[491,1091,"22/25"],[1352,1100,"83"],[1586,1094,"Q12"],[196,1106,"coM:"],[1586,1111,"Tip298"],[901,1121,"NOTE:"],[1441,1129,"R32"],[556,1139,"24v"],[901,1142,"ALL ResiSTORs Iw,5% AUD ALL"],[1161,1139,"CAPAciTors"],[1559,1146,"Rso"],[1329,1151,"~I6v"],[321,1159,"CR?"],[901,1161,"INAF UNLESS"],[1011,1161,"otherwise"],[1104,1164,"STATED"],[1559,1169,"3w"],[199,1179,"-25v"],[256,1176,"15 &lt;"],[551,1179,"I6v"],[316,1194,"IN4003"],[414,1189,"330"],[884,1191,"2. 21"],[934,1194,"To BE FACTORY SELECTED:"],[394,1206,"C2"],[1531,1201,"-24v"],[485,1223,"22/25"],[904,1212,"LAST"],[955,1215,"COMPONENT"],[1064,1214,"DESICNATioNS:"],[394,1224,"22/25"],[901,1229,"C33"],[946,1231,"CRG, L2"],[1024,1231,"012"],[1066,1234,"R5?"],[1114,1234,"22."],[921,1252,"USE"],[964,1255,"THeSe COHPONENTS"],[1134,1256,"ONLY"],[911,1267,"WHEN"],[964,1269,"SPECIFIED"],[1439,1292,"H4so"],[1751,1292,"WARD-"],[1364,1307,"3L752L"],[1829,1326,"M450"],[1890,1343,"AweLiEiR"],[1381,1349,"pszo"],[1652,1350,"SCALE"],[1381,1362,"2g1k!"],[1364,1379,"@EPA"],[1750,1380,"D50-02-0"],[510,576,"oop"],[1557,741,"R49"]]}}
+```

@@ -1,0 +1,255 @@
+# 1973 - M441M - schematic3_assembled.jpg
+Wiki page: [M441M](../../../PAGES/M441M.md)
+
+
+- **Year:** 1973 (module estimate (labelled))
+- **Module:** M441M
+- **Category:** INPUT-PRE-AMPS
+- **Module year estimate:** 1973 — labelled "DATE APR 73" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M441M - Microphone preamp #Master/M441M - Channel Amplifier.pdf
+- **Original file:** `WBSps.env/wbsps - website ARCHIVE/WBSPS 2008/RAW SCANS/Done/Done 1 - M441M - Microphone Pre-Amp/m441m-schematic3_assembled.jpg`
+- **SHA-256:** `eb74a957e03a3ebf661ac4e4bf71489241ed53cca8a7360d014a128491e98bff`
+- **Size:** 2,036,130 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 10 words corrected)
+
+```text
+CR? InjAO =
+I6V
+2N-1223 C3s 'Oi 712 ZN-40i
+22 46v BOOSTER 4'AP INWI_t
+R5 ISk
+Rzo 22k
+Oke
+85o
+Tioo/zs NoTES: FOR COMPONENT LAYOUT SEE B1BI 08 co3 FOR SCHEMATIC OF FC 182 See 8182 02-0o1 3. UNLESS OTHERWISE SPECIFIED AU RESISTORS ARE V4 W TOL 25 % VALUES IN OHMS (n) CAPACITANCE MICROFARADs (F) '0iS
+02 2N2iC2
+Ce 68op
+R2z IKB
+457
+COMMON
+Pw 82z2o 828 1C334 CRA INSM- A26
+ZNSi-7
+9,w Chassis
+C3o 50/35
+R56 47k
+C33 25/35 VIA R23z To FOLDBACR VIa A23? Svi
+489
+PrE AMF CUT D
+To PC 1E2 (E:06},7E4 AXF;
+710 FOLCFACK OUT
+L2 GuH
+MIC
+FOLLBACK LEvEL Ct_
+R25 36k Ci5 10251
+R6s OT
+PRoeRiN OUTPUT UN: WitiHED"
+015
+R3
+CRI IN752
+22k
+R32 2ke
+REVERB Switch
+22k
+2N4 -7_
+Ra
+Ri3
+RD To Ti GN
+2*14+C1 Rle 620
+PROGRAm SQUTPED NutE CtL CKn CB ~e S 720 +2+v
+R8 oEc C4 CRZ IOpl IN752 38
++36v R33 6k8 94 2N2io2
+To
+R4?
+R43
+073 674
+CHANNEL ON S7
+R46
+47Op
+Ci3 47/20
+R28 IKs
+RRz C40 C4i
+C26 C27 Toeo R4i R44 IOK VAw ~ ~M
+Cza
+C2s
+C42
+c43
+842
+RI9 R2z R23 A24 JOr Bk_ ICK
+czo 630p
+TO CHANNE ON Sw VL~8 R76 C44 R77 e)1
+R37
+R45 R48<
+Rce
+672
+22
+R3O CRS 470 INDIA
+8212o
+23 709
+To
+Cc 2760P
+~N
+TX CJE Switc7
+SUe DC CTL DeveNC coee Sw
+C5 Sole
+CRe INDIA IS?
+SENSiTivITY Sw
+CI7 47p
+C25 758 ICC /20
+RE < SFND
+REV SENC
+SEv _N
+Ge; ZENC
+OPT CNA
+TC CUE REVERB
+R26 36k
+05 2N^.7
+R4IC 4K7
+RA Isk
+10125
+RI4 IkB
+834 8ka
+ISSMOD
+USED ON
+WBS WAAD-BECK Bybtem8 LTD_
+LAst COMF  NEt IT CESIGNGTIONS ARF C45 CR 7 ,L< Cl2 R77 73
+FoL Ov &
+DRN DATE 4PR CKD SCALE TOLS #a
+:1 08786. FL ANF!IF'Ei; SC; IEMIATIC
+Inish
+Sh
+B 18i {2 OO|
+ISS 
+R7i
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+CR? InjAO =
+I6V
+2N-1223 C3s 'Oi 712 ZN-40i
+22 46v BoCSTER 4'AP INWI_t
+R5 ISk
+Rzo 22k
+Oke
+85o
+Tioo/zs NoTES: FOR COMPONENT LAYoT SEE B1BI 08 co3 FOR SCHEMATIC OF FC 182 See 8182 02-0o1 3. UNLESS OTHERWISE SPECIFIED AU RESISTORS ARE V4 W TOL 25 % VALUES IN OHMS (n) CAPACITANCF MICROFARADs (F) '0iS
+02 2N2iC2
+Ce 68op
+R2z IKB
+457
+COMVON
+Pw 82z2o 828 1C334 CRA INSM- A26
+ZNSi-7
+9,w Ciassis
+C3o 50/35
+R56 47k
+C33 25/35 VIA R23z To FOLDBACR VIa A23? Svi
+489
+PrE AMF CUT D
+To PC 1E2 (E:06},7E4 AXF;
+710 FOLCFACK OUT
+L2 GuH
+MIC
+FOLLBACK LEvEL Ct_
+R25 36k Ci5 10251
+R6s OT
+PRoeRiN CUTPUT UN: WitiHED"
+015
+R3
+CRI IN752
+22k
+R32 2ke
+REVERB Switcy
+22k
+2N4 -7_
+Ra
+Ri3
+RD To Ti GN
+2*14+C1 Rle 620
+PROGRAm SQUTPED NutE CtL CKn CB ~e S 720 +2+v
+R8 oEc C4 CRZ IOpl IN752 38
++36v R33 6k8 94 2N2io2
+To
+R4?
+R43
+073 674
+CHANMEL ON S7
+R46
+47Op
+Ci3 47/20
+R28 IKs
+RRz C40 C4i
+C26 C27 Toeo R4i R44 IOK VAw ~ ~M
+Cza
+C2s
+C42
+c43
+842
+RI9 R2z R23 A24 JOr Bk_ ICK
+czo 630p
+TO CHANNE ON Sw VL~8 R76 C44 R77 e)1
+R37
+R45 R48<
+Rce
+672
+22
+R3O CRS 470 INJIA
+8212o
+23 709
+To
+Cc 2760P
+~N
+TX CJE Switc7
+SUe DC CTL DeveNC coee Sw
+C5 Isole
+CRe INDIA IS?
+SENSiTivITY Sw
+CI7 47p
+C25 758 ICC /20
+RE < SFND
+REV SENC
+SEv _N
+Ge; ZENC
+OPT CNA
+TC CUE REVERB
+R26 36k
+05 2N^.7
+R4IC 4K7
+RA Isk
+10125
+RI4 IkB
+834 8ka
+ISSMOD
+USED ON
+WBS WAAD-BECK Bybtem8 LTD_
+LAst COMF  NEt IT CESIGNGTIONS ARF C45 CR 7 ,L< Cl2 R77 73
+FoL Ov &
+DRN DATE 4PR CKD SCALE TOLS #a
+:1 08786. FL ANF!IF'Ei; SC; IEMIATIC
+Inish
+Sh
+B 18i {2 OO|
+ISS 
+R7i
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Modules/INPUT-PRE-AMPS/M441M/1973 - M441M - schematic3_assembled.jpg",
+ "sha256": "eb74a957e03a3ebf661ac4e4bf71489241ed53cca8a7360d014a128491e98bff",
+ "kind": "module",
+ "models": [
+  "M441M"
+ ],
+ "year": 1973,
+ "pages": 1
+}
+```

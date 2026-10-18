@@ -1,0 +1,155 @@
+# 19xx - M751 - DOC - WBSps.ca -2021-3-15-19-3-51.jpg
+Wiki page: [Documents](../../../PAGES/Documents.md)
+
+
+- **Year:** unknown (unknown)
+- **Type:** document scan
+- **About:** M751
+
+## Text recovered by OCR
+
+> LATCH LATCH VERIFICATION To 6 Select OUT To6 7T0 12 LoGIc WKEN CodE AGREEs Uce IC DEcODER OUT MCDULE SELECT 61-72 73-84 85-96 97-108 49-60 37-48 25-36 13- 24 Logic INPUTS 213 Locic WHEN CodE DOES Not AGREE R70 EF At TiME When ENABLED By Stroke Pulse 0 PIN SooceT Notes: I.c. TyPEs ARE : 2 1,Z2 , 24.25 7475; 23,26 93L0l ; 27,28,210, 2i1 74186 29.2i2 - 7430; 2i3 7402 214,215 "7404 Sus1 I56 STROBE 2 14 sec <3k9 213 2k2 FOR COMPONENT LAYOUT ReFER To Bl-IIB .06.004 022 ENTER PULSE Strobe PIN Insec Rro ENTER tSv ENTER 2i3 214 Iis 215 1i4 26 cio 2iz Zii 14z4 28 64 212 Ilc? zio 12 22 Ice 27 SvR4 3k9 47/10 COMMON 2,22 215 680 StRobE {022 3k9 2i3 614 25 OUT 2 SELECT 61-72 73-84 85-96 -108 DATA Out 212 25- 215 213 Riz 2NS17_ 470 05cop OUT TOLS Bzt Bi EHorE CIRd BEXASIES LID: Daa GP M751-3 DAIE JUNE DUAL MEMORY LATCH Rn( SCHEMATIC c] 751-02-0C4 SeE NoTe 3 Ja
+- **Original file:** `WBSps.env/PUBLIC/RECENT SCANS/WBSps.ca 20210315 - Large dwg - Needs rename /WBSps.ca -2021-3-15-19-3-51 (36).jpg`
+- **SHA-256:** `381d87584f21328a1348cc1c181d045f58432cab34cf3d0ef740300a95f4d69c`
+- **Size:** 8,241,989 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 4 words corrected)
+
+```text
+LATCH
+LATCH VERIFICATION
+To 6 Select
+OUT
+To6
+7T0 12
+LoGIc
+WKEN CodE AGREEs
+Uce IC DEcODER OUT MODULE SELECT 61-72 73-84 85-96 97-108 49-60 37-48 25-36 13- 24
+Logic INPUTS
+213
+Logic
+WHEN CodE DOES Not AGREE
+R70
+EF At TiME When ENABLED By Stroke Pulse 0 PIN SooceT
+Notes: I.c. TyPEs ARE : 2 1,Z2 , 24.25 7475; 23,26 93L0l ; 27,28,210, 2i1 74186 29.2i2 - 7430; 2i3 7402 214,215 "7404
+Sus1 I56 STROBE
+2 14
+sec
+<3k9
+213
+2k2
+FOR COMPONENT LAYOUT ReFER To Bl-IIB .06.004
+022
+ENTER PULSE Strobe PIN
+Insec
+Rro
+ENTER
+tSv
+ENTER
+2i3
+214 Iis 215 1i4 26 cio 2iz
+Zii 14z4 28 64 212 Ilc? zio 12 22 Ice 27
+SvR4 3k9
+47/10 COMMON 2,22
+215
+680
+StRobE 
+{022
+3k9
+2i3
+614
+25
+OUT 2 SELECT 61-72 73-84 85-96 -108
+DATA Out
+212
+25-
+215
+213
+Riz 2NS17_ 470
+05cop
+OUT
+TOLS Bzt
+Bi Shore CIRd BEXASIES LID: Daa GP M751-3 DALE JUNE DUAL MEMORY LATCH Rn( SCHEMATIC c] 751-02-0C4
+SeE NoTe 3
+Ja
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+LATCH
+LATCH VERIFICATION
+To 6 Select
+OUT
+To6
+7T0 12
+LoGIc
+WKEN CodE AGREEs
+Uce IC DEcODER OUT MCDULE SELECT 61-72 73-84 85-96 97-108 49-60 37-48 25-36 13- 24
+Logic INPUTS
+213
+Locic
+WHEN CodE DOES Not AGREE
+R70
+EF At TiME When ENABLED By Stroke Pulse 0 PIN SooceT
+Notes: I.c. TyPEs ARE : 2 1,Z2 , 24.25 7475; 23,26 93L0l ; 27,28,210, 2i1 74186 29.2i2 - 7430; 2i3 7402 214,215 "7404
+Sus1 I56 STROBE
+2 14
+sec
+<3k9
+213
+2k2
+FOR COMPONENT LAYOUT ReFER To Bl-IIB .06.004
+022
+ENTER PULSE Strobe PIN
+Insec
+Rro
+ENTER
+tSv
+ENTER
+2i3
+214 Iis 215 1i4 26 cio 2iz
+Zii 14z4 28 64 212 Ilc? zio 12 22 Ice 27
+SvR4 3k9
+47/10 COMMON 2,22
+215
+680
+StRobE 
+{022
+3k9
+2i3
+614
+25
+OUT 2 SELECT 61-72 73-84 85-96 -108
+DATA Out
+212
+25-
+215
+213
+Riz 2NS17_ 470
+05cop
+OUT
+TOLS Bzt
+Bi EHorE CIRd BEXASIES LID: Daa GP M751-3 DAIE JUNE DUAL MEMORY LATCH Rn( SCHEMATIC c] 751-02-0C4
+SeE NoTe 3
+Ja
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Modules/COMMUNICATION/M751/19xx - M751 - DOC - WBSps.ca -2021-3-15-19-3-51.jpg",
+ "sha256": "381d87584f21328a1348cc1c181d045f58432cab34cf3d0ef740300a95f4d69c",
+ "kind": "doc",
+ "models": [
+  "M751"
+ ],
+ "pages": 1
+}
+```

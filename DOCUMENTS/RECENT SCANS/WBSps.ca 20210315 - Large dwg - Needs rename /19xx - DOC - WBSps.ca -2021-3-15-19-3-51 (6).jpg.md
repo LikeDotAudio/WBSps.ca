@@ -1,0 +1,343 @@
+# 19xx - DOC - WBSps.ca -2021-3-15-19-3-51 (6).jpg
+Wiki page: [Documents](../../../PAGES/Documents.md)
+
+
+- **Year:** unknown (unknown)
+- **Type:** document scan
+- **About:** M456
+
+## Text recovered by OCR
+
+> R65 Z4V C5 P35 F43 47n10 15k ISk JFA R39 F47 0i 3k3 467 ZN4360 R4o R53 IC4 F48 Fsi 2142 Zor 2Mg Ci2 +I8v I5k 33/10 2i4360 Etl Riss Mo Risgi0 Ri57 Riss 14 Sw6 Ch ON 741 Left ~pjout 75 Right >E OUT R63 47k Cis rheee Ve R6Br +24v R67 R73|08 <66 Fi8v 620 5k ISk 2n3569 R64 8 78vi Rbi 47k Ci4 Ct3 R77 Alaahto CR4 Cis 22 czoiio R82 CRs R78 V 4k7 R69jok 712 E4 DIR 31 S0k 3 1 0 PB Risi 390 Pis3 290 5-101 DUAL BOOSTER AMPLIFIER RS R7 Shs 04 2u4260 Swa PAN Ris9 I5+ C6 R36 R44 7 ' , C7 R37 R45 7/10 150 I5k SoLO Ri5z 390 Pi54 390 Rigo 5+ P52 F49 2142 4 Pos R54 2N4360 2142 L < E2 ES 8 SOLO CTL CTL cOM P4i 373 p42 Ick R5o |02 Zok 4k7 244360 Ci6 4P R7o Ci7 M Ieor 022 <R74 09 203645 ISk 24v Rigi I5k 2k5 Sw2 Ri6? I5k RS 06 2n4360 24v (R59 R6o 33k iook R6t iOok JF C8 "R38 R46 47/10 Isk 157 Swt SYNC R55 CP3 (k5 sok Ci8 4.7p 24v R75 Qio Is 2n3569 NOTES ALL Ic $ LM3oi 2 ALL DIopEs IN9/4 EXCEPT Cpi& Cp2. ALL PesistoRs 74 W,5% AND ALL CapaCiTORS IN mfa UNLESS OthepwiSe Specified 2+5 PZ R7i 620 R85. ISk Rig? Isk Sw? R164 ISk P3 Zk5 TS SYNC OROvER DUB Assien F57 'Ock 4Fa FB Cri3 C9 R62 R8? R79 fcR6 <33 C2o 22o/0 IcR7 R8O Rb4 4k7 IOOk cio Cii 421 4/35 02 Tuss T435 07 P58 2444oi 22k To CTL COM DSI Pin FLV-0(7 24v R56 sk] ZkS P4 LAST COMPONENT Desienations: C41 CRI4 Ds2,Q22 Ri84, Swig 26- "18v 72 '22-ChassiS EXTERNAL SYNC CTL R76Q11 56 2n3645 24v 6, F Ri25 C25 P9s Rios 4o: J57 T "M P99 F127 012 3*3 4- 244360 Rioo 164 Fi3 Piosi F" 2142 Zok 2M2 432 s "1 33h0 204360 Swi6 Ch On 78 LeeT Out 7] Ri23 74 47k C35 6.6f 5i281 Pi27 3i33 320 454 / '36 244569 Lev Fi4i [cR9 6r7[c39 25 220i0 Ri42 Trio? Rissz- IRV 407 Ri292k 713 I< OE5 EC 79 Qieht out 7k DIR 1 3 30k 1 PB 48/ P124 477 C34 C33 H ' Fi7i 290 P173 990 Ris PI7I Swis 015 Lic 1 S/14 PAN Ri79 I5k C26 R96 Rio4 I57 We C27 R97 Rios 7,1" 150 P(72 390 3R18 Pi74 390 Ri8o I5+ Pi6 Fioi Piiz Fiog 2M2 3-3 4F Fioz Dois Fiia 'Nd: _' 2142 1 Eio C36 31 <5i34 92o ~"'- SR 24 4 Ribi 1 Swi2 Ri8z isk Fiio Cis 243) Fizo C37 I6ur 622 238 Pii 2+5 <7- 7/7 2i4eda E9 R25 (80 " 2w u < Cze P98 Rioe Sok 7 /0 S F1ig Rizo Rils 337 SYNC X. Ri45 FB Fizi ,_ . 157 To SYNC OR OveR Jnv- DUB AssiGN Fl7 CFi4 ILCR C29 Ri22 273 H < 1*h 23o C31 441 4/35 06 Tuss T435 016 Fii8 73 224 EXTERNAL 70 F7_ CCK SYNC [ '1, CTL PSZ,17 : Fiie 5~1 +24v MDi RZS 180 'w 2k5 P12 Ri3i 620 447 P135 02i 73- '2 24v MD CRi R2| vCBO +/8 / 63 22125 22/25 P13 4k5 Ri83 I5k +25v 21< IN4003 Swi3 Ri84 Isk Ri43 CkI Pig (40 737,.4 . ICeiz < Fi4o Fi44 26 Com 20< Zk Pia 24 22/25 -(8 / CR? 4ie g80 R24 180 '2w ISS MOD CKD: USED MATL F25v 19 < {A4oos WBS5 WAAD-BeCK BybteMB LTo_ Fi32 24v MD2 DRN DATEIY/e CKD. 10 SCALE FINISH M456 A DUAL MIXDOWN MODULE 456-02 002 I55_ F/36 02245 $ R26 180 V2W -24/ MDI 511 TOLs_ I0 < 4E1 ZR8 {p6
+- **Original file:** `WBSps.env/PUBLIC/RECENT SCANS/WBSps.ca 20210315 - Large dwg - Needs rename /WBSps.ca -2021-3-15-19-3-51 (51).jpg`
+- **SHA-256:** `b0cee56b101c56efdc764a88ff1bca9f260fcaae7120580f9326768a38266d8b`
+- **Size:** 7,085,942 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 6 words corrected)
+
+```text
+R65
+Z4V
+C5 P35 F43 47n10 15k ISk JFA R39 F47 0i 3k3 467 ZN4360 R4o R53 IC4 F48 Fsi 2142 Zor 2Mg
+Ci2 +I8v I5k 33/10 2i4360
+Etl
+Riss Mo Risgi0 Ri57 Riss
+14
+Sw6 Ch ON
+741 Left ~pjout 75   Right >E OUT
+R63 47k
+Cis rheee Ve R6Br +24v R67 R73|08 <66 Fi8v 620 5k ISk 2n3569 R64 8 78vi Rbi 47k Ci4 Ct3 R77 Alaahto CR4 Cis 22 czoiio R82 CRs R78 V 4k7 R69jok
+712
+E4
+DIR 31 S0k 3 1 0 PB
+Risi 390
+Pis3 290
+5-101 DUAL BOOSTER AMPLIFIER
+RS
+R7
+Shs
+04 2u4260
+Swa PAN
+Ris9 I5+
+C6 R36 R44 7 ' , C7 R37 R45 7/10 150 I5k
+SoLO
+Ri5z 390
+Pi54 390
+Rigo 5+
+P52 F49 2142 4
+Pos R54 2N4360 2142
+L <
+E2
+ES
+8 SOLO CTL CTL cOM
+P4i 373 p42 Ick R5o |02 Zok 4k7 244360
+Ci6 4P R7o Ci7 M Ieor 022
+<R74 09 203645 ISk 24v
+Rigi I5k
+2k5
+Sw2 Ri6? I5k
+RS
+06 2n4360 24v (R59 R6o 33k iook R6t iOok
+JF C8 "R38 R46 47/10 Isk 157 Swt SYNC R55 CP3 (k5
+sok
+Ci8 4.7p 24v R75 Qio Is 2n3569
+NOTES ALL Ic $ LM3oi 2 ALL Diodes IN9/4 EXCEPT Cpi& Cp2. ALL Resistors 74 W,5% AND ALL CapaCiTORS IN mfa UNLESS Otherwise Specified
+2+5 PZ
+R7i 620
+R85. ISk
+Rig? Isk Sw? R164 ISk
+P3 Zk5
+TS SYNC GROVER DUB Assign
+F57 'Ock
+4Fa
+FB
+Cri3
+C9
+R62
+R8?
+R79 fcR6 <33 C2o 22o/0 IcR7 R8O Rb4 4k7
+IOOk cio Cii 421 4/35 02 Tuss T435 07 P58 2444oi 22k To CTL COM DSI Pin FLV-0(7 24v R56 sk]
+ZkS P4
+LAST COMPONENT Designations: C41 CRI4 Ds2,Q22 Ri84, Swig 26-
+"18v 72
+'22-ChassiS
+EXTERNAL SYNC CTL
+R76Q11 56 2n3645 24v
+6, F
+Ri25
+C25 P9s Rios 4o: J57 T "M P99 F127 012 3*3 4- 244360 Rioo 164 Fi3 Piosi F" 2142 Zok 2M2
+432 s "1 33h0 204360
+Swi6 Ch On
+78 LeeT Out 7]
+Ri23 74 47k
+C35 6.6f 5i281 Pi27 3i33 320 454 / '36 244569 Lev Fi4i [cR9 6r7[c39 25 220i0 Ri42 Trio? Rissz- IRV 407 Ri292k
+713
+I<
+OE5
+EC
+79 Qieht out 7k
+DIR 1 3 30k 1 PB
+48/ P124 477 C34 C33 H '
+Fi7i 290
+P173 990
+Ris
+PI7I
+Swis
+015 Lic
+1
+S/14 PAN
+Ri79 I5k
+C26
+R96 Rio4 I57 We C27 R97 Rios 7,1" 150
+P(72 390
+3R18
+Pi74 390
+Ri8o I5+
+Pi6
+Fioi Piiz Fiog 2M2 3-3 4F Fioz
+Dois Fiia 'Nd: _' 2142
+1
+Eio
+C36 31
+<5i34 92o ~"'- SR 24 4
+Ribi 1 Swi2 Ri8z isk
+Fiio Cis 243)
+Fizo C37 I6ur 622 238
+Pii 2+5
+<7-
+7/7 2i4eda
+E9
+R25 (80 " 2w
+u < Cze P98 Rioe Sok 7 /0 S F1ig Rizo Rils 337 SYNC X. Ri45 FB Fizi ,_ . 157 To SYNC OR OveR Jnv- DUB AssiGN Fl7 CFi4 ILCR C29 Ri22 273 H < 1*h 23o C31 441 4/35 06 Tuss T435 016 Fii8 73 224 EXTERNAL 70 F7_ CCK SYNC [ '1, CTL PSZ,17 : Fiie 5~1
++24v MDi
+RZS 180 'w
+2k5 P12
+Ri3i 620
+447 P135 02i 73- '2
+24v MD
+CRi
+R2| vCBO +/8 / 63 22125 22/25
+P13 4k5
+Ri83 I5k
++25v 21< IN4003
+Swi3 Ri84 Isk
+Ri43
+CkI
+Pig (40 737,.4 . ICeiz < Fi4o Fi44
+26
+Com 20<
+Zk Pia
+24 22/25 -(8 /
+CR?
+4ie g80 R24 180 '2w
+ISS MOD CKD:
+USED
+MATL
+F25v 19 < {A4oos
+WBS5 WAAD-BeCK BybteMB LTo_
+Fi32
+24v MD2
+DRN DATEIY/e CKD. 10 SCALE
+FINISH
+M456 A DUAL MIXDOWN MODULE 456-02 002 I55_
+F/36 02245  $
+R26 180 V2W -24/ MDI 511
+TOLs_
+I0 < 4E1
+ZR8
+{p6
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+R65
+Z4V
+C5 P35 F43 47n10 15k ISk JFA R39 F47 0i 3k3 467 ZN4360 R4o R53 IC4 F48 Fsi 2142 Zor 2Mg
+Ci2 +I8v I5k 33/10 2i4360
+Etl
+Riss Mo Risgi0 Ri57 Riss
+14
+Sw6 Ch ON
+741 Left ~pjout 75   Right >E OUT
+R63 47k
+Cis rheee Ve R6Br +24v R67 R73|08 <66 Fi8v 620 5k ISk 2n3569 R64 8 78vi Rbi 47k Ci4 Ct3 R77 Alaahto CR4 Cis 22 czoiio R82 CRs R78 V 4k7 R69jok
+712
+E4
+DIR 31 S0k 3 1 0 PB
+Risi 390
+Pis3 290
+5-101 DUAL BOOSTER AMPLIFIER
+RS
+R7
+Shs
+04 2u4260
+Swa PAN
+Ris9 I5+
+C6 R36 R44 7 ' , C7 R37 R45 7/10 150 I5k
+SoLO
+Ri5z 390
+Pi54 390
+Rigo 5+
+P52 F49 2142 4
+Pos R54 2N4360 2142
+L <
+E2
+ES
+8 SOLO CTL CTL cOM
+P4i 373 p42 Ick R5o |02 Zok 4k7 244360
+Ci6 4P R7o Ci7 M Ieor 022
+<R74 09 203645 ISk 24v
+Rigi I5k
+2k5
+Sw2 Ri6? I5k
+RS
+06 2n4360 24v (R59 R6o 33k iook R6t iOok
+JF C8 "R38 R46 47/10 Isk 157 Swt SYNC R55 CP3 (k5
+sok
+Ci8 4.7p 24v R75 Qio Is 2n3569
+NOTES ALL Ic $ LM3oi 2 ALL DIopEs IN9/4 EXCEPT Cpi& Cp2. ALL PesistoRs 74 W,5% AND ALL CapaCiTORS IN mfa UNLESS OthepwiSe Specified
+2+5 PZ
+R7i 620
+R85. ISk
+Rig? Isk Sw? R164 ISk
+P3 Zk5
+TS SYNC OROvER DUB Assien
+F57 'Ock
+4Fa
+FB
+Cri3
+C9
+R62
+R8?
+R79 fcR6 <33 C2o 22o/0 IcR7 R8O Rb4 4k7
+IOOk cio Cii 421 4/35 02 Tuss T435 07 P58 2444oi 22k To CTL COM DSI Pin FLV-0(7 24v R56 sk]
+ZkS P4
+LAST COMPONENT Desienations: C41 CRI4 Ds2,Q22 Ri84, Swig 26-
+"18v 72
+'22-ChassiS
+EXTERNAL SYNC CTL
+R76Q11 56 2n3645 24v
+6, F
+Ri25
+C25 P9s Rios 4o: J57 T "M P99 F127 012 3*3 4- 244360 Rioo 164 Fi3 Piosi F" 2142 Zok 2M2
+432 s "1 33h0 204360
+Swi6 Ch On
+78 LeeT Out 7]
+Ri23 74 47k
+C35 6.6f 5i281 Pi27 3i33 320 454 / '36 244569 Lev Fi4i [cR9 6r7[c39 25 220i0 Ri42 Trio? Rissz- IRV 407 Ri292k
+713
+I<
+OE5
+EC
+79 Qieht out 7k
+DIR 1 3 30k 1 PB
+48/ P124 477 C34 C33 H '
+Fi7i 290
+P173 990
+Ris
+PI7I
+Swis
+015 Lic
+1
+S/14 PAN
+Ri79 I5k
+C26
+R96 Rio4 I57 We C27 R97 Rios 7,1" 150
+P(72 390
+3R18
+Pi74 390
+Ri8o I5+
+Pi6
+Fioi Piiz Fiog 2M2 3-3 4F Fioz
+Dois Fiia 'Nd: _' 2142
+1
+Eio
+C36 31
+<5i34 92o ~"'- SR 24 4
+Ribi 1 Swi2 Ri8z isk
+Fiio Cis 243)
+Fizo C37 I6ur 622 238
+Pii 2+5
+<7-
+7/7 2i4eda
+E9
+R25 (80 " 2w
+u < Cze P98 Rioe Sok 7 /0 S F1ig Rizo Rils 337 SYNC X. Ri45 FB Fizi ,_ . 157 To SYNC OR OveR Jnv- DUB AssiGN Fl7 CFi4 ILCR C29 Ri22 273 H < 1*h 23o C31 441 4/35 06 Tuss T435 016 Fii8 73 224 EXTERNAL 70 F7_ CCK SYNC [ '1, CTL PSZ,17 : Fiie 5~1
++24v MDi
+RZS 180 'w
+2k5 P12
+Ri3i 620
+447 P135 02i 73- '2
+24v MD
+CRi
+R2| vCBO +/8 / 63 22125 22/25
+P13 4k5
+Ri83 I5k
++25v 21< IN4003
+Swi3 Ri84 Isk
+Ri43
+CkI
+Pig (40 737,.4 . ICeiz < Fi4o Fi44
+26
+Com 20<
+Zk Pia
+24 22/25 -(8 /
+CR?
+4ie g80 R24 180 '2w
+ISS MOD CKD:
+USED
+MATL
+F25v 19 < {A4oos
+WBS5 WAAD-BeCK BybteMB LTo_
+Fi32
+24v MD2
+DRN DATEIY/e CKD. 10 SCALE
+FINISH
+M456 A DUAL MIXDOWN MODULE 456-02 002 I55_
+F/36 02245  $
+R26 180 V2W -24/ MDI 511
+TOLs_
+I0 < 4E1
+ZR8
+{p6
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{
+ "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210315 - Large dwg - Needs rename /19xx - DOC - WBSps.ca -2021-3-15-19-3-51 (6).jpg",
+ "sha256": "b0cee56b101c56efdc764a88ff1bca9f260fcaae7120580f9326768a38266d8b",
+ "kind": "doc",
+ "models": [
+  "M456"
+ ],
+ "pages": 1
+}
+```

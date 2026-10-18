@@ -1,0 +1,96 @@
+# 1994 - M908 - DOC - 940447-04-002 - OTHERS ELECTRICALLY AND MECHANICALLY INTEGRATED INTO CONSOLE.jpg
+Wiki page: [Documents](../../../PAGES/Documents.md)
+
+
+- **Year:** 1994 (job number 940447)
+- **Type:** document scan
+- **About:** M907, M908, 940447
+
+## Text recovered by OCR
+
+> METER Mic MIc 2 MIc MIC MIC MIc LINE LINE LINE PHONE PHONE LINE LINE LINE LINE LINE 10 CR MON STD MON M9og M907 M907 M9O1BY M9O1BY M9O1BY M9O1BY M9O1BY M9O1BY M9o1cy M9O1CY M9O1CY M9O1CY M9o1cy Mgoicy M9O1CY Mgoicy Mgo1cy Mgo1cy M907 M9O5A M9OSB M908 APC-88 KCde HEADPHONES CU6S HUTE MON STUDIO EQ INS HeADpHONES CusST 70 5 70 3 70 : " 3 : 7 70 3 : 70 70 : 70 : 70 : 9 70 HEXOPHONE MUTE STUDIO MUTE Txovekjo Vohmor CH ON CH ON CH OIN ON CH ON ON ON CH ON ON ON CH ON FUTURE APC-88 ISSUE REVISION APP NOTES: 1. FU TURE MODULES ARE WIRED BUT NOT SUPPLIED INITIALLY. 2. SAS APC-88RS IS SUPPLIED BY OTHERS, ELECTRICALLY AND MECHANICALLY INTEGRATED INTO CONSOLE BY WBS. WBS WARD-BECK SYSTEMS DRN: PAS WBZ BOSTON ENG SM CONTROL ROOM CKD: APP RENAISSANCE MKII LAYOUT SCALE DISC NO: 487 ISSUE C 940447-04-002 CODE: 94447L02
+- **Original file:** `WBSps.env/PUBLIC/RECENT SCANS/WBSps.ca 20210319 - Redone of what Sampson scanned/WBSps.ca 20210319 -  (95).jpg`
+- **SHA-256:** `1036a6870d017222e5885eab47f3890c1806cedc392545394c898e628a9e2c5f`
+- **Size:** 3,072,863 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR)
+
+```text
+METER
+Mic
+MIc 2
+MIc
+MIC
+MIC
+MIc
+LINE
+LINE
+LINE
+PHONE PHONE
+LINE
+LINE
+LINE
+LINE
+LINE 10
+CR MON STD MON
+M9og
+M907
+M907
+M9O1BY M9O1BY M9O1BY M9O1BY M9O1BY M9O1BY M9o1cy M9O1CY M9O1CY M9O1CY M9o1cy Mgoicy
+M9O1CY Mgoicy Mgo1cy Mgo1cy
+M907
+M9O5A M9OSB
+M908
+APC-88
+KCde
+HEADPHONES
+CU6S
+HUTE MON STUDIO
+EQ INS
+HeADpHONES
+CusST
+70 5 70 3 70
+:
+" 3 : 7 70 3 :
+70
+70
+:
+70
+:
+70
+: 9 70
+HEXOPHONE
+MUTE STUDIO
+MUTE
+Txovekjo
+Vohmor
+CH ON
+CH ON
+CH OIN
+ON
+CH ON
+ON
+ON
+CH ON
+ON
+ON
+CH ON
+FUTURE
+APC-88
+ISSUE
+REVISION
+APP
+NOTES: 1. FU TURE MODULES ARE WIRED BUT NOT SUPPLIED INITIALLY. 2. SAS APC-88RS IS SUPPLIED BY OTHERS, ELECTRICALLY AND MECHANICALLY INTEGRATED INTO CONSOLE BY WBS.
+WBS
+WARD-BECK SYSTEMS
+DRN: PAS WBZ BOSTON ENG  SM CONTROL ROOM CKD: APP RENAISSANCE MKII LAYOUT SCALE DISC NO: 487 ISSUE C 940447-04-002 CODE: 94447L02
+```
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/UNSORTED/M908/1994 - M908 - DOC - 940447-04-002 - OTHERS ELECTRICALLY AND MECHANICALLY INTEGRATED INTO CONSOLE.jpg","sha256":"1036a6870d017222e5885eab47f3890c1806cedc392545394c898e628a9e2c5f","kind":"doc","models":["M907","M908","940447"],"year":1994,"pages":1,"order":[{"page":1,"title_block":[{"number":"940447-04-002","type":"layout / outline","title":"Others Electrically And Mechanically Integrated Into Console","drawn":"PAS","issue":"C"}],"modules":["M901BY","M901CY","M905A"],"module_boxes":[{"code":"METER","box":[0.0559,0.2022,0.0823,0.2136]},{"code":"Mic","box":[0.1714,0.201,0.1868,0.2124]},{"code":"MIc 2","box":[0.2077,0.201,0.2323,0.2124]},{"code":"MIc","box":[0.2459,0.201,0.2614,0.2124]},{"code":"MIC","box":[0.2832,0.201,0.2986,0.2124]},{"code":"MIC","box":[0.3223,0.201,0.3377,0.2113]},{"code":"MIc","box":[0.3605,0.1999,0.3759,0.2113]},{"code":"LINE","box":[0.3977,0.1999,0.4159,0.2113]},{"code":"LINE","box":[0.4341,0.1999,0.4523,0.2113]},{"code":"LINE","box":[0.4723,0.1999,0.4895,0.2113]},{"code":"PHONE","box":[0.5059,0.1987,0.5341,0.2101]},{"code":"PHONE","box":[0.5432,0.1987,0.5705,0.2101]},{"code":"LINE","box":[0.5859,0.1987,0.6041,0.2101]},{"code":"LINE","box":[0.6614,0.1987,0.6795,0.2101]},{"code":"LINE","box":[0.6986,0.1987,0.7168,0.209]},{"code":"LINE","box":[0.7368,0.1976,0.755,0.209]},{"code":"LINE 10","box":[0.7723,0.1976,0.8041,0.209]},{"code":"CR","box":[0.8477,0.1976,0.8595,0.2079]},{"code":"MON","box":[0.8623,0.1976,0.8805,0.2079]},{"code":"STD MON","box":[0.8832,0.1965,0.9205,0.2079]},{"code":"M9og","box":[0.0577,0.2284,0.0805,0.2397]},{"code":"M907","box":[0.0959,0.2284,0.1177,0.2397]},{"code":"M907","box":[0.1332,0.2284,0.155,0.2397]},{"code":"M9O1BY","box":[0.1664,0.2267,0.1982,0.2403]},{"code":"M9O1BY","box":[0.2041,0.2272,0.2359,0.2386]},{"code":"M9O1BY","box":[0.2423,0.2272,0.2741,0.2386]},{"code":"M9O1BY","box":[0.28,0.2255,0.3127,0.2392]},{"code":"M9O1BY","box":[0.3182,0.2255,0.3509,0.2392]},{"code":"M9O1BY","box":[0.3568,0.2261,0.3877,0.2375]},{"code":"M9o1cy","box":[0.3941,0.2261,0.4259,0.2375]},{"code":"M9O1CY","box":[0.4318,0.2244,0.4645,0.238]},{"code":"M9O1CY","box":[0.4691,0.2244,0.5018,0.238]},{"code":"M9O1CY","box":[0.5073,0.2244,0.54,0.238]},{"code":"M9o1cy","box":[0.5459,0.2249,0.5768,0.2363]},{"code":"Mgoicy","box":[0.5841,0.2249,0.615,0.2363]},{"code":"M9O1CY","box":[0.6591,0.2232,0.6909,0.2369]},{"code":"Mgoicy","box":[0.6968,0.2238,0.7286,0.2352]},{"code":"Mgo1cy","box":[0.735,0.2238,0.7668,0.2352]},{"code":"Mgo1cy","box":[0.7723,0.2238,0.8041,0.2352]},{"code":"M907","box":[0.815,0.2238,0.8368,0.2352]},{"code":"M9O5A","box":[0.85,0.2221,0.8782,0.2358]},{"code":"M9OSB","box":[0.8886,0.2227,0.9159,0.2341]},{"code":"M908","box":[0.9286,0.2227,0.9514,0.2341]},{"code":"APC-88","box":[0.6241,0.4584,0.6532,0.4698]},{"code":"KCde","box":[0.8595,0.4653,0.8723,0.4721]},{"code":"HEADPHONES","box":[0.8905,0.4721,0.9168,0.4801]},{"code":"CU6S","box":[0.9082,0.4954,0.9191,0.5]},{"code":"HUTE","box":[0.8877,0.5268,0.8995,0.5336]},{"code":"MON","box":[0.9095,0.5268,0.9195,0.5336]},{"code":"STUDIO","box":[0.8895,0.5347,0.9114,0.5438]},{"code":"EQ INS","box":[0.8659,0.5404,0.8814,0.5473]},{"code":"HeADpHONES","box":[0.8905,0.553,0.9177,0.5598]},{"code":"CusST","box":[0.9082,0.5763,0.92,0.5809]},{"code":"70","box":[0.1795,0.5803,0.1868,0.5951]},{"code":"5","box":[0.1873,0.5752,0.1991,0.6173]},{"code":"70","box":[0.2177,0.5803,0.2241,0.5951]},{"code":"3","box":[0.2255,0.5706,0.2382,0.6185]},{"code":"70","box":[0.255,0.5803,0.2623,0.5951]},{"code":":","box":[0.2932,0.5792,0.3005,0.6008]},{"code":"\"","box":[0.3323,0.5792,0.3386,0.6008]},{"code":"3","box":[0.34,0.5763,0.3518,0.6162]},{"code":":","box":[0.3695,0.5792,0.3768,0.6008]},{"code":"7","box":[0.3773,0.5672,0.3909,0.6173]},{"code":"70","box":[0.4077,0.5792,0.4141,0.594]},{"code":"3","box":[0.4155,0.5729,0.4273,0.6162]},{"code":":","box":[0.4459,0.578,0.4523,0.5997]},{"code":"70","box":[0.4832,0.578,0.4905,0.594]},{"code":"70","box":[0.5214,0.578,0.5277,0.5928]},{"code":":","box":[0.5586,0.578,0.5659,0.5997]},{"code":"70","box":[0.5968,0.578,0.6032,0.5928]},{"code":":","box":[0.6723,0.5769,0.6795,0.5985]},{"code":"70","box":[0.7105,0.5769,0.7168,0.5917]},{"code":":","box":[0.7477,0.5769,0.755,0.5985]},{"code":"9","box":[0.7555,0.5638,0.7691,0.6071]},{"code":"70","box":[0.7859,0.5769,0.7923,0.5917]},{"code":"HEXOPHONE","box":[0.8541,0.6065,0.8795,0.6145]},{"code":"MUTE","box":[0.8886,0.6076,0.9005,0.6145]},{"code":"MUTE","box":[0.8505,0.6202,0.8632,0.627]},{"code":"STUDIO","box":[0.8914,0.6156,0.9123,0.6247]},{"code":"Txovekjo","box":[0.89,0.6458,0.9182,0.6606]},{"code":"Vohmor","box":[0.8586,0.6885,0.8768,0.6953]},{"code":"CH","box":[0.175,0.6976,0.185,0.7056]},{"code":"ON","box":[0.1868,0.6976,0.1968,0.7056]},{"code":"CH","box":[0.2132,0.6976,0.2232,0.7067]},{"code":"ON","box":[0.225,0.6976,0.235,0.7056]},{"code":"CH","box":[0.2886,0.6965,0.2986,0.7056]},{"code":"OIN","box":[0.3005,0.6976,0.3114,0.7056]},{"code":"ON","box":[0.3768,0.6965,0.3868,0.7044]},{"code":"CH","box":[0.4032,0.6965,0.4132,0.7044]},{"code":"ON","box":[0.415,0.6965,0.425,0.7044]},{"code":"ON","box":[0.4905,0.6965,0.5005,0.7033]},{"code":"ON","box":[0.5659,0.6953,0.5759,0.7033]},{"code":"CH","box":[0.5923,0.6953,0.6023,0.7033]},{"code":"ON","box":[0.6041,0.6953,0.6141,0.7033]},{"code":"ON","box":[0.6795,0.6953,0.6895,0.7033]},{"code":"ON","box":[0.755,0.6942,0.765,0.7022]},{"code":"CH","box":[0.7814,0.6942,0.7914,0.7022]},{"code":"ON","box":[0.7932,0.6942,0.8032,0.7022]},{"code":"FUTURE","box":[0.9268,0.709,0.9577,0.7204]},{"code":"APC-88","box":[0.625,0.7147,0.655,0.7261]},{"code":"ISSUE","box":[0.7514,0.8206,0.775,0.832]},{"code":"REVISION","box":[0.8523,0.8195,0.8877,0.8309]},{"code":"APP","box":[0.9695,0.8183,0.9859,0.8297]},{"code":"NOTES:","box":[0.2832,0.84,0.3123,0.8514]},{"code":"1. FU TURE MODULES ARE","box":[0.2832,0.8502,0.3841,0.8616]},{"code":"WIRED BUT NOT SUPPLIED INITIALLY.","box":[0.3873,0.8479,0.53,0.8622]},{"code":"WBS","box":[0.7114,0.8445,0.775,0.8662]},{"code":"WARD-BECK","box":[0.8032,0.8434,0.8995,0.8639]},{"code":"SYSTEMS","box":[0.9059,0.8423,0.9768,0.8639]},{"code":"2. SAS","box":[0.2841,0.8616,0.3105,0.873]},{"code":"APC-88RS IS SUPPLIED BY OTHERS,","box":[0.3141,0.8616,0.4586,0.873]},{"code":"ELECTRICALLY","box":[0.2932,0.873,0.3486,0.8844]},{"code":"AND MECHANICALLY INTEGRATED","box":[0.3514,0.8713,0.4795,0.8833]},{"code":"INTO CONSOLE BY WBS.","box":[0.2923,0.8833,0.3868,0.8946]},{"code":"DRN:","box":[0.6923,0.8798,0.7105,0.8912]},{"code":"PAS","box":[0.725,0.8798,0.7423,0.8912]},{"code":"WBZ","box":[0.8282,0.8815,0.8573,0.8998]},{"code":"BOSTON","box":[0.8632,0.8798,0.9195,0.9003]},{"code":"ENG ","box":[0.6923,0.8958,0.7095,0.9072]},{"code":"SM","box":[0.725,0.8958,0.7368,0.9072]},{"code":"CKD:","box":[0.6923,0.9117,0.7114,0.9231]},{"code":"CONTROL","box":[0.8182,0.9009,0.8818,0.9191]},{"code":"ROOM","box":[0.8882,0.9009,0.9282,0.9191]},{"code":"APP","box":[0.6932,0.9277,0.7095,0.9391]},{"code":"RENAISSANCE","box":[0.7773,0.9191,0.8732,0.9402]},{"code":"MKII","box":[0.8791,0.9203,0.9073,0.9385]},{"code":"LAYOUT","box":[0.9132,0.9186,0.9695,0.9391]},{"code":"SCALE","box":[0.6977,0.9425,0.7232,0.9539]},{"code":"DISC NO:","box":[0.7286,0.9436,0.765,0.955]},{"code":"487","box":[0.7705,0.9436,0.7859,0.955]},{"code":"ISSUE","box":[0.9605,0.9402,0.9841,0.9516]},{"code":"C","box":[0.8018,0.9487,0.8127,0.9647]},{"code":"940447-04-002","box":[0.83,0.9476,0.95,0.9658]},{"code":"CODE: 94447L02","box":[0.7295,0.9584,0.7959,0.9698]}]}],"drawing":{"svg":"_traces/1036a6870d017222.svg","viewBox":[2000,1597],"rotate":0,"number":"940447-04-002","title":"Others Electrically And Mechanically Integrated Into Console","dtype":"04","outlines":"see _traces/1036a6870d017222.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[112,341,"METER"],[343,339,"Mic"],[415,339,"MIc 2"],[492,339,"MIc"],[566,339,"MIC"],[645,337,"MIC"],[721,337,"MIc"],[795,337,"LINE"],[868,337,"LINE"],[945,337,"LINE"],[1012,336,"PHONE"],[1086,336,"PHONE"],[1172,336,"LINE"],[1323,336,"LINE"],[1397,334,"LINE"],[1474,334,"LINE"],[1545,334,"LINE 10"],[1695,332,"CR"],[1725,332,"MON"],[1766,332,"STD MON"],[115,383,"M9og"],[192,383,"M907"],[266,383,"M907"],[333,384,"M9O1BY"],[408,381,"M9O1BY"],[485,381,"M9O1BY"],[560,382,"M9O1BY"],[636,382,"M9O1BY"],[714,379,"M9O1BY"],[788,379,"M9o1cy"],[864,380,"M9O1CY"],[938,380,"M9O1CY"],[1015,380,"M9O1CY"],[1092,377,"M9o1cy"],[1168,377,"Mgoicy"],[1318,378,"M9O1CY"],[1394,376,"Mgoicy"],[1470,376,"Mgo1cy"],[1545,376,"Mgo1cy"],[1630,376,"M907"],[1700,377,"M9O5A"],[1777,374,"M9OSB"],[1857,374,"M908"],[1248,750,"APC-88"],[1719,754,"KCde"],[1781,767,"HEADPHONES"],[1816,798,"CU6S"],[1775,852,"HUTE"],[1819,852,"MON"],[1779,868,"STUDIO"],[1732,874,"EQ INS"],[1781,894,"HeADpHONES"],[1816,928,"CusST"],[359,950,"70"],[435,950,"70"],[510,950,"70"],[815,949,"70"],[966,949,"70"],[1043,947,"70"],[1194,947,"70"],[1421,945,"70"],[1572,945,"70"],[1708,981,"HEXOPHONE"],[1777,981,"MUTE"],[1701,1001,"MUTE"],[1783,998,"STUDIO"],[1780,1055,"Txovekjo"],[1717,1110,"Vohmor"],[350,1127,"CH"],[374,1127,"ON"],[426,1129,"CH"],[450,1127,"ON"],[577,1127,"CH"],[601,1127,"OIN"],[754,1125,"ON"],[806,1125,"CH"],[830,1125,"ON"],[981,1123,"ON"],[1132,1123,"ON"],[1185,1123,"CH"],[1208,1123,"ON"],[1359,1123,"ON"],[1510,1121,"ON"],[1563,1121,"CH"],[1586,1121,"ON"],[1854,1150,"FUTURE"],[1250,1160,"APC-88"],[1503,1329,"ISSUE"],[1705,1327,"REVISION"],[1939,1325,"APP"],[566,1360,"NOTES:"],[566,1376,"1. FU TURE MODULES ARE"],[775,1377,"WIRED BUT NOT SUPPLIED INITIALLY."],[1423,1383,"WBS"],[1606,1380,"WARD-BECK"],[1812,1380,"SYSTEMS"],[568,1394,"2. SAS"],[628,1394,"APC-88RS IS SUPPLIED BY OTHERS,"],[586,1412,"ELECTRICALLY"],[703,1411,"AND MECHANICALLY INTEGRATED"],[585,1429,"INTO CONSOLE BY WBS."],[1385,1423,"DRN:"],[1450,1423,"PAS"],[1656,1437,"WBZ"],[1726,1438,"BOSTON"],[1385,1449,"ENG"],[1450,1449,"SM"],[1385,1474,"CKD:"],[1636,1468,"CONTROL"],[1776,1468,"ROOM"],[1386,1500,"APP"],[1555,1501,"RENAISSANCE"],[1758,1499,"MKII"],[1826,1500,"LAYOUT"],[1395,1523,"SCALE"],[1457,1525,"DISC NO:"],[1541,1525,"487"],[1921,1520,"ISSUE"],[1660,1542,"940447-04-002"],[1459,1549,"CODE: 94447L02"]]}}
+```

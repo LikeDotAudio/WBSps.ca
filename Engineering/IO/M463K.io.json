@@ -1,0 +1,114 @@
+{
+ "code": "M463K",
+ "series": null,
+ "type": "M463K",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "I1",
+   "signal": "In Put",
+   "dir": "in",
+   "pos": "I1P",
+   "neg": "I1N",
+   "src_page": 41
+  },
+  {
+   "port": "I2",
+   "signal": "In Ser T",
+   "dir": "in",
+   "pos": "I2P",
+   "neg": "I2N",
+   "src_page": 41
+  },
+  {
+   "port": "I3",
+   "signal": "Slate In",
+   "dir": "in",
+   "pos": "I3P",
+   "neg": "I3N",
+   "src_page": 47
+  },
+  {
+   "port": "O1",
+   "signal": "Out Pu T Amplifier",
+   "dir": "out",
+   "pos": "O1P",
+   "neg": "O1N",
+   "src_page": 55
+  },
+  {
+   "port": "O2",
+   "signal": "Left 2 Out",
+   "dir": "out",
+   "pos": "O2P",
+   "neg": "O2N",
+   "src_page": 47
+  }
+ ],
+ "power": [
+  {
+   "rail": "+24V",
+   "volts": 24.0,
+   "supply": "+24V",
+   "ground": "SHIELD GND (INTERMAL)",
+   "max_a": null
+  },
+  {
+   "rail": "-5V",
+   "volts": -5.0,
+   "supply": "-5V",
+   "ground": "SHIELD GND (INTERMAL)",
+   "max_a": null
+  }
+ ],
+ "logic": [
+  {
+   "signal": "Ctl",
+   "pin": ""
+  },
+  {
+   "signal": "Solo N12 Sold",
+   "pin": ""
+  },
+  {
+   "signal": "Leg En D",
+   "pin": ""
+  },
+  {
+   "signal": "Pa Control T 16 Ic",
+   "pin": ""
+  },
+  {
+   "signal": "S/15 Slate Control Tii6",
+   "pin": ""
+  },
+  {
+   "signal": "Sub Tally",
+   "pin": ""
+  },
+  {
+   "signal": "Solo Control",
+   "pin": ""
+  },
+  {
+   "signal": "Control Com",
+   "pin": ""
+  },
+  {
+   "signal": "Sub On Lamp",
+   "pin": ""
+  }
+ ],
+ "ground": [
+  "SHIELD GND (INTERMAL)"
+ ],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "7d69401020a93340314835636296d249fc1e84b2ecb1f3e108ebe09ae6e99177",
+  "92d57f045fba7ec0adce84dc3a37701212f60203d243ba77acd7534a0b43bc68"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."
+}

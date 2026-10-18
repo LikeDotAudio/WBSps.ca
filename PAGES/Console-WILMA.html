@@ -1,0 +1,206 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>WILMA</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>WILMA</h1>
+<p><a href="Console-lives.html">← Console lives</a></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Model</td>
+<td>L3262</td>
+</tr>
+<tr>
+<td>Owner</td>
+<td>APK</td>
+</tr>
+<tr>
+<td>Kind</td>
+<td>split L-series recording console</td>
+</tr>
+</tbody>
+</table>
+<p>The finest Ward-Beck L series console in the world: a joint venture between the Revolution Recording Custom Shop and APKaudio. 32 M470R, 16 M462B, 8 M462A, 8 M462, 4 M466, 16 M436L; full patchbay to EDAC, solo in place, stepped pre-amp gain, Mogami wiring, buffered VU on every input. The last WBS ever, with a custom WBS meter bridge.</p>
+<h2>Life</h2>
+<p><em>It carries on each time it is re-homed.</em></p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>What happened</th>
+<th>Where</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>before</td>
+<td>Built as a news console</td>
+<td>Florida</td>
+<td>wilma for sale.htm</td>
+</tr>
+<tr>
+<td><a href="Year-2012.html">2012|45</a></td>
+<td>Project Wilma: re-homed, rewired and redrawn by APKaudio</td>
+<td>Toronto</td>
+<td>Wilma.png, wiring diagram dated 2012-01-13</td>
+</tr>
+<tr>
+<td><a href="Year-2014.html">2014|47</a></td>
+<td>Rebuilt with every modification, with 16 custom M436L monitor modules, by Anthony P. Kuzub and Joe Dunphy; recording Sarah Harmer, Whitehorse, Great Lake Swimmers, The Sadies, Buck 65 …; offered for sale</td>
+<td>Revolution Recording, Studio C, Toronto</td>
+<td>wilma for sale.htm, 2014-10-15</td>
+</tr>
+<tr>
+<td><a href="Year-2025.html">2025|58</a></td>
+<td>Custom WBS meter bridge, a homage carrying on the M436L monitor modules: the last WBS ever</td>
+<td></td>
+<td>Anthony P. Kuzub</td>
+</tr>
+</tbody>
+</table>
+<h2>Modules in it</h2>
+<p>M470R · <a href="M462B.html">M462B</a> · <a href="M462A.html">M462A</a> · <a href="M462.html">M462</a> · <a href="M466.html">M466</a> · <a href="M436L.html">M436L</a> · <a href="M473A.html">M473A</a> · <a href="M451.html">M451</a> · <a href="M475.html">M475</a> · <a href="M475A.html">M475A</a> · <a href="M495.html">M495</a></p>
+<h2>Photos &amp; documents (22)</h2>
+<div class="thumbs"><a href="../viewer.html?f=DOCUMENTS/APK/Wilma%20RAW/19xx%20-%20DOC%20-%20WILMA%20-%20Aux%20and%20main%20summing.jpg"><img loading="lazy" alt="" src="../DOCUMENTS/APK/Wilma%20RAW/19xx%20-%20DOC%20-%20WILMA%20-%20Aux%20and%20main%20summing.jpg" data-f="DOCUMENTS/APK/Wilma RAW/19xx - DOC - WILMA - Aux and main summing.jpg" onerror="wbsOff(this)"></a><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20Channel%20side%20001.jpg"><img loading="lazy" alt="" src="../../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20Channel%20side%20001.jpg" data-f="../WBSps.env/PUBLIC/Members/APK/Wilma RAW/WILMA - Channel side 001.jpg" onerror="wbsOff(this)"></a><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20Compressors.jpg"><img loading="lazy" alt="" src="../../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20Compressors.jpg" data-f="../WBSps.env/PUBLIC/Members/APK/Wilma RAW/WILMA - Compressors.jpg" onerror="wbsOff(this)"></a><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20IMG_2075.jpg"><img loading="lazy" alt="" src="../../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20IMG_2075.jpg" data-f="../WBSps.env/PUBLIC/Members/APK/Wilma RAW/WILMA - IMG_2075.jpg" onerror="wbsOff(this)"></a><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20IMG_2211.jpg"><img loading="lazy" alt="" src="../../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20IMG_2211.jpg" data-f="../WBSps.env/PUBLIC/Members/APK/Wilma RAW/WILMA - IMG_2211.jpg" onerror="wbsOff(this)"></a><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20IMG_2342.jpg"><img loading="lazy" alt="" src="../../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20IMG_2342.jpg" data-f="../WBSps.env/PUBLIC/Members/APK/Wilma RAW/WILMA - IMG_2342.jpg" onerror="wbsOff(this)"></a><a href="../viewer.html?f=Modules/METER/M436L/19xx%20-%20M436L%20-%20WILMA%20-%20M436L.jpg"><img loading="lazy" alt="" src="../Modules/METER/M436L/19xx%20-%20M436L%20-%20WILMA%20-%20M436L.jpg" data-f="Modules/METER/M436L/19xx - M436L - WILMA - M436L.jpg" onerror="wbsOff(this)"></a><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20Monitor%20section%20002.jpg"><img loading="lazy" alt="" src="../../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20Monitor%20section%20002.jpg" data-f="../WBSps.env/PUBLIC/Members/APK/Wilma RAW/WILMA - Monitor section 002.jpg" onerror="wbsOff(this)"></a><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20channel%20002.jpg"><img loading="lazy" alt="" src="../../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20channel%20002.jpg" data-f="../WBSps.env/PUBLIC/Members/APK/Wilma RAW/WILMA - channel 002.jpg" onerror="wbsOff(this)"></a><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20front%20low.jpg"><img loading="lazy" alt="" src="../../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20front%20low.jpg" data-f="../WBSps.env/PUBLIC/Members/APK/Wilma RAW/WILMA - front low.jpg" onerror="wbsOff(this)"></a><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20monitor%20and%20main%20section.jpg"><img loading="lazy" alt="" src="../../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20monitor%20and%20main%20section.jpg" data-f="../WBSps.env/PUBLIC/Members/APK/Wilma RAW/WILMA - monitor and main section.jpg" onerror="wbsOff(this)"></a><a href="../viewer.html?f=DOCUMENTS/APK/Wilma%20RAW/19xx%20-%20DOC%20-%20WILMA%20-%20monitor%20routing.jpg"><img loading="lazy" alt="" src="../DOCUMENTS/APK/Wilma%20RAW/19xx%20-%20DOC%20-%20WILMA%20-%20monitor%20routing.jpg" data-f="DOCUMENTS/APK/Wilma RAW/19xx - DOC - WILMA - monitor routing.jpg" onerror="wbsOff(this)"></a><a href="../viewer.html?f=DOCUMENTS/APK/Wilma%20RAW/19xx%20-%20DOC%20-%20WILMA%20-%20monitor%20section.jpg"><img loading="lazy" alt="" src="../DOCUMENTS/APK/Wilma%20RAW/19xx%20-%20DOC%20-%20WILMA%20-%20monitor%20section.jpg" data-f="DOCUMENTS/APK/Wilma RAW/19xx - DOC - WILMA - monitor section.jpg" onerror="wbsOff(this)"></a><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20side.jpg"><img loading="lazy" alt="" src="../../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20side.jpg" data-f="../WBSps.env/PUBLIC/Members/APK/Wilma RAW/WILMA - side.jpg" onerror="wbsOff(this)"></a><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20sub%20groups.jpg"><img loading="lazy" alt="" src="../../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20sub%20groups.jpg" data-f="../WBSps.env/PUBLIC/Members/APK/Wilma RAW/WILMA - sub groups.jpg" onerror="wbsOff(this)"></a><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/Wilma%20Videos%201/381265_2981836271274_1400309326_n.jpg"><img loading="lazy" alt="" src="../../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/Wilma%20Videos%201/381265_2981836271274_1400309326_n.jpg" data-f="../WBSps.env/PUBLIC/Members/APK/Wilma RAW/Wilma Videos 1/381265_2981836271274_1400309326_n.jpg" onerror="wbsOff(this)"></a><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/Wilma%20Videos%201/IMG_3072.JPG"><img loading="lazy" alt="" src="../../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/Wilma%20Videos%201/IMG_3072.JPG" data-f="../WBSps.env/PUBLIC/Members/APK/Wilma RAW/Wilma Videos 1/IMG_3072.JPG" onerror="wbsOff(this)"></a><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/Wilma%20Videos%201/IMG_3081.JPG"><img loading="lazy" alt="" src="../../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/Wilma%20Videos%201/IMG_3081.JPG" data-f="../WBSps.env/PUBLIC/Members/APK/Wilma RAW/Wilma Videos 1/IMG_3081.JPG" onerror="wbsOff(this)"></a><a href="../viewer.html?f=PHOTOS/Drawings/2012%20-%20Wilma.png"><img loading="lazy" alt="" src="../PHOTOS/Drawings/2012%20-%20Wilma.png" data-f="PHOTOS/Drawings/2012 - Wilma.png" onerror="wbsOff(this)"></a></div>
+
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Filed in 2026</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20Aux%20and%20main%20summing.jpg">WILMA - Aux and main summing.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/APK/Wilma%20RAW/19xx%20-%20DOC%20-%20WILMA%20-%20Aux%20and%20main%20summing.jpg">copy</a></td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20Channel%20side%20001.jpg">WILMA - Channel side 001.jpg</a></td>
+<td>—</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20Compressors.jpg">WILMA - Compressors.jpg</a></td>
+<td>—</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20IMG_2075.jpg">WILMA - IMG_2075.jpg</a></td>
+<td>—</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20IMG_2211.jpg">WILMA - IMG_2211.jpg</a></td>
+<td>—</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20IMG_2342.jpg">WILMA - IMG_2342.jpg</a></td>
+<td>—</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20M436L.jpg">WILMA - M436L.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/METER/M436L/19xx%20-%20M436L%20-%20WILMA%20-%20M436L.jpg">copy</a></td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20Monitor%20section%20002.jpg">WILMA - Monitor section 002.jpg</a></td>
+<td>—</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20channel%20002.jpg">WILMA - channel 002.jpg</a></td>
+<td>—</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20front%20low.jpg">WILMA - front low.jpg</a></td>
+<td>—</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20monitor%20and%20main%20section.jpg">WILMA - monitor and main section.jpg</a></td>
+<td>—</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20monitor%20routing.jpg">WILMA - monitor routing.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/APK/Wilma%20RAW/19xx%20-%20DOC%20-%20WILMA%20-%20monitor%20routing.jpg">copy</a></td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20monitor%20section.jpg">WILMA - monitor section.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/APK/Wilma%20RAW/19xx%20-%20DOC%20-%20WILMA%20-%20monitor%20section.jpg">copy</a></td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20side.jpg">WILMA - side.jpg</a></td>
+<td>—</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/WILMA%20-%20sub%20groups.jpg">WILMA - sub groups.jpg</a></td>
+<td>—</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/Wilma%20Videos%201/381265_2981836271274_1400309326_n.jpg">381265_2981836271274_1400309326_n.jpg</a></td>
+<td>—</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/Wilma%20Videos%201/IMG_3072.JPG">IMG_3072.JPG</a></td>
+<td>—</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/Wilma%20Videos%201/IMG_3081.JPG">IMG_3081.JPG</a></td>
+<td>—</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/wilma%20for%20sale.htm">wilma for sale.htm</a></td>
+<td>—</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/wilma%20for%20sale_files/filelist.xml">filelist.xml</a></td>
+<td>—</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=../WBSps.env/PUBLIC/Members/APK/Wilma%20RAW/wilma%20for%20sale_files/themedata.xml">themedata.xml</a></td>
+<td>—</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=../WBSps.env/WBS%20Photos-1-001/Wilma.png">Wilma.png</a></td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/2012%20-%20Wilma.png">copy</a></td>
+</tr>
+</tbody>
+</table><script src="../_catalog/wbs_reels.js" defer></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from Console-WILMA.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

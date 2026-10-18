@@ -1,0 +1,29 @@
+---
+type: "person"
+initials: "T RICHARDSON"
+title: "T RICHARDSON"
+tags: ["person"]
+---
+
+# T RICHARDSON
+
+[← People](People.md)
+
+|  |  |
+|---|---|
+| Initials | T RICHARDSON |
+| Name | unknown — add to timelines/people.json |
+| Note | — |
+| Drawings | 7 |
+| Roles | drawn, engineer |
+| Active (dated drawings) | — |
+
+## Drawings
+
+| Drawing | Title | Date | [Drawn by](People.md#drawing-staff) | [Checked by](People.md#drawing-staff) | Iss. | Source |
+|---|---|---|---|---|---|---|
+| B 400-02-300 | M450B TEST JIG / SCHEMATIC (T450) |  | [T RICHARDSON](Person-T-RICHARDSON.md) |  | 1 | [file](../Modules/UNSORTED/M400/19xx%20-%20400-02-300%20-%20M450B%20TEST%20JIG%20SCHEMATIC%20%28T450%29%20-%20DRN%20T.%20RICHARDSON%20-%20ENG%20T.%20RICHARDSON%20-%20ISS%201.png) |
+| B 600-02-100 | M625B/D TEST JIG / SCHEMATIC (T625B) |  | [T RICHARDSON](Person-T-RICHARDSON.md) |  | 1 | [file](../Modules/AMPLIFIERS/M600/19xx%20-%20600-02-100%20-%20M625B%20D%20TEST%20JIG%20SCHEMATIC%20%28T625B%29%20-%20DRN%20T.%20RICHARDSON%20-%20ENG%20T.%20RICHARDSON%20-%20ISS%201.png) |
+| C 400-02-101 | M460 SERIES TEST JIG / SCHEMATIC (T460) |  | [T RICHARDSON](Person-T-RICHARDSON.md) |  |  | [file](../Modules/UNSORTED/M400/19xx%20-%20400-02-101%20-%20M460%20SERIES%20TEST%20JIG%20SCHEMATIC%20%28T460%29%20-%20DRN%20T.%20RICHARDSON%20-%20ENG%20MRW.jpg) |
+| C 400-02-101 | M460 SERIES TEST JIG / SCHEMATIC (T460) |  | [T RICHARDSON](Person-T-RICHARDSON.md) |  |  | [file](../Modules/UNSORTED/M400/19xx%20-%20400-02-101%20-%20M460%20SERIES%20TEST%20JIG%20SCHEMATIC%20%28T460%29%20-%20DRN%20T.%20RICHARDSON%20-%20ENG%20MRW%20%282%29.jpg) |
+| C 400-02-101 | M460 SERIES TEST JIG / SCHEMATIC (T460) |  | [T RICHARDSON](Person-T-RICHARDSON.md) |  |  | [file](../Modules/UNSORTED/M400/19xx%20-%20400-02-101%20-%20M460%20SERIES%20TEST%20JIG%20SCHEMATIC%20%28T460%29%20-%20DRN%20T.%20RICHARDSON%20-%20ENG%20MRW%20%283%29.jpg) |

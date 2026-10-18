@@ -1,0 +1,38 @@
+# 19xx - microCOM - DOC - IMG_2089-2013-04-08.jpg
+Wiki page: [Documents](../../../PAGES/Documents.md)
+
+
+- **Year:** unknown (unknown)
+- **Type:** document scan
+- **About:** microCOM
+
+## Text recovered by OCR
+
+> COMMUNICATIONS ENGINEERING 48x48 MicroCOM SYSTEM PROJECT 880545
+- **Original file:** `WBSps.env/PUBLIC/RAW Photos/WBS BINDER SPINE PICTURES/IMG_2089-2013-04-08.jpg`
+- **SHA-256:** `5e1b762f539eba4b08c2f233111f56d154213edf5ef05ee6b6aa0cc1ed62749f`
+- **Size:** 91,038 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR)
+
+```text
+COMMUNICATIONS ENGINEERING 48x48 MicroCOM SYSTEM
+PROJECT 880545
+```
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - DOC - IMG_2089-2013-04-08.jpg",
+ "sha256": "5e1b762f539eba4b08c2f233111f56d154213edf5ef05ee6b6aa0cc1ed62749f",
+ "kind": "doc",
+ "models": [
+  "microCOM"
+ ],
+ "pages": 1
+}
+```

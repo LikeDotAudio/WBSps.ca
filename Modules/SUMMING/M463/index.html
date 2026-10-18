@@ -1,0 +1,3142 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M463 — Submaster Module</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../../../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../../../index.html">Index</a><a href="../../../Home.html">Wiki home</a><a href="../../../PAGES/Timeline.html">Timeline</a><a href="../../../search.html">Search</a><a href="../../../status.html">Status</a></div><h1>M463 — Submaster Module</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="../../../PAGES/Category-SUMMING.html">SUMMING</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../../../simulator.html?m=M463">simulator &amp; front panel</a> · <a href="../../../_packages/M463.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="../../../PAGES/Year-1972.html">1972|5</a> — title-block date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"DATE 22 APR72" in WBS Photos-1-001/M463 - P029 - B463-01-001 R.jpg</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="../../../PAGES/Year-1972.html">1972|5</a>, <a href="../../../PAGES/Year-1974.html">1974|7</a>, <a href="../../../PAGES/Year-1976.html">1976|9</a>, <a href="../../../PAGES/Year-1977.html">1977|10</a>, <a href="../../../PAGES/Year-1979.html">1979|12</a></td>
+</tr>
+<tr>
+<td>Used in jobs</td>
+<td><a href="../../../PAGES/Job-76045.html">76045</a> (1976|9)</td>
+</tr>
+<tr>
+<td>Variants</td>
+<td><a href="../../../PAGES/M463A.html">M463A</a>, <a href="../../../PAGES/M463AB.html">M463AB</a>, <a href="../../../PAGES/M463AC.html">M463AC</a>, <a href="../../../PAGES/M463B.html">M463B</a>, <a href="../../../PAGES/M463J.html">M463J</a>, <a href="../../../PAGES/M463K.html">M463K</a>, <a href="../../../PAGES/M463L.html">M463L</a>, <a href="../../../PAGES/M463LA.html">M463LA</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Small%2011X17%20drawings/">DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="index.html">Modules/SUMMING/M463</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections and circuit (ideal SPICE model)</h2>
+<p><em>Inputs, outputs, power and control as its own documents name them (no RTO-144 sheet for it: pin numbers only where the page gives them). Run the generator, turn the gain, watch the VU.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M463" data-n="Submaster Module" data-cat="SUMMING"></div><svg class="wbs-panel" data-m="M463" data-n="Submaster Module" data-cat="SUMMING" role="img" aria-label="M463 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M463","title":"Submaster Module","rto":{"code":"M463","series":null,"type":"M463","impedance":{},"audio":[{"port":"I1","signal":"Input Shield","dir":"in","pos":"I1P","neg":"I1N","src_page":32},{"port":"I2","signal":"Slate In","dir":"in","pos":"I2P","neg":"I2N","src_page":40},{"port":"O1","signal":"Out","dir":"out","pos":"O1P","neg":"O1N","src_page":40}],"power":[{"rail":"+24V","volts":24.0,"supply":"+24V","ground":"GND B2 GND","max_a":null},{"rail":"-5V","volts":-5.0,"supply":"-5V","ground":"GND B2 GND","max_a":null},{"rail":"-15V","volts":-15.0,"supply":"-15V","ground":"GND B2 GND","max_a":null}],"logic":[{"signal":"Pr E Solo","pin":""},{"signal":"Ctl Co M","pin":""},{"signal":"Nc Sus Sla Te Control","pin":""},{"signal":"Pa Control","pin":""},{"signal":"Solo Control","pin":""}],"ground":["GND B2 GND","GND GND"],"bus_out":[],"bus_in":[],"jumpers":[],"derived":true,"sources":["2659e84e1befc2054be97f16d30c1815366aedf0978da2ecf30701cde9907788","4e40ce41064d7b82f9070551f13a3f1023b6a6eeb4f5cc3cb69d3e2fd0df9c11"],"note":"Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."},"parts":[{"item":"4-109","title":"4-109A / OUTPUT AMPLIFIER / SCHEMATIC","label":"4-109 4-109A / OUTPUT AMPLIFIER ","href":"Register-Sub-assemblies-n-nnn.html#4-109","note":"Sub-assemblies (n-nnn)"},{"item":"4-126","title":"Equalizer Filter Component Assembly","label":"4-126 Equalizer Filter Component","href":"Register-Sub-assemblies-n-nnn.html#4-126","note":"Sub-assemblies (n-nnn)"},{"item":"4-136","title":"Miish Datl Nov","label":"4-136 Miish Datl Nov","href":"Register-Sub-assemblies-n-nnn.html#4-136","note":"Sub-assemblies (n-nnn)"},{"item":"4-141","title":"Summing Amplifier Component Layout","label":"4-141 Summing Amplifier Componen","href":"Register-Sub-assemblies-n-nnn.html#4-141","note":"Sub-assemblies (n-nnn)"},{"item":"8-109","title":"Booster Amplifier Component Layout","label":"8-109 Booster Amplifier Componen","href":"Register-Sub-assemblies-n-nnn.html#8-109","note":"Sub-assemblies (n-nnn)"},{"item":"8-103","title":"LOAD TRANSFER CONTROL / SCHEMATIC","label":"8-103 LOAD TRANSFER CONTROL / SC","href":"Register-Sub-assemblies-n-nnn.html#8-103","note":"Sub-assemblies (n-nnn)"}],"parents":[{"label":"76045","href":"Job-76045.html","note":"CFTO"},{"label":"M463A","href":"M463A.html","note":"on 3 drawings with it: Submaster Module"},{"label":"M463B","href":"M463B.html","note":"on 1 drawing with it"},{"label":"M463J","href":"M463J.html","note":"on 1 drawing with it: Submaster Module"},{"label":"M463L","href":"M463L.html","note":"on 1 drawing with it: Submaster Module"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%204-126-06-001%20-%204-126%20EQUALIZER%20FILTER%20COMPONENT%20ASSEMBLY%20-%20DRN%20DM%20-%20ISS%202.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1974%20-%204-126-06-001%20-%204-126%20EQUALIZER%20FILTER%20COMPONENT%20ASSEMBLY%20-%20DRN%20DM%20-%20ISS%202.jpg" alt="" data-f="Modules/SUMMING/M463/1974 - 4-126-06-001 - 4-126 EQUALIZER FILTER COMPONENT ASSEMBLY - DRN DM - ISS 2.jpg" data-size="320" onerror="wbsOff(this)">1974 - 4-126-06-001 - 4-126 EQUALIZER FILTER COMPONENT ASSEMBLY - DRN DM - ISS 2.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%204-141-02-001%20-%204-141%20SUMMING%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%207.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1974%20-%204-141-02-001%20-%204-141%20SUMMING%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%207.jpg" alt="" data-f="Modules/SUMMING/M463/1974 - 4-141-02-001 - 4-141 SUMMING AMPLIFIER SCHEMATIC - DRN DM - ISS 7.jpg" data-size="320" onerror="wbsOff(this)">1974 - 4-141-02-001 - 4-141 SUMMING AMPLIFIER SCHEMATIC - DRN DM - ISS 7.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%204-126-06-001%20-%20MODIICKD%20USED.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1974%20-%20M463%20-%204-126-06-001%20-%20MODIICKD%20USED.jpg" alt="" data-f="Modules/SUMMING/M463/1974 - M463 - 4-126-06-001 - MODIICKD USED.jpg" data-size="320" onerror="wbsOff(this)">1974 - M463 - 4-126-06-001 - MODIICKD USED.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%204-141-02-001%20-%20TORY%20SELECTED%20IAL%20VALUE.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1974%20-%20M463%20-%204-141-02-001%20-%20TORY%20SELECTED%20IAL%20VALUE.jpg" alt="" data-f="Modules/SUMMING/M463/1974 - M463 - 4-141-02-001 - TORY SELECTED IAL VALUE.jpg" data-size="320" onerror="wbsOff(this)">1974 - M463 - 4-141-02-001 - TORY SELECTED IAL VALUE.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%204-141-06-001%20-%20SUMMING%20AMPLIFIER.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1974%20-%20M463%20-%204-141-06-001%20-%20SUMMING%20AMPLIFIER.jpg" alt="" data-f="Modules/SUMMING/M463/1974 - M463 - 4-141-06-001 - SUMMING AMPLIFIER.jpg" data-size="320" onerror="wbsOff(this)">1974 - M463 - 4-141-06-001 - SUMMING AMPLIFIER.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%204-126-02-001%20-%204-126%20EQUALIZER%20FILTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%204.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1976%20-%204-126-02-001%20-%204-126%20EQUALIZER%20FILTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%204.jpg" alt="" data-f="Modules/SUMMING/M463/1976 - 4-126-02-001 - 4-126 EQUALIZER FILTER AMPLIFIER SCHEMATIC - DRN GEB - ISS 4.jpg" data-size="320" onerror="wbsOff(this)">1976 - 4-126-02-001 - 4-126 EQUALIZER FILTER AMPLIFIER SCHEMATIC - DRN GEB - ISS 4.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%20M463%20-%204-126-02-001%20-%20EQUALIZER%20FILTER.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1976%20-%20M463%20-%204-126-02-001%20-%20EQUALIZER%20FILTER.jpg" alt="" data-f="Modules/SUMMING/M463/1976 - M463 - 4-126-02-001 - EQUALIZER FILTER.jpg" data-size="320" onerror="wbsOff(this)">1976 - M463 - 4-126-02-001 - EQUALIZER FILTER.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1977%20-%20463-01-001%20-%20SUBMASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20PKM%20-%20ISS%202.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1977%20-%20463-01-001%20-%20SUBMASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20PKM%20-%20ISS%202.jpg" alt="" data-f="Modules/SUMMING/M463/1977 - 463-01-001 - SUBMASTER MODULE FUNCTIONAL DIAGRAM - DRN PKM - ISS 2.jpg" data-size="320" onerror="wbsOff(this)">1977 - 463-01-001 - SUBMASTER MODULE FUNCTIONAL DIAGRAM - DRN PKM - ISS 2.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1977%20-%20M463%20-%20463-01-001%20-%20YSOLO%20CONTROL%20SOLO%20COMMON%20CONTROL.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1977%20-%20M463%20-%20463-01-001%20-%20YSOLO%20CONTROL%20SOLO%20COMMON%20CONTROL.jpg" alt="" data-f="Modules/SUMMING/M463/1977 - M463 - 463-01-001 - YSOLO CONTROL SOLO COMMON CONTROL.jpg" data-size="320" onerror="wbsOff(this)">1977 - M463 - 463-01-001 - YSOLO CONTROL SOLO COMMON CONTROL.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1979%20-%20M463%20-%20P002.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1979%20-%20M463%20-%20P002.jpg" alt="" data-f="Modules/SUMMING/M463/1979 - M463 - P002.jpg" data-size="320" onerror="wbsOff(this)">1979 - M463 - P002.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%204-141-02-001.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/19xx%20-%204-141-02-001.jpg" alt="" data-f="Modules/SUMMING/M463/19xx - 4-141-02-001.jpg" data-size="320" onerror="wbsOff(this)">19xx - 4-141-02-001.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20463-01-001.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/19xx%20-%20463-01-001.jpg" alt="" data-f="Modules/SUMMING/M463/19xx - 463-01-001.jpg" data-size="320" onerror="wbsOff(this)">19xx - 463-01-001.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%204-126-02-001%20-%20IOK%20COMBINED%20COMBINED%20VALUE%20VALUE.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%204-126-02-001%20-%20IOK%20COMBINED%20COMBINED%20VALUE%20VALUE.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - 4-126-02-001 - IOK COMBINED COMBINED VALUE VALUE.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - 4-126-02-001 - IOK COMBINED COMBINED VALUE VALUE.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%204-126-06-001%20-%20CTO%20LMZOIN.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%204-126-06-001%20-%20CTO%20LMZOIN.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - 4-126-06-001 - CTO LMZOIN.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - 4-126-06-001 - CTO LMZOIN.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%204-136-06-010%20-%20PIN%20ESLOLICKD%20USDOJ%20ITI%20ABXEPKM.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%204-136-06-010%20-%20PIN%20ESLOLICKD%20USDOJ%20ITI%20ABXEPKM.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - 4-136-06-010 - PIN ESLOLICKD USDOJ ITI ABXEPKM.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - 4-136-06-010 - PIN ESLOLICKD USDOJ ITI ABXEPKM.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%204-141-02-001%20-%20CZO%20LEVELCAL.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%204-141-02-001%20-%20CZO%20LEVELCAL.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - 4-141-02-001 - CZO LEVELCAL.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - 4-141-02-001 - CZO LEVELCAL.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%204-141-06-001%20-%20ARE%20FACTORY%20SELECTED.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%204-141-06-001%20-%20ARE%20FACTORY%20SELECTED.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - 4-141-06-001 - ARE FACTORY SELECTED.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - 4-141-06-001 - ARE FACTORY SELECTED.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%204136-06-010%20-%20COMPONENT%20NQTES%20LEGEND%20CONNECTOR%20PIN%20MOUNTED.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%204136-06-010%20-%20COMPONENT%20NQTES%20LEGEND%20CONNECTOR%20PIN%20MOUNTED.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - 4136-06-010 - COMPONENT NQTES LEGEND CONNECTOR PIN MOUNTED.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - 4136-06-010 - COMPONENT NQTES LEGEND CONNECTOR PIN MOUNTED.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20463-01-001%20-%20INSERT%20INSERT%20JACKS%20FADER.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20463-01-001%20-%20INSERT%20INSERT%20JACKS%20FADER.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - 463-01-001 - INSERT INSERT JACKS FADER.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - 463-01-001 - INSERT INSERT JACKS FADER.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20463-02-001%20-%20SUB%20MASTER%20MODULE.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20463-02-001%20-%20SUB%20MASTER%20MODULE.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - 463-02-001 - SUB MASTER MODULE.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - 463-02-001 - SUB MASTER MODULE.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20463-04-002%20-%20KELE%20CONNECTOR%20REAR%20VIEW.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20463-04-002%20-%20KELE%20CONNECTOR%20REAR%20VIEW.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - 463-04-002 - KELE CONNECTOR REAR VIEW.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - 463-04-002 - KELE CONNECTOR REAR VIEW.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20463-04-002%20-%20OUTPUT%20AMP%20UPPER%20LEGEND.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20463-04-002%20-%20OUTPUT%20AMP%20UPPER%20LEGEND.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - 463-04-002 - OUTPUT AMP UPPER LEGEND.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - 463-04-002 - OUTPUT AMP UPPER LEGEND.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20463-04-020%20-%20BETWEEN%20ASS%20IGNED%20MIXING%20BUSES%20LEFT%20AND%20RIGHT.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20463-04-020%20-%20BETWEEN%20ASS%20IGNED%20MIXING%20BUSES%20LEFT%20AND%20RIGHT.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - 463-04-020 - BETWEEN ASS IGNED MIXING BUSES LEFT AND RIGHT.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - 463-04-020 - BETWEEN ASS IGNED MIXING BUSES LEFT AND RIGHT.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20463-04-020%20-%20WHEN%20DEPRESSED%20THIS%20SWITCH%20INSERTS%20THE%20EQUALIZER%20SECTION.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20463-04-020%20-%20WHEN%20DEPRESSED%20THIS%20SWITCH%20INSERTS%20THE%20EQUALIZER%20SECTION.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - 463-04-020 - WHEN DEPRESSED THIS SWITCH INSERTS THE EQUALIZER SECTION.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - 463-04-020 - WHEN DEPRESSED THIS SWITCH INSERTS THE EQUALIZER SECTION.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-02-002%20-%20NOMINAL%20VALUE.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-02-002%20-%20NOMINAL%20VALUE.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - 8-109-02-002 - NOMINAL VALUE.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - 8-109-02-002 - NOMINAL VALUE.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-02-002%20-%20RII%20RIZ.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-02-002%20-%20RII%20RIZ.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - 8-109-02-002 - RII RIZ.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - 8-109-02-002 - RII RIZ.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-02-007%20-%20NDMINAL%20VALUE.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-02-007%20-%20NDMINAL%20VALUE.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - 8-109-02-007 - NDMINAL VALUE.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - 8-109-02-007 - NDMINAL VALUE.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-02-007.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-02-007.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - 8-109-02-007.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1972 - M463 - 8-109-02-007.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-06-002%20-%20OUTPUT%20AMPLIFIER.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-06-002%20-%20OUTPUT%20AMPLIFIER.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - 8-109-06-002 - OUTPUT AMPLIFIER.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - 8-109-06-002 - OUTPUT AMPLIFIER.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-06-002.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-06-002.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - 8-109-06-002.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - 8-109-06-002.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-06-007%20-%20BOOSTER%20AMPLIFIER.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-06-007%20-%20BOOSTER%20AMPLIFIER.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - 8-109-06-007 - BOOSTER AMPLIFIER.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - 8-109-06-007 - BOOSTER AMPLIFIER.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-06-007.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-06-007.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - 8-109-06-007.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - 8-109-06-007.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P001%20-%20Title%20Page.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20P001%20-%20Title%20Page.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - P001 - Title Page.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - P001 - Title Page.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P003%20-%201-1.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20P003%20-%201-1.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - P003 - 1-1.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - P003 - 1-1.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P004%20-%202-1.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20P004%20-%202-1.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - P004 - 2-1.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - P004 - 2-1.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P005%20-%202-2.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20P005%20-%202-2.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - P005 - 2-2.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - P005 - 2-2.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P006%20-%202-3.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20P006%20-%202-3.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - P006 - 2-3.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - P006 - 2-3.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P007%20-%202-4.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20P007%20-%202-4.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - P007 - 2-4.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - P007 - 2-4.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P008%20-%202-5.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20P008%20-%202-5.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - P008 - 2-5.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - P008 - 2-5.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P009%20-%203-1.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20P009%20-%203-1.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - P009 - 3-1.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - P009 - 3-1.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P010%20-%203-2.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20P010%20-%203-2.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - P010 - 3-2.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - P010 - 3-2.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P011%20-%203-3.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20P011%20-%203-3.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - P011 - 3-3.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - P011 - 3-3.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P012%20-%204-1.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20P012%20-%204-1.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - P012 - 4-1.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - P012 - 4-1.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P013%20-%204-2.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20P013%20-%204-2.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - P013 - 4-2.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - P013 - 4-2.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P014%20-%204-3.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20P014%20-%204-3.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - P014 - 4-3.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - P014 - 4-3.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P015%20-%204-4.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20P015%20-%204-4.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - P015 - 4-4.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - P015 - 4-4.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P016%20-%204-5.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20P016%20-%204-5.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - P016 - 4-5.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - P016 - 4-5.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P017%20-%204-6.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20P017%20-%204-6.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - P017 - 4-6.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - P017 - 4-6.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P018%20-%204-7.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20P018%20-%204-7.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - P018 - 4-7.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - P018 - 4-7.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P019%20-%208-109.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20P019%20-%208-109.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - P019 - 8-109.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - P019 - 8-109.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P020%20-%208-109-1-1.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20P020%20-%208-109-1-1.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - P020 - 8-109-1-1.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - P020 - 8-109-1-1.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P021%20-%208-109-1-2.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20P021%20-%208-109-1-2.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - P021 - 8-109-1-2.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - P021 - 8-109-1-2.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P022%20-%208-109-1-3.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20P022%20-%208-109-1-3.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - P022 - 8-109-1-3.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - P022 - 8-109-1-3.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P023%20-%208-109-2-1.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20P023%20-%208-109-2-1.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - P023 - 8-109-2-1.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - P023 - 8-109-2-1.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P024%20-%208-109-2-2.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20P024%20-%208-109-2-2.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - P024 - 8-109-2-2.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - P024 - 8-109-2-2.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P025%20-%208-109-2-3.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20P025%20-%208-109-2-3.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - P025 - 8-109-2-3.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - P025 - 8-109-2-3.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P026%20-%208-109-2-4.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20P026%20-%208-109-2-4.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - P026 - 8-109-2-4.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - P026 - 8-109-2-4.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P027%20-%208-109-2-5.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20P027%20-%208-109-2-5.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - P027 - 8-109-2-5.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - P027 - 8-109-2-5.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P030%20-%20LB463-02-001%2001.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20P030%20-%20LB463-02-001%2001.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - P030 - LB463-02-001 01.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - P030 - LB463-02-001 01.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P030%20-%20LB463-02-001%2002.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20P030%20-%20LB463-02-001%2002.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - P030 - LB463-02-001 02.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - P030 - LB463-02-001 02.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P030%20-%20LB463-02-001%2003.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20P030%20-%20LB463-02-001%2003.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - P030 - LB463-02-001 03.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - P030 - LB463-02-001 03.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20Taken%20apart.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20Taken%20apart.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - Taken apart.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - Taken apart.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20Taken%20apart_small.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20Taken%20apart_small.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - Taken apart_small.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - Taken apart_small.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20WAAD-BECK%20ZABM.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1972%20-%20M463%20-%20WAAD-BECK%20ZABM.jpg" alt="" data-f="Modules/SUMMING/M463/1972 - M463 - WAAD-BECK ZABM.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463 - WAAD-BECK ZABM.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20LB%20463-02%20-%20SUB-MASTER%20SCHEMATIC%20-%20DRN%20DM.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1974%20-%20LB%20463-02%20-%20SUB-MASTER%20SCHEMATIC%20-%20DRN%20DM.jpg" alt="" data-f="Modules/SUMMING/M463/1974 - LB 463-02 - SUB-MASTER SCHEMATIC - DRN DM.jpg" data-size="320" onerror="wbsOff(this)">1974 - LB 463-02 - SUB-MASTER SCHEMATIC - DRN DM.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%204-109-02-004%20-%204-109C%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20PWC%20-%20ISS%202.png"><img loading="lazy" src="../../../Modules/SUMMING/M463/1976%20-%204-109-02-004%20-%204-109C%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20PWC%20-%20ISS%202.png" alt="" data-f="Modules/SUMMING/M463/1976 - 4-109-02-004 - 4-109C BOOSTER AMPLIFIER SCHEMATIC - DRN PWC - ISS 2.png" data-size="320" onerror="wbsOff(this)">1976 - 4-109-02-004 - 4-109C BOOSTER AMPLIFIER SCHEMATIC - DRN PWC - ISS 2.png</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%20463-02-004%20-%20D%20SUB-MASTER%20MODULE%20-%20DRN%20AF%20-%20ISS%202.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1976%20-%20463-02-004%20-%20D%20SUB-MASTER%20MODULE%20-%20DRN%20AF%20-%20ISS%202.jpg" alt="" data-f="Modules/SUMMING/M463/1976 - 463-02-004 - D SUB-MASTER MODULE - DRN AF - ISS 2.jpg" data-size="320" onerror="wbsOff(this)">1976 - 463-02-004 - D SUB-MASTER MODULE - DRN AF - ISS 2.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%20463-02-005%20-%20E%20SUB-MASTER%20MODULE%20-%20DRN%20AF%20-%20ISS%202.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1976%20-%20463-02-005%20-%20E%20SUB-MASTER%20MODULE%20-%20DRN%20AF%20-%20ISS%202.jpg" alt="" data-f="Modules/SUMMING/M463/1976 - 463-02-005 - E SUB-MASTER MODULE - DRN AF - ISS 2.jpg" data-size="320" onerror="wbsOff(this)">1976 - 463-02-005 - E SUB-MASTER MODULE - DRN AF - ISS 2.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%20463-02-006%20-%20F%20SUB-MASTER%20MODULE%20-%20DRN%20AF%20-%20ISS%202.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1976%20-%20463-02-006%20-%20F%20SUB-MASTER%20MODULE%20-%20DRN%20AF%20-%20ISS%202.jpg" alt="" data-f="Modules/SUMMING/M463/1976 - 463-02-006 - F SUB-MASTER MODULE - DRN AF - ISS 2.jpg" data-size="320" onerror="wbsOff(this)">1976 - 463-02-006 - F SUB-MASTER MODULE - DRN AF - ISS 2.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%20463-02-007%20-%20M463M%20SUBMASTER%20%28SUMMING%20struck%29%20MODULE%20SCHEMATIC%20-%20ISS%201.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1976%20-%20463-02-007%20-%20M463M%20SUBMASTER%20%28SUMMING%20struck%29%20MODULE%20SCHEMATIC%20-%20ISS%201.jpg" alt="" data-f="Modules/SUMMING/M463/1976 - 463-02-007 - M463M SUBMASTER (SUMMING struck) MODULE SCHEMATIC - ISS 1.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1976 - 463-02-007 - M463M SUBMASTER (SUMMING struck) MODULE SCHEMATIC - ISS 1.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%20463-04-008%20-%20M463M%20SUB%20MASTER%20MODULE%20ASSEMBLY%20%28LAYOUT%29%20-%20DRN%20MING%20-%20ISS%201.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1976%20-%20463-04-008%20-%20M463M%20SUB%20MASTER%20MODULE%20ASSEMBLY%20%28LAYOUT%29%20-%20DRN%20MING%20-%20ISS%201.jpg" alt="" data-f="Modules/SUMMING/M463/1976 - 463-04-008 - M463M SUB MASTER MODULE ASSEMBLY (LAYOUT) - DRN MING - ISS 1.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1976 - 463-04-008 - M463M SUB MASTER MODULE ASSEMBLY (LAYOUT) - DRN MING - ISS 1.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1977%20-%20463-01-003%20-%20M463B%20SUBMASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20PKM%20-%20ISS%202.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1977%20-%20463-01-003%20-%20M463B%20SUBMASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20PKM%20-%20ISS%202.jpg" alt="" data-f="Modules/SUMMING/M463/1977 - 463-01-003 - M463B SUBMASTER MODULE FUNCTIONAL DIAGRAM - DRN PKM - ISS 2.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1977 - 463-01-003 - M463B SUBMASTER MODULE FUNCTIONAL DIAGRAM - DRN PKM - ISS 2.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1978%20-%20463-06-001%20-%20M463J%20SUBMASTER%20MODULE%20COMPONENT%20LAYOUT%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1978%20-%20463-06-001%20-%20M463J%20SUBMASTER%20MODULE%20COMPONENT%20LAYOUT%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.jpg" alt="" data-f="Modules/SUMMING/M463/1978 - 463-06-001 - M463J SUBMASTER MODULE COMPONENT LAYOUT - DRN GEB - ENG GEB - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1978 - 463-06-001 - M463J SUBMASTER MODULE COMPONENT LAYOUT - DRN GEB - ENG GEB - ISS 1.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1978%20-%208-109-02-002%20-%208-109A%20OUTPUT%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1978%20-%208-109-02-002%20-%208-109A%20OUTPUT%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.jpg" alt="" data-f="Modules/SUMMING/M463/1978 - 8-109-02-002 - 8-109A OUTPUT AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1978 - 8-109-02-002 - 8-109A OUTPUT AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 1.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1978%20-%208-109-02-007%20-%208-109F%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1978%20-%208-109-02-007%20-%208-109F%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.jpg" alt="" data-f="Modules/SUMMING/M463/1978 - 8-109-02-007 - 8-109F BOOSTER AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1978 - 8-109-02-007 - 8-109F BOOSTER AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 1.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1979%20-%20463-01-010%20-%20SUBMASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20PKM%20-%20ISS%202.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1979%20-%20463-01-010%20-%20SUBMASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20PKM%20-%20ISS%202.jpg" alt="" data-f="Modules/SUMMING/M463/1979 - 463-01-010 - SUBMASTER MODULE FUNCTIONAL DIAGRAM - DRN PKM - ISS 2.jpg" data-size="320" onerror="wbsOff(this)">1979 - 463-01-010 - SUBMASTER MODULE FUNCTIONAL DIAGRAM - DRN PKM - ISS 2.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1980%20-%20463-01-011%20-%20M463L%20SUBMASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20VINCE%20-%20ISS%201.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1980%20-%20463-01-011%20-%20M463L%20SUBMASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20VINCE%20-%20ISS%201.jpg" alt="" data-f="Modules/SUMMING/M463/1980 - 463-01-011 - M463L SUBMASTER MODULE FUNCTIONAL DIAGRAM - DRN VINCE - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1980 - 463-01-011 - M463L SUBMASTER MODULE FUNCTIONAL DIAGRAM - DRN VINCE - ISS 1.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1980%20-%20463-01-016%20-%20SUBMASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20VINCE%20-%20ISS%201.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1980%20-%20463-01-016%20-%20SUBMASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20VINCE%20-%20ISS%201.jpg" alt="" data-f="Modules/SUMMING/M463/1980 - 463-01-016 - SUBMASTER MODULE FUNCTIONAL DIAGRAM - DRN VINCE - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1980 - 463-01-016 - SUBMASTER MODULE FUNCTIONAL DIAGRAM - DRN VINCE - ISS 1.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/1982%20-%20463-02-015%20-%20M463R%20MASTER%20MODULE%20SCHEMATIC%20-%20DRN%20JP%20-%20ENG%20ELJ.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/1982%20-%20463-02-015%20-%20M463R%20MASTER%20MODULE%20SCHEMATIC%20-%20DRN%20JP%20-%20ENG%20ELJ.jpg" alt="" data-f="Modules/SUMMING/M463/1982 - 463-02-015 - M463R MASTER MODULE SCHEMATIC - DRN JP - ENG ELJ.jpg" data-size="320" onerror="wbsOff(this)">1982 - 463-02-015 - M463R MASTER MODULE SCHEMATIC - DRN JP - ENG ELJ.jpg</a><a href="../../../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Small%2011X17%20drawings/19xx%20-%20DOC%20-%20463-02-009%20-%20SUBMA%20STER%20MODULE%20SCHEMATIC.png"><img loading="lazy" src="../../../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Small%2011X17%20drawings/19xx%20-%20DOC%20-%20463-02-009%20-%20SUBMA%20STER%20MODULE%20SCHEMATIC.png" alt="" data-f="DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/19xx - DOC - 463-02-009 - SUBMA STER MODULE SCHEMATIC.png" data-size="320" onerror="wbsOff(this)">19xx - DOC - 463-02-009 - SUBMA STER MODULE SCHEMATIC.png</a><a href="../../../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Small%2011X17%20drawings/19xx%20-%20DOC%20-%20463-02-019%20-%20SUBMASTER%20MODULE%20SCHEMATIC.png"><img loading="lazy" src="../../../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Small%2011X17%20drawings/19xx%20-%20DOC%20-%20463-02-019%20-%20SUBMASTER%20MODULE%20SCHEMATIC.png" alt="" data-f="DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/19xx - DOC - 463-02-019 - SUBMASTER MODULE SCHEMATIC.png" data-size="320" onerror="wbsOff(this)">19xx - DOC - 463-02-019 - SUBMASTER MODULE SCHEMATIC.png</a><a href="../../../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Small%2011X17%20drawings/19xx%20-%20DOC%20-%20463-02-020%20-%20BYBTEMB%20DALHM%20EHNE.png"><img loading="lazy" src="../../../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Small%2011X17%20drawings/19xx%20-%20DOC%20-%20463-02-020%20-%20BYBTEMB%20DALHM%20EHNE.png" alt="" data-f="DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/19xx - DOC - 463-02-020 - BYBTEMB DALHM EHNE.png" data-size="320" onerror="wbsOff(this)">19xx - DOC - 463-02-020 - BYBTEMB DALHM EHNE.png</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20463-01-011.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/19xx%20-%20463-01-011.jpg" alt="" data-f="Modules/SUMMING/M463/19xx - 463-01-011.jpg" data-size="320" onerror="wbsOff(this)">19xx - 463-01-011.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20463-02-019%20-%20M463AB%20SUBMASTER%20MODULE%20SCHEMATIC%20-%20DRN%20HM%20-%20ISS%201.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/19xx%20-%20463-02-019%20-%20M463AB%20SUBMASTER%20MODULE%20SCHEMATIC%20-%20DRN%20HM%20-%20ISS%201.jpg" alt="" data-f="Modules/SUMMING/M463/19xx - 463-02-019 - M463AB SUBMASTER MODULE SCHEMATIC - DRN HM - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">19xx - 463-02-019 - M463AB SUBMASTER MODULE SCHEMATIC - DRN HM - ISS 1.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20463-02-019%20-%20M463AB%20SUBMASTER%20MODULE%20SCHEMATIC%20-%20DRN%20HM%20-%20ISS%201.png"><img loading="lazy" src="../../../Modules/SUMMING/M463/19xx%20-%20463-02-019%20-%20M463AB%20SUBMASTER%20MODULE%20SCHEMATIC%20-%20DRN%20HM%20-%20ISS%201.png" alt="" data-f="Modules/SUMMING/M463/19xx - 463-02-019 - M463AB SUBMASTER MODULE SCHEMATIC - DRN HM - ISS 1.png" data-size="320" onerror="wbsOff(this)">19xx - 463-02-019 - M463AB SUBMASTER MODULE SCHEMATIC - DRN HM - ISS 1.png</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20463-02-020%20-%20AC%20MASTER%20MODULE%20SCHEMATIC%20-%20DRN%20HM%20-%20ENG%20HM.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/19xx%20-%20463-02-020%20-%20AC%20MASTER%20MODULE%20SCHEMATIC%20-%20DRN%20HM%20-%20ENG%20HM.jpg" alt="" data-f="Modules/SUMMING/M463/19xx - 463-02-020 - AC MASTER MODULE SCHEMATIC - DRN HM - ENG HM.jpg" data-size="320" onerror="wbsOff(this)">19xx - 463-02-020 - AC MASTER MODULE SCHEMATIC - DRN HM - ENG HM.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20463-06-001.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/19xx%20-%20463-06-001.jpg" alt="" data-f="Modules/SUMMING/M463/19xx - 463-06-001.jpg" data-size="320" onerror="wbsOff(this)">19xx - 463-06-001.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20463-06-028%20-%20M463AC%20MASTER%20MODULE%20COMPONENT%20LAYOUT%20-%20DRN%20HM%20-%20ISS%201.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/19xx%20-%20463-06-028%20-%20M463AC%20MASTER%20MODULE%20COMPONENT%20LAYOUT%20-%20DRN%20HM%20-%20ISS%201.jpg" alt="" data-f="Modules/SUMMING/M463/19xx - 463-06-028 - M463AC MASTER MODULE COMPONENT LAYOUT - DRN HM - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">19xx - 463-06-028 - M463AC MASTER MODULE COMPONENT LAYOUT - DRN HM - ISS 1.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%208-109-02-002.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/19xx%20-%208-109-02-002.jpg" alt="" data-f="Modules/SUMMING/M463/19xx - 8-109-02-002.jpg" data-size="320" onerror="wbsOff(this)">19xx - 8-109-02-002.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%208-109-02-007.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/19xx%20-%208-109-02-007.jpg" alt="" data-f="Modules/SUMMING/M463/19xx - 8-109-02-007.jpg" data-size="320" onerror="wbsOff(this)">19xx - 8-109-02-007.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463/M463%20-%20P030%20-%20LB463-02-001%2004.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463/M463%20-%20P030%20-%20LB463-02-001%2004.jpg" alt="" data-f="Modules/SUMMING/M463/M463 - P030 - LB463-02-001 04.jpg" data-size="320" onerror="wbsOff(this)">M463 - P030 - LB463-02-001 04.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20463-01-009%20-%20MONITOR%20OUTPUT%20DIRECT%20OUTPUT.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463J/1972%20-%20M463J%20-%20463-01-009%20-%20MONITOR%20OUTPUT%20DIRECT%20OUTPUT.jpg" alt="" data-f="Modules/SUMMING/M463J/1972 - M463J - 463-01-009 - MONITOR OUTPUT DIRECT OUTPUT.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463J - 463-01-009 - MONITOR OUTPUT DIRECT OUTPUT.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20463-02-009%20-%20NLESS%20OTHERWISE%20SPECIFIED%20COMPONENT%20DESIGNATIONS.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463J/1972%20-%20M463J%20-%20463-02-009%20-%20NLESS%20OTHERWISE%20SPECIFIED%20COMPONENT%20DESIGNATIONS.jpg" alt="" data-f="Modules/SUMMING/M463J/1972 - M463J - 463-02-009 - NLESS OTHERWISE SPECIFIED COMPONENT DESIGNATIONS.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463J - 463-02-009 - NLESS OTHERWISE SPECIFIED COMPONENT DESIGNATIONS.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20463-02-009%20-%20NLESS%20OTHERWISE%20SPECIFIED.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463J/1972%20-%20M463J%20-%20463-02-009%20-%20NLESS%20OTHERWISE%20SPECIFIED.jpg" alt="" data-f="Modules/SUMMING/M463J/1972 - M463J - 463-02-009 - NLESS OTHERWISE SPECIFIED.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463J - 463-02-009 - NLESS OTHERWISE SPECIFIED.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20463-04-010%20-%20WHEN%20DEPRESSED%20THE%20POSTFADE%20SIGNA.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463J/1972%20-%20M463J%20-%20463-04-010%20-%20WHEN%20DEPRESSED%20THE%20POSTFADE%20SIGNA.jpg" alt="" data-f="Modules/SUMMING/M463J/1972 - M463J - 463-04-010 - WHEN DEPRESSED THE POSTFADE SIGNA.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463J - 463-04-010 - WHEN DEPRESSED THE POSTFADE SIGNA.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20463-06-001%20-%20SUBMASTER%20MODULE%20UNT.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463J/1972%20-%20M463J%20-%20463-06-001%20-%20SUBMASTER%20MODULE%20UNT.jpg" alt="" data-f="Modules/SUMMING/M463J/1972 - M463J - 463-06-001 - SUBMASTER MODULE UNT.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463J - 463-06-001 - SUBMASTER MODULE UNT.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463K/1974%20-%20M463K%20-%204-136-06-018%20-%20PIN%20LISSCOD%20ICKD%20USED.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463K/1974%20-%20M463K%20-%204-136-06-018%20-%20PIN%20LISSCOD%20ICKD%20USED.jpg" alt="" data-f="Modules/SUMMING/M463K/1974 - M463K - 4-136-06-018 - PIN LISSCOD ICKD USED.jpg" data-size="320" onerror="wbsOff(this)">1974 - M463K - 4-136-06-018 - PIN LISSCOD ICKD USED.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463K/1974%20-%20M463K%20-%20P026%20-%204-141%201-1.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463K/1974%20-%20M463K%20-%20P026%20-%204-141%201-1.jpg" alt="" data-f="Modules/SUMMING/M463K/1974 - M463K - P026 - 4-141 1-1.jpg" data-size="320" onerror="wbsOff(this)">1974 - M463K - P026 - 4-141 1-1.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463L/1974%20-%20M463L%20-%204-136-06-019%20-%20JIS%20JII.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463L/1974%20-%20M463L%20-%204-136-06-019%20-%20JIS%20JII.jpg" alt="" data-f="Modules/SUMMING/M463L/1974 - M463L - 4-136-06-019 - JIS JII.jpg" data-size="320" onerror="wbsOff(this)">1974 - M463L - 4-136-06-019 - JIS JII.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463LA/1974%20-%20M463LA%20-%204-136-06-023%20-%20PIN%20ULCL%20WES%20WACO-D.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463LA/1974%20-%20M463LA%20-%204-136-06-023%20-%20PIN%20ULCL%20WES%20WACO-D.jpg" alt="" data-f="Modules/SUMMING/M463LA/1974 - M463LA - 4-136-06-023 - PIN ULCL WES WACO-D.jpg" data-size="320" onerror="wbsOff(this)">1974 - M463LA - 4-136-06-023 - PIN ULCL WES WACO-D.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463AC/1986%20-%20M463AC%20-%20463-02-020%20-%20MASTER%20MODULE%20SCHEMATIC%20FONU.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463AC/1986%20-%20M463AC%20-%20463-02-020%20-%20MASTER%20MODULE%20SCHEMATIC%20FONU.jpg" alt="" data-f="Modules/SUMMING/M463AC/1986 - M463AC - 463-02-020 - MASTER MODULE SCHEMATIC FONU.jpg" data-size="320" onerror="wbsOff(this)">1986 - M463AC - 463-02-020 - MASTER MODULE SCHEMATIC FONU.jpg</a><a href="../../../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%20463-02-007%20-%20SOLO%20CONTROL%20CONTROL.jpg"><img loading="lazy" src="../../../Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%20463-02-007%20-%20SOLO%20CONTROL%20CONTROL.jpg" alt="" data-f="Consoles/1970-1979/76045 - CFTO/1976 - 76045 - 463-02-007 - SOLO CONTROL CONTROL.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1976 - 76045 - 463-02-007 - SOLO CONTROL CONTROL.jpg</a><a href="../../../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%20463-04-008%20-%20SUB%20MASTER%20MODULE%20ASSEMBLY%20%282%29.jpg"><img loading="lazy" src="../../../Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%20463-04-008%20-%20SUB%20MASTER%20MODULE%20ASSEMBLY%20%282%29.jpg" alt="" data-f="Consoles/1970-1979/76045 - CFTO/1976 - 76045 - 463-04-008 - SUB MASTER MODULE ASSEMBLY (2).jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1976 - 76045 - 463-04-008 - SUB MASTER MODULE ASSEMBLY (2).jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463B/1972%20-%20M463B%20-%20463-01-003%20-%20WAAD-BECK%20BYSTEMS.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463B/1972%20-%20M463B%20-%20463-01-003%20-%20WAAD-BECK%20BYSTEMS.jpg" alt="" data-f="Modules/SUMMING/M463B/1972 - M463B - 463-01-003 - WAAD-BECK BYSTEMS.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1972 - M463B - 463-01-003 - WAAD-BECK BYSTEMS.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463B/1972%20-%20M463B%20-%20463-04-007%20-%20CONNECTOR%20REAR%20VIEW.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463B/1972%20-%20M463B%20-%20463-04-007%20-%20CONNECTOR%20REAR%20VIEW.jpg" alt="" data-f="Modules/SUMMING/M463B/1972 - M463B - 463-04-007 - CONNECTOR REAR VIEW.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1972 - M463B - 463-04-007 - CONNECTOR REAR VIEW.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463AC/1986%20-%20M463AC%20-%20463-04-009%20-%20CONNECTOR%20REAR%20VIEW.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463AC/1986%20-%20M463AC%20-%20463-04-009%20-%20CONNECTOR%20REAR%20VIEW.jpg" alt="" data-f="Modules/SUMMING/M463AC/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20463-01-009%20-%20FRE%20TAOC%20INPUT%20PAN%20INSERT%20FADER.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463J/1972%20-%20M463J%20-%20463-01-009%20-%20FRE%20TAOC%20INPUT%20PAN%20INSERT%20FADER.jpg" alt="" data-f="Modules/SUMMING/M463J/1972 - M463J - 463-01-009 - FRE TAOC INPUT PAN INSERT FADER.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463J - 463-01-009 - FRE TAOC INPUT PAN INSERT FADER.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463K/1974%20-%20M463K%20-%20463-01-010%20-%20ZSOLO%20CONTROL%20SOLO%20COMMON%20CONTROL.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463K/1974%20-%20M463K%20-%20463-01-010%20-%20ZSOLO%20CONTROL%20SOLO%20COMMON%20CONTROL.jpg" alt="" data-f="Modules/SUMMING/M463K/1974 - M463K - 463-01-010 - ZSOLO CONTROL SOLO COMMON CONTROL.jpg" data-size="320" onerror="wbsOff(this)">1974 - M463K - 463-01-010 - ZSOLO CONTROL SOLO COMMON CONTROL.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463K/1974%20-%20M463K%20-%20463-01-010%20-%20INSERT%20SUB%20INSERT%20JACKS%20FADER.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463K/1974%20-%20M463K%20-%20463-01-010%20-%20INSERT%20SUB%20INSERT%20JACKS%20FADER.jpg" alt="" data-f="Modules/SUMMING/M463K/1974 - M463K - 463-01-010 - INSERT SUB INSERT JACKS FADER.jpg" data-size="320" onerror="wbsOff(this)">1974 - M463K - 463-01-010 - INSERT SUB INSERT JACKS FADER.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463L/1974%20-%20M463L%20-%20463-01-011%20-%20INSERT%20INSERT%20JACKS%20FADER.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463L/1974%20-%20M463L%20-%20463-01-011%20-%20INSERT%20INSERT%20JACKS%20FADER.jpg" alt="" data-f="Modules/SUMMING/M463L/1974 - M463L - 463-01-011 - INSERT INSERT JACKS FADER.jpg" data-size="320" onerror="wbsOff(this)">1974 - M463L - 463-01-011 - INSERT INSERT JACKS FADER.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463L/1974%20-%20M463L%20-%20463-01-011%20-%20CONTROL%20SOLO%20SOLO%20CONTROL%20SOLO%20COMMON%20CONTROL.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463L/1974%20-%20M463L%20-%20463-01-011%20-%20CONTROL%20SOLO%20SOLO%20CONTROL%20SOLO%20COMMON%20CONTROL.jpg" alt="" data-f="Modules/SUMMING/M463L/1974 - M463L - 463-01-011 - CONTROL SOLO SOLO CONTROL SOLO COMMON CONTROL.jpg" data-size="320" onerror="wbsOff(this)">1974 - M463L - 463-01-011 - CONTROL SOLO SOLO CONTROL SOLO COMMON CONTROL.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463LA/1974%20-%20M463LA%20-%20463-01-016%20-%20CONTROL%20SOLO%20SOLO%20CONTROL%20SOLO%20COMMON%20CONTROL.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463LA/1974%20-%20M463LA%20-%20463-01-016%20-%20CONTROL%20SOLO%20SOLO%20CONTROL%20SOLO%20COMMON%20CONTROL.jpg" alt="" data-f="Modules/SUMMING/M463LA/1974 - M463LA - 463-01-016 - CONTROL SOLO SOLO CONTROL SOLO COMMON CONTROL.jpg" data-size="320" onerror="wbsOff(this)">1974 - M463LA - 463-01-016 - CONTROL SOLO SOLO CONTROL SOLO COMMON CONTROL.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463LA/1974%20-%20M463LA%20-%20463-01-016%20-%20INSERT%20INSERT%20JACKS%20FADER.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463LA/1974%20-%20M463LA%20-%20463-01-016%20-%20INSERT%20INSERT%20JACKS%20FADER.jpg" alt="" data-f="Modules/SUMMING/M463LA/1974 - M463LA - 463-01-016 - INSERT INSERT JACKS FADER.jpg" data-size="320" onerror="wbsOff(this)">1974 - M463LA - 463-01-016 - INSERT INSERT JACKS FADER.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463AB/1986%20-%20M463AB%20-%20463-01-019%20-%20ONITOR%20JUTPUT%20IRECT%20OUTPUT.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463AB/1986%20-%20M463AB%20-%20463-01-019%20-%20ONITOR%20JUTPUT%20IRECT%20OUTPUT.jpg" alt="" data-f="Modules/SUMMING/M463AB/1986 - M463AB - 463-01-019 - ONITOR JUTPUT IRECT OUTPUT.jpg" data-size="320" onerror="wbsOff(this)">1986 - M463AB - 463-01-019 - ONITOR JUTPUT IRECT OUTPUT.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463AB/1986%20-%20M463AB%20-%20463-01-019%20-%20PRE%20FADE%20INPUT%20PAN%20INSERT%20FADER.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463AB/1986%20-%20M463AB%20-%20463-01-019%20-%20PRE%20FADE%20INPUT%20PAN%20INSERT%20FADER.jpg" alt="" data-f="Modules/SUMMING/M463AB/1986 - M463AB - 463-01-019 - PRE FADE INPUT PAN INSERT FADER.jpg" data-size="320" onerror="wbsOff(this)">1986 - M463AB - 463-01-019 - PRE FADE INPUT PAN INSERT FADER.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463AC/1986%20-%20M463AC%20-%20463-01-020%20-%20INPUT%20FADER.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463AC/1986%20-%20M463AC%20-%20463-01-020%20-%20INPUT%20FADER.jpg" alt="" data-f="Modules/SUMMING/M463AC/1986 - M463AC - 463-01-020 - INPUT FADER.jpg" data-size="320" onerror="wbsOff(this)">1986 - M463AC - 463-01-020 - INPUT FADER.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463AC/1986%20-%20M463AC%20-%20463-01-020%20-%20MASTER%20MODULE.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463AC/1986%20-%20M463AC%20-%20463-01-020%20-%20MASTER%20MODULE.jpg" alt="" data-f="Modules/SUMMING/M463AC/1986 - M463AC - 463-01-020 - MASTER MODULE.jpg" data-size="320" onerror="wbsOff(this)">1986 - M463AC - 463-01-020 - MASTER MODULE.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M463B/1972%20-%20M463B%20-%20463-02-003%20-%20HHI%20HHI.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M463B/1972%20-%20M463B%20-%20463-02-003%20-%20HHI%20HHI.jpg" alt="" data-f="Modules/SUMMING/M463B/1972 - M463B - 463-02-003 - HHI HHI.jpg" data-size="320" onerror="wbsOff(this)">1972 - M463B - 463-02-003 - HHI HHI.jpg</a><a href="../../../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%20463-02-007%20-%20UJIJLESS%20OTHERWISE%20EPECIFIED%20SOLO%20CONTROL%20CONTROL.jpg"><img loading="lazy" src="../../../Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%20463-02-007%20-%20UJIJLESS%20OTHERWISE%20EPECIFIED%20SOLO%20CONTROL%20CONTROL.jpg" alt="" data-f="Consoles/1970-1979/76045 - CFTO/1976 - 76045 - 463-02-007 - UJIJLESS OTHERWISE EPECIFIED SOLO CONTROL CONTROL.jpg" data-size="320" onerror="wbsOff(this)">1976 - 76045 - 463-02-007 - UJIJLESS OTHERWISE EPECIFIED SOLO CONTROL CONTROL.jpg</a><a href="../../../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%20463-02-007%20-%20NOTE%20ALL%20RESISTORS.jpg"><img loading="lazy" src="../../../Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%20463-02-007%20-%20NOTE%20ALL%20RESISTORS.jpg" alt="" data-f="Consoles/1970-1979/76045 - CFTO/1976 - 76045 - 463-02-007 - NOTE ALL RESISTORS.jpg" data-size="320" onerror="wbsOff(this)">1976 - 76045 - 463-02-007 - NOTE ALL RESISTORS.jpg</a></div>
+<h2>Price history</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Price</th>
+<th>Listed as</th>
+<th>Effective</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Year-2005.html">2005|38</a></td>
+<td>used market value</td>
+<td>100.00</td>
+<td>M463 Sub master</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/old website/PriceGuide.htm</td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-2006.html">2006|39</a></td>
+<td>used market value</td>
+<td>100.00</td>
+<td>M463 Sub master</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/jan 2006 shell/priceguide.htm</td>
+</tr>
+</tbody>
+</table>
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Year-1974.html">1974|7</a></td>
+<td>title-block date</td>
+<td><code>DATE JULY 74</code></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%204-126-06-001%20-%204-126%20EQUALIZER%20FILTER%20COMPONENT%20ASSEMBLY%20-%20DRN%20DM%20-%20ISS%202.jpg">1974 - 4-126-06-001 - 4-126 EQUALIZER FILTER COMPONENT ASSEMBLY - DRN DM - ISS 2.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1974.html">1974|7</a></td>
+<td>title-block date</td>
+<td><code>DATE NOV 74</code></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%204-141-02-001%20-%204-141%20SUMMING%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%207.jpg">1974 - 4-141-02-001 - 4-141 SUMMING AMPLIFIER SCHEMATIC - DRN DM - ISS 7.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1974.html">1974|7</a></td>
+<td>title-block date</td>
+<td><code>DATE JULY 74</code></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%204-126-06-001%20-%20MODIICKD%20USED.jpg">1974 - M463 - 4-126-06-001 - MODIICKD USED.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1974.html">1974|7</a></td>
+<td>title-block date</td>
+<td><code>DATE NOV 74</code></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%204-141-02-001%20-%20TORY%20SELECTED%20IAL%20VALUE.jpg">1974 - M463 - 4-141-02-001 - TORY SELECTED IAL VALUE.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1974.html">1974|7</a></td>
+<td>month &amp; year</td>
+<td><code>DEC 74</code></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%204-141-06-001%20-%20SUMMING%20AMPLIFIER.jpg">1974 - M463 - 4-141-06-001 - SUMMING AMPLIFIER.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1974.html">1974|7</a></td>
+<td>title-block date</td>
+<td><code>DATE NOV 74</code></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%20Submaster%20Module%20%282%29.pdf">1974 - M463 - Submaster Module (2).pdf</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1977.html">1977|10</a></td>
+<td>title-block date</td>
+<td><code>DATE 22 APR 77</code></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%20Submaster%20Module%20%282%29.pdf">1974 - M463 - Submaster Module (2).pdf</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1979.html">1979|12</a></td>
+<td>manual issue date</td>
+<td><code>I SSUE 12 W JAIL 1979</code></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%20Submaster%20Module%20%282%29.pdf">1974 - M463 - Submaster Module (2).pdf</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1974.html">1974|7</a></td>
+<td>title-block date</td>
+<td><code>DATE NOV 74</code></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%20Submaster%20Module.pdf">1974 - M463 - Submaster Module.pdf</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1974.html">1974|7</a></td>
+<td>title-block date</td>
+<td><code>DATE DEC 74</code></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%20Submaster%20Module.pdf">1974 - M463 - Submaster Module.pdf</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1976.html">1976|9</a></td>
+<td>title-block date</td>
+<td><code>DATE Oct 76</code></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%204-126-02-001%20-%204-126%20EQUALIZER%20FILTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%204.jpg">1976 - 4-126-02-001 - 4-126 EQUALIZER FILTER AMPLIFIER SCHEMATIC - DRN GEB - ISS 4.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1976.html">1976|9</a></td>
+<td>title-block date</td>
+<td><code>DATE Oct 76</code></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%20M463%20-%204-126-02-001%20-%20EQUALIZER%20FILTER.jpg">1976 - M463 - 4-126-02-001 - EQUALIZER FILTER.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1977.html">1977|10</a></td>
+<td>title-block date</td>
+<td><code>DATE 22 APR 77</code></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1977%20-%20463-01-001%20-%20SUBMASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20PKM%20-%20ISS%202.jpg">1977 - 463-01-001 - SUBMASTER MODULE FUNCTIONAL DIAGRAM - DRN PKM - ISS 2.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1977.html">1977|10</a></td>
+<td>title-block date</td>
+<td><code>DATE 22 APR 77</code></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1977%20-%20M463%20-%20463-01-001%20-%20YSOLO%20CONTROL%20SOLO%20COMMON%20CONTROL.jpg">1977 - M463 - 463-01-001 - YSOLO CONTROL SOLO COMMON CONTROL.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1979.html">1979|12</a></td>
+<td>manual issue date</td>
+<td><code>ISSUE#2 JAN . 1979</code></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1979%20-%20M463%20-%20P002.jpg">1979 - M463 - P002.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1974.html">1974|7</a></td>
+<td>title-block date</td>
+<td><code>DATE NOV 74</code></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%204-141-02-001.jpg">19xx - 4-141-02-001.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1972.html">1972|5</a></td>
+<td>title-block date</td>
+<td><code>DATE 22 APR72</code></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20463-01-001.jpg">19xx - 463-01-001.jpg</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Physical manual inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Location</th>
+<th>Status</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M463 - Submaster Module</td>
+<td></td>
+<td>DUPLICATE</td>
+<td>Recently scanned and stiched by WB</td>
+</tr>
+<tr>
+<td>M463 - Submaster Module</td>
+<td></td>
+<td>DUPLICATE</td>
+<td>SCANNED BUT NEEDS STICHING</td>
+</tr>
+<tr>
+<td>M463 - Submaster Module</td>
+<td></td>
+<td></td>
+<td>PDF - Already scanned</td>
+</tr>
+</tbody>
+</table>
+<h2>Documents (2)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1974|7</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%20Submaster%20Module%20%282%29.pdf">1974 - M463 - Submaster Module (2).pdf</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%20Submaster%20Module%20%282%29.pdf.md">note</a></td>
+</tr>
+<tr>
+<td>1974|7</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%20Submaster%20Module.pdf">1974 - M463 - Submaster Module.pdf</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%20Submaster%20Module.pdf.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (94)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%204-126-02-001%20-%20IOK%20COMBINED%20COMBINED%20VALUE%20VALUE.jpg">1972 - M463 - 4-126-02-001 - IOK COMBINED COMBINED VALUE VALUE.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%204-126-02-001%20-%20IOK%20COMBINED%20COMBINED%20VALUE%20VALUE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%204-126-06-001%20-%20CTO%20LMZOIN.jpg">1972 - M463 - 4-126-06-001 - CTO LMZOIN.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%204-126-06-001%20-%20CTO%20LMZOIN.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%204-136-06-010%20-%20PIN%20ESLOLICKD%20USDOJ%20ITI%20ABXEPKM.jpg">1972 - M463 - 4-136-06-010 - PIN ESLOLICKD USDOJ ITI ABXEPKM.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%204-136-06-010%20-%20PIN%20ESLOLICKD%20USDOJ%20ITI%20ABXEPKM.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%204-141-02-001%20-%20CZO%20LEVELCAL.jpg">1972 - M463 - 4-141-02-001 - CZO LEVELCAL.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%204-141-02-001%20-%20CZO%20LEVELCAL.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%204-141-06-001%20-%20ARE%20FACTORY%20SELECTED.jpg">1972 - M463 - 4-141-06-001 - ARE FACTORY SELECTED.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%204-141-06-001%20-%20ARE%20FACTORY%20SELECTED.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%204136-06-010%20-%20COMPONENT%20NQTES%20LEGEND%20CONNECTOR%20PIN%20MOUNTED.jpg">1972 - M463 - 4136-06-010 - COMPONENT NQTES LEGEND CONNECTOR PIN MOUNTED.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%204136-06-010%20-%20COMPONENT%20NQTES%20LEGEND%20CONNECTOR%20PIN%20MOUNTED.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20463-01-001%20-%20INSERT%20INSERT%20JACKS%20FADER.jpg">1972 - M463 - 463-01-001 - INSERT INSERT JACKS FADER.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20463-01-001%20-%20INSERT%20INSERT%20JACKS%20FADER.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20463-02-001%20-%20SUB%20MASTER%20MODULE.jpg">1972 - M463 - 463-02-001 - SUB MASTER MODULE.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20463-02-001%20-%20SUB%20MASTER%20MODULE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20463-04-002%20-%20KELE%20CONNECTOR%20REAR%20VIEW.jpg">1972 - M463 - 463-04-002 - KELE CONNECTOR REAR VIEW.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20463-04-002%20-%20KELE%20CONNECTOR%20REAR%20VIEW.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20463-04-002%20-%20OUTPUT%20AMP%20UPPER%20LEGEND.jpg">1972 - M463 - 463-04-002 - OUTPUT AMP UPPER LEGEND.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20463-04-002%20-%20OUTPUT%20AMP%20UPPER%20LEGEND.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20463-04-020%20-%20BETWEEN%20ASS%20IGNED%20MIXING%20BUSES%20LEFT%20AND%20RIGHT.jpg">1972 - M463 - 463-04-020 - BETWEEN ASS IGNED MIXING BUSES LEFT AND RIGHT.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20463-04-020%20-%20BETWEEN%20ASS%20IGNED%20MIXING%20BUSES%20LEFT%20AND%20RIGHT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20463-04-020%20-%20WHEN%20DEPRESSED%20THIS%20SWITCH%20INSERTS%20THE%20EQUALIZER%20SECTION.jpg">1972 - M463 - 463-04-020 - WHEN DEPRESSED THIS SWITCH INSERTS THE EQUALIZER SECTION.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20463-04-020%20-%20WHEN%20DEPRESSED%20THIS%20SWITCH%20INSERTS%20THE%20EQUALIZER%20SECTION.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-02-002%20-%20NOMINAL%20VALUE.jpg">1972 - M463 - 8-109-02-002 - NOMINAL VALUE.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-02-002%20-%20NOMINAL%20VALUE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-02-002%20-%20RII%20RIZ.jpg">1972 - M463 - 8-109-02-002 - RII RIZ.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-02-002%20-%20RII%20RIZ.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-02-007%20-%20NDMINAL%20VALUE.jpg">1972 - M463 - 8-109-02-007 - NDMINAL VALUE.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-02-007%20-%20NDMINAL%20VALUE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-02-007.jpg">1972 - M463 - 8-109-02-007.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-02-007.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-06-002%20-%20OUTPUT%20AMPLIFIER.jpg">1972 - M463 - 8-109-06-002 - OUTPUT AMPLIFIER.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-06-002%20-%20OUTPUT%20AMPLIFIER.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-06-002.jpg">1972 - M463 - 8-109-06-002.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-06-002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-06-007%20-%20BOOSTER%20AMPLIFIER.jpg">1972 - M463 - 8-109-06-007 - BOOSTER AMPLIFIER.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-06-007%20-%20BOOSTER%20AMPLIFIER.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-06-007.jpg">1972 - M463 - 8-109-06-007.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-06-007.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P001%20-%20Title%20Page.jpg">1972 - M463 - P001 - Title Page.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P001%20-%20Title%20Page.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P003%20-%201-1.jpg">1972 - M463 - P003 - 1-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P003%20-%201-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P004%20-%202-1.jpg">1972 - M463 - P004 - 2-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P004%20-%202-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P005%20-%202-2.jpg">1972 - M463 - P005 - 2-2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P005%20-%202-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P006%20-%202-3.jpg">1972 - M463 - P006 - 2-3.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P006%20-%202-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P007%20-%202-4.jpg">1972 - M463 - P007 - 2-4.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P007%20-%202-4.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P008%20-%202-5.jpg">1972 - M463 - P008 - 2-5.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P008%20-%202-5.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P009%20-%203-1.jpg">1972 - M463 - P009 - 3-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P009%20-%203-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P010%20-%203-2.jpg">1972 - M463 - P010 - 3-2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P010%20-%203-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P011%20-%203-3.jpg">1972 - M463 - P011 - 3-3.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P011%20-%203-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P012%20-%204-1.jpg">1972 - M463 - P012 - 4-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P012%20-%204-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P013%20-%204-2.jpg">1972 - M463 - P013 - 4-2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P013%20-%204-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P014%20-%204-3.jpg">1972 - M463 - P014 - 4-3.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P014%20-%204-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P015%20-%204-4.jpg">1972 - M463 - P015 - 4-4.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P015%20-%204-4.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P016%20-%204-5.jpg">1972 - M463 - P016 - 4-5.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P016%20-%204-5.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P017%20-%204-6.jpg">1972 - M463 - P017 - 4-6.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P017%20-%204-6.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P018%20-%204-7.jpg">1972 - M463 - P018 - 4-7.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P018%20-%204-7.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P019%20-%208-109.jpg">1972 - M463 - P019 - 8-109.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P019%20-%208-109.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P020%20-%208-109-1-1.jpg">1972 - M463 - P020 - 8-109-1-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P020%20-%208-109-1-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P021%20-%208-109-1-2.jpg">1972 - M463 - P021 - 8-109-1-2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P021%20-%208-109-1-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P022%20-%208-109-1-3.jpg">1972 - M463 - P022 - 8-109-1-3.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P022%20-%208-109-1-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P023%20-%208-109-2-1.jpg">1972 - M463 - P023 - 8-109-2-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P023%20-%208-109-2-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P024%20-%208-109-2-2.jpg">1972 - M463 - P024 - 8-109-2-2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P024%20-%208-109-2-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P025%20-%208-109-2-3.jpg">1972 - M463 - P025 - 8-109-2-3.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P025%20-%208-109-2-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P026%20-%208-109-2-4.jpg">1972 - M463 - P026 - 8-109-2-4.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P026%20-%208-109-2-4.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P027%20-%208-109-2-5.jpg">1972 - M463 - P027 - 8-109-2-5.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P027%20-%208-109-2-5.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P030%20-%20LB463-02-001%2001.jpg">1972 - M463 - P030 - LB463-02-001 01.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P030%20-%20LB463-02-001%2001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P030%20-%20LB463-02-001%2002.jpg">1972 - M463 - P030 - LB463-02-001 02.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P030%20-%20LB463-02-001%2002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P030%20-%20LB463-02-001%2003.jpg">1972 - M463 - P030 - LB463-02-001 03.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P030%20-%20LB463-02-001%2003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20Taken%20apart.jpg">1972 - M463 - Taken apart.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20Taken%20apart.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20Taken%20apart_small.jpg">1972 - M463 - Taken apart_small.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20Taken%20apart_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1972|5</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20WAAD-BECK%20ZABM.jpg">1972 - M463 - WAAD-BECK ZABM.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20WAAD-BECK%20ZABM.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1974|7</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%204-126-06-001%20-%204-126%20EQUALIZER%20FILTER%20COMPONENT%20ASSEMBLY%20-%20DRN%20DM%20-%20ISS%202.jpg">1974 - 4-126-06-001 - 4-126 EQUALIZER FILTER COMPONENT ASSEMBLY - DRN DM - ISS 2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%204-126-06-001%20-%204-126%20EQUALIZER%20FILTER%20COMPONENT%20ASSEMBLY%20-%20DRN%20DM%20-%20ISS%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1974|7</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%204-141-02-001%20-%204-141%20SUMMING%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%207.jpg">1974 - 4-141-02-001 - 4-141 SUMMING AMPLIFIER SCHEMATIC - DRN DM - ISS 7.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%204-141-02-001%20-%204-141%20SUMMING%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%207.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1974|7</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20LB%20463-02%20-%20SUB-MASTER%20SCHEMATIC%20-%20DRN%20DM.jpg">1974 - LB 463-02 - SUB-MASTER SCHEMATIC - DRN DM.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20LB%20463-02%20-%20SUB-MASTER%20SCHEMATIC%20-%20DRN%20DM.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1974|7</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%204-126-06-001%20-%20MODIICKD%20USED.jpg">1974 - M463 - 4-126-06-001 - MODIICKD USED.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%204-126-06-001%20-%20MODIICKD%20USED.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1974|7</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%204-141-02-001%20-%20TORY%20SELECTED%20IAL%20VALUE.jpg">1974 - M463 - 4-141-02-001 - TORY SELECTED IAL VALUE.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%204-141-02-001%20-%20TORY%20SELECTED%20IAL%20VALUE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1974|7</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%204-141-06-001%20-%20SUMMING%20AMPLIFIER.jpg">1974 - M463 - 4-141-06-001 - SUMMING AMPLIFIER.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%204-141-06-001%20-%20SUMMING%20AMPLIFIER.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%204-109-02-004%20-%204-109C%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20PWC%20-%20ISS%202.png">1976 - 4-109-02-004 - 4-109C BOOSTER AMPLIFIER SCHEMATIC - DRN PWC - ISS 2.png</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%204-109-02-004%20-%204-109C%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20PWC%20-%20ISS%202.png.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%204-126-02-001%20-%204-126%20EQUALIZER%20FILTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%204.jpg">1976 - 4-126-02-001 - 4-126 EQUALIZER FILTER AMPLIFIER SCHEMATIC - DRN GEB - ISS 4.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%204-126-02-001%20-%204-126%20EQUALIZER%20FILTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%204.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%20463-02-004%20-%20D%20SUB-MASTER%20MODULE%20-%20DRN%20AF%20-%20ISS%202.jpg">1976 - 463-02-004 - D SUB-MASTER MODULE - DRN AF - ISS 2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%20463-02-004%20-%20D%20SUB-MASTER%20MODULE%20-%20DRN%20AF%20-%20ISS%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%20463-02-005%20-%20E%20SUB-MASTER%20MODULE%20-%20DRN%20AF%20-%20ISS%202.jpg">1976 - 463-02-005 - E SUB-MASTER MODULE - DRN AF - ISS 2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%20463-02-005%20-%20E%20SUB-MASTER%20MODULE%20-%20DRN%20AF%20-%20ISS%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%20463-02-006%20-%20F%20SUB-MASTER%20MODULE%20-%20DRN%20AF%20-%20ISS%202.jpg">1976 - 463-02-006 - F SUB-MASTER MODULE - DRN AF - ISS 2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%20463-02-006%20-%20F%20SUB-MASTER%20MODULE%20-%20DRN%20AF%20-%20ISS%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%20463-02-007%20-%20M463M%20SUBMASTER%20%28SUMMING%20struck%29%20MODULE%20SCHEMATIC%20-%20ISS%201.jpg">1976 - 463-02-007 - M463M SUBMASTER (SUMMING struck) MODULE SCHEMATIC - ISS 1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%20463-02-007%20-%20M463M%20SUBMASTER%20%28SUMMING%20struck%29%20MODULE%20SCHEMATIC%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%20463-04-008%20-%20M463M%20SUB%20MASTER%20MODULE%20ASSEMBLY%20%28LAYOUT%29%20-%20DRN%20MING%20-%20ISS%201.jpg">1976 - 463-04-008 - M463M SUB MASTER MODULE ASSEMBLY (LAYOUT) - DRN MING - ISS 1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%20463-04-008%20-%20M463M%20SUB%20MASTER%20MODULE%20ASSEMBLY%20%28LAYOUT%29%20-%20DRN%20MING%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%20M463%20-%204-126-02-001%20-%20EQUALIZER%20FILTER.jpg">1976 - M463 - 4-126-02-001 - EQUALIZER FILTER.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%20M463%20-%204-126-02-001%20-%20EQUALIZER%20FILTER.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1977%20-%20463-01-001%20-%20SUBMASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20PKM%20-%20ISS%202.jpg">1977 - 463-01-001 - SUBMASTER MODULE FUNCTIONAL DIAGRAM - DRN PKM - ISS 2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1977%20-%20463-01-001%20-%20SUBMASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20PKM%20-%20ISS%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1977%20-%20463-01-003%20-%20M463B%20SUBMASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20PKM%20-%20ISS%202.jpg">1977 - 463-01-003 - M463B SUBMASTER MODULE FUNCTIONAL DIAGRAM - DRN PKM - ISS 2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1977%20-%20463-01-003%20-%20M463B%20SUBMASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20PKM%20-%20ISS%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1977%20-%20M463%20-%20463-01-001%20-%20YSOLO%20CONTROL%20SOLO%20COMMON%20CONTROL.jpg">1977 - M463 - 463-01-001 - YSOLO CONTROL SOLO COMMON CONTROL.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1977%20-%20M463%20-%20463-01-001%20-%20YSOLO%20CONTROL%20SOLO%20COMMON%20CONTROL.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1978%20-%20463-06-001%20-%20M463J%20SUBMASTER%20MODULE%20COMPONENT%20LAYOUT%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.jpg">1978 - 463-06-001 - M463J SUBMASTER MODULE COMPONENT LAYOUT - DRN GEB - ENG GEB - ISS 1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1978%20-%20463-06-001%20-%20M463J%20SUBMASTER%20MODULE%20COMPONENT%20LAYOUT%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1978%20-%208-109-02-002%20-%208-109A%20OUTPUT%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.jpg">1978 - 8-109-02-002 - 8-109A OUTPUT AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1978%20-%208-109-02-002%20-%208-109A%20OUTPUT%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1978%20-%208-109-02-007%20-%208-109F%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.jpg">1978 - 8-109-02-007 - 8-109F BOOSTER AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1978%20-%208-109-02-007%20-%208-109F%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1979%20-%20463-01-010%20-%20SUBMASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20PKM%20-%20ISS%202.jpg">1979 - 463-01-010 - SUBMASTER MODULE FUNCTIONAL DIAGRAM - DRN PKM - ISS 2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1979%20-%20463-01-010%20-%20SUBMASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20PKM%20-%20ISS%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1979%20-%20M463%20-%20P002.jpg">1979 - M463 - P002.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1979%20-%20M463%20-%20P002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1980%20-%20463-01-011%20-%20M463L%20SUBMASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20VINCE%20-%20ISS%201.jpg">1980 - 463-01-011 - M463L SUBMASTER MODULE FUNCTIONAL DIAGRAM - DRN VINCE - ISS 1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1980%20-%20463-01-011%20-%20M463L%20SUBMASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20VINCE%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1980%20-%20463-01-016%20-%20SUBMASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20VINCE%20-%20ISS%201.jpg">1980 - 463-01-016 - SUBMASTER MODULE FUNCTIONAL DIAGRAM - DRN VINCE - ISS 1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1980%20-%20463-01-016%20-%20SUBMASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20VINCE%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1982%20-%20463-02-015%20-%20M463R%20MASTER%20MODULE%20SCHEMATIC%20-%20DRN%20JP%20-%20ENG%20ELJ.jpg">1982 - 463-02-015 - M463R MASTER MODULE SCHEMATIC - DRN JP - ENG ELJ.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1982%20-%20463-02-015%20-%20M463R%20MASTER%20MODULE%20SCHEMATIC%20-%20DRN%20JP%20-%20ENG%20ELJ.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Small%2011X17%20drawings/19xx%20-%20DOC%20-%20463-02-009%20-%20SUBMA%20STER%20MODULE%20SCHEMATIC.png">19xx - DOC - 463-02-009 - SUBMA STER MODULE SCHEMATIC.png</a></td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Small%2011X17%20drawings/19xx%20-%20DOC%20-%20463-02-009%20-%20SUBMA%20STER%20MODULE%20SCHEMATIC.png.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Small%2011X17%20drawings/19xx%20-%20DOC%20-%20463-02-019%20-%20SUBMASTER%20MODULE%20SCHEMATIC.png">19xx - DOC - 463-02-019 - SUBMASTER MODULE SCHEMATIC.png</a></td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Small%2011X17%20drawings/19xx%20-%20DOC%20-%20463-02-019%20-%20SUBMASTER%20MODULE%20SCHEMATIC.png.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Small%2011X17%20drawings/19xx%20-%20DOC%20-%20463-02-020%20-%20BYBTEMB%20DALHM%20EHNE.png">19xx - DOC - 463-02-020 - BYBTEMB DALHM EHNE.png</a></td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Small%2011X17%20drawings/19xx%20-%20DOC%20-%20463-02-020%20-%20BYBTEMB%20DALHM%20EHNE.png.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%204-141-02-001.jpg">19xx - 4-141-02-001.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%204-141-02-001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20463-01-001.jpg">19xx - 463-01-001.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20463-01-001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20463-01-011.jpg">19xx - 463-01-011.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20463-01-011.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20463-02-019%20-%20M463AB%20SUBMASTER%20MODULE%20SCHEMATIC%20-%20DRN%20HM%20-%20ISS%201.jpg">19xx - 463-02-019 - M463AB SUBMASTER MODULE SCHEMATIC - DRN HM - ISS 1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20463-02-019%20-%20M463AB%20SUBMASTER%20MODULE%20SCHEMATIC%20-%20DRN%20HM%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20463-02-019%20-%20M463AB%20SUBMASTER%20MODULE%20SCHEMATIC%20-%20DRN%20HM%20-%20ISS%201.png">19xx - 463-02-019 - M463AB SUBMASTER MODULE SCHEMATIC - DRN HM - ISS 1.png</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20463-02-019%20-%20M463AB%20SUBMASTER%20MODULE%20SCHEMATIC%20-%20DRN%20HM%20-%20ISS%201.png.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20463-02-020%20-%20AC%20MASTER%20MODULE%20SCHEMATIC%20-%20DRN%20HM%20-%20ENG%20HM.jpg">19xx - 463-02-020 - AC MASTER MODULE SCHEMATIC - DRN HM - ENG HM.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20463-02-020%20-%20AC%20MASTER%20MODULE%20SCHEMATIC%20-%20DRN%20HM%20-%20ENG%20HM.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20463-06-001.jpg">19xx - 463-06-001.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20463-06-001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20463-06-028%20-%20M463AC%20MASTER%20MODULE%20COMPONENT%20LAYOUT%20-%20DRN%20HM%20-%20ISS%201.jpg">19xx - 463-06-028 - M463AC MASTER MODULE COMPONENT LAYOUT - DRN HM - ISS 1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20463-06-028%20-%20M463AC%20MASTER%20MODULE%20COMPONENT%20LAYOUT%20-%20DRN%20HM%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%208-109-02-002.jpg">19xx - 8-109-02-002.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%208-109-02-002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%208-109-02-007.jpg">19xx - 8-109-02-007.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%208-109-02-007.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20M463%20-%20DOC%20-%20463-02-009%20-%20SUBMA%20STER%20MODULE%20SCHEMATIC.png">19xx - M463 - DOC - 463-02-009 - SUBMA STER MODULE SCHEMATIC.png</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20M463%20-%20DOC%20-%20463-02-009%20-%20SUBMA%20STER%20MODULE%20SCHEMATIC.png.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20M463%20-%20DOC%20-%20463-02-019%20-%20SUBMASTER%20MODULE%20SCHEMATIC.png">19xx - M463 - DOC - 463-02-019 - SUBMASTER MODULE SCHEMATIC.png</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20M463%20-%20DOC%20-%20463-02-019%20-%20SUBMASTER%20MODULE%20SCHEMATIC.png.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20M463%20-%20DOC%20-%20463-02-020%20-%20BYBTEMB%20DALHM%20EHNE.png">19xx - M463 - DOC - 463-02-020 - BYBTEMB DALHM EHNE.png</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20M463%20-%20DOC%20-%20463-02-020%20-%20BYBTEMB%20DALHM%20EHNE.png.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/M463%20-%20P030%20-%20LB463-02-001%2004.jpg">M463 - P030 - LB463-02-001 04.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/M463%20-%20P030%20-%20LB463-02-001%2004.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Sub-assemblies &amp; parts used (6)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What</th>
+<th>Family</th>
+<th>Year</th>
+<th>How we know</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Register-Sub-assemblies-n-nnn.html#4-109">4-109</a></td>
+<td>4-109A / OUTPUT AMPLIFIER / SCHEMATIC</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1976|9</td>
+<td>drawing filed with it</td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Register-Sub-assemblies-n-nnn.html#4-126">4-126</a></td>
+<td>Equalizer Filter Component Assembly</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1972|5</td>
+<td>drawing filed with it</td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Register-Sub-assemblies-n-nnn.html#4-136">4-136</a></td>
+<td>Miish Datl Nov</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td></td>
+<td>drawing filed with it</td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Register-Sub-assemblies-n-nnn.html#4-141">4-141</a></td>
+<td>Summing Amplifier Component Layout</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1974|7</td>
+<td>drawing filed with it</td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Register-Sub-assemblies-n-nnn.html#8-109">8-109</a></td>
+<td>Booster Amplifier Component Layout</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1974|7</td>
+<td>drawing filed with it</td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Register-Sub-assemblies-n-nnn.html#8-103">8-103</a></td>
+<td>LOAD TRANSFER CONTROL / SCHEMATIC</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1979|12</td>
+<td>named in its manual</td>
+</tr>
+</tbody>
+</table>
+<h2>Parts list — board 1974 - M463 - Submaster Module (2) (3 parts)</h2>
+<p><em>From 1974 - M463 - Submaster Module (2).pdf; also in <code>timelines/data/bom.csv</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>Part</th>
+<th>Value</th>
+<th>Manufacturer</th>
+<th>Mfr part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C31</td>
+<td>de lete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C32</td>
+<td>Capacitor</td>
+<td>6.8 uF/ 6 V</td>
+<td>Kelllet</td>
+<td>T3908685MOO6A5</td>
+</tr>
+<tr>
+<td>C33</td>
+<td>del e~e</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Consoles &amp; jobs it is connected to (1)</h2>
+<p><em>Their own drawings name this module.</em></p>
+<table>
+<thead>
+<tr>
+<th>Job</th>
+<th>Year</th>
+<th>Drawing</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Job-76045.html">76045</a></td>
+<td>1976|9</td>
+<td><a href="../../../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%2001-010b.pdf">1976 - 76045 - 01-010b.pdf</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (28)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../viewer.html?f=Products/RTO/RTO-144/19xx%20-%20RTO-144%20-%20Module%20RTO-144%20Jumper%20calculator.xlsx">19xx - RTO-144 - Module RTO-144 Jumper calculator.xlsx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20463-01-009%20-%20MONITOR%20OUTPUT%20DIRECT%20OUTPUT.jpg">1972 - M463J - 463-01-009 - MONITOR OUTPUT DIRECT OUTPUT.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20463-02-009%20-%20NLESS%20OTHERWISE%20SPECIFIED%20COMPONENT%20DESIGNATIONS.jpg">1972 - M463J - 463-02-009 - NLESS OTHERWISE SPECIFIED COMPONENT DESIGNATIONS.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20463-02-009%20-%20NLESS%20OTHERWISE%20SPECIFIED.jpg">1972 - M463J - 463-02-009 - NLESS OTHERWISE SPECIFIED.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20463-04-010%20-%20WHEN%20DEPRESSED%20THE%20POSTFADE%20SIGNA.jpg">1972 - M463J - 463-04-010 - WHEN DEPRESSED THE POSTFADE SIGNA.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20463-06-001%20-%20SUBMASTER%20MODULE%20UNT.jpg">1972 - M463J - 463-06-001 - SUBMASTER MODULE UNT.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20Submaster%20Module%20%282%29.pdf">1972 - M463J - Submaster Module (2).pdf</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20Submaster%20Module.pdf">1972 - M463J - Submaster Module.pdf</a></td>
+<td>17</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20Submaster%20Module.pdf">1972 - M463J - Submaster Module.pdf</a></td>
+<td>19</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20Submaster%20Module.pdf">1972 - M463J - Submaster Module.pdf</a></td>
+<td>20</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20Submaster%20Module.pdf">1972 - M463J - Submaster Module.pdf</a></td>
+<td>21</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20Submaster%20Module.pdf">1972 - M463J - Submaster Module.pdf</a></td>
+<td>23</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463K/1974%20-%20M463K%20-%204-136-06-018%20-%20PIN%20LISSCOD%20ICKD%20USED.jpg">1974 - M463K - 4-136-06-018 - PIN LISSCOD ICKD USED.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463K/1974%20-%20M463K%20-%20P026%20-%204-141%201-1.jpg">1974 - M463K - P026 - 4-141 1-1.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463K/1974%20-%20M463K%20-%20Submaster%20Module%20%282%29.pdf">1974 - M463K - Submaster Module (2).pdf</a></td>
+<td>15</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463K/1974%20-%20M463K%20-%20Submaster%20Module%20%282%29.pdf">1974 - M463K - Submaster Module (2).pdf</a></td>
+<td>26</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463K/1974%20-%20M463K%20-%20Submaster%20Module%20%282%29.pdf">1974 - M463K - Submaster Module (2).pdf</a></td>
+<td>36</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463K/1974%20-%20M463K%20-%20Submaster%20Module%20%282%29.pdf">1974 - M463K - Submaster Module (2).pdf</a></td>
+<td>45</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463L/1974%20-%20M463L%20-%204-136-06-019%20-%20JIS%20JII.jpg">1974 - M463L - 4-136-06-019 - JIS JII.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463L/1974%20-%20M463L%20-%20P029%20-%204-141%201-1.jpg">1974 - M463L - P029 - 4-141 1-1.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463L/1974%20-%20M463L%20-%20Submaster%20Module%20%282%29.pdf">1974 - M463L - Submaster Module (2).pdf</a></td>
+<td>29</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463L/1974%20-%20M463L%20-%20Submaster%20Module.pdf">1974 - M463L - Submaster Module.pdf</a></td>
+<td>40</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463L/1974%20-%20M463L%20-%20Submaster%20Module.pdf">1974 - M463L - Submaster Module.pdf</a></td>
+<td>49</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463LA/1974%20-%20M463LA%20-%204-136-06-023%20-%20PIN%20ULCL%20WES%20WACO-D.jpg">1974 - M463LA - 4-136-06-023 - PIN ULCL WES WACO-D.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463LA/1974%20-%20M463LA%20-%20P034%20-%204-141%201-1.jpg">1974 - M463LA - P034 - 4-141 1-1.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463LA/1974%20-%20M463LA%20-%20Submaster%20Module%20%282%29.pdf">1974 - M463LA - Submaster Module (2).pdf</a></td>
+<td>34</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463AC/1986%20-%20M463AC%20-%20463-02-020%20-%20MASTER%20MODULE%20SCHEMATIC%20FONU.jpg">1986 - M463AC - 463-02-020 - MASTER MODULE SCHEMATIC FONU.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463AC/1986%20-%20M463AC%20-%20Master%20Module%20%282%29.pdf">1986 - M463AC - Master Module (2).pdf</a></td>
+<td>24</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="../../../PAGES/Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>General description (1)</h3>
+<details><summary>Description — 353 words · 1972 - M463 - P004 - 2-1.jpg, page 1</summary><p>M463 SUBMASTER_MODULE The M463 is combination SUBMASTER/EQUALIZER modu le, des igned accept combined or mixed feeds from previously a5s igned mixing channe] inputs As may be required the unit Processes the mixed signa ) , equa]izes it and routes to the appropriate points within the conso]e system. 0 , 6 F8 19j9b MJb;#bnid 0ng LinJUp Input andSumming_Amplifier Tctjro) 9j3,2 /.Jr The signa ] originating from the externa| mixing network is Hj : &quot; app]ied to the edge connector P1 Pins and and subsequently connects to the summing current nodes 0 f the 4-141 umming am- plifier To facilitate module testing, direct input i$ provided on P1 , pins and 697 0s_ 3*1 7J9 J €Jn 70 WTstzcq EQUALIZER_Section 40F e 0| (TnZ %#o Jv{J 39t The output of the 4-141 {cmmin?</p><p>amplifier is routed to one 0 f the norma ]y closed contacts the EQUALIZER INSERT switch Sw13 to a 1 ]ow bypassing_ 0 f the equa]izer Additionally, the 4-141 output is fed to 21 , the first 0 f four cascaded umming amplifiers 21 through 24 . n #C 21 through 24 serve as ~mixingoput and isolation amp]ifiers They are used to mix the Primary gna with correction s igna ] derived from the outputs 0 f the 4-126 filter networks resulting in raising or lowering the Tevel selected portions o f the audio spectrum AdditionaTy_ they isolate the filter networks from each other and prevent interaction between them, resulting in accurate and repeatable equalizing performance_ The Cut/boost controls R2] R22 and R23 feed an in-phase or out-of - Proportiona] signa to the buffer amp]ifiers 25 , 26 and ZbasesPecteveis The level 0f the s igna ] fed to the buffers dependent on the CUt/boost contro] setting with maximum Teve occurring at either end of the Potentiometer and nu]1 setting at the potentiometer mid-position.</p><p>Ful] clock- wise or full counter clockwise Potentiometer settings wil result in the maximum equalization 0 f +15 dB and -15 dB respect- ively 6n@[ 2 Jn 2$&#x27; ; ; [ Fo-q8j noijiofrkb J06 92 [0n Vo ( Jn ; 70 ! e J (rL Ta; 2 -1</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20P004%20-%202-1.jpg">1972 - M463 - P004 - 2-1.jpg</a>, p. 1</li>
+</ul>
+<h3>Circuit description (1)</h3>
+<details><summary>Circuit Description — 1590 words · 1974 - M463 - Submaster Module (2).pdf, page 5</summary><p>&quot;463     SUBMASTER MOO ULE</p><p>The outputs of buffe r IlIplffiers 25 , 26 and 28 a re routed to    the 4-126 pri nted circuit baird whf ch contains three bandpass    filte rs c o rr es pondi ng to uch of t he t hree sections of the    equal her. Eac h bandpus fil ter passe s o nly I portion of t he    slgnl l delive r ed to ft f r o~ the buffer , with the cente r    frequency and band width deter.fned by t he FREQUEN CY, -Q- and    PEAK/SHElF con trols.    HIGH FREQUENCY e qual f zat f on is cont fnu ous l y I dj us t l ble f r a il    1 . 6 t o 25 kHz and Is c o ntro l led by Rl/R 2 . R21 dete r _ines th e    aacu n t of CUT o r BOO ST. A t otal range frO Il - 15 to +15 dB 15    prov ide d . Vittl SWll de pr es se d t he unit w111 pr od uce a hi gh    f re q ue ncy SHELVI NG Cha rac te ris ti c . When SW l l i s r e l e ase d , both    pos it iv e or negat h e PEAKING ca n be obt a1ne d. The Q co nt r o l RJ    is effe c the only with SWll i n t he PEAKING mode a nd cov e r s a    Q-fac t o r r a nge of 2 ~ o 10 .    Ttle MID FREQUENCY e q ue t t ze t t en is a dj us t e d by R4/R 5 . c ove r i ng    a f r equenc y range f r oll O. 4 to 6 . 4 kHz. CUT/B OOST is co ntro ll e d    by R22. R6 adjus t s the Q-hcto r. s es t t tve or negathe bell -    sh ap e d PEAK ING equa lfzation i s applica bl e i n the a i d f re que ncy    ra nge.    The LOW FREQUENCY equalf zatlon ope r a t e s s i aUa r ty t o the hig h    f req uen cy s ect ion. R1/R8 Idj usts t he fr e q uenc y ra nge f ro a 25    to 400 Hz . CUT o r 800S T are contro ll e d by R23, Q by R9 and    SW12 dete rllines the c ho fce of efther SHElVING or PEAt:IfiI G    chlra cteristics.    The three sig nals which lu ve the 4- 126 f i lter are &quot;ce r-rect t e a    sfgnals- e it her i n-phase or 180 degreu evr-e e-snase with th e    equllfz e r t n put and bl ndpas s l i .t ted as dete r ained by the    equalf zer sectfo n a nd control s etti ngs. Thes e - c o r r e c tfo n    s 1gna ls - are t he n sUlilied t o ge t he r wit h t he pr t a ary (Inpu t)    s l gnl l by t he o per ati o nal u pl i ft er s n, Z2 Ind Z4 thu s f o r _lng    the eq ul ltzed output s fg nal.                                                                                      a</p><p>TIlts co ncept o f I dd fng a co r rection s 1gna l togethe r wft h th e                                                                                   .c</p><p>In c o_i ng signal t o for .. t he eq ua li ze d s i gnal is di r ect l y                                                                                ps</p><p>res po ns i b le f or t he lo w nofse a nd dtsto r tio n ca pabil it i es of                                                                           BS</p><p>t his unit.                                                                          W                                                                        ://                                                                     tp                                                                   ht</p><p>WAR O- SECK SYST EMS LTO .</p><p>CIRCUIT DESCRI PTION                                   &quot; 46 3 SU8MASTE R MOO ULE</p><p>The cOlllpound signal as ge ne ra te d a long th e e nt i re processing       chaln a ppe ars a t t he output of Z4. Fro . he r e it is routed to       one of t he no r .all y open conta c ts of t he EQUALIZER I HSERT       switch SV13 .       Thus , with SV13 dep r esse d, the eq ual l ze d si gna l i s fed t o t he       o utp ut a.pl if1e r 8 - l 09A . In a dd i t ion , as SV13 is dep r es sed,       t he LED i ndic a to r is activated.       8 - l 09A Output Alll pl i ff e r and I NSERT       Tile 8- 109 A upl ifhr r aises the s 1gna l to -10 d81ll nomlnally.       TIle o ut put is acthely balanc ed Ind fed to the &quot; i ns e r t poln t &quot;       at p1n s 22 I nd Z of module conn ector PI. Tilts point is usually       co nnec t e d to a &#x27; no r ma l led&#x27; set of insert jacks , with t he       o ut put s 1de con nected to til e subma ste r fader.</p><p>The o ut put o f the balanc ed fad er 15 returned to t he 1I0 dule o n       p l ns 14 a nd R of PI. Thl teed f or t he PREFADE REVER8ERATION       SENO ( RS ) , th e PREfADE FOLDSAC K ( f 8) and t he PREfAOE PU811 C       ADDRESS ( PAl c hann els 15 bro u9ht out at PI , pi ns 20 Ind X a nd       origi nates nor lllllll y fr oe t he in pu t s t ee of th e fll.de r .</p><p>An uternal slate lnp ut is provided a t co nne c t o r P2 , pins 8       ud J. TIle s hte signll l ls i njecte d fn place of ti le r e guh r       signa l whe n r ehy Kl is llctivued. Tri . pot RI42 serves to       cllltbrate t he shte teve t .        8- 10if 800sterAliplifier       Thls a. plf fi e r ope r a t e s with I 9a1n of 33 d8. It reco vers t ile       IS d8 ~1 n-ha nd · l oss incurred by the fll.de r llnd prov ides       addft1o na1 9a 1n t o pr od uce a nOlllinll level of +8 dBIl llt its                                                                                        a</p><p>outp ut .                                                                                     .c                                                                                 ps                                                                            BS                                                                           W                                                                        ://                                                                      tp                                                                    ht</p><p>I&#x27;                                            2-3</p><p>WA R D - B E C K S Y STE M S LTD</p><p>,. 46 3 SU8MASTER MO DULE</p><p>OIRECT Output   A DIRECT output f rom th e 8-I09F alllplf f h r is pro vi de d a t   conne ctor P2 . pins 12 lind N. Asi de from other uses within a   give n c o ns o l e system , the DIRECT output feeds the sub llaster   VU me te r and s e rv es as the take off point for monitoring .   Maste r Outp ut s a nd PAN Cont rol   Two l e ft a nd two right outputs a r e a lso bei ng fed by t he </p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%20Submaster%20Module%20%282%29.pdf">1974 - M463 - Submaster Module (2).pdf</a>, p. 5</li>
+</ul>
+<h3>Maintenance &amp; alignment (1)</h3>
+<details><summary>Adjustment — 300 words · 1972 - M463 - 463-04-020 - WHEN DEPRESSED THIS SWITCH INSERTS THE EQUALIZER SECTION.jpg, page 1</summary><p>contro| RI/2 Cont nuous variable from 1.6 to 25 kHz . the PEAKING mode the frequency calibration refers to che center frequency of the be | I- shaped PEAK | NG response curve In the SHELVING mode the calibration defines the dB corner point from the max mum ava lable SHELVING BoOST or cut 0 f 15 dB . RS RS PRE PST High FREQUENCY sect ion, MODE SELECTOR Swi - tch Sw: When depressed, the HF section of the equalizer in the SHELVING mode . When re leased, the Pperates mode selected. 64412.8 MID FREQUENCY section, FREQUENCY</p><p>controi R4 /5: Cont nuous variable from 0.4 to 6.4 kHz . The calibration refers to the center frequency of the be | [- shaped PEAKING response curve 10 ~CkHz LOw FREQUENCY section, FREQUENCY</p><p>controi R7/8 Continuous variable from 25 to 400 Hz. the PEAK ING mode, the frequency calibration refers to the center frequency of the be | I- shaped PEAK ING response curve In the SHELVING mode; the calibration defines the dB corner Poie nt from the max imum ava i lable SHELVING BOOST or CUT of 15 dB . MF 10 Q € kHz LOw FREQUENCY sect ion, MODE SELECTOR Sw i tch Swi2: When depressed, the LF section of the equa izer operates in the SHELVING mode When re leased, the PEAK |NG mode selected J00.200 300 10 0 € Hz EQUAL IZER  INSERT swi Ech SW13: When depressed, this switch inserts the EQUALIZER section intothe signa [path and act vates assoc iated LED. When released, the unequal ized nput signa | is bypassed directly to the 1094 output amp ifier. PAN switch SWIl: When depressed, enables PAN control. PAN SOLO switch Sw16: When depressed_ the signa fol lowing the sub-master fader TS fed to the SOLO output</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20463-04-020%20-%20WHEN%20DEPRESSED%20THIS%20SWITCH%20INSERTS%20THE%20EQUALIZER%20SECTION.jpg">1972 - M463 - 463-04-020 - WHEN DEPRESSED THIS SWITCH INSERTS THE EQUALIZER SECTION.jpg</a>, p. 1</li>
+</ul>
+<h3>Parts list (text) (1)</h3>
+<details><summary>Parts List — 754 words · 1974 - M463 - Submaster Module (2).pdf, page 12</summary><p>&quot;&quot;63    SU8MASTER MODULE</p><p>PART     DESCRIPTIOH                         M&quot;             MFG PART NUMBER                                                      xeee t         &quot;&quot;         0                  Capl ~ lt or    33 uF/lO &#x27;f                                  220 pF                                  3.9 pF                                                      Ph!l1ps                                                                     TJ90 D336M010A5                                                                     2222-630-032 21                                                                     2222 -638-09398                                  220 pF                             2222 -630 -03221         &quot;cs                      3.9 pF                             2222 -638-09398</p><p>&quot;         C7         C8                                  1 50 uf / 6 &#x27;f                                  33 uF/lO V                                  220 pF                                                      Ke.et                                                      Ph !1ips                                                                     T390E15 7M006A5                                                                     T3900336/11010A5                                                                     2222-6 30 -032 21         CO                       3.9 pF                             2222-638-0939 8         &quot;a                       220 pF                             2222 -630-03221</p><p>&#x27;&quot;         Cl2         Cl3                                  3. 9 pF                                  6. 8 ~F / 6 &#x27;f      Ke.et                                                                     2222-638-09398                                                                     T39086~5M0 06A5</p><p>&quot;.         C15                  ca p a~ H o r   33 00 pF                                  15 pF                                                      Aselco                                                      Phll ips                                                                     CQ92-KC-332M                                                                     2222-638-10 159         Cl6                      6.8 ~F /6 V         Ke ~et         T39086 ~5M006A5         en         C18                      15 pF               Philips        2222-638-10 159         &quot;,         &quot;a       delete                                  6.8uF /6 V          KelJet         T3908685/11006A5</p><p>C21          C2Z          caa     Clpa~1tor       6.8 ~F /6 V             xeeet      T39086~5HOO6A5          C24          C25                     1500 pF             Ase 1co        CQ92-MC-152M</p><p>C26                     15 pF               Phili ps       2222-638-10159          C27                     6.8 uF/6 V              Ke~ et     T3908685M 006A5          C28                     150 uF/6 V                         T390E157M006A5          cas                     6. 8 ~F /6 V                       T390 86~5 J1110 06A5          oa                                                                                               a                                                                                            .c</p><p>C31     de lete                                                                                      ps</p><p>C32     Capacitor       6.8 uF/ 6 V             Kelllet    T3908685MOO6A5                                                                                BS</p><p>C33     del e~e          O.                                                                               W</p><p>0&#x27;      Capac ito r     22 uF/ 2 5 V            s teeens   B4131 3-A- 5226 - Z                                                                            ://                                                                         tp                                                                       ht</p><p>I-                                                &#x27;- I</p><p>W A R D - B E C K S V .TEMS LT D .</p><p>illll...!:..!ll                               1&#x27;1463 SUBMASTER MODULE</p><p>PART</p><p>K46 3      SUIlHASTER MODULE</p><p>PART</p><p>&#x27;81             OESCRIPTION</p><p>Res l : t or %11 51                                                ...          KFG PART NUMBER</p><p>R82    R83      delete                                   &#x27;&quot;                                   15K                                                Ph!11 PS</p><p>R8.      Resl:to r %11 51      390    R8&#x27;                            390    &#x27;86    &#x27;87    &#x27;88                            &#x27;&quot;                                   390                                   1Kl    &#x27;88    090                                   1Kl                                   390    &#x27; 91                           15K    092                            15K    093                            15K    09.                            15K</p><p>&#x27;&quot;                             15K</p><p>15K    &#x27;&quot;    097    &#x27;98                                   15K                                   15K</p><p>&#x27;&quot;    RIO O                                   15K                                   15K    RIOl                           15K    R1D2                           15K    R10 3                          15K    R1D4                           15K    R1D5                           15K    RI06                           15K    RI07     d e le ~e    RI 0 8             Resis to r !:ill 51    RI 09    RllO     de le te              &#x27;&quot;                                                                              a                                                                           .c</p><p>R111     Ilesi:to r !:III 51   10K                                                                        ps</p><p>RJ12                           10K                                                                     BS</p><p>R113                           10K    R114                           10K                                                                    W</p><p>R11S                                   &#x27;&quot;                                                                  ://     </p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%20Submaster%20Module%20%282%29.pdf">1974 - M463 - Submaster Module (2).pdf</a>, p. 12</li>
+</ul>
+<h2>Drawings (137)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Drawn by</a></th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>—</td>
+<td>Waad-Beck Zabm</td>
+<td><a href="../../../PAGES/Year-1974.html">1974|7</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20WAAD-BECK%20ZABM.jpg">file</a></td>
+</tr>
+<tr>
+<td>4-126-06-001</td>
+<td>Modiickd Used</td>
+<td><a href="../../../PAGES/Year-1974.html">1974|7</a></td>
+<td><a href="../../../PAGES/Person-DM.html">DM</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%204-126-06-001%20-%20MODIICKD%20USED.jpg">file</a></td>
+</tr>
+<tr>
+<td>4-141-02-001</td>
+<td>Tory Selected Ial Value</td>
+<td><a href="../../../PAGES/Year-1974.html">1974|7</a></td>
+<td><a href="../../../PAGES/Person-DM.html">DM</a></td>
+<td></td>
+<td>S</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%204-141-02-001%20-%20TORY%20SELECTED%20IAL%20VALUE.jpg">file</a></td>
+</tr>
+<tr>
+<td>4-141-02-001</td>
+<td>Eft Isee</td>
+<td><a href="../../../PAGES/Year-1974.html">1974|7</a></td>
+<td><a href="../../../PAGES/Person-OM.html">OM</a></td>
+<td></td>
+<td>7</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%20Submaster%20Module%20%282%29.pdf">file</a> p.50</td>
+</tr>
+<tr>
+<td>4-141-02-001</td>
+<td>Cii See Isk</td>
+<td><a href="../../../PAGES/Year-1974.html">1974|7</a></td>
+<td><a href="../../../PAGES/Person-DM.html">DM</a></td>
+<td><a href="../../../PAGES/Person-RO.html">RO</a></td>
+<td>S</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%20Submaster%20Module.pdf">file</a> p.50</td>
+</tr>
+<tr>
+<td>4-141-06-001</td>
+<td>Summing Amplifier</td>
+<td><a href="../../../PAGES/Year-1974.html">1974|7</a></td>
+<td><a href="../../../PAGES/Person-DM.html">DM</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%204-141-06-001%20-%20SUMMING%20AMPLIFIER.jpg">file</a></td>
+</tr>
+<tr>
+<td>4-141-06-001</td>
+<td>Summing Amplifier Component Layout</td>
+<td><a href="../../../PAGES/Year-1974.html">1974|7</a></td>
+<td></td>
+<td>XA</td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%20Submaster%20Module.pdf">file</a> p.52</td>
+</tr>
+<tr>
+<td>463-02-007</td>
+<td>Solo Control Control</td>
+<td><a href="../../../PAGES/Year-1974.html">1974|7</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%20463-02-007%20-%20SOLO%20CONTROL%20CONTROL.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 4-126-06-001</td>
+<td>4-126 / EQUALIZER FILTER / COMPONENT ASSEMBLY</td>
+<td><a href="../../../PAGES/Year-1974.html">1974|7</a></td>
+<td><a href="../../../PAGES/Person-DM.html">DM</a></td>
+<td><a href="../../../PAGES/Person-RM.html">RM</a></td>
+<td>2</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%204-126-06-001%20-%204-126%20EQUALIZER%20FILTER%20COMPONENT%20ASSEMBLY%20-%20DRN%20DM%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 4-141-02-001</td>
+<td>4-141 SUMMING AMPLIFIER / SCHEMATIC</td>
+<td><a href="../../../PAGES/Year-1974.html">1974|7</a></td>
+<td><a href="../../../PAGES/Person-DM.html">DM</a></td>
+<td></td>
+<td>7</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%204-141-02-001%20-%204-141%20SUMMING%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%207.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 463-02-</td>
+<td>SUB-MASTER / SCHEMATIC</td>
+<td><a href="../../../PAGES/Year-1974.html">1974|7</a></td>
+<td><a href="../../../PAGES/Person-DM.html">DM</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20LB%20463-02%20-%20SUB-MASTER%20SCHEMATIC%20-%20DRN%20DM.jpg">file</a></td>
+</tr>
+<tr>
+<td>4-126-02-001</td>
+<td>Equalizer Filter</td>
+<td><a href="../../../PAGES/Year-1976.html">1976|9</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%20M463%20-%204-126-02-001%20-%20EQUALIZER%20FILTER.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-04-008</td>
+<td>Sub Master Module Assembly</td>
+<td><a href="../../../PAGES/Year-1976.html">1976|9</a></td>
+<td>MNG</td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%20463-04-008%20-%20SUB%20MASTER%20MODULE%20ASSEMBLY%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 4-109-02-004</td>
+<td>4-109C / BOOSTER AMPLIFIER / SCHEMATIC</td>
+<td><a href="../../../PAGES/Year-1976.html">1976|9</a></td>
+<td><a href="../../../PAGES/Person-PWC.html">PWC</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%204-109-02-004%20-%204-109C%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20PWC%20-%20ISS%202.png">file</a></td>
+</tr>
+<tr>
+<td>B 4-126-02-001</td>
+<td>4-126 / EQUALIZER FILTER / AMPLIFIER SCHEMATIC</td>
+<td><a href="../../../PAGES/Year-1976.html">1976|9</a></td>
+<td><a href="../../../PAGES/Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>4</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%204-126-02-001%20-%204-126%20EQUALIZER%20FILTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%204.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 463-02-004</td>
+<td>M463-D / SUB-MASTER MODULE</td>
+<td><a href="../../../PAGES/Year-1976.html">1976|9</a></td>
+<td><a href="../../../PAGES/Person-AF.html">AF</a></td>
+<td><a href="../../../PAGES/Person-TC.html">TC</a></td>
+<td>2</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%20463-02-004%20-%20D%20SUB-MASTER%20MODULE%20-%20DRN%20AF%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 463-02-005</td>
+<td>M463-E / SUB-MASTER MODULE</td>
+<td><a href="../../../PAGES/Year-1976.html">1976|9</a></td>
+<td><a href="../../../PAGES/Person-AF.html">AF</a></td>
+<td><a href="../../../PAGES/Person-TC.html">TC</a></td>
+<td>2</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%20463-02-005%20-%20E%20SUB-MASTER%20MODULE%20-%20DRN%20AF%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 463-02-006</td>
+<td>M463-F / SUB-MASTER MODULE</td>
+<td><a href="../../../PAGES/Year-1976.html">1976|9</a></td>
+<td><a href="../../../PAGES/Person-AF.html">AF</a></td>
+<td><a href="../../../PAGES/Person-TC.html">TC</a></td>
+<td>2</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%20463-02-006%20-%20F%20SUB-MASTER%20MODULE%20-%20DRN%20AF%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>C 463-04-008</td>
+<td>M463M / SUB MASTER MODULE ASSEMBLY (LAYOUT)</td>
+<td><a href="../../../PAGES/Year-1976.html">1976|9</a></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%20463-04-008%20-%20M463M%20SUB%20MASTER%20MODULE%20ASSEMBLY%20%28LAYOUT%29%20-%20DRN%20MING%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>D 463-02-007</td>
+<td>M463M / SUBMASTER (SUMMING struck) MODULE / SCHEMATIC</td>
+<td><a href="../../../PAGES/Year-1976.html">1976|9</a></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1976%20-%20463-02-007%20-%20M463M%20SUBMASTER%20%28SUMMING%20struck%29%20MODULE%20SCHEMATIC%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-01-001</td>
+<td>Ysolo Control Solo Common Control</td>
+<td><a href="../../../PAGES/Year-1977.html">1977|10</a></td>
+<td><a href="../../../PAGES/Person-PKM.html">PKM</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1977%20-%20M463%20-%20463-01-001%20-%20YSOLO%20CONTROL%20SOLO%20COMMON%20CONTROL.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-01-001</td>
+<td>Solo Solo</td>
+<td><a href="../../../PAGES/Year-1977.html">1977|10</a></td>
+<td><a href="../../../PAGES/Person-PKM.html">PKM</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%20Submaster%20Module%20%282%29.pdf">file</a> p.31</td>
+</tr>
+<tr>
+<td>463-01-003</td>
+<td>Waad-Beck Bystems</td>
+<td><a href="../../../PAGES/Year-1977.html">1977|10</a></td>
+<td><a href="../../../PAGES/Person-PKM.html">PKM</a></td>
+<td>RUY</td>
+<td>2</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463B/1972%20-%20M463B%20-%20463-01-003%20-%20WAAD-BECK%20BYSTEMS.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-04-007</td>
+<td>Connector Rear View</td>
+<td><a href="../../../PAGES/Year-1977.html">1977|10</a></td>
+<td>TEY</td>
+<td></td>
+<td>3</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463B/1972%20-%20M463B%20-%20463-04-007%20-%20CONNECTOR%20REAR%20VIEW.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 463-01-001</td>
+<td>SUBMASTER MODULE / FUNCTIONAL DIAGRAM</td>
+<td><a href="../../../PAGES/Year-1977.html">1977|10</a></td>
+<td><a href="../../../PAGES/Person-PKM.html">PKM</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1977%20-%20463-01-001%20-%20SUBMASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20PKM%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 463-01-003</td>
+<td>M463B / SUBMASTER MODULE / FUNCTIONAL DIAGRAM</td>
+<td><a href="../../../PAGES/Year-1977.html">1977|10</a></td>
+<td><a href="../../../PAGES/Person-PKM.html">PKM</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1977%20-%20463-01-003%20-%20M463B%20SUBMASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20PKM%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-04-009</td>
+<td>Connector Rear View</td>
+<td><a href="../../../PAGES/Year-1978.html">1978|11</a></td>
+<td></td>
+<td><a href="../../../PAGES/Person-UL.html">UL</a></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463AC/1986%20-%20M463AC%20-%20463-04-009%20-%20CONNECTOR%20REAR%20VIEW.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 463-06-001</td>
+<td>M463J / SUBMASTER MODULE / COMPONENT LAYOUT</td>
+<td><a href="../../../PAGES/Year-1978.html">1978|11</a></td>
+<td><a href="../../../PAGES/Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1978%20-%20463-06-001%20-%20M463J%20SUBMASTER%20MODULE%20COMPONENT%20LAYOUT%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 8-109-02-002</td>
+<td>8-109A OUTPUT AMPLIFIER / SCHEMATIC</td>
+<td><a href="../../../PAGES/Year-1978.html">1978|11</a></td>
+<td><a href="../../../PAGES/Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="../../../PAGES/Person-RNL.html">RNL</a></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1978%20-%208-109-02-002%20-%208-109A%20OUTPUT%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 8-109-02-007</td>
+<td>8-109F BOOSTER AMPLIFIER / SCHEMATIC</td>
+<td><a href="../../../PAGES/Year-1978.html">1978|11</a></td>
+<td><a href="../../../PAGES/Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="../../../PAGES/Person-RNL.html">RNL</a></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1978%20-%208-109-02-007%20-%208-109F%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 463-01-010</td>
+<td>SUBMASTER MODULE / FUNCTIONAL DIAGRAM</td>
+<td><a href="../../../PAGES/Year-1979.html">1979|12</a></td>
+<td><a href="../../../PAGES/Person-PKM.html">PKM</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1979%20-%20463-01-010%20-%20SUBMASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20PKM%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 463-01-011</td>
+<td>M463L / SUBMASTER MODULE / FUNCTIONAL DIAGRAM</td>
+<td><a href="../../../PAGES/Year-1980.html">1980|13</a></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1980%20-%20463-01-011%20-%20M463L%20SUBMASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20VINCE%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 463-01-016</td>
+<td>SUBMASTER MODULE / FUNCTIONAL DIAGRAM</td>
+<td><a href="../../../PAGES/Year-1980.html">1980|13</a></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1980%20-%20463-01-016%20-%20SUBMASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20VINCE%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 463-02-015</td>
+<td>M463R / MASTER MODULE / SCHEMATIC</td>
+<td><a href="../../../PAGES/Year-1982.html">1982|15</a></td>
+<td><a href="../../../PAGES/Person-JP.html">JP</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1982%20-%20463-02-015%20-%20M463R%20MASTER%20MODULE%20SCHEMATIC%20-%20DRN%20JP%20-%20ENG%20ELJ.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Dan Revtston</td>
+<td></td>
+<td><a href="../../../PAGES/Person-GEL.html">GEL</a></td>
+<td></td>
+<td>T</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%20Submaster%20Module%20%282%29.pdf">file</a> p.42</td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/M463%20-%20P030%20-%20LB463-02-001%2004.jpg">file</a></td>
+</tr>
+<tr>
+<td>126-02-001</td>
+<td>Amplif Ier Schematic</td>
+<td></td>
+<td></td>
+<td>SE</td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%20Submaster%20Module%20%282%29.pdf">file</a> p.54</td>
+</tr>
+<tr>
+<td>4-126-02-001</td>
+<td>Iok Combined Combined Value Value</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%204-126-02-001%20-%20IOK%20COMBINED%20COMBINED%20VALUE%20VALUE.jpg">file</a></td>
+</tr>
+<tr>
+<td>4-126-06-001</td>
+<td>Cto Lmzoin</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%204-126-06-001%20-%20CTO%20LMZOIN.jpg">file</a></td>
+</tr>
+<tr>
+<td>4-136-06-010</td>
+<td>Pin Eslolickd Usdoj Iti Abxepkm</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%204-136-06-010%20-%20PIN%20ESLOLICKD%20USDOJ%20ITI%20ABXEPKM.jpg">file</a></td>
+</tr>
+<tr>
+<td>4-141-02-001</td>
+<td>Czo Levelcal</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%204-141-02-001%20-%20CZO%20LEVELCAL.jpg">file</a></td>
+</tr>
+<tr>
+<td>4-141-06-001</td>
+<td>Are Factory Selected</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%204-141-06-001%20-%20ARE%20FACTORY%20SELECTED.jpg">file</a></td>
+</tr>
+<tr>
+<td>4136-06-010</td>
+<td>Component Nqtes Legend Connector Pin Mounted</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%204136-06-010%20-%20COMPONENT%20NQTES%20LEGEND%20CONNECTOR%20PIN%20MOUNTED.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-01-001</td>
+<td>Insert Insert Jacks Fader</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20463-01-001%20-%20INSERT%20INSERT%20JACKS%20FADER.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-01-001</td>
+<td>Control Solo Solo Control Common Solo</td>
+<td></td>
+<td><a href="../../../PAGES/Person-PKM.html">PKM</a></td>
+<td><a href="../../../PAGES/Person-ROP.html">ROP</a></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%20Submaster%20Module.pdf">file</a> p.31</td>
+</tr>
+<tr>
+<td>463-01-009</td>
+<td>Monitor Output Direct Output</td>
+<td></td>
+<td><a href="../../../PAGES/Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20463-01-009%20-%20MONITOR%20OUTPUT%20DIRECT%20OUTPUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-01-009</td>
+<td>Fre Taoc Input Pan Insert Fader</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20463-01-009%20-%20FRE%20TAOC%20INPUT%20PAN%20INSERT%20FADER.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-01-009</td>
+<td>Solo Solo Control Common Pre</td>
+<td></td>
+<td><a href="../../../PAGES/Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20Submaster%20Module.pdf">file</a> p.19</td>
+</tr>
+<tr>
+<td>463-01-010</td>
+<td>Zsolo Control Solo Common Control</td>
+<td></td>
+<td><a href="../../../PAGES/Person-PKM.html">PKM</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463K/1974%20-%20M463K%20-%20463-01-010%20-%20ZSOLO%20CONTROL%20SOLO%20COMMON%20CONTROL.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-01-010</td>
+<td>Insert Sub Insert Jacks Fader</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463K/1974%20-%20M463K%20-%20463-01-010%20-%20INSERT%20SUB%20INSERT%20JACKS%20FADER.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-01-010</td>
+<td>Control Asolo Solo Control Common Solo Control</td>
+<td></td>
+<td><a href="../../../PAGES/Person-PKM.html">PKM</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463K/1974%20-%20M463K%20-%20Submaster%20Module.pdf">file</a> p.38</td>
+</tr>
+<tr>
+<td>463-01-011</td>
+<td>Insert Insert Jacks Fader</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463L/1974%20-%20M463L%20-%20463-01-011%20-%20INSERT%20INSERT%20JACKS%20FADER.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-01-011</td>
+<td>Control Solo Solo Control Solo Common Control</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463L/1974%20-%20M463L%20-%20463-01-011%20-%20CONTROL%20SOLO%20SOLO%20CONTROL%20SOLO%20COMMON%20CONTROL.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-01-011</td>
+<td>Submaster Module</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463L/1974%20-%20M463L%20-%20Submaster%20Module%20%282%29.pdf">file</a> p.42</td>
+</tr>
+<tr>
+<td>463-01-011</td>
+<td>Control Ysolo Solo Control Common Solo Control</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463L/1974%20-%20M463L%20-%20Submaster%20Module.pdf">file</a> p.42</td>
+</tr>
+<tr>
+<td>463-01-016</td>
+<td>Control Solo Solo Control Solo Common Control</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463LA/1974%20-%20M463LA%20-%20463-01-016%20-%20CONTROL%20SOLO%20SOLO%20CONTROL%20SOLO%20COMMON%20CONTROL.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-01-016</td>
+<td>Insert Insert Jacks Fader</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463LA/1974%20-%20M463LA%20-%20463-01-016%20-%20INSERT%20INSERT%20JACKS%20FADER.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-01-019</td>
+<td>Onitor Jutput Irect Output</td>
+<td></td>
+<td><a href="../../../PAGES/Person-HH.html">HH</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463AB/1986%20-%20M463AB%20-%20463-01-019%20-%20ONITOR%20JUTPUT%20IRECT%20OUTPUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-01-019</td>
+<td>Pre Fade Input Pan Insert Fader</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463AB/1986%20-%20M463AB%20-%20463-01-019%20-%20PRE%20FADE%20INPUT%20PAN%20INSERT%20FADER.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-01-019</td>
+<td>Monitor Output Direct Output</td>
+<td></td>
+<td><a href="../../../PAGES/Person-HH.html">HH</a></td>
+<td><a href="../../../PAGES/Person-APR.html">APR</a></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463AB/1986%20-%20M463AB%20-%20Submaster%20Module.pdf">file</a> p.20</td>
+</tr>
+<tr>
+<td>463-01-020</td>
+<td>Input Fader</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463AC/1986%20-%20M463AC%20-%20463-01-020%20-%20INPUT%20FADER.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-01-020</td>
+<td>Master Module</td>
+<td></td>
+<td></td>
+<td></td>
+<td>B</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463AC/1986%20-%20M463AC%20-%20463-01-020%20-%20MASTER%20MODULE.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-01-020</td>
+<td>Solo Solo Control Common Re/Post</td>
+<td></td>
+<td></td>
+<td><a href="../../../PAGES/Person-APR.html">APR</a></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463AC/1986%20-%20M463AC%20-%20Master%20Module.pdf">file</a> p.20</td>
+</tr>
+<tr>
+<td>463-02-001</td>
+<td>Sub Master Module</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20463-02-001%20-%20SUB%20MASTER%20MODULE.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-02-003</td>
+<td>Hhi Hhi</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463B/1972%20-%20M463B%20-%20463-02-003%20-%20HHI%20HHI.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-02-007</td>
+<td>Ujijless Otherwise Epecified Solo Control Control</td>
+<td></td>
+<td></td>
+<td>SUR</td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%20463-02-007%20-%20UJIJLESS%20OTHERWISE%20EPECIFIED%20SOLO%20CONTROL%20CONTROL.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-02-007</td>
+<td>Note All Resistors</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%20463-02-007%20-%20NOTE%20ALL%20RESISTORS.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-02-007</td>
+<td>Direct Output</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%20463-02-007%20-%20DIRECT%20OUTPUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-02-007</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%20463-02-007%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-02-007</td>
+<td>Sum Ampl</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%20463-02-007%20-%20SUM%20AMPL.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-02-007</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%20463-02-007.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-02-009</td>
+<td>Nless Otherwise Specified</td>
+<td></td>
+<td><a href="../../../PAGES/Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="../../../PAGES/Person-RA.html">RA</a></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20463-02-009%20-%20NLESS%20OTHERWISE%20SPECIFIED.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-02-009</td>
+<td>Nless Otherwise Specified Component Designations</td>
+<td></td>
+<td><a href="../../../PAGES/Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20463-02-009%20-%20NLESS%20OTHERWISE%20SPECIFIED%20COMPONENT%20DESIGNATIONS.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-02-009</td>
+<td>Subma Ster Module Schematic</td>
+<td></td>
+<td><a href="../../../PAGES/Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20M463%20-%20DOC%20-%20463-02-009%20-%20SUBMA%20STER%20MODULE%20SCHEMATIC.png">file</a></td>
+</tr>
+<tr>
+<td>463-02-010</td>
+<td>Sub Master Module Eko</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463K/1974%20-%20M463K%20-%20463-02-010%20-%20SUB%20MASTER%20MODULE%20EKO.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-02-011</td>
+<td>Ate Belli Sub</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463L/1974%20-%20M463L%20-%20463-02-011%20-%20ATE%20BELLI%20SUB.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-02-016</td>
+<td>Sub-Master Module Cok Rom Schematic</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463LA/1974%20-%20M463LA%20-%20463-02-016%20-%20SUB-MASTER%20MODULE%20COK%20ROM%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-02-019</td>
+<td>Lall Resistors Isk Unless</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463AB/1986%20-%20M463AB%20-%20463-02-019%20-%20LALL%20RESISTORS%20ISK%20UNLESS.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-02-019</td>
+<td>Less Otherwise Specified Component Designations</td>
+<td></td>
+<td></td>
+<td></td>
+<td>U</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463AB/1986%20-%20M463AB%20-%20463-02-019%20-%20LESS%20OTHERWISE%20SPECIFIED%20COMPONENT%20DESIGNATIONS.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-02-019</td>
+<td>Submaster Module Schematic</td>
+<td></td>
+<td></td>
+<td><a href="../../../PAGES/Person-APR.html">APR</a></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20M463%20-%20DOC%20-%20463-02-019%20-%20SUBMASTER%20MODULE%20SCHEMATIC.png">file</a></td>
+</tr>
+<tr>
+<td>463-02-020</td>
+<td>Lall Resisto Isk</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463AC/1986%20-%20M463AC%20-%20463-02-020%20-%20LALL%20RESISTO%20ISK.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-02-020</td>
+<td>Master Module Schematic Fonu</td>
+<td></td>
+<td></td>
+<td></td>
+<td>3</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463AC/1986%20-%20M463AC%20-%20463-02-020%20-%20MASTER%20MODULE%20SCHEMATIC%20FONU.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-02-020</td>
+<td>Bybtemb Dalhm Ehne</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20M463%20-%20DOC%20-%20463-02-020%20-%20BYBTEMB%20DALHM%20EHNE.png">file</a></td>
+</tr>
+<tr>
+<td>463-04-002</td>
+<td>Kele Connector Rear View</td>
+<td></td>
+<td></td>
+<td></td>
+<td>3</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20463-04-002%20-%20KELE%20CONNECTOR%20REAR%20VIEW.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-04-002</td>
+<td>Output Amp Upper Legend</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20463-04-002%20-%20OUTPUT%20AMP%20UPPER%20LEGEND.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-04-002</td>
+<td>Sub- Master Module</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%20Submaster%20Module%20%282%29.pdf">file</a> p.40</td>
+</tr>
+<tr>
+<td>463-04-002</td>
+<td>Sub-Master Module Connector Rear View Fimish</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%20Submaster%20Module.pdf">file</a> p.40</td>
+</tr>
+<tr>
+<td>463-04-008</td>
+<td>Awv Lojjno</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%20463-04-008%20-%20AWV%20LOJJNO.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-04-008</td>
+<td>Sub Master Module Assembly</td>
+<td></td>
+<td>MG</td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%20463-04-008%20-%20SUB%20MASTER%20MODULE%20ASSEMBLY.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-04-009</td>
+<td>Connector Rear View Hale</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20463-04-009%20-%20CONNECTOR%20REAR%20VIEW%20HALE.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-04-010</td>
+<td>When Depressed The Postfade Signa</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20463-04-010%20-%20WHEN%20DEPRESSED%20THE%20POSTFADE%20SIGNA.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-04-015</td>
+<td>Eng Subma Ster Module</td>
+<td></td>
+<td></td>
+<td>LUS</td>
+<td>B</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463K/1974%20-%20M463K%20-%20463-04-015%20-%20ENG%20SUBMA%20STER%20MODULE.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-04-016</td>
+<td>Control Com X/Zo</td>
+<td></td>
+<td><a href="../../../PAGES/Person-OCT.html">OCT</a></td>
+<td></td>
+<td>B</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463K/1979%20-%20M463K%20-%20463-04-016%20-%20CONTROL%20COM%20X-ZO.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-04-016</td>
+<td>Output Amp Upper Legend</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463K/1974%20-%20M463K%20-%20463-04-016%20-%20OUTPUT%20AMP%20UPPER%20LEGEND.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-04-016</td>
+<td>Sub- Master Module Connector Rear View</td>
+<td></td>
+<td><a href="../../../PAGES/Person-OCL.html">OCL</a></td>
+<td></td>
+<td>B</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463K/1974%20-%20M463K%20-%20Submaster%20Module.pdf">file</a> p.47</td>
+</tr>
+<tr>
+<td>463-04-020</td>
+<td>When Depressed This Switch Inserts The Equalizer Section</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20463-04-020%20-%20WHEN%20DEPRESSED%20THIS%20SWITCH%20INSERTS%20THE%20EQUALIZER%20SECTION.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-04-020</td>
+<td>Between Ass Igned Mixing Buses Left And Right</td>
+<td></td>
+<td></td>
+<td></td>
+<td>3</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%20463-04-020%20-%20BETWEEN%20ASS%20IGNED%20MIXING%20BUSES%20LEFT%20AND%20RIGHT.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-04-020</td>
+<td>Imne Righe Pan Eletn Isjulidate Reyeich</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%20Submaster%20Module.pdf">file</a> p.29</td>
+</tr>
+<tr>
+<td>463-04-022</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463B/1972%20-%20M463B%20-%20463-04-022.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-04-023</td>
+<td>Eng Subma Ster Module</td>
+<td></td>
+<td></td>
+<td></td>
+<td>8</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463L/1974%20-%20M463L%20-%20463-04-023%20-%20ENG%20SUBMA%20STER%20MODULE.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-04-024</td>
+<td>Connector Rear View</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463L/1974%20-%20M463L%20-%20463-04-024%20-%20CONNECTOR%20REAR%20VIEW.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-04-024</td>
+<td>Output Amp Upper Legend</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463L/1974%20-%20M463L%20-%20463-04-024%20-%20OUTPUT%20AMP%20UPPER%20LEGEND.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-04-030</td>
+<td>Eng Mew Submaster Module</td>
+<td></td>
+<td></td>
+<td></td>
+<td>B</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463LA/1974%20-%20M463LA%20-%20463-04-030%20-%20ENG%20MEW%20SUBMASTER%20MODULE.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-04-102</td>
+<td>Pan Solo Swicn</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463AB/1986%20-%20M463AB%20-%20463-04-102%20-%20PAN%20SOLO%20SWICN.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-04-103</td>
+<td>Mon Tor Out Solo</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463AB/1986%20-%20M463AB%20-%20463-04-103%20-%20MON%20TOR%20OUT%20SOLO.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-04-104</td>
+<td>Hnen Aepressco Cne Postfade</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463AC/1986%20-%20M463AC%20-%20463-04-104%20-%20HNEN%20AEPRESSCO%20CNE%20POSTFADE.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-06-001</td>
+<td>Jes Component Side Noies Pins Iei</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20463-06-001%20-%20JES%20COMPONENT%20SIDE%20NOIES%20PINS%20IEI.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-06-001</td>
+<td>Submaster Module Unt</td>
+<td></td>
+<td></td>
+<td></td>
+<td>3</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20463-06-001%20-%20SUBMASTER%20MODULE%20UNT.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-06-001</td>
+<td>Submaster Module Component Layout</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20Submaster%20Module.pdf">file</a> p.23</td>
+</tr>
+<tr>
+<td>463-06-027</td>
+<td>Component Side Noies Pins</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463AB/1986%20-%20M463AB%20-%20463-06-027%20-%20COMPONENT%20SIDE%20NOIES%20PINS.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-06-027</td>
+<td>Revision Apr Ent Side</td>
+<td></td>
+<td><a href="../../../PAGES/Person-AM.html">AM</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463AB/1986%20-%20M463AB%20-%20463-06-027%20-%20REVISION%20APR%20ENT%20SIDE.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-06-028</td>
+<td>Tes Component Side Noies Pins Iei</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463AC/1986%20-%20M463AC%20-%20463-06-028%20-%20TES%20COMPONENT%20SIDE%20NOIES%20PINS%20IEI.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-06-028</td>
+<td>Solder Side Eng</td>
+<td></td>
+<td><a href="../../../PAGES/Person-AM.html">AM</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463AC/1986%20-%20M463AC%20-%20463-06-028%20-%20SOLDER%20SIDE%20ENG.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-06-028</td>
+<td>Revision Eni Sqe Wes Ward-Becx Systemb</td>
+<td></td>
+<td><a href="../../../PAGES/Person-AM.html">AM</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463AC/1986%20-%20M463AC%20-%20Master%20Module.pdf">file</a> p.24</td>
+</tr>
+<tr>
+<td>8-109-02-002</td>
+<td>Nominal Value</td>
+<td></td>
+<td><a href="../../../PAGES/Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="../../../PAGES/Person-EAZ.html">EAZ</a></td>
+<td>B</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-02-002%20-%20NOMINAL%20VALUE.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-002</td>
+<td>Rii Riz</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-02-002%20-%20RII%20RIZ.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-002</td>
+<td>Hveoa Hominal Value</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%20Submaster%20Module.pdf">file</a> p.42</td>
+</tr>
+<tr>
+<td>8-109-02-007</td>
+<td>Ndminal Value</td>
+<td></td>
+<td><a href="../../../PAGES/Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>B</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-02-007%20-%20NDMINAL%20VALUE.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-007</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-02-007.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-06-002</td>
+<td>Output Amplifier</td>
+<td></td>
+<td><a href="../../../PAGES/Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="../../../PAGES/Person-RA.html">RA</a></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-06-002%20-%20OUTPUT%20AMPLIFIER.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-06-002</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-06-002.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-06-002</td>
+<td>Put Amplifier</td>
+<td></td>
+<td><a href="../../../PAGES/Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%20Submaster%20Module%20%282%29.pdf">file</a> p.44</td>
+</tr>
+<tr>
+<td>8-109-06-002</td>
+<td>Output Amplifier Component Layout</td>
+<td></td>
+<td><a href="../../../PAGES/Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>8</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%20Submaster%20Module.pdf">file</a> p.44</td>
+</tr>
+<tr>
+<td>8-109-06-007</td>
+<td>Booster Amplifier</td>
+<td></td>
+<td><a href="../../../PAGES/Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="../../../PAGES/Person-RA.html">RA</a></td>
+<td>3</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-06-007%20-%20BOOSTER%20AMPLIFIER.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-06-007</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-06-007.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-06-007</td>
+<td>Booster Amplifier</td>
+<td></td>
+<td><a href="../../../PAGES/Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%20Submaster%20Module%20%282%29.pdf">file</a> p.48</td>
+</tr>
+<tr>
+<td>8-109-06-007</td>
+<td>Booster Amplifier Component Layout</td>
+<td></td>
+<td><a href="../../../PAGES/Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="../../../PAGES/Person-RA.html">RA</a></td>
+<td>8</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/1974%20-%20M463%20-%20Submaster%20Module.pdf">file</a> p.48</td>
+</tr>
+<tr>
+<td>B 4-141-02-001</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%204-141-02-001.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 463-01-001</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20463-01-001.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 463-01-011</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20463-01-011.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 463-02-019</td>
+<td>M463AB / SUBMASTER MODULE / SCHEMATIC</td>
+<td>3/8?</td>
+<td><a href="../../../PAGES/Person-HM.html">HM</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20463-02-019%20-%20M463AB%20SUBMASTER%20MODULE%20SCHEMATIC%20-%20DRN%20HM%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 463-02-019</td>
+<td>M463AB / SUBMASTER MODULE / SCHEMATIC</td>
+<td></td>
+<td><a href="../../../PAGES/Person-HM.html">HM</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20463-02-019%20-%20M463AB%20SUBMASTER%20MODULE%20SCHEMATIC%20-%20DRN%20HM%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>B 463-02-020</td>
+<td>M463 AC / MASTER MODULE / SCHEMATIC</td>
+<td>3/8?</td>
+<td><a href="../../../PAGES/Person-HM.html">HM</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20463-02-020%20-%20AC%20MASTER%20MODULE%20SCHEMATIC%20-%20DRN%20HM%20-%20ENG%20HM.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 463-06-001</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20463-06-001.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 463-06-028</td>
+<td>M463AC / MASTER MODULE / COMPONENT LAYOUT</td>
+<td></td>
+<td><a href="../../../PAGES/Person-HM.html">HM</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20463-06-028%20-%20M463AC%20MASTER%20MODULE%20COMPONENT%20LAYOUT%20-%20DRN%20HM%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 8-109-02-002</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%208-109-02-002.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 8-109-02-007</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M463/19xx%20-%208-109-02-007.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M463&quot;,
+ &quot;name&quot;: &quot;Submaster Module&quot;,
+ &quot;category&quot;: &quot;SUMMING&quot;,
+ &quot;year&quot;: 1972,
+ &quot;connections&quot;: {
+  &quot;from&quot;: &quot;its own documents&quot;,
+  &quot;inputs&quot;: [
+   &quot;Input Shield&quot;,
+   &quot;Slate In&quot;
+  ],
+  &quot;outputs&quot;: [
+   &quot;Out&quot;
+  ],
+  &quot;power&quot;: [
+   &quot;+24V&quot;,
+   &quot;-5V&quot;,
+   &quot;-15V&quot;
+  ],
+  &quot;control&quot;: [
+   &quot;Pr E Solo&quot;,
+   &quot;Ctl Co M&quot;,
+   &quot;Nc Sus Sla Te Control&quot;,
+   &quot;Pa Control&quot;,
+   &quot;Solo Control&quot;
+  ]
+ },
+ &quot;made_of&quot;: [
+  &quot;4-109&quot;,
+  &quot;4-126&quot;,
+  &quot;4-136&quot;,
+  &quot;4-141&quot;,
+  &quot;8-103&quot;,
+  &quot;8-109&quot;
+ ],
+ &quot;part_of&quot;: [
+  &quot;76045&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - 4-126-02-001 - IOK COMBINED COMBINED VALUE VALUE.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - 4-126-06-001 - CTO LMZOIN.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - 4-136-06-010 - PIN ESLOLICKD USDOJ ITI ABXEPKM.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - 4-141-02-001 - CZO LEVELCAL.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - 4-141-06-001 - ARE FACTORY SELECTED.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - 4136-06-010 - COMPONENT NQTES LEGEND CONNECTOR PIN MOUNTED.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - 463-01-001 - INSERT INSERT JACKS FADER.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - 463-02-001 - SUB MASTER MODULE.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - 463-04-002 - KELE CONNECTOR REAR VIEW.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - 463-04-002 - OUTPUT AMP UPPER LEGEND.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - 463-04-020 - BETWEEN ASS IGNED MIXING BUSES LEFT AND RIGHT.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - 463-04-020 - WHEN DEPRESSED THIS SWITCH INSERTS THE EQUALIZER SECTION.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;sections&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - 8-109-02-002 - NOMINAL VALUE.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - 8-109-02-002 - RII RIZ.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - 8-109-02-007 - NDMINAL VALUE.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - 8-109-02-007.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - 8-109-06-002 - OUTPUT AMPLIFIER.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - 8-109-06-002.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - 8-109-06-007 - BOOSTER AMPLIFIER.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - 8-109-06-007.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - P001 - Title Page.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - P003 - 1-1.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - P004 - 2-1.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - P005 - 2-2.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - P006 - 2-3.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - P007 - 2-4.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - P008 - 2-5.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - P009 - 3-1.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - P010 - 3-2.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - P011 - 3-3.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - P012 - 4-1.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - P013 - 4-2.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - P014 - 4-3.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - P015 - 4-4.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - P016 - 4-5.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - P017 - 4-6.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - P018 - 4-7.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - P019 - 8-109.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - P020 - 8-109-1-1.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - P021 - 8-109-1-2.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - P022 - 8-109-1-3.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - P023 - 8-109-2-1.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - P024 - 8-109-2-2.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - P025 - 8-109-2-3.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - P026 - 8-109-2-4.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - P027 - 8-109-2-5.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - P030 - LB463-02-001 01.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - P030 - LB463-02-001 02.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - P030 - LB463-02-001 03.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1972 - M463 - WAAD-BECK ZABM.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463A/1972 - M463A - wbsps - module - m463a submaster module 001.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463A/1972 - M463A - wbsps - module - m463a submaster module 001_small.jpg&quot;,
+   &quot;year&quot;: 1972,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1974 - 4-126-06-001 - 4-126 EQUALIZER FILTER COMPONENT ASSEMBLY - DRN DM - ISS 2.jpg&quot;,
+   &quot;year&quot;: 1974,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1974 - 4-141-02-001 - 4-141 SUMMING AMPLIFIER SCHEMATIC - DRN DM - ISS 7.jpg&quot;,
+   &quot;year&quot;: 1974,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1974 - LB 463-02 - SUB-MASTER SCHEMATIC - DRN DM.jpg&quot;,
+   &quot;year&quot;: 1974,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1974 - M463 - 4-126-06-001 - MODIICKD USED.jpg&quot;,
+   &quot;year&quot;: 1974,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1974 - M463 - 4-141-02-001 - TORY SELECTED IAL VALUE.jpg&quot;,
+   &quot;year&quot;: 1974,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1974 - M463 - 4-141-06-001 - SUMMING AMPLIFIER.jpg&quot;,
+   &quot;year&quot;: 1974,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1974 - M463 - Submaster Module (2).pdf&quot;,
+   &quot;year&quot;: 1974,
+   &quot;pages&quot;: 56,
+   &quot;holds&quot;: [
+    &quot;connections&quot;,
+    &quot;dates&quot;,
+    &quot;modules&quot;,
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1974 - M463 - Submaster Module.pdf&quot;,
+   &quot;year&quot;: 1974,
+   &quot;pages&quot;: 56,
+   &quot;holds&quot;: [
+    &quot;connections&quot;,
+    &quot;dates&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1976 - 4-109-02-004 - 4-109C BOOSTER AMPLIFIER SCHEMATIC - DRN PWC - ISS 2.png&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1976 - 4-126-02-001 - 4-126 EQUALIZER FILTER AMPLIFIER SCHEMATIC - DRN GEB - ISS 4.jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1976 - 463-02-004 - D SUB-MASTER MODULE - DRN AF - ISS 2.jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1976 - 463-02-005 - E SUB-MASTER MODULE - DRN AF - ISS 2.jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1976 - 463-02-006 - F SUB-MASTER MODULE - DRN AF - ISS 2.jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1976 - 463-02-007 - M463M SUBMASTER (SUMMING struck) MODULE SCHEMATIC - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;modules&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1976 - 463-04-008 - M463M SUB MASTER MODULE ASSEMBLY (LAYOUT) - DRN MING - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1976 - M463 - 4-126-02-001 - EQUALIZER FILTER.jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1977 - 463-01-001 - SUBMASTER MODULE FUNCTIONAL DIAGRAM - DRN PKM - ISS 2.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1977 - 463-01-003 - M463B SUBMASTER MODULE FUNCTIONAL DIAGRAM - DRN PKM - ISS 2.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1977 - M463 - 463-01-001 - YSOLO CONTROL SOLO COMMON CONTROL.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1978 - 463-06-001 - M463J SUBMASTER MODULE COMPONENT LAYOUT - DRN GEB - ENG GEB - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1978 - 8-109-02-002 - 8-109A OUTPUT AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1978 - 8-109-02-007 - 8-109F BOOSTER AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1979 - 463-01-010 - SUBMASTER MODULE FUNCTIONAL DIAGRAM - DRN PKM - ISS 2.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;modules&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1979 - M463 - P002.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1980 - 463-01-011 - M463L SUBMASTER MODULE FUNCTIONAL DIAGRAM - DRN VINCE - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1980 - 463-01-016 - SUBMASTER MODULE FUNCTIONAL DIAGRAM - DRN VINCE - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/1982 - 463-02-015 - M463R MASTER MODULE SCHEMATIC - DRN JP - ENG ELJ.jpg&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/19xx - 4-141-02-001.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/19xx - 463-01-001.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/19xx - 463-01-011.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/19xx - 463-02-019 - M463AB SUBMASTER MODULE SCHEMATIC - DRN HM - ISS 1.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;modules&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/19xx - 463-02-019 - M463AB SUBMASTER MODULE SCHEMATIC - DRN HM - ISS 1.png&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/19xx - 463-02-020 - AC MASTER MODULE SCHEMATIC - DRN HM - ENG HM.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/19xx - 463-06-001.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/19xx - 463-06-028 - M463AC MASTER MODULE COMPONENT LAYOUT - DRN HM - ISS 1.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/19xx - 8-109-02-002.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/19xx - 8-109-02-007.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/19xx - M463 - DOC - 463-02-009 - SUBMA STER MODULE SCHEMATIC.png&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/19xx - M463 - DOC - 463-02-019 - SUBMASTER MODULE SCHEMATIC.png&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/19xx - M463 - DOC - 463-02-020 - BYBTEMB DALHM EHNE.png&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M463/M463 - P030 - LB463-02-001 04.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../../../_catalog/wbs_reels.js" defer></script><script src="../../../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../../../_catalog/libcontrol/libcontrol.css"><script src="../../../_catalog/libcontrol/react.js"></script><script src="../../../_catalog/libcontrol/react-dom.js"></script><script src="../../../_catalog/libcontrol/libcontrol.js"></script><script src="../../../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M463.md</small></div></article><script src="../../../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

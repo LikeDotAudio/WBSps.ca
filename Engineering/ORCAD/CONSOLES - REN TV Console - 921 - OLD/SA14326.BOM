@@ -1,0 +1,85 @@
+M921 INPUT MODULE PREAMPLIFIER                Revised:  February 23, 1996
+C 921-02-002                                  Revision: 0
+Bill Of Materials             February   23, 1996     10:49:29     Page    1
+
+ Item  Quantity  Reference                 Part       
+_______________________________________________________
+
+    1       8    CX1,CX2,CX3,CX4,CX35,     22P        
+                 CX38,CX45,CX47
+    2      12    CX5,CX6,CX7,CX8,CX9,CX10, 220/10     
+                 CX11,CX12,CX13,CX14,CX15,
+                 CX16
+    3       4    CX17,CX18,CX19,CX21       47P        
+    4      16    CX20,CX22,CX23,CX24,CX36, 0.1/50     
+                 CX37,CX46,CX48,CX49,CX51,
+                 CX55,CX57,CX66,CX67,CX68,
+                 CX69
+    5       4    CX25,CX26,CX27,CX28       68/10      
+    6       4    CX29,CX30,CX31,CX32       0.068      
+    7       8    CX33,CX34,CX39,CX40,CX41, 10/50      
+                 CX42,CX43,CX44
+    8       6    CX50,CX52,CX53,CX56,CX58, 22/25      
+                 CX65
+    9       7    CX54,CX59,CX60,CX61,CX62, 47/50      
+                 CX63,CX64
+   10      16    DX1,DX2,DX3,DX4,DX5,DX6,  1N4148     
+                 DX7,DX8,DX9,DX10,DX11,
+                 DX12,DX13,DX14,DX15,DX16
+   11       8    JX1,JX2,JX3,JX4,JX5,JX6,  CON2       
+                 JX7,JX8
+   12       4    P1,P2,P3,P4               65646-112  
+   13       1    QX1                       2N6731     
+   14       3    QX2,QX6,QX7               2N3904     
+   15       2    QX3,QX5                   2N3906     
+   16       1    QX4                       2N6730     
+   17      12    RX1,RX2,RX3,RX8,RX9,RX12, 100K 1%    
+                 RX13,RX16,RX17,RX19,RX20,
+                 RX36
+   18      27    RX4,RX5,RX6,RX7,RX10,     16K2 1%    
+                 RX11,RX14,RX15,RX39,RX40,
+                 RX41,RX42,RX43,RX44,RX45,
+                 RX46,RX65,RX66,RX69,RX76,
+                 RX77,RX81,RX82,RX86,RX87,
+                 RX88,RX89
+   19       1    RX18                      10K        
+   20       4    RX21,RX25,RX31,RX35       8K25 1%    
+   21       2    RX22,RX34                 6K81 1%    
+   22       2    RX23,RX33                 5K         
+   23       2    RX24,RX32                 82K5 1%    
+   24       4    RX26,RX28,RX53,RX57       1K         
+   25       2    RX27,RX37                 1K2        
+   26       1    RX29                      1K8        
+   27       1    RX30                      2K         
+   28       1    RX38                      500        
+   29       2    RX47,RX59                 1M         
+   30       4    RX48,RX50,RX60,RX62       27K        
+   31       4    RX49,RX51,RX61,RX63       56K        
+   32       2    RX52,RX56                 620K       
+   33       2    RX54,RX58                 150K       
+   34       2    RX55,RX64                 470K       
+M921 INPUT MODULE PREAMPLIFIER                Revised:  February 23, 1996
+C 921-02-002                                  Revision: 0
+Bill Of Materials             February   23, 1996     10:49:29     Page    2
+
+ Item  Quantity  Reference                 Part       
+_______________________________________________________
+
+   35      16    RX67,RX68,RX71,RX75,RX78, 100K       
+                 RX79,RX80,RX83,RX84,RX85,
+                 RX90,RX92,RX96,RX99,
+                 RX101,RX106
+   36       4    RX70,RX74,RX91,RX93       30 1W      
+   37       2    RX72,RX73                 4K75 1%    
+   38       2    RX94,RX97                 22         
+   39       2    RX95,RX98                 5K8        
+   40       2    RX100,RX102               9K1        
+   41       1    RX103                     390        
+   42       1    RX104                     3K9        
+   43       1    RX105                     3K3        
+   44       9    UX1,UX2,UX3,UX6,UX9,UX10, MC14053    
+                 UX14,UX16,UX17
+   45       4    UX4,UX5,UX7,UX8           LM833N     
+   46       2    UX11,UX19                 74HC00N    
+   47       1    UX13                      74HC14     
+   48       2    UX15,UX18                 OPA2604    

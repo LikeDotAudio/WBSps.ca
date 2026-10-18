@@ -1,0 +1,2788 @@
+{
+ "name": "POD_OLD/POD4",
+ "folder": "POD_OLD - POD4",
+ "source": "WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - POD_OLD/POD4",
+ "title": "POD-4 DUAL MICICROPHONE PREAMPLIFIER",
+ "number": "B 14-306-02-001/1",
+ "date": "December 13, 1995",
+ "sheets": [
+  {
+   "title": "POD-4 DUAL MICICROPHONE PREAMPLIFIER",
+   "number": "B 14-306-02-001/1",
+   "date": "December 13, 1995",
+   "company": [],
+   "parts": [
+    {
+     "ref": "R53",
+     "value": "470 1/2W",
+     "x": 230,
+     "y": 390
+    },
+    {
+     "ref": "R54",
+     "value": "470 1/2W",
+     "x": 400,
+     "y": 390
+    },
+    {
+     "ref": "R70",
+     "value": "100 1/2W",
+     "x": 1320,
+     "y": 60
+    },
+    {
+     "ref": "R76",
+     "value": "100 1/2W",
+     "x": 1320,
+     "y": 270
+    },
+    {
+     "ref": "R64",
+     "value": "100 1/2W",
+     "x": 1030,
+     "y": 710
+    },
+    {
+     "ref": "D11",
+     "value": "1N4757A",
+     "x": 360,
+     "y": 510
+    },
+    {
+     "ref": "D24",
+     "value": "1N4744A",
+     "x": 1120,
+     "y": 580
+    },
+    {
+     "ref": "D25",
+     "value": "1N4744A",
+     "x": 1120,
+     "y": 760
+    },
+    {
+     "ref": "C42",
+     "value": "220/63",
+     "x": 130,
+     "y": 390
+    },
+    {
+     "ref": "C45",
+     "value": "220/63",
+     "x": 450,
+     "y": 430
+    },
+    {
+     "ref": "C44",
+     "value": "10/63",
+     "x": 320,
+     "y": 510
+    },
+    {
+     "ref": "C43",
+     "value": "100/63",
+     "x": 180,
+     "y": 490
+    },
+    {
+     "ref": "C47",
+     "value": "22/63",
+     "x": 600,
+     "y": 500
+    },
+    {
+     "ref": "C48",
+     "value": "680/63",
+     "x": 710,
+     "y": 690
+    },
+    {
+     "ref": "C49",
+     "value": "680/63",
+     "x": 710,
+     "y": 740
+    },
+    {
+     "ref": "C55",
+     "value": "22/25",
+     "x": 1080,
+     "y": 760
+    },
+    {
+     "ref": "C52",
+     "value": "22/25",
+     "x": 1080,
+     "y": 580
+    },
+    {
+     "ref": "D12",
+     "value": "1N750A",
+     "x": 640,
+     "y": 520
+    },
+    {
+     "ref": "R61",
+     "value": "100 1/2W",
+     "x": 1030,
+     "y": 530
+    }
+   ],
+   "labels": [
+    {
+     "text": "+4.7V",
+     "x": 770,
+     "y": 70
+    },
+    {
+     "text": "+4.7V",
+     "x": 770,
+     "y": 280
+    },
+    {
+     "text": "+22V",
+     "x": 170,
+     "y": 150
+    },
+    {
+     "text": "+22V",
+     "x": 570,
+     "y": 150
+    },
+    {
+     "text": "+4.7V",
+     "x": 1170,
+     "y": 484
+    },
+    {
+     "text": "+22V",
+     "x": 1170,
+     "y": 514
+    },
+    {
+     "text": "+15V",
+     "x": 1170,
+     "y": 545
+    },
+    {
+     "text": "-22V",
+     "x": 1170,
+     "y": 694
+    },
+    {
+     "text": "-15V",
+     "x": 1170,
+     "y": 724
+    },
+    {
+     "text": "J1-2",
+     "x": 280,
+     "y": 150
+    },
+    {
+     "text": "J1-3",
+     "x": 320,
+     "y": 150
+    },
+    {
+     "text": "J2-2",
+     "x": 410,
+     "y": 150
+    },
+    {
+     "text": "J2-3",
+     "x": 450,
+     "y": 150
+    },
+    {
+     "text": "+22V",
+     "x": 1159,
+     "y": 85
+    },
+    {
+     "text": "+22V",
+     "x": 1162,
+     "y": 295
+    },
+    {
+     "text": "TO U4 PIN-11",
+     "x": 1003,
+     "y": 74
+    },
+    {
+     "text": "TO U4 PIN-10",
+     "x": 1003,
+     "y": 284
+    },
+    {
+     "text": "-22V",
+     "x": 570,
+     "y": 390
+    },
+    {
+     "text": "-22V",
+     "x": 170,
+     "y": 360
+    },
+    {
+     "text": "U10 PIN-7",
+     "x": 680,
+     "y": 444
+    },
+    {
+     "text": "U10 PIN-14",
+     "x": 680,
+     "y": 464
+    }
+   ],
+   "ports": [
+    {
+     "text": "CHASSIS",
+     "x": 60,
+     "y": 800
+    },
+    {
+     "text": "NEUTRAL",
+     "x": 60,
+     "y": 770
+    },
+    {
+     "text": "110/230V AC",
+     "x": 60,
+     "y": 680
+    },
+    {
+     "text": "Y1",
+     "x": 280,
+     "y": 700
+    },
+    {
+     "text": "Y4",
+     "x": 280,
+     "y": 760
+    },
+    {
+     "text": "Y2",
+     "x": 280,
+     "y": 720
+    },
+    {
+     "text": "Y3",
+     "x": 280,
+     "y": 740
+    },
+    {
+     "text": "P3-10",
+     "x": 680,
+     "y": 130
+    },
+    {
+     "text": "P3-12",
+     "x": 680,
+     "y": 170
+    },
+    {
+     "text": "P3-4",
+     "x": 680,
+     "y": 340
+    },
+    {
+     "text": "P3-6",
+     "x": 680,
+     "y": 380
+    },
+    {
+     "text": "P3-11",
+     "x": 1350,
+     "y": 50
+    },
+    {
+     "text": "P3-5",
+     "x": 1350,
+     "y": 260
+    }
+   ],
+   "sheets": [],
+   "file": "POD4A.SCH"
+  },
+  {
+   "title": "POD4 DUAL MICROPHONE PRAMPLIFIER",
+   "number": "C 14-306-02-001/2",
+   "date": "December 13, 1995",
+   "company": [
+    "841 PROGRESS AVENUE",
+    "SCARBOROUGH, ONTARIO, CANADA",
+    "M1H 2X4"
+   ],
+   "parts": [
+    {
+     "ref": "U4",
+     "value": "74HC4053N",
+     "x": 830,
+     "y": 1070
+    },
+    {
+     "ref": "C9",
+     "value": "47/50",
+     "x": 890,
+     "y": 730
+    },
+    {
+     "ref": "C11",
+     "value": "47/25",
+     "x": 1140,
+     "y": 380
+    },
+    {
+     "ref": "C5",
+     "value": "47/50",
+     "x": 750,
+     "y": 570
+    }
+   ],
+   "labels": [
+    {
+     "text": "+22V",
+     "x": 790,
+     "y": 530
+    },
+    {
+     "text": "-22V",
+     "x": 850,
+     "y": 790
+    },
+    {
+     "text": "J1 PIN 3",
+     "x": 60,
+     "y": 644
+    },
+    {
+     "text": "J1 PIN 2",
+     "x": 60,
+     "y": 684
+    },
+    {
+     "text": "J1 PIN 1",
+     "x": 60,
+     "y": 724
+    },
+    {
+     "text": "P3 PIN 7",
+     "x": 1840,
+     "y": 945
+    },
+    {
+     "text": "P3 PIN 8",
+     "x": 1840,
+     "y": 985
+    },
+    {
+     "text": "P3 PIN 9",
+     "x": 1840,
+     "y": 1025
+    },
+    {
+     "text": "P1 PIN 2",
+     "x": 1840,
+     "y": 405
+    },
+    {
+     "text": "P1 PIN 3",
+     "x": 1840,
+     "y": 445
+    },
+    {
+     "text": "P1 PIN 1",
+     "x": 1840,
+     "y": 485
+    },
+    {
+     "text": "+22V",
+     "x": 740,
+     "y": 210
+    },
+    {
+     "text": "4.7V",
+     "x": 840,
+     "y": 950
+    },
+    {
+     "text": "TO U7 PIN-6",
+     "x": 1005,
+     "y": 1114
+    },
+    {
+     "text": "FROM U6 PIN-6",
+     "x": 449,
+     "y": 1064
+    },
+    {
+     "text": "MIC 2 PREAMP OUTPUT",
+     "x": 409,
+     "y": 1074
+    },
+    {
+     "text": "+15V",
+     "x": 1390,
+     "y": 560
+    },
+    {
+     "text": "-15V",
+     "x": 1390,
+     "y": 780
+    },
+    {
+     "text": "+15V",
+     "x": 1390,
+     "y": 1200
+    },
+    {
+     "text": "-15V",
+     "x": 1390,
+     "y": 1420
+    },
+    {
+     "text": "-22V",
+     "x": 1380,
+     "y": 260
+    },
+    {
+     "text": "+22V",
+     "x": 1380,
+     "y": 500
+    },
+    {
+     "text": "FROM U10 PIN-2 MIC 1 \"B\" OUTPUT CONTROL",
+     "x": 259,
+     "y": 1114
+    },
+    {
+     "text": "FROM U10 PIN-8 MIC 2 \"B\" OUTPUT CONTROL",
+     "x": 259,
+     "y": 1164
+    }
+   ],
+   "ports": [
+    {
+     "text": "+ MIC 1 A OUTPUT",
+     "x": 1670,
+     "y": 400
+    },
+    {
+     "text": "- MIC 1 A OUTPUT",
+     "x": 1670,
+     "y": 440
+    },
+    {
+     "text": "SHIELD",
+     "x": 1750,
+     "y": 480
+    },
+    {
+     "text": "SHIELD",
+     "x": 140,
+     "y": 720
+    },
+    {
+     "text": "+ MIC 1 B OUTPUT",
+     "x": 1670,
+     "y": 940
+    },
+    {
+     "text": "- MIC 1 B OUTPUT",
+     "x": 1670,
+     "y": 980
+    },
+    {
+     "text": "SHIELD",
+     "x": 1750,
+     "y": 1020
+    },
+    {
+     "text": "- MIC 1 IN",
+     "x": 140,
+     "y": 640
+    },
+    {
+     "text": "+ MIC 1 IN",
+     "x": 140,
+     "y": 680
+    },
+    {
+     "text": "CHASSIS",
+     "x": 1750,
+     "y": 540
+    },
+    {
+     "text": "CHASSIS",
+     "x": 140,
+     "y": 790
+    }
+   ],
+   "sheets": [
+    "POD4A.SCH",
+    "POD4B.SCH",
+    "POD4C.SCH"
+   ],
+   "file": "POD4B.SCH"
+  },
+  {
+   "title": "POD4 DUAL MICROPHONE PRAMPLIFIER",
+   "number": "C 14-306-02-001/3",
+   "date": "December 13, 1995",
+   "company": [
+    "841 PROGRESS AVENUE",
+    "SCARBOROUGH, ONTARIO, CANADA",
+    "M1H 2X4"
+   ],
+   "parts": [
+    {
+     "ref": "C32",
+     "value": "47/25",
+     "x": 1140,
+     "y": 380
+    },
+    {
+     "ref": "C27",
+     "value": "47/50",
+     "x": 750,
+     "y": 570
+    },
+    {
+     "ref": "C31",
+     "value": "47/50",
+     "x": 890,
+     "y": 730
+    }
+   ],
+   "labels": [
+    {
+     "text": "+22V",
+     "x": 790,
+     "y": 530
+    },
+    {
+     "text": "-22V",
+     "x": 850,
+     "y": 790
+    },
+    {
+     "text": "J2 PIN 3",
+     "x": 60,
+     "y": 644
+    },
+    {
+     "text": "J2 PIN 2",
+     "x": 60,
+     "y": 684
+    },
+    {
+     "text": "J2 PIN 1",
+     "x": 60,
+     "y": 724
+    },
+    {
+     "text": "P3 PIN 1",
+     "x": 1840,
+     "y": 945
+    },
+    {
+     "text": "P3 PIN 2",
+     "x": 1840,
+     "y": 985
+    },
+    {
+     "text": "P3 PIN 3",
+     "x": 1840,
+     "y": 1025
+    },
+    {
+     "text": "P2 PIN 2",
+     "x": 1840,
+     "y": 405
+    },
+    {
+     "text": "P2 PIN 3",
+     "x": 1840,
+     "y": 445
+    },
+    {
+     "text": "P2 PIN 1",
+     "x": 1840,
+     "y": 485
+    },
+    {
+     "text": "+22V",
+     "x": 740,
+     "y": 210
+    },
+    {
+     "text": "+15V",
+     "x": 1390,
+     "y": 560
+    },
+    {
+     "text": "-15V",
+     "x": 1390,
+     "y": 780
+    },
+    {
+     "text": "+15V",
+     "x": 1390,
+     "y": 1200
+    },
+    {
+     "text": "-15V",
+     "x": 1390,
+     "y": 1420
+    },
+    {
+     "text": "-22V",
+     "x": 1380,
+     "y": 260
+    },
+    {
+     "text": "+22V",
+     "x": 1380,
+     "y": 500
+    },
+    {
+     "text": "FROM U4 PIN-1",
+     "x": 690,
+     "y": 1034
+    },
+    {
+     "text": "TO C19",
+     "x": 750,
+     "y": 954
+    }
+   ],
+   "ports": [
+    {
+     "text": "+ MIC 1 A OUTPUT",
+     "x": 1670,
+     "y": 400
+    },
+    {
+     "text": "- MIC 2 A OUTPUT",
+     "x": 1670,
+     "y": 440
+    },
+    {
+     "text": "SHIELD",
+     "x": 1750,
+     "y": 480
+    },
+    {
+     "text": "SHIELD",
+     "x": 140,
+     "y": 720
+    },
+    {
+     "text": "+ MIC 2 B OUTPUT",
+     "x": 1670,
+     "y": 940
+    },
+    {
+     "text": "- MIC 2 B OUTPUT",
+     "x": 1670,
+     "y": 980
+    },
+    {
+     "text": "SHIELD",
+     "x": 1750,
+     "y": 1020
+    },
+    {
+     "text": "- MIC 2 IN",
+     "x": 140,
+     "y": 640
+    },
+    {
+     "text": "+ MIC 2 IN",
+     "x": 140,
+     "y": 680
+    },
+    {
+     "text": "CHASSIS",
+     "x": 140,
+     "y": 800
+    },
+    {
+     "text": "CHASSIS",
+     "x": 1750,
+     "y": 570
+    }
+   ],
+   "sheets": [
+    "POD4A.SCH",
+    "POD4B.SCH",
+    "POD4C.SCH"
+   ],
+   "file": "POD4C.SCH"
+  }
+ ],
+ "netlists": [
+  {
+   "header": [
+    "[",
+    "A-LVL",
+    "RVM"
+   ],
+   "parts": [
+    {
+     "ref": "A-LVL",
+     "footprint": "RVM",
+     "value": ""
+    },
+    {
+     "ref": "AC IN",
+     "footprint": "PAN356",
+     "value": ""
+    },
+    {
+     "ref": "C1",
+     "footprint": "CAPRAD.3",
+     "value": ""
+    },
+    {
+     "ref": "C2",
+     "footprint": "CAPRAD.3",
+     "value": ""
+    },
+    {
+     "ref": "C3",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "C4",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "C5",
+     "footprint": "10/35TANT",
+     "value": ""
+    },
+    {
+     "ref": "C6",
+     "footprint": "10/35TANT",
+     "value": ""
+    },
+    {
+     "ref": "C7",
+     "footprint": "CAPRAD.2",
+     "value": ""
+    },
+    {
+     "ref": "C8",
+     "footprint": "CAPRAD.2",
+     "value": ""
+    },
+    {
+     "ref": "C9",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "C10",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "C11",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "C12",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "C13",
+     "footprint": "47/63",
+     "value": ""
+    },
+    {
+     "ref": "C14",
+     "footprint": "47/63",
+     "value": ""
+    },
+    {
+     "ref": "C15",
+     "footprint": "47/63",
+     "value": ""
+    },
+    {
+     "ref": "C16",
+     "footprint": "47/63",
+     "value": ""
+    },
+    {
+     "ref": "C17",
+     "footprint": "10/35TANT",
+     "value": ""
+    },
+    {
+     "ref": "C18",
+     "footprint": "10/35TANT",
+     "value": ""
+    },
+    {
+     "ref": "C19",
+     "footprint": "10/35TANT",
+     "value": ""
+    },
+    {
+     "ref": "C20",
+     "footprint": "10/35TANT",
+     "value": ""
+    },
+    {
+     "ref": "C21",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "C22",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "C23",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "C24",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "C25",
+     "footprint": "10/35TANT",
+     "value": ""
+    },
+    {
+     "ref": "C29",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "C30",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "C31",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "C32",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "C33",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "C34",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "C35",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "C36",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "C37",
+     "footprint": "C100P",
+     "value": ""
+    },
+    {
+     "ref": "C38",
+     "footprint": "C100P",
+     "value": ""
+    },
+    {
+     "ref": "C39",
+     "footprint": "CAPRAD.2",
+     "value": ""
+    },
+    {
+     "ref": "CC1",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "CC2",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "CC3",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "CC4",
+     "footprint": "C100P",
+     "value": ""
+    },
+    {
+     "ref": "CC5",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "CC6",
+     "footprint": "C100P",
+     "value": ""
+    },
+    {
+     "ref": "CC7",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "CC8",
+     "footprint": "C100P",
+     "value": ""
+    },
+    {
+     "ref": "CC9",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "CC10",
+     "footprint": "C100P",
+     "value": ""
+    },
+    {
+     "ref": "CC11",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "CC12",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "CC13",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "CC14",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "CC15",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "CC16",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "CC17",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "CC18",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "CC19",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "CC20",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "CC21",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "CC22",
+     "footprint": "CAP100",
+     "value": ""
+    },
+    {
+     "ref": "D1",
+     "footprint": "D400",
+     "value": ""
+    },
+    {
+     "ref": "D2",
+     "footprint": "D400",
+     "value": ""
+    },
+    {
+     "ref": "D3",
+     "footprint": "D400",
+     "value": ""
+    },
+    {
+     "ref": "D4",
+     "footprint": "D400",
+     "value": ""
+    },
+    {
+     "ref": "D5",
+     "footprint": "D400",
+     "value": ""
+    },
+    {
+     "ref": "D6",
+     "footprint": "D400",
+     "value": ""
+    },
+    {
+     "ref": "D7",
+     "footprint": "D400",
+     "value": ""
+    },
+    {
+     "ref": "D8",
+     "footprint": "D400",
+     "value": ""
+    },
+    {
+     "ref": "D9",
+     "footprint": "D400",
+     "value": ""
+    },
+    {
+     "ref": "D10",
+     "footprint": "D400",
+     "value": ""
+    },
+    {
+     "ref": "D11",
+     "footprint": "D400",
+     "value": ""
+    },
+    {
+     "ref": "D12",
+     "footprint": "D400",
+     "value": ""
+    },
+    {
+     "ref": "D13",
+     "footprint": "D400",
+     "value": ""
+    },
+    {
+     "ref": "D14",
+     "footprint": "D400",
+     "value": ""
+    },
+    {
+     "ref": "D15",
+     "footprint": "D400",
+     "value": ""
+    },
+    {
+     "ref": "D16",
+     "footprint": "D400",
+     "value": ""
+    },
+    {
+     "ref": "D17",
+     "footprint": "D400",
+     "value": ""
+    },
+    {
+     "ref": "H1",
+     "footprint": "HDR-2X7RA",
+     "value": ""
+    },
+    {
+     "ref": "H1A",
+     "footprint": "HDR-2X7",
+     "value": ""
+    },
+    {
+     "ref": "LVL-B",
+     "footprint": "RVM",
+     "value": ""
+    },
+    {
+     "ref": "MIX LVL",
+     "footprint": "BOURNS51",
+     "value": ""
+    },
+    {
+     "ref": "MIXPK",
+     "footprint": "LED/RA",
+     "value": ""
+    },
+    {
+     "ref": "MUTE-A",
+     "footprint": "LED/RA",
+     "value": ""
+    },
+    {
+     "ref": "MUTE-B",
+     "footprint": "LED/RA",
+     "value": ""
+    },
+    {
+     "ref": "PH-A",
+     "footprint": "LED/RA",
+     "value": ""
+    },
+    {
+     "ref": "PH-A-SW",
+     "footprint": "C62206L",
+     "value": ""
+    },
+    {
+     "ref": "PH-B",
+     "footprint": "LED/RA",
+     "value": ""
+    },
+    {
+     "ref": "PH-B-SW",
+     "footprint": "C62206L",
+     "value": ""
+    },
+    {
+     "ref": "PK-A",
+     "footprint": "LED/RA",
+     "value": ""
+    },
+    {
+     "ref": "PK-B",
+     "footprint": "LED/RA",
+     "value": ""
+    },
+    {
+     "ref": "PWR",
+     "footprint": "LED/RA",
+     "value": ""
+    },
+    {
+     "ref": "PWR SW",
+     "footprint": "PAN256",
+     "value": ""
+    },
+    {
+     "ref": "Q1",
+     "footprint": "TO92",
+     "value": ""
+    },
+    {
+     "ref": "Q2",
+     "footprint": "TO92",
+     "value": ""
+    },
+    {
+     "ref": "R1",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R2",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R3",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R4",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R5",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R6",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R7",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R8",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R9",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R10",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R11",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R12",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R13",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R14",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R15",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R16",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R17",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R18",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R19",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R20",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R21",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R22",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R23",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R24",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R25",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R26",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R27",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R28",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R29",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R30",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R31",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R32",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R33",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R34",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R35",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R36",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R37",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R38",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R39",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R40",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R41",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R42",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R43",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R44",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R45",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R46",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R47",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R48",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R49",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R50",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R51",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R52",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R53",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R54",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R55",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R56",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R57",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R58",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R59",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R60",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R61",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R62",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R63",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R64",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R65",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R66",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R67",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R68",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R69",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R70",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R71",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R72",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "R73",
+     "footprint": "R400",
+     "value": ""
+    },
+    {
+     "ref": "REG1",
+     "footprint": "REG2",
+     "value": "LM337"
+    },
+    {
+     "ref": "REG2",
+     "footprint": "REG2",
+     "value": ""
+    },
+    {
+     "ref": "REG3",
+     "footprint": "TO92",
+     "value": ""
+    },
+    {
+     "ref": "T1",
+     "footprint": "TOROID15VA",
+     "value": ""
+    },
+    {
+     "ref": "TB1",
+     "footprint": "WECO3X138",
+     "value": ""
+    },
+    {
+     "ref": "TB2",
+     "footprint": "WECO3X138",
+     "value": ""
+    },
+    {
+     "ref": "TB3",
+     "footprint": "WECO3X138",
+     "value": ""
+    },
+    {
+     "ref": "TB4",
+     "footprint": "WECO3X138",
+     "value": ""
+    },
+    {
+     "ref": "TB5",
+     "footprint": "WECO3X138",
+     "value": ""
+    },
+    {
+     "ref": "TB6",
+     "footprint": "WECO3X138",
+     "value": ""
+    },
+    {
+     "ref": "U1",
+     "footprint": "DIP8",
+     "value": ""
+    },
+    {
+     "ref": "U2",
+     "footprint": "DIP8",
+     "value": ""
+    },
+    {
+     "ref": "U3",
+     "footprint": "DIP8",
+     "value": ""
+    },
+    {
+     "ref": "U4",
+     "footprint": "DIP16",
+     "value": ""
+    },
+    {
+     "ref": "U5",
+     "footprint": "DIP8",
+     "value": ""
+    },
+    {
+     "ref": "U6",
+     "footprint": "DIP8",
+     "value": ""
+    },
+    {
+     "ref": "U7",
+     "footprint": "DIP8",
+     "value": ""
+    },
+    {
+     "ref": "U8",
+     "footprint": "DIP8",
+     "value": ""
+    },
+    {
+     "ref": "U9",
+     "footprint": "DIP8",
+     "value": ""
+    },
+    {
+     "ref": "U10",
+     "footprint": "DIP8",
+     "value": ""
+    },
+    {
+     "ref": "WBS1",
+     "footprint": "TITLE",
+     "value": ""
+    },
+    {
+     "ref": "XLR-A",
+     "footprint": "XLR3F",
+     "value": ""
+    },
+    {
+     "ref": "XLR-B",
+     "footprint": "XLR3F",
+     "value": ""
+    }
+   ],
+   "nets": [
+    {
+     "name": "NET_0001",
+     "nodes": []
+    },
+    {
+     "name": "NET_0002",
+     "nodes": []
+    },
+    {
+     "name": "NET_0003",
+     "nodes": []
+    },
+    {
+     "name": "NET_0004",
+     "nodes": []
+    },
+    {
+     "name": "NET_0005",
+     "nodes": []
+    },
+    {
+     "name": "NET_0006",
+     "nodes": []
+    },
+    {
+     "name": "NET_0007",
+     "nodes": []
+    },
+    {
+     "name": "NET_0008",
+     "nodes": []
+    },
+    {
+     "name": "NET_0009",
+     "nodes": []
+    },
+    {
+     "name": "NET_0010",
+     "nodes": []
+    },
+    {
+     "name": "NET_0011",
+     "nodes": []
+    },
+    {
+     "name": "NET_0012",
+     "nodes": []
+    },
+    {
+     "name": "NET_0013",
+     "nodes": []
+    },
+    {
+     "name": "NET_0014",
+     "nodes": []
+    },
+    {
+     "name": "NET_0015",
+     "nodes": []
+    },
+    {
+     "name": "NET_0016",
+     "nodes": []
+    },
+    {
+     "name": "NET_0017",
+     "nodes": []
+    },
+    {
+     "name": "NET_0018",
+     "nodes": []
+    },
+    {
+     "name": "NET_0019",
+     "nodes": []
+    },
+    {
+     "name": "NET_0020",
+     "nodes": []
+    },
+    {
+     "name": "NET_0021",
+     "nodes": []
+    },
+    {
+     "name": "NET_0022",
+     "nodes": []
+    },
+    {
+     "name": "NET_0023",
+     "nodes": []
+    },
+    {
+     "name": "NET_0024",
+     "nodes": []
+    },
+    {
+     "name": "NET_0025",
+     "nodes": []
+    },
+    {
+     "name": "NET_0026",
+     "nodes": []
+    },
+    {
+     "name": "NET_0027",
+     "nodes": []
+    },
+    {
+     "name": "NET_0028",
+     "nodes": []
+    },
+    {
+     "name": "NET_0029",
+     "nodes": []
+    },
+    {
+     "name": "NET_0030",
+     "nodes": []
+    },
+    {
+     "name": "NET_0031",
+     "nodes": []
+    },
+    {
+     "name": "NET_0032",
+     "nodes": []
+    },
+    {
+     "name": "NET_0033",
+     "nodes": []
+    },
+    {
+     "name": "NET_0034",
+     "nodes": []
+    },
+    {
+     "name": "NET_0035",
+     "nodes": []
+    },
+    {
+     "name": "NET_0036",
+     "nodes": []
+    },
+    {
+     "name": "NET_0037",
+     "nodes": []
+    },
+    {
+     "name": "NET_0038",
+     "nodes": []
+    },
+    {
+     "name": "NET_0039",
+     "nodes": []
+    },
+    {
+     "name": "NET_0040",
+     "nodes": []
+    },
+    {
+     "name": "NET_0041",
+     "nodes": []
+    },
+    {
+     "name": "NET_0042",
+     "nodes": []
+    },
+    {
+     "name": "NET_0043",
+     "nodes": []
+    },
+    {
+     "name": "NET_0044",
+     "nodes": []
+    },
+    {
+     "name": "NET_0045",
+     "nodes": []
+    },
+    {
+     "name": "NET_0046",
+     "nodes": []
+    },
+    {
+     "name": "NET_0047",
+     "nodes": []
+    },
+    {
+     "name": "NET_0048",
+     "nodes": []
+    },
+    {
+     "name": "NET_0049",
+     "nodes": []
+    },
+    {
+     "name": "NET_0050",
+     "nodes": []
+    },
+    {
+     "name": "NET_0051",
+     "nodes": []
+    },
+    {
+     "name": "NET_0052",
+     "nodes": []
+    },
+    {
+     "name": "NET_0053",
+     "nodes": []
+    },
+    {
+     "name": "NET_0054",
+     "nodes": []
+    },
+    {
+     "name": "NET_0055",
+     "nodes": []
+    },
+    {
+     "name": "NET_0056",
+     "nodes": []
+    },
+    {
+     "name": "NET_0057",
+     "nodes": []
+    },
+    {
+     "name": "NET_0058",
+     "nodes": []
+    },
+    {
+     "name": "NET_0059",
+     "nodes": []
+    },
+    {
+     "name": "NET_0060",
+     "nodes": []
+    },
+    {
+     "name": "NET_0061",
+     "nodes": []
+    },
+    {
+     "name": "NET_0062",
+     "nodes": []
+    },
+    {
+     "name": "NET_0063",
+     "nodes": []
+    },
+    {
+     "name": "NET_0064",
+     "nodes": []
+    },
+    {
+     "name": "NET_0065",
+     "nodes": []
+    },
+    {
+     "name": "NET_0066",
+     "nodes": []
+    },
+    {
+     "name": "NET_0067",
+     "nodes": []
+    },
+    {
+     "name": "NET_0068",
+     "nodes": []
+    },
+    {
+     "name": "NET_0069",
+     "nodes": []
+    },
+    {
+     "name": "NET_0070",
+     "nodes": []
+    },
+    {
+     "name": "NET_0071",
+     "nodes": []
+    },
+    {
+     "name": "NET_0072",
+     "nodes": []
+    },
+    {
+     "name": "NET_0073",
+     "nodes": []
+    },
+    {
+     "name": "NET_0074",
+     "nodes": []
+    },
+    {
+     "name": "NET_0075",
+     "nodes": []
+    },
+    {
+     "name": "NET_0076",
+     "nodes": []
+    },
+    {
+     "name": "NET_0077",
+     "nodes": []
+    },
+    {
+     "name": "NET_0078",
+     "nodes": []
+    },
+    {
+     "name": "NET_0079",
+     "nodes": []
+    },
+    {
+     "name": "NET_0080",
+     "nodes": []
+    },
+    {
+     "name": "NET_0081",
+     "nodes": []
+    },
+    {
+     "name": "NET_0082",
+     "nodes": []
+    },
+    {
+     "name": "NET_0083",
+     "nodes": []
+    },
+    {
+     "name": "NET_0084",
+     "nodes": []
+    },
+    {
+     "name": "NET_0085",
+     "nodes": []
+    },
+    {
+     "name": "NET_0086",
+     "nodes": []
+    },
+    {
+     "name": "NET_0087",
+     "nodes": []
+    },
+    {
+     "name": "NET_0088",
+     "nodes": []
+    },
+    {
+     "name": "NET_0089",
+     "nodes": []
+    },
+    {
+     "name": "NET_0090",
+     "nodes": []
+    },
+    {
+     "name": "NET_0091",
+     "nodes": []
+    },
+    {
+     "name": "NET_0092",
+     "nodes": []
+    },
+    {
+     "name": "NET_0093",
+     "nodes": []
+    },
+    {
+     "name": "NET_0094",
+     "nodes": []
+    },
+    {
+     "name": "NET_0095",
+     "nodes": []
+    },
+    {
+     "name": "NET_0096",
+     "nodes": []
+    },
+    {
+     "name": "NET_0097",
+     "nodes": []
+    },
+    {
+     "name": "NET_0098",
+     "nodes": []
+    },
+    {
+     "name": "NET_0099",
+     "nodes": []
+    },
+    {
+     "name": "NET_0100",
+     "nodes": []
+    },
+    {
+     "name": "NET_0101",
+     "nodes": []
+    },
+    {
+     "name": "NET_0102",
+     "nodes": []
+    },
+    {
+     "name": "NET_0103",
+     "nodes": []
+    },
+    {
+     "name": "NET_0104",
+     "nodes": []
+    },
+    {
+     "name": "NET_0105",
+     "nodes": []
+    },
+    {
+     "name": "NET_0106",
+     "nodes": []
+    },
+    {
+     "name": "NET_0107",
+     "nodes": []
+    },
+    {
+     "name": "NET_0108",
+     "nodes": []
+    },
+    {
+     "name": "NET_0109",
+     "nodes": []
+    },
+    {
+     "name": "NET_0110",
+     "nodes": []
+    },
+    {
+     "name": "NET_0111",
+     "nodes": []
+    },
+    {
+     "name": "NET_0112",
+     "nodes": []
+    },
+    {
+     "name": "NET_0113",
+     "nodes": []
+    },
+    {
+     "name": "NET_0114",
+     "nodes": []
+    },
+    {
+     "name": "NET_0115",
+     "nodes": []
+    },
+    {
+     "name": "NET_0116",
+     "nodes": []
+    },
+    {
+     "name": "NET_0117",
+     "nodes": []
+    },
+    {
+     "name": "NET_0118",
+     "nodes": []
+    },
+    {
+     "name": "NET_0119",
+     "nodes": []
+    },
+    {
+     "name": "NET_0120",
+     "nodes": []
+    },
+    {
+     "name": "NET_0121",
+     "nodes": []
+    },
+    {
+     "name": "NET_0122",
+     "nodes": []
+    },
+    {
+     "name": "NET_0123",
+     "nodes": []
+    },
+    {
+     "name": "NET_0124",
+     "nodes": []
+    }
+   ],
+   "title": "[",
+   "file": "POD4A.NET"
+  }
+ ],
+ "boms": [
+  {
+   "file": "POD4A.BOM",
+   "header": [
+    "POD-4 DUAL MICICROPHONE PREAMPLIFIER          Revised:   October 20, 1995",
+    "14-306-02-001/1                               Revision: 0",
+    "Bill Of Materials             November    9, 1995     10:38:17     Page    1"
+   ],
+   "items": [
+    {
+     "item": 1,
+     "qty": 2,
+     "refs": "C45,C42",
+     "part": "220u/63V"
+    },
+    {
+     "item": 2,
+     "qty": 2,
+     "refs": "C46,C43",
+     "part": "100u/63V"
+    },
+    {
+     "item": 3,
+     "qty": 1,
+     "refs": "C44",
+     "part": "10u/63V"
+    },
+    {
+     "item": 4,
+     "qty": 3,
+     "refs": "C47,C52,C55",
+     "part": "22u/25V"
+    },
+    {
+     "item": 5,
+     "qty": 2,
+     "refs": "C48,C49",
+     "part": "470u/63V"
+    },
+    {
+     "item": 6,
+     "qty": 6,
+     "refs": "C50,C51,C53,C54,C56,C57",
+     "part": ".1/50V"
+    },
+    {
+     "item": 7,
+     "qty": 2,
+     "refs": "D7,D8",
+     "part": "FLV 410 YELLOW"
+    },
+    {
+     "item": 8,
+     "qty": 9,
+     "refs": "D9,D10,D13,D15,D16,D19,D20,D22,D23",
+     "part": "1N4003"
+    },
+    {
+     "item": 9,
+     "qty": 1,
+     "refs": "D11",
+     "part": "1N4757A"
+    },
+    {
+     "item": 10,
+     "qty": 1,
+     "refs": "D12",
+     "part": "1N750A"
+    },
+    {
+     "item": 11,
+     "qty": 1,
+     "refs": "D14",
+     "part": "IN4003"
+    },
+    {
+     "item": 12,
+     "qty": 1,
+     "refs": "D17",
+     "part": "551-0405 RED"
+    },
+    {
+     "item": 13,
+     "qty": 2,
+     "refs": "D18,D21",
+     "part": "1N5711"
+    },
+    {
+     "item": 14,
+     "qty": 2,
+     "refs": "D24,D25",
+     "part": "1N4744A"
+    },
+    {
+     "item": 15,
+     "qty": 1,
+     "refs": "D26",
+     "part": "1N4001"
+    },
+    {
+     "item": 16,
+     "qty": 1,
+     "refs": "F1",
+     "part": ".25A SB"
+    },
+    {
+     "item": 17,
+     "qty": 3,
+     "refs": "F2,F3,F4",
+     "part": ".25A FB"
+    },
+    {
+     "item": 18,
+     "qty": 3,
+     "refs": "Q3,Q4,Q5",
+     "part": "2N6731"
+    },
+    {
+     "item": 19,
+     "qty": 2,
+     "refs": "R52,R47",
+     "part": "5K6 1W"
+    },
+    {
+     "item": 20,
+     "qty": 4,
+     "refs": "R48,R49,R50,R51",
+     "part": "6K81 1%"
+    },
+    {
+     "item": 21,
+     "qty": 2,
+     "refs": "R53,R54",
+     "part": "470 1/2W"
+    },
+    {
+     "item": 22,
+     "qty": 2,
+     "refs": "R56,R55",
+     "part": "10K"
+    },
+    {
+     "item": 23,
+     "qty": 1,
+     "refs": "R57",
+     "part": "4K3 1W"
+    },
+    {
+     "item": 24,
+     "qty": 1,
+     "refs": "R58",
+     "part": "10K 3W"
+    },
+    {
+     "item": 25,
+     "qty": 2,
+     "refs": "R59,R62",
+     "part": "3K9"
+    },
+    {
+     "item": 26,
+     "qty": 2,
+     "refs": "R60,R63",
+     "part": "240"
+    },
+    {
+     "item": 27,
+     "qty": 1,
+     "refs": "R61",
+     "part": "100 2/1W"
+    },
+    {
+     "item": 28,
+     "qty": 3,
+     "refs": "R64,R70,R76",
+     "part": "100 1/2W"
+    },
+    {
+     "item": 29,
+     "qty": 4,
+     "refs": "R65,R67,R71,R73",
+     "part": "39K"
+    },
+    {
+     "item": 30,
+     "qty": 2,
+     "refs": "R66,R72",
+     "part": "3K3"
+    },
+    {
+     "item": 31,
+     "qty": 4,
+     "refs": "R68,R69,R74,R75",
+     "part": "4K7"
+    },
+    {
+     "item": 32,
+     "qty": 1,
+     "refs": "R90",
+     "part": "1K 1/2W"
+    },
+    {
+     "item": 33,
+     "qty": 1,
+     "refs": "SW",
+     "part": "5                      MIC 1"
+    },
+    {
+     "item": 34,
+     "qty": 1,
+     "refs": "SW",
+     "part": "6                      MIC 2"
+    },
+    {
+     "item": 35,
+     "qty": 1,
+     "refs": "SW",
+     "part": "7                      POWER"
+    },
+    {
+     "item": 36,
+     "qty": 1,
+     "refs": "T1",
+     "part": "TC0080-0021"
+    },
+    {
+     "item": 37,
+     "qty": 1,
+     "refs": "U10",
+     "part": "74HC04"
+    },
+    {
+     "item": 38,
+     "qty": 1,
+     "refs": "U11",
+     "part": "LM317T"
+    },
+    {
+     "item": 39,
+     "qty": 1,
+     "refs": "U12",
+     "part": "LM337T"
+    }
+   ]
+  },
+  {
+   "file": "POD4B.BOM",
+   "header": [
+    "POD4 DUAL MICROPHONE PRAMPLIFIER              Revised:   October 20, 1995",
+    "B 14-306-02-001/2                             Revision: 0",
+    "Bill Of Materials             November    9, 1995     10:37:55     Page    1"
+   ],
+   "items": [
+    {
+     "item": 1,
+     "qty": 12,
+     "refs": "C1,C4,C6,C8,C10,C12,C14,C15,C16,C18,C21,C22",
+     "part": ".1/50V"
+    },
+    {
+     "item": 2,
+     "qty": 4,
+     "refs": "C2,C3,C5,C9",
+     "part": "47u/50V"
+    },
+    {
+     "item": 3,
+     "qty": 1,
+     "refs": "C7",
+     "part": "4700P"
+    },
+    {
+     "item": 4,
+     "qty": 3,
+     "refs": "C11,C17,C19",
+     "part": "47u/25V"
+    },
+    {
+     "item": 5,
+     "qty": 2,
+     "refs": "C13,C20",
+     "part": "47P"
+    },
+    {
+     "item": 6,
+     "qty": 1,
+     "refs": "D1",
+     "part": "FLV 110"
+    },
+    {
+     "item": 7,
+     "qty": 2,
+     "refs": "D2,D3",
+     "part": "1N4148"
+    },
+    {
+     "item": 8,
+     "qty": 1,
+     "refs": "Q1",
+     "part": "2N3904"
+    },
+    {
+     "item": 9,
+     "qty": 2,
+     "refs": "R1,R4",
+     "part": "750 1%"
+    },
+    {
+     "item": 10,
+     "qty": 2,
+     "refs": "R2,R3",
+     "part": "100 1%"
+    },
+    {
+     "item": 11,
+     "qty": 2,
+     "refs": "R5,R6",
+     "part": "49R9 1%"
+    },
+    {
+     "item": 12,
+     "qty": 2,
+     "refs": "R7,R8",
+     "part": "10K 1%"
+    },
+    {
+     "item": 13,
+     "qty": 1,
+     "refs": "R9",
+     "part": "1K 'B'"
+    },
+    {
+     "item": 14,
+     "qty": 2,
+     "refs": "R10,R11",
+     "part": "51"
+    },
+    {
+     "item": 15,
+     "qty": 1,
+     "refs": "R12",
+     "part": "500"
+    },
+    {
+     "item": 16,
+     "qty": 1,
+     "refs": "R13",
+     "part": "30"
+    },
+    {
+     "item": 17,
+     "qty": 1,
+     "refs": "R14",
+     "part": "15"
+    },
+    {
+     "item": 18,
+     "qty": 1,
+     "refs": "R15",
+     "part": "100K"
+    },
+    {
+     "item": 19,
+     "qty": 1,
+     "refs": "R16",
+     "part": "2K4"
+    },
+    {
+     "item": 20,
+     "qty": 2,
+     "refs": "R17,R21",
+     "part": "100K"
+    },
+    {
+     "item": 21,
+     "qty": 1,
+     "refs": "R18",
+     "part": "4k7"
+    },
+    {
+     "item": 22,
+     "qty": 3,
+     "refs": "R19,R22,R23",
+     "part": "4K64 1%"
+    },
+    {
+     "item": 23,
+     "qty": 2,
+     "refs": "R20,R24",
+     "part": "11K1 1%"
+    },
+    {
+     "item": 24,
+     "qty": 2,
+     "refs": "SW",
+     "part": "1A,SW 1B               1/2 4CF"
+    },
+    {
+     "item": 25,
+     "qty": 1,
+     "refs": "SW",
+     "part": "2                      CAL SW"
+    },
+    {
+     "item": 26,
+     "qty": 1,
+     "refs": "U1",
+     "part": "SSM2017"
+    },
+    {
+     "item": 27,
+     "qty": 1,
+     "refs": "U2",
+     "part": "OPA2604"
+    },
+    {
+     "item": 28,
+     "qty": 2,
+     "refs": "U3,U5",
+     "part": "SSM2142"
+    },
+    {
+     "item": 29,
+     "qty": 1,
+     "refs": "U4",
+     "part": "74HC4053N"
+    }
+   ]
+  },
+  {
+   "file": "POD4C.BOM",
+   "header": [
+    "POD4 DUAL MICROPHONE PRAMPLIFIER              Revised:   October 20, 1995",
+    "B 14-306-02-001/3                             Revision: 0",
+    "Bill Of Materials             November    9, 1995     10:37:30     Page    1"
+   ],
+   "items": [
+    {
+     "item": 1,
+     "qty": 11,
+     "refs": "C23,C26,C28,C30,C33,C34,C36,C37,C38,C40,C41",
+     "part": ".1/50V"
+    },
+    {
+     "item": 2,
+     "qty": 4,
+     "refs": "C24,C25,C27,C31",
+     "part": "47u/50V"
+    },
+    {
+     "item": 3,
+     "qty": 1,
+     "refs": "C29",
+     "part": "4700P"
+    },
+    {
+     "item": 4,
+     "qty": 1,
+     "refs": "C32",
+     "part": "47u/25V"
+    },
+    {
+     "item": 5,
+     "qty": 2,
+     "refs": "C35,C39",
+     "part": "47P"
+    },
+    {
+     "item": 6,
+     "qty": 1,
+     "refs": "D4",
+     "part": "FLV 110"
+    },
+    {
+     "item": 7,
+     "qty": 2,
+     "refs": "D5,D6",
+     "part": "1N4148"
+    },
+    {
+     "item": 8,
+     "qty": 1,
+     "refs": "Q2",
+     "part": "2N3904"
+    },
+    {
+     "item": 9,
+     "qty": 2,
+     "refs": "R25,R28",
+     "part": "750 1%"
+    },
+    {
+     "item": 10,
+     "qty": 2,
+     "refs": "R26,R27",
+     "part": "100 1%"
+    },
+    {
+     "item": 11,
+     "qty": 2,
+     "refs": "R29,R30",
+     "part": "49R9 1%"
+    },
+    {
+     "item": 12,
+     "qty": 2,
+     "refs": "R31,R32",
+     "part": "10K 1%"
+    },
+    {
+     "item": 13,
+     "qty": 1,
+     "refs": "R33",
+     "part": "1K 'B'"
+    },
+    {
+     "item": 14,
+     "qty": 2,
+     "refs": "R34,R35",
+     "part": "51"
+    },
+    {
+     "item": 15,
+     "qty": 1,
+     "refs": "R36",
+     "part": "500"
+    },
+    {
+     "item": 16,
+     "qty": 1,
+     "refs": "R37",
+     "part": "30"
+    },
+    {
+     "item": 17,
+     "qty": 1,
+     "refs": "R38",
+     "part": "15"
+    },
+    {
+     "item": 18,
+     "qty": 3,
+     "refs": "R39,R41,R43",
+     "part": "100K"
+    },
+    {
+     "item": 19,
+     "qty": 1,
+     "refs": "R40",
+     "part": "2K4"
+    },
+    {
+     "item": 20,
+     "qty": 1,
+     "refs": "R42",
+     "part": "4k7"
+    },
+    {
+     "item": 21,
+     "qty": 1,
+     "refs": "R44",
+     "part": "4K64 1%"
+    },
+    {
+     "item": 22,
+     "qty": 2,
+     "refs": "R45,R46",
+     "part": "11K1 1%"
+    },
+    {
+     "item": 23,
+     "qty": 2,
+     "refs": "SW",
+     "part": "3A,SW 3B               1/2 4CF"
+    },
+    {
+     "item": 24,
+     "qty": 1,
+     "refs": "SW",
+     "part": "4                      CAL SW"
+    },
+    {
+     "item": 25,
+     "qty": 1,
+     "refs": "U6",
+     "part": "SSM2017"
+    },
+    {
+     "item": 26,
+     "qty": 1,
+     "refs": "U7",
+     "part": "OPA2604"
+    },
+    {
+     "item": 27,
+     "qty": 2,
+     "refs": "U8,U9",
+     "part": "SSM2142"
+    }
+   ]
+  }
+ ],
+ "libraries": []
+}

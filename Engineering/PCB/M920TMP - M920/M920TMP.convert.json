@@ -1,0 +1,24 @@
+{
+  "source": "/home/anthony/Documents/GitProjects/WBSps.ca/WBSps.env/WBSps Engineering from H drive/WBSps - CONSOLES/REN TV Console/M920/M920TMP.PCB",
+  "kicad_pcb": "/home/anthony/Documents/GitProjects/WBSps.ca/2026/Engineering/PCB/M920TMP - M920/M920TMP.kicad_pcb",
+  "format": "Tango-PCB PLUS V2.02 Series II",
+  "edge_layer": 14,
+  "tango_layers_used": {
+    "0": 15,
+    "8": 390,
+    "12": 3,
+    "13": 68,
+    "14": 7,
+    "18": 26
+  },
+  "counts": {
+    "components": 75,
+    "pads": 339,
+    "tracks": 0,
+    "vias": 0,
+    "graphics": 423,
+    "texts": 86,
+    "pours": 0
+  },
+  "nets": null
+}

@@ -1,0 +1,113 @@
+# 1988 - 880134 - 2442-01-001 - STEREQ MASTER MODULE MONITOR MONITOR AUXILIARY CHANNEL INSERTS.jpg
+Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
+
+
+- **Year:** 1988 (job number 880134 (first two digits = year))
+- **Job / serial number:** 880134
+- **Project:** CFTO ST
+- **Original file:** `WBSps.env/PUBLIC/Manuals + tech DOCUMENTS/Consoles/880134  - CFTO ST/2442-01-001b.jpg`
+- **SHA-256:** `1be1af59dc269f44a9300b87f963a9c9e99e45e583acf7745308144427f0e91f`
+- **Size:** 5,742,593 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 11 words corrected)
+
+```text
+E ; 3 ?? 2 2 3 ?
+MASTER
+MASTER CHANNEL1
+LEFT
+RIGHT
+MOE
+INSERTS
+MONO
+(OdB)
+LEFT
+MASTER +8 dBm 600n
+RIGHT
+MONITOR
+M527 STEREO MASTER MODULE
+MONITOR
+MONITOR
+MASTER
+MASTER CHANNEL2
+LEFT
+RIGHT
+MOE
+MONO
+LEFT
+MASTER +8 dBm 600n
+RIGHT
+MONITOR
+M527_SIEREO MASTER_MODULE
+MONITOR
+MONITOR
+AUXILIARY CHANNEL
+INSERTS
+LEFT
+AUXILIARY +8 dBm 6000
+RIGHT
+dBm
+(~1OdB)
+To UTILITY MODULE To MONITOR
+M528_DUAL AUXILIARY MODULE
+AUXILIARY_CHANNEL2
+LEFT
+AUXILIARY
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+E ; 3 ?? 2 2 3 ?
+MASTER
+MASIER CHANNEL1
+LEFT
+RIGHT
+MOE
+INSERTS
+OMONO
+(OdB)
+OLEFT
+MASTER +8 dBm 600n
+ORIGHT
+MONITOR
+M527 STEREO MASTER MODULE
+MONITOR
+MONITOR
+MASTER
+MASTER CHANNEL2
+LEFT
+RIGHT
+MOE
+OMONO
+OLEFT
+MASTER +8 dBm 600n
+ORIGHT
+MONITOR
+M527_SIEREO MASTER_MODULE
+MONITOR
+MONITOR
+AUXILIARY CHANNEL
+INSERTS
+OLEFT
+AUXILIARY +8 dBm 6000
+ORIGHT
+dBm
+(~1OdB)
+To UTILITY MODULE To MONITOR
+M528_DUAL AUXILIARY MQDULE
+AUXILIARY_CHANNEL2
+OLEFT
+AUXILIARY
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 2442-01-001 - STEREQ MASTER MODULE MONITOR MONITOR AUXILIARY CHANNEL INSERTS.jpg","sha256":"1be1af59dc269f44a9300b87f963a9c9e99e45e583acf7745308144427f0e91f","kind":"job","models":["880134"],"year":1988,"pages":1,"order":[{"page":1,"title_block":[{"number":"2442-01-001","type":"functional / block diagram","title":"Stereq Master Module Monitor Monitor Auxiliary Channel Inserts"}],"modules":["M527","M528"],"module_boxes":[{"code":"E","box":[0.1023,0.245,0.1421,0.2868]},{"code":"MASTER","box":[0.9042,0.2845,0.9569,0.2955]},{"code":";","box":[0.0367,0.2777,0.0495,0.3168]},{"code":"3 ??","box":[0.0707,0.2864,0.1428,0.3191]},{"code":"2","box":[0.1543,0.2955,0.1698,0.3164]},{"code":"3","box":[0.1929,0.2945,0.2109,0.3173]},{"code":"3 ?","box":[0.2212,0.2936,0.2611,0.3173]},{"code":"MASIER","box":[0.3987,0.2964,0.463,0.3091]},{"code":"CHANNEL1","box":[0.4682,0.2964,0.5582,0.3082]},{"code":"LEFT","box":[0.8592,0.3027,0.8926,0.3136]},{"code":"RIGHT","box":[0.9158,0.3027,0.9569,0.3136]},{"code":"MOE","box":[0.9768,0.3041,0.9987,0.3132]},{"code":"INSERTS","box":[0.4354,0.3268,0.4804,0.3359]},{"code":"OMONO","box":[0.6945,0.3364,0.7473,0.3473]},{"code":"(OdB)","box":[0.5248,0.3464,0.5582,0.3573]},{"code":"OLEFT","box":[0.6932,0.3736,0.7395,0.3845]},{"code":"MASTER","box":[0.7666,0.37,0.8193,0.3809]},{"code":"+8","box":[0.7576,0.3809,0.7794,0.3918]},{"code":"dBm","box":[0.7833,0.3809,0.8154,0.3918]},{"code":"600n","box":[0.8193,0.3809,0.8617,0.3918]},{"code":"ORIGHT","box":[0.6945,0.41,0.746,0.4209]},{"code":"MONITOR","box":[0.6469,0.44,0.7048,0.4509]},{"code":"M527","box":[0.3768,0.4682,0.4141,0.4791]},{"code":"STEREO","box":[0.4193,0.4682,0.4707,0.4791]},{"code":"MASTER","box":[0.4759,0.4682,0.5286,0.4791]},{"code":"MODULE","box":[0.5338,0.4682,0.5891,0.48]},{"code":"MONITOR","box":[0.6457,0.4645,0.7048,0.4755]},{"code":"MONITOR","box":[0.6457,0.4891,0.7048,0.5]},{"code":"MASTER","box":[0.9003,0.4982,0.9556,0.5091]},{"code":"MASTER","box":[0.3955,0.5082,0.4605,0.5223]},{"code":"CHANNEL2","box":[0.4669,0.51,0.5595,0.5218]},{"code":"LEFT","box":[0.8592,0.5164,0.8913,0.5273]},{"code":"RIGHT","box":[0.9158,0.5164,0.9556,0.5273]},{"code":"MOE","box":[0.9762,0.5164,0.9981,0.5273]},{"code":"OMONO","box":[0.6945,0.55,0.746,0.5609]},{"code":"OLEFT","box":[0.6932,0.5864,0.7395,0.5973]},{"code":"MASTER","box":[0.7704,0.5836,0.8232,0.5945]},{"code":"+8","box":[0.7588,0.5936,0.7807,0.6045]},{"code":"dBm","box":[0.7846,0.5936,0.8167,0.6045]},{"code":"600n","box":[0.8206,0.5936,0.8617,0.6045]},{"code":"ORIGHT","box":[0.6945,0.6227,0.746,0.6336]},{"code":"MONITOR","box":[0.6457,0.6527,0.7048,0.6636]},{"code":"M527_SIEREO","box":[0.3768,0.68,0.4707,0.6918]},{"code":"MASTER_MODULE","box":[0.4746,0.68,0.5878,0.6918]},{"code":"MONITOR","box":[0.6457,0.6773,0.7048,0.6891]},{"code":"MONITOR","box":[0.6457,0.7018,0.7048,0.7127]},{"code":"AUXILIARY CHANNEL","box":[0.3897,0.7255,0.5511,0.7391]},{"code":"INSERTS","box":[0.4341,0.7514,0.4791,0.7605]},{"code":"OLEFT","box":[0.6932,0.7627,0.7383,0.7736]},{"code":"AUXILIARY","box":[0.7685,0.7732,0.8367,0.7823]},{"code":"+8","box":[0.7537,0.7827,0.7756,0.7936]},{"code":"dBm","box":[0.7794,0.7827,0.8103,0.7936]},{"code":"6000","box":[0.8154,0.7827,0.8579,0.7936]},{"code":"ORIGHT","box":[0.6932,0.8,0.7447,0.8109]},{"code":"dBm","box":[0.4508,0.8132,0.4752,0.8214]},{"code":"(~1OdB)","box":[0.5183,0.8118,0.5646,0.8227]},{"code":"To","box":[0.6714,0.8545,0.6907,0.8655]},{"code":"UTILITY","box":[0.6945,0.8545,0.7434,0.8655]},{"code":"MODULE","box":[0.6804,0.8645,0.7357,0.8764]},{"code":"To","box":[0.6984,0.8791,0.7177,0.89]},{"code":"MONITOR","box":[0.6791,0.8891,0.737,0.9]},{"code":"M528_DUAL","box":[0.3756,0.8936,0.4553,0.9055]},{"code":"AUXILIARY","box":[0.4598,0.8936,0.5267,0.9055]},{"code":"MQDULE","box":[0.5325,0.8936,0.5865,0.9055]},{"code":"AUXILIARY_CHANNEL 2","box":[0.3871,0.9364,0.5659,0.9491]},{"code":"OLEFT","box":[0.692,0.9764,0.737,0.9873]},{"code":"AUXILIARY","box":[0.7653,0.9855,0.8334,0.9964]}],"text":["E","; MASTER","3 ?? 2 3 3 ? MASIER CHANNEL1 LEFT RIGHT","MOE","INSERTS","OMONO","(OdB)","OLEFT MASTER","+8 dBm 600n","ORIGHT","MONITOR","M527 STEREO MASTER MODULE MONITOR","MONITOR","MASTER","MASTER CHANNEL2","LEFT RIGHT MOE","OMONO","OLEFT MASTER","+8 dBm 600n","ORIGHT","MONITOR","M527_SIEREO MASTER_MODULE MONITOR","MONITOR","AUXILIARY CHANNEL","INSERTS","OLEFT","AUXILIARY","+8 dBm 6000","ORIGHT","dBm (~1OdB)","To UTILITY","MODULE","To","M528_DUAL AUXILIARY MQDULE MONITOR","AUXILIARY_CHANNEL 2","OLEFT","AUXILIARY"]}],"drawing":{"svg":"_traces/1be1af59dc269f44.svg","viewBox":[1414,2000],"rotate":0,"number":"2442-01-001","title":"Stereq Master Module Monitor Monitor Auxiliary Channel Inserts","dtype":"01","outlines":"see _traces/1be1af59dc269f44.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/1be1af59dc269f44.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","blocks":[[1208,648,61,31],[1294,648,61,31],[562,684,241,75],[240,684,31,74],[18,758,30,73],[18,830,30,98],[562,830,241,62],[18,952,30,72],[186,1036,30,73],[1208,1074,61,31],[1292,1074,61,31],[240,1110,30,61],[380,1110,121,74],[560,1110,242,74],[560,1256,242,61],[560,1536,242,74],[558,1610,243,135],[426,1768,73,49]],"words":[[1279,591,"MASTER"],[564,618,"MASIER"],[662,616,"CHANNEL1"],[1215,627,"LEFT"],[1295,627,"RIGHT"],[1381,626,"MOE"],[616,672,"INSERTS"],[982,695,"OMONO"],[742,715,"(OdB)"],[980,769,"OLEFT"],[1084,762,"MASTER"],[1108,784,"dBm"],[1158,784,"600n"],[982,842,"ORIGHT"],[915,902,"MONITOR"],[533,958,"M527"],[593,958,"STEREO"],[673,958,"MASTER"],[755,960,"MODULE"],[913,951,"MONITOR"],[913,1000,"MONITOR"],[1273,1018,"MASTER"],[559,1045,"MASTER"],[660,1044,"CHANNEL2"],[1215,1055,"LEFT"],[1295,1055,"RIGHT"],[1380,1055,"MOE"],[982,1122,"OMONO"],[980,1195,"OLEFT"],[1089,1189,"MASTER"],[1109,1209,"dBm"],[1160,1209,"600n"],[982,1267,"ORIGHT"],[913,1327,"MONITOR"],[533,1384,"M527_SIEREO"],[671,1384,"MASTER_MODULE"],[913,1378,"MONITOR"],[913,1425,"MONITOR"],[551,1478,"AUXILIARY CHANNEL"],[614,1521,"INSERTS"],[980,1547,"OLEFT"],[1087,1565,"AUXILIARY"],[1102,1587,"dBm"],[1153,1587,"6000"],[980,1622,"ORIGHT"],[637,1643,"dBm"],[733,1645,"(~1OdB)"],[949,1731,"To"],[982,1731,"UTILITY"],[962,1753,"MODULE"],[988,1780,"To"],[960,1800,"MONITOR"],[531,1811,"M528_DUAL"],[650,1811,"AUXILIARY"],[753,1811,"MQDULE"],[547,1898,"AUXILIARY_CHANNEL 2"],[978,1975,"OLEFT"],[1082,1993,"AUXILIARY"]]}}
+```

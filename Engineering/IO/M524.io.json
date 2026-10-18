@@ -1,0 +1,43 @@
+{
+ "code": "M524",
+ "series": null,
+ "type": "M524",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "O1",
+   "signal": "Tally Data Drive",
+   "dir": "out",
+   "pos": "O1P",
+   "neg": "O1N",
+   "src_page": 4
+  },
+  {
+   "port": "O2",
+   "signal": "Led Display Drive",
+   "dir": "out",
+   "pos": "O2P",
+   "neg": "O2N",
+   "src_page": 6
+  }
+ ],
+ "power": [
+  {
+   "rail": "+5V",
+   "volts": 5.0,
+   "supply": "+5V",
+   "ground": "GND",
+   "max_a": null
+  }
+ ],
+ "logic": [],
+ "ground": [],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "93fee59c31f662f7d62e86ed911c68673ec78bcfe40ea31971b580bfd4064ac5"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."
+}

@@ -1,0 +1,756 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M435</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../../../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../../../index.html">Index</a><a href="../../../Home.html">Wiki home</a><a href="../../../PAGES/Timeline.html">Timeline</a><a href="../../../search.html">Search</a><a href="../../../status.html">Status</a></div><h1>M435</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="../../../PAGES/Category-METER.html">METER</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../../../simulator.html?m=M435">simulator &amp; front panel</a> · <a href="../../../_packages/M435.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="../../../PAGES/Year-1994.html">1994|27</a> — manual issue date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"MANUAL ISSUE# April 1994" in PUBLIC/Manuals + tech DOCUMENTS/METERING/-M435---M436---VU-Meter/M435-436 - P001 - Title Page.jpg</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="../../../PAGES/Year-1994.html">1994|27</a></td>
+</tr>
+<tr>
+<td>Used in jobs</td>
+<td><a href="../../../PAGES/Job-880134.html">880134</a> (1988|21), BIGCFTOTVdone, WBSStSeriesStereoConsole</td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="index.html">Modules/METER/M435</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../PHOTOS/Drawings/">PHOTOS/Drawings</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections and circuit (ideal SPICE model)</h2>
+<p><em>Inputs, outputs, power and control as its own documents name them (no RTO-144 sheet for it: pin numbers only where the page gives them). Run the generator, turn the gain, watch the VU.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M435" data-n="" data-cat="METER"></div><svg class="wbs-panel" data-m="M435" data-n="" data-cat="METER" role="img" aria-label="M435 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M435","title":"","rto":{"code":"M435","series":null,"type":"M435","impedance":{},"audio":[{"port":"I1","signal":"Input R19","dir":"in","pos":"I1P","neg":"I1N","src_page":14},{"port":"O1","signal":"Meter Drive","dir":"out","pos":"O1P","neg":"O1N","src_page":14},{"port":"O2","signal":"R6 Drive","dir":"out","pos":"O2P","neg":"O2N","src_page":14}],"power":[{"rail":"+24V","volts":24.0,"supply":"+24V","ground":"E8 LAMP COMMON","max_a":null},{"rail":"+35V","volts":35.0,"supply":"+35V","ground":"E8 LAMP COMMON","max_a":null}],"logic":[{"signal":"Lamp O","pin":""},{"signal":"Lamp Dropping Resistor","pin":""}],"ground":["E8 LAMP COMMON","SUPPLY COMMON"],"bus_out":[],"bus_in":[],"jumpers":[],"derived":true,"sources":["424c4d7f62c18307be8c74649ad0bfaa3c6378051e31d54143b2fcbb484eccb3","87f7508312d5b0a0b8384df82620773ce730b24614affd488dcf99ed0f7ea21c"],"note":"Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."},"parts":[{"item":"SA14-121","title":"SA14-121 VU METER AMPLIFIER / SCHEMATIC","label":"SA14-121 SA14-121 VU METER AMPLIFIE","href":"Register-Circuit-boards-SA14-nnn.html#sa14-121","note":"Circuit boards (SA14-nnn)"}],"parents":[{"label":"880134","href":"Job-880134.html","note":"CFTO ST"},{"label":"BIGCFTOTVdone","href":"#","note":"console / job"},{"label":"WBSStSeriesStereoConsole","href":"#","note":"console / job"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P001%20-%20Title%20Page.jpg"><img loading="lazy" src="../../../Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P001%20-%20Title%20Page.jpg" alt="" data-f="Modules/METER/M435/1994 - M435 - 436 - P001 - Title Page.jpg" data-size="320" onerror="wbsOff(this)">1994 - M435 - 436 - P001 - Title Page.jpg</a><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%2014-121-02-001%20-%20METER%20AMPLIFIER%20SCHEMATIC.jpg"><img loading="lazy" src="../../../Modules/METER/M435/1994%20-%20M435%20-%2014-121-02-001%20-%20METER%20AMPLIFIER%20SCHEMATIC.jpg" alt="" data-f="Modules/METER/M435/1994 - M435 - 14-121-02-001 - METER AMPLIFIER SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)">1994 - M435 - 14-121-02-001 - METER AMPLIFIER SCHEMATIC.jpg</a><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%2014-121-06-001%20-%20METER%20AMPLIFIER%20COMPONENT.jpg"><img loading="lazy" src="../../../Modules/METER/M435/1994%20-%20M435%20-%2014-121-06-001%20-%20METER%20AMPLIFIER%20COMPONENT.jpg" alt="" data-f="Modules/METER/M435/1994 - M435 - 14-121-06-001 - METER AMPLIFIER COMPONENT.jpg" data-size="320" onerror="wbsOff(this)">1994 - M435 - 14-121-06-001 - METER AMPLIFIER COMPONENT.jpg</a><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P002%20-%201-1.jpg"><img loading="lazy" src="../../../Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P002%20-%201-1.jpg" alt="" data-f="Modules/METER/M435/1994 - M435 - 436 - P002 - 1-1.jpg" data-size="320" onerror="wbsOff(this)">1994 - M435 - 436 - P002 - 1-1.jpg</a><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P003%20-%202-1.jpg"><img loading="lazy" src="../../../Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P003%20-%202-1.jpg" alt="" data-f="Modules/METER/M435/1994 - M435 - 436 - P003 - 2-1.jpg" data-size="320" onerror="wbsOff(this)">1994 - M435 - 436 - P003 - 2-1.jpg</a><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P004%20-%203-1.jpg"><img loading="lazy" src="../../../Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P004%20-%203-1.jpg" alt="" data-f="Modules/METER/M435/1994 - M435 - 436 - P004 - 3-1.jpg" data-size="320" onerror="wbsOff(this)">1994 - M435 - 436 - P004 - 3-1.jpg</a><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P005%20-%203-2.jpg"><img loading="lazy" src="../../../Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P005%20-%203-2.jpg" alt="" data-f="Modules/METER/M435/1994 - M435 - 436 - P005 - 3-2.jpg" data-size="320" onerror="wbsOff(this)">1994 - M435 - 436 - P005 - 3-2.jpg</a><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P006%20-%203-3.jpg"><img loading="lazy" src="../../../Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P006%20-%203-3.jpg" alt="" data-f="Modules/METER/M435/1994 - M435 - 436 - P006 - 3-3.jpg" data-size="320" onerror="wbsOff(this)">1994 - M435 - 436 - P006 - 3-3.jpg</a><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P007%20-%204-1.jpg"><img loading="lazy" src="../../../Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P007%20-%204-1.jpg" alt="" data-f="Modules/METER/M435/1994 - M435 - 436 - P007 - 4-1.jpg" data-size="320" onerror="wbsOff(this)">1994 - M435 - 436 - P007 - 4-1.jpg</a><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P008%20-%204-2.jpg"><img loading="lazy" src="../../../Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P008%20-%204-2.jpg" alt="" data-f="Modules/METER/M435/1994 - M435 - 436 - P008 - 4-2.jpg" data-size="320" onerror="wbsOff(this)">1994 - M435 - 436 - P008 - 4-2.jpg</a><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P009%20-%205-1.jpg"><img loading="lazy" src="../../../Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P009%20-%205-1.jpg" alt="" data-f="Modules/METER/M435/1994 - M435 - 436 - P009 - 5-1.jpg" data-size="320" onerror="wbsOff(this)">1994 - M435 - 436 - P009 - 5-1.jpg</a><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P010%20-%206-1.jpg"><img loading="lazy" src="../../../Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P010%20-%206-1.jpg" alt="" data-f="Modules/METER/M435/1994 - M435 - 436 - P010 - 6-1.jpg" data-size="320" onerror="wbsOff(this)">1994 - M435 - 436 - P010 - 6-1.jpg</a><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P011%20-%206-2.jpg"><img loading="lazy" src="../../../Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P011%20-%206-2.jpg" alt="" data-f="Modules/METER/M435/1994 - M435 - 436 - P011 - 6-2.jpg" data-size="320" onerror="wbsOff(this)">1994 - M435 - 436 - P011 - 6-2.jpg</a><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P012%20-%207-1.jpg"><img loading="lazy" src="../../../Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P012%20-%207-1.jpg" alt="" data-f="Modules/METER/M435/1994 - M435 - 436 - P012 - 7-1.jpg" data-size="320" onerror="wbsOff(this)">1994 - M435 - 436 - P012 - 7-1.jpg</a><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P013%20-%207-2.jpg"><img loading="lazy" src="../../../Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P013%20-%207-2.jpg" alt="" data-f="Modules/METER/M435/1994 - M435 - 436 - P013 - 7-2.jpg" data-size="320" onerror="wbsOff(this)">1994 - M435 - 436 - P013 - 7-2.jpg</a><a href="../../../viewer.html?f=Modules/METER/M435/19xx%20-%2014-121-02-001.jpg"><img loading="lazy" src="../../../Modules/METER/M435/19xx%20-%2014-121-02-001.jpg" alt="" data-f="Modules/METER/M435/19xx - 14-121-02-001.jpg" data-size="320" onerror="wbsOff(this)">19xx - 14-121-02-001.jpg</a><a href="../../../viewer.html?f=Modules/METER/M435/M435-436%20-%20P005%20-%203-2%281%29.jpg"><img loading="lazy" src="../../../Modules/METER/M435/M435-436%20-%20P005%20-%203-2%281%29.jpg" alt="" data-f="Modules/METER/M435/M435-436 - P005 - 3-2(1).jpg" data-size="320" onerror="wbsOff(this)">M435-436 - P005 - 3-2(1).jpg</a><a href="../../../viewer.html?f=Modules/METER/M435/M435-436%20-%20P005%20-%203-2.jpg"><img loading="lazy" src="../../../Modules/METER/M435/M435-436%20-%20P005%20-%203-2.jpg" alt="" data-f="Modules/METER/M435/M435-436 - P005 - 3-2.jpg" data-size="320" onerror="wbsOff(this)">M435-436 - P005 - 3-2.jpg</a><a href="../../../viewer.html?f=Modules/METER/M435/MP1-MP2-MP3-MP4%20-%20P030%20-%20M435-436%20-%203-1.jpg"><img loading="lazy" src="../../../Modules/METER/M435/MP1-MP2-MP3-MP4%20-%20P030%20-%20M435-436%20-%203-1.jpg" alt="" data-f="Modules/METER/M435/MP1-MP2-MP3-MP4 - P030 - M435-436 - 3-1.jpg" data-size="320" onerror="wbsOff(this)">MP1-MP2-MP3-MP4 - P030 - M435-436 - 3-1.jpg</a><a href="../../../viewer.html?f=PHOTOS/Drawings/19xx%20-%2014-121-02-001%20-%20SA14-121%20VU%20METER%20AMPLIFIER%20SCHEMATIC%20-%20ISS%205.jpg"><img loading="lazy" src="../../../PHOTOS/Drawings/19xx%20-%2014-121-02-001%20-%20SA14-121%20VU%20METER%20AMPLIFIER%20SCHEMATIC%20-%20ISS%205.jpg" alt="" data-f="PHOTOS/Drawings/19xx - 14-121-02-001 - SA14-121 VU METER AMPLIFIER SCHEMATIC - ISS 5.jpg" data-size="320" onerror="wbsOff(this)">19xx - 14-121-02-001 - SA14-121 VU METER AMPLIFIER SCHEMATIC - ISS 5.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%203642-02-005%20-%20DENTICAL%20PLIED%20UTILITY%20RIGHT.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%203642-02-005%20-%20DENTICAL%20PLIED%20UTILITY%20RIGHT.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 3642-02-005 - DENTICAL PLIED UTILITY RIGHT.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 3642-02-005 - DENTICAL PLIED UTILITY RIGHT.jpg</a><a href="../../../viewer.html?f=Consoles/Models/L1202A/L1202A%20-%20P37%20-%20Input%20Channel%20Schematic.jpg"><img loading="lazy" src="../../../Consoles/Models/L1202A/L1202A%20-%20P37%20-%20Input%20Channel%20Schematic.jpg" alt="" data-f="Consoles/Models/L1202A/L1202A - P37 - Input Channel Schematic.jpg" data-size="320" onerror="wbsOff(this)">L1202A - P37 - Input Channel Schematic.jpg</a><a href="../../../viewer.html?f=PHOTOS/Drawings/1988%20-%203642-02-005%20-%20AUX%20CHANNEL%20SCHEMATIC%20-%20DRN%20DS%20-%20ISS%204.jpg"><img loading="lazy" src="../../../PHOTOS/Drawings/1988%20-%203642-02-005%20-%20AUX%20CHANNEL%20SCHEMATIC%20-%20DRN%20DS%20-%20ISS%204.jpg" alt="" data-f="PHOTOS/Drawings/1988 - 3642-02-005 - AUX CHANNEL SCHEMATIC - DRN DS - ISS 4.jpg" data-size="320" onerror="wbsOff(this)">1988 - 3642-02-005 - AUX CHANNEL SCHEMATIC - DRN DS - ISS 4.jpg</a><a href="../../../viewer.html?f=PHOTOS/Drawings/1988%20-%203642-02-006%20-%20METER%20SCHEMATIC%20-%20DRN%20DS%20-%20ISS%203.jpg"><img loading="lazy" src="../../../PHOTOS/Drawings/1988%20-%203642-02-006%20-%20METER%20SCHEMATIC%20-%20DRN%20DS%20-%20ISS%203.jpg" alt="" data-f="PHOTOS/Drawings/1988 - 3642-02-006 - METER SCHEMATIC - DRN DS - ISS 3.jpg" data-size="320" onerror="wbsOff(this)">1988 - 3642-02-006 - METER SCHEMATIC - DRN DS - ISS 3.jpg</a><a href="../../../viewer.html?f=Products/METERING/MP1/1992%20-%20MP1%20-%208100-02-001%20-%20AC-DC%20ADAPTER%20LAYOUT%20SHOWN%20FOR%20PREH%20CONNECTOR.jpg"><img loading="lazy" src="../../../Products/METERING/MP1/1992%20-%20MP1%20-%208100-02-001%20-%20AC-DC%20ADAPTER%20LAYOUT%20SHOWN%20FOR%20PREH%20CONNECTOR.jpg" alt="" data-f="Products/METERING/MP1/1992 - MP1 - 8100-02-001 - AC-DC ADAPTER LAYOUT SHOWN FOR PREH CONNECTOR.jpg" data-size="320" onerror="wbsOff(this)">1992 - MP1 - 8100-02-001 - AC-DC ADAPTER LAYOUT SHOWN FOR PREH CONNECTOR.jpg</a><a href="../../../viewer.html?f=Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20-%20P002.jpg"><img loading="lazy" src="../../../Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20-%20P002.jpg" alt="" data-f="Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P002.jpg" data-size="320" onerror="wbsOff(this)">1992 - MP1 - MP2-MP3-MP4 - P002.jpg</a><a href="../../../viewer.html?f=Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20-%20P006%20-%203-1.jpg"><img loading="lazy" src="../../../Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20-%20P006%20-%203-1.jpg" alt="" data-f="Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P006 - 3-1.jpg" data-size="320" onerror="wbsOff(this)">1992 - MP1 - MP2-MP3-MP4 - P006 - 3-1.jpg</a><a href="../../../viewer.html?f=Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20-%20P027%20-%20M435-436.jpg"><img loading="lazy" src="../../../Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20-%20P027%20-%20M435-436.jpg" alt="" data-f="Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P027 - M435-436.jpg" data-size="320" onerror="wbsOff(this)">1992 - MP1 - MP2-MP3-MP4 - P027 - M435-436.jpg</a><a href="../../../viewer.html?f=Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20-%20P028%20-%20M435-436%20-%201-1.jpg"><img loading="lazy" src="../../../Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20-%20P028%20-%20M435-436%20-%201-1.jpg" alt="" data-f="Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P028 - M435-436 - 1-1.jpg" data-size="320" onerror="wbsOff(this)">1992 - MP1 - MP2-MP3-MP4 - P028 - M435-436 - 1-1.jpg</a><a href="../../../viewer.html?f=Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20-%20P029%20-%20M435-436%20-%202-1.jpg"><img loading="lazy" src="../../../Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20-%20P029%20-%20M435-436%20-%202-1.jpg" alt="" data-f="Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P029 - M435-436 - 2-1.jpg" data-size="320" onerror="wbsOff(this)">1992 - MP1 - MP2-MP3-MP4 - P029 - M435-436 - 2-1.jpg</a><a href="../../../viewer.html?f=Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20-%20P030%20-%20M435-436%20-%203-1.jpg"><img loading="lazy" src="../../../Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20-%20P030%20-%20M435-436%20-%203-1.jpg" alt="" data-f="Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P030 - M435-436 - 3-1.jpg" data-size="320" onerror="wbsOff(this)">1992 - MP1 - MP2-MP3-MP4 - P030 - M435-436 - 3-1.jpg</a><a href="../../../viewer.html?f=Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20-%20P031%20-%20M435-436%20-%204-1.jpg"><img loading="lazy" src="../../../Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20-%20P031%20-%20M435-436%20-%204-1.jpg" alt="" data-f="Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P031 - M435-436 - 4-1.jpg" data-size="320" onerror="wbsOff(this)">1992 - MP1 - MP2-MP3-MP4 - P031 - M435-436 - 4-1.jpg</a><a href="../../../viewer.html?f=Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20-%20P032%20-%20M435-436%20-%205-1.jpg"><img loading="lazy" src="../../../Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20-%20P032%20-%20M435-436%20-%205-1.jpg" alt="" data-f="Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P032 - M435-436 - 5-1.jpg" data-size="320" onerror="wbsOff(this)">1992 - MP1 - MP2-MP3-MP4 - P032 - M435-436 - 5-1.jpg</a><a href="../../../viewer.html?f=Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20-%20P034%20-%20M435-436%20-%206-1.jpg"><img loading="lazy" src="../../../Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20-%20P034%20-%20M435-436%20-%206-1.jpg" alt="" data-f="Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P034 - M435-436 - 6-1.jpg" data-size="320" onerror="wbsOff(this)">1992 - MP1 - MP2-MP3-MP4 - P034 - M435-436 - 6-1.jpg</a><a href="../../../viewer.html?f=Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20-%20P035%20-%20M435-436%20-%206-2.jpg"><img loading="lazy" src="../../../Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20-%20P035%20-%20M435-436%20-%206-2.jpg" alt="" data-f="Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P035 - M435-436 - 6-2.jpg" data-size="320" onerror="wbsOff(this)">1992 - MP1 - MP2-MP3-MP4 - P035 - M435-436 - 6-2.jpg</a></div>
+<h2>Price history</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Price</th>
+<th>Listed as</th>
+<th>Effective</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Year-2005.html">2005|38</a></td>
+<td>used market value</td>
+<td>25.00</td>
+<td>M435 VU Meter</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/old website/PriceGuide.htm</td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-2006.html">2006|39</a></td>
+<td>used market value</td>
+<td>25.00</td>
+<td>M435 VU Meter</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/jan 2006 shell/priceguide.htm</td>
+</tr>
+</tbody>
+</table>
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Year-1994.html">1994|27</a></td>
+<td>manual issue date</td>
+<td><code>MANUAL ISSUE# April 1994</code></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P001%20-%20Title%20Page.jpg">1994 - M435 - 436 - P001 - Title Page.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1994.html">1994|27</a></td>
+<td>month &amp; year</td>
+<td><code>April 1994</code></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20VU%20Meter%20%282%29.pdf">1994 - M435 - 436 - VU Meter (2).pdf</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Physical manual inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Location</th>
+<th>Status</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M435-436 - VU Meter</td>
+<td></td>
+<td></td>
+<td>PDF - Already scanned</td>
+</tr>
+<tr>
+<td>VU METER</td>
+<td>LOOSE BOX</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Documents (2)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1994|27</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20VU%20Meter%20%282%29.pdf">1994 - M435 - 436 - VU Meter (2).pdf</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20VU%20Meter%20%282%29.pdf.md">note</a></td>
+</tr>
+<tr>
+<td>1994|27</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20VU%20Meter.pdf">1994 - M435 - 436 - VU Meter.pdf</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20VU%20Meter.pdf.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (20)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1994|27</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%2014-121-02-001%20-%20METER%20AMPLIFIER%20SCHEMATIC.jpg">1994 - M435 - 14-121-02-001 - METER AMPLIFIER SCHEMATIC.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%2014-121-02-001%20-%20METER%20AMPLIFIER%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1994|27</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%2014-121-06-001%20-%20METER%20AMPLIFIER%20COMPONENT.jpg">1994 - M435 - 14-121-06-001 - METER AMPLIFIER COMPONENT.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%2014-121-06-001%20-%20METER%20AMPLIFIER%20COMPONENT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1994|27</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P001%20-%20Title%20Page.jpg">1994 - M435 - 436 - P001 - Title Page.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P001%20-%20Title%20Page.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1994|27</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P002%20-%201-1.jpg">1994 - M435 - 436 - P002 - 1-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P002%20-%201-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1994|27</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P003%20-%202-1.jpg">1994 - M435 - 436 - P003 - 2-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P003%20-%202-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1994|27</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P004%20-%203-1.jpg">1994 - M435 - 436 - P004 - 3-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P004%20-%203-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1994|27</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P005%20-%203-2.jpg">1994 - M435 - 436 - P005 - 3-2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P005%20-%203-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1994|27</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P006%20-%203-3.jpg">1994 - M435 - 436 - P006 - 3-3.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P006%20-%203-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1994|27</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P007%20-%204-1.jpg">1994 - M435 - 436 - P007 - 4-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P007%20-%204-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1994|27</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P008%20-%204-2.jpg">1994 - M435 - 436 - P008 - 4-2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P008%20-%204-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1994|27</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P009%20-%205-1.jpg">1994 - M435 - 436 - P009 - 5-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P009%20-%205-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1994|27</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P010%20-%206-1.jpg">1994 - M435 - 436 - P010 - 6-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P010%20-%206-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1994|27</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P011%20-%206-2.jpg">1994 - M435 - 436 - P011 - 6-2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P011%20-%206-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1994|27</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P012%20-%207-1.jpg">1994 - M435 - 436 - P012 - 7-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P012%20-%207-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1994|27</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P013%20-%207-2.jpg">1994 - M435 - 436 - P013 - 7-2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P013%20-%207-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/19xx%20-%2014-121-02-001.jpg">19xx - 14-121-02-001.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/19xx%20-%2014-121-02-001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/M435-436%20-%20P005%20-%203-2%281%29.jpg">M435-436 - P005 - 3-2(1).jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/M435-436%20-%20P005%20-%203-2%281%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/M435-436%20-%20P005%20-%203-2.jpg">M435-436 - P005 - 3-2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/M435-436%20-%20P005%20-%203-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/MP1-MP2-MP3-MP4%20-%20P030%20-%20M435-436%20-%203-1.jpg">MP1-MP2-MP3-MP4 - P030 - M435-436 - 3-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/MP1-MP2-MP3-MP4%20-%20P030%20-%20M435-436%20-%203-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=PHOTOS/Drawings/19xx%20-%2014-121-02-001%20-%20SA14-121%20VU%20METER%20AMPLIFIER%20SCHEMATIC%20-%20ISS%205.jpg">19xx - 14-121-02-001 - SA14-121 VU METER AMPLIFIER SCHEMATIC - ISS 5.jpg</a></td>
+<td><a href="../../../viewer.html?f=PHOTOS/Drawings/19xx%20-%2014-121-02-001%20-%20SA14-121%20VU%20METER%20AMPLIFIER%20SCHEMATIC%20-%20ISS%205.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Sub-assemblies &amp; parts used (1)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What</th>
+<th>Family</th>
+<th>Year</th>
+<th>How we know</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Register-Circuit-boards-SA14-nnn.html#sa14-121">SA14-121</a></td>
+<td>SA14-121 VU METER AMPLIFIER / SCHEMATIC</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>drawing filed with it</td>
+</tr>
+</tbody>
+</table>
+<h2>Consoles &amp; jobs it is connected to (3)</h2>
+<p><em>Their own drawings name this module.</em></p>
+<table>
+<thead>
+<tr>
+<th>Job</th>
+<th>Year</th>
+<th>Drawing</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Job-880134.html">880134</a></td>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%203642-02-005%20-%20DENTICAL%20PLIED%20UTILITY%20RIGHT.jpg">1988 - 880134 - 3642-02-005 - DENTICAL PLIED UTILITY RIGHT.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td>BIGCFTOTVdone</td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-005%20-%20DENTICAL%20PLIED%20UTILITY%20RIGHT.jpg">1988 - BIG CFTO TV done - 3642-02-005 - DENTICAL PLIED UTILITY RIGHT.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td>WBSStSeriesStereoConsole</td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/WBS%20St%20Series%20Stereo%20Console/1985%20-%20ST%20-%20ward%20beck%20systems%20st%20console%20installation.pdf">1985 - ST - ward beck systems st console installation.pdf</a></td>
+<td>14</td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (23)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../viewer.html?f=Consoles/Models/L1202A/L1202A%20-%20P37%20-%20Input%20Channel%20Schematic.jpg">L1202A - P37 - Input Channel Schematic.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/RTO/RTO-144/19xx%20-%20RTO-144%20-%20Module%20RTO-144%20Jumper%20calculator.xlsx">19xx - RTO-144 - Module RTO-144 Jumper calculator.xlsx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=PHOTOS/Drawings/1988%20-%203642-02-005%20-%20AUX%20CHANNEL%20SCHEMATIC%20-%20DRN%20DS%20-%20ISS%204.jpg">1988 - 3642-02-005 - AUX CHANNEL SCHEMATIC - DRN DS - ISS 4.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=PHOTOS/Drawings/1988%20-%203642-02-006%20-%20METER%20SCHEMATIC%20-%20DRN%20DS%20-%20ISS%203.jpg">1988 - 3642-02-006 - METER SCHEMATIC - DRN DS - ISS 3.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/METERING/MP1/1992%20-%20MP1%20-%208100-02-001%20-%20AC-DC%20ADAPTER%20LAYOUT%20SHOWN%20FOR%20PREH%20CONNECTOR.jpg">1992 - MP1 - 8100-02-001 - AC-DC ADAPTER LAYOUT SHOWN FOR PREH CONNECTOR.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20-%20P002.jpg">1992 - MP1 - MP2-MP3-MP4 - P002.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20-%20P006%20-%203-1.jpg">1992 - MP1 - MP2-MP3-MP4 - P006 - 3-1.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20-%20P027%20-%20M435-436.jpg">1992 - MP1 - MP2-MP3-MP4 - P027 - M435-436.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20-%20P028%20-%20M435-436%20-%201-1.jpg">1992 - MP1 - MP2-MP3-MP4 - P028 - M435-436 - 1-1.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20-%20P029%20-%20M435-436%20-%202-1.jpg">1992 - MP1 - MP2-MP3-MP4 - P029 - M435-436 - 2-1.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20-%20P030%20-%20M435-436%20-%203-1.jpg">1992 - MP1 - MP2-MP3-MP4 - P030 - M435-436 - 3-1.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20-%20P031%20-%20M435-436%20-%204-1.jpg">1992 - MP1 - MP2-MP3-MP4 - P031 - M435-436 - 4-1.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20-%20P032%20-%20M435-436%20-%205-1.jpg">1992 - MP1 - MP2-MP3-MP4 - P032 - M435-436 - 5-1.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20-%20P034%20-%20M435-436%20-%206-1.jpg">1992 - MP1 - MP2-MP3-MP4 - P034 - M435-436 - 6-1.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20-%20P035%20-%20M435-436%20-%206-2.jpg">1992 - MP1 - MP2-MP3-MP4 - P035 - M435-436 - 6-2.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20%282%29.pdf">1992 - MP1 - MP2-MP3-MP4 Meter Panels (2).pdf</a></td>
+<td>9</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20%282%29.pdf">1992 - MP1 - MP2-MP3-MP4 Meter Panels (2).pdf</a></td>
+<td>34</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20%282%29.pdf">1992 - MP1 - MP2-MP3-MP4 Meter Panels (2).pdf</a></td>
+<td>37</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels.pdf">1992 - MP1 - MP2-MP3-MP4 Meter Panels.pdf</a></td>
+<td>9</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/METERING/MP1/1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels.pdf">1992 - MP1 - MP2-MP3-MP4 Meter Panels.pdf</a></td>
+<td>34</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT%20%282%29.docx">1995 - M405P - ITEMIMP(1).TXT (2).docx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT.docx">1995 - M405P - ITEMIMP(1).TXT.docx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP.TXT.docx">1995 - M405P - ITEMIMP.TXT.docx</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="../../../PAGES/Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>General description (1)</h3>
+<details><summary>Description — 340 words · 1994 - M435 - 436 - P008 - 4-2.jpg, page 1</summary><p>M435 M436 vu METER SA14-121 AMPL IF IER_ASSEMBLY 4[Ox)-SO=i5&quot;-4ts 3 16 7t dropping resistor R28 included on the SA14-121 assembly limit meter lamp curren An dditional oop through connector P2 has been provided for the lamp power This incorporated make the vu meter assembly modular (no direct wiring) , with improved service- ability . The vu meter lamps lug into pins and while the meter power connects pins and 10 .</p><p>Typically WBS console system the power for the 5A14-121 amplifier taken from the positive side the bipolar 1 -25 volt supply . The meter Tamps are driven from the negative supply voltage. This maintain an equalized Ioad on the bipolar power suppiy . C0i ` = 1 &quot;2 t_d|x_ :v  | €noe Tt. aor  = 0 &#x27;^= abem A0 0 &quot;AuO&quot;r) 4&#x27;U 09&#x27;|0r4 SpsT?y 3&quot;1C {GqUZ Tsn 7o #n | 2 &#x27;F 1012/23- 6!</p><p>&#x27;Cn^ TUU0 .6- 07- &quot; Yd Jer&quot; &quot;i&quot;@ 3&#x27; | wftnamg 4671 = ] &#x27; _ - 97 2m701 9;U niq 04 / (Jd6 es.0 #eb0 - Icque V2A 373 Arit GSF Bnb 0( = 8FU  | | Jm i 2 ` | (. 03 KEl&quot;7 19 CuoR Jaiuc &#x27;6ni &lt; 1r.7atn= 47 ; 29o3i6m 77;=_ MI &#x27; &quot;&#x27; Ore ( 2i7 | CiA 70&#x27;&lt; PcAdon 701*07o9m| _iotn #nEC9am 2&#x27;7T 7 * |` (ib5+4m 271*2 1818 70 ; $ti Uv A7J € !&#x27;[=m 077 9Juzn1 472 nU 378&quot;) &quot;oftilona O7 / Ti3a ~30n0L - Uv 2169036 42 # &quot;i30 JUGWc Jut nri Mts bengiasb I6=&#x27; 3Jai  0 # ] 4&#x27;&quot; 50 44 &quot;h [ (i0:- 37/1090 &quot;41 J01 2 .7 [ baL aA[9 17 Yidma22n 7imemd I5T-41n2 P4] Nj)| 910&quot;&#x27;} 21_41942226 4squ: 7n ( 2J-nn] z6t0V/ [ape Sv:fiena #ieinds&quot; 6010 U&#x27;[x 7o _ AQETpv 00 - ` Bl0162c0 1201l?b 2070+2 7J #i :1 2]i0 v S2 6T0v aqu2 031 Djf` 41oz SU F0t ] 6/Jes Z7 Dre Cfa Yd CEe?</p><p>8081/04 TuGiUO ep7 7-A brs JfR &quot;avial VC 4#0 &quot; 92silou 221J &quot;4quz Tt7 5[0 9FT 2 3 70f/&#x27;0Cb? { G DS&#x27;quojab 4-2 9, 7</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P008%20-%204-2.jpg">1994 - M435 - 436 - P008 - 4-2.jpg</a>, p. 1</li>
+</ul>
+<h3>Installation (1)</h3>
+<details><summary>Installation — 97 words · 1994 - M435 - 436 - P004 - 3-1.jpg, page 1</summary><p>M435 M436 vu METER The installation section this manual pertains meters which have been purchased an individual basis. Meters which are already installed Ward-Beck system will not require use this section the manual Panel Mounting The M435/M436 requires approximately 2 . 25 inches depth behind the panel and 0.60 inches front The cutout dimensions are outlined gure 3-1 for the M435 and Figure 3-2 for the M436 .</p><p>Note that the centerline for the cutout not identical with the center the meter face . 1.2 {e# &quot;DIA Pahgi PAREL cutout HaTER CuTLIHE FiG_ 3-1 M435 Mounting Dimensions</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%20436%20-%20P004%20-%203-1.jpg">1994 - M435 - 436 - P004 - 3-1.jpg</a>, p. 1</li>
+</ul>
+<h2>Drawings (7)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Drawn by</a></th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/M435-436%20-%20P005%20-%203-2%281%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/M435-436%20-%20P005%20-%203-2.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/MP1-MP2-MP3-MP4%20-%20P030%20-%20M435-436%20-%203-1.jpg">file</a></td>
+</tr>
+<tr>
+<td>14-121-02-001</td>
+<td>Meter Amplifier Schematic</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%2014-121-02-001%20-%20METER%20AMPLIFIER%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>14-121-06-001</td>
+<td>Meter Amplifier Component</td>
+<td></td>
+<td></td>
+<td></td>
+<td>5</td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/1994%20-%20M435%20-%2014-121-06-001%20-%20METER%20AMPLIFIER%20COMPONENT.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 14-121-02-001</td>
+<td>SA14-121 VU METER AMPLIFIER / SCHEMATIC</td>
+<td></td>
+<td></td>
+<td></td>
+<td>5</td>
+<td><a href="../../../viewer.html?f=PHOTOS/Drawings/19xx%20-%2014-121-02-001%20-%20SA14-121%20VU%20METER%20AMPLIFIER%20SCHEMATIC%20-%20ISS%205.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 14-121-02-001</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/METER/M435/19xx%20-%2014-121-02-001.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M435&quot;,
+ &quot;category&quot;: &quot;METER&quot;,
+ &quot;year&quot;: 1994,
+ &quot;connections&quot;: {
+  &quot;from&quot;: &quot;its own documents&quot;,
+  &quot;inputs&quot;: [
+   &quot;Input R19&quot;
+  ],
+  &quot;outputs&quot;: [
+   &quot;Meter Drive&quot;,
+   &quot;R6 Drive&quot;
+  ],
+  &quot;power&quot;: [
+   &quot;+24V&quot;,
+   &quot;+35V&quot;
+  ],
+  &quot;control&quot;: [
+   &quot;Lamp O&quot;,
+   &quot;Lamp Dropping Resistor&quot;
+  ]
+ },
+ &quot;made_of&quot;: [
+  &quot;SA14-121&quot;
+ ],
+ &quot;part_of&quot;: [
+  &quot;880134&quot;,
+  &quot;BIGCFTOTVdone&quot;,
+  &quot;WBSStSeriesStereoConsole&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/METER/M435/1994 - M435 - 14-121-02-001 - METER AMPLIFIER SCHEMATIC.jpg&quot;,
+   &quot;year&quot;: 1994,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M435/1994 - M435 - 14-121-06-001 - METER AMPLIFIER COMPONENT.jpg&quot;,
+   &quot;year&quot;: 1994,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M435/1994 - M435 - 436 - P001 - Title Page.jpg&quot;,
+   &quot;year&quot;: 1994,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M435/1994 - M435 - 436 - P002 - 1-1.jpg&quot;,
+   &quot;year&quot;: 1994,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M435/1994 - M435 - 436 - P003 - 2-1.jpg&quot;,
+   &quot;year&quot;: 1994,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M435/1994 - M435 - 436 - P004 - 3-1.jpg&quot;,
+   &quot;year&quot;: 1994,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M435/1994 - M435 - 436 - P005 - 3-2.jpg&quot;,
+   &quot;year&quot;: 1994,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M435/1994 - M435 - 436 - P006 - 3-3.jpg&quot;,
+   &quot;year&quot;: 1994,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M435/1994 - M435 - 436 - P007 - 4-1.jpg&quot;,
+   &quot;year&quot;: 1994,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M435/1994 - M435 - 436 - P008 - 4-2.jpg&quot;,
+   &quot;year&quot;: 1994,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M435/1994 - M435 - 436 - P009 - 5-1.jpg&quot;,
+   &quot;year&quot;: 1994,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M435/1994 - M435 - 436 - P010 - 6-1.jpg&quot;,
+   &quot;year&quot;: 1994,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M435/1994 - M435 - 436 - P011 - 6-2.jpg&quot;,
+   &quot;year&quot;: 1994,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M435/1994 - M435 - 436 - P012 - 7-1.jpg&quot;,
+   &quot;year&quot;: 1994,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M435/1994 - M435 - 436 - P013 - 7-2.jpg&quot;,
+   &quot;year&quot;: 1994,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M435/1994 - M435 - 436 - VU Meter (2).pdf&quot;,
+   &quot;year&quot;: 1994,
+   &quot;pages&quot;: 15,
+   &quot;holds&quot;: [
+    &quot;connections&quot;,
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M435/1994 - M435 - 436 - VU Meter.pdf&quot;,
+   &quot;year&quot;: 1994,
+   &quot;pages&quot;: 15,
+   &quot;holds&quot;: [
+    &quot;connections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M435/19xx - 14-121-02-001.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M435/M435-436 - P005 - 3-2(1).jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M435/M435-436 - P005 - 3-2.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M435/MP1-MP2-MP3-MP4 - P030 - M435-436 - 3-1.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;PHOTOS/Drawings/19xx - 14-121-02-001 - SA14-121 VU METER AMPLIFIER SCHEMATIC - ISS 5.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../../../_catalog/wbs_reels.js" defer></script><script src="../../../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../../../_catalog/libcontrol/libcontrol.css"><script src="../../../_catalog/libcontrol/react.js"></script><script src="../../../_catalog/libcontrol/react-dom.js"></script><script src="../../../_catalog/libcontrol/libcontrol.js"></script><script src="../../../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M435.md</small></div></article><script src="../../../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

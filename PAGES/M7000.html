@@ -1,0 +1,623 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M7000</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>M7000</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="Category-COMMUNICATION.html">COMMUNICATION</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../simulator.html?m=M7000">simulator &amp; front panel</a> · <a href="../_packages/M7000.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="Year-1977.html">1977|10</a> — written date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"6/15/77" in PUBLIC/Manuals + tech DOCUMENTS/Intercom/M7000 - Intercom System/price list.jpg</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>medium</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../Modules/COMMUNICATION/M7000/index.html">Modules/COMMUNICATION/M7000</a></td>
+</tr>
+</tbody>
+</table><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%20price%20list.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%20price%20list.jpg" alt="" data-f="Modules/COMMUNICATION/M7000/1977 - M7000 - price list.jpg" data-size="320" onerror="wbsOff(this)">1977 - M7000 - price list.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20001.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20001.jpg" alt="" data-f="Modules/COMMUNICATION/M7000/1977 - M7000 - 7000 series - 001.jpg" data-size="320" onerror="wbsOff(this)">1977 - M7000 - 7000 series - 001.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20002.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20002.jpg" alt="" data-f="Modules/COMMUNICATION/M7000/1977 - M7000 - 7000 series - 002.jpg" data-size="320" onerror="wbsOff(this)">1977 - M7000 - 7000 series - 002.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20003.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20003.jpg" alt="" data-f="Modules/COMMUNICATION/M7000/1977 - M7000 - 7000 series - 003.jpg" data-size="320" onerror="wbsOff(this)">1977 - M7000 - 7000 series - 003.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20004.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20004.jpg" alt="" data-f="Modules/COMMUNICATION/M7000/1977 - M7000 - 7000 series - 004.jpg" data-size="320" onerror="wbsOff(this)">1977 - M7000 - 7000 series - 004.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20005.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20005.jpg" alt="" data-f="Modules/COMMUNICATION/M7000/1977 - M7000 - 7000 series - 005.jpg" data-size="320" onerror="wbsOff(this)">1977 - M7000 - 7000 series - 005.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20006.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20006.jpg" alt="" data-f="Modules/COMMUNICATION/M7000/1977 - M7000 - 7000 series - 006.jpg" data-size="320" onerror="wbsOff(this)">1977 - M7000 - 7000 series - 006.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20007.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20007.jpg" alt="" data-f="Modules/COMMUNICATION/M7000/1977 - M7000 - 7000 series - 007.jpg" data-size="320" onerror="wbsOff(this)">1977 - M7000 - 7000 series - 007.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20009.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20009.jpg" alt="" data-f="Modules/COMMUNICATION/M7000/1977 - M7000 - 7000 series - 009.jpg" data-size="320" onerror="wbsOff(this)">1977 - M7000 - 7000 series - 009.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20010.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20010.jpg" alt="" data-f="Modules/COMMUNICATION/M7000/1977 - M7000 - 7000 series - 010.jpg" data-size="320" onerror="wbsOff(this)">1977 - M7000 - 7000 series - 010.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20011.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20011.jpg" alt="" data-f="Modules/COMMUNICATION/M7000/1977 - M7000 - 7000 series - 011.jpg" data-size="320" onerror="wbsOff(this)">1977 - M7000 - 7000 series - 011.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20012.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20012.jpg" alt="" data-f="Modules/COMMUNICATION/M7000/1977 - M7000 - 7000 series - 012.jpg" data-size="320" onerror="wbsOff(this)">1977 - M7000 - 7000 series - 012.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20013.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20013.jpg" alt="" data-f="Modules/COMMUNICATION/M7000/1977 - M7000 - 7000 series - 013.jpg" data-size="320" onerror="wbsOff(this)">1977 - M7000 - 7000 series - 013.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%20promo%20-%207000%20series%20-%20001.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%20promo%20-%207000%20series%20-%20001.jpg" alt="" data-f="Modules/COMMUNICATION/M7000/1977 - M7000 - promo - 7000 series - 001.jpg" data-size="320" onerror="wbsOff(this)">1977 - M7000 - promo - 7000 series - 001.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%20promo%20-%207000%20series%20-%20002.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%20promo%20-%207000%20series%20-%20002.jpg" alt="" data-f="Modules/COMMUNICATION/M7000/1977 - M7000 - promo - 7000 series - 002.jpg" data-size="320" onerror="wbsOff(this)">1977 - M7000 - promo - 7000 series - 002.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%20promo%20-%207000%20series%20-%20003.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%20promo%20-%207000%20series%20-%20003.jpg" alt="" data-f="Modules/COMMUNICATION/M7000/1977 - M7000 - promo - 7000 series - 003.jpg" data-size="320" onerror="wbsOff(this)">1977 - M7000 - promo - 7000 series - 003.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%20promo%20-%207000%20series%20-%20004.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%20promo%20-%207000%20series%20-%20004.jpg" alt="" data-f="Modules/COMMUNICATION/M7000/1977 - M7000 - promo - 7000 series - 004.jpg" data-size="320" onerror="wbsOff(this)">1977 - M7000 - promo - 7000 series - 004.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1980%20-%207000-03-008%20-%207000%20SERIES%20INTERCOM%20DESK%20PANELS%20MOUNTING%20DETAIL%20-%20DRN%20P.%20Mahoney%20-%20ENG%20MRW%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M7000/1980%20-%207000-03-008%20-%207000%20SERIES%20INTERCOM%20DESK%20PANELS%20MOUNTING%20DETAIL%20-%20DRN%20P.%20Mahoney%20-%20ENG%20MRW%20-%20ISS%201.jpg" alt="" data-f="Modules/COMMUNICATION/M7000/1980 - 7000-03-008 - 7000 SERIES INTERCOM DESK PANELS MOUNTING DETAIL - DRN P. Mahoney - ENG MRW - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1980 - 7000-03-008 - 7000 SERIES INTERCOM DESK PANELS MOUNTING DETAIL - DRN P. Mahoney - ENG MRW - ISS 1.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1986%20-%207000-03-019%20-%20IKP-24C%20INTERCOM%20KEY%20PANELS%20-%20DRN%20BD%20-%20ENG%20GEB%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M7000/1986%20-%207000-03-019%20-%20IKP-24C%20INTERCOM%20KEY%20PANELS%20-%20DRN%20BD%20-%20ENG%20GEB%20-%20ISS%201.jpg" alt="" data-f="Modules/COMMUNICATION/M7000/1986 - 7000-03-019 - IKP-24C INTERCOM KEY PANELS - DRN BD - ENG GEB - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1986 - 7000-03-019 - IKP-24C INTERCOM KEY PANELS - DRN BD - ENG GEB - ISS 1.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1988%20-%207000-03-017%20-%20BELT%20CLIP%20-%20DRN%20DRG%20-%20ISS%205.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M7000/1988%20-%207000-03-017%20-%20BELT%20CLIP%20-%20DRN%20DRG%20-%20ISS%205.jpg" alt="" data-f="Modules/COMMUNICATION/M7000/1988 - 7000-03-017 - BELT CLIP - DRN DRG - ISS 5.jpg" data-size="320" onerror="wbsOff(this)">1988 - 7000-03-017 - BELT CLIP - DRN DRG - ISS 5.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1995%20-%207000-03-031%20-%20IKR-4A%20REAR%20HOUSING%20-%20DRN%20DRG%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M7000/1995%20-%207000-03-031%20-%20IKR-4A%20REAR%20HOUSING%20-%20DRN%20DRG%20-%20ISS%201.jpg" alt="" data-f="Modules/COMMUNICATION/M7000/1995 - 7000-03-031 - IKR-4A REAR HOUSING - DRN DRG - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1995 - 7000-03-031 - IKR-4A REAR HOUSING - DRN DRG - ISS 1.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1995%20-%207000-03-032%20-%20IKR-10%20PANEL%20-%20DRN%20DRG%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M7000/1995%20-%207000-03-032%20-%20IKR-10%20PANEL%20-%20DRN%20DRG%20-%20ISS%201.jpg" alt="" data-f="Modules/COMMUNICATION/M7000/1995 - 7000-03-032 - IKR-10 PANEL - DRN DRG - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1995 - 7000-03-032 - IKR-10 PANEL - DRN DRG - ISS 1.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1995%20-%207000-03-034%20-%20IKR%20COVER%20-%20DRN%20DRG%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M7000/1995%20-%207000-03-034%20-%20IKR%20COVER%20-%20DRN%20DRG%20-%20ISS%201.jpg" alt="" data-f="Modules/COMMUNICATION/M7000/1995 - 7000-03-034 - IKR COVER - DRN DRG - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1995 - 7000-03-034 - IKR COVER - DRN DRG - ISS 1.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1995%20-%207000-03-035%20-%20COVER%20SUPPORT%20-%20DRN%20DRG%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M7000/1995%20-%207000-03-035%20-%20COVER%20SUPPORT%20-%20DRN%20DRG%20-%20ISS%201.jpg" alt="" data-f="Modules/COMMUNICATION/M7000/1995 - 7000-03-035 - COVER SUPPORT - DRN DRG - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1995 - 7000-03-035 - COVER SUPPORT - DRN DRG - ISS 1.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1995%20-%207000-03-037%20-%20IKR-10B%20%281%20RACK%20UNIT%29%20PANEL%20-%20DRN%20DRG%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M7000/1995%20-%207000-03-037%20-%20IKR-10B%20%281%20RACK%20UNIT%29%20PANEL%20-%20DRN%20DRG%20-%20ISS%201.jpg" alt="" data-f="Modules/COMMUNICATION/M7000/1995 - 7000-03-037 - IKR-10B (1 RACK UNIT) PANEL - DRN DRG - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1995 - 7000-03-037 - IKR-10B (1 RACK UNIT) PANEL - DRN DRG - ISS 1.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1997%20-%207000-03-036%20-%20IKR-10A%20PANEL%20%282RU%29%20-%20DRN%20DRG%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M7000/1997%20-%207000-03-036%20-%20IKR-10A%20PANEL%20%282RU%29%20-%20DRN%20DRG%20-%20ISS%201.jpg" alt="" data-f="Modules/COMMUNICATION/M7000/1997 - 7000-03-036 - IKR-10A PANEL (2RU) - DRN DRG - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1997 - 7000-03-036 - IKR-10A PANEL (2RU) - DRN DRG - ISS 1.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1997%20-%207000-03-036%20-%20IKR-10A%20PANEL%282RU%29%20-%20DRN%20DRG%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M7000/1997%20-%207000-03-036%20-%20IKR-10A%20PANEL%282RU%29%20-%20DRN%20DRG%20-%20ISS%201.jpg" alt="" data-f="Modules/COMMUNICATION/M7000/1997 - 7000-03-036 - IKR-10A PANEL(2RU) - DRN DRG - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1997 - 7000-03-036 - IKR-10A PANEL(2RU) - DRN DRG - ISS 1.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1998%20-%207000-03-039%20-%20IKR-10B%20PANEL%282RU%29%20%282X%20PCB%29%20-%20DRN%20DRG%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M7000/1998%20-%207000-03-039%20-%20IKR-10B%20PANEL%282RU%29%20%282X%20PCB%29%20-%20DRN%20DRG%20-%20ISS%201.jpg" alt="" data-f="Modules/COMMUNICATION/M7000/1998 - 7000-03-039 - IKR-10B PANEL(2RU) (2X PCB) - DRN DRG - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1998 - 7000-03-039 - IKR-10B PANEL(2RU) (2X PCB) - DRN DRG - ISS 1.jpg</a></div>
+<h2>Front panel</h2>
+<p><svg class="wbs-panel solo" data-m="M7000" data-n="" data-cat="COMMUNICATION" role="img" aria-label="M7000 front panel"></svg></p>
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td>written date</td>
+<td><code>6/15/77</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%20price%20list.jpg">1977 - M7000 - price list.jpg</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (28)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20001.jpg">1977 - M7000 - 7000 series - 001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20002.jpg">1977 - M7000 - 7000 series - 002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20003.jpg">1977 - M7000 - 7000 series - 003.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20004.jpg">1977 - M7000 - 7000 series - 004.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20004.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20005.jpg">1977 - M7000 - 7000 series - 005.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20005.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20006.jpg">1977 - M7000 - 7000 series - 006.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20006.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20007.jpg">1977 - M7000 - 7000 series - 007.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20007.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20009.jpg">1977 - M7000 - 7000 series - 009.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20009.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20010.jpg">1977 - M7000 - 7000 series - 010.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20010.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20011.jpg">1977 - M7000 - 7000 series - 011.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20011.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20012.jpg">1977 - M7000 - 7000 series - 012.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20012.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20013.jpg">1977 - M7000 - 7000 series - 013.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20013.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%20price%20list.jpg">1977 - M7000 - price list.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%20price%20list.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%20promo%20-%207000%20series%20-%20001.jpg">1977 - M7000 - promo - 7000 series - 001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%20promo%20-%207000%20series%20-%20001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%20promo%20-%207000%20series%20-%20002.jpg">1977 - M7000 - promo - 7000 series - 002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%20promo%20-%207000%20series%20-%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%20promo%20-%207000%20series%20-%20003.jpg">1977 - M7000 - promo - 7000 series - 003.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%20promo%20-%207000%20series%20-%20003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%20promo%20-%207000%20series%20-%20004.jpg">1977 - M7000 - promo - 7000 series - 004.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%20promo%20-%207000%20series%20-%20004.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1980%20-%207000-03-008%20-%207000%20SERIES%20INTERCOM%20DESK%20PANELS%20MOUNTING%20DETAIL%20-%20DRN%20P.%20Mahoney%20-%20ENG%20MRW%20-%20ISS%201.jpg">1980 - 7000-03-008 - 7000 SERIES INTERCOM DESK PANELS MOUNTING DETAIL - DRN P. Mahoney - ENG MRW - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1980%20-%207000-03-008%20-%207000%20SERIES%20INTERCOM%20DESK%20PANELS%20MOUNTING%20DETAIL%20-%20DRN%20P.%20Mahoney%20-%20ENG%20MRW%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1986|19</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1986%20-%207000-03-019%20-%20IKP-24C%20INTERCOM%20KEY%20PANELS%20-%20DRN%20BD%20-%20ENG%20GEB%20-%20ISS%201.jpg">1986 - 7000-03-019 - IKP-24C INTERCOM KEY PANELS - DRN BD - ENG GEB - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1986%20-%207000-03-019%20-%20IKP-24C%20INTERCOM%20KEY%20PANELS%20-%20DRN%20BD%20-%20ENG%20GEB%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1988%20-%207000-03-017%20-%20BELT%20CLIP%20-%20DRN%20DRG%20-%20ISS%205.jpg">1988 - 7000-03-017 - BELT CLIP - DRN DRG - ISS 5.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1988%20-%207000-03-017%20-%20BELT%20CLIP%20-%20DRN%20DRG%20-%20ISS%205.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1995%20-%207000-03-031%20-%20IKR-4A%20REAR%20HOUSING%20-%20DRN%20DRG%20-%20ISS%201.jpg">1995 - 7000-03-031 - IKR-4A REAR HOUSING - DRN DRG - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1995%20-%207000-03-031%20-%20IKR-4A%20REAR%20HOUSING%20-%20DRN%20DRG%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1995%20-%207000-03-032%20-%20IKR-10%20PANEL%20-%20DRN%20DRG%20-%20ISS%201.jpg">1995 - 7000-03-032 - IKR-10 PANEL - DRN DRG - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1995%20-%207000-03-032%20-%20IKR-10%20PANEL%20-%20DRN%20DRG%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1995%20-%207000-03-034%20-%20IKR%20COVER%20-%20DRN%20DRG%20-%20ISS%201.jpg">1995 - 7000-03-034 - IKR COVER - DRN DRG - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1995%20-%207000-03-034%20-%20IKR%20COVER%20-%20DRN%20DRG%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1995%20-%207000-03-035%20-%20COVER%20SUPPORT%20-%20DRN%20DRG%20-%20ISS%201.jpg">1995 - 7000-03-035 - COVER SUPPORT - DRN DRG - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1995%20-%207000-03-035%20-%20COVER%20SUPPORT%20-%20DRN%20DRG%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1995%20-%207000-03-037%20-%20IKR-10B%20%281%20RACK%20UNIT%29%20PANEL%20-%20DRN%20DRG%20-%20ISS%201.jpg">1995 - 7000-03-037 - IKR-10B (1 RACK UNIT) PANEL - DRN DRG - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1995%20-%207000-03-037%20-%20IKR-10B%20%281%20RACK%20UNIT%29%20PANEL%20-%20DRN%20DRG%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1997|30</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1997%20-%207000-03-036%20-%20IKR-10A%20PANEL%20%282RU%29%20-%20DRN%20DRG%20-%20ISS%201.jpg">1997 - 7000-03-036 - IKR-10A PANEL (2RU) - DRN DRG - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1997%20-%207000-03-036%20-%20IKR-10A%20PANEL%20%282RU%29%20-%20DRN%20DRG%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1997|30</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1997%20-%207000-03-036%20-%20IKR-10A%20PANEL%282RU%29%20-%20DRN%20DRG%20-%20ISS%201.jpg">1997 - 7000-03-036 - IKR-10A PANEL(2RU) - DRN DRG - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1997%20-%207000-03-036%20-%20IKR-10A%20PANEL%282RU%29%20-%20DRN%20DRG%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1998|31</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1998%20-%207000-03-039%20-%20IKR-10B%20PANEL%282RU%29%20%282X%20PCB%29%20-%20DRN%20DRG%20-%20ISS%201.jpg">1998 - 7000-03-039 - IKR-10B PANEL(2RU) (2X PCB) - DRN DRG - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1998%20-%207000-03-039%20-%20IKR-10B%20PANEL%282RU%29%20%282X%20PCB%29%20-%20DRN%20DRG%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>General description (2)</h3>
+<details><summary>Description — 271 words · 1977 - M7000 - promo - 7000 series - 002.jpg, page 1</summary><p>THE WARD-BECK SYSTEMS 7000 Series solid-state Intercom Systems are designed to provide inter- communication between production and technical staff within a broadcast or production complex: Modular construction enhances the flexibility of the available configurations 1 ) M7012 12 input, 12 output configuration with to 144 crosspoints (expansion capability to 12 x 16 with 1 to 192 crosspoints) Requires 8 rack units of space: 2) M7024 24 input, 24 output configuration with to 576 crosspoints.</p><p>Requires 14 rack units of space_ Various capacity systems are conveniently assembled by re-arranging the modular components The 7000 series Intercom Systems comprise centrally located amplifier and switching equipment which is remotely controlled from passive control stations situated in the appropriate personnel areas. The concept features entirely balanced circuitry for improved crosstalk and minimum transient and RF degradation: The system utilizes latest state-of-the-art operational amplifier techniques with solid-state balanced crosspoints and integrated circuit amplifier designs.</p><p>Optimum efficiency in packaging is achieved by use of one MF7 frame type which accommodates the basic amplifier and crosspoint modules. 12 M703 inputloutput amplifier modules or 24 M712 cross- point modules may be accommodated in the 5-1/4 in. high (3 rack units) , standard 19 in. rack mounting MF7 equipment frame. The sophistication of the system may be expanded as required through the use of WBS 600 series power amplifiers and distribution amplifiers for higher listening levels and multiple output distribution.</p><p>The inherent flexibility of the 7000 series system permits convenient integration of the facility with any existing system: In addition, the basic modules will accommodate dynamic or carbon micro- phone inputs from various sources or any make of camera equipment</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%20promo%20-%207000%20series%20-%20002.jpg">1977 - M7000 - promo - 7000 series - 002.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Description — 0 words · 1977 - M7000 - price list.jpg, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.html#bp-7d29fd8ddb99c6cd">general boilerplate (10 devices)</a> · <a href="Boilerplate.html#bp-fefba14455cb61ee">general boilerplate (10 devices)</a> · <a href="Boilerplate.html#bp-e8014e017ace3409">general boilerplate (10 devices)</a></p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%20price%20list.jpg">1977 - M7000 - price list.jpg</a>, p. 1</li>
+</ul>
+<h3>Specifications (2)</h3>
+<details><summary>Technical Data — 227 words · 1977 - M7000 - promo - 7000 series - 004.jpg, page 1</summary><p>PREAMPLIFIER SECTION (M7O1) GAIN: 80dB (Max.) + 2dB FREQUENCY RESPONSE: + IdB 100 Hz to 1OkHz NOISE: Equivalent to 122dBm relative input noise TOTAL HAR- MONIC DISTOR- Less than 1% measured at +18dBm TION: output INPUT: 60dBm, 150 ohms balanced (conditional strapping determines dynamic or carbon source) OUTPUT: 8dBm, 600 ohms balanced (+18dBm Max:) COMPRESSION: 25dB range (may be switched out) POWER +24 to 36 volts dc unregulated.</p><p>REQUI REMENTS: 35mA approx M712 1 x 12 Crosspoint mother board GAIN: Unity (+6dB pre-set control incor- porated FREQUENCY RESPONSE: + 0.5dB 50Hz to 10kHz NOISE: S/N better than 7OdB measured from +8dBm TOTAL HAR- MONIC DISTOR- Less than 0.5% measured at TION: +18dBm INPUT: +8dBm nominal (+18dBm Max:) balanced from direct line or from M703 preamplifier INPUT IMPEDANCE: 30k ohm balanced bridging OUTPUT: OdBm to +8dBm nominal (+18dBm Max: ) CROSSPOINT ISOLATION/CUT OFF: 1OOdB TURN ON/OFF TRANSIENT: Inaudible POWER REQUI REMENTS: 24 volts dc regulated 15mA POWER AMPLIFIER SECTION (M702) GAIN: 35dB (Max:) + 2dB FREQUENCY RESPONSE: + IdB 100 Hz to 8kHz NOISE: S/N better than 75dB measured from 3W output TOTAL HAR- MONIC DISTOR- Less than 15% measured at 3W TION: INPUT: OdBm to 18dBm, 600 ohms balanced from crosspoint matrix OUTPUT: 3 Watts directly into 8 ohms (not balanced) COMPRESSION: POWER +24 to 36 volts dc unregulated, 25mA REQUI REMENTS:   (quiescent), 30OmA (at Max_ output)</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%20promo%20-%207000%20series%20-%20004.jpg">1977 - M7000 - promo - 7000 series - 004.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Technical Data — 165 words · 1977 - M7000 - 7000 series - 007.jpg, page 1</summary><p>WBS 7000 SERIES INTERCOM SYSTEMS : GAIN : Microphone to speaker: 8 5dB (-60dBm in 3W out) Microphone to line: 68aB (-6 0dBm in +8dBm out) FREQUENCY RESPONSE : #2B 10OHz to 8kHz (Bandwidth Controlled) NOISE : Microphone: equivalent noise -120dBm Line: 7 0dBm S/N below +l8dBm output TOTAL HARMONIC DISTORTION : Less than 1.58 1WHz to 8kHz Microphone input (-50dBm) to speaker output (3W 8 ohms load) INPUT LEVELS : Microphone: (Dynamic) -6 OdBm to -3OdBm 150 ohms balanced (Carbon) -30dBm to  OdBm , balanced or unbalanced Compressor reduces input dynamic range by 3/1 , compression range 25dB _ Line: +8dBm  600 ohms balanced QUTPUT LEVELS : Line: +8dBm into 600 ohms balanced Speaker: 3W maximum into 8 ohms DIMENSIONS : M7006 5 rack units (8 .</p><p>75 ins . ) M7012 8 rack units (14 ins . ) M7024 14 rack units (24 .50 ins . ) POWERCONSUMPTION : M7006 100 VA M7012 200 VA M7024 400 VA AMBIENT TEMPERATURE oa to 50oc</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1977%20-%20M7000%20-%207000%20series%20-%20007.jpg">1977 - M7000 - 7000 series - 007.jpg</a>, p. 1</li>
+</ul>
+<h2>Drawings (11)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="People.html#drawing-staff">Drawn by</a></th>
+<th><a href="People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>B 7000-03-008</td>
+<td>7000 SERIES INTERCOM / DESK PANELS / MOUNTING DETAIL</td>
+<td><a href="Year-1980.html">1980|13</a></td>
+<td><a href="Person-P-MAHONEY.html">P MAHONEY</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1980%20-%207000-03-008%20-%207000%20SERIES%20INTERCOM%20DESK%20PANELS%20MOUNTING%20DETAIL%20-%20DRN%20P.%20Mahoney%20-%20ENG%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>D 7000-03-019</td>
+<td>IKP-24C / INTERCOM KEY PANELS</td>
+<td><a href="Year-1986.html">1986|19</a></td>
+<td><a href="Person-BD.html">BD</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1986%20-%207000-03-019%20-%20IKP-24C%20INTERCOM%20KEY%20PANELS%20-%20DRN%20BD%20-%20ENG%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 7000-03-017</td>
+<td>BELT CLIP</td>
+<td><a href="Year-1988.html">1988|21</a></td>
+<td><a href="Person-DRG.html">DRG</a></td>
+<td></td>
+<td>5</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1988%20-%207000-03-017%20-%20BELT%20CLIP%20-%20DRN%20DRG%20-%20ISS%205.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 7000-03-035</td>
+<td>COVER SUPPORT</td>
+<td><a href="Year-1995.html">1995|28</a></td>
+<td><a href="Person-DRG.html">DRG</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1995%20-%207000-03-035%20-%20COVER%20SUPPORT%20-%20DRN%20DRG%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>D 7000-03-031</td>
+<td>IKR-4A / REAR HOUSING</td>
+<td><a href="Year-1995.html">1995|28</a></td>
+<td><a href="Person-DRG.html">DRG</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1995%20-%207000-03-031%20-%20IKR-4A%20REAR%20HOUSING%20-%20DRN%20DRG%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>D 7000-03-032</td>
+<td>IKR-10 / PANEL</td>
+<td><a href="Year-1995.html">1995|28</a></td>
+<td><a href="Person-DRG.html">DRG</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1995%20-%207000-03-032%20-%20IKR-10%20PANEL%20-%20DRN%20DRG%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>D 7000-03-034</td>
+<td>IKR COVER</td>
+<td><a href="Year-1995.html">1995|28</a></td>
+<td><a href="Person-DRG.html">DRG</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1995%20-%207000-03-034%20-%20IKR%20COVER%20-%20DRN%20DRG%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>D 7000-03-037</td>
+<td>IKR-10B (1 RACK UNIT) / PANEL</td>
+<td><a href="Year-1995.html">1995|28</a></td>
+<td><a href="Person-DRG.html">DRG</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1995%20-%207000-03-037%20-%20IKR-10B%20%281%20RACK%20UNIT%29%20PANEL%20-%20DRN%20DRG%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>D 7000-03-036</td>
+<td>IKR-10A / PANEL (2RU)</td>
+<td><a href="Year-1997.html">1997|30</a></td>
+<td><a href="Person-DRG.html">DRG</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1997%20-%207000-03-036%20-%20IKR-10A%20PANEL%20%282RU%29%20-%20DRN%20DRG%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>D 7000-03-036</td>
+<td>IKR-10A / PANEL(2RU)</td>
+<td><a href="Year-1997.html">1997|30</a></td>
+<td><a href="Person-DRG.html">DRG</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1997%20-%207000-03-036%20-%20IKR-10A%20PANEL%282RU%29%20-%20DRN%20DRG%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>D 7000-03-039</td>
+<td>IKR-10B / PANEL(2RU) / (2X PCB)</td>
+<td><a href="Year-1998.html">1998|31</a></td>
+<td><a href="Person-DRG.html">DRG</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M7000/1998%20-%207000-03-039%20-%20IKR-10B%20PANEL%282RU%29%20%282X%20PCB%29%20-%20DRN%20DRG%20-%20ISS%201.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M7000&quot;,
+ &quot;category&quot;: &quot;COMMUNICATION&quot;,
+ &quot;year&quot;: 1977,
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M7000/1977 - M7000 - 7000 series - 004.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M7000/1977 - M7000 - 7000 series - 005.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M7000/1977 - M7000 - 7000 series - 006.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M7000/1977 - M7000 - 7000 series - 007.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M7000/1977 - M7000 - 7000 series - 009.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M7000/1977 - M7000 - 7000 series - 012.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M7000/1977 - M7000 - promo - 7000 series - 001.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/M122/1977 - M122 - PRICE LIST - price list.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M7000/1980 - 7000-03-008 - 7000 SERIES INTERCOM DESK PANELS MOUNTING DETAIL - DRN P. Mahoney - ENG MRW - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M7000/1986 - 7000-03-019 - IKP-24C INTERCOM KEY PANELS - DRN BD - ENG GEB - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1986,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M7000/1988 - 7000-03-017 - BELT CLIP - DRN DRG - ISS 5.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M7000/1995 - 7000-03-031 - IKR-4A REAR HOUSING - DRN DRG - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M7000/1995 - 7000-03-032 - IKR-10 PANEL - DRN DRG - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M7000/1995 - 7000-03-034 - IKR COVER - DRN DRG - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M7000/1995 - 7000-03-035 - COVER SUPPORT - DRN DRG - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M7000/1995 - 7000-03-037 - IKR-10B (1 RACK UNIT) PANEL - DRN DRG - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M7000/1997 - 7000-03-036 - IKR-10A PANEL (2RU) - DRN DRG - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1997,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M7000/1997 - 7000-03-036 - IKR-10A PANEL(2RU) - DRN DRG - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1997,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M7000/1998 - 7000-03-039 - IKR-10B PANEL(2RU) (2X PCB) - DRN DRG - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1998,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M701/19xx - M701 - DOC - 7000 series - 013.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703/19xx - M703 - DOC - 7000 series - 002.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/19xx - M712 - DOC - 7000 series - 001.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/19xx - M712 - DOC - 7000 series - 003.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/19xx - M712 - DOC - 7000 series - 011.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/19xx - M712 - DOC - promo - 7000 series - 002.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/19xx - M712 - DOC - promo - 7000 series - 003.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/19xx - M712 - DOC - promo - 7000 series - 004.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M724/19xx - M724 - DOC - 7000 series - 010.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M7000.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

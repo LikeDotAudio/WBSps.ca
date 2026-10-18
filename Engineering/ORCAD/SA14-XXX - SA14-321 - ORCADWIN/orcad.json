@@ -1,0 +1,513 @@
+{
+ "name": "SA14-XXX/SA14-321/ORCADWIN",
+ "folder": "SA14-XXX - SA14-321 - ORCADWIN",
+ "source": "WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - SA14-XXX/SA14-321/ORCADWIN",
+ "title": "SA14-321 BIPOLAR DC TO DC CONVERTOR",
+ "number": "",
+ "date": "",
+ "sheets": [],
+ "netlists": [
+  {
+   "header": [
+    "SA14-321 BIPOLAR DC TO DC CONVERTOR           Revised: December 13, 1995",
+    "14-321-02-001                                 Revision: 0",
+    "Ward-Beck Systems Ltd"
+   ],
+   "parts": [
+    {
+     "ref": "C1",
+     "footprint": "RAD.15",
+     "value": "47/50"
+    },
+    {
+     "ref": "C2",
+     "footprint": "CAP.1",
+     "value": "0.1/50"
+    },
+    {
+     "ref": "C3",
+     "footprint": "RAD.2",
+     "value": "680/25"
+    },
+    {
+     "ref": "C4",
+     "footprint": "RAD.1",
+     "value": "27/35"
+    },
+    {
+     "ref": "C5",
+     "footprint": "RAD.1",
+     "value": "27/35"
+    },
+    {
+     "ref": "C6",
+     "footprint": "RAD.2",
+     "value": "680/25"
+    },
+    {
+     "ref": "C7",
+     "footprint": "RAD.15",
+     "value": "47/50"
+    },
+    {
+     "ref": "C8",
+     "footprint": "RAD.15",
+     "value": "47/50"
+    },
+    {
+     "ref": "C9",
+     "footprint": "CAP.1",
+     "value": "0.1/50"
+    },
+    {
+     "ref": "D1",
+     "footprint": "17-02",
+     "value": "1N5822"
+    },
+    {
+     "ref": "D2",
+     "footprint": "17-02",
+     "value": "1N5822"
+    },
+    {
+     "ref": "L1",
+     "footprint": "80-36",
+     "value": "80-36"
+    },
+    {
+     "ref": "L2",
+     "footprint": "80-36",
+     "value": "80-36"
+    },
+    {
+     "ref": "R1",
+     "footprint": "R1/4",
+     "value": "22K"
+    },
+    {
+     "ref": "R2",
+     "footprint": "R1/4",
+     "value": "20K"
+    },
+    {
+     "ref": "R3",
+     "footprint": "R1/4",
+     "value": "931 1%"
+    },
+    {
+     "ref": "R4",
+     "footprint": "R1/4",
+     "value": "22K"
+    },
+    {
+     "ref": "R5",
+     "footprint": "R03WE",
+     "value": "1R5 3W"
+    },
+    {
+     "ref": "R6",
+     "footprint": "R1/4",
+     "value": "20K"
+    },
+    {
+     "ref": "R7",
+     "footprint": "R1/4",
+     "value": "931 1%"
+    },
+    {
+     "ref": "U1",
+     "footprint": "T05A",
+     "value": "LM2575T-ADJ"
+    },
+    {
+     "ref": "U2",
+     "footprint": "T05A",
+     "value": "LM2575T-ADJ"
+    }
+   ],
+   "nets": [
+    {
+     "name": "N00348",
+     "nodes": [
+      "R5,1",
+      "C7,1"
+     ]
+    },
+    {
+     "name": "N00352",
+     "nodes": [
+      "R6,1",
+      "U2,4",
+      "R7,1",
+      "R4,1"
+     ]
+    },
+    {
+     "name": "N00353",
+     "nodes": [
+      "D2,1",
+      "U2,2",
+      "L2,1"
+     ]
+    },
+    {
+     "name": "N00362",
+     "nodes": [
+      "U2,5",
+      "D2,2",
+      "U2,3",
+      "R7,2",
+      "C5,2",
+      "C6,2"
+     ]
+    },
+    {
+     "name": "GND POWER",
+     "nodes": [
+      "D1,2",
+      "C7,2",
+      "C8,2",
+      "C9,2",
+      "R6,2",
+      "L2,2",
+      "R4,2",
+      "C6,1",
+      "C5,1",
+      "C2,2",
+      "C1,2",
+      "R3,2",
+      "C4,2",
+      "U1,3",
+      "U1,5",
+      "C3,2"
+     ]
+    },
+    {
+     "name": "N00953",
+     "nodes": [
+      "R1,2",
+      "L1,2",
+      "R2,2",
+      "C3,1",
+      "C4,1"
+     ]
+    },
+    {
+     "name": "N00955",
+     "nodes": [
+      "R1,1",
+      "R3,1",
+      "R2,1",
+      "U1,4"
+     ]
+    },
+    {
+     "name": "N00962",
+     "nodes": [
+      "D1,1",
+      "L1,1",
+      "U1,2"
+     ]
+    },
+    {
+     "name": "N00975",
+     "nodes": [
+      "R5,2",
+      "C8,1",
+      "C1,1",
+      "U1,1",
+      "C2,1",
+      "C9,1",
+      "U2,1"
+     ]
+    }
+   ],
+   "title": "SA14-321 BIPOLAR DC TO DC CONVERTOR",
+   "file": "SA14-321.NET"
+  },
+  {
+   "header": [
+    "SA14-321A BIPOLAR DC TO DC CONVERTOR          Revised: January 10, 1996",
+    "14-321-02-002                                 Revision: 0",
+    "Ward-Beck Systems Ltd"
+   ],
+   "parts": [
+    {
+     "ref": "C1",
+     "footprint": "CAP.1",
+     "value": "0.1/50"
+    },
+    {
+     "ref": "C10",
+     "footprint": "RAD.125",
+     "value": "47/50"
+    },
+    {
+     "ref": "C11",
+     "footprint": "E1000R25",
+     "value": "2200/25"
+    },
+    {
+     "ref": "C3",
+     "footprint": "CAP.1",
+     "value": "0.1/50"
+    },
+    {
+     "ref": "C4",
+     "footprint": "E1000R25",
+     "value": "2200/25"
+    },
+    {
+     "ref": "C6",
+     "footprint": "RAD.125",
+     "value": "47/50"
+    },
+    {
+     "ref": "C7",
+     "footprint": "RAD.1",
+     "value": "27/35"
+    },
+    {
+     "ref": "C8",
+     "footprint": "RAD.125",
+     "value": "47/50"
+    },
+    {
+     "ref": "C9",
+     "footprint": "RAD.1",
+     "value": "27/35"
+    },
+    {
+     "ref": "CR1",
+     "footprint": "17-02",
+     "value": "1N5822"
+    },
+    {
+     "ref": "CR2",
+     "footprint": "17-02",
+     "value": "1N5822"
+    },
+    {
+     "ref": "CR3",
+     "footprint": "17-02",
+     "value": "1N5822"
+    },
+    {
+     "ref": "L1",
+     "footprint": "80-36U",
+     "value": "80-36"
+    },
+    {
+     "ref": "L3",
+     "footprint": "80-36U",
+     "value": "80-36"
+    },
+    {
+     "ref": "P1",
+     "footprint": "SIP3",
+     "value": "CON3"
+    },
+    {
+     "ref": "P2",
+     "footprint": "SIP3",
+     "value": "CON3"
+    },
+    {
+     "ref": "R2",
+     "footprint": "R1/4",
+     "value": "22K"
+    },
+    {
+     "ref": "R3",
+     "footprint": "R1/4",
+     "value": "22K"
+    },
+    {
+     "ref": "R4",
+     "footprint": "R1/4",
+     "value": "20K"
+    },
+    {
+     "ref": "R5",
+     "footprint": "R1/4",
+     "value": "20K"
+    },
+    {
+     "ref": "R6",
+     "footprint": "R1/4",
+     "value": "931 1%"
+    },
+    {
+     "ref": "R7",
+     "footprint": "R1/4",
+     "value": "931 1%"
+    },
+    {
+     "ref": "R8",
+     "footprint": "R03WE",
+     "value": "1R5 3W"
+    },
+    {
+     "ref": "R9",
+     "footprint": "R03WE",
+     "value": "1R5 3W"
+    },
+    {
+     "ref": "U1",
+     "footprint": "T05A",
+     "value": "LM2575T-ADJ"
+    },
+    {
+     "ref": "U2",
+     "footprint": "T05A",
+     "value": "LM2575T-ADJ"
+    }
+   ],
+   "nets": [
+    {
+     "name": "N03135",
+     "nodes": [
+      "R9,1",
+      "C8,1",
+      "CR2,1",
+      "R8,1"
+     ]
+    },
+    {
+     "name": "N03171",
+     "nodes": [
+      "R9,2",
+      "C10,1",
+      "C3,1",
+      "U2,1"
+     ]
+    },
+    {
+     "name": "N03204",
+     "nodes": [
+      "CR3,1",
+      "U2,2",
+      "L3,1"
+     ]
+    },
+    {
+     "name": "N03866",
+     "nodes": [
+      "C6,1",
+      "C1,1",
+      "U1,1",
+      "R8,2"
+     ]
+    },
+    {
+     "name": "N04145",
+     "nodes": [
+      "CR1,1",
+      "L1,1",
+      "U1,2"
+     ]
+    },
+    {
+     "name": "N04149",
+     "nodes": [
+      "L1,2",
+      "C4,1",
+      "P2,1",
+      "C7,1",
+      "R2,2",
+      "R4,2"
+     ]
+    },
+    {
+     "name": "N04204",
+     "nodes": [
+      "C9,2",
+      "P2,3",
+      "C11,2",
+      "CR3,2",
+      "U2,3",
+      "U2,5",
+      "R7,2"
+     ]
+    },
+    {
+     "name": "GND POWER",
+     "nodes": [
+      "C8,2",
+      "C10,2",
+      "C3,2",
+      "R5,2",
+      "R3,2",
+      "L3,2",
+      "C11,1",
+      "C9,1",
+      "P1,2",
+      "C1,2",
+      "C6,2",
+      "R6,2",
+      "C7,2",
+      "U1,3",
+      "CR1,2",
+      "C4,2",
+      "P2,2",
+      "U1,5"
+     ]
+    },
+    {
+     "name": "N00352",
+     "nodes": [
+      "R5,1",
+      "U2,4",
+      "R7,1",
+      "R3,1"
+     ]
+    },
+    {
+     "name": "N01255",
+     "nodes": [
+      "R2,1",
+      "U1,4",
+      "R6,1",
+      "R4,1"
+     ]
+    },
+    {
+     "name": "N03043",
+     "nodes": [
+      "CR2,2",
+      "P1,1"
+     ]
+    },
+    {
+     "name": "GND EARTH",
+     "nodes": [
+      "P1,3"
+     ]
+    }
+   ],
+   "title": "SA14-321A BIPOLAR DC TO DC CONVERTOR",
+   "file": "SA14321A.NET"
+  }
+ ],
+ "boms": [
+  {
+   "file": "SA14-321.BOM",
+   "header": [
+    "SA14-321 BIPOLAR DC TO DC CONVERTOR  Revised: Tuesday, December 12, 1995",
+    "14-321-02-001          Revision: 0",
+    ""
+   ],
+   "items": []
+  },
+  {
+   "file": "SA14321A.BOM",
+   "header": [
+    "SA14-321A BIPOLAR DC TO DC CONVERTOR  Revised: Tuesday, December 12, 1995",
+    "14-321-02-002          Revision: 0",
+    ""
+   ],
+   "items": []
+  }
+ ],
+ "libraries": []
+}

@@ -1,0 +1,1427 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M470A — Input Module</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>M470A — Input Module</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="Category-INPUT-PRE-AMPS.html">INPUT-PRE-AMPS</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../simulator.html?m=M470A">simulator &amp; front panel</a> · <a href="../_packages/M470A.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="Year-1977.html">1977|10</a> — title-block date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"DATE MAY 77" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M470A Input Module.pdf</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="Year-1977.html">1977|10</a>, <a href="Year-1979.html">1979|12</a></td>
+</tr>
+<tr>
+<td>Used in jobs</td>
+<td><a href="Job-78035.html">78035</a> (1978|11), <a href="Job-78050.html">78050</a> (1978|11), <a href="Job-790236.html">790236</a> (1979|12), 1980-1989, Archived-Done-L3242Console, WBSL3242Afullsize</td>
+</tr>
+<tr>
+<td>Variants</td>
+<td><a href="M470.html">M470</a>, <a href="M470C.html">M470C</a>, <a href="M470D.html">M470D</a>, <a href="M470E.html">M470E</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/APK/2006-01-03%20-%20consol/">DOCUMENTS/APK/2006-01-03 - consol</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/">DOCUMENTS/To Be edited/STEREO FOR THE L SERIES AUDIO CONSOLE</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../Modules/INPUT-PRE-AMPS/M470/index.html">Modules/INPUT-PRE-AMPS/M470</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections and circuit (ideal SPICE model)</h2>
+<p><em>Drawn live from its RTO-144 connections: run the generator, turn the gain, watch the VU. Open the netlist to see how the model is built.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M470A" data-n="Input Module" data-cat="INPUT-PRE-AMPS"></div><svg class="wbs-panel" data-m="M470A" data-n="Input Module" data-cat="INPUT-PRE-AMPS" role="img" aria-label="M470A front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M470A","title":"Input Module","rto":{"code":"M470A","series":"L-PRE","type":"PREAMP","row_count":88,"impedance":{"line_in":600,"out":600},"note":null,"audio":[{"port":"A1","signal":"LINE-IN","dir":"in","pos":"P2-1","neg":"P2-A","pad_pos":"P2-1.A.1.P","pad_neg":"P2-A.A.1.N"},{"port":"A2","signal":"MIC-IN-1","dir":"in","pos":"P1-19","neg":"P1-W","pad_pos":"P1-19.A.2.P","pad_neg":"P1-W.A.2.N"},{"port":"A3","signal":"M2-OUT","dir":"out","pos":"P1-1","neg":"P1-A","pad_pos":"P1-1.A.3.P","pad_neg":"P1-A.A.3.N"},{"port":"A4","signal":"DIRECT OUT","dir":"out","pos":"P2-3","neg":"P2-C","pad_pos":"P2-3.A.4.P","pad_neg":"P2-C.A.4.N"},{"port":"B1","signal":"INSERT-OUT","dir":"out","pos":"P2-8","neg":"P2-J","pad_pos":"P2-8.B.1.P","pad_neg":"P2-J.B.1.N"},{"port":"B2","signal":"INSERT-RETURN","dir":"in","pos":"P2-6","neg":"P2-F","pad_pos":"P2-6.B.2.P","pad_neg":"P2-F.B.2.N"},{"port":"B3","signal":"CH-ON-SWITCH OUT","dir":"out","pos":"P2-7","neg":"P2-H","pad_pos":"P2-7.B.3.P","pad_neg":"P2-H.B.3.N"},{"port":"B4","signal":"FADER-RETURN","dir":"in","pos":"P2-5","neg":"P2-E","pad_pos":"P2-5.B.4.P","pad_neg":"P2-E.B.4.N"}],"bus_out":[{"bus":"LEFT","signal":"BUS-LEFT-OUT","pos":"P1-5","neg":"P1-E"},{"bus":"RIGHT","signal":"BUS-RIGHT-OUT","pos":"P1-1","neg":"P1-A"},{"bus":"SUB1-RS1","signal":"BUS-SUB1","pos":"P1-8","neg":"P1-J"},{"bus":"SUB2-RS2","signal":"BUS-SUB2","pos":"P1-4","neg":"P1-D"},{"bus":"SUB3-RS3","signal":"BUS-SUB3","pos":"P1-7","neg":"P1-H"},{"bus":"SUB4-RS4","signal":"BUS-SUB4","pos":"P1-3","neg":"P1-C"},{"bus":"SUB5","signal":"BUS-SUB5","pos":"P1-6","neg":"P1-F"},{"bus":"SUB6","signal":"BUS-SUB6","pos":"P1-2","neg":"P1-B"},{"bus":"AUX1-FB1","signal":"BUS-AUX1","pos":"P1-12","neg":"P1-N"},{"bus":"AUX2-FB2","signal":"BUS-AUX2","pos":"P1-11","neg":"P1-M"},{"bus":"AUX3-FB3","signal":"BUS-AUX3","pos":"P1-10","neg":"P1-L"},{"bus":"AUX4-FB4","signal":"BUS-AUX4","pos":"P1-9","neg":"P1-K"},{"bus":"SOLO-CUE","signal":"BUS-SOLO-CUE-OUT","pos":"P1-14","neg":"P1-R"},{"bus":"PFL","signal":"BUS-PFL","pos":"P1-13","neg":"P1-P"}],"bus_in":[],"power":[{"rail":"VEE-AUDIO","style":"NEW","volts":-25,"max_a":0.2,"supply":"P2-19","ground":"P2-20","link":2},{"rail":"VCC-AUDIO","style":"NEW","volts":25,"max_a":0.2,"supply":"P2-21","ground":"P2-20","link":1},{"rail":"VCC-LOGIC","style":"NEW","volts":24,"max_a":0.2,"supply":"P2-Y","ground":"P2-18","link":null}],"jumpers":[{"function":"CH ON LAMP","designation":"JMP.Z.W","from":"P2-Z","to":"P2-W"},{"function":"CH ON GND ","designation":"JMP.2","from":"P2-W","to":"P2-18"},{"function":"24V Jumper","designation":"JMP.Y.21","from":"P2-Y","to":"P2-21"},{"function":"CH ON GND ","designation":"JMP.20.18","from":"P2-20","to":"P2-18"},{"function":"Insert +","designation":"JMP.8.6","from":"P2-8","to":"P2-6"},{"function":"Insert -","designation":"JMP.J.F","from":"P2-J","to":"P2-F"},{"function":"Fader +","designation":"JMP.7.5","from":"P2-7","to":"P2-5"},{"function":"Fader - ","designation":"JMP.H.E","from":"P2-H","to":"P2-E"},{"function":"EQ BYPASS","designation":"JMP.Z.22","from":"P1-Z","to":"P1-22"}],"logic":[],"chassis":"P2-22"},"parts":[{"item":"10-014","title":"","label":"10-014","href":"Register-Sub-assemblies-n-nnn.html#10-014","note":"Sub-assemblies (n-nnn)"},{"item":"10-015","title":"","label":"10-015","href":"Register-Sub-assemblies-n-nnn.html#10-015","note":"Sub-assemblies (n-nnn)"},{"item":"60-12","title":"60-12 / INPUT TRANSFORMER","label":"60-12 60-12 / INPUT TRANSFORMER","href":"Transformers.html#60-12","note":"Input transformers (60-n)"}],"parents":[{"label":"78035","href":"Job-78035.html","note":"04-002 L3242A layout iss 1"},{"label":"78050","href":"Job-78050.html","note":"04-002 L2042A layout"},{"label":"790236","href":"Job-790236.html","note":"Maryland L3242A"},{"label":"1980-1989","href":"#","note":"console / job"},{"label":"Archived-Done-L3242Console","href":"#","note":"console / job"},{"label":"WBSL3242Afullsize","href":"#","note":"console / job"},{"label":"M470","href":"M470.html","note":"on 5 drawings with it: Input Module"},{"label":"M471C","href":"M471C.html","note":"on 5 drawings with it: Stereo Input Module"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20470-04-005%20-%20FIMISH%20NPUT%20MODULE%20CONNECTOR%20REAR%20VIEW.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20470-04-005%20-%20FIMISH%20NPUT%20MODULE%20CONNECTOR%20REAR%20VIEW.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - 470-04-005 - FIMISH NPUT MODULE CONNECTOR REAR VIEW.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - 470-04-005 - FIMISH NPUT MODULE CONNECTOR REAR VIEW.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1979%20-%20M470A%20-%20P03%20-%20TOC.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1979%20-%20M470A%20-%20P03%20-%20TOC.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1979 - M470A - P03 - TOC.jpg" data-size="320" onerror="wbsOff(this)">1979 - M470A - P03 - TOC.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%2012.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%2012.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - 12.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - 12.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%2012_small.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%2012_small.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - 12_small.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - 12_small.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20470-01-002%20-%20OLO%20CONTROL%20EXTERNAL%20PEAK%20CALIBRATION%20PEAK%20INDICATOR.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20470-01-002%20-%20OLO%20CONTROL%20EXTERNAL%20PEAK%20CALIBRATION%20PEAK%20INDICATOR.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - 470-01-002 - OLO CONTROL EXTERNAL PEAK CALIBRATION PEAK INDICATOR.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - 470-01-002 - OLO CONTROL EXTERNAL PEAK CALIBRATION PEAK INDICATOR.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20470-04-006%20-%20IGNA%20FOL%20OWING%20CHE%20FADER%20AND%20CRA%20SWITCH.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20470-04-006%20-%20IGNA%20FOL%20OWING%20CHE%20FADER%20AND%20CRA%20SWITCH.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - 470-04-006 - IGNA FOL OWING CHE FADER AND CRA SWITCH.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - 470-04-006 - IGNA FOL OWING CHE FADER AND CRA SWITCH.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module%20Front.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module%20Front.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Input Module Front.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - Input Module Front.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module%20Front_small.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module%20Front_small.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Input Module Front_small.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - Input Module Front_small.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module%20Side%203.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module%20Side%203.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Input Module Side 3.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - Input Module Side 3.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module%20Side%203_small.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module%20Side%203_small.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Input Module Side 3_small.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - Input Module Side 3_small.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P01%20-%20Cover.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P01%20-%20Cover.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P01 - Cover.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - P01 - Cover.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P02.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P02.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P02.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - P02.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P04.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P04.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P04.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - P04.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P05%20-%201-1.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P05%20-%201-1.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P05 - 1-1.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - P05 - 1-1.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P06%20-%202-1.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P06%20-%202-1.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P06 - 2-1.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - P06 - 2-1.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P07%20-%202-2.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P07%20-%202-2.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P07 - 2-2.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - P07 - 2-2.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P08%20-%202-3.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P08%20-%202-3.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P08 - 2-3.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - P08 - 2-3.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P09%20-%203-1.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P09%20-%203-1.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P09 - 3-1.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - P09 - 3-1.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P10%20-%204-1.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P10%20-%204-1.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P10 - 4-1.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - P10 - 4-1.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P11%20-%204-2.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P11%20-%204-2.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P11 - 4-2.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - P11 - 4-2.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P12%20-%204-3.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P12%20-%204-3.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P12 - 4-3.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - P12 - 4-3.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P13%20-%204-4.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P13%20-%204-4.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P13 - 4-4.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - P13 - 4-4.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P14%20-%204-5.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P14%20-%204-5.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P14 - 4-5.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - P14 - 4-5.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P15%20-%204-6.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P15%20-%204-6.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P15 - 4-6.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - P15 - 4-6.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P16%20-%204-7.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P16%20-%204-7.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P16 - 4-7.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - P16 - 4-7.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P19%20-%20Schematic.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P19%20-%20Schematic.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P19 - Schematic.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - P19 - Schematic.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P20%20-%20Component%20Layout%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P20%20-%20Component%20Layout%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P20 - Component Layout (2).jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - P20 - Component Layout (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P20%20-%20Component%20Layout.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P20%20-%20Component%20Layout.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P20 - Component Layout.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - P20 - Component Layout.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Pres%20-%20Old%20Style.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Pres%20-%20Old%20Style.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Pres - Old Style.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - Pres - Old Style.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Small%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Small%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Small (2).jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - Small (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Switch%20Mod%201.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Switch%20Mod%201.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Switch Mod 1.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - Switch Mod 1.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Switch%20Mod%202.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Switch%20Mod%202.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Switch Mod 2.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - Switch Mod 2.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20file.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20file.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - file.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - file.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20small.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20small.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - small.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - small.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20001_small.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20001_small.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 001_small.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - wbsps - module - m470a input module 001_small.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20002_small.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20002_small.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 002_small.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - wbsps - module - m470a input module 002_small.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20003.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20003.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 003.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - wbsps - module - m470a input module 003.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20003_small.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20003_small.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 003_small.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - wbsps - module - m470a input module 003_small.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20005_small.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20005_small.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 005_small.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - wbsps - module - m470a input module 005_small.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20006_small.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20006_small.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 006_small.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - wbsps - module - m470a input module 006_small.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20009.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20009.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 009.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - wbsps - module - m470a input module 009.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20009_small.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20009_small.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 009_small.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - wbsps - module - m470a input module 009_small.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20010.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20010.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 010.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - wbsps - module - m470a input module 010.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20010_small.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20010_small.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 010_small.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - wbsps - module - m470a input module 010_small.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20011.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20011.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 011.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - wbsps - module - m470a input module 011.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20011_small.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20011_small.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 011_small.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - wbsps - module - m470a input module 011_small.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20012.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20012.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 012.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - wbsps - module - m470a input module 012.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20012_small.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20012_small.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 012_small.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - wbsps - module - m470a input module 012_small.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20013.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20013.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 013.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - wbsps - module - m470a input module 013.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20013_small.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20013_small.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 013_small.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - wbsps - module - m470a input module 013_small.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20014.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20014.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 014.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - wbsps - module - m470a input module 014.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20014_small.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20014_small.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 014_small.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - wbsps - module - m470a input module 014_small.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20015.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20015.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 015.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - wbsps - module - m470a input module 015.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20015_small.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20015_small.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 015_small.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - wbsps - module - m470a input module 015_small.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20016.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20016.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 016.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - wbsps - module - m470a input module 016.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20016_small.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20016_small.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 016_small.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - wbsps - module - m470a input module 016_small.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20017.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20017.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 017.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - wbsps - module - m470a input module 017.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20017_small.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20017_small.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 017_small.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - wbsps - module - m470a input module 017_small.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20018.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20018.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 018.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - wbsps - module - m470a input module 018.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20018_small.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20018_small.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 018_small.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - wbsps - module - m470a input module 018_small.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20019.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20019.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 019.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - wbsps - module - m470a input module 019.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20019_small.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20019_small.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 019_small.jpg" data-size="320" onerror="wbsOff(this)">1977 - M470A - wbsps - module - m470a input module 019_small.jpg</a><a href="../viewer.html?f=DOCUMENTS/APK/2006-01-03%20-%20consol/19xx%20-%20DOC%20-%20_untitled_%20011.jpg"><img loading="lazy" src="../DOCUMENTS/APK/2006-01-03%20-%20consol/19xx%20-%20DOC%20-%20_untitled_%20011.jpg" alt="" data-f="DOCUMENTS/APK/2006-01-03 - consol/19xx - DOC - _untitled_ 011.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - _untitled_ 011.jpg</a><a href="../viewer.html?f=DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P002.jpg"><img loading="lazy" src="../DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P002.jpg" alt="" data-f="DOCUMENTS/To Be edited/STEREO FOR THE L SERIES AUDIO CONSOLE/19xx - DOC - STEREO L SERIES - P002.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - STEREO L SERIES - P002.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/M470A%20-%20P18%20-%20Functional%20Diagram.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M470A/M470A%20-%20P18%20-%20Functional%20Diagram.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M470A/M470A - P18 - Functional Diagram.jpg" data-size="320" onerror="wbsOff(this)">M470A - P18 - Functional Diagram.jpg</a><a href="../viewer.html?f=Consoles/1970-1979/78035%20-%2004-002%20L3242A%20layout%20iss%201/1978%20-%2078035%20-%20c%20%283%29.jpg"><img loading="lazy" src="../Consoles/1970-1979/78035%20-%2004-002%20L3242A%20layout%20iss%201/1978%20-%2078035%20-%20c%20%283%29.jpg" alt="" data-f="Consoles/1970-1979/78035 - 04-002 L3242A layout iss 1/1978 - 78035 - c (3).jpg" data-size="320" onerror="wbsOff(this)">1978 - 78035 - c (3).jpg</a><a href="../viewer.html?f=Consoles/1970-1979/78050%20-%2004-002%20L2042A%20layout/1978%20-%2078050%20-%20b.jpg"><img loading="lazy" src="../Consoles/1970-1979/78050%20-%2004-002%20L2042A%20layout/1978%20-%2078050%20-%20b.jpg" alt="" data-f="Consoles/1970-1979/78050 - 04-002 L2042A layout/1978 - 78050 - b.jpg" data-size="320" onerror="wbsOff(this)">1978 - 78050 - b.jpg</a><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20790236-01-001%20-%20IDENTICAL%20CHAN%20CHAN%20INSERT%20FADER.jpg"><img loading="lazy" src="../Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20790236-01-001%20-%20IDENTICAL%20CHAN%20CHAN%20INSERT%20FADER.jpg" alt="" data-f="Consoles/1970-1979/790236 - Maryland L3242A/1979 - 790236 - 790236-01-001 - IDENTICAL CHAN CHAN INSERT FADER.jpg" data-size="320" onerror="wbsOff(this)">1979 - 790236 - 790236-01-001 - IDENTICAL CHAN CHAN INSERT FADER.jpg</a><a href="../viewer.html?f=Consoles/1980-1989/1980-1989/1980%20-%201980-1989%20-%20L3242%20-%20P07.jpg"><img loading="lazy" src="../Consoles/1980-1989/1980-1989/1980%20-%201980-1989%20-%20L3242%20-%20P07.jpg" alt="" data-f="Consoles/1980-1989/1980-1989/1980 - 1980-1989 - L3242 - P07.jpg" data-size="320" onerror="wbsOff(this)">1980 - 1980-1989 - L3242 - P07.jpg</a></div>
+<h2>Price history</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Price</th>
+<th>Listed as</th>
+<th>Effective</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-2005.html">2005|38</a></td>
+<td>used market value</td>
+<td>250.00</td>
+<td>M470A New Switches and new pots</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/old website/PriceGuide.htm</td>
+</tr>
+<tr>
+<td><a href="Year-2005.html">2005|38</a></td>
+<td>used market value</td>
+<td>200.00</td>
+<td>M470A Old Style Switches and Old Style Pots</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/old website/PriceGuide.htm</td>
+</tr>
+<tr>
+<td><a href="Year-2006.html">2006|39</a></td>
+<td>used market value</td>
+<td>250.00</td>
+<td>M470A New Switches and new pots</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/jan 2006 shell/priceguide.htm</td>
+</tr>
+<tr>
+<td><a href="Year-2006.html">2006|39</a></td>
+<td>used market value</td>
+<td>200.00</td>
+<td>M470A Old Style Switches and Old Style Pots</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/jan 2006 shell/priceguide.htm</td>
+</tr>
+</tbody>
+</table>
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td>title-block date</td>
+<td><code>DATE MAY 77</code></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20470-04-005%20-%20FIMISH%20NPUT%20MODULE%20CONNECTOR%20REAR%20VIEW.jpg">1977 - M470A - 470-04-005 - FIMISH NPUT MODULE CONNECTOR REAR VIEW.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td>title-block date</td>
+<td><code>DATE MAY 77</code></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module%20%282%29.pdf">1977 - M470A - Input Module (2).pdf</a></td>
+</tr>
+<tr>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td>month &amp; year</td>
+<td><code>MARCH 1979</code></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module%20%282%29.pdf">1977 - M470A - Input Module (2).pdf</a></td>
+</tr>
+<tr>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td>title-block date</td>
+<td><code>DATE MAY 77</code></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module.pdf">1977 - M470A - Input Module.pdf</a></td>
+</tr>
+<tr>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td>month &amp; year</td>
+<td><code>MARCH 1979</code></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module.pdf">1977 - M470A - Input Module.pdf</a></td>
+</tr>
+<tr>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td>manual issue date</td>
+<td><code>I SSUE ~5 W :// MARCH 1979</code></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1979%20-%20M470A%20-%20Input%20Module.pdf">1979 - M470A - Input Module.pdf</a></td>
+</tr>
+<tr>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td>manual issue date</td>
+<td><code>ISSUE #5 MARcH 1979</code></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1979%20-%20M470A%20-%20P03%20-%20TOC.jpg">1979 - M470A - P03 - TOC.jpg</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Physical manual inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Location</th>
+<th>Status</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M470A Input Module</td>
+<td></td>
+<td></td>
+<td>PDF - Already scanned</td>
+</tr>
+</tbody>
+</table>
+<h2>Documents (3)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module%20%282%29.pdf">1977 - M470A - Input Module (2).pdf</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module%20%282%29.pdf.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module.pdf">1977 - M470A - Input Module.pdf</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module.pdf.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1979%20-%20M470A%20-%20Input%20Module.pdf">1979 - M470A - Input Module.pdf</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1979%20-%20M470A%20-%20Input%20Module.pdf.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (69)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%2012.jpg">1977 - M470A - 12.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%2012.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%2012_small.jpg">1977 - M470A - 12_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%2012_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20470-01-002%20-%20OLO%20CONTROL%20EXTERNAL%20PEAK%20CALIBRATION%20PEAK%20INDICATOR.jpg">1977 - M470A - 470-01-002 - OLO CONTROL EXTERNAL PEAK CALIBRATION PEAK INDICATOR.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20470-01-002%20-%20OLO%20CONTROL%20EXTERNAL%20PEAK%20CALIBRATION%20PEAK%20INDICATOR.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20470-04-005%20-%20FIMISH%20NPUT%20MODULE%20CONNECTOR%20REAR%20VIEW.jpg">1977 - M470A - 470-04-005 - FIMISH NPUT MODULE CONNECTOR REAR VIEW.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20470-04-005%20-%20FIMISH%20NPUT%20MODULE%20CONNECTOR%20REAR%20VIEW.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20470-04-006%20-%20IGNA%20FOL%20OWING%20CHE%20FADER%20AND%20CRA%20SWITCH.jpg">1977 - M470A - 470-04-006 - IGNA FOL OWING CHE FADER AND CRA SWITCH.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20470-04-006%20-%20IGNA%20FOL%20OWING%20CHE%20FADER%20AND%20CRA%20SWITCH.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module%20Front.jpg">1977 - M470A - Input Module Front.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module%20Front.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module%20Front_small.jpg">1977 - M470A - Input Module Front_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module%20Front_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module%20Side%203.jpg">1977 - M470A - Input Module Side 3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module%20Side%203.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module%20Side%203_small.jpg">1977 - M470A - Input Module Side 3_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module%20Side%203_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P01%20-%20Cover.jpg">1977 - M470A - P01 - Cover.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P01%20-%20Cover.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P02.jpg">1977 - M470A - P02.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P02.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P04.jpg">1977 - M470A - P04.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P04.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P05%20-%201-1.jpg">1977 - M470A - P05 - 1-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P05%20-%201-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P06%20-%202-1.jpg">1977 - M470A - P06 - 2-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P06%20-%202-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P07%20-%202-2.jpg">1977 - M470A - P07 - 2-2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P07%20-%202-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P08%20-%202-3.jpg">1977 - M470A - P08 - 2-3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P08%20-%202-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P09%20-%203-1.jpg">1977 - M470A - P09 - 3-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P09%20-%203-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P10%20-%204-1.jpg">1977 - M470A - P10 - 4-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P10%20-%204-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P11%20-%204-2.jpg">1977 - M470A - P11 - 4-2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P11%20-%204-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P12%20-%204-3.jpg">1977 - M470A - P12 - 4-3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P12%20-%204-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P13%20-%204-4.jpg">1977 - M470A - P13 - 4-4.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P13%20-%204-4.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P14%20-%204-5.jpg">1977 - M470A - P14 - 4-5.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P14%20-%204-5.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P15%20-%204-6.jpg">1977 - M470A - P15 - 4-6.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P15%20-%204-6.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P16%20-%204-7.jpg">1977 - M470A - P16 - 4-7.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P16%20-%204-7.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P19%20-%20Schematic.jpg">1977 - M470A - P19 - Schematic.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P19%20-%20Schematic.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P20%20-%20Component%20Layout%20%282%29.jpg">1977 - M470A - P20 - Component Layout (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P20%20-%20Component%20Layout%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P20%20-%20Component%20Layout.jpg">1977 - M470A - P20 - Component Layout.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20P20%20-%20Component%20Layout.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Pres%20-%20Old%20Style.jpg">1977 - M470A - Pres - Old Style.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Pres%20-%20Old%20Style.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Small%20%282%29.jpg">1977 - M470A - Small (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Small%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Switch%20Mod%201.jpg">1977 - M470A - Switch Mod 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Switch%20Mod%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Switch%20Mod%202.jpg">1977 - M470A - Switch Mod 2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Switch%20Mod%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20file.jpg">1977 - M470A - file.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20file.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20small.jpg">1977 - M470A - small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20001_small.jpg">1977 - M470A - wbsps - module - m470a input module 001_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20001_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20002_small.jpg">1977 - M470A - wbsps - module - m470a input module 002_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20002_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20003.jpg">1977 - M470A - wbsps - module - m470a input module 003.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20003_small.jpg">1977 - M470A - wbsps - module - m470a input module 003_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20003_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20005_small.jpg">1977 - M470A - wbsps - module - m470a input module 005_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20005_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20006_small.jpg">1977 - M470A - wbsps - module - m470a input module 006_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20006_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20009.jpg">1977 - M470A - wbsps - module - m470a input module 009.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20009.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20009_small.jpg">1977 - M470A - wbsps - module - m470a input module 009_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20009_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20010.jpg">1977 - M470A - wbsps - module - m470a input module 010.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20010.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20010_small.jpg">1977 - M470A - wbsps - module - m470a input module 010_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20010_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20011.jpg">1977 - M470A - wbsps - module - m470a input module 011.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20011.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20011_small.jpg">1977 - M470A - wbsps - module - m470a input module 011_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20011_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20012.jpg">1977 - M470A - wbsps - module - m470a input module 012.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20012.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20012_small.jpg">1977 - M470A - wbsps - module - m470a input module 012_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20012_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20013.jpg">1977 - M470A - wbsps - module - m470a input module 013.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20013.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20013_small.jpg">1977 - M470A - wbsps - module - m470a input module 013_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20013_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20014.jpg">1977 - M470A - wbsps - module - m470a input module 014.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20014.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20014_small.jpg">1977 - M470A - wbsps - module - m470a input module 014_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20014_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20015.jpg">1977 - M470A - wbsps - module - m470a input module 015.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20015.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20015_small.jpg">1977 - M470A - wbsps - module - m470a input module 015_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20015_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20016.jpg">1977 - M470A - wbsps - module - m470a input module 016.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20016.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20016_small.jpg">1977 - M470A - wbsps - module - m470a input module 016_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20016_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20017.jpg">1977 - M470A - wbsps - module - m470a input module 017.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20017.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20017_small.jpg">1977 - M470A - wbsps - module - m470a input module 017_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20017_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20018.jpg">1977 - M470A - wbsps - module - m470a input module 018.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20018.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20018_small.jpg">1977 - M470A - wbsps - module - m470a input module 018_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20018_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20019.jpg">1977 - M470A - wbsps - module - m470a input module 019.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20019.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20019_small.jpg">1977 - M470A - wbsps - module - m470a input module 019_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20wbsps%20-%20module%20-%20m470a%20input%20module%20019_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1979%20-%20M470A%20-%20P03%20-%20TOC.jpg">1979 - M470A - P03 - TOC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1979%20-%20M470A%20-%20P03%20-%20TOC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/APK/2006-01-03%20-%20consol/19xx%20-%20DOC%20-%20_untitled_%20011.jpg">19xx - DOC - <em>untitled</em> 011.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/APK/2006-01-03%20-%20consol/19xx%20-%20DOC%20-%20_untitled_%20011.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P002.jpg">19xx - DOC - STEREO L SERIES - P002.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470/19xx%20-%20M470%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P002.jpg">19xx - M470 - DOC - STEREO L SERIES - P002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470/19xx%20-%20M470%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/19xx%20-%20M470A%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P002.jpg">19xx - M470A - DOC - STEREO L SERIES - P002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/19xx%20-%20M470A%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/19xx%20-%20M470A%20-%20DOC%20-%20_untitled_%20011.jpg">19xx - M470A - DOC - <em>untitled</em> 011.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/19xx%20-%20M470A%20-%20DOC%20-%20_untitled_%20011.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/M470A%20-%20P18%20-%20Functional%20Diagram.jpg">M470A - P18 - Functional Diagram.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/M470A%20-%20P18%20-%20Functional%20Diagram.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/19xx%20-%20M471C%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P002.jpg">19xx - M471C - DOC - STEREO L SERIES - P002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/19xx%20-%20M471C%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P002.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Sub-assemblies &amp; parts used (3)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What</th>
+<th>Family</th>
+<th>Year</th>
+<th>How we know</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#10-014">10-014</a></td>
+<td></td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1988|21</td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#10-015">10-015</a></td>
+<td></td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1988|21</td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Input-transformers-60-n.html#60-12">60-12</a></td>
+<td>60-12 / INPUT TRANSFORMER</td>
+<td>Input transformers (60-n)</td>
+<td>1990|23</td>
+<td>named in its manual</td>
+</tr>
+</tbody>
+</table>
+<h2>Parts list — board M470A (10 parts)</h2>
+<p><em>From <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module%20%282%29.pdf">1977 - M470A - Input Module (2).pdf</a>, page 13 (scanned); also in <code>timelines/data/bom.csv</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>Part</th>
+<th>Value</th>
+<th>Manufacturer</th>
+<th>Mfr part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M470A</td>
+<td>InPuT MODULE</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R46</td>
+<td>Resistor kW 620 Philips</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R55</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R56</td>
+<td>Resistor YW 10k</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R58</td>
+<td>Resistor GW delete</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R60</td>
+<td>Resistor %W 220</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R61</td>
+<td>Resistor kW 51</td>
+<td>4k7</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R81</td>
+<td>Resistor sw 18k Philips</td>
+<td>53</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R85</td>
+<td>R86 Potentiometer Bourns WBS</td>
+<td></td>
+<td></td>
+<td>10-017</td>
+</tr>
+<tr>
+<td>R88</td>
+<td>Resistor 5 % k8 Philips</td>
+<td>4w</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Consoles &amp; jobs it is connected to (6)</h2>
+<p><em>Their own drawings name this module.</em></p>
+<table>
+<thead>
+<tr>
+<th>Job</th>
+<th>Year</th>
+<th>Drawing</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Job-78035.html">78035</a></td>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/78035%20-%2004-002%20L3242A%20layout%20iss%201/1978%20-%2078035%20-%20c%20%283%29.jpg">1978 - 78035 - c (3).jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="Job-78050.html">78050</a></td>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/78050%20-%2004-002%20L2042A%20layout/1978%20-%2078050%20-%20b.jpg">1978 - 78050 - b.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="Job-790236.html">790236</a></td>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20790236-01-001%20-%20IDENTICAL%20CHAN%20CHAN%20INSERT%20FADER.jpg">1979 - 790236 - 790236-01-001 - IDENTICAL CHAN CHAN INSERT FADER.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td>1980-1989</td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1980-1989/1980-1989/1980%20-%201980-1989%20-%20L3242%20-%20P07.jpg">1980 - 1980-1989 - L3242 - P07.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td>Archived-Done-L3242Console</td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/Archived%20-%20Done%20-%20L3242%20Console/1977%20-%20L3242%20-%20P07.jpg">1977 - L3242 - P07.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td>WBSL3242Afullsize</td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/WBS%20L3242A%20full%20size/1977%20-%20L3242A%20-%20WBS%20L3242P%20layout.pdf">1977 - L3242A - WBS L3242P layout.pdf</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (4)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L3242%20Console/19xx%20-%20DOC%20-%20L3242%20-%20P07.jpg">19xx - DOC - L3242 - P07.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/FILTERS/M472/19xx%20-%20M472%20-%20DOC%20-%20L3242%20-%20P07.jpg">19xx - M472 - DOC - L3242 - P07.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470/19xx%20-%20M470%20-%20DOC%20-%20L3242%20-%20P07.jpg">19xx - M470 - DOC - L3242 - P07.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Products/RTO/RTO-144/19xx%20-%20RTO-144%20-%20Module%20RTO-144%20Jumper%20calculator.xlsx">19xx - RTO-144 - Module RTO-144 Jumper calculator.xlsx</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>General description (2)</h3>
+<details><summary>Description — 2037 words · 1979 - M470A - Input Module.pdf, page 6</summary><p>M4 70A   INP UT MOD ULE</p><p>The M4 70A input modul e pro vide s the fa c iliti es of a c o ~p 1 et e   inp ut .i ~i ng channel with the e~cepti on of t he attenuator and   an option a l externa l equal i ze r.    Input   IN PUT Se l e ctor sw itc hes SW 1, SW2 and SW3 a l low a choice o f in put   sel ect i on betw een one 11 ne a nd two . Ic rop hone i nput s . Addit ion -   a l l y, SW4 prov ideS the i ns e r t io n of a 20 dB los s pad for th e   mic ro phone sourc es . When oper ating f ro. a MI CROPHONE s ource,   the i nput Illp ed ance of t he uni t i s s ubstant ia l ly hi gher th a n the   s ource ill pe dance . In th e LIN E positi on. the &quot;,. 70A presen t s i   br i dging lmpedance of 30k 01&#x27;1. t o t he s ource. All i nput s t o th e   lIlodu1e are tra nsfor.er coupl ed to t he prea lllp l 1f i er .    Pr ealllplifl er    The se condary s i de of th e input t r ans fo r.e r Tl conn ec ts t o t he    pr e a.pl i fi e r i nput se c tio n , c o ~pr i sing Ql t hr ough 05 wit h t heir    as soc iated co. ponent s . SENS ITIY I TY con t ro l R26 a l l ows contin uous    l evel adjust llle nt of all in put s i gna ls over a rang e of 30 dB. The    SE NSI TI VI TY co nt ro l th uS perllli ts ope r a tion wit h .ic ro phone inpu t    l ev els f ro. - 60 to - 30 dB. i n the dir ect .od e , and with lev els    fr o. - 40 t o -1 0 dBII wh en the PAD i s i nse r te d . Silllil a r ly . line    l ev els froll - 10 dB. t o +20 dB. can be a c c o ~ m o d lt e d in t he LIN E    .o de.    [qu al l zer I ns ert    Fo l low1ng Q4 li nd Q5 . th e s i gn. l is broug ht out to conn ec to r Pl.    pi n 22 and ret urn ed t o the uni t vi. Pl, pin Z. This i nser t    po i nt lI.y be us ed t o i ns e rt t he 1&#x27;14 72 equ a11 ze r into the sign al    path .    HI GH -P AS S Filt e r    Fo l low i ng Pl , p i n Z, a 12 dB/ octa ve HI GH- PASS f ilt er is i nte .    gr a te d f nto th e prea mp lifier . Three dis tin c t cu toff fr eque n-                                                                                 ca</p><p>ci e s can be sele cte d , By pr essin g SWS , SW6 or both s witc he s    simu ltan eous ly, the - ] dB ro l l-of f poin t wi l l be loca te d a t                                                                             p s.</p><p>70 Hz , 100 Hz or 150 Hz re spe ctively.                                                                          BS</p><p>Pr e amplf f i er Ou t put and PHA SE Reversal                                                                        W                                                                      ://</p><p>Th e output of the filte r f eeds t he prea mplif ier ou tp ut s ta ge ,                                                                    tp                                                                  ht</p><p>2- 1</p><p>WARD ~aECK       S Y ST E M S LTD .</p><p>CI RCU ll DES CRIPT IO N                               M4 70A INP UT MODULE</p><p>cons ist i ng Df Zl , Q6 , Q7 , Z2 , Q8 and Q9 . The ac ti ve l y ba l an ce d   ou t put is subs eq uen tl y r outed th r ough the PHASE re ve r sa l switch   tD the i nse r t pDint.   lNS ERT PD i nt   A ba la nce d INSERT poi nt i s pro vi ded between P2 . pins 8/ J and P2 .   pi ns 6/F t D al 1D w the us e of ins ert j ac ks, permittl ng t he 1n -   sertion of an c l1 1ary equi pme nt l nto the signa l pa th . The   I NSE RT pDi nt is f D11 0w ed by t h ~ CHANNEL ON swi tc h.   CHANNEL ON Swi tc h   The CHA NNEL ON swi tc h SW B cont ro ls a ll Dutpu tS of t he modu le   with t he exc ep tio n of the PFL out put .   PREF AO E- LI ST EN (PFL ) a nd PE AK Ov er l oa d In di cat or   The br id gin g ta keo f f for the PF L outpu t and t he PE AK overl oa d   ind ica to r is plc ked up betwee n th e INSERT poi nt a nd t he CH ANNEL   ON swit ch. Z3 ope r a t e s as a vol tag e compa rat or . I t compa r es   t he re ct if i ed a udio sig nal with an ex ter nally su ppl i e d referen ce   vol tag e , a pplied t o con nector P2 , pin 16 . With th e r efe r en ce   vol t age r anging fr om 0 t o appr oximate l y +10 volts , c a l ib r ation   of th e ove r load poin t fr om - 6 dB m to +2 7 dBm i s pos si ble. PEA K   ove rlo a d i s i ndic ated on OS2 .   FAD ER   Fol lowi ng SW 8, the s i gnal i s brought out of th e mod ul e via P2 ,   pins 7/ H f or ins e rt i on of a bal ance d f ade r . The out pu t of t he   f a der i s retu rned t o the mo du l e on P2 , pi ns 5/£ . The i nput s i de   of t he fa der a l s o sup pl ie s the fee d f or the f our PRE FACE   AU Xl LIARV cha nne ls vi a switc hes SWg th r ough SW1 2 .   Boos t e r Am plif i e r   Z4 a nd Z5 co mp r is e the boost e r amp li f ier. ope r at i ng at a ga i n Df                                                                                a</p><p>15 dB . Th e boos te r reco ve r s th e l oss i ncu r red with t he f a de r                                                                              .c</p><p>plac e d in its nomin al 15 dB &quot;i n-hand &quot; pos it i on.                                                                             ps                                                                          BS</p><p>DIR EC T Out put                                                                         W</p><p>Th e outpu t s ig nal o f the boos t e r ampli f ier fee ds the Dl REC T ou t -                                                                      ://                                                                     tp                                                                     ht</p><p>1- 2</p><p>WA ~ D -eECI(   SYS TE MS LTD .</p><p>CIRC UIT O( SC RI PT IO N                             H47 0A   INP UT MODULE</p><p>put at con nec to r Pl , p\ns 3/C . This outp ut is designed to    opera te i nto a br idging lo ad of 10k oh_ or hi ghe r. The    no.ina l l e vel Of the DIRECT output i s 0 dB• .    MA STER , SU BMASTE R and AUXIL IARY Out put s    The boost er a.pl ifier a lso pr ovi des the feeds f or the left and    right MASTER an d SUBMASTER out put s via PAN sw itch SW13 and PAN    </p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1979%20-%20M470A%20-%20Input%20Module.pdf">1979 - M470A - Input Module.pdf</a>, p. 6</li>
+</ul>
+<details><summary>Introduction — 267 words · 19xx - M470A - DOC - STEREO L SERIES - P002.jpg, page 1</summary><p>The L2o42 and L3242 series WBS audio consoles including custom des igned series consoles may enhanced for stereo operation with series of  retrofit kits These kits provide for the modifi cation series console add stereo input  modules stereo equalizers and stereo monitor channels The modifications are des gned implemented on-site instal ation necessary wir ing harnesses by Ioca] stat personnel Opt ionally, installation assistance can provided WBS_ required t Tme travel and subs stance basis The input channel modification consists replacing number mono input channel modules (M470 , M470A , M47OB , M47oc) and the corres ponding mono fader units with stereo input channel modules (M471C) and stereo faders The kit available provides for this modification imp emented into group four input channe time Four eight twe channels could thus revised within sing]  console using one two, three the kits second kit permits the replacement the mono channel equa] - izers with simi stereo units again implemented group four channels Multiple kits May also utilized similar manner the input channels Console monitoring covered third kit While it possible use two exsisting mono monitor channe)s tandem for stereo moni toring this pract ice may operat ionally awkward The monitor modif cation consists replacing the three (or four) consoie monitor modules with simi stereo units thus providing stereo ource selection switching and stereo Tevei control Mixing bus structure for the console remains unchanged However operat ionally for stereo console use the subma ter buses are used pairs (1.e.</p><p>for LEFT S2 for RIGHT) and similarly the master buses are a]so used in pairs imi for LEFT M2 for RIGHT)</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/19xx%20-%20M470A%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P002.jpg">19xx - M470A - DOC - STEREO L SERIES - P002.jpg</a>, p. 1</li>
+</ul>
+<h3>Parts list (text) (3)</h3>
+<details><summary>Parts List — 632 words · 1979 - M470A - Input Module.pdf, page 11</summary><p>M470A INPUT MOOUL E</p><p>PART    OESCRIPTIO N                           MFG            Mf G PA RT NUM BER   C36    C37           Capac ito r 22 lI f 12 5                0            0                                       ,          S i e _ e ns                                                     0                                                                 B4 131 3·A5226- Z                                                                               0</p><p>C38         0            0                       0                         0</p><p>cas         &quot;            &quot;                       0                         0</p><p>C&quot;,    Oiod e                                 Mot o roh      1 1l~00 3    CO2         0                                                  f af rc hlld   1N~148                0                                    0    CRl                                                             &quot;    CR4         &quot;                                 Motorola       1114 00 3                0    CR5                                             &quot;               &quot;    CR6         0                                                     &quot;              0</p><p>CR7         0                                    0                                                                    &quot;</p><p>051    051           LEO.     ,,&#x27;           LEO , y e llo w                                                  Fai rc hil d                                                      &quot;                                                                 FLV1l 7                                                                 FL Va l 0    053    Li g ht bul b                          SChado w       L22 , Z8 V    Ql     Transis tor                            Na t i on al   21&#x27;14 411 1    Q2          &quot;                                     0                                                                 2N440 1    Q3          0</p><p>0                                                      0                                                                 2N44 03    Q&#x27;                                                0                                                                 PII3 569    QS          0                                                      &quot;          PN3645                0    Q&#x27;                                                &quot;          2112102    Q7          0                                     0                                                                 2114037    Q8          &quot;                0                                                      0                                                                 2112102    Q&#x27;                                                &quot;          211 40 37    QIO         &quot;                                     0                                                                 2112102    Qll         •                                     •          2114 037           Resis to r l:i:W 5S                    Philips    &quot;&#x27;    R2    R3                0</p><p>0                                  15K                                  15K                                  47                                                      &quot;                                                      0</p><p>R4          &quot;                 47                  0                                                                                    a</p><p>R5          0                                  l OOK               &quot;                                                                                   .c                                                                                   ps</p><p>R6          •                 l OOK               &quot;                                                                          BS</p><p>R7          &quot;                 750                 0</p><p>•                                     •                                                                         W</p><p>R8                            750                                                                        ://</p><p>0                                        0</p><p>&quot;&#x27;10                          &quot;&quot;                                                                   tp</p><p>.. ,                                                         0                &quot;                                                                 ht</p><p>WAAo·eeCK SY STeMS LT O.</p><p>PARTS LI ST</p><p>M47 0 A INP UT MODUL E</p><p>PAR T     DESCRIP TIO N                           M&quot;           Mf G PAR T NUMBER</p><p>.11</p><p>&#x27;&quot;&quot;.   .13             Resistor                  0</p><p>0                          &#x27;&quot; &quot;       4 70 1(                                     4 70 11:                                                     Philip s                                                         •                                                         0</p><p>0</p><p>0                  &#x27;&quot;                                     15K                 0</p><p>&#x27;&quot;                                                         0   Rl5   .16            0                                     330                 0</p><p>. 17           0                                     22                  0</p><p>.18                                     &quot;&#x27;&quot;                  0                                      0</p><p>R19            •                                      0</p><p>R2 0           •                                      •   .21            •                                      &#x27;&quot;                                     560                 •   R22            •.                 &quot; 0                 •                                                         .   R23                  .                  100                 .   R2 .   R25            .                  &quot;                                     10K                 •</p><p>&#x27;26       Poten tio llle t e r                    Bourn s      WB5 10-0 14   R27   .28   R29             Resis tor \;;11 5:::                  0</p><p>0</p><p>•                                     &#x27;&quot;                                     &#x27;&quot;                                                     Ph il i ps                                        </p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1979%20-%20M470A%20-%20Input%20Module.pdf">1979 - M470A - Input Module.pdf</a>, p. 11</li>
+</ul>
+<details><summary>Parts List — 733 words · 1977 - M470A - Input Module.pdf, page 14</summary><p>M4ZOA INPUT MQDULE PARI DESCRIPIION MFG MEG_PART_NUMBER R81 R82 R83 Resistor YW 53 18k 22k 22k Philips R84 R85 R86 R87 Potentiometer Bourns WBS 10-017 R88 R89 R90 R9 1 R92 Resistor aw 5 % 1k8 1k8 1kB 1k8 2k4 Philips R93 R94 R95 R96 R97 2k4 2k4 2k4 2k4 2k4 R98 R99 R]GO RIo1 R102 2k4 2k4 Potentiometer Bourns WBS 10-015 R103 RI04 R105 R106 R107 Resistor #w 5% 75 75 15k 15k Philips R1 08 R109 RI0 RIII RI12 15k 15k delete delete Resistor #W 5% T5k Philips R113 RII4 R115 I5k 15k 15k 4-5</p><p>WARD-BECK Systems LTD_ PARIS LIST M47OA InPuT MODULE PART DESCRIRIION MFG MEG_PARI_NUMBER R116 R117 RI18 RII9 R120 Resistor %W 5 % I5k 15k delete Philips Resistor &amp;W 5% I5k Philips R121 R122 R123 R124 R125 15k 15k 15k 15k 15k R126 R127 R128 R129 RI30 15k 15k 15k 15k 15k R131 R132 R133 R134 R135 15k 15k 15k Resistor IzW 5 % 150 150 R136 R137 R138 R139 R140 RI41 SW1 SW2 Sw3 S4 150 150 Resistor &amp;W 5% 10k 10k 91k 47 Switch Schadow WBS 11-031 SW5 Swg Sw7 Sw8 SW9 WBS 11-030 WBS 11-010 WBS 11-017 WBS 11-005 SW1o 4-6</p><p>WAAD-BeCK Systems LTD; PARIS LISI M4ZOA INPUI MODULE PARI DESCRIPIION MEG MEG_PARI NUMBER SwI] SW12 SW13 Switch Schadow WBS 11-005 WBS 11-002 SW14 SW15 Sw17) WBS 11-047 SW16 de Tete SW18 Sw19 SW21 Switch Schadow WBS 11-048 Sw2o delete Sn22 SWz3 SW24 SW25 Sw26 Switch Schadow WBS 11-002 WBS 11-005 SW27 WBS 11-005 TI Trans former WBS 60-12 21 22 23 24 25 Integrated Circuit Nationa 1 L356 LM2O1 CR? to CRI 3 Diode Motoro]a 1n4003 WB S recommends the use 0 [ replacement parts ma de by che specified manufacturers for continued optimum equipment performance .</p><p>WBS M47oa HASTER 455 /GNMENT s4iEch SW2/ : When depressed RiGHT eutput fed SunMing resistors &#x27;9RSTER externa 5 UII i 419 bus MASTER ASsiGNHE&quot;T switct Sw/7 When depressed, LEFT bulpuI Fed VmM res stors 0 , [BFnE NASTER S1mIIT #us MI SUBMA STER 452 IGMMENT switches ShIB and 5w19: Khen depe ressed iGhT output Fed via &#x27;SUBMAS#ER summi 52 fesstor externd SUrrming buscs andrr respect vely. SUBMGSTEF ASSIG HENT switches 54iL and S41S: Khen depressed LEF output fed Su SUD 45?ER 58 res istors erternj SuMT ing buses end;Or spec ive |Y. &quot;pUT SLecTuk Ech Sh? When  depressed, connects LINE source input of unlt. HiGH-Pass filler switch 5w6 When  depressed inserts I0O dBfoctave HGH-PASS Iter inco che igna peth iNPuT SELECTOR Swiict 5w2 : Yhen depressed, connect 5 MICROPHO E npu [ Lni HiGH-PASS Filter switch ShS: When Inserts derfessed; HI, dB/oclave HIGA- PA 5S Iter Into the signa path When SWS and 5w6 Jre depressed, E- obothreque che resulting nc y 150 HncropSonectoR Lostnpch Sl uni Uhen depressed; connects 8d PHA5E swi tch Sw7 ; When  depressed; thi 5 switch Wi rever the polarity Lhe output Tgna re lative tne rput gna and operate che asso2 ated LED. PLD insertion switch SwL When dep essed, inserts PA 0 Jinto hoth ICROPHDNE inputs 6 SENS |Tivity control R26 Provides edjustab le leve controi range snurces cont nuous for nput PEAK OVERLOAD indicator 052: Wi Flash Overloa cond 4on irdicatc SENS PRE PST PRE&#x27;Post AUXTLIARY switches Sw9 Shio, Sw1 Swi2: Tox choosc Tck-UP Points For Jix !LiaRy thf outputs and ther prit (PRE) 8 fter Posti Ene channe fader AuxILIARY LEVEL controls I0D: RIdi= Ri0z, Rio; Control Tcvet$ AUXILIARY outputs and respeclively. AUX Pae Os _ AUX ILIART AssigmEnT switches SN73 _ Sh24 Sh25, Sw26 Whcn dercssed che appropriate AUX iiAry output gna Fed assoc iated outpul_ AUX PRE PST PAN swi Ech SWI3: When depressed, enables PAR control AUX PAN control RBL RRste? Positlons channe gna be Iween 853 and SUBMA STER mlxlng buses Teft Figha;  and PRE PST PRE-FADE-LISTEN swltch 5w27 When depressed che gna ahead of the fader and CHA NNEL switch |5 &quot;Fedato the PFL ouepul; CAA NNEL switcn SHB ; When depressed feeds signa| DRECT outPut left and right SUBMASTER and MASTER outputs che SOLO ouEpUT the post- fade &#x27;AuxiLiAry ouEPuese ddl Tona sw8 externa sontroi equipped with contact s provide Fune ons AUX SOLO switch 5422: wnen depressed the Signa folloxing the fader and CHA NNEL swltch is fed the SOLO oulpul PAN ISSUL DATE REvISION WBS DRN G ENG; CKD RlL APP SCALE WAAD-BECK SYSTEMI CH ON M470 ^ INPUT MODULE</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module.pdf">1977 - M470A - Input Module.pdf</a>, p. 14</li>
+<li>also in: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module%20%282%29.pdf">1977 - M470A - Input Module (2).pdf</a>, p. 14</li>
+</ul>
+<h2>Drawings (10)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="People.html#drawing-staff">Drawn by</a></th>
+<th><a href="People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>470-04-005</td>
+<td>Fimisha Input Module Connector Rear View</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td></td>
+<td><a href="Person-RIA.html">RIA</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module%20%282%29.pdf">file</a> p.21</td>
+</tr>
+<tr>
+<td>470-04-005</td>
+<td>Fimisha Input Module Connector Rear View</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td></td>
+<td><a href="Person-RIA.html">RIA</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module.pdf">file</a> p.21</td>
+</tr>
+<tr>
+<td>470-04-005</td>
+<td>Fimish Nput Module Connector Rear View</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20470-04-005%20-%20FIMISH%20NPUT%20MODULE%20CONNECTOR%20REAR%20VIEW.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/M470A%20-%20P18%20-%20Functional%20Diagram.jpg">file</a></td>
+</tr>
+<tr>
+<td>470-01-002</td>
+<td>Solo Control External Peak Calibration Peak Indicator</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module%20%282%29.pdf">file</a> p.18</td>
+</tr>
+<tr>
+<td>470-01-002</td>
+<td>Solo Control External Peak Calibration Peak Indicator</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module.pdf">file</a> p.18</td>
+</tr>
+<tr>
+<td>470-01-002</td>
+<td>Olo Control External Peak Calibration Peak Indicator</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20470-01-002%20-%20OLO%20CONTROL%20EXTERNAL%20PEAK%20CALIBRATION%20PEAK%20INDICATOR.jpg">file</a></td>
+</tr>
+<tr>
+<td>470-04-006</td>
+<td>Wnen Depressed The Signa Folloxing The Fader And</td>
+<td></td>
+<td></td>
+<td><a href="Person-RLL.html">RLL</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module%20%282%29.pdf">file</a> p.17</td>
+</tr>
+<tr>
+<td>470-04-006</td>
+<td>Wnen Depressed The Signa Folloxing The Fader And</td>
+<td></td>
+<td></td>
+<td><a href="Person-RLL.html">RLL</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module.pdf">file</a> p.17</td>
+</tr>
+<tr>
+<td>470-04-006</td>
+<td>Igna Fol Owing Che Fader And Cra Switch</td>
+<td></td>
+<td><a href="Person-DB.html">DB</a></td>
+<td><a href="Person-RLL.html">RLL</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20470-04-006%20-%20IGNA%20FOL%20OWING%20CHE%20FADER%20AND%20CRA%20SWITCH.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M470A&quot;,
+ &quot;name&quot;: &quot;Input Module&quot;,
+ &quot;category&quot;: &quot;INPUT-PRE-AMPS&quot;,
+ &quot;year&quot;: 1977,
+ &quot;connections&quot;: {
+  &quot;from&quot;: &quot;RTO-144 sheet&quot;,
+  &quot;inputs&quot;: [
+   &quot;LINE-IN&quot;,
+   &quot;MIC-IN-1&quot;,
+   &quot;INSERT-RETURN&quot;,
+   &quot;FADER-RETURN&quot;
+  ],
+  &quot;outputs&quot;: [
+   &quot;M2-OUT&quot;,
+   &quot;DIRECT OUT&quot;,
+   &quot;INSERT-OUT&quot;,
+   &quot;CH-ON-SWITCH OUT&quot;
+  ],
+  &quot;power&quot;: [
+   &quot;VEE-AUDIO&quot;,
+   &quot;VCC-AUDIO&quot;,
+   &quot;VCC-LOGIC&quot;
+  ],
+  &quot;control&quot;: []
+ },
+ &quot;made_of&quot;: [
+  &quot;10-014&quot;,
+  &quot;10-015&quot;,
+  &quot;60-12&quot;
+ ],
+ &quot;part_of&quot;: [
+  &quot;1980-1989&quot;,
+  &quot;78035&quot;,
+  &quot;78050&quot;,
+  &quot;790236&quot;,
+  &quot;Archived-Done-L3242Console&quot;,
+  &quot;WBSL3242Afullsize&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - 12.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - 12_small.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - 470-01-002 - OLO CONTROL EXTERNAL PEAK CALIBRATION PEAK INDICATOR.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - 470-04-005 - FIMISH NPUT MODULE CONNECTOR REAR VIEW.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - 470-04-006 - IGNA FOL OWING CHE FADER AND CRA SWITCH.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;modules&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Input Module (2).pdf&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 21,
+   &quot;holds&quot;: [
+    &quot;connections&quot;,
+    &quot;dates&quot;,
+    &quot;modules&quot;,
+    &quot;parts&quot;,
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Input Module Front.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Input Module Front_small.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Input Module Side 3.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Input Module Side 3_small.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Input Module.pdf&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 21,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;modules&quot;,
+    &quot;parts&quot;,
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P01 - Cover.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P02.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P04.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P05 - 1-1.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P06 - 2-1.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P07 - 2-2.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P08 - 2-3.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P09 - 3-1.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P10 - 4-1.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P11 - 4-2.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P12 - 4-3.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P13 - 4-4.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P14 - 4-5.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P15 - 4-6.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P16 - 4-7.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P19 - Schematic.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P20 - Component Layout (2).jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P20 - Component Layout.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Pres - Old Style.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Small (2).jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Switch Mod 1.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Switch Mod 2.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - file.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - small.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 001_small.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 002_small.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 003.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 003_small.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 005_small.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 006_small.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 009.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 009_small.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 010.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 010_small.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 011.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 011_small.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 012.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 012_small.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 013.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 013_small.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 014.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 014_small.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 015.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 015_small.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 016.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 016_small.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 017.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 017_small.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 018.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 018_small.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 019.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - wbsps - module - m470a input module 019_small.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1979 - M470A - Input Module.pdf&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 21,
+   &quot;holds&quot;: [
+    &quot;connections&quot;,
+    &quot;dates&quot;,
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/1979 - M470A - P03 - TOC.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/19xx - M470A - DOC - _untitled_ 011.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M470A/M470A - P18 - Functional Diagram.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/19xx - M471C - DOC - STEREO L SERIES - P002.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../_catalog/libcontrol/libcontrol.css"><script src="../_catalog/libcontrol/react.js"></script><script src="../_catalog/libcontrol/react-dom.js"></script><script src="../_catalog/libcontrol/libcontrol.js"></script><script src="../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M470A.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

@@ -1,0 +1,1 @@
+window.WBS_FOLDER={"d":"Products/METERING/MLC8A","f":[["2018 - MLC8A - Front.jpg","77af995338a22c893b45"],["2018 - MLC8A - Information Sheet.jpg","313ebc1f06a448aea713"],["2018 - MLC8A - MANUAL (2).docx","5284b25112e9b0f46a76"],["2018 - MLC8A - MANUAL.docx","6c48be2201d087ae5549"],["2018 - MLC8A - Rear.jpg","278f1410b9cfce3cc49d"]]};

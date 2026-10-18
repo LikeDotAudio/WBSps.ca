@@ -1,0 +1,54 @@
+{
+ "name": "S26 - SYNCH",
+ "folder": "S26 - SYNCH",
+ "source": "WBSps Engineering from H drive-20261018T013433Z-1-003/WBSps Engineering from H drive/WBSps - D2000 Digital rack/GERBER/SYNCH/C97026.ZIP",
+ "copies": [
+  "WBSps Engineering from H drive/WBSps - D2000 Digital rack/GERBER/SYNCH/C97026.ZIP"
+ ],
+ "date": "1997-03-05",
+ "layers": [
+  {
+   "file": "S26.SLD",
+   "role": "copper bottom",
+   "format": "gerber"
+  },
+  {
+   "file": "S26.CMP",
+   "role": "copper top",
+   "format": "gerber"
+  },
+  {
+   "file": "S26.CMK",
+   "role": "component mask",
+   "format": "gerber"
+  },
+  {
+   "file": "S26.SMK",
+   "role": "solder mask",
+   "format": "gerber"
+  },
+  {
+   "file": "S26.SCR",
+   "role": "silkscreen",
+   "format": "gerber"
+  },
+  {
+   "file": "S26.DRL",
+   "role": "drill drawing",
+   "format": "gerber"
+  },
+  {
+   "file": "S26.TAP",
+   "role": "drill",
+   "format": "excellon"
+  }
+ ],
+ "apertures": "FILM.USR",
+ "unit": 0.001,
+ "documents": [
+  "FILM.GAP",
+  "FILM.USR",
+  "S26.REP",
+  "S26READ.ME"
+ ]
+}

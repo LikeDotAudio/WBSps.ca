@@ -1,0 +1,14 @@
+code: M402A
+series: null
+type: M402A Spec Sheet
+row_count: null
+impedance:
+  line_in: 600
+  out: 600
+note: null
+audio: []
+bus_out: []
+bus_in: []
+power: []
+jumpers: []
+logic: []

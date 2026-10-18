@@ -1,0 +1,48 @@
+# 1974 - 4-141-02-001 - 4-141 SUMMING AMPLIFIER SCHEMATIC - DRN DM - ISS 9.png
+Wiki page: [Consoles](../../PAGES/Consoles.md)
+
+
+- **Year:** 1974 (title block date)
+- **Type:** drawing / photo from WBS Photos-1-001
+
+## Title block (found by software, read by eye)
+
+- **Drawing:** B 4-141-02-001
+- **Size:** B
+- **Title:** 4-141 / SUMMING AMPLIFIER / SCHEMATIC
+- **Date:** NOV 74
+- **Drawn:** DM
+- **Checked:** R. Bell (signature)
+- **Issue:** 9
+- **Confidence:** high
+
+- **Original file:** `WBSps.env/WBS Photos-1-001/WBSps.ca - 20210317 11X 17 Scans  (54).png`
+- **SHA-256:** `6762751e33eecd14594708816346f24702e2a485c49eff2241b690ae9d6e8099`
+- **Size:** 1,139,505 bytes
+- **Pages:** 1
+
+## Dates found in this file
+
+- **1974** (labelled): `DATENOV 74` — …6 M JauS? WBS WARD-BeCK ByBTEMB LTD_ 3615316 4 2361 DRN: DM DATENOV 74 4-141 5 3u54 FINISH CKD. R: SUMMinG AMPLIFIER 6 3292163 SCA…
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 2 words corrected)
+
+```text
+R? C4 i0 c3 I0OPl G800p +I5v E3 3 Q1 NOTES 21 330/6 739 ZN3904 5 zi IS FAcTORY SELECTED_ 24H R5 R1 2 ClI NOMINAL R7 VALUE 33opF Ja c21 47k +I5VJ Ik8 I0O 3, ON previous iSSues R9 WAS 7k5 | Ra 7k5 2.7p R9 Rzi WAS NoT INCLUDED_ 6k3 C23 4, LAsT CoMPOnENTS R8 R2G 22op c 23 04 r26 22 C5 220 I00 1k Dif Q2 Rio_ R2 ZN- 10 47k R6 3q06. c7 I5k C6 -I5v 1OOP Gboop +iSV E8 C2 8 10 21 Q3 R2O 620 18 330/6 739 2n3904 C14 C15 22 1241 Ri? E4 R2? R2i R15 3.3r C22 Ik8 +22v 100 +i5V ~I5v LOOP 2.7p R17 R18 51 Zoo C9 C1g CB11220e_ 8 C16 Ci7 1/35 33/10 7k5 2k4 22 R25 5' Io/25 Ri6 C12 LMzOL R1i R12 2k2 100 Rig 7p 22 Cii 33/10 E9 R24 R2? See ISk 22v 3k k Q4 NoTe ~21v I5v 51 20 ZN3 906 2 t21v C2o LEVELCAL Cio C18 Ri 1/35 IOOOp 10/25 ISk ~ISv E2 ISSMOD ICKD] USED ON MATL 2 LI Pn 4ui6 M JauS? WBS WARD-BeCK ByBTEMB LTD_ 3615316 4 2361 DRN: DM DATENOV 74 4-141 5 3u54 FINISH CKD. R: SUMMinG AMPLIFIER 6 3292163 SCALE SCHEMATIC 7 36 53 PKM 8 4645 MA TOLS _ { B 4-141-02-001 ISS.
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+R? C4 i0 c3 I0OPl G800p +I5v E3 3 Q1 NOTES 21 330/6 739 ZN3904 5 zi IS FAcTORY SELECTED_ 24H R5 R1 2 ClI NOMINAL R7 VALUE 33opF Ja c21 47k +I5VJ Ik8 I0O 3, ON previous iSSues R9 WAS 7k5 | Ra 7k5 2.7p R9 Rzl WAS NoT INCLUDED_ 6k3 C23 4, LAsT CoMPOnENTS R8 R2G 22op c 23 04 r26 22 C5 220 I00 1k Dif Q2 Rio_ R2 ZN- 10 47k R6 3q06. c7 I5k C6 -I5v 1OOP Gboop +iSV E8 C2 8 10 21 Q3 R2O 620 18 330/6 739 2n3904 C14 C15 22 1241 Ri? E4 R2? R2i R15 3.3r C22 Ik8 +22v 100 +i5V ~I5v IOOp 2.7p R17 R18 51 Zoo C9 C1g CB11220e_ 8 C16 Ci7 1/35 33/10 7k5 2k4 22 R25 5' Io/25 Ri6 C12 LMzOL R1i R12 2k2 100 Rig 7p 22 Cii 33/10 E9 R24 R2? See ISk 22v 3k k Q4 NoTe ~21v I5v 51 20 ZN3 906 2 t21v C2o LEVELCAL Cio C18 Ri 1/35 IOOOp 10/25 ISk ~ISv E2 ISSMOD ICKD] USED ON MATL 2 LI Pn 4ui6 M JauS? WBS WARD-BeCK ByBTEMB LTD_ 3615316 4 2361 DRN: DM DATENOV 74 4-141 5 3u54 FINISH CKD. R: SUMMinG AMPLIFIER 6 3292163 SCALE SCHEMATIC 7 36 53 PKM 8 4645 MA TOLS _ { B 4-141-02-001 ISS.
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"PHOTOS/Drawings/1974 - 4-141-02-001 - 4-141 SUMMING AMPLIFIER SCHEMATIC - DRN DM - ISS 9.png","sha256":"6762751e33eecd14594708816346f24702e2a485c49eff2241b690ae9d6e8099","kind":"photo","year":1974,"pages":1,"order":[{"page":1,"title_block":[{"number":"B 4-141-02-001","type":"schematic","title":"4-141 / SUMMING AMPLIFIER / SCHEMATIC","date":"NOV 74","year":1974,"drawn":"DM","issue":"9"}],"dates":[{"year":1974,"kind":"labelled","text":"DATENOV 74"}],"text":["R3","i0","c3","G800p +ISV","E3","21 Q1 NOTES","330/6 5/739_ ZN3904 zi Is FACTORY SELECTED","RI 241 R5 NOMINAL VALUE 33opf","47k +ISV_Ji c24 Ik8 13 previous isSues R9 WAS 7ks","7k5 2.7p R9 ON","Ra 6k3 WAS Not INCLUDED","C23 LAsT CoMPOnENTS","C5 22c4 R8 R2G 220p c 23 04 r26 22","I00 1k","DiF","Q2 Rio_","R2 ZN- 10","47k R6 3906 C7","I5k C6","Gboop +ISV","E8 Ito","21 18 Q3 R2O 620","380/6 739 2n3904 C14","1241 Ri? C15","E4 R23 Z? R21 Ri5 3.3r","C22 Ik8 100 ltooe","+22v VV ~I5v R17 R18","51 Zoo 49 C16","Ci17 {135 220e [13370 22 E1","Rie 7k5 R25 2k4 C12 4 8","to/25 2k2","Rt R12 I00 Cii Ris 7p 33/10","E9 R24 22 R2? ISk","22v 3k Ik Q4 see ~21v","I5v NOTE t21v","20o C2o LEVELCAL_ ZN390l' Cio","C18 1/35 R1 (OOOp","10/25 ISk","~ISv","ISSMOD CKD: USED ON MATL.","K 4ii6 MUC JavB? WBS WARD-BECK ByBTEMB LTD","3l53","b31 DRN: DM","FINISH DATE NOV 74 4-141","3i15 SUMMING AMPLIFIER","3202 CKD K_","ISCALE SCHEMATIC","36 53PKM","4645 ML TOLS _ B 4-141-02-001 ISS_"]}],"drawing":{"svg":"_traces/6762751e33eecd14.svg","viewBox":[2000,1414],"rotate":0,"size":"B","number":"B 4-141-02-001","title":"4-141 / SUMMING AMPLIFIER / SCHEMATIC","dtype":"02","outlines":"see _traces/6762751e33eecd14.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/6762751e33eecd14.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[470,145,"R3"],[469,166,"i0"],[538,198,"c3"],[640,228,"+ISV"],[172,248,"E3"],[672,275,"Q1"],[1230,280,"NOTES"],[442,295,"21"],[280,312,"330/6"],[407,325,"5/739_"],[685,310,"ZN3904"],[1306,321,"zi"],[1350,324,"Is FACTORY SELECTED"],[290,363,"RI"],[478,353,"241"],[575,348,"R5"],[1351,356,"NOMINAL"],[1478,358,"VALUE 33opf"],[282,390,"47k"],[376,389,"+ISV_Ji c24"],[572,378,"Ik8"],[672,398,"13"],[1304,389,"ON"],[1361,389,"previous isSues"],[1611,389,"R9 WAS 7ks"],[382,420,"Ra"],[441,424,"7k5 2.7p"],[745,410,"R9"],[1374,414,"WAS"],[1431,416,"Not INCLUDED"],[743,435,"6k3"],[915,448,"C23"],[1306,446,"LAsT"],[1394,449,"CoMPOnENTS"],[675,480,"R8"],[782,480,"R2G"],[918,480,"220p"],[1302,478,"c 23"],[1411,476,"04"],[1490,480,"r26"],[1591,476,"22"],[378,495,"C5"],[672,505,"I00"],[785,505,"1k"],[781,529,"DiF"],[672,558,"Q2"],[755,570,"Rio_"],[288,588,"R2"],[678,590,"ZN-"],[831,581,"10"],[282,613,"47k"],[575,613,"R6"],[665,615,"3906"],[745,608,"C7"],[570,643,"I5k"],[895,638,"C6"],[892,673,"Gboop"],[1000,673,"+ISV"],[175,693,"E8"],[816,696,"Ito"],[795,748,"21"],[894,739,"18"],[1032,735,"Q3"],[1550,735,"R2O"],[1642,730,"620"],[282,760,"380/6"],[792,768,"739"],[1038,758,"2n3904"],[1545,773,"C14"],[1715,783,"C15"],[175,815,"E4"],[226,824,"R23 Z?"],[358,823,"R21"],[828,798,"1241"],[932,803,"Ri?"],[1035,810,"Ri5"],[1715,818,"3.3r"],[90,848,"+22v"],[356,841,"VV"],[725,848,"~I5v"],[838,833,"C22"],[932,833,"Ik8"],[1030,835,"100"],[1560,840,"ltooe"],[231,864,"51"],[350,870,"Zoo"],[1028,870,"49"],[1135,855,"R17"],[1360,858,"R18"],[215,903,"Ci17"],[472,908,"{135"],[779,893,"220e"],[1018,895,"[13370"],[1125,908,"7k5"],[1358,908,"2k4"],[1615,905,"22"],[1740,880,"C16"],[1815,900,"E1"],[192,930,"to/25"],[1032,928,"Rie"],[1218,918,"R25"],[1448,925,"C12"],[1751,931,"4 8"],[690,950,"Rt"],[800,953,"R12"],[1030,955,"I00"],[1218,943,"2k2"],[1358,960,"Ris"],[1480,953,"7p"],[1742,960,"33/10"],[288,968,"22"],[1290,965,"Cii"],[172,983,"E9"],[225,983,"R24"],[358,983,"R2?"],[1289,986,"see"],[1352,985,"ISk"],[1652,995,"~21v"],[110,1010,"22v"],[528,1013,"I5v"],[685,1003,"3k"],[842,1000,"Ik"],[1030,1005,"Q4"],[1294,1001,"NOTE"],[345,1030,"20o"],[1038,1033,"ZN390l'"],[1222,1040,"Cio"],[1608,1028,"t21v"],[478,1050,"C2o"],[738,1045,"LEVELCAL_"],[930,1058,"R1"],[210,1065,"C18"],[475,1076,"1/35"],[1222,1079,"(OOOp"],[185,1093,"10/25"],[928,1088,"ISk"],[1038,1110,"~ISv"],[689,1144,"ISSMOD"],[789,1144,"CKD:"],[891,1144,"USED ON"],[1041,1144,"MATL."],[884,1174,"4ii6"],[936,1174,"MUC"],[981,1176,"JavB?"],[1312,1185,"WBS"],[1485,1178,"WARD-BECK"],[1710,1178,"ByBTEMB"],[1886,1176,"LTD"],[695,1208,"3l53"],[728,1235,"b31"],[1281,1224,"DRN:"],[1342,1228,"DM"],[731,1261,"3i15"],[1039,1259,"FINISH"],[1281,1252,"DATE NOV 74"],[1656,1244,"4-141"],[1281,1279,"CKD"],[1552,1275,"SUMMING"],[1700,1275,"AMPLIFIER"],[731,1292,"3202"],[1279,1304,"ISCALE"],[1620,1303,"SCHEMATIC"],[729,1316,"36 53PKM"],[734,1349,"4645"],[791,1347,"ML"],[1281,1341,"TOLS _"],[1612,1350,"4-141-02-001"],[1861,1341,"ISS_"],[526,235,"G800p"],[428,500,"22c4"]]}}
+```

@@ -1,0 +1,43 @@
+{
+ "code": "M457A",
+ "series": null,
+ "type": "M457A",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "I1",
+   "signal": "Input",
+   "dir": "in",
+   "pos": "I1P",
+   "neg": "I1N",
+   "src_page": 19
+  }
+ ],
+ "power": [
+  {
+   "rail": "+24V",
+   "volts": 24.0,
+   "supply": "+24V",
+   "ground": "GND",
+   "max_a": null
+  },
+  {
+   "rail": "-24V",
+   "volts": -24.0,
+   "supply": "-24V",
+   "ground": "GND",
+   "max_a": null
+  }
+ ],
+ "logic": [],
+ "ground": [],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "4bbfc8a59885976bd3551d0c65254011eeae0da0d53bc4f4e6350aea1a2f6ce1",
+  "ff33367f5bf73de8bf26163df5e141a8b0d37465fc5cc5f89971e1e73e3906b0"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."
+}

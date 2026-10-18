@@ -1,0 +1,1209 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M405P</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>M405P</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="Category-METER.html">METER</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../simulator.html?m=M405P">simulator &amp; front panel</a> · <a href="../_packages/M405P.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="Year-1990.html">1990|23</a> — manual issue date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"MANUAL ISSUE #5 November 2, 1990" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/M405P manual.pdf</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="Year-1990.html">1990|23</a>, <a href="Year-1995.html">1995|28</a>, <a href="Year-1998.html">1998|31</a></td>
+</tr>
+<tr>
+<td>Variants</td>
+<td><a href="M405.html">M405</a>, <a href="M405C.html">M405C</a>, <a href="M405D.html">M405D</a>, <a href="M405F.html">M405F</a>, <a href="M405M.html">M405M</a>, <a href="M405PSS.html">M405PSS</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../Modules/METER/M405P/index.html">Modules/METER/M405P</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections</h2>
+<p><em>What it is made of and what it is part of.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M405P" data-n="" data-cat="METER"></div><svg class="wbs-panel" data-m="M405P" data-n="" data-cat="METER" role="img" aria-label="M405P front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M405P","title":"","rto":null,"parts":[{"item":"10-014","title":"","label":"10-014","href":"Register-Sub-assemblies-n-nnn.html#10-014","note":"Sub-assemblies (n-nnn)"},{"item":"10-015","title":"","label":"10-015","href":"Register-Sub-assemblies-n-nnn.html#10-015","note":"Sub-assemblies (n-nnn)"},{"item":"2-107","title":"","label":"2-107","href":"Register-Sub-assemblies-n-nnn.html#2-107","note":"Sub-assemblies (n-nnn)"},{"item":"4-108","title":"","label":"4-108","href":"Register-Sub-assemblies-n-nnn.html#4-108","note":"Sub-assemblies (n-nnn)"},{"item":"4-110","title":"For Schematic See","label":"4-110 For Schematic See","href":"Register-Sub-assemblies-n-nnn.html#4-110","note":"Sub-assemblies (n-nnn)"},{"item":"4-111","title":"Equalizer Filter Component Assembly","label":"4-111 Equalizer Filter Component","href":"Register-Sub-assemblies-n-nnn.html#4-111","note":"Sub-assemblies (n-nnn)"},{"item":"4-112","title":"","label":"4-112","href":"Register-Sub-assemblies-n-nnn.html#4-112","note":"Sub-assemblies (n-nnn)"},{"item":"4-120","title":"","label":"4-120","href":"Register-Sub-assemblies-n-nnn.html#4-120","note":"Sub-assemblies (n-nnn)"},{"item":"4-126","title":"Equalizer Filter Component Assembly","label":"4-126 Equalizer Filter Component","href":"Register-Sub-assemblies-n-nnn.html#4-126","note":"Sub-assemblies (n-nnn)"},{"item":"4-127","title":"Mod Ickd Used","label":"4-127 Mod Ickd Used","href":"Register-Sub-assemblies-n-nnn.html#4-127","note":"Sub-assemblies (n-nnn)"},{"item":"4-132","title":"Booster Amplifier","label":"4-132 Booster Amplifier","href":"Register-Sub-assemblies-n-nnn.html#4-132","note":"Sub-assemblies (n-nnn)"},{"item":"4-136","title":"Miish Datl Nov","label":"4-136 Miish Datl Nov","href":"Register-Sub-assemblies-n-nnn.html#4-136","note":"Sub-assemblies (n-nnn)"},{"item":"4-141","title":"Summing Amplifier Component Layout","label":"4-141 Summing Amplifier Componen","href":"Register-Sub-assemblies-n-nnn.html#4-141","note":"Sub-assemblies (n-nnn)"},{"item":"5-101","title":"Geb Used","label":"5-101 Geb Used","href":"Register-Sub-assemblies-n-nnn.html#5-101","note":"Sub-assemblies (n-nnn)"},{"item":"5-102","title":"","label":"5-102","href":"Register-Sub-assemblies-n-nnn.html#5-102","note":"Sub-assemblies (n-nnn)"},{"item":"5-106","title":"Pre-Mixer Master Modue Ecale Layout","label":"5-106 Pre-Mixer Master Modue Eca","href":"Register-Sub-assemblies-n-nnn.html#5-106","note":"Sub-assemblies (n-nnn)"},{"item":"5-108","title":"Component Layout","label":"5-108 Component Layout","href":"Register-Sub-assemblies-n-nnn.html#5-108","note":"Sub-assemblies (n-nnn)"},{"item":"6-106","title":"Mating Connector Pins Used Are","label":"6-106 Mating Connector Pins Used","href":"Register-Sub-assemblies-n-nnn.html#6-106","note":"Sub-assemblies (n-nnn)"},{"item":"7-107","title":"7-107 / DYNAMIC MIC PRE-AMP / SCHEMATIC","label":"7-107 7-107 / DYNAMIC MIC PRE-AM","href":"Register-Sub-assemblies-n-nnn.html#7-107","note":"Sub-assemblies (n-nnn)"},{"item":"7-112","title":"Component Side Nqie Components","label":"7-112 Component Side Nqie Compon","href":"Register-Sub-assemblies-n-nnn.html#7-112","note":"Sub-assemblies (n-nnn)"},{"item":"8-103","title":"LOAD TRANSFER CONTROL / SCHEMATIC","label":"8-103 LOAD TRANSFER CONTROL / SC","href":"Register-Sub-assemblies-n-nnn.html#8-103","note":"Sub-assemblies (n-nnn)"},{"item":"8-109","title":"Booster Amplifier Component Layout","label":"8-109 Booster Amplifier Componen","href":"Register-Sub-assemblies-n-nnn.html#8-109","note":"Sub-assemblies (n-nnn)"},{"item":"8-116","title":"Component Side Revision","label":"8-116 Component Side Revision","href":"Register-Sub-assemblies-n-nnn.html#8-116","note":"Sub-assemblies (n-nnn)"},{"item":"8-117","title":"Indicator Driver Component Layout","label":"8-117 Indicator Driver Component","href":"Register-Sub-assemblies-n-nnn.html#8-117","note":"Sub-assemblies (n-nnn)"},{"item":"8-118","title":"Aand Assembly Left Hanc Assemely","label":"8-118 Aand Assembly Left Hanc As","href":"Register-Sub-assemblies-n-nnn.html#8-118","note":"Sub-assemblies (n-nnn)"},{"item":"9-110","title":"9-110 / PHANTOM POWER PAD BOARD / SCHEMATIC","label":"9-110 9-110 / PHANTOM POWER PAD ","href":"Register-Sub-assemblies-n-nnn.html#9-110","note":"Sub-assemblies (n-nnn)"},{"item":"SA14-001","title":"14-001 / CUE LINE SELECTOR / SCHEMATIC","label":"SA14-001 14-001 / CUE LINE SELECTOR","href":"Register-Circuit-boards-SA14-nnn.html#sa14-001","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-002","title":"14-002 / OUTPUT LINE SELECTOR / SCHEMATIC","label":"SA14-002 14-002 / OUTPUT LINE SELEC","href":"Register-Circuit-boards-SA14-nnn.html#sa14-002","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-012","title":"Intercom Turret Audio Amplifier Component Layout","label":"SA14-012 Intercom Turret Audio Ampl","href":"Register-Circuit-boards-SA14-nnn.html#sa14-012","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-013","title":"SA14-013 / INTERCOM TURRET CONTROLLER / SCHEMATIC","label":"SA14-013 SA14-013 / INTERCOM TURRET","href":"Register-Circuit-boards-SA14-nnn.html#sa14-013","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-017","title":"All Resistors Are","label":"SA14-017 All Resistors Are","href":"Register-Circuit-boards-SA14-nnn.html#sa14-017","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-018","title":"SA14-018 / LEVER KEY ASSEMBLY / SCHEMATIC","label":"SA14-018 SA14-018 / LEVER KEY ASSEM","href":"Register-Circuit-boards-SA14-nnn.html#sa14-018","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-029","title":"","label":"SA14-029","href":"Register-Circuit-boards-SA14-nnn.html#sa14-029","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-033","title":"SA14-033 / CONTROLLER DAUGHTER BOARD ASSY. / COMPONENT LAYOUT","label":"SA14-033 SA14-033 / CONTROLLER DAUG","href":"Register-Circuit-boards-SA14-nnn.html#sa14-033","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-054","title":"Sound Reinforcement Amplifier Component Layout","label":"SA14-054 Sound Reinforcement Amplif","href":"Register-Circuit-boards-SA14-nnn.html#sa14-054","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-058","title":"Regulator Assembly Component Layout","label":"SA14-058 Regulator Assembly Compone","href":"Register-Circuit-boards-SA14-nnn.html#sa14-058","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-060","title":"Amplifier Assembly Component Layout","label":"SA14-060 Amplifier Assembly Compone","href":"Register-Circuit-boards-SA14-nnn.html#sa14-060","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-065","title":"Ase Noleh","label":"SA14-065 Ase Noleh","href":"Register-Circuit-boards-SA14-nnn.html#sa14-065","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-066","title":"Output Splitter Networks Component Layout","label":"SA14-066 Output Splitter Networks C","href":"Register-Circuit-boards-SA14-nnn.html#sa14-066","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-075","title":"SA14-075 STEREO PREAMPLIFIER ASSEMBLY / COMPONENT LAYOUT","label":"SA14-075 SA14-075 STEREO PREAMPLIFI","href":"Register-Circuit-boards-SA14-nnn.html#sa14-075","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-076","title":"B 14-076-02-001 - SA14-076 STEREO CHANNEL AMPLIFIER - SCHEMATIC","label":"SA14-076 B 14-076-02-001 - SA14-076","href":"Register-Circuit-boards-SA14-nnn.html#sa14-076","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-077","title":"PARTS LIST SA14-077 CONTROL ASSEMBLY","label":"SA14-077 PARTS LIST SA14-077 CONTRO","href":"Register-Circuit-boards-SA14-nnn.html#sa14-077","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-081","title":"Preamplifier Assembly Component Layout","label":"SA14-081 Preamplifier Assembly Comp","href":"Register-Circuit-boards-SA14-nnn.html#sa14-081","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-086","title":"B 14-086-02-001 - SA14-086 SUMMING AMPLIFIER ASSEMBLY - SCHEMATIC","label":"SA14-086 B 14-086-02-001 - SA14-086","href":"Register-Circuit-boards-SA14-nnn.html#sa14-086","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-087","title":"B 14-087-02-001 - SA14-087 OUTPUT AMPLIFIER - SCHEMATIC","label":"SA14-087 B 14-087-02-001 - SA14-087","href":"Register-Circuit-boards-SA14-nnn.html#sa14-087","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-089","title":"SA14-089 / DISPLAY READOUT ASSEMBLY / SCHEMATIC","label":"SA14-089 SA14-089 / DISPLAY READOUT","href":"Register-Circuit-boards-SA14-nnn.html#sa14-089","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-094","title":"SA14-094 / CONTROLLER ASSEMBLY / SCHEMATIC","label":"SA14-094 SA14-094 / CONTROLLER ASSE","href":"Register-Circuit-boards-SA14-nnn.html#sa14-094","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-095","title":"B 14-095-06-001 - SA14-095 - INTERFACE ASSEMBLY - COMPONENT LAYOUT","label":"SA14-095 B 14-095-06-001 - SA14-095","href":"Register-Circuit-boards-SA14-nnn.html#sa14-095","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-096","title":"SA14-096 / DISPLAY ASSEMBLY / SCHEMATIC","label":"SA14-096 SA14-096 / DISPLAY ASSEMBL","href":"Register-Circuit-boards-SA14-nnn.html#sa14-096","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-101","title":"Last Component Designat Ions Atti","label":"SA14-101 Last Component Designat Io","href":"Register-Circuit-boards-SA14-nnn.html#sa14-101","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-106","title":"SA14-106 / LOWER MONO INPUT MODULES / SCHEMATIC","label":"SA14-106 SA14-106 / LOWER MONO INPU","href":"Register-Circuit-boards-SA14-nnn.html#sa14-106","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-107","title":"SA14-107A / UPPER STEREO INPUT MODULES / SCHEMATIC","label":"SA14-107 SA14-107A / UPPER STEREO I","href":"Register-Circuit-boards-SA14-nnn.html#sa14-107","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-109","title":"SA14-109A UNIVERSAL AMPLIFIER ASSEMBLY / SCHEMATIC","label":"SA14-109 SA14-109A UNIVERSAL AMPLIF","href":"Register-Circuit-boards-SA14-nnn.html#sa14-109","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-120","title":"Stereo Preamplifier Component Layout","label":"SA14-120 Stereo Preamplifier Compon","href":"Register-Circuit-boards-SA14-nnn.html#sa14-120","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-121","title":"SA14-121 VU METER AMPLIFIER / SCHEMATIC","label":"SA14-121 SA14-121 VU METER AMPLIFIE","href":"Register-Circuit-boards-SA14-nnn.html#sa14-121","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-123","title":"SA14-123 / MACHINE CONTROL INTERFACE ASSEMBLY / SCHEMATIC","label":"SA14-123 SA14-123 / MACHINE CONTROL","href":"Register-Circuit-boards-SA14-nnn.html#sa14-123","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-124","title":"B 14-124-02-001 - SA14-124 OSCILLATOR ASSEMBLY - SCHEMATIC","label":"SA14-124 B 14-124-02-001 - SA14-124","href":"Register-Circuit-boards-SA14-nnn.html#sa14-124","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-140","title":"Dual Booster Amplifier Component Layout","label":"SA14-140 Dual Booster Amplifier Com","href":"Register-Circuit-boards-SA14-nnn.html#sa14-140","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-141","title":"Driver Component Layout","label":"SA14-141 Driver Component Layout","href":"Register-Circuit-boards-SA14-nnn.html#sa14-141","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-147","title":"","label":"SA14-147","href":"Register-Circuit-boards-SA14-nnn.html#sa14-147","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-148","title":"","label":"SA14-148","href":"Register-Circuit-boards-SA14-nnn.html#sa14-148","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-152","title":"COMPONENT LAYOUT","label":"SA14-152 COMPONENT LAYOUT","href":"Register-Circuit-boards-SA14-nnn.html#sa14-152","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-161","title":"SA14-161 / MACHINE CONTROL ASSEMBLY / SCHEMATIC","label":"SA14-161 SA14-161 / MACHINE CONTROL","href":"Register-Circuit-boards-SA14-nnn.html#sa14-161","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-172","title":"14-172-02-004 - COMPONENT LAYOUT","label":"SA14-172 14-172-02-004 - COMPONENT ","href":"Register-Circuit-boards-SA14-nnn.html#sa14-172","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-173","title":"","label":"SA14-173","href":"Register-Circuit-boards-SA14-nnn.html#sa14-173","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-182","title":"Amplifier Assembly Component Layout","label":"SA14-182 Amplifier Assembly Compone","href":"Register-Circuit-boards-SA14-nnn.html#sa14-182","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-218","title":"SA14-219 - ASSEMBLY - FRONT PANEL","label":"SA14-218 SA14-219 - ASSEMBLY - FRON","href":"Register-Circuit-boards-SA14-nnn.html#sa14-218","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-219","title":"SA14-219 - ASSEMBLY - FRONT PANEL","label":"SA14-219 SA14-219 - ASSEMBLY - FRON","href":"Register-Circuit-boards-SA14-nnn.html#sa14-219","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-246","title":"COMPONENT LAYOUT","label":"SA14-246 COMPONENT LAYOUT","href":"Register-Circuit-boards-SA14-nnn.html#sa14-246","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-265","title":"","label":"SA14-265","href":"Register-Circuit-boards-SA14-nnn.html#sa14-265","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-268","title":"SA14-268 / VU METER ILLUMINATION ASSEMBLY / SCHEMATIC","label":"SA14-268 SA14-268 / VU METER ILLUMI","href":"Register-Circuit-boards-SA14-nnn.html#sa14-268","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-271","title":"","label":"SA14-271","href":"Register-Circuit-boards-SA14-nnn.html#sa14-271","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-273","title":"SA14-273 - 10X1 STEREO SELECTOR - ASSEMBLY","label":"SA14-273 SA14-273 - 10X1 STEREO SEL","href":"Register-Circuit-boards-SA14-nnn.html#sa14-273","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-280","title":"SA14-280 - INPUT AMPLIFIER - ASSEMBLY","label":"SA14-280 SA14-280 - INPUT AMPLIFIER","href":"Register-Circuit-boards-SA14-nnn.html#sa14-280","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-281","title":"SA14-281 - INPUT AMPLIFIER - ASSEMBLY","label":"SA14-281 SA14-281 - INPUT AMPLIFIER","href":"Register-Circuit-boards-SA14-nnn.html#sa14-281","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-290","title":"Unless All Capacitors Are","label":"SA14-290 Unless All Capacitors Are","href":"Register-Circuit-boards-SA14-nnn.html#sa14-290","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-291","title":"","label":"SA14-291","href":"Register-Circuit-boards-SA14-nnn.html#sa14-291","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-292","title":"3 P1 CONNECTOR 3-1 - LAYOUT","label":"SA14-292 3 P1 CONNECTOR 3-1 - LAYOU","href":"Register-Circuit-boards-SA14-nnn.html#sa14-292","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-295","title":"Opto-Isolator Assembly Component Layout","label":"SA14-295 Opto-Isolator Assembly Com","href":"Register-Circuit-boards-SA14-nnn.html#sa14-295","note":"Circuit boards (SA14-nnn)"}],"parents":[]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%201048488_1699621983592711_2418500506659278133_o.jpg"><img loading="lazy" src="../Modules/METER/M405P/1990%20-%20M405P%20-%201048488_1699621983592711_2418500506659278133_o.jpg" alt="" data-f="Modules/METER/M405P/1990 - M405P - 1048488_1699621983592711_2418500506659278133_o.jpg" data-size="320" onerror="wbsOff(this)">1990 - M405P - 1048488_1699621983592711_2418500506659278133_o.jpg</a><a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20WBS%20-%20Ad%20-%20new%20from%20WBS%20-%201997.jpg"><img loading="lazy" src="../Modules/METER/M405P/1990%20-%20M405P%20-%20WBS%20-%20Ad%20-%20new%20from%20WBS%20-%201997.jpg" alt="" data-f="Modules/METER/M405P/1990 - M405P - WBS - Ad - new from WBS - 1997.jpg" data-size="320" onerror="wbsOff(this)">1990 - M405P - WBS - Ad - new from WBS - 1997.jpg</a><a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20file%20%282%29.jpg"><img loading="lazy" src="../Modules/METER/M405P/1990%20-%20M405P%20-%20file%20%282%29.jpg" alt="" data-f="Modules/METER/M405P/1990 - M405P - file (2).jpg" data-size="320" onerror="wbsOff(this)">1990 - M405P - file (2).jpg</a><a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20file.jpg"><img loading="lazy" src="../Modules/METER/M405P/1990%20-%20M405P%20-%20file.jpg" alt="" data-f="Modules/METER/M405P/1990 - M405P - file.jpg" data-size="320" onerror="wbsOff(this)">1990 - M405P - file.jpg</a><a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20file.tif"><img loading="lazy" src="../_previews/Modules/METER/M405P/1990%20-%20M405P%20-%20file.tif.png" alt="" data-f="Modules/METER/M405P/1990 - M405P - file.tif" data-size="320" onerror="wbsOff(this)">1990 - M405P - file.tif</a></div>
+
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-1990.html">1990|23</a></td>
+<td>manual issue date</td>
+<td><code>MANUAL ISSUE #5 November 2, 1990</code></td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20manual.pdf">1990 - M405P - manual.pdf</a></td>
+</tr>
+<tr>
+<td><a href="Year-1995.html">1995|28</a></td>
+<td>month &amp; year</td>
+<td><code>Feb 24 95</code></td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT%20%282%29.docx">1995 - M405P - ITEMIMP(1).TXT (2).docx</a></td>
+</tr>
+<tr>
+<td><a href="Year-1995.html">1995|28</a></td>
+<td>month &amp; year</td>
+<td><code>Feb 24 95</code></td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT%20%282%29.docx">1995 - M405P - ITEMIMP(1).TXT (2).docx</a></td>
+</tr>
+<tr>
+<td><a href="Year-1995.html">1995|28</a></td>
+<td>month &amp; year</td>
+<td><code>Feb 24 95</code></td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT%20%282%29.docx">1995 - M405P - ITEMIMP(1).TXT (2).docx</a></td>
+</tr>
+<tr>
+<td><a href="Year-1995.html">1995|28</a></td>
+<td>month &amp; year</td>
+<td><code>Feb 24 95</code></td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT.docx">1995 - M405P - ITEMIMP(1).TXT.docx</a></td>
+</tr>
+<tr>
+<td><a href="Year-1995.html">1995|28</a></td>
+<td>month &amp; year</td>
+<td><code>Feb 24 95</code></td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT.docx">1995 - M405P - ITEMIMP(1).TXT.docx</a></td>
+</tr>
+<tr>
+<td><a href="Year-1995.html">1995|28</a></td>
+<td>month &amp; year</td>
+<td><code>Feb 24 95</code></td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT.docx">1995 - M405P - ITEMIMP(1).TXT.docx</a></td>
+</tr>
+<tr>
+<td><a href="Year-1995.html">1995|28</a></td>
+<td>month &amp; year</td>
+<td><code>Feb 24 95</code></td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP.TXT.docx">1995 - M405P - ITEMIMP.TXT.docx</a></td>
+</tr>
+<tr>
+<td><a href="Year-1995.html">1995|28</a></td>
+<td>month &amp; year</td>
+<td><code>Feb 24 95</code></td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP.TXT.docx">1995 - M405P - ITEMIMP.TXT.docx</a></td>
+</tr>
+<tr>
+<td><a href="Year-1995.html">1995|28</a></td>
+<td>month &amp; year</td>
+<td><code>Feb 24 95</code></td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP.TXT.docx">1995 - M405P - ITEMIMP.TXT.docx</a></td>
+</tr>
+<tr>
+<td><a href="Year-1998.html">1998|31</a></td>
+<td>month &amp; year</td>
+<td><code>DEC 9,1998</code></td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1998%20-%20M405P%20-%20file.dsn">1998 - M405P - file.dsn</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Physical manual inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Location</th>
+<th>Status</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PORTABLE EXTENDED RANGE VU METER</td>
+<td>LOOSE BOX</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M405P Portable Extended Range VU Meter</td>
+<td>LOOSE BOX</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Documents (8)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1990|23</td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20XXX%20-%20M405P%20-%20">1990 - M405P - XXX - M405P - #OBSOLETE #Archive.docx</a></td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20XXX%20-%20M405P%20-%20">note</a></td>
+</tr>
+<tr>
+<td>1990|23</td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20file.wpd">1990 - M405P - file.wpd</a></td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20file.wpd.md">note</a></td>
+</tr>
+<tr>
+<td>1990|23</td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20jpg%20%282%29.docx">1990 - M405P - jpg (2).docx</a></td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20jpg%20%282%29.docx.md">note</a></td>
+</tr>
+<tr>
+<td>1990|23</td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20jpg.docx">1990 - M405P - jpg.docx</a></td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20jpg.docx.md">note</a></td>
+</tr>
+<tr>
+<td>1990|23</td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20manual.pdf">1990 - M405P - manual.pdf</a></td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20manual.pdf.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT%20%282%29.docx">1995 - M405P - ITEMIMP(1).TXT (2).docx</a></td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT%20%282%29.docx.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT.docx">1995 - M405P - ITEMIMP(1).TXT.docx</a></td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT.docx.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP.TXT.docx">1995 - M405P - ITEMIMP.TXT.docx</a></td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP.TXT.docx.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (5)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1990|23</td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%201048488_1699621983592711_2418500506659278133_o.jpg">1990 - M405P - 1048488_1699621983592711_2418500506659278133_o.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%201048488_1699621983592711_2418500506659278133_o.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1990|23</td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20WBS%20-%20Ad%20-%20new%20from%20WBS%20-%201997.jpg">1990 - M405P - WBS - Ad - new from WBS - 1997.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20WBS%20-%20Ad%20-%20new%20from%20WBS%20-%201997.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1990|23</td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20file%20%282%29.jpg">1990 - M405P - file (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20file%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1990|23</td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20file.jpg">1990 - M405P - file.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20file.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1990|23</td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20file.tif">1990 - M405P - file.tif</a></td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20file.tif.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Drawings &amp; design files (2)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1990|23</td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20405-03-035%20-%20TYF%20DISC.dwg">1990 - M405P - 405-03-035 - TYF DISC.dwg</a></td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20405-03-035%20-%20TYF%20DISC.dwg.md">note</a></td>
+</tr>
+<tr>
+<td>1998|31</td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1998%20-%20M405P%20-%20file.dsn">1998 - M405P - file.dsn</a></td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1998%20-%20M405P%20-%20file.dsn.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Sub-assemblies &amp; parts used (79)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What</th>
+<th>Family</th>
+<th>Year</th>
+<th>How we know</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#10-014">10-014</a></td>
+<td></td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1988|21</td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#10-015">10-015</a></td>
+<td></td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1988|21</td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#2-107">2-107</a></td>
+<td></td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1977|10</td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#4-108">4-108</a></td>
+<td></td>
+<td>Sub-assemblies (n-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#4-110">4-110</a></td>
+<td>For Schematic See</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1974|7</td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#4-111">4-111</a></td>
+<td>Equalizer Filter Component Assembly</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1974|7</td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#4-112">4-112</a></td>
+<td></td>
+<td>Sub-assemblies (n-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#4-120">4-120</a></td>
+<td></td>
+<td>Sub-assemblies (n-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#4-126">4-126</a></td>
+<td>Equalizer Filter Component Assembly</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1972|5</td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#4-127">4-127</a></td>
+<td>Mod Ickd Used</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1974|7</td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#4-132">4-132</a></td>
+<td>Booster Amplifier</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1977|10</td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#4-136">4-136</a></td>
+<td>Miish Datl Nov</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#4-141">4-141</a></td>
+<td>Summing Amplifier Component Layout</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1974|7</td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#5-101">5-101</a></td>
+<td>Geb Used</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1975|8</td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#5-102">5-102</a></td>
+<td></td>
+<td>Sub-assemblies (n-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#5-106">5-106</a></td>
+<td>Pre-Mixer Master Modue Ecale Layout</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#5-108">5-108</a></td>
+<td>Component Layout</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1975|8</td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#6-106">6-106</a></td>
+<td>Mating Connector Pins Used Are</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1976|9</td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#7-107">7-107</a></td>
+<td>7-107 / DYNAMIC MIC PRE-AMP / SCHEMATIC</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1977|10</td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#7-112">7-112</a></td>
+<td>Component Side Nqie Components</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1983|16</td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#8-103">8-103</a></td>
+<td>LOAD TRANSFER CONTROL / SCHEMATIC</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1979|12</td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#8-109">8-109</a></td>
+<td>Booster Amplifier Component Layout</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1974|7</td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#8-116">8-116</a></td>
+<td>Component Side Revision</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#8-117">8-117</a></td>
+<td>Indicator Driver Component Layout</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#8-118">8-118</a></td>
+<td>Aand Assembly Left Hanc Assemely</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#9-110">9-110</a></td>
+<td>9-110 / PHANTOM POWER PAD BOARD / SCHEMATIC</td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1979|12</td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-001">SA14-001</a></td>
+<td>14-001 / CUE LINE SELECTOR / SCHEMATIC</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td>1980|13</td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-002">SA14-002</a></td>
+<td>14-002 / OUTPUT LINE SELECTOR / SCHEMATIC</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td>1980|13</td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-012">SA14-012</a></td>
+<td>Intercom Turret Audio Amplifier Component Layout</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-013">SA14-013</a></td>
+<td>SA14-013 / INTERCOM TURRET CONTROLLER / SCHEMATIC</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-017">SA14-017</a></td>
+<td>All Resistors Are</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-018">SA14-018</a></td>
+<td>SA14-018 / LEVER KEY ASSEMBLY / SCHEMATIC</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-029">SA14-029</a></td>
+<td></td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-033">SA14-033</a></td>
+<td>SA14-033 / CONTROLLER DAUGHTER BOARD ASSY. / COMPONENT LAYOUT</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-054">SA14-054</a></td>
+<td>Sound Reinforcement Amplifier Component Layout</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-058">SA14-058</a></td>
+<td>Regulator Assembly Component Layout</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-060">SA14-060</a></td>
+<td>Amplifier Assembly Component Layout</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-065">SA14-065</a></td>
+<td>Ase Noleh</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-066">SA14-066</a></td>
+<td>Output Splitter Networks Component Layout</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-075">SA14-075</a></td>
+<td>SA14-075 STEREO PREAMPLIFIER ASSEMBLY / COMPONENT LAYOUT</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-076">SA14-076</a></td>
+<td>B 14-076-02-001 - SA14-076 STEREO CHANNEL AMPLIFIER - SCHEMATIC</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-077">SA14-077</a></td>
+<td>PARTS LIST SA14-077 CONTROL ASSEMBLY</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-081">SA14-081</a></td>
+<td>Preamplifier Assembly Component Layout</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-086">SA14-086</a></td>
+<td>B 14-086-02-001 - SA14-086 SUMMING AMPLIFIER ASSEMBLY - SCHEMATIC</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-087">SA14-087</a></td>
+<td>B 14-087-02-001 - SA14-087 OUTPUT AMPLIFIER - SCHEMATIC</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-089">SA14-089</a></td>
+<td>SA14-089 / DISPLAY READOUT ASSEMBLY / SCHEMATIC</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-094">SA14-094</a></td>
+<td>SA14-094 / CONTROLLER ASSEMBLY / SCHEMATIC</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-095">SA14-095</a></td>
+<td>B 14-095-06-001 - SA14-095 - INTERFACE ASSEMBLY - COMPONENT LAYOUT</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-096">SA14-096</a></td>
+<td>SA14-096 / DISPLAY ASSEMBLY / SCHEMATIC</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-101">SA14-101</a></td>
+<td>Last Component Designat Ions Atti</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-106">SA14-106</a></td>
+<td>SA14-106 / LOWER MONO INPUT MODULES / SCHEMATIC</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-107">SA14-107</a></td>
+<td>SA14-107A / UPPER STEREO INPUT MODULES / SCHEMATIC</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-109">SA14-109</a></td>
+<td>SA14-109A UNIVERSAL AMPLIFIER ASSEMBLY / SCHEMATIC</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-120">SA14-120</a></td>
+<td>Stereo Preamplifier Component Layout</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-121">SA14-121</a></td>
+<td>SA14-121 VU METER AMPLIFIER / SCHEMATIC</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-123">SA14-123</a></td>
+<td>SA14-123 / MACHINE CONTROL INTERFACE ASSEMBLY / SCHEMATIC</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-124">SA14-124</a></td>
+<td>B 14-124-02-001 - SA14-124 OSCILLATOR ASSEMBLY - SCHEMATIC</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-140">SA14-140</a></td>
+<td>Dual Booster Amplifier Component Layout</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-141">SA14-141</a></td>
+<td>Driver Component Layout</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-147">SA14-147</a></td>
+<td></td>
+<td>Circuit boards (SA14-nnn)</td>
+<td>1986|19</td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-148">SA14-148</a></td>
+<td></td>
+<td>Circuit boards (SA14-nnn)</td>
+<td>1986|19</td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-152">SA14-152</a></td>
+<td>COMPONENT LAYOUT</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-161">SA14-161</a></td>
+<td>SA14-161 / MACHINE CONTROL ASSEMBLY / SCHEMATIC</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-172">SA14-172</a></td>
+<td>14-172-02-004 - COMPONENT LAYOUT</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-173">SA14-173</a></td>
+<td></td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-182">SA14-182</a></td>
+<td>Amplifier Assembly Component Layout</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-218">SA14-218</a></td>
+<td>SA14-219 - ASSEMBLY - FRONT PANEL</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-219">SA14-219</a></td>
+<td>SA14-219 - ASSEMBLY - FRONT PANEL</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-246">SA14-246</a></td>
+<td>COMPONENT LAYOUT</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-265">SA14-265</a></td>
+<td></td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-268">SA14-268</a></td>
+<td>SA14-268 / VU METER ILLUMINATION ASSEMBLY / SCHEMATIC</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-271">SA14-271</a></td>
+<td></td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-273">SA14-273</a></td>
+<td>SA14-273 - 10X1 STEREO SELECTOR - ASSEMBLY</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-280">SA14-280</a></td>
+<td>SA14-280 - INPUT AMPLIFIER - ASSEMBLY</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-281">SA14-281</a></td>
+<td>SA14-281 - INPUT AMPLIFIER - ASSEMBLY</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-290">SA14-290</a></td>
+<td>Unless All Capacitors Are</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-291">SA14-291</a></td>
+<td></td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-292">SA14-292</a></td>
+<td>3 P1 CONNECTOR 3-1 - LAYOUT</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-295">SA14-295</a></td>
+<td>Opto-Isolator Assembly Component Layout</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+</tbody>
+</table>
+<h2>Parts list — board M405P (10 parts)</h2>
+<p><em>From <a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20manual.pdf">1990 - M405P - manual.pdf</a>, page 12 (scanned); also in <code>timelines/data/bom.csv</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>Part</th>
+<th>Value</th>
+<th>Manufacturer</th>
+<th>Mfr part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C5</td>
+<td>22 uF/35 V Kemet</td>
+<td></td>
+<td></td>
+<td>T39OE226MO3SAS</td>
+</tr>
+<tr>
+<td>C6</td>
+<td>0.047 uF/250 V Philips</td>
+<td></td>
+<td></td>
+<td>344-41-473</td>
+</tr>
+<tr>
+<td>C10</td>
+<td>10 uF/25 V Kemet</td>
+<td></td>
+<td></td>
+<td>T39OC106MO2SAS</td>
+</tr>
+<tr>
+<td>C12</td>
+<td>47 uF/40 V Philips</td>
+<td></td>
+<td></td>
+<td>426ETF47</td>
+</tr>
+<tr>
+<td>C13</td>
+<td>pF Aselco</td>
+<td>4700</td>
+<td></td>
+<td>CQ92-MC-100-472M</td>
+</tr>
+<tr>
+<td>C14</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C15</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C16</td>
+<td>22 uF/35 V Kemet</td>
+<td></td>
+<td></td>
+<td>T390E226MO35AS</td>
+</tr>
+<tr>
+<td>C17</td>
+<td>Philips</td>
+<td>10 pF</td>
+<td></td>
+<td>2222-638-10109</td>
+</tr>
+<tr>
+<td>CR9</td>
+<td>Diode, Zener Motorola</td>
+<td>3.3V</td>
+<td></td>
+<td>IN746A</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>Specifications (1)</h3>
+<details><summary>Technical Data — 1274 words · 1990 - M405P - manual.pdf, page 6</summary><p>MAOSP PORTABLE EXTENDED RANGE YU METER Range: 30 dBm to +30 dBm in 2 dB steps for 0 VU reading: Frequency Response: +/-0.25 dB from 20 Hz to 20 kHz_ -30 dB down at 60 Hz with filter in_ Noise: Signal to noise ratio better than 50 dB measured from 0 VU meter reading_ Total Harmonic Less than % from 20 Hz to 20 kHz Distortion: (measured with any specified input level and at 0 VU output level) Source Impedance: 150/600 ohms_ Input Impedance: Selectable, 150/600/20K ohms + /-50 unbalanced, floa ting above ground. Attenuator Tracking: +/-0.25 dB per step (non cumulative) Meter Ballistics: Complies with ANSI VU meter standards Headset Output: 0 dBm (approx 600 ohms). Battery Life: More than 40 hrs: continuous use_ Typically 30 days at 2 hrs: per day intermittent use. Dimensions: 5.00&quot; wide x 9.00&quot; high x 5.00&quot; deep (12Smm x 225mm 125mm) Weight: 7 Ibs. (3 kg) net. 1 -</p><p>WARD-BECK SYSTEMS LTD_ GENERAL MAOSP PORTABLE EXTENDED RANGE_VU METER The M4OSP Extended Range VU Meter is battery operated, portable instrument designed for the measurement of trans- mission, noise and VU levels throughout an audio system_ The instrument produces a VU indication on 1/2 inch meter for input levels from 50 dBm to +30 dBm over 20 Hz to 20 kHz bandwidth_ The active circuitry utilizes FET devices to achieve high impedance operation with minimum current demand (less than mA) The M4OSP is operated continuously from the internal Alkaline cells for more than 40 hours 0r typically 30 days of intermit- tent use. Input connections to the meter may be via binding post terminals or telephone type jack conveniently located on the front panel. An output jack provides an indepen- dent 0 dBm approx) 600 ohm level for use as headsct monitor or auxiliary line amplificr. An input attenuator; calibrated in dB steps, accommodates the full 80 dB range in one continuous 300 degree rotation_ front panel selector switch is provided to permit the M4OSP to operate in the match- ing or bridging modc (for use with untcr- minated or terminated transmission lines), as well as allow the instrument to operate directly with 150 or 600 ohm system im- pedances In addition, a 60 Hz notch filter may be switched in to permit measurements to be obtained in the presence of hum 2-1</p><p>WARD-BECK SYSTEMS LTD. CIRCUIT_DESCRIPIION MAOSE PORTABLE EXTENDED RANGE_VU_METER The signal input to the M4OSP Extended The preamplifier output is via  capacitor Range VU Meter may be via binding post C5. The output amplifier comprises trans- terminals J2 and J3 Or telephone jack JI. istors Q3 through Q7. The circuit is an An input via Jl automatically disconnects operational amplifier functioning in the the binding post  input circuit which is inverting mode and with feedback resistors connected to the normal springs of the Rl4 and R22 determining the gain  Filter jack switch SW3 inserts a parallel T-type filter_ comprising resistors Rl5 through R2] and The input amplifier configuration is un- capacitors C6 through C9_ The filter prod- balanced but floa ting with respect to uces a sharp 60 Hz notch with greater than chassis ground and can, therefore, be 30 dB attenuation_ Locating the filter utilized in conjunction with balanced audio components within the feedback loop lines without introducing disturbances produces high-Q response   characteristics with 3 dB points at 50 and 70 Hz Matching/bridging impedance switch SWZA,B determines the ioad presentcd by Output coupling capacitor Cll connects the the instrument to the source (matching or signal tO the VU meter via  switch SW4 2OK ohm bridging). When a 150 or 600 ohm Resistor R33 provides the required ma tching impedance selected source iS switch driving impedince, while SWZA R34 and C13 compensates the input of the instru- introduces high [requency compensation to ment to present the proper line termination restore meter rectifier losses. Zener diodes and simultaneously adjusts the instrument CR9 and CRIO offer vol Itage_ protection against gain to produce the correct meter meter overdrive. Headset jack J5 delivers indication for 150 or 600 ohm line meas- approximately dBm to 600 ohm load urements when meter MI indicates VU. Coupling capacitors Cl and C2 prevent dc When selected to the TEST position, SWZD voltages, which may be present on line, applies test load to from the battery interfering circuit with the instrument and provides visual indication circuitry. of The the signal is applied to the battery condition (refer to operation sect- instrument amplifier via calibrated ion). dB/step rotary attenuator R3, resistor R4 and coupling capacitor C3_ The calibrated attenuator accommodates an 80 dB range and allows the M4OSP to measure input levels from 30 dBm to +30 dBm for VU meter reading: Clipping diodes CRl and CR2 in conjunc- tion with R4 limit the signal input ampli- tude to the amplificr and meter circuits. QI FET and Q2 PNP transistor  form vcry high impedancc complementary pre- amplificr: Hence, the calibrated potentio- meter, R3 operates unloaded The preampli- fier gain is dctcrmined by the ratio of resistor networks R9 to RIO and Rl or R9 to Rl2 and R13 depending 0n thc selection of switch SW2. This produccs Simultan- eous 6 dB gain adjustment when the match- ing input impedance is selected to 150 or 600 ohms 3-[</p><p>WARD-BECK SYSTEMS LTD. OPERATIONAL_DESCRIPTION MAOSP PORTABLE EXTENDED RANGEVU METER (Refer to Front &amp; Rear Layout B405-04-016) 1) VU Meter movement. Standard scale this output source offers the capability movement complies to ASA VU Meter of driving 600 ohm line to approxi- standards. mately dBm and hence   adapts the M4OSP for booster   amplifier appli- 2) TEST /OFF/150/600 switch (SW2) cations with visual indication of activates the instrument in the 150/600 program transmission. Low level input and bridging positions. In addition the signals from -50 dBm may be adjusted battery condition is measured in thc via the M4OSP amplifier circuit to &quot;TEST position. produce 0 dBm at JS output The &quot;150/600 MTC</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20manual.pdf">1990 - M405P - manual.pdf</a>, p. 6</li>
+</ul>
+<h3>Maintenance &amp; alignment (1)</h3>
+<details><summary>Maintenance — 437 words · 1990 - M405P - manual.pdf, page 10</summary><p>MAUSP PORTABLE EXTENDED RANGE YU METER The M4OSP is designed for  dependable, If it is necessary to interchange com- trouble-free service: However, a8 with all ponent to determine the cause of a fault, high quality electronic equipment; reg- remove the suspected component with ular schedule of inspection should be estab- small soldering iron and a desoldering tool. lished. Any accumulation of dust should Place the soldering iron and the desolder- be periodically removed with a soft brush ing tool on the solder connection to be and vacuum hose desoldered. When the solder melts thor- oughly, press the plunger release trigger. If The active circuitry may be inspected by any of the lead connections stick to the removing the instrument front panel_ printed circuit board, free them with Remove the two 4-40 screws on top and scribe or a similar sharply pointed instru- two rubber feet at the bottom that secure ment: Carefully remove the component the front panel to the meter case. which, if proven to be satisfactory, may be used again for other applications The component board may be removed for inspection by removing the tWo nuts which To install the new component, shape the secure the PC board to the meter terminals. leads to the correct spacing: Insert the part In this manner access may be gained to the and fold the leads under the printed solder side of the PC board. circuit board to firmly hold the component Clip off the excess wire leaving about 1/16 When it is  necessary to install new bat- inch. Solder the new leads, using tcries resin core remove the four screws from the solder and clean the board with an inert battery door and replace batteries  Install fluid such aS perchlorethelyne_ new batteries and secure battery door by teloca ting the 4-40 retaining screws The location of   components is shown in drawing B142-06-002, If a fault is suspected measuring the dc voltage present at the transistor clectrodes may assist to determine the cause. When comparing the measurements listed in the voltage chart consideration should be given to the fact that; for dircct coupled sections; a fault in one circuit may cause abnorna conditions in other circuit areas within the same section. 5 -</p><p>WARD-BECK SYSTEMS LTD DC_VOLTAGE CHART MAOSP PORTABLE EXTENDED RANGE_YVU_METER VE VB VC Q1 4.6 22 Q2 22.5 22 10.6 Q3 10.5 22.5 Q4 10.5 21.8 Q5 22.4 21.8 11.6 Q6 11.2 11.6 22.5 Q7 11.2 10.7 CONDITIONS UNDER WHICH VOLTAGES ARE MEASURED No signal applied. 2. Battery voltage 27 volts_ BA TTER Y CURRENT DRAIN (no signal applied) 1,25 mA- 6 -</p><p>WARD-BECK SYSTEMS LTD</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20manual.pdf">1990 - M405P - manual.pdf</a>, p. 10</li>
+</ul>
+<h3>Warranty (1)</h3>
+<details><summary>Warranty — 323 words · 1990 - M405P - manual.pdf, page 5</summary><p>All Ward-Beck Systems Ltd , products are warranted against defective materials and workmanship for a period of one year from the date of shipment. Ward-Beck Systems Ltd, will repair Or replace, at its option and without charge , all said products O parts thereof which upon &#x27;factory inspection prove to be defective during the warranty period, provided that: 1) the original serial numbers are intact and have not been tampered with _ 2) the purchaser shall return any equipment O parts thereof to Ward-Beck Systems Ltd. only after obtaining prior authorization and shipping instructions from the factory (Ward-Beck Systems Ltd. Ieserves the right to inspect or repair equipment on the purchaser&#x27;$ premises) , and 3) the purchaser assumes the obligation for all expenses incurred in connection with the ship- ping and return of such goods, once authorization has been obtained_ This warranty does not cover items normally considered expendable, such as fuses and lamps_ This warranty does not cover damages caused by misuse, accident, neglect, unauthorized alteration; repair by unauthorized personnel, or damage caused by act of God, war, or civil insurrection . In no event shall Ward-Beck Systems Ltd. be liable for consequential damages_ Ward-Beck Systems Ltd . , shall have the right to final determination as to the applicability of this warranty. Ward-Beck Systems Ltd. reserves the right, at any time and without notice, to make changes in its equipment, components specifications, Or designs, as may be warranted by progress in state-of-the-art or technology. Ward-Beck Systems Ltd. . reserves the right to make design changes _ additions to, and improvements in its pIO- ducts , without obligation to instali suci revisions in products previously manufactured_ The warranty set forth herein is in lieu of all other warranties expressed or implied, including the warranties of merchantability and fitness. WBS WARD-Beck sySteMs 841 Progress Avenue, Scarborough, Ontario, Canada MIH 2X4. Tel: (416) 438-6550. Fax: (416) 438-3865. Toll Free 1-800-771-2556 Tow/8906/5M,</p><p>WAAD-BECK SysteMs LTD_</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20manual.pdf">1990 - M405P - manual.pdf</a>, p. 5</li>
+</ul>
+<h2>Drawings (2)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="People.html#drawing-staff">Drawn by</a></th>
+<th><a href="People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>405-03-035</td>
+<td>Tyf Disc</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20405-03-035%20-%20TYF%20DISC.dwg">file</a></td>
+</tr>
+<tr>
+<td>405-04-016</td>
+<td>Eng Extended Range</td>
+<td></td>
+<td><a href="Person-JRG.html">JRG</a></td>
+<td></td>
+<td>I</td>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1990%20-%20M405P%20-%20manual.pdf">file</a> p.16</td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M405P&quot;,
+ &quot;category&quot;: &quot;METER&quot;,
+ &quot;year&quot;: 1990,
+ &quot;made_of&quot;: [
+  &quot;10-014&quot;,
+  &quot;10-015&quot;,
+  &quot;2-107&quot;,
+  &quot;4-108&quot;,
+  &quot;4-110&quot;,
+  &quot;4-111&quot;,
+  &quot;4-112&quot;,
+  &quot;4-120&quot;,
+  &quot;4-126&quot;,
+  &quot;4-127&quot;,
+  &quot;4-132&quot;,
+  &quot;4-136&quot;,
+  &quot;4-141&quot;,
+  &quot;5-101&quot;,
+  &quot;5-102&quot;,
+  &quot;5-106&quot;,
+  &quot;5-108&quot;,
+  &quot;6-106&quot;,
+  &quot;7-107&quot;,
+  &quot;7-112&quot;,
+  &quot;8-103&quot;,
+  &quot;8-109&quot;,
+  &quot;8-116&quot;,
+  &quot;8-117&quot;,
+  &quot;8-118&quot;,
+  &quot;9-110&quot;,
+  &quot;SA14-001&quot;,
+  &quot;SA14-002&quot;,
+  &quot;SA14-012&quot;,
+  &quot;SA14-013&quot;,
+  &quot;SA14-017&quot;,
+  &quot;SA14-018&quot;,
+  &quot;SA14-029&quot;,
+  &quot;SA14-033&quot;,
+  &quot;SA14-054&quot;,
+  &quot;SA14-058&quot;,
+  &quot;SA14-060&quot;,
+  &quot;SA14-065&quot;,
+  &quot;SA14-066&quot;,
+  &quot;SA14-075&quot;,
+  &quot;SA14-076&quot;,
+  &quot;SA14-077&quot;,
+  &quot;SA14-081&quot;,
+  &quot;SA14-086&quot;,
+  &quot;SA14-087&quot;,
+  &quot;SA14-089&quot;,
+  &quot;SA14-094&quot;,
+  &quot;SA14-095&quot;,
+  &quot;SA14-096&quot;,
+  &quot;SA14-101&quot;,
+  &quot;SA14-106&quot;,
+  &quot;SA14-107&quot;,
+  &quot;SA14-109&quot;,
+  &quot;SA14-120&quot;,
+  &quot;SA14-121&quot;,
+  &quot;SA14-123&quot;,
+  &quot;SA14-124&quot;,
+  &quot;SA14-140&quot;,
+  &quot;SA14-141&quot;,
+  &quot;SA14-147&quot;,
+  &quot;SA14-148&quot;,
+  &quot;SA14-152&quot;,
+  &quot;SA14-161&quot;,
+  &quot;SA14-172&quot;,
+  &quot;SA14-173&quot;,
+  &quot;SA14-182&quot;,
+  &quot;SA14-218&quot;,
+  &quot;SA14-219&quot;,
+  &quot;SA14-246&quot;,
+  &quot;SA14-265&quot;,
+  &quot;SA14-268&quot;,
+  &quot;SA14-271&quot;,
+  &quot;SA14-273&quot;,
+  &quot;SA14-280&quot;,
+  &quot;SA14-281&quot;,
+  &quot;SA14-290&quot;,
+  &quot;SA14-291&quot;,
+  &quot;SA14-292&quot;,
+  &quot;SA14-295&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/METER/M405P/1990 - M405P - 1048488_1699621983592711_2418500506659278133_o.jpg&quot;,
+   &quot;year&quot;: 1990,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M405P/1990 - M405P - 405-03-035 - TYF DISC.dwg&quot;,
+   &quot;year&quot;: 1990,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M405P/1990 - M405P - WBS - Ad - new from WBS - 1997.jpg&quot;,
+   &quot;year&quot;: 1990,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M405P/1990 - M405P - XXX - M405P - #OBSOLETE #Archive.docx&quot;,
+   &quot;year&quot;: 1990,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M405P/1990 - M405P - file (2).jpg&quot;,
+   &quot;year&quot;: 1990,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M405P/1990 - M405P - file.jpg&quot;,
+   &quot;year&quot;: 1990,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M405P/1990 - M405P - file.tif&quot;,
+   &quot;year&quot;: 1990,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M405P/1990 - M405P - file.wpd&quot;,
+   &quot;year&quot;: 1990,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M405P/1990 - M405P - jpg (2).docx&quot;,
+   &quot;year&quot;: 1990,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M405P/1990 - M405P - jpg.docx&quot;,
+   &quot;year&quot;: 1990,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M405P/1990 - M405P - manual.pdf&quot;,
+   &quot;year&quot;: 1990,
+   &quot;pages&quot;: 17,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;parts&quot;,
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M405P/1995 - M405P - ITEMIMP(1).TXT (2).docx&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M405P/1995 - M405P - ITEMIMP(1).TXT.docx&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M405P/1995 - M405P - ITEMIMP.TXT.docx&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/METER/M405P/1998 - M405P - file.dsn&quot;,
+   &quot;year&quot;: 1998,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../_catalog/libcontrol/libcontrol.css"><script src="../_catalog/libcontrol/react.js"></script><script src="../_catalog/libcontrol/react-dom.js"></script><script src="../_catalog/libcontrol/libcontrol.js"></script><script src="../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M405P.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

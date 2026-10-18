@@ -1,0 +1,36 @@
+{
+  "source": "/home/anthony/Documents/GitProjects/WBSps.ca/WBSps.env/WBSps Engineering from H drive/WBSps - M7XX/M719/TANGO/14-317.PCB",
+  "kicad_pcb": "/home/anthony/Documents/GitProjects/WBSps.ca/2026/Engineering/PCB/14-317 - 10 WATT POWER AMPLIFIER/14-317.kicad_pcb",
+  "format": "Tango-PCB PLUS V2.02 Series II",
+  "edge_layer": 14,
+  "tango_layers_used": {
+    "0": 2,
+    "1": 392,
+    "4": 210,
+    "8": 465,
+    "10": 2,
+    "11": 2,
+    "12": 7,
+    "14": 10,
+    "15": 132,
+    "16": 194,
+    "17": 14,
+    "18": 62
+  },
+  "counts": {
+    "components": 82,
+    "pads": 212,
+    "tracks": 357,
+    "vias": 0,
+    "graphics": 975,
+    "texts": 157,
+    "pours": 3
+  },
+  "nets": {
+    "netlist": "/home/anthony/Documents/GitProjects/WBSps.ca/WBSps.env/WBSps Engineering from H drive/WBSps - M7XX/M719/ORCAD/M719.NET",
+    "nets": 44,
+    "pins_matched": 178,
+    "pins_in_netlist": 178,
+    "applied": true
+  }
+}

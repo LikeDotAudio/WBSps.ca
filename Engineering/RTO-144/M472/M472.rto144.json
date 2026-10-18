@@ -1,0 +1,33 @@
+{
+  "code": "M472",
+  "series": null,
+  "type": "M472 - Equalizer",
+  "row_count": null,
+  "impedance": {},
+  "note": null,
+  "audio": [
+    {
+      "port": "A1",
+      "signal": "EQ(unbalanced) IN",
+      "dir": "in",
+      "pos": "4",
+      "neg": null,
+      "pad_pos": "4.A.1.P",
+      "pad_neg": ".A.1.N"
+    },
+    {
+      "port": "A2",
+      "signal": "EQ(unbalanced) OUT",
+      "dir": "out",
+      "pos": "6",
+      "neg": null,
+      "pad_pos": "6.A.2.P",
+      "pad_neg": ".A.2.N"
+    }
+  ],
+  "bus_out": [],
+  "bus_in": [],
+  "power": [],
+  "jumpers": [],
+  "logic": []
+}

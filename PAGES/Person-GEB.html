@@ -1,0 +1,2796 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Gerry E. Bell (GEB)</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>Gerry E. Bell (GEB)</h1>
+<p><a href="People.html">← People</a></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Initials</td>
+<td>GEB</td>
+</tr>
+<tr>
+<td>Name</td>
+<td>Gerry E. Bell</td>
+</tr>
+<tr>
+<td>Note</td>
+<td>identified by Anthony Kuzub (2026-10-17)</td>
+</tr>
+<tr>
+<td>Drawings</td>
+<td>600</td>
+</tr>
+<tr>
+<td>Roles</td>
+<td>approved, checked, drawn, engineer</td>
+</tr>
+<tr>
+<td>Active (dated drawings)</td>
+<td>1972–1999</td>
+</tr>
+<tr>
+<td>Projects</td>
+<td><a href="Job-1-120.html">1-120</a>, <a href="Job-605.html">605</a>, <a href="Job-72032.html">72032</a>, <a href="Job-76045.html">76045</a>, <a href="Job-77012.html">77012</a>, <a href="Job-77024.html">77024</a>, <a href="Job-790236.html">790236</a>, <a href="Job-900438.html">900438</a>, <a href="Job-900573.html">900573</a>, <a href="Job-920004.html">920004</a>, <a href="Job-920005.html">920005</a>, <a href="Job-920008.html">920008</a>, <a href="Job-920009.html">920009</a>, <a href="Job-920383.html">920383</a>, <a href="Job-930177.html">930177</a>, <a href="Job-960134.html">960134</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Drawings</h2>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="People.html#drawing-staff">Drawn by</a></th>
+<th><a href="People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>—</td>
+<td>Connectors Rear View</td>
+<td><a href="Year-1972.html">1972|5</a></td>
+<td><a href="Person-GP.html">GP</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625A/1978%20-%20M625A%20-%20Power%20Supply.pdf">file</a> p.15</td>
+</tr>
+<tr>
+<td>B 730-02-001</td>
+<td>M730 10V POWER SUPPLY / SCHEMATIC</td>
+<td><a href="Year-1972.html">1972|5</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M730/1972%20-%20730-02-001%20-%2010V%20POWER%20SUPPLY%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 731-02-001</td>
+<td>M731 20V. POWER SUPPLY / SCHEMATIC</td>
+<td><a href="Year-1972.html">1972|5</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M731/1972%20-%20731-02-001%20-%2020V.%20POWER%20SUPPLY%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 1-120-02-001</td>
+<td>EXTENDED RANGE VU / SCHEMATIC</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>7</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1973%20-%201-120-02-001%20-%20EXTENDED%20RANGE%20VU%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%207.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 706-02-001</td>
+<td>M706 / TRANSFORMER MODULE / SCHEMATIC</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M706/1973%20-%20706-02-001%20-%20TRANSFORMER%20MODULE%20SCHEMATIC%20-%20DRN%20GEB.png">file</a></td>
+</tr>
+<tr>
+<td>B 712-02-004</td>
+<td>M712 / CASCADE CONFIGURATION</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RB.html">RB (Rodger Beck)</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-004%20-%20CASCADE%20CONFIGURATION%20-%20DRN%20GEB%20-%20ISS%202.png">file</a></td>
+</tr>
+<tr>
+<td>B 712-02-006</td>
+<td>M722 / CROSSPOINT</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RRL.html">RRL</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-006%20-%20M722%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 712-02-007</td>
+<td>M723 / CROSSPOINT</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-007%20-%20M723%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 712-02-008</td>
+<td>M724 / CROSSPOINT</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-008%20-%20M724%20CROSSPOINT%20-%20DRN%20GEB.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 712-02-010</td>
+<td>M726 / CROSSPOINT</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-010%20-%20M726%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 712-02-012</td>
+<td>M728 / CROSSPOINT</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1973%20-%20712-02-012%20-%20M728%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 72032-02-001</td>
+<td>TYPICAL INPUT SYSTEM / AUDIO SCHEMATIC</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/72032%20-%20Typical%20Input%20System%20Audio%20Schematic.jpg/1973%20-%2072032-02-001%20-%20TYPICAL%20INPUT%20SYSTEM%20AUDIO%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Note For Component Layout See</td>
+<td><a href="Year-1974.html">1974|7</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RR.html">RR</a></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M745/1974%20-%20M745%20-%20DOC%20-%20NOTE%20FOR%20COMPONENT%20LAYOUT%20SEE.png">file</a></td>
+</tr>
+<tr>
+<td>A 12003</td>
+<td>DESIGNATION STRIP / MOUNTING INSTRUCTION</td>
+<td><a href="Year-1974.html">1974|7</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1974%20-%20A%2012003%20-%20DESIGNATION%20STRIP%20MOUNTING%20INSTRUCTION%20-%20DRN%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 12001</td>
+<td>PENNY &amp; GILES / MONO ATTENUATOR / (WBS N 12001)</td>
+<td><a href="Year-1974.html">1974|7</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td>3</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1974%20-%20B%2012001%20-%20PENNY%20%26%20GILES%20MONO%20ATTENUATOR%20%28WBS%20N%2012001%29%20-%20DRN%20GEB%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 407-02-003</td>
+<td>M407 A / TURRET</td>
+<td><a href="Year-1974.html">1974|7</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M407/1974%20-%20407-02-003%20-%20A%20TURRET%20-%20DRN%20GEB%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 712-02-009</td>
+<td>M725 / CROSSPOINT</td>
+<td><a href="Year-1974.html">1974|7</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1974%20-%20712-02-009%20-%20M725%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 712-02-013</td>
+<td>M729 / CROSSPOINT</td>
+<td><a href="Year-1974.html">1974|7</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1974%20-%20712-02-013%20-%20M729%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 745-02-003</td>
+<td>M745B / 5 VOLT 3 AMP REGULATOR / SCHEMATIC</td>
+<td><a href="Year-1974.html">1974|7</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M745/1974%20-%20745-02-003%20-%20M745B%205%20VOLT%203%20AMP%20REGULATOR%20SCHEMATIC%20-%20DRN%20GEB.png">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Input Module Func Tional Diag</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M461/1976%20-%20M461%20-%20Input%20Module%20Functional.pdf">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Boost/ Cut Boost/ Cut Boost/ Cut Boost/ Cut</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td>PJL</td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M462B/1976%20-%20M462B%20-%20EQ%20Module.pdf">file</a> p.32</td>
+</tr>
+<tr>
+<td>—</td>
+<td>Bus Stereo Tie Nqie For Component Layout See</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RE.html">RE</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M466M/1976%20-%20M466M%20-%20BUS%20STEREO%20TIE%20NQIE%20FOR%20COMPONENT%20LAYOUT%20SEE.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>High Pass Low Pass Filter Component Layout</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td>DEA</td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M464/1976%20-%20M464%20-%20HIGH%20PASS%20LOW%20PASS%20FILTER%20COMPONENT%20LAYOUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Lamp Effects Levelctl Input Effects Level</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RC.html">RC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20459-02-002%20-%20FECTS%20SWITCHER%20DULE%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Boost/ Cut Boostl Cut Boost/ Cut Boost/ Cut</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M462/1976%20-%20M462%20-%20DOC%20-%20BOOST-%20CUT%20BOOSTL%20CUT%20BOOST-%20CUT%20BOOST-%20CUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>4-126-02-001</td>
+<td>Gcale Amplifier Schemath</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460B/1976%20-%20M460B%20-%204-126-02-001%20-%20GCALE%20AMPLIFIER%20SCHEMATH.jpg">file</a></td>
+</tr>
+<tr>
+<td>459-02-002</td>
+<td>Lamp Levelctl Level</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20459-02-002%20-%20LAMP%20LEVELCTL%20LEVEL.jpg">file</a></td>
+</tr>
+<tr>
+<td>459-02-002</td>
+<td>Input Output</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20459-02-002%20-%20INPUT%20OUTPUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>459-02-002</td>
+<td>Lamp Levelctl Level</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20M459%20-%20459-02-002%20-%20LAMP%20LEVELCTL%20LEVEL.jpg">file</a></td>
+</tr>
+<tr>
+<td>461-01-001</td>
+<td>Functional Diag Ram</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RU.html">RU</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M461/1975%20-%20M461%20-%20461-01-001%20-%20FUNCTIONAL%20DIAG%20RAM.jpg">file</a></td>
+</tr>
+<tr>
+<td>462-01-001</td>
+<td>Functional Dia Gram</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M462/1976%20-%20M462%20-%20462-01-001%20-%20FUNCTIONAL%20DIA%20GRAM.jpg">file</a></td>
+</tr>
+<tr>
+<td>462-01-001</td>
+<td>Equalizer Module</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M462/1976%20-%20M462%20-%20462-01-001%20-%20EQUALIZER%20MODULE.jpg">file</a></td>
+</tr>
+<tr>
+<td>A 450-04-001</td>
+<td>M450 AND M450A / PROGRAM/SUMMING AMPLIFIER / CONNECTOR LAYOUT</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RB.html">RB (Rodger Beck)</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1976%20-%20450-04-001%20-%20AND%20M450A%20PROGRAM%20SUMMING%20AMPLIFIER%20CONNECTOR%20LAYOUT%20-%20DRN%20GEB%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 4-126-02-001</td>
+<td>4-126 / EQUALIZER FILTER / AMPLIFIER SCHEMATIC</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>4</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M463/1976%20-%204-126-02-001%20-%204-126%20EQUALIZER%20FILTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%204.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 459-02-</td>
+<td>M459 EFFECTS SW... / MODULE SCH...</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20B%20459-02%20-%20EFFECTS%20SW...%20MODULE%20SCH%20-%20DRN%20GEB.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 459-02-</td>
+<td>M459 EFFECTS SW... / MODULE SCH...</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20B%20459-02%20-%20EFFECTS%20SW...%20MODULE%20SCH%20-%20DRN%20GEB%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 459-02-002</td>
+<td>M459A / EFFECTS SWITCHER / MODULE SCHEMATIC</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20459-02-002%20-%20M459A%20EFFECTS%20SWITCHER%20MODULE%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 459-02-002</td>
+<td>M459A / EFFECTS SWITCHER / MODULE SCHEMATIC</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20459-02-002%20-%20M459A%20EFFECTS%20SWITCHER%20MODULE%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%202%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 461-01-001</td>
+<td>M461 / INPUT MODULE / FUNCTIONAL DIAGRAM</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-R-KELLE.html">R KELLE</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M461/1976%20-%20461-01-001%20-%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 462-01-001</td>
+<td>EQUALIZER MODULE / FUNCTIONAL DIAGRAM</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M462/1976%20-%20462-01-001%20-%20EQUALIZER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20GEB%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 462-01-001</td>
+<td>M462 / EQUALIZER MODULE / FUNCTIONAL DIAGRAM</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M462/1976%20-%20462-01-001%20-%20EQUALIZER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20GEB%20-%20ISS%202%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 462-01-003</td>
+<td>M462B / Equalizer Module / Functional Diagram</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M462/1976%20-%20462-01-003%20-%20M462B%20Equalizer%20Module%20Functional%20Diagram%20-%20DRN%20GEB%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 462-01-003</td>
+<td>M462B / EQUALIZER MODULE / FUNCTIONAL DIAGRAM</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M462/1976%20-%20462-01-003%20-%20M462B%20EQUALIZER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20GEB%20-%20ISS%202%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 466-02-003</td>
+<td>COMPRESSOR METER MODULE SCHEMATIC</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M466/1976%20-%20466-02-003%20-%20COMPRESSOR%20METER%20MODULE%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 749-02-002</td>
+<td>M749A / STATUS CONTROL AND / MEMORY CANCEL SCHEMATIC</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M749/1976%20-%20749-02-002%20-%20M749A%20STATUS%20CONTROL%20AND%20MEMORY%20CANCEL%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>456-06-001</td>
+<td>Dual Mixdown Module</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RAX.html">RAX</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20456-06-001%20-%20DUAL%20MIXDOWN%20MODULE.jpg">file</a></td>
+</tr>
+<tr>
+<td>473-06-002</td>
+<td></td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>9</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M473A/1977%20-%20M473A%20-%20Submaster%20Module%20%282%29.pdf">file</a> p.24</td>
+</tr>
+<tr>
+<td>475-06-001</td>
+<td>Monitor Module Ckdrul</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M475/1978%20-%20M475%20-%20Monitor%20Module.pdf">file</a> p.16</td>
+</tr>
+<tr>
+<td>B 451-03-007</td>
+<td>M451 / TRANSFORMER MOUNTING BRACKET</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RM.html">RM</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M451/1977%20-%20451-03-007%20-%20TRANSFORMER%20MOUNTING%20BRACKET%20-%20DRN%20GEB%20-%20ISS%202.png">file</a></td>
+</tr>
+<tr>
+<td>B 457-03-007</td>
+<td>M457 / TRANSFORMER / MOUNTING BRACKET</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M457/1977%20-%20457-03-007%20-%20TRANSFORMER%20MOUNTING%20BRACKET%20-%20DRN%20GEB%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 470-01-001</td>
+<td>M470 / INPUT MODULE / FUNCTIONAL DIAGRAM</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470/1977%20-%20470-01-001%20-%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20GEB%20-%20ENG%20RKB%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 470-01-002</td>
+<td>M470A / INPUT MODULE / FUNCTIONAL DIAGRAM</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470/1977%20-%20470-01-002%20-%20M470A%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20GEB%20-%20ENG%20RKB%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 475-01-001</td>
+<td>M475 / MONITOR MODULE / FUNCTIONAL DIAGRAM</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M475/1977%20-%20475-01-001%20-%20MONITOR%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20GEB%20-%20ENG%20RKB%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>D 470-03-100*</td>
+<td>M470 / INPUT MODULE / EXTRUSION</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RH.html">RH</a></td>
+<td>6</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470/1977%20-%20470-03-100%20-%20INPUT%20MODULE%20EXTRUSION%20-%20DRN%20GEB%20-%20ISS%206.jpg">file</a></td>
+</tr>
+<tr>
+<td>D 470-03-101</td>
+<td>M470 B&amp;C / INPUT MODULE / ESCUTCHEON</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RH.html">RH</a></td>
+<td>6</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470/1977%20-%20470-03-101%20-%20B%26C%20INPUT%20MODULE%20ESCUTCHEON%20-%20DRN%20GEB%20-%20ISS%206.jpg">file</a></td>
+</tr>
+<tr>
+<td>462-01-001</td>
+<td>Equalizer Modu</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M462/1978%20-%20M462%20-%20M562%20-%20Equalizer.pdf">file</a> p.29</td>
+</tr>
+<tr>
+<td>B 450-02-003</td>
+<td>M450B / PROGRAM/SUMMING AMPLIFIER / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1978%20-%20450-02-003%20-%20M450B%20PROGRAM%20SUMMING%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 463-06-001</td>
+<td>M463J / SUBMASTER MODULE / COMPONENT LAYOUT</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M463/1978%20-%20463-06-001%20-%20M463J%20SUBMASTER%20MODULE%20COMPONENT%20LAYOUT%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 473-01-001</td>
+<td>M473 / SUB-MASTER MODULE / FUNCTIONAL DIAGRAM</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>4</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M473/1978%20-%20473-01-001%20-%20SUB-MASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20GEB%20-%20ENG%20RKB%20-%20ISS%204.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 473-01-002</td>
+<td>M473A / SUB-MASTER MODULE / FUNCTIONAL DIAGRAM</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>4</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M473/1978%20-%20473-01-002%20-%20M473A%20SUB-MASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20GEB%20-%20ENG%20RKB%20-%20ISS%204.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 490-01-001</td>
+<td>MIC INPUT MODULE / FUNCTIONAL DIAGRAM</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490/1978%20-%20490-01-001%20-%20MIC%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 490-01-001</td>
+<td>M490A / MIC INPUT MODULE / FUNCTIONAL DIAGRAM</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490/1978%20-%20490-01-001%20-%20M490A%20MIC%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 490-01-001</td>
+<td>M490A / MIC INPUT MODULE / FUNCTIONAL DIAGRAM</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490/1978%20-%20490-01-001%20-%20M490A%20MIC%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%203%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 490-01-002</td>
+<td>M490B / MIC INPUT MODULE / FUNCTIONAL DIAGRAM</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490/1978%20-%20490-01-002%20-%20M490B%20MIC%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 490-01-003</td>
+<td>M490C / LINE INPUT MODULE / FUNCTIONAL DIAGRAM</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490/1978%20-%20490-01-003%20-%20M490C%20LINE%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 490-01-003</td>
+<td>M490C / LINE INPUT MODULE / FUNCTIONAL DIAGRAM</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490/1978%20-%20490-01-003%20-%20M490C%20LINE%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%203%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 490-01-004</td>
+<td>M490D / LINE INPUT MODULE / FUNCTIONAL DIAGRAM</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490/1978%20-%20490-01-004%20-%20M490D%20LINE%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 490-01-005</td>
+<td>M490E / STEREO INPUT MODULE / FUNCTIONAL DIAGRAM</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490/1978%20-%20490-01-005%20-%20M490E%20STEREO%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 490-01-006</td>
+<td>M490F / STEREO INPUT MODULE / FUNCTIONAL DIAGRAM</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490/1978%20-%20490-01-006%20-%20M490F%20STEREO%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 490-01-006</td>
+<td>M490F / STEREO INPUT MODULE / FUNCTIONAL DIAGRAM</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490/1978%20-%20490-01-006%20-%20M490F%20STEREO%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%203%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 490-04-011</td>
+<td>M490C / LINE INPUT MODULE / FRONT PANEL</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490/1978%20-%20490-04-011%20-%20M490C%20LINE%20INPUT%20MODULE%20FRONT%20PANEL%20-%20DRN%20GEB%20-%20ENG%20GEB.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 490-06-002</td>
+<td>M490A / MIC INPUT MODULE / COMPONENT LAYOUT</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>6</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490/1978%20-%20490-06-002%20-%20M490A%20MIC%20INPUT%20MODULE%20COMPONENT%20LAYOUT%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%206.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 490-06-004</td>
+<td>M490C / LINE INPUT MODULE / COMPONENT LAYOUT</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490/1978%20-%20490-06-004%20-%20M490C%20LINE%20INPUT%20MODULE%20COMPONENT%20LAYOUT%20-%20DRN%20GEB%20-%20ENG%20GEB.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 77024-04-003</td>
+<td>RADIO CONSOLE / DESK CUTOUT DETAIL</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RNL.html">RNL</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/77024/1978%20-%2077024-04-003%20-%20RADIO%20CONSOLE%20DESK%20CUTOUT%20DETAIL%20-%20DRN%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 77024-04-004</td>
+<td>RADIO CONSOLE / DESK CUTOUT DETAIL</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/77024/1978%20-%2077024-04-004%20-%20RADIO%20CONSOLE%20DESK%20CUTOUT%20DETAIL%20-%20DRN%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 8-109-02-001</td>
+<td>BOOSTER AMPLIFIER / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460A/1978%20-%208-109-02-001%20-%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 8-109-02-001</td>
+<td>8-109 / BOOSTER AMPLIFIER / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460M/1978%20-%208-109-02-001%20-%208-109%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 8-109-02-001</td>
+<td>8-109 / BOOSTER AMPLIFIER / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M465/1978%20-%208-109-02-001%20-%208-109%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 8-109-02-002</td>
+<td>8-109A OUTPUT AMPLIFIER / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RNL.html">RNL</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460A/1978%20-%208-109-02-002%20-%208-109A%20OUTPUT%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 8-109-02-002</td>
+<td>8-109A OUTPUT AMPLIFIER / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RNL.html">RNL</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M463/1978%20-%208-109-02-002%20-%208-109A%20OUTPUT%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 8-109-02-002</td>
+<td>8-109A / OUTPUT AMPLIFIER / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1978%20-%208-109-02-002%20-%208-109A%20OUTPUT%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 8-109-02-002</td>
+<td>8-109A / OUTPUT AMPLIFIER / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1978%20-%208-109-02-002%20-%208-109A%20OUTPUT%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 8-109-02-002</td>
+<td>8-109 A / OUTPUT AMPLIFIER / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M463L/1978%20-%208-109-02-002%20-%208-109%20A%20OUTPUT%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 8-109-02-003</td>
+<td>8-109B / BOOSTER AMPLIFIER / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471A/1978%20-%208-109-02-003%20-%208-109B%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 8-109-02-004</td>
+<td>8-109C / BOOSTER AMPLIFIER / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M465/1978%20-%208-109-02-004%20-%208-109C%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 8-109-02-005</td>
+<td>8-109D / OUTPUT AMPLIFIER / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M466/1978%20-%208-109-02-005%20-%208-109D%20OUTPUT%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 8-109-02-006</td>
+<td>8-109E BOOSTER AMPLIFIER / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%208-109-02-006%20-%208-109E%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 8-109-02-006</td>
+<td>8-109E / BOOSTER AMPLIFIER / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1978%20-%208-109-02-006%20-%208-109E%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>B 8-109-02-007</td>
+<td>8-109F BOOSTER AMPLIFIER / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RNL.html">RNL</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M463/1978%20-%208-109-02-007%20-%208-109F%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 8-109-02-007</td>
+<td>8-109F / BOOSTER AMPLIFIER / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1978%20-%208-109-02-007%20-%208-109F%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 8-109-02-007</td>
+<td>8-109F / BOOSTER AMPLIFIER / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M463L/1978%20-%208-109-02-007%20-%208-109F%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 8-109-02-007</td>
+<td>8-109F / BOOSTER AMPLIFIER / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1978%20-%208-109-02-007%20-%208-109F%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>B 80-11-2</td>
+<td>POWER TRANSFORMER / TYPE 80-11-2</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>6</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1978%20-%20B%2080-11-2%20-%20POWER%20TRANSFORMER%20TYPE%2080-11-2%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%206.png">file</a></td>
+</tr>
+<tr>
+<td>B 80-21</td>
+<td>POWER TRANSFORMER / TYPE 80-21</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>4</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1978%20-%20B%2080-21%20-%20POWER%20TRANSFORMER%20TYPE%2080-21%20-%20DRN%20GEB%20-%20ENG%20RKB%20-%20ISS%204.png">file</a></td>
+</tr>
+<tr>
+<td>B 80-23</td>
+<td>POWER TRANSFORMER / TYPE 80-23</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1978%20-%20B%2080-23%20-%20POWER%20TRANSFORMER%20TYPE%2080-23%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%203.png">file</a></td>
+</tr>
+<tr>
+<td>B 80-11-2</td>
+<td>POWER TRANSFORMER / TYPE 80-11-2</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RM.html">RM</a></td>
+<td>6</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1979%20-%20B%2080-11-2%20-%20POWER%20TRANSFORMER%20TYPE%2080-11-2%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%206.png">file</a></td>
+</tr>
+<tr>
+<td>B 80-25</td>
+<td>80-25 / POWER TRANSFORMER</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1979%20-%20B%2080-25%20-%2080-25%20POWER%20TRANSFORMER%20-%20DRN%20GEB%20-%20ENG%20RKB%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>B 80-9</td>
+<td>80-9 / POWER TRANSFORMER</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>4</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1979%20-%20B%2080-9%20-%2080-9%20POWER%20TRANSFORMER%20-%20DRN%20GEB%20-%20ENG%20RKB%20-%20ISS%204.png">file</a></td>
+</tr>
+<tr>
+<td>LB 605-02-003</td>
+<td>M605A / AUDIO DISTRIBUTION AMPLIFIER / SYSTEM WIRING SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M605/1979%20-%20605-02-003%20-%20M605A%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20SYSTEM%20WIRING%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 624-02-001</td>
+<td>24V POWER SUPPLY / SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1979%20-%20624-02-001%20-%2024V%20POWER%20SUPPLY%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 207-03-001</td>
+<td>COVER PLATE</td>
+<td><a href="Year-1981.html">1981|14</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/POWER/M207/1981%20-%20207-03-001%20-%20COVER%20PLATE%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 469-02-005</td>
+<td>M469E / ASSIGNMENT MODULE / SCHEMATIC</td>
+<td><a href="Year-1981.html">1981|14</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M469/1981%20-%20469-02-005%20-%20M469E%20ASSIGNMENT%20MODULE%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB.png">file</a></td>
+</tr>
+<tr>
+<td>B 479-06-001</td>
+<td>M479 / DUAL AUXILIARY MODULE / LAYOUT</td>
+<td><a href="Year-1982.html">1982|15</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>4</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M479/1982%20-%20479-06-001%20-%20DUAL%20AUXILIARY%20MODULE%20LAYOUT%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%204.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 773-03-004</td>
+<td>M773/M773A / FISH PAPER / COVER</td>
+<td><a href="Year-1982.html">1982|15</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M773/1982%20-%20773-03-004%20-%20M773A%20FISH%20PAPER%20COVER%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 60-11</td>
+<td>60-11 / INPUT TRANSFORMER</td>
+<td><a href="Year-1983.html">1983|16</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1983%20-%20B%2060-11%20-%2060-11%20INPUT%20TRANSFORMER%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%202.png">file</a></td>
+</tr>
+<tr>
+<td>B 80-23-2</td>
+<td>80-23-2 / POWER TRANSFORMER</td>
+<td><a href="Year-1983.html">1983|16</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1983%20-%20B%2080-23-2%20-%2080-23-2%20POWER%20TRANSFORMER%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>B 80-23-2</td>
+<td>80-23-2 / POWER TRANSFORMER</td>
+<td><a href="Year-1983.html">1983|16</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1983%20-%20B%2080-23-2%20-%2080-23-2%20POWER%20TRANSFORMER%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201%20%282%29.png">file</a></td>
+</tr>
+<tr>
+<td>B 80-26-2</td>
+<td>80-26-2 / POWER TRANSFORMER</td>
+<td><a href="Year-1983.html">1983|16</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1983%20-%20B%2080-26-2%20-%2080-26-2%20POWER%20TRANSFORMER%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%203.png">file</a></td>
+</tr>
+<tr>
+<td>B 80-28</td>
+<td>80-28 / POWER TRANSFORMER</td>
+<td><a href="Year-1983.html">1983|16</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1983%20-%20B%2080-28%20-%2080-28%20POWER%20TRANSFORMER%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%202.png">file</a></td>
+</tr>
+<tr>
+<td>B 80-30</td>
+<td>80-30 / POWER TRANSFORMER</td>
+<td><a href="Year-1983.html">1983|16</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1983%20-%20B%2080-30%20-%2080-30%20POWER%20TRANSFORMER%20-%20DRN%20GEB%20-%20ENG%20RKB%20-%20ISS%203.png">file</a></td>
+</tr>
+<tr>
+<td>B 80-31</td>
+<td>80-31 / POWER TRANSFORMER</td>
+<td><a href="Year-1983.html">1983|16</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1983%20-%20B%2080-31%20-%2080-31%20POWER%20TRANSFORMER%20-%20DRN%20GEB%20-%20ENG%20RKB%20-%20ISS%203.png">file</a></td>
+</tr>
+<tr>
+<td>B 80-32</td>
+<td>POWER TRANSFORMER / TYPE 80-32</td>
+<td><a href="Year-1983.html">1983|16</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1983%20-%20B%2080-32%20-%20POWER%20TRANSFORMER%20TYPE%2080-32%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%202.png">file</a></td>
+</tr>
+<tr>
+<td>B 805-03-001</td>
+<td>M805D/E &amp; M806D/E / CARD MOUNTING PLATE</td>
+<td><a href="Year-1983.html">1983|16</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M805/1983%20-%20805-03-001%20-%20M805D%20E%20%26%20M806D%20E%20CARD%20MOUNTING%20PLATE%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 805-03-003</td>
+<td>M805D/E / HEATSINK</td>
+<td><a href="Year-1983.html">1983|16</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M805/1983%20-%20805-03-003%20-%20M805D%20E%20HEATSINK%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 9666</td>
+<td>PENNY &amp; GILES / "NEW" / SINGLE FADER SHIM</td>
+<td><a href="Year-1983.html">1983|16</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1983%20-%20B%209666%20-%20PENNY%20%26%20GILES%20-NEW-%20SINGLE%20FADER%20SHIM%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>A 9362</td>
+<td>MOUNTING BLOCK / USED ON / SUPPORT BAR (MISC)</td>
+<td><a href="Year-1984.html">1984|17</a></td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td>4</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1984%20-%20A%209362%20-%20MOUNTING%20BLOCK%20USED%20ON%20SUPPORT%20BAR%20%28MISC%29%20-%20DRN%20J%20-%20ISS%204.png">file</a></td>
+</tr>
+<tr>
+<td>B 467-03-006</td>
+<td>TRIM POT MTG. BRACKET / USED ON M467F</td>
+<td><a href="Year-1984.html">1984|17</a></td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M467/1984%20-%20467-03-006%20-%20TRIM%20POT%20MTG.%20BRACKET%20USED%20ON%20M467F%20-%20DRN%20J%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 702-03-001</td>
+<td>M702B HEATSINK</td>
+<td><a href="Year-1984.html">1984|17</a></td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td>5</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/1984%20-%20702-03-001%20-%20M702B%20HEATSINK%20-%20CKD%20GEB%20-%20ISS%205.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 80-21</td>
+<td>POWER TRANSFORMER / TYPE 80-21</td>
+<td><a href="Year-1984.html">1984|17</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td>BUD</td>
+<td>4</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1984%20-%20B%2080-21%20-%20POWER%20TRANSFORMER%20TYPE%2080-21%20-%20DRN%20GEB%20-%20ENG%20RKB%20-%20ISS%204.png">file</a></td>
+</tr>
+<tr>
+<td>B 77012-01-004</td>
+<td>WBS L2042 CONSOLE (STEREO VERSION B) / FUNCTIONAL</td>
+<td><a href="Year-1985.html">1985|18</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/77012%20-%2004-002%20L2042%20layout%20iss%205/1985%20-%2077012-01-004%20-%20WBS%20L2042%20CONSOLE%20%28STEREO%20VERSION%20B%29%20FUNCTIONAL%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 77012-04-011</td>
+<td>WBS L2042 CONSOLE (STEREO VERSION B) / LAYOUT</td>
+<td><a href="Year-1985.html">1985|18</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/77012%20-%2004-002%20L2042%20layout%20iss%205/1985%20-%2077012-04-011%20-%20WBS%20L2042%20CONSOLE%20%28STEREO%20VERSION%20B%29%20LAYOUT%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 80-26-2</td>
+<td>80-26-2 POWER TRANSFORMER</td>
+<td><a href="Year-1985.html">1985|18</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1985%20-%20B%2080-26-2%20-%2080-26-2%20POWER%20TRANSFORMER%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%203.png">file</a></td>
+</tr>
+<tr>
+<td>B 80-26-3</td>
+<td>80-26-3 POWER TRANSFORMER</td>
+<td><a href="Year-1985.html">1985|18</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RM.html">RM</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1985%20-%20B%2080-26-3%20-%2080-26-3%20POWER%20TRANSFORMER%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>B 405-03-052</td>
+<td>FISH PAPER COVER</td>
+<td><a href="Year-1986.html">1986|19</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/METER/M405/1986%20-%20405-03-052%20-%20FISH%20PAPER%20COVER%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B ?-02-006</td>
+<td>M451 INPUT MODULE / SCHEMATIC</td>
+<td><a href="Year-1986.html">1986|19</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RB.html">RB (Rodger Beck)</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M451/1986%20-%20B%20--02-006%20-%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20GEB.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 498-03-008</td>
+<td>M498D / EXTRUSION DETAIL</td>
+<td><a href="Year-1987.html">1987|20</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M498/1987%20-%20498-03-008%20-%20M498D%20EXTRUSION%20DETAIL%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 60-16</td>
+<td>60-16 / INPUT TRANSFORMER / (BEYER TR/BV-351-005-003)</td>
+<td><a href="Year-1987.html">1987|20</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1987%20-%20B%2060-16%20-%2060-16%20INPUT%20TRANSFORMER%20%28BEYER%20TR%20BV-351-005-003%29%20-%20DRN%20GEB%20-%20ISS%202.png">file</a></td>
+</tr>
+<tr>
+<td>B 805-03-002</td>
+<td>M805D/E / FISH PAPER / COVER</td>
+<td><a href="Year-1987.html">1987|20</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M805/1987%20-%20805-03-002%20-%20M805D%20E%20FISH%20PAPER%20COVER%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 8205-03-005</td>
+<td>INSULATING WAFER (USED ON PCB 14-147 &amp; 14-148)</td>
+<td><a href="Year-1987.html">1987|20</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8205/1987%20-%208205-03-005%20-%20INSULATING%20WAFER%20%28USED%20ON%20PCB%2014-147%20%26%2014-148%29%20-%20DRN%20GEB%20-%20ENG%20GEB%20MAY%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>B 80-44</td>
+<td>80-44 / SWITCHMODE POWER TRANSFORMER</td>
+<td><a href="Year-1988.html">1988|21</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1988%20-%20B%2080-44%20-%2080-44%20SWITCHMODE%20POWER%20TRANSFORMER%20-%20DRN%20GEB%20-%20ISS%202.png">file</a></td>
+</tr>
+<tr>
+<td>B 80-44</td>
+<td>80-44 / SWITCHMODE POWER TRANSFORMER</td>
+<td><a href="Year-1988.html">1988|21</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1988%20-%20B%2080-44%20-%2080-44%20SWITCHMODE%20POWER%20TRANSFORMER%20-%20DRN%20GEB%20-%20ISS%202%20%282%29.png">file</a></td>
+</tr>
+<tr>
+<td>B 8000-03-005</td>
+<td>COVER</td>
+<td><a href="Year-1988.html">1988|21</a></td>
+<td><a href="Person-DS.html">DS</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1988%20-%208000-03-005%20-%20COVER%20-%20DRN%20DS%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 8224-03-004</td>
+<td>END CAP</td>
+<td><a href="Year-1988.html">1988|21</a></td>
+<td><a href="Person-DS.html">DS</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1988%20-%208224-03-004%20-%20END%20CAP%20-%20DRN%20DS%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>B 8224-03-005</td>
+<td>COVERS</td>
+<td><a href="Year-1988.html">1988|21</a></td>
+<td><a href="Person-DS.html">DS</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1988%20-%208224-03-005%20-%20COVERS%20-%20DRN%20DS%20-%20ISS%202.png">file</a></td>
+</tr>
+<tr>
+<td>B 9773</td>
+<td>FADER BACKING PLATES / (USED TO MOUNT NEW STYLE FADER IN 'L' CONSOLES)</td>
+<td><a href="Year-1988.html">1988|21</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1988%20-%20B%209773%20-%20FADER%20BACKING%20PLATES%20%28USED%20TO%20MOUNT%20NEW%20STYLE%20FADER%20IN%20%27L%27%20CONSOLES%29%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>WBS 10-014</td>
+<td>WBS STANDARD PARTS / POTENTIOMETER / SINGLE 7K5 OHM RZ (B) TAPER</td>
+<td><a href="Year-1988.html">1988|21</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470/1988%20-%20WBS%2010-014%20-%20WBS%20STANDARD%20PARTS%20POTENTIOMETER%20SINGLE%207K5%20OHM%20RZ%20%28B%29%20TAPER%20-%20DRN%20GEB.jpg">file</a></td>
+</tr>
+<tr>
+<td>WBS 10-014</td>
+<td></td>
+<td><a href="Year-1988.html">1988|21</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>4</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1988%20-%20WBS%2010-014%20-%20DRN%20GEB%20-%20ISS%204.jpg">file</a></td>
+</tr>
+<tr>
+<td>WBS 10-015</td>
+<td></td>
+<td><a href="Year-1988.html">1988|21</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>4</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1988%20-%20WBS%2010-015%20-%20DRN%20GEB%20-%20ISS%204.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 497-03-007</td>
+<td>HEATSINK</td>
+<td><a href="Year-1989.html">1989|22</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497/1989%20-%20497-03-007%20-%20HEATSINK%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 80-26-3</td>
+<td>80-26-3 / POWER TRANSFORMER</td>
+<td><a href="Year-1989.html">1989|22</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1989%20-%20B%2080-26-3%20-%2080-26-3%20POWER%20TRANSFORMER%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>B 60-12</td>
+<td>60-12 / INPUT TRANSFORMER</td>
+<td><a href="Year-1990.html">1990|23</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1990%20-%20B%2060-12%20-%2060-12%20INPUT%20TRANSFORMER%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%202.png">file</a></td>
+</tr>
+<tr>
+<td>B 8-103-02-001</td>
+<td>LOAD TRANSFER CONTROL / SCHEMATIC</td>
+<td><a href="Year-1990.html">1990|23</a></td>
+<td><a href="Person-DRG.html">DRG</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td>4</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1990%20-%208-103-02-001%20-%20LOAD%20TRANSFER%20CONTROL%20SCHEMATIC%20-%20DRN%20DRG%20-%20ISS%204.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 900438-02-001</td>
+<td>INPUT CHANNELS 1 TO 3 SCHEMATIC</td>
+<td><a href="Year-1990.html">1990|23</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/900438%20-%20CHIN%20Radio/1990%20-%20900438-02-001%20-%20INPUT%20CHANNELS%201%20TO%203%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 900438-02-002</td>
+<td>INPUT CHANNELS 4 AND 5 SCHEMATIC</td>
+<td><a href="Year-1990.html">1990|23</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/900438%20-%20CHIN%20Radio/1990%20-%20900438-02-002%20-%20INPUT%20CHANNELS%204%20AND%205%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 900438-02-003</td>
+<td>INPUT CHANNELS 6 TO 14 SCHEMATIC</td>
+<td><a href="Year-1990.html">1990|23</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/900438%20-%20CHIN%20Radio/1990%20-%20900438-02-003%20-%20INPUT%20CHANNELS%206%20TO%2014%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 900438-02-004</td>
+<td>STEREO OUTPUT CHANNEL SCHEMATIC</td>
+<td><a href="Year-1990.html">1990|23</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/900438%20-%20CHIN%20Radio/1990%20-%20900438-02-004%20-%20STEREO%20OUTPUT%20CHANNEL%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 900438-02-005</td>
+<td>MONO OUTPUT CHANNEL SCHEMATIC</td>
+<td><a href="Year-1990.html">1990|23</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/900438%20-%20CHIN%20Radio/1990%20-%20900438-02-005%20-%20MONO%20OUTPUT%20CHANNEL%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 900438-02-006</td>
+<td>AUXILIARY CHANNEL SCHEMATIC</td>
+<td><a href="Year-1990.html">1990|23</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/900438%20-%20CHIN%20Radio/1990%20-%20900438-02-006%20-%20AUXILIARY%20CHANNEL%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 900438-02-007</td>
+<td>MONITOR SCHEMATIC</td>
+<td><a href="Year-1990.html">1990|23</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/900438%20-%20CHIN%20Radio/1990%20-%20900438-02-007%20-%20MONITOR%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 900438-02-008</td>
+<td>MONITOR SELECTOR SCHEMATIC</td>
+<td><a href="Year-1990.html">1990|23</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/900438%20-%20CHIN%20Radio/1990%20-%20900438-02-008%20-%20MONITOR%20SELECTOR%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 900438-02-009</td>
+<td>LINE SELECTORS SCHEMATIC</td>
+<td><a href="Year-1990.html">1990|23</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/900438%20-%20CHIN%20Radio/1990%20-%20900438-02-009%20-%20LINE%20SELECTORS%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 900438-02-010</td>
+<td>TALKBACK SCHEMATIC</td>
+<td><a href="Year-1990.html">1990|23</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/900438%20-%20CHIN%20Radio/1990%20-%20900438-02-010%20-%20TALKBACK%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 900438-02-011</td>
+<td>CUE CHANNEL SCHEMATIC</td>
+<td><a href="Year-1990.html">1990|23</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/900438%20-%20CHIN%20Radio/1990%20-%20900438-02-011%20-%20CUE%20CHANNEL%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 900438-02-012</td>
+<td>METER PANEL SCHEMATIC</td>
+<td><a href="Year-1990.html">1990|23</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/900438%20-%20CHIN%20Radio/1990%20-%20900438-02-012%20-%20METER%20PANEL%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 900438-02-013</td>
+<td>OSCILLATOR SCHEMATIC</td>
+<td><a href="Year-1990.html">1990|23</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/900438%20-%20CHIN%20Radio/1990%20-%20900438-02-013%20-%20OSCILLATOR%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 900438-02-014</td>
+<td>INSERTION SWITCHER SCHEMATIC</td>
+<td><a href="Year-1990.html">1990|23</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/900438%20-%20CHIN%20Radio/1990%20-%20900438-02-014%20-%20INSERTION%20SWITCHER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 900438-02-015</td>
+<td>TIMER AND CLOCK SCHEMATIC</td>
+<td><a href="Year-1990.html">1990|23</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/900438%20-%20CHIN%20Radio/1990%20-%20900438-02-015%20-%20TIMER%20AND%20CLOCK%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 900438-02-016</td>
+<td>M625B / POWER SUPPLIES / SCHEMATIC</td>
+<td><a href="Year-1990.html">1990|23</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/900438%20-%20CHIN%20Radio/1990%20-%20900438-02-016%20-%20M625B%20POWER%20SUPPLIES%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 900438-04-011</td>
+<td>CHIN RADIO R1400 / EQUIPMENT LAYOUT</td>
+<td><a href="Year-1990.html">1990|23</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/900438%20-%20CHIN%20Radio/1990%20-%20900438-04-011%20-%20CHIN%20RADIO%20R1400%20EQUIPMENT%20LAYOUT%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 900438-04-011</td>
+<td>CHIN RADIO R1400 / EQUIPMENT LAYOUT</td>
+<td><a href="Year-1990.html">1990|23</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/900438%20-%20CHIN%20Radio/1990%20-%20900438-04-011%20-%20CHIN%20RADIO%20R1400%20EQUIPMENT%20LAYOUT%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>C 900573-04-001</td>
+<td>MASTER CLOCK / SYSTEM</td>
+<td><a href="Year-1990.html">1990|23</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/900573/1990%20-%20900573-04-001%20-%20MASTER%20CLOCK%20SYSTEM%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>D 900438-01-001</td>
+<td>CHIN RADIO R1400 / RADIO CONSOLE / AUDIO FUNCTIONAL</td>
+<td><a href="Year-1990.html">1990|23</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/900438%20-%20CHIN%20Radio/1990%20-%20900438-01-001%20-%20CHIN%20RADIO%20R1400%20RADIO%20CONSOLE%20AUDIO%20FUNCTIONAL%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>D 900438-01-002</td>
+<td>CHIN RADIO R1400 / RADIO CONSOLE / DC FUNCTIONAL</td>
+<td><a href="Year-1990.html">1990|23</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/900438%20-%20CHIN%20Radio/1990%20-%20900438-01-002%20-%20CHIN%20RADIO%20R1400%20RADIO%20CONSOLE%20DC%20FUNCTIONAL%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>D 900438-01-002</td>
+<td>CHIN RADIO R1400 / RADIO CONSOLE / DC FUNCTIONAL</td>
+<td><a href="Year-1990.html">1990|23</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/900438%20-%20CHIN%20Radio/1990%20-%20900438-01-002%20-%20CHIN%20RADIO%20R1400%20RADIO%20CONSOLE%20DC%20FUNCTIONAL%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>D 900438-04-001</td>
+<td>CHIN RADIO R1400 / RADIO CONSOLE / OUTLINE &amp; LAYOUT</td>
+<td><a href="Year-1990.html">1990|23</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/900438%20-%20CHIN%20Radio/1990%20-%20900438-04-001%20-%20CHIN%20RADIO%20R1400%20RADIO%20CONSOLE%20OUTLINE%20%26%20LAYOUT%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>D 930177-01-002</td>
+<td>TORONTO BROADCAST CENTRE / ANNOUNCE BOOTH / DISTRIBUTION FUNCTIONAL</td>
+<td><a href="Year-1993.html">1993|26</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/930177%20-%20TORONTO%20BROADCAST%20CENTRE/1993%20-%20930177-01-002%20-%20TORONTO%20BROADCAST%20CENTRE%20ANNOUNCE%20BOOTH%20DISTRIBUTION%20FUNCTIONAL%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>D 960134-04-005</td>
+<td>96x96 MicroCOM II / MATRIX AND CONTROL FRAME / REAR WIRING LAYOUTS</td>
+<td><a href="Year-1996.html">1996|29</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/960134/1996%20-%20960134-04-005%20-%2096x96%20MicroCOM%20II%20MATRIX%20AND%20CONTROL%20FRAME%20REAR%20WIRING%20LAYOUTS%20-%20DRN%20GEB%20-%20ENG%20SM%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>D ABB-M1</td>
+<td>ABB-1 / WARD-BECK AND LINDOS / ENCLOSURE</td>
+<td><a href="Year-1999.html">1999|32</a></td>
+<td></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1999%20-%20D%20ABB-M1%20-%20ABB-1%20WARD-BECK%20AND%20LINDOS%20ENCLOSURE%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Relay Relay Relay Layqut</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%20RELAY%20RELAY%20RELAY%20LAYQUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Out Put Amplifier</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460A/1979%20-%20M460A%20-%20Input%20Module.pdf">file</a> p.45</td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460B/1976%20-%20M460B%20-%20Input%20Module%20%282%29.pdf">file</a> p.40</td>
+</tr>
+<tr>
+<td>—</td>
+<td>Ware-Beck Syste</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M475/1977%20-%20M475%20-%20Monitor%20Module.pdf">file</a> p.14</td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M464/1976%20-%20M464%20-%20HP%20LP%20Filter%20%282%29.pdf">file</a> p.26</td>
+</tr>
+<tr>
+<td>—</td>
+<td>Ect Pi- At-J</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20Power%20Supply.pdf">file</a> p.9</td>
+</tr>
+<tr>
+<td>—</td>
+<td>Ect Pi- At-J</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20Power%20Supply%20%282%29.pdf">file</a> p.9</td>
+</tr>
+<tr>
+<td>—</td>
+<td>Lla Component Layout</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M463LA/1974%20-%20M463LA%20-%20Submaster%20Module%20%282%29.pdf">file</a> p.59</td>
+</tr>
+<tr>
+<td>—</td>
+<td>Functi Onal Dia Gram</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M473A/1977%20-%20M473A%20-%20Submaster%20Module%20%282%29.pdf">file</a> p.22</td>
+</tr>
+<tr>
+<td>—</td>
+<td>Submaster Module Functiona</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20Submaster%20Module%20%282%29.pdf">file</a> p.19</td>
+</tr>
+<tr>
+<td>—</td>
+<td>Lla Component Layout</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20Submaster%20Module%20%282%29.pdf">file</a> p.32</td>
+</tr>
+<tr>
+<td>—</td>
+<td>Booster Amplifier</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20Dual%20Master%20Module%20%282%29.pdf">file</a> p.23</td>
+</tr>
+<tr>
+<td>—</td>
+<td>Lla Component Layout</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M463L/1974%20-%20M463L%20-%20Submaster%20Module%20%282%29.pdf">file</a> p.59</td>
+</tr>
+<tr>
+<td>—</td>
+<td>Lla Component Layout</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M463AC/1986%20-%20M463AC%20-%20Master%20Module%20%282%29.pdf">file</a> p.33</td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M608/1975%20-%20M608%20-%20Audio%20DA%20%282%29.pdf">file</a> p.26</td>
+</tr>
+<tr>
+<td>—</td>
+<td>Ans Is'T</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M608/1975%20-%20M608%20-%20Audio%20DA%20%282%29.pdf">file</a> p.27</td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M467/1985%20-%20M467%20-%20M567%20-%20Noise%20Gate%20and%20Meter%20Module.pdf">file</a> p.30</td>
+</tr>
+<tr>
+<td>—</td>
+<td>Control External Peak Calibration Peak Indicator</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470/1977%20-%20M470%20-%20Input%20Module%20-%20User%20Guide.pdf">file</a> p.2</td>
+</tr>
+<tr>
+<td>—</td>
+<td>Booster Amplifier Schematic</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>8</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M473A/1977%20-%20M473A%20-%20Submaster%20Module.pdf">file</a> p.29</td>
+</tr>
+<tr>
+<td>—</td>
+<td>Sub Master Module Schematic</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M473A/1977%20-%20M473A%20-%20SUB%20MASTER%20MODULE%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Booster Amplifier Schematic</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RK.html">RK</a></td>
+<td>8</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M473A/1977%20-%20M473A%20-%20BOOSTER%20AMPLIFIER%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Booster Amplifier Schematic</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>U</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20BOOSTER%20AMPLIFIER%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Booster Amplifier Schematic</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RE.html">RE</a></td>
+<td>8</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M455/1974%20-%20M455%20-%208-109-02-004%20-%20NOMINAL%20VALUE.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Operation Connect Pi-</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1968%20-%20M624%20-%20OPERATION%20CONNECT%20PI.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Stereo Input Module Front Panel</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td>WUL</td>
+<td>90</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490F/1978%20-%20M490F%20-%20490-04-014%20-%20USED%20FOR%20IGNA%20PURPOSES%20FROM%20REMOTE%20LOCATION.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Booster Amplifier Schematic</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td>RIZ</td>
+<td>8</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M477/1979%20-%20M477%20-%20BOOSTER%20AMPLIFIER%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Ontrol External Peak Calibration Peak Indicator</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td>ZEL</td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470/1977%20-%20M470%20-%20ONTROL%20EXTERNAL%20PEAK%20CALIBRATION%20PEAK%20INDICATOR.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Booster Amplifier Schematic</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-REL.html">REL</a></td>
+<td>8</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497B/1983%20-%20M497B%20-%208-109-02-004%20-%20NOMINAL%20VALUE%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Booster Amplifier Schematic</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>8</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-02-007%20-%20NDMINAL%20VALUE.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Output Amplifier Schematic Issu Ioo</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RZ.html">RZ</a></td>
+<td>U</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M466/1976%20-%20M466%20-%20OUTPUT%20AMPLIFIER%20SCHEMATIC%20ISSU%20IOO.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Output Amplifier Schematic</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>8</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M463AB/1986%20-%20M463AB%20-%208-109-02-002%20-%20OUTPUT%20AMPLIFIER%20CKDAL%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Qioi Rios</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M608/1975%20-%20M608%20-%208-117-06-001.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Lamp Effects Levelctl Input Effects Levec</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td>EC</td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20459-02-002%20-%20LAMP%20LEVELCTL%20LEVEL.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Ssuel Revision Mon</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M466/19xx%20-%20M466%20-%20DOC%20-%20SSUEL%20REVISION%20MON.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Ras Mounting Bracket</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M451/19xx%20-%20M451%20-%20DOC%20-%20RAS%20MOUNTING%20BRACKET.png">file</a></td>
+</tr>
+<tr>
+<td>1400-04-003</td>
+<td>Issuei Datei Revision</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>I</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/900438%20-%20CHIN%20Radio/1990%20-%20900438%20-%201400-04-003%20-%20ISSUEI%20DATEI%20REVISION.jpg">file</a></td>
+</tr>
+<tr>
+<td>1400-04-004</td>
+<td></td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-LA.html">LA</a></td>
+<td>I</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/900438%20-%20CHIN%20Radio/1990%20-%20900438%20-%201400-04-004.jpg">file</a></td>
+</tr>
+<tr>
+<td>1400-04-010</td>
+<td></td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/900438%20-%20CHIN%20Radio/1990%20-%20900438%20-%201400-04-010.jpg">file</a></td>
+</tr>
+<tr>
+<td>207-02-001</td>
+<td>Commou Note</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/POWER/M207/1982%20-%20M207%20-%20Phantom%20Power%20Card.pdf">file</a> p.6</td>
+</tr>
+<tr>
+<td>207-02-001</td>
+<td>Commou Note</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/POWER/M207/1982%20-%20M207%20-%20207-02-001%20-%20COMMOU%20NOTE.jpg">file</a></td>
+</tr>
+<tr>
+<td>412-02-003</td>
+<td>Places Given Angles</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M416/1973%20-%20M416%20-%20412-02-003%20-%20PLACES%20GIVEN%20ANGLES.jpg">file</a></td>
+</tr>
+<tr>
+<td>450-02-003</td>
+<td>Programisumming Amplifier</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>U</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20Program%20-%20Summing%20Amplifier.pdf">file</a> p.13</td>
+</tr>
+<tr>
+<td>450-06-003</td>
+<td>Masob Eng</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>U</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20450-06-003%20-%20MASOB%20ENG.jpg">file</a></td>
+</tr>
+<tr>
+<td>462-01-001</td>
+<td>Equalizer Module Functional Diagram Fimish</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M462/1974%20-%20M462%20-%20M562%20-%20Equalizer.pdf">file</a> p.29</td>
+</tr>
+<tr>
+<td>462-01-003</td>
+<td>Boost/ Cut Boost/ Cut Boosti Cut Boost/ Cut</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-EUL.html">EUL</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M462B/1974%20-%20M462B%20-%20462-01-003%20-%20BOOST-%20CUT%20BOOST-%20CUT%20BOOSTI%20CUT%20BOOST-%20CUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>462-02-001</td>
+<td>Moo Ickd Used</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-EI.html">EI</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M462/1974%20-%20M462%20-%20462-02-001%20-%20MOO%20ICKD%20USED.jpg">file</a></td>
+</tr>
+<tr>
+<td>462-02-001</td>
+<td>Issmoo Icko Used</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td>PI</td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M462/1974%20-%20M462%20-%20462-02-001%20-%20ISSMOO%20ICKO%20USED.jpg">file</a></td>
+</tr>
+<tr>
+<td>462-02-001</td>
+<td>Equalizer Module Schematic</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-EI.html">EI</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M462/1974%20-%20M462%20-%20462-02-001%20-%20MOO%20ICKD%20USED.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-01-009</td>
+<td>Monitor Output Direct Output</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20463-01-009%20-%20MONITOR%20OUTPUT%20DIRECT%20OUTPUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-01-009</td>
+<td>Solo Solo Control Common Pre</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20Submaster%20Module.pdf">file</a> p.19</td>
+</tr>
+<tr>
+<td>463-01-009</td>
+<td>Solo Solo Control Common Solo</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20463-01-009%20-%20MONITOR%20OUTPUT%20DIRECT%20OUTPUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-02-009</td>
+<td>Nless Otherwise Specified</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RA.html">RA</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20463-02-009%20-%20NLESS%20OTHERWISE%20SPECIFIED.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-02-009</td>
+<td>Nless Otherwise Specified Component Designations</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20463-02-009%20-%20NLESS%20OTHERWISE%20SPECIFIED%20COMPONENT%20DESIGNATIONS.jpg">file</a></td>
+</tr>
+<tr>
+<td>463-02-009</td>
+<td>Subma Ster Module Schematic</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M463/19xx%20-%20M463%20-%20DOC%20-%20463-02-009%20-%20SUBMA%20STER%20MODULE%20SCHEMATIC.png">file</a></td>
+</tr>
+<tr>
+<td>463-02-009</td>
+<td>Ess Otherwise Specified</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%20463-02-009%20-%20NLESS%20OTHERWISE%20SPECIFIED.jpg">file</a></td>
+</tr>
+<tr>
+<td>466-06-002</td>
+<td>Bus Stereo Tie Noie For Component Layout See</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M466M/19xx%20-%20M466M%20-%20DOC%20-%20466-06-002%20-%20BUS%20STEREO%20TIE%20NOIE%20FOR%20COMPONENT%20LAYOUT%20SEE.png">file</a></td>
+</tr>
+<tr>
+<td>470-01-002</td>
+<td>Solo Control External Peak Calibration Peak Indicator</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module%20%282%29.pdf">file</a> p.18</td>
+</tr>
+<tr>
+<td>470-01-002</td>
+<td>Solo Control External Peak Calibration Peak Indicator</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20Input%20Module.pdf">file</a> p.18</td>
+</tr>
+<tr>
+<td>470-01-002</td>
+<td>Olo Control External Peak Calibration Peak Indicator</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/1977%20-%20M470A%20-%20470-01-002%20-%20OLO%20CONTROL%20EXTERNAL%20PEAK%20CALIBRATION%20PEAK%20INDICATOR.jpg">file</a></td>
+</tr>
+<tr>
+<td>473-01-001</td>
+<td>Waro-Beck Sys Tems</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M473/1984%20-%20M473%20-%20Submaster%20Module%20-%20User%20Guide%20%282%29.pdf">file</a> p.2</td>
+</tr>
+<tr>
+<td>473-01-001</td>
+<td>Sub-Master Module Functional Diagram</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M473/1984%20-%20M473%20-%20Submaster%20Module%20-%20User%20Guide.pdf">file</a> p.2</td>
+</tr>
+<tr>
+<td>473-01-001</td>
+<td>Sub-Master Module Functional Diagram</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M473/1984%20-%20M473%20-%20473-01-001%20-%20SUB-MASTER%20MODULE%20FUNCTIONAL%20DIAGRAM.jpg">file</a></td>
+</tr>
+<tr>
+<td>473-01-002</td>
+<td>Rol Common Solo Control</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-REU.html">REU</a></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M473A/1977%20-%20M473A%20-%20Submaster%20Module.pdf">file</a> p.22</td>
+</tr>
+<tr>
+<td>473-01-002</td>
+<td>Trols Modified Redrawn Revision</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RUU.html">RUU</a></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M473A/1977%20-%20M473A%20-%20473-01-002%20-%20TROLS%20MODIFIED%20REDRAWN%20REVISION.jpg">file</a></td>
+</tr>
+<tr>
+<td>475-01-001</td>
+<td>Muted Solo Solo/Tb Control Mute Mute Control Mute</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td>ALI</td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M475/1978%20-%20M475%20-%20Monitor%20Module.pdf">file</a> p.14</td>
+</tr>
+<tr>
+<td>475-01-001</td>
+<td>Muted Solo Sololtb Control Mute Mute Control Mute</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RL.html">RL</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M475/1977%20-%20M475%20-%20475-01-001%20-%20MUTED%20SOLO%20SOLOLTB%20CONTROL%20MUTE%20MUTE%20CONTROL%20MUTE.jpg">file</a></td>
+</tr>
+<tr>
+<td>475-02-001</td>
+<td>Monitor Module Schematic</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M475/19xx%20-%20M475%20-%20DOC%20-%20475-02-001%20-%20MONITOR%20MODULE%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>479-02-001</td>
+<td>Dual Auxiliary Module Schematic</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M479/19xx%20-%20M479%20-%20DOC%20-%20479-02-001%20-%20DUAL%20AUXILIARY%20MODULE%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>490-01-001</td>
+<td>Machine Controls Revised</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490A/1978%20-%20M490A%20-%20490-01-001%20-%20MACHINE%20CONTROLS%20REVISED.jpg">file</a></td>
+</tr>
+<tr>
+<td>490-01-001</td>
+<td>Machine Controls Revised</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490A/1978%20-%20M490A%20-%20490-01-001%20-%20MACHINE%20CONTROLS%20REVISED%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>490-01-001</td>
+<td>Istart Timer Reset Off Tally Off Istop</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490A/1978%20-%20M490A%20-%20490-01-001%20-%20MACHINE%20CONTROLS%20REVISED.jpg">file</a></td>
+</tr>
+<tr>
+<td>490-01-001</td>
+<td>Mic Input Module Functional Diagram</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RUB.html">RUB</a></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490A/1978%20-%20M490A%20-%20490-01-001%20-%20MACHINE%20CONTROLS%20REVISED%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>490-01-006</td>
+<td>Machine Controls Revised</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490F/1978%20-%20M490F%20-%20490-01-006%20-%20MACHINE%20CONTROLS%20REVISED.jpg">file</a></td>
+</tr>
+<tr>
+<td>490-01-006</td>
+<td>Machine Controls Revised</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490F/1983%20-%20M490F%20-%20Stereo%20Input%20Module.pdf">file</a> p.29</td>
+</tr>
+<tr>
+<td>490-01-006</td>
+<td>Istart Timer Reset Off Tally Offistop</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490F/1978%20-%20M490F%20-%20490-01-006%20-%20ISTART%20TIMER%20RESET%20OFF%20TALLY%20OFFISTOP.jpg">file</a></td>
+</tr>
+<tr>
+<td>490-01-006</td>
+<td>Istart Timer Reset Off Tally Offistop</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td>QSL</td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490F/1978%20-%20M490F%20-%20490-01-006%20-%20MACHINE%20CONTROLS%20REVISED.jpg">file</a></td>
+</tr>
+<tr>
+<td>490-02-002</td>
+<td>Crii Ilo Iok</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RA.html">RA</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490A/1978%20-%20M490A%20-%20490-02-002%20-%20CRII%20ILO%20IOK.jpg">file</a></td>
+</tr>
+<tr>
+<td>490-02-002</td>
+<td>Iok Swio Cut Zio</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>10</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490A/1978%20-%20M490A%20-%20490-02-002%20-%20IOK%20SWIO%20CUT%20ZIO.jpg">file</a></td>
+</tr>
+<tr>
+<td>490-02-005</td>
+<td>Crzo Adced</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490D/1978%20-%20M490D%20-%20schem-490-02-005.pdf">file</a></td>
+</tr>
+<tr>
+<td>490-02-006</td>
+<td>Riiz Iok Swio Att Cut Stereo Input Module</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490E/19xx%20-%20M490E%20-%20DOC%20-%20490-02-006%20-%20RIIZ%20IOK%20SWIO%20ATT%20CUT%20STEREO%20INPUT%20MODULE.jpg">file</a></td>
+</tr>
+<tr>
+<td>490-02-007</td>
+<td>Riie Iook</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490F/1978%20-%20M490F%20-%20490-02-007%20-%20RIIE%20IOOK.jpg">file</a></td>
+</tr>
+<tr>
+<td>490-03-001</td>
+<td>Input Module Exteusion Issu</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>U</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490/19xx%20-%20M490%20-%20DOC%20-%20490-03-001%20-%20INPUT%20MODULE%20EXTEUSION%20ISSU.jpg">file</a></td>
+</tr>
+<tr>
+<td>490-03-004</td>
+<td>With White Epext</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>D</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490A/19xx%20-%20M490A%20-%20DOC%20-%20490-03-004%20-%20WITH%20WHITE%20EPEXT.jpg">file</a></td>
+</tr>
+<tr>
+<td>490-03-006</td>
+<td>Free From Marks And Scratches Detail Retail</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>D</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490/1978%20-%20M490%20-%20490-03-006%20-%20FREE%20FROM%20MARKS%20AND%20SCRATCHES%20DETAIL%20RETAIL.jpg">file</a></td>
+</tr>
+<tr>
+<td>490-04-009</td>
+<td>Igna Purposes From Remote Emfocst Ion' Related</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td>RLX</td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490A/1978%20-%20M490A%20-%20490-04-009%20-%20IGNA%20PURPOSES%20FROM%20REMOTE%20EMFOCST%20ION%27%20RELATED.jpg">file</a></td>
+</tr>
+<tr>
+<td>490-04-009</td>
+<td>Used For Igna Purposes From Remote Ocation</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RUX.html">RUX</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490A/1978%20-%20M490A%20-%20490-04-009%20-%20USED%20FOR%20IGNA%20PURPOSES%20FROM%20REMOTE%20OCATION.jpg">file</a></td>
+</tr>
+<tr>
+<td>490-04-009</td>
+<td>Moceanaey Switch The Progran Channe</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RUX.html">RUX</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490A/1978%20-%20M490A%20-%20490-04-009%20-%20USED%20FOR%20IGNA%20PURPOSES%20FROM%20REMOTE%20OCATION.jpg">file</a></td>
+</tr>
+<tr>
+<td>490-04-014</td>
+<td>Used For Igna Purposes From Remote Location</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490F/1978%20-%20M490F%20-%20490-04-014%20-%20USED%20FOR%20IGNA%20PURPOSES%20FROM%20REMOTE%20LOCATION.jpg">file</a></td>
+</tr>
+<tr>
+<td>605-02-003</td>
+<td>Audio Distribution Amplifier System Wiring Schematic</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M605A/1987%20-%20M605A%20-%20Audio%20DA.pdf">file</a> p.23</td>
+</tr>
+<tr>
+<td>605-02-003</td>
+<td>Mgosa Audio Distribution Amplifier System Wiring Schematic</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td>NEL</td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M605A/1987%20-%20M605A%20-%20605-02-003%20-%20MGOSA%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20SYSTEM%20WIRING%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>624-02-001</td>
+<td>Operation Conniect Pi-</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1979%20-%20M624%20-%20Power%20Supply%20%282%29.pdf">file</a> p.9</td>
+</tr>
+<tr>
+<td>66-02-003</td>
+<td>Bus Stereo Tie Nqie For Component Layout See</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M466M/1976%20-%20M466M%20-%20Meter%20Module.pdf">file</a> p.2</td>
+</tr>
+<tr>
+<td>7-112-06-001</td>
+<td>Channel Amplifier Component Layout</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RUL.html">RUL</a></td>
+<td>U</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490F/1978%20-%20M490F%20-%207-112-06-001%20-%20CHANNEL%20AMPLIFIER%20COMPONENT%20LAYOUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>701-02-001</td>
+<td>And Remove Strap Between Pins And</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/1977%20-%20M703%20-%20701-02-001%20-%20AND%20REMOVE%20STRAP%20BETWEEN%20PINS%20AND.jpg">file</a></td>
+</tr>
+<tr>
+<td>773-03-004</td>
+<td>Dia Maierial Fish Parer</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M773/19xx%20-%20M773%20-%20DOC%20-%20773-03-004%20-%20DIA%20MAIERIAL%20FISH%20PARER.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-001</td>
+<td>Issudate Revision</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-REL.html">REL</a></td>
+<td>8</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460B/1976%20-%20M460B%20-%208-109-02-001%20-%20ISSUDATE%20REVISION.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-001</td>
+<td></td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460B/1976%20-%20M460B%20-%208-109-02-001.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-001</td>
+<td>Nominal Value</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>R</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460M/1974%20-%20M460M%20-%208-109-02-001%20-%20NOMINAL%20VALUE.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-001</td>
+<td>Nominal Value</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>8</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460B/1976%20-%20M460B%20-%208-109-02-001.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-001</td>
+<td>Booster Amplifier Schematic</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>8</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460A/1976%20-%20M460A%20-%208-109-02-001%20-%20NCMINAL%20VALUE.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-001</td>
+<td>Booster Amplifier Schematic</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td>EEL</td>
+<td>8</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460M/1974%20-%20M460M%20-%208-109-02-001%20-%20NOMINAL%20VALUE.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-001</td>
+<td>Booster Amplifier Schematic</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RU.html">RU</a></td>
+<td>8</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460M/1974%20-%20M460M%20-%208-109-02-001%20-%20NOMINAL%20VALUE%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-002</td>
+<td>Output Amplifier Ckde</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>8</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460A/1976%20-%20M460A%20-%208-109-02-002%20-%20OUTPUT%20AMPLIFIER%20CKDE.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-002</td>
+<td>Output Amplifier</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460M/1974%20-%20M460M%20-%208-109-02-002%20-%20OUTPUT%20AMPLIFIER.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-002</td>
+<td>Output Amplifier Ckdeal Schematic</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%208-109-02-002%20-%20OUTPUT%20AMPLIFIER%20CKDEAL%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-002</td>
+<td>Nominal Value</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-EAZ.html">EAZ</a></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-02-002%20-%20NOMINAL%20VALUE.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-002</td>
+<td>Output Amplifier Ckdal Schematic</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M463AB/1986%20-%20M463AB%20-%208-109-02-002%20-%20OUTPUT%20AMPLIFIER%20CKDAL%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-002</td>
+<td>Output Amplifier</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460M/1974%20-%20M460M%20-%208-109-02-002%20-%20OUTPUT%20AMPLIFIER%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-002</td>
+<td>Output Amplifier Schematic</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>8</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460A/1976%20-%20M460A%20-%208-109-02-002%20-%20OUTPUT%20AMPLIFIER%20CKDE.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-002</td>
+<td>Output Amplifier Schematic</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-ELZ.html">ELZ</a></td>
+<td>8</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460M/1974%20-%20M460M%20-%208-109-02-002%20-%20OUTPUT%20AMPLIFIER.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-002</td>
+<td>Output Amplifier Schematic</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-EAZ.html">EAZ</a></td>
+<td>8</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-02-002%20-%20NOMINAL%20VALUE.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-002</td>
+<td>Output Amplifier Schematic</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>8</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460M/1974%20-%20M460M%20-%208-109-02-002%20-%20OUTPUT%20AMPLIFIER%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-003</td>
+<td>Issuedate Revision</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td>PUN</td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471A/1985%20-%20M471A%20-%208-109-02-003%20-%20ISSUEDATE%20REVISION.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-004</td>
+<td>Nominal Value</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RAL.html">RAL</a></td>
+<td>8</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M455/1974%20-%20M455%20-%208-109-02-004%20-%20NOMINAL%20VALUE.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-004</td>
+<td>Nominal Value</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RZ.html">RZ</a></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497B/1983%20-%20M497B%20-%208-109-02-004%20-%20NOMINAL%20VALUE%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-006</td>
+<td>Revision Nominal Value</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%208-109-02-006%20-%20REVISION%20NOMINAL%20VALUE.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-006</td>
+<td>Revision Nominal Value</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>8</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497A/1978%20-%20M497A%20-%208-109-02-006%20-%20REVISION%20NOMINAL%20VALUE.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-007</td>
+<td>Ndminal Value</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td>ZT</td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%208-109-02-007%20-%20NDMINAL%20VALUE.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-007</td>
+<td>Ndminal Value</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M463/1972%20-%20M463%20-%208-109-02-007%20-%20NDMINAL%20VALUE.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-007</td>
+<td>Ndminal Value</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M463AB/1986%20-%20M463AB%20-%208-109-02-007%20-%20NDMINAL%20VALUE.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-007</td>
+<td>Booster Amplifier Schematic</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td>TA</td>
+<td>8</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M463J/1972%20-%20M463J%20-%208-109-02-007%20-%20NDMINAL%20VALUE.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-02-007</td>
+<td>Booster Amplifier Schematic</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td>RTA</td>
+<td>8</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M463AB/1986%20-%20M463AB%20-%208-109-02-007%20-%20NDMINAL%20VALUE.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-06-001</td>
+<td>Rylu Component Layout</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460B/1976%20-%20M460B%20-%208-109-06-001%20-%20RYLU%20COMPONENT%20LAYOUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-06-001</td>
+<td>Booster Amplifier</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RZK.html">RZK</a></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460A/1976%20-%20M460A%20-%208-109-06-001%20-%20BOOSTER%20AMPLIFIER.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-06-001</td>
+<td>Booster Amplifier</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RZK.html">RZK</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460M/1974%20-%20M460M%20-%208-109-06-001%20-%20BOOSTER%20AMPLIFIER.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-06-001</td>
+<td>Booster Amplifier Component Layout</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>8</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460A/1976%20-%20M460A%20-%20Input%20Module.pdf">file</a> p.43</td>
+</tr>
+<tr>
+<td>8-109-06-001</td>
+<td>Booster Amplifier Component Layout</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td>RYY</td>
+<td>8</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460B/1976%20-%20M460B%20-%20Input%20Module.pdf">file</a> p.38</td>
+</tr>
+<tr>
+<td>8-109-06-001</td>
+<td>Booster Amplifier Component Layout</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-REL.html">REL</a></td>
+<td>8</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460B/1976%20-%20M460B%20-%208-109-06-001%20-%20RYLU%20COMPONENT%20LAYOUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-06-001</td>
+<td>Booster Amplifier Component Layout</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460A/1976%20-%20M460A%20-%208-109-06-001%20-%20BOOSTER%20AMPLIFIER.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-06-001</td>
+<td>Booster Amplifier Component Layout</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td>RZU</td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460M/1974%20-%20M460M%20-%208-109-06-001%20-%20BOOSTER%20AMPLIFIER.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-06-001</td>
+<td>Booster Amplifier Component Layout</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460M/1974%20-%20M460M%20-%208-109-06-001%20-%20BOOSTER%20AMPLIFIER%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>8-109-06-002</td>
+<td>Output Amplifier</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460B/1976%20-%20M460B%20-%208-109-06-002%20-%20OUTPUT%20AMPLIFIER.jpg">file</a></td>
+</tr>
+</tbody>
+</table><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from Person-GEB.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

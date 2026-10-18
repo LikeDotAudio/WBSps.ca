@@ -1,0 +1,59 @@
+# 1979 - M471C - 40 - St Pre-amp Layout.jpg
+Wiki page: [M471C](../../../PAGES/M471C.md)
+
+
+- **Year:** 1979 (module estimate (labelled))
+- **Module:** M471C
+- **Category:** INPUT-PRE-AMPS
+- **Module year estimate:** 1979 — labelled "ISS.1 10/79" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M471C Stereo Input Module/M471C - 28 - Schematic.jpg
+- **Original file:** `WBSps.env/wbsps - website ARCHIVE/WBSPS 2008/RAW SCANS/Done/Done - M471C Stereo Input Module/M471C - 40 - St Pre-amp Layout.jpg`
+- **SHA-256:** `a4d0861fc28ea47aa0066a4d644f262f8499b5f0a59aac16c3532c03307f2248`
+- **Size:** 286,812 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 3 words corrected)
+
+```text
+HP FILTER 150 HZ 75 HZ S43 SV4 4CF _ 4CF_ GXT-AA GhT_AA
+MODE SVI
+SENSITIVITY s4z VBS 11-431
+Vbs 11-132
+RI i R1z
+358 dst Rs9 13 a40 2K2 V/24 A41 377 1 1 3 2 4-C175 Rib 345 WBS RI9 R46 ISSUE 13 CANADA Rzo R47 375 R4827k R4gE6K R7601 Rzi27k Rzzegk c8 czo (C1O 68/6 'R2327 RS2 @ g58 358 a5027k R2s R6 R34 RSsZK5 C22 68/6 IK LF Jk R57 J5ok Re 3K32 1 DIR R53 K32 Of R56 IXS R50 3 c9 Rzg fok C21 C5 40/25 (C17 40/25 Rs9 2 R6! g58 33/10 068 40/25 40/25 C19 r6o R62 C1z LOP ccIs R65 C5S JoP Rs AK? R5z 4K7 Czs 0. 1/100 47P C25 33/10 +.7/35 33/10 C34 +7/35 CS7 C2633/10 4/ C33 0 17100 ) 4k3 R5s K 47p(C20 T00 "A2z JzK  8 R5"Ezokk 4 R9 @lus 8 0 R36 ZXil R84-_ok IT R2z Rs= 47P 2p2 C6 CSB  2p2 (q8 47P ( 0 1/100 TRIN TRIX 0 R2 {88c r68 CI Cz CIS C14 R65 5i25 ~r79 RI 150/6 150/6 150/6 150/6 zokI 201 17 P1-1 @QQOOOO@O0 R3 @ok RZ 10ok R3o @ook RS[ Jook Bkz IN41  IN4148] Cr6 Cra_ I4148 R67 -R66 # R72 IN4i e CR2 CR4 - 1RZ8 IN41 48 crs Cr7 I4148 R7o R71 'CRI CrS- R69 @K2 2 7R73 C31 17k8 LR2eJ7ke ; Cso C29_ 47/25 rzg 10/25 710725 R7 4
+WBS WARD-BECK SYSTEMS
+SA 14-075
+steREO PREAMPLIFIER ASSEMBLY COMPONENT LAYout B 14-075-06-00.1 ISS.
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+HP FILTR 150 HZ 75 HZ S43 SV4 4CF _ 4CF_ GXT-AA GhT_AA
+MODE SVI
+SENSITIVITY s4z VBS 11-431
+Vbs 11-132
+RI i R1z
+358 dst Rs9 13 a40 2K2 V/24 A41 377 1 1 3 2 4-C175 Rlb 345 WBS RI9 R46 ISSUE 13 CANADA Rzo R47 375 R4827k R4gE6K R7601 Rzi27k Rzzegk c8 czo (C1O 68/6 'R2327 RS2 @ g58 358 a5027k R2s R6 R34 RSsZK5 C22 68/6 IK LF Jk R57 J5ok Re 3K32 1 DIR R53 K32 Of R56 IXS R50 3 c9 Rzg fok C21 C5 40/25 (C17 40/25 Rs9 2 R6! g58 33/10 068 40/25 40/25 C19 r6o R62 C1z IoP ccIs R65 C5S JoP Rs AK? R5z 4K7 Czs 0. 1/100 47P C25 33/10 +.7/35 33/10 C34 +7/35 CS7 C2633/10 4/ C33 0 17100 ) 4k3 R5s K 47p(C20 T00 "A2z JzK  8 R5"Ezokk 4 R9 @lus 8 0 R36 ZXil R84-_ok IT R2z Rs= 47P 2p2 C6 CSB  2p2 (q8 47P ( 0 1/100 TRIN TRIX 0 R2 {88c r68 CI Cz CIS C14 R65 5i25 ~r79 RI 150/6 150/6 150/6 150/6 zokI 201 17 P1-1 @QQOOOO@O0 R3 @ok RZ 10ok R3o @ook RS[ Jook Bkz IN41  IN4148] Cr6 Cra_ I4148 R67 -R66 # R72 IN4i e CR2 CR4 - 1RZ8 IN41 48 crs Cr7 I4148 R7o R71 'CRI CrS- R69 @K2 2 7R73 C31 17k8 LR2eJ7ke ; Cso C29_ 47/25 rzg 10/25 710725 R7 4
+WBS WARD-BECK SYSTEMS
+SA 14-075
+steREO PREAMPLIFIER ASSEMBLY COMPONENT LAYout B 14-075-06-00.1 ISS.
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 40 - St Pre-amp Layout.jpg",
+ "sha256": "a4d0861fc28ea47aa0066a4d644f262f8499b5f0a59aac16c3532c03307f2248",
+ "kind": "module",
+ "models": [
+  "M471C"
+ ],
+ "year": 1979,
+ "pages": 1
+}
+```

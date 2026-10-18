@@ -1,0 +1,2447 @@
+{
+ "name": "POD_OLD/POD7/ISS1/ORCAD",
+ "folder": "POD_OLD - POD7 - ISS1 - ORCAD",
+ "source": "WBSps Engineering from H drive-20261018T013433Z-1-003/WBSps Engineering from H drive/WBSps - POD_OLD/POD7/ISS1/ORCAD",
+ "title": "POD 7 - CONTROL ROOM INTERFACE",
+ "number": "B 14-316-02-001",
+ "date": "October 20, 1995",
+ "sheets": [
+  {
+   "title": "POD 7 - CONTROL ROOM INTERFACE",
+   "number": "B 14-316-02-001",
+   "date": "October 20, 1995",
+   "company": [
+    "WARD-BECK SYSTEMS LTD.",
+    "841 PROGRESS AVENUE",
+    "SCARBOROUGH, ONTARIO, CANADA",
+    "M1H 2X4"
+   ],
+   "parts": [
+    {
+     "ref": "Q6",
+     "value": "2N6731",
+     "x": 670,
+     "y": 200
+    },
+    {
+     "ref": "Q5",
+     "value": "2N6731",
+     "x": 670,
+     "y": 360
+    },
+    {
+     "ref": "K2",
+     "value": "RZ-24",
+     "x": 1110,
+     "y": 180
+    },
+    {
+     "ref": "K1",
+     "value": "RZ-24",
+     "x": 1110,
+     "y": 340
+    },
+    {
+     "ref": "CR5",
+     "value": "1N4003",
+     "x": 460,
+     "y": 400
+    },
+    {
+     "ref": "CR6",
+     "value": "1N4003",
+     "x": 460,
+     "y": 240
+    },
+    {
+     "ref": "K4",
+     "value": "RZ-24",
+     "x": 830,
+     "y": 170
+    },
+    {
+     "ref": "K3",
+     "value": "RZ-24",
+     "x": 830,
+     "y": 330
+    },
+    {
+     "ref": "CR7",
+     "value": "1N4003",
+     "x": 700,
+     "y": 120
+    },
+    {
+     "ref": "CR8",
+     "value": "1N4003",
+     "x": 700,
+     "y": 280
+    },
+    {
+     "ref": "P1",
+     "value": "CON12",
+     "x": 270,
+     "y": 210
+    },
+    {
+     "ref": "P3",
+     "value": "CON12",
+     "x": 1270,
+     "y": 160
+    },
+    {
+     "ref": "P2",
+     "value": "CON12",
+     "x": 990,
+     "y": 140
+    }
+   ],
+   "labels": [],
+   "ports": [],
+   "sheets": [
+    "POD7A.SCH",
+    "POD7B.SCH"
+   ],
+   "file": "POD7.SCH"
+  },
+  {
+   "title": "POD 7 - CONTROL ROOM INTERFACE UNIT",
+   "number": "B 14-316-02-002",
+   "date": "March 18, 1996",
+   "company": [
+    "WARD-BECK SYSTEMS LTD.",
+    "841 PROGRESS AVENUE",
+    "SCARBOROUGH, ONTARIO, CANADA",
+    "M1H 2X4"
+   ],
+   "parts": [
+    {
+     "ref": "Q2",
+     "value": "2N3904",
+     "x": 1060,
+     "y": 590
+    },
+    {
+     "ref": "CR3",
+     "value": "1N4003",
+     "x": 580,
+     "y": 430
+    },
+    {
+     "ref": "CR2",
+     "value": "1N4003",
+     "x": 1070,
+     "y": 220
+    },
+    {
+     "ref": "CR1",
+     "value": "1N4003",
+     "x": 1070,
+     "y": 430
+    },
+    {
+     "ref": "CR10",
+     "value": "1N4003",
+     "x": 660,
+     "y": 620
+    },
+    {
+     "ref": "P4",
+     "value": "CON12",
+     "x": 350,
+     "y": 180
+    },
+    {
+     "ref": "P5",
+     "value": "CON12",
+     "x": 890,
+     "y": 310
+    },
+    {
+     "ref": "CR4",
+     "value": "1N4003",
+     "x": 580,
+     "y": 220
+    },
+    {
+     "ref": "Q1",
+     "value": "TIP29",
+     "x": 1090,
+     "y": 530
+    },
+    {
+     "ref": "CR9",
+     "value": "1N4003",
+     "x": 660,
+     "y": 530
+    }
+   ],
+   "labels": [],
+   "ports": [],
+   "sheets": [],
+   "file": "POD7A.SCH"
+  },
+  {
+   "title": "POD 7 - CONTROL ROOM INTERFACE UNIT",
+   "number": "B 14-316-02-003",
+   "date": "March 13, 1996",
+   "company": [
+    "WARD-BECK SYSTEMS",
+    "841 PROGRESS AVENUE",
+    "SCARBOROUGH, ONTARIO, CANADA",
+    "M1H 2X4"
+   ],
+   "parts": [
+    {
+     "ref": "C10",
+     "value": "1000P",
+     "x": 250,
+     "y": 190
+    },
+    {
+     "ref": "R25",
+     "value": "100K",
+     "x": 330,
+     "y": 180
+    },
+    {
+     "ref": "R26",
+     "value": "100K",
+     "x": 330,
+     "y": 310
+    },
+    {
+     "ref": "R38",
+     "value": "16K2 1%",
+     "x": 440,
+     "y": 140
+    },
+    {
+     "ref": "R39",
+     "value": "16K2 1%",
+     "x": 440,
+     "y": 270
+    },
+    {
+     "ref": "R33",
+     "value": "4K75 1%",
+     "x": 790,
+     "y": 110
+    },
+    {
+     "ref": "R32",
+     "value": "4K75 1%",
+     "x": 850,
+     "y": 250
+    },
+    {
+     "ref": "U3B",
+     "value": "NE5532",
+     "x": 980,
+     "y": 280
+    },
+    {
+     "ref": "C4",
+     "value": "1000/25",
+     "x": 1260,
+     "y": 290
+    },
+    {
+     "ref": "R20",
+     "value": "100K",
+     "x": 1310,
+     "y": 340
+    },
+    {
+     "ref": "R22",
+     "value": "10K 1%",
+     "x": 80,
+     "y": 600
+    },
+    {
+     "ref": "R21",
+     "value": "10K 1%",
+     "x": 80,
+     "y": 550
+    },
+    {
+     "ref": "C5",
+     "value": "0.1/50",
+     "x": 180,
+     "y": 560
+    },
+    {
+     "ref": "C6",
+     "value": "0.1/50",
+     "x": 180,
+     "y": 610
+    },
+    {
+     "ref": "Q7",
+     "value": "2N3904",
+     "x": 430,
+     "y": 540
+    },
+    {
+     "ref": "U2D",
+     "value": "74HC132",
+     "x": 690,
+     "y": 680
+    },
+    {
+     "ref": "U2C",
+     "value": "74HC132",
+     "x": 890,
+     "y": 680
+    },
+    {
+     "ref": "U2A",
+     "value": "74HC132",
+     "x": 580,
+     "y": 850
+    },
+    {
+     "ref": "U2B",
+     "value": "74HC132",
+     "x": 830,
+     "y": 850
+    },
+    {
+     "ref": "Q3",
+     "value": "TIP29B",
+     "x": 1160,
+     "y": 210
+    },
+    {
+     "ref": "Q4",
+     "value": "TIP30B",
+     "x": 1160,
+     "y": 350
+    },
+    {
+     "ref": "U3A",
+     "value": "NE5532",
+     "x": 790,
+     "y": 190
+    },
+    {
+     "ref": "R40",
+     "value": "100K",
+     "x": 410,
+     "y": 310
+    },
+    {
+     "ref": "R41",
+     "value": "100K",
+     "x": 440,
+     "y": 90
+    },
+    {
+     "ref": "R36",
+     "value": "100K",
+     "x": 800,
+     "y": 320
+    },
+    {
+     "ref": "R35",
+     "value": "100K",
+     "x": 610,
+     "y": 80
+    },
+    {
+     "ref": "C18",
+     "value": "0.1/50",
+     "x": 1020,
+     "y": 350
+    },
+    {
+     "ref": "CR14",
+     "value": "1N4003",
+     "x": 1100,
+     "y": 250
+    },
+    {
+     "ref": "CR13",
+     "value": "1N4003",
+     "x": 1100,
+     "y": 320
+    },
+    {
+     "ref": "R19",
+     "value": "2R2 1W",
+     "x": 1200,
+     "y": 330
+    },
+    {
+     "ref": "R18",
+     "value": "2R2 1W",
+     "x": 1200,
+     "y": 250
+    },
+    {
+     "ref": "CR12",
+     "value": "1N4003",
+     "x": 280,
+     "y": 370
+    }
+   ],
+   "labels": [],
+   "ports": [
+    {
+     "text": "V/2",
+     "x": 900,
+     "y": 360
+    },
+    {
+     "text": "V/2",
+     "x": 280,
+     "y": 590
+    },
+    {
+     "text": "V/2",
+     "x": 700,
+     "y": 360
+    }
+   ],
+   "sheets": [],
+   "file": "POD7B.SCH"
+  }
+ ],
+ "netlists": [
+  {
+   "header": [
+    "POD 7 - CONTROL ROOM INTERFACE                Revised:   October 20, 1995",
+    "B 14-316-02-001                               Revision: 1",
+    "WARD-BECK SYSTEMS LTD."
+   ],
+   "parts": [
+    {
+     "ref": "SW1",
+     "footprint": "",
+     "value": ""
+    },
+    {
+     "ref": "C21",
+     "footprint": "0.047/250V",
+     "value": "0.047/250V"
+    },
+    {
+     "ref": "C15",
+     "footprint": "CAP.1",
+     "value": "0.1/50"
+    },
+    {
+     "ref": "C16",
+     "footprint": "CAP.1",
+     "value": "0.1/50"
+    },
+    {
+     "ref": "C19",
+     "footprint": "CAP.1",
+     "value": "0.1/50"
+    },
+    {
+     "ref": "F2",
+     "footprint": "217",
+     "value": "0.25A"
+    },
+    {
+     "ref": "F1",
+     "footprint": "AGC",
+     "value": "0.5A"
+    },
+    {
+     "ref": "F3",
+     "footprint": "0.5A",
+     "value": "0.5A"
+    },
+    {
+     "ref": "C1",
+     "footprint": "TANTB.2",
+     "value": "10/35"
+    },
+    {
+     "ref": "C14",
+     "footprint": "E1000R25",
+     "value": "1000/25"
+    },
+    {
+     "ref": "C2",
+     "footprint": "EC165",
+     "value": "1000/63"
+    },
+    {
+     "ref": "C5",
+     "footprint": "CAP.2",
+     "value": "1000P"
+    },
+    {
+     "ref": "C6",
+     "footprint": "CAP.2",
+     "value": "1000P"
+    },
+    {
+     "ref": "R10",
+     "footprint": "R1/4",
+     "value": "100K"
+    },
+    {
+     "ref": "R24",
+     "footprint": "R1/4",
+     "value": "100K"
+    },
+    {
+     "ref": "R25",
+     "footprint": "R1/4",
+     "value": "100K"
+    },
+    {
+     "ref": "R37",
+     "footprint": "R1/4",
+     "value": "100K"
+    },
+    {
+     "ref": "R40",
+     "footprint": "R1/4",
+     "value": "100K"
+    },
+    {
+     "ref": "R41",
+     "footprint": "R1/4",
+     "value": "100K"
+    },
+    {
+     "ref": "R42",
+     "footprint": "R1/4",
+     "value": "100K"
+    },
+    {
+     "ref": "R43",
+     "footprint": "R1/4",
+     "value": "100K"
+    },
+    {
+     "ref": "R1",
+     "footprint": "R1/4",
+     "value": "10K"
+    },
+    {
+     "ref": "R3",
+     "footprint": "R1/4",
+     "value": "10K"
+    },
+    {
+     "ref": "R11",
+     "footprint": "R1/4",
+     "value": "10K"
+    },
+    {
+     "ref": "R13",
+     "footprint": "R1/4",
+     "value": "10K"
+    },
+    {
+     "ref": "R15",
+     "footprint": "R1/4",
+     "value": "10K"
+    },
+    {
+     "ref": "R17",
+     "footprint": "R1/4",
+     "value": "10K"
+    },
+    {
+     "ref": "R21",
+     "footprint": "R1/4",
+     "value": "10K"
+    },
+    {
+     "ref": "R22",
+     "footprint": "R1/4",
+     "value": "10K"
+    },
+    {
+     "ref": "R38",
+     "footprint": "R1/4",
+     "value": "10K 1%"
+    },
+    {
+     "ref": "R39",
+     "footprint": "R1/4",
+     "value": "10K 1%"
+    },
+    {
+     "ref": "R9",
+     "footprint": "R03WE",
+     "value": "10K 3W"
+    },
+    {
+     "ref": "P18",
+     "footprint": "115V/230V AC",
+     "value": "115V/230V AC"
+    },
+    {
+     "ref": "R19",
+     "footprint": "R1/4",
+     "value": "11K"
+    },
+    {
+     "ref": "R31",
+     "footprint": "R1/4",
+     "value": "12K"
+    },
+    {
+     "ref": "P1",
+     "footprint": "LUG",
+     "value": "1502-2"
+    },
+    {
+     "ref": "P2",
+     "footprint": "LUG",
+     "value": "1502-2"
+    },
+    {
+     "ref": "P3",
+     "footprint": "LUG",
+     "value": "1502-2"
+    },
+    {
+     "ref": "P4",
+     "footprint": "LUG",
+     "value": "1502-2"
+    },
+    {
+     "ref": "R8",
+     "footprint": "R1/4",
+     "value": "15K"
+    },
+    {
+     "ref": "R26",
+     "footprint": "R1/4",
+     "value": "16K2 1%"
+    },
+    {
+     "ref": "R27",
+     "footprint": "R1/4",
+     "value": "16K2 1%"
+    },
+    {
+     "ref": "R2",
+     "footprint": "R1/4",
+     "value": "1K5"
+    },
+    {
+     "ref": "R4",
+     "footprint": "R1/4",
+     "value": "1K5"
+    },
+    {
+     "ref": "R12",
+     "footprint": "R1/4",
+     "value": "1K5"
+    },
+    {
+     "ref": "R14",
+     "footprint": "R1/4",
+     "value": "1K5"
+    },
+    {
+     "ref": "R16",
+     "footprint": "R1/4",
+     "value": "1K5"
+    },
+    {
+     "ref": "R18",
+     "footprint": "R1/4",
+     "value": "1K5"
+    },
+    {
+     "ref": "D1",
+     "footprint": "DO-41",
+     "value": "1N4003"
+    },
+    {
+     "ref": "D2",
+     "footprint": "DO-41",
+     "value": "1N4003"
+    },
+    {
+     "ref": "D3",
+     "footprint": "DO-41",
+     "value": "1N4003"
+    },
+    {
+     "ref": "D4",
+     "footprint": "DO-41",
+     "value": "1N4003"
+    },
+    {
+     "ref": "D5",
+     "footprint": "DO-41",
+     "value": "1N4003"
+    },
+    {
+     "ref": "D6",
+     "footprint": "DO-41",
+     "value": "1N4003"
+    },
+    {
+     "ref": "D10",
+     "footprint": "DO-41",
+     "value": "1N4003"
+    },
+    {
+     "ref": "D11",
+     "footprint": "DO-41",
+     "value": "1N4003"
+    },
+    {
+     "ref": "D12",
+     "footprint": "DO-41",
+     "value": "1N4003"
+    },
+    {
+     "ref": "D13",
+     "footprint": "DO-41",
+     "value": "1N4003"
+    },
+    {
+     "ref": "D14",
+     "footprint": "DO-41",
+     "value": "1N4003"
+    },
+    {
+     "ref": "D15",
+     "footprint": "DO-41",
+     "value": "1N4003"
+    },
+    {
+     "ref": "D16",
+     "footprint": "DO-41",
+     "value": "1N4003"
+    },
+    {
+     "ref": "D9",
+     "footprint": "DO-41",
+     "value": "1N4748"
+    },
+    {
+     "ref": "R7",
+     "footprint": "R03WE",
+     "value": "22 3W"
+    },
+    {
+     "ref": "C3",
+     "footprint": "RAD.1",
+     "value": "22/25"
+    },
+    {
+     "ref": "C4",
+     "footprint": "RAD.1",
+     "value": "22/25"
+    },
+    {
+     "ref": "C17",
+     "footprint": "RAD.1",
+     "value": "22/25"
+    },
+    {
+     "ref": "T1",
+     "footprint": "229C56",
+     "value": "229C56"
+    },
+    {
+     "ref": "C11",
+     "footprint": "CAP.2",
+     "value": "22P"
+    },
+    {
+     "ref": "C13",
+     "footprint": "CAP.2",
+     "value": "22P"
+    },
+    {
+     "ref": "R30",
+     "footprint": "R1/4",
+     "value": "2K"
+    },
+    {
+     "ref": "R5",
+     "footprint": "R1/4",
+     "value": "2K2"
+    },
+    {
+     "ref": "R6",
+     "footprint": "R1/4",
+     "value": "2K2"
+    },
+    {
+     "ref": "Q3",
+     "footprint": "TO-92",
+     "value": "2N3904"
+    },
+    {
+     "ref": "Q5",
+     "footprint": "TO-92",
+     "value": "2N3904"
+    },
+    {
+     "ref": "Q1",
+     "footprint": "TO-237",
+     "value": "2N6731"
+    },
+    {
+     "ref": "Q2",
+     "footprint": "TO-237",
+     "value": "2N6731"
+    },
+    {
+     "ref": "R35",
+     "footprint": "R01MF",
+     "value": "2R2 1W"
+    },
+    {
+     "ref": "R36",
+     "footprint": "R01MF",
+     "value": "2R2 1W"
+    },
+    {
+     "ref": "R33",
+     "footprint": "R1/4",
+     "value": "3K"
+    },
+    {
+     "ref": "R34",
+     "footprint": "R1/4",
+     "value": "3K"
+    },
+    {
+     "ref": "C7",
+     "footprint": "RAD.1",
+     "value": "47/25"
+    },
+    {
+     "ref": "C8",
+     "footprint": "RAD.1",
+     "value": "47/25"
+    },
+    {
+     "ref": "C9",
+     "footprint": "RAD.1",
+     "value": "47/25"
+    },
+    {
+     "ref": "C10",
+     "footprint": "RAD.1",
+     "value": "47/25"
+    },
+    {
+     "ref": "C12",
+     "footprint": "RAD.1",
+     "value": "47/25"
+    },
+    {
+     "ref": "C18",
+     "footprint": "RAD.1",
+     "value": "47/25"
+    },
+    {
+     "ref": "R20",
+     "footprint": "R1/4",
+     "value": "4K7"
+    },
+    {
+     "ref": "R44",
+     "footprint": "R1/4",
+     "value": "4K7"
+    },
+    {
+     "ref": "R28",
+     "footprint": "R1/4",
+     "value": "4K75 1%"
+    },
+    {
+     "ref": "R29",
+     "footprint": "R1/4",
+     "value": "4K75 1%"
+    },
+    {
+     "ref": "R32",
+     "footprint": "5K",
+     "value": "5K"
+    },
+    {
+     "ref": "R23",
+     "footprint": "R1/4",
+     "value": "620"
+    },
+    {
+     "ref": "U2",
+     "footprint": "DIP14",
+     "value": "74HC132"
+    },
+    {
+     "ref": "U1",
+     "footprint": "DIP16",
+     "value": "74HC4053"
+    },
+    {
+     "ref": "P6",
+     "footprint": "PHNX12/150",
+     "value": "CON12"
+    },
+    {
+     "ref": "P9",
+     "footprint": "PHNX12/150",
+     "value": "CON12"
+    },
+    {
+     "ref": "P10",
+     "footprint": "PHNX12/150",
+     "value": "CON12"
+    },
+    {
+     "ref": "P11",
+     "footprint": "PHNX12/150",
+     "value": "CON12"
+    },
+    {
+     "ref": "P14",
+     "footprint": "PHNX12/150",
+     "value": "CON12"
+    },
+    {
+     "ref": "P17",
+     "footprint": "CON12",
+     "value": "CON12"
+    },
+    {
+     "ref": "P5",
+     "footprint": "PAN3/156",
+     "value": "CON3"
+    },
+    {
+     "ref": "P7",
+     "footprint": "SIP3",
+     "value": "CON3"
+    },
+    {
+     "ref": "P8",
+     "footprint": "SIP3",
+     "value": "CON3"
+    },
+    {
+     "ref": "P12",
+     "footprint": "SIP3",
+     "value": "CON3"
+    },
+    {
+     "ref": "P13",
+     "footprint": "SIP3",
+     "value": "CON3"
+    },
+    {
+     "ref": "P15",
+     "footprint": "SIP3",
+     "value": "CON3"
+    },
+    {
+     "ref": "P16",
+     "footprint": "SIP3",
+     "value": "CON3"
+    },
+    {
+     "ref": "ISO1",
+     "footprint": "DIP8",
+     "value": "ILD1"
+    },
+    {
+     "ref": "ISO2",
+     "footprint": "ILD1",
+     "value": "ILD1"
+    },
+    {
+     "ref": "ISO3",
+     "footprint": "DIP8",
+     "value": "ILD1"
+    },
+    {
+     "ref": "ISO4",
+     "footprint": "DIP8",
+     "value": "ILD1"
+    },
+    {
+     "ref": "ISO5",
+     "footprint": "DIP8",
+     "value": "ILD1"
+    },
+    {
+     "ref": "U3",
+     "footprint": "DIP8",
+     "value": "NE5532"
+    },
+    {
+     "ref": "DS1",
+     "footprint": "551LED",
+     "value": "RED"
+    },
+    {
+     "ref": "K1",
+     "footprint": "DIP16",
+     "value": "RZ-24"
+    },
+    {
+     "ref": "K2",
+     "footprint": "DIP16",
+     "value": "RZ-24"
+    },
+    {
+     "ref": "K3",
+     "footprint": "DIP16",
+     "value": "RZ-24"
+    },
+    {
+     "ref": "K4",
+     "footprint": "DIP16",
+     "value": "RZ-24"
+    },
+    {
+     "ref": "Q4",
+     "footprint": "TO-220HS",
+     "value": "TIP29"
+    },
+    {
+     "ref": "Q6",
+     "footprint": "TO-220HS",
+     "value": "TIP29B"
+    },
+    {
+     "ref": "Q7",
+     "footprint": "TO-220HS",
+     "value": "TIP30B"
+    },
+    {
+     "ref": "DS2",
+     "footprint": "551LED",
+     "value": "YELLOW"
+    },
+    {
+     "ref": "DS3",
+     "footprint": "551LED",
+     "value": "YELLOW"
+    }
+   ],
+   "nets": [
+    {
+     "name": "N00001",
+     "nodes": [
+      "ISO2,3",
+      "P6,2"
+     ]
+    },
+    {
+     "name": "N00002",
+     "nodes": [
+      "K3,16",
+      "ISO2,6",
+      "D3,2",
+      "K1,16",
+      "Q1,3",
+      "DS2,1"
+     ]
+    },
+    {
+     "name": "N00003",
+     "nodes": [
+      "P9,1",
+      "K1,11"
+     ]
+    },
+    {
+     "name": "N00004",
+     "nodes": [
+      "K1,13",
+      "P9,2"
+     ]
+    },
+    {
+     "name": "N00005",
+     "nodes": [
+      "P9,3",
+      "K1,9"
+     ]
+    },
+    {
+     "name": "N00006",
+     "nodes": [
+      "P10,1",
+      "K3,11"
+     ]
+    },
+    {
+     "name": "N00007",
+     "nodes": [
+      "P9,4",
+      "K1,6"
+     ]
+    },
+    {
+     "name": "N00008",
+     "nodes": [
+      "K3,13",
+      "P10,2"
+     ]
+    },
+    {
+     "name": "N00009",
+     "nodes": [
+      "K1,4",
+      "P9,5"
+     ]
+    },
+    {
+     "name": "N00010",
+     "nodes": [
+      "P10,3",
+      "K3,9"
+     ]
+    },
+    {
+     "name": "N00011",
+     "nodes": [
+      "P9,6",
+      "K1,8"
+     ]
+    },
+    {
+     "name": "N00012",
+     "nodes": [
+      "P10,4",
+      "K3,6"
+     ]
+    },
+    {
+     "name": "N00013",
+     "nodes": [
+      "P7,3",
+      "R1,1"
+     ]
+    },
+    {
+     "name": "N00014",
+     "nodes": [
+      "P7,2",
+      "P6,1"
+     ]
+    },
+    {
+     "name": "N00015",
+     "nodes": [
+      "P7,1",
+      "D1,2",
+      "R1,2"
+     ]
+    },
+    {
+     "name": "N00016",
+     "nodes": [
+      "Q1,2",
+      "ISO2,5"
+     ]
+    },
+    {
+     "name": "N00017",
+     "nodes": [
+      "P9,7",
+      "K2,11"
+     ]
+    },
+    {
+     "name": "N00018",
+     "nodes": [
+      "K3,4",
+      "P10,5"
+     ]
+    },
+    {
+     "name": "N00019",
+     "nodes": [
+      "P9,8",
+      "K2,13"
+     ]
+    },
+    {
+     "name": "N00020",
+     "nodes": [
+      "P10,6",
+      "K3,8"
+     ]
+    },
+    {
+     "name": "N00021",
+     "nodes": [
+      "P9,9",
+      "K2,9"
+     ]
+    },
+    {
+     "name": "N00022",
+     "nodes": [
+      "P10,7",
+      "K4,11"
+     ]
+    },
+    {
+     "name": "N00023",
+     "nodes": [
+      "P9,10",
+      "K2,6"
+     ]
+    },
+    {
+     "name": "N00024",
+     "nodes": [
+      "P10,8",
+      "K4,13"
+     ]
+    },
+    {
+     "name": "N00025",
+     "nodes": [
+      "D1,1",
+      "R2,1"
+     ]
+    },
+    {
+     "name": "N00026",
+     "nodes": [
+      "R2,2",
+      "ISO2,4"
+     ]
+    },
+    {
+     "name": "N00027",
+     "nodes": [
+      "P9,11",
+      "K2,4"
+     ]
+    },
+    {
+     "name": "N00028",
+     "nodes": [
+      "P10,9",
+      "K4,9"
+     ]
+    },
+    {
+     "name": "N00029",
+     "nodes": [
+      "P9,12",
+      "K2,8"
+     ]
+    },
+    {
+     "name": "N00030",
+     "nodes": [
+      "P10,10",
+      "K4,6"
+     ]
+    },
+    {
+     "name": "N00031",
+     "nodes": [
+      "P10,11",
+      "K4,4"
+     ]
+    },
+    {
+     "name": "N00032",
+     "nodes": [
+      "P8,2",
+      "P6,7"
+     ]
+    },
+    {
+     "name": "N00033",
+     "nodes": [
+      "P10,12",
+      "K4,8"
+     ]
+    },
+    {
+     "name": "N00034",
+     "nodes": [
+      "P6,8",
+      "ISO2,2"
+     ]
+    },
+    {
+     "name": "N00035",
+     "nodes": [
+      "K4,16",
+      "ISO2,7",
+      "D4,2",
+      "K2,16",
+      "Q2,3",
+      "DS3,1"
+     ]
+    },
+    {
+     "name": "N00036",
+     "nodes": [
+      "P8,3",
+      "R3,1"
+     ]
+    },
+    {
+     "name": "N00037",
+     "nodes": [
+      "P8,1",
+      "R3,2",
+      "D2,2"
+     ]
+    },
+    {
+     "name": "N00038",
+     "nodes": [
+      "Q2,2",
+      "ISO2,8"
+     ]
+    },
+    {
+     "name": "N00039",
+     "nodes": [
+      "D2,1",
+      "R4,1"
+     ]
+    },
+    {
+     "name": "N00040",
+     "nodes": [
+      "R4,2",
+      "ISO2,1"
+     ]
+    },
+    {
+     "name": "N00041",
+     "nodes": [
+      "DS2,2",
+      "ISO1,3"
+     ]
+    },
+    {
+     "name": "N00042",
+     "nodes": [
+      "ISO3,3",
+      "DS3,2"
+     ]
+    },
+    {
+     "name": "N00043",
+     "nodes": [
+      "ISO1,4",
+      "ISO1,2"
+     ]
+    },
+    {
+     "name": "N00044",
+     "nodes": [
+      "ISO3,4",
+      "ISO3,2"
+     ]
+    },
+    {
+     "name": "N00045",
+     "nodes": [
+      "ISO1,1",
+      "R5,2"
+     ]
+    },
+    {
+     "name": "N00046",
+     "nodes": [
+      "ISO3,1",
+      "R6,2"
+     ]
+    },
+    {
+     "name": "N00047",
+     "nodes": [
+      "ISO4,3",
+      "P11,2"
+     ]
+    },
+    {
+     "name": "N00048",
+     "nodes": [
+      "P11,3",
+      "ISO4,6"
+     ]
+    },
+    {
+     "name": "N00049",
+     "nodes": [
+      "P11,10",
+      "ISO5,3"
+     ]
+    },
+    {
+     "name": "N00050",
+     "nodes": [
+      "P11,11",
+      "ISO5,6"
+     ]
+    },
+    {
+     "name": "N00051",
+     "nodes": [
+      "P12,3",
+      "R11,1"
+     ]
+    },
+    {
+     "name": "N00052",
+     "nodes": [
+      "P12,2",
+      "P11,1"
+     ]
+    },
+    {
+     "name": "N00053",
+     "nodes": [
+      "P12,1",
+      "R11,2",
+      "D12,2"
+     ]
+    },
+    {
+     "name": "N00054",
+     "nodes": [
+      "P15,3",
+      "R15,1"
+     ]
+    },
+    {
+     "name": "N00055",
+     "nodes": [
+      "P15,2",
+      "P11,9"
+     ]
+    },
+    {
+     "name": "N00056",
+     "nodes": [
+      "P15,1",
+      "R15,2",
+      "D11,2"
+     ]
+    },
+    {
+     "name": "N00057",
+     "nodes": [
+      "ISO4,4",
+      "R12,2"
+     ]
+    },
+    {
+     "name": "N00058",
+     "nodes": [
+      "P11,4",
+      "ISO4,5"
+     ]
+    },
+    {
+     "name": "N00059",
+     "nodes": [
+      "ISO5,4",
+      "R16,2"
+     ]
+    },
+    {
+     "name": "N00060",
+     "nodes": [
+      "P11,12",
+      "ISO5,5"
+     ]
+    },
+    {
+     "name": "N00061",
+     "nodes": [
+      "P13,2",
+      "P11,5"
+     ]
+    },
+    {
+     "name": "N00062",
+     "nodes": [
+      "R12,1",
+      "D12,1"
+     ]
+    },
+    {
+     "name": "N00063",
+     "nodes": [
+      "R16,1",
+      "D11,1"
+     ]
+    },
+    {
+     "name": "N00064",
+     "nodes": [
+      "P11,6",
+      "ISO4,2"
+     ]
+    },
+    {
+     "name": "N00065",
+     "nodes": [
+      "P11,7",
+      "ISO4,7"
+     ]
+    },
+    {
+     "name": "N00066",
+     "nodes": [
+      "ISO4,8",
+      "P11,8"
+     ]
+    },
+    {
+     "name": "N00067",
+     "nodes": [
+      "ISO5,2",
+      "P14,2"
+     ]
+    },
+    {
+     "name": "N00068",
+     "nodes": [
+      "P14,3",
+      "ISO5,7"
+     ]
+    },
+    {
+     "name": "N00069",
+     "nodes": [
+      "P16,2",
+      "P14,1"
+     ]
+    },
+    {
+     "name": "N00070",
+     "nodes": [
+      "P14,4",
+      "ISO5,8"
+     ]
+    },
+    {
+     "name": "N00071",
+     "nodes": [
+      "P14,5",
+      "P14,7",
+      "P14,9",
+      "P14,11",
+      "F2,1"
+     ]
+    },
+    {
+     "name": "N00072",
+     "nodes": [
+      "P13,3",
+      "R13,1"
+     ]
+    },
+    {
+     "name": "N00073",
+     "nodes": [
+      "P13,1",
+      "R13,2",
+      "D13,2"
+     ]
+    },
+    {
+     "name": "N00074",
+     "nodes": [
+      "P16,3",
+      "R17,1"
+     ]
+    },
+    {
+     "name": "N00075",
+     "nodes": [
+      "P16,1",
+      "D10,2",
+      "R17,2"
+     ]
+    },
+    {
+     "name": "N00076",
+     "nodes": [
+      "ISO4,1",
+      "R14,2"
+     ]
+    },
+    {
+     "name": "N00077",
+     "nodes": [
+      "ISO5,1",
+      "R18,2"
+     ]
+    },
+    {
+     "name": "N00078",
+     "nodes": [
+      "D13,1",
+      "R14,1"
+     ]
+    },
+    {
+     "name": "N00079",
+     "nodes": [
+      "D10,1",
+      "R18,1"
+     ]
+    },
+    {
+     "name": "N00080",
+     "nodes": [
+      "SW1,NO",
+      "P5,1",
+      "P1,1",
+      "T1,1"
+     ]
+    },
+    {
+     "name": "N00081",
+     "nodes": [
+      "F3,1",
+      "P18,B"
+     ]
+    },
+    {
+     "name": "N00082",
+     "nodes": [
+      "SW1,COMMON",
+      "F3,2"
+     ]
+    },
+    {
+     "name": "N00083",
+     "nodes": [
+      "T1,5",
+      "D6,2"
+     ]
+    },
+    {
+     "name": "N00084",
+     "nodes": [
+      "D6,1",
+      "D5,1",
+      "F1,1"
+     ]
+    },
+    {
+     "name": "N00085",
+     "nodes": [
+      "F1,2",
+      "R9,2",
+      "R8,1",
+      "R7,1",
+      "C2,1"
+     ]
+    },
+    {
+     "name": "N00086",
+     "nodes": [
+      "R7,2",
+      "Q3,3",
+      "Q4,2"
+     ]
+    },
+    {
+     "name": "N00087",
+     "nodes": [
+      "P2,1",
+      "T1,3"
+     ]
+    },
+    {
+     "name": "N00088",
+     "nodes": [
+      "T1,2",
+      "P3,1"
+     ]
+    },
+    {
+     "name": "N00089",
+     "nodes": [
+      "T1,6",
+      "T1,8"
+     ]
+    },
+    {
+     "name": "N00090",
+     "nodes": [
+      "Q4,1",
+      "Q3,1"
+     ]
+    },
+    {
+     "name": "N00091",
+     "nodes": [
+      "P5,3",
+      "P18,A",
+      "T1,4",
+      "P4,1"
+     ]
+    },
+    {
+     "name": "N00092",
+     "nodes": [
+      "R8,2",
+      "D9,1",
+      "Q3,2",
+      "C1,1"
+     ]
+    },
+    {
+     "name": "N00093",
+     "nodes": [
+      "T1,7",
+      "D5,2"
+     ]
+    },
+    {
+     "name": "N00094",
+     "nodes": [
+      "R9,1",
+      "DS1,2"
+     ]
+    },
+    {
+     "name": "N00095",
+     "nodes": [
+      "C11,1",
+      "R28,1",
+      "C9,1",
+      "U3,2"
+     ]
+    },
+    {
+     "name": "N00096",
+     "nodes": [
+      "C11,2",
+      "R28,2",
+      "U3,1",
+      "C12,1"
+     ]
+    },
+    {
+     "name": "N00097",
+     "nodes": [
+      "R42,2",
+      "U1,12",
+      "C9,2"
+     ]
+    },
+    {
+     "name": "N00098",
+     "nodes": [
+      "R41,1",
+      "C7,1",
+      "R26,1"
+     ]
+    },
+    {
+     "name": "N00099",
+     "nodes": [
+      "C10,1",
+      "R29,2",
+      "R30,1",
+      "R31,1",
+      "C13,1",
+      "U3,6"
+     ]
+    },
+    {
+     "name": "N00100",
+     "nodes": [
+      "C18,2",
+      "R30,2"
+     ]
+    },
+    {
+     "name": "N00101",
+     "nodes": [
+      "C18,1",
+      "R32,2"
+     ]
+    },
+    {
+     "name": "N00102",
+     "nodes": [
+      "P17,1",
+      "C5,1",
+      "R24,2",
+      "C7,2"
+     ]
+    },
+    {
+     "name": "N00103",
+     "nodes": [
+      "R26,2",
+      "U1,14"
+     ]
+    },
+    {
+     "name": "N00104",
+     "nodes": [
+      "R31,2",
+      "R32,3",
+      "C13,2",
+      "R35,2",
+      "C14,1",
+      "R36,2"
+     ]
+    },
+    {
+     "name": "N00105",
+     "nodes": [
+      "U1,15",
+      "R27,2"
+     ]
+    },
+    {
+     "name": "N00106",
+     "nodes": [
+      "R33,2",
+      "Q6,1",
+      "D15,2"
+     ]
+    },
+    {
+     "name": "N00107",
+     "nodes": [
+      "U1,2",
+      "R43,1",
+      "C10,2"
+     ]
+    },
+    {
+     "name": "N00108",
+     "nodes": [
+      "U2,13",
+      "U1,4",
+      "U2,10"
+     ]
+    },
+    {
+     "name": "N00109",
+     "nodes": [
+      "R29,1",
+      "C12,2"
+     ]
+    },
+    {
+     "name": "N00110",
+     "nodes": [
+      "U1,5",
+      "R21,1"
+     ]
+    },
+    {
+     "name": "N00111",
+     "nodes": [
+      "R35,1",
+      "Q6,3"
+     ]
+    },
+    {
+     "name": "N00112",
+     "nodes": [
+      "P17,2",
+      "C6,1",
+      "R25,2",
+      "C8,2"
+     ]
+    },
+    {
+     "name": "N00113",
+     "nodes": [
+      "C8,1",
+      "R40,2",
+      "R27,1"
+     ]
+    },
+    {
+     "name": "N00114",
+     "nodes": [
+      "D15,1",
+      "U3,7",
+      "D14,2"
+     ]
+    },
+    {
+     "name": "N00115",
+     "nodes": [
+      "U1,11",
+      "U1,10",
+      "U1,9",
+      "D16,2",
+      "R44,1"
+     ]
+    },
+    {
+     "name": "N00116",
+     "nodes": [
+      "C14,2",
+      "R37,1",
+      "P17,7"
+     ]
+    },
+    {
+     "name": "N00117",
+     "nodes": [
+      "Q7,3",
+      "R36,1"
+     ]
+    },
+    {
+     "name": "N00118",
+     "nodes": [
+      "D14,1",
+      "Q7,1",
+      "R34,1"
+     ]
+    },
+    {
+     "name": "N00119",
+     "nodes": [
+      "P17,4",
+      "D16,1"
+     ]
+    },
+    {
+     "name": "N00120",
+     "nodes": [
+      "P17,9",
+      "P17,11",
+      "R23,1"
+     ]
+    },
+    {
+     "name": "N00121",
+     "nodes": [
+      "P17,10",
+      "U2,8"
+     ]
+    },
+    {
+     "name": "N00122",
+     "nodes": [
+      "P17,12",
+      "U2,11"
+     ]
+    },
+    {
+     "name": "N00123",
+     "nodes": [
+      "Q5,2",
+      "R19,2",
+      "R20,1",
+      "C3,1"
+     ]
+    },
+    {
+     "name": "N00124",
+     "nodes": [
+      "U2,12",
+      "U2,3",
+      "R22,1",
+      "U2,4",
+      "U2,5"
+     ]
+    },
+    {
+     "name": "N00125",
+     "nodes": [
+      "U2,9",
+      "U2,6",
+      "C4,2"
+     ]
+    },
+    {
+     "name": "N00126",
+     "nodes": [
+      "U2,1",
+      "U2,2",
+      "R22,2",
+      "C4,1"
+     ]
+    },
+    {
+     "name": "VCC",
+     "nodes": [
+      "R6,1",
+      "R5,1",
+      "K4,1",
+      "D4,1",
+      "K2,1",
+      "K3,1",
+      "D3,1",
+      "K1,1",
+      "F2,2",
+      "Q4,3",
+      "R10,1",
+      "R38,1",
+      "C15,1",
+      "R19,1",
+      "Q5,3",
+      "U3,8",
+      "C19,1",
+      "R33,1",
+      "Q6,2"
+     ]
+    },
+    {
+     "name": "GND",
+     "nodes": [
+      "Q2,1",
+      "Q1,1",
+      "C21,2",
+      "DS1,1",
+      "D9,2",
+      "C2,2",
+      "C1,2",
+      "P18,GND",
+      "C21,1",
+      "R10,2",
+      "P14,6",
+      "P14,8",
+      "P14,10",
+      "P14,12",
+      "C16,2",
+      "R39,2",
+      "C17,2",
+      "R20,2",
+      "C3,2",
+      "U2,7",
+      "P17,3",
+      "P17,5",
+      "P17,8",
+      "Q7,2",
+      "R34,2",
+      "U3,4",
+      "C19,2",
+      "R37,2",
+      "U1,13",
+      "U1,1",
+      "U1,3",
+      "R25,1",
+      "R40,1",
+      "U1,7",
+      "U1,8",
+      "U1,6",
+      "C6,2",
+      "R43,2",
+      "R24,1",
+      "C5,2",
+      "R42,1",
+      "R41,2",
+      "R32,1"
+     ]
+    },
+    {
+     "name": "ISOA1+",
+     "nodes": [
+      "ISO1,6",
+      "P6,3"
+     ]
+    },
+    {
+     "name": "ISOA1-",
+     "nodes": [
+      "ISO1,5",
+      "P6,4"
+     ]
+    },
+    {
+     "name": "ISOA2+",
+     "nodes": [
+      "ISO1,7",
+      "P6,5"
+     ]
+    },
+    {
+     "name": "ISOA2-",
+     "nodes": [
+      "ISO1,8",
+      "P6,6"
+     ]
+    },
+    {
+     "name": "ISOB1+",
+     "nodes": [
+      "ISO3,6",
+      "P6,9"
+     ]
+    },
+    {
+     "name": "ISOB1-",
+     "nodes": [
+      "ISO3,5",
+      "P6,10"
+     ]
+    },
+    {
+     "name": "ISOB2+",
+     "nodes": [
+      "ISO3,7",
+      "P6,11"
+     ]
+    },
+    {
+     "name": "ISOB2-",
+     "nodes": [
+      "ISO3,8",
+      "P6,12"
+     ]
+    },
+    {
+     "name": "+5V",
+     "nodes": [
+      "Q5,1",
+      "U2,14",
+      "R21,2",
+      "R23,2",
+      "R44,2",
+      "U1,16"
+     ]
+    },
+    {
+     "name": "V/2",
+     "nodes": [
+      "C15,2",
+      "R39,1",
+      "R38,2",
+      "C17,1",
+      "C16,1",
+      "U3,5",
+      "U3,3"
+     ]
+    }
+   ],
+   "title": "POD 7 - CONTROL ROOM INTERFACE",
+   "file": "POD7.NET"
+  }
+ ],
+ "boms": [
+  {
+   "file": "POD7.BOM",
+   "header": [
+    "POD 7 - CONTROL ROOM INTERFACE                Revised:   October 20, 1995",
+    "B 14-316-02-001                               Revision: 1",
+    "Bill Of Materials                March   13, 1996     8:39:16     Page    1"
+   ],
+   "items": [
+    {
+     "item": 1,
+     "qty": 1,
+     "refs": "C1",
+     "part": "10/35"
+    },
+    {
+     "item": 2,
+     "qty": 1,
+     "refs": "C2",
+     "part": "1000/63"
+    },
+    {
+     "item": 3,
+     "qty": 3,
+     "refs": "C3,C4,C17",
+     "part": "22/25"
+    },
+    {
+     "item": 4,
+     "qty": 2,
+     "refs": "C5,C6",
+     "part": "1000P"
+    },
+    {
+     "item": 5,
+     "qty": 6,
+     "refs": "C7,C8,C9,C10,C12,C18",
+     "part": "47/25"
+    },
+    {
+     "item": 6,
+     "qty": 2,
+     "refs": "C11,C13",
+     "part": "22P"
+    },
+    {
+     "item": 7,
+     "qty": 1,
+     "refs": "C14",
+     "part": "1000/25"
+    },
+    {
+     "item": 8,
+     "qty": 3,
+     "refs": "C15,C16,C19",
+     "part": "0.1/50"
+    },
+    {
+     "item": 9,
+     "qty": 1,
+     "refs": "C21",
+     "part": "0.047/250V"
+    },
+    {
+     "item": 10,
+     "qty": 1,
+     "refs": "DS1",
+     "part": "RED"
+    },
+    {
+     "item": 11,
+     "qty": 2,
+     "refs": "DS2,DS3",
+     "part": "YELLOW"
+    },
+    {
+     "item": 12,
+     "qty": 13,
+     "refs": "D1,D2,D3,D4,D5,D6,D10,D11,D12,D13,D14,D15,D16",
+     "part": "1N4003"
+    },
+    {
+     "item": 13,
+     "qty": 1,
+     "refs": "D9",
+     "part": "1N4748"
+    },
+    {
+     "item": 14,
+     "qty": 2,
+     "refs": "F1,F3",
+     "part": "0.5A"
+    },
+    {
+     "item": 15,
+     "qty": 1,
+     "refs": "F2",
+     "part": "0.25A"
+    },
+    {
+     "item": 16,
+     "qty": 5,
+     "refs": "ISO1,ISO2,ISO3,ISO4,ISO5",
+     "part": "ILD1"
+    },
+    {
+     "item": 17,
+     "qty": 4,
+     "refs": "K1,K2,K3,K4",
+     "part": "RZ-24"
+    },
+    {
+     "item": 18,
+     "qty": 4,
+     "refs": "P1,P2,P3,P4",
+     "part": "1502-2"
+    },
+    {
+     "item": 19,
+     "qty": 7,
+     "refs": "P5,P7,P8,P12,P13,P15,P16",
+     "part": "CON3"
+    },
+    {
+     "item": 20,
+     "qty": 6,
+     "refs": "P6,P9,P10,P11,P14,P17",
+     "part": "CON12"
+    },
+    {
+     "item": 21,
+     "qty": 1,
+     "refs": "P18",
+     "part": "115V/230V AC"
+    },
+    {
+     "item": 22,
+     "qty": 2,
+     "refs": "Q1,Q2",
+     "part": "2N6731"
+    },
+    {
+     "item": 23,
+     "qty": 2,
+     "refs": "Q3,Q5",
+     "part": "2N3904"
+    },
+    {
+     "item": 24,
+     "qty": 1,
+     "refs": "Q4",
+     "part": "TIP29"
+    },
+    {
+     "item": 25,
+     "qty": 1,
+     "refs": "Q6",
+     "part": "TIP29B"
+    },
+    {
+     "item": 26,
+     "qty": 1,
+     "refs": "Q7",
+     "part": "TIP30B"
+    },
+    {
+     "item": 27,
+     "qty": 8,
+     "refs": "R1,R3,R11,R13,R15,R17,R21,R22",
+     "part": "10K"
+    },
+    {
+     "item": 28,
+     "qty": 6,
+     "refs": "R2,R4,R12,R14,R16,R18",
+     "part": "1K5"
+    },
+    {
+     "item": 29,
+     "qty": 2,
+     "refs": "R5,R6",
+     "part": "2K2"
+    },
+    {
+     "item": 30,
+     "qty": 1,
+     "refs": "R7",
+     "part": "22 3W"
+    },
+    {
+     "item": 31,
+     "qty": 1,
+     "refs": "R8",
+     "part": "15K"
+    },
+    {
+     "item": 32,
+     "qty": 1,
+     "refs": "R9",
+     "part": "10K 3W"
+    },
+    {
+     "item": 33,
+     "qty": 8,
+     "refs": "R10,R24,R25,R37,R40,R41,R42,R43",
+     "part": "100K"
+    },
+    {
+     "item": 34,
+     "qty": 1,
+     "refs": "R19",
+     "part": "11K"
+    },
+    {
+     "item": 35,
+     "qty": 2,
+     "refs": "R20,R44",
+     "part": "4K7"
+    },
+    {
+     "item": 36,
+     "qty": 1,
+     "refs": "R23",
+     "part": "620"
+    },
+    {
+     "item": 37,
+     "qty": 2,
+     "refs": "R26,R27",
+     "part": "16K2 1%"
+    },
+    {
+     "item": 38,
+     "qty": 2,
+     "refs": "R28,R29",
+     "part": "4K75 1%"
+    },
+    {
+     "item": 39,
+     "qty": 1,
+     "refs": "R30",
+     "part": "2K"
+    },
+    {
+     "item": 40,
+     "qty": 1,
+     "refs": "R31",
+     "part": "12K"
+    },
+    {
+     "item": 41,
+     "qty": 1,
+     "refs": "R32",
+     "part": "5K"
+    },
+    {
+     "item": 42,
+     "qty": 2,
+     "refs": "R33,R34",
+     "part": "3K"
+    },
+    {
+     "item": 43,
+     "qty": 2,
+     "refs": "R36,R35",
+     "part": "2R2 1W"
+    },
+    {
+     "item": 44,
+     "qty": 2,
+     "refs": "R39,R38",
+     "part": "10K 1%"
+    },
+    {
+     "item": 45,
+     "qty": 1,
+     "refs": "SW1",
+     "part": ""
+    },
+    {
+     "item": 46,
+     "qty": 1,
+     "refs": "T1",
+     "part": "229C56"
+    },
+    {
+     "item": 47,
+     "qty": 1,
+     "refs": "U1",
+     "part": "74HC4053"
+    },
+    {
+     "item": 48,
+     "qty": 1,
+     "refs": "U2",
+     "part": "74HC132"
+    },
+    {
+     "item": 49,
+     "qty": 1,
+     "refs": "U3",
+     "part": "NE5532"
+    }
+   ]
+  }
+ ],
+ "libraries": [
+  "POD7.LIB"
+ ]
+}

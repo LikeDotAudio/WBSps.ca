@@ -1,0 +1,55 @@
+# 1995 - 445-03-016 - EXTENDED RANGE METER SPEAKER SCREEN - DRN DRG - ISS 1.jpg
+Wiki page: [M445](../../../PAGES/M445.md)
+
+
+- **Year:** 1995 (title block date)
+- **Module:** M445
+- **Category:** METER
+- **Module year estimate:** 1996 — manual_issue "Issue #1 January 10, 1996" in WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - Word Perfect Manuals/M445.WP
+
+## Title block (found by software, read by eye)
+
+- **Drawing:** B 445-03-016
+- **Size:** B
+- **Title:** M445 / EXTENDED RANGE METER / SPEAKER SCREEN
+- **Date:** AUG95
+- **Drawn:** DRG (AUG95)
+- **Issue:** 1
+- **Confidence:** high
+
+- **Original file:** `WBSps.env/WBS Photos-1-001/WBSps.ca 20210320 - Scans (119).jpg`
+- **SHA-256:** `ec294bd3bd7845f2312cb05d09bfb91a125b0b48b6ba7be72bac27c8f64f6b70`
+- **Size:** 538,372 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR)
+
+```text
+2.220
+0.080
+2.060
+0.215
+0.335
+1.550
+0.070
+0.130 DIA
+4 REQ'D
+0.358
+2.300 2.620 2.062
+0.093 RAD TYP
+0.12 RAD
+CORNERS
+NOTES: REMOVE ALL BURRS AND SHARP EDGES TOLERANCES: XXX /-0.015 XXXX =+/-0.005 MATERIAL: PERFORATED CRS: 24 GA: 1/16 DIA: PERFORATION ON /8 STAGGERED CENTERS FINISH: PAINT EXTRA FINE TEXTURED BLACK   TEXCOTE VINYL.
+ISSUE
+REMSION
+APP _
+LWES WARD-BECK SYSTEMS DRN: DRG(AU695) M445 ENG EXTENDED RANGE METER CKD APP SPEAKER SCREEN SCALE DISC NO:M:m445 ISSUE B 445-03-016 CODE: MM445-16
+```
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/METER/M445/1995 - 445-03-016 - EXTENDED RANGE METER SPEAKER SCREEN - DRN DRG - ISS 1.jpg","sha256":"ec294bd3bd7845f2312cb05d09bfb91a125b0b48b6ba7be72bac27c8f64f6b70","kind":"module","models":["M445"],"year":1995,"pages":1,"order":[{"page":1,"title_block":[{"number":"B 445-03-016","type":"wiring","title":"M445 / EXTENDED RANGE METER / SPEAKER SCREEN","date":"AUG95","year":1995,"issue":"1"}],"text":["2.220","080 2.060","0.215 0.335 1.550","070 0.130 DIA 4 REQ'D","0.358","2.620  2.300 2.062","0.093 RAD TYP 0.12 RAD 4 CORNERS","NOTES:","REMOVE ALL BURRS AND SHARP EDGES","2.  TOLERANCES: XXX /-0.015 XXXX =+/-0.005","MATERIAL: PERFORATED CR.S 24 GA_ REMSION APP","1/16 DIA: PERFORATION   ON WES WARD-BECK SYSTEMS","/8 STAGGERED   CENTERS:","DRN: DRC(AuG95) M445","FINISH: PAINT EXTRA FINE TEXTURED ENC: EXTENDED RANGE METER","BLACK   TEXCOTE VNYL: SPEAKERSCREEN","445-03-016 ISSUE","CODE:"]}],"drawing":{"svg":"_traces/ec294bd3bd7845f2.svg","viewBox":[2000,1414],"rotate":0,"size":"B","number":"B 445-03-016","title":"M445 / EXTENDED RANGE METER / SPEAKER SCREEN","dtype":"03","outlines":"see _traces/ec294bd3bd7845f2.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/ec294bd3bd7845f2.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[999,389,"2.220"],[806,451,"080"],[999,451,"2.060"],[606,509,"0.215"],[791,506,"0.335"],[1001,506,"1.550"],[706,539,"070"],[1239,546,"0.130 DIA"],[1366,546,"4 REQ'D"],[791,596,"0.358"],[668,735,"2.620  2.300"],[796,744,"2.062"],[654,944,"0.093 RAD"],[766,941,"TYP"],[1199,944,"0.12 RAD"],[1321,941,"4 CORNERS"],[171,1134,"NOTES:"],[196,1157,"REMOVE"],[284,1154,"ALL BURRS AND"],[446,1154,"SHARP EDGES"],[174,1176,"2.  TOLERANCES:"],[336,1174,"XXX"],[431,1176,"/-0.015"],[540,1179,"XXXX =+/-0.005"],[201,1197,"MATERIAL:"],[309,1197,"PERFORATED CR.S"],[501,1194,"24"],[536,1194,"GA_"],[1674,1186,"REMSION"],[1888,1183,"APP"],[306,1219,"1/16"],[361,1216,"DIA:"],[404,1216,"PERFORATION   ON"],[1414,1219,"WES"],[1586,1219,"WARD-BECK"],[1771,1216,"SYSTEMS"],[314,1239,"/8 STAGGERED   CENTERS:"],[1384,1246,"DRN:"],[1429,1246,"DRC(AuG95)"],[1689,1252,"M445"],[199,1267,"FINISH:"],[279,1267,"PAINT EXTRA FINE TEXTURED"],[1385,1258,"ENC:"],[1601,1269,"EXTENDED RANGE METER"],[279,1286,"BLACK   TEXCOTE"],[441,1286,"VNYL:"],[1636,1289,"SPEAKERSCREEN"],[1870,1298,"ISSUE"],[1664,1316,"445-03-016"],[1452,1318,"CODE:"]]}}
+```

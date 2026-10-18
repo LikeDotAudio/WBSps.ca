@@ -1,0 +1,600 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M481 — Oscilator and Cue Amp</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../../../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../../../index.html">Index</a><a href="../../../Home.html">Wiki home</a><a href="../../../PAGES/Timeline.html">Timeline</a><a href="../../../search.html">Search</a><a href="../../../status.html">Status</a></div><h1>M481 — Oscilator and Cue Amp</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="../../../PAGES/Category-AMPLIFIERS.html">AMPLIFIERS</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../../../simulator.html?m=M481">simulator &amp; front panel</a> · <a href="../../../_packages/M481.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a> — title-block date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"DATE MAy 75" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M481 - Oscilator and Cue Amp/M481 - P006 - B-481-02-001 R.jpg</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+</tr>
+<tr>
+<td>Used in jobs</td>
+<td>1980-1989, Archived-Done-L1202AConsole</td>
+</tr>
+<tr>
+<td>Variants</td>
+<td><a href="../../../PAGES/M481B.html">M481B</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="index.html">Modules/AMPLIFIERS/M481</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections</h2>
+<p><em>What it is made of and what it is part of.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M481" data-n="Oscilator and Cue Amp" data-cat="AMPLIFIERS"></div><svg class="wbs-panel" data-m="M481" data-n="Oscilator and Cue Amp" data-cat="AMPLIFIERS" role="img" aria-label="M481 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M481","title":"Oscilator and Cue Amp","rto":{"code":"M481","series":null,"type":"M481 - Oscilator and Cue Amp","row_count":null,"impedance":{},"note":null,"audio":[],"bus_out":[],"bus_in":[],"power":[],"jumpers":[],"logic":[]},"parts":[{"item":"10-015","title":"","label":"10-015","href":"Register-Sub-assemblies-n-nnn.html#10-015","note":"Sub-assemblies (n-nnn)"}],"parents":[{"label":"1980-1989","href":"#","note":"console / job"},{"label":"Archived-Done-L1202AConsole","href":"#","note":"console / job"},{"label":"M481B","href":"M481B.html","note":"on 1 drawing with it: Cue OSC Re-entry Module"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1975%20-%20481-02-001%20-%20OSCILLATOR%20CUE%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%202.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M481/1975%20-%20481-02-001%20-%20OSCILLATOR%20CUE%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%202.jpg" alt="" data-f="Modules/AMPLIFIERS/M481/1975 - 481-02-001 - OSCILLATOR CUE AMPLIFIER SCHEMATIC - DRN DM - ISS 2.jpg" data-size="320" onerror="wbsOff(this)">1975 - 481-02-001 - OSCILLATOR CUE AMPLIFIER SCHEMATIC - DRN DM - ISS 2.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1975%20-%20M481%20-%20481-02-021%20-%20MICROFARADS%20UNLESS%20OTHERWISE%20SPECIFIED%20LAST%20COMPONENT%20DESIGNATIONS.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M481/1975%20-%20M481%20-%20481-02-021%20-%20MICROFARADS%20UNLESS%20OTHERWISE%20SPECIFIED%20LAST%20COMPONENT%20DESIGNATIONS.jpg" alt="" data-f="Modules/AMPLIFIERS/M481/1975 - M481 - 481-02-021 - MICROFARADS UNLESS OTHERWISE SPECIFIED LAST COMPONENT DESIGNATIONS.jpg" data-size="320" onerror="wbsOff(this)">1975 - M481 - 481-02-021 - MICROFARADS UNLESS OTHERWISE SPECIFIED LAST COMPONENT DESIGNATIONS.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1975%20-%20M481%20-%20481-04-002%20-%20EKD%20OSCILLATOR-CUE%20AMPLIFIER.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M481/1975%20-%20M481%20-%20481-04-002%20-%20EKD%20OSCILLATOR-CUE%20AMPLIFIER.jpg" alt="" data-f="Modules/AMPLIFIERS/M481/1975 - M481 - 481-04-002 - EKD OSCILLATOR-CUE AMPLIFIER.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1975 - M481 - 481-04-002 - EKD OSCILLATOR-CUE AMPLIFIER.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1975%20-%20M481%20-%20P001%20-%20Title%20Page.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M481/1975%20-%20M481%20-%20P001%20-%20Title%20Page.jpg" alt="" data-f="Modules/AMPLIFIERS/M481/1975 - M481 - P001 - Title Page.jpg" data-size="320" onerror="wbsOff(this)">1975 - M481 - P001 - Title Page.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1975%20-%20M481%20-%20P002%20-%201-1.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M481/1975%20-%20M481%20-%20P002%20-%201-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M481/1975 - M481 - P002 - 1-1.jpg" data-size="320" onerror="wbsOff(this)">1975 - M481 - P002 - 1-1.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1975%20-%20M481%20-%20P003%20-%201-2.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M481/1975%20-%20M481%20-%20P003%20-%201-2.jpg" alt="" data-f="Modules/AMPLIFIERS/M481/1975 - M481 - P003 - 1-2.jpg" data-size="320" onerror="wbsOff(this)">1975 - M481 - P003 - 1-2.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1975%20-%20M481%20-%20P004%20-%201-3.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M481/1975%20-%20M481%20-%20P004%20-%201-3.jpg" alt="" data-f="Modules/AMPLIFIERS/M481/1975 - M481 - P004 - 1-3.jpg" data-size="320" onerror="wbsOff(this)">1975 - M481 - P004 - 1-3.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1979%20-%20481-01-001%20-%20M481B%20CUE%2C%20OSC%2C%20RE-ENTRY%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20MRW%20-%20ISS%201.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M481/1979%20-%20481-01-001%20-%20M481B%20CUE%2C%20OSC%2C%20RE-ENTRY%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20MRW%20-%20ISS%201.jpg" alt="" data-f="Modules/AMPLIFIERS/M481/1979 - 481-01-001 - M481B CUE, OSC, RE-ENTRY MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG MRW - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1979 - 481-01-001 - M481B CUE, OSC, RE-ENTRY MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG MRW - ISS 1.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/1980-1989/1980%20-%201980-1989%20-%201202-02-016%20-%20MON%20RE-ENTRY%20SOLO.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/1980-1989/1980%20-%201980-1989%20-%201202-02-016%20-%20MON%20RE-ENTRY%20SOLO.jpg" alt="" data-f="Consoles/1980-1989/1980-1989/1980 - 1980-1989 - 1202-02-016 - MON RE-ENTRY SOLO.jpg" data-size="320" onerror="wbsOff(this)">1980 - 1980-1989 - 1202-02-016 - MON RE-ENTRY SOLO.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461/1975%20-%20M461%20-%20Rack%20mounted%203.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M461/1975%20-%20M461%20-%20Rack%20mounted%203.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M461/1975 - M461 - Rack mounted 3.jpg" data-size="320" onerror="wbsOff(this)">1975 - M461 - Rack mounted 3.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20461-01-002%20-%20SOLO%20CONTROL%20SOLO%20COMMON%20CONTROL%20%282%29.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20461-01-002%20-%20SOLO%20CONTROL%20SOLO%20COMMON%20CONTROL%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M461M/1975 - M461M - 461-01-002 - SOLO CONTROL SOLO COMMON CONTROL (2).jpg" data-size="320" onerror="wbsOff(this)">1975 - M461M - 461-01-002 - SOLO CONTROL SOLO COMMON CONTROL (2).jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461/1976%20-%20461-01-002%20-%20M461M%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20ELJ%20-%20ISS%203%20%282%29.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M461/1976%20-%20461-01-002%20-%20M461M%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20ELJ%20-%20ISS%203%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M461/1976 - 461-01-002 - M461M INPUT MODULE FUNCTIONAL DIAGRAM - DRN ELJ - ISS 3 (2).jpg" data-size="320" onerror="wbsOff(this)">1976 - 461-01-002 - M461M INPUT MODULE FUNCTIONAL DIAGRAM - DRN ELJ - ISS 3 (2).jpg</a><a href="../../../viewer.html?f=Consoles/Models/M1002/1977%20-%20M1002%20-%20008.jpg"><img loading="lazy" src="../../../Consoles/Models/M1002/1977%20-%20M1002%20-%20008.jpg" alt="" data-f="Consoles/Models/M1002/1977 - M1002 - 008.jpg" data-size="320" onerror="wbsOff(this)">1977 - M1002 - 008.jpg</a><a href="../../../viewer.html?f=Consoles/Models/M1002/1977%20-%20M1002%20-%20012%20-%20M481%20Re-Rentry%20PFL%20Solo.jpg"><img loading="lazy" src="../../../Consoles/Models/M1002/1977%20-%20M1002%20-%20012%20-%20M481%20Re-Rentry%20PFL%20Solo.jpg" alt="" data-f="Consoles/Models/M1002/1977 - M1002 - 012 - M481 Re-Rentry PFL Solo.jpg" data-size="320" onerror="wbsOff(this)">1977 - M1002 - 012 - M481 Re-Rentry PFL Solo.jpg</a><a href="../../../viewer.html?f=Consoles/Models/L1202A/1982%20-%201202-02-016%20-%20OSC%2C%20CUE%20SOLO%2C%20RE-ENTRY%20%26%20AUX%20LEVEL%20SCHEMATIC%20-%20DRN%20JP%20-%20ENG%20MRW%20-%20ISS%201.jpg"><img loading="lazy" src="../../../Consoles/Models/L1202A/1982%20-%201202-02-016%20-%20OSC%2C%20CUE%20SOLO%2C%20RE-ENTRY%20%26%20AUX%20LEVEL%20SCHEMATIC%20-%20DRN%20JP%20-%20ENG%20MRW%20-%20ISS%201.jpg" alt="" data-f="Consoles/Models/L1202A/1982 - 1202-02-016 - OSC, CUE SOLO, RE-ENTRY &amp; AUX LEVEL SCHEMATIC - DRN JP - ENG MRW - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1982 - 1202-02-016 - OSC, CUE SOLO, RE-ENTRY &amp; AUX LEVEL SCHEMATIC - DRN JP - ENG MRW - ISS 1.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481B/1982%20-%20M481B%20-%20P06%20-%203-1.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M481B/1982%20-%20M481B%20-%20P06%20-%203-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M481B/1982 - M481B - P06 - 3-1.jpg" data-size="320" onerror="wbsOff(this)">1982 - M481B - P06 - 3-1.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20481-03-015%20-%20DUAL%20BOOSTER%20AMPLIFIER.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M456B/1975%20-%20M456B%20-%20481-03-015%20-%20DUAL%20BOOSTER%20AMPLIFIER.jpg" alt="" data-f="Modules/ROUTING/M456B/1975 - M456B - 481-03-015 - DUAL BOOSTER AMPLIFIER.jpg" data-size="320" onerror="wbsOff(this)">1975 - M456B - 481-03-015 - DUAL BOOSTER AMPLIFIER.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M457/1975%20-%20M457%20-%20481-03-015%20-%20DUAL%20BOOSTER%20AMPLIFIER.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M457/1975%20-%20M457%20-%20481-03-015%20-%20DUAL%20BOOSTER%20AMPLIFIER.jpg" alt="" data-f="Modules/ROUTING/M457/1975 - M457 - 481-03-015 - DUAL BOOSTER AMPLIFIER.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1975 - M457 - 481-03-015 - DUAL BOOSTER AMPLIFIER.jpg</a><a href="../../../viewer.html?f=Modules/ROUTING/M457/1975%20-%20M457%20-%20481-03-015%20-%20GEB%20USED.jpg"><img loading="lazy" src="../../../Modules/ROUTING/M457/1975%20-%20M457%20-%20481-03-015%20-%20GEB%20USED.jpg" alt="" data-f="Modules/ROUTING/M457/1975 - M457 - 481-03-015 - GEB USED.jpg" data-size="320" onerror="wbsOff(this)">1975 - M457 - 481-03-015 - GEB USED.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481B/1982%20-%20M481B%20-%20481-02-002%20-%20CUE%20OSC%20RE-ENTRY%20MODULE%20SCHEMATIC.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M481B/1982%20-%20M481B%20-%20481-02-002%20-%20CUE%20OSC%20RE-ENTRY%20MODULE%20SCHEMATIC.jpg" alt="" data-f="Modules/AMPLIFIERS/M481B/1982 - M481B - 481-02-002 - CUE OSC RE-ENTRY MODULE SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)">1982 - M481B - 481-02-002 - CUE OSC RE-ENTRY MODULE SCHEMATIC.jpg</a><a href="../../../viewer.html?f=Modules/SUMMING/M487/19xx%20-%20M487%20-%20DOC%20-%20481-02-002%20-%20CUE%20OSC%20RE-ENTRY%20MODULE%20SCHEMATIC.jpg"><img loading="lazy" src="../../../Modules/SUMMING/M487/19xx%20-%20M487%20-%20DOC%20-%20481-02-002%20-%20CUE%20OSC%20RE-ENTRY%20MODULE%20SCHEMATIC.jpg" alt="" data-f="Modules/SUMMING/M487/19xx - M487 - DOC - 481-02-002 - CUE OSC RE-ENTRY MODULE SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)">19xx - M487 - DOC - 481-02-002 - CUE OSC RE-ENTRY MODULE SCHEMATIC.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481B/1982%20-%20M481B%20-%20481-04-002%20-%20AUX%20MASTER%20REF%20OSC.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M481B/1982%20-%20M481B%20-%20481-04-002%20-%20AUX%20MASTER%20REF%20OSC.jpg" alt="" data-f="Modules/AMPLIFIERS/M481B/1982 - M481B - 481-04-002 - AUX MASTER REF OSC.jpg" data-size="320" onerror="wbsOff(this)">1982 - M481B - 481-04-002 - AUX MASTER REF OSC.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481B/1982%20-%20M481B%20-%20481-06-002%20-%20CUE%20OSC%20RE-ENTRY%20MODULE%20COMPONENT%20LAYOUT.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M481B/1982%20-%20M481B%20-%20481-06-002%20-%20CUE%20OSC%20RE-ENTRY%20MODULE%20COMPONENT%20LAYOUT.jpg" alt="" data-f="Modules/AMPLIFIERS/M481B/1982 - M481B - 481-06-002 - CUE OSC RE-ENTRY MODULE COMPONENT LAYOUT.jpg" data-size="320" onerror="wbsOff(this)">1982 - M481B - 481-06-002 - CUE OSC RE-ENTRY MODULE COMPONENT LAYOUT.jpg</a></div>
+<h2>Price history</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Price</th>
+<th>Listed as</th>
+<th>Effective</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Year-2005.html">2005|38</a></td>
+<td>used market value</td>
+<td>10.00</td>
+<td>M481 Oscillator / Cue Amplifier</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/old website/PriceGuide.htm</td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-2006.html">2006|39</a></td>
+<td>used market value</td>
+<td>10.00</td>
+<td>M481 Oscillator / Cue Amplifier</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/jan 2006 shell/priceguide.htm</td>
+</tr>
+</tbody>
+</table>
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td>title-block date</td>
+<td><code>DATE MAy 75</code></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1975%20-%20481-02-001%20-%20OSCILLATOR%20CUE%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%202.jpg">1975 - 481-02-001 - OSCILLATOR CUE AMPLIFIER SCHEMATIC - DRN DM - ISS 2.jpg</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td>title-block date</td>
+<td><code>DATE MAy 75</code></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1975%20-%20M481%20-%20481-02-021%20-%20MICROFARADS%20UNLESS%20OTHERWISE%20SPECIFIED%20LAST%20COMPONENT%20DESIGNATIONS.jpg">1975 - M481 - 481-02-021 - MICROFARADS UNLESS OTHERWISE SPECIFIED LAST COMPONENT DESIGNATIONS.jpg</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Physical manual inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Location</th>
+<th>Status</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M481 - Oscilator and Cue Amp</td>
+<td></td>
+<td></td>
+<td>PDF - Already scanned</td>
+</tr>
+</tbody>
+</table>
+<h2>Documents (2)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1975%20-%20M481%20-%20Oscilator%20and%20Cue%20Amp%20%282%29.pdf">1975 - M481 - Oscilator and Cue Amp (2).pdf</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1975%20-%20M481%20-%20Oscilator%20and%20Cue%20Amp%20%282%29.pdf.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1975%20-%20M481%20-%20Oscilator%20and%20Cue%20Amp.pdf">1975 - M481 - Oscilator and Cue Amp.pdf</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1975%20-%20M481%20-%20Oscilator%20and%20Cue%20Amp.pdf.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (8)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1975%20-%20481-02-001%20-%20OSCILLATOR%20CUE%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%202.jpg">1975 - 481-02-001 - OSCILLATOR CUE AMPLIFIER SCHEMATIC - DRN DM - ISS 2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1975%20-%20481-02-001%20-%20OSCILLATOR%20CUE%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1975%20-%20M481%20-%20481-02-021%20-%20MICROFARADS%20UNLESS%20OTHERWISE%20SPECIFIED%20LAST%20COMPONENT%20DESIGNATIONS.jpg">1975 - M481 - 481-02-021 - MICROFARADS UNLESS OTHERWISE SPECIFIED LAST COMPONENT DESIGNATIONS.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1975%20-%20M481%20-%20481-02-021%20-%20MICROFARADS%20UNLESS%20OTHERWISE%20SPECIFIED%20LAST%20COMPONENT%20DESIGNATIONS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1975%20-%20M481%20-%20481-04-002%20-%20EKD%20OSCILLATOR-CUE%20AMPLIFIER.jpg">1975 - M481 - 481-04-002 - EKD OSCILLATOR-CUE AMPLIFIER.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1975%20-%20M481%20-%20481-04-002%20-%20EKD%20OSCILLATOR-CUE%20AMPLIFIER.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1975%20-%20M481%20-%20P001%20-%20Title%20Page.jpg">1975 - M481 - P001 - Title Page.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1975%20-%20M481%20-%20P001%20-%20Title%20Page.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1975%20-%20M481%20-%20P002%20-%201-1.jpg">1975 - M481 - P002 - 1-1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1975%20-%20M481%20-%20P002%20-%201-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1975%20-%20M481%20-%20P003%20-%201-2.jpg">1975 - M481 - P003 - 1-2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1975%20-%20M481%20-%20P003%20-%201-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1975%20-%20M481%20-%20P004%20-%201-3.jpg">1975 - M481 - P004 - 1-3.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1975%20-%20M481%20-%20P004%20-%201-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1979%20-%20481-01-001%20-%20M481B%20CUE%2C%20OSC%2C%20RE-ENTRY%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20MRW%20-%20ISS%201.jpg">1979 - 481-01-001 - M481B CUE, OSC, RE-ENTRY MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG MRW - ISS 1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1979%20-%20481-01-001%20-%20M481B%20CUE%2C%20OSC%2C%20RE-ENTRY%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20MRW%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Sub-assemblies &amp; parts used (1)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What</th>
+<th>Family</th>
+<th>Year</th>
+<th>How we know</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Register-Sub-assemblies-n-nnn.html#10-015">10-015</a></td>
+<td></td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1988|21</td>
+<td>named in its manual</td>
+</tr>
+</tbody>
+</table>
+<h2>Consoles &amp; jobs it is connected to (2)</h2>
+<p><em>Their own drawings name this module.</em></p>
+<table>
+<thead>
+<tr>
+<th>Job</th>
+<th>Year</th>
+<th>Drawing</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1980-1989</td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/1980-1989/1980%20-%201980-1989%20-%201202-02-016%20-%20MON%20RE-ENTRY%20SOLO.jpg">1980 - 1980-1989 - 1202-02-016 - MON RE-ENTRY SOLO.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td>Archived-Done-L1202AConsole</td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/2000-2009/Archived%20-%20Done%20-%20L1202A%20Console/2001%20-%20L1202A%20-%201202-02-016%20-%20MON%20RE-ENTRY%20SOLO.jpg">2001 - L1202A - 1202-02-016 - MON RE-ENTRY SOLO.jpg</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (12)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../viewer.html?f=Products/RTO/RTO-144/19xx%20-%20RTO-144%20-%20Module%20RTO-144%20Jumper%20calculator.xlsx">19xx - RTO-144 - Module RTO-144 Jumper calculator.xlsx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461/1975%20-%20M461%20-%20Rack%20mounted%203.jpg">1975 - M461 - Rack mounted 3.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461M/1975%20-%20M461M%20-%20461-01-002%20-%20SOLO%20CONTROL%20SOLO%20COMMON%20CONTROL%20%282%29.jpg">1975 - M461M - 461-01-002 - SOLO CONTROL SOLO COMMON CONTROL (2).jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M461/1976%20-%20461-01-002%20-%20M461M%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20ELJ%20-%20ISS%203%20%282%29.jpg">1976 - 461-01-002 - M461M INPUT MODULE FUNCTIONAL DIAGRAM - DRN ELJ - ISS 3 (2).jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Consoles/Models/M1002/1977%20-%20M1002%20-%20008.jpg">1977 - M1002 - 008.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Consoles/Models/M1002/1977%20-%20M1002%20-%20012%20-%20M481%20Re-Rentry%20PFL%20Solo.jpg">1977 - M1002 - 012 - M481 Re-Rentry PFL Solo.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Consoles/Models/L1202A/1982%20-%201202-02-016%20-%20OSC%2C%20CUE%20SOLO%2C%20RE-ENTRY%20%26%20AUX%20LEVEL%20SCHEMATIC%20-%20DRN%20JP%20-%20ENG%20MRW%20-%20ISS%201.jpg">1982 - 1202-02-016 - OSC, CUE SOLO, RE-ENTRY &amp; AUX LEVEL SCHEMATIC - DRN JP - ENG MRW - ISS 1.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481B/1982%20-%20M481B%20-%20Cue%20OSC%20Re-entry%20Module%20%282%29.pdf">1982 - M481B - Cue OSC Re-entry Module (2).pdf</a></td>
+<td>10</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481B/1982%20-%20M481B%20-%20Cue%20OSC%20Re-entry%20Module.pdf">1982 - M481B - Cue OSC Re-entry Module.pdf</a></td>
+<td>6</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481B/1982%20-%20M481B%20-%20P06%20-%203-1.jpg">1982 - M481B - P06 - 3-1.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/MONITORING/M482B/1982%20-%20M482B%20-%20Monitor%20Module%20%282%29.pdf">1982 - M482B - Monitor Module (2).pdf</a></td>
+<td>12</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M487/1982%20-%20M487%20-%20Dual%20Master%20Module%20%282%29.pdf">1982 - M487 - Dual Master Module (2).pdf</a></td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+<h2>Drawings (15)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Drawn by</a></th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>481-02-021</td>
+<td>Microfarads Unless Otherwise Specified Last Component Designations</td>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td><a href="../../../PAGES/Person-DM.html">DM</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1975%20-%20M481%20-%20481-02-021%20-%20MICROFARADS%20UNLESS%20OTHERWISE%20SPECIFIED%20LAST%20COMPONENT%20DESIGNATIONS.jpg">file</a></td>
+</tr>
+<tr>
+<td>481-03-015</td>
+<td>Dual Booster Amplifier</td>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td><a href="../../../PAGES/Person-DM.html">DM</a></td>
+<td>R LAYOUT</td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M456B/1975%20-%20M456B%20-%20481-03-015%20-%20DUAL%20BOOSTER%20AMPLIFIER.jpg">file</a></td>
+</tr>
+<tr>
+<td>481-03-015</td>
+<td>Dual Booster Amplifier</td>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td><a href="../../../PAGES/Person-DM.html">DM</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M457/1975%20-%20M457%20-%20481-03-015%20-%20DUAL%20BOOSTER%20AMPLIFIER.jpg">file</a></td>
+</tr>
+<tr>
+<td>481-03-015</td>
+<td>Geb Used</td>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td><a href="../../../PAGES/Person-DM.html">DM</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/ROUTING/M457/1975%20-%20M457%20-%20481-03-015%20-%20GEB%20USED.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 481-02-001</td>
+<td>M481 / OSCILLATOR/CUE AMPLIFIER / SCHEMATIC</td>
+<td><a href="../../../PAGES/Year-1975.html">1975|8</a></td>
+<td><a href="../../../PAGES/Person-DM.html">DM</a></td>
+<td></td>
+<td>2?</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1975%20-%20481-02-001%20-%20OSCILLATOR%20CUE%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 481-01-001</td>
+<td>M481B / CUE, OSC, RE-ENTRY MODULE / FUNCTIONAL DIAGRAM</td>
+<td><a href="../../../PAGES/Year-1979.html">1979|12</a></td>
+<td><a href="../../../PAGES/Person-P-MAHONEY.html">P MAHONEY</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1979%20-%20481-01-001%20-%20M481B%20CUE%2C%20OSC%2C%20RE-ENTRY%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20MRW%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Oscillator Cue</td>
+<td></td>
+<td><a href="../../../PAGES/Person-DO.html">DO</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1975%20-%20M481%20-%20Oscilator%20and%20Cue%20Amp.pdf">file</a> p.6</td>
+</tr>
+<tr>
+<td>481-02-002</td>
+<td>Cue Osc Re-Entry Module Schematic</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481B/1982%20-%20M481B%20-%20Cue%20OSC%20Re-entry%20Module.pdf">file</a> p.15</td>
+</tr>
+<tr>
+<td>481-02-002</td>
+<td>Cue Osc Re-Entry Module Schematic</td>
+<td></td>
+<td></td>
+<td></td>
+<td>U</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481B/1982%20-%20M481B%20-%20481-02-002%20-%20CUE%20OSC%20RE-ENTRY%20MODULE%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>481-02-002</td>
+<td>Cue Osc Re-Entry Module Schematic</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M487/19xx%20-%20M487%20-%20DOC%20-%20481-02-002%20-%20CUE%20OSC%20RE-ENTRY%20MODULE%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>481-04-002</td>
+<td>Ekd Oscillator/Cue Amplifier</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481/1975%20-%20M481%20-%20481-04-002%20-%20EKD%20OSCILLATOR-CUE%20AMPLIFIER.jpg">file</a></td>
+</tr>
+<tr>
+<td>481-04-002</td>
+<td>Sclo Level Cue Solo Cue Level</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481B/1982%20-%20M481B%20-%20Cue%20OSC%20Re-entry%20Module.pdf">file</a> p.12</td>
+</tr>
+<tr>
+<td>481-04-002</td>
+<td>Aux Master Ref Osc</td>
+<td></td>
+<td></td>
+<td>AU</td>
+<td>3</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481B/1982%20-%20M481B%20-%20481-04-002%20-%20AUX%20MASTER%20REF%20OSC.jpg">file</a></td>
+</tr>
+<tr>
+<td>481-06-002</td>
+<td>Cue Osc Re-Entry Module Component Layout</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481B/1982%20-%20M481B%20-%20Cue%20OSC%20Re-entry%20Module.pdf">file</a> p.13</td>
+</tr>
+<tr>
+<td>481-06-002</td>
+<td>Cue Osc Re-Entry Module Component Layout</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M481B/1982%20-%20M481B%20-%20481-06-002%20-%20CUE%20OSC%20RE-ENTRY%20MODULE%20COMPONENT%20LAYOUT.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M481&quot;,
+ &quot;name&quot;: &quot;Oscilator and Cue Amp&quot;,
+ &quot;category&quot;: &quot;AMPLIFIERS&quot;,
+ &quot;year&quot;: 1975,
+ &quot;made_of&quot;: [
+  &quot;10-015&quot;
+ ],
+ &quot;part_of&quot;: [
+  &quot;1980-1989&quot;,
+  &quot;Archived-Done-L1202AConsole&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M481/1975 - 481-02-001 - OSCILLATOR CUE AMPLIFIER SCHEMATIC - DRN DM - ISS 2.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M481/1975 - M481 - 481-02-021 - MICROFARADS UNLESS OTHERWISE SPECIFIED LAST COMPONENT DESIGNATIONS.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M481/1975 - M481 - 481-04-002 - EKD OSCILLATOR-CUE AMPLIFIER.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M481/1975 - M481 - Oscilator and Cue Amp (2).pdf&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 6,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M481/1975 - M481 - Oscilator and Cue Amp.pdf&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 6,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M481/1975 - M481 - P001 - Title Page.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M481/1975 - M481 - P002 - 1-1.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M481/1975 - M481 - P003 - 1-2.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M481/1975 - M481 - P004 - 1-3.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M481/1979 - 481-01-001 - M481B CUE, OSC, RE-ENTRY MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG MRW - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;modules&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../../../_catalog/wbs_reels.js" defer></script><script src="../../../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../../../_catalog/libcontrol/libcontrol.css"><script src="../../../_catalog/libcontrol/react.js"></script><script src="../../../_catalog/libcontrol/react-dom.js"></script><script src="../../../_catalog/libcontrol/libcontrol.js"></script><script src="../../../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M481.md</small></div></article><script src="../../../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

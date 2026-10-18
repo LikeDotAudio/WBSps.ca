@@ -1,0 +1,454 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="8465.2 -6866.8 6319.6 4001.6" data-units="mil" style="background:#0b1a10" stroke-linecap="round" stroke-linejoin="round">
+<title>VERSION</title>
+<rect x="8465.2" y="-6866.8" width="6319.6" height="4001.6" fill="#0b1a10"/>
+<g class="layer" id="L-1" data-name="Bottom copper" data-color="#3465c8" data-default="on" stroke="#3465c8" fill="#3465c8" font-family="monospace">
+<text x="11466" y="-5899" font-size="60" transform="rotate(-360 11466 -5899)">1</text>
+<text x="12800" y="-3475" font-size="80" transform="rotate(-0 12800 -3475)">Solder Side</text>
+<text x="13746" y="-3130" font-size="80" transform="rotate(-0 13746 -3130)">2</text>
+<text x="11750" y="-5463" font-size="48" transform="rotate(-360 11750 -5463)">1</text>
+<text x="11625" y="-5250" font-size="48" transform="rotate(-360 11625 -5250)">2</text>
+<text x="12625" y="-5350" font-size="48" transform="rotate(-360 12625 -5350)">15</text>
+<text x="12625" y="-5250" font-size="48" transform="rotate(-360 12625 -5250)">16</text>
+<text x="12075" y="-5113" font-size="48" transform="rotate(-360 12075 -5113)">P1</text>
+<text x="11400" y="-6125" font-size="48" transform="rotate(-360 11400 -6125)">U1</text>
+<text x="11337" y="-5813" font-size="80" transform="rotate(-360 11337 -5813)">WBS</text>
+<text x="11400" y="-5713" font-size="60" transform="rotate(-360 11400 -5713)">CANADA</text>
+<text x="11425" y="-5625" font-size="60" transform="rotate(-360 11425 -5625)">14-322</text>
+<text x="11400" y="-5538" font-size="60" transform="rotate(-360 11400 -5538)">ISSUE 1</text>
+<line x1="12082" y1="-5487" x2="12082" y2="-6080" stroke-width="12"/>
+<line x1="12025" y1="-5430" x2="12082" y2="-5487" stroke-width="12"/>
+<line x1="12382" y1="-5320" x2="12382" y2="-6080" stroke-width="12"/>
+<line x1="12482" y1="-5220" x2="12482" y2="-6080" stroke-width="12"/>
+<line x1="12282" y1="-5420" x2="12282" y2="-6080" stroke-width="12"/>
+<line x1="11582" y1="-5370" x2="11582" y2="-6080" stroke-width="12"/>
+<line x1="11682" y1="-5420" x2="11682" y2="-6080" stroke-width="12"/>
+<line x1="11782" y1="-5450" x2="11782" y2="-6080" stroke-width="12"/>
+<line x1="11882" y1="-5320" x2="11882" y2="-6080" stroke-width="12"/>
+<line x1="11982" y1="-5470" x2="11982" y2="-6080" stroke-width="12"/>
+<line x1="12182" y1="-5445" x2="12182" y2="-6080" stroke-width="12"/>
+<line x1="12182" y1="-5220" x2="12482" y2="-5220" stroke-width="12"/>
+<line x1="12107" y1="-5420" x2="12282" y2="-5420" stroke-width="12"/>
+<line x1="12131" y1="-6080" x2="12182" y2="-6080" stroke-width="12"/>
+<line x1="12031" y1="-6080" x2="12082" y2="-6080" stroke-width="12"/>
+<line x1="11982" y1="-5320" x2="11982" y2="-5395" stroke-width="12"/>
+<line x1="11932" y1="-5270" x2="11982" y2="-5320" stroke-width="12"/>
+<line x1="12082" y1="-5395" x2="12107" y2="-5420" stroke-width="12"/>
+<line x1="12082" y1="-5320" x2="12082" y2="-5395" stroke-width="12"/>
+<line x1="12032" y1="-5270" x2="12082" y2="-5320" stroke-width="12"/>
+<line x1="12132" y1="-5320" x2="12132" y2="-5370" stroke-width="12"/>
+<line x1="12132" y1="-5270" x2="12182" y2="-5220" stroke-width="12"/>
+<line x1="11731" y1="-6080" x2="11731" y2="-6230" stroke-width="12"/>
+<line x1="11831" y1="-6080" x2="11831" y2="-6230" stroke-width="12"/>
+<line x1="11832" y1="-5270" x2="11882" y2="-5320" stroke-width="12"/>
+<line x1="11931" y1="-6080" x2="11931" y2="-6230" stroke-width="12"/>
+<line x1="12031" y1="-6080" x2="12031" y2="-6230" stroke-width="12"/>
+<line x1="12131" y1="-6080" x2="12131" y2="-6230" stroke-width="12"/>
+<line x1="11932" y1="-5370" x2="11932" y2="-5420" stroke-width="12"/>
+<line x1="11932" y1="-5420" x2="11982" y2="-5470" stroke-width="12"/>
+<line x1="11931" y1="-6080" x2="11982" y2="-6080" stroke-width="12"/>
+<line x1="11831" y1="-6080" x2="11882" y2="-6080" stroke-width="12"/>
+<line x1="11832" y1="-5370" x2="11832" y2="-5450" stroke-width="12"/>
+<line x1="11782" y1="-5450" x2="11832" y2="-5450" stroke-width="12"/>
+<line x1="11731" y1="-6080" x2="11782" y2="-6080" stroke-width="12"/>
+<line x1="11632" y1="-6080" x2="11632" y2="-6230" stroke-width="12"/>
+<line x1="11632" y1="-6080" x2="11682" y2="-6080" stroke-width="12"/>
+<line x1="11732" y1="-5270" x2="11782" y2="-5320" stroke-width="12"/>
+<line x1="11782" y1="-5320" x2="11782" y2="-5420" stroke-width="12"/>
+<line x1="11682" y1="-5420" x2="11782" y2="-5420" stroke-width="12"/>
+<line x1="11531" y1="-6080" x2="11531" y2="-6230" stroke-width="12"/>
+<line x1="11582" y1="-5370" x2="11732" y2="-5370" stroke-width="12"/>
+<line x1="11531" y1="-6080" x2="11582" y2="-6080" stroke-width="12"/>
+<line x1="12232" y1="-6080" x2="12232" y2="-6230" stroke-width="12"/>
+<line x1="12232" y1="-6080" x2="12282" y2="-6080" stroke-width="12"/>
+<line x1="12432" y1="-6080" x2="12482" y2="-6080" stroke-width="12"/>
+<line x1="12432" y1="-6080" x2="12432" y2="-6230" stroke-width="12"/>
+<line x1="12332" y1="-6080" x2="12332" y2="-6230" stroke-width="12"/>
+<line x1="12332" y1="-6080" x2="12382" y2="-6080" stroke-width="12"/>
+<line x1="12132" y1="-5320" x2="12382" y2="-5320" stroke-width="12"/>
+<line x1="11982" y1="-5395" x2="12017" y2="-5430" stroke-width="12"/>
+<line x1="12017" y1="-5430" x2="12025" y2="-5430" stroke-width="12"/>
+<line x1="12032" y1="-5370" x2="12032" y2="-5395" stroke-width="12"/>
+<line x1="12083" y1="-5445" x2="12182" y2="-5445" stroke-width="12"/>
+<line x1="12032" y1="-5395" x2="12083" y2="-5445" stroke-width="12"/>
+</g>
+<g class="layer" id="L-16" data-name="Layer 16" data-color="#6aa84f" data-default="off" display="none" stroke="#6aa84f" fill="#6aa84f" font-family="monospace">
+<text x="11050" y="-4900" font-size="48" transform="rotate(-0 11050 -4900)">0.300</text>
+<text x="10300" y="-5625" font-size="48" transform="rotate(-0 10300 -5625)">1.275</text>
+<text x="8900" y="-3550" font-size="48" transform="rotate(-0 8900 -3550)">0.040 DIA. PLATED THRU</text>
+<text x="11833" y="-6493" font-size="48" transform="rotate(-0 11833 -6493)">1.842</text>
+<text x="11878" y="-6620" font-size="48" transform="rotate(-0 11878 -6620)">1.992</text>
+<text x="11325" y="-6386" font-size="48" transform="rotate(-0 11325 -6386)">0.150</text>
+<text x="12750" y="-3475" font-size="80" transform="rotate(-0 12750 -3475)">Drilling Detail</text>
+<text x="8895" y="-3685" font-size="48" transform="rotate(-0 8895 -3685)">0.036 DIA. PLATED THRU</text>
+<text x="13746" y="-3130" font-size="80" transform="rotate(-0 13746 -3130)">3</text>
+<text x="10600" y="-3900" font-size="80" transform="rotate(-0 10600 -3900)">Notes</text>
+<text x="8925" y="-3900" font-size="80" transform="rotate(-0 8925 -3900)">Drill Legend</text>
+<text x="10100" y="-3675" font-size="48" transform="rotate(-0 10100 -3675)">MATERIAL:</text>
+<text x="10100" y="-3550" font-size="48" transform="rotate(-0 10100 -3550)">FR-4 x 1/16 THICK GREEN PCB</text>
+<text x="10100" y="-3450" font-size="48" transform="rotate(-0 10100 -3450)">1 OZ. COPPER DOUBLED SIDED.</text>
+<text x="10100" y="-3175" font-size="48" transform="rotate(-0 10100 -3175)">FUSED TIN LEAD PLATE.</text>
+<text x="10100" y="-3300" font-size="48" transform="rotate(-0 10100 -3300)">FINISH:</text>
+<text x="8900" y="-3425" font-size="48" transform="rotate(-0 8900 -3425)">0.124 DIA. NON PLATED THRU</text>
+<text x="10500" y="-5775" font-size="48" transform="rotate(-0 10500 -5775)">0.902</text>
+<text x="10672" y="-6164" font-size="48" transform="rotate(-0 10672 -6164)">0.220</text>
+<text x="11925" y="-4725" font-size="48" transform="rotate(-0 11925 -4725)">2.042</text>
+<text x="11962" y="-4525" font-size="48" transform="rotate(-0 11962 -4525)">2.175</text>
+<text x="13037" y="-6075" font-size="48" transform="rotate(-0 13037 -6075)">0.400</text>
+<text x="13250" y="-5750" font-size="48" transform="rotate(-0 13250 -5750)">1.000</text>
+<text x="13400" y="-5650" font-size="48" transform="rotate(-0 13400 -5650)">1.134</text>
+<line x1="13115" y1="-5166" x2="13150" y2="-5166" stroke-width="10"/>
+<line x1="10950" y1="-4900" x2="11000" y2="-4925" stroke-width="10"/>
+<line x1="10950" y1="-4950" x2="11000" y2="-4925" stroke-width="10"/>
+<line x1="10850" y1="-4925" x2="11000" y2="-4925" stroke-width="10"/>
+<line x1="11300" y1="-4925" x2="11350" y2="-4900" stroke-width="10"/>
+<line x1="11300" y1="-4925" x2="11350" y2="-4950" stroke-width="10"/>
+<line x1="11300" y1="-4925" x2="11450" y2="-4925" stroke-width="10"/>
+<line x1="11300" y1="-4863" x2="11300" y2="-4975" stroke-width="10"/>
+<line x1="11300" y1="-5075" x2="11300" y2="-5325" stroke-width="10"/>
+<line x1="10350" y1="-6300" x2="10950" y2="-6300" stroke-width="10"/>
+<line x1="10350" y1="-5025" x2="10950" y2="-5025" stroke-width="10"/>
+<line x1="10600" y1="-5863" x2="10600" y2="-6300" stroke-width="10"/>
+<line x1="10600" y1="-5398" x2="10600" y2="-5738" stroke-width="10"/>
+<line x1="10400" y1="-6300" x2="10425" y2="-6250" stroke-width="10"/>
+<line x1="10375" y1="-6250" x2="10400" y2="-6300" stroke-width="10"/>
+<line x1="10400" y1="-5700" x2="10400" y2="-6300" stroke-width="10"/>
+<line x1="10400" y1="-5025" x2="10400" y2="-5600" stroke-width="10"/>
+<line x1="10375" y1="-5075" x2="10400" y2="-5025" stroke-width="10"/>
+<line x1="10400" y1="-5025" x2="10425" y2="-5075" stroke-width="10"/>
+<line x1="10900" y1="-6080" x2="10900" y2="-6300" stroke-width="10"/>
+<line x1="10575" y1="-6250" x2="10600" y2="-6300" stroke-width="10"/>
+<line x1="10600" y1="-6300" x2="10625" y2="-6250" stroke-width="10"/>
+<line x1="10500" y1="-5398" x2="10950" y2="-5398" stroke-width="10"/>
+<line x1="11050" y1="-5398" x2="11225" y2="-5398" stroke-width="10"/>
+<line x1="12842" y1="-5925" x2="12842" y2="-6000" stroke-width="10"/>
+<line x1="8775" y1="-3410" x2="8775" y2="-3450" stroke-width="4"/>
+<line x1="8740" y1="-3485" x2="8775" y2="-3450" stroke-width="4"/>
+<line x1="8775" y1="-3450" x2="8810" y2="-3485" stroke-width="4"/>
+<line x1="8735" y1="-3610" x2="8810" y2="-3535" stroke-width="4"/>
+<line x1="8735" y1="-3535" x2="8810" y2="-3610" stroke-width="4"/>
+<line x1="8735" y1="-3710" x2="8815" y2="-3710" stroke-width="4"/>
+<line x1="8775" y1="-3670" x2="8775" y2="-3745" stroke-width="4"/>
+<line x1="11000" y1="-6330" x2="11000" y2="-6680" stroke-width="10"/>
+<line x1="12992" y1="-6332" x2="12992" y2="-6682" stroke-width="10"/>
+<line x1="12842" y1="-6330" x2="12842" y2="-6592" stroke-width="10"/>
+<line x1="12792" y1="-6492" x2="12842" y2="-6517" stroke-width="10"/>
+<line x1="12792" y1="-6542" x2="12842" y2="-6517" stroke-width="10"/>
+<line x1="11000" y1="-6517" x2="11050" y2="-6492" stroke-width="10"/>
+<line x1="11000" y1="-6517" x2="11050" y2="-6542" stroke-width="10"/>
+<line x1="11000" y1="-6642" x2="11050" y2="-6617" stroke-width="10"/>
+<line x1="11000" y1="-6642" x2="11050" y2="-6667" stroke-width="10"/>
+<line x1="12942" y1="-6669" x2="12992" y2="-6644" stroke-width="10"/>
+<line x1="12942" y1="-6619" x2="12992" y2="-6644" stroke-width="10"/>
+<line x1="11150" y1="-6415" x2="11200" y2="-6390" stroke-width="10"/>
+<line x1="11150" y1="-6415" x2="11200" y2="-6440" stroke-width="10"/>
+<line x1="11150" y1="-6415" x2="11275" y2="-6415" stroke-width="10"/>
+<line x1="10950" y1="-6390" x2="11000" y2="-6415" stroke-width="10"/>
+<line x1="10950" y1="-6440" x2="11000" y2="-6415" stroke-width="10"/>
+<line x1="10863" y1="-6415" x2="11000" y2="-6415" stroke-width="10"/>
+<line x1="10050" y1="-3100" x2="10050" y2="-4100" stroke-width="10"/>
+<line x1="8650" y1="-3100" x2="8650" y2="-4100" stroke-width="10"/>
+<line x1="8650" y1="-3100" x2="11600" y2="-3100" stroke-width="10"/>
+<line x1="8650" y1="-4100" x2="11600" y2="-4100" stroke-width="10"/>
+<line x1="8650" y1="-3800" x2="11600" y2="-3800" stroke-width="10"/>
+<line x1="10700" y1="-6080" x2="10950" y2="-6080" stroke-width="10"/>
+<line x1="10575" y1="-5448" x2="10600" y2="-5398" stroke-width="10"/>
+<line x1="10600" y1="-5398" x2="10625" y2="-5448" stroke-width="10"/>
+<line x1="10900" y1="-6080" x2="10925" y2="-6130" stroke-width="10"/>
+<line x1="10875" y1="-6130" x2="10900" y2="-6080" stroke-width="10"/>
+<line x1="10900" y1="-6300" x2="10925" y2="-6250" stroke-width="10"/>
+<line x1="10875" y1="-6250" x2="10900" y2="-6300" stroke-width="10"/>
+<line x1="11037" y1="-6080" x2="11062" y2="-6080" stroke-width="10"/>
+<line x1="11225" y1="-6080" x2="12750" y2="-6080" stroke-width="10"/>
+<line x1="11150" y1="-6330" x2="11150" y2="-6469" stroke-width="10"/>
+<line x1="11150" y1="-6157" x2="11150" y2="-6230" stroke-width="10"/>
+<line x1="12842" y1="-6155" x2="12842" y2="-6230" stroke-width="10"/>
+<line x1="12075" y1="-6517" x2="12842" y2="-6517" stroke-width="10"/>
+<line x1="11000" y1="-6517" x2="11800" y2="-6517" stroke-width="10"/>
+<line x1="11000" y1="-6642" x2="11850" y2="-6642" stroke-width="10"/>
+<line x1="12125" y1="-6642" x2="12992" y2="-6642" stroke-width="10"/>
+<line x1="13042" y1="-5075" x2="13042" y2="-5100" stroke-width="10"/>
+<line x1="13042" y1="-4700" x2="13042" y2="-4975" stroke-width="10"/>
+<line x1="11000" y1="-4750" x2="11050" y2="-4725" stroke-width="10"/>
+<line x1="11000" y1="-4750" x2="11050" y2="-4775" stroke-width="10"/>
+<line x1="12992" y1="-4775" x2="13042" y2="-4750" stroke-width="10"/>
+<line x1="12992" y1="-4725" x2="13042" y2="-4750" stroke-width="10"/>
+<line x1="11000" y1="-4550" x2="11050" y2="-4525" stroke-width="10"/>
+<line x1="11000" y1="-4550" x2="11050" y2="-4575" stroke-width="10"/>
+<line x1="13125" y1="-4575" x2="13175" y2="-4550" stroke-width="10"/>
+<line x1="13125" y1="-4525" x2="13175" y2="-4550" stroke-width="10"/>
+<line x1="13175" y1="-4500" x2="13175" y2="-4975" stroke-width="10"/>
+<line x1="11000" y1="-4500" x2="11000" y2="-4975" stroke-width="10"/>
+<line x1="11000" y1="-4750" x2="11862" y2="-4750" stroke-width="10"/>
+<line x1="12187" y1="-4750" x2="13042" y2="-4750" stroke-width="10"/>
+<line x1="11000" y1="-4550" x2="11912" y2="-4550" stroke-width="10"/>
+<line x1="12225" y1="-4550" x2="13175" y2="-4550" stroke-width="10"/>
+<line x1="13025" y1="-5900" x2="13250" y2="-5900" stroke-width="10"/>
+<line x1="13137" y1="-6300" x2="13162" y2="-6250" stroke-width="10"/>
+<line x1="13112" y1="-6250" x2="13137" y2="-6300" stroke-width="10"/>
+<line x1="13112" y1="-5950" x2="13137" y2="-5900" stroke-width="10"/>
+<line x1="13137" y1="-5900" x2="13162" y2="-5950" stroke-width="10"/>
+<line x1="13325" y1="-5350" x2="13350" y2="-5300" stroke-width="10"/>
+<line x1="13350" y1="-5300" x2="13375" y2="-5350" stroke-width="10"/>
+<line x1="13350" y1="-6300" x2="13375" y2="-6250" stroke-width="10"/>
+<line x1="13325" y1="-6250" x2="13350" y2="-6300" stroke-width="10"/>
+<line x1="13500" y1="-6300" x2="13525" y2="-6250" stroke-width="10"/>
+<line x1="13475" y1="-6250" x2="13500" y2="-6300" stroke-width="10"/>
+<line x1="13475" y1="-5216" x2="13500" y2="-5166" stroke-width="10"/>
+<line x1="13500" y1="-5166" x2="13525" y2="-5216" stroke-width="10"/>
+<line x1="13225" y1="-5166" x2="13550" y2="-5166" stroke-width="10"/>
+<line x1="13025" y1="-6300" x2="13550" y2="-6300" stroke-width="10"/>
+<line x1="13225" y1="-5300" x2="13400" y2="-5300" stroke-width="10"/>
+<line x1="13350" y1="-5838" x2="13350" y2="-6300" stroke-width="10"/>
+<line x1="13350" y1="-5300" x2="13350" y2="-5713" stroke-width="10"/>
+<line x1="13500" y1="-5738" x2="13500" y2="-6300" stroke-width="10"/>
+<line x1="13137" y1="-5900" x2="13137" y2="-6038" stroke-width="10"/>
+<line x1="13137" y1="-6175" x2="13137" y2="-6300" stroke-width="10"/>
+<line x1="13500" y1="-5166" x2="13500" y2="-5613" stroke-width="10"/>
+</g>
+<g class="layer" id="L-0" data-name="Top copper" data-color="#c83434" data-default="on" stroke="#c83434" fill="#c83434" font-family="monospace">
+<text x="12650" y="-3475" font-size="80" transform="rotate(-0 12650 -3475)">Component Side</text>
+<text x="13741" y="-3130" font-size="80" transform="rotate(-0 13741 -3130)">1</text>
+<line x1="12232" y1="-5370" x2="12232" y2="-5930" stroke-width="50"/>
+<line x1="11531" y1="-5930" x2="11643" y2="-5930" stroke-width="50"/>
+<line x1="11643" y1="-5930" x2="11731" y2="-5930" stroke-width="50"/>
+<line x1="11731" y1="-5930" x2="11831" y2="-5930" stroke-width="50"/>
+<line x1="11831" y1="-5930" x2="11931" y2="-5930" stroke-width="50"/>
+<line x1="11931" y1="-5930" x2="12031" y2="-5930" stroke-width="50"/>
+<line x1="12031" y1="-5930" x2="12131" y2="-5930" stroke-width="50"/>
+<line x1="12131" y1="-5930" x2="12231" y2="-5930" stroke-width="50"/>
+<line x1="12231" y1="-5930" x2="12331" y2="-5930" stroke-width="50"/>
+<line x1="12331" y1="-5930" x2="12431" y2="-5930" stroke-width="50"/>
+</g>
+<g class="layer" id="L-4" data-name="Board outline" data-color="#d9b23a" data-default="on" stroke="#d9b23a" fill="#d9b23a" font-family="monospace">
+<circle cx="11300" cy="-5398" r="110" fill="none" stroke-width="8"/>
+<circle cx="13042" cy="-5166" r="110" fill="none" stroke-width="8"/>
+<circle cx="12842" cy="-6080" r="110" fill="none" stroke-width="8"/>
+<circle cx="11150" cy="-6080" r="110" fill="none" stroke-width="8"/>
+<line x1="11295" y1="-5453" x2="11305" y2="-5453" stroke-width="8"/>
+<line x1="11305" y1="-5453" x2="11315" y2="-5413" stroke-width="8"/>
+<line x1="11315" y1="-5413" x2="11355" y2="-5403" stroke-width="8"/>
+<line x1="11355" y1="-5393" x2="11355" y2="-5403" stroke-width="8"/>
+<line x1="11315" y1="-5383" x2="11355" y2="-5393" stroke-width="8"/>
+<line x1="11245" y1="-5393" x2="11285" y2="-5383" stroke-width="8"/>
+<line x1="11245" y1="-5393" x2="11245" y2="-5403" stroke-width="8"/>
+<line x1="11245" y1="-5403" x2="11285" y2="-5413" stroke-width="8"/>
+<line x1="11285" y1="-5413" x2="11295" y2="-5453" stroke-width="8"/>
+<line x1="11305" y1="-5343" x2="11315" y2="-5383" stroke-width="8"/>
+<line x1="11285" y1="-5383" x2="11295" y2="-5343" stroke-width="8"/>
+<line x1="11295" y1="-5343" x2="11305" y2="-5343" stroke-width="8"/>
+<line x1="13037" y1="-5111" x2="13047" y2="-5111" stroke-width="8"/>
+<line x1="13027" y1="-5151" x2="13037" y2="-5111" stroke-width="8"/>
+<line x1="13047" y1="-5111" x2="13057" y2="-5151" stroke-width="8"/>
+<line x1="13027" y1="-5181" x2="13037" y2="-5221" stroke-width="8"/>
+<line x1="12987" y1="-5171" x2="13027" y2="-5181" stroke-width="8"/>
+<line x1="12987" y1="-5161" x2="12987" y2="-5171" stroke-width="8"/>
+<line x1="12987" y1="-5161" x2="13027" y2="-5151" stroke-width="8"/>
+<line x1="13057" y1="-5151" x2="13097" y2="-5161" stroke-width="8"/>
+<line x1="13097" y1="-5161" x2="13097" y2="-5171" stroke-width="8"/>
+<line x1="13057" y1="-5181" x2="13097" y2="-5171" stroke-width="8"/>
+<line x1="13047" y1="-5221" x2="13057" y2="-5181" stroke-width="8"/>
+<line x1="13037" y1="-5221" x2="13047" y2="-5221" stroke-width="8"/>
+<line x1="12837" y1="-6135" x2="12847" y2="-6135" stroke-width="8"/>
+<line x1="12847" y1="-6135" x2="12857" y2="-6095" stroke-width="8"/>
+<line x1="12857" y1="-6095" x2="12897" y2="-6085" stroke-width="8"/>
+<line x1="12897" y1="-6075" x2="12897" y2="-6085" stroke-width="8"/>
+<line x1="12857" y1="-6065" x2="12897" y2="-6075" stroke-width="8"/>
+<line x1="12787" y1="-6075" x2="12827" y2="-6065" stroke-width="8"/>
+<line x1="12787" y1="-6075" x2="12787" y2="-6085" stroke-width="8"/>
+<line x1="12787" y1="-6085" x2="12827" y2="-6095" stroke-width="8"/>
+<line x1="12827" y1="-6095" x2="12837" y2="-6135" stroke-width="8"/>
+<line x1="12847" y1="-6025" x2="12857" y2="-6065" stroke-width="8"/>
+<line x1="12827" y1="-6065" x2="12837" y2="-6025" stroke-width="8"/>
+<line x1="12837" y1="-6025" x2="12847" y2="-6025" stroke-width="8"/>
+<line x1="11145" y1="-6135" x2="11155" y2="-6135" stroke-width="8"/>
+<line x1="11155" y1="-6135" x2="11165" y2="-6095" stroke-width="8"/>
+<line x1="11165" y1="-6095" x2="11205" y2="-6085" stroke-width="8"/>
+<line x1="11205" y1="-6075" x2="11205" y2="-6085" stroke-width="8"/>
+<line x1="11165" y1="-6065" x2="11205" y2="-6075" stroke-width="8"/>
+<line x1="11095" y1="-6075" x2="11135" y2="-6065" stroke-width="8"/>
+<line x1="11095" y1="-6075" x2="11095" y2="-6085" stroke-width="8"/>
+<line x1="11095" y1="-6085" x2="11135" y2="-6095" stroke-width="8"/>
+<line x1="11135" y1="-6095" x2="11145" y2="-6135" stroke-width="8"/>
+<line x1="11155" y1="-6025" x2="11165" y2="-6065" stroke-width="8"/>
+<line x1="11135" y1="-6065" x2="11145" y2="-6025" stroke-width="8"/>
+<line x1="11145" y1="-6025" x2="11155" y2="-6025" stroke-width="8"/>
+</g>
+<g class="layer" id="L-8" data-name="Top silkscreen" data-color="#e8e8e8" data-default="on" stroke="#e8e8e8" fill="#e8e8e8" font-family="monospace">
+<path d="M11482.00,-6040.00 A40,40 0 1 0 11442.00,-6080.00" fill="none" stroke-width="10"/>
+<text x="11404" y="-5899" font-size="60" transform="rotate(-0 11404 -5899)">1</text>
+<text x="11312" y="-6125" font-size="60" transform="rotate(-0 11312 -6125)">U1</text>
+<text x="12700" y="-3475" font-size="80" transform="rotate(-0 12700 -3475)">Top Silkscreen</text>
+<text x="13745" y="-3130" font-size="80" transform="rotate(-0 13745 -3130)">1</text>
+<text x="11882" y="-5470" font-size="60" transform="rotate(-0 11882 -5470)">P1</text>
+<text x="11587" y="-5363" font-size="48" transform="rotate(-0 11587 -5363)">1</text>
+<text x="11587" y="-5250" font-size="48" transform="rotate(-0 11587 -5250)">2</text>
+<text x="12537" y="-5350" font-size="48" transform="rotate(-0 12537 -5350)">15</text>
+<text x="12537" y="-5250" font-size="48" transform="rotate(-0 12537 -5250)">16</text>
+<text x="11100" y="-5813" font-size="80" transform="rotate(-0 11100 -5813)">WBS</text>
+<text x="11050" y="-5713" font-size="60" transform="rotate(-0 11050 -5713)">CANADA</text>
+<text x="11050" y="-5625" font-size="60" transform="rotate(-0 11050 -5625)">14-322</text>
+<text x="11062" y="-5538" font-size="60" transform="rotate(-0 11062 -5538)">ISSUE 1</text>
+<line x1="11482" y1="-5990" x2="12482" y2="-5990" stroke-width="10"/>
+<line x1="12482" y1="-5990" x2="12482" y2="-6170" stroke-width="10"/>
+<line x1="11482" y1="-6170" x2="12482" y2="-6170" stroke-width="10"/>
+<line x1="11482" y1="-6120" x2="11482" y2="-6170" stroke-width="10"/>
+<line x1="11482" y1="-5990" x2="11482" y2="-6040" stroke-width="10"/>
+<line x1="11682" y1="-5220" x2="11682" y2="-5270" stroke-width="10"/>
+<line x1="11682" y1="-5320" x2="11682" y2="-5370" stroke-width="10"/>
+<line x1="11682" y1="-5420" x2="11732" y2="-5420" stroke-width="10"/>
+<line x1="11782" y1="-5420" x2="11832" y2="-5420" stroke-width="10"/>
+<line x1="11882" y1="-5420" x2="11932" y2="-5420" stroke-width="10"/>
+<line x1="11982" y1="-5420" x2="12032" y2="-5420" stroke-width="10"/>
+<line x1="12082" y1="-5420" x2="12132" y2="-5420" stroke-width="10"/>
+<line x1="12182" y1="-5420" x2="12232" y2="-5420" stroke-width="10"/>
+<line x1="12282" y1="-5420" x2="12332" y2="-5420" stroke-width="10"/>
+<line x1="12382" y1="-5420" x2="12432" y2="-5420" stroke-width="10"/>
+<line x1="12482" y1="-5370" x2="12482" y2="-5420" stroke-width="10"/>
+<line x1="12482" y1="-5270" x2="12482" y2="-5320" stroke-width="10"/>
+<line x1="12432" y1="-5220" x2="12482" y2="-5220" stroke-width="10"/>
+<line x1="12332" y1="-5220" x2="12382" y2="-5220" stroke-width="10"/>
+<line x1="12232" y1="-5220" x2="12282" y2="-5220" stroke-width="10"/>
+<line x1="12132" y1="-5220" x2="12182" y2="-5220" stroke-width="10"/>
+<line x1="12032" y1="-5220" x2="12082" y2="-5220" stroke-width="10"/>
+<line x1="11932" y1="-5220" x2="11982" y2="-5220" stroke-width="10"/>
+<line x1="11832" y1="-5220" x2="11882" y2="-5220" stroke-width="10"/>
+<line x1="11732" y1="-5220" x2="11782" y2="-5220" stroke-width="10"/>
+</g>
+<g class="layer" id="L-9" data-name="Bottom silkscreen" data-color="#b0b0b0" data-default="on" stroke="#b0b0b0" fill="#b0b0b0" font-family="monospace">
+<text x="12625" y="-3475" font-size="80" transform="rotate(-0 12625 -3475)">Bottom Silksreen</text>
+</g>
+<g class="layer" id="L-10" data-name="Layer 10" data-color="#3d85c6" data-default="off" display="none" stroke="#3d85c6" fill="#3d85c6" font-family="monospace">
+<text x="12650" y="-3475" font-size="80" transform="rotate(-0 12650 -3475)">Top Solder Mask</text>
+<text x="13746" y="-3130" font-size="80" transform="rotate(-0 13746 -3130)">5</text>
+</g>
+<g class="layer" id="L-11" data-name="Layer 11" data-color="#999999" data-default="off" display="none" stroke="#999999" fill="#999999" font-family="monospace">
+<text x="12525" y="-3475" font-size="80" transform="rotate(-0 12525 -3475)">Bottom Solder Mask</text>
+</g>
+<g class="layer" id="L-12" data-name="Layer 12" data-color="#8e7cc3" data-default="off" display="none" stroke="#8e7cc3" fill="#8e7cc3" font-family="monospace">
+<text x="11832" y="-6055" font-size="48" transform="rotate(-0 11832 -6055)">DIP20</text>
+</g>
+<g class="layer" id="L-14" data-name="Layer 14" data-color="#6aa84f" data-default="off" display="none" stroke="#6aa84f" fill="#6aa84f" font-family="monospace">
+<line x1="12842" y1="-5300" x2="12842" y2="-5900" stroke-width="10"/>
+<line x1="12842" y1="-5300" x2="13175" y2="-5300" stroke-width="10"/>
+<line x1="13175" y1="-5025" x2="13175" y2="-5300" stroke-width="10"/>
+<line x1="11000" y1="-5025" x2="13175" y2="-5025" stroke-width="10"/>
+<line x1="12842" y1="-5900" x2="12992" y2="-5900" stroke-width="10"/>
+<line x1="12992" y1="-5900" x2="12992" y2="-6300" stroke-width="10"/>
+<line x1="11000" y1="-5025" x2="11000" y2="-6300" stroke-width="10"/>
+<line x1="11000" y1="-6300" x2="12992" y2="-6300" stroke-width="10"/>
+</g>
+<g class="layer" id="L-18" data-name="Layer 18" data-color="#e69138" data-default="off" display="none" stroke="#e69138" fill="#e69138" font-family="monospace">
+<text x="12080" y="-3280" font-size="80" transform="rotate(-0 12080 -3280)">DEC. 15, 1995</text>
+<text x="13830" y="-3275" font-size="80" transform="rotate(-0 13830 -3275)">PETER WONG</text>
+<text x="12750" y="-3600" font-size="124" transform="rotate(-0 12750 -3600)">14-322</text>
+<text x="14057" y="-3680" font-size="80" transform="rotate(-0 14057 -3680)">Issue</text>
+<text x="12050" y="-3675" font-size="80" transform="rotate(-0 12050 -3675)">Number</text>
+<text x="11650" y="-3675" font-size="80" transform="rotate(-0 11650 -3675)">Size</text>
+<text x="11650" y="-3975" font-size="80" transform="rotate(-0 11650 -3975)">Title</text>
+<text x="11730" y="-3456" font-size="160" transform="rotate(-0 11730 -3456)">B</text>
+<text x="13971" y="-3129" font-size="80" transform="rotate(-0 13971 -3129)">of</text>
+<text x="13150" y="-3125" font-size="80" transform="rotate(-0 13150 -3125)">Sheet</text>
+<text x="13157" y="-3275" font-size="80" transform="rotate(-0 13157 -3275)">Drawn By</text>
+<text x="11650" y="-3125" font-size="80" transform="rotate(-0 11650 -3125)">File</text>
+<text x="11650" y="-3275" font-size="80" transform="rotate(-0 11650 -3275)">Date</text>
+<text x="14291" y="-3130" font-size="80" transform="rotate(-0 14291 -3130)">5</text>
+<text x="12525" y="-3850" font-size="80" transform="rotate(-0 12525 -3850)">FRONT PANEL DISPLAY</text>
+<text x="12055" y="-3125" font-size="80" transform="rotate(-0 12055 -3125)">14-322.PCB</text>
+<text x="12955" y="-3975" font-size="80" transform="rotate(-0 12955 -3975)">M926</text>
+<text x="14250" y="-3475" font-size="124" transform="rotate(-0 14250 -3475)">1</text>
+<line x1="14600" y1="-3100" x2="14600" y2="-4100" stroke-width="10"/>
+<line x1="11600" y1="-3800" x2="14600" y2="-3800" stroke-width="10"/>
+<line x1="11600" y1="-4100" x2="14600" y2="-4100" stroke-width="10"/>
+<line x1="14000" y1="-3400" x2="14000" y2="-3800" stroke-width="10"/>
+<line x1="12000" y1="-3400" x2="12000" y2="-3800" stroke-width="10"/>
+<line x1="13100" y1="-3100" x2="13100" y2="-3400" stroke-width="10"/>
+<line x1="11600" y1="-3400" x2="14600" y2="-3400" stroke-width="10"/>
+<line x1="11600" y1="-3250" x2="14600" y2="-3250" stroke-width="10"/>
+<line x1="11600" y1="-3100" x2="11600" y2="-4100" stroke-width="10"/>
+<line x1="11600" y1="-3100" x2="14600" y2="-3100" stroke-width="10"/>
+</g>
+<g class="layer" id="L-pads" data-name="Pads" data-color="#c9a227" data-default="on" stroke="#c9a227" fill="#c9a227" font-family="monospace">
+<circle cx="11300" cy="-5398" r="62"><title>X3 pin</title></circle>
+<circle cx="13042" cy="-5166" r="62"><title>X4 pin</title></circle>
+<circle cx="12842" cy="-6080" r="62"><title>X2 pin</title></circle>
+<circle cx="11150" cy="-6080" r="62"><title>X1 pin</title></circle>
+<rect x="12307" y="-6280" width="50" height="100" rx="25"><title>U1 pin 12</title></rect>
+<rect x="12407" y="-6280" width="50" height="100" rx="25"><title>U1 pin 11</title></rect>
+<rect x="12407" y="-5980" width="50" height="100" rx="25"><title>U1 pin 10</title></rect>
+<rect x="12307" y="-5980" width="50" height="100" rx="25"><title>U1 pin 9</title></rect>
+<rect x="11507" y="-6280" width="50" height="100" rx="25"><title>U1 pin 20</title></rect>
+<rect x="11607" y="-6280" width="50" height="100" rx="25"><title>U1 pin 19</title></rect>
+<rect x="11707" y="-6280" width="50" height="100" rx="25"><title>U1 pin 18</title></rect>
+<rect x="11807" y="-6280" width="50" height="100" rx="25"><title>U1 pin 17</title></rect>
+<rect x="11907" y="-6280" width="50" height="100" rx="25"><title>U1 pin 16</title></rect>
+<rect x="12007" y="-6280" width="50" height="100" rx="25"><title>U1 pin 15</title></rect>
+<rect x="12107" y="-6280" width="50" height="100" rx="25"><title>U1 pin 14</title></rect>
+<rect x="12207" y="-6280" width="50" height="100" rx="25"><title>U1 pin 13</title></rect>
+<rect x="12207" y="-5980" width="50" height="100" rx="25"><title>U1 pin 8</title></rect>
+<rect x="12107" y="-5980" width="50" height="100" rx="25"><title>U1 pin 7</title></rect>
+<rect x="12007" y="-5980" width="50" height="100" rx="25"><title>U1 pin 6</title></rect>
+<rect x="11907" y="-5980" width="50" height="100" rx="25"><title>U1 pin 5</title></rect>
+<rect x="11807" y="-5980" width="50" height="100" rx="25"><title>U1 pin 4</title></rect>
+<rect x="11707" y="-5980" width="50" height="100" rx="25"><title>U1 pin 3</title></rect>
+<rect x="11607" y="-5980" width="50" height="100" rx="25"><title>U1 pin 2</title></rect>
+<rect x="11507" y="-5980" width="50" height="100" rx="0"><title>U1 pin 1</title></rect>
+<circle cx="11732" cy="-5270" r="31"><title>P1 pin 2</title></circle>
+<circle cx="12432" cy="-5270" r="31"><title>P1 pin 16</title></circle>
+<circle cx="12332" cy="-5270" r="31"><title>P1 pin 14</title></circle>
+<circle cx="12232" cy="-5270" r="31"><title>P1 pin 12</title></circle>
+<circle cx="12132" cy="-5270" r="31"><title>P1 pin 10</title></circle>
+<circle cx="12032" cy="-5270" r="31"><title>P1 pin 8</title></circle>
+<circle cx="11932" cy="-5270" r="31"><title>P1 pin 6</title></circle>
+<circle cx="11832" cy="-5270" r="31"><title>P1 pin 4</title></circle>
+<rect x="11701" y="-5401" width="62" height="62" rx="0"><title>P1 pin 1</title></rect>
+<circle cx="12432" cy="-5370" r="31"><title>P1 pin 15</title></circle>
+<circle cx="12332" cy="-5370" r="31"><title>P1 pin 13</title></circle>
+<circle cx="12232" cy="-5370" r="31"><title>P1 pin 11</title></circle>
+<circle cx="12132" cy="-5370" r="31"><title>P1 pin 9</title></circle>
+<circle cx="12032" cy="-5370" r="31"><title>P1 pin 7</title></circle>
+<circle cx="11932" cy="-5370" r="31"><title>P1 pin 5</title></circle>
+<circle cx="11832" cy="-5370" r="31"><title>P1 pin 3</title></circle>
+</g>
+<g class="layer" id="L-holes" data-name="Drill holes" data-color="#111111" data-default="on" stroke="#111111" fill="#0b1a10" font-family="monospace">
+<circle cx="11300" cy="-5398" r="62"/>
+<circle cx="13042" cy="-5166" r="62"/>
+<circle cx="12842" cy="-6080" r="62"/>
+<circle cx="11150" cy="-6080" r="62"/>
+<circle cx="12332" cy="-6230" r="18"/>
+<circle cx="12432" cy="-6230" r="18"/>
+<circle cx="12432" cy="-5930" r="18"/>
+<circle cx="12332" cy="-5930" r="18"/>
+<circle cx="11532" cy="-6230" r="18"/>
+<circle cx="11632" cy="-6230" r="18"/>
+<circle cx="11732" cy="-6230" r="18"/>
+<circle cx="11832" cy="-6230" r="18"/>
+<circle cx="11932" cy="-6230" r="18"/>
+<circle cx="12032" cy="-6230" r="18"/>
+<circle cx="12132" cy="-6230" r="18"/>
+<circle cx="12232" cy="-6230" r="18"/>
+<circle cx="12232" cy="-5930" r="18"/>
+<circle cx="12132" cy="-5930" r="18"/>
+<circle cx="12032" cy="-5930" r="18"/>
+<circle cx="11932" cy="-5930" r="18"/>
+<circle cx="11832" cy="-5930" r="18"/>
+<circle cx="11732" cy="-5930" r="18"/>
+<circle cx="11632" cy="-5930" r="18"/>
+<circle cx="11532" cy="-5930" r="18"/>
+<circle cx="11732" cy="-5270" r="20"/>
+<circle cx="12432" cy="-5270" r="20"/>
+<circle cx="12332" cy="-5270" r="20"/>
+<circle cx="12232" cy="-5270" r="20"/>
+<circle cx="12132" cy="-5270" r="20"/>
+<circle cx="12032" cy="-5270" r="20"/>
+<circle cx="11932" cy="-5270" r="20"/>
+<circle cx="11832" cy="-5270" r="20"/>
+<circle cx="11732" cy="-5370" r="20"/>
+<circle cx="12432" cy="-5370" r="20"/>
+<circle cx="12332" cy="-5370" r="20"/>
+<circle cx="12232" cy="-5370" r="20"/>
+<circle cx="12132" cy="-5370" r="20"/>
+<circle cx="12032" cy="-5370" r="20"/>
+<circle cx="11932" cy="-5370" r="20"/>
+<circle cx="11832" cy="-5370" r="20"/>
+</g>
+</svg>

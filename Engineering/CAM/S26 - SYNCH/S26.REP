@@ -1,0 +1,27 @@
+POST PROCESSOR REPORT
+---------------------
+
+LAYOUT NAME    :-  C97026.CDO
+LAYOUT TITLE   :-  
+CADSTAR PCB LAYOUT
+
+DRILL HOLE REPORT 
+-----------------
+
+ SIZE    COUNT   XMIN    YMIN    XMAX    YMAX   TOOL        DESCRIPTION
+
+   24       36   3350    3075    9875    4575      1                            
+   28      152   2550    2150   14725    4550      2                            
+   36      818   2100    2200   15000    4550      3                            
+   40      114   4100    2200   15385    4550      4                            
+   60        9  11450    3600   14825    3700      5                            
+   62        1   7250    2725    7250    2725      6                            
+   93        1   6850    3125    6850    3125      7                            
+  110        4   2200    2425   15485    4325      8                            
+  125        3  11550    4400   14725    4400      9                            
+  156        6   3100    2423   14100    4323     10                            
+
+      10  DRILLS USED
+    1144  HOLES DRILLED
+
+OUTPUT FILE NAME : S26.TAP

@@ -1,0 +1,1305 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M404</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../../../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../../../index.html">Index</a><a href="../../../Home.html">Wiki home</a><a href="../../../PAGES/Timeline.html">Timeline</a><a href="../../../search.html">Search</a><a href="../../../status.html">Status</a></div><h1>M404</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="../../../PAGES/Category-FILTERS.html">FILTERS</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../../../simulator.html?m=M404">simulator &amp; front panel</a> · <a href="../../../_packages/M404.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="../../../PAGES/Year-1968.html">1968|1</a> — title-block date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"DATE AUG 68" in WBS Photos-1-001/WBSPS - M404 M402 Connector Hookup .png</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="../../../PAGES/Year-1968.html">1968|1</a></td>
+</tr>
+<tr>
+<td>Variants</td>
+<td><a href="../../../PAGES/M404A.html">M404A</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../M402/index.html">Modules/FILTERS/M402</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="index.html">Modules/FILTERS/M404</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../PHOTOS/Photos/">PHOTOS/Photos</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections</h2>
+<p><em>What it is made of and what it is part of.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M404" data-n="" data-cat="FILTERS"></div><svg class="wbs-panel" data-m="M404" data-n="" data-cat="FILTERS" role="img" aria-label="M404 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M404","title":"","rto":null,"parts":[{"item":"60-7","title":"60-7 / INPUT TRANSFORMER","label":"60-7 60-7 / INPUT TRANSFORMER","href":"Transformers.html#60-7","note":"Input transformers (60-n)"}],"parents":[{"label":"M402","href":"M402.html","note":"on 7 drawings with it"},{"label":"M404A","href":"M404A.html","note":"on 1 drawing with it: Hi/Lo Pass Filter"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../../../viewer.html?f=PHOTOS/Photos/WBSPS%20-%20M404%20M402%20Connector%20Hookup.png"><img loading="lazy" src="../../../PHOTOS/Photos/WBSPS%20-%20M404%20M402%20Connector%20Hookup.png" alt="" data-f="PHOTOS/Photos/WBSPS - M404 M402 Connector Hookup.png" data-size="320" onerror="wbsOff(this)">WBSPS - M404 M402 Connector Hookup.png</a><a href="../../../viewer.html?f=Modules/FILTERS/M402/19xx%20-%20M402%20-%20AD%20-%2020170522_122029_020.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M402/19xx%20-%20M402%20-%20AD%20-%2020170522_122029_020.jpg" alt="" data-f="Modules/FILTERS/M402/19xx - M402 - AD - 20170522_122029_020.jpg" data-size="320" onerror="wbsOff(this)">19xx - M402 - AD - 20170522_122029_020.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20404-09-002%20-%20M402%20AND%20M404%20SYSTEM%20WIRING%20-%20DRN%20C.S.%20O%27CONNELL%20-%20ISS%201%20%282%29.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20404-09-002%20-%20M402%20AND%20M404%20SYSTEM%20WIRING%20-%20DRN%20C.S.%20O%27CONNELL%20-%20ISS%201%20%282%29.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - 404-09-002 - M402 AND M404 SYSTEM WIRING - DRN C.S. O&#x27;CONNELL - ISS 1 (2).jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1968 - 404-09-002 - M402 AND M404 SYSTEM WIRING - DRN C.S. O&#x27;CONNELL - ISS 1 (2).jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20404-09-002%20-%20M402%20AND%20M404%20SYSTEM%20WIRING%20-%20DRN%20C.S.%20O%27CONNELL%20-%20ISS%201.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20404-09-002%20-%20M402%20AND%20M404%20SYSTEM%20WIRING%20-%20DRN%20C.S.%20O%27CONNELL%20-%20ISS%201.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - 404-09-002 - M402 AND M404 SYSTEM WIRING - DRN C.S. O&#x27;CONNELL - ISS 1.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1968 - 404-09-002 - M402 AND M404 SYSTEM WIRING - DRN C.S. O&#x27;CONNELL - ISS 1.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20129-06-001%20-%20BEND%20RAD%20UNESS%20SPECIFIED.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20129-06-001%20-%20BEND%20RAD%20UNESS%20SPECIFIED.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - 129-06-001 - BEND RAD UNESS SPECIFIED.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1968 - M404 - 129-06-001 - BEND RAD UNESS SPECIFIED.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20129-06-002%20-%20BEND%20RAD%20UNLESS%27%20SPECIFIED.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20129-06-002%20-%20BEND%20RAD%20UNLESS%27%20SPECIFIED.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - 129-06-002 - BEND RAD UNLESS&#x27; SPECIFIED.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1968 - M404 - 129-06-002 - BEND RAD UNLESS&#x27; SPECIFIED.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20402-09-001%20-%20TIR%27%20MINBEND%20RAD%20UNLESS%20SPECIFIED.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20402-09-001%20-%20TIR%27%20MINBEND%20RAD%20UNLESS%20SPECIFIED.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - 402-09-001 - TIR&#x27; MINBEND RAD UNLESS SPECIFIED.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1968 - M404 - 402-09-001 - TIR&#x27; MINBEND RAD UNLESS SPECIFIED.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20404-02-001.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20404-02-001.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - 404-02-001.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - 404-02-001.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20404-09-002%20-%20IIPE%20MIM%20BEND%20RADUNLESS%20SPECIFIED.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20404-09-002%20-%20IIPE%20MIM%20BEND%20RADUNLESS%20SPECIFIED.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - 404-09-002 - IIPE MIM BEND RADUNLESS SPECIFIED.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1968 - M404 - 404-09-002 - IIPE MIM BEND RADUNLESS SPECIFIED.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0223.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0223.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - IMG_0223.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - IMG_0223.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0224.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0224.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - IMG_0224.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - IMG_0224.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0225.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0225.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - IMG_0225.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - IMG_0225.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0226.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0226.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - IMG_0226.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - IMG_0226.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0227.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0227.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - IMG_0227.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - IMG_0227.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0230.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0230.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - IMG_0230.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - IMG_0230.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0231.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0231.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - IMG_0231.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - IMG_0231.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0232.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0232.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - IMG_0232.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - IMG_0232.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0233.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0233.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - IMG_0233.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - IMG_0233.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0235.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0235.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - IMG_0235.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - IMG_0235.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0238.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0238.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - IMG_0238.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - IMG_0238.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0240.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0240.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - IMG_0240.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - IMG_0240.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0241.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0241.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - IMG_0241.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - IMG_0241.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0243.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0243.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - IMG_0243.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - IMG_0243.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0244.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0244.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - IMG_0244.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - IMG_0244.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0245.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0245.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - IMG_0245.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - IMG_0245.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0246.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0246.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - IMG_0246.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - IMG_0246.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0247.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0247.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - IMG_0247.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - IMG_0247.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0248.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0248.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - IMG_0248.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - IMG_0248.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0249.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0249.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - IMG_0249.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - IMG_0249.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0250.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0250.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - IMG_0250.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - IMG_0250.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0251.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0251.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - IMG_0251.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - IMG_0251.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0253.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0253.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - IMG_0253.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - IMG_0253.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0254.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0254.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - IMG_0254.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - IMG_0254.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0255.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0255.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - IMG_0255.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - IMG_0255.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0257.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0257.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - IMG_0257.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - IMG_0257.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0258.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0258.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - IMG_0258.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - IMG_0258.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0259.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0259.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - IMG_0259.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - IMG_0259.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0260.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0260.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - IMG_0260.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - IMG_0260.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P1.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20P1.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - P1.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - P1.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P10.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20P10.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - P10.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - P10.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P11.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20P11.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - P11.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - P11.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P12.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20P12.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - P12.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - P12.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P13.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20P13.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - P13.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - P13.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P14.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20P14.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - P14.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - P14.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P15.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20P15.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - P15.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - P15.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P16.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20P16.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - P16.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - P16.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P17.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20P17.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - P17.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - P17.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P2.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20P2.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - P2.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - P2.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P3.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20P3.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - P3.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - P3.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P4.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20P4.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - P4.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - P4.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P5.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20P5.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - P5.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - P5.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P6.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20P6.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - P6.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - P6.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P7.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20P7.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - P7.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - P7.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P8.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20P8.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - P8.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - P8.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P9.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1968%20-%20M404%20-%20P9.jpg" alt="" data-f="Modules/FILTERS/M404/1968 - M404 - P9.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404 - P9.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404/1970%20-%20404-04-010%20-%20M404A%20EQUALIZER%20OUTLINE%20DRAWING.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404/1970%20-%20404-04-010%20-%20M404A%20EQUALIZER%20OUTLINE%20DRAWING.jpg" alt="" data-f="Modules/FILTERS/M404/1970 - 404-04-010 - M404A EQUALIZER OUTLINE DRAWING.jpg" data-size="320" onerror="wbsOff(this)">1970 - 404-04-010 - M404A EQUALIZER OUTLINE DRAWING.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M402B/m402b-docs-10.gif"><img loading="lazy" src="../../../Modules/FILTERS/M402B/m402b-docs-10.gif" alt="" data-f="Modules/FILTERS/M402B/m402b-docs-10.gif" data-size="320" onerror="wbsOff(this)">m402b-docs-10.gif</a><a href="../../../viewer.html?f=Modules/FILTERS/M404A/Archived%20-%20wbsps%20-%20promo%20-%20m404a%20hplp%20filter%20-%20back.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404A/Archived%20-%20wbsps%20-%20promo%20-%20m404a%20hplp%20filter%20-%20back.jpg" alt="" data-f="Modules/FILTERS/M404A/Archived - wbsps - promo - m404a hplp filter - back.jpg" data-size="320" onerror="wbsOff(this)">Archived - wbsps - promo - m404a hplp filter - back.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404A/Ward%20Beck%20Systems%20M404A%202%281%29.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404A/Ward%20Beck%20Systems%20M404A%202%281%29.jpg" alt="" data-f="Modules/FILTERS/M404A/Ward Beck Systems M404A 2(1).jpg" data-size="320" onerror="wbsOff(this)">Ward Beck Systems M404A 2(1).jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P2.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P2.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P2.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P2.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404A/1968%20-%20M404A%20-%20P1.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404A/1968%20-%20M404A%20-%20P1.jpg" alt="" data-f="Modules/FILTERS/M404A/1968 - M404A - P1.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404A - P1.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404A/1968%20-%20M404A%20-%20P2.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404A/1968%20-%20M404A%20-%20P2.jpg" alt="" data-f="Modules/FILTERS/M404A/1968 - M404A - P2.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404A - P2.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404A/1968%20-%20M404A%20-%20P3.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404A/1968%20-%20M404A%20-%20P3.jpg" alt="" data-f="Modules/FILTERS/M404A/1968 - M404A - P3.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404A - P3.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404A/1968%20-%20M404A%20-%20Ward%20Beck%20Systems%20M404A%202.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404A/1968%20-%20M404A%20-%20Ward%20Beck%20Systems%20M404A%202.jpg" alt="" data-f="Modules/FILTERS/M404A/1968 - M404A - Ward Beck Systems M404A 2.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404A - Ward Beck Systems M404A 2.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404A/1968%20-%20M404A%20-%20wbsps%20-%20promo%20-%20m404a%20hplp%20filter%20-%20back.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404A/1968%20-%20M404A%20-%20wbsps%20-%20promo%20-%20m404a%20hplp%20filter%20-%20back.jpg" alt="" data-f="Modules/FILTERS/M404A/1968 - M404A - wbsps - promo - m404a hplp filter - back.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404A - wbsps - promo - m404a hplp filter - back.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M404A/1968%20-%20M404A%20-%20404-02-010%20-%20CUT%20NOTES.png"><img loading="lazy" src="../../../Modules/FILTERS/M404A/1968%20-%20M404A%20-%20404-02-010%20-%20CUT%20NOTES.png" alt="" data-f="Modules/FILTERS/M404A/1968 - M404A - 404-02-010 - CUT NOTES.png" data-size="320" onerror="wbsOff(this)">1968 - M404A - 404-02-010 - CUT NOTES.png</a><a href="../../../viewer.html?f=Modules/FILTERS/M404A/1968%20-%20M404A%20-%20404-02-010%20-%20HI-LO%20EQUALIZER%20SCHEMATIC.png"><img loading="lazy" src="../../../Modules/FILTERS/M404A/1968%20-%20M404A%20-%20404-02-010%20-%20HI-LO%20EQUALIZER%20SCHEMATIC.png" alt="" data-f="Modules/FILTERS/M404A/1968 - M404A - 404-02-010 - HI-LO EQUALIZER SCHEMATIC.png" data-size="320" onerror="wbsOff(this)">1968 - M404A - 404-02-010 - HI-LO EQUALIZER SCHEMATIC.png</a><a href="../../../viewer.html?f=Modules/FILTERS/M404A/1968%20-%20M404A%20-%20404-02-010.png"><img loading="lazy" src="../../../Modules/FILTERS/M404A/1968%20-%20M404A%20-%20404-02-010.png" alt="" data-f="Modules/FILTERS/M404A/1968 - M404A - 404-02-010.png" data-size="320" onerror="wbsOff(this)">1968 - M404A - 404-02-010.png</a><a href="../../../viewer.html?f=Modules/FILTERS/M404A/1968%20-%20M404A%20-%20404-02-010.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M404A/1968%20-%20M404A%20-%20404-02-010.jpg" alt="" data-f="Modules/FILTERS/M404A/1968 - M404A - 404-02-010.jpg" data-size="320" onerror="wbsOff(this)">1968 - M404A - 404-02-010.jpg</a><a href="../../../viewer.html?f=Modules/FILTERS/M402B/1970%20-%20M402B%20-%20404-09-002%20-%20BEND%20RAD%20UNLESS%20SPECIFIED.jpg"><img loading="lazy" src="../../../Modules/FILTERS/M402B/1970%20-%20M402B%20-%20404-09-002%20-%20BEND%20RAD%20UNLESS%20SPECIFIED.jpg" alt="" data-f="Modules/FILTERS/M402B/1970 - M402B - 404-09-002 - BEND RAD UNLESS SPECIFIED.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1970 - M402B - 404-09-002 - BEND RAD UNLESS SPECIFIED.jpg</a></div>
+
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Year-1968.html">1968|1</a></td>
+<td>title-block date</td>
+<td><code>DATE AUG 68</code></td>
+<td><a href="../../../viewer.html?f=PHOTOS/Photos/WBSPS%20-%20M404%20M402%20Connector%20Hookup.png">WBSPS - M404 M402 Connector Hookup.png</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Physical manual inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Location</th>
+<th>Status</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M404</td>
+<td></td>
+<td></td>
+<td>Recently scanned and stiched by WB</td>
+</tr>
+</tbody>
+</table>
+<h2>Ads &amp; brochures</h2>
+<ul>
+<li><a href="../../../viewer.html?f=Modules/FILTERS/M402/19xx%20-%20M402%20-%20AD%20-%2020170522_122029_020.jpg">19xx - M402 - AD - 20170522_122029_020.jpg</a></li>
+<li><a href="../../../viewer.html?f=Modules/FILTERS/M404/19xx%20-%20M404%20-%20AD%20-%2020170522_122029_020.jpg">19xx - M404 - AD - 20170522_122029_020.jpg</a></li>
+</ul>
+<h2>Photos &amp; scans (55)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20404-09-002%20-%20M402%20AND%20M404%20SYSTEM%20WIRING%20-%20DRN%20C.S.%20O%27CONNELL%20-%20ISS%201%20%282%29.jpg">1968 - 404-09-002 - M402 AND M404 SYSTEM WIRING - DRN C.S. O'CONNELL - ISS 1 (2).jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20404-09-002%20-%20M402%20AND%20M404%20SYSTEM%20WIRING%20-%20DRN%20C.S.%20O%27CONNELL%20-%20ISS%201%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20404-09-002%20-%20M402%20AND%20M404%20SYSTEM%20WIRING%20-%20DRN%20C.S.%20O%27CONNELL%20-%20ISS%201.jpg">1968 - 404-09-002 - M402 AND M404 SYSTEM WIRING - DRN C.S. O'CONNELL - ISS 1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20404-09-002%20-%20M402%20AND%20M404%20SYSTEM%20WIRING%20-%20DRN%20C.S.%20O%27CONNELL%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20129-06-001%20-%20BEND%20RAD%20UNESS%20SPECIFIED.jpg">1968 - M404 - 129-06-001 - BEND RAD UNESS SPECIFIED.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20129-06-001%20-%20BEND%20RAD%20UNESS%20SPECIFIED.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20129-06-002%20-%20BEND%20RAD%20UNLESS%27%20SPECIFIED.jpg">1968 - M404 - 129-06-002 - BEND RAD UNLESS' SPECIFIED.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20129-06-002%20-%20BEND%20RAD%20UNLESS%27%20SPECIFIED.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20402-09-001%20-%20TIR%27%20MINBEND%20RAD%20UNLESS%20SPECIFIED.jpg">1968 - M404 - 402-09-001 - TIR' MINBEND RAD UNLESS SPECIFIED.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20402-09-001%20-%20TIR%27%20MINBEND%20RAD%20UNLESS%20SPECIFIED.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20404-02-001.jpg">1968 - M404 - 404-02-001.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20404-02-001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20404-09-002%20-%20IIPE%20MIM%20BEND%20RADUNLESS%20SPECIFIED.jpg">1968 - M404 - 404-09-002 - IIPE MIM BEND RADUNLESS SPECIFIED.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20404-09-002%20-%20IIPE%20MIM%20BEND%20RADUNLESS%20SPECIFIED.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0223.jpg">1968 - M404 - IMG_0223.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0223.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0224.jpg">1968 - M404 - IMG_0224.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0224.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0225.jpg">1968 - M404 - IMG_0225.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0225.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0226.jpg">1968 - M404 - IMG_0226.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0226.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0227.jpg">1968 - M404 - IMG_0227.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0227.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0230.jpg">1968 - M404 - IMG_0230.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0230.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0231.jpg">1968 - M404 - IMG_0231.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0231.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0232.jpg">1968 - M404 - IMG_0232.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0232.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0233.jpg">1968 - M404 - IMG_0233.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0233.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0235.jpg">1968 - M404 - IMG_0235.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0235.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0238.jpg">1968 - M404 - IMG_0238.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0238.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0240.jpg">1968 - M404 - IMG_0240.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0240.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0241.jpg">1968 - M404 - IMG_0241.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0241.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0243.jpg">1968 - M404 - IMG_0243.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0243.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0244.jpg">1968 - M404 - IMG_0244.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0244.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0245.jpg">1968 - M404 - IMG_0245.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0245.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0246.jpg">1968 - M404 - IMG_0246.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0246.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0247.jpg">1968 - M404 - IMG_0247.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0247.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0248.jpg">1968 - M404 - IMG_0248.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0248.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0249.jpg">1968 - M404 - IMG_0249.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0249.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0250.jpg">1968 - M404 - IMG_0250.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0250.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0251.jpg">1968 - M404 - IMG_0251.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0251.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0253.jpg">1968 - M404 - IMG_0253.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0253.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0254.jpg">1968 - M404 - IMG_0254.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0254.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0255.jpg">1968 - M404 - IMG_0255.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0255.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0257.jpg">1968 - M404 - IMG_0257.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0257.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0258.jpg">1968 - M404 - IMG_0258.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0258.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0259.jpg">1968 - M404 - IMG_0259.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0259.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0260.jpg">1968 - M404 - IMG_0260.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20IMG_0260.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P1.jpg">1968 - M404 - P1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P10.jpg">1968 - M404 - P10.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P10.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P11.jpg">1968 - M404 - P11.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P11.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P12.jpg">1968 - M404 - P12.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P12.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P13.jpg">1968 - M404 - P13.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P13.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P14.jpg">1968 - M404 - P14.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P14.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P15.jpg">1968 - M404 - P15.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P15.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P16.jpg">1968 - M404 - P16.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P16.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P17.jpg">1968 - M404 - P17.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P17.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P2.jpg">1968 - M404 - P2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P3.jpg">1968 - M404 - P3.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P4.jpg">1968 - M404 - P4.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P4.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P5.jpg">1968 - M404 - P5.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P5.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P6.jpg">1968 - M404 - P6.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P6.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P7.jpg">1968 - M404 - P7.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P7.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P8.jpg">1968 - M404 - P8.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P8.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P9.jpg">1968 - M404 - P9.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P9.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1970%20-%20404-04-010%20-%20M404A%20EQUALIZER%20OUTLINE%20DRAWING.jpg">1970 - 404-04-010 - M404A EQUALIZER OUTLINE DRAWING.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1970%20-%20404-04-010%20-%20M404A%20EQUALIZER%20OUTLINE%20DRAWING.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=PHOTOS/Photos/WBSPS%20-%20M404%20M402%20Connector%20Hookup.png">WBSPS - M404 M402 Connector Hookup.png</a></td>
+<td><a href="../../../viewer.html?f=PHOTOS/Photos/WBSPS%20-%20M404%20M402%20Connector%20Hookup.png.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Sub-assemblies &amp; parts used (1)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What</th>
+<th>Family</th>
+<th>Year</th>
+<th>How we know</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Register-Input-transformers-60-n.html#60-7">60-7</a></td>
+<td>60-7 / INPUT TRANSFORMER</td>
+<td>Input transformers (60-n)</td>
+<td>1968|1</td>
+<td>named in its manual</td>
+</tr>
+</tbody>
+</table>
+<h2>Parts list — board M404 (33 parts)</h2>
+<p><em>From <a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P11.jpg">1968 - M404 - P11.jpg</a>, page 1 (scanned); also in <code>timelines/data/bom.csv</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>Part</th>
+<th>Value</th>
+<th>Manufacturer</th>
+<th>Mfr part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C1</td>
+<td>mfd 35V Roe</td>
+<td>50</td>
+<td></td>
+<td>EBS0 /35-Kl</td>
+</tr>
+<tr>
+<td>C2</td>
+<td>pfd 100v Philips</td>
+<td>22</td>
+<td></td>
+<td>c333PB/122E</td>
+</tr>
+<tr>
+<td>C3</td>
+<td>pfd 100v Erie</td>
+<td>470</td>
+<td></td>
+<td>8111-100-WSRO-471K</td>
+</tr>
+<tr>
+<td>C4</td>
+<td>pfd 100v Erie</td>
+<td>1500</td>
+<td></td>
+<td>8121-100-WSRO-152K</td>
+</tr>
+<tr>
+<td>C5</td>
+<td>mfd 35V Roe</td>
+<td>50</td>
+<td></td>
+<td>EB50 /35-Kl</td>
+</tr>
+<tr>
+<td>C6</td>
+<td>mfd 100v Philips</td>
+<td>01</td>
+<td></td>
+<td>c344AB/A10K</td>
+</tr>
+<tr>
+<td>C7</td>
+<td>mfd Kemet</td>
+<td>35V</td>
+<td></td>
+<td>K1E35</td>
+</tr>
+<tr>
+<td>C8</td>
+<td>mfd 35V Roe</td>
+<td>50</td>
+<td></td>
+<td>EB50/35-K1</td>
+</tr>
+<tr>
+<td>C9</td>
+<td>mfd 100V Philips</td>
+<td>322</td>
+<td></td>
+<td>C344AB/422K</td>
+</tr>
+<tr>
+<td>C10</td>
+<td>mfd 1Jov Philips</td>
+<td>01</td>
+<td></td>
+<td>C344AB/A10K</td>
+</tr>
+<tr>
+<td>C1Z</td>
+<td>mfd Kemet</td>
+<td>35V</td>
+<td></td>
+<td>KlE35</td>
+</tr>
+<tr>
+<td>C13</td>
+<td>mfd 35V Roe</td>
+<td>50</td>
+<td></td>
+<td>EB50/35-Kl</td>
+</tr>
+<tr>
+<td>C14</td>
+<td>mfd 100v Philips</td>
+<td>047</td>
+<td></td>
+<td>c344AB/147K</td>
+</tr>
+<tr>
+<td>C16</td>
+<td>mfd 100v Philips</td>
+<td>047</td>
+<td></td>
+<td>C344AB/147K</td>
+</tr>
+<tr>
+<td>C17</td>
+<td>mfd 100v Philips C3=</td>
+<td>01</td>
+<td></td>
+<td>44AB/A10x</td>
+</tr>
+<tr>
+<td>C18</td>
+<td>mfd Kemet</td>
+<td>35V</td>
+<td></td>
+<td>KlE35</td>
+</tr>
+<tr>
+<td>C19</td>
+<td>mfd 35V Roe</td>
+<td>50</td>
+<td></td>
+<td>EB50/35-Kl</td>
+</tr>
+<tr>
+<td>C20</td>
+<td>mfd 35V Roe</td>
+<td>50</td>
+<td></td>
+<td>EB50/35-Kl</td>
+</tr>
+<tr>
+<td>C21</td>
+<td>mfd 35V Roe</td>
+<td>50</td>
+<td></td>
+<td>EB50/35-Kl</td>
+</tr>
+<tr>
+<td>C22</td>
+<td>pfd 100v Erie</td>
+<td>6800</td>
+<td></td>
+<td>8121-100-WSRO-682K</td>
+</tr>
+<tr>
+<td>C23</td>
+<td>mfd 35V Roe</td>
+<td>50</td>
+<td></td>
+<td>EB50/35-Kl</td>
+</tr>
+<tr>
+<td>C24</td>
+<td>mfd 25v Kemet KlOE 25</td>
+<td>10</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C25</td>
+<td>pfd 100v Erie</td>
+<td>470</td>
+<td></td>
+<td>8111-100-WSRO-471K</td>
+</tr>
+<tr>
+<td>C26</td>
+<td>pfd 100v Erie</td>
+<td>470</td>
+<td></td>
+<td>8111-100-WSRO-471K</td>
+</tr>
+<tr>
+<td>C27</td>
+<td>pfd 100v Philips</td>
+<td>68</td>
+<td></td>
+<td>c333PB/c68E</td>
+</tr>
+<tr>
+<td>C28</td>
+<td>pfd 100v Philips</td>
+<td>68</td>
+<td></td>
+<td>C333PB/C68E</td>
+</tr>
+<tr>
+<td>C29</td>
+<td>pfd 100v Philips</td>
+<td>12</td>
+<td></td>
+<td>c333PB/112E</td>
+</tr>
+<tr>
+<td>C30</td>
+<td>pfd 100v Philips</td>
+<td>12</td>
+<td></td>
+<td>c333PB/LlZE</td>
+</tr>
+<tr>
+<td>C31</td>
+<td>mfd 35V Roe</td>
+<td>50</td>
+<td></td>
+<td>EB50/35-Kl</td>
+</tr>
+<tr>
+<td>C32</td>
+<td>mfd 15V Roe</td>
+<td>100</td>
+<td></td>
+<td>EB1OO/15-Kl</td>
+</tr>
+<tr>
+<td>C33</td>
+<td>mfd 15V Roe</td>
+<td>100</td>
+<td></td>
+<td>EBlOO/15-Kl</td>
+</tr>
+<tr>
+<td>C34</td>
+<td>mfd 35V Roe</td>
+<td>50</td>
+<td></td>
+<td>EBS0 /35-Kl</td>
+</tr>
+<tr>
+<td>C35</td>
+<td>pfd 100v Philips</td>
+<td>22</td>
+<td></td>
+<td>6333PB/u22E</td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (9)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M402B/m402b-docs-10.gif">m402b-docs-10.gif</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404A/Archived%20-%20wbsps%20-%20promo%20-%20m404a%20hplp%20filter%20-%20back.jpg">Archived - wbsps - promo - m404a hplp filter - back.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404A/Ward%20Beck%20Systems%20M404A%202%281%29.jpg">Ward Beck Systems M404A 2(1).jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P2.jpg">1968 - M402A - P2.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404A/1968%20-%20M404A%20-%20P1.jpg">1968 - M404A - P1.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404A/1968%20-%20M404A%20-%20P2.jpg">1968 - M404A - P2.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404A/1968%20-%20M404A%20-%20P3.jpg">1968 - M404A - P3.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404A/1968%20-%20M404A%20-%20Ward%20Beck%20Systems%20M404A%202.jpg">1968 - M404A - Ward Beck Systems M404A 2.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404A/1968%20-%20M404A%20-%20wbsps%20-%20promo%20-%20m404a%20hplp%20filter%20-%20back.jpg">1968 - M404A - wbsps - promo - m404a hplp filter - back.jpg</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="../../../PAGES/Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>Specifications (1)</h3>
+<details><summary>Technical Data — 143 words · 1968 - M404 - P3.jpg, page 1</summary><p>MATCHED GA IN: 38db FREQUENCY RESPONSE: +0 . 5db from 2Ohz (effects controls at zero position) EQUIVALENT INPUT NOISE: -l15dbm (1ohz to 100Kh z bandwidth) HARMONIC DISTORTION: Less than 0 . 59 from 30hz to 20Khz (measured at +l8dbm output level) SOURCE IMPEDANCE: 150/600 ohms balanced or unbalanced INPUT IMPEDANCE: 150/600 ohms 10% INPUT LEVEL: -38db nominal, -20dbm maximum LOAD IMPEDANCE 600 ohms OUTPUT IMPEDANCE : 600 ohms (150 ohms available) +10% OUTPUT LEVEL: +l8dbm maximum PHASING: The low terminal number of the input pair and the 1 OW terminal number of the output pair are in phase EQUALIZING CHARACTERISTICS: In accordance with specified curves within 1 0 .</p><p>5db POWER REQUIREMENTS: 48 volts dc , regulated from M648 or equivalent 10OmA AMBIENT TEMPERATURE : to 60 DIMENS IONS: 1.58W X 6.625L X 6D (depth be low panel) inches WEIGHT: 1h2 lbs Net</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P3.jpg">1968 - M404 - P3.jpg</a>, p. 1</li>
+</ul>
+<h3>Circuit description (1)</h3>
+<details><summary>Circuit Description — 54 words · 1968 - M404 - P4.jpg, page 1</summary><p>Refer to schematic diagram 404-02-001 The M404 has three main active circuit sections low noise preamplifier , equalizer networks and output amplifier _ The equalizer section, resistor- capaci tor networks and FET isolation amplifiers_ has unity gain and is switched in and out between the pre- amplifier and output amplifier via switch SW4 _</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P4.jpg">1968 - M404 - P4.jpg</a>, p. 1</li>
+</ul>
+<h3>Installation (1)</h3>
+<details><summary>Installation — 266 words · 1968 - M404 - P4.jpg, page 1</summary><p>The M404 is designed to mount directly on mixing console front panel The dimensions are such that the unit may be mounted in line with standard straight line mixing attenuator associated with each mixing channel cutout 1.56w X 6L and two tapped holes Will be required as shown in drawing 402-08-001 _ The escutcheon of the M404 will overlap the cutout and holes External connections are made to the 14 pin female ma ting connector in accordance with drawing 402-09-001 and Table 1 For optimum results, use insulated, shielded twisted pairs for both input and output wiring .</p><p>The optional external insert switch should be wired with shielded twisted pairs and located not more than 24 inches from the module Dress all audio cables apart Erom ac and power supply Wiring_ Ground shields at one end only and use separate ground return wire to the system common ground for the power supply and shields as shown in the System Wiring Diagram 404-09-002 _ The metal frame of the M404 equalizer should be bonced to the system ground _ In this case it is permissible to loop through each unit with common ground wire connected via pin &quot;N&quot; When used in system, such as an audio mixing console, the M404 equalizer should be operated from separate power supply than the ones used to provide dc power to program amplifiers, cue amplifiers or other similar units operating at high output levels The latter units produce large current swings and the possibility of instability, noise or crosstalk should be avoided in systems which combine high gain and wide-band amplifiers</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P4.jpg">1968 - M404 - P4.jpg</a>, p. 1</li>
+</ul>
+<h3>Operation (1)</h3>
+<details><summary>Controls — 135 words · 1968 - M404 - P6.jpg, page 1</summary><p>The M404 has four operating controls These transient-free controls may be pre-set or adjusted during the operation of the unit_ The selectable frequencies associated with the HF and LF cut controls may be used independently or cumu latively to achieve multiple or combined effects, depending on the position of the HI-LO/Lo-Lo selector switch_ HF CUT X 1K Control This control produces rapid roll-off commencing at the high frequency audio spectrum to achieve low-pass filter characteristics The frequency designations indicated on the photo-etched escutcheon  must be converted X IK (1000) to correspond to the operating frequency_ The nomenclature applies to the ~3db point on the attenuation curve E.G.</p><p>12=12,000 hz , 5=5,000 hz and 5=500 hz , etc _ In the OFF position the equalizer exhibits flat frequency response characteristics within 0 . 5db to 20Khz</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20P6.jpg">1968 - M404 - P6.jpg</a>, p. 1</li>
+</ul>
+<h2>Drawings (14)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Drawn by</a></th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>402-09-001</td>
+<td>Tir' Minbend Rad Unless Specified</td>
+<td><a href="../../../PAGES/Year-1968.html">1968|1</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20402-09-001%20-%20TIR%27%20MINBEND%20RAD%20UNLESS%20SPECIFIED.jpg">file</a></td>
+</tr>
+<tr>
+<td>404-09-002</td>
+<td>Iipe Mim Bend Radunless Specified</td>
+<td><a href="../../../PAGES/Year-1968.html">1968|1</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20404-09-002%20-%20IIPE%20MIM%20BEND%20RADUNLESS%20SPECIFIED.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 404-09-002</td>
+<td>M402 AND M404 / SYSTEM WIRING.</td>
+<td><a href="../../../PAGES/Year-1968.html">1968|1</a></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20404-09-002%20-%20M402%20AND%20M404%20SYSTEM%20WIRING%20-%20DRN%20C.S.%20O%27CONNELL%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 404-09-002</td>
+<td>M402 AND M404 / SYSTEM WIRING.</td>
+<td><a href="../../../PAGES/Year-1968.html">1968|1</a></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20404-09-002%20-%20M402%20AND%20M404%20SYSTEM%20WIRING%20-%20DRN%20C.S.%20O%27CONNELL%20-%20ISS%201%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>A 404-04-010</td>
+<td>M404A EQUALIZER / OUTLINE DRAWING</td>
+<td><a href="../../../PAGES/Year-1970.html">1970|3</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1970%20-%20404-04-010%20-%20M404A%20EQUALIZER%20OUTLINE%20DRAWING.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=PHOTOS/Photos/WBSPS%20-%20M404%20M402%20Connector%20Hookup.png">file</a></td>
+</tr>
+<tr>
+<td>129-06-001</td>
+<td>Bend Rad Uness Specified</td>
+<td></td>
+<td></td>
+<td></td>
+<td>3</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20129-06-001%20-%20BEND%20RAD%20UNESS%20SPECIFIED.jpg">file</a></td>
+</tr>
+<tr>
+<td>129-06-002</td>
+<td>Bend Rad Unless' Specified</td>
+<td></td>
+<td></td>
+<td></td>
+<td>8</td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20129-06-002%20-%20BEND%20RAD%20UNLESS%27%20SPECIFIED.jpg">file</a></td>
+</tr>
+<tr>
+<td>404-02-001</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404/1968%20-%20M404%20-%20404-02-001.jpg">file</a></td>
+</tr>
+<tr>
+<td>404-02-010</td>
+<td>Cut Notes</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404A/1968%20-%20M404A%20-%20404-02-010%20-%20CUT%20NOTES.png">file</a></td>
+</tr>
+<tr>
+<td>404-02-010</td>
+<td>Hi/Lo Equalizer Schematic</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404A/1968%20-%20M404A%20-%20404-02-010%20-%20HI-LO%20EQUALIZER%20SCHEMATIC.png">file</a></td>
+</tr>
+<tr>
+<td>404-02-010</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404A/1968%20-%20M404A%20-%20404-02-010.png">file</a></td>
+</tr>
+<tr>
+<td>404-02-010</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M404A/1968%20-%20M404A%20-%20404-02-010.jpg">file</a></td>
+</tr>
+<tr>
+<td>404-09-002</td>
+<td>Bend Rad Unless Specified</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/FILTERS/M402B/1970%20-%20M402B%20-%20404-09-002%20-%20BEND%20RAD%20UNLESS%20SPECIFIED.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M404&quot;,
+ &quot;category&quot;: &quot;FILTERS&quot;,
+ &quot;year&quot;: 1968,
+ &quot;made_of&quot;: [
+  &quot;60-7&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - 404-09-002 - M402 AND M404 SYSTEM WIRING - DRN C.S. O&#x27;CONNELL - ISS 1 (2).jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - 404-09-002 - M402 AND M404 SYSTEM WIRING - DRN C.S. O&#x27;CONNELL - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - 129-06-001 - BEND RAD UNESS SPECIFIED.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - 129-06-002 - BEND RAD UNLESS&#x27; SPECIFIED.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - 402-09-001 - TIR&#x27; MINBEND RAD UNLESS SPECIFIED.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - 404-02-001.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - 404-09-002 - IIPE MIM BEND RADUNLESS SPECIFIED.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - IMG_0223.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - IMG_0224.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - IMG_0225.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - IMG_0226.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - IMG_0227.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - IMG_0230.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - IMG_0231.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - IMG_0232.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - IMG_0233.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - IMG_0235.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - IMG_0238.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - IMG_0240.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - IMG_0241.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - IMG_0243.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - IMG_0244.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - IMG_0245.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - IMG_0246.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - IMG_0247.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - IMG_0248.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - IMG_0249.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - IMG_0250.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - IMG_0251.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - IMG_0253.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - IMG_0254.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - IMG_0255.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - IMG_0257.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - IMG_0258.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - IMG_0259.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - IMG_0260.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - P1.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - P10.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - P11.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - P12.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - P13.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - P14.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - P15.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - P16.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - P17.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - P2.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - P3.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - P4.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - P5.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - P6.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - P7.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - P8.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1968 - M404 - P9.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/1970 - 404-04-010 - M404A EQUALIZER OUTLINE DRAWING.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M404/19xx - M404 - AD - 20170522_122029_020.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;PHOTOS/Photos/WBSPS - M404 M402 Connector Hookup.png&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;modules&quot;,
+    &quot;title_block&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../../../_catalog/wbs_reels.js" defer></script><script src="../../../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../../../_catalog/libcontrol/libcontrol.css"><script src="../../../_catalog/libcontrol/react.js"></script><script src="../../../_catalog/libcontrol/react-dom.js"></script><script src="../../../_catalog/libcontrol/libcontrol.js"></script><script src="../../../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M404.md</small></div></article><script src="../../../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

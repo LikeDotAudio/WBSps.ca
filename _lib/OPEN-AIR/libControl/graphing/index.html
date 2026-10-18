@@ -1,0 +1,185 @@
+<!--
+  Header: index.html
+  Purpose: index.html implementation.
+  Description: Logic and implementation for index.html implementation.
+  
+  Version: 26.07.05.1
+  Change Log:
+  - 2026-07-05: Initial annotation and documentation added.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apache ECharts Sample</title>
+    <!-- Apache ECharts CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #eee;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #main {
+            width: 100%;
+            max-width: 800px;
+            height: 500px;
+            border: 1px solid #333;
+            border-radius: 8px;
+            background-color: #111;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+        }
+        h2 {
+            margin-bottom: 20px;
+            color: #f4902c;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .controls {
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+        }
+        button {
+            background-color: #333;
+            color: white;
+            border: 1px solid #555;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        button:hover {
+            background-color: #444;
+            border-color: #f4902c;
+        }
+    </style>
+</head>
+<body>
+    <h2>Industrial Telemetry Engine</h2>
+    <div id="main"></div>
+
+    <div class="controls">
+        <button onclick="toggleAnimation()">Toggle Animation</button>
+        <button onclick="resetData()">Reset Data</button>
+    </div>
+
+    <script type="text/javascript">
+        // Initialize the chart
+        var myChart = echarts.init(document.getElementById('main'), 'dark');
+
+        var data = [];
+        var now = new Date();
+        var oneDay = 24 * 3600 * 1000;
+        var value = Math.random() * 1000;
+
+        function randomData() {
+            now = new Date(+now + 1000);
+            value = value + Math.random() * 21 - 10;
+            return {
+                name: now.toString(),
+                value: [
+                    [now.getFullYear(), now.getMonth() + 1, now.getDate()].join('/') + ' ' + [now.getHours(), now.getMinutes(), now.getSeconds()].join(':'),
+                    Math.round(value)
+                ]
+            };
+        }
+
+        for (var i = 0; i < 100; i++) {
+            data.push(randomData());
+        }
+
+        var option = {
+            backgroundColor: 'transparent',
+            title: {
+                text: 'Real-Time System Load',
+                textStyle: { color: '#888', fontWeight: 'normal', fontSize: 14 },
+                left: 'center',
+                top: 10
+            },
+            tooltip: {
+                trigger: 'axis',
+                formatter: function (params) {
+                    params = params[0];
+                    var date = new Date(params.name);
+                    return params.value[0] + ' : ' + params.value[1];
+                },
+                axisPointer: {
+                    animation: false
+                }
+            },
+            xAxis: {
+                type: 'time',
+                splitLine: {
+                    show: true,
+                    lineStyle: { color: '#222' }
+                },
+                axisLine: { lineStyle: { color: '#555' } }
+            },
+            yAxis: {
+                type: 'value',
+                boundaryGap: [0, '100%'],
+                splitLine: {
+                    show: true,
+                    lineStyle: { color: '#222' }
+                },
+                axisLine: { lineStyle: { color: '#555' } }
+            },
+            series: [
+                {
+                    name: 'Fake Data',
+                    type: 'line',
+                    showSymbol: false,
+                    areaStyle: {
+                        color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                            { offset: 0, color: 'rgba(244, 144, 44, 0.5)' },
+                            { offset: 1, color: 'rgba(244, 144, 44, 0)' }
+                        ])
+                    },
+                    lineStyle: { color: '#f4902c', width: 2 },
+                    data: data
+                }
+            ]
+        };
+
+        myChart.setOption(option);
+
+        var isAnimating = true;
+        var interval = setInterval(function () {
+            if (!isAnimating) return;
+            for (var i = 0; i < 1; i++) {
+                data.shift();
+                data.push(randomData());
+            }
+            myChart.setOption({
+                series: [{ data: data }]
+            });
+        }, 1000);
+
+        function toggleAnimation() {
+            isAnimating = !isAnimating;
+        }
+
+        function resetData() {
+            data = [];
+            for (var i = 0; i < 100; i++) {
+                data.push(randomData());
+            }
+            myChart.setOption({
+                series: [{ data: data }]
+            });
+        }
+
+        window.addEventListener('resize', function() {
+            myChart.resize();
+        });
+    </script>
+<script src="../../../../_catalog/wbs_scan.js?v=7792b3a7"></script></body>
+</html>

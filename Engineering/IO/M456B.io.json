@@ -1,0 +1,60 @@
+{
+ "code": "M456B",
+ "series": null,
+ "type": "M456B",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "I1",
+   "signal": "Fl6 Ch2 Pb In",
+   "dir": "in",
+   "pos": "I1P",
+   "neg": "I1N",
+   "src_page": 28
+  },
+  {
+   "port": "O1",
+   "signal": "Chi Pre Out",
+   "dir": "out",
+   "pos": "O1P",
+   "neg": "O1N",
+   "src_page": 28
+  }
+ ],
+ "power": [
+  {
+   "rail": "+24V",
+   "volts": 24.0,
+   "supply": "+24V",
+   "ground": "GND",
+   "max_a": null
+  },
+  {
+   "rail": "-24V",
+   "volts": -24.0,
+   "supply": "-24V",
+   "ground": "GND",
+   "max_a": null
+  }
+ ],
+ "logic": [
+  {
+   "signal": "P2-V Solo En",
+   "pin": ""
+  },
+  {
+   "signal": "Pz-V Solo Ctl",
+   "pin": ""
+  }
+ ],
+ "ground": [],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "074c563cdd860e1b221bea1767b745a7e4e8229ff707efd74c1c66b6abf8f2df",
+  "7ca8c0133308190656ab7297abf51754f42bd5e786c5bd27b59f4187a7f949ac"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."
+}

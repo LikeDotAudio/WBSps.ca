@@ -1,0 +1,128 @@
+{
+  "code": "M495",
+  "series": null,
+  "type": "M495 - Stereo Monitor Module",
+  "row_count": null,
+  "impedance": {},
+  "note": null,
+  "audio": [
+    {
+      "port": "A1",
+      "signal": "Right IN 5",
+      "dir": "in",
+      "pos": "1",
+      "neg": "A",
+      "pad_pos": "1.A.1.P",
+      "pad_neg": "A.A.1.N"
+    },
+    {
+      "port": "A2",
+      "signal": "Left IN 5",
+      "dir": "in",
+      "pos": "2",
+      "neg": "B",
+      "pad_pos": "2.A.2.P",
+      "pad_neg": "B.A.2.N"
+    },
+    {
+      "port": "A3",
+      "signal": "Right IN 4",
+      "dir": "in",
+      "pos": "4",
+      "neg": "D",
+      "pad_pos": "4.A.3.P",
+      "pad_neg": "D.A.3.N"
+    },
+    {
+      "port": "A4",
+      "signal": "Left IN 4",
+      "dir": "in",
+      "pos": "3",
+      "neg": "D",
+      "pad_pos": "3.A.4.P",
+      "pad_neg": "D.A.4.N"
+    },
+    {
+      "port": "B1",
+      "signal": "Right IN 3",
+      "dir": "in",
+      "pos": "5",
+      "neg": "E",
+      "pad_pos": "5.B.1.P",
+      "pad_neg": "E.B.1.N"
+    },
+    {
+      "port": "B2",
+      "signal": "Left IN 3",
+      "dir": "in",
+      "pos": "6",
+      "neg": "F",
+      "pad_pos": "6.B.2.P",
+      "pad_neg": "F.B.2.N"
+    },
+    {
+      "port": "B3",
+      "signal": "Right Muted",
+      "dir": "io",
+      "pos": "18",
+      "neg": "V",
+      "pad_pos": "18.B.3.P",
+      "pad_neg": "V.B.3.N"
+    },
+    {
+      "port": "B4",
+      "signal": "Left Muted",
+      "dir": "io",
+      "pos": "17",
+      "neg": "U",
+      "pad_pos": "17.B.4.P",
+      "pad_neg": "U.B.4.N"
+    }
+  ],
+  "bus_out": [],
+  "bus_in": [],
+  "power": [
+    {
+      "rail": "VEE-AUDIO",
+      "style": "NEW",
+      "volts": -25,
+      "max_a": 0.2,
+      "supply": "19",
+      "ground": "20",
+      "link": 2
+    },
+    {
+      "rail": "VCC-AUDIO",
+      "style": "NEW",
+      "volts": 25,
+      "max_a": 0.2,
+      "supply": "21",
+      "ground": "20",
+      "link": 1
+    },
+    {
+      "rail": "VCC-LOGIC",
+      "style": "NEW",
+      "volts": 24,
+      "max_a": 0.2,
+      "supply": "Y",
+      "ground": "Z",
+      "link": null
+    }
+  ],
+  "jumpers": [
+    {
+      "function": "CTRL COM",
+      "designation": "JMP.Z.20",
+      "from": "Z",
+      "to": "20"
+    },
+    {
+      "function": "24V",
+      "designation": "JMP.Y.21",
+      "from": "Y",
+      "to": "21"
+    }
+  ],
+  "logic": []
+}

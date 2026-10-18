@@ -1,0 +1,83 @@
+{
+ "code": "M463LA",
+ "series": null,
+ "type": "M463LA",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "I1",
+   "signal": "Boost Er In Booster In",
+   "dir": "in",
+   "pos": "I1P",
+   "neg": "I1N",
+   "src_page": 11
+  },
+  {
+   "port": "I2",
+   "signal": "Pre - F Ade In",
+   "dir": "in",
+   "pos": "I2P",
+   "neg": "I2N",
+   "src_page": 11
+  },
+  {
+   "port": "I3",
+   "signal": "In Put",
+   "dir": "in",
+   "pos": "I3P",
+   "neg": "I3N",
+   "src_page": 48
+  },
+  {
+   "port": "O1",
+   "signal": "Left 2 Out",
+   "dir": "out",
+   "pos": "O1P",
+   "neg": "O1N",
+   "src_page": 12
+  },
+  {
+   "port": "O2",
+   "signal": "Out Pu T Amplifier",
+   "dir": "out",
+   "pos": "O2P",
+   "neg": "O2N",
+   "src_page": 55
+  }
+ ],
+ "power": [
+  {
+   "rail": "+24V",
+   "volts": 24.0,
+   "supply": "+24V",
+   "ground": "GND",
+   "max_a": null
+  },
+  {
+   "rail": "-5V",
+   "volts": -5.0,
+   "supply": "-5V",
+   "ground": "GND",
+   "max_a": null
+  }
+ ],
+ "logic": [
+  {
+   "signal": "Solo Control",
+   "pin": ""
+  },
+  {
+   "signal": "Ctl",
+   "pin": ""
+  }
+ ],
+ "ground": [],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "57a35fea5c64f45e04207e9183fff4904dc3482273194dab5d27217176b36d70"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."
+}

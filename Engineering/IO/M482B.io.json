@@ -1,0 +1,45 @@
+{
+ "code": "M482B",
+ "series": null,
+ "type": "M482B",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "I1",
+   "signal": "Input S",
+   "dir": "in",
+   "pos": "I1P",
+   "neg": "I1N",
+   "src_page": 10
+  }
+ ],
+ "power": [
+  {
+   "rail": "+24V",
+   "volts": 24.0,
+   "supply": "+24V",
+   "ground": "GND",
+   "max_a": null
+  }
+ ],
+ "logic": [
+  {
+   "signal": "As Mut E Control",
+   "pin": "56"
+  },
+  {
+   "signal": "Cue",
+   "pin": ""
+  }
+ ],
+ "ground": [],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "40dbbada78941f2f725c61cce547bf046d7259efb04afe5c560ab4e1eb982ea3",
+  "64042c80a450d776aab016d071e4fcefffcf84562a0bd897470b8702ff2f5524"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."
+}

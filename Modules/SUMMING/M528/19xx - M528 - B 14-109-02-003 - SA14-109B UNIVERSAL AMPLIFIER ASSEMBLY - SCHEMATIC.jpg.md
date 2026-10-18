@@ -1,0 +1,248 @@
+# 19xx - M528 - B 14-109-02-003 - SA14-109B UNIVERSAL AMPLIFIER ASSEMBLY - SCHEMATIC.jpg
+Wiki page: [M528](../../../PAGES/M528.md)
+
+
+- **Year:** unknown (unknown)
+- **Module:** M528
+- **Category:** SUMMING
+- **Module year estimate:** unknown —
+- **Original file:** `WBSps.env/WBS Photos-1-001/WBS - M528 - ST Series - Dual Auxiliary Module - 017 - SA14-109B Universal Amplifier - Schematic.jpg`
+- **SHA-256:** `a17c1be882ab95b2a9399307a4bbdd057855152c09bfde09292491c1fb0cd22c`
+- **Size:** 2,161,865 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 2 words corrected)
+
+```text
+Ri 7
+P2 +22v
++18v
+430
+c5 0.i/100
+22/25
+cuRREnT LimiT
+011 PNJ569
+RJI 6.8
++21V
+C1? 22/25
+R2I
+R15 LK7
+22p +1BV
+NOTE:
+PN3569
+PN3645
+Tn2i02
+ALL RESISTORS 1/Lw 52 AND ALL CAPACITORS ARE UNLESS OTHERWISE SPECIF IED .
+33/10
+6K2
+C13 1Op
+-1BV NESSJLN
+LAST COMPONENT DE SIGNAL IONS: Czo L2, P2 , 012, RL3 u2
+68p
+R32 6 . 8
+RI8 V 22k
+L7K
+22k
+RLI 620
+R33
+C19
+R12
+220
+6 . 8
+220/10
+5k6
+R3L 6 .8
+R27 7k5
+I00 mA
+PN3569
+7K5
+Cil 10/35
+R28 1Ok
+TNLO36
+R5 6k2
+RL3 IKJ
+R22 Lk7
+R39 L7K
+R23 LK7
+7k5
+21V
+6K2
+21V
+47k
+R24
+R16 Lk7
+R4o 47K
+22p
++18V PN3569
+PN3645
+TN2i0Z
+C15 1Op
+33/10
+6k2
+-IBV
+Cio
+NESS3GN
+68p
+R35 6.8
+100 mA
+RI3 MY 22k
+R19 A 22k
+R36
+Czo
+R42
+Ci1
+6 . 8
+220/10
+620
+RIO
+RIL UD
+Sk6
+R29 7KS
+PN3569
+R37 6.8
+C16 10/35
+010 TNLO36
+R3O LoK
+R25 Lk7
+R26 LK7
+~21V
+C1B 22/25
+R38 6 . 8
+012 PN36L5
+R2O
+18V
+430
+CURRENT LiMiT
+WBS WARD-BECK SYSTEMS
+C12 22/25
+0.1/100
+22v
+SA 14-109B
+UNIVERSAL AMPLIFIER ASSEMBLY SCHEMATIC
+B 14-109-02-003
+ISS.1
+22p
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+Ri 7
+P2 +22v
++18v
+430
+c5 0.i/100
+22/25
+cuRREnT LimiT
+011 PNJ569
+RJI 6.8
++21V
+C1? 22/25
+R2I
+R15 LK7
+22p +1BV
+NOTE:
+PN3569
+PN3645
+Tn2i02
+ALL RESISTORS 1/Lw 52 AND ALL CAPACITORS ARE UNLESS OTHERYISE SPECIF IED .
+33/10
+6K2
+C13 1Op
+-1BV NESSJLN
+LAST COMPONENT DE SIGNAT IONS: Czo L2, P2 , 012, RL3 u2
+68p
+R32 6 . 8
+RI8 V 22k
+L7K
+22k
+RLI 620
+R33
+C19
+R12
+220
+6 . 8
+220/10
+5k6
+R3L 6 .8
+R27 7k5
+I00 mA
+PN3569
+7K5
+Cil 10/35
+R28 1Ok
+TNLO36
+R5 6k2
+RL3 IKJ
+R22 Lk7
+R39 L7K
+R23 LK7
+7k5
+21V
+6K2
+21V
+47k
+R24
+R16 Lk7
+R4o 47K
+22p
++18V PN3569
+PN3645
+TN2i0Z
+C15 1Op
+33/10
+6k2
+-IBV
+Cio
+NESS3GN
+68p
+R35 6.8
+100 mA
+RI3 MY 22k
+R19 A 22k
+R36
+Czo
+R42
+Ci1
+6 . 8
+220/10
+620
+RIO
+RIL UD
+Sk6
+R29 7KS
+PN3569
+R37 6.8
+C16 10/35
+010 TNLO36
+R3O LoK
+R25 Lk7
+R26 LK7
+~21V
+C1B 22/25
+R38 6 . 8
+012 PN36L5
+R2O
+18V
+430
+CURRENT LiMiT
+WBS WARD-BECK SYSTEMS
+C12 22/25
+0.1/100
+22v
+SA 14-109B
+UNIVERSAL AMPLIFIER ASSEMBLY SCHEMATIC
+B 14-109-02-003
+ISS.1
+22p
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/SUMMING/M528/19xx - M528 - B 14-109-02-003 - SA14-109B UNIVERSAL AMPLIFIER ASSEMBLY - SCHEMATIC.jpg","sha256":"a17c1be882ab95b2a9399307a4bbdd057855152c09bfde09292491c1fb0cd22c","kind":"module","models":["M528"],"pages":1,"order":[{"page":1,"title_block":[{"number":"B 14-109-02-003","type":"schematic","title":"SA14-109B UNIVERSAL AMPLIFIER ASSEMBLY / SCHEMATIC","issue":"1"}],"text":["22/25 CuRRENT","R1s 22/25","NQIE:","13/10 ALL CAPACITORS","ESS Otheamise specified_","Last COMPONENT DESIGNATiONS","Czo; 012","R3Z","Rie","RJJ","220/10 UUU","Sk6","Rz7","04756q 7k5","7kS","10/15 R28 .","642 RzZ","Rj9","RZ}","7k5 4K7","21V","R24","R1g R40","Lk7 47k","48v PNJ6-5","Pr569 TNZi0Z","C15","3J/10 6k2 c1o","RIJ 6.8","R4z","22k 22k M","220/10 620","R29 RJ7","PNJ5G9","010","R2S","4k?","R3B","T2z/25 012","PN3645","RzO","WBS WARD-BECK SYSTEMS","C1z Liyit","VoC 22/25","22v SA14-109B","UNIVERSAL AMPLIFIER ASSEMBLY","SCHEMATiC","B 14-109-02-003 ISS.1"]}],"drawing":{"svg":"_traces/a17c1be882ab95b2.svg","viewBox":[2000,1661],"rotate":0,"number":"14-109-02-003","dtype":"02","outlines":"see _traces/a17c1be882ab95b2.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/a17c1be882ab95b2.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[461,139,"22/25"],[914,144,"CuRRENT"],[459,294,"R1s"],[626,289,"22/25"],[984,326,"NQIE:"],[1004,366,"ALL"],[1039,366,"CAPACITORS"],[116,374,"13/10"],[1031,381,"ESS Otheamise specified_"],[1006,409,"Last"],[1046,406,"COMPONENT"],[1129,409,"DESIGNATiONS"],[1006,421,"Czo;"],[1104,424,"012"],[669,441,"R3Z"],[514,451,"Rie"],[681,486,"RJJ"],[729,519,"220/10"],[785,525,"UUU"],[331,534,"Sk6"],[619,561,"Rz7"],[510,567,"04756q"],[616,576,"7k5"],[294,601,"7kS"],[459,621,"10/15"],[584,616,"R28 ."],[201,669,"642"],[571,666,"RzZ"],[789,676,"Rj9"],[569,721,"RZ}"],[294,739,"7k5"],[566,736,"4K7"],[714,756,"21V"],[566,859,"R24"],[461,871,"R1g"],[791,876,"R40"],[459,884,"Lk7"],[791,889,"47k"],[352,905,"48v"],[574,916,"PNJ6-5"],[399,921,"Pr569"],[664,929,"TNZi0Z"],[524,954,"C15"],[111,989,"3J/10"],[184,986,"6k2"],[469,986,"c1o"],[409,1034,"RIJ"],[626,1031,"6.8"],[801,1049,"R4z"],[409,1061,"22k"],[519,1061,"22k"],[804,1071,"620"],[736,1079,"220/10"],[616,1139,"R29"],[509,1151,"PNJ5G9"],[666,1149,"RJ7"],[679,1186,"010"],[566,1246,"R2S"],[566,1259,"4k?"],[694,1361,"R3B"],[781,1371,"012"],[774,1386,"PN3645"],[471,1414,"RzO"],[1498,1447,"WBS"],[1630,1450,"WARD-BECK SYSTEMS"],[466,1456,"C1z"],[910,1450,"Liyit"],[381,1471,"VoC"],[461,1471,"22/25"],[896,1499,"22v"],[1630,1510,"SA14-109B"],[1488,1547,"UNIVERSAL AMPLIFIER ASSEMBLY"],[1624,1578,"SCHEMATiC"],[1468,1625,"B 14-109-02-003"],[1882,1630,"ISS.1"],[611,1385,"T2z/25"]]}}
+```

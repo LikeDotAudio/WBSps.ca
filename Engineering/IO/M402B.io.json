@@ -1,0 +1,63 @@
+{
+ "code": "M402B",
+ "series": null,
+ "type": "M402B",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "I1",
+   "signal": "Pad In",
+   "dir": "in",
+   "pos": "I1P",
+   "neg": "I1N",
+   "src_page": 11
+  },
+  {
+   "port": "I2",
+   "signal": "Input Sh",
+   "dir": "in",
+   "pos": "I2P",
+   "neg": "I2N",
+   "src_page": 11
+  },
+  {
+   "port": "O1",
+   "signal": "Pad Out",
+   "dir": "out",
+   "pos": "O1P",
+   "neg": "O1N",
+   "src_page": 11
+  }
+ ],
+ "power": [
+  {
+   "rail": "+48V",
+   "volts": 48.0,
+   "supply": "+48V",
+   "ground": "GND",
+   "max_a": null
+  },
+  {
+   "rail": "+24V",
+   "volts": 24.0,
+   "supply": "+24V",
+   "ground": "GND",
+   "max_a": null
+  }
+ ],
+ "logic": [
+  {
+   "signal": "Lamp-",
+   "pin": ""
+  }
+ ],
+ "ground": [],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "5fdc0175b31bd53db5399839fe024729bb52c7761e2f3eb57516a95e336e09ea"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one. (this device has one)"
+}

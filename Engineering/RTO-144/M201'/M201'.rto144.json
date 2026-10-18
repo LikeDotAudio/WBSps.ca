@@ -1,0 +1,17 @@
+{
+  "code": "M201",
+  "series": null,
+  "type": "M201 Relay Module",
+  "row_count": 30,
+  "impedance": {
+    "line_in": 600,
+    "out": 600
+  },
+  "note": null,
+  "audio": [],
+  "bus_out": [],
+  "bus_in": [],
+  "power": [],
+  "jumpers": [],
+  "logic": []
+}

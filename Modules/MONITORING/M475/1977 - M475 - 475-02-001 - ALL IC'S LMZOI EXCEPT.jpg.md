@@ -1,0 +1,318 @@
+# 1977 - M475 - 475-02-001 - ALL IC'S LMZOI EXCEPT.jpg
+Wiki page: [M475](../../../PAGES/M475.md)
+
+
+- **Year:** 1977 (module estimate (labelled))
+- **Module:** M475
+- **Category:** MONITORING
+- **Module year estimate:** 1977 — labelled "DATE JUNE 77" in PUBLIC/Manuals + tech DOCUMENTS/Modules/Ward-Beck Systems - M475 Monitor Module - www.WBSps.ca.pdf
+- **Original file:** `WBSps.env/wbsps - website ARCHIVE/WBSPS 2008/RAW SCANS/Done/Done - M475 Monitor Module/M475 - P15 - Schematic.jpg`
+- **SHA-256:** `32e8fc73901b2af8f50216b4efc37b9a4f809f879100a2731ef56b4629a9d6aa`
+- **Size:** 449,828 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 5 words corrected)
+
+```text
+R3
+R4
+R63 620
+22
+P2 10
++24 
+Sw2
+IBv
+73 212102
+R63 320
+C2o
+R7]
+R8
+7> 5
+RG I0
+Cz2 zzo/10 04 2n4037 R73 4k7
+Sw3
+RcG 5 k
+R67 ISk
+R72
+?9 M Ril
+R:?
+MonitoR NFLtS 6JE, GOO n NOM NAL
+R70 Isk
+Ri2
+R2s 620
+RIO
+IBv
+24v
+R23 w 47k
+Monitor MUTE FDLST R77
+3i3
+4-/10
+MONITOR OUTPUT +1437 Co
+R2i 22k
+18v
+MUTED
+315
+R2G 36k R27 36k
+R2e C20
+R22 22k
+C2
+R24
+MCniTOP LEVEL CTl
+R14
+CS
+SwS
+4/10
+47k
+32s Lf3s7-iBv 202102
+33/10
+R17 ^ Ri9
+454
+CG 33 7=I JN 33/0 5k 332 4<7
+3
+25 Cp4016
+ZG
+73
+R29 IBk
+R30 5k
+R62 320 R64 22
+Rs? _2 R56 R57- @Jk iOk Rc 313 558< I5k 3k3 F53 2M2
+623 22o/12
+R2o
+2i4 2.2/25
+R/8
+R37 620
+I
+R65 22
+347 47k
+R43 2M2
+351 iok
+92 2N4637
+R3z 39*
+TALKEACK VPLT
+50/6
+23
+374 4k7
+R35 22k
+R39 IBv Sk 620 M R38 ISk R40 < CC 12k IO F IBv Ci2 24 33/10 IBv
+363 R54 215 15 < 2k2 Tx7/1o
+R34 39k
+R5o IcoK
+R52 02k
+R36 22k
+CR3 1N4148
+Sclc TNPLT
+28
+soloitb LEvEL CTL C13 4941_34 33/10 5k R45 4k7
+348 39k
+I50/ 6
+CR2 N4/48
+237 Re3 33< 4*7
+Rez< CR 2+2 2w<in4103 352 338 ?84- FLv4id 22k ?35
+46
+CRA 004143
+Soloite CTL
+-18v
+R42 I5k
+343 Sk
+Rec M 50 v2
+DS1 FLvii7
++24v
+35 2N2102
+P43563 MUTE SwG R89 10k
+Rss 4k7 /2w
+RS
+R?. 5 0 M
+224 783 22/25 3k
++25v
++18v
+In40c2
+c25 22/25
+C27 22125
+CtL comMon
++24
+C23 10/2s
+-25v CcMM 20
+MOTE ContRO_
+c2g 22/25
+c23 22125
+NOTES: ALL RESiSToRS V4 W 5 % e AND ALL caPaciTors IN LF JNCESS OThERWISE SPECIF ED
+24 v FRoM EXT RELAY 'SUPPLY
+R6
+25v
+18 v
+04003
+R92 750
+ISSNOD cKDJ 35o5 RX
+LSED OM
+MatI
+LaSt CoMPOnEnT Designations C29 cR6 0s2,06 P93 S WG 27 3 USE Pc B 7 - 106 ALL IC's LMzoi EXCEPT As INDICATED
+WBS WAAD-Beck Byatemb
+R92 M 50 V? W
+ChASSIS
+22
+24v
+DRM: GEB DatE APRIL CKD SCALE
+M475 MoniTOR MODULE SCHEMATIC 475-02-001
+INISH
+3131
+TOLS
+9 6
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+R3
+R4
+R63 620
+22
+P2 10
++24 
+Sw2
+IBv
+73 212102
+R63 320
+C2o
+R7]
+R8
+7> 5
+RG I0
+Cz2 zzo/10 04 2n4037 R73 4k7
+Sw3
+RcG 5 k
+R67 ISk
+R72
+?9 M Ril
+R:?
+MonitoR NFLtS 6JE, GOO n NOM NAL
+R70 Isk
+Ri2
+R2s 620
+RIO
+IBv
+24v
+R23 w 47k
+MovitoR MUTE FDLST R77
+3i3
+4-/10
+MovITOR OLTPUt +1437 Co
+R2i 22k
+18v
+MUTED
+315
+R2G 36k R27 36k
+R2e C20
+R22 22k
+C2
+R24
+MCniTOP LEVEC CTl
+R14
+CS
+SwS
+4/10
+47k
+32s Lf3s7-iBv 202102
+33/10
+R17 ^ Ri9
+454
+CG 33 7=I JN 33/0 5k 332 4<7
+3
+25 Cp4016
+ZG
+73
+R29 IBk
+R30 5k
+R62 320 R64 22
+Rs? _2 R56 R57- @Jk iOk Rc 313 558< I5k 3k3 F53 2M2
+623 22o/12
+R2o
+2i4 2.2/25
+R/8
+R37 620
+I
+R65 22
+347 47k
+R43 2M2
+351 iok
+92 2N4637
+R3z 39*
+TALKEACK VPLT
+50/6
+23
+374 4k7
+R35 22k
+R39 IBv Sk 620 M R38 ISk R40 < CC 12k IO F IBv Ci2 24 33/10 IBv
+363 R54 215 15 < 2k2 Tx7/1o
+R34 39k
+R5o IcoK
+R52 02k
+R36 22k
+CR3 1N4148
+Sclc TNPLT
+28
+soloitb LEvEL CTL C13 4941_34 33/10 5k R45 4k7
+348 39k
+I50/ 6
+CR2 N4/48
+237 Re3 33< 4*7
+Rez< CR 2+2 2w<in4103 352 338 ?84- FLv4id 22k ?35
+46
+CRA 004143
+Soloite CTL
+-18v
+R42 I5k
+343 Sk
+Rec M 50 v2
+DS1 FLvii7
++24v
+35 2N2102
+P43563 MUTE SwG R89 10k
+Rss 4k7 /2w
+RS
+R?. 5 0 M
+224 783 22/25 3k
++25v
++18v
+In40c2
+c25 22/25
+C27 22125
+CtL comMon
++24
+C23 10/2s
+-25v CcMM 20
+MOTE ContRO_
+c2g 22/25
+c23 22125
+NOTES: ALL RESiSToRS V4 W 5 % e AND ALL caPaciTors IN LF JNCESS OThERWISE SPECIF ED
+24 v FRoM EXT RELAY 'SUPPLY
+R6
+25v
+18 v
+04003
+R92 750
+ISSNOD cKDJ 35o5 RX
+LSED OM
+MatI
+LaSt CoMPOnEnT DEsisnaTions C29 cR6 0s2,06 P93 S WG 27 3 USE Pc B 7 - 106 ALL IC's LMzoi EXCEPT As INDICATED
+WBS WAAD-Beck Byatemb
+R92 M 50 V? W
+ChASSIS
+22
+24v
+DRM: GEB DatE APRIL CKD SCALE
+M475 MoniTOR MODULE SCHEMATIC 475-02-001
+INISH
+3131
+TOLS
+9 6
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/MONITORING/M475/1977 - M475 - 475-02-001 - ALL IC'S LMZOI EXCEPT.jpg","sha256":"32e8fc73901b2af8f50216b4efc37b9a4f809f879100a2731ef56b4629a9d6aa","kind":"module","models":["M475"],"year":1977,"pages":1,"order":[{"page":1,"title_block":[{"number":"475-02-001","type":"schematic","title":"All Ic'S Lmzoi Except"}],"text":["620","5w2","242132","320","367 C22","5w3 Rcs R72 e2o/i0","MonITCR 44oa7","NFLTS R73","R '0 747","Isk","220","R23","974 Movitor","4710 VOTE MoniTOR","R5 22 * MZTED","R77","R2c 36k Rze","R22 R27 Cz0","36k","4{10","25","33/0 CD4ol","R29 I8* R30 R-2","922","920 756 _ 357<","Rie 947 2-2125","220 558< Rcs","347 R43 {-s3 1-3","212 2N4C37","s0/6 374","835 R39 4*7","22 k 250 R5z 754","02 * 2k2","R38 ISk","R36 840","22k cio CR3","SC_c solcitb","C12 CEvEL 748 233","60 @ CtL 39k CRZ","33/i0 CR4","Solcite Ctl 44043 352","R42 ISk 942 33/2 22k","R45 235","447","P43563 242102","355 VUTE","+254 Swc R3? 2225  783","029 C2- CtL ComMon","22/25 22/25 c23","20 0i2s","026 NOTE5' 24 v FRom EXt","Ro 22/25 22/25","25v ALL Resistors","R92 750 NCESs EC F E0","LaSt Comi OVENT DEsignation$ WBS WAAD DeCK","C23 052 _ F93 WC","chAssIS 24v GD M475","VSE io6","R4 MoniTOR MODULE","CKD;","Lvroi indicated SCAl[ SCHEMATIC","Tols 475-02 001"]}],"drawing":{"svg":"_traces/32e8fc73901b2af8.svg","viewBox":[2000,1301],"rotate":0,"number":"475-02-001","title":"All Ic'S Lmzoi Except","dtype":"02","outlines":"see _traces/32e8fc73901b2af8.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/32e8fc73901b2af8.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[1334,171,"620"],[398,183,"5w2"],[1526,216,"242132"],[1461,272,"320"],[1536,311,"C22"],[394,327,"5w3"],[1294,321,"Rcs"],[1381,319,"367"],[1471,321,"R72"],[1521,327,"e2o/i0"],[1525,355,"44oa7"],[31,366,"MonITCR"],[49,387,"NFLTS"],[1534,382,"R73"],[1414,392,"R '0"],[1531,394,"747"],[1414,409,"Isk"],[664,432,"220"],[624,454,"R23"],[395,468,"974"],[1549,474,"Movitor"],[561,482,"4710"],[1556,489,"VOTE"],[1914,489,"MoniTOR"],[511,507,"22 *"],[1806,507,"MZTED"],[344,517,"R5"],[1561,519,"R77"],[689,537,"R2c 36k"],[789,539,"Rze"],[514,549,"R22"],[739,547,"R27"],[789,554,"Cz0"],[736,564,"36k"],[556,607,"4{10"],[1191,637,"25"],[811,662,"R29 I8*"],[899,662,"R30"],[961,659,"33/0"],[1164,652,"CD4ol"],[1456,669,"R-2"],[1006,679,"922"],[341,707,"920"],[1281,702,"756 _"],[1315,706,"357&lt;"],[284,732,"Rie"],[660,726,"947"],[1129,727,"2-2125"],[659,747,"220"],[1316,749,"558&lt;"],[1469,739,"Rcs"],[1084,754,"347"],[1146,754,"R43"],[1139,772,"212"],[1272,773,"{-s3"],[1311,762,"1-3"],[1516,777,"2N4C37"],[566,797,"s0/6"],[1531,797,"374"],[506,807,"835"],[759,812,"R39"],[1529,812,"4*7"],[506,822,"22 k"],[1149,824,"250"],[1211,824,"R5z"],[1291,822,"754"],[1214,839,"02 *"],[1286,839,"2k2"],[679,852,"R38 ISk"],[504,864,"R36"],[766,864,"840"],[501,882,"22k"],[709,877,"cio"],[1231,884,"CR3"],[49,889,"SC_c"],[944,894,"solcitb"],[565,916,"60 @"],[889,914,"C12"],[949,909,"CEvEL"],[1086,912,"748"],[1404,922,"CRZ"],[1509,917,"233"],[886,932,"33/i0"],[954,924,"CtL"],[1084,927,"39k"],[1234,937,"CR4"],[44,952,"Solcite"],[134,952,"Ctl"],[1228,948,"44043"],[1551,955,"352"],[811,980,"R42 ISk"],[891,977,"942"],[956,974,"33/2"],[1474,984,"22k"],[1026,994,"R45"],[1554,994,"235"],[1025,1006,"447"],[1411,1022,"P43563"],[1644,1029,"242102"],[1234,1037,"355"],[1406,1039,"VUTE"],[86,1060,"+254"],[1411,1057,"Swc"],[1476,1055,"R3?"],[1548,1063,"2225"],[1596,1055,"783"],[390,1076,"029"],[499,1080,"C2-"],[1809,1085,"CtL"],[1856,1085,"ComMon"],[389,1097,"22/25"],[499,1097,"22/25"],[716,1105,"c23"],[206,1120,"20"],[719,1122,"0i2s"],[359,1145,"026"],[1819,1145,"24 v"],[1869,1145,"FRom"],[1934,1145,"EXt"],[804,1152,"NOTE5'"],[301,1167,"Ro"],[351,1160,"22/25"],[461,1160,"22/25"],[814,1175,"ALL"],[851,1175,"Resistors"],[96,1182,"25v"],[426,1195,"R92 750"],[896,1190,"NCESs"],[1099,1190,"EC F E0"],[814,1212,"LaSt"],[869,1212,"Comi"],[919,1212,"OVENT"],[989,1215,"DEsignation$"],[1699,1215,"WBS"],[1786,1212,"WAAD"],[1849,1212,"DeCK"],[814,1227,"C23"],[916,1227,"052 _"],[999,1230,"F93"],[1056,1227,"WC"],[86,1245,"chAssIS"],[561,1245,"24v"],[814,1250,"VSE"],[926,1252,"io6"],[1886,1245,"M475"],[1839,1260,"MoniTOR"],[1919,1262,"MODULE"],[1685,1264,"CKD;"],[1719,1265,"R4"],[900,1271,"Lvroi"],[1101,1275,"indicated"],[1685,1276,"SCAl["],[1864,1277,"SCHEMATIC"],[1685,1293,"Tols"],[1849,1300,"475-02"],[1919,1300,"001"],[1720,1238,"GD"]]}}
+```

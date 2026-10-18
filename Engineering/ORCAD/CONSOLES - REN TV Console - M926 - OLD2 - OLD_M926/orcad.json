@@ -1,0 +1,2305 @@
+{
+ "name": "CONSOLES/REN TV Console/M926/OLD2/OLD_M926",
+ "folder": "CONSOLES - REN TV Console - M926 - OLD2 - OLD_M926",
+ "source": "WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - CONSOLES/REN TV Console/M926/OLD2/OLD_M926",
+ "title": "M920 UTILITY POWER REGULATOR",
+ "number": "B 920-02-001",
+ "date": "November 17, 1995",
+ "sheets": [
+  {
+   "title": "M920 UTILITY POWER REGULATOR",
+   "number": "B 920-02-001",
+   "date": "November 17, 1995",
+   "company": [
+    "WARD-BECK SYSTEMS LTD.",
+    "841 PROGRESS AVENUE",
+    "SCARBOROUGH, ONTARIO, CANADA",
+    "M1H 2X4"
+   ],
+   "parts": [
+    {
+     "ref": "U1",
+     "value": "LM317",
+     "x": 420,
+     "y": 160
+    },
+    {
+     "ref": "Q1",
+     "value": "2N3904",
+     "x": 430,
+     "y": 480
+    },
+    {
+     "ref": "Q4",
+     "value": "2N3906",
+     "x": 440,
+     "y": 650
+    },
+    {
+     "ref": "C10",
+     "value": "0.1/50",
+     "x": 360,
+     "y": 240
+    }
+   ],
+   "labels": [
+    {
+     "text": "VDD",
+     "x": 940,
+     "y": 170
+    },
+    {
+     "text": "VSS",
+     "x": 940,
+     "y": 320
+    },
+    {
+     "text": "AUD_COM",
+     "x": 940,
+     "y": 580
+    },
+    {
+     "text": "VCC",
+     "x": 940,
+     "y": 420
+    },
+    {
+     "text": "VEE",
+     "x": 940,
+     "y": 720
+    },
+    {
+     "text": "VL",
+     "x": 310,
+     "y": 80
+    }
+   ],
+   "ports": [],
+   "sheets": [
+    "M926ZA.SCH"
+   ],
+   "file": "M926Z.SCH"
+  },
+  {
+   "title": "M926Z VCA MODULE AUDIO CIRCUITRY",
+   "number": "B 926-02-001",
+   "date": "November 20, 1995",
+   "company": [
+    "WARD-BECK SYSTEMS LTD.",
+    "841 PROGRESS AVENUE",
+    "SCARBOROUGH, ONTARIO, CANADA",
+    "M1H 2X4"
+   ],
+   "parts": [
+    {
+     "ref": "C11",
+     "value": "0.1/50",
+     "x": 480,
+     "y": 410
+    },
+    {
+     "ref": "C12",
+     "value": "0.1/50",
+     "x": 480,
+     "y": 80
+    },
+    {
+     "ref": "C13",
+     "value": "220/10",
+     "x": 240,
+     "y": 500
+    },
+    {
+     "ref": "C14",
+     "value": "220/10",
+     "x": 240,
+     "y": 150
+    },
+    {
+     "ref": "R27",
+     "value": "1K",
+     "x": 440,
+     "y": 310
+    },
+    {
+     "ref": "U2A",
+     "value": "OPA2604",
+     "x": 480,
+     "y": 150
+    },
+    {
+     "ref": "U2B",
+     "value": "OPA2604",
+     "x": 480,
+     "y": 480
+    },
+    {
+     "ref": "C17",
+     "value": "220/10",
+     "x": 1070,
+     "y": 290
+    },
+    {
+     "ref": "C18",
+     "value": "220/10",
+     "x": 1070,
+     "y": 250
+    },
+    {
+     "ref": "C19",
+     "value": "220/10",
+     "x": 620,
+     "y": 160
+    },
+    {
+     "ref": "C20",
+     "value": "220/10",
+     "x": 620,
+     "y": 490
+    },
+    {
+     "ref": "C21",
+     "value": "0.1/50",
+     "x": 840,
+     "y": 180
+    },
+    {
+     "ref": "C22",
+     "value": "0.1/50",
+     "x": 1110,
+     "y": 190
+    },
+    {
+     "ref": "C25",
+     "value": "0.1/50",
+     "x": 1150,
+     "y": 420
+    },
+    {
+     "ref": "C26",
+     "value": "0.33/50",
+     "x": 1290,
+     "y": 450
+    },
+    {
+     "ref": "C27",
+     "value": "220/10",
+     "x": 1400,
+     "y": 310
+    },
+    {
+     "ref": "C28",
+     "value": "0.1/50",
+     "x": 1680,
+     "y": 660
+    },
+    {
+     "ref": "C29",
+     "value": "0.1/50",
+     "x": 1580,
+     "y": 430
+    },
+    {
+     "ref": "U5A",
+     "value": "OPA2604",
+     "x": 1550,
+     "y": 310
+    },
+    {
+     "ref": "U5B",
+     "value": "OPA2604",
+     "x": 1710,
+     "y": 530
+    },
+    {
+     "ref": "C34",
+     "value": "0.1/50",
+     "x": 480,
+     "y": 1030
+    },
+    {
+     "ref": "C35",
+     "value": "0.1/50",
+     "x": 480,
+     "y": 700
+    },
+    {
+     "ref": "C36",
+     "value": "220/10",
+     "x": 240,
+     "y": 1120
+    },
+    {
+     "ref": "C37",
+     "value": "220/10",
+     "x": 240,
+     "y": 770
+    },
+    {
+     "ref": "R55",
+     "value": "1K",
+     "x": 440,
+     "y": 930
+    },
+    {
+     "ref": "U6A",
+     "value": "OPA2604",
+     "x": 480,
+     "y": 770
+    },
+    {
+     "ref": "U6B",
+     "value": "OPA2604",
+     "x": 480,
+     "y": 1100
+    },
+    {
+     "ref": "C40",
+     "value": "220/10",
+     "x": 1070,
+     "y": 910
+    },
+    {
+     "ref": "C41",
+     "value": "220/10",
+     "x": 1070,
+     "y": 870
+    },
+    {
+     "ref": "C42",
+     "value": "220/10",
+     "x": 620,
+     "y": 780
+    },
+    {
+     "ref": "C43",
+     "value": "220/10",
+     "x": 620,
+     "y": 1110
+    },
+    {
+     "ref": "C44",
+     "value": "0.1/50",
+     "x": 840,
+     "y": 800
+    },
+    {
+     "ref": "C45",
+     "value": "0.1/50",
+     "x": 1110,
+     "y": 810
+    },
+    {
+     "ref": "C48",
+     "value": "0.1/50",
+     "x": 1150,
+     "y": 1040
+    },
+    {
+     "ref": "C49",
+     "value": "0.33/50",
+     "x": 1290,
+     "y": 1070
+    },
+    {
+     "ref": "C50",
+     "value": "220/10",
+     "x": 1400,
+     "y": 930
+    },
+    {
+     "ref": "C51",
+     "value": "0.1/50",
+     "x": 1680,
+     "y": 1280
+    },
+    {
+     "ref": "C52",
+     "value": "0.1/50",
+     "x": 1580,
+     "y": 1050
+    },
+    {
+     "ref": "U9A",
+     "value": "OPA2604",
+     "x": 1550,
+     "y": 930
+    },
+    {
+     "ref": "U9B",
+     "value": "OPA2604",
+     "x": 1710,
+     "y": 1150
+    }
+   ],
+   "labels": [
+    {
+     "text": "VCC",
+     "x": 580,
+     "y": 440
+    },
+    {
+     "text": "VEE",
+     "x": 580,
+     "y": 110
+    },
+    {
+     "text": "AUD_COM",
+     "x": 490,
+     "y": 330
+    },
+    {
+     "text": "AUD_COM",
+     "x": 210,
+     "y": 340
+    },
+    {
+     "text": "VDD",
+     "x": 890,
+     "y": 140
+    },
+    {
+     "text": "VCC",
+     "x": 1230,
+     "y": 150
+    },
+    {
+     "text": "VEE",
+     "x": 1190,
+     "y": 460
+    },
+    {
+     "text": "AUD_COM",
+     "x": 1350,
+     "y": 510
+    },
+    {
+     "text": "VCTL",
+     "x": 1230,
+     "y": 570
+    },
+    {
+     "text": "CHON",
+     "x": 800,
+     "y": 520
+    },
+    {
+     "text": "VSS",
+     "x": 920,
+     "y": 470
+    },
+    {
+     "text": "AUD_COM",
+     "x": 1060,
+     "y": 470
+    },
+    {
+     "text": "VCC",
+     "x": 1570,
+     "y": 480
+    },
+    {
+     "text": "VEE",
+     "x": 1730,
+     "y": 700
+    },
+    {
+     "text": "VCC",
+     "x": 580,
+     "y": 1060
+    },
+    {
+     "text": "VEE",
+     "x": 580,
+     "y": 730
+    },
+    {
+     "text": "AUD_COM",
+     "x": 490,
+     "y": 950
+    },
+    {
+     "text": "AUD_COM",
+     "x": 210,
+     "y": 960
+    },
+    {
+     "text": "VDD",
+     "x": 890,
+     "y": 760
+    },
+    {
+     "text": "VCC",
+     "x": 1230,
+     "y": 770
+    },
+    {
+     "text": "VEE",
+     "x": 1190,
+     "y": 1080
+    },
+    {
+     "text": "AUD_COM",
+     "x": 1350,
+     "y": 1130
+    },
+    {
+     "text": "VCTL",
+     "x": 1230,
+     "y": 1190
+    },
+    {
+     "text": "CHON",
+     "x": 800,
+     "y": 1140
+    },
+    {
+     "text": "VSS",
+     "x": 920,
+     "y": 1090
+    },
+    {
+     "text": "AUD_COM",
+     "x": 1060,
+     "y": 1090
+    },
+    {
+     "text": "VCC",
+     "x": 1570,
+     "y": 1100
+    },
+    {
+     "text": "VEE",
+     "x": 1730,
+     "y": 1320
+    }
+   ],
+   "ports": [],
+   "sheets": [],
+   "file": "M926ZA.SCH"
+  }
+ ],
+ "netlists": [
+  {
+   "header": [
+    "M920 UTILITY POWER REGULATOR                  Revised:  November 17, 1995",
+    "B 920-02-001                                  Revision: 0",
+    "WARD-BECK SYSTEMS LTD."
+   ],
+   "parts": [
+    {
+     "ref": "C10",
+     "footprint": "CAP.1",
+     "value": "0.1/50"
+    },
+    {
+     "ref": "C11",
+     "footprint": "CAP.1",
+     "value": "0.1/50"
+    },
+    {
+     "ref": "C12",
+     "footprint": "CAP.1",
+     "value": "0.1/50"
+    },
+    {
+     "ref": "C21",
+     "footprint": "CAP.1",
+     "value": "0.1/50"
+    },
+    {
+     "ref": "C22",
+     "footprint": "CAP.1",
+     "value": "0.1/50"
+    },
+    {
+     "ref": "C25",
+     "footprint": "CAP.1",
+     "value": "0.1/50"
+    },
+    {
+     "ref": "C27",
+     "footprint": "CAP.1",
+     "value": "0.1/50"
+    },
+    {
+     "ref": "C28",
+     "footprint": "CAP.1",
+     "value": "0.1/50"
+    },
+    {
+     "ref": "C37",
+     "footprint": "CAP.1",
+     "value": "0.1/50"
+    },
+    {
+     "ref": "C38",
+     "footprint": "CAP.1",
+     "value": "0.1/50"
+    },
+    {
+     "ref": "C41",
+     "footprint": "CAP.1",
+     "value": "0.1/50"
+    },
+    {
+     "ref": "C26",
+     "footprint": "CAP.3",
+     "value": "0.33/50"
+    },
+    {
+     "ref": "C42",
+     "footprint": "CAP.3",
+     "value": "0.33/50"
+    },
+    {
+     "ref": "R5",
+     "footprint": "R1/4",
+     "value": "100K"
+    },
+    {
+     "ref": "R6",
+     "footprint": "R1/4",
+     "value": "100K"
+    },
+    {
+     "ref": "R10",
+     "footprint": "R1/4",
+     "value": "100K"
+    },
+    {
+     "ref": "R12",
+     "footprint": "R1/4",
+     "value": "100K"
+    },
+    {
+     "ref": "R16",
+     "footprint": "R1/4",
+     "value": "100K 1%"
+    },
+    {
+     "ref": "R20",
+     "footprint": "R1/4",
+     "value": "100K 1%"
+    },
+    {
+     "ref": "R30",
+     "footprint": "R1/4",
+     "value": "100K 1%"
+    },
+    {
+     "ref": "R31",
+     "footprint": "R1/4",
+     "value": "100K 1%"
+    },
+    {
+     "ref": "R32",
+     "footprint": "R1/4",
+     "value": "100K 1%"
+    },
+    {
+     "ref": "R33",
+     "footprint": "R1/4",
+     "value": "100K 1%"
+    },
+    {
+     "ref": "R38",
+     "footprint": "R1/4",
+     "value": "100K 1%"
+    },
+    {
+     "ref": "R42",
+     "footprint": "R1/4",
+     "value": "100K 1%"
+    },
+    {
+     "ref": "R52",
+     "footprint": "R1/4",
+     "value": "100K 1%"
+    },
+    {
+     "ref": "R53",
+     "footprint": "R1/4",
+     "value": "100K 1%"
+    },
+    {
+     "ref": "R54",
+     "footprint": "R1/4",
+     "value": "100K 1%"
+    },
+    {
+     "ref": "R55",
+     "footprint": "R1/4",
+     "value": "100K 1%"
+    },
+    {
+     "ref": "R34",
+     "footprint": "R1/4",
+     "value": "150K 1%"
+    },
+    {
+     "ref": "R56",
+     "footprint": "R1/4",
+     "value": "150K 1%"
+    },
+    {
+     "ref": "R17",
+     "footprint": "R1/4",
+     "value": "16K2 1%"
+    },
+    {
+     "ref": "R18",
+     "footprint": "R1/4",
+     "value": "16K2 1%"
+    },
+    {
+     "ref": "R21",
+     "footprint": "R1/4",
+     "value": "16K2 1%"
+    },
+    {
+     "ref": "R22",
+     "footprint": "R1/4",
+     "value": "16K2 1%"
+    },
+    {
+     "ref": "R39",
+     "footprint": "R1/4",
+     "value": "16K2 1%"
+    },
+    {
+     "ref": "R40",
+     "footprint": "R1/4",
+     "value": "16K2 1%"
+    },
+    {
+     "ref": "R43",
+     "footprint": "R1/4",
+     "value": "16K2 1%"
+    },
+    {
+     "ref": "R44",
+     "footprint": "R1/4",
+     "value": "16K2 1%"
+    },
+    {
+     "ref": "R27",
+     "footprint": "PT10V",
+     "value": "1K"
+    },
+    {
+     "ref": "R49",
+     "footprint": "PT10V",
+     "value": "1K"
+    },
+    {
+     "ref": "R37",
+     "footprint": "R1/4",
+     "value": "1K3 1%"
+    },
+    {
+     "ref": "R59",
+     "footprint": "R1/4",
+     "value": "1K3 1%"
+    },
+    {
+     "ref": "R13",
+     "footprint": "R1/4",
+     "value": "1K43"
+    },
+    {
+     "ref": "R14",
+     "footprint": "R1/4",
+     "value": "1K43"
+    },
+    {
+     "ref": "D1",
+     "footprint": "DO-41",
+     "value": "1N4003"
+    },
+    {
+     "ref": "D2",
+     "footprint": "DO-41",
+     "value": "1N4003"
+    },
+    {
+     "ref": "D3",
+     "footprint": "DO-41",
+     "value": "1N4003"
+    },
+    {
+     "ref": "D4",
+     "footprint": "DO-41",
+     "value": "1N4003"
+    },
+    {
+     "ref": "D5",
+     "footprint": "DO-41",
+     "value": "1N4003"
+    },
+    {
+     "ref": "D7",
+     "footprint": "DO-35",
+     "value": "1N4148"
+    },
+    {
+     "ref": "D8",
+     "footprint": "DO-35",
+     "value": "1N4148"
+    },
+    {
+     "ref": "D6",
+     "footprint": "17-02",
+     "value": "1N5366B"
+    },
+    {
+     "ref": "R35",
+     "footprint": "R1/4",
+     "value": "20K"
+    },
+    {
+     "ref": "R57",
+     "footprint": "R1/4",
+     "value": "20K"
+    },
+    {
+     "ref": "R28",
+     "footprint": "R1/4",
+     "value": "20K 1%"
+    },
+    {
+     "ref": "R29",
+     "footprint": "R1/4",
+     "value": "20K 1%"
+    },
+    {
+     "ref": "R50",
+     "footprint": "R1/4",
+     "value": "20K 1%"
+    },
+    {
+     "ref": "R51",
+     "footprint": "R1/4",
+     "value": "20K 1%"
+    },
+    {
+     "ref": "C13",
+     "footprint": "TANTE.2",
+     "value": "220/10"
+    },
+    {
+     "ref": "C14",
+     "footprint": "TANTE.2",
+     "value": "220/10"
+    },
+    {
+     "ref": "C17",
+     "footprint": "TANTE.2",
+     "value": "220/10"
+    },
+    {
+     "ref": "C18",
+     "footprint": "TANTE.2",
+     "value": "220/10"
+    },
+    {
+     "ref": "C19",
+     "footprint": "TANTE.2",
+     "value": "220/10"
+    },
+    {
+     "ref": "C20",
+     "footprint": "TANTE.2",
+     "value": "220/10"
+    },
+    {
+     "ref": "C29",
+     "footprint": "TANTE.2",
+     "value": "220/10"
+    },
+    {
+     "ref": "C30",
+     "footprint": "TANTE.2",
+     "value": "220/10"
+    },
+    {
+     "ref": "C33",
+     "footprint": "TANTE.2",
+     "value": "220/10"
+    },
+    {
+     "ref": "C34",
+     "footprint": "TANTE.2",
+     "value": "220/10"
+    },
+    {
+     "ref": "C35",
+     "footprint": "TANTE.2",
+     "value": "220/10"
+    },
+    {
+     "ref": "C36",
+     "footprint": "TANTE.2",
+     "value": "220/10"
+    },
+    {
+     "ref": "R15",
+     "footprint": "R1/4",
+     "value": "243 1%"
+    },
+    {
+     "ref": "R11",
+     "footprint": "R1/2",
+     "value": "27 1/2"
+    },
+    {
+     "ref": "R2",
+     "footprint": "R1/2",
+     "value": "27 1/2W"
+    },
+    {
+     "ref": "R8",
+     "footprint": "R1/2",
+     "value": "27 1/2W"
+    },
+    {
+     "ref": "R36",
+     "footprint": "R1/4",
+     "value": "2K43 1%"
+    },
+    {
+     "ref": "R58",
+     "footprint": "R1/4",
+     "value": "2K43 1%"
+    },
+    {
+     "ref": "Q1",
+     "footprint": "TO-92",
+     "value": "2N3904"
+    },
+    {
+     "ref": "Q4",
+     "footprint": "TO-92",
+     "value": "2N3906"
+    },
+    {
+     "ref": "R1",
+     "footprint": "R01MF",
+     "value": "30 1W"
+    },
+    {
+     "ref": "R4",
+     "footprint": "R1/4",
+     "value": "3K9"
+    },
+    {
+     "ref": "R7",
+     "footprint": "R1/4",
+     "value": "3K9"
+    },
+    {
+     "ref": "U3",
+     "footprint": "DIP16",
+     "value": "4053"
+    },
+    {
+     "ref": "U6",
+     "footprint": "DIP16",
+     "value": "4053"
+    },
+    {
+     "ref": "C1",
+     "footprint": "RAD.15",
+     "value": "47/50"
+    },
+    {
+     "ref": "C2",
+     "footprint": "RAD.15",
+     "value": "47/50"
+    },
+    {
+     "ref": "C3",
+     "footprint": "RAD.15",
+     "value": "47/50"
+    },
+    {
+     "ref": "C4",
+     "footprint": "RAD.15",
+     "value": "47/50"
+    },
+    {
+     "ref": "C5",
+     "footprint": "RAD.15",
+     "value": "47/50"
+    },
+    {
+     "ref": "C6",
+     "footprint": "RAD.15",
+     "value": "47/50"
+    },
+    {
+     "ref": "C7",
+     "footprint": "RAD.15",
+     "value": "47/50"
+    },
+    {
+     "ref": "C8",
+     "footprint": "RAD.15",
+     "value": "47/50"
+    },
+    {
+     "ref": "C9",
+     "footprint": "RAD.15",
+     "value": "47/50"
+    },
+    {
+     "ref": "C15",
+     "footprint": "CAP.2",
+     "value": "47P"
+    },
+    {
+     "ref": "C16",
+     "footprint": "CAP.2",
+     "value": "47P"
+    },
+    {
+     "ref": "C23",
+     "footprint": "CAP.2",
+     "value": "47P"
+    },
+    {
+     "ref": "C24",
+     "footprint": "CAP.2",
+     "value": "47P"
+    },
+    {
+     "ref": "C31",
+     "footprint": "CAP.2",
+     "value": "47P"
+    },
+    {
+     "ref": "C32",
+     "footprint": "CAP.2",
+     "value": "47P"
+    },
+    {
+     "ref": "C39",
+     "footprint": "CAP.2",
+     "value": "47P"
+    },
+    {
+     "ref": "C40",
+     "footprint": "CAP.2",
+     "value": "47P"
+    },
+    {
+     "ref": "R23",
+     "footprint": "R1/4",
+     "value": "4K32 1%"
+    },
+    {
+     "ref": "R24",
+     "footprint": "R1/4",
+     "value": "4K32 1%"
+    },
+    {
+     "ref": "R45",
+     "footprint": "R1/4",
+     "value": "4K32 1%"
+    },
+    {
+     "ref": "R46",
+     "footprint": "R1/4",
+     "value": "4K32 1%"
+    },
+    {
+     "ref": "R25",
+     "footprint": "R1/4",
+     "value": "4K75"
+    },
+    {
+     "ref": "R47",
+     "footprint": "R1/4",
+     "value": "4K75"
+    },
+    {
+     "ref": "R26",
+     "footprint": "R1/4",
+     "value": "4K75 1%"
+    },
+    {
+     "ref": "R48",
+     "footprint": "R1/4",
+     "value": "4K75 1%"
+    },
+    {
+     "ref": "R19",
+     "footprint": "R1/4",
+     "value": "619K"
+    },
+    {
+     "ref": "R41",
+     "footprint": "R1/4",
+     "value": "619K"
+    },
+    {
+     "ref": "U1",
+     "footprint": "TO-220HS",
+     "value": "LM317"
+    },
+    {
+     "ref": "U2",
+     "footprint": "DIP8",
+     "value": "OPA2604"
+    },
+    {
+     "ref": "U5",
+     "footprint": "DIP8",
+     "value": "OPA2604"
+    },
+    {
+     "ref": "R3",
+     "footprint": "R1/2",
+     "value": "SOT"
+    },
+    {
+     "ref": "R9",
+     "footprint": "R1/2",
+     "value": "SOT"
+    },
+    {
+     "ref": "U4",
+     "footprint": "DIP16",
+     "value": "SSM2018TP"
+    },
+    {
+     "ref": "U7",
+     "footprint": "DIP16",
+     "value": "SSM2018TP"
+    },
+    {
+     "ref": "Q2",
+     "footprint": "TO-220HS",
+     "value": "TIP29B"
+    },
+    {
+     "ref": "Q3",
+     "footprint": "TO-220HS",
+     "value": "TIP30B"
+    }
+   ],
+   "nets": [
+    {
+     "name": "VL-1",
+     "nodes": [
+      "D3,1",
+      "R1,1"
+     ]
+    },
+    {
+     "name": "VSS-1",
+     "nodes": [
+      "C9,2",
+      "D3,2",
+      "C10,2",
+      "R13,2",
+      "R14,2",
+      "C1,2",
+      "C2,2",
+      "D2,2",
+      "D1,1",
+      "R11,1"
+     ]
+    },
+    {
+     "name": "N00003",
+     "nodes": [
+      "R1,2",
+      "C9,1",
+      "C10,1",
+      "U1,3"
+     ]
+    },
+    {
+     "name": "VDD-1",
+     "nodes": [
+      "U1,2",
+      "R15,2",
+      "C2,1"
+     ]
+    },
+    {
+     "name": "N00005",
+     "nodes": [
+      "U1,1",
+      "R13,1",
+      "C1,1",
+      "R14,1",
+      "R15,1"
+     ]
+    },
+    {
+     "name": "AUD_COM-1",
+     "nodes": [
+      "D5,2",
+      "C4,1",
+      "D4,1",
+      "C3,2",
+      "C5,2",
+      "C7,1",
+      "C6,2",
+      "R5,2",
+      "R12,2",
+      "R6,2",
+      "R10,1",
+      "D2,1",
+      "D1,2",
+      "R11,2",
+      "C8,1"
+     ]
+    },
+    {
+     "name": "N00007",
+     "nodes": [
+      "D5,1",
+      "C3,1",
+      "R3,1"
+     ]
+    },
+    {
+     "name": "N00008",
+     "nodes": [
+      "R2,2",
+      "Q1,3",
+      "R3,2",
+      "Q2,2"
+     ]
+    },
+    {
+     "name": "VCC-1",
+     "nodes": [
+      "Q2,3",
+      "C6,1",
+      "R6,1"
+     ]
+    },
+    {
+     "name": "N00010",
+     "nodes": [
+      "R2,1",
+      "R4,1"
+     ]
+    },
+    {
+     "name": "N00011",
+     "nodes": [
+      "Q2,1",
+      "Q1,1"
+     ]
+    },
+    {
+     "name": "N00012",
+     "nodes": [
+      "Q1,2",
+      "R4,2",
+      "D6,1",
+      "R5,1",
+      "C5,1"
+     ]
+    },
+    {
+     "name": "N00013",
+     "nodes": [
+      "C7,2",
+      "D6,2",
+      "R7,1",
+      "R12,1",
+      "Q4,2"
+     ]
+    },
+    {
+     "name": "N00014",
+     "nodes": [
+      "C4,2",
+      "D4,2",
+      "R7,2",
+      "R8,1",
+      "R9,1"
+     ]
+    },
+    {
+     "name": "VEE-1",
+     "nodes": [
+      "C8,2",
+      "Q3,3",
+      "R10,2"
+     ]
+    },
+    {
+     "name": "N00016",
+     "nodes": [
+      "R8,2",
+      "R9,2",
+      "Q3,2",
+      "Q4,3"
+     ]
+    },
+    {
+     "name": "N00017",
+     "nodes": [
+      "Q4,1",
+      "Q3,1"
+     ]
+    },
+    {
+     "name": "AUD_COM-2",
+     "nodes": [
+      "D8,2",
+      "C42,2",
+      "R59,2",
+      "U6,13",
+      "U6,1",
+      "R53,2",
+      "R52,2",
+      "C38,2",
+      "U7,13",
+      "C41,1",
+      "R38,2",
+      "C28,1",
+      "R42,1",
+      "R49,2",
+      "C27,1",
+      "R55,2",
+      "R54,1",
+      "D7,2",
+      "C26,2",
+      "R37,2",
+      "U3,13",
+      "U3,1",
+      "R31,2",
+      "R30,2",
+      "C22,2",
+      "U4,13",
+      "C25,1",
+      "R16,2",
+      "C12,1",
+      "R20,1",
+      "R27,2",
+      "C11,1",
+      "R33,2",
+      "R32,1"
+     ]
+    },
+    {
+     "name": "N00019",
+     "nodes": [
+      "C16,1",
+      "R25,2",
+      "U2,1",
+      "C19,1"
+     ]
+    },
+    {
+     "name": "VEE-2",
+     "nodes": [
+      "U7,10",
+      "U7,16",
+      "C41,2",
+      "C28,2",
+      "U5,4",
+      "U4,10",
+      "U4,16",
+      "C25,2",
+      "C12,2",
+      "U2,4"
+     ]
+    },
+    {
+     "name": "N00021",
+     "nodes": [
+      "C16,2",
+      "R17,2",
+      "R25,1",
+      "U2,2"
+     ]
+    },
+    {
+     "name": "VDD-2",
+     "nodes": [
+      "C37,2",
+      "U6,16",
+      "C21,2",
+      "U3,16"
+     ]
+    },
+    {
+     "name": "VCC-2",
+     "nodes": [
+      "C27,2",
+      "U5,8",
+      "C38,1",
+      "R56,1",
+      "U7,2",
+      "C11,2",
+      "U2,8",
+      "C22,1",
+      "R34,1",
+      "U4,2"
+     ]
+    },
+    {
+     "name": "N00024",
+     "nodes": [
+      "R20,2",
+      "R16,1",
+      "C14,2",
+      "C13,2"
+     ]
+    },
+    {
+     "name": "N00025",
+     "nodes": [
+      "C14,1",
+      "R21,1",
+      "R17,1"
+     ]
+    },
+    {
+     "name": "N00026",
+     "nodes": [
+      "C19,2",
+      "R33,1",
+      "R29,1"
+     ]
+    },
+    {
+     "name": "N00027",
+     "nodes": [
+      "R29,2",
+      "U3,14"
+     ]
+    },
+    {
+     "name": "N00028",
+     "nodes": [
+      "U2,3",
+      "R18,2",
+      "R23,1"
+     ]
+    },
+    {
+     "name": "VSS-2",
+     "nodes": [
+      "C37,1",
+      "U6,4",
+      "U6,9",
+      "U6,7",
+      "U6,8",
+      "U6,5",
+      "U6,3",
+      "U6,6",
+      "C21,1",
+      "U3,4",
+      "U3,9",
+      "U3,7",
+      "U3,8",
+      "U3,5",
+      "U3,3",
+      "U3,6"
+     ]
+    },
+    {
+     "name": "N00030",
+     "nodes": [
+      "R18,1",
+      "C13,1",
+      "R22,1"
+     ]
+    },
+    {
+     "name": "N00031",
+     "nodes": [
+      "R34,2",
+      "U4,12"
+     ]
+    },
+    {
+     "name": "N00032",
+     "nodes": [
+      "U3,12",
+      "R30,1",
+      "C18,2"
+     ]
+    },
+    {
+     "name": "N00033",
+     "nodes": [
+      "C18,1",
+      "U4,7",
+      "U4,1"
+     ]
+    },
+    {
+     "name": "N00034",
+     "nodes": [
+      "U4,3",
+      "R35,1",
+      "C24,1"
+     ]
+    },
+    {
+     "name": "N00035",
+     "nodes": [
+      "R23,2",
+      "R19,1",
+      "R27,1"
+     ]
+    },
+    {
+     "name": "N00036",
+     "nodes": [
+      "U3,15",
+      "R28,2"
+     ]
+    },
+    {
+     "name": "N00037",
+     "nodes": [
+      "U3,2",
+      "C17,2",
+      "R31,1"
+     ]
+    },
+    {
+     "name": "N00038",
+     "nodes": [
+      "U4,6",
+      "C17,1",
+      "U4,4"
+     ]
+    },
+    {
+     "name": "N00039",
+     "nodes": [
+      "U4,14",
+      "R35,2",
+      "C24,2"
+     ]
+    },
+    {
+     "name": "CHON-2",
+     "nodes": [
+      "U6,11",
+      "U6,10",
+      "U3,11",
+      "U3,10"
+     ]
+    },
+    {
+     "name": "N00041",
+     "nodes": [
+      "U4,5",
+      "C23,1"
+     ]
+    },
+    {
+     "name": "N00042",
+     "nodes": [
+      "R27,3",
+      "R19,2",
+      "R24,1"
+     ]
+    },
+    {
+     "name": "N00043",
+     "nodes": [
+      "U4,8",
+      "C23,2"
+     ]
+    },
+    {
+     "name": "N00044",
+     "nodes": [
+      "U4,11",
+      "D7,1",
+      "C26,1",
+      "R37,1",
+      "R36,1"
+     ]
+    },
+    {
+     "name": "N00045",
+     "nodes": [
+      "R24,2",
+      "R21,2",
+      "U2,5"
+     ]
+    },
+    {
+     "name": "N00046",
+     "nodes": [
+      "R32,2",
+      "C20,2",
+      "R28,1"
+     ]
+    },
+    {
+     "name": "N00047",
+     "nodes": [
+      "U2,7",
+      "R26,2",
+      "C20,1",
+      "C15,2"
+     ]
+    },
+    {
+     "name": "N00048",
+     "nodes": [
+      "R22,2",
+      "U2,6",
+      "R26,1",
+      "C15,1"
+     ]
+    },
+    {
+     "name": "VCTL-2",
+     "nodes": [
+      "R58,2",
+      "R36,2"
+     ]
+    },
+    {
+     "name": "N00050",
+     "nodes": [
+      "C32,1",
+      "R47,2",
+      "U5,1",
+      "C35,1"
+     ]
+    },
+    {
+     "name": "N00051",
+     "nodes": [
+      "C32,2",
+      "R39,2",
+      "R47,1",
+      "U5,2"
+     ]
+    },
+    {
+     "name": "N00052",
+     "nodes": [
+      "R42,2",
+      "R38,1",
+      "C30,2",
+      "C29,2"
+     ]
+    },
+    {
+     "name": "N00053",
+     "nodes": [
+      "C30,1",
+      "R43,1",
+      "R39,1"
+     ]
+    },
+    {
+     "name": "N00054",
+     "nodes": [
+      "C35,2",
+      "R55,1",
+      "R51,1"
+     ]
+    },
+    {
+     "name": "N00055",
+     "nodes": [
+      "R51,2",
+      "U6,14"
+     ]
+    },
+    {
+     "name": "N00056",
+     "nodes": [
+      "U5,3",
+      "R40,2",
+      "R45,1"
+     ]
+    },
+    {
+     "name": "N00057",
+     "nodes": [
+      "R40,1",
+      "C29,1",
+      "R44,1"
+     ]
+    },
+    {
+     "name": "N00058",
+     "nodes": [
+      "U7,12",
+      "R56,2"
+     ]
+    },
+    {
+     "name": "N00059",
+     "nodes": [
+      "U6,12",
+      "R52,1",
+      "C34,2"
+     ]
+    },
+    {
+     "name": "N00060",
+     "nodes": [
+      "C34,1",
+      "U7,7",
+      "U7,1"
+     ]
+    },
+    {
+     "name": "N00061",
+     "nodes": [
+      "U7,3",
+      "R57,1",
+      "C40,1"
+     ]
+    },
+    {
+     "name": "N00062",
+     "nodes": [
+      "R45,2",
+      "R41,1",
+      "R49,1"
+     ]
+    },
+    {
+     "name": "N00063",
+     "nodes": [
+      "U6,15",
+      "R50,2"
+     ]
+    },
+    {
+     "name": "N00064",
+     "nodes": [
+      "U6,2",
+      "C33,2",
+      "R53,1"
+     ]
+    },
+    {
+     "name": "N00065",
+     "nodes": [
+      "U7,6",
+      "C33,1",
+      "U7,4"
+     ]
+    },
+    {
+     "name": "N00066",
+     "nodes": [
+      "U7,14",
+      "R57,2",
+      "C40,2"
+     ]
+    },
+    {
+     "name": "N00067",
+     "nodes": [
+      "U7,5",
+      "C39,1"
+     ]
+    },
+    {
+     "name": "N00068",
+     "nodes": [
+      "R49,3",
+      "R41,2",
+      "R46,1"
+     ]
+    },
+    {
+     "name": "N00069",
+     "nodes": [
+      "U7,8",
+      "C39,2"
+     ]
+    },
+    {
+     "name": "N00070",
+     "nodes": [
+      "U7,11",
+      "D8,1",
+      "C42,1",
+      "R59,1",
+      "R58,1"
+     ]
+    },
+    {
+     "name": "N00071",
+     "nodes": [
+      "R46,2",
+      "R43,2",
+      "U5,5"
+     ]
+    },
+    {
+     "name": "N00072",
+     "nodes": [
+      "R54,2",
+      "C36,2",
+      "R50,1"
+     ]
+    },
+    {
+     "name": "N00073",
+     "nodes": [
+      "U5,7",
+      "R48,2",
+      "C36,1",
+      "C31,2"
+     ]
+    },
+    {
+     "name": "N00074",
+     "nodes": [
+      "R44,2",
+      "U5,6",
+      "R48,1",
+      "C31,1"
+     ]
+    },
+    {
+     "name": "VDD",
+     "nodes": [
+      "U6,16",
+      "U3,16"
+     ]
+    },
+    {
+     "name": "VCC",
+     "nodes": [
+      "U7,2",
+      "U4,2"
+     ]
+    },
+    {
+     "name": "GND",
+     "nodes": [
+      "U7,13",
+      "U4,13"
+     ]
+    },
+    {
+     "name": "VSS",
+     "nodes": [
+      "U6,8",
+      "U3,8"
+     ]
+    },
+    {
+     "name": "VEE",
+     "nodes": [
+      "U6,7",
+      "U3,7"
+     ]
+    }
+   ],
+   "title": "M920 UTILITY POWER REGULATOR",
+   "file": "M926Z.NET"
+  },
+  {
+   "header": [
+    "M926Z VCA MODULE AUDIO CIRCUITRY              Revised:  November 15, 1995",
+    "B 926-02-001                                  Revision: 0",
+    "WARD-BECK SYSTEMS LTD."
+   ],
+   "parts": [
+    {
+     "ref": "C1",
+     "footprint": "CAP.1",
+     "value": "0.1/50"
+    },
+    {
+     "ref": "C2",
+     "footprint": "CAP.1",
+     "value": "0.1/50"
+    },
+    {
+     "ref": "R1",
+     "footprint": "R1/4",
+     "value": "100K 1%"
+    },
+    {
+     "ref": "R6",
+     "footprint": "R1/4",
+     "value": "100K 1%"
+    },
+    {
+     "ref": "R12",
+     "footprint": "R1/4",
+     "value": "100K 1%"
+    },
+    {
+     "ref": "R13",
+     "footprint": "R1/4",
+     "value": "100K 1%"
+    },
+    {
+     "ref": "R2",
+     "footprint": "R1/4",
+     "value": "16K2 1%"
+    },
+    {
+     "ref": "R3",
+     "footprint": "R1/4",
+     "value": "16K2 1%"
+    },
+    {
+     "ref": "R7",
+     "footprint": "R1/4",
+     "value": "16K2 1%"
+    },
+    {
+     "ref": "R8",
+     "footprint": "R1/4",
+     "value": "16K2 1%"
+    },
+    {
+     "ref": "R15",
+     "footprint": "PT10V",
+     "value": "1K"
+    },
+    {
+     "ref": "C3",
+     "footprint": "TANTE.2",
+     "value": "220/10"
+    },
+    {
+     "ref": "C4",
+     "footprint": "TANTE.2",
+     "value": "220/10"
+    },
+    {
+     "ref": "C5",
+     "footprint": "TANTE.2",
+     "value": "220/10"
+    },
+    {
+     "ref": "C6",
+     "footprint": "TANTE.2",
+     "value": "220/10"
+    },
+    {
+     "ref": "C7",
+     "footprint": "CAP.2",
+     "value": "47P"
+    },
+    {
+     "ref": "C8",
+     "footprint": "CAP.2",
+     "value": "47P"
+    },
+    {
+     "ref": "R9",
+     "footprint": "R1/4",
+     "value": "4K32 1%"
+    },
+    {
+     "ref": "R10",
+     "footprint": "R1/4",
+     "value": "4K32 1%"
+    },
+    {
+     "ref": "R11",
+     "footprint": "R1/4",
+     "value": "4K75"
+    },
+    {
+     "ref": "R14",
+     "footprint": "R1/4",
+     "value": "4K75 1%"
+    },
+    {
+     "ref": "R4",
+     "footprint": "R1/4",
+     "value": "619K"
+    },
+    {
+     "ref": "U1",
+     "footprint": "DIP8",
+     "value": "OPA2604"
+    }
+   ],
+   "nets": [
+    {
+     "name": "AUD_COM-1",
+     "nodes": [
+      "R1,2",
+      "C2,1",
+      "R6,1",
+      "R15,2",
+      "C1,1",
+      "R12,2",
+      "R13,1"
+     ]
+    },
+    {
+     "name": "N00002",
+     "nodes": [
+      "C8,1",
+      "R11,2",
+      "U1,1",
+      "C3,1"
+     ]
+    },
+    {
+     "name": "VEE-1",
+     "nodes": [
+      "C2,2",
+      "U1,4"
+     ]
+    },
+    {
+     "name": "N00004",
+     "nodes": [
+      "C8,2",
+      "R2,2",
+      "R11,1",
+      "U1,2"
+     ]
+    },
+    {
+     "name": "N00005",
+     "nodes": [
+      "R6,2",
+      "R1,1",
+      "C6,2",
+      "C5,2"
+     ]
+    },
+    {
+     "name": "N00006",
+     "nodes": [
+      "C6,1",
+      "R7,1",
+      "R2,1"
+     ]
+    },
+    {
+     "name": "N00007",
+     "nodes": [
+      "C3,2",
+      "R12,1"
+     ]
+    },
+    {
+     "name": "N00008",
+     "nodes": [
+      "U1,3",
+      "R3,2",
+      "R9,1"
+     ]
+    },
+    {
+     "name": "N00009",
+     "nodes": [
+      "R3,1",
+      "C5,1",
+      "R8,1"
+     ]
+    },
+    {
+     "name": "N00010",
+     "nodes": [
+      "R9,2",
+      "R4,1",
+      "R15,1"
+     ]
+    },
+    {
+     "name": "N00011",
+     "nodes": [
+      "R15,3",
+      "R4,2",
+      "R10,1"
+     ]
+    },
+    {
+     "name": "VCC-1",
+     "nodes": [
+      "C1,2",
+      "U1,8"
+     ]
+    },
+    {
+     "name": "N00013",
+     "nodes": [
+      "R10,2",
+      "R7,2",
+      "U1,5"
+     ]
+    },
+    {
+     "name": "N00014",
+     "nodes": [
+      "R13,2",
+      "C4,2"
+     ]
+    },
+    {
+     "name": "N00015",
+     "nodes": [
+      "U1,7",
+      "R14,2",
+      "C4,1",
+      "C7,2"
+     ]
+    },
+    {
+     "name": "N00016",
+     "nodes": [
+      "R8,2",
+      "U1,6",
+      "R14,1",
+      "C7,1"
+     ]
+    }
+   ],
+   "title": "M926Z VCA MODULE AUDIO CIRCUITRY",
+   "file": "M926ZA.NET"
+  }
+ ],
+ "boms": [
+  {
+   "file": "M926Z.BOM",
+   "header": [
+    "M920 UTILITY POWER REGULATOR                  Revised:  November 17, 1995",
+    "B 920-02-001                                  Revision: 0",
+    "Bill Of Materials             November   20, 1995     8:42:09     Page    1"
+   ],
+   "items": [
+    {
+     "item": 1,
+     "qty": 9,
+     "refs": "C1,C2,C3,C4,C5,C6,C7,C8,C9",
+     "part": "47/50"
+    },
+    {
+     "item": 2,
+     "qty": 6,
+     "refs": "C10,C11,C12,C21,C22,C25",
+     "part": "0.1/50"
+    },
+    {
+     "item": 3,
+     "qty": 6,
+     "refs": "C13,C14,C17,C18,C19,C20",
+     "part": "220/10"
+    },
+    {
+     "item": 4,
+     "qty": 4,
+     "refs": "C15,C16,C23,C24",
+     "part": "47P"
+    },
+    {
+     "item": 5,
+     "qty": 1,
+     "refs": "C26",
+     "part": "0.33/50"
+    },
+    {
+     "item": 6,
+     "qty": 5,
+     "refs": "D1,D2,D3,D4,D5",
+     "part": "1N4003"
+    },
+    {
+     "item": 7,
+     "qty": 1,
+     "refs": "D6",
+     "part": "1N5366B"
+    },
+    {
+     "item": 8,
+     "qty": 1,
+     "refs": "D7",
+     "part": "1N4148"
+    },
+    {
+     "item": 9,
+     "qty": 1,
+     "refs": "Q1",
+     "part": "2N3904"
+    },
+    {
+     "item": 10,
+     "qty": 1,
+     "refs": "Q2",
+     "part": "TIP29B"
+    },
+    {
+     "item": 11,
+     "qty": 1,
+     "refs": "Q3",
+     "part": "TIP30B"
+    },
+    {
+     "item": 12,
+     "qty": 1,
+     "refs": "Q4",
+     "part": "2N3906"
+    },
+    {
+     "item": 13,
+     "qty": 1,
+     "refs": "R1",
+     "part": "30 1W"
+    },
+    {
+     "item": 14,
+     "qty": 2,
+     "refs": "R2,R8",
+     "part": "27 1/2W"
+    },
+    {
+     "item": 15,
+     "qty": 2,
+     "refs": "R3,R9",
+     "part": "SOT"
+    },
+    {
+     "item": 16,
+     "qty": 2,
+     "refs": "R4,R7",
+     "part": "3K9"
+    },
+    {
+     "item": 17,
+     "qty": 4,
+     "refs": "R5,R6,R10,R12",
+     "part": "100K"
+    },
+    {
+     "item": 18,
+     "qty": 1,
+     "refs": "R11",
+     "part": "27 1/2"
+    },
+    {
+     "item": 19,
+     "qty": 2,
+     "refs": "R13,R14",
+     "part": "1K43"
+    },
+    {
+     "item": 20,
+     "qty": 1,
+     "refs": "R15",
+     "part": "243 1%"
+    },
+    {
+     "item": 21,
+     "qty": 6,
+     "refs": "R16,R20,R30,R31,R32,R33",
+     "part": "100K 1%"
+    },
+    {
+     "item": 22,
+     "qty": 4,
+     "refs": "R17,R18,R21,R22",
+     "part": "16K2 1%"
+    },
+    {
+     "item": 23,
+     "qty": 1,
+     "refs": "R19",
+     "part": "619K"
+    },
+    {
+     "item": 24,
+     "qty": 2,
+     "refs": "R23,R24",
+     "part": "4K32 1%"
+    },
+    {
+     "item": 25,
+     "qty": 1,
+     "refs": "R25",
+     "part": "4K75"
+    },
+    {
+     "item": 26,
+     "qty": 1,
+     "refs": "R26",
+     "part": "4K75 1%"
+    },
+    {
+     "item": 27,
+     "qty": 1,
+     "refs": "R27",
+     "part": "1K"
+    },
+    {
+     "item": 28,
+     "qty": 2,
+     "refs": "R28,R29",
+     "part": "20K 1%"
+    },
+    {
+     "item": 29,
+     "qty": 1,
+     "refs": "R34",
+     "part": "150K 1%"
+    },
+    {
+     "item": 30,
+     "qty": 1,
+     "refs": "R35",
+     "part": "20K"
+    },
+    {
+     "item": 31,
+     "qty": 1,
+     "refs": "R36",
+     "part": "2K43 1%"
+    },
+    {
+     "item": 32,
+     "qty": 1,
+     "refs": "R37",
+     "part": "1K3 1%"
+    },
+    {
+     "item": 33,
+     "qty": 1,
+     "refs": "U1",
+     "part": "LM317"
+    },
+    {
+     "item": 34,
+     "qty": 1,
+     "refs": "U2",
+     "part": "OPA2604"
+    },
+    {
+     "item": 35,
+     "qty": 1,
+     "refs": "U3",
+     "part": "4053"
+    },
+    {
+     "item": 36,
+     "qty": 1,
+     "refs": "U4",
+     "part": "SSM2018TP"
+    }
+   ]
+  }
+ ],
+ "libraries": [
+  "M926Z.LIB"
+ ]
+}

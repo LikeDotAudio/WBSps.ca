@@ -1,0 +1,102 @@
+# 1977 - M612 - wbsps - promo - m612 da - back.jpg
+Wiki page: [M612](../../../PAGES/M612.md)
+
+
+- **Year:** 1977 (module estimate (labelled))
+- **Module:** M612
+- **Category:** AMPLIFIERS
+- **Module year estimate:** 1977 — labelled "REVISION 77" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M612 - Audio DA.pdf
+- **Original file:** `WBSps.env/wbsps - website ARCHIVE/WBSPS 2008/RAW SCANS/history - RAW IMAGES/wbsps - promo - m612 da - back.jpg`
+- **SHA-256:** `f28902f435e9efc4eabc38ab3c760be49a4f945092510d9b89f598a5290f444e`
+- **Size:** 969,700 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 1 words corrected)
+
+```text
+UNITY
+GAIN
+16o 4240
+12 ISOLATED 6002 OUTPUTS
+OP |
+OP3
+Tpi
+TP 3
+InPUT > 20k
+-6D8 TRiM
+TP 4
+OP2
+OP4
+OPERATIONAL AMPLIFIERS
+RE 6.
+IITVAC 6OHZ
+M612
+TECHNICAL DATA:
+GAIN Selectable: unity, +8db, +16db,+24db, +32db with #6db adjust for each range. FREQUENCY RESPONSE #0.25db 20 hz to 20Khz NOISE 75dbm absolute output noise (unity gain) 6Odbm absolute output noise (32db gain) TOTAL HARMONIC DISTORTION Less than 0.25% from 2Ohz to 20Khz (measured at +18dbm output level with 12 simultaneous split outputs) SOURCE IMPEDANCE 600 ohms or less balanced or unbalanced INPUT IMPEDANCE Greater than 20K ohms INPUT LEVEL 30dbm for +8dbm output level, 18dbm max LOAD IMPEDANCE 600 ohms balanced X 12
+OUTPUT IMPEDANCE 600 ohms resistive OUTPUT LEVEL +8dbm nominal, +24dbm max after 6 splits, +22dbm max after 12 splits_ OUTPUT ISOLATION Greater than 7Odb, 2Ohz to 20Khz PHASING The low terminal number of the input pair and the low terminal number of the output pair are in phase. POWER REQUIREMENTS 105 to 125 volts ac 6Ohz, 1SVA AMBIENT TEMPERATURE 0 c to 60 DIMENSIONS 3.4W X 3.4H X 13.70 inches WEIGHT 5 Ibs. net
+ACCESSORIES:
+MF6 600 Series Mounting Frame. 19W x 3.5H x 14.5D (less rear cable tray and cover) Standard EIA rack mount ting: Accommodates five M612 modules or any combination of single, double or quadruple units not exceeding ten single width modules: MFR6 600 Series Frame Receptacle_ Two required per M612.
+WARD-BECK SYSTEMS LTD_ WARD-BECK SYSTEMS INC. 841 Progress Ave,Scarborough,Ont M1H 2x4 290 Larkin St;; Buffalo, New York 14210 Telephone: (416) 438-6550 Telex: 06-23469
+WBS
+TP2
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+UNITY
+GAIN
+16o 4240
+12 ISOLATED 6002 OUTPUTS
+OP |
+OP3
+Tpi
+TP 3
+InPUT > 20k
+-6D8 TRiM
+TP 4
+OP2
+OP4
+OPERATIONAL AMPLIFIERS
+RE 6.
+IITVAC 6OHZ
+M612
+TECHNICAL DATA:
+GAIN Selectable: unity, +8db, +16db,+24db, +32db with #6db adjust for each range. FREQUENCY RESPONSE #0.25db 20 hz to 20Khz NOISE 75dbm absolute output noise (unity gain) 6Odbm absolute output noise (32db gain) TOTAL HARMONIC DISTORTION Less than 0.25% from 2Ohz to 20Khz (measured at +18dbm output level with 12 simultaneous split outputs) SOURCE IMPEDANCE 600 ohms or less balanced or unbalanced INPUT IMPEDANCE Greater than 20K ohms INPUT LEVEL 30dbm for +8dbm output level, 18dbm max LOAD IMPEDANCE 600 ohms balanced X 12
+OUTPUT IMPEDANCE 600 ohms resistive OUTPUT LEVEL +8dbm nominal, +24dbm max after 6 splits, +22dbm max after 12 splits_ OUTPUT ISOLATION Greater than 7Odb, 2Ohz to 20Khz PHASING The low terminal number of the input pair and the low terminal number of the output pair are in phase. POWER REQUIREMENTS 105 to 125 volts ac 6Ohz, 1SVA AMBIENT TEMPERATURE 0 c to 60 DIMENSIONS 3.4W X 3.4H X 13.70 inches WEIGHT 5 Ibs. net
+ACCESSORIES:
+MF6 600 Series Mounting Frame. 19W x 3.5H x 14.5D (less rear cable tray and cover) Standard EIA rack mounti ting: Accommodates five M612 modules or any combination of single, double or quadruple units not exceeding ten single width modules: MFR6 600 Series Frame Receptacle_ Two required per M612.
+WARD-BECK SYSTEMS LTD_ WARD-BECK SYSTEMS INC. 841 Progress Ave,Scarborough,Ont M1H 2x4 290 Larkin St;; Buffalo, New York 14210 Telephone: (416) 438-6550 Telex: 06-23469
+WBS
+TP2
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Modules/AMPLIFIERS/M612/1977 - M612 - wbsps - promo - m612 da - back.jpg",
+ "sha256": "f28902f435e9efc4eabc38ab3c760be49a4f945092510d9b89f598a5290f444e",
+ "kind": "module",
+ "models": [
+  "M612"
+ ],
+ "year": 1977,
+ "pages": 1,
+ "order": [
+  {
+   "page": 1,
+   "sections": [
+    {
+     "heading": "TECHNICAL DATA",
+     "kind": "specs"
+    }
+   ]
+  }
+ ]
+}
+```

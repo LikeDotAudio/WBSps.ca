@@ -1,0 +1,1 @@
+window.WBS_FOLDER={"d":"Products/METERING/MP3","f":[["19xx - MP3 - (PPM) Front.jpg","c0358d0ef98abfa3dd80"],["19xx - MP3 - (VU) Front.jpg","d1792e28c1d5918022e5"],["19xx - MP3 - DOC - MP Series Information Sheet.jpg","0ae8b21045b549003cc7"],["19xx - MP3 - Rear.jpg","f1c6c729f6782fdebc83"]]};

@@ -1,0 +1,39 @@
+# 19xx - microCOM II - DOC - IMG_2051-2013-04-08.jpg
+Wiki page: [Documents](../../../PAGES/Documents.md)
+
+
+- **Year:** unknown (unknown)
+- **Type:** document scan
+- **About:** microCOM II
+
+## Text recovered by OCR
+
+> COMPLETE POST 96x96 MicroCOM II COMMUNICATIONS SYSTEM PROJECT NO 960134
+- **Original file:** `WBSps.env/PUBLIC/RAW Photos/WBS BINDER SPINE PICTURES/IMG_2051-2013-04-08.jpg`
+- **SHA-256:** `91360f2a6c143096e254278c65944fce930d3b748dbe45a18d252846d3f3a87c`
+- **Size:** 104,056 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR)
+
+```text
+COMPLETE POST
+96x96 MicroCOM II COMMUNICATIONS SYSTEM
+PROJECT NO 960134
+```
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Products/MICRO SERIES/microCOM II/19xx - microCOM II - DOC - IMG_2051-2013-04-08.jpg",
+ "sha256": "91360f2a6c143096e254278c65944fce930d3b748dbe45a18d252846d3f3a87c",
+ "kind": "doc",
+ "models": [
+  "microCOM II"
+ ],
+ "pages": 1
+}
+```

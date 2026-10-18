@@ -1,0 +1,174 @@
+OrCAD Capture schematic (.DSN). This binary format needs OrCAD Capture to view as a drawing.
+Text recovered from the file (part names, values, sheet titles, net names):
+
+OFFPAGELEFT-L
+C:\ORCADWIN\CAPTURE\LIBRARY\CAPSYM.OLB
+$PIN0
+TitleBlock4
+Title
+Size
+Document Number
+Date:
+Sheet
+GND POWER
+C:\DOS\XLATTEMP.OLB
+OFFPAGELEFT-R
+GND EARTH
+Bookmark
+CON6.Normal
+CAP NP.Normal
+FUSE.Normal
+CAP.Normal
+CON1.Normal
+CON4.Normal
+DIODE ZENER.Normal
+ANODE
+CATHODE
+NE5534.Normal
+COMP1
+COMP2
+COMP3
+PHONEJACK STEREO.Normal
+R.Normal
+NPN BCE.Normal
+BASE
+COLLECTOR
+EMITTER
+PNP BCE.Normal
+POT.Normal
+WIPER
+DIODE.Normal
+LED.Normal
+TRANSFORMER FLAT COMPACT.Normal
+DUAL POT.Normal
+4053.Normal
+PNP EBC.Normal
+NPN EBC.Normal
+CON3.Normal
+LM833.Normal
+CON1
+FUSE
+DIODE ZENER
+PHONEJACK STEREO
+CON3
+CON4
+NPN BCE
+CAP NP
+LM833
+NPN EBC
+CON6
+DIODE
+PNP BCE
+NE5534
+DUAL POT
+PNP EBC
+TRANSFORMER FLAT COMPACT
+']mU
+POD5.SCH
+TKBK
+TKBK+
+TKBK-
+TKBKC
+CMRR TRIM
+RING
+RIGHT
+LEFT
+BALANCED
+INPUT
+|LINK
+|POD5A.SCH
+|POD5B.SCH
+HEADPHONE
+OUTPUT
+NOTE: ALL RESISTORS ARE IN OHMS, AND
+ALL CAPACITORS ARE IN MICROFARADS UNLESS
+SPECIFIED OTHERWISE.
+LAST COMPONENTS USED:
+C62, D15, DS1, F2, J12, JP7, P6, Q13, R102, T1, U14.
+POD5A.SCH
+TKBKB
+POD5B.SCH
+POD5
+OrCAD Windows Design
+"Arial
+1ST PART FIELD
+2ND PART FIELD
+3RD PART FIELD
+4TH PART FIELD
+5TH PART FIELD
+6TH PART FIELD
+7TH PART FIELD
+PCB Footprint
+Bookmark4
+TitleBlock
+Page Create Date
+March  8, 1995
+RevCode
+OrgName
+OrgAddr1
+OrgAddr2
+OrgAddr3
+Page Size
+Page Number
+Page Count
+Page Modify Date
+WARD-BECK SYSTEMS LTD.
+841 PROGRESS AVENUE
+SCARBOROUGH, ONTARIO, CANADA
+POD 5 - DUAL HEADSET AMPLIFIER
+Part Reference
+Value
+RAD.15
+PT10V
+CAP.1
+TANTF.2
+dip8
+DO-41
+DIP8
+CAP.2
+TIP30
+TO-220HS
+TIP29
+DIP16
+XLR3-31
+XLR-3F
+PT10H
+BERG-6
+DIL6
+SN49B-12B
+R01MF
+Name
+R03WE
+TANTB.2
+EC165
+PAN3/156
+PHNX6/150
+MDL 1/2
+551LED
+TO-92
+TO-237
+BERG-3
+SIP3
+Dfp.P/
+EdFl
+Root Entry
+Cache
+Cells
+Parts
+Views
+Pages
+Schematic
+Library
+Symbols
+$Types$
+Graphics
+chematic
+Packages
+ExportBlocks
+Cells Directory
+Parts Directory
+Views Directory
+Symbols Directory
+Graphics Directory
+Packages Directory
+ExportBlocks Directory

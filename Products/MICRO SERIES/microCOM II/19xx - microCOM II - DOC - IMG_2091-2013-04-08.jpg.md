@@ -1,0 +1,38 @@
+# 19xx - microCOM II - DOC - IMG_2091-2013-04-08.jpg
+Wiki page: [Documents](../../../PAGES/Documents.md)
+
+
+- **Year:** unknown (unknown)
+- **Type:** document scan
+- **About:** microCOM II
+
+## Text recovered by OCR
+
+> TCN-9 SYDNEY CUSTOM MicroCoM II SYSTEM PROJECT 880478
+- **Original file:** `WBSps.env/PUBLIC/RAW Photos/WBS BINDER SPINE PICTURES/IMG_2091-2013-04-08.jpg`
+- **SHA-256:** `ac5e6a18e567b648573369d3e7f4df0ee80c6a84442074c9bcd73dfdc4890c77`
+- **Size:** 98,802 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR)
+
+```text
+TCN-9 SYDNEY CUSTOM MicroCoM II SYSTEM
+PROJECT 880478
+```
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Products/MICRO SERIES/microCOM II/19xx - microCOM II - DOC - IMG_2091-2013-04-08.jpg",
+ "sha256": "ac5e6a18e567b648573369d3e7f4df0ee80c6a84442074c9bcd73dfdc4890c77",
+ "kind": "doc",
+ "models": [
+  "microCOM II"
+ ],
+ "pages": 1
+}
+```

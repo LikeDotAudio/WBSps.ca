@@ -1,0 +1,1873 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M471C — Stereo Input Module</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>M471C — Stereo Input Module</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="Category-INPUT-PRE-AMPS.html">INPUT-PRE-AMPS</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../simulator.html?m=M471C">simulator &amp; front panel</a> · <a href="../_packages/M471C.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="Year-1979.html">1979|12</a> — title-block date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"ISS.1 10/79" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M471C Stereo Input Module/M471C - 28 - Schematic.jpg</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="Year-1979.html">1979|12</a>, <a href="Year-1985.html">1985|18</a></td>
+</tr>
+<tr>
+<td>Variants</td>
+<td><a href="M471.html">M471</a>, <a href="M471A.html">M471A</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/Done/Done%20-%20Stereo%20Modification%20Kits/">DOCUMENTS/Done/Done - Stereo Modification Kits</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/">DOCUMENTS/To Be edited/STEREO FOR THE L SERIES AUDIO CONSOLE</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../Modules/FILTERS/M472/index.html">Modules/FILTERS/M472</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections and circuit (ideal SPICE model)</h2>
+<p><em>Inputs, outputs, power and control as its own documents name them (no RTO-144 sheet for it: pin numbers only where the page gives them). Run the generator, turn the gain, watch the VU.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M471C" data-n="Stereo Input Module" data-cat="INPUT-PRE-AMPS"></div><svg class="wbs-panel" data-m="M471C" data-n="Stereo Input Module" data-cat="INPUT-PRE-AMPS" role="img" aria-label="M471C front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M471C","title":"Stereo Input Module","rto":{"code":"M471C","series":null,"type":"M471C","impedance":{},"audio":[{"port":"I1","signal":"Input Bright U","dir":"in","pos":"I1P","neg":"I1N","src_page":24},{"port":"I2","signal":"St Ereo In Put M Odule","dir":"in","pos":"I2P","neg":"I2N","src_page":29},{"port":"I3","signal":"Input Shield","dir":"in","pos":"I3P","neg":"I3N","src_page":24},{"port":"I4","signal":"Input B Left","dir":"in","pos":"I4P","neg":"I4N","src_page":24},{"port":"I5","signal":"Att Return Left","dir":"in","pos":"I5P","neg":"I5N","src_page":25},{"port":"I6","signal":"Att Return Right","dir":"in","pos":"I6P","neg":"I6N","src_page":25},{"port":"I7","signal":"Input Shteld","dir":"in","pos":"I7P","neg":"I7N","src_page":39},{"port":"O1","signal":"Pre Out Left (Att Tn)","dir":"out","pos":"O1P","neg":"O1N","src_page":25},{"port":"O2","signal":"Pre Out Right (Att Tn)","dir":"out","pos":"O2P","neg":"O2N","src_page":25}],"power":[{"rail":"+24V","volts":24.0,"supply":"+24V","ground":"CHASSIS 22","max_a":null}],"logic":[{"signal":"Pfl","pin":""},{"signal":"Solo","pin":""},{"signal":"Ctl","pin":""}],"ground":["CHASSIS 22","CONTROL COMMON","25V COMMON"],"bus_out":[],"bus_in":[],"jumpers":[],"derived":true,"sources":["1d8b44b713927004c5a8cb984a0b8ffb98b6703860c7494b54ccf6d098610181","30c8302eb47d1b6f8bdc77a8c20de3a9fe6933c9038ef5f76b211be81c20fd79"],"note":"Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."},"parts":[{"item":"10-015","title":"","label":"10-015","href":"Register-Sub-assemblies-n-nnn.html#10-015","note":"Sub-assemblies (n-nnn)"},{"item":"SA14-075","title":"SA14-075 STEREO PREAMPLIFIER ASSEMBLY / COMPONENT LAYOUT","label":"SA14-075 SA14-075 STEREO PREAMPLIFI","href":"Register-Circuit-boards-SA14-nnn.html#sa14-075","note":"Circuit boards (SA14-nnn)"}],"parents":[{"label":"M470","href":"M470.html","note":"on 17 drawings with it: Input Module"},{"label":"M470A","href":"M470A.html","note":"on 5 drawings with it: Input Module"},{"label":"M472","href":"M472.html","note":"on 4 drawings with it"},{"label":"M475A","href":"M475A.html","note":"on 4 drawings with it: Stereo Monitor Module"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2028%20-%20Schematic.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2028%20-%20Schematic.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 28 - Schematic.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 28 - Schematic.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1985%20-%20M471C%20-%2031.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1985%20-%20M471C%20-%2031.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1985 - M471C - 31.jpg" data-size="320" onerror="wbsOff(this)">1985 - M471C - 31.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2001%20-%20Cover.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2001%20-%20Cover.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 01 - Cover.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 01 - Cover.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2002.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2002.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 02.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 02.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2003%20-%20TOC.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2003%20-%20TOC.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 03 - TOC.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 03 - TOC.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2004%20-%20Warranty.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2004%20-%20Warranty.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 04 - Warranty.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 04 - Warranty.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2005%20-%20Sec%201.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2005%20-%20Sec%201.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 05 - Sec 1.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 05 - Sec 1.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2006%20-%201-1.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2006%20-%201-1.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 06 - 1-1.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 06 - 1-1.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2007%20-%202-1.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2007%20-%202-1.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 07 - 2-1.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 07 - 2-1.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2008%20-%202-2.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2008%20-%202-2.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 08 - 2-2.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 08 - 2-2.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2009%20-%203-1.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2009%20-%203-1.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 09 - 3-1.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 09 - 3-1.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2010%20-%203-2.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2010%20-%203-2.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 10 - 3-2.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 10 - 3-2.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2011%20-%203-3.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2011%20-%203-3.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 11 - 3-3.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 11 - 3-3.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2012%20-%204-1.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2012%20-%204-1.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 12 - 4-1.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 12 - 4-1.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2013%20-%204-2.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2013%20-%204-2.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 13 - 4-2.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 13 - 4-2.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2014%20-%204-3.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2014%20-%204-3.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 14 - 4-3.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 14 - 4-3.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2015%20-%205-1.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2015%20-%205-1.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 15 - 5-1.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 15 - 5-1.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2016%20-%205-2.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2016%20-%205-2.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 16 - 5-2.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 16 - 5-2.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2017%20-%205-3.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2017%20-%205-3.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 17 - 5-3.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 17 - 5-3.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2018%20-%205-4.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2018%20-%205-4.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 18 - 5-4.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 18 - 5-4.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2019%20-%205-5.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2019%20-%205-5.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 19 - 5-5.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 19 - 5-5.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2020%20-%205-6.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2020%20-%205-6.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 20 - 5-6.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 20 - 5-6.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2021%20-%205-7.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2021%20-%205-7.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 21 - 5-7.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 21 - 5-7.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2022%20-%205-8.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2022%20-%205-8.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 22 - 5-8.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 22 - 5-8.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2023%20-%205-9.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2023%20-%205-9.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 23 - 5-9.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 23 - 5-9.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2024%20-%206-1.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2024%20-%206-1.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 24 - 6-1.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 24 - 6-1.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2025%20-%206-2.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2025%20-%206-2.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 25 - 6-2.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 25 - 6-2.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2026%20-%20Layout.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2026%20-%20Layout.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 26 - Layout.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 26 - Layout.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2027%20-%20Functional%20Diagram.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2027%20-%20Functional%20Diagram.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 27 - Functional Diagram.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 27 - Functional Diagram.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2029%20-%20Layout.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2029%20-%20Layout.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 29 - Layout.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 29 - Layout.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2030%20-%20Sec%202.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2030%20-%20Sec%202.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 30 - Sec 2.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 30 - Sec 2.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2032%20-%201-1.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2032%20-%201-1.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 32 - 1-1.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 32 - 1-1.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2033%20-%201-2.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2033%20-%201-2.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 33 - 1-2.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 33 - 1-2.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2034%20-%202-1.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2034%20-%202-1.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 34 - 2-1.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 34 - 2-1.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2035%20-%202-2.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2035%20-%202-2.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 35 - 2-2.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 35 - 2-2.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2036%20-%202-3.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2036%20-%202-3.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 36 - 2-3.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 36 - 2-3.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2037%20-%202-4.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2037%20-%202-4.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 37 - 2-4.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 37 - 2-4.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2038%20-%202-5.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2038%20-%202-5.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 38 - 2-5.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 38 - 2-5.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2039%20-%20St%20Pre-amp%20Schematic.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2039%20-%20St%20Pre-amp%20Schematic.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 39 - St Pre-amp Schematic.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 39 - St Pre-amp Schematic.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2040%20-%20St%20Pre-amp%20Layout.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2040%20-%20St%20Pre-amp%20Layout.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 40 - St Pre-amp Layout.jpg" data-size="320" onerror="wbsOff(this)">1979 - M471C - 40 - St Pre-amp Layout.jpg</a><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20Stereo%20Modification%20Kits/19xx%20-%20DOC%20-%20K2942S%20-%20P06%20-%201-1.jpg"><img loading="lazy" src="../DOCUMENTS/Done/Done%20-%20Stereo%20Modification%20Kits/19xx%20-%20DOC%20-%20K2942S%20-%20P06%20-%201-1.jpg" alt="" data-f="DOCUMENTS/Done/Done - Stereo Modification Kits/19xx - DOC - K2942S - P06 - 1-1.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - K2942S - P06 - 1-1.jpg</a><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20Stereo%20Modification%20Kits/19xx%20-%20DOC%20-%20K2942S%20-%20P09%20-%202-3.jpg"><img loading="lazy" src="../DOCUMENTS/Done/Done%20-%20Stereo%20Modification%20Kits/19xx%20-%20DOC%20-%20K2942S%20-%20P09%20-%202-3.jpg" alt="" data-f="DOCUMENTS/Done/Done - Stereo Modification Kits/19xx - DOC - K2942S - P09 - 2-3.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - K2942S - P09 - 2-3.jpg</a><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20Stereo%20Modification%20Kits/19xx%20-%20DOC%20-%20K2942S%20-%20P10%20-%203-1.jpg"><img loading="lazy" src="../DOCUMENTS/Done/Done%20-%20Stereo%20Modification%20Kits/19xx%20-%20DOC%20-%20K2942S%20-%20P10%20-%203-1.jpg" alt="" data-f="DOCUMENTS/Done/Done - Stereo Modification Kits/19xx - DOC - K2942S - P10 - 3-1.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - K2942S - P10 - 3-1.jpg</a><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20Stereo%20Modification%20Kits/19xx%20-%20DOC%20-%20K2942S%20-%20P15%20-%201-1.jpg"><img loading="lazy" src="../DOCUMENTS/Done/Done%20-%20Stereo%20Modification%20Kits/19xx%20-%20DOC%20-%20K2942S%20-%20P15%20-%201-1.jpg" alt="" data-f="DOCUMENTS/Done/Done - Stereo Modification Kits/19xx - DOC - K2942S - P15 - 1-1.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - K2942S - P15 - 1-1.jpg</a><a href="../viewer.html?f=DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P002.jpg"><img loading="lazy" src="../DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P002.jpg" alt="" data-f="DOCUMENTS/To Be edited/STEREO FOR THE L SERIES AUDIO CONSOLE/19xx - DOC - STEREO L SERIES - P002.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - STEREO L SERIES - P002.jpg</a><a href="../viewer.html?f=DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P003.jpg"><img loading="lazy" src="../DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P003.jpg" alt="" data-f="DOCUMENTS/To Be edited/STEREO FOR THE L SERIES AUDIO CONSOLE/19xx - DOC - STEREO L SERIES - P003.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - STEREO L SERIES - P003.jpg</a><a href="../viewer.html?f=DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P004.jpg"><img loading="lazy" src="../DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P004.jpg" alt="" data-f="DOCUMENTS/To Be edited/STEREO FOR THE L SERIES AUDIO CONSOLE/19xx - DOC - STEREO L SERIES - P004.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - STEREO L SERIES - P004.jpg</a><a href="../viewer.html?f=DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P006.jpg"><img loading="lazy" src="../DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P006.jpg" alt="" data-f="DOCUMENTS/To Be edited/STEREO FOR THE L SERIES AUDIO CONSOLE/19xx - DOC - STEREO L SERIES - P006.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - STEREO L SERIES - P006.jpg</a><a href="../viewer.html?f=DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P011.jpg"><img loading="lazy" src="../DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P011.jpg" alt="" data-f="DOCUMENTS/To Be edited/STEREO FOR THE L SERIES AUDIO CONSOLE/19xx - DOC - STEREO L SERIES - P011.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - STEREO L SERIES - P011.jpg</a><a href="../viewer.html?f=DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P014%20-%20B471-01-004%20R.jpg"><img loading="lazy" src="../DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P014%20-%20B471-01-004%20R.jpg" alt="" data-f="DOCUMENTS/To Be edited/STEREO FOR THE L SERIES AUDIO CONSOLE/19xx - DOC - STEREO L SERIES - P014 - B471-01-004 R.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - STEREO L SERIES - P014 - B471-01-004 R.jpg</a><a href="../viewer.html?f=DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P015%20-%20B471-04-004%20R.jpg"><img loading="lazy" src="../DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P015%20-%20B471-04-004%20R.jpg" alt="" data-f="DOCUMENTS/To Be edited/STEREO FOR THE L SERIES AUDIO CONSOLE/19xx - DOC - STEREO L SERIES - P015 - B471-04-004 R.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - STEREO L SERIES - P015 - B471-04-004 R.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/19xx%20-%202042-02-001%20-%20K2042S%201%20AND%20K2042S%202%20INPUT%20AND%20EQUALIZER%20SCHEMATIC%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/19xx%20-%202042-02-001%20-%20K2042S%201%20AND%20K2042S%202%20INPUT%20AND%20EQUALIZER%20SCHEMATIC%20-%20ISS%201.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/19xx - 2042-02-001 - K2042S 1 AND K2042S 2 INPUT AND EQUALIZER SCHEMATIC - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">19xx - 2042-02-001 - K2042S 1 AND K2042S 2 INPUT AND EQUALIZER SCHEMATIC - ISS 1.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/M471C%20-%2029%20-%20Layout.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/M471C%20-%2029%20-%20Layout.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/M471C - 29 - Layout.jpg" data-size="320" onerror="wbsOff(this)">M471C - 29 - Layout.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/M471C%20-%2039%20-%20St%20Pre-amp%20Schematic.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471C/M471C%20-%2039%20-%20St%20Pre-amp%20Schematic.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471C/M471C - 39 - St Pre-amp Schematic.jpg" data-size="320" onerror="wbsOff(this)">M471C - 39 - St Pre-amp Schematic.jpg</a><a href="../viewer.html?f=PHOTOS/Drawings/19xx%20-%2014-075-02-001%20-%20SA14-075%20STEREO%20PREAMPLIFIER%20ASSEMBLY%20SCHEMATIC%20-%20ISS%201%20%282%29.jpg"><img loading="lazy" src="../PHOTOS/Drawings/19xx%20-%2014-075-02-001%20-%20SA14-075%20STEREO%20PREAMPLIFIER%20ASSEMBLY%20SCHEMATIC%20-%20ISS%201%20%282%29.jpg" alt="" data-f="PHOTOS/Drawings/19xx - 14-075-02-001 - SA14-075 STEREO PREAMPLIFIER ASSEMBLY SCHEMATIC - ISS 1 (2).jpg" data-size="320" onerror="wbsOff(this)">19xx - 14-075-02-001 - SA14-075 STEREO PREAMPLIFIER ASSEMBLY SCHEMATIC - ISS 1 (2).jpg</a><a href="../viewer.html?f=PHOTOS/Drawings/19xx%20-%2014-075-06-001%20-%20SA14-075%20STEREO%20PREAMPLIFIER%20ASSEMBLY%20COMPONENT%20LAYOUT%20-%20ISS%201.jpg"><img loading="lazy" src="../PHOTOS/Drawings/19xx%20-%2014-075-06-001%20-%20SA14-075%20STEREO%20PREAMPLIFIER%20ASSEMBLY%20COMPONENT%20LAYOUT%20-%20ISS%201.jpg" alt="" data-f="PHOTOS/Drawings/19xx - 14-075-06-001 - SA14-075 STEREO PREAMPLIFIER ASSEMBLY COMPONENT LAYOUT - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">19xx - 14-075-06-001 - SA14-075 STEREO PREAMPLIFIER ASSEMBLY COMPONENT LAYOUT - ISS 1.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471/19xx%20-%20471-01-004%20-%20M471C%20STEREO%20INPUT%20MODULE%20FUNCTIONAL%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471/19xx%20-%20471-01-004%20-%20M471C%20STEREO%20INPUT%20MODULE%20FUNCTIONAL%20-%20ISS%201.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471/19xx - 471-01-004 - M471C STEREO INPUT MODULE FUNCTIONAL - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">19xx - 471-01-004 - M471C STEREO INPUT MODULE FUNCTIONAL - ISS 1.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471/19xx%20-%20471-01-004%20-%20STEREO%20INPUT%20MODULE%20FUNCTIONAL%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471/19xx%20-%20471-01-004%20-%20STEREO%20INPUT%20MODULE%20FUNCTIONAL%20-%20ISS%201.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471/19xx - 471-01-004 - STEREO INPUT MODULE FUNCTIONAL - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">19xx - 471-01-004 - STEREO INPUT MODULE FUNCTIONAL - ISS 1.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471/19xx%20-%20471-02-003%20-%20STEREO%20INPUT%20MODULE%20SCHEMATIC%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471/19xx%20-%20471-02-003%20-%20STEREO%20INPUT%20MODULE%20SCHEMATIC%20-%20ISS%201.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471/19xx - 471-02-003 - STEREO INPUT MODULE SCHEMATIC - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">19xx - 471-02-003 - STEREO INPUT MODULE SCHEMATIC - ISS 1.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471/19xx%20-%20471-04-004%20-%20STEREO%20INPUT%20MODULE%20MODULE%20LAYOUT%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M471/19xx%20-%20471-04-004%20-%20STEREO%20INPUT%20MODULE%20MODULE%20LAYOUT%20-%20ISS%201.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M471/19xx - 471-04-004 - STEREO INPUT MODULE MODULE LAYOUT - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">19xx - 471-04-004 - STEREO INPUT MODULE MODULE LAYOUT - ISS 1.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M472A/1986%20-%20M472A%20-%20P003%20-%202-1.jpg"><img loading="lazy" src="../Modules/FILTERS/M472A/1986%20-%20M472A%20-%20P003%20-%202-1.jpg" alt="" data-f="Modules/FILTERS/M472A/1986 - M472A - P003 - 2-1.jpg" data-size="320" onerror="wbsOff(this)">1986 - M472A - P003 - 2-1.jpg</a></div>
+
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td>title-block date</td>
+<td><code>ISS.1 10/79</code></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2028%20-%20Schematic.jpg">1979 - M471C - 28 - Schematic.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1985.html">1985|18</a></td>
+<td>month &amp; year</td>
+<td><code>May 1985</code></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1985%20-%20M471C%20-%2031.jpg">1985 - M471C - 31.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1985.html">1985|18</a></td>
+<td>manual issue date</td>
+<td><code>Issue #1 May 1985</code></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1985%20-%20M471C%20-%20Stereo%20Input%20Module.pdf">1985 - M471C - Stereo Input Module.pdf</a></td>
+</tr>
+<tr>
+<td><a href="Year-1986.html">1986|19</a></td>
+<td>manual issue date</td>
+<td><code>MANUAL ISSUE #1 MAY 1986</code></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1985%20-%20M471C%20-%20Stereo%20Input%20Module.pdf">1985 - M471C - Stereo Input Module.pdf</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Physical manual inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Location</th>
+<th>Status</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M471C Stereo Input Module</td>
+<td></td>
+<td></td>
+<td>PDF - Already scanned</td>
+</tr>
+</tbody>
+</table>
+<h2>Documents (2)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%20Stereo%20Input%20Module.pdf">1979 - M471C - Stereo Input Module.pdf</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%20Stereo%20Input%20Module.pdf.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1985%20-%20M471C%20-%20Stereo%20Input%20Module.pdf">1985 - M471C - Stereo Input Module.pdf</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1985%20-%20M471C%20-%20Stereo%20Input%20Module.pdf.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (74)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2001%20-%20Cover.jpg">1979 - M471C - 01 - Cover.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2001%20-%20Cover.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2002.jpg">1979 - M471C - 02.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2003%20-%20TOC.jpg">1979 - M471C - 03 - TOC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2003%20-%20TOC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2004%20-%20Warranty.jpg">1979 - M471C - 04 - Warranty.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2004%20-%20Warranty.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2005%20-%20Sec%201.jpg">1979 - M471C - 05 - Sec 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2005%20-%20Sec%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2006%20-%201-1.jpg">1979 - M471C - 06 - 1-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2006%20-%201-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2007%20-%202-1.jpg">1979 - M471C - 07 - 2-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2007%20-%202-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2008%20-%202-2.jpg">1979 - M471C - 08 - 2-2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2008%20-%202-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2009%20-%203-1.jpg">1979 - M471C - 09 - 3-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2009%20-%203-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2010%20-%203-2.jpg">1979 - M471C - 10 - 3-2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2010%20-%203-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2011%20-%203-3.jpg">1979 - M471C - 11 - 3-3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2011%20-%203-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2012%20-%204-1.jpg">1979 - M471C - 12 - 4-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2012%20-%204-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2013%20-%204-2.jpg">1979 - M471C - 13 - 4-2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2013%20-%204-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2014%20-%204-3.jpg">1979 - M471C - 14 - 4-3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2014%20-%204-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2015%20-%205-1.jpg">1979 - M471C - 15 - 5-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2015%20-%205-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2016%20-%205-2.jpg">1979 - M471C - 16 - 5-2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2016%20-%205-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2017%20-%205-3.jpg">1979 - M471C - 17 - 5-3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2017%20-%205-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2018%20-%205-4.jpg">1979 - M471C - 18 - 5-4.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2018%20-%205-4.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2019%20-%205-5.jpg">1979 - M471C - 19 - 5-5.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2019%20-%205-5.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2020%20-%205-6.jpg">1979 - M471C - 20 - 5-6.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2020%20-%205-6.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2021%20-%205-7.jpg">1979 - M471C - 21 - 5-7.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2021%20-%205-7.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2022%20-%205-8.jpg">1979 - M471C - 22 - 5-8.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2022%20-%205-8.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2023%20-%205-9.jpg">1979 - M471C - 23 - 5-9.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2023%20-%205-9.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2024%20-%206-1.jpg">1979 - M471C - 24 - 6-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2024%20-%206-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2025%20-%206-2.jpg">1979 - M471C - 25 - 6-2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2025%20-%206-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2026%20-%20Layout.jpg">1979 - M471C - 26 - Layout.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2026%20-%20Layout.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2027%20-%20Functional%20Diagram.jpg">1979 - M471C - 27 - Functional Diagram.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2027%20-%20Functional%20Diagram.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2028%20-%20Schematic.jpg">1979 - M471C - 28 - Schematic.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2028%20-%20Schematic.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2029%20-%20Layout.jpg">1979 - M471C - 29 - Layout.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2029%20-%20Layout.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2030%20-%20Sec%202.jpg">1979 - M471C - 30 - Sec 2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2030%20-%20Sec%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2032%20-%201-1.jpg">1979 - M471C - 32 - 1-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2032%20-%201-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2033%20-%201-2.jpg">1979 - M471C - 33 - 1-2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2033%20-%201-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2034%20-%202-1.jpg">1979 - M471C - 34 - 2-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2034%20-%202-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2035%20-%202-2.jpg">1979 - M471C - 35 - 2-2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2035%20-%202-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2036%20-%202-3.jpg">1979 - M471C - 36 - 2-3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2036%20-%202-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2037%20-%202-4.jpg">1979 - M471C - 37 - 2-4.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2037%20-%202-4.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2038%20-%202-5.jpg">1979 - M471C - 38 - 2-5.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2038%20-%202-5.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2039%20-%20St%20Pre-amp%20Schematic.jpg">1979 - M471C - 39 - St Pre-amp Schematic.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2039%20-%20St%20Pre-amp%20Schematic.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2040%20-%20St%20Pre-amp%20Layout.jpg">1979 - M471C - 40 - St Pre-amp Layout.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2040%20-%20St%20Pre-amp%20Layout.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1985|18</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1985%20-%20M471C%20-%2031.jpg">1985 - M471C - 31.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1985%20-%20M471C%20-%2031.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20Stereo%20Modification%20Kits/19xx%20-%20DOC%20-%20K2942S%20-%20P06%20-%201-1.jpg">19xx - DOC - K2942S - P06 - 1-1.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20Stereo%20Modification%20Kits/19xx%20-%20DOC%20-%20K2942S%20-%20P06%20-%201-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20Stereo%20Modification%20Kits/19xx%20-%20DOC%20-%20K2942S%20-%20P09%20-%202-3.jpg">19xx - DOC - K2942S - P09 - 2-3.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20Stereo%20Modification%20Kits/19xx%20-%20DOC%20-%20K2942S%20-%20P09%20-%202-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20Stereo%20Modification%20Kits/19xx%20-%20DOC%20-%20K2942S%20-%20P10%20-%203-1.jpg">19xx - DOC - K2942S - P10 - 3-1.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20Stereo%20Modification%20Kits/19xx%20-%20DOC%20-%20K2942S%20-%20P10%20-%203-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20Stereo%20Modification%20Kits/19xx%20-%20DOC%20-%20K2942S%20-%20P15%20-%201-1.jpg">19xx - DOC - K2942S - P15 - 1-1.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20Stereo%20Modification%20Kits/19xx%20-%20DOC%20-%20K2942S%20-%20P15%20-%201-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P002.jpg">19xx - DOC - STEREO L SERIES - P002.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P003.jpg">19xx - DOC - STEREO L SERIES - P003.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P004.jpg">19xx - DOC - STEREO L SERIES - P004.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P004.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P006.jpg">19xx - DOC - STEREO L SERIES - P006.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P006.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P011.jpg">19xx - DOC - STEREO L SERIES - P011.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P011.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P014%20-%20B471-01-004%20R.jpg">19xx - DOC - STEREO L SERIES - P014 - B471-01-004 R.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P014%20-%20B471-01-004%20R.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P015%20-%20B471-04-004%20R.jpg">19xx - DOC - STEREO L SERIES - P015 - B471-04-004 R.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/To%20Be%20edited/STEREO%20FOR%20THE%20L%20SERIES%20AUDIO%20CONSOLE/19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P015%20-%20B471-04-004%20R.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M472/19xx%20-%20M472%20-%20DOC%20-%20K2942S%20-%20P15%20-%201-1.jpg">19xx - M472 - DOC - K2942S - P15 - 1-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M472/19xx%20-%20M472%20-%20DOC%20-%20K2942S%20-%20P15%20-%201-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470/19xx%20-%20M470%20-%20DOC%20-%20K2942S%20-%20P06%20-%201-1.jpg">19xx - M470 - DOC - K2942S - P06 - 1-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470/19xx%20-%20M470%20-%20DOC%20-%20K2942S%20-%20P06%20-%201-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470/19xx%20-%20M470%20-%20DOC%20-%20K2942S%20-%20P09%20-%202-3.jpg">19xx - M470 - DOC - K2942S - P09 - 2-3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470/19xx%20-%20M470%20-%20DOC%20-%20K2942S%20-%20P09%20-%202-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470/19xx%20-%20M470%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P002.jpg">19xx - M470 - DOC - STEREO L SERIES - P002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470/19xx%20-%20M470%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470/19xx%20-%20M470%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P003.jpg">19xx - M470 - DOC - STEREO L SERIES - P003.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470/19xx%20-%20M470%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/19xx%20-%20M470A%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P002.jpg">19xx - M470A - DOC - STEREO L SERIES - P002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M470A/19xx%20-%20M470A%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/19xx%20-%202042-02-001%20-%20K2042S%201%20AND%20K2042S%202%20INPUT%20AND%20EQUALIZER%20SCHEMATIC%20-%20ISS%201.jpg">19xx - 2042-02-001 - K2042S 1 AND K2042S 2 INPUT AND EQUALIZER SCHEMATIC - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/19xx%20-%202042-02-001%20-%20K2042S%201%20AND%20K2042S%202%20INPUT%20AND%20EQUALIZER%20SCHEMATIC%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/19xx%20-%20M471C%20-%20DOC%20-%20K2942S%20-%20P06%20-%201-1.jpg">19xx - M471C - DOC - K2942S - P06 - 1-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/19xx%20-%20M471C%20-%20DOC%20-%20K2942S%20-%20P06%20-%201-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/19xx%20-%20M471C%20-%20DOC%20-%20K2942S%20-%20P09%20-%202-3.jpg">19xx - M471C - DOC - K2942S - P09 - 2-3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/19xx%20-%20M471C%20-%20DOC%20-%20K2942S%20-%20P09%20-%202-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/19xx%20-%20M471C%20-%20DOC%20-%20K2942S%20-%20P10%20-%203-1.jpg">19xx - M471C - DOC - K2942S - P10 - 3-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/19xx%20-%20M471C%20-%20DOC%20-%20K2942S%20-%20P10%20-%203-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/19xx%20-%20M471C%20-%20DOC%20-%20K2942S%20-%20P15%20-%201-1.jpg">19xx - M471C - DOC - K2942S - P15 - 1-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/19xx%20-%20M471C%20-%20DOC%20-%20K2942S%20-%20P15%20-%201-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/19xx%20-%20M471C%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P002.jpg">19xx - M471C - DOC - STEREO L SERIES - P002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/19xx%20-%20M471C%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/19xx%20-%20M471C%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P003.jpg">19xx - M471C - DOC - STEREO L SERIES - P003.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/19xx%20-%20M471C%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/19xx%20-%20M471C%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P004.jpg">19xx - M471C - DOC - STEREO L SERIES - P004.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/19xx%20-%20M471C%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P004.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/19xx%20-%20M471C%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P006.jpg">19xx - M471C - DOC - STEREO L SERIES - P006.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/19xx%20-%20M471C%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P006.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/19xx%20-%20M471C%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P011.jpg">19xx - M471C - DOC - STEREO L SERIES - P011.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/19xx%20-%20M471C%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P011.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/19xx%20-%20M471C%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P014%20-%20B471-01-004%20R.jpg">19xx - M471C - DOC - STEREO L SERIES - P014 - B471-01-004 R.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/19xx%20-%20M471C%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P014%20-%20B471-01-004%20R.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/19xx%20-%20M471C%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P015%20-%20B471-04-004%20R.jpg">19xx - M471C - DOC - STEREO L SERIES - P015 - B471-04-004 R.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/19xx%20-%20M471C%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P015%20-%20B471-04-004%20R.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/M471C%20-%2029%20-%20Layout.jpg">M471C - 29 - Layout.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/M471C%20-%2029%20-%20Layout.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/M471C%20-%2039%20-%20St%20Pre-amp%20Schematic.jpg">M471C - 39 - St Pre-amp Schematic.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/M471C%20-%2039%20-%20St%20Pre-amp%20Schematic.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M475A/19xx%20-%20M475A%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P006.jpg">19xx - M475A - DOC - STEREO L SERIES - P006.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M475A/19xx%20-%20M475A%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P006.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/19xx%20-%2014-075-02-001%20-%20SA14-075%20STEREO%20PREAMPLIFIER%20ASSEMBLY%20SCHEMATIC%20-%20ISS%201%20%282%29.jpg">19xx - 14-075-02-001 - SA14-075 STEREO PREAMPLIFIER ASSEMBLY SCHEMATIC - ISS 1 (2).jpg</a></td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/19xx%20-%2014-075-02-001%20-%20SA14-075%20STEREO%20PREAMPLIFIER%20ASSEMBLY%20SCHEMATIC%20-%20ISS%201%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/19xx%20-%2014-075-06-001%20-%20SA14-075%20STEREO%20PREAMPLIFIER%20ASSEMBLY%20COMPONENT%20LAYOUT%20-%20ISS%201.jpg">19xx - 14-075-06-001 - SA14-075 STEREO PREAMPLIFIER ASSEMBLY COMPONENT LAYOUT - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/19xx%20-%2014-075-06-001%20-%20SA14-075%20STEREO%20PREAMPLIFIER%20ASSEMBLY%20COMPONENT%20LAYOUT%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Sub-assemblies &amp; parts used (2)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What</th>
+<th>Family</th>
+<th>Year</th>
+<th>How we know</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#10-015">10-015</a></td>
+<td></td>
+<td>Sub-assemblies (n-nnn)</td>
+<td>1988|21</td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-075">SA14-075</a></td>
+<td>SA14-075 STEREO PREAMPLIFIER ASSEMBLY / COMPONENT LAYOUT</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+</tbody>
+</table>
+<h2>Parts list — board M471C (96 parts)</h2>
+<p><em>From <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1985%20-%20M471C%20-%20Stereo%20Input%20Module.pdf">1985 - M471C - Stereo Input Module.pdf</a>, page 37 (scanned); also in <code>timelines/data/bom.csv</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>Part</th>
+<th>Value</th>
+<th>Manufacturer</th>
+<th>Mfr part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R56</td>
+<td>Resistor 1/4w 7k5 Philips</td>
+<td>59</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R6S</td>
+<td>Trim Pot Piner Ptiov</td>
+<td>20k</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R66</td>
+<td>Resistor 1/Lw 57" Philips</td>
+<td>8k2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R68</td>
+<td>Trim Pot Piher PTIOV z0k</td>
+<td>20k</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R69</td>
+<td>Resistor 1/4w 5%6 Philips</td>
+<td>8K2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C3</td>
+<td>PF Philips</td>
+<td>47</td>
+<td></td>
+<td>2222-638-34479</td>
+</tr>
+<tr>
+<td>C7</td>
+<td>uF/1C V Kemet</td>
+<td>220</td>
+<td></td>
+<td>TZCOF 227M0104S</td>
+</tr>
+<tr>
+<td>C9</td>
+<td>L7 pF Philips</td>
+<td></td>
+<td></td>
+<td>2222-638-34479</td>
+</tr>
+<tr>
+<td>C13</td>
+<td>UF/10 V Kemet</td>
+<td>220</td>
+<td></td>
+<td>T390F 227M01045</td>
+</tr>
+<tr>
+<td>C17</td>
+<td>pF Philips</td>
+<td>47</td>
+<td></td>
+<td>2222-6,38-34479</td>
+</tr>
+<tr>
+<td>C23</td>
+<td>pF Fhilips</td>
+<td>47</td>
+<td></td>
+<td>2222-638-34479</td>
+</tr>
+<tr>
+<td>C25</td>
+<td>uF/10 V Kemet</td>
+<td>68</td>
+<td></td>
+<td>T390D686M010AS</td>
+</tr>
+<tr>
+<td>C27</td>
+<td>uF/10 Keme[</td>
+<td>4 .7</td>
+<td></td>
+<td>T3908475M010AS</td>
+</tr>
+<tr>
+<td>C31</td>
+<td>pF Philips</td>
+<td>4.7</td>
+<td></td>
+<td>2222-638-09478</td>
+</tr>
+<tr>
+<td>C33</td>
+<td>uF/25 V Kemnet</td>
+<td>10</td>
+<td></td>
+<td>T390C106MO25AS</td>
+</tr>
+<tr>
+<td>C36</td>
+<td>Capacitor uF/10 V Keme[</td>
+<td>4.7</td>
+<td></td>
+<td>T390B475M010AS</td>
+</tr>
+<tr>
+<td>C37</td>
+<td>PF Philips</td>
+<td>4.7</td>
+<td></td>
+<td>2222-638-09478</td>
+</tr>
+<tr>
+<td>C40</td>
+<td>7 pF Philips</td>
+<td>4</td>
+<td></td>
+<td>2222-638-09478</td>
+</tr>
+<tr>
+<td>C41</td>
+<td>uF/10 V Kemet</td>
+<td>33</td>
+<td></td>
+<td>T3900336M01OAS</td>
+</tr>
+<tr>
+<td>C45</td>
+<td>PF Philips</td>
+<td>4.7</td>
+<td></td>
+<td>2222-638-09478</td>
+</tr>
+<tr>
+<td>C47</td>
+<td>uF/25 v Kemct</td>
+<td>10</td>
+<td></td>
+<td>T39OC1O6Mu25AS</td>
+</tr>
+<tr>
+<td>C52</td>
+<td>uF/25 Philips</td>
+<td>22</td>
+<td></td>
+<td>03016229</td>
+</tr>
+<tr>
+<td>C56</td>
+<td>UF/25 V Kemet</td>
+<td>10</td>
+<td></td>
+<td>T390C106M025AS</td>
+</tr>
+<tr>
+<td>C5B</td>
+<td>0.| uF/100 Sprague</td>
+<td></td>
+<td></td>
+<td>1CTOX7RIOLMOSOB</td>
+</tr>
+<tr>
+<td>CR4</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>CR6</td>
+<td>Diode Fairchila</td>
+<td></td>
+<td></td>
+<td>IN4CO3</td>
+</tr>
+<tr>
+<td>CR9</td>
+<td>Diode</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>DS2</td>
+<td>LED Red itT ZFL-LED-R</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R49</td>
+<td>IBK</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R5S</td>
+<td>Resistor 1/4w IKB Philips</td>
+<td>57</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R6G</td>
+<td>ISk</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R7I</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R72</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R79</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R80</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R8I</td>
+<td>Resistor 1/4w TEK Philips</td>
+<td>53</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R8E</td>
+<td>iOK</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R90</td>
+<td>iCK</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R105</td>
+<td>Resistor 1/4w 9k1 Philips</td>
+<td>596</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R16</td>
+<td>Resistor 1/4w 2K1 Philips</td>
+<td>57</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R124</td>
+<td>Potentiomcter Sk ABB WBS</td>
+<td></td>
+<td></td>
+<td>10-015</td>
+</tr>
+<tr>
+<td>R128</td>
+<td>Resistor 1/4w 15K Philips</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>RT37</td>
+<td>TSK</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SW3</td>
+<td>8c NA Pusnbuttor WBS</td>
+<td></td>
+<td></td>
+<td>11-155</td>
+</tr>
+<tr>
+<td>M471C</td>
+<td>STEREO INPUT_MODULE</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SW6</td>
+<td>ac A/A Pushbutton Assembly Ttt W'BS</td>
+<td></td>
+<td></td>
+<td>11-024</td>
+</tr>
+<tr>
+<td>SW7</td>
+<td>delele</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>T0</td>
+<td>Zc A/A Pushbutton IxF ZUEE</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>U1</td>
+<td>Integrated Circuit National</td>
+<td></td>
+<td></td>
+<td>NE5S3AN</td>
+</tr>
+<tr>
+<td>U5</td>
+<td>LMB3ZN</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>U10</td>
+<td>LMS9ZN</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C6,07</td>
+<td>Heat Sink</td>
+<td></td>
+<td></td>
+<td>B520-004</td>
+</tr>
+<tr>
+<td>R125</td>
+<td>Knob (Black )</td>
+<td></td>
+<td></td>
+<td>021-3520</td>
+</tr>
+<tr>
+<td>R126</td>
+<td>Knop (Black)</td>
+<td></td>
+<td></td>
+<td>021-3520</td>
+</tr>
+<tr>
+<td>R127</td>
+<td>Knop (Black )</td>
+<td></td>
+<td></td>
+<td>021-3520</td>
+</tr>
+<tr>
+<td>SW1</td>
+<td>Cap (Black/White) iTt</td>
+<td></td>
+<td></td>
+<td>FAI2O-BLK/WHT</td>
+</tr>
+<tr>
+<td>SW5</td>
+<td>(Black/Yellow) FAIOI-BLK/YEL</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SW8</td>
+<td>Cap_ (Black/Red ) FAIOI-BLK/RED</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SW9</td>
+<td>(Black/Yellow) FATOI-BLK/YFL</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SW11</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SW12</td>
+<td>Cap (Black/Green) FAIOI-BLK/GRN</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SW14</td>
+<td>(White) FM-WhT</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SW17</td>
+<td>(White</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SW18</td>
+<td>(Grey ) FM-GRY</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SW19</td>
+<td>(Grey</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SW20</td>
+<td>(Grey )</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SW21</td>
+<td>(Grey )</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SW22</td>
+<td>(Grey )</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C6</td>
+<td>2p2 Philips</td>
+<td></td>
+<td></td>
+<td>2222-638-09228</td>
+</tr>
+<tr>
+<td>C10</td>
+<td>uF/6 V Philips</td>
+<td>68</td>
+<td></td>
+<td>12253689</td>
+</tr>
+<tr>
+<td>C11</td>
+<td>pF Philips:</td>
+<td>47</td>
+<td></td>
+<td>2222-638-344/9</td>
+</tr>
+<tr>
+<td>C12</td>
+<td>uF/10 V Kemet</td>
+<td>33</td>
+<td></td>
+<td>T390d33GMoiOAS</td>
+</tr>
+<tr>
+<td>C15</td>
+<td>pF Philips</td>
+<td>10</td>
+<td></td>
+<td>2222-638-10109</td>
+</tr>
+<tr>
+<td>C16</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C18</td>
+<td>2p2 Philips</td>
+<td></td>
+<td></td>
+<td>2222-638-09228</td>
+</tr>
+<tr>
+<td>C19</td>
+<td>uF/ 25 V Kemne[</td>
+<td>10</td>
+<td></td>
+<td>T390C | O6MO25AS</td>
+</tr>
+<tr>
+<td>C20</td>
+<td>pF 59 Aselco c092</td>
+<td>0.063</td>
+<td></td>
+<td>MC-683M</td>
+</tr>
+<tr>
+<td>C22</td>
+<td>uF/6 V Philips</td>
+<td>62</td>
+<td></td>
+<td>12253689</td>
+</tr>
+<tr>
+<td>C2I</td>
+<td>uF/10 V Kemct</td>
+<td>33</td>
+<td></td>
+<td>T390D336M0|0AS</td>
+</tr>
+<tr>
+<td>C29</td>
+<td>uF/25 V Keme[</td>
+<td>10</td>
+<td></td>
+<td>T390C |06m02545</td>
+</tr>
+<tr>
+<td>C35</td>
+<td>uF/35 V Kemet</td>
+<td>4.7</td>
+<td></td>
+<td>T3900475MO35AS</td>
+</tr>
+<tr>
+<td>R1</td>
+<td>Resistor 1/4w  17 Philips</td>
+<td>17k8</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R6</td>
+<td>Trim Pol Piher" PtiOV IK</td>
+<td>1K</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R7</td>
+<td>Resistor 1/4w 5%6 Philips</td>
+<td>4K3</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R1I</td>
+<td>Resistor 1/4W 137</td>
+<td>1%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R2I</td>
+<td>Resistor 57 27K Prilips</td>
+<td>1/4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R3I</td>
+<td>TOOk</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R3</td>
+<td>Trim Pot IK Piher PTIOV IK</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R35</td>
+<td>Resisior 1/4w LK3 Philips</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R37</td>
+<td>deletc</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R38</td>
+<td>Resislor 1/Lw 137</td>
+<td>1%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C38</td>
+<td>uF/10 Kemet</td>
+<td></td>
+<td></td>
+<td>T390B475M010A5</td>
+</tr>
+<tr>
+<td>C39</td>
+<td>uF/io Philips</td>
+<td>2222</td>
+<td></td>
+<td>638-09478</td>
+</tr>
+<tr>
+<td>R52</td>
+<td>Potentiometer Clarosta: WBS</td>
+<td></td>
+<td></td>
+<td>10-017</td>
+</tr>
+<tr>
+<td>R71</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R81</td>
+<td>Resistor 1/Lw ^ 53 TSK: Philips</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (6)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471/19xx%20-%20471-01-004%20-%20M471C%20STEREO%20INPUT%20MODULE%20FUNCTIONAL%20-%20ISS%201.jpg">19xx - 471-01-004 - M471C STEREO INPUT MODULE FUNCTIONAL - ISS 1.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471/19xx%20-%20471-01-004%20-%20STEREO%20INPUT%20MODULE%20FUNCTIONAL%20-%20ISS%201.jpg">19xx - 471-01-004 - STEREO INPUT MODULE FUNCTIONAL - ISS 1.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471/19xx%20-%20471-02-003%20-%20STEREO%20INPUT%20MODULE%20SCHEMATIC%20-%20ISS%201.jpg">19xx - 471-02-003 - STEREO INPUT MODULE SCHEMATIC - ISS 1.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471/19xx%20-%20471-04-004%20-%20STEREO%20INPUT%20MODULE%20MODULE%20LAYOUT%20-%20ISS%201.jpg">19xx - 471-04-004 - STEREO INPUT MODULE MODULE LAYOUT - ISS 1.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Products/RTO/RTO-144/19xx%20-%20RTO-144%20-%20Module%20RTO-144%20Jumper%20calculator.xlsx">19xx - RTO-144 - Module RTO-144 Jumper calculator.xlsx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/FILTERS/M472A/1986%20-%20M472A%20-%20P003%20-%202-1.jpg">1986 - M472A - P003 - 2-1.jpg</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>General description (7)</h3>
+<details><summary>Description — 1366 words · 1985 - M471C - Stereo Input Module.pdf, page 11</summary><p>M47ic STEREO INPUT MODULE 12) 75 Hz/150 Hz AI-PASS These switches insert 12 dB/octave high Pass filter into both the Teft and righi channel signal paths_ IF both selections are depressed simultaneously the dB culoif frequency shifts to 225 Hertz. 13) SENSiTiViTY The sensitivity sclector switch accommodates an input signal range variation of 20 dB between -10 and +10 dBm . This switch preciscly sets the gain of the left and right channel preamplifier: in dB increments 14) AUXIL IARY The Auxiliary Ievel controls set the level of the audio signals fed t0 the Auxiliary mix buses. These outputs are in Mono. 15) BALANCE This control permits evel balance adjustments to be made Lo the stered output signals fed [0 the mix buses 16) CHANNEL ON This switch selects the left and right input signals t0 the bus outputs of the module. Included is contact closure which is available for mute/control logic functions 3-3</p><p>WAAD-BECX Systems LTD CIRcuIT</p><p>M47IC STEREO INPUT MODLLE Input The M71C wil| accepi Lwo slereo suurces whicn are seleclable by the inpu:: NJB selector Sw1 The &#x27;source is selectea when SWI Ts released and the source when cepressed_ Phase reversai switcn Sw2 permits the right channel phase to be reversed with respect to that of the Teft channel Preampl ifiec The SA1L-075 Preamplifier Subassembly contains the Jeft and right channel preamplifier circuitry; sensitivity controls high pass; Tilters and the sterco mode switch Refer to the 5A14-075 description for complete details The output from the preamplifier appears at the equalizer insert point on the madule cannector At Pi pin 22 for the leit channel and P1 pin 21 for the right channel This point i5 designed for the insertion 0f thc M522 type Sterco Equalizers. The return feeds from the equalizer appears 4[ PI pin and P1 pin Channel Amelificrs The equalizer insert returns connect [0 the left (U1 and u2) and right (u3 and UL) channel amplifiers. These amplifiers provide actively balanced. outputs, which through Channel On switch SW3 drive the insertion points. These balanced points opera ting at nominal level of dBm connect to&#x27; insertion jacks if provided and thc balanced: channel mixing fader . The insert outputs appear at P2 Pins H,7 and J,8 , while the return points are at P2 pins B,2 and C,3, The Channel On switch SW3 has secondary control contects for the operation of the channel on indicator and mutinng logic functions Pretade_Listen Mixing amplifier U9A and U9B mix the leit and right channei signals at P1 pin 2 and PI pin (the equalizer insert return points)</p><p>WAAD-BECX SYSTems LT_ CiRcuiT DESCRIPTIQN M47Ic STEREO iNPuT MODULE is coupled through CL7 and C48 balanced output to The actively switch Sw2Z . The culput from this selector Teeds the prefade Iisten PFL mix bus through- mixing resistors R136/R137 Program OutPurs booster amplifiers 45 and u6 recover the &#x27;jn hand&quot; Actively balanced insertion loss of the channel mixing fader . These amolifiers typically have gain of 15 dB from these amplifiers feed the balance Ccn trol (RST The t0 outputs R54 } and auxiliary combining amplifier U7_ The Sub and Master assignment selectors derive their feeds frorn the booster amplifier outputs through balance selector switch Swa The Icft channel culputs may be assigned t0 Subl, Sub3, and Master and the right crannel outputs may be assigned t0 Sub2, Sub4, 1, and Master mix buses . Each assignment selector SWS t0 SW12 is provided with closure which may be utilized for mute control functions. conlact Solo Solo selector switch Sw13 is fed from auxiliary combining amplifier U7 . The irom this switch feeds the solo mix bus at PI pins 14 output and through R83 and R8a SW1? has secordary control coritact far operating external solo control functions. Auxiliaries Four mono auxiliary outputs are provided combining amplifier u7 provides the post channel feeds and combining; amplifiers u8 combines the leit and right prefade channel feeds: The prefade &#x27;feeds appear at P2 &#x27;pins 5,E and P2 pins 6,F and are jumpered Lo the external channel mixing fader inputs. Switches Sw1L through SW17 select either the prefade Or post fade signal R124 through R127 are the auxi liary channel mix con trols, the outputs of which feed the assignment selectors SW18 through SW2I 4-2</p><p>WAAD-BeCX systems LtD CIRcUIT</p><p>Mezic STEREO INPuT MODULE Tne auxiliary mix bus outpurs appear on P1 pins P1 pins K through M brouyn 12 and Program Peak Monitor two colour LED DS3 gives normal program Jevel indication (iuminates green / and peak level indicd Lion (illuminates red) Thc sum of the left and rignt channel audio is cetected 3t the preface insert point by 4n averaging and peak detecting circuit. Tt i5 compared against calibrated reference by the dual comparator ui0 CR12, CRI3 Ri06 R107 and C5o form the averaging level detector U1O and 03 drive the green normal LED section of DS3 This occurs when the progiAm Tevel 4[ Ine prefade inserl point is above dBm (it shoula be noted that to dB evel difference exists between steady state tone and complex program material) CRIO , CRII RI03 and C49 form the peak level detector circuit. UIQA and 01 drive the red overload LED indicator of DS3 . When the red. overload LED Muminates 02 is turned off S0 that the green normal LED indicator is extinguished) The threshold switch point of the U10 comparalor is determined by the voltage divider R1O5 , RiO8 , Rio9 and trim control RI04 To properly adjust R104 apply kHz Lest signal of: sufficieni Tevel t0 give 14 dBm level at the prefade insert point. Adjust RIOA Peak Overload Threshold control S0 the green LED of DS3 just Muminates. Dropping the input signal level by dB should result in the green LED extingulshing. Raise the test signai evel until the red LED iluminales the green should extinguish) The insert signal Jevel should be between +22 and +24 dBm . Power Supply Decoupling The +/-25 volt supply voltage appearing at P2 pins 21 and 19 is regulated down to +/-18 volts by an active decoupler consisting of 04 through 0</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1985%20-%20M471C%20-%20Stereo%20Input%20Module.pdf">1985 - M471C - Stereo Input Module.pdf</a>, p. 11</li>
+</ul>
+<details><summary>Description — 329 words · 19xx - M471C - DOC - STEREO L SERIES - P003.jpg, page 1</summary><p>Input Channels The M471C Stereo Input Module has been designed replace the M470 series mono input module used in WBS &quot;L Series Audio Consoles has   been determined that the opt imum replacement kit size should configured for the replacement four (4) mono input channels with Tike number stereo channels The WBS K2042s/ Modification Kit the basic package for this modification and provides the components necessary convert four mono input channels stereo operation.</p><p>The K20425/1 provides four M471C input modules four stereo balanced conductive plastic faders, and the installation wiring harness required . When the kit installed, the two channe] MIC input circuits are util zed for the LINE Tevel stereo input The exsist ing mono INE input circuit not used and disconnected 1S  necessary utilize the second (&quot;B&quot; LINE input the M471C module, addi- tional input wiring required either from exsisting terminal block from an  added block.</p><p>The M471C provides input SENSITIVITY range from -10 dBm +10 dBm , with input impedance of 30,000 Ohms When stereo input modu les are installed standard &quot;L&quot; series console, the insert jacks associated with the channel being modified are removed from the circuit Bus ass ignments from the M471C modules are identica] those the M470 series with ass ignment pushbutton switches for S1 , 52 53 , 54 _ M1 _ and M2 When the series console used for stereo audio production, submaster channels and S2 are used for LEFT and RIGHT respect ively Likewise 53 and and Ml and become the LEFT and RIGHT channe]s Therefore the   M471c module configured that the internal LEFT Channel the source for the odd numbered assign - ment switches S1 , 53 , Ml) , while the internal RIGHT channel the source for the even numbered ass ignment switches (52 , S4 , &amp; M2) The four  AUXILIARY bus feeds the M471C module are mixed   (LEFT RIGHT) mono signa] = L2042/13242 consoles only utilize two the M471C AUX circuits while L20424/132424 consoles utilize al four</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/19xx%20-%20M471C%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P003.jpg">19xx - M471C - DOC - STEREO L SERIES - P003.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Introduction — 267 words · 19xx - M471C - DOC - STEREO L SERIES - P002.jpg, page 1</summary><p>The L2o42 and L3242 series WBS audio consoles including custom des igned series consoles may enhanced for stereo operation with series of  retrofit kits These kits provide for the modifi cation series console add stereo input  modules stereo equalizers and stereo monitor channels The modifications are des gned implemented on-site instal ation necessary wir ing harnesses by Ioca] stat personnel Opt ionally, installation assistance can provided WBS_ required t Tme travel and subs stance basis The input channel modification consists replacing number mono input channel modules (M470 , M470A , M47OB , M47oc) and the corres ponding mono fader units with stereo input channel modules (M471C) and stereo faders The kit available provides for this modification imp emented into group four input channe time Four eight twe channels could thus revised within sing]  console using one two, three the kits second kit permits the replacement the mono channel equa] - izers with simi stereo units again implemented group four channels Multiple kits May also utilized similar manner the input channels Console monitoring covered third kit While it possible use two exsisting mono monitor channe)s tandem for stereo moni toring this pract ice may operat ionally awkward The monitor modif cation consists replacing the three (or four) consoie monitor modules with simi stereo units thus providing stereo ource selection switching and stereo Tevei control Mixing bus structure for the console remains unchanged However operat ionally for stereo console use the subma ter buses are used pairs (1.e.</p><p>for LEFT S2 for RIGHT) and similarly the master buses are a]so used in pairs imi for LEFT M2 for RIGHT)</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/19xx%20-%20M471C%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P002.jpg">19xx - M471C - DOC - STEREO L SERIES - P002.jpg</a>, p. 1</li>
+<li>also in: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2012%20-%204-1.jpg">1979 - M471C - 12 - 4-1.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/19xx%20-%20M471C%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P011.jpg">19xx - M471C - DOC - STEREO L SERIES - P011.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2011%20-%203-3.jpg">1979 - M471C - 11 - 3-3.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2038%20-%202-5.jpg">1979 - M471C - 38 - 2-5.jpg</a>, p. 1</li>
+</ul>
+<h3>Specifications (2)</h3>
+<details><summary>Technical Data — 1209 words · 1985 - M471C - Stereo Input Module.pdf, page 6</summary><p>ML7IC STEREO INPUT MODULE Note: Specifications are Based on voltage levels of 6d0 ohm system unless otner_ wise speciried. Input Sensitivity: -10 t0 +i0 dBm (ref . 600 onm source ) Frequency Respanse +/-0.25 dB fromn 20 Hz L0 20 kHz Noise Greater than 75 to 80 dB signal t0 noise ralio fcr input sensitivities of -10 [0 -10 dBm . Harmonic Distortion: Less than 0.257 Trom 30 Hz to 20 klz 4[ +24 dBm uuiput levels Or less. Less than 0 . 057 at kHz at +24 dBm output. Scurce Impedance 600 ohms Or less balanced Input Impedances; 30 00o ohms Or greater . Output Impedances Less than 100 ohms 9L inser[ points Load Impedances 600 uhms balanced: (at insertion Point) Qutput Levels: dBm nominal +26 dBm  maximum, Channel Separation 60 dB Phasing: Low number Or&quot; numndered Lerminals 0f the input pair i5 in phase with the similar terminals ot the output Pair. Power Requirements: +/225 volts dc, 100 mA nominal , 185 mA maximum. +24 volts Cc, 20 IIA _ Ambient Temperature: to 50 degrees Celsius. Dimensions: 60&quot; wide 14.15&quot; high 6 :50&quot; deep (41 MM 360 mm 165 mm Weight: Ibs 02 (0.992 kg) net .</p><p>WAAD-BECK SYSTEms LTD GENERAL M4?ic STERFO INPuT MODULE The M471c provides stereopnonic input channel Tacilities Tor the L20l2/L3242 and L20424/1.32424 series audio consales The input source selector allows [wc separate sterco inputs I0 be connectec to each input moaule. Thz Gource selector aulputs feed the aetively balanced preamplifiers Phase Reversal selector lang with 4n LED indicator a/lows the phase 0f the right channel to be reversed with respect Lo the phase oi the leit channel The left and right channel Freampiifiers have stepped and gansed sensitivity control covering 20 dB range in dB steps. This accommocates input signal levels frorri -10 Lo +10 cBrti . Mode selector is provided which gives the operator the ab Tity to: reconfigure the stereo source material al the module output in the following manner Feed the Ieft inpul channel only LO both thc eft and right outputs 2) Combines the left and right outputs into output. Teft plus right mono 3) Provide the normal stereo. 4) Flip thc crder ot the Teft and right inputs (reverse stereo) 5) Feed the right input channel n Iy to both the leit and right uutputs LED Program and Peak Tevel indicator monitors the audio levels 4 [ the prefade insert points of the module. The green LED ot this two colour indicator will iluminate when the audio level is at Or above the nominal. operating level of the module (0 dBm ) I6 the audio Ievel approaches the peak point then the green indicator extin- guishes and the red indicator illuminates The peak point is set approximately 22 dB above the insertion point operating levels. 12 dB per octave High Pass filter i5 integral t0 each preamplifier: The cutoff frequency points are 75 , 150 and 225 Hertz. 2-1</p><p>WAAD-BECX Systems LtD GENERAL M47IC STEREO NPUT MODULE The prcamplifier outputs appear at the module connector for the insertion of the ML72A Slereo Equalizer Mucule This optional equal- izer is normally positioned above the input module in the mixing console. Actively balanced insert points are provided for the balanced stereo slide mixing attenuator. The Pretade Listen take off point precedes the Channel On switch points, thus allowing the module sourcc material to be monitored Prior to it being processed by the module The Channel On Swi tch selects the Teft and right input signals to the bus outputs The Solo take off point follows the Channel On and che setting f the inline mixing fader Balance control along with its associated insert switch gives the operator the ability ta balance up Ievel varialions between the Teft and right channel signals being fed to the submaster mixing buses. Direct bus assignment to Master and Master i5 available along with assignment to Submaster to Submaster When console has M47Ic modules installed and is being utilized for  Sterea applications it is the intention that odd numbered channels, for example M, 51 and 53, feed the left stereo channels and the even numbered channels, for example M2,52 and 54, feed the right stereo channels The module provides four Auxiliary bus feeds, each with separate level control , assignment switch and pre/post fade selector Auxiliary bus feeds are in mono only DC control and logic muting functions are provided on the input source selector and the Channel On switch [6 facilitate studio mute control functions The M47ic Stereo Input Module is packaged in module_ size of 60&quot; wide 14.15&quot; high 6.50&quot; deep standard WBS The module derives its power from the console system bipolar +/-25 volt and +24 volt power supplies: 2-2</p><p>WAAD-Beck Systems LTD QPERATIONAL DESCR IPT ION M47Ic STEREO INpuT MQDULE euS ASSIGN Tne Eus assign sclectors Permit assignment directly t0 Master and 2, ana Subs through For sterco operation it wiii be necessary t0 make assignments t0 the Teft (odd numbered) and right (even numberec) buses separately 2 ) MODE NDICATOR Muminates when the mode Selector switch is Ot= the stereo (5) position. 3 | NB A/B source selector , selects the source when released and the B source when depressed Note: With the slandard retro-fit of L2042 console there is only provision for the stereo squrce PHASE The phase reversal switch revcrscs thc phase of the right channel with respect to the leit channel The tally indicator Mlluminates when the switch Is .depressed. 5 ) PGM/PEAK This indicator iuminates green when the level of the audio signal at the prefade insert point is al Or above the nominal system operating Tevel The indicator will switch to red (overload condition) when the signal reaches Ievel approxi- ma tely 22 dB above the nominal PRE/POSI These switches Select the associated Auxiliary outputs t0 either the &#x27;prefade Or postfade take off points AuxILIARY ON These switches assign tne audio signal t0 the appropriate auxiliary mix bus . 3-1</p><p>WAAD-EECX systems LTD_ OPERAT IONAL DESCRIPT ION M47IC STEREO INPUT MODULE 8 } BALANCE SELECI The Balance insertion switch controls the s</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1985%20-%20M471C%20-%20Stereo%20Input%20Module.pdf">1985 - M471C - Stereo Input Module.pdf</a>, p. 6</li>
+</ul>
+<details><summary>Technical Data — 171 words · 1979 - M471C - 06 - 1-1.jpg, page 1</summary><p>ML7Ic STEREQ INPUT MODULE Nole Specificatiuns 4re Based on voltage levels 6do ohm system un e55 otner_ wise speciried Input  Sensitivity: -10 +i0 dBm (ret . 600 onm scurce Frequency Response +/-0.25 dB frorr Hz 20 kHz Noisc: Greater than dB signal noise ralio fer input sensitivities -10 -10 dBm Harmonic Distortion: Less than 257 Trom Hz 20 klz +24 dBmi cuddut Tevels or less Less than 057 kHz +24 dBm output Scurce mpedance 600 ohms or less balanced Input Impedances; 00o ohms greater Output Impedances Less than 100 ohms al inserl poinls Load Impedances 600 onms balancec (at insertion point) .</p><p>Qutput Levels: dBm nominal , 126 dBm maximum_ Channel Separation: dB Phasing: Low number Or&#x27; numdered Lermninals Lhe input pair phase with the similar term inals the output pair Power Requirements: +/225 volts dc, 100 mA nominal , 185 mA maximum. +24 volts dc, 20 MA . Ambient Temperaturc: degrees Celsius. Dimensions: 60&quot; wide 14.15&quot; high 6:50&quot; deep (41 mm 360 mm 165 mm Weight: Ibs (0.992 kg) net</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2006%20-%201-1.jpg">1979 - M471C - 06 - 1-1.jpg</a>, p. 1</li>
+</ul>
+<h3>Circuit description (1)</h3>
+<details><summary>Circuit Description — 315 words · 1979 - M471C - 14 - 4-3.jpg, page 1</summary><p>ML?1c STEREO INPUT MODULE Tne auxiliary [Tix bus outputs 4ppear on pins through M . pins tbrouyn 12 and ProgramiPeak Mon tor two colcur LED DS3 gives normal program evel indication (iluminales green and peak level indication (illuminates red) Thc sun the lett and right channel audio cetected the preface insert point DY 4n averaging and peak detecting circuit. compared against ca ibrated reference Dy the dua comparator U10.</p><p>CR12 , CR13, R1C6 R10? and C5o form the averaging level detector U1O and 03 drive the green normal LED section DS3 . This occurs when tne pr0g;am level tne prefade inserl point Above dBm (it shoula be noted that dB level cifference exists between steady stete tone and compiex program material) CRIO , CRii RIO3 ard C49 form the peak level detector circuit_ UIQA and 01 drive the red over Ioa LED ind cator DS3 When the red.</p><p>overload LED Muminates 02 turnec off S0 tnat thc green normal LED indicator extinguished) The thresholu Swi tch poinl the U10 comparalor determined by the voltage divider R1O5 RIO8 , R109 and trim control RIO4 praperly adjusl R104 apply kHz test signa sufficient level give dBm eve the prefade insert point. Adjust RI04 Peak Overload Threshold control the green LED DS3 just uminates Dropping the input signal evel by dB shquld result In the 4reen LED extinguishing Raise the test signal level until the red LED iluminales (the green should extinguish) The insert signal Ievel should be between +22 and +2h dBm Power Supely Decoupling The +/-25 volt supply voltage appearing P2 pins and 19 regulated down +/-18 volts by an dctive decoupler consisting 04 through 09 with thei associated components 08 and 09 are current imit sensors for the positive and negative voltage supply rails.</p><p>The common return for the 1/-25 volt supplies main chassis frame connection P2 pin 22 _ P2 pin 20 . 0-3</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2014%20-%204-3.jpg">1979 - M471C - 14 - 4-3.jpg</a>, p. 1</li>
+</ul>
+<h3>Installation (1)</h3>
+<details><summary>Installation — 285 words · 19xx - M471C - DOC - K2942S - P09 - 2-3.jpg, page 1</summary><p>STEREO MODIFICATION KiT #K20425/1 CAUT (ON AII wiring removed in steps through should be carefully tied back prevent Toose wiring From shorting when the input tray reinstalled 19) Lay cable assembly 5A91-036 Into position and secure, using nylon cable ties existing cables Ensure that new cable wil not interfere with reinstallation connector tray 20) Solder wires from cab le assembly P2-5,E ,P2-7,H(4 ) and P2-8,J(4) .</p><p>P2-2,B (4) , P2-3,c(D); 21 } Solder chassis ground wire from cable assemib connector being modified onto pin P2-22 the fourth 22) stereo equalization modification kit #K2042s/2 als0 be installed, obtain cabie assembly 5A9I-037 from that kit: Lay assembly 5A9I-037 into position and secure, using nylon cable ties existing cables Solder wires from cable assembly PJ-21,Y(P2-20) the input  rodule connectors Section this manua outlines the installation kit #K20425/2 .</p><p>recommended read this section now obtain an overview thal procedure kit #K20425/2 not Installed then the M471C connectors wil require bypass jumpers installed between P1-22 and PI-Z, and P1-21 and PI-Y - 23 ) The shield ground for the four Tnput channels being .modified must be jumpered from their cespective inputs TB the shield ground TB2 For examp channels 17 20 are being modified; then TBI-99 105 , 111, 117 should be jumpered TB2-51_ 54, 57 60 _ 24) Reinstall input connecter tray by performing the reverse steps 10 thraugh 14 .</p><p>25 } Install new tereo faders 5A91-034 by first inserting the inline connector offered on the 5A91 036 cable assemb Secure faders the console using mounting screws removed from mono Taders 26 ) . Install new M471c Stereo Input Modules and secure them using mounting screws removed from M470 series input modules: 27) Reapply power the console 2-3</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/19xx%20-%20M471C%20-%20DOC%20-%20K2942S%20-%20P09%20-%202-3.jpg">19xx - M471C - DOC - K2942S - P09 - 2-3.jpg</a>, p. 1</li>
+</ul>
+<h3>Parts list (text) (3)</h3>
+<details><summary>Parts List — 292 words · 1979 - M471C - Stereo Input Module.pdf, page 19</summary><p>M47 1C    STE.&#x27;l; EO INPUT MOOULE</p><p>&#x27;&quot;     ..   PA~T</p><p>,            OC:SClt IPT/CN</p><p>...            Resis tor    1/4&#x27;10&#x27;                                    &#x27;.      &#x27;OK                                            I !!O(                                                             W. F ,j</p><p>..                                                             P!&#x27;\lI l ps                                                                           MF G PAR T     NUM B E ~</p><p>&#x27;&quot;&quot;,           .                         &quot;OS,                  &quot;                                                                  &quot;                 &quot;   &quot;&quot;   RS I )                                            &quot;                     &quot;</p><p>We&gt; 10- 01 7   R S2l   RSJ )   RS4 l            POl ent i ome t.. r                                            &quot;                Clarosl3 t</p><p>ass                   1!4W 5 ~            Re sis tor                                            &#x27;&quot;               P h il i ps</p><p>.   &#x27;&quot;&#x27;S,   R57 ,         .                 .                          &#x27;&quot;                                            &#x27;&quot;                                                                  .                                                                  ..   &#x27;S,           .                 ..                         &#x27;&quot;                                            OS,                   .                                                                  .   &quot;0                 .                          &#x27;&quot;   &#x27;&quot;            .                 ..                                            JJK                                                                  ....   &#x27;&quot;   &#x27; 6J                                     &#x27;&quot;                                            &#x27;&quot;                    .   &#x27;&quot;              ..                       &#x27;&quot;                    .   &#x27;&quot;   &#x27;66            ..                        &quot;&quot;                                            m                     ..   &#x27;&quot;&quot;,           ...                       &quot;&quot;                     ...   &#x27;&quot;            ..                         &quot;&quot;                                            &quot;&quot;                     .   &quot;&quot;            .                          &quot;&quot;   &#x27;&quot;            ..                         de lete</p><p>&#x27;&quot;            .                          cHl lele                                                                  ..   &#x27;&quot;   &#x27;&quot;                 .                 .                                            15k</p><p>&quot;&quot;                    .   &quot;,                                       &quot;&quot;                 ..                                               ...   &#x27;&quot;   &#x27;n            .                          &#x27;&quot;                                            &quot;&quot;                     .   &#x27;&quot;&#x27; SO   &quot;,            .                          &quot;&quot;                                                                                                    a</p><p>..                         dele te                                                                                                  .c</p><p>de le te                                                                                               ps                                                                                           BS                                                                                        W                                                                                   ://                                                                                 tp</p><p>5-5                                                                               ht</p><p>W AR O - S E CK SYST E M S LTO .</p><p>P ARTS L lS i</p><p>&quot;&quot;4 , IC S TEREO -INP UT MODUL::</p><p>P ART    DEse R IP T ION                                .&#x27;G           MF G PART NUMBER</p><p>&quot;S&lt;                    1!4W s ~     I SK    &quot;82             R..l;&#x27;l;IO&quot;                  &quot;                     l Si&lt;                  .                                                            P &quot;llll l)s</p><p>RaJ           &quot;                  ..                                        I SK                                                               .&quot;    &quot;&quot;    R8S                  &quot;</p><p>&quot;&#x27;&quot;                                                               .    &quot;B6           .                                             &quot;                                        &#x27;&quot;    &quot;&quot;    Rea    ROO                  &quot;                  &quot;                  &quot;                                        &#x27;&quot;                                        &#x27;&quot;                                                                &quot;                                                                &quot;                                                                &quot;    &quot; 90          &quot;                     &#x27;&quot;                                        &#x27;&quot;                      &quot;    &quot;S&lt;           &quot;    &quot;n            &quot;                     &#x27;&quot;                      &quot;</p><p>&quot;9J    &quot;,.                  &quot;                  &quot;                                        &#x27;&quot;                                        &#x27;&quot;                                                                &quot;                                                                &quot;    &quot;95           &quot;                  .                                        &#x27;&quot;                                        &#x27;&quot;                                                                &quot;                                                                &quot;    &quot;06    &quot; 91          .                     &#x27;&quot;&#x27;&quot;                    ..&quot;    &quot;ge    &quot;95</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%20Stereo%20Input%20Module.pdf">1979 - M471C - Stereo Input Module.pdf</a>, p. 19</li>
+</ul>
+<details><summary>Parts List — 423 words · 1985 - M471C - Stereo Input Module.pdf, page 34</summary><p>5A14-0775 SIEREO PREAMPL IFTER ASSEMBLY PART DESCR IPTION MFG MFG PART NUMBER CI C2 C3 Ct CS Capacitor: 150. UF/6 150 LF/6 10 pF delete 10 uF/25 Kemct TJGOE157MCO6AS Philips 2222 638-10109 Kemet T390CIC6MO254S C6 C7 ca C9 C1o 2p2 10 LF/25 0.062 pF 576 0.CG8 pF 57 68 uF/6 Philips Kemet Aselco 2222-638-09228 T390c106MO25AS ca92-Mc 683M Philips 12253689 CTI C12 C13 C1L C15 47 pF 33 uF/10 V 150 uF/6 150 UF/6 10 pF Philips: Kemet 2222-638-34479 T39OD336Mo1OAS T390E157MOO6AS Philips 2222 638-10109 C16 C17 C18 C19 Cz0 dclete 10 uF/25 2p2 10 uF/25 0.062 pF 596 Kemet Philips Kemne[ Aselco T390C106MO25AS 2222-638-09228 T390C | O6MO25AS c092 MC_68JM C2t C22 C23 C2i C25 0.068 pF 596 68 uF/6 47 pF 33 uF/10 33 uF/10 V Philips Philips &#x27;Kemct 12253689 2222-638-34479 T390D336M0|OAS C26 627. C28 c29 C3o&#x27; 33 UF/10 V 47 pF 47 pF 10 uF/25 10 uF/25 Philips 2222-638-34479 Kerrie[ T390C | 06M02545 C31 C32 C33 C3L C35 47 uF/25 47 uF/25 &#x27;0.1 uF/100 0.1 uF/100 4 uF /35 Philips 035 56479 Sprague 1CIOXZRIOAMOSOB Kemet T3900475MO35AS 2-1</p><p>WAAD-EECX Systems LTD PARTS List 5A14-075 STEREO PREAMPLIFIER ASSEMBLY PART</p><p>SA1Z-075 STEREO PREAMPLIFIER ASSEMBL PART DESCR IPTION MFG MFG PART NUMBER R2I R22 823 R24 R25 Resistor 1/4 570 27k S6k 27k 620k 56k Philips R26 R27 R28 R29 R3O 50k IK 17K8 17k8 i00K I/4w 1%6 1/4w 57 R3I R32 R33 R3 R35 TOuk LK? 1/4w 1% 3k32 Trim Pot TK Resistor 1/4w 59- LK3 Piher Philips PTIOV IK R36 R37 R38 R39 RLO I/LW 1% 30k i deletc Resistor 1/LW 1% 137 191 261 Rh| RLZ R43 Rah R45 365 499 649 732 732 R46 RL? RL8 R49 R5O 665 562 27k 56k 27k 1/4w 5% RSI R52 R53 R54 R55 620k 56k is0k IK 7K5 2-3</p><p>WAAD-BECX Systems LTC</p><p>SA1L-075 STEREO PREAMPLIFIER ASSEMBLY PART DESCR IPTION MFG MFG PART NUMEER R56 R57 Rsd R59 R6o Resistor / 4W 57 7k5 7k5 7K5 7K5 7K5 Philips R61 R6z R63 R64 R65 7k5 7k5 10K 10k 20k Trim Pot Piner Ptiov 20k R66 R6? R6B R69 R7O Resistor 1/Lw 57 8k2 47 Trim Pot 20k Resistor 1/4w 5%6 8K2 47 Philips Piher Philips PTIOV &#x27;Z0k R7I R72 R73 R7h R75 15k 15k 47 47 IM R76 R77 R78 R79 1M 2k2 33 33 1/2w 5% 1 4w 576 Swi Sw2 Sw3 SWL Switch, Rotary Grayhill 11-132 11-131 IxF LUEE Lc A/A Pushbutton TT U1. u2 u3 U4 Integrated Circuit National LMB3ZN 2-4</p><p>WAAD-EECX SYSTEMs LTD PARTS LiST SA1Z-075 STEREO PREAMPLIFIER ASSEMBLY MISCELLANEQUS COMPONENTS YSED ON</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1985%20-%20M471C%20-%20Stereo%20Input%20Module.pdf">1985 - M471C - Stereo Input Module.pdf</a>, p. 34</li>
+</ul>
+<details><summary>Parts List — 119 words · 1979 - M471C - 16 - 5-2.jpg, page 1</summary><p>M47Ic STEREO INPUT MODULE PART DESCRIPT ON - MFG MFG PART_NUMBER C36 C37 C38 C39 C40 Capacitor 4.7 uF/io PF uF/10 uF/io Kemet Philips Kemet T390B475M0104S 2222 638 09478 T390B475M010A5 Philips 2222 638-09478 C41 C42 C3 C42 C45 33 UF/10 33 uF/10 4:7 uF/10 uf/10 4.7 PF Kerriet T3900336M01OAS T3908475M010A5 Philips 2222-638-09478 C46 C47 C48 C49 C5o 47 PF 10 uF/ 25 10 uF/25 uF/35 uF/35 2222-638-34479 T390C1O6Mu2545 Kemet T390B1OSMO3SAS C51 C52 C5z C55 10 UF/25 uF/ 25 1 4F/2 uF/25 10 uF/25 uF/25 uF/10O UF/100 uF/100 uF/100 uF/100 uF/100 uF/100 uF/T00 T390C1O6MOZ5AS 03016229 Philips C56 C57 Kemet T390C 106M025A5 Sprague 1C1OX7RIO4MOSOB C59 C60 C64 C65 C66 uF/100 CRI CRZ CR3 CR4 CRS Diode Fairchild INLOO3 delete Didde 5-2</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/1979%20-%20M471C%20-%2016%20-%205-2.jpg">1979 - M471C - 16 - 5-2.jpg</a>, p. 1</li>
+</ul>
+<h2>Drawings (5)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="People.html#drawing-staff">Drawn by</a></th>
+<th><a href="People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/M471C%20-%2029%20-%20Layout.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/M471C%20-%2039%20-%20St%20Pre-amp%20Schematic.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 14-075-02-001</td>
+<td>SA14-075 STEREO PREAMPLIFIER ASSEMBLY / SCHEMATIC</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/19xx%20-%2014-075-02-001%20-%20SA14-075%20STEREO%20PREAMPLIFIER%20ASSEMBLY%20SCHEMATIC%20-%20ISS%201%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 14-075-06-001</td>
+<td>SA14-075 STEREO PREAMPLIFIER ASSEMBLY / COMPONENT LAYOUT</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/19xx%20-%2014-075-06-001%20-%20SA14-075%20STEREO%20PREAMPLIFIER%20ASSEMBLY%20COMPONENT%20LAYOUT%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 2042-02-001</td>
+<td>K2042S/1 AND K2042S/2 INPUT AND EQUALIZER / SCHEMATIC</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471C/19xx%20-%202042-02-001%20-%20K2042S%201%20AND%20K2042S%202%20INPUT%20AND%20EQUALIZER%20SCHEMATIC%20-%20ISS%201.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M471C&quot;,
+ &quot;name&quot;: &quot;Stereo Input Module&quot;,
+ &quot;category&quot;: &quot;INPUT-PRE-AMPS&quot;,
+ &quot;year&quot;: 1979,
+ &quot;connections&quot;: {
+  &quot;from&quot;: &quot;its own documents&quot;,
+  &quot;inputs&quot;: [
+   &quot;Input Bright U&quot;,
+   &quot;St Ereo In Put M Odule&quot;,
+   &quot;Input Shield&quot;,
+   &quot;Input B Left&quot;,
+   &quot;Att Return Left&quot;,
+   &quot;Att Return Right&quot;,
+   &quot;Input Shteld&quot;
+  ],
+  &quot;outputs&quot;: [
+   &quot;Pre Out Left (Att Tn)&quot;,
+   &quot;Pre Out Right (Att Tn)&quot;
+  ],
+  &quot;power&quot;: [
+   &quot;+24V&quot;
+  ],
+  &quot;control&quot;: [
+   &quot;Pfl&quot;,
+   &quot;Solo&quot;,
+   &quot;Ctl&quot;
+  ]
+ },
+ &quot;made_of&quot;: [
+  &quot;10-015&quot;,
+  &quot;SA14-075&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 01 - Cover.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 02.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 03 - TOC.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 04 - Warranty.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 05 - Sec 1.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 06 - 1-1.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 07 - 2-1.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 08 - 2-2.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 09 - 3-1.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 10 - 3-2.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 11 - 3-3.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 12 - 4-1.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 13 - 4-2.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 14 - 4-3.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 15 - 5-1.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 16 - 5-2.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 17 - 5-3.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 18 - 5-4.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 19 - 5-5.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 20 - 5-6.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 21 - 5-7.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 22 - 5-8.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 23 - 5-9.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 24 - 6-1.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 25 - 6-2.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 26 - Layout.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 27 - Functional Diagram.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 28 - Schematic.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 29 - Layout.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 30 - Sec 2.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 32 - 1-1.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 33 - 1-2.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 34 - 2-1.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 35 - 2-2.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 36 - 2-3.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 37 - 2-4.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 38 - 2-5.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 39 - St Pre-amp Schematic.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - 40 - St Pre-amp Layout.jpg&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1979 - M471C - Stereo Input Module.pdf&quot;,
+   &quot;year&quot;: 1979,
+   &quot;pages&quot;: 40,
+   &quot;holds&quot;: [
+    &quot;connections&quot;,
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1985 - M471C - 31.jpg&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/1985 - M471C - Stereo Input Module.pdf&quot;,
+   &quot;year&quot;: 1985,
+   &quot;pages&quot;: 40,
+   &quot;holds&quot;: [
+    &quot;connections&quot;,
+    &quot;dates&quot;,
+    &quot;modules&quot;,
+    &quot;parts&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/19xx - 2042-02-001 - K2042S 1 AND K2042S 2 INPUT AND EQUALIZER SCHEMATIC - ISS 1.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;modules&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/19xx - M471C - DOC - K2942S - P06 - 1-1.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/19xx - M471C - DOC - K2942S - P09 - 2-3.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/19xx - M471C - DOC - K2942S - P10 - 3-1.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/19xx - M471C - DOC - K2942S - P15 - 1-1.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/19xx - M471C - DOC - STEREO L SERIES - P002.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/19xx - M471C - DOC - STEREO L SERIES - P003.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/19xx - M471C - DOC - STEREO L SERIES - P004.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/19xx - M471C - DOC - STEREO L SERIES - P011.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/19xx - M471C - DOC - STEREO L SERIES - P014 - B471-01-004 R.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/19xx - M471C - DOC - STEREO L SERIES - P015 - B471-04-004 R.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/M471C - 29 - Layout.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M471C/M471C - 39 - St Pre-amp Schematic.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/MONITORING/M475A/19xx - M475A - DOC - STEREO L SERIES - P006.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;PHOTOS/Drawings/19xx - 14-075-02-001 - SA14-075 STEREO PREAMPLIFIER ASSEMBLY SCHEMATIC - ISS 1 (2).jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;PHOTOS/Drawings/19xx - 14-075-06-001 - SA14-075 STEREO PREAMPLIFIER ASSEMBLY COMPONENT LAYOUT - ISS 1.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../_catalog/libcontrol/libcontrol.css"><script src="../_catalog/libcontrol/react.js"></script><script src="../_catalog/libcontrol/react-dom.js"></script><script src="../_catalog/libcontrol/libcontrol.js"></script><script src="../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M471C.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

@@ -1,0 +1,16 @@
+{
+  "code": "M456B",
+  "series": null,
+  "type": "M456B - Dual Mixdown Module",
+  "row_count": null,
+  "impedance": {
+    "out": 600
+  },
+  "note": null,
+  "audio": [],
+  "bus_out": [],
+  "bus_in": [],
+  "power": [],
+  "jumpers": [],
+  "logic": []
+}

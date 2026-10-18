@@ -1,0 +1,50 @@
+# 1988 - BIG CFTO TV done - 3642-02-006 - AUDIO TERMINAL STRIP.jpg
+Wiki page: [Consoles](../../../PAGES/Consoles.md)
+
+
+- **Year:** 1988 (inferred: project CFTO TV done: 78 dated files)
+- **Console:** BIG CFTO TV done
+- **Project:** CFTO TV done
+- **Original file:** `WBSps.env/PUBLIC/Manuals + tech DOCUMENTS/Consoles/BIG CFTO TV done/fragments/3642-02-006c.jpg`
+- **SHA-256:** `f247d5473486c7e45a396eb8ea8286c873271e5eda80c4de686a3e9077f6c82c`
+- **Size:** 5,196,010 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR)
+
+```text
+SUB 1-L
+M435
+5
+8 P2
+P1 7,8
+AUDIO +8 dBm
+TERMINAL STRIP ON VU PANEL
++25v
+SIGNAL GROUND
+25v
++25v
+SIGNAL GROUND
+25v
+M2 _
+FROM POWER DISTRIBUTION
+M436
+J P2
+P1 7,8
+AUDIO
+TERMINAL STRIP ON VU PANEL
++25v
+SIGNAL GROUND
+25v
++25v
+SIGNAL GROUND
+25v
+```
+
+## Contents (JSON)
+
+```json
+{"file":"Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 3642-02-006 - AUDIO TERMINAL STRIP.jpg","sha256":"f247d5473486c7e45a396eb8ea8286c873271e5eda80c4de686a3e9077f6c82c","kind":"console","models":["BIG CFTO TV done"],"year":1988,"pages":1,"order":[{"page":1,"title_block":[{"number":"3642-02-006","type":"schematic","title":"Audio Terminal Strip"}],"modules":["M435"],"module_boxes":[{"code":"SUB","box":[0.8463,0.2027,0.881,0.2155]},{"code":"1-L","box":[0.89,0.2036,0.9222,0.2155]},{"code":"M435","box":[0.9383,0.2268,0.9691,0.2359]},{"code":"5","box":[0.8212,0.2759,0.8302,0.2859]},{"code":"8","box":[0.7904,0.2695,0.8006,0.3023]},{"code":"P2","box":[0.8212,0.3123,0.8367,0.3205]},{"code":"P1","box":[0.8264,0.3595,0.8405,0.3659]},{"code":"7,8","box":[0.8482,0.3577,0.8675,0.3668]},{"code":"AUDIO","box":[0.8257,0.4018,0.8669,0.4127]},{"code":"TERMINAL","box":[0.5936,0.4132,0.6437,0.4223]},{"code":"+8","box":[0.8186,0.4123,0.8379,0.4214]},{"code":"dBm","box":[0.8444,0.4123,0.8752,0.4214]},{"code":"STRIP","box":[0.6026,0.4214,0.6334,0.4305]},{"code":"ON","box":[0.5807,0.4295,0.5974,0.4377]},{"code":"VU","box":[0.6026,0.4305,0.618,0.4377]},{"code":"PANEL","box":[0.6219,0.4295,0.6553,0.4377]},{"code":"+25v","box":[0.4064,0.4427,0.445,0.4536]},{"code":"SIGNAL","box":[0.3717,0.4609,0.418,0.4718]},{"code":"GROUND","box":[0.4232,0.4609,0.4797,0.4718]},{"code":"25v","box":[0.4167,0.4791,0.4437,0.49]},{"code":"+25v","box":[0.4077,0.4973,0.4437,0.5082]},{"code":"SIGNAL","box":[0.3717,0.5155,0.418,0.5264]},{"code":"GROUND","box":[0.4232,0.5155,0.4797,0.5264]},{"code":"25v","box":[0.4167,0.5336,0.4437,0.5445]},{"code":"M2 _","box":[0.8617,0.6564,0.8977,0.6682]},{"code":"FROM","box":[0.2013,0.6805,0.2386,0.6895]},{"code":"POWER","box":[0.2431,0.68,0.2907,0.6909]},{"code":"M436","box":[0.9383,0.6805,0.9691,0.6886]},{"code":"DISTRIBUTION","box":[0.2019,0.6891,0.2894,0.7]},{"code":"J","box":[0.7916,0.7223,0.8019,0.7559]},{"code":"P2","box":[0.8225,0.7668,0.8367,0.7741]},{"code":"P1","box":[0.8264,0.8123,0.8418,0.8195]},{"code":"7,8","box":[0.8495,0.8114,0.8688,0.8205]},{"code":"AUDIO","box":[0.827,0.8555,0.8669,0.8664]},{"code":"TERMINAL","box":[0.5949,0.8659,0.645,0.875]},{"code":"STRIP","box":[0.6051,0.8741,0.636,0.8832]},{"code":"ON","box":[0.582,0.8823,0.5987,0.8905]},{"code":"VU","box":[0.6026,0.8823,0.6193,0.8905]},{"code":"PANEL","box":[0.6232,0.8823,0.6566,0.8905]},{"code":"+25v","box":[0.4077,0.8955,0.445,0.9064]},{"code":"SIGNAL","box":[0.373,0.9136,0.4193,0.9245]},{"code":"GROUND","box":[0.4244,0.9136,0.481,0.9245]},{"code":"25v","box":[0.418,0.9318,0.445,0.9427]},{"code":"+25v","box":[0.4077,0.95,0.445,0.9609]},{"code":"SIGNAL","box":[0.373,0.9682,0.4193,0.9791]},{"code":"GROUND","box":[0.4244,0.9682,0.481,0.9791]},{"code":"25v","box":[0.418,0.9864,0.445,0.9973]}]}],"drawing":{"svg":"_traces/f247d5473486c7e4.svg","viewBox":[1414,2000],"rotate":0,"number":"3642-02-006","title":"Audio Terminal Strip","dtype":"02","outlines":"see _traces/f247d5473486c7e4.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/f247d5473486c7e4.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[1197,431,"SUB"],[1258,431,"1-L"],[1327,472,"M435"],[1161,641,"P2"],[1169,732,"P1"],[1199,734,"7,8"],[1168,825,"AUDIO"],[839,845,"TERMINAL"],[1194,843,"dBm"],[852,861,"STRIP"],[821,875,"ON"],[852,875,"VU"],[879,875,"PANEL"],[575,907,"+25v"],[526,944,"SIGNAL"],[598,944,"GROUND"],[589,980,"25v"],[576,1016,"+25v"],[526,1053,"SIGNAL"],[598,1053,"GROUND"],[589,1089,"25v"],[1218,1336,"M2 _"],[285,1379,"FROM"],[344,1382,"POWER"],[1327,1377,"M436"],[285,1400,"DISTRIBUTION"],[1163,1548,"P2"],[1169,1639,"P1"],[1201,1641,"7,8"],[1169,1733,"AUDIO"],[841,1750,"TERMINAL"],[856,1766,"STRIP"],[823,1781,"ON"],[852,1781,"VU"],[881,1781,"PANEL"],[576,1813,"+25v"],[527,1849,"SIGNAL"],[600,1849,"GROUND"],[591,1885,"25v"],[576,1922,"+25v"],[527,1958,"SIGNAL"],[600,1958,"GROUND"],[591,1995,"25v"]]}}
+```

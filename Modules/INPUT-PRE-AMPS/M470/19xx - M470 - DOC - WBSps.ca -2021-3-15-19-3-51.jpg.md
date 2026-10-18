@@ -1,0 +1,123 @@
+# 19xx - M470 - DOC - WBSps.ca -2021-3-15-19-3-51.jpg
+Wiki page: [Documents](../../../PAGES/Documents.md)
+
+
+- **Year:** unknown (unknown)
+- **Type:** document scan
+- **About:** M470
+
+## Text recovered by OCR
+
+> 312 DIA: IG PLACES 10.970 9.858 545 DIA: 6 PLACES MARKED 8.746 7.634 7.065 6.522 375 DIA 2 PLACES MARKED 5.697 5.303 Hale? PLAces (Scc Cha?t) 903 562 DIA PLACE 4.515 2.767 1.042 24 "375 "40 360 180 390 1480 L.00 '360 203 DIA PLACEs 187 7.240 8.352 9.464 10.576 2.082 12.574 12.066 13.760 '185 14 .130 NOTES: BURRS AND SHARP EDGE 5 REMOVE ALL DRAWIL Le 0e24 7e4 PL4EL FieH HeLe S440 246 43T Paiut 0.172 DiA : MiLL 080 Dee? Other Mattz Zlaxk Terote MyL Install 'PzH3Ct" F-445-1 Sidc. TUnt "t3 0.172 Dia MILL 080 Dcep etrer SAND 242 427387.,4747 2s6- CHARcOAl side: IJSTALL "Aheezt" 5o % ELAcK 476-03 ios Mopicko USON CHART Apoco MatL_ WARD-BECK ByBTEMB LTtO WBS ALUM Alloy ioo Thk DRND3Z M470 € D4T7y B7BA INPUT MODULE FINSA CKD: EsCuteheON SEE Ch4?7 SCALE 2: 412 03-i05 Tols s/ ARTWoc< see Lp 470-83-Iol 2 For 470 Q1:l65-I4 1.050
+- **Original file:** `WBSps.env/PUBLIC/RECENT SCANS/WBSps.ca 20210315 - Large dwg - Needs rename /WBSps.ca -2021-3-15-19-3-51 (12).jpg`
+- **SHA-256:** `f97d417823fd7072c3e6e015e573423c0cd855f917ca3d0659a4ed91f536f0c3`
+- **Size:** 8,067,125 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 5 words corrected)
+
+```text
+312 DIA: IG PLACES
+10.970
+9.858
+545 DIA: 6 PLACES MARKED
+8.746
+7.634 7.065 6.522
+375 DIA 2 PLACES MARKED
+5.697
+5.303
+Hale? PLAces (Scc Cha?t)
+903
+562 DIA
+PLACE
+4.515
+2.767
+1.042
+24 "375 "40
+360
+180
+390
+1480
+L.00
+'360
+203 DIA
+PLACEs
+187
+7.240
+8.352
+9.464 10.576 2.082 12.574 12.066 13.760
+'185
+14 .130
+NOTES: BURRS AND SHARP EDGE 5 REMOVE ALL
+DRAWIL Le
+0e24 7e4 PL4EL FieH HeLe  S440 246 43T Paint 0.172 DiA : MiLL 080 Dee? Other Matte Zlaxk Terote MyL Install 'PzH3Ct" F-445-1 Sidc. TUnt "t3 0.172 Dia MILL  080 Dcep etrer SAND 242 427387.,4747 2s6- CHARcOAl side: INSTALL "Aheezt" 5o % BLACK
+476-03 ios
+Mopicko USON CHART Apoco
+MatL_ WARD-BECK ByBTEMB LTtO WBS ALUM Alloy ioo Thk DRND3Z M470 € D4T7y B7BA INPUT MODULE FINSA CKD: Escutcheon SEE Ch4?7 SCALE 2: 412 03-i05 Tols
+s/ ARTWoc< see Lp 470-83-Iol 2 For
+470 Q1:l65-I4
+1.050
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+312 DIA: IG PLACES
+10.970
+9.858
+545 DIA: 6 PLACES MARKED
+8.746
+7.634 7.065 6.522
+375 DIA 2 PLACES MARKED
+5.697
+5.303
+Hale? PLAces (Scc Cha?t)
+903
+562 DIA
+PLACE
+4.515
+2.767
+1.042
+24 "375 "40
+360
+180
+390
+1480
+L.00
+'360
+203 DIA
+PLACEs
+187
+7.240
+8.352
+9.464 10.576 2.082 12.574 12.066 13.760
+'185
+14 .130
+NOTES: BURRS AND SHARP EDGE 5 REMOVE ALL
+DRAWIL Le
+0e24 7e4 PL4EL FieH HeLe  S440 246 43T Paiut 0.172 DiA : MiLL 080 Dee? Other Mattz Zlaxk Terote MyL Install 'PzH3Ct" F-445-1 Sidc. TUnt "t3 0.172 Dia MILL  080 Dcep etrer SAND 242 427387.,4747 2s6- CHARcOAl side: IJSTALL "Aheezt" 5o % ELAcK
+476-03 ios
+Mopicko USON CHART Apoco
+MatL_ WARD-BECK ByBTEMB LTtO WBS ALUM Alloy ioo Thk DRND3Z M470 € D4T7y B7BA INPUT MODULE FINSA CKD: EsCuteheON SEE Ch4?7 SCALE 2: 412 03-i05 Tols
+s/ ARTWoc< see Lp 470-83-Iol 2 For
+470 Q1:l65-I4
+1.050
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Modules/INPUT-PRE-AMPS/M470/19xx - M470 - DOC - WBSps.ca -2021-3-15-19-3-51.jpg",
+ "sha256": "f97d417823fd7072c3e6e015e573423c0cd855f917ca3d0659a4ed91f536f0c3",
+ "kind": "doc",
+ "models": [
+  "M470"
+ ],
+ "pages": 1
+}
+```

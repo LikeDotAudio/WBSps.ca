@@ -1,0 +1,66 @@
+# 19xx - DOC - WEE LEGEND CROSSPOINT CROSSPOINT NORMALLY OFF SWITCHED.jpg
+Wiki page: [Documents](../../../PAGES/Documents.md)
+
+
+- **Year:** unknown (unknown)
+- **Type:** document scan
+- **About:** microCOM
+
+## Text recovered by OCR
+
+> WeE LEGEND: CROSSPOINT CROSSPOINT NORMALLY OFF, SWITCHED ON NORMALLY ON, SWiTCHED M8548 MATRIX AMPLIFIER (48 INPUTS OUTPUTS) ULTAINcUTI 600 Ohms MB512 BUFFER AMPLIFIER (12 SECTIONS) 485i2 M85+8 Uea TFRUA ITRIX OuT utS 600 OHMS ISSUE REMSION WBS WARD-BECK SYSTEMS DRN: WS ENG. 35 CKD; APP SCALE DISC NO: 454 CODE: 94011F01 MACOSTAR 48x48 MicroCOM FUNCTIONAL 940011-01 001 ISSUE
+- **Original file:** `WBSps.env/PUBLIC/RECENT SCANS/WBSps.ca 20210317 - Large pile of D/2021-3-16-23-37-33.jpg`
+- **SHA-256:** `bde70eaeb82565644e112f617267f8ba972ed28f5cbf29a0dbfd59254892c5aa`
+- **Size:** 23,149,054 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR)
+
+```text
+WeE
+LEGEND:
+CROSSPOINT CROSSPOINT
+NORMALLY OFF, SWITCHED ON NORMALLY ON, SWiTCHED
+M8548 MATRIX AMPLIFIER (48 INPUTS OUTPUTS)
+ULTAINcUTI 600 Ohms
+MB512 BUFFER AMPLIFIER (12 SECTIONS)
+485i2
+M85+8
+Uea
+TFRUA
+ITRIX OuT utS 600 OHMS
+ISSUE
+REMSION
+WBS
+WARD-BECK SYSTEMS
+DRN: WS ENG. 35 CKD; APP SCALE DISC NO: 454 CODE: 94011F01
+MACOSTAR 48x48 MicroCOM FUNCTIONAL 940011-01 001
+ISSUE
+```
+
+## Contents (JSON)
+
+```json
+{
+ "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Large pile of D/19xx - DOC - WEE LEGEND CROSSPOINT CROSSPOINT NORMALLY OFF SWITCHED.jpg",
+ "sha256": "bde70eaeb82565644e112f617267f8ba972ed28f5cbf29a0dbfd59254892c5aa",
+ "kind": "doc",
+ "models": [
+  "microCOM"
+ ],
+ "pages": 1,
+ "order": [
+  {
+   "page": 1,
+   "title_block": [
+    {
+     "title": "Wee Legend Crosspoint Crosspoint Normally Off Switched",
+     "drawn": "WS"
+    }
+   ]
+  }
+ ]
+}
+```

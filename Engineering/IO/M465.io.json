@@ -1,0 +1,67 @@
+{
+ "code": "M465",
+ "series": null,
+ "type": "M465",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "I1",
+   "signal": "Reverb Return Out",
+   "dir": "in",
+   "pos": "I1P",
+   "neg": "I1N",
+   "src_page": 23
+  },
+  {
+   "port": "I2",
+   "signal": "Return Out Direct",
+   "dir": "in",
+   "pos": "I2P",
+   "neg": "I2N",
+   "src_page": 23
+  },
+  {
+   "port": "O1",
+   "signal": "Reverb Send Out",
+   "dir": "out",
+   "pos": "O1P",
+   "neg": "O1N",
+   "src_page": 23
+  }
+ ],
+ "power": [
+  {
+   "rail": "+24V",
+   "volts": 24.0,
+   "supply": "+24V",
+   "ground": "GND",
+   "max_a": null
+  },
+  {
+   "rail": "-5V",
+   "volts": -5.0,
+   "supply": "-5V",
+   "ground": "GND",
+   "max_a": null
+  }
+ ],
+ "logic": [
+  {
+   "signal": "Solo Control",
+   "pin": ""
+  },
+  {
+   "signal": "Control Comhon",
+   "pin": ""
+  }
+ ],
+ "ground": [],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "77abe1824142ec21f5da07ccb598f7de7a755e882fca667e8a4332f3dd4e3356"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."
+}

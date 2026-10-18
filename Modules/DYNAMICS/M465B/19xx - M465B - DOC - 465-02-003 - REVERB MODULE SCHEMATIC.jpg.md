@@ -1,0 +1,293 @@
+# 19xx - M465B - DOC - 465-02-003 - REVERB MODULE SCHEMATIC.jpg
+Wiki page: [Documents](../../../PAGES/Documents.md)
+
+
+- **Year:** unknown (unknown)
+- **Type:** document scan
+- **About:** M465B
+
+## Text recovered by OCR
+
+> TEM PT No DESCRIPTION DIRECT OUT IO4B 2iv ~2iv LEFT OUT Sw|4 PAN ChON Ri3 390 R/4 390 AUDIO INPUT ~I0 dBm FADER 6NSERT) RI7 8-103 ris right OUT Rie Ris 390 Rzo Ri6 390 CHON EXt CTL NEAR (sw |0 RII 5.6 5.6 2 /2 Not USED r2i IS5k M CTL Com Pin-1B Sw 12 RxRs Jsk SoLo PRE Post +24v Y < CTL Com Pin 1B 30LO 4IL re 2k5 022 R23 iSk M swio R 2 4 ISk M sw FB //2 CEVEL FB 27 2k5 R 25 Isk M PRE Sw9 FB r 26 I5k FoSt K5 ISk Sw B FB 3/4 LEVEL Sw Fb R28 ISk M R5 2k5 2 29 ISk CHASSIS Sw 6 F B pre Post R?o iSk M Cri Tip23B R39 +25v 2k5 in4o03 +2iv 2.2 sw 5 Rs i/2 LEVEL Fn 3569 R40 2k2 23i Sk M NOTE : ALL RESISTORSY4 W, 5e AND ALL CAFACiToRS 4F UNLESS OTHERWISE SPECIFIED Sw4 RS/ 0 4 2k5 R32 Sk PN 3569 ISk cR 2 2.LAST COMPONEnT DESIGNATIonS: 46 >cr 4,Q6,R45,swis USE With Pcb# 14-051 _ 22/25 R 42 410< 22/25 PRE Post 25v coM 4003 common 9w3 R34 ISK 284 in4003 2*5 22/25 Sw PA 22/25 R33 R43 I5k CEVEL Swv Pn3645 R44 2k2 R37 IsK M D22_ PE CTL APPER ISSUE DATE REVISION pn3645 25v ER4 In4003 R45 APP 2iV SW /3 PFL 02 Tip3ob reb Isk M WBS WARD-BECK SYSTEMS DRN, ENG, PA CKD: APP SCALE CTL com M465B REVERB MODULE SCHEMATIC 465-02-003 ISSUE To SoLo On switch PFL CTL .022 Rx RAA 2k5
+- **Original file:** `WBSps.env/PUBLIC/RECENT SCANS/WBSps.ca 20210315 - Large dwg - Needs rename /WBSps.ca -2021-3-15-19-3-51 (19).jpg`
+- **SHA-256:** `3ee0a627995255903516e8279a0f6ce63c615a6394c0ef4fabd3923f0affe42e`
+- **Size:** 17,485,437 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 4 words corrected)
+
+```text
+TEM
+PT No
+DESCRIPTION
+DIRECT OUT IO4B
+2iv
+~2iv
+LEFT OUT
+Sw|4 PAN
+ChON
+Ri3 390
+R/4 390
+AUDIO INPUT ~I0 dBm
+FADER 6NSERT)
+RI7
+8-103
+ris
+right OUT
+Rie
+Ris 390
+Rzo
+Ri6 390
+CHON EXt CTL
+NEAR (sw |0
+RII 5.6
+5.6
+2 /2
+Not USED
+r2i IS5k M
+CTL Com Pin-1B
+Sw 12
+RxRs  Jsk
+SoLo
+PRE Post
++24v
+Y <
+CTL Com Pin 1B
+30LO 4IL
+re 2k5
+022 R23 iSk M swio R 2 4 ISk M
+sw FB //2
+LEVEL
+FB
+27 2k5
+R 25 Isk M
+PRE
+Sw9
+FB
+r 26 I5k
+FoSt
+K5
+ISk
+Sw B FB 3/4
+LEVEL
+Sw
+Fb
+R28 ISk M
+R5 2k5
+2 29 ISk
+CHASSIS
+Sw 6
+F B
+pre Post
+R?o iSk M
+Cri
+Tip23B
+R39
++25v
+2k5
+in4o03
++2iv
+2.2
+sw 5 Rs i/2
+LEVEL
+Fn 3569
+R40 2k2
+23i Sk M
+NOTE : ALL RESISTORSY4 W, 5e AND ALL CAPACITORS 4F UNLESS OTHERWISE SPECIFIED
+Sw4
+RS/
+0 4
+2k5
+R32 Sk
+PN 3569
+ISk
+cR 2
+2.LAST COMPONEnT DESIGNATIonS: 46 >cr 4,Q6,R45,swis USE With Pcb# 14-051 _
+22/25
+R 42 410<
+22/25
+PRE Post
+25v coM
+4003
+common
+9w3
+R34 ISK
+284 in4003
+2*5
+22/25
+Sw PA
+22/25
+R33
+R43 I5k
+LEVEL
+Swv
+Pn3645
+R44 2k2
+R37 IsK M
+D22_ PE CTL UPPER ISSUE DATE REVISION
+pn3645
+25v
+ER4 In4003
+R45
+APP
+2iV
+SW /3
+PFL
+02 Tip3ob
+reb Isk M
+WBS WARD-BECK SYSTEMS
+DRN, ENG, PA CKD: APP SCALE
+CTL com
+M465B
+REVERB MODULE SCHEMATIC 465-02-003 ISSUE
+To SoLo On switch
+PFL CTL
+.022
+Rx
+RAA
+2k5
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+TEM
+PT No
+DESCRIPTION
+DIRECT OUT IO4B
+2iv
+~2iv
+LEFT OUT
+Sw|4 PAN
+ChON
+Ri3 390
+R/4 390
+AUDIO INPUT ~I0 dBm
+FADER 6NSERT)
+RI7
+8-103
+ris
+right OUT
+Rie
+Ris 390
+Rzo
+Ri6 390
+CHON EXt CTL
+NEAR (sw |0
+RII 5.6
+5.6
+2 /2
+Not USED
+r2i IS5k M
+CTL Com Pin-1B
+Sw 12
+RxRs  Jsk
+SoLo
+PRE Post
++24v
+Y <
+CTL Com Pin 1B
+30LO 4IL
+re 2k5
+022 R23 iSk M swio R 2 4 ISk M
+sw FB //2
+CEVEL
+FB
+27 2k5
+R 25 Isk M
+PRE
+Sw9
+FB
+r 26 I5k
+FoSt
+K5
+ISk
+Sw B FB 3/4
+LEVEL
+Sw
+Fb
+R28 ISk M
+R5 2k5
+2 29 ISk
+CHASSIS
+Sw 6
+F B
+pre Post
+R?o iSk M
+Cri
+Tip23B
+R39
++25v
+2k5
+in4o03
++2iv
+2.2
+sw 5 Rs i/2
+LEVEL
+Fn 3569
+R40 2k2
+23i Sk M
+NOTE : ALL RESISTORSY4 W, 5e AND ALL CAFACiToRS 4F UNLESS OTHERWISE SPECIFIED
+Sw4
+RS/
+0 4
+2k5
+R32 Sk
+PN 3569
+ISk
+cR 2
+2.LAST COMPONEnT DESIGNATIonS: 46 >cr 4,Q6,R45,swis USE With Pcb# 14-051 _
+22/25
+R 42 410<
+22/25
+PRE Post
+25v coM
+4003
+common
+9w3
+R34 ISK
+284 in4003
+2*5
+22/25
+Sw PA
+22/25
+R33
+R43 I5k
+CEVEL
+Swv
+Pn3645
+R44 2k2
+R37 IsK M
+D22_ PE CTL APPER ISSUE DATE REVISION
+pn3645
+25v
+ER4 In4003
+R45
+APP
+2iV
+SW /3
+PFL
+02 Tip3ob
+reb Isk M
+WBS WARD-BECK SYSTEMS
+DRN, ENG, PA CKD: APP SCALE
+CTL com
+M465B
+REVERB MODULE SCHEMATIC 465-02-003 ISSUE
+To SoLo On switch
+PFL CTL
+.022
+Rx
+RAA
+2k5
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/DYNAMICS/M465B/19xx - M465B - DOC - 465-02-003 - REVERB MODULE SCHEMATIC.jpg","sha256":"3ee0a627995255903516e8279a0f6ce63c615a6394c0ef4fabd3923f0affe42e","kind":"doc","models":["M465B"],"pages":1,"order":[{"page":1,"title_block":[{"number":"465-02-003","type":"schematic","title":"Reverb Module Schematic"}]}],"drawing":{"svg":"_traces/3ee0a62799525590.svg","viewBox":[2000,1306],"rotate":0,"number":"465-02-003","dtype":"02","outlines":"see _traces/3ee0a62799525590.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/3ee0a62799525590.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[1588,65,"DIRECT"],[1584,121,"Left OUT"],[391,149,"Chon"],[1479,174,"390"],[558,177,"FADE F"],[203,182,"IUPUT"],[556,199,"(NeCt)"],[752,193,"08"],[194,311,"Ext CtL"],[472,310,"9w(0"],[1005,375,"HoT"],[1040,375,"USED"],[991,454,"Bre"],[992,467,"PaST"],[1025,537,"Fe/2"],[1388,542,"5wio"],[1109,571,"2k5"],[1101,684,"23"],[1024,714,"FB 4/4"],[1096,749,"245"],[174,796,"Chassis"],[1100,857,"2 45"],[1021,879,"Swv"],[1160,882,"LEVEL"],[1016,896,"R3 1/2"],[1716,921,"RESISTORSYA W, 5% AND"],[1811,934,"LULESS"],[1676,949,"OTHERWISE SPECIFIED"],[239,984,"22/25"],[358,987,"Tok"],[574,984,"22/25"],[1681,989,"26 ,Cr4,"],[1764,986,"6,R45,swis"],[620,1005,"Cohmon"],[990,1002,"PoSt"],[1689,1006,"USC With"],[1771,1008,"Pcb;"],[1839,1008,"051"],[1094,1039,"245"],[234,1049,"22/25"],[569,1056,"22/25"],[471,1144,"2*2"],[1694,1188,"WBS"],[1779,1191,"WARO-BeCk SYSTEMS"],[409,1194,"Tip30B"],[1814,1223,"M465B"],[1220,1242,"Go"],[1774,1241,"REVERB MODULE"],[1189,1258,"Ch CN"],[1564,1253,"PFl"],[1596,1253,"CTL"],[1794,1258,"SCHEMATIC"],[1935,1272,"Is5uve"],[1794,1286,"465-02-003"],[1583,222,"Richt"],[908,363,"E2"]]}}
+```

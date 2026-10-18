@@ -1,0 +1,103 @@
+# 19xx - POD6 - DOC - 405-03-084 - REMOVE ALL BURRS AND GHARP EDGES TOLERANCES.jpg
+Wiki page: [Documents](../../../PAGES/Documents.md)
+
+
+- **Year:** unknown (unknown)
+- **Type:** document scan
+- **About:** POD6
+
+## Text recovered by OCR
+
+> PURCESPEND RAD 0.773 5,363 3.936 2.821 0,300 6.018 REF 12.640 1,020 600 1.020 I20 2.850 0.140 Dia REO"D 0.530 1.538 0.787 574 6.018 4.700 0.788 MATERIAL: CR.S: 0.105 THICK: FINISH: SAND 120 GRIT AND PAINT TEXTURED BROWN (438C) TEXCOTE VINYL: SEE Spot WELD NOTE; POD6_MTG_HOLES(3) REVISION DRG SSUE NOTE. REMOVE ALL BURRS AND GhARP EDGES: TOLERANCES: XX-+/-0.015 XXXE+/-0.005 WBS DRN: DRG ENG. WARD-BECK SYSTEMS M405s BASE SCALE DISC NO:Stso1 CODE: 40584 SSUE 405-03-084
+- **Original file:** `WBSps.env/PUBLIC/RECENT SCANS/WBSps.ca 20210317 - Large pile of D/2021-3-16-19-44-28.jpg`
+- **SHA-256:** `0cf9f884636da35da31640571ee882674dde1d26834b89a472a9f330c6f5fba7`
+- **Size:** 17,395,962 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 1 words corrected)
+
+```text
+PURCESPEND RAD
+0.773
+5,363
+3.936
+2.821
+0,300
+6.018 REF
+12.640
+1,020
+600
+1.020
+I20
+2.850
+0.140 Dia
+REO"D
+0.530
+1.538
+0.787
+574
+6.018
+4.700
+0.788
+MATERIAL: CR.S: 0.105 THICK:
+FINISH: SAND 120 GRIT AND PAINT TEXTURED BROWN (438C) TEXCOTE VINYL: SEE Spot WELD NOTE;
+POD6_MTG_HOLES(3) REVISION
+DRG
+SSUE
+NOTE. REMOVE ALL BURRS AND SHARP EDGES: TOLERANCES: XX-+/-0.015 XXXE+/-0.005
+WBS DRN: DRG ENG.
+WARD-BECK SYSTEMS
+M405s BASE
+SCALE DISC NO:Stso1 CODE: 40584
+SSUE
+405-03-084
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+PURCESPEND RAD
+0.773
+5,363
+3.936
+2.821
+0,300
+6.018 REF
+12.640
+1,020
+600
+1.020
+I20
+2.850
+0.140 Dia
+REO"D
+0.530
+1.538
+0.787
+574
+6.018
+4.700
+0.788
+MATERIAL: CR.S: 0.105 THICK:
+FINISH: SAND 120 GRIT AND PAINT TEXTURED BROWN (438C) TEXCOTE VINYL: SEE Spot WELD NOTE;
+POD6_MTG_HOLES(3) REVISION
+DRG
+SSUE
+NOTE. REMOVE ALL BURRS AND GhARP EDGES: TOLERANCES: XX-+/-0.015 XXXE+/-0.005
+WBS DRN: DRG ENG.
+WARD-BECK SYSTEMS
+M405s BASE
+SCALE DISC NO:Stso1 CODE: 40584
+SSUE
+405-03-084
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"Products/PODS/POD6/19xx - POD6 - DOC - 405-03-084 - REMOVE ALL BURRS AND GHARP EDGES TOLERANCES.jpg","sha256":"0cf9f884636da35da31640571ee882674dde1d26834b89a472a9f330c6f5fba7","kind":"doc","models":["POD6"],"pages":1,"order":[{"page":1,"title_block":[{"number":"405-03-084","type":"wiring","title":"Remove All Burrs And Gharp Edges Tolerances","drawn":"DRG"}]}],"drawing":{"svg":"_traces/0cf9f884636da35d.svg","viewBox":[2000,1295],"rotate":0,"number":"405-03-084","dtype":"03","outlines":"see _traces/0cf9f884636da35d.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/0cf9f884636da35d.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[1205,577,"1850"],[1459,609,"REQ"],[820,753,"0,787"],[154,1074,"MATERIAL:"],[231,1076,"CRS:"],[276,1076,"0.105"],[324,1076,"ThICK,"],[154,1104,"FINISH:"],[209,1106,"SAND 120 GriT AND"],[356,1106,"PAINT"],[209,1121,"TEXTURED BROWN (438C)"],[209,1136,"TEXCOTE VNY"],[331,1136,"SE SpoT WELD NOTE"],[1594,1159,"WBS"],[1701,1161,"WARD-BECK SYSTEMS"],[226,1174,"BURAS"],[285,1170,"ShaRF"],[166,1184,"TOLERA' CES:"],[1764,1201,"M405s"],[1769,1221,"BASE"],[1612,1255,"code;"],[1648,1255,"40548'"],[1746,1256,"405-03-084"]]}}
+```

@@ -1,0 +1,381 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M490D</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../../../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../../../index.html">Index</a><a href="../../../Home.html">Wiki home</a><a href="../../../PAGES/Timeline.html">Timeline</a><a href="../../../search.html">Search</a><a href="../../../status.html">Status</a></div><h1>M490D</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="../../../PAGES/Category-INPUT-PRE-AMPS.html">INPUT-PRE-AMPS</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../../../simulator.html?m=M490D">simulator &amp; front panel</a> · <a href="../../../_packages/M490D.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="../../../PAGES/Year-1978.html">1978|11</a> — title-block date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"APP 2/78" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M490D - schem-490-02-005.pdf</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="../../../PAGES/Year-1978.html">1978|11</a></td>
+</tr>
+<tr>
+<td>Used in jobs</td>
+<td>R1400-R2400-sales</td>
+</tr>
+<tr>
+<td>Variants</td>
+<td><a href="../../../PAGES/M490.html">M490</a>, <a href="../../../PAGES/M490A.html">M490A</a>, <a href="../../../PAGES/M490B.html">M490B</a>, <a href="../../../PAGES/M490C.html">M490C</a>, <a href="../../../PAGES/M490E.html">M490E</a>, <a href="../../../PAGES/M490F.html">M490F</a>, <a href="../../../PAGES/M490G.html">M490G</a>, <a href="../../../PAGES/M490H.html">M490H</a>, <a href="../../../PAGES/M490J.html">M490J</a>, <a href="../../../PAGES/M490K.html">M490K</a>, <a href="../../../PAGES/M490L.html">M490L</a>, <a href="../../../PAGES/M490M.html">M490M</a>, <a href="../../../PAGES/M490N.html">M490N</a>, <a href="../../../PAGES/M490T.html">M490T</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="index.html">Modules/INPUT-PRE-AMPS/M490D</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections and circuit (ideal SPICE model)</h2>
+<p><em>Drawn live from its RTO-144 connections: run the generator, turn the gain, watch the VU. Open the netlist to see how the model is built.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M490D" data-n="" data-cat="INPUT-PRE-AMPS"></div><svg class="wbs-panel" data-m="M490D" data-n="" data-cat="INPUT-PRE-AMPS" role="img" aria-label="M490D front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M490D","title":"","rto":{"code":"M490D","series":null,"type":"M490D - Input","row_count":null,"impedance":{},"note":null,"audio":[{"port":"A1","signal":"Mic in A","dir":"in","pos":"P2-1","neg":"P2-A","pad_pos":"P2-1.A.1.P","pad_neg":"P2-A.A.1.N"},{"port":"A2","signal":"Mic in B","dir":"in","pos":"P2-3","neg":"P2-C","pad_pos":"P2-3.A.2.P","pad_neg":"P2-C.A.2.N"},{"port":"A3","signal":"Left PGRM 1","dir":"io","pos":"P1-1","neg":"P1-2","pad_pos":"P1-1.A.3.P","pad_neg":"P1-2.A.3.N"},{"port":"A4","signal":"Right PGRM 1","dir":"io","pos":"P1-3","neg":"P1-4","pad_pos":"P1-3.A.4.P","pad_neg":"P1-4.A.4.N"},{"port":"B1","signal":"Insert Send","dir":"out","pos":"P2-6","neg":"P2-F","pad_pos":"P2-6.B.1.P","pad_neg":"P2-F.B.1.N"},{"port":"B2","signal":"Insert Return","dir":"in","pos":"P2-7","neg":"P2-H","pad_pos":"P2-7.B.2.P","pad_neg":"P2-H.B.2.N"}],"bus_out":[],"bus_in":[],"power":[{"rail":"VEE-AUDIO","style":"NEW","volts":-25,"max_a":0.2,"supply":"P2-19","ground":"P2-20","link":2},{"rail":"VCC-AUDIO","style":"NEW","volts":25,"max_a":0.2,"supply":"P2-21","ground":"P2-20","link":1}],"jumpers":[{"function":"Insert","designation":"JMP.6.7","from":"P2-6","to":"P2-7"},{"function":"Insert","designation":"JMP.F.H","from":"P2-F","to":"P2-H"}],"logic":[]},"parts":[],"parents":[{"label":"R1400-R2400-sales","href":"#","note":"console / job"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490D/1978%20-%20M490D%20-%20001.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490D/1978%20-%20M490D%20-%20001.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490D/1978 - M490D - 001.jpg" data-size="320" onerror="wbsOff(this)">1978 - M490D - 001.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490D/1978%20-%20M490D%20-%20002.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490D/1978%20-%20M490D%20-%20002.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490D/1978 - M490D - 002.jpg" data-size="320" onerror="wbsOff(this)">1978 - M490D - 002.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490D/1978%20-%20M490D%20-%20490-04-012%20-%20LINE%20INPUT%20MODULE%20FRONT%20PANEL.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M490D/1978%20-%20M490D%20-%20490-04-012%20-%20LINE%20INPUT%20MODULE%20FRONT%20PANEL.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M490D/1978 - M490D - 490-04-012 - LINE INPUT MODULE FRONT PANEL.jpg" data-size="320" onerror="wbsOff(this)">1978 - M490D - 490-04-012 - LINE INPUT MODULE FRONT PANEL.jpg</a><a href="../../../viewer.html?f=Consoles/1990-1999/R1400-R2400%20-%20sales/1990%20-%20R1400%20-%20R2400%20-%20010.jpg"><img loading="lazy" src="../../../Consoles/1990-1999/R1400-R2400%20-%20sales/1990%20-%20R1400%20-%20R2400%20-%20010.jpg" alt="" data-f="Consoles/1990-1999/R1400-R2400 - sales/1990 - R1400 - R2400 - 010.jpg" data-size="320" onerror="wbsOff(this)">1990 - R1400 - R2400 - 010.jpg</a></div>
+
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Year-1978.html">1978|11</a></td>
+<td>title-block date</td>
+<td><code>APP 2/78</code></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490D/1978%20-%20M490D%20-%20schem-490-02-005.pdf">1978 - M490D - schem-490-02-005.pdf</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Physical manual inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Location</th>
+<th>Status</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M490D - schem-490-02-005</td>
+<td></td>
+<td>DUPLICATE</td>
+<td>PDF - Already scanned</td>
+</tr>
+<tr>
+<td>M490D - Input - User Guide</td>
+<td></td>
+<td>DUPLICATE</td>
+<td>SCANNED BUT NEEDS STICHING</td>
+</tr>
+<tr>
+<td>M490D - pinout-490-04-005</td>
+<td></td>
+<td></td>
+<td>PDF - Already scanned</td>
+</tr>
+<tr>
+<td>M490D - Input - User Guide</td>
+<td></td>
+<td></td>
+<td>Recently scanned and stiched by WB</td>
+</tr>
+</tbody>
+</table>
+<h2>Documents (4)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1978|11</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490D/1978%20-%20M490D%20-%20pinout-490-04-005%20%282%29.pdf">1978 - M490D - pinout-490-04-005 (2).pdf</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490D/1978%20-%20M490D%20-%20pinout-490-04-005%20%282%29.pdf.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490D/1978%20-%20M490D%20-%20pinout-490-04-005.pdf">1978 - M490D - pinout-490-04-005.pdf</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490D/1978%20-%20M490D%20-%20pinout-490-04-005.pdf.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490D/1978%20-%20M490D%20-%20schem-490-02-005%20%282%29.pdf">1978 - M490D - schem-490-02-005 (2).pdf</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490D/1978%20-%20M490D%20-%20schem-490-02-005%20%282%29.pdf.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490D/1978%20-%20M490D%20-%20schem-490-02-005.pdf">1978 - M490D - schem-490-02-005.pdf</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490D/1978%20-%20M490D%20-%20schem-490-02-005.pdf.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (3)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1978|11</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490D/1978%20-%20M490D%20-%20001.jpg">1978 - M490D - 001.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490D/1978%20-%20M490D%20-%20001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490D/1978%20-%20M490D%20-%20002.jpg">1978 - M490D - 002.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490D/1978%20-%20M490D%20-%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490D/1978%20-%20M490D%20-%20490-04-012%20-%20LINE%20INPUT%20MODULE%20FRONT%20PANEL.jpg">1978 - M490D - 490-04-012 - LINE INPUT MODULE FRONT PANEL.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490D/1978%20-%20M490D%20-%20490-04-012%20-%20LINE%20INPUT%20MODULE%20FRONT%20PANEL.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Consoles &amp; jobs it is connected to (1)</h2>
+<p><em>Their own drawings name this module.</em></p>
+<table>
+<thead>
+<tr>
+<th>Job</th>
+<th>Year</th>
+<th>Drawing</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R1400-R2400-sales</td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1990-1999/R1400-R2400%20-%20sales/1990%20-%20R1400%20-%20R2400%20-%20010.jpg">1990 - R1400 - R2400 - 010.jpg</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (1)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../viewer.html?f=Products/RTO/RTO-144/19xx%20-%20RTO-144%20-%20Module%20RTO-144%20Jumper%20calculator.xlsx">19xx - RTO-144 - Module RTO-144 Jumper calculator.xlsx</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>Drawings (4)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Drawn by</a></th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>490-02-005</td>
+<td>Crzo Adced</td>
+<td></td>
+<td><a href="../../../PAGES/Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490D/1978%20-%20M490D%20-%20schem-490-02-005.pdf">file</a></td>
+</tr>
+<tr>
+<td>490-04-005</td>
+<td>Internally Connected Connector Rear View</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490D/1978%20-%20M490D%20-%20pinout-490-04-005%20%282%29.pdf">file</a></td>
+</tr>
+<tr>
+<td>490-04-005</td>
+<td>Line Nput Module Connector Rear View Isshe</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490D/1978%20-%20M490D%20-%20pinout-490-04-005.pdf">file</a></td>
+</tr>
+<tr>
+<td>490-04-012</td>
+<td>Line Input Module Front Panel</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M490D/1978%20-%20M490D%20-%20490-04-012%20-%20LINE%20INPUT%20MODULE%20FRONT%20PANEL.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M490D&quot;,
+ &quot;category&quot;: &quot;INPUT-PRE-AMPS&quot;,
+ &quot;year&quot;: 1978,
+ &quot;connections&quot;: {
+  &quot;from&quot;: &quot;RTO-144 sheet&quot;,
+  &quot;inputs&quot;: [
+   &quot;Mic in A&quot;,
+   &quot;Mic in B&quot;,
+   &quot;Insert Return&quot;
+  ],
+  &quot;outputs&quot;: [
+   &quot;Left PGRM 1&quot;,
+   &quot;Right PGRM 1&quot;,
+   &quot;Insert Send&quot;
+  ],
+  &quot;power&quot;: [
+   &quot;VEE-AUDIO&quot;,
+   &quot;VCC-AUDIO&quot;
+  ],
+  &quot;control&quot;: []
+ },
+ &quot;part_of&quot;: [
+  &quot;R1400-R2400-sales&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490D/1978 - M490D - 001.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490D/1978 - M490D - 002.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490D/1978 - M490D - 490-04-012 - LINE INPUT MODULE FRONT PANEL.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490D/1978 - M490D - pinout-490-04-005 (2).pdf&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490D/1978 - M490D - pinout-490-04-005.pdf&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;connections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490D/1978 - M490D - schem-490-02-005 (2).pdf&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M490D/1978 - M490D - schem-490-02-005.pdf&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;title_block&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../../../_catalog/wbs_reels.js" defer></script><script src="../../../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../../../_catalog/libcontrol/libcontrol.css"><script src="../../../_catalog/libcontrol/react.js"></script><script src="../../../_catalog/libcontrol/react-dom.js"></script><script src="../../../_catalog/libcontrol/libcontrol.js"></script><script src="../../../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M490D.md</small></div></article><script src="../../../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

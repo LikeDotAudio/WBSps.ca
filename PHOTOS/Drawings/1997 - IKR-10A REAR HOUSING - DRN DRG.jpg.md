@@ -1,0 +1,148 @@
+# 1997 - IKR-10A REAR HOUSING - DRN DRG.jpg
+Wiki page: [Consoles](../../PAGES/Consoles.md)
+
+
+- **Year:** 1997 (title block date)
+- **Type:** drawing / photo from WBS Photos-1-001
+
+## Title block (found by software, read by eye)
+
+- **Size:** D
+- **Title:** IKR-10A / REAR HOUSING
+- **Date:** 8/97
+- **Drawn:** DRG (8/97)
+- **Confidence:** medium
+
+- **Original file:** `WBSps.env/WBS Photos-1-001/2021-3-16-19-27-49.jpg`
+- **SHA-256:** `118f990632d8448601d5c39a69fd3b10a8db105aedfd69371f2185444b98b947`
+- **Size:** 453,107 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 3 words corrected)
+
+```text
+560 TYP.
+3.399
+0.13 DIA_ REQ'D /SIDE
+0.664
+PITCHES L.000 O0o
+0.830 1,283
+0.290 0.250
+5.283
+6.113
+WELD AND GRIND SMOOTH MATED CORNERS TYP
+0,330 TYP
+0.166 +0.003 DIA. & INSTALL PEM NUT S440-2 FROM INSIDE REQ'D
+13.995
+DETAIL
+10.521
+054
+538
+1.669 2.233 2.286
+465- 232-
+0.123 DIA
+REQ'D
+0.768
+1.000
+0.500 0.384
+DETAIL
+0.100 Dia-CSk TO 0.180DIA REQ D
+5.295
+PITCHES OF 5,000
+10.000
+7.819
+APR98 SSUEIDATE
+ADDED DUAL PCB CONN CUTOUT RE sid
+DRC
+17.480
+NQIES:
+WBS
+WARD-BECK SYSTEMS
+REMOVE ALL BURRS AND SHARP EDGES: TOLERANCES XXX -0.015 XXXX +/-0.005. MATERIAL: ALUMINUM ALLOY 0.080 ThicK: ANISH: CLEAN ANO PAINT  TEXTURED GREY TEXCOTE VINY
+PUNCH 0.562 2 REQ D
+2.250
+DRN, DRC(B/972 ENC: CKD_ APP SCALE Disc NO: Sysoi 1;1 CODE: 7000-038
+IKR-1OA
+REAR HOUSING
+ISSUE
+7000-03-038
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+560 TYP.
+3.399
+0.13 DIA_ REQ'D /SIDE
+0.664
+PITCHES L.000 O0o
+0.830 1,283
+0.290 0.250
+5.283
+6.113
+WELD AND GRIND SMOOTH MATED CORNERS TYP
+0,330 TYP
+0.166 +0.003 DIA. & INSTALL PEM NUT S440-2 FROM INSIDE REQ'D
+13.995
+DETAIL
+10.521
+054
+538
+1.669 2.233 2.286
+465- 232-
+0.123 DIA
+REQ'D
+0.768
+1.000
+0.500 0.384
+DETAIL
+0.100 Dia-CSk TO 0.180DIA REQ D
+5.295
+PITCHES OF 5,000
+10.000
+7.819
+APR98 SSUEIDATE
+AODED DUAL PCB CONN CUTOUT RE sid
+DRC
+17.480
+NQIES:
+WBS
+WARD-BECK SYSTEMS
+REMOVE ALL BURRS AND SHARP EDGES: TCLERANCES XXX -0.015 XXXX +/-0.005. MATERIAL: ALUMINUV ALLOY 0.080 ThicK: ANISH: CLEAN ANO PAINT  TEXTURED GREY TEXCOTE VINY
+PUNCH 0.562 2 REQ D
+2.250
+DRN, DRC(B/972 ENC: CKD_ APP SCALE Disc NO: Sysoi 1;1 CODE: 7000-038
+IKR-1OA
+REAR HOUSING
+ISSUE
+7000-03-038
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{
+ "file": "PHOTOS/Drawings/1997 - IKR-10A REAR HOUSING - DRN DRG.jpg",
+ "sha256": "118f990632d8448601d5c39a69fd3b10a8db105aedfd69371f2185444b98b947",
+ "kind": "photo",
+ "year": 1997,
+ "pages": 1,
+ "order": [
+  {
+   "page": 1,
+   "title_block": [
+    {
+     "title": "IKR-10A / REAR HOUSING",
+     "date": "8/97",
+     "year": 1997,
+     "drawn": "DRG"
+    }
+   ]
+  }
+ ]
+}
+```

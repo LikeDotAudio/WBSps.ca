@@ -1,0 +1,40 @@
+# 1974 - M463LA - 8-109-06-007 - BOOSTER AMPLIFIER.jpg
+Wiki page: [M463LA](../../../PAGES/M463LA.md)
+
+
+- **Year:** 1974 (module estimate (labelled))
+- **Module:** M463LA
+- **Category:** SUMMING
+- **Module year estimate:** 1974 — labelled "DATE DEC 74" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M463LA - Submaster Module.pdf
+- **Original file:** `WBSps.env/wbsps - website ARCHIVE/WBSPS 2008/RAW SCANS/To Be edited/M463LA - Submaster Module/M463LA - P049 - B8-109-06-007 R.jpg`
+- **SHA-256:** `3f42d2e31391548703b9bd22e1884735a4388bfa7c7857ed24282b6af0276ae3`
+- **Size:** 2,071,738 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR)
+
+```text
+E2 +C2: 33/6  R2 = A7k 6k2 RA Re Gk? R7 I8k
+z2 LF356
+~ClofTp Ciis7p ~RII Jak ~RIs 5/0 Riz 2k Riz 320 ~C3- Iol25
+ES
+5 4
+z2oliecl6- R374k7 E6
+ISSUE DATE
+REVISION
+APP
+WBS
+WARD-BECK SYSTEMS
+DRN: GEB ENG.MRW 4/78 CKD: Rak APP SCALE =
+8 - 109F BOOSTER AMPLIFIER COMPONENT LAYOUT
+ISSUE
+8-109-06-007
+```
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/SUMMING/M463LA/1974 - M463LA - 8-109-06-007 - BOOSTER AMPLIFIER.jpg","sha256":"3f42d2e31391548703b9bd22e1884735a4388bfa7c7857ed24282b6af0276ae3","kind":"module","models":["M463LA"],"year":1974,"pages":1,"order":[{"page":1,"title_block":[{"number":"8-109-06-007","type":"component layout","title":"Booster Amplifier","drawn":"GEB","checked":"RAK","issue":"3"},{"number":"8-109-06-007","type":"component layout","title":"Booster Amplifier Component Layout","drawn":"GEB","checked":"RAK","issue":"8"}]}],"drawing":{"svg":"_traces/3f42d2e313915487.svg","viewBox":[1554,2000],"rotate":0,"number":"8-109-06-007","dtype":"06","outlines":"see _traces/3f42d2e313915487.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[105,450,"E2"],[108,480,"23/"],[53,528,"R2_"],[117,515,"47k"],[115,552,"6k2"],[57,572,"RA"],[54,614,"Ro 4K?"],[115,638,"I8k"],[53,652,"R7"],[65,802,"22"],[34,842,"LF356"],[71,951,"~clofp"],[29,1036,"~RIl JGk"],[26,1079,"~RIs 5/0"],[29,1119,"~Ri2 2k"],[51,1164,"Riz228"],[165,1183,"1ol25"],[115,1200,"C3-"],[113,1275,"ES"],[783,1562,"ISSUE"],[878,1562,"DATE"],[1133,1560,"REVISION"],[1443,1560,"APP"],[105,1620,"E6"],[611,1664,"WBS"],[903,1655,"WARD-BECK"],[1233,1655,"SYSTEMS"],[555,1738,"DRN: GEB"],[1066,1761,"8 ~ 109F"],[555,1785,"ENG.MRW"],[708,1785,"4/78"],[939,1811,"BOOSTER"],[1148,1814,"AMPLIFIER"],[555,1832,"CKD. RaA"],[560,1878,"APP"],[914,1869,"COMPONENT"],[1205,1865,"LAYOUT"],[615,1920,"SCALE"],[1383,1920,"ISSUE"],[950,1958,"8-109-06-007"],[34,501,"FC2:"],[68,1001,"~Ciis7p"],[20,1521,"22olec16 -"],[0,1585,"~R374k7"]]}}
+```

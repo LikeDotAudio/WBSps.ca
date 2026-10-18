@@ -1,0 +1,1 @@
+window.WBS_FOLDER={"d":"Products/MICRO SERIES/microAMP","f":[["2015 - microAMP - Information Sheet.jpg","40693e2f7b31a6b63dfd"],["2015 - microAMP - Manual.docx","2408bdeff8e4eccfb194"],["2015 - microAMP - microAMP_110 Three Quarter.jpg","e7353cb9d6c092bf4fbf"]]};

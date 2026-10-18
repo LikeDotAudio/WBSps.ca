@@ -1,0 +1,243 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>POD33 — AES DARS Tone Generator</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../../../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../../../index.html">Index</a><a href="../../../Home.html">Wiki home</a><a href="../../../PAGES/Timeline.html">Timeline</a><a href="../../../search.html">Search</a><a href="../../../status.html">Status</a></div><h1>POD33 — AES DARS Tone Generator</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>product</td>
+</tr>
+<tr>
+<td>Series</td>
+<td><a href="../../../PAGES/Series-PODS.html">PODS</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../../../simulator.html?m=POD33">simulator &amp; front panel</a> · <a href="../../../_packages/POD33.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="../../../PAGES/Year-2017.html">2017|50</a> — month &amp; year</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"Mar.07 2017" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD33 MANUAL(1).docx</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>medium</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="../../../PAGES/Year-2017.html">2017|50</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="index.html">Products/PODS/POD33</a></td>
+</tr>
+</tbody>
+</table><h2>Pictures</h2><div class="thumbs"><a href="../../../viewer.html?f=Products/PODS/POD33/2017%20-%20POD33%20-%20Front%20wrd%20clk.jpg"><img loading="lazy" src="../../../Products/PODS/POD33/2017%20-%20POD33%20-%20Front%20wrd%20clk.jpg" alt="" data-f="Products/PODS/POD33/2017 - POD33 - Front wrd clk.jpg" data-size="320" onerror="wbsOff(this)">2017 - POD33 - Front wrd clk.jpg</a><a href="../../../viewer.html?f=Products/PODS/POD33/2017%20-%20POD33%20-%20Front.jpg"><img loading="lazy" src="../../../Products/PODS/POD33/2017%20-%20POD33%20-%20Front.jpg" alt="" data-f="Products/PODS/POD33/2017 - POD33 - Front.jpg" data-size="320" onerror="wbsOff(this)">2017 - POD33 - Front.jpg</a><a href="../../../viewer.html?f=Products/PODS/POD33/2017%20-%20POD33%20-%20Information%20Sheet.jpg"><img loading="lazy" src="../../../Products/PODS/POD33/2017%20-%20POD33%20-%20Information%20Sheet.jpg" alt="" data-f="Products/PODS/POD33/2017 - POD33 - Information Sheet.jpg" data-size="320" onerror="wbsOff(this)">2017 - POD33 - Information Sheet.jpg</a><a href="../../../viewer.html?f=Products/PODS/POD33/2017%20-%20POD33%20-%20Rear.jpg"><img loading="lazy" src="../../../Products/PODS/POD33/2017%20-%20POD33%20-%20Rear.jpg" alt="" data-f="Products/PODS/POD33/2017 - POD33 - Rear.jpg" data-size="320" onerror="wbsOff(this)">2017 - POD33 - Rear.jpg</a></div>
+<h2>Front panel</h2>
+<p><svg class="wbs-panel solo" data-m="POD33" data-n="AES DARS Tone Generator" data-cat="PODS" role="img" aria-label="POD33 front panel"></svg></p>
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Year-2017.html">2017|50</a></td>
+<td>month &amp; year</td>
+<td><code>Mar.07 2017</code></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD33/2017%20-%20POD33%20-%20MANUAL%20%282%29.docx">2017 - POD33 - MANUAL (2).docx</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-2017.html">2017|50</a></td>
+<td>month &amp; year</td>
+<td><code>Mar.07 2017</code></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD33/2017%20-%20POD33%20-%20MANUAL.docx">2017 - POD33 - MANUAL.docx</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Documents (2)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2017|50</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD33/2017%20-%20POD33%20-%20MANUAL%20%282%29.docx">2017 - POD33 - MANUAL (2).docx</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD33/2017%20-%20POD33%20-%20MANUAL%20%282%29.docx.md">note</a></td>
+</tr>
+<tr>
+<td>2017|50</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD33/2017%20-%20POD33%20-%20MANUAL.docx">2017 - POD33 - MANUAL.docx</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD33/2017%20-%20POD33%20-%20MANUAL.docx.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (4)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2017|50</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD33/2017%20-%20POD33%20-%20Front%20wrd%20clk.jpg">2017 - POD33 - Front wrd clk.jpg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD33/2017%20-%20POD33%20-%20Front%20wrd%20clk.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>2017|50</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD33/2017%20-%20POD33%20-%20Front.jpg">2017 - POD33 - Front.jpg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD33/2017%20-%20POD33%20-%20Front.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>2017|50</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD33/2017%20-%20POD33%20-%20Information%20Sheet.jpg">2017 - POD33 - Information Sheet.jpg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD33/2017%20-%20POD33%20-%20Information%20Sheet.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>2017|50</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD33/2017%20-%20POD33%20-%20Rear.jpg">2017 - POD33 - Rear.jpg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD33/2017%20-%20POD33%20-%20Rear.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="../../../PAGES/Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>Specifications (2)</h3>
+<details><summary>Specifications — 146 words · 2017 - POD33 - MANUAL.docx, page 1</summary><p>AES REFERENCE INPUT Input Impedance AES/EBU 75Ω unbalanced AES/EBU 110Ω transformer balanced Sampling Frequency 32, 44.1, 48 or 96 kHz Level 0.2-7.0 Vp-p</p><p>VIDEO REFERENCE INPUT Input Impedance 75Ω unbalanced Sampling Frequency  48kHz Video Format NTSC or PAL Level 1.0 Vp-p</p><p>AES OUTPUT Resolution 24 bits Output Standard AES/EBU 75Ω unbalanced AES/EBU 110 Ohm transformer balanced Sampling Frequency (Video) 48 kHz Sampling Frequency (Audio) 32, 44.1, 48 or 96 kHz Jitter less than 5 ns Level 1 Vp-p 75Ω terminated 3.0 Vp-p 110Ω terminated</p><p>WORD CLOCK Output Standard AES/EBU 75Ω unbalanced AES/EBU 110Ω transformer balanced Sampling Frequency (Video) 48 kHz Sampling Frequency (AES In or Internal) 32, 44.1, 48 or 96 kHz Level 1 Vp-p 75Ω terminated 3.0 Vp-p 110Ω terminated</p><p>GENERAL Power Requirements 100-240 VAC,50-60Hz Dimensions 8.69&quot; wide x 1.73&quot; high x 7.0&quot; deep (221mm x 44mm x 178 mm) Weight 3.01 lbs (1.37 kg)</p><p class="bp">Also: <a href="../../../PAGES/Boilerplate.html#bp-d598fd57bc8328e0">specs boilerplate (56 devices)</a></p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Products/PODS/POD33/2017%20-%20POD33%20-%20MANUAL.docx">2017 - POD33 - MANUAL.docx</a>, p. 1</li>
+<li>also in: <a href="../../../viewer.html?f=Products/PODS/POD33/2017%20-%20POD33%20-%20MANUAL%20%282%29.docx">2017 - POD33 - MANUAL (2).docx</a>, p. 1</li>
+</ul>
+<h3>Operation (4)</h3>
+<details><summary>Operation — 610 words · 2017 - POD33 - MANUAL.docx, page 1</summary><p>When the unit is first powered on the read-out displays Pod 33  VXXX. (VXXX is the operational software version identification and should be noted when calling the factory for technical assistance)  After a brief period the default status display appears which shows the levels for the A and B channels of the AES 1 signal.</p><p>The SELECT control allows you to scroll through the four DARS outputs (AES 1 to AES4) and display the settings for that output.  For example AES 2 is selected and the readout shows AES2  A/B   -20/-10. This means that on the AES2 reference output the level of the A channel is set to -20dBFS and the level of the B channel is set to -10 dBFS.  To view the frequency settings for the AES 2 output push the ADJUST knob once. The readout should change to display the frequency settings for AES 2.  For example if the display reads AES2  A/B   1k/400 it means that the A channel is set to 1 kHz frequency and the B channel is set to 400 Hz frequency. Output Level and Frequency Adjust</p><p>The output level of the AES signals can be adjusted individually over a range from digital full scale, 0dBFS, to digital silence, OFF.  Incremental adjustment can be made in 1 dB steps in the range from  0 to -30dBFS and in 10 dB steps in the range from -30 to -60dBFS, Digital silence (OFF) is the step below -60dBFS. The frequency of the individual outputs may be set to 100 Hz, 400 Hz or 1 kHz.</p><p>To change the level ensure that you are in the level display mode (for example the read-out displays AES2  A/B   -20/-10) press the SELECT knob once and the read-out will show AES2  A  -20dBFS, to change this level rotate the ADJUST knob in either direction to set a new level. Push the SELECT knob once more for the B channel.  If it is desired to change the frequency of the A or B channel push the ADJUST knob.  (Please note that once an individual AES channel is selected pushing the ADJUST knob toggles between level and frequency) Once all the level and frequency adjustments are completed push the SELECT knob to return to A/B status display window.  Rotate the SELECT knob to select another AES output.</p><p>Selecting the Reference Input:</p><p>Press the SELECT and ADJUST knobs simultaneously.  The readout will display one of the following:  Ref  AES, which means that an external AES reference signal is selected Ref   Video 48k, which means that an external NTSC/PAL video black reference signal is selected  Ref   Int  48k, which means that the internal 48 kHz reference is selected Ref   Int  96k, which means that the internal 96 kHz reference is selected</p><p>To select the appropriate reference signal rotate the ADJUST knob.  To exit the reference selection menu rotate the SELECT knob counter-clockwise to display Exit    Setup and push the SELECT knob once.  (Note that if the unit will eventually time out and return to the status display mode if the exit procedure is not executed)</p><p>Setting the Reference Output (AES or Word Clock)</p><p>Press the SELECT and ADJUST knobs simultaneously.  The reference display will appear.  Turn the SELECT knob clockwise and the display will read AES1   AES or AES1  Wrd Clk indicating whether that output is set to deliver an AES or Word Clock signal.  To choose the appropriate signal rotate the ADJUST knob to toggle between the two types of output signal.  Rotate the SELECT knob to scroll through AES outputs 1 to 4.</p><p>Note: When output has been set to deliver a Word Clock signal, its frequency follows the Reference Input</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Products/PODS/POD33/2017%20-%20POD33%20-%20MANUAL.docx">2017 - POD33 - MANUAL.docx</a>, p. 1</li>
+</ul>
+<details><summary>Controls — 128 words · 2017 - POD33 - MANUAL.docx, page 1</summary><p>AND TALLIES</p><p>The operable controls and tallies located on the front panel include: A power ON/OFF switch and green LED that illuminates when the unit is powered up.   Three tallies labeled AES, VIDEO and INTERNAL illuminate to indicate the type of reference that is selected.  If a reference tally is illuminated but flashing it indicates that the selected reference signal is not available.  POD33 will automatically search for and switch to the next available reference signal.  The search hierarchy for reference signals if  AES is selected is AES – VIDEO – INTERNAL.  If VIDEO is selected the search hierarchy is VIDEO – AES – INTERNAL. Two shaft encoder rotary controls labeled SELECT and ADJUST.  Each rotary control has an integral push-push switch A sixteen character LED dot-matrix readout</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Products/PODS/POD33/2017%20-%20POD33%20-%20MANUAL.docx">2017 - POD33 - MANUAL.docx</a>, p. 1</li>
+<li>also in: <a href="../../../viewer.html?f=Products/PODS/POD33/2017%20-%20POD33%20-%20MANUAL%20%282%29.docx">2017 - POD33 - MANUAL (2).docx</a>, p. 1 · <a href="../../../viewer.html?f=Products/PODS/POD33/2017%20-%20POD33%20-%20MANUAL%20%282%29.docx">2017 - POD33 - MANUAL (2).docx</a>, p. 1</li>
+</ul>
+<h3>Warranty (2)</h3>
+<details><summary>Warranty — 0 words · 2017 - POD33 - MANUAL.docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="../../../PAGES/Boilerplate.html#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Products/PODS/POD33/2017%20-%20POD33%20-%20MANUAL.docx">2017 - POD33 - MANUAL.docx</a>, p. 1</li>
+</ul>
+<details><summary>Warranty — 0 words · 2017 - POD33 - MANUAL (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="../../../PAGES/Boilerplate.html#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Products/PODS/POD33/2017%20-%20POD33%20-%20MANUAL%20%282%29.docx">2017 - POD33 - MANUAL (2).docx</a>, p. 1</li>
+</ul>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;POD33&quot;,
+ &quot;name&quot;: &quot;AES DARS Tone Generator&quot;,
+ &quot;category&quot;: &quot;PODS&quot;,
+ &quot;year&quot;: 2017,
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD33/2017 - POD33 - Front wrd clk.jpg&quot;,
+   &quot;year&quot;: 2017,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD33/2017 - POD33 - Front.jpg&quot;,
+   &quot;year&quot;: 2017,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD33/2017 - POD33 - Information Sheet.jpg&quot;,
+   &quot;year&quot;: 2017,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD33/2017 - POD33 - MANUAL (2).docx&quot;,
+   &quot;year&quot;: 2017,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD33/2017 - POD33 - MANUAL.docx&quot;,
+   &quot;year&quot;: 2017,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD33/2017 - POD33 - Rear.jpg&quot;,
+   &quot;year&quot;: 2017,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  }
+ ]
+}</pre></details><script src="../../../_catalog/wbs_reels.js" defer></script><script src="../../../_catalog/wbs_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from POD33.md</small></div></article><script src="../../../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

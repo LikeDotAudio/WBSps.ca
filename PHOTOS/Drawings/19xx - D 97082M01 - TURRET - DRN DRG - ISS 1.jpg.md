@@ -1,0 +1,182 @@
+# 19xx - D 97082M01 - TURRET - DRN DRG - ISS 1.jpg
+Wiki page: [Consoles](../../PAGES/Consoles.md)
+
+
+- **Year:** unknown (title block (read by eye))
+- **Type:** drawing / photo from WBS Photos-1-001
+
+## Title block (found by software, read by eye)
+
+- **Drawing:** D 97082M01
+- **Size:** D
+- **Title:** TURRET
+- **Drawn:** DRG
+- **Issue:** 1
+- **Confidence:** high
+
+- **Original file:** `WBSps.env/WBS Photos-1-001/2021-3-16-22-22-22.jpg`
+- **SHA-256:** `65fb6b92c45e823a9c718ed4c9eca168195ed1b36054aa2ee5c0bf8d1a29133f`
+- **Size:** 456,004 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 4 words corrected)
+
+```text
+850
+DETAIL
+NOMOB
+'{91887 SIA4O" INSERT QTREQ SIDE
+500
+000
+JOO
+1.0d0
+3.295
+0.500
+1.00
+1330
+5.380
+6.380
+854
+526d
+92 /
+0.130 DIA
+PUNCH 0.360 2.767
+04-40 RE36 "PEW! PiA INSERT FROV_THIS SIDE T0= REQ'D
+Ooo
+0.500
+0.376
+808
+390 DIA
+REQ'D
+RADIUS(0.04-0.06) BOTTCV /SIDE CORNERS(4)
+0.750 Dia
+REQ"D
+4.880
+4,250
+2.900
+1.300
+0.468
+0.234
+4OUNC PLACES
+0.950
+750
+PITCHES OF 1.900
+3.800
+0.710 1.420
+0.844
+1.688
+MATERIAL:    ALUM ALLOY 0.100 THICK.
+FINISH: SAND 120 GRIT AND PAINT TEXTURED   BEIGE (452C) TEXCOTE VINYL
+SSUE
+REVISION
+400
+WBS
+WARD-BECK SYSTEMS
+0.850
+0.800
+NOTE, REMOVE ALL BURRS AND SHARP EDGES: TOLERANCES: 7al/_0.015 XXX= /-0.005 USE WTH: SW MTG ANGLE 89576 REQ"D FOR SILKSCREEN  SEE: 097082401
+DRN; DRG ENG CKD APP SCALE DISC NO= SYso1 CODE: 97082m01
+BOTTOM
+TURRET
+DETAIL
+3.650
+1.900
+0.390 REQIG
+ISSUE
+97082m01
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+850
+DETAIL
+NOMOB
+'{91887 SIA4O" JINSERT QTREQ DSIDE
+500
+000
+JOO
+1.0d0
+3.295
+0.500
+1.00
+1330
+5.380
+6.380
+854
+526d
+92 /
+0.130 DIA
+PUNCH 0.360 2.767
+04-40 RE36 "PEW! PiA INSERT FROV_THIS SIDE T0= REQ'D
+Ooo
+0.500
+0.376
+808
+390 DIA
+REQ'D
+RADIUS(0.04-0.06) BOTTCV /SIDE CORNERS(4)
+0.750 Dia
+REQ"D
+4.880
+4,250
+2.900
+1.300
+0.468
+0.234
+4OUNC PLACES
+0.950
+750
+PITCHES OF 1.900
+3.800
+0.710 1.420
+0.844
+1.688
+MATERIAL:    ALUM ALLOY 0.100 THICK.
+FINISH: SAND 120 GRIT AND PAINT TEXTURED   BEIGE (452C) TEXCOTE VINYL
+SSUE
+REMISION
+400
+WBS
+WARD-BECK SYSTEMS
+0.850
+0.800
+NOTE, REMOVE ALL BURRS AND SHARP EDCES: TOLERANCES: 7al/_0.015 XXX= /-0.005 USE WTH: SW MTG ANGLE 89576 REQ"D FOR SILKSCREEN  SEE: 097082401
+DRN; DRG ENG CKD APP SCALE DISC NO= SYso1 CODE: 97082m01
+BOTTOM
+TURRET
+DETAIL
+3.650
+1.900
+0.390 REQIG
+ISSUE
+97082m01
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{
+ "file": "PHOTOS/Drawings/19xx - D 97082M01 - TURRET - DRN DRG - ISS 1.jpg",
+ "sha256": "65fb6b92c45e823a9c718ed4c9eca168195ed1b36054aa2ee5c0bf8d1a29133f",
+ "kind": "photo",
+ "pages": 1,
+ "order": [
+  {
+   "page": 1,
+   "title_block": [
+    {
+     "number": "D 97082M01",
+     "title": "TURRET",
+     "drawn": "DRG",
+     "issue": "1"
+    }
+   ]
+  }
+ ]
+}
+```

@@ -1,0 +1,216 @@
+# 1975 - B 9314 - 60-10 INPUT TRANSFORMER - DRN D. M'FARLANE.png
+Wiki page: [Consoles](../../PAGES/Consoles.md)
+
+
+- **Year:** 1975 (title block date)
+- **Type:** drawing / photo from WBS Photos-1-001
+
+## Title block (found by software, read by eye)
+
+- **Drawing:** B 9314
+- **Size:** B
+- **Title:** 60-10 INPUT TRANSFORMER
+- **Date:** 28 NOV. 75
+- **Drawn:** D. M'FARLANE
+- **Checked:** KWW
+- **Confidence:** high
+
+- **Original file:** `WBSps.env/WBS Photos-1-001/WBSps.ca - 20210317 11X 17 Scans  (110).png`
+- **SHA-256:** `b5fa0e7d38cd6cc02934ed04c3aca2684b592df154b640ce29ecefdb6e9efb96`
+- **Size:** 1,574,243 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 3 words corrected)
+
+```text
+015 875 477 * 072 *072 125
+SPECIF |CATION
+484 DIA, (GRoMMET)
+PR IMARY :
+1502 #5%
+SECONDARY
+50002 +5%
+3 _
+PRI OR SEC. CURRENT:
+NIL
+4 _
+D.C. RES / STANCE:
+10% OF PR / 2, 15% OF SEC
+'062 712 1'015 875
+5 .
+MAX: INSERT/ON Loss
+LESS THAN 0.5dB
+IKHz
+20dBm
+6
+FREQUENCY RESPONSE :
+t0.25dB 30Hz To 20kHz 20dBm DOWN To 70dBm POWER LEVEL
+7 _
+D STORTION
+LESS THAN 0 .25% 30Hz To 20KHz 20dBm DOWN To -80dBm POWER LEVEL
+'062 712
+'425 '750
+8 .
+PHASE SHIFT:
+LESS THAN 100 50Hz To 15KHz 0oc To 60oc
+9
+TEMPERA TURE RANGE :
+FIG: 1
+#4-40 UNC. 26. 2 PLACES _
+10
+TEST VOL TAGE:
+150 VDC
+11
+WIND NG CONF | DURATION
+To GIVE REJECTION To LONG | TUD NAL HUM & No| SE ON PR /
+12 _
+PRI
+SOURCE IMPEDANCE :
+1502
+Brown
+RED
+13
+SEC. LOAD IMPEDANCE :
+>10 TIMES SEC.
+14_
+MOUNTING:
+SEE FIG.
+SEC. 5000 n
+15 _
+CONNECTiOnS :
+6" TEFLON LEADS
+Pri: 150 n
+16 _
+FinISH:
+BLACK ENAMEL
+17.
+MFG NO.
+104549
+ORANGE
+GrEEN
+18 _
+SHIELDING:
+MU METAL CA SE ELECTRO StATiC SHIELD NSULA TED CORE WINDING CONF | GURATI ON
+VIOLET
+FIG 2
+NoTe Core  INSULATED From CASE
+ISS MOD  [CKD
+USED ON
+MATL
+WBS WARD-BECK BYBTEMB DRNON FAZLANE DATE 28 Nov: 75 6O-I0 INPUT TRANSFORMER CKD. KH SCALE TOLS TG B 9714 ISS 
+FINISH
+TRANSTEX 46 250-0 74
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+015 875 477 * 072 *072 125
+SPECIF |CATION
+484 DIA, (GRoMMET)
+PR IMARY :
+1502 #5%
+SECONDARY
+50002 +5%
+3 _
+PRI OR SEC. CURRENT:
+NIL
+4 _
+D.C. RES / STANCE:
+10% OF PR / 2, 15% OF SEC
+'062 712 1'015 875
+5 .
+MAX: INSERT/ON Loss
+LESS THAN 0.5dB
+IKHz
+20dBm
+6
+FREQUENCY RESPONSE :
+t0.25dB 30Hz To 20kHz 20dBm DOWN To 70dBm POWER LEVEL
+7 _
+D STORTION
+LESS THAN 0 .25% 30Hz To 20KHz 20dBm DOWN To -80dBm POWER LEVEL
+'062 712
+'425 '750
+8 .
+PHASE SHIFT:
+LESS THAN 100 50Hz To 15KHz 0oc To 60oc
+9
+TEMPERA TURE RANGE :
+FIG: 1
+#4-40 UNC. 26. 2 PLACES _
+10
+TEST VOL TAGE:
+150 VDC
+11
+WIND NG CONF | GURATION
+To GIVE REJECTION To LONG | TUD NAL HUM & No| SE ON PR /
+12 _
+PRI
+SOURCE IMPEDANCE :
+1502
+Brown
+RED
+13
+SEC. LOAD IMPEDANCE :
+>10 TIMES SEC.
+14_
+MOUNTING:
+SEE FIG.
+SEC. 5000 n
+15 _
+CONNECTiOnS :
+6" TEFLON LEADS
+Pri: 150 n
+16 _
+FinISH:
+BLACK ENAMEL
+17.
+MFG NO.
+104549
+ORANGE
+GrEEN
+18 _
+SHIELDING:
+MU METAL CA SE ELECTRO StATiC SHIELD NSULA TED CORE WINDING CONF | GURATI ON
+VIOLET
+FIG 2
+NoTe Core  INSULATED From CASE
+ISS MOD  [CKD
+USED ON
+MATL
+WBS WARD-BECK BYBTEMB DRNON FAZLANE DATE 28 Nov: 75 6O-I0 INPUT TRANSFOEMER CKD. KH SCALE TOLS TG B 9714 ISS 
+FIMISH
+TRANSTEX 46 250-0 74
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{
+ "file": "PHOTOS/Drawings/1975 - B 9314 - 60-10 INPUT TRANSFORMER - DRN D. M'FARLANE.png",
+ "sha256": "b5fa0e7d38cd6cc02934ed04c3aca2684b592df154b640ce29ecefdb6e9efb96",
+ "kind": "photo",
+ "year": 1975,
+ "pages": 1,
+ "order": [
+  {
+   "page": 1,
+   "title_block": [
+    {
+     "number": "B 9314",
+     "title": "60-10 INPUT TRANSFORMER",
+     "date": "28 NOV. 75",
+     "year": 1975,
+     "drawn": "D MFARLANE",
+     "checked": "KWW"
+    }
+   ]
+  }
+ ]
+}
+```

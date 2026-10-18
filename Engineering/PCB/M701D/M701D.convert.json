@@ -1,0 +1,26 @@
+{
+  "source": "/home/anthony/Documents/GitProjects/WBSps.ca/WBSps.env/WBSps Engineering from H drive/WBSps - M7XX/M703D/TANGO/M701D.PCB",
+  "kicad_pcb": "/home/anthony/Documents/GitProjects/WBSps.ca/2026/Engineering/PCB/M701D/M701D.kicad_pcb",
+  "format": "Tango-PCB PLUS V2.02 Series II",
+  "edge_layer": 14,
+  "tango_layers_used": {
+    "0": 327,
+    "1": 497,
+    "4": 78,
+    "8": 1065,
+    "10": 15,
+    "12": 44,
+    "14": 10,
+    "17": 21
+  },
+  "counts": {
+    "components": 159,
+    "pads": 427,
+    "tracks": 770,
+    "vias": 3,
+    "graphics": 1156,
+    "texts": 116,
+    "pours": 15
+  },
+  "nets": null
+}

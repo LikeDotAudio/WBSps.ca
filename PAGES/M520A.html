@@ -1,0 +1,2351 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M520A</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>M520A</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="Category-INPUT-PRE-AMPS.html">INPUT-PRE-AMPS</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../simulator.html?m=M520A">simulator &amp; front panel</a> · <a href="../_packages/M520A.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="Year-1988.html">1988|21</a> — manual issue date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"MANUAL ISSUE # January 5, 1988" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M520/M520/M520A_Page_02.jpg</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="Year-1988.html">1988|21</a></td>
+</tr>
+<tr>
+<td>Variants</td>
+<td><a href="M520.html">M520</a>, <a href="M520K.html">M520K</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/wbsPS-NOT%20UPLOADED/">DOCUMENTS/wbsPS-NOT UPLOADED</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../Modules/INPUT-PRE-AMPS/M520A/index.html">Modules/INPUT-PRE-AMPS/M520A</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections and circuit (ideal SPICE model)</h2>
+<p><em>Inputs, outputs, power and control as its own documents name them (no RTO-144 sheet for it: pin numbers only where the page gives them). Run the generator, turn the gain, watch the VU.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M520A" data-n="" data-cat="INPUT-PRE-AMPS"></div><svg class="wbs-panel" data-m="M520A" data-n="" data-cat="INPUT-PRE-AMPS" role="img" aria-label="M520A front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M520A","title":"","rto":{"code":"M520A","series":null,"type":"M520A","impedance":{},"audio":[{"port":"I1","signal":"In Oe 5 In","dir":"in","pos":"I1P","neg":"I1N","src_page":29},{"port":"O1","signal":"Eq Insert Out","dir":"out","pos":"O1P","neg":"O1N","src_page":28},{"port":"O2","signal":"E Oulout 4N Monopost Fade Out","dir":"out","pos":"O2P","neg":"O2N","src_page":28}],"power":[{"rail":"+12V","volts":12.0,"supply":"+12V","ground":"COMMON","max_a":null}],"logic":[{"signal":"Pfl","pin":""}],"ground":["COMMON"],"bus_out":[],"bus_in":[],"jumpers":[],"derived":true,"sources":["c0fcea23ae436fb8715a6e97359dcc5fdf63c9eff61c2d5d9a2816de97419faf"],"note":"Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."},"parts":[{"item":"60-12","title":"60-12 / INPUT TRANSFORMER","label":"60-12 60-12 / INPUT TRANSFORMER","href":"Transformers.html#60-12","note":"Input transformers (60-n)"},{"item":"SA14-077","title":"PARTS LIST SA14-077 CONTROL ASSEMBLY","label":"SA14-077 PARTS LIST SA14-077 CONTRO","href":"Register-Circuit-boards-SA14-nnn.html#sa14-077","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-081","title":"Preamplifier Assembly Component Layout","label":"SA14-081 Preamplifier Assembly Comp","href":"Register-Circuit-boards-SA14-nnn.html#sa14-081","note":"Circuit boards (SA14-nnn)"}],"parents":[]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_02.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_02.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_02.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - M520A_Page_02.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3420%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3420%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3420 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3420 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3420.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3420.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3420.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3420.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3421%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3421%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3421 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3421 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3421.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3421.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3421.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3421.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3422%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3422%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3422 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3422 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3422.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3422.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3422.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3422.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3423%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3423%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3423 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3423 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3423.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3423.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3423.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3423.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3424%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3424%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3424 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3424 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3424.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3424.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3424.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3424.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3425%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3425%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3425 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3425 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3425.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3425.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3425.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3425.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3426%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3426%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3426 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3426 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3426.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3426.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3426.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3426.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3427%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3427%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3427 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3427 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3427.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3427.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3427.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3427.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3428.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3428.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3428.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3428.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3431%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3431%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3431 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3431 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3431.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3431.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3431.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3431.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3432%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3432%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3432 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3432 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3432.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3432.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3432.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3432.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3433%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3433%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3433 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3433 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3433.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3433.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3433.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3433.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3435%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3435%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3435 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3435 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3435.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3435.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3435.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3435.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3436%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3436%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3436 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3436 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3436.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3436.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3436.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3436.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3439%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3439%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3439 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3439 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3439.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3439.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3439.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3439.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3440%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3440%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3440 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3440 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3440.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3440.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3440.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3440.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3442%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3442%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3442 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3442 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3442.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3442.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3442.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3442.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3446%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3446%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3446 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3446 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3446.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3446.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3446.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3446.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3449%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3449%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3449 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3449 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3449.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3449.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3449.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3449.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3454%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3454%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3454 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3454 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3454.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3454.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3454.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3454.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3456.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3456.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3456.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3456.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3457%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3457%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3457 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3457 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3457.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3457.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3457.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3457.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3458%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3458%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3458 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3458 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3458.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3458.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3458.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3458.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3459%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3459%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3459 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3459 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3459.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3459.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3459.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3459.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3460%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3460%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3460 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3460 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3460.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3460.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3460.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3460.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3462%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3462%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3462 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3462 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3462.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3462.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3462.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3462.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3463%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3463%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3463 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3463 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3463.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3463.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3463.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3463.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3465%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3465%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3465 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3465 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3465.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3465.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3465.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3465.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3466%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3466%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3466 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3466 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3466.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3466.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3466.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3466.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3468%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3468%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3468 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3468 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3468.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3468.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3468.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3468.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3470%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3470%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3470 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3470 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3470.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3470.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3470.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3470.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3471%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3471%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3471 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3471 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3471.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3471.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3471.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3471.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3473.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3473.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3473.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3473.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3475%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3475%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3475 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3475 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3475.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3475.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3475.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3475.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3476.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3476.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3476.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3476.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3477%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3477%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3477 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3477 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3477.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3477.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3477.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3477.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3478%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3478%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3478 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3478 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3478.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3478.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3478.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3478.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3479%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3479%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3479 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3479 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3479.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3479.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3479.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3479.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3480%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3480%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3480 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3480 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3480.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3480.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3480.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3480.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3481%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3481%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3481 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3481 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3481.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3481.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3481.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3481.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3483%20%282%29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3483%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3483 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3483 (2).jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3483.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3483.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3483.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - IMG_3483.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_01.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_01.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_01.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - M520A_Page_01.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_03.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_03.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_03.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - M520A_Page_03.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_04.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_04.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_04.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - M520A_Page_04.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_05.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_05.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_05.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - M520A_Page_05.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_06.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_06.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_06.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - M520A_Page_06.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_07.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_07.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_07.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - M520A_Page_07.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_08.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_08.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_08.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - M520A_Page_08.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_09.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_09.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_09.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - M520A_Page_09.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_10.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_10.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_10.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - M520A_Page_10.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_11.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_11.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_11.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - M520A_Page_11.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_12.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_12.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_12.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - M520A_Page_12.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_13.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_13.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_13.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - M520A_Page_13.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_14.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_14.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_14.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - M520A_Page_14.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_15.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_15.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_15.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - M520A_Page_15.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_16.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_16.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_16.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - M520A_Page_16.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_17.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_17.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_17.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - M520A_Page_17.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_18.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_18.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_18.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - M520A_Page_18.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_19.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_19.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_19.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - M520A_Page_19.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_20.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_20.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_20.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - M520A_Page_20.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_21.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_21.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_21.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - M520A_Page_21.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_22.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_22.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_22.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - M520A_Page_22.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_23.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_23.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_23.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - M520A_Page_23.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_24.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_24.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_24.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - M520A_Page_24.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_25.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_25.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_25.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - M520A_Page_25.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_26.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_26.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_26.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - M520A_Page_26.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_27.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_27.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_27.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - M520A_Page_27.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_28.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_28.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_28.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - M520A_Page_28.jpg</a><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_29.jpg"><img loading="lazy" src="../Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_29.jpg" data-size="320" onerror="wbsOff(this)">1988 - M520A - M520A_Page_29.jpg</a><a href="../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/19xx%20-%20DOC%20-%20IMG_3381.jpg"><img loading="lazy" src="../DOCUMENTS/wbsPS-NOT%20UPLOADED/19xx%20-%20DOC%20-%20IMG_3381.jpg" alt="" data-f="DOCUMENTS/wbsPS-NOT UPLOADED/19xx - DOC - IMG_3381.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - IMG_3381.jpg</a><a href="../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/19xx%20-%20DOC%20-%20IMG_3441.jpg"><img loading="lazy" src="../DOCUMENTS/wbsPS-NOT%20UPLOADED/19xx%20-%20DOC%20-%20IMG_3441.jpg" alt="" data-f="DOCUMENTS/wbsPS-NOT UPLOADED/19xx - DOC - IMG_3441.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - IMG_3441.jpg</a><a href="../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/19xx%20-%20DOC%20-%20IMG_3443.jpg"><img loading="lazy" src="../DOCUMENTS/wbsPS-NOT%20UPLOADED/19xx%20-%20DOC%20-%20IMG_3443.jpg" alt="" data-f="DOCUMENTS/wbsPS-NOT UPLOADED/19xx - DOC - IMG_3443.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - IMG_3443.jpg</a></div>
+
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-1988.html">1988|21</a></td>
+<td>manual issue date</td>
+<td><code>MANUAL ISSUE # January 5, 1988</code></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_02.jpg">1988 - M520A - M520A_Page_02.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1988.html">1988|21</a></td>
+<td>manual issue date</td>
+<td><code>MANUAL ISSUE #I January 5, 1988</code></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20file.pdf">1988 - M520A - file.pdf</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Physical manual inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Location</th>
+<th>Status</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mono Input Module</td>
+<td>LOOSE BOX</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Documents (1)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20file.pdf">1988 - M520A - file.pdf</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20file.pdf.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (116)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3420%20%282%29.jpg">1988 - M520A - IMG_3420 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3420%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3420.jpg">1988 - M520A - IMG_3420.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3420.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3421%20%282%29.jpg">1988 - M520A - IMG_3421 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3421%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3421.jpg">1988 - M520A - IMG_3421.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3421.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3422%20%282%29.jpg">1988 - M520A - IMG_3422 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3422%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3422.jpg">1988 - M520A - IMG_3422.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3422.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3423%20%282%29.jpg">1988 - M520A - IMG_3423 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3423%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3423.jpg">1988 - M520A - IMG_3423.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3423.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3424%20%282%29.jpg">1988 - M520A - IMG_3424 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3424%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3424.jpg">1988 - M520A - IMG_3424.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3424.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3425%20%282%29.jpg">1988 - M520A - IMG_3425 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3425%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3425.jpg">1988 - M520A - IMG_3425.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3425.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3426%20%282%29.jpg">1988 - M520A - IMG_3426 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3426%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3426.jpg">1988 - M520A - IMG_3426.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3426.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3427%20%282%29.jpg">1988 - M520A - IMG_3427 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3427%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3427.jpg">1988 - M520A - IMG_3427.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3427.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3428.jpg">1988 - M520A - IMG_3428.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3428.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3431%20%282%29.jpg">1988 - M520A - IMG_3431 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3431%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3431.jpg">1988 - M520A - IMG_3431.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3431.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3432%20%282%29.jpg">1988 - M520A - IMG_3432 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3432%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3432.jpg">1988 - M520A - IMG_3432.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3432.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3433%20%282%29.jpg">1988 - M520A - IMG_3433 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3433%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3433.jpg">1988 - M520A - IMG_3433.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3433.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3435%20%282%29.jpg">1988 - M520A - IMG_3435 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3435%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3435.jpg">1988 - M520A - IMG_3435.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3435.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3436%20%282%29.jpg">1988 - M520A - IMG_3436 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3436%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3436.jpg">1988 - M520A - IMG_3436.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3436.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3439%20%282%29.jpg">1988 - M520A - IMG_3439 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3439%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3439.jpg">1988 - M520A - IMG_3439.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3439.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3440%20%282%29.jpg">1988 - M520A - IMG_3440 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3440%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3440.jpg">1988 - M520A - IMG_3440.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3440.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3442%20%282%29.jpg">1988 - M520A - IMG_3442 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3442%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3442.jpg">1988 - M520A - IMG_3442.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3442.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3446%20%282%29.jpg">1988 - M520A - IMG_3446 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3446%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3446.jpg">1988 - M520A - IMG_3446.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3446.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3449%20%282%29.jpg">1988 - M520A - IMG_3449 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3449%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3449.jpg">1988 - M520A - IMG_3449.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3449.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3454%20%282%29.jpg">1988 - M520A - IMG_3454 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3454%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3454.jpg">1988 - M520A - IMG_3454.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3454.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3456.jpg">1988 - M520A - IMG_3456.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3456.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3457%20%282%29.jpg">1988 - M520A - IMG_3457 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3457%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3457.jpg">1988 - M520A - IMG_3457.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3457.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3458%20%282%29.jpg">1988 - M520A - IMG_3458 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3458%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3458.jpg">1988 - M520A - IMG_3458.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3458.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3459%20%282%29.jpg">1988 - M520A - IMG_3459 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3459%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3459.jpg">1988 - M520A - IMG_3459.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3459.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3460%20%282%29.jpg">1988 - M520A - IMG_3460 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3460%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3460.jpg">1988 - M520A - IMG_3460.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3460.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3462%20%282%29.jpg">1988 - M520A - IMG_3462 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3462%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3462.jpg">1988 - M520A - IMG_3462.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3462.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3463%20%282%29.jpg">1988 - M520A - IMG_3463 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3463%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3463.jpg">1988 - M520A - IMG_3463.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3463.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3465%20%282%29.jpg">1988 - M520A - IMG_3465 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3465%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3465.jpg">1988 - M520A - IMG_3465.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3465.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3466%20%282%29.jpg">1988 - M520A - IMG_3466 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3466%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3466.jpg">1988 - M520A - IMG_3466.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3466.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3468%20%282%29.jpg">1988 - M520A - IMG_3468 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3468%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3468.jpg">1988 - M520A - IMG_3468.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3468.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3470%20%282%29.jpg">1988 - M520A - IMG_3470 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3470%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3470.jpg">1988 - M520A - IMG_3470.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3470.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3471%20%282%29.jpg">1988 - M520A - IMG_3471 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3471%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3471.jpg">1988 - M520A - IMG_3471.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3471.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3473.jpg">1988 - M520A - IMG_3473.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3473.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3475%20%282%29.jpg">1988 - M520A - IMG_3475 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3475%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3475.jpg">1988 - M520A - IMG_3475.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3475.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3476.jpg">1988 - M520A - IMG_3476.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3476.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3477%20%282%29.jpg">1988 - M520A - IMG_3477 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3477%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3477.jpg">1988 - M520A - IMG_3477.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3477.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3478%20%282%29.jpg">1988 - M520A - IMG_3478 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3478%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3478.jpg">1988 - M520A - IMG_3478.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3478.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3479%20%282%29.jpg">1988 - M520A - IMG_3479 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3479%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3479.jpg">1988 - M520A - IMG_3479.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3479.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3480%20%282%29.jpg">1988 - M520A - IMG_3480 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3480%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3480.jpg">1988 - M520A - IMG_3480.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3480.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3481%20%282%29.jpg">1988 - M520A - IMG_3481 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3481%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3481.jpg">1988 - M520A - IMG_3481.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3481.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3483%20%282%29.jpg">1988 - M520A - IMG_3483 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3483%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3483.jpg">1988 - M520A - IMG_3483.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20IMG_3483.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_01.jpg">1988 - M520A - M520A_Page_01.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_01.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_02.jpg">1988 - M520A - M520A_Page_02.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_02.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_03.jpg">1988 - M520A - M520A_Page_03.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_03.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_04.jpg">1988 - M520A - M520A_Page_04.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_04.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_05.jpg">1988 - M520A - M520A_Page_05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_06.jpg">1988 - M520A - M520A_Page_06.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_06.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_07.jpg">1988 - M520A - M520A_Page_07.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_07.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_08.jpg">1988 - M520A - M520A_Page_08.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_08.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_09.jpg">1988 - M520A - M520A_Page_09.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_09.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_10.jpg">1988 - M520A - M520A_Page_10.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_10.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_11.jpg">1988 - M520A - M520A_Page_11.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_11.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_12.jpg">1988 - M520A - M520A_Page_12.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_12.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_13.jpg">1988 - M520A - M520A_Page_13.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_13.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_14.jpg">1988 - M520A - M520A_Page_14.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_14.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_15.jpg">1988 - M520A - M520A_Page_15.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_15.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_16.jpg">1988 - M520A - M520A_Page_16.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_16.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_17.jpg">1988 - M520A - M520A_Page_17.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_17.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_18.jpg">1988 - M520A - M520A_Page_18.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_18.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_19.jpg">1988 - M520A - M520A_Page_19.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_19.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_20.jpg">1988 - M520A - M520A_Page_20.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_20.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_21.jpg">1988 - M520A - M520A_Page_21.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_21.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_22.jpg">1988 - M520A - M520A_Page_22.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_22.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_23.jpg">1988 - M520A - M520A_Page_23.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_23.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_24.jpg">1988 - M520A - M520A_Page_24.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_24.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_25.jpg">1988 - M520A - M520A_Page_25.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_25.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_26.jpg">1988 - M520A - M520A_Page_26.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_26.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_27.jpg">1988 - M520A - M520A_Page_27.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_27.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_28.jpg">1988 - M520A - M520A_Page_28.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_28.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_29.jpg">1988 - M520A - M520A_Page_29.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/19xx%20-%20DOC%20-%20IMG_3381.jpg">19xx - DOC - IMG_3381.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/19xx%20-%20DOC%20-%20IMG_3381.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/19xx%20-%20DOC%20-%20IMG_3420.jpg">19xx - DOC - IMG_3420.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/19xx%20-%20DOC%20-%20IMG_3420.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/19xx%20-%20DOC%20-%20IMG_3425.jpg">19xx - DOC - IMG_3425.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/19xx%20-%20DOC%20-%20IMG_3425.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/19xx%20-%20DOC%20-%20IMG_3441.jpg">19xx - DOC - IMG_3441.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/19xx%20-%20DOC%20-%20IMG_3441.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/19xx%20-%20DOC%20-%20IMG_3442.jpg">19xx - DOC - IMG_3442.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/19xx%20-%20DOC%20-%20IMG_3442.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/19xx%20-%20DOC%20-%20IMG_3443.jpg">19xx - DOC - IMG_3443.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/19xx%20-%20DOC%20-%20IMG_3443.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/19xx%20-%20M520A%20-%20DOC%20-%20IMG_3381.jpg">19xx - M520A - DOC - IMG_3381.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/19xx%20-%20M520A%20-%20DOC%20-%20IMG_3381.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/19xx%20-%20M520A%20-%20DOC%20-%20IMG_3441.jpg">19xx - M520A - DOC - IMG_3441.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/19xx%20-%20M520A%20-%20DOC%20-%20IMG_3441.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/19xx%20-%20M520A%20-%20DOC%20-%20IMG_3443.jpg">19xx - M520A - DOC - IMG_3443.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/19xx%20-%20M520A%20-%20DOC%20-%20IMG_3443.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Sub-assemblies &amp; parts used (3)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What</th>
+<th>Family</th>
+<th>Year</th>
+<th>How we know</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Register-Input-transformers-60-n.html#60-12">60-12</a></td>
+<td>60-12 / INPUT TRANSFORMER</td>
+<td>Input transformers (60-n)</td>
+<td>1990|23</td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-077">SA14-077</a></td>
+<td>PARTS LIST SA14-077 CONTROL ASSEMBLY</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-081">SA14-081</a></td>
+<td>Preamplifier Assembly Component Layout</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+</tbody>
+</table>
+<h2>Parts list — board M520A (103 parts)</h2>
+<p><em>From <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_26.jpg">1988 - M520A - M520A_Page_26.jpg</a>, page 1 (scanned); also in <code>timelines/data/bom.csv</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>Part</th>
+<th>Value</th>
+<th>Manufacturer</th>
+<th>Mfr part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M520A</td>
+<td>MONO INPUT MODULE</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>U9</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>U10</td>
+<td>Integrated Circuit National</td>
+<td></td>
+<td></td>
+<td>LM393N</td>
+</tr>
+<tr>
+<td>R25</td>
+<td>Knob (Black ) Elma</td>
+<td></td>
+<td></td>
+<td>021-2225</td>
+</tr>
+<tr>
+<td>R68</td>
+<td>Cap (Black</td>
+<td></td>
+<td></td>
+<td>040-1625</td>
+</tr>
+<tr>
+<td>R135</td>
+<td>Knob (Black )</td>
+<td></td>
+<td></td>
+<td>021-2225</td>
+</tr>
+<tr>
+<td>R136</td>
+<td>Knob (Black )</td>
+<td></td>
+<td></td>
+<td>021-2225</td>
+</tr>
+<tr>
+<td>R137</td>
+<td>Knob (Black )</td>
+<td></td>
+<td></td>
+<td>021-2225</td>
+</tr>
+<tr>
+<td>R138</td>
+<td>Knob (Black )</td>
+<td></td>
+<td></td>
+<td>021-2225</td>
+</tr>
+<tr>
+<td>SW1</td>
+<td>Cap (Black/White)</td>
+<td></td>
+<td></td>
+<td>FA12O-BLK/WHT</td>
+</tr>
+<tr>
+<td>SW2</td>
+<td>(Black/White)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R179</td>
+<td>Resistor 1/4w 15K Philips</td>
+<td>1%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R180</td>
+<td>Resistor 1/4w 47K</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R182</td>
+<td>Resistor 1/4w 15K</td>
+<td>1%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R184</td>
+<td>Resistor 1/4W 1M</td>
+<td>59</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SW5</td>
+<td>2c A/A Pushbutton IxF 2UEE</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SW6</td>
+<td>4c A/A Pushbutton IxF 4UEE</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SW8</td>
+<td>Sw9 6c A/A Pushbutton Assembly WBS</td>
+<td></td>
+<td></td>
+<td>11-133</td>
+</tr>
+<tr>
+<td>SW11</td>
+<td>2c A/A Pushbutton IxF 2UEE</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SW19</td>
+<td>2c MOM Pushbutton Dialco</td>
+<td></td>
+<td></td>
+<td>554-3221</td>
+</tr>
+<tr>
+<td>SW20</td>
+<td>Ic Licon</td>
+<td></td>
+<td></td>
+<td>39-22100</td>
+</tr>
+<tr>
+<td>T1</td>
+<td>Input Transformer Hammond WBS</td>
+<td></td>
+<td></td>
+<td>60-12</td>
+</tr>
+<tr>
+<td>U1</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>U3</td>
+<td>Integrated Circuit Signetics</td>
+<td></td>
+<td></td>
+<td>NE5534N</td>
+</tr>
+<tr>
+<td>R144</td>
+<td>Resistor 1/4w 15K Philips</td>
+<td>1%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R151</td>
+<td>Resistor [4w 4K7</td>
+<td>59</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R153</td>
+<td>ooK</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R156</td>
+<td>Trim Pot Piher PT1OV (2.5)</td>
+<td>20k</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R157</td>
+<td>Resistor 1/4w  59 Philips</td>
+<td>9K1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R175</td>
+<td>Resistor 1/4w %</td>
+<td>15K</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R176</td>
+<td>Resistor 1/4w 33K</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R177</td>
+<td>Resistor 1/4w %</td>
+<td>15K</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R108</td>
+<td>Resistor 1 /4W 15K Philips</td>
+<td>19</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R10G</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R110</td>
+<td>Resistor 1/4W 10K Philips</td>
+<td>59</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>T0</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R119</td>
+<td>Resistor 1/4W 22K Philips</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R125</td>
+<td>Resistor 1/4W 15K</td>
+<td>1%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R127</td>
+<td>Resistor 1/4w 59</td>
+<td>2K4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R13G</td>
+<td>Resistor 1/4w 15K Philips</td>
+<td>1%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R73</td>
+<td>Resistor 1/4w 1K8 Philips</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R76</td>
+<td>Resistor 1/4W %</td>
+<td>15K</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R92</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R93</td>
+<td>Resistor 1/4w 10K</td>
+<td>59</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R95</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R96</td>
+<td>Resistor 1/4w 22K</td>
+<td>57</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R101</td>
+<td>Resistor 1/4W 22K Philips</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R107</td>
+<td>Resistor 1/4w 15K</td>
+<td>1%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R36</td>
+<td>Resistor 1/4W 22K Philips</td>
+<td>59</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R50</td>
+<td>Resistor 1/4W 18K Philips</td>
+<td>59</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R60</td>
+<td>Trim Pot Piher PT1OV (2.5) 20k</td>
+<td>20K</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R61</td>
+<td>Resistor 1/4w 7K5 Philips</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R6Z</td>
+<td>Potentiometer Clarostat WBS</td>
+<td>5K</td>
+<td></td>
+<td>10-047</td>
+</tr>
+<tr>
+<td>R70</td>
+<td>Resistor 1/4W 1K8 Philips</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Q1</td>
+<td>Transistor National</td>
+<td></td>
+<td></td>
+<td>PN3645</td>
+</tr>
+<tr>
+<td>Q12</td>
+<td>TIP29B</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R1</td>
+<td>Resistor 1/4w 220 Philips</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R26</td>
+<td>Resistor 1/4w 3K9 Philips</td>
+<td>59</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R31</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R33</td>
+<td>Resistor 1/4w 5% Philips</td>
+<td>100K</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R34</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C76</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C77</td>
+<td>Capacitor uF/10 Kemet</td>
+<td>4.7</td>
+<td></td>
+<td>T390B475M01OAS</td>
+</tr>
+<tr>
+<td>C78</td>
+<td>uF/100 Sprague</td>
+<td></td>
+<td></td>
+<td>1CTOXZRIO4MOSOB</td>
+</tr>
+<tr>
+<td>CR1</td>
+<td>Diode, Schottky Fairchild</td>
+<td></td>
+<td></td>
+<td>1N5711</td>
+</tr>
+<tr>
+<td>CR2</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>CR4</td>
+<td>Diode Fairchild</td>
+<td></td>
+<td></td>
+<td>1N4148</td>
+</tr>
+<tr>
+<td>CR1L</td>
+<td>Schottky</td>
+<td></td>
+<td></td>
+<td>1N5711</td>
+</tr>
+<tr>
+<td>DS3</td>
+<td>LED Red, Green , Amber Litronix</td>
+<td></td>
+<td></td>
+<td>LD1OO-5s</td>
+</tr>
+<tr>
+<td>DS4</td>
+<td>LED Red Densitron</td>
+<td></td>
+<td></td>
+<td>SRSDI-12-R-12-5</td>
+</tr>
+<tr>
+<td>Q3</td>
+<td>Transistor National</td>
+<td></td>
+<td></td>
+<td>P1086</td>
+</tr>
+<tr>
+<td>C41</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C42</td>
+<td>Capacitor uF/10 V Kemet</td>
+<td>33</td>
+<td></td>
+<td>T3900336M01OAS</td>
+</tr>
+<tr>
+<td>C43</td>
+<td>Lp7 Philips</td>
+<td></td>
+<td></td>
+<td>2222-638-09478</td>
+</tr>
+<tr>
+<td>C45</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C46</td>
+<td>Capacitor uF/25 Kemet</td>
+<td>10</td>
+<td></td>
+<td>T39OC1O6MO25AS</td>
+</tr>
+<tr>
+<td>C49</td>
+<td>uF/100 Sprague</td>
+<td>0.1</td>
+<td></td>
+<td>1C1OXZR1OLMOSOB</td>
+</tr>
+<tr>
+<td>C50</td>
+<td>10' PF Philips</td>
+<td></td>
+<td></td>
+<td>2222-638-10159</td>
+</tr>
+<tr>
+<td>C51</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C53</td>
+<td>Capacitor uF/10 Kemet</td>
+<td>33</td>
+<td></td>
+<td>T3900336M01OAS</td>
+</tr>
+<tr>
+<td>C54</td>
+<td>Lp7 Philips</td>
+<td></td>
+<td></td>
+<td>2222-638-09478</td>
+</tr>
+<tr>
+<td>C56</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C57</td>
+<td>Capacitor uF/25 Kemet</td>
+<td>10</td>
+<td></td>
+<td>T390C106MO25AS</td>
+</tr>
+<tr>
+<td>C63</td>
+<td>uF/25 Phil ips</td>
+<td>22</td>
+<td></td>
+<td>426ETF22</td>
+</tr>
+<tr>
+<td>C67</td>
+<td>uF/100 Sprague</td>
+<td></td>
+<td></td>
+<td>1C1OXZR1O4MOSOB</td>
+</tr>
+<tr>
+<td>C70</td>
+<td>uF/25 Kemet</td>
+<td>10</td>
+<td></td>
+<td>T390C1O6MO25AS</td>
+</tr>
+<tr>
+<td>C73</td>
+<td>4p7 Philips</td>
+<td></td>
+<td></td>
+<td>2222-638-09478</td>
+</tr>
+<tr>
+<td>C75</td>
+<td>uF/1o Kemet</td>
+<td>4.7</td>
+<td></td>
+<td>T390B475M01OAS</td>
+</tr>
+<tr>
+<td>C1</td>
+<td>Capacitor uF/63 Philips</td>
+<td>10</td>
+<td></td>
+<td>035-58109</td>
+</tr>
+<tr>
+<td>C2</td>
+<td>PF Aselco</td>
+<td>0.022</td>
+<td></td>
+<td>ca92-MC-100-223M</td>
+</tr>
+<tr>
+<td>C1L</td>
+<td>Capacitor uF/10 Kemet</td>
+<td>4.7</td>
+<td></td>
+<td>T390B475M010A5</td>
+</tr>
+<tr>
+<td>C15</td>
+<td>uF/100 Sprague</td>
+<td>0.1</td>
+<td></td>
+<td>1C1OXZRIOLMOSOB</td>
+</tr>
+<tr>
+<td>C16</td>
+<td>PF Philips</td>
+<td>10</td>
+<td></td>
+<td>2222-638-10159</td>
+</tr>
+<tr>
+<td>C17</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C19</td>
+<td>Capacitor uF/1o Kemet</td>
+<td>33</td>
+<td></td>
+<td>T390D336M01OAS</td>
+</tr>
+<tr>
+<td>C20</td>
+<td>PF Philips</td>
+<td>47</td>
+<td></td>
+<td>2222-638-70479</td>
+</tr>
+<tr>
+<td>C24</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C25</td>
+<td>Capacitor uF/10 V</td>
+<td>220</td>
+<td></td>
+<td>T390F227M010AS</td>
+</tr>
+<tr>
+<td>C30</td>
+<td>Capacitor uF/1o Kemet</td>
+<td>33</td>
+<td></td>
+<td>T3900336M01OAS</td>
+</tr>
+<tr>
+<td>C32</td>
+<td>pF Philips</td>
+<td>47</td>
+<td></td>
+<td>2222-638-70479</td>
+</tr>
+<tr>
+<td>C36</td>
+<td>uF/10 Kemet</td>
+<td>220</td>
+<td></td>
+<td>T390F 227M01OAS</td>
+</tr>
+<tr>
+<td>C39</td>
+<td>PF Philips</td>
+<td>10</td>
+<td></td>
+<td>2222-638-10159</td>
+</tr>
+<tr>
+<td>C40</td>
+<td>delete</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (4)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M5200A/1985%20-%20M5200A%20-%20002.pdf">1985 - M5200A - 002.pdf</a></td>
+<td>12</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT%20%282%29.docx">1995 - M405P - ITEMIMP(1).TXT (2).docx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT.docx">1995 - M405P - ITEMIMP(1).TXT.docx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP.TXT.docx">1995 - M405P - ITEMIMP.TXT.docx</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>General description (3)</h3>
+<details><summary>Description — 525 words · 1988 - M520A - file.pdf, page 10</summary><p>M52OAMONO INPUT MODULE</p><p>Refer to Module Layout 8520-04-001</p><p>I)   PAN SELECT</p><p>PaD insertion switch SW6 inserts the pan control illto the left and right         output signal paths of the module.</p><p>2)    PA.D         Pad switch SW2 inserts a 20 dB loss pad into the microphone input signal         path. This typically has application when coddensermicrophonesare being         used.</p><p>3)    MIC,/LINE</p><p>Mic/Line selector S\Y3 determides whether the input source daterial will be         from the microphone or froo the line. Whetr the switch is releesed the source         selection is the microphone aod when depressedit is the line.</p><p>4)    AtB         A/B source selector SWI when released selects the &#x27;,A&#x27; source of the Mic         or Line itrput determided by the setting of SW3.Whed depressedarld latched         the &quot;B&quot; Mic or Li[e soutce is selected.</p><p>5)    PHASE</p><p>Phase reversal switch SW4 reverses the phase of audio signal path through         the M520 Input Module wheDdepressed.</p><p>6)    PIIASE REVERSAL INDICATOR</p><p>Phasereversal indicator DS2 illuminates .rhen SW4is depressed.</p><p>7)    PGM/PEAK</p><p>This iadicator DS3 illuminates green whetr rhe tevel of the audio signal at         the module insertion poitrt (prefade) is at o. above the troErinal op;rating         level. The indicator wilt switch to red (overload) when the signat levei         reachesthe poidt where it is approximately22 dB abovethe nominal.</p><p>8)    AUXILIARY ON</p><p>SwitchesSWl2, SWl4, SWl6 and SWIS assignthe audio signat to th€ approp-         riate auxiliary mix bus.</p><p>3-l</p><p>\^/AFIO-BECK AYATEMA           LTD.</p><p>OPERATIONAL</p><p>M52OAMONO INPUT MODULE</p><p>9)    PRE/POST</p><p>SwitchesSWll, SWl3, SWl5 and SWIT connect the associatedAuxiliary to          either the prefade or postfadetake off poitrt.</p><p>IO)   PREFADE LISTEN</p><p>SW5 assigoshe input signal to the prefade listen bus. This takeoff poidt is          before the Channel On and the inlioe mixing attetruator.</p><p>11)   SOLO</p><p>Momentary switch SW20 operates the electronically latching ci.cuitry   for          the solo solid stateswitches(Q5 through Q8).</p><p>,?) suBAssrGN          Selectors SW7 through SWlo assig4 the modules output to atry or all of the          four stereo ldixing buses.</p><p>13)   PAN</p><p>R66 through R69 cotrtrols the panring of the audio signal at the modute          output betweeorhe lef! aDd right mixiDg buses.</p><p>14)   PHANTOM POWERINDICATOR</p><p>DSI illuminates whed the phatrtoErselector is operated.</p><p>15)   PHANTOM POWERSELECT</p><p>SWI on the SAl4-081 Preamplifier Assemblyfeeds 48 volts onto the selected          mic line when depressed.</p><p>\6)   150 Hz HI-PASS</p><p>SW2otr the SAl4-081 Preamplifier Assembtyactivatesthe 150 Hz sectionof          the 12 dB/octave high passfilter.</p><p>11)   7s Hz HI-PASS</p><p>SW3 otr the SAt4-081 Preamplifier Assemblyactivatesthe 75 Hz section of          the l2 dB/octavehigh passfilter.          If SW2 and SW3 are operatedsimultaieously the cut off frequency of the          nlgh ptss trLtershlt ts to 22) Hz.</p><p>WAFIO-EECK      BYATEMA        LTD.</p><p>OPERATIONAL</p><p>M52()A MONO INPUT MODULiI</p><p>l8)   SENS</p><p>Sensitivity control R25 allows the operator to coDtitruouslychange the M520A          preaEplifier gain over a 30 dB range.</p><p>19)   AUXTLIARY - MONO</p><p>Auxiliary level controlsRl37 atrd Rl38 set the level of the audio signalsfed          to the mono auxiliary loixing buses3 aod 4.</p><p>20\    AUXILIARY. STEREO</p><p>Level controlsRl35 atrd R136 set the level of the audio signalsfed to stereo          a u x i l i a r ym i x i n gb u s e sI a n d 2 .</p><p>2r)    CHANNEL ON</p><p>Mometrtary switch SW19operates the elect.olically latching circuitry for the          main chadnelsolid stateswitch (e3 and e4).</p><p>\/VAFID-BECK BYBTEMA           LTO</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20file.pdf">1988 - M520A - file.pdf</a>, p. 10</li>
+</ul>
+<details><summary>Description — 236 words · 1988 - M520A - M520A_Page_10.jpg, page 1</summary><p>M5Z04 MONQ INPUT MODULE Refer to Module Layout B520-04-001 1) PAN SELECT Pan insertion switch SW6 inserts the pan control into the left and right output signal paths of the module: 2) PAD Pad switch SW2 inserts a 20 dB loss pad into the microphone input signal path: This typically has application when condenser microphones are being used: 3) MICLLINE Mic/Line selector SW3 determines whether the input source material will be from the microphone Or from the line.</p><p>When the switch is released the source selection is the microphone and when depressed it is the line. 4) ALB A/B source selector SWI when released selects the &quot;A&quot; source of the Mic or Line input determined by the setting of SW3. When depressed and latched the &quot;B&quot; Mic or Line source is selected. 5) PHASE Phase reversal switch SW4 reverses the phase of audio signal path through the M520 Input Module when depressed.</p><p>PHASE REVERSAL INDICATOR Phase reversal indicator DS2 illuminates when SW4 is depressed. PGMPEAK This indicator DS3 illuminates green when the level of the audio signal at the module insertion point (prefade) is at or above the nominal operating level. The indicator will switch to red (overload) when the signal level reaches the point where it is approximately 22 dB above the nominal_ 8) AUXILIARY ON Switches SW12, SW14, SWI6 and SWI8 assign the audio signal to the approp- riate auxiliary mix bus 3- ]</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_10.jpg">1988 - M520A - M520A_Page_10.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Description — 210 words · 1988 - M520A - M520A_Page_11.jpg, page 1</summary><p>M5ZOA MONQ INPUL MODULE 9) PRELPOSI Switches SWIl, SW13, SW1S and SWI7 connect the associated Auxiliary to either the prefade Or postfade take off point 10) PREFADE LISTEN SWS assigns he input signal to the prefade listen bus. This takeoff point is before the Channel On and the inline mixing attenuator: 11) SOLQ Momentary switch SW2O operates the electronically latching circuitry for the solo solid state switches (Q5 through Q8).</p><p>12) SUBASSIGN Selectors SW7 through SWIO assign the modules output to any or all of the four stereo mixing buses 13) PAN R66 through R6g controls the panning of the audio signal at the module output between the left and right mixing buses 14) PHANTOM POWER INDICATOR DSI illuminates when the phantom selector is operated 15) PHANTQM POWER SELECT SWI on the SA14-081 Preamplifier Assembly feeds 48 volts onto the selected mic line when depressed.</p><p>16) 150 Hz HLPASS SW2 on the SA14-081 Preamplifier Assembly activates the 150 Hz section of the 12 dB/octave high pass filter. 17) 15 Hz HL-PASS SW3 on the SA14-081 Preamplifier Assembly activates the 75 Hz section of the 12 dB/octave high pass filter: If SW2 and SW3 are operated simultaneously the cut off frequency of the high pass filter shifts to 225 Hz.</p><p>3-2</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_11.jpg">1988 - M520A - M520A_Page_11.jpg</a>, p. 1</li>
+</ul>
+<h3>Specifications (3)</h3>
+<details><summary>Technical Data — 606 words · 1988 - M520A - file.pdf, page 7</summary><p>M52()A MONO INPUT MODULE</p><p>Power Requiremetrts:.    +/-25 volts dc,65 mA nomiaal,90 mA maximum.                              +l2V dc, 50 mA.</p><p>Ambieot Temperature:     0 to 60 degreesCelsius.</p><p>Dimensiors:              1.60&quot;wide x 14.t5&quot;high x 6-50&quot;deep                              ( 4 1 m m x 3 6 0 m m x 1 6 5m E ) .</p><p>Weight;                  2 lbs 4 oz (1,02 kg) Det.</p><p>V\/A&#x27;IO.BEtrK     AYATEME        LTO.</p><p>CENERAL</p><p>M52OAMONO INPUT MODULE</p><p>The M520A provides the monophonic input chanDel facitities for the ST series of    StereoTelevisionconsoles.</p><p>The module has a ttansforder coupled input with source selection provided for two    microphoneatrd two line inputs.Phantompower selectionis p.ovided for condenser    microphone applicatiotrs. The microphooe inputs have an additional 20 dB loss pad,    which may be selectedfor applicatiotrs where highe. than normal microphone input    levels are experietrced(such as condensermicrophones).</p><p>The preamplifier has a cottinuously variable sensitivity control coveriDga 30 dB    range. This allows the level of the source material to be optimally set for operat-    ion within the input module. A 12 dB per octave High pass filier is associated    with the preamplifier and allows selections of 75, I5O aDd 250 Hertz for the cut    off frequencies.</p><p>An insert poiDt is provided fotlowing the p.eamplifier for the M522 Mono Equalize..    This equalizer is normally located imloediately above the M520A Input Module on    the ST selies of consoles.</p><p>An actively balanced iltsert point, is also made available for the insert jackfield and    the inline, balaDced,slide mixing attenuator.</p><p>The Prefade Listen function p.ecedes the Channel On selection. This Dermits the    module sourcematerial to be donitored prior to i! being processed                                                                    by thi module.    A Direct Output, prior to bus selectorsand after pan pot, is tnade available on the    module connector. This rday be optionally lsed as direct feeds for multirack appli-    cations or to the inputs of atr external switching system.</p><p>Four stereo pushbutton bus selectorsare provided. The module output may be    selected to any or all of four stereo submaster mixing buses. The bus selectors    are preceded by a Patr control, which allows the operator to position the motro    source as required acrossthe stereo spectrud.</p><p>The Solo fuDction take off point follows the pan control as weil. Therefore when    Sole is sel€cted,the module output is fed to the stereo rionitoring systemin the    same relationship as it is to the consolefirixing buses.</p><p>The Channel Otr and Solo futrctions of the M52OA Input Module are made via solid    stlte FET switches. This provides for very reliable and silent switchinq. The    Channel On and Solo colrtrols may, also be coDtrolled external to the mod;le by    the mixing consolesmicroprocasso.basedcontrol system.</p><p>Fou. Auxiliary outputs are provided,each with a seDaratelcvel control, assignmetrt    switch aod pre/postfade selector.Auxiliaries I and 2 feed stereo buses,while Aux-    iliaries 3 and 4 feed mono buscs.</p><p>\^/AFIO.EECK    BYBTEMA        LTO,</p><p>GENERAL</p><p>M52OAMONO INPUT MODULE</p><p>A mono post fade feed is brought out to the edge connectorfor use with an exrer-    nal challrel assignmodule,</p><p>A LED Programand Overload level indictor monitors the audio level at the insert    point (prefade).The green LED of this two colour indicator illuminates when the    audio level is at or above the nominal operatinglevel of the module (0 dBm). If the    audio level dpproaches  the overloadpoiot thel1the greenindicator extinguishesand    the red indicator illuminates.The overload point is set approximately22 dB above    the insert point operatinglevel.</p><p>The Channel On and Solo cotrtrol functiotrs and tallies, as well as the tallies of    subassignmcnts, input sourceselection,mixing attenuatoractive and prefade funct-    ioDsare all fed to the consolecontrol systemvia the Eodule control assembly.</p><p>The M520A Mono Input Module is packagedin a standardWBSmodutesize of 1.60&#x27;,    wide x 14.15&quot;high x 6.50&quot;deepi</p><p>The module derivesits power from the consolesystembipolar +/-25 volt and 12 vott    power supplies.</p><p>WAFIO-BECK      SYETEMA       LTO.</p><p>OPERATIONAL</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20file.pdf">1988 - M520A - file.pdf</a>, p. 7</li>
+</ul>
+<details><summary>Technical Data — 197 words · 1988 - M520A - M520A_Page_06.jpg, page 1</summary><p>M52A MONQ_ INPUT MODULE Note: Specifications are based on voltage levels of a 600 ohm system unless other- wise specified. Input Sensitivities: Line: Mic Pad: Mic: -15 to +15 dBm (ref. 600 ohm source) -40 to -10 dBm (ref. 150 ohm source). -60 to -30 dBm (ref. 150 ohm source) Frequency Response: +/-0.25 dB from 30 Hz to 20 kHz Noise: Line: Greater than 65 to 85 dB signal to noise ratio for input sensitivities 0f -15 to +15 dB_ -125 dBm EIN at maximum sensitivity (measured over a 20 Hz to 20 kHz bandwidth)_ Mic: Harmonic Distortion: Less than 0.250 from 30 Hz to 20 kHz at +24 dBm output levels or less.</p><p>Less than 0.10 at kHz at +24 dBm output: Source Impedances: Line: Mic: 150/600 ohms, balanced/unbalanced. 150 ohms, balanced unbalanced. Input Impedances: Line: Mic: 20,000 ohms: 750 ohms minimum Output Impedances: Less than 100 ohms at insert and direct outputs Load Impedances: 600 ohms; balanced (at insertion point) 5000 ohms, balanced (at direct output). Output Levels: 0 dBm nominal, +26 dBm maximum_ Phasing: Low number, or numbered  terminals of the input pair is in phase with the similar terminals of the output pair</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_06.jpg">1988 - M520A - M520A_Page_06.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Technical Data — 52 words · 1988 - M520A - M520A_Page_07.jpg, page 1</summary><p>MS204 MONQ INPUT MODULE Power Requirements: +/-25 volts dc, 65 mA nominal; 90 mA maximum_ +12V dc, 50 mA_ Ambient Temperature: 0 to 60 degrees Celsius_ Dimensions: 1.60&quot; wide x 14.15&quot; high x 6.50&quot; deep (41 mm x 360 mm x 165 mm)- Weight: 2 Ibs 4 oz (1.02 kg) net:</p><p>1-2</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_07.jpg">1988 - M520A - M520A_Page_07.jpg</a>, p. 1</li>
+</ul>
+<h3>Circuit description (5)</h3>
+<details><summary>Circuit Description — 1543 words · 1988 - M520A - file.pdf, page 13</summary><p>M52OAMONO INPUT MODULE</p><p>Inputs</p><p>Two microphore atrd two line inputs are provided. The A/B Ilput Setector SWI    selects either the A or the B source for the micropho4e or for the line. SW3 is    the switch which determines whether the MIC or the Line source will be utilized.    Bother SWI and SW3 have setrsecotrtacts which feed the status of these switches    itrfo the control system for the purpose of mute atrd machine control functions.</p><p>48 volt phatrtord power may be simplexed onto the nicrophotre lines through Rlo   and Rll. The pushbuttodselectswitch is part of the SAl4-O8l preampiifier Sub_   assembly.A 20 dB loss pad may bc switched itrto the microphone path by SW2.</p><p>All inputs feed through the itrput tratrsformerTl. The secondaryof Tl is coupled   to the preamplifier circuitry, which is atr integral part of the SAl4-0Bl Subassembly.</p><p>Preamrlifier</p><p>The SAl4-oEl Preamplifier Subassembly    contai     the circuitry for the low noise   preamplifier add the selectableHigh pass filter.</p><p>The PhantomPower selectorswitch is also part of the 5414-061Subassemblv.                                                                          The   red LED indicator DS1 illumitrates when the phantom power is selected.</p><p>The Sensitivity codtrol R25 which is located on the fronr panet of the M52O Input   Module allows for continuous gain adjustment of the preamplifier over a 30 alB   range. Microphotre input lev€ls from -60 dBm to -t0 dBm aDd lide input levels   f.om.15 dBrtr to +15 dBm may be accommodated       for a cotrstantoutput fron thc   M520 Input Module.</p><p>The output f.om the SAl4-081 preamplifier Subassembly    appearsat the equalizer   insert point otr the module connector pl pias 3? atrd 3g. this poiDt is designed   for the M522 Equalizer Module which lday be optiotrally located above and inline   with the Input Module in a cotrsolesystem.</p><p>ProeramChannelSwitch</p><p>FET&#x27;S Q3 and Q4 along r,,&#x27;ith U3 form a solid state switch which controls the   passageof the audio signal to the remainderof the Input Module.</p><p>U3 add U4 with their associatedcofiponents serve as ao actively balanced buffer   amplifie! which feeds the phase Switch SW4 aird then to the balanced insert poitrt   appealitrg at the module connector p2 pitrs I and A.</p><p>The control for the solid state channel switch is derived from the SAl4-077 Logic   Control Subassembly.</p><p>4-l</p><p>\,VAFIO-EIECK BYETEME          LTD</p><p>M52OAMONO INPUT MODULE</p><p>Prefade Listen</p><p>The prefade signal take off point is prior to the programchatrnelswirch. It is fed    th.ough selectorswitch SW5 to the actively balancedbuffer amplifier made up of    UII and its nssociatedcompoDents.   The output from this amplifier is fed through    mixiDg resistorsRl82 and R183, which feeds the prefade listen signal to the mixing    bus via module connectorPl pins 33 and 34.</p><p>A sensecontact on Prelade selectorSW5feeds a tally signal to the SA4-077Logic</p><p>Insert</p><p>The M520A Itrput module insert points provide the meansof connectingexternal    proccssingfacilities illto the signal path. Thesepoints normally contrectto a patch    panel ifltegral to the ST series of consoles.</p><p>The inliDe Penny and Giles baladcedslide mixing attenuator also connectsat the    insert point of the modulecircuitry.</p><p>Prosram Outbut</p><p>The mixing attenuator retutn contrects to P2 pins 5 arld E and thetr to booster    amplifier U5 atrd U6. The boosteramplifier feedsthe direct outputs,the Pan control    R66 and R69 aDd the post fade Auxiliary Bus.The audio signatsfed from the pan    control R66 to R69 and its insertion switch SW6 form a left and.ight stereobus.    The four submasterbus s€lecto.sSW7to SWlo may be assignedas required to the    stereooutputs.The mix bus outputsappearon connectorPl pitrs I to 16.</p><p>Each rrix bus selectoris provided with a contact closuteto feed taUy information    to the SAl4-077Logic Control Subassembly.</p><p>The left and right direct outputs appearat P2 pins 8 aod J, and p2 pins 9 aDd K    respectively,which follow the Pan Control.</p><p>Solo</p><p>The solid state solo switches are fed from the left and right stereo bus at the    Pan colrtrol output.</p><p>FET&#x27;S Q5 ard Q6 along with U7 form a solid stateswitch and butfer amplifier for    the Solo left channel.FET&#x27;S Q7 and Q8 wirh the U8 form the solid state switch    and buffer omplifier for the Solo right channel.</p><p>Mixing rcsistorsRl07 and Rl06 connectto the left Solo Mix bus, while Rl25 and    Rl26 conn€ctto the right SoloMix bus.</p><p>\A/AFD-BECK      EYETEMA       LTtr</p><p>M52OAMONO INPUT MODULE</p><p>The control fo. the Soio solid state switch is dcrived from the sAI4-077 LoSic    CoDtrolSubassembly.</p><p>AuYiliaries</p><p>Four Auxiliary outputs are provided from the M52OA Input Module. Each has a    pre/post fade source selector,a level adjust control and atr assrgnmentselectot.    Auxiiiaries I and 2 feed steteo mix buses,while Auxiliaries 3 and 4 feed mono    mix buses.</p><p>Mono Post Fad€</p><p>The Mono Post Fade appears on Pl pids 47 and 48. It is a direct motro feed to    th€ chan{el assignmentmodule.</p><p>Proeram/Perk Monitor</p><p>A two colour LED DS3 servesa Normal programlevel indicator (itlumiaatesgreed)    ald a Peak level indicator (illumioatesred).</p><p>The audio at the prefade insert point is detected by an averaging add a peak    d-etectidg circuit and compared against a fixed referetrce voltage by compararors    Ul0A and UloB.</p><p>CR6, CR7, R154, R155, C60 and UtoB form the averaging level derecror ano    comparator.Pin I of Ul0B switchesto -18 volts (normally at +lgv) when the    av€rage audio level at the insert point exceeds0 dBm. ell turns on allowiDg    cu.rent to flow through the greenLED of DS3.</p><p>CR4, CR5, RI53, C59 atrd UIOA are the peak tevel detectorand comDarator.pin 7   (normally at +18 volts) switches to -18 volts wheD the peek audio Ievel at the   insert point reachesapproximately+22 dBrn. The result is that e9 is lurneo oo   and Ql0 is turned off illuminating the red LED of DS3 and extinguishingthe green.</p><p>The threshold switch poiDts for the two comparatorsis dete.hi</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20file.pdf">1988 - M520A - file.pdf</a>, p. 13</li>
+</ul>
+<details><summary>Circuit Description — 372 words · 1988 - M520A - M520A_Page_13.jpg, page 1</summary><p>MS2ZA MONQ INPUT MODULE Inputs Two microphone and two line inputs are provided. The A/B Input Selector SWI selects either the or the B source for the microphone Or for the line. SW3 is the switch which determines  whether the MIC Or the Line source will be utilized_ Bother SWI and SW3 have sense contacts which feed the status of these switches into the control system for the purpose of mute and machine control functions.</p><p>48 volt phantom power may be simplexed onto the microphone lines through R1o and RI. The pushbutton select switch is part of the SA14-081 Preamplifier Sub- assembly. 20 dB loss pad may be switched into the microphone path by SW2. All inputs feed through the input transformer TI. The secondary of Tl is coupled to the preamplifier circuitry, Which is an integral part Of the SA14-081 Subassembly.</p><p>Preamplifier The SA14-081 Preamplifier Subassembly contains the circuitry for the low noise preamplifier and the selectable High Pass filter_ The Phantom Power selector switch is also part of the SAl4-081 Subassembly. The fed LED indicator DS] illuminates when the phantom power is selected_ The Sensitivity control R25 which is located on the front panel of the M520 Input Module allows for continuous gain adjustment of the preamplifier over 30 dB range  Microphone input levels from -60 dBm to -10 dBm and line input levels from -15 dBm to +15 dBm may be accommodated for constant output from the M520 Input Module The output from the SAI4-081 Preamplifier Subassembly appears at the equalizer insert point on the module connector Pl pins 37 and 38.</p><p>This point is designed for the M522 Equalizer Module which may be optionally located above and inline with the Input Module in a console system: Progran ChanneL Switch FET s Q3 and Q4 along  with U3 form solid state switch which controls the passage of the audio signal to the remainder of the Input Module. U3 and U4 with their associated components serve as an actively balanced buffer amplifier which feeds the Phase Switch SW4 and then to the balanced insert point appearing at the module connector P2 pins and A The control for the solid state channel switch is derived from the SA14-077 Logic Control Subassembly</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_13.jpg">1988 - M520A - M520A_Page_13.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Circuit Description — 356 words · 1988 - M520A - M520A_Page_14.jpg, page 1</summary><p>M5Z04A MONO_ INPUT MODULE Prefade_Listen The prefade Signal take off point is prior to the program channel switch: It is fed through selector switch SWS to the actively balanced buffer amplifier made up of UIl and its associated components: The output from this amplifier is fed through mixing resistors Rl82 and R183, which feeds the prefade listen signal to the mixing bus via module connector Pl pins 33 and 34.</p><p>sense contact on Prefade selector SWS feeds a tally signal to the SA4-077 Logic Control Subassembly. Insert The MS2OA Input module insert points provide the means of connecting external processing facilities into the signal path: These points normally connect to patch panel integral to the ST series of consoles The inline Penny and Giles balanced slide mixing attenuator also connects at the insert point of the module circuitry.</p><p>Program Qutput The mixing attenuator return connects to P2 pins and E and then to booster amplifier U5 and U6. The booster amplifier feeds the direct outputs, the Pan control R66 and R69 and the post fade Auxiliary Bus The audio signals fed from the Pan control R66 to R69 and its insertion switch SW6 form a left and right stereo bus.</p><p>The four submaster bus selectors SW7 to SW1O may be assigned a5 required to the stereo outputs. The mix bus outputs appear on connector Pl pins to 16. Each mix bus selector is provided with contact closure to feed tally information to the SA14-077 Logic Control Subassembly. The left and right direct outputs appear at P2 pins 8 and J, and P2 pins 9 and K respectively, which follow the Pan Control.</p><p>Solo The solid state solo switches are fed from the left and right stereo bus at the Pan control utput: FET&#x27;s Q5 and Q6 along with U7 form a solid state switch and buffer amplifier for the Solo left channel. FETs Q7 and Q8 with the U&amp; form the solid state switch and buffer amplifier for the Solo right channel Mixing resistors Rl07 and R108 connect to the left Solo Mix bus, while R12S and R126 connect to the right Solo Mix bus_ 4-2</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_14.jpg">1988 - M520A - M520A_Page_14.jpg</a>, p. 1</li>
+<li>also in: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_15.jpg">1988 - M520A - M520A_Page_15.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_16.jpg">1988 - M520A - M520A_Page_16.jpg</a>, p. 1</li>
+</ul>
+<h3>Parts list (text) (6)</h3>
+<details><summary>Parts List — 145 words · 1988 - M520A - M520A_Page_27.jpg, page 1</summary><p>MSZOA MONO INPUT MODULE MISCELLANEOUS COMPONENTS USED ON DESCR PTION MFG MFG PART NUMBER SW3 SW4 SwS SW6 Sw7 Cap (Black/Red ) Grey (Grey (Black/White) (Black Yellow FA12O-BLK/RED FM-GRY FA12O-BLK/WHT FA12O-BLK/YEL Sw8 Sw9 SW1o SW11 SW12 (Black/Yellow (Black/Yellow (Black/Yellow (Black Yellow (Black &#x27;White) FA12O-BLK/YEL FA12O-BLKIYEL FA12O-BLKIYEL FA12O-BLKIYEL FA12O-BLK/WHT SW13 SW14 SW15 SW16 SW17 (Black/Yellow (Black/White) (Black &#x27;Yellow (Black_ &#x27;White (Black/Yellow FA12O-BLK/YEL FA12O-BLK/WHT FA12O-BLK/YEL FA12O-BLK/WHT FA12O-BLK/YEL SW18 SW19 Sw2o (Black/White) (Red) (Black) Switch, Light Pipe Socket Right Angle Pins Transformer Mounting Angle Pin Dip Socket FA12O-BLK/WHT 324-0071 80-390104 80-390100 39-80002 A490-019 Dialco Licon T1 WBS u2-u8 U10-U11 AMP 640463-3 SA14-077 SPACER 2-56 1/2 x 3/16D , Nylon WBS St8X34256N SA14-081 SW1 SW2 SW3 Switch (Red) (Black/Red) (Black/Green) iTT FM-RED FA12O-BLK/RED FA12O-BLK/GRN SPACER 2-56 9/16 3/16D, Nylon WBS ST9X3#256N WBS recommends the use of replacements parts made by the specified manufacturers for continued optimum equipment performance 5-11</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_27.jpg">1988 - M520A - M520A_Page_27.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Parts List — 126 words · 1988 - M520A - M520A_Page_17.jpg, page 1</summary><p>M52OA MONO INPUT MODULE PART DESCRIPT ION MFG MFG PART NUMBER C1 C2 C3 Ch To C13 Capacitor 10 uF/63 0.022 PF 0.022 PF Philips Aselco 035-58109 ca92-MC-100-223M delete C1L C15 C16 C17 C18 Capacitor 4.7 uF/10 0.1 uF/100 10 PF Kemet Sprague Philips T390B475M010A5 1C1OXZRIOLMOSOB 2222-638-10159 delete C19 C2o C21 C22 C23 Capacitor 33 uF/1o 47 PF 47 pF 47 PF 47 pF Kemet Philips T390D336M01OAS 2222-638-70479 C24 C25 C26 C27 To C29 delete Capacitor 220 uF/10 V 220 uF/10 T390F227M010AS delete C30 C31 C32 C33 C34 C35 Capacitor 33 uF/1o 33 uF/10 47 pF 47 pF 47 PF 47 pF Kemet T3900336M01OAS Philips 2222-638-70479 C36 C37 C38 c39 C40 220 uF/10 220 uF/10 uF/10 10 PF Kemet T390F 227M01OAS T390B475M01OAS 2222-638-10159 Philips delete 5-1</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_17.jpg">1988 - M520A - M520A_Page_17.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Parts List — 116 words · 1988 - M520A - M520A_Page_26.jpg, page 1</summary><p>M52OA MONO INPUT MODULE PART DESCRIPT ION MFG MFG PART NUMBER u9 U10 U11 delete Integrated Circuit National LM393N LM833N 77J1 77J2 81J1 Connector, 20 Pin Socket Berg 65780-020 12 Pin Socket 65780-012 MISCELLANEouS COMPONENTS USED ON DESCR PTION MFG MFG PART NUMBER DSI-DS3_ DSS LED Mounting Bracket WBS A91-011 Q12,Q17 Heatsink WBS B520-004 R25 Knob (Black ) Cap (Grey ) Elma 021-2225 040-1615 R66 ) R67) R68 R6g ) Wing Knob (Black) Cap (Black 023-2225 040-1625 R135 Knob (Black ) Cap Black) 021-2225 040-1625 R136 Knob (Black ) Cap (Black) 021-2225 040-1625 R137 Knob (Black ) Cap (Black 021-2225 040-1625 R138 Knob (Black ) Cap (Black) 021-2225 040-1625 SW1 Sw2 Cap (Black/White) (Black/White) FA12O-BLK/WHT 5-10</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_26.jpg">1988 - M520A - M520A_Page_26.jpg</a>, p. 1</li>
+<li>also in: <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_25.jpg">1988 - M520A - M520A_Page_25.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_19.jpg">1988 - M520A - M520A_Page_19.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M520A/1988%20-%20M520A%20-%20M520A_Page_23.jpg">1988 - M520A - M520A_Page_23.jpg</a>, p. 1</li>
+</ul>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M520A&quot;,
+ &quot;category&quot;: &quot;INPUT-PRE-AMPS&quot;,
+ &quot;year&quot;: 1988,
+ &quot;connections&quot;: {
+  &quot;from&quot;: &quot;its own documents&quot;,
+  &quot;inputs&quot;: [
+   &quot;In Oe 5 In&quot;
+  ],
+  &quot;outputs&quot;: [
+   &quot;Eq Insert Out&quot;,
+   &quot;E Oulout 4N Monopost Fade Out&quot;
+  ],
+  &quot;power&quot;: [
+   &quot;+12V&quot;
+  ],
+  &quot;control&quot;: [
+   &quot;Pfl&quot;
+  ]
+ },
+ &quot;made_of&quot;: [
+  &quot;60-12&quot;,
+  &quot;SA14-077&quot;,
+  &quot;SA14-081&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3420 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3420.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3421 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3421.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3422 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3422.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3423 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3423.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3424 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3424.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3425 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3425.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3426 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3426.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3427 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3427.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3428.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3431 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3431.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3432 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3432.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3433 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3433.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3435 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3435.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3436 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3436.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3439 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3439.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3440 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3440.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3442 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3442.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3446 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3446.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3449 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3449.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3454 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3454.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3456.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3457 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3457.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3458 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3458.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3459 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3459.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3460 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3460.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3462 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3462.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3463 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3463.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3465 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3465.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3466 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3466.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3468 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3468.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3470 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3470.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3471 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3471.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3473.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3475 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3475.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3476.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3477 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3477.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3478 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3478.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3479 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3479.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3480 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3480.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3481 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3481.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3483 (2).jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - IMG_3483.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_01.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_02.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_03.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_04.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_05.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_06.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_07.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_08.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_09.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_10.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_11.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_12.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_13.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_14.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_15.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_16.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_17.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_18.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_19.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_20.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_21.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_22.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_23.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_24.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_25.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_26.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_27.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_28.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_29.jpg&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - file.pdf&quot;,
+   &quot;year&quot;: 1988,
+   &quot;pages&quot;: 29,
+   &quot;holds&quot;: [
+    &quot;connections&quot;,
+    &quot;dates&quot;,
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/19xx - M520A - DOC - IMG_3381.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/19xx - M520A - DOC - IMG_3441.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/INPUT-PRE-AMPS/M520A/19xx - M520A - DOC - IMG_3443.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../_catalog/libcontrol/libcontrol.css"><script src="../_catalog/libcontrol/react.js"></script><script src="../_catalog/libcontrol/react-dom.js"></script><script src="../_catalog/libcontrol/libcontrol.js"></script><script src="../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M520A.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

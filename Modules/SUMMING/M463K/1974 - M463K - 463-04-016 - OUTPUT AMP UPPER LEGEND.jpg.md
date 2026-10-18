@@ -1,0 +1,176 @@
+# 1974 - M463K - 463-04-016 - OUTPUT AMP UPPER LEGEND.jpg
+Wiki page: [M463K](../../../PAGES/M463K.md)
+
+
+- **Year:** 1974 (module estimate (labelled))
+- **Module:** M463K
+- **Category:** SUMMING
+- **Module year estimate:** 1974 — labelled "DATE DEC 74" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M463K - Submaster Module/M463K - P046 - B4-141-06-001 R.jpg
+- **Original file:** `WBSps.env/wbsps - website ARCHIVE/WBSPS 2008/RAW SCANS/To Be edited/M463K - Submaster Module/M463K - P040 - B463-04-016 L.jpg`
+- **SHA-256:** `3bab17d9ae74e089c96bcb02689d5ef1dfacd01d6b00e2518472622be205dc93`
+- **Size:** 2,160,208 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 1 words corrected)
+
+```text
+P1
+SUMM ING I NPUT
+A 1
+SUMM NG NPUT
+NC
+B/ 2
+SHIELD
+PA
+3
+PA
+SA2
+D 4
+SA2
+SAI
+E|5
+SAI
+F B4
+F /6
+FB4
+FB3
+HI7
+FB3
+F B2
+J 8
+FB2
+FBI
+Kl9
+FB1
+1C
+Lhio
+IC
+NC
+MMI1
+NC
+SOLO
+NJ12
+SOLO
+NC
+P/1 3
+NC
+BOOS TER In
+R/14
+BOOSTER IN
+NC
+S/151
+NC
+ATT in SHIELD TIE
+Th1g
+ATT IN SHIELD TIE
+DIRECT NPUT
+U/17
+DIRECT
+NPUT
+ATT OUT SHIELD TIE
+V/18
+ATT OUT SH IELD TIE
+IC
+wlig
+IC
+SUB ON OUT
+Xi2o
+SUB On OUT
+SUB ON IN
+Y/21
+SUB ON in
+OUTPUT AMP
+2/22
+OUTPUT AMP
+(UPPER)
+LEGEND
+NC : IC :
+NOt CONNECTED INTERNALLY CONNECTED
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+P1
+SUMM ING I NPUT
+A 1
+SUMM NG NPUT
+NC
+B/ 2
+SHIELD
+PA
+3
+PA
+SA2
+D 4
+SA2
+SAI
+E|5
+SAI
+F B4
+F /6
+FB4
+FB3
+HI7
+FB3
+F B2
+J 8
+FB2
+FBI
+Kl9
+FB1
+1C
+Lhio
+IC
+NC
+MMI1
+NC
+SOLO
+NJ12
+SOLO
+NC
+P/1 3
+NC
+BOOS TER In
+R/14
+BOOSTER IN
+NC
+S/151
+NC
+ATT in SHIELD TIE
+Th1g
+ATT IN SHIELD TIE
+DRECT NPUT
+U/17
+DIRECT
+NPUT
+ATT OUT SHIELD TIE
+V/18
+ATT OUT SH IELD TIE
+IC
+wlig
+IC
+SUB ON OUT
+Xi2o
+SUB On OUT
+SUB ON IN
+Y/21
+SUB ON in
+OUTPUT AMP
+2/22
+OUTPUT AMP
+(UPPER)
+LEGEND
+NC : IC :
+NOt CONNECTED INTERNALLY CONNECTED
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/SUMMING/M463K/1974 - M463K - 463-04-016 - OUTPUT AMP UPPER LEGEND.jpg","sha256":"3bab17d9ae74e089c96bcb02689d5ef1dfacd01d6b00e2518472622be205dc93","kind":"module","models":["M463K"],"year":1974,"pages":1,"order":[{"page":1,"title_block":[{"number":"463-04-016","type":"layout / outline","title":"Output Amp Upper Legend"}],"text":["PI","SUMM /NG INPUT SUMM | NG INPUT","NC B | 2 SHIELD","PA C 3 PA","SA2 SA2","SAI E|5 SAI","FB4 5 FBL","FB3 HI FB3","FB2 Ji8 FB2","FBI Ki9 FBI","1C L/1o IC","NC M NC","SOLO SOLO","NC PII 3 NC","BOOS TER in R/1 BOOSTER IN","NC 5/15 NC","ATT in SHIELD TIE Tig ATT iN SHIELD TIE","DRECT NPUT Uli7/ DIRECT I NPUT","ATT OUT SHIELD TIE vh18 ATT OUt SH IELD TIE","IC Wli9 IC","SUB ON OUT Xl2o SUB On","SUB On in Yi21 SUB On In","OUTPUT AMP 222] OUTPUT AMP","UPPER)","LEGEND","NC : Not CONNECTED","IC : INTERNALLY CONNECTED"]}],"drawing":{"svg":"_traces/3bab17d9ae74e089.svg","viewBox":[1553,2000],"rotate":0,"number":"463-04-016","title":"Output Amp Upper Legend","dtype":"04","outlines":"see _traces/3bab17d9ae74e089.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[529,106,"PI"],[230,172,"SUMM /NG"],[380,172,"INPUT"],[635,172,"SUMM | NG"],[783,172,"INPUT"],[430,235,"NC"],[523,235,"B | 2"],[635,234,"SHIELD"],[430,295,"PA"],[635,295,"PA"],[413,355,"SA2"],[633,355,"SA2"],[413,415,"SAI"],[520,418,"E|5"],[633,418,"SAI"],[410,478,"FB4"],[633,478,"FBL"],[408,540,"FB3"],[518,538,"HI"],[630,540,"FB3"],[410,600,"FB2"],[520,600,"Ji8"],[630,600,"FB2"],[410,660,"FBI"],[518,665,"Ki9"],[633,660,"FBI"],[433,720,"1C"],[520,722,"L/1o"],[633,720,"IC"],[430,782,"NC"],[633,785,"NC"],[393,842,"SOLO"],[630,845,"SOLO"],[430,902,"NC"],[518,905,"PII 3"],[630,905,"NC"],[283,965,"BOOS TER"],[430,965,"in"],[520,965,"R/1"],[630,965,"BOOSTER"],[780,965,"IN"],[428,1025,"NC"],[520,1028,"5/15"],[630,1025,"NC"],[153,1085,"ATT"],[228,1085,"in"],[280,1088,"SHIELD"],[410,1088,"TIE"],[518,1088,"Tig"],[630,1088,"ATT"],[708,1088,"iN"],[760,1088,"SHIELD"],[888,1088,"TIE"],[243,1148,"DRECT"],[393,1148,"NPUT"],[520,1152,"Uli7/"],[630,1148,"DIRECT"],[763,1150,"I NPUT"],[153,1208,"ATT"],[225,1210,"OUT"],[298,1210,"SHIELD TIE"],[520,1212,"vh18"],[630,1210,"ATT"],[703,1210,"OUt"],[778,1210,"SH IELD"],[905,1210,"TIE"],[430,1272,"IC"],[515,1275,"Wli9"],[633,1270,"IC"],[280,1332,"SUB"],[353,1332,"ON"],[408,1332,"OUT"],[518,1332,"Xl2o"],[630,1332,"SUB"],[703,1332,"On"],[300,1392,"SUB"],[370,1392,"On"],[430,1392,"in"],[518,1395,"Yi21"],[630,1392,"SUB"],[703,1392,"On"],[760,1392,"In"],[280,1455,"OUTPUT"],[410,1452,"AMP"],[518,1462,"222]"],[630,1455,"OUTPUT"],[760,1455,"AMP"],[499,1518,"UPPER)"],[130,1642,"LEGEND"],[132,1700,"NC :"],[243,1700,"Not"],[315,1700,"CONNECTED"],[135,1730,"IC :"],[245,1730,"INTERNALLY"],[444,1729,"CONNECTED"]]}}
+```

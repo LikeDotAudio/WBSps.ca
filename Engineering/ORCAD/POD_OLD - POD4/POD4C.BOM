@@ -1,0 +1,35 @@
+POD4 DUAL MICROPHONE PRAMPLIFIER              Revised:   October 20, 1995
+B 14-306-02-001/3                             Revision: 0
+Bill Of Materials             November    9, 1995     10:37:30     Page    1
+
+ Item  Quantity  Reference                 Part      
+______________________________________________________
+
+    1      11    C23,C26,C28,C30,C33,C34,  .1/50V    
+                 C36,C37,C38,C40,C41
+    2       4    C24,C25,C27,C31           47u/50V   
+    3       1    C29                       4700P     
+    4       1    C32                       47u/25V   
+    5       2    C35,C39                   47P       
+    6       1    D4                        FLV 110   
+    7       2    D5,D6                     1N4148    
+    8       1    Q2                        2N3904    
+    9       2    R25,R28                   750 1%    
+   10       2    R26,R27                   100 1%    
+   11       2    R29,R30                   49R9 1%   
+   12       2    R31,R32                   10K 1%    
+   13       1    R33                       1K 'B'    
+   14       2    R34,R35                   51        
+   15       1    R36                       500       
+   16       1    R37                       30        
+   17       1    R38                       15        
+   18       3    R39,R41,R43               100K      
+   19       1    R40                       2K4       
+   20       1    R42                       4k7       
+   21       1    R44                       4K64 1%   
+   22       2    R45,R46                   11K1 1%   
+   23       2    SW 3A,SW 3B               1/2 4CF   
+   24       1    SW 4                      CAL SW    
+   25       1    U6                        SSM2017   
+   26       1    U7                        OPA2604   
+   27       2    U8,U9                     SSM2142   

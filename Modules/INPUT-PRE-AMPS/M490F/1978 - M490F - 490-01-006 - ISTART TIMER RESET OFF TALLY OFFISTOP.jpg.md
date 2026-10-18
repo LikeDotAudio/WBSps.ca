@@ -1,0 +1,120 @@
+# 1978 - M490F - 490-01-006 - ISTART TIMER RESET OFF TALLY OFFISTOP.jpg
+Wiki page: [M490F](../../../PAGES/M490F.md)
+
+
+- **Year:** 1978 (found in this file: "DRAWN 2/78")
+- **Module:** M490F
+- **Category:** INPUT-PRE-AMPS
+- **Module year estimate:** 1978 — labelled "DRAWN 2/78" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M490F - Stereo Input/M490F - 021 - Functional.jpg
+- **Original file:** `WBSps.env/wbsps - website ARCHIVE/WBSPS 2008/WBSPS - To Be edited/M490F - Stereo Input/M490F - 021 - Functional.jpg`
+- **SHA-256:** `a16aa342bf8c1b9c4bf91444c92ac503b3df7b7361f2d04e50c356d5b1051a75`
+- **Size:** 3,516,589 bytes
+- **Pages:** 1
+
+## Dates found in this file
+
+- **1978** (labelled): `DRAWN 2/78` — …oGic ASSIGN CUE Ch On ON TALLY ASSIGN Ch Onx Ch OFFX 2/78 REDRAWN 2/78 MACHINE CONTROLS REVISED ISSUE DATE REVISION ON IsTART TIME…
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 1 words corrected)
+
+```text
+FADER (_15dB) Ch ON
+BAL INSERT BAL
+INSERT
+P1 LEFT
+LEFT
+P2 LEFT
+LEFT
+SENSITIVITY (20dB)
+PRE /Post CUE
+AUX LEFT
+LINE inPUtS ~10 dBml +10 dBm 600 ohm
+CUE LEFT
+ChON
+INSERT
+P1 Right
+RIGHT
+P2 Right
+B RIGHT
+SENSITIVITY (20dB)
+INPUT SELECTOR CONTROL
+AUX Right
+CUE
+Com
+CUE X_
+CUE RIGhT
+ON EXTERNAL CONTROLS OFF CUE
+PGMI CUE CTL LoGic
+ASSIGN
+CUE
+Ch On
+ON TALLY
+ASSIGN
+Ch Onx Ch OFFX
+2/78 REDRAWN 2/78 MACHINE CONTROLS REVISED ISSUE DATE REVISION
+ON START TIMER RESET
+OFF TALLY OFFIsTop
+WBS
+WARD-BECK SYSTEMS
+DRN: GEB ENG.GEB 2/78 CKD: Qs_ APP T1ia SCALE 3
+M49oF STEREO INPUT MODULE FUNCTIONAL DIAGRAM
+ISSUE 3
+490-01-006
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+FADER (_15dB) Ch ON
+BAL INSERT BAL
+INSERT
+P1 LEFT
+LEFT
+P2 LEFT
+LEFT
+SENSITIVITY (20dB)
+PRE /Post CUE
+AUX LEFT
+LINE inPUtS ~10 dBml +10 dBm 600 ohm
+CUE LEFT
+ChON
+INSERT
+P1 Right
+RIGHT
+P2 Right
+B RIGHT
+SENSITIVITY (20dB)
+INPUT SELECTOR CONTROL
+AUX Right
+CUE
+Com
+CUE X_
+CUE RIGhT
+ON EXTERNAL CONTROLS OFF CUE
+PGMI CUE CTL LoGic
+ASSIGN
+CUE
+Ch On
+ON TALLY
+ASSIGN
+Ch Onx Ch OFFX
+2/78 REDRAWN 2/78 MACHINE CONTROLS REVISED ISSUE DATE REVISION
+ON IsTART TIMER RESET
+OFF TALLY OFFIsTop
+WBS
+WARD-BECK SYSTEMS
+DRN: GEB ENG.GEB 2/78 CKD: Qs_ APP T1ia SCALE 3
+M49oF STEREO INPUT MODULE FUNCTIONAL DIAGRAM
+ISSUE 3
+490-01-006
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-01-006 - ISTART TIMER RESET OFF TALLY OFFISTOP.jpg","sha256":"a16aa342bf8c1b9c4bf91444c92ac503b3df7b7361f2d04e50c356d5b1051a75","kind":"module","models":["M490F"],"year":1978,"pages":1,"order":[{"page":1,"title_block":[{"number":"490-01-006","type":"functional / block diagram","title":"Istart Timer Reset Off Tally Offistop","drawn":"GEB","issue":"3"}],"dates":[{"year":1978,"kind":"labelled","text":"DRAWN 2/78"}],"text":["FADER","(_I5dB) Ch ON BAL","INSERT INSERT BAL P1 LEFT","LEFT","P2 LEFT","LEFT","SENSITiVITY AUX","(20dB) PRE /post AUX LEFT","LINE","INPUTS CUE","~10 dBm X","+10 dBm CUE LEFT","600 ohm","Chon","INSERT P1 Right","RIGHT","P2 Right","RIGHT","INPUT SENSITIvITY","SELECTOR (20dB)","CONTROL AUX Right","com CUE","CUE X CUE Right","ON PGmi ASSIGN","OFF CUE","CUE CTL CUE Ch ON ON","ASSIGN TALLY","CH OnX Logic","Ch OFFX","On IsTART 2/78 REDRAWN","TIMER RESET 2/78 MACHINE CONTROLS REVISED","ISSUE DATE REVISION","OFF TALLY","OFFIstop WBS WARD-BECK SYSTEMS","DRN_ GEB M490F","ENG GEB 2 /78 STEREO INPUT MODULE","FUNCTIONAL DIAGRAM","APP","SCALE ISSUE","3 490-01-006"]}],"drawing":{"svg":"_traces/a16aa342bf8c1b9c.svg","viewBox":[2000,1226],"rotate":0,"number":"490-01-006","title":"Istart Timer Reset Off Tally Offistop","dtype":"01","outlines":"see _traces/a16aa342bf8c1b9c.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/a16aa342bf8c1b9c.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","blocks":[[822,318,46,46],[710,430,46,46],[822,632,47,46],[1532,830,62,29],[1594,1136,310,61],[1378,1138,154,61]],"words":[[621,106,"FADER"],[609,129,"(_I5dB)"],[701,129,"Ch ON"],[996,121,"BAL"],[1064,134,"BAL"],[364,141,"INSERT"],[974,141,"INSERT"],[1414,141,"P1 LEFT"],[129,164,"LEFT"],[1414,189,"P2 LEFT"],[131,214,"LEFT"],[472,247,"SENSITiVITY"],[1111,254,"AUX"],[506,271,"(20dB)"],[860,285,"PRE /post"],[1416,281,"AUX LEFT"],[26,296,"LINE"],[14,316,"INPUTS"],[824,316,"CUE"],[6,336,"~10 dBm"],[6,356,"+10 dBm"],[1414,354,"CUE"],[1464,354,"LEFT"],[9,374,"600 ohm"],[701,429,"Chon"],[366,441,"INSERT"],[1416,441,"P1 Right"],[119,461,"RIGHT"],[1414,489,"P2 Right"],[119,511,"RIGHT"],[471,549,"SENSITIvITY"],[64,559,"INPUT"],[41,581,"SELECTOR"],[504,571,"(20dB)"],[46,599,"CONTROL"],[1414,591,"AUX Right"],[826,629,"CUE"],[134,644,"com"],[430,665,"CUE X"],[1416,666,"CUE Right"],[149,689,"ON"],[551,694,"PGmi"],[1274,696,"ASSIGN"],[139,724,"OFF"],[559,724,"CUE"],[141,759,"CUE"],[559,756,"CTL"],[689,756,"CUE"],[819,759,"Ch ON"],[1466,749,"ON"],[1274,771,"ASSIGN"],[1451,769,"TALLY"],[280,795,"CH OnX"],[549,789,"Logic"],[395,827,"Ch OFFX"],[1604,859,"2/78"],[1761,856,"REDRAWN"],[71,869,"On IsTART"],[1601,889,"2/78"],[1661,889,"MACHINE CONTROLS REVISED"],[49,904,"TIMER RESET"],[1534,921,"ISSUE DATE"],[1769,919,"REVISION"],[71,941,"OFF TALLY"],[78,977,"OFFIstop"],[1421,991,"WBS"],[1612,980,"WARD-BECK"],[1836,981,"SYSTEMS"],[1381,1039,"DRN_"],[1436,1041,"GEB"],[1735,1057,"M490F"],[1380,1075,"ENG GEB 2 /78"],[1620,1090,"STEREO INPUT MODULE"],[1618,1122,"FUNCTIONAL"],[1808,1122,"DIAGRAM"],[1384,1134,"APP"],[1419,1161,"SCALE"],[1938,1161,"ISSUE"],[1669,1187,"490-01-006"]]}}
+```

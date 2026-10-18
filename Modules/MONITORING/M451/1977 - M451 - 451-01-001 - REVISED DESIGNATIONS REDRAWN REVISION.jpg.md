@@ -1,0 +1,63 @@
+# 1977 - M451 - 451-01-001 - REVISED DESIGNATIONS REDRAWN REVISION.jpg
+Wiki page: [M451](../../../PAGES/M451.md)
+
+
+- **Year:** 1977 (found in this file: "REVISION 9/77")
+- **Module:** M451
+- **Category:** MONITORING
+- **Module year estimate:** 1977 — labelled "REVISION 9/77" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M451 - Talkback Module.pdf
+- **Original file:** `WBSps.env/wbsps - website ARCHIVE/WBSPS 2008/RAW SCANS/Done/Done - M451 Talkback Module/M451 - P14 - Functional Diagram.jpg`
+- **SHA-256:** `33348bbae81e863e27ae114649e730fe1f75093480d9e77b3f08f6a712498730`
+- **Size:** 155,943 bytes
+- **Pages:** 1
+
+## Dates found in this file
+
+- **1977** (labelled): `REVISION 9/77` — …JUMPER 25 Hz OSC OSC CTL 10/77 REVISED DESIGNATIONS REDRAWN REVISION 9/77 Lr APP ISSUE DATE WBS WARD-BECK SYSTEMs DRN PMMONEY ENG . R…
+
+## Full text
+
+### Page 1 (OCR)
+
+```text
+AUDIO
+Mic INPUT 70 dBm 150 OHMS
+CONTROL
+PRE
+TB LEVEL
+AUDIO
+INSERT +8 dBm
+CONTROL
+outputs +8 dBm 600 OHMS
+Mic CONTROL
+COMP
+BST
+AUDIO
+INPUTS
+Mic 2 INPUt 70 dBm 150 OHMS
+CTL COm
+CONTROL
+PRE
+AUDIO
+OSC On
+CONTROL
+Mic 2 CONTROL
+EXTERNAL JUMPER
+25 Hz OSC
+OSC CTL
+10/77
+REVISED DESIGNATIONS REDRAWN REVISION
+9/77
+Lr APP
+ISSUE DATE
+WBS
+WARD-BECK SYSTEMs
+DRN PMMONEY ENG . RKB CKD Rul APP 104-22 SCALE =
+M45i TALKBACK MODULE FUNCTIONAL DIAGRAM ISSUE 451-01-001 3
+```
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/MONITORING/M451/1977 - M451 - 451-01-001 - REVISED DESIGNATIONS REDRAWN REVISION.jpg","sha256":"33348bbae81e863e27ae114649e730fe1f75093480d9e77b3f08f6a712498730","kind":"module","models":["M451"],"year":1977,"pages":1,"order":[{"page":1,"title_block":[{"number":"451-01-001","type":"functional / block diagram","title":"Revised Designations Redrawn Revision","checked":"RUL"}],"dates":[{"year":1977,"kind":"labelled","text":"REVISION 9/77"}],"text":["AUDIO","Mic INPUT CONTROL","70 dBm PRE","150 OHMS TB AUDIO","LEVEL","INSERT CONTROL OUtPuts","Mic CONTROL COMP BST +8 dBm","+8 dBm","INPUTS AUDIO 600 OHMS","Mic INPUT CONTROL","70 dBm CTL","PRE COM","150 OHMS AUDIO","OSC CONTROL","mic 2 CONTROL ON","EXTERNAL","JUMPER","25 Hz OSC","OSC CTL","10/77 REVISED DESIGNATIONS","9/77 REDRAWN Lr","ISSUE |DATE REVISION APP","WBS WARD-BECK SYSTEMS","DRNPMAL M451","ENG_ RKB","CKD Rul TALKBACK MODULE","APP FUNCTIONAL DIAGRAM","SCALE ISSUE","451-01-001"]}],"drawing":{"svg":"_traces/33348bbae81e863e.svg","viewBox":[2000,1370],"rotate":0,"number":"451-01-001","title":"Revised Designations Redrawn Revision","dtype":"01","outlines":"see _traces/33348bbae81e863e.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/33348bbae81e863e.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","blocks":[[1472,980,66,38],[1472,1020,66,32]],"words":[[1479,346,"AUDIO"],[166,381,"Mic"],[224,384,"INPUT"],[1476,394,"CONTROL"],[201,409,"70 dBm"],[494,409,"PRE"],[179,436,"150 OHMS"],[814,444,"TB"],[1479,446,"AUDIO"],[796,469,"LEVEL"],[1096,496,"INSERT"],[1474,499,"CONTROL"],[1714,494,"OUtPuts"],[154,509,"Mic"],[214,511,"CONTROL"],[701,511,"COMP"],[939,514,"BST"],[1714,519,"+8 dBm"],[1104,524,"+8 dBm"],[1476,546,"AUDIO"],[1711,546,"600 OHMS"],[11,561,"INPUTS"],[164,581,"Mic"],[224,584,"INPUT"],[1116,596,"CTL"],[1476,596,"CONTROL"],[199,611,"70 dBm"],[494,611,"PRE"],[1114,624,"COM"],[176,636,"150 OHMS"],[1479,649,"AUDIO"],[961,691,"OSC"],[1476,694,"CONTROL"],[149,711,"mic 2 CONTROL"],[969,716,"ON"],[1084,729,"EXTERNAL"],[1094,756,"JUMPER"],[866,784,"25 Hz"],[1321,776,"OSC"],[866,811,"OSC"],[1324,801,"CTL"],[1544,1014,"10/77"],[1644,1014,"REVISED"],[1739,1016,"DESIGNATIONS"],[1554,1049,"9/77"],[1691,1052,"REDRAWN"],[1945,1055,"Lr"],[1474,1084,"ISSUE |DATE"],[1724,1084,"REVISION"],[1949,1084,"APP"],[1350,1159,"WBS"],[1558,1150,"WARD-BECK"],[1796,1154,"SYSTEMS"],[1310,1212,"DRNPMAL"],[1698,1225,"M451"],[1309,1241,"ENG_"],[1384,1241,"RKB"],[1612,1265,"TALKBACK MODULE"],[1311,1274,"CKD"],[1368,1280,"Rul"],[1311,1309,"APP"],[1577,1302,"FUNCTIONAL DIAGRAM"],[1349,1339,"SCALE"],[1904,1341,"ISSUE"],[1622,1370,"451-01-001"]]}}
+```

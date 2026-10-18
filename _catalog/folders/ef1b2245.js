@@ -1,0 +1,1 @@
+window.WBS_FOLDER={"d":"PARTS","f":[["#Inventory #Part #NamingConventions.xlsx",""],["Fixing ERP Parts - V3 - 20150828.xlsx",""],["Inventory (Responses).xlsx",""],["WBS Shelf Naming.xlsx",""],["WBS-WORKFLOW-Shelf Labels.xlsx",""],["XXX - Fixing ERP Parts - V2 - 20150810.xlsx",""]]};

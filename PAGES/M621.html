@@ -1,0 +1,2439 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M621 — 20 Watt Monitor Amplifier</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>M621 — 20 Watt Monitor Amplifier</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="Category-AMPLIFIERS.html">AMPLIFIERS</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../simulator.html?m=M621">simulator &amp; front panel</a> · <a href="../_packages/M621.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="Year-1970.html">1970|3</a> — title-block date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"DATE 27 july 70" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M621 vint/173-06-001.jpg</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="Year-1970.html">1970|3</a>, <a href="Year-1973.html">1973|6</a></td>
+</tr>
+<tr>
+<td>Used in jobs</td>
+<td><a href="Job-73050.html">73050</a> (1973|6), Rseriesinstallationmanual, Rseriesinstallguide</td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/Done/Done%20-%20L2042%20Console/">DOCUMENTS/Done/Done - L2042 Console</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/Done/Done%20-%20L3242%20Console/">DOCUMENTS/Done/Done - L3242 Console</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/">DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections and circuit (ideal SPICE model)</h2>
+<p><em>Inputs, outputs, power and control as its own documents name them (no RTO-144 sheet for it: pin numbers only where the page gives them). Run the generator, turn the gain, watch the VU.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M621" data-n="20 Watt Monitor Amplifier" data-cat="AMPLIFIERS"></div><svg class="wbs-panel" data-m="M621" data-n="20 Watt Monitor Amplifier" data-cat="AMPLIFIERS" role="img" aria-label="M621 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M621","title":"20 Watt Monitor Amplifier","rto":{"code":"M621","series":null,"type":"M621","impedance":{},"audio":[{"port":"I1","signal":"In P Ut","dir":"in","pos":"I1P","neg":"I1N","src_page":13},{"port":"I2","signal":"In 9 14 In","dir":"in","pos":"I2P","neg":"I2N","src_page":13},{"port":"O1","signal":"Output","dir":"out","pos":"O1P","neg":"O1N","src_page":23}],"power":[],"logic":[{"signal":"Remote Gain","pin":""},{"signal":"Mu Te Control","pin":""}],"ground":["CHASSIS AM PLI FIER","COMMON","SIGNA L GND"],"bus_out":[],"bus_in":[],"jumpers":[],"derived":true,"sources":["ed18df09b5bad1e1660747907c8e44124052680b403b7db74dde443ac823842d"],"note":"Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."},"parts":[{"item":"80-13","title":"POWER TRANSFORMER / TYPE 80-13","label":"80-13 POWER TRANSFORMER / TYPE 8","href":"Transformers.html#80-13","note":"Power transformers (80-n)"}],"parents":[{"label":"73050","href":"Job-73050.html","note":"T1202"},{"label":"Rseriesinstallationmanual","href":"#","note":"console / job"},{"label":"Rseriesinstallguide","href":"#","note":"console / job"},{"label":"M612","href":"M612.html","note":"on 76 drawings with it: Audio Distribution Ampli"},{"label":"M605","href":"M605.html","note":"on 62 drawings with it: Audio Distribution Ampli"},{"label":"M648","href":"M648.html","note":"on 50 drawings with it: Power Supply"},{"label":"M666","href":"M666.html","note":"on 44 drawings with it"},{"label":"M610","href":"M610.html","note":"on 44 drawings with it: 10 Watt Monitor Amplifie"},{"label":"M624","href":"M624.html","note":"on 43 drawings with it: Power Supply"},{"label":"M600","href":"M600.html","note":"on 31 drawings with it: Universal Amplifier"},{"label":"M412","href":"M412.html","note":"on 27 drawings with it: Multi-frequency Oscilato"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20B%20173-06-001%20-%20M621%20-%2020W%20MONITOR%20AMPLIFIER%20-%20P.C.B.%20LAYOUT%20%282%29.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20B%20173-06-001%20-%20M621%20-%2020W%20MONITOR%20AMPLIFIER%20-%20P.C.B.%20LAYOUT%20%282%29.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - B 173-06-001 - M621 - 20W MONITOR AMPLIFIER - P.C.B. LAYOUT (2).jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - B 173-06-001 - M621 - 20W MONITOR AMPLIFIER - P.C.B. LAYOUT (2).jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20621-02-003%20-%2020%20WATT%20MONITOR%20AMPLIFIER%20-%20DRN%20DPS%20-%20ISS%203%20%282%29.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1973%20-%20621-02-003%20-%2020%20WATT%20MONITOR%20AMPLIFIER%20-%20DRN%20DPS%20-%20ISS%203%20%282%29.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1973 - 621-02-003 - 20 WATT MONITOR AMPLIFIER - DRN DPS - ISS 3 (2).jpg" data-size="320" onerror="wbsOff(this)">1973 - 621-02-003 - 20 WATT MONITOR AMPLIFIER - DRN DPS - ISS 3 (2).jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20621-02-004%20-%20M621T%20OUTPUT%20TRANSFORMER%20CONNECTIONS%20-%20DRN%20BJ%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1973%20-%20621-02-004%20-%20M621T%20OUTPUT%20TRANSFORMER%20CONNECTIONS%20-%20DRN%20BJ%20-%20ISS%201.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1973 - 621-02-004 - M621T OUTPUT TRANSFORMER CONNECTIONS - DRN BJ - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1973 - 621-02-004 - M621T OUTPUT TRANSFORMER CONNECTIONS - DRN BJ - ISS 1.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20173-02-001%20-%20OHMS%20CAPAC%20ITOR%20VALUES%20SIGNATIONS.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20173-02-001%20-%20OHMS%20CAPAC%20ITOR%20VALUES%20SIGNATIONS.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1973 - M621 - 173-02-001 - OHMS CAPAC ITOR VALUES SIGNATIONS.jpg" data-size="320" onerror="wbsOff(this)">1973 - M621 - 173-02-001 - OHMS CAPAC ITOR VALUES SIGNATIONS.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20173-02-001%20-%20WATT%20MONITOR%20AMP.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20173-02-001%20-%20WATT%20MONITOR%20AMP.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1973 - M621 - 173-02-001 - WATT MONITOR AMP.jpg" data-size="320" onerror="wbsOff(this)">1973 - M621 - 173-02-001 - WATT MONITOR AMP.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621-02-003%20-%20WATT%20MONITOR%20AMPLIFIER.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621-02-003%20-%20WATT%20MONITOR%20AMPLIFIER.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1973 - M621 - 621-02-003 - WATT MONITOR AMPLIFIER.jpg" data-size="320" onerror="wbsOff(this)">1973 - M621 - 621-02-003 - WATT MONITOR AMPLIFIER.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621-02-004%20-%20CONNECT%20IONS.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621-02-004%20-%20CONNECT%20IONS.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1973 - M621 - 621-02-004 - CONNECT IONS.jpg" data-size="320" onerror="wbsOff(this)">1973 - M621 - 621-02-004 - CONNECT IONS.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621-02-004%20-%20OUTPUT%20TRANSFORME.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621-02-004%20-%20OUTPUT%20TRANSFORME.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1973 - M621 - 621-02-004 - OUTPUT TRANSFORME.jpg" data-size="320" onerror="wbsOff(this)">1973 - M621 - 621-02-004 - OUTPUT TRANSFORME.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621-06-002%20-%20HEAT%20SINK%20AND%20FRONT%20PANEL%20SHOWN%20SEPARATE%20FOR.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621-06-002%20-%20HEAT%20SINK%20AND%20FRONT%20PANEL%20SHOWN%20SEPARATE%20FOR.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1973 - M621 - 621-06-002 - HEAT SINK AND FRONT PANEL SHOWN SEPARATE FOR.jpg" data-size="320" onerror="wbsOff(this)">1973 - M621 - 621-06-002 - HEAT SINK AND FRONT PANEL SHOWN SEPARATE FOR.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621-06-002%20-%20WATT%20MONITOR%20AMPLIFIER.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621-06-002%20-%20WATT%20MONITOR%20AMPLIFIER.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1973 - M621 - 621-06-002 - WATT MONITOR AMPLIFIER.jpg" data-size="320" onerror="wbsOff(this)">1973 - M621 - 621-06-002 - WATT MONITOR AMPLIFIER.jpg</a><a href="../viewer.html?f=ADVERTISEMENTS/NAB%20photos/1975%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg"><img loading="lazy" src="../ADVERTISEMENTS/NAB%20photos/1975%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg" alt="" data-f="ADVERTISEMENTS/NAB photos/1975 - PRICE LIST - PRICE LIST.jpg" data-size="320" onerror="wbsOff(this)">1975 - PRICE LIST - PRICE LIST.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M605/19xx%20-%20M605%20-%20AD%20-%20wbsps%20-%20ad%20-%20600%20series.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M605/19xx%20-%20M605%20-%20AD%20-%20wbsps%20-%20ad%20-%20600%20series.jpg" alt="" data-f="Modules/AMPLIFIERS/M605/19xx - M605 - AD - wbsps - ad - 600 series.jpg" data-size="320" onerror="wbsOff(this)">19xx - M605 - AD - wbsps - ad - 600 series.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20173-02-001%20%282%29.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20173-02-001%20%282%29.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 173-02-001 (2).jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - 173-02-001 (2).jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20173-02-001%20%283%29.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20173-02-001%20%283%29.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 173-02-001 (3).jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - 173-02-001 (3).jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20173-02-001%20-%20MOD%20ICKD%20USED.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20173-02-001%20-%20MOD%20ICKD%20USED.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 173-02-001 - MOD ICKD USED.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1970 - M621 - 173-02-001 - MOD ICKD USED.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20173-02-001.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20173-02-001.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 173-02-001.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - 173-02-001.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20173-06-001%20-%20DIF%20ICIS.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20173-06-001%20-%20DIF%20ICIS.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 173-06-001 - DIF ICIS.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - 173-06-001 - DIF ICIS.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-001%20-%20DOTTED%20FOR%20MINUS%20TZEKE.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-001%20-%20DOTTED%20FOR%20MINUS%20TZEKE.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 621-02-001 - DOTTED FOR MINUS TZEKE.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - 621-02-001 - DOTTED FOR MINUS TZEKE.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-002%20-%20GAIN%20STRAPPING%20SEE%20NOTE.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-002%20-%20GAIN%20STRAPPING%20SEE%20NOTE.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 621-02-002 - GAIN STRAPPING SEE NOTE.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - 621-02-002 - GAIN STRAPPING SEE NOTE.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-002%20-%20HIGH%20COMMON%20SIDE%20OUTPUT.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-002%20-%20HIGH%20COMMON%20SIDE%20OUTPUT.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 621-02-002 - HIGH COMMON SIDE OUTPUT.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - 621-02-002 - HIGH COMMON SIDE OUTPUT.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-002%20-%20MAIN%20BUILDING%20GROUND%20ILSS%20MOD%20%282%29.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-002%20-%20MAIN%20BUILDING%20GROUND%20ILSS%20MOD%20%282%29.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 621-02-002 - MAIN BUILDING GROUND ILSS MOD (2).jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - 621-02-002 - MAIN BUILDING GROUND ILSS MOD (2).jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-002%20-%20MAIN%20BUILDING%20GROUND%20ILSS%20MOD.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-002%20-%20MAIN%20BUILDING%20GROUND%20ILSS%20MOD.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 621-02-002 - MAIN BUILDING GROUND ILSS MOD.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1970 - M621 - 621-02-002 - MAIN BUILDING GROUND ILSS MOD.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-002%20-%20MAIN%20BUILDING%20GROUND.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-002%20-%20MAIN%20BUILDING%20GROUND.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 621-02-002 - MAIN BUILDING GROUND.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - 621-02-002 - MAIN BUILDING GROUND.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-002%20-%20WATT%20MONITOR%20AMP.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-002%20-%20WATT%20MONITOR%20AMP.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 621-02-002 - WATT MONITOR AMP.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - 621-02-002 - WATT MONITOR AMP.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-003%20%282%29.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-003%20%282%29.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 621-02-003 (2).jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - 621-02-003 (2).jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-003%20-%20GAIN%20CONTROL.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-003%20-%20GAIN%20CONTROL.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 621-02-003 - GAIN CONTROL.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - 621-02-003 - GAIN CONTROL.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-003%20-%20MOD%20ICKD%20USED%20%282%29.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-003%20-%20MOD%20ICKD%20USED%20%282%29.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 621-02-003 - MOD ICKD USED (2).jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - 621-02-003 - MOD ICKD USED (2).jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-003%20-%20MOD%20ICKD%20USED.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-003%20-%20MOD%20ICKD%20USED.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 621-02-003 - MOD ICKD USED.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1970 - M621 - 621-02-003 - MOD ICKD USED.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-003.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-003.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 621-02-003.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - 621-02-003.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-004%20-%20IFIER%20OUTPUT%20CHASSIS%20AMPLIFIER%20COMMON%20SIGNA.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-004%20-%20IFIER%20OUTPUT%20CHASSIS%20AMPLIFIER%20COMMON%20SIGNA.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 621-02-004 - IFIER OUTPUT CHASSIS AMPLIFIER COMMON SIGNA.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - 621-02-004 - IFIER OUTPUT CHASSIS AMPLIFIER COMMON SIGNA.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-004%20-%20OUTPUT%20PRIMARY%20DIRECT%20OUTPUT%20SIGNAL%20GROUND%20CHASSIS%20GROUND%20%282%29.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-004%20-%20OUTPUT%20PRIMARY%20DIRECT%20OUTPUT%20SIGNAL%20GROUND%20CHASSIS%20GROUND%20%282%29.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 621-02-004 - OUTPUT PRIMARY DIRECT OUTPUT SIGNAL GROUND CHASSIS GROUND (2).jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - 621-02-004 - OUTPUT PRIMARY DIRECT OUTPUT SIGNAL GROUND CHASSIS GROUND (2).jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-004%20-%20OUTPUT%20PRIMARY%20DIRECT%20OUTPUT%20SIGNAL%20GROUND%20CHASSIS%20GROUND.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-004%20-%20OUTPUT%20PRIMARY%20DIRECT%20OUTPUT%20SIGNAL%20GROUND%20CHASSIS%20GROUND.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 621-02-004 - OUTPUT PRIMARY DIRECT OUTPUT SIGNAL GROUND CHASSIS GROUND.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1970 - M621 - 621-02-004 - OUTPUT PRIMARY DIRECT OUTPUT SIGNAL GROUND CHASSIS GROUND.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-004%20-%20OUTPUT%20PRIVARY%20DIRECT%20OUTPUT%20SIGNA%20GROUND.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-004%20-%20OUTPUT%20PRIVARY%20DIRECT%20OUTPUT%20SIGNA%20GROUND.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 621-02-004 - OUTPUT PRIVARY DIRECT OUTPUT SIGNA GROUND.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - 621-02-004 - OUTPUT PRIVARY DIRECT OUTPUT SIGNA GROUND.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-06-002%20-%20HEAT%20SINK.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-06-002%20-%20HEAT%20SINK.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 621-06-002 - HEAT SINK.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - 621-06-002 - HEAT SINK.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P001%20-%20Title%20Page.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P001%20-%20Title%20Page.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 621T - P001 - Title Page.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - 621T - P001 - Title Page.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P002.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P002.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 621T - P002.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - 621T - P002.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P003.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P003.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 621T - P003.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - 621T - P003.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P004.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P004.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 621T - P004.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - 621T - P004.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P005.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P005.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 621T - P005.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - 621T - P005.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P006.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P006.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 621T - P006.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - 621T - P006.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P007.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P007.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 621T - P007.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - 621T - P007.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P008.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P008.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 621T - P008.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - 621T - P008.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P009.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P009.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 621T - P009.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - 621T - P009.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P010.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P010.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 621T - P010.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - 621T - P010.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P011.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P011.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 621T - P011.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - 621T - P011.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P012.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P012.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - 621T - P012.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - 621T - P012.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20B%20173-06-001%20-%20M621%20-%2020W%20MONITOR%20AMPLIFIER%20-%20P.C.B.%20LAYOUT.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20B%20173-06-001%20-%20M621%20-%2020W%20MONITOR%20AMPLIFIER%20-%20P.C.B.%20LAYOUT.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - B 173-06-001 - M621 - 20W MONITOR AMPLIFIER - P.C.B. LAYOUT.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - B 173-06-001 - M621 - 20W MONITOR AMPLIFIER - P.C.B. LAYOUT.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20B%20621-06-002%20-%20M621%20-%2020%20WATT%20MONITOR%20AMPLIFIER%20-%20COMPONENT%20LAYOUT.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20B%20621-06-002%20-%20M621%20-%2020%20WATT%20MONITOR%20AMPLIFIER%20-%20COMPONENT%20LAYOUT.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - B 621-06-002 - M621 - 20 WATT MONITOR AMPLIFIER - COMPONENT LAYOUT.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1970 - M621 - B 621-06-002 - M621 - 20 WATT MONITOR AMPLIFIER - COMPONENT LAYOUT.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p1.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p1.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - M621T vint p1.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - M621T vint p1.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p10.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p10.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - M621T vint p10.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - M621T vint p10.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p11.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p11.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - M621T vint p11.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - M621T vint p11.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p12.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p12.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - M621T vint p12.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - M621T vint p12.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p3.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p3.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - M621T vint p3.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - M621T vint p3.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p4.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p4.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - M621T vint p4.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - M621T vint p4.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p5.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p5.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - M621T vint p5.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - M621T vint p5.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p6.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p6.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - M621T vint p6.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - M621T vint p6.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p7.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p7.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - M621T vint p7.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - M621T vint p7.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p8.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p8.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - M621T vint p8.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - M621T vint p8.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p9.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p9.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - M621T vint p9.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - M621T vint p9.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20MODEL%20M621-M621T%2020W%20MONITOR%20AMPLIFIER%20INSTRUCTION%20MANUAL.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20MODEL%20M621-M621T%2020W%20MONITOR%20AMPLIFIER%20INSTRUCTION%20MANUAL.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - MODEL M621-M621T 20W MONITOR AMPLIFIER INSTRUCTION MANUAL.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - MODEL M621-M621T 20W MONITOR AMPLIFIER INSTRUCTION MANUAL.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20module%20-%20m621%20monitor%20amp%20-%20001.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20module%20-%20m621%20monitor%20amp%20-%20001.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - wbsps - module - m621 monitor amp - 001.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - wbsps - module - m621 monitor amp - 001.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20module%20-%20m621%20monitor%20amp%20-%20002.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20module%20-%20m621%20monitor%20amp%20-%20002.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - wbsps - module - m621 monitor amp - 002.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - wbsps - module - m621 monitor amp - 002.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20module%20-%20m621%20power%20amplifier%20%282%29.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20module%20-%20m621%20power%20amplifier%20%282%29.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - wbsps - module - m621 power amplifier (2).jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - wbsps - module - m621 power amplifier (2).jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20module%20-%20m621%20power%20amplifier.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20module%20-%20m621%20power%20amplifier.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - wbsps - module - m621 power amplifier.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - wbsps - module - m621 power amplifier.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20module%20-%20m621%20power%20amplifier_small.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20module%20-%20m621%20power%20amplifier_small.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - wbsps - module - m621 power amplifier_small.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - wbsps - module - m621 power amplifier_small.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20promo%20-%20m621%20monitor%20amp%20-%20001.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20promo%20-%20m621%20monitor%20amp%20-%20001.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - wbsps - promo - m621 monitor amp - 001.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - wbsps - promo - m621 monitor amp - 001.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20promo%20-%20m621%20monitor%20amp%20-%20001_small.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20promo%20-%20m621%20monitor%20amp%20-%20001_small.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - wbsps - promo - m621 monitor amp - 001_small.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - wbsps - promo - m621 monitor amp - 001_small.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20promo%20-%20m621%20monitor%20amp%20-%20002.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20promo%20-%20m621%20monitor%20amp%20-%20002.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - wbsps - promo - m621 monitor amp - 002.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - wbsps - promo - m621 monitor amp - 002.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20promo%20-%20m621%20monitor%20amp%20-%20002_small.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20promo%20-%20m621%20monitor%20amp%20-%20002_small.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - wbsps - promo - m621 monitor amp - 002_small.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - wbsps - promo - m621 monitor amp - 002_small.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20promo%20-%20m621%20monitor%20amp%20-%20003.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20promo%20-%20m621%20monitor%20amp%20-%20003.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - wbsps - promo - m621 monitor amp - 003.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - wbsps - promo - m621 monitor amp - 003.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20promo%20-%20m621%20monitor%20amp%20-%20004.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20promo%20-%20m621%20monitor%20amp%20-%20004.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1970 - M621 - wbsps - promo - m621 monitor amp - 004.jpg" data-size="320" onerror="wbsOff(this)">1970 - M621 - wbsps - promo - m621 monitor amp - 004.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20621-02-003%20-%2020%20WATT%20MONITOR%20AMPLIFIER%20-%20DRN%20DPS%20-%20ISS%203.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1973%20-%20621-02-003%20-%2020%20WATT%20MONITOR%20AMPLIFIER%20-%20DRN%20DPS%20-%20ISS%203.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1973 - 621-02-003 - 20 WATT MONITOR AMPLIFIER - DRN DPS - ISS 3.jpg" data-size="320" onerror="wbsOff(this)">1973 - 621-02-003 - 20 WATT MONITOR AMPLIFIER - DRN DPS - ISS 3.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20621-02-004%20-%20OUTPUT%20TRANSFORMER%20CONNECTIONS%20%284%20OHM%2016%20OHM%20150%20OHM%3B%20title%20block%20cut%20-%20DRN%20BJ.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1973%20-%20621-02-004%20-%20OUTPUT%20TRANSFORMER%20CONNECTIONS%20%284%20OHM%2016%20OHM%20150%20OHM%3B%20title%20block%20cut%20-%20DRN%20BJ.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1973 - 621-02-004 - OUTPUT TRANSFORMER CONNECTIONS (4 OHM 16 OHM 150 OHM; title block cut - DRN BJ.jpg" data-size="320" onerror="wbsOff(this)">1973 - 621-02-004 - OUTPUT TRANSFORMER CONNECTIONS (4 OHM 16 OHM 150 OHM; title block cut - DRN BJ.jpg</a><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L2042%20Console/19xx%20-%20DOC%20-%20L2042%20-%20P05.jpg"><img loading="lazy" src="../DOCUMENTS/Done/Done%20-%20L2042%20Console/19xx%20-%20DOC%20-%20L2042%20-%20P05.jpg" alt="" data-f="DOCUMENTS/Done/Done - L2042 Console/19xx - DOC - L2042 - P05.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - L2042 - P05.jpg</a><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L3242%20Console/19xx%20-%20DOC%20-%20L3242%20-%20P05.jpg"><img loading="lazy" src="../DOCUMENTS/Done/Done%20-%20L3242%20Console/19xx%20-%20DOC%20-%20L3242%20-%20P05.jpg" alt="" data-f="DOCUMENTS/Done/Done - L3242 Console/19xx - DOC - L3242 - P05.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - L3242 - P05.jpg</a><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2011.jpg"><img loading="lazy" src="../DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2011.jpg" alt="" data-f="DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - US Sales Brochure pg 11.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - US Sales Brochure pg 11.jpg</a><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%202.jpg"><img loading="lazy" src="../DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%202.jpg" alt="" data-f="DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - US Sales Brochure pg 2.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - US Sales Brochure pg 2.jpg</a><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%203.jpg"><img loading="lazy" src="../DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%203.jpg" alt="" data-f="DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - US Sales Brochure pg 3.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - US Sales Brochure pg 3.jpg</a><a href="../viewer.html?f=DOCUMENTS/Photos/History/19xx%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg"><img loading="lazy" src="../DOCUMENTS/Photos/History/19xx%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg" alt="" data-f="DOCUMENTS/Photos/History/19xx - DOC - wbsps - ad - 600 series.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - wbsps - ad - 600 series.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20M621%20%282%29.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20M621%20%282%29.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/19xx - M621 - M621 (2).jpg" data-size="320" onerror="wbsOff(this)">19xx - M621 - M621 (2).jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20M621.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20M621.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/19xx - M621 - M621.jpg" data-size="320" onerror="wbsOff(this)">19xx - M621 - M621.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/wbsps%20-%20promo%20-%20m621%20monitor%20amp%20-%20002.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/wbsps%20-%20promo%20-%20m621%20monitor%20amp%20-%20002.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/wbsps - promo - m621 monitor amp - 002.jpg" data-size="320" onerror="wbsOff(this)">wbsps - promo - m621 monitor amp - 002.jpg</a><a href="../viewer.html?f=Consoles/1970-1979/73050%20-%20T1202/1973%20-%2073050%20-%200002.jpeg"><img loading="lazy" src="../Consoles/1970-1979/73050%20-%20T1202/1973%20-%2073050%20-%200002.jpeg" alt="" data-f="Consoles/1970-1979/73050 - T1202/1973 - 73050 - 0002.jpeg" data-size="320" onerror="wbsOff(this)">1973 - 73050 - 0002.jpeg</a><a href="../viewer.html?f=Consoles/1990-1999/R%20series%20installation%20manual/1990%20-%20R%20series%20installation%20ma%20-%2077024-02-009%20-%20ASSEMBLIES%20FOR%20ANY%20OUTWARD%20PHYSICAL%20DAMAGES%20PARTICULARLY%20THE.jpg"><img loading="lazy" src="../Consoles/1990-1999/R%20series%20installation%20manual/1990%20-%20R%20series%20installation%20ma%20-%2077024-02-009%20-%20ASSEMBLIES%20FOR%20ANY%20OUTWARD%20PHYSICAL%20DAMAGES%20PARTICULARLY%20THE.jpg" alt="" data-f="Consoles/1990-1999/R series installation manual/1990 - R series installation ma - 77024-02-009 - ASSEMBLIES FOR ANY OUTWARD PHYSICAL DAMAGES PARTICULARLY THE.jpg" data-size="320" onerror="wbsOff(this)">1990 - R series installation ma - 77024-02-009 - ASSEMBLIES FOR ANY OUTWARD PHYSICAL DAMAGES PARTICULARLY THE.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20621-06-002%20-%2020%20WATT%20MONITOR%20AMPLIFIER%20COMPONENT%20LAYOUT%20-%20ISS%202.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/1973%20-%20621-06-002%20-%2020%20WATT%20MONITOR%20AMPLIFIER%20COMPONENT%20LAYOUT%20-%20ISS%202.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/1973 - 621-06-002 - 20 WATT MONITOR AMPLIFIER COMPONENT LAYOUT - ISS 2.jpg" data-size="320" onerror="wbsOff(this)">1973 - 621-06-002 - 20 WATT MONITOR AMPLIFIER COMPONENT LAYOUT - ISS 2.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20Model%20M621%20M621T%2020W%20Monitor%20Amplifier%20Instruction%20Manual.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20Model%20M621%20M621T%2020W%20Monitor%20Amplifier%20Instruction%20Manual.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/19xx - M621 - Model M621 M621T 20W Monitor Amplifier Instruction Manual.jpg" data-size="320" onerror="wbsOff(this)">19xx - M621 - Model M621 M621T 20W Monitor Amplifier Instruction Manual.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/wbsps%20-%20module%20-%20m621%20monitor%20amp%20-%20002.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M621/wbsps%20-%20module%20-%20m621%20monitor%20amp%20-%20002.jpg" alt="" data-f="Modules/AMPLIFIERS/M621/wbsps - module - m621 monitor amp - 002.jpg" data-size="320" onerror="wbsOff(this)">wbsps - module - m621 monitor amp - 002.jpg</a></div>
+
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td>title-block date</td>
+<td><code>DATE 27 july 70</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20B%20173-06-001%20-%20M621%20-%2020W%20MONITOR%20AMPLIFIER%20-%20P.C.B.%20LAYOUT%20%282%29.jpg">1970 - M621 - B 173-06-001 - M621 - 20W MONITOR AMPLIFIER - P.C.B. LAYOUT (2).jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>title-block date</td>
+<td><code>DATE SEPT 73</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20621-02-003%20-%2020%20WATT%20MONITOR%20AMPLIFIER%20-%20DRN%20DPS%20-%20ISS%203%20%282%29.jpg">1973 - 621-02-003 - 20 WATT MONITOR AMPLIFIER - DRN DPS - ISS 3 (2).jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>title-block date</td>
+<td><code>DATE SEPT 73</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20621-02-004%20-%20M621T%20OUTPUT%20TRANSFORMER%20CONNECTIONS%20-%20DRN%20BJ%20-%20ISS%201.jpg">1973 - 621-02-004 - M621T OUTPUT TRANSFORMER CONNECTIONS - DRN BJ - ISS 1.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>title-block date</td>
+<td><code>DATE SEPT 1973</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20173-02-001%20-%20OHMS%20CAPAC%20ITOR%20VALUES%20SIGNATIONS.jpg">1973 - M621 - 173-02-001 - OHMS CAPAC ITOR VALUES SIGNATIONS.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>title-block date</td>
+<td><code>DATE sept 1973</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20173-02-001%20-%20WATT%20MONITOR%20AMP.jpg">1973 - M621 - 173-02-001 - WATT MONITOR AMP.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>title-block date</td>
+<td><code>DATE SEPT 73</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621-02-003%20-%20WATT%20MONITOR%20AMPLIFIER.jpg">1973 - M621 - 621-02-003 - WATT MONITOR AMPLIFIER.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>title-block date</td>
+<td><code>DATE SEPT 73</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621-02-004%20-%20CONNECT%20IONS.jpg">1973 - M621 - 621-02-004 - CONNECT IONS.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>title-block date</td>
+<td><code>DATE SEPT 73</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621-02-004%20-%20OUTPUT%20TRANSFORME.jpg">1973 - M621 - 621-02-004 - OUTPUT TRANSFORME.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>title-block date</td>
+<td><code>DATE SEPT 73</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621-06-002%20-%20HEAT%20SINK%20AND%20FRONT%20PANEL%20SHOWN%20SEPARATE%20FOR.jpg">1973 - M621 - 621-06-002 - HEAT SINK AND FRONT PANEL SHOWN SEPARATE FOR.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>title-block date</td>
+<td><code>DATE SEPT 73</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621-06-002%20-%20WATT%20MONITOR%20AMPLIFIER.jpg">1973 - M621 - 621-06-002 - WATT MONITOR AMPLIFIER.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>title-block date</td>
+<td><code>DATE SEPT 73</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20%282%29.pdf">1973 - M621 - 621T - 20W Monitor Amp (2).pdf</a></td>
+</tr>
+<tr>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>title-block date</td>
+<td><code>DATESEPT 73</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp.pdf">1973 - M621 - 621T - 20W Monitor Amp.pdf</a></td>
+</tr>
+<tr>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>title-block date</td>
+<td><code>DATE SEPT 73</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp.pdf">1973 - M621 - 621T - 20W Monitor Amp.pdf</a></td>
+</tr>
+<tr>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>title-block date</td>
+<td><code>DATE SEPT 73</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp.pdf">1973 - M621 - 621T - 20W Monitor Amp.pdf</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=ADVERTISEMENTS/NAB%20photos/1975%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/1975%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1975%20-%20M600%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M600 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M604/1975%20-%20M604%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M604 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M605/1975%20-%20M605%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M605 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M610/1975%20-%20M610%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M610 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/1975%20-%20M612%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M612 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1975%20-%20M621%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M621 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M666/1975%20-%20M666%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M666 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M701/1975%20-%20M701%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M701 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/1975%20-%20M702%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M702 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/1975%20-%20M703%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M703 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1975%20-%20M712%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M712 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M724/1975%20-%20M724%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M724 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M757/1975%20-%20M757%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M757 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/COMPUTERS/M524/1975%20-%20M524%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M524 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M406B/1975%20-%20M406B%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M406B - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M415/1975%20-%20M415%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M415 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402B/1975%20-%20M402B%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M402B - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M404A/1975%20-%20M404A%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M404A - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441M/1975%20-%20M441M%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M441M - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M405C - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M412/1975%20-%20M412%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M412 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/POWER/M628/1975%20-%20M628%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M628 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/POWER/M648/1975%20-%20M648%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M648 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/RM424S/1975%20-%20RM424S%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - RM424S - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Physical manual inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Location</th>
+<th>Status</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M621-621T - 20W Monitor Amp</td>
+<td></td>
+<td>DUPLICATE</td>
+<td>SCANNED BUT NEEDS STICHING</td>
+</tr>
+<tr>
+<td>M621-621T - 20W Monitor Amp</td>
+<td></td>
+<td></td>
+<td>PDF - Already scanned</td>
+</tr>
+<tr>
+<td>M621+621T - 20W Monitor Amp</td>
+<td></td>
+<td></td>
+<td>Recently scanned and stiched by WB</td>
+</tr>
+</tbody>
+</table>
+<h2>Ads &amp; brochures</h2>
+<ul>
+<li><a href="../viewer.html?f=Modules/AMPLIFIERS/M605/19xx%20-%20M605%20-%20AD%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M605 - AD - wbsps - ad - 600 series.jpg</a></li>
+<li><a href="../viewer.html?f=Modules/AMPLIFIERS/M610/19xx%20-%20M610%20-%20AD%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M610 - AD - wbsps - ad - 600 series.jpg</a></li>
+<li><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/19xx%20-%20M612%20-%20AD%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M612 - AD - wbsps - ad - 600 series.jpg</a></li>
+<li><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20AD%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M621 - AD - wbsps - ad - 600 series.jpg</a></li>
+<li><a href="../viewer.html?f=Modules/AMPLIFIERS/M666/19xx%20-%20M666%20-%20AD%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M666 - AD - wbsps - ad - 600 series.jpg</a></li>
+<li><a href="../viewer.html?f=Modules/POWER/M624/19xx%20-%20M624%20-%20AD%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M624 - AD - wbsps - ad - 600 series.jpg</a></li>
+<li><a href="../viewer.html?f=Modules/POWER/M648/19xx%20-%20M648%20-%20AD%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M648 - AD - wbsps - ad - 600 series.jpg</a></li>
+</ul>
+<h2>Documents (2)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20%282%29.pdf">1973 - M621 - 621T - 20W Monitor Amp (2).pdf</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20%282%29.pdf.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp.pdf">1973 - M621 - 621T - 20W Monitor Amp.pdf</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp.pdf.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (140)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20173-02-001%20%282%29.jpg">1970 - M621 - 173-02-001 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20173-02-001%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20173-02-001%20%283%29.jpg">1970 - M621 - 173-02-001 (3).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20173-02-001%20%283%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20173-02-001%20-%20MOD%20ICKD%20USED.jpg">1970 - M621 - 173-02-001 - MOD ICKD USED.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20173-02-001%20-%20MOD%20ICKD%20USED.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20173-02-001.jpg">1970 - M621 - 173-02-001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20173-02-001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20173-06-001%20-%20DIF%20ICIS.jpg">1970 - M621 - 173-06-001 - DIF ICIS.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20173-06-001%20-%20DIF%20ICIS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-001%20-%20DOTTED%20FOR%20MINUS%20TZEKE.jpg">1970 - M621 - 621-02-001 - DOTTED FOR MINUS TZEKE.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-001%20-%20DOTTED%20FOR%20MINUS%20TZEKE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-002%20-%20GAIN%20STRAPPING%20SEE%20NOTE.jpg">1970 - M621 - 621-02-002 - GAIN STRAPPING SEE NOTE.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-002%20-%20GAIN%20STRAPPING%20SEE%20NOTE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-002%20-%20HIGH%20COMMON%20SIDE%20OUTPUT.jpg">1970 - M621 - 621-02-002 - HIGH COMMON SIDE OUTPUT.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-002%20-%20HIGH%20COMMON%20SIDE%20OUTPUT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-002%20-%20MAIN%20BUILDING%20GROUND%20ILSS%20MOD%20%282%29.jpg">1970 - M621 - 621-02-002 - MAIN BUILDING GROUND ILSS MOD (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-002%20-%20MAIN%20BUILDING%20GROUND%20ILSS%20MOD%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-002%20-%20MAIN%20BUILDING%20GROUND%20ILSS%20MOD.jpg">1970 - M621 - 621-02-002 - MAIN BUILDING GROUND ILSS MOD.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-002%20-%20MAIN%20BUILDING%20GROUND%20ILSS%20MOD.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-002%20-%20MAIN%20BUILDING%20GROUND.jpg">1970 - M621 - 621-02-002 - MAIN BUILDING GROUND.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-002%20-%20MAIN%20BUILDING%20GROUND.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-002%20-%20WATT%20MONITOR%20AMP.jpg">1970 - M621 - 621-02-002 - WATT MONITOR AMP.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-002%20-%20WATT%20MONITOR%20AMP.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-003%20%282%29.jpg">1970 - M621 - 621-02-003 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-003%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-003%20-%20GAIN%20CONTROL.jpg">1970 - M621 - 621-02-003 - GAIN CONTROL.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-003%20-%20GAIN%20CONTROL.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-003%20-%20MOD%20ICKD%20USED%20%282%29.jpg">1970 - M621 - 621-02-003 - MOD ICKD USED (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-003%20-%20MOD%20ICKD%20USED%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-003%20-%20MOD%20ICKD%20USED.jpg">1970 - M621 - 621-02-003 - MOD ICKD USED.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-003%20-%20MOD%20ICKD%20USED.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-003.jpg">1970 - M621 - 621-02-003.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-004%20-%20IFIER%20OUTPUT%20CHASSIS%20AMPLIFIER%20COMMON%20SIGNA.jpg">1970 - M621 - 621-02-004 - IFIER OUTPUT CHASSIS AMPLIFIER COMMON SIGNA.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-004%20-%20IFIER%20OUTPUT%20CHASSIS%20AMPLIFIER%20COMMON%20SIGNA.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-004%20-%20OUTPUT%20PRIMARY%20DIRECT%20OUTPUT%20SIGNAL%20GROUND%20CHASSIS%20GROUND%20%282%29.jpg">1970 - M621 - 621-02-004 - OUTPUT PRIMARY DIRECT OUTPUT SIGNAL GROUND CHASSIS GROUND (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-004%20-%20OUTPUT%20PRIMARY%20DIRECT%20OUTPUT%20SIGNAL%20GROUND%20CHASSIS%20GROUND%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-004%20-%20OUTPUT%20PRIMARY%20DIRECT%20OUTPUT%20SIGNAL%20GROUND%20CHASSIS%20GROUND.jpg">1970 - M621 - 621-02-004 - OUTPUT PRIMARY DIRECT OUTPUT SIGNAL GROUND CHASSIS GROUND.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-004%20-%20OUTPUT%20PRIMARY%20DIRECT%20OUTPUT%20SIGNAL%20GROUND%20CHASSIS%20GROUND.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-004%20-%20OUTPUT%20PRIVARY%20DIRECT%20OUTPUT%20SIGNA%20GROUND.jpg">1970 - M621 - 621-02-004 - OUTPUT PRIVARY DIRECT OUTPUT SIGNA GROUND.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-004%20-%20OUTPUT%20PRIVARY%20DIRECT%20OUTPUT%20SIGNA%20GROUND.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-06-002%20-%20HEAT%20SINK.jpg">1970 - M621 - 621-06-002 - HEAT SINK.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-06-002%20-%20HEAT%20SINK.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P001%20-%20Title%20Page.jpg">1970 - M621 - 621T - P001 - Title Page.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P001%20-%20Title%20Page.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P002.jpg">1970 - M621 - 621T - P002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P003.jpg">1970 - M621 - 621T - P003.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P004.jpg">1970 - M621 - 621T - P004.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P004.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P005.jpg">1970 - M621 - 621T - P005.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P005.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P006.jpg">1970 - M621 - 621T - P006.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P006.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P007.jpg">1970 - M621 - 621T - P007.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P007.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P008.jpg">1970 - M621 - 621T - P008.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P008.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P009.jpg">1970 - M621 - 621T - P009.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P009.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P010.jpg">1970 - M621 - 621T - P010.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P010.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P011.jpg">1970 - M621 - 621T - P011.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P011.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P012.jpg">1970 - M621 - 621T - P012.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P012.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20B%20173-06-001%20-%20M621%20-%2020W%20MONITOR%20AMPLIFIER%20-%20P.C.B.%20LAYOUT%20%282%29.jpg">1970 - M621 - B 173-06-001 - M621 - 20W MONITOR AMPLIFIER - P.C.B. LAYOUT (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20B%20173-06-001%20-%20M621%20-%2020W%20MONITOR%20AMPLIFIER%20-%20P.C.B.%20LAYOUT%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20B%20173-06-001%20-%20M621%20-%2020W%20MONITOR%20AMPLIFIER%20-%20P.C.B.%20LAYOUT.jpg">1970 - M621 - B 173-06-001 - M621 - 20W MONITOR AMPLIFIER - P.C.B. LAYOUT.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20B%20173-06-001%20-%20M621%20-%2020W%20MONITOR%20AMPLIFIER%20-%20P.C.B.%20LAYOUT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20B%20621-06-002%20-%20M621%20-%2020%20WATT%20MONITOR%20AMPLIFIER%20-%20COMPONENT%20LAYOUT.jpg">1970 - M621 - B 621-06-002 - M621 - 20 WATT MONITOR AMPLIFIER - COMPONENT LAYOUT.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20B%20621-06-002%20-%20M621%20-%2020%20WATT%20MONITOR%20AMPLIFIER%20-%20COMPONENT%20LAYOUT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p1.jpg">1970 - M621 - M621T vint p1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p10.jpg">1970 - M621 - M621T vint p10.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p10.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p11.jpg">1970 - M621 - M621T vint p11.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p11.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p12.jpg">1970 - M621 - M621T vint p12.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p12.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p3.jpg">1970 - M621 - M621T vint p3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p4.jpg">1970 - M621 - M621T vint p4.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p4.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p5.jpg">1970 - M621 - M621T vint p5.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p5.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p6.jpg">1970 - M621 - M621T vint p6.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p6.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p7.jpg">1970 - M621 - M621T vint p7.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p7.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p8.jpg">1970 - M621 - M621T vint p8.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p8.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p9.jpg">1970 - M621 - M621T vint p9.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p9.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20MODEL%20M621-M621T%2020W%20MONITOR%20AMPLIFIER%20INSTRUCTION%20MANUAL.jpg">1970 - M621 - MODEL M621-M621T 20W MONITOR AMPLIFIER INSTRUCTION MANUAL.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20MODEL%20M621-M621T%2020W%20MONITOR%20AMPLIFIER%20INSTRUCTION%20MANUAL.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20module%20-%20m621%20monitor%20amp%20-%20001.jpg">1970 - M621 - wbsps - module - m621 monitor amp - 001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20module%20-%20m621%20monitor%20amp%20-%20001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20module%20-%20m621%20monitor%20amp%20-%20002.jpg">1970 - M621 - wbsps - module - m621 monitor amp - 002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20module%20-%20m621%20monitor%20amp%20-%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20module%20-%20m621%20power%20amplifier%20%282%29.jpg">1970 - M621 - wbsps - module - m621 power amplifier (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20module%20-%20m621%20power%20amplifier%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20module%20-%20m621%20power%20amplifier.jpg">1970 - M621 - wbsps - module - m621 power amplifier.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20module%20-%20m621%20power%20amplifier.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20module%20-%20m621%20power%20amplifier_small.jpg">1970 - M621 - wbsps - module - m621 power amplifier_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20module%20-%20m621%20power%20amplifier_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20promo%20-%20m621%20monitor%20amp%20-%20001.jpg">1970 - M621 - wbsps - promo - m621 monitor amp - 001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20promo%20-%20m621%20monitor%20amp%20-%20001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20promo%20-%20m621%20monitor%20amp%20-%20001_small.jpg">1970 - M621 - wbsps - promo - m621 monitor amp - 001_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20promo%20-%20m621%20monitor%20amp%20-%20001_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20promo%20-%20m621%20monitor%20amp%20-%20002.jpg">1970 - M621 - wbsps - promo - m621 monitor amp - 002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20promo%20-%20m621%20monitor%20amp%20-%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20promo%20-%20m621%20monitor%20amp%20-%20002_small.jpg">1970 - M621 - wbsps - promo - m621 monitor amp - 002_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20promo%20-%20m621%20monitor%20amp%20-%20002_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20promo%20-%20m621%20monitor%20amp%20-%20003.jpg">1970 - M621 - wbsps - promo - m621 monitor amp - 003.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20promo%20-%20m621%20monitor%20amp%20-%20003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20promo%20-%20m621%20monitor%20amp%20-%20004.jpg">1970 - M621 - wbsps - promo - m621 monitor amp - 004.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20promo%20-%20m621%20monitor%20amp%20-%20004.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20621-02-003%20-%2020%20WATT%20MONITOR%20AMPLIFIER%20-%20DRN%20DPS%20-%20ISS%203%20%282%29.jpg">1973 - 621-02-003 - 20 WATT MONITOR AMPLIFIER - DRN DPS - ISS 3 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20621-02-003%20-%2020%20WATT%20MONITOR%20AMPLIFIER%20-%20DRN%20DPS%20-%20ISS%203%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20621-02-003%20-%2020%20WATT%20MONITOR%20AMPLIFIER%20-%20DRN%20DPS%20-%20ISS%203.jpg">1973 - 621-02-003 - 20 WATT MONITOR AMPLIFIER - DRN DPS - ISS 3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20621-02-003%20-%2020%20WATT%20MONITOR%20AMPLIFIER%20-%20DRN%20DPS%20-%20ISS%203.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20621-02-004%20-%20M621T%20OUTPUT%20TRANSFORMER%20CONNECTIONS%20-%20DRN%20BJ%20-%20ISS%201.jpg">1973 - 621-02-004 - M621T OUTPUT TRANSFORMER CONNECTIONS - DRN BJ - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20621-02-004%20-%20M621T%20OUTPUT%20TRANSFORMER%20CONNECTIONS%20-%20DRN%20BJ%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20621-02-004%20-%20OUTPUT%20TRANSFORMER%20CONNECTIONS%20%284%20OHM%2016%20OHM%20150%20OHM%3B%20title%20block%20cut%20-%20DRN%20BJ.jpg">1973 - 621-02-004 - OUTPUT TRANSFORMER CONNECTIONS (4 OHM 16 OHM 150 OHM; title block cut - DRN BJ.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20621-02-004%20-%20OUTPUT%20TRANSFORMER%20CONNECTIONS%20%284%20OHM%2016%20OHM%20150%20OHM%3B%20title%20block%20cut%20-%20DRN%20BJ.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20173-02-001%20-%20OHMS%20CAPAC%20ITOR%20VALUES%20SIGNATIONS.jpg">1973 - M621 - 173-02-001 - OHMS CAPAC ITOR VALUES SIGNATIONS.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20173-02-001%20-%20OHMS%20CAPAC%20ITOR%20VALUES%20SIGNATIONS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20173-02-001%20-%20WATT%20MONITOR%20AMP.jpg">1973 - M621 - 173-02-001 - WATT MONITOR AMP.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20173-02-001%20-%20WATT%20MONITOR%20AMP.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621-02-003%20-%20WATT%20MONITOR%20AMPLIFIER.jpg">1973 - M621 - 621-02-003 - WATT MONITOR AMPLIFIER.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621-02-003%20-%20WATT%20MONITOR%20AMPLIFIER.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621-02-004%20-%20CONNECT%20IONS.jpg">1973 - M621 - 621-02-004 - CONNECT IONS.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621-02-004%20-%20CONNECT%20IONS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621-02-004%20-%20OUTPUT%20TRANSFORME.jpg">1973 - M621 - 621-02-004 - OUTPUT TRANSFORME.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621-02-004%20-%20OUTPUT%20TRANSFORME.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621-06-002%20-%20HEAT%20SINK%20AND%20FRONT%20PANEL%20SHOWN%20SEPARATE%20FOR.jpg">1973 - M621 - 621-06-002 - HEAT SINK AND FRONT PANEL SHOWN SEPARATE FOR.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621-06-002%20-%20HEAT%20SINK%20AND%20FRONT%20PANEL%20SHOWN%20SEPARATE%20FOR.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621-06-002%20-%20WATT%20MONITOR%20AMPLIFIER.jpg">1973 - M621 - 621-06-002 - WATT MONITOR AMPLIFIER.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621-06-002%20-%20WATT%20MONITOR%20AMPLIFIER.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/1975%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/1975%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1975%20-%20M600%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M600 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1975%20-%20M600%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M604/1975%20-%20M604%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M604 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M604/1975%20-%20M604%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M605/1975%20-%20M605%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M605 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M605/1975%20-%20M605%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M610/1975%20-%20M610%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M610 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M610/1975%20-%20M610%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/1975%20-%20M612%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M612 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/1975%20-%20M612%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1975%20-%20M621%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M621 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1975%20-%20M621%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M666/1975%20-%20M666%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M666 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M666/1975%20-%20M666%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M701/1975%20-%20M701%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M701 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M701/1975%20-%20M701%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/1975%20-%20M702%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M702 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/1975%20-%20M702%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/1975%20-%20M703%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M703 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/1975%20-%20M703%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1975%20-%20M712%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M712 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1975%20-%20M712%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M724/1975%20-%20M724%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M724 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M724/1975%20-%20M724%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M757/1975%20-%20M757%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M757 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M757/1975%20-%20M757%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/COMPUTERS/M524/1975%20-%20M524%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M524 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMPUTERS/M524/1975%20-%20M524%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M406B/1975%20-%20M406B%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M406B - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M406B/1975%20-%20M406B%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M415/1975%20-%20M415%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M415 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M415/1975%20-%20M415%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402B/1975%20-%20M402B%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M402B - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402B/1975%20-%20M402B%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M404A/1975%20-%20M404A%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M404A - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M404A/1975%20-%20M404A%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441M/1975%20-%20M441M%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M441M - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441M/1975%20-%20M441M%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M405C - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M412/1975%20-%20M412%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M412 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M412/1975%20-%20M412%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/POWER/M628/1975%20-%20M628%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M628 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M628/1975%20-%20M628%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/POWER/M648/1975%20-%20M648%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M648 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M648/1975%20-%20M648%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/RM424S/1975%20-%20RM424S%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - RM424S - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/RM424S/1975%20-%20RM424S%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L2042%20Console/19xx%20-%20DOC%20-%20L2042%20-%20P05.jpg">19xx - DOC - L2042 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L2042%20Console/19xx%20-%20DOC%20-%20L2042%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L3242%20Console/19xx%20-%20DOC%20-%20L3242%20-%20P05.jpg">19xx - DOC - L3242 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Done/Done%20-%20L3242%20Console/19xx%20-%20DOC%20-%20L3242%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2011.jpg">19xx - DOC - US Sales Brochure pg 11.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2011.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%202.jpg">19xx - DOC - US Sales Brochure pg 2.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%203.jpg">19xx - DOC - US Sales Brochure pg 3.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%203.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Photos/History/19xx%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - DOC - wbsps - ad - 600 series.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Photos/History/19xx%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%202.jpg">19xx - M600 - DOC - US Sales Brochure pg 2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M605/19xx%20-%20M605%20-%20DOC%20-%20L2042%20-%20P05.jpg">19xx - M605 - DOC - L2042 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M605/19xx%20-%20M605%20-%20DOC%20-%20L2042%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M605/19xx%20-%20M605%20-%20DOC%20-%20L3242%20-%20P05.jpg">19xx - M605 - DOC - L3242 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M605/19xx%20-%20M605%20-%20DOC%20-%20L3242%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M608/19xx%20-%20M608%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2011.jpg">19xx - M608 - DOC - US Sales Brochure pg 11.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M608/19xx%20-%20M608%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2011.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M610/19xx%20-%20M610%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M610 - DOC - wbsps - ad - 600 series.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M610/19xx%20-%20M610%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/19xx%20-%20M612%20-%20DOC%20-%20L2042%20-%20P05.jpg">19xx - M612 - DOC - L2042 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/19xx%20-%20M612%20-%20DOC%20-%20L2042%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/19xx%20-%20M612%20-%20DOC%20-%20L3242%20-%20P05.jpg">19xx - M612 - DOC - L3242 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/19xx%20-%20M612%20-%20DOC%20-%20L3242%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/19xx%20-%20M612%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2011.jpg">19xx - M612 - DOC - US Sales Brochure pg 11.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/19xx%20-%20M612%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2011.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/19xx%20-%20M612%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M612 - DOC - wbsps - ad - 600 series.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/19xx%20-%20M612%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20DOC%20-%20L2042%20-%20P05.jpg">19xx - M621 - DOC - L2042 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20DOC%20-%20L2042%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20DOC%20-%20L3242%20-%20P05.jpg">19xx - M621 - DOC - L3242 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20DOC%20-%20L3242%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2011.jpg">19xx - M621 - DOC - US Sales Brochure pg 11.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2011.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%202.jpg">19xx - M621 - DOC - US Sales Brochure pg 2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%203.jpg">19xx - M621 - DOC - US Sales Brochure pg 3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%203.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M621 - DOC - wbsps - ad - 600 series.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20M621%20%282%29.jpg">19xx - M621 - M621 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20M621%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20M621.jpg">19xx - M621 - M621.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20M621.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/wbsps%20-%20promo%20-%20m621%20monitor%20amp%20-%20002.jpg">wbsps - promo - m621 monitor amp - 002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/wbsps%20-%20promo%20-%20m621%20monitor%20amp%20-%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M666/19xx%20-%20M666%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M666 - DOC - wbsps - ad - 600 series.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M666/19xx%20-%20M666%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M466/19xx%20-%20M466%20-%20DOC%20-%20L3242%20-%20P05.jpg">19xx - M466 - DOC - L3242 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M466/19xx%20-%20M466%20-%20DOC%20-%20L3242%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M467/19xx%20-%20M467%20-%20DOC%20-%20L2042%20-%20P05.jpg">19xx - M467 - DOC - L2042 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M467/19xx%20-%20M467%20-%20DOC%20-%20L2042%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M467/19xx%20-%20M467%20-%20DOC%20-%20L3242%20-%20P05.jpg">19xx - M467 - DOC - L3242 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M467/19xx%20-%20M467%20-%20DOC%20-%20L3242%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M462/19xx%20-%20M462%20-%20DOC%20-%20L2042%20-%20P05.jpg">19xx - M462 - DOC - L2042 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M462/19xx%20-%20M462%20-%20DOC%20-%20L2042%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M462/19xx%20-%20M462%20-%20DOC%20-%20L3242%20-%20P05.jpg">19xx - M462 - DOC - L3242 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M462/19xx%20-%20M462%20-%20DOC%20-%20L3242%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M462A/19xx%20-%20M462A%20-%20DOC%20-%20L2042%20-%20P05.jpg">19xx - M462A - DOC - L2042 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M462A/19xx%20-%20M462A%20-%20DOC%20-%20L2042%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M462B/19xx%20-%20M462B%20-%20DOC%20-%20L2042%20-%20P05.jpg">19xx - M462B - DOC - L2042 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M462B/19xx%20-%20M462B%20-%20DOC%20-%20L2042%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M464/19xx%20-%20M464%20-%20DOC%20-%20L2042%20-%20P05.jpg">19xx - M464 - DOC - L2042 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M464/19xx%20-%20M464%20-%20DOC%20-%20L2042%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M464/19xx%20-%20M464%20-%20DOC%20-%20L3242%20-%20P05.jpg">19xx - M464 - DOC - L3242 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M464/19xx%20-%20M464%20-%20DOC%20-%20L3242%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/19xx%20-%20M624%20-%20DOC%20-%20L2042%20-%20P05.jpg">19xx - M624 - DOC - L2042 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/19xx%20-%20M624%20-%20DOC%20-%20L2042%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/19xx%20-%20M624%20-%20DOC%20-%20L3242%20-%20P05.jpg">19xx - M624 - DOC - L3242 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/19xx%20-%20M624%20-%20DOC%20-%20L3242%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/19xx%20-%20M624%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M624 - DOC - wbsps - ad - 600 series.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/19xx%20-%20M624%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M625A/19xx%20-%20M625A%20-%20DOC%20-%20L2042%20-%20P05.jpg">19xx - M625A - DOC - L2042 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625A/19xx%20-%20M625A%20-%20DOC%20-%20L2042%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M625A/19xx%20-%20M625A%20-%20DOC%20-%20L3242%20-%20P05.jpg">19xx - M625A - DOC - L3242 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M625A/19xx%20-%20M625A%20-%20DOC%20-%20L3242%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M648/19xx%20-%20M648%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2011.jpg">19xx - M648 - DOC - US Sales Brochure pg 11.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M648/19xx%20-%20M648%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2011.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/POWER/M648/19xx%20-%20M648%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M648 - DOC - wbsps - ad - 600 series.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M648/19xx%20-%20M648%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M457/19xx%20-%20M457%20-%20DOC%20-%20L2042%20-%20P05.jpg">19xx - M457 - DOC - L2042 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M457/19xx%20-%20M457%20-%20DOC%20-%20L2042%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M457/19xx%20-%20M457%20-%20DOC%20-%20L3242%20-%20P05.jpg">19xx - M457 - DOC - L3242 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M457/19xx%20-%20M457%20-%20DOC%20-%20L3242%20-%20P05.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M498/19xx%20-%20M498%20-%20DOC%20-%20L3242%20-%20P05.jpg">19xx - M498 - DOC - L3242 - P05.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M498/19xx%20-%20M498%20-%20DOC%20-%20L3242%20-%20P05.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Sub-assemblies &amp; parts used (1)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What</th>
+<th>Family</th>
+<th>Year</th>
+<th>How we know</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Register-Power-transformers-80-n.html#80-13">80-13</a></td>
+<td>POWER TRANSFORMER / TYPE 80-13</td>
+<td>Power transformers (80-n)</td>
+<td>1969|2</td>
+<td>named in its manual</td>
+</tr>
+</tbody>
+</table>
+<h2>Consoles &amp; jobs it is connected to (3)</h2>
+<p><em>Their own drawings name this module.</em></p>
+<table>
+<thead>
+<tr>
+<th>Job</th>
+<th>Year</th>
+<th>Drawing</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Job-73050.html">73050</a></td>
+<td>1973|6</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/73050%20-%20T1202/1973%20-%2073050%20-%200002.jpeg">1973 - 73050 - 0002.jpeg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td>Rseriesinstallationmanual</td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/R%20series%20installation%20manual/1990%20-%20R%20series%20installation%20ma%20-%2077024-02-009%20-%20ASSEMBLIES%20FOR%20ANY%20OUTWARD%20PHYSICAL%20DAMAGES%20PARTICULARLY%20THE.jpg">1990 - R series installation ma - 77024-02-009 - ASSEMBLIES FOR ANY OUTWARD PHYSICAL DAMAGES PARTICULARLY THE.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td>Rseriesinstallguide</td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/R%20series%20install%20guide/1990%20-%20R%20series%20install%20guide%20-%2077024-02-009%20-%20ASSEMBLIES%20FOR%20ANY%20OUTWARD%20PHYSICAL%20DAMAGES%20PARTICULARLY%20THE.jpg">1990 - R series install guide - 77024-02-009 - ASSEMBLIES FOR ANY OUTWARD PHYSICAL DAMAGES PARTICULARLY THE.jpg</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (3)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT%20%282%29.docx">1995 - M405P - ITEMIMP(1).TXT (2).docx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT.docx">1995 - M405P - ITEMIMP(1).TXT.docx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP.TXT.docx">1995 - M405P - ITEMIMP.TXT.docx</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>General description (2)</h3>
+<details><summary>Description — 313 words · 1970 - M621 - wbsps - promo - m621 monitor amp - 001.jpg, page 1</summary><p>The M621 20 watt audio power amplifier is an ac operated, plug-in module designed for professional applications in the broadcast_ motion picture and sound recording industries The unit represents the continuing development and expansion of the well proven WBS 600 series of 3-1/2 inch modular components and offers a wider scope of selection for monitor amplifiers from this design category.</p><p>The circuit utilizes differential operational amplifiers to produce an ultra-reliable transformerless design capable of developing a minimum of 20 watts rms to drive an 8 ohm loudspeaker directly. Other load impedances (4, 16 ohms, etc ) may be accommodated with appro- priate power output interpolation. A unique protection circuit incorporated within the M621 activates instantaneously during adverse amplifier load conditions or at a pre- determined power output level.</p><p>The amplifier does not sustain damage even when deliberately shorted at full power output. combination of conditional frame strapping and a variable front panel level control permits the M621 to operate over an input signal range of 20dBm to 18dBm The M621 presents a permanent 20k ohm impedance at the input and is capable of operating from a balanced or unbalanced source.</p><p>The unit exhibits exceedingly uniform frequency response with Iow noise and distortion over the frequency range 3OHz to 20kHz. An internal muting relay is included to provide amplifier cut-off when an external (closure to ground) command is initiated via muting logic control circuitry, etc. The modest size of 5.1W x 3.4H x 13.70 inches allows three M621 monitor amplifiers t0 be accommodated in one standard rack mount- ing (19W x 3.5H) MF6 equipment frame.</p><p>FEATURES 2Ow rms direct output into 8 ohms Compact design mounts in standard WBS 3-1/2 inch MF6 rack frame. Self contained power supply Integral muting relay Operational amplifier transformerless 1C design with unique short-circuit protection 20k bridging input balanced/unbalanced Active elements contained on plug-in subsidiary PC card WBS M621</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20promo%20-%20m621%20monitor%20amp%20-%20001.jpg">1970 - M621 - wbsps - promo - m621 monitor amp - 001.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Description — 314 words · 19xx - M621 - DOC - US Sales Brochure pg 2.jpg, page 1</summary><p>The M621 20 watt audio power amplifier is an ac operated, plug-in module designed for professional applications in the broadcast, motion picture and sound recording industries: The unit represents the continuing development ad expansion of the well proven WBS 600 series of 3-1/2 inch modular components and offers a wider scope of selection for monitor amplifiers from this design category.</p><p>The circuit utilizes differential operational amplifiers to produce a ultra-reliable transformerless design capable of developing a minimum of 20 watts rms to drive a 8 ohm loudspeaker directly. Other load impedances (4, 16 ohms, etc ) may be accommodated with appro- priate power output interpolation. A unique protection circuit incorporated within the M621 activates instantaneously during adverse amplifier load conditions or at a pre- determined power output level.</p><p>The amplifier does not sustain damage even when deliberately shorted at full power output. A combination of conditional frame strapping ad a variable front panel level control permits the M621 t0 operate over an input signal range of ~20dBm to 18dBm: The M621 presents a permanent 20k ohm impedance at the input ad is capable of operating from a balanced or unbalanced source.</p><p>The unit exhibits exceedingly uniform frequency response with low noise ad distortion over the frequency range 30Hz to Z0kHZ An internal muting relay is included to provide amplifier cut-off when a external (closure to ground) command is initiated via muting logic control circuitry, etc. The modest size of 5.1W x 3.4H x 13.70 inches allows three M621 monitor amplifiers to be accommodated in one standard rack mount- ing (19W x 3.5H) MF6 equipment frame: FEATURES 2Ow rms direct output into 8 ohms Compact design mounts in standard WBS 3-1/2 inch MF6 rack frame.</p><p>Self contained power supply Integral muting relay Operational amplifier transformerless 1C design with unique short-circuit protection 20k bridging input balanced /unbalanced Active elements contained on plug-in subsidiary PC card 22488</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%202.jpg">19xx - M621 - DOC - US Sales Brochure pg 2.jpg</a>, p. 1</li>
+</ul>
+<h3>Specifications (9)</h3>
+<details><summary>Technical Data — 973 words · 1973 - M621 - 621T - 20W Monitor Amp (2).pdf, page 5</summary><p>4 3 or 63 dB matched gain (condi tional frame                              strap) . Front pane l variable co ntrol.</p><p>FREQUENCY RESPONSE :         ±.0 .25 dB from 20 Hz to 20 kHZ</p><p>80 dB below 20 W</p><p>&#x27;l&#x27;QTAL HARMONI C DIS&#x27;l&#x27;QRTION:     l e s s than 0 .25% from 20 Hz to 20 kHZ                               mea s u r e d at 20 W output l ev e l .</p><p>- 20 dBtn nomina l, 0 dam maximum      (6 3 d B gll.in )                              o dam nom i na l , +18 dBll&#x27;l maximum ( 4 3 dB ga in) LONGITtlOINA L BAlANCE:      greater than 60 dB</p><p>SOURCE IMPEDANCE:            600 Ohms or less , balanced or u nba lanced</p><p>INPUT IMPEDANCE:             20 kOhms</p><p>LOAD   IMPEDANCE:            8 Ohms nominal . 4 or 16 Oh1ll$ wi th appropriate                              power output correction .</p><p>OUTPUT IMPEDANCE:            leas than 0 . 5 Ohms</p><p>the low termina l number of the i nput pair is                              i n phase with the di rect output t e rmi n a l.</p><p>POWER REQUIREMENTS :         11 5 VAC, 60 HZ, 60 VA</p><p>AMBI ENT TEMPERATURE:</p><p>DIMENSI ONS:                 5 . 1w x 3 . 4H x 13 .7D i nches</p><p>6 I b s ne t                                                                             a                                                                          .c                                                                       ps                                                                   BS                                                                  W                                                                 ://                                                            tp                                                          ht</p><p>Model H6Z1·T  ZOW Monit or AlIl p l if ie r</p><p>TECHNICAL OATA:</p><p>GAIN:                           42 Dr 62 lIa t c he d ga in (c on diti on al )                                  ga tn st ra p ).  Fr ont pan e l va r h bh!                                  c ontro l.  FREQUENCY RESPONSE:             Wit h ln I dB 30 Hz to 15kHz .  NOISE:                          80 dB b elow ZOW.  TOTAL HARMONIC DISTORTION:      Less tha n O.ZSI fr oll 50Hz t o                                  20Hz lIe n ur e d a t 20W ou tpu t t evet .  INPUT LEVEL:                    - 20 dBIl no. i na 1 0 dh lIax. (6ZcIl gain)                                  OdS. nOll t nal +18 dBIl Mn. ( 4ZdBgain)  LONGITUDINA L BALANCE:          Gr ute r t han 60dB. SOURCE I MPEOENe E:              60 0 oh lls Dr le ss . ba la nce d or                                  unb a la n c ed. INPUT IMPEDENC E:                20 1: 0tll1S.</p><p>LOAD I MPEDENCE:                 4 ,8,1 6 , I SO, or 600 01111$                                  ( co nd it lo na l tran s for ller s t ra ppi ng) OUTPUT (JIIIPEDENCE:             Le ss th an 1/5 lo a d IIl pedence. PHASI NG:                        The l ow t e ,.,l1na 1 n Ullber o f t ile                                  i npu t pai r is in ph ase with the                                  l ow te r llina1 nUMber o f tile output                                  tran sfo r ller strappi ng con fi gurati on . POWER REQUIREMENT S:             llSV ac 60VA. AMBIENT TEMPERATURE:             00 to 60°C. DIMENSIONS :                     S . l W x 3 .4H x 13 .70 in c he s .                                                                         a                                                                      .c</p><p>WE IGHT:                         6 1bs . ne t .                                                                   ps                                                             BS                                                            W                                                          ://                                                      tp                                                    ht</p><p>Model M621/M62 1T      2 0W Monitor Amplifie r</p><p>AMPLIFIER AOOUS1&#x27;MEm&#x27;S</p><p>1.      Longi t uC!i na l Ba lance AC!1u e t men t</p><p>Suap t he aillpl itier t o r low gain a nd. a pp ly a signal.      Ad j ust the input a i qnal level f or a c on venie nt ou t pu t le vel.      Th is ou t pu t l e v e l wi ll be the r eference le~l f or the fol l o.rinq      adju.ebDen t a .</p><p>Tie pins 8 . nC! 16 on the flIOdule c onnector P2 t ogether      a nd apply the same s ignal volta ge between t his junction and      g round . Th e i n pu t s igna l is nOW&#x27; longitud i n ally applie d.</p><p>Adj us t R18 • 2 00 Hz f o r mi n im.ua output .   Th e output      s hou l d be better than 6 0 dB down .</p><p>i-            Strap the alllpHf i er t or high 9ain a nd r e Cluce the input      l ev el by 2 0 dB. Ad jus t R13 for mn imum ou t pu t a t 200 Hz .</p><p>Repeat both s te pe a t least tw ice, s i nce there is some      interaction between the contro ls .</p><p>With the amplifie r strapped for high 9ain , change t h e      input frequency t o 1 0 :kHz and adj us t e ll for mi n illlU18 output .</p><p>The adjustments ahou ld res u lt in an ov er-a ll common      moile re j e ction of 60 dB or greater from 6 0 Hz to 6 ltHJl: .</p><p>a                                                                           .c                                                                         ps                                                                     BS                                                                    W                                                                   ://                                                              tp                                                            ht</p><p>Mod el M621 /M62lT      20 W Mo ni tor Amplifi er</p><p>DC VOLT1&gt;.GE CHART</p><p>The fol lowing DC vo ltages a re typic a l and may va ry +l ~ .      The idle cur r en t should be between 35 and 4 5 IlIA.       At 20 wat ts      output the c ur rent drain should be I A.         This can be convenient ly      measu red by r ectOVi ng fuses Fl and F2.               The vo ltmeter us e d f or the mlllllsurementl . should have III      stnuitivity of 20 .000 Ohma pe r vol t .</p><p>I ntegrated circuits .</p><p>Pi ns</p><p>Z1                </p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20%282%29.pdf">1973 - M621 - 621T - 20W Monitor Amp (2).pdf</a>, p. 5</li>
+</ul>
+<details><summary>Technical Data — 206 words · 19xx - M621 - M621 (2).jpg, page 1</summary><p>GAIN: 43 or 63dB matched gain (conditional frame strap) Front panel variable control. FREQUENCY RESPONSE: +0.25dB from 2OHz to 2OkHz NOISE: 8OdB below 2OW TOTAL HARMONIC DISTORTION: Less than 0.25% from 2OHz to 20kHz (measured at 2OW output level)_ INPUT IMPEDANCE: 20k ohms LOAD IMPEDANCE: 8 ohms nominal, 4 or 16 ohms with appropriate power out- put correction. OUTPUT IMPEDANCE: Less than 0.5 ohms PHASING: The low terminal number of the input pair is in phase with the direct output terminal.</p><p>POWER REQUIREMENTS: 115V ac, 6OHz, 6OVA AMBIENT TEMPERATURE: 00 to 6OOC DIMENSIONS: 5.1W x 3.4H x 13.7D0 inches WEIGHT: 6 Ibs net_ INPUT LEVEL: ~2OdBm nominal , OdBm maximum (63dB gain) OdBm nominal , +1 8dBm maximum (43dB gain) LONGITUDINAL BALANCE: Greater than 6OdB SOURCE IMPEDANCE: 600 ohms or less balanced or unbalanced ACCESSORIES: MF6-600 Series Mounting Frame 19W 3.5H x 14.5D (less rear cable tray and cover) Standard EIA rack mounting: Accom- modates three M621 modulesor any combination of single, double or quadruple units not exceeding ten single width modules MFR6-6O0 Series Frame Receptacle.</p><p>Two required per M621 _ WARD-BECK SYSTEMS LTD_ WARD-BECK SYSTEMS INC_ 841 Progress Ave,Scarborough Ont; M1H 2x4 290 Larkin St;, Buffalo; New York 14210 Telephone: (416) 438-6550 Telex: 06-23469 WBS</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20M621%20%282%29.jpg">19xx - M621 - M621 (2).jpg</a>, p. 1</li>
+</ul>
+<details><summary>Technical Data — 205 words · 1970 - M621 - wbsps - promo - m621 monitor amp - 002.jpg, page 1</summary><p>GAIN: 43 or 63dB matched gain (conditional frame strap) Front panel variable control. FREQUENCY RESPONSE: +0.25dB from 2OHz to 20kHz NOISE: 8OdB below 2OW TOTAL HARMONIC DISTORTION: Less than 0.25% from 2OHz to 20kHz (measured at 2OW output level)_ INPUT IMPEDANCE: 20k ohms LOAD IMPEDANCE: 8 ohms nominal, 4 or 16 ohms with appropriate power out- put correction. OUTPUT IMPEDANCE: Less than 0.5 ohms PHASING: The low terminal number of the input pair is in phase with the direct output terminal.</p><p>POWER REQUIREMENTS: 115v ac, 6OHz , 6OVA AMBIENT TEMPERATURE: 00 to 6OOC DIMENSIONS: 5.1W 3.4H x 13.7D inches WEIGHT: 6 Ibs net. INPUT LEVEL: ~2OdBm nominal , OdBm maximum (63dB gain) OdBm nominal , +18dBm maximum (43dB gain) LONGITUDINAL BALANCE: Greater than 6OdB SOURCE IMPEDANCE: 600 ohms or less balanced or unbalanced ACCESSORIES: MF6-600 Series Mounting Frame 19W 3.5H x 14.5D (less rear cable tray and cover) Standard EIA rack mounting: Accom- modates three M621 modulesor any combination of single , double or quadruple units not exceeding ten single width modules MFR6-600 Series Frame Receptacle.</p><p>Two required per M621_ WARD-BECK SYSTEMS LTD_ WARD-BECK SYSTEMS INC_ 841 Progress Ave,Scarborough, Ont; M1H 2x4 290 Larkin St;, Buffalo, New York 14210 Telephone: (416) 438-6550 Telex: 06-23469 WBS</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20promo%20-%20m621%20monitor%20amp%20-%20002.jpg">1970 - M621 - wbsps - promo - m621 monitor amp - 002.jpg</a>, p. 1</li>
+<li>also in: <a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%203.jpg">19xx - M621 - DOC - US Sales Brochure pg 3.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20M621.jpg">19xx - M621 - M621.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20wbsps%20-%20module%20-%20m621%20monitor%20amp%20-%20002.jpg">1970 - M621 - wbsps - module - m621 monitor amp - 002.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/AMPLIFIERS/M621/wbsps%20-%20promo%20-%20m621%20monitor%20amp%20-%20002.jpg">wbsps - promo - m621 monitor amp - 002.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p5.jpg">1970 - M621 - M621T vint p5.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P005.jpg">1970 - M621 - 621T - P005.jpg</a>, p. 1</li>
+</ul>
+<h3>Maintenance &amp; alignment (2)</h3>
+<details><summary>Adjustments — 162 words · 1970 - M621 - M621T vint p7.jpg, page 1</summary><p>1 Longitudinal Ba lance Adjustment Strap the amplifier for low gain and apply signal. Adjust the input signal level for convenient output level_ This output level will be the reference level for the following adjustments Tie pins 8 and 16 on the module connector P2 together and apply the same signal voltage between this junction and ground. The input signal is now longitudinally applied_ Adjust Rl8 200 Hz for minimum output_ should be better than 60 dB down .</p><p>The output Strap the amplifier for high gain and reduce the input level by 2 0 aB _ Adjust R13 for minimum output at 200 Hz _ Repeat both steps at least twice since there is 5 ome interaction between the controls With the amplifier strapped for high gain, change the input frequency to 10 kHz and adjust Cll for minimum output _ The adjustments should result in an over-all common mode rejection of 60 aB or greater from 60 Hz to kHz</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20M621T%20vint%20p7.jpg">1970 - M621 - M621T vint p7.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Adjustments — 157 words · 1970 - M621 - 621T - P007.jpg, page 1</summary><p>Longitudinal Balance Ad justment Strap the amplifier for 10w gain and apply signal Adjust the input signal level for convenient output level This output level will be the reference level for the following adjustments Tie pins and 16 on the module connector P2 together and apply the same signal voltage between this junction and ground. The input signal 15 now longitudinally applied.</p><p>Adjust Rl8 @ 200 Hz for minimum output. should be better than 60 aB down. The output Strap the amplifier for high gain and reduce the input level bY 20 dB . Adjust R13 for minimum output at 200 Hz Repeat both steps at least twice interaction between the controls since there 18 some With the amplifier strapped for high gain change the input frequency to 10 kHz and adjust Cll for minimum output.</p><p>The adjustments shoula result in an over-all common mode re jection of 60 aB or greater from 60 Hz to kHz</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621T%20-%20P007.jpg">1970 - M621 - 621T - P007.jpg</a>, p. 1</li>
+</ul>
+<h2>Drawings (49)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="People.html#drawing-staff">Drawn by</a></th>
+<th><a href="People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>621-02-001</td>
+<td>Dotted For Minus Tzeke</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td></td>
+<td></td>
+<td>A</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-001%20-%20DOTTED%20FOR%20MINUS%20TZEKE.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Output Transformer Connect Ions</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp.pdf">file</a> p.31</td>
+</tr>
+<tr>
+<td>173-02-001</td>
+<td>Ohms Capac Itor Values Signations</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-DPS.html">DPS</a></td>
+<td><a href="Person-RAP.html">RAP</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20173-02-001%20-%20OHMS%20CAPAC%20ITOR%20VALUES%20SIGNATIONS.jpg">file</a></td>
+</tr>
+<tr>
+<td>173-02-001</td>
+<td>Watt Monitor Amp</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-DPS.html">DPS</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20173-02-001%20-%20WATT%20MONITOR%20AMP.jpg">file</a></td>
+</tr>
+<tr>
+<td>173-02-001</td>
+<td>Mod Ickd Used</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-DPS.html">DPS</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20173-02-001%20-%20MOD%20ICKD%20USED.jpg">file</a></td>
+</tr>
+<tr>
+<td>173-02-001</td>
+<td>For System Wiring See</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-DPS.html">DPS</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp.pdf">file</a> p.16</td>
+</tr>
+<tr>
+<td>621-02-003</td>
+<td>Watt Monitor Amplifier</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-DPS.html">DPS</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621-02-003%20-%20WATT%20MONITOR%20AMPLIFIER.jpg">file</a></td>
+</tr>
+<tr>
+<td>621-02-003</td>
+<td>Mod Ickd Used</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td></td>
+<td><a href="Person-RT.html">RT</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-003%20-%20MOD%20ICKD%20USED%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>621-02-003</td>
+<td>Mod Ickd Used</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td></td>
+<td><a href="Person-RT.html">RT</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-003%20-%20MOD%20ICKD%20USED.jpg">file</a></td>
+</tr>
+<tr>
+<td>621-02-004</td>
+<td>Connect Ions</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621-02-004%20-%20CONNECT%20IONS.jpg">file</a></td>
+</tr>
+<tr>
+<td>621-02-004</td>
+<td>Output Transforme</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-BJM.html">BJM</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621-02-004%20-%20OUTPUT%20TRANSFORME.jpg">file</a></td>
+</tr>
+<tr>
+<td>621-02-004</td>
+<td>Output Primary Direct Output Signal Ground Chassis Ground</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-BJM.html">BJM</a></td>
+<td><a href="Person-RC.html">RC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-004%20-%20OUTPUT%20PRIMARY%20DIRECT%20OUTPUT%20SIGNAL%20GROUND%20CHASSIS%20GROUND%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>621-02-004</td>
+<td>Output Primary Direct Output Signal Ground Chassis Ground</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-BJM.html">BJM</a></td>
+<td><a href="Person-RC.html">RC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-004%20-%20OUTPUT%20PRIMARY%20DIRECT%20OUTPUT%20SIGNAL%20GROUND%20CHASSIS%20GROUND.jpg">file</a></td>
+</tr>
+<tr>
+<td>621-02-004</td>
+<td>Connect Ions Ohm</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td>BJE</td>
+<td><a href="Person-ES.html">ES</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp.pdf">file</a> p.32</td>
+</tr>
+<tr>
+<td>621-06-002</td>
+<td>Watt Monitor Amplifier</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-BT.html">BT</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621-06-002%20-%20WATT%20MONITOR%20AMPLIFIER.jpg">file</a></td>
+</tr>
+<tr>
+<td>621-06-002</td>
+<td>Heat Sink Anp Fron</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td></td>
+<td>DT</td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20%282%29.pdf">file</a> p.28</td>
+</tr>
+<tr>
+<td>621-06-002</td>
+<td>Notes Cover Not Shown Heat Sink And Front</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-BZ.html">BZ</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp.pdf">file</a> p.28</td>
+</tr>
+<tr>
+<td>B 621-02-003</td>
+<td>M621 / 20 WATT MONITOR AMPLIFIER</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-DPS.html">DPS</a></td>
+<td><a href="Person-RH.html">RH</a></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20621-02-003%20-%2020%20WATT%20MONITOR%20AMPLIFIER%20-%20DRN%20DPS%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 621-02-003</td>
+<td>20 WATT MONITOR AMPLIFIER</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-DPS.html">DPS</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20621-02-003%20-%2020%20WATT%20MONITOR%20AMPLIFIER%20-%20DRN%20DPS%20-%20ISS%203%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 621-02-004</td>
+<td>OUTPUT TRANSFORMER CONNECTIONS (4 OHM / 16 OHM / 150 OHM; title block cut off at right)</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-BJ.html">BJ</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20621-02-004%20-%20OUTPUT%20TRANSFORMER%20CONNECTIONS%20%284%20OHM%2016%20OHM%20150%20OHM%3B%20title%20block%20cut%20-%20DRN%20BJ.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 621-02-004</td>
+<td>M621T OUTPUT TRANSFORMER CONNECTIONS</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-BJ.html">BJ</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20621-02-004%20-%20M621T%20OUTPUT%20TRANSFORMER%20CONNECTIONS%20-%20DRN%20BJ%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 621-06-002</td>
+<td>M621 / 20 WATT MONITOR AMPLIFIER / COMPONENT LAYOUT</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20621-06-002%20-%2020%20WATT%20MONITOR%20AMPLIFIER%20COMPONENT%20LAYOUT%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Watt Monitor Amplifier</td>
+<td></td>
+<td><a href="Person-DPS.html">DPS</a></td>
+<td><a href="Person-RU.html">RU</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20%282%29.pdf">file</a> p.16</td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td><a href="Person-DPS.html">DPS</a></td>
+<td></td>
+<td>C</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20%282%29.pdf">file</a> p.20</td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td><a href="Person-DF.html">DF</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20%282%29.pdf">file</a> p.26</td>
+</tr>
+<tr>
+<td>—</td>
+<td>Watt Monitor Amp System Wring</td>
+<td></td>
+<td><a href="Person-DP.html">DP</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp.pdf">file</a> p.26</td>
+</tr>
+<tr>
+<td>—</td>
+<td>M621</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20M621.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Model M621/M621T 20W Monitor Amplifier Instruction Manual</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20Model%20M621%20M621T%2020W%20Monitor%20Amplifier%20Instruction%20Manual.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/wbsps%20-%20module%20-%20m621%20monitor%20amp%20-%20002.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>M621</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20M621%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/wbsps%20-%20promo%20-%20m621%20monitor%20amp%20-%20002.jpg">file</a></td>
+</tr>
+<tr>
+<td>173-02-001</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20173-02-001.jpg">file</a></td>
+</tr>
+<tr>
+<td>173-02-001</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20173-02-001%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>173-02-001</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20173-02-001%20%283%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>173-02-001</td>
+<td>Notes Unless Otherwise Stated All Resistors Are</td>
+<td></td>
+<td></td>
+<td><a href="Person-RAP.html">RAP</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp.pdf">file</a> p.20</td>
+</tr>
+<tr>
+<td>173-06-001</td>
+<td>Dif Icis</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20173-06-001%20-%20DIF%20ICIS.jpg">file</a></td>
+</tr>
+<tr>
+<td>621-02-002</td>
+<td>Watt Monitor Amp</td>
+<td></td>
+<td><a href="Person-DP.html">DP</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-002%20-%20WATT%20MONITOR%20AMP.jpg">file</a></td>
+</tr>
+<tr>
+<td>621-02-002</td>
+<td>High Common Side Output</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-002%20-%20HIGH%20COMMON%20SIDE%20OUTPUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>621-02-002</td>
+<td>Gain Strapping See Note</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-002%20-%20GAIN%20STRAPPING%20SEE%20NOTE.jpg">file</a></td>
+</tr>
+<tr>
+<td>621-02-002</td>
+<td>Main Building Ground</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-002%20-%20MAIN%20BUILDING%20GROUND.jpg">file</a></td>
+</tr>
+<tr>
+<td>621-02-002</td>
+<td>Main Building Ground Ilss Mod</td>
+<td></td>
+<td><a href="Person-DP.html">DP</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-002%20-%20MAIN%20BUILDING%20GROUND%20ILSS%20MOD%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>621-02-002</td>
+<td>Main Building Ground Ilss Mod</td>
+<td></td>
+<td><a href="Person-DP.html">DP</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-002%20-%20MAIN%20BUILDING%20GROUND%20ILSS%20MOD.jpg">file</a></td>
+</tr>
+<tr>
+<td>621-02-003</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-003.jpg">file</a></td>
+</tr>
+<tr>
+<td>621-02-003</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-003%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>621-02-003</td>
+<td>Gain Control</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-003%20-%20GAIN%20CONTROL.jpg">file</a></td>
+</tr>
+<tr>
+<td>621-02-004</td>
+<td>Ifier Output Chassis Amplifier Common Signa</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-004%20-%20IFIER%20OUTPUT%20CHASSIS%20AMPLIFIER%20COMMON%20SIGNA.jpg">file</a></td>
+</tr>
+<tr>
+<td>621-02-004</td>
+<td>Output Privary Direct Output Signa Ground</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-02-004%20-%20OUTPUT%20PRIVARY%20DIRECT%20OUTPUT%20SIGNA%20GROUND.jpg">file</a></td>
+</tr>
+<tr>
+<td>621-06-002</td>
+<td>Heat Sink And Front Panel Shown Separate For</td>
+<td></td>
+<td><a href="Person-BT.html">BT</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20M621%20-%20621-06-002%20-%20HEAT%20SINK%20AND%20FRONT%20PANEL%20SHOWN%20SEPARATE%20FOR.jpg">file</a></td>
+</tr>
+<tr>
+<td>621-06-002</td>
+<td>Heat Sink</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1970%20-%20M621%20-%20621-06-002%20-%20HEAT%20SINK.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M621&quot;,
+ &quot;name&quot;: &quot;20 Watt Monitor Amplifier&quot;,
+ &quot;category&quot;: &quot;AMPLIFIERS&quot;,
+ &quot;year&quot;: 1970,
+ &quot;connections&quot;: {
+  &quot;from&quot;: &quot;its own documents&quot;,
+  &quot;inputs&quot;: [
+   &quot;In P Ut&quot;,
+   &quot;In 9 14 In&quot;
+  ],
+  &quot;outputs&quot;: [
+   &quot;Output&quot;
+  ],
+  &quot;power&quot;: [],
+  &quot;control&quot;: [
+   &quot;Remote Gain&quot;,
+   &quot;Mu Te Control&quot;
+  ]
+ },
+ &quot;made_of&quot;: [
+  &quot;80-13&quot;
+ ],
+ &quot;part_of&quot;: [
+  &quot;73050&quot;,
+  &quot;Rseriesinstallationmanual&quot;,
+  &quot;Rseriesinstallguide&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 173-02-001 (2).jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 173-02-001 (3).jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 173-02-001 - MOD ICKD USED.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 173-02-001.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 173-06-001 - DIF ICIS.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 621-02-001 - DOTTED FOR MINUS TZEKE.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 621-02-002 - GAIN STRAPPING SEE NOTE.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 621-02-002 - HIGH COMMON SIDE OUTPUT.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 621-02-002 - MAIN BUILDING GROUND ILSS MOD (2).jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 621-02-002 - MAIN BUILDING GROUND ILSS MOD.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 621-02-002 - MAIN BUILDING GROUND.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 621-02-002 - WATT MONITOR AMP.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 621-02-003 (2).jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 621-02-003 - GAIN CONTROL.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 621-02-003 - MOD ICKD USED (2).jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 621-02-003 - MOD ICKD USED.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 621-02-003.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 621-02-004 - IFIER OUTPUT CHASSIS AMPLIFIER COMMON SIGNA.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 621-02-004 - OUTPUT PRIMARY DIRECT OUTPUT SIGNAL GROUND CHASSIS GROUND (2).jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 621-02-004 - OUTPUT PRIMARY DIRECT OUTPUT SIGNAL GROUND CHASSIS GROUND.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 621-02-004 - OUTPUT PRIVARY DIRECT OUTPUT SIGNA GROUND.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 621-06-002 - HEAT SINK.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 621T - P001 - Title Page.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 621T - P002.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 621T - P003.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 621T - P004.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 621T - P005.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 621T - P006.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 621T - P007.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 621T - P008.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 621T - P009.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 621T - P010.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 621T - P011.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - 621T - P012.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - B 173-06-001 - M621 - 20W MONITOR AMPLIFIER - P.C.B. LAYOUT (2).jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - B 173-06-001 - M621 - 20W MONITOR AMPLIFIER - P.C.B. LAYOUT.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - B 621-06-002 - M621 - 20 WATT MONITOR AMPLIFIER - COMPONENT LAYOUT.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - M621T vint p1.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - M621T vint p10.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - M621T vint p11.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - M621T vint p12.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - M621T vint p3.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - M621T vint p4.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - M621T vint p5.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - M621T vint p6.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - M621T vint p7.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - M621T vint p8.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - M621T vint p9.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - MODEL M621-M621T 20W MONITOR AMPLIFIER INSTRUCTION MANUAL.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - wbsps - module - m621 monitor amp - 001.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - wbsps - module - m621 monitor amp - 002.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - wbsps - module - m621 power amplifier (2).jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - wbsps - module - m621 power amplifier.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - wbsps - module - m621 power amplifier_small.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - wbsps - promo - m621 monitor amp - 001.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - wbsps - promo - m621 monitor amp - 001_small.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - wbsps - promo - m621 monitor amp - 002.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - wbsps - promo - m621 monitor amp - 002_small.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - wbsps - promo - m621 monitor amp - 003.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1970 - M621 - wbsps - promo - m621 monitor amp - 004.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1973 - 621-02-003 - 20 WATT MONITOR AMPLIFIER - DRN DPS - ISS 3 (2).jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1973 - 621-02-003 - 20 WATT MONITOR AMPLIFIER - DRN DPS - ISS 3.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1973 - 621-02-004 - M621T OUTPUT TRANSFORMER CONNECTIONS - DRN BJ - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1973 - 621-02-004 - OUTPUT TRANSFORMER CONNECTIONS (4 OHM 16 OHM 150 OHM; title block cut - DRN BJ.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1973 - M621 - 173-02-001 - OHMS CAPAC ITOR VALUES SIGNATIONS.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1973 - M621 - 173-02-001 - WATT MONITOR AMP.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1973 - M621 - 621-02-003 - WATT MONITOR AMPLIFIER.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1973 - M621 - 621-02-004 - CONNECT IONS.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1973 - M621 - 621-02-004 - OUTPUT TRANSFORME.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1973 - M621 - 621-06-002 - HEAT SINK AND FRONT PANEL SHOWN SEPARATE FOR.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1973 - M621 - 621-06-002 - WATT MONITOR AMPLIFIER.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1973 - M621 - 621T - 20W Monitor Amp (2).pdf&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 32,
+   &quot;holds&quot;: [
+    &quot;connections&quot;,
+    &quot;dates&quot;,
+    &quot;modules&quot;,
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/1973 - M621 - 621T - 20W Monitor Amp.pdf&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 32,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/RM424S/1975 - RM424S - PRICE LIST - PRICE LIST.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/19xx - M621 - DOC - US Sales Brochure pg 2.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/19xx - M621 - DOC - US Sales Brochure pg 3.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/19xx - M621 - M621 (2).jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/19xx - M621 - M621.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/wbsps - promo - m621 monitor amp - 002.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M648/19xx - M648 - AD - wbsps - ad - 600 series.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M648/19xx - M648 - DOC - US Sales Brochure pg 11.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/POWER/M648/19xx - M648 - DOC - wbsps - ad - 600 series.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M457/19xx - M457 - DOC - L2042 - P05.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M498/19xx - M498 - DOC - L3242 - P05.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../_catalog/libcontrol/libcontrol.css"><script src="../_catalog/libcontrol/react.js"></script><script src="../_catalog/libcontrol/react-dom.js"></script><script src="../_catalog/libcontrol/libcontrol.js"></script><script src="../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M621.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

@@ -1,0 +1,26 @@
+{
+  "source": "/home/anthony/Documents/GitProjects/WBSps.ca/WBSps.env/WBSps Engineering from H drive/WBSps - SA14-XXX/SA14-280/14-280.PCB",
+  "kicad_pcb": "/home/anthony/Documents/GitProjects/WBSps.ca/2026/Engineering/PCB/14-280 - SA14-280 INPUT AMPLIFIER ASSEMBLY/14-280.kicad_pcb",
+  "format": "Tango-PCB PLUS V2.02 Series II",
+  "edge_layer": 14,
+  "tango_layers_used": {
+    "0": 524,
+    "1": 1423,
+    "4": 60,
+    "8": 734,
+    "10": 46,
+    "14": 6,
+    "16": 63,
+    "18": 62
+  },
+  "counts": {
+    "components": 103,
+    "pads": 277,
+    "tracks": 1870,
+    "vias": 28,
+    "graphics": 873,
+    "texts": 104,
+    "pours": 71
+  },
+  "nets": null
+}

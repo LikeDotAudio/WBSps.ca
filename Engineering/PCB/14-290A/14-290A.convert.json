@@ -1,0 +1,25 @@
+{
+  "source": "/home/anthony/Documents/GitProjects/WBSps.ca/WBSps.env/WBSps Engineering from H drive/WBSps - CONSOLES/REN TV Console/M922/OLD/14-290A.PCB",
+  "kicad_pcb": "/home/anthony/Documents/GitProjects/WBSps.ca/2026/Engineering/PCB/14-290A/14-290A.kicad_pcb",
+  "format": "Tango-PCB PLUS V2.02 Series II",
+  "edge_layer": 14,
+  "tango_layers_used": {
+    "0": 514,
+    "1": 902,
+    "4": 231,
+    "8": 1107,
+    "10": 2,
+    "14": 22,
+    "17": 27
+  },
+  "counts": {
+    "components": 168,
+    "pads": 527,
+    "tracks": 1380,
+    "vias": 7,
+    "graphics": 1310,
+    "texts": 105,
+    "pours": 10
+  },
+  "nets": null
+}

@@ -1,0 +1,128 @@
+# 19xx - INTERCOM PANEL(24 WAY) CONNECTOR BRACKET - DRN DRG.jpg
+Wiki page: [Consoles](../../PAGES/Consoles.md)
+
+
+- **Year:** unknown (title block (read by eye))
+- **Type:** drawing / photo from WBS Photos-1-001
+
+## Title block (found by software, read by eye)
+
+- **Size:** D
+- **Title:** INTERCOM PANEL(24 WAY) / CONNECTOR BRACKET
+- **Drawn:** DRG
+- **Confidence:** low
+
+- **Original file:** `WBSps.env/WBS Photos-1-001/2021-3-16-23-43-11.jpg`
+- **SHA-256:** `8fb0be076d2668220bd95f30fb243a3834e49a9cbc8fe84b1671c041c07171fc`
+- **Size:** 345,691 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 2 words corrected)
+
+```text
+0.30
+250
+0.725
+975
+NOTE CRIENTATON
+DETAIL
+2.75
+6,950
+2788CHES.500
+DETAIL
+PUNCH OBLONG(0.1,25 0.25) REO 0
+0.125 DIA C Sk 82 To 0.240 DIA REES
+0.468
+4OUNC PLACES
+0.234
+710
+0.844
+420
+1.688
+0.328
+0.516 031
+0.50
+0.400
+MATERIAL: ALUM ALLOY 0.080 THICK:
+0.800
+24-40 UNC
+PLACES
+SSUE
+REVISION
+FINISH: SAND 120 GRIT AND PAINT TEXTURED GREY TEXCOTE VINYL_
+0.968 DIA
+WBS
+WARD-BECK   SYSTEMS
+METAL
+DETAIL
+DRN: DRC ENG. INTERCOM PANEL(24 WAY) CKD CONNECTOR BRACKET APP_ SCALE DISC NO: Sysoi ISSUE OC07i0 CcO
+NOTE: REMOVE ALL BURRS AND SHARP EDGES: TOLERANCES: XX-+/-0.015 XXX +/-0.005
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+0.30
+250
+0.725
+975
+NOTE CRIENTATON
+DETAIL
+2.75
+6,950
+2788CHES.500
+DETAIL
+PUNCH OBLONG(0.1,25 0.25) REO 0
+0.125 DIA C Sk 82 To 0.240 DIA REES
+0.468
+4OUNC PLACES
+0.234
+710
+0.844
+420
+1.688
+0.328
+0.516 031
+0.50
+0.400
+MATERIAL: ALUM ALLOY 0.080 THICK:
+0.800
+24-40 UNC
+PLACES
+SSUE
+REVISICN
+FINISH: SAND 120 GRIT AND PAINT TEXTURED GREY TEXCOTE VINYL_
+0.968 DIA
+WBS
+WARD-BECK   SYSTEMS
+DETAL
+DETAIL
+DRN: DRC ENG. INTERCOM PANEL(24 WAY) CKD CONNECTOR BRACKET APP_ SCALE DISC NO: Sysoi ISSUE OC07i0 CcO
+NOTE: REMOVE ALL BURRS AND SHARP EDGES: TOLERANCES: XX-+/-0.015 XXX +/-0.005
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{
+ "file": "PHOTOS/Drawings/19xx - INTERCOM PANEL(24 WAY) CONNECTOR BRACKET - DRN DRG.jpg",
+ "sha256": "8fb0be076d2668220bd95f30fb243a3834e49a9cbc8fe84b1671c041c07171fc",
+ "kind": "photo",
+ "pages": 1,
+ "order": [
+  {
+   "page": 1,
+   "title_block": [
+    {
+     "title": "INTERCOM PANEL(24 WAY) / CONNECTOR BRACKET",
+     "drawn": "DRG"
+    }
+   ]
+  }
+ ]
+}
+```

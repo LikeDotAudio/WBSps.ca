@@ -1,0 +1,86 @@
+{
+ "code": "M490D",
+ "series": null,
+ "type": "M490D",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "I1",
+   "signal": "Line B In",
+   "dir": "in",
+   "pos": "I1P",
+   "neg": "I1N",
+   "src_page": 1
+  },
+  {
+   "port": "I2",
+   "signal": "Line A In",
+   "dir": "in",
+   "pos": "I2P",
+   "neg": "I2N",
+   "src_page": 1
+  },
+  {
+   "port": "O1",
+   "signal": "Ch B Ctl Out",
+   "dir": "out",
+   "pos": "O1P",
+   "neg": "O1N",
+   "src_page": 1
+  },
+  {
+   "port": "O2",
+   "signal": "Ch A Ctl Out",
+   "dir": "out",
+   "pos": "O2P",
+   "neg": "O2N",
+   "src_page": 1
+  }
+ ],
+ "power": [],
+ "logic": [
+  {
+   "signal": "Line B Ctl",
+   "pin": ""
+  },
+  {
+   "signal": "Line A Ctl",
+   "pin": ""
+  },
+  {
+   "signal": "Line Ctl Com",
+   "pin": ""
+  },
+  {
+   "signal": "Ext Cue",
+   "pin": ""
+  },
+  {
+   "signal": "Timer Reset",
+   "pin": ""
+  },
+  {
+   "signal": "On Ctl",
+   "pin": ""
+  },
+  {
+   "signal": "Off Ctl",
+   "pin": ""
+  },
+  {
+   "signal": "Off Tally",
+   "pin": ""
+  }
+ ],
+ "ground": [
+  "CHASSIS"
+ ],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "98c08c136ae638f90161371388b0e70e8e6d2f64ebea9b37b83785cb70d053a9"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one. (this device has one)"
+}

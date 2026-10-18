@@ -1,0 +1,934 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M413 — Talkback Amplifier</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>M413 — Talkback Amplifier</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="Category-MONITORING.html">MONITORING</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../simulator.html?m=M413">simulator &amp; front panel</a> · <a href="../_packages/M413.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="Year-1969.html">1969|2</a> — title-block date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"DATE NOv 69" in WBS Photos-1-001/Scan_20210323 (11).jpg</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="Year-1969.html">1969|2</a>, <a href="Year-1978.html">1978|11</a></td>
+</tr>
+<tr>
+<td>Used in jobs</td>
+<td><a href="Job-77012.html">77012</a> (1977|10)</td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../Modules/MONITORING/M413/index.html">Modules/MONITORING/M413</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections</h2>
+<p><em>What it is made of and what it is part of.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M413" data-n="Talkback Amplifier" data-cat="MONITORING"></div><svg class="wbs-panel" data-m="M413" data-n="Talkback Amplifier" data-cat="MONITORING" role="img" aria-label="M413 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M413","title":"Talkback Amplifier","rto":{"code":"M413","series":null,"type":null,"row_count":null,"impedance":{"out":600},"note":null,"audio":[],"bus_out":[],"bus_in":[],"power":[],"jumpers":[],"logic":[]},"parts":[],"parents":[{"label":"77012","href":"Job-77012.html","note":"04-002 L2042 layout iss 5"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20413-03-001%20-%20ESCUTCHEON%20-%20ISS%205.jpg"><img loading="lazy" src="../Modules/MONITORING/M413/1969%20-%20413-03-001%20-%20ESCUTCHEON%20-%20ISS%205.jpg" alt="" data-f="Modules/MONITORING/M413/1969 - 413-03-001 - ESCUTCHEON - ISS 5.jpg" data-size="320" onerror="wbsOff(this)">1969 - 413-03-001 - ESCUTCHEON - ISS 5.jpg</a><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20413-03-002%20-%20SWITCH%20MTG.%20PLATE%20-%20ISS%203.jpg"><img loading="lazy" src="../Modules/MONITORING/M413/1969%20-%20413-03-002%20-%20SWITCH%20MTG.%20PLATE%20-%20ISS%203.jpg" alt="" data-f="Modules/MONITORING/M413/1969 - 413-03-002 - SWITCH MTG. PLATE - ISS 3.jpg" data-size="320" onerror="wbsOff(this)">1969 - 413-03-002 - SWITCH MTG. PLATE - ISS 3.jpg</a><a href="../viewer.html?f=Modules/MONITORING/M413/1978%20-%20M413%20-%20168-06-001%20-%20TALK%20BACK%20AMPLIFIER%20LAYCUT%20RACT.jpg"><img loading="lazy" src="../Modules/MONITORING/M413/1978%20-%20M413%20-%20168-06-001%20-%20TALK%20BACK%20AMPLIFIER%20LAYCUT%20RACT.jpg" alt="" data-f="Modules/MONITORING/M413/1978 - M413 - 168-06-001 - TALK BACK AMPLIFIER LAYCUT RACT.jpg" data-size="320" onerror="wbsOff(this)">1978 - M413 - 168-06-001 - TALK BACK AMPLIFIER LAYCUT RACT.jpg</a><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20413-02-001%20-%20TALK%20BACK%20AMPLIFIER.jpg"><img loading="lazy" src="../Modules/MONITORING/M413/1969%20-%20M413%20-%20413-02-001%20-%20TALK%20BACK%20AMPLIFIER.jpg" alt="" data-f="Modules/MONITORING/M413/1969 - M413 - 413-02-001 - TALK BACK AMPLIFIER.jpg" data-size="320" onerror="wbsOff(this)">1969 - M413 - 413-02-001 - TALK BACK AMPLIFIER.jpg</a><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20413-02-002%20-%20TALK%20BACK%20AMPLIFIER%20SYSTEM%20WIRING%20FRACT.jpg"><img loading="lazy" src="../Modules/MONITORING/M413/1969%20-%20M413%20-%20413-02-002%20-%20TALK%20BACK%20AMPLIFIER%20SYSTEM%20WIRING%20FRACT.jpg" alt="" data-f="Modules/MONITORING/M413/1969 - M413 - 413-02-002 - TALK BACK AMPLIFIER SYSTEM WIRING FRACT.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1969 - M413 - 413-02-002 - TALK BACK AMPLIFIER SYSTEM WIRING FRACT.jpg</a><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20413-02-003%20-%20TALK%20BACK%20AMPLIFIER%20PLUG%20CONNECTIONS%20FRACT.jpg"><img loading="lazy" src="../Modules/MONITORING/M413/1969%20-%20M413%20-%20413-02-003%20-%20TALK%20BACK%20AMPLIFIER%20PLUG%20CONNECTIONS%20FRACT.jpg" alt="" data-f="Modules/MONITORING/M413/1969 - M413 - 413-02-003 - TALK BACK AMPLIFIER PLUG CONNECTIONS FRACT.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1969 - M413 - 413-02-003 - TALK BACK AMPLIFIER PLUG CONNECTIONS FRACT.jpg</a><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0261.jpg"><img loading="lazy" src="../Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0261.jpg" alt="" data-f="Modules/MONITORING/M413/1969 - M413 - IMG_0261.jpg" data-size="320" onerror="wbsOff(this)">1969 - M413 - IMG_0261.jpg</a><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0262.jpg"><img loading="lazy" src="../Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0262.jpg" alt="" data-f="Modules/MONITORING/M413/1969 - M413 - IMG_0262.jpg" data-size="320" onerror="wbsOff(this)">1969 - M413 - IMG_0262.jpg</a><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0263.jpg"><img loading="lazy" src="../Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0263.jpg" alt="" data-f="Modules/MONITORING/M413/1969 - M413 - IMG_0263.jpg" data-size="320" onerror="wbsOff(this)">1969 - M413 - IMG_0263.jpg</a><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0265.jpg"><img loading="lazy" src="../Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0265.jpg" alt="" data-f="Modules/MONITORING/M413/1969 - M413 - IMG_0265.jpg" data-size="320" onerror="wbsOff(this)">1969 - M413 - IMG_0265.jpg</a><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0266.jpg"><img loading="lazy" src="../Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0266.jpg" alt="" data-f="Modules/MONITORING/M413/1969 - M413 - IMG_0266.jpg" data-size="320" onerror="wbsOff(this)">1969 - M413 - IMG_0266.jpg</a><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0267.jpg"><img loading="lazy" src="../Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0267.jpg" alt="" data-f="Modules/MONITORING/M413/1969 - M413 - IMG_0267.jpg" data-size="320" onerror="wbsOff(this)">1969 - M413 - IMG_0267.jpg</a><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0268.jpg"><img loading="lazy" src="../Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0268.jpg" alt="" data-f="Modules/MONITORING/M413/1969 - M413 - IMG_0268.jpg" data-size="320" onerror="wbsOff(this)">1969 - M413 - IMG_0268.jpg</a><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0269.jpg"><img loading="lazy" src="../Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0269.jpg" alt="" data-f="Modules/MONITORING/M413/1969 - M413 - IMG_0269.jpg" data-size="320" onerror="wbsOff(this)">1969 - M413 - IMG_0269.jpg</a><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0271.jpg"><img loading="lazy" src="../Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0271.jpg" alt="" data-f="Modules/MONITORING/M413/1969 - M413 - IMG_0271.jpg" data-size="320" onerror="wbsOff(this)">1969 - M413 - IMG_0271.jpg</a><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0272.jpg"><img loading="lazy" src="../Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0272.jpg" alt="" data-f="Modules/MONITORING/M413/1969 - M413 - IMG_0272.jpg" data-size="320" onerror="wbsOff(this)">1969 - M413 - IMG_0272.jpg</a><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0273.jpg"><img loading="lazy" src="../Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0273.jpg" alt="" data-f="Modules/MONITORING/M413/1969 - M413 - IMG_0273.jpg" data-size="320" onerror="wbsOff(this)">1969 - M413 - IMG_0273.jpg</a><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20P1.jpg"><img loading="lazy" src="../Modules/MONITORING/M413/1969%20-%20M413%20-%20P1.jpg" alt="" data-f="Modules/MONITORING/M413/1969 - M413 - P1.jpg" data-size="320" onerror="wbsOff(this)">1969 - M413 - P1.jpg</a><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20P2.jpg"><img loading="lazy" src="../Modules/MONITORING/M413/1969%20-%20M413%20-%20P2.jpg" alt="" data-f="Modules/MONITORING/M413/1969 - M413 - P2.jpg" data-size="320" onerror="wbsOff(this)">1969 - M413 - P2.jpg</a><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20P3.jpg"><img loading="lazy" src="../Modules/MONITORING/M413/1969%20-%20M413%20-%20P3.jpg" alt="" data-f="Modules/MONITORING/M413/1969 - M413 - P3.jpg" data-size="320" onerror="wbsOff(this)">1969 - M413 - P3.jpg</a><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20P4.jpg"><img loading="lazy" src="../Modules/MONITORING/M413/1969%20-%20M413%20-%20P4.jpg" alt="" data-f="Modules/MONITORING/M413/1969 - M413 - P4.jpg" data-size="320" onerror="wbsOff(this)">1969 - M413 - P4.jpg</a><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20P5.jpg"><img loading="lazy" src="../Modules/MONITORING/M413/1969%20-%20M413%20-%20P5.jpg" alt="" data-f="Modules/MONITORING/M413/1969 - M413 - P5.jpg" data-size="320" onerror="wbsOff(this)">1969 - M413 - P5.jpg</a><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20wbsps%20-%20module%20-%20m413%20-%20talk%20back%20module%20002.jpg"><img loading="lazy" src="../Modules/MONITORING/M413/1969%20-%20M413%20-%20wbsps%20-%20module%20-%20m413%20-%20talk%20back%20module%20002.jpg" alt="" data-f="Modules/MONITORING/M413/1969 - M413 - wbsps - module - m413 - talk back module 002.jpg" data-size="320" onerror="wbsOff(this)">1969 - M413 - wbsps - module - m413 - talk back module 002.jpg</a><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20wbsps%20-%20module%20-%20m413%20-%20talk%20back%20module%20002_small.jpg"><img loading="lazy" src="../Modules/MONITORING/M413/1969%20-%20M413%20-%20wbsps%20-%20module%20-%20m413%20-%20talk%20back%20module%20002_small.jpg" alt="" data-f="Modules/MONITORING/M413/1969 - M413 - wbsps - module - m413 - talk back module 002_small.jpg" data-size="320" onerror="wbsOff(this)">1969 - M413 - wbsps - module - m413 - talk back module 002_small.jpg</a><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20wbsps%20-%20module%20-%20m413%20-%20talk%20back%20module.jpg"><img loading="lazy" src="../Modules/MONITORING/M413/1969%20-%20M413%20-%20wbsps%20-%20module%20-%20m413%20-%20talk%20back%20module.jpg" alt="" data-f="Modules/MONITORING/M413/1969 - M413 - wbsps - module - m413 - talk back module.jpg" data-size="320" onerror="wbsOff(this)">1969 - M413 - wbsps - module - m413 - talk back module.jpg</a><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20wbsps%20-%20module%20-%20m413%20-%20talk%20back%20module_small.jpg"><img loading="lazy" src="../Modules/MONITORING/M413/1969%20-%20M413%20-%20wbsps%20-%20module%20-%20m413%20-%20talk%20back%20module_small.jpg" alt="" data-f="Modules/MONITORING/M413/1969 - M413 - wbsps - module - m413 - talk back module_small.jpg" data-size="320" onerror="wbsOff(this)">1969 - M413 - wbsps - module - m413 - talk back module_small.jpg</a><a href="../viewer.html?f=Modules/MONITORING/M413/1970%20-%20413-02-001%20-%20TALK%20BACK%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DPS%20-%20ISS%204%20%282%29.jpg"><img loading="lazy" src="../Modules/MONITORING/M413/1970%20-%20413-02-001%20-%20TALK%20BACK%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DPS%20-%20ISS%204%20%282%29.jpg" alt="" data-f="Modules/MONITORING/M413/1970 - 413-02-001 - TALK BACK AMPLIFIER SCHEMATIC - DRN DPS - ISS 4 (2).jpg" data-size="320" onerror="wbsOff(this)">1970 - 413-02-001 - TALK BACK AMPLIFIER SCHEMATIC - DRN DPS - ISS 4 (2).jpg</a><a href="../viewer.html?f=Modules/MONITORING/M413/1970%20-%20413-02-001%20-%20TALK%20BACK%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DPS%20-%20ISS%204.jpg"><img loading="lazy" src="../Modules/MONITORING/M413/1970%20-%20413-02-001%20-%20TALK%20BACK%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DPS%20-%20ISS%204.jpg" alt="" data-f="Modules/MONITORING/M413/1970 - 413-02-001 - TALK BACK AMPLIFIER SCHEMATIC - DRN DPS - ISS 4.jpg" data-size="320" onerror="wbsOff(this)">1970 - 413-02-001 - TALK BACK AMPLIFIER SCHEMATIC - DRN DPS - ISS 4.jpg</a><a href="../viewer.html?f=Modules/MONITORING/M413/1970%20-%20413-02-002%20-%20TALK%20BACK%20AMPLIFIER%20SYSTEM%20WIRING%20-%20DRN%20DPS%20-%20ISS%202.jpg"><img loading="lazy" src="../Modules/MONITORING/M413/1970%20-%20413-02-002%20-%20TALK%20BACK%20AMPLIFIER%20SYSTEM%20WIRING%20-%20DRN%20DPS%20-%20ISS%202.jpg" alt="" data-f="Modules/MONITORING/M413/1970 - 413-02-002 - TALK BACK AMPLIFIER SYSTEM WIRING - DRN DPS - ISS 2.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1970 - 413-02-002 - TALK BACK AMPLIFIER SYSTEM WIRING - DRN DPS - ISS 2.jpg</a><a href="../viewer.html?f=Modules/MONITORING/M413/1970%20-%20413-02-003%20-%20TALK%20BACK%20AMPLIFIER%20PLUG%20CONNECTIONS%20-%20DRN%20DPS%20-%20ISS%202.jpg"><img loading="lazy" src="../Modules/MONITORING/M413/1970%20-%20413-02-003%20-%20TALK%20BACK%20AMPLIFIER%20PLUG%20CONNECTIONS%20-%20DRN%20DPS%20-%20ISS%202.jpg" alt="" data-f="Modules/MONITORING/M413/1970 - 413-02-003 - TALK BACK AMPLIFIER PLUG CONNECTIONS - DRN DPS - ISS 2.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1970 - 413-02-003 - TALK BACK AMPLIFIER PLUG CONNECTIONS - DRN DPS - ISS 2.jpg</a><a href="../viewer.html?f=Modules/MONITORING/M413/19xx%20-%20M413%20-%20Manual%20Index%20M413%20Talkback%20Module.jpg"><img loading="lazy" src="../Modules/MONITORING/M413/19xx%20-%20M413%20-%20Manual%20Index%20M413%20Talkback%20Module.jpg" alt="" data-f="Modules/MONITORING/M413/19xx - M413 - Manual Index M413 Talkback Module.jpg" data-size="320" onerror="wbsOff(this)">19xx - M413 - Manual Index M413 Talkback Module.jpg</a><a href="../viewer.html?f=Consoles/1970-1979/77012%20-%2004-002%20L2042%20layout%20iss%205/1977%20-%2077012%20-%20b%20%283%29.jpg"><img loading="lazy" src="../Consoles/1970-1979/77012%20-%2004-002%20L2042%20layout%20iss%205/1977%20-%2077012%20-%20b%20%283%29.jpg" alt="" data-f="Consoles/1970-1979/77012 - 04-002 L2042 layout iss 5/1977 - 77012 - b (3).jpg" data-size="320" onerror="wbsOff(this)">1977 - 77012 - b (3).jpg</a><a href="../viewer.html?f=Modules/UNSORTED/M168/1970%20-%20168-06-001%20-%20M413%20TALK%20BACK%20AMPLIFIER%20LAYOUT%20-%20DRN%20DPS%20-%20ISS%202.jpg"><img loading="lazy" src="../Modules/UNSORTED/M168/1970%20-%20168-06-001%20-%20M413%20TALK%20BACK%20AMPLIFIER%20LAYOUT%20-%20DRN%20DPS%20-%20ISS%202.jpg" alt="" data-f="Modules/UNSORTED/M168/1970 - 168-06-001 - M413 TALK BACK AMPLIFIER LAYOUT - DRN DPS - ISS 2.jpg" data-size="320" onerror="wbsOff(this)">1970 - 168-06-001 - M413 TALK BACK AMPLIFIER LAYOUT - DRN DPS - ISS 2.jpg</a></div>
+
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-1969.html">1969|2</a></td>
+<td>title-block date</td>
+<td><code>DATE NOv 69</code></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20413-03-001%20-%20ESCUTCHEON%20-%20ISS%205.jpg">1969 - 413-03-001 - ESCUTCHEON - ISS 5.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1969.html">1969|2</a></td>
+<td>month &amp; year</td>
+<td><code>NOv - 69</code></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20413-03-002%20-%20SWITCH%20MTG.%20PLATE%20-%20ISS%203.jpg">1969 - 413-03-002 - SWITCH MTG. PLATE - ISS 3.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td>month &amp; year</td>
+<td><code>FEB. 1978</code></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1978%20-%20M413%20-%20168-06-001%20-%20TALK%20BACK%20AMPLIFIER%20LAYCUT%20RACT.jpg">1978 - M413 - 168-06-001 - TALK BACK AMPLIFIER LAYCUT RACT.jpg</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Physical manual inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Location</th>
+<th>Status</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>WB</td>
+<td></td>
+<td>Scanned</td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (31)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1969|2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20413-03-001%20-%20ESCUTCHEON%20-%20ISS%205.jpg">1969 - 413-03-001 - ESCUTCHEON - ISS 5.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20413-03-001%20-%20ESCUTCHEON%20-%20ISS%205.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1969|2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20413-03-002%20-%20SWITCH%20MTG.%20PLATE%20-%20ISS%203.jpg">1969 - 413-03-002 - SWITCH MTG. PLATE - ISS 3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20413-03-002%20-%20SWITCH%20MTG.%20PLATE%20-%20ISS%203.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1969|2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20413-02-001%20-%20TALK%20BACK%20AMPLIFIER.jpg">1969 - M413 - 413-02-001 - TALK BACK AMPLIFIER.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20413-02-001%20-%20TALK%20BACK%20AMPLIFIER.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1969|2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20413-02-002%20-%20TALK%20BACK%20AMPLIFIER%20SYSTEM%20WIRING%20FRACT.jpg">1969 - M413 - 413-02-002 - TALK BACK AMPLIFIER SYSTEM WIRING FRACT.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20413-02-002%20-%20TALK%20BACK%20AMPLIFIER%20SYSTEM%20WIRING%20FRACT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1969|2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20413-02-003%20-%20TALK%20BACK%20AMPLIFIER%20PLUG%20CONNECTIONS%20FRACT.jpg">1969 - M413 - 413-02-003 - TALK BACK AMPLIFIER PLUG CONNECTIONS FRACT.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20413-02-003%20-%20TALK%20BACK%20AMPLIFIER%20PLUG%20CONNECTIONS%20FRACT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1969|2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0261.jpg">1969 - M413 - IMG_0261.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0261.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1969|2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0262.jpg">1969 - M413 - IMG_0262.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0262.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1969|2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0263.jpg">1969 - M413 - IMG_0263.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0263.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1969|2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0265.jpg">1969 - M413 - IMG_0265.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0265.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1969|2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0266.jpg">1969 - M413 - IMG_0266.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0266.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1969|2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0267.jpg">1969 - M413 - IMG_0267.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0267.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1969|2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0268.jpg">1969 - M413 - IMG_0268.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0268.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1969|2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0269.jpg">1969 - M413 - IMG_0269.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0269.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1969|2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0271.jpg">1969 - M413 - IMG_0271.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0271.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1969|2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0272.jpg">1969 - M413 - IMG_0272.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0272.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1969|2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0273.jpg">1969 - M413 - IMG_0273.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20IMG_0273.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1969|2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20P1.jpg">1969 - M413 - P1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20P1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1969|2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20P2.jpg">1969 - M413 - P2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20P2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1969|2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20P3.jpg">1969 - M413 - P3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20P3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1969|2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20P4.jpg">1969 - M413 - P4.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20P4.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1969|2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20P5.jpg">1969 - M413 - P5.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20P5.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1969|2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20wbsps%20-%20module%20-%20m413%20-%20talk%20back%20module%20002.jpg">1969 - M413 - wbsps - module - m413 - talk back module 002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20wbsps%20-%20module%20-%20m413%20-%20talk%20back%20module%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1969|2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20wbsps%20-%20module%20-%20m413%20-%20talk%20back%20module%20002_small.jpg">1969 - M413 - wbsps - module - m413 - talk back module 002_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20wbsps%20-%20module%20-%20m413%20-%20talk%20back%20module%20002_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1969|2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20wbsps%20-%20module%20-%20m413%20-%20talk%20back%20module.jpg">1969 - M413 - wbsps - module - m413 - talk back module.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20wbsps%20-%20module%20-%20m413%20-%20talk%20back%20module.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1969|2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20wbsps%20-%20module%20-%20m413%20-%20talk%20back%20module_small.jpg">1969 - M413 - wbsps - module - m413 - talk back module_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20wbsps%20-%20module%20-%20m413%20-%20talk%20back%20module_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1970%20-%20413-02-001%20-%20TALK%20BACK%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DPS%20-%20ISS%204%20%282%29.jpg">1970 - 413-02-001 - TALK BACK AMPLIFIER SCHEMATIC - DRN DPS - ISS 4 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1970%20-%20413-02-001%20-%20TALK%20BACK%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DPS%20-%20ISS%204%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1970%20-%20413-02-001%20-%20TALK%20BACK%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DPS%20-%20ISS%204.jpg">1970 - 413-02-001 - TALK BACK AMPLIFIER SCHEMATIC - DRN DPS - ISS 4.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1970%20-%20413-02-001%20-%20TALK%20BACK%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DPS%20-%20ISS%204.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1970%20-%20413-02-002%20-%20TALK%20BACK%20AMPLIFIER%20SYSTEM%20WIRING%20-%20DRN%20DPS%20-%20ISS%202.jpg">1970 - 413-02-002 - TALK BACK AMPLIFIER SYSTEM WIRING - DRN DPS - ISS 2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1970%20-%20413-02-002%20-%20TALK%20BACK%20AMPLIFIER%20SYSTEM%20WIRING%20-%20DRN%20DPS%20-%20ISS%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1970%20-%20413-02-003%20-%20TALK%20BACK%20AMPLIFIER%20PLUG%20CONNECTIONS%20-%20DRN%20DPS%20-%20ISS%202.jpg">1970 - 413-02-003 - TALK BACK AMPLIFIER PLUG CONNECTIONS - DRN DPS - ISS 2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1970%20-%20413-02-003%20-%20TALK%20BACK%20AMPLIFIER%20PLUG%20CONNECTIONS%20-%20DRN%20DPS%20-%20ISS%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1978%20-%20M413%20-%20168-06-001%20-%20TALK%20BACK%20AMPLIFIER%20LAYCUT%20RACT.jpg">1978 - M413 - 168-06-001 - TALK BACK AMPLIFIER LAYCUT RACT.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1978%20-%20M413%20-%20168-06-001%20-%20TALK%20BACK%20AMPLIFIER%20LAYCUT%20RACT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/19xx%20-%20M413%20-%20Manual%20Index%20M413%20Talkback%20Module.jpg">19xx - M413 - Manual Index M413 Talkback Module.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/19xx%20-%20M413%20-%20Manual%20Index%20M413%20Talkback%20Module.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Parts list — board M413 (28 parts)</h2>
+<p><em>From <a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20P5.jpg">1969 - M413 - P5.jpg</a>, page 1 (scanned); also in <code>timelines/data/bom.csv</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>Part</th>
+<th>Value</th>
+<th>Manufacturer</th>
+<th>Mfr part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M413</td>
+<td>Talkback Module</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R31</td>
+<td>Philips Al1 Resistors</td>
+<td>4 .7k</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R33</td>
+<td>Ohmite unless specified</td>
+<td>75</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R34</td>
+<td>Factory Select otherwise_</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SW1</td>
+<td>Momentary T/B Switch 4c Grigsby A133</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C2</td>
+<td>mfd 2OV Kemet KlOOE 20</td>
+<td>100</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C3</td>
+<td>pfd 63V Philips</td>
+<td>10</td>
+<td></td>
+<td>c333BB /NlOE</td>
+</tr>
+<tr>
+<td>C4</td>
+<td>mfd 20V Kemet</td>
+<td>47</td>
+<td></td>
+<td>K47E2O</td>
+</tr>
+<tr>
+<td>C5</td>
+<td>mfd 20V Kemet KlOOE 20</td>
+<td>100</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C6</td>
+<td>pfd loov Erie</td>
+<td>1500</td>
+<td></td>
+<td>8121-100-WSRO-152K</td>
+</tr>
+<tr>
+<td>C7</td>
+<td>pfd 63V Philips</td>
+<td>47</td>
+<td></td>
+<td>c333BB/C47E</td>
+</tr>
+<tr>
+<td>C8</td>
+<td>l0 pfd Philips</td>
+<td>63V</td>
+<td></td>
+<td>C333BB /NlOE</td>
+</tr>
+<tr>
+<td>C9</td>
+<td>mfd Kemet</td>
+<td>35V</td>
+<td></td>
+<td>KlE35</td>
+</tr>
+<tr>
+<td>C12</td>
+<td>pfa 10OV Erie</td>
+<td>6800</td>
+<td></td>
+<td>8121-1oo-WSRO-682J</td>
+</tr>
+<tr>
+<td>C13</td>
+<td>pfd 10OV Erie</td>
+<td>220</td>
+<td></td>
+<td>8lol-LOo-WSRO-221K</td>
+</tr>
+<tr>
+<td>C14</td>
+<td>mfd 25V Kemet KlO E 25</td>
+<td>10</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C15</td>
+<td>mfd lOOv Philips</td>
+<td>047</td>
+<td></td>
+<td>C344AB/A47K</td>
+</tr>
+<tr>
+<td>C16</td>
+<td>mfd 25v Kemet KlO E 25</td>
+<td>10</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C17</td>
+<td>mfd 20v Kemet K22 E 20</td>
+<td>22</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C18</td>
+<td>pfd 63v Philips</td>
+<td>47</td>
+<td></td>
+<td>c333BB/C47E</td>
+</tr>
+<tr>
+<td>C19</td>
+<td>pfd 1OOv Erie</td>
+<td>1500</td>
+<td></td>
+<td>8121-1Oo-WSRO-152K</td>
+</tr>
+<tr>
+<td>C20</td>
+<td>pfd 63V Philips</td>
+<td>47</td>
+<td></td>
+<td>c333BB/C47E</td>
+</tr>
+<tr>
+<td>C21</td>
+<td>pfd 1OOV Erie</td>
+<td>1500</td>
+<td></td>
+<td>8121-1OO-WSRO-152K</td>
+</tr>
+<tr>
+<td>C22</td>
+<td>mfd 20V Kemet K47 E 20</td>
+<td>47</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C23</td>
+<td>mfd 20v Kemet K47 E 20</td>
+<td>47</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C24</td>
+<td>mfd 20v Kemet KlOO 20</td>
+<td>100</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>CR7</td>
+<td>Zener Diode Motorola</td>
+<td></td>
+<td></td>
+<td>IN753-A</td>
+</tr>
+<tr>
+<td>CR8</td>
+<td>Diode Fairchild</td>
+<td></td>
+<td></td>
+<td>FD444</td>
+</tr>
+</tbody>
+</table>
+<h2>Consoles &amp; jobs it is connected to (1)</h2>
+<p><em>Their own drawings name this module.</em></p>
+<table>
+<thead>
+<tr>
+<th>Job</th>
+<th>Year</th>
+<th>Drawing</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Job-77012.html">77012</a></td>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/77012%20-%2004-002%20L2042%20layout%20iss%205/1977%20-%2077012%20-%20b%20%283%29.jpg">1977 - 77012 - b (3).jpg</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (4)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../viewer.html?f=Products/RTO/RTO-144/19xx%20-%20RTO-144%20-%20Module%20RTO-144%20Jumper%20calculator.xlsx">19xx - RTO-144 - Module RTO-144 Jumper calculator.xlsx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M168/1970%20-%20168-06-001%20-%20M413%20TALK%20BACK%20AMPLIFIER%20LAYOUT%20-%20DRN%20DPS%20-%20ISS%202.jpg">1970 - 168-06-001 - M413 TALK BACK AMPLIFIER LAYOUT - DRN DPS - ISS 2.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/METER/M433/1992%20-%20M433%20-%20434%20-%20Peak%20Program%20Meter%20%282%29.pdf">1992 - M433 - 434 - Peak Program Meter (2).pdf</a></td>
+<td>2</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/METER/M433/1992%20-%20M433%20-%20434%20-%20Peak%20Program%20Meter.pdf">1992 - M433 - 434 - Peak Program Meter.pdf</a></td>
+<td>10</td>
+</tr>
+</tbody>
+</table>
+<h2>Drawings (11)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="People.html#drawing-staff">Drawn by</a></th>
+<th><a href="People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>B 413-03-001</td>
+<td>ESCUTCHEON</td>
+<td><a href="Year-1969.html">1969|2</a></td>
+<td></td>
+<td></td>
+<td>5</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20413-03-001%20-%20ESCUTCHEON%20-%20ISS%205.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 413-03-002</td>
+<td>SWITCH MTG. PLATE</td>
+<td><a href="Year-1969.html">1969|2</a></td>
+<td></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20413-03-002%20-%20SWITCH%20MTG.%20PLATE%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 413-02-001</td>
+<td>M413 / TALK BACK AMPLIFIER / SCHEMATIC</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td><a href="Person-DPS.html">DPS</a></td>
+<td></td>
+<td>4</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1970%20-%20413-02-001%20-%20TALK%20BACK%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DPS%20-%20ISS%204.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 413-02-001</td>
+<td>M413 TALK BACK AMPLIFIER / SCHEMATIC</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td><a href="Person-DPS.html">DPS</a></td>
+<td></td>
+<td>4</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1970%20-%20413-02-001%20-%20TALK%20BACK%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DPS%20-%20ISS%204%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 413-02-002</td>
+<td>M413 / TALK BACK AMPLIFIER / SYSTEM WIRING</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td><a href="Person-DPS.html">DPS</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1970%20-%20413-02-002%20-%20TALK%20BACK%20AMPLIFIER%20SYSTEM%20WIRING%20-%20DRN%20DPS%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 413-02-003</td>
+<td>M413 / TALK BACK AMPLIFIER / PLUG CONNECTIONS</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td><a href="Person-DPS.html">DPS</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1970%20-%20413-02-003%20-%20TALK%20BACK%20AMPLIFIER%20PLUG%20CONNECTIONS%20-%20DRN%20DPS%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Manual Index M413 Talkback Module</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/19xx%20-%20M413%20-%20Manual%20Index%20M413%20Talkback%20Module.jpg">file</a></td>
+</tr>
+<tr>
+<td>168-06-001</td>
+<td>Talk Back Amplifier Laycut Ract</td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1978%20-%20M413%20-%20168-06-001%20-%20TALK%20BACK%20AMPLIFIER%20LAYCUT%20RACT.jpg">file</a></td>
+</tr>
+<tr>
+<td>413-02-001</td>
+<td>Talk Back Amplifier</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20413-02-001%20-%20TALK%20BACK%20AMPLIFIER.jpg">file</a></td>
+</tr>
+<tr>
+<td>413-02-002</td>
+<td>Talk Back Amplifier System Wiring Fract</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20413-02-002%20-%20TALK%20BACK%20AMPLIFIER%20SYSTEM%20WIRING%20FRACT.jpg">file</a></td>
+</tr>
+<tr>
+<td>413-02-003</td>
+<td>Talk Back Amplifier Plug Connections Fract</td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M413/1969%20-%20M413%20-%20413-02-003%20-%20TALK%20BACK%20AMPLIFIER%20PLUG%20CONNECTIONS%20FRACT.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M413&quot;,
+ &quot;name&quot;: &quot;Talkback Amplifier&quot;,
+ &quot;category&quot;: &quot;MONITORING&quot;,
+ &quot;year&quot;: 1969,
+ &quot;part_of&quot;: [
+  &quot;77012&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/MONITORING/M413/1969 - 413-03-001 - ESCUTCHEON - ISS 5.jpg&quot;,
+   &quot;year&quot;: 1969,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/MONITORING/M413/1969 - 413-03-002 - SWITCH MTG. PLATE - ISS 3.jpg&quot;,
+   &quot;year&quot;: 1969,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/MONITORING/M413/1969 - M413 - 413-02-001 - TALK BACK AMPLIFIER.jpg&quot;,
+   &quot;year&quot;: 1969,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/MONITORING/M413/1969 - M413 - 413-02-002 - TALK BACK AMPLIFIER SYSTEM WIRING FRACT.jpg&quot;,
+   &quot;year&quot;: 1969,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/MONITORING/M413/1969 - M413 - 413-02-003 - TALK BACK AMPLIFIER PLUG CONNECTIONS FRACT.jpg&quot;,
+   &quot;year&quot;: 1969,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/MONITORING/M413/1969 - M413 - IMG_0261.jpg&quot;,
+   &quot;year&quot;: 1969,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/MONITORING/M413/1969 - M413 - IMG_0262.jpg&quot;,
+   &quot;year&quot;: 1969,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/MONITORING/M413/1969 - M413 - IMG_0263.jpg&quot;,
+   &quot;year&quot;: 1969,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/MONITORING/M413/1969 - M413 - IMG_0265.jpg&quot;,
+   &quot;year&quot;: 1969,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/MONITORING/M413/1969 - M413 - IMG_0266.jpg&quot;,
+   &quot;year&quot;: 1969,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/MONITORING/M413/1969 - M413 - IMG_0267.jpg&quot;,
+   &quot;year&quot;: 1969,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/MONITORING/M413/1969 - M413 - IMG_0268.jpg&quot;,
+   &quot;year&quot;: 1969,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/MONITORING/M413/1969 - M413 - IMG_0269.jpg&quot;,
+   &quot;year&quot;: 1969,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/MONITORING/M413/1969 - M413 - IMG_0271.jpg&quot;,
+   &quot;year&quot;: 1969,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/MONITORING/M413/1969 - M413 - IMG_0272.jpg&quot;,
+   &quot;year&quot;: 1969,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/MONITORING/M413/1969 - M413 - IMG_0273.jpg&quot;,
+   &quot;year&quot;: 1969,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/MONITORING/M413/1969 - M413 - P1.jpg&quot;,
+   &quot;year&quot;: 1969,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/MONITORING/M413/1969 - M413 - P2.jpg&quot;,
+   &quot;year&quot;: 1969,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/MONITORING/M413/1969 - M413 - P3.jpg&quot;,
+   &quot;year&quot;: 1969,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/MONITORING/M413/1969 - M413 - P4.jpg&quot;,
+   &quot;year&quot;: 1969,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/MONITORING/M413/1969 - M413 - P5.jpg&quot;,
+   &quot;year&quot;: 1969,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/MONITORING/M413/1969 - M413 - wbsps - module - m413 - talk back module 002.jpg&quot;,
+   &quot;year&quot;: 1969,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/MONITORING/M413/1969 - M413 - wbsps - module - m413 - talk back module 002_small.jpg&quot;,
+   &quot;year&quot;: 1969,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/MONITORING/M413/1969 - M413 - wbsps - module - m413 - talk back module.jpg&quot;,
+   &quot;year&quot;: 1969,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/MONITORING/M413/1969 - M413 - wbsps - module - m413 - talk back module_small.jpg&quot;,
+   &quot;year&quot;: 1969,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/MONITORING/M413/1970 - 413-02-001 - TALK BACK AMPLIFIER SCHEMATIC - DRN DPS - ISS 4 (2).jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/MONITORING/M413/1970 - 413-02-001 - TALK BACK AMPLIFIER SCHEMATIC - DRN DPS - ISS 4.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/MONITORING/M413/1970 - 413-02-002 - TALK BACK AMPLIFIER SYSTEM WIRING - DRN DPS - ISS 2.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/MONITORING/M413/1970 - 413-02-003 - TALK BACK AMPLIFIER PLUG CONNECTIONS - DRN DPS - ISS 2.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/MONITORING/M413/1978 - M413 - 168-06-001 - TALK BACK AMPLIFIER LAYCUT RACT.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/MONITORING/M413/19xx - M413 - Manual Index M413 Talkback Module.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;title_block&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../_catalog/libcontrol/libcontrol.css"><script src="../_catalog/libcontrol/react.js"></script><script src="../_catalog/libcontrol/react-dom.js"></script><script src="../_catalog/libcontrol/libcontrol.js"></script><script src="../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M413.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

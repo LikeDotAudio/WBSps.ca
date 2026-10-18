@@ -1,0 +1,82 @@
+# 1968 - M402 - 402-09-001 - BEND RAD UNLESS SPECIFIED.jpg
+Wiki page: [M402](../../../PAGES/M402.md)
+
+
+- **Year:** 1968 (found in this file: "DATE AUg 68")
+- **Module:** M402
+- **Category:** FILTERS
+- **Module year estimate:** 1968 — labelled "DATE AUg 68" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M402/402-09-001.jpg
+- **Original file:** `WBSps.env/PUBLIC/Manuals + tech DOCUMENTS/Modules/M402/402-09-001.jpg`
+- **SHA-256:** `a42901f63324dd40204b4771c0de79c541032f7f473b28c1e32e77ce6f8f570f`
+- **Size:** 7,173,683 bytes
+- **Pages:** 1
+
+## Dates found in this file
+
+- **1968** (labelled): `DATE AUg 68` — …FACILITY NTERNAL Switch SW 6 MUST BE TURNED TO 'iN POSITION DATE AUg 68 MATERIAL CHKD SCALE TOLS FRACT = 1/64_ DEC TO PLACES GIVEM…
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 3 words corrected)
+
+```text
+1502 INPUT
+600a INPUT
+OPTIONAL EXTERNAL INSERT SWITCH
+coM
++48V
+COM
+48v
+CHAsSIS
+CHASSIS
+6000 OUTPUT
+6oon OUTPUT
+NOTE
+FINISH DRN C.$.OCONNELL
+WARD BECK SYSTEMS @iD M402 & 404 EQUALIZER PLUG CONNECTIONS
+FOR 150 0 INPUT CONNECT A TO D', C To F; REMOVE TO D WHEN USING EXTERNAL SwiTCH FACILITY INTERNAL Switch SW 6 MUST BE TURNED TO 'iN POSITION
+DATE
+AUg 68
+MATERIAL
+CHKD
+SCALE TOLS FRACT = 1/64_ DEC TO PLACES GIVE ANGLES #18 MN BEND RAD UNLESS SPECIFIED
+B
+402 09 0oi
+ISS. 2
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+1502 INPUT
+600a INPUT
+OPTIONAL EXTERNAL INSERT SWITCH
+coM
++48V
+COM
+48v
+CHAsSIS
+CHASSIS
+6000 OUTPUT
+6oon OUTPUT
+NOTE
+FINISH DRN C.$.OCONNELL
+WARD BECK SYSTEMIS @iD M402 & 404 EQUALIZER PLUG CONNECTIONS
+FOR 150 0 INPUT CONNECT A TO D', C To F; REMOVE TO D WHEN USING EXTERNAL SwiTCH FACILITY NTERNAL Switch SW 6 MUST BE TURNED TO 'iN POSITION
+DATE
+AUg 68
+MATERIAL
+CHKD
+SCALE TOLS FRACT = 1/64_ DEC TO PLACES GIVEM ANGLES #18 MN BEND RAD UNLESS SPECIFIED
+B
+402 09 0oi
+ISS. 2
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/FILTERS/M402/1968 - M402 - 402-09-001 - BEND RAD UNLESS SPECIFIED.jpg","sha256":"a42901f63324dd40204b4771c0de79c541032f7f473b28c1e32e77ce6f8f570f","kind":"module","models":["M402"],"year":1968,"pages":1,"order":[{"page":1,"title_block":[{"number":"402-09-001","title":"Bend Rad Unless Specified","issue":"2"},{"title":"When Using External Switch Facility Nternal Switch","date":"AUG 68","year":1968,"issue":"2"}],"dates":[{"year":1968,"kind":"labelled","text":"DATE AUg 68"}],"text":["Is0n S00a","IVPUT INPUT","OPTIONAL EXTERNAL","com +48V COM 48V INSERT SWITCH","CHASSIS CHASSIS","600n 60on","OUTPUT OUTPUT","NCTE DRN C.$ OCONNELL FINISH WARD BECK SYSHEIS @id","FOR 150 0 INPUT CONNECT A T0 D , C 10 F; REMOVE F TQ D DATE AUG 68 M402 & 404 EQUALIZER","WheN USING EXTERNAL Switch FACILITY NTERNAL Switch MATERIAL","SW 6 MUST BE TURNED TO N POSITION CHKD PLUG CONNECTIONS","SCALE","TOLS FRZI ANGLES B 402 -09 0oi ISS_ 2"]}],"drawing":{"svg":"_traces/a42901f63324dd40.svg","viewBox":[2000,1423],"rotate":0,"number":"402-09-001","title":"When Using External Switch Facility Nternal Switch","dtype":"09","outlines":"see _traces/a42901f63324dd40.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/a42901f63324dd40.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[466,76,"Is0n"],[1209,74,"S00a"],[459,106,"IVPUT"],[1199,101,"INPUT"],[1759,499,"OPTIONAL"],[1869,496,"EXTERNAL"],[114,521,"com"],[781,514,"+48V"],[879,516,"COM"],[1479,511,"48V"],[1779,521,"INSERT"],[1859,521,"SWITCH"],[135,662,"CHASSIS"],[891,659,"CHASSIS"],[466,952,"600n"],[1211,949,"60on"],[451,972,"OUTPUT"],[1189,967,"OUTPUT"],[29,1079,"NCTE"],[1121,1082,"FINISH"],[881,1094,"DRN"],[949,1094,"C.$ OCONNELL"],[1499,1104,"WARD"],[1621,1102,"BECK"],[1714,1104,"SYSHEIS"],[1871,1104,"@id"],[71,1132,"FOR"],[129,1132,"150 0 INPUT"],[269,1132,"CONNECT"],[386,1132,"A T0 D ,"],[469,1129,"C 10 F;"],[554,1132,"REMOVE"],[656,1132,"F TQ D"],[878,1138,"DATE"],[964,1137,"AUG"],[1031,1137,"68"],[74,1164,"WheN"],[149,1164,"USING"],[226,1164,"EXTERNAL"],[344,1164,"Switch"],[436,1164,"FACILITY"],[546,1162,"NTERNAL"],[654,1162,"Switch"],[1124,1169,"MATERIAL"],[1500,1160,"M402 &amp; 404"],[1741,1162,"EQUALIZER"],[84,1189,"SW 6"],[156,1187,"MUST"],[229,1187,"BE"],[269,1187,"TURNED"],[364,1187,"TO"],[449,1187,"POSITION"],[879,1179,"CHKD"],[1555,1203,"PLUG"],[1670,1203,"CONNECTIONS"],[875,1225,"SCALE"],[879,1264,"TOLS"],[944,1279,"FRZI"],[1389,1257,"ANGLES"],[1570,1270,"402 -09"],[1728,1270,"0oi"],[1879,1267,"ISS_"]]}}
+```

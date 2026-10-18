@@ -1,0 +1,261 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Boilerplate in the manuals</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>Boilerplate in the manuals</h1>
+<p>Paragraphs that appear word for word in the manuals of five or more different devices: 107 of them. Device pages link here instead of repeating them.</p>
+<h2>General description (35)</h2>
+<p><a id="bp-fefba14455cb61ee"></a>
+<strong>10 devices</strong> — 00 Intercom Input/Output Amp] ifier (CBS) 210.00 Intercom Matrix Switching Board 65 . 00 Intercom Matrix Switching Board (CBS) 70 .00 Intercom Matrix Switching Board with 12 M721 Xpts _ 180 . 00 Intercom Matrix Switching Board with 12 M721 Xpts _ (CBS) 185 . 00 M712 M71ZA M712X MZ 12AX M721 M722 M723 M724 M725 Intercom Crosspoint (normally OFF-switch ON) Intercom Crosspoint (permanently ON) Intercom Crosspoint (norma]Iy ON-switch OFF) Intercom Crosspoint (part mute-switch ON) Intercom Crosspoint (norma IIy ON-switch part mute) 9.00 5 .</p>
+<p><a id="bp-e8014e017ace3409"></a>
+<strong>10 devices</strong> — 00 9.00 12 .00 12 .00 Canada Prices are F.0.B. WBS Plant Scarborough , Ontario, and include app] icable Federa] Sales Tax. U.S.A _ Prices are F.0.B_ Buffalo, New York, and inc]ude al1 app] icable duty and brokerage charges . 6/15/77 Revised DESIGN AND MANUFACTURE Of PAOFESSIONAL AUDIO EQUIPMENT</p>
+<p><a id="bp-7d29fd8ddb99c6cd"></a>
+<strong>10 devices</strong> — PRICE M7012 Basic Intercom Matrix, 12 X 12  fully wired, and including the following major components: 1 Matrix MF-7 Frame Amp]ifier MF-7 Frame Power Supply MF-6 Frame M628 Power Supply S3,450.00 M7024 Basic Intercom Matrix, 24 X 24, fully wired, and including the following major components: 2 Matrix MF-7 Frames 2 Amplifier MF-7 Frames L Power Supply MF-6 Frame 1 M624 Power Supply 2 M628 Power Supplies S6,450.00 To the above matrix assemb]ies must be added the appropriate intercom amp]ifiers_ intercom matrix cards and intercom crosspoints as denoted below _ The above matrix assemblies are ready for mounting in a standard equipment rack _ ATI input and output audio connections as wel1 as contro] connections are via ADC blocks _ M701 M702 M703 M703A Intercom Input Amp]ifier $ 130 .00 Intercom Output Amp]ifier 110.00 Intercom Input/Output Amplifier 200 .</p>
+<p><a id="bp-dbb37c792fdeade7"></a>
+<strong>9 devices</strong> — 00 9.00 12 .00 12 .00 Canada Prices are F.0.B _ WBS Plant _ Scarborough_ Ontario, and include app] icable Federal Sales Tax U.S.A Prices are F.0.B_ Buffalo New York, and include al1 app] icable duty and brokerage charges _ Revised 6/15/77 DESIGN AND MANUFACTURE Of PAOFESSIONAL AUDIO EQUIPMENT</p>
+<p><a id="bp-d4d5db29302a5871"></a>
+<strong>9 devices</strong> — PRICE M7012 Basic Intercom Matrix, 12 X 12 _ fully wired, and including the following major components: 1 Matrix MF-7 Frame Amp]ifier MF-7 Frame Power Supply MF-6 Frame M628 Power Supply $3,450.00 M7024 Basic Intercom Matrix, 24 X 24, fully wired, and including the following major components: 2 Matrix MF-7 Frames 2 Amplifier MF-7 Frames 1 Power Supply MF-6 Frame 1 M624 Power Supply 2 M628 Power Supplies S6,450.00 To the above matrix assemblies must be added the appropriate intercom amp]i fiers intercom matrix cards and intercom crosspoints as denoted below _ The above matrix assemblies are ready for mounting in a standard equipment rack _ A1I input and output audio connections as well as contro] connections are via ADC blocks _ M701 M702 M703 M703A Intercom Input Amp]ifier $ 130 .</p>
+<p><a id="bp-a2ca273924b604bd"></a>
+<strong>9 devices</strong> — 00 Intercom Output Amp]ifier 110.00 Intercom Input/Output Amp] ifier 200 . 00 Intercom Input/Output Amplifier (CBS) 210.00 Intercom Matrix Switching Board 65 . 00 Intercom Matrix Switching Board (CBS) 70 .00 Intercom Matrix Switching Board with 12 M721 Xpts  180 . 00 Intercom Matrix Switching Board with 12 M721 Xpts_ (CBS) 185 . 00 M712 M712A MZ1ZX M7 12AX M721 M722 M723 M724 M725 Intercom Crosspoint (norma ` Tly OFF-switch ON ) Intercom Crosspoint (permanently ON) Intercom Crosspoint (norma]Iy ON-switch OFF) Intercom Crosspoint (part mute-switch ON) Intercom Crosspoint (norma Tly ON-switch part mute) 9.00 5 .</p>
+<p><a id="bp-bc17e4137492f407"></a>
+<strong>8 devices</strong> — The   linear integrated circuit 21 operates as a preamplifier           and    buffer stage to drive the transistor output amplifier section.</p>
+<p><a id="bp-558d2c41fa60b86b"></a>
+<strong>8 devices</strong> — Harmon ic Distortion:     Less than 0.1% THO from 20 Hz to 20 kHz at                              +30 dBm output (typically less than 0.02%                              at mid-band).</p>
+<p><a id="bp-433840ca58e6a3a0"></a>
+<strong>8 devices</strong> — 8-409 AMPLIFIER SERIES The 8-109 series amplifiers are utilized an internal component various WBS series audio console modules. Each 8-109 within amplifier mounts a5 Plug-in assembly onto the module motherboard_ The 8-109 amplifier provides an acti= vely balanced output with +30 capability _ employed an output booster amplifier dBm with either balanced an unbalanced input The following specifications apply the 8-109 series of  amplifiers_ eni}e Unit 9no Input 61iams Ow [ Gain eo[-8 #4T Uo7ni 79n10 #d bns o 8-109 Balanced dB 7entilgms 8-109A Unbalanced 1057i3 d dB Sat S   8-109B gns Balanced 12067; 9nf   18 dB a9ttud 8-109C Balanced dB 9 /tilame ow] 8-109D LGn Unbalanced 08 sni dB edi Jisg 5itns 8-109E (quo) Balanced bo,3anno37s dB 8 7s Aeot- 4  8-109F Balanced 8 {uqni 693 dB e6ivona 8-1096 Balanced besneiEcnu dB Frequency Response: +/- 0.2 dB from Hz 20 kHz _ '6a edt OCE 9Va s2onf Noise: 3nbisCnu -108 dBm EIN irom Hz to 20 0e kHz _ #A] CCO 401e3 Harmonic Distortion: Less than 1% THD {rom 20 Hz 20 kHz +30 dBm output (typically less than 0 . 027 suisv sd: bom eat mid-band) . ame 707 (132 Ow ] Source Impedance: 600 ohms or  less, balanced unbalanced. Input Impedances: Nen   Models with balanced input: Sk onms _ nontz Lgn Bnt minimum noi.3s2  . nalti 8-109A : 30k nise ohms ilqq8 Ienei2 Juqni enf Vaiuo Dacnalsd e0] 715 8-109D: 4700 ohms _ (8f 29ui6v ed1 Oe 9rt1 +18 Input Levels: @nirovni Depending gain Particular model and system opera ting levels. (Refer gain specifications above. 60 L7 ^ -_ 16 'UQJUO #nt Output Impedance: Less than 100 onms _ 7tq JJO Ireuond Load Impedance: 600 ohms, balanced. B-109-1-1</p>
+<p><a id="bp-f65a52d703a6ba42"></a>
+<strong>7 devices</strong> — WAAD-BECK SYSTEMS LTD CtJ emateyz 4j3e CAAw T2i PARTS_LISI 231 8-109 AMPLIFIERSERIES e0__8 8-102 TAAC 2jm PART</p>
+<p><a id="bp-d520b5ee104f7a22"></a>
+<strong>7 devices</strong> — 8-109       Balanced                   15   dB                  8-109A      Unbalanced                  7   dB                  8-109B      Balanced                   18   dB                  8-109C      Balanced                   39   dB                  8-1090      Unbalanced                 29   dB                  8-109E      Balanced                   29   dB                  8-109F      Balanced                   33   dB                  8-109G      Balanced                   23   dB</p>
+<p><a id="bp-d3d280642734bd72"></a>
+<strong>7 devices</strong> — 8-109 AMPLIFIER SERJES Jr? Output Level = n6 28 14+30 dBm maximum. ^ Y0 291792 e01-8 sdT eon M36 2#lubom; 4102n03 oibos 8o 29i798 Zew evoinsv nidiiw Power Requirements: 0 +/ - 21.5 volts dc, 18 mA quiescent current. 65 mA at +30 dBm output. 0 Atiw JuqTuo pejnslsd Yavwjb 0s 290ivcnq- ~mmlans eot-8 en 79 Ambient Temperature: 9740 to 60 degrees Celsius.</p>
+<p><a id="bp-cd04956f7f2bd1d8"></a>
+<strong>7 devices</strong> — wlidsqs3 mab Jugn: bsjosledau 7b 70 bnonslsd Zad.ia ntim Dimensions: 3.25" X 3.38" X 0.57" Wans 10 801792 eor-8(83 mm X 86 mm X 15 mm) . enivollot edT The 8-109 comprises two amplifier sections, one consisting of 21 with Q1 through Q4, and the other of 22 with 05 through Q8 _ Gb beznaloa e01-8 The linear integrated circuit 21 operates as a preamplifier and buffer stage to drive the transistor output amplifier section.</p>
+<p><a id="bp-cb736f56bbc66928"></a>
+<strong>7 devices</strong> — The balanced input yields severa l input characteristics similar to    those of an input transformer. Output level remains constant when    the input is fed from either a balanced or an unbalanced source.    Good common mode rejection is another feature of this t ype of input    configuration.</p>
+<p><a id="bp-c843a74bc6bfe1d7"></a>
+<strong>7 devices</strong> — The 8-109 comprises two amplifier sections, one cons ist ing of 21     wit h    01 through 04, and the other of 22 with 05 through 08 .</p>
+<p><a id="bp-bb97971281a084d5"></a>
+<strong>7 devices</strong> — endo Ooa e3nsbsqmi 93nv02 When utilized in the unbalanced arrangement, the lower amplifier section (Z2 with 05 through Q8 ) is used as the input section, with the input signal applied to Pin E2_ Amplifier gain is determined by the values of R6, R11 and R12- One half of the balanced output signal appears at pin E6. The upper half of the amplifier (21 with e Q1 through Q4) operates as a unity gain inverting amplifier with E1 ia externally strapped to E6.eteq0 mefeyz (svods enoilesitoege The output of all models of the 8-109 series is actively balanced and is brought out at pins E4 and E6.- 229] {wonabaqmi Juqjuo beonslsd emro Ooa :eansbagmi beoJ 8-109-1-2</p>
+<p><a id="bp-a8b0f076700c8e08"></a>
+<strong>7 devices</strong> — PART    DESC RIPT ION                           MFG           MFG PART NUMBER    Cl      Capaci tor      33 uF /l0 V             Kemel         T390D336M010AS    C2           "                                   "    C3           "          10 u F/ 25 V                          T390C106M025AS    C4           "    C5                      4.7 p F                 Ph i l i ps   2222-638-09478    C6                      15 p F                   "            2222-638-10159    C7                      10 p F                                2222- 638-1 0109    C8           "          68 pF                                 2222-638- 70689    C9                      10 uF / 25 V            Keme t        T390Cl06M025AS    Cl0                     4.7 pF                  Ph i l ips    2222- 638- 09478    Cll                     15 pF                                 2222- 638- 10159    C12                     10 p F                                2222-638- 10109    C13          "          68 p F                                2222-638- 70689    C14          "          10 u F/25 V             Keme t        T390C106M025AS    C15                     220 uF/ l 0 V                         T390F227M010AS    C16          "    C17     de le le</p>
+<p><a id="bp-a1b1c6ca9572d446"></a>
+<strong>7 devices</strong> — I nput Impedances:        Mode ls with balanced input: 5k ohms                              min imum.                              8-1 09A: 30k ohms.                              8-1090: 4700 ohms.</p>
+<p><a id="bp-9863628542017524"></a>
+<strong>7 devices</strong> — CRI     Diode                                   Fairch i ld   IN4148    CR2                                              "    CR3    CR4                                              "    01      Tran s istor                            Nati on al    PN3569    02                                               "            PN3645    03                                               "            2N21 02    04           "                                                2N4037    05                                               "            PN3569    06           "                                   "            PN3645    07                                                            2N2102    08                                                            2N4037                                                                                     a                                                                                     .c</p>
+<p><a id="bp-910bd562a967f0a7"></a>
+<strong>7 devices</strong> — Power Requirements:        +/- 21 .5 vo l ts dc, 18 mA   quiescent current.                               65 mA at +30 dBm output.</p>
+<p><a id="bp-8fb653616ca895cd"></a>
+<strong>7 devices</strong> — The 8-109 ser ies of ampl ifiers are u til ized as an internal component    w ith in v a r i ou s WBS series of audio console modules. Each 8-109    ampl ifier mounts as a plug-in assembl y onto the module motherboard.</p>
+<p><a id="bp-8863c99351da1cf8"></a>
+<strong>7 devices</strong> — For amplifiers operating i n the balanced mode, the value of R15    establ ishes the feed back ratio of the two amplifier sect ions and    thus controls the amplifier gain.</p>
+<p><a id="bp-773f9349795448b9"></a>
+<strong>7 devices</strong> — The 8-109 amplifier provides an actively balanced output with a +30    dBm capability. It is employed as an output or a booster amplifier    w ith either a balanced or an unba lanced input.</p>
+<p><a id="bp-739e6272540072a8"></a>
+<strong>7 devices</strong> — R6      Res istor 1/ 4W 5% 6K2                   Ph il ips    R7                         18K                     "    R8          "              18K                     "    R9          "              16K                     "    R10         "              2K                      "    R11                            16K                 "    R12                            2K    1'\13                          390    R14         "                  390    R15     delete    R16                            22K    R17         "                  4K7                 "    R18                            22K                 "    R19         "                  22                  "    R20                            470 nom.            "            f a c tor y selected    R21                            4K7    R22                            4K7                 "    R23         "                  22K                 "    R24                            4K7                 "    R25         "                  22K    R26                        22    R27                        470 nom .                            factory selected    R28          "             4K7                     "    R29          "             4K7    R30     Res is tor 1/2W 5% 6.8                     "   R31                           6.8                   "   R32          "                6.8                   "   R33          "                6.8                   "   R34               1/4W 5%     5.6   R35                           5.6                   "                                                                                           a</p>
+<p><a id="bp-6c03613c65ec935a"></a>
+<strong>7 devices</strong> — The following spec ifications apply to the 8-109 series of amplifiers.</p>
+<p><a id="bp-6340b488c8951fce"></a>
+<strong>7 devices</strong> — When utilized i n the unbalanced arrangement, the lower amplifier    section (22 with 05 through 08) i s used as the input section, with    the input signal applied to p in E2. Amplifier gain is determ ined by    the values of R6,    Rll and R12. One half of the balanced output    signal appears at p in E6. The upper half of the amplif ier (21 with    01 through 04) operates as a unity ga rn inverting amplifier with El    externally strapped to  E6.                                                                                   a                                                                             .c</p>
+<p><a id="bp-55eb8043806a711d"></a>
+<strong>7 devices</strong> — Input Levels:             Depending on gain or particular model and                              s ystem    operat ing  levels. (Refer to gain                                                                               a</p>
+<p><a id="bp-4482f07403b3dbea"></a>
+<strong>7 devices</strong> — Amb ient Temperature:      o to 60 degrees Celsius .    Dimensions:                3.25" x 3.38" x 0 .57"                               (83 mm x 86 mm x 15 mm).</p>
+<p><a id="bp-412ab92980ee7bd2"></a>
+<strong>7 devices</strong> — Frequency Response:       +/- 0.2 dB from 20 Hz to 20 k Hz .</p>
+<p><a id="bp-34a00626330e5561"></a>
+<strong>7 devices</strong> — E6 e b9jnelsa 3eo1-8 In the majority of the 8-109, models, the inputs of the two amplifier sections are interconnected as cross coupled differential pair to provide a balanced input_ Alternately, in the case of the 8-109A and D , a single-ended, unbalanced input is used . 0201-8 The balanced input yields several input characteristics similar to those of an input transformer _ Output level remains constant when the input is fed from either a balanced or an unbalanced source _ Good common mode rejection is another feature of this type of input configuration.8 MonT OkT .0 nsd' 229 :noinotaid Jinomtsh s0.0 nenj 2291 rlssiqvt) Juouo M8o O2 + For amplifiers operating in the balanced mode, the value of R15 establishes the feed back ratio of the two amplifier sections and thus controls the amplifier gain.</p>
+<p><a id="bp-2536be68cd6e3bd4"></a>
+<strong>7 devices</strong> — The output of all models of t he 8-109 series is actively balanced and                                                                           ps</p>
+<p><a id="bp-02816fa71c4dbf76"></a>
+<strong>7 devices</strong> — i s brought out at pi ns E4 and E6.                                                                       BS                                                                   //W                                                                   :                                                                tp                                                              ht</p>
+<p><a id="bp-004b60fd506e8e4f"></a>
+<strong>7 devices</strong> — In the major ity of the 8-109. models, the i n p u t s of the two ampl ifier    sections are interconnected as a cross coupled d ifferential pair to    p ro vide a balanced i n p u t . Alternately, in the case of the 8-109A and    D, a s ingl e-ended, unbalanced i n p u t is used.</p>
+<p><a id="bp-dac30e34aee514fe"></a>
+<strong>5 devices</strong> — 8-109 AMPLIFIER SERIES Output Level: ne +30 dBm maximum. e e0 /-3 #Nt eoi Cs 10no? 268 Power Requirements: +/- 21.5 volts dc, MA quiescent current_ MA +30 dBm output Giyo Desnsisd Tams eon-8 Gnt Ambient Temperature: C7h degrees Celsius. vtilidscs? mab Gn is1 79njie njim Dimensions: 3.25" 3 . 38" 0.57" 39i792 eot - (83 Mm Mm x 15 Mm) . eniv - edt The 8-109 comprises Iwo amplifier sections_ one consisting through 04, and the other 22 with 05 through QB _ with The linear integrated circuit operates as preamplifier and buffer stage drive the transistor output amplifier section. the majority the 8-109 models, the inputs the [Wo amplifier sections are interconnected as cross coupled differential pair provide balanced input Alternately, the case the 8-109A and single-ended, unbalanced input used. Oeo:- The balanced input yields several input characteristics similar those an input transformer Output level remains constant when the input fed from either balanced an unbalanced source Good common mode rejection another feature this type input configuration n 63i9v UC Uc For amplifiers operating the balanced mode, the value R15 establishes the feed back ratio the tWo amplifier sections and thus controls the amplifier gain. Uua obaM = When utilized the unbalanced arrangement, the lower amplifier section (Z2 with 05 through Q8) used a5 the input section, with the input signal applied Pin E2. Amplifier gain determined by the values R6, R1I and R12. One half the balanced output signal appears Pin E6 . The upper half the amplifier (21 with through 04) operates 25 unity gain inverting amplifier with externally strapped E6 . JEGO 2n0i]sjitinec2 The output all models the 8-109 series actively balanced and brought out pins E4 and E6 . JOS uqjuo baoneisd 2mno 0o3 Sjnsbe9m| be0J B-109-1-2</p>
+<p><a id="bp-8fd3687598abf1c3"></a>
+<strong>5 devices</strong> — WBS recommends the use of replacement parts made by the specified manufacturers for continued optimum equipment performance.</p>
+<h2>Specifications (6)</h2>
+<p><a id="bp-d598fd57bc8328e0"></a>
+<strong>56 devices</strong> — Ward-Beck Systems Inc. reserves the right to change performance specifications without prior notice</p>
+<p><a id="bp-e859149857e4e8bc"></a>
+<strong>8 devices</strong> — (221mm x 44mm x 178 mm) Weight                                                                1.37 kg (3.01 lbs)</p>
+<p><a id="bp-0e2984c715963899"></a>
+<strong>7 devices</strong> — Frequency Response 1.5 dBu from 20Hz to 20kHz Impedance 60Ω balanced Max Output 23.5 dBu Noise less than -70 dbfs THD Less than 0.05% Connector Type 3 pin Terminal Block</p>
+<p><a id="bp-f0e6d1b5e71be8e8"></a>
+<strong>6 devices</strong> — Impedance 75Ω unbalanced &amp; 110Ω transformer balanced Level 0.2 to 7V p-p Max Input 0 dbfs Standard AES31D-1995 Type BNC Female &amp; 3 Pin Terminal Block</p>
+<p><a id="bp-82b3bc8d6c0b8d76"></a>
+<strong>6 devices</strong> — Impedance 75Ω Unbalanced &amp; 110Ω transformer balanced Level 2.5V p-p terminated Output 0 dbfs Noise Less than -100 dbfs Standard AES31D-1995 THD Less than 0.001% Type BNC Female &amp; 3 pin Terminal Block</p>
+<p><a id="bp-05bac6dd0710cdd7"></a>
+<strong>5 devices</strong> — Dimensions:         1.5"  wide x 16.2" high x 6.6" deep. (38 mm x 410 mm x 168 mm).</p>
+<h2>Operation (1)</h2>
+<p><a id="bp-049e9d0d21dcde3e"></a>
+<strong>5 devices</strong> — Please make sure that these jumpers are connected according to the above wiring convention.  Any damage caused by connecting your POD to mains with the jumpers configured incorrectly is not covered by our normal warranty.</p>
+<h2>Parts list (text) (53)</h2>
+<p><a id="bp-7bd2d4e0ee528d6f"></a>
+<strong>8 devices</strong> — 8-109 AMPLIFIER SERIES 8-109G AII parts as per 8-109 except as noted below PART DESC IPTION MFG MFG PART NUMBER C6 C11 Capacitor 4.7 pF Philips 2222-638-09478 R15 Resistor 1/4w 5% 2K4 WBS recommends the use of replacement parts made by the specified manufacturers for continued optimum equipment  performance. 8-109-2-5</p>
+<p><a id="bp-fc430110d967ad62"></a>
+<strong>7 devices</strong> — A ll p arts as pe r 8-109 excep t as noted bel o w</p>
+<p><a id="bp-fbadad4cb4ed41eb"></a>
+<strong>7 devices</strong> — C6          Capac i tor    4.7 pF                  Ph il ips   2222-638-09478                   II            II                    II   C ll</p>
+<p><a id="bp-f9047cc24e59219f"></a>
+<strong>7 devices</strong> — C6          Cap acitor       4.7 pF                   Phil i ps      2222-638-09478    C l1            "    C 17                         47 00 pF                 Ase l co       CQ92-MC- 100-472M</p>
+<p><a id="bp-f23dc35c18f10679"></a>
+<strong>7 devices</strong> — R15         Res is tor 1/4W 5% 9K l                   P h i l ips</p>
+<p><a id="bp-e02f95c943d90a94"></a>
+<strong>7 devices</strong> — PART       DESCR I PT I ON                            MFG         MFG PART NUMBE R                                                                                            a</p>
+<p><a id="bp-de9ef98beed79e26"></a>
+<strong>7 devices</strong> — 8-109 AMPLIFIER SERIES 8_1092 4294_8 AII parts as per 8-109 except as noted below Dion 1439x? eon 70G 25 2n69 VIA PART A DESCRIPT ION MFG MFG PART NUMBER C6 Aeo 8 Capacitor C11 C17 MS Qoi-JM--803 4.7 pF Philips 2222-638-09478 7013646 cQ92-MC-100-153M 0.015 uF 492 Aselco 40 Uta R3) R4 ) R5 R6 R7 Resistor delete Resistor 1/4w 5% 4K7 84 18K 470 L (44 28 ja 5a Meleb 7012i293 Philips 4V/ 7012i29a 4e_ Ora R8 R9 R38 470 75k 1M Or X€ Mosa 84 ea 82A 8-109E AI parts as per 8-109 except as noted below woled bston 26 e01-8 PART</p>
+<p><a id="bp-da18ca3d188f6e99"></a>
+<strong>7 devices</strong> — C6         Capac itor        4 .7 pF                  Phil ips    2222-63 8-09478                                                                                         .c</p>
+<p><a id="bp-c5425a6cfcbf132b"></a>
+<strong>7 devices</strong> — WBS recommends the u se of rep lacement parts me de by the specif ied   manufacturers for continued opti mum equ ipment performance .</p>
+<p><a id="bp-b6fb06b0df0b3df7"></a>
+<strong>7 devices</strong> — A l l p arts as per 8- 109 e xcep t as no t e d b e low</p>
+<p><a id="bp-a20fe5cf9f8bb423"></a>
+<strong>7 devices</strong> — C6         Cap a cito r      4 .7 pF                  Ph il ips   2222- 638-09478     Cl1             "                                       "     C17                          0.0 15 uF                Asel co     C092-MC-l 00- 153M</p>
+<p><a id="bp-96ad47f623969553"></a>
+<strong>7 devices</strong> — R3)                Resis tor        delete    R4 )    R5          Re s i stor 1/ 4W 5% 30 K                 P h i li p s    R6                "              18K                    "    R7                               470</p>
+<p><a id="bp-8ba7e3f6febeeb99"></a>
+<strong>7 devices</strong> — A ll parts as per        8-109 ex cep t as not ed below</p>
+<p><a id="bp-89e999d452efb0c0"></a>
+<strong>7 devices</strong> — All    parts as per 8-109 e xcept a s noted below</p>
+<p><a id="bp-7faaf330a24744db"></a>
+<strong>7 devices</strong> — 23 8-109 AMPLIFIER SERIES 8-109A @20(_8 Jo 201-2 7190 25 afe4 VIA AI parts as per 8-109 except as noted below 438N TAAS 3aM HOT PART</p>
+<p><a id="bp-7db8d2b56955c656"></a>
+<strong>7 devices</strong> — 8-109 AMPLIFIER_SERIES 8-109D 4e0!_8 AII parts as Per 8-109 except noted below e0i-3 79G 25 2j769 MFG MFG PART_NUMBER PART</p>
+<p><a id="bp-78514d612e328532"></a>
+<strong>7 devices</strong> — PART        DESCR IP T ION                            MF G           MFG PAR T NUMBE R</p>
+<p><a id="bp-6f540bf354095351"></a>
+<strong>7 devices</strong> — A l l pa r t s a s per 8- 109 ex cep t a s no ted b el ow</p>
+<p><a id="bp-6a0d9a2d95feb5f6"></a>
+<strong>7 devices</strong> — R15         Res i s t or 1/ 4 W 5% 240                                                                                    BS                                                                               ://W                                                                            tp                                                                          ht</p>
+<p><a id="bp-68014c3e03aca208"></a>
+<strong>7 devices</strong> — R3)                Resi s t or       de lete     R4)     R5         Res i s tor 1/4W 5% 4K 7                   Ph ilips     R6                             18K                      "     R7                             470</p>
+<p><a id="bp-4fe7c04e92bfbba4"></a>
+<strong>7 devices</strong> — C6         Ca p a ci t or    4. 7 pF                  Philips     2222-638- 09478     Cll             "                                      "     R15        Res is tor 1/4W 5% 910</p>
+<p><a id="bp-432c6e0e0f3b7223"></a>
+<strong>7 devices</strong> — A ll part s a s per 8-109 e x c ept as n o t ed       be lo w</p>
+<p><a id="bp-31469efbb75d41fb"></a>
+<strong>7 devices</strong> — All    parts as pe r    8-1 09 except as not ed be l ow</p>
+<p><a id="bp-2498855555b1a673"></a>
+<strong>7 devices</strong> — C6          Capac i t or     4 .7 p F                 Ph il i ps     2222- 638 -09478                                                                                             a                                                                                            .c</p>
+<p><a id="bp-f130cdd3c7b97f37"></a>
+<strong>5 devices</strong> — R14OO                                          R A D i OC O N S O L E</p>
+<p><a id="bp-ea2928c84b10e151"></a>
+<strong>5 devices</strong> — CABLES            ACCorci                                    Belden         t7237                         1 2 C o n d u ctor14 Gauge                 Belden         g629                         P o w e rS u p p l yC a b l e</p>
+<p><a id="bp-e67963036892fb70"></a>
+<strong>5 devices</strong> — D 9 0 0 4 3 8 -0                     1 -0 01          F u n c toi n aI</p>
+<p><a id="bp-e60ea85edca759f5"></a>
+<strong>5 devices</strong> — 1 5 P i n P o w eC  r able                 Molex          19-09-2158                         C h a s s i sM a l eR e c e p t a c i e</p>
+<p><a id="bp-e590cb126b266382"></a>
+<strong>5 devices</strong> — L e n se- Red                        AUTO                                      D i a li g h t         3?4-007                                                                                               7                        S T R TL e n se- Gr een                   D i a li g h t         324-007                                                                                               2 ..                        R S TL e n se- Am ber                     D ia l i g h t         324-0073</p>
+<p><a id="bp-deb6d74ca79a7449"></a>
+<strong>5 devices</strong> — B 9 0 0 4 3 8 -0 2 -0                           10         I n p u t C h a n n e l1s t o 3 S c h e m a t i c       B 9 0 0 4 3 8 -0 2 -0 0 2      I n p u t C h a n n e l1s a n d 2 S c h e m a t i c       a       u   9 0 0 4 3 8 - 0 2 - 0 0 3 I n p u t C h a n n e l3s t o 1 4 S c h e m a t i c       u   9 0 0 4 3 8 - 0 2 - 0 0 4 S t e r e o0 u t p u t C h a n n eSl c h e m a i i c</p>
+<p><a id="bp-de743450109a7586"></a>
+<strong>5 devices</strong> — SYMBOL                D E S C R IP TiON                         MFG              PARTNUMBER      cH7-CH3               Mic InputModule                           l'lBS            M49OB                                a</p>
+<p><a id="bp-d05d2c3ff7a70d17"></a>
+<strong>5 devices</strong> — cH4-CH14              S t e r e oi n p u t C h a n n e l        l1IBS            M49OEA      M O N l . M ON 3      M o n i t o rM o d u l e                  l,{BS            M495      PI,P2                 D u a l M a s t e rM o d u l e            |/{BS            t4497      MONO                  D u a l M a s t e rM o d u l e            t'lBS            t4497                                                                                           A      TB                    T a lk b a c kM o d u l e                 tlBS             M45i      CUE                   CueAmp'l                                  i f i er Modu'l                                               e                      l.JBS            M453A      MONSEL                L i n e S e l e c t o rM o d u l e        l'lBS            M498      PSl                   t 2 5 V o l t P o w e rS u p p l y        l,JBS            M 6258      CLK.1                 Digital Clock                             l^lBS            CLK-                                                                                          1      TMR1-i                1 0 0M j n u t eD i g i t a l T i m e r   l,lBS            TM R1-                                                                                           1      INSERT                InsertionSwitcher                         }'|Bs            M499      EQ                    E q u ai lz e r M o d u l e               tdBs             t4462A      AUX                   A u x Ii i a r y M o d u l e              t^lBS            t4479      FRAME                 P o w e rS u p plyM ounting               l1|BS            M F- 6C                            Frame</p>
+<p><a id="bp-c682c95a9ce79b06"></a>
+<strong>5 devices</strong> — B 9 0 0 4 3 8 - 0 21-0         T a lk b a c kS c h e m a t ' i c       D   9 0 0 4 3 8 -0 21-0                             1        C u eC h a n n eSi c h e m a t i c       B 90 0 4 3 8 -0 21-02          M e t e rP a n e lS c h e m a t i c       B 9 0 0 4 3 8 - 0 21-30        0 s c iI I a t o r S c h e m act i       R           9 0 0 4 3 8 - 0 21-40      I n s e r t i o nS w i t c h e rS c h e m a t i c</p>
+<p><a id="bp-c07783d5382d2e1d"></a>
+<strong>5 devices</strong> — B 9 0 0 4 3 8 -0 2 -0 0 6 A u x Ii i a r y C h a n n eSi c h e m a t i c       R   9 0 0 4 3 8 -0 2 -0 0 7 M o n i t o rS c h e m a t i c</p>
+<p><a id="bp-bf566a27be6adb47"></a>
+<strong>5 devices</strong> — B 9 0 0 4 3 8 - 0 2 - 0 0 5 M o n o0 u t p u t C h a n n eSl c h e m a t i c</p>
+<p><a id="bp-abd549b059515ef2"></a>
+<strong>5 devices</strong> — B 9 0 0 4 3 8 -0 2 -0 0 8 M o n ' i t o rS e le c t o r S c h e m act i       R   9 0 0 4 3 8 - 0 2 - 0 0 9 L i n e S e l e c t o r sS c h e m a t i c</p>
+<p><a id="bp-a26af40951cb0e32"></a>
+<strong>5 devices</strong> — SY M B O L       D E S C R IP TION                          M FG           PART                                                                                      NUM BE R        c0NNEcr0RS       5 6 P i n M o d u l ec o n n e c t o r s   Edac           346-056-500-04                         n P i n P o w e rT r a n s f e r           Molex          14-31-1121                         C a b l eF e m a l e                                            P'lug                         1 2 P i n P o werTr ansfer                 M olex         IS- 3I- LIZ?                         C a b l eC h a s s i M                                              s ale                         R e ce p ta cl                                     e</p>
+<p><a id="bp-94c666109b92cead"></a>
+<strong>5 devices</strong> — T r a n s f e rC a b l eF e m a l e        Molex          2-06-1103                         C o n n e c t oPr i n s . 0 6 2</p>
+<p><a id="bp-944e6dd2f76d777a"></a>
+<strong>5 devices</strong> — EXTRACTOR             Mo d u l eE xtr actor Set                 l,lBS            EX.1      CONNECTORS            P o w e rS u p plyConnector s             Ampheno'l        26-L90-16                            2 2 P i n Mo duleConnector s E d a c                       307-022-501-103                            2 4 P i n Mo duleConnector s E d a c                       347-024-560-202 .                          4 4 P i n Mo d uleConnector s             Edac             307-044-500-202</p>
+<p><a id="bp-92825ba06a6d0415"></a>
+<strong>5 devices</strong> — PoweT                             r r a n s f e rC a b l e               0ntario        ZZS                                                                    Rubber       VU                V UMe te rs4 !i"                           Bach- simpson544LED       PCB               V UMe te TP CB                             HBS            2.L07                         P o w e rS u p p lyChangeover              I.IBS          8- 103 .:                      PCB</p>
+<p><a id="bp-9181821566a9a526"></a>
+<strong>5 devices</strong> — 9)     M49B           S t e r e oS e l e c t o rM o d u l e       10)     M625B          P o w e rS u p p l y       11)     C L K /T MR    C l ock and Timer System s</p>
+<p><a id="bp-76a909567ea8d186"></a>
+<strong>5 devices</strong> — R l 4 O OR A D I OC O N S O L E</p>
+<p><a id="bp-7631e3e9e0c09144"></a>
+<strong>5 devices</strong> — 4CSwitches                                ITT                    4CF- GHT.A A                        L a t c hB a r                            ITT                    L B 5x i 7 . 5 M M                        L a t c hS p r i n g                      ITT                    LS.1                        L e n sC a p s                            iTT                    FAlO1-BLK/ YEL                        T i me r " A U TO"                                         A/A                      D i a li g h t         554-3231                        Pushbutton</p>
+<p><a id="bp-5a16f70957db5c0f"></a>
+<strong>5 devices</strong> — 4 P a 'i r 2 2 GaugePower                  Belden         9746                         T r a n s f e rC a b l e       G R O M M ET      P o w e rS u p p lyCable                   Kulka Sm ith   gtIlz</p>
+<p><a id="bp-4e8b6ecc653fb354"></a>
+<strong>5 devices</strong> — 1)     M4 5 1         T alkbackM odul                                           e        2)     M4 5 3 A       C ueAm p'i fl i er M odul                                                     e        3)     14462A         E quaiizer M odule        4)     M4908          Mic input Module        5)     l,tl47g        AuxiliaryModule</p>
+<p><a id="bp-423be056367b0bb8"></a>
+<strong>5 devices</strong> — SYMBOL             DESCRiPTION                           MFG                  PARTNUMBE R   TB1O3              2 W a yT e r m i n a lS t r i p       Cinch-Jones Z-S4Z-ZU                      2 W a yM a r k e rS t r i p           Cinch-Jones MSX-2S42   TB1O4              5 W a yT e r m i n a lS t r i p       Cjnch-Jones S-140-3/4W                      5 W a yF a n n i n gS t r i p         C i n c h - J o n e s5 - i 6 0 - R                      5 L i a yM a r k e rS t r i p         Cinch-Jones MS5-140y   EX T EN D E R      E xte n d e rModule                   l.lBS                E46O                      E x t e n d eM                                   r odule                  [^JBS                E461</p>
+<p><a id="bp-3a72b931ec4f9ce2"></a>
+<strong>5 devices</strong> — 6)     M495           M o n i t o rM o d u l e        7)     14497          MasterModule</p>
+<p><a id="bp-33b45261f86634ef"></a>
+<strong>5 devices</strong> — T r a n s f e rC a b l eM a l e            Molex          2-06-2103                         C o n n e c t oPr i n s . 0 6 2</p>
+<p><a id="bp-2b19e5931113bc36"></a>
+<strong>5 devices</strong> — T i me rMo mentar y                       D i a li g h t         554-3221                        Pushbutton</p>
+<p><a id="bp-2a3a940e157453ee"></a>
+<strong>5 devices</strong> — 1 5 P i n P o w eC                                          r able                    Molex          19-09-1159                         F e mael P 1u g</p>
+<p><a id="bp-06dc76ced6f38a3b"></a>
+<strong>5 devices</strong> — S w i t c hD r e s sN u t                 C &amp; K                  7099                        M e t e rS e l e c t o r S w i t c h      ITT                    5Fx 17.5MM                        ( S w i t c hF r a m e )</p>
+<p><a id="bp-05cabe1b42bb0e80"></a>
+<strong>5 devices</strong> — SYMBOL              PTION                        DESCRi                                    MFG                    PARTNUMBER        SP K R          C u eS p e a k e r                        Projects               F 1 2 510                                                                  U n li m it e d        SC R E E N      C u eS p e a k eS                                        r creen                   t^lBS                  89962-2        HANDLES         M 4 9 0S e r i e sM o d u l e s           P &amp; G                        Fader                           Handr"                                                        P3907  5- 1                                                                                         P3907  5-2                              : [iiii                                                    P 3 9 057-3                              -                  B lu e                                  P 3 9 057- 4                                               - Red                                     P3907  5- 5                                               : ;:]il:                                  P 3 9 057-6                                                                                         P3907  5- 8        Sl'JITCHES      P o w e rS u p p l yC h a n g e o v e r c &amp; K                    741lSYl^lQ                        S wtch                            i</p>
+<p><a id="bp-04257c1793036a92"></a>
+<strong>5 devices</strong> — D 9 0 0 4 3 8 - 0 1 - 0 0 2 D CF u n c t i o n a l</p>
+<h2>Warranty (12)</h2>
+<p><a id="bp-c1c0908fa3aad7e2"></a>
+<strong>68 devices</strong> — WARD-BECK SYSTEMS INC. 945 Middlefield Road, Unit 9, Toronto, Ontario M1V 5E1 V 416 335 5999 F 416 335 5202 Toll-Free 800 771 2556 Website: www.ward­-beck.com E-Mail: sales@ward­-beck.com</p>
+<p><a id="bp-f4e5345ab11dc585"></a>
+<strong>67 devices</strong> — Ward-Beck Systems Inc. reserves the right, at any time and without notice, to make changes in its equipment, components, specifications or designs, as may be warranted by progress in state-of-the-art technology.</p>
+<p><a id="bp-b6240b9a7aed9a9e"></a>
+<strong>67 devices</strong> — This warranty does not cover items normally considered expendable, such as fuses and lamps.</p>
+<p><a id="bp-7f976e2b41601d05"></a>
+<strong>67 devices</strong> — The warranty set forth herein is in lieu of all other warranties expressed or implied, including the warranties of merchantability and fitness.</p>
+<p><a id="bp-72f55892a1c53496"></a>
+<strong>67 devices</strong> — This warranty does not cover damages caused by misuse, accident, neglect, unauthorized alteration, repair by unauthorized personnel, or damage caused by an act of God, war, or civil insurrection.</p>
+<p><a id="bp-63617240bb5bb638"></a>
+<strong>67 devices</strong> — All Ward-Beck Systems Inc. products are warranted against defective materials and workmanship for a period of one year from the date of shipment.</p>
+<p><a id="bp-34741163f3361dce"></a>
+<strong>67 devices</strong> — In no event shall Ward-Beck Systems Inc. be liable for consequential damages. Ward-Beck Systems Inc. shall have the rights to final determination as to the application of this warranty.</p>
+<p><a id="bp-1cbf852f43462543"></a>
+<strong>67 devices</strong> — The purchaser assumes the obligation for all expenses in connection with the shipping and return of such goods, once authorization has been obtained.</p>
+<p><a id="bp-1a488a5cc38d92fe"></a>
+<strong>67 devices</strong> — Ward-Beck Systems Inc. will repair or replace, at its option and without charge, all said products or parts thereof which upon factory inspection prove to be defective during the warranty period, provided that:</p>
+<p><a id="bp-1637977c20b2600e"></a>
+<strong>67 devices</strong> — Ward-Beck Systems Inc. reserves the right to make design changes, additions to, and improvements in its products, without obligation to install such revisions in products previously manufactured.</p>
+<p><a id="bp-073c30eb0adcf664"></a>
+<strong>67 devices</strong> — The purchaser shall return any equipment or parts thereof to Ward-­Beck Systems Inc. only after obtaining prior authorization and shipping instructions from the factory. (Ward-Beck Systems Inc. reserves the right to inspect or repair equipment on the purchaser’s premises).</p>
+<p><a id="bp-045065cd9adcbfb5"></a>
+<strong>67 devices</strong> — The original serial numbers are intact and have not been tampered with.</p><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from Boilerplate.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

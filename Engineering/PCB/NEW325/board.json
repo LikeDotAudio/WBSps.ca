@@ -1,0 +1,45 @@
+{
+  "board": "NEW325",
+  "title": "",
+  "format": "tango",
+  "sha256": "c0f916ea8626b306ffb2a6cdd20e978e9237dc5cca4c93dd959b31fca18d1561",
+  "source": "WBSps Engineering from H drive/WBSps - SA14-XXX/SA14-325/TANGO/NEW325.PCB",
+  "copies": [
+    "WBSps Engineering from H drive/WBSps - SA14-XXX/SA14-325/TANGO/NEW325.PCB",
+    "WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - SA14-XXX/SA14-325/TANGO/NEW325.PCB"
+  ],
+  "kicad_pcb": "NEW325/NEW325.kicad_pcb",
+  "netlist": null,
+  "convert": {
+    "source": "/home/anthony/Documents/GitProjects/WBSps.ca/WBSps.env/WBSps Engineering from H drive/WBSps - SA14-XXX/SA14-325/TANGO/NEW325.PCB",
+    "kicad_pcb": "/home/anthony/Documents/GitProjects/WBSps.ca/2026/Engineering/PCB/NEW325/NEW325.kicad_pcb",
+    "format": "Tango-PCB PLUS V2.02 Series II",
+    "edge_layer": 14,
+    "tango_layers_used": {
+      "0": 6301,
+      "1": 5823,
+      "4": 143,
+      "8": 4510,
+      "9": 1,
+      "10": 44,
+      "11": 1,
+      "12": 36,
+      "14": 25,
+      "16": 465,
+      "17": 19,
+      "18": 28
+    },
+    "counts": {
+      "components": 663,
+      "pads": 2754,
+      "tracks": 11965,
+      "vias": 597,
+      "graphics": 4915,
+      "texts": 461,
+      "pours": 55
+    },
+    "nets": null
+  },
+  "top": "NEW325/NEW325-top.svg",
+  "bottom": "NEW325/NEW325-bottom.svg"
+}

@@ -1,0 +1,184 @@
+OrCAD Capture schematic (.DSN). This binary format needs OrCAD Capture to view as a drawing.
+Text recovered from the file (part names, values, sheet titles, net names):
+
+OFFPAGELEFT-L
+C:\ORCADWIN\CAPTURE\LIBRARY\CAPSYM.OLB
+$PIN0
+TitleBlock4
+Title
+Size
+Document Number
+Date:
+Sheet
+GND POWER
+C:\DOS\XLATTEMP.OLB
+OFFPAGELEFT-R
+GND EARTH
+Bookmark
+VCC_BAR
+VCC_ARROW
+RESISTOR.Normal
+CAP NP.Normal
+FUSE.Normal
+CAP.Normal
+CON1.Normal
+CON12.Normal
+74HC4053.Normal
+DIODE ZENER.Normal
+TIP30.Normal
+ILD1.Normal
+R.Normal
+74HC132.Normal
+POT.Normal
+74HC132.Convert
+NE5532.Normal
+PLUG AC MALE.Normal
+DIODE.Normal
+SW SPST.Normal
+COMMON
+TRANSFORMER FLAT COMPACT.Normal
+LED.Normal
+TIP29.Normal
+CON3.Normal
+RZ RELAY.Normal
+COILHI
+COILLO
+NPN EBC.Normal
+POD7.SCH
+ISOA2+
+ISOB2+
+ISOA1+
+ISOA2-
+ISOB1+
+ISOB2-
+ISOA1-
+ISOB1-
+NPN EBC
+RZ RELAY
+ISO4
+ILD1
+ISO5
+DIODE
+CON12
+CON3
+ISO3
+|LINK
+|POD7A.SCH
+A INPUT
+B INPUT
+|POD7B.SCH
+POD7B.SCH
+CAP NP
+RESISTOR
+NE5532
+74HC4053
+74HC132
+TIP29
+TIP30
+CR14
+CR13
+CR12
+INPUT +4 dBu
+NOMINAL
+(GND)
+NOTES:
+2. ALL CAPACITORS ARE IN MICROFARADS AND
+ALL RESISTORS ARE 1/4W UNLESS OTHERWISE SPECIFIED.
+BALANCED
+CTL INPUT
+OUTPUT
+1. LAST COMPONENTS USED: C18, D15, DS3, F3, ISO5, K4
+P17, SW1, Q7, R39, T1, U3.
+POD7
+POD7A.SCH
+OrCAD Windows Design
+"Arial
+As Double, ByVal x4() As
+1Courier New
+al x2() As Double, B
+1ST PART FIELD
+2ND PART FIELD
+3RD PART FIELD
+4TH PART FIELD
+5TH PART FIELD
+6TH PART FIELD
+7TH PART FIELD
+PCB Footprint
+Bookmark4
+TitleBlock
+Page Create Date
+March  8, 1995
+RevCode
+OrgName
+OrgAddr1
+OrgAddr2
+OrgAddr3
+Page Size
+Page Number
+Page Count
+Page Modify Date
+WARD-BECK SYSTEMS LTD.
+841 PROGRESS AVENUE
+SCARBOROUGH, ONTARIO, CANADA
+POD 7 - CONTROL ROOM INTERFACE
+Part Reference
+Value
+TO-237
+RZ-24
+DIP16
+DIP8
+DO-41
+PHNX12/150
+SIP3
+YELLOW
+551LED
+Name
+WARD-BECK SYSTEMS
+POD 7 - CONTROL ROOM INTERFACE UNIT
+CAP.2
+RAD.1
+CAP.1
+TO-92
+DIP14
+TIP29B
+TO-220HS
+TIP30B
+R01MF
+EC165
+PbDf
+PAN3/156
+TANTB.2
+115V/230V AC
+50/60 HZ
+R03WE
+CON1
+CR11
+DIODE ZENER
+TRANSFORMER FLAT COMPACT
+ISO2
+ISO1
+CR10
+FUSE
+SW SPST
+PLUG AC MALE
+Root Entry
+Cache
+Cells
+Parts
+Views
+Pages
+Schematic
+Library
+Symbols
+$Types$
+Graphics
+Packages
+ExportBlocks
+Cells Directory
+Parts Directory
+Types$
+Views Directory
+Symbols Directory
+Graphics Directory
+Packages Directory
+ExportBlocks Directory

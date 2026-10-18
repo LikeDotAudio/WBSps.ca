@@ -1,0 +1,1120 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>D8212 — Audio Distribution System</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>D8212 — Audio Distribution System</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>product</td>
+</tr>
+<tr>
+<td>Series</td>
+<td><a href="Series-8200-SERIES.html">8200 SERIES</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../simulator.html?m=D8212">simulator &amp; front panel</a> · <a href="../_packages/D8212.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="Year-1986.html">1986|19</a> — manual issue date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"ISSUE #2 APRIL 3, 1986" in PUBLIC/Manuals + tech DOCUMENTS/Modules/D8212 -Audio Distribution System/D8212 - 002.jpg</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="Year-1986.html">1986|19</a>, <a href="Year-1997.html">1997|30</a></td>
+</tr>
+<tr>
+<td>Variants</td>
+<td><a href="D8212E.html">D8212E</a>, <a href="D8212F.html">D8212F</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../Consoles/1990-1999/900416%20-%20KFBK-KAER/index.html">Consoles/1990-1999/900416 - KFBK-KAER</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/">DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Large%20pile%20of%20D/">DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Large pile of D</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections</h2>
+<p><em>What it is made of and what it is part of.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="D8212" data-n="Audio Distribution System" data-cat="8200 SERIES"></div><svg class="wbs-panel" data-m="D8212" data-n="Audio Distribution System" data-cat="8200 SERIES" role="img" aria-label="D8212 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"D8212","title":"Audio Distribution System","rto":null,"parts":[{"item":"SA14-312","title":"III) REMOTE SENSITIVITY AMPLIFIER - COMPONENT LAYOUT","label":"SA14-312 III) REMOTE SENSITIVITY AM","href":"Register-Circuit-boards-SA14-nnn.html#sa14-312","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-265","title":"","label":"SA14-265","href":"Register-Circuit-boards-SA14-nnn.html#sa14-265","note":"Circuit boards (SA14-nnn)"}],"parents":[{"label":"M8200","href":"M8200.html","note":"on 33 drawings with it: Microphone Preamplifier"},{"label":"M8206","href":"M8206.html","note":"on 21 drawings with it: Matrixing Amplifier"},{"label":"M8205","href":"M8205.html","note":"on 17 drawings with it: Audio Distribution Ampli"},{"label":"M8204","href":"M8204.html","note":"on 13 drawings with it"},{"label":"M8203","href":"M8203.html","note":"on 13 drawings with it"},{"label":"M8202","href":"M8202.html","note":"on 13 drawings with it"},{"label":"M8201","href":"M8201.html","note":"on 13 drawings with it"},{"label":"M8202A","href":"M8202A.html","note":"on 5 drawings with it: Remote Sensitivity Ampli"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20002%20%282%29.jpg"><img loading="lazy" src="../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20002%20%282%29.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - 002 (2).jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - 002 (2).jpg</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20002.jpg"><img loading="lazy" src="../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20002.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - 002.jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - 002.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M8200/19xx%20-%20M8200%20-%20AD%20-%20Screen%20Shot%202016-03-06%20at%2012.54.58%20AM.png"><img loading="lazy" src="../Modules/AMPLIFIERS/M8200/19xx%20-%20M8200%20-%20AD%20-%20Screen%20Shot%202016-03-06%20at%2012.54.58%20AM.png" alt="" data-f="Modules/AMPLIFIERS/M8200/19xx - M8200 - AD - Screen Shot 2016-03-06 at 12.54.58 AM.png" data-size="320" onerror="wbsOff(this)">19xx - M8200 - AD - Screen Shot 2016-03-06 at 12.54.58 AM.png</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M8200/19xx%20-%20M8200%20-%20AD%20-%20Screen%20Shot%202016-03-06%20at%2012.55.00%20AM.png"><img loading="lazy" src="../Modules/AMPLIFIERS/M8200/19xx%20-%20M8200%20-%20AD%20-%20Screen%20Shot%202016-03-06%20at%2012.55.00%20AM.png" alt="" data-f="Modules/AMPLIFIERS/M8200/19xx - M8200 - AD - Screen Shot 2016-03-06 at 12.55.00 AM.png" data-size="320" onerror="wbsOff(this)">19xx - M8200 - AD - Screen Shot 2016-03-06 at 12.55.00 AM.png</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20AD%20-%20Screen%20Shot%202016-03-06%20at%2012.51.49%20AM%20%282%29.png"><img loading="lazy" src="../Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20AD%20-%20Screen%20Shot%202016-03-06%20at%2012.51.49%20AM%20%282%29.png" alt="" data-f="Products/8200 SERIES/D8212/19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.51.49 AM (2).png" data-size="320" onerror="wbsOff(this)">19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.51.49 AM (2).png</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20AD%20-%20Screen%20Shot%202016-03-06%20at%2012.51.49%20AM.png"><img loading="lazy" src="../Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20AD%20-%20Screen%20Shot%202016-03-06%20at%2012.51.49%20AM.png" alt="" data-f="Products/8200 SERIES/D8212/19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.51.49 AM.png" data-size="320" onerror="wbsOff(this)">19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.51.49 AM.png</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20AD%20-%20Screen%20Shot%202016-03-06%20at%2012.52.00%20AM.png"><img loading="lazy" src="../Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20AD%20-%20Screen%20Shot%202016-03-06%20at%2012.52.00%20AM.png" alt="" data-f="Products/8200 SERIES/D8212/19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.52.00 AM.png" data-size="320" onerror="wbsOff(this)">19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.52.00 AM.png</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20AD%20-%20Screen%20Shot%202016-03-06%20at%2012.52.04%20AM.png"><img loading="lazy" src="../Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20AD%20-%20Screen%20Shot%202016-03-06%20at%2012.52.04%20AM.png" alt="" data-f="Products/8200 SERIES/D8212/19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.52.04 AM.png" data-size="320" onerror="wbsOff(this)">19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.52.04 AM.png</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20AD%20-%20Screen%20Shot%202016-03-06%20at%2012.52.07%20AM.png"><img loading="lazy" src="../Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20AD%20-%20Screen%20Shot%202016-03-06%20at%2012.52.07%20AM.png" alt="" data-f="Products/8200 SERIES/D8212/19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.52.07 AM.png" data-size="320" onerror="wbsOff(this)">19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.52.07 AM.png</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20AD%20-%20Screen%20Shot%202016-03-06%20at%2012.54.44%20AM%20%282%29.png"><img loading="lazy" src="../Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20AD%20-%20Screen%20Shot%202016-03-06%20at%2012.54.44%20AM%20%282%29.png" alt="" data-f="Products/8200 SERIES/D8212/19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.54.44 AM (2).png" data-size="320" onerror="wbsOff(this)">19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.54.44 AM (2).png</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20AD%20-%20Screen%20Shot%202016-03-06%20at%2012.54.44%20AM.png"><img loading="lazy" src="../Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20AD%20-%20Screen%20Shot%202016-03-06%20at%2012.54.44%20AM.png" alt="" data-f="Products/8200 SERIES/D8212/19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.54.44 AM.png" data-size="320" onerror="wbsOff(this)">19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.54.44 AM.png</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20AD%20-%20Screen%20Shot%202016-03-06%20at%2012.54.57%20AM.png"><img loading="lazy" src="../Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20AD%20-%20Screen%20Shot%202016-03-06%20at%2012.54.57%20AM.png" alt="" data-f="Products/8200 SERIES/D8212/19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.54.57 AM.png" data-size="320" onerror="wbsOff(this)">19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.54.57 AM.png</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20000%20-%20Cover%20%282%29.jpg"><img loading="lazy" src="../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20000%20-%20Cover%20%282%29.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - 000 - Cover (2).jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - 000 - Cover (2).jpg</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20000%20-%20Cover.jpg"><img loading="lazy" src="../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20000%20-%20Cover.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - 000 - Cover.jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - 000 - Cover.jpg</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20001%20-%20Picture%20001.jpg"><img loading="lazy" src="../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20001%20-%20Picture%20001.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - 001 - Picture 001.jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - 001 - Picture 001.jpg</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20001%20-%20Pictures%20002.jpg"><img loading="lazy" src="../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20001%20-%20Pictures%20002.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - 001 - Pictures 002.jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - 001 - Pictures 002.jpg</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20001%20-%20Pictures.jpg"><img loading="lazy" src="../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20001%20-%20Pictures.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - 001 - Pictures.jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - 001 - Pictures.jpg</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20003%20%282%29.jpg"><img loading="lazy" src="../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20003%20%282%29.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - 003 (2).jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - 003 (2).jpg</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20003.jpg"><img loading="lazy" src="../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20003.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - 003.jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - 003.jpg</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20004%20%282%29.jpg"><img loading="lazy" src="../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20004%20%282%29.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - 004 (2).jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - 004 (2).jpg</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20004.jpg"><img loading="lazy" src="../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20004.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - 004.jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - 004.jpg</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20005%20%282%29.jpg"><img loading="lazy" src="../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20005%20%282%29.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - 005 (2).jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - 005 (2).jpg</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20005.jpg"><img loading="lazy" src="../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20005.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - 005.jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - 005.jpg</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20006%20%282%29.jpg"><img loading="lazy" src="../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20006%20%282%29.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - 006 (2).jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - 006 (2).jpg</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20006.jpg"><img loading="lazy" src="../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20006.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - 006.jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - 006.jpg</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20007%20%282%29.jpg"><img loading="lazy" src="../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20007%20%282%29.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - 007 (2).jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - 007 (2).jpg</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20007.jpg"><img loading="lazy" src="../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20007.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - 007.jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - 007.jpg</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20008%20%282%29.jpg"><img loading="lazy" src="../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20008%20%282%29.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - 008 (2).jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - 008 (2).jpg</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20008.jpg"><img loading="lazy" src="../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20008.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - 008.jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - 008.jpg</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20009%20%282%29.jpg"><img loading="lazy" src="../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20009%20%282%29.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - 009 (2).jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - 009 (2).jpg</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20009.jpg"><img loading="lazy" src="../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20009.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - 009.jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - 009.jpg</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20audio%20distribution%20system%20001.jpg"><img loading="lazy" src="../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20audio%20distribution%20system%20001.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - audio distribution system 001.jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - audio distribution system 001.jpg</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20audio%20distribution%20system%20002.jpg"><img loading="lazy" src="../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20audio%20distribution%20system%20002.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - audio distribution system 002.jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - audio distribution system 002.jpg</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20audio%20distribution%20system%20003.jpg"><img loading="lazy" src="../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20audio%20distribution%20system%20003.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - audio distribution system 003.jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - audio distribution system 003.jpg</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20audio%20distribution%20system%20004.jpg"><img loading="lazy" src="../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20audio%20distribution%20system%20004.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - audio distribution system 004.jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - audio distribution system 004.jpg</a><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/1989%20-%20DOC%20-%208200%20brochure%201989%20a.jpg"><img loading="lazy" src="../DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/1989%20-%20DOC%20-%208200%20brochure%201989%20a.jpg" alt="" data-f="DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/1989 - DOC - 8200 brochure 1989 a.jpg" data-size="320" onerror="wbsOff(this)">1989 - DOC - 8200 brochure 1989 a.jpg</a><a href="../viewer.html?f=Consoles/1990-1999/900416%20-%20KFBK-KAER/1990%20-%20900416%20-%20DOC%20-%20900416-04-001%20-%20SELECTOR%20PANELS%20LIMITATION%20ROWS%20WITH%20CHARACTERS%20PER%20PUSHBUTTON.jpg"><img loading="lazy" src="../Consoles/1990-1999/900416%20-%20KFBK-KAER/1990%20-%20900416%20-%20DOC%20-%20900416-04-001%20-%20SELECTOR%20PANELS%20LIMITATION%20ROWS%20WITH%20CHARACTERS%20PER%20PUSHBUTTON.jpg" alt="" data-f="Consoles/1990-1999/900416 - KFBK-KAER/1990 - 900416 - DOC - 900416-04-001 - SELECTOR PANELS LIMITATION ROWS WITH CHARACTERS PER PUSHBUTTON.jpg" data-size="320" onerror="wbsOff(this)">1990 - 900416 - DOC - 900416-04-001 - SELECTOR PANELS LIMITATION ROWS WITH CHARACTERS PER PUSHBUTTON.jpg</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1992%20-%2082-03-002%20-%20P.C.%20GUIDE%20SUPPORT%20BAR%20UPPER%20LOWER%20FRONT%20-%20DRN%20DRG%20-%20ISS%203.jpg"><img loading="lazy" src="../Products/8200%20SERIES/D8212/1992%20-%2082-03-002%20-%20P.C.%20GUIDE%20SUPPORT%20BAR%20UPPER%20LOWER%20FRONT%20-%20DRN%20DRG%20-%20ISS%203.jpg" alt="" data-f="Products/8200 SERIES/D8212/1992 - 82-03-002 - P.C. GUIDE SUPPORT BAR UPPER LOWER FRONT - DRN DRG - ISS 3.jpg" data-size="320" onerror="wbsOff(this)">1992 - 82-03-002 - P.C. GUIDE SUPPORT BAR UPPER LOWER FRONT - DRN DRG - ISS 3.jpg</a><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%208200%20brochure%20a.jpg"><img loading="lazy" src="../DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%208200%20brochure%20a.jpg" alt="" data-f="DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - 8200 brochure a.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 8200 brochure a.jpg</a><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%208201%20brochure%20a.jpg"><img loading="lazy" src="../DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%208201%20brochure%20a.jpg" alt="" data-f="DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - 8201 brochure a.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 8201 brochure a.jpg</a><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%208202%20brochure%20a.jpg"><img loading="lazy" src="../DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%208202%20brochure%20a.jpg" alt="" data-f="DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - 8202 brochure a.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 8202 brochure a.jpg</a><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%208203%20brochure%20a.jpg"><img loading="lazy" src="../DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%208203%20brochure%20a.jpg" alt="" data-f="DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - 8203 brochure a.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 8203 brochure a.jpg</a><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%208204%20brochure%20a.jpg"><img loading="lazy" src="../DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%208204%20brochure%20a.jpg" alt="" data-f="DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - 8204 brochure a.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 8204 brochure a.jpg</a><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%208212%20brochure%20a.jpg"><img loading="lazy" src="../DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%208212%20brochure%20a.jpg" alt="" data-f="DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - 8212 brochure a.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 8212 brochure a.jpg</a><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%208212%20series%20brochure.jpg"><img loading="lazy" src="../DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%208212%20series%20brochure.jpg" alt="" data-f="DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - 8212 series brochure.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 8212 series brochure.jpg</a><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Large%20pile%20of%20D/19xx%20-%20DOC%20-%2082-03-002%20-%20PAINT%20TEXTURED%20GREY%20TEXCOTE%20VINYL.jpg"><img loading="lazy" src="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Large%20pile%20of%20D/19xx%20-%20DOC%20-%2082-03-002%20-%20PAINT%20TEXTURED%20GREY%20TEXCOTE%20VINYL.jpg" alt="" data-f="DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Large pile of D/19xx - DOC - 82-03-002 - PAINT TEXTURED GREY TEXCOTE VINYL.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 82-03-002 - PAINT TEXTURED GREY TEXCOTE VINYL.jpg</a><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Large%20pile%20of%20D/19xx%20-%20DOC%20-%2082-03-004%20-%20RESD%20CHZVREQ.jpg"><img loading="lazy" src="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Large%20pile%20of%20D/19xx%20-%20DOC%20-%2082-03-004%20-%20RESD%20CHZVREQ.jpg" alt="" data-f="DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Large pile of D/19xx - DOC - 82-03-004 - RESD CHZVREQ.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 82-03-004 - RESD CHZVREQ.jpg</a><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210319%20-%20Redone%20of%20what%20Sampson%20scanned/19xx%20-%20DOC%20-%2082-03-003%20-%20TEXTURED%20GREY%20TEXCOTE%20VINY%20OVE%20ALL%20BURRS.jpg"><img loading="lazy" src="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210319%20-%20Redone%20of%20what%20Sampson%20scanned/19xx%20-%20DOC%20-%2082-03-003%20-%20TEXTURED%20GREY%20TEXCOTE%20VINY%20OVE%20ALL%20BURRS.jpg" alt="" data-f="DOCUMENTS/RECENT SCANS/WBSps.ca 20210319 - Redone of what Sampson scanned/19xx - DOC - 82-03-003 - TEXTURED GREY TEXCOTE VINY OVE ALL BURRS.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 82-03-003 - TEXTURED GREY TEXCOTE VINY OVE ALL BURRS.jpg</a><a href="../viewer.html?f=PHOTOS/Photos/D8212%20-%20009%282%29.jpg"><img loading="lazy" src="../PHOTOS/Photos/D8212%20-%20009%282%29.jpg" alt="" data-f="PHOTOS/Photos/D8212 - 009(2).jpg" data-size="320" onerror="wbsOff(this)">D8212 - 009(2).jpg</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%2082-03-003%20-%20P.C.%20GUIDE%20SUPPORT%20BAR%20UPPER%20LOWER%20REAR%20-%20DRN%20WS%20-%20ISS%201.jpg"><img loading="lazy" src="../Products/8200%20SERIES/D8212/19xx%20-%2082-03-003%20-%20P.C.%20GUIDE%20SUPPORT%20BAR%20UPPER%20LOWER%20REAR%20-%20DRN%20WS%20-%20ISS%201.jpg" alt="" data-f="Products/8200 SERIES/D8212/19xx - 82-03-003 - P.C. GUIDE SUPPORT BAR UPPER LOWER REAR - DRN WS - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">19xx - 82-03-003 - P.C. GUIDE SUPPORT BAR UPPER LOWER REAR - DRN WS - ISS 1.jpg</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%208212-04-003%20-%20AUDIO%20DISTRIBUTION%20SYSTEM%20OUTLINE%20-%20ISS%201%20%282%29.jpg"><img loading="lazy" src="../Products/8200%20SERIES/D8212/19xx%20-%208212-04-003%20-%20AUDIO%20DISTRIBUTION%20SYSTEM%20OUTLINE%20-%20ISS%201%20%282%29.jpg" alt="" data-f="Products/8200 SERIES/D8212/19xx - 8212-04-003 - AUDIO DISTRIBUTION SYSTEM OUTLINE - ISS 1 (2).jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">19xx - 8212-04-003 - AUDIO DISTRIBUTION SYSTEM OUTLINE - ISS 1 (2).jpg</a><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%208212-04-003%20-%20AUDIO%20DISTRIBUTION%20SYSTEM%20OUTLINE%20-%20ISS%201.jpg"><img loading="lazy" src="../Products/8200%20SERIES/D8212/19xx%20-%208212-04-003%20-%20AUDIO%20DISTRIBUTION%20SYSTEM%20OUTLINE%20-%20ISS%201.jpg" alt="" data-f="Products/8200 SERIES/D8212/19xx - 8212-04-003 - AUDIO DISTRIBUTION SYSTEM OUTLINE - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">19xx - 8212-04-003 - AUDIO DISTRIBUTION SYSTEM OUTLINE - ISS 1.jpg</a></div>
+
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-1986.html">1986|19</a></td>
+<td>manual issue date</td>
+<td><code>ISSUE #2 APRIL 3, 1986</code></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20002%20%282%29.jpg">1986 - D8212 - 002 (2).jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1986.html">1986|19</a></td>
+<td>manual issue date</td>
+<td><code>ISSUE #2 APRIL 3, 1986</code></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20002.jpg">1986 - D8212 - 002.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1995.html">1995|28</a></td>
+<td>manual issue date</td>
+<td><code>MANUAL ISSUE #1 November 28, 1995</code></td>
+<td><a href="../viewer.html?f=DOCUMENTS/WBSps%20-%20Word%20Perfect%20Manuals-20221115T024240Z-001/WBSps%20-%20Word%20Perfect%20Manuals/1995%20-%20DOC%20-%2014-312-02-001%20-%20III%29%20REMOTE%20SENSITIVITY%20AMPLIFIER%20-%20COMPONENT%20LAYOUT.wp">1995 - DOC - 14-312-02-001 - III) REMOTE SENSITIVITY AMPLIFIER - COMPONENT LAYOUT.wp</a></td>
+</tr>
+<tr>
+<td><a href="Year-1995.html">1995|28</a></td>
+<td>manual issue date</td>
+<td><code>MANUAL ISSUE #1 November 28, 1995</code></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1995%20-%20D8212%20-%20DOC%20-%2014-312-02-001%20-%20III%29%20REMOTE%20SENSITIVITY%20AMPLIFIER%20-%20COMPONENT%20LAYOUT.wp">1995 - D8212 - DOC - 14-312-02-001 - III) REMOTE SENSITIVITY AMPLIFIER - COMPONENT LAYOUT.wp</a></td>
+</tr>
+<tr>
+<td><a href="Year-1995.html">1995|28</a></td>
+<td>manual issue date</td>
+<td><code>MANUAL ISSUE #1 November 28, 1995</code></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212E/1995%20-%20D8212E%20-%20DOC%20-%2014-312-02-001%20-%20III%29%20REMOTE%20SENSITIVITY%20AMPLIFIER%20-%20COMPONENT%20LAYOUT.wp">1995 - D8212E - DOC - 14-312-02-001 - III) REMOTE SENSITIVITY AMPLIFIER - COMPONENT LAYOUT.wp</a></td>
+</tr>
+<tr>
+<td><a href="Year-1995.html">1995|28</a></td>
+<td>manual issue date</td>
+<td><code>MANUAL ISSUE #1 November 28, 1995</code></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/M8202A/1995%20-%20M8202A%20-%20DOC%20-%2014-312-02-001%20-%20III%29%20REMOTE%20SENSITIVITY%20AMPLIFIER%20-%20COMPONENT%20LAYOUT.wp">1995 - M8202A - DOC - 14-312-02-001 - III) REMOTE SENSITIVITY AMPLIFIER - COMPONENT LAYOUT.wp</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Ads &amp; brochures</h2>
+<ul>
+<li><a href="../viewer.html?f=Modules/AMPLIFIERS/M8200/19xx%20-%20M8200%20-%20AD%20-%20Screen%20Shot%202016-03-06%20at%2012.54.58%20AM.png">19xx - M8200 - AD - Screen Shot 2016-03-06 at 12.54.58 AM.png</a></li>
+<li><a href="../viewer.html?f=Modules/AMPLIFIERS/M8200/19xx%20-%20M8200%20-%20AD%20-%20Screen%20Shot%202016-03-06%20at%2012.55.00%20AM.png">19xx - M8200 - AD - Screen Shot 2016-03-06 at 12.55.00 AM.png</a></li>
+<li><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20AD%20-%20Screen%20Shot%202016-03-06%20at%2012.51.49%20AM%20%282%29.png">19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.51.49 AM (2).png</a></li>
+<li><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20AD%20-%20Screen%20Shot%202016-03-06%20at%2012.51.49%20AM.png">19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.51.49 AM.png</a></li>
+<li><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20AD%20-%20Screen%20Shot%202016-03-06%20at%2012.52.00%20AM.png">19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.52.00 AM.png</a></li>
+<li><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20AD%20-%20Screen%20Shot%202016-03-06%20at%2012.52.04%20AM.png">19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.52.04 AM.png</a></li>
+<li><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20AD%20-%20Screen%20Shot%202016-03-06%20at%2012.52.07%20AM.png">19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.52.07 AM.png</a></li>
+<li><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20AD%20-%20Screen%20Shot%202016-03-06%20at%2012.54.44%20AM%20%282%29.png">19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.54.44 AM (2).png</a></li>
+<li><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20AD%20-%20Screen%20Shot%202016-03-06%20at%2012.54.44%20AM.png">19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.54.44 AM.png</a></li>
+<li><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20AD%20-%20Screen%20Shot%202016-03-06%20at%2012.54.57%20AM.png">19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.54.57 AM.png</a></li>
+<li><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20AD%20-%20Screen%20Shot%202016-03-06%20at%2012.54.58%20AM.png">19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.54.58 AM.png</a></li>
+<li><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20AD%20-%20Screen%20Shot%202016-03-06%20at%2012.55.00%20AM.png">19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.55.00 AM.png</a></li>
+</ul>
+<h2>Documents (5)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1995|28</td>
+<td><a href="../viewer.html?f=DOCUMENTS/WBSps%20-%20Word%20Perfect%20Manuals-20221115T024240Z-001/WBSps%20-%20Word%20Perfect%20Manuals/1995%20-%20DOC%20-%2014-312-02-001%20-%20III%29%20REMOTE%20SENSITIVITY%20AMPLIFIER%20-%20COMPONENT%20LAYOUT.wp">1995 - DOC - 14-312-02-001 - III) REMOTE SENSITIVITY AMPLIFIER - COMPONENT LAYOUT.wp</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/WBSps%20-%20Word%20Perfect%20Manuals-20221115T024240Z-001/WBSps%20-%20Word%20Perfect%20Manuals/1995%20-%20DOC%20-%2014-312-02-001%20-%20III%29%20REMOTE%20SENSITIVITY%20AMPLIFIER%20-%20COMPONENT%20LAYOUT.wp.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1995%20-%20D8212%20-%20DOC%20-%2014-312-02-001%20-%20III%29%20REMOTE%20SENSITIVITY%20AMPLIFIER%20-%20COMPONENT%20LAYOUT.wp">1995 - D8212 - DOC - 14-312-02-001 - III) REMOTE SENSITIVITY AMPLIFIER - COMPONENT LAYOUT.wp</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1995%20-%20D8212%20-%20DOC%20-%2014-312-02-001%20-%20III%29%20REMOTE%20SENSITIVITY%20AMPLIFIER%20-%20COMPONENT%20LAYOUT.wp.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212E/1995%20-%20D8212E%20-%20DOC%20-%2014-312-02-001%20-%20III%29%20REMOTE%20SENSITIVITY%20AMPLIFIER%20-%20COMPONENT%20LAYOUT.wp">1995 - D8212E - DOC - 14-312-02-001 - III) REMOTE SENSITIVITY AMPLIFIER - COMPONENT LAYOUT.wp</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212E/1995%20-%20D8212E%20-%20DOC%20-%2014-312-02-001%20-%20III%29%20REMOTE%20SENSITIVITY%20AMPLIFIER%20-%20COMPONENT%20LAYOUT.wp.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/M8202A/1995%20-%20M8202A%20-%20DOC%20-%2014-312-02-001%20-%20III%29%20REMOTE%20SENSITIVITY%20AMPLIFIER%20-%20COMPONENT%20LAYOUT.wp">1995 - M8202A - DOC - 14-312-02-001 - III) REMOTE SENSITIVITY AMPLIFIER - COMPONENT LAYOUT.wp</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/M8202A/1995%20-%20M8202A%20-%20DOC%20-%2014-312-02-001%20-%20III%29%20REMOTE%20SENSITIVITY%20AMPLIFIER%20-%20COMPONENT%20LAYOUT.wp.md">note</a></td>
+</tr>
+<tr>
+<td>1997|30</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1997%20-%20D8212%20-%20file.wpd">1997 - D8212 - file.wpd</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1997%20-%20D8212%20-%20file.wpd.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (73)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1986|19</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20000%20-%20Cover%20%282%29.jpg">1986 - D8212 - 000 - Cover (2).jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20000%20-%20Cover%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1986|19</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20000%20-%20Cover.jpg">1986 - D8212 - 000 - Cover.jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20000%20-%20Cover.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1986|19</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20001%20-%20Picture%20001.jpg">1986 - D8212 - 001 - Picture 001.jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20001%20-%20Picture%20001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1986|19</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20001%20-%20Pictures%20002.jpg">1986 - D8212 - 001 - Pictures 002.jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20001%20-%20Pictures%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1986|19</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20001%20-%20Pictures.jpg">1986 - D8212 - 001 - Pictures.jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20001%20-%20Pictures.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1986|19</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20002%20%282%29.jpg">1986 - D8212 - 002 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20002%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1986|19</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20002.jpg">1986 - D8212 - 002.jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1986|19</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20003%20%282%29.jpg">1986 - D8212 - 003 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20003%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1986|19</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20003.jpg">1986 - D8212 - 003.jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1986|19</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20004%20%282%29.jpg">1986 - D8212 - 004 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20004%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1986|19</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20004.jpg">1986 - D8212 - 004.jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20004.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1986|19</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20005%20%282%29.jpg">1986 - D8212 - 005 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20005%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1986|19</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20005.jpg">1986 - D8212 - 005.jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20005.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1986|19</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20006%20%282%29.jpg">1986 - D8212 - 006 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20006%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1986|19</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20006.jpg">1986 - D8212 - 006.jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20006.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1986|19</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20007%20%282%29.jpg">1986 - D8212 - 007 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20007%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1986|19</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20007.jpg">1986 - D8212 - 007.jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20007.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1986|19</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20008%20%282%29.jpg">1986 - D8212 - 008 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20008%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1986|19</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20008.jpg">1986 - D8212 - 008.jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20008.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1986|19</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20009%20%282%29.jpg">1986 - D8212 - 009 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20009%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1986|19</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20009.jpg">1986 - D8212 - 009.jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20009.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1986|19</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20audio%20distribution%20system%20001.jpg">1986 - D8212 - audio distribution system 001.jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20audio%20distribution%20system%20001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1986|19</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20audio%20distribution%20system%20002.jpg">1986 - D8212 - audio distribution system 002.jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20audio%20distribution%20system%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1986|19</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20audio%20distribution%20system%20003.jpg">1986 - D8212 - audio distribution system 003.jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20audio%20distribution%20system%20003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1986|19</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20audio%20distribution%20system%20004.jpg">1986 - D8212 - audio distribution system 004.jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20audio%20distribution%20system%20004.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1989|22</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/1989%20-%20DOC%20-%208200%20brochure%201989%20a.jpg">1989 - DOC - 8200 brochure 1989 a.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/1989%20-%20DOC%20-%208200%20brochure%201989%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1989|22</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8200/1989%20-%20M8200%20-%20DOC%20-%208200%20brochure%201989%20a.jpg">1989 - M8200 - DOC - 8200 brochure 1989 a.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8200/1989%20-%20M8200%20-%20DOC%20-%208200%20brochure%201989%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1989|22</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8205/1989%20-%20M8205%20-%20DOC%20-%208200%20brochure%201989%20a.jpg">1989 - M8205 - DOC - 8200 brochure 1989 a.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8205/1989%20-%20M8205%20-%20DOC%20-%208200%20brochure%201989%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1989|22</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8206/1989%20-%20M8206%20-%20DOC%20-%208200%20brochure%201989%20a.jpg">1989 - M8206 - DOC - 8200 brochure 1989 a.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8206/1989%20-%20M8206%20-%20DOC%20-%208200%20brochure%201989%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1989|22</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1989%20-%20D8212%20-%20DOC%20-%208200%20brochure%201989%20a.jpg">1989 - D8212 - DOC - 8200 brochure 1989 a.jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1989%20-%20D8212%20-%20DOC%20-%208200%20brochure%201989%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1990|23</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/900416%20-%20KFBK-KAER/1990%20-%20900416%20-%20DOC%20-%20900416-04-001%20-%20SELECTOR%20PANELS%20LIMITATION%20ROWS%20WITH%20CHARACTERS%20PER%20PUSHBUTTON.jpg">1990 - 900416 - DOC - 900416-04-001 - SELECTOR PANELS LIMITATION ROWS WITH CHARACTERS PER PUSHBUTTON.jpg</a></td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/900416%20-%20KFBK-KAER/1990%20-%20900416%20-%20DOC%20-%20900416-04-001%20-%20SELECTOR%20PANELS%20LIMITATION%20ROWS%20WITH%20CHARACTERS%20PER%20PUSHBUTTON.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1990|23</td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210319%20-%20Redone%20of%20what%20Sampson%20scanned/1990%20-%20DOC%20-%20900416-04-001%20-%20SELECTOR%20PANELS%20LIMITATION%20ROWS%20WITH%20CHARACTERS%20PER%20PUSHBUTTON.jpg">1990 - DOC - 900416-04-001 - SELECTOR PANELS LIMITATION ROWS WITH CHARACTERS PER PUSHBUTTON.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210319%20-%20Redone%20of%20what%20Sampson%20scanned/1990%20-%20DOC%20-%20900416-04-001%20-%20SELECTOR%20PANELS%20LIMITATION%20ROWS%20WITH%20CHARACTERS%20PER%20PUSHBUTTON.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1990|23</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8205/1990%20-%20M8205%20-%20DOC%20-%20900416-04-001%20-%20SELECTOR%20PANELS%20LIMITATION%20ROWS%20WITH%20CHARACTERS%20PER%20PUSHBUTTON.jpg">1990 - M8205 - DOC - 900416-04-001 - SELECTOR PANELS LIMITATION ROWS WITH CHARACTERS PER PUSHBUTTON.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8205/1990%20-%20M8205%20-%20DOC%20-%20900416-04-001%20-%20SELECTOR%20PANELS%20LIMITATION%20ROWS%20WITH%20CHARACTERS%20PER%20PUSHBUTTON.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1990|23</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1990%20-%20D8212%20-%20DOC%20-%20900416-04-001%20-%20SELECTOR%20PANELS%20LIMITATION%20ROWS%20WITH%20CHARACTERS%20PER%20PUSHBUTTON.jpg">1990 - D8212 - DOC - 900416-04-001 - SELECTOR PANELS LIMITATION ROWS WITH CHARACTERS PER PUSHBUTTON.jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1990%20-%20D8212%20-%20DOC%20-%20900416-04-001%20-%20SELECTOR%20PANELS%20LIMITATION%20ROWS%20WITH%20CHARACTERS%20PER%20PUSHBUTTON.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1992|25</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1992%20-%2082-03-002%20-%20P.C.%20GUIDE%20SUPPORT%20BAR%20UPPER%20LOWER%20FRONT%20-%20DRN%20DRG%20-%20ISS%203.jpg">1992 - 82-03-002 - P.C. GUIDE SUPPORT BAR UPPER LOWER FRONT - DRN DRG - ISS 3.jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1992%20-%2082-03-002%20-%20P.C.%20GUIDE%20SUPPORT%20BAR%20UPPER%20LOWER%20FRONT%20-%20DRN%20DRG%20-%20ISS%203.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%208200%20brochure%20a.jpg">19xx - DOC - 8200 brochure a.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%208200%20brochure%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%208201%20brochure%20a.jpg">19xx - DOC - 8201 brochure a.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%208201%20brochure%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%208202%20brochure%20a.jpg">19xx - DOC - 8202 brochure a.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%208202%20brochure%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%208203%20brochure%20a.jpg">19xx - DOC - 8203 brochure a.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%208203%20brochure%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%208204%20brochure%20a.jpg">19xx - DOC - 8204 brochure a.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%208204%20brochure%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%208212%20brochure%20a.jpg">19xx - DOC - 8212 brochure a.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%208212%20brochure%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%208212%20series%20brochure.jpg">19xx - DOC - 8212 series brochure.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%208212%20series%20brochure.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Large%20pile%20of%20D/19xx%20-%20DOC%20-%2082-03-002%20-%20PAINT%20TEXTURED%20GREY%20TEXCOTE%20VINYL.jpg">19xx - DOC - 82-03-002 - PAINT TEXTURED GREY TEXCOTE VINYL.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Large%20pile%20of%20D/19xx%20-%20DOC%20-%2082-03-002%20-%20PAINT%20TEXTURED%20GREY%20TEXCOTE%20VINYL.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Large%20pile%20of%20D/19xx%20-%20DOC%20-%2082-03-004%20-%20RESD%20CHZVREQ.jpg">19xx - DOC - 82-03-004 - RESD CHZVREQ.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Large%20pile%20of%20D/19xx%20-%20DOC%20-%2082-03-004%20-%20RESD%20CHZVREQ.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210319%20-%20Redone%20of%20what%20Sampson%20scanned/19xx%20-%20DOC%20-%2082-03-003%20-%20TEXTURED%20GREY%20TEXCOTE%20VINY%20OVE%20ALL%20BURRS.jpg">19xx - DOC - 82-03-003 - TEXTURED GREY TEXCOTE VINY OVE ALL BURRS.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210319%20-%20Redone%20of%20what%20Sampson%20scanned/19xx%20-%20DOC%20-%2082-03-003%20-%20TEXTURED%20GREY%20TEXCOTE%20VINY%20OVE%20ALL%20BURRS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8200/19xx%20-%20M8200%20-%20DOC%20-%208200%20brochure%20a.jpg">19xx - M8200 - DOC - 8200 brochure a.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8200/19xx%20-%20M8200%20-%20DOC%20-%208200%20brochure%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8200/19xx%20-%20M8200%20-%20DOC%20-%208212%20brochure%20a.jpg">19xx - M8200 - DOC - 8212 brochure a.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8200/19xx%20-%20M8200%20-%20DOC%20-%208212%20brochure%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8200/19xx%20-%20M8200%20-%20DOC%20-%208212%20series%20brochure.jpg">19xx - M8200 - DOC - 8212 series brochure.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8200/19xx%20-%20M8200%20-%20DOC%20-%208212%20series%20brochure.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8201/19xx%20-%20M8201%20-%20DOC%20-%208201%20brochure%20a.jpg">19xx - M8201 - DOC - 8201 brochure a.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8201/19xx%20-%20M8201%20-%20DOC%20-%208201%20brochure%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8201/19xx%20-%20M8201%20-%20DOC%20-%208212%20brochure%20a.jpg">19xx - M8201 - DOC - 8212 brochure a.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8201/19xx%20-%20M8201%20-%20DOC%20-%208212%20brochure%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8202/19xx%20-%20M8202%20-%20DOC%20-%208202%20brochure%20a.jpg">19xx - M8202 - DOC - 8202 brochure a.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8202/19xx%20-%20M8202%20-%20DOC%20-%208202%20brochure%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8202/19xx%20-%20M8202%20-%20DOC%20-%208212%20brochure%20a.jpg">19xx - M8202 - DOC - 8212 brochure a.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8202/19xx%20-%20M8202%20-%20DOC%20-%208212%20brochure%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8204/19xx%20-%20M8204%20-%20DOC%20-%208204%20brochure%20a.jpg">19xx - M8204 - DOC - 8204 brochure a.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8204/19xx%20-%20M8204%20-%20DOC%20-%208204%20brochure%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8204/19xx%20-%20M8204%20-%20DOC%20-%208212%20brochure%20a.jpg">19xx - M8204 - DOC - 8212 brochure a.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8204/19xx%20-%20M8204%20-%20DOC%20-%208212%20brochure%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8205/19xx%20-%20M8205%20-%20DOC%20-%208200%20brochure%20a.jpg">19xx - M8205 - DOC - 8200 brochure a.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8205/19xx%20-%20M8205%20-%20DOC%20-%208200%20brochure%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8206/19xx%20-%20M8206%20-%20DOC%20-%208200%20brochure%20a.jpg">19xx - M8206 - DOC - 8200 brochure a.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8206/19xx%20-%20M8206%20-%20DOC%20-%208200%20brochure%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8206/19xx%20-%20M8206%20-%20DOC%20-%208212%20brochure%20a.jpg">19xx - M8206 - DOC - 8212 brochure a.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M8206/19xx%20-%20M8206%20-%20DOC%20-%208212%20brochure%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M8203/19xx%20-%20M8203%20-%20DOC%20-%208203%20brochure%20a.jpg">19xx - M8203 - DOC - 8203 brochure a.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M8203/19xx%20-%20M8203%20-%20DOC%20-%208203%20brochure%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M8203/19xx%20-%20M8203%20-%20DOC%20-%208212%20brochure%20a.jpg">19xx - M8203 - DOC - 8212 brochure a.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M8203/19xx%20-%20M8203%20-%20DOC%20-%208212%20brochure%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=PHOTOS/Photos/D8212%20-%20009%282%29.jpg">D8212 - 009(2).jpg</a></td>
+<td><a href="../viewer.html?f=PHOTOS/Photos/D8212%20-%20009%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%2082-03-003%20-%20P.C.%20GUIDE%20SUPPORT%20BAR%20UPPER%20LOWER%20REAR%20-%20DRN%20WS%20-%20ISS%201.jpg">19xx - 82-03-003 - P.C. GUIDE SUPPORT BAR UPPER LOWER REAR - DRN WS - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%2082-03-003%20-%20P.C.%20GUIDE%20SUPPORT%20BAR%20UPPER%20LOWER%20REAR%20-%20DRN%20WS%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%208212-04-003%20-%20AUDIO%20DISTRIBUTION%20SYSTEM%20OUTLINE%20-%20ISS%201%20%282%29.jpg">19xx - 8212-04-003 - AUDIO DISTRIBUTION SYSTEM OUTLINE - ISS 1 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%208212-04-003%20-%20AUDIO%20DISTRIBUTION%20SYSTEM%20OUTLINE%20-%20ISS%201%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%208212-04-003%20-%20AUDIO%20DISTRIBUTION%20SYSTEM%20OUTLINE%20-%20ISS%201.jpg">19xx - 8212-04-003 - AUDIO DISTRIBUTION SYSTEM OUTLINE - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%208212-04-003%20-%20AUDIO%20DISTRIBUTION%20SYSTEM%20OUTLINE%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20DOC%20-%2082-03-002%20-%20PAINT%20TEXTURED%20GREY%20TEXCOTE%20VINYL.jpg">19xx - D8212 - DOC - 82-03-002 - PAINT TEXTURED GREY TEXCOTE VINYL.jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20DOC%20-%2082-03-002%20-%20PAINT%20TEXTURED%20GREY%20TEXCOTE%20VINYL.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20DOC%20-%2082-03-003%20-%20TEXTURED%20GREY%20TEXCOTE%20VINY%20OVE%20ALL%20BURRS.jpg">19xx - D8212 - DOC - 82-03-003 - TEXTURED GREY TEXCOTE VINY OVE ALL BURRS.jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20DOC%20-%2082-03-003%20-%20TEXTURED%20GREY%20TEXCOTE%20VINY%20OVE%20ALL%20BURRS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20DOC%20-%2082-03-004%20-%20RESD%20CHZVREQ.jpg">19xx - D8212 - DOC - 82-03-004 - RESD CHZVREQ.jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20DOC%20-%2082-03-004%20-%20RESD%20CHZVREQ.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20DOC%20-%208200%20brochure%20a.jpg">19xx - D8212 - DOC - 8200 brochure a.jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20DOC%20-%208200%20brochure%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20DOC%20-%208201%20brochure%20a.jpg">19xx - D8212 - DOC - 8201 brochure a.jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20DOC%20-%208201%20brochure%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20DOC%20-%208202%20brochure%20a.jpg">19xx - D8212 - DOC - 8202 brochure a.jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20DOC%20-%208202%20brochure%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20DOC%20-%208203%20brochure%20a.jpg">19xx - D8212 - DOC - 8203 brochure a.jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20DOC%20-%208203%20brochure%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20DOC%20-%208204%20brochure%20a.jpg">19xx - D8212 - DOC - 8204 brochure a.jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20DOC%20-%208204%20brochure%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20DOC%20-%208212%20brochure%20a.jpg">19xx - D8212 - DOC - 8212 brochure a.jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20DOC%20-%208212%20brochure%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20DOC%20-%208212%20series%20brochure.jpg">19xx - D8212 - DOC - 8212 series brochure.jpg</a></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20DOC%20-%208212%20series%20brochure.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Sub-assemblies &amp; parts used (2)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What</th>
+<th>Family</th>
+<th>Year</th>
+<th>How we know</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-312">SA14-312</a></td>
+<td>III) REMOTE SENSITIVITY AMPLIFIER - COMPONENT LAYOUT</td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>drawing filed with it</td>
+</tr>
+<tr>
+<td><a href="Register-Circuit-boards-SA14-nnn.html#sa14-265">SA14-265</a></td>
+<td></td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>General description (1)</h3>
+<details><summary>Description — 297 words · 1986 - D8212 - 004 (2).jpg, page 1</summary><p>D8212 AUDI0 DISTRIBUT I ON SYSTEM The WBS D8212 establishes totally new performance parameters for professional audio distribution systems Each MF-82 compact frame houses up to twelve M8205 plug-in high performance card amplifiers with two M8245 switch-mode power supplies in just two vertical standard rack units of space  The unique front panel design permits conventional hinge opening or quick-release removal for direct access to the amplifier level trim controls.</p><p>AlI audio terminals are gold . Either solder type or quick connect crimp terminals may be specified. The actively balanced input of each M8205 DA accommodates input signal levels from -22 dBm to +14 dBm via single, continuously variable trim control Over the adjustment range, high rejection to common mode input voltage is maintained (greater than 80 dB) screwdriver trim adjustment is standard, knob is available as an option_ Eight actively balanced outputs are provided by each M8205 DA _ AI 600 ohm outputs are capable of simultaneously delivering maximum signal level of +24 dBm, with distortion typically less than 0.0057 and noise floor greater than 120 dB below maximum output.</p><p>Isolation between outputs is better than 90 dB , and output offset voltages are restricted to the microvolt region . In those stereo applications where the left and right channels may need to be combined as L+R (sum) or L-R (difference) signals, the M8206 ma trixing DA may be substituted. This amplifier has two inputs each with its own sensitivity control; and six isolated 600 ohm outputs_ &#x27; ` :` ` .</p><p>&#x27; The D8212 system has dual redundant power supply operation. Each M8245 has separate AC power connections extending back to the primary power source The system requires 130 VA maximum from 115/230 vol ts, 50/60 Hz power source  . `   &#x27;,   &#x27;. . . 1-1</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20004%20%282%29.jpg">1986 - D8212 - 004 (2).jpg</a>, p. 1</li>
+</ul>
+<h3>Specifications (3)</h3>
+<details><summary>Technical Data — 434 words · 1986 - D8212 - 006 (2).jpg, page 1</summary><p>M8206 MATRIXING AUDI0 DISTRIBUT ION AMPL IFIER M8205 AUD I0 DISTRIBUTION AMPL IFIER  Phasing: The numbered terminal of the input pair and  . ; &#x27; the numbered terminal of the output pair are in phase _  s Power Requirements: +/-22 volts DC , 40 mA idling, 190 mA full load output.     Ambient Temperature: to 50 degrees Celsius _ .. Dimensions: 00&quot; wide 2.75&quot; high 10.60&quot; deep (25 .4 mm 70 .0 mm 270 .0 mm )  &#x27; .&quot;   Weight: 0.5 Ibs (227 gms)   &#x27;      Gain: ~ .  &#x27;  (per channel ) &quot; +30 dB to -6 dB continuously variable. (Bridging Gain.) Frequency Response: +/-0 . dB from 15 Hz to 25 kHz .  &quot;  115 dB below maximum output at unity gain. Noise:    .  ~   100 dB below the nominal +8 dBm output level &quot; at unity gain.     75 dB below the nominal +8 dBm output level at maximum gain. (Measured over 20 Hz to 20 kHz bandwidth) &#x27;^  .    . `  &quot;` &#x27; 4.. . . .    . &#x27;  .  .. .  . . s . ` ` .` 2 . Harmonic Distortion: Less than 0.01% 15 Hz to 25 kHz up to +24 dBm output level with isolated outputs simultaneously driven . (typically less than 0 . 005% .  . ( . 4`  &#x27;  &#x27;   . - &#x27; ` `  &#x27; &#x27; . &#x27; . Input Level ~22 dBm to +14 dBm nominal for +8 dBm output. +30 dBm maximum. . ~. . : .  &#x27;* ., `  Input Impedance 30 , 000 ohms or grea ter, balanced  .   . :  . ` ,&#x27;</p><p>Source   Impedance: 600 ohms or less, balanced</p><p>&quot;% . ^. ^. ^  . . . :5&#x27;  Common Mode Rejection: Greater than 80 dB, 15 Hz to 20 kHz . :^` &lt; 3 Sc ^ :o 7~ . ` Common Mode Voltage +/-25 volts peak . , 4&#x27; ` &#x27; 4&#x27;,  &#x27;  . ` .  &#x27; &#x27; &gt; 7 `  . .  . :. &lt; 1 . Output Level +8 dBm  nominal, +24 dBm maximum at each output, up to outputs maximum.  . . o &#x27; ` 4.&#x27; j . {&#x27;&#x27; { &#x27; OCk^ . ..  . Output Impedance 600 ohms resisti: ve, each output actively balanced ^  &#x27; . &#x27; &lt; s   ..  .; ^`..^ Load Impedance: 600 ohms balanced for each isolated output_ [   .  43~ s :. P: 3f  Tdcr . &#x27; , &#x27; ^ a Output Isolation: Greater than 80 dB, 15 kHz to 25 kHz . Better than 90 dB mid-band 46 .  .. i::  :~. Output Offset: Less than +/-500 microvolts 2-2 3-1</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20006%20%282%29.jpg">1986 - D8212 - 006 (2).jpg</a>, p. 1</li>
+</ul>
+<details><summary>Technical Data — 228 words · 1986 - D8212 - 005 (2).jpg, page 1</summary><p>M8205 AUDI0 DISTRIBUT ION AMPL IFIER .:   &#x27; Gain:  ` - ``  +30 dB to -6 dB continuously variable_ (Bridging Gain.) Frequency Response: +/-0.1 dB from 15 Hz to 25 kHz . &#x27; t^  .. Noise:  120 dB below maximum output at unity gain. ` 104 dB below the nominal +8 dBm output level at unity gain. &#x27; . ` &#x27;^ .</p><p>` ^ :  . . , . ` 75 dB below the nominal +8 dBm: output level at maximum gain. (Measured over 20 Hz to 20 kHz bandwidth.) Harmonic Distortion: Less than 0.01% 15 Hz to 25 kHz up to +24 dBm output level with isolated outputs simultaneously driven _ (typically less than 0.005%. ) Input Level 22 dBm to +14 dBm nominal for +8 dBm outputs +30 dBm maximum Input mpedance: 30 , 000 ohms or greater_ balanced Source Impedance 600 ohms or less, balanced .</p><p>Common Mode Rejection: Greater than 80 dB , 15 Hz to 20 kHz Common Mode Voltage +/-25 volts peak . Output Level +8 dBm nominal +24 dBm maximum at each output, up to outputs maximum. Output mpedance 600 ohms resistive, each output actively balanced Load Impedance 600  ohms balanced for each isolated output _ Output Isolation: Greater than 80 dB, 15 #Hz to 25 kHz _ Better than 90 dB mid band Output Offset: Less than +/-500 microvolts.</p><p>2-1</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20005%20%282%29.jpg">1986 - D8212 - 005 (2).jpg</a>, p. 1</li>
+</ul>
+<details><summary>Technical Data — 226 words · 1986 - D8212 - 005.jpg, page 1</summary><p>M8205 AUD /0 DISTR BUT ION AMPL IFIER    Gain:  . 3   +30 dB to -6 dB continuously variable. (Bridging Gain.) Frequency Response: .&quot; Noise: +/-0.1 dB from 15 Hz to 25 kHz_  &#x27; . . &#x27; 120 dB below maximum output at unity gain. 104 dB below the nominal +8 dBm output level at unity gain. . . ` : `  &#x27; .</p><p>. 3 . ! s n 75 dB below the nominal +8 dBm output Ievel at maximum gain. (Measured over 20 Hz to 20 kHz bandwidth.) Harmonic Distortion: Less than 0.01% 15 Hz t0 25 kHz up to +24 dBm output level with isolated outputs imultaneously driven . (typically less than 0 .005% . Input Level -22 dBm to +14 dBm nominal for +8 dBm output.</p><p>+30 dBm maximum. Input Impedance 30 , 000 ohms or greater, balanced _ Source Impedance 600 ohms or less, balanced _ Common Mode Rejection: Greater than 80 dB, 15 Hz to 20 kHz Common Mode Voltage: +/-25 volts peak. Output Level : +8 dBm nominal, +24 dBm maximum at each output, up to outputs maximum Output Impedance 600 ohms resistive, each output actively balanced.</p><p>Load Impedance: 600 ohms balanced for each isolated output. Greater than 80 dB, 15 KHz to 25 kHz  Better than 90 dB mid band_ Output solation: Output Offset: Less than +/-500 microvolts 2-1</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20005.jpg">1986 - D8212 - 005.jpg</a>, p. 1</li>
+</ul>
+<h2>Drawings (9)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="People.html#drawing-staff">Drawn by</a></th>
+<th><a href="People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C 82-03-002</td>
+<td>D8212 / P.C. GUIDE SUPPORT BAR / UPPER/LOWER FRONT</td>
+<td><a href="Year-1992.html">1992|25</a></td>
+<td><a href="Person-DRG.html">DRG</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/1992%20-%2082-03-002%20-%20P.C.%20GUIDE%20SUPPORT%20BAR%20UPPER%20LOWER%20FRONT%20-%20DRN%20DRG%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=PHOTOS/Photos/D8212%20-%20009%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>82-03-002</td>
+<td>Paint Textured Grey Texcote Vinyl</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20DOC%20-%2082-03-002%20-%20PAINT%20TEXTURED%20GREY%20TEXCOTE%20VINYL.jpg">file</a></td>
+</tr>
+<tr>
+<td>82-03-003</td>
+<td>Textured Grey Texcote Viny Ove All Burrs</td>
+<td></td>
+<td><a href="Person-WS.html">WS</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20DOC%20-%2082-03-003%20-%20TEXTURED%20GREY%20TEXCOTE%20VINY%20OVE%20ALL%20BURRS.jpg">file</a></td>
+</tr>
+<tr>
+<td>82-03-004</td>
+<td>Resd Chzvreq</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20DOC%20-%2082-03-004%20-%20RESD%20CHZVREQ.jpg">file</a></td>
+</tr>
+<tr>
+<td>900416-04-001</td>
+<td>Selector Panels Limitation Rows With Characters Per Pushbutton</td>
+<td></td>
+<td><a href="Person-WS.html">WS</a></td>
+<td></td>
+<td>C</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/900416%20-%20KFBK-KAER/1990%20-%20900416%20-%20DOC%20-%20900416-04-001%20-%20SELECTOR%20PANELS%20LIMITATION%20ROWS%20WITH%20CHARACTERS%20PER%20PUSHBUTTON.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 8212-04-003</td>
+<td>D8212 / AUDIO DISTRIBUTION SYSTEM / OUTLINE</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%208212-04-003%20-%20AUDIO%20DISTRIBUTION%20SYSTEM%20OUTLINE%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 8212-04-003</td>
+<td>D8212 AUDIO DISTRIBUTION SYSTEM / OUTLINE</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%208212-04-003%20-%20AUDIO%20DISTRIBUTION%20SYSTEM%20OUTLINE%20-%20ISS%201%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>C 82-03-003</td>
+<td>D8212 / P.C. GUIDE SUPPORT BAR / UPPER/LOWER REAR</td>
+<td></td>
+<td><a href="Person-WS.html">WS</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%2082-03-003%20-%20P.C.%20GUIDE%20SUPPORT%20BAR%20UPPER%20LOWER%20REAR%20-%20DRN%20WS%20-%20ISS%201.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;D8212&quot;,
+ &quot;name&quot;: &quot;Audio Distribution System&quot;,
+ &quot;category&quot;: &quot;8200 SERIES&quot;,
+ &quot;year&quot;: 1986,
+ &quot;made_of&quot;: [
+  &quot;SA14-265&quot;,
+  &quot;SA14-312&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/1986 - D8212 - 000 - Cover (2).jpg&quot;,
+   &quot;year&quot;: 1986,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/1986 - D8212 - 000 - Cover.jpg&quot;,
+   &quot;year&quot;: 1986,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/1986 - D8212 - 001 - Picture 001.jpg&quot;,
+   &quot;year&quot;: 1986,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/1986 - D8212 - 001 - Pictures 002.jpg&quot;,
+   &quot;year&quot;: 1986,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/1986 - D8212 - 001 - Pictures.jpg&quot;,
+   &quot;year&quot;: 1986,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/1986 - D8212 - 002 (2).jpg&quot;,
+   &quot;year&quot;: 1986,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/1986 - D8212 - 002.jpg&quot;,
+   &quot;year&quot;: 1986,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/1986 - D8212 - 003 (2).jpg&quot;,
+   &quot;year&quot;: 1986,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/1986 - D8212 - 003.jpg&quot;,
+   &quot;year&quot;: 1986,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/1986 - D8212 - 004 (2).jpg&quot;,
+   &quot;year&quot;: 1986,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/1986 - D8212 - 004.jpg&quot;,
+   &quot;year&quot;: 1986,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/1986 - D8212 - 005 (2).jpg&quot;,
+   &quot;year&quot;: 1986,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/1986 - D8212 - 005.jpg&quot;,
+   &quot;year&quot;: 1986,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/1986 - D8212 - 006 (2).jpg&quot;,
+   &quot;year&quot;: 1986,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/1986 - D8212 - 006.jpg&quot;,
+   &quot;year&quot;: 1986,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/1986 - D8212 - 007 (2).jpg&quot;,
+   &quot;year&quot;: 1986,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/1986 - D8212 - 007.jpg&quot;,
+   &quot;year&quot;: 1986,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/1986 - D8212 - 008 (2).jpg&quot;,
+   &quot;year&quot;: 1986,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/1986 - D8212 - 008.jpg&quot;,
+   &quot;year&quot;: 1986,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/1986 - D8212 - 009 (2).jpg&quot;,
+   &quot;year&quot;: 1986,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/1986 - D8212 - 009.jpg&quot;,
+   &quot;year&quot;: 1986,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/1986 - D8212 - audio distribution system 001.jpg&quot;,
+   &quot;year&quot;: 1986,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/1986 - D8212 - audio distribution system 002.jpg&quot;,
+   &quot;year&quot;: 1986,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/1986 - D8212 - audio distribution system 003.jpg&quot;,
+   &quot;year&quot;: 1986,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/1986 - D8212 - audio distribution system 004.jpg&quot;,
+   &quot;year&quot;: 1986,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/1989 - D8212 - DOC - 8200 brochure 1989 a.jpg&quot;,
+   &quot;year&quot;: 1989,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/1990 - D8212 - DOC - 900416-04-001 - SELECTOR PANELS LIMITATION ROWS WITH CHARACTERS PER PUSHBUTTON.jpg&quot;,
+   &quot;year&quot;: 1990,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/1992 - 82-03-002 - P.C. GUIDE SUPPORT BAR UPPER LOWER FRONT - DRN DRG - ISS 3.jpg&quot;,
+   &quot;year&quot;: 1992,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/M8202A/1995 - M8202A - DOC - 14-312-02-001 - III) REMOTE SENSITIVITY AMPLIFIER - COMPONENT LAYOUT.wp&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/1997 - D8212 - file.wpd&quot;,
+   &quot;year&quot;: 1997,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;PHOTOS/Photos/D8212 - 009(2).jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/19xx - 82-03-003 - P.C. GUIDE SUPPORT BAR UPPER LOWER REAR - DRN WS - ISS 1.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/19xx - 8212-04-003 - AUDIO DISTRIBUTION SYSTEM OUTLINE - ISS 1 (2).jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/19xx - 8212-04-003 - AUDIO DISTRIBUTION SYSTEM OUTLINE - ISS 1.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.51.49 AM (2).png&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.51.49 AM.png&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.52.00 AM.png&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.52.04 AM.png&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.52.07 AM.png&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.54.44 AM (2).png&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.54.44 AM.png&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.54.57 AM.png&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.54.58 AM.png&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/19xx - D8212 - AD - Screen Shot 2016-03-06 at 12.55.00 AM.png&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/19xx - D8212 - DOC - 82-03-002 - PAINT TEXTURED GREY TEXCOTE VINYL.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/19xx - D8212 - DOC - 82-03-003 - TEXTURED GREY TEXCOTE VINY OVE ALL BURRS.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/19xx - D8212 - DOC - 82-03-004 - RESD CHZVREQ.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/19xx - D8212 - DOC - 8200 brochure a.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/19xx - D8212 - DOC - 8201 brochure a.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/19xx - D8212 - DOC - 8202 brochure a.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/19xx - D8212 - DOC - 8203 brochure a.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/19xx - D8212 - DOC - 8204 brochure a.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/19xx - D8212 - DOC - 8212 brochure a.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/19xx - D8212 - DOC - 8212 series brochure.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../_catalog/libcontrol/libcontrol.css"><script src="../_catalog/libcontrol/react.js"></script><script src="../_catalog/libcontrol/react-dom.js"></script><script src="../_catalog/libcontrol/libcontrol.js"></script><script src="../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from D8212.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

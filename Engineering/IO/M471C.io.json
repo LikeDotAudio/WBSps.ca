@@ -1,0 +1,117 @@
+{
+ "code": "M471C",
+ "series": null,
+ "type": "M471C",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "I1",
+   "signal": "Input Bright U",
+   "dir": "in",
+   "pos": "I1P",
+   "neg": "I1N",
+   "src_page": 24
+  },
+  {
+   "port": "I2",
+   "signal": "St Ereo In Put M Odule",
+   "dir": "in",
+   "pos": "I2P",
+   "neg": "I2N",
+   "src_page": 29
+  },
+  {
+   "port": "I3",
+   "signal": "Input Shield",
+   "dir": "in",
+   "pos": "I3P",
+   "neg": "I3N",
+   "src_page": 24
+  },
+  {
+   "port": "I4",
+   "signal": "Input B Left",
+   "dir": "in",
+   "pos": "I4P",
+   "neg": "I4N",
+   "src_page": 24
+  },
+  {
+   "port": "I5",
+   "signal": "Att Return Left",
+   "dir": "in",
+   "pos": "I5P",
+   "neg": "I5N",
+   "src_page": 25
+  },
+  {
+   "port": "I6",
+   "signal": "Att Return Right",
+   "dir": "in",
+   "pos": "I6P",
+   "neg": "I6N",
+   "src_page": 25
+  },
+  {
+   "port": "I7",
+   "signal": "Input Shteld",
+   "dir": "in",
+   "pos": "I7P",
+   "neg": "I7N",
+   "src_page": 39
+  },
+  {
+   "port": "O1",
+   "signal": "Pre Out Left (Att Tn)",
+   "dir": "out",
+   "pos": "O1P",
+   "neg": "O1N",
+   "src_page": 25
+  },
+  {
+   "port": "O2",
+   "signal": "Pre Out Right (Att Tn)",
+   "dir": "out",
+   "pos": "O2P",
+   "neg": "O2N",
+   "src_page": 25
+  }
+ ],
+ "power": [
+  {
+   "rail": "+24V",
+   "volts": 24.0,
+   "supply": "+24V",
+   "ground": "CHASSIS 22",
+   "max_a": null
+  }
+ ],
+ "logic": [
+  {
+   "signal": "Pfl",
+   "pin": ""
+  },
+  {
+   "signal": "Solo",
+   "pin": ""
+  },
+  {
+   "signal": "Ctl",
+   "pin": ""
+  }
+ ],
+ "ground": [
+  "CHASSIS 22",
+  "CONTROL COMMON",
+  "25V COMMON"
+ ],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "1d8b44b713927004c5a8cb984a0b8ffb98b6703860c7494b54ccf6d098610181",
+  "30c8302eb47d1b6f8bdc77a8c20de3a9fe6933c9038ef5f76b211be81c20fd79"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."
+}

@@ -1,0 +1,1615 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>CFTO TV done</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../../../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../../../index.html">Index</a><a href="../../../Home.html">Wiki home</a><a href="../../../PAGES/Timeline.html">Timeline</a><a href="../../../search.html">Search</a><a href="../../../status.html">Status</a></div><h1>CFTO TV done</h1>
+<p><a href="../../../PAGES/Consoles.html">← Consoles &amp; projects</a></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Years</td>
+<td>1988 (from the dated files in this project)</td>
+</tr>
+<tr>
+<td>Files</td>
+<td>170</td>
+</tr>
+<tr>
+<td>Job number</td>
+<td>none found yet</td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="index.html">Consoles/1980-1989/880134 - CFTO ST</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../88134/index.html">Consoles/1980-1989/88134</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../Consoles/1980-1989/BIG%20CFTO%20TV%20done/">Consoles/1980-1989/BIG CFTO TV done</a></td>
+</tr>
+</tbody>
+</table><h2>Pictures</h2><div class="thumbs"><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-001%20-%20TWSTED%20PAIR%20RIBBON%20CABLE.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-001%20-%20TWSTED%20PAIR%20RIBBON%20CABLE.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-001 - TWSTED PAIR RIBBON CABLE.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-02-001 - TWSTED PAIR RIBBON CABLE.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-001%20-%20TWSTED%20PAIR%20SUMMING%20BUSES%20RIBBON%20CABLE.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-001%20-%20TWSTED%20PAIR%20SUMMING%20BUSES%20RIBBON%20CABLE.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-001 - TWSTED PAIR SUMMING BUSES RIBBON CABLE.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-02-001 - TWSTED PAIR SUMMING BUSES RIBBON CABLE.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-001.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-001.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-001.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-02-001.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-001%20-%20RIBBON%20CABLE.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-001%20-%20RIBBON%20CABLE.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-001 - RIBBON CABLE.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - 880134 - 880134-02-001 - RIBBON CABLE.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-001%20-%20EACH%20SIGNAL%20SEE%20POWER%20DISTRIBUTION%20CHAS%20LISTS%20CONTROL.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-001%20-%20EACH%20SIGNAL%20SEE%20POWER%20DISTRIBUTION%20CHAS%20LISTS%20CONTROL.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-001 - EACH SIGNAL SEE POWER DISTRIBUTION CHAS LISTS CONTROL.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - 880134 - 880134-02-001 - EACH SIGNAL SEE POWER DISTRIBUTION CHAS LISTS CONTROL.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-001%20-%20MONO%20INPUT%20CHANNEL.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-001%20-%20MONO%20INPUT%20CHANNEL.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-001 - MONO INPUT CHANNEL.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - 880134 - 880134-02-001 - MONO INPUT CHANNEL.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-002%20-%20BACKPLANE%20CONNECTIONS%20STEREO%20INPUT%20JUMPER%20FROM%20CHANNELS.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-002%20-%20BACKPLANE%20CONNECTIONS%20STEREO%20INPUT%20JUMPER%20FROM%20CHANNELS.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-002 - BACKPLANE CONNECTIONS STEREO INPUT JUMPER FROM CHANNELS.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-02-002 - BACKPLANE CONNECTIONS STEREO INPUT JUMPER FROM CHANNELS.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-002.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-002.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-002.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-02-002.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-002%20-%20INSERT%20TWSTED%20OABM%20RIBBON%20CAE%20PART.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-002%20-%20INSERT%20TWSTED%20OABM%20RIBBON%20CAE%20PART.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-002 - INSERT TWSTED OABM RIBBON CAE PART.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-02-002 - INSERT TWSTED OABM RIBBON CAE PART.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-002%20-%20STEREO%20INPUT%20CHANNEL.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-002%20-%20STEREO%20INPUT%20CHANNEL.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-002 - STEREO INPUT CHANNEL.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - 880134 - 880134-02-002 - STEREO INPUT CHANNEL.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-002%20-%20RIBBON%20CABLE.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-002%20-%20RIBBON%20CABLE.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-002 - RIBBON CABLE.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - 880134 - 880134-02-002 - RIBBON CABLE.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-003%20-%20SIGNAL%20SEE%20POWER%20DISTRIBUTION%20LISTS%20CHA%20CONTROL.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-003%20-%20SIGNAL%20SEE%20POWER%20DISTRIBUTION%20LISTS%20CHA%20CONTROL.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-003 - SIGNAL SEE POWER DISTRIBUTION LISTS CHA CONTROL.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - 880134 - 880134-02-003 - SIGNAL SEE POWER DISTRIBUTION LISTS CHA CONTROL.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004%20-%20SNEREL%20LSSVEDAI%20REMISIOH%20HETI%20POWER%20IAS.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004%20-%20SNEREL%20LSSVEDAI%20REMISIOH%20HETI%20POWER%20IAS.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-004 - SNEREL LSSVEDAI REMISIOH HETI POWER IAS.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-02-004 - SNEREL LSSVEDAI REMISIOH HETI POWER IAS.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-004.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-02-004.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004%20-%20METER%20LEFT%20MONITOR%20METER%20RIGHT%20MONITOR%20CORRELA%20TION.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004%20-%20METER%20LEFT%20MONITOR%20METER%20RIGHT%20MONITOR%20CORRELA%20TION.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-004 - METER LEFT MONITOR METER RIGHT MONITOR CORRELA TION.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-02-004 - METER LEFT MONITOR METER RIGHT MONITOR CORRELA TION.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004%20-%20LOOP%20ALL%20FADERS%20CHASSIS%20MOUNT%20CONNECTOR%20NAZISS-E.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004%20-%20LOOP%20ALL%20FADERS%20CHASSIS%20MOUNT%20CONNECTOR%20NAZISS-E.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-004 - LOOP ALL FADERS CHASSIS MOUNT CONNECTOR NAZISS-E.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-02-004 - LOOP ALL FADERS CHASSIS MOUNT CONNECTOR NAZISS-E.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004%20-%20MASTER%20CHANNEL.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004%20-%20MASTER%20CHANNEL.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-004 - MASTER CHANNEL.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - 880134 - 880134-02-004 - MASTER CHANNEL.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004%20-%20INPUTS%20STEI%20CHASSIS%20MOUNT%20CONNECTOR%20NAZISS-E%20EACH.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004%20-%20INPUTS%20STEI%20CHASSIS%20MOUNT%20CONNECTOR%20NAZISS-E%20EACH.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-004 - INPUTS STEI CHASSIS MOUNT CONNECTOR NAZISS-E EACH.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - 880134 - 880134-02-004 - INPUTS STEI CHASSIS MOUNT CONNECTOR NAZISS-E EACH.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004%20-%20ATE%20PUTS%20STEREO.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004%20-%20ATE%20PUTS%20STEREO.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-004 - ATE PUTS STEREO.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - 880134 - 880134-02-004 - ATE PUTS STEREO.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20CORRELA%20TION%20METER%20SELECTOR.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20CORRELA%20TION%20METER%20SELECTOR.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-007 - CORRELA TION METER SELECTOR.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-02-007 - CORRELA TION METER SELECTOR.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20CORRELA%20TION%20CORRELATION%20METER%20SELECTOR%20SELECTOR.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20CORRELA%20TION%20CORRELATION%20METER%20SELECTOR%20SELECTOR.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-007 - CORRELA TION CORRELATION METER SELECTOR SELECTOR.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-02-007 - CORRELA TION CORRELATION METER SELECTOR SELECTOR.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20RELATION%20METER%20CORRELATION%20METER%20SELECTOR%20SELECTOR.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20RELATION%20METER%20CORRELATION%20METER%20SELECTOR%20SELECTOR.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-007 - RELATION METER CORRELATION METER SELECTOR SELECTOR.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-02-007 - RELATION METER CORRELATION METER SELECTOR SELECTOR.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20NSEL%20ISSUEI.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20NSEL%20ISSUEI.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-007 - NSEL ISSUEI.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - 880134 - 880134-02-007 - NSEL ISSUEI.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20SEE%20POWER%20DISTRIBUTION%20CHASSIS%20LISTS.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20SEE%20POWER%20DISTRIBUTION%20CHASSIS%20LISTS.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-007 - SEE POWER DISTRIBUTION CHASSIS LISTS.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - 880134 - 880134-02-007 - SEE POWER DISTRIBUTION CHASSIS LISTS.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20SEE%20POWER%20DISTRIBU%20TION%20CHASSIS%20LISTS.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20SEE%20POWER%20DISTRIBU%20TION%20CHASSIS%20LISTS.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-007 - SEE POWER DISTRIBU TION CHASSIS LISTS.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - 880134 - 880134-02-007 - SEE POWER DISTRIBU TION CHASSIS LISTS.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014%20-%20CCR%27ECTIC%20TRAE%20NVET%20CCHNECTIO%27.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014%20-%20CCR%27ECTIC%20TRAE%20NVET%20CCHNECTIO%27.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-014 - CCR&#x27;ECTIC TRAE NVET CCHNECTIO&#x27;.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-02-014 - CCR&#x27;ECTIC TRAE NVET CCHNECTIO&#x27;.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014%20-%20COP%20ECOD%20COETACTS%20JACK.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014%20-%20COP%20ECOD%20COETACTS%20JACK.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-014 - COP ECOD COETACTS JACK.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-02-014 - COP ECOD COETACTS JACK.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014%20%282%29.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014%20%282%29.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-014 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-02-014 (2).jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014%20%283%29.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014%20%283%29.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-014 (3).jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-02-014 (3).jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014%20-%20STEREO%20FADER.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014%20-%20STEREO%20FADER.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-014 - STEREO FADER.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1988 - 880134 - 880134-02-014 - STEREO FADER.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014%20-%20JACKFIELD%20WIRING%20DRA%20WING.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014%20-%20JACKFIELD%20WIRING%20DRA%20WING.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-014 - JACKFIELD WIRING DRA WING.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - 880134 - 880134-02-014 - JACKFIELD WIRING DRA WING.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-014.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1988 - 880134 - 880134-02-014.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-015.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-015.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-015.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-02-015.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-015%20-%20CHEMA%20TIC.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-015%20-%20CHEMA%20TIC.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-015 - CHEMA TIC.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1988 - 880134 - 880134-02-015 - CHEMA TIC.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-015%20-%20INTERCOM%20SCHEMA%20TIC%20%282%29.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-015%20-%20INTERCOM%20SCHEMA%20TIC%20%282%29.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-015 - INTERCOM SCHEMA TIC (2).jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1988 - 880134 - 880134-02-015 - INTERCOM SCHEMA TIC (2).jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-015%20-%20INTERCOM%20SCHEMA%20TIC.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-015%20-%20INTERCOM%20SCHEMA%20TIC.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-015 - INTERCOM SCHEMA TIC.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1988 - 880134 - 880134-02-015 - INTERCOM SCHEMA TIC.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-016.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-016.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-016.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1988 - 880134 - 880134-02-016.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-016%20-%20MACHINE%20CONTROLS%20%282%29.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-016%20-%20MACHINE%20CONTROLS%20%282%29.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-016 - MACHINE CONTROLS (2).jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1988 - 880134 - 880134-02-016 - MACHINE CONTROLS (2).jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-016%20-%20MACHINE%20CONTROLS%20%283%29.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-016%20-%20MACHINE%20CONTROLS%20%283%29.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-016 - MACHINE CONTROLS (3).jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1988 - 880134 - 880134-02-016 - MACHINE CONTROLS (3).jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-016%20-%20MACHINE%20CONTROLS.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-016%20-%20MACHINE%20CONTROLS.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-016 - MACHINE CONTROLS.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1988 - 880134 - 880134-02-016 - MACHINE CONTROLS.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-017%20-%20CORRELA%20TION%20METER%20SELECTOR.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-017%20-%20CORRELA%20TION%20METER%20SELECTOR.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-017 - CORRELA TION METER SELECTOR.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1988 - 880134 - 880134-02-017 - CORRELA TION METER SELECTOR.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002%20-%20ELITE%20PANEL%20MSIONF%20COMTROLCE%20EXEEBNAL%20PQKER%20SUPPLES.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002%20-%20ELITE%20PANEL%20MSIONF%20COMTROLCE%20EXEEBNAL%20PQKER%20SUPPLES.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-04-002 - ELITE PANEL MSIONF COMTROLCE EXEEBNAL PQKER SUPPLES.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-04-002 - ELITE PANEL MSIONF COMTROLCE EXEEBNAL PQKER SUPPLES.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002%20-%20ELSH%20ASN.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002%20-%20ELSH%20ASN.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-04-002 - ELSH ASN.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-04-002 - ELSH ASN.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002%20-%20PHASE%20UML-L%20UML-R.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002%20-%20PHASE%20UML-L%20UML-R.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-04-002 - PHASE UML-L UML-R.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-04-002 - PHASE UML-L UML-R.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002%20-%20AUX%20EVG%20EHG%20MODULES.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002%20-%20AUX%20EVG%20EHG%20MODULES.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-04-002 - AUX EVG EHG MODULES.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-04-002 - AUX EVG EHG MODULES.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002%20-%20BLANK%20PANEL.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002%20-%20BLANK%20PANEL.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-04-002 - BLANK PANEL.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-04-002 - BLANK PANEL.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002%20-%20FRONT%20VIEW.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002%20-%20FRONT%20VIEW.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-04-002 - FRONT VIEW.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - 880134 - 880134-04-002 - FRONT VIEW.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-04-002.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - 880134 - 880134-04-002.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003%20-%20FACMPG%20FADERE%20FACIRE%20FLDERS%20FAOERS%20FIDERS.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003%20-%20FACMPG%20FADERE%20FACIRE%20FLDERS%20FAOERS%20FIDERS.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-04-003 - FACMPG FADERE FACIRE FLDERS FAOERS FIDERS.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-04-003 - FACMPG FADERE FACIRE FLDERS FAOERS FIDERS.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003%20-%20INPUT%20INSERT%20AND%20OUTPUT%20JACKFIELD.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003%20-%20INPUT%20INSERT%20AND%20OUTPUT%20JACKFIELD.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-04-003 - INPUT INSERT AND OUTPUT JACKFIELD.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-04-003 - INPUT INSERT AND OUTPUT JACKFIELD.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003%20-%20HON%20STEREO%20MONO%20STEREO%20STEREO%20STEREO%20MONO%20INPUT.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003%20-%20HON%20STEREO%20MONO%20STEREO%20STEREO%20STEREO%20MONO%20INPUT.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-04-003 - HON STEREO MONO STEREO STEREO STEREO MONO INPUT.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-04-003 - HON STEREO MONO STEREO STEREO STEREO MONO INPUT.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003%20-%20MONO%20INPUT%20MONO%20INPU%20CHANNELS%20CHANNELS.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003%20-%20MONO%20INPUT%20MONO%20INPU%20CHANNELS%20CHANNELS.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-04-003 - MONO INPUT MONO INPU CHANNELS CHANNELS.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-04-003 - MONO INPUT MONO INPU CHANNELS CHANNELS.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003%20-%20TOP%20VIEW%20LAYOUT.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003%20-%20TOP%20VIEW%20LAYOUT.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-04-003 - TOP VIEW LAYOUT.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - 880134 - 880134-04-003 - TOP VIEW LAYOUT.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003%20%282%29.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003%20%282%29.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-04-003 (2).jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - 880134 - 880134-04-003 (2).jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-04-003.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - 880134 - 880134-04-003.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-004%20-%20CFTO-TV%20STEREO%20TELEVISION%20CONSOLE%20REAR%20VIEW%20LAYOUT.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-004%20-%20CFTO-TV%20STEREO%20TELEVISION%20CONSOLE%20REAR%20VIEW%20LAYOUT.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-04-004 - CFTO-TV STEREO TELEVISION CONSOLE REAR VIEW LAYOUT.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-04-004 - CFTO-TV STEREO TELEVISION CONSOLE REAR VIEW LAYOUT.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-004%20-%20DECOUPLING%20PLAEDR%20PLAE%20FOR%20PLATE%20FOR.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-004%20-%20DECOUPLING%20PLAEDR%20PLAE%20FOR%20PLATE%20FOR.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-04-004 - DECOUPLING PLAEDR PLAE FOR PLATE FOR.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-04-004 - DECOUPLING PLAEDR PLAE FOR PLATE FOR.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-004%20-%20UNE%20LINE%20MIC%20MIC%20SPARE%20SPARE%20INPUTS%20INPUTS.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-004%20-%20UNE%20LINE%20MIC%20MIC%20SPARE%20SPARE%20INPUTS%20INPUTS.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-04-004 - UNE LINE MIC MIC SPARE SPARE INPUTS INPUTS.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-04-004 - UNE LINE MIC MIC SPARE SPARE INPUTS INPUTS.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-004%20%282%29.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-004%20%282%29.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-04-004 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-04-004 (2).jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-004%20-%20STEREO%20TELEVISION%20CONSOLE.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-004%20-%20STEREO%20TELEVISION%20CONSOLE.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-04-004 - STEREO TELEVISION CONSOLE.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - 880134 - 880134-04-004 - STEREO TELEVISION CONSOLE.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-004.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-004.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-04-004.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - 880134 - 880134-04-004.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-009%20-%20MICROPHONE%20INPUTS.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-009%20-%20MICROPHONE%20INPUTS.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-04-009 - MICROPHONE INPUTS.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1988 - 880134 - 880134-04-009 - MICROPHONE INPUTS.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-010%20-%20MICROPHONE%20SOURCES.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-010%20-%20MICROPHONE%20SOURCES.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-04-010 - MICROPHONE SOURCES.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1988 - 880134 - 880134-04-010 - MICROPHONE SOURCES.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-011%20%282%29.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-011%20%282%29.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-04-011 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-04-011 (2).jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-011%20-%20OLI%20OLX.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-011%20-%20OLI%20OLX.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-04-011 - OLI OLX.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-04-011 - OLI OLX.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-011%20%283%29.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-011%20%283%29.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-04-011 (3).jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-04-011 (3).jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-011%20%284%29.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-011%20%284%29.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-04-011 (4).jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-04-011 (4).jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-011%20-%20STEREO%20CHAN.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-011%20-%20STEREO%20CHAN.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-04-011 - STEREO CHAN.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - 880134 - 880134-04-011 - STEREO CHAN.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-011.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-011.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-04-011.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1988 - 880134 - 880134-04-011.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-012.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-012.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-04-012.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1988 - 880134 - 880134-04-012.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-013.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-013.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-04-013.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1988 - 880134 - 880134-04-013.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-05-004.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-05-004.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-05-004.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-05-004.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-07-004%20-%20POWER%20DISTRIBUTION.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-07-004%20-%20POWER%20DISTRIBUTION.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-07-004 - POWER DISTRIBUTION.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1988 - 880134 - 880134-07-004 - POWER DISTRIBUTION.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M521/1985%20-%20M521%20-%20Sterio%20Input%20Module%20Connector%20Layout.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M521/1985%20-%20M521%20-%20Sterio%20Input%20Module%20Connector%20Layout.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M521/1985 - M521 - Sterio Input Module Connector Layout.jpg" data-size="320" onerror="wbsOff(this)">1985 - M521 - Sterio Input Module Connector Layout.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%2002-001.psd"><img loading="lazy" src="../../../_previews/Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%2002-001.psd.png" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 02-001.psd" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 02-001.psd</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%2002-002.psd"><img loading="lazy" src="../../../_previews/Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%2002-002.psd.png" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 02-002.psd" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 02-002.psd</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%2004-001.psd"><img loading="lazy" src="../../../_previews/Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%2004-001.psd.png" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 04-001.psd" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 04-001.psd</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20CFTO-TV%20880134.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20CFTO-TV%20880134.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - CFTO-TV 880134.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - CFTO-TV 880134.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/88134/1988%20-%2088134%20-%2088134-04-014.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/88134/1988%20-%2088134%20-%2088134-04-014.jpg" alt="" data-f="Consoles/1980-1989/88134/1988 - 88134 - 88134-04-014.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1988 - 88134 - 88134-04-014.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20%282%29.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20%282%29.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 2442-01-001 (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - BIG CFTO TV done - 2442-01-001 (2).jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20COMMUNICATIONS%20MODULE.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20COMMUNICATIONS%20MODULE.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 2442-01-001 - COMMUNICATIONS MODULE.jpg" data-size="320" onerror="wbsOff(this)">1988 - BIG CFTO TV done - 2442-01-001 - COMMUNICATIONS MODULE.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20MONITOR%20MODULE%20MONITOR.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20MONITOR%20MODULE%20MONITOR.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 2442-01-001 - MONITOR MODULE MONITOR.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - BIG CFTO TV done - 2442-01-001 - MONITOR MODULE MONITOR.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20OUTL%20OPTIONAL%20OUT%20OPTIONAL.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20OUTL%20OPTIONAL%20OUT%20OPTIONAL.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 2442-01-001 - OUTL OPTIONAL OUT OPTIONAL.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - BIG CFTO TV done - 2442-01-001 - OUTL OPTIONAL OUT OPTIONAL.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20START%20TIMER%20STOP%20DISPLAX%20RESET.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20START%20TIMER%20STOP%20DISPLAX%20RESET.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 2442-01-001 - START TIMER STOP DISPLAX RESET.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - BIG CFTO TV done - 2442-01-001 - START TIMER STOP DISPLAX RESET.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20STEREO%20TELEVISION%20CONSOLE.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20STEREO%20TELEVISION%20CONSOLE.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 2442-01-001 - STEREO TELEVISION CONSOLE.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - BIG CFTO TV done - 2442-01-001 - STEREO TELEVISION CONSOLE.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20STEREQ%20MASTER%20MODULE%20MONITOR%20MONITOR%20AUXILIARY%20CHANNEL%20INSERTS.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20STEREQ%20MASTER%20MODULE%20MONITOR%20MONITOR%20AUXILIARY%20CHANNEL%20INSERTS.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 2442-01-001 - STEREQ MASTER MODULE MONITOR MONITOR AUXILIARY CHANNEL INSERTS.jpg" data-size="320" onerror="wbsOff(this)">1988 - BIG CFTO TV done - 2442-01-001 - STEREQ MASTER MODULE MONITOR MONITOR AUXILIARY CHANNEL INSERTS.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20STEREQ%20STEREO%20SWITCHER%20SWITCHER%20EXTERNAL%20LINE%20TALLY.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20STEREQ%20STEREO%20SWITCHER%20SWITCHER%20EXTERNAL%20LINE%20TALLY.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 2442-01-001 - STEREQ STEREO SWITCHER SWITCHER EXTERNAL LINE TALLY.jpg" data-size="320" onerror="wbsOff(this)">1988 - BIG CFTO TV done - 2442-01-001 - STEREQ STEREO SWITCHER SWITCHER EXTERNAL LINE TALLY.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20SWICHER%20MODULES%20MONO%20LIVE%20INPUTS.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20SWICHER%20MODULES%20MONO%20LIVE%20INPUTS.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 2442-01-001 - SWICHER MODULES MONO LIVE INPUTS.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - BIG CFTO TV done - 2442-01-001 - SWICHER MODULES MONO LIVE INPUTS.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20UTIL%20MODULE%20AUX%20MONITOR%20UTIL%20MODULE%20AUX.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20UTIL%20MODULE%20AUX%20MONITOR%20UTIL%20MODULE%20AUX.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 2442-01-001 - UTIL MODULE AUX MONITOR UTIL MODULE AUX.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - BIG CFTO TV done - 2442-01-001 - UTIL MODULE AUX MONITOR UTIL MODULE AUX.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 2442-01-001.jpg" data-size="320" onerror="wbsOff(this)">1988 - BIG CFTO TV done - 2442-01-001.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-011.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-011.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 2442-01-011.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - BIG CFTO TV done - 2442-01-011.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-02-013%20-%20OVERLOAD%20SCHEMA%20TIC.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-02-013%20-%20OVERLOAD%20SCHEMA%20TIC.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 2442-02-013 - OVERLOAD SCHEMA TIC.jpg" data-size="320" onerror="wbsOff(this)" data-rot="90" onload="wbsTurn(this)">1988 - BIG CFTO TV done - 2442-02-013 - OVERLOAD SCHEMA TIC.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-003%20-%20ALL%20FADERS%20CHASSIS%20MOUNT%20CONNECTOR%20NAZISS-E.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-003%20-%20ALL%20FADERS%20CHASSIS%20MOUNT%20CONNECTOR%20NAZISS-E.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 3642-02-003 - ALL FADERS CHASSIS MOUNT CONNECTOR NAZISS-E.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - BIG CFTO TV done - 3642-02-003 - ALL FADERS CHASSIS MOUNT CONNECTOR NAZISS-E.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-003%20-%20CONT%20CONT%20BACKPLANE%20CONNECTIONS%20FEMALE%20CONN%20MALE%20CONN.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-003%20-%20CONT%20CONT%20BACKPLANE%20CONNECTIONS%20FEMALE%20CONN%20MALE%20CONN.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 3642-02-003 - CONT CONT BACKPLANE CONNECTIONS FEMALE CONN MALE CONN.jpg" data-size="320" onerror="wbsOff(this)">1988 - BIG CFTO TV done - 3642-02-003 - CONT CONT BACKPLANE CONNECTIONS FEMALE CONN MALE CONN.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-003%20-%20CONTROLLER%20DATA%20BUS%20LOOPED%20SUBS.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-003%20-%20CONTROLLER%20DATA%20BUS%20LOOPED%20SUBS.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 3642-02-003 - CONTROLLER DATA BUS LOOPED SUBS.jpg" data-size="320" onerror="wbsOff(this)">1988 - BIG CFTO TV done - 3642-02-003 - CONTROLLER DATA BUS LOOPED SUBS.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-003%20-%20MODULE%20FEMALE%20CONN%20MALE%20CONN.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-003%20-%20MODULE%20FEMALE%20CONN%20MALE%20CONN.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 3642-02-003 - MODULE FEMALE CONN MALE CONN.jpg" data-size="320" onerror="wbsOff(this)">1988 - BIG CFTO TV done - 3642-02-003 - MODULE FEMALE CONN MALE CONN.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-003%20-%20REDRAWN%20IISSUE.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-003%20-%20REDRAWN%20IISSUE.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 3642-02-003 - REDRAWN IISSUE.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - BIG CFTO TV done - 3642-02-003 - REDRAWN IISSUE.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-003%20-%20SIGNAL%20SEE%20POWER%20DISTRIBUTION%20LISTS%20CHAS%20CONTROL.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-003%20-%20SIGNAL%20SEE%20POWER%20DISTRIBUTION%20LISTS%20CHAS%20CONTROL.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 3642-02-003 - SIGNAL SEE POWER DISTRIBUTION LISTS CHAS CONTROL.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - BIG CFTO TV done - 3642-02-003 - SIGNAL SEE POWER DISTRIBUTION LISTS CHAS CONTROL.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-003.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-003.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 3642-02-003.jpg" data-size="320" onerror="wbsOff(this)">1988 - BIG CFTO TV done - 3642-02-003.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-005%20-%20AUX%20OVERLOAD%20MODULE%20%282%29.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-005%20-%20AUX%20OVERLOAD%20MODULE%20%282%29.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 3642-02-005 - AUX OVERLOAD MODULE (2).jpg" data-size="320" onerror="wbsOff(this)">1988 - BIG CFTO TV done - 3642-02-005 - AUX OVERLOAD MODULE (2).jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-005%20-%20AUX%20OVERLOAD%20MODULE.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-005%20-%20AUX%20OVERLOAD%20MODULE.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 3642-02-005 - AUX OVERLOAD MODULE.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - BIG CFTO TV done - 3642-02-005 - AUX OVERLOAD MODULE.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-005%20-%20DENTICAL%20PLIED%20UTILITY%20RIGHT.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-005%20-%20DENTICAL%20PLIED%20UTILITY%20RIGHT.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 3642-02-005 - DENTICAL PLIED UTILITY RIGHT.jpg" data-size="320" onerror="wbsOff(this)">1988 - BIG CFTO TV done - 3642-02-005 - DENTICAL PLIED UTILITY RIGHT.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-005%20-%20DISTRIBUTION%20LISTS%20CHASS%20CONTROL.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-005%20-%20DISTRIBUTION%20LISTS%20CHASS%20CONTROL.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 3642-02-005 - DISTRIBUTION LISTS CHASS CONTROL.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - BIG CFTO TV done - 3642-02-005 - DISTRIBUTION LISTS CHASS CONTROL.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-005%20-%20PIN%20OUTS%20CHANGED.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-005%20-%20PIN%20OUTS%20CHANGED.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 3642-02-005 - PIN OUTS CHANGED.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - BIG CFTO TV done - 3642-02-005 - PIN OUTS CHANGED.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-005%20-%20SUMMING%20BUSES%20FROM%20SUBS%20PINS.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-005%20-%20SUMMING%20BUSES%20FROM%20SUBS%20PINS.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 3642-02-005 - SUMMING BUSES FROM SUBS PINS.jpg" data-size="320" onerror="wbsOff(this)">1988 - BIG CFTO TV done - 3642-02-005 - SUMMING BUSES FROM SUBS PINS.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-005.psd"><img loading="lazy" src="../../../_previews/Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-005.psd.png" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 3642-02-005.psd" data-size="320" onerror="wbsOff(this)">1988 - BIG CFTO TV done - 3642-02-005.psd</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-006%20-%20AMPLIFIER%20WIRING%20CHANGED%20ISSUEI.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-006%20-%20AMPLIFIER%20WIRING%20CHANGED%20ISSUEI.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 3642-02-006 - AMPLIFIER WIRING CHANGED ISSUEI.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - BIG CFTO TV done - 3642-02-006 - AMPLIFIER WIRING CHANGED ISSUEI.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-006%20-%20AUDIO%20AUDIO%20AUDIO%20AUDIO.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-006%20-%20AUDIO%20AUDIO%20AUDIO%20AUDIO.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 3642-02-006 - AUDIO AUDIO AUDIO AUDIO.jpg" data-size="320" onerror="wbsOff(this)">1988 - BIG CFTO TV done - 3642-02-006 - AUDIO AUDIO AUDIO AUDIO.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-006%20-%20AUDIO%20AUDIO%20MI-MONO.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-006%20-%20AUDIO%20AUDIO%20MI-MONO.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 3642-02-006 - AUDIO AUDIO MI-MONO.jpg" data-size="320" onerror="wbsOff(this)">1988 - BIG CFTO TV done - 3642-02-006 - AUDIO AUDIO MI-MONO.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-006%20-%20AUDIO%20TERMINAL%20STRIP.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-006%20-%20AUDIO%20TERMINAL%20STRIP.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 3642-02-006 - AUDIO TERMINAL STRIP.jpg" data-size="320" onerror="wbsOff(this)">1988 - BIG CFTO TV done - 3642-02-006 - AUDIO TERMINAL STRIP.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-006%20-%20NOTE%20LED%27S%20ARE%20NOT%20PROVIDED%20WITH.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-006%20-%20NOTE%20LED%27S%20ARE%20NOT%20PROVIDED%20WITH.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 3642-02-006 - NOTE LED&#x27;S ARE NOT PROVIDED WITH.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - BIG CFTO TV done - 3642-02-006 - NOTE LED&#x27;S ARE NOT PROVIDED WITH.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-006%20-%20OIANV%20OIANV%20OIANV%20OIANV.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-006%20-%20OIANV%20OIANV%20OIANV%20OIANV.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 3642-02-006 - OIANV OIANV OIANV OIANV.jpg" data-size="320" onerror="wbsOff(this)">1988 - BIG CFTO TV done - 3642-02-006 - OIANV OIANV OIANV OIANV.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-006.psd"><img loading="lazy" src="../../../_previews/Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-006.psd.png" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 3642-02-006.psd" data-size="320" onerror="wbsOff(this)">1988 - BIG CFTO TV done - 3642-02-006.psd</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-008%20-%20AUX%20MODULE.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-008%20-%20AUX%20MODULE.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 3642-02-008 - AUX MODULE.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - BIG CFTO TV done - 3642-02-008 - AUX MODULE.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-008%20-%20COMMUNICA%20TIONS.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-008%20-%20COMMUNICA%20TIONS.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 3642-02-008 - COMMUNICA TIONS.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - BIG CFTO TV done - 3642-02-008 - COMMUNICA TIONS.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-008%20-%20DISTRIBUTION%20LISTS%20CHASS.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-008%20-%20DISTRIBUTION%20LISTS%20CHASS.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 3642-02-008 - DISTRIBUTION LISTS CHASS.jpg" data-size="320" onerror="wbsOff(this)" data-rot="180" onload="wbsTurn(this)">1988 - BIG CFTO TV done - 3642-02-008 - DISTRIBUTION LISTS CHASS.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-008%20-%20FEMALE%20MALE%20FROM.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-008%20-%20FEMALE%20MALE%20FROM.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 3642-02-008 - FEMALE MALE FROM.jpg" data-size="320" onerror="wbsOff(this)">1988 - BIG CFTO TV done - 3642-02-008 - FEMALE MALE FROM.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-008%20-%20UVCLLATOR%20OABM%20QUTPUTS.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-008%20-%20UVCLLATOR%20OABM%20QUTPUTS.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 3642-02-008 - UVCLLATOR OABM QUTPUTS.jpg" data-size="320" onerror="wbsOff(this)">1988 - BIG CFTO TV done - 3642-02-008 - UVCLLATOR OABM QUTPUTS.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-008.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-008.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 3642-02-008.jpg" data-size="320" onerror="wbsOff(this)">1988 - BIG CFTO TV done - 3642-02-008.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-008.psd"><img loading="lazy" src="../../../_previews/Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-008.psd.png" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 3642-02-008.psd" data-size="320" onerror="wbsOff(this)">1988 - BIG CFTO TV done - 3642-02-008.psd</a></div>
+<h2>Modules</h2>
+<ul>
+<li><a href="../../../PAGES/M521.html">M521</a> — Sterio Input Module Connector Layout <em>(INPUT-PRE-AMPS)</em></li>
+</ul>
+<h2>Drawings (73)</h2>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Drawn by</a></th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>880134-02-001</td>
+<td>Twsted Pair Ribbon Cable</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-001%20-%20TWSTED%20PAIR%20RIBBON%20CABLE.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-001</td>
+<td>Twsted Pair Summing Buses Ribbon Cable</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-001%20-%20TWSTED%20PAIR%20SUMMING%20BUSES%20RIBBON%20CABLE.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-001</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-001.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-001</td>
+<td>Ribbon Cable</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-001%20-%20RIBBON%20CABLE.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-001</td>
+<td>Each Signal See Power Distribution Chas Lists Control</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-001%20-%20EACH%20SIGNAL%20SEE%20POWER%20DISTRIBUTION%20CHAS%20LISTS%20CONTROL.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-001</td>
+<td>Mono Input Channel</td>
+<td></td>
+<td><a href="../../../PAGES/Person-PA.html">PA</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-001%20-%20MONO%20INPUT%20CHANNEL.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-002</td>
+<td>Backplane Connections Stereo Input Jumper From Channels</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-002%20-%20BACKPLANE%20CONNECTIONS%20STEREO%20INPUT%20JUMPER%20FROM%20CHANNELS.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-002</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-002.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-002</td>
+<td>Insert Twsted Oabm Ribbon Cae Part</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-002%20-%20INSERT%20TWSTED%20OABM%20RIBBON%20CAE%20PART.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-002</td>
+<td>Stereo Input Channel</td>
+<td></td>
+<td><a href="../../../PAGES/Person-PA.html">PA</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-002%20-%20STEREO%20INPUT%20CHANNEL.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-002</td>
+<td>Ribbon Cable</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-002%20-%20RIBBON%20CABLE.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-003</td>
+<td>Signal See Power Distribution Lists Cha Control</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-003%20-%20SIGNAL%20SEE%20POWER%20DISTRIBUTION%20LISTS%20CHA%20CONTROL.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-004</td>
+<td>Snerel Lssvedai Remisioh Heti Power Ias</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004%20-%20SNEREL%20LSSVEDAI%20REMISIOH%20HETI%20POWER%20IAS.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-004</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-004</td>
+<td>Meter Left Monitor Meter Right Monitor Correla Tion</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004%20-%20METER%20LEFT%20MONITOR%20METER%20RIGHT%20MONITOR%20CORRELA%20TION.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-004</td>
+<td>Loop All Faders Chassis Mount Connector Naziss-E</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004%20-%20LOOP%20ALL%20FADERS%20CHASSIS%20MOUNT%20CONNECTOR%20NAZISS-E.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-004</td>
+<td>Master Channel</td>
+<td></td>
+<td><a href="../../../PAGES/Person-PA.html">PA</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004%20-%20MASTER%20CHANNEL.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-004</td>
+<td>Inputs Stei Chassis Mount Connector Naziss-E Each</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004%20-%20INPUTS%20STEI%20CHASSIS%20MOUNT%20CONNECTOR%20NAZISS-E%20EACH.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-004</td>
+<td>Ate Puts Stereo</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004%20-%20ATE%20PUTS%20STEREO.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-007</td>
+<td>Correla Tion Meter Selector</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20CORRELA%20TION%20METER%20SELECTOR.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-007</td>
+<td>Correla Tion Correlation Meter Selector Selector</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20CORRELA%20TION%20CORRELATION%20METER%20SELECTOR%20SELECTOR.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-007</td>
+<td>Relation Meter Correlation Meter Selector Selector</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20RELATION%20METER%20CORRELATION%20METER%20SELECTOR%20SELECTOR.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-007</td>
+<td>Nsel Issuei</td>
+<td></td>
+<td></td>
+<td></td>
+<td>I</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20NSEL%20ISSUEI.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-007</td>
+<td>See Power Distribution Chassis Lists</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20SEE%20POWER%20DISTRIBUTION%20CHASSIS%20LISTS.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-007</td>
+<td>See Power Distribu Tion Chassis Lists</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20SEE%20POWER%20DISTRIBU%20TION%20CHASSIS%20LISTS.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-014</td>
+<td>Ccr'Ectic Trae Nvet Cchnectio'</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014%20-%20CCR%27ECTIC%20TRAE%20NVET%20CCHNECTIO%27.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-014</td>
+<td>Cop Ecod Coetacts Jack</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014%20-%20COP%20ECOD%20COETACTS%20JACK.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-014</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-014</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014%20%283%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-014</td>
+<td>Stereo Fader</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014%20-%20STEREO%20FADER.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-014</td>
+<td>Jackfield Wiring Dra Wing</td>
+<td></td>
+<td></td>
+<td></td>
+<td>I</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014%20-%20JACKFIELD%20WIRING%20DRA%20WING.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-014</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-015</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-015.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-015</td>
+<td>Chema Tic</td>
+<td></td>
+<td></td>
+<td></td>
+<td>02</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-015%20-%20CHEMA%20TIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-015</td>
+<td>Intercom Schema Tic</td>
+<td></td>
+<td><a href="../../../PAGES/Person-PA.html">PA</a></td>
+<td></td>
+<td>R</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-015%20-%20INTERCOM%20SCHEMA%20TIC%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-015</td>
+<td>Intercom Schema Tic</td>
+<td></td>
+<td><a href="../../../PAGES/Person-PA.html">PA</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-015%20-%20INTERCOM%20SCHEMA%20TIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-016</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-016.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-016</td>
+<td>Machine Controls</td>
+<td></td>
+<td><a href="../../../PAGES/Person-PA.html">PA</a></td>
+<td></td>
+<td>I</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-016%20-%20MACHINE%20CONTROLS%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-016</td>
+<td>Machine Controls</td>
+<td></td>
+<td><a href="../../../PAGES/Person-PA.html">PA</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-016%20-%20MACHINE%20CONTROLS%20%283%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-016</td>
+<td>Machine Controls</td>
+<td></td>
+<td><a href="../../../PAGES/Person-PA.html">PA</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-016%20-%20MACHINE%20CONTROLS.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-02-017</td>
+<td>Correla Tion Meter Selector</td>
+<td></td>
+<td><a href="../../../PAGES/Person-PA.html">PA</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-017%20-%20CORRELA%20TION%20METER%20SELECTOR.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-04-002</td>
+<td>Elite Panel Msionf Comtrolce Exeebnal Pqker Supples</td>
+<td></td>
+<td></td>
+<td></td>
+<td>U</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002%20-%20ELITE%20PANEL%20MSIONF%20COMTROLCE%20EXEEBNAL%20PQKER%20SUPPLES.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-04-002</td>
+<td>Elsh Asn</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002%20-%20ELSH%20ASN.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-04-002</td>
+<td>Phase Uml-L Uml-R</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002%20-%20PHASE%20UML-L%20UML-R.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-04-002</td>
+<td>Aux Evg Ehg Modules</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002%20-%20AUX%20EVG%20EHG%20MODULES.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-04-002</td>
+<td>Blank Panel</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002%20-%20BLANK%20PANEL.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-04-002</td>
+<td>Front View</td>
+<td></td>
+<td><a href="../../../PAGES/Person-PA.html">PA</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002%20-%20FRONT%20VIEW.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-04-002</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-04-003</td>
+<td>Facmpg Fadere Facire Flders Faoers Fiders</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003%20-%20FACMPG%20FADERE%20FACIRE%20FLDERS%20FAOERS%20FIDERS.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-04-003</td>
+<td>Input Insert And Output Jackfield</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003%20-%20INPUT%20INSERT%20AND%20OUTPUT%20JACKFIELD.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-04-003</td>
+<td>Hon Stereo Mono Stereo Stereo Stereo Mono Input</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003%20-%20HON%20STEREO%20MONO%20STEREO%20STEREO%20STEREO%20MONO%20INPUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-04-003</td>
+<td>Mono Input Mono Inpu Channels Channels</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003%20-%20MONO%20INPUT%20MONO%20INPU%20CHANNELS%20CHANNELS.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-04-003</td>
+<td>Top View Layout</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003%20-%20TOP%20VIEW%20LAYOUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-04-003</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-04-003</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-04-004</td>
+<td>Cfto-Tv Stereo Television Console Rear View Layout</td>
+<td></td>
+<td><a href="../../../PAGES/Person-PA.html">PA</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-004%20-%20CFTO-TV%20STEREO%20TELEVISION%20CONSOLE%20REAR%20VIEW%20LAYOUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-04-004</td>
+<td>Decoupling Plaedr Plae For Plate For</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-004%20-%20DECOUPLING%20PLAEDR%20PLAE%20FOR%20PLATE%20FOR.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-04-004</td>
+<td>Une Line Mic Mic Spare Spare Inputs Inputs</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-004%20-%20UNE%20LINE%20MIC%20MIC%20SPARE%20SPARE%20INPUTS%20INPUTS.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-04-004</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-004%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-04-004</td>
+<td>Stereo Television Console</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-004%20-%20STEREO%20TELEVISION%20CONSOLE.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-04-004</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-004.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-04-009</td>
+<td>Microphone Inputs</td>
+<td></td>
+<td><a href="../../../PAGES/Person-PA.html">PA</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-009%20-%20MICROPHONE%20INPUTS.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-04-010</td>
+<td>Microphone Sources</td>
+<td></td>
+<td><a href="../../../PAGES/Person-PA.html">PA</a></td>
+<td></td>
+<td>D</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-010%20-%20MICROPHONE%20SOURCES.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-04-011</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-011%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-04-011</td>
+<td>Oli Olx</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-011%20-%20OLI%20OLX.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-04-011</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-011%20%283%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-04-011</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-011%20%284%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-04-011</td>
+<td>Stereo Chan</td>
+<td></td>
+<td><a href="../../../PAGES/Person-PA.html">PA</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-011%20-%20STEREO%20CHAN.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-04-011</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-011.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-04-012</td>
+<td></td>
+<td></td>
+<td><a href="../../../PAGES/Person-DS.html">DS</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-012.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-04-013</td>
+<td></td>
+<td></td>
+<td><a href="../../../PAGES/Person-DS.html">DS</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-013.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-05-004</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-05-004.jpg">file</a></td>
+</tr>
+<tr>
+<td>880134-07-004</td>
+<td>Power Distribution</td>
+<td></td>
+<td><a href="../../../PAGES/Person-PA.html">PA</a></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-07-004%20-%20POWER%20DISTRIBUTION.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Files (170)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1985|18</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M521/1985%20-%20M521%20-%20Sterio%20Input%20Module%20Connector%20Layout.jpg">1985 - M521 - Sterio Input Module Connector Layout.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M521/1985%20-%20M521%20-%20Sterio%20Input%20Module%20Connector%20Layout.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%2002-001.psd">1988 - 880134 - 02-001.psd</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%2002-001.psd.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%2002-002.psd">1988 - 880134 - 02-002.psd</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%2002-002.psd.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%2004-001.psd">1988 - 880134 - 04-001.psd</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%2004-001.psd.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-001%20-%20EACH%20SIGNAL%20SEE%20POWER%20DISTRIBUTION%20CHAS%20LISTS%20CONTROL.jpg">1988 - 880134 - 880134-02-001 - EACH SIGNAL SEE POWER DISTRIBUTION CHAS LISTS CONTROL.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-001%20-%20EACH%20SIGNAL%20SEE%20POWER%20DISTRIBUTION%20CHAS%20LISTS%20CONTROL.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-001%20-%20MONO%20INPUT%20CHANNEL.jpg">1988 - 880134 - 880134-02-001 - MONO INPUT CHANNEL.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-001%20-%20MONO%20INPUT%20CHANNEL.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-001%20-%20RIBBON%20CABLE.jpg">1988 - 880134 - 880134-02-001 - RIBBON CABLE.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-001%20-%20RIBBON%20CABLE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-001%20-%20TWSTED%20PAIR%20RIBBON%20CABLE.jpg">1988 - 880134 - 880134-02-001 - TWSTED PAIR RIBBON CABLE.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-001%20-%20TWSTED%20PAIR%20RIBBON%20CABLE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-001%20-%20TWSTED%20PAIR%20SUMMING%20BUSES%20RIBBON%20CABLE.jpg">1988 - 880134 - 880134-02-001 - TWSTED PAIR SUMMING BUSES RIBBON CABLE.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-001%20-%20TWSTED%20PAIR%20SUMMING%20BUSES%20RIBBON%20CABLE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-001.jpg">1988 - 880134 - 880134-02-001.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-002%20-%20BACKPLANE%20CONNECTIONS%20STEREO%20INPUT%20JUMPER%20FROM%20CHANNELS.jpg">1988 - 880134 - 880134-02-002 - BACKPLANE CONNECTIONS STEREO INPUT JUMPER FROM CHANNELS.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-002%20-%20BACKPLANE%20CONNECTIONS%20STEREO%20INPUT%20JUMPER%20FROM%20CHANNELS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-002%20-%20INSERT%20TWSTED%20OABM%20RIBBON%20CAE%20PART.jpg">1988 - 880134 - 880134-02-002 - INSERT TWSTED OABM RIBBON CAE PART.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-002%20-%20INSERT%20TWSTED%20OABM%20RIBBON%20CAE%20PART.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-002%20-%20RIBBON%20CABLE.jpg">1988 - 880134 - 880134-02-002 - RIBBON CABLE.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-002%20-%20RIBBON%20CABLE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-002%20-%20STEREO%20INPUT%20CHANNEL.jpg">1988 - 880134 - 880134-02-002 - STEREO INPUT CHANNEL.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-002%20-%20STEREO%20INPUT%20CHANNEL.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-002.jpg">1988 - 880134 - 880134-02-002.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-003%20-%20SIGNAL%20SEE%20POWER%20DISTRIBUTION%20LISTS%20CHA%20CONTROL.jpg">1988 - 880134 - 880134-02-003 - SIGNAL SEE POWER DISTRIBUTION LISTS CHA CONTROL.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-003%20-%20SIGNAL%20SEE%20POWER%20DISTRIBUTION%20LISTS%20CHA%20CONTROL.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004%20-%20ATE%20PUTS%20STEREO.jpg">1988 - 880134 - 880134-02-004 - ATE PUTS STEREO.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004%20-%20ATE%20PUTS%20STEREO.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004%20-%20INPUTS%20STEI%20CHASSIS%20MOUNT%20CONNECTOR%20NAZISS-E%20EACH.jpg">1988 - 880134 - 880134-02-004 - INPUTS STEI CHASSIS MOUNT CONNECTOR NAZISS-E EACH.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004%20-%20INPUTS%20STEI%20CHASSIS%20MOUNT%20CONNECTOR%20NAZISS-E%20EACH.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004%20-%20LOOP%20ALL%20FADERS%20CHASSIS%20MOUNT%20CONNECTOR%20NAZISS-E.jpg">1988 - 880134 - 880134-02-004 - LOOP ALL FADERS CHASSIS MOUNT CONNECTOR NAZISS-E.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004%20-%20LOOP%20ALL%20FADERS%20CHASSIS%20MOUNT%20CONNECTOR%20NAZISS-E.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004%20-%20MASTER%20CHANNEL.jpg">1988 - 880134 - 880134-02-004 - MASTER CHANNEL.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004%20-%20MASTER%20CHANNEL.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004%20-%20METER%20LEFT%20MONITOR%20METER%20RIGHT%20MONITOR%20CORRELA%20TION.jpg">1988 - 880134 - 880134-02-004 - METER LEFT MONITOR METER RIGHT MONITOR CORRELA TION.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004%20-%20METER%20LEFT%20MONITOR%20METER%20RIGHT%20MONITOR%20CORRELA%20TION.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004%20-%20SNEREL%20LSSVEDAI%20REMISIOH%20HETI%20POWER%20IAS.jpg">1988 - 880134 - 880134-02-004 - SNEREL LSSVEDAI REMISIOH HETI POWER IAS.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004%20-%20SNEREL%20LSSVEDAI%20REMISIOH%20HETI%20POWER%20IAS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004.jpg">1988 - 880134 - 880134-02-004.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-004.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20CORRELA%20TION%20CORRELATION%20METER%20SELECTOR%20SELECTOR.jpg">1988 - 880134 - 880134-02-007 - CORRELA TION CORRELATION METER SELECTOR SELECTOR.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20CORRELA%20TION%20CORRELATION%20METER%20SELECTOR%20SELECTOR.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20CORRELA%20TION%20METER%20SELECTOR.jpg">1988 - 880134 - 880134-02-007 - CORRELA TION METER SELECTOR.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20CORRELA%20TION%20METER%20SELECTOR.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20NSEL%20ISSUEI.jpg">1988 - 880134 - 880134-02-007 - NSEL ISSUEI.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20NSEL%20ISSUEI.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20RELATION%20METER%20CORRELATION%20METER%20SELECTOR%20SELECTOR.jpg">1988 - 880134 - 880134-02-007 - RELATION METER CORRELATION METER SELECTOR SELECTOR.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20RELATION%20METER%20CORRELATION%20METER%20SELECTOR%20SELECTOR.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20SEE%20POWER%20DISTRIBU%20TION%20CHASSIS%20LISTS.jpg">1988 - 880134 - 880134-02-007 - SEE POWER DISTRIBU TION CHASSIS LISTS.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20SEE%20POWER%20DISTRIBU%20TION%20CHASSIS%20LISTS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20SEE%20POWER%20DISTRIBUTION%20CHASSIS%20LISTS.jpg">1988 - 880134 - 880134-02-007 - SEE POWER DISTRIBUTION CHASSIS LISTS.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20SEE%20POWER%20DISTRIBUTION%20CHASSIS%20LISTS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014%20%282%29.jpg">1988 - 880134 - 880134-02-014 (2).jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014%20%283%29.jpg">1988 - 880134 - 880134-02-014 (3).jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014%20%283%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014%20-%20CCR%27ECTIC%20TRAE%20NVET%20CCHNECTIO%27.jpg">1988 - 880134 - 880134-02-014 - CCR'ECTIC TRAE NVET CCHNECTIO'.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014%20-%20CCR%27ECTIC%20TRAE%20NVET%20CCHNECTIO%27.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014%20-%20COP%20ECOD%20COETACTS%20JACK.jpg">1988 - 880134 - 880134-02-014 - COP ECOD COETACTS JACK.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014%20-%20COP%20ECOD%20COETACTS%20JACK.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014%20-%20JACKFIELD%20WIRING%20DRA%20WING.jpg">1988 - 880134 - 880134-02-014 - JACKFIELD WIRING DRA WING.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014%20-%20JACKFIELD%20WIRING%20DRA%20WING.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014%20-%20STEREO%20FADER.jpg">1988 - 880134 - 880134-02-014 - STEREO FADER.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014%20-%20STEREO%20FADER.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014.jpg">1988 - 880134 - 880134-02-014.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-014.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-015%20-%20CHEMA%20TIC.jpg">1988 - 880134 - 880134-02-015 - CHEMA TIC.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-015%20-%20CHEMA%20TIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-015%20-%20INTERCOM%20SCHEMA%20TIC%20%282%29.jpg">1988 - 880134 - 880134-02-015 - INTERCOM SCHEMA TIC (2).jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-015%20-%20INTERCOM%20SCHEMA%20TIC%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-015%20-%20INTERCOM%20SCHEMA%20TIC.jpg">1988 - 880134 - 880134-02-015 - INTERCOM SCHEMA TIC.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-015%20-%20INTERCOM%20SCHEMA%20TIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-015.jpg">1988 - 880134 - 880134-02-015.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-015.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-016%20-%20MACHINE%20CONTROLS%20%282%29.jpg">1988 - 880134 - 880134-02-016 - MACHINE CONTROLS (2).jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-016%20-%20MACHINE%20CONTROLS%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-016%20-%20MACHINE%20CONTROLS%20%283%29.jpg">1988 - 880134 - 880134-02-016 - MACHINE CONTROLS (3).jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-016%20-%20MACHINE%20CONTROLS%20%283%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-016%20-%20MACHINE%20CONTROLS.jpg">1988 - 880134 - 880134-02-016 - MACHINE CONTROLS.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-016%20-%20MACHINE%20CONTROLS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-016.jpg">1988 - 880134 - 880134-02-016.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-016.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-017%20-%20CORRELA%20TION%20METER%20SELECTOR.jpg">1988 - 880134 - 880134-02-017 - CORRELA TION METER SELECTOR.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-017%20-%20CORRELA%20TION%20METER%20SELECTOR.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002%20-%20AUX%20EVG%20EHG%20MODULES.jpg">1988 - 880134 - 880134-04-002 - AUX EVG EHG MODULES.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002%20-%20AUX%20EVG%20EHG%20MODULES.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002%20-%20BLANK%20PANEL.jpg">1988 - 880134 - 880134-04-002 - BLANK PANEL.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002%20-%20BLANK%20PANEL.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002%20-%20ELITE%20PANEL%20MSIONF%20COMTROLCE%20EXEEBNAL%20PQKER%20SUPPLES.jpg">1988 - 880134 - 880134-04-002 - ELITE PANEL MSIONF COMTROLCE EXEEBNAL PQKER SUPPLES.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002%20-%20ELITE%20PANEL%20MSIONF%20COMTROLCE%20EXEEBNAL%20PQKER%20SUPPLES.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002%20-%20ELSH%20ASN.jpg">1988 - 880134 - 880134-04-002 - ELSH ASN.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002%20-%20ELSH%20ASN.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002%20-%20FRONT%20VIEW.jpg">1988 - 880134 - 880134-04-002 - FRONT VIEW.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002%20-%20FRONT%20VIEW.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002%20-%20PHASE%20UML-L%20UML-R.jpg">1988 - 880134 - 880134-04-002 - PHASE UML-L UML-R.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002%20-%20PHASE%20UML-L%20UML-R.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002.jpg">1988 - 880134 - 880134-04-002.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003%20%282%29.jpg">1988 - 880134 - 880134-04-003 (2).jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003%20-%20FACMPG%20FADERE%20FACIRE%20FLDERS%20FAOERS%20FIDERS.jpg">1988 - 880134 - 880134-04-003 - FACMPG FADERE FACIRE FLDERS FAOERS FIDERS.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003%20-%20FACMPG%20FADERE%20FACIRE%20FLDERS%20FAOERS%20FIDERS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003%20-%20HON%20STEREO%20MONO%20STEREO%20STEREO%20STEREO%20MONO%20INPUT.jpg">1988 - 880134 - 880134-04-003 - HON STEREO MONO STEREO STEREO STEREO MONO INPUT.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003%20-%20HON%20STEREO%20MONO%20STEREO%20STEREO%20STEREO%20MONO%20INPUT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003%20-%20INPUT%20INSERT%20AND%20OUTPUT%20JACKFIELD.jpg">1988 - 880134 - 880134-04-003 - INPUT INSERT AND OUTPUT JACKFIELD.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003%20-%20INPUT%20INSERT%20AND%20OUTPUT%20JACKFIELD.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003%20-%20MONO%20INPUT%20MONO%20INPU%20CHANNELS%20CHANNELS.jpg">1988 - 880134 - 880134-04-003 - MONO INPUT MONO INPU CHANNELS CHANNELS.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003%20-%20MONO%20INPUT%20MONO%20INPU%20CHANNELS%20CHANNELS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003%20-%20TOP%20VIEW%20LAYOUT.jpg">1988 - 880134 - 880134-04-003 - TOP VIEW LAYOUT.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003%20-%20TOP%20VIEW%20LAYOUT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003.jpg">1988 - 880134 - 880134-04-003.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-004%20%282%29.jpg">1988 - 880134 - 880134-04-004 (2).jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-004%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-004%20-%20CFTO-TV%20STEREO%20TELEVISION%20CONSOLE%20REAR%20VIEW%20LAYOUT.jpg">1988 - 880134 - 880134-04-004 - CFTO-TV STEREO TELEVISION CONSOLE REAR VIEW LAYOUT.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-004%20-%20CFTO-TV%20STEREO%20TELEVISION%20CONSOLE%20REAR%20VIEW%20LAYOUT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-004%20-%20DECOUPLING%20PLAEDR%20PLAE%20FOR%20PLATE%20FOR.jpg">1988 - 880134 - 880134-04-004 - DECOUPLING PLAEDR PLAE FOR PLATE FOR.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-004%20-%20DECOUPLING%20PLAEDR%20PLAE%20FOR%20PLATE%20FOR.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-004%20-%20STEREO%20TELEVISION%20CONSOLE.jpg">1988 - 880134 - 880134-04-004 - STEREO TELEVISION CONSOLE.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-004%20-%20STEREO%20TELEVISION%20CONSOLE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-004%20-%20UNE%20LINE%20MIC%20MIC%20SPARE%20SPARE%20INPUTS%20INPUTS.jpg">1988 - 880134 - 880134-04-004 - UNE LINE MIC MIC SPARE SPARE INPUTS INPUTS.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-004%20-%20UNE%20LINE%20MIC%20MIC%20SPARE%20SPARE%20INPUTS%20INPUTS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-004.jpg">1988 - 880134 - 880134-04-004.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-004.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-009%20-%20MICROPHONE%20INPUTS.jpg">1988 - 880134 - 880134-04-009 - MICROPHONE INPUTS.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-009%20-%20MICROPHONE%20INPUTS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-010%20-%20MICROPHONE%20SOURCES.jpg">1988 - 880134 - 880134-04-010 - MICROPHONE SOURCES.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-010%20-%20MICROPHONE%20SOURCES.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-011%20%282%29.jpg">1988 - 880134 - 880134-04-011 (2).jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-011%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-011%20%283%29.jpg">1988 - 880134 - 880134-04-011 (3).jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-011%20%283%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-011%20%284%29.jpg">1988 - 880134 - 880134-04-011 (4).jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-011%20%284%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-011%20-%20OLI%20OLX.jpg">1988 - 880134 - 880134-04-011 - OLI OLX.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-011%20-%20OLI%20OLX.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-011%20-%20STEREO%20CHAN.jpg">1988 - 880134 - 880134-04-011 - STEREO CHAN.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-011%20-%20STEREO%20CHAN.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-011.jpg">1988 - 880134 - 880134-04-011.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-011.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-012.jpg">1988 - 880134 - 880134-04-012.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-012.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-013.jpg">1988 - 880134 - 880134-04-013.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-04-013.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-05-004.jpg">1988 - 880134 - 880134-05-004.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-05-004.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-07-004%20-%20POWER%20DISTRIBUTION.jpg">1988 - 880134 - 880134-07-004 - POWER DISTRIBUTION.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-07-004%20-%20POWER%20DISTRIBUTION.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20CFTO-TV%20880134.jpg">1988 - 880134 - CFTO-TV 880134.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20CFTO-TV%20880134.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/88134/1988%20-%2088134%20-%2088134-04-014.jpg">1988 - 88134 - 88134-04-014.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/88134/1988%20-%2088134%20-%2088134-04-014.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20%282%29.jpg">1988 - BIG CFTO TV done - 2442-01-001 (2).jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20COMMUNICATIONS%20MODULE.jpg">1988 - BIG CFTO TV done - 2442-01-001 - COMMUNICATIONS MODULE.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20COMMUNICATIONS%20MODULE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20MONITOR%20MODULE%20MONITOR.jpg">1988 - BIG CFTO TV done - 2442-01-001 - MONITOR MODULE MONITOR.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20MONITOR%20MODULE%20MONITOR.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20OUTL%20OPTIONAL%20OUT%20OPTIONAL.jpg">1988 - BIG CFTO TV done - 2442-01-001 - OUTL OPTIONAL OUT OPTIONAL.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20OUTL%20OPTIONAL%20OUT%20OPTIONAL.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20START%20TIMER%20STOP%20DISPLAX%20RESET.jpg">1988 - BIG CFTO TV done - 2442-01-001 - START TIMER STOP DISPLAX RESET.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20START%20TIMER%20STOP%20DISPLAX%20RESET.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20STEREO%20TELEVISION%20CONSOLE.jpg">1988 - BIG CFTO TV done - 2442-01-001 - STEREO TELEVISION CONSOLE.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20STEREO%20TELEVISION%20CONSOLE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20STEREQ%20MASTER%20MODULE%20MONITOR%20MONITOR%20AUXILIARY%20CHANNEL%20INSERTS.jpg">1988 - BIG CFTO TV done - 2442-01-001 - STEREQ MASTER MODULE MONITOR MONITOR AUXILIARY CHANNEL INSERTS.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20STEREQ%20MASTER%20MODULE%20MONITOR%20MONITOR%20AUXILIARY%20CHANNEL%20INSERTS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20STEREQ%20STEREO%20SWITCHER%20SWITCHER%20EXTERNAL%20LINE%20TALLY.jpg">1988 - BIG CFTO TV done - 2442-01-001 - STEREQ STEREO SWITCHER SWITCHER EXTERNAL LINE TALLY.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20STEREQ%20STEREO%20SWITCHER%20SWITCHER%20EXTERNAL%20LINE%20TALLY.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20SWICHER%20MODULES%20MONO%20LIVE%20INPUTS.jpg">1988 - BIG CFTO TV done - 2442-01-001 - SWICHER MODULES MONO LIVE INPUTS.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20SWICHER%20MODULES%20MONO%20LIVE%20INPUTS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20UTIL%20MODULE%20AUX%20MONITOR%20UTIL%20MODULE%20AUX.jpg">1988 - BIG CFTO TV done - 2442-01-001 - UTIL MODULE AUX MONITOR UTIL MODULE AUX.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20UTIL%20MODULE%20AUX%20MONITOR%20UTIL%20MODULE%20AUX.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001.jpg">1988 - BIG CFTO TV done - 2442-01-001.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-011.jpg">1988 - BIG CFTO TV done - 2442-01-011.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-011.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-02-013%20-%20OVERLOAD%20SCHEMA%20TIC.jpg">1988 - BIG CFTO TV done - 2442-02-013 - OVERLOAD SCHEMA TIC.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-02-013%20-%20OVERLOAD%20SCHEMA%20TIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-003%20-%20ALL%20FADERS%20CHASSIS%20MOUNT%20CONNECTOR%20NAZISS-E.jpg">1988 - BIG CFTO TV done - 3642-02-003 - ALL FADERS CHASSIS MOUNT CONNECTOR NAZISS-E.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-003%20-%20ALL%20FADERS%20CHASSIS%20MOUNT%20CONNECTOR%20NAZISS-E.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-003%20-%20CONT%20CONT%20BACKPLANE%20CONNECTIONS%20FEMALE%20CONN%20MALE%20CONN.jpg">1988 - BIG CFTO TV done - 3642-02-003 - CONT CONT BACKPLANE CONNECTIONS FEMALE CONN MALE CONN.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-003%20-%20CONT%20CONT%20BACKPLANE%20CONNECTIONS%20FEMALE%20CONN%20MALE%20CONN.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-003%20-%20CONTROLLER%20DATA%20BUS%20LOOPED%20SUBS.jpg">1988 - BIG CFTO TV done - 3642-02-003 - CONTROLLER DATA BUS LOOPED SUBS.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-003%20-%20CONTROLLER%20DATA%20BUS%20LOOPED%20SUBS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-003%20-%20MODULE%20FEMALE%20CONN%20MALE%20CONN.jpg">1988 - BIG CFTO TV done - 3642-02-003 - MODULE FEMALE CONN MALE CONN.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-003%20-%20MODULE%20FEMALE%20CONN%20MALE%20CONN.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-003%20-%20REDRAWN%20IISSUE.jpg">1988 - BIG CFTO TV done - 3642-02-003 - REDRAWN IISSUE.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-003%20-%20REDRAWN%20IISSUE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-003%20-%20SIGNAL%20SEE%20POWER%20DISTRIBUTION%20LISTS%20CHAS%20CONTROL.jpg">1988 - BIG CFTO TV done - 3642-02-003 - SIGNAL SEE POWER DISTRIBUTION LISTS CHAS CONTROL.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-003%20-%20SIGNAL%20SEE%20POWER%20DISTRIBUTION%20LISTS%20CHAS%20CONTROL.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-003.jpg">1988 - BIG CFTO TV done - 3642-02-003.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-005%20-%20AUX%20OVERLOAD%20MODULE%20%282%29.jpg">1988 - BIG CFTO TV done - 3642-02-005 - AUX OVERLOAD MODULE (2).jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-005%20-%20AUX%20OVERLOAD%20MODULE%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-005%20-%20AUX%20OVERLOAD%20MODULE.jpg">1988 - BIG CFTO TV done - 3642-02-005 - AUX OVERLOAD MODULE.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-005%20-%20AUX%20OVERLOAD%20MODULE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-005%20-%20DENTICAL%20PLIED%20UTILITY%20RIGHT.jpg">1988 - BIG CFTO TV done - 3642-02-005 - DENTICAL PLIED UTILITY RIGHT.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-005%20-%20DENTICAL%20PLIED%20UTILITY%20RIGHT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-005%20-%20DISTRIBUTION%20LISTS%20CHASS%20CONTROL.jpg">1988 - BIG CFTO TV done - 3642-02-005 - DISTRIBUTION LISTS CHASS CONTROL.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-005%20-%20DISTRIBUTION%20LISTS%20CHASS%20CONTROL.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-005%20-%20PIN%20OUTS%20CHANGED.jpg">1988 - BIG CFTO TV done - 3642-02-005 - PIN OUTS CHANGED.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-005%20-%20PIN%20OUTS%20CHANGED.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-005%20-%20SUMMING%20BUSES%20FROM%20SUBS%20PINS.jpg">1988 - BIG CFTO TV done - 3642-02-005 - SUMMING BUSES FROM SUBS PINS.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-005%20-%20SUMMING%20BUSES%20FROM%20SUBS%20PINS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-005.psd">1988 - BIG CFTO TV done - 3642-02-005.psd</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-005.psd.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-006%20-%20AMPLIFIER%20WIRING%20CHANGED%20ISSUEI.jpg">1988 - BIG CFTO TV done - 3642-02-006 - AMPLIFIER WIRING CHANGED ISSUEI.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-006%20-%20AMPLIFIER%20WIRING%20CHANGED%20ISSUEI.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-006%20-%20AUDIO%20AUDIO%20AUDIO%20AUDIO.jpg">1988 - BIG CFTO TV done - 3642-02-006 - AUDIO AUDIO AUDIO AUDIO.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-006%20-%20AUDIO%20AUDIO%20AUDIO%20AUDIO.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-006%20-%20AUDIO%20AUDIO%20MI-MONO.jpg">1988 - BIG CFTO TV done - 3642-02-006 - AUDIO AUDIO MI-MONO.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-006%20-%20AUDIO%20AUDIO%20MI-MONO.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-006%20-%20AUDIO%20TERMINAL%20STRIP.jpg">1988 - BIG CFTO TV done - 3642-02-006 - AUDIO TERMINAL STRIP.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-006%20-%20AUDIO%20TERMINAL%20STRIP.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-006%20-%20NOTE%20LED%27S%20ARE%20NOT%20PROVIDED%20WITH.jpg">1988 - BIG CFTO TV done - 3642-02-006 - NOTE LED'S ARE NOT PROVIDED WITH.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-006%20-%20NOTE%20LED%27S%20ARE%20NOT%20PROVIDED%20WITH.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-006%20-%20OIANV%20OIANV%20OIANV%20OIANV.jpg">1988 - BIG CFTO TV done - 3642-02-006 - OIANV OIANV OIANV OIANV.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-006%20-%20OIANV%20OIANV%20OIANV%20OIANV.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-006.psd">1988 - BIG CFTO TV done - 3642-02-006.psd</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-006.psd.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-008%20-%20AUX%20MODULE.jpg">1988 - BIG CFTO TV done - 3642-02-008 - AUX MODULE.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-008%20-%20AUX%20MODULE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-008%20-%20COMMUNICA%20TIONS.jpg">1988 - BIG CFTO TV done - 3642-02-008 - COMMUNICA TIONS.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-008%20-%20COMMUNICA%20TIONS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-008%20-%20DISTRIBUTION%20LISTS%20CHASS.jpg">1988 - BIG CFTO TV done - 3642-02-008 - DISTRIBUTION LISTS CHASS.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-008%20-%20DISTRIBUTION%20LISTS%20CHASS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-008%20-%20FEMALE%20MALE%20FROM.jpg">1988 - BIG CFTO TV done - 3642-02-008 - FEMALE MALE FROM.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-008%20-%20FEMALE%20MALE%20FROM.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-008%20-%20UVCLLATOR%20OABM%20QUTPUTS.jpg">1988 - BIG CFTO TV done - 3642-02-008 - UVCLLATOR OABM QUTPUTS.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-008%20-%20UVCLLATOR%20OABM%20QUTPUTS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-008.jpg">1988 - BIG CFTO TV done - 3642-02-008.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-008.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-008.psd">1988 - BIG CFTO TV done - 3642-02-008.psd</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-008.psd.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-009%20-%20CHASSIS%20GROUND%20NQE%20PROCESSING%20MODULES%20MAY.jpg">1988 - BIG CFTO TV done - 3642-02-009 - CHASSIS GROUND NQE PROCESSING MODULES MAY.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-009%20-%20CHASSIS%20GROUND%20NQE%20PROCESSING%20MODULES%20MAY.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-009%20-%20ESSING%20OUT%20PROCESSING%20DULE%20MODULE.jpg">1988 - BIG CFTO TV done - 3642-02-009 - ESSING OUT PROCESSING DULE MODULE.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-009%20-%20ESSING%20OUT%20PROCESSING%20DULE%20MODULE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-009%20-%20OUT%20PROCESSING%20OUT%20PROCESSING%20OUT.jpg">1988 - BIG CFTO TV done - 3642-02-009 - OUT PROCESSING OUT PROCESSING OUT.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-009%20-%20OUT%20PROCESSING%20OUT%20PROCESSING%20OUT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-009%20-%20PROCESSING%20OUT%20PROCESSING.jpg">1988 - BIG CFTO TV done - 3642-02-009 - PROCESSING OUT PROCESSING.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-009%20-%20PROCESSING%20OUT%20PROCESSING.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-009%20-%20STEREO%20TIE%20JUMPER%20PINS%20CORRECTED.jpg">1988 - BIG CFTO TV done - 3642-02-009 - STEREO TIE JUMPER PINS CORRECTED.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-009%20-%20STEREO%20TIE%20JUMPER%20PINS%20CORRECTED.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-009.jpg">1988 - BIG CFTO TV done - 3642-02-009.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-009.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-009.psd">1988 - BIG CFTO TV done - 3642-02-009.psd</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-009.psd.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-010%20-%20DISTR%20MALE%20PINS%20MALE%20PINS%20RUI.jpg">1988 - BIG CFTO TV done - 3642-02-010 - DISTR MALE PINS MALE PINS RUI.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-010%20-%20DISTR%20MALE%20PINS%20MALE%20PINS%20RUI.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-010%20-%20GROUND%20BAR%20HASSIS%20ABLE.jpg">1988 - BIG CFTO TV done - 3642-02-010 - GROUND BAR HASSIS ABLE.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-010%20-%20GROUND%20BAR%20HASSIS%20ABLE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-010%20-%20OVA%20SLI%20ZIIZD%20AIZD.jpg">1988 - BIG CFTO TV done - 3642-02-010 - OVA SLI ZIIZD AIZD.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-010%20-%20OVA%20SLI%20ZIIZD%20AIZD.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-010%20-%20POWER%20LOAD%20TRANSFER%20CONTROL.jpg">1988 - BIG CFTO TV done - 3642-02-010 - POWER LOAD TRANSFER CONTROL.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-010%20-%20POWER%20LOAD%20TRANSFER%20CONTROL.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-010%20-%20TOFOIALL%20CADLE%20MAR.jpg">1988 - BIG CFTO TV done - 3642-02-010 - TOFOIALL CADLE MAR.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-010%20-%20TOFOIALL%20CADLE%20MAR.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-010.jpg">1988 - BIG CFTO TV done - 3642-02-010.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-010.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-010.psd">1988 - BIG CFTO TV done - 3642-02-010.psd</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-010.psd.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-011%20-%20CABLE%20PANEL%20CONNECTOR%20VEWED%20MOLEX.jpg">1988 - BIG CFTO TV done - 3642-02-011 - CABLE PANEL CONNECTOR VEWED MOLEX.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-011%20-%20CABLE%20PANEL%20CONNECTOR%20VEWED%20MOLEX.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-011%20-%20CONTROL%20QUIRED%20GROUND%20BAR%20GROUND%20BAR.jpg">1988 - BIG CFTO TV done - 3642-02-011 - CONTROL QUIRED GROUND BAR GROUND BAR.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-011%20-%20CONTROL%20QUIRED%20GROUND%20BAR%20GROUND%20BAR.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-011%20-%20NQIES%20POWER%20SUPPLIES%20AND%20ARE%20WIRED%20IDENTICALLY.jpg">1988 - BIG CFTO TV done - 3642-02-011 - NQIES POWER SUPPLIES AND ARE WIRED IDENTICALLY.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-011%20-%20NQIES%20POWER%20SUPPLIES%20AND%20ARE%20WIRED%20IDENTICALLY.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-011%20-%20POWER%20DECQUPLING%20LDISTRIBUTIONPAA%20CHASSIS%20GROUND%20BAR.jpg">1988 - BIG CFTO TV done - 3642-02-011 - POWER DECQUPLING LDISTRIBUTIONPAA CHASSIS GROUND BAR.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-011%20-%20POWER%20DECQUPLING%20LDISTRIBUTIONPAA%20CHASSIS%20GROUND%20BAR.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-011%20-%20SIGNAL%20GROUND%20BAR.jpg">1988 - BIG CFTO TV done - 3642-02-011 - SIGNAL GROUND BAR.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-011%20-%20SIGNAL%20GROUND%20BAR.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-011.jpg">1988 - BIG CFTO TV done - 3642-02-011.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-011.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-011.psd">1988 - BIG CFTO TV done - 3642-02-011.psd</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-011.psd.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-012%20%282%29.jpg">1988 - BIG CFTO TV done - 3642-02-012 (2).jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-012%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-012%20-%20ASTER%20AUX%20JDULES%20MODULES.jpg">1988 - BIG CFTO TV done - 3642-02-012 - ASTER AUX JDULES MODULES.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-012%20-%20ASTER%20AUX%20JDULES%20MODULES.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-012%20-%20BACKFE%20HANNELS.jpg">1988 - BIG CFTO TV done - 3642-02-012 - BACKFE HANNELS.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-012%20-%20BACKFE%20HANNELS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-012%20-%20COM%20INTERNAL%20BACK-UP%20BATTERY%20OPTIONAL.jpg">1988 - BIG CFTO TV done - 3642-02-012 - COM INTERNAL BACK-UP BATTERY OPTIONAL.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-012%20-%20COM%20INTERNAL%20BACK-UP%20BATTERY%20OPTIONAL.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-012%20-%20MASTER%20ASTER%20AUX%20MODULESDULES%20MODULES.jpg">1988 - BIG CFTO TV done - 3642-02-012 - MASTER ASTER AUX MODULESDULES MODULES.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-012%20-%20MASTER%20ASTER%20AUX%20MODULESDULES%20MODULES.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-012%20-%20VOOZSW%20OOZL%20OOLL.jpg">1988 - BIG CFTO TV done - 3642-02-012 - VOOZSW OOZL OOLL.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-012%20-%20VOOZSW%20OOZL%20OOLL.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-012.jpg">1988 - BIG CFTO TV done - 3642-02-012.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-012.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-04-005%20-%20REDRAWN%20ISSUEI%20%282%29.jpg">1988 - BIG CFTO TV done - 3642-04-005 - REDRAWN ISSUEI (2).jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-04-005%20-%20REDRAWN%20ISSUEI%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-04-005%20-%20REDRAWN%20ISSUEI.jpg">1988 - BIG CFTO TV done - 3642-04-005 - REDRAWN ISSUEI.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-04-005%20-%20REDRAWN%20ISSUEI.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-04-006%20-%20REDRAWN%20ISSUEI.jpg">1988 - BIG CFTO TV done - 3642-04-006 - REDRAWN ISSUEI.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-04-006%20-%20REDRAWN%20ISSUEI.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-04-007%20-%20REDRAWN%20ISSUEI.jpg">1988 - BIG CFTO TV done - 3642-04-007 - REDRAWN ISSUEI.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-04-007%20-%20REDRAWN%20ISSUEI.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-04-008%20-%20REDRAWN%20ISSUEI.jpg">1988 - BIG CFTO TV done - 3642-04-008 - REDRAWN ISSUEI.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-04-008%20-%20REDRAWN%20ISSUEI.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-07-001%20-%20POWER%20DISTRIBU%20TION.jpg">1988 - BIG CFTO TV done - 3642-07-001 - POWER DISTRIBU TION.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-07-001%20-%20POWER%20DISTRIBU%20TION.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-07-002%20-%20POWER%20DISTRIBU%20TION.jpg">1988 - BIG CFTO TV done - 3642-07-002 - POWER DISTRIBU TION.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-07-002%20-%20POWER%20DISTRIBU%20TION.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-07-003%20-%20POWER%20DISTRIBU%20TION.jpg">1988 - BIG CFTO TV done - 3642-07-003 - POWER DISTRIBU TION.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-07-003%20-%20POWER%20DISTRIBU%20TION.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-07-005%20-%20LOGIC%20TREE%20CHART.jpg">1988 - BIG CFTO TV done - 3642-07-005 - LOGIC TREE CHART.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-07-005%20-%20LOGIC%20TREE%20CHART.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%208-103-06-001%20-%20LOAD%20TRANSFER%20COLTROL.jpg">1988 - BIG CFTO TV done - 8-103-06-001 - LOAD TRANSFER COLTROL.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%208-103-06-001%20-%20LOAD%20TRANSFER%20COLTROL.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%208-403-02-001%20-%20SYSTEMI%20DRNVINKE%20ENG.jpg">1988 - BIG CFTO TV done - 8-403-02-001 - SYSTEMI DRNVINKE ENG.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%208-403-02-001%20-%20SYSTEMI%20DRNVINKE%20ENG.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%20880134-01-001%20-%20CFTO-TV%20AUDIO%20CONSOLE%20DRAWING%20LIST.jpg">1988 - BIG CFTO TV done - 880134-01-001 - CFTO-TV AUDIO CONSOLE DRAWING LIST.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%20880134-01-001%20-%20CFTO-TV%20AUDIO%20CONSOLE%20DRAWING%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%20880134-04-004%20-%20CFTO-TV%20AUDIO%20CONSOLE%20DRAWING%20LISI.jpg">1988 - BIG CFTO TV done - 880134-04-004 - CFTO-TV AUDIO CONSOLE DRAWING LISI.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%20880134-04-004%20-%20CFTO-TV%20AUDIO%20CONSOLE%20DRAWING%20LISI.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%20CFTO%20TV%20List%20of%20Product%20Manuals.jpg">1988 - BIG CFTO TV done - CFTO TV List of Product Manuals.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%20CFTO%20TV%20List%20of%20Product%20Manuals.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%20CFTO%20TV%20Parts%20List%201.jpg">1988 - BIG CFTO TV done - CFTO TV Parts List 1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%20CFTO%20TV%20Parts%20List%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%20CFTO%20TV%20Parts%20List%202.jpg">1988 - BIG CFTO TV done - CFTO TV Parts List 2.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%20CFTO%20TV%20Parts%20List%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%20CFTO%20TV%20Parts%20List%203.jpg">1988 - BIG CFTO TV done - CFTO TV Parts List 3.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%20CFTO%20TV%20Parts%20List%203.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%20CFTO%20TV%20Parts%20List%204.jpg">1988 - BIG CFTO TV done - CFTO TV Parts List 4.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%20CFTO%20TV%20Parts%20List%204.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%20CFTO%20TV%20Parts%20List%205.jpg">1988 - BIG CFTO TV done - CFTO TV Parts List 5.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%20CFTO%20TV%20Parts%20List%205.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%20CFTO%20TV%20Parts%20List%206.jpg">1988 - BIG CFTO TV done - CFTO TV Parts List 6.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%20CFTO%20TV%20Parts%20List%206.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%20CFTO%20Table%20of%20Contents.jpg">1988 - BIG CFTO TV done - CFTO Table of Contents.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%20CFTO%20Table%20of%20Contents.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%20WBS%20Warranty.jpg">1988 - BIG CFTO TV done - WBS Warranty.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%20WBS%20Warranty.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table><script src="../../../_catalog/wbs_reels.js" defer></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from Project-CFTO-TV-done.md</small></div></article><script src="../../../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

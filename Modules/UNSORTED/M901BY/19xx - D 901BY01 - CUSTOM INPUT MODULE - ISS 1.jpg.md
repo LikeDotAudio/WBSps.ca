@@ -1,0 +1,173 @@
+# 19xx - D 901BY01 - CUSTOM INPUT MODULE - ISS 1.jpg
+Wiki page: [M901BY](../../../PAGES/M901BY.md)
+
+
+- **Year:** unknown (title block (read by eye))
+- **Module:** M901BY
+- **Category:** UNSORTED
+- **Module year estimate:** 1994 — family from M901A
+
+## Title block (found by software, read by eye)
+
+- **Drawing:** D 901BY01
+- **Size:** D
+- **Title:** M901BY / CUSTOM INPUT / MODULE
+- **Issue:** 1
+- **Confidence:** high
+
+- **Original file:** `WBSps.env/WBS Photos-1-001/WBSps.ca 20210319 -  (53).jpg`
+- **SHA-256:** `d38a1acacca0cde33c252d2342748cefeb3a7a1d7b09bbdef37e50d5e820acf6`
+- **Size:** 466,103 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 2 words corrected)
+
+```text
+8 93 3 3
+F8-82 aZ5UNOCSK REQ D
+OIod Da_ c'Sk To 0.180DIA REQ"D
+DATUM
+M9O1BY
+V9o I8 Y
+PUNCH 0.3B0 SQ (0.04 RAD CORNERS) Sk REAR OF PANEL 500 "REQO 90 DEG 1.462
+800
+252
+2.242
+2.452
+0.20 APpROX
+0.203 DIA
+REC D
+468
+4.296
+P1t #p2
+SRONSATION
+5.124
+0.070
+0.035
+(0.05
+0.07)
+0.125 DIA-C"Sk To 0.240,DIA REC'D 7.832
+SECTION
+692
+DETAIL (SCALE 41)
+0.125 'MDTH 4.4+0 LONG (FULL RAD SLOT)
+SEE_DETAIL NOTE R2QDTATIOISSDE
+MA TERIAL: ALUM ALLOY 0.125 THICK
+80
+12.272
+FINISH: SAND 120 GRIT AND PAINT TEXTURED   BEIGE (452C) TEXCOTE VINYL_ (EXTRA FINE TEXTURE) NOTE. REMOVE ALL BURRS AND SHARP EDGES; TOLERANCES: XX=+/-0.015 XXX-t/-0.005 SILKSCREEN TO #M9oibY
+12.412
+12.887
+15/64
+PUNCH 0.939
+0.755
+14.688
++ CH ON R
+PUNCH 1.064 0.755
+15.350
+15.950 16 '5o
+R
+ISSUEL DA TEL
+REMSION
+APP
+WBS
+WARD-BECK SYSTEMS
+DRN:
+DRG
+M9O1BY
+cUSTOM INPUT MODULE 901BYO1
+CKD;
+SCALE DISC NO: SYS0r CODE: #D1870
+ISSUE
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+8 93 3 3
+F8-82 aZ5UNOCSK REQ D
+OIod Da_ c'Sk To 0.180DIA REQ"D
+DATUM
+M9O1BY
+V9o I8 Y
+PUNCH 0.3B0 SQ (0.04 RAD CORNERS) Sk REAR OF PANEL 500 "REQO 90 DEG 1.462
+800
+252
+2.242
+2.452
+0.20 APpROX
+0.203 DIA
+REC D
+468
+4.296
+P1t #p2
+SRONSATION
+5.124
+0.070
+0.035
+(0.05
+0.07)
+0.125 DIA-C"Sk To 0.240,DIA REC'D 7.832
+SECTION
+692
+DETAIL (SCALE 41)
+0.125 'MDTH 4.4+0 LONG (FULL RAD SLOT)
+SEE_DETAIL NOTE R2QDTATIOISSDE
+MA TERIAL: ALUM ALLOY 0.125 THICK
+80
+12.272
+FINISH: SAND 120 GRIT AND PAINT TEXTURED   BEIGE (452C) TEXCOTE VINYL_ (EXTRA FINE TEXTURE) NOTE. REVOVE ALL BURRS AND SHARP EDGES; TOLERANCES: XX=+/-0.015 XXX-t/-0.005 SILKSCREEN TO #M9oibY
+12.412
+12.887
+15/64
+PUNCH 0.939
+0.755
+14.688
++ CH ON R
+PUNCH 1.064 0.755
+15.350
+15.950 16 '5o
+R
+ISSUEI DA TEL
+REMSION
+APP
+WBS
+WARD-BECK SYSTEMS
+DRN:
+DRG
+M9O1BY
+cUSTOM INPUT MODULE 901BYO1
+CKD;
+SCALE DISC NO: SYS0r CODE: #D1870
+ISSUE
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Modules/UNSORTED/M901BY/19xx - D 901BY01 - CUSTOM INPUT MODULE - ISS 1.jpg",
+ "sha256": "d38a1acacca0cde33c252d2342748cefeb3a7a1d7b09bbdef37e50d5e820acf6",
+ "kind": "module",
+ "models": [
+  "M901BY"
+ ],
+ "pages": 1,
+ "order": [
+  {
+   "page": 1,
+   "title_block": [
+    {
+     "number": "D 901BY01",
+     "title": "M901BY / CUSTOM INPUT / MODULE",
+     "issue": "1"
+    }
+   ]
+  }
+ ]
+}
+```

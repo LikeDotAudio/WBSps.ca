@@ -1,0 +1,475 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M454 — Slate Assign Module</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>M454 — Slate Assign Module</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="Category-ROUTING.html">ROUTING</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../simulator.html?m=M454">simulator &amp; front panel</a> · <a href="../_packages/M454.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="Year-1974.html">1974|7</a> — title-block date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"DATE Nov 74" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M454 - Slate Assign Module/M454 - P005 - B-454-04-001.jpg</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="Year-1974.html">1974|7</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Small%2011X17%20drawings/">DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../Modules/ROUTING/M454/index.html">Modules/ROUTING/M454</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections</h2>
+<p><em>What it is made of and what it is part of.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M454" data-n="Slate Assign Module" data-cat="ROUTING"></div><svg class="wbs-panel" data-m="M454" data-n="Slate Assign Module" data-cat="ROUTING" role="img" aria-label="M454 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M454","title":"Slate Assign Module","rto":{"code":"M454","series":null,"type":"M454 - Slate Assign Module","row_count":null,"impedance":{"out":600},"note":null,"audio":[],"bus_out":[],"bus_in":[],"power":[{"rail":"VEE-AUDIO","style":"NEW","volts":-25,"max_a":0.1,"supply":"P2-19","ground":"P2-20","link":2},{"rail":"VCC-AUDIO","style":"NEW","volts":25,"max_a":0.2,"supply":"P2-21","ground":"P2-20","link":1},{"rail":"VCC-LOGIC","style":"NEW","volts":24,"max_a":0.1,"supply":"P2-Y","ground":"P2-18","link":null}],"jumpers":[{"function":"CH ON LAMP","designation":"JMP.Z.W","from":"P2-Z","to":"P2-W"},{"function":"CH ON GND ","designation":"JMP.X.18","from":"P2-X","to":"P2-18"},{"function":"24V Jumper","designation":"JMP.Y.21","from":"P2-Y","to":"P2-21"},{"function":"CH ON GND ","designation":"JMP.20.18","from":"P2-20","to":"P2-18"},{"function":"Insert +","designation":"JMP.22.21","from":"P2-22","to":"P2-21"},{"function":"Insert -","designation":"JMP.Z.Y","from":"P2-Z","to":"P2-Y"},{"function":"Fader +","designation":"JMP.20.19","from":"P2-20","to":"P2-19"},{"function":"Fader - ","designation":"JMP.X.W","from":"P2-X","to":"P2-W"}],"logic":[]},"parts":[],"parents":[]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20454-04-001%20-%20PSSMOO%20CKO%20USD.jpg"><img loading="lazy" src="../Modules/ROUTING/M454/1974%20-%20M454%20-%20454-04-001%20-%20PSSMOO%20CKO%20USD.jpg" alt="" data-f="Modules/ROUTING/M454/1974 - M454 - 454-04-001 - PSSMOO CKO USD.jpg" data-size="320" onerror="wbsOff(this)">1974 - M454 - 454-04-001 - PSSMOO CKO USD.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20454-02-001%20-%20DRAWN%20ENE.jpg"><img loading="lazy" src="../Modules/ROUTING/M454/1974%20-%20M454%20-%20454-02-001%20-%20DRAWN%20ENE.jpg" alt="" data-f="Modules/ROUTING/M454/1974 - M454 - 454-02-001 - DRAWN ENE.jpg" data-size="320" onerror="wbsOff(this)">1974 - M454 - 454-02-001 - DRAWN ENE.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20454-04-003%20-%20SLATE%20ASS%20IGNMENT%20MODULE.jpg"><img loading="lazy" src="../Modules/ROUTING/M454/1974%20-%20M454%20-%20454-04-003%20-%20SLATE%20ASS%20IGNMENT%20MODULE.jpg" alt="" data-f="Modules/ROUTING/M454/1974 - M454 - 454-04-003 - SLATE ASS IGNMENT MODULE.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1974 - M454 - 454-04-003 - SLATE ASS IGNMENT MODULE.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20P001%20-%20Title%20Page.jpg"><img loading="lazy" src="../Modules/ROUTING/M454/1974%20-%20M454%20-%20P001%20-%20Title%20Page.jpg" alt="" data-f="Modules/ROUTING/M454/1974 - M454 - P001 - Title Page.jpg" data-size="320" onerror="wbsOff(this)">1974 - M454 - P001 - Title Page.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20P002%20-%201-1.jpg"><img loading="lazy" src="../Modules/ROUTING/M454/1974%20-%20M454%20-%20P002%20-%201-1.jpg" alt="" data-f="Modules/ROUTING/M454/1974 - M454 - P002 - 1-1.jpg" data-size="320" onerror="wbsOff(this)">1974 - M454 - P002 - 1-1.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20P003%20-%201-2.jpg"><img loading="lazy" src="../Modules/ROUTING/M454/1974%20-%20M454%20-%20P003%20-%201-2.jpg" alt="" data-f="Modules/ROUTING/M454/1974 - M454 - P003 - 1-2.jpg" data-size="320" onerror="wbsOff(this)">1974 - M454 - P003 - 1-2.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20Slate%20Module.jpg"><img loading="lazy" src="../Modules/ROUTING/M454/1974%20-%20M454%20-%20Slate%20Module.jpg" alt="" data-f="Modules/ROUTING/M454/1974 - M454 - Slate Module.jpg" data-size="320" onerror="wbsOff(this)">1974 - M454 - Slate Module.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20vint%20P1.jpg"><img loading="lazy" src="../Modules/ROUTING/M454/1974%20-%20M454%20-%20vint%20P1.jpg" alt="" data-f="Modules/ROUTING/M454/1974 - M454 - vint P1.jpg" data-size="320" onerror="wbsOff(this)">1974 - M454 - vint P1.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20vint%20P2.jpg"><img loading="lazy" src="../Modules/ROUTING/M454/1974%20-%20M454%20-%20vint%20P2.jpg" alt="" data-f="Modules/ROUTING/M454/1974 - M454 - vint P2.jpg" data-size="320" onerror="wbsOff(this)">1974 - M454 - vint P2.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20vint%20P3.jpg"><img loading="lazy" src="../Modules/ROUTING/M454/1974%20-%20M454%20-%20vint%20P3.jpg" alt="" data-f="Modules/ROUTING/M454/1974 - M454 - vint P3.jpg" data-size="320" onerror="wbsOff(this)">1974 - M454 - vint P3.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20wbsps%20-%20module%20-%20m454%20-%20slate%20module_small.jpg"><img loading="lazy" src="../Modules/ROUTING/M454/1974%20-%20M454%20-%20wbsps%20-%20module%20-%20m454%20-%20slate%20module_small.jpg" alt="" data-f="Modules/ROUTING/M454/1974 - M454 - wbsps - module - m454 - slate module_small.jpg" data-size="320" onerror="wbsOff(this)">1974 - M454 - wbsps - module - m454 - slate module_small.jpg</a><a href="../viewer.html?f=Modules/ROUTING/M454/1982%20-%20454-02-001%20-%20SLATE%20ASSIGN%20MODULE%20-%20DRN%20D.N.%20NOV-82%20-%20ISS%202.png"><img loading="lazy" src="../Modules/ROUTING/M454/1982%20-%20454-02-001%20-%20SLATE%20ASSIGN%20MODULE%20-%20DRN%20D.N.%20NOV-82%20-%20ISS%202.png" alt="" data-f="Modules/ROUTING/M454/1982 - 454-02-001 - SLATE ASSIGN MODULE - DRN D.N. NOV-82 - ISS 2.png" data-size="320" onerror="wbsOff(this)">1982 - 454-02-001 - SLATE ASSIGN MODULE - DRN D.N. NOV-82 - ISS 2.png</a><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Small%2011X17%20drawings/19xx%20-%20DOC%20-%20SLATE%20ASSIGN%20MODULE.png"><img loading="lazy" src="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Small%2011X17%20drawings/19xx%20-%20DOC%20-%20SLATE%20ASSIGN%20MODULE.png" alt="" data-f="DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/19xx - DOC - SLATE ASSIGN MODULE.png" data-size="320" onerror="wbsOff(this)">19xx - DOC - SLATE ASSIGN MODULE.png</a></div>
+<h2>Price history</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Price</th>
+<th>Listed as</th>
+<th>Effective</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-2005.html">2005|38</a></td>
+<td>used market value</td>
+<td>10.00</td>
+<td>M454 Slate Assign</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/old website/PriceGuide.htm</td>
+</tr>
+<tr>
+<td><a href="Year-2006.html">2006|39</a></td>
+<td>used market value</td>
+<td>10.00</td>
+<td>M454 Slate Assign</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/jan 2006 shell/priceguide.htm</td>
+</tr>
+</tbody>
+</table>
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-1974.html">1974|7</a></td>
+<td>title-block date</td>
+<td><code>DATE Nov 74</code></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20454-04-001%20-%20PSSMOO%20CKO%20USD.jpg">1974 - M454 - 454-04-001 - PSSMOO CKO USD.jpg</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Physical manual inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Location</th>
+<th>Status</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M454</td>
+<td></td>
+<td></td>
+<td>Recently scanned and stiched by WB</td>
+</tr>
+<tr>
+<td>M454 - Slate Assign Module</td>
+<td></td>
+<td></td>
+<td>PDF - Already scanned</td>
+</tr>
+</tbody>
+</table>
+<h2>Documents (2)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1974|7</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20Slate%20Assign%20Module%20%282%29.pdf">1974 - M454 - Slate Assign Module (2).pdf</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20Slate%20Assign%20Module%20%282%29.pdf.md">note</a></td>
+</tr>
+<tr>
+<td>1974|7</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20Slate%20Assign%20Module.pdf">1974 - M454 - Slate Assign Module.pdf</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20Slate%20Assign%20Module.pdf.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (14)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1974|7</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20454-02-001%20-%20DRAWN%20ENE.jpg">1974 - M454 - 454-02-001 - DRAWN ENE.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20454-02-001%20-%20DRAWN%20ENE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1974|7</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20454-04-001%20-%20PSSMOO%20CKO%20USD.jpg">1974 - M454 - 454-04-001 - PSSMOO CKO USD.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20454-04-001%20-%20PSSMOO%20CKO%20USD.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1974|7</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20454-04-003%20-%20SLATE%20ASS%20IGNMENT%20MODULE.jpg">1974 - M454 - 454-04-003 - SLATE ASS IGNMENT MODULE.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20454-04-003%20-%20SLATE%20ASS%20IGNMENT%20MODULE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1974|7</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20P001%20-%20Title%20Page.jpg">1974 - M454 - P001 - Title Page.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20P001%20-%20Title%20Page.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1974|7</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20P002%20-%201-1.jpg">1974 - M454 - P002 - 1-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20P002%20-%201-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1974|7</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20P003%20-%201-2.jpg">1974 - M454 - P003 - 1-2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20P003%20-%201-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1974|7</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20Slate%20Module.jpg">1974 - M454 - Slate Module.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20Slate%20Module.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1974|7</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20vint%20P1.jpg">1974 - M454 - vint P1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20vint%20P1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1974|7</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20vint%20P2.jpg">1974 - M454 - vint P2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20vint%20P2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1974|7</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20vint%20P3.jpg">1974 - M454 - vint P3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20vint%20P3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1974|7</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20wbsps%20-%20module%20-%20m454%20-%20slate%20module_small.jpg">1974 - M454 - wbsps - module - m454 - slate module_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20wbsps%20-%20module%20-%20m454%20-%20slate%20module_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1982|15</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1982%20-%20454-02-001%20-%20SLATE%20ASSIGN%20MODULE%20-%20DRN%20D.N.%20NOV-82%20-%20ISS%202.png">1982 - 454-02-001 - SLATE ASSIGN MODULE - DRN D.N. NOV-82 - ISS 2.png</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1982%20-%20454-02-001%20-%20SLATE%20ASSIGN%20MODULE%20-%20DRN%20D.N.%20NOV-82%20-%20ISS%202.png.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Small%2011X17%20drawings/19xx%20-%20DOC%20-%20SLATE%20ASSIGN%20MODULE.png">19xx - DOC - SLATE ASSIGN MODULE.png</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Small%2011X17%20drawings/19xx%20-%20DOC%20-%20SLATE%20ASSIGN%20MODULE.png.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/19xx%20-%20M454%20-%20DOC%20-%20SLATE%20ASSIGN%20MODULE.png">19xx - M454 - DOC - SLATE ASSIGN MODULE.png</a></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/19xx%20-%20M454%20-%20DOC%20-%20SLATE%20ASSIGN%20MODULE.png.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (1)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../viewer.html?f=Products/RTO/RTO-144/19xx%20-%20RTO-144%20-%20Module%20RTO-144%20Jumper%20calculator.xlsx">19xx - RTO-144 - Module RTO-144 Jumper calculator.xlsx</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>Drawings (6)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="People.html#drawing-staff">Drawn by</a></th>
+<th><a href="People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>B 454-02-001</td>
+<td>M454 / SLATE ASSIGN MODULE</td>
+<td><a href="Year-1982.html">1982|15</a></td>
+<td></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1982%20-%20454-02-001%20-%20SLATE%20ASSIGN%20MODULE%20-%20DRN%20D.N.%20NOV-82%20-%20ISS%202.png">file</a></td>
+</tr>
+<tr>
+<td>454-04-001</td>
+<td>Pssmoo Cko Usd</td>
+<td><a href="Year-2024.html">2024|57</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20454-04-001%20-%20PSSMOO%20CKO%20USD.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Slate Assign Module</td>
+<td></td>
+<td>DOV</td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/19xx%20-%20M454%20-%20DOC%20-%20SLATE%20ASSIGN%20MODULE.png">file</a></td>
+</tr>
+<tr>
+<td>454-02-001</td>
+<td>Drawn Ene</td>
+<td></td>
+<td></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20454-02-001%20-%20DRAWN%20ENE.jpg">file</a></td>
+</tr>
+<tr>
+<td>454-04-003</td>
+<td>Slate Ass Ignment Module</td>
+<td></td>
+<td>LAP</td>
+<td></td>
+<td>A</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20454-04-003%20-%20SLATE%20ASS%20IGNMENT%20MODULE.jpg">file</a></td>
+</tr>
+<tr>
+<td>454-04-061</td>
+<td>Slate Tone Ahopkcko Usoh</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M454/1974%20-%20M454%20-%20Slate%20Assign%20Module.pdf">file</a> p.5</td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M454&quot;,
+ &quot;name&quot;: &quot;Slate Assign Module&quot;,
+ &quot;category&quot;: &quot;ROUTING&quot;,
+ &quot;year&quot;: 1974,
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M454/1974 - M454 - 454-02-001 - DRAWN ENE.jpg&quot;,
+   &quot;year&quot;: 1974,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M454/1974 - M454 - 454-04-001 - PSSMOO CKO USD.jpg&quot;,
+   &quot;year&quot;: 1974,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M454/1974 - M454 - 454-04-003 - SLATE ASS IGNMENT MODULE.jpg&quot;,
+   &quot;year&quot;: 1974,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M454/1974 - M454 - P001 - Title Page.jpg&quot;,
+   &quot;year&quot;: 1974,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M454/1974 - M454 - P002 - 1-1.jpg&quot;,
+   &quot;year&quot;: 1974,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M454/1974 - M454 - P003 - 1-2.jpg&quot;,
+   &quot;year&quot;: 1974,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M454/1974 - M454 - Slate Assign Module (2).pdf&quot;,
+   &quot;year&quot;: 1974,
+   &quot;pages&quot;: 5,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M454/1974 - M454 - Slate Assign Module.pdf&quot;,
+   &quot;year&quot;: 1974,
+   &quot;pages&quot;: 5,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M454/1974 - M454 - Slate Module.jpg&quot;,
+   &quot;year&quot;: 1974,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M454/1974 - M454 - vint P1.jpg&quot;,
+   &quot;year&quot;: 1974,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M454/1974 - M454 - vint P2.jpg&quot;,
+   &quot;year&quot;: 1974,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M454/1974 - M454 - vint P3.jpg&quot;,
+   &quot;year&quot;: 1974,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M454/1974 - M454 - wbsps - module - m454 - slate module_small.jpg&quot;,
+   &quot;year&quot;: 1974,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M454/1982 - 454-02-001 - SLATE ASSIGN MODULE - DRN D.N. NOV-82 - ISS 2.png&quot;,
+   &quot;year&quot;: 1982,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/ROUTING/M454/19xx - M454 - DOC - SLATE ASSIGN MODULE.png&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../_catalog/libcontrol/libcontrol.css"><script src="../_catalog/libcontrol/react.js"></script><script src="../_catalog/libcontrol/react-dom.js"></script><script src="../_catalog/libcontrol/libcontrol.js"></script><script src="../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M454.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

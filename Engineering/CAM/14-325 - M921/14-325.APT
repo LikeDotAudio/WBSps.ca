@@ -1,0 +1,179 @@
+
+
+    Aperture Information                                          14-325.PCB
+
+                                         
+
+                         Aperture and Tool Descriptions
+    ========================================================================
+
+    Code   Shape    X    Y     Hole  Type   Comment
+    ------------------------------------------------------------------------
+    D10    Ellipse  004  004   000   Both     4 Mil Round   Draw
+    D11    Ellipse  008  008   000   Both     8 Mil Round   Draw
+    D12    Ellipse  010  010   000   Both    10 Mil Round   Draw 
+    D13    Ellipse  012  012   000   Both    12 Mil Round   Draw 
+    D14    Ellipse  014  014   000   Both    14 Mil Round   Draw 
+    D15    Ellipse  016  016   000   Both    16 Mil Round   Draw 
+    D16    Ellipse  020  020   000   Both    20 Mil Round   Draw
+    D17    Ellipse  024  024   000   Both    24 Mil Round   Draw
+    D18    Ellipse  030  030   000   Both    30 Mil Round   Draw
+    D19    Ellipse  040  040   000   Both    40 Mil Round   Draw
+    D20    Ellipse  050  050   000   Both    50 Mil Round   Draw
+    D21    Ellipse  060  060   000   Both    60 Mil Round   Draw
+    D22    Ellipse  066  066   000   Both    66 Mil Round   Draw
+    D23    Ellipse  070  070   000   Both    70 Mil Round   Draw
+    D24    Ellipse  074  074   000   Both    74 Mil Round   Draw
+    D25    Ellipse  080  080   000   Both    80 Mil Round   Draw
+    D26    Ellipse  100  100   000   Both    100 Mil Round   Draw
+    D30    Ellipse  044  044   000   Both    44 Mil Round   Flash
+    D31    Ellipse  050  050   000   Both    50 Mil Round   Flash
+    D32    Ellipse  062  062   000   Both    62 Mil Round   Flash
+    D33    Ellipse  074  074   000   Both    74 Mil Round   Flash
+    D34    Ellipse  078  078   000   Both    78 Mil Round   Flash
+    D35    Ellipse  080  080   000   Both    80 Mil Round   Flash
+    D36    Ellipse  100  100   000   Both   100 Mil Round   Flash
+    D37    Ellipse  120  120   000   Both   120 Mil Round   Flash
+    D38    Ellipse  124  124   000   Both   124 Mil Round   Flash
+    D39    Ellipse  150  150   000   Both   150 Mil Round   Flash
+    D40    Ellipse  250  250   000   Both   250 Mil Round   Flash
+    D41    Ellipse  350  350   000   Both   350 Mil Round   Flash
+    D42    Ellipse  500  500   000   Both   500 Mil Round   Flash
+    D43    Ellipse  190  190   000   Both   190 Mil Round   Flash
+    D50    Mt Hole  220  220   000   Both   220 Mil Mt Hole Flash
+    D51    Mt Hole  250  250   000   Both   250 Mil Mt Hole Flash
+    D52    Mt Hole  050  050   000   Both    50 Mil Mt Hole Flash
+    D53    Mt Hole  124  124   000   Both   124 Mil Mt Hole Flash
+    D54    Mt Hole  110  110   000   Both   110 Mil Mt Hole Flash
+    D60    Oval     050  100   000   Both   50/100 Mil Oval Flash
+    D61    Oval     100  050   000   Both   100/50 Mil Oval Flash
+    D62    Oval     140  070   000   Both   140/70 Mil Oval Flash
+    D63    Oval     070  140   000   Both   70/140 Mil Oval Flash
+    D64    Oval     126  160   000   Both   126/160 Mil Oval Flash
+    D65    Oval     050  050   000   Both   50/50 Mil Oval Flash
+    D66    Oval     070  250   000   Both   70/250 Mil Oval Flash
+    D70    Rd Rect  500  092   000   Both   500/92 Mil Rd Rect Flash
+    D71    Rd Rect  050  100   000   Both   50/100 Mil Rd Rect Flash
+
+                                         
+
+    21-Jun-96  13:41                                                 Page  1
+
+    Aperture Information                                          14-325.PCB
+
+                                         
+
+                         Aperture and Tool Descriptions
+    ========================================================================
+
+    Code   Shape    X    Y     Hole  Type   Comment
+    ------------------------------------------------------------------------
+    D72    Rd Rect  050  500   000   Both   50/500 Mil Rd Rect Flash
+    D73    Rd Rect  062  500   000   Both   62/500 Mil Rd Rect Flash
+    D74    Rd Rect  500  062   000   Both   
+    D75    Rd Rect  092  600   000   Both   92/600 Mil Rd Rect Flash
+    D76    Rd Rect  600  092   000   Both   600/92 Mil Rd Rect Flash
+    D80    Sq Rect  062  062   000   Both    62 Mil Sq Rect Flash
+    D81    Sq Rect  074  074   000   Both    74 Mil Sq Rect Flash
+    D82    Sq Rect  078  078   000   Both    78 Mil Sq Rect Flash
+    D83    Sq Rect  080  080   000   Both    80 Mil Sq Rect Flash
+    D84    Sq Rect  120  120   000   Both   120 Mil Sq Rect Flash
+    D85    Sq Rect  150  150   000   Both   150 Mil Sq Rect Flash
+    D86    Sq Rect  050  100   000   Both   50/100 Mil Sq Rect Flash
+    D87    Sq Rect  100  050   000   Both   100/50 Mil Sq Rect Flash
+    D88    Sq Rect  100  100   000   Both   100/100 Mil Sq Rect Flash
+    D89    Sq Rect  080  026   000   Both   80/26 Mil Sq Rect Flash
+    
+
+
+    Code   Hole Diameter
+    --------------------
+    T01    024
+    T02    036
+    T03    040
+    T04    050
+    T05    065
+    T06    080
+    T07    093
+    T08    110
+    T09    124
+    T10    177
+    T11    227
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                         
+
+    21-Jun-96  13:41                                                 Page  2
+
+    Aperture Information                                          14-325.PCB
+
+                                         
+
+                          Aperture and Tool Assignments
+    ========================================================================
+
+    Item                     Normal  S Mask   Plane   Thermal  Drl Sym  Tool
+    ------------------------------------------------------------------------
+    DRAW APERTURE            D10      -        -       -        -        -
+    LINE_004                 D10      -        -       -        -        -
+    LINE_008                 D11      -        -       -        -        -
+    LINE_010                 D12      -        -       -        -        -
+    LINE_012                 D13      -        -       -        -        -
+    LINE_014                 D14      -        -       -        -        -
+    LINE_016                 D15      -        -       -        -        -
+    LINE_020                 D16      -        -       -        -        -
+    LINE_024                 D17      -        -       -        -        -
+    LINE_030                 D18      -        -       -        -        -
+    LINE_040                 D19      -        -       -        -        -
+    LINE_050                 D20      -        -       -        -        -
+    P_EL_0044_0044_024_AL    D30     D30       *       *        -        -
+    P_EL_0050_0050_000_TL    D31     D31       -       -        -        -
+    P_EL_0050_0050_024_AL    D31     D31       *       *        -        -
+    P_EL_0062_0062_040_AL    D32     D32       *       *        -        -
+    P_EL_0074_0074_036_AL    D33     D33       *       *        -        -
+    P_EL_0078_0078_040_AL    D34     D34       *       *        -        -
+    P_EL_0080_0080_050_AL    D35     D35       *       *        -        -
+    P_EL_0100_0100_050_AL    D36     D36       *       *        -        -
+    P_EL_0124_0124_050_AL    D38     D38       *       *        -        -
+    P_EL_0150_0150_110_AL    D39     D39       *       *        -        -
+    P_EL_0190_0190_110_AL    D43     D43       *       *        -        -
+    P_MH_0124_0124_124_AL    D53      -        *       -        -        -
+    P_OV_0050_0100_036_AL    D60     D60       *       *        -        -
+    P_OV_0070_0250_050_AL    D66     D66       *       *        -        -
+    P_OV_0100_0050_036_AL    D61     D61       *       *        -        -
+    P_RR_0050_0500_000_BL    D72     D72       -       -        -        -
+    P_RR_0050_0500_000_TL    D72     D72       -       -        -        -
+    P_SQ_0050_0100_036_AL    D86     D86       *       *        -        -
+    P_SQ_0062_0062_040_AL    D80     D80       *       *        -        -
+    P_SQ_0074_0074_036_AL    D81     D81       *       *        -        -
+    P_SQ_0078_0078_040_AL    D82     D82       *       *        -        -
+    P_SQ_0080_0026_000_TL    D89     D89       -       -        -        -
+    P_SQ_0080_0080_050_AL    D83     D83       *       *        -        -
+    P_SQ_0100_0050_036_AL    D87     D87       *       *        -        -
+    V_CR_050_024             D31     D31       *       *        -        -
+    HOLE_024                  -       -        -       -        *       T01
+    HOLE_036                  -       -        -       -        *       T02
+    HOLE_040                  -       -        -       -        *       T03
+    HOLE_050                  -       -        -       -        *       T04
+    HOLE_110                  -       -        -       -        *       T08
+    HOLE_124                  -       -        -       -       DRAW     T09
+    
+
+    - : Not applicable.                   * : Aperture/tool is not assigned.
+
+                                         
+
+    21-Jun-96  13:41                                                 Page  3

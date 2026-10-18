@@ -1,0 +1,1153 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M450 — Program Summing Amp</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>M450 — Program Summing Amp</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="Category-AMPLIFIERS.html">AMPLIFIERS</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../simulator.html?m=M450">simulator &amp; front panel</a> · <a href="../_packages/M450.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="Year-1975.html">1975|8</a> — title-block date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"DATE APR 75" in WBS Photos-1-001/Scan_20210321 (2).png</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="Year-1975.html">1975|8</a>, <a href="Year-1976.html">1976|9</a>, <a href="Year-1977.html">1977|10</a></td>
+</tr>
+<tr>
+<td>Used in jobs</td>
+<td><a href="Job-76045.html">76045</a> (1976|9), <a href="Job-790236.html">790236</a> (1979|12)</td>
+</tr>
+<tr>
+<td>Variants</td>
+<td><a href="M450A.html">M450A</a>, <a href="M450B.html">M450B</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210315%20-%20Large%20dwg%20-%20Needs%20rename%20/">DOCUMENTS/RECENT SCANS/WBSps.ca 20210315 - Large dwg - Needs rename </a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../Modules/AMPLIFIERS/M450/index.html">Modules/AMPLIFIERS/M450</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections</h2>
+<p><em>What it is made of and what it is part of.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M450" data-n="Program Summing Amp" data-cat="AMPLIFIERS"></div><svg class="wbs-panel" data-m="M450" data-n="Program Summing Amp" data-cat="AMPLIFIERS" role="img" aria-label="M450 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M450","title":"Program Summing Amp","rto":{"code":"M450","series":null,"type":"M450 - Program Summing Amp","row_count":15,"impedance":{"out":600},"note":null,"audio":[],"bus_out":[],"bus_in":[],"power":[{"rail":"VEE-AUDIO","style":"NEW","volts":-25,"max_a":0.1,"supply":"P2-19","ground":"P2-20","link":2},{"rail":"VCC-AUDIO","style":"NEW","volts":25,"max_a":0.2,"supply":"P2-21","ground":"P2-20","link":1},{"rail":"VCC-LOGIC","style":"NEW","volts":24,"max_a":0.1,"supply":"P2-Y","ground":"P2-18","link":null}],"jumpers":[{"function":"CH ON LAMP","designation":"JMP.Z.W","from":"P2-Z","to":"P2-W"},{"function":"CH ON GND ","designation":"JMP.X.18","from":"P2-X","to":"P2-18"},{"function":"24V Jumper","designation":"JMP.Y.21","from":"P2-Y","to":"P2-21"},{"function":"CH ON GND ","designation":"JMP.3","from":"P2-20","to":"P2-18"},{"function":"Insert +","designation":"JMP.22.21","from":"P2-22","to":"P2-21"},{"function":"Insert -","designation":"JMP.Z.Y","from":"P2-Z","to":"P2-Y"},{"function":"Fader +","designation":"JMP.20.19","from":"P2-20","to":"P2-19"},{"function":"Fader - ","designation":"JMP.X.W","from":"P2-X","to":"P2-W"}],"logic":[]},"parts":[{"item":"4-120","title":"","label":"4-120","href":"Register-Sub-assemblies-n-nnn.html#4-120","note":"Sub-assemblies (n-nnn)"}],"parents":[{"label":"76045","href":"Job-76045.html","note":"CFTO"},{"label":"790236","href":"Job-790236.html","note":"Maryland L3242A"},{"label":"M450A","href":"M450A.html","note":"on 3 drawings with it: Program Amplifer"},{"label":"M450B","href":"M450B.html","note":"on 1 drawing with it: Program - Summing Amplif"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20450-03-006%20-%20COVER%20PLATE%20-%20DRN%20DM%20-%20ISS%206.png"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1975%20-%20450-03-006%20-%20COVER%20PLATE%20-%20DRN%20DM%20-%20ISS%206.png" alt="" data-f="Modules/AMPLIFIERS/M450/1975 - 450-03-006 - COVER PLATE - DRN DM - ISS 6.png" data-size="320" onerror="wbsOff(this)">1975 - 450-03-006 - COVER PLATE - DRN DM - ISS 6.png</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1976%20-%20450-03-004%20-%20M450A%20COVER%20PLATE%20-%20DRN%20MING%20-%20ISS%205.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1976%20-%20450-03-004%20-%20M450A%20COVER%20PLATE%20-%20DRN%20MING%20-%20ISS%205.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1976 - 450-03-004 - M450A COVER PLATE - DRN MING - ISS 5.jpg" data-size="320" onerror="wbsOff(this)">1976 - 450-03-004 - M450A COVER PLATE - DRN MING - ISS 5.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1977%20-%20M450%20-%20P03%20-%20TOC.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1977%20-%20M450%20-%20P03%20-%20TOC.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1977 - M450 - P03 - TOC.jpg" data-size="320" onerror="wbsOff(this)">1977 - M450 - P03 - TOC.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1977%20-%20M450%20-%20vint%20P11.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1977%20-%20M450%20-%20vint%20P11.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1977 - M450 - vint P11.jpg" data-size="320" onerror="wbsOff(this)">1977 - M450 - vint P11.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1977%20-%20M450%20-%20vint%20P2.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1977%20-%20M450%20-%20vint%20P2.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1977 - M450 - vint P2.jpg" data-size="320" onerror="wbsOff(this)">1977 - M450 - vint P2.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/M450%20-%20P03%20-%20TOC%281%29.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/M450%20-%20P03%20-%20TOC%281%29.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/M450 - P03 - TOC(1).jpg" data-size="320" onerror="wbsOff(this)">M450 - P03 - TOC(1).jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/M450%20-%20P03%20-%20TOC.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/M450%20-%20P03%20-%20TOC.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/M450 - P03 - TOC.jpg" data-size="320" onerror="wbsOff(this)">M450 - P03 - TOC.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1974%20-%20450-02-001%20-%20PROGRAM%20SUMMING%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%207.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1974%20-%20450-02-001%20-%20PROGRAM%20SUMMING%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%207.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1974 - 450-02-001 - PROGRAM SUMMING AMPLIFIER SCHEMATIC - DRN DM - ISS 7.jpg" data-size="320" onerror="wbsOff(this)">1974 - 450-02-001 - PROGRAM SUMMING AMPLIFIER SCHEMATIC - DRN DM - ISS 7.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20450-01-001%20-%20M450A%20PROGRAM%20SUMMING%20AMPLIFIER%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20AAS%20-%20ISS%201.png"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1975%20-%20450-01-001%20-%20M450A%20PROGRAM%20SUMMING%20AMPLIFIER%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20AAS%20-%20ISS%201.png" alt="" data-f="Modules/AMPLIFIERS/M450/1975 - 450-01-001 - M450A PROGRAM SUMMING AMPLIFIER FUNCTIONAL DIAGRAM - DRN AAS - ISS 1.png" data-size="320" onerror="wbsOff(this)">1975 - 450-01-001 - M450A PROGRAM SUMMING AMPLIFIER FUNCTIONAL DIAGRAM - DRN AAS - ISS 1.png</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%204-120-06-001.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%204-120-06-001.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1975 - M450 - 4-120-06-001.jpg" data-size="320" onerror="wbsOff(this)">1975 - M450 - 4-120-06-001.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20450-02-001%20-%20PROGRAM%20SUMMIK%20AMOLIEIER%20GCALE%20SCHEMATIC.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20450-02-001%20-%20PROGRAM%20SUMMIK%20AMOLIEIER%20GCALE%20SCHEMATIC.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1975 - M450 - 450-02-001 - PROGRAM SUMMIK AMOLIEIER GCALE SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)">1975 - M450 - 450-02-001 - PROGRAM SUMMIK AMOLIEIER GCALE SCHEMATIC.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20450-02-001.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20450-02-001.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1975 - M450 - 450-02-001.jpg" data-size="320" onerror="wbsOff(this)">1975 - M450 - 450-02-001.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P01%20-%20Cover.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P01%20-%20Cover.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1975 - M450 - P01 - Cover.jpg" data-size="320" onerror="wbsOff(this)">1975 - M450 - P01 - Cover.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P02.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P02.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1975 - M450 - P02.jpg" data-size="320" onerror="wbsOff(this)">1975 - M450 - P02.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P04%20-%20Warranty.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P04%20-%20Warranty.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1975 - M450 - P04 - Warranty.jpg" data-size="320" onerror="wbsOff(this)">1975 - M450 - P04 - Warranty.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P05%20-%201-1.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P05%20-%201-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1975 - M450 - P05 - 1-1.jpg" data-size="320" onerror="wbsOff(this)">1975 - M450 - P05 - 1-1.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P06%20-%202-1.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P06%20-%202-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1975 - M450 - P06 - 2-1.jpg" data-size="320" onerror="wbsOff(this)">1975 - M450 - P06 - 2-1.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P07%20-%203-1.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P07%20-%203-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1975 - M450 - P07 - 3-1.jpg" data-size="320" onerror="wbsOff(this)">1975 - M450 - P07 - 3-1.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P07%20-%203-2.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P07%20-%203-2.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1975 - M450 - P07 - 3-2.jpg" data-size="320" onerror="wbsOff(this)">1975 - M450 - P07 - 3-2.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P08%20-%204-1.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P08%20-%204-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1975 - M450 - P08 - 4-1.jpg" data-size="320" onerror="wbsOff(this)">1975 - M450 - P08 - 4-1.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P09%20-%205-1.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P09%20-%205-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1975 - M450 - P09 - 5-1.jpg" data-size="320" onerror="wbsOff(this)">1975 - M450 - P09 - 5-1.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P10%20-%205-2.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P10%20-%205-2.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1975 - M450 - P10 - 5-2.jpg" data-size="320" onerror="wbsOff(this)">1975 - M450 - P10 - 5-2.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P11%20-%205-3.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P11%20-%205-3.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1975 - M450 - P11 - 5-3.jpg" data-size="320" onerror="wbsOff(this)">1975 - M450 - P11 - 5-3.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P12%20-%205-4.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P12%20-%205-4.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1975 - M450 - P12 - 5-4.jpg" data-size="320" onerror="wbsOff(this)">1975 - M450 - P12 - 5-4.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P13%20-%20Schematic.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P13%20-%20Schematic.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1975 - M450 - P13 - Schematic.jpg" data-size="320" onerror="wbsOff(this)">1975 - M450 - P13 - Schematic.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P14%20-%20Component%20Layout.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P14%20-%20Component%20Layout.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1975 - M450 - P14 - Component Layout.jpg" data-size="320" onerror="wbsOff(this)">1975 - M450 - P14 - Component Layout.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P15%20-%20Pin%20Out.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P15%20-%20Pin%20Out.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1975 - M450 - P15 - Pin Out.jpg" data-size="320" onerror="wbsOff(this)">1975 - M450 - P15 - Pin Out.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20file.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20file.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1975 - M450 - file.jpg" data-size="320" onerror="wbsOff(this)">1975 - M450 - file.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P1.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P1.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1975 - M450 - vint P1.jpg" data-size="320" onerror="wbsOff(this)">1975 - M450 - vint P1.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P10.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P10.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1975 - M450 - vint P10.jpg" data-size="320" onerror="wbsOff(this)">1975 - M450 - vint P10.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P12.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P12.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1975 - M450 - vint P12.jpg" data-size="320" onerror="wbsOff(this)">1975 - M450 - vint P12.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P3.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P3.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1975 - M450 - vint P3.jpg" data-size="320" onerror="wbsOff(this)">1975 - M450 - vint P3.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P4.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P4.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1975 - M450 - vint P4.jpg" data-size="320" onerror="wbsOff(this)">1975 - M450 - vint P4.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P5.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P5.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1975 - M450 - vint P5.jpg" data-size="320" onerror="wbsOff(this)">1975 - M450 - vint P5.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P6.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P6.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1975 - M450 - vint P6.jpg" data-size="320" onerror="wbsOff(this)">1975 - M450 - vint P6.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P7.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P7.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1975 - M450 - vint P7.jpg" data-size="320" onerror="wbsOff(this)">1975 - M450 - vint P7.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P8.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P8.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1975 - M450 - vint P8.jpg" data-size="320" onerror="wbsOff(this)">1975 - M450 - vint P8.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P9.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P9.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1975 - M450 - vint P9.jpg" data-size="320" onerror="wbsOff(this)">1975 - M450 - vint P9.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1976%20-%20450-04-001%20-%20AND%20M450A%20PROGRAM%20SUMMING%20AMPLIFIER%20CONNECTOR%20LAYOUT%20-%20DRN%20GEB%20-%20ISS%202.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1976%20-%20450-04-001%20-%20AND%20M450A%20PROGRAM%20SUMMING%20AMPLIFIER%20CONNECTOR%20LAYOUT%20-%20DRN%20GEB%20-%20ISS%202.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1976 - 450-04-001 - AND M450A PROGRAM SUMMING AMPLIFIER CONNECTOR LAYOUT - DRN GEB - ISS 2.jpg" data-size="320" onerror="wbsOff(this)">1976 - 450-04-001 - AND M450A PROGRAM SUMMING AMPLIFIER CONNECTOR LAYOUT - DRN GEB - ISS 2.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1978%20-%20450-02-003%20-%20M450B%20PROGRAM%20SUMMING%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%203.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/1978%20-%20450-02-003%20-%20M450B%20PROGRAM%20SUMMING%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%203.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/1978 - 450-02-003 - M450B PROGRAM SUMMING AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 3.jpg" data-size="320" onerror="wbsOff(this)">1978 - 450-02-003 - M450B PROGRAM SUMMING AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 3.jpg</a><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210315%20-%20Large%20dwg%20-%20Needs%20rename%20/19xx%20-%20DOC%20-%2001450-02-001%20-%20USE%20THESE%20COHPONENTS%20ONLY%20WHEN%20SPECIFIED.jpg"><img loading="lazy" src="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210315%20-%20Large%20dwg%20-%20Needs%20rename%20/19xx%20-%20DOC%20-%2001450-02-001%20-%20USE%20THESE%20COHPONENTS%20ONLY%20WHEN%20SPECIFIED.jpg" alt="" data-f="DOCUMENTS/RECENT SCANS/WBSps.ca 20210315 - Large dwg - Needs rename /19xx - DOC - 01450-02-001 - USE THESE COHPONENTS ONLY WHEN SPECIFIED.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 01450-02-001 - USE THESE COHPONENTS ONLY WHEN SPECIFIED.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/M450%20-%20P15%20-%20Pin%20Out.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450/M450%20-%20P15%20-%20Pin%20Out.jpg" alt="" data-f="Modules/AMPLIFIERS/M450/M450 - P15 - Pin Out.jpg" data-size="320" onerror="wbsOff(this)">M450 - P15 - Pin Out.jpg</a><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20790236-02-006%20-%20EFFECTS%20SVITCHER%20OUTPUTS%20IODB.jpg"><img loading="lazy" src="../Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20790236-02-006%20-%20EFFECTS%20SVITCHER%20OUTPUTS%20IODB.jpg" alt="" data-f="Consoles/1970-1979/790236 - Maryland L3242A/1979 - 790236 - 790236-02-006 - EFFECTS SVITCHER OUTPUTS IODB.jpg" data-size="320" onerror="wbsOff(this)">1979 - 790236 - 790236-02-006 - EFFECTS SVITCHER OUTPUTS IODB.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450A/1973%20-%20M450A%20-%20P004%20-%202-1.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450A/1973%20-%20M450A%20-%20P004%20-%202-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M450A/1973 - M450A - P004 - 2-1.jpg" data-size="320" onerror="wbsOff(this)">1973 - M450A - P004 - 2-1.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P06%20-%202-1.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P06%20-%202-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M450B/1979 - M450B - P06 - 2-1.jpg" data-size="320" onerror="wbsOff(this)">1979 - M450B - P06 - 2-1.jpg</a><a href="../viewer.html?f=PHOTOS/Drawings/2012%20-%20Wilma.png"><img loading="lazy" src="../PHOTOS/Drawings/2012%20-%20Wilma.png" alt="" data-f="PHOTOS/Drawings/2012 - Wilma.png" data-size="320" onerror="wbsOff(this)">2012 - Wilma.png</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450A/1973%20-%20M450A%20-%20450-02-002%20-%20IFIO%20NENTS%20MARKED%20SPECIFIED%20MPONENT%20ASSEMBLY%20FOR%20SCHEMATIC.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450A/1973%20-%20M450A%20-%20450-02-002%20-%20IFIO%20NENTS%20MARKED%20SPECIFIED%20MPONENT%20ASSEMBLY%20FOR%20SCHEMATIC.jpg" alt="" data-f="Modules/AMPLIFIERS/M450A/1973 - M450A - 450-02-002 - IFIO NENTS MARKED SPECIFIED MPONENT ASSEMBLY FOR SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)">1973 - M450A - 450-02-002 - IFIO NENTS MARKED SPECIFIED MPONENT ASSEMBLY FOR SCHEMATIC.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450A/1973%20-%20M450A%20-%20450-02-002%20-%20MILE%20GCNE%20SCHEMATIC%20YEEZK.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450A/1973%20-%20M450A%20-%20450-02-002%20-%20MILE%20GCNE%20SCHEMATIC%20YEEZK.jpg" alt="" data-f="Modules/AMPLIFIERS/M450A/1973 - M450A - 450-02-002 - MILE GCNE SCHEMATIC YEEZK.jpg" data-size="320" onerror="wbsOff(this)">1973 - M450A - 450-02-002 - MILE GCNE SCHEMATIC YEEZK.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20450-02-003%20-%20PROGRAMISUMMING%20AMPLIFIER.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20450-02-003%20-%20PROGRAMISUMMING%20AMPLIFIER.jpg" alt="" data-f="Modules/AMPLIFIERS/M450B/1979 - M450B - 450-02-003 - PROGRAMISUMMING AMPLIFIER.jpg" data-size="320" onerror="wbsOff(this)">1979 - M450B - 450-02-003 - PROGRAMISUMMING AMPLIFIER.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450A/1973%20-%20M450A%20-%20450-04-001%20-%20CALE%20CONNECTOR%20LAYOUT.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450A/1973%20-%20M450A%20-%20450-04-001%20-%20CALE%20CONNECTOR%20LAYOUT.jpg" alt="" data-f="Modules/AMPLIFIERS/M450A/1973 - M450A - 450-04-001 - CALE CONNECTOR LAYOUT.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1973 - M450A - 450-04-001 - CALE CONNECTOR LAYOUT.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20450-06-003%20-%20MASOB%20ENG.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20450-06-003%20-%20MASOB%20ENG.jpg" alt="" data-f="Modules/AMPLIFIERS/M450B/1979 - M450B - 450-06-003 - MASOB ENG.jpg" data-size="320" onerror="wbsOff(this)">1979 - M450B - 450-06-003 - MASOB ENG.jpg</a></div>
+
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>title-block date</td>
+<td><code>DATE APR 75</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20450-03-006%20-%20COVER%20PLATE%20-%20DRN%20DM%20-%20ISS%206.png">1975 - 450-03-006 - COVER PLATE - DRN DM - ISS 6.png</a></td>
+</tr>
+<tr>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td>title-block date</td>
+<td><code>DATE 2 MAR . 76</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1976%20-%20450-03-004%20-%20M450A%20COVER%20PLATE%20-%20DRN%20MING%20-%20ISS%205.jpg">1976 - 450-03-004 - M450A COVER PLATE - DRN MING - ISS 5.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td>title-block date</td>
+<td><code>ISSUE42 MAY 1977</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1977%20-%20M450%20-%20P03%20-%20TOC.jpg">1977 - M450 - P03 - TOC.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td>month &amp; year</td>
+<td><code>APRIL 25 , 1977</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1977%20-%20M450%20-%20vint%20P11.jpg">1977 - M450 - vint P11.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td>month &amp; year</td>
+<td><code>JAN 1977</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1977%20-%20M450%20-%20vint%20P2.jpg">1977 - M450 - vint P2.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td>title-block date</td>
+<td><code>ISSUE42 MAY 1977</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/M450%20-%20P03%20-%20TOC%281%29.jpg">M450 - P03 - TOC(1).jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td>month &amp; year</td>
+<td><code>MAY 1977</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/M450%20-%20P03%20-%20TOC.jpg">M450 - P03 - TOC.jpg</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Physical manual inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Location</th>
+<th>Status</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M450</td>
+<td></td>
+<td></td>
+<td>Recently scanned and stiched by WB</td>
+</tr>
+<tr>
+<td>M450 - Program Summing Amp</td>
+<td></td>
+<td></td>
+<td>PDF - Already scanned</td>
+</tr>
+</tbody>
+</table>
+<h2>Documents (2)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20Program%20Summing%20Amp%20%282%29.pdf">1975 - M450 - Program Summing Amp (2).pdf</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20Program%20Summing%20Amp%20%282%29.pdf.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20Program%20Summing%20Amp.pdf">1975 - M450 - Program Summing Amp.pdf</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20Program%20Summing%20Amp.pdf.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (43)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1974|7</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1974%20-%20450-02-001%20-%20PROGRAM%20SUMMING%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%207.jpg">1974 - 450-02-001 - PROGRAM SUMMING AMPLIFIER SCHEMATIC - DRN DM - ISS 7.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1974%20-%20450-02-001%20-%20PROGRAM%20SUMMING%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%207.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20450-01-001%20-%20M450A%20PROGRAM%20SUMMING%20AMPLIFIER%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20AAS%20-%20ISS%201.png">1975 - 450-01-001 - M450A PROGRAM SUMMING AMPLIFIER FUNCTIONAL DIAGRAM - DRN AAS - ISS 1.png</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20450-01-001%20-%20M450A%20PROGRAM%20SUMMING%20AMPLIFIER%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20AAS%20-%20ISS%201.png.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20450-03-006%20-%20COVER%20PLATE%20-%20DRN%20DM%20-%20ISS%206.png">1975 - 450-03-006 - COVER PLATE - DRN DM - ISS 6.png</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20450-03-006%20-%20COVER%20PLATE%20-%20DRN%20DM%20-%20ISS%206.png.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%204-120-06-001.jpg">1975 - M450 - 4-120-06-001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%204-120-06-001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20450-02-001%20-%20PROGRAM%20SUMMIK%20AMOLIEIER%20GCALE%20SCHEMATIC.jpg">1975 - M450 - 450-02-001 - PROGRAM SUMMIK AMOLIEIER GCALE SCHEMATIC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20450-02-001%20-%20PROGRAM%20SUMMIK%20AMOLIEIER%20GCALE%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20450-02-001.jpg">1975 - M450 - 450-02-001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20450-02-001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P01%20-%20Cover.jpg">1975 - M450 - P01 - Cover.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P01%20-%20Cover.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P02.jpg">1975 - M450 - P02.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P02.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P04%20-%20Warranty.jpg">1975 - M450 - P04 - Warranty.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P04%20-%20Warranty.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P05%20-%201-1.jpg">1975 - M450 - P05 - 1-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P05%20-%201-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P06%20-%202-1.jpg">1975 - M450 - P06 - 2-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P06%20-%202-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P07%20-%203-1.jpg">1975 - M450 - P07 - 3-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P07%20-%203-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P07%20-%203-2.jpg">1975 - M450 - P07 - 3-2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P07%20-%203-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P08%20-%204-1.jpg">1975 - M450 - P08 - 4-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P08%20-%204-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P09%20-%205-1.jpg">1975 - M450 - P09 - 5-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P09%20-%205-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P10%20-%205-2.jpg">1975 - M450 - P10 - 5-2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P10%20-%205-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P11%20-%205-3.jpg">1975 - M450 - P11 - 5-3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P11%20-%205-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P12%20-%205-4.jpg">1975 - M450 - P12 - 5-4.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P12%20-%205-4.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P13%20-%20Schematic.jpg">1975 - M450 - P13 - Schematic.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P13%20-%20Schematic.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P14%20-%20Component%20Layout.jpg">1975 - M450 - P14 - Component Layout.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P14%20-%20Component%20Layout.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P15%20-%20Pin%20Out.jpg">1975 - M450 - P15 - Pin Out.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P15%20-%20Pin%20Out.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20file.jpg">1975 - M450 - file.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20file.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P1.jpg">1975 - M450 - vint P1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P10.jpg">1975 - M450 - vint P10.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P10.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P12.jpg">1975 - M450 - vint P12.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P12.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P3.jpg">1975 - M450 - vint P3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P4.jpg">1975 - M450 - vint P4.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P4.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P5.jpg">1975 - M450 - vint P5.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P5.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P6.jpg">1975 - M450 - vint P6.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P6.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P7.jpg">1975 - M450 - vint P7.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P7.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P8.jpg">1975 - M450 - vint P8.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P8.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P9.jpg">1975 - M450 - vint P9.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P9.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1976%20-%20450-03-004%20-%20M450A%20COVER%20PLATE%20-%20DRN%20MING%20-%20ISS%205.jpg">1976 - 450-03-004 - M450A COVER PLATE - DRN MING - ISS 5.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1976%20-%20450-03-004%20-%20M450A%20COVER%20PLATE%20-%20DRN%20MING%20-%20ISS%205.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1976|9</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1976%20-%20450-04-001%20-%20AND%20M450A%20PROGRAM%20SUMMING%20AMPLIFIER%20CONNECTOR%20LAYOUT%20-%20DRN%20GEB%20-%20ISS%202.jpg">1976 - 450-04-001 - AND M450A PROGRAM SUMMING AMPLIFIER CONNECTOR LAYOUT - DRN GEB - ISS 2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1976%20-%20450-04-001%20-%20AND%20M450A%20PROGRAM%20SUMMING%20AMPLIFIER%20CONNECTOR%20LAYOUT%20-%20DRN%20GEB%20-%20ISS%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1977%20-%20M450%20-%20P03%20-%20TOC.jpg">1977 - M450 - P03 - TOC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1977%20-%20M450%20-%20P03%20-%20TOC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1977%20-%20M450%20-%20vint%20P11.jpg">1977 - M450 - vint P11.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1977%20-%20M450%20-%20vint%20P11.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1977|10</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1977%20-%20M450%20-%20vint%20P2.jpg">1977 - M450 - vint P2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1977%20-%20M450%20-%20vint%20P2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1978|11</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1978%20-%20450-02-003%20-%20M450B%20PROGRAM%20SUMMING%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%203.jpg">1978 - 450-02-003 - M450B PROGRAM SUMMING AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1978%20-%20450-02-003%20-%20M450B%20PROGRAM%20SUMMING%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%203.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210315%20-%20Large%20dwg%20-%20Needs%20rename%20/19xx%20-%20DOC%20-%2001450-02-001%20-%20USE%20THESE%20COHPONENTS%20ONLY%20WHEN%20SPECIFIED.jpg">19xx - DOC - 01450-02-001 - USE THESE COHPONENTS ONLY WHEN SPECIFIED.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210315%20-%20Large%20dwg%20-%20Needs%20rename%20/19xx%20-%20DOC%20-%2001450-02-001%20-%20USE%20THESE%20COHPONENTS%20ONLY%20WHEN%20SPECIFIED.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/19xx%20-%20M450%20-%20DOC%20-%2001450-02-001%20-%20USE%20THESE%20COHPONENTS%20ONLY%20WHEN%20SPECIFIED.jpg">19xx - M450 - DOC - 01450-02-001 - USE THESE COHPONENTS ONLY WHEN SPECIFIED.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/19xx%20-%20M450%20-%20DOC%20-%2001450-02-001%20-%20USE%20THESE%20COHPONENTS%20ONLY%20WHEN%20SPECIFIED.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/M450%20-%20P03%20-%20TOC%281%29.jpg">M450 - P03 - TOC(1).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/M450%20-%20P03%20-%20TOC%281%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/M450%20-%20P03%20-%20TOC.jpg">M450 - P03 - TOC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/M450%20-%20P03%20-%20TOC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/M450%20-%20P15%20-%20Pin%20Out.jpg">M450 - P15 - Pin Out.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/M450%20-%20P15%20-%20Pin%20Out.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Sub-assemblies &amp; parts used (1)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What</th>
+<th>Family</th>
+<th>Year</th>
+<th>How we know</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Register-Sub-assemblies-n-nnn.html#4-120">4-120</a></td>
+<td></td>
+<td>Sub-assemblies (n-nnn)</td>
+<td></td>
+<td>drawing filed with it</td>
+</tr>
+</tbody>
+</table>
+<h2>Parts list — board M450 (7 parts)</h2>
+<p><em>From <a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P9.jpg">1975 - M450 - vint P9.jpg</a>, page 1 (scanned); also in <code>timelines/data/bom.csv</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>Part</th>
+<th>Value</th>
+<th>Manufacturer</th>
+<th>Mfr part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M450</td>
+<td>PROGRAM/ SUMM NG AMPLIFIER</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>CR6</td>
+<td>Diode Fairchild</td>
+<td></td>
+<td></td>
+<td>1N4 148</td>
+</tr>
+<tr>
+<td>Q10</td>
+<td>Texas Inst.</td>
+<td></td>
+<td></td>
+<td>TIP3OB</td>
+</tr>
+<tr>
+<td>R22</td>
+<td>Resistor #W 57 Philips</td>
+<td>7K5</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R47</td>
+<td>Resistor 5% 50 Dale</td>
+<td>3.75W</td>
+<td></td>
+<td>CW2- B</td>
+</tr>
+<tr>
+<td>R5I</td>
+<td>Resistor, Factory Se lected</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R52</td>
+<td>#w 5% IK8 Philips</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Consoles &amp; jobs it is connected to (2)</h2>
+<p><em>Their own drawings name this module.</em></p>
+<table>
+<thead>
+<tr>
+<th>Job</th>
+<th>Year</th>
+<th>Drawing</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Job-76045.html">76045</a></td>
+<td>1976|9</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1976%20-%2076045%20-%2001-001.pdf">1976 - 76045 - 01-001.pdf</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="Job-790236.html">790236</a></td>
+<td>1979|12</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20790236-02-006%20-%20EFFECTS%20SVITCHER%20OUTPUTS%20IODB.jpg">1979 - 790236 - 790236-02-006 - EFFECTS SVITCHER OUTPUTS IODB.jpg</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (6)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../viewer.html?f=Products/RTO/RTO-144/19xx%20-%20RTO-144%20-%20Module%20RTO-144%20Jumper%20calculator.xlsx">19xx - RTO-144 - Module RTO-144 Jumper calculator.xlsx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450A/1973%20-%20M450A%20-%20P004%20-%202-1.jpg">1973 - M450A - P004 - 2-1.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450A/1977%20-%20M450A%20-%20Program%20Amplifer.pdf">1977 - M450A - Program Amplifer.pdf</a></td>
+<td>2</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450A/1977%20-%20M450A%20-%20Program%20Amplifer.pdf">1977 - M450A - Program Amplifer.pdf</a></td>
+<td>4</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20P06%20-%202-1.jpg">1979 - M450B - P06 - 2-1.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/2012%20-%20Wilma.png">2012 - Wilma.png</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>General description (2)</h3>
+<details><summary>General Description — 285 words · 1975 - M450 - vint P4.jpg, page 1</summary><p>M450 PROGRAM/ SUMMING AMPLIFIER The M450 is dua] purpose, high performance audio amp] ifier desi gned to function either as program amp]ifier or summ ng ampl ifier. It offers optimum flexibility combined with maximum utilization of avai lable space. The unit consists of in printed heat sink, R ufand _ circuit card equipped with integral le, and shield cover. The design uses high rel iabilitY, state-of-the-art components to achieve the qua ty desirable in professiona] audio systems.</p><p>The unique active ly ba lanced input and output circuitry Permits the design of totally balanced systems without the use of transformers and the attendant distortion introduced at high output leve I s by such components. The Iow impedance presented at the amp ] i fier output terminals Permits the use of resistive splitt ing networks wi th max imum isolation between ou tput Tines_ The output capability of the amp i fier extends to watt into 600 ohm Ioad.</p><p>When used as amp] i fier, the gain of the M45o may be from Zpregrao adjusted to 40 dB by use of an externa] trim potentiometer or resistor. When used as summ ing amp Tifier, the M45O will combine up to 60 input sources into a common output_ Interaction be tween inputs i s practically non-existent due to the extremely high isolation be tween inputs.</p><p>In the summing mode, the gain of the M450 is uni ty: As used in Ward-Beck Systems in this mode, s igna] headroom of 40 dB is achieved. The M450 Program/ Summing Amp]i fier is designed primarily for use within WBS audio console systems but it will operate efficiently in any ba lanced system requiring the application of pProgram or summing amplifier.</p><p>2-1</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P4.jpg">1975 - M450 - vint P4.jpg</a>, p. 1</li>
+</ul>
+<details><summary>General Description — 291 words · 1975 - M450 - P06 - 2-1.jpg, page 1</summary><p>M450. PROGRAMLSUMMING_AMPLIFIER The M450 dua 1 purpose; high performance aUdi0 amplifier des gned function either a $ program amp ifier or umm ing amp fier Tt offers optimum flexibility cumbined with maximum utilizalion of ava iTable space The unit consists 0 F ug-in printed circuit card sinp] equipped with integra heat handTe and shield cover The des gn uses high reliability state-of-the-art components to achieve the qua 1 i ty des irab ] e profess ional audio systems The unique actively ba Tanced iput and output circuitry permits the design 0 f totally balanced systems withoul the uS€ .0f trans - formers and the attendant distortion ntroduced at high output Tevels by such components The Tow impedance presented at tnc amplifier 0u tput Lermina 1 $ permits the use 0 + resistive spli tting networks with Ma X1MUM isolation between outpul ies The output capability 0 f the amnp] ifier extends to 600 ohm Toad watt ito When used a $ program dmp ]ifier, the gain 0 f the M45O may be adjusted from 24 t0 40 dB by US e 0 f an externd / trim potentio- meter or resistor When used as&#x27; umming amplifier, the M450&#x27; wil1 combine up to .</p><p>60 inpul sources into common output Tnteraction between inputs ca ] ly non-existent due to lhe Betcee: extremely high is0lation tween inputs In Lhe umming mode the gain 0 f the M450 i5 uMTly A5 used in Ward-Beck Systems Tn this mode gna1 headroom 0 f 40 dB i5 achieved . The M450 Program/ Summing Amplifier i$ des gned pr imarily for use wilhin WBS: audio conso ]e syslems but WT operate efficiently in any balanced system requiring the application 0 f program or umm ipg amplifier 2</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P06%20-%202-1.jpg">1975 - M450 - P06 - 2-1.jpg</a>, p. 1</li>
+</ul>
+<h3>Specifications (1)</h3>
+<details><summary>Technical Data — 226 words · 1975 - M450 - P05 - 1-1.jpg, page 1</summary><p>M450_PROGRAMLSUMMING AMPLTEER Used a$ PROGRAM_AMPLITIER Used 45 SUMMING_AMPLIFER Ga in : 24 to 40 dB _ Unity with externa ] pair of T5k 0hm resislors Noise: (20 Hz to 20 kllz) 65 dBm (at 40 dB  gain) 80 dBm . (at un i ty gain) _ Input Impedance 5k o hm . 30k ohm (with externa] pair 0 [ T5k ohm resistors) .</p><p>Input Isolation: (not applicable) : 90 dB or better from 20 Hz 10 20 kHz &#x27;Maximum Input Leve] 10 dRm . +30. dBm . Used a $ PROGRAM Or SUMMING AMPLIFIER Frequency Response: Harmonic Distortion ~10.25 dB from 20 Hz_ to 20 klz . Less than 0 . 25% Thi) from 20 .Hz Lo  20 kHz 600 0 N Ia X i MuM , ba Tanced Source Impedance: Maximum Output Level: +30 dBm into 600 0 hmn 1oad , baTanced .</p><p>Output&#x27; Impedance Less than 35 ohm, 20 Hz Lo 20 kHz- ba ]anced Load [mpedance 600 ohm min i MUM . Phasing: Low number termina ] 5 of input and output dre in phas e Power Requirement 25 vo]ts dc 40 #26: MA quiescent current , Ma at +30 dBm output into 600 ohm . Ambient Temperature 0 .to 60 degrees Ce]sius wide 3 .5&quot; high X 7 .</p><p>0&quot; Jeep (28 mm X 89 MM X 178 Mm ) Dimens ons</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P05%20-%201-1.jpg">1975 - M450 - P05 - 1-1.jpg</a>, p. 1</li>
+</ul>
+<h3>Maintenance &amp; alignment (2)</h3>
+<details><summary>Adjustment — 75 words · 1975 - M450 - vint P7.jpg, page 1</summary><p>M45o PROGRAM/ SUMM NG AMPLIFIER Aa Used as PROGRAM AMPLIFIER 40 Resistor or pot be tween pins 9 8 10 30 8 2 20 8 IO Resistor or pot between pins 10 &amp; 11 2 Resistance in ki lohms B. Used as SUMMING AMPLIFIER 500 0 trim pot connected be tween pins 10 &amp; 11 wiu1 cause the amp ] i fier to operate at unity gain with trim adjustment of +1 dB .</p><p>4-1</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P7.jpg">1975 - M450 - vint P7.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Adjustment — 62 words · 1975 - M450 - P08 - 4-1.jpg, page 1</summary><p>M45o_PROGRAM/ SUMMING AMPLIFIER Used J5 PROGRAM AMPLIFIER 40 Resistor or pot be Lween pins 9 30 9 2 20 8 Resistor Or pot between Pins 10 6 |T Res i stance in kilohms Used as SUMMING AMPLIFFER A50u trim pot connected belween pins 10 &amp;.11 will cause the ampI i Fier to operate at unity gain with trim adjustment of +1 &#x27;dB</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P08%20-%204-1.jpg">1975 - M450 - P08 - 4-1.jpg</a>, p. 1</li>
+</ul>
+<h3>Parts list (text) (3)</h3>
+<details><summary>Parts List — 101 words · 1975 - M450 - vint P9.jpg, page 1</summary><p>M450 PROGRAM/ SUMM NG AMPLIFIER PART DESCRIPTI ON MFG MFG PART NUMBER CR6 Diode Fairchild 1N4 148 LI L2 Choke 100 uH Aselco s189-2.76 Transistor Nat. Semic. PN3569 PN3645 PN3563 PN3569 TIP3OB PN3645 TIP29B PN3569 TIP3OB 8 8 Q10 8 2 RI 8 R6 RZ R9 R1O RI R12 R13 R14 R15 R16 R17 R18 R19 R2O R2 1 Texas Inst. Nate Semic_ Texas Inst. Nat. Semic. Texas Inst. Nat. Semic. Texas Inst. PN3645 TIP29B Resi stor #w 5% 3302 3302 2K7 27k 4 13 15K Philips</p><p>1002 1002 7KS 622 3K3 ; 4K7 2202 IK8 15K 1002 1002 5 -2</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P9.jpg">1975 - M450 - vint P9.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Parts List — 105 words · 1975 - M450 - vint P10.jpg, page 1</summary><p>M450 PROGRAM/ SUMM NG AMPLIFIER PART DESCRIPTI ON MFG MFG PART NUMBER R22 R23 R24 R25 R26 Resistor #W 57 7K5 2K4 15K 102 IK Philips R27 R28 R29 R30 R3 1 472 2702 4702 472 8K2 R32 R33 R34 R35 R36 IK 4K7 6202 15K 102 ; ; R37 R38 R39 R40 RY 15K IK 472 2702 4702 R42 R43 R44 R45 R46 47 8K2 TK 4K7 6202 R4 7 R48 R49 RSO R5I Resistor 3.75W 5% 50 Da le CW2- B Resistor, Factory Se lected R52 #w 5% IK8 Philips 21 22 Integrated circuit Fairchild 739PC Note Note z1 is Factory Selected 5-3</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20vint%20P10.jpg">1975 - M450 - vint P10.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Parts List — 87 words · 1975 - M450 - P11 - 5-3.jpg, page 1</summary><p>M450_PROGRAM/ SUNMING_AMPLIFIER PARI DESCRIDIION MFG MFG_PART_NUMBER RI5 R16 R17 RI 8 R19 Resistor XW 5X 3k3 4K7 220 1k8 15K: Philips RZ0 R21 R22 R23 R24 100 100 7K5 2k4 5k R25 R26 R27 R28 R2g 49 270 470 R30 R31 R32 R33 R34 47 8k? IK 4k/ R35 R36 R37 R38 R39 i5k 5k 78 47 8K2 IK R40 R4] K42 R43 R44 R45 R46 R4 / R48 R49 4K/ 620 Res istor 3 .</p><p>75w 5% 5 0 Da 1 @ CW?B 5 - 3</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20P11%20-%205-3.jpg">1975 - M450 - P11 - 5-3.jpg</a>, p. 1</li>
+</ul>
+<h2>Drawings (19)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="People.html#drawing-staff">Drawn by</a></th>
+<th><a href="People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>D 450-02-001</td>
+<td>M450 / PROGRAM / SUMMING AMPLIFIER / SCHEMATIC</td>
+<td><a href="Year-1974.html">1974|7</a></td>
+<td><a href="Person-DM.html">DM</a></td>
+<td></td>
+<td>7</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1974%20-%20450-02-001%20-%20PROGRAM%20SUMMING%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%207.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 450-01-001</td>
+<td>M450/M450A / PROGRAM/SUMMING AMPLIFIER / FUNCTIONAL DIAGRAM</td>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>AAS</td>
+<td><a href="Person-RBL.html">RBL</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20450-01-001%20-%20M450A%20PROGRAM%20SUMMING%20AMPLIFIER%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20AAS%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>B 450-03-006</td>
+<td>COVER PLATE</td>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td><a href="Person-DM.html">DM</a></td>
+<td><a href="Person-DM.html">DM</a></td>
+<td>6</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20450-03-006%20-%20COVER%20PLATE%20-%20DRN%20DM%20-%20ISS%206.png">file</a></td>
+</tr>
+<tr>
+<td>A 450-04-001</td>
+<td>M450 AND M450A / PROGRAM/SUMMING AMPLIFIER / CONNECTOR LAYOUT</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-RB.html">RB (Rodger Beck)</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1976%20-%20450-04-001%20-%20AND%20M450A%20PROGRAM%20SUMMING%20AMPLIFIER%20CONNECTOR%20LAYOUT%20-%20DRN%20GEB%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 450-03-004</td>
+<td>M450A COVER PLATE</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td></td>
+<td></td>
+<td>5</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1976%20-%20450-03-004%20-%20M450A%20COVER%20PLATE%20-%20DRN%20MING%20-%20ISS%205.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 450-02-003</td>
+<td>M450B / PROGRAM/SUMMING AMPLIFIER / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1978%20-%20450-02-003%20-%20M450B%20PROGRAM%20SUMMING%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/M450%20-%20P03%20-%20TOC%281%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/M450%20-%20P03%20-%20TOC.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/M450%20-%20P15%20-%20Pin%20Out.jpg">file</a></td>
+</tr>
+<tr>
+<td>01450-02-001</td>
+<td>Use These Cohponents Only When Specified</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/19xx%20-%20M450%20-%20DOC%20-%2001450-02-001%20-%20USE%20THESE%20COHPONENTS%20ONLY%20WHEN%20SPECIFIED.jpg">file</a></td>
+</tr>
+<tr>
+<td>4-120-06-001</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%204-120-06-001.jpg">file</a></td>
+</tr>
+<tr>
+<td>450-02-001</td>
+<td>Program Summik Amolieier Gcale Schematic</td>
+<td></td>
+<td><a href="Person-DO.html">DO</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20450-02-001%20-%20PROGRAM%20SUMMIK%20AMOLIEIER%20GCALE%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>450-02-001</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450/1975%20-%20M450%20-%20450-02-001.jpg">file</a></td>
+</tr>
+<tr>
+<td>450-02-002</td>
+<td>Ifio Nents Marked Specified Mponent Assembly For Schematic</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450A/1973%20-%20M450A%20-%20450-02-002%20-%20IFIO%20NENTS%20MARKED%20SPECIFIED%20MPONENT%20ASSEMBLY%20FOR%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>450-02-002</td>
+<td>Mile Gcne Schematic Yeezk</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450A/1973%20-%20M450A%20-%20450-02-002%20-%20MILE%20GCNE%20SCHEMATIC%20YEEZK.jpg">file</a></td>
+</tr>
+<tr>
+<td>450-02-003</td>
+<td>Programisumming Amplifier</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>U</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20Program%20-%20Summing%20Amplifier.pdf">file</a> p.13</td>
+</tr>
+<tr>
+<td>450-02-003</td>
+<td>Programisumming Amplifier</td>
+<td></td>
+<td></td>
+<td>RN</td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20450-02-003%20-%20PROGRAMISUMMING%20AMPLIFIER.jpg">file</a></td>
+</tr>
+<tr>
+<td>450-04-001</td>
+<td>Cale Connector Layout</td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450A/1973%20-%20M450A%20-%20450-04-001%20-%20CALE%20CONNECTOR%20LAYOUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>450-06-003</td>
+<td>Masob Eng</td>
+<td></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>U</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M450B/1979%20-%20M450B%20-%20450-06-003%20-%20MASOB%20ENG.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M450&quot;,
+ &quot;name&quot;: &quot;Program Summing Amp&quot;,
+ &quot;category&quot;: &quot;AMPLIFIERS&quot;,
+ &quot;year&quot;: 1975,
+ &quot;made_of&quot;: [
+  &quot;4-120&quot;
+ ],
+ &quot;part_of&quot;: [
+  &quot;76045&quot;,
+  &quot;790236&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1974 - 450-02-001 - PROGRAM SUMMING AMPLIFIER SCHEMATIC - DRN DM - ISS 7.jpg&quot;,
+   &quot;year&quot;: 1974,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - 450-01-001 - M450A PROGRAM SUMMING AMPLIFIER FUNCTIONAL DIAGRAM - DRN AAS - ISS 1.png&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - 450-03-006 - COVER PLATE - DRN DM - ISS 6.png&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - M450 - 4-120-06-001.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - M450 - 450-02-001 - PROGRAM SUMMIK AMOLIEIER GCALE SCHEMATIC.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - M450 - 450-02-001.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - M450 - P01 - Cover.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - M450 - P02.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - M450 - P04 - Warranty.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - M450 - P05 - 1-1.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - M450 - P06 - 2-1.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - M450 - P07 - 3-1.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - M450 - P07 - 3-2.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - M450 - P08 - 4-1.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - M450 - P09 - 5-1.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - M450 - P10 - 5-2.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - M450 - P11 - 5-3.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - M450 - P12 - 5-4.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - M450 - P13 - Schematic.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - M450 - P14 - Component Layout.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - M450 - P15 - Pin Out.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - M450 - Program Summing Amp (2).pdf&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - M450 - Program Summing Amp.pdf&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - M450 - file.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - M450 - vint P1.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - M450 - vint P10.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - M450 - vint P12.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - M450 - vint P3.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - M450 - vint P4.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - M450 - vint P5.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - M450 - vint P6.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - M450 - vint P7.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - M450 - vint P8.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1975 - M450 - vint P9.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1976 - 450-03-004 - M450A COVER PLATE - DRN MING - ISS 5.jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1976 - 450-04-001 - AND M450A PROGRAM SUMMING AMPLIFIER CONNECTOR LAYOUT - DRN GEB - ISS 2.jpg&quot;,
+   &quot;year&quot;: 1976,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1977 - M450 - P03 - TOC.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1977 - M450 - vint P11.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1977 - M450 - vint P2.jpg&quot;,
+   &quot;year&quot;: 1977,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/1978 - 450-02-003 - M450B PROGRAM SUMMING AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 3.jpg&quot;,
+   &quot;year&quot;: 1978,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/19xx - M450 - DOC - 01450-02-001 - USE THESE COHPONENTS ONLY WHEN SPECIFIED.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/M450 - P03 - TOC(1).jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/M450 - P03 - TOC.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M450/M450 - P15 - Pin Out.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../_catalog/libcontrol/libcontrol.css"><script src="../_catalog/libcontrol/react.js"></script><script src="../_catalog/libcontrol/react-dom.js"></script><script src="../_catalog/libcontrol/libcontrol.js"></script><script src="../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M450.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

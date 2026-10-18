@@ -1,0 +1,190 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Power transformers (80-n)</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>Power transformers (80-n)</h1>
+<p><a href="Registers.html">← Registers</a></p>
+<p><a id="80-1"></a></p>
+<h3>80-1 — POWER TRANSFORMER / TYPE 80-1</h3>
+<p><a href="Year-1966.html">1966|-1</a> · 1 drawing</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1966%20-%2080-1%20-%20POWER%20TRANSFORMER%20TYPE%2080-1%20-%20CKD%20R.%20Beck.png">1966 - 80-1 - POWER TRANSFORMER TYPE 80-1 - CKD R. Beck.png</a></p>
+<p><a id="80-2"></a></p>
+<h3>80-2 — POWER TRANSFORMER / TYPE 80-2</h3>
+<p><a href="Year-1967.html">1967|0</a> · drawn <a href="Person-R-BECK.html">R BECK</a> · 1 drawing</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1967%20-%2080-2%20-%20POWER%20TRANSFORMER%20TYPE%2080-2%20-%20DRN%20R%20BECK%20-%20ISS%201.png">1967 - 80-2 - POWER TRANSFORMER TYPE 80-2 - DRN R BECK - ISS 1.png</a></p>
+<p><a id="80-5"></a></p>
+<h3>80-5 — POWER TRANSFORMER / TYPE 80-5</h3>
+<p><a href="Year-1967.html">1967|0</a> · drawn <a href="Person-R-BECK.html">R BECK</a> · 1 drawing</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1967%20-%2080-5%20-%20POWER%20TRANSFORMER%20TYPE%2080-5%20-%20DRN%20R%20BECK%20-%20ISS%202.png">1967 - 80-5 - POWER TRANSFORMER TYPE 80-5 - DRN R BECK - ISS 2.png</a></p>
+<p><a id="80-7"></a></p>
+<h3>80-7 — POWER TRANSFORMER / TYPE 80-7</h3>
+<p><a href="Year-1967.html">1967|0</a> · drawn <a href="Person-R-BECK.html">R BECK</a> · 1 drawing</p>
+<p>Used in: <a href="M648.html">M648</a></p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1967%20-%2080-7%20-%20POWER%20TRANSFORMER%20TYPE%2080-7%20-%20DRN%20R%20BECK%20-%20ISS%205.png">1967 - 80-7 - POWER TRANSFORMER TYPE 80-7 - DRN R BECK - ISS 5.png</a></p>
+<p><a id="80-8"></a></p>
+<h3>80-8 — POWER TRANSFORMER / TYPE 80-8</h3>
+<p><a href="Year-1967.html">1967|0</a> · 1 drawing</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1967%20-%2080-8%20-%20POWER%20TRANSFORMER%20TYPE%2080-8%20-%20ISS%206.png">1967 - 80-8 - POWER TRANSFORMER TYPE 80-8 - ISS 6.png</a></p>
+<p><a id="80-9"></a></p>
+<h3>80-9 — 80-9 / POWER TRANSFORMER</h3>
+<p><a href="Year-1979.html">1979|12</a> · drawn <a href="Person-GEB.html">GEB (Gerry E. Bell)</a> · 1 drawing</p>
+<p>Used in: <a href="M624.html">M624</a></p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1979%20-%20B%2080-9%20-%2080-9%20POWER%20TRANSFORMER%20-%20DRN%20GEB%20-%20ENG%20RKB%20-%20ISS%204.png">1979 - B 80-9 - 80-9 POWER TRANSFORMER - DRN GEB - ENG RKB - ISS 4.png</a></p>
+<p><a id="80-10"></a></p>
+<h3>80-10 — POWER TRANSFORMER / TYPE 80-10</h3>
+<p><a href="Year-1968.html">1968|1</a> · drawn <a href="Person-R-BECK.html">R BECK</a> · 2 drawings</p>
+<p>Used in: <a href="RM401.html">RM401</a></p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1968%20-%2080-10%20-%20POWER%20TRANSFORMER%20TYPE%2080-10%20-%20CKD%20R.%20Bell%20-%20ISS%202.png">1968 - 80-10 - POWER TRANSFORMER TYPE 80-10 - CKD R. Bell - ISS 2.png</a>, <a href="../viewer.html?f=PHOTOS/Drawings/1968%20-%2080-10%20-%20POWER%20TRANSFORMER%20TYPE%2080-10%20-%20DRN%20R.%20Beck%20-%20ISS%202.png">1968 - 80-10 - POWER TRANSFORMER TYPE 80-10 - DRN R. Beck - ISS 2.png</a></p>
+<p><a id="80-11"></a></p>
+<h3>80-11 — 80-11 POWER TRANSFORMER</h3>
+<p><a href="Year-1975.html">1975|8</a> · drawn <a href="Person-D-MFARLANE.html">D MFARLANE</a> · 2 drawings</p>
+<p>Used in: <a href="M411.html">M411</a>, <a href="M415.html">M415</a></p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1975%20-%20B%209317%20-%2080-11%20POWER%20TRANSFORMER%20-%20DRN%20D.%20M%27FARLANE%20-%20ISS%201.png">1975 - B 9317 - 80-11 POWER TRANSFORMER - DRN D. M'FARLANE - ISS 1.png</a>, <a href="../viewer.html?f=PHOTOS/Drawings/1975%20-%20B%209317%20-%2080-11%20POWER%20TRANSFORMER%20-%20DRN%20D.%20M%27FARLANE.png">1975 - B 9317 - 80-11 POWER TRANSFORMER - DRN D. M'FARLANE.png</a></p>
+<p><a id="80-12"></a></p>
+<h3>80-12 — POWER TRANSFORMER / TYPE 80-12</h3>
+<p><a href="Year-1969.html">1969|2</a> · 2 drawings</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1969%20-%2080-12%20-%20POWER%20TRANSFORMER%20TYPE%2080-12%20%282%29.png">1969 - 80-12 - POWER TRANSFORMER TYPE 80-12 (2).png</a>, <a href="../viewer.html?f=PHOTOS/Drawings/1969%20-%2080-12%20-%20POWER%20TRANSFORMER%20TYPE%2080-12.png">1969 - 80-12 - POWER TRANSFORMER TYPE 80-12.png</a></p>
+<p><a id="80-13"></a></p>
+<h3>80-13 — POWER TRANSFORMER / TYPE 80-13</h3>
+<p><a href="Year-1969.html">1969|2</a> · 2 drawings</p>
+<p>Used in: <a href="M621.html">M621</a></p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1969%20-%2080-13%20-%20POWER%20TRANSFORMER%20TYPE%2080-13%20%282%29.png">1969 - 80-13 - POWER TRANSFORMER TYPE 80-13 (2).png</a>, <a href="../viewer.html?f=PHOTOS/Drawings/1969%20-%2080-13%20-%20POWER%20TRANSFORMER%20TYPE%2080-13.png">1969 - 80-13 - POWER TRANSFORMER TYPE 80-13.png</a></p>
+<p><a id="80-14"></a></p>
+<h3>80-14 — POWER TRANSFORMER / 80-14</h3>
+<p><a href="Year-1974.html">1974|7</a> · 2 drawings</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1974%20-%2080-14%20-%20POWER%20TRANSFORMER%2080-14%20-%20ISS%204.png">1974 - 80-14 - POWER TRANSFORMER 80-14 - ISS 4.png</a>, <a href="../viewer.html?f=PHOTOS/Drawings/19xx%20-%2080-14%20-%20POWER%20TRANSFORMER%2080-14%20-%20ISS%204.png">19xx - 80-14 - POWER TRANSFORMER 80-14 - ISS 4.png</a></p>
+<p><a id="80-15"></a></p>
+<h3>80-15 — POWER TRANSFORMER / TYPE 80-15</h3>
+<p><a href="Year-1970.html">1970|3</a> · 2 drawings</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1970%20-%2080-15%20-%20POWER%20TRANSFORMER%20TYPE%2080-15%20-%20ISS%201%20%282%29.png">1970 - 80-15 - POWER TRANSFORMER TYPE 80-15 - ISS 1 (2).png</a>, <a href="../viewer.html?f=PHOTOS/Drawings/1970%20-%2080-15%20-%20POWER%20TRANSFORMER%20TYPE%2080-15%20-%20ISS%201.png">1970 - 80-15 - POWER TRANSFORMER TYPE 80-15 - ISS 1.png</a></p>
+<p><a id="80-16"></a></p>
+<h3>80-16 — POWER TRANSFORMER / TYPE 80-16</h3>
+<p><a href="Year-1970.html">1970|3</a> · 1 drawing</p>
+<p>Used in: <a href="M610.html">M610</a></p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1970%20-%2080-16%20-%20POWER%20TRANSFORMER%20TYPE%2080-16%20-%20ISS%202.png">1970 - 80-16 - POWER TRANSFORMER TYPE 80-16 - ISS 2.png</a></p>
+<p><a id="80-17"></a></p>
+<h3>80-17 — POWER TRANSFORMER TYPE 80-17</h3>
+<p><a href="Year-1971.html">1971|4</a> · 2 drawings</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1971%20-%2080-17%20-%20POWER%20TRANSFORMER%20TYPE%2080-17%20-%20ISS%206.png">1971 - 80-17 - POWER TRANSFORMER TYPE 80-17 - ISS 6.png</a>, <a href="../viewer.html?f=PHOTOS/Drawings/1977%20-%20POWER%20TRANSFORMER%20TYPE%2080-17.png">1977 - POWER TRANSFORMER TYPE 80-17.png</a></p>
+<p><a id="80-18"></a></p>
+<h3>80-18 — POWER TRANSFORMER / TYPE 80-18</h3>
+<p><a href="Year-1972.html">1972|5</a> · 1 drawing</p>
+<p>Used in: <a href="M625A.html">M625A</a></p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1972%20-%2080-18%20-%20POWER%20TRANSFORMER%20TYPE%2080-18%20-%20ISS%204.png">1972 - 80-18 - POWER TRANSFORMER TYPE 80-18 - ISS 4.png</a></p>
+<p><a id="80-19"></a></p>
+<h3>80-19 — POWER TRANSFORMER TYPE 80-19</h3>
+<p><a href="Year-1975.html">1975|8</a> · 2 drawings</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1975%20-%2080-19%20-%20ISS%202.png">1975 - 80-19 - ISS 2.png</a>, <a href="../viewer.html?f=PHOTOS/Drawings/19xx%20-%2080-19%20-%20POWER%20TRANSFORMER%20TYPE%2080-19.png">19xx - 80-19 - POWER TRANSFORMER TYPE 80-19.png</a></p>
+<p><a id="80-20"></a></p>
+<h3>80-20 — POWER TRANSFORMER / TYPE 80-20</h3>
+<p><a href="Year-1977.html">1977|10</a> · 2 drawings</p>
+<p>Used in: <a href="M485.html">M485</a>, <a href="M485B.html">M485B</a></p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1977%20-%2080-20%20-%20POWER%20TRANSFORMER%20TYPE%2080-20%20-%20ISS%202%20%282%29.png">1977 - 80-20 - POWER TRANSFORMER TYPE 80-20 - ISS 2 (2).png</a>, <a href="../viewer.html?f=PHOTOS/Drawings/1977%20-%2080-20%20-%20POWER%20TRANSFORMER%20TYPE%2080-20%20-%20ISS%202.png">1977 - 80-20 - POWER TRANSFORMER TYPE 80-20 - ISS 2.png</a></p>
+<p><a id="80-21"></a></p>
+<h3>80-21 — POWER TRANSFORMER / TYPE 80-21</h3>
+<p><a href="Year-1978.html">1978|11</a> · drawn <a href="Person-GEB.html">GEB (Gerry E. Bell)</a> · 2 drawings</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1978%20-%20B%2080-21%20-%20POWER%20TRANSFORMER%20TYPE%2080-21%20-%20DRN%20GEB%20-%20ENG%20RKB%20-%20ISS%204.png">1978 - B 80-21 - POWER TRANSFORMER TYPE 80-21 - DRN GEB - ENG RKB - ISS 4.png</a>, <a href="../viewer.html?f=PHOTOS/Drawings/1984%20-%20B%2080-21%20-%20POWER%20TRANSFORMER%20TYPE%2080-21%20-%20DRN%20GEB%20-%20ENG%20RKB%20-%20ISS%204.png">1984 - B 80-21 - POWER TRANSFORMER TYPE 80-21 - DRN GEB - ENG RKB - ISS 4.png</a></p>
+<p><a id="80-22"></a></p>
+<h3>80-22 — 80-22 / POWER TRANSFORMER</h3>
+<p><a href="Year-1979.html">1979|12</a> · drawn <a href="Person-MRW.html">MRW</a> · 1 drawing</p>
+<p>Used in: <a href="M632.html">M632</a></p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1979%20-%20B%2080-22%20-%2080-22%20POWER%20TRANSFORMER%20-%20DRN%20MRW%20-%20ENG%20RKB%20-%20ISS%205.png">1979 - B 80-22 - 80-22 POWER TRANSFORMER - DRN MRW - ENG RKB - ISS 5.png</a></p>
+<p><a id="80-23"></a></p>
+<h3>80-23 — POWER TRANSFORMER / TYPE 80-23</h3>
+<p><a href="Year-1978.html">1978|11</a> · drawn <a href="Person-GEB.html">GEB (Gerry E. Bell)</a> · 1 drawing</p>
+<p>Used in: <a href="M605A.html">M605A</a></p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1978%20-%20B%2080-23%20-%20POWER%20TRANSFORMER%20TYPE%2080-23%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%203.png">1978 - B 80-23 - POWER TRANSFORMER TYPE 80-23 - DRN GEB - ENG GEB - ISS 3.png</a></p>
+<p><a id="80-24"></a></p>
+<h3>80-24 — 80-24 / POWER TRANSFORMER</h3>
+<p><a href="Year-1979.html">1979|12</a> · drawn <a href="Person-MRW.html">MRW</a> · 2 drawings</p>
+<p>Used in: <a href="M611.html">M611</a></p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1979%20-%2080-24%20POWER%20TRANSFORMER%20-%20DRN%20MRW%20-%20ENG%20RKB.png">1979 - 80-24 POWER TRANSFORMER - DRN MRW - ENG RKB.png</a>, <a href="../viewer.html?f=PHOTOS/Drawings/1979%20-%20B%2080-24%20-%2080-24%20POWER%20TRANSFORMER%20-%20DRN%20MRW%20-%20ENG%20RKB%20-%20ISS%204.png">1979 - B 80-24 - 80-24 POWER TRANSFORMER - DRN MRW - ENG RKB - ISS 4.png</a></p>
+<p><a id="80-25"></a></p>
+<h3>80-25 — 80-25 / POWER TRANSFORMER</h3>
+<p><a href="Year-1979.html">1979|12</a> · drawn <a href="Person-GEB.html">GEB (Gerry E. Bell)</a> · 1 drawing</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1979%20-%20B%2080-25%20-%2080-25%20POWER%20TRANSFORMER%20-%20DRN%20GEB%20-%20ENG%20RKB%20-%20ISS%201.png">1979 - B 80-25 - 80-25 POWER TRANSFORMER - DRN GEB - ENG RKB - ISS 1.png</a></p>
+<p><a id="80-26"></a></p>
+<h3>80-26 — POWER TRANSFORMER / TYPE 80-26</h3>
+<p><a href="Year-1985.html">1985|18</a> · drawn <a href="Person-P-MAHONEY.html">P MAHONEY</a> · 1 drawing</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1985%20-%20B%2080-26%20-%20POWER%20TRANSFORMER%20TYPE%2080-26%20-%20DRN%20P.%20Mahoney%20-%20ISS%203.png">1985 - B 80-26 - POWER TRANSFORMER TYPE 80-26 - DRN P. Mahoney - ISS 3.png</a></p>
+<p><a id="80-27"></a></p>
+<h3>80-27 — 80-27 / POWER TRANSFORMER</h3>
+<p><a href="Year-1983.html">1983|16</a> · drawn <a href="Person-P-MAHONEY.html">P MAHONEY</a> · 2 drawings</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1983%20-%20B%2080-27%20-%2080-27%20POWER%20TRANSFORMER%20-%20DRN%20P.%20Mahoney%20-%20ISS%206.png">1983 - B 80-27 - 80-27 POWER TRANSFORMER - DRN P. Mahoney - ISS 6.png</a>, <a href="../viewer.html?f=PHOTOS/Drawings/19xx%20-%20B%2080-27%20-%2080-27%20POWER%20TRANSFORMER%20-%20DRN%20P.%20Mahoney%20-%20ISS%206.png">19xx - B 80-27 - 80-27 POWER TRANSFORMER - DRN P. Mahoney - ISS 6.png</a></p>
+<p><a id="80-28"></a></p>
+<h3>80-28 — 80-28 / POWER TRANSFORMER</h3>
+<p><a href="Year-1980.html">1980|13</a> · drawn <a href="Person-P-MAHONEY.html">P MAHONEY</a> · 5 drawings</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1980%20-%20B%2080-28%20-%2080-28%20POWER%20TRANSFORMER%20-%20DRN%20P.%20Mahoney%20-%20ISS%202.png">1980 - B 80-28 - 80-28 POWER TRANSFORMER - DRN P. Mahoney - ISS 2.png</a>, <a href="../viewer.html?f=PHOTOS/Drawings/1982%20-%20B%2080-28%20-%2080-28%20POWER%20TRANSFORMER%20-%20DRN%20P.%20Mahoney%20-%20ISS%203.png">1982 - B 80-28 - 80-28 POWER TRANSFORMER - DRN P. Mahoney - ISS 3.png</a>, <a href="../viewer.html?f=PHOTOS/Drawings/1983%20-%20B%2080-28%20-%2080-28%20POWER%20TRANSFORMER%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%202.png">1983 - B 80-28 - 80-28 POWER TRANSFORMER - DRN GEB - ENG GEB - ISS 2.png</a>, <a href="../viewer.html?f=PHOTOS/Drawings/19xx%20-%20B%2080-28%20-%2080-28%20POWER%20TRANSFORMER%20-%20DRN%20P.%20Mahoney%20-%20ISS%202.png">19xx - B 80-28 - 80-28 POWER TRANSFORMER - DRN P. Mahoney - ISS 2.png</a>, <a href="../viewer.html?f=PHOTOS/Drawings/19xx%20-%20B%2080-28%20-%2080-28%20POWER%20TRANSFORMER%20-%20DRN%20P.%20Mahoney%20-%20ISS%203.png">19xx - B 80-28 - 80-28 POWER TRANSFORMER - DRN P. Mahoney - ISS 3.png</a></p>
+<p><a id="80-29"></a></p>
+<h3>80-29 — 80-29 / POWER TRANSFORMER</h3>
+<p><a href="Year-1983.html">1983|16</a> · drawn <a href="Person-P-MAHONEY.html">P MAHONEY</a> · 1 drawing</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1983%20-%20B%2080-29%20-%2080-29%20POWER%20TRANSFORMER%20-%20DRN%20P.%20Mahoney%20-%20ISS%203.png">1983 - B 80-29 - 80-29 POWER TRANSFORMER - DRN P. Mahoney - ISS 3.png</a></p>
+<p><a id="80-30"></a></p>
+<h3>80-30 — 80-30 / POWER TRANSFORMER</h3>
+<p><a href="Year-1983.html">1983|16</a> · drawn <a href="Person-GEB.html">GEB (Gerry E. Bell)</a> · 1 drawing</p>
+<p>Used in: <a href="M611.html">M611</a></p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1983%20-%20B%2080-30%20-%2080-30%20POWER%20TRANSFORMER%20-%20DRN%20GEB%20-%20ENG%20RKB%20-%20ISS%203.png">1983 - B 80-30 - 80-30 POWER TRANSFORMER - DRN GEB - ENG RKB - ISS 3.png</a></p>
+<p><a id="80-31"></a></p>
+<h3>80-31 — 80-31 / POWER TRANSFORMER</h3>
+<p><a href="Year-1983.html">1983|16</a> · drawn <a href="Person-GEB.html">GEB (Gerry E. Bell)</a> · 1 drawing</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1983%20-%20B%2080-31%20-%2080-31%20POWER%20TRANSFORMER%20-%20DRN%20GEB%20-%20ENG%20RKB%20-%20ISS%203.png">1983 - B 80-31 - 80-31 POWER TRANSFORMER - DRN GEB - ENG RKB - ISS 3.png</a></p>
+<p><a id="80-32"></a></p>
+<h3>80-32 — POWER TRANSFORMER / TYPE 80-32</h3>
+<p><a href="Year-1983.html">1983|16</a> · drawn <a href="Person-GEB.html">GEB (Gerry E. Bell)</a> · 1 drawing</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1983%20-%20B%2080-32%20-%20POWER%20TRANSFORMER%20TYPE%2080-32%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%202.png">1983 - B 80-32 - POWER TRANSFORMER TYPE 80-32 - DRN GEB - ENG GEB - ISS 2.png</a></p>
+<p><a id="80-33"></a></p>
+<h3>80-33 — 80-33 / POWER TRANSFORMER</h3>
+<p><a href="Year-1983.html">1983|16</a> · 2 drawings</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1983%20-%20B%2080-33%20-%2080-33%20POWER%20TRANSFORMER%20-%20ENG%20R.%20Bell%20-%20ISS%203.png">1983 - B 80-33 - 80-33 POWER TRANSFORMER - ENG R. Bell - ISS 3.png</a>, <a href="../viewer.html?f=PHOTOS/Drawings/1983%20-%20B%2080-33%20-%2080-33%20POWER%20TRANSFORMER%20-%20ENG%20RM%20-%20ISS%203.png">1983 - B 80-33 - 80-33 POWER TRANSFORMER - ENG RM - ISS 3.png</a></p>
+<p><a id="80-34"></a></p>
+<h3>80-34 — 80-34 / SWITCH MODE POWER TRANSFORMER</h3>
+<p><a href="Year-1985.html">1985|18</a> · drawn <a href="Person-RBH.html">RBH</a> · 2 drawings</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1985%20-%20B%2080-34%20-%2080-34%20SWITCH%20MODE%20POWER%20TRANSFORMER%20-%20DRN%20R.%20Bell%20-%20ISS%205.png">1985 - B 80-34 - 80-34 SWITCH MODE POWER TRANSFORMER - DRN R. Bell - ISS 5.png</a>, <a href="../viewer.html?f=PHOTOS/Drawings/1985%20-%20B%2080-34%20-%2080-34%20SWITCHMODE%20POWER%20TRANSFORMER%20-%20DRN%20RBh%20-%20ISS%205.png">1985 - B 80-34 - 80-34 SWITCHMODE POWER TRANSFORMER - DRN RBh - ISS 5.png</a></p>
+<p><a id="80-35"></a></p>
+<h3>80-35 — 80-35 / SWITCH MODE DRIVER TRANSFORMER</h3>
+<p><a href="Year-1985.html">1985|18</a> · 1 drawing</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1985%20-%20B%2080-35%20-%2080-35%20SWITCH%20MODE%20DRIVER%20TRANSFORMER%20-%20DRN%20R.%20Bell%20-%20ISS%203.png">1985 - B 80-35 - 80-35 SWITCH MODE DRIVER TRANSFORMER - DRN R. Bell - ISS 3.png</a></p>
+<p><a id="80-44"></a></p>
+<h3>80-44 — 80-44 / SWITCHMODE POWER TRANSFORMER</h3>
+<p><a href="Year-1988.html">1988|21</a> · drawn <a href="Person-GEB.html">GEB (Gerry E. Bell)</a> · 2 drawings</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/1988%20-%20B%2080-44%20-%2080-44%20SWITCHMODE%20POWER%20TRANSFORMER%20-%20DRN%20GEB%20-%20ISS%202%20%282%29.png">1988 - B 80-44 - 80-44 SWITCHMODE POWER TRANSFORMER - DRN GEB - ISS 2 (2).png</a>, <a href="../viewer.html?f=PHOTOS/Drawings/1988%20-%20B%2080-44%20-%2080-44%20SWITCHMODE%20POWER%20TRANSFORMER%20-%20DRN%20GEB%20-%20ISS%202.png">1988 - B 80-44 - 80-44 SWITCHMODE POWER TRANSFORMER - DRN GEB - ISS 2.png</a></p>
+<p><a id="80-45"></a></p>
+<h3>80-45 — 80-45 / FILTER INDUCTOR</h3>
+<p>drawn <a href="Person-GEB.html">GEB (Gerry E. Bell)</a> · 1 drawing</p>
+<p><a href="../viewer.html?f=PHOTOS/Drawings/19xx%20-%20B%2080-45%20-%2080-45%20FILTER%20INDUCTOR%20-%20DRN%20GEB%20-%20ISS%202.png">19xx - B 80-45 - 80-45 FILTER INDUCTOR - DRN GEB - ISS 2.png</a></p><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from Register-Power-transformers-80-n.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

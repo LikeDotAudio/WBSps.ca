@@ -1,0 +1,272 @@
+# 1988 - M520 - schematics_001.jpg
+Wiki page: [M520](../../../PAGES/M520.md)
+
+
+- **Year:** 1988 (module estimate (used in job))
+- **Module:** M520
+- **Category:** INPUT-PRE-AMPS
+- **Module year estimate:** 1988 — used in job job 880134
+- **Used in jobs:** 880134 (1988)
+- **Original file:** `WBSps.env/PUBLIC/Manuals + tech DOCUMENTS/Modules/M520/M520/m520 schematics_001.jpg`
+- **SHA-256:** `54ba90a4d2b7263dc4915741d3d57abceadf28e2d5b3252193eff46a2d1374ca`
+- **Size:** 2,556,878 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 8 words corrected)
+
+```text
+TAU
+PHANTOM POWER
+~av
+Phantom POWER
+BIJI
+I2m
+1026J
+GFLECT Sm
+R18L
+PHASE
+4/0 SENSE
+052 FLUTIO
+FLVITO
+Mic/line Sw}
+MIcROPHONE INPULS dert CAM
+60-12
+EQUALIZER TNCERT
+8 848
+81J1
+1056
+1086
+4AU
+R13 150
+5414-031
+4SOc OpNS '
+Ee
+PRESSEPLBEVER
+4.7/10
+33410
+828
+220/10 R7R
+R36
+R36 22k
+NESSJAN
+145711
+INSERT ATteu Top
+SHIELDS
+53.54
+/100
+~18v
+Mic/lINe R25 SENSE SeNsiTiviTY
+R#R
+4Uk
+220/10
+t8v
+NESS3AN
+81J1
+2,6 
+CDK
+C2} 47p
+IA
+CONTROL
+INPUT a8m OhuS BRIDGING
+T8V
+410
+UIIA
+R176 3Jk
+Lhc3i
+4.7/10
+RA78 ISk RI79
+R18o
+PFL SE NSE
+LINE ShIELDS
+RIAL
+49,50
+UTIB LMe3JN
+RaeJ
+4.7n0
+17296
+CR0
+W3,U4 05,46,uio,
+~Z5V 21
+49u
+-IBV
+INLOO?
+KlbC
+Jn75go
+PN3569
+Ri7
+W7 , e. 81J1-2
+c63 22/25
+7i6n 390k
+CRI2
+Wnai
+22/25
+0./100
+10/25
+1/100
+/100
+25V coM 20,*
+CR }
+fiod
+INGCO3
+Vico
+22/25
+22/25 (o.i/100
+10/25
+1/100
+~ibv
+U7 , Ue B1j1-3
+PN3645
+916 PN3645
+R167
+CRII
+U3,UL US , U6,U10
+-25V
+TN0o;
+TiPyoe
+WBS WARD-BECK SYSTEMS
+CHAssIS
+M520 MONO INPUT MODULE SCHEMATIC
+520-02-001/1
+ISS.2
+RJO
+Ri7o
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+TAU
+PHANTOH POMER
+~av
+Phantom PONER
+BIJI
+I2m
+1026J
+GFLECT Sm
+R18L
+PHASF
+4/0 SENSE
+052 FLUTIO
+FLVITO
+Mic/line Sw}
+MIcROPHONE INPUIS dert CAM
+60-12
+EQUALIZER TNCERT
+8 848
+81J1
+1056
+1086
+4AU
+R13 150
+5414-031
+4SOc OpNS '
+Ee
+PRESSEPLBEVER
+4.7/10
+33410
+828
+220/10 R7R
+R36
+R36 22k
+NESSJAN
+145711
+INSERT ATteu Top
+ShIELOS
+53.54
+/100
+~18v
+Mic/lINe R25 SENSE SeNsiTiviTY
+R#R
+4Uk
+220/10
+t8v
+NESS3AN
+81J1
+2,6 
+CDK
+C2} 47p
+IA
+CONTROL
+INpuTC a8m OhuS BRIDGING
+T8V
+410
+UIIA
+R176 3Jk
+Lhc3i
+4.7/10
+RA78 ISk RI79
+R18o
+PFL SE NSE
+LINE ShIELDS
+RIAI
+49,50
+UTIB LMe3JN
+RaeJ
+4.7n0
+17296
+CR0
+W3,U4 05,46,uio,
+~Z5V 21
+49u
+-IBV
+INLOO?
+KlbC
+Jn75go
+PN3569
+Ri7
+W7 , e. 81J1-2
+c63 22/25
+7i6n 390k
+CRI2
+Wnai
+22/25
+0./100
+10/25
+1/100
+/100
+25V coM 20,*
+CR }
+fiod
+INGCO3
+Vico
+22/25
+22/25 (o.i/100
+10/25
+1/100
+~ibv
+U7 , Ue B1j1-3
+PN3645
+916 PN3645
+R167
+CRII
+U3,UL US , U6,U10
+-25V
+TN0o;
+TiPyoe
+WBS WARD-BECK SYSTEMS
+CHAssIS
+M520 MONO INPUT MODULE SCHEMATIC
+520-02-001/1
+ISS.2
+RJO
+Ri7o
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Modules/INPUT-PRE-AMPS/M520/1988 - M520 - schematics_001.jpg",
+ "sha256": "54ba90a4d2b7263dc4915741d3d57abceadf28e2d5b3252193eff46a2d1374ca",
+ "kind": "module",
+ "models": [
+  "M520"
+ ],
+ "year": 1988,
+ "pages": 1
+}
+```

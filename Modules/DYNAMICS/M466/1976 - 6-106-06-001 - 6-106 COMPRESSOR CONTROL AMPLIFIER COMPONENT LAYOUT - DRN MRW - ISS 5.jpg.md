@@ -1,0 +1,124 @@
+# 1976 - 6-106-06-001 - 6-106 COMPRESSOR CONTROL AMPLIFIER COMPONENT LAYOUT - DRN MRW - ISS 5.jpg
+Wiki page: [M466](../../../PAGES/M466.md)
+
+
+- **Year:** 1976 (title block date)
+- **Module:** M466
+- **Category:** DYNAMICS
+- **Module year estimate:** 1976 — labelled "DATE AUG 76" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M466 Compressor - Limiter/M466 - P47 - Component Layout.jpg
+
+## Title block (found by software, read by eye)
+
+- **Drawing:** B 6-106-06-001
+- **Size:** B
+- **Title:** 6-106 / COMPRESSOR CONTROL AMPLIFIER / COMPONENT LAYOUT
+- **Date:** JULY '76
+- **Drawn:** MRW
+- **Checked:** (signature)
+- **Issue:** 5
+- **Confidence:** high
+
+- **Original file:** `WBSps.env/WBS Photos-1-001/M466 - P50 - Control Amplifier Layout(1).jpg`
+- **SHA-256:** `3a2a3632b79b10b5f19cf8e55e3823e919e49eb105abad0eecfaf7db573bbb6d`
+- **Size:** 267,690 bytes
+- **Pages:** 1
+
+## Dates found in this file
+
+- **1976** (labelled): `DATE JULY 76` — …477 USED 01 M466 MATL . WBS WARD-BECK BySTEMs LTD- DRN: MRW DATE JULY 76 CKD Roa SCALE XX TOLS Ara 6-106 FIMISH COMPRESSOR CONTROL A…
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 1 words corrected)
+
+```text
+ES
+E3
+El
+E12
+CRB CR7
+E4 044 CRZQRI R4 05
+3 &9 zi 9 R7 R38 Po Crs Z? LMSoi LHIOI
+cs C8 RI4 R27 Rzi
+g 8 R23 R22CR6 89
+25 LM 301
+Ei
+2N4+01
+E2 41 4 4 Qi R9 & 4 Ro +| R8 Rib R3 = RZ Ris c3 5k Q2 2n4+01
+Ri6 500
+033 #+Ro2 R26 Cio R24 R25 Ciz Sk
+R3O S0K
+E15
+Cil Rzo Ri? R84 R2?
+44 26 R3I R29 R39 LM30i Ci3
+R35 Ri CR4 Ri2 Cr3 22 rii Riz ri9p36 9544 LM308 C4 8 414 4 24 LM3oI E9 Eio
+~C7 IOP
+E7
+R37 JM
+E6
+CI4 22/25x
+SPACER 2-56 UNC Thd
+EDAC CONN.Pins N? I0-290-201 MATING CONNECTOR PIns USED ARE 516-290 500 SOLDER EYELET To BE CUT OFF _
+DSSMOD ICKD 2 2943 3 3016 leli 4 3e57sE& 5 3477
+USED 01 M466
+MATL .
+WBS WARD-BECK BySTEMs LTD-
+DRN: MRW DATE JULY 76 CKD Roa SCALE XX TOLS Ara
+6-106
+FINISH
+COMPRESSOR CONTROL AMPLIFIER COMPONENT LAYOUT
+6-106-06-001
+ISS. 5
+Ei3
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+ES
+E3
+El
+E12
+CRB CR7
+E4 044 CRZQRI R4 05
+3 &9 zi 9 R7 R38 Po Crs Z? LMSoi LHIOI
+cs C8 RI4 R27 Rzi
+g 8 R23 R22CR6 89
+25 LM 301
+Ei
+2N4+01
+E2 41 4 4 Qi R9 & 4 Ro +| R8 Rib R3 = RZ Ris c3 5k Q2 2n4+01
+Ri6 500
+033 #+Ro2 R26 Cio R24 R25 Ciz Sk
+R3O S0K
+E15
+Cil Rzo Ri? R84 R2?
+44 26 R3I R29 R39 LM30i Ci3
+R35 Ri CR4 Ri2 Cr3 22 rii Riz ri9p36 9544 LM308 C4 8 414 4 24 LM3oI E9 Eio
+~C7 IOP
+E7
+R37 JM
+E6
+CI4 22/25x
+SPACER 2-56 UNC Thd
+EDAC CONN.Pins N? I0-290-201 MATING CONNECTOR PIns USED ARE 516-290 500 SOLDER EYELET To BE CUT OFF _
+DSSMOD ICKD 2 2943 3 3016 leli 4 3e57sE& 5 3477
+USED 01 M466
+MATL .
+WBS WARD-BECK BySTEMs LTD-
+DRN: MRW DATE JULY 76 CKD Roa SCALE XX TOLS Ara
+6-106
+FIMISH
+COMPRESSOR CONTROL AMPLIFIER COMPONENT LAYOUT
+6-106-06-001
+ISS. 5
+Ei3
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/DYNAMICS/M466/1976 - 6-106-06-001 - 6-106 COMPRESSOR CONTROL AMPLIFIER COMPONENT LAYOUT - DRN MRW - ISS 5.jpg","sha256":"3a2a3632b79b10b5f19cf8e55e3823e919e49eb105abad0eecfaf7db573bbb6d","kind":"module","models":["M466"],"year":1976,"pages":1,"order":[{"page":1,"title_block":[{"number":"B 6-106-06-001","type":"component layout","title":"6-106 / COMPRESSOR CONTROL AMPLIFIER / COMPONENT LAYOUT","date":"JULY '76","year":1976,"drawn":"MRW","issue":"5"}],"dates":[{"year":1976,"kind":"labelled","text":"DATE JULY 76"}],"text":["ES","HDE3 EJ2 EI3 #CR8","CR7","cs d 8 8","CRZQI R4 R5 zi R7 R38 pa Crs Z3 9 RI4 R27 Rzi 25 R23R22CR6 Cg","LMSi LM 301 1","44 8 2N4401 1 4 &","Ris Qi Ri6 033 R25 R3O","R9 Ro 4 R2","TT4 sk 50o Ci2 Sk 5K","2n4+01","04 4 9 9 %& 74","4r35 Ri CR4 Ri? CRB 22 Rzo Ri? R34 R2z 26 R3i R29 R39_","954& LMSo8 C4 8 414 4 LM3oi Ci3","74 ~C IQP","Lm3oi E7 E6","Eio Cl4 22/25x","SPAcER 2-56 UNC Tho","EDAC CONN:Pins n? I0O-290-201","MATiNG CONNECTOR Pins USED","ARE 516-290 - 500 SOLDER EYELET","To BE CuT OFF","IsS MOD [CKD] USED 01 MATL -","2 2943 M466 WBS WARD-BeCK BySTEMS LTD-","3 [3016","4 Bo57G8 DRN MRW 6-106","5 |3477 FINISH DATE JULY ' 76 COMPRESSOR CONTROL AMPLIFIER","CKD","[SCALE COMPONENT  LAYOUT","TOLS _ 6-106-06-001 ISS. 5"]}],"drawing":{"svg":"_traces/3a2a3632b79b10b5.svg","viewBox":[1997,1526],"rotate":0,"size":"B","number":"B 6-106-06-001","title":"6-106 / COMPRESSOR CONTROL AMPLIFIER / COMPONENT LAYOUT","dtype":"06","outlines":"see _traces/3a2a3632b79b10b5.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[1686,256,"ES"],[499,275,"HDE3"],[962,266,"EJ2"],[1092,266,"EI3"],[1513,287,"#CR8"],[1538,322,"CR7"],[1249,391,"cs d"],[552,419,"CRZQI R4 R5"],[761,419,"zi"],[874,417,"R7 R38 pa Crs"],[1066,419,"Z3"],[1186,424,"9 RI4"],[1296,417,"R27"],[1358,417,"Rzi"],[1500,417,"25"],[1591,419,"R23R22CR6 Cg"],[768,448,"LMSi"],[1482,445,"LM 301"],[1020,535,"2N4401"],[550,573,"44"],[1035,575,"Qi"],[1317,573,"1 4 &amp;"],[557,609,"R9 Ro 4"],[881,604,"R2"],[954,599,"Ris"],[1141,599,"Ri6"],[1236,599,"033"],[1540,599,"R25"],[1660,599,"R3O"],[549,655,"TT4"],[887,625,"sk"],[1144,623,"50o"],[1276,636,"Ci2"],[1551,623,"Sk"],[1666,623,"5K"],[1015,660,"2n4+01"],[600,747,"04"],[1288,749,"4 9 9 %&amp;"],[1604,745,"74"],[493,780,"4r35 Ri CR4 Ri? CRB"],[766,781,"22"],[1293,774,"Rzo Ri? R34 R2z"],[1495,779,"26"],[1565,779,"R3i R29 R39_"],[488,830,"954&amp;"],[755,808,"LMSo8"],[851,806,"C4"],[885,825,"8 414 4"],[1259,822,"IQP"],[1489,802,"LM3oi"],[1682,801,"Ci3"],[1071,836,"74"],[1067,862,"Lm3oi"],[1231,883,"E7"],[1729,875,"E6"],[909,906,"Eio"],[1588,908,"Cl4 22/25x"],[1182,976,"SPAcER"],[1296,976,"2-56 UNC Tho"],[866,1028,"EDAC CONN:Pins"],[1101,1026,"n? I0O-290-201"],[856,1066,"MATiNG CONNECTOR"],[1116,1063,"Pins"],[1186,1063,"USED"],[854,1103,"ARE 516-290 - 500"],[1086,1101,"SOLDER EYELET"],[861,1138,"To BE CuT OFF"],[432,1273,"IsS MOD [CKD]"],[687,1273,"USED 01"],[861,1273,"MATL -"],[487,1310,"2943"],[689,1310,"M466"],[1204,1316,"WBS"],[1418,1305,"WARD-BeCK"],[1692,1308,"BySTEMS"],[1907,1308,"LTD-"],[489,1345,"[3016"],[489,1385,"Bo57G8"],[1161,1370,"DRN"],[1263,1370,"MRW"],[1638,1385,"6-106"],[452,1418,"5 |3477"],[861,1412,"FINISH"],[1161,1403,"DATE"],[1266,1403,"JULY ' 76"],[1423,1427,"COMPRESSOR CONTROL AMPLIFIER"],[1163,1437,"CKD"],[1161,1470,"[SCALE"],[1518,1465,"COMPONENT  LAYOUT"],[1163,1515,"TOLS _"],[1565,1520,"6-106-06-001"],[1880,1515,"ISS."]]}}
+```

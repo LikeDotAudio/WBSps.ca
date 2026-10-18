@@ -1,0 +1,1387 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>POD5 — Dual Headset Amplifier</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../../../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../../../index.html">Index</a><a href="../../../Home.html">Wiki home</a><a href="../../../PAGES/Timeline.html">Timeline</a><a href="../../../search.html">Search</a><a href="../../../status.html">Status</a></div><h1>POD5 — Dual Headset Amplifier</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>product</td>
+</tr>
+<tr>
+<td>Series</td>
+<td><a href="../../../PAGES/Series-PODS.html">PODS</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../../../simulator.html?m=POD5">simulator &amp; front panel</a> · <a href="../../../_packages/POD5.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="../../../PAGES/Year-1995.html">1995|28</a> — month &amp; year</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"December 7, 1995" in WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - POD_OLD/POD5/MANUAL/INTER5.WPD</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>medium</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="../../../PAGES/Year-1995.html">1995|28</a>, <a href="../../../PAGES/Year-1996.html">1996|29</a>, <a href="../../../PAGES/Year-1997.html">1997|30</a>, <a href="../../../PAGES/Year-1998.html">1998|31</a>, <a href="../../../PAGES/Year-2014.html">2014|47</a></td>
+</tr>
+<tr>
+<td>Variants</td>
+<td><a href="../../../PAGES/POD5A.html">POD5A</a>, <a href="../../../PAGES/POD5B.html">POD5B</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="index.html">Products/PODS/POD5</a></td>
+</tr>
+</tbody>
+</table><h2>Pictures</h2><div class="thumbs"><a href="../../../viewer.html?f=Products/PODS/POD5/1995%20-%20POD5%20-%20Front.jpg"><img loading="lazy" src="../../../Products/PODS/POD5/1995%20-%20POD5%20-%20Front.jpg" alt="" data-f="Products/PODS/POD5/1995 - POD5 - Front.jpg" data-size="320" onerror="wbsOff(this)">1995 - POD5 - Front.jpg</a><a href="../../../viewer.html?f=Products/PODS/POD5/1995%20-%20POD5%20-%20Information%20Sheet.jpg"><img loading="lazy" src="../../../Products/PODS/POD5/1995%20-%20POD5%20-%20Information%20Sheet.jpg" alt="" data-f="Products/PODS/POD5/1995 - POD5 - Information Sheet.jpg" data-size="320" onerror="wbsOff(this)">1995 - POD5 - Information Sheet.jpg</a><a href="../../../viewer.html?f=Products/PODS/POD5/1995%20-%20POD5%20-%20Rear.jpg"><img loading="lazy" src="../../../Products/PODS/POD5/1995%20-%20POD5%20-%20Rear.jpg" alt="" data-f="Products/PODS/POD5/1995 - POD5 - Rear.jpg" data-size="320" onerror="wbsOff(this)">1995 - POD5 - Rear.jpg</a><a href="../../../viewer.html?f=Products/PODS/POD5/1997%20-%20POD5%20-%20POD5%20-%20POD3BACK%20-%20DRAWING%20%28DXF%29.dxf"><img loading="lazy" src="../../../_previews/Products/PODS/POD5/1997%20-%20POD5%20-%20POD5%20-%20POD3BACK%20-%20DRAWING%20%28DXF%29.dxf.svg" alt="" data-f="Products/PODS/POD5/1997 - POD5 - POD5 - POD3BACK - DRAWING (DXF).dxf" data-size="320" onerror="wbsOff(this)">1997 - POD5 - POD5 - POD3BACK - DRAWING (DXF).dxf</a><a href="../../../viewer.html?f=Products/PODS/POD5/1997%20-%20POD5%20-%20POD5%20-%20POD5BACK%20-%20DRAWING%20%28DXF%29.dxf"><img loading="lazy" src="../../../_previews/Products/PODS/POD5/1997%20-%20POD5%20-%20POD5%20-%20POD5BACK%20-%20DRAWING%20%28DXF%29.dxf.svg" alt="" data-f="Products/PODS/POD5/1997 - POD5 - POD5 - POD5BACK - DRAWING (DXF).dxf" data-size="320" onerror="wbsOff(this)">1997 - POD5 - POD5 - POD5BACK - DRAWING (DXF).dxf</a><a href="../../../viewer.html?f=Products/PODS/POD5/1997%20-%20POD5%20-%20POD5%20-%20POD5FRNT%20-%20DRAWING%20%28DXF%29.dxf"><img loading="lazy" src="../../../_previews/Products/PODS/POD5/1997%20-%20POD5%20-%20POD5%20-%20POD5FRNT%20-%20DRAWING%20%28DXF%29.dxf.svg" alt="" data-f="Products/PODS/POD5/1997 - POD5 - POD5 - POD5FRNT - DRAWING (DXF).dxf" data-size="320" onerror="wbsOff(this)">1997 - POD5 - POD5 - POD5FRNT - DRAWING (DXF).dxf</a></div>
+<h2>Front panel</h2>
+<p><svg class="wbs-panel solo" data-m="POD5" data-n="Dual Headset Amplifier" data-cat="PODS" role="img" aria-label="POD5 front panel"></svg></p>
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Year-1995.html">1995|28</a></td>
+<td>month &amp; year</td>
+<td><code>March 8, 1995</code></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1995%20-%20POD5%20-%20POD5%20-%20POD5%20-%20SCHEMATIC%20%28ORCAD%29.dsn">1995 - POD5 - POD5 - POD5 - SCHEMATIC (ORCAD).dsn</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1995.html">1995|28</a></td>
+<td>month &amp; year</td>
+<td><code>December 7, 1995</code></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1995%20-%20POD5%20-%20SCHEMATIC.wpd">1995 - POD5 - SCHEMATIC.wpd</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-2014.html">2014|47</a></td>
+<td>month &amp; year</td>
+<td><code>Oct.01 2014</code></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/2014%20-%20POD5%20-%20MANUAL%20%282%29.docx">2014 - POD5 - MANUAL (2).docx</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-2014.html">2014|47</a></td>
+<td>month &amp; year</td>
+<td><code>Oct.01 2014</code></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/2014%20-%20POD5%20-%20MANUAL.docx">2014 - POD5 - MANUAL.docx</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Documents (10)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1995%20-%20POD5%20-%20FN5%20%275TH%20PART%20FIELD%27%20-%20DOCUMENT.docx">1995 - POD5 - FN5 '5TH PART FIELD' - DOCUMENT.docx</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1995%20-%20POD5%20-%20FN5%20%275TH%20PART%20FIELD%27%20-%20DOCUMENT.docx.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1995%20-%20POD5%20-%20POD5%20-%20">1995 - POD5 - POD5 - #ESP_OUT.TXT - DOCUMENT.docx</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1995%20-%20POD5%20-%20POD5%20-%20">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1995%20-%20POD5%20-%20POD5%20-%20DRAFTERR.LOG%20-%20DOCUMENT.docx">1995 - POD5 - POD5 - DRAFTERR.LOG - DOCUMENT.docx</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1995%20-%20POD5%20-%20POD5%20-%20DRAFTERR.LOG%20-%20DOCUMENT.docx.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1995%20-%20POD5%20-%20SCHEMATIC.wpd">1995 - POD5 - SCHEMATIC.wpd</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1995%20-%20POD5%20-%20SCHEMATIC.wpd.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1996%20-%20POD5%20-%20">1996 - POD5 - #ESP_OUT.txt</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1996%20-%20POD5%20-%20">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1996%20-%20POD5%20-%20POD5%20-%20GREATER%20THAN%2070%20DB%20BELOW%20-10%20DBU%20OUTPUT%20-%20COMPONENT%20LAYOUT.wpd">1996 - POD5 - POD5 - GREATER THAN 70 DB BELOW -10 DBU OUTPUT - COMPONENT LAYOUT.wpd</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1996%20-%20POD5%20-%20POD5%20-%20GREATER%20THAN%2070%20DB%20BELOW%20-10%20DBU%20OUTPUT%20-%20COMPONENT%20LAYOUT.wpd.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1996%20-%20POD5%20-%20POD5%20-%20INCLUSIVE%20OF%20POWER%20SUPPLY%20-%20FRONT%20PANEL.wpd">1996 - POD5 - POD5 - INCLUSIVE OF POWER SUPPLY - FRONT PANEL.wpd</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1996%20-%20POD5%20-%20POD5%20-%20INCLUSIVE%20OF%20POWER%20SUPPLY%20-%20FRONT%20PANEL.wpd.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1996%20-%20POD5%20-%20POD5%20-%20POD5TRY%20-%20UNKNOWN.wpd">1996 - POD5 - POD5 - POD5TRY - UNKNOWN.wpd</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1996%20-%20POD5%20-%20POD5%20-%20POD5TRY%20-%20UNKNOWN.wpd.md">note</a></td>
+</tr>
+<tr>
+<td>2014|47</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/2014%20-%20POD5%20-%20MANUAL%20%282%29.docx">2014 - POD5 - MANUAL (2).docx</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/2014%20-%20POD5%20-%20MANUAL%20%282%29.docx.md">note</a></td>
+</tr>
+<tr>
+<td>2014|47</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/2014%20-%20POD5%20-%20MANUAL.docx">2014 - POD5 - MANUAL.docx</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/2014%20-%20POD5%20-%20MANUAL.docx.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (3)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1995%20-%20POD5%20-%20Front.jpg">1995 - POD5 - Front.jpg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1995%20-%20POD5%20-%20Front.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1995%20-%20POD5%20-%20Information%20Sheet.jpg">1995 - POD5 - Information Sheet.jpg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1995%20-%20POD5%20-%20Information%20Sheet.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1995%20-%20POD5%20-%20Rear.jpg">1995 - POD5 - Rear.jpg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1995%20-%20POD5%20-%20Rear.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Drawings &amp; design files (16)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1995%20-%20POD5%20-%20POD5%20-%20POD5%20-%20SCHEMATIC%20%28ORCAD%29.dsn">1995 - POD5 - POD5 - POD5 - SCHEMATIC (ORCAD).dsn</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1995%20-%20POD5%20-%20POD5%20-%20POD5%20-%20SCHEMATIC%20%28ORCAD%29.dsn.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1995%20-%20POD5%20-%20POD5%20-%20POD5-3%20-%20DRAWING%20%28AUTOCAD%29.dwg">1995 - POD5 - POD5 - POD5-3 - DRAWING (AUTOCAD).dwg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1995%20-%20POD5%20-%20POD5%20-%20POD5-3%20-%20DRAWING%20%28AUTOCAD%29.dwg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1996%20-%20POD5%20-%20POD5%20-%20LMPOD5-1%20-%20WIRING.dwg">1996 - POD5 - POD5 - LMPOD5-1 - WIRING.dwg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1996%20-%20POD5%20-%20POD5%20-%20LMPOD5-1%20-%20WIRING.dwg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1996%20-%20POD5%20-%20POD5%20-%20LMPOD5-2%20-%20LAYOUT.dwg">1996 - POD5 - POD5 - LMPOD5-2 - LAYOUT.dwg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1996%20-%20POD5%20-%20POD5%20-%20LMPOD5-2%20-%20LAYOUT.dwg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1996%20-%20POD5%20-%20POD5%20-%20LMPOD5-3%20-%20LAYOUT.dwg">1996 - POD5 - POD5 - LMPOD5-3 - LAYOUT.dwg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1996%20-%20POD5%20-%20POD5%20-%20LMPOD5-3%20-%20LAYOUT.dwg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1996%20-%20POD5%20-%20POD5%20-%20POD5-1%20-%20DRAWING%20%28AUTOCAD%29.dwg">1996 - POD5 - POD5 - POD5-1 - DRAWING (AUTOCAD).dwg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1996%20-%20POD5%20-%20POD5%20-%20POD5-1%20-%20DRAWING%20%28AUTOCAD%29.dwg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1996%20-%20POD5%20-%20POD5%20-%20POD5F01%20-%20DRAWING%20%28AUTOCAD%29.dwg">1996 - POD5 - POD5 - POD5F01 - DRAWING (AUTOCAD).dwg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1996%20-%20POD5%20-%20POD5%20-%20POD5F01%20-%20DRAWING%20%28AUTOCAD%29.dwg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1996%20-%20POD5%20-%20POD5%20-%20POD5M01%20-%20DRAWING%20%28AUTOCAD%29.dwg">1996 - POD5 - POD5 - POD5M01 - DRAWING (AUTOCAD).dwg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1996%20-%20POD5%20-%20POD5%20-%20POD5M01%20-%20DRAWING%20%28AUTOCAD%29.dwg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1996%20-%20POD5%20-%20POD5%20-%20POD5M02%20-%20DRAWING%20%28AUTOCAD%29.dwg">1996 - POD5 - POD5 - POD5M02 - DRAWING (AUTOCAD).dwg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1996%20-%20POD5%20-%20POD5%20-%20POD5M02%20-%20DRAWING%20%28AUTOCAD%29.dwg.md">note</a></td>
+</tr>
+<tr>
+<td>1996|29</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1996%20-%20POD5%20-%20POD5%20-%20POD5MAN1%20-%20DRAWING%20%28AUTOCAD%29.dwg">1996 - POD5 - POD5 - POD5MAN1 - DRAWING (AUTOCAD).dwg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1996%20-%20POD5%20-%20POD5%20-%20POD5MAN1%20-%20DRAWING%20%28AUTOCAD%29.dwg.md">note</a></td>
+</tr>
+<tr>
+<td>1997|30</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1997%20-%20POD5%20-%20POD5%20-%20FUNMAN%20-%20DRAWING%20%28AUTOCAD%29.dwg">1997 - POD5 - POD5 - FUNMAN - DRAWING (AUTOCAD).dwg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1997%20-%20POD5%20-%20POD5%20-%20FUNMAN%20-%20DRAWING%20%28AUTOCAD%29.dwg.md">note</a></td>
+</tr>
+<tr>
+<td>1997|30</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1997%20-%20POD5%20-%20POD5%20-%20POD3BACK%20-%20DRAWING%20%28DXF%29.dxf">1997 - POD5 - POD5 - POD3BACK - DRAWING (DXF).dxf</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1997%20-%20POD5%20-%20POD5%20-%20POD3BACK%20-%20DRAWING%20%28DXF%29.dxf.md">note</a></td>
+</tr>
+<tr>
+<td>1997|30</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1997%20-%20POD5%20-%20POD5%20-%20POD5-2%20-%20DRAWING%20%28AUTOCAD%29.dwg">1997 - POD5 - POD5 - POD5-2 - DRAWING (AUTOCAD).dwg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1997%20-%20POD5%20-%20POD5%20-%20POD5-2%20-%20DRAWING%20%28AUTOCAD%29.dwg.md">note</a></td>
+</tr>
+<tr>
+<td>1997|30</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1997%20-%20POD5%20-%20POD5%20-%20POD5BACK%20-%20DRAWING%20%28DXF%29.dxf">1997 - POD5 - POD5 - POD5BACK - DRAWING (DXF).dxf</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1997%20-%20POD5%20-%20POD5%20-%20POD5BACK%20-%20DRAWING%20%28DXF%29.dxf.md">note</a></td>
+</tr>
+<tr>
+<td>1997|30</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1997%20-%20POD5%20-%20POD5%20-%20POD5FRNT%20-%20DRAWING%20%28DXF%29.dxf">1997 - POD5 - POD5 - POD5FRNT - DRAWING (DXF).dxf</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1997%20-%20POD5%20-%20POD5%20-%20POD5FRNT%20-%20DRAWING%20%28DXF%29.dxf.md">note</a></td>
+</tr>
+<tr>
+<td>1997|30</td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1997%20-%20POD5%20-%20POD5%20-%20POD5MAN2%20-%20DRAWING%20%28AUTOCAD%29.dwg">1997 - POD5 - POD5 - POD5MAN2 - DRAWING (AUTOCAD).dwg</a></td>
+<td><a href="../../../viewer.html?f=Products/PODS/POD5/1997%20-%20POD5%20-%20POD5%20-%20POD5MAN2%20-%20DRAWING%20%28AUTOCAD%29.dwg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Parts list — board POD5SRV (119 parts)</h2>
+<p><em>From POD5SRV.WPD; also in <code>timelines/data/bom.csv</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>Part</th>
+<th>Value</th>
+<th>Manufacturer</th>
+<th>Mfr part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DS1</td>
+<td>PWR 'ON' LED</td>
+<td>Dialight</td>
+<td>551-0405</td>
+<td></td>
+</tr>
+<tr>
+<td>F1</td>
+<td>1/4A Secondary Fuse</td>
+<td>Littelfuse</td>
+<td>251.250</td>
+<td></td>
+</tr>
+<tr>
+<td>P3</td>
+<td>Power Connector</td>
+<td>Panduit</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R1</td>
+<td>100K 1% 1/4W Resistor</td>
+<td>Phillips</td>
+<td>MRS25F</td>
+<td></td>
+</tr>
+<tr>
+<td>R2</td>
+<td>8K25 1% 1/4W Resistor</td>
+<td>Phillips</td>
+<td>MRS25F</td>
+<td></td>
+</tr>
+<tr>
+<td>R4</td>
+<td>2K Horizontal Trimpot</td>
+<td>Piher</td>
+<td>PT10V-2K</td>
+<td></td>
+</tr>
+<tr>
+<td>R5</td>
+<td>100K 5% 1/4W Resistor</td>
+<td>Phillips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R6</td>
+<td>16K2 1% 1/4W Resistor</td>
+<td>Phillips</td>
+<td>MRS25F</td>
+<td></td>
+</tr>
+<tr>
+<td>R7</td>
+<td>100K 1% 1/4W Resistor</td>
+<td>Phillips</td>
+<td>MRS25F</td>
+<td></td>
+</tr>
+<tr>
+<td>R8</td>
+<td>12K 5% 1/4W Resistor</td>
+<td>Phillips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R9</td>
+<td>100K 1% 1/4W Resistor</td>
+<td>Phillips</td>
+<td>MRS25F</td>
+<td></td>
+</tr>
+<tr>
+<td>R10</td>
+<td>8K25 1% 1/4W Resistor</td>
+<td>Phillips</td>
+<td>MRS25F</td>
+<td></td>
+</tr>
+<tr>
+<td>R11</td>
+<td>7K5 1% 1/4W ResistoR</td>
+<td>Philips</td>
+<td>MRS25F</td>
+<td></td>
+</tr>
+<tr>
+<td>R12</td>
+<td>2K Potentiometer</td>
+<td>Piher</td>
+<td>PT10V-2K</td>
+<td></td>
+</tr>
+<tr>
+<td>R13</td>
+<td>100K 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R14</td>
+<td>8K2 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R15</td>
+<td>6K8 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R16</td>
+<td>4K3 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R17</td>
+<td>150K 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R18</td>
+<td>15K 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R19</td>
+<td>4K7 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R20</td>
+<td>4K7 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R21</td>
+<td>2R2 5% 1W Resistor</td>
+<td>Philips</td>
+<td>R01MF</td>
+<td></td>
+</tr>
+<tr>
+<td>R22</td>
+<td>2R2 5% 1W Resistor</td>
+<td>Philips</td>
+<td>R01MF</td>
+<td></td>
+</tr>
+<tr>
+<td>R23</td>
+<td>100 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R24</td>
+<td>150K 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R25</td>
+<td>15K 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R26</td>
+<td>4K7 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R27</td>
+<td>4K7 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R28</td>
+<td>2R2 5% 1W Resistor</td>
+<td>Philips</td>
+<td>R01MF</td>
+<td></td>
+</tr>
+<tr>
+<td>R29</td>
+<td>2R2 5% 1W Resistor</td>
+<td>Philips</td>
+<td>R01MF</td>
+<td></td>
+</tr>
+<tr>
+<td>R30</td>
+<td>100 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R31</td>
+<td>100K 1% 1/4W Resistor</td>
+<td>Philips</td>
+<td>MRS25F</td>
+<td></td>
+</tr>
+<tr>
+<td>R32</td>
+<td>100K 1% 1/4W Resistor</td>
+<td>Philips</td>
+<td>MRS25F</td>
+<td></td>
+</tr>
+<tr>
+<td>R33</td>
+<td>33K2 1% 1/4W Resistor</td>
+<td>Philips</td>
+<td>MRS25F</td>
+<td></td>
+</tr>
+<tr>
+<td>R34</td>
+<td>33K2 1% 1/4W Resistor</td>
+<td>Philips</td>
+<td>MRS25F</td>
+<td></td>
+</tr>
+<tr>
+<td>R35</td>
+<td>150K 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R36</td>
+<td>33K2 1% 1/4W Resistor</td>
+<td>Philips</td>
+<td>MRS25F</td>
+<td></td>
+</tr>
+<tr>
+<td>R37</td>
+<td>33K2 1% 1/4W Resistor</td>
+<td>Philips</td>
+<td>MRS25F</td>
+<td></td>
+</tr>
+<tr>
+<td>R38</td>
+<td>33K2 1% 1/4W Resistor</td>
+<td>Philips</td>
+<td>MRS25F</td>
+<td></td>
+</tr>
+<tr>
+<td>R39</td>
+<td>33K2 1% 1/4W Resistor</td>
+<td>Philips</td>
+<td>MRS25F</td>
+<td></td>
+</tr>
+<tr>
+<td>R40</td>
+<td>2K2 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R41</td>
+<td>33K 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R42</td>
+<td>33K 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R43</td>
+<td>10K 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R44</td>
+<td>13K 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R45</td>
+<td>13K 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R46</td>
+<td>100K 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R47</td>
+<td>5K Potentiometer</td>
+<td>Clarostat</td>
+<td>10-072</td>
+<td></td>
+</tr>
+<tr>
+<td>R48</td>
+<td>100K 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R49</td>
+<td>20K Potentiometer</td>
+<td>Piher</td>
+<td>PT10H-20K</td>
+<td></td>
+</tr>
+<tr>
+<td>R50</td>
+<td>100K 1% 1/4W Resistor</td>
+<td>Phillips</td>
+<td>MRS25F</td>
+<td></td>
+</tr>
+<tr>
+<td>R51</td>
+<td>8K25 1% 1/4W Resistor</td>
+<td>Phillips</td>
+<td>MRS25F</td>
+<td></td>
+</tr>
+<tr>
+<td>R52</td>
+<td>7K5 1% 1/4W ResistoR</td>
+<td>Philips</td>
+<td>MRS25F</td>
+<td></td>
+</tr>
+<tr>
+<td>R53</td>
+<td>2K Potentiometer</td>
+<td>Piher</td>
+<td>PT10V-2K</td>
+<td></td>
+</tr>
+<tr>
+<td>R54</td>
+<td>100K 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R55</td>
+<td>8K2 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R56</td>
+<td>6K8 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R57</td>
+<td>4K3 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R58</td>
+<td>100K 1% 1/4W Resistor</td>
+<td>Phillips</td>
+<td>MRS25F</td>
+<td></td>
+</tr>
+<tr>
+<td>R59</td>
+<td>8K25 1% 1/4W Resistor</td>
+<td>Phillips</td>
+<td>MRS25F</td>
+<td></td>
+</tr>
+<tr>
+<td>R60</td>
+<td>7K5 1% 1/4W ResistoR</td>
+<td>Philips</td>
+<td>MRS25F</td>
+<td></td>
+</tr>
+<tr>
+<td>R61</td>
+<td>2K Potentiometer</td>
+<td>Piher</td>
+<td>PT10V-2K</td>
+<td></td>
+</tr>
+<tr>
+<td>R62</td>
+<td>100K 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R63</td>
+<td>8K2 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R64</td>
+<td>6K8 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R65</td>
+<td>4K3 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R66</td>
+<td>150K 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R67</td>
+<td>15K 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R68</td>
+<td>4K7 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R69</td>
+<td>4K7 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R70</td>
+<td>2R2 5% 1W Resistor</td>
+<td>Philips</td>
+<td>R01MF</td>
+<td></td>
+</tr>
+<tr>
+<td>R71</td>
+<td>2R2 5% 1W Resistor</td>
+<td>Philips</td>
+<td>R01MF</td>
+<td></td>
+</tr>
+<tr>
+<td>R72</td>
+<td>100 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R73</td>
+<td>150K 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R74</td>
+<td>15K 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R75</td>
+<td>4K7 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R76</td>
+<td>4K7 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R77</td>
+<td>2R2 5% 1W Resistor</td>
+<td>Philips</td>
+<td>R01MF</td>
+<td></td>
+</tr>
+<tr>
+<td>R78</td>
+<td>2R2 5% 1W Resistor</td>
+<td>Philips</td>
+<td>R01MF</td>
+<td></td>
+</tr>
+<tr>
+<td>R79</td>
+<td>100 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R80</td>
+<td>100K 1% 1/4W Resistor</td>
+<td>Philips</td>
+<td>MRS25F</td>
+<td></td>
+</tr>
+<tr>
+<td>R81</td>
+<td>100K 1% 1/4W Resistor</td>
+<td>Philips</td>
+<td>MRS25F</td>
+<td></td>
+</tr>
+<tr>
+<td>R82</td>
+<td>33K2 1% 1/4W Resistor</td>
+<td>Philips</td>
+<td>MRS25F</td>
+<td></td>
+</tr>
+<tr>
+<td>R83</td>
+<td>33K2 1% 1/4W Resistor</td>
+<td>Philips</td>
+<td>MRS25F</td>
+<td></td>
+</tr>
+<tr>
+<td>R84</td>
+<td>150K 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R85</td>
+<td>33K2 1% 1/4W Resistor</td>
+<td>Philips</td>
+<td>MRS25F</td>
+<td></td>
+</tr>
+<tr>
+<td>R86</td>
+<td>33K2 1% 1/4W Resistor</td>
+<td>Philips</td>
+<td>MRS25F</td>
+<td></td>
+</tr>
+<tr>
+<td>R87</td>
+<td>33K2 1% 1/4W Resistor</td>
+<td>Philips</td>
+<td>MRS25F</td>
+<td></td>
+</tr>
+<tr>
+<td>R88</td>
+<td>33K2 1% 1/4W Resistor</td>
+<td>Philips</td>
+<td>MRS25F</td>
+<td></td>
+</tr>
+<tr>
+<td>R89</td>
+<td>13K 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R90</td>
+<td>13K 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R91</td>
+<td>5K Potentiometer</td>
+<td>Clarostat</td>
+<td>10-072</td>
+<td></td>
+</tr>
+<tr>
+<td>R92</td>
+<td>4K7 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R93</td>
+<td>270 5% 3W Resistor</td>
+<td>Dale</td>
+<td>CW-2B 270</td>
+<td></td>
+</tr>
+<tr>
+<td>R94</td>
+<td>270 5% 3W Resistor</td>
+<td>Dale</td>
+<td>CW-2B 270</td>
+<td></td>
+</tr>
+<tr>
+<td>R95</td>
+<td>15K 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R96</td>
+<td>15K 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R97</td>
+<td>7K5 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R98</td>
+<td>15K 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R99</td>
+<td>6K8 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R100</td>
+<td>91K 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R101</td>
+<td>7K5 5% 1/4W Resistor</td>
+<td>Philips</td>
+<td>CR25</td>
+<td></td>
+</tr>
+<tr>
+<td>R102</td>
+<td>10K 5% 3W Resistor</td>
+<td>Dale</td>
+<td>CW-2B 10K</td>
+<td></td>
+</tr>
+<tr>
+<td>T1</td>
+<td>Power Transformer</td>
+<td>Hammond</td>
+<td>229C56</td>
+<td></td>
+</tr>
+<tr>
+<td>U1</td>
+<td>Integrated Circuit</td>
+<td>National</td>
+<td>NE5534N</td>
+<td></td>
+</tr>
+<tr>
+<td>U2</td>
+<td>Integrated Circuit</td>
+<td>National</td>
+<td>NE5534N</td>
+<td></td>
+</tr>
+<tr>
+<td>U3</td>
+<td>Integrated Circuit</td>
+<td>National</td>
+<td>LM833N</td>
+<td></td>
+</tr>
+<tr>
+<td>U4</td>
+<td>Integrated Circuit</td>
+<td>National</td>
+<td>LM833N</td>
+<td></td>
+</tr>
+<tr>
+<td>U5</td>
+<td>Integrated Circuit</td>
+<td>Motorola</td>
+<td>74HC4053CN</td>
+<td></td>
+</tr>
+<tr>
+<td>U6</td>
+<td>Integrated Circuit</td>
+<td>Motorola</td>
+<td>74HC4053CN</td>
+<td></td>
+</tr>
+<tr>
+<td>U7</td>
+<td>Integrated Circuit</td>
+<td>Motorola</td>
+<td>74HC4053CN</td>
+<td></td>
+</tr>
+<tr>
+<td>U8</td>
+<td>Integrated Circuit</td>
+<td>National</td>
+<td>LM833N</td>
+<td></td>
+</tr>
+<tr>
+<td>U9</td>
+<td>Integrated Circuit</td>
+<td>National</td>
+<td>NE5534N</td>
+<td></td>
+</tr>
+<tr>
+<td>U10</td>
+<td>Integrated Circuit</td>
+<td>National</td>
+<td>NE5534N</td>
+<td></td>
+</tr>
+<tr>
+<td>U11</td>
+<td>Integrated Circuit</td>
+<td>National</td>
+<td>LM833N</td>
+<td></td>
+</tr>
+<tr>
+<td>U12</td>
+<td>Integrated Circuit</td>
+<td>Motorola</td>
+<td>74HC4053CN</td>
+<td></td>
+</tr>
+<tr>
+<td>U13</td>
+<td>Integrated Circuit</td>
+<td>Motorola</td>
+<td>74HC4053CN</td>
+<td></td>
+</tr>
+<tr>
+<td>U14</td>
+<td>Integrated Circuit</td>
+<td>Motorola</td>
+<td>74HC4053CN</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="../../../PAGES/Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>Specifications (2)</h3>
+<details><summary>Specifications — 99 words · 2014 - POD5 - MANUAL (2).docx, page 1</summary><p>Nominal Operating Level +4dBu  Headset Gain off  to +10dB Talkback Gain -6dB to +6dB Max Output Level +24dB @ 600 Ω, +21dB @60Ω Frequency Response ± 0.2 dB, 20Hz to 20kHz S/N better than 80 dB, 20Hz to 20kHz  Total Harmonic Distortion better than 0.05%, 20Hz to 20kHz Input Impedance greater than 20,000 Ω Stereo Separation better than 60dB, 20Hz to 20kHz Crosstalk better than 80dB, 20Hz to 20kHz</p><p>Power Requirements                        115 VAC ,60Hz                                                                    (available upon request) 230 VAC,50Hz Dimensions 8.69&quot; wide x 1.73&quot; high x 7.0&quot; deep (221mm x 44mm x 178 mm) Weight 1.37 kg (3.01 lbs)</p><p class="bp">Also: <a href="../../../PAGES/Boilerplate.html#bp-d598fd57bc8328e0">specs boilerplate (56 devices)</a></p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Products/PODS/POD5/2014%20-%20POD5%20-%20MANUAL%20%282%29.docx">2014 - POD5 - MANUAL (2).docx</a>, p. 1</li>
+<li>also in: <a href="../../../viewer.html?f=Products/PODS/POD5/2014%20-%20POD5%20-%20MANUAL.docx">2014 - POD5 - MANUAL.docx</a>, p. 1</li>
+</ul>
+<h3>Operation (1)</h3>
+<details><summary>Operation — 214 words · 1996 - POD5 - POD5 - INCLUSIVE OF POWER SUPPLY - FRONT PANEL.wpd, page 1</summary><p>FROM 110 VOLTS ac:</p><p>■   Two jumpers must be present, one connection Y1 to Y2, the other connection Y3   and Y4.  This corresponds to JP2 and JP3 being in place.</p><p>FOR</p><p>FROM 220 VOLTS ac:</p><p>■ One jumper must be present, connecting Y2 and Y3.  This corresponds to JP1  being in place.</p><p>Power Requirement:            110 or 220 volts ac, 60 or 50 Hz; 5 Watts. Ambient Temperature:         0o to 50o Celsius. Relative Humidity:               20 % to 90 %, non-condensing. Dimensions:                   8.69&quot; wide x 1.73&quot; high x 7.00&quot; deep (221 mm x 44 mm x 178 mm).</p><p>Sensitivity:                   0 to +8 dBu for 0 dBu output. Frequency Response:           ±0.2 dB, 20 Hz to 20 kHz. Noise:                    Greater than 65 dB below 0 dBu output. (20 Hz to 30 kHz). Total Harmonic Distortion:            Less than 0.05%, 20 Hz to 20 kHz. Dynamic Range:                Greater than 90 dB. Input Impedance:                20 000 ohms or greater, balanced. Source Impedance:             600 ohms or less, balanced. Output Impedance:               Less than 100 ohms, unbalanced. Load Impedance:             600 ohms or greater, unbalanced.</p><p>Channel Separation:          Greater than 55 dB, 20Hz to 20kHz.</p><p>Crosstalk:                 Greater than 60 dB, 20Hz to 20kHz.</p><p>Maximun Output:                +24 dbm, 600 ohms, unbalanced.</p><p>Olla-Podrida</p><p>Operating Instructions</p><p>POD-5 DUAL HEADSET AMPLIFIER</p><p>Before operating this product, please read these instructions carefully</p><p class="bp">Also: <a href="../../../PAGES/Boilerplate.html#bp-049e9d0d21dcde3e">operation boilerplate (5 devices)</a></p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Products/PODS/POD5/1996%20-%20POD5%20-%20POD5%20-%20INCLUSIVE%20OF%20POWER%20SUPPLY%20-%20FRONT%20PANEL.wpd">1996 - POD5 - POD5 - INCLUSIVE OF POWER SUPPLY - FRONT PANEL.wpd</a>, p. 1</li>
+</ul>
+<h3>Maintenance &amp; alignment (1)</h3>
+<details><summary>Adjustment — 928 words · 1996 - POD5 - POD5 - GREATER THAN 70 DB BELOW -10 DBU OUTPUT - COMPONENT LAYOUT.wpd, page 1</summary><p>METHODS</p><p>Notes: Set switches and controls in the following      positions, unless specified otherwise. .Power Switch&#x27;ON&#x27; .Output Level Controls: Maximum .R16 and R5: Maximum .If unit has been outdoors, be sure that the         temperature has been stabilized</p><p>➀    Common Mode Rejection Nulling</p><p>Objective:  To Minimize transmission of common mode signals through the POD-1 balanced audio input to the unbalanced audio output.</p><p>Equipment: Audio Oscillator  Audio Meter Test Cables</p><p>Procedure:</p><p>a) Inject a +4 dBu test signal into the left POD-1 balanced input (J1) at a frequency of 60Hz.</p><p>b)    Measure a reference level on the unbalanced output.  Note this level.</p><p>c)  Remove one leg of the balanced audio signal.  Connect the &quot;hot pins&quot; (2 and 3 on the XLR input) to the same unbalanced leg.  Increase the generator level by +6dB to +10 dBu.  While monitoring the unbalanced output (J3), trim potentiometer R5 for minimum signal.  This should be 80 dB below the reference level noted previously.</p><p>d)  Repeat the process for the right channel, adjusting R16 for minimum signal present      at the Right unbalanced output (J4). ➁  Balanced to Unbalanced Frequency Response and Distortion Measurement</p><p>Objective:   To verify the transparency of POD-1 to the audio spectrum when converting balanced audio to unbalanced audio.</p><p>Procedure:</p><p>a) Inject a 1 kHz, +0 dBu signal into the right balanced input (J2).  Measure audio output at the right unbalanced output (J4).  Adjust R21 (front panel accessible) for  -10 dBu at J4.  Change the input signal level to +8 dBu.  Verify that a -10 dBu signal can be obtained at the output jack.  Set the generator for +4 dBu input, and trim the output level for -10 dBu.</p><p>b)  Sweep the signal generator through the audio spectrum.  The signal should be within 0.2 dB of -10 dBu between 20 Hz and 20 kHz, with the output unterminated.</p><p>c)  Measure the total harmonic distortion plus noise at several selected points across the spectrum.  It should not exceed 0.02%, when measured at 10 dB above nominal signal level.</p><p>d)   Turn the audio signal off.  With a 600Ω termination on the balanced input, the output should read -80       dBu absolute, when passed through a 20 kHz low pass filter.</p><p>e)    Repeat steps a through d for the left channel.</p><p>➂  Unbalanced to Balanced Frequency Response and Distortion Measurement</p><p>Objective:   To verify the audio transparency of POD-1 when converting unbalanced audio to balanced audio.</p><p>Procedure:</p><p>a) Inject a 1 kHz, -10 dBu signal into the left unbalanced input (J5).  Measure audio output at the left balanced output (P1).  Adjust R27 (front panel accessible) for  +0 dBu at P1.  Adjust R27 and verify that a +8 dBu signal is obtainable at P1.  Set R27 for +4 dBu output level for -10 dBu input level.</p><p>b) Sweep the signal generator through the audio spectrum.  The signal should be within 0.2 dB of +4 dBu between 20 Hz and 20 kHz, with the output unterminated.</p><p>c)   Measure the total harmonic distortion plus noise at several selected points across the spectrum.  It should not exceed 0.02%, when measured at 10 dB above nominal signal level.</p><p>d)   Turn the audio signal off.  With a 600Ω termination on the unbalanced input, the output should read -85 dBu absolute, when passed through a 20 kHz low pass filter.</p><p>e)    Repeat steps a through d for the right channel.</p><p>Block Diagram</p><p>POD-5 Parts List</p><p>Reference Designator   Part Value      Manufacturer        Manufacturer&#x27;s Part Number</p><p>C1    47/50   Phillips    03590015 C2 47/50   Phillips    03590015 C3 0.1/50  Phillips    K104K20X7RFVBWN C4  220/10  ITT 220M10 C5   47/50   Phillips    03590015</p><p>C6   47/50   Phillips    03590015 C7 0.1/50  Phillips    K104K20X7RFVBWN C8  0.1/50  Phillips    K104K20X7RFVBWN C9  220/10  ITT 220M10 C10 through C13  0.1/50  Phillips    K104K20X7RFVBWN</p><p>C14   0.01    Aselco  CQ92-MC-100-103J C15 through C18    47/50   Phillips    03590015 C19 through C21    0.1/50  Phillips    K104K20X7RFVBWN C22 through C25 22P Phillips    638-10229 C26           0.1/50  Phillips    K104K20X7RFVBWN</p><p>C27   47/50   Phillips    03590015 C28    0.1/50  Phillips    K104K20X7RFVBWN C29 220/10  ITT 220M10 C30  47/50   Phillips    03590015 C31    47/50   Phillips    03590015</p><p>C32  0.1/50  Phillips    K104K20X7RFVBWN C33 0.1/50  Phillips    K104K20X7RFVBWN C34 220/10  ITT 220M10 C35 through C38  0.1/50  Phillips    K104K20X7RFVBWN        C39      47/50   Phillips    03590015</p><p>C40          47/50   Phillips    03590015 C41        0.1/50  Phillips    K104K20X7RFVBWN        C42  0.1/50  Phillips    K104K20X7RFVBWN C43 through C46 22P Phillips    638-10229 C47   0.01    Aselco  CQ92-MC-100-103J</p><p>C48  0.1/50  Phillips    K104K20X7RFVBWN C49 47/50   Phillips    03590015 C50 through C53    10/25   ITT 10M25        C54    0.1/50  Phillips    K104K20X7RFVBWN C55 0.1/50  Phillips    K104K20X7RFVBWN</p><p>C56   1000/63 Phillips    02118102 C57    1000/63 Phillips    02118102 C58    680/63  Phillips    02118681</p><p>D1 through D11   1N4003  Motorola    1N4003 D12              1N4748  National    1N4748 D13              1N4748  National    1N4748 D14              1N4003  Motorola    1N4003 D15              1N4003  Motorola    1N4003</p><p>DS1    PWR &#x27;ON&#x27; LED  Dialight    551-0405</p><p>F1   1/4A Secondary Fuse Littelfuse  251.250</p><p>J1 and J2 XLR-3F  Neutrik  J3 through J6  RCA x 4</p><p>P1 and P2 XLR-3M  Neutrik P3  Power Connector Panduit</p><p>R1    100K 1% 1/4W Resistor   Phillips    MRS25F  R2  8K25 1% 1/4W Resistor   Phillips    MRS25F  R3  7K5 1%  1/4W Resistor   Phillips    MRS25F  R4  2K Horizontal Trimpot   Piher   PT10V-2K    R5  100K 5% 1/4W Resistor   Phillips    CR25 Reference Designator   Part Value  Manufacturer    Manufacturer&#x27;s Part Number</p><p>R6    16K2 1% 1/4W Resistor   Phillips    MRS25F  R7  100K 1% 1/4W Resistor   Phillips    MRS25F  R8  12K 5% 1/4W Resistor    Phillips    CR25    R9  100K 1% 1/4W Resistor   Phillips    MRS25F  R10 8K25 1% 1/4W Resistor   Phillips    MRS25F</p><p>R11    7K5 1% 1/4W ResistoR    Philips MRS25F R12  2K Potentiometer    Piher   PT10V-2K R13    100K 5% 1/4W Resistor   Philips CR25 R14    8K2 5% 1/4W Resistor    Philips CR25 R15    6K8 5% 1/4W Resistor    Philips CR25</p><p>R16  4K3 5% 1/4W Resistor    Philips CR25 R17    150K 5% 1/4W Resistor   Philips CR25 R18    15K 5% 1/4W Resistor    Philips CR25 R19    4K7 5% 1/4W Resistor    Philips CR25 R20    4K7 5% 1/4W Res</p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Products/PODS/POD5/1996%20-%20POD5%20-%20POD5%20-%20GREATER%20THAN%2070%20DB%20BELOW%20-10%20DBU%20OUTPUT%20-%20COMPONENT%20LAYOUT.wpd">1996 - POD5 - POD5 - GREATER THAN 70 DB BELOW -10 DBU OUTPUT - COMPONENT LAYOUT.wpd</a>, p. 1</li>
+</ul>
+<h3>Warranty (2)</h3>
+<details><summary>Warranty — 0 words · 2014 - POD5 - MANUAL (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="../../../PAGES/Boilerplate.html#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Products/PODS/POD5/2014%20-%20POD5%20-%20MANUAL%20%282%29.docx">2014 - POD5 - MANUAL (2).docx</a>, p. 1</li>
+</ul>
+<details><summary>Warranty — 0 words · 2014 - POD5 - MANUAL.docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="../../../PAGES/Boilerplate.html#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="../../../PAGES/Boilerplate.html#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
+<ul>
+<li>source: <a href="../../../viewer.html?f=Products/PODS/POD5/2014%20-%20POD5%20-%20MANUAL.docx">2014 - POD5 - MANUAL.docx</a>, p. 1</li>
+</ul>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;POD5&quot;,
+ &quot;name&quot;: &quot;Dual Headset Amplifier&quot;,
+ &quot;category&quot;: &quot;PODS&quot;,
+ &quot;year&quot;: 1995,
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD5/1995 - POD5 - FN5 &#x27;5TH PART FIELD&#x27; - DOCUMENT.docx&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD5/1995 - POD5 - Front.jpg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD5/1995 - POD5 - Information Sheet.jpg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD5/1995 - POD5 - POD5 - #ESP_OUT.TXT - DOCUMENT.docx&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD5/1995 - POD5 - POD5 - DRAFTERR.LOG - DOCUMENT.docx&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD5/1995 - POD5 - POD5 - POD5 - SCHEMATIC (ORCAD).dsn&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD5/1995 - POD5 - POD5 - POD5-3 - DRAWING (AUTOCAD).dwg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD5/1995 - POD5 - Rear.jpg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD5/1995 - POD5 - SCHEMATIC.wpd&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD5/1996 - POD5 - #ESP_OUT.txt&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD5/1996 - POD5 - POD5 - GREATER THAN 70 DB BELOW -10 DBU OUTPUT - COMPONENT LAYOUT.wpd&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD5/1996 - POD5 - POD5 - INCLUSIVE OF POWER SUPPLY - FRONT PANEL.wpd&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD5/1996 - POD5 - POD5 - LMPOD5-1 - WIRING.dwg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD5/1996 - POD5 - POD5 - LMPOD5-2 - LAYOUT.dwg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD5/1996 - POD5 - POD5 - LMPOD5-3 - LAYOUT.dwg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD5/1996 - POD5 - POD5 - POD5-1 - DRAWING (AUTOCAD).dwg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD5/1996 - POD5 - POD5 - POD5F01 - DRAWING (AUTOCAD).dwg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD5/1996 - POD5 - POD5 - POD5M01 - DRAWING (AUTOCAD).dwg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD5/1996 - POD5 - POD5 - POD5M02 - DRAWING (AUTOCAD).dwg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD5/1996 - POD5 - POD5 - POD5MAN1 - DRAWING (AUTOCAD).dwg&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD5/1996 - POD5 - POD5 - POD5TRY - UNKNOWN.wpd&quot;,
+   &quot;year&quot;: 1996,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD5/1997 - POD5 - POD5 - FUNMAN - DRAWING (AUTOCAD).dwg&quot;,
+   &quot;year&quot;: 1997,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD5/1997 - POD5 - POD5 - POD3BACK - DRAWING (DXF).dxf&quot;,
+   &quot;year&quot;: 1997,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD5/1997 - POD5 - POD5 - POD5-2 - DRAWING (AUTOCAD).dwg&quot;,
+   &quot;year&quot;: 1997,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD5/1997 - POD5 - POD5 - POD5BACK - DRAWING (DXF).dxf&quot;,
+   &quot;year&quot;: 1997,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD5/1997 - POD5 - POD5 - POD5FRNT - DRAWING (DXF).dxf&quot;,
+   &quot;year&quot;: 1997,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD5/1997 - POD5 - POD5 - POD5MAN2 - DRAWING (AUTOCAD).dwg&quot;,
+   &quot;year&quot;: 1997,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD5/2014 - POD5 - MANUAL (2).docx&quot;,
+   &quot;year&quot;: 2014,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD5/2014 - POD5 - MANUAL.docx&quot;,
+   &quot;year&quot;: 2014,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;sections&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../../../_catalog/wbs_reels.js" defer></script><script src="../../../_catalog/wbs_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from POD5.md</small></div></article><script src="../../../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

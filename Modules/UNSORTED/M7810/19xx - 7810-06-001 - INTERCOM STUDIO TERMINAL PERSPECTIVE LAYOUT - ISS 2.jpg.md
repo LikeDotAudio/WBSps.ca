@@ -1,0 +1,49 @@
+# 19xx - 7810-06-001 - INTERCOM STUDIO TERMINAL PERSPECTIVE LAYOUT - ISS 2.jpg
+Wiki page: [M7810](../../../PAGES/M7810.md)
+
+
+- **Year:** unknown (title block (read by eye))
+- **Module:** M7810
+- **Category:** COMMUNICATION
+- **Module year estimate:** unknown —
+
+## Title block (found by software, read by eye)
+
+- **Drawing:** B 7810-06-001
+- **Size:** B
+- **Title:** M7810 / INTERCOM STUDIO TERMINAL / PERSPECTIVE LAYOUT
+- **Issue:** 2
+- **Confidence:** high
+
+M7810 intercom studio terminal perspective layout Title block at bottom left reading sideways.
+
+- **Original file:** `WBSps.env/WBS Photos-1-001/B7810-06-001.jpg`
+- **SHA-256:** `c34ce09eb7fb1a4f890e1fd959c797b3b95cf5197ff467733c1999fc49230dae`
+- **Size:** 4,842,256 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR)
+
+```text
+8 3 J4 2 2 L
+h 1
+JI 3 01
+1 4 0 8 8
+2 8
+3
+28 8
+8 # ; 8
+8
+2
+3  8 1 7 1  1 9 8 1
+8
+8 6
+```
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/UNSORTED/M7810/19xx - 7810-06-001 - INTERCOM STUDIO TERMINAL PERSPECTIVE LAYOUT - ISS 2.jpg","sha256":"c34ce09eb7fb1a4f890e1fd959c797b3b95cf5197ff467733c1999fc49230dae","kind":"module","models":["M7810"],"pages":1,"order":[{"page":1,"title_block":[{"number":"B 7810-06-001","type":"component layout","title":"M7810 / INTERCOM STUDIO TERMINAL / PERSPECTIVE LAYOUT","issue":"2"}],"text":["0","3 3","28","h","3 h","0","1","8","1","W"]}],"drawing":{"svg":"_traces/c34ce09eb7fb1a4f.svg","viewBox":[2000,1414],"rotate":90,"size":"B","number":"B 7810-06-001","title":"M7810 / INTERCOM STUDIO TERMINAL / PERSPECTIVE LAYOUT","dtype":"06","outlines":"see _traces/c34ce09eb7fb1a4f.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")"}}
+```

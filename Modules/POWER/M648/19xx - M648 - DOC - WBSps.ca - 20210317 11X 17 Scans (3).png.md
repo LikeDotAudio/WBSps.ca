@@ -1,0 +1,135 @@
+# 19xx - M648 - DOC - WBSps.ca - 20210317 11X 17 Scans (3).png
+Wiki page: [Documents](../../../PAGES/Documents.md)
+
+
+- **Year:** unknown (unknown)
+- **Type:** document scan
+- **About:** M648
+
+## Text recovered by OCR
+
+> 33july6s -4 Wa$ >A S42.4 6 WAC Cr2 JLY !e/eAL oDiFIED AY 26/70 5 DJ6 Mopified us 10 /71 2N3442 OR 2n4347 P2 R2 48v 3 5W R4 *SK 5W F2 1.SA <RI <10 5w 00-7 RD 13 5 B WAS Ces DA 342-4,02 S Soo/s ReG ED WAS Mus Mi36 {c'S/7i Al SENSE 15 48V CRI-4 REGULATOR CARD Mi36 IN5404 X4 SENSE PI RD Swi BN IISVAC 60 Hz 2A SB zsoo/i00 DS/ R3 155 OR 16 5w GN F3 KA 0 CR5-8 IN5404 X4 +24V GN 24V C2 470/35 NOTE SENSING DO NOT CONNECT LOAD AcRoss SENSING LEADS LOAD To PINs 2 43 (+) To Pins 10 4 |I(-) JUMPER SENSE PIN (+) To PiNS 243 PIN 9 (-) TO PINS 10 $ M WARD BECK SYSTEMS LTD POWER SUPPLY M648 SCHEMATIC B 648 02 ooi IsS
+- **Original file:** `WBSps.env/PUBLIC/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/WBSps.ca - 20210317 11X 17 Scans  (33).png`
+- **SHA-256:** `290d286ee0cf5bb72da665386e1a2d87fa99f16f94a1bdc6e7f8a86bf6674823`
+- **Size:** 13,692,960 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 2 words corrected)
+
+```text
+33july6s -4 Wa$ >A S42.4 6 WAC Cr2 JLY !e/eAL MODIFIED AY 26/70 5 DJ6 Modified us 10 /71
+2N3442 OR 2n4347
+P2
+R2
+48v
+3
+5W
+R4 *SK 5W
+F2 1.SA
+<RI <10 5w
+00-7 RD
+13
+5 B WAS Ces DA 342-4,02 S Soo/s ReG ED WAS Mus Mi36 {c'S/7i Al
+SENSE
+15
+48V
+CRI-4
+REGULATOR CARD Mi36
+IN5404 X4
+SENSE
+PI
+RD
+Swi
+BN
+IISVAC 60 Hz
+2A SB
+zsoo/i00
+DS/
+R3 155
+OR
+16
+5w
+GN
+F3 KA 0
+CR5-8 IN5404 X4
++24V
+GN
+24V
+C2
+470/35
+NOTE SENSING DO NOT CONNECT LOAD AcRoss SENSING LEADS LOAD To PINs 2 43 (+) To Pins 10 4 |I(-) JUMPER SENSE PIN (+) To PiNS 243 PIN 9 (-) TO PINS 10 $ M
+WARD BECK SYSTEMS LTD
+POWER SUPPLY M648 SCHEMATIC
+B
+648 02 ooi
+IsS
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+33july6s -4 Wa$ >A S42.4 6 WAC Cr2 JLY !e/eAL oDiFIED AY 26/70 5 DJ6 Mopified us 10 /71
+2N3442 OR 2n4347
+P2
+R2
+48v
+3
+5W
+R4 *SK 5W
+F2 1.SA
+<RI <10 5w
+00-7 RD
+13
+5 B WAS Ces DA 342-4,02 S Soo/s ReG ED WAS Mus Mi36 {c'S/7i Al
+SENSE
+15
+48V
+CRI-4
+REGULATOR CARD Mi36
+IN5404 X4
+SENSE
+PI
+RD
+Swi
+BN
+IISVAC 60 Hz
+2A SB
+zsoo/i00
+DS/
+R3 155
+OR
+16
+5w
+GN
+F3 KA 0
+CR5-8 IN5404 X4
++24V
+GN
+24V
+C2
+470/35
+NOTE SENSING DO NOT CONNECT LOAD AcRoss SENSING LEADS LOAD To PINs 2 43 (+) To Pins 10 4 |I(-) JUMPER SENSE PIN (+) To PiNS 243 PIN 9 (-) TO PINS 10 $ M
+WARD BECK SYSTEMS LTD
+POWER SUPPLY M648 SCHEMATIC
+B
+648 02 ooi
+IsS
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Modules/POWER/M648/19xx - M648 - DOC - WBSps.ca - 20210317 11X 17 Scans (3).png",
+ "sha256": "290d286ee0cf5bb72da665386e1a2d87fa99f16f94a1bdc6e7f8a86bf6674823",
+ "kind": "doc",
+ "models": [
+  "M648"
+ ],
+ "pages": 1
+}
+```

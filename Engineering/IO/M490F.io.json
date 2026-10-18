@@ -1,0 +1,83 @@
+{
+ "code": "M490F",
+ "series": null,
+ "type": "M490F",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "I1",
+   "signal": "Input",
+   "dir": "in",
+   "pos": "I1P",
+   "neg": "I1N",
+   "src_page": 29
+  }
+ ],
+ "power": [
+  {
+   "rail": "+24V",
+   "volts": 24.0,
+   "supply": "+24V",
+   "ground": "CHASSIS",
+   "max_a": null
+  }
+ ],
+ "logic": [
+  {
+   "signal": "Cue Left",
+   "pin": ""
+  },
+  {
+   "signal": "Selector Control",
+   "pin": ""
+  },
+  {
+   "signal": "Cue X",
+   "pin": ""
+  },
+  {
+   "signal": "On External Controls Off Cue",
+   "pin": ""
+  },
+  {
+   "signal": "Pgm/ Cue Ctl Logic",
+   "pin": ""
+  },
+  {
+   "signal": "On Tally",
+   "pin": ""
+  },
+  {
+   "signal": "On Istart Timer Reset Off Tally Offistop",
+   "pin": ""
+  },
+  {
+   "signal": "Chon Ctl",
+   "pin": ""
+  },
+  {
+   "signal": "Ext Cue",
+   "pin": ""
+  },
+  {
+   "signal": "Ctl Com",
+   "pin": ""
+  },
+  {
+   "signal": "Clock B 0",
+   "pin": ""
+  }
+ ],
+ "ground": [
+  "CHASSIS"
+ ],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "0f6a896200e6d01db68813660b1beec3793c566bf1d01f13bb79d7c3bf131d07",
+  "d14c6ee45a2cdb77fa656ce7c6a7d1ebe6143db00413807b69e3d2e7a63269ea"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one. (this device has one)"
+}

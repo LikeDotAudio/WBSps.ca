@@ -1,0 +1,1363 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M703B — Intercom Pre And Output Amplifier</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>M703B — Intercom Pre And Output Amplifier</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="Category-COMMUNICATION.html">COMMUNICATION</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../simulator.html?m=M703B">simulator &amp; front panel</a> · <a href="../_packages/M703B.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="Year-1980.html">1980|13</a> — manual issue date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"MANUAL ISSUE #3 AUGUST 1980" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M703B - Intercom Pre and Output Amp/M703B - 003.jpg</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="Year-1980.html">1980|13</a></td>
+</tr>
+<tr>
+<td>Used in jobs</td>
+<td>3116-01-004</td>
+</tr>
+<tr>
+<td>Variants</td>
+<td><a href="M703.html">M703</a>, <a href="M703D.html">M703D</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../Modules/COMMUNICATION/M703B/index.html">Modules/COMMUNICATION/M703B</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections</h2>
+<p><em>What it is made of and what it is part of.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M703B" data-n="Intercom Pre And Output Amplifier" data-cat="COMMUNICATION"></div><svg class="wbs-panel" data-m="M703B" data-n="Intercom Pre And Output Amplifier" data-cat="COMMUNICATION" role="img" aria-label="M703B front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M703B","title":"Intercom Pre And Output Amplifier","rto":null,"parts":[{"item":"60-14","title":"60-14 / INPUT TRANSFORMER","label":"60-14 60-14 / INPUT TRANSFORMER","href":"Transformers.html#60-14","note":"Input transformers (60-n)"}],"parents":[{"label":"3116-01-004","href":"#","note":"console / job"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20003.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20003.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - 003.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - 003.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p30001.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p30001.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - p30001.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - p30001.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20001%20-%20Cover.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20001%20-%20Cover.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - 001 - Cover.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - 001 - Cover.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20002.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20002.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - 002.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - 002.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20004.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20004.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - 004.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - 004.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20005.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20005.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - 005.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - 005.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20006.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20006.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - 006.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - 006.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20007.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20007.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - 007.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - 007.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20008.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20008.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - 008.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - 008.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20009.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20009.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - 009.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - 009.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20010.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20010.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - 010.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - 010.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20011.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20011.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - 011.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - 011.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20012.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20012.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - 012.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - 012.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20013.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20013.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - 013.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - 013.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20014.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20014.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - 014.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - 014.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20015.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20015.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - 015.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - 015.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20016.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20016.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - 016.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - 016.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20017%20-%20functional.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20017%20-%20functional.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - 017 - functional.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - 017 - functional.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20018%20-%20schematic.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20018%20-%20schematic.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - 018 - schematic.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - 018 - schematic.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20019%20-%20functional.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20019%20-%20functional.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - 019 - functional.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - 019 - functional.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20020%20-%20Schematic.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20020%20-%20Schematic.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - 020 - Schematic.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - 020 - Schematic.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20021%20-%20PCB.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20021%20-%20PCB.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - 021 - PCB.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - 021 - PCB.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20022%20-%20pin%20out.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20022%20-%20pin%20out.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - 022 - pin out.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - 022 - pin out.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20701-02-101%20-%20MZOIB%20INTERCOM%20PRE-AMPLIFIER%20CKDRAX.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20701-02-101%20-%20MZOIB%20INTERCOM%20PRE-AMPLIFIER%20CKDRAX.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - 701-02-101 - MZOIB INTERCOM PRE-AMPLIFIER CKDRAX.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - 701-02-101 - MZOIB INTERCOM PRE-AMPLIFIER CKDRAX.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20702-01-011.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20702-01-011.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - 702-01-011.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1980 - M703B - 702-01-011.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20702-02-101.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20702-02-101.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - 702-02-101.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - 702-02-101.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20703-06-101.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20703-06-101.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - 703-06-101.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - 703-06-101.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20A%20703-04-003%20-%20M703B%20INTERCOM%20PRE%20AND%20OUTPUT%20AMPLIFIER%20-%20CONNECTOR%20REAR%20VIEW.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20A%20703-04-003%20-%20M703B%20INTERCOM%20PRE%20AND%20OUTPUT%20AMPLIFIER%20-%20CONNECTOR%20REAR%20VIEW.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - A 703-04-003 - M703B INTERCOM PRE AND OUTPUT AMPLIFIER - CONNECTOR REAR VIEW.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1980 - M703B - A 703-04-003 - M703B INTERCOM PRE AND OUTPUT AMPLIFIER - CONNECTOR REAR VIEW.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20B%20701-01-011%20-%20M701B%20-%20INTERCOM%20PREAMPLIFIER%20-%20FUNCTIONAL%20DIAGRAM.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20B%20701-01-011%20-%20M701B%20-%20INTERCOM%20PREAMPLIFIER%20-%20FUNCTIONAL%20DIAGRAM.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - B 701-01-011 - M701B - INTERCOM PREAMPLIFIER - FUNCTIONAL DIAGRAM.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1980 - M703B - B 701-01-011 - M701B - INTERCOM PREAMPLIFIER - FUNCTIONAL DIAGRAM.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p100001.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p100001.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - p100001.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - p100001.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p10001.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p10001.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - p10001.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - p10001.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p110001.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p110001.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - p110001.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - p110001.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p120001.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p120001.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - p120001.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - p120001.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p130001.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p130001.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - p130001.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - p130001.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p140001.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p140001.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - p140001.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - p140001.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p150001.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p150001.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - p150001.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - p150001.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p160001.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p160001.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - p160001.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - p160001.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p170001.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p170001.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - p170001.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - p170001.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p180001.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p180001.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - p180001.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - p180001.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p190001.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p190001.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - p190001.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - p190001.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p200001.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p200001.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - p200001.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - p200001.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p20001.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p20001.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - p20001.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - p20001.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p210001.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p210001.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - p210001.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - p210001.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p220001.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p220001.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - p220001.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - p220001.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p230001.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p230001.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - p230001.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - p230001.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p240001.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p240001.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - p240001.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - p240001.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p250001.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p250001.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - p250001.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - p250001.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p260002.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p260002.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - p260002.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - p260002.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p27.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p27.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - p27.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - p27.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p40001.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p40001.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - p40001.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - p40001.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p50001.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p50001.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - p50001.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - p50001.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p60001.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p60001.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - p60001.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - p60001.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p70001.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p70001.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - p70001.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - p70001.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p80001.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p80001.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - p80001.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - p80001.jpg</a><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p90001.jpg"><img loading="lazy" src="../Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p90001.jpg" alt="" data-f="Modules/COMMUNICATION/M703B/1980 - M703B - p90001.jpg" data-size="320" onerror="wbsOff(this)">1980 - M703B - p90001.jpg</a><a href="../viewer.html?f=Consoles/1970-1979/3116-01-004/1977%20-%203116-01-004%20-%203116-01-004%20-%20CROSSPOINT%20MODULE%20MATRIX%20AMP%20OUTPUT%20NOTE.jpg"><img loading="lazy" src="../Consoles/1970-1979/3116-01-004/1977%20-%203116-01-004%20-%203116-01-004%20-%20CROSSPOINT%20MODULE%20MATRIX%20AMP%20OUTPUT%20NOTE.jpg" alt="" data-f="Consoles/1970-1979/3116-01-004/1977 - 3116-01-004 - 3116-01-004 - CROSSPOINT MODULE MATRIX AMP OUTPUT NOTE.jpg" data-size="320" onerror="wbsOff(this)">1977 - 3116-01-004 - 3116-01-004 - CROSSPOINT MODULE MATRIX AMP OUTPUT NOTE.jpg</a><a href="../viewer.html?f=Modules/POWER/M632/19xx%20-%20M632%20-%20P003%20-%202-1.jpg"><img loading="lazy" src="../Modules/POWER/M632/19xx%20-%20M632%20-%20P003%20-%202-1.jpg" alt="" data-f="Modules/POWER/M632/19xx - M632 - P003 - 2-1.jpg" data-size="320" onerror="wbsOff(this)">19xx - M632 - P003 - 2-1.jpg</a></div>
+
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-1980.html">1980|13</a></td>
+<td>manual issue date</td>
+<td><code>MANUAL ISSUE #3 AUGUST 1980</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20003.jpg">1980 - M703B - 003.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1980.html">1980|13</a></td>
+<td>manual issue date</td>
+<td><code>MANUAL ISSUE #3 AUGUST 1980</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p30001.jpg">1980 - M703B - p30001.jpg</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Physical manual inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Location</th>
+<th>Status</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M703B - Intercom Pre and Output Amp</td>
+<td></td>
+<td></td>
+<td>SCANNED BUT NEEDS STICHING</td>
+</tr>
+<tr>
+<td>M703B - Intercom Pre and Output Amp</td>
+<td></td>
+<td></td>
+<td>Recently scanned and stiched by WB</td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (55)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20001%20-%20Cover.jpg">1980 - M703B - 001 - Cover.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20001%20-%20Cover.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20002.jpg">1980 - M703B - 002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20003.jpg">1980 - M703B - 003.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20004.jpg">1980 - M703B - 004.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20004.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20005.jpg">1980 - M703B - 005.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20005.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20006.jpg">1980 - M703B - 006.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20006.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20007.jpg">1980 - M703B - 007.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20007.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20008.jpg">1980 - M703B - 008.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20008.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20009.jpg">1980 - M703B - 009.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20009.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20010.jpg">1980 - M703B - 010.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20010.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20011.jpg">1980 - M703B - 011.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20011.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20012.jpg">1980 - M703B - 012.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20012.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20013.jpg">1980 - M703B - 013.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20013.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20014.jpg">1980 - M703B - 014.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20014.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20015.jpg">1980 - M703B - 015.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20015.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20016.jpg">1980 - M703B - 016.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20016.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20017%20-%20functional.jpg">1980 - M703B - 017 - functional.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20017%20-%20functional.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20018%20-%20schematic.jpg">1980 - M703B - 018 - schematic.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20018%20-%20schematic.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20019%20-%20functional.jpg">1980 - M703B - 019 - functional.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20019%20-%20functional.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20020%20-%20Schematic.jpg">1980 - M703B - 020 - Schematic.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20020%20-%20Schematic.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20021%20-%20PCB.jpg">1980 - M703B - 021 - PCB.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20021%20-%20PCB.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20022%20-%20pin%20out.jpg">1980 - M703B - 022 - pin out.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20022%20-%20pin%20out.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20701-02-101%20-%20MZOIB%20INTERCOM%20PRE-AMPLIFIER%20CKDRAX.jpg">1980 - M703B - 701-02-101 - MZOIB INTERCOM PRE-AMPLIFIER CKDRAX.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20701-02-101%20-%20MZOIB%20INTERCOM%20PRE-AMPLIFIER%20CKDRAX.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20702-01-011.jpg">1980 - M703B - 702-01-011.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20702-01-011.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20702-02-101.jpg">1980 - M703B - 702-02-101.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20702-02-101.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20703-06-101.jpg">1980 - M703B - 703-06-101.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20703-06-101.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20A%20703-04-003%20-%20M703B%20INTERCOM%20PRE%20AND%20OUTPUT%20AMPLIFIER%20-%20CONNECTOR%20REAR%20VIEW.jpg">1980 - M703B - A 703-04-003 - M703B INTERCOM PRE AND OUTPUT AMPLIFIER - CONNECTOR REAR VIEW.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20A%20703-04-003%20-%20M703B%20INTERCOM%20PRE%20AND%20OUTPUT%20AMPLIFIER%20-%20CONNECTOR%20REAR%20VIEW.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20B%20701-01-011%20-%20M701B%20-%20INTERCOM%20PREAMPLIFIER%20-%20FUNCTIONAL%20DIAGRAM.jpg">1980 - M703B - B 701-01-011 - M701B - INTERCOM PREAMPLIFIER - FUNCTIONAL DIAGRAM.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20B%20701-01-011%20-%20M701B%20-%20INTERCOM%20PREAMPLIFIER%20-%20FUNCTIONAL%20DIAGRAM.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p100001.jpg">1980 - M703B - p100001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p100001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p10001.jpg">1980 - M703B - p10001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p10001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p110001.jpg">1980 - M703B - p110001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p110001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p120001.jpg">1980 - M703B - p120001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p120001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p130001.jpg">1980 - M703B - p130001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p130001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p140001.jpg">1980 - M703B - p140001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p140001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p150001.jpg">1980 - M703B - p150001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p150001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p160001.jpg">1980 - M703B - p160001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p160001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p170001.jpg">1980 - M703B - p170001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p170001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p180001.jpg">1980 - M703B - p180001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p180001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p190001.jpg">1980 - M703B - p190001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p190001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p200001.jpg">1980 - M703B - p200001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p200001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p20001.jpg">1980 - M703B - p20001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p20001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p210001.jpg">1980 - M703B - p210001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p210001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p220001.jpg">1980 - M703B - p220001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p220001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p230001.jpg">1980 - M703B - p230001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p230001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p240001.jpg">1980 - M703B - p240001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p240001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p250001.jpg">1980 - M703B - p250001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p250001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p260002.jpg">1980 - M703B - p260002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p260002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p27.jpg">1980 - M703B - p27.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p27.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p30001.jpg">1980 - M703B - p30001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p30001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p40001.jpg">1980 - M703B - p40001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p40001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p50001.jpg">1980 - M703B - p50001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p50001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p60001.jpg">1980 - M703B - p60001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p60001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p70001.jpg">1980 - M703B - p70001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p70001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p80001.jpg">1980 - M703B - p80001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p80001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1980|13</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p90001.jpg">1980 - M703B - p90001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p90001.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Sub-assemblies &amp; parts used (1)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What</th>
+<th>Family</th>
+<th>Year</th>
+<th>How we know</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Register-Input-transformers-60-n.html#60-14">60-14</a></td>
+<td>60-14 / INPUT TRANSFORMER</td>
+<td>Input transformers (60-n)</td>
+<td>1978|11</td>
+<td>named in its manual</td>
+</tr>
+</tbody>
+</table>
+<h2>Parts list — board M703B (52 parts)</h2>
+<p><em>From <a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p250001.jpg">1980 - M703B - p250001.jpg</a>, page 1 (scanned); also in <code>timelines/data/bom.csv</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>Part</th>
+<th>Value</th>
+<th>Manufacturer</th>
+<th>Mfr part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C201</td>
+<td>Capac itor uF/35 V Kemet</td>
+<td></td>
+<td></td>
+<td>T390B105M035AS</td>
+</tr>
+<tr>
+<td>C207</td>
+<td>uF/25 V Philips</td>
+<td>22</td>
+<td></td>
+<td>426ETF22</td>
+</tr>
+<tr>
+<td>C214</td>
+<td>015 uF Aselco cQ92-MC-153M `</td>
+<td>0</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C216</td>
+<td>uF/25 V Philips</td>
+<td>22</td>
+<td></td>
+<td>426ETF22</td>
+</tr>
+<tr>
+<td>C223</td>
+<td>uF Aselco</td>
+<td>0 . 068</td>
+<td></td>
+<td>cQ92-MC-683M</td>
+</tr>
+<tr>
+<td>CR201</td>
+<td>Diode Fa irchild 1N4148 ;</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>CR205</td>
+<td>Motoro ]a</td>
+<td></td>
+<td></td>
+<td>1N4003</td>
+</tr>
+<tr>
+<td>CR206</td>
+<td>Zener</td>
+<td></td>
+<td></td>
+<td>1N4743A</td>
+</tr>
+<tr>
+<td>CR207</td>
+<td>Zener</td>
+<td></td>
+<td></td>
+<td>IN5364A</td>
+</tr>
+<tr>
+<td>DS201</td>
+<td>LED , yellow H.P_ HLMP</td>
+<td>1401</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M71B</td>
+<td>INTERCOM PREAMPLIFIER</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R152</td>
+<td>Resistor 100K Philips</td>
+<td>1/4 59</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R154</td>
+<td>Resistor 1/4 5% Philips</td>
+<td>2K2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R161</td>
+<td>Trim Pot Piher PT 1Ov 5k</td>
+<td>5K</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R162</td>
+<td>Resistor 1/4w 390 Philips</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SW103</td>
+<td>TSSI1-AG-IPC</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>T101</td>
+<td>Transformer Hammond WBS 60-14 .</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R116</td>
+<td>Resistor 1/4w 15K Philips ` (</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R118</td>
+<td>Resistor 1/4w 100K Philips "a</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R132</td>
+<td>Trim Pot Piher PT 1Oh (2.5) 20k</td>
+<td>20K</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R133</td>
+<td>Resistor 1/4w 10K Philips</td>
+<td>59</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R140</td>
+<td>Trim Pot Piher Pt 1Ov 50K '?</td>
+<td>50k</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R14I</td>
+<td>Resistor 1/4w 5K1 Philips</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R146</td>
+<td>Trim Pot Piher PT 1Ov 20K .</td>
+<td>20k</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R147</td>
+<td>Resistor 1/4w 620 Philips</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C137</td>
+<td>Capacitor PF Philips 2222-638-58229 3</td>
+<td>22</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>CR10I</td>
+<td>Diode Fairchild IN4148</td>
+<td></td>
+<td></td>
+<td>7 _ :</td>
+</tr>
+<tr>
+<td>CR105</td>
+<td>P 7. . Motorola IN4003 X ;</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>DS101</td>
+<td>LED red H.P HLMP-1301 6".</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>DS102</td>
+<td>LED green</td>
+<td></td>
+<td></td>
+<td>HLMP-1501</td>
+</tr>
+<tr>
+<td>K1</td>
+<td>Relay Gordos</td>
+<td></td>
+<td></td>
+<td>832A-5</td>
+</tr>
+<tr>
+<td>Q101</td>
+<td>Transistor National</td>
+<td></td>
+<td></td>
+<td>PE1087</td>
+</tr>
+<tr>
+<td>Q106</td>
+<td>Fairchild 2N3569 ~</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R101</td>
+<td>Resistor 1/4w 620 Philips c .</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R111</td>
+<td>Resistor 1/4W 1K Philips 7.1</td>
+<td>5%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R115</td>
+<td>'  Resistor 5% 270 Dale CW-2B ~.</td>
+<td>3.75W</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M701B</td>
+<td>INTERCOM PREAMPLIFIER</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C101</td>
+<td>Capacitor uF/25 Kemet T3900226M025AS a..</td>
+<td>22</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C106</td>
+<td>uF/25 Philips 426ETF22 '`</td>
+<td>22</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C107</td>
+<td>uF/35 Kemet T390B105M035AS '</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C108</td>
+<td>pF Philips 2222-638-10159 : ;</td>
+<td>15</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C110</td>
+<td>uF/35 Kemet T39OB1O5MO3SAS U ..</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C116</td>
+<td>pF Philips 2222-638-70101 . .</td>
+<td>100</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C118</td>
+<td>uF/25 Kemet</td>
+<td>10</td>
+<td></td>
+<td>T390C106MO25AS`</td>
+</tr>
+<tr>
+<td>C123</td>
+<td>uF/25 Philips 426ETF22 7`</td>
+<td>22</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C124</td>
+<td>uF/25 Kemet</td>
+<td>2.2</td>
+<td></td>
+<td>T390B225M025AS _</td>
+</tr>
+<tr>
+<td>C125</td>
+<td>uF Aselco Co9z-MC-153M `</td>
+<td>0.015</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C128</td>
+<td>uF/25 Philips 426ETF22 P3 `</td>
+<td>22</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C132</td>
+<td>uF/40 426ETGIOO n^</td>
+<td>100</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C133</td>
+<td>uF/25 V 426ETF1O0 .</td>
+<td>100</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C135</td>
+<td>uF/16 Kemet</td>
+<td>100</td>
+<td></td>
+<td>T39OF107MO16AS</td>
+</tr>
+<tr>
+<td>C136</td>
+<td>PF Philips 2222-638-70479 '</td>
+<td>47</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Consoles &amp; jobs it is connected to (1)</h2>
+<p><em>Their own drawings name this module.</em></p>
+<table>
+<thead>
+<tr>
+<th>Job</th>
+<th>Year</th>
+<th>Drawing</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3116-01-004</td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/3116-01-004/1977%20-%203116-01-004%20-%203116-01-004%20-%20CROSSPOINT%20MODULE%20MATRIX%20AMP%20OUTPUT%20NOTE.jpg">1977 - 3116-01-004 - 3116-01-004 - CROSSPOINT MODULE MATRIX AMP OUTPUT NOTE.jpg</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (1)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../viewer.html?f=Modules/POWER/M632/19xx%20-%20M632%20-%20P003%20-%202-1.jpg">19xx - M632 - P003 - 2-1.jpg</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>General description (3)</h3>
+<details><summary>Description — 348 words · 1980 - M703B - p70001.jpg, page 1</summary><p>M7O1B INTERCOM PREAMPLIFIER The M7O1B preamp]ifier is des igned to a ccept either dynamic microphone carbon microphone or standard ine Teve 1 input and deliver constant +8 dBm nomina ] output over 30 dB input range variation Input Selection and Control Input selection 0 f either dynamic microphone or carbon (amp]ified dynamic) microphone may be achieved either Toca]ly by switch Tocated on the modu le or eTse remotely from key pane] station This is to ccommodate operator headsets equipped with either type 0 f microphone SW101 and SW102 , both located at the upper edge 0f the module , are used t0 select the input mode 0 f the M7O1B _ ..</p><p>. s With SW102 in the LINE position the effects o f SW101 are overriden and the modu ]e is operating in the LINE mode on ;. account 0 f the fo]owing facts: `[  . -The base 0f Q106 is grounded via CR102 , preventing  &quot; operation 0 f K101 _ the 0 f  ^ ` ~R134 is grounded adding 10 dB Toss at output  U101a_ switched and : .</p><p>-Q101 and Q102 are OFF , Q103 Q104 are switched On resulting in Toss pad R107 to R1ll being inserted into the input path. . R134 ~:^  With SW102 in MIC position , is removed from ground  . potentia] and Sw101 is enab Ted_ pos ition , 6; With SW1o1 enab led and in DYNAMIC J ^ -The base 0 f Q106 is grounded via 0104a .</p><p>Teaving K101 : ` de-energized . -Q101 and Q102 are switched 0N , Q103 and Q104 are switched OFF _ resulting in Toss pad R107 to R1ll being bypassed _  .s  . &#x27; With SW1o1 enabled and in CARBON position (J103 jumpered to  ground or modu ]e connector K connected to ground) :`` &#x27;: ;` -Q101 and Q102 are swi tched OFF Q103 and Q104 are switched on inserting loss pad R107 to R111 The base 0 f Q106 is pos itive-biased via U104A causing K101 to energize _ Two separate contact closures o f K101 s 2 -1</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p70001.jpg">1980 - M703B - p70001.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Description — 204 words · 1980 - M703B - p100001.jpg, page 1</summary><p>M7 01B INTERCOM PREAMPLIFIER Power Supply . . . { .; 0Y &#x27; `  &#x27; ; F^ ` The +25 Vo ]t supply vo]tage enters the unit at pin 1 After pass ing through isolation diode CR105 and resistor R170 , potentia1 0 f 23 vo]ts is developed It feeds the output  1` amp]ifier a $ we71 a $ the Timiter circuits _ Further decoup] ing circuits are employed to generate the necessary voltages to operate 0101 , the Togic circuitry and the carbon mic supply. The M701B  draws quiescent current 0 f 40 mA, rising to a pprox imately 75 ma when driving carbon microphones . 2` &#x27;  ~  . ^ |</p><p>` ~; .: F`  .. ` - &#x27;. `   &#x27; &#x27;; ,&#x27; .`  &#x27;   / ..   . ` : e J1&quot; e &#x27; .    &#x27; ^ 3 - Vi:.  . &#x27; :   ;.` .` . . :.^ `  ,  ~ 7^ &gt; 0` ^ `  &#x27; (&#x27;. P / ~ &#x27; . . `.  .. :^ - .  ` ` ... .  .  : 6&lt; ,  .- ~Va : &#x27; &#x27;: :.  , &#x27;</p><p>a . . :`.  ^. ` ^ 4. &#x27;  &#x27; . : .</p><p>` .:. 2 -4</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p100001.jpg">1980 - M703B - p100001.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Description — 42 words · 1980 - M703B - p190001.jpg, page 1</summary><p>MFG MFG PART NUMBER U101 U102 U103 U104 Integrated Circuit National LM38IN LM377N LM34BN MM74COO</p><p>.</p><p>&quot;  _  . .</p><p>s s .  WBS recommends the use of replacement parts made by the specified manufacturers for continued optimum equipment performance. s</p><p>5-5</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p190001.jpg">1980 - M703B - p190001.jpg</a>, p. 1</li>
+</ul>
+<h3>Specifications (3)</h3>
+<details><summary>Technical Data — 242 words · 1980 - M703B - p50001.jpg, page 1</summary><p>MZO1B INTERCOM PREAMPLIFIER Ga in: Dynamic Mic: Carbon Mic: Line:  ees 83 dB to 53 dB , t1 dB (Transducer Ga in) _ 33 dB to 3 dB +1 dB (Matched Gain) 28 dB to -2 dB , t1 dB (Bridging Gainj_ s +0 .5 dB from 100 Hz to 5 kHz more than 3 dB down at 10 kHz (tailored response) . Frequency Response: Noise: Dynamic Mic: ...: 120 dBm EIn at maximum sensitivity &#x27; (20 Hz to 20 kHz) _ 50 dB/70 dB be ]ow +8 dBm over 30 dB sensitivity range _ &#x27; . 60 dB / 70 dB below +8 dBm over 30 dB sensitivity range _ Carbon Mic: Line: Ha rmon ic Distortion: Less than 1 % THD from 100 Hz t0 5 kHz at +18 dBm output (Limiter 0FF ) = Input Levels: Dynamic Mic: Carbon Mic: Line: e -75 dBm to -45 dBm . -25 dBm t0 +5 dBm . -20 dBm to +10 dBm . Fn.^ *: ` 3 Input Impedances : Dynamic Mic: Carbon Mic:  Line: 1000 ohms nominal, balanced . 150 ohms nomina ] ba Tanced: 10k ohms nomina 7 ba Tanced. . Source Impedances : Dynamic Mic: Carbon Mic: Line:  . 150 ohms ba lanced/unba ]anced . 150 ohms maximum , ba lanced/unba lanced 600 ohms maximum , ba lanced/unba lanced. Output Level: +8 dBm nomina ] +22 dBm maximum.</p><p>Output Impedance: Less than 50 ohms nomina7 ba Tanced _  1-1</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p50001.jpg">1980 - M703B - p50001.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Technical Data — 212 words · 1980 - M703B - p200001.jpg, page 1</summary><p>MZ 02B INTERCOM OUTPUT AMPLIFIER Ga in: To Speaker Output: To Line Output: ^t &gt; &#x27;. : +27 dB to +7 dB , t1 dB (Bridging +15 dB t0 -5 dB , f1 dB Gain}: (Bridging &#x27;. Sec : &quot; 7. - +1 dB from 100 Hz t0 5 kHz _ 1 Better than 72 dB be ]ow watts or +18 dBm (ga in set at unity for Tine output or 17 dB for speaker output) (20 Hz to 20 kHz ) _ Frequency Response : No ise: Harmonic Distortion: Less than 1 % from 100 Hz to 5 kHz at watts or +18 dBm output.</p><p>Input Leve] : +8 dBm nomina7 _ +20 dBm maximum_ Input Impedance: 10k ohms ba lanced and center-tapped _ Source Impedance: 600 ohms or ess ba Tanced/unba Tanced Output Levels : Line: Speaker: +8 dBm nomina 1 +22 dBm maximum. 300 mW nomina 7 3 watts maximum ( +34.77 dBm) Output Impedances Line: Speaker: Less than 25 ohms ba lanced .</p><p>Less than 0 .5 ohms unba Ianced _ Load Impedances Line: Speaker: 600 ohms nomina ] 100 ohms minimum. ohms nomina ] Muting: Ful]: Part: Override:  s . &#x27;   d 100 dB down. 6 to 24 dB down . fu11 output _ - 6 -1</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p200001.jpg">1980 - M703B - p200001.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Technical Data — 206 words · 1980 - M703B - p60001.jpg, page 1</summary><p>MZO1B INTERCOM PREAMPLIFIER Load Impedance: 600 ohms ba lanced _  &#x27; &#x27; : ` Limiter: e Range S]ope: Threshold: s 30 dB _ NominalIy 3 :1 for the first 10 dB 0 f Timit- ing increas ing to 6 : 1 or better at 30 dB Set a t 5 dB above nomina 7 operating Teve1 , resulting in constant output 0 f +8 dBm under dynamic conditions 10 milliseconds nomina]  seconds nomina] 4&#x27; ` ` Attack Time: Release Time Phas ing: Input termina] #3 is in phase with output termina 1 #8 Power Requirements : +25 voIts dc, 40 ma nomina ] 75 MA when driving carbon mic.  .- Ambient Temperature: 0 to 60 degrees Celsius - , s Dimensions : 0 7&quot; wide X 4 .4&quot; high x 11&quot; deep (18 mm 112 Mm X 280 mm). ^  .sa  e  ` . : .  .   ` 6`</p><p>&quot; . .` a &#x27; s, - ;. .. .. , -. . ^. . &#x27; ; .  3 ` ` &#x27;` . .. &#x27; . .  . .  .  2 ..  a . . -  ; 4&#x27;  .  . 3 ~ . . - .  - . . &#x27; .</p><p>;. t . :  . 1-2</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p60001.jpg">1980 - M703B - p60001.jpg</a>, p. 1</li>
+</ul>
+<h3>Circuit description (2)</h3>
+<details><summary>Circuit Description — 351 words · 1980 - M703B - p80001.jpg, page 1</summary><p>MZO1B INTERCOM PREAMPLIFIER result in +12 Vo ]t open circuit voltage being &#x27;: . applied to connector pin 3 and ground potentia] s imultaneously being applied to pin 4 _ With carbon microphone connected to the amp]ifier, approximately voIts at 40 mA is supplied to the carbon element Three to four microphones may be operated in paraiiel without degredation When operating in this mode the amp]ifier presents center-tapped Toad of approximately 150 ohms to the source This Provides 1ow impedance input Tine , assuring minimum coup] ing and crosstalk.</p><p>If remote contro] 0 f carbon/dynamic selection is desired J103 is left open a $ norma ] Iy supp]ied and connector pin K is extended to the associated intercom pane1 SW101 must rema i n in CARBON pos ition its action effectively be ing transferred to the remote Tocation When using amp] i fied dynamic microphones jumpers J101 and J102 are cut to rajse the supply voltage and the input impedance to pproximately 1000 ohms To prevent dama ge to the microphone amp]ifier attention should be paid to voltage polarity (pin 3 is positive) _  Preamplifier &quot;3:     , ^ ` The secondary 0 f T101 coup]es the audio $ igna ] to preamp]ifier U101A .</p><p>The gain 0 f the preamp] i fier may be varied over 30 dB range to accommodate different microphones and operating conditions R132 is the sensitivity contro] and varies the amount 0 f negative feedback around U101A through the resistive network R127 to R132 . : . `es Limiter  . &#x27; . The s igna ] output from U1014 is coupled to the isolation amp]ifier 0101B via C112 and Toss network comprising R133 R134 R135 , R136 and Q107 .</p><p>Q107 serves a 5 the variab le resistance element a t the output 0 f the Timiter circuitry. The output 0 f 0101B is fed via C118 and LIMITER switch SW103 to the LIMITER thresho ]d contro] R161 The setting 0 f this contro] determines the output Teve1 at which Timiting wi11 begin _ The contro] is adjusted S 0 a $ to result in relatively 2-2</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p80001.jpg">1980 - M703B - p80001.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Circuit Description — 367 words · 1980 - M703B - p230001.jpg, page 1</summary><p>MZ02B INTERCOM OUTPUt AMPLIFIER output appears at pins 21 and Y _ 6 : s :.~ An actively balanced +8 dBm 60 0 ohm output is derived between the and B sections 0 f 0204 and is brought out at pins W and X. This output is capab ]e 0 f driving up to 6  headsets , each having an impedance 0 f 600 ohms 4 ^` R251 contro]s the amount 0 f negat ive feedback app]ied to the A section 0 f 0204 _ It serves as ga in trim contro] a]owing *10 dB adjustment range from the nomina / output Teve]s of +8 dBm or 300 mW respectively _ .</p><p>., Power Supply Decoupling &#x27; , ^ | . |  0 `. The modu le is powered by +32 Vo]t dc unregulated power source connected t0 pins 13 and P After pass ing through isolatfon diode CR105 and fuse F201 the supply voltage is decoupled by R236 C212 and C213_ DS201 serves as visua ] POWER ON indicator, verifying that power is supp]ied to the modu ]e and fuse F201 is intact.</p><p>[ Q202 Provides further filtering and reduces the supply voltage to 12 volts to operate U201 and U202 _ &lt;&#x27;; Under idling conditions , the M702B draws approximately 40 mA = rising to 350 ma at 3 watts output With the output shorted, the current Wi1l initially rise to 750 mA_ settling at 300 to 400 mA as therma 1 shutdown 0 f U204 sets in 4_ A short circuit at the amp]ifier output wi1] nbt norma ]ly blow fuse F201, a$ Tong a$ the amp]ifier i$ operating: with norma 1 program materia] However sustained full output into short circuit or fajlure 0 f U204 will cause the fuse to open .</p><p>~. ; . &quot; 3. 7   ; . 6  4. = : . &#x27;. ` ~&#x27; ` &#x27;  &#x27; &#x27; &#x27; 4. ; 7 4.1 &#x27; s &gt;  &#x27; . e 7&#x27;^^ e . - &#x27; &#x27; 11 _ &lt; -  &quot;` 3  ` 6 .. 3. `. . &#x27;. `    .. 1. &quot; ::. 5 s 3 :, 6 &#x27;` .</p><p>3. &#x27; S   | ; . . e 7-2</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p230001.jpg">1980 - M703B - p230001.jpg</a>, p. 1</li>
+</ul>
+<h3>Parts list (text) (1)</h3>
+<details><summary>Parts List — 180 words · 1980 - M703B - p150001.jpg, page 1</summary><p>M701B INTERCOM PREAMPLIFIER PART DESCR PTION MFG MFG PART NUMBER C1o1 C102 C103 C104 C105 Capacitor 22 uF/25 Kemet T3900226M025AS a.. :. T390B105M035AS T390B225M025AS T390B105MO35AS 4. . e 426ETF22 &#x27;` T390B105MO35AS &#x27; 2222-638-10159 : ; 2222-638-70689 T39OB1O5MO3SAS S .. i&#x27; T3900336M010AS T390B105M03SAS &#x27; &#x27;^ :&#x27; . T390B225M025AS t { . 2222-638-70101 . . 2222-638-10109 T390C106MO25AS` J:. ^ &#x27; :  T390B105MO3SAS 7.` 426ETF22 7:` T390B225M025AS _ Co9z-MC-153M  ` .3 cQ92-MC-427M 0 426ETF22 P3 ` 2222-638-70101 4.</p><p>2222-630-0331 7s 4&#x27;.: 2222-638-70151 426ETGIOO n^ 426ETF1O0 . :: T39OF107MO16AS uF/35 2.2 uF/25 uF/35 C106 C107 C108 C1o9 C110 22 uF/25 uF/35 15 pF 68 pF uF/35 Philips Kemet Philips Kemet C111 C112 C113 C114 C115 33 uF/10 uF/35 2.2 uF/25 C116 C117 C118 C119 C120 100 pF 10 pF 10 uF/25 Philips Kemet C121 C122 C123 C124 C125 uF/35 22 uF/25 2.2 uF/25 0.015 uF Philips Kemet Aselco C126 C127 C128 C129 C130 4700 PF 22 uF/25 100 PF 330 pF Philips C131 C132 C133 C134 C135 C136 150 pF 100 uF/40 100 uF/25 V 100 uF/16 47 PF Kemet Philips  2222-638-70479 &#x27; 5-1</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20p150001.jpg">1980 - M703B - p150001.jpg</a>, p. 1</li>
+</ul>
+<h2>Drawings (3)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="People.html#drawing-staff">Drawn by</a></th>
+<th><a href="People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>701-02-101</td>
+<td>Mzoib Intercom Pre-Amplifier Ckdrax</td>
+<td></td>
+<td><a href="Person-MRW.html">MRW</a></td>
+<td></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20701-02-101%20-%20MZOIB%20INTERCOM%20PRE-AMPLIFIER%20CKDRAX.jpg">file</a></td>
+</tr>
+<tr>
+<td>702-02-101</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20702-02-101.jpg">file</a></td>
+</tr>
+<tr>
+<td>703-06-101</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703B/1980%20-%20M703B%20-%20703-06-101.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M703B&quot;,
+ &quot;name&quot;: &quot;Intercom Pre And Output Amplifier&quot;,
+ &quot;category&quot;: &quot;COMMUNICATION&quot;,
+ &quot;year&quot;: 1980,
+ &quot;made_of&quot;: [
+  &quot;60-14&quot;
+ ],
+ &quot;part_of&quot;: [
+  &quot;3116-01-004&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - 001 - Cover.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - 002.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - 003.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - 004.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - 005.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - 006.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - 007.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - 008.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - 009.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - 010.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - 011.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - 012.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - 013.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - 014.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - 015.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - 016.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - 017 - functional.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - 018 - schematic.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - 019 - functional.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - 020 - Schematic.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - 021 - PCB.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - 022 - pin out.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - 701-02-101 - MZOIB INTERCOM PRE-AMPLIFIER CKDRAX.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - 702-01-011.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - 702-02-101.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - 703-06-101.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - A 703-04-003 - M703B INTERCOM PRE AND OUTPUT AMPLIFIER - CONNECTOR REAR VIEW.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - B 701-01-011 - M701B - INTERCOM PREAMPLIFIER - FUNCTIONAL DIAGRAM.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - p100001.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - p10001.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - p110001.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - p120001.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - p130001.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - p140001.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - p150001.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;parts&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - p160001.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - p170001.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - p180001.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - p190001.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - p200001.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - p20001.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - p210001.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - p220001.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - p230001.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - p240001.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - p250001.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - p260002.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - p27.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - p30001.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - p40001.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - p50001.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - p60001.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - p70001.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - p80001.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M703B/1980 - M703B - p90001.jpg&quot;,
+   &quot;year&quot;: 1980,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../_catalog/libcontrol/libcontrol.css"><script src="../_catalog/libcontrol/react.js"></script><script src="../_catalog/libcontrol/react-dom.js"></script><script src="../_catalog/libcontrol/libcontrol.js"></script><script src="../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M703B.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

@@ -1,0 +1,1 @@
+window.WBS_FOLDER={"d":"Consoles/Models/M1204B","f":[["19xx - M1204B - DOC - 20170522_121429_013.jpg","c05c2959f9df1635e183"],["1988 - M1204B - wbsps - console - m1204b.jpg","127c04ac39a4cde188db"],["1988 - M1204B - wbsps - console - m1204b_small.jpg","d31b29233f2c7c088181"]]};

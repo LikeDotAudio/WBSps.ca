@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 282" class="drawing"><style>
+.drawing { width: 100%; height: auto; font-family: "Overpass", "Helvetica Neue", Arial, sans-serif }
+.drawing .h { font: 700 15px "Overpass", Arial, sans-serif; letter-spacing: .12em; fill: #1c1c1c }
+.drawing .board { fill: #e7e2c9; stroke: #1c1c1c; stroke-width: 2 }
+.drawing .finger { stroke: #1c1c1c; stroke-width: 1.4 }
+.drawing .pin { font: 600 13px "Overpass Mono", monospace; fill: #555 }
+.drawing .pin.on { fill: #fff }
+.drawing .lead { stroke: #1c1c1c; stroke-width: 1 }
+.drawing .sig { font: 600 12px "Overpass", Arial, sans-serif; text-transform: uppercase }
+.drawing .side, .drawing .leg { font: 600 11px "Overpass Mono", monospace; fill: #1c1c1c; letter-spacing: .06em }
+.drawing .block { fill: #faf8ef; stroke: #1c1c1c; stroke-width: 2.5 }
+.drawing .code { font: 800 34px "Overpass", Arial, sans-serif; fill: #1c1c1c }
+.drawing .kind { font: 600 13px "Overpass", Arial, sans-serif; fill: #555; text-transform: uppercase; letter-spacing: .06em }
+.drawing .wire { stroke-width: 2.2 }
+.drawing .sig2 { font: 700 14px "Overpass", Arial, sans-serif; fill: #1c1c1c; text-transform: uppercase }
+.drawing .pins { font: 13px "Overpass Mono", monospace; fill: #444 }
+.drawing .jmp { font: 12px "Overpass Mono", monospace; fill: #4f7f8a }
+</style><rect x="400" y="40" width="300" height="122" class="block"/><text x="550.0" y="95.0" text-anchor="middle" class="code">M462</text><text x="550.0" y="121.0" text-anchor="middle" class="kind">EQUALIZER</text><line x1="60" y1="74" x2="400" y2="74" class="wire" style="stroke:#2a5ea0"/><path d="M400,74 l-12,-6 v12 z" style="fill:#2a5ea0"/><text x="64" y="66" text-anchor="start" class="sig2">EQ IN LEFT</text><text x="64" y="92" text-anchor="start" class="pins">A1  P2-1 / P2-2</text><line x1="60" y1="120" x2="400" y2="120" class="wire" style="stroke:#2a5ea0"/><path d="M400,120 l-12,-6 v12 z" style="fill:#2a5ea0"/><text x="64" y="112" text-anchor="start" class="sig2">EQ IN Right</text><text x="64" y="138" text-anchor="start" class="pins">A3  P2-1 / P2-2</text><line x1="700" y1="74" x2="1040" y2="74" class="wire" style="stroke:#a3352b"/><path d="M1040,74 l-12,-6 v12 z" style="fill:#a3352b"/><text x="1036" y="66" text-anchor="end" class="sig2">EQ OUT LEFT</text><text x="1036" y="92" text-anchor="end" class="pins">A2  P2-15 / P2-16</text><line x1="700" y1="120" x2="1040" y2="120" class="wire" style="stroke:#a3352b"/><path d="M1040,120 l-12,-6 v12 z" style="fill:#a3352b"/><text x="1036" y="112" text-anchor="end" class="sig2">EQ OUT Right</text><text x="1036" y="138" text-anchor="end" class="pins">A4  P2-15 / P2-16</text><text x="60" y="26" class="h">INPUTS</text><text x="1040" y="26" text-anchor="end" class="h">OUTPUTS</text><line x1="430.0" y1="162" x2="430.0" y2="202" class="wire" style="stroke:#b06d12"/><text x="430.0" y="218" text-anchor="middle" class="sig2">VEE-AUDIO</text><text x="430.0" y="236" text-anchor="middle" class="pins">-25 V  P2-19 / GND P2-20</text><line x1="550.0" y1="162" x2="550.0" y2="202" class="wire" style="stroke:#b06d12"/><text x="550.0" y="252" text-anchor="middle" class="sig2">VCC-AUDIO</text><text x="550.0" y="270" text-anchor="middle" class="pins">25 V  P2-21 / GND P2-20</text><line x1="670.0" y1="162" x2="670.0" y2="202" class="wire" style="stroke:#b06d12"/><text x="670.0" y="218" text-anchor="middle" class="sig2">CHASSIS</text><text x="670.0" y="236" text-anchor="middle" class="pins">P2-22</text></svg>

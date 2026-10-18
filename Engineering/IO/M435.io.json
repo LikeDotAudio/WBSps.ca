@@ -1,0 +1,71 @@
+{
+ "code": "M435",
+ "series": null,
+ "type": "M435",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "I1",
+   "signal": "Input R19",
+   "dir": "in",
+   "pos": "I1P",
+   "neg": "I1N",
+   "src_page": 14
+  },
+  {
+   "port": "O1",
+   "signal": "Meter Drive",
+   "dir": "out",
+   "pos": "O1P",
+   "neg": "O1N",
+   "src_page": 14
+  },
+  {
+   "port": "O2",
+   "signal": "R6 Drive",
+   "dir": "out",
+   "pos": "O2P",
+   "neg": "O2N",
+   "src_page": 14
+  }
+ ],
+ "power": [
+  {
+   "rail": "+24V",
+   "volts": 24.0,
+   "supply": "+24V",
+   "ground": "E8 LAMP COMMON",
+   "max_a": null
+  },
+  {
+   "rail": "+35V",
+   "volts": 35.0,
+   "supply": "+35V",
+   "ground": "E8 LAMP COMMON",
+   "max_a": null
+  }
+ ],
+ "logic": [
+  {
+   "signal": "Lamp O",
+   "pin": ""
+  },
+  {
+   "signal": "Lamp Dropping Resistor",
+   "pin": ""
+  }
+ ],
+ "ground": [
+  "E8 LAMP COMMON",
+  "SUPPLY COMMON"
+ ],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "424c4d7f62c18307be8c74649ad0bfaa3c6378051e31d54143b2fcbb484eccb3",
+  "87f7508312d5b0a0b8384df82620773ce730b24614affd488dcf99ed0f7ea21c"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."
+}

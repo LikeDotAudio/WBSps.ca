@@ -1,0 +1,88 @@
+# 1980 - M480B - complete_Page_20.jpg
+Wiki page: [M480B](../../../PAGES/M480B.md)
+
+
+- **Year:** 1980 (module estimate (manual_issue))
+- **Module:** M480B
+- **Category:** INPUT-PRE-AMPS
+- **Module year estimate:** 1980 — manual_issue "MANUAL ISSUE #2 NOVEMBER 1980" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M480 - #A #B #C/M480B - Input Module/M480B - Scan 2/M480B complete_Page_01.jpg
+- **Original file:** `WBSps.env/PUBLIC/Manuals + tech DOCUMENTS/Modules/M480 - #A #B #C/M480B - Input Module/M480B complete_Page_20.jpg`
+- **SHA-256:** `94de649c29339ae9f2cb4c6e0e9c36315b95e8304d4160ca9159120b40075e1d`
+- **Size:** 6,486,057 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR)
+
+```text
+93 83 38# Jz 8x 8 # 3 8 0 1 1 4# 8 2 32 0 1 36 83 83 3 ! NF 86 6 1
+8 1 1 3 1 1 4 #l V { 1 8 3| 9 1 1 ! 1 ale8
+8 & 1 6 3 0 4
+2
+8 3
+85 38 8 8
+5 8 Wh 2 # %3 {80 2
+8 # 32 8 Mm 0 0
+3
+8=
+B28
+8 8
+J 7 0 XL 8 2 1a 8 348 848 9 1
+9 8
+9 8
+0 8
+8 8
+1
+Bl8 92 # 8
+1 9 3 ! N
+8 8 1 9 3 2 2 8 8k 33 2
+Q0 83 3
+2
+Tg
+23
+8 8 %38
+1 36 8 5 0 7 38
+AAl 8? 85
+3 ?
+32
+8"
+2
+38
+2?
+8
+F 8
+0
+8
+88
+93
+9 N 9
+@ 8
+9 88
+% %<8 8 8 28 8 31 7
+5 8 8 338 3382 8 041 8 0 8 1 3
+8
+8
+9
+85
+0& 4 5 4 9 J 3 3 $ 283
+< 2 @ Y<o 0 J 0
+N
+2 Y 3
+0
+```
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Modules/INPUT-PRE-AMPS/M480B/1980 - M480B - complete_Page_20.jpg",
+ "sha256": "94de649c29339ae9f2cb4c6e0e9c36315b95e8304d4160ca9159120b40075e1d",
+ "kind": "module",
+ "models": [
+  "M480B"
+ ],
+ "year": 1980,
+ "pages": 1
+}
+```

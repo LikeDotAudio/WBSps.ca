@@ -1,0 +1,1054 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M402A — Spec Sheet</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>M402A — Spec Sheet</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="Category-FILTERS.html">FILTERS</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../simulator.html?m=M402A">simulator &amp; front panel</a> · <a href="../_packages/M402A.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="Year-1968.html">1968|1</a> — estimate from a dated variant</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>from M402</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>family</td>
+</tr>
+<tr>
+<td>Variants</td>
+<td><a href="M402.html">M402</a>, <a href="M402B.html">M402B</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210323%20-%20Scans/">DOCUMENTS/RECENT SCANS/WBSps.ca 20210323 - Scans</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../Modules/FILTERS/M402A/index.html">Modules/FILTERS/M402A</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections and circuit (ideal SPICE model)</h2>
+<p><em>Inputs, outputs, power and control as its own documents name them (no RTO-144 sheet for it: pin numbers only where the page gives them). Run the generator, turn the gain, watch the VU.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M402A" data-n="Spec Sheet" data-cat="FILTERS"></div><svg class="wbs-panel" data-m="M402A" data-n="Spec Sheet" data-cat="FILTERS" role="img" aria-label="M402A front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M402A","title":"Spec Sheet","rto":{"code":"M402A","series":null,"type":"M402A","impedance":{},"audio":[{"port":"I1","signal":"Input Impeda Nce","dir":"in","pos":"I1P","neg":"I1N","src_page":2},{"port":"I2","signal":"Input Le Ve L","dir":"in","pos":"I2P","neg":"I2N","src_page":2},{"port":"O1","signal":"Output Impedance","dir":"out","pos":"O1P","neg":"O1N","src_page":2},{"port":"O2","signal":"Output Lev El","dir":"out","pos":"O2P","neg":"O2N","src_page":2}],"power":[],"logic":[],"ground":[],"bus_out":[],"bus_in":[],"jumpers":[],"derived":true,"sources":["7f622949b0b34d80741b789aa52518af1cc572e95554c28e4990d6049b5cfb0f"],"note":"Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."},"parts":[],"parents":[{"label":"M402B","href":"M402B.html","note":"on 1 drawing with it: Effects Equalizer"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20144-06-002%20-%20MIN%20BEND%20RAD%20UNESS%20SPECIFIED.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20144-06-002%20-%20MIN%20BEND%20RAD%20UNESS%20SPECIFIED.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - 144-06-002 - MIN BEND RAD UNESS SPECIFIED.jpg" data-size="320" onerror="wbsOff(this)" data-rot="270" onload="wbsTurn(this)">1968 - M402A - 144-06-002 - MIN BEND RAD UNESS SPECIFIED.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20Archived%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20005.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20Archived%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20005.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - Archived - wbsps - promo - m402a eq - 005.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - Archived - wbsps - promo - m402a eq - 005.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20B%20402-02-010%20-%20M402A%20EFFECTS%20-%20EQUALIZER%20SCHEMATIC.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20B%20402-02-010%20-%20M402A%20EFFECTS%20-%20EQUALIZER%20SCHEMATIC.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - B 402-02-010 - M402A EFFECTS - EQUALIZER SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - B 402-02-010 - M402A EFFECTS - EQUALIZER SCHEMATIC.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P1.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P1.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P1.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P1.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P10.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P10.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P10.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P10.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P11.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P11.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P11.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P11.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P12.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P12.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P12.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P12.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P13.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P13.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P13.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P13.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P14.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P14.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P14.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P14.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P15.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P15.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P15.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P15.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P16.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P16.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P16.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P16.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P17.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P17.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P17.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P17.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P18.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P18.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P18.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P18.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P19.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P19.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P19.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P19.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P2.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P2.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P2.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P2.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P20.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P20.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P20.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P20.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P21.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P21.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P21.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P21.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P22.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P22.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P22.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P22.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P23.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P23.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P23.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P23.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P24.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P24.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P24.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P24.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P25.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P25.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P25.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P25.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P26.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P26.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P26.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P26.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P27.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P27.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P27.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P27.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P28.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P28.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P28.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P28.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P3.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P3.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P3.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P3.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P4.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P4.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P4.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P4.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P5.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P5.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P5.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P5.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P6.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P6.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P6.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P6.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P7.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P7.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P7.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P7.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P8.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P8.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P8.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P8.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P9.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P9.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - P9.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - P9.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20Ward%20Beck%20Systems%20M402A%201.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20Ward%20Beck%20Systems%20M402A%201.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - Ward Beck Systems M402A 1.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - Ward Beck Systems M402A 1.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20Ward%20Beck%20Systems%20M402A%202.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20Ward%20Beck%20Systems%20M402A%202.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - Ward Beck Systems M402A 2.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - Ward Beck Systems M402A 2.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20Ward%20Beck%20Systems%20M402A%203.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20Ward%20Beck%20Systems%20M402A%203.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - Ward Beck Systems M402A 3.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - Ward Beck Systems M402A 3.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20Ward%20Beck%20Systems%20M402A%204.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20Ward%20Beck%20Systems%20M402A%204.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - Ward Beck Systems M402A 4.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - Ward Beck Systems M402A 4.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20module%20-%20m402a%20eq%20-%20001.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20module%20-%20m402a%20eq%20-%20001.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - wbsps - module - m402a eq - 001.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - wbsps - module - m402a eq - 001.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20module%20-%20m402a%20eq%20-%20002.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20module%20-%20m402a%20eq%20-%20002.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - wbsps - module - m402a eq - 002.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - wbsps - module - m402a eq - 002.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20module%20-%20m402a%20eq%20-%20003.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20module%20-%20m402a%20eq%20-%20003.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - wbsps - module - m402a eq - 003.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - wbsps - module - m402a eq - 003.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20module%20-%20m402a%20eq%20-%20004.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20module%20-%20m402a%20eq%20-%20004.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - wbsps - module - m402a eq - 004.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - wbsps - module - m402a eq - 004.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20module%20-%20m402a%20equalizer%20001.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20module%20-%20m402a%20equalizer%20001.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - wbsps - module - m402a equalizer 001.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - wbsps - module - m402a equalizer 001.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20module%20-%20m402a%20equalizer%20001_small.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20module%20-%20m402a%20equalizer%20001_small.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - wbsps - module - m402a equalizer 001_small.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - wbsps - module - m402a equalizer 001_small.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20001.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20001.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - wbsps - promo - m402a eq - 001.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - wbsps - promo - m402a eq - 001.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20001_small.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20001_small.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - wbsps - promo - m402a eq - 001_small.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - wbsps - promo - m402a eq - 001_small.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20002.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20002.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - wbsps - promo - m402a eq - 002.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - wbsps - promo - m402a eq - 002.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20002_small.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20002_small.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - wbsps - promo - m402a eq - 002_small.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - wbsps - promo - m402a eq - 002_small.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20003.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20003.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - wbsps - promo - m402a eq - 003.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - wbsps - promo - m402a eq - 003.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20003_small.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20003_small.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - wbsps - promo - m402a eq - 003_small.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - wbsps - promo - m402a eq - 003_small.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20004.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20004.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - wbsps - promo - m402a eq - 004.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - wbsps - promo - m402a eq - 004.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20004_small.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20004_small.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - wbsps - promo - m402a eq - 004_small.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - wbsps - promo - m402a eq - 004_small.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20006.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20006.jpg" alt="" data-f="Modules/FILTERS/M402A/1968 - M402A - wbsps - promo - m402a eq - 006.jpg" data-size="320" onerror="wbsOff(this)">1968 - M402A - wbsps - promo - m402a eq - 006.jpg</a><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210323%20-%20Scans/19xx%20-%20DOC%20-%20GRIT%20CLEAR%20ALODINE%20MATERIA.jpg"><img loading="lazy" src="../DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210323%20-%20Scans/19xx%20-%20DOC%20-%20GRIT%20CLEAR%20ALODINE%20MATERIA.jpg" alt="" data-f="DOCUMENTS/RECENT SCANS/WBSps.ca 20210323 - Scans/19xx - DOC - GRIT CLEAR ALODINE MATERIA.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - GRIT CLEAR ALODINE MATERIA.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/19xx%20-%20M402A%20-%20M402A.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/19xx%20-%20M402A%20-%20M402A.jpg" alt="" data-f="Modules/FILTERS/M402A/19xx - M402A - M402A.jpg" data-size="320" onerror="wbsOff(this)">19xx - M402A - M402A.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/19xx%20-%20M402A%20-%20M402B.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/19xx%20-%20M402A%20-%20M402B.jpg" alt="" data-f="Modules/FILTERS/M402A/19xx - M402A - M402B.jpg" data-size="320" onerror="wbsOff(this)">19xx - M402A - M402B.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/459px-Wbsps_-_module_-_m402a_eq_-_002.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/459px-Wbsps_-_module_-_m402a_eq_-_002.jpg" alt="" data-f="Modules/FILTERS/M402A/459px-Wbsps_-_module_-_m402a_eq_-_002.jpg" data-size="320" onerror="wbsOff(this)">459px-Wbsps_-_module_-_m402a_eq_-_002.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/Ward%20Beck%20Systems%20M402A%204.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/Ward%20Beck%20Systems%20M402A%204.jpg" alt="" data-f="Modules/FILTERS/M402A/Ward Beck Systems M402A 4.jpg" data-size="320" onerror="wbsOff(this)">Ward Beck Systems M402A 4.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/wbsps%20-%20module%20-%20m402a%20eq%20-%20002.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/wbsps%20-%20module%20-%20m402a%20eq%20-%20002.jpg" alt="" data-f="Modules/FILTERS/M402A/wbsps - module - m402a eq - 002.jpg" data-size="320" onerror="wbsOff(this)">wbsps - module - m402a eq - 002.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402A/wbsps%20-%20promo%20-%20m402a%20eq%20-%20002.jpg"><img loading="lazy" src="../Modules/FILTERS/M402A/wbsps%20-%20promo%20-%20m402a%20eq%20-%20002.jpg" alt="" data-f="Modules/FILTERS/M402A/wbsps - promo - m402a eq - 002.jpg" data-size="320" onerror="wbsOff(this)">wbsps - promo - m402a eq - 002.jpg</a><a href="../viewer.html?f=Modules/FILTERS/M402/1969%20-%20402-03-004%20-%20SWITCH%20MTG%20BRKT%20M402A%20-%20ISS%204.jpg"><img loading="lazy" src="../Modules/FILTERS/M402/1969%20-%20402-03-004%20-%20SWITCH%20MTG%20BRKT%20M402A%20-%20ISS%204.jpg" alt="" data-f="Modules/FILTERS/M402/1969 - 402-03-004 - SWITCH MTG BRKT M402A - ISS 4.jpg" data-size="320" onerror="wbsOff(this)">1969 - 402-03-004 - SWITCH MTG BRKT M402A - ISS 4.jpg</a></div>
+
+<h2>Physical manual inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Location</th>
+<th>Status</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M402A</td>
+<td></td>
+<td>DUPLICATE</td>
+<td>Recently scanned and stiched by WB</td>
+</tr>
+<tr>
+<td>M402A Spec Sheet</td>
+<td></td>
+<td></td>
+<td>PDF - Already scanned</td>
+</tr>
+</tbody>
+</table>
+<h2>Documents (2)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20Spec%20Sheet%20%282%29.pdf">1968 - M402A - Spec Sheet (2).pdf</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20Spec%20Sheet%20%282%29.pdf.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20Spec%20Sheet.pdf">1968 - M402A - Spec Sheet.pdf</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20Spec%20Sheet.pdf.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (58)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20144-06-002%20-%20MIN%20BEND%20RAD%20UNESS%20SPECIFIED.jpg">1968 - M402A - 144-06-002 - MIN BEND RAD UNESS SPECIFIED.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20144-06-002%20-%20MIN%20BEND%20RAD%20UNESS%20SPECIFIED.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20Archived%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20005.jpg">1968 - M402A - Archived - wbsps - promo - m402a eq - 005.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20Archived%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20005.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20B%20402-02-010%20-%20M402A%20EFFECTS%20-%20EQUALIZER%20SCHEMATIC.jpg">1968 - M402A - B 402-02-010 - M402A EFFECTS - EQUALIZER SCHEMATIC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20B%20402-02-010%20-%20M402A%20EFFECTS%20-%20EQUALIZER%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P1.jpg">1968 - M402A - P1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P10.jpg">1968 - M402A - P10.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P10.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P11.jpg">1968 - M402A - P11.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P11.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P12.jpg">1968 - M402A - P12.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P12.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P13.jpg">1968 - M402A - P13.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P13.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P14.jpg">1968 - M402A - P14.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P14.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P15.jpg">1968 - M402A - P15.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P15.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P16.jpg">1968 - M402A - P16.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P16.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P17.jpg">1968 - M402A - P17.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P17.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P18.jpg">1968 - M402A - P18.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P18.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P19.jpg">1968 - M402A - P19.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P19.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P2.jpg">1968 - M402A - P2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P20.jpg">1968 - M402A - P20.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P20.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P21.jpg">1968 - M402A - P21.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P21.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P22.jpg">1968 - M402A - P22.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P22.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P23.jpg">1968 - M402A - P23.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P23.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P24.jpg">1968 - M402A - P24.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P24.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P25.jpg">1968 - M402A - P25.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P25.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P26.jpg">1968 - M402A - P26.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P26.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P27.jpg">1968 - M402A - P27.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P27.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P28.jpg">1968 - M402A - P28.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P28.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P3.jpg">1968 - M402A - P3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P4.jpg">1968 - M402A - P4.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P4.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P5.jpg">1968 - M402A - P5.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P5.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P6.jpg">1968 - M402A - P6.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P6.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P7.jpg">1968 - M402A - P7.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P7.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P8.jpg">1968 - M402A - P8.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P8.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P9.jpg">1968 - M402A - P9.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P9.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20Ward%20Beck%20Systems%20M402A%201.jpg">1968 - M402A - Ward Beck Systems M402A 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20Ward%20Beck%20Systems%20M402A%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20Ward%20Beck%20Systems%20M402A%202.jpg">1968 - M402A - Ward Beck Systems M402A 2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20Ward%20Beck%20Systems%20M402A%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20Ward%20Beck%20Systems%20M402A%203.jpg">1968 - M402A - Ward Beck Systems M402A 3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20Ward%20Beck%20Systems%20M402A%203.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20Ward%20Beck%20Systems%20M402A%204.jpg">1968 - M402A - Ward Beck Systems M402A 4.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20Ward%20Beck%20Systems%20M402A%204.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20module%20-%20m402a%20eq%20-%20001.jpg">1968 - M402A - wbsps - module - m402a eq - 001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20module%20-%20m402a%20eq%20-%20001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20module%20-%20m402a%20eq%20-%20002.jpg">1968 - M402A - wbsps - module - m402a eq - 002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20module%20-%20m402a%20eq%20-%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20module%20-%20m402a%20eq%20-%20003.jpg">1968 - M402A - wbsps - module - m402a eq - 003.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20module%20-%20m402a%20eq%20-%20003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20module%20-%20m402a%20eq%20-%20004.jpg">1968 - M402A - wbsps - module - m402a eq - 004.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20module%20-%20m402a%20eq%20-%20004.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20module%20-%20m402a%20equalizer%20001.jpg">1968 - M402A - wbsps - module - m402a equalizer 001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20module%20-%20m402a%20equalizer%20001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20module%20-%20m402a%20equalizer%20001_small.jpg">1968 - M402A - wbsps - module - m402a equalizer 001_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20module%20-%20m402a%20equalizer%20001_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20001.jpg">1968 - M402A - wbsps - promo - m402a eq - 001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20001_small.jpg">1968 - M402A - wbsps - promo - m402a eq - 001_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20001_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20002.jpg">1968 - M402A - wbsps - promo - m402a eq - 002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20002_small.jpg">1968 - M402A - wbsps - promo - m402a eq - 002_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20002_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20003.jpg">1968 - M402A - wbsps - promo - m402a eq - 003.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20003_small.jpg">1968 - M402A - wbsps - promo - m402a eq - 003_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20003_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20004.jpg">1968 - M402A - wbsps - promo - m402a eq - 004.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20004.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20004_small.jpg">1968 - M402A - wbsps - promo - m402a eq - 004_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20004_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1968|1</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20006.jpg">1968 - M402A - wbsps - promo - m402a eq - 006.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20006.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210323%20-%20Scans/19xx%20-%20DOC%20-%20GRIT%20CLEAR%20ALODINE%20MATERIA.jpg">19xx - DOC - GRIT CLEAR ALODINE MATERIA.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210323%20-%20Scans/19xx%20-%20DOC%20-%20GRIT%20CLEAR%20ALODINE%20MATERIA.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/19xx%20-%20M402A%20-%20DOC%20-%20GRIT%20CLEAR%20ALODINE%20MATERIA.jpg">19xx - M402A - DOC - GRIT CLEAR ALODINE MATERIA.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/19xx%20-%20M402A%20-%20DOC%20-%20GRIT%20CLEAR%20ALODINE%20MATERIA.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/19xx%20-%20M402A%20-%20M402A.jpg">19xx - M402A - M402A.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/19xx%20-%20M402A%20-%20M402A.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/19xx%20-%20M402A%20-%20M402B.jpg">19xx - M402A - M402B.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/19xx%20-%20M402A%20-%20M402B.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/459px-Wbsps_-_module_-_m402a_eq_-_002.jpg">459px-Wbsps_-<em>module</em>-<em>m402a_eq</em>-_002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/459px-Wbsps_-_module_-_m402a_eq_-_002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/Ward%20Beck%20Systems%20M402A%204.jpg">Ward Beck Systems M402A 4.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/Ward%20Beck%20Systems%20M402A%204.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/wbsps%20-%20module%20-%20m402a%20eq%20-%20002.jpg">wbsps - module - m402a eq - 002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/wbsps%20-%20module%20-%20m402a%20eq%20-%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/wbsps%20-%20promo%20-%20m402a%20eq%20-%20002.jpg">wbsps - promo - m402a eq - 002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/wbsps%20-%20promo%20-%20m402a%20eq%20-%20002.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (2)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../viewer.html?f=Products/RTO/RTO-144/19xx%20-%20RTO-144%20-%20Module%20RTO-144%20Jumper%20calculator.xlsx">19xx - RTO-144 - Module RTO-144 Jumper calculator.xlsx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402/1969%20-%20402-03-004%20-%20SWITCH%20MTG%20BRKT%20M402A%20-%20ISS%204.jpg">1969 - 402-03-004 - SWITCH MTG BRKT M402A - ISS 4.jpg</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>General description (5)</h3>
+<details><summary>Description — 339 words · 1968 - M402A - Spec Sheet (2).pdf, page 1</summary><p>M402A EFFECTS EQUALIZER</p><p>T he M4 02A Effects Equali zer is a plug-in, high-perf orm ance module designed                                                                                           FEATURES:</p><p>to be compatible with the Ward-Beck group of modular console components.              • Active circuitry - uses operational     Frequency selection and degree of equalization are controlled by concen tric            amplifiers - introduces no loss     rotary switches. Individual low and high fr equency contro ls are pr ovided and,     in addition. multipl e f requency presence boost. mid-low fr equency boost and     60Hz not ch facilit ies are included .                                                •   l OdB boost. 15dB cu t for low and                                                                                               high frequencies     The multi·frequency correction controls may be used singularly or cumulatively     to produce a wide range and combination of effects. T he transient free controls     may be pre-set or operated directly during program transmission. A unique             • 5 selectable presence frequencies     solld-sta te audio switch rapidly inserts or removes the equalized elements from        wi th l OdB boost in 2dB steps     the system program path.</p><p>Th e extensive use of operational amplifiers combined with FET frequency              •   60Hz notch filter eliminates     discriminative networks is responsible for the many features offered and the              induced hum . Mid-low frequ ency     excellent performance characteristics of this compact design. An actively                 boost prov ides enhanced fl exibi lity     balanced output configu ration permits a generous margin of signal headroom.                                                                                           • Solid state audio switch rapidly                                                                                                                                 a</p><p>inserts/removes equalizer circuit                                                                                                                             .c</p><p>The M402A is ent irely balanced and lossless. T he active circuit operates with     38dB gain, to enhance the flexibility of this unit asan ecualizer/rn ix-arnptif ier     in transient-free mode. Panel status                                                                                                                         ps</p><p>•     within a console system. The use of a simple external resistive network adapts          lamp indicates equalizer function                                                                                                                BS</p><p>the M402A fo r unity gain operation.                                                  • Low profile, compact design,                                                                                             mounts directly on console control                                                                                                               W</p><p>panel in-line with mixing attenuator                                                                                                            ://                                                                                                        tp                                                                                                     ht</p><p>.-:.&#x27;1                                          I    t 11    PANEL C.UTOUT</p><p>&quot;&quot;&#x27;&quot;                                                                                                                                                            •                                             i J&quot;&quot;                                       ,L,:- -,-:JlJ, ·n</p><p>@                                       l@ .~,                                        @                                        0 0</p><p>l,..J                    ~              7 ·0&#x27; - - -~</p><p>M402A</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20Spec%20Sheet%20%282%29.pdf">1968 - M402A - Spec Sheet (2).pdf</a>, p. 1</li>
+</ul>
+<details><summary>Description — 283 words · 1968 - M402A - Spec Sheet.pdf, page 1</summary><p>FEATURES:     The M402A Effects Equalizer is a plug-in, high-performance module designed     to be compatible with the Ward-Beck group of modular console components.           • Active circuitry — uses operational     Frequency selection and degree of equalization are controlled by concentric          amplifiers — introduces no loss     rotary switches. Individual low and high frequency controls are provided and,     in addition, multiple frequency presence boost, mid-low frequency boost and     60Hz notch facilities are included.                                                  10dB boost, 15dB cut for low and                                                                                          high frequencies     The multi-frequency correction controls may be used singularly or cumulatively     to produce a wide range and combination of effects. The transient free controls     may be pre-set or operated directly during program transmission. A unique            5 selectable presence frequencies     sorid-state audio switch rapidly inserts or removes the equalized elements from      with 10dB boost in 2dB steps     the system program path.</p><p>The extensive use of operational amplifiers combined with FET frequency              60Hz notch filter eliminates     discriminative networks is responsible for the many features offered and the         induced hum. Mid-low frequency     excellent performance characteristics of this compact design. An actively            boost provides enhanced flexibility     balanced output configuration permits a generous margin of signal headroom.                                                                                          Solid state audio switch rapidly     The M402A is entirely balanced and lossless. The active circuit operates with        inserts/removes equalizer circuit     38dB gain, to enhance the flexibility of this unit as an equalizer/mix-amplifier     in transient-free mode. Panel status</p><p>•   within a console system.The use of a simple external resistive network adapts     the M402A for unity gain operation.                                                                                          lamp indicates equalizer function                                                                                          Low profile, compact design,                                                                                          mounts directly on console control                                                                                          panel in-line with mixing attenuator</p><p>PANEL CUTOUT                                                                DETAILS</p><p>60                                                         6 25</p><p>[THK PC CONNECTOR&#x27;                                                                                  (22 PIN)</p><p>I- 1•56-j</p><p>CD                                       CD         6.63</p><p>O                                       o   0</p><p>M402A</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20Spec%20Sheet.pdf">1968 - M402A - Spec Sheet.pdf</a>, p. 1</li>
+</ul>
+<details><summary>Description — 332 words · 1968 - M402A - P6.jpg, page 1</summary><p>Refer to schematic diagram 402-02-0l0 _ The M4OZA has three main active circuit sections low noise preamplifier, equalizer networks and output amplifier The equalizer section has unity gain and is switched in and out between the preamplifier and output amplifier via switch SW6  With SW6 selected to the &quot;Off&quot; position (Lamp Off) the preamplifier is connected directly to the output amplifier and the equalizer functions as conventional amplifier with flat response characteristics _ The input signal is applied to the preamplifier via the 22 pin connector and transformer Tl The input may be strapped on the chassis plug to operate from 150 or 600 ohm source impedances The signal is applied to common emitter amplifier, Q1, base via T1 secondary _ 01 is directly coupled to emitter follower Q2 _ R4 and RS set the gain of the preamplifier and introduce negative feedback through Tl secondary C5 is the preamplifier output coupling capacitor and connects to the input of  SW6 equalizer insert pushbutton The  output of SW6 is connected to input of the integrated circuit balanced output amplifier _ R9O through R93 and c34 through C36 form compensation network to limit the response outside the audio spectrum c37 is the coupling capacitor to the non-inverting and inverting input to 23 and 24 respectively C48 and c49 couple the actively balanced audio output from 23 and 24 and present +l8dBm capability output (after 6dB pad) via terminals 13 and 14 balanced to ground _ An additional direct output is provided via terminals 15 and 16 for use with an external resistive isolating network_ This connection is primarily for added flexibility within console systems when isolated or bridged secondary circuits are required .</p><p>The equalizer section is interposed via SW6 _ Capacitor C6 couples the signal from SW6 to the input of the equalizer section _ C6 in conjunction with resistors Rl2 through Rl7 form 6dB/octave high pass filter Attenuation is achieved in 3dB steps producing 3, 6,9,12 and l5dB positions at 1OOHz -5</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P6.jpg">1968 - M402A - P6.jpg</a>, p. 1</li>
+<li>also in: <a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20001.jpg">1968 - M402A - wbsps - promo - m402a eq - 001.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20Ward%20Beck%20Systems%20M402A%201.jpg">1968 - M402A - Ward Beck Systems M402A 1.jpg</a>, p. 1</li>
+</ul>
+<h3>Specifications (11)</h3>
+<details><summary>Technical Data — 273 words · 1968 - M402A - Spec Sheet (2).pdf, page 2</summary><p>MA TCHED GAIN 38dB FREQUENCY RESPONSE ± O.5dB from 20Hz to 20k Hz (effe cts contr ols at zero position )                                                                               OUTPUT IMPEDANCE                                                                               600 ohms ( 150 ohms available) ± 10%                                                                               OUTPUT LEV EL                                                                               + 18dBm maximum                                                                                                                                                            •                                                                               PHASING EQUIVALENT INPUT NOISE                                                                                Th e low terminal number of the input pair and the low -1 15dBm ( 10Hz to 100 kHz bandw idt h)                                                                                terminal number of the output pair are in phase. HAR MON IC DISTORTI ON                                                                                EQUA LI Z ING CHARACT ERIST ICS Less than 0.5% fro m 30 Hz to 20k Hz (Measured at + 18dBm                                                                                In accordance wi th specif ied curveswi th in ± 0.5dB out put levelI                                                                                POWER REQUIREMENTS SOURCE IMPEDANC E                                                                                48 volts de, regulated fr om M648 or equivalent . 65mA 150/600 ohms balanced or unbalanced                                                                                AM BIENT T EMPERAT URE INPUT IMPEDA NCE                                                                                0&#x27; to 60&#x27;c 150/600 ohms ± 10%                                                                                D IMENSIONS INPUT LE VE L                                                                                1.58W x 6.625L x 60 (depth below panell inches - 3BdBm nomina l , -2OdBm maximum                                                                                WEIGHT LOAD IMPEDAN CE 600 ohm s                                                                                11&gt; Ibs. Net</p><p>ACCESSORIES:                                                                                                                                                        a                                                                                                                                                       .c                                                                                                                                                       ps</p><p>•                                                                                                                                             BS                                                                                                                                            W</p><p>(VVE3S]                                           WARD-BECK SYSTEMS LTD .                                                                                                                                        ://                                                                                                                                    tp                                                                                                                                 ht</p><p>2000 E LLE S ME I&#x27;l E   F&#x27;lO AO, S C A ,&quot;,B O R O U G l-l . ON TAR IO   •   4 16 /;;281 - 21 06</p><p>M402A EFFECTS EQUALIZER CHARACTERISTICS      dB  + 12</p><p>10                              .... .... ~                                                                                                                                                -          8                                                                                                                                                                         &quot;&quot;                                                 ~                                                                                                   11- ~                                      ~                                                                                                                          &quot;.          6</p><p>4                                                 -- &quot; ........                                                      ~                                                                                                                                        ,   t        ..... ...</p><p>+2                                                                                                             ~                                                                                                                                       &quot;                                                                                                                                       -.- :::- .... -... &quot;&quot; &lt;,          o                                                                                                                         -.:                                                 .........--::V         / ::;:..    ....                                                                                     ~                                                                                              1                                                                                                                  ~</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20Spec%20Sheet%20%282%29.pdf">1968 - M402A - Spec Sheet (2).pdf</a>, p. 2</li>
+</ul>
+<details><summary>Technical Data — 257 words · 1968 - M402A - Spec Sheet.pdf, page 2</summary><p>MATCHED GAIN                                                                    OUTPUT IMPEDANCE                                                                                 600 ohms (150 ohms available) ± 10% 38dB FREQUENCY RESPONSE                                                              OUTPUT LEVEL ± 0.5dB from 20Hz to 20kHz (effects controls at zero position)                   + 18dBm maximum EQUIVALENT INPUT NOISE                                                          PHASING —1 15dBm (10Hz to 100kHz bandwidth)                                             The low terminal number of the input pair and the low HARMONIC DISTORTION                                                             terminal number of the output pair are in phase. Less than 0.5% from 30Hz to 20kHz (Measured at +18dBm                           EQUALIZING CHARACTERISTICS output level)                                                                   In accordance with specified curves within ± 0.5dB SOURCE IMPEDANCE                                                                POWER REQUIREMENTS 150/600 ohms balanced or unbalanced                                             48 volts dc, regulated from M648 or equivalent. 65mA INPUT IMPEDANCE                                                                 AMBIENT TEMPERATURE 150/600 ohms ± 10%                                                              0° to 60°c INPUT LEVEL                                                                     DIMENSIONS —38dBm nominal, —20dBm maximum                                                  1.58W x 6.625L x 6D (depth below panel) inches LOAD IMPEDANCE                                                                  WEIGHT 600 ohms                                                                        11/2 lbs. Net</p><p>ACCESSORIES:</p><p>rW E3                                                 WARD-BECK SYSTEMS LTD.                                                         2000 ELLESMERE ROAD, SCARBOROUGH, ONTARIO • 416/ 291-2108</p><p>dB              M402A EFFECTS EQUALIZER CHARACTERISTICS -1-12</p><p>8</p><p>6</p><p>4</p><p>-1- 2</p><p>0</p><p>—3</p><p>6</p><p>9</p><p>12</p><p>15</p><p>—20                  100                       1000                           10000    20000</p><p>HF&amp;L F BOOST AND CUT</p><p>dB +10</p><p>8</p><p>6</p><p>4</p><p>+2</p><p>0</p><p>100                           1000                           10000                                       Hz                              MID LOW FREQUECY BOOST</p><p>WARD-BECK SYSTEMS LTD.                         2000 ELLESMERE ROAD, SCARBOROUGH, ONTARIO • 416/291-2106</p><p>III   II   4 H z 111111               111111,   1  11r1111    1111111  dB +10</p><p>8</p><p>6             111111:            FIVE PRE</p><p>SHOWN C</p><p>FAMILY 0                                          111111   4</p><p>2</p><p>0               liflifilkil11111111111            IIIICAMENIMI1111111                                I</p><p>1000                       10000   100 k</p><p>Hz                                  PRESENCE</p><p>dB    0</p><p>5</p><p>10</p><p>15</p><p>20</p><p>25</p><p>30</p><p>35</p><p>40</p><p>45</p><p>— 50</p><p>100                        1000      10000</p><p>H7</p><p>60Hz NOTCH FILTER</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20Spec%20Sheet.pdf">1968 - M402A - Spec Sheet.pdf</a>, p. 2</li>
+</ul>
+<details><summary>Technical Data — 156 words · 19xx - M402A - M402B.jpg, page 1</summary><p>MATCHED GAIN 38dB FREQUENCY RESPONSE + 0.5dB from 20Hz to 20kHz (effects controls at zero position) EQUIVALENT INPUT NOISE -115dBm 1OHz to 1OOkHz bandwidth) HARMONIC DISTORTION Less than 0.5% from 30Hz to 20kHz (Measured at 18dBm output level) SOURCE IMPEDANCE 150/600 ohms balanced or unbalanced INPUT IMPEDANCE 150/600 ohms + 10% INPUT LEVEL -38dBm nominal, ~14dBm maximum LOAD IMPEDANCE 600 ohms OUTPUT IMPEDANCE 150 ohms + 10% OUTPUT LEVEL 24dBm maximum PHASING The low terminal number of the input pair and the low terminal number of the output pair are in phase.</p><p>EQUALIZING CHARACTERISTICS In accordance with specified curves within + 0.SdB POWER REQUIREMENTS 48 volts dc, regulated from M648 or equivalent. 65mA AMBIENT TEMPERATURE 0 to 60&#x27;c DIMENSIONS 1.58W 6.625L 6D (depth below panel) inches WEIGHT 1 Ibs. Net ACCESSORIES: WARD-BECK SYSTEMS LTD_ WARD-BECK SYSTEMS INC. 841 Progress Ave,Scarborough,Ont_ M1H 2x4 290 Larkin St , Buffalo; New York 14210 Telephone: (416) 438-6550 Telex: 06-23469 WBS</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/FILTERS/M402A/19xx%20-%20M402A%20-%20M402B.jpg">19xx - M402A - M402B.jpg</a>, p. 1</li>
+<li>also in: <a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20Ward%20Beck%20Systems%20M402A%204.jpg">1968 - M402A - Ward Beck Systems M402A 4.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/FILTERS/M402A/Ward%20Beck%20Systems%20M402A%204.jpg">Ward Beck Systems M402A 4.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/FILTERS/M402A/19xx%20-%20M402A%20-%20M402A.jpg">19xx - M402A - M402A.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20promo%20-%20m402a%20eq%20-%20002.jpg">1968 - M402A - wbsps - promo - m402a eq - 002.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/FILTERS/M402A/wbsps%20-%20module%20-%20m402a%20eq%20-%20002.jpg">wbsps - module - m402a eq - 002.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/FILTERS/M402A/wbsps%20-%20promo%20-%20m402a%20eq%20-%20002.jpg">wbsps - promo - m402a eq - 002.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20wbsps%20-%20module%20-%20m402a%20eq%20-%20002.jpg">1968 - M402A - wbsps - module - m402a eq - 002.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/FILTERS/M402A/459px-Wbsps_-_module_-_m402a_eq_-_002.jpg">459px-Wbsps_-<em>module</em>-<em>m402a_eq</em>-_002.jpg</a>, p. 1</li>
+</ul>
+<h3>Installation (1)</h3>
+<details><summary>Installation — 243 words · 1968 - M402A - P5.jpg, page 1</summary><p>The M402-A is designed to mount directly on the mixing console front panel The dimensions are such that the unit may be mounted in line with standard straight line mixing attenuator associated with each mixing channel cutout 1.56w 6L and two tapped holes will be required as shown in drawing 402-04-010 The escutcheon of the M4o2-A will overlap the cutout and holes External connections are made to the 22 pin female ma ting connector in accordance with drawing 402-02-011 For optimum results, use insulated, shielded twisted pairs for both input and output wiring Dress all audio cables apart from ac and power supply wiring_ Ground shields at one end only and use separate ground return wire to the system common ground for the power supply and shields as shown in the System Wiring Diagram 404-09-012 The metal frame of the M4O2A equalizer should be bonded to the system ground _ In this case it is permissible to loop through each unit with common ground wire connected via pin 19 _ When used in system, such as an audio mixing console, the M4O2A equalizer should be operated from separate power supply than the ones used to provide dc power to program amplifiers cue amplifiers or other s imilar units operating at high output levels _ The latter units produce large current swings and the possibility of ins tability, noise, or crosstalk should be avoided in systems which combine high gain and wide-band amplifiers -4</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P5.jpg">1968 - M402A - P5.jpg</a>, p. 1</li>
+</ul>
+<h3>Operation (1)</h3>
+<details><summary>Controls — 275 words · 1968 - M402A - P8.jpg, page 1</summary><p>The M402-A has two groups of concentric controls one single control for L_ F and one alternate action insert pushbutton with associated indicator lamp, to be used throughout the operation of the unit These transient-free controls may be pre-set or adjusted during the operation of the unit. With the exception of the Mid-Low-Frequency boost and Presence Boost (these functions share five positions each side of common selector switch) all functions are cumulative and may be used in combination to achieve multiple or combined effects Upper Concentric Group Inner (small) knob; 60IN/600uT_ This knob is two position selector and is used to insert the 6OHz notch filter.</p><p>Turning the knob CW places the filter in the circuit and the white line on the knob aligns with the 60 IN position Outer (large) knob: HF _ The high frequency knob provides up to lodB of boost at 15kHZ in the CW positions and down to 15dB of cut at the CW positions Centre Concentric Group Inner (small) knob: .7 _ 1.4, 2 .5 , 3.4, 5 This knob determines the presence frequency and operates in conjunction with the CW five positions of the PRES switch Outer (large) knob: MLF , PRES .</p><p>This knob produces two effects (separately ) In the CW positions Mid-Low- Frequency platform is  produced below 1OOHz and in shelf of 2dB increments _ In the CCW positions the degree of Presence is established _ This works in conjunction with the frequency selector (inner smnall knob) The frequency is determined by the inner knob and the amount of boost, at the selected frequency, is determined by the outer knob (lodB max.</p><p>) ~7 _</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P8.jpg">1968 - M402A - P8.jpg</a>, p. 1</li>
+</ul>
+<h3>Maintenance &amp; alignment (1)</h3>
+<details><summary>Maintenance — 257 words · 1968 - M402A - P9.jpg, page 1</summary><p>The M402-A is designed for dependable, trouble-free service; however, as with all high quality electronic equipment, regular schedule of inspection should be established_ Any accumulation of dust should be periodically removed with soft brush and vacuum hose. To gain access to the component boards and switch decks it is necessary to remove the metal side cover which is to the left side of the etched escutcheon This is accomplished by removing the two 2-56 flat-head screws on the left side of the M4o2-A escutcheon and the two 4-40 round-head screws located on the bottom of the unit.</p><p>Do not loosen the 4-40 screw immediately adjacent to the M4o2-A connector; this secures the Erame ground lug internal to the equalizer_ The PC boards may be examined by placing the equalizer on flat work area with the cover removed, the connector positioned to the left and with the control knobs positioned away from the inspector The amplifier and equalizer boards are located in position by retaining grooves fabricated from aluminum tabs spot welded to the equalizer case Both PC boards may be extended by the length of the cable assembly by gently lifting the boards alternately out of the retaining grooves The boards may be supported by moving each assembly over t0 the right and temporarily res ting the edge of the PC board on the metal enclosure Care should be exercised to prevent damage to the interconnecting cable assemblies and upon reassembly, the flexible wires should be channeled under the PC board notch-outs to prevent crimping _ -8</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20P9.jpg">1968 - M402A - P9.jpg</a>, p. 1</li>
+</ul>
+<h2>Drawings (8)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="People.html#drawing-staff">Drawn by</a></th>
+<th><a href="People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>—</td>
+<td>Grit Clear Alodine Materia</td>
+<td></td>
+<td><a href="Person-DJG.html">DJG</a></td>
+<td><a href="Person-RA.html">RA</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/19xx%20-%20M402A%20-%20DOC%20-%20GRIT%20CLEAR%20ALODINE%20MATERIA.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/459px-Wbsps_-_module_-_m402a_eq_-_002.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>M402B</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/19xx%20-%20M402A%20-%20M402B.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/Ward%20Beck%20Systems%20M402A%204.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/wbsps%20-%20module%20-%20m402a%20eq%20-%20002.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>M402A</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/19xx%20-%20M402A%20-%20M402A.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/wbsps%20-%20promo%20-%20m402a%20eq%20-%20002.jpg">file</a></td>
+</tr>
+<tr>
+<td>144-06-002</td>
+<td>Min Bend Rad Uness Specified</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402A/1968%20-%20M402A%20-%20144-06-002%20-%20MIN%20BEND%20RAD%20UNESS%20SPECIFIED.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M402A&quot;,
+ &quot;name&quot;: &quot;Spec Sheet&quot;,
+ &quot;category&quot;: &quot;FILTERS&quot;,
+ &quot;year&quot;: 1968,
+ &quot;connections&quot;: {
+  &quot;from&quot;: &quot;its own documents&quot;,
+  &quot;inputs&quot;: [
+   &quot;Input Impeda Nce&quot;,
+   &quot;Input Le Ve L&quot;
+  ],
+  &quot;outputs&quot;: [
+   &quot;Output Impedance&quot;,
+   &quot;Output Lev El&quot;
+  ],
+  &quot;power&quot;: [],
+  &quot;control&quot;: []
+ },
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - 144-06-002 - MIN BEND RAD UNESS SPECIFIED.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - Archived - wbsps - promo - m402a eq - 005.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - B 402-02-010 - M402A EFFECTS - EQUALIZER SCHEMATIC.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - P1.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - P10.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - P11.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - P12.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - P13.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - P14.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - P15.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - P16.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - P17.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - P18.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - P19.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - P2.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - P20.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - P21.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - P22.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - P23.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - P24.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - P25.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - P26.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - P27.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - P28.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - P3.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - P4.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - P5.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - P6.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - P7.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - P8.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - P9.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - Spec Sheet (2).pdf&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 4,
+   &quot;holds&quot;: [
+    &quot;connections&quot;,
+    &quot;dates&quot;,
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - Spec Sheet.pdf&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 4,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - Ward Beck Systems M402A 1.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - Ward Beck Systems M402A 2.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - Ward Beck Systems M402A 3.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - Ward Beck Systems M402A 4.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - wbsps - module - m402a eq - 001.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - wbsps - module - m402a eq - 002.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - wbsps - module - m402a eq - 003.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - wbsps - module - m402a eq - 004.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - wbsps - module - m402a equalizer 001.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - wbsps - module - m402a equalizer 001_small.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - wbsps - promo - m402a eq - 001.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - wbsps - promo - m402a eq - 001_small.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - wbsps - promo - m402a eq - 002.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - wbsps - promo - m402a eq - 002_small.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - wbsps - promo - m402a eq - 003.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - wbsps - promo - m402a eq - 003_small.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - wbsps - promo - m402a eq - 004.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - wbsps - promo - m402a eq - 004_small.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/1968 - M402A - wbsps - promo - m402a eq - 006.jpg&quot;,
+   &quot;year&quot;: 1968,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/19xx - M402A - DOC - GRIT CLEAR ALODINE MATERIA.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/19xx - M402A - M402A.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;modules&quot;,
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/19xx - M402A - M402B.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/459px-Wbsps_-_module_-_m402a_eq_-_002.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/Ward Beck Systems M402A 4.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/wbsps - module - m402a eq - 002.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/FILTERS/M402A/wbsps - promo - m402a eq - 002.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../_catalog/libcontrol/libcontrol.css"><script src="../_catalog/libcontrol/react.js"></script><script src="../_catalog/libcontrol/react-dom.js"></script><script src="../_catalog/libcontrol/libcontrol.js"></script><script src="../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M402A.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

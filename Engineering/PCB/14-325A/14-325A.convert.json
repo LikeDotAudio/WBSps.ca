@@ -1,0 +1,30 @@
+{
+  "source": "/home/anthony/Documents/GitProjects/WBSps.ca/WBSps.env/WBSps Engineering from H drive/WBSps - SA14-XXX/SA14-325/TANGO/14-325A.PCB",
+  "kicad_pcb": "/home/anthony/Documents/GitProjects/WBSps.ca/2026/Engineering/PCB/14-325A/14-325A.kicad_pcb",
+  "format": "Tango-PCB PLUS V2.02 Series II",
+  "edge_layer": 14,
+  "tango_layers_used": {
+    "0": 2708,
+    "1": 2059,
+    "4": 123,
+    "8": 3775,
+    "9": 1,
+    "10": 40,
+    "11": 1,
+    "12": 78,
+    "14": 21,
+    "16": 20,
+    "17": 19,
+    "18": 28
+  },
+  "counts": {
+    "components": 551,
+    "pads": 2398,
+    "tracks": 4591,
+    "vias": 149,
+    "graphics": 3829,
+    "texts": 400,
+    "pours": 53
+  },
+  "nets": null
+}

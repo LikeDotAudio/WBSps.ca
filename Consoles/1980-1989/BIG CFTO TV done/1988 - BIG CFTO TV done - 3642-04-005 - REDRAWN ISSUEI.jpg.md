@@ -1,0 +1,151 @@
+# 1988 - BIG CFTO TV done - 3642-04-005 - REDRAWN ISSUEI.jpg
+Wiki page: [Consoles](../../../PAGES/Consoles.md)
+
+
+- **Year:** 1988 (inferred: project CFTO TV done: 78 dated files)
+- **Console:** BIG CFTO TV done
+- **Project:** CFTO TV done
+- **Original file:** `WBSps.env/PUBLIC/Manuals + tech DOCUMENTS/Consoles/BIG CFTO TV done/3642-04-005.jpg`
+- **SHA-256:** `e0071e87dc47ebc7a37d7479965cee365a24c504ca98c27af6800e53be2890ce`
+- **Size:** 10,424,789 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 1 words corrected)
+
+```text
+TBI
+109
+106
+107
+08
+UNE KEY
+MON MUTE
+MON TALKBACK
+MON TALKBACK
+MON TALKBACK
+MON MUTE
+INPUT CONTROL PAIRS
+(OPTO-COUPLED)
+13 MON MUTE 19
+MON MUTE
+SPARE
+SPARE 10
+SPARE
+SPARE
++5V
+25 SPARE 13 31
+SPARE
+SPARE 15
+SPARE 10
+CoM
++12v
+MS2OOA
++12v
+37
+CTL COM
+CTL COMMON
+43
+49 MUTE
+MUTE
+MUTE
+MUTE
+MUTE #5
+MUTE #6
+OUTPUT CONTROL PAIRS
+55
+(DRY CLOSURE)
+61
+MACH CTL
+MACH CTL
+MACH CTL
+MACH CI
+PFL
+SOLO
+67
+73 MACH CT 79
+MACH CTL
+SPARE 515
+SPARE 016
+CTL CoM
+85
+CTL COMMON
+CTL CoM
+91
+97
+Sw IN-1 Sw IN-2 SPKR STD STD STD 3183/3 COMMU- 103 E 8 NICA TIONS TB SPARE SLATE /es c M1 STEREO CONTROLS 109 HuIE NO 82 K MSTR FADER M2 STEREO M1 MONO M2 MONO 3 8 CUT 115 NO MO. NO 9 SWITCH 1 1-R 8 121 9 8 2-R 0 127 3-4 3-R 1 UTILITY |133 METER EXT 4-R I INPUTS | 139 5-4 5-R J 1 145 Hi 6-L 6-R 151 SHIELD SHIELD 1 CUSTOMER CONNECTIONS ON RHJ SIDE OF BLOCK W 9 3
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+TBI
+109
+106
+107
+08
+UNE KEY
+MON MUTE
+MON TALKBACK
+MON TALKBACK
+MON TALKBACK
+MON MUTE
+INPUT CONTROL PAIRS
+(OPTO-COUPLED)
+13 MON MUTE 19
+MON MUTE
+SPARE
+SPARE 10
+SPARE
+SPARE
++5V
+25 SPARE 13 31
+SPARE
+SPARE 15
+SPARE 10
+CoM
++12v
+MS2OOA
++12v
+37
+CTL COM
+CTL COMMON
+43
+49 MUTE
+MUTE
+MUTE
+MUTE
+MUTE #5
+MUTE #6
+OUTPUT CONTROL PAIRS
+55
+(DRY CLOSURE)
+61
+MACH CTL
+MACH CTL
+MACH CTL
+MACH CI
+PFL
+SOLO
+67
+73 MACH CT 79
+MACH CTL
+SPARE 515
+SPARE 016
+CTL CoM
+85
+CTL COMMON
+CTL CoM
+91
+97
+Sw IN-1 Sw IN-2 SPKR STD STD STD 3183/3 COMMU- 103 E 8 NICA TIONS TB SPARE SLATE /es c M1 STEREO CONTROLS 109 HuIE NO 82 K MSTR FADER M2 STEREO M1 MONO M2 MONO 3 8 CUT 115 NO MO. NO 9 SWITCH 1 1-R 8 121 9 8 2-R 0 127 3-4 3-R 1 UTILTY |133 METER EXT 4-R I INPUTS | 139 5-4 5-R J 1 145 Hi 6-L 6-R 151 SHIELD SHIELD 1 CUSTOMER CONNECTIONS ON RHJ SIDE OF BLOCK W 9 3
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - 3642-04-005 - REDRAWN ISSUEI.jpg","sha256":"e0071e87dc47ebc7a37d7479965cee365a24c504ca98c27af6800e53be2890ce","kind":"console","models":["BIG CFTO TV done"],"year":1988,"pages":1,"order":[{"page":1,"title_block":[{"number":"3642-04-005","type":"layout / outline","title":"Redrawn Issuei","drawn":"SG","issue":"I"}]}],"drawing":{"svg":"_traces/e0071e87dc47ebc7.svg","viewBox":[2000,1414],"rotate":90,"number":"3642-04-005","title":"Redrawn Issuei","dtype":"04","outlines":"see _traces/e0071e87dc47ebc7.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")"}}
+```

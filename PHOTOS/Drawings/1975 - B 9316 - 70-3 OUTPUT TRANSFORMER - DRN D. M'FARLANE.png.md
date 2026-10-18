@@ -1,0 +1,229 @@
+# 1975 - B 9316 - 70-3 OUTPUT TRANSFORMER - DRN D. M'FARLANE.png
+Wiki page: [Consoles](../../PAGES/Consoles.md)
+
+
+- **Year:** 1975 (title block date)
+- **Type:** drawing / photo from WBS Photos-1-001
+
+## Title block (found by software, read by eye)
+
+- **Drawing:** B 9316
+- **Size:** B
+- **Title:** 70-3 OUTPUT TRANSFORMER
+- **Date:** 2 DEC 75
+- **Drawn:** D. M'FARLANE
+- **Checked:** KWW
+- **Confidence:** high
+
+- **Original file:** `WBSps.env/WBS Photos-1-001/WBSps.ca - 20210317 11X 17 Scans  (135).png`
+- **SHA-256:** `647bbce9f2c568308c415a6a43f32f17465f199a202c44cdad7da6f4a546e9e9`
+- **Size:** 1,563,753 bytes
+- **Pages:** 1
+
+## Dates found in this file
+
+- **1975** (labelled): `DATE DEC 75` — …OD CKD: USED ON MATL WBS WARD-BECK BYBTEMB LT DRN DMTARLANE DATE DEC 75 CKD KMM SCALE TOLS _ iG FINISH 70-7 OUTPUT TRANSFORMER B 97…
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 2 words corrected)
+
+```text
+06 2.40
+1.52 MAX.
+SPECIFICATiONS
+4.00
+PR IMARY :
+47 ohms #5% WiTH SECONDARY LOAD
+WATT into
+2 _
+SECONDARY :
+150/600 ohms *5% SPLIT
+3 _
+NO DC CURRENT IN PR / . OR SEC
+4
+DC RES :
+10% OF PR /
+SEC. IMPEDANCE
+2+125 * 015
+5 .
+MAX. INSERTION Loss:
+dB
+IkHz @+30 dBm inTo SEC. LOAD
+'06 2,71
+6
+FREQUENCY RESPONSE :
+Within 0.10 dB 30 Hz To 20 kHz 0.20 dB 20 Hz WATT DOWN To LESS THAN 0 . WATT
+D/ STORTION
+LESS THAN 0.15% 30 Hz To 20 kHz & LESS THAN 0.25% 20 Hz @ 1 WATT DOWN To LESS THAN 0.1 WATT
+PHASE SHIFT:
+LESS THAN 50
+9
+TEMPERA TURE RANGE :
+00 To 65oc
+FIG, 1
+2 STUds
+6.72 UNC, 2A.
+71 LG
+10 _
+TEST VOLTAGE:
+250
+RMS
+11 =
+W NDING CONF | DURATION
+SEE FIG.
+RED
+12
+PRIMARY SOURCE IMPEDANCE :
+LESS THAN
+ohm
+Brown
+13.
+SECONDARY LOAD IMPEDANCE :
+150 OR 600 ohms
+GREEN WHITe
+14
+MOUNTING
+SEE FIG.
+Pri; 47 
+SEC. 450/600.
+15.
+CONNECTiONS
+18" TEFLON LEADS
+ORANGE
+16 _
+FinISH:
+BLACK ENAMEL
+VIOLET
+FIG, 2 ,
+IsS MOD  CKD:
+USED ON
+MATL 
+WBS WARD-BECK BYBTEMB LT
+DRN DMTARLANE DATE DEC 75 CKD KMM SCALE TOLS _ iG
+FINISH
+70-7 OUTPUT TRANSFORMER
+B
+9716
+ISS_
+TRANSTEX 15 230-08-74
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+06 2.40
+1.52 MAX.
+SPECIFICATiONS
+4.00
+PR IMARY :
+47 ohms #5% WiTH SECONDARY LOAD
+WATT into
+2 _
+SECONDARY :
+150/600 ohms *5% SPLIT
+3 _
+NO DC CURRENT IN PR / . OR SEC
+4
+DC RES :
+10% OF PR /
+SEC. IMPEDANCE
+2+125 * 015
+5 .
+MAX. INSERTION Loss:
+dB
+IkHz @+30 dBm inTo SEC. LOAD
+'06 2,71
+6
+FREQUENCY RESPONSE :
+Within 0.10 dB 30 Hz To 20 kHz 0.20 dB 20 Hz WATT DOWN To LESS THAN 0 . WATT
+D/ STORTION
+LESS THAN 0.15% 30 Hz To 20 kHz & LESS THAN 0.25% 20 Hz @ 1 WATT DOWN To LESS THAN 0.1 WATT
+PHASE SHIFT:
+LESS THAN 50
+9
+TEMPERA TURE RANGE :
+00 To 65oc
+FIG, 1
+2 STUds
+6.72 UNC, 2A.
+71 LG
+10 _
+TEST VOLTAGE:
+250
+RMS
+11 =
+W NDING CONF | GURATION
+SEE FIG.
+RED
+12
+PRIMARY SOURCE IMPEDANCE :
+LESS THAN
+ohm
+Brown
+13.
+SECONDARY LOAD IMPEDANCE :
+150 OR 600 ohms
+GPEEN WHITe
+14
+MOUNTING
+SEE FIG.
+Pri; 47 
+SEC. 450/600.
+15.
+CONNECTiONS
+18" TEFLON LEADS
+ORANGE
+16 _
+FinISH:
+BLACK ENAMEL
+VIOLET
+FIG, 2 ,
+IsS MOD  CKD:
+USED ON
+MATL 
+WBS WARD-BECK BYBTEMB LT
+DRN DMTARLANE DATE DEC 75 CKD KMM SCALE TOLS _ iG
+FINISH
+70-7 OUTPUT TRANSFORMER
+B
+9716
+ISS_
+TRANSTEX 15 230-08-74
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{
+ "file": "PHOTOS/Drawings/1975 - B 9316 - 70-3 OUTPUT TRANSFORMER - DRN D. M'FARLANE.png",
+ "sha256": "647bbce9f2c568308c415a6a43f32f17465f199a202c44cdad7da6f4a546e9e9",
+ "kind": "photo",
+ "year": 1975,
+ "pages": 1,
+ "order": [
+  {
+   "page": 1,
+   "title_block": [
+    {
+     "number": "B 9316",
+     "title": "70-3 OUTPUT TRANSFORMER",
+     "date": "2 DEC 75",
+     "year": 1975,
+     "drawn": "D MFARLANE",
+     "checked": "KWW"
+    }
+   ],
+   "dates": [
+    {
+     "year": 1975,
+     "kind": "labelled",
+     "text": "DATE DEC 75"
+    }
+   ]
+  }
+ ]
+}
+```

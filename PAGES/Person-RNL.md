@@ -1,0 +1,40 @@
+---
+type: "person"
+initials: "RNL"
+title: "RNL"
+tags: ["person"]
+---
+
+# RNL
+
+[← People](People.md)
+
+|  |  |
+|---|---|
+| Initials | RNL |
+| Name | unknown — add to timelines/people.json |
+| Note | — |
+| Drawings | 15 |
+| Roles | checked |
+| Active (dated drawings) | 1970–1982 |
+| Projects | [77024](Job-77024.md) |
+
+## Drawings
+
+| Drawing | Title | Date | [Drawn by](People.md#drawing-staff) | [Checked by](People.md#drawing-staff) | Iss. | Source |
+|---|---|---|---|---|---|---|
+| B 173-06-001 | M621 20W MONITOR AMPLIFIER / P.C.B. LAYOUT | [1970\|3](Year-1970.md) | [DPS](Person-DPS.md) | [RNL](Person-RNL.md) | 4 | [file](../Modules/UNSORTED/M173/1970%20-%20173-06-001%20-%20M621%2020W%20MONITOR%20AMPLIFIER%20P.C.B.%20LAYOUT%20-%20DRN%20DPS%20-%20ISS%204%20%283%29.jpg) |
+| B 4-110-02-001 | 4-110 PRE-AMP/HP FILTER / SCHEMATIC | [1974\|7](Year-1974.md) | [DM](Person-DM.md) | [RNL](Person-RNL.md) | 8 | [file](../Modules/INPUT-PRE-AMPS/M460B/1974%20-%204-110-02-001%20-%204-110%20PRE-AMP%20HP%20FILTER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%208.jpg) |
+| 461-03-015 | Dual Booster Amplifier Layout | [1975\|8](Year-1975.md) | [DM](Person-DM.md) | [RNL](Person-RNL.md) | 3 | [file](../Modules/MONITORING/M495/1975%20-%20M495%20-%20461-03-015%20-%20DUAL%20BOOSTER%20AMPLIFIER.jpg) |
+| B 459-04-001 | M459 ASSEMBLY | [1975\|8](Year-1975.md) | [DM](Person-DM.md) | [RNL](Person-RNL.md) |  | [file](../Modules/ROUTING/M459/1975%20-%20459-04-001%20-%20ASSEMBLY%20-%20DRN%20DM%20%282%29.jpg) |
+| B 459-04-001 | M459 ASSEMBLY | [1975\|8](Year-1975.md) | [DM](Person-DM.md) | [RNL](Person-RNL.md) | 1 | [file](../Modules/ROUTING/M459/1975%20-%20459-04-001%20-%20ASSEMBLY%20-%20DRN%20DM%20-%20ISS%201.jpg) |
+| 117-02-001 | 1-117 REGULATOR BOARD / SCHEMATIC | [1978\|11](Year-1978.md) | [MRW](Person-MRW.md) | [RNL](Person-RNL.md) |  | [file](../Modules/UNSORTED/M117/1978%20-%20117-02-001%20-%201-117%20REGULATOR%20BOARD%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW.jpg) |
+| B 60-14 | 60-14 INPUT TRANSFORMER | [1978\|11](Year-1978.md) | [MRW](Person-MRW.md) | [RNL](Person-RNL.md) | 3 | [file](../PHOTOS/Drawings/1978%20-%20B%2060-14%20-%2060-14%20INPUT%20TRANSFORMER%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%203.png) |
+| B 77024-04-003 | RADIO CONSOLE / DESK CUTOUT DETAIL | [1978\|11](Year-1978.md) | [GEB (Gerry E. Bell)](Person-GEB.md) | [RNL](Person-RNL.md) | 1 | [file](../Consoles/1970-1979/77024/1978%20-%2077024-04-003%20-%20RADIO%20CONSOLE%20DESK%20CUTOUT%20DETAIL%20-%20DRN%20GEB%20-%20ISS%201.jpg) |
+| B 8-109-02-002 | 8-109A OUTPUT AMPLIFIER / SCHEMATIC | [1978\|11](Year-1978.md) | [GEB (Gerry E. Bell)](Person-GEB.md) | [RNL](Person-RNL.md) | 1 | [file](../Modules/INPUT-PRE-AMPS/M460A/1978%20-%208-109-02-002%20-%208-109A%20OUTPUT%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.jpg) |
+| B 8-109-02-002 | 8-109A OUTPUT AMPLIFIER / SCHEMATIC | [1978\|11](Year-1978.md) | [GEB (Gerry E. Bell)](Person-GEB.md) | [RNL](Person-RNL.md) | 1 | [file](../Modules/SUMMING/M463/1978%20-%208-109-02-002%20-%208-109A%20OUTPUT%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.jpg) |
+| B 8-109-02-007 | 8-109F BOOSTER AMPLIFIER / SCHEMATIC | [1978\|11](Year-1978.md) | [GEB (Gerry E. Bell)](Person-GEB.md) | [RNL](Person-RNL.md) | 1 | [file](../Modules/SUMMING/M463/1978%20-%208-109-02-007%20-%208-109F%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201.jpg) |
+| B 460-01-010 | INPUT MODULE / FUNCTIONAL DIAGRAM | [1980\|13](Year-1980.md) |  | [RNL](Person-RNL.md) | 1 | [file](../Modules/INPUT-PRE-AMPS/M460/1980%20-%20460-01-010%20-%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20VINCE%20-%20ISS%201.jpg) |
+| LB 1-117-02-001 | 1-117 REGULATOR BOARD / SCHEMATIC | [1982\|15](Year-1982.md) | [MRW](Person-MRW.md) | [RNL](Person-RNL.md) | 8 | [file](../Modules/POWER/M625B/1982%20-%201-117-02-001%20-%201-117%20REGULATOR%20BOARD%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%208.jpg) |
+| B 497-02-002 | DUAL MASTER MODULE / SCHEMATIC |  | [TR](Person-TR.md) | [RNL](Person-RNL.md) | 1 | [file](../Modules/SUMMING/M497/19xx%20-%20497-02-002%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC%20-%20DRN%20TR%20-%20ENG%20TR%20-%20ISS%201.jpg) |
+| B 497-02-004 | DUAL MASTER MODULE / SCHEMATIC |  | [MRW](Person-MRW.md) | [RNL](Person-RNL.md) | 1 | [file](../Modules/SUMMING/M497/19xx%20-%20497-02-004%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%201.jpg) |

@@ -1,0 +1,282 @@
+# 1985 - M471A - 471-02-002 - UNLESS SPELIFIEO OTHERWISE.jpg
+Wiki page: [M471A](../../../PAGES/M471A.md)
+
+
+- **Year:** 1985 (module estimate (manual_issue))
+- **Module:** M471A
+- **Category:** INPUT-PRE-AMPS
+- **Module year estimate:** 1985 — manual_issue "MANUAL ISSUE #3. DECEMBER 1985" in PUBLIC/Manuals + tech DOCUMENTS/Modules/M471A - Stereo Input Module/M471A - P002.jpg
+- **Original file:** `WBSps.env/wbsps - website ARCHIVE/WBSPS 2008/RAW SCANS/Done/Done - M471A - Stereo Input Module/M471A - P020 - B471-02-002.jpg`
+- **SHA-256:** `02fd8a83f74dee4cf41157a9f7d67621adcff2163799b86185b660c1c7b76747`
+- **Size:** 418,336 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 4 words corrected)
+
+```text
+2iv
+~Ziv
+Sw3 Ch on
+2E3 2E2
+2E7 2E4
+BALANCE
+DjB~
+12 <
+R56
+Rbd 390
+R47
+33k
+R74 620
+8-109B BOOSTER AMP
+RS IK
+15
+22k
+LEFT INPUT
+LEFT CHANNEL ATTENUATOR
+R R6< 2 IK < Pp |
+LEFT OUTPUT OdBm
+75
+N <
+82E1 2E5
+R6l 390
+R48 22k
+2E 6
+R5z 33k
+JB~600 _
+SW7 BALANCE NSERT
++2iv
+2ivv
+Sw2
+IE3 IE2
+IE7 IE4
+7 M
+13 <
+Rs8 33k
+R6z 390
+Ra9 22k
+R75 620
+8-1098 BOOSTER AMP
+R7 Ik
+RIght' inPuT
+Right CHANNEL ATTENUATOR
+R73 2k
+RIGhT OUTPUT OdBr
+IEI IE5
+Re ; R59 33K
+R63 390
+7M
+RSO 22k
+IE6
+r79 AK3w
+DS/
+To PiN 18
+ON CoM +24v4
+724V Pin
+RKe 4k7 Yzw
+SWbo
+R64 ISK
+RRE
+D52
+AUX
+2,B
+ZFLLED-R
+R65 ISK
+AUX
+R3 2k51
+C" 63/10
+Ci3 63/10
+C1S 63/10
+POST
+53/10
+Sw9
+R5+ Iik RSS Mik
+R4 2k5
+22
+R78 IK
+R53S TK
+2 |
+22
+~ZNv +Ziv
+~N #ZIV
+AUX
+R68 Sw4 ISK WV R69 Sk
+2kS Ri
+03 Tp 298
+cio 33/0
+C12 3/0
+c14 3/0
+CIc 33/10
+CRi
+SwB
+AUX 2
++25v 21
+INAc03|
+Ri2 Ik PN369 05 FN3569
+R2 2k5
+Swio R7o nh L> 8
+R9< I5K
+PFL RKj 22 Dv PFL CoNTROl
+CR3 R77 470k IN403
+23 22/25
++25V COM
+22/25 20 C2 22/25
+cRa
+C4 22/25
++2iv REL
+18 CONTROL COMMON
+iN4 003 06
+Rio ISK
+2 WesesztRze APPErke GSSUIDAte REVBO App
+Av3645 R/3 IK
+NOTE 72 ~ LMi458 ALL ResisToRs Ww 53 ALL CAPACITORS MicROFARADS UNESS Specified OThERwisE 3. USE PxB 4-123 IS - LAST resistor R79 LAST LAPAZiTOR C16
+PN36 45
+42
+WBS WARD-DEck byBteMB Drm D NEi M47 IA ENG. CKD: STEREO INPUT MODULE APP: SCHEMATIC SCALE IssuI 471-02-002 2
+CR 2
+~25V
+19
+2iv REG
+IN4O03
+Rit 3.3
+Tp3oe
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+2iv
+~Ziv
+Sw3 Ch on
+2E3 2E2
+2E7 2E4
+BALANCE
+DjB~
+12 <
+R56
+Rbd 390
+R47
+33k
+R74 620
+8-109B BOOSTER AMP
+RS IK
+15
+22k
+LEFT INPUT
+LEFT CHANNEL ATTENUATOR
+R R6< 2 IK < Pp |
+LEFT OUTPUT OdBm
+75
+N <
+82E1 2E5
+R6l 390
+R48 22k
+2E 6
+R5z 33k
+JB~600 _
+SW7 BALANCE NSERT
++2iv
+2ivv
+Sw2
+IE3 IE2
+IE7 IE4
+7 M
+13 <
+Rs8 33k
+R6z 390
+Ra9 22k
+R75 620
+8-1098 BOOSTER AMP
+R7 Ik
+RIght' inPuT
+Right CHANNEL ATTENUATOR
+R73 2k
+RIGhT OUTPUT OdBr
+IEI IE5
+Re ; R59 33K
+R63 390
+7M
+RSO 22k
+IE6
+r79 AK3w
+DS/
+To PiN 18
+ON CoM +24v4
+724V Pin
+RKe 4k7 Yzw
+SWbo
+R64 ISK
+RRE
+D52
+AUX
+2,B
+ZFLLED-R
+R65 ISK
+AUX
+R3 2k51
+C" 63/10
+Ci3 63/10
+C1S 63/10
+POST
+53/10
+Sw9
+R5+ Iik RSS Mik
+R4 2k5
+22
+R78 IK
+R53S TK
+2 |
+22
+~ZNv +Ziv
+~N #ZIV
+AUX
+R68 Sw4 ISK WV R69 Sk
+2kS Ri
+03 Tp 298
+cio 33/0
+C12 3/0
+c14 3/0
+CIc 33/10
+CRi
+SwB
+AUX 2
++25v 21
+INAc03|
+Ri2 Ik PN369 05 FN3569
+R2 2k5
+Swio R7o nh L> 8
+R9< I5K
+PFL RKj 22 Dv PFL CoNTROl
+CR3 R77 470k IN403
+23 22/25
++25V COM
+22/25 20 C2 22/25
+cRa
+C4 22/25
++2iv REL
+18 CONTRDL CDMMON
+iN4 003 06
+Rio ISK
+2 WesesztRze APPErke GSSUIDAte REVBO App
+Av3645 R/3 IK
+NOTE 72 ~ LMi458 ALL ResisToRs Ww 53 ALL CAPAiTORS MicROFARADS UNESS SPELified OThERwisE 3. USE PxB 4-123 IS - LAST resistor R79 LAST LAPAZiTOR C16
+PN36 45
+42
+WBS WARD-DEck byBteMB Drm D NEi M47 IA ENG. CKD: STEREO INPUT MODULE APP: SCHEMATIC SCALE IssuI 471-02-002 2
+CR 2
+~25V
+19
+2iv REG
+IN4O03
+Rit 3.3
+Tp3oe
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/INPUT-PRE-AMPS/M471A/1985 - M471A - 471-02-002 - UNLESS SPELIFIEO OTHERWISE.jpg","sha256":"02fd8a83f74dee4cf41157a9f7d67621adcff2163799b86185b660c1c7b76747","kind":"module","models":["M471A"],"year":1985,"pages":1,"order":[{"page":1,"title_block":[{"number":"471-02-002","type":"schematic","title":"Unless Spelifieo Otherwise","issue":"U"},{"number":"471-02-002","type":"schematic","title":"Stereo Input Module"}],"text":["Sw","Ch","107 2E7 BALANCE","OjB~ 2E2 ZE4 256","R10","33k 390","22k 8-109B","620","-EFT Left BOOSTER","INPUT CHANNEL AMP R72< LEFT OUTPUT","ATTENUATOR 2k OdBm","R6i","2E1 390","248 2E5 2E66","JB~600 _ 33k SW-","+2iv Ziv BALANCE","NSERT","IL2 R58 R6z","R4s 390","R75 8-1098 33k","Right 620 22 k RK","inPuT Right BOOSTER R73","CHANNEL AMP Right OUTPUT","ATTENUATOR OaBr","Re R63","390","RSo IE68","r79 259","22k","k3","RKe PEN coM","+24v< Swl","4K7 Yzw PRE","2,B D32 AuX","ZELLED- AUX","Ciz POST Zks","63/10 63/10 63/10 Sw9","R5 4 RiS Zks","22 R78","R53} RSS 22 IK","#2Y #Ziv AuX","SwA","Zks 99","cio Ci2 cK SwB","CRI 29 B 33/0 3//0 3/0 33/10 AUX","+25v","INAc03 Riz 2k5","Swio R7o","ISK PFL","CR3","R77 23","22/25 470k in4003 22/25","20 PFL conTrol","coM cR4","L4","22/25 22/25 COUTRDL","t2iv REL","Rio Rz2 APPEBKe","An3645 NOTE","Pnz6 R/3","ALL RESISTDRS Ww $: ALL CaPKiTORS WBS WAAD-BeCk aybtemb","CR 2 OTHERWISE","~2Sv Ziv REG USE M47 1A","W4003 Rit Lst REsiStor R79 LAST @APAZiTOR STeREO INPUT MODULE","3.3","Tp3oB SCHEMATIC","471-02-002"]}],"drawing":{"svg":"_traces/02fd8a83f74dee4c.svg","viewBox":[2000,1300],"rotate":0,"number":"471-02-002","title":"Stereo Input Module","dtype":"02","outlines":"see _traces/02fd8a83f74dee4c.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/02fd8a83f74dee4c.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[604,59,"Sw"],[594,79,"Ch"],[1251,91,"BALANCE"],[1001,99,"107"],[1076,99,"2E7"],[768,114,"OjB~"],[999,124,"2E2"],[1084,119,"ZE4"],[1189,119,"256"],[1436,126,"R10"],[1191,146,"33k"],[1436,141,"390"],[1021,156,"8-109B"],[579,166,"620"],[729,164,"22k"],[39,186,"-EFT"],[846,181,"Left"],[1014,181,"BOOSTER"],[34,204,"INPUT"],[836,199,"CHANNEL"],[1036,196,"AMP"],[1301,194,"R72&lt;"],[1604,204,"LEFT"],[1671,204,"OUTPUT"],[1301,209,"2k"],[826,219,"ATTENUATOR"],[1624,219,"OdBm"],[1436,259,"R6i"],[996,271,"2E1"],[1434,276,"390"],[729,291,"248"],[1006,289,"2E5"],[1081,289,"2E66"],[91,329,"JB~600 _"],[1196,326,"33k"],[1369,334,"SW-"],[1001,346,"+2iv"],[1086,346,"Ziv"],[1361,351,"BALANCE"],[1364,371,"NSERT"],[999,414,"IL2"],[1191,411,"R58"],[1434,414,"R6z"],[726,429,"R4s"],[1436,429,"390"],[579,441,"R75"],[1024,449,"8-1098"],[1194,439,"33k"],[579,454,"620"],[729,454,"22 k"],[44,464,"Right"],[841,479,"Right"],[1019,474,"BOOSTER"],[1248,475,"RK"],[41,481,"inPuT"],[1299,481,"R73"],[826,496,"CHANNEL"],[1034,491,"AMP"],[1604,501,"Right OUTPUT"],[821,516,"ATTENUATOR"],[1629,519,"OaBr"],[1248,548,"Re"],[1434,549,"R63"],[1434,566,"390"],[726,581,"RSo"],[1084,579,"IE68"],[646,599,"r79"],[1191,594,"259"],[729,604,"22k"],[642,607,"k3"],[516,646,"coM"],[254,661,"RKe"],[407,665,"PEN"],[1624,661,"Swl"],[249,679,"4K7 Yzw"],[516,671,"+24v&lt;"],[1309,681,"PRE"],[609,689,"D32"],[1411,689,"AuX"],[114,699,"2,B"],[591,701,"ZELLED-"],[1816,701,"AUX"],[989,731,"Ciz"],[1311,726,"POST"],[1461,734,"Zks"],[881,749,"63/10"],[991,749,"63/10"],[1129,746,"63/10"],[1366,746,"Sw9"],[896,776,"R5 4"],[1426,776,"RiS"],[124,796,"22"],[1159,789,"R78"],[1461,789,"Zks"],[979,804,"22"],[1161,809,"IK"],[654,814,"R53}"],[909,811,"RSS"],[792,833,"#2Y"],[1051,836,"#Ziv"],[1394,834,"AuX"],[1621,844,"SwA"],[1464,864,"Zks 99"],[749,876,"cio"],[856,876,"Ci2"],[1111,876,"cK"],[131,896,"CRI"],[251,889,"29 B"],[761,896,"33/0"],[859,896,"3//0"],[1011,896,"3/0"],[1114,896,"33/10"],[1364,886,"SwB"],[1819,889,"AUX"],[6,916,"+25v"],[121,931,"INAc03"],[296,936,"Riz"],[1461,934,"2k5"],[1614,946,"Swio"],[1701,941,"R7o"],[179,991,"ISK"],[1816,989,"PFL"],[269,1021,"CR3"],[219,1036,"R77"],[369,1036,"23"],[121,1051,"22/25"],[219,1051,"470k"],[264,1046,"in4003"],[366,1054,"22/25"],[1814,1061,"PFL conTrol"],[11,1074,"coM"],[74,1069,"20"],[274,1084,"cR4"],[371,1084,"L4"],[109,1099,"22/25"],[371,1099,"22/25"],[479,1109,"t2iv REL"],[1814,1106,"COUTRDL"],[1869,1144,"Rz2 APPEBKe"],[306,1154,"An3645"],[846,1159,"NOTE"],[234,1169,"Pnz6"],[299,1174,"R/3"],[859,1189,"ALL RESISTDRS Ww $:"],[1021,1186,"ALL"],[1054,1189,"CaPKiTORS"],[1711,1191,"WBS"],[1798,1189,"WAAD-BeCk aybtemb"],[129,1204,"CR 2"],[1131,1204,"OTHERWISE"],[9,1221,"~2Sv"],[494,1221,"Ziv REG"],[861,1219,"USE"],[1851,1226,"M47 1A"],[124,1239,"W4003"],[316,1234,"Rit"],[864,1234,"Lst"],[914,1234,"REsiStor"],[1006,1234,"R79"],[1059,1234,"LAST @APAZiTOR"],[314,1249,"3.3"],[1781,1246,"STeREO INPUT MODULE"],[226,1264,"Tp3oB"],[1829,1261,"SCHEMATIC"],[1809,1289,"471-02-002"],[129,1142,"Rio"]]}}
+```

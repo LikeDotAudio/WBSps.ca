@@ -1,0 +1,122 @@
+# 19xx - M924 - M924B POWER SUPPLY FRONT PANEL.jpg
+Wiki page: [M924](../../../PAGES/M924.md)
+
+
+- **Year:** unknown (title block (read by eye))
+- **Module:** M924
+- **Category:** UNSORTED
+- **Module year estimate:** 1994 — manual_issue "Issue #2 October 31, 1994" in WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - Word Perfect Manuals/M924.WP
+
+## Title block (found by software, read by eye)
+
+- **Title:** M924B / POWER SUPPLY / FRONT PANEL
+- **Confidence:** low
+
+- **Original file:** `WBSps.env/WBS Photos-1-001/WBSps.ca 20210319 -  (49).jpg`
+- **SHA-256:** `4d711f915078cc88d5cca2c92dc41feab866e092ab895f2e301844a82b22728c`
+- **Size:** 381,909 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 1 words corrected)
+
+```text
+17.110
+0.172 MILL 0.080 DEEP OTHER SIDE INSERT [DVPEMI 440=1 10 PLACES
+0.200
+16.710
+1.000
+PITCHES OF 7.555 15.10
+0.200
+0.680
+1.680
+5360
+2.960
+2.000
+DETAIL
+REC'D
+560
+500
+DETAIL NOTE ORIENTATION
+0.312 DiA
+REQ'D
+I0.050
+500
+15,610
+0.500
+0.352
+NQIES: REMOVE ALL BURRS AND SHARP EDGES TOL TO BE XXXX #0.005, XXX 10.015 MATERIAL: ALUM ALLOY 0.125 ThICK. FInISH: SAND 120 GRIT AND PAINT TEXTURED GREY TEXCOTE VINM FOR SILKSCREEN  SEE: 924-08 005 (FOR V9248)
+0,470i
+0.376
+SSUEL
+REMSION
+DETAIL
+DETAIL
+WBS
+WARD-BECK SYSTEMS DRN: DRG M924B ENG. POWER SUPPLY CKD: APP FRONT PANEL SCALE DISC NO:SYSOE SSUE 924-03-005 CODE: 924005
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+17.110
+0.172 MILL 0.080 DEEP OTHER SIDE INSERT [DVPEMI 440=1 10 PLACES
+0.200
+16.710
+1.000
+PITCHES OF 7.555 15.10
+0.200
+0.680
+1.680
+5360
+2.960
+2.000
+DETAIL
+REC'D
+560
+500
+DETAIL NOTE ORIENTATION
+0.312 DiA
+REQ'D
+I0.050
+500
+15,610
+0.500
+0.352
+NQIES: REVOVE ALL BURRS AND SHARP EDGES TOL TO BE XXXX #0.005, XXX 10.015 MATERIAL: ALUM ALLOY 0.125 ThICK. FInISH: SAND 120 GRIT AND PAINT TEXTURED GREY TEXCOTE VINM FOR SILKSCREEN  SEE: 924-08 005 (FOR V9248)
+0,470i
+0.376
+SSUEL
+REMSION
+DETAIL
+DETAIL
+WBS
+WARD-BECK SYSTEMS DRN: DRG M924B ENG. POWER SUPPLY CKD: APP FRONT PANEL SCALE DISC NO:SYSOE SSUE 924-03-005 CODE: 924005
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Modules/UNSORTED/M924/19xx - M924 - M924B POWER SUPPLY FRONT PANEL.jpg",
+ "sha256": "4d711f915078cc88d5cca2c92dc41feab866e092ab895f2e301844a82b22728c",
+ "kind": "module",
+ "models": [
+  "M924"
+ ],
+ "pages": 1,
+ "order": [
+  {
+   "page": 1,
+   "title_block": [
+    {
+     "title": "M924B / POWER SUPPLY / FRONT PANEL"
+    }
+   ]
+  }
+ ]
+}
+```

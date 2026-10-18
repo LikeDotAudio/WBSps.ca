@@ -1,0 +1,106 @@
+# 1985 - Red Deer WBS - IMG_6617.jpg
+Wiki page: [Consoles](../../../PAGES/Consoles.md)
+
+
+- **Year:** 1985 (inferred: project Red Deer WBS: the 8 dated modules its files name (traced))
+- **Console:** Red Deer WBS
+- **Project:** Red Deer WBS
+- **Original file:** `WBSps.env/PUBLIC/Manuals + tech DOCUMENTS/Consoles/Red Deer WBS/IMG_6617.jpg`
+- **SHA-256:** `f9d53d3c00d80b7fd72464b3876d6dc3fc8005c9932dfe04bbdaac8a02ccf661`
+- **Size:** 740,267 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR)
+
+```text
+PAN
+PAN
+PAN
+PAN
+PAN
+PAN
+48
+48 N
+6 48 4 6 4
+8 48 2 0 B 3 5 6 A 3 0
+PAN 8 48 8 P 0 48 0 0 " B 8 3 A B 3 A 5
+8 48 2 4
+B
+6
+A
+B
+A
+B
+5 0
+3 0
+B
+0
+0
+PGMI PEAK
+30 SENS
+30 SENS
+PGMI PEAK
+PGMI PEAK
+30 SENS 
+PGMI PEAK
+30 SENS
+30 SENS
+PGMI PEAK
+30 70 SENS
+PGMI PEAK
+PGui PEar
+0
+30 SENS
+AUX 4
+0
+AUX PST
+PRE
+AUX  PST
+AUX 4 PST
+PRE
+n PRE
+AUX 4 PST
+n PRE
+AUX 4 PST
+AUX PST
+0 pre
+PRE
+0
+X 3
+0
+AUX 3 PST
+AUX 3 PST
+AUX 3 PST
+n PRE
+AUX 3 PS T
+AUX 3
+A
+Aux3
+1
+1
+1
+8
+1
+0
+PRE
+PRE
+PRE
+PRE
+```
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Consoles/1980-1989/Red Deer WBS/1985 - Red Deer WBS - IMG_6617.jpg",
+ "sha256": "f9d53d3c00d80b7fd72464b3876d6dc3fc8005c9932dfe04bbdaac8a02ccf661",
+ "kind": "console",
+ "models": [
+  "Red Deer WBS"
+ ],
+ "year": 1985,
+ "pages": 1
+}
+```

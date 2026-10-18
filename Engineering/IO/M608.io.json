@@ -1,0 +1,79 @@
+{
+ "code": "M608",
+ "series": null,
+ "type": "M608",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "I1",
+   "signal": "Input 3",
+   "dir": "in",
+   "pos": "I1P",
+   "neg": "I1N",
+   "src_page": 18
+  },
+  {
+   "port": "I2",
+   "signal": "Input Shield Connection",
+   "dir": "in",
+   "pos": "I2P",
+   "neg": "I2N",
+   "src_page": 20
+  },
+  {
+   "port": "O1",
+   "signal": "I Out",
+   "dir": "out",
+   "pos": "1",
+   "neg": "O1N",
+   "src_page": 17
+  },
+  {
+   "port": "O2",
+   "signal": "Out 7",
+   "dir": "out",
+   "pos": "O2P",
+   "neg": "O2N",
+   "src_page": 17
+  },
+  {
+   "port": "O3",
+   "signal": "A4 Outputs",
+   "dir": "out",
+   "pos": "O3P",
+   "neg": "O3N",
+   "src_page": 18
+  },
+  {
+   "port": "O4",
+   "signal": "Output 2 Outputs Output4",
+   "dir": "out",
+   "pos": "O4P",
+   "neg": "O4N",
+   "src_page": 20
+  },
+  {
+   "port": "O5",
+   "signal": "Output 7 Cutpute",
+   "dir": "out",
+   "pos": "O5P",
+   "neg": "O5N",
+   "src_page": 20
+  }
+ ],
+ "power": [],
+ "logic": [],
+ "ground": [
+  "GROUND",
+  "CHASSIS"
+ ],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "61b5244b5e4cd80c6be7e55335c3427818fe5361cfaee65a9dbea25f320c947a",
+  "fec84e1bea90b2340af935a66360c1f5a8133b62e048e32d86212b0931ffbff8"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."
+}

@@ -1,0 +1,85 @@
+{
+  "code": "M404A",
+  "series": "S400",
+  "type": "HP LP FILTER",
+  "row_count": 22,
+  "impedance": {
+    "out": 600
+  },
+  "note": "Same As 402B EQ -  - Jumper Input for 600Ω",
+  "audio": [
+    {
+      "port": "A1",
+      "signal": "Filter IN LEFT",
+      "dir": "in",
+      "pos": "5",
+      "neg": "6",
+      "pad_pos": "5.A.1.P",
+      "pad_neg": "6.A.1.N"
+    },
+    {
+      "port": "A2",
+      "signal": "FILTER OUT LEFT",
+      "dir": "out",
+      "pos": "13",
+      "neg": "14",
+      "pad_pos": "13.A.2.P",
+      "pad_neg": "14.A.2.N"
+    },
+    {
+      "port": "A3",
+      "signal": "FILTER OUT RIGHT",
+      "dir": "out",
+      "pos": "5",
+      "neg": "6",
+      "pad_pos": "5.A.3.P",
+      "pad_neg": "6.A.3.N"
+    },
+    {
+      "port": "A4",
+      "signal": "FILTER OUT RIGHT",
+      "dir": "out",
+      "pos": "13",
+      "neg": "14",
+      "pad_pos": "13.A.4.P",
+      "pad_neg": "14.A.4.N"
+    }
+  ],
+  "bus_out": [],
+  "bus_in": [],
+  "power": [
+    {
+      "rail": "VCC-AUDIO",
+      "style": "OLD",
+      "volts": 48,
+      "max_a": 0.1,
+      "supply": "22",
+      "ground": "18",
+      "link": null
+    },
+    {
+      "rail": "VCC-LAMP",
+      "style": "OLD",
+      "volts": 24,
+      "max_a": 0.1,
+      "supply": "20",
+      "ground": "19",
+      "link": null
+    }
+  ],
+  "jumpers": [
+    {
+      "function": "600Ω Input",
+      "designation": "JMP.6.7",
+      "from": "6",
+      "to": "7"
+    },
+    {
+      "function": "OUtput 2",
+      "designation": "JMP.15.16 = 300Ω->620Ω->300Ω",
+      "from": "15",
+      "to": "15"
+    }
+  ],
+  "logic": []
+}

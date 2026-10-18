@@ -1,0 +1,92 @@
+{
+ "code": "M490H",
+ "series": null,
+ "type": "M490H",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "I1",
+   "signal": "Pgm Out Line B In A",
+   "dir": "in",
+   "pos": "I1P",
+   "neg": "I1N",
+   "src_page": 29
+  },
+  {
+   "port": "O1",
+   "signal": "Pgm Out Nc B",
+   "dir": "out",
+   "pos": "2",
+   "neg": "O1N",
+   "src_page": 29
+  },
+  {
+   "port": "O2",
+   "signal": "Ic Ch B Ctl Out P",
+   "dir": "out",
+   "pos": "13",
+   "neg": "O2N",
+   "src_page": 29
+  }
+ ],
+ "power": [
+  {
+   "rail": "+24V",
+   "volts": 24.0,
+   "supply": "+24V",
+   "ground": "CHASSIS CTL COM Z",
+   "max_a": null
+  }
+ ],
+ "logic": [
+  {
+   "signal": "Cue",
+   "pin": ""
+  },
+  {
+   "signal": "Nc Line B Ctl L",
+   "pin": "10"
+  },
+  {
+   "signal": "Ic Line Ctl Com M",
+   "pin": "11"
+  },
+  {
+   "signal": "Ic Timer Reset R",
+   "pin": "14"
+  },
+  {
+   "signal": "Shield Line B Ctl",
+   "pin": ""
+  },
+  {
+   "signal": "On Ctl",
+   "pin": ""
+  },
+  {
+   "signal": "Off Ctl",
+   "pin": ""
+  },
+  {
+   "signal": "Off Tally",
+   "pin": ""
+  },
+  {
+   "signal": "Y/21 +25V 2/22 Ctl Com (Lower)",
+   "pin": ""
+  }
+ ],
+ "ground": [
+  "CHASSIS CTL COM Z",
+  "CHASSIS (UPPER)"
+ ],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "7f16838f647c3f8674190cdb2533f680181e028bb9367374fd74f4a19423ceb5",
+  "a1dfc74c46d4f824056dd24cb52cf82a3098633338c3444590e4efa72ea9ccbf"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one. (this device has one)"
+}

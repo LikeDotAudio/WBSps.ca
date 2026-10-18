@@ -1,0 +1,41 @@
+# 19xx - M568P - 14-182-06-001 - AMPLIFIER ASSEMBLY COMPONENT LAYOUT.jpg
+Wiki page: [M568P](../../../PAGES/M568P.md)
+
+
+- **Year:** unknown (unknown)
+- **Module:** M568P
+- **Category:** ROUTING
+- **Module year estimate:** unknown —
+- **Original file:** `WBSps.env/PUBLIC/Manuals + tech DOCUMENTS/Modules/prelim M568P/B14-182-06-001.jpg`
+- **SHA-256:** `6b3b6d51167672358659f5b4ae868ac370c5f954c67858b8fbd56a847d26ea1b`
+- **Size:** 2,942,031 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR)
+
+```text
+182P1 C1 Cz 22P 22p 10/25 0 Rz LHUSSN 0 C5 R6 10/25 RS CSO 10/25 Iezz25 RS K R4 ~CSI 8 22/25 8 8 182P3 8  { G 8280. 1/100 J313188 39 CczL ZP gkS 220/10 C28 U3 R28 8422620 49 NESSJSN R27 3k3 100 Czo CI47P 33/10 C26 C27 22/25 C1B),C15, 22/25 35/10 R2o #ZK C19 0. 1/100 R19- IK C9 CIO_ C25 R29!5K 220/10 47P 47P CB R3o E5k 9388 93 C24 Uz 47P RI6 3k3 9228 0. L[ 23 NESSSSN R12 K3 1 10O C8 47P 220/10 c2z C25 22/25 22/25 C1I Cs RZ #X R18ASK R8 R17 I5k 33/10 33/10 C12
+S8 SV4
+4CF-Ght-AA
+220/10
+182p2
+87 4CF-GhT-AA
+OoOooddoc :o
+WBS CANADA 14-182 ISSUE 1
+S6 S1z
+4CF-GhT-AA
+S5 SV1
+4CF-GhT-AA
+WBS WARD-BECK SYSTEM
+SA14-182 AMPLIFIER ASSEMBLY COMPONENT LAYOUT
+B 14-182-06-001
+ISS_
+```
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/ROUTING/M568P/19xx - M568P - 14-182-06-001 - AMPLIFIER ASSEMBLY COMPONENT LAYOUT.jpg","sha256":"6b3b6d51167672358659f5b4ae868ac370c5f954c67858b8fbd56a847d26ea1b","kind":"module","models":["M568P"],"pages":1,"order":[{"page":1,"title_block":[{"number":"14-182-06-001","type":"component layout","title":"Amplifier Assembly Component Layout","issue":"1"}],"text":["182P1","22P 22p 10/25","Rz","1 LHBSSN","10/25","RS","10/25","C3O RS","22/25","R4","CSI 8 8","22/25","182P5","3","c2g","8 0. 1/100","C28 U3","NESSSSN","100 Czo","\"47P","53/10 Wzezes C26 C27","615+ 22/25","33/10 4ZK C19","Rzo 0. 1/100","CIO_ C25 R2g !5K 220/10","33 47P 4ZP RSO E5k","C24 U2","NESSSSN","1 | 100","47P 220/10","Llezzzs Czz C25","122/25 C1I","R7 # E5k","53/10 55/10 RB ~RIZ ","S8","C12 S44","4CF-Ght-AA","@OQOO0000000 182P2 220/10","4CF-GhT-Aa","WBS 56","Swz","CANADA 4CF-GhT-AA","14-182 55","SV1","ISSUE 4CF-Ght-Aa","WES WARD-BECK SYSTEM","SA14-182","AMPLIFIER ASSEMBLY","COMPONENT LA YOUT","B 14-182-06-001 ISS."]}],"drawing":{"svg":"_traces/6b3b6d5116767235.svg","viewBox":[1564,2000],"rotate":0,"number":"14-182-06-001","title":"Amplifier Assembly Component Layout","dtype":"06","outlines":"see _traces/6b3b6d5116767235.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[319,151,"182P1"],[409,224,"22P"],[466,224,"22p"],[666,226,"10/25"],[461,246,"Rz"],[571,266,"LHBSSN"],[663,291,"10/25"],[463,311,"RS"],[666,351,"10/25"],[546,361,"C3O"],[533,379,"22/25"],[711,371,"RS"],[713,394,"R4"],[531,421,"CSI"],[513,441,"22/25"],[803,454,"182P5"],[843,504,"c2g"],[886,526,"0. 1/100"],[471,569,"C28"],[643,569,"U3"],[616,591,"NESSSSN"],[473,606,"100"],[948,609,"Czo"],[791,629,"\"47P"],[331,661,"53/10"],[536,659,"C26"],[781,659,"C27"],[500,678,"Wzezes"],[763,676,"22/25"],[332,695,"615+"],[261,709,"33/10"],[356,714,"4ZK"],[951,706,"C19"],[319,724,"Rzo"],[673,724,"0. 1/100"],[628,749,"CIO_"],[736,746,"C25"],[837,752,"R2g !5K"],[933,751,"220/10"],[528,766,"47P"],[593,766,"4ZP"],[839,775,"RSO E5k"],[414,794,"33"],[378,806,"C24"],[568,806,"U2"],[540,829,"NESSSSN"],[383,841,"100"],[736,864,"47P"],[801,866,"220/10"],[446,896,"Czz"],[598,894,"C25"],[402,915,"Llezzzs"],[576,914,"122/25"],[821,921,"C1I"],[429,949,"R7"],[657,965,"E5k"],[264,976,"53/10 55/10"],[431,971,"RB"],[1418,984,"S8"],[1413,1001,"S44"],[818,1014,"C12"],[1375,1019,"4CF-Ght-AA"],[261,1071,"182P2"],[801,1061,"220/10"],[192,1115,"@OQOO0000000"],[1377,1102,"4CF-GhT-Aa"],[1418,1156,"56"],[530,1175,"WBS"],[1410,1171,"Swz"],[537,1200,"CANADA"],[1378,1189,"4CF-GhT-AA"],[513,1256,"14-182"],[1418,1244,"55"],[1413,1259,"SV1"],[535,1285,"ISSUE"],[1378,1276,"4CF-Ght-Aa"],[992,1762,"WES"],[1162,1756,"WARD-BECK"],[1408,1759,"SYSTEM"],[1206,1820,"SA14-182"],[1109,1862,"AMPLIFIER"],[1280,1861,"ASSEMBLY"],[1108,1911,"COMPONENT LA YOUT"],[999,1965,"14-182-06-001"],[1492,1962,"ISS."],[597,975,"~RIZ"]]}}
+```

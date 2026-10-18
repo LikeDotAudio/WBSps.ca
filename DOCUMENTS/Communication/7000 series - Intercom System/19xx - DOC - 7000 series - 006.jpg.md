@@ -1,0 +1,73 @@
+# 19xx - DOC - 7000 series - 006.jpg
+Wiki page: [Documents](../../../PAGES/Documents.md)
+
+
+- **Year:** unknown (unknown)
+- **Type:** document scan
+- **About:** M703, M712
+
+## Text recovered by OCR
+
+> TECHNICAL DATA M712 GAIN: Unity (#6dB pre-set control incorporated) FREQUENCY RESPONSE : 1 0 . 5dB 5OHz to 10kHz NOISE : S/N better than 7 0aB measured from +8dBm TOTAL HARMONIC DISTORTION : Less than 0.58 measured at +18dBm INPUT : +8dBm nominal (+18dBm Max . ) balanced from direct line or from M703 preamplifier INPUT IMPEDANCE : 30k ohm balanced bridging OUTPUT : OdBm to +8dBm nominal (+18dBm Max. ) CROSSPOINT ISOLATION/CUT OFF : 100dB TURN ON/OFF TRANSIENT : Inaudible POWER REQUIREMENTS : 24 volts dc regulated 15mA
+- **Original file:** `WBSps.env/PUBLIC/RAW Photos/Communication/7000 series - Intercom System/7000 series - 006.jpg`
+- **SHA-256:** `42da40ab20d6b3e186322b8a59a025d97e5708abd3b98183acc9b04dd353fc49`
+- **Size:** 414,326 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR)
+
+```text
+TECHNICAL DATA M712
+GAIN:
+Unity (#6dB pre-set control incorporated)
+FREQUENCY RESPONSE :
+1 0 . 5dB 5OHz to 10kHz
+NOISE :
+S/N better than 7 0aB measured from +8dBm
+TOTAL HARMONIC DISTORTION :
+Less than 0.58 measured at +18dBm
+INPUT :
++8dBm nominal (+18dBm Max . ) balanced from direct line or from M703 preamplifier
+INPUT IMPEDANCE :
+30k ohm balanced bridging
+OUTPUT :
+OdBm to +8dBm nominal (+18dBm Max. )
+CROSSPOINT ISOLATION/CUT OFF :
+100dB
+TURN ON/OFF TRANSIENT :
+Inaudible
+POWER REQUIREMENTS :
+24 volts dc regulated 15mA
+```
+
+## Contents (JSON)
+
+```json
+{
+ "file": "DOCUMENTS/Communication/7000 series - Intercom System/19xx - DOC - 7000 series - 006.jpg",
+ "sha256": "42da40ab20d6b3e186322b8a59a025d97e5708abd3b98183acc9b04dd353fc49",
+ "kind": "doc",
+ "models": [
+  "M703",
+  "M712"
+ ],
+ "pages": 1,
+ "order": [
+  {
+   "page": 1,
+   "sections": [
+    {
+     "heading": "TECHNICAL DATA",
+     "kind": "specs"
+    },
+    {
+     "heading": "TECHNICAL DATA",
+     "kind": "specs"
+    }
+   ]
+  }
+ ]
+}
+```

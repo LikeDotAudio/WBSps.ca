@@ -1,0 +1,1 @@
+window.WBS_FOLDER={"d":"Consoles/1970-1979/WBS 1979 custom L series full size","f":[["1979 - WBS 1979 custom L series - 1979 L series full size.pdf",""]]};

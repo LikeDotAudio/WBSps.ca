@@ -1,0 +1,93 @@
+{
+  "code": "M451",
+  "series": null,
+  "type": "M451 - Talkback Module",
+  "row_count": null,
+  "impedance": {
+    "out": 600
+  },
+  "note": null,
+  "audio": [],
+  "bus_out": [],
+  "bus_in": [],
+  "power": [
+    {
+      "rail": "VEE-AUDIO",
+      "style": "NEW",
+      "volts": -25,
+      "max_a": 0.1,
+      "supply": "P2-19",
+      "ground": "P2-20",
+      "link": 2
+    },
+    {
+      "rail": "VCC-AUDIO",
+      "style": "NEW",
+      "volts": 25,
+      "max_a": 0.2,
+      "supply": "P2-21",
+      "ground": "P2-20",
+      "link": 1
+    },
+    {
+      "rail": "VCC-LOGIC",
+      "style": "NEW",
+      "volts": 24,
+      "max_a": 0.1,
+      "supply": "P2-Y",
+      "ground": "P2-18",
+      "link": null
+    }
+  ],
+  "jumpers": [
+    {
+      "function": "CH ON LAMP",
+      "designation": "JMP.Z.W",
+      "from": "P2-Z",
+      "to": "P2-W"
+    },
+    {
+      "function": "CH ON GND ",
+      "designation": "JMP.X.18",
+      "from": "P2-X",
+      "to": "P2-18"
+    },
+    {
+      "function": "24V Jumper",
+      "designation": "JMP.Y.21",
+      "from": "P2-Y",
+      "to": "P2-21"
+    },
+    {
+      "function": "CH ON GND ",
+      "designation": "JMP.3",
+      "from": "P2-20",
+      "to": "P2-18"
+    },
+    {
+      "function": "Insert +",
+      "designation": "JMP.22.21",
+      "from": "P2-22",
+      "to": "P2-21"
+    },
+    {
+      "function": "Insert -",
+      "designation": "JMP.Z.Y",
+      "from": "P2-Z",
+      "to": "P2-Y"
+    },
+    {
+      "function": "Fader +",
+      "designation": "JMP.20.19",
+      "from": "P2-20",
+      "to": "P2-19"
+    },
+    {
+      "function": "Fader - ",
+      "designation": "JMP.X.W",
+      "from": "P2-X",
+      "to": "P2-W"
+    }
+  ],
+  "logic": []
+}

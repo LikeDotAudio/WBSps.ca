@@ -1,0 +1,41 @@
+# 19xx - microCOM II - DOC - IMG_2075-2013-04-08.jpg
+Wiki page: [Documents](../../../PAGES/Documents.md)
+
+
+- **Year:** unknown (unknown)
+- **Type:** document scan
+- **About:** microCOM II
+
+## Text recovered by OCR
+
+> CICETV /CKNC-TV SUDBURY 48 X 96 MicroCOM II COMMUNICATIONS SYSTEM PROJECT #930007
+- **Original file:** `WBSps.env/PUBLIC/RAW Photos/WBS BINDER SPINE PICTURES/IMG_2075-2013-04-08.jpg`
+- **SHA-256:** `308ea839c02da11e8a85877183b1ba858c0bbfa44750a5a93920de25027bb146`
+- **Size:** 97,158 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR)
+
+```text
+CICETV /CKNC-TV SUDBURY
+48 X 96
+MicroCOM II
+COMMUNICATIONS SYSTEM
+PROJECT #930007
+```
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Products/MICRO SERIES/microCOM II/19xx - microCOM II - DOC - IMG_2075-2013-04-08.jpg",
+ "sha256": "308ea839c02da11e8a85877183b1ba858c0bbfa44750a5a93920de25027bb146",
+ "kind": "doc",
+ "models": [
+  "microCOM II"
+ ],
+ "pages": 1
+}
+```

@@ -1,0 +1,459 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Ward-Beck timeline</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>Ward-Beck timeline</h1>
+<p>The timeline is built from <strong>projects</strong>: every job / serial number, dated by its number (first two digits) and by the dates on its drawings. Under each year: the modules used in those projects, then the price lists, the devices whose earliest dated document falls in that year, and the ads. Open a year for details, or <code>timelines/timeline.html</code> for the visual timeline.</p>
+<h2>1960s</h2>
+<h3><a href="Year-1967.html">1967|0</a></h3>
+<ul>
+<li><em>first documented: <a href="M604.html">M604</a> · 1 ads</em></li>
+</ul>
+<h3><a href="Year-1968.html">1968|1</a></h3>
+<ul>
+<li><em>first documented: <a href="M124.html">M124</a>, <a href="M126.html">M126</a>, <a href="M128.html">M128</a>, <a href="M129.html">M129</a>, <a href="M144.html">M144</a>, <a href="M146.html">M146</a>, <a href="M147.html">M147</a>, <a href="M401.html">M401</a>, <a href="M402.html">M402</a>, <a href="M402A.html">M402A</a>, <a href="M403.html">M403</a>, <a href="M404.html">M404</a>, <a href="M404A.html">M404A</a>, <a href="M406.html">M406</a>, <a href="M406A.html">M406A</a>, <a href="M406C.html">M406C</a>, <a href="M406M.html">M406M</a>, <a href="M500.html">M500</a>, <a href="M501.html">M501</a>, <a href="M503.html">M503</a>, <a href="M624.html">M624</a>, <a href="RM401.html">RM401</a></em></li>
+</ul>
+<h3><a href="Year-1969.html">1969|2</a></h3>
+<ul>
+<li><em>first documented: <a href="M158.html">M158</a>, <a href="M406B.html">M406B</a>, <a href="M411.html">M411</a>, <a href="M412.html">M412</a>, <a href="M413.html">M413</a>, <a href="M420.html">M420</a>, <a href="M421.html">M421</a>, <a href="M422.html">M422</a>, <a href="M424.html">M424</a>, <a href="M424S.html">M424S</a>, <a href="M448.html">M448</a>, <a href="M510.html">M510</a> · 1 ads</em></li>
+</ul>
+<h2>1970s</h2>
+<h3><a href="Year-1970.html">1970|3</a></h3>
+<ul>
+<li><em>first documented: <a href="M136.html">M136</a>, <a href="M166.html">M166</a>, <a href="M168.html">M168</a>, <a href="M171.html">M171</a>, <a href="M174.html">M174</a>, <a href="M178.html">M178</a>, <a href="M402B.html">M402B</a>, <a href="M414.html">M414</a>, <a href="M468.html">M468</a>, <a href="M468A.html">M468A</a>, <a href="M468AN.html">M468AN</a>, <a href="M600.html">M600</a>, <a href="M610.html">M610</a>, <a href="M621.html">M621</a>, <a href="M628.html">M628</a>, <a href="M648.html">M648</a>, <a href="M704.html">M704</a>, <a href="M749.html">M749</a></em></li>
+</ul>
+<h3><a href="Year-1971.html">1971|4</a></h3>
+<ul>
+<li><strong><a href="Job-71023.html">71023</a></strong> — CBC Montreal</li>
+<li><strong><a href="Job-71032.html">71032</a></strong> — CKEY Radio, Toronto</li>
+<li><strong><a href="Job-71036.html">71036</a></strong> — CFTO TV, Toronto</li>
+<li><strong><a href="Job-71050.html">71050</a></strong> — WWL TV, New Orleans</li>
+<li><em>first documented: <a href="M415.html">M415</a>, <a href="M441.html">M441</a>, <a href="M452.html">M452</a>, <a href="M605.html">M605</a>, <a href="M605C.html">M605C</a>, <a href="M626.html">M626</a>, <a href="M711.html">M711</a>, <a href="M743.html">M743</a>, <a href="M748.html">M748</a>, <a href="M750.html">M750</a>, <a href="M751.html">M751</a>, <a href="M751B.html">M751B</a>, <a href="M752.html">M752</a>, <a href="M753.html">M753</a>, <a href="M755.html">M755</a>, <a href="M756.html">M756</a>, <a href="M801.html">M801</a>, <a href="RM405.html">RM405</a> · 6 ads</em></li>
+</ul>
+<h3><a href="Year-1972.html">1972|5</a></h3>
+<ul>
+<li><strong><a href="Job-72012.html">72012</a></strong> — CHAN TV, Vancouver</li>
+<li><strong><a href="Job-72028.html">72028</a></strong> — Boston (title block cut off in the ad)</li>
+<li><strong><a href="Job-72032.html">72032</a></strong> — CHCH TV, Hamilton · 3 drawings by <a href="Person-GEB.html">GEB (Gerry E. Bell)</a>, <a href="Person-PC.html">PC</a></li>
+<li><em>first documented: <a href="M101.html">M101</a>, <a href="M107.html">M107</a>, <a href="M175.html">M175</a>, <a href="M400.html">M400</a>, <a href="M441F.html">M441F</a>, <a href="M463.html">M463</a>, <a href="M463A.html">M463A</a>, <a href="M463J.html">M463J</a>, <a href="M625A.html">M625A</a>, <a href="M712.html">M712</a>, <a href="M730.html">M730</a>, <a href="M731.html">M731</a>, <a href="M742.html">M742</a>, <a href="M757.html">M757</a>, <a href="M807.html">M807</a>, <a href="M827.html">M827</a>, <a href="M845.html">M845</a> · 4 ads</em></li>
+</ul>
+<h3><a href="Year-1973.html">1973|6</a></h3>
+<ul>
+<li><strong><a href="Job-73001.html">73001</a></strong> — ABC WLS TV, Chicago</li>
+<li><strong><a href="Job-73028.html">73028</a></strong> — CKWX, Vancouver</li>
+<li><strong><a href="Job-73030.html">73030</a></strong> — project · 2 drawings by <a href="Person-AF.html">AF</a>, RIJ</li>
+<li><strong><a href="Job-73034.html">73034</a></strong> — WBEN, Buffalo NY</li>
+<li><strong><a href="Job-73035.html">73035</a></strong> — CJOH TV, Ottawa · 1 drawings by <a href="Person-WA.html">WA</a></li>
+<li><strong><a href="Job-73050.html">73050</a></strong> — T1202 · modules <a href="M121.html">M121</a>, <a href="M124.html">M124</a>, <a href="M166.html">M166</a>, <a href="M416.html">M416</a>, <a href="M441.html">M441</a>, <a href="M441M.html">M441M</a>, <a href="M468A.html">M468A</a>, <a href="M621.html">M621</a>, <a href="M624.html">M624</a>, <a href="M648.html">M648</a> · 69 drawings by <a href="Person-PC.html">PC</a>, <a href="Person-RC.html">RC</a>, <a href="Person-D-MOHITOR.html">D MOHITOR</a></li>
+<li><strong><a href="Job-73065.html">73065</a></strong> — project</li>
+<li><strong><a href="Project-RM450.html">RM450</a></strong> (1973, no job number) · modules <a href="RM450.html">RM450</a></li>
+<li><em>first documented: <a href="M121.html">M121</a>, <a href="M166A.html">M166A</a>, <a href="M173.html">M173</a>, <a href="M181.html">M181</a>, <a href="M182.html">M182</a>, <a href="M416.html">M416</a>, <a href="M441M.html">M441M</a>, <a href="M450A.html">M450A</a>, <a href="M629.html">M629</a>, <a href="M705.html">M705</a>, <a href="M706.html">M706</a>, <a href="M724.html">M724</a>, <a href="M740.html">M740</a>, <a href="M741.html">M741</a>, <a href="M804.html">M804</a>, <a href="RM450.html">RM450</a> · 3 ads</em></li>
+</ul>
+<h3><a href="Year-1974.html">1974|7</a></h3>
+<ul>
+<li><strong><a href="Job-74062.html">74062</a></strong> — project</li>
+<li><strong><a href="Job-74066.html">74066</a></strong> — project</li>
+<li><strong><a href="Job-74071.html">74071</a></strong> — project</li>
+<li><strong><a href="Job-74075.html">74075</a></strong> — project</li>
+<li><strong><a href="Job-74076.html">74076</a></strong> — project · modules <a href="M465.html">M465</a> · 1 drawings by E FUNCTIONAL</li>
+<li><strong><a href="Job-74083.html">74083</a></strong> — project</li>
+<li><strong><a href="Job-74097.html">74097</a></strong> — project · 4 drawings by <a href="Person-PC.html">PC</a>, <a href="Person-PA.html">PA</a></li>
+<li><strong><a href="Project-Post-Prod-Music-A-console.html">Post Prod Music A console</a></strong> (1974, no job number)</li>
+<li><strong><a href="Project-Radio-Studios-22-23-24.html">Radio Studios 22, 23 &amp; 24</a></strong> (1974, no job number)</li>
+<li><em>first documented: <a href="M407.html">M407</a>, <a href="M454.html">M454</a>, <a href="M455.html">M455</a>, <a href="M460C.html">M460C</a>, <a href="M460D.html">M460D</a>, <a href="M460E.html">M460E</a>, <a href="M460F.html">M460F</a>, <a href="M460K.html">M460K</a>, <a href="M460L.html">M460L</a>, <a href="M460LA.html">M460LA</a>, <a href="M460M.html">M460M</a>, <a href="M460T.html">M460T</a>, <a href="M462.html">M462</a>, <a href="M462B.html">M462B</a>, <a href="M463B.html">M463B</a>, <a href="M463K.html">M463K</a>, <a href="M463L.html">M463L</a>, <a href="M463LA.html">M463LA</a>, <a href="M465.html">M465</a>, <a href="M745.html">M745</a>, <a href="M813.html">M813</a>, <a href="M1121.html">M1121</a>, <a href="RM650.html">RM650</a> · 1 ads</em></li>
+</ul>
+<h3><a href="Year-1975.html">1975|8</a></h3>
+<ul>
+<li><strong><a href="Job-75015.html">75015</a></strong> — project</li>
+<li><strong><a href="Job-75024.html">75024</a></strong> — project</li>
+<li><strong><a href="Job-75046.html">75046</a></strong> — project</li>
+<li><strong><a href="Job-75056.html">75056</a></strong> — project</li>
+<li><strong><a href="Project-M405C.html">M405C</a></strong> (1975, no job number) · modules <a href="M405C.html">M405C</a></li>
+<li><em>price list: <a href="Prices.html">1</a> · first documented: <a href="M110.html">M110</a>, <a href="M405.html">M405</a>, <a href="M405C.html">M405C</a>, <a href="M405PSS.html">M405PSS</a>, <a href="M450.html">M450</a>, <a href="M456.html">M456</a>, <a href="M456B.html">M456B</a>, <a href="M457.html">M457</a>, <a href="M457A.html">M457A</a>, <a href="M461.html">M461</a>, <a href="M480.html">M480</a>, <a href="M481.html">M481</a>, <a href="M484.html">M484</a>, <a href="M495.html">M495</a>, <a href="M608.html">M608</a>, <a href="M666.html">M666</a>, <a href="M701.html">M701</a>, <a href="M808.html">M808</a>, <a href="M812B.html">M812B</a>, <a href="M815.html">M815</a>, <a href="M816.html">M816</a>, <a href="RM424S.html">RM424S</a> · 1 ads</em></li>
+</ul>
+<h3><a href="Year-1976.html">1976|9</a></h3>
+<ul>
+<li><strong><a href="Job-76019.html">76019</a></strong> — project</li>
+<li><strong><a href="Job-76036.html">76036</a></strong> — project · 2 drawings by <a href="Person-PA.html">PA</a>, <a href="Person-PC.html">PC</a></li>
+<li><strong><a href="Job-76045.html">76045</a></strong> — CFTO · modules <a href="M450.html">M450</a>, <a href="M452.html">M452</a>, <a href="M453.html">M453</a>, <a href="M455.html">M455</a>, <a href="M456.html">M456</a>, <a href="M461.html">M461</a>, <a href="M461M.html">M461M</a>, <a href="M462.html">M462</a>, <a href="M462A.html">M462A</a>, <a href="M463.html">M463</a>, <a href="M464.html">M464</a>, <a href="M466.html">M466</a> … · 149 drawings by <a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a>, <a href="Person-PC.html">PC</a>, <a href="Person-PA.html">PA</a></li>
+<li><em>first documented: <a href="M453.html">M453</a>, <a href="M459.html">M459</a>, <a href="M460.html">M460</a>, <a href="M460A.html">M460A</a>, <a href="M460B.html">M460B</a>, <a href="M461M.html">M461M</a>, <a href="M462A.html">M462A</a>, <a href="M464.html">M464</a>, <a href="M466.html">M466</a>, <a href="M466C.html">M466C</a>, <a href="M466M.html">M466M</a>, <a href="M467.html">M467</a>, <a href="M468M.html">M468M</a>, <a href="M478.html">M478</a>, <a href="MP3.html">MP3</a></em></li>
+</ul>
+<h3><a href="Year-1977.html">1977|10</a></h3>
+<ul>
+<li><strong><a href="Job-77012.html">77012</a></strong> — 04-002 L2042 layout iss 5 · modules <a href="M413.html">M413</a>, <a href="M415.html">M415</a>, <a href="M451.html">M451</a>, <a href="M452.html">M452</a>, <a href="M462.html">M462</a>, <a href="M464.html">M464</a>, <a href="M466.html">M466</a>, <a href="M467.html">M467</a>, <a href="M471.html">M471</a>, <a href="M472.html">M472</a>, <a href="M472A.html">M472A</a>, <a href="M473.html">M473</a> … · 13 drawings by <a href="Person-RC.html">RC</a>, <a href="Person-GEB.html">GEB (Gerry E. Bell)</a>, ULZ</li>
+<li><strong><a href="Job-77024.html">77024</a></strong> — project · 3 drawings by <a href="Person-GEB.html">GEB (Gerry E. Bell)</a>, <a href="Person-RNL.html">RNL</a></li>
+<li><strong><a href="Job-77038.html">77038</a></strong> — 04-001 L3242 layout iss 1 · modules <a href="M452.html">M452</a>, <a href="M462.html">M462</a>, <a href="M466.html">M466</a>, <a href="M470.html">M470</a>, <a href="M472.html">M472</a>, <a href="M473.html">M473</a>, <a href="M475.html">M475</a>, <a href="M477.html">M477</a>, <a href="M498.html">M498</a>, <a href="M624.html">M624</a>, <a href="M625A.html">M625A</a> · 12 drawings by ELB, <a href="Person-DC.html">DC</a>, <a href="Person-RK.html">RK</a></li>
+<li><strong><a href="Project-L-26-X-4.html">L 26 X 4</a></strong> (1977, no job number)</li>
+<li><strong><a href="Project-L2042-Console.html">L2042 Console</a></strong> (1977, no job number)</li>
+<li><strong><a href="Project-L2642.html">L2642</a></strong> (1977, no job number)</li>
+<li><strong><a href="Project-L3242-Console.html">L3242 Console</a></strong> (1977, no job number)</li>
+<li><strong><a href="Project-L3242A-full-size.html">L3242A full size</a></strong> (1977, no job number)</li>
+<li><strong><a href="Project-L3242P.html">L3242P</a></strong> (1977, no job number)</li>
+<li><strong><a href="Project-M1002-Transportable-Audio-Console.html">M1002 - Transportable Audio Console</a></strong> (1977, no job number) · modules <a href="M1002.html">M1002</a></li>
+<li><strong><a href="Project-STEREO-FOR-THE-L-SERIES-AUDIO-CONSOLE.html">STEREO FOR THE L SERIES AUDIO CONSOLE</a></strong> (1977, no job number)</li>
+<li><strong><a href="Project-WSVN.html">WSVN</a></strong> (1977–1978, no job number)</li>
+<li><em>first documented: <a href="L2042.html">L2042</a>, <a href="L3242.html">L3242</a>, <a href="M451.html">M451</a>, <a href="M458.html">M458</a>, <a href="M465A.html">M465A</a>, <a href="M470.html">M470</a>, <a href="M470A.html">M470A</a>, <a href="M470C.html">M470C</a>, <a href="M470D.html">M470D</a>, <a href="M471.html">M471</a>, <a href="M472.html">M472</a>, <a href="M473A.html">M473A</a>, <a href="M475.html">M475</a>, <a href="M498.html">M498</a>, <a href="M612.html">M612</a>, <a href="M703.html">M703</a>, <a href="M1002.html">M1002</a>, <a href="M7000.html">M7000</a></em></li>
+</ul>
+<h3><a href="Year-1978.html">1978|11</a></h3>
+<ul>
+<li><strong><a href="Job-78035.html">78035</a></strong> — 04-002 L3242A layout iss 1 · modules <a href="M451.html">M451</a>, <a href="M452.html">M452</a>, <a href="M462.html">M462</a>, <a href="M466.html">M466</a>, <a href="M470.html">M470</a>, <a href="M470A.html">M470A</a>, <a href="M472.html">M472</a>, <a href="M473A.html">M473A</a>, <a href="M475.html">M475</a>, <a href="M477.html">M477</a>, <a href="M498.html">M498</a> · 5 drawings by DIC, <a href="Person-MGB.html">MGB</a></li>
+<li><strong><a href="Job-78050.html">78050</a></strong> — 04-002 L2042A layout · modules <a href="M451.html">M451</a>, <a href="M452.html">M452</a>, <a href="M462.html">M462</a>, <a href="M464.html">M464</a>, <a href="M466.html">M466</a>, <a href="M467.html">M467</a>, <a href="M470A.html">M470A</a>, <a href="M472.html">M472</a>, <a href="M473A.html">M473A</a>, <a href="M475.html">M475</a>, <a href="M477.html">M477</a>, <a href="M498.html">M498</a> · 5 drawings</li>
+<li><strong>Company:</strong> Ampex acquires Ward-Beck Systems (Canada) — letter of intent signed at the NAB convention <em>(Broadcast Engineering, June 1978 (wbsPS-NOT UPLOADED/Broadcaster magazine/BE-1978-06.pdf))</em></li>
+<li><em>first documented: <a href="M020.html">M020</a>, <a href="M453A.html">M453A</a>, <a href="M469.html">M469</a>, <a href="M479.html">M479</a>, <a href="M483.html">M483</a>, <a href="M485B.html">M485B</a>, <a href="M490.html">M490</a>, <a href="M490A.html">M490A</a>, <a href="M490B.html">M490B</a>, <a href="M490C.html">M490C</a>, <a href="M490D.html">M490D</a>, <a href="M490E.html">M490E</a>, <a href="M490F.html">M490F</a>, <a href="M490G.html">M490G</a>, <a href="M490H.html">M490H</a>, <a href="M490T.html">M490T</a>, <a href="M494.html">M494</a>, <a href="M497.html">M497</a>, <a href="M497A.html">M497A</a>, <a href="M497C.html">M497C</a>, <a href="M497D.html">M497D</a>, <a href="M625.html">M625</a>, <a href="M625B.html">M625B</a>, <a href="M808A.html">M808A</a>, <a href="M1204A.html">M1204A</a></em></li>
+</ul>
+<h3><a href="Year-1979.html">1979|12</a></h3>
+<ul>
+<li><strong><a href="Job-790236.html">790236</a></strong> — Maryland L3242A · modules <a href="M415.html">M415</a>, <a href="M450.html">M450</a>, <a href="M450B.html">M450B</a>, <a href="M451.html">M451</a>, <a href="M452.html">M452</a>, <a href="M453.html">M453</a>, <a href="M453A.html">M453A</a>, <a href="M459.html">M459</a>, <a href="M462.html">M462</a>, <a href="M462B.html">M462B</a>, <a href="M464.html">M464</a>, <a href="M467.html">M467</a> … · 268 drawings by <a href="Person-SRH.html">SRH</a>, <a href="Person-PC.html">PC</a>, <a href="Person-RC.html">RC</a></li>
+<li><strong><a href="Project-1979-custom-L-series-full-size.html">1979 custom L series full size</a></strong> (1979, no job number)</li>
+<li><em>first documented: <a href="M201.html">M201</a>, <a href="M202.html">M202</a>, <a href="M203.html">M203</a>, <a href="M450B.html">M450B</a>, <a href="M471C.html">M471C</a>, <a href="M477.html">M477</a>, <a href="M485.html">M485</a></em></li>
+</ul>
+<h2>1980s</h2>
+<h3><a href="Year-1980.html">1980|13</a></h3>
+<ul>
+<li><strong><a href="Job-800278.html">800278</a></strong> — project</li>
+<li><strong><a href="Job-800595.html">800595</a></strong> — project</li>
+<li><em>first documented: <a href="M480B.html">M480B</a>, <a href="M703B.html">M703B</a></em></li>
+</ul>
+<h3><a href="Year-1981.html">1981|14</a></h3>
+<ul>
+<li><em>first documented: <a href="M774.html">M774</a>, <a href="M780.html">M780</a>, <a href="M7800.html">M7800</a>, <a href="microCOM.html">microCOM</a></em></li>
+</ul>
+<h3><a href="Year-1982.html">1982|15</a></h3>
+<ul>
+<li><strong><a href="Job-820200.html">820200</a></strong> — MicroCOM Communications System for Molinare Project</li>
+<li><strong><a href="Job-820211.html">820211</a></strong> — , WBS SWITCHER INTERFACE DEFINITION REVISED 05-28-82</li>
+<li><strong><a href="Job-820321.html">820321</a></strong> — project · modules <a href="M451.html">M451</a> · 2 drawings</li>
+<li><strong><a href="Job-820322.html">820322</a></strong> — Console · modules <a href="M451.html">M451</a> · 2 drawings</li>
+<li><strong><a href="Project-T1202.html">T1202</a></strong> (1982, no job number)</li>
+<li><em>first documented: <a href="M207.html">M207</a>, <a href="M465B.html">M465B</a>, <a href="M480C.html">M480C</a>, <a href="M481B.html">M481B</a>, <a href="M482B.html">M482B</a>, <a href="M487.html">M487</a>, <a href="M521A.html">M521A</a>, <a href="M611.html">M611</a>, <a href="M712B.html">M712B</a>, <a href="M770.html">M770</a>, <a href="M771.html">M771</a>, <a href="M772.html">M772</a>, <a href="M773.html">M773</a>, <a href="M777.html">M777</a>, <a href="M778.html">M778</a>, <a href="M7810.html">M7810</a>, <a href="M7820.html">M7820</a>, <a href="M7830.html">M7830</a>, <a href="T1202A.html">T1202A</a></em></li>
+</ul>
+<h3><a href="Year-1983.html">1983|16</a></h3>
+<ul>
+<li><em>first documented: <a href="M208.html">M208</a>, <a href="M490J.html">M490J</a>, <a href="M490K.html">M490K</a>, <a href="M490L.html">M490L</a>, <a href="M497B.html">M497B</a>, <a href="M609.html">M609</a>, <a href="M612A.html">M612A</a>, <a href="M632.html">M632</a>, <a href="M805.html">M805</a></em></li>
+</ul>
+<h3><a href="Year-1984.html">1984|17</a></h3>
+<ul>
+<li><strong><a href="Job-840300.html">840300</a></strong> — 04-003 · modules <a href="M453.html">M453</a>, <a href="M462.html">M462</a>, <a href="M466.html">M466</a>, <a href="M467.html">M467</a>, <a href="M472.html">M472</a>, <a href="M473A.html">M473A</a>, <a href="M475.html">M475</a>, <a href="M477.html">M477</a>, <a href="M478.html">M478</a>, <a href="M479.html">M479</a>, <a href="M487.html">M487</a>, <a href="M498A.html">M498A</a> · 9 drawings by JET</li>
+<li><strong><a href="Project-ST-console-mono-and-st-schematics-for-back-planes.html">ST console mono and st schematics for back planes</a></strong> (1984, no job number)</li>
+<li><em>first documented: <a href="M405D.html">M405D</a>, <a href="M405F.html">M405F</a>, <a href="M470E.html">M470E</a>, <a href="M473.html">M473</a>, <a href="M473B.html">M473B</a>, <a href="M478H.html">M478H</a>, <a href="M498A.html">M498A</a>, <a href="ST2442.html">ST2442</a>, <a href="ST3642.html">ST3642</a></em></li>
+</ul>
+<h3><a href="Year-1985.html">1985|18</a></h3>
+<ul>
+<li><strong><a href="Job-850450.html">850450</a></strong> — project · 1 drawings by <a href="Person-PA.html">PA</a></li>
+<li><strong><a href="Job-851052.html">851052</a></strong> — project · modules <a href="M802.html">M802</a></li>
+<li><strong><a href="Job-85160.html">85160</a></strong> — , MICROCOM II COMUNICATIONS SYSTEM</li>
+<li><strong><a href="Project-Red-Deer-WBS.html">Red Deer WBS</a></strong> (1985, no job number)</li>
+<li><strong><a href="Project-St-Series-Stereo-Console.html">St Series Stereo Console</a></strong> (1985, no job number)</li>
+<li><em>first documented: <a href="M462C.html">M462C</a>, <a href="M471A.html">M471A</a>, <a href="M490N.html">M490N</a>, <a href="M521.html">M521</a>, <a href="M522.html">M522</a>, <a href="M523.html">M523</a>, <a href="M525.html">M525</a>, <a href="M526.html">M526</a>, <a href="M527.html">M527</a>, <a href="M529.html">M529</a>, <a href="M530.html">M530</a>, <a href="M538.html">M538</a>, <a href="M538C.html">M538C</a>, <a href="M562C.html">M562C</a>, <a href="M568.html">M568</a>, <a href="M568W.html">M568W</a>, <a href="M802.html">M802</a>, <a href="M5200.html">M5200</a>, <a href="M5200A.html">M5200A</a></em></li>
+</ul>
+<h3><a href="Year-1986.html">1986|19</a></h3>
+<ul>
+<li><strong><a href="Job-860800.html">860800</a></strong> — project · 1 drawings</li>
+<li><strong><a href="Project-M524A-ST-Console-Programming-module.html">M524A---ST-Console-Programming-module</a></strong> (1986, no job number) · modules <a href="M524A.html">M524A</a></li>
+<li><em>first documented: <a href="D8212.html">D8212</a>, <a href="M463AB.html">M463AB</a>, <a href="M463AC.html">M463AC</a>, <a href="M472A.html">M472A</a>, <a href="M475A.html">M475A</a>, <a href="M524.html">M524</a>, <a href="M524A.html">M524A</a>, <a href="M5201.html">M5201</a>, <a href="M8206.html">M8206</a></em></li>
+</ul>
+<h3><a href="Year-1987.html">1987|20</a></h3>
+<ul>
+<li><strong><a href="Job-870200.html">870200</a></strong> — CFPL Project Notes Suppliment A</li>
+<li><strong><a href="Job-870284.html">870284</a></strong> — CFBK Huntsville Announce Turrel</li>
+<li><em>first documented: <a href="M117.html">M117</a>, <a href="M152.html">M152</a>, <a href="M605A.html">M605A</a></em></li>
+</ul>
+<h3><a href="Year-1988.html">1988|21</a></h3>
+<ul>
+<li><strong><a href="Job-88000.html">88000</a></strong> — project · 1 drawings by <a href="Person-DS.html">DS</a></li>
+<li><strong><a href="Job-880014.html">880014</a></strong> — KSFO RADIO DA ASSEMBLY PROJECT</li>
+<li><strong><a href="Job-880084.html">880084</a></strong> — , INTERCOM MATRIX</li>
+<li><strong><a href="Job-880134.html">880134</a></strong> — CFTO ST · modules <a href="M433.html">M433</a>, <a href="M435.html">M435</a>, <a href="M520.html">M520</a>, <a href="M521.html">M521</a>, <a href="M521A.html">M521A</a>, <a href="M522.html">M522</a>, <a href="M523.html">M523</a>, <a href="M524A.html">M524A</a>, <a href="M525.html">M525</a>, <a href="M526.html">M526</a>, <a href="M527.html">M527</a>, <a href="M528.html">M528</a> … · 190 drawings by <a href="Person-PA.html">PA</a>, <a href="Person-DS.html">DS</a>, <a href="Person-SG.html">SG</a></li>
+<li><strong><a href="Job-880478.html">880478</a></strong> — PROJECT , PC ASSIGNMENT COMPUTER MICROCOM II FOR TCN-9 SYDNEY</li>
+<li><strong><a href="Job-880651.html">880651</a></strong> — TVO M1204B · modules <a href="M150.html">M150</a>, <a href="M207.html">M207</a>, <a href="M450B.html">M450B</a>, <a href="M451.html">M451</a>, <a href="M452.html">M452</a>, <a href="M453A.html">M453A</a>, <a href="M461.html">M461</a>, <a href="M462.html">M462</a>, <a href="M462A.html">M462A</a>, <a href="M475A.html">M475A</a>, <a href="M480C.html">M480C</a>, <a href="M498.html">M498</a> … · 85 drawings by <a href="Person-PA.html">PA</a>, <a href="Person-HM.html">HM</a>, <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-88134.html">88134</a></strong> — project · 1 drawings</li>
+<li><strong><a href="Job-88400.html">88400</a></strong> — project · 1 drawings by <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Project-880134-ST-Console.html">880134 - ST Console</a></strong> (1988, no job number)</li>
+<li><strong><a href="Project-CFTO-TV-done.html">CFTO TV done</a></strong> (1988, no job number) · modules <a href="M521.html">M521</a></li>
+<li><em>first documented: <a href="M490M.html">M490M</a>, <a href="M520.html">M520</a>, <a href="M520A.html">M520A</a>, <a href="M520K.html">M520K</a>, <a href="M528.html">M528</a>, <a href="M1204.html">M1204</a>, <a href="M1204B.html">M1204B</a>, <a href="microCOM-II.html">microCOM II</a></em></li>
+</ul>
+<h3><a href="Year-1989.html">1989|22</a></h3>
+<ul>
+<li><strong><a href="Job-890009.html">890009</a></strong> — CBC EDMONTON PROJECT , MICROCOM II INTRUSTION MANUAL BOOK 2 OF 2</li>
+<li><strong><a href="Job-890407.html">890407</a></strong> — CBC Toronto Custom Announcer Turret Project</li>
+<li><strong><a href="Job-893047.html">893047</a></strong> — project</li>
+</ul>
+<h2>1990s</h2>
+<h3><a href="Year-1990.html">1990|23</a></h3>
+<ul>
+<li><strong><a href="Job-900416.html">900416</a></strong> — KFBK-KAER · modules <a href="M8205.html">M8205</a> · 2 drawings by <a href="Person-WS.html">WS</a></li>
+<li><strong><a href="Job-900438.html">900438</a></strong> — CHIN Radio · modules <a href="M400.html">M400</a>, <a href="M451.html">M451</a>, <a href="M452.html">M452</a>, <a href="M453A.html">M453A</a>, <a href="M462A.html">M462A</a>, <a href="M490.html">M490</a>, <a href="M490B.html">M490B</a>, <a href="M495.html">M495</a>, <a href="M497.html">M497</a>, <a href="M498.html">M498</a>, <a href="M499.html">M499</a>, <a href="M625B.html">M625B</a> · 86 drawings by <a href="Person-GEB.html">GEB (Gerry E. Bell)</a>, <a href="Person-DRG.html">DRG</a>, <a href="Person-LA.html">LA</a></li>
+<li><strong><a href="Job-900573.html">900573</a></strong> — project · 2 drawings by <a href="Person-GEB.html">GEB (Gerry E. Bell)</a></li>
+<li><strong><a href="Project-R-series-install-guide.html">R series install guide</a></strong> (1990, no job number)</li>
+<li><strong><a href="Project-R-series-installation-manual.html">R series installation manual</a></strong> (1990, no job number)</li>
+<li><strong><a href="Project-R1400-R2400-sales.html">R1400-R2400 - sales</a></strong> (1990, no job number)</li>
+<li><em>first documented: <a href="M405P.html">M405P</a>, <a href="M499.html">M499</a>, <a href="R1400.html">R1400</a></em></li>
+</ul>
+<h3><a href="Year-1991.html">1991|24</a></h3>
+<ul>
+<li><strong><a href="Job-910044.html">910044</a></strong> — NBC · 1 drawings by <a href="Person-DRG.html">DRG</a></li>
+</ul>
+<h3><a href="Year-1992.html">1992|25</a></h3>
+<ul>
+<li><strong><a href="Job-920001.html">920001</a></strong> — project · 1 drawings</li>
+<li><strong><a href="Job-920002.html">920002</a></strong> — project · modules <a href="M703.html">M703</a> · 3 drawings by <a href="Person-PA.html">PA</a></li>
+<li><strong><a href="Job-920004.html">920004</a></strong> — project · 1 drawings by <a href="Person-GEB.html">GEB (Gerry E. Bell)</a></li>
+<li><strong><a href="Job-920005.html">920005</a></strong> — project · 1 drawings by <a href="Person-GEB.html">GEB (Gerry E. Bell)</a></li>
+<li><strong><a href="Job-920006.html">920006</a></strong> — project · 1 drawings</li>
+<li><strong><a href="Job-920007.html">920007</a></strong> — project · 1 drawings</li>
+<li><strong><a href="Job-920008.html">920008</a></strong> — project · 1 drawings by <a href="Person-GEB.html">GEB (Gerry E. Bell)</a></li>
+<li><strong><a href="Job-920009.html">920009</a></strong> — project · 1 drawings by <a href="Person-GEB.html">GEB (Gerry E. Bell)</a></li>
+<li><strong><a href="Job-920010.html">920010</a></strong> — project</li>
+<li><strong><a href="Job-920018.html">920018</a></strong> — project</li>
+<li><strong><a href="Job-920063.html">920063</a></strong> — KRSR Radio · modules <a href="M451.html">M451</a>, <a href="M453.html">M453</a>, <a href="M490.html">M490</a>, <a href="M490A.html">M490A</a>, <a href="M495.html">M495</a>, <a href="M498.html">M498</a> · 4 drawings by <a href="Person-PA.html">PA</a></li>
+<li><strong><a href="Job-920150.html">920150</a></strong> — WLYF-WMRZ · modules <a href="M453A.html">M453A</a>, <a href="M495.html">M495</a>, <a href="M498.html">M498</a> · 1 drawings by <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-920170.html">920170</a></strong> — CHYM-CKGL · modules <a href="M495.html">M495</a> · 2 drawings by <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-920216.html">920216</a></strong> — project</li>
+<li><strong><a href="Job-920306.html">920306</a></strong> — CJMJ-FM · modules <a href="M497C.html">M497C</a>, <a href="M498.html">M498</a>, <a href="M600.html">M600</a> · 3 drawings by <a href="Person-PA.html">PA</a></li>
+<li><strong><a href="Job-920342.html">920342</a></strong> — Motorolla Central Switch Project No. (1of4) · 1 drawings</li>
+<li><strong><a href="Job-920383.html">920383</a></strong> — WOWF · modules <a href="M451.html">M451</a>, <a href="M497C.html">M497C</a>, <a href="M498.html">M498</a> · 3 drawings by <a href="Person-DRG.html">DRG</a>, <a href="Person-GEB.html">GEB (Gerry E. Bell)</a></li>
+<li><strong><a href="Job-920384.html">920384</a></strong> — project · 1 drawings</li>
+<li><strong><a href="Job-920477.html">920477</a></strong> — Telemedia · modules <a href="M479.html">M479</a>, <a href="M498.html">M498</a>, <a href="M499.html">M499</a> · 4 drawings by <a href="Person-PA.html">PA</a></li>
+<li><em>first documented: <a href="M433.html">M433</a>, <a href="MP1.html">MP1</a>, <a href="MP2.html">MP2</a></em></li>
+</ul>
+<h3><a href="Year-1993.html">1993|26</a></h3>
+<ul>
+<li><strong><a href="Job-930007.html">930007</a></strong> — CICI-TV-CKNC-TV SUDBURY · 2 drawings by <a href="Person-PA.html">PA</a></li>
+<li><strong><a href="Job-93010.html">93010</a></strong> — project · 1 drawings by CXO</li>
+<li><strong><a href="Job-930177.html">930177</a></strong> — TORONTO BROADCAST CENTRE · 1 drawings by <a href="Person-GEB.html">GEB (Gerry E. Bell)</a></li>
+<li><strong><a href="Job-93018.html">93018</a></strong> — project · 4 drawings by <a href="Person-PA.html">PA</a>, <a href="Person-ST.html">ST</a>, <a href="Person-DC.html">DC</a></li>
+<li><strong><a href="Job-930188.html">930188</a></strong> — ST. OLAF COLLEGE · modules <a href="M451.html">M451</a>, <a href="M497C.html">M497C</a>, <a href="M498.html">M498</a> · 3 drawings by <a href="Person-PA.html">PA</a>, <a href="Person-ST.html">ST</a>, <a href="Person-DC.html">DC</a></li>
+<li><strong><a href="Job-93021.html">93021</a></strong> — TTC · modules <a href="M462.html">M462</a>, <a href="M464.html">M464</a>, <a href="M466.html">M466</a>, <a href="M467.html">M467</a>, <a href="M8205.html">M8205</a>, <a href="M8205B.html">M8205B</a> · 1 drawings by <a href="Person-PA.html">PA</a></li>
+<li><strong><a href="Job-930233.html">930233</a></strong> — project · 1 drawings</li>
+<li><strong><a href="Job-930279.html">930279</a></strong> — project</li>
+<li><strong><a href="Job-93031.html">93031</a></strong> — project · 1 drawings</li>
+<li><strong><a href="Job-93032.html">93032</a></strong> — CTS · 7 drawings by <a href="Person-DRG.html">DRG</a>, CTS, <a href="Person-DRC.html">DRC</a></li>
+<li><strong><a href="Job-930351.html">930351</a></strong> — project · 1 drawings by <a href="Person-DRG.html">DRG</a>, MOD</li>
+<li><strong><a href="Job-93038.html">93038</a></strong> — project · 1 drawings by <a href="Person-CBC.html">CBC</a></li>
+<li><strong><a href="Job-93039.html">93039</a></strong> — CBC · 4 drawings by <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-930420.html">930420</a></strong> — CBC FREDERICTON · 3 drawings by <a href="Person-DRG.html">DRG</a>, <a href="Person-MGB.html">MGB</a></li>
+<li><strong><a href="Job-930430.html">930430</a></strong> — project · 1 drawings by <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-93044.html">93044</a></strong> — TORONTO BROADCAST CENTRE · 2 drawings by <a href="Person-DRC.html">DRC</a>, <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-93047.html">93047</a></strong> — MOVING PICTURES - TVNZ · modules <a href="M7840.html">M7840</a>, <a href="M8204.html">M8204</a> · 2 drawings by <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-93049.html">93049</a></strong> — project · 1 drawings by <a href="Person-DRG.html">DRG</a></li>
+<li><em>first documented: <a href="M999.html">M999</a>, <a href="M7840.html">M7840</a>, <a href="M8200.html">M8200</a>, <a href="M8204.html">M8204</a>, <a href="M8204A.html">M8204A</a>, <a href="M8205W.html">M8205W</a></em></li>
+</ul>
+<h3><a href="Year-1994.html">1994|27</a></h3>
+<ul>
+<li><strong><a href="Job-940009.html">940009</a></strong> — KCET · 5 drawings by <a href="Person-DRG.html">DRG</a>, <a href="Person-WS.html">WS</a></li>
+<li><strong><a href="Job-940011.html">940011</a></strong> — project · 2 drawings by <a href="Person-WS.html">WS</a></li>
+<li><strong><a href="Job-940114.html">940114</a></strong> — project · 2 drawings by <a href="Person-DRC.html">DRC</a>, <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-940117.html">940117</a></strong> — project · 6 drawings by <a href="Person-DRG.html">DRG</a>, WRG</li>
+<li><strong><a href="Job-940145.html">940145</a></strong> — project · 9 drawings by <a href="Person-WS.html">WS</a>, XLR</li>
+<li><strong><a href="Job-940177.html">940177</a></strong> — project · 1 drawings</li>
+<li><strong><a href="Job-940184.html">940184</a></strong> — Glenn Gould Studio · 14 drawings by <a href="Person-DRG.html">DRG</a>, <a href="Person-DRC.html">DRC</a></li>
+<li><strong><a href="Job-94021.html">94021</a></strong> — Glenn Gould Studio · modules <a href="M703.html">M703</a>, <a href="M8201.html">M8201</a> · 11 drawings by <a href="Person-DRG.html">DRG</a>, <a href="Person-DRC.html">DRC</a>, ZMM</li>
+<li><strong><a href="Job-94022.html">94022</a></strong> — CENTENNIAL COLLEGE · 3 drawings by <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-940224.html">940224</a></strong> — project · 1 drawings</li>
+<li><strong><a href="Job-940238.html">940238</a></strong> — CKNW · modules <a href="M901.html">M901</a>, <a href="M901NW.html">M901NW</a> · 29 drawings by <a href="Person-DRG.html">DRG</a>, <a href="Person-MIC.html">MIC</a>, <a href="Person-ORG.html">ORG</a></li>
+<li><strong><a href="Job-940243.html">940243</a></strong> — Centennial College · 8 drawings by <a href="Person-SM.html">SM</a>, <a href="Person-DRC.html">DRC</a>, <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-940246.html">940246</a></strong> — project · 3 drawings by <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-940248.html">940248</a></strong> — Centennial College · 5 drawings by <a href="Person-DRG.html">DRG</a>, <a href="Person-SM.html">SM</a></li>
+<li><strong><a href="Job-940249.html">940249</a></strong> — project · 1 drawings</li>
+<li><strong><a href="Job-940294.html">940294</a></strong> — CBC Ottawa · 4 drawings by <a href="Person-WS.html">WS</a>, AND, <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-940305.html">940305</a></strong> — Telemedia Sudbury · 2 drawings by <a href="Person-DRG.html">DRG</a>, <a href="Person-LA.html">LA</a></li>
+<li><strong><a href="Job-94031.html">94031</a></strong> — CENTENNIAL COLLEGE · modules <a href="M8200.html">M8200</a> · 4 drawings by <a href="Person-SM.html">SM</a></li>
+<li><strong><a href="Job-94033.html">94033</a></strong> — CENTENNIAL COLLEGE · modules <a href="M632.html">M632</a> · 19 drawings by <a href="Person-DRG.html">DRG</a>, <a href="Person-SM.html">SM</a>, <a href="Person-DRC.html">DRC</a></li>
+<li><strong><a href="Job-940332.html">940332</a></strong> — project · 4 drawings by <a href="Person-DRG.html">DRG</a>, <a href="Person-SM.html">SM</a></li>
+<li><strong><a href="Job-940333.html">940333</a></strong> — CFTR · modules <a href="M924.html">M924</a> · 3 drawings by <a href="Person-SM.html">SM</a></li>
+<li><strong><a href="Job-940334.html">940334</a></strong> — project · 4 drawings by <a href="Person-SM.html">SM</a></li>
+<li><strong><a href="Job-940335.html">940335</a></strong> — CHFI · modules <a href="M905A.html">M905A</a>, <a href="M905B.html">M905B</a>, <a href="M908.html">M908</a> · 6 drawings by <a href="Person-DRG.html">DRG</a>, <a href="Person-SM.html">SM</a>, <a href="Person-DRC.html">DRC</a></li>
+<li><strong><a href="Job-940350.html">940350</a></strong> — project · modules <a href="M907.html">M907</a> · 7 drawings by <a href="Person-DRG.html">DRG</a>, <a href="Person-WKW.html">WKW</a>, <a href="Person-ORG.html">ORG</a></li>
+<li><strong><a href="Job-940351.html">940351</a></strong> — Telemedia Network Radio · modules <a href="M907.html">M907</a>, <a href="M908.html">M908</a>, <a href="M909.html">M909</a> · 5 drawings by <a href="Person-DRG.html">DRG</a>, <a href="Person-SM.html">SM</a></li>
+<li><strong><a href="Job-940356.html">940356</a></strong> — CBC · 6 drawings by <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-940376.html">940376</a></strong> — CKWX Radio · modules <a href="M901A.html">M901A</a>, <a href="M905B.html">M905B</a>, <a href="M908.html">M908</a> · 3 drawings by <a href="Person-SM.html">SM</a></li>
+<li><strong><a href="Job-94038.html">94038</a></strong> — project</li>
+<li><strong><a href="Job-940410.html">940410</a></strong> — project · 1 drawings by <a href="Person-SM.html">SM</a></li>
+<li><strong><a href="Job-940425.html">940425</a></strong> — Rogers Broadcasting Custom Turret Project Turret Project</li>
+<li><strong><a href="Job-940443.html">940443</a></strong> — project · 15 drawings by <a href="Person-DRG.html">DRG</a>, <a href="Person-IFB.html">IFB</a>, <a href="Person-WKW.html">WKW</a></li>
+<li><strong><a href="Job-940444.html">940444</a></strong> — WBZ · modules <a href="M901BY.html">M901BY</a>, <a href="M901CY.html">M901CY</a>, <a href="M907.html">M907</a>, <a href="M908.html">M908</a>, <a href="M909.html">M909</a>, <a href="M924.html">M924</a> · 46 drawings by <a href="Person-DRG.html">DRG</a>, <a href="Person-PAS.html">PAS</a>, <a href="Person-SM.html">SM</a></li>
+<li><strong><a href="Job-940446.html">940446</a></strong> — project · 6 drawings by <a href="Person-DRG.html">DRG</a>, <a href="Person-WBZ.html">WBZ</a></li>
+<li><strong><a href="Job-940447.html">940447</a></strong> — project · 3 drawings by <a href="Person-PAS.html">PAS</a>, <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-940448.html">940448</a></strong> — project · 2 drawings by <a href="Person-DRC.html">DRC</a></li>
+<li><strong><a href="Job-940449.html">940449</a></strong> — WBZ Boston Radio Control Turrets Project No · 8 drawings by <a href="Person-DRG.html">DRG</a>, <a href="Person-DRC.html">DRC</a></li>
+<li><strong><a href="Job-94052.html">94052</a></strong> — project</li>
+<li><strong><a href="Job-94054.html">94054</a></strong> — project · 2 drawings</li>
+<li><strong><a href="Job-94055.html">94055</a></strong> — TEN Engineering · 7 drawings by <a href="Person-SM.html">SM</a>, <a href="Person-DRG.html">DRG</a>, <a href="Person-DRC.html">DRC</a></li>
+<li><strong><a href="Job-94061.html">94061</a></strong> — project · 2 drawings by <a href="Person-CBC.html">CBC</a>, <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-94063.html">94063</a></strong> — CBC REGINA · 4 drawings by <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-94064.html">94064</a></strong> — WBZ Boston · modules <a href="M905B.html">M905B</a>, <a href="M908.html">M908</a>, <a href="M924.html">M924</a> · 8 drawings by <a href="Person-DRG.html">DRG</a>, <a href="Person-WBZ.html">WBZ</a>, <a href="Person-SM.html">SM</a></li>
+<li><strong><a href="Job-94068.html">94068</a></strong> — project · 1 drawings by <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-94238.html">94238</a></strong> — project · 1 drawings</li>
+<li><strong><a href="Project-M7880-TV-BROADCAST-INTERCOM.html">M7880-TV-BROADCAST-INTERCOM</a></strong> (1994, no job number) · modules <a href="M7880.html">M7880</a></li>
+<li><strong><a href="Project-R2K.html">R2K</a></strong> (1994, no job number) · modules <a href="M908.html">M908</a></li>
+<li><strong><a href="Project-REN-TV-Console.html">REN TV Console</a></strong> (1994–1997, no job number) · modules <a href="M920.html">M920</a>, <a href="M921.html">M921</a>, <a href="M922.html">M922</a>, <a href="M923.html">M923</a>, <a href="M923A.html">M923A</a>, <a href="M923B.html">M923B</a>, <a href="M923C.html">M923C</a>, <a href="M923D.html">M923D</a>, <a href="M923E.html">M923E</a>, <a href="M923F.html">M923F</a>, <a href="M923H.html">M923H</a>, <a href="M926.html">M926</a></li>
+<li><strong><a href="Project-Renaisance.html">Renaisance</a></strong> (1994, no job number) · modules <a href="M901BY.html">M901BY</a>, <a href="M901CY.html">M901CY</a></li>
+<li><em>first documented: <a href="M435.html">M435</a>, <a href="M719.html">M719</a>, <a href="M808B.html">M808B</a>, <a href="M808C.html">M808C</a>, <a href="M900.html">M900</a>, <a href="M901.html">M901</a>, <a href="M901A.html">M901A</a>, <a href="M901B.html">M901B</a>, <a href="M901BY.html">M901BY</a>, <a href="M901C.html">M901C</a>, <a href="M901CY.html">M901CY</a>, <a href="M901NW.html">M901NW</a>, <a href="M905A.html">M905A</a>, <a href="M905B.html">M905B</a>, <a href="M907.html">M907</a>, <a href="M908.html">M908</a>, <a href="M909.html">M909</a>, <a href="M920.html">M920</a>, <a href="M922.html">M922</a>, <a href="M923.html">M923</a>, <a href="M923A.html">M923A</a>, <a href="M923B.html">M923B</a>, <a href="M923C.html">M923C</a>, <a href="M923D.html">M923D</a>, <a href="M923E.html">M923E</a>, <a href="M923F.html">M923F</a>, <a href="M923H.html">M923H</a>, <a href="M924.html">M924</a>, <a href="M924A.html">M924A</a>, <a href="M926.html">M926</a>, <a href="M7880.html">M7880</a>, <a href="M7880DA.html">M7880DA</a>, <a href="M7880H.html">M7880H</a>, <a href="M7885A.html">M7885A</a>, <a href="M8201.html">M8201</a>, <a href="POD3.html">POD3</a>, <a href="POD7.html">POD7</a></em></li>
+</ul>
+<h3><a href="Year-1995.html">1995|28</a></h3>
+<ul>
+<li><strong><a href="Job-950006.html">950006</a></strong> — project · 1 drawings by BBS</li>
+<li><strong><a href="Job-950049.html">950049</a></strong> — project · 1 drawings</li>
+<li><strong><a href="Job-950069.html">950069</a></strong> — CBc Toronto Machine and Logo Control Panel · 2 drawings by <a href="Person-DRC.html">DRC</a>, <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-95012.html">95012</a></strong> — project · 2 drawings</li>
+<li><strong><a href="Job-950125.html">950125</a></strong> — project · 1 drawings</li>
+<li><strong><a href="Job-95014.html">95014</a></strong> — project · 3 drawings by <a href="Person-DRC.html">DRC</a>, <a href="Person-SM.html">SM</a></li>
+<li><strong><a href="Job-950144.html">950144</a></strong> — project · 2 drawings by <a href="Person-SM.html">SM</a></li>
+<li><strong><a href="Job-95015.html">95015</a></strong> — project · 1 drawings by <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-950177.html">950177</a></strong> — project · 2 drawings by <a href="Person-DRG.html">DRG</a>, MOD</li>
+<li><strong><a href="Job-950190.html">950190</a></strong> — project · 3 drawings by <a href="Person-DRC.html">DRC</a>, <a href="Person-SM.html">SM</a>, <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-95020.html">95020</a></strong> — project · 2 drawings by TCN, <a href="Person-DRC.html">DRC</a></li>
+<li><strong><a href="Job-950208.html">950208</a></strong> — project · 1 drawings by <a href="Person-DRC.html">DRC</a></li>
+<li><strong><a href="Job-95021.html">95021</a></strong> — project · 1 drawings by WR</li>
+<li><strong><a href="Job-950224.html">950224</a></strong> — project · 3 drawings by <a href="Person-WKW.html">WKW</a></li>
+<li><strong><a href="Job-950225.html">950225</a></strong> — project · 1 drawings by <a href="Person-WKW.html">WKW</a></li>
+<li><strong><a href="Job-950226.html">950226</a></strong> — project · 1 drawings by <a href="Person-WK.html">WK</a></li>
+<li><strong><a href="Job-95023.html">95023</a></strong> — CJAD · 2 drawings by <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-95024.html">95024</a></strong> — project · 2 drawings by <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-950250.html">950250</a></strong> — project · 2 drawings by <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-950271.html">950271</a></strong> — project · 10 drawings by <a href="Person-WKW.html">WKW</a>, <a href="Person-DRG.html">DRG</a>, MRT</li>
+<li><strong><a href="Job-950272.html">950272</a></strong> — TTC · 3 drawings by <a href="Person-MKW.html">MKW</a>, <a href="Person-WKW.html">WKW</a></li>
+<li><strong><a href="Job-950278.html">950278</a></strong> — project · 2 drawings by <a href="Person-DRG.html">DRG</a>, <a href="Person-WKW.html">WKW</a></li>
+<li><strong><a href="Job-95033.html">95033</a></strong> — project · 4 drawings by <a href="Person-DRG.html">DRG</a>, <a href="Person-CBC.html">CBC</a></li>
+<li><strong><a href="Job-950341.html">950341</a></strong> — project · 3 drawings by <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-950351.html">950351</a></strong> — project · modules <a href="M8201.html">M8201</a> · 2 drawings by <a href="Person-WKW.html">WKW</a></li>
+<li><strong><a href="Job-950361.html">950361</a></strong> — project · 1 drawings by <a href="Person-WKW.html">WKW</a></li>
+<li><strong><a href="Job-950362.html">950362</a></strong> — project · 4 drawings by <a href="Person-DRC.html">DRC</a></li>
+<li><strong><a href="Job-950382.html">950382</a></strong> — , TV-3 NETWORK SERVICES LTD. MINICOM COMMUNICATIONS SYSTEMS</li>
+<li><strong><a href="Job-950410.html">950410</a></strong> — , CBC MONTREAL CUSTOM UTILITY AMPLIFIER · 2 drawings</li>
+<li><em>first documented: <a href="D8212F.html">D8212F</a>, <a href="J8248Q.html">J8248Q</a>, <a href="M122.html">M122</a>, <a href="M150.html">M150</a>, <a href="M405M.html">M405M</a>, <a href="M522B.html">M522B</a>, <a href="M522C.html">M522C</a>, <a href="M559A.html">M559A</a>, <a href="M568N.html">M568N</a>, <a href="M568P.html">M568P</a>, <a href="M568Q.html">M568Q</a>, <a href="M703D.html">M703D</a>, <a href="M718.html">M718</a>, <a href="M718A.html">M718A</a>, <a href="M901D.html">M901D</a>, <a href="M7012C.html">M7012C</a>, <a href="M7880G.html">M7880G</a>, <a href="M7884.html">M7884</a>, <a href="M8202.html">M8202</a>, <a href="M8202A.html">M8202A</a>, <a href="M8204B.html">M8204B</a>, <a href="M8205.html">M8205</a>, <a href="M8205B.html">M8205B</a>, <a href="M8207.html">M8207</a>, <a href="M8208.html">M8208</a>, <a href="M8209A.html">M8209A</a>, <a href="POD1.html">POD1</a>, <a href="POD4.html">POD4</a>, <a href="POD5.html">POD5</a>, <a href="POD5A.html">POD5A</a>, <a href="POD5B.html">POD5B</a>, <a href="POD8.html">POD8</a>, <a href="POD9.html">POD9</a></em></li>
+</ul>
+<h3><a href="Year-1996.html">1996|29</a></h3>
+<ul>
+<li><strong><a href="Job-96002.html">96002</a></strong> — CFNY · modules <a href="M808C.html">M808C</a>, <a href="M8208.html">M8208</a> · 4 drawings by <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-96004.html">96004</a></strong> — project · 1 drawings</li>
+<li><strong><a href="Job-960077.html">960077</a></strong> — project · 7 drawings by <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-96010.html">96010</a></strong> — project · 2 drawings by <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-960121.html">960121</a></strong> — project</li>
+<li><strong><a href="Job-960134.html">960134</a></strong> — project · 2 drawings by <a href="Person-GEB.html">GEB (Gerry E. Bell)</a></li>
+<li><strong><a href="Job-960140.html">960140</a></strong> — project · 1 drawings by <a href="Person-SM.html">SM</a></li>
+<li><strong><a href="Job-960163.html">960163</a></strong> — CBC OTTAWA · 4 drawings by <a href="Person-DRG.html">DRG</a>, <a href="Person-DBS.html">DBS</a></li>
+<li><strong><a href="Job-96017.html">96017</a></strong> — project · 1 drawings by <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-96019.html">96019</a></strong> — project · 9 drawings by <a href="Person-DRG.html">DRG</a>, <a href="Person-DRC.html">DRC</a></li>
+<li><strong><a href="Job-960191.html">960191</a></strong> — project · 3 drawings by <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-960195.html">960195</a></strong> — CBC · 4 drawings by <a href="Person-DRC.html">DRC</a></li>
+<li><strong><a href="Job-960196.html">960196</a></strong> — project · modules <a href="M7885A.html">M7885A</a> · 1 drawings</li>
+<li><strong><a href="Job-960208.html">960208</a></strong> — project · 2 drawings by <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-960243.html">960243</a></strong> — project · 6 drawings by <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-960244.html">960244</a></strong> — project · 1 drawings by <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-960269.html">960269</a></strong> — CBC Engineering Utility Frame Project No</li>
+<li><strong><a href="Job-960296.html">960296</a></strong> — CBC REGINA · modules <a href="M702D.html">M702D</a>, <a href="M712B.html">M712B</a>, <a href="M924.html">M924</a>, <a href="M8201.html">M8201</a>, <a href="M8208.html">M8208</a> · 16 drawings by <a href="Person-DRG.html">DRG</a>, <a href="Person-DRC.html">DRC</a></li>
+<li><strong><a href="Job-960312.html">960312</a></strong> — project · 2 drawings by <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-960325.html">960325</a></strong> — , CBC EHQ CUSTOM IFB MATRIX SYSTEM · 3 drawings by <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-960366.html">960366</a></strong> — project · 1 drawings by <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-960525.html">960525</a></strong> — project · 1 drawings by <a href="Person-DRG.html">DRG</a></li>
+<li><em>first documented: <a href="M445.html">M445</a>, <a href="M701D.html">M701D</a>, <a href="M702D.html">M702D</a>, <a href="M802C.html">M802C</a>, <a href="M809C.html">M809C</a>, <a href="M921.html">M921</a></em></li>
+</ul>
+<h3><a href="Year-1997.html">1997|30</a></h3>
+<ul>
+<li><strong><a href="Job-970029.html">970029</a></strong> — , ONTARIO JOCKEY CLUB CUSTOM CONTROL PANEL · 2 drawings by <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-970042.html">970042</a></strong> — , TELEMEDIA CJRQ SUPPLEMENT MANUAL</li>
+<li><strong><a href="Job-970043.html">970043</a></strong> — , TELEMEDIA CFMG SUPPLEMENT MANUAL</li>
+<li><strong><a href="Job-970082.html">970082</a></strong> — , ENERGY 108-CING SUPPLEMENT MANUAL</li>
+<li><strong><a href="Job-970177.html">970177</a></strong> — CBC · 2 drawings by <a href="Person-DRG.html">DRG</a></li>
+<li><strong><a href="Job-970245.html">970245</a></strong> — project · 2 drawings by <a href="Person-DRG.html">DRG</a></li>
+<li><em>first documented: <a href="M702.html">M702</a>, <a href="M927.html">M927</a>, <a href="POD2.html">POD2</a>, <a href="POD6.html">POD6</a>, <a href="POD6B.html">POD6B</a>, <a href="POD6C.html">POD6C</a>, <a href="POD7A.html">POD7A</a>, <a href="POD7B.html">POD7B</a></em></li>
+</ul>
+<h3><a href="Year-1998.html">1998|31</a></h3>
+<ul>
+<li><strong><a href="Job-980023.html">980023</a></strong> — , CBC FREDERICTON 24X36 MINICOM INTERCOM SYSTEM</li>
+<li><strong><a href="Job-980032.html">980032</a></strong> — 12-channel-monitor-mixer</li>
+<li><strong><a href="Job-980387.html">980387</a></strong> — , CBC IQALUIT SUPPLEMENT MANUAL</li>
+<li><em>first documented: <a href="D8212E.html">D8212E</a>, <a href="MF8210.html">MF8210</a></em></li>
+</ul>
+<h3><a href="Year-1999.html">1999|32</a></h3>
+<ul>
+<li><strong><a href="Job-990001.html">990001</a></strong> — CBC Grand falls Custom Renissance MKII Stereo Audio ConsoleProject No</li>
+<li><strong><a href="Job-990053.html">990053</a></strong> — , CBC RANKIN INLET MATRIX TURRETS</li>
+<li><strong><a href="Job-990060.html">990060</a></strong> — CKQB FM Radio Custom Renaissance MKIII Suppliment Manual Project No</li>
+</ul>
+<h2>2000s</h2>
+<h3><a href="Year-2001.html">2001|34</a></h3>
+<ul>
+<li><strong><a href="Project-L1202A-Console.html">L1202A Console</a></strong> (2001, no job number)</li>
+<li><em>first documented: <a href="L1202A.html">L1202A</a></em></li>
+</ul>
+<h3><a href="Year-2008.html">2008|41</a></h3>
+<ul>
+<li><em>first documented: <a href="M606.html">M606</a>, <a href="M1022.html">M1022</a>, <a href="M1025.html">M1025</a>, <a href="M1026.html">M1026</a>, <a href="M2406.html">M2406</a>, <a href="M2484B.html">M2484B</a></em></li>
+</ul>
+<h2>2010s</h2>
+<h3><a href="Year-2013.html">2013|46</a></h3>
+<ul>
+<li><em>first documented: <a href="AMS4.html">AMS4</a>, <a href="AMS8-1A.html">AMS8-1A</a>, <a href="AMS8-1AA.html">AMS8-1AA</a>, <a href="AMS8-1AAE.html">AMS8-1AAE</a>, <a href="AMS8-1AAEM.html">AMS8-1AAEM</a>, <a href="AMS8-1AAM.html">AMS8-1AAM</a>, <a href="AMS8-1AE.html">AMS8-1AE</a>, <a href="AMS8-1AEM.html">AMS8-1AEM</a>, <a href="AMS8-1AM.html">AMS8-1AM</a>, <a href="AMS8-1CA.html">AMS8-1CA</a>, <a href="AMS8-1CAEM.html">AMS8-1CAEM</a>, <a href="AMS8-2A.html">AMS8-2A</a>, <a href="AMS8-2AA.html">AMS8-2AA</a>, <a href="AMS8-2AAE.html">AMS8-2AAE</a>, <a href="AMS8-2AAEM.html">AMS8-2AAEM</a>, <a href="AMS8-2AAM.html">AMS8-2AAM</a>, <a href="AMS8-2AE.html">AMS8-2AE</a>, <a href="AMS8-2AEM.html">AMS8-2AEM</a>, <a href="AMS8-2AM.html">AMS8-2AM</a>, <a href="AMS16.html">AMS16</a>, <a href="AMS16-2A.html">AMS16-2A</a>, <a href="AMS16-2AE.html">AMS16-2AE</a>, <a href="D6201A.html">D6201A</a>, <a href="D6202A.html">D6202A</a>, <a href="D8204B.html">D8204B</a>, <a href="M6203A.html">M6203A</a>, <a href="M6205A.html">M6205A</a>, <a href="MLC6A.html">MLC6A</a>, <a href="MLC8C.html">MLC8C</a>, <a href="MLC8D.html">MLC8D</a>, <a href="POD10.html">POD10</a>, <a href="POD12.html">POD12</a>, <a href="POD31.html">POD31</a>, <a href="POD32.html">POD32</a></em></li>
+</ul>
+<h3><a href="Year-2014.html">2014|47</a></h3>
+<ul>
+<li><em>first documented: <a href="32ME.html">32ME</a>, <a href="32ME-N.html">32ME-N</a>, <a href="AMS8-1.html">AMS8-1</a>, <a href="AMS8-1AN.html">AMS8-1AN</a>, <a href="AMS8-2.html">AMS8-2</a>, <a href="AMS16-2AM.html">AMS16-2AM</a>, <a href="AMX9A.html">AMX9A</a>, <a href="L2484.html">L2484</a>, <a href="M436L.html">M436L</a>, <a href="M806A.html">M806A</a>, <a href="microDriver.html">microDriver</a>, <a href="MP4.html">MP4</a>, <a href="POD3A.html">POD3A</a>, <a href="POD10A.html">POD10A</a>, <a href="POD11A.html">POD11A</a>, <a href="POD12A.html">POD12A</a>, <a href="POD13A.html">POD13A</a>, <a href="POD14A.html">POD14A</a>, <a href="POD14B.html">POD14B</a>, <a href="POD15A.html">POD15A</a>, <a href="POD16.html">POD16</a>, <a href="POD17.html">POD17</a>, <a href="POD18.html">POD18</a>, <a href="POD22.html">POD22</a>, <a href="POD22A.html">POD22A</a>, <a href="POD24.html">POD24</a>, <a href="POD25.html">POD25</a>, <a href="POD26.html">POD26</a>, <a href="POD27.html">POD27</a>, <a href="POD28.html">POD28</a>, <a href="POD29.html">POD29</a>, <a href="POD30.html">POD30</a>, <a href="SLM.html">SLM</a>, <a href="XTM4.html">XTM4</a></em></li>
+</ul>
+<h3><a href="Year-2015.html">2015|48</a></h3>
+<ul>
+<li><em>first documented: <a href="32ME-AES.html">32ME-AES</a>, <a href="AA6201A.html">AA6201A</a>, <a href="ABB1.html">ABB1</a>, <a href="ABS1.html">ABS1</a>, <a href="AIP8.html">AIP8</a>, <a href="AMS2.html">AMS2</a>, <a href="AMS8-1BA.html">AMS8-1BA</a>, <a href="AMX6.html">AMX6</a>, <a href="AV6201A.html">AV6201A</a>, <a href="AV6202A.html">AV6202A</a>, <a href="D6201B.html">D6201B</a>, <a href="D6202B.html">D6202B</a>, <a href="D6203A.html">D6203A</a>, <a href="D6204A.html">D6204A</a>, <a href="D6207A.html">D6207A</a>, <a href="D8201.html">D8201</a>, <a href="D8201A.html">D8201A</a>, <a href="D8202.html">D8202</a>, <a href="D8203.html">D8203</a>, <a href="D8204.html">D8204</a>, <a href="D8204A.html">D8204A</a>, <a href="D8204C.html">D8204C</a>, <a href="DMS1.html">DMS1</a>, <a href="M6202A.html">M6202A</a>, <a href="M6202AE.html">M6202AE</a>, <a href="M6203A-3G.html">M6203A-3G</a>, <a href="M6204A.html">M6204A</a>, <a href="M6205A-3G.html">M6205A-3G</a>, <a href="M8203.html">M8203</a>, <a href="M8245A.html">M8245A</a>, <a href="M8251.html">M8251</a>, <a href="MF8212.html">MF8212</a>, <a href="microAMP.html">microAMP</a>, <a href="microMATCH.html">microMATCH</a>, <a href="POD8A.html">POD8A</a>, <a href="POD34.html">POD34</a>, <a href="RA24.html">RA24</a>, <a href="VMS33.html">VMS33</a></em></li>
+</ul>
+<h3><a href="Year-2016.html">2016|49</a></h3>
+<ul>
+<li><em>first documented: <a href="AMS2-N.html">AMS2-N</a>, <a href="AMS4-1AA.html">AMS4-1AA</a></em></li>
+</ul>
+<h3><a href="Year-2017.html">2017|50</a></h3>
+<ul>
+<li><em>first documented: <a href="MLC8.html">MLC8</a>, <a href="MLC8-N.html">MLC8-N</a>, <a href="POD33.html">POD33</a>, <a href="preMO-A1.html">preMO-A1</a></em></li>
+</ul>
+<h3><a href="Year-2018.html">2018|51</a></h3>
+<ul>
+<li><em>first documented: <a href="AMS8-1CAM.html">AMS8-1CAM</a>, <a href="MLC8A.html">MLC8A</a></em></li>
+</ul>
+<h3><a href="Year-2019.html">2019|52</a></h3>
+<ul>
+<li><em>first documented: <a href="MLC8B.html">MLC8B</a></em></li>
+</ul>
+<h2>2020s</h2>
+<h3><a href="Year-2020.html">2020|53</a></h3>
+<ul>
+<li><em>first documented: <a href="M480A.html">M480A</a>, <a href="RTO-144.html">RTO-144</a></em></li>
+</ul>
+<h3><a href="Year-2021.html">2021|54</a></h3>
+<ul>
+<li><em>first documented: <a href="AMS222.html">AMS222</a>, <a href="preMO-221.html">preMO-221</a>, <a href="preMO-222.html">preMO-222</a></em></li>
+</ul>
+<h2>Not dated yet (0)</h2><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from Timeline.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

@@ -1,0 +1,59 @@
+# 1984 - ST - 14-107-02-002 - UPPER STEREO INPUT MODULES SCHEMA TIC.jpg
+Wiki page: [Consoles](../../../PAGES/Consoles.md)
+
+
+- **Year:** 1984 (inferred: project ST console mono and st schematics for back planes: the ST series (ST2442, its earliest dated model) (traced))
+- **Console:** ST console mono and st schematics for back planes
+- **Project:** ST console mono and st schematics for back planes
+- **Original file:** `WBSps.env/PUBLIC/Manuals + tech DOCUMENTS/Consoles/ST console mono and st schematics for back planes/B14-107-02-002.jpg`
+- **SHA-256:** `cc093cf7aa5c6d11cf00766fa0ba3d328cf864e59c31972d8cd9054e6870ff74`
+- **Size:** 8,082,292 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR)
+
+```text
+61*84 Ud 95" LI 0705 E 09 Xv Zf EL Xnt Ei 0571 3 62*01 4 8ns 1 Lz"8 ans 1 Sz" 3 Ez 2 ens
+ g 1 92 'Sz WOJ #Z'Cz 1 zz iZ Im 02'61 81*LL 1 7 "el 2 0 1 2i" 2 ! 01"6 7 9'5 1
+E3 8
+3
+8
+8
+E
+92'GZ Koj
+#U'Ez
+8
+CC' [c
+8
+0z'61
+3
+81'LL
+91'51 #I'cL 1] 2 2" 01"6 ] 8'L 9*5 3 +"0 92"'SZ NoJ +z'cz Z IZ 0z 61 81'LI 91"SL #["CL % Zi" 1 7 0"8
+I
+8
+0 e08 3
+3
+1
+3
+E
+92"S2 Noj
+E3 3
+9
+#U'cz
+Zz'[Z
+0z*61
+81*LL
+91"SL #IcL 1] 2 21"[ 1] 7 01"6 8' L 9"S j #"8
+J
+61'81 o1os Hd 9591 #C"'SL Xnv H E '8 2 Xnv 3 Of'LL Xnv 62 0L Xnv 82 6 4 ans [i E32 gns 5z*9 Fj 2 &ns {z* { ans Ti
+3
+88
+```
+
+## Contents (JSON)
+
+```json
+{"file":"Consoles/1980-1989/ST console mono and st schematics for back planes/1984 - ST - 14-107-02-002 - UPPER STEREO INPUT MODULES SCHEMA TIC.jpg","sha256":"cc093cf7aa5c6d11cf00766fa0ba3d328cf864e59c31972d8cd9054e6870ff74","kind":"console","models":["ST console mono and st schematics for back planes"],"year":1984,"pages":1,"order":[{"page":1,"title_block":[{"number":"14-107-02-002","type":"schematic","title":"Upper Stereo Input Modules Schema Tic","issue":"2"}],"text":["\" 8","an5 Xnv Xny ens 8n5 Xnv 0105","# HM","3 8 89 0 52*9 62*01 Iczi","288 88 883","3 8 8","3","91'51 0z'61 92\"5Z 01\"6 91*51 01*LL 2r 12 2i\" oici 81*LI 0<'64","174","7 1 1","7","1 1","g"]}],"drawing":{"svg":"_traces/cc093cf7aa5c6d11.svg","viewBox":[2000,1414],"rotate":270,"number":"14-107-02-002","title":"Upper Stereo Input Modules Schema Tic","dtype":"02","outlines":"see _traces/cc093cf7aa5c6d11.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/cc093cf7aa5c6d11.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")"}}
+```

@@ -1,0 +1,1338 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>PC</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>PC</h1>
+<p><a href="People.html">← People</a></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Initials</td>
+<td>PC</td>
+</tr>
+<tr>
+<td>Name</td>
+<td>unknown — add to timelines/people.json</td>
+</tr>
+<tr>
+<td>Note</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Drawings</td>
+<td>159</td>
+</tr>
+<tr>
+<td>Roles</td>
+<td>approved, checked, drawn, engineer</td>
+</tr>
+<tr>
+<td>Active (dated drawings)</td>
+<td>1973–1990</td>
+</tr>
+<tr>
+<td>Projects</td>
+<td><a href="Job-3642.html">3642</a>, <a href="Job-459.html">459</a>, <a href="Job-72032.html">72032</a>, <a href="Job-73050.html">73050</a>, <a href="Job-74097.html">74097</a>, <a href="Job-76036.html">76036</a>, <a href="Job-76045.html">76045</a>, <a href="Job-790236.html">790236</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Drawings</h2>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="People.html#drawing-staff">Drawn by</a></th>
+<th><a href="People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>73050-02-001</td>
+<td>Audio Console Iaput</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td><a href="Person-RC.html">RC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/73050%20-%20T1202/1973%20-%2073050%20-%2073050-02-001%20-%20LINE%20KEY%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>73050-02-001</td>
+<td>Audio Console Iaput</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/73050%20-%20T1202/1973%20-%2073050%20-%2073050-02-001%20-%20LINE%20KEY.jpg">file</a></td>
+</tr>
+<tr>
+<td>73050-02-004</td>
+<td>Mon Level Muting Rly</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/73050%20-%20T1202/1973%20-%2073050%20-%2012%20Channel%20Audio%20Mixing%20Console.pdf">file</a> p.15</td>
+</tr>
+<tr>
+<td>B 621-02-004</td>
+<td>OUTPUT TRANSFORMER CONNECTIONS (4 OHM / 16 OHM / 150 OHM; title block cut off at right)</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-BJ.html">BJ</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20621-02-004%20-%20OUTPUT%20TRANSFORMER%20CONNECTIONS%20%284%20OHM%2016%20OHM%20150%20OHM%3B%20title%20block%20cut%20-%20DRN%20BJ.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 621-02-004</td>
+<td>M621T OUTPUT TRANSFORMER CONNECTIONS</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-BJ.html">BJ</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1973%20-%20621-02-004%20-%20M621T%20OUTPUT%20TRANSFORMER%20CONNECTIONS%20-%20DRN%20BJ%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 72032-02-001</td>
+<td>TYPICAL INPUT SYSTEM / AUDIO SCHEMATIC</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/72032%20-%20Typical%20Input%20System%20Audio%20Schematic.jpg/1973%20-%2072032-02-001%20-%20TYPICAL%20INPUT%20SYSTEM%20AUDIO%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 73050-01-001</td>
+<td>AUDIO CONSOLE / FUNCTIONAL</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/73050%20-%20T1202/1973%20-%2073050-01-001%20-%20AUDIO%20CONSOLE%20FUNCTIONAL%20-%20DRN%20PC%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 73050-02-001</td>
+<td>AUDIO CONSOLE / INPUT &amp; OUTPUT / SCHEMATIC</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/73050%20-%20T1202/1973%20-%2073050-02-001%20-%20AUDIO%20CONSOLE%20INPUT%20%26%20OUTPUT%20SCHEMATIC%20-%20DRN%20PC%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 73050-02-002</td>
+<td>AUDIO CONSOLE / AUX/REV SCHEMATIC</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/73050%20-%20T1202/1973%20-%2073050-02-002%20-%20AUDIO%20CONSOLE%20AUX%20REV%20SCHEMATIC%20-%20DRN%20PC%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 73050-02-003</td>
+<td>AUDIO CONSOLE / FOLDBACK &amp; CUE-TALKBACK / SCHEMATICS</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/73050%20-%20T1202/1973%20-%2073050-02-003%20-%20AUDIO%20CONSOLE%20FOLDBACK%20%26%20CUE-TALKBACK%20SCHEMATICS%20-%20DRN%20PC%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 73050-02-004</td>
+<td>AUDIO CONSOLE / MONITOR SCHEMATIC</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/73050%20-%20T1202/1973%20-%2073050-02-004%20-%20AUDIO%20CONSOLE%20MONITOR%20SCHEMATIC%20-%20DRN%20PC%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 73050-02-006</td>
+<td>AUDIO CONSOLE / VU2 SEL SCHEMATIC</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/73050%20-%20T1202/1973%20-%2073050-02-006%20-%20AUDIO%20CONSOLE%20VU2%20SEL%20SCHEMATIC%20-%20DRN%20PC%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 73050-02-007</td>
+<td>AUDIO CONSOLE / POWER DISTRIBUTION</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/73050%20-%20T1202/1973%20-%2073050-02-007%20-%20AUDIO%20CONSOLE%20POWER%20DISTRIBUTION%20-%20DRN%20PC%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 73050-02-008</td>
+<td>AUDIO CONSOLE / TURRET SCHEMATIC</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/73050%20-%20T1202/1973%20-%2073050-02-008%20-%20AUDIO%20CONSOLE%20TURRET%20SCHEMATIC%20-%20DRN%20PC%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 73050-02-009</td>
+<td>AUDIO CONSOLE / DC CONTROL SCHEMATIC</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/73050%20-%20T1202/1973%20-%2073050-02-009%20-%20AUDIO%20CONSOLE%20DC%20CONTROL%20SCHEMATIC%20-%20DRN%20PC.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 73050-02-009</td>
+<td>AUDIO CONSOLE / DC CONTROL SCHEMATIC</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/73050%20-%20T1202/1973%20-%2073050-02-009%20-%20AUDIO%20CONSOLE%20DC%20CONTROL%20SCHEMATIC%20-%20DRN%20PC%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 741-02-002</td>
+<td>M741A / REGISTER MODULE / SCHEMATIC</td>
+<td><a href="Year-1973.html">1973|6</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M741/1973%20-%20741-02-002%20-%20M741A%20REGISTER%20MODULE%20SCHEMATIC%20-%20DRN%20PC.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 407-02-003</td>
+<td>M407 A / TURRET</td>
+<td><a href="Year-1974.html">1974|7</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M407/1974%20-%20407-02-003%20-%20A%20TURRET%20-%20DRN%20GEB%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 74097-02-004</td>
+<td>MONITOR SCHEMATIC</td>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/74097/1975%20-%2074097-02-004%20-%20MONITOR%20SCHEMATIC%20-%20DRN%20PC%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 74097-02-005</td>
+<td>POWER DISTRIBUTION</td>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/74097/1975%20-%2074097-02-005%20-%20POWER%20DISTRIBUTION%20-%20DRN%20PC.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 459-02-</td>
+<td>M459 EFFECTS SW... / MODULE SCH...</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20B%20459-02%20-%20EFFECTS%20SW...%20MODULE%20SCH%20-%20DRN%20GEB.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 459-02-</td>
+<td>M459 EFFECTS SW... / MODULE SCH...</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20B%20459-02%20-%20EFFECTS%20SW...%20MODULE%20SCH%20-%20DRN%20GEB%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 459-02-002</td>
+<td>M459A / EFFECTS SWITCHER / MODULE SCHEMATIC</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20459-02-002%20-%20M459A%20EFFECTS%20SWITCHER%20MODULE%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 459-02-002</td>
+<td>M459A / EFFECTS SWITCHER / MODULE SCHEMATIC</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20459-02-002%20-%20M459A%20EFFECTS%20SWITCHER%20MODULE%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%202%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 468-02-023</td>
+<td>M468K &amp; M468X / ASSIGN MODULE SCHEMATIC</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-PA.html">PA</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M468/1976%20-%20468-02-023%20-%20M468K%20%26%20M468X%20ASSIGN%20MODULE%20SCHEMATIC%20-%20DRN%20PA%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>B 468-02-025</td>
+<td>M468M / ASSIGN MODULE SCHEMATIC</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-PA.html">PA</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M468/1976%20-%20468-02-025%20-%20M468M%20ASSIGN%20MODULE%20SCHEMATIC%20-%20DRN%20PA%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 468-02-025</td>
+<td>M468M / ASSIGN MODULE SCHEMATIC</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-PA.html">PA</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M468/1976%20-%20468-02-025%20-%20M468M%20ASSIGN%20MODULE%20SCHEMATIC%20-%20DRN%20PA%20-%20ISS%201%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 468-02-025</td>
+<td>M468M ASSIGN MODULE SCHEMATIC</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-PA.html">PA</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M468/1976%20-%20468-02-025%20-%20M468M%20ASSIGN%20MODULE%20SCHEMATIC%20-%20DRN%20PA%20-%20ISS%201%20%283%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 468-02-027</td>
+<td>M468P / ASSIGN MODULE SCHEMATIC</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-PA.html">PA</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M468/1976%20-%20468-02-027%20-%20M468P%20ASSIGN%20MODULE%20SCHEMATIC%20-%20DRN%20PA%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 478-02-001</td>
+<td>M478A / 8x1 SWITCHER / SCHEMATIC</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-PA.html">PA</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M478/1976%20-%20478-02-001%20-%20M478A%208x1%20SWITCHER%20SCHEMATIC%20-%20DRN%20PA%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 478-02-001</td>
+<td>M478A / 8x1 SWITCHER / SCHEMATIC</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-PA.html">PA</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M478/1976%20-%20478-02-001%20-%20M478A%208x1%20SWITCHER%20SCHEMATIC%20-%20DRN%20PA%20-%20ISS%201%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 478-02-001</td>
+<td>M478A / 8x1 SWITCHER / SCHEMATIC</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-PA.html">PA</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M478/1976%20-%20478-02-001%20-%20M478A%208x1%20SWITCHER%20SCHEMATIC%20-%20DRN%20PA%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>B 749-02-002</td>
+<td>M749A / STATUS CONTROL AND / MEMORY CANCEL SCHEMATIC</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M749/1976%20-%20749-02-002%20-%20M749A%20STATUS%20CONTROL%20AND%20MEMORY%20CANCEL%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 76036-02-021</td>
+<td>M4-131X / RELAY MODULE SCHEMATIC</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td><a href="Person-PA.html">PA</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76036/1976%20-%2076036-02-021%20-%20M4-131X%20RELAY%20MODULE%20SCHEMATIC%20-%20DRN%20PA%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 459-02-002</td>
+<td>M459A / EFFECTS SWITCHER / MODULE SCHEMATIC</td>
+<td><a href="Year-1976.html">1976|9</a></td>
+<td></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M459/1976%20-%20459-02-002%20-%20M459A%20EFFECTS%20SWITCHER%20MODULE%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>76045-02-002</td>
+<td></td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%2076045-02-002%20-%20DRN%20ELJ.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 468-02-024</td>
+<td>M468L / ASSIGNMENT MODULE / SCHEMATIC</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-DB.html">DB</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M468/1977%20-%20468-02-024%20-%20M468L%20ASSIGNMENT%20MODULE%20SCHEMATIC%20-%20DRN%20DB%20-%20ENG%20PA%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>B 76045-</td>
+<td>INPUT ... / SCHE...</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1977%20-%20B%2076045%20-%20INPUT%20...%20SCHE%20-%20DRN%20ELJ.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 76045-</td>
+<td>CR ...</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1977%20-%20B%2076045%20-%20CR%20-%20DRN%20ELJ.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 76045-0</td>
+<td>INPUT C... / SCH...</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%20B%2076045-0%20-%20INPUT%20C...%20SCH%20-%20DRN%20ELJ.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 76045-0</td>
+<td>AUX C... / SCH...</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%20B%2076045-0%20-%20AUX%20C...%20SCH%20-%20DRN%20ELJ.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 76045-02-</td>
+<td>SUB CHA... / SCHEMAT...</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%20B%2076045-02%20-%20SUB%20CHA...%20SCHEMAT%20-%20DRN%20ELJ.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 76045-02-</td>
+<td>CR MON... / SCHEM...</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%20B%2076045-02%20-%20CR%20MON...%20SCHEM%20-%20DRN%20ELJ.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 76045-02-00</td>
+<td>STUDIO A MONITOR... / SCHEMATIC</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%20B%2076045-02-00%20-%20STUDIO%20A%20MONITOR...%20SCHEMATIC%20-%20DRN%20ELJ.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 76045-02-001</td>
+<td>INPUT CHANNEL (1-24) / SCHEMATIC</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%2076045-02-001%20-%20INPUT%20CHANNEL%20%281-24%29%20SCHEMATIC%20-%20DRN%20ELJ%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 76045-02-003</td>
+<td>SUB CHANNEL / SCHEMATIC</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%2076045-02-003%20-%20SUB%20CHANNEL%20SCHEMATIC%20-%20DRN%20ELJ%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 76045-02-004</td>
+<td>MASTER CHANNEL / SCHEMATIC</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%2076045-02-004%20-%20MASTER%20CHANNEL%20SCHEMATIC%20-%20DRN%20ELJ%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 76045-02-004</td>
+<td>MASTER CHANNEL / SCHEMATIC</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%2076045-02-004%20-%20MASTER%20CHANNEL%20SCHEMATIC%20-%20DRN%20ELJ%20-%20ISS%201%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 76045-02-005</td>
+<td>AUX CHANNEL / SCHEMATIC</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%2076045-02-005%20-%20AUX%20CHANNEL%20SCHEMATIC%20-%20DRN%20ELJ%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 76045-02-005</td>
+<td>AUX CHANNEL / SCHEMATIC</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%2076045-02-005%20-%20AUX%20CHANNEL%20SCHEMATIC%20-%20DRN%20ELJ%20-%20ISS%201%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 76045-02-006</td>
+<td>CR MONITOR #1 / SCHEMATIC</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%2076045-02-006%20-%20CR%20MONITOR%20">file</a></td>
+</tr>
+<tr>
+<td>B 76045-02-006</td>
+<td>CR MONITOR #1 / SCHEMATIC</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%2076045-02-006%20-%20CR%20MONITOR%20">file</a></td>
+</tr>
+<tr>
+<td>B 76045-02-007</td>
+<td>CR MONITOR #2 / SCHEMATIC</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%2076045-02-007%20-%20CR%20MONITOR%20">file</a></td>
+</tr>
+<tr>
+<td>B 76045-02-008</td>
+<td>STUDIO A MONITOR CHANNEL / SCHEMATIC</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%2076045-02-008%20-%20STUDIO%20A%20MONITOR%20CHANNEL%20SCHEMATIC%20-%20DRN%20ELJ%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 76045-02-009</td>
+<td>PFL/CUE, OSCILLATOR &amp; AUX PROCESSING MODULES, SCHEMATIC</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%2076045-02-009%20-%20PFL%20CUE%2C%20OSCILLATOR%20%26%20AUX%20PROCESSING%20MODULES%2C%20SCHEMATIC%20-%20DRN%20ELJ%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 76045-04-005</td>
+<td>PADBOARD #1 / LAYOUT</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%2076045-04-005%20-%20PADBOARD%20">file</a></td>
+</tr>
+<tr>
+<td>B 76045-04-006</td>
+<td>PADBOARD #2 / LAYOUT</td>
+<td><a href="Year-1977.html">1977|10</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/76045%20-%20CFTO/1977%20-%2076045-04-006%20-%20PADBOARD%20">file</a></td>
+</tr>
+<tr>
+<td>B 469-02-001</td>
+<td>M469A / ASSIGNMENT MODULE / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-P-MAHONEY.html">P MAHONEY</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M469/1978%20-%20469-02-001%20-%20M469A%20ASSIGNMENT%20MODULE%20SCHEMATIC%20-%20DRN%20P.%20Mahoney%20-%20ENG%20PC%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 469-02-002</td>
+<td>M469B / ASSIGNMENT MODULE / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-P-MAHONEY.html">P MAHONEY</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M469/1978%20-%20469-02-002%20-%20M469B%20ASSIGNMENT%20MODULE%20SCHEMATIC%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20PC%20-%20ISS%202.png">file</a></td>
+</tr>
+<tr>
+<td>B 469-02-003</td>
+<td>M469C / ASSIGNMENT MODULE / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-P-MAHONEY.html">P MAHONEY</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M469/1978%20-%20469-02-003%20-%20M469C%20ASSIGNMENT%20MODULE%20SCHEMATIC%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20PC%20-%20ISS%202.png">file</a></td>
+</tr>
+<tr>
+<td>D 790236-01-002</td>
+<td>L3242A / DC TALLY &amp; LOGIC / FUNCTIONAL &amp; WIRING DIAGRAM</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1978%20-%20790236-01-002%20-%20L3242A%20DC%20TALLY%20%26%20LOGIC%20FUNCTIONAL%20%26%20WIRING%20DIAGRAM%20-%20DRN%20ELJ%20-%20ENG%20ELJ%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>D 790236-01-002</td>
+<td>L3242A / DC TALLY &amp; LOGIC / FUNCTIONAL &amp; WIRING DIAGRAM</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-ELJ.html">ELJ (Eugene L. Johnson)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1978%20-%20790236-01-002%20-%20L3242A%20DC%20TALLY%20%26%20LOGIC%20FUNCTIONAL%20%26%20WIRING%20DIAGRAM%20-%20DRN%20ELJ%20-%20ENG%20ELJ%20-%20ISS%201%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 790236-02-006</td>
+<td>EFFECTS SWITCHER / SCHEMATIC</td>
+<td><a href="Year-1978.html">1978|11</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1978%20-%20790236-02-006%20-%20EFFECTS%20SWITCHER%20SCHEMATIC%20-%20DRN%20SRH%20-%20ENG%20SRH%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>790236-02-002</td>
+<td>Selector Meter Aux</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20790236-02-002%20-%20SELECTOR%20METER%20AUX.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 12001</td>
+<td>PENNY &amp; GILES / MONO ATTENUATOR / (WBS N 12001)</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-EH.html">EH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>5</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1979%20-%20B%2012001%20-%20PENNY%20%26%20GILES%20MONO%20ATTENUATOR%20%28WBS%20N%2012001%29%20-%20DRN%20EH%20-%20ISS%205.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 12001</td>
+<td>PENNY &amp; GILES / MONO ATTENUATOR / (WBS N 12001)</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-EH.html">EH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>5</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1979%20-%20B%2012001%20-%20PENNY%20%26%20GILES%20MONO%20ATTENUATOR%20%28WBS%20N%2012001%29%20-%20DRN%20EH%20-%20ISS%205%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 12001</td>
+<td>PENNY &amp; GILES FADER / SCHEMATIC AND LAYOUT</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-EH.html">EH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>5</td>
+<td><a href="../viewer.html?f=Consoles/Models/L1202A/1979%20-%20B%2012001%20-%20PENNY%20%26%20GILES%20FADER%20SCHEMATIC%20AND%20LAYOUT%20-%20DRN%20EH%20-%20ISS%205.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 12001</td>
+<td>PENNY &amp; GILES FADER / SCHEMATIC AND LAYOUT</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-EH.html">EH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>5</td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1979%20-%20B%2012001%20-%20PENNY%20%26%20GILES%20FADER%20SCHEMATIC%20AND%20LAYOUT%20-%20DRN%20EH%20-%20ISS%205.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 790...</td>
+<td>8X1 LINE ...</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=PHOTOS/Drawings/1979%20-%20B%20790%20-%208X1%20LINE%20-%20DRN%20SRH.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 790236-02-0</td>
+<td>L3242A CON... / 8X1 LINE SELECTORS &amp; A... / SCHEMA...</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20B%20790236-02-0%20-%20L3242A%20CON...%208X1%20LINE%20SELECTORS%20%26%20A...%20SCHEMA%20-%20DRN%20SRH.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 790236-02-0</td>
+<td>L3242A CON... / 8X1 LINE SELECTORS &amp; A... / SCHEMA...</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20B%20790236-02-0%20-%20L3242A%20CON...%208X1%20LINE%20SELECTORS%20%26%20A...%20SCHEMA%20-%20DRN%20SRH%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 790236-02-00</td>
+<td>L3242A CONS... / TALKBACK, OSCILLATOR... / SCHEMAT...</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20B%20790236-02-00%20-%20L3242A%20CONS...%20TALKBACK%2C%20OSCILLATOR...%20SCHEMAT%20-%20DRN%20SRH.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 790236-02-00</td>
+<td>L3242A CONS... / TALKBACK, OSCILLATOR... / SCHEMAT...</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20B%20790236-02-00%20-%20L3242A%20CONS...%20TALKBACK%2C%20OSCILLATOR...%20SCHEMAT%20-%20DRN%20SRH%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 790236-02-001</td>
+<td>L3242A CONSOLE / INPUT, SUB &amp; MASTER CHANNELS / SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236-02-001%20-%20L3242A%20CONSOLE%20INPUT%2C%20SUB%20%26%20MASTER%20CHANNELS%20SCHEMATIC%20-%20DRN%20SRH%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 790236-02-001</td>
+<td>L3242A CONSOLE / INPUT, SUB &amp; MASTER CHANNELS / SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236-02-001%20-%20L3242A%20CONSOLE%20INPUT%2C%20SUB%20%26%20MASTER%20CHANNELS%20SCHEMATIC%20-%20DRN%20SRH%20-%20ISS%202%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 790236-02-002</td>
+<td>L3242A CONSO... / AUXILIARY CHANNELS &amp; ... / SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236-02-002%20-%20L3242A%20CONSO...%20AUXILIARY%20CHANNELS%20%26%20...%20SCHEMATIC%20-%20DRN%20SRH.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 790236-02-002</td>
+<td>L3242A CONSO... / AUXILIARY CHANNELS &amp; ... / SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236-02-002%20-%20L3242A%20CONSO...%20AUXILIARY%20CHANNELS%20%26%20...%20SCHEMATIC%20-%20DRN%20SRH%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 790236-02-002</td>
+<td>L3242A CONSOLE / AUXILIARY CHANNELS &amp; METER / SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236-02-002%20-%20L3242A%20CONSOLE%20AUXILIARY%20CHANNELS%20%26%20METER%20SCHEMATIC%20-%20DRN%20SRH%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 790236-02-002</td>
+<td>L3242A CONSOLE / AUXILIARY CHANNELS &amp; METER / SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236-02-002%20-%20L3242A%20CONSOLE%20AUXILIARY%20CHANNELS%20%26%20METER%20SCHEMATIC%20-%20DRN%20SRH%20-%20ISS%202%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 790236-02-003</td>
+<td>L3242A CONSOLE / MONITOR CHANNELS / SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236-02-003%20-%20L3242A%20CONSOLE%20MONITOR%20CHANNELS%20SCHEMATIC%20-%20DRN%20SRH%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 790236-02-003</td>
+<td>L3242A CONSOLE / MONITOR CHANNELS / SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236-02-003%20-%20L3242A%20CONSOLE%20MONITOR%20CHANNELS%20SCHEMATIC%20-%20DRN%20SRH.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 790236-02-003</td>
+<td>L3242A CONSOL... / MONITOR CHANN... / SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236-02-003%20-%20L3242A%20CONSOL...%20MONITOR%20CHANN...%20SCHEMATIC%20-%20DRN%20SRH.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 790236-02-003</td>
+<td>L3242A CONSOLE / MONITOR CHANNELS / SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236-02-003%20-%20L3242A%20CONSOLE%20MONITOR%20CHANNELS%20SCHEMATIC%20-%20DRN%20SRH%20-%20ISS%201%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 790236-02-007</td>
+<td>TIMER CONTROL SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236-02-007%20-%20TIMER%20CONTROL%20SCHEMATIC%20-%20DRN%20SRH%20-%20ENG%20SRH%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 790236-02-007</td>
+<td>TIMER CONTROL SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236-02-007%20-%20TIMER%20CONTROL%20SCHEMATIC%20-%20DRN%20SRH%20-%20ENG%20SRH%20-%20ISS%201%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 790236-02-015</td>
+<td>AKG REVERB CONTROLS / SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236-02-015%20-%20AKG%20REVERB%20CONTROLS%20SCHEMATIC%20-%20DRN%20SRH%20-%20ENG%20SRH%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 790236-02-015</td>
+<td>AKG REVERB CONTROLS / SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236-02-015%20-%20AKG%20REVERB%20CONTROLS%20SCHEMATIC%20-%20DRN%20SRH%20-%20ENG%20SRH%20-%20ISS%201%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>D 790236-02-014</td>
+<td>L3242A CONSOLE / POWER DISTRIBUTION / SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236-02-014%20-%20L3242A%20CONSOLE%20POWER%20DISTRIBUTION%20SCHEMATIC%20-%20DRN%20SRH%20-%20ENG%20SRH%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>D 790236-02-014</td>
+<td>L3242A CONSOLE / POWER DISTRIBUTION / SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236-02-014%20-%20L3242A%20CONSOLE%20POWER%20DISTRIBUTION%20SCHEMATIC%20-%20DRN%20SRH%20-%20ENG%20SRH%20-%20ISS%201%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 624-02-001</td>
+<td>24V POWER SUPPLY / SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/POWER/M624/1979%20-%20624-02-001%20-%2024V%20POWER%20SUPPLY%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 790236-02-</td>
+<td>EFFECTS S... / SCHEMA...</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20LB%20790236-02%20-%20EFFECTS%20S...%20SCHEMA%20-%20DRN%20SRH%20-%20ENG%20SRH%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 790236-02-</td>
+<td>EFFECTS S... / SCHEMA...</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20LB%20790236-02%20-%20EFFECTS%20S...%20SCHEMA%20-%20DRN%20SRH%20-%20ENG%20SRH%20-%20ISS%202%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 790236-02-0</td>
+<td>MOTION CONT... / SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20LB%20790236-02-0%20-%20MOTION%20CONT...%20SCHEMATIC%20-%20DRN%20SRH%20-%20ENG%20SRH.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 790236-02-0</td>
+<td>MOTION CONT... / SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20LB%20790236-02-0%20-%20MOTION%20CONT...%20SCHEMATIC%20-%20DRN%20SRH%20-%20ENG%20SRH%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 790236-02-006</td>
+<td>EFFECTS SWITCHER / SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236-02-006%20-%20EFFECTS%20SWITCHER%20SCHEMATIC%20-%20DRN%20SRH%20-%20ENG%20SRH%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 790236-02-006</td>
+<td>EFFECTS SWITCHER / SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236-02-006%20-%20EFFECTS%20SWITCHER%20SCHEMATIC%20-%20DRN%20SRH%20-%20ENG%20SRH%20-%20ISS%202%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 790236-02-006</td>
+<td>EFFECTS SWITCHER / SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236-02-006%20-%20EFFECTS%20SWITCHER%20SCHEMATIC%20-%20DRN%20SRH%20-%20ENG%20SRH%20-%20ISS%202%20%283%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 790236-02-008</td>
+<td>JACKFIELD ROW F / SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236-02-008%20-%20JACKFIELD%20ROW%20F%20SCHEMATIC%20-%20DRN%20SRH%20-%20ENG%20SRH%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 790236-02-009</td>
+<td>JACKFIELD ROW G / SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236-02-009%20-%20JACKFIELD%20ROW%20G%20SCHEMATIC%20-%20DRN%20SRH%20-%20ENG%20SRH%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 790236-02-010</td>
+<td>JACKFIELD ROW H / SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236-02-010%20-%20JACKFIELD%20ROW%20H%20SCHEMATIC%20-%20DRN%20SRH%20-%20ENG%20SRH%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 790236-02-012</td>
+<td>JACKFIELD ROW K / SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236-02-012%20-%20JACKFIELD%20ROW%20K%20SCHEMATIC%20-%20DRN%20SRH%20-%20ENG%20SRH%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 790236-02-012</td>
+<td>JACKFIELD ROW K / SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236-02-012%20-%20JACKFIELD%20ROW%20K%20SCHEMATIC%20-%20DRN%20SRH%20-%20ENG%20SRH%20-%20ISS%201%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>LB 790236-02-013</td>
+<td>MOTION CONTROL / SCHEMATIC</td>
+<td><a href="Year-1979.html">1979|12</a></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236-02-013%20-%20MOTION%20CONTROL%20SCHEMATIC%20-%20DRN%20SRH%20-%20ENG%20SRH%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 405-03-035</td>
+<td>ATTENUATOR MOUNTING PLATE</td>
+<td><a href="Year-1982.html">1982|15</a></td>
+<td></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/METER/M405/1982%20-%20405-03-035%20-%20ATTENUATOR%20MOUNTING%20PLATE%20-%20DRN%20DRG%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 465-02-003</td>
+<td>M465B REVERB MODULE / SCHEMATIC</td>
+<td><a href="Year-1982.html">1982|15</a></td>
+<td>JEI</td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M465/1982%20-%20465-02-003%20-%20M465B%20REVERB%20MODULE%20SCHEMATIC%20-%20DRN%20JEI%20-%20ENG%20PA%20-%20ISS%202.png">file</a></td>
+</tr>
+<tr>
+<td>B 471-01-002</td>
+<td>M471A / STEREO INPUT MODULE / FUNCTIONAL DIAGRAM</td>
+<td><a href="Year-1982.html">1982|15</a></td>
+<td><a href="Person-DN.html">DN</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471/1982%20-%20471-01-002%20-%20M471A%20STEREO%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20D.N.-82%20-%20ENG%20PC%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 471-04-007</td>
+<td>M471A / STEREO INPUT MODULE / ASSEMBLY</td>
+<td><a href="Year-1982.html">1982|15</a></td>
+<td></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471/1982%20-%20471-04-007%20-%20M471A%20STEREO%20INPUT%20MODULE%20ASSEMBLY%20-%20DRN%20DN%20-%20ENG%20PC%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 490-01-009</td>
+<td>M490H / LINE INPUT MODULE / FUNCTIONAL DIAGRAM</td>
+<td><a href="Year-1982.html">1982|15</a></td>
+<td><a href="Person-PA.html">PA</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490/1982%20-%20490-01-009%20-%20M490H%20LINE%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 490-02-008</td>
+<td>M490G / MIC INPUT MODULE / SCHEMATIC</td>
+<td><a href="Year-1982.html">1982|15</a></td>
+<td><a href="Person-PA.html">PA</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M490/1982%20-%20490-02-008%20-%20M490G%20MIC%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>D 465-02-003</td>
+<td>M465B / REVERB MODULE / SCHEMATIC</td>
+<td><a href="Year-1982.html">1982|15</a></td>
+<td></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M465/1982%20-%20465-02-003%20-%20M465B%20REVERB%20MODULE%20SCHEMATIC%20-%20DRN%20JET%20-%20ENG%20PA%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 405-02-012</td>
+<td>M405E / DUAL MONITOR UNIT</td>
+<td><a href="Year-1983.html">1983|16</a></td>
+<td></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/METER/M405/1983%20-%20405-02-012%20-%20M405E%20DUAL%20MONITOR%20UNIT%20-%20DRN%20VK%20-%20ENG%20VK%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 452-02-002</td>
+<td>M452 / OSCILLATOR MODULE / SCHEMATIC</td>
+<td><a href="Year-1984.html">1984|17</a></td>
+<td></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M452/1984%20-%20452-02-002%20-%20OSCILLATOR%20MODULE%20SCHEMATIC%20-%20CKD%20PC%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>B 473-02-003</td>
+<td>M473B / STEREO SUBMASTER MODULE / SCHEMATIC</td>
+<td><a href="Year-1984.html">1984|17</a></td>
+<td><a href="Person-JP.html">JP</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M473/1984%20-%20473-02-003%20-%20M473B%20STEREO%20SUBMASTER%20MODULE%20SCHEMATIC%20-%20DRN%20JP%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 460-03-032</td>
+<td>SWITCH MTG. SPLINT BRKT</td>
+<td><a href="Year-1985.html">1985|18</a></td>
+<td></td>
+<td>S JUN</td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M460/1985%20-%20460-03-032%20-%20SWITCH%20MTG.%20SPLINT%20BRKT%20-%20DRN%20DRG%20-%20ENG%20PA%20-%20ISS%202.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 468-02-120</td>
+<td>M468AY / REVERB ASSIGN MODULE / SCHEMATIC</td>
+<td><a href="Year-1985.html">1985|18</a></td>
+<td></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M468/1985%20-%20468-02-120%20-%20M468AY%20REVERB%20ASSIGN%20MODULE%20SCHEMATIC%20-%20DRN%20AV%20handwritten%2C%20unclear%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 469-03-007</td>
+<td>M469G ESCUTCHEON</td>
+<td><a href="Year-1985.html">1985|18</a></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M469/1985%20-%20469-03-007%20-%20M469G%20ESCUTCHEON%20-%20DRN%20DRG%20-%20ENG%20PA%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>B 471-02-001</td>
+<td>M471 / STEREO INPUT MODULE / SCHEMATIC</td>
+<td><a href="Year-1985.html">1985|18</a></td>
+<td></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M471/1985%20-%20471-02-001%20-%20STEREO%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20JEI%20-%20ENG%20PC%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 605-02-006</td>
+<td>M605A / AUDIO DISTRIBUTION AMPLIFIER / UNBALANCED OPERATION / INTERCONNECT DIAGRAM</td>
+<td><a href="Year-1985.html">1985|18</a></td>
+<td><a href="Person-JP.html">JP</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M605/1985%20-%20605-02-006%20-%20M605A%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20UNBALANCED%20OPERATION%20INTERCONNECT%20D%20-%20DRN%20JP%20-%20ENG%20SCHUBERT%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>B 468-02-121</td>
+<td>M468BB / REVERB ASSIGN MODULE / SCHEMATIC</td>
+<td><a href="Year-1986.html">1986|19</a></td>
+<td><a href="Person-HM.html">HM</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M468/1986%20-%20468-02-121%20-%20M468BB%20REVERB%20ASSIGN%20MODULE%20SCHEMATIC%20-%20DRN%20HM%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 469-02-011</td>
+<td>M469N / ASSIGNMENT MODULE / SCHEMATIC</td>
+<td><a href="Year-1986.html">1986|19</a></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M469/1986%20-%20469-02-011%20-%20M469N%20ASSIGNMENT%20MODULE%20SCHEMATIC%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>D 3642-02-010</td>
+<td>M611 / POWER SUPPLIES / SCHEMATIC</td>
+<td><a href="Year-1988.html">1988|21</a></td>
+<td><a href="Person-DS.html">DS</a></td>
+<td></td>
+<td>4</td>
+<td><a href="../viewer.html?f=Modules/POWER/M611/1988%20-%203642-02-010%20-%20POWER%20SUPPLIES%20SCHEMATIC%20-%20DRN%20DS%20-%20ENG%20PA%20-%20ISS%204.jpg">file</a></td>
+</tr>
+<tr>
+<td>D 3642-02-010</td>
+<td>M611 / POWER SUPPLIES / SCHEMATIC</td>
+<td><a href="Year-1988.html">1988|21</a></td>
+<td><a href="Person-DS.html">DS</a></td>
+<td></td>
+<td>4</td>
+<td><a href="../viewer.html?f=Modules/POWER/M611/1988%20-%203642-02-010%20-%20POWER%20SUPPLIES%20SCHEMATIC%20-%20DRN%20DS%20-%20ENG%20PA%20-%20ISS%204%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>D 3642-02-011</td>
+<td>M625B / POWER SUPPLIES / SCHEMATIC</td>
+<td><a href="Year-1988.html">1988|21</a></td>
+<td><a href="Person-DS.html">DS</a></td>
+<td></td>
+<td>6</td>
+<td><a href="../viewer.html?f=Modules/POWER/M625B/1988%20-%203642-02-011%20-%20POWER%20SUPPLIES%20SCHEMATIC%20-%20DRN%20DS%20-%20ISS%206.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 468-02-123</td>
+<td>M468MA / ASSIGN MODULE SCHEMATIC</td>
+<td><a href="Year-1990.html">1990|23</a></td>
+<td><a href="Person-PA.html">PA</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M468/1990%20-%20468-02-123%20-%20M468MA%20ASSIGN%20MODULE%20SCHEMATIC%20-%20DRN%20PA%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Jackfield Row</td>
+<td></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20790236-02-010%20-%20CONSOLE%20INPUT%20CHANNELS.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>Jackfield Schema</td>
+<td></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20790236-02-010.jpg">file</a></td>
+</tr>
+<tr>
+<td>13050-02-003</td>
+<td>Scne Audio Console Foldback Cue-Talkback Schematics</td>
+<td></td>
+<td></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/73050%20-%20T1202/1973%20-%2073050%20-%2013050-02-003%20-%20WAAD-BECK%20EYATEMB%20LTO%20AUOIO%20COHSOLE%20FOLDBACK%20DAIESEZI%20FOLDBACK.tif">file</a></td>
+</tr>
+<tr>
+<td>13050-02-003</td>
+<td>Scne Audio Console Foldback Cue-Talkback Schematics</td>
+<td></td>
+<td></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/73050%20-%20T1202/1973%20-%2073050%20-%2013050-02-003%20-%20WAAD-BECK%20EYATEMB%20LTO%20AUOIO%20COHSOLE%20FOLDBACK%20DAIESEZI%20FOLDBACK.jpeg">file</a></td>
+</tr>
+<tr>
+<td>73050-02-003</td>
+<td>Audio Cdnsole Foldback Cue-Talkback Schematcs</td>
+<td></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/73050%20-%20T1202/1973%20-%2073050%20-%2012%20Channel%20Audio%20Mixing%20Console.pdf">file</a> p.14</td>
+</tr>
+<tr>
+<td>790236-01-002</td>
+<td>Wiring Diagram</td>
+<td></td>
+<td></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20790236-01-002%20-%20WIRING%20DIAGRAM.jpg">file</a></td>
+</tr>
+<tr>
+<td>790236-02-010</td>
+<td></td>
+<td></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20790236-02-010.jpg">file</a></td>
+</tr>
+<tr>
+<td>790236-02-010</td>
+<td>Console Input Channels</td>
+<td></td>
+<td></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20790236-02-010%20-%20CONSOLE%20INPUT%20CHANNELS.jpg">file</a></td>
+</tr>
+<tr>
+<td>790236-02-010</td>
+<td>Jackfield Row</td>
+<td></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20790236-02-010%20-%20JACKFIELD%20ROW.jpg">file</a></td>
+</tr>
+<tr>
+<td>790236-02-012</td>
+<td>Ine Output Eng</td>
+<td></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20790236-02-012%20-%20INE%20OUTPUT%20ENG.jpg">file</a></td>
+</tr>
+<tr>
+<td>790236-04-017</td>
+<td>Rear View Showing Comaonent</td>
+<td></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20790236-04-017%20-%20REAR%20VIEW%20SHOWING%20COMAONENT.jpg">file</a></td>
+</tr>
+<tr>
+<td>790236-04-017</td>
+<td>Console Rear View Shbwing Comanent Layout</td>
+<td></td>
+<td><a href="Person-SRH.html">SRH</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1970-1979/790236%20-%20Maryland%20L3242A/1979%20-%20790236%20-%20790236-04-017%20-%20REAR%20VIEW%20SHOWING%20COMAONENT.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 478-02-006</td>
+<td>M478E / 4X1 MONO SWITCHER MODULE / SCHEMATIC</td>
+<td></td>
+<td><a href="Person-PA.html">PA</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M478/19xx%20-%20478-02-006%20-%20M478E%204X1%20MONO%20SWITCHER%20MODULE%20SCHEMATIC%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 478-02-007</td>
+<td>M478F / 8X1 MONO SWITCHER MODULE / SCHEMATIC</td>
+<td></td>
+<td><a href="Person-PA.html">PA</a></td>
+<td><a href="Person-PC.html">PC</a></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/M478/19xx%20-%20478-02-007%20-%20M478F%208X1%20MONO%20SWITCHER%20MODULE%20SCHEMATIC%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201.jpg">file</a></td>
+</tr>
+</tbody>
+</table><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from Person-PC.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

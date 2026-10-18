@@ -1,0 +1,36 @@
+# 1972 - M463J - 463-01-009 - FRE TAOC INPUT PAN INSERT FADER.jpg
+Wiki page: [M463J](../../../PAGES/M463J.md)
+
+
+- **Year:** 1972 (module estimate (family))
+- **Module:** M463J
+- **Category:** SUMMING
+- **Module year estimate:** 1972 — family from M463
+- **Original file:** `WBSps.env/wbsps - website ARCHIVE/WBSPS 2008/RAW SCANS/To Be edited/M463J - Submaster Module/M463J - P018 - B463-01-009 L.jpg`
+- **SHA-256:** `ac42136a941be305544d4d1d1738beacbdd45639156b7c3d6fbcbdd121c3c810`
+- **Size:** 2,045,931 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR)
+
+```text
+PAN INSERT
+FADER (~15dB)
+SUMMING BUS INPUT
+SUM
+/8*109A 
+8.109F
+(-18dB)
+Coi COb PRE/Post
+PRE Post
+PRE Post
+PRE FADE InPUt
+```
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/SUMMING/M463J/1972 - M463J - 463-01-009 - FRE TAOC INPUT PAN INSERT FADER.jpg","sha256":"ac42136a941be305544d4d1d1738beacbdd45639156b7c3d6fbcbdd121c3c810","kind":"module","models":["M463J"],"year":1972,"pages":1,"order":[{"page":1,"title_block":[{"number":"463-01-009","type":"functional / block diagram","title":"Fre Taoc Input Pan Insert Fader"}],"text":["PAN INSERT","SUMMING FADER","BUS SUM {8 109A_ (~15dB) (8-109F_","INPUT","(-18dB)","PRE/Post","PRE /POST","PRE/PosT","PRE FADE","INPUT"]}],"drawing":{"svg":"_traces/ac42136a941be305.svg","viewBox":[1554,2000],"rotate":0,"number":"463-01-009","title":"Fre Taoc Input Pan Insert Fader","dtype":"01","outlines":"see _traces/ac42136a941be305.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/ac42136a941be305.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","blocks":[[1248,314,271,116],[1336,1254,181,93]],"words":[[1343,295,"PAN"],[1413,295,"INSERT"],[12,420,"SUMMING"],[760,407,"FADER"],[43,448,"BUS"],[310,445,"SUM"],[490,445,"{8 109A_"],[748,445,"(~15dB)"],[1010,445,"(8-109F_"],[30,478,"INPUT"],[1348,535,"(-18dB)"],[1353,870,"PRE/Post"],[1353,1052,"PRE /POST"],[1353,1238,"PRE/PosT"],[709,1256,"PRE"],[780,1258,"FADE"],[733,1288,"INPUT"]]}}
+```

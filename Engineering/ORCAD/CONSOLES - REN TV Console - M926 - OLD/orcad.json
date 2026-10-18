@@ -1,0 +1,2654 @@
+{
+ "name": "CONSOLES/REN TV Console/M926/OLD",
+ "folder": "CONSOLES - REN TV Console - M926 - OLD",
+ "source": "WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - CONSOLES/REN TV Console/M926/OLD",
+ "title": "Revised: January 31, 1996",
+ "number": "",
+ "date": "",
+ "sheets": [],
+ "netlists": [
+  {
+   "header": [
+    "                                              Revised: January 31, 1996",
+    "C:\\ORCADWIN\\CAD\\FADER.DSN                     Revision:",
+    ""
+   ],
+   "parts": [
+    {
+     "ref": "C1",
+     "footprint": "CAP.1",
+     "value": "0.1"
+    },
+    {
+     "ref": "C10",
+     "footprint": "TANTA.1",
+     "value": "1/35"
+    },
+    {
+     "ref": "C11",
+     "footprint": "TANTA.1",
+     "value": "1/35"
+    },
+    {
+     "ref": "C12",
+     "footprint": "RAD.15",
+     "value": "47/50"
+    },
+    {
+     "ref": "C13",
+     "footprint": "CAP.1",
+     "value": "0.1"
+    },
+    {
+     "ref": "C14",
+     "footprint": "RAD.15",
+     "value": "47/50"
+    },
+    {
+     "ref": "C15",
+     "footprint": "RAD.15",
+     "value": "47/50"
+    },
+    {
+     "ref": "C16",
+     "footprint": "CAP.1",
+     "value": "0.1"
+    },
+    {
+     "ref": "C17",
+     "footprint": "CAP.2",
+     "value": "0.33"
+    },
+    {
+     "ref": "C18",
+     "footprint": "CAP.1",
+     "value": "0.1"
+    },
+    {
+     "ref": "C19",
+     "footprint": "TANTA.1",
+     "value": "1/35"
+    },
+    {
+     "ref": "C2",
+     "footprint": "CAP.1",
+     "value": "0.1"
+    },
+    {
+     "ref": "C20",
+     "footprint": "CAP.1",
+     "value": "0.1"
+    },
+    {
+     "ref": "C21",
+     "footprint": "CAP.1",
+     "value": "0.1"
+    },
+    {
+     "ref": "C22",
+     "footprint": "TANTA.1",
+     "value": "1/35"
+    },
+    {
+     "ref": "C23",
+     "footprint": "CAP.2",
+     "value": "SOT"
+    },
+    {
+     "ref": "C3",
+     "footprint": "CAP.1",
+     "value": "0.1"
+    },
+    {
+     "ref": "C4",
+     "footprint": "CAP.1",
+     "value": "0.1"
+    },
+    {
+     "ref": "C5",
+     "footprint": "CAP.1",
+     "value": "0.1"
+    },
+    {
+     "ref": "C6",
+     "footprint": "CAP.2",
+     "value": "22P"
+    },
+    {
+     "ref": "C7",
+     "footprint": "CAP.1",
+     "value": "0.1"
+    },
+    {
+     "ref": "C8",
+     "footprint": "CAP.1",
+     "value": "0.1"
+    },
+    {
+     "ref": "C9",
+     "footprint": "CAP.1",
+     "value": "0.1"
+    },
+    {
+     "ref": "D1",
+     "footprint": "DO-35",
+     "value": "1N4148"
+    },
+    {
+     "ref": "D10",
+     "footprint": "DO-35",
+     "value": "1N4148"
+    },
+    {
+     "ref": "D11",
+     "footprint": "DO-35",
+     "value": "1N4148"
+    },
+    {
+     "ref": "D12",
+     "footprint": "DO-35",
+     "value": "1N4148"
+    },
+    {
+     "ref": "D13",
+     "footprint": "DO-43",
+     "value": "1N4003"
+    },
+    {
+     "ref": "D14",
+     "footprint": "DO-43",
+     "value": "1N4003"
+    },
+    {
+     "ref": "D15",
+     "footprint": "DO-35",
+     "value": "1N4148"
+    },
+    {
+     "ref": "D2",
+     "footprint": "DO-35",
+     "value": "1N4148"
+    },
+    {
+     "ref": "D3",
+     "footprint": "DO-35",
+     "value": "1N4148"
+    },
+    {
+     "ref": "D4",
+     "footprint": "DO-35",
+     "value": "1N4148"
+    },
+    {
+     "ref": "D5",
+     "footprint": "DO-35",
+     "value": "1N4148"
+    },
+    {
+     "ref": "D6",
+     "footprint": "DO-43",
+     "value": "1N4003"
+    },
+    {
+     "ref": "D7",
+     "footprint": "DO-35",
+     "value": "1N4148"
+    },
+    {
+     "ref": "D8",
+     "footprint": "DO-35",
+     "value": "1N4148"
+    },
+    {
+     "ref": "D9",
+     "footprint": "DO-35",
+     "value": "1N4148"
+    },
+    {
+     "ref": "LK1",
+     "footprint": "LINK2",
+     "value": "JUMPER"
+    },
+    {
+     "ref": "P1",
+     "footprint": "EDGE50/100",
+     "value": "EDGE50/100"
+    },
+    {
+     "ref": "P2",
+     "footprint": "CONN26",
+     "value": "CONN26"
+    },
+    {
+     "ref": "P3",
+     "footprint": "CONN16",
+     "value": "CONN16"
+    },
+    {
+     "ref": "P4",
+     "footprint": "CONNECT6",
+     "value": "CONNECT6"
+    },
+    {
+     "ref": "Q1",
+     "footprint": "TO-92",
+     "value": "2N3906"
+    },
+    {
+     "ref": "Q10",
+     "footprint": "TO-92",
+     "value": "2N3906"
+    },
+    {
+     "ref": "Q11",
+     "footprint": "TO-92",
+     "value": "2N3906"
+    },
+    {
+     "ref": "Q12",
+     "footprint": "TO-92",
+     "value": "2N3904"
+    },
+    {
+     "ref": "Q13",
+     "footprint": "TO-92",
+     "value": "2N3906"
+    },
+    {
+     "ref": "Q14",
+     "footprint": "TO-92",
+     "value": "2N3906"
+    },
+    {
+     "ref": "Q15",
+     "footprint": "TO-92",
+     "value": "2N3906"
+    },
+    {
+     "ref": "Q16",
+     "footprint": "TO-92",
+     "value": "2N3906"
+    },
+    {
+     "ref": "Q17",
+     "footprint": "TO-92",
+     "value": "2N3906"
+    },
+    {
+     "ref": "Q18",
+     "footprint": "TO-92",
+     "value": "2N3906"
+    },
+    {
+     "ref": "Q19",
+     "footprint": "TO-92",
+     "value": "2N3906"
+    },
+    {
+     "ref": "Q2",
+     "footprint": "TO-92",
+     "value": "2N3906"
+    },
+    {
+     "ref": "Q20",
+     "footprint": "TO-92",
+     "value": "2N3906"
+    },
+    {
+     "ref": "Q21",
+     "footprint": "TO-92",
+     "value": "2N3906"
+    },
+    {
+     "ref": "Q22",
+     "footprint": "TO-92",
+     "value": "2N3906"
+    },
+    {
+     "ref": "Q3",
+     "footprint": "TO-92",
+     "value": "2N3906"
+    },
+    {
+     "ref": "Q4",
+     "footprint": "TO-92",
+     "value": "2N3906"
+    },
+    {
+     "ref": "Q5",
+     "footprint": "TO-92",
+     "value": "2N3906"
+    },
+    {
+     "ref": "Q6",
+     "footprint": "TO-92",
+     "value": "2N3906"
+    },
+    {
+     "ref": "Q7",
+     "footprint": "TO-92",
+     "value": "2N3904"
+    },
+    {
+     "ref": "Q8",
+     "footprint": "TO-92",
+     "value": "2N3906"
+    },
+    {
+     "ref": "Q9",
+     "footprint": "TO-92",
+     "value": "2N3906"
+    },
+    {
+     "ref": "R1",
+     "footprint": "R1/8",
+     "value": "100K"
+    },
+    {
+     "ref": "R10",
+     "footprint": "R1/8",
+     "value": "100"
+    },
+    {
+     "ref": "R100",
+     "footprint": "R1/4",
+     "value": "10K 1%"
+    },
+    {
+     "ref": "R101",
+     "footprint": "R1/4",
+     "value": "100K 1%"
+    },
+    {
+     "ref": "R102",
+     "footprint": "R1/8",
+     "value": "100K"
+    },
+    {
+     "ref": "R103",
+     "footprint": "R1/8",
+     "value": "600"
+    },
+    {
+     "ref": "R104",
+     "footprint": "R1/4",
+     "value": "100K 1%"
+    },
+    {
+     "ref": "R105",
+     "footprint": "R1/8",
+     "value": "200K"
+    },
+    {
+     "ref": "R11",
+     "footprint": "R1/8",
+     "value": "100"
+    },
+    {
+     "ref": "R12",
+     "footprint": "R1/8",
+     "value": "100K"
+    },
+    {
+     "ref": "R13",
+     "footprint": "R1/8",
+     "value": "39K"
+    },
+    {
+     "ref": "R14",
+     "footprint": "R1/8",
+     "value": "100"
+    },
+    {
+     "ref": "R15",
+     "footprint": "R1/8",
+     "value": "100K"
+    },
+    {
+     "ref": "R16",
+     "footprint": "R1/8",
+     "value": "220"
+    },
+    {
+     "ref": "R17",
+     "footprint": "R1/8",
+     "value": "220"
+    },
+    {
+     "ref": "R18",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R19",
+     "footprint": "R1/8",
+     "value": "220"
+    },
+    {
+     "ref": "R2",
+     "footprint": "SIP8",
+     "value": "82"
+    },
+    {
+     "ref": "R20",
+     "footprint": "R1/8",
+     "value": "220"
+    },
+    {
+     "ref": "R21",
+     "footprint": "R1/8",
+     "value": "220"
+    },
+    {
+     "ref": "R22",
+     "footprint": "R1/8",
+     "value": "220"
+    },
+    {
+     "ref": "R23",
+     "footprint": "R1/8",
+     "value": "4K7"
+    },
+    {
+     "ref": "R24",
+     "footprint": "R1/8",
+     "value": "220"
+    },
+    {
+     "ref": "R25",
+     "footprint": "R1/8",
+     "value": "220"
+    },
+    {
+     "ref": "R26",
+     "footprint": "R1/8",
+     "value": "220"
+    },
+    {
+     "ref": "R27",
+     "footprint": "R1/8",
+     "value": "220"
+    },
+    {
+     "ref": "R28",
+     "footprint": "R1/8",
+     "value": "1K6"
+    },
+    {
+     "ref": "R29",
+     "footprint": "R1/8",
+     "value": "100"
+    },
+    {
+     "ref": "R3",
+     "footprint": "SIP10",
+     "value": "10K"
+    },
+    {
+     "ref": "R30",
+     "footprint": "R1/8",
+     "value": "100"
+    },
+    {
+     "ref": "R31",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R32",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R33",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R34",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R35",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R36",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R37",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R38",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R39",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R4",
+     "footprint": "R1/8",
+     "value": "100K"
+    },
+    {
+     "ref": "R40",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R41",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R42",
+     "footprint": "SIP10",
+     "value": "10K"
+    },
+    {
+     "ref": "R43",
+     "footprint": "SIP8",
+     "value": "82"
+    },
+    {
+     "ref": "R44",
+     "footprint": "SIP8",
+     "value": "82"
+    },
+    {
+     "ref": "R45",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R46",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R47",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R48",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R49",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R5",
+     "footprint": "R1/8",
+     "value": "100K"
+    },
+    {
+     "ref": "R50",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R51",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R52",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R53",
+     "footprint": "R1/8",
+     "value": "100"
+    },
+    {
+     "ref": "R54",
+     "footprint": "R1/8",
+     "value": "100"
+    },
+    {
+     "ref": "R55",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R56",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R57",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R58",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R59",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R6",
+     "footprint": "SIP10",
+     "value": "10K"
+    },
+    {
+     "ref": "R60",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R61",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R62",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R63",
+     "footprint": "SIP10",
+     "value": "10K"
+    },
+    {
+     "ref": "R64",
+     "footprint": "R1/8",
+     "value": "100"
+    },
+    {
+     "ref": "R65",
+     "footprint": "R1/8",
+     "value": "100"
+    },
+    {
+     "ref": "R66",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R67",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R68",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R69",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R7",
+     "footprint": "R1/8",
+     "value": "100"
+    },
+    {
+     "ref": "R70",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R71",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R72",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R73",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R74",
+     "footprint": "R1/8",
+     "value": "600"
+    },
+    {
+     "ref": "R75",
+     "footprint": "R1/8",
+     "value": "100"
+    },
+    {
+     "ref": "R76",
+     "footprint": "R1/8",
+     "value": "100K"
+    },
+    {
+     "ref": "R77",
+     "footprint": "R1/8",
+     "value": "1K"
+    },
+    {
+     "ref": "R78",
+     "footprint": "R1/8",
+     "value": "47"
+    },
+    {
+     "ref": "R79",
+     "footprint": "R1/8",
+     "value": "600"
+    },
+    {
+     "ref": "R8",
+     "footprint": "SIP8",
+     "value": "82"
+    },
+    {
+     "ref": "R80",
+     "footprint": "R1/8",
+     "value": "47"
+    },
+    {
+     "ref": "R81",
+     "footprint": "R01MF",
+     "value": "30 1W"
+    },
+    {
+     "ref": "R82",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R83",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R84",
+     "footprint": "R1/8",
+     "value": "SOT"
+    },
+    {
+     "ref": "R85",
+     "footprint": "R1/8",
+     "value": "SOT"
+    },
+    {
+     "ref": "R86",
+     "footprint": "R1/4",
+     "value": "243 1%"
+    },
+    {
+     "ref": "R87",
+     "footprint": "R1/4",
+     "value": "1K43 1%"
+    },
+    {
+     "ref": "R88",
+     "footprint": "R1/4",
+     "value": "1K43 1%"
+    },
+    {
+     "ref": "R89",
+     "footprint": "R1/8",
+     "value": "1K"
+    },
+    {
+     "ref": "R9",
+     "footprint": "R1/8",
+     "value": "100"
+    },
+    {
+     "ref": "R90",
+     "footprint": "R1/2",
+     "value": "27 1/2W"
+    },
+    {
+     "ref": "R91",
+     "footprint": "R1/8",
+     "value": "47"
+    },
+    {
+     "ref": "R92",
+     "footprint": "R1/8",
+     "value": "15K"
+    },
+    {
+     "ref": "R93",
+     "footprint": "R1/8",
+     "value": "10K"
+    },
+    {
+     "ref": "R94",
+     "footprint": "R1/8",
+     "value": "47"
+    },
+    {
+     "ref": "R95",
+     "footprint": "R1/4",
+     "value": "33K2 1%"
+    },
+    {
+     "ref": "R96",
+     "footprint": "R1/4",
+     "value": "100K 1%"
+    },
+    {
+     "ref": "R97",
+     "footprint": "R1/8",
+     "value": "600"
+    },
+    {
+     "ref": "R98",
+     "footprint": "R1/8",
+     "value": "10"
+    },
+    {
+     "ref": "R99",
+     "footprint": "R1/4",
+     "value": "10K 1%"
+    },
+    {
+     "ref": "U1",
+     "footprint": "SDIP28",
+     "value": "PIC16C73"
+    },
+    {
+     "ref": "U10",
+     "footprint": "DIP16",
+     "value": "74HC4053"
+    },
+    {
+     "ref": "U11",
+     "footprint": "DIP8",
+     "value": "LF353"
+    },
+    {
+     "ref": "U12",
+     "footprint": "DIP16",
+     "value": "74HC4053"
+    },
+    {
+     "ref": "U13",
+     "footprint": "TO-220HS",
+     "value": "LM317"
+    },
+    {
+     "ref": "U14",
+     "footprint": "DIP16",
+     "value": "74HC4053"
+    },
+    {
+     "ref": "U15",
+     "footprint": "DIP8",
+     "value": "LT1451CN8"
+    },
+    {
+     "ref": "U16",
+     "footprint": "DIP8",
+     "value": "LF353"
+    },
+    {
+     "ref": "U2",
+     "footprint": "DIP16",
+     "value": "74HC139"
+    },
+    {
+     "ref": "U3",
+     "footprint": "DIP14",
+     "value": "74HC00N"
+    },
+    {
+     "ref": "U4",
+     "footprint": "DIP18",
+     "value": "PIC16C54RC/P"
+    },
+    {
+     "ref": "U5",
+     "footprint": "DIP8",
+     "value": "93LC66"
+    },
+    {
+     "ref": "U6",
+     "footprint": "DIP18",
+     "value": "ULN2803"
+    },
+    {
+     "ref": "U7",
+     "footprint": "DIP16",
+     "value": "74HC595"
+    },
+    {
+     "ref": "U8",
+     "footprint": "DIP18",
+     "value": "ULN2803"
+    },
+    {
+     "ref": "U9",
+     "footprint": "DIP16",
+     "value": "74HC595"
+    }
+   ],
+   "nets": [
+    {
+     "name": "AUDIO COMMON",
+     "nodes": [
+      "R76,2",
+      "C21,2",
+      "C20,2",
+      "C10,2",
+      "C11,1",
+      "U15,5",
+      "C22,1",
+      "U16,3",
+      "C19,2",
+      "R93,2",
+      "U16,5",
+      "C18,2",
+      "D14,ANODE",
+      "D13,CATHODE",
+      "P1,32",
+      "P1,31",
+      "R90,1",
+      "P1,23",
+      "P1,24",
+      "P1,26",
+      "P1,28",
+      "P1,44",
+      "P1,46",
+      "P1,48",
+      "P1,50"
+     ]
+    },
+    {
+     "name": "+24V",
+     "nodes": [
+      "R97,1",
+      "R74,1",
+      "R92,1",
+      "P1,38",
+      "P1,37"
+     ]
+    },
+    {
+     "name": "-24V",
+     "nodes": [
+      "R79,2",
+      "R103,2",
+      "P1,33",
+      "P1,34"
+     ]
+    },
+    {
+     "name": "CHASSIS",
+     "nodes": [
+      "P1,39",
+      "P1,40",
+      "P4,6"
+     ]
+    },
+    {
+     "name": "N06346",
+     "nodes": [
+      "U3,6",
+      "U3,2"
+     ]
+    },
+    {
+     "name": "/CHIP1",
+     "nodes": [
+      "U15,3",
+      "U2,5"
+     ]
+    },
+    {
+     "name": "EECS",
+     "nodes": [
+      "U1,12",
+      "R3,6",
+      "U5,1"
+     ]
+    },
+    {
+     "name": "/CHIP3",
+     "nodes": [
+      "U4,1",
+      "U2,7"
+     ]
+    },
+    {
+     "name": "A0",
+     "nodes": [
+      "U14,5",
+      "U12,5",
+      "U11,1",
+      "D3,ANODE",
+      "D4,CATHODE",
+      "R77,2",
+      "U1,2"
+     ]
+    },
+    {
+     "name": "N06862",
+     "nodes": [
+      "R40,1",
+      "U6,15"
+     ]
+    },
+    {
+     "name": "N06864",
+     "nodes": [
+      "R37,1",
+      "U6,18"
+     ]
+    },
+    {
+     "name": "/RST",
+     "nodes": [
+      "U1,1",
+      "R2,2",
+      "R1,1",
+      "C1,1",
+      "U4,4"
+     ]
+    },
+    {
+     "name": "N20977",
+     "nodes": [
+      "U3,3",
+      "U1,9"
+     ]
+    },
+    {
+     "name": "A1",
+     "nodes": [
+      "U11,7",
+      "R89,2",
+      "D9,ANODE",
+      "D11,CATHODE",
+      "U1,3"
+     ]
+    },
+    {
+     "name": "N06894",
+     "nodes": [
+      "R49,1",
+      "U6,14"
+     ]
+    },
+    {
+     "name": "N06899",
+     "nodes": [
+      "R38,1",
+      "U6,17"
+     ]
+    },
+    {
+     "name": "N06914",
+     "nodes": [
+      "R52,1",
+      "U6,11"
+     ]
+    },
+    {
+     "name": "N21031",
+     "nodes": [
+      "R5,2",
+      "U1,10"
+     ]
+    },
+    {
+     "name": "/FADER",
+     "nodes": [
+      "D7,CATHODE",
+      "U6,6",
+      "U7,5",
+      "R42,5"
+     ]
+    },
+    {
+     "name": "SDATA",
+     "nodes": [
+      "U15,2",
+      "U7,14",
+      "U1,18",
+      "U5,3",
+      "R23,2",
+      "U4,2",
+      "U4,3"
+     ]
+    },
+    {
+     "name": "/CHON",
+     "nodes": [
+      "R105,1",
+      "U6,8",
+      "R44,5",
+      "R3,3",
+      "U1,7"
+     ]
+    },
+    {
+     "name": "N06951",
+     "nodes": [
+      "R39,1",
+      "U6,16"
+     ]
+    },
+    {
+     "name": "N06955",
+     "nodes": [
+      "R50,1",
+      "U6,13"
+     ]
+    },
+    {
+     "name": "/PFAIL",
+     "nodes": [
+      "R36,1",
+      "U3,11"
+     ]
+    },
+    {
+     "name": "N06884",
+     "nodes": [
+      "R51,1",
+      "U6,12"
+     ]
+    },
+    {
+     "name": "N06588",
+     "nodes": [
+      "U8,13",
+      "R71,1"
+     ]
+    },
+    {
+     "name": "N06641",
+     "nodes": [
+      "U8,14",
+      "R70,1"
+     ]
+    },
+    {
+     "name": "+5V",
+     "nodes": [
+      "U14,16",
+      "D3,CATHODE",
+      "D9,CATHODE",
+      "U10,16",
+      "R82,2",
+      "R83,1",
+      "U12,16",
+      "R84,1",
+      "D1,CATHODE",
+      "P4,5",
+      "C16,1",
+      "U15,8",
+      "C15,1",
+      "R86,1",
+      "U13,2",
+      "U9,10",
+      "R63,1",
+      "C9,1",
+      "U7,10",
+      "R42,1",
+      "C8,1",
+      "R18,2",
+      "R13,2",
+      "R12,2",
+      "R1,2",
+      "C4,2",
+      "U1,20",
+      "R6,1",
+      "C3,1",
+      "R3,1",
+      "R4,2",
+      "C2,1",
+      "P3,1",
+      "C7,1",
+      "U5,8",
+      "C5,1",
+      "U4,14",
+      "U9,16",
+      "U7,16",
+      "U2,16",
+      "U3,14"
+     ]
+    },
+    {
+     "name": "SCLK",
+     "nodes": [
+      "U15,1",
+      "U9,11",
+      "U7,11",
+      "U1,17",
+      "U5,2"
+     ]
+    },
+    {
+     "name": "/OKAY",
+     "nodes": [
+      "U9,13",
+      "U7,13",
+      "U1,11",
+      "R3,4"
+     ]
+    },
+    {
+     "name": "/CHIP2",
+     "nodes": [
+      "U9,12",
+      "U7,12",
+      "U2,6"
+     ]
+    },
+    {
+     "name": "RIPPLE",
+     "nodes": [
+      "U9,14",
+      "U7,9"
+     ]
+    },
+    {
+     "name": "BASE",
+     "nodes": [
+      "Q12,BASE",
+      "Q13,BASE",
+      "R28,1",
+      "R31,2",
+      "Q2,BASE",
+      "Q1,BASE"
+     ]
+    },
+    {
+     "name": "N06609",
+     "nodes": [
+      "U8,15",
+      "R62,1"
+     ]
+    },
+    {
+     "name": "N06615",
+     "nodes": [
+      "U8,11",
+      "R73,1"
+     ]
+    },
+    {
+     "name": "CTL COMMON",
+     "nodes": [
+      "U10,8",
+      "D4,ANODE",
+      "R85,2",
+      "D11,ANODE",
+      "R102,1",
+      "U12,7",
+      "U12,8",
+      "U14,7",
+      "D2,ANODE",
+      "U14,8",
+      "U10,7",
+      "R90,2",
+      "C12,2",
+      "C13,2",
+      "C14,2",
+      "C16,2",
+      "D13,ANODE",
+      "P1,35",
+      "P1,36",
+      "R87,1",
+      "R88,1",
+      "C15,2",
+      "P1,4",
+      "P1,42",
+      "P1,3",
+      "P4,4",
+      "D14,CATHODE",
+      "Q17,COLLECTOR",
+      "U8,9",
+      "C9,2",
+      "Q21,COLLECTOR",
+      "Q6,COLLECTOR",
+      "R41,1",
+      "U6,9",
+      "C8,2",
+      "Q7,EMITTER",
+      "Q11,COLLECTOR",
+      "C6,1",
+      "C1,2",
+      "U2,15",
+      "C4,1",
+      "U1,19",
+      "C3,2",
+      "C7,2",
+      "U5,5",
+      "U5,6",
+      "R18,1",
+      "LK1,1",
+      "LK1,2",
+      "U4,5",
+      "C5,2",
+      "P2,25",
+      "R15,1",
+      "R5,1",
+      "C2,2",
+      "U1,5",
+      "U1,8",
+      "U9,8",
+      "U7,8",
+      "U2,8",
+      "U3,7"
+     ]
+    },
+    {
+     "name": "+12V",
+     "nodes": [
+      "R81,2",
+      "D6,CATHODE",
+      "R53,2",
+      "R54,2",
+      "U8,10",
+      "R29,2",
+      "R30,2",
+      "R28,2",
+      "U6,10"
+     ]
+    },
+    {
+     "name": "/AUTO",
+     "nodes": [
+      "D5,CATHODE",
+      "U10,11",
+      "U10,10",
+      "U10,9",
+      "U8,1",
+      "U9,15",
+      "R63,10"
+     ]
+    },
+    {
+     "name": "/G2",
+     "nodes": [
+      "D10,CATHODE",
+      "U12,10",
+      "U8,5",
+      "U9,4",
+      "R63,6"
+     ]
+    },
+    {
+     "name": "/G3",
+     "nodes": [
+      "D12,CATHODE",
+      "U14,11",
+      "U8,4",
+      "U9,3",
+      "R63,7"
+     ]
+    },
+    {
+     "name": "/G1",
+     "nodes": [
+      "D8,CATHODE",
+      "U12,11",
+      "U8,6",
+      "U9,5",
+      "R63,5"
+     ]
+    },
+    {
+     "name": "/G4",
+     "nodes": [
+      "D15,CATHODE",
+      "U14,10",
+      "U8,3",
+      "U9,2",
+      "R63,8"
+     ]
+    },
+    {
+     "name": "/MSTR",
+     "nodes": [
+      "U12,9",
+      "U14,9",
+      "U8,2",
+      "U9,1",
+      "R63,9"
+     ]
+    },
+    {
+     "name": "N06647",
+     "nodes": [
+      "R60,1",
+      "U8,17"
+     ]
+    },
+    {
+     "name": "N06654",
+     "nodes": [
+      "U8,12",
+      "R72,1"
+     ]
+    },
+    {
+     "name": "N06672",
+     "nodes": [
+      "U8,18",
+      "R59,1"
+     ]
+    },
+    {
+     "name": "N06674",
+     "nodes": [
+      "U8,16",
+      "R61,1"
+     ]
+    },
+    {
+     "name": "N38119",
+     "nodes": [
+      "U4,6",
+      "R27,2"
+     ]
+    },
+    {
+     "name": "N38134",
+     "nodes": [
+      "R20,1",
+      "P3,8"
+     ]
+    },
+    {
+     "name": "N38135",
+     "nodes": [
+      "R25,1",
+      "P3,4"
+     ]
+    },
+    {
+     "name": "N38140",
+     "nodes": [
+      "R16,1",
+      "P3,11"
+     ]
+    },
+    {
+     "name": "N38142",
+     "nodes": [
+      "R17,1",
+      "P3,10"
+     ]
+    },
+    {
+     "name": "N38143",
+     "nodes": [
+      "R19,1",
+      "P3,9"
+     ]
+    },
+    {
+     "name": "N32557",
+     "nodes": [
+      "R6,7",
+      "U1,26",
+      "P2,5"
+     ]
+    },
+    {
+     "name": "N32570",
+     "nodes": [
+      "U1,25",
+      "P2,3",
+      "R6,6"
+     ]
+    },
+    {
+     "name": "N32761",
+     "nodes": [
+      "R6,8",
+      "U1,27",
+      "P1,7",
+      "P2,7"
+     ]
+    },
+    {
+     "name": "N36766",
+     "nodes": [
+      "U1,6",
+      "R2,7",
+      "R4,1"
+     ]
+    },
+    {
+     "name": "N37705",
+     "nodes": [
+      "R3,2",
+      "U1,4",
+      "P2,26"
+     ]
+    },
+    {
+     "name": "N37729",
+     "nodes": [
+      "R2,8",
+      "P1,41"
+     ]
+    },
+    {
+     "name": "N37739",
+     "nodes": [
+      "R2,1",
+      "P1,5"
+     ]
+    },
+    {
+     "name": "N38389",
+     "nodes": [
+      "R6,9",
+      "U1,28",
+      "P1,6",
+      "P2,10",
+      "P4,2"
+     ]
+    },
+    {
+     "name": "N38660",
+     "nodes": [
+      "U1,16",
+      "R8,2",
+      "R3,7"
+     ]
+    },
+    {
+     "name": "N38663",
+     "nodes": [
+      "U1,15",
+      "R8,6",
+      "R3,9"
+     ]
+    },
+    {
+     "name": "N38666",
+     "nodes": [
+      "R8,7",
+      "P1,12"
+     ]
+    },
+    {
+     "name": "N38667",
+     "nodes": [
+      "R8,1",
+      "P1,9"
+     ]
+    },
+    {
+     "name": "N38668",
+     "nodes": [
+      "R8,5",
+      "P1,11"
+     ]
+    },
+    {
+     "name": "N37747",
+     "nodes": [
+      "R8,3",
+      "P1,10"
+     ]
+    },
+    {
+     "name": "N38081",
+     "nodes": [
+      "U4,10",
+      "R22,2"
+     ]
+    },
+    {
+     "name": "N38087",
+     "nodes": [
+      "U4,9",
+      "R24,2"
+     ]
+    },
+    {
+     "name": "N38089",
+     "nodes": [
+      "U4,15",
+      "R15,2"
+     ]
+    },
+    {
+     "name": "N38092",
+     "nodes": [
+      "U4,11",
+      "R21,2"
+     ]
+    },
+    {
+     "name": "N38095",
+     "nodes": [
+      "U4,18",
+      "R16,2"
+     ]
+    },
+    {
+     "name": "N38098",
+     "nodes": [
+      "U4,8",
+      "R25,2"
+     ]
+    },
+    {
+     "name": "N38112",
+     "nodes": [
+      "U4,12",
+      "R20,2"
+     ]
+    },
+    {
+     "name": "N38113",
+     "nodes": [
+      "U4,13",
+      "R19,2"
+     ]
+    },
+    {
+     "name": "N38118",
+     "nodes": [
+      "U4,7",
+      "R26,2"
+     ]
+    },
+    {
+     "name": "N38790",
+     "nodes": [
+      "R14,2",
+      "P1,8"
+     ]
+    },
+    {
+     "name": "N38803",
+     "nodes": [
+      "U3,8",
+      "U3,12",
+      "U3,13",
+      "U1,21"
+     ]
+    },
+    {
+     "name": "N38818",
+     "nodes": [
+      "U3,1",
+      "R2,6"
+     ]
+    },
+    {
+     "name": "N38819",
+     "nodes": [
+      "U3,4",
+      "U3,5",
+      "R2,4"
+     ]
+    },
+    {
+     "name": "N38836",
+     "nodes": [
+      "U1,14",
+      "R8,8",
+      "R3,10"
+     ]
+    },
+    {
+     "name": "N38908",
+     "nodes": [
+      "U1,24",
+      "R6,5",
+      "U2,13",
+      "U2,3"
+     ]
+    },
+    {
+     "name": "N38911",
+     "nodes": [
+      "R6,4",
+      "U2,14",
+      "U2,2",
+      "U1,23"
+     ]
+    },
+    {
+     "name": "N38922",
+     "nodes": [
+      "R6,3",
+      "U1,22",
+      "U2,1"
+     ]
+    },
+    {
+     "name": "N38144",
+     "nodes": [
+      "R24,1",
+      "P3,5"
+     ]
+    },
+    {
+     "name": "N38145",
+     "nodes": [
+      "R26,1",
+      "P3,3"
+     ]
+    },
+    {
+     "name": "N38147",
+     "nodes": [
+      "R22,1",
+      "P3,6"
+     ]
+    },
+    {
+     "name": "N38148",
+     "nodes": [
+      "R27,1",
+      "P3,2"
+     ]
+    },
+    {
+     "name": "N38149",
+     "nodes": [
+      "R21,1",
+      "P3,7"
+     ]
+    },
+    {
+     "name": "N38334",
+     "nodes": [
+      "U5,4",
+      "R23,1"
+     ]
+    },
+    {
+     "name": "N38376",
+     "nodes": [
+      "U4,17",
+      "R17,2"
+     ]
+    },
+    {
+     "name": "N38383",
+     "nodes": [
+      "C6,2",
+      "U4,16",
+      "R13,1"
+     ]
+    },
+    {
+     "name": "N36146",
+     "nodes": [
+      "Q10,EMITTER",
+      "Q9,COLLECTOR",
+      "P2,14",
+      "R47,1"
+     ]
+    },
+    {
+     "name": "N36158",
+     "nodes": [
+      "R45,2",
+      "R49,2",
+      "Q8,BASE"
+     ]
+    },
+    {
+     "name": "N36159",
+     "nodes": [
+      "R45,1",
+      "P2,9",
+      "Q8,EMITTER",
+      "Q2,COLLECTOR"
+     ]
+    },
+    {
+     "name": "N35994",
+     "nodes": [
+      "R31,1",
+      "Q7,COLLECTOR"
+     ]
+    },
+    {
+     "name": "N35998",
+     "nodes": [
+      "R41,2",
+      "R36,2",
+      "Q7,BASE"
+     ]
+    },
+    {
+     "name": "N39058",
+     "nodes": [
+      "U2,12",
+      "R7,2"
+     ]
+    },
+    {
+     "name": "N39060",
+     "nodes": [
+      "R7,1",
+      "P2,4"
+     ]
+    },
+    {
+     "name": "N39085",
+     "nodes": [
+      "U2,11",
+      "R9,2"
+     ]
+    },
+    {
+     "name": "N39088",
+     "nodes": [
+      "R9,1",
+      "P4,1",
+      "P2,11"
+     ]
+    },
+    {
+     "name": "N39096",
+     "nodes": [
+      "U2,9",
+      "R11,2"
+     ]
+    },
+    {
+     "name": "N39101",
+     "nodes": [
+      "U2,10",
+      "R10,2"
+     ]
+    },
+    {
+     "name": "N39105",
+     "nodes": [
+      "R10,1",
+      "P2,18"
+     ]
+    },
+    {
+     "name": "N39107",
+     "nodes": [
+      "R11,1",
+      "P2,21"
+     ]
+    },
+    {
+     "name": "N39205",
+     "nodes": [
+      "R2,5",
+      "P1,1"
+     ]
+    },
+    {
+     "name": "N39207",
+     "nodes": [
+      "R2,3",
+      "P1,2"
+     ]
+    },
+    {
+     "name": "N38774",
+     "nodes": [
+      "U3,9",
+      "U3,10",
+      "R12,1",
+      "R14,1"
+     ]
+    },
+    {
+     "name": "N36964",
+     "nodes": [
+      "R42,4",
+      "R43,6",
+      "U6,7",
+      "U7,6"
+     ]
+    },
+    {
+     "name": "N39227",
+     "nodes": [
+      "R43,3",
+      "P1,15"
+     ]
+    },
+    {
+     "name": "N39231",
+     "nodes": [
+      "U6,5",
+      "U7,4",
+      "R42,6",
+      "R43,4"
+     ]
+    },
+    {
+     "name": "N39290",
+     "nodes": [
+      "R44,6",
+      "P1,18"
+     ]
+    },
+    {
+     "name": "N36007",
+     "nodes": [
+      "R32,1",
+      "P2,2",
+      "Q3,EMITTER",
+      "Q1,COLLECTOR"
+     ]
+    },
+    {
+     "name": "N36010",
+     "nodes": [
+      "R37,2",
+      "R32,2",
+      "Q3,BASE"
+     ]
+    },
+    {
+     "name": "N36024",
+     "nodes": [
+      "Q4,EMITTER",
+      "Q3,COLLECTOR",
+      "R33,1",
+      "P2,1"
+     ]
+    },
+    {
+     "name": "N36026",
+     "nodes": [
+      "R33,2",
+      "R38,2",
+      "Q4,BASE"
+     ]
+    },
+    {
+     "name": "N36036",
+     "nodes": [
+      "R34,1",
+      "Q5,EMITTER",
+      "Q4,COLLECTOR",
+      "P2,6"
+     ]
+    },
+    {
+     "name": "N36040",
+     "nodes": [
+      "R34,2",
+      "R39,2",
+      "Q5,BASE"
+     ]
+    },
+    {
+     "name": "N36051",
+     "nodes": [
+      "R35,2",
+      "R40,2",
+      "Q6,BASE"
+     ]
+    },
+    {
+     "name": "N36057",
+     "nodes": [
+      "R35,1",
+      "Q5,COLLECTOR",
+      "Q6,EMITTER",
+      "P2,8"
+     ]
+    },
+    {
+     "name": "N36111",
+     "nodes": [
+      "R52,2",
+      "R48,2",
+      "Q11,BASE"
+     ]
+    },
+    {
+     "name": "N36127",
+     "nodes": [
+      "R51,2",
+      "R47,2",
+      "Q10,BASE"
+     ]
+    },
+    {
+     "name": "N36129",
+     "nodes": [
+      "R48,1",
+      "Q10,COLLECTOR",
+      "Q11,EMITTER",
+      "P2,13"
+     ]
+    },
+    {
+     "name": "N36144",
+     "nodes": [
+      "R50,2",
+      "R46,2",
+      "Q9,BASE"
+     ]
+    },
+    {
+     "name": "N32819",
+     "nodes": [
+      "R64,1",
+      "P1,21"
+     ]
+    },
+    {
+     "name": "N32820",
+     "nodes": [
+      "R65,1",
+      "P1,22"
+     ]
+    },
+    {
+     "name": "N39307",
+     "nodes": [
+      "R30,1",
+      "Q1,EMITTER"
+     ]
+    },
+    {
+     "name": "N39311",
+     "nodes": [
+      "R29,1",
+      "Q2,EMITTER"
+     ]
+    },
+    {
+     "name": "N36161",
+     "nodes": [
+      "Q9,EMITTER",
+      "Q8,COLLECTOR",
+      "P2,12",
+      "R46,1"
+     ]
+    },
+    {
+     "name": "N36828",
+     "nodes": [
+      "U7,7",
+      "R44,7",
+      "R42,3"
+     ]
+    },
+    {
+     "name": "N36829",
+     "nodes": [
+      "R44,8",
+      "P1,20"
+     ]
+    },
+    {
+     "name": "N36850",
+     "nodes": [
+      "R43,7",
+      "P1,19"
+     ]
+    },
+    {
+     "name": "N36852",
+     "nodes": [
+      "U6,1",
+      "U7,15",
+      "R43,8",
+      "R42,10"
+     ]
+    },
+    {
+     "name": "N36866",
+     "nodes": [
+      "R44,1",
+      "U6,2",
+      "U7,1",
+      "R42,9"
+     ]
+    },
+    {
+     "name": "N36869",
+     "nodes": [
+      "R44,2",
+      "P1,14"
+     ]
+    },
+    {
+     "name": "N36874",
+     "nodes": [
+      "U6,3",
+      "U7,2",
+      "R43,2",
+      "R42,8"
+     ]
+    },
+    {
+     "name": "N36875",
+     "nodes": [
+      "R43,1",
+      "P1,13"
+     ]
+    },
+    {
+     "name": "N36890",
+     "nodes": [
+      "U6,4",
+      "U7,3",
+      "R44,3",
+      "R42,7"
+     ]
+    },
+    {
+     "name": "N36893",
+     "nodes": [
+      "R44,4",
+      "P1,16"
+     ]
+    },
+    {
+     "name": "N36963",
+     "nodes": [
+      "P1,17",
+      "R43,5"
+     ]
+    },
+    {
+     "name": "N35728",
+     "nodes": [
+      "R55,1",
+      "P2,16",
+      "Q14,EMITTER",
+      "Q12,COLLECTOR"
+     ]
+    },
+    {
+     "name": "N35741",
+     "nodes": [
+      "Q15,EMITTER",
+      "Q14,COLLECTOR",
+      "R56,1",
+      "P2,15"
+     ]
+    },
+    {
+     "name": "N35743",
+     "nodes": [
+      "R56,2",
+      "R60,2",
+      "Q15,BASE"
+     ]
+    },
+    {
+     "name": "N35754",
+     "nodes": [
+      "R57,1",
+      "Q16,EMITTER",
+      "Q15,COLLECTOR",
+      "P2,17"
+     ]
+    },
+    {
+     "name": "N35759",
+     "nodes": [
+      "R57,2",
+      "R61,2",
+      "Q16,BASE"
+     ]
+    },
+    {
+     "name": "N35770",
+     "nodes": [
+      "R58,2",
+      "R62,2",
+      "Q17,BASE"
+     ]
+    },
+    {
+     "name": "N35773",
+     "nodes": [
+      "R58,1",
+      "Q16,COLLECTOR",
+      "Q17,EMITTER",
+      "P2,20"
+     ]
+    },
+    {
+     "name": "N35864",
+     "nodes": [
+      "R73,2",
+      "R69,2",
+      "Q21,BASE"
+     ]
+    },
+    {
+     "name": "N35876",
+     "nodes": [
+      "P2,23",
+      "R69,1",
+      "Q20,COLLECTOR",
+      "Q21,EMITTER"
+     ]
+    },
+    {
+     "name": "N35881",
+     "nodes": [
+      "R72,2",
+      "R68,2",
+      "Q20,BASE"
+     ]
+    },
+    {
+     "name": "N35891",
+     "nodes": [
+      "Q20,EMITTER",
+      "Q19,COLLECTOR",
+      "P2,24",
+      "R68,1"
+     ]
+    },
+    {
+     "name": "N35895",
+     "nodes": [
+      "R71,2",
+      "R67,2",
+      "Q19,BASE"
+     ]
+    },
+    {
+     "name": "N35905",
+     "nodes": [
+      "R66,2",
+      "R70,2",
+      "Q18,BASE"
+     ]
+    },
+    {
+     "name": "N35906",
+     "nodes": [
+      "R66,1",
+      "P2,19",
+      "Q18,EMITTER",
+      "Q13,COLLECTOR"
+     ]
+    },
+    {
+     "name": "N27473",
+     "nodes": [
+      "R63,4",
+      "U8,7",
+      "U9,6",
+      "R64,2"
+     ]
+    },
+    {
+     "name": "N27482",
+     "nodes": [
+      "U8,8",
+      "U9,7",
+      "R63,3",
+      "R65,2"
+     ]
+    },
+    {
+     "name": "N34496",
+     "nodes": [
+      "U10,14",
+      "U10,15",
+      "U10,4",
+      "R76,1",
+      "U11,3"
+     ]
+    },
+    {
+     "name": "N34497",
+     "nodes": [
+      "U11,2",
+      "R77,1"
+     ]
+    },
+    {
+     "name": "N34507",
+     "nodes": [
+      "U14,3",
+      "U11,5",
+      "R84,2",
+      "R85,1",
+      "U12,3"
+     ]
+    },
+    {
+     "name": "N35907",
+     "nodes": [
+      "Q19,EMITTER",
+      "Q18,COLLECTOR",
+      "P2,22",
+      "R67,1"
+     ]
+    },
+    {
+     "name": "N39383",
+     "nodes": [
+      "R54,1",
+      "Q12,EMITTER"
+     ]
+    },
+    {
+     "name": "N39393",
+     "nodes": [
+      "R53,1",
+      "Q13,EMITTER"
+     ]
+    },
+    {
+     "name": "N31936",
+     "nodes": [
+      "U16,1",
+      "C23,1",
+      "R99,1",
+      "R104,2"
+     ]
+    },
+    {
+     "name": "N31951",
+     "nodes": [
+      "U12,14",
+      "U12,15",
+      "U12,4",
+      "U14,14",
+      "U14,15",
+      "U14,4"
+     ]
+    },
+    {
+     "name": "N31954",
+     "nodes": [
+      "R99,2",
+      "R100,1",
+      "C21,1"
+     ]
+    },
+    {
+     "name": "N31985",
+     "nodes": [
+      "U15,6",
+      "R101,1",
+      "C20,1"
+     ]
+    },
+    {
+     "name": "N31987",
+     "nodes": [
+      "U16,2",
+      "R104,1",
+      "R101,2",
+      "C23,2",
+      "R105,2"
+     ]
+    },
+    {
+     "name": "N32012",
+     "nodes": [
+      "U15,7",
+      "C18,1",
+      "R95,1"
+     ]
+    },
+    {
+     "name": "N32024",
+     "nodes": [
+      "U12,2",
+      "R80,2"
+     ]
+    },
+    {
+     "name": "N32033",
+     "nodes": [
+      "U12,12",
+      "R78,2"
+     ]
+    },
+    {
+     "name": "N32045",
+     "nodes": [
+      "U15,4",
+      "R102,2"
+     ]
+    },
+    {
+     "name": "N35727",
+     "nodes": [
+      "R59,2",
+      "R55,2",
+      "Q14,BASE"
+     ]
+    },
+    {
+     "name": "N40795",
+     "nodes": [
+      "R88,2",
+      "C14,1",
+      "U13,1",
+      "R87,2",
+      "R86,2"
+     ]
+    },
+    {
+     "name": "N41294",
+     "nodes": [
+      "R81,1",
+      "C13,1",
+      "C12,1",
+      "U13,3"
+     ]
+    },
+    {
+     "name": "N34510",
+     "nodes": [
+      "U11,6",
+      "R89,1"
+     ]
+    },
+    {
+     "name": "N36173",
+     "nodes": [
+      "R96,1",
+      "R95,2",
+      "U16,6",
+      "C17,2",
+      "R100,2",
+      "Q22,COLLECTOR"
+     ]
+    },
+    {
+     "name": "N36174",
+     "nodes": [
+      "R93,1",
+      "R92,2",
+      "Q22,BASE"
+     ]
+    },
+    {
+     "name": "N36175",
+     "nodes": [
+      "U16,7",
+      "R98,1",
+      "R96,2",
+      "C17,1",
+      "Q22,EMITTER"
+     ]
+    },
+    {
+     "name": "N40214",
+     "nodes": [
+      "C10,1",
+      "U11,8",
+      "R74,2"
+     ]
+    },
+    {
+     "name": "N40234",
+     "nodes": [
+      "R79,1",
+      "C11,2",
+      "U11,4"
+     ]
+    },
+    {
+     "name": "N40241",
+     "nodes": [
+      "U16,8",
+      "R97,2",
+      "C19,1"
+     ]
+    },
+    {
+     "name": "N40248",
+     "nodes": [
+      "R103,1",
+      "C22,2",
+      "U16,4"
+     ]
+    },
+    {
+     "name": "N40361",
+     "nodes": [
+      "U10,6",
+      "R82,1",
+      "D5,ANODE",
+      "D7,ANODE"
+     ]
+    },
+    {
+     "name": "N32369",
+     "nodes": [
+      "R75,2",
+      "D1,ANODE",
+      "D2,CATHODE",
+      "U10,12",
+      "U10,5",
+      "U10,2"
+     ]
+    },
+    {
+     "name": "N32380",
+     "nodes": [
+      "R83,2",
+      "U12,6",
+      "U14,6",
+      "D8,ANODE",
+      "D15,ANODE",
+      "D10,ANODE",
+      "D12,ANODE"
+     ]
+    },
+    {
+     "name": "N32895",
+     "nodes": [
+      "D6,ANODE",
+      "P1,30",
+      "P1,29"
+     ]
+    },
+    {
+     "name": "N32920",
+     "nodes": [
+      "R98,2",
+      "P1,25"
+     ]
+    },
+    {
+     "name": "N32932",
+     "nodes": [
+      "R75,1",
+      "P1,27"
+     ]
+    },
+    {
+     "name": "N40410",
+     "nodes": [
+      "U10,13",
+      "U10,3",
+      "U10,1",
+      "P4,3"
+     ]
+    },
+    {
+     "name": "N40497",
+     "nodes": [
+      "R78,1",
+      "P1,43"
+     ]
+    },
+    {
+     "name": "N40500",
+     "nodes": [
+      "R80,1",
+      "P1,45"
+     ]
+    },
+    {
+     "name": "N40517",
+     "nodes": [
+      "U14,12",
+      "R91,2"
+     ]
+    },
+    {
+     "name": "N40518",
+     "nodes": [
+      "U14,2",
+      "R94,2"
+     ]
+    },
+    {
+     "name": "N40523",
+     "nodes": [
+      "R91,1",
+      "P1,47"
+     ]
+    },
+    {
+     "name": "N40525",
+     "nodes": [
+      "R94,1",
+      "P1,49"
+     ]
+    },
+    {
+     "name": "N23877",
+     "nodes": [
+      "U1,13",
+      "R8,4",
+      "R3,8"
+     ]
+    }
+   ],
+   "title": "Revised: January 31, 1996",
+   "file": "14-323_1.NET"
+  }
+ ],
+ "boms": [],
+ "libraries": []
+}

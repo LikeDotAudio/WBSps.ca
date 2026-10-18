@@ -1,0 +1,14 @@
+code: M207
+series: null
+type: M207 Phantom Power Card
+row_count: 15
+impedance:
+  line_in: 600
+  out: 600
+note: null
+audio: []
+bus_out: []
+bus_in: []
+power: []
+jumpers: []
+logic: []

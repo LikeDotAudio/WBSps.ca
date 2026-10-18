@@ -1,0 +1,3793 @@
+{
+ "name": "CONSOLES/REN TV Console/M920/OLD",
+ "folder": "CONSOLES - REN TV Console - M920 - OLD",
+ "source": "WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - CONSOLES/REN TV Console/M920/OLD",
+ "title": "M920 INPUT MODULE PREAMPLIFIER",
+ "number": "14-331-02-001/1",
+ "date": "May  1, 1996",
+ "sheets": [
+  {
+   "title": "M920 INPUT MODULE PREAMPLIFIER",
+   "number": "14-331-02-001/1",
+   "date": "May  1, 1996",
+   "company": [
+    "WARD-BECK SYSTEMS LTD.",
+    "841 PROGRESS AVENUE",
+    "SCARBOROUGH, ONTARIO, CANADA",
+    "M1H 2X4"
+   ],
+   "parts": [
+    {
+     "ref": "JP1",
+     "value": "BERG3",
+     "x": 300,
+     "y": 440
+    },
+    {
+     "ref": "JP2",
+     "value": "BERG3",
+     "x": 190,
+     "y": 410
+    },
+    {
+     "ref": "QX1",
+     "value": "2N3904",
+     "x": 810,
+     "y": 340
+    },
+    {
+     "ref": "QX2",
+     "value": "2N3904",
+     "x": 800,
+     "y": 410
+    },
+    {
+     "ref": "CX14",
+     "value": "470P",
+     "x": 860,
+     "y": 180
+    },
+    {
+     "ref": "CX15",
+     "value": "470P",
+     "x": 980,
+     "y": 200
+    },
+    {
+     "ref": "CX16",
+     "value": "470P",
+     "x": 920,
+     "y": 220
+    },
+    {
+     "ref": "CX17",
+     "value": "1000P",
+     "x": 1170,
+     "y": 130
+    },
+    {
+     "ref": "CX23",
+     "value": "SOT",
+     "x": 1250,
+     "y": 310
+    },
+    {
+     "ref": "CX24",
+     "value": "4U7/10",
+     "x": 1200,
+     "y": 500
+    },
+    {
+     "ref": "CX25",
+     "value": "4U7/10",
+     "x": 1200,
+     "y": 640
+    },
+    {
+     "ref": "UX2",
+     "value": "SSM2017P",
+     "x": 1080,
+     "y": 210
+    },
+    {
+     "ref": "UX3",
+     "value": "MC14053",
+     "x": 580,
+     "y": 170
+    },
+    {
+     "ref": "UX4",
+     "value": "MC14053",
+     "x": 580,
+     "y": 650
+    },
+    {
+     "ref": "DX17",
+     "value": "1N4148",
+     "x": 1280,
+     "y": 410
+    }
+   ],
+   "labels": [
+    {
+     "text": "VSS",
+     "x": 1160,
+     "y": 660
+    },
+    {
+     "text": "MIC0",
+     "x": 70,
+     "y": 120
+    },
+    {
+     "text": "MIC1",
+     "x": 70,
+     "y": 280
+    },
+    {
+     "text": "MIC2",
+     "x": 70,
+     "y": 200
+    },
+    {
+     "text": "MIC3",
+     "x": 70,
+     "y": 600
+    },
+    {
+     "text": "MIC4",
+     "x": 70,
+     "y": 760
+    },
+    {
+     "text": "MIC5",
+     "x": 70,
+     "y": 680
+    }
+   ],
+   "ports": [
+    {
+     "text": "MIC AUDIO",
+     "x": 1390,
+     "y": 230
+    },
+    {
+     "text": "M_SENSHI",
+     "x": 1250,
+     "y": 90
+    },
+    {
+     "text": "M_SENSA",
+     "x": 1250,
+     "y": 180
+    },
+    {
+     "text": "M_SENSLO",
+     "x": 1250,
+     "y": 160
+    },
+    {
+     "text": "PHANTOM",
+     "x": 450,
+     "y": 390
+    },
+    {
+     "text": "MIC A",
+     "x": 1360,
+     "y": 450
+    },
+    {
+     "text": "LO_SENS",
+     "x": 550,
+     "y": 440
+    },
+    {
+     "text": "MIC[0..5]",
+     "x": 190,
+     "y": 880
+    }
+   ],
+   "sheets": [
+    "SA14331B.SCH",
+    "SA14331C.SCH",
+    "SA14331D.SCH",
+    "SA14331E.SCH"
+   ],
+   "file": "SA14331A.SCH"
+  },
+  {
+   "title": "M920 INPUT MODULE PREAMPLIFIER",
+   "number": "14-331-02-001/2",
+   "date": "April 25, 1996",
+   "company": [
+    "WARD-BECK SYSTEMS LTD.",
+    "841 PROGRESS AVENUE",
+    "SCARBOROUGH, ONTARIO, CANADA",
+    "M1H 2X4"
+   ],
+   "parts": [
+    {
+     "ref": "DX9",
+     "value": "1N4148",
+     "x": 330,
+     "y": 200
+    },
+    {
+     "ref": "DX10",
+     "value": "1N4148",
+     "x": 330,
+     "y": 270
+    },
+    {
+     "ref": "DX11",
+     "value": "1N4148",
+     "x": 420,
+     "y": 200
+    },
+    {
+     "ref": "DX12",
+     "value": "1N4148",
+     "x": 420,
+     "y": 270
+    },
+    {
+     "ref": "DX13",
+     "value": "1N4148",
+     "x": 330,
+     "y": 430
+    },
+    {
+     "ref": "DX14",
+     "value": "1N4148",
+     "x": 330,
+     "y": 500
+    },
+    {
+     "ref": "DX15",
+     "value": "1N4148",
+     "x": 420,
+     "y": 500
+    },
+    {
+     "ref": "DX16",
+     "value": "1N4148",
+     "x": 420,
+     "y": 430
+    },
+    {
+     "ref": "RX47",
+     "value": "5K",
+     "x": 950,
+     "y": 350
+    },
+    {
+     "ref": "UX5A",
+     "value": "LM833N",
+     "x": 990,
+     "y": 420
+    },
+    {
+     "ref": "CX30",
+     "value": "220/10",
+     "x": 480,
+     "y": 160
+    },
+    {
+     "ref": "CX31",
+     "value": "220/10",
+     "x": 480,
+     "y": 320
+    },
+    {
+     "ref": "CX32",
+     "value": "220/10",
+     "x": 480,
+     "y": 390
+    },
+    {
+     "ref": "CX33",
+     "value": "220/10",
+     "x": 480,
+     "y": 550
+    },
+    {
+     "ref": "CX34",
+     "value": "220/10",
+     "x": 820,
+     "y": 250
+    },
+    {
+     "ref": "CX35",
+     "value": "220/10",
+     "x": 840,
+     "y": 420
+    },
+    {
+     "ref": "CX36",
+     "value": "0.1/50",
+     "x": 830,
+     "y": 190
+    },
+    {
+     "ref": "CX37",
+     "value": "0.1/50",
+     "x": 880,
+     "y": 480
+    },
+    {
+     "ref": "UX5B",
+     "value": "LM833N",
+     "x": 890,
+     "y": 250
+    }
+   ],
+   "labels": [
+    {
+     "text": "MIC0",
+     "x": 120,
+     "y": 110
+    },
+    {
+     "text": "MIC1",
+     "x": 120,
+     "y": 120
+    },
+    {
+     "text": "MIC2",
+     "x": 120,
+     "y": 100
+    },
+    {
+     "text": "MIC3",
+     "x": 120,
+     "y": 140
+    },
+    {
+     "text": "MIC4",
+     "x": 120,
+     "y": 150
+    },
+    {
+     "text": "MIC5",
+     "x": 120,
+     "y": 130
+    }
+   ],
+   "ports": [
+    {
+     "text": "M_SENSHI",
+     "x": 1320,
+     "y": 620
+    },
+    {
+     "text": "M_SENSA",
+     "x": 1320,
+     "y": 630
+    },
+    {
+     "text": "M_SENSLO",
+     "x": 1320,
+     "y": 640
+    },
+    {
+     "text": "LINE B",
+     "x": 540,
+     "y": 650
+    },
+    {
+     "text": "LINE A",
+     "x": 540,
+     "y": 670
+    },
+    {
+     "text": "LINE AUDIO",
+     "x": 1300,
+     "y": 560
+    },
+    {
+     "text": "MIC[0..5]",
+     "x": 280,
+     "y": 60
+    }
+   ],
+   "sheets": [],
+   "file": "SA14331B.SCH"
+  },
+  {
+   "title": "M920 INPUT MODULE PREAMPLIFIER",
+   "number": "14-331-02-001/3",
+   "date": "May  1, 1996",
+   "company": [
+    "WARD-BECK SYSTEMS LTD.",
+    "841 PROGRESS AVENUE",
+    "SCARBOROUGH, ONTARIO, CANADA",
+    "M1H 2X4"
+   ],
+   "parts": [
+    {
+     "ref": "CX40",
+     "value": "0.1/50",
+     "x": 930,
+     "y": 280
+    },
+    {
+     "ref": "CX41",
+     "value": "0.1/50",
+     "x": 540,
+     "y": 270
+    },
+    {
+     "ref": "UX6A",
+     "value": "LM833N",
+     "x": 570,
+     "y": 190
+    },
+    {
+     "ref": "UX6B",
+     "value": "LM833N",
+     "x": 930,
+     "y": 200
+    },
+    {
+     "ref": "UX7A",
+     "value": "74HC00N",
+     "x": 320,
+     "y": 480
+    },
+    {
+     "ref": "UX7B",
+     "value": "74HC00N",
+     "x": 320,
+     "y": 580
+    },
+    {
+     "ref": "CX42",
+     "value": "68/10",
+     "x": 190,
+     "y": 170
+    },
+    {
+     "ref": "CX43",
+     "value": "68/10",
+     "x": 850,
+     "y": 170
+    },
+    {
+     "ref": "CX44",
+     "value": "0.068",
+     "x": 690,
+     "y": 200
+    },
+    {
+     "ref": "CX45",
+     "value": "0.068",
+     "x": 760,
+     "y": 200
+    },
+    {
+     "ref": "CX46",
+     "value": "68/10",
+     "x": 190,
+     "y": 230
+    },
+    {
+     "ref": "UX10",
+     "value": "MC14053",
+     "x": 350,
+     "y": 170
+    },
+    {
+     "ref": "UX7C",
+     "value": "74HC00N",
+     "x": 320,
+     "y": 390
+    },
+    {
+     "ref": "UX7D",
+     "value": "74HC00N",
+     "x": 320,
+     "y": 660
+    },
+    {
+     "ref": "UX8A",
+     "value": "74HC14N",
+     "x": 180,
+     "y": 430
+    },
+    {
+     "ref": "UX8B",
+     "value": "74HC14N",
+     "x": 180,
+     "y": 550
+    }
+   ],
+   "labels": [],
+   "ports": [
+    {
+     "text": "HP OUT",
+     "x": 1100,
+     "y": 220
+    },
+    {
+     "text": "SEL OUT",
+     "x": 1100,
+     "y": 470
+    },
+    {
+     "text": "A CTL",
+     "x": 30,
+     "y": 570
+    },
+    {
+     "text": "MIC AUDIO",
+     "x": 90,
+     "y": 180
+    },
+    {
+     "text": "LINE AUDIO",
+     "x": 80,
+     "y": 240
+    },
+    {
+     "text": "LINE A",
+     "x": 420,
+     "y": 410
+    },
+    {
+     "text": "LINE B",
+     "x": 420,
+     "y": 500
+    },
+    {
+     "text": "MIC A",
+     "x": 420,
+     "y": 600
+    },
+    {
+     "text": "MIC CTL",
+     "x": 20,
+     "y": 450
+    }
+   ],
+   "sheets": [],
+   "file": "SA14331C.SCH"
+  },
+  {
+   "title": "M920 INPUT MODULE PREAMPLIFIER",
+   "number": "14-331-02-001/4",
+   "date": "April 26, 1996",
+   "company": [
+    "WARD-BECK SYSTEMS LTD.",
+    "841 PROGRESS AVENUE",
+    "SCARBOROUGH, ONTARIO, CANADA",
+    "M1H 2X4"
+   ],
+   "parts": [
+    {
+     "ref": "CX47",
+     "value": "10/50",
+     "x": 550,
+     "y": 70
+    },
+    {
+     "ref": "CX48",
+     "value": "10/50",
+     "x": 560,
+     "y": 110
+    },
+    {
+     "ref": "CX49",
+     "value": "10/50",
+     "x": 580,
+     "y": 150
+    },
+    {
+     "ref": "UX11",
+     "value": "MC14053",
+     "x": 310,
+     "y": 410
+    },
+    {
+     "ref": "CX50",
+     "value": "10/50",
+     "x": 550,
+     "y": 410
+    },
+    {
+     "ref": "CX51",
+     "value": "10/50",
+     "x": 560,
+     "y": 450
+    },
+    {
+     "ref": "CX52",
+     "value": "10/50",
+     "x": 580,
+     "y": 490
+    },
+    {
+     "ref": "CX54",
+     "value": "0.1/50",
+     "x": 680,
+     "y": 210
+    },
+    {
+     "ref": "UX12A",
+     "value": "OPA2604",
+     "x": 700,
+     "y": 150
+    },
+    {
+     "ref": "UX12B",
+     "value": "OPA2604",
+     "x": 700,
+     "y": 490
+    },
+    {
+     "ref": "CX56",
+     "value": "0.1/50",
+     "x": 630,
+     "y": 570
+    },
+    {
+     "ref": "CX57",
+     "value": "47/50",
+     "x": 850,
+     "y": 160
+    },
+    {
+     "ref": "CX58",
+     "value": "47/50",
+     "x": 850,
+     "y": 330
+    },
+    {
+     "ref": "UX14",
+     "value": "MC14053",
+     "x": 310,
+     "y": 70
+    },
+    {
+     "ref": "UX8F",
+     "value": "74HC14N",
+     "x": 640,
+     "y": 760
+    },
+    {
+     "ref": "UX8E",
+     "value": "74HC14N",
+     "x": 640,
+     "y": 680
+    },
+    {
+     "ref": "UX8C",
+     "value": "74HC14N",
+     "x": 200,
+     "y": 680
+    },
+    {
+     "ref": "UX8D",
+     "value": "74HC14N",
+     "x": 200,
+     "y": 760
+    }
+   ],
+   "labels": [
+    {
+     "text": "FD",
+     "x": 360,
+     "y": 590
+    },
+    {
+     "text": "FE",
+     "x": 360,
+     "y": 600
+    },
+    {
+     "text": "FC",
+     "x": 360,
+     "y": 270
+    },
+    {
+     "text": "FB",
+     "x": 360,
+     "y": 260
+    },
+    {
+     "text": "FA",
+     "x": 360,
+     "y": 250
+    },
+    {
+     "text": "PHASE",
+     "x": 1120,
+     "y": 70
+    },
+    {
+     "text": "FILT",
+     "x": 1120,
+     "y": 80
+    },
+    {
+     "text": "FF",
+     "x": 360,
+     "y": 610
+    },
+    {
+     "text": "PHASE",
+     "x": 100,
+     "y": 780
+    },
+    {
+     "text": "FILT",
+     "x": 100,
+     "y": 700
+    },
+    {
+     "text": "FB",
+     "x": 440,
+     "y": 710
+    },
+    {
+     "text": "FE",
+     "x": 440,
+     "y": 770
+    },
+    {
+     "text": "FF",
+     "x": 440,
+     "y": 830
+    },
+    {
+     "text": "FC",
+     "x": 440,
+     "y": 890
+    },
+    {
+     "text": "FD",
+     "x": 440,
+     "y": 680
+    },
+    {
+     "text": "FA",
+     "x": 440,
+     "y": 920
+    },
+    {
+     "text": "VCC",
+     "x": 1290,
+     "y": 250
+    }
+   ],
+   "ports": [
+    {
+     "text": "SEL OUT",
+     "x": 20,
+     "y": 80
+    },
+    {
+     "text": "HP OUT",
+     "x": 20,
+     "y": 120
+    },
+    {
+     "text": "A CTL",
+     "x": 1050,
+     "y": 110
+    },
+    {
+     "text": "LO_SENS",
+     "x": 1040,
+     "y": 90
+    }
+   ],
+   "sheets": [],
+   "file": "SA14331D.SCH"
+  },
+  {
+   "title": "C XXXX",
+   "number": "",
+   "date": "April 25, 1996",
+   "company": [
+    "WARD-BECK SYSTEMS LTD.",
+    "841 PROGRESS AVENUE",
+    "SCARBOROUGH, ONTARIO, CANADA",
+    "M1H 2X4"
+   ],
+   "parts": [
+    {
+     "ref": "QX3",
+     "value": "2N6731",
+     "x": 520,
+     "y": 60
+    },
+    {
+     "ref": "QX4",
+     "value": "2N3904",
+     "x": 490,
+     "y": 100
+    },
+    {
+     "ref": "CX59",
+     "value": "0.1/50",
+     "x": 450,
+     "y": 170
+    },
+    {
+     "ref": "CX61",
+     "value": "0.1/50",
+     "x": 440,
+     "y": 230
+    },
+    {
+     "ref": "QX5",
+     "value": "2N3906",
+     "x": 480,
+     "y": 280
+    },
+    {
+     "ref": "QX6",
+     "value": "2N6730",
+     "x": 510,
+     "y": 320
+    },
+    {
+     "ref": "QX7",
+     "value": "2N3906",
+     "x": 730,
+     "y": 300
+    },
+    {
+     "ref": "QX8",
+     "value": "2N3904",
+     "x": 730,
+     "y": 100
+    },
+    {
+     "ref": "CX65",
+     "value": "0.1/50",
+     "x": 650,
+     "y": 520
+    },
+    {
+     "ref": "CX67",
+     "value": "0.1/50",
+     "x": 840,
+     "y": 490
+    },
+    {
+     "ref": "QX9",
+     "value": "2N3904",
+     "x": 590,
+     "y": 450
+    },
+    {
+     "ref": "CX69",
+     "value": "47/50",
+     "x": 330,
+     "y": 90
+    },
+    {
+     "ref": "CX71",
+     "value": "47/50",
+     "x": 320,
+     "y": 300
+    }
+   ],
+   "labels": [],
+   "ports": [
+    {
+     "text": "PHANTOM",
+     "x": 200,
+     "y": 500
+    },
+    {
+     "text": "MIC CTL",
+     "x": 160,
+     "y": 600
+    }
+   ],
+   "sheets": [],
+   "file": "SA14331E.SCH"
+  }
+ ],
+ "netlists": [
+  {
+   "header": [
+    "M920 INPUT MODULE PREAMPLIFIER                Revised:       May  1, 1996",
+    "14-331-02-001/1                               Revision: 0",
+    "WARD-BECK SYSTEMS LTD."
+   ],
+   "parts": [
+    {
+     "ref": "CX44",
+     "footprint": "POLY.3",
+     "value": "0.068"
+    },
+    {
+     "ref": "CX45",
+     "footprint": "POLY.3",
+     "value": "0.068"
+    },
+    {
+     "ref": "CX5",
+     "footprint": "CAP.1",
+     "value": "0.1"
+    },
+    {
+     "ref": "CX6",
+     "footprint": "CAP.1",
+     "value": "0.1"
+    },
+    {
+     "ref": "CX11",
+     "footprint": "CAP.1",
+     "value": "0.1"
+    },
+    {
+     "ref": "CX12",
+     "footprint": "CAP.1",
+     "value": "0.1"
+    },
+    {
+     "ref": "CX19",
+     "footprint": "CAP.1",
+     "value": "0.1"
+    },
+    {
+     "ref": "CX20",
+     "footprint": "CAP.1",
+     "value": "0.1"
+    },
+    {
+     "ref": "CX26",
+     "footprint": "CAP.1",
+     "value": "0.1"
+    },
+    {
+     "ref": "CX27",
+     "footprint": "CAP.1",
+     "value": "0.1"
+    },
+    {
+     "ref": "CX36",
+     "footprint": "CAP.1",
+     "value": "0.1/50"
+    },
+    {
+     "ref": "CX37",
+     "footprint": "CAP.1",
+     "value": "0.1/50"
+    },
+    {
+     "ref": "CX40",
+     "footprint": "CAP.1",
+     "value": "0.1/50"
+    },
+    {
+     "ref": "CX41",
+     "footprint": "CAP.1",
+     "value": "0.1/50"
+    },
+    {
+     "ref": "CX54",
+     "footprint": "CAP.1",
+     "value": "0.1/50"
+    },
+    {
+     "ref": "CX56",
+     "footprint": "CAP.1",
+     "value": "0.1/50"
+    },
+    {
+     "ref": "CX59",
+     "footprint": "CAP.1",
+     "value": "0.1/50"
+    },
+    {
+     "ref": "CX61",
+     "footprint": "CAP.1",
+     "value": "0.1/50"
+    },
+    {
+     "ref": "CX65",
+     "footprint": "CAP.1",
+     "value": "0.1/50"
+    },
+    {
+     "ref": "CX67",
+     "footprint": "CAP.1",
+     "value": "0.1/50"
+    },
+    {
+     "ref": "CX47",
+     "footprint": "RAD.15",
+     "value": "10/50"
+    },
+    {
+     "ref": "CX48",
+     "footprint": "RAD.15",
+     "value": "10/50"
+    },
+    {
+     "ref": "CX49",
+     "footprint": "RAD.15",
+     "value": "10/50"
+    },
+    {
+     "ref": "CX50",
+     "footprint": "RAD.15",
+     "value": "10/50"
+    },
+    {
+     "ref": "CX51",
+     "footprint": "RAD.15",
+     "value": "10/50"
+    },
+    {
+     "ref": "CX52",
+     "footprint": "RAD.15",
+     "value": "10/50"
+    },
+    {
+     "ref": "RX22",
+     "footprint": "R1/2",
+     "value": "100 1/2W"
+    },
+    {
+     "ref": "CX17",
+     "footprint": "CAP.2",
+     "value": "1000P"
+    },
+    {
+     "ref": "RX24",
+     "footprint": "R1/4",
+     "value": "100K"
+    },
+    {
+     "ref": "RX26",
+     "footprint": "R1/4",
+     "value": "100K"
+    },
+    {
+     "ref": "RX64",
+     "footprint": "R1/4",
+     "value": "100K"
+    },
+    {
+     "ref": "RX65",
+     "footprint": "R1/4",
+     "value": "100K"
+    },
+    {
+     "ref": "RX66",
+     "footprint": "R1/4",
+     "value": "100K"
+    },
+    {
+     "ref": "RX69",
+     "footprint": "R1/4",
+     "value": "100K"
+    },
+    {
+     "ref": "RX70",
+     "footprint": "R1/4",
+     "value": "100K"
+    },
+    {
+     "ref": "RX71",
+     "footprint": "R1/4",
+     "value": "100K"
+    },
+    {
+     "ref": "RX76",
+     "footprint": "R1/4",
+     "value": "100K"
+    },
+    {
+     "ref": "RX78",
+     "footprint": "R1/4",
+     "value": "100K"
+    },
+    {
+     "ref": "RX84",
+     "footprint": "R1/4",
+     "value": "100K"
+    },
+    {
+     "ref": "RX87",
+     "footprint": "R1/4",
+     "value": "100K"
+    },
+    {
+     "ref": "RX89",
+     "footprint": "R1/4",
+     "value": "100K"
+    },
+    {
+     "ref": "RX94",
+     "footprint": "R1/4",
+     "value": "100K"
+    },
+    {
+     "ref": "RX37",
+     "footprint": "R1/4",
+     "value": "100K 1%"
+    },
+    {
+     "ref": "RX38",
+     "footprint": "R1/4",
+     "value": "100K 1%"
+    },
+    {
+     "ref": "RX41",
+     "footprint": "R1/4",
+     "value": "100K 1%"
+    },
+    {
+     "ref": "RX42",
+     "footprint": "R1/4",
+     "value": "100K 1%"
+    },
+    {
+     "ref": "RX43",
+     "footprint": "R1/4",
+     "value": "100K 1%"
+    },
+    {
+     "ref": "RX44",
+     "footprint": "R1/4",
+     "value": "100K 1%"
+    },
+    {
+     "ref": "RX27",
+     "footprint": "R1/4",
+     "value": "10K"
+    },
+    {
+     "ref": "RX28",
+     "footprint": "R1/4",
+     "value": "10K"
+    },
+    {
+     "ref": "RX29",
+     "footprint": "R1/4",
+     "value": "10K"
+    },
+    {
+     "ref": "RX30",
+     "footprint": "R1/4",
+     "value": "10K"
+    },
+    {
+     "ref": "RX31",
+     "footprint": "R1/4",
+     "value": "10K"
+    },
+    {
+     "ref": "RX32",
+     "footprint": "R1/4",
+     "value": "10K"
+    },
+    {
+     "ref": "RX5",
+     "footprint": "R1/4",
+     "value": "10K 1%"
+    },
+    {
+     "ref": "RX14",
+     "footprint": "R1/4",
+     "value": "10K 1%"
+    },
+    {
+     "ref": "RX15",
+     "footprint": "R1/4",
+     "value": "10K 1%"
+    },
+    {
+     "ref": "RX20",
+     "footprint": "R1/4",
+     "value": "10K 1%"
+    },
+    {
+     "ref": "RX8",
+     "footprint": "R1/4",
+     "value": "150 1%"
+    },
+    {
+     "ref": "RX9",
+     "footprint": "R1/4",
+     "value": "150 1%"
+    },
+    {
+     "ref": "RX18",
+     "footprint": "R1/4",
+     "value": "150 1%"
+    },
+    {
+     "ref": "RX19",
+     "footprint": "R1/4",
+     "value": "150 1%"
+    },
+    {
+     "ref": "RX55",
+     "footprint": "R1/4",
+     "value": "150K"
+    },
+    {
+     "ref": "RX35",
+     "footprint": "R1/4",
+     "value": "16K2 1%"
+    },
+    {
+     "ref": "RX36",
+     "footprint": "R1/4",
+     "value": "16K2 1%"
+    },
+    {
+     "ref": "RX39",
+     "footprint": "R1/4",
+     "value": "16K2 1%"
+    },
+    {
+     "ref": "RX40",
+     "footprint": "R1/4",
+     "value": "16K2 1%"
+    },
+    {
+     "ref": "RX50",
+     "footprint": "R1/4",
+     "value": "16K2 1%"
+    },
+    {
+     "ref": "RX51",
+     "footprint": "R1/4",
+     "value": "16K2 1%"
+    },
+    {
+     "ref": "RX52",
+     "footprint": "R1/4",
+     "value": "16K2 1%"
+    },
+    {
+     "ref": "RX62",
+     "footprint": "R1/4",
+     "value": "16K2 1%"
+    },
+    {
+     "ref": "RX63",
+     "footprint": "R1/4",
+     "value": "16K2 1%"
+    },
+    {
+     "ref": "RX67",
+     "footprint": "R1/4",
+     "value": "16K2 1%"
+    },
+    {
+     "ref": "RX68",
+     "footprint": "R1/4",
+     "value": "16K2 1%"
+    },
+    {
+     "ref": "RX72",
+     "footprint": "R1/4",
+     "value": "16K2 1%"
+    },
+    {
+     "ref": "RX73",
+     "footprint": "R1/4",
+     "value": "16K2 1%"
+    },
+    {
+     "ref": "RX74",
+     "footprint": "R1/4",
+     "value": "16K2 1%"
+    },
+    {
+     "ref": "RX75",
+     "footprint": "R1/4",
+     "value": "16K2 1%"
+    },
+    {
+     "ref": "RX54",
+     "footprint": "R1/4",
+     "value": "1K"
+    },
+    {
+     "ref": "RX6",
+     "footprint": "R1/4",
+     "value": "1K58 1%"
+    },
+    {
+     "ref": "RX7",
+     "footprint": "R1/4",
+     "value": "1K58 1%"
+    },
+    {
+     "ref": "RX16",
+     "footprint": "R1/4",
+     "value": "1K58 1%"
+    },
+    {
+     "ref": "RX17",
+     "footprint": "R1/4",
+     "value": "1K58 1%"
+    },
+    {
+     "ref": "RX56",
+     "footprint": "R1/4",
+     "value": "1M"
+    },
+    {
+     "ref": "DX9",
+     "footprint": "DO-35",
+     "value": "1N4148"
+    },
+    {
+     "ref": "DX10",
+     "footprint": "DO-35",
+     "value": "1N4148"
+    },
+    {
+     "ref": "DX11",
+     "footprint": "DO-35",
+     "value": "1N4148"
+    },
+    {
+     "ref": "DX12",
+     "footprint": "DO-35",
+     "value": "1N4148"
+    },
+    {
+     "ref": "DX13",
+     "footprint": "DO-35",
+     "value": "1N4148"
+    },
+    {
+     "ref": "DX14",
+     "footprint": "DO-35",
+     "value": "1N4148"
+    },
+    {
+     "ref": "DX15",
+     "footprint": "DO-35",
+     "value": "1N4148"
+    },
+    {
+     "ref": "DX16",
+     "footprint": "DO-35",
+     "value": "1N4148"
+    },
+    {
+     "ref": "DX17",
+     "footprint": "DO-35",
+     "value": "1N4148"
+    },
+    {
+     "ref": "DX1",
+     "footprint": "DO-35",
+     "value": "1N752A"
+    },
+    {
+     "ref": "DX2",
+     "footprint": "DO-35",
+     "value": "1N752A"
+    },
+    {
+     "ref": "DX3",
+     "footprint": "DO-35",
+     "value": "1N752A"
+    },
+    {
+     "ref": "DX4",
+     "footprint": "DO-35",
+     "value": "1N752A"
+    },
+    {
+     "ref": "DX5",
+     "footprint": "DO-35",
+     "value": "1N752A"
+    },
+    {
+     "ref": "DX6",
+     "footprint": "DO-35",
+     "value": "1N752A"
+    },
+    {
+     "ref": "DX7",
+     "footprint": "DO-35",
+     "value": "1N752A"
+    },
+    {
+     "ref": "DX8",
+     "footprint": "DO-35",
+     "value": "1N752A"
+    },
+    {
+     "ref": "RX82",
+     "footprint": "R1/4",
+     "value": "22"
+    },
+    {
+     "ref": "RX85",
+     "footprint": "R1/4",
+     "value": "22"
+    },
+    {
+     "ref": "CX60",
+     "footprint": "RAD.1",
+     "value": "22/25"
+    },
+    {
+     "ref": "CX62",
+     "footprint": "RAD.1",
+     "value": "22/25"
+    },
+    {
+     "ref": "CX63",
+     "footprint": "RAD.1",
+     "value": "22/25"
+    },
+    {
+     "ref": "CX66",
+     "footprint": "RAD.1",
+     "value": "22/25"
+    },
+    {
+     "ref": "CX68",
+     "footprint": "RAD.1",
+     "value": "22/25"
+    },
+    {
+     "ref": "CX70",
+     "footprint": "RAD.1",
+     "value": "22/25"
+    },
+    {
+     "ref": "CX30",
+     "footprint": "TANTE.2",
+     "value": "220/10"
+    },
+    {
+     "ref": "CX31",
+     "footprint": "TANTE.2",
+     "value": "220/10"
+    },
+    {
+     "ref": "CX32",
+     "footprint": "TANTE.2",
+     "value": "220/10"
+    },
+    {
+     "ref": "CX33",
+     "footprint": "TANTE.2",
+     "value": "220/10"
+    },
+    {
+     "ref": "CX34",
+     "footprint": "TANTE.2",
+     "value": "220/10"
+    },
+    {
+     "ref": "CX35",
+     "footprint": "TANTE.2",
+     "value": "220/10"
+    },
+    {
+     "ref": "CX28",
+     "footprint": "CAP.2",
+     "value": "22P"
+    },
+    {
+     "ref": "CX29",
+     "footprint": "CAP.2",
+     "value": "22P"
+    },
+    {
+     "ref": "CX53",
+     "footprint": "CAP.2",
+     "value": "22P"
+    },
+    {
+     "ref": "CX55",
+     "footprint": "CAP.2",
+     "value": "22P"
+    },
+    {
+     "ref": "RX57",
+     "footprint": "R1/4",
+     "value": "27K"
+    },
+    {
+     "ref": "RX59",
+     "footprint": "R1/4",
+     "value": "27K"
+    },
+    {
+     "ref": "RX34",
+     "footprint": "R1/4",
+     "value": "2K7"
+    },
+    {
+     "ref": "QX1",
+     "footprint": "TO-92",
+     "value": "2N3904"
+    },
+    {
+     "ref": "QX2",
+     "footprint": "TO-92",
+     "value": "2N3904"
+    },
+    {
+     "ref": "QX4",
+     "footprint": "TO-92",
+     "value": "2N3904"
+    },
+    {
+     "ref": "QX8",
+     "footprint": "TO-92",
+     "value": "2N3904"
+    },
+    {
+     "ref": "QX9",
+     "footprint": "TO-92",
+     "value": "2N3904"
+    },
+    {
+     "ref": "QX5",
+     "footprint": "TO-92",
+     "value": "2N3906"
+    },
+    {
+     "ref": "QX7",
+     "footprint": "TO-92",
+     "value": "2N3906"
+    },
+    {
+     "ref": "QX6",
+     "footprint": "TO-237",
+     "value": "2N6730"
+    },
+    {
+     "ref": "QX3",
+     "footprint": "TO-237",
+     "value": "2N6731"
+    },
+    {
+     "ref": "RX77",
+     "footprint": "R01MF",
+     "value": "30 1W"
+    },
+    {
+     "ref": "RX79",
+     "footprint": "R01MF",
+     "value": "30 1W"
+    },
+    {
+     "ref": "RX80",
+     "footprint": "R01MF",
+     "value": "30 1W"
+    },
+    {
+     "ref": "RX81",
+     "footprint": "R01MF",
+     "value": "30 1W"
+    },
+    {
+     "ref": "RX91",
+     "footprint": "R1/4",
+     "value": "390"
+    },
+    {
+     "ref": "RX93",
+     "footprint": "R1/4",
+     "value": "3K3"
+    },
+    {
+     "ref": "RX92",
+     "footprint": "R1/4",
+     "value": "3K9"
+    },
+    {
+     "ref": "CX1",
+     "footprint": "RAD.15",
+     "value": "47/50"
+    },
+    {
+     "ref": "CX2",
+     "footprint": "RAD.15",
+     "value": "47/50"
+    },
+    {
+     "ref": "CX3",
+     "footprint": "RAD.15",
+     "value": "47/50"
+    },
+    {
+     "ref": "CX4",
+     "footprint": "RAD.15",
+     "value": "47/50"
+    },
+    {
+     "ref": "CX7",
+     "footprint": "RAD.15",
+     "value": "47/50"
+    },
+    {
+     "ref": "CX8",
+     "footprint": "RAD.15",
+     "value": "47/50"
+    },
+    {
+     "ref": "CX9",
+     "footprint": "RAD.15",
+     "value": "47/50"
+    },
+    {
+     "ref": "CX10",
+     "footprint": "RAD.15",
+     "value": "47/50"
+    },
+    {
+     "ref": "CX13",
+     "footprint": "RAD.15",
+     "value": "47/50"
+    },
+    {
+     "ref": "CX18",
+     "footprint": "RAD.15",
+     "value": "47/50"
+    },
+    {
+     "ref": "CX21",
+     "footprint": "RAD.15",
+     "value": "47/50"
+    },
+    {
+     "ref": "CX22",
+     "footprint": "RAD.15",
+     "value": "47/50"
+    },
+    {
+     "ref": "CX57",
+     "footprint": "RAD.125",
+     "value": "47/50"
+    },
+    {
+     "ref": "CX58",
+     "footprint": "RAD.125",
+     "value": "47/50"
+    },
+    {
+     "ref": "CX64",
+     "footprint": "RAD.15",
+     "value": "47/50"
+    },
+    {
+     "ref": "CX69",
+     "footprint": "RAD.125",
+     "value": "47/50"
+    },
+    {
+     "ref": "CX71",
+     "footprint": "RAD.125",
+     "value": "47/50"
+    },
+    {
+     "ref": "RX61",
+     "footprint": "R1/4",
+     "value": "470K"
+    },
+    {
+     "ref": "CX14",
+     "footprint": "CAP.2",
+     "value": "470P"
+    },
+    {
+     "ref": "CX15",
+     "footprint": "CAP.2",
+     "value": "470P"
+    },
+    {
+     "ref": "CX16",
+     "footprint": "CAP.2",
+     "value": "470P"
+    },
+    {
+     "ref": "CX38",
+     "footprint": "CAP.2",
+     "value": "47P"
+    },
+    {
+     "ref": "CX39",
+     "footprint": "CAP.2",
+     "value": "47P"
+    },
+    {
+     "ref": "RX3",
+     "footprint": "R1/4",
+     "value": "49R9 1%"
+    },
+    {
+     "ref": "RX4",
+     "footprint": "R1/4",
+     "value": "49R9 1%"
+    },
+    {
+     "ref": "RX12",
+     "footprint": "R1/4",
+     "value": "49R9 1%"
+    },
+    {
+     "ref": "RX13",
+     "footprint": "R1/4",
+     "value": "49R9 1%"
+    },
+    {
+     "ref": "CX24",
+     "footprint": "TANTA.1",
+     "value": "4U7/10"
+    },
+    {
+     "ref": "CX25",
+     "footprint": "TANTA.1",
+     "value": "4U7/10"
+    },
+    {
+     "ref": "RX58",
+     "footprint": "R1/4",
+     "value": "56K"
+    },
+    {
+     "ref": "RX60",
+     "footprint": "R1/4",
+     "value": "56K"
+    },
+    {
+     "ref": "RX47",
+     "footprint": "PT10V",
+     "value": "5K"
+    },
+    {
+     "ref": "RX83",
+     "footprint": "R1/4",
+     "value": "5K8"
+    },
+    {
+     "ref": "RX86",
+     "footprint": "R1/4",
+     "value": "5K8"
+    },
+    {
+     "ref": "RX53",
+     "footprint": "R1/4",
+     "value": "620K"
+    },
+    {
+     "ref": "P1",
+     "footprint": "SIP12",
+     "value": "65646-112"
+    },
+    {
+     "ref": "P2",
+     "footprint": "SIP12",
+     "value": "65646-112"
+    },
+    {
+     "ref": "P3",
+     "footprint": "SIP12",
+     "value": "65646-112"
+    },
+    {
+     "ref": "P4",
+     "footprint": "SIP12",
+     "value": "65646-112"
+    },
+    {
+     "ref": "CX42",
+     "footprint": "TANTC.2",
+     "value": "68/10"
+    },
+    {
+     "ref": "CX43",
+     "footprint": "TANTC.2",
+     "value": "68/10"
+    },
+    {
+     "ref": "CX46",
+     "footprint": "TANTC.2",
+     "value": "68/10"
+    },
+    {
+     "ref": "RX1",
+     "footprint": "R1/4",
+     "value": "6K81 1%"
+    },
+    {
+     "ref": "RX2",
+     "footprint": "R1/4",
+     "value": "6K81 1%"
+    },
+    {
+     "ref": "RX10",
+     "footprint": "R1/4",
+     "value": "6K81 1%"
+    },
+    {
+     "ref": "RX11",
+     "footprint": "R1/4",
+     "value": "6K81 1%"
+    },
+    {
+     "ref": "RX46",
+     "footprint": "R1/4",
+     "value": "6K81 1%"
+    },
+    {
+     "ref": "UX7",
+     "footprint": "DIP14",
+     "value": "74HC00N"
+    },
+    {
+     "ref": "UX13",
+     "footprint": "DIP14",
+     "value": "74HC00N"
+    },
+    {
+     "ref": "UX1",
+     "footprint": "DIP14",
+     "value": "74HC123"
+    },
+    {
+     "ref": "UX8",
+     "footprint": "DIP14",
+     "value": "74HC14N"
+    },
+    {
+     "ref": "RX33",
+     "footprint": "R1/4",
+     "value": "7K5"
+    },
+    {
+     "ref": "RX48",
+     "footprint": "R1/4",
+     "value": "82K5 1%"
+    },
+    {
+     "ref": "RX45",
+     "footprint": "R1/4",
+     "value": "8K25 1%"
+    },
+    {
+     "ref": "RX49",
+     "footprint": "R1/4",
+     "value": "8K25 1%"
+    },
+    {
+     "ref": "RX88",
+     "footprint": "R1/4",
+     "value": "9K1"
+    },
+    {
+     "ref": "RX90",
+     "footprint": "R1/4",
+     "value": "9K1"
+    },
+    {
+     "ref": "JP1",
+     "footprint": "SIP3",
+     "value": "BERG3"
+    },
+    {
+     "ref": "JP2",
+     "footprint": "SIP3",
+     "value": "BERG3"
+    },
+    {
+     "ref": "JX1",
+     "footprint": "SIP2",
+     "value": "CON2"
+    },
+    {
+     "ref": "JX2",
+     "footprint": "SIP2",
+     "value": "CON2"
+    },
+    {
+     "ref": "JX3",
+     "footprint": "SIP2",
+     "value": "CON2"
+    },
+    {
+     "ref": "JX4",
+     "footprint": "SIP2",
+     "value": "CON2"
+    },
+    {
+     "ref": "K1",
+     "footprint": "DIP16",
+     "value": "G6AK-234P-ST-US-"
+    },
+    {
+     "ref": "UX5",
+     "footprint": "DIP8",
+     "value": "LM833N"
+    },
+    {
+     "ref": "UX6",
+     "footprint": "DIP8",
+     "value": "LM833N"
+    },
+    {
+     "ref": "U1",
+     "footprint": "DIP16",
+     "value": "MC14053"
+    },
+    {
+     "ref": "U2",
+     "footprint": "DIP16",
+     "value": "MC14053"
+    },
+    {
+     "ref": "UX3",
+     "footprint": "DIP16",
+     "value": "MC14053"
+    },
+    {
+     "ref": "UX4",
+     "footprint": "DIP16",
+     "value": "MC14053"
+    },
+    {
+     "ref": "UX10",
+     "footprint": "DIP16",
+     "value": "MC14053"
+    },
+    {
+     "ref": "UX11",
+     "footprint": "DIP16",
+     "value": "MC14053"
+    },
+    {
+     "ref": "UX14",
+     "footprint": "DIP16",
+     "value": "MC14053"
+    },
+    {
+     "ref": "UX12",
+     "footprint": "DIP8",
+     "value": "OPA2604"
+    },
+    {
+     "ref": "RX21",
+     "footprint": "R1/4",
+     "value": "SOT"
+    },
+    {
+     "ref": "CX23",
+     "footprint": "POLY.1",
+     "value": "SOT"
+    },
+    {
+     "ref": "RX23",
+     "footprint": "R1/4",
+     "value": "SOT"
+    },
+    {
+     "ref": "RX25",
+     "footprint": "R1/4",
+     "value": "SOT"
+    },
+    {
+     "ref": "RX95",
+     "footprint": "R1/4",
+     "value": "SOT"
+    },
+    {
+     "ref": "RX96",
+     "footprint": "R1/4",
+     "value": "SOT"
+    },
+    {
+     "ref": "RX97",
+     "footprint": "R1/4",
+     "value": "SOT"
+    },
+    {
+     "ref": "RX98",
+     "footprint": "R1/4",
+     "value": "SOT"
+    },
+    {
+     "ref": "UX2",
+     "footprint": "DIP8",
+     "value": "SSM2017P"
+    }
+   ],
+   "nets": [
+    {
+     "name": "N00001",
+     "nodes": [
+      "CX5,2",
+      "RX7,1",
+      "CX2,2",
+      "RX3,1",
+      "CX1,2"
+     ]
+    },
+    {
+     "name": "N00002",
+     "nodes": [
+      "RX7,2",
+      "UX3,12",
+      "RX8,2"
+     ]
+    },
+    {
+     "name": "N00003",
+     "nodes": [
+      "RX3,2",
+      "DX1,1",
+      "RX5,2",
+      "UX3,13"
+     ]
+    },
+    {
+     "name": "N00004",
+     "nodes": [
+      "DX1,2",
+      "DX2,1"
+     ]
+    },
+    {
+     "name": "N00005",
+     "nodes": [
+      "CX14,1",
+      "K1,4",
+      "CX15,1",
+      "UX2,3"
+     ]
+    },
+    {
+     "name": "N00006",
+     "nodes": [
+      "UX3,14",
+      "K1,6"
+     ]
+    },
+    {
+     "name": "N00007",
+     "nodes": [
+      "UX3,15",
+      "K1,11"
+     ]
+    },
+    {
+     "name": "N00008",
+     "nodes": [
+      "K1,8",
+      "UX4,14"
+     ]
+    },
+    {
+     "name": "N00009",
+     "nodes": [
+      "UX3,2",
+      "RX9,1",
+      "RX6,2"
+     ]
+    },
+    {
+     "name": "N00010",
+     "nodes": [
+      "DX4,2",
+      "RX4,2",
+      "RX20,1",
+      "UX3,1"
+     ]
+    },
+    {
+     "name": "N00011",
+     "nodes": [
+      "K1,13",
+      "CX16,2",
+      "CX15,2",
+      "UX2,2"
+     ]
+    },
+    {
+     "name": "N00012",
+     "nodes": [
+      "UX2,6",
+      "RX24,2",
+      "RX25,2",
+      "CX22,2"
+     ]
+    },
+    {
+     "name": "N00013",
+     "nodes": [
+      "DX3,2",
+      "DX4,1"
+     ]
+    },
+    {
+     "name": "N00014",
+     "nodes": [
+      "K1,9",
+      "UX4,15"
+     ]
+    },
+    {
+     "name": "N00015",
+     "nodes": [
+      "K1,2",
+      "K1,1",
+      "RX21,1"
+     ]
+    },
+    {
+     "name": "N00016",
+     "nodes": [
+      "K1,15",
+      "QX1,3"
+     ]
+    },
+    {
+     "name": "N00017",
+     "nodes": [
+      "CX3,2",
+      "CX4,2",
+      "RX4,1",
+      "CX6,2",
+      "RX6,1"
+     ]
+    },
+    {
+     "name": "N00018",
+     "nodes": [
+      "K1,16",
+      "QX2,3"
+     ]
+    },
+    {
+     "name": "N00019",
+     "nodes": [
+      "RX25,1",
+      "CX23,1"
+     ]
+    },
+    {
+     "name": "N00020",
+     "nodes": [
+      "UX3,7",
+      "UX4,7",
+      "RX34,2",
+      "RX33,1",
+      "CX26,2"
+     ]
+    },
+    {
+     "name": "N00021",
+     "nodes": [
+      "QX1,2",
+      "RX27,1"
+     ]
+    },
+    {
+     "name": "N00022",
+     "nodes": [
+      "RX27,2",
+      "UX1,5"
+     ]
+    },
+    {
+     "name": "N00023",
+     "nodes": [
+      "UX1,11",
+      "CX27,2",
+      "RX29,1",
+      "DX17,2"
+     ]
+    },
+    {
+     "name": "N00024",
+     "nodes": [
+      "JP1,1",
+      "JP2,1",
+      "RX22,1",
+      "CX13,1"
+     ]
+    },
+    {
+     "name": "N00025",
+     "nodes": [
+      "QX2,2",
+      "RX32,1"
+     ]
+    },
+    {
+     "name": "N00026",
+     "nodes": [
+      "RX32,2",
+      "UX1,13"
+     ]
+    },
+    {
+     "name": "N00027",
+     "nodes": [
+      "UX1,7",
+      "CX24,1",
+      "RX28,1"
+     ]
+    },
+    {
+     "name": "N00028",
+     "nodes": [
+      "CX11,2",
+      "RX17,1",
+      "CX8,2",
+      "RX12,1",
+      "CX7,2"
+     ]
+    },
+    {
+     "name": "N00029",
+     "nodes": [
+      "RX17,2",
+      "UX4,12",
+      "RX18,2"
+     ]
+    },
+    {
+     "name": "N00030",
+     "nodes": [
+      "RX12,2",
+      "DX5,1",
+      "RX14,2",
+      "UX4,13"
+     ]
+    },
+    {
+     "name": "N00031",
+     "nodes": [
+      "RX31,1",
+      "UX1,3",
+      "UX1,2"
+     ]
+    },
+    {
+     "name": "N00032",
+     "nodes": [
+      "DX5,2",
+      "DX6,1"
+     ]
+    },
+    {
+     "name": "N00033",
+     "nodes": [
+      "UX1,15",
+      "CX25,1",
+      "RX30,1"
+     ]
+    },
+    {
+     "name": "N00034",
+     "nodes": [
+      "UX4,2",
+      "RX19,1",
+      "RX16,2"
+     ]
+    },
+    {
+     "name": "N00035",
+     "nodes": [
+      "DX8,2",
+      "RX13,2",
+      "RX15,1",
+      "UX4,1"
+     ]
+    },
+    {
+     "name": "N00036",
+     "nodes": [
+      "DX7,2",
+      "DX8,1"
+     ]
+    },
+    {
+     "name": "N00037",
+     "nodes": [
+      "CX9,2",
+      "CX10,2",
+      "RX13,1",
+      "CX12,2",
+      "RX16,1"
+     ]
+    },
+    {
+     "name": "N00038",
+     "nodes": [
+      "P2,8",
+      "RX35,1"
+     ]
+    },
+    {
+     "name": "N00039",
+     "nodes": [
+      "RX35,2",
+      "RX38,2",
+      "DX9,1",
+      "DX11,2",
+      "CX30,2"
+     ]
+    },
+    {
+     "name": "N00040",
+     "nodes": [
+      "CX30,1",
+      "U2,14"
+     ]
+    },
+    {
+     "name": "N00041",
+     "nodes": [
+      "U2,12",
+      "CX34,2",
+      "RX44,2",
+      "U1,12"
+     ]
+    },
+    {
+     "name": "N00042",
+     "nodes": [
+      "P2,9",
+      "RX36,2"
+     ]
+    },
+    {
+     "name": "N00043",
+     "nodes": [
+      "U2,15",
+      "CX31,1"
+     ]
+    },
+    {
+     "name": "N00044",
+     "nodes": [
+      "P2,11",
+      "RX39,1"
+     ]
+    },
+    {
+     "name": "N00045",
+     "nodes": [
+      "U2,2",
+      "U1,2",
+      "RX43,1",
+      "CX35,2"
+     ]
+    },
+    {
+     "name": "N00046",
+     "nodes": [
+      "CX34,1",
+      "UX5,6",
+      "RX45,2",
+      "CX28,1"
+     ]
+    },
+    {
+     "name": "N00047",
+     "nodes": [
+      "P2,12",
+      "RX40,2"
+     ]
+    },
+    {
+     "name": "N00048",
+     "nodes": [
+      "CX28,2",
+      "RX45,1",
+      "UX5,7",
+      "RX46,1"
+     ]
+    },
+    {
+     "name": "N00049",
+     "nodes": [
+      "RX37,1",
+      "RX36,1",
+      "DX10,2",
+      "DX12,1",
+      "CX31,2"
+     ]
+    },
+    {
+     "name": "N00050",
+     "nodes": [
+      "RX47,3",
+      "RX46,2"
+     ]
+    },
+    {
+     "name": "N00051",
+     "nodes": [
+      "RX47,2",
+      "CX35,1",
+      "RX47,1",
+      "UX5,2",
+      "CX29,1",
+      "RX48,1",
+      "RX49,1"
+     ]
+    },
+    {
+     "name": "N00052",
+     "nodes": [
+      "RX39,2",
+      "RX41,2",
+      "DX13,1",
+      "DX16,2",
+      "CX32,2"
+     ]
+    },
+    {
+     "name": "N00053",
+     "nodes": [
+      "CX32,1",
+      "U1,14"
+     ]
+    },
+    {
+     "name": "N00054",
+     "nodes": [
+      "U1,15",
+      "CX33,1"
+     ]
+    },
+    {
+     "name": "N00055",
+     "nodes": [
+      "RX42,1",
+      "RX40,1",
+      "DX14,2",
+      "DX15,1",
+      "CX33,2"
+     ]
+    },
+    {
+     "name": "N00056",
+     "nodes": [
+      "RX49,2",
+      "P4,2"
+     ]
+    },
+    {
+     "name": "N00057",
+     "nodes": [
+      "CX44,2",
+      "JX3,2",
+      "JX4,2",
+      "CX45,1",
+      "RX55,1"
+     ]
+    },
+    {
+     "name": "N00058",
+     "nodes": [
+      "JX1,1",
+      "RX57,1"
+     ]
+    },
+    {
+     "name": "N00059",
+     "nodes": [
+      "JX2,1",
+      "RX58,1"
+     ]
+    },
+    {
+     "name": "N00060",
+     "nodes": [
+      "JX3,1",
+      "RX59,1"
+     ]
+    },
+    {
+     "name": "N00061",
+     "nodes": [
+      "JX4,1",
+      "RX60,1"
+     ]
+    },
+    {
+     "name": "N00062",
+     "nodes": [
+      "CX38,1",
+      "RX52,1",
+      "UX10,13",
+      "UX6,2",
+      "UX10,2"
+     ]
+    },
+    {
+     "name": "N00063",
+     "nodes": [
+      "RX56,2",
+      "RX57,2",
+      "CX43,2",
+      "RX58,2"
+     ]
+    },
+    {
+     "name": "N00064",
+     "nodes": [
+      "CX42,2",
+      "RX50,1"
+     ]
+    },
+    {
+     "name": "N00065",
+     "nodes": [
+      "RX50,2",
+      "UX10,14"
+     ]
+    },
+    {
+     "name": "N00066",
+     "nodes": [
+      "CX45,2",
+      "CX39,2",
+      "RX53,1",
+      "CX43,1",
+      "UX6,5"
+     ]
+    },
+    {
+     "name": "N00067",
+     "nodes": [
+      "UX10,15",
+      "RX51,2"
+     ]
+    },
+    {
+     "name": "N00068",
+     "nodes": [
+      "UX6,6",
+      "CX39,1",
+      "RX54,1"
+     ]
+    },
+    {
+     "name": "N00069",
+     "nodes": [
+      "CX46,2",
+      "RX51,1"
+     ]
+    },
+    {
+     "name": "N00070",
+     "nodes": [
+      "UX10,11",
+      "UX10,10",
+      "UX7,5"
+     ]
+    },
+    {
+     "name": "N00071",
+     "nodes": [
+      "UX7,9",
+      "UX8,2",
+      "UX7,1"
+     ]
+    },
+    {
+     "name": "N00072",
+     "nodes": [
+      "UX7,10",
+      "UX7,4"
+     ]
+    },
+    {
+     "name": "N00073",
+     "nodes": [
+      "UX7,2",
+      "UX8,4"
+     ]
+    },
+    {
+     "name": "N00074",
+     "nodes": [
+      "RX95,2",
+      "UX7,12"
+     ]
+    },
+    {
+     "name": "N00075",
+     "nodes": [
+      "UX7,13",
+      "RX96,2"
+     ]
+    },
+    {
+     "name": "N00076",
+     "nodes": [
+      "RX66,2",
+      "UX14,12",
+      "CX47,1"
+     ]
+    },
+    {
+     "name": "PHASE-4",
+     "nodes": [
+      "UX13,13",
+      "UX8,9",
+      "UX13,5",
+      "P3,1",
+      "UX14,9"
+     ]
+    },
+    {
+     "name": "N00078",
+     "nodes": [
+      "RX62,2",
+      "UX14,14"
+     ]
+    },
+    {
+     "name": "N00079",
+     "nodes": [
+      "CX47,2",
+      "CX53,1",
+      "RX72,1",
+      "CX48,2",
+      "CX49,2",
+      "UX12,2"
+     ]
+    },
+    {
+     "name": "N00080",
+     "nodes": [
+      "RX72,2",
+      "UX12,1",
+      "RX75,2",
+      "CX57,1"
+     ]
+    },
+    {
+     "name": "FILT-4",
+     "nodes": [
+      "UX13,2",
+      "UX8,5",
+      "UX13,4",
+      "P3,2"
+     ]
+    },
+    {
+     "name": "N00082",
+     "nodes": [
+      "UX14,15",
+      "RX63,2"
+     ]
+    },
+    {
+     "name": "N00083",
+     "nodes": [
+      "UX14,2",
+      "CX48,1",
+      "RX65,1"
+     ]
+    },
+    {
+     "name": "N00084",
+     "nodes": [
+      "UX14,4",
+      "RX74,1"
+     ]
+    },
+    {
+     "name": "N00085",
+     "nodes": [
+      "RX80,1",
+      "CX57,2",
+      "RX79,1",
+      "RX78,1"
+     ]
+    },
+    {
+     "name": "N00086",
+     "nodes": [
+      "RX80,2",
+      "P3,8"
+     ]
+    },
+    {
+     "name": "N00087",
+     "nodes": [
+      "UX14,5",
+      "RX64,1"
+     ]
+    },
+    {
+     "name": "N00088",
+     "nodes": [
+      "P3,9",
+      "RX81,2"
+     ]
+    },
+    {
+     "name": "N00089",
+     "nodes": [
+      "RX79,2",
+      "P3,11"
+     ]
+    },
+    {
+     "name": "FC-4",
+     "nodes": [
+      "UX13,6",
+      "UX14,11"
+     ]
+    },
+    {
+     "name": "N00091",
+     "nodes": [
+      "P3,12",
+      "RX77,2"
+     ]
+    },
+    {
+     "name": "FB-4",
+     "nodes": [
+      "UX13,11",
+      "UX14,10"
+     ]
+    },
+    {
+     "name": "N00093",
+     "nodes": [
+      "RX81,1",
+      "CX58,2",
+      "RX77,1",
+      "RX76,1"
+     ]
+    },
+    {
+     "name": "N00094",
+     "nodes": [
+      "RX75,1",
+      "UX11,4"
+     ]
+    },
+    {
+     "name": "N00095",
+     "nodes": [
+      "RX74,2",
+      "CX58,1"
+     ]
+    },
+    {
+     "name": "N00096",
+     "nodes": [
+      "RX71,2",
+      "UX11,12",
+      "CX50,1"
+     ]
+    },
+    {
+     "name": "N00097",
+     "nodes": [
+      "RX67,2",
+      "UX11,14"
+     ]
+    },
+    {
+     "name": "N00098",
+     "nodes": [
+      "CX50,2",
+      "CX55,1",
+      "RX73,1",
+      "CX51,2",
+      "CX52,2",
+      "UX12,6"
+     ]
+    },
+    {
+     "name": "N00099",
+     "nodes": [
+      "RX73,2",
+      "CX55,2",
+      "UX12,7"
+     ]
+    },
+    {
+     "name": "N00100",
+     "nodes": [
+      "UX11,15",
+      "RX68,2"
+     ]
+    },
+    {
+     "name": "N00101",
+     "nodes": [
+      "UX11,2",
+      "CX51,1",
+      "RX70,1"
+     ]
+    },
+    {
+     "name": "N00102",
+     "nodes": [
+      "UX11,5",
+      "CX52,1",
+      "RX69,1"
+     ]
+    },
+    {
+     "name": "FF-4",
+     "nodes": [
+      "UX13,3",
+      "UX11,11"
+     ]
+    },
+    {
+     "name": "FE-4",
+     "nodes": [
+      "UX13,8",
+      "UX11,10"
+     ]
+    },
+    {
+     "name": "FD-4",
+     "nodes": [
+      "UX8,8",
+      "UX13,10",
+      "UX13,1",
+      "UX11,9"
+     ]
+    },
+    {
+     "name": "N00106",
+     "nodes": [
+      "UX8,6",
+      "UX13,9",
+      "UX13,12"
+     ]
+    },
+    {
+     "name": "N00107",
+     "nodes": [
+      "RX97,2",
+      "UX8,11"
+     ]
+    },
+    {
+     "name": "N00108",
+     "nodes": [
+      "RX98,2",
+      "UX8,13"
+     ]
+    },
+    {
+     "name": "N00109",
+     "nodes": [
+      "P1,12",
+      "RX83,1",
+      "RX82,1",
+      "P1,11"
+     ]
+    },
+    {
+     "name": "N00110",
+     "nodes": [
+      "RX82,2",
+      "QX3,3"
+     ]
+    },
+    {
+     "name": "N00111",
+     "nodes": [
+      "QX3,2",
+      "QX4,1"
+     ]
+    },
+    {
+     "name": "N00112",
+     "nodes": [
+      "QX4,2",
+      "RX83,2",
+      "RX84,1",
+      "CX59,1",
+      "CX60,1"
+     ]
+    },
+    {
+     "name": "N00113",
+     "nodes": [
+      "QX8,3",
+      "RX90,1"
+     ]
+    },
+    {
+     "name": "N00114",
+     "nodes": [
+      "QX8,2",
+      "RX90,2",
+      "RX89,1",
+      "CX62,1"
+     ]
+    },
+    {
+     "name": "N00115",
+     "nodes": [
+      "RX89,2",
+      "QX7,2",
+      "RX88,1",
+      "CX63,2"
+     ]
+    },
+    {
+     "name": "N00116",
+     "nodes": [
+      "CX61,2",
+      "RX87,2",
+      "QX5,2",
+      "RX86,2",
+      "CX70,2"
+     ]
+    },
+    {
+     "name": "N00117",
+     "nodes": [
+      "P1,7",
+      "P1,6",
+      "RX86,1",
+      "RX85,1"
+     ]
+    },
+    {
+     "name": "N00118",
+     "nodes": [
+      "QX5,1",
+      "QX6,2"
+     ]
+    },
+    {
+     "name": "N00119",
+     "nodes": [
+      "RX88,2",
+      "QX7,3"
+     ]
+    },
+    {
+     "name": "N00120",
+     "nodes": [
+      "RX85,2",
+      "QX6,3"
+     ]
+    },
+    {
+     "name": "N00121",
+     "nodes": [
+      "RX91,2",
+      "QX9,3"
+     ]
+    },
+    {
+     "name": "N00122",
+     "nodes": [
+      "QX9,2",
+      "RX92,2",
+      "CX66,1",
+      "RX93,1"
+     ]
+    },
+    {
+     "name": "MIC0",
+     "nodes": [
+      "CX5,1",
+      "CX2,1",
+      "CX1,1",
+      "RX1,2",
+      "P2,2"
+     ]
+    },
+    {
+     "name": "M_SENSHI",
+     "nodes": [
+      "RX23,2",
+      "UX2,8",
+      "CX17,1",
+      "P4,7"
+     ]
+    },
+    {
+     "name": "+5V",
+     "nodes": [
+      "UX1,16",
+      "RX30,2",
+      "UX4,16",
+      "RX31,2",
+      "RX28,2",
+      "RX29,2",
+      "DX17,1",
+      "UX3,16",
+      "U1,16",
+      "U2,16",
+      "UX10,16",
+      "UX11,16",
+      "UX14,16",
+      "QX9,1",
+      "CX68,1",
+      "CX67,1",
+      "RX94,1"
+     ]
+    },
+    {
+     "name": "M_SENSA",
+     "nodes": [
+      "RX23,1",
+      "UX2,1",
+      "CX17,2",
+      "P4,8",
+      "P4,9"
+     ]
+    },
+    {
+     "name": "A_COMMON",
+     "nodes": [
+      "JP2,3",
+      "DX6,2",
+      "DX7,1",
+      "RX14,1",
+      "RX15,2",
+      "RX18,1",
+      "RX19,2",
+      "CX13,2",
+      "QX2,1",
+      "QX1,1",
+      "RX24,1",
+      "CX21,2",
+      "CX20,2",
+      "CX23,2",
+      "RX26,1",
+      "CX18,1",
+      "CX19,1",
+      "CX14,2",
+      "CX16,1",
+      "UX2,5",
+      "DX2,2",
+      "JP1,3",
+      "DX3,1",
+      "RX5,1",
+      "RX20,2",
+      "RX8,1",
+      "RX9,2",
+      "P4,1",
+      "U1,13",
+      "CX37,1",
+      "RX43,2",
+      "P2,10",
+      "RX41,1",
+      "RX42,2",
+      "DX13,2",
+      "DX14,1",
+      "DX16,1",
+      "DX15,2",
+      "UX5,3",
+      "U2,13",
+      "UX5,5",
+      "RX44,1",
+      "P2,7",
+      "RX38,1",
+      "RX37,2",
+      "DX9,2",
+      "DX10,1",
+      "DX11,1",
+      "DX12,2",
+      "CX36,1",
+      "RX61,2",
+      "UX10,12",
+      "UX10,1",
+      "CX41,1",
+      "UX6,3",
+      "CX40,1",
+      "RX53,2",
+      "RX56,1",
+      "JX1,2",
+      "JX2,2",
+      "UX11,13",
+      "UX11,1",
+      "UX11,3",
+      "UX12,5",
+      "CX56,2",
+      "RX70,2",
+      "RX69,2",
+      "P3,7",
+      "RX76,2",
+      "P3,10",
+      "RX71,1",
+      "UX14,13",
+      "UX14,1",
+      "UX14,3",
+      "RX65,2",
+      "RX64,2",
+      "RX78,2",
+      "UX12,3",
+      "RX66,1",
+      "CX63,1",
+      "CX62,2",
+      "P1,10",
+      "CX71,1",
+      "CX69,2",
+      "CX61,1",
+      "CX59,2",
+      "RX87,1",
+      "RX84,2",
+      "CX70,1",
+      "P1,9",
+      "P1,8",
+      "P1,2"
+     ]
+    },
+    {
+     "name": "MIC2",
+     "nodes": [
+      "JP1,2",
+      "RX1,1",
+      "RX2,2",
+      "P2,1"
+     ]
+    },
+    {
+     "name": "CTL_COM",
+     "nodes": [
+      "UX4,6",
+      "UX4,9",
+      "UX4,5",
+      "UX4,3",
+      "UX4,8",
+      "UX4,4",
+      "RX34,1",
+      "CX26,1",
+      "UX1,14",
+      "CX25,2",
+      "UX1,9",
+      "UX1,6",
+      "CX27,1",
+      "CX24,2",
+      "UX1,8",
+      "UX3,5",
+      "UX3,3",
+      "UX3,8",
+      "UX3,4",
+      "UX3,6",
+      "UX3,9",
+      "U2,4",
+      "U2,8",
+      "U1,4",
+      "U2,7",
+      "U2,5",
+      "U2,3",
+      "U2,6",
+      "U2,9",
+      "U1,8",
+      "U1,7",
+      "U1,5",
+      "U1,3",
+      "U1,6",
+      "U1,9",
+      "RX95,1",
+      "RX96,1",
+      "UX10,8",
+      "UX10,4",
+      "UX10,7",
+      "UX10,5",
+      "UX10,3",
+      "UX10,6",
+      "RX97,1",
+      "RX98,1",
+      "UX11,7",
+      "UX11,8",
+      "UX11,6",
+      "UX14,7",
+      "UX14,8",
+      "UX14,6",
+      "P3,6",
+      "CX64,2",
+      "P1,5",
+      "CX66,2",
+      "CX65,2",
+      "RX93,2",
+      "CX68,2",
+      "CX67,2",
+      "RX94,2"
+     ]
+    },
+    {
+     "name": "MIC AUDIO",
+     "nodes": [
+      "CX22,1",
+      "RX26,2",
+      "CX42,1"
+     ]
+    },
+    {
+     "name": "MIC1",
+     "nodes": [
+      "RX2,1",
+      "CX3,1",
+      "CX4,1",
+      "CX6,1",
+      "P2,3"
+     ]
+    },
+    {
+     "name": "LO_SENS",
+     "nodes": [
+      "UX3,11",
+      "UX3,10",
+      "UX4,11",
+      "UX4,10",
+      "P3,3"
+     ]
+    },
+    {
+     "name": "+12V",
+     "nodes": [
+      "RX21,2",
+      "P1,4",
+      "RX92,1",
+      "CX64,1",
+      "RX91,1"
+     ]
+    },
+    {
+     "name": "-22V",
+     "nodes": [
+      "RX33,2",
+      "UX2,4",
+      "CX18,2",
+      "CX19,2",
+      "UX12,4",
+      "CX56,1",
+      "QX6,1"
+     ]
+    },
+    {
+     "name": "+22V",
+     "nodes": [
+      "UX2,7",
+      "CX21,1",
+      "CX20,1",
+      "CX54,2",
+      "QX3,1"
+     ]
+    },
+    {
+     "name": "PHANTOM",
+     "nodes": [
+      "RX22,2",
+      "P1,3"
+     ]
+    },
+    {
+     "name": "MIC A",
+     "nodes": [
+      "UX1,10",
+      "UX1,1",
+      "UX7,6"
+     ]
+    },
+    {
+     "name": "MIC5",
+     "nodes": [
+      "JP2,2",
+      "RX10,1",
+      "RX11,2",
+      "P2,4"
+     ]
+    },
+    {
+     "name": "MIC3",
+     "nodes": [
+      "CX11,1",
+      "CX8,1",
+      "CX7,1",
+      "RX10,2",
+      "P2,5"
+     ]
+    },
+    {
+     "name": "MIC4",
+     "nodes": [
+      "RX11,1",
+      "CX9,1",
+      "CX10,1",
+      "CX12,1",
+      "P2,6"
+     ]
+    },
+    {
+     "name": "-18V",
+     "nodes": [
+      "CX36,2",
+      "UX5,4",
+      "UX6,4",
+      "CX40,2",
+      "QX7,1"
+     ]
+    },
+    {
+     "name": "LINE A",
+     "nodes": [
+      "U2,11",
+      "U2,10",
+      "UX7,8"
+     ]
+    },
+    {
+     "name": "LINE AUDIO",
+     "nodes": [
+      "UX5,1",
+      "CX29,2",
+      "RX48,2",
+      "P4,3",
+      "CX46,1"
+     ]
+    },
+    {
+     "name": "+18V",
+     "nodes": [
+      "CX37,2",
+      "UX5,8",
+      "UX6,8",
+      "CX41,2",
+      "QX8,1"
+     ]
+    },
+    {
+     "name": "LINE B",
+     "nodes": [
+      "U1,11",
+      "U1,10",
+      "UX7,3"
+     ]
+    },
+    {
+     "name": "SEL OUT",
+     "nodes": [
+      "CX38,2",
+      "RX52,2",
+      "UX6,1",
+      "CX44,1",
+      "RX67,1",
+      "RX62,1"
+     ]
+    },
+    {
+     "name": "HP OUT",
+     "nodes": [
+      "RX59,2",
+      "RX60,2",
+      "UX6,7",
+      "RX54,2",
+      "RX55,2",
+      "RX61,1",
+      "RX68,1",
+      "RX63,1"
+     ]
+    },
+    {
+     "name": "VCC",
+     "nodes": [
+      "UX8,14",
+      "UX7,14",
+      "UX13,14"
+     ]
+    },
+    {
+     "name": "GND",
+     "nodes": [
+      "UX8,7",
+      "UX7,7",
+      "UX13,7"
+     ]
+    },
+    {
+     "name": "MIC CTL",
+     "nodes": [
+      "UX8,1",
+      "P1,1"
+     ]
+    },
+    {
+     "name": "A CTL",
+     "nodes": [
+      "UX8,3",
+      "P3,5"
+     ]
+    }
+   ],
+   "title": "M920 INPUT MODULE PREAMPLIFIER",
+   "file": "SA14331.NET"
+  }
+ ],
+ "boms": [
+  {
+   "file": "SA14331.BOM",
+   "header": [
+    "M920 INPUT MODULE PREAMPLIFIER                Revised:       May  1, 1996",
+    "14-331-02-001/1                               Revision: 0",
+    "Bill Of Materials                 June   10, 1996     8:05:00     Page    1"
+   ],
+   "items": [
+    {
+     "item": 1,
+     "qty": 17,
+     "refs": "CX1,CX2,CX3,CX4,CX7,CX8,CX9,CX10,CX13,CX18,CX21,CX22,CX57,CX58,CX64,CX69,CX71",
+     "part": "47/50"
+    },
+    {
+     "item": 2,
+     "qty": 8,
+     "refs": "CX5,CX6,CX11,CX12,CX19,CX20,CX26,CX27",
+     "part": "0.1"
+    },
+    {
+     "item": 3,
+     "qty": 3,
+     "refs": "CX14,CX15,CX16",
+     "part": "470P"
+    },
+    {
+     "item": 4,
+     "qty": 1,
+     "refs": "CX17",
+     "part": "1000P"
+    },
+    {
+     "item": 5,
+     "qty": 8,
+     "refs": "RX21,RX23,CX23,RX25,RX95,RX96,RX97,RX98",
+     "part": "SOT"
+    },
+    {
+     "item": 6,
+     "qty": 2,
+     "refs": "CX24,CX25",
+     "part": "4U7/10"
+    },
+    {
+     "item": 7,
+     "qty": 4,
+     "refs": "CX28,CX29,CX53,CX55",
+     "part": "22P"
+    },
+    {
+     "item": 8,
+     "qty": 6,
+     "refs": "CX30,CX31,CX32,CX33,CX34,CX35",
+     "part": "220/10"
+    },
+    {
+     "item": 9,
+     "qty": 10,
+     "refs": "CX36,CX37,CX40,CX41,CX54,CX56,CX59,CX61,CX65,CX67",
+     "part": "0.1/50"
+    },
+    {
+     "item": 10,
+     "qty": 2,
+     "refs": "CX38,CX39",
+     "part": "47P"
+    },
+    {
+     "item": 11,
+     "qty": 3,
+     "refs": "CX42,CX43,CX46",
+     "part": "68/10"
+    },
+    {
+     "item": 12,
+     "qty": 2,
+     "refs": "CX44,CX45",
+     "part": "0.068"
+    },
+    {
+     "item": 13,
+     "qty": 6,
+     "refs": "CX47,CX48,CX49,CX50,CX51,CX52",
+     "part": "10/50"
+    },
+    {
+     "item": 14,
+     "qty": 6,
+     "refs": "CX60,CX62,CX63,CX66,CX68,CX70",
+     "part": "22/25"
+    },
+    {
+     "item": 15,
+     "qty": 8,
+     "refs": "DX1,DX2,DX3,DX4,DX5,DX6,DX7,DX8",
+     "part": "1N752A"
+    },
+    {
+     "item": 16,
+     "qty": 9,
+     "refs": "DX9,DX10,DX11,DX12,DX13,DX14,DX15,DX16,DX17",
+     "part": "1N4148"
+    },
+    {
+     "item": 17,
+     "qty": 2,
+     "refs": "JP1,JP2",
+     "part": "BERG3"
+    },
+    {
+     "item": 18,
+     "qty": 4,
+     "refs": "JX1,JX2,JX3,JX4",
+     "part": "CON2"
+    },
+    {
+     "item": 19,
+     "qty": 1,
+     "refs": "K1",
+     "part": "G6AK-234P-ST-US-5VDC"
+    },
+    {
+     "item": 20,
+     "qty": 4,
+     "refs": "P1,P2,P3,P4",
+     "part": "65646-112"
+    },
+    {
+     "item": 21,
+     "qty": 5,
+     "refs": "QX1,QX2,QX4,QX8,QX9",
+     "part": "2N3904"
+    },
+    {
+     "item": 22,
+     "qty": 1,
+     "refs": "QX3",
+     "part": "2N6731"
+    },
+    {
+     "item": 23,
+     "qty": 2,
+     "refs": "QX5,QX7",
+     "part": "2N3906"
+    },
+    {
+     "item": 24,
+     "qty": 1,
+     "refs": "QX6",
+     "part": "2N6730"
+    },
+    {
+     "item": 25,
+     "qty": 5,
+     "refs": "RX1,RX2,RX10,RX11,RX46",
+     "part": "6K81 1%"
+    },
+    {
+     "item": 26,
+     "qty": 4,
+     "refs": "RX3,RX4,RX12,RX13",
+     "part": "49R9 1%"
+    },
+    {
+     "item": 27,
+     "qty": 4,
+     "refs": "RX5,RX14,RX15,RX20",
+     "part": "10K 1%"
+    },
+    {
+     "item": 28,
+     "qty": 4,
+     "refs": "RX6,RX7,RX16,RX17",
+     "part": "1K58 1%"
+    },
+    {
+     "item": 29,
+     "qty": 4,
+     "refs": "RX8,RX9,RX18,RX19",
+     "part": "150 1%"
+    },
+    {
+     "item": 30,
+     "qty": 1,
+     "refs": "RX22",
+     "part": "100 1/2W"
+    },
+    {
+     "item": 31,
+     "qty": 14,
+     "refs": "RX24,RX26,RX64,RX65,RX66,RX69,RX70,RX71,RX76,RX78,RX84,RX87,RX89,RX94",
+     "part": "100K"
+    },
+    {
+     "item": 32,
+     "qty": 6,
+     "refs": "RX27,RX28,RX29,RX30,RX31,RX32",
+     "part": "10K"
+    },
+    {
+     "item": 33,
+     "qty": 1,
+     "refs": "RX33",
+     "part": "7K5"
+    },
+    {
+     "item": 34,
+     "qty": 1,
+     "refs": "RX34",
+     "part": "2K7"
+    },
+    {
+     "item": 35,
+     "qty": 15,
+     "refs": "RX35,RX36,RX39,RX40,RX50,RX51,RX52,RX62,RX63,RX67,RX68,RX72,RX73,RX74,RX75",
+     "part": "16K2 1%"
+    },
+    {
+     "item": 36,
+     "qty": 6,
+     "refs": "RX37,RX38,RX41,RX42,RX43,RX44",
+     "part": "100K 1%"
+    },
+    {
+     "item": 37,
+     "qty": 2,
+     "refs": "RX45,RX49",
+     "part": "8K25 1%"
+    },
+    {
+     "item": 38,
+     "qty": 1,
+     "refs": "RX47",
+     "part": "5K"
+    },
+    {
+     "item": 39,
+     "qty": 1,
+     "refs": "RX48",
+     "part": "82K5 1%"
+    },
+    {
+     "item": 40,
+     "qty": 1,
+     "refs": "RX53",
+     "part": "620K"
+    },
+    {
+     "item": 41,
+     "qty": 1,
+     "refs": "RX54",
+     "part": "1K"
+    },
+    {
+     "item": 42,
+     "qty": 1,
+     "refs": "RX55",
+     "part": "150K"
+    },
+    {
+     "item": 43,
+     "qty": 1,
+     "refs": "RX56",
+     "part": "1M"
+    },
+    {
+     "item": 44,
+     "qty": 2,
+     "refs": "RX57,RX59",
+     "part": "27K"
+    },
+    {
+     "item": 45,
+     "qty": 2,
+     "refs": "RX58,RX60",
+     "part": "56K"
+    },
+    {
+     "item": 46,
+     "qty": 1,
+     "refs": "RX61",
+     "part": "470K"
+    },
+    {
+     "item": 47,
+     "qty": 4,
+     "refs": "RX77,RX79,RX80,RX81",
+     "part": "30 1W"
+    },
+    {
+     "item": 48,
+     "qty": 2,
+     "refs": "RX82,RX85",
+     "part": "22"
+    },
+    {
+     "item": 49,
+     "qty": 2,
+     "refs": "RX83,RX86",
+     "part": "5K8"
+    },
+    {
+     "item": 50,
+     "qty": 2,
+     "refs": "RX88,RX90",
+     "part": "9K1"
+    },
+    {
+     "item": 51,
+     "qty": 1,
+     "refs": "RX91",
+     "part": "390"
+    },
+    {
+     "item": 52,
+     "qty": 1,
+     "refs": "RX92",
+     "part": "3K9"
+    },
+    {
+     "item": 53,
+     "qty": 1,
+     "refs": "RX93",
+     "part": "3K3"
+    },
+    {
+     "item": 54,
+     "qty": 1,
+     "refs": "UX1",
+     "part": "74HC123"
+    },
+    {
+     "item": 55,
+     "qty": 1,
+     "refs": "UX2",
+     "part": "SSM2017P"
+    },
+    {
+     "item": 56,
+     "qty": 7,
+     "refs": "U1,U2,UX3,UX4,UX10,UX11,UX14",
+     "part": "MC14053"
+    },
+    {
+     "item": 57,
+     "qty": 2,
+     "refs": "UX5,UX6",
+     "part": "LM833N"
+    },
+    {
+     "item": 58,
+     "qty": 2,
+     "refs": "UX7,UX13",
+     "part": "74HC00N"
+    },
+    {
+     "item": 59,
+     "qty": 1,
+     "refs": "UX8",
+     "part": "74HC14N"
+    },
+    {
+     "item": 60,
+     "qty": 1,
+     "refs": "UX12",
+     "part": "OPA2604"
+    }
+   ]
+  }
+ ],
+ "libraries": [
+  "SA14331A.LIB"
+ ]
+}

@@ -1,0 +1,155 @@
+M921 INPUT MODULE PREAMPLIFIER                Revised:      June  6, 1996
+C 921-0-005                                   Revision: 0
+Bill Of Materials                 June    7, 1996     13:42:12     Page    1
+
+ Item  Quantity  Reference                 Part       
+_______________________________________________________
+
+    1      12    CX1,CX2,CX12,CX17,CX27,   220/10     
+                 CX38,CX44,CX45,CX50,CX51,
+                 CX52,CX53
+    2      16    CX3,CX6,CX7,CX10,CX13,    22P        
+                 CX14,CX29,CX31,CX32,CX35,
+                 CX66,CX67,CX68,CX69,CX70,
+                 CX71
+    3      37    CX4,CX5,CX8,CX9,CX15,     0.1        
+                 CX16,CX23,CX24,CX28,CX30,
+                 CX33,CX34,CX36,CX37,CX41,
+                 CX42,CX43,CX46,CX47,CX54,
+                 CX55,CX60,CX61,CX78,CX79,
+                 CX80,CX81,CX82,CX83,CX87,
+                 CX88,CX95,CX104,CX106,
+                 CX108,CX112,CX114
+    4       5    RX5,RX6,CX11,CX25,RX32    SOT        
+    5      19    CX18,CX19,CX20,CX21,CX63, 68/10      
+                 CX64,CX65,CX72,CX73,CX74,
+                 CX75,CX76,CX77,CX105,
+                 CX107,CX110,CX111,CX113,
+                 CX116
+    6      10    CX22,CX26,CX48,CX49,CX56, 47P        
+                 CX57,CX59,CX62,CX109,
+                 CX115
+    7       6    CX39,CX86,CX90,CX92,CX97, 22/25      
+                 CX99
+    8       1    CX40                      0.1/50     
+    9       1    CX58                      0.33       
+   10       2    CX84,CX85                 1/35       
+   11      10    CX89,CX91,CX93,CX94,CX96, 47/50      
+                 CX98,CX100,CX101,CX102,
+                 CX103
+   12       9    DX1,DX2,DX3,DX4,DX5,DX6,  1N4148     
+                 DX7,DX8,DX9
+   13       1    DX10                      LD100-55   
+   14       5    DX11,DX12,DX13,DX14,DX15  1N4003     
+   15       3    LK1,JP1,JP2               BLA        
+   16      12    QX1,QX3,QX6,QX10,QX14,    2N3906     
+                 QX15,QX16,QX17,QX18,QX19,
+                 QX20,QX21
+   17       5    QX2,QX4,QX8,QX12,QX22     2N3904     
+   18       3    QX5,QX9,QX13              TIP29B     
+   19       2    QX7,QX11                  TIP30B     
+   20      47    RX1,RX2,RX7,RX8,RX13,     15K 1%     
+                 RX14,RX19,RX20,RX23,RX24,
+                 RX27,RX28,RX33,RX34,RX35,
+                 RX36,RX50,RX112,RX113,
+                 RX114,RX115,RX116,RX117,
+                 RX118,RX119,RX120,RX121,
+                 RX122,RX123,RX124,RX125,
+                 RX126,RX127,RX128,RX129,
+                 RX130,RX131,RX132,RX133,
+                 RX134,RX135,RX148,RX149,
+M921 INPUT MODULE PREAMPLIFIER                Revised:      June  6, 1996
+C 921-0-005                                   Revision: 0
+Bill Of Materials                 June    7, 1996     13:42:12     Page    2
+
+ Item  Quantity  Reference                 Part       
+_______________________________________________________
+
+                 RX150,RX151,RX152,RX153
+   21      14    RX3,RX4,RX11,RX12,RX17,   100K 1%    
+                 RX18,RX21,RX22,RX84,RX87,
+                 RX96,RX97,RX100,RX101
+   22       1    RX9                       14K3 1%    
+   23       2    RX10,RX15                 30R 1W     
+   24       4    RX16,RX93,RX204,RX208     1K         
+   25       8    RX25,RX31,RX142,RX143,    5K         
+                 RX144,RX145,RX146,RX147
+   26       3    RX26,RX202,RX207          3K6        
+   27       1    RX29                      8K25 1%    
+   28       1    RX30                      6K81 1%    
+   29       2    RX37,RX48                 30R 1/2W   
+   30       6    RX38,RX41,RX42,RX43,RX45, 2K43 0.1%  
+                 RX46
+   31       2    RX39,RX44                 1K52 0.1%  
+   32       2    RX40,RX47                 2K 0.1%    
+   33       5    RX49,RX106,RX107,RX108,   10K 1%     
+                 RX111
+   34       2    RX51,RX52                 150K       
+   35       2    RX53,RX54                 680        
+   36       2    RX55,RX56                 30K        
+   37       5    RX57,RX59,RX60,RX196,     100        
+                 RX197
+   38       3    RX58,RX61,RX65            39K        
+   39      22    RX62,RX63,RX67,RX70,      10K        
+                 RX157,RX183,RX184,RX185,
+                 RX186,RX187,RX188,RX189,
+                 RX190,RX191,RX192,RX193,
+                 RX194,RX195,RX199,RX200,
+                 RX201,RX203
+   40      10    RX64,RX66,RX154,RX155,    4K7        
+                 RX166,RX167,RX205,RX206,
+                 RX209,RX210
+   41      15    RX68,RX69,RX71,RX72,RX73, 82R        
+                 RX74,RX75,RX76,RX77,RX78,
+                 RX79,RX80,RX81,RX82,RX83
+   42       4    RX85,RX86,RX88,RX89       16K2 1%    
+   43       2    RX90,RX91                 4K32 1%    
+   44       1    RX92                      619K 1%    
+   45       1    RX94                      4K75 1%    
+   46       1    RX95                      4K12 1%    
+   47       3    RX98,RX99,RX103           20K 1%     
+   48       1    RX102                     150K 1%    
+   49       1    RX104                     1K3 1%     
+   50       1    RX105                     2K43 1%    
+   51       2    RX109,RX110               30         
+   52       6    RX136,RX137,RX138,RX139,  15K        
+                 RX140,RX141
+   53       4    RX156,RX158,RX170,RX175   100K       
+   54       1    RX159                     20K        
+   55       3    RX160,RX178,RX179         9K1        
+   56       2    RX161,RX164               12K        
+M921 INPUT MODULE PREAMPLIFIER                Revised:      June  6, 1996
+C 921-0-005                                   Revision: 0
+Bill Of Materials                 June    7, 1996     13:42:12     Page    3
+
+ Item  Quantity  Reference                 Part       
+_______________________________________________________
+
+   57       1    RX162                     820        
+   58       2    RX163,RX165               47K        
+   59       1    RX168                     2K7 1/2W   
+   60       2    RX169,RX171               2K7        
+   61       5    RX172,RX173,RX176,RX177,  1R5        
+                 RX182
+   62       1    RX174                     100 1/2W   
+   63       1    RX180                     6K8        
+   64       1    RX181                     6K2        
+   65       1    RX198                     2K4        
+   66       6    UX1,U1,UX2,U2,UX3,U3      NE5534N    
+   67      14    UX4,UX5,UX17,UX18,UX19,   CD4053N    
+                 UX20,UX21,UX22,UX23,UX24,
+                 UX25,UX26,UX29,UX30
+   68       3    UX6,UX13,UX28             LM833N     
+   69       1    UX7                       68HC705X4  
+   70       1    UX8                       74HC132    
+   71       1    UX9                       93LC66     
+   72       2    UX10,UX11                 74HC244N   
+   73       1    UX12                      74HC374N   
+   74       1    UX14                      4053BCP    
+   75       1    UX15                      SSM2018TP  
+   76       1    UX16                      OPA2604    
+   77       1    UX27                      LM837N     
+   78       1    UX31                      LM393N     
+   79       1    UX32                      74HC595N   
+   80       1    UX33                      ULN2803N   
+   81       2    U4,U5                     LM833      

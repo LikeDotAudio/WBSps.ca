@@ -1,0 +1,285 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>DRC</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>DRC</h1>
+<p><a href="People.html">← People</a></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Initials</td>
+<td>DRC</td>
+</tr>
+<tr>
+<td>Name</td>
+<td>unknown — add to timelines/people.json</td>
+</tr>
+<tr>
+<td>Note</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Drawings</td>
+<td>22</td>
+</tr>
+<tr>
+<td>Roles</td>
+<td>checked, drawn, engineer</td>
+</tr>
+<tr>
+<td>Active (dated drawings)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Projects</td>
+<td><a href="Job-93032.html">93032</a>, <a href="Job-93044.html">93044</a>, <a href="Job-940114.html">940114</a>, <a href="Job-940184.html">940184</a>, <a href="Job-94021.html">94021</a>, <a href="Job-940243.html">940243</a>, <a href="Job-94033.html">94033</a>, <a href="Job-940335.html">940335</a>, <a href="Job-940448.html">940448</a>, <a href="Job-940449.html">940449</a>, <a href="Job-94055.html">94055</a>, <a href="Job-950069.html">950069</a>, <a href="Job-95014.html">95014</a>, <a href="Job-950190.html">950190</a>, <a href="Job-95020.html">95020</a>, <a href="Job-950208.html">950208</a>, <a href="Job-950362.html">950362</a>, <a href="Job-96019.html">96019</a>, <a href="Job-960195.html">960195</a>, <a href="Job-960296.html">960296</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Drawings</h2>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="People.html#drawing-staff">Drawn by</a></th>
+<th><a href="People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>93032-01-001</td>
+<td>Irix Outputs Jssuel Revsion</td>
+<td></td>
+<td><a href="Person-DRC.html">DRC</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/93032%20-%20CTS/1993%20-%2093032%20-%20DOC%20-%2093032-01-001%20-%20IRIX%20OUTPUTS%20JSSUEL%20REVSION.jpg">file</a></td>
+</tr>
+<tr>
+<td>93044-01-001</td>
+<td>Toronto Broadcast Centre Eng Proposed Microcom Functional</td>
+<td></td>
+<td><a href="Person-DRC.html">DRC</a></td>
+<td></td>
+<td>L</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/93044%20-%20TORONTO%20BROADCAST%20CENTRE/1993%20-%2093044%20-%20DOC%20-%2093044-01-001%20-%20TORONTO%20BROADCAST%20CENTRE%20ENG%20PROPOSED%20MICROCOM%20FUNCTIONAL.jpg">file</a></td>
+</tr>
+<tr>
+<td>940114-03-001</td>
+<td>Crit And Paint Textured Grey Texcote Mnyl Ssue</td>
+<td></td>
+<td><a href="Person-DRC.html">DRC</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/940114/1994%20-%20940114%20-%20DOC%20-%20940114-03-001%20-%20CRIT%20AND%20PAINT%20TEXTURED%20GREY%20TEXCOTE%20MNYL%20SSUE.jpg">file</a></td>
+</tr>
+<tr>
+<td>940184-04-003</td>
+<td>Headphone Headphone Out Out Front Contrcl Roov Headphone</td>
+<td></td>
+<td><a href="Person-DRC.html">DRC</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/940184%20-%20Glenn%20Gould%20Studio/1994%20-%20940184%20-%20DOC%20-%20940184-04-003%20-%20HEADPHONE%20HEADPHONE%20OUT%20OUT%20FRONT%20CONTRCL%20ROOV%20HEADPHONE.jpg">file</a></td>
+</tr>
+<tr>
+<td>94021-04-002</td>
+<td>Nqie Rear View Identical For Both Turrets</td>
+<td></td>
+<td><a href="Person-DRC.html">DRC</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/94021%20-%20Glenn%20Gould%20Studio/1994%20-%2094021%20-%20DOC%20-%2094021-04-002%20-%20NQIE%20REAR%20VIEW%20IDENTICAL%20FOR%20BOTH%20TURRETS.jpg">file</a></td>
+</tr>
+<tr>
+<td>94021-04-005</td>
+<td>Ohacqt Aopor Rcsoffly Otkes Vsadj W-Adj Mainstudio- Credenza</td>
+<td></td>
+<td><a href="Person-DRC.html">DRC</a></td>
+<td>ZMM</td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/94021%20-%20Glenn%20Gould%20Studio/1994%20-%2094021%20-%20DOC%20-%2094021-04-005%20-%20OHACQT%20AOPOR%20RCSOFFLY%20OTKES%20VSADJ%20W-ADJ%20MAINSTUDIO-%20CREDENZA.jpg">file</a></td>
+</tr>
+<tr>
+<td>940243-03-002</td>
+<td>Notes Remove All Burrs And Sharp Edges Tolerances</td>
+<td></td>
+<td><a href="Person-DRC.html">DRC</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/940243%20-%20Centennial%20College/1994%20-%20940243%20-%20DOC%20-%20940243-03-002%20-%20NOTES%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOLERANCES.jpg">file</a></td>
+</tr>
+<tr>
+<td>940335-03-001</td>
+<td>Dia Req'D</td>
+<td></td>
+<td></td>
+<td><a href="Person-DRC.html">DRC</a></td>
+<td>I</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/940335%20-%20CHFI/1994%20-%20940335%20-%20DOC%20-%20940335-03-001%20-%20DIA%20REQ%27D.jpg">file</a></td>
+</tr>
+<tr>
+<td>940448-04-001</td>
+<td>Out Out Out Ext Ext Ext</td>
+<td></td>
+<td><a href="Person-DRC.html">DRC</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/940448/1994%20-%20940448%20-%20DOC%20-%20940448-04-001%20-%20OUT%20OUT%20OUT%20EXT%20EXT%20EXT.jpg">file</a></td>
+</tr>
+<tr>
+<td>940449-03-001</td>
+<td>Eng Detail Host Turret Front Panel Note Revove</td>
+<td></td>
+<td><a href="Person-DRC.html">DRC</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/940449%20-%20WBZ%20Boston%20Radio%20Control%20Turrets%20Project%20No/1994%20-%20940449%20-%20DOC%20-%20940449-03-001%20-%20ENG%20DETAIL%20HOST%20TURRET%20FRONT%20PANEL%20NOTE%20REVOVE.jpg">file</a></td>
+</tr>
+<tr>
+<td>940449-03-002</td>
+<td>Grit And Paint Textured Grey Texcote Vinyl</td>
+<td></td>
+<td><a href="Person-DRC.html">DRC</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/940449%20-%20WBZ%20Boston%20Radio%20Control%20Turrets%20Project%20No/1994%20-%20940449%20-%20DOC%20-%20940449-03-002%20-%20GRIT%20AND%20PAINT%20TEXTURED%20GREY%20TEXCOTE%20VINYL.jpg">file</a></td>
+</tr>
+<tr>
+<td>940449-03-005</td>
+<td>Grit And Paint Textured Grey Texcote Vinyl</td>
+<td></td>
+<td><a href="Person-DRC.html">DRC</a></td>
+<td></td>
+<td>I</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/940449%20-%20WBZ%20Boston%20Radio%20Control%20Turrets%20Project%20No/1994%20-%20940449%20-%20DOC%20-%20940449-03-005%20-%20GRIT%20AND%20PAINT%20TEXTURED%20GREY%20TEXCOTE%20VINYL.jpg">file</a></td>
+</tr>
+<tr>
+<td>94055-04-001</td>
+<td>Trix Rack Layout</td>
+<td></td>
+<td></td>
+<td><a href="Person-DRC.html">DRC</a></td>
+<td>L</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/94055%20-%20TEN%20Engineering/1994%20-%2094055%20-%20DOC%20-%2094055-04-001%20-%20TRIX%20RACK%20LAYOUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>950069-03-005</td>
+<td>Nqies Remove All Burrs And Sharp Edges Tol</td>
+<td></td>
+<td><a href="Person-DRC.html">DRC</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/950069%20-%20CBc%20Toronto%20Machine%20and%20Logo%20Control%20Panel/1995%20-%20950069%20-%20DOC%20-%20950069-03-005%20-%20NQIES%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOL.jpg">file</a></td>
+</tr>
+<tr>
+<td>95014-01-002</td>
+<td>Futurc Ifb Outputs</td>
+<td></td>
+<td><a href="Person-DRC.html">DRC</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/95014/1995%20-%2095014%20-%20DOC%20-%2095014-01-002%20-%20FUTURC%20IFB%20OUTPUTS.jpg">file</a></td>
+</tr>
+<tr>
+<td>950190-08-001</td>
+<td>For Silkscreen Artwork See</td>
+<td></td>
+<td><a href="Person-DRC.html">DRC</a></td>
+<td></td>
+<td>I</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/950190/1995%20-%20950190%20-%20DOC%20-%20950190-08-001%20-%20FOR%20SILKSCREEN%20ARTWORK%20SEE.jpg">file</a></td>
+</tr>
+<tr>
+<td>950208-03-001</td>
+<td>Notes Remove Burrs And Sharp Edges Tol</td>
+<td></td>
+<td><a href="Person-DRC.html">DRC</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/950208/1995%20-%20950208%20-%20DOC%20-%20950208-03-001%20-%20NOTES%20REMOVE%20BURRS%20AND%20SHARP%20EDGES%20TOL.jpg">file</a></td>
+</tr>
+<tr>
+<td>950362-03-001</td>
+<td>Note Remove All Burrs And Sharp Edces Tolerances</td>
+<td></td>
+<td><a href="Person-DRC.html">DRC</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/950362/1995%20-%20950362%20-%20DOC%20-%20950362-03-001%20-%20NOTE%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDCES%20TOLERANCES.jpg">file</a></td>
+</tr>
+<tr>
+<td>950362-03-002</td>
+<td>Noes Remove All Burrs And Sharp Edges Tclerances</td>
+<td></td>
+<td><a href="Person-DRC.html">DRC</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/950362/1995%20-%20950362%20-%20DOC%20-%20950362-03-002%20-%20NOES%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TCLERANCES.jpg">file</a></td>
+</tr>
+<tr>
+<td>960195-03-001</td>
+<td>For Silkscreen Artwork See</td>
+<td></td>
+<td><a href="Person-DRC.html">DRC</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/960195%20-%20CBC/1996%20-%20960195%20-%20DOC%20-%20960195-03-001%20-%20FOR%20SILKSCREEN%20ARTWORK%20SEE.jpg">file</a></td>
+</tr>
+<tr>
+<td>960296-04-004</td>
+<td>Off Off Off Off Off Off Off Edac</td>
+<td></td>
+<td><a href="Person-DRC.html">DRC</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/960296%20-%20CBC%20REGINA/1996%20-%20960296%20-%20DOC%20-%20960296-04-004%20-%20OFF%20OFF%20OFF%20OFF%20OFF%20OFF%20OFF%20EDAC.jpg">file</a></td>
+</tr>
+</tbody>
+</table><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from Person-DRC.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

@@ -1,0 +1,147 @@
+# 1981 - microCOM - Inst Man p30.jpg
+Wiki page: [microCOM](../../../PAGES/microCOM.md)
+
+
+- **Year:** 1981 (module estimate (numeric))
+- **Module:** microCOM
+- **Category:** MICRO SERIES
+- **Module year estimate:** 1981 — numeric "07/13/81" in PUBLIC/Manuals + tech DOCUMENTS/Intercom/microcom/WBS MicroCOM Inst Man p49.JPG
+- **Original file:** `WBSps.env/PUBLIC/Manuals + tech DOCUMENTS/Intercom/microcom/WBS MicroCOM Inst Man p30.JPG`
+- **SHA-256:** `322c7bb48447e7ab09b2db84930ac74b386ed5f530f70faccfc4c061e7390ec8`
+- **Size:** 422,113 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 9 words corrected)
+
+```text
+ADDRESS BUFFERS OSCILLATOR AND TimiNG GENERATOR
+MEMORY ADDRESS REGISTER PROGRAM COUNTER AND Pointer REGisTerS 1,2 AND SERIAL INPUTISERIAL QUTPU BUS EXCHANGE LoGic
+INPUTIOUTPUT cONTROL Logic
+ACCUMULATOR EXTENSION Register VGG
+FLAG OUTPUTS ARITHMETIC Logic UNiT Vss
+STATUS REGISTER
+PROGRAMMABLE LoGic ARRAY
+INSTRUCTION AND MeMORY DATA ReGISTER SENSE INPUTS
+DATA INPUTIoUTPUT BUFFERS
+Ir &
+NS 102
+Figure I-1. Layout of SCIMP Chip
+2}
+0z Quest
+157156110,565339289 OUTPUT ADDRESS REGISTER [53051 1n9i7s shxk3m PROGRAM COUNTER (POINTER REGISTER 4O) Mi22pibib30) POiNTer ReGISTER m1
+BREO
+ENaBlEillt
+Eim ( * 4{s FHABLE Outtlt EMoUt ( X
+Xn)
+0 }
+MAn
+Aold (
+AdDress READY SaCUE KLDS (~ Vaite DaTA SrouE DTA Jds X TLau NE4D DAtA strobe Dutnn Kads ( ' ) SARTNOL cont ( ' } RESET HRS7 ( >
+INPUTIOUTPUT CONTROL
+Multiplexed ADDaeS KS
+BupnmmaaaeeaboW Pointer register *2
+2)
+pJuma UE EZII POINTer RegisTeR 03
+Ke)
+OSCILLATOR AND TIMinG GENERATOR
+CLs Ta4hsfer. 51f75 HI OtheR Function
+(n
+" (#
+66034121224 ACCUMULATOR
+(7>+ (4 X+ Vee
+{SERIAL Data IntL7
+Gating AND #isc FuhstiONS
+InSTRUCTION
+76531277578180 EXTENSION
+DECODe AND CONTROL
+OUTPUT LATCH 3 2 {EHsL
+LIEUEZTO STATUS
+SLISELnnterrl77
+iNsTRUCTiON reGisTer
+" 7
+ELag d HL ES
+InPuTmuF SATL BIT}
+(# L D4JA IeaUT QUTFU7
+ArithmETIC LOGIC UNIT
+OUTPUT buFFER
+INPUTIOUTPUT DATA RegisteR
+intutiOUTnut Bus
+9-1
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+ADDRESS BUFFERS OSCILLATOR AND TimiNG GENERATOR
+MEMORY ADDRESS REGISTEF PROGRAM COUNTER AND Pointer REGisTerS 1,2 AND SERIAL INPUTISERIAL QUTPU BUS EXCHANGE LoGic
+INPUTIOUTPUT cONTROL Logic
+ACCUMULATOR EXTENSION Register VGG
+FLAG OUTPUTS ARITHMETIC Logic UNiT Vss
+STATUS REGISTER
+PROGRAMMABLE LoGic ARRAY
+INSTRUCTION AND MeMORY DATA ReGISTER SENSE INPUTS
+DATA INPUTIoUTPUT BUFFERS
+Ir &
+NS 102
+Figure I-1. Layout of SCIMP Chip
+2}
+0z Quest
+157156110,565339289 OUTPUT ADQRESS REGISTER [53051 1n9i7s shxk3m PROGRAM COUNTER (POINTER REGISTER 4O) Mi22pibib30) POiNTer ReGISTER m1
+BREO
+ENaBlEillt
+Eim ( * 4{s FHABLE Outtlt EMoUt ( X
+Xn)
+0 }
+MAn
+Aold (
+AdDress AEaDY SaCUE KLDS (~ Vaite DaTA SrouE DTA Jds X TLau NE4D DAtA staobe Dutnn Kads ( ' ) SARTNOL cont ( ' } RESDT HRS7 ( >
+INPUTIOUTPUT CONTROL
+KuLtipLeXeD ADDaeS KS
+BupnmmaaaeeaboW Pointer register *2
+2)
+pJuma UE EZII POINTer RegisTeR 03
+Ke)
+OSCILLATOR AND TIMinG GENERATOR
+CLs Ta4hsfer. 51f75 HI OtheR Functiok
+(n
+" (#
+66034121224 ACCUMULATOR
+(7>+ (4 X+ Vee
+{ERIaL Data IntL7
+Gating AND #isc FuhstiONS
+InSTRUCTION
+76531277578180 EXTENSION
+DECODe AND CONTROL
+OUTPUT LATCH 3 2 {EHsL
+LIEUEZTO STATUS
+SLISELnnterrl77
+iNsTRUCTiON reGisTer
+" 7
+ELag d HL ES
+InPuTmuF SATL BIT}
+(# L D4JA IeaUT QUTFU7
+ArithmETIC LOGIC UNIT
+QUTPUT buFFER
+INPUTIOUTPUT DATA RegisteR
+intutiOUTnut Bus
+9-1
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p30.jpg",
+ "sha256": "322c7bb48447e7ab09b2db84930ac74b386ed5f530f70faccfc4c061e7390ec8",
+ "kind": "module",
+ "models": [
+  "microCOM"
+ ],
+ "year": 1981,
+ "pages": 1
+}
+```

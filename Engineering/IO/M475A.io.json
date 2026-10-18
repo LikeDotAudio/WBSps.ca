@@ -1,0 +1,76 @@
+{
+ "code": "M475A",
+ "series": null,
+ "type": "M475A",
+ "impedance": {},
+ "audio": [
+  {
+   "port": "I1",
+   "signal": "Input 15K",
+   "dir": "in",
+   "pos": "I1P",
+   "neg": "I1N",
+   "src_page": 29
+  },
+  {
+   "port": "I2",
+   "signal": "All Capotors Are In U",
+   "dir": "in",
+   "pos": "I2P",
+   "neg": "I2N",
+   "src_page": 29
+  },
+  {
+   "port": "O1",
+   "signal": "Output",
+   "dir": "out",
+   "pos": "O1P",
+   "neg": "O1N",
+   "src_page": 30
+  }
+ ],
+ "power": [
+  {
+   "rail": "+24V",
+   "volts": 24.0,
+   "supply": "+24V",
+   "ground": "25V COMMON",
+   "max_a": null
+  },
+  {
+   "rail": "+12V",
+   "volts": 12.0,
+   "supply": "+12V",
+   "ground": "25V COMMON",
+   "max_a": null
+  }
+ ],
+ "logic": [
+  {
+   "signal": "Solo",
+   "pin": ""
+  },
+  {
+   "signal": "Mute Control 25V Commo N",
+   "pin": ""
+  },
+  {
+   "signal": "Control Commml Chass Is",
+   "pin": ""
+  }
+ ],
+ "ground": [
+  "25V COMMON",
+  "CONTROL COMMON",
+  "CHASSIS"
+ ],
+ "bus_out": [],
+ "bus_in": [],
+ "jumpers": [],
+ "derived": true,
+ "sources": [
+  "2cfeb881b570129b5b597d53f684ced8d290638c9b2d07b736f6cc5eff0e8d93",
+  "36257bfbf2faa8d1b61c2e79fd93dc1ef552fcb9b7385bef8d30dc01d457c033"
+ ],
+ "note": "Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."
+}

@@ -1,0 +1,50 @@
+{
+ "name": "14-325 - M921",
+ "folder": "14-325 - M921",
+ "source": "WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - SA14-XXX/SA14-325/TANGO/M921",
+ "copies": [
+  "WBSps Engineering from H drive-20261018T013433Z-1-003/WBSps Engineering from H drive/WBSps - SA14-XXX/SA14-325/TANGO/M921",
+  "WBSps Engineering from H drive/WBSps - SA14-XXX/SA14-325/TANGO/M921",
+  "WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - SA14-XXX/SA14-325/TANGO/M921/325ISS1.ZIP",
+  "WBSps Engineering from H drive/WBSps - SA14-XXX/SA14-325/TANGO/M921/325ISS1.ZIP"
+ ],
+ "date": "1996-06-21",
+ "layers": [
+  {
+   "file": "14-325.BOT",
+   "role": "copper bottom",
+   "format": "gerber"
+  },
+  {
+   "file": "14-325.TOP",
+   "role": "copper top",
+   "format": "gerber"
+  },
+  {
+   "file": "14-325.SMK",
+   "role": "solder mask",
+   "format": "gerber"
+  },
+  {
+   "file": "14-325.SLK",
+   "role": "silkscreen",
+   "format": "gerber"
+  },
+  {
+   "file": "14-325.DRL",
+   "role": "drill drawing",
+   "format": "gerber"
+  },
+  {
+   "file": "14-325.NCD",
+   "role": "drill",
+   "format": "excellon"
+  }
+ ],
+ "apertures": "14-325.APT",
+ "unit": 0.0001,
+ "documents": [
+  "14-325.APT",
+  "14-325.STA"
+ ]
+}

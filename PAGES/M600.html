@@ -1,0 +1,2455 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M600 — Universal Amplifier</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>M600 — Universal Amplifier</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="Category-AMPLIFIERS.html">AMPLIFIERS</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../simulator.html?m=M600">simulator &amp; front panel</a> · <a href="../_packages/M600.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="Year-1970.html">1970|3</a> — title-block date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"DATE Oct 70" in WBS Photos-1-001/WBSps.ca -2021-3-15-19-3-51 (44).jpg</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="Year-1970.html">1970|3</a>, <a href="Year-1987.html">1987|20</a></td>
+</tr>
+<tr>
+<td>Used in jobs</td>
+<td><a href="Job-920306.html">920306</a> (1992|25)</td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/BROADCAST-SOLUTIONS/MF6---EQUIPMENT-MOUNTING-FRAME/">DOCUMENTS/BROADCAST-SOLUTIONS/MF6---EQUIPMENT-MOUNTING-FRAME</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/">DOCUMENTS/Communication/7000 series - Intercom System</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/">DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections</h2>
+<p><em>What it is made of and what it is part of.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M600" data-n="Universal Amplifier" data-cat="AMPLIFIERS"></div><svg class="wbs-panel" data-m="M600" data-n="Universal Amplifier" data-cat="AMPLIFIERS" role="img" aria-label="M600 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M600","title":"Universal Amplifier","rto":null,"parts":[{"item":"60-4","title":"60-4 INPUT TRANSFORMER","label":"60-4 60-4 INPUT TRANSFORMER","href":"Transformers.html#60-4","note":"Input transformers (60-n)"},{"item":"70-3","title":"70-3 OUTPUT TRANSFORMER","label":"70-3 70-3 OUTPUT TRANSFORMER","href":"Transformers.html#70-3","note":"Output transformers (70-n)"}],"parents":[{"label":"920306","href":"Job-920306.html","note":"CJMJ-FM"},{"label":"M712","href":"M712.html","note":"on 47 drawings with it: Intercom Matrix Switchin"},{"label":"M703","href":"M703.html","note":"on 47 drawings with it: Intercom Input/Output Am"},{"label":"M621","href":"M621.html","note":"on 31 drawings with it: 20 Watt Monitor Amplifie"},{"label":"M666","href":"M666.html","note":"on 31 drawings with it"},{"label":"M412","href":"M412.html","note":"on 27 drawings with it: Multi-frequency Oscilato"},{"label":"M757","href":"M757.html","note":"on 27 drawings with it: Splitting Network Card"},{"label":"M702","href":"M702.html","note":"on 27 drawings with it: Intercom Output Amplifie"},{"label":"M724","href":"M724.html","note":"on 27 drawings with it: Intercom Crosspoint (par"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1975%20-%20M600%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1975%20-%20M600%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1975 - M600 - PRICE LIST - PRICE LIST.jpg" data-size="320" onerror="wbsOff(this)">1975 - M600 - PRICE LIST - PRICE LIST.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20600-02-005%20-%20M600R%20SYSTEM%20FOR%20CDL%20A%20V%20SWITCHER%20APPLICATION.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20600-02-005%20-%20M600R%20SYSTEM%20FOR%20CDL%20A%20V%20SWITCHER%20APPLICATION.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - 600-02-005 - M600R SYSTEM FOR CDL A V SWITCHER APPLICATION.jpg" data-size="320" onerror="wbsOff(this)">1970 - 600-02-005 - M600R SYSTEM FOR CDL A V SWITCHER APPLICATION.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20M600%20-%20P001%20-%20Title%20Page.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1987%20-%20M600%20-%20P001%20-%20Title%20Page.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1987 - M600 - P001 - Title Page.jpg" data-size="320" onerror="wbsOff(this)">1987 - M600 - P001 - Title Page.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1967%20-%2060-4%20-%2060-4%20INPUT%20TRANSFORMER.png"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1967%20-%2060-4%20-%2060-4%20INPUT%20TRANSFORMER.png" alt="" data-f="Modules/AMPLIFIERS/M600/1967 - 60-4 - 60-4 INPUT TRANSFORMER.png" data-size="320" onerror="wbsOff(this)">1967 - 60-4 - 60-4 INPUT TRANSFORMER.png</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%2000-02-012%20-%20AUDIO%20AMPLIFIER%20TYPICAL%20SYSTEM%20WIRING%20SCHEMATIC.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%2000-02-012%20-%20AUDIO%20AMPLIFIER%20TYPICAL%20SYSTEM%20WIRING%20SCHEMATIC.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - 00-02-012 - AUDIO AMPLIFIER TYPICAL SYSTEM WIRING SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - 00-02-012 - AUDIO AMPLIFIER TYPICAL SYSTEM WIRING SCHEMATIC.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20122-02-001%20-%20COM%20GAIN%20SET%20%282%29.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20122-02-001%20-%20COM%20GAIN%20SET%20%282%29.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - 122-02-001 - COM GAIN SET (2).jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - 122-02-001 - COM GAIN SET (2).jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20122-02-001%20-%20COM%20GAIN%20SET.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20122-02-001%20-%20COM%20GAIN%20SET.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - 122-02-001 - COM GAIN SET.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - 122-02-001 - COM GAIN SET.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20122-06-012%20-%20AMPLIFIER%20ASSEMBLY%20COMPONENT%20LAYOUT.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20122-06-012%20-%20AMPLIFIER%20ASSEMBLY%20COMPONENT%20LAYOUT.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - 122-06-012 - AMPLIFIER ASSEMBLY COMPONENT LAYOUT.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - 122-06-012 - AMPLIFIER ASSEMBLY COMPONENT LAYOUT.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20122-06-012.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20122-06-012.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - 122-06-012.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - 122-06-012.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20600-02-010%20-%20LOG%20SENSITIVITY%20CONTROL.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20600-02-010%20-%20LOG%20SENSITIVITY%20CONTROL.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - 600-02-010 - LOG SENSITIVITY CONTROL.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - 600-02-010 - LOG SENSITIVITY CONTROL.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20600-02-011%20-%20AUDIO%20AMPLIFIER%20OUTPUT%20STRAPPING%20SCHEMATIC.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20600-02-011%20-%20AUDIO%20AMPLIFIER%20OUTPUT%20STRAPPING%20SCHEMATIC.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - 600-02-011 - AUDIO AMPLIFIER OUTPUT STRAPPING SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - 600-02-011 - AUDIO AMPLIFIER OUTPUT STRAPPING SCHEMATIC.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20600-02-011%20-%20PAO%20BOARD%20ASSY.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20600-02-011%20-%20PAO%20BOARD%20ASSY.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - 600-02-011 - PAO BOARD ASSY.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - 600-02-011 - PAO BOARD ASSY.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20600-02-012%20-%20INSULATED%20MOUNTING%20FRAME%20GROUND%20BAR%20AND%20CHASSIS.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20600-02-012%20-%20INSULATED%20MOUNTING%20FRAME%20GROUND%20BAR%20AND%20CHASSIS.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - 600-02-012 - INSULATED MOUNTING FRAME GROUND BAR AND CHASSIS.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - 600-02-012 - INSULATED MOUNTING FRAME GROUND BAR AND CHASSIS.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20600-04-010%20-%20AUDIO%20AMPLIFIER%20PERSPECTIVE%20LAYOUT.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20600-04-010%20-%20AUDIO%20AMPLIFIER%20PERSPECTIVE%20LAYOUT.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - 600-04-010 - AUDIO AMPLIFIER PERSPECTIVE LAYOUT.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - 600-04-010 - AUDIO AMPLIFIER PERSPECTIVE LAYOUT.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20600-04-010.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20600-04-010.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - 600-04-010.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - 600-04-010.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20800-02-010%20-%20AUDIO%20AMPLIFIER%20SCHEMATIC.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20800-02-010%20-%20AUDIO%20AMPLIFIER%20SCHEMATIC.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - 800-02-010 - AUDIO AMPLIFIER SCHEMATIC.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - 800-02-010 - AUDIO AMPLIFIER SCHEMATIC.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P002.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P002.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - P002.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - P002.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P003%20-%201-1.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P003%20-%201-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - P003 - 1-1.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - P003 - 1-1.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P004%20-%202-1.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P004%20-%202-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - P004 - 2-1.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - P004 - 2-1.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P005%20-%203-1.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P005%20-%203-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - P005 - 3-1.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - P005 - 3-1.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P006%20-%203-2.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P006%20-%203-2.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - P006 - 3-2.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - P006 - 3-2.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P007%20-%204-1.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P007%20-%204-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - P007 - 4-1.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - P007 - 4-1.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P008%20-%205-1.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P008%20-%205-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - P008 - 5-1.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - P008 - 5-1.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P009%20-%206-1.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P009%20-%206-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - P009 - 6-1.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - P009 - 6-1.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P010%20-%207-1.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P010%20-%207-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - P010 - 7-1.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - P010 - 7-1.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P011%20-%208-1.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P011%20-%208-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - P011 - 8-1.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - P011 - 8-1.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P012%20-%209-1.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P012%20-%209-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - P012 - 9-1.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - P012 - 9-1.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P013%20-%209-2.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P013%20-%209-2.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - P013 - 9-2.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - P013 - 9-2.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P014%20-%209-3.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P014%20-%209-3.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - P014 - 9-3.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - P014 - 9-3.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P015%20-%2010-1.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P015%20-%2010-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - P015 - 10-1.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - P015 - 10-1.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P016%20-%2010-2.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P016%20-%2010-2.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - P016 - 10-2.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - P016 - 10-2.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P017%20-%2011-1.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P017%20-%2011-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - P017 - 11-1.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - P017 - 11-1.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20Ward%20Beck%20Systems%20M600%20b.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20Ward%20Beck%20Systems%20M600%20b.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - Ward Beck Systems M600 b.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - Ward Beck Systems M600 b.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20Ward%20Beck%20Systems%20M600.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20Ward%20Beck%20Systems%20M600.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - Ward Beck Systems M600.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - Ward Beck Systems M600.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20module%20-%20m600%20-%20back.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20module%20-%20m600%20-%20back.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - wbsps - module - m600 - back.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - wbsps - module - m600 - back.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20module%20-%20m600%20-%20back_small.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20module%20-%20m600%20-%20back_small.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - wbsps - module - m600 - back_small.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - wbsps - module - m600 - back_small.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20module%20-%20m600%20-%20front.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20module%20-%20m600%20-%20front.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - wbsps - module - m600 - front.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - wbsps - module - m600 - front.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20module%20-%20m600%20-%20front_small.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20module%20-%20m600%20-%20front_small.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - wbsps - module - m600 - front_small.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - wbsps - module - m600 - front_small.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20promo%20-%20m600%20-%20003.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20promo%20-%20m600%20-%20003.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - wbsps - promo - m600 - 003.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - wbsps - promo - m600 - 003.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20promo%20-%20m600%20-%20004.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20promo%20-%20m600%20-%20004.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - wbsps - promo - m600 - 004.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - wbsps - promo - m600 - 004.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20promo%20-%20m600%20-%20back.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20promo%20-%20m600%20-%20back.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - wbsps - promo - m600 - back.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - wbsps - promo - m600 - back.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20promo%20-%20m600%20-%20front.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20promo%20-%20m600%20-%20front.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1970 - M600 - wbsps - promo - m600 - front.jpg" data-size="320" onerror="wbsOff(this)">1970 - M600 - wbsps - promo - m600 - front.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1975%20-%20600-02-001%20-%20AUDIO%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%2014.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1975%20-%20600-02-001%20-%20AUDIO%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%2014.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1975 - 600-02-001 - AUDIO AMPLIFIER SCHEMATIC - DRN DM - ISS 14.jpg" data-size="320" onerror="wbsOff(this)">1975 - 600-02-001 - AUDIO AMPLIFIER SCHEMATIC - DRN DM - ISS 14.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1975%20-%20600-02-006%20-%20EXTERNAL%20CONNECTIONS%20-%20DRN%20DM%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1975%20-%20600-02-006%20-%20EXTERNAL%20CONNECTIONS%20-%20DRN%20DM%20-%20ISS%201.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/1975 - 600-02-006 - EXTERNAL CONNECTIONS - DRN DM - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1975 - 600-02-006 - EXTERNAL CONNECTIONS - DRN DM - ISS 1.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20600-02-001%20-%20INPUT%20CHANNEL%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%201.png"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1987%20-%20600-02-001%20-%20INPUT%20CHANNEL%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%201.png" alt="" data-f="Modules/AMPLIFIERS/M600/1987 - 600-02-001 - INPUT CHANNEL SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png" data-size="320" onerror="wbsOff(this)">1987 - 600-02-001 - INPUT CHANNEL SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20600-02-002%20-%20STEREO%20OUTPUT%20CHANNEL%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%202.png"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1987%20-%20600-02-002%20-%20STEREO%20OUTPUT%20CHANNEL%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%202.png" alt="" data-f="Modules/AMPLIFIERS/M600/1987 - 600-02-002 - STEREO OUTPUT CHANNEL SCHEMATIC - DRN JRG - ENG JRG - ISS 2.png" data-size="320" onerror="wbsOff(this)">1987 - 600-02-002 - STEREO OUTPUT CHANNEL SCHEMATIC - DRN JRG - ENG JRG - ISS 2.png</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20600-02-003%20-%20MONO%20OUTPUT%20CHANNEL%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20GEB%20-%20ISS%202.png"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1987%20-%20600-02-003%20-%20MONO%20OUTPUT%20CHANNEL%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20GEB%20-%20ISS%202.png" alt="" data-f="Modules/AMPLIFIERS/M600/1987 - 600-02-003 - MONO OUTPUT CHANNEL SCHEMATIC - DRN JRG - ENG GEB - ISS 2.png" data-size="320" onerror="wbsOff(this)">1987 - 600-02-003 - MONO OUTPUT CHANNEL SCHEMATIC - DRN JRG - ENG GEB - ISS 2.png</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20600-02-004%20-%20MONITOR%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%201.png"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1987%20-%20600-02-004%20-%20MONITOR%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%201.png" alt="" data-f="Modules/AMPLIFIERS/M600/1987 - 600-02-004 - MONITOR SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png" data-size="320" onerror="wbsOff(this)">1987 - 600-02-004 - MONITOR SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20600-02-005%20-%20LINE%20SELECTORS%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%201.png"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1987%20-%20600-02-005%20-%20LINE%20SELECTORS%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%201.png" alt="" data-f="Modules/AMPLIFIERS/M600/1987 - 600-02-005 - LINE SELECTORS SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png" data-size="320" onerror="wbsOff(this)">1987 - 600-02-005 - LINE SELECTORS SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20600-02-007%20-%20CUE%20CHANNEL%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20GEB%20-%20ISS%201.png"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1987%20-%20600-02-007%20-%20CUE%20CHANNEL%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20GEB%20-%20ISS%201.png" alt="" data-f="Modules/AMPLIFIERS/M600/1987 - 600-02-007 - CUE CHANNEL SCHEMATIC - DRN JRG - ENG GEB - ISS 1.png" data-size="320" onerror="wbsOff(this)">1987 - 600-02-007 - CUE CHANNEL SCHEMATIC - DRN JRG - ENG GEB - ISS 1.png</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20600-02-008%20-%20TALKBACK%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%201.png"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1987%20-%20600-02-008%20-%20TALKBACK%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%201.png" alt="" data-f="Modules/AMPLIFIERS/M600/1987 - 600-02-008 - TALKBACK SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png" data-size="320" onerror="wbsOff(this)">1987 - 600-02-008 - TALKBACK SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20600-02-009%20-%20POWER%20SUPPLY%20WIRING%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%201.png"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/1987%20-%20600-02-009%20-%20POWER%20SUPPLY%20WIRING%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%201.png" alt="" data-f="Modules/AMPLIFIERS/M600/1987 - 600-02-009 - POWER SUPPLY WIRING SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png" data-size="320" onerror="wbsOff(this)">1987 - 600-02-009 - POWER SUPPLY WIRING SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png</a><a href="../viewer.html?f=DOCUMENTS/BROADCAST-SOLUTIONS/MF6---EQUIPMENT-MOUNTING-FRAME/19xx%20-%20DOC%20-%20Ward%20Beck%20Systems%20MF6.jpg"><img loading="lazy" src="../DOCUMENTS/BROADCAST-SOLUTIONS/MF6---EQUIPMENT-MOUNTING-FRAME/19xx%20-%20DOC%20-%20Ward%20Beck%20Systems%20MF6.jpg" alt="" data-f="DOCUMENTS/BROADCAST-SOLUTIONS/MF6---EQUIPMENT-MOUNTING-FRAME/19xx - DOC - Ward Beck Systems MF6.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - Ward Beck Systems MF6.jpg</a><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20001.jpg"><img loading="lazy" src="../DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20001.jpg" alt="" data-f="DOCUMENTS/Communication/7000 series - Intercom System/19xx - DOC - 7000 series - 001.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 7000 series - 001.jpg</a><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20promo%20-%20002.jpg"><img loading="lazy" src="../DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20promo%20-%20002.jpg" alt="" data-f="DOCUMENTS/Communication/7000 series - Intercom System/19xx - DOC - 7000 series - promo - 002.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 7000 series - promo - 002.jpg</a><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%202.jpg"><img loading="lazy" src="../DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%202.jpg" alt="" data-f="DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - US Sales Brochure pg 2.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - US Sales Brochure pg 2.jpg</a><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%207.jpg"><img loading="lazy" src="../DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%207.jpg" alt="" data-f="DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - US Sales Brochure pg 7.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - US Sales Brochure pg 7.jpg</a><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%209.jpg"><img loading="lazy" src="../DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%209.jpg" alt="" data-f="DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - US Sales Brochure pg 9.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - US Sales Brochure pg 9.jpg</a><a href="../viewer.html?f=DOCUMENTS/Photos/Modules/19xx%20-%20DOC%20-%20wbsps%20-%20module%20-%20mf6%20mounting%20frame%20-%20front.jpg"><img loading="lazy" src="../DOCUMENTS/Photos/Modules/19xx%20-%20DOC%20-%20wbsps%20-%20module%20-%20mf6%20mounting%20frame%20-%20front.jpg" alt="" data-f="DOCUMENTS/Photos/Modules/19xx - DOC - wbsps - module - mf6 mounting frame - front.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - wbsps - module - mf6 mounting frame - front.jpg</a><a href="../viewer.html?f=DOCUMENTS/RAW%20SCANS/history%20-%20RAW%20IMAGES/19xx%20-%20DOC%20-%20wbsps%20-%20promo%20-%20mf6%20mounting%20frame%20-%20front.jpg"><img loading="lazy" src="../DOCUMENTS/RAW%20SCANS/history%20-%20RAW%20IMAGES/19xx%20-%20DOC%20-%20wbsps%20-%20promo%20-%20mf6%20mounting%20frame%20-%20front.jpg" alt="" data-f="DOCUMENTS/RAW SCANS/history - RAW IMAGES/19xx - DOC - wbsps - promo - mf6 mounting frame - front.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - wbsps - promo - mf6 mounting frame - front.jpg</a><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20001.jpg"><img loading="lazy" src="../DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20001.jpg" alt="" data-f="DOCUMENTS/WBSPS - To Be edited/Intercom System/19xx - DOC - 7000 series - 001.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 7000 series - 001.jpg</a><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/19xx%20-%20DOC%20-%20promo%20-%207000%20series%20-%20002.jpg"><img loading="lazy" src="../DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/19xx%20-%20DOC%20-%20promo%20-%207000%20series%20-%20002.jpg" alt="" data-f="DOCUMENTS/WBSPS - To Be edited/Intercom System/19xx - DOC - promo - 7000 series - 002.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - promo - 7000 series - 002.jpg</a><a href="../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/19xx%20-%20DOC%20-%20M600%20-%20600-02-003%20-%20DOCUMENT.jpg"><img loading="lazy" src="../DOCUMENTS/wbsPS-NOT%20UPLOADED/19xx%20-%20DOC%20-%20M600%20-%20600-02-003%20-%20DOCUMENT.jpg" alt="" data-f="DOCUMENTS/wbsPS-NOT UPLOADED/19xx - DOC - M600 - 600-02-003 - DOCUMENT.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - M600 - 600-02-003 - DOCUMENT.jpg</a><a href="../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/19xx%20-%20DOC%20-%20M600%20-%20600-06-001%20-%20DOCUMENT.jpg"><img loading="lazy" src="../DOCUMENTS/wbsPS-NOT%20UPLOADED/19xx%20-%20DOC%20-%20M600%20-%20600-06-001%20-%20DOCUMENT.jpg" alt="" data-f="DOCUMENTS/wbsPS-NOT UPLOADED/19xx - DOC - M600 - 600-06-001 - DOCUMENT.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - M600 - 600-06-001 - DOCUMENT.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20600-02-010%20-%20AUDIO%20AMPLIFIER%20SCHEMATIC%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/19xx%20-%20600-02-010%20-%20AUDIO%20AMPLIFIER%20SCHEMATIC%20-%20ISS%201.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/19xx - 600-02-010 - AUDIO AMPLIFIER SCHEMATIC - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">19xx - 600-02-010 - AUDIO AMPLIFIER SCHEMATIC - ISS 1.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20600-02-011%20-%20AUDIO%20AMPLIFIER%20OUTPUT%20STRAPPING%20SCHEMATIC%20-%20ISS%203.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/19xx%20-%20600-02-011%20-%20AUDIO%20AMPLIFIER%20OUTPUT%20STRAPPING%20SCHEMATIC%20-%20ISS%203.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/19xx - 600-02-011 - AUDIO AMPLIFIER OUTPUT STRAPPING SCHEMATIC - ISS 3.jpg" data-size="320" onerror="wbsOff(this)">19xx - 600-02-011 - AUDIO AMPLIFIER OUTPUT STRAPPING SCHEMATIC - ISS 3.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20600-02-012%20-%20AUDIO%20AMPLIFIER%20TYPICAL%20SYSTEM%20WIRING%20SCHEMATIC%20-%20ISS%201.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/19xx%20-%20600-02-012%20-%20AUDIO%20AMPLIFIER%20TYPICAL%20SYSTEM%20WIRING%20SCHEMATIC%20-%20ISS%201.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/19xx - 600-02-012 - AUDIO AMPLIFIER TYPICAL SYSTEM WIRING SCHEMATIC - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">19xx - 600-02-012 - AUDIO AMPLIFIER TYPICAL SYSTEM WIRING SCHEMATIC - ISS 1.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20600-02-100%20-%20M625B%20D%20TEST%20JIG%20SCHEMATIC%20%28T625B%29%20-%20DRN%20T.%20RICHARDSON%20-%20ENG%20T.%20RICHARDSON%20-%20ISS%201.png"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/19xx%20-%20600-02-100%20-%20M625B%20D%20TEST%20JIG%20SCHEMATIC%20%28T625B%29%20-%20DRN%20T.%20RICHARDSON%20-%20ENG%20T.%20RICHARDSON%20-%20ISS%201.png" alt="" data-f="Modules/AMPLIFIERS/M600/19xx - 600-02-100 - M625B D TEST JIG SCHEMATIC (T625B) - DRN T. RICHARDSON - ENG T. RICHARDSON - ISS 1.png" data-size="320" onerror="wbsOff(this)">19xx - 600-02-100 - M625B D TEST JIG SCHEMATIC (T625B) - DRN T. RICHARDSON - ENG T. RICHARDSON - ISS 1.png</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20M600%20%282%29.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20M600%20%282%29.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/19xx - M600 - M600 (2).jpg" data-size="320" onerror="wbsOff(this)">19xx - M600 - M600 (2).jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20M600%20%283%29.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20M600%20%283%29.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/19xx - M600 - M600 (3).jpg" data-size="320" onerror="wbsOff(this)">19xx - M600 - M600 (3).jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20M600%20Audio%20Amplifier%20P1%20Connector%20Layout%20150%20ohm%20strapping.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20M600%20Audio%20Amplifier%20P1%20Connector%20Layout%20150%20ohm%20strapping.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/19xx - M600 - M600 Audio Amplifier P1 Connector Layout 150 ohm strapping.jpg" data-size="320" onerror="wbsOff(this)">19xx - M600 - M600 Audio Amplifier P1 Connector Layout 150 ohm strapping.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20M600%20Audio%20Amplifier%20P1%20Connector%20Layout%20600%20ohm%20strapping.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20M600%20Audio%20Amplifier%20P1%20Connector%20Layout%20600%20ohm%20strapping.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/19xx - M600 - M600 Audio Amplifier P1 Connector Layout 600 ohm strapping.jpg" data-size="320" onerror="wbsOff(this)">19xx - M600 - M600 Audio Amplifier P1 Connector Layout 600 ohm strapping.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20M600.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20M600.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/19xx - M600 - M600.jpg" data-size="320" onerror="wbsOff(this)">19xx - M600 - M600.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/448px-Wbsps_-_promo_-_m600_-_back.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/448px-Wbsps_-_promo_-_m600_-_back.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/448px-Wbsps_-_promo_-_m600_-_back.jpg" data-size="320" onerror="wbsOff(this)">448px-Wbsps_-_promo_-_m600_-_back.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/M600%20-%20P002.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/M600%20-%20P002.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/M600 - P002.jpg" data-size="320" onerror="wbsOff(this)">M600 - P002.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/Ward%20Beck%20Systems%20M600%20b.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/Ward%20Beck%20Systems%20M600%20b.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/Ward Beck Systems M600 b.jpg" data-size="320" onerror="wbsOff(this)">Ward Beck Systems M600 b.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/wbsps%20-%20promo%20-%20m600%20-%20002.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/wbsps%20-%20promo%20-%20m600%20-%20002.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/wbsps - promo - m600 - 002.jpg" data-size="320" onerror="wbsOff(this)">wbsps - promo - m600 - 002.jpg</a><a href="../viewer.html?f=Consoles/1990-1999/920306%20-%20CJMJ-FM/1992%20-%20920306-01-001%20-%20CJMJ-FM%20RADIO%20CONSOLE%20AUDIO%20FUNCTIONAL%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201.jpg"><img loading="lazy" src="../Consoles/1990-1999/920306%20-%20CJMJ-FM/1992%20-%20920306-01-001%20-%20CJMJ-FM%20RADIO%20CONSOLE%20AUDIO%20FUNCTIONAL%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201.jpg" alt="" data-f="Consoles/1990-1999/920306 - CJMJ-FM/1992 - 920306-01-001 - CJMJ-FM RADIO CONSOLE AUDIO FUNCTIONAL - DRN PA - ENG PA - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1992 - 920306-01-001 - CJMJ-FM RADIO CONSOLE AUDIO FUNCTIONAL - DRN PA - ENG PA - ISS 1.jpg</a><a href="../viewer.html?f=ADVERTISEMENTS/19xx%20-%20AD%20-%20WBSPS%20-%20AD%20-%20for%20the%20engineer%20who%20has%20everything.jpg"><img loading="lazy" src="../ADVERTISEMENTS/19xx%20-%20AD%20-%20WBSPS%20-%20AD%20-%20for%20the%20engineer%20who%20has%20everything.jpg" alt="" data-f="ADVERTISEMENTS/19xx - AD - WBSPS - AD - for the engineer who has everything.jpg" data-size="320" onerror="wbsOff(this)">19xx - AD - WBSPS - AD - for the engineer who has everything.jpg</a><a href="../viewer.html?f=ADVERTISEMENTS/19xx%20-%20AD%20-%20wbsps%20-%20ad%20-%20600%20series.jpg"><img loading="lazy" src="../ADVERTISEMENTS/19xx%20-%20AD%20-%20wbsps%20-%20ad%20-%20600%20series.jpg" alt="" data-f="ADVERTISEMENTS/19xx - AD - wbsps - ad - 600 series.jpg" data-size="320" onerror="wbsOff(this)">19xx - AD - wbsps - ad - 600 series.jpg</a><a href="../viewer.html?f=ADVERTISEMENTS/19xx%20-%20MF6.jpg"><img loading="lazy" src="../ADVERTISEMENTS/19xx%20-%20MF6.jpg" alt="" data-f="ADVERTISEMENTS/19xx - MF6.jpg" data-size="320" onerror="wbsOff(this)">19xx - MF6.jpg</a><a href="../viewer.html?f=DOCUMENTS/BROADCAST-SOLUTIONS/MF6---EQUIPMENT-MOUNTING-FRAME/19xx%20-%20DOC%20-%20Ward%20Beck%20Systems%20MF6%20b.jpg"><img loading="lazy" src="../DOCUMENTS/BROADCAST-SOLUTIONS/MF6---EQUIPMENT-MOUNTING-FRAME/19xx%20-%20DOC%20-%20Ward%20Beck%20Systems%20MF6%20b.jpg" alt="" data-f="DOCUMENTS/BROADCAST-SOLUTIONS/MF6---EQUIPMENT-MOUNTING-FRAME/19xx - DOC - Ward Beck Systems MF6 b.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - Ward Beck Systems MF6 b.jpg</a><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2010.jpg"><img loading="lazy" src="../DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2010.jpg" alt="" data-f="DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - US Sales Brochure pg 10.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - US Sales Brochure pg 10.jpg</a><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2014.jpg"><img loading="lazy" src="../DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2014.jpg" alt="" data-f="DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - US Sales Brochure pg 14.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - US Sales Brochure pg 14.jpg</a><a href="../viewer.html?f=DOCUMENTS/Photos/History/19xx%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg"><img loading="lazy" src="../DOCUMENTS/Photos/History/19xx%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg" alt="" data-f="DOCUMENTS/Photos/History/19xx - DOC - wbsps - ad - 600 series.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - wbsps - ad - 600 series.jpg</a><a href="../viewer.html?f=DOCUMENTS/RAW%20SCANS/history%20-%20RAW%20IMAGES/19xx%20-%20DOC%20-%20WBSPS%20-%20AD%20-%20for%20the%20engineer%20who%20has%20everything.jpg"><img loading="lazy" src="../DOCUMENTS/RAW%20SCANS/history%20-%20RAW%20IMAGES/19xx%20-%20DOC%20-%20WBSPS%20-%20AD%20-%20for%20the%20engineer%20who%20has%20everything.jpg" alt="" data-f="DOCUMENTS/RAW SCANS/history - RAW IMAGES/19xx - DOC - WBSPS - AD - for the engineer who has everything.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - WBSPS - AD - for the engineer who has everything.jpg</a><a href="../viewer.html?f=DOCUMENTS/RAW%20SCANS/history%20-%20RAW%20IMAGES/19xx%20-%20DOC%20-%20wbsps%20-%20promo%20-%20mf6%20mounting%20frame%20-%20back.jpg"><img loading="lazy" src="../DOCUMENTS/RAW%20SCANS/history%20-%20RAW%20IMAGES/19xx%20-%20DOC%20-%20wbsps%20-%20promo%20-%20mf6%20mounting%20frame%20-%20back.jpg" alt="" data-f="DOCUMENTS/RAW SCANS/history - RAW IMAGES/19xx - DOC - wbsps - promo - mf6 mounting frame - back.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - wbsps - promo - mf6 mounting frame - back.jpg</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/wbsps%20-%20module%20-%20m600%20-%20back.jpg"><img loading="lazy" src="../Modules/AMPLIFIERS/M600/wbsps%20-%20module%20-%20m600%20-%20back.jpg" alt="" data-f="Modules/AMPLIFIERS/M600/wbsps - module - m600 - back.jpg" data-size="320" onerror="wbsOff(this)">wbsps - module - m600 - back.jpg</a><a href="../viewer.html?f=Modules/SUMMING/M497/19xx%20-%20M497%20-%20DOC%20-%20600-02-001%20-%20INPUT%20CHANNEL%20SCHEMA%20TIC.png"><img loading="lazy" src="../Modules/SUMMING/M497/19xx%20-%20M497%20-%20DOC%20-%20600-02-001%20-%20INPUT%20CHANNEL%20SCHEMA%20TIC.png" alt="" data-f="Modules/SUMMING/M497/19xx - M497 - DOC - 600-02-001 - INPUT CHANNEL SCHEMA TIC.png" data-size="320" onerror="wbsOff(this)">19xx - M497 - DOC - 600-02-001 - INPUT CHANNEL SCHEMA TIC.png</a><a href="../viewer.html?f=Modules/SUMMING/M497/19xx%20-%20M497%20-%20DOC%20-%20600-02-002%20-%20OUTPUT%20CHANNELS%20ARE%20WIRED.png"><img loading="lazy" src="../Modules/SUMMING/M497/19xx%20-%20M497%20-%20DOC%20-%20600-02-002%20-%20OUTPUT%20CHANNELS%20ARE%20WIRED.png" alt="" data-f="Modules/SUMMING/M497/19xx - M497 - DOC - 600-02-002 - OUTPUT CHANNELS ARE WIRED.png" data-size="320" onerror="wbsOff(this)">19xx - M497 - DOC - 600-02-002 - OUTPUT CHANNELS ARE WIRED.png</a><a href="../viewer.html?f=Modules/SUMMING/M497/19xx%20-%20M497%20-%20DOC%20-%20600-02-003%20-%20WITH%20JUMPERS%20BETWEEN%20PINS%20AND%20BETWEEN%20PINS.png"><img loading="lazy" src="../Modules/SUMMING/M497/19xx%20-%20M497%20-%20DOC%20-%20600-02-003%20-%20WITH%20JUMPERS%20BETWEEN%20PINS%20AND%20BETWEEN%20PINS.png" alt="" data-f="Modules/SUMMING/M497/19xx - M497 - DOC - 600-02-003 - WITH JUMPERS BETWEEN PINS AND BETWEEN PINS.png" data-size="320" onerror="wbsOff(this)">19xx - M497 - DOC - 600-02-003 - WITH JUMPERS BETWEEN PINS AND BETWEEN PINS.png</a><a href="../viewer.html?f=Modules/MONITORING/M495/19xx%20-%20M495%20-%20DOC%20-%20600-02-004%20-%20NOVOV%20MONITOR%20CHANNELS%20ARE%20WIRED%20IDENTICALLY%20EXTERNAL%20INPUTS.png"><img loading="lazy" src="../Modules/MONITORING/M495/19xx%20-%20M495%20-%20DOC%20-%20600-02-004%20-%20NOVOV%20MONITOR%20CHANNELS%20ARE%20WIRED%20IDENTICALLY%20EXTERNAL%20INPUTS.png" alt="" data-f="Modules/MONITORING/M495/19xx - M495 - DOC - 600-02-004 - NOVOV MONITOR CHANNELS ARE WIRED IDENTICALLY EXTERNAL INPUTS.png" data-size="320" onerror="wbsOff(this)">19xx - M495 - DOC - 600-02-004 - NOVOV MONITOR CHANNELS ARE WIRED IDENTICALLY EXTERNAL INPUTS.png</a><a href="../viewer.html?f=Modules/ROUTING/M498/19xx%20-%20M498%20-%20DOC%20-%20600-02-005%20-%20LINE%20SELECTORS%20SCHEMA%20TIC.png"><img loading="lazy" src="../Modules/ROUTING/M498/19xx%20-%20M498%20-%20DOC%20-%20600-02-005%20-%20LINE%20SELECTORS%20SCHEMA%20TIC.png" alt="" data-f="Modules/ROUTING/M498/19xx - M498 - DOC - 600-02-005 - LINE SELECTORS SCHEMA TIC.png" data-size="320" onerror="wbsOff(this)">19xx - M498 - DOC - 600-02-005 - LINE SELECTORS SCHEMA TIC.png</a><a href="../viewer.html?f=Modules/AMPLIFIERS/M453A/19xx%20-%20M453A%20-%20DOC%20-%20600-02-007%20-%20CUE%20CHANNEL%20SCHEMA%20TIC.png"><img loading="lazy" src="../Modules/AMPLIFIERS/M453A/19xx%20-%20M453A%20-%20DOC%20-%20600-02-007%20-%20CUE%20CHANNEL%20SCHEMA%20TIC.png" alt="" data-f="Modules/AMPLIFIERS/M453A/19xx - M453A - DOC - 600-02-007 - CUE CHANNEL SCHEMA TIC.png" data-size="320" onerror="wbsOff(this)">19xx - M453A - DOC - 600-02-007 - CUE CHANNEL SCHEMA TIC.png</a><a href="../viewer.html?f=Modules/MONITORING/M451/19xx%20-%20M451%20-%20DOC%20-%20600-02-008%20-%20TALKBACK%20SCHEMATIC.png"><img loading="lazy" src="../Modules/MONITORING/M451/19xx%20-%20M451%20-%20DOC%20-%20600-02-008%20-%20TALKBACK%20SCHEMATIC.png" alt="" data-f="Modules/MONITORING/M451/19xx - M451 - DOC - 600-02-008 - TALKBACK SCHEMATIC.png" data-size="320" onerror="wbsOff(this)">19xx - M451 - DOC - 600-02-008 - TALKBACK SCHEMATIC.png</a><a href="../viewer.html?f=Modules/POWER/M625B/19xx%20-%20M625B%20-%20DOC%20-%20600-02-009%20-%20POWER%20SUPPLY%20WIRING%20SCHEMA%20TIC.png"><img loading="lazy" src="../Modules/POWER/M625B/19xx%20-%20M625B%20-%20DOC%20-%20600-02-009%20-%20POWER%20SUPPLY%20WIRING%20SCHEMA%20TIC.png" alt="" data-f="Modules/POWER/M625B/19xx - M625B - DOC - 600-02-009 - POWER SUPPLY WIRING SCHEMA TIC.png" data-size="320" onerror="wbsOff(this)">19xx - M625B - DOC - 600-02-009 - POWER SUPPLY WIRING SCHEMA TIC.png</a></div>
+<h2>Price history</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Price</th>
+<th>Listed as</th>
+<th>Effective</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>list price</td>
+<td>200.00 USD</td>
+<td>Universal Amplifier</td>
+<td>May 1975</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1975%20-%20M600%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">source</a></td>
+</tr>
+<tr>
+<td><a href="Year-2005.html">2005|38</a></td>
+<td>used market value</td>
+<td>25.00</td>
+<td>M600 Audio Distribution Amplifier</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/old website/PriceGuide.htm</td>
+</tr>
+<tr>
+<td><a href="Year-2006.html">2006|39</a></td>
+<td>used market value</td>
+<td>25.00</td>
+<td>M600 Audio Distribution Amplifier</td>
+<td></td>
+<td>wbsps - website ARCHIVE/WBSPS 2008/ARCHIVE/jan 2006 shell/priceguide.htm</td>
+</tr>
+</tbody>
+</table>
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td>title-block date</td>
+<td><code>DATE Oct 70</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20600-02-005%20-%20M600R%20SYSTEM%20FOR%20CDL%20A%20V%20SWITCHER%20APPLICATION.jpg">1970 - 600-02-005 - M600R SYSTEM FOR CDL A V SWITCHER APPLICATION.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=ADVERTISEMENTS/NAB%20photos/1975%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/1975%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1975%20-%20M600%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M600 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M604/1975%20-%20M604%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M604 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M605/1975%20-%20M605%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M605 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M610/1975%20-%20M610%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M610 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/1975%20-%20M612%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M612 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1975%20-%20M621%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M621 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M666/1975%20-%20M666%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M666 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M701/1975%20-%20M701%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M701 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/1975%20-%20M702%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M702 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/1975%20-%20M703%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M703 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1975%20-%20M712%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M712 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M724/1975%20-%20M724%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M724 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M757/1975%20-%20M757%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M757 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/COMPUTERS/M524/1975%20-%20M524%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M524 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M406B/1975%20-%20M406B%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M406B - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M415/1975%20-%20M415%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M415 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402B/1975%20-%20M402B%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M402B - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M404A/1975%20-%20M404A%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M404A - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441M/1975%20-%20M441M%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M441M - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M405C - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M412/1975%20-%20M412%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M412 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/POWER/M628/1975%20-%20M628%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M628 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/POWER/M648/1975%20-%20M648%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M648 - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td>month &amp; year</td>
+<td><code>May 1975</code></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/RM424S/1975%20-%20RM424S%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - RM424S - PRICE LIST - PRICE LIST.jpg</a></td>
+</tr>
+<tr>
+<td><a href="Year-1987.html">1987|20</a></td>
+<td>month &amp; year</td>
+<td><code>December 17 , 1987</code></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20M600%20-%20P001%20-%20Title%20Page.jpg">1987 - M600 - P001 - Title Page.jpg</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Physical manual inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Location</th>
+<th>Status</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M600 - Audio Amplifer</td>
+<td></td>
+<td>DUPLICATE</td>
+<td>Recently scanned and stiched by WB</td>
+</tr>
+<tr>
+<td>M600 - Audio Amplifer</td>
+<td></td>
+<td>DUPLICATE</td>
+<td>SCANNED BUT NEEDS STICHING</td>
+</tr>
+<tr>
+<td>M600 - Audio Amplifer</td>
+<td></td>
+<td></td>
+<td>PDF - Already scanned</td>
+</tr>
+</tbody>
+</table>
+<h2>Documents (2)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20Audio%20Amplifer%20%282%29.pdf">1970 - M600 - Audio Amplifer (2).pdf</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20Audio%20Amplifer%20%282%29.pdf.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20Audio%20Amplifer.pdf">1970 - M600 - Audio Amplifer.pdf</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20Audio%20Amplifer.pdf.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (123)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1967|0</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1967%20-%2060-4%20-%2060-4%20INPUT%20TRANSFORMER.png">1967 - 60-4 - 60-4 INPUT TRANSFORMER.png</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1967%20-%2060-4%20-%2060-4%20INPUT%20TRANSFORMER.png.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20600-02-005%20-%20M600R%20SYSTEM%20FOR%20CDL%20A%20V%20SWITCHER%20APPLICATION.jpg">1970 - 600-02-005 - M600R SYSTEM FOR CDL A V SWITCHER APPLICATION.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20600-02-005%20-%20M600R%20SYSTEM%20FOR%20CDL%20A%20V%20SWITCHER%20APPLICATION.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%2000-02-012%20-%20AUDIO%20AMPLIFIER%20TYPICAL%20SYSTEM%20WIRING%20SCHEMATIC.jpg">1970 - M600 - 00-02-012 - AUDIO AMPLIFIER TYPICAL SYSTEM WIRING SCHEMATIC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%2000-02-012%20-%20AUDIO%20AMPLIFIER%20TYPICAL%20SYSTEM%20WIRING%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20122-02-001%20-%20COM%20GAIN%20SET%20%282%29.jpg">1970 - M600 - 122-02-001 - COM GAIN SET (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20122-02-001%20-%20COM%20GAIN%20SET%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20122-02-001%20-%20COM%20GAIN%20SET.jpg">1970 - M600 - 122-02-001 - COM GAIN SET.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20122-02-001%20-%20COM%20GAIN%20SET.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20122-06-012%20-%20AMPLIFIER%20ASSEMBLY%20COMPONENT%20LAYOUT.jpg">1970 - M600 - 122-06-012 - AMPLIFIER ASSEMBLY COMPONENT LAYOUT.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20122-06-012%20-%20AMPLIFIER%20ASSEMBLY%20COMPONENT%20LAYOUT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20122-06-012.jpg">1970 - M600 - 122-06-012.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20122-06-012.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20600-02-010%20-%20LOG%20SENSITIVITY%20CONTROL.jpg">1970 - M600 - 600-02-010 - LOG SENSITIVITY CONTROL.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20600-02-010%20-%20LOG%20SENSITIVITY%20CONTROL.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20600-02-011%20-%20AUDIO%20AMPLIFIER%20OUTPUT%20STRAPPING%20SCHEMATIC.jpg">1970 - M600 - 600-02-011 - AUDIO AMPLIFIER OUTPUT STRAPPING SCHEMATIC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20600-02-011%20-%20AUDIO%20AMPLIFIER%20OUTPUT%20STRAPPING%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20600-02-011%20-%20PAO%20BOARD%20ASSY.jpg">1970 - M600 - 600-02-011 - PAO BOARD ASSY.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20600-02-011%20-%20PAO%20BOARD%20ASSY.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20600-02-012%20-%20INSULATED%20MOUNTING%20FRAME%20GROUND%20BAR%20AND%20CHASSIS.jpg">1970 - M600 - 600-02-012 - INSULATED MOUNTING FRAME GROUND BAR AND CHASSIS.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20600-02-012%20-%20INSULATED%20MOUNTING%20FRAME%20GROUND%20BAR%20AND%20CHASSIS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20600-04-010%20-%20AUDIO%20AMPLIFIER%20PERSPECTIVE%20LAYOUT.jpg">1970 - M600 - 600-04-010 - AUDIO AMPLIFIER PERSPECTIVE LAYOUT.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20600-04-010%20-%20AUDIO%20AMPLIFIER%20PERSPECTIVE%20LAYOUT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20600-04-010.jpg">1970 - M600 - 600-04-010.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20600-04-010.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20800-02-010%20-%20AUDIO%20AMPLIFIER%20SCHEMATIC.jpg">1970 - M600 - 800-02-010 - AUDIO AMPLIFIER SCHEMATIC.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20800-02-010%20-%20AUDIO%20AMPLIFIER%20SCHEMATIC.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P002.jpg">1970 - M600 - P002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P003%20-%201-1.jpg">1970 - M600 - P003 - 1-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P003%20-%201-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P004%20-%202-1.jpg">1970 - M600 - P004 - 2-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P004%20-%202-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P005%20-%203-1.jpg">1970 - M600 - P005 - 3-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P005%20-%203-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P006%20-%203-2.jpg">1970 - M600 - P006 - 3-2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P006%20-%203-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P007%20-%204-1.jpg">1970 - M600 - P007 - 4-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P007%20-%204-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P008%20-%205-1.jpg">1970 - M600 - P008 - 5-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P008%20-%205-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P009%20-%206-1.jpg">1970 - M600 - P009 - 6-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P009%20-%206-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P010%20-%207-1.jpg">1970 - M600 - P010 - 7-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P010%20-%207-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P011%20-%208-1.jpg">1970 - M600 - P011 - 8-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P011%20-%208-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P012%20-%209-1.jpg">1970 - M600 - P012 - 9-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P012%20-%209-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P013%20-%209-2.jpg">1970 - M600 - P013 - 9-2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P013%20-%209-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P014%20-%209-3.jpg">1970 - M600 - P014 - 9-3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P014%20-%209-3.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P015%20-%2010-1.jpg">1970 - M600 - P015 - 10-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P015%20-%2010-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P016%20-%2010-2.jpg">1970 - M600 - P016 - 10-2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P016%20-%2010-2.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P017%20-%2011-1.jpg">1970 - M600 - P017 - 11-1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P017%20-%2011-1.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20Ward%20Beck%20Systems%20M600%20b.jpg">1970 - M600 - Ward Beck Systems M600 b.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20Ward%20Beck%20Systems%20M600%20b.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20Ward%20Beck%20Systems%20M600.jpg">1970 - M600 - Ward Beck Systems M600.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20Ward%20Beck%20Systems%20M600.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20module%20-%20m600%20-%20back.jpg">1970 - M600 - wbsps - module - m600 - back.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20module%20-%20m600%20-%20back.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20module%20-%20m600%20-%20back_small.jpg">1970 - M600 - wbsps - module - m600 - back_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20module%20-%20m600%20-%20back_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20module%20-%20m600%20-%20front.jpg">1970 - M600 - wbsps - module - m600 - front.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20module%20-%20m600%20-%20front.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20module%20-%20m600%20-%20front_small.jpg">1970 - M600 - wbsps - module - m600 - front_small.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20module%20-%20m600%20-%20front_small.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20promo%20-%20m600%20-%20003.jpg">1970 - M600 - wbsps - promo - m600 - 003.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20promo%20-%20m600%20-%20003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20promo%20-%20m600%20-%20004.jpg">1970 - M600 - wbsps - promo - m600 - 004.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20promo%20-%20m600%20-%20004.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20promo%20-%20m600%20-%20back.jpg">1970 - M600 - wbsps - promo - m600 - back.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20promo%20-%20m600%20-%20back.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1970|3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20promo%20-%20m600%20-%20front.jpg">1970 - M600 - wbsps - promo - m600 - front.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20promo%20-%20m600%20-%20front.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/1975%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/1975%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1975%20-%20600-02-001%20-%20AUDIO%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%2014.jpg">1975 - 600-02-001 - AUDIO AMPLIFIER SCHEMATIC - DRN DM - ISS 14.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1975%20-%20600-02-001%20-%20AUDIO%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%2014.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1975%20-%20600-02-006%20-%20EXTERNAL%20CONNECTIONS%20-%20DRN%20DM%20-%20ISS%201.jpg">1975 - 600-02-006 - EXTERNAL CONNECTIONS - DRN DM - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1975%20-%20600-02-006%20-%20EXTERNAL%20CONNECTIONS%20-%20DRN%20DM%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1975%20-%20M600%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M600 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1975%20-%20M600%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M604/1975%20-%20M604%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M604 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M604/1975%20-%20M604%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M605/1975%20-%20M605%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M605 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M605/1975%20-%20M605%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M610/1975%20-%20M610%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M610 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M610/1975%20-%20M610%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/1975%20-%20M612%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M612 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/1975%20-%20M612%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1975%20-%20M621%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M621 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/1975%20-%20M621%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M666/1975%20-%20M666%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M666 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M666/1975%20-%20M666%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M701/1975%20-%20M701%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M701 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M701/1975%20-%20M701%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/1975%20-%20M702%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M702 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M702/1975%20-%20M702%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/1975%20-%20M703%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M703 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/1975%20-%20M703%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1975%20-%20M712%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M712 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/1975%20-%20M712%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M724/1975%20-%20M724%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M724 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M724/1975%20-%20M724%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M757/1975%20-%20M757%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M757 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M757/1975%20-%20M757%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/COMPUTERS/M524/1975%20-%20M524%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M524 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMPUTERS/M524/1975%20-%20M524%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M406B/1975%20-%20M406B%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M406B - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M406B/1975%20-%20M406B%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M415/1975%20-%20M415%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M415 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/DYNAMICS/M415/1975%20-%20M415%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402B/1975%20-%20M402B%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M402B - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M402B/1975%20-%20M402B%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M404A/1975%20-%20M404A%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M404A - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/FILTERS/M404A/1975%20-%20M404A%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441M/1975%20-%20M441M%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M441M - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/INPUT-PRE-AMPS/M441M/1975%20-%20M441M%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M405C - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/METER/M405C/1975%20-%20M405C%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M412/1975%20-%20M412%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M412 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M412/1975%20-%20M412%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/POWER/M628/1975%20-%20M628%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M628 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M628/1975%20-%20M628%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/POWER/M648/1975%20-%20M648%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - M648 - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/POWER/M648/1975%20-%20M648%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1975|8</td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/RM424S/1975%20-%20RM424S%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg">1975 - RM424S - PRICE LIST - PRICE LIST.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/UNSORTED/RM424S/1975%20-%20RM424S%20-%20PRICE%20LIST%20-%20PRICE%20LIST.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1987|20</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20600-02-001%20-%20INPUT%20CHANNEL%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%201.png">1987 - 600-02-001 - INPUT CHANNEL SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20600-02-001%20-%20INPUT%20CHANNEL%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%201.png.md">note</a></td>
+</tr>
+<tr>
+<td>1987|20</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20600-02-002%20-%20STEREO%20OUTPUT%20CHANNEL%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%202.png">1987 - 600-02-002 - STEREO OUTPUT CHANNEL SCHEMATIC - DRN JRG - ENG JRG - ISS 2.png</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20600-02-002%20-%20STEREO%20OUTPUT%20CHANNEL%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%202.png.md">note</a></td>
+</tr>
+<tr>
+<td>1987|20</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20600-02-003%20-%20MONO%20OUTPUT%20CHANNEL%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20GEB%20-%20ISS%202.png">1987 - 600-02-003 - MONO OUTPUT CHANNEL SCHEMATIC - DRN JRG - ENG GEB - ISS 2.png</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20600-02-003%20-%20MONO%20OUTPUT%20CHANNEL%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20GEB%20-%20ISS%202.png.md">note</a></td>
+</tr>
+<tr>
+<td>1987|20</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20600-02-004%20-%20MONITOR%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%201.png">1987 - 600-02-004 - MONITOR SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20600-02-004%20-%20MONITOR%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%201.png.md">note</a></td>
+</tr>
+<tr>
+<td>1987|20</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20600-02-005%20-%20LINE%20SELECTORS%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%201.png">1987 - 600-02-005 - LINE SELECTORS SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20600-02-005%20-%20LINE%20SELECTORS%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%201.png.md">note</a></td>
+</tr>
+<tr>
+<td>1987|20</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20600-02-007%20-%20CUE%20CHANNEL%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20GEB%20-%20ISS%201.png">1987 - 600-02-007 - CUE CHANNEL SCHEMATIC - DRN JRG - ENG GEB - ISS 1.png</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20600-02-007%20-%20CUE%20CHANNEL%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20GEB%20-%20ISS%201.png.md">note</a></td>
+</tr>
+<tr>
+<td>1987|20</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20600-02-008%20-%20TALKBACK%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%201.png">1987 - 600-02-008 - TALKBACK SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20600-02-008%20-%20TALKBACK%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%201.png.md">note</a></td>
+</tr>
+<tr>
+<td>1987|20</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20600-02-009%20-%20POWER%20SUPPLY%20WIRING%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%201.png">1987 - 600-02-009 - POWER SUPPLY WIRING SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20600-02-009%20-%20POWER%20SUPPLY%20WIRING%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%201.png.md">note</a></td>
+</tr>
+<tr>
+<td>1987|20</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20M600%20-%20P001%20-%20Title%20Page.jpg">1987 - M600 - P001 - Title Page.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20M600%20-%20P001%20-%20Title%20Page.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/BROADCAST-SOLUTIONS/MF6---EQUIPMENT-MOUNTING-FRAME/19xx%20-%20DOC%20-%20Ward%20Beck%20Systems%20MF6.jpg">19xx - DOC - Ward Beck Systems MF6.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/BROADCAST-SOLUTIONS/MF6---EQUIPMENT-MOUNTING-FRAME/19xx%20-%20DOC%20-%20Ward%20Beck%20Systems%20MF6.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20001.jpg">19xx - DOC - 7000 series - 001.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20promo%20-%20002.jpg">19xx - DOC - 7000 series - promo - 002.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Communication/7000%20series%20-%20Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20promo%20-%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%202.jpg">19xx - DOC - US Sales Brochure pg 2.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%207.jpg">19xx - DOC - US Sales Brochure pg 7.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%207.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%209.jpg">19xx - DOC - US Sales Brochure pg 9.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%209.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/Photos/Modules/19xx%20-%20DOC%20-%20wbsps%20-%20module%20-%20mf6%20mounting%20frame%20-%20front.jpg">19xx - DOC - wbsps - module - mf6 mounting frame - front.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/Photos/Modules/19xx%20-%20DOC%20-%20wbsps%20-%20module%20-%20mf6%20mounting%20frame%20-%20front.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/RAW%20SCANS/history%20-%20RAW%20IMAGES/19xx%20-%20DOC%20-%20wbsps%20-%20promo%20-%20mf6%20mounting%20frame%20-%20front.jpg">19xx - DOC - wbsps - promo - mf6 mounting frame - front.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/RAW%20SCANS/history%20-%20RAW%20IMAGES/19xx%20-%20DOC%20-%20wbsps%20-%20promo%20-%20mf6%20mounting%20frame%20-%20front.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20001.jpg">19xx - DOC - 7000 series - 001.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/19xx%20-%20DOC%20-%207000%20series%20-%20001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/19xx%20-%20DOC%20-%20promo%20-%207000%20series%20-%20002.jpg">19xx - DOC - promo - 7000 series - 002.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/Intercom%20System/19xx%20-%20DOC%20-%20promo%20-%207000%20series%20-%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/19xx%20-%20DOC%20-%20M600%20-%20600-02-003%20-%20DOCUMENT.jpg">19xx - DOC - M600 - 600-02-003 - DOCUMENT.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/19xx%20-%20DOC%20-%20M600%20-%20600-02-003%20-%20DOCUMENT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/19xx%20-%20DOC%20-%20M600%20-%20600-06-001%20-%20DOCUMENT.jpg">19xx - DOC - M600 - 600-06-001 - DOCUMENT.jpg</a></td>
+<td><a href="../viewer.html?f=DOCUMENTS/wbsPS-NOT%20UPLOADED/19xx%20-%20DOC%20-%20M600%20-%20600-06-001%20-%20DOCUMENT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20600-02-010%20-%20AUDIO%20AMPLIFIER%20SCHEMATIC%20-%20ISS%201.jpg">19xx - 600-02-010 - AUDIO AMPLIFIER SCHEMATIC - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20600-02-010%20-%20AUDIO%20AMPLIFIER%20SCHEMATIC%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20600-02-011%20-%20AUDIO%20AMPLIFIER%20OUTPUT%20STRAPPING%20SCHEMATIC%20-%20ISS%203.jpg">19xx - 600-02-011 - AUDIO AMPLIFIER OUTPUT STRAPPING SCHEMATIC - ISS 3.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20600-02-011%20-%20AUDIO%20AMPLIFIER%20OUTPUT%20STRAPPING%20SCHEMATIC%20-%20ISS%203.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20600-02-012%20-%20AUDIO%20AMPLIFIER%20TYPICAL%20SYSTEM%20WIRING%20SCHEMATIC%20-%20ISS%201.jpg">19xx - 600-02-012 - AUDIO AMPLIFIER TYPICAL SYSTEM WIRING SCHEMATIC - ISS 1.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20600-02-012%20-%20AUDIO%20AMPLIFIER%20TYPICAL%20SYSTEM%20WIRING%20SCHEMATIC%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20600-02-100%20-%20M625B%20D%20TEST%20JIG%20SCHEMATIC%20%28T625B%29%20-%20DRN%20T.%20RICHARDSON%20-%20ENG%20T.%20RICHARDSON%20-%20ISS%201.png">19xx - 600-02-100 - M625B D TEST JIG SCHEMATIC (T625B) - DRN T. RICHARDSON - ENG T. RICHARDSON - ISS 1.png</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20600-02-100%20-%20M625B%20D%20TEST%20JIG%20SCHEMATIC%20%28T625B%29%20-%20DRN%20T.%20RICHARDSON%20-%20ENG%20T.%20RICHARDSON%20-%20ISS%201.png.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%207000%20series%20-%20001%20%282%29.jpg">19xx - M600 - DOC - 7000 series - 001 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%207000%20series%20-%20001%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%207000%20series%20-%20001.jpg">19xx - M600 - DOC - 7000 series - 001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%207000%20series%20-%20001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%207000%20series%20-%20promo%20-%20002.jpg">19xx - M600 - DOC - 7000 series - promo - 002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%207000%20series%20-%20promo%20-%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%20M600%20-%20600-02-003%20-%20DOCUMENT.jpg">19xx - M600 - DOC - M600 - 600-02-003 - DOCUMENT.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%20M600%20-%20600-02-003%20-%20DOCUMENT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%20M600%20-%20600-06-001%20-%20DOCUMENT.jpg">19xx - M600 - DOC - M600 - 600-06-001 - DOCUMENT.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%20M600%20-%20600-06-001%20-%20DOCUMENT.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%202.jpg">19xx - M600 - DOC - US Sales Brochure pg 2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%207.jpg">19xx - M600 - DOC - US Sales Brochure pg 7.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%207.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%209.jpg">19xx - M600 - DOC - US Sales Brochure pg 9.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%209.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%20Ward%20Beck%20Systems%20MF6.jpg">19xx - M600 - DOC - Ward Beck Systems MF6.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%20Ward%20Beck%20Systems%20MF6.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%20promo%20-%207000%20series%20-%20002.jpg">19xx - M600 - DOC - promo - 7000 series - 002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%20promo%20-%207000%20series%20-%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%20wbsps%20-%20module%20-%20mf6%20mounting%20frame%20-%20front.jpg">19xx - M600 - DOC - wbsps - module - mf6 mounting frame - front.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%20wbsps%20-%20module%20-%20mf6%20mounting%20frame%20-%20front.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%20wbsps%20-%20promo%20-%20mf6%20mounting%20frame%20-%20front.jpg">19xx - M600 - DOC - wbsps - promo - mf6 mounting frame - front.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%20wbsps%20-%20promo%20-%20mf6%20mounting%20frame%20-%20front.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20M600%20%282%29.jpg">19xx - M600 - M600 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20M600%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20M600%20%283%29.jpg">19xx - M600 - M600 (3).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20M600%20%283%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20M600%20Audio%20Amplifier%20P1%20Connector%20Layout%20150%20ohm%20strapping.jpg">19xx - M600 - M600 Audio Amplifier P1 Connector Layout 150 ohm strapping.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20M600%20Audio%20Amplifier%20P1%20Connector%20Layout%20150%20ohm%20strapping.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20M600%20Audio%20Amplifier%20P1%20Connector%20Layout%20600%20ohm%20strapping.jpg">19xx - M600 - M600 Audio Amplifier P1 Connector Layout 600 ohm strapping.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20M600%20Audio%20Amplifier%20P1%20Connector%20Layout%20600%20ohm%20strapping.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20M600.jpg">19xx - M600 - M600.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20M600.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/448px-Wbsps_-_promo_-_m600_-_back.jpg">448px-Wbsps_-<em>promo</em>-<em>m600</em>-_back.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/448px-Wbsps_-_promo_-_m600_-_back.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/M600%20-%20P002.jpg">M600 - P002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/M600%20-%20P002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/Ward%20Beck%20Systems%20M600%20b.jpg">Ward Beck Systems M600 b.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/Ward%20Beck%20Systems%20M600%20b.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/wbsps%20-%20promo%20-%20m600%20-%20002.jpg">wbsps - promo - m600 - 002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/wbsps%20-%20promo%20-%20m600%20-%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%202.jpg">19xx - M621 - DOC - US Sales Brochure pg 2.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%202.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M666/19xx%20-%20M666%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%207.jpg">19xx - M666 - DOC - US Sales Brochure pg 7.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M666/19xx%20-%20M666%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%207.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/19xx%20-%20M703%20-%20DOC%20-%207000%20series%20-%20001%20%282%29.jpg">19xx - M703 - DOC - 7000 series - 001 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/19xx%20-%20M703%20-%20DOC%20-%207000%20series%20-%20001%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/19xx%20-%20M703%20-%20DOC%20-%207000%20series%20-%20001.jpg">19xx - M703 - DOC - 7000 series - 001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/19xx%20-%20M703%20-%20DOC%20-%207000%20series%20-%20001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/19xx%20-%20M703%20-%20DOC%20-%207000%20series%20-%20promo%20-%20002.jpg">19xx - M703 - DOC - 7000 series - promo - 002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/19xx%20-%20M703%20-%20DOC%20-%207000%20series%20-%20promo%20-%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/19xx%20-%20M703%20-%20DOC%20-%20promo%20-%207000%20series%20-%20002.jpg">19xx - M703 - DOC - promo - 7000 series - 002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M703/19xx%20-%20M703%20-%20DOC%20-%20promo%20-%207000%20series%20-%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%207000%20series%20-%20001%20%282%29.jpg">19xx - M712 - DOC - 7000 series - 001 (2).jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%207000%20series%20-%20001%20%282%29.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%207000%20series%20-%20001.jpg">19xx - M712 - DOC - 7000 series - 001.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%207000%20series%20-%20001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%207000%20series%20-%20promo%20-%20002.jpg">19xx - M712 - DOC - 7000 series - promo - 002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%207000%20series%20-%20promo%20-%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%20promo%20-%207000%20series%20-%20002.jpg">19xx - M712 - DOC - promo - 7000 series - 002.jpg</a></td>
+<td><a href="../viewer.html?f=Modules/COMMUNICATION/M712/19xx%20-%20M712%20-%20DOC%20-%20promo%20-%207000%20series%20-%20002.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Sub-assemblies &amp; parts used (2)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What</th>
+<th>Family</th>
+<th>Year</th>
+<th>How we know</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Register-Input-transformers-60-n.html#60-4">60-4</a></td>
+<td>60-4 INPUT TRANSFORMER</td>
+<td>Input transformers (60-n)</td>
+<td>1967|0</td>
+<td>drawing filed with it</td>
+</tr>
+<tr>
+<td><a href="Register-Output-transformers-70-n.html#70-3">70-3</a></td>
+<td>70-3 OUTPUT TRANSFORMER</td>
+<td>Output transformers (70-n)</td>
+<td>1967|0</td>
+<td>named in its manual</td>
+</tr>
+</tbody>
+</table>
+<h2>Parts list — board M600 (2 parts)</h2>
+<p><em>From <a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P013%20-%209-2.jpg">1970 - M600 - P013 - 9-2.jpg</a>, page 1 (scanned); also in <code>timelines/data/bom.csv</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>Part</th>
+<th>Value</th>
+<th>Manufacturer</th>
+<th>Mfr part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R16</td>
+<td>soT</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R26</td>
+<td>Sot</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Consoles &amp; jobs it is connected to (1)</h2>
+<p><em>Their own drawings name this module.</em></p>
+<table>
+<thead>
+<tr>
+<th>Job</th>
+<th>Year</th>
+<th>Drawing</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Job-920306.html">920306</a></td>
+<td>1992|25</td>
+<td><a href="../viewer.html?f=Consoles/1990-1999/920306%20-%20CJMJ-FM/1992%20-%20920306-01-001%20-%20CJMJ-FM%20RADIO%20CONSOLE%20AUDIO%20FUNCTIONAL%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201.jpg">1992 - 920306-01-001 - CJMJ-FM RADIO CONSOLE AUDIO FUNCTIONAL - DRN PA - ENG PA - ISS 1.jpg</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (42)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../viewer.html?f=ADVERTISEMENTS/19xx%20-%20AD%20-%20WBSPS%20-%20AD%20-%20for%20the%20engineer%20who%20has%20everything.jpg">19xx - AD - WBSPS - AD - for the engineer who has everything.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=ADVERTISEMENTS/19xx%20-%20AD%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - AD - wbsps - ad - 600 series.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=ADVERTISEMENTS/19xx%20-%20MF6.jpg">19xx - MF6.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=DOCUMENTS/BROADCAST-SOLUTIONS/MF6---EQUIPMENT-MOUNTING-FRAME/19xx%20-%20DOC%20-%20Ward%20Beck%20Systems%20MF6%20b.jpg">19xx - DOC - Ward Beck Systems MF6 b.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2010.jpg">19xx - DOC - US Sales Brochure pg 10.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2014.jpg">19xx - DOC - US Sales Brochure pg 14.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=DOCUMENTS/Photos/History/19xx%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - DOC - wbsps - ad - 600 series.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=DOCUMENTS/RAW%20SCANS/history%20-%20RAW%20IMAGES/19xx%20-%20DOC%20-%20WBSPS%20-%20AD%20-%20for%20the%20engineer%20who%20has%20everything.jpg">19xx - DOC - WBSPS - AD - for the engineer who has everything.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=DOCUMENTS/RAW%20SCANS/history%20-%20RAW%20IMAGES/19xx%20-%20DOC%20-%20wbsps%20-%20promo%20-%20mf6%20mounting%20frame%20-%20back.jpg">19xx - DOC - wbsps - promo - mf6 mounting frame - back.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M605/19xx%20-%20M605%20-%20AD%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M605 - AD - wbsps - ad - 600 series.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M605/19xx%20-%20M605%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2010.jpg">19xx - M605 - DOC - US Sales Brochure pg 10.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M608/19xx%20-%20M608%20-%20AD%20-%20WBSPS%20-%20AD%20-%20for%20the%20engineer%20who%20has%20everything.jpg">19xx - M608 - AD - WBSPS - AD - for the engineer who has everything.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M608/19xx%20-%20M608%20-%20DOC%20-%20WBSPS%20-%20AD%20-%20for%20the%20engineer%20who%20has%20everything.jpg">19xx - M608 - DOC - WBSPS - AD - for the engineer who has everything.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M609/19xx%20-%20M609%20-%20AD%20-%20WBSPS%20-%20AD%20-%20for%20the%20engineer%20who%20has%20everything.jpg">19xx - M609 - AD - WBSPS - AD - for the engineer who has everything.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M609/19xx%20-%20M609%20-%20DOC%20-%20WBSPS%20-%20AD%20-%20for%20the%20engineer%20who%20has%20everything.jpg">19xx - M609 - DOC - WBSPS - AD - for the engineer who has everything.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M610/19xx%20-%20M610%20-%20AD%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M610 - AD - wbsps - ad - 600 series.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M610/19xx%20-%20M610%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M610 - DOC - wbsps - ad - 600 series.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/19xx%20-%20M612%20-%20AD%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M612 - AD - wbsps - ad - 600 series.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/19xx%20-%20M612%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2010.jpg">19xx - M612 - DOC - US Sales Brochure pg 10.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/19xx%20-%20M612%20-%20DOC%20-%20Ward%20Beck%20Systems%20MF6%20b.jpg">19xx - M612 - DOC - Ward Beck Systems MF6 b.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/19xx%20-%20M612%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M612 - DOC - wbsps - ad - 600 series.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612/19xx%20-%20M612%20-%20DOC%20-%20wbsps%20-%20promo%20-%20mf6%20mounting%20frame%20-%20back.jpg">19xx - M612 - DOC - wbsps - promo - mf6 mounting frame - back.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612A/19xx%20-%20M612A%20-%20AD%20-%20WBSPS%20-%20AD%20-%20for%20the%20engineer%20who%20has%20everything.jpg">19xx - M612A - AD - WBSPS - AD - for the engineer who has everything.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M612A/19xx%20-%20M612A%20-%20DOC%20-%20WBSPS%20-%20AD%20-%20for%20the%20engineer%20who%20has%20everything.jpg">19xx - M612A - DOC - WBSPS - AD - for the engineer who has everything.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20AD%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M621 - AD - wbsps - ad - 600 series.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M621/19xx%20-%20M621%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M621 - DOC - wbsps - ad - 600 series.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M666/19xx%20-%20M666%20-%20AD%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M666 - AD - wbsps - ad - 600 series.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M666/19xx%20-%20M666%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M666 - DOC - wbsps - ad - 600 series.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/POWER/M624/19xx%20-%20M624%20-%20AD%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M624 - AD - wbsps - ad - 600 series.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/POWER/M624/19xx%20-%20M624%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M624 - DOC - wbsps - ad - 600 series.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20M625%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2010.jpg">19xx - M625 - DOC - US Sales Brochure pg 10.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20M625%20-%20DOC%20-%20Ward%20Beck%20Systems%20MF6%20b.jpg">19xx - M625 - DOC - Ward Beck Systems MF6 b.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/POWER/M625/19xx%20-%20M625%20-%20DOC%20-%20wbsps%20-%20promo%20-%20mf6%20mounting%20frame%20-%20back.jpg">19xx - M625 - DOC - wbsps - promo - mf6 mounting frame - back.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/POWER/M648/19xx%20-%20M648%20-%20AD%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M648 - AD - wbsps - ad - 600 series.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/POWER/M648/19xx%20-%20M648%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2010.jpg">19xx - M648 - DOC - US Sales Brochure pg 10.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/POWER/M648/19xx%20-%20M648%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%2014.jpg">19xx - M648 - DOC - US Sales Brochure pg 14.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/POWER/M648/19xx%20-%20M648%20-%20DOC%20-%20Ward%20Beck%20Systems%20MF6%20b.jpg">19xx - M648 - DOC - Ward Beck Systems MF6 b.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/POWER/M648/19xx%20-%20M648%20-%20DOC%20-%20wbsps%20-%20ad%20-%20600%20series.jpg">19xx - M648 - DOC - wbsps - ad - 600 series.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/POWER/M648/19xx%20-%20M648%20-%20DOC%20-%20wbsps%20-%20promo%20-%20mf6%20mounting%20frame%20-%20back.jpg">19xx - M648 - DOC - wbsps - promo - mf6 mounting frame - back.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT%20%282%29.docx">1995 - M405P - ITEMIMP(1).TXT (2).docx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT.docx">1995 - M405P - ITEMIMP(1).TXT.docx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP.TXT.docx">1995 - M405P - ITEMIMP.TXT.docx</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>From the manuals</h2>
+<p><em>Each manual split into its sections. Text that is the same in many Ward-Beck manuals (warranty, address, standard notes) is kept once on the <a href="Boilerplate.html">Boilerplate</a> page and linked.</em></p>
+<h3>General description (11)</h3>
+<details><summary>Description — 314 words · 19xx - M600 - DOC - US Sales Brochure pg 2.jpg, page 1</summary><p>The M621 20 watt audio power amplifier is an ac operated, plug-in module designed for professional applications in the broadcast, motion picture and sound recording industries: The unit represents the continuing development ad expansion of the well proven WBS 600 series of 3-1/2 inch modular components and offers a wider scope of selection for monitor amplifiers from this design category.</p><p>The circuit utilizes differential operational amplifiers to produce a ultra-reliable transformerless design capable of developing a minimum of 20 watts rms to drive a 8 ohm loudspeaker directly. Other load impedances (4, 16 ohms, etc ) may be accommodated with appro- priate power output interpolation. A unique protection circuit incorporated within the M621 activates instantaneously during adverse amplifier load conditions or at a pre- determined power output level.</p><p>The amplifier does not sustain damage even when deliberately shorted at full power output. A combination of conditional frame strapping ad a variable front panel level control permits the M621 t0 operate over an input signal range of ~20dBm to 18dBm: The M621 presents a permanent 20k ohm impedance at the input ad is capable of operating from a balanced or unbalanced source.</p><p>The unit exhibits exceedingly uniform frequency response with low noise ad distortion over the frequency range 30Hz to Z0kHZ An internal muting relay is included to provide amplifier cut-off when a external (closure to ground) command is initiated via muting logic control circuitry, etc. The modest size of 5.1W x 3.4H x 13.70 inches allows three M621 monitor amplifiers to be accommodated in one standard rack mount- ing (19W x 3.5H) MF6 equipment frame: FEATURES 2Ow rms direct output into 8 ohms Compact design mounts in standard WBS 3-1/2 inch MF6 rack frame.</p><p>Self contained power supply Integral muting relay Operational amplifier transformerless 1C design with unique short-circuit protection 20k bridging input balanced /unbalanced Active elements contained on plug-in subsidiary PC card 22488</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%202.jpg">19xx - M600 - DOC - US Sales Brochure pg 2.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Description — 273 words · 19xx - M600 - DOC - 7000 series - promo - 002.jpg, page 1</summary><p>THE WARD-BECK SYSTEMS 7000 Series solid-state Intercom Systems are designed to provide inter- communication between production and technical staff within a broadcast or production complex: Modular construction enhances the flexibility of the available configurations. 1 ) M7012 ~ 12 input, 12 output configuration with to 144 crosspoints (expansion capability to 12 x 16 with 1 to 192 crosspoints) . Requires 8 rack units of space.</p><p>2) M7024 24 input, 24 output configuration with to 576 crosspoints. Requires 14 rack units of space. Various capacity systems are conveniently assembled by re-arranging the modular components. The 7000 series Intercom Systems comprise centrally located amplifier and switching equipment which is remotely controlled from passive control stations situated in the appropriate personnel areas: The concept features entirely balanced circuitry for improved crosstalk and minimum transient and RF degradation: The system utilizes latest state-of-the-art operational amplifier techniques with solid-state balanced crosspoints and integrated circuit amplifier designs: Optimum efficiency in packaging is achieved by use of one MF7 frame type which accommodates the basic amplifier and crosspoint modules.</p><p>12 M703 inputloutput amplifier modules or 24 M712 cross- point modules may be accommodated in the 5-1/4 in. high (3 rack units) , standard 19 in. rack mounting MF7 equipment frame. The sophistication of the system may be expanded as required through the use of WBS 600 series power amplifiers and distribution amplifiers for higher listening levels and multiple output distribution: The inherent flexibility of the 7000 series system permits convenient integration of the facility with any existing system: In addition, the basic modules will accommodate dynamic or carbon micro- phone inputs from various sources or any make of camera equipment</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%207000%20series%20-%20promo%20-%20002.jpg">19xx - M600 - DOC - 7000 series - promo - 002.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Description — 284 words · 19xx - M600 - DOC - US Sales Brochure pg 7.jpg, page 1</summary><p>The M666 100 watt audio power amplifier is a ac operated, plug-in module designed for professional applications in the broadcast, motion picture ad sound recording industries: The unit represents the continuing development and expansion of the well proven WBS 600 series of modular components and offers a wider scope of selection for monitor amplifiers from this design category. The circuit utilizes differential operational amplifiers to produce a ultra- reliable transformerless design capable of developing a minimum of 100 watts rms to drive a 8 ohm loudspeaker directly.</p><p>Other load impedances (4, 16 ohms, etc:) may be accommodated with appropriate power output inter- polation. A unique protection circuit incorporated within the M666 activates instantan- eously during adverse ampli ifier load conditions or at predetermined power output level: The amplifier does not sustain damage even when deliberately shorted at full power output A combination of conditional frame strapping and variable front panel level control permits the M666 to operate over an input signal range of OdBm to +20dBm: The M666 presents a permanent 10k ohm impedance at the input and is capa- ble of operating from balanced or unbalanced source.</p><p>The unit exhibits ex- ceedingly uniform frequency response with low noise and distortion over the frequency range 20 Hz to 20kHz: The modest size of 8.5Wx SHx13.7D inches allows two M666 monitor amplifiers to be accommodated in one standard rack mounting (19W x 5.25H) MF6A equipment frame FEATURES: 10Ow rms direct output into 8 ohms Compact design mounts in standard WBS 5% inch MFGA rack frame.</p><p>Self contained power supply Operational amplifier transformer- less IC design with unique short- circuit protection 10k bridging input balanced/ unbalanced Active elements contained on plug in subsidiary PC card 24#</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%207.jpg">19xx - M600 - DOC - US Sales Brochure pg 7.jpg</a>, p. 1</li>
+<li>also in: <a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%20promo%20-%207000%20series%20-%20002.jpg">19xx - M600 - DOC - promo - 7000 series - 002.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%20wbsps%20-%20promo%20-%20mf6%20mounting%20frame%20-%20front.jpg">19xx - M600 - DOC - wbsps - promo - mf6 mounting frame - front.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%20Ward%20Beck%20Systems%20MF6.jpg">19xx - M600 - DOC - Ward Beck Systems MF6.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%20US%20Sales%20Brochure%20pg%209.jpg">19xx - M600 - DOC - US Sales Brochure pg 9.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20promo%20-%20m600%20-%20front.jpg">1970 - M600 - wbsps - promo - m600 - front.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20Ward%20Beck%20Systems%20M600.jpg">1970 - M600 - Ward Beck Systems M600.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%20wbsps%20-%20module%20-%20mf6%20mounting%20frame%20-%20front.jpg">19xx - M600 - DOC - wbsps - module - mf6 mounting frame - front.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P006%20-%203-2.jpg">1970 - M600 - P006 - 3-2.jpg</a>, p. 1</li>
+</ul>
+<h3>Specifications (9)</h3>
+<details><summary>Technical Data — 220 words · 1970 - M600 - wbsps - promo - m600 - back.jpg, page 1</summary><p>GAIN 50 7OdB Transducer FREQUENCY RESPONSE 1 0.25dB from 2OHz to 20kHz (greater than -3dB at 35kHz) EQUIVALENT INPUT NOISE ~1 26dBm (1OHz to 1OOkHz bandwidth) _128dBm (1OHz to 20kHz bandwidth) TOTAL HARMONIC DISTORTION Less than 0.25% from 3OHz to 20kHz , Less than 0.5% from 20Hz to 20kHz (Measured at + 3OdBm output level) SOURCE IMPEDANCE 150/600 ohms balanced or unbalanced INPUT IMPEDANCE Greater than X 10 source impedance INPUT LEVEL 6OdBm nominal, ~2OdBm maximum LOAD IMPEDANCE 150/600 ohms balanced or unbalanced OUTPUT IMPEDANCE Less than /5 load impedance OUTPUT LEVEL 3OdBm (1 watt) maximum PHASING The low terminal number of the input pair and the low terminal number of the output pair are in phase POWER REQUIREMENTS 48 volts dc, reg.</p><p>from M648 or equiv. 1OOmA at watt output level AMBIENT TEMPERATURE 0&quot; to 60&#x27;c DIMENSIONS 1.7W 3.4H x 13.7D inches WEIGHT 4 Ibs net ACCESSORIES: MF6 600 Series Mounting Frame. 19W x 3.5H 14.5D (less rear cable tray and cover)_ Standard EIA rack mounting: Accommodates ten M6OO modules or any combination of single, double or quadruple units not exceeding ten single width modules MFR6 600 Series Frame Receptacle.</p><p>One required per M6OO. WARD-BECK sysTeMs LTD_ WARD-BECK SYSTEMS INC. 841 Progress Ave,Scarborough, Ont. M1H 2x4 290 Larkin St;, Buffalo, New York 14210 Telephone: (416) 438-655O Telex: 06-23469 WBS</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20promo%20-%20m600%20-%20back.jpg">1970 - M600 - wbsps - promo - m600 - back.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Technical Data — 221 words · 19xx - M600 - M600.jpg, page 1</summary><p>GAIN 50 7OdB Transducer FREQUENCY RESPONSE + 0.25dB from 2OHz to 20kHz (greater than -3dB at 35kHz) EQUIVALENT INPUT NOISE -126dBm (1OHz to 1OOkHz bandwidth) _128dBm (1OHz to 20kHz bandwidth) TOTAL HARMONIC DISTORTION Less than 0.25% from 3OHz to 2OkHz, Less than 0.5% from 2OHz to 20kHz (Measured at + 3OdBm output level) SOURCE IMPEDANCE 150/600 ohms balanced or unbalanced INPUT IMPEDANCE Greater than X 10 source impedance INPUT LEVEL ~6OdBm nominal, ~2OdBm maximum LOAD IMPEDANCE 150/600 ohms balanced or unbalanced OUTPUT IMPEDANCE Less than 1/5 load impedance OUTPUT LEVEL 30dBm (1 watt) maximum PHASING The low terminal number of the input pair ad the low terminal number of the output pair are in phase POWER REQUIREMENTS 48 volts dc, reg.</p><p>from M648 or equiv. 1OOmA at 1 watt output level AMBIENT TEMPERATURE 0? to 608c DIMENSIONS 1.WW x 3.4H x 13.7D inches WEIGHT 4 Ibs net ACCESSORIES: MF6 600 Series Mounting Frame. 19W x 3.5H 14.5D (less rear cable tray ad cover) . Standard EIA rack mounting: Accommodates ten M6OO modules or ay combination of single, double or quadruple units not exceeding ten single width modules.</p><p>MFR6 600 Series Frame Receptacle. One required per M6OO. WARD-BECK SYSTEMS LTD; WARD-BECK SYSTEMS INC. 841 Frogress Ave_Scarboragh, Ont_ MH 2x4 290 Larkin Sc, Buffalo; New Yok 14210 Telephone: (416) 438-6550 Telex: 06-23469 WBS</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20M600.jpg">19xx - M600 - M600.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Technical Data — 220 words · 1970 - M600 - Ward Beck Systems M600 b.jpg, page 1</summary><p>GAIN 50 7OdB Transducer FREQUENCY RESPONSE 1 0.25dB from 2OHz to 2OkHz (greater than -3dB at 35kHz) EQUIVALENT INPUT NOISE 126dBm (1OHz to 1OOkHz bandwidth) _128dBm (1OHz to 20kHz bandwidth) TOTAL HARMONIC DISTORTION Less than 0.25% from 3OHz to 20kHz , Less than 0.5% from 20Hz to 20kHz (Measured at + 30dBm output level) SOURCE IMPEDANCE 150/600 ohms balanced or unbalanced INPUT IMPEDANCE Greater than X 10 source impedance INPUT LEVEL 6OdBm nominal, ~2OdBm maximum LOAD IMPEDANCE 150/600 ohms balanced or unbalanced OUTPUT IMPEDANCE Less than 1/5 load impedance OUTPUT LEVEL 3OdBm (1 watt) maximum PHASING The low terminal number of the input pair and the low terminal number of the output pair are in phase POWER REQUIREMENTS 48 volts dc, reg: from M648 or equiv.</p><p>1OOmA at watt output level AMBIENT TEMPERATURE 0&quot; to 60%c DIMENSIONS 1.7W x 3.4H x 13.70 inches WEIGHT 4 Ibs net ACCESSORIES: MF6 600 Series Mounting Frame. 19W x 3.5H x 14.50 (less rear cable tray and cover) _ Standard EIA rack mounting: Accommodates ten M6OO modules or ay combination of single, double or quadruple units not exceeding ten single width modules MFR6 600 Series Frame Receptacle.</p><p>One required per M6OO. WARD-BECK SYSTEMS LTD; WARD-BECK SYSTEMS INC 841 Progress Ave.Scarborough,Ont M1H2x4 290 Larkin St&quot; Buffalo; New York 14210 Telephone: (416) 438-6550 Telex: 06-23469 WBS</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20Ward%20Beck%20Systems%20M600%20b.jpg">1970 - M600 - Ward Beck Systems M600 b.jpg</a>, p. 1</li>
+<li>also in: <a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20M600%20%283%29.jpg">19xx - M600 - M600 (3).jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20M600%20%282%29.jpg">19xx - M600 - M600 (2).jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/AMPLIFIERS/M600/Ward%20Beck%20Systems%20M600%20b.jpg">Ward Beck Systems M600 b.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20wbsps%20-%20module%20-%20m600%20-%20back.jpg">1970 - M600 - wbsps - module - m600 - back.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/AMPLIFIERS/M600/wbsps%20-%20promo%20-%20m600%20-%20002.jpg">wbsps - promo - m600 - 002.jpg</a>, p. 1 · <a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P003%20-%201-1.jpg">1970 - M600 - P003 - 1-1.jpg</a>, p. 1</li>
+</ul>
+<h3>Installation (2)</h3>
+<details><summary>Installation — 298 words · 1970 - M600 - P007 - 4-1.jpg, page 1</summary><p>M6uo AUDI0 AMPL IFIER The M6oo plugs directly into the MF6 mounting fraitie which may bc installed standard inch equipment rack with the hardware supplied with the rack . The MF6 furnished with full guide compliment order accept maximum ten M6oo amplifiers any combination single multiple width modules not exceeding single width modu the mounting frame has been procured with less receptac es, these must be installed the appropriate module positions Where vertical rack space permits and the ultimate noise and crosstalk demanded, recommiended allocate only modules the same type each individua MF6 rack frame Alternately power supply required power [wo single module M6oo amplificrs_ the power supply shoul be installed the right the framie (normal practice iewed from rack front and the amplifiers installed the extreme left .</p><p>When mixing amplifer types one frame exercise extreine care seperate cables and adherc proper grounding conventions For optimum results, use insulated, shielded twisted pairs for both input and output wiring Cables operating with Ievel differences exceeding 25 dB should be laced separately and dressed apart fromn cach other and Irom power wiring- Jumiper terminal (chassis ground) all amplifiers common frame together and connect #18 AWG wire frorn each frame amplifiers the systern ground bus _ Makc separate connection from terminal comimon each amplificr the sysler ground bus This wiii prevent current coupling, noise and crosstalk_ Jumper terminal (+V) all amplifiers on and connect #18 AWG wire froi each frame volt power supply terminal coitnon frame together amplifiers thc +48 Individual systems require ground techniques peculiar each system Preferably the one point&quot; ground Sys CM shou be employed eliminate ground loops AII input shielding should he connected individually terminal (input ground) only the input shield ground internally connected he point lowest potential and carried through via terminal the system ground</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P007%20-%204-1.jpg">1970 - M600 - P007 - 4-1.jpg</a>, p. 1</li>
+</ul>
+<details><summary>Connections — 36 words · 1970 - M600 - P010 - 7-1.jpg, page 1</summary><p>SOURCE MPEDANCE : JUMPER CONNECT: and 16 150 ohms 15 600 ohms and Input Shield Gnd LOAD IMPEDANCE JUMPER CONNECT: 150 ohms and 600 ohms 12 and Gain Strap 10 and +4BV DC GND 7 _</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P010%20-%207-1.jpg">1970 - M600 - P010 - 7-1.jpg</a>, p. 1</li>
+</ul>
+<h3>Maintenance &amp; alignment (1)</h3>
+<details><summary>Maintenance — 297 words · 1970 - M600 - P008 - 5-1.jpg, page 1</summary><p>M6oo AUDIO AMPLIFIER The M6oo designed for dependab Te, troublc-free serv ice; however as with all high quality electronic equipment regular schedule inspection should be established Any accumulation dust should be periodically removed with soft brush and vacuuin hose The active circuitry may be removed for inspection by unp lugging the 5A122 circuit board Do not insert remove the component board with the unit energized_ fault suspected_ mea suring the dc voltage present the transistor ectrodes may assist determine the cause When compar ing the mncasurements listed the voltage chart consideration should be given the fact that, for direct coupled sections, fault one circuit may cause abnorma condi tions other circuit areas within the same section.</p><p>necessary interchange component determine the cause fault, first remiove the solder from the printed circuit foi l fillets associated with thc suspected defective component To do this, use Tight soldering iron watts) combination with an inexpensive vacuum action type hand deso dering tool_ Place the sole dering iron and the desol dering tool thc solder connection be deso dered When the solder mne thoroughly press the plunger release trigger Apply the dering iron on the connect- ion until the vacuum stroke has been completed any the lead connections stick the printed rcuit board free thcm with scribe similar sharply pointed instrument Carefully remove the cornponent which, proven be satisfactory _ mnay be used again for other applications To instal the new componen [ shape the Iea ds the correct spacing.</p><p>Insert the part and fold the eads under the printed circuit board firmly hold the component Clip off the excess wire leaving about 1/6 inch Solder the ncw eads using resin core solder and clean the board with inert fluid such as perch- lorethelyne Thc location components shown drawing 1122-06 001</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P008%20-%205-1.jpg">1970 - M600 - P008 - 5-1.jpg</a>, p. 1</li>
+</ul>
+<h3>Parts list (text) (1)</h3>
+<details><summary>Parts List — 79 words · 1970 - M600 - P013 - 9-2.jpg, page 1</summary><p>MGoo AUDIO AMPLIFIER PART DESCRIPT ION MFG MFG PART NUMBER Transistor National MM3007 MM5007 MM3007 MM5007 01 012 Resistor 1/4w  5% OOK 20K 4K3 8K2 Philips R2 R3 R4 RS R6 R3 RIO Sk 150 2K 47K OK RII R12 R13 R14 R1S 4K7 5K1 10K 1OK 1K8 R16 R17 R1B R19 R2O soT 6k2 39K 15k 2K7 R21 R22 R23 R24 R25 220 330K 10OK 100k 5K6 R26 R27 R28 R29 R3O Sot 8K2 270 6k8 4K?</p><p>9-2</p></details>
+<ul>
+<li>source: <a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20P013%20-%209-2.jpg">1970 - M600 - P013 - 9-2.jpg</a>, p. 1</li>
+</ul>
+<h2>Drawings (48)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="People.html#drawing-staff">Drawn by</a></th>
+<th><a href="People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>60-4</td>
+<td>60-4 / INPUT TRANSFORMER</td>
+<td><a href="Year-1967.html">1967|0</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1967%20-%2060-4%20-%2060-4%20INPUT%20TRANSFORMER.png">file</a></td>
+</tr>
+<tr>
+<td>D 600-02-005</td>
+<td>M600R SYSTEM / FOR CDL A/V SWITCHER APPLICATION</td>
+<td><a href="Year-1970.html">1970|3</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20600-02-005%20-%20M600R%20SYSTEM%20FOR%20CDL%20A%20V%20SWITCHER%20APPLICATION.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 600-02-001</td>
+<td>M600 / AUDIO AMPLIFIER SCHEMATIC</td>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td><a href="Person-DM.html">DM</a></td>
+<td><a href="Person-RM.html">RM</a></td>
+<td>14</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1975%20-%20600-02-001%20-%20AUDIO%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%2014.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 600-02-006</td>
+<td>M600 / EXTERNAL CONNECTIONS</td>
+<td><a href="Year-1975.html">1975|8</a></td>
+<td><a href="Person-DM.html">DM</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1975%20-%20600-02-006%20-%20EXTERNAL%20CONNECTIONS%20-%20DRN%20DM%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 600-02-001</td>
+<td>INPUT CHANNEL / SCHEMATIC</td>
+<td><a href="Year-1987.html">1987|20</a></td>
+<td><a href="Person-JRG.html">JRG</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20600-02-001%20-%20INPUT%20CHANNEL%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>B 600-02-002</td>
+<td>STEREO OUTPUT CHANNEL / SCHEMATIC</td>
+<td><a href="Year-1987.html">1987|20</a></td>
+<td><a href="Person-JRG.html">JRG</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20600-02-002%20-%20STEREO%20OUTPUT%20CHANNEL%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%202.png">file</a></td>
+</tr>
+<tr>
+<td>B 600-02-003</td>
+<td>MONO OUTPUT CHANNEL / SCHEMATIC</td>
+<td><a href="Year-1987.html">1987|20</a></td>
+<td><a href="Person-JRG.html">JRG</a></td>
+<td></td>
+<td>2</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20600-02-003%20-%20MONO%20OUTPUT%20CHANNEL%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20GEB%20-%20ISS%202.png">file</a></td>
+</tr>
+<tr>
+<td>B 600-02-004</td>
+<td>MONITOR / SCHEMATIC</td>
+<td><a href="Year-1987.html">1987|20</a></td>
+<td><a href="Person-JRG.html">JRG</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20600-02-004%20-%20MONITOR%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>B 600-02-005</td>
+<td>LINE SELECTORS / SCHEMATIC</td>
+<td><a href="Year-1987.html">1987|20</a></td>
+<td><a href="Person-JRG.html">JRG</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20600-02-005%20-%20LINE%20SELECTORS%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>B 600-02-007</td>
+<td>CUE CHANNEL / SCHEMATIC</td>
+<td><a href="Year-1987.html">1987|20</a></td>
+<td><a href="Person-JRG.html">JRG</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20600-02-007%20-%20CUE%20CHANNEL%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20GEB%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>B 600-02-008</td>
+<td>TALKBACK / SCHEMATIC</td>
+<td><a href="Year-1987.html">1987|20</a></td>
+<td><a href="Person-JRG.html">JRG</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20600-02-008%20-%20TALKBACK%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>B 600-02-009</td>
+<td>POWER SUPPLY WIRING / SCHEMATIC</td>
+<td><a href="Year-1987.html">1987|20</a></td>
+<td><a href="Person-JRG.html">JRG</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1987%20-%20600-02-009%20-%20POWER%20SUPPLY%20WIRING%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>M600 Audio Amplifier P1 Connector Layout 150 ohm strapping</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20M600%20Audio%20Amplifier%20P1%20Connector%20Layout%20150%20ohm%20strapping.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>M600 Audio Amplifier P1 Connector Layout 600 ohm strapping</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20M600%20Audio%20Amplifier%20P1%20Connector%20Layout%20600%20ohm%20strapping.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/448px-Wbsps_-_promo_-_m600_-_back.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/M600%20-%20P002.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>M600</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20M600.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>M600</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20M600%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/Ward%20Beck%20Systems%20M600%20b.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/wbsps%20-%20module%20-%20m600%20-%20back.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td>M600</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20M600%20%283%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>—</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/wbsps%20-%20promo%20-%20m600%20-%20002.jpg">file</a></td>
+</tr>
+<tr>
+<td>00-02-012</td>
+<td>Audio Amplifier Typical System Wiring Schematic</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%2000-02-012%20-%20AUDIO%20AMPLIFIER%20TYPICAL%20SYSTEM%20WIRING%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>122-02-001</td>
+<td>Com Gain Set</td>
+<td></td>
+<td></td>
+<td></td>
+<td>6</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20122-02-001%20-%20COM%20GAIN%20SET%20%282%29.jpg">file</a></td>
+</tr>
+<tr>
+<td>122-02-001</td>
+<td>Com Gain Set</td>
+<td></td>
+<td></td>
+<td></td>
+<td>6</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20122-02-001%20-%20COM%20GAIN%20SET.jpg">file</a></td>
+</tr>
+<tr>
+<td>122-06-012</td>
+<td>Amplifier Assembly Component Layout</td>
+<td></td>
+<td></td>
+<td></td>
+<td>11</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20122-06-012%20-%20AMPLIFIER%20ASSEMBLY%20COMPONENT%20LAYOUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>122-06-012</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20122-06-012.jpg">file</a></td>
+</tr>
+<tr>
+<td>600-02-001</td>
+<td>Input Channel Schema Tic</td>
+<td></td>
+<td><a href="Person-JRG.html">JRG</a></td>
+<td></td>
+<td>I</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497/19xx%20-%20M497%20-%20DOC%20-%20600-02-001%20-%20INPUT%20CHANNEL%20SCHEMA%20TIC.png">file</a></td>
+</tr>
+<tr>
+<td>600-02-002</td>
+<td>Output Channels Are Wired</td>
+<td></td>
+<td><a href="Person-JRG.html">JRG</a></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497/19xx%20-%20M497%20-%20DOC%20-%20600-02-002%20-%20OUTPUT%20CHANNELS%20ARE%20WIRED.png">file</a></td>
+</tr>
+<tr>
+<td>600-02-003</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%20M600%20-%20600-02-003%20-%20DOCUMENT.jpg">file</a></td>
+</tr>
+<tr>
+<td>600-02-003</td>
+<td>With Jumpers Between Pins And Between Pins</td>
+<td></td>
+<td><a href="Person-JRG.html">JRG</a></td>
+<td></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/SUMMING/M497/19xx%20-%20M497%20-%20DOC%20-%20600-02-003%20-%20WITH%20JUMPERS%20BETWEEN%20PINS%20AND%20BETWEEN%20PINS.png">file</a></td>
+</tr>
+<tr>
+<td>600-02-004</td>
+<td>Novov Monitor Channels Are Wired Identically External Inputs</td>
+<td></td>
+<td><a href="Person-JRG.html">JRG</a></td>
+<td></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M495/19xx%20-%20M495%20-%20DOC%20-%20600-02-004%20-%20NOVOV%20MONITOR%20CHANNELS%20ARE%20WIRED%20IDENTICALLY%20EXTERNAL%20INPUTS.png">file</a></td>
+</tr>
+<tr>
+<td>600-02-005</td>
+<td>Line Selectors Schema Tic</td>
+<td></td>
+<td><a href="Person-JRG.html">JRG</a></td>
+<td></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/ROUTING/M498/19xx%20-%20M498%20-%20DOC%20-%20600-02-005%20-%20LINE%20SELECTORS%20SCHEMA%20TIC.png">file</a></td>
+</tr>
+<tr>
+<td>600-02-007</td>
+<td>Cue Channel Schema Tic</td>
+<td></td>
+<td><a href="Person-JRG.html">JRG</a></td>
+<td></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M453A/19xx%20-%20M453A%20-%20DOC%20-%20600-02-007%20-%20CUE%20CHANNEL%20SCHEMA%20TIC.png">file</a></td>
+</tr>
+<tr>
+<td>600-02-008</td>
+<td>Talkback Schematic</td>
+<td></td>
+<td><a href="Person-JRG.html">JRG</a></td>
+<td></td>
+<td>B</td>
+<td><a href="../viewer.html?f=Modules/MONITORING/M451/19xx%20-%20M451%20-%20DOC%20-%20600-02-008%20-%20TALKBACK%20SCHEMATIC.png">file</a></td>
+</tr>
+<tr>
+<td>600-02-009</td>
+<td>Power Supply Wiring Schema Tic</td>
+<td></td>
+<td><a href="Person-JRG.html">JRG</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/POWER/M625B/19xx%20-%20M625B%20-%20DOC%20-%20600-02-009%20-%20POWER%20SUPPLY%20WIRING%20SCHEMA%20TIC.png">file</a></td>
+</tr>
+<tr>
+<td>600-02-010</td>
+<td>Log Sensitivity Control</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20600-02-010%20-%20LOG%20SENSITIVITY%20CONTROL.jpg">file</a></td>
+</tr>
+<tr>
+<td>600-02-011</td>
+<td>Audio Amplifier Output Strapping Schematic</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20600-02-011%20-%20AUDIO%20AMPLIFIER%20OUTPUT%20STRAPPING%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>600-02-011</td>
+<td>Pao Board Assy</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20600-02-011%20-%20PAO%20BOARD%20ASSY.jpg">file</a></td>
+</tr>
+<tr>
+<td>600-02-012</td>
+<td>Insulated Mounting Frame Ground Bar And Chassis</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20600-02-012%20-%20INSULATED%20MOUNTING%20FRAME%20GROUND%20BAR%20AND%20CHASSIS.jpg">file</a></td>
+</tr>
+<tr>
+<td>600-04-010</td>
+<td>Audio Amplifier Perspective Layout</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20600-04-010%20-%20AUDIO%20AMPLIFIER%20PERSPECTIVE%20LAYOUT.jpg">file</a></td>
+</tr>
+<tr>
+<td>600-04-010</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20600-04-010.jpg">file</a></td>
+</tr>
+<tr>
+<td>600-06-001</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20M600%20-%20DOC%20-%20M600%20-%20600-06-001%20-%20DOCUMENT.jpg">file</a></td>
+</tr>
+<tr>
+<td>800-02-010</td>
+<td>Audio Amplifier Schematic</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/1970%20-%20M600%20-%20800-02-010%20-%20AUDIO%20AMPLIFIER%20SCHEMATIC.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 600-02-010</td>
+<td>AUDIO AMPLIFIER / SCHEMATIC</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20600-02-010%20-%20AUDIO%20AMPLIFIER%20SCHEMATIC%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 600-02-011</td>
+<td>AUDIO AMPLIFIER / OUTPUT STRAPPING SCHEMATIC</td>
+<td></td>
+<td></td>
+<td></td>
+<td>3</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20600-02-011%20-%20AUDIO%20AMPLIFIER%20OUTPUT%20STRAPPING%20SCHEMATIC%20-%20ISS%203.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 600-02-012</td>
+<td>AUDIO AMPLIFIER / TYPICAL SYSTEM WIRING SCHEMATIC</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20600-02-012%20-%20AUDIO%20AMPLIFIER%20TYPICAL%20SYSTEM%20WIRING%20SCHEMATIC%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>B 600-02-100</td>
+<td>M625B/D TEST JIG / SCHEMATIC (T625B)</td>
+<td></td>
+<td><a href="Person-T-RICHARDSON.html">T RICHARDSON</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../viewer.html?f=Modules/AMPLIFIERS/M600/19xx%20-%20600-02-100%20-%20M625B%20D%20TEST%20JIG%20SCHEMATIC%20%28T625B%29%20-%20DRN%20T.%20RICHARDSON%20-%20ENG%20T.%20RICHARDSON%20-%20ISS%201.png">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M600&quot;,
+ &quot;name&quot;: &quot;Universal Amplifier&quot;,
+ &quot;category&quot;: &quot;AMPLIFIERS&quot;,
+ &quot;year&quot;: 1970,
+ &quot;made_of&quot;: [
+  &quot;60-4&quot;,
+  &quot;70-3&quot;
+ ],
+ &quot;part_of&quot;: [
+  &quot;920306&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1967 - 60-4 - 60-4 INPUT TRANSFORMER.png&quot;,
+   &quot;year&quot;: 1967,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - 600-02-005 - M600R SYSTEM FOR CDL A V SWITCHER APPLICATION.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - 00-02-012 - AUDIO AMPLIFIER TYPICAL SYSTEM WIRING SCHEMATIC.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;modules&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - 122-02-001 - COM GAIN SET (2).jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - 122-02-001 - COM GAIN SET.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - 122-06-012 - AMPLIFIER ASSEMBLY COMPONENT LAYOUT.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - 122-06-012.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - 600-02-010 - LOG SENSITIVITY CONTROL.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - 600-02-011 - AUDIO AMPLIFIER OUTPUT STRAPPING SCHEMATIC.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - 600-02-011 - PAO BOARD ASSY.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - 600-02-012 - INSULATED MOUNTING FRAME GROUND BAR AND CHASSIS.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - 600-04-010 - AUDIO AMPLIFIER PERSPECTIVE LAYOUT.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - 600-04-010.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - 800-02-010 - AUDIO AMPLIFIER SCHEMATIC.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - Audio Amplifer (2).pdf&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 29,
+   &quot;holds&quot;: [
+    &quot;connections&quot;,
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - Audio Amplifer.pdf&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 29,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - P002.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - P003 - 1-1.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - P004 - 2-1.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - P005 - 3-1.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - P006 - 3-2.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - P007 - 4-1.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - P008 - 5-1.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - P009 - 6-1.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - P010 - 7-1.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - P011 - 8-1.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - P012 - 9-1.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - P013 - 9-2.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;parts&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - P014 - 9-3.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - P015 - 10-1.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - P016 - 10-2.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - P017 - 11-1.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - Ward Beck Systems M600 b.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - Ward Beck Systems M600.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - wbsps - module - m600 - back.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - wbsps - module - m600 - back_small.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - wbsps - module - m600 - front.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - wbsps - module - m600 - front_small.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: null,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - wbsps - promo - m600 - 003.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - wbsps - promo - m600 - 004.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - wbsps - promo - m600 - back.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1970 - M600 - wbsps - promo - m600 - front.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1975 - 600-02-001 - AUDIO AMPLIFIER SCHEMATIC - DRN DM - ISS 14.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1975 - 600-02-006 - EXTERNAL CONNECTIONS - DRN DM - ISS 1.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/UNSORTED/RM424S/1975 - RM424S - PRICE LIST - PRICE LIST.jpg&quot;,
+   &quot;year&quot;: 1975,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1987 - 600-02-001 - INPUT CHANNEL SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png&quot;,
+   &quot;year&quot;: 1987,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;modules&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1987 - 600-02-002 - STEREO OUTPUT CHANNEL SCHEMATIC - DRN JRG - ENG JRG - ISS 2.png&quot;,
+   &quot;year&quot;: 1987,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;modules&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1987 - 600-02-003 - MONO OUTPUT CHANNEL SCHEMATIC - DRN JRG - ENG GEB - ISS 2.png&quot;,
+   &quot;year&quot;: 1987,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;modules&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1987 - 600-02-004 - MONITOR SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png&quot;,
+   &quot;year&quot;: 1987,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;modules&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1987 - 600-02-005 - LINE SELECTORS SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png&quot;,
+   &quot;year&quot;: 1987,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;modules&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1987 - 600-02-007 - CUE CHANNEL SCHEMATIC - DRN JRG - ENG GEB - ISS 1.png&quot;,
+   &quot;year&quot;: 1987,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;modules&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1987 - 600-02-008 - TALKBACK SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png&quot;,
+   &quot;year&quot;: 1987,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;modules&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1987 - 600-02-009 - POWER SUPPLY WIRING SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png&quot;,
+   &quot;year&quot;: 1987,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;modules&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/1987 - M600 - P001 - Title Page.jpg&quot;,
+   &quot;year&quot;: 1987,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/19xx - 600-02-010 - AUDIO AMPLIFIER SCHEMATIC - ISS 1.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/19xx - 600-02-011 - AUDIO AMPLIFIER OUTPUT STRAPPING SCHEMATIC - ISS 3.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/19xx - 600-02-012 - AUDIO AMPLIFIER TYPICAL SYSTEM WIRING SCHEMATIC - ISS 1.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/19xx - 600-02-100 - M625B D TEST JIG SCHEMATIC (T625B) - DRN T. RICHARDSON - ENG T. RICHARDSON - ISS 1.png&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;modules&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/19xx - M600 - DOC - M600 - 600-02-003 - DOCUMENT.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/19xx - M600 - DOC - M600 - 600-06-001 - DOCUMENT.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/19xx - M600 - DOC - US Sales Brochure pg 9.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/19xx - M600 - DOC - Ward Beck Systems MF6.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/19xx - M600 - DOC - wbsps - module - mf6 mounting frame - front.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/19xx - M600 - DOC - wbsps - promo - mf6 mounting frame - front.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/19xx - M600 - M600 (2).jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/19xx - M600 - M600 (3).jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/19xx - M600 - M600 Audio Amplifier P1 Connector Layout 150 ohm strapping.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/19xx - M600 - M600 Audio Amplifier P1 Connector Layout 600 ohm strapping.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/19xx - M600 - M600.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/448px-Wbsps_-_promo_-_m600_-_back.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/M600 - P002.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/Ward Beck Systems M600 b.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M600/wbsps - promo - m600 - 002.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;,
+    &quot;sections&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M621/19xx - M621 - DOC - US Sales Brochure pg 2.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M666/19xx - M666 - DOC - US Sales Brochure pg 7.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/19xx - M712 - DOC - 7000 series - 001 (2).jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/19xx - M712 - DOC - 7000 series - 001.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/19xx - M712 - DOC - 7000 series - promo - 002.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/COMMUNICATION/M712/19xx - M712 - DOC - promo - 7000 series - 002.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../_catalog/libcontrol/libcontrol.css"><script src="../_catalog/libcontrol/react.js"></script><script src="../_catalog/libcontrol/react-dom.js"></script><script src="../_catalog/libcontrol/libcontrol.js"></script><script src="../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M600.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

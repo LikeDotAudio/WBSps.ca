@@ -1,0 +1,935 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M8205 — Audio Distribution Amplifier</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../../../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../../../index.html">Index</a><a href="../../../Home.html">Wiki home</a><a href="../../../PAGES/Timeline.html">Timeline</a><a href="../../../search.html">Search</a><a href="../../../status.html">Status</a></div><h1>M8205 — Audio Distribution Amplifier</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="../../../PAGES/Category-AMPLIFIERS.html">AMPLIFIERS</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../../../simulator.html?m=M8205">simulator &amp; front panel</a> · <a href="../../../_packages/M8205.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="../../../PAGES/Year-1995.html">1995|28</a> — manual issue date</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>"Issue #6 11 May 1995" in WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - Word Perfect Manuals/M8205#6.WP</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>high</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="../../../PAGES/Year-1995.html">1995|28</a>, <a href="../../../PAGES/Year-1997.html">1997|30</a></td>
+</tr>
+<tr>
+<td>Used in jobs</td>
+<td><a href="../../../PAGES/Job-900416.html">900416</a> (1990|23), <a href="../../../PAGES/Job-93021.html">93021</a> (1993|26)</td>
+</tr>
+<tr>
+<td>Variants</td>
+<td><a href="../../../PAGES/M8205B.html">M8205B</a>, <a href="../../../PAGES/M8205W.html">M8205W</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="index.html">Consoles/1990-1999/900416 - KFBK-KAER</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../950272%20-%20TTC/index.html">Consoles/1990-1999/950272 - TTC</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/">DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections</h2>
+<p><em>What it is made of and what it is part of.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M8205" data-n="Audio Distribution Amplifier" data-cat="AMPLIFIERS"></div><svg class="wbs-panel" data-m="M8205" data-n="Audio Distribution Amplifier" data-cat="AMPLIFIERS" role="img" aria-label="M8205 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M8205","title":"Audio Distribution Amplifier","rto":null,"parts":[{"item":"SA14-147","title":"","label":"SA14-147","href":"Register-Circuit-boards-SA14-nnn.html#sa14-147","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-148","title":"","label":"SA14-148","href":"Register-Circuit-boards-SA14-nnn.html#sa14-148","note":"Circuit boards (SA14-nnn)"},{"item":"60-3","title":"60-3 / SYSTEM TRANSFORMER","label":"60-3 60-3 / SYSTEM TRANSFORMER","href":"Transformers.html#60-3","note":"Input transformers (60-n)"},{"item":"SA14-265","title":"","label":"SA14-265","href":"Register-Circuit-boards-SA14-nnn.html#sa14-265","note":"Circuit boards (SA14-nnn)"}],"parents":[{"label":"900416","href":"Job-900416.html","note":"KFBK-KAER"},{"label":"93021","href":"Job-93021.html","note":"TTC"},{"label":"D8212","href":"D8212.html","note":"on 14 drawings with it: Audio Distribution Syste"},{"label":"M8206","href":"M8206.html","note":"on 13 drawings with it: Matrixing Amplifier"},{"label":"M8200","href":"M8200.html","note":"on 12 drawings with it: Microphone Preamplifier"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1986%20-%208205-03-003%20-%20HEATSINK%20USED%20ON%2014-147%20%26%2014-148%20PCB%20%28M8205%20%26%20M8206%20DA%29%20-%20DRN%20J%20-%20ISS%201.png"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M8205/1986%20-%208205-03-003%20-%20HEATSINK%20USED%20ON%2014-147%20%26%2014-148%20PCB%20%28M8205%20%26%20M8206%20DA%29%20-%20DRN%20J%20-%20ISS%201.png" alt="" data-f="Modules/AMPLIFIERS/M8205/1986 - 8205-03-003 - HEATSINK USED ON 14-147 &amp; 14-148 PCB (M8205 &amp; M8206 DA) - DRN J - ISS 1.png" data-size="320" onerror="wbsOff(this)">1986 - 8205-03-003 - HEATSINK USED ON 14-147 &amp; 14-148 PCB (M8205 &amp; M8206 DA) - DRN J - ISS 1.png</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1987%20-%208205-03-005%20-%20INSULATING%20WAFER%20%28USED%20ON%20PCB%2014-147%20%26%2014-148%29%20-%20DRN%20GEB%20-%20ENG%20GEB%20MAY%20-%20ISS%201.png"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M8205/1987%20-%208205-03-005%20-%20INSULATING%20WAFER%20%28USED%20ON%20PCB%2014-147%20%26%2014-148%29%20-%20DRN%20GEB%20-%20ENG%20GEB%20MAY%20-%20ISS%201.png" alt="" data-f="Modules/AMPLIFIERS/M8205/1987 - 8205-03-005 - INSULATING WAFER (USED ON PCB 14-147 &amp; 14-148) - DRN GEB - ENG GEB MAY - ISS 1.png" data-size="320" onerror="wbsOff(this)">1987 - 8205-03-005 - INSULATING WAFER (USED ON PCB 14-147 &amp; 14-148) - DRN GEB - ENG GEB MAY - ISS 1.png</a><a href="../../../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/1989%20-%20DOC%20-%208200%20brochure%201989%20a.jpg"><img loading="lazy" src="../../../DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/1989%20-%20DOC%20-%208200%20brochure%201989%20a.jpg" alt="" data-f="DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/1989 - DOC - 8200 brochure 1989 a.jpg" data-size="320" onerror="wbsOff(this)">1989 - DOC - 8200 brochure 1989 a.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1989%20-%208205-03-004%20-%20HANDLE%20P.C.%20BOARD%20PULLER%20USED%20ON%20D8212%20FRAME%20-%20DRN%20J%20-%20ISS%202.png"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M8205/1989%20-%208205-03-004%20-%20HANDLE%20P.C.%20BOARD%20PULLER%20USED%20ON%20D8212%20FRAME%20-%20DRN%20J%20-%20ISS%202.png" alt="" data-f="Modules/AMPLIFIERS/M8205/1989 - 8205-03-004 - HANDLE P.C. BOARD PULLER USED ON D8212 FRAME - DRN J - ISS 2.png" data-size="320" onerror="wbsOff(this)">1989 - 8205-03-004 - HANDLE P.C. BOARD PULLER USED ON D8212 FRAME - DRN J - ISS 2.png</a><a href="../../../viewer.html?f=Consoles/1990-1999/900416%20-%20KFBK-KAER/1990%20-%20900416%20-%20DOC%20-%20900416-04-001%20-%20SELECTOR%20PANELS%20LIMITATION%20ROWS%20WITH%20CHARACTERS%20PER%20PUSHBUTTON.jpg"><img loading="lazy" src="../../../Consoles/1990-1999/900416%20-%20KFBK-KAER/1990%20-%20900416%20-%20DOC%20-%20900416-04-001%20-%20SELECTOR%20PANELS%20LIMITATION%20ROWS%20WITH%20CHARACTERS%20PER%20PUSHBUTTON.jpg" alt="" data-f="Consoles/1990-1999/900416 - KFBK-KAER/1990 - 900416 - DOC - 900416-04-001 - SELECTOR PANELS LIMITATION ROWS WITH CHARACTERS PER PUSHBUTTON.jpg" data-size="320" onerror="wbsOff(this)">1990 - 900416 - DOC - 900416-04-001 - SELECTOR PANELS LIMITATION ROWS WITH CHARACTERS PER PUSHBUTTON.jpg</a><a href="../../../viewer.html?f=Consoles/1990-1999/950272%20-%20TTC/1995%20-%20950272%20-%20DOC%20-%20950272-01-002%20-%20IERN%20MULT%20MULT%20BROADVEW%20CASTLE%20FRANK%20SHERBOURNE%20YCNGE.jpg"><img loading="lazy" src="../../../Consoles/1990-1999/950272%20-%20TTC/1995%20-%20950272%20-%20DOC%20-%20950272-01-002%20-%20IERN%20MULT%20MULT%20BROADVEW%20CASTLE%20FRANK%20SHERBOURNE%20YCNGE.jpg" alt="" data-f="Consoles/1990-1999/950272 - TTC/1995 - 950272 - DOC - 950272-01-002 - IERN MULT MULT BROADVEW CASTLE FRANK SHERBOURNE YCNGE.jpg" data-size="320" onerror="wbsOff(this)">1995 - 950272 - DOC - 950272-01-002 - IERN MULT MULT BROADVEW CASTLE FRANK SHERBOURNE YCNGE.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_20_34.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_20_34.jpg" alt="" data-f="Modules/AMPLIFIERS/M8205/1995 - M8205 - 2013-03-14 11_20_34.jpg" data-size="320" onerror="wbsOff(this)">1995 - M8205 - 2013-03-14 11_20_34.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_20_37.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_20_37.jpg" alt="" data-f="Modules/AMPLIFIERS/M8205/1995 - M8205 - 2013-03-14 11_20_37.jpg" data-size="320" onerror="wbsOff(this)">1995 - M8205 - 2013-03-14 11_20_37.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_20_45.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_20_45.jpg" alt="" data-f="Modules/AMPLIFIERS/M8205/1995 - M8205 - 2013-03-14 11_20_45.jpg" data-size="320" onerror="wbsOff(this)">1995 - M8205 - 2013-03-14 11_20_45.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_20_46.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_20_46.jpg" alt="" data-f="Modules/AMPLIFIERS/M8205/1995 - M8205 - 2013-03-14 11_20_46.jpg" data-size="320" onerror="wbsOff(this)">1995 - M8205 - 2013-03-14 11_20_46.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_20_48.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_20_48.jpg" alt="" data-f="Modules/AMPLIFIERS/M8205/1995 - M8205 - 2013-03-14 11_20_48.jpg" data-size="320" onerror="wbsOff(this)">1995 - M8205 - 2013-03-14 11_20_48.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_20_50.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_20_50.jpg" alt="" data-f="Modules/AMPLIFIERS/M8205/1995 - M8205 - 2013-03-14 11_20_50.jpg" data-size="320" onerror="wbsOff(this)">1995 - M8205 - 2013-03-14 11_20_50.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_20_55.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_20_55.jpg" alt="" data-f="Modules/AMPLIFIERS/M8205/1995 - M8205 - 2013-03-14 11_20_55.jpg" data-size="320" onerror="wbsOff(this)">1995 - M8205 - 2013-03-14 11_20_55.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_21_04.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_21_04.jpg" alt="" data-f="Modules/AMPLIFIERS/M8205/1995 - M8205 - 2013-03-14 11_21_04.jpg" data-size="320" onerror="wbsOff(this)">1995 - M8205 - 2013-03-14 11_21_04.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_21_09.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_21_09.jpg" alt="" data-f="Modules/AMPLIFIERS/M8205/1995 - M8205 - 2013-03-14 11_21_09.jpg" data-size="320" onerror="wbsOff(this)">1995 - M8205 - 2013-03-14 11_21_09.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_21_11.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_21_11.jpg" alt="" data-f="Modules/AMPLIFIERS/M8205/1995 - M8205 - 2013-03-14 11_21_11.jpg" data-size="320" onerror="wbsOff(this)">1995 - M8205 - 2013-03-14 11_21_11.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_21_19.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_21_19.jpg" alt="" data-f="Modules/AMPLIFIERS/M8205/1995 - M8205 - 2013-03-14 11_21_19.jpg" data-size="320" onerror="wbsOff(this)">1995 - M8205 - 2013-03-14 11_21_19.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%20Distribution%20Amp%20001.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%20Distribution%20Amp%20001.jpg" alt="" data-f="Modules/AMPLIFIERS/M8205/1995 - M8205 - Distribution Amp 001.jpg" data-size="320" onerror="wbsOff(this)">1995 - M8205 - Distribution Amp 001.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%20Distribution%20Amp%20002.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%20Distribution%20Amp%20002.jpg" alt="" data-f="Modules/AMPLIFIERS/M8205/1995 - M8205 - Distribution Amp 002.jpg" data-size="320" onerror="wbsOff(this)">1995 - M8205 - Distribution Amp 002.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%20Distribution%20Amp%20003.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%20Distribution%20Amp%20003.jpg" alt="" data-f="Modules/AMPLIFIERS/M8205/1995 - M8205 - Distribution Amp 003.jpg" data-size="320" onerror="wbsOff(this)">1995 - M8205 - Distribution Amp 003.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%20file.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%20file.jpg" alt="" data-f="Modules/AMPLIFIERS/M8205/1995 - M8205 - file.jpg" data-size="320" onerror="wbsOff(this)">1995 - M8205 - file.jpg</a><a href="../../../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%208200%20brochure%20a.jpg"><img loading="lazy" src="../../../DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%208200%20brochure%20a.jpg" alt="" data-f="DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - 8200 brochure a.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 8200 brochure a.jpg</a><a href="../../../viewer.html?f=Consoles/1990-1999/900416%20-%20KFBK-KAER/1990%20-%20900416-04-001%20-%20KFBK%20KAER%20RADIO%20DISTRIBUTION%20SYSTEM%20RACK%20LAYOUT%20-%20DRN%20WS%20-%20ISS%201.jpg"><img loading="lazy" src="../../../Consoles/1990-1999/900416%20-%20KFBK-KAER/1990%20-%20900416-04-001%20-%20KFBK%20KAER%20RADIO%20DISTRIBUTION%20SYSTEM%20RACK%20LAYOUT%20-%20DRN%20WS%20-%20ISS%201.jpg" alt="" data-f="Consoles/1990-1999/900416 - KFBK-KAER/1990 - 900416-04-001 - KFBK KAER RADIO DISTRIBUTION SYSTEM RACK LAYOUT - DRN WS - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1990 - 900416-04-001 - KFBK KAER RADIO DISTRIBUTION SYSTEM RACK LAYOUT - DRN WS - ISS 1.jpg</a><a href="../../../viewer.html?f=Consoles/1990-1999/93021%20-%20TTC/1993%20-%2093021-01-001%20-%20TTC%20EVALUATION%20PACKAGE%20FUNCTIONAL%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201.jpg"><img loading="lazy" src="../../../Consoles/1990-1999/93021%20-%20TTC/1993%20-%2093021-01-001%20-%20TTC%20EVALUATION%20PACKAGE%20FUNCTIONAL%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201.jpg" alt="" data-f="Consoles/1990-1999/93021 - TTC/1993 - 93021-01-001 - TTC EVALUATION PACKAGE FUNCTIONAL - DRN PA - ENG PA - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1993 - 93021-01-001 - TTC EVALUATION PACKAGE FUNCTIONAL - DRN PA - ENG PA - ISS 1.jpg</a><a href="../../../viewer.html?f=PHOTOS/Drawings/19xx%20-%20TTC%20DISPATCH%20-D-%20PA%20SYSTEM%20SIMULATION%20FUNCTIONAL%20-%20DRN%20WKW%20-%20ENG%20WKW.jpg"><img loading="lazy" src="../../../PHOTOS/Drawings/19xx%20-%20TTC%20DISPATCH%20-D-%20PA%20SYSTEM%20SIMULATION%20FUNCTIONAL%20-%20DRN%20WKW%20-%20ENG%20WKW.jpg" alt="" data-f="PHOTOS/Drawings/19xx - TTC DISPATCH -D- PA SYSTEM SIMULATION FUNCTIONAL - DRN WKW - ENG WKW.jpg" data-size="320" onerror="wbsOff(this)">19xx - TTC DISPATCH -D- PA SYSTEM SIMULATION FUNCTIONAL - DRN WKW - ENG WKW.jpg</a><a href="../../../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20003%20%282%29.jpg"><img loading="lazy" src="../../../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20003%20%282%29.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - 003 (2).jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - 003 (2).jpg</a><a href="../../../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20003.jpg"><img loading="lazy" src="../../../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20003.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - 003.jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - 003.jpg</a><a href="../../../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20004%20%282%29.jpg"><img loading="lazy" src="../../../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20004%20%282%29.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - 004 (2).jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - 004 (2).jpg</a><a href="../../../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20004.jpg"><img loading="lazy" src="../../../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20004.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - 004.jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - 004.jpg</a><a href="../../../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20005%20%282%29.jpg"><img loading="lazy" src="../../../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20005%20%282%29.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - 005 (2).jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - 005 (2).jpg</a><a href="../../../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20005.jpg"><img loading="lazy" src="../../../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20005.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - 005.jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - 005.jpg</a><a href="../../../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20006%20%282%29.jpg"><img loading="lazy" src="../../../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20006%20%282%29.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - 006 (2).jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - 006 (2).jpg</a><a href="../../../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20audio%20distribution%20system%20001.jpg"><img loading="lazy" src="../../../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20audio%20distribution%20system%20001.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - audio distribution system 001.jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - audio distribution system 001.jpg</a><a href="../../../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20audio%20distribution%20system%20002.jpg"><img loading="lazy" src="../../../Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20audio%20distribution%20system%20002.jpg" alt="" data-f="Products/8200 SERIES/D8212/1986 - D8212 - audio distribution system 002.jpg" data-size="320" onerror="wbsOff(this)">1986 - D8212 - audio distribution system 002.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8200/1993%20-%20M8200%20-%20P004%20-%202-1.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M8200/1993%20-%20M8200%20-%20P004%20-%202-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M8200/1993 - M8200 - P004 - 2-1.jpg" data-size="320" onerror="wbsOff(this)">1993 - M8200 - P004 - 2-1.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8200/1993%20-%20M8200%20-%20P007%20-%204-1.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M8200/1993%20-%20M8200%20-%20P007%20-%204-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M8200/1993 - M8200 - P007 - 4-1.jpg" data-size="320" onerror="wbsOff(this)">1993 - M8200 - P007 - 4-1.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8200/1993%20-%20M8200%20-%20P010%20-%205-1.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M8200/1993%20-%20M8200%20-%20P010%20-%205-1.jpg" alt="" data-f="Modules/AMPLIFIERS/M8200/1993 - M8200 - P010 - 5-1.jpg" data-size="320" onerror="wbsOff(this)">1993 - M8200 - P010 - 5-1.jpg</a><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8200/1993%20-%20M8200%20-%20Remote%20Sesitivity%20-%20transformerless%20Mic%20Pre%20001.jpg"><img loading="lazy" src="../../../Modules/AMPLIFIERS/M8200/1993%20-%20M8200%20-%20Remote%20Sesitivity%20-%20transformerless%20Mic%20Pre%20001.jpg" alt="" data-f="Modules/AMPLIFIERS/M8200/1993 - M8200 - Remote Sesitivity - transformerless Mic Pre 001.jpg" data-size="320" onerror="wbsOff(this)">1993 - M8200 - Remote Sesitivity - transformerless Mic Pre 001.jpg</a></div>
+
+<h2>Dates found in the documents</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Kind</th>
+<th>Text</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Year-1995.html">1995|28</a></td>
+<td>manual issue date</td>
+<td><code>Issue #6 11 May 1995</code></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%208205-02-001%20-%20COMPONENT%20LAYOUT.wp">1995 - M8205 - 8205-02-001 - COMPONENT LAYOUT.wp</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1995.html">1995|28</a></td>
+<td>month &amp; year</td>
+<td><code>March 8, 1995</code></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%20file.dsn">1995 - M8205 - file.dsn</a></td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Year-1997.html">1997|30</a></td>
+<td>month &amp; year</td>
+<td><code>JUNE 14,1997</code></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%20file.dsn">1995 - M8205 - file.dsn</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Documents (1)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%208205-02-001%20-%20COMPONENT%20LAYOUT.wp">1995 - M8205 - 8205-02-001 - COMPONENT LAYOUT.wp</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%208205-02-001%20-%20COMPONENT%20LAYOUT.wp.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (35)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1986|19</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1986%20-%208205-03-003%20-%20HEATSINK%20USED%20ON%2014-147%20%26%2014-148%20PCB%20%28M8205%20%26%20M8206%20DA%29%20-%20DRN%20J%20-%20ISS%201.png">1986 - 8205-03-003 - HEATSINK USED ON 14-147 &amp; 14-148 PCB (M8205 &amp; M8206 DA) - DRN J - ISS 1.png</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1986%20-%208205-03-003%20-%20HEATSINK%20USED%20ON%2014-147%20%26%2014-148%20PCB%20%28M8205%20%26%20M8206%20DA%29%20-%20DRN%20J%20-%20ISS%201.png.md">note</a></td>
+</tr>
+<tr>
+<td>1987|20</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1987%20-%208205-03-005%20-%20INSULATING%20WAFER%20%28USED%20ON%20PCB%2014-147%20%26%2014-148%29%20-%20DRN%20GEB%20-%20ENG%20GEB%20MAY%20-%20ISS%201.png">1987 - 8205-03-005 - INSULATING WAFER (USED ON PCB 14-147 &amp; 14-148) - DRN GEB - ENG GEB MAY - ISS 1.png</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1987%20-%208205-03-005%20-%20INSULATING%20WAFER%20%28USED%20ON%20PCB%2014-147%20%26%2014-148%29%20-%20DRN%20GEB%20-%20ENG%20GEB%20MAY%20-%20ISS%201.png.md">note</a></td>
+</tr>
+<tr>
+<td>1989|22</td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/1989%20-%20DOC%20-%208200%20brochure%201989%20a.jpg">1989 - DOC - 8200 brochure 1989 a.jpg</a></td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/1989%20-%20DOC%20-%208200%20brochure%201989%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1989|22</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8200/1989%20-%20M8200%20-%20DOC%20-%208200%20brochure%201989%20a.jpg">1989 - M8200 - DOC - 8200 brochure 1989 a.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8200/1989%20-%20M8200%20-%20DOC%20-%208200%20brochure%201989%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1989|22</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1989%20-%208205-03-004%20-%20HANDLE%20P.C.%20BOARD%20PULLER%20USED%20ON%20D8212%20FRAME%20-%20DRN%20J%20-%20ISS%202.png">1989 - 8205-03-004 - HANDLE P.C. BOARD PULLER USED ON D8212 FRAME - DRN J - ISS 2.png</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1989%20-%208205-03-004%20-%20HANDLE%20P.C.%20BOARD%20PULLER%20USED%20ON%20D8212%20FRAME%20-%20DRN%20J%20-%20ISS%202.png.md">note</a></td>
+</tr>
+<tr>
+<td>1989|22</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1989%20-%20M8205%20-%20DOC%20-%208200%20brochure%201989%20a.jpg">1989 - M8205 - DOC - 8200 brochure 1989 a.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1989%20-%20M8205%20-%20DOC%20-%208200%20brochure%201989%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1989|22</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8206/1989%20-%20M8206%20-%20DOC%20-%208200%20brochure%201989%20a.jpg">1989 - M8206 - DOC - 8200 brochure 1989 a.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8206/1989%20-%20M8206%20-%20DOC%20-%208200%20brochure%201989%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1989|22</td>
+<td><a href="../../../viewer.html?f=Products/8200%20SERIES/D8212/1989%20-%20D8212%20-%20DOC%20-%208200%20brochure%201989%20a.jpg">1989 - D8212 - DOC - 8200 brochure 1989 a.jpg</a></td>
+<td><a href="../../../viewer.html?f=Products/8200%20SERIES/D8212/1989%20-%20D8212%20-%20DOC%20-%208200%20brochure%201989%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1990|23</td>
+<td><a href="../../../viewer.html?f=Consoles/1990-1999/900416%20-%20KFBK-KAER/1990%20-%20900416%20-%20DOC%20-%20900416-04-001%20-%20SELECTOR%20PANELS%20LIMITATION%20ROWS%20WITH%20CHARACTERS%20PER%20PUSHBUTTON.jpg">1990 - 900416 - DOC - 900416-04-001 - SELECTOR PANELS LIMITATION ROWS WITH CHARACTERS PER PUSHBUTTON.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1990-1999/900416%20-%20KFBK-KAER/1990%20-%20900416%20-%20DOC%20-%20900416-04-001%20-%20SELECTOR%20PANELS%20LIMITATION%20ROWS%20WITH%20CHARACTERS%20PER%20PUSHBUTTON.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1990|23</td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210319%20-%20Redone%20of%20what%20Sampson%20scanned/1990%20-%20DOC%20-%20900416-04-001%20-%20SELECTOR%20PANELS%20LIMITATION%20ROWS%20WITH%20CHARACTERS%20PER%20PUSHBUTTON.jpg">1990 - DOC - 900416-04-001 - SELECTOR PANELS LIMITATION ROWS WITH CHARACTERS PER PUSHBUTTON.jpg</a></td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210319%20-%20Redone%20of%20what%20Sampson%20scanned/1990%20-%20DOC%20-%20900416-04-001%20-%20SELECTOR%20PANELS%20LIMITATION%20ROWS%20WITH%20CHARACTERS%20PER%20PUSHBUTTON.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1990|23</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1990%20-%20M8205%20-%20DOC%20-%20900416-04-001%20-%20SELECTOR%20PANELS%20LIMITATION%20ROWS%20WITH%20CHARACTERS%20PER%20PUSHBUTTON.jpg">1990 - M8205 - DOC - 900416-04-001 - SELECTOR PANELS LIMITATION ROWS WITH CHARACTERS PER PUSHBUTTON.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1990%20-%20M8205%20-%20DOC%20-%20900416-04-001%20-%20SELECTOR%20PANELS%20LIMITATION%20ROWS%20WITH%20CHARACTERS%20PER%20PUSHBUTTON.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1990|23</td>
+<td><a href="../../../viewer.html?f=Products/8200%20SERIES/D8212/1990%20-%20D8212%20-%20DOC%20-%20900416-04-001%20-%20SELECTOR%20PANELS%20LIMITATION%20ROWS%20WITH%20CHARACTERS%20PER%20PUSHBUTTON.jpg">1990 - D8212 - DOC - 900416-04-001 - SELECTOR PANELS LIMITATION ROWS WITH CHARACTERS PER PUSHBUTTON.jpg</a></td>
+<td><a href="../../../viewer.html?f=Products/8200%20SERIES/D8212/1990%20-%20D8212%20-%20DOC%20-%20900416-04-001%20-%20SELECTOR%20PANELS%20LIMITATION%20ROWS%20WITH%20CHARACTERS%20PER%20PUSHBUTTON.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Consoles/1990-1999/950272%20-%20TTC/1995%20-%20950272%20-%20DOC%20-%20950272-01-002%20-%20IERN%20MULT%20MULT%20BROADVEW%20CASTLE%20FRANK%20SHERBOURNE%20YCNGE.jpg">1995 - 950272 - DOC - 950272-01-002 - IERN MULT MULT BROADVEW CASTLE FRANK SHERBOURNE YCNGE.jpg</a></td>
+<td><a href="../../../viewer.html?f=Consoles/1990-1999/950272%20-%20TTC/1995%20-%20950272%20-%20DOC%20-%20950272-01-002%20-%20IERN%20MULT%20MULT%20BROADVEW%20CASTLE%20FRANK%20SHERBOURNE%20YCNGE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Large%20pile%20of%20D/1995%20-%20DOC%20-%20950272-01-002%20-%20IERN%20MULT%20MULT%20BROADVEW%20CASTLE%20FRANK%20SHERBOURNE%20YCNGE.jpg">1995 - DOC - 950272-01-002 - IERN MULT MULT BROADVEW CASTLE FRANK SHERBOURNE YCNGE.jpg</a></td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/RECENT%20SCANS/WBSps.ca%2020210317%20-%20Large%20pile%20of%20D/1995%20-%20DOC%20-%20950272-01-002%20-%20IERN%20MULT%20MULT%20BROADVEW%20CASTLE%20FRANK%20SHERBOURNE%20YCNGE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_20_34.jpg">1995 - M8205 - 2013-03-14 11_20_34.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_20_34.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_20_37.jpg">1995 - M8205 - 2013-03-14 11_20_37.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_20_37.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_20_45.jpg">1995 - M8205 - 2013-03-14 11_20_45.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_20_45.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_20_46.jpg">1995 - M8205 - 2013-03-14 11_20_46.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_20_46.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_20_48.jpg">1995 - M8205 - 2013-03-14 11_20_48.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_20_48.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_20_50.jpg">1995 - M8205 - 2013-03-14 11_20_50.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_20_50.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_20_55.jpg">1995 - M8205 - 2013-03-14 11_20_55.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_20_55.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_21_04.jpg">1995 - M8205 - 2013-03-14 11_21_04.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_21_04.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_21_09.jpg">1995 - M8205 - 2013-03-14 11_21_09.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_21_09.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_21_11.jpg">1995 - M8205 - 2013-03-14 11_21_11.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_21_11.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_21_19.jpg">1995 - M8205 - 2013-03-14 11_21_19.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%202013-03-14%2011_21_19.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%20DOC%20-%20950272-01-002%20-%20IERN%20MULT%20MULT%20BROADVEW%20CASTLE%20FRANK%20SHERBOURNE%20YCNGE.jpg">1995 - M8205 - DOC - 950272-01-002 - IERN MULT MULT BROADVEW CASTLE FRANK SHERBOURNE YCNGE.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%20DOC%20-%20950272-01-002%20-%20IERN%20MULT%20MULT%20BROADVEW%20CASTLE%20FRANK%20SHERBOURNE%20YCNGE.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%20Distribution%20Amp%20001.jpg">1995 - M8205 - Distribution Amp 001.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%20Distribution%20Amp%20001.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%20Distribution%20Amp%20002.jpg">1995 - M8205 - Distribution Amp 002.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%20Distribution%20Amp%20002.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%20Distribution%20Amp%20003.jpg">1995 - M8205 - Distribution Amp 003.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%20Distribution%20Amp%20003.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%20file.jpg">1995 - M8205 - file.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%20file.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%208200%20brochure%20a.jpg">19xx - DOC - 8200 brochure a.jpg</a></td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/Internal%20and%20Eng%20Notes%20and%20drawings/Quotations%20brochures%20and%20misc%20papers/19xx%20-%20DOC%20-%208200%20brochure%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8200/19xx%20-%20M8200%20-%20DOC%20-%208200%20brochure%20a.jpg">19xx - M8200 - DOC - 8200 brochure a.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8200/19xx%20-%20M8200%20-%20DOC%20-%208200%20brochure%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/19xx%20-%20M8205%20-%20DOC%20-%208200%20brochure%20a.jpg">19xx - M8205 - DOC - 8200 brochure a.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/19xx%20-%20M8205%20-%20DOC%20-%208200%20brochure%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8206/19xx%20-%20M8206%20-%20DOC%20-%208200%20brochure%20a.jpg">19xx - M8206 - DOC - 8200 brochure a.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8206/19xx%20-%20M8206%20-%20DOC%20-%208200%20brochure%20a.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20DOC%20-%208200%20brochure%20a.jpg">19xx - D8212 - DOC - 8200 brochure a.jpg</a></td>
+<td><a href="../../../viewer.html?f=Products/8200%20SERIES/D8212/19xx%20-%20D8212%20-%20DOC%20-%208200%20brochure%20a.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Drawings &amp; design files (3)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%20XSM8205.dwg">1995 - M8205 - XSM8205.dwg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%20XSM8205.dwg.md">note</a></td>
+</tr>
+<tr>
+<td>1995|28</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%20file.dsn">1995 - M8205 - file.dsn</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1995%20-%20M8205%20-%20file.dsn.md">note</a></td>
+</tr>
+<tr>
+<td>1997|30</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1997%20-%20M8205%20-%20XSM8205B.dwg">1997 - M8205 - XSM8205B.dwg</a></td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1997%20-%20M8205%20-%20XSM8205B.dwg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Sub-assemblies &amp; parts used (4)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>What</th>
+<th>Family</th>
+<th>Year</th>
+<th>How we know</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Register-Circuit-boards-SA14-nnn.html#sa14-147">SA14-147</a></td>
+<td></td>
+<td>Circuit boards (SA14-nnn)</td>
+<td>1986|19</td>
+<td>drawing filed with it</td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Register-Circuit-boards-SA14-nnn.html#sa14-148">SA14-148</a></td>
+<td></td>
+<td>Circuit boards (SA14-nnn)</td>
+<td>1986|19</td>
+<td>drawing filed with it</td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Register-Input-transformers-60-n.html#60-3">60-3</a></td>
+<td>60-3 / SYSTEM TRANSFORMER</td>
+<td>Input transformers (60-n)</td>
+<td>1967|0</td>
+<td>named in its manual</td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Register-Circuit-boards-SA14-nnn.html#sa14-265">SA14-265</a></td>
+<td></td>
+<td>Circuit boards (SA14-nnn)</td>
+<td></td>
+<td>named in its manual</td>
+</tr>
+</tbody>
+</table>
+<h2>Parts list — board M8205#6 (14 parts)</h2>
+<p><em>From M8205#6.WP; also in <code>timelines/data/bom.csv</code>.</em></p>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>Part</th>
+<th>Value</th>
+<th>Manufacturer</th>
+<th>Mfr part no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C1</td>
+<td>Capacitor</td>
+<td>220 uF/10 V</td>
+<td>Kemet</td>
+<td>T390F227M010AS</td>
+</tr>
+<tr>
+<td>Q1</td>
+<td>Transistor</td>
+<td>Na­tional</td>
+<td>2N4401</td>
+<td></td>
+</tr>
+<tr>
+<td>R1</td>
+<td>Resistor 1/4W 1%</td>
+<td>16K2</td>
+<td>Philips</td>
+<td>MR25 F</td>
+</tr>
+<tr>
+<td>R9</td>
+<td>Potentiometer</td>
+<td>5K</td>
+<td>Bourns</td>
+<td>3006P 5K</td>
+</tr>
+<tr>
+<td>R10</td>
+<td>Resistor</td>
+<td>1/4W 1%</td>
+<td>8K25</td>
+<td>Philips MR25 F</td>
+</tr>
+<tr>
+<td>R14</td>
+<td>Potentiometer</td>
+<td>5K</td>
+<td>Clarostat</td>
+<td>10-065</td>
+</tr>
+<tr>
+<td>R15</td>
+<td>Resistor</td>
+<td>1/4W 5%</td>
+<td>30K</td>
+<td>Philips CR25</td>
+</tr>
+<tr>
+<td>R19</td>
+<td>Potentiometer</td>
+<td>100K</td>
+<td>Bourns</td>
+<td>3006P 100K</td>
+</tr>
+<tr>
+<td>R20</td>
+<td>Resistor</td>
+<td>1/4W 5%</td>
+<td>22K</td>
+<td>Philips CR25</td>
+</tr>
+<tr>
+<td>R24</td>
+<td>Resistor</td>
+<td>1/4W 5%</td>
+<td>5K6</td>
+<td>Philips CR25</td>
+</tr>
+<tr>
+<td>R36</td>
+<td>Poten­tiometer</td>
+<td>100K</td>
+<td>Bourns</td>
+<td>3006P 100K</td>
+</tr>
+<tr>
+<td>R37</td>
+<td>Resistor</td>
+<td>1/4W 5%</td>
+<td>47K</td>
+<td>Philips CR25</td>
+</tr>
+<tr>
+<td>U1</td>
+<td>Integrated Circuit</td>
+<td>National</td>
+<td>LM833N</td>
+<td></td>
+</tr>
+<tr>
+<td>R14</td>
+<td>Knob (Black)</td>
+<td>Elma</td>
+<td>021-2225 (optional)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Consoles &amp; jobs it is connected to (2)</h2>
+<p><em>Their own drawings name this module.</em></p>
+<table>
+<thead>
+<tr>
+<th>Job</th>
+<th>Year</th>
+<th>Drawing</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Job-900416.html">900416</a></td>
+<td>1990|23</td>
+<td><a href="../../../viewer.html?f=Consoles/1990-1999/900416%20-%20KFBK-KAER/1990%20-%20900416-04-001%20-%20KFBK%20KAER%20RADIO%20DISTRIBUTION%20SYSTEM%20RACK%20LAYOUT%20-%20DRN%20WS%20-%20ISS%201.jpg">1990 - 900416-04-001 - KFBK KAER RADIO DISTRIBUTION SYSTEM RACK LAYOUT - DRN WS - ISS 1.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../PAGES/Job-93021.html">93021</a></td>
+<td>1993|26</td>
+<td><a href="../../../viewer.html?f=Consoles/1990-1999/93021%20-%20TTC/1993%20-%2093021-01-001%20-%20TTC%20EVALUATION%20PACKAGE%20FUNCTIONAL%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201.jpg">1993 - 93021-01-001 - TTC EVALUATION PACKAGE FUNCTIONAL - DRN PA - ENG PA - ISS 1.jpg</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (27)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../viewer.html?f=PHOTOS/Drawings/19xx%20-%20TTC%20DISPATCH%20-D-%20PA%20SYSTEM%20SIMULATION%20FUNCTIONAL%20-%20DRN%20WKW%20-%20ENG%20WKW.jpg">19xx - TTC DISPATCH -D- PA SYSTEM SIMULATION FUNCTIONAL - DRN WKW - ENG WKW.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20003%20%282%29.jpg">1986 - D8212 - 003 (2).jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20003.jpg">1986 - D8212 - 003.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20004%20%282%29.jpg">1986 - D8212 - 004 (2).jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20004.jpg">1986 - D8212 - 004.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20005%20%282%29.jpg">1986 - D8212 - 005 (2).jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20005.jpg">1986 - D8212 - 005.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20006%20%282%29.jpg">1986 - D8212 - 006 (2).jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20audio%20distribution%20system%20001.jpg">1986 - D8212 - audio distribution system 001.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/8200%20SERIES/D8212/1986%20-%20D8212%20-%20audio%20distribution%20system%20002.jpg">1986 - D8212 - audio distribution system 002.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8200/1993%20-%20M8200%20-%20P004%20-%202-1.jpg">1993 - M8200 - P004 - 2-1.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8200/1993%20-%20M8200%20-%20P007%20-%204-1.jpg">1993 - M8200 - P007 - 4-1.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8200/1993%20-%20M8200%20-%20P010%20-%205-1.jpg">1993 - M8200 - P010 - 5-1.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8200/1993%20-%20M8200%20-%20Remote%20Sesitivity%20-%20transformerless%20Mic%20Pre%20001.jpg">1993 - M8200 - Remote Sesitivity - transformerless Mic Pre 001.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8204/1993%20-%20M8204%20-%2014-265.pcb">1993 - M8204 - 14-265.pcb</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/8200%20SERIES/M8205W/1993%20-%20M8205W%20-%20file.pcb">1993 - M8205W - file.pcb</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/DYNAMICS/M8207/1995%20-%20M8207%20-%208207-02-001%20-%20COMPONENT%20LAYOUT.wp">1995 - M8207 - 8207-02-001 - COMPONENT LAYOUT.wp</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT%20%282%29.docx">1995 - M405P - ITEMIMP(1).TXT (2).docx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT.docx">1995 - M405P - ITEMIMP(1).TXT.docx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP.TXT.docx">1995 - M405P - ITEMIMP.TXT.docx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/8200%20SERIES/D8212F/1995%20-%20D8212F%20-%2082-03-015%20-%20COMPONENT%20LAYOUT.wp">1995 - D8212F - 82-03-015 - COMPONENT LAYOUT.wp</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/8200%20SERIES/D8212/1997%20-%20D8212%20-%20file.wpd">1997 - D8212 - file.wpd</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/8200%20SERIES/D8212F/1997%20-%20D8212F%20-%208200MAN.wpd">1997 - D8212F - 8200MAN.wpd</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/8200%20SERIES/D8212F/1998%20-%20D8212F%20-%208200MNX.wpd">1998 - D8212F - 8200MNX.wpd</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Products/8200%20SERIES/D8212F/1998%20-%20D8212F%20-%20file.wpd">1998 - D8212F - file.wpd</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/MONITORING/M8203/2015%20-%20M8203%20-%20Manual%20%282%29.docx">2015 - M8203 - Manual (2).docx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/MONITORING/M8203/2015%20-%20M8203%20-%20Manual.docx">2015 - M8203 - Manual.docx</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>Drawings (5)</h2>
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Drawn by</a></th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>B 8205-03-003</td>
+<td>HEATSINK / USED ON 14-147 &amp; 14-148 PCB (M8205 &amp; M8206 DA)</td>
+<td><a href="../../../PAGES/Year-1986.html">1986|19</a></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1986%20-%208205-03-003%20-%20HEATSINK%20USED%20ON%2014-147%20%26%2014-148%20PCB%20%28M8205%20%26%20M8206%20DA%29%20-%20DRN%20J%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>B 8205-03-005</td>
+<td>INSULATING WAFER (USED ON PCB 14-147 &amp; 14-148)</td>
+<td><a href="../../../PAGES/Year-1987.html">1987|20</a></td>
+<td><a href="../../../PAGES/Person-GEB.html">GEB (Gerry E. Bell)</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1987%20-%208205-03-005%20-%20INSULATING%20WAFER%20%28USED%20ON%20PCB%2014-147%20%26%2014-148%29%20-%20DRN%20GEB%20-%20ENG%20GEB%20MAY%20-%20ISS%201.png">file</a></td>
+</tr>
+<tr>
+<td>B 8205-03-004</td>
+<td>HANDLE / P.C. BOARD PULLER / USED ON D8212 FRAME</td>
+<td><a href="../../../PAGES/Year-1989.html">1989|22</a></td>
+<td></td>
+<td></td>
+<td>2</td>
+<td><a href="../../../viewer.html?f=Modules/AMPLIFIERS/M8205/1989%20-%208205-03-004%20-%20HANDLE%20P.C.%20BOARD%20PULLER%20USED%20ON%20D8212%20FRAME%20-%20DRN%20J%20-%20ISS%202.png">file</a></td>
+</tr>
+<tr>
+<td>900416-04-001</td>
+<td>Selector Panels Limitation Rows With Characters Per Pushbutton</td>
+<td></td>
+<td><a href="../../../PAGES/Person-WS.html">WS</a></td>
+<td></td>
+<td>C</td>
+<td><a href="../../../viewer.html?f=Consoles/1990-1999/900416%20-%20KFBK-KAER/1990%20-%20900416%20-%20DOC%20-%20900416-04-001%20-%20SELECTOR%20PANELS%20LIMITATION%20ROWS%20WITH%20CHARACTERS%20PER%20PUSHBUTTON.jpg">file</a></td>
+</tr>
+<tr>
+<td>950272-01-002</td>
+<td>Iern Mult Mult Broadvew Castle Frank Sherbourne Ycnge</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1990-1999/950272%20-%20TTC/1995%20-%20950272%20-%20DOC%20-%20950272-01-002%20-%20IERN%20MULT%20MULT%20BROADVEW%20CASTLE%20FRANK%20SHERBOURNE%20YCNGE.jpg">file</a></td>
+</tr>
+</tbody>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M8205&quot;,
+ &quot;name&quot;: &quot;Audio Distribution Amplifier&quot;,
+ &quot;category&quot;: &quot;AMPLIFIERS&quot;,
+ &quot;year&quot;: 1995,
+ &quot;made_of&quot;: [
+  &quot;60-3&quot;,
+  &quot;SA14-147&quot;,
+  &quot;SA14-148&quot;,
+  &quot;SA14-265&quot;
+ ],
+ &quot;part_of&quot;: [
+  &quot;900416&quot;,
+  &quot;93021&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M8205/1986 - 8205-03-003 - HEATSINK USED ON 14-147 &amp; 14-148 PCB (M8205 &amp; M8206 DA) - DRN J - ISS 1.png&quot;,
+   &quot;year&quot;: 1986,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;modules&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M8205/1987 - 8205-03-005 - INSULATING WAFER (USED ON PCB 14-147 &amp; 14-148) - DRN GEB - ENG GEB MAY - ISS 1.png&quot;,
+   &quot;year&quot;: 1987,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M8205/1989 - 8205-03-004 - HANDLE P.C. BOARD PULLER USED ON D8212 FRAME - DRN J - ISS 2.png&quot;,
+   &quot;year&quot;: 1989,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/1989 - D8212 - DOC - 8200 brochure 1989 a.jpg&quot;,
+   &quot;year&quot;: 1989,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/1990 - D8212 - DOC - 900416-04-001 - SELECTOR PANELS LIMITATION ROWS WITH CHARACTERS PER PUSHBUTTON.jpg&quot;,
+   &quot;year&quot;: 1990,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M8205/1995 - M8205 - 2013-03-14 11_20_34.jpg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M8205/1995 - M8205 - 2013-03-14 11_20_37.jpg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M8205/1995 - M8205 - 2013-03-14 11_20_45.jpg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M8205/1995 - M8205 - 2013-03-14 11_20_46.jpg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M8205/1995 - M8205 - 2013-03-14 11_20_48.jpg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M8205/1995 - M8205 - 2013-03-14 11_20_50.jpg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M8205/1995 - M8205 - 2013-03-14 11_20_55.jpg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M8205/1995 - M8205 - 2013-03-14 11_21_04.jpg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M8205/1995 - M8205 - 2013-03-14 11_21_09.jpg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M8205/1995 - M8205 - 2013-03-14 11_21_11.jpg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M8205/1995 - M8205 - 2013-03-14 11_21_19.jpg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M8205/1995 - M8205 - 8205-02-001 - COMPONENT LAYOUT.wp&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M8205/1995 - M8205 - DOC - 950272-01-002 - IERN MULT MULT BROADVEW CASTLE FRANK SHERBOURNE YCNGE.jpg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M8205/1995 - M8205 - Distribution Amp 001.jpg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M8205/1995 - M8205 - Distribution Amp 002.jpg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M8205/1995 - M8205 - Distribution Amp 003.jpg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M8205/1995 - M8205 - XSM8205.dwg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M8205/1995 - M8205 - file.dsn&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/M8205B/1995 - M8205B - file.jpg&quot;,
+   &quot;year&quot;: 1995,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/AMPLIFIERS/M8205/1997 - M8205 - XSM8205B.dwg&quot;,
+   &quot;year&quot;: 1997,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;modules&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/8200 SERIES/D8212/19xx - D8212 - DOC - 8200 brochure a.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  }
+ ]
+}</pre></details><script src="../../../_catalog/wbs_reels.js" defer></script><script src="../../../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../../../_catalog/libcontrol/libcontrol.css"><script src="../../../_catalog/libcontrol/react.js"></script><script src="../../../_catalog/libcontrol/react-dom.js"></script><script src="../../../_catalog/libcontrol/libcontrol.js"></script><script src="../../../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M8205.md</small></div></article><script src="../../../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

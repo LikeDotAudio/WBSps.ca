@@ -1,0 +1,73 @@
+# 1994 - DOC - 94064-04-006 - MONITOR SOURCE MIC HEADPHONES MIC OFF.jpg
+Wiki page: [Documents](../../../PAGES/Documents.md)
+
+
+- **Year:** 1994 (job number 94064)
+- **Type:** document scan
+- **About:** 94064
+
+## Text recovered by OCR
+
+> 580 MONITOR SOURCE MIc HEADPHONES MIc OFF WBS TOP VEW FRONT 3.50 ISSUE| DATEI REMSION WBS WARD-BECK SYSTEMS DRN: DRG ENG. WBZ BOSTON CONTROL ROOM TURRET LAYOUT SCALE DISC NO: 480 SSUE NTS 94064-04-006 CODE: 94064L06 REAR VIEW METER CABLE TERMINATINC Mth EDAC CONNECTOR: SIDE VIEW
+- **Original file:** `WBSps.env/PUBLIC/RECENT SCANS/WBSps.ca 20210317 - Large pile of D/2021-3-16-23-9-42.jpg`
+- **SHA-256:** `10e9ab301b4d910df65407d5d1e41c0cb756c4e364c376b343d29efaf6d9d861`
+- **Size:** 18,151,348 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 2 words corrected)
+
+```text
+580
+MONITOR SOURCE
+MIc
+HEADPHONES
+MIc OFF
+WBS
+TOP VEW
+FRONT
+3.50
+ISSUE| DATE
+REMSION
+WBS
+WARD-BECK SYSTEMS
+DRN: DRG ENG.
+WBZ BOSTON
+CONTROL ROOM  TURRET LAYOUT SCALE DISC NO: 480 SSUE NTS 94064-04-006 CODE: 94064L06
+REAR VIEW
+METER CABLE TERMINATING Mth EDAC CONNECTOR:
+SIDE VIEW
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+580
+MONITOR SOURCE
+MIc
+HEADPHONES
+MIc OFF
+WBS
+TOP VEW
+FRONT
+3.50
+ISSUE| DATEI
+REMSION
+WBS
+WARD-BECK SYSTEMS
+DRN: DRG ENG.
+WBZ BOSTON
+CONTROL ROOM  TURRET LAYOUT SCALE DISC NO: 480 SSUE NTS 94064-04-006 CODE: 94064L06
+REAR VIEW
+METER CABLE TERMINATINC Mth EDAC CONNECTOR:
+SIDE VIEW
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{"file":"DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Large pile of D/1994 - DOC - 94064-04-006 - MONITOR SOURCE MIC HEADPHONES MIC OFF.jpg","sha256":"10e9ab301b4d910df65407d5d1e41c0cb756c4e364c376b343d29efaf6d9d861","kind":"doc","models":["94064"],"year":1994,"pages":1,"order":[{"page":1,"title_block":[{"number":"94064-04-006","type":"layout / outline","title":"Monitor Source Mic Headphones Mic Off","drawn":"DRG"}]}],"drawing":{"svg":"_traces/10e9ab301b4d910d.svg","viewBox":[2000,1294],"rotate":0,"number":"94064-04-006","title":"Monitor Source Mic Headphones Mic Off","dtype":"04","outlines":"see _traces/10e9ab301b4d910d.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[831,554,"HEADPHONES"],[764,654,"TOP MEW"],[774,841,"FRONT"],[1639,1164,"WBS"],[1746,1161,"WARD-BECK SYSTEMS"],[1774,1194,"WBZ"],[1816,1194,"BOSTON"],[1726,1214,"CONTROL RoOM  TURRET"],[461,1226,"REAR"],[506,1226,"MEW"],[608,1218,"CAF F"],[642,1218,"TFRUINAMNC"],[757,1218,"CD  ECTDA"],[1099,1226,"SIDE"],[1136,1224,"VEW"],[1794,1229,"LAYOUT"],[1619,1262,"NTS"],[1658,1258,"CODE:"],[1786,1256,"94064-04-006"]]}}
+```

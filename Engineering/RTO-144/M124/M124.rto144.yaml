@@ -1,0 +1,35 @@
+code: M124
+series: S400-LINE
+type: PREAMP
+row_count: 15
+impedance:
+  line_in: 600
+  out: 600
+note: null
+audio:
+- port: A1
+  signal: PREAMP-A
+  dir: io
+  pos: '4'
+  neg: '5'
+  pad_pos: 4.A.1.P
+  pad_neg: 5.A.1.N
+- port: A3
+  signal: PREAMP-OUT
+  dir: out
+  pos: '13'
+  neg: '14'
+  pad_pos: 13.A.3.P
+  pad_neg: 14.A.3.N
+bus_out: []
+bus_in: []
+power:
+- rail: VCC-AUDIO
+  style: OLD
+  volts: 48
+  max_a: 0.1
+  supply: '15'
+  ground: '12'
+  link: null
+jumpers: []
+logic: []

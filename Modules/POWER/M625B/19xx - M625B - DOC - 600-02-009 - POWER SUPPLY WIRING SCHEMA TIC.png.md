@@ -1,0 +1,68 @@
+# 19xx - M625B - DOC - 600-02-009 - POWER SUPPLY WIRING SCHEMA TIC.png
+Wiki page: [Documents](../../../PAGES/Documents.md)
+
+
+- **Year:** unknown (unknown)
+- **Type:** document scan
+- **About:** M625B
+
+## Text recovered by OCR
+
+> #16 AWG WIRES 10 FT TB9 P2-123 +25V RD P2-5,6 COM P2-91011 25V M625B POWER SUPPLY SEE POWER SUPPLY RUNNING LIST P2-_L23 +25V_CIL P2-5,.6 CTL COM 10 P2_13 CHASSIS GN GN Pi-Z BK ISSUE DATE REVISION APP P1-16 P1-15 WH 8 R (WIRED BY CUSTOMER) WBS WARD-BECK SYSTEMS PI-51 STATION GROUND DRN, JRG 02/87 ENG @a CKD: APP SCALE DISC NO: 130 CODE: 600s09 POWER SUPPLY WIRING SCHEMA TIC 115 VAC 60 HZ ISSUE 1 B 600-02-009
+- **Original file:** `WBSps.env/PUBLIC/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/WBSps.ca - 20210317 11X 17 Scans  (199).png`
+- **SHA-256:** `8233d9d3768f9aa852809c2db5c76c41f9b5e62a297963e3b0b75b25e5ca4c96`
+- **Size:** 18,540,502 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR)
+
+```text
+#16 AWG WIRES
+10 FT
+TB9
+P2-123
++25V
+RD
+P2-5,6
+COM
+P2-91011
+25V
+M625B POWER SUPPLY
+SEE POWER SUPPLY RUNNING LIST
+P2-_L23
++25V_CIL
+P2-5,.6
+CTL COM
+10
+P2_13
+CHASSIS
+GN
+GN
+Pi-Z
+BK
+ISSUE DATE
+REVISION
+APP
+P1-16 P1-15
+WH
+8 R
+(WIRED BY CUSTOMER)
+WBS
+WARD-BECK SYSTEMS
+PI-51
+STATION GROUND
+DRN, JRG 02/87 ENG  @a CKD: APP SCALE DISC NO: 130 CODE: 600s09
+POWER SUPPLY WIRING SCHEMA TIC
+115 VAC 60 HZ
+ISSUE 1
+B
+600-02-009
+```
+
+## Contents (JSON)
+
+```json
+{"file":"Modules/POWER/M625B/19xx - M625B - DOC - 600-02-009 - POWER SUPPLY WIRING SCHEMA TIC.png","sha256":"8233d9d3768f9aa852809c2db5c76c41f9b5e62a297963e3b0b75b25e5ca4c96","kind":"doc","models":["M625B"],"pages":1,"order":[{"page":1,"title_block":[{"number":"600-02-009","type":"schematic","title":"Power Supply Wiring Schema Tic","drawn":"JRG","issue":"1"}]}],"drawing":{"svg":"_traces/8233d9d3768f9aa8.svg","viewBox":[2000,1414],"rotate":0,"number":"600-02-009","dtype":"02","outlines":"see _traces/8233d9d3768f9aa8.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","centre_lines":"see _traces/8233d9d3768f9aa8.svg.gz (in full in the archive copy of this note and its \"(traced).dxf\")","words":[[561,109,"#16"],[606,109,"AWG WRES"],[949,129,"10 FT"],[801,141,"TB9"],[441,159,"P2-123"],[571,159,"+25V"],[754,159,"RD"],[441,259,"P2-5,6"],[579,256,"COM"],[441,354,"P2 _"],[589,354,"25V"],[309,426,"M625B"],[1109,419,"SEE POWER SUPPLY RUNNING LIST"],[308,460,"POWER"],[441,461,"P2-_123"],[554,461,"+25V"],[302,490,"SUPPLY"],[441,554,"P2_5,6"],[561,554,"CIL"],[604,554,"COM"],[441,664,"P2-13"],[561,666,"CHASSIS"],[1411,969,"ISSUE"],[1476,969,"DATE"],[1686,969,"REVISION"],[1936,969,"APP"],[439,986,"Pi-16"],[439,1016,"Pi-15"],[1006,1016,"(WRED BY CUSTOMER)"],[1315,1033,"WBS"],[1535,1033,"WARD-BECK"],[1782,1033,"SYSTEMS"],[264,1061,"P1-5"],[949,1061,"STATION"],[951,1081,"GROUND"],[1269,1079,"DRN. JRG"],[1361,1081,"02/87"],[1266,1111,"ENG_"],[1331,1116,"Ka"],[1520,1120,"POWER"],[1651,1120,"SUPPLY"],[1800,1120,"WIRING"],[591,1129,"115"],[634,1129,"VAC"],[1266,1139,"CKD"],[604,1151,"60 HZ"],[1622,1158,"SCHEMA TIC"],[1269,1171,"APP_"],[1279,1199,"SCALE"],[1354,1204,"DISC"],[1406,1204,"NO: 130"],[1911,1201,"ISSUE"],[1354,1231,"CODE: 600509"],[1625,1225,"600-02-009"]]}}
+```
