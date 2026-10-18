@@ -5,7 +5,7 @@ title: "Ward-Beck Systems archive"
 
 # Ward-Beck Systems archive (2026)
 
-A wiki of the Ward-Beck Systems archive: **521** modules, products and console models, **206** jobs, dated from **1967** to **2021**.
+A wiki of the Ward-Beck Systems archive: **521** modules, products and console models, **310** jobs, dated from **1967** to **2021**.
 
 ## Start here
 

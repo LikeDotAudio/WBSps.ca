@@ -1,0 +1,26 @@
+# 1997 - 970081 - Binder spine - SHOWCASE TELEVISION INC. - 24x36 MiniCOM INTERCOM SYSTEM (04).jpg
+
+Wiki page: [Job-970081](../../../PAGES/Job-970081.md)
+
+- **Year:** 1997 (job number)
+- **Job / serial number:** 970081
+- **On the spine:** SHOWCASE TELEVISION INC. - 24x36 MiniCOM INTERCOM SYSTEM
+- **What it is:** a photograph of the job's binder on the shelf
+
+- **Original file:** `WBSps.env/Binder Spines/970081 - SHOWCASE TELEVISION INC. - 24x36 MiniCOM INTERCOM SYSTEM (04).jpg`
+- **SHA-256:** `55c821e24e2c091af61b373e8aacfc0448e73281f30667454115929f9a998461`
+- **Size:** 67,410 bytes
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Consoles/1990-1999/970081 - _ _ _. - _ _ _ _/1997 - 970081 - Binder spine - SHOWCASE TELEVISION INC. - 24x36 MiniCOM INTERCOM SYSTEM (04).jpg",
+ "sha256": "55c821e24e2c091af61b373e8aacfc0448e73281f30667454115929f9a998461",
+ "kind": "job",
+ "models": [
+  "970081"
+ ],
+ "year": 1997
+}
+```

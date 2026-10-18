@@ -19,6 +19,7 @@ tags: ["product", "micro-series", "1980s"]
 | Evidence | "MANUAL ISSUE #2 March 17 , 1988" in PUBLIC/Manuals + tech DOCUMENTS/Intercom/MicroCOM II/WBS microCOM II Communications System.pdf |
 | Confidence | high |
 | All years found | [1988\|21](Year-1988.md) |
+| Used in jobs | [860800](Job-860800.md) (1986\|19), [880478](Job-880478.md) (1988\|21), [880851](Job-880851.md) (1988\|21), [890009](Job-890009.md) (1989\|22), [890349](Job-890349.md) (1989\|22), [890291](Job-890291.md) (1989\|22), [890276](Job-890276.md) (1989\|22), [900359](Job-900359.md) (1990\|23), [910320](Job-910320.md) (1991\|24), [910251](Job-910251.md) (1991\|24), [920003](Job-920003.md) (1992\|25), [920256](Job-920256.md) (1992\|25), [920380](Job-920380.md) (1992\|25), [920342](Job-920342.md) (1992\|25), [930420](Job-930420.md) (1993\|26), [930007](Job-930007.md) (1993\|26), [940009](Job-940009.md) (1994\|27), [940011](Job-940011.md) (1994\|27), [950271](Job-950271.md) (1995\|28), [950226](Job-950226.md) (1995\|28), [960163](Job-960163.md) (1996\|29), [960134](Job-960134.md) (1996\|29) |
 | Folder | [DOCUMENTS/RAW Photos/WBS BINDER SPINE PICTURES](../DOCUMENTS/RAW%20Photos/WBS%20BINDER%20SPINE%20PICTURES/) |
 | Folder | [DOCUMENTS/WBSps - Word Perfect Manuals-20221115T024240Z-001/WBSps - Word Perfect Manuals](../DOCUMENTS/WBSps%20-%20Word%20Perfect%20Manuals-20221115T024240Z-001/WBSps%20-%20Word%20Perfect%20Manuals/) |
 | Folder | [Modules/COMMUNICATION/M7880](../Modules/COMMUNICATION/M7880/) |
@@ -27,7 +28,7 @@ tags: ["product", "micro-series", "1980s"]
 
 _What it is made of and what it is part of._
 
-<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="microCOM II" data-n="II Communications System" data-cat="MICRO SERIES"></div><svg class="wbs-panel" data-m="microCOM II" data-n="II Communications System" data-cat="MICRO SERIES" role="img" aria-label="microCOM II front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"microCOM II","title":"II Communications System","rto":null,"parts":[{"item":"SA14-172","title":"14-172-02-004 - COMPONENT LAYOUT","label":"SA14-172 14-172-02-004 - COMPONENT ","href":"Register-Circuit-boards-SA14-nnn.html#sa14-172","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-173","title":"","label":"SA14-173","href":"Register-Circuit-boards-SA14-nnn.html#sa14-173","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-271","title":"","label":"SA14-271","href":"Register-Circuit-boards-SA14-nnn.html#sa14-271","note":"Circuit boards (SA14-nnn)"}],"parents":[{"label":"M7880","href":"M7880.html","note":"on 13 drawings with it"},{"label":"microCOM","href":"microCOM.html","note":"on 11 drawings with it: Instruct Ion"}]}</script></div></div><script src="wbs_spice.js"></script>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="microCOM II" data-n="II Communications System" data-cat="MICRO SERIES"></div><svg class="wbs-panel" data-m="microCOM II" data-n="II Communications System" data-cat="MICRO SERIES" role="img" aria-label="microCOM II front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"microCOM II","title":"II Communications System","rto":null,"parts":[{"item":"SA14-172","title":"14-172-02-004 - COMPONENT LAYOUT","label":"SA14-172 14-172-02-004 - COMPONENT ","href":"Register-Circuit-boards-SA14-nnn.html#sa14-172","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-173","title":"","label":"SA14-173","href":"Register-Circuit-boards-SA14-nnn.html#sa14-173","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-271","title":"","label":"SA14-271","href":"Register-Circuit-boards-SA14-nnn.html#sa14-271","note":"Circuit boards (SA14-nnn)"}],"parents":[{"label":"860800","href":"Job-860800.html","note":"ABC NEW PARLIAMENT HOUSE - MicroCOM II"},{"label":"880478","href":"Job-880478.html","note":"TCN-9 SYDNEY - CUSTOM MicroCOM II SYSTEM"},{"label":"880851","href":"Job-880851.html","note":"TV-3 NETWORK - PLANT 96 X 144 MICROCOM II SYSTEM - BOOK 1"},{"label":"890009","href":"Job-890009.html","note":"CBC EDMONTON - MICROCOM II SYSTEM"},{"label":"890276","href":"Job-890276.html","note":"CKVR TELEVISION - 48 x 48 MicroCOM II SYSTEM"},{"label":"890291","href":"Job-890291.html","note":"COMPLETE POST PRODUCTION - 48x48 MicroCOM II System"},{"label":"890349","href":"Job-890349.html","note":"WTBS TELEVISION - MICROCOM II SYSTEM"},{"label":"900359","href":"Job-900359.html","note":"GRC PRODUCTIONS - 48 x 48 MicroCOM II SYSTEM"},{"label":"910251","href":"Job-910251.html","note":"CTV TELEVISION NETWORK LTD - 48 x 48 MicroCOM II INTERCOM SYSTEM"},{"label":"910320","href":"Job-910320.html","note":"Knowledge Network - 96 X 96 MicroCOM II Communications System"},{"label":"920003","href":"Job-920003.html","note":"CBC TORONTO BROADCAST CENTRE - STUDIO A-B1 96 X 96 MicroCOM II COMMUNICATIONS SYSTEM"},{"label":"920256","href":"Job-920256.html","note":"CROSSPOINT-TV CULTURA - 96 X 96 MicroCOM II COMMUNICATIONS SYSTEM"},{"label":"920342","href":"Job-920342.html","note":"MOTOROLA - 48x48 MicroCOM II COMMUNICATIONS SYSTEM"},{"label":"920380","href":"Job-920380.html","note":"TCN9 - 96 X 96 MicroCOM II COMMUNICATIONS SYSTEM"},{"label":"930007","href":"Job-930007.html","note":"CICI-TV-CKNC-TV SUDBURY - 48 X 96 MicroCOM II COMMUNICATIONS SYSTEM"},{"label":"930420","href":"Job-930420.html","note":"CBC FREDERICTON - 48x48 MicroCOM II COMMUNICATIONS SYSTEM"},{"label":"940009","href":"Job-940009.html","note":"KCET-TV - 48 X 96 MicroCOM II COMMUNICATIONS SYSTEM"},{"label":"940011","href":"Job-940011.html","note":"MACOSTAR - MicroCOM II COMMUNICATIONS SYSTEM"},{"label":"950226","href":"Job-950226.html","note":"MOTOROLA - 48x48 MicroCOM II COMMUNICATIONS SYSTEM"},{"label":"950271","href":"Job-950271.html","note":"ALGONQUIN COLLEGE - 48X48 MicroCOM II COMMUNICATIONS SYSTEM"},{"label":"960134","href":"Job-960134.html","note":"COMPLETE POST - 96x96 MicroCOM II COMMUNICATIONS SYSTEM"},{"label":"960163","href":"Job-960163.html","note":"CBC OTTAWA PARLIAMENTARY BUREAU - 48x96 MicroCOM II COMMUNICATIONS SYSTEM"},{"label":"M7880","href":"M7880.html","note":"on 13 drawings with it"},{"label":"microCOM","href":"microCOM.html","note":"on 11 drawings with it: Instruct Ion"}]}</script></div></div><script src="wbs_spice.js"></script>
 
 ## Dates found in the documents
 
@@ -144,6 +145,30 @@ _What it is made of and what it is part of._
   "SA14-172",
   "SA14-173",
   "SA14-271"
+ ],
+ "part_of": [
+  "860800",
+  "880478",
+  "880851",
+  "890009",
+  "890276",
+  "890291",
+  "890349",
+  "900359",
+  "910251",
+  "910320",
+  "920003",
+  "920256",
+  "920342",
+  "920380",
+  "930007",
+  "930420",
+  "940009",
+  "940011",
+  "950226",
+  "950271",
+  "960134",
+  "960163"
  ],
  "documents": [
   {

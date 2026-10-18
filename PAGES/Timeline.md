@@ -135,6 +135,7 @@ The timeline is built from **projects**: every job / serial number, dated by its
 
 ### [1983|16](Year-1983.md)
 
+- **[830132](Job-830132.md)** — CFBK RADIO HUNTSVILLE - R1000 RADIO CONSOLE
 - _first documented: [M208](M208.md), [M490J](M490J.md), [M490K](M490K.md), [M490L](M490L.md), [M497B](M497B.md), [M609](M609.md), [M612A](M612A.md), [M632](M632.md), [M805](M805.md)_
 
 ### [1984|17](Year-1984.md)
@@ -154,24 +155,70 @@ The timeline is built from **projects**: every job / serial number, dated by its
 
 ### [1986|19](Year-1986.md)
 
-- **[860800](Job-860800.md)** — project · 1 drawings
+- **[860401](Job-860401.md)** — RNZ WELLINGTON - R1400 RADIO CONSOLE · modules [R1400](R1400.md)
+- **[860485](Job-860485.md)** — CFTM TELEVISION - CUSTOM INTERCOM MATRIX
+- **[860601](Job-860601.md)** — WIOD-WAIA - PRODUCTION CONSOLE
+- **[860602](Job-860602.md)** — WIOD-WAIA - CUSTOM INTERCOM MATRIX
+- **[860693](Job-860693.md)** — NBC TV - MICROCOM STUDIO 3K INTERCONNECT SCHEMATICS · modules [microCOM](microCOM.md)
+- **[860715](Job-860715.md)** — TURNER BROADCASTING SYSTEM - MICROPHONE PREAMPLIFIER ASSEMBLY
+- **[860718](Job-860718.md)** — CNN - MICROPHONE PREAMPLIFIER ASSEMBLY
+- **[860800](Job-860800.md)** — ABC NEW PARLIAMENT HOUSE - MicroCOM II · modules [microCOM II](microCOM-II.md) · 1 drawings
 - **[M524A---ST-Console-Programming-module](Project-M524A-ST-Console-Programming-module.md)** (1986, no job number) · modules [M524A](M524A.md)
 - _first documented: [D8212](D8212.md), [M463AB](M463AB.md), [M463AC](M463AC.md), [M472A](M472A.md), [M475A](M475A.md), [M524](M524.md), [M524A](M524A.md), [M5201](M5201.md), [M8206](M8206.md)_
 
 ### [1987|20](Year-1987.md)
 
-- **[870200](Job-870200.md)** — CFPL Project Notes Suppliment A
+- **[870126](Job-870126.md)** — CANADIAN BROADCASTING CORPORATION - INTERCOM MATRIX
+- **[870131](Job-870131.md)** — CFBK RADIO HUNTSVILLE - R1400 RADIO CONSOLE · modules [R1400](R1400.md)
+- **[870132](Job-870132.md)** — CFBK RADIO HUNTSVILLE - R1000 RADIO CONSOLE
+- **[870135](Job-870135.md)** — CJCL RADIO - R2200 MCR CONSOLE
+- **[870136](Job-870136.md)** — CJCL RADIO - R2200 PRODUCTION 1 CONSOLE
+- **[870137](Job-870137.md)** — TELEMEDIA BROADCAST SYSTEM - R2200 RADIO CONSOLE
+- **[870147](Job-870147.md)** — ADOLPH COORS COMPANY - CUSTOM R600 RADIO CONSOLE
+- **[870155](Job-870155.md)** — CKNM-FM - R1000 RADIO CONSOLE
+- **[870168](Job-870168.md)** — CFRE TELEVISION - CUSTOM INTERCOM MATRIX
+- **[870197](Job-870197.md)** — CKBI TELEVISION - R600 RADIO CONSOLE
+- **[870200](Job-870200.md)** — CFPL-TV - CUSTOM MICROCOM SYSTEM · modules [microCOM](microCOM.md)
 - **[870284](Job-870284.md)** — CFBK Huntsville Announce Turrel
+- **[870374](Job-870374.md)** — CKPR RADIO - R1000 RADIO CONSOLE
+- **[870412](Job-870412.md)** — RNZ-WELLINGTON - R2200 RADIO CONSOLE
+- **[870439](Job-870439.md)** — TCN 9 SYDNEY - CUSTOM INTERCOM
+- **[870504](Job-870504.md)** — WPLN RADIO NASHVILLE - CUSTOM R2200 RADIO CONSOLE
+- **[870555](Job-870555.md)** — WOI FM - R2200 RADIO CONSOLE
+- **[870642](Job-870642.md)** — CHXL - R1000 RADIO CONSOLE
+- **[870643](Job-870643.md)** — TELEMEDIA BROADCASTING SYSTEMS - R1000 RADIO CONSOLE
+- **[870648](Job-870648.md)** — CING-FM - R2200 RADIO CONSOLE
+- **[870750](Job-870750.md)** — RNZ-WELLINGTON - R200 RADIO CONSOLE
+- **[870782](Job-870782.md)** — WTOP RADIO - ANNOUNCE CONSOLE
+- **[870785](Job-870785.md)** — WTOP RADIO - PRODUCTION CONSOLE
+- **[870860](Job-870860.md)** — KDKA RADIO - R1000 NEWS PRODUCTION CONSOLE
+- **[870936](Job-870936.md)** — WKIS - R1000 EXPANDER RADIO CONSOLE
+- **[870952](Job-870952.md)** — WBZ RADIO - STUDIO B CONSOLE
 - _first documented: [M117](M117.md), [M152](M152.md), [M605A](M605A.md)_
 
 ### [1988|21](Year-1988.md)
 
 - **[88000](Job-88000.md)** — project · 1 drawings by [DS](Person-DS.md)
 - **[880014](Job-880014.md)** — KSFO RADIO DA ASSEMBLY PROJECT
+- **[880042](Job-880042.md)** — WSIX AM NASHVILLE - CUSTOM RADIO RADIO CONSOLE (blurry)
+- **[880063](Job-880063.md)** — CKTY 2TK - CUSTOM RADIO CONSOLE
+- **[880079](Job-880079.md)** — CHNS-CHFX - R2200 PRODUCTION 1 RADIO CONSOLE
 - **[880084](Job-880084.md)** — , INTERCOM MATRIX
+- **[880096](Job-880096.md)** — CHXL - R1000 RADIO CONSOLE
+- **[880097](Job-880097.md)** — SENECA COLLEGE - R1000 RADIO CONSOLE
 - **[880134](Job-880134.md)** — CFTO ST · modules [M433](M433.md), [M435](M435.md), [M520](M520.md), [M521](M521.md), [M521A](M521A.md), [M522](M522.md), [M523](M523.md), [M524A](M524A.md), [M525](M525.md), [M526](M526.md), [M527](M527.md), [M528](M528.md) … · 190 drawings by [PA](Person-PA.md), [DS](Person-DS.md), [SG](Person-SG.md)
-- **[880478](Job-880478.md)** — PROJECT , PC ASSIGNMENT COMPUTER MICROCOM II FOR TCN-9 SYDNEY
+- **[880238](Job-880238.md)** — VIDEO TELECOM INTERNATIONAL - R1400 RADIO CONSOLE · modules [R1400](R1400.md)
+- **[880273](Job-880273.md)** — WXEL-FM - CUSTOM R1400-18 RADIO CONSOLE · modules [R1400](R1400.md)
+- **[880323](Job-880323.md)** — WCCO RADIO - CUSTOM INTERCOM MATRIX
+- **[880391](Job-880391.md)** — 2 DAY-FM SYDNEY - R2200 RADIO CONSOLES
+- **[880393](Job-880393.md)** — 2 DAY-FM SYDNEY - R2200 RADIO CONSOLES
+- **[880478](Job-880478.md)** — TCN-9 SYDNEY - CUSTOM MicroCOM II SYSTEM · modules [microCOM II](microCOM-II.md)
+- **[880545](Job-880545.md)** — COMMUNICATIONS ENGINEERING - 48x48 MicroCOM SYSTEM · modules [microCOM](microCOM.md)
 - **[880651](Job-880651.md)** — TVO M1204B · modules [M150](M150.md), [M207](M207.md), [M450B](M450B.md), [M451](M451.md), [M452](M452.md), [M453A](M453A.md), [M461](M461.md), [M462](M462.md), [M462A](M462A.md), [M475A](M475A.md), [M480C](M480C.md), [M498](M498.md) … · 85 drawings by [PA](Person-PA.md), [HM](Person-HM.md), [DRG](Person-DRG.md)
+- **[880675](Job-880675.md)** — ATLANTIC TV SYSTEM LIMITED - CUSTOM IFB
+- **[880851](Job-880851.md)** — TV-3 NETWORK - PLANT 96 X 144 MICROCOM II SYSTEM - BOOK 1 · modules [microCOM II](microCOM-II.md)
+- **[880855](Job-880855.md)** — TV-3 NETWORK WELLINGTON - MINICOM
+- **[880857](Job-880857.md)** — TV-3 NETWORK - O.B. VAN MINICOM
 - **[88134](Job-88134.md)** — project · 1 drawings
 - **[88400](Job-88400.md)** — project · 1 drawings by [DRG](Person-DRG.md)
 - **[880134 - ST Console](Project-880134-ST-Console.md)** (1988, no job number)
@@ -180,15 +227,51 @@ The timeline is built from **projects**: every job / serial number, dated by its
 
 ### [1989|22](Year-1989.md)
 
-- **[890009](Job-890009.md)** — CBC EDMONTON PROJECT , MICROCOM II INTRUSTION MANUAL BOOK 2 OF 2
+- **[890009](Job-890009.md)** — CBC EDMONTON - MICROCOM II SYSTEM · modules [microCOM II](microCOM-II.md)
+- **[890068](Job-890068.md)** — CBC - STUDIO 1 12x12 INTERCOM MATRIX
+- **[890220](Job-890220.md)** — TELEMEDIA - R1600 RADIO CONSOLE
+- **[890221](Job-890221.md)** — TELEMEDIA - R1600 RADIO CONSOLE
+- **[890276](Job-890276.md)** — CKVR TELEVISION - 48 x 48 MicroCOM II SYSTEM · modules [microCOM II](microCOM-II.md)
+- **[890291](Job-890291.md)** — COMPLETE POST PRODUCTION - 48x48 MicroCOM II System · modules [microCOM II](microCOM-II.md)
+- **[890300](Job-890300.md)** — MODERN VIDEOFILM - MiniCom
+- **[890349](Job-890349.md)** — WTBS TELEVISION - MICROCOM II SYSTEM · modules [microCOM II](microCOM-II.md)
+- **[890354](Job-890354.md)** — STEPHEN LEACOCK C.I. - R1400 RADIO CONSOLE · modules [R1400](R1400.md)
+- **[890371](Job-890371.md)** — WMAQ RADIO ON AIR 'M' - CUSTOM R1000 RADIO CONSOLE
+- **[890372](Job-890372.md)** — WMAQ RADIO ON AIR STUDIO A - R1000 RADIO CONSOLE
+- **[890373](Job-890373.md)** — WMAQ RADIO ON AIR STUDIO Q - R1000 RADIO CONSOLE
+- **[890374](Job-890374.md)** — WMAQ - EDIT BOOTH #1 CUSTOM R1000 RADIO CONSOLE
+- **[890376](Job-890376.md)** — WMAQ - EDIT BOOTH #4 CUSTOM R1000 RADIO CONSOLE
+- **[890378](Job-890378.md)** — WMAQ RADIO NPA NORTH - CUSTOM R600 RADIO CONSOLE
+- **[890379](Job-890379.md)** — WMAQ RADIO NPA SOUTH - CUSTOM R600 RADIO CONSOLE
+- **[890380](Job-890380.md)** — WMAQ RADIO PRODUCTION STUDIO 'W' - CUSTOM R2200 RADIO CONSOLE
+- **[890381](Job-890381.md)** — WMAQ RADIO - CUSTOM PRODUCTION TURRET
+- **[890391](Job-890391.md)** — MINICOM
+- **[890393](Job-890393.md)** — CKCW MONCTON - R1400 RADIO CONSOLE · modules [R1400](R1400.md)
 - **[890407](Job-890407.md)** — CBC Toronto Custom Announcer Turret Project
+- **[890416](Job-890416.md)** — GRC PRODUCTIONS - MINICOM
+- **[890422](Job-890422.md)** — TV-3 NETWORK CHRISTCHURCH - MINICOM
+- **[890423](Job-890423.md)** — TV-3 NETWORK - PARLIAMENT MINICOM
+- **[890640](Job-890640.md)** — 3MMM RADIO MELBOURNE - R1000 RADIO CONSOLE
+- **[890641](Job-890641.md)** — KQZY - R1000 RADIO CONSOLE
+- **[890679](Job-890679.md)** — CKBC - R1600 RADIO CONSOLE
+- **[890680](Job-890680.md)** — CKBC - R1600 RADIO CONSOLE
+- **[890799](Job-890799.md)** — GROUP W NEWS FEED - MINICOM
+- **[890801](Job-890801.md)** — 3MMM RADIO MELBOURNE - R2200 RADIO CONSOLES
+- **[890834](Job-890834.md)** — CBC OTTAWA - MINICOM
 - **[893047](Job-893047.md)** — project
 
 ## 1990s
 
 ### [1990|23](Year-1990.md)
 
+- **[900052](Job-900052.md)** — WMAQ RADIO - CUSTOM SWR-PGM MIXER
+- **[900170](Job-900170.md)** — TV JOVEM PAN LTDA - CUSTOM MiniCOM
+- **[900180](Job-900180.md)** — WBZ RADIO - R1000 RADIO CONSOLE
+- **[900186](Job-900186.md)** — TV JOVEM PAN LTDA - 7012B INTERCOM MATRIX
+- **[900310](Job-900310.md)** — CUSTOM R600 RADIO CONSOLE
+- **[900359](Job-900359.md)** — GRC PRODUCTIONS - 48 x 48 MicroCOM II SYSTEM · modules [microCOM II](microCOM-II.md)
 - **[900416](Job-900416.md)** — KFBK-KAER · modules [M8205](M8205.md) · 2 drawings by [WS](Person-WS.md)
+- **[900436](Job-900436.md)** — TV ONTARIO - MINICOM SYSTEM
 - **[900438](Job-900438.md)** — CHIN Radio · modules [M400](M400.md), [M451](M451.md), [M452](M452.md), [M453A](M453A.md), [M462A](M462A.md), [M490](M490.md), [M490B](M490B.md), [M495](M495.md), [M497](M497.md), [M498](M498.md), [M499](M499.md), [M625B](M625B.md) · 86 drawings by [GEB (Gerry E. Bell)](Person-GEB.md), [DRG](Person-DRG.md), [LA](Person-LA.md)
 - **[900573](Job-900573.md)** — project · 2 drawings by [GEB (Gerry E. Bell)](Person-GEB.md)
 - **[R series install guide](Project-R-series-install-guide.md)** (1990, no job number)
@@ -198,12 +281,22 @@ The timeline is built from **projects**: every job / serial number, dated by its
 
 ### [1991|24](Year-1991.md)
 
+- **[910034](Job-910034.md)** — CJCL - CUSTOM R600 RADIO CONSOLE
 - **[910044](Job-910044.md)** — NBC · 1 drawings by [DRG](Person-DRG.md)
+- **[910055](Job-910055.md)** — B & B ELECTRONICS COMPANY - M7012B INTERCOM MATRIX
+- **[910071](Job-910071.md)** — CKNX RADIO - R1600 RADIO CONSOLE
+- **[910199](Job-910199.md)** — WCAL RADIO - R600 RADIO CONSOLE
+- **[910233](Job-910233.md)** — TV ONTARIO - MiniCOM SYSTEM
+- **[910251](Job-910251.md)** — CTV TELEVISION NETWORK LTD - 48 x 48 MicroCOM II INTERCOM SYSTEM · modules [microCOM II](microCOM-II.md)
+- **[910277](Job-910277.md)** — UNITEL MOBILE VIDEO - CUSTOM INTERCOM
+- **[910320](Job-910320.md)** — Knowledge Network - 96 X 96 MicroCOM II Communications System · modules [microCOM II](microCOM-II.md)
+- **[910481](Job-910481.md)** — CHTZ RADIO - R2200 RADIO CONSOLE
 
 ### [1992|25](Year-1992.md)
 
 - **[920001](Job-920001.md)** — project · 1 drawings
 - **[920002](Job-920002.md)** — project · modules [M703](M703.md) · 3 drawings by [PA](Person-PA.md)
+- **[920003](Job-920003.md)** — CBC TORONTO BROADCAST CENTRE - STUDIO A-B1 96 X 96 MicroCOM II COMMUNICATIONS SYSTEM · modules [microCOM II](microCOM-II.md)
 - **[920004](Job-920004.md)** — project · 1 drawings by [GEB (Gerry E. Bell)](Person-GEB.md)
 - **[920005](Job-920005.md)** — project · 1 drawings by [GEB (Gerry E. Bell)](Person-GEB.md)
 - **[920006](Job-920006.md)** — project · 1 drawings
@@ -211,34 +304,37 @@ The timeline is built from **projects**: every job / serial number, dated by its
 - **[920008](Job-920008.md)** — project · 1 drawings by [GEB (Gerry E. Bell)](Person-GEB.md)
 - **[920009](Job-920009.md)** — project · 1 drawings by [GEB (Gerry E. Bell)](Person-GEB.md)
 - **[920010](Job-920010.md)** — project
-- **[920018](Job-920018.md)** — project
+- **[920018](Job-920018.md)** — CBC MONCTON - 24 X 36 MiniCOM INTERCOM SYSTEM (blurry)
 - **[920063](Job-920063.md)** — KRSR Radio · modules [M451](M451.md), [M453](M453.md), [M490](M490.md), [M490A](M490A.md), [M495](M495.md), [M498](M498.md) · 4 drawings by [PA](Person-PA.md)
-- **[920150](Job-920150.md)** — WLYF-WMRZ · modules [M453A](M453A.md), [M495](M495.md), [M498](M498.md) · 1 drawings by [DRG](Person-DRG.md)
+- **[920150](Job-920150.md)** — WLYF-WMRZ - R1000 RADIO CONSOLE · modules [M453A](M453A.md), [M495](M495.md), [M498](M498.md) · 1 drawings by [DRG](Person-DRG.md)
 - **[920170](Job-920170.md)** — CHYM-CKGL · modules [M495](M495.md) · 2 drawings by [DRG](Person-DRG.md)
 - **[920216](Job-920216.md)** — project
+- **[920256](Job-920256.md)** — CROSSPOINT-TV CULTURA - 96 X 96 MicroCOM II COMMUNICATIONS SYSTEM · modules [microCOM II](microCOM-II.md)
 - **[920306](Job-920306.md)** — CJMJ-FM · modules [M497C](M497C.md), [M498](M498.md), [M600](M600.md) · 3 drawings by [PA](Person-PA.md)
-- **[920342](Job-920342.md)** — Motorolla Central Switch Project No. (1of4) · 1 drawings
+- **[920342](Job-920342.md)** — MOTOROLA - 48x48 MicroCOM II COMMUNICATIONS SYSTEM · modules [microCOM II](microCOM-II.md) · 1 drawings
+- **[920380](Job-920380.md)** — TCN9 - 96 X 96 MicroCOM II COMMUNICATIONS SYSTEM · modules [microCOM II](microCOM-II.md)
 - **[920383](Job-920383.md)** — WOWF · modules [M451](M451.md), [M497C](M497C.md), [M498](M498.md) · 3 drawings by [DRG](Person-DRG.md), [GEB (Gerry E. Bell)](Person-GEB.md)
-- **[920384](Job-920384.md)** — project · 1 drawings
+- **[920384](Job-920384.md)** — WOWF RADIO - PRODUCTION SUPPORT R1000 RADIO CONSOLE · 1 drawings
 - **[920477](Job-920477.md)** — Telemedia · modules [M479](M479.md), [M498](M498.md), [M499](M499.md) · 4 drawings by [PA](Person-PA.md)
 - _first documented: [M433](M433.md), [MP1](MP1.md), [MP2](MP2.md)_
 
 ### [1993|26](Year-1993.md)
 
-- **[930007](Job-930007.md)** — CICI-TV-CKNC-TV SUDBURY · 2 drawings by [PA](Person-PA.md)
+- **[930007](Job-930007.md)** — CICI-TV-CKNC-TV SUDBURY - 48 X 96 MicroCOM II COMMUNICATIONS SYSTEM · modules [microCOM II](microCOM-II.md) · 2 drawings by [PA](Person-PA.md)
+- **[930091](Job-930091.md)** — TELE-METROPOLE - MiniCOM COMMUNICATIONS SYSTEM
 - **[93010](Job-93010.md)** — project · 1 drawings by CXO
 - **[930177](Job-930177.md)** — TORONTO BROADCAST CENTRE · 1 drawings by [GEB (Gerry E. Bell)](Person-GEB.md)
 - **[93018](Job-93018.md)** — project · 4 drawings by [PA](Person-PA.md), [ST](Person-ST.md), [DC](Person-DC.md)
 - **[930188](Job-930188.md)** — ST. OLAF COLLEGE · modules [M451](M451.md), [M497C](M497C.md), [M498](M498.md) · 3 drawings by [PA](Person-PA.md), [ST](Person-ST.md), [DC](Person-DC.md)
 - **[93021](Job-93021.md)** — TTC · modules [M462](M462.md), [M464](M464.md), [M466](M466.md), [M467](M467.md), [M8205](M8205.md), [M8205B](M8205B.md) · 1 drawings by [PA](Person-PA.md)
-- **[930233](Job-930233.md)** — project · 1 drawings
-- **[930279](Job-930279.md)** — project
+- **[930233](Job-930233.md)** — CBC TORONTO - BELTPACK POWER & PROGRAM SOUND SYSTEM · 1 drawings
+- **[930279](Job-930279.md)** — CBC MONTREAL - STEREO TALKBACK PANEL
 - **[93031](Job-93031.md)** — project · 1 drawings
 - **[93032](Job-93032.md)** — CTS · 7 drawings by [DRG](Person-DRG.md), CTS, [DRC](Person-DRC.md)
-- **[930351](Job-930351.md)** — project · 1 drawings by [DRG](Person-DRG.md), MOD
+- **[930351](Job-930351.md)** — SABC - Renaissance MKII Stereo Radio Console · 1 drawings by [DRG](Person-DRG.md), MOD
 - **[93038](Job-93038.md)** — project · 1 drawings by [CBC](Person-CBC.md)
 - **[93039](Job-93039.md)** — CBC · 4 drawings by [DRG](Person-DRG.md)
-- **[930420](Job-930420.md)** — CBC FREDERICTON · 3 drawings by [DRG](Person-DRG.md), [MGB](Person-MGB.md)
+- **[930420](Job-930420.md)** — CBC FREDERICTON - 48x48 MicroCOM II COMMUNICATIONS SYSTEM · modules [microCOM II](microCOM-II.md) · 3 drawings by [DRG](Person-DRG.md), [MGB](Person-MGB.md)
 - **[930430](Job-930430.md)** — project · 1 drawings by [DRG](Person-DRG.md)
 - **[93044](Job-93044.md)** — TORONTO BROADCAST CENTRE · 2 drawings by [DRC](Person-DRC.md), [DRG](Person-DRG.md)
 - **[93047](Job-93047.md)** — MOVING PICTURES - TVNZ · modules [M7840](M7840.md), [M8204](M8204.md) · 2 drawings by [DRG](Person-DRG.md)
@@ -247,41 +343,42 @@ The timeline is built from **projects**: every job / serial number, dated by its
 
 ### [1994|27](Year-1994.md)
 
-- **[940009](Job-940009.md)** — KCET · 5 drawings by [DRG](Person-DRG.md), [WS](Person-WS.md)
-- **[940011](Job-940011.md)** — project · 2 drawings by [WS](Person-WS.md)
+- **[940009](Job-940009.md)** — KCET-TV - 48 X 96 MicroCOM II COMMUNICATIONS SYSTEM · modules [microCOM II](microCOM-II.md) · 5 drawings by [DRG](Person-DRG.md), [WS](Person-WS.md)
+- **[940011](Job-940011.md)** — MACOSTAR - MicroCOM II COMMUNICATIONS SYSTEM · modules [microCOM II](microCOM-II.md) · 2 drawings by [WS](Person-WS.md)
 - **[940114](Job-940114.md)** — project · 2 drawings by [DRC](Person-DRC.md), [DRG](Person-DRG.md)
 - **[940117](Job-940117.md)** — project · 6 drawings by [DRG](Person-DRG.md), WRG
 - **[940145](Job-940145.md)** — project · 9 drawings by [WS](Person-WS.md), XLR
+- **[940153](Job-940153.md)** — RENAISSANCE MKI STEREO AUDIO CONSOLE
 - **[940177](Job-940177.md)** — project · 1 drawings
 - **[940184](Job-940184.md)** — Glenn Gould Studio · 14 drawings by [DRG](Person-DRG.md), [DRC](Person-DRC.md)
 - **[94021](Job-94021.md)** — Glenn Gould Studio · modules [M703](M703.md), [M8201](M8201.md) · 11 drawings by [DRG](Person-DRG.md), [DRC](Person-DRC.md), ZMM
 - **[94022](Job-94022.md)** — CENTENNIAL COLLEGE · 3 drawings by [DRG](Person-DRG.md)
 - **[940224](Job-940224.md)** — project · 1 drawings
-- **[940238](Job-940238.md)** — CKNW · modules [M901](M901.md), [M901NW](M901NW.md) · 29 drawings by [DRG](Person-DRG.md), [MIC](Person-MIC.md), [ORG](Person-ORG.md)
-- **[940243](Job-940243.md)** — Centennial College · 8 drawings by [SM](Person-SM.md), [DRC](Person-DRC.md), [DRG](Person-DRG.md)
+- **[940238](Job-940238.md)** — CKNW RADIO - Renaissance MKIII Stereo Audio Console · modules [M901](M901.md), [M901NW](M901NW.md) · 29 drawings by [DRG](Person-DRG.md), [MIC](Person-MIC.md), [ORG](Person-ORG.md)
+- **[940243](Job-940243.md)** — CENTENNIAL COLLEGE - MiniCOM COMMUNICATIONS SYSTEM · 8 drawings by [SM](Person-SM.md), [DRC](Person-DRC.md), [DRG](Person-DRG.md)
 - **[940246](Job-940246.md)** — project · 3 drawings by [DRG](Person-DRG.md)
 - **[940248](Job-940248.md)** — Centennial College · 5 drawings by [DRG](Person-DRG.md), [SM](Person-SM.md)
 - **[940249](Job-940249.md)** — project · 1 drawings
-- **[940294](Job-940294.md)** — CBC Ottawa · 4 drawings by [WS](Person-WS.md), AND, [DRG](Person-DRG.md)
+- **[940294](Job-940294.md)** — CBC - OTTAWA - 24 x 36 MiniCOM INTERCOM SYSTEM · 4 drawings by [WS](Person-WS.md), AND, [DRG](Person-DRG.md)
 - **[940305](Job-940305.md)** — Telemedia Sudbury · 2 drawings by [DRG](Person-DRG.md), [LA](Person-LA.md)
 - **[94031](Job-94031.md)** — CENTENNIAL COLLEGE · modules [M8200](M8200.md) · 4 drawings by [SM](Person-SM.md)
 - **[94033](Job-94033.md)** — CENTENNIAL COLLEGE · modules [M632](M632.md) · 19 drawings by [DRG](Person-DRG.md), [SM](Person-SM.md), [DRC](Person-DRC.md)
-- **[940332](Job-940332.md)** — project · 4 drawings by [DRG](Person-DRG.md), [SM](Person-SM.md)
-- **[940333](Job-940333.md)** — CFTR · modules [M924](M924.md) · 3 drawings by [SM](Person-SM.md)
-- **[940334](Job-940334.md)** — project · 4 drawings by [SM](Person-SM.md)
-- **[940335](Job-940335.md)** — CHFI · modules [M905A](M905A.md), [M905B](M905B.md), [M908](M908.md) · 6 drawings by [DRG](Person-DRG.md), [SM](Person-SM.md), [DRC](Person-DRC.md)
-- **[940350](Job-940350.md)** — project · modules [M907](M907.md) · 7 drawings by [DRG](Person-DRG.md), [WKW](Person-WKW.md), [ORG](Person-ORG.md)
-- **[940351](Job-940351.md)** — Telemedia Network Radio · modules [M907](M907.md), [M908](M908.md), [M909](M909.md) · 5 drawings by [DRG](Person-DRG.md), [SM](Person-SM.md)
-- **[940356](Job-940356.md)** — CBC · 6 drawings by [DRG](Person-DRG.md)
-- **[940376](Job-940376.md)** — CKWX Radio · modules [M901A](M901A.md), [M905B](M905B.md), [M908](M908.md) · 3 drawings by [SM](Person-SM.md)
+- **[940332](Job-940332.md)** — ROGERS BROADCASTING - CFTR ON AIR RENAISSANCE MKI STEREO AUDIO CONSOLE · 4 drawings by [DRG](Person-DRG.md), [SM](Person-SM.md)
+- **[940333](Job-940333.md)** — ROGERS BROADCASTING - CFTR BOOTH RENAISSANCE MKI STEREO AUDIO CONSOLE · modules [M924](M924.md) · 3 drawings by [SM](Person-SM.md)
+- **[940334](Job-940334.md)** — CHFI RADIO - RENAISSANCE MKII STEREO AUDIO CONSOLE · 4 drawings by [SM](Person-SM.md)
+- **[940335](Job-940335.md)** — ROGERS BROADCASTING - CHFI PRODUCTION RENAISSANCE MKII STEREO AUDIO CONSOLE · modules [M905A](M905A.md), [M905B](M905B.md), [M908](M908.md) · 6 drawings by [DRG](Person-DRG.md), [SM](Person-SM.md), [DRC](Person-DRC.md)
+- **[940350](Job-940350.md)** — CBC CHARLOTTE-TOWN - RENAISSANCE MKII STEREO AUDIO CONSOLE · modules [M907](M907.md) · 7 drawings by [DRG](Person-DRG.md), [WKW](Person-WKW.md), [ORG](Person-ORG.md)
+- **[940351](Job-940351.md)** — TELEMEDIA NETWORK RADIO - RENAISSANCE MKII STEREO AUDIO CONSOLE · modules [M907](M907.md), [M908](M908.md), [M909](M909.md) · 5 drawings by [DRG](Person-DRG.md), [SM](Person-SM.md)
+- **[940356](Job-940356.md)** — CBC GANDER - RENAISSANCE MKII STEREO AUDIO CONSOLE · 6 drawings by [DRG](Person-DRG.md)
+- **[940376](Job-940376.md)** — CKWX VANCOUVER - RENAISSANCE MKII STEREO AUDIO CONSOLE · modules [M901A](M901A.md), [M905B](M905B.md), [M908](M908.md) · 3 drawings by [SM](Person-SM.md)
 - **[94038](Job-94038.md)** — project
-- **[940410](Job-940410.md)** — project · 1 drawings by [SM](Person-SM.md)
+- **[940410](Job-940410.md)** — CJIB VERNON - RENAISSANCE MKII STEREO AUDIO CONSOLE · 1 drawings by [SM](Person-SM.md)
 - **[940425](Job-940425.md)** — Rogers Broadcasting Custom Turret Project Turret Project
 - **[940443](Job-940443.md)** — project · 15 drawings by [DRG](Person-DRG.md), [IFB](Person-IFB.md), [WKW](Person-WKW.md)
-- **[940444](Job-940444.md)** — WBZ · modules [M901BY](M901BY.md), [M901CY](M901CY.md), [M907](M907.md), [M908](M908.md), [M909](M909.md), [M924](M924.md) · 46 drawings by [DRG](Person-DRG.md), [PAS](Person-PAS.md), [SM](Person-SM.md)
-- **[940446](Job-940446.md)** — project · 6 drawings by [DRG](Person-DRG.md), [WBZ](Person-WBZ.md)
-- **[940447](Job-940447.md)** — project · 3 drawings by [PAS](Person-PAS.md), [DRG](Person-DRG.md)
-- **[940448](Job-940448.md)** — project · 2 drawings by [DRC](Person-DRC.md)
+- **[940444](Job-940444.md)** — WBZ BOSTON - CONTROL ROOM RENAISSANCE MKI NEWS AIR STUDIO · modules [M901BY](M901BY.md), [M901CY](M901CY.md), [M907](M907.md), [M908](M908.md), [M909](M909.md), [M924](M924.md) · 46 drawings by [DRG](Person-DRG.md), [PAS](Person-PAS.md), [SM](Person-SM.md)
+- **[940446](Job-940446.md)** — WBZ BOSTON - NEWS EDIT BOOTH RENAISSANCE MKI STEREO AUDIO CONSOLE · 6 drawings by [DRG](Person-DRG.md), [WBZ](Person-WBZ.md)
+- **[940447](Job-940447.md)** — WBZ BOSTON - CONTROL ROOM RENAISSANCE MKII STEREO AUDIO CONSOLE · 3 drawings by [PAS](Person-PAS.md), [DRG](Person-DRG.md)
+- **[940448](Job-940448.md)** — WBZ BOSTON - TAPE OPS RENAISSANCE MKII STEREO AUDIO CONSOLE · 2 drawings by [DRC](Person-DRC.md)
 - **[940449](Job-940449.md)** — WBZ Boston Radio Control Turrets Project No · 8 drawings by [DRG](Person-DRG.md), [DRC](Person-DRC.md)
 - **[94052](Job-94052.md)** — project
 - **[94054](Job-94054.md)** — project · 2 drawings
@@ -300,31 +397,33 @@ The timeline is built from **projects**: every job / serial number, dated by its
 ### [1995|28](Year-1995.md)
 
 - **[950006](Job-950006.md)** — project · 1 drawings by BBS
-- **[950049](Job-950049.md)** — project · 1 drawings
+- **[950009](Job-950009.md)** — CBC - RENAISSANCE MKII STEREO AUDIO CONSOLE
+- **[950049](Job-950049.md)** — CBC ENGINEERING HEADQUARTERS - 24 X 36 MiniCOM INTERCOM SYSTEM · 1 drawings
 - **[950069](Job-950069.md)** — CBc Toronto Machine and Logo Control Panel · 2 drawings by [DRC](Person-DRC.md), [DRG](Person-DRG.md)
+- **[950089](Job-950089.md)** — SHAW RADIO - RENAISSANCE MKII STEREO AUDIO CONSOLE
 - **[95012](Job-95012.md)** — project · 2 drawings
-- **[950125](Job-950125.md)** — project · 1 drawings
+- **[950125](Job-950125.md)** — WBZ RADIO - 7000 INTERCOM MATRIX · 1 drawings
 - **[95014](Job-95014.md)** — project · 3 drawings by [DRC](Person-DRC.md), [SM](Person-SM.md)
 - **[950144](Job-950144.md)** — project · 2 drawings by [SM](Person-SM.md)
 - **[95015](Job-95015.md)** — project · 1 drawings by [DRG](Person-DRG.md)
-- **[950177](Job-950177.md)** — project · 2 drawings by [DRG](Person-DRG.md), MOD
-- **[950190](Job-950190.md)** — project · 3 drawings by [DRC](Person-DRC.md), [SM](Person-SM.md), [DRG](Person-DRG.md)
+- **[950177](Job-950177.md)** — CIMF-FM - RENAISSANCE MKIII STEREO AUDIO CONSOLE · 2 drawings by [DRG](Person-DRG.md), MOD
+- **[950190](Job-950190.md)** — CKRA EDMONTON - RENAISSANCE MKII STEREO AUDIO CONSOLE · 3 drawings by [DRC](Person-DRC.md), [SM](Person-SM.md), [DRG](Person-DRG.md)
 - **[95020](Job-95020.md)** — project · 2 drawings by TCN, [DRC](Person-DRC.md)
 - **[950208](Job-950208.md)** — project · 1 drawings by [DRC](Person-DRC.md)
 - **[95021](Job-95021.md)** — project · 1 drawings by WR
-- **[950224](Job-950224.md)** — project · 3 drawings by [WKW](Person-WKW.md)
-- **[950225](Job-950225.md)** — project · 1 drawings by [WKW](Person-WKW.md)
-- **[950226](Job-950226.md)** — project · 1 drawings by [WK](Person-WK.md)
+- **[950224](Job-950224.md)** — FANSHAWE COLLEGE - RENAISSANCE MKII STEREO AUDIO CONSOLE · 3 drawings by [WKW](Person-WKW.md)
+- **[950225](Job-950225.md)** — YBC HOLDINGS - RENAISSANCE MKII STEREO AUDIO CONSOLE · 1 drawings by [WKW](Person-WKW.md)
+- **[950226](Job-950226.md)** — MOTOROLA - 48x48 MicroCOM II COMMUNICATIONS SYSTEM · modules [microCOM II](microCOM-II.md) · 1 drawings by [WK](Person-WK.md)
 - **[95023](Job-95023.md)** — CJAD · 2 drawings by [DRG](Person-DRG.md)
 - **[95024](Job-95024.md)** — project · 2 drawings by [DRG](Person-DRG.md)
-- **[950250](Job-950250.md)** — project · 2 drawings by [DRG](Person-DRG.md)
-- **[950271](Job-950271.md)** — project · 10 drawings by [WKW](Person-WKW.md), [DRG](Person-DRG.md), MRT
+- **[950250](Job-950250.md)** — KKLZ - FM - RENAISSANCE MKII STEREO AUDIO CONSOLE · 2 drawings by [DRG](Person-DRG.md)
+- **[950271](Job-950271.md)** — ALGONQUIN COLLEGE - 48X48 MicroCOM II COMMUNICATIONS SYSTEM · modules [microCOM II](microCOM-II.md) · 10 drawings by [WKW](Person-WKW.md), [DRG](Person-DRG.md), MRT
 - **[950272](Job-950272.md)** — TTC · 3 drawings by [MKW](Person-MKW.md), [WKW](Person-WKW.md)
 - **[950278](Job-950278.md)** — project · 2 drawings by [DRG](Person-DRG.md), [WKW](Person-WKW.md)
 - **[95033](Job-95033.md)** — project · 4 drawings by [DRG](Person-DRG.md), [CBC](Person-CBC.md)
-- **[950341](Job-950341.md)** — project · 3 drawings by [DRG](Person-DRG.md)
+- **[950341](Job-950341.md)** — SONY OF CANADA LTD. - 24 X 36 MiniCOM INTERCOM SYSTEM · 3 drawings by [DRG](Person-DRG.md)
 - **[950351](Job-950351.md)** — project · modules [M8201](M8201.md) · 2 drawings by [WKW](Person-WKW.md)
-- **[950361](Job-950361.md)** — project · 1 drawings by [WKW](Person-WKW.md)
+- **[950361](Job-950361.md)** — ROGERS BROADCASTING LTD. - RENAISSANCE MKI · 1 drawings by [WKW](Person-WKW.md)
 - **[950362](Job-950362.md)** — project · 4 drawings by [DRC](Person-DRC.md)
 - **[950382](Job-950382.md)** — , TV-3 NETWORK SERVICES LTD. MINICOM COMMUNICATIONS SYSTEMS
 - **[950410](Job-950410.md)** — , CBC MONTREAL CUSTOM UTILITY AMPLIFIER · 2 drawings
@@ -334,18 +433,21 @@ The timeline is built from **projects**: every job / serial number, dated by its
 
 - **[96002](Job-96002.md)** — CFNY · modules [M808C](M808C.md), [M8208](M8208.md) · 4 drawings by [DRG](Person-DRG.md)
 - **[96004](Job-96004.md)** — project · 1 drawings
-- **[960077](Job-960077.md)** — project · 7 drawings by [DRG](Person-DRG.md)
+- **[960043](Job-960043.md)** — Rawlco Communications - Renaissance MKII
+- **[960077](Job-960077.md)** — CFNY RADIO - CUSTOM RENAISSANCE MKII · 7 drawings by [DRG](Person-DRG.md)
 - **[96010](Job-96010.md)** — project · 2 drawings by [DRG](Person-DRG.md)
 - **[960121](Job-960121.md)** — project
-- **[960134](Job-960134.md)** — project · 2 drawings by [GEB (Gerry E. Bell)](Person-GEB.md)
+- **[960134](Job-960134.md)** — COMPLETE POST - 96x96 MicroCOM II COMMUNICATIONS SYSTEM · modules [microCOM II](microCOM-II.md) · 2 drawings by [GEB (Gerry E. Bell)](Person-GEB.md)
 - **[960140](Job-960140.md)** — project · 1 drawings by [SM](Person-SM.md)
-- **[960163](Job-960163.md)** — CBC OTTAWA · 4 drawings by [DRG](Person-DRG.md), [DBS](Person-DBS.md)
+- **[960162](Job-960162.md)** — CJCB RADIO - RENAISSANCE MKII RADIO CONSOLE
+- **[960163](Job-960163.md)** — CBC OTTAWA PARLIAMENTARY BUREAU - 48x96 MicroCOM II COMMUNICATIONS SYSTEM · modules [microCOM II](microCOM-II.md) · 4 drawings by [DRG](Person-DRG.md), [DBS](Person-DBS.md)
 - **[96017](Job-96017.md)** — project · 1 drawings by [DRG](Person-DRG.md)
+- **[960188](Job-960188.md)** — CIMF RADIO - RENAISSANCE MKIII RADIO CONSOLE
 - **[96019](Job-96019.md)** — project · 9 drawings by [DRG](Person-DRG.md), [DRC](Person-DRC.md)
 - **[960191](Job-960191.md)** — project · 3 drawings by [DRG](Person-DRG.md)
 - **[960195](Job-960195.md)** — CBC · 4 drawings by [DRC](Person-DRC.md)
 - **[960196](Job-960196.md)** — project · modules [M7885A](M7885A.md) · 1 drawings
-- **[960208](Job-960208.md)** — project · 2 drawings by [DRG](Person-DRG.md)
+- **[960208](Job-960208.md)** — CHIQ RADIO - RENAISSANCE MKII RADIO CONSOLE · 2 drawings by [DRG](Person-DRG.md)
 - **[960243](Job-960243.md)** — project · 6 drawings by [DRG](Person-DRG.md)
 - **[960244](Job-960244.md)** — project · 1 drawings by [DRG](Person-DRG.md)
 - **[960269](Job-960269.md)** — CBC Engineering Utility Frame Project No
@@ -353,6 +455,7 @@ The timeline is built from **projects**: every job / serial number, dated by its
 - **[960312](Job-960312.md)** — project · 2 drawings by [DRG](Person-DRG.md)
 - **[960325](Job-960325.md)** — , CBC EHQ CUSTOM IFB MATRIX SYSTEM · 3 drawings by [DRG](Person-DRG.md)
 - **[960366](Job-960366.md)** — project · 1 drawings by [DRG](Person-DRG.md)
+- **[960370](Job-960370.md)** — TORONTO CHINESE RADIO - RENAISSANCE MKII RADIO CONSOLE
 - **[960525](Job-960525.md)** — project · 1 drawings by [DRG](Person-DRG.md)
 - _first documented: [M445](M445.md), [M701D](M701D.md), [M702D](M702D.md), [M802C](M802C.md), [M809C](M809C.md), [M921](M921.md)_
 
@@ -361,6 +464,7 @@ The timeline is built from **projects**: every job / serial number, dated by its
 - **[970029](Job-970029.md)** — , ONTARIO JOCKEY CLUB CUSTOM CONTROL PANEL · 2 drawings by [DRG](Person-DRG.md)
 - **[970042](Job-970042.md)** — , TELEMEDIA CJRQ SUPPLEMENT MANUAL
 - **[970043](Job-970043.md)** — , TELEMEDIA CFMG SUPPLEMENT MANUAL
+- **[970081](Job-970081.md)** — SHOWCASE TELEVISION INC. - 24x36 MiniCOM INTERCOM SYSTEM
 - **[970082](Job-970082.md)** — , ENERGY 108-CING SUPPLEMENT MANUAL
 - **[970177](Job-970177.md)** — CBC · 2 drawings by [DRG](Person-DRG.md)
 - **[970245](Job-970245.md)** — project · 2 drawings by [DRG](Person-DRG.md)

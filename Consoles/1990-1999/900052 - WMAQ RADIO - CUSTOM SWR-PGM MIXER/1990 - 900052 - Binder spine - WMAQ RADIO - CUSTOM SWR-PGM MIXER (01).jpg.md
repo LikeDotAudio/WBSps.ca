@@ -1,0 +1,26 @@
+# 1990 - 900052 - Binder spine - WMAQ RADIO - CUSTOM SWR-PGM MIXER (01).jpg
+
+Wiki page: [Job-900052](../../../PAGES/Job-900052.md)
+
+- **Year:** 1990 (job number)
+- **Job / serial number:** 900052
+- **On the spine:** WMAQ RADIO - CUSTOM SWR-PGM MIXER
+- **What it is:** a photograph of the job's binder on the shelf
+
+- **Original file:** `WBSps.env/Binder Spines/900052 - WMAQ RADIO - CUSTOM SWR-PGM MIXER (01).jpg`
+- **SHA-256:** `120ac7129197526089ada15216b4dba9a18039e946719359e511fe0ea7447257`
+- **Size:** 1,091,302 bytes
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Consoles/1990-1999/900052 - WMAQ RADIO - CUSTOM SWR-PGM MIXER/1990 - 900052 - Binder spine - WMAQ RADIO - CUSTOM SWR-PGM MIXER (01).jpg",
+ "sha256": "120ac7129197526089ada15216b4dba9a18039e946719359e511fe0ea7447257",
+ "kind": "job",
+ "models": [
+  "900052"
+ ],
+ "year": 1990
+}
+```

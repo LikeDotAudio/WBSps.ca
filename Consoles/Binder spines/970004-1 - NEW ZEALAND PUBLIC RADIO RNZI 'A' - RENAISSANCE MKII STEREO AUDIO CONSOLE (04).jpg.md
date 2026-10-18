@@ -1,0 +1,16 @@
+# 970004-1 - NEW ZEALAND PUBLIC RADIO RNZI 'A' - RENAISSANCE MKII STEREO AUDIO CONSOLE (04).jpg
+
+
+- **Original file:** `WBSps.env/Binder Spines/970004-1 - NEW ZEALAND PUBLIC RADIO RNZI 'A' - RENAISSANCE MKII STEREO AUDIO CONSOLE (04).jpg`
+- **SHA-256:** `7c5a0b76e1186a4be6dfa0ea040cee8c5008a463bd747340270933b3a291d5df`
+- **Size:** 88,359 bytes
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Consoles/Binder spines/970004-1 - NEW ZEALAND PUBLIC RADIO RNZI 'A' - RENAISSANCE MKII STEREO AUDIO CONSOLE (04).jpg",
+ "sha256": "7c5a0b76e1186a4be6dfa0ea040cee8c5008a463bd747340270933b3a291d5df",
+ "kind": "doc"
+}
+```

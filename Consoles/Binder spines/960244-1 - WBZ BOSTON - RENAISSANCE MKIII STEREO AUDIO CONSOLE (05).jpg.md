@@ -1,0 +1,16 @@
+# 960244-1 - WBZ BOSTON - RENAISSANCE MKIII STEREO AUDIO CONSOLE (05).jpg
+
+
+- **Original file:** `WBSps.env/Binder Spines/960244-1 - WBZ BOSTON - RENAISSANCE MKIII STEREO AUDIO CONSOLE (05).jpg`
+- **SHA-256:** `dbff042598458c216a2ace358a18bbcb130b16a3927685e502b3b45725446283`
+- **Size:** 1,055,983 bytes
+
+## Contents (JSON)
+
+```json
+{
+ "file": "Consoles/Binder spines/960244-1 - WBZ BOSTON - RENAISSANCE MKIII STEREO AUDIO CONSOLE (05).jpg",
+ "sha256": "dbff042598458c216a2ace358a18bbcb130b16a3927685e502b3b45725446283",
+ "kind": "doc"
+}
+```
