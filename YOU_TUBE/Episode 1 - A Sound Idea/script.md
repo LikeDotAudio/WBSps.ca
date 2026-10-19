@@ -72,7 +72,7 @@
 **VO:** In 1968 and 1969 the processing cards arrive: the M402A effects equalizer, the M404A high- and low-pass filter, the M406 compressor-limiter, the M412 oscillator, the M424S patch bay. These are the tools a film mixer or a TV audio operator would reach for, built one card at a time.
 
 - Slide 23: [M402A effects equalizer](https://drive.google.com/file/d/0B0yR0b5T78SKajYyd19oT19IalU/view?resourcekey=0-3MPdWGpsK3xmfQ3VqYGakw)
-- Slide 24: [M406B compressor-limiter data sheet](https://drive.google.com/file/d/0B0yR0b5T78SKRklla1RvTm11Qnc/view?resourcekey=0-XGLx69fhjRMBZHz7S4Kiag)
+- Slide 24: **Cross-fade: drawing to module**, M402A: from the drawing to the module: [1968 - M402A - B 402-02-010 - M402A EFFECTS - EQUALIZER SCHEMATIC.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKU3R3bF9SRmFoSHM/view?resourcekey=0-c5kdnCiKmyVozubBun8jlg) → [1968 - M402A - Archived - wbsps - promo - m402a eq - 005.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKajYyd19oT19IalU/view?resourcekey=0-3MPdWGpsK3xmfQ3VqYGakw)
 
 ### 1.8 Inside the M402A
 
@@ -81,29 +81,29 @@
 - Slide 26: [M402A equalizer schematic, drawing 402-02-010, 1968](https://drive.google.com/file/d/0B0yR0b5T78SKU3R3bF9SRmFoSHM/view?resourcekey=0-c5kdnCiKmyVozubBun8jlg) · layer lift
 - Slide 27: [Circuit description page from the M402A manual](https://drive.google.com/file/d/0B0yR0b5T78SKUEdqUUUxUjZuRGs/view?resourcekey=0-cp6aG9BdM0U5VCxt1hKQTQ)
 - Slide 28: [The M402A equalizer module](https://drive.google.com/file/d/0B0yR0b5T78SKRDQyVndycDBDTWc/view?resourcekey=0-QYRe9jIm0aXjAZX51ypKvA)
-- Slide 29: [M612 · Img_3290 · 1977|10](https://drive.google.com/file/d/0B0yR0b5T78SKMkg3d1g0REdxWlk/view?resourcekey=0-P29FdEHWOwgCMfb7Hh_-Ow) _(pulled from the archive)_
-- Slide 30: [1967-1969 · Img_4394 · 1967|0](https://drive.google.com/file/d/0B0yR0b5T78SKLTBpVDc3NE9pNjg/view?resourcekey=0-ozdDad6NLIazF73SYE1AoA) _(pulled from the archive)_
-- Slide 31: [brochure 001 · 002](https://drive.google.com/file/d/0B0yR0b5T78SKNE9xclZuaUFkdkk/view?resourcekey=0-Yhwe60TUwDyPOgbaPVNJyg) _(pulled from the archive)_
-- Slide 32: [M612 · Img_3291 · 1977|10](https://drive.google.com/file/d/0B0yR0b5T78SKZTI0MmtHRGF1UjA/view?resourcekey=0-zc2Jo3kQfjI2IpUYIkHOyw) _(pulled from the archive)_
+- Slide 29: **Triple-up**, M402A: [Ward Beck Systems M402A 4.jpg](#) · [wbsps - module - m402a eq - 002.jpg](#) · [wbsps - promo - m402a eq - 002.jpg](#)
+- Slide 30: [M612 · Img_3290 · 1977|10](https://drive.google.com/file/d/0B0yR0b5T78SKMkg3d1g0REdxWlk/view?resourcekey=0-P29FdEHWOwgCMfb7Hh_-Ow) _(pulled from the archive)_
+- Slide 31: [1967-1969 · Img_4394 · 1967|0](https://drive.google.com/file/d/0B0yR0b5T78SKLTBpVDc3NE9pNjg/view?resourcekey=0-ozdDad6NLIazF73SYE1AoA) _(pulled from the archive)_
+- Slide 32: [brochure 001 · 002](https://drive.google.com/file/d/0B0yR0b5T78SKNE9xclZuaUFkdkk/view?resourcekey=0-Yhwe60TUwDyPOgbaPVNJyg) _(pulled from the archive)_
 
 ### 1.9 Inside the M406B
 
 **VO:** Next in the channel came dynamics. The M406B compressor-limiter shared the slim console-panel format of the equalizers and ran from the same forty-eight volt regulated supply, holding program level within bounds. Its gain cell is unusual. A transistor is switched fully on and off at about seven hundred and fifty kilohertz, far above the audio band, and the ratio of on-time to off-time sets the attenuation; a low-pass filter then recovers the audio. A comparator builds that pulse from a sawtooth and a control voltage, made by rectifying the program and storing it on a capacitor, with the recovery rate chosen by switch. A field-effect transistor buffers that voltage and drives the gain-reduction meter. The operator got slopes from two to one through ten to one, a limit position beyond twenty to one, and up to eight decibels of de-essing.
 
 - Slide 34: [M406B compressor schematic, 1969](https://drive.google.com/file/d/1ZW7WEzyC340rOKXubBQ6AbNiBKe2PAvR/view)
-- Slide 35: [M406B circuit description, page one](https://drive.google.com/file/d/0B0yR0b5T78SKZGV0Ym91T3F4dk0/view?resourcekey=0-6_eE0ivHGZ3_BAj7d07J1g)
-- Slide 36: [M406B circuit description, page two: the 750 kilohertz pulse-width gain control](https://drive.google.com/file/d/0B0yR0b5T78SKRUhJb2Y2YzFpNUE/view?resourcekey=0-lGDFB_4M4RcRsdYTRdSZWw)
-- Slide 37: [The M406B compressor-limiter](https://drive.google.com/file/d/0B0yR0b5T78SKYjRFMVpJNGJQM2s/view?resourcekey=0-yLWzCT5Akq-9bOaUTploBQ)
-- Slide 38: [1967-1969 · Img_4395 · 1967|0](https://drive.google.com/file/d/0B0yR0b5T78SKblBYMnFybzVYN3c/view?resourcekey=0-THWllOaCxRCZ--i9Y6qKhA) _(pulled from the archive)_
-- Slide 39: [brochure 001 · 003](https://drive.google.com/file/d/0B0yR0b5T78SKLTZFVThJWFUyVDg/view?resourcekey=0-c6cZeyhbKf4gN08eu-kmBA) _(pulled from the archive)_
-- Slide 40: [M612 · Img_3292 · 1977|10](https://drive.google.com/file/d/0B0yR0b5T78SKOVplTDZEUm13SHc/view?resourcekey=0-KwrPcNDMB3r2GlfGTuMu4A) _(pulled from the archive)_
+- Slide 35: **Cross-fade: drawing to module**, M406B: from the drawing to the module: [1968 - B 406-02--13 - COMPRESSOR SCHEMATIC CEILING CONTROL MODIFIED - ISS 2.png](#) → [1969 - M406B - wbsps - promo - m406b comp - 003.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKai0xNHFHNlFsTVE/view?resourcekey=0-MfoBaFmgOh-cyP0bD6qV8g)
+- Slide 36: [M406B circuit description, page one](https://drive.google.com/file/d/0B0yR0b5T78SKZGV0Ym91T3F4dk0/view?resourcekey=0-6_eE0ivHGZ3_BAj7d07J1g)
+- Slide 37: [M406B circuit description, page two: the 750 kilohertz pulse-width gain control](https://drive.google.com/file/d/0B0yR0b5T78SKRUhJb2Y2YzFpNUE/view?resourcekey=0-lGDFB_4M4RcRsdYTRdSZWw)
+- Slide 38: [The M406B compressor-limiter](https://drive.google.com/file/d/0B0yR0b5T78SKYjRFMVpJNGJQM2s/view?resourcekey=0-yLWzCT5Akq-9bOaUTploBQ)
+- Slide 39: **Triple-up**, M406B: [Archived - wbsps - promo - m406b comp - 002.jpg](#) · [Ward Beck Systems M406B 2.jpg](#) · [wbsps - module - m406b comp - back(1).jpg](#)
+- Slide 40: [M612 · Img_3291 · 1977|10](https://drive.google.com/file/d/0B0yR0b5T78SKZTI0MmtHRGF1UjA/view?resourcekey=0-zc2Jo3kQfjI2IpUYIkHOyw) _(pulled from the archive)_
 
 ### 1.10 The 600 series: amplifiers for the whole plant
 
 **VO:** Consoles are one part of a station. Behind the wall are distribution amplifiers, monitor amps and line amps. From 1970 the 600 series filled that rack: the M600 universal amplifier, the M605 distribution amp, the M610 ten-watt monitor amp, and later the M612 and the hundred-watt M666. The ad promised 'everything that 1972's state-of-the-art makes possible'.
 
 - Slide 42: ['WBS M600 Series Audio Modules' ad](https://drive.google.com/file/d/0B0yR0b5T78SKSEwzdkNydVhib2M/view?resourcekey=0-hxZh85g48i2x-0bWlSuTXQ)
-- Slide 43: [M600 universal amplifier](https://drive.google.com/file/d/0B0yR0b5T78SKMlBTTHBsWHRBeXM/view?resourcekey=0-SezfuZR9kZhUujDW4kn3SA)
+- Slide 43: **Cross-fade: drawing to module**, M600: from the drawing to the module: [1970 - M600 - 00-02-012 - AUDIO AMPLIFIER TYPICAL SYSTEM WIRING SCHEMATIC.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKVUE1cjlEY0FjSWM/view?resourcekey=0-fzJb7NeGk6EUYvhmwS6yEQ) → [1970 - M600 - wbsps - promo - m600 - 003.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKTThlaDhGVlFBeUE/view?resourcekey=0-HNG5AoIdprZxVSi4iQRRmQ)
 
 ### 1.11 Inside the M600
 
@@ -112,16 +112,16 @@
 - Slide 45: [M600 audio amplifier schematic, drawing 600-02-010](#) · layer lift
 - Slide 46: [M600 circuit description page, 1970](https://drive.google.com/file/d/0B0yR0b5T78SKN1B4eVV4dlM5ZEU/view?resourcekey=0-BKeiz8pvj8zD7-Wv8MOQTQ)
 - Slide 47: [The M600 universal amplifier](https://drive.google.com/file/d/0B0yR0b5T78SKWmFCc1F0QVI3SUE/view?resourcekey=0-VYudnE311AFjTZouFHIF4Q)
-- Slide 48: [1967-1969 · Img_4396 · 1967|0](https://drive.google.com/file/d/0B0yR0b5T78SKbGJGVHYwQy1hU1k/view?resourcekey=0-bZ9clRnL3g5owpbfvszfKQ) _(pulled from the archive)_
-- Slide 49: [brochure 001 · 004](https://drive.google.com/file/d/0B0yR0b5T78SKdFVoa1RQMWJJeVE/view?resourcekey=0-K6ivNDX3fszMqJifBJtJTw) _(pulled from the archive)_
-- Slide 50: [M612 · Img_3293 · 1977|10](https://drive.google.com/file/d/0B0yR0b5T78SKOUdHTE1SQ19iU1E/view?resourcekey=0-O4XzwFV4pAxCa-YYu_4JGw) _(pulled from the archive)_
+- Slide 48: **Triple-up**, M600: [Ward Beck Systems M600 b.jpg](#) · [wbsps - promo - m600 - 002.jpg](#) · [19xx - M600 - M600 (2).jpg](#)
+- Slide 49: [1967-1969 · Img_4395 · 1967|0](https://drive.google.com/file/d/0B0yR0b5T78SKblBYMnFybzVYN3c/view?resourcekey=0-THWllOaCxRCZ--i9Y6qKhA) _(pulled from the archive)_
+- Slide 50: [brochure 001 · 003](https://drive.google.com/file/d/0B0yR0b5T78SKLTZFVThJWFUyVDg/view?resourcekey=0-c6cZeyhbKf4gN08eu-kmBA) _(pulled from the archive)_
 
 ### 1.12 Power supplies
 
 **VO:** Every frame needs clean power. The M624 is dated to 1968, the M648 to 1970, the M628 runs the intercoms, and the M625A follows in 1978. Power supplies show up on more drawings than almost anything else in the archive. They're the least glamorous cards and some of the most important.
 
 - Slide 52: [M648 power supplies](https://drive.google.com/file/d/0B0yR0b5T78SKRWJOVE81Y1VyNFE/view?resourcekey=0-eun-KzEoIH07L4e0G6SXhQ)
-- Slide 53: [M624 · 624-02-001 · Power Supply M624 Schematic · Drn C.S.O'Connell · Iss 1 · 1968|1](#) _(pulled from the archive)_ · layer lift
+- Slide 53: **Cross-fade: drawing to module**, M648: from the drawing to the module: [1970 - M648 - 648-02-002 - POWER SUPPLY SCHEMATIC.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKbUx3VVl0cFdBS3M/view?resourcekey=0-URWredUo6z43TmZw-IOb2w) → [1970 - M648 - IMG_0899.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKRWJOVE81Y1VyNFE/view?resourcekey=0-eun-KzEoIH07L4e0G6SXhQ)
 
 ### 1.13 The technology: their own iron, and solid-state switching
 
@@ -154,12 +154,12 @@
 - Slide 71: ['a full-length padded vinyl armrest' and $49,250](#)
 - Slide 72: [Five weeks, eighteen weeks, 20/70/10](#)
 - Slide 73: [72032: typical input system, drawn by Gerry E. Bell](#) · layer lift
-- Slide 74: [1967-1969 · Img_4397 · 1967|0](https://drive.google.com/file/d/0B0yR0b5T78SKZHdfb1B2dVZDbGc/view?resourcekey=0-yfMw27Ck2F_cgjXOYW1EvQ) _(pulled from the archive)_
-- Slide 75: [brochure 001 · 005](https://drive.google.com/file/d/0B0yR0b5T78SKdll1NEFlNmRKVU0/view?resourcekey=0-DoKEpQVgzpvkKpXSLhu0Bw) _(pulled from the archive)_
-- Slide 76: [M612 · Img_3294 · 1977|10](https://drive.google.com/file/d/0B0yR0b5T78SKNWVZS28yWVB6TzA/view?resourcekey=0-Rk0UpB8z809Ig8x1cfWvwA) _(pulled from the archive)_
-- Slide 77: [1967-1969 · Img_4398 · 1967|0](https://drive.google.com/file/d/0B0yR0b5T78SKUlZRRnpOdUM2S0U/view?resourcekey=0-HhhHo3pJng_qcijGqVsqTQ) _(pulled from the archive)_
-- Slide 78: [brochure 001 · 006](https://drive.google.com/file/d/0B0yR0b5T78SKZWdNZ1AwbjZIZzQ/view?resourcekey=0-KNctEZqbX4q0GLobJipG0Q) _(pulled from the archive)_
-- Slide 79: [M612 · Img_3295 · 1977|10](https://drive.google.com/file/d/0B0yR0b5T78SKSjVpN2N6TE1EUHc/view?resourcekey=0-NSeYIvx9PIt_OVkWkr_kTQ) _(pulled from the archive)_
+- Slide 74: [M612 · Img_3292 · 1977|10](https://drive.google.com/file/d/0B0yR0b5T78SKOVplTDZEUm13SHc/view?resourcekey=0-KwrPcNDMB3r2GlfGTuMu4A) _(pulled from the archive)_
+- Slide 75: [1967-1969 · Img_4396 · 1967|0](https://drive.google.com/file/d/0B0yR0b5T78SKbGJGVHYwQy1hU1k/view?resourcekey=0-bZ9clRnL3g5owpbfvszfKQ) _(pulled from the archive)_
+- Slide 76: [brochure 001 · 004](https://drive.google.com/file/d/0B0yR0b5T78SKdFVoa1RQMWJJeVE/view?resourcekey=0-K6ivNDX3fszMqJifBJtJTw) _(pulled from the archive)_
+- Slide 77: [M612 · Img_3293 · 1977|10](https://drive.google.com/file/d/0B0yR0b5T78SKOUdHTE1SQ19iU1E/view?resourcekey=0-O4XzwFV4pAxCa-YYu_4JGw) _(pulled from the archive)_
+- Slide 78: [1967-1969 · Img_4397 · 1967|0](https://drive.google.com/file/d/0B0yR0b5T78SKZHdfb1B2dVZDbGc/view?resourcekey=0-yfMw27Ck2F_cgjXOYW1EvQ) _(pulled from the archive)_
+- Slide 79: [brochure 001 · 005](https://drive.google.com/file/d/0B0yR0b5T78SKdll1NEFlNmRKVU0/view?resourcekey=0-DoKEpQVgzpvkKpXSLhu0Bw) _(pulled from the archive)_
 
 ### 1.16 On the move
 
