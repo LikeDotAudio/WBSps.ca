@@ -16,6 +16,106 @@ Wiki page: [M624](../../../PAGES/M624.md)
 
 - **1979** (manual_issue): `MANUAL ISSUE #1 OCTOBER 1979` — …List I-1 2-1 3-1 4_1 Drawings M624 Schematic LB 624-02-001 MANUAL ISSUE #1 OCTOBER 1979…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1416 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 169–306 mm across, 3–432 mm up
+- **Outlines:** line 22 rings, 1,584 straight (5,699 mm) / 74 curved (132 mm); text 50 rings, 1,224 straight (4,243 mm) / 129 curved (221 mm)
+- **Words (OCR):** 13 in 13 lines: WBS · WBS · WBS · WBS · WBS · WBS · WBS · WBS · M624 · POWER · SUPPLY · WBS
+- **Title block:** (172, 0)–(281, 431) mm: WBS · WBS · WBS · WBS · WBS · WBS · WBS · WBS · M624 · POWER · SUPPLY · WBS · WBS
+
+Every curve, box, word and wire group: [1979 - M624 - Power Supply p1 (traced).json](1979%20-%20M624%20-%20Power%20Supply%20p1%20%28traced%29.json) (the CAD file: `1979 - M624 - Power Supply p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 308 × 432 mm, 1425 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 15–290 mm across, 24–411 mm up
+- **Outlines:** line 5 rings, 558 straight (2,416 mm) / 67 curved (108 mm); text 126 rings, 1,440 straight (1,987 mm) / 309 curved (515 mm); tb 2 rings, 101 straight (303 mm) / 2 curved (2.4 mm)
+- **Words (OCR):** 11 in 7 lines: WAAD-BECK · SystemS LTD_ · WBS 041 PAOGACSS AVENUE, SCARBOAOUGH ONTARIO M1H 2X4 · TeLEX: 065-25389 · TELEPHOINVE; 418/430-G550 · M624 · POWER SUPPLY
+- **Title block:** (31, 385)–(249, 420) mm: WAAD-BECK · SystemS LTD_ · WBS 041 PAOGACSS AVENUE, SCARBOAOUGH ONTARIO M1H 2X4 · TeLEX: 065-25389 · TELEPHOINVE; 418/430-G550
+
+Every curve, box, word and wire group: [1979 - M624 - Power Supply p2 (traced).json](1979%20-%20M624%20-%20Power%20Supply%20p2%20%28traced%29.json) (the CAD file: `1979 - M624 - Power Supply p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** schematic 624-02-001, size B (assumed) 308 × 432 mm, 1425 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 16–308 mm across, 21–432 mm up
+- **Outlines:** line 14 rings, 665 straight (2,925 mm) / 83 curved (134 mm); text 254 rings, 2,042 straight (2,535 mm) / 518 curved (797 mm)
+- **Centre lines:** 1,029 paths (34 closed); straight 3,020 mm, curved 8.5 mm; horizontal 1,085 mm, vertical 1,084 mm, diagonal 851 mm
+- **Circles and arcs:** 0 circles, 2 arcs
+- **Words (OCR):** 31 in 21 lines: WAAD-BECK SystemS LTD · TABLE OF CONTENTS · M624 POWER · SUPPLY · SECTION · PAGE · Warranty · Technical Data · I-1 · circuit · Description · 2-1
+- **Wiring (first pass):** 7 connected wire groups from 22 runs; labelled ends: 67 mm → TABLE, M624, CONTENTS, SUPPLY; 53 mm → MANUAL, OCTOBER, USSUE; 35 mm → POWER, SUPPLY; 30 mm → M624, POWER
+
+Every curve, box, word and wire group: [1979 - M624 - Power Supply p3 (traced).json](1979%20-%20M624%20-%20Power%20Supply%20p3%20%28traced%29.json) (the CAD file: `1979 - M624 - Power Supply p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 308 × 432 mm, 1425 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 16–308 mm across, 32–432 mm up
+- **Outlines:** line 27 rings, 485 straight (2,754 mm) / 81 curved (127 mm); text 2,036 rings, 14,318 straight (15,346 mm) / 4,262 curved (6,277 mm); tb 52 rings, 380 straight (636 mm) / 96 curved (139 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.5 @ (91.2, 82.0)
+- **Words (OCR):** 262 in 156 lines: WARD-BECK SYStemS LTD; · WBS 841 PAOGAESS AVENUE, SCAADOROUGH ONTAAIO · TELEX 065 35799 · TELEPHONE · W A R R A N T Y · AlI · Ward-Beck Systems · Ltd, , products Are · warranied · against · workmanship for · period of one
+- **Title block:** (26, 83)–(248, 422) mm: WARD-BECK SYStemS LTD; · WBS 841 PAOGAESS AVENUE, SCAADOROUGH ONTAAIO · TELEX 065 35799 · TELEPHONE · W A R R A N T Y · AlI · Ward-Beck Systems · Ltd, , products Are · warranied · workmanship for · pe
+
+Every curve, box, word and wire group: [1979 - M624 - Power Supply p4 (traced).json](1979%20-%20M624%20-%20Power%20Supply%20p4%20%28traced%29.json) (the CAD file: `1979 - M624 - Power Supply p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 308 × 432 mm, 1425 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 14–308 mm across, 8–432 mm up
+- **Outlines:** line 30 rings, 664 straight (3,018 mm) / 90 curved (133 mm); text 451 rings, 3,351 straight (3,697 mm) / 937 curved (1,427 mm)
+- **Words (OCR):** 57 in 33 lines: WAAD-BECK SYSTEMS LTD_ · TECIINICAL DATA · M62h POWER SuPPLY · Output Voltage: · 22, 24, · 26 volts dc nominal · (two separate · outputs Independently · fused) · Current: · 1.5 ampere per output, · Load
+- **Title block:** (8, 403)–(116, 428) mm: WAAD-BECK SYSTEMS LTD_
+
+Every curve, box, word and wire group: [1979 - M624 - Power Supply p5 (traced).json](1979%20-%20M624%20-%20Power%20Supply%20p5%20%28traced%29.json) (the CAD file: `1979 - M624 - Power Supply p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 308 × 432 mm, 1425 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 16–308 mm across, 11–432 mm up
+- **Outlines:** line 17 rings, 621 straight (2,974 mm) / 70 curved (106 mm); text 1,450 rings, 10,488 straight (11,437 mm) / 2,953 curved (4,490 mm); tb 11 rings, 51 straight (59.3 mm) / 22 curved (26.9 mm)
+- **Words (OCR):** 192 in 89 lines: WARO-BECK systems LTD · CiRcuIT DESCRIPTION · M624 POWER SUPPLY · The M62/ power · supply is · designed primarily · for use · with the · equipment bul may · Ward-Beck 600 serics · be used for any · application
+- **Title block:** (9, 180)–(137, 421) mm: WARO-BECK systems LTD · The M62/ power · supply is · Ward-Beck 600 serics · requiring 24 volts · dc, such a5 · eIc . · Two independently · fuscd 24V , · selection of primary transformer · ment · of th
+
+Every curve, box, word and wire group: [1979 - M624 - Power Supply p6 (traced).json](1979%20-%20M624%20-%20Power%20Supply%20p6%20%28traced%29.json) (the CAD file: `1979 - M624 - Power Supply p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 308 × 432 mm, 1425 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 16–292 mm across, 12–411 mm up
+- **Outlines:** line 20 rings, 625 straight (2,764 mm) / 88 curved (137 mm); text 2,168 rings, 15,584 straight (17,064 mm) / 4,475 curved (6,627 mm); tb 11 rings, 79 straight (121 mm) / 17 curved (28.1 mm)
+- **Words (OCR):** 311 in 144 lines: WARD-BECK SystemS · LTD · ANSIALLATION · M624 POWER SUPPLY · The M624 · plugs directly into · the · MF6 mounting frame which may · bc in- · stalled in · standard EIA 19 inch · equipment rack with
+- **Title block:** (10, 147)–(178, 421) mm: WARD-BECK SystemS · LTD · ANSIALLATION · M624 POWER SUPPLY · The M624 · plugs directly into · the · stalled in · standard EIA 19 inch · supplied with · the rack. · The · MF6 · frame is furnished with 
+
+Every curve, box, word and wire group: [1979 - M624 - Power Supply p7 (traced).json](1979%20-%20M624%20-%20Power%20Supply%20p7%20%28traced%29.json) (the CAD file: `1979 - M624 - Power Supply p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 308 × 432 mm, 1425 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 15–292 mm across, 12–411 mm up
+- **Outlines:** line 8 rings, 558 straight (2,636 mm) / 72 curved (115 mm); text 387 rings, 3,007 straight (3,452 mm) / 867 curved (1,360 mm); tb 21 rings, 245 straight (643 mm) / 40 curved (55.6 mm)
+- **Words (OCR):** 59 in 45 lines: WAAD-BECK Systems LTD; · PARIS LIST · M624 POWER SUPPLY · NUMBER · PART DESCRIPTION · MFG · MFG PART · 4100 · uF/75 · C1 · Capacitor · Cornel/
+- **Title block:** (9, 174)–(227, 421) mm: WAAD-BECK Systems LTD; · PARIS LIST · M624 POWER SUPPLY · PART DESCRIPTION · MFG · MFG PART · 4100 · uF/75 · C1 · Capacitor · Cornel/ · FAH · CRI · Bridge Rectifier · EDI · PB6O · DSI · Indicator · La
+
+Every curve, box, word and wire group: [1979 - M624 - Power Supply p8 (traced).json](1979%20-%20M624%20-%20Power%20Supply%20p8%20%28traced%29.json) (the CAD file: `1979 - M624 - Power Supply p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** schematic 624-02-001, size B (assumed) 432 × 177 mm, 2000 × 819 px traced (0.216 mm/px)
+- **Ink extent:** 7–432 mm across, 0–152 mm up
+- **Outlines:** line 264 rings, 2,308 straight (4,406 mm) / 600 curved (906 mm); text 378 rings, 2,317 straight (2,485 mm) / 764 curved (1,036 mm); tb 36 rings, 337 straight (1,384 mm) / 52 curved (62.3 mm)
+- **Centre lines:** 3,592 paths (126 closed); straight 4,771 mm, curved 348 mm; horizontal 1,792 mm, vertical 1,169 mm, diagonal 1,809 mm
+- **Circles and arcs:** 32 circles, 41 arcs; largest r 2.6 @ (256.4, 65.9), r 1.3 @ (60.7, 102.5), r 1.3 @ (60.7, 110.2), r 1.3 @ (31.2, 82.0)
+- **Closed boxes:** 3; named: 15 I
+- **Dots (junctions):** 1
+- **Words (OCR):** 54 in 43 lines: PowER SUPPLY · MOUNIINS · TRAY · VISVAC · 2493 · 24v (F2) · Pbce · CRi · 24v · 470 · 24v (F3) · 3w
+- **Title block:** (334, 0)–(432, 49) mm: 9/73 REDRAWN · 608 · ISSUE |DATE · WBS WARD-BECK SYSTEMS · DRN: GEB · ENG. CEB 9/791 · M624 · CKD · 24 V POWER · SUPPLY · SCHEMATIC · SCALE · ISSUE · 624 · 02 -001
+- **Wiring (first pass):** 48 connected wire groups from 214 runs, 1 dotted junctions; labelled ends: 166 mm → #ICO4F, Ds/, 15 I; 61 mm → 470, 3w, #ICO4F; 58 mm → 2493; 38 mm → PowER SUPPLY, TRAY, MOUNIINS; 35 mm → coMmon
+
+Every curve, box, word and wire group: [1979 - M624 - Power Supply p9 (traced).json](1979%20-%20M624%20-%20Power%20Supply%20p9%20%28traced%29.json) (the CAD file: `1979 - M624 - Power Supply p9 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

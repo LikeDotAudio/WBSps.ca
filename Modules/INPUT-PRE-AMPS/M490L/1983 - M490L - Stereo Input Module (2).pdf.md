@@ -16,6 +16,124 @@ Wiki page: [M490L](../../../PAGES/M490L.md)
 
 - **1983** (manual_issue): `ISSUe: 1/1 W :// DECEMBE R 1983` — …!:ISO 1- M4 9 0 L STEREO INPU T MO D UL E a .c ps BS ~ANUAL ISSUe: 1/1 W :// DECEMBE R 1983 tp ht…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 0–429 mm up
+- **Outlines:** line 197 rings, 2,326 straight (5,335 mm) / 456 curved (746 mm); text 116 rings, 853 straight (1,100 mm) / 164 curved (273 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 5.0 @ (181.7, 243.9), r 2.9 @ (194.7, 224.8), r 2.9 @ (147.7, 225.1), r 1.9 @ (146.3, 399.5)
+- **Words (OCR):** 26 in 14 lines: [~E35iJ WAR S"II£NuE. T'EL!::........::NI! "'I1 '''3/3 -S!:ISO · YST · I"1'1ClGl"lES · ARIOM'''' · T!fLI." l;l8e·=399 · M4 · STEREO INPU MO UL · ps · BS · ~ANUAL ISSUe: 1/1 · DECEMBE · 1983
+
+Every curve, box, word and wire group: [1983 - M490L - Stereo Input Module (2) p1 (traced).json](1983%20-%20M490L%20-%20Stereo%20Input%20Module%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1983 - M490L - Stereo Input Module (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–325 mm across, 0–427 mm up
+- **Outlines:** line 259 rings, 2,759 straight (5,505 mm) / 561 curved (882 mm); text 539 rings, 3,384 straight (3,652 mm) / 981 curved (1,581 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 2.2 @ (181.2, 373.0), r 2.2 @ (68.8, 340.4), r 2.1 @ (164.7, 373.1), r 1.7 @ (266.4, 297.3)
+- **Words (OCR):** 87 in 43 lines: WA FI · CK SYS · MS L.T · TABLE OF CONTEN TS · M490l ST EREO INPU MODUL · Wllrrlln ty · Techn ical Dat · ircui Descrip ti on · Part List · Connec tor Layou · Appendi · C04016
+
+Every curve, box, word and wire group: [1983 - M490L - Stereo Input Module (2) p2 (traced).json](1983%20-%20M490L%20-%20Stereo%20Input%20Module%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1983 - M490L - Stereo Input Module (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–325 mm across, 0–430 mm up
+- **Outlines:** line 423 rings, 3,533 straight (6,234 mm) / 875 curved (1,332 mm); text 962 rings, 6,590 straight (7,228 mm) / 2,013 curved (3,196 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.2 @ (204.8, 364.1), r 2.1 @ (224.9, 102.0), r 1.7 @ (213.0, 155.0), r 1.7 @ (209.0, 121.3)
+- **Words (OCR):** 211 in 92 lines: WA F=lD-BECK YS TE MS LTD · TECH IC · ATA · 1014901.. STER EO INPU · MODUL · 10 to · +10 Bm (re · 600 ol'lm sou rc · In!,ut Sen ti it · eQuen · Re spon se: · fr-om 30
+
+Every curve, box, word and wire group: [1983 - M490L - Stereo Input Module (2) p3 (traced).json](1983%20-%20M490L%20-%20Stereo%20Input%20Module%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1983 - M490L - Stereo Input Module (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–338 mm across, 0–428 mm up
+- **Outlines:** line 323 rings, 2,878 straight (5,619 mm) / 670 curved (1,017 mm); text 289 rings, 1,904 straight (2,124 mm) / 515 curved (819 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.2 @ (200.8, 357.7), r 1.7 @ (72.2, 255.1)
+- **Dots (junctions):** 1
+- **Words (OCR):** 67 in 32 lines: SYS EMS LTO · TE CHNICAL DA TA · M490L STE REO INPU MODULE · Mi mu · IOll'd imp ed llnc · 00 · Ma im" · load curr · 40 mA. · Maximum 11.Ipply · vol lage: · +24
+
+Every curve, box, word and wire group: [1983 - M490L - Stereo Input Module (2) p4 (traced).json](1983%20-%20M490L%20-%20Stereo%20Input%20Module%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1983 - M490L - Stereo Input Module (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–338 mm across, 18–427 mm up
+- **Outlines:** line 520 rings, 4,517 straight (7,158 mm) / 1,166 curved (1,787 mm); text 1,598 rings, 10,990 straight (12,041 mm) / 3,399 curved (5,411 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.1 @ (200.4, 234.1), r 1.7 @ (143.2, 226.3), r 1.7 @ (172.2, 85.1)
+- **Dots (junctions):** 4
+- **Words (OCR):** 371 in 138 lines: SYS · LT · IRCU IT DESC RIP ION · MA90L STER EO INPU MOOULE · Th · M490L provides comple te Sl ..eo · nel rec uue · IU · equired · miNing console, inclusive of · Slereo mi Ning · ll enu
+
+Every curve, box, word and wire group: [1983 - M490L - Stereo Input Module (2) p5 (traced).json](1983%20-%20M490L%20-%20Stereo%20Input%20Module%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1983 - M490L - Stereo Input Module (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–337 mm across, 0–426 mm up
+- **Outlines:** line 500 rings, 4,285 straight (7,574 mm) / 1,122 curved (1,709 mm); text 1,655 rings, 11,474 straight (12,668 mm) / 3,606 curved (5,624 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 2.2 @ (169.2, 356.5), r 2.1 @ (205.9, 356.5), r 2.1 @ (182.1, 249.1), r 1.7 @ (253.7, 315.5)
+- **Words (OCR):** 377 in 138 lines: IRCUIT DESCR IP ION · M4 90L STEREO INP UT MODUL · The preampl lf lel" OUIPu · is coup led via C1 10 · half · ml" lng · lt · tOI" ATTI · wilh · second · lf of ATT · used for Ihe I"i hl
+
+Every curve, box, word and wire group: [1983 - M490L - Stereo Input Module (2) p6 (traced).json](1983%20-%20M490L%20-%20Stereo%20Input%20Module%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1983 - M490L - Stereo Input Module (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–313 mm across, 0–429 mm up
+- **Outlines:** line 395 rings, 3,492 straight (6,481 mm) / 854 curved (1,316 mm); text 1,575 rings, 11,069 straight (12,242 mm) / 3,363 curved (5,181 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 2.2 @ (70.3, 115.8), r 1.7 @ (216.1, 337.1), r 1.7 @ (52.9, 81.3), r 1.7 @ (286.6, 330.0)
+- **Closed boxes:** 1
+- **Words (OCR):** 332 in 159 lines: WARD-BECK · TD. · IRCU IT DESCRIPTION · MI<90L STEREO INPU MODUL · The ma ximum · ell ia io · fro · ce nter po it io · all ow · ll · ang from · dB to
+
+Every curve, box, word and wire group: [1983 - M490L - Stereo Input Module (2) p7 (traced).json](1983%20-%20M490L%20-%20Stereo%20Input%20Module%20%282%29%20p7%20%28traced%29.json) (the CAD file: `1983 - M490L - Stereo Input Module (2) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–424 mm up
+- **Outlines:** line 656 rings, 5,243 straight (8,148 mm) / 1,449 curved (2,223 mm); text 1,604 rings, 11,243 straight (12,452 mm) / 3,401 curved (5,299 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 2.1 @ (69.6, 181.1), r 2.1 @ (98.0, 329.2), r 1.7 @ (134.6, 173.6), r 1.7 @ (138.5, 321.6)
+- **Dots (junctions):** 6
+- **Words (OCR):** 388 in 161 lines: WA · SYSTEMS LTO · IRCU IT DESCR IP ON · M490L STEREO INP UT MODULE · 10 · CMOS dual fliE) _flOP sel"Ving · lalch 10 m.inl. in Ih · us of the swilches, once Ih · h.ve · set 10 ei lher Ihe ON or · lhe OFF ;>osi lion · mber
+
+Every curve, box, word and wire group: [1983 - M490L - Stereo Input Module (2) p8 (traced).json](1983%20-%20M490L%20-%20Stereo%20Input%20Module%20%282%29%20p8%20%28traced%29.json) (the CAD file: `1983 - M490L - Stereo Input Module (2) p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 0–430 mm up
+- **Outlines:** line 446 rings, 3,685 straight (6,637 mm) / 991 curved (1,528 mm); text 1,519 rings, 10,740 straight (11,654 mm) / 3,386 curved (5,373 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.2 @ (102.3, 330.8), r 1.7 @ (298.6, 187.8), r 1.7 @ (129.6, 60.2), r 1.7 @ (282.0, 79.9)
+- **Dots (junctions):** 2
+- **Words (OCR):** 322 in 106 lines: BE CK SYS TEMS TD · CIRCU IT DESCR IP ION · 1-1 49 01.. STER EO INP UT MODULE · Momen a,.y ope,.alion of the CHANNEL OFF swi lch SWS · or momenl_ · a"y 9t"OUnd clolu.-e of · EXTERNA · CHANNEL OFF con ll"Ol InpUI · P2 · in 12 will · ll in · negal ive going pulse al l10 in
+
+Every curve, box, word and wire group: [1983 - M490L - Stereo Input Module (2) p9 (traced).json](1983%20-%20M490L%20-%20Stereo%20Input%20Module%20%282%29%20p9%20%28traced%29.json) (the CAD file: `1983 - M490L - Stereo Input Module (2) p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–339 mm across, 0–426 mm up
+- **Outlines:** line 269 rings, 2,542 straight (5,132 mm) / 662 curved (1,026 mm); text 1,491 rings, 10,260 straight (11,323 mm) / 3,120 curved (4,896 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 2.2 @ (168.1, 358.0), r 2.1 @ (84.9, 310.9), r 1.7 @ (97.7, 162.2), r 1.7 @ (127.8, 142.2)
+- **Closed boxes:** 2
+- **Dots (junctions):** 1
+- **Words (OCR):** 312 in 121 lines: LTD. · WAR · CK YS · MS · CIRCUIT DESCR IP TIO · M490L STEREO INPUT MODUL · Th · ON · etu · CUE ch tlnn el · is indiC llted by 052 · is driv en
+
+Every curve, box, word and wire group: [1983 - M490L - Stereo Input Module (2) p10 (traced).json](1983%20-%20M490L%20-%20Stereo%20Input%20Module%20%282%29%20p10%20%28traced%29.json) (the CAD file: `1983 - M490L - Stereo Input Module (2) p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–338 mm across, 13–425 mm up
+- **Outlines:** line 439 rings, 3,600 straight (6,505 mm) / 867 curved (1,359 mm); text 967 rings, 7,547 straight (8,536 mm) / 2,274 curved (3,618 mm)
+- **Words (OCR):** 188 in 109 lines: WA~ · BE CI( YSTEMS · LTD · 1044901. STEREO INPUT MODULE · DESCR IPTION · MFG PART NUMBER · Allenu tor, c/w connector · PM; · l55D /AH35 100 · Cap~c; lor · uF /IO · TJ906475MOIOAS
+
+Every curve, box, word and wire group: [1983 - M490L - Stereo Input Module (2) p11 (traced).json](1983%20-%20M490L%20-%20Stereo%20Input%20Module%20%282%29%20p11%20%28traced%29.json) (the CAD file: `1983 - M490L - Stereo Input Module (2) p11 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

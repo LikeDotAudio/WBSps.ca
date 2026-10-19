@@ -12,6 +12,33 @@ Wiki page: [M470](../../../PAGES/M470.md)
 - **Pages:** 2
 - **PDF created (scan date, not design date):** Wed Aug 20 23:50:03 2003 EDT
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 432 × 292 mm, 2000 × 1350 px traced (0.216 mm/px)
+- **Ink extent:** 28–432 mm across, 0–291 mm up
+- **Outlines:** line 876 rings, 6,004 straight (14,324 mm) / 1,391 curved (1,730 mm); text 1,119 rings, 5,466 straight (4,195 mm) / 1,999 curved (2,323 mm); tb 191 rings, 1,232 straight (2,098 mm) / 342 curved (508 mm)
+- **Circles and arcs:** 15 circles, 0 arcs; largest r 6.2 @ (214.2, 115.3), r 3.7 @ (214.6, 157.2), r 3.7 @ (214.2, 115.3), r 3.1 @ (214.5, 187.7)
+- **Closed boxes:** 18 (7 in the title block); named: HA STER ASSI GtI'\[NI sw tc 5\1/17 \ljhe; P,"",S wi Ch SW7 Whe eue th is sw il po ; NSI I'oJ1TY con R26 Pr Ides con in uou l; REV I5K)N
+- **Dots (junctions):** 8
+- **Words (OCR):** 380 in 172 lines: HA STER ASSI GtI'\[NI sw tc 5\1/17 \ljhen de re ss · output · BS · HA TER so.mn;n9 bu loll. · Fe · vi · i"g · isto · to · de pr essed, (')I,j · SU8l"lA SIU · AS
+- **Title block:** (55, 0)–(419, 104) mm: AUXI LIARY ASSIG '*'tENT wi tc hes SW2 · nd SW2 · """en · AUXIL IARY · V£L con trol · RIDO nd 1\102 · Con tr · ts · he app op ia te AUXI IARY (M,l · c:x;ia ed ou · igna · le ve · AUXILI ARY OU pvts · 
+
+Every curve, box, word and wire group: [1977 - M470 - Input Module - User Guide (2) p1 (traced).json](1977%20-%20M470%20-%20Input%20Module%20-%20User%20Guide%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1977 - M470 - Input Module - User Guide (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 432 × 275 mm, 2000 × 1273 px traced (0.216 mm/px)
+- **Ink extent:** 12–432 mm across, 0–273 mm up
+- **Outlines:** line 548 rings, 5,889 straight (12,695 mm) / 1,043 curved (1,474 mm); text 491 rings, 3,039 straight (3,873 mm) / 869 curved (1,252 mm); tb 17 rings, 144 straight (274 mm) / 31 curved (51.4 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 3.2 @ (244.5, 90.8), r 1.6 @ (376.9, 116.8), r 1.5 @ (26.5, 212.7), r 1.5 @ (69.8, 263.0)
+- **Closed boxes:** 16 (6 in the title block); named: 11177; DC CONTROLS ADDED; 10/71; REDRAW
+- **Words (OCR):** 121 in 79 lines: lI NE · INP UT · SELECTOR · SU8 · 0/-10 d8m · '-4of. · CTLCOM · 150 HM · CT~~':. · MIC · 'f--h · MU TE
+- **Title block:** (287, 3)–(432, 69) mm: 10/71 · REDRAW · IS SUE DATE · REVISION · APP. · (\NBS) WARO-BECK YSTEMS · ps · BS · DRN GE8 · M470 · ENG. RK8 · INPUT MODU LE · CK · tp DI GRAM · APP. · FUN CTIONA · ht · seALE · Bl 470 01- · ISSUE
+
+Every curve, box, word and wire group: [1977 - M470 - Input Module - User Guide (2) p2 (traced).json](1977%20-%20M470%20-%20Input%20Module%20-%20User%20Guide%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1977 - M470 - Input Module - User Guide (2) p2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

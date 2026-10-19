@@ -16,6 +16,257 @@ Wiki page: [M497](../../../PAGES/M497.md)
 
 - **1978** (manual_issue): `MANUAL ISSUE #2 I ps OC T. 1978` — …e nt Layout 88- 109 -0 2- 00 6 88 - 109- 06 -006 I I I a .c MANUAL ISSUE #2 I ps OC T. 1978 BS I W :// tp I ht…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–327 mm across, 5–431 mm up
+- **Outlines:** line 69 rings, 2,316 straight (8,691 mm) / 164 curved (423 mm); text 16 rings, 459 straight (1,601 mm) / 28 curved (62.0 mm)
+- **Closed boxes:** 2; named: VVE3S; VVE3S
+- **Words (OCR):** 18 in 15 lines: VVE3S · VVE3S · VVE3S · VVE3S · VVE3S · VVE3S · VVE3S · VVE3S · H1t97 · DUAL MASTER MODULE · VVE3S ps · BS
+
+Every curve, box, word and wire group: [1978 - M497 - Dual-Master-Module (2) p1 (traced).json](1978%20-%20M497%20-%20Dual-Master-Module%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1978 - M497 - Dual-Master-Module (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 20–316 mm across, 10–412 mm up
+- **Outlines:** line 131 rings, 2,145 straight (4,284 mm) / 388 curved (635 mm); text 83 rings, 746 straight (1,220 mm) / 109 curved (182 mm)
+- **Words (OCR):** 25 in 12 lines: WARD-BECK'SYSTEMS LTD · (VVElS] 84' moGRESS AVENUE TELSPHONE: 416 /438 550 · SCARSORO....IGH CJf'iTARIO M1H 2X4 · TELEX · De5 · aB · M497 · DUAL MASTER MODULE · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1978 - M497 - Dual-Master-Module (2) p2 (traced).json](1978%20-%20M497%20-%20Dual-Master-Module%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1978 - M497 - Dual-Master-Module (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–317 mm across, 14–423 mm up
+- **Outlines:** line 15 rings, 635 straight (2,809 mm) / 74 curved (119 mm); text 637 rings, 4,537 straight (5,470 mm) / 1,303 curved (2,114 mm); tb 15 rings, 252 straight (634 mm) / 30 curved (46.8 mm)
+- **Closed boxes:** 2
+- **Words (OCR):** 104 in 51 lines: WARO-BECK SYSTEMS · LTO · TA 8LE OF CONT ENTS · M497 DUA MASTER MODUL · SECTION · PAGE · Warranty · chn · ca Data · to 1-2 · Ci rc uit De scrip tio · to 2-2
+- **Title block:** (17, 57)–(273, 418) mm: WARO-BECK SYSTEMS · LTO · TA 8LE OF CONT ENTS · M497 DUA MASTER MODUL · SECTION · PAGE · Warranty · chn · ca Data · to 1-2 · Ci rc uit De scrip tio · to 2-2 · Par · List · to 3-4 · Appe ndix · 109 De 
+
+Every curve, box, word and wire group: [1978 - M497 - Dual-Master-Module (2) p3 (traced).json](1978%20-%20M497%20-%20Dual-Master-Module%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1978 - M497 - Dual-Master-Module (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–299 mm across, 14–408 mm up
+- **Outlines:** line 60 rings, 969 straight (3,033 mm) / 123 curved (190 mm); text 2,009 rings, 13,102 straight (13,954 mm) / 4,444 curved (6,670 mm); tb 166 rings, 1,143 straight (1,523 mm) / 303 curved (461 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 347 in 173 lines: ['NBS] 841 ROGt=lE AVENUE. CARBOROl..JGH. ONTA RIO 1H -65!5 · WARD-BECK SYSTEMS LTD · ax · ELE · TE LE PHONE · 16 · :36 · RAN · All · Wa rd Beck · Systems · Lt
+- **Title block:** (39, 80)–(255, 416) mm: ['NBS] 841 ROGt=lE AVENUE. CARBOROl..JGH. ONTA RIO 1H -65!5 · WARD-BECK SYSTEMS LTD · ELE · TE LE PHONE · 16 · :36 · RAN · All · Wa rd Beck · Systems · Lt · products · are war ranted · efec ve ma · al
+
+Every curve, box, word and wire group: [1978 - M497 - Dual-Master-Module (2) p4 (traced).json](1978%20-%20M497%20-%20Dual-Master-Module%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1978 - M497 - Dual-Master-Module (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 18–327 mm across, 5–410 mm up
+- **Outlines:** line 49 rings, 819 straight (3,194 mm) / 103 curved (153 mm); text 1,035 rings, 7,687 straight (8,577 mm) / 2,139 curved (3,358 mm); tb 1 rings, 14 straight (28.9 mm) / 2 curved (2.2 mm)
+- **Words (OCR):** 169 in 64 lines: WARD -BECK SYSTEMS LTD · TE CHNI CAL OAT · M49 · OUAL MA STE MOOULE · Ga in · dB ±0.5 dB nominal · tr · range · of · dB is provi ded. · Freque ncy Re po ns · dB fro 20 Hz
+- **Title block:** (14, 395)–(119, 418) mm: WARD -BECK SYSTEMS LTD
+
+Every curve, box, word and wire group: [1978 - M497 - Dual-Master-Module (2) p5 (traced).json](1978%20-%20M497%20-%20Dual-Master-Module%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1978 - M497 - Dual-Master-Module (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 11–327 mm across, 5–432 mm up
+- **Outlines:** line 107 rings, 1,815 straight (4,505 mm) / 312 curved (500 mm); text 554 rings, 4,149 straight (4,642 mm) / 1,153 curved (1,807 mm); tb 13 rings, 123 straight (176 mm) / 20 curved (30.4 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 118 in 42 lines: WARD -BECK YSTEMS LTD · TE CHNI CAL DAT · M497 DUAL MA ST ER MO DU LE · Out put Le vel: · Progra · dBm nominal, +24 dB max mum. · Mo nito · dBm nomi nal. +24 dBm ma ximum · Mono · dBm nominal when summed nt · seco nd M4 97. · Chann el Se pa rat io
+- **Title block:** (21, 402)–(85, 424) mm: WARD -BECK YSTEMS LTD
+
+Every curve, box, word and wire group: [1978 - M497 - Dual-Master-Module (2) p6 (traced).json](1978%20-%20M497%20-%20Dual-Master-Module%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1978 - M497 - Dual-Master-Module (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–327 mm across, 11–424 mm up
+- **Outlines:** line 69 rings, 1,003 straight (3,618 mm) / 150 curved (225 mm); text 2,143 rings, 16,082 straight (17,930 mm) / 4,430 curved (6,893 mm)
+- **Words (OCR):** 295 in 154 lines: WAAD-BECK SYSTEMS LTD_ · CIRCUIT DESCRIPTION · M497 DUAL MASTER · MODULE · The · M497 accommodates two · separate signa ] · channels It is · and right · designed to receive the · mixed · feeds from
+- **Title block:** (15, 312)–(124, 420) mm: WAAD-BECK SYSTEMS LTD_ · The · M497 accommodates two · designed to receive the
+
+Every curve, box, word and wire group: [1978 - M497 - Dual-Master-Module (2) p7 (traced).json](1978%20-%20M497%20-%20Dual-Master-Module%20%282%29%20p7%20%28traced%29.json) (the CAD file: `1978 - M497 - Dual-Master-Module (2) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 17–327 mm across, 5–432 mm up
+- **Outlines:** line 200 rings, 2,661 straight (6,046 mm) / 488 curved (752 mm); text 931 rings, 6,989 straight (7,759 mm) / 1,862 curved (2,961 mm); tb 25 rings, 221 straight (310 mm) / 52 curved (78.3 mm)
+- **Words (OCR):** 225 in 47 lines: WARD -BECK SYSTEMS TD · CIRCUIT DESCR PT ON · M497 DUAL MASTER MODULE · separate MO NIT OR ou tp ut is prov de · des igned to eed the · M4 95 ST ERE MONITOR module as we · as to drive · tand ard · VU meter. · RIGH Cha nne and MONO Out put · Th rig ht hanne · the M49 oper ate in
+- **Title block:** (15, 403)–(121, 426) mm: WARD -BECK SYSTEMS TD
+
+Every curve, box, word and wire group: [1978 - M497 - Dual-Master-Module (2) p8 (traced).json](1978%20-%20M497%20-%20Dual-Master-Module%20%282%29%20p8%20%28traced%29.json) (the CAD file: `1978 - M497 - Dual-Master-Module (2) p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 19–327 mm across, 11–410 mm up
+- **Outlines:** line 40 rings, 889 straight (3,486 mm) / 88 curved (137 mm); text 830 rings, 6,046 straight (6,807 mm) / 1,714 curved (2,659 mm); tb 3 rings, 34 straight (50.3 mm) / 7 curved (10.3 mm)
+- **Words (OCR):** 128 in 89 lines: WARD-BECK SYSTEMS LTD · PARTS LIST · M49 · DUAL MASTE MODULE · PART DESCRIPTI ON · MFG · MFG PART NUMBER · Cl · Capacit or · 330 uF/ · Ke met · T390 F337M006AS
+- **Title block:** (14, 396)–(120, 418) mm: WARD-BECK SYSTEMS LTD
+
+Every curve, box, word and wire group: [1978 - M497 - Dual-Master-Module (2) p9 (traced).json](1978%20-%20M497%20-%20Dual-Master-Module%20%282%29%20p9%20%28traced%29.json) (the CAD file: `1978 - M497 - Dual-Master-Module (2) p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 17–327 mm across, 5–432 mm up
+- **Outlines:** line 225 rings, 2,577 straight (5,885 mm) / 520 curved (779 mm); text 465 rings, 3,605 straight (4,126 mm) / 987 curved (1,516 mm); tb 24 rings, 200 straight (293 mm) / 37 curved (62.7 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 127 in 97 lines: WARD -BECK SYSTEMS LTD · PARTS LI ST · M497 DUAL MAS TER MODULE · PART DE SCRI PTI ON · MFG · MFG PAR NUMBER · Ql · Tra ns · Texas · TI P29B · Q2 · PN3 569
+- **Title block:** (14, 403)–(120, 426) mm: WARD -BECK SYSTEMS LTD
+
+Every curve, box, word and wire group: [1978 - M497 - Dual-Master-Module (2) p10 (traced).json](1978%20-%20M497%20-%20Dual-Master-Module%20%282%29%20p10%20%28traced%29.json) (the CAD file: `1978 - M497 - Dual-Master-Module (2) p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–309 mm across, 5–425 mm up
+- **Outlines:** line 736 rings, 5,950 straight (9,705 mm) / 1,577 curved (2,453 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.7 @ (81.9, 218.4)
+- **Closed boxes:** 14
+- **Words (OCR):** 4 in 4 lines: ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1978 - M497 - Dual-Master-Module (2) p11 (traced).json](1978%20-%20M497%20-%20Dual-Master-Module%20%282%29%20p11%20%28traced%29.json) (the CAD file: `1978 - M497 - Dual-Master-Module (2) p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 18–327 mm across, 5–431 mm up
+- **Outlines:** line 14 rings, 1,234 straight (4,350 mm) / 159 curved (238 mm); text 578 rings, 4,452 straight (5,030 mm) / 1,169 curved (1,819 mm); tb 11 rings, 84 straight (98.1 mm) / 17 curved (26.8 mm)
+- **Words (OCR):** 91 in 52 lines: ARD-BECK SYSTEMS LTD · PARTS LIST · M4 97 DU AL MASTER MODULE · PART DESCRIPT ION · MFG · MFG PART NUMBER · R66 · Resistor · 2K2 · Phil ps · R67 · 2K2
+- **Title block:** (24, 87)–(122, 426) mm: ARD-BECK SYSTEMS LTD · PART DESCRIPT ION · R66 · Resistor · R67 · R68 · R69 · R70 · R7 · R72 · R73 · ZI · In te9rated Ci rc uit · Z2 · Z3 · Z4 · Z5 · Z6 · C33 · Capacitor · C34 · R74 · Re is · R75
+
+Every curve, box, word and wire group: [1978 - M497 - Dual-Master-Module (2) p12 (traced).json](1978%20-%20M497%20-%20Dual-Master-Module%20%282%29%20p12%20%28traced%29.json) (the CAD file: `1978 - M497 - Dual-Master-Module (2) p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–327 mm across, 5–424 mm up
+- **Outlines:** line 72 rings, 1,138 straight (3,078 mm) / 153 curved (262 mm); text 25 rings, 204 straight (293 mm) / 43 curved (75.7 mm); tb 24 rings, 192 straight (260 mm) / 78 curved (134 mm)
+- **Words (OCR):** 11 in 6 lines: WARD-BECK SYSTEMS LTD · 8-109 AMPLIFIER SER ES · ps · BS · tp · ht
+- **Title block:** (15, 402)–(122, 424) mm: WARD-BECK SYSTEMS LTD
+
+Every curve, box, word and wire group: [1978 - M497 - Dual-Master-Module (2) p13 (traced).json](1978%20-%20M497%20-%20Dual-Master-Module%20%282%29%20p13%20%28traced%29.json) (the CAD file: `1978 - M497 - Dual-Master-Module (2) p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–324 mm across, 16–419 mm up
+- **Outlines:** line 293 rings, 2,572 straight (4,773 mm) / 593 curved (912 mm); text 1,311 rings, 8,966 straight (9,918 mm) / 2,571 curved (4,020 mm); tb 3 rings, 27 straight (43.4 mm) / 6 curved (8.7 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.1 @ (37.7, 67.2), r 1.7 @ (79.6, 324.9), r 1.7 @ (120.3, 291.8), r 1.6 @ (197.4, 93.0)
+- **Dots (junctions):** 1
+- **Words (OCR):** 234 in 127 lines: \NARC -BECK SYSTEMS LTC · DESCRIPTION · 8-109 AMP LIFIER SERI ES · The · 109 · ri · of ampli fie rs are ut il ized · an interna component · with in · ari · was · ie
+- **Title block:** (40, 404)–(121, 427) mm: \NARC -BECK SYSTEMS LTC
+
+Every curve, box, word and wire group: [1978 - M497 - Dual-Master-Module (2) p14 (traced).json](1978%20-%20M497%20-%20Dual-Master-Module%20%282%29%20p14%20%28traced%29.json) (the CAD file: `1978 - M497 - Dual-Master-Module (2) p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–327 mm across, 5–424 mm up
+- **Outlines:** line 520 rings, 4,506 straight (7,405 mm) / 1,096 curved (1,707 mm); text 1,095 rings, 7,636 straight (8,247 mm) / 2,203 curved (3,378 mm); tb 459 rings, 3,294 straight (3,695 mm) / 916 curved (1,393 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 2.1 @ (161.0, 110.4), r 1.7 @ (279.4, 220.5), r 1.7 @ (191.3, 102.5), r 1.6 @ (251.7, 121.5)
+- **Closed boxes:** 1
+- **Dots (junctions):** 2
+- **Words (OCR):** 334 in 115 lines: WARD-BECK SYSTEMS LTD · DESCRIPTION · 109 AMPLIFIER SERIES · Ou tpu Level: · dBm · ximu · Pow er Requirements: · 21.5 vo · dc, 18 rnA qu ie sce nt curr ent. · 65 rnA at +30 dBm output. · Ambient Temperatu re · 60
+- **Title block:** (13, 79)–(121, 431) mm: WARD-BECK SYSTEMS LTD · Ou tpu Level: · Pow er Requirements: · Ambient Temperatu re · Dimen sions: · he · 10 comp ris · at hro ugh 04, · the th · The · inear integrated · In the ma jori ty of he · sec
+
+Every curve, box, word and wire group: [1978 - M497 - Dual-Master-Module (2) p15 (traced).json](1978%20-%20M497%20-%20Dual-Master-Module%20%282%29%20p15%20%28traced%29.json) (the CAD file: `1978 - M497 - Dual-Master-Module (2) p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 16–325 mm across, 6–418 mm up
+- **Outlines:** line 108 rings, 1,512 straight (4,064 mm) / 267 curved (410 mm); text 851 rings, 6,193 straight (6,983 mm) / 1,818 curved (2,842 mm); tb 4 rings, 43 straight (56.9 mm) / 12 curved (20.5 mm)
+- **Words (OCR):** 134 in 103 lines: WARD-BECK SYSTEMS LTD · PAR TS IST · 8-109 AMPLIF IER SER IES · 109 · PART · DESCRI PTION · MFG · MFG PART NUMBE · Cl · Ca · or · 33
+- **Title block:** (10, 404)–(118, 426) mm: WARD-BECK SYSTEMS LTD
+
+Every curve, box, word and wire group: [1978 - M497 - Dual-Master-Module (2) p16 (traced).json](1978%20-%20M497%20-%20Dual-Master-Module%20%282%29%20p16%20%28traced%29.json) (the CAD file: `1978 - M497 - Dual-Master-Module (2) p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 22–327 mm across, 15–425 mm up
+- **Outlines:** line 729 rings, 6,328 straight (9,418 mm) / 1,530 curved (2,322 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.7 @ (150.0, 148.4), r 1.6 @ (91.3, 314.3)
+- **Closed boxes:** 1
+- **Dots (junctions):** 3
+- **Words (OCR):** 4 in 4 lines: ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1978 - M497 - Dual-Master-Module (2) p17 (traced).json](1978%20-%20M497%20-%20Dual-Master-Module%20%282%29%20p17%20%28traced%29.json) (the CAD file: `1978 - M497 - Dual-Master-Module (2) p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–327 mm across, 14–424 mm up
+- **Outlines:** line 99 rings, 1,560 straight (5,181 mm) / 233 curved (350 mm); text 715 rings, 5,194 straight (5,969 mm) / 1,472 curved (2,320 mm)
+- **Words (OCR):** 128 in 78 lines: WARD-SECK SYS TEMS LTD · PARTS LIST · 109 AMP IF IER SERIES · 109A · ll · ar ts · per -109 · xcept as noted below · PART · DESCRIPT ION · MFG · MFG PART NUMBE
+
+Every curve, box, word and wire group: [1978 - M497 - Dual-Master-Module (2) p18 (traced).json](1978%20-%20M497%20-%20Dual-Master-Module%20%282%29%20p18%20%28traced%29.json) (the CAD file: `1978 - M497 - Dual-Master-Module (2) p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 22–327 mm across, 15–428 mm up
+- **Outlines:** line 883 rings, 7,143 straight (11,597 mm) / 1,806 curved (2,884 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 2.1 @ (104.5, 96.7), r 2.1 @ (105.1, 182.7), r 2.1 @ (106.2, 329.0), r 1.7 @ (89.7, 149.2)
+- **Closed boxes:** 10
+- **Dots (junctions):** 1
+- **Words (OCR):** 4 in 4 lines: ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1978 - M497 - Dual-Master-Module (2) p19 (traced).json](1978%20-%20M497%20-%20Dual-Master-Module%20%282%29%20p19%20%28traced%29.json) (the CAD file: `1978 - M497 - Dual-Master-Module (2) p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–302 mm across, 14–418 mm up
+- **Outlines:** line 113 rings, 1,610 straight (3,996 mm) / 256 curved (390 mm); text 334 rings, 2,486 straight (2,825 mm) / 687 curved (1,074 mm); tb 27 rings, 164 straight (226 mm) / 50 curved (89.9 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.7 @ (90.4, 139.1)
+- **Words (OCR):** 74 in 34 lines: WARD -BECK YSTEMS LTD · PARTS IST · 109 AM PL IF IER SERIES · 109G · par ts · er · 109 · cept · not ed bel ow · PART · DESC IPTION · MFG
+- **Title block:** (14, 135)–(79, 426) mm: WARD -BECK YSTEMS LTD · 109G · par ts · PART · C6 · Cll · R15 · Res sto · WBS ecomme
+
+Every curve, box, word and wire group: [1978 - M497 - Dual-Master-Module (2) p20 (traced).json](1978%20-%20M497%20-%20Dual-Master-Module%20%282%29%20p20%20%28traced%29.json) (the CAD file: `1978 - M497 - Dual-Master-Module (2) p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 3–418 mm across, 6–280 mm up
+- **Outlines:** line 104 rings, 2,521 straight (7,353 mm) / 368 curved (464 mm); text 427 rings, 2,903 straight (3,288 mm) / 873 curved (1,253 mm); tb 9 rings, 127 straight (267 mm) / 5 curved (8.4 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.4 @ (297.8, 198.1)
+- **Closed boxes:** 17 (7 in the title block); named: OE. SIGa t-.lATlot-J £Y1S JO"-J; 78; 8-109E -1<>,:,E; ht 497 -01 001; SCALE
+- **Words (OCR):** 76 in 47 lines: LEFT · LEVEL · INSERT · SUMMING INPUT · 'IN · PROGRAM OUTPUTS · +8d Bm 600 ohm · LEFT · EXTERNAL INPUT · dB · MONITOR OUTPUT · 600 ohm
+- **Title block:** (277, 11)–(425, 75) mm: 78 8-109E · -1<>,:,E · ISSUE DATE · REVISION · APP. · (VVSS] WARO-BECK SYSTEMS · ps · DRN · RW · BS · M497 · ENG. RKB · CKD. · DUAL MASTER MODULE · FUNCTiONAL DIAGRAM · APP....." · tp · SCALE · ht · I
+
+Every curve, box, word and wire group: [1978 - M497 - Dual-Master-Module (2) p21 (traced).json](1978%20-%20M497%20-%20Dual-Master-Module%20%282%29%20p21%20%28traced%29.json) (the CAD file: `1978 - M497 - Dual-Master-Module (2) p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 3–415 mm across, 7–275 mm up
+- **Outlines:** line 388 rings, 4,754 straight (11,153 mm) / 919 curved (1,253 mm); text 605 rings, 4,275 straight (4,083 mm) / 1,277 curved (1,536 mm); tb 8 rings, 105 straight (171 mm) / 28 curved (40.5 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 6.1 @ (235.0, 200.9), r 6.1 @ (164.3, 200.9), r 4.0 @ (292.9, 78.0), r 4.0 @ (293.5, 217.5)
+- **Closed boxes:** 28 (6 in the title block); named: ps R7~ R79 TO ,6DO€[); 49 7-0 001
+- **Dots (junctions):** 2
+- **Words (OCR):** 149 in 112 lines: R5 · -R1~~ · Cl.1 · 30 · ,t.1~ · .J:!11F'I · !1o", · -C,4.}~<)j,"---" 1.'!o Utt'" · OlIO.!a · R74 !.i'1 · RI I'S" · RI2..!!.1(
+- **Title block:** (324, 15)–(398, 52) mm: 7B · R7~ TO · R79 ,6DO€[) · ISSUE DAn · BS · (VVE3S) WARQooBECK .Y1ITEMS · DR:N. MRW · MA 97 · fNG. MIfN M)l · tp ENT LAYO · DUAL · STER MO DULE · API'. · CKD. ',i>.d.../ · ht · COM PON
+
+Every curve, box, word and wire group: [1978 - M497 - Dual-Master-Module (2) p22 (traced).json](1978%20-%20M497%20-%20Dual-Master-Module%20%282%29%20p22%20%28traced%29.json) (the CAD file: `1978 - M497 - Dual-Master-Module (2) p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 87–247 mm across, 113–319 mm up
+- **Outlines:** line 113 rings, 1,049 straight (3,339 mm) / 223 curved (393 mm); text 309 rings, 2,771 straight (3,556 mm) / 928 curved (1,485 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 2.9 @ (203.7, 202.7), r 2.9 @ (203.7, 212.0), r 2.9 @ (125.3, 202.7), r 2.9 @ (125.3, 174.9)
+- **Closed boxes:** 44; named: 10 11 12 13 14 15 16 17 18 19 20 21 22; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 20
+- **Words (OCR):** 66 in 49 lines: Summing in · Summing in · Summin in · Summing in · Shield · Shield · Insert send · Insert send · Insert send · Insert send · Insert Rtn · Insert Rtn
+
+Every curve, box, word and wire group: [1978 - M497 - Dual-Master-Module (2) p23 (traced).json](1978%20-%20M497%20-%20Dual-Master-Module%20%282%29%20p23%20%28traced%29.json) (the CAD file: `1978 - M497 - Dual-Master-Module (2) p23 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

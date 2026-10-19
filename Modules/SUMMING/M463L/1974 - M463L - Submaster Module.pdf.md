@@ -18,6 +18,719 @@ Wiki page: [M463L](../../../PAGES/M463L.md)
 - **1974** (labelled): `DATE NOV 74` — …4 {OOOp Sk ~ISv ON MATL _ WBS WARD-BECK ByBTEMB LTD_ DRN DM DATE NOV 74 CKD Fozf SCALE TOLs { 4-141 SUMMinG AMPLIFIER SCHEMATIC B 4…
 - **1974** (labelled): `DATE DEC 74` — …/0 E4 0 + E90 - ON MATL _ WBS WARD-BECK BYSTEMB LTD. DRN DM DATE DEC 74 CKD 7a/ SCALE 2 :1 TOLS _ { 4-141 SUMMING AMPLIFIER COMPONE…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–307 mm across, 4–422 mm up
+- **Outlines:** line 31 rings, 804 straight (2,617 mm) / 68 curved (108 mm); text 135 rings, 1,549 straight (2,083 mm) / 332 curved (549 mm); tb 2 rings, 114 straight (294 mm) / 5 curved (11.1 mm)
+- **Words (OCR):** 9 in 7 lines: WARD-BECK · SYSTEMS LTD_ · WBS 841 PAOGRESS AVENUE; SCARBOROUGH, ONTARIO M1h2x4 · TELEPHONE: 416/438-6550 · TeLex: 065-25399 · M463L · SUBMASTER MODULE
+- **Title block:** (43, 385)–(263, 422) mm: WARD-BECK · SYSTEMS LTD_ · WBS 841 PAOGRESS AVENUE; SCARBOROUGH, ONTARIO M1h2x4 · TELEPHONE: 416/438-6550 · TeLex: 065-25399
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p1 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p1%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–313 mm across, 0–423 mm up
+- **Outlines:** line 28 rings, 899 straight (2,965 mm) / 102 curved (171 mm); text 1,082 rings, 7,514 straight (8,555 mm) / 2,243 curved (3,521 mm); tb 31 rings, 243 straight (428 mm) / 61 curved (98.0 mm)
+- **Words (OCR):** 113 in 79 lines: WAAD-BECK SySTems LTD_ · TABLE OF · CONTENTS · ML63L · SUBMASTER MQDULE · SECTiON · PAGE · Warranty · Technical · Data · Circuit Description · 2-1 t0
+- **Title block:** (25, 40)–(286, 427) mm: WAAD-BECK SySTems LTD_ · TABLE OF · CONTENTS · ML63L · SUBMASTER MQDULE · SECTiON · PAGE · Warranty · Technical · Data · Circuit Description · 2-1 t0 · 2-4 · Equal · zer Frequency Response · 3-1 t0 · 
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p2 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p2%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–310 mm across, 0–425 mm up
+- **Outlines:** line 68 rings, 1,130 straight (3,389 mm) / 129 curved (196 mm); text 1,347 rings, 9,177 straight (10,266 mm) / 2,865 curved (4,507 mm)
+- **Dots (junctions):** 2
+- **Words (OCR):** 185 in 106 lines: WAAD-BECK · Systems LTD: · TECHNICAL DATA · ML63 · SUBMASTER MODULE · Gain: · +18 dB · 0.5 dB _ · (bridging gain) · (With fader in 15 dB · "in-hand" · position. )
+- **Title block:** (23, 403)–(133, 428) mm: WAAD-BECK · Systems LTD:
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p3 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p3%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–310 mm across, 0–425 mm up
+- **Outlines:** line 63 rings, 1,098 straight (3,565 mm) / 139 curved (217 mm); text 2,322 rings, 16,037 straight (17,716 mm) / 4,943 curved (7,582 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 325 in 182 lines: WAAD-BECK SysTems LTD; · CIRcuIT · DESCRIPTION · M463L · SUBMASTER · MODULE · The · M463L is · combination · SUBMASTER/EQUAL IZER module, designed t0 · previously assigned · mixing
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p4 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p4%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 0–425 mm up
+- **Outlines:** line 66 rings, 1,047 straight (3,301 mm) / 153 curved (232 mm); text 2,322 rings, 16,604 straight (18,573 mm) / 5,126 curved (8,008 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.7 @ (51.3, 292.4)
+- **Dots (junctions):** 4
+- **Words (OCR):** 328 in 154 lines: WAAD-BECK BYSTems LTD_ · CiRcuiT · DESCRIPTION · M463L SUBMASTER · MODULE · bandpass · filter passes only · portion of the signal · delivered t0 · it · buffer, with the · from the
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p5 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p5%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–310 mm across, 0–425 mm up
+- **Outlines:** line 88 rings, 1,522 straight (4,263 mm) / 224 curved (342 mm); text 1,706 rings, 11,977 straight (13,607 mm) / 3,680 curved (5,792 mm)
+- **Dots (junctions):** 2
+- **Words (OCR):** 267 in 147 lines: WAAD-BECK sybtems LTD_ · ciRcuit DESCRIPTION · M463L SUBMASTER MODULE · 8-109A Outeut · Amp lifier and · INSERT · The 8-109A · amplifier raises · the · signal t0 · -10 · dBm
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p6 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p6%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 0–426 mm up
+- **Outlines:** line 56 rings, 1,379 straight (3,915 mm) / 186 curved (288 mm); text 1,595 rings, 11,543 straight (12,834 mm) / 3,579 curved (5,686 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 229 in 109 lines: WAAD-BECK sysTems LTD; · CiRcuiT DESCRIPTION · M463L S BMASTER · MODULE · master outputs are · connected t0 · the · appropriate module · output termi · ing network · nals via summ · resistors to be
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p7 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p7%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–312 mm across, 11–424 mm up
+- **Outlines:** line 795 rings, 8,821 straight (23,865 mm) / 938 curved (1,442 mm); text 340 rings, 2,873 straight (3,470 mm) / 818 curved (1,305 mm)
+- **Closed boxes:** 254
+- **Words (OCR):** 46 in 30 lines: WARD-BECK SystemS LTD; · FREQUENCY RESPONSE · CHARACTERISTICS · M463L · SUBMASTER MODULE · EQUALIZER · OdB · LOW_FREQUENCY · section · Mode: SHELVING _ · cut/boost: +15 dB_ · FREQUENCY : 25
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p8 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p8%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 0–423 mm up
+- **Outlines:** line 868 rings, 8,468 straight (24,454 mm) / 874 curved (1,388 mm); text 360 rings, 2,983 straight (3,744 mm) / 843 curved (1,319 mm)
+- **Closed boxes:** 277
+- **Words (OCR):** 43 in 30 lines: WAAD-BECK Systems LTD. · FREQUENCY RESPONSE · CHARACTERISTICS · M463L SUBMASTER · MODULE EQUAL IZER · OdB · MID_FREQUENCY_section · cutiboost: +15 dB · FREQUENCY: 0 . 4 · 6 .4 kHz . · Z0Hz · JO0Hz
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p9 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p9%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–313 mm across, 0–423 mm up
+- **Outlines:** line 802 rings, 9,603 straight (22,806 mm) / 1,121 curved (1,760 mm); text 338 rings, 2,772 straight (3,308 mm) / 794 curved (1,239 mm)
+- **Closed boxes:** 143
+- **Words (OCR):** 47 in 35 lines: WAAD-BECK systems LTD · FREQUENCY · RESPONSE · CHARACTERISTICS · M463L SUBMASTER · MODULE EQUALIZER · Oae · HIGH · FREQUENCY · section · Mode: · SHELVING.
+- **Title block:** (24, 403)–(134, 428) mm: WAAD-BECK systems LTD
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p10 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p10%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–308 mm across, 17–424 mm up
+- **Outlines:** line 162 rings, 1,612 straight (3,912 mm) / 268 curved (424 mm); text 1,095 rings, 8,159 straight (9,235 mm) / 2,686 curved (4,285 mm)
+- **Words (OCR):** 143 in 127 lines: WAAD-BECK SysTeMs LTD; · PARTS LiST · M463L · SUBMASTER · MODULE · PART DESCRiPTION · MFG · MFG · PART NUMBER · Capacitor 33 · uF/10 · T3900336M010AS
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p11 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p11%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 0–419 mm up
+- **Outlines:** line 26 rings, 805 straight (3,080 mm) / 80 curved (124 mm); text 685 rings, 5,373 straight (6,249 mm) / 1,495 curved (2,454 mm); tb 103 rings, 584 straight (975 mm) / 146 curved (225 mm)
+- **Words (OCR):** 96 in 92 lines: WAAD-BECK SysTeMs LTD; · PARTS LiST · M463L SUBMASTER MODULE · PART DESCRIPTION · MFG · MFG · PART · NUMBER · C38 · Capacitor · 22 · uF/25
+- **Title block:** (23, 36)–(255, 429) mm: WAAD-BECK SysTeMs LTD; · PARTS LiST · M463L SUBMASTER MODULE · PART DESCRIPTION · MFG · MFG · C38 · Capacitor · 22 · uF/25 · Siemens · c39 · 150 · uF/6 · Kemet · C4o · 22 · uF/25 · Siemens · CL1 · C42
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p12 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p12%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–312 mm across, 0–425 mm up
+- **Outlines:** line 58 rings, 862 straight (3,075 mm) / 123 curved (191 mm); text 536 rings, 3,953 straight (4,587 mm) / 1,256 curved (1,990 mm); tb 32 rings, 398 straight (677 mm) / 63 curved (111 mm)
+- **Words (OCR):** 77 in 65 lines: WARD-BECK Systems LTD; · PARTS LIST · ML63L SUBMASTER MODULE · PART · DESCRIPTION · MFG · MFG PART NUMBER · R1O) · delete · R11) · R12) · R13)
+- **Title block:** (26, 178)–(255, 429) mm: WARD-BECK Systems LTD; · PARTS LIST · ML63L SUBMASTER MODULE · PART · DESCRIPTION · MFG · R1O) · delete · R11) · R12) · R13) · R14 ) Potentiometer, quad · R1S) · Clarostat · WBS · R16) · R17) · R18) ·
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p13 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p13%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–335 mm across, 5–426 mm up
+- **Outlines:** line 174 rings, 1,572 straight (3,879 mm) / 273 curved (422 mm); text 484 rings, 3,783 straight (4,399 mm) / 1,173 curved (1,881 mm)
+- **Words (OCR):** 91 in 84 lines: WAAD-BECK BYBTEms LTD_ · PARTS List · M463L SUBMASTER MODULE · PART DESCRIPTION · MFG · MFG PART NUMBER · R46 · Resistor · 1/4w · 15k · Philips · R47
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p14 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p14%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–312 mm across, 0–424 mm up
+- **Outlines:** line 164 rings, 1,579 straight (4,223 mm) / 246 curved (388 mm); text 529 rings, 3,911 straight (4,549 mm) / 1,229 curved (1,877 mm)
+- **Words (OCR):** 89 in 85 lines: WAAD-BECK SYSTEmS LTD_ · PARTS LiST · M463L SUBMASTER · MODULE · DESCRIPTION · MFG · MFG · PART NUMBER · PART · R83 · delete · R84
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p15 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p15%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–332 mm across, 5–425 mm up
+- **Outlines:** line 43 rings, 867 straight (2,853 mm) / 97 curved (149 mm); text 542 rings, 4,291 straight (4,958 mm) / 1,287 curved (2,029 mm); tb 106 rings, 613 straight (960 mm) / 124 curved (184 mm)
+- **Words (OCR):** 94 in 84 lines: WAAD-BECK systems LTD. · PARIS List · M463L · SUBMASTER MODULE · PART · DESCRIPTION · MFG · MFG PART NUMBER · R118 · Resistor 1/4w · 47 · Philips
+- **Title block:** (25, 74)–(254, 429) mm: WAAD-BECK systems LTD. · PARIS List · M463L · SUBMASTER MODULE · PART · DESCRIPTION · MFG · R118 · Resistor 1/4w · 47 · Philips · R119 · 47 · R12O · 47 · R12i · 15k · R122 · 15k · R123 · 3.3 · R124 · 
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p16 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p16%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–310 mm across, 0–424 mm up
+- **Outlines:** line 75 rings, 1,008 straight (3,098 mm) / 167 curved (255 mm); text 413 rings, 3,400 straight (4,069 mm) / 1,007 curved (1,620 mm); tb 44 rings, 324 straight (746 mm) / 56 curved (88.0 mm)
+- **Words (OCR):** 66 in 51 lines: WARD-BECK · by8tems LTD · PARTS · List · ML63L SUBMASTER · MODULE · PART DESCRIPTION · MFG · MFG PART · NUMBER · Sw1o Switch · WBS 11-005
+- **Title block:** (23, 203)–(253, 427) mm: WARD-BECK · by8tems LTD · PARTS · List · ML63L SUBMASTER · MODULE · PART DESCRIPTION · MFG · MFG PART · Sw1o Switch · WBS 11-005 · Schadow · SWi1 · WBS 11-002 · Sw12 · SW13 · SW14 · WBS 11-002 · Sw15 
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p17 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p17%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 0–425 mm up
+- **Outlines:** line 99 rings, 1,402 straight (4,178 mm) / 203 curved (321 mm); text 887 rings, 6,490 straight (7,559 mm) / 1,953 curved (3,180 mm)
+- **Words (OCR):** 122 in 99 lines: WARD-BECK systems LTD, · PARTS LIST · M463L SUBMASTER MQDULE · CONTROL KNOBS, CAPS · ANDBUITONS · USED ON · DESCRIPTION · MFG · VFG · PART NUMBER · R1 · Knob
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p18 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p18%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–307 mm across, 18–424 mm up
+- **Outlines:** line 79 rings, 1,362 straight (3,736 mm) / 194 curved (308 mm); text 686 rings, 5,132 straight (5,771 mm) / 1,511 curved (2,338 mm)
+- **Words (OCR):** 75 in 60 lines: WAAO-BECK SysTems LTD; · PARtS List · "463L SUBVASTER · MODULE · CONTROL KNORS, · CAPS AND · BUTTONS · USED ON · DESCRiPTION · MFG · "FG PART NUMBER · SWs
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p19 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p19%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–329 mm across, 20–421 mm up
+- **Outlines:** line 23 rings, 695 straight (2,644 mm) / 56 curved (89.1 mm); text 57 rings, 502 straight (639 mm) / 94 curved (155 mm)
+- **Words (OCR):** 5 in 2 lines: WAAD-BECK SYsTeMS LTD_ · 8-109 AMPL IFIER SERIES
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p20 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p20%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 0–423 mm up
+- **Outlines:** line 124 rings, 1,600 straight (3,656 mm) / 270 curved (430 mm); text 1,448 rings, 9,951 straight (10,768 mm) / 3,036 curved (4,940 mm); tb 2 rings, 10 straight (11.2 mm) / 2 curved (3.8 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.7 @ (190.6, 102.3)
+- **Dots (junctions):** 1
+- **Words (OCR):** 267 in 178 lines: WARD-BECK SYSTEMS LTD, · Mo · DESCRIPTION · 23 · 8-109 · AMPLIFIER · SERIES · The · 8-109 · series of · amplifiers are · utilized as
+- **Title block:** (30, 309)–(160, 425) mm: WARD-BECK SYSTEMS LTD, · Mo · 23 · 8-109 · The · 8-109 · series of · amplifiers are · within · various · WBS series · mounts as · amplifier
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p21 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p21%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–423 mm up
+- **Outlines:** line 69 rings, 1,225 straight (3,377 mm) / 135 curved (221 mm); text 1,935 rings, 13,911 straight (14,785 mm) / 4,102 curved (6,471 mm)
+- **Words (OCR):** 321 in 163 lines: WARD-BECK SYSTEMS LTD_ · 4o · DESCRIPT ION · 8-109 · AMPL IFIER SERIES · Ins · Output Level Ce 28 · dBm maximum. 7c · eot-3 · eon- · 36 · lubon
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p22 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p22%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–336 mm across, 4–432 mm up
+- **Outlines:** line 191 rings, 1,731 straight (4,041 mm) / 287 curved (428 mm); text 804 rings, 6,132 straight (6,928 mm) / 1,920 curved (3,221 mm)
+- **Words (OCR):** 139 in 115 lines: WARD-BECK · SYSTEMS LT_ · GTJ · T2i PARTS LiST · 21138-109 AMPLIFIER SERIES · e01-8 · 8-109 · 37M · TAA9 · PARI · DESCRIPTION · MFG
+- **Title block:** (30, 400)–(159, 427) mm: WARD-BECK · SYSTEMS LT_
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p23 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p23%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 21–422 mm up
+- **Outlines:** line 298 rings, 2,475 straight (4,604 mm) / 437 curved (631 mm); text 525 rings, 4,075 straight (4,604 mm) / 1,193 curved (1,929 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.7 @ (165.7, 204.2)
+- **Words (OCR):** 127 in 117 lines: WARD-BECK SYSTEMS · LTD_ · 0TJ · PARTS LiST · T2i · SERIES · 8-109 AMPLIFIER · 8-109 · 201-e · PART · DESCRIPTION · MFG
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p24 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p24%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–312 mm across, 0–423 mm up
+- **Outlines:** line 210 rings, 2,213 straight (5,430 mm) / 239 curved (332 mm); text 757 rings, 5,312 straight (6,035 mm) / 1,645 curved (2,655 mm)
+- **Words (OCR):** 146 in 105 lines: WAAD-BECK SYSTEMS LTD_ · OTJ aMateya 4o38-JAAW · PARTS LIST · 8-109 · AMPLIFIER SERIES · 8-109A · e0i-8 794 · 26 · VIA · AII parts as · per · 8-109 except as
+- **Title block:** (29, 400)–(138, 426) mm: WAAD-BECK SYSTEMS LTD_
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p25 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p25%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 0–423 mm up
+- **Outlines:** line 230 rings, 2,360 straight (5,214 mm) / 352 curved (500 mm); text 807 rings, 5,531 straight (6,339 mm) / 1,708 curved (2,760 mm)
+- **Words (OCR):** 144 in 100 lines: WAAD-BECK · SYSTEMS LTD_ · OTJ ZMataye Xoaa-OAAW · PARTS LiST · 8-109 AMPL IFIER SERIES · 8-109D · AII · parts as · per · 8-109 except as · noted below · 78G
+- **Title block:** (29, 404)–(138, 429) mm: WAAD-BECK · SYSTEMS LTD_
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p26 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p26%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–318 mm across, 0–422 mm up
+- **Outlines:** line 86 rings, 1,466 straight (4,277 mm) / 141 curved (220 mm); text 409 rings, 3,069 straight (3,513 mm) / 868 curved (1,409 mm); tb 3 rings, 12 straight (12.8 mm) / 3 curved (5.2 mm)
+- **Words (OCR):** 50 in 35 lines: WAAD-BECK · SYSTEMS · LTD_ · PARTS LiST · 8-109 · AMPLIFIER SERIES · 8-109G · AII parts per · as · 8-109 except as · noted · below
+- **Title block:** (30, 132)–(138, 424) mm: WAAD-BECK · SYSTEMS · 8-109G · AII parts per · as · PART · DESCIPT ION · C6 · Capacitor 4.7 pF · C11 · R15 · Resistor · 1/4w · WBS recommends the use · manufacturers for continued
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p27 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p27%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p27 (traced).dxf`).
+
+### Page 28
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–423 mm up
+- **Outlines:** line 23 rings, 628 straight (2,894 mm) / 74 curved (121 mm); text 82 rings, 654 straight (893 mm) / 202 curved (321 mm); tb 21 rings, 147 straight (140 mm) / 30 curved (40.6 mm)
+- **Words (OCR):** 8 in 4 lines: WARD-BECK systeMS LTD_ · 4-141 SUMMING AMPLIFIER · ISSUE#2 . · OCTOBER 1983
+- **Title block:** (23, 44)–(267, 426) mm: WARD-BECK systeMS LTD_ · 4-141 SUMMING AMPLIFIER · ISSUE#2 . · OCTOBER 1983
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p28 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p28%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p28 (traced).dxf`).
+
+### Page 29
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–415 mm up
+- **Outlines:** line 44 rings, 889 straight (3,281 mm) / 123 curved (176 mm); text 910 rings, 6,484 straight (7,322 mm) / 1,922 curved (3,002 mm)
+- **Words (OCR):** 134 in 76 lines: WARD-BECK SYSTEMS LTD_ · CIRcUIT · DESCRIPTION · 4-141 · summinG · AMPL IFIER · The 4-141 · ~summing · amplifier assembly js · designed t0 · be used a5 · the
+- **Title block:** (21, 297)–(132, 425) mm: WARD-BECK SYSTEMS LTD_ · 4-141 · The 4-141 · ~summing · input · amplifiers of WBS
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p29 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p29%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p29 (traced).dxf`).
+
+### Page 30
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–416 mm up
+- **Outlines:** line 206 rings, 1,610 straight (4,224 mm) / 325 curved (492 mm); text 941 rings, 7,225 straight (8,318 mm) / 2,240 curved (3,585 mm)
+- **Words (OCR):** 135 in 116 lines: WAAD-BECK SYSTeMS LTD · PARTS LiST · 4-141 summing · AMPLIFIER · PART DESCRIPTION · MFG · MFG PART NUMBER · C1 · Capacitor · 330 uF/6 · Kemet · T390F 337MOO6AS
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p30 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p30%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p30 (traced).dxf`).
+
+### Page 31
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–425 mm up
+- **Outlines:** line 90 rings, 1,354 straight (4,062 mm) / 200 curved (301 mm); text 608 rings, 4,530 straight (5,251 mm) / 1,313 curved (2,102 mm); tb 43 rings, 170 straight (172 mm) / 55 curved (75.0 mm)
+- **Words (OCR):** 96 in 73 lines: WARD-BECK Systems LTD · PARTS LisT · 4-141 Summing AMPLIFIER · PART · DESCR IPTION · MFG · MFG PART NUMBER · R8 · Resistor 1/4w 5% · 100 · Philips · R9
+- **Title block:** (20, 45)–(147, 429) mm: WARD-BECK Systems LTD · PART · DESCR IPTION · R8 · Resistor 1/4w 5% · 100 · R9 · 6K8 · R1O · 10 · RII · 3K · R12 · Trim Pot · IK · R13 · Resistor 1/4w · 59 · 1K8 · R14 · 15K · R1s · 100 · R16 · 100 · 
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p31 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p31%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p31 (traced).dxf`).
+
+### Page 32
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 0–425 mm up
+- **Outlines:** line 44 rings, 768 straight (2,897 mm) / 73 curved (131 mm); text 90 rings, 871 straight (1,076 mm) / 176 curved (285 mm); tb 16 rings, 141 straight (146 mm) / 41 curved (51.4 mm)
+- **Words (OCR):** 10 in 6 lines: WAAD-BECX Systems LTD · 4-126 EQUALIZER FILTER · AMPLIF IER · ISSUE · SEPTEMBER · 1983
+- **Title block:** (74, 46)–(253, 432) mm: WAAD-BECX Systems LTD · 4-126 EQUALIZER FILTER · AMPLIF IER · ISSUE
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p32 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p32%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p32 (traced).dxf`).
+
+### Page 33
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–332 mm across, 14–424 mm up
+- **Outlines:** line 31 rings, 675 straight (2,661 mm) / 101 curved (162 mm); text 1,761 rings, 12,913 straight (14,252 mm) / 3,729 curved (5,808 mm); tb 22 rings, 245 straight (566 mm) / 46 curved (61.9 mm)
+- **Words (OCR):** 239 in 95 lines: WAAD-BECX Systems LTD; · CiRcuiT · DESCRIPTION · 4-126 · EQUALIZER FILTER AMPL IFIER · The 4-126 equalizer filter · amplifier is · printed circuit board · utilized a5 an · internal component in · certain WBS 460 series equalizer · modules.
+- **Title block:** (73, 184)–(260, 432) mm: WAAD-BECX Systems LTD; · CiRcuiT · DESCRIPTION · 4-126 · EQUALIZER FILTER AMPL IFIER · The 4-126 equalizer filter · amplifier is · printed circuit board · internal component in · certain WBS 460 serie
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p33 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p33%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p33 (traced).dxf`).
+
+### Page 34
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–318 mm across, 0–422 mm up
+- **Outlines:** line 72 rings, 1,366 straight (3,905 mm) / 179 curved (285 mm); text 1,344 rings, 9,810 straight (11,149 mm) / 3,096 curved (4,953 mm)
+- **Words (OCR):** 164 in 125 lines: WAAD-BECK SYSTEMS LTD · PARTS LiST · 4-126 EQUAL IZER FilteR AMPLIFIER · DESCRIPTION · PART · MFG · MFG PART NUMBER · C1 · Capacitor 6 .8 uF/6 · Kemet · T39OB685MOO6AS · C2
+- **Title block:** (21, 407)–(132, 432) mm: WAAD-BECK SYSTEMS LTD
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p34 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p34%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p34 (traced).dxf`).
+
+### Page 35
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 0–425 mm up
+- **Outlines:** line 162 rings, 1,710 straight (4,249 mm) / 311 curved (487 mm); text 472 rings, 3,737 straight (4,357 mm) / 1,049 curved (1,705 mm)
+- **Words (OCR):** 92 in 83 lines: WAAD-EECX · systems LTD · PARIS LisT · 4-126 EQUAL IZER FILTER AMPLIFIER · PART DESCRIPTION · MFG · MFG PART · NUMBER · RI · Resistor · 1/4w 5% 10K · Philips
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p35 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p35%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p35 (traced).dxf`).
+
+### Page 36
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–322 mm across, 21–423 mm up
+- **Outlines:** line 70 rings, 1,005 straight (3,752 mm) / 145 curved (218 mm); text 454 rings, 3,638 straight (4,250 mm) / 948 curved (1,490 mm); tb 17 rings, 61 straight (59.0 mm) / 24 curved (37.6 mm)
+- **Words (OCR):** 63 in 43 lines: WAFD-BECX SYSTems LTD · PARTS · LiST · 4-126 · EQUAL IZER FiLTER AMPLIFIER · PART DESCR IPTION · MFG · MFG PART · NUMBER · RL5 · Resistor · 1/4w 5% 6k2
+- **Title block:** (22, 51)–(133, 432) mm: WAFD-BECX SYSTems LTD · 4-126 · PART DESCR IPTION · RL5 · Resistor · 1/4w 5% 6k2 · R46 · delete · R47 · Resistor · 1/4w57 IM · R48 · RL9 · RsO · delete · 21 · Integrated · Circuit · 22 · 23 · 24 · 25 
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p36 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p36%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p36 (traced).dxf`).
+
+### Page 37
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–308 mm across, 1–424 mm up
+- **Outlines:** line 58 rings, 1,091 straight (3,063 mm) / 172 curved (264 mm); text 1,876 rings, 14,082 straight (16,165 mm) / 4,209 curved (6,591 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 270 in 126 lines: WAAD-BECK SysTems LTD · OPERATIONAL CONTROLS · M463L SUBMASTER MODULE · MASTER ASSIGNMENT switches · Sw22 and SW23 : When depressed, · signal is · summing resistors to externa · LEFT output · fed via · master · summing buses · Mi
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p37 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p37%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p37 (traced).dxf`).
+
+### Page 38
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–331 mm across, 4–425 mm up
+- **Outlines:** line 67 rings, 1,205 straight (3,092 mm) / 198 curved (318 mm); text 1,712 rings, 12,912 straight (14,880 mm) / 3,970 curved (6,340 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 259 in 111 lines: LTD. · OPERATIONALCONTROLS · M463L SUBMASTER · MODULE · 11) Low · FREQUENCY · section, FREQUENCY ADJUSTMENT control · R7/8: · Continuously · variable from 25 t0 · 400 Hz . In · the PEAKING
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p38 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p38%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p38 (traced).dxf`).
+
+### Page 39
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–308 mm across, 1–425 mm up
+- **Outlines:** line 62 rings, 1,065 straight (3,194 mm) / 140 curved (216 mm); text 1,377 rings, 9,813 straight (11,135 mm) / 2,920 curved (4,581 mm)
+- **Words (OCR):** 203 in 101 lines: WAAD-BECK · SYSTEms LTD; · OPERATIONAL · CONTROLS · M463L SUBMASTER · MODULE · 21 ) · PRE/POST FOLDBACK switch · Sw2o: Allows the · choice · of the pick- · point for the
+- **Title block:** (21, 403)–(131, 428) mm: WAAD-BECK · SYSTEms LTD;
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p39 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p39%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p39 (traced).dxf`).
+
+### Page 40
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–432 mm up
+- **Outlines:** line 804 rings, 6,817 straight (15,559 mm) / 1,750 curved (3,604 mm); text 120 rings, 779 straight (891 mm) / 236 curved (320 mm); tb 20 rings, 169 straight (239 mm) / 38 curved (49.1 mm)
+- **Circles and arcs:** 70 circles, 0 arcs; largest r 5.1 @ (79.4, 319.5), r 5.1 @ (79.6, 222.2), r 5.0 @ (261.3, 199.4), r 5.0 @ (79.6, 300.6)
+- **Closed boxes:** 16; named: 469-04- 023; ASSUE; SCAE
+- **Dots (junctions):** 1
+- **Words (OCR):** 14 in 13 lines: 344--V/2 · I8o >0 · PAN · #iVijkur · WARO-Beck systems · WBS · Can JCc · M463[ · SUBMASTER MODULE · FRONT PANEL · SCAE · ASSUE
+- **Title block:** (226, 26)–(333, 50) mm: #iVijkur · WARO-Beck systems · WBS · Can JCc · M463[
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p40 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p40%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p40 (traced).dxf`).
+
+### Page 41
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–432 mm up
+- **Outlines:** line 195 rings, 3,077 straight (7,035 mm) / 406 curved (552 mm); text 144 rings, 1,023 straight (1,233 mm) / 350 curved (579 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 4.5 @ (162.4, 320.5)
+- **Closed boxes:** 30; named: 4-126; ON USED; Inss MOD ICKD
+- **Words (OCR):** 20 in 20 lines: EQ · INSERT · INSERT JACKS · FADER · Summing · BUS INPUT · 4-141 · 4-126 · I8-1094 · 10 dBm · (-15db ) · SLATE
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p41 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p41%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p41 (traced).dxf`).
+
+### Page 42
+
+- **Sheet:** functional 463-01-011, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 0–432 mm up
+- **Outlines:** line 285 rings, 6,162 straight (13,109 mm) / 836 curved (1,138 mm); text 489 rings, 3,441 straight (4,495 mm) / 1,155 curved (1,974 mm); tb 13 rings, 237 straight (611 mm) / 29 curved (54.7 mm)
+- **Centre lines:** 6,659 paths (85 closed); straight 10,220 mm, curved 36.3 mm; horizontal 3,797 mm, vertical 2,817 mm, diagonal 3,606 mm
+- **Circles and arcs:** 4 circles, 2 arcs; largest r 2.0 @ (56.2, 333.1), r 1.7 @ (57.2, 348.9), r 1.7 @ (56.3, 332.9), r 1.7 @ (74.9, 341.2)
+- **Closed boxes:** 14 (3 in the title block); named: MATL; WBS WAAD-Beck bybTeMs LTD_; M463L MODULE SUBMASTER FUNCTIONAL DIAGRA; 463-01-011; TOLS
+- **Words (OCR):** 78 in 74 lines: DIRECT Out · PAN · +8 dBm · INSERT · MiX · M1 · LEFT · ER · OUT · db ) · 7m3 · 8.109F
+- **Title block:** (100, 17)–(250, 87) mm: WBS WAAD-Beck bybTeMs LTD_ · DRN · VINJCE · DATE 80/1 , 2 ( · SUBMASTER · CKD · SCALE · TOLS
+- **Wiring (first pass):** 113 connected wire groups from 305 runs; labelled ends: 207 mm → +8 dBm, LEFT, CONTROL; 164 mm → PRE/post, PRE/POST; 155 mm → LTD_, WBS, WAAD-Beck; 115 mm → DIRECT Out, +8 dBm, PAN, INSERT; 81 mm → MiX, INSERT, PAN
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p42 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p42%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p42 (traced).dxf`).
+
+### Page 43
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–427 mm up
+- **Outlines:** line 228 rings, 4,855 straight (9,831 mm) / 835 curved (1,285 mm); text 391 rings, 3,347 straight (3,916 mm) / 988 curved (1,605 mm)
+- **Words (OCR):** 92 in 89 lines: +2iv · ~Zlv · IE4 · IES · 4-141 · JS · Pi - | · IE3 · SumminG · IEI · SUMMiNG · INPUT
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p43 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p43%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p43 (traced).dxf`).
+
+### Page 44
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 1–424 mm up
+- **Outlines:** line 246 rings, 6,175 straight (13,852 mm) / 1,010 curved (1,617 mm); text 361 rings, 3,405 straight (3,929 mm) / 1,052 curved (1,665 mm)
+- **Words (OCR):** 116 in 109 lines: Hf · MF · 21v · L6khz - 25khz · 4Oohz- 6.4khz · Ri · R2 · R4 · RS · iOOk · IOOk · IOOk
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p44 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p44%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p44 (traced).dxf`).
+
+### Page 45
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–430 mm up
+- **Outlines:** line 270 rings, 6,045 straight (13,129 mm) / 1,062 curved (1,598 mm); text 354 rings, 2,947 straight (3,404 mm) / 980 curved (1,555 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.4 @ (198.2, 50.5)
+- **Closed boxes:** 1; named: R1n
+- **Words (OCR):** 100 in 93 lines: LF · 25Hz · +2]v · ~2iv · R7 · R8 · SLATE · iNPUT · KOk · 3E3 · 307 · 3E1
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p45 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p45%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p45 (traced).dxf`).
+
+### Page 46
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–430 mm up
+- **Outlines:** line 378 rings, 6,066 straight (12,774 mm) / 961 curved (1,412 mm); text 521 rings, 3,853 straight (4,342 mm) / 1,291 curved (2,053 mm)
+- **Closed boxes:** 33
+- **Dots (junctions):** 2
+- **Words (OCR):** 105 in 89 lines: P2 · RI38 · Ri4o · ~2iv · 470 · RAZ · ~2iv · ~2iv · SLATE · Sk · iNPUT · 3E7
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p46 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p46%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p46 (traced).dxf`).
+
+### Page 47
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–329 mm across, 0–429 mm up
+- **Outlines:** line 579 rings, 9,789 straight (20,603 mm) / 1,680 curved (2,572 mm); text 759 rings, 5,329 straight (5,954 mm) / 1,905 curved (2,889 mm)
+- **Closed boxes:** 50; named: WBS LtD; Sub _ MASTER MODuUle SCHEMATIC; 463 - 02 -011; LB
+- **Words (OCR):** 170 in 133 lines: DIRECT · 7P2-12 CUTPUT · +8d3m · ~2lv · ~Ziv · P2-N · Ri3o · NoMiNAL · P?-3 · 463 · Sw2z Ri3i 22 PZ-€ Left · Mi
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p47 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p47%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p47 (traced).dxf`).
+
+### Page 48
+
+- **Sheet:** mechanical 4460-03-014, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–432 mm up
+- **Outlines:** line 786 rings, 6,084 straight (9,673 mm) / 1,472 curved (2,137 mm); text 873 rings, 5,566 straight (6,058 mm) / 2,036 curved (2,988 mm)
+- **Centre lines:** 8,949 paths (196 closed); straight 9,853 mm, curved 526 mm; horizontal 3,030 mm, vertical 2,092 mm, diagonal 4,731 mm
+- **Circles and arcs:** 31 circles, 60 arcs; largest r 7.6 @ (187.4, 228.7), r 3.1 @ (56.3, 223.7), r 2.9 @ (187.3, 228.4), r 2.8 @ (56.0, 202.6)
+- **Closed boxes:** 10; named: 24; Tip 30B; 23; Ki V23030-A202/-4/04; 22; 298
+- **Dots (junctions):** 1
+- **Words (OCR):** 129 in 102 lines: MOUNTED ON · SOLDER SIDE · Rios · Swi · Swi3 Iswi2 · 5wi · R82 · 9 0 9 · RBo 42 · 0 0000 · ~R8i* · R9O 228
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p48 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p48%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p48 (traced).dxf`).
+
+### Page 49
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–432 mm up
+- **Outlines:** line 643 rings, 7,250 straight (11,786 mm) / 1,414 curved (1,908 mm); text 641 rings, 3,858 straight (4,080 mm) / 1,298 curved (1,816 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 2.6 @ (245.4, 149.7), r 2.6 @ (71.7, 149.5), r 2.1 @ (165.1, 215.1), r 2.1 @ (127.9, 215.1)
+- **Closed boxes:** 34; named: 5m40 SheR; 5 /7 320; Swc; WBS WARO-DrcK; M46JL AsteR Module SUB _ COMPONENT LAYOU; Tolt
+- **Dots (junctions):** 1
+- **Words (OCR):** 84 in 66 lines: 5m40 · 54? · 54B 5 /7 · Swc 545 5w4 · 543 · SheR · ILT PcB · 320 · FOR M463 · 2E3 218 · 79 = C17 - · 0122
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p49 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p49%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p49 (traced).dxf`).
+
+### Page 50
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–432 mm up
+- **Outlines:** line 212 rings, 4,439 straight (7,146 mm) / 604 curved (788 mm); text 473 rings, 3,650 straight (4,874 mm) / 1,013 curved (1,671 mm)
+- **Closed boxes:** 25; named: 2 /22; DSS MODIICKD]
+- **Words (OCR):** 97 in 51 lines: P1 · SUMM / · NG INPUT · SUMM NG INPUT · NC · SHIELD · PA · C3 PA · RS2 Di4 · RS2 · RS1 · RS 1
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p50 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p50%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p50 (traced).dxf`).
+
+### Page 51
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–432 mm up
+- **Outlines:** line 163 rings, 4,623 straight (8,369 mm) / 607 curved (824 mm); text 500 rings, 4,001 straight (5,202 mm) / 1,117 curved (1,846 mm); tb 27 rings, 353 straight (720 mm) / 53 curved (96.1 mm)
+- **Closed boxes:** 16 (3 in the title block); named: X2o; Y /21; 2 /22; MATL .; WBS WARD-BeCK LTD.; M45 3L MODULE SUB-MASTER REAR V|EW CONNE; XX TOLS ANG; 463 -04-024; ISS_
+- **Words (OCR):** 102 in 60 lines: P2 · IC · IC · GND · GND · LEFT · C|3 LEFT OUT (MI) · LEFT OUT D /4 LEFT OUT · (M3) · RIGHT OUT · E|5 RIGHT OuT (M2) · RIGHT
+- **Title block:** (101, 16)–(251, 85) mm: WBS WARD-BeCK · DRN. Vikce · M45 3L · SUB-MASTER · CKD · CONNECTOR · SCALE · TOLS
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p51 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p51%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p51 (traced).dxf`).
+
+### Page 52
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 194 rings, 4,140 straight (11,404 mm) / 661 curved (1,100 mm); text 509 rings, 3,401 straight (3,532 mm) / 1,133 curved (1,609 mm)
+- **Closed boxes:** 4; named: Jp
+- **Words (OCR):** 123 in 119 lines: R13 · +18v · 390 · C3 · io/z5 · Ri7 · Ris · 4k7 · 22 · 32 · Pn3C45 · 03
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p52 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p52%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p52 (traced).dxf`).
+
+### Page 53
+
+- **Sheet:** schematic 8-109 02-002, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 292 rings, 4,901 straight (8,852 mm) / 965 curved (1,311 mm); text 349 rings, 2,501 straight (2,649 mm) / 851 curved (1,225 mm); tb 66 rings, 346 straight (356 mm) / 88 curved (94.7 mm)
+- **Centre lines:** 7,989 paths (70 closed); straight 7,728 mm, curved 336 mm; horizontal 3,125 mm, vertical 1,624 mm, diagonal 2,980 mm
+- **Circles and arcs:** 4 circles, 50 arcs; largest r 5.8 @ (50.2, 287.3), r 5.7 @ (49.8, 362.7), r 5.7 @ (50.4, 167.4), r 1.2 @ (64.0, 289.8)
+- **Closed boxes:** 5 (3 in the title block)
+- **Words (OCR):** 86 in 81 lines: E3 · +21.5Y · Ris · 22 · 32 · PN3645 · 03 · 2N2102 · R3o · 6*6 · E4 · C8
+- **Title block:** (227, 0)–(336, 59) mm: ISSUE] DATE · REVISION · APP · WBS WARD-BECK SYBTEMS · 8 - 109 · ENG MRW 4/78 · OUtput AMPLIFIER · App: · SCHEMATIC · SCALE · ISSUE · 8-109-02-002
+- **Wiring (first pass):** 31 connected wire groups from 198 runs; labelled ends: 201 mm → ZN4037, E7; 193 mm → E3, 2N2102; 147 mm → R37, 4K7, CiG, 22o/10; 133 mm → 22o/10, E4, R3c; 114 mm → R35, 5*6, CiG, 22o/10
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p53 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p53%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p53 (traced).dxf`).
+
+### Page 54
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 219 rings, 3,053 straight (7,089 mm) / 534 curved (1,199 mm); text 609 rings, 5,312 straight (7,067 mm) / 1,380 curved (2,439 mm)
+- **Circles and arcs:** 13 circles, 0 arcs; largest r 10.6 @ (65.3, 143.4), r 10.6 @ (128.7, 269.7), r 10.6 @ (129.4, 143.2), r 10.6 @ (64.6, 269.6)
+- **Closed boxes:** 2; named: Lf356; 22 Lf356
+- **Words (OCR):** 88 in 85 lines: 0E7 · E2C · #C223/6 · ~Ci · 33/10 · R16 22k · +4lk · R?_4zk · ~Ria 2ek · 4k7 · CR2z_ · L~Rzi
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p54 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p54%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p54 (traced).dxf`).
+
+### Page 55
+
+- **Sheet:** component layout 8-109-06-002, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 338 rings, 3,894 straight (7,099 mm) / 1,067 curved (985 mm); text 313 rings, 3,119 straight (3,854 mm) / 840 curved (1,040 mm); tb 9 rings, 167 straight (346 mm) / 25 curved (26.4 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 6.6 @ (44.5, 339.9), r 5.6 @ (44.6, 340.1), r 5.5 @ (44.4, 91.1), r 5.5 @ (44.2, 163.6)
+- **Closed boxes:** 14 (10 in the title block); named: SCALE; ISSUE; 8-109-06-002
+- **Words (OCR):** 38 in 33 lines: E2C · #C2 23/0 · R2_ · 47k · R6 · 48k · R7470 · 22 · LF356 · -C1o47p · ~Ciis7p · ~RIl Jk
+- **Title block:** (114, 10)–(332, 112) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYBTEMS · DRN: GEB · 8 ~ 109A · ENG.MRW 4/78 · OUTPUT AMPLIFIER · CKDRr< · COMPONENT LAYOUT · APP · SCALE · ISSUE · 8-109-06-002
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p55 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p55%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p55 (traced).dxf`).
+
+### Page 56
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 201 rings, 4,815 straight (12,363 mm) / 764 curved (1,210 mm); text 507 rings, 3,276 straight (3,427 mm) / 1,139 curved (1,657 mm)
+- **Closed boxes:** 4; named: ci 4*p
+- **Words (OCR):** 126 in 122 lines: +I8v · 390 · C3 · iolz5 · Ri7 · Ris · 4k7 · 22 · 02 · PN3645 · 03 · Rs
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p56 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p56%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p56 (traced).dxf`).
+
+### Page 57
+
+- **Sheet:** schematic 8-109 02-007, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 265 rings, 5,332 straight (9,052 mm) / 885 curved (1,186 mm); text 377 rings, 2,749 straight (2,891 mm) / 904 curved (1,293 mm); tb 16 rings, 98 straight (179 mm) / 9 curved (7.6 mm)
+- **Centre lines:** 10,920 paths (102 closed); straight 8,865 mm, curved 267 mm; horizontal 3,432 mm, vertical 1,848 mm, diagonal 3,585 mm
+- **Circles and arcs:** 5 circles, 29 arcs; largest r 5.8 @ (51.2, 363.9), r 5.8 @ (51.6, 288.4), r 5.6 @ (51.3, 168.4), r 1.2 @ (22.1, 179.8)
+- **Closed boxes:** 11 (10 in the title block)
+- **Words (OCR):** 91 in 84 lines: E3 · +21.Sv · Ris · 22 · 42 · PN3C45 · C7 · 03 · 2n2102 · Iop · R3o · 6*B
+- **Title block:** (227, 0)–(336, 59) mm: IssUEIDATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: GEB · 8~109f · ENG.MRw 4[78 · BooSTeR AMPLIFIER · CKD: · APP · SCHEMATIC · SCALE · ISSUE · 8-109-02-007
+- **Wiring (first pass):** 25 connected wire groups from 255 runs; labelled ends: 204 mm → 2N4037, E7; 200 mm → E3, 2n2102; 150 mm → R37, 4k7, ci6, 22o/10; 148 mm → 220/10, R3c, 4k7; 109 mm → R34, 5-6, 220/10
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p57 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p57%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p57 (traced).dxf`).
+
+### Page 58
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 185 rings, 2,834 straight (6,976 mm) / 468 curved (986 mm); text 653 rings, 5,492 straight (7,321 mm) / 1,476 curved (2,597 mm); tb 11 rings, 168 straight (467 mm) / 17 curved (52.1 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 11.2 @ (84.7, 141.1), r 11.1 @ (21.0, 141.5), r 11.1 @ (20.7, 267.8), r 10.6 @ (84.2, 267.8)
+- **Closed boxes:** 2; named: Lf356; z2 Lf3S6
+- **Words (OCR):** 99 in 92 lines: E7 · E2 · ~CI 33/10 +C2: · 23/6 · -C8-ep · ~RI6 22k · 47k · 22k · 6k2 · 6k2 · ~Ri8 · RS
+- **Title block:** (161, 37)–(336, 170) mm: ES · WBS · 8-109 · 2o/ecl6 - · -ci5t · 22o/6 · 4k7 · ~R374K7 · ~R36 · EG · DRI · ENG · CKC
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p58 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p58%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p58 (traced).dxf`).
+
+### Page 59
+
+- **Sheet:** component layout 8-109-06-007, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 188 rings, 3,252 straight (6,945 mm) / 925 curved (872 mm); text 304 rings, 3,143 straight (3,950 mm) / 769 curved (968 mm); tb 10 rings, 182 straight (358 mm) / 14 curved (16.0 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 5.5 @ (42.8, 338.0), r 5.4 @ (42.9, 89.0)
+- **Closed boxes:** 13 (9 in the title block); named: 8-109-06-007; ISSUE; SCALE
+- **Words (OCR):** 42 in 36 lines: 23/1 · Fc2: 47k · Rz_ · Gkz · R4 · RG LK? · Iek · R7 · 22 · LF356 · ~Clof-p · ~Ril Jek
+- **Title block:** (113, 9)–(331, 110) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: GEB · 8 ~ 109F · ENG.MRW 4/78 · BOOSTER AMPLIFIER · CKD. Rak · COMPONENT · LAYOUT · APP · SCALE · ISSUE · 8-109-06-007
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p59 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p59%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p59 (traced).dxf`).
+
+### Page 60
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 3–425 mm up
+- **Outlines:** line 158 rings, 5,116 straight (12,123 mm) / 742 curved (1,441 mm); text 467 rings, 4,737 straight (6,670 mm) / 1,382 curved (2,620 mm)
+- **Closed boxes:** 24; named: USEON; ISSMODIICKD; 23L; 36.53 PKM; 4645
+- **Words (OCR):** 108 in 88 lines: C4 I0 · c8 · 680p +ISV · IOP · E3 · Q1 · 21 · PN3569 · 330/6 · 739 · 2YH R5 R7 · RI #I5v_Jla Ik8 IOO R9
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p60 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p60%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p60 (traced).dxf`).
+
+### Page 61
+
+- **Sheet:** schematic 4-141-02-001, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 2–425 mm up
+- **Outlines:** line 125 rings, 3,732 straight (8,711 mm) / 511 curved (874 mm); text 467 rings, 4,603 straight (6,564 mm) / 1,218 curved (2,211 mm); tb 10 rings, 175 straight (403 mm) / 25 curved (43.7 mm)
+- **Centre lines:** 4,114 paths (54 closed); straight 9,244 mm, curved 145 mm; horizontal 3,377 mm, vertical 1,994 mm, diagonal 3,872 mm
+- **Circles and arcs:** 2 circles, 12 arcs; largest r 9.6 @ (13.4, 207.2), r 1.4 @ (5.5, 236.9)
+- **Closed boxes:** 12 (3 in the title block); named: WBS WARD-BECK ByBTEMB LTD.; MATL _; 4-141 SUMMinG AMPLIFIER SCHEMATIC; FINISH; ISS.; 4-141-02-001; TOLS .
+- **Words (OCR):** 80 in 63 lines: NOTES · zi · IS FAcTORY SELECTED · NOMINAL VALUE 33opf · CI · ON · R9 WAS 7k5 · Rzl WAS Not INCLUDED _ · 8p · LAsT CoMPONEnTS · C 23 · Q4 026 22
+- **Title block:** (99, 15)–(250, 86) mm: WBS WARD-BECK ByBTEMB LTD. · DM · DRN: · DATE NOV 74 · 4-141 · SUMMinG AMPLIFIER · CKD: · SCHEMATIC · SCALE · TOLS . · 4-141-02-001
+- **Wiring (first pass):** 36 connected wire groups from 164 runs; labelled ends: 236 mm → Sk, ON, {OOOp, WBS; 194 mm → 2k4, C12, Rig, 47; 191 mm → DRN:, DATE NOV, CKD:; 114 mm → Ri7, 7k5, R25, 2k4; 106 mm → C14, IOOe, 22, LMZOL
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p61 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p61%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p61 (traced).dxf`).
+
+### Page 62
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 4–422 mm up
+- **Outlines:** line 160 rings, 3,422 straight (8,152 mm) / 451 curved (946 mm); text 243 rings, 2,304 straight (2,933 mm) / 687 curved (1,191 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 8.6 @ (320.2, 198.1), r 5.2 @ (322.4, 257.2), r 3.4 @ (251.2, 242.3)
+- **Closed boxes:** 53; named: 22 LM 2oin; ISS;; MOD; cKD: ISSMODICKD:; USED ON; 4045; M.L; 230; 3223; 3512; GEB; 3692
+- **Words (OCR):** 50 in 39 lines: C2 · 22 · LM 2oin · 3569 · 'PCis_ · ~CI4lop k3 · ~~R2O · ~C12"p DIF · 16 · IK · E1 · R2o
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p62 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p62%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p62 (traced).dxf`).
+
+### Page 63
+
+- **Sheet:** component layout 4-141-06-001, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 3–432 mm up
+- **Outlines:** line 271 rings, 5,265 straight (10,240 mm) / 1,426 curved (1,519 mm); text 463 rings, 5,005 straight (5,759 mm) / 1,332 curved (1,688 mm); tb 23 rings, 253 straight (436 mm) / 41 curved (47.4 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 13.8 @ (44.4, 257.5), r 8.8 @ (42.0, 198.1), r 8.5 @ (43.0, 315.6), r 5.3 @ (44.3, 257.5)
+- **Closed boxes:** 14 (4 in the title block); named: 21 739PC; MATL .; WBS WAAD-BeCK LTD_; 4-141 SUMMING AMPLIFIER COMPONENT LAYOUT; FIMISH; 4-141-06-001; ISS.; XX Ta TOLS _
+- **Words (OCR):** 83 in 73 lines: E8 · E30 · Pn5138 · ~R14'5K · R2 #7K ce Iczo|R22 · 04 · 22 · RI3 Ie · -C2?-2p7 · Zoo · M 2oim · loop
+- **Title block:** (98, 14)–(249, 84) mm: WBS WAAD-BeCK · DRN: · DM · 4-141 · DATE DEC · 74 · SUMMING AMPLIFIER · CKD · COMPONENT LAYOUT · SCALE · TOLS _ · 4-141-06-001
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p63 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p63%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p63 (traced).dxf`).
+
+### Page 64
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–427 mm up
+- **Outlines:** line 227 rings, 2,975 straight (6,772 mm) / 571 curved (818 mm); text 403 rings, 2,976 straight (3,454 mm) / 929 curved (1,402 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.7 @ (165.3, 359.8)
+- **Dots (junctions):** 1
+- **Words (OCR):** 77 in 67 lines: HSH FREQUENCY · (16kHz: 25kHz. ) · E3 · R3 · 6k2 · c8i6 · 23 · ci0 · R2 · ~MENED · 0oo · Iok
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p64 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p64%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p64 (traced).dxf`).
+
+### Page 65
+
+- **Sheet:** schematic 4-126-02-001, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–432 mm up
+- **Outlines:** line 533 rings, 7,605 straight (14,892 mm) / 1,467 curved (1,943 mm); text 461 rings, 3,039 straight (3,289 mm) / 1,045 curved (1,555 mm); tb 28 rings, 206 straight (304 mm) / 46 curved (66.1 mm)
+- **Centre lines:** 10,963 paths (107 closed); straight 12,006 mm, curved 226 mm; horizontal 4,191 mm, vertical 3,292 mm, diagonal 4,524 mm
+- **Circles and arcs:** 10 circles, 52 arcs; largest r 1.6 @ (249.1, 224.1), r 1.5 @ (134.3, 168.6), r 1.4 @ (280.0, 338.1), r 1.3 @ (264.8, 340.9)
+- **Closed boxes:** 23 (15 in the title block); named: WBS WAAD-BeCK ByBTeMB LT; 949
+- **Words (OCR):** 115 in 105 lines: MD · EREQUENGY (400 Hz Gkhz ) · E5 · RI4 · Iok · Ri2 · R2i · R23 · cio · 6k2 · C18 · c21
+- **Title block:** (132, 4)–(323, 51) mm: ISS MOD CKD] · USED ON · MATL · 949 · WBS WAAD-BeCK ByBTeMB LT · 394- Rl · 26532 · DRN · DATE Oct · 4-126 · Finish · CKD. · Le · EQUALIZER FIliER · SCALE · AMPLIFIER SCHEMATHC · TOLS · 4-126-02-001 · 
+- **Wiring (first pass):** 79 connected wire groups from 484 runs; labelled ends: 231 mm → R38, iok, 22<2, 225; 155 mm → cio, ci, 23; 146 mm → R2i, 6k2, C18, #Coop; 140 mm → RI4, Iok; 138 mm → R45, 6k2, c42, LF
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p65 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p65%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p65 (traced).dxf`).
+
+### Page 66
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 349 rings, 5,629 straight (12,453 mm) / 827 curved (1,432 mm); text 429 rings, 3,514 straight (4,349 mm) / 1,020 curved (1,759 mm); tb 17 rings, 175 straight (255 mm) / 44 curved (66.6 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 23.3 @ (127.7, 323.8), r 4.8 @ (218.0, 247.8), r 4.8 @ (217.4, 220.6), r 4.8 @ (325.7, 234.5)
+- **Closed boxes:** 28 (22 in the title block); named: 2i LM2oiN; FiNISH
+- **Words (OCR):** 68 in 61 lines: 68/6 · R2o | Ri?clg Zte · C6 · 25 · R24 · Ri8 · LMi458 · R7 · 2i · R3 · C1b · R2
+- **Title block:** (190, 18)–(335, 68) mm: ISSNOD -cKD] · USED OM · Mati · WE · 2 Ib563 [PM · BD · DRN · DATE UU · FiNISH · CKD.44, · [CALE
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p66 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p66%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p66 (traced).dxf`).
+
+### Page 67
+
+- **Sheet:** component layout 4-126-06-001, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–432 mm up
+- **Outlines:** line 581 rings, 7,737 straight (13,652 mm) / 2,046 curved (2,053 mm); text 523 rings, 5,122 straight (5,546 mm) / 1,369 curved (1,715 mm); tb 17 rings, 175 straight (263 mm) / 40 curved (40.5 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 4.8 @ (202.1, 234.3), r 4.8 @ (92.3, 129.5), r 4.8 @ (92.7, 220.2), r 1.8 @ (214.1, 193.0)
+- **Closed boxes:** 34 (1 in the title block); named: 21 LMoIN; WBS WAAD-Beck systbms LTo:; 4-126 EQUALIZER FILTER COMPONENT ASSEMBL; TOLs; 4-126-06-001; Iss_
+- **Words (OCR):** 79 in 65 lines: 18 6-8/6 · E3 · E2 · ~C9 + · R19cig c18 · C6 · Z5 · R2o · R24 R18 · 1458 · 19 · R7 21
+- **Title block:** (186, 12)–(284, 62) mm: WBS WAAD-Beck systbms LTo: · DRN · Dm · DATL JULY 74 · 4-126 · EQUALIZER FILTER · CKD_ · 44 · COMPONENT ASSEMBLY · [SCALE · TOLs
+
+Every curve, box, word and wire group: [1974 - M463L - Submaster Module p67 (traced).json](1974%20-%20M463L%20-%20Submaster%20Module%20p67%20%28traced%29.json) (the CAD file: `1974 - M463L - Submaster Module p67 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

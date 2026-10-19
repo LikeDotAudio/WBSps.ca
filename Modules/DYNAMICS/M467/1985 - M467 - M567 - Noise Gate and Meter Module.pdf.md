@@ -16,6 +16,329 @@ Wiki page: [M467](../../../PAGES/M467.md)
 
 - **1985** (manual_issue): `MANUAL ISSUE I. W :// SEPTEMBER 1985` — …4'8 "311 ' ~ M467 /M567 NOISE GATE. METER MODULE a .c ps BS MANUAL ISSUE I. W :// SEPTEMBER 1985 tp ht…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 307 × 432 mm, 1421 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–296 mm across, 9–411 mm up
+- **Outlines:** line 41 rings, 948 straight (3,334 mm) / 176 curved (273 mm); text 42 rings, 460 straight (744 mm) / 92 curved (160 mm); tb 92 rings, 1,124 straight (1,498 mm) / 282 curved (473 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.9 @ (268.2, 393.7)
+- **Closed boxes:** 1
+- **Words (OCR):** 25 in 16 lines: (VVElS] 64' · WARD-BECK YSTE · LT · !fe · CNT'"""'O · ~a.E · TtLE"""'CINE 4'8 · "311 · M467 /M567 · NOISE GATE. METER MODULE · ps · BS
+- **Title block:** (100, 30)–(251, 418) mm: WARD-BECK YSTE · !fe · CNT'"""'O · ~a.E · TtLE"""'CINE 4'8 · "311 · M467 /M567 · NOISE GATE. METER MODULE · MANUAL ISSUE
+
+Every curve, box, word and wire group: [1985 - M467 - M567 - Noise Gate and Meter Module p1 (traced).json](1985%20-%20M467%20-%20M567%20-%20Noise%20Gate%20and%20Meter%20Module%20p1%20%28traced%29.json) (the CAD file: `1985 - M467 - M567 - Noise Gate and Meter Module p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 303 × 432 mm, 1402 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–293 mm across, 0–408 mm up
+- **Outlines:** line 445 rings, 3,717 straight (6,352 mm) / 1,028 curved (1,623 mm); text 590 rings, 4,479 straight (4,966 mm) / 1,384 curved (2,256 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 1.8 @ (141.7, 102.7), r 1.8 @ (29.9, 102.7), r 1.8 @ (73.2, 272.8), r 1.8 @ (42.2, 272.9)
+- **Closed boxes:** 1
+- **Dots (junctions):** 5
+- **Words (OCR):** 186 in 83 lines: WARO ·BECI< SYSTEMS LTO · ECHNI CAL DA · ~46 7/M 567 NO SE GA TE ND METER MODUL · Gain: · Un it · requency Re sp on se · 25 dB from · to 20 · Hz · No se: · Bm · so ute
+
+Every curve, box, word and wire group: [1985 - M467 - M567 - Noise Gate and Meter Module p2 (traced).json](1985%20-%20M467%20-%20M567%20-%20Noise%20Gate%20and%20Meter%20Module%20p2%20%28traced%29.json) (the CAD file: `1985 - M467 - M567 - Noise Gate and Meter Module p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 303 × 432 mm, 1404 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 11–296 mm across, 2–413 mm up
+- **Outlines:** line 44 rings, 966 straight (3,064 mm) / 160 curved (236 mm); text 405 rings, 3,286 straight (3,687 mm) / 1,011 curved (1,625 mm)
+- **Words (OCR):** 154 in 98 lines: WAAD-BeCK BybTems LTD; · OTJ BmStEy8 Xjae-ORAWV · TECHNICAL DATA · M467/m567 NOISE GATE AND · METER MODULE · Metering Stereo Tie: · Meter facilities · provided for · operation · with · M466/m566 Compressor/Limiter . · :nicj
+
+Every curve, box, word and wire group: [1985 - M467 - M567 - Noise Gate and Meter Module p3 (traced).json](1985%20-%20M467%20-%20M567%20-%20Noise%20Gate%20and%20Meter%20Module%20p3%20%28traced%29.json) (the CAD file: `1985 - M467 - M567 - Noise Gate and Meter Module p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 301 × 432 mm, 1393 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–291 mm across, 2–410 mm up
+- **Outlines:** line 2 rings, 537 straight (2,546 mm) / 47 curved (80.5 mm); text 742 rings, 6,012 straight (6,667 mm) / 1,799 curved (2,882 mm); tb 6 rings, 74 straight (375 mm) / 17 curved (22.0 mm)
+- **Words (OCR):** 124 in 49 lines: WAAD-BECK BYBTEmB LTD_ · GENERAL · M467/m567 NOISE GATE AND · METER MODULE · The M467/m567 · Noise  Gate is an · ancillary processing · module designed · to · integrate into the various series of WBS · console systems · The ML67 is designed to
+- **Title block:** (4, 215)–(284, 420) mm: WAAD-BECK BYBTEmB LTD_ · GENERAL · M467/m567 NOISE GATE AND · METER MODULE · The M467/m567 · Noise  Gate is an · ancillary processing · module designed · to · integrate into the various series of WBS 
+
+Every curve, box, word and wire group: [1985 - M467 - M567 - Noise Gate and Meter Module p4 (traced).json](1985%20-%20M467%20-%20M567%20-%20Noise%20Gate%20and%20Meter%20Module%20p4%20%28traced%29.json) (the CAD file: `1985 - M467 - M567 - Noise Gate and Meter Module p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 298 × 432 mm, 1381 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–291 mm across, 4–412 mm up
+- **Outlines:** line 269 rings, 2,286 straight (5,074 mm) / 600 curved (949 mm); text 2,156 rings, 15,766 straight (17,051 mm) / 4,906 curved (7,753 mm); tb 11 rings, 136 straight (196 mm) / 31 curved (50.0 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 425 in 206 lines: WAFID-BECK SYSTEMS · LTD. · IRCU · DESCR IPTION · M467/ M561 NO ISE GATE AND MET ER MO DULE · Au · Chan nel · The inp · sIgn al en ters the "14 · modul · via pin · an
+- **Title block:** (3, 397)–(112, 420) mm: WAFID-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1985 - M467 - M567 - Noise Gate and Meter Module p5 (traced).json](1985%20-%20M467%20-%20M567%20-%20Noise%20Gate%20and%20Meter%20Module%20p5%20%28traced%29.json) (the CAD file: `1985 - M467 - M567 - Noise Gate and Meter Module p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 297 × 432 mm, 1377 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–290 mm across, 3–411 mm up
+- **Outlines:** line 179 rings, 1,907 straight (4,448 mm) / 429 curved (693 mm); text 2,191 rings, 15,445 straight (16,879 mm) / 4,824 curved (7,650 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.2 @ (24.1, 276.1), r 1.7 @ (177.9, 199.6)
+- **Words (OCR):** 447 in 165 lines: WARO ·BECK Sy.Te · L.TO. · IRCU IT DESC RIP TI ON · M46 7/M567 NOI SE GATE AND METER MODUL.E · Whe · the noise · at · is processing 1I sign · level hi her than he · threshold level, · ou tput of Z8 · be el positive power supply
+
+Every curve, box, word and wire group: [1985 - M467 - M567 - Noise Gate and Meter Module p6 (traced).json](1985%20-%20M467%20-%20M567%20-%20Noise%20Gate%20and%20Meter%20Module%20p6%20%28traced%29.json) (the CAD file: `1985 - M467 - M567 - Noise Gate and Meter Module p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 297 × 432 mm, 1376 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–291 mm across, 1–407 mm up
+- **Outlines:** line 450 rings, 4,138 straight (7,533 mm) / 1,064 curved (1,720 mm); text 998 rings, 7,265 straight (8,009 mm) / 2,322 curved (3,714 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 2.2 @ (100.3, 258.7), r 2.2 @ (219.4, 245.1), r 1.7 @ (271.4, 292.2), r 1.7 @ (139.8, 115.7)
+- **Dots (junctions):** 1
+- **Words (OCR):** 272 in 111 lines: CIR CUIT DESCR IPTION · '.-;1.67/ ""567 NO ISE GATE AND ""ETER JoIIOOULE · Ga · In dlc:alor · SI""" LEO GATE lc atoo- wa · OU IP · 03 ac li" · the · 29 · 5,6,7 · I'>e In ic tor · ON w"'en
+
+Every curve, box, word and wire group: [1985 - M467 - M567 - Noise Gate and Meter Module p7 (traced).json](1985%20-%20M467%20-%20M567%20-%20Noise%20Gate%20and%20Meter%20Module%20p7%20%28traced%29.json) (the CAD file: `1985 - M467 - M567 - Noise Gate and Meter Module p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 293 × 432 mm, 1358 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–287 mm across, 3–408 mm up
+- **Outlines:** line 150 rings, 1,766 straight (4,301 mm) / 379 curved (605 mm); text 1,086 rings, 7,731 straight (8,689 mm) / 2,415 curved (3,759 mm); tb 48 rings, 295 straight (359 mm) / 78 curved (136 mm)
+- **Words (OCR):** 201 in 95 lines: D-BECK VSTII MS L.TD. · ADj UST MENT PROCE DURE · M467 M567 NOI SE GA TE AND MET ER MODULE · Remove · 109A ca · Re lease NG · pl po we... and ched · TOla · cu ...en · 30 rnA · Vol tage · ins 2E3
+- **Title block:** (22, 100)–(67, 416) mm: Remove · Re lease NG · TOla · Vol tage · pin · zz pin · ZJ · in · Z5 · in · Z9 · in · Z9 · pin · Remo · Re stor po we · "ppr-o xi · Wi · Ap · ce THL · Vol tag · Voltage sh · Place HLO · App · Vo t"ge 
+
+Every curve, box, word and wire group: [1985 - M467 - M567 - Noise Gate and Meter Module p8 (traced).json](1985%20-%20M467%20-%20M567%20-%20Noise%20Gate%20and%20Meter%20Module%20p8%20%28traced%29.json) (the CAD file: `1985 - M467 - M567 - Noise Gate and Meter Module p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 299 × 432 mm, 1383 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–291 mm across, 1–410 mm up
+- **Outlines:** line 498 rings, 4,071 straight (7,001 mm) / 1,116 curved (1,744 mm); text 817 rings, 6,055 straight (6,803 mm) / 1,921 curved (3,112 mm); tb 322 rings, 2,418 straight (2,752 mm) / 732 curved (1,201 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 2.3 @ (131.5, 157.8), r 2.2 @ (126.1, 164.6), r 2.2 @ (137.2, 55.1), r 2.2 @ (48.0, 55.1)
+- **Dots (junctions):** 5
+- **Words (OCR):** 281 in 123 lines: WARO-BECK SYSTEMS L.TO. · ADJUST MENT PROCEDU RE · M46 M56 NO SE GA TE AND METER MODUL · Apply · Khz · Bm inpu · Mon · ou pu · pin 15 · 16 · Adju · R4 fo un it gllin
+- **Title block:** (1, 69)–(111, 420) mm: WARO-BECK SYSTEMS L.TO. · Apply · Khz · 16 · Adju · R4 fo un it gllin · Dep ress NG · ch · Slo ly · drops · No te · R5 · smoo · Operll ting th · ou tpu throug it' en tire ll · Se control · fo ll ws · 
+
+Every curve, box, word and wire group: [1985 - M467 - M567 - Noise Gate and Meter Module p9 (traced).json](1985%20-%20M467%20-%20M567%20-%20Noise%20Gate%20and%20Meter%20Module%20p9%20%28traced%29.json) (the CAD file: `1985 - M467 - M567 - Noise Gate and Meter Module p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 294 × 432 mm, 1363 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–287 mm across, 4–406 mm up
+- **Outlines:** line 281 rings, 2,536 straight (5,142 mm) / 713 curved (1,103 mm); text 557 rings, 4,271 straight (4,762 mm) / 1,287 curved (2,076 mm); tb 137 rings, 944 straight (1,079 mm) / 284 curved (430 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 2.2 @ (125.2, 103.3), r 1.7 @ (228.0, 163.0), r 1.7 @ (214.6, 278.2), r 1.7 @ (156.5, 271.5)
+- **Dots (junctions):** 4
+- **Words (OCR):** 178 in 82 lines: WARC-BECK · 8TEMS LTC. · ADJUST ME NT PROCE DURE · M46 7/M567 NOISE GA TE AND ME TER MODtJl.E · NO · AHE · full · ReS · fully ccw. · T",-O · .djusl '10 · lgn.1
+- **Title block:** (2, 111)–(98, 416) mm: WARC-BECK · NO · AHE · ReS · T",-O · Ad ll · R28 · li .econd · 10 · Gener-. Tes ts · Se · AT TE · THL · Res · ec · Hz to · Hz · ES bl · ma mu · Me•• · 25~ rom · Remova In · Me• ure ab50lut · 20 Hz · 1
+
+Every curve, box, word and wire group: [1985 - M467 - M567 - Noise Gate and Meter Module p10 (traced).json](1985%20-%20M467%20-%20M567%20-%20Noise%20Gate%20and%20Meter%20Module%20p10%20%28traced%29.json) (the CAD file: `1985 - M467 - M567 - Noise Gate and Meter Module p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 298 × 432 mm, 1380 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–291 mm across, 2–410 mm up
+- **Outlines:** line 77 rings, 1,190 straight (4,111 mm) / 231 curved (364 mm); text 966 rings, 7,778 straight (8,696 mm) / 2,536 curved (4,034 mm)
+- **Words (OCR):** 158 in 98 lines: WARO-III!CK 8Y8TI!MS LTC · PARTS LIST · "1461/101 561 NOISE GATE AND ME TER MOOUL · PART · OESCR IPT ION · FG · MFG PART NU MBER · Capacitor · 22 uF /25 · Phil ip · 030162 29 · ca
+
+Every curve, box, word and wire group: [1985 - M467 - M567 - Noise Gate and Meter Module p11 (traced).json](1985%20-%20M467%20-%20M567%20-%20Noise%20Gate%20and%20Meter%20Module%20p11%20%28traced%29.json) (the CAD file: `1985 - M467 - M567 - Noise Gate and Meter Module p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 299 × 432 mm, 1383 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–292 mm across, 1–410 mm up
+- **Outlines:** line 327 rings, 3,173 straight (6,074 mm) / 802 curved (1,283 mm); text 301 rings, 2,269 straight (2,611 mm) / 685 curved (1,104 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.9 @ (67.9, 307.3)
+- **Words (OCR):** 87 in 54 lines: WARO-BECK SY8TI!MB L.TO. · PAR TS LI ST · M46 7/M S61 NO! SE GAT AND METER MODULE · PAR · DESCRIP IO · "FG · FG · PART NUMBER · ca · Diod · Motorol · IN400J
+
+Every curve, box, word and wire group: [1985 - M467 - M567 - Noise Gate and Meter Module p12 (traced).json](1985%20-%20M467%20-%20M567%20-%20Noise%20Gate%20and%20Meter%20Module%20p12%20%28traced%29.json) (the CAD file: `1985 - M467 - M567 - Noise Gate and Meter Module p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 298 × 432 mm, 1381 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–291 mm across, 2–409 mm up
+- **Outlines:** line 132 rings, 1,768 straight (4,644 mm) / 378 curved (602 mm); text 600 rings, 4,502 straight (5,073 mm) / 1,340 curved (2,090 mm); tb 15 rings, 199 straight (275 mm) / 36 curved (63.3 mm)
+- **Words (OCR):** 72 in 44 lines: WAFlD·BECK SYSTEMS LTD. · PARTS LIST · "1467/"1567 NO ISE GATE AND ME ER MODUL · PAR · DESCR PTIO · PART NUMBER · Re st · 4W · Phil · 47 0K · 620 · roc
+- **Title block:** (4, 394)–(113, 417) mm: WAFlD·BECK SYSTEMS LTD.
+
+Every curve, box, word and wire group: [1985 - M467 - M567 - Noise Gate and Meter Module p13 (traced).json](1985%20-%20M467%20-%20M567%20-%20Noise%20Gate%20and%20Meter%20Module%20p13%20%28traced%29.json) (the CAD file: `1985 - M467 - M567 - Noise Gate and Meter Module p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 292 × 432 mm, 1355 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–287 mm across, 3–410 mm up
+- **Outlines:** line 179 rings, 1,974 straight (4,512 mm) / 489 curved (787 mm); text 415 rings, 3,220 straight (3,694 mm) / 905 curved (1,462 mm); tb 145 rings, 1,158 straight (1,555 mm) / 321 curved (503 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.8 @ (54.5, 308.8), r 1.7 @ (54.4, 301.9)
+- **Words (OCR):** 105 in 67 lines: WA~D-ElECK SYSTEMS LTD. · PART LIST · M467!M567 NO SE GATE AND MET ER MODULE · PART · OE5CR PT JON · CO · PAR · NUMBER · Po te · ometer · A/B · WB5 10- 015
+- **Title block:** (56, 85)–(228, 421) mm: WA~D-ElECK SYSTEMS LTD. · PART LIST · M467!M567 NO SE GATE AND MET ER MODULE · OE5CR PT JON · CO · ometer · A/B · Re st or · 4W · Phil ip · Trim Po · lh · PTIOV · Re si tor 1!4W · Ph il ip · 1!2W · 1!
+
+Every curve, box, word and wire group: [1985 - M467 - M567 - Noise Gate and Meter Module p14 (traced).json](1985%20-%20M467%20-%20M567%20-%20Noise%20Gate%20and%20Meter%20Module%20p14%20%28traced%29.json) (the CAD file: `1985 - M467 - M567 - Noise Gate and Meter Module p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 292 × 432 mm, 1350 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–286 mm across, 3–408 mm up
+- **Outlines:** line 456 rings, 4,649 straight (8,584 mm) / 1,237 curved (2,015 mm); text 362 rings, 2,951 straight (3,431 mm) / 817 curved (1,367 mm); tb 38 rings, 319 straight (372 mm) / 100 curved (171 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 2.2 @ (158.6, 179.5), r 2.2 @ (138.6, 179.5), r 2.2 @ (171.5, 179.5), r 2.2 @ (97.4, 159.2)
+- **Words (OCR):** 148 in 75 lines: WARD ·BECl< YSTEMS · LT · PA RTS LIS · M46 NO SE GA · ND MET ER MODUL · SCEL AN EOUS COMPONENTS · USED · OESCR PTIO · MFG PAR · NUMBER · Kn · lock)
+- **Title block:** (0, 30)–(36, 418) mm: USED · swr · USED · swz
+
+Every curve, box, word and wire group: [1985 - M467 - M567 - Noise Gate and Meter Module p15 (traced).json](1985%20-%20M467%20-%20M567%20-%20Noise%20Gate%20and%20Meter%20Module%20p15%20%28traced%29.json) (the CAD file: `1985 - M467 - M567 - Noise Gate and Meter Module p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 311 × 432 mm, 1440 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–301 mm across, 3–418 mm up
+- **Outlines:** line 27 rings, 650 straight (2,981 mm) / 109 curved (174 mm); text 31 rings, 246 straight (288 mm) / 61 curved (104 mm)
+- **Words (OCR):** 12 in 7 lines: Fl · CIt YSTEMS LTO · 109 AMPLIFI ER SERIES · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1985 - M467 - M567 - Noise Gate and Meter Module p16 (traced).json](1985%20-%20M467%20-%20M567%20-%20Noise%20Gate%20and%20Meter%20Module%20p16%20%28traced%29.json) (the CAD file: `1985 - M467 - M567 - Noise Gate and Meter Module p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 301 × 432 mm, 1395 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–293 mm across, 3–418 mm up
+- **Outlines:** line 181 rings, 1,951 straight (4,378 mm) / 496 curved (818 mm); text 1,266 rings, 8,915 straight (9,767 mm) / 2,714 curved (4,396 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.3 @ (167.5, 369.0)
+- **Closed boxes:** 1
+- **Words (OCR):** 255 in 124 lines: WA · CK YSTEMS · LTO · DESCR IP TION · 8_1 09 AM · ER SERI ES · The · 109 se ie · of · mp · ier · are util zed as an In ternal com ponenl
+
+Every curve, box, word and wire group: [1985 - M467 - M567 - Noise Gate and Meter Module p17 (traced).json](1985%20-%20M467%20-%20M567%20-%20Noise%20Gate%20and%20Meter%20Module%20p17%20%28traced%29.json) (the CAD file: `1985 - M467 - M567 - Noise Gate and Meter Module p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 299 × 432 mm, 1383 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–297 mm across, 5–424 mm up
+- **Outlines:** line 530 rings, 4,425 straight (6,909 mm) / 1,202 curved (1,900 mm); text 1,117 rings, 8,135 straight (8,812 mm) / 2,487 curved (4,045 mm); tb 226 rings, 1,628 straight (1,763 mm) / 504 curved (794 mm)
+- **Circles and arcs:** 13 circles, 0 arcs; largest r 2.3 @ (155.0, 95.7), r 2.3 @ (148.0, 177.8), r 1.8 @ (96.3, 61.5), r 1.8 @ (217.0, 203.9)
+- **Dots (junctions):** 4
+- **Words (OCR):** 328 in 94 lines: WAFlO-BECK SYSTEMS LTO · DESCR TIO · 109 AMP LI FI ER SER IES · OUlP Ut Leve · +30 dBm ma ximum · owe Re qu Ir em · vol · dc, 18 mA · le &Ce nt curren · 65 mA at +30 dBm ou tput. · Ambient Tempe rat ure · 10
+- **Title block:** (1, 124)–(124, 429) mm: WAFlO-BECK SYSTEMS LTO · OUlP Ut Leve · owe Re qu Ir em · Ambient Tempe rat ure · Di men sions: · lhrough C4, and the lher · The · nle grated circu it · In the mej Ol'"l ty of he 8_109 modets, · secti
+
+Every curve, box, word and wire group: [1985 - M467 - M567 - Noise Gate and Meter Module p18 (traced).json](1985%20-%20M467%20-%20M567%20-%20Noise%20Gate%20and%20Meter%20Module%20p18%20%28traced%29.json) (the CAD file: `1985 - M467 - M567 - Noise Gate and Meter Module p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 300 × 432 mm, 1392 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–294 mm across, 4–420 mm up
+- **Outlines:** line 314 rings, 3,594 straight (6,537 mm) / 948 curved (1,537 mm); text 566 rings, 3,920 straight (4,431 mm) / 1,214 curved (1,960 mm)
+- **Words (OCR):** 120 in 70 lines: WAR D-l!leCK SVS Te MS LTD · PART · IST · og AMPL IF ER SER ES · 8-109 · PART · DESCR IP TI ON · .FG · MF PAR NUMBER · Ca pacilo<' · JJ · l0
+
+Every curve, box, word and wire group: [1985 - M467 - M567 - Noise Gate and Meter Module p19 (traced).json](1985%20-%20M467%20-%20M567%20-%20Noise%20Gate%20and%20Meter%20Module%20p19%20%28traced%29.json) (the CAD file: `1985 - M467 - M567 - Noise Gate and Meter Module p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 301 × 432 mm, 1393 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–296 mm across, 2–419 mm up
+- **Outlines:** line 264 rings, 3,039 straight (5,737 mm) / 724 curved (1,160 mm); text 378 rings, 2,725 straight (2,974 mm) / 848 curved (1,382 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.3 @ (95.1, 317.7)
+- **Words (OCR):** 81 in 61 lines: WARD -BECI< · STI!!!M I!!l L.TD · PART LIST · 109 AMP LI ER SER ES · 8-109 · 'ART · DESCRIPTION · MF PART NUMBER · Re · lor 1/4W · Phlllp. · Rn
+
+Every curve, box, word and wire group: [1985 - M467 - M567 - Noise Gate and Meter Module p20 (traced).json](1985%20-%20M467%20-%20M567%20-%20Noise%20Gate%20and%20Meter%20Module%20p20%20%28traced%29.json) (the CAD file: `1985 - M467 - M567 - Noise Gate and Meter Module p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 298 × 432 mm, 1379 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–292 mm across, 1–418 mm up
+- **Outlines:** line 184 rings, 2,438 straight (6,012 mm) / 541 curved (863 mm); text 557 rings, 4,059 straight (4,562 mm) / 1,239 curved (2,004 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 113 in 60 lines: CK YST · LT · PARTS · IST · 109 ",MPL IFIER SERIES · 8-109A · Il~ 115 · pe~ 10 · xce pt 115 no ted be low · P"'RT · DESCRIPTIO · M'G
+
+Every curve, box, word and wire group: [1985 - M467 - M567 - Noise Gate and Meter Module p21 (traced).json](1985%20-%20M467%20-%20M567%20-%20Noise%20Gate%20and%20Meter%20Module%20p21%20%28traced%29.json) (the CAD file: `1985 - M467 - M567 - Noise Gate and Meter Module p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 302 × 432 mm, 1400 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–294 mm across, 3–419 mm up
+- **Outlines:** line 143 rings, 2,245 straight (5,591 mm) / 418 curved (681 mm); text 651 rings, 4,699 straight (5,333 mm) / 1,420 curved (2,298 mm)
+- **Words (OCR):** 118 in 61 lines: WARO -BECK SYSTEMS · LTO. · PAR TS LIS · _109 AMPL FI ER SERIES · _10 90 · rt · per 8-109 · cep · noted belo · PA RT · DESCRIPT IO · MF PART NUMBE
+- **Title block:** (30, 404)–(113, 427) mm: WARO -BECK SYSTEMS
+
+Every curve, box, word and wire group: [1985 - M467 - M567 - Noise Gate and Meter Module p22 (traced).json](1985%20-%20M467%20-%20M567%20-%20Noise%20Gate%20and%20Meter%20Module%20p22%20%28traced%29.json) (the CAD file: `1985 - M467 - M567 - Noise Gate and Meter Module p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 301 × 432 mm, 1395 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–294 mm across, 3–417 mm up
+- **Outlines:** line 97 rings, 1,602 straight (4,389 mm) / 272 curved (441 mm); text 297 rings, 2,259 straight (2,514 mm) / 667 curved (1,064 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 70 in 36 lines: YSTEMS LTD · PART LI ST · 109 AM PLI · ER SER ES · 10% · Al · ar- ts · pe · 10 · xce · ot ed · PART
+
+Every curve, box, word and wire group: [1985 - M467 - M567 - Noise Gate and Meter Module p23 (traced).json](1985%20-%20M467%20-%20M567%20-%20Noise%20Gate%20and%20Meter%20Module%20p23%20%28traced%29.json) (the CAD file: `1985 - M467 - M567 - Noise Gate and Meter Module p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–332 mm across, 1–428 mm up
+- **Outlines:** line 398 rings, 5,315 straight (11,320 mm) / 1,126 curved (1,768 mm); text 545 rings, 3,570 straight (3,205 mm) / 1,415 curved (1,975 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 8.4 @ (177.7, 157.9), r 8.4 @ (157.1, 183.8), r 8.4 @ (177.6, 210.0), r 5.0 @ (177.7, 157.8)
+- **Closed boxes:** 23; named: WI' COW GAT( AH EM It.O; WI'; Iw C(J4PAE SSOIt ST[ItEO TI SW2 Fo tM pu; tar VU Des gne to opera ted be II GA RED; ATTENIJUI ON on tro M6 o.te,. I9MI tt.~t; GATE dl or Gr..n LED nd icator ON wn.n u; THIU SHOlO cont IU Con tro ls f'IOl se o; NO IS GATE In se rt wi teh When res. n4 ; tp NOt5f GoIIIIUM:1R MOOIAf ht 'ANa fIOr; .'7-0.-002
+- **Dots (junctions):** 1
+- **Words (OCR):** 182 in 101 lines: WI' · COW · C(J4PAE SSOIt ST[ItEO TI · Iw · SW2 · Fo tM pulpo" · tar Des gne to be · cOlW'le · st.rM · on of · IllUlt · ~r.t lon.
+
+Every curve, box, word and wire group: [1985 - M467 - M567 - Noise Gate and Meter Module p24 (traced).json](1985%20-%20M467%20-%20M567%20-%20Noise%20Gate%20and%20Meter%20Module%20p24%20%28traced%29.json) (the CAD file: `1985 - M467 - M567 - Noise Gate and Meter Module p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** drawing, size B (assumed) 432 × 278 mm, 2000 × 1287 px traced (0.216 mm/px)
+- **Ink extent:** 47–432 mm across, 0–235 mm up
+- **Outlines:** line 433 rings, 4,599 straight (9,538 mm) / 785 curved (1,203 mm); text 170 rings, 1,202 straight (1,383 mm) / 313 curved (480 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 3.4 @ (265.8, 144.9), r 1.9 @ (343.2, 22.5)
+- **Closed boxes:** 38; named: OVERLOAD CLIPPER; GATE CONTROL; ATTACK RELEASE; REF; VU
+- **Words (OCR):** 61 in 53 lines: OUT~UT · DlFFEIIIJITIAL · AMP · AUDIO · IN~UT · AUDIO · OUTPUT · 8-109A · ATTENUATION · CUT AWAY · (GATE OFF) · .-st dB
+
+Every curve, box, word and wire group: [1985 - M467 - M567 - Noise Gate and Meter Module p25 (traced).json](1985%20-%20M467%20-%20M567%20-%20Noise%20Gate%20and%20Meter%20Module%20p25%20%28traced%29.json) (the CAD file: `1985 - M467 - M567 - Noise Gate and Meter Module p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** drawing, size B (assumed) 432 × 285 mm, 2000 × 1321 px traced (0.216 mm/px)
+- **Ink extent:** 7–432 mm across, 0–285 mm up
+- **Outlines:** line 729 rings, 10,253 straight (16,584 mm) / 2,469 curved (3,236 mm); text 227 rings, 1,444 straight (1,261 mm) / 543 curved (666 mm)
+- **Closed boxes:** 4
+- **Dots (junctions):** 2
+- **Words (OCR):** 60 in 55 lines: co, · eo · 21 · G4ra · ,50 · fGoO · zo. · CO" · IMftlJMl' · 7d · Il · II
+
+Every curve, box, word and wire group: [1985 - M467 - M567 - Noise Gate and Meter Module p26 (traced).json](1985%20-%20M467%20-%20M567%20-%20Noise%20Gate%20and%20Meter%20Module%20p26%20%28traced%29.json) (the CAD file: `1985 - M467 - M567 - Noise Gate and Meter Module p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** drawing, size B (assumed) 432 × 382 mm, 2000 × 1771 px traced (0.216 mm/px)
+- **Ink extent:** 15–432 mm across, 0–366 mm up
+- **Outlines:** line 1,541 rings, 13,436 straight (25,808 mm) / 3,262 curved (4,960 mm); text 455 rings, 2,701 straight (2,892 mm) / 876 curved (1,249 mm)
+- **Circles and arcs:** 22 circles, 0 arcs; largest r 10.1 @ (112.6, 137.7), r 10.0 @ (112.8, 174.6), r 10.0 @ (151.9, 137.8), r 4.4 @ (309.1, 103.5)
+- **Closed boxes:** 62; named: --c:r- Z5; L"'~OI; r-'C7-'--- Z1 1-"""2.01; Z2 LM 2..ol; ""'c-T,; Z8 LM 2D\
+- **Dots (junctions):** 3
+- **Words (OCR):** 100 in 89 lines: 10 · -c'33 · vu · 210. · NOTE · TO · 2Ei · f'1~S. · TO · MOI.l~T · r-'C7-'--- · --c:r-
+
+Every curve, box, word and wire group: [1985 - M467 - M567 - Noise Gate and Meter Module p27 (traced).json](1985%20-%20M467%20-%20M567%20-%20Noise%20Gate%20and%20Meter%20Module%20p27%20%28traced%29.json) (the CAD file: `1985 - M467 - M567 - Noise Gate and Meter Module p27 (traced).dxf`).
+
+### Page 28
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–330 mm across, 1–427 mm up
+- **Outlines:** line 191 rings, 4,226 straight (11,328 mm) / 454 curved (780 mm); text 279 rings, 2,459 straight (3,290 mm) / 671 curved (1,090 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.4 @ (320.3, 207.0), r 2.4 @ (255.9, 94.0)
+- **Closed boxes:** 88; named: V1 V1 ow :La:: wo 1-1- wu :LW l!l V1; CD CD CD II; iii III; r-c; xci ':C':Cct: vi; 10; 11; 12; 13; ct:; III ii:; 14
+- **Words (OCR):** 71 in 62 lines: iii · III · CD · V1 · V1 · CD · NPUT · CD · ow · :La:: · wo · SHIELD GN
+
+Every curve, box, word and wire group: [1985 - M467 - M567 - Noise Gate and Meter Module p28 (traced).json](1985%20-%20M467%20-%20M567%20-%20Noise%20Gate%20and%20Meter%20Module%20p28%20%28traced%29.json) (the CAD file: `1985 - M467 - M567 - Noise Gate and Meter Module p28 (traced).dxf`).
+
+### Page 29
+
+- **Sheet:** drawing, size B (assumed) 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px)
+- **Ink extent:** 22–432 mm across, 0–292 mm up
+- **Outlines:** line 481 rings, 5,699 straight (10,600 mm) / 1,419 curved (2,008 mm); text 115 rings, 662 straight (609 mm) / 258 curved (350 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.2 @ (237.4, 203.4), r 1.1 @ (242.1, 112.7)
+- **Closed boxes:** 6; named: 'UI
+- **Dots (junctions):** 4
+- **Words (OCR):** 47 in 46 lines: 'HS · E3 · CoS · ,oI · 013 · 2lo.ll 10t · 30k · 10·. · E4- · va", · R34- · l5
+
+Every curve, box, word and wire group: [1985 - M467 - M567 - Noise Gate and Meter Module p29 (traced).json](1985%20-%20M467%20-%20M567%20-%20Noise%20Gate%20and%20Meter%20Module%20p29%20%28traced%29.json) (the CAD file: `1985 - M467 - M567 - Noise Gate and Meter Module p29 (traced).dxf`).
+
+### Page 30
+
+- **Sheet:** drawing, size B (assumed) 432 × 291 mm, 2000 × 1349 px traced (0.216 mm/px)
+- **Ink extent:** 6–432 mm across, 0–282 mm up
+- **Outlines:** line 725 rings, 7,955 straight (12,940 mm) / 1,902 curved (3,388 mm); text 102 rings, 745 straight (978 mm) / 194 curved (326 mm)
+- **Circles and arcs:** 16 circles, 0 arcs; largest r 9.1 @ (73.5, 112.1), r 8.5 @ (21.2, 112.8), r 8.5 @ (74.1, 215.1), r 8.4 @ (22.1, 215.2)
+- **Closed boxes:** 11; named: -R8 70 -C5 7p IO _c.t..~ _C,,~·-rp _~~.&; DRN. GEB
+- **Words (OCR):** 44 in 37 lines: -R8 70 · -C5 7p · IO · _c.t..~ · _C,,~·-rp · _~~.&Il. · _c.~.!.o/e.s · -R23 2el<. · -RIO 21<: · cn- · 4700p_ · (\NEls)
+
+Every curve, box, word and wire group: [1985 - M467 - M567 - Noise Gate and Meter Module p30 (traced).json](1985%20-%20M467%20-%20M567%20-%20Noise%20Gate%20and%20Meter%20Module%20p30%20%28traced%29.json) (the CAD file: `1985 - M467 - M567 - Noise Gate and Meter Module p30 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

@@ -17,6 +17,22 @@ Wiki page: [M461](../../../PAGES/M461.md)
 
 - **1976** (labelled): `DATE Oct 76` — …3540 USED ON MATL . ~X 5 22 WARD-BECK GYSTEMS LTD: DRN; GEB DATE Oct 76 CKD T2j _ SCALE ToLs . Xa M461 INPUT MODULE FUNC TIONAL DIA…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** functional 461 01-001, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 6–426 mm across, 3–277 mm up
+- **Outlines:** line 452 rings, 7,304 straight (13,404 mm) / 885 curved (1,154 mm); text 513 rings, 3,570 straight (3,447 mm) / 821 curved (1,143 mm); tb 30 rings, 134 straight (94.2 mm) / 30 curved (30.2 mm)
+- **Centre lines:** 15,527 paths (122 closed); straight 11,455 mm, curved 153 mm; horizontal 4,422 mm, vertical 3,026 mm, diagonal 4,008 mm
+- **Circles and arcs:** 14 circles, 13 arcs; largest r 2.9 @ (225.7, 197.2), r 2.9 @ (207.0, 196.7), r 1.5 @ (321.9, 95.9), r 1.5 @ (387.4, 223.5)
+- **Closed boxes:** 23; named: WBS WARD-BECK BYSTEMS LTD; M4 61 INPUT MODULE DIAG RA M FUNCTIONAL
+- **Words (OCR):** 80 in 72 lines: SENSITIVITY · 30 dB · PAN · INE · INSERT · LINE INPUT · INSERT · 20/+10 dBm · 8 _ 109A · JACKS · CHANNEL · FADER
+- **Title block:** (272, 11)–(377, 57) mm: WBS WARD-BECK BYSTEMS LTD · DRN GEB · M4 61 · IDATE · Oct · CKD · 34 · INPUT MODULE · FUNCTIONAL · [SCALE · TOLs ANG · 461 01-0 01
+- **Wiring (first pass):** 152 connected wire groups from 386 runs; labelled ends: 222 mm → CHANNEL, ON, PHASE, SOLO; 141 mm → FINISH; 98 mm → 3540; 91 mm → CHANNEL, ON, FADER, (_15dB); 75 mm → ConTROL
+
+Every curve, box, word and wire group: [1976 - M461 - Input Module Functional p1 (traced).json](1976%20-%20M461%20-%20Input%20Module%20Functional%20p1%20%28traced%29.json) (the CAD file: `1976 - M461 - Input Module Functional p1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -20,6 +20,334 @@ Wiki page: [M457](../../../PAGES/M457.md)
 - **1975** (labelled): `DATE SEPT 75` — …5 354] PKM 36i2 ML MATL . WBS WARD-BeCK bybtemd LTD_ DRN 2m DATE SEPT 75 CKD. RA [SCALE TOLS fa M 457 4 X 2 PRE-MixER MOTHERBOARD LA…
 - **1977** (manual_issue): `MANUAL ISSUE #1 MA Y 1977` — …- 706-06-001 A457 - 04-003 LBS- 101-02-002 B5 - 101-06-002 MANUAL ISSUE #1 MA Y 1977…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–316 mm across, 50–428 mm up
+- **Outlines:** line 62 rings, 141 straight (98.4 mm) / 57 curved (55.7 mm); text 21 rings, 202 straight (240 mm) / 46 curved (61.3 mm)
+- **Words (OCR):** 2 in 2 lines: M457 · 4X2 PRE-MIXER
+
+Every curve, box, word and wire group: [1975 - M457 - Pre-Mixer Module p1 (traced).json](1975%20-%20M457%20-%20Pre-Mixer%20Module%20p1%20%28traced%29.json) (the CAD file: `1975 - M457 - Pre-Mixer Module p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 13–431 mm up
+- **Outlines:** line 21 rings, 831 straight (2,502 mm) / 68 curved (113 mm); text 195 rings, 2,163 straight (2,863 mm) / 411 curved (648 mm); tb 2 rings, 125 straight (288 mm) / 11 curved (20.2 mm)
+- **Words (OCR):** 16 in 11 lines: WARD-BECK SYSTEMS · LTD_ · WBS 841 PROGRESS AVENUE, SCARBOROUGH, ONTARIO M1H 2x4 · TELEX; 06-23463 · TELEPHONE; 418/433-8550 · Ma57 · 42 · PRE-MIXER · DESIGN AND · MANUFACTURE · OF PROFESSIONAL AUDIO EQUIPMENT
+- **Title block:** (45, 394)–(264, 430) mm: WARD-BECK SYSTEMS · WBS 841 PROGRESS AVENUE, SCARBOROUGH, ONTARIO M1H 2x4 · TELEX; 06-23463 · TELEPHONE; 418/433-8550
+
+Every curve, box, word and wire group: [1975 - M457 - Pre-Mixer Module p2 (traced).json](1975%20-%20M457%20-%20Pre-Mixer%20Module%20p2%20%28traced%29.json) (the CAD file: `1975 - M457 - Pre-Mixer Module p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 26–429 mm up
+- **Outlines:** line 30 rings, 984 straight (2,697 mm) / 99 curved (153 mm); text 621 rings, 4,663 straight (5,759 mm) / 1,350 curved (2,112 mm); tb 18 rings, 173 straight (393 mm) / 30 curved (44.0 mm)
+- **Words (OCR):** 68 in 47 lines: WARD-BECK SYSTEMS LTD_ · TABLE 0F ConTEnTS · M457 42 PRE-MIXER · SECTIon · PAGE · Warranty · Technica] Data · to · 1 -2 · circuit · Description · to
+- **Title block:** (20, 60)–(280, 426) mm: WARD-BECK SYSTEMS LTD_ · TABLE 0F ConTEnTS · M457 42 PRE-MIXER · SECTIon · PAGE · Warranty · Technica] Data · to · 1 -2 · circuit · Description · to · 2 -2 · Application · Examp]es · Parts List · 4-1 
+
+Every curve, box, word and wire group: [1975 - M457 - Pre-Mixer Module p3 (traced).json](1975%20-%20M457%20-%20Pre-Mixer%20Module%20p3%20%28traced%29.json) (the CAD file: `1975 - M457 - Pre-Mixer Module p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 27–333 mm across, 8–428 mm up
+- **Outlines:** line 11 rings, 473 straight (2,411 mm) / 55 curved (87.6 mm); text 2,169 rings, 14,496 straight (16,286 mm) / 4,858 curved (7,104 mm); tb 26 rings, 200 straight (391 mm) / 60 curved (84.6 mm)
+- **Words (OCR):** 272 in 145 lines: WBS 841 PAOGAESS AVENUE, SCARBOROUGH, ONTARIO · WARD-BECK SYSTEMS LTD_ · M1A 2x4 · TELEX 065-25399 · TELEPHONE · 416,438-6550 · W A R R A N T Y · Al · Ward-Beck Systems · Ltd products are · warranted · against
+- **Title block:** (39, 78)–(260, 416) mm: WBS 841 PAOGAESS AVENUE, SCARBOROUGH, ONTARIO · WARD-BECK SYSTEMS LTD_ · TELEX 065-25399 · TELEPHONE · 416,438-6550 · W A R R A N T Y · Al · Ward-Beck Systems · Ltd products are · warranted · defectiv
+
+Every curve, box, word and wire group: [1975 - M457 - Pre-Mixer Module p4 (traced).json](1975%20-%20M457%20-%20Pre-Mixer%20Module%20p4%20%28traced%29.json) (the CAD file: `1975 - M457 - Pre-Mixer Module p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–326 mm across, 12–418 mm up
+- **Outlines:** line 53 rings, 1,084 straight (2,899 mm) / 151 curved (225 mm); text 1,124 rings, 8,745 straight (9,987 mm) / 2,376 curved (3,637 mm)
+- **Words (OCR):** 150 in 70 lines: WAAD-BECK SySteMS LTD · TECHNICAL DATA · M457 4x2 PRE-MIXER · Input · Sensitivities: · Line: · -15 · to +15 dBm · (ref 600 ohms source · Mic: · -60 to · -30 dBm
+- **Title block:** (21, 404)–(130, 428) mm: WAAD-BECK SySteMS LTD
+
+Every curve, box, word and wire group: [1975 - M457 - Pre-Mixer Module p5 (traced).json](1975%20-%20M457%20-%20Pre-Mixer%20Module%20p5%20%28traced%29.json) (the CAD file: `1975 - M457 - Pre-Mixer Module p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 11–426 mm up
+- **Outlines:** line 70 rings, 1,338 straight (3,252 mm) / 151 curved (221 mm); text 431 rings, 3,331 straight (3,883 mm) / 859 curved (1,326 mm)
+- **Closed boxes:** 2
+- **Words (OCR):** 53 in 36 lines: WARD-BECK SYSTEMS LTD. · TECHNICAL DATA · M457 4x2 · PRE-MIXER · Output Impedance : · Less · than 10 0 ohms · Load · Impedance : · 600 ohms ba ]anced . · Phas ing : · Input
+- **Title block:** (21, 404)–(130, 428) mm: WARD-BECK SYSTEMS LTD.
+
+Every curve, box, word and wire group: [1975 - M457 - Pre-Mixer Module p6 (traced).json](1975%20-%20M457%20-%20Pre-Mixer%20Module%20p6%20%28traced%29.json) (the CAD file: `1975 - M457 - Pre-Mixer Module p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–328 mm across, 11–417 mm up
+- **Outlines:** line 75 rings, 1,423 straight (3,477 mm) / 197 curved (303 mm); text 2,023 rings, 15,030 straight (17,084 mm) / 4,499 curved (6,866 mm); tb 4 rings, 16 straight (11.1 mm) / 8 curved (9.8 mm)
+- **Words (OCR):** 271 in 129 lines: WARD-BECK SYSTEMS LTD_ · CIRCUIT DESCRIPTION · M457 · 4X2 PRE-MIXER · The M457 PRE-MIXER is · intended to · accept four separate micro - · phone or · ine inputs and · combine them in · the desired · proportion
+- **Title block:** (21, 222)–(139, 426) mm: WARD-BECK SYSTEMS LTD_ · M457 · The M457 PRE-MIXER is · phone or · ine inputs and · to · Produce output s igna ] · an · Two separate · output buses · Preamp] ifier can · required · Preamplifiers · Fou
+
+Every curve, box, word and wire group: [1975 - M457 - Pre-Mixer Module p7 (traced).json](1975%20-%20M457%20-%20Pre-Mixer%20Module%20p7%20%28traced%29.json) (the CAD file: `1975 - M457 - Pre-Mixer Module p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–331 mm across, 0–422 mm up
+- **Outlines:** line 81 rings, 1,365 straight (3,531 mm) / 167 curved (247 mm); text 891 rings, 6,810 straight (7,788 mm) / 1,965 curved (2,988 mm)
+- **Closed boxes:** 2
+- **Words (OCR):** 120 in 60 lines: WARD-BECK · SYSTEMS LTD · CIRCUIT · DESCRIPTIOn · M457 4X2 PRE-MIXER · Summing outputs for buses · a nd · are · brought out at · pins · 14/R and · 15/S
+- **Title block:** (23, 404)–(151, 429) mm: WARD-BECK · SYSTEMS LTD
+
+Every curve, box, word and wire group: [1975 - M457 - Pre-Mixer Module p8 (traced).json](1975%20-%20M457%20-%20Pre-Mixer%20Module%20p8%20%28traced%29.json) (the CAD file: `1975 - M457 - Pre-Mixer Module p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 0–429 mm up
+- **Outlines:** line 183 rings, 3,563 straight (9,810 mm) / 480 curved (788 mm); text 337 rings, 2,591 straight (3,227 mm) / 682 curved (1,007 mm); tb 1 rings, 1 straight (0.6 mm) / 2 curved (1.6 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 3.0 @ (214.6, 86.0), r 2.9 @ (214.8, 109.8), r 2.9 @ (173.7, 136.9), r 2.9 @ (156.3, 295.8)
+- **Closed boxes:** 9; named: 14R; 87J; 14/R
+- **Words (OCR):** 43 in 41 lines: WARD-BECK · SYSTEMS LTD_ · APPLICATION EXAMPLES · M457 · PRE-MIXER · WM · 15L5 · 14/R · 12X2 · PRE-MXER · M1/m · 15/5
+- **Title block:** (19, 403)–(128, 428) mm: WARD-BECK · SYSTEMS LTD_
+
+Every curve, box, word and wire group: [1975 - M457 - Pre-Mixer Module p9 (traced).json](1975%20-%20M457%20-%20Pre-Mixer%20Module%20p9%20%28traced%29.json) (the CAD file: `1975 - M457 - Pre-Mixer Module p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 11–427 mm up
+- **Outlines:** line 126 rings, 1,550 straight (3,772 mm) / 202 curved (289 mm); text 1,335 rings, 10,066 straight (11,956 mm) / 3,316 curved (5,193 mm)
+- **Words (OCR):** 146 in 131 lines: WAAD-BECK SYSTEMS LTD · PARIS LIST · M457 4X2 · PRE-MIXER · PART · DESCRIPTION · MFG PART NUMBER · MFG · Capacitor 22 · uF/25 · Siemens · B41313-45226-2
+
+Every curve, box, word and wire group: [1975 - M457 - Pre-Mixer Module p10 (traced).json](1975%20-%20M457%20-%20Pre-Mixer%20Module%20p10%20%28traced%29.json) (the CAD file: `1975 - M457 - Pre-Mixer Module p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 0–421 mm up
+- **Outlines:** line 67 rings, 1,445 straight (3,418 mm) / 162 curved (262 mm); text 898 rings, 6,624 straight (8,046 mm) / 2,155 curved (3,380 mm); tb 125 rings, 577 straight (839 mm) / 103 curved (168 mm)
+- **Closed boxes:** 3
+- **Words (OCR):** 109 in 94 lines: WARD-BECK SystemS LTD_ · PARTS LIST · M457 4X2 PRE-MIXER · PART · DESCRIPTION · MFG · MFG PART · NUMBER · C36 · Capacitor 47 pF · Phi]ips · 2222-638-70479
+- **Title block:** (21, 64)–(247, 430) mm: WARD-BECK SystemS LTD_ · PARTS LIST · M457 4X2 PRE-MIXER · PART · DESCRIPTION · MFG · MFG PART · C36 · Capacitor 47 pF · Phi]ips · C3 · uF / 35 · Kemet · C38 · 470 pF · Phi]ips · C39 · 1  uF/35 · Keme
+
+Every curve, box, word and wire group: [1975 - M457 - Pre-Mixer Module p11 (traced).json](1975%20-%20M457%20-%20Pre-Mixer%20Module%20p11%20%28traced%29.json) (the CAD file: `1975 - M457 - Pre-Mixer Module p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 4–430 mm up
+- **Outlines:** line 149 rings, 2,277 straight (3,797 mm) / 322 curved (471 mm); text 480 rings, 4,018 straight (4,738 mm) / 1,137 curved (1,717 mm)
+- **Words (OCR):** 87 in 80 lines: WARD-BECK BYSTEMS LTD · PARTS · LISI · M457 4x2 PRE-MIXER · PART · DESCRIPTion · MFG · MFG PART NUMBER · R10 · De lete · RII · Resistor AW
+
+Every curve, box, word and wire group: [1975 - M457 - Pre-Mixer Module p12 (traced).json](1975%20-%20M457%20-%20Pre-Mixer%20Module%20p12%20%28traced%29.json) (the CAD file: `1975 - M457 - Pre-Mixer Module p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 0–421 mm up
+- **Outlines:** line 183 rings, 2,077 straight (4,125 mm) / 283 curved (427 mm); text 486 rings, 3,783 straight (4,643 mm) / 1,091 curved (1,660 mm)
+- **Closed boxes:** 2
+- **Words (OCR):** 86 in 81 lines: WARD-BECK SYSTEMS LTD · PARTS · LiST · M457 4X2 · PRE-MIXER · PART · DESCRIPTION · MFG · MFG PART · NUMBER · R45 · Res istor XW
+- **Title block:** (21, 405)–(131, 429) mm: WARD-BECK SYSTEMS LTD
+
+Every curve, box, word and wire group: [1975 - M457 - Pre-Mixer Module p13 (traced).json](1975%20-%20M457%20-%20Pre-Mixer%20Module%20p13%20%28traced%29.json) (the CAD file: `1975 - M457 - Pre-Mixer Module p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 13–418 mm up
+- **Outlines:** line 24 rings, 1,086 straight (3,041 mm) / 93 curved (144 mm); text 473 rings, 3,501 straight (4,438 mm) / 1,127 curved (1,743 mm); tb 144 rings, 666 straight (887 mm) / 129 curved (179 mm)
+- **Words (OCR):** 85 in 78 lines: WAAD-BECK SYSTEMS LTD · PARTS LIst · M457 4X2 · PRE-MIXER · PART · DESCRIPTIon · MFG · MFG PART NUMBER · R80 · Resistor · 39 K · Phi]ips
+- **Title block:** (21, 46)–(248, 428) mm: WAAD-BECK SYSTEMS LTD · PARTS LIst · M457 4X2 · PRE-MIXER · PART · DESCRIPTIon · MFG · R80 · Resistor · 39 K · Phi]ips · R81 · 15K · R82 · 1K · 220 · R8 3 · R84 · 47K · R85 · IK · R86 · 620 · R87 · 10
+
+Every curve, box, word and wire group: [1975 - M457 - Pre-Mixer Module p14 (traced).json](1975%20-%20M457%20-%20Pre-Mixer%20Module%20p14%20%28traced%29.json) (the CAD file: `1975 - M457 - Pre-Mixer Module p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–334 mm across, 0–428 mm up
+- **Outlines:** line 79 rings, 1,569 straight (3,513 mm) / 165 curved (244 mm); text 417 rings, 3,353 straight (4,016 mm) / 968 curved (1,501 mm); tb 89 rings, 434 straight (567 mm) / 79 curved (117 mm)
+- **Closed boxes:** 3
+- **Words (OCR):** 57 in 38 lines: WAAD-BECK SYSTEMS LTD · PARIS LIST · M457 4X2 · PRE-MIXER · PART · DESCRIPTIon · MFG · MFG PART NUMBER · Sw4 · Switch · Schadow · WBS 11-005
+- **Title block:** (21, 146)–(250, 429) mm: WAAD-BECK SYSTEMS LTD · PARIS LIST · M457 4X2 · PRE-MIXER · PART · DESCRIPTIon · MFG · Sw4 · Switch · Schadow · SW5 · SW6 · Sw7 · Sw8 · Integrated Circuit · Nationa 1 · LM2OIAN · 21 · 22 · 23 · 24 · 2
+
+Every curve, box, word and wire group: [1975 - M457 - Pre-Mixer Module p15 (traced).json](1975%20-%20M457%20-%20Pre-Mixer%20Module%20p15%20%28traced%29.json) (the CAD file: `1975 - M457 - Pre-Mixer Module p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 9–419 mm up
+- **Outlines:** line 64 rings, 1,445 straight (3,620 mm) / 171 curved (279 mm); text 377 rings, 2,902 straight (3,529 mm) / 846 curved (1,333 mm)
+- **Words (OCR):** 56 in 43 lines: WARD-BECK BYSTEMS LTD_ · PARTS LiST · M457 4x2 PRE-MIXER MODULE · CONTROL KNOBS CAPS AND BUTTONS · USED ON · DESCRIPT ION · MFG · MFG PART · NUMBER · R1 ) · Knob · Black
+
+Every curve, box, word and wire group: [1975 - M457 - Pre-Mixer Module p16 (traced).json](1975%20-%20M457%20-%20Pre-Mixer%20Module%20p16%20%28traced%29.json) (the CAD file: `1975 - M457 - Pre-Mixer Module p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 10–429 mm up
+- **Outlines:** line 46 rings, 1,142 straight (2,851 mm) / 143 curved (226 mm); text 1,121 rings, 8,545 straight (9,906 mm) / 2,463 curved (3,757 mm); tb 2 rings, 5 straight (2.7 mm) / 2 curved (2.6 mm)
+- **Words (OCR):** 149 in 79 lines: WAAD-BECK · SySTEMS LTD · DESCRIPTION · 5-101 · AMPLIFIER SERIES · The 5 - 101 series 0 f · amp]ifiers are · utilized plug- in units · a 5 · within certain · Ward-Beck Systems · 400 series
+- **Title block:** (20, 305)–(175, 425) mm: WAAD-BECK · SySTEMS LTD · DESCRIPTION · 5-101 · The 5 - 101 series 0 f · amp]ifiers are · within certain · Ward-Beck Systems
+
+Every curve, box, word and wire group: [1975 - M457 - Pre-Mixer Module p17 (traced).json](1975%20-%20M457%20-%20Pre-Mixer%20Module%20p17%20%28traced%29.json) (the CAD file: `1975 - M457 - Pre-Mixer Module p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–329 mm across, 10–421 mm up
+- **Outlines:** line 94 rings, 1,356 straight (3,235 mm) / 217 curved (298 mm); text 1,146 rings, 8,666 straight (9,767 mm) / 2,398 curved (3,679 mm); tb 1 rings, 2 straight (1.1 mm) / 1 curved (0.9 mm)
+- **Closed boxes:** 2
+- **Words (OCR):** 149 in 71 lines: WAAD-BECK SYSTeMS LTD_ · DESCRIPTIOn · 5-101 AMPLIFIER · SERIES · The · operation 0 f both · amp]i fier sections is identical _ · OnTy · section · described · one · be
+- **Title block:** (21, 402)–(130, 426) mm: WAAD-BECK SYSTeMS LTD_
+
+Every curve, box, word and wire group: [1975 - M457 - Pre-Mixer Module p18 (traced).json](1975%20-%20M457%20-%20Pre-Mixer%20Module%20p18%20%28traced%29.json) (the CAD file: `1975 - M457 - Pre-Mixer Module p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 10–428 mm up
+- **Outlines:** line 182 rings, 1,846 straight (4,134 mm) / 272 curved (411 mm); text 731 rings, 5,523 straight (6,656 mm) / 1,729 curved (2,755 mm)
+- **Words (OCR):** 82 in 65 lines: WARD-BECK SYSTEMS LTD · PARTS LIst · 5 -101A DUAL BOOSTER · AMPLIFIER · PART DESCRIPTIOn · MFG · MFG PART NUMBER · Capacitor 33 · uF/10 · Kemet · T3900336M010AS · 150
+- **Title block:** (21, 401)–(130, 425) mm: WARD-BECK SYSTEMS LTD
+
+Every curve, box, word and wire group: [1975 - M457 - Pre-Mixer Module p19 (traced).json](1975%20-%20M457%20-%20Pre-Mixer%20Module%20p19%20%28traced%29.json) (the CAD file: `1975 - M457 - Pre-Mixer Module p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–327 mm across, 10–421 mm up
+- **Outlines:** line 175 rings, 1,949 straight (4,327 mm) / 274 curved (416 mm); text 484 rings, 3,699 straight (4,514 mm) / 1,128 curved (1,702 mm)
+- **Closed boxes:** 5
+- **Words (OCR):** 85 in 78 lines: WAAD-BECK SYSTEMS LTD · PARTS LISt · 5-1014 DUAL · BOOSTER AMPL IFIER · DESCRIPTIon · PART · MFG · MFG PART · NUMBER · Philips · RI · Resistor XW
+- **Title block:** (21, 403)–(130, 428) mm: WAAD-BECK SYSTEMS LTD
+
+Every curve, box, word and wire group: [1975 - M457 - Pre-Mixer Module p20 (traced).json](1975%20-%20M457%20-%20Pre-Mixer%20Module%20p20%20%28traced%29.json) (the CAD file: `1975 - M457 - Pre-Mixer Module p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–332 mm across, 1–420 mm up
+- **Outlines:** line 69 rings, 1,248 straight (3,516 mm) / 138 curved (215 mm); text 598 rings, 4,555 straight (5,299 mm) / 1,414 curved (2,144 mm); tb 42 rings, 220 straight (245 mm) / 51 curved (71.0 mm)
+- **Words (OCR):** 81 in 62 lines: WAAD-BECK SYSTEMS LTD_ · PARTS LIST · 5 -101A DUAL · BOOSTER · AMPLIFIER · PART DESCRIPTIon · MFG · MFG PART NUMBER · R36 · Resistor · 15K · Phi]ips
+- **Title block:** (21, 78)–(130, 425) mm: WAAD-BECK SYSTEMS LTD_ · 5 -101A DUAL · PART DESCRIPTIon · R36 · Resistor · R37 · R38 · R39 · R4o · R41 · R42 · R43 · R44 · R45 · R46 · R47 · R48 · R49 · Resistor · R50 · R51 · Resistor · R52 · Delete
+
+Every curve, box, word and wire group: [1975 - M457 - Pre-Mixer Module p21 (traced).json](1975%20-%20M457%20-%20Pre-Mixer%20Module%20p21%20%28traced%29.json) (the CAD file: `1975 - M457 - Pre-Mixer Module p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–334 mm across, 0–431 mm up
+- **Outlines:** line 140 rings, 1,821 straight (4,360 mm) / 264 curved (369 mm); text 531 rings, 3,072 straight (2,804 mm) / 1,273 curved (1,628 mm); tb 457 rings, 2,943 straight (5,689 mm) / 817 curved (1,215 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.0 @ (93.4, 220.0)
+- **Closed boxes:** 10 (9 in the title block); named: Sw| through Switches Swb Knen these depr
+- **Words (OCR):** 95 in 70 lines: WBS · M457 · Sensitivity controls · and · outer knobs) · SEN-C-Mix · LEvcL contro · accommodate constant · HIXER · vary · input levc the · settings
+- **Title block:** (146, 0)–(334, 320) mm: WBS · M457 · Sensitivity controls · and · outer knobs) · SEN-C-Mix · LEvcL contro · accommodate constant · HIXER · vary · input levc the · settings · SENS · TiviTY controls · Con= · tro nge · inuous l
+
+Every curve, box, word and wire group: [1975 - M457 - Pre-Mixer Module p22 (traced).json](1975%20-%20M457%20-%20Pre-Mixer%20Module%20p22%20%28traced%29.json) (the CAD file: `1975 - M457 - Pre-Mixer Module p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** functional 457-01-001, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 1–280 mm up
+- **Outlines:** line 226 rings, 5,272 straight (13,039 mm) / 609 curved (877 mm); text 447 rings, 3,008 straight (3,353 mm) / 896 curved (1,238 mm); tb 5 rings, 99 straight (210 mm) / 7 curved (11.8 mm)
+- **Centre lines:** 4,696 paths (74 closed); straight 8,992 mm, curved 124 mm; horizontal 4,443 mm, vertical 2,114 mm, diagonal 2,435 mm
+- **Circles and arcs:** 3 circles, 25 arcs; largest r 1.4 @ (402.9, 145.3), r 1.1 @ (397.9, 156.9), r 1.0 @ (402.7, 145.5)
+- **Closed boxes:** 21 (12 in the title block); named: SCALE; 457-01 - 001; ISSUE
+- **Words (OCR):** 60 in 51 lines: LEVEL · Mic INPUT · 60/-30dBm · PRE · (-1OdB) · LINE · INPUT · SENSITIvITY · ~15/+15dBm · 30dB · Mic INPUT 3 · 60/-30dBm
+- **Title block:** (283, 7)–(432, 79) mm: 10/77 · REDRAWN · ISSUE DATE · REVISION · APP · WBS WARD-BECK sYsTEMs · DRN DB · M457 · ENG RKB · 4x2 PRE-MIXER MODULE · CKD · FUNCTIONAL DIAGRAM · APP · SCALE · ISSUE · 457-01 - 001
+- **Wiring (first pass):** 135 connected wire groups from 253 runs; labelled ends: 93 mm → BST; 93 mm → BST; 76 mm → LEVEL, (-1OdB); 74 mm → BST; 74 mm → Mic INPUT, 60/-30dBm
+
+Every curve, box, word and wire group: [1975 - M457 - Pre-Mixer Module p23 (traced).json](1975%20-%20M457%20-%20Pre-Mixer%20Module%20p23%20%28traced%29.json) (the CAD file: `1975 - M457 - Pre-Mixer Module p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–280 mm up
+- **Outlines:** line 374 rings, 7,389 straight (15,908 mm) / 1,144 curved (1,656 mm); text 1,160 rings, 6,857 straight (7,174 mm) / 2,629 curved (3,452 mm); tb 39 rings, 328 straight (684 mm) / 61 curved (76.9 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 3.5 @ (55.9, 228.8), r 3.1 @ (261.8, 218.1), r 3.0 @ (281.8, 218.0)
+- **Closed boxes:** 33 (28 in the title block); named: E11 E3 5-101A DUAL BOOSTER AmpLifieR E5 ; WBS WARD-BECK bystEMB LTD; M457 4 X 2 PRE-MIXER SCHEMATIC
+- **Words (OCR):** 202 in 182 lines: T24v · 24v · R89 · R9o · ISk · ISk · NOTES: · Sw7 · Sw8 · E11 · R102 · 1.USE PCb N? 5-106_
+- **Title block:** (156, 1)–(377, 51) mm: ISS · MOD  CKD · USED ON · MATL. · WBS WARD-BECK bystEMB LTD · 3 IEI7MGB REDRAWN · DRN; · Do · 13547/PKM · DATE MAR 75 · M457 · 3l92 · ML · FINISH · 4 X 2 PRE-MIXER · CKD. · ISCALE · SCHEMATIC · Tois
+
+Every curve, box, word and wire group: [1975 - M457 - Pre-Mixer Module p24 (traced).json](1975%20-%20M457%20-%20Pre-Mixer%20Module%20p24%20%28traced%29.json) (the CAD file: `1975 - M457 - Pre-Mixer Module p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** drawing, size B (assumed) 262 × 432 mm, 1214 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–262 mm across, 0–432 mm up
+- **Outlines:** line 462 rings, 9,838 straight (15,701 mm) / 1,721 curved (2,556 mm); text 626 rings, 4,423 straight (4,774 mm) / 1,394 curved (1,983 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 4.2 @ (41.5, 390.2), r 4.0 @ (47.5, 123.5), r 4.0 @ (55.6, 189.9), r 3.9 @ (51.8, 322.9)
+- **Closed boxes:** 3
+- **Dots (junctions):** 2
+- **Words (OCR):** 28 in 23 lines: tg · 44 · 83 · 88 · 23 38 · E8 82 · 28 · {20 · 24 · Z4 Yi · 84 · 84 88
+
+Every curve, box, word and wire group: [1975 - M457 - Pre-Mixer Module p25 (traced).json](1975%20-%20M457%20-%20Pre-Mixer%20Module%20p25%20%28traced%29.json) (the CAD file: `1975 - M457 - Pre-Mixer Module p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** mechanical 461-03-015, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–280 mm up
+- **Outlines:** line 1,147 rings, 8,830 straight (14,674 mm) / 2,085 curved (2,650 mm); text 749 rings, 4,462 straight (4,318 mm) / 1,577 curved (1,973 mm); tb 16 rings, 181 straight (249 mm) / 20 curved (25.4 mm)
+- **Centre lines:** 13,498 paths (263 closed); straight 12,124 mm, curved 363 mm; horizontal 4,918 mm, vertical 2,412 mm, diagonal 4,794 mm
+- **Circles and arcs:** 23 circles, 74 arcs; largest r 1.7 @ (351.9, 186.3), r 1.7 @ (352.1, 64.7), r 1.7 @ (249.1, 64.2), r 1.7 @ (249.0, 123.8)
+- **Closed boxes:** 40 (3 in the title block); named: USED; WBS WAAD-BeCk LTD; 2345; M 457 PRE-MIXER 4 X 2 LAYOUT MOTHERBOARD; LDDID; PKM; FINISH; 5-106-06-001; TOLS _
+- **Words (OCR):** 143 in 125 lines: R29 Jek Oori A · Swi · Sk2 · RSO · Rus _ · ~C8?+ R2s _ · 449 · R4o 22* · R2o 2 · R3g · Rig %2 · 7I8_Ris
+- **Title block:** (325, 6)–(400, 39) mm: WBS WAAD-BeCk · DRN: Dm · M 457 · DATE · 75 · 4 X 2 · PRE-MIXER · CKD; · SCALE · MOTHERBOARD · TOLS _ · 5-106-06-001
+
+Every curve, box, word and wire group: [1975 - M457 - Pre-Mixer Module p26 (traced).json](1975%20-%20M457%20-%20Pre-Mixer%20Module%20p26%20%28traced%29.json) (the CAD file: `1975 - M457 - Pre-Mixer Module p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 3–432 mm up
+- **Outlines:** line 221 rings, 5,989 straight (11,828 mm) / 594 curved (958 mm); text 575 rings, 5,376 straight (7,234 mm) / 1,238 curved (1,942 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.4 @ (252.8, 27.0), r 2.3 @ (317.7, 207.7)
+- **Closed boxes:** 89; named: B | 2; C|3; H/7; Kl9; L/IO; Mlu; N/12; P/13; R/14; s/15; T/16; 0/17
+- **Words (OCR):** 93 in 57 lines: MIC 4 IN · MC 4 IN · LINE 4 IN B | 2 LINE IN · MIC 3 |N C|3 · MIC 3 |N · LINE · 3 |N · LINE · 3 IN · SHIELD · SHIELD · MIC 2 |N
+
+Every curve, box, word and wire group: [1975 - M457 - Pre-Mixer Module p27 (traced).json](1975%20-%20M457%20-%20Pre-Mixer%20Module%20p27%20%28traced%29.json) (the CAD file: `1975 - M457 - Pre-Mixer Module p27 (traced).dxf`).
+
+### Page 28
+
+- **Sheet:** schematic 101-02 002, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 6–432 mm up
+- **Outlines:** line 190 rings, 5,838 straight (12,457 mm) / 686 curved (1,154 mm); text 520 rings, 5,481 straight (7,383 mm) / 1,460 curved (2,487 mm); tb 8 rings, 263 straight (592 mm) / 23 curved (40.9 mm)
+- **Centre lines:** 4,367 paths (66 closed); straight 11,536 mm, curved 417 mm; horizontal 4,368 mm, vertical 2,535 mm, diagonal 4,634 mm
+- **Circles and arcs:** 8 circles, 12 arcs; largest r 8.8 @ (125.7, 375.3), r 8.7 @ (125.1, 124.0), r 8.5 @ (125.5, 287.7), r 8.5 @ (125.8, 210.2)
+- **Closed boxes:** 12 (3 in the title block); named: WBS systeMS LTD. WAAD-BECK; MATL .; 5_101A AMPLIFIER DUAL BOOSTE R SCHEMATIC; FINISH; 5 _ 101-02 - 002; ISS; XX AnG TOLS_; LB
+- **Words (OCR):** 92 in 77 lines: ExtERNAL COM NEcT/on · R35 · I5k · Q5 · PN3569 · R?1 · CR5 R39 · +18v 18k · 33 · Ci3 · R45 E7 · 33
+- **Title block:** (94, 16)–(299, 85) mm: WBS WAAD-BECK · systeMS LTD. · DRN. · DM · 5_101A · DATE · JAN 75 · AMPLIFIER · DUAL BOOSTE R · CKD_ · Rlc · SCHEMATIC · SCALE · ISS · TOLS_
+- **Wiring (first pass):** 58 connected wire groups from 296 runs; labelled ends: 210 mm → WBS; 175 mm → DRN., DATE, CKD_; 144 mm → 33, R41, Ci4, 22o/10; 137 mm → R?1, +18v 18k, CR5, R39; 115 mm → R35, I5k, CR5, 23
+
+Every curve, box, word and wire group: [1975 - M457 - Pre-Mixer Module p28 (traced).json](1975%20-%20M457%20-%20Pre-Mixer%20Module%20p28%20%28traced%29.json) (the CAD file: `1975 - M457 - Pre-Mixer Module p28 (traced).dxf`).
+
+### Page 29
+
+- **Sheet:** drawing, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 1–280 mm up
+- **Outlines:** line 280 rings, 4,322 straight (9,431 mm) / 650 curved (1,096 mm); text 602 rings, 4,711 straight (5,738 mm) / 1,528 curved (2,240 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 3.8 @ (289.1, 164.2), r 3.7 @ (289.5, 154.9), r 3.6 @ (290.3, 261.8)
+- **Words (OCR):** 105 in 92 lines: EXTERNAL · CONNECTion · R12 · ISk · Q1 · Pn3569 · R8 · CRI Ri6 · +8v 18k · 33 · C6 R2? · R5I
+
+Every curve, box, word and wire group: [1975 - M457 - Pre-Mixer Module p29 (traced).json](1975%20-%20M457%20-%20Pre-Mixer%20Module%20p29%20%28traced%29.json) (the CAD file: `1975 - M457 - Pre-Mixer Module p29 (traced).dxf`).
+
+### Page 30
+
+- **Sheet:** mechanical 461-03-015, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–280 mm up
+- **Outlines:** line 285 rings, 3,078 straight (9,048 mm) / 422 curved (613 mm); text 689 rings, 3,977 straight (3,863 mm) / 1,437 curved (1,788 mm); tb 7 rings, 85 straight (167 mm) / 5 curved (5.9 mm)
+- **Centre lines:** 5,735 paths (153 closed); straight 7,704 mm, curved 140 mm; horizontal 3,479 mm, vertical 1,868 mm, diagonal 2,358 mm
+- **Circles and arcs:** 16 circles, 9 arcs; largest r 1.7 @ (133.3, 36.4), r 1.6 @ (133.3, 31.9), r 1.6 @ (248.4, 112.7), r 1.4 @ (248.3, 186.6)
+- **Closed boxes:** 39 (26 in the title block); named: 26 M3o; 27 LmzeL; 25 M3o @; WBS WARD-BeCK LTD. BYOTEMI; M457A PRE-MIXER MASTER MODULE LAYOUT; FINISH; {ie TOLs; 06-002 5-106 -; IsS_
+- **Words (OCR):** 124 in 91 lines: Ris EEk · Swg · Rig Ek · RSS EEk · Swio · Eii · R36 Ek · Elo · Swg · Swio · Pin F PIN € · SWg
+- **Title block:** (244, 5)–(399, 41) mm: Iss MOD ICKD · I2343 Geb · USED OM · MATL · WBS WARD-BeCK BYOTEMI · 3 Bl43kER · DRN: DM · M457A · FINISH · DATE JULY 75 PRE-MIXER MASTER MODULE · CKD.Rub _ · LAYOUT · (SCALE · {ie · TOLs · 5-106 -
+
+Every curve, box, word and wire group: [1975 - M457 - Pre-Mixer Module p30 (traced).json](1975%20-%20M457%20-%20Pre-Mixer%20Module%20p30%20%28traced%29.json) (the CAD file: `1975 - M457 - Pre-Mixer Module p30 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

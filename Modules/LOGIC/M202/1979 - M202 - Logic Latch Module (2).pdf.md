@@ -12,6 +12,129 @@ Wiki page: [M202](../../../PAGES/M202.md)
 - **Pages:** 11
 - **PDF created (scan date, not design date):** Thu Nov  2 15:10:41 2006 EST
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 301 × 432 mm, 1395 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–293 mm across, 1–409 mm up
+- **Outlines:** line 84 rings, 1,770 straight (4,264 mm) / 371 curved (630 mm); text 40 rings, 458 straight (755 mm) / 96 curved (155 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 5.1 @ (157.4, 243.7), r 2.9 @ (114.4, 229.4)
+- **Closed boxes:** 1
+- **Words (OCR):** 14 in 11 lines: WARD-BEC · YS TE · LTD · ('NElS] · oee·~ · M202 · lOGIC LATCH MODULE · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module (2) p1 (traced).json](1979%20-%20M202%20-%20Logic%20Latch%20Module%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 302 × 432 mm, 1401 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–295 mm across, 2–411 mm up
+- **Outlines:** line 121 rings, 1,394 straight (4,076 mm) / 305 curved (492 mm); text 1,969 rings, 14,368 straight (15,667 mm) / 4,394 curved (7,035 mm); tb 51 rings, 627 straight (817 mm) / 159 curved (272 mm)
+- **Words (OCR):** 382 in 190 lines: WAFlo · e:CK SYSTEMS LTC · IRCUIT DESCRIPT ION · M202 LOG · CH MODULE · re accep ts th ree momentary · The M202 · og · tc · mod · 1ton · input
+- **Title block:** (62, 196)–(245, 419) mm: e:CK SYSTEMS LTC · IRCUIT DESCRIPT ION · M202 LOG · CH MODULE · re accep ts th ree momentary · og · tc · mod · and sto res · tc · of he · tton · outp · be la tched · any one · lte na te ac · yp · tch 
+
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module (2) p2 (traced).json](1979%20-%20M202%20-%20Logic%20Latch%20Module%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 432 × 300 mm, 2000 × 1387 px traced (0.216 mm/px)
+- **Ink extent:** 2–410 mm across, 7–291 mm up
+- **Outlines:** line 1,578 rings, 12,171 straight (15,780 mm) / 3,548 curved (5,718 mm); text 512 rings, 3,660 straight (3,984 mm) / 1,071 curved (1,699 mm)
+- **Circles and arcs:** 64 circles, 0 arcs; largest r 2.3 @ (24.4, 277.9), r 2.3 @ (365.7, 119.2), r 2.3 @ (352.0, 172.2), r 1.8 @ (181.0, 96.4)
+- **Closed boxes:** 1
+- **Dots (junctions):** 11
+- **Words (OCR):** 66 in 63 lines: nllO · 00 · 1£1 · ",,1»::r · O-..l::J:T · It · Vl;;_ · roll- · It · III · It · III
+
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module (2) p3 (traced).json](1979%20-%20M202%20-%20Logic%20Latch%20Module%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 308 × 432 mm, 1425 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–308 mm across, 1–427 mm up
+- **Outlines:** line 201 rings, 3,318 straight (8,605 mm) / 631 curved (978 mm); text 525 rings, 4,325 straight (5,033 mm) / 1,292 curved (2,164 mm)
+- **Closed boxes:** 11; named: IN PUTS OU TPU TS DOD 100 000; OU TPU TS; IN PUTS; DOD 100 000
+- **Dots (junctions):** 4
+- **Words (OCR):** 90 in 33 lines: WARO -BECK YS TEM · INTE GRATED CIRCUIT DATA · 74C · BCD TO DEC MAL DECODER · ~on ithf CMOS irc uft. · The 74C42: ne of · decoder · This de cod er produ es · logi · at he ou put corresp ondin · our ft inary nput frolll zero to nin · and
+
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module (2) p4 (traced).json](1979%20-%20M202%20-%20Logic%20Latch%20Module%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 301 × 432 mm, 1393 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–293 mm across, 2–416 mm up
+- **Outlines:** line 141 rings, 2,795 straight (8,821 mm) / 490 curved (819 mm); text 847 rings, 6,728 straight (7,664 mm) / 2,059 curved (3,387 mm)
+- **Closed boxes:** 18; named: tn+l; Preset Cl ea; Preset; Cl ea
+- **Dots (junctions):** 3
+- **Words (OCR):** 176 in 69 lines: WAFlO · ECK · STE · LTO · INT EGRATE CIRCU IT DATA · 74C76 · DUAL · FL IP FLOP WITH CLEAR AND PRESE · The 74C76 · f11 · lop is · mo no li th
+
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module (2) p5 (traced).json](1979%20-%20M202%20-%20Logic%20Latch%20Module%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 299 × 432 mm, 1385 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–289 mm across, 1–411 mm up
+- **Outlines:** line 166 rings, 2,236 straight (4,923 mm) / 539 curved (886 mm); text 372 rings, 3,074 straight (3,457 mm) / 805 curved (1,294 mm)
+- **Closed boxes:** 4
+- **Words (OCR):** 81 in 58 lines: WA~D -BEC · YSTEM LTD · PARTS LIST · MZOZ LOGIC LATCH MODULE · PART · DESCRIPT ION · PART NUMBER · Cl · Cap aci to · uf · K••l · T390AI04M03SAS
+
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module (2) p6 (traced).json](1979%20-%20M202%20-%20Logic%20Latch%20Module%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 295 × 432 mm, 1366 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–287 mm across, 1–412 mm up
+- **Outlines:** line 167 rings, 2,147 straight (4,740 mm) / 529 curved (820 mm); text 270 rings, 2,384 straight (2,819 mm) / 647 curved (984 mm)
+- **Closed boxes:** 16
+- **Words (OCR):** 68 in 51 lines: WA~O ·BEC · YSTEMS LTO · PART LI ST · M20 · LOGI · AT · MOOULE · PART · DESCR[PTI ON · HF · MFG PART NU MBER · QI
+
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module (2) p7 (traced).json](1979%20-%20M202%20-%20Logic%20Latch%20Module%20%282%29%20p7%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module (2) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 293 × 432 mm, 1359 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–287 mm across, 1–411 mm up
+- **Outlines:** line 211 rings, 2,411 straight (5,362 mm) / 521 curved (816 mm); text 361 rings, 2,986 straight (3,405 mm) / 819 curved (1,296 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.9 @ (116.5, 46.7), r 1.9 @ (39.9, 33.5)
+- **Closed boxes:** 1
+- **Words (OCR):** 96 in 54 lines: WAFlD -BECK YSTEMS LTD. · PART LIST · M202 LOGI LATCH MODUL · PART · DESCR PTION · MFG · MFG PART II' UMBER · Resistor · ss · Phll ps · R27 · R30
+
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module (2) p8 (traced).json](1979%20-%20M202%20-%20Logic%20Latch%20Module%20%282%29%20p8%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module (2) p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 432 × 295 mm, 2000 × 1367 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–292 mm up
+- **Outlines:** line 592 rings, 8,753 straight (12,872 mm) / 2,269 curved (2,948 mm); text 159 rings, 1,247 straight (1,068 mm) / 442 curved (557 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.2 @ (382.2, 287.9)
+- **Closed boxes:** 14; named: SS; ht
+- **Dots (junctions):** 1
+- **Words (OCR):** 138 in 115 lines: NOTES. · 100 'laW · U.y · Poou. 1l.~lbTOR!. ARE · tNMio' · AU. · GLP6L\T'OR.~ · UNL£!6 · +l~V · tJa · S~I!='I~D OTH."Q.W'\~e.. · LA~T COM~e.NT [)£50ICaN...T10....
+
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module (2) p9 (traced).json](1979%20-%20M202%20-%20Logic%20Latch%20Module%20%282%29%20p9%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module (2) p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 330 × 432 mm, 1526 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–329 mm across, 0–432 mm up
+- **Outlines:** line 362 rings, 5,115 straight (10,628 mm) / 899 curved (1,487 mm); text 247 rings, 2,151 straight (2,752 mm) / 543 curved (888 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.5 @ (320.8, 210.8)
+- **Closed boxes:** 61; named: en en; 10 11 12 13 14 15; lII:; en; ZI- 00; 10; 11; 12; 13; 14; 15; ps
+- **Dots (junctions):** 4
+- **Words (OCR):** 89 in 63 lines: en · en · CD · UJ · 00 · CD · CD · N::I: · ouo:: · UJ · NC · +24
+
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module (2) p10 (traced).json](1979%20-%20M202%20-%20Logic%20Latch%20Module%20%282%29%20p10%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module (2) p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** component layout 202-06-001, size B (assumed) 432 × 412 mm, 2000 × 1906 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 0–401 mm up
+- **Outlines:** line 413 rings, 7,201 straight (12,555 mm) / 1,822 curved (2,033 mm); text 385 rings, 3,935 straight (4,018 mm) / 1,176 curved (1,412 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 9.3 @ (286.4, 333.4), r 9.2 @ (315.2, 333.5), r 9.2 @ (286.9, 299.3), r 8.7 @ (315.6, 264.8)
+- **Closed boxes:** 12; named: ~~id@; ua. 'J4C.4't; U4 704C.~; 7<4; us 74tOO; us "14<;7li
+- **Words (OCR):** 55 in 49 lines: (was] · ~~id@ in · enrn · nii · 9-102 · 'fI · t1. · "~11 · Ii · ua. · U4 · II
+
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module (2) p11 (traced).json](1979%20-%20M202%20-%20Logic%20Latch%20Module%20%282%29%20p11%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module (2) p11 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

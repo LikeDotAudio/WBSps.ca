@@ -12,6 +12,208 @@ Wiki page: [M625A](../../../PAGES/M625A.md)
 - **Pages:** 18
 - **PDF created (scan date, not design date):** Thu Nov  2 21:48:58 2006 EST
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–330 mm across, 22–424 mm up
+- **Outlines:** line 89 rings, 1,341 straight (3,964 mm) / 263 curved (467 mm); text 43 rings, 344 straight (611 mm) / 96 curved (176 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.9 @ (144.7, 234.4)
+- **Words (OCR):** 13 in 8 lines: [WEI_] WARO-BECK SYBTE MS LTO. · T&.Vt'08l5- · M625A · POWER SUPPLY · ca · BS · tp · ht
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply (2) p1 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–335 mm across, 15–424 mm up
+- **Outlines:** line 346 rings, 3,000 straight (5,733 mm) / 856 curved (1,316 mm); text 529 rings, 3,802 straight (4,176 mm) / 1,229 curved (1,940 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 2.2 @ (141.1, 181.9), r 1.8 @ (165.0, 254.0), r 1.8 @ (269.3, 273.6), r 1.7 @ (197.6, 214.0)
+- **Dots (junctions):** 6
+- **Words (OCR):** 146 in 70 lines: AAD-BI!CK SYSTEM8 · LTD. · TECHNICA OATA · M62SA POWER SUPPLY · DC Out put: · lS al loa · ren IS · I"OM · ·25 · 10 · es. · in Reg ul ion
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply (2) p2 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–329 mm across, 15–424 mm up
+- **Outlines:** line 744 rings, 5,509 straight (8,878 mm) / 1,732 curved (2,740 mm); text 1,057 rings, 7,886 straight (8,800 mm) / 2,468 curved (3,898 mm)
+- **Circles and arcs:** 27 circles, 0 arcs; largest r 2.2 @ (66.9, 161.5), r 2.2 @ (66.7, 121.7), r 1.7 @ (282.1, 94.8), r 1.7 @ (249.2, 279.8)
+- **Dots (junctions):** 11
+- **Words (OCR):** 123 in 91 lines: WAAD-BeCK Bybteme · cincuit descaiPtiUN · POWER_EuRELY · ME254 · MCz _4 · Buppiy Gnich · C4ped & · Jelivering · Lcrtnt · Jmoerea · tronstontttr · dpigred
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply (2) p3 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–328 mm across, 10–423 mm up
+- **Outlines:** line 421 rings, 3,824 straight (6,623 mm) / 984 curved (1,553 mm); text 1,051 rings, 7,331 straight (8,145 mm) / 2,383 curved (3,652 mm); tb 30 rings, 211 straight (235 mm) / 71 curved (124 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 2.2 @ (247.4, 98.1), r 2.2 @ (156.3, 349.2), r 1.7 @ (127.4, 90.3), r 1.7 @ (283.4, 230.1)
+- **Dots (junctions):** 4
+- **Words (OCR):** 256 in 149 lines: WARD -BEC SYS EMS l.TD. · TE ST · SETU · PROCE DURE · emov PCB · ~117. · ly pow"''' · ch · fa,. · ",nc", · ro" lma t",l · -+-40 vee
+- **Title block:** (21, 138)–(82, 418) mm: emov · to sr en · th · ln SI · Mo · 117 · _Remov · -Manito,. Ih · emov · _App ly · is
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply (2) p4 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 30–332 mm across, 11–423 mm up
+- **Outlines:** line 487 rings, 4,325 straight (7,249 mm) / 1,151 curved (1,872 mm); text 1,000 rings, 7,294 straight (7,952 mm) / 2,285 curved (3,545 mm); tb 18 rings, 170 straight (240 mm) / 52 curved (89.8 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 1.7 @ (268.6, 92.3), r 1.7 @ (160.7, 323.5), r 1.7 @ (102.1, 270.2), r 1.7 @ (170.6, 230.6)
+- **Dots (junctions):** 7
+- **Words (OCR):** 278 in 141 lines: WARD -BEC SYSTEMS LTD. · TEST fJ SETU PROCEDURE · 12) · Se · metering swi tch to +25 · se th · OMM to · CURR EN · .....nge · -Adj us · c...llb..atlon control R39 · 1-1 17
+- **Title block:** (25, 396)–(133, 419) mm: WARD -BEC SYSTEMS LTD.
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply (2) p5 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–332 mm across, 11–424 mm up
+- **Outlines:** line 323 rings, 3,185 straight (5,959 mm) / 782 curved (1,241 mm); text 767 rings, 5,551 straight (6,154 mm) / 1,746 curved (2,791 mm); tb 12 rings, 124 straight (161 mm) / 40 curved (66.8 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.2 @ (161.3, 350.7), r 1.7 @ (232.1, 191.0), r 1.7 @ (98.0, 277.5), r 1.7 @ (249.8, 190.9)
+- **Dots (junctions):** 2
+- **Words (OCR):** 188 in 93 lines: WARD -BECI< SYSTEMS LTD. · TEST · SE TUP PROCEDU RE · lo ly · ly · input · ve ec · When th · volt · ..ea e5 · ro xi ma te ly 28 to 30 vol · Ih
+- **Title block:** (26, 397)–(134, 420) mm: WARD -BECI< SYSTEMS LTD.
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply (2) p6 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–335 mm across, 0–423 mm up
+- **Outlines:** line 221 rings, 2,585 straight (5,128 mm) / 613 curved (973 mm); text 272 rings, 1,857 straight (1,996 mm) / 700 curved (1,079 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.1 @ (108.4, 309.2), r 1.8 @ (232.8, 321.9), r 1.8 @ (99.7, 229.2), r 1.7 @ (215.0, 321.8)
+- **Dots (junctions):** 3
+- **Words (OCR):** 72 in 43 lines: WARD · av.Te · LTD. · TEST · SE.TUP PROCEDURE · M625A POWER SUPPLY · +40 · +40.0 · +25 · 0.0 · -12.0 · _25.
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply (2) p7 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20%282%29%20p7%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply (2) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–333 mm across, 12–423 mm up
+- **Outlines:** line 456 rings, 3,700 straight (6,888 mm) / 1,026 curved (1,663 mm); text 251 rings, 1,975 straight (2,259 mm) / 620 curved (995 mm); tb 14 rings, 180 straight (274 mm) / 41 curved (63.7 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.3 @ (112.6, 324.8), r 1.8 @ (196.6, 218.1), r 1.7 @ (190.7, 218.0), r 1.7 @ (96.9, 92.6)
+- **Words (OCR):** 81 in 59 lines: WARD-BECK SYSTEMS LTD. · M62~ · POWER SUPPLY · cr · Cap ac tor · .033 F!400 · 281COA33K · Ph iP · C2 · 0.1 uF 400 · 28 1COAlOOK · F!50
+- **Title block:** (27, 396)–(135, 418) mm: WARD-BECK SYSTEMS LTD.
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply (2) p8 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20%282%29%20p8%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply (2) p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 29–331 mm across, 12–423 mm up
+- **Outlines:** line 193 rings, 2,200 straight (4,982 mm) / 490 curved (796 mm); text 136 rings, 1,143 straight (1,315 mm) / 326 curved (524 mm); tb 6 rings, 58 straight (88.8 mm) / 20 curved (34.7 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.8 @ (79.0, 284.7), r 1.7 @ (86.9, 284.7), r 1.7 @ (218.9, 86.4)
+- **Words (OCR):** 42 in 20 lines: WARD -BeCK ev.TI!M. · LTD · M625A POWER SUPPL · MFG PAR NUMBER · sw, · RL · Regu lator PC · wa · r-ee · Se · rep lacemen parts ma · "pec ifl ed
+- **Title block:** (24, 396)–(90, 420) mm: WARD -BeCK ev.TI!M.
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply (2) p9 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20%282%29%20p9%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply (2) p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–329 mm across, 16–424 mm up
+- **Outlines:** line 369 rings, 3,509 straight (6,014 mm) / 813 curved (1,274 mm); text 1,915 rings, 13,592 straight (15,006 mm) / 4,181 curved (6,494 mm); tb 7 rings, 59 straight (72.7 mm) / 16 curved (25.0 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 1.8 @ (103.7, 280.2), r 1.7 @ (143.7, 233.9), r 1.7 @ (192.4, 273.5), r 1.7 @ (68.1, 108.6)
+- **Words (OCR):** 423 in 177 lines: WARD ECK BYBTB:Ma · LTD. · CI RCUIT DESCR IP ION · 117 REGULA TOR BOARO · 1_117 Reg lat or is · prin ted ci rcu it bo ard · is sed · umb er of WBS Po er Supplies and con ins · majority · act ecircuitry of th es units · +2S · egul ator con st
+- **Title block:** (23, 309)–(105, 422) mm: WARD ECK BYBTB:Ma · 1_117 Reg lat or is · act ecircuitry of th es units
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply (2) p10 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20%282%29%20p10%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply (2) p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 31–332 mm across, 15–424 mm up
+- **Outlines:** line 278 rings, 2,847 straight (5,197 mm) / 721 curved (1,122 mm); text 222 rings, 1,696 straight (1,818 mm) / 528 curved (833 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.2 @ (48.5, 325.6), r 1.8 @ (58.7, 285.4), r 1.7 @ (167.4, 304.8), r 1.7 @ (48.1, 305.1)
+- **Dots (junctions):** 2
+- **Words (OCR):** 93 in 29 lines: IRCUI DESCR IPTION · 1_117 REGULA TOR BOARD · Ov rv olta ge pl"Oteet lon Is · ded by 'crowb. · SCA 09 Tn sen ing · network o;onsl lng of · 08 · CR6, CA7 · A45 to A50 will monitor · botl'l tl'le posit ve · we ll · tl'le negative
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply (2) p11 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20%282%29%20p11%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply (2) p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–331 mm across, 11–424 mm up
+- **Outlines:** line 412 rings, 3,411 straight (6,483 mm) / 886 curved (1,406 mm); text 348 rings, 2,823 straight (3,326 mm) / 895 curved (1,454 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.7 @ (188.8, 170.1), r 1.7 @ (201.1, 282.3), r 1.7 @ (82.8, 196.4)
+- **Dots (junctions):** 3
+- **Words (OCR):** 87 in 59 lines: WARD I!CK 8Y8TI!Ma LTD. · PARTS LIST · 1_117 REGULATOR BOARD · PART NUMBER · cr · ap a~i1or · 2200pF · As elco · C0 92 Me -222M · cz · .015 uF · C0 92-MC_ls3M
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply (2) p12 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20%282%29%20p12%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply (2) p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 31–331 mm across, 13–423 mm up
+- **Outlines:** line 399 rings, 3,592 straight (6,677 mm) / 896 curved (1,389 mm); text 469 rings, 3,527 straight (3,917 mm) / 1,137 curved (1,773 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 126 in 93 lines: •CK · ~T.M. LTD. · PARTS LIST · 1_117 REGULATOfl BOARD · DESCRIPT ION · MFG 'ART · NUMBER · Re sist or 1/4W · n:.lips · '20 · R6 · RT
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply (2) p13 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20%282%29%20p13%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply (2) p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–328 mm across, 12–423 mm up
+- **Outlines:** line 221 rings, 2,119 straight (5,114 mm) / 508 curved (790 mm); text 356 rings, 2,709 straight (3,089 mm) / 808 curved (1,291 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 76 in 39 lines: 117 REGUL ....TOR BO....RD · MFG ....RT NUMBER · R36 · Re istor 1/4W · el · ele · Ph il ip · R39 · Tri · po · ZOK · Pihe
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply (2) p14 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20%282%29%20p14%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply (2) p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 432 × 145 mm, 2000 × 673 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–142 mm up
+- **Outlines:** line 556 rings, 5,859 straight (10,480 mm) / 1,326 curved (1,818 mm); text 647 rings, 3,346 straight (3,119 mm) / 1,218 curved (1,564 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 1.1 @ (20.0, 82.1), r 1.0 @ (43.5, 78.7), r 1.0 @ (122.3, 121.0), r 1.0 @ (19.9, 92.2)
+- **Closed boxes:** 25; named: 1,2,; 16
+- **Dots (junctions):** 1
+- **Words (OCR):** 132 in 95 lines: P2 · 0·5 · R4 · ----i.I. · ~"""""'V\,-T-------,------r------~....L-·----------..,.....~------l-f) +25v · Q2 · 1,2, · PI · SWI · /2N3772 · 120VAC · R7
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply (2) p15 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20%282%29%20p15%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply (2) p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 432 × 309 mm, 2000 × 1433 px traced (0.216 mm/px)
+- **Ink extent:** 3–432 mm across, 0–294 mm up
+- **Outlines:** line 750 rings, 8,992 straight (24,109 mm) / 1,665 curved (2,798 mm); text 21 rings, 142 straight (146 mm) / 51 curved (71.8 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 3.4 @ (217.8, 112.7), r 1.7 @ (90.8, 115.1), r 1.2 @ (74.8, 39.6)
+- **Words (OCR):** 10 in 10 lines: 117 · pce · R5 · Tl · Rl · ps · BS · tp · .a.am · ht
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply (2) p16 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20%282%29%20p16%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply (2) p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 432 × 142 mm, 2000 × 659 px traced (0.216 mm/px)
+- **Ink extent:** 4–430 mm across, 2–142 mm up
+- **Outlines:** line 936 rings, 7,909 straight (12,049 mm) / 2,044 curved (2,603 mm); text 330 rings, 1,689 straight (1,404 mm) / 593 curved (714 mm); tb 74 rings, 554 straight (520 mm) / 159 curved (189 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 6.7 @ (118.5, 54.1), r 6.5 @ (79.0, 86.7), r 1.1 @ (113.5, 47.8), r 1.0 @ (166.7, 21.0)
+- **Closed boxes:** 29 (9 in the title block); named: 10; M·L; CO; CR ADDED; I4J
+- **Dots (junctions):** 1
+- **Words (OCR):** 172 in 128 lines: NC>TE.~ · ALL RE.S\S · TORe., ARE. · se/. · AND ALl.. · c./>..P~<"ITORS IN · LE SS · RE.G. B~~E. · 5£l<le::, · CuRRENT · LIMIT · +25V
+- **Title block:** (350, 4)–(432, 35) mm: APP. · (VVE3S] WARD-'BECK SYSTEMS · ISSUE DATE · REVISION · ps · BS · DRN MRW · ENG. MRW · 8/78 · 117 · eKD · RrJ- · REGULATOR BOARD · tp · APP · SCHEMATIC · ht · ALL RE.S\S · TORe., ARE. · se/.
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply (2) p17 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20%282%29%20p17%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply (2) p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 432 × 347 mm, 2000 × 1609 px traced (0.216 mm/px)
+- **Ink extent:** 6–432 mm across, 0–328 mm up
+- **Outlines:** line 368 rings, 5,849 straight (10,170 mm) / 1,345 curved (2,172 mm); text 378 rings, 2,881 straight (3,390 mm) / 915 curved (1,368 mm)
+- **Circles and arcs:** 13 circles, 0 arcs; largest r 9.7 @ (163.8, 223.9), r 8.1 @ (164.4, 158.7), r 8.1 @ (230.0, 158.4), r 8.1 @ (163.4, 138.9)
+- **Closed boxes:** 11
+- **Words (OCR):** 71 in 63 lines: ~VADJ · sao · _~,...!Ma.. · -RI01!!l · -R:M1i!! · -R4-~ · -R9.5~ · -R7..!iQ. · -RI1.JI!< · -RIO- · CI~OOp · (Ql~
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply (2) p18 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20%282%29%20p18%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply (2) p18 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

@@ -18,6 +18,190 @@ Wiki page: [M452](../../../PAGES/M452.md)
 - **1974** (labelled): `DATE MAR 74` — …dde Aaf%s 3432 LC 0 MATL- WBS WAAD-BeCK BybteM8 LTD DRN_ Ro DATE MAR 74 CKD_ROL SCALE M452 OSCILLATOR MODULE COMPONENT LAYOUT 4-127…
 - **1977** (labelled): `ISSUE 41 SEPT . 1977` — …3 B452-01-001 B452-02-00 1 B4-127-06-001 A452-04-002 MANUAL ISSUE 41 SEPT . 1977…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 322 × 432 mm, 1491 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 169–288 mm across, 0–430 mm up
+- **Outlines:** line 21 rings, 1,444 straight (5,576 mm) / 78 curved (148 mm); text 48 rings, 1,056 straight (4,006 mm) / 121 curved (221 mm); tb 2 rings, 65 straight (249 mm) / 8 curved (14.3 mm)
+- **Words (OCR):** 12 in 12 lines: WBS · WBS · WBS · WBS · WBS · WBS · WBS · WBS · M 452 · OSciLLATOR MODULE · WBS · WBS
+- **Title block:** (173, 0)–(284, 432) mm: WBS · WBS · WBS · WBS · WBS · WBS · WBS · WBS · M 452 · OSciLLATOR MODULE · WBS · WBS
+
+Every curve, box, word and wire group: [1974 - M452 - Oscillator Module p1 (traced).json](1974%20-%20M452%20-%20Oscillator%20Module%20p1%20%28traced%29.json) (the CAD file: `1974 - M452 - Oscillator Module p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 309 × 432 mm, 1431 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–301 mm across, 7–418 mm up
+- **Outlines:** line 17 rings, 721 straight (2,625 mm) / 75 curved (122 mm); text 160 rings, 1,895 straight (2,540 mm) / 454 curved (722 mm); tb 8 rings, 144 straight (326 mm) / 22 curved (33.2 mm)
+- **Words (OCR):** 12 in 7 lines: WARD-BECK systeMS LTD · WBS 841 PROGAESS AVENUE, SCARBOAOUGH, ONTAPIO Mih?x4 · TeLeX; 065-25399 · TELEPHONF · M452 · OSCILLATOR MODULE · DESIGN AND MANUFACTUAE OF PAOFESSIONAL AUDIO EOUIPMENT
+- **Title block:** (30, 392)–(251, 428) mm: WARD-BECK systeMS LTD · WBS 841 PROGAESS AVENUE, SCARBOAOUGH, ONTAPIO Mih?x4 · TeLeX; 065-25399 · TELEPHONF
+
+Every curve, box, word and wire group: [1974 - M452 - Oscillator Module p2 (traced).json](1974%20-%20M452%20-%20Oscillator%20Module%20p2%20%28traced%29.json) (the CAD file: `1974 - M452 - Oscillator Module p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 322 × 432 mm, 1492 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 14–311 mm across, 12–422 mm up
+- **Outlines:** line 9 rings, 816 straight (3,134 mm) / 70 curved (118 mm); text 414 rings, 3,558 straight (4,238 mm) / 914 curved (1,405 mm)
+- **Words (OCR):** 45 in 30 lines: WARD-BECK SYSTEMS LTD · IABLE · OF_CONTENTS · M452 OSCILLAIOR_MODULE · SECIION · PAGE · Warranty · Technica] Data · 1-1 · circuit · Description · 2 -1
+- **Title block:** (9, 408)–(122, 432) mm: WARD-BECK SYSTEMS LTD
+
+Every curve, box, word and wire group: [1974 - M452 - Oscillator Module p3 (traced).json](1974%20-%20M452%20-%20Oscillator%20Module%20p3%20%28traced%29.json) (the CAD file: `1974 - M452 - Oscillator Module p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 314 × 432 mm, 1455 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 14–314 mm across, 18–432 mm up
+- **Outlines:** line 11 rings, 408 straight (2,522 mm) / 44 curved (68.6 mm); text 2,045 rings, 14,394 straight (15,560 mm) / 4,252 curved (6,369 mm); tb 57 rings, 518 straight (834 mm) / 138 curved (209 mm)
+- **Words (OCR):** 266 in 142 lines: WARO-BECK systemS LTD; · WBS 841 PAOGAESS · M1h2x4 · TeleX 063- 24999 · TELEPHONE 410/438-6550 · W A R R A N T Y · Ward-Beck · Systems Ltd_ · products are · against · AlI · warranled
+- **Title block:** (26, 72)–(253, 418) mm: WARO-BECK systemS LTD; · WBS 841 PAOGAESS · TeleX 063- 24999 · TELEPHONE 410/438-6550 · W A R R A N T Y · Ward-Beck · Systems Ltd_ · products are · AlI · warranled · defective materials and · workmans
+
+Every curve, box, word and wire group: [1974 - M452 - Oscillator Module p4 (traced).json](1974%20-%20M452%20-%20Oscillator%20Module%20p4%20%28traced%29.json) (the CAD file: `1974 - M452 - Oscillator Module p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 312 × 432 mm, 1447 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–304 mm across, 4–423 mm up
+- **Outlines:** line 55 rings, 929 straight (3,028 mm) / 156 curved (244 mm); text 1,000 rings, 7,628 straight (8,746 mm) / 2,113 curved (3,285 mm)
+- **Words (OCR):** 128 in 80 lines: WARD-BECK · IECHNICAL DATA · M452 OSCILLATOR_MODULE · Oscillator Frequencies : · 20 , 30 , 50 100 400 · 1k, · 5k, 10k , · 15k, 20k . (in Hz ) · Frequency ToTerance: · Amplitude · Stability: · After
+
+Every curve, box, word and wire group: [1974 - M452 - Oscillator Module p5 (traced).json](1974%20-%20M452%20-%20Oscillator%20Module%20p5%20%28traced%29.json) (the CAD file: `1974 - M452 - Oscillator Module p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 311 × 432 mm, 1441 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–300 mm across, 4–426 mm up
+- **Outlines:** line 44 rings, 834 straight (3,145 mm) / 143 curved (217 mm); text 1,748 rings, 13,890 straight (15,787 mm) / 3,906 curved (5,969 mm)
+- **Words (OCR):** 246 in 103 lines: WARD-BECK SYSTemS LTD · CIRCUIT DESCRIPTION · N452 OSCILLAIOR_MODULE · The · M452 is · multi-frequency 0sci ator · designed to be · used · in conso ]e system · reference surce · for alignment and · slating functions
+- **Title block:** (2, 412)–(115, 432) mm: WARD-BECK SYSTemS LTD
+
+Every curve, box, word and wire group: [1974 - M452 - Oscillator Module p6 (traced).json](1974%20-%20M452%20-%20Oscillator%20Module%20p6%20%28traced%29.json) (the CAD file: `1974 - M452 - Oscillator Module p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 314 × 432 mm, 1456 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–301 mm across, 7–426 mm up
+- **Outlines:** line 23 rings, 835 straight (3,235 mm) / 107 curved (164 mm); text 467 rings, 3,567 straight (4,139 mm) / 1,042 curved (1,608 mm)
+- **Words (OCR):** 57 in 28 lines: WAAD-BECK SYSTEmS LTD · CIRCUIT DE SCRIPIION · M452OSCILLATOR MODULE · Additionally , Sw1 equipped with · 15 · norma lly open · contact, · for externa] contro] · brought out at · pins 18/v to · a | ow · functions 5uch a5
+- **Title block:** (5, 412)–(116, 432) mm: WAAD-BECK SYSTEmS LTD
+
+Every curve, box, word and wire group: [1974 - M452 - Oscillator Module p7 (traced).json](1974%20-%20M452%20-%20Oscillator%20Module%20p7%20%28traced%29.json) (the CAD file: `1974 - M452 - Oscillator Module p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–300 mm across, 6–421 mm up
+- **Outlines:** line 132 rings, 1,310 straight (3,610 mm) / 263 curved (396 mm); text 850 rings, 6,723 straight (7,790 mm) / 1,974 curved (3,047 mm); tb 9 rings, 158 straight (204 mm) / 14 curved (23.4 mm)
+- **Words (OCR):** 106 in 90 lines: WARD-BECK SYSTEms LTD · PARIS LISI · M452OScILLATOR MQDULE · PART · DESCRIPIION · MFG · MEG PARI NUMBER · C] /4 · Capacitor 0.025 uF combined · WBS · WBS 13-009 · C2 /3
+- **Title block:** (7, 303)–(250, 430) mm: WARD-BECK SYSTEms LTD · PARIS LISI · M452OScILLATOR MQDULE · PART · DESCRIPIION · MFG · C] /4 · Capacitor 0.025 uF combined · WBS · C2 /3
+
+Every curve, box, word and wire group: [1974 - M452 - Oscillator Module p8 (traced).json](1974%20-%20M452%20-%20Oscillator%20Module%20p8%20%28traced%29.json) (the CAD file: `1974 - M452 - Oscillator Module p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 315 × 432 mm, 1457 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 11–302 mm across, 5–423 mm up
+- **Outlines:** line 131 rings, 1,335 straight (3,737 mm) / 239 curved (367 mm); text 633 rings, 5,093 straight (6,096 mm) / 1,578 curved (2,351 mm)
+- **Words (OCR):** 107 in 100 lines: WARD-BECK Systems LTD · PARIS · LIST · M452_QSCILLAIOR_MQDULE · MFG · PARI · DESCRIPTION · MEG PART · NUMBER · Philips · R4 · Resistor
+
+Every curve, box, word and wire group: [1974 - M452 - Oscillator Module p9 (traced).json](1974%20-%20M452%20-%20Oscillator%20Module%20p9%20%28traced%29.json) (the CAD file: `1974 - M452 - Oscillator Module p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 313 × 432 mm, 1448 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–299 mm across, 4–422 mm up
+- **Outlines:** line 135 rings, 1,192 straight (3,714 mm) / 233 curved (353 mm); text 568 rings, 4,496 straight (5,407 mm) / 1,398 curved (2,159 mm)
+- **Words (OCR):** 93 in 90 lines: WARD-BECK Systems LTD · PARIS_LISI · M452_OSCILLATOR_MQDULE · PARI · DESCRIPTION · MEG · MFG · PART NUMBER · R4I · Resistor %W · 15k · Philips
+
+Every curve, box, word and wire group: [1974 - M452 - Oscillator Module p10 (traced).json](1974%20-%20M452%20-%20Oscillator%20Module%20p10%20%28traced%29.json) (the CAD file: `1974 - M452 - Oscillator Module p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 309 × 432 mm, 1433 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 14–298 mm across, 4–419 mm up
+- **Outlines:** line 7 rings, 670 straight (2,850 mm) / 77 curved (124 mm); text 583 rings, 4,754 straight (5,441 mm) / 1,288 curved (1,995 mm); tb 53 rings, 597 straight (1,440 mm) / 112 curved (175 mm)
+- **Words (OCR):** 78 in 61 lines: WAAD-BECK · LTD · PARTS LiST · M452 OSC ILLATOR · MODULE · PART · DESCRIPTION · MFG · MFG · PART NUMBFR · R76 · Resistor
+- **Title block:** (7, 35)–(242, 429) mm: WAAD-BECK · LTD · PARTS LiST · M452 OSC ILLATOR · MODULE · PART · DESCRIPTION · MFG · MFG · R76 · Resistor · 1/4w 55 4k3 · Philips · R77 · 91 · Sw1 · To · Switch · Assy · Schadow · WBS 11-050 · Switch
+
+Every curve, box, word and wire group: [1974 - M452 - Oscillator Module p11 (traced).json](1974%20-%20M452%20-%20Oscillator%20Module%20p11%20%28traced%29.json) (the CAD file: `1974 - M452 - Oscillator Module p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** layout 452-04-003, size B (assumed) 322 × 432 mm, 1489 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–322 mm across, 0–432 mm up
+- **Outlines:** line 172 rings, 1,747 straight (4,286 mm) / 372 curved (545 mm); text 411 rings, 2,642 straight (2,556 mm) / 977 curved (1,354 mm); tb 29 rings, 556 straight (1,594 mm) / 110 curved (150 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 4.2 @ (169.5, 282.1), r 3.1 @ (147.7, 282.2), r 2.5 @ (169.5, 282.1), r 2.4 @ (169.6, 143.1)
+- **Closed boxes:** 5; named: WB S M452 20k 156 400 100; WB S M452 20k 156 400 100; LEVEL control Screwdr adjustment Vet per; FREQuENcY SELECTIDH svitch assemblY Aiov; Hhen  depressed, INSERT switch Swin: Ene
+- **Words (OCR):** 70 in 43 lines: WB S · M452 · permits output · LEVEL · control · Screwdr Vet · adjustment · 20k · Ievc ca | ibrat fron front · unit · 156 · FREQuENcY SELECTIDH svitch assemblY
+- **Title block:** (211, 0)–(322, 56) mm: Issue Date · REVISION · WBS WARD-BECK SYSTEMS · M452 · ENG · OSCIllATOR MODULe · CKD Pula · FRONT PANEL · APP · SCALE · ISSUE · 452-04-003
+
+Every curve, box, word and wire group: [1974 - M452 - Oscillator Module p12 (traced).json](1974%20-%20M452%20-%20Oscillator%20Module%20p12%20%28traced%29.json) (the CAD file: `1974 - M452 - Oscillator Module p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** functional 452-01-001, size B (assumed) 432 × 297 mm, 2000 × 1374 px traced (0.216 mm/px)
+- **Ink extent:** 14–432 mm across, 0–277 mm up
+- **Outlines:** line 151 rings, 2,332 straight (7,204 mm) / 272 curved (394 mm); text 426 rings, 2,940 straight (3,587 mm) / 931 curved (1,504 mm); tb 11 rings, 160 straight (353 mm) / 32 curved (62.8 mm)
+- **Centre lines:** 3,098 paths (81 closed); straight 5,515 mm, curved 20.7 mm; horizontal 1,965 mm, vertical 1,254 mm, diagonal 2,296 mm
+- **Circles and arcs:** 0 circles, 3 arcs
+- **Closed boxes:** 15 (9 in the title block); named: osc; AGc; REVISFD   DESIGNATIONS; 10/77; ISSUE
+- **Words (OCR):** 59 in 56 lines: HZ · 20 K · oSC · CONTROL · TALLY · 15 K · ON · 10 K · +14 dBmOUT · 5 K · 600 OHMS · SWITCHED
+- **Title block:** (257, 3)–(432, 90) mm: 10/77 · REVISFD   DESIGNATIONS · 10/77 · REDRAWN · ISSUE DATE · REVISION · APP · WBS WARD-BECK sysTEMs · DRNPMulovy · M452 · ENG RKB · OSCILLATOR MODULE · CKD · Rell · FUNCTIONAL DIAGRAM · APP · SCALE
+- **Wiring (first pass):** 53 connected wire groups from 136 runs; labelled ends: 191 mm → BST, +14 dBm OUT, (-6dB), (-84dB); 125 mm → REVISFD   DESIGNATIONS, 10/77; 57 mm → +14 dBmOUT, (-6dB); 39 mm → BST, TrIm; 21 mm → osc, AGc
+
+Every curve, box, word and wire group: [1974 - M452 - Oscillator Module p13 (traced).json](1974%20-%20M452%20-%20Oscillator%20Module%20p13%20%28traced%29.json) (the CAD file: `1974 - M452 - Oscillator Module p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** schematic 452-02-001, size B (assumed) 432 × 263 mm, 2000 × 1218 px traced (0.216 mm/px)
+- **Ink extent:** 6–432 mm across, 0–256 mm up
+- **Outlines:** line 1,301 rings, 10,898 straight (15,732 mm) / 2,702 curved (3,263 mm); text 233 rings, 1,231 straight (1,000 mm) / 473 curved (590 mm)
+- **Centre lines:** 11,332 paths (249 closed); straight 10,153 mm, curved 338 mm; horizontal 2,994 mm, vertical 2,895 mm, diagonal 4,264 mm
+- **Circles and arcs:** 6 circles, 92 arcs; largest r 3.8 @ (299.3, 200.3), r 3.7 @ (116.6, 79.6), r 1.1 @ (20.6, 192.2), r 1.1 @ (28.2, 192.2)
+- **Closed boxes:** 13; named: BAL
+- **Dots (junctions):** 9
+- **Words (OCR):** 44 in 40 lines: ZSv · 22/25 · in40o: · 355 · 22/25 · 378 · 4803 · Foutpoi · 48m · 6con · R76 · 4k3
+- **Wiring (first pass):** 141 connected wire groups from 843 runs, 1 dotted junctions; labelled ends: 217 mm → R56; 214 mm → LTD, WBS; 170 mm → R76, 4k3; 161 mm → Srzo, LOCE; 133 mm → USED
+
+Every curve, box, word and wire group: [1974 - M452 - Oscillator Module p14 (traced).json](1974%20-%20M452%20-%20Oscillator%20Module%20p14%20%28traced%29.json) (the CAD file: `1974 - M452 - Oscillator Module p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** component layout 4-127-06-001, size B (assumed) 432 × 306 mm, 2000 × 1416 px traced (0.216 mm/px)
+- **Ink extent:** 30–432 mm across, 0–306 mm up
+- **Outlines:** line 584 rings, 5,623 straight (10,606 mm) / 1,507 curved (1,593 mm); text 993 rings, 6,993 straight (6,268 mm) / 2,385 curved (2,661 mm); tb 79 rings, 468 straight (649 mm) / 122 curved (123 mm)
+- **Circles and arcs:** 16 circles, 0 arcs; largest r 7.6 @ (198.6, 213.3), r 7.2 @ (198.3, 242.4), r 7.2 @ (198.0, 271.8), r 7.2 @ (310.0, 248.2)
+- **Closed boxes:** 44 (26 in the title block); named: SwI-SwiO; 22; 24 Lhaol; 42; C3; C4
+- **Dots (junctions):** 1
+- **Words (OCR):** 144 in 132 lines: R764? · P25 · R37 · ~R77- · F24457 · -R2o330 · 4Vig · SwI-SwiO · C9_ · AGC · 0i ~R23 32k · LEvEL
+- **Title block:** (129, 1)–(400, 80) mm: Swil · WBS _1 022 · COMPONENT SIDE · ISS MOD CKD · USED ON · MATL · WBS WARD-BeCk · 1720 · 2150 · DRN; · e0 · pump M · DATE · MAR 74 · M452 · FiNISH · CKD · OSCILLATOR MODULE · SCALE · COMPONENT LAYOU
+
+Every curve, box, word and wire group: [1974 - M452 - Oscillator Module p15 (traced).json](1974%20-%20M452%20-%20Oscillator%20Module%20p15%20%28traced%29.json) (the CAD file: `1974 - M452 - Oscillator Module p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 1–432 mm up
+- **Outlines:** line 325 rings, 5,275 straight (12,772 mm) / 674 curved (1,062 mm); text 542 rings, 4,667 straight (5,880 mm) / 1,239 curved (1,960 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.4 @ (253.1, 33.8)
+- **Closed boxes:** 83; named: C 3; HI 7; Kl 9; Eaee; MMI; Pi13; s[5; T/16; vl18; W/ 19; xlzo; Y/21
+- **Words (OCR):** 84 in 55 lines: NC · NC · NC · NC · NC · C 3 NC · NC · NC · NC · NC · NC · NC
+
+Every curve, box, word and wire group: [1974 - M452 - Oscillator Module p16 (traced).json](1974%20-%20M452%20-%20Oscillator%20Module%20p16%20%28traced%29.json) (the CAD file: `1974 - M452 - Oscillator Module p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 326 × 432 mm, 1511 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–326 mm across, 0–432 mm up
+- **Outlines:** line 252 rings, 3,772 straight (9,641 mm) / 566 curved (916 mm); text 466 rings, 4,343 straight (5,595 mm) / 1,155 curved (1,876 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.5 @ (322.3, 210.7)
+- **Closed boxes:** 71; named: 10l; EN; N/ 12; Pi13; R/14; S/15; Tl16; Ul 17; VI 18; wi19; 201; xlzi/
+- **Words (OCR):** 79 in 60 lines: NC · NC · NC · NC · NC · NC · E2 · NC · NC · NC · NC · NC
+
+Every curve, box, word and wire group: [1974 - M452 - Oscillator Module p17 (traced).json](1974%20-%20M452%20-%20Oscillator%20Module%20p17%20%28traced%29.json) (the CAD file: `1974 - M452 - Oscillator Module p17 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

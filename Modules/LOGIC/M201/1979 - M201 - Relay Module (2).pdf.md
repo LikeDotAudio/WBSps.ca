@@ -12,6 +12,145 @@ Wiki page: [M201](../../../PAGES/M201.md)
 - **Pages:** 13
 - **PDF created (scan date, not design date):** Wed Sep  3 21:32:22 2003 EDT
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 302 × 432 mm, 1399 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–282 mm across, 2–428 mm up
+- **Outlines:** line 75 rings, 2,766 straight (10,021 mm) / 201 curved (339 mm); text 25 rings, 405 straight (759 mm) / 82 curved (143 mm)
+- **Closed boxes:** 4; named: \NBS; \NBS; \NBS; \NBS
+- **Words (OCR):** 20 in 17 lines: \NBS · oue. \NBS · no '0ol · \NBS · \NBS · \NBS · \NBS · \NBS · \NBS · H201 · RELAY MODULE · \NBS
+
+Every curve, box, word and wire group: [1979 - M201 - Relay Module (2) p1 (traced).json](1979%20-%20M201%20-%20Relay%20Module%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1979 - M201 - Relay Module (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 302 × 432 mm, 1399 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–290 mm across, 7–418 mm up
+- **Outlines:** line 160 rings, 2,301 straight (4,583 mm) / 459 curved (709 mm); text 23 rings, 385 straight (674 mm) / 63 curved (117 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.7 @ (157.3, 232.3)
+- **Dots (junctions):** 1
+- **Words (OCR):** 12 in 10 lines: WARD- · CK SYSTEM · LTD · (\NBS) · M201 · RELAY MODULE · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1979 - M201 - Relay Module (2) p2 (traced).json](1979%20-%20M201%20-%20Relay%20Module%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1979 - M201 - Relay Module (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 304 × 432 mm, 1407 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–304 mm across, 1–432 mm up
+- **Outlines:** line 16 rings, 843 straight (3,098 mm) / 83 curved (143 mm); text 304 rings, 2,461 straight (2,828 mm) / 614 curved (933 mm); tb 53 rings, 594 straight (870 mm) / 124 curved (190 mm)
+- **Words (OCR):** 62 in 25 lines: WA~C ~BECK · SYSTEMS LTC · TABLE OF CON TEN TS · 201 RELAY MODULE · SECTION · Warranty · Circuit Descri pti on · 1-1 · if ing Dh gra.a · 2-1 · Integ rated Ci rc ui Dlta · 74C221
+- **Title block:** (31, 46)–(270, 423) mm: WA~C ~BECK · SYSTEMS LTC · TABLE OF CON TEN TS · 201 RELAY MODULE · SECTION · Warranty · Circuit Descri pti on · 1-1 · if ing Dh gra.a · 2-1 · Integ rated Ci rc ui Dlta · 74C221 · Part lis · Dra win9S
+
+Every curve, box, word and wire group: [1979 - M201 - Relay Module (2) p3 (traced).json](1979%20-%20M201%20-%20Relay%20Module%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1979 - M201 - Relay Module (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 304 × 432 mm, 1407 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–304 mm across, 0–432 mm up
+- **Outlines:** line 197 rings, 1,876 straight (4,279 mm) / 474 curved (725 mm); text 1,548 rings, 11,132 straight (12,012 mm) / 3,293 curved (4,931 mm); tb 215 rings, 1,671 straight (2,055 mm) / 479 curved (703 mm)
+- **Words (OCR):** 339 in 111 lines: WARD -BECK SYSTEMS LT · IIA · NT · All lIard-Be ct · Syst · Lt · ro duc ts · war nt · ga 1n · ort ~an sh · de f'e · ve materials iIIn
+- **Title block:** (6, 106)–(179, 419) mm: WARD -BECK SYSTEMS LT · IIA · NT · All lIard-Be ct · Syst · Lt · ro duc ts · ort ~an sh · de f'e · ve materials iIIn · year from date of · 1pme nt · Ward -Bect Systems 111 · epai · wit hou · ha rge. a
+
+Every curve, box, word and wire group: [1979 - M201 - Relay Module (2) p4 (traced).json](1979%20-%20M201%20-%20Relay%20Module%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1979 - M201 - Relay Module (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 304 × 432 mm, 1407 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–288 mm across, 1–414 mm up
+- **Outlines:** line 25 rings, 715 straight (2,954 mm) / 97 curved (152 mm); text 1,483 rings, 11,068 straight (12,142 mm) / 3,173 curved (4,787 mm)
+- **Words (OCR):** 292 in 82 lines: WAR · CK YS · MS LTD · CIRC UIT DESCRIP TIO · H20 RELAY MODULE · Th H20I Re ay Hodul 1s des ig ned · be use as an audio · wi tc he · It co mprises two de nt ca relay swi tc h1ng · rc uits, eac capa bl of w1tc hlng eit her one of wo · al · anc ed inpu ts
+
+Every curve, box, word and wire group: [1979 - M201 - Relay Module (2) p5 (traced).json](1979%20-%20M201%20-%20Relay%20Module%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1979 - M201 - Relay Module (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 304 × 432 mm, 1407 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 12–298 mm across, 1–413 mm up
+- **Outlines:** line 217 rings, 3,354 straight (7,572 mm) / 547 curved (837 mm); text 141 rings, 1,102 straight (1,253 mm) / 274 curved (408 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.7 @ (146.0, 312.5), r 1.6 @ (232.6, 63.9)
+- **Closed boxes:** 2
+- **Words (OCR):** 38 in 24 lines: WARD-BECK SYSTEM LTD · TI MING DIAGRAM · H20 · RELAY MODULE · tII · ::-VSWIKM · Switc · Inp ut · ur pin 10 · U4 pi 11 · U2. · U4 pin
+
+Every curve, box, word and wire group: [1979 - M201 - Relay Module (2) p6 (traced).json](1979%20-%20M201%20-%20Relay%20Module%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1979 - M201 - Relay Module (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 304 × 432 mm, 1407 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–304 mm across, 1–432 mm up
+- **Outlines:** line 302 rings, 4,347 straight (9,508 mm) / 772 curved (1,176 mm); text 667 rings, 5,233 straight (5,718 mm) / 1,415 curved (2,175 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.8 @ (210.8, 67.7)
+- **Closed boxes:** 12; named: IHP UTS OUTP UTS ClCAR; IHP UTS; OUTP UTS; ClCAR
+- **Dots (junctions):** 2
+- **Words (OCR):** 143 in 57 lines: !=IO BEC · STE · LTO · IN TEGRAT ED CIR CUI DATA · Clll · DUAL HONOSTA8LE HUlTI VI 8RATOR · The 74C2 21 · dua · ~onost~ble multivibr~t or Is CMOS 1ntegra ed · rcuit. Each mult1v1b ra tor fe ature · negat1ve-tran itio · 1gge red nput nd
+
+Every curve, box, word and wire group: [1979 - M201 - Relay Module (2) p7 (traced).json](1979%20-%20M201%20-%20Relay%20Module%20%282%29%20p7%20%28traced%29.json) (the CAD file: `1979 - M201 - Relay Module (2) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 304 × 432 mm, 1407 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 12–304 mm across, 0–432 mm up
+- **Outlines:** line 324 rings, 3,575 straight (6,516 mm) / 812 curved (1,243 mm); text 431 rings, 3,296 straight (3,658 mm) / 901 curved (1,416 mm)
+- **Closed boxes:** 2; named: ·BECK
+- **Words (OCR):** 125 in 76 lines: WAFlO ·BECK BYSTEMS LTO · PARTS LI ST · HZOI R£LAY MOOULE · PART · SCRI PTIO If · MF< · MFS PAR NUMBER · C1 · Capa · uF IJS · et · T3 0AI 04MOl SAS
+
+Every curve, box, word and wire group: [1979 - M201 - Relay Module (2) p8 (traced).json](1979%20-%20M201%20-%20Relay%20Module%20%282%29%20p8%20%28traced%29.json) (the CAD file: `1979 - M201 - Relay Module (2) p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 304 × 432 mm, 1407 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–304 mm across, 1–432 mm up
+- **Outlines:** line 52 rings, 1,573 straight (3,940 mm) / 219 curved (330 mm); text 515 rings, 3,945 straight (4,432 mm) / 1,108 curved (1,618 mm)
+- **Words (OCR):** 75 in 62 lines: WARD -BECK SYSTEMS LTD · PARTS LIST · M2 01 RELA MOOULE · PART · OESCRIPTIO · MFG · MFG PAR NU MBER · R6 · Resf stor · Philips · R7 · R8
+- **Title block:** (6, 396)–(114, 419) mm: WARD -BECK SYSTEMS LTD
+
+Every curve, box, word and wire group: [1979 - M201 - Relay Module (2) p9 (traced).json](1979%20-%20M201%20-%20Relay%20Module%20%282%29%20p9%20%28traced%29.json) (the CAD file: `1979 - M201 - Relay Module (2) p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 304 × 432 mm, 1407 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 11–304 mm across, 0–432 mm up
+- **Outlines:** line 176 rings, 2,372 straight (5,045 mm) / 449 curved (672 mm); text 334 rings, 2,605 straight (2,874 mm) / 662 curved (1,015 mm)
+- **Words (OCR):** 86 in 31 lines: WARO·SECK SYSTEM LT · PARTS LI ST · 01 REl AY ODULE · PART · DESCRI PTI ON · FG PART HU MBER · Ul · Inte!ill"illted C1rtu it · Ha ion al · CI4" · 74 C22 · U3
+
+Every curve, box, word and wire group: [1979 - M201 - Relay Module (2) p10 (traced).json](1979%20-%20M201%20-%20Relay%20Module%20%282%29%20p10%20%28traced%29.json) (the CAD file: `1979 - M201 - Relay Module (2) p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 432 × 282 mm, 2000 × 1306 px traced (0.216 mm/px)
+- **Ink extent:** 3–432 mm across, 0–282 mm up
+- **Outlines:** line 595 rings, 6,921 straight (13,062 mm) / 1,534 curved (1,933 mm); text 918 rings, 5,152 straight (4,408 mm) / 1,809 curved (2,170 mm); tb 5 rings, 100 straight (149 mm) / 20 curved (27.2 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.1 @ (169.8, 107.9)
+- **Closed boxes:** 45 (6 in the title block); named: ve......; Itl R2. R20/ Rt; 02>; UOIO SWllC.l-l; ~~oQ.T; PE; 104; 101 20; DIM lTOA; M20lC; 15; KS
+- **Words (OCR):** 229 in 164 lines: M2.0 · Q."'T 1O · LEGoE.NO · ve...... · Itl R2. · R:SIRGo · R20/ Rt · 02> R1A/ R15 · UOIO SWllC.l-l · ~~oQ.T · PE · 104
+- **Title block:** (355, 8)–(432, 37) mm: DDE · 1/11 · M20l · A.DOEO · IS.... · OATE · REVISION · API'. · (\NBS] WARD-BECK SYSTEMS · tp · ht · ORN..."W · 1m · 20 · ENG. MItW · CI<O · "RJ.l- · RelAY MODULE · AP!' · 5CHEMA TIC
+
+Every curve, box, word and wire group: [1979 - M201 - Relay Module (2) p11 (traced).json](1979%20-%20M201%20-%20Relay%20Module%20%282%29%20p11%20%28traced%29.json) (the CAD file: `1979 - M201 - Relay Module (2) p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** component layout 201-06-001, size B (assumed) 338 × 432 mm, 1564 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–338 mm across, 0–294 mm up
+- **Outlines:** line 600 rings, 5,776 straight (10,633 mm) / 1,611 curved (1,731 mm); text 174 rings, 1,265 straight (1,222 mm) / 433 curved (510 mm); tb 4 rings, 97 straight (177 mm) / 10 curved (8.7 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 6.1 @ (133.5, 230.0), r 5.9 @ (133.5, 214.8), r 4.6 @ (30.3, 259.2), r 3.5 @ (30.5, 186.0)
+- **Closed boxes:** 21 (5 in the title block); named: AtO ll ,6.10 1(2 V2~o!lO- ...to'l. AIO"; AtO ll ,6.10; 1(2 V2~o!lO- ...to'l. AIO"
+- **Words (OCR):** 36 in 18 lines: AtO ll ,6.10 · 1(2 · V2~o!lO- ...to'l. AIO" · ca · ps · BS REVOSlON · ISSUE loAn · VVE3S] WARD~BECK SYSTEMS · ORN · lil · tp · ENG Ma ht REL AY
+- **Title block:** (225, 7)–(338, 58) mm: BS REVOSlON · ISSUE loAn · VVE3S] WARD~BECK SYSTEMS · ORN · lil · tp · ENG Ma ht REL AY · 20 · MOD ULE · CKD · CO PO NENT LAYO UT · ISSU<
+
+Every curve, box, word and wire group: [1979 - M201 - Relay Module (2) p12 (traced).json](1979%20-%20M201%20-%20Relay%20Module%20%282%29%20p12%20%28traced%29.json) (the CAD file: `1979 - M201 - Relay Module (2) p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 304 × 432 mm, 1407 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–304 mm across, 1–432 mm up
+- **Outlines:** line 269 rings, 4,814 straight (10,386 mm) / 725 curved (1,166 mm); text 302 rings, 2,669 straight (3,367 mm) / 639 curved (966 mm)
+- **Closed boxes:** 66; named: III III Dl Dl II; wo ou; lO NIl '12 '13 '14 IS; lO; NIl; '12; '13; '14; IS; ci; BS
+- **Dots (junctions):** 1
+- **Words (OCR):** 76 in 55 lines: III · wo · III · Dl · ou · ec · Z4 · Dl · DC ll · OUT · DC CTl · 1M
+
+Every curve, box, word and wire group: [1979 - M201 - Relay Module (2) p13 (traced).json](1979%20-%20M201%20-%20Relay%20Module%20%282%29%20p13%20%28traced%29.json) (the CAD file: `1979 - M201 - Relay Module (2) p13 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

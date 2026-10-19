@@ -12,6 +12,153 @@ Wiki page: [M485B](../../../PAGES/M485B.md)
 - **Pages:** 13
 - **PDF created (scan date, not design date):** Tue Aug 26 21:01:23 2003 EDT
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 305 × 432 mm, 1411 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–295 mm across, 26–431 mm up
+- **Outlines:** line 10 rings, 745 straight (2,687 mm) / 87 curved (129 mm); text 382 rings, 2,772 straight (3,207 mm) / 791 curved (1,209 mm); tb 55 rings, 539 straight (997 mm) / 93 curved (147 mm)
+- **Words (OCR):** 78 in 40 lines: WARD-BECK SYSTeMS LTD. · TABL · OF CONTE NT · M48SB · 2S · POWER SUPPLY · SECT ION · PAGE · Tecl'ln lca Da · Circ it Dcscr lpt ion · Parl ll · lli
+- **Title block:** (14, 37)–(266, 418) mm: WARD-BECK SYSTeMS LTD. · TABL · OF CONTE NT · M48SB · 2S · POWER SUPPLY · SECT ION · PAGE · Tecl'ln lca Da · Circ it Dcscr lpt ion · Parl ll · lli · Appe nd · 1_1 · Ci rc li Dc scr lp tlon · 117_1_ 10
+
+Every curve, box, word and wire group: [1978 - M485B - 25V power Supply p1 (traced).json](1978%20-%20M485B%20-%2025V%20power%20Supply%20p1%20%28traced%29.json) (the CAD file: `1978 - M485B - 25V power Supply p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 305 × 432 mm, 1411 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 17–295 mm across, 19–414 mm up
+- **Outlines:** line 288 rings, 2,590 straight (4,973 mm) / 665 curved (1,006 mm); text 730 rings, 4,855 straight (5,210 mm) / 1,535 curved (2,276 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.1 @ (45.6, 329.7), r 2.1 @ (121.3, 217.6), r 2.1 @ (121.2, 211.1), r 1.6 @ (124.5, 131.8)
+- **Words (OCR):** 156 in 76 lines: WARO-SECK SYSTEMS LTO. · TI:. CHNI CAL DATA · M46SB · 25 · PO WER SUP PLY · 25 vol IS at loa Cu n-eoi · rom · to · DC OutPU · mpe res. · ine Re ul elion: · line
+
+Every curve, box, word and wire group: [1978 - M485B - 25V power Supply p2 (traced).json](1978%20-%20M485B%20-%2025V%20power%20Supply%20p2%20%28traced%29.json) (the CAD file: `1978 - M485B - 25V power Supply p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 305 × 432 mm, 1411 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 16–289 mm across, 12–411 mm up
+- **Outlines:** line 254 rings, 2,413 straight (4,830 mm) / 583 curved (873 mm); text 677 rings, 4,509 straight (4,902 mm) / 1,431 curved (2,161 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.6 @ (275.2, 299.3), r 1.6 @ (126.0, 293.3)
+- **Dots (junctions):** 1
+- **Words (OCR):** 142 in 71 lines: WARC·SECK SYSTEMS LTC · CI RCUIT DESCRI PT ION · M48 SB · 25 · POWER SUPPLY · Th · 58 ill · 25 · olt de · we · upply · el iver ng cu r-ent
+
+Every curve, box, word and wire group: [1978 - M485B - 25V power Supply p3 (traced).json](1978%20-%20M485B%20-%2025V%20power%20Supply%20p3%20%28traced%29.json) (the CAD file: `1978 - M485B - 25V power Supply p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 305 × 432 mm, 1411 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 15–290 mm across, 7–411 mm up
+- **Outlines:** line 257 rings, 2,445 straight (5,260 mm) / 611 curved (949 mm); text 243 rings, 1,671 straight (1,839 mm) / 487 curved (744 mm)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 80 in 51 lines: WARO·SECl< SYSTEMS LTO. · PART · ST · M48 S6 · 25 · POWEA SUPP LY · PA Fl · DESCFlI PTIO · Fe · FG PAFlT NUM6 EFl · cr · Cilpilcil or
+
+Every curve, box, word and wire group: [1978 - M485B - 25V power Supply p4 (traced).json](1978%20-%20M485B%20-%2025V%20power%20Supply%20p4%20%28traced%29.json) (the CAD file: `1978 - M485B - 25V power Supply p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 305 × 432 mm, 1411 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 18–292 mm across, 1–412 mm up
+- **Outlines:** line 841 rings, 6,313 straight (9,038 mm) / 1,854 curved (2,711 mm); text 1,628 rings, 10,879 straight (11,583 mm) / 3,292 curved (4,972 mm); tb 12 rings, 117 straight (153 mm) / 37 curved (55.6 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 1.7 @ (171.7, 187.9), r 1.6 @ (214.8, 141.2), r 1.6 @ (126.2, 89.6), r 1.6 @ (110.6, 116.1)
+- **Dots (junctions):** 4
+- **Words (OCR):** 412 in 165 lines: WARD -BECK YSTEM LTD. · CIRC UIT DESCRIPTION · 1_11 REGU LA TOR BOARD · The · 117 Reg ulalor Is · prl r>ted ci l'"t;.ui board un ll · use · In · was ow Cl<" Suppl ies an conra · number- · Ii'll' ma jorit of lhe ileliv · c1 rc ultry of
+- **Title block:** (12, 397)–(76, 420) mm: WARD -BECK YSTEM LTD.
+
+Every curve, box, word and wire group: [1978 - M485B - 25V power Supply p5 (traced).json](1978%20-%20M485B%20-%2025V%20power%20Supply%20p5%20%28traced%29.json) (the CAD file: `1978 - M485B - 25V power Supply p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 305 × 432 mm, 1411 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 18–291 mm across, 18–425 mm up
+- **Outlines:** line 111 rings, 1,296 straight (3,584 mm) / 273 curved (411 mm); text 445 rings, 3,068 straight (3,395 mm) / 960 curved (1,429 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 91 in 35 lines: WARO·SECK SYSTEMS LTO · CIRCU IT DESCRIPTION · 1_11 RE GULAT OR BOARD · Ov ....vol l.ge prQ Ie<;tlon · ro id · 'crowbar' SCR 09. Th., · lng · nel work:. con:":'ling of · 08 CR6, CR7 · R4 · 10 RSO · ill monilor
+
+Every curve, box, word and wire group: [1978 - M485B - 25V power Supply p6 (traced).json](1978%20-%20M485B%20-%2025V%20power%20Supply%20p6%20%28traced%29.json) (the CAD file: `1978 - M485B - 25V power Supply p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 305 × 432 mm, 1411 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 17–290 mm across, 0–411 mm up
+- **Outlines:** line 183 rings, 1,912 straight (4,612 mm) / 462 curved (706 mm); text 654 rings, 4,640 straight (5,292 mm) / 1,390 curved (2,108 mm)
+- **Words (OCR):** 125 in 80 lines: WARC -BECK YSTEMS LTC · PART · IST · 1_1 17 RECULAT OR BOARD · PA RT · DESCR · ION · MFG PAR NUMBER · ct · Ca acllor · 200 · As" lco
+
+Every curve, box, word and wire group: [1978 - M485B - 25V power Supply p7 (traced).json](1978%20-%20M485B%20-%2025V%20power%20Supply%20p7%20%28traced%29.json) (the CAD file: `1978 - M485B - 25V power Supply p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 305 × 432 mm, 1411 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 17–291 mm across, 19–414 mm up
+- **Outlines:** line 193 rings, 2,025 straight (4,626 mm) / 454 curved (668 mm); text 732 rings, 5,138 straight (5,658 mm) / 1,582 curved (2,386 mm); tb 14 rings, 136 straight (166 mm) / 44 curved (72.1 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.6 @ (82.8, 105.3)
+- **Dots (junctions):** 1
+- **Words (OCR):** 114 in 77 lines: WARC-BECK SYSTEMS LTO · PARTS · IST · 111 REGULA OR BOARD · PAR · DESCR IPT ON · MF PART NUMBE · Re si tor · 4W · Phili ps · OK · OK
+- **Title block:** (11, 399)–(117, 422) mm: WARC-BECK SYSTEMS LTO
+
+Every curve, box, word and wire group: [1978 - M485B - 25V power Supply p8 (traced).json](1978%20-%20M485B%20-%2025V%20power%20Supply%20p8%20%28traced%29.json) (the CAD file: `1978 - M485B - 25V power Supply p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 305 × 432 mm, 1411 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 17–291 mm across, 16–411 mm up
+- **Outlines:** line 45 rings, 1,040 straight (3,498 mm) / 157 curved (240 mm); text 457 rings, 3,209 straight (3,559 mm) / 921 curved (1,389 mm); tb 116 rings, 844 straight (998 mm) / 251 curved (378 mm)
+- **Words (OCR):** 86 in 52 lines: WARD-BECK SYSTEMS · LTO · ARTS · IS · 1_111 REGULATOR BOARD · PART · DESCR IPTION · MFG PAR · NUMB ER · Res ls lO<" · 51 · dele le
+- **Title block:** (12, 71)–(117, 419) mm: WARD-BECK SYSTEMS · PART · DESCR IPTION · Res ls lO<" · 51 · RJ8 · Tr im po · ROO · R"51510<" · 51 · AU · RU · RU · R50 · ln legrele<! Circu lI · Z2 · WBS e<:ommen dll lh" · manu clur..r for COt1 ll n
+
+Every curve, box, word and wire group: [1978 - M485B - 25V power Supply p9 (traced).json](1978%20-%20M485B%20-%2025V%20power%20Supply%20p9%20%28traced%29.json) (the CAD file: `1978 - M485B - 25V power Supply p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 432 × 284 mm, 2000 × 1317 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 0–262 mm up
+- **Outlines:** line 177 rings, 3,645 straight (8,974 mm) / 432 curved (746 mm); text 309 rings, 1,965 straight (2,488 mm) / 571 curved (825 mm); tb 28 rings, 324 straight (488 mm) / 72 curved (108 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 1.9 @ (301.7, 96.2), r 1.9 @ (301.6, 172.2), r 1.9 @ (301.5, 246.9), r 1.8 @ (30.6, 193.1)
+- **Closed boxes:** 8 (6 in the title block); named: OVER VOLTAGE DETECTOR; VOLTAGE LOSS DETECTOR
+- **Words (OCR):** 51 in 40 lines: 0V · +25V · .--------r----.----,----------i · CROWBAR · SCR · F1 · DIF · OVER · ADJ · VOLTAGE · DETECTOR · COM
+- **Title block:** (280, 1)–(432, 70) mm: ISS UE DATE · REVISION · ca APP. · [vvas) WARe-BECK STEMS · ps · BS · DRN.jJ · /vf,41/6"!.E)' · 1-1f<." IjrJo · M485B · ENG, · ±25V POWER SUPPLY · CKD · If,\ · tp · FUNCTIONAL DIAGRAM · ht · APP, · SC
+
+Every curve, box, word and wire group: [1978 - M485B - 25V power Supply p10 (traced).json](1978%20-%20M485B%20-%2025V%20power%20Supply%20p10%20%28traced%29.json) (the CAD file: `1978 - M485B - 25V power Supply p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 432 × 276 mm, 2000 × 1277 px traced (0.216 mm/px)
+- **Ink extent:** 15–432 mm across, 0–269 mm up
+- **Outlines:** line 268 rings, 4,422 straight (10,384 mm) / 741 curved (1,210 mm); text 337 rings, 2,266 straight (2,611 mm) / 661 curved (970 mm); tb 127 rings, 1,022 straight (1,339 mm) / 291 curved (442 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.7 @ (27.8, 97.2), r 1.6 @ (232.5, 101.5), r 1.6 @ (28.4, 88.9)
+- **Closed boxes:** 25 (5 in the title block); named: 07 Po; PRIMAR CONNE CT e>TRAP OLT AG POWER 2-5 ; PRIMAR OLT AG; e>TRAP; CONNE CT POWER; 110; 2-5 ,.3-(0; 2/G; 12; 3-G<-; 1/(0; 220V
+- **Dots (junctions):** 2
+- **Words (OCR):** 115 in 96 lines: IN · T5 · R3 · TB1 · +2'::>V · Tl · .47.a. · 120 · IO · 80- · 20 · GW
+- **Title block:** (287, 0)–(432, 67) mm: ca APP. · ISSUE DATE · REVISION · \NBS] WARe-BECK SYSTEMS · BS · DRN·- pAfAJoNcY · M48 5B · ENG. · MRN I/Bo · 25V POWER SUPPLY · tp · CK · ,77 · APP. · ht · SCHEMATIC · SCALE · ISSUE · 485 -02 -00
+
+Every curve, box, word and wire group: [1978 - M485B - 25V power Supply p11 (traced).json](1978%20-%20M485B%20-%2025V%20power%20Supply%20p11%20%28traced%29.json) (the CAD file: `1978 - M485B - 25V power Supply p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 432 × 317 mm, 2000 × 1467 px traced (0.216 mm/px)
+- **Ink extent:** 74–432 mm across, 0–280 mm up
+- **Outlines:** line 389 rings, 4,039 straight (8,686 mm) / 841 curved (1,338 mm); text 456 rings, 2,974 straight (3,118 mm) / 988 curved (1,323 mm); tb 32 rings, 350 straight (408 mm) / 107 curved (151 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 8.3 @ (205.5, 192.1), r 8.2 @ (151.1, 192.2), r 7.0 @ (206.7, 136.6), r 6.9 @ (206.1, 119.7)
+- **Closed boxes:** 18 (9 in the title block); named: Q4 'l80; 2N~;95; ,om; at. eeec
+- **Words (OCR):** 100 in 68 lines: Q4 · 'l80 · Q.4 · R2 50 · RZO ru · ili · RI1 ..!Llc.. · R25 · +l-O<Z-li\; · C.Q · R22. · S\O
+- **Title block:** (325, 0)–(432, 51) mm: BS OQAW · 117' · QE · 'SSUE · DATE · REVtSK)N · (VVE3S] WARe-BECK SYBTI!M8 · ORN. I'W In, · tp · ENG. MRW ht RE GULA TOR BOARD · 1-11 · eKO. · APP. · COM PO EN LAYOUT · SCALE · BI 1-117- 06 00 · ISSUE
+
+Every curve, box, word and wire group: [1978 - M485B - 25V power Supply p12 (traced).json](1978%20-%20M485B%20-%2025V%20power%20Supply%20p12%20%28traced%29.json) (the CAD file: `1978 - M485B - 25V power Supply p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 432 × 140 mm, 2000 × 647 px traced (0.216 mm/px)
+- **Ink extent:** 14–432 mm across, 0–137 mm up
+- **Outlines:** line 700 rings, 6,031 straight (10,456 mm) / 1,458 curved (1,837 mm); text 321 rings, 1,636 straight (1,347 mm) / 441 curved (507 mm); tb 67 rings, 466 straight (463 mm) / 130 curved (156 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 6.5 @ (126.6, 54.4), r 6.4 @ (87.6, 86.1), r 1.1 @ (122.1, 60.9)
+- **Closed boxes:** 17 (7 in the title block); named: ro; \011'6; CR DDW
+- **Dots (junctions):** 3
+- **Words (OCR):** 165 in 123 lines: OT · ALL · ESISTO · ARE. IN '/4W · AND AL c.t>.Pt-.<JTO RS 1N · NLE · SP E.C\ FIE.D · LAST COMP ONE.NT DE.S I6NP-.TIO · ER ISE · 11 · 15 · 14
+- **Title block:** (355, 8)–(432, 35) mm: ro/7B R.EDf<A.<IlJ · ~CQ CIRC.U IT AD · ISSUE DATE · REVISION · ca APP. · [\NBS] WARD-BECK TEM · ps · BS · DR MRW 6178 · 117 · ENG. MRW · REGULATOR BOARD · CKD. IItvL · ALL ES ISTORS · ht · tp ARE. IN
+
+Every curve, box, word and wire group: [1978 - M485B - 25V power Supply p13 (traced).json](1978%20-%20M485B%20-%2025V%20power%20Supply%20p13%20%28traced%29.json) (the CAD file: `1978 - M485B - 25V power Supply p13 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

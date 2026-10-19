@@ -16,6 +16,235 @@ Wiki page: [M457A](../../../PAGES/M457A.md)
 
 - **1977** (month): `AUGUST 1977` — …out 8 5- 10 1· 0 6· 00 3 a .c ps BS MANU AL 15SUE ' 1 W :// AUGUST 1977 tp ht…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–311 mm across, 0–424 mm up
+- **Outlines:** line 99 rings, 1,416 straight (4,412 mm) / 276 curved (425 mm); text 58 rings, 592 straight (917 mm) / 116 curved (182 mm); tb 36 rings, 457 straight (561 mm) / 92 curved (151 mm)
+- **Words (OCR):** 23 in 12 lines: [W'ElS) 841 """OGII"I!'68 · WARD -BECK SYSTEMS LTD · _1'>.VI':'. · OMlH ~lC4 · Tla-EK :0lI-1l34IlB · "'IlI"'3e-t1!RlO · M457A · PAE-MIXER MAST ER MODU LE · ps · BS · tp · ht
+- **Title block:** (117, 399)–(268, 424) mm: WARD -BECK SYSTEMS LTD · _1'>.VI':'.
+
+Every curve, box, word and wire group: [1977 - M457A - Pre Mixer Master Module p1 (traced).json](1977%20-%20M457A%20-%20Pre%20Mixer%20Master%20Module%20p1%20%28traced%29.json) (the CAD file: `1977 - M457A - Pre Mixer Master Module p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–311 mm across, 19–424 mm up
+- **Outlines:** line 218 rings, 2,295 straight (5,531 mm) / 486 curved (748 mm); text 399 rings, 3,188 straight (3,678 mm) / 871 curved (1,385 mm)
+- **Closed boxes:** 2
+- **Words (OCR):** 98 in 54 lines: WA~ · EC · YSTEMS LT · TA8LE OF CONTENTS · M457A PRE· MIXER MASTER MO DULE · Warr an · hc hnlc · Da · ct · ut Desc rip ion · Par · Lis
+
+Every curve, box, word and wire group: [1977 - M457A - Pre Mixer Master Module p2 (traced).json](1977%20-%20M457A%20-%20Pre%20Mixer%20Master%20Module%20p2%20%28traced%29.json) (the CAD file: `1977 - M457A - Pre Mixer Master Module p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–312 mm across, 0–423 mm up
+- **Outlines:** line 129 rings, 1,312 straight (4,485 mm) / 285 curved (444 mm); text 866 rings, 7,078 straight (7,896 mm) / 1,876 curved (2,885 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.9 @ (196.6, 288.9), r 1.9 @ (216.7, 309.0), r 1.8 @ (260.9, 275.5)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 169 in 57 lines: TECIIIIICAL DATA · M45 1A PRE-MIX ER MASTER MO DULE · Gal · 18 dB,!l dB. · Fr equ ncy Res po nse · .25 dB from 30 Hz to 20 kHz · Nc · 75 dB be low · dBmnomina output · le · Hz to 20 kHz · Harmonic Dlstort lon:
+
+Every curve, box, word and wire group: [1977 - M457A - Pre Mixer Master Module p3 (traced).json](1977%20-%20M457A%20-%20Pre%20Mixer%20Master%20Module%20p3%20%28traced%29.json) (the CAD file: `1977 - M457A - Pre Mixer Master Module p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–310 mm across, 0–424 mm up
+- **Outlines:** line 332 rings, 2,924 straight (6,112 mm) / 721 curved (1,101 mm); text 859 rings, 6,785 straight (7,654 mm) / 1,873 curved (2,962 mm); tb 6 rings, 38 straight (52.8 mm) / 9 curved (14.3 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.8 @ (261.9, 270.2), r 1.8 @ (197.9, 222.8), r 1.8 @ (245.8, 303.4)
+- **Closed boxes:** 1
+- **Words (OCR):** 214 in 59 lines: WAFl O-BECK SYSTeMS LT · CiRCUIT DESCRI PTION · H4 57 PRE- HIXER HASTER MODULE · The H4 57A is · dua · hannel eevte [che nn el · and · both ha nnels bef ng dent cal lind de qned to eac acce pt · the · cu ent · urce orfg nlltf ng fr OIl · nuebe of 1445
+- **Title block:** (41, 398)–(130, 421) mm: WAFl O-BECK SYSTeMS LT
+
+Every curve, box, word and wire group: [1977 - M457A - Pre Mixer Master Module p4 (traced).json](1977%20-%20M457A%20-%20Pre%20Mixer%20Master%20Module%20p4%20%28traced%29.json) (the CAD file: `1977 - M457A - Pre Mixer Master Module p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–312 mm across, 0–422 mm up
+- **Outlines:** line 397 rings, 3,653 straight (7,229 mm) / 925 curved (1,433 mm); text 462 rings, 3,623 straight (4,163 mm) / 1,111 curved (1,746 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 118 in 84 lines: WAR · ECK YSTE · LTO · PARTS LIST · M4S7A PRE-MIXER MASTER MODULE · MFG PART NUMBER · PART · DESCRIPTION · MFG · B4 1JIJ- A5226-Z · Capa~ Hor 22 · u~/25
+
+Every curve, box, word and wire group: [1977 - M457A - Pre Mixer Master Module p5 (traced).json](1977%20-%20M457A%20-%20Pre%20Mixer%20Master%20Module%20p5%20%28traced%29.json) (the CAD file: `1977 - M457A - Pre Mixer Master Module p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 0–424 mm up
+- **Outlines:** line 265 rings, 2,550 straight (5,866 mm) / 557 curved (832 mm); text 425 rings, 3,298 straight (3,869 mm) / 949 curved (1,521 mm); tb 5 rings, 31 straight (40.4 mm) / 5 curved (6.2 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.9 @ (65.2, 309.0)
+- **Closed boxes:** 3
+- **Words (OCR):** 111 in 64 lines: WARO -BECK SYSTEMS LTO. · PARTS LIS · M4S7A PRE· MI XER MASTER MO DULE · PART · DESCRI PTIO · MFG · MFG PART HUMBER · R37 to · De lete · Resl tor · 51 4K7 · HI
+- **Title block:** (49, 399)–(132, 421) mm: WARO -BECK SYSTEMS LTO.
+
+Every curve, box, word and wire group: [1977 - M457A - Pre Mixer Master Module p6 (traced).json](1977%20-%20M457A%20-%20Pre%20Mixer%20Master%20Module%20p6%20%28traced%29.json) (the CAD file: `1977 - M457A - Pre Mixer Master Module p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–312 mm across, 12–424 mm up
+- **Outlines:** line 196 rings, 2,475 straight (5,501 mm) / 494 curved (804 mm); text 180 rings, 1,249 straight (1,409 mm) / 285 curved (455 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.2 @ (121.2, 314.7), r 2.2 @ (65.7, 314.7), r 1.7 @ (100.1, 277.5), r 1.7 @ (210.9, 277.5)
+- **Words (OCR):** 29 in 17 lines: "1457" PRE. tUX ER · "~AS ER MODULE · CONT ROL IUotODS. CAPS AND BUT TONS · ns · Knob · 02 1_352 · noo · C.,p · hIC;k · 040_302 · SW, · (Wh
+
+Every curve, box, word and wire group: [1977 - M457A - Pre Mixer Master Module p7 (traced).json](1977%20-%20M457A%20-%20Pre%20Mixer%20Master%20Module%20p7%20%28traced%29.json) (the CAD file: `1977 - M457A - Pre Mixer Master Module p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–312 mm across, 0–424 mm up
+- **Outlines:** line 84 rings, 906 straight (3,779 mm) / 135 curved (213 mm); text 31 rings, 236 straight (304 mm) / 66 curved (105 mm)
+- **Closed boxes:** 2
+- **Words (OCR):** 7 in 6 lines: 5·10 · AMPLIfiER SERIES · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1977 - M457A - Pre Mixer Master Module p8 (traced).json](1977%20-%20M457A%20-%20Pre%20Mixer%20Master%20Module%20p8%20%28traced%29.json) (the CAD file: `1977 - M457A - Pre Mixer Master Module p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–331 mm across, 16–424 mm up
+- **Outlines:** line 282 rings, 2,679 straight (5,556 mm) / 577 curved (877 mm); text 855 rings, 6,813 straight (7,720 mm) / 1,899 curved (3,047 mm); tb 2 rings, 17 straight (21.3 mm) / 12 curved (13.6 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.9 @ (137.5, 124.2), r 1.9 @ (54.6, 282.0)
+- **Dots (junctions):** 1
+- **Words (OCR):** 204 in 81 lines: ""111" · SY · EMS TO · DESCRIPTI ON · 10 · AM PLI FIER SERIES · The 5-10 · se · Mp ifi ers are utll lze as lug In un ts · wit hin certain Ward -Be ck SysteMS 450 and 460 eries Mod es · There re wo sep ante aMplifie rs pe · r-d ac pr vi ing
+- **Title block:** (87, 304)–(170, 328) mm: wit hin certain Ward -Be ck SysteMS 450 and 460 eries Mod es
+
+Every curve, box, word and wire group: [1977 - M457A - Pre Mixer Master Module p9 (traced).json](1977%20-%20M457A%20-%20Pre%20Mixer%20Master%20Module%20p9%20%28traced%29.json) (the CAD file: `1977 - M457A - Pre Mixer Master Module p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 0–424 mm up
+- **Outlines:** line 291 rings, 2,843 straight (5,592 mm) / 619 curved (961 mm); text 830 rings, 6,620 straight (7,399 mm) / 1,932 curved (3,063 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.0 @ (223.0, 247.1), r 2.0 @ (90.7, 177.9), r 1.9 @ (82.6, 301.7)
+- **Words (OCR):** 225 in 69 lines: SYS · MS LTC · DESCRIP TION · 101 AMPLI iER SERI ES · The ope ra io · bot · mplif ier sect io ns is · de nti · Only · on sec tlo "l111 be de sc rlbe · Ea ch · ct io
+
+Every curve, box, word and wire group: [1977 - M457A - Pre Mixer Master Module p10 (traced).json](1977%20-%20M457A%20-%20Pre%20Mixer%20Master%20Module%20p10%20%28traced%29.json) (the CAD file: `1977 - M457A - Pre Mixer Master Module p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–303 mm across, 16–423 mm up
+- **Outlines:** line 495 rings, 4,302 straight (7,701 mm) / 1,060 curved (1,645 mm); text 324 rings, 2,539 straight (2,987 mm) / 796 curved (1,233 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.9 @ (98.3, 101.1), r 1.9 @ (92.6, 286.3)
+- **Closed boxes:** 13
+- **Dots (junctions):** 1
+- **Words (OCR):** 88 in 58 lines: WAFl · CK YSTEMS LTO · illll.J:.ill · .1018 DUAL BOOSTER AMPLIFIER · PART · DESCRIPTION · MFG · I1FG PART NUMBE · 39 · D1 AS · C,p,c !to · uF!IO'
+
+Every curve, box, word and wire group: [1977 - M457A - Pre Mixer Master Module p11 (traced).json](1977%20-%20M457A%20-%20Pre%20Mixer%20Master%20Module%20p11%20%28traced%29.json) (the CAD file: `1977 - M457A - Pre Mixer Master Module p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 21–332 mm across, 18–424 mm up
+- **Outlines:** line 395 rings, 3,826 straight (6,875 mm) / 895 curved (1,346 mm); text 182 rings, 1,474 straight (1,664 mm) / 435 curved (679 mm)
+- **Closed boxes:** 9
+- **Dots (junctions):** 1
+- **Words (OCR):** 93 in 72 lines: Fl · CI< YSTE MS LTD · PARTS LI ST · 1018 · OUAL BOOSTER AMPLI FI ER · OESCR(PHon · MFG · HFG · PART NUMBER · PART · Re sistor ItW · 51 71(,
+
+Every curve, box, word and wire group: [1977 - M457A - Pre Mixer Master Module p12 (traced).json](1977%20-%20M457A%20-%20Pre%20Mixer%20Master%20Module%20p12%20%28traced%29.json) (the CAD file: `1977 - M457A - Pre Mixer Master Module p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 19–426 mm up
+- **Outlines:** line 421 rings, 4,088 straight (7,328 mm) / 972 curved (1,511 mm); text 223 rings, 1,735 straight (1,978 mm) / 504 curved (781 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.9 @ (185.2, 149.7)
+- **Closed boxes:** 6
+- **Words (OCR):** 102 in 68 lines: Fl · CK YSTEM · !!.!ill....ll.l · 10 18 DUAL BOOSTER AMPLI FI ER · MFG · HFG PART HUMBER · PART · DESCRIP IO · RJ6 · Rulstorl:l 51 15 · R37 · 15K
+
+Every curve, box, word and wire group: [1977 - M457A - Pre Mixer Master Module p13 (traced).json](1977%20-%20M457A%20-%20Pre%20Mixer%20Master%20Module%20p13%20%28traced%29.json) (the CAD file: `1977 - M457A - Pre Mixer Master Module p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** layout 457-04-006, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–430 mm up
+- **Outlines:** line 339 rings, 3,358 straight (7,961 mm) / 714 curved (1,023 mm); text 246 rings, 1,725 straight (1,638 mm) / 563 curved (744 mm); tb 9 rings, 82 straight (70.3 mm) / 31 curved (38.4 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 5.1 @ (179.4, 232.4), r 5.1 @ (179.6, 193.9), r 4.3 @ (159.1, 179.7), r 4.3 @ (158.8, 218.9)
+- **Closed boxes:** 18 (2 in the title block); named: was M45704 MASTER EXT MASTER EX; was M45704 MASTER EXT MASTER EX; Chiinne to\AS TEI\ LEVEL co nt ro 1\9: A; nne ""SUR LEVEL cont ro /dJU le vel of c; SEl ECTOR switc SWIO: When INPUT ~frT:s~; IlfDU,W; 9/nl; REV ISION; I,SSUE; DAnI; tp M457A PRE -MI XER MASTER MODULE FRONT
+- **Dots (junctions):** 1
+- **Words (OCR):** 69 in 30 lines: was · M45704 · Chiinne · to\AS TEI\ LEVEL co nt ro · 1\9: AdJ usu le vel of che nne · out pu · MASTER · EXT · nne /dJU le vel of ch.nne · ""SUR LEVEL cont ro · ~frT:s~:;'~~.~~:j ~.[';~~:::ll-----­ · INPUT
+- **Title block:** (224, 5)–(254, 31) mm: ENG · CKD~ · ,pp, · SCAlf
+
+Every curve, box, word and wire group: [1977 - M457A - Pre Mixer Master Module p14 (traced).json](1977%20-%20M457A%20-%20Pre%20Mixer%20Master%20Module%20p14%20%28traced%29.json) (the CAD file: `1977 - M457A - Pre Mixer Master Module p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 432 × 297 mm, 2000 × 1377 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–296 mm up
+- **Outlines:** line 263 rings, 3,361 straight (7,258 mm) / 620 curved (931 mm); text 121 rings, 935 straight (1,294 mm) / 173 curved (251 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.0 @ (395.2, 27.2)
+- **Closed boxes:** 10
+- **Words (OCR):** 19 in 17 lines: SU_ · INPUT · LEVEL · EXTERNAL INPUT · (OdB) · -10dBm · OUTPUTS · SU_ · INPUT~ · +8dBm · EXTERNAL INPUT · -10dBm
+
+Every curve, box, word and wire group: [1977 - M457A - Pre Mixer Master Module p15 (traced).json](1977%20-%20M457A%20-%20Pre%20Mixer%20Master%20Module%20p15%20%28traced%29.json) (the CAD file: `1977 - M457A - Pre Mixer Master Module p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 432 × 285 mm, 2000 × 1322 px traced (0.216 mm/px)
+- **Ink extent:** 3–432 mm across, 0–283 mm up
+- **Outlines:** line 968 rings, 9,894 straight (17,655 mm) / 2,417 curved (3,432 mm); text 311 rings, 2,044 straight (2,162 mm) / 726 curved (1,013 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 2.3 @ (403.2, 22.4), r 1.8 @ (322.3, 62.6), r 1.7 @ (160.3, 50.5), r 1.6 @ (96.6, 152.1)
+- **Closed boxes:** 39; named: EI E4 5-10'8 DUAL BOOSTER AMPLIFIER 1:5 ; ,..--...l---=..j
+- **Dots (junctions):** 1
+- **Words (OCR):** 111 in 87 lines: SW9 Mix · MIX · -24V · +24 · R/5 · -18~ · R98 · 'SI<- · EXTERNAL · R9G · ISIt · RI6
+
+Every curve, box, word and wire group: [1977 - M457A - Pre Mixer Master Module p16 (traced).json](1977%20-%20M457A%20-%20Pre%20Mixer%20Master%20Module%20p16%20%28traced%29.json) (the CAD file: `1977 - M457A - Pre Mixer Master Module p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 432 × 365 mm, 2000 × 1691 px traced (0.216 mm/px)
+- **Ink extent:** 7–432 mm across, 0–356 mm up
+- **Outlines:** line 782 rings, 7,831 straight (12,908 mm) / 1,992 curved (3,060 mm); text 93 rings, 650 straight (729 mm) / 188 curved (300 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 2.5 @ (11.1, 51.4), r 2.4 @ (180.9, 267.5), r 2.4 @ (326.2, 159.0), r 2.4 @ (326.4, 174.6)
+- **Closed boxes:** 27
+- **Dots (junctions):** 3
+- **Words (OCR):** 40 in 30 lines: --4r- · EfO · EB · PIN · PIN8 · SW1Q · 1-i- · esc · CSf · R34 · R3S · 70 RID
+
+Every curve, box, word and wire group: [1977 - M457A - Pre Mixer Master Module p17 (traced).json](1977%20-%20M457A%20-%20Pre%20Mixer%20Master%20Module%20p17%20%28traced%29.json) (the CAD file: `1977 - M457A - Pre Mixer Master Module p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–429 mm up
+- **Outlines:** line 170 rings, 3,606 straight (10,589 mm) / 392 curved (662 mm); text 450 rings, 4,114 straight (5,747 mm) / 957 curved (1,554 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.4 @ (325.8, 210.5)
+- **Closed boxes:** 83; named: OW e:(I-W Vla:: lJ\ ::::Eg; ::::EZ wu; CD CD CD IE c:a:; iii Ul; lJ\; 'AT; Ul; )(Ci lClCZ ':C':C< iii; 10; MI; 12; 13; 14
+- **Words (OCR):** 120 in 91 lines: iii · Ul · CD · OW · IC · 'AT IC · CD · EXT IN B2 EXT · e:(I-W · Vla:: · IC · C3
+
+Every curve, box, word and wire group: [1977 - M457A - Pre Mixer Master Module p18 (traced).json](1977%20-%20M457A%20-%20Pre%20Mixer%20Master%20Module%20p18%20%28traced%29.json) (the CAD file: `1977 - M457A - Pre Mixer Master Module p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** schematic 5-101-02-003, size B (assumed) 432 × 150 mm, 2000 × 696 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–150 mm up
+- **Outlines:** line 1,022 rings, 7,953 straight (11,990 mm) / 1,966 curved (2,470 mm); text 569 rings, 3,181 straight (3,039 mm) / 1,070 curved (1,291 mm)
+- **Centre lines:** 10,164 paths (194 closed); straight 8,960 mm, curved 646 mm; horizontal 2,822 mm, vertical 1,886 mm, diagonal 4,252 mm
+- **Circles and arcs:** 22 circles, 123 arcs; largest r 3.2 @ (359.1, 134.6), r 3.2 @ (359.1, 102.4), r 3.1 @ (131.7, 72.9), r 3.1 @ (132.0, 101.4)
+- **Closed boxes:** 22; named: ISS.; CKD.; Gr£B
+- **Words (OCR):** 113 in 89 lines: .----.--,;..-.----.-44 · x'£f?1JIIL CONN£CT/ON · xrEK.N lfL · R31 · C8 · +18V 18k · Cf · R51 · R22 · Rr5g · R45 · 33
+- **Wiring (first pass):** 64 connected wire groups from 597 runs; labelled ends: 534 mm → ISS., MOD., 3/"12; 69 mm → 15k, R52, 75k; 61 mm → R31, +18V, 18k, Rr5g; 53 mm → 75k; 52 mm → R51, 18k.
+
+Every curve, box, word and wire group: [1977 - M457A - Pre Mixer Master Module p19 (traced).json](1977%20-%20M457A%20-%20Pre%20Mixer%20Master%20Module%20p19%20%28traced%29.json) (the CAD file: `1977 - M457A - Pre Mixer Master Module p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** component layout 5-101-06-003, size B (assumed) 432 × 343 mm, 2000 × 1587 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–334 mm up
+- **Outlines:** line 989 rings, 12,730 straight (18,799 mm) / 3,095 curved (3,578 mm); text 333 rings, 3,391 straight (3,806 mm) / 949 curved (1,105 mm); tb 39 rings, 326 straight (344 mm) / 95 curved (113 mm)
+- **Circles and arcs:** 18 circles, 0 arcs; largest r 8.3 @ (122.5, 254.0), r 8.2 @ (246.4, 252.2), r 8.1 @ (59.4, 255.1), r 7.3 @ (150.4, 253.5)
+- **Closed boxes:** 31 (5 in the title block); named: tPI.J;~,; h"Ul; ISS; MOD.; 0M DRN.
+- **Dots (junctions):** 1
+- **Words (OCR):** 95 in 64 lines: 8£11 · EB8 · BE3 · E48 · -R4I:. · -R22 · ~R23 :63 · -R45:2. · R43 k7 · _R44j:k7 -R20±'1<.., · -R21 4-k.7 · R50 il Rt CIS
+- **Title block:** (95, 29)–(265, 71) mm: ISS MOD. CKD. · USED ON · <0:;£8 · DRN. · FINISH
+
+Every curve, box, word and wire group: [1977 - M457A - Pre Mixer Master Module p20 (traced).json](1977%20-%20M457A%20-%20Pre%20Mixer%20Master%20Module%20p20%20%28traced%29.json) (the CAD file: `1977 - M457A - Pre Mixer Master Module p20 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

@@ -16,6 +16,542 @@ Wiki page: [M460A](../../../PAGES/M460A.md)
 
 - **1976** (labelled): `DATE 8 DEC 76` — …D. CKD: 3540 USED ON MATL WBS WARD-BeCK bybTEMS LTD DRN DNM DATE 8 DEC 76 CKD. Rsu ISCALE M46OA INPUT MODULE FUNCTIONAL DIAGRAM FINIS…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–311 mm across, 0–414 mm up
+- **Outlines:** line 27 rings, 399 straight (3,013 mm) / 39 curved (64.2 mm); text 162 rings, 1,886 straight (2,622 mm) / 374 curved (617 mm); tb 2 rings, 95 straight (288 mm) / 10 curved (19.4 mm)
+- **Words (OCR):** 15 in 10 lines: WAAD-BECK SYsTeMS LTD_ · WBS 841 PAOGRESS AVENUE; SCARBOROUGH; ONTAAIO M1H2xa · TELEX: 06-23469 · TELEPHONE: 416/438-6550 · MA6OA · MODULE · INPUT · DESIGN AND MANUFACTUAE · Of PPOFESSIONAL · ALDIO EQUIPMENT
+- **Title block:** (47, 388)–(268, 424) mm: WAAD-BECK SYsTeMS LTD_ · WBS 841 PAOGRESS AVENUE; SCARBOROUGH; ONTAAIO M1H2xa · TELEX: 06-23469 · TELEPHONE: 416/438-6550
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p1 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p1%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** component layout 409-06-012, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–421 mm up
+- **Outlines:** line 28 rings, 489 straight (3,023 mm) / 60 curved (63.2 mm); text 1,153 rings, 9,435 straight (10,135 mm) / 3,168 curved (3,670 mm); tb 7 rings, 150 straight (442 mm) / 33 curved (35.4 mm)
+- **Words (OCR):** 113 in 82 lines: WARD-BECK systems LTD_ · 0F CONTENTS · IABLE · M460a · InPUT · MODULE · PAGE · SECTION · Warranty · Technica] Data · 1-1 to · 1-2
+- **Title block:** (17, 34)–(293, 422) mm: WARD-BECK systems LTD_ · 0F CONTENTS · IABLE · M460a · InPUT · MODULE · PAGE · SECTION · Warranty · Technica] Data · 1-1 to · 1-2 · Description · 2 - 1 t0 · 2 -5 · circuit · Equalizer Frequency · Resp
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p2 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p2%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–307 mm across, 7–412 mm up
+- **Outlines:** line 48 rings, 525 straight (3,214 mm) / 67 curved (92.0 mm); text 1,160 rings, 9,038 straight (10,264 mm) / 2,468 curved (3,853 mm)
+- **Dots (junctions):** 2
+- **Words (OCR):** 160 in 93 lines: WAAD-BECK systems LTD; · IECHNICAL · DATA · M4604 InPut · MODULE · Input · Sensitivities: · Line: · -20 to · +10 dBm · (ref 600 o hm source ) · Mic Pad
+- **Title block:** (19, 397)–(128, 422) mm: WAAD-BECK systems LTD;
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p3 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p3%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–329 mm across, 6–417 mm up
+- **Outlines:** line 22 rings, 530 straight (2,942 mm) / 54 curved (87.3 mm); text 212 rings, 1,697 straight (2,072 mm) / 405 curved (601 mm)
+- **Words (OCR):** 24 in 16 lines: WAAD-BECK systems LTD · IECHNICAL DATA · M46O4 InPut MODULE · Ambient Temperature: · to · 60 degrees Celsius · Dimens ions : · 1.6" wide · 14 . · 15 " high · 6.5" deep · (41 MI
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p4 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p4%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 0–412 mm up
+- **Outlines:** line 56 rings, 680 straight (3,442 mm) / 111 curved (158 mm); text 2,135 rings, 16,146 straight (18,390 mm) / 4,728 curved (7,310 mm)
+- **Dots (junctions):** 2
+- **Words (OCR):** 276 in 132 lines: WARD-BECK · systems LTD; · CIRCUII DESCRIPTION · M460A InPUT · MODULE · The · M4604 is · combination · InPUT/EQUALIZER module , designed · to · accept input s igna 1 $ originating · from either
+- **Title block:** (25, 398)–(135, 422) mm: WARD-BECK · systems LTD;
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p5 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p5%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 21–327 mm across, 4–417 mm up
+- **Outlines:** line 1,008 rings, 7,746 straight (11,030 mm) / 2,300 curved (3,533 mm); text 1,319 rings, 9,980 straight (11,126 mm) / 2,841 curved (4,417 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 1.8 @ (39.0, 140.6), r 1.8 @ (119.8, 147.3), r 1.8 @ (35.2, 254.2), r 1.8 @ (124.0, 287.5)
+- **Dots (junctions):** 2
+- **Words (OCR):** 136 in 105 lines: OUIRD · 3YBTEME · CM · WescaDE · Nab o IRUI_NODLE · throval · Jere · 0ixing · i50/ation Amp MNers They · currecliom giund " · orimar · T4na|
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p6 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p6%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 12–317 mm across, 7–412 mm up
+- **Outlines:** line 52 rings, 739 straight (3,678 mm) / 118 curved (170 mm); text 1,779 rings, 13,952 straight (15,528 mm) / 3,864 curved (5,948 mm)
+- **Dots (junctions):** 3
+- **Words (OCR):** 234 in 111 lines: WAAD-BECK systems LTD · CIRCUIT · DESCRIPTION · M460A InPut MODULE · The three · s igna ] s which · Teave the · 4-126 · filter are · "correction · n-Phase 180 degrees out-of-phase with the · signa ] s " either
+- **Title block:** (29, 397)–(138, 422) mm: WAAD-BECK systems LTD
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p7 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p7%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 0–418 mm up
+- **Outlines:** line 55 rings, 884 straight (3,977 mm) / 131 curved (209 mm); text 1,829 rings, 13,981 straight (16,167 mm) / 4,151 curved (6,530 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 260 in 102 lines: WAAD-BECK SYstems LTD · CIRCUII_DESCRIPTION · M460a InPUt · MODULE · CHANNEL On Switch · The CHANNEL on switch SW21 contro] s a 11 outputs the · 0 f · module · with the · exception 0 f the · PFL output · FADER
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p8 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p8%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–313 mm across, 0–421 mm up
+- **Outlines:** line 45 rings, 744 straight (3,446 mm) / 89 curved (140 mm); text 912 rings, 7,105 straight (7,986 mm) / 1,967 curved (3,066 mm)
+- **Words (OCR):** 120 in 55 lines: WARD-BECK SYSTems LTD · CIRCUIT DESCRIPIION · M46Q4 InPUT · MODULE · externa] mute contro] · functions · independently for both · microphone and Tine sources · be · required in · particular · may
+- **Title block:** (26, 397)–(135, 421) mm: WARD-BECK SYSTems LTD
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p9 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p9%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–310 mm across, 7–421 mm up
+- **Outlines:** line 673 rings, 7,829 straight (24,130 mm) / 873 curved (1,331 mm); text 318 rings, 2,485 straight (2,990 mm) / 724 curved (1,096 mm)
+- **Closed boxes:** 132
+- **Words (OCR):** 41 in 26 lines: WAAD-BECK SYSTEms LTD · FREOUEnCY RESPONSE · CHARACTERISTICS · M460a InPUt MODULE · EQUALIZER · OdB · LOW_FREQUENCY section · cut/boost: +15 · dB · FREQUEnCY: 25 400 Hz · 20Hz · IQDHz
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p10 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p10%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–329 mm across, 7–420 mm up
+- **Outlines:** line 587 rings, 7,592 straight (22,958 mm) / 926 curved (1,364 mm); text 318 rings, 2,535 straight (2,978 mm) / 709 curved (1,072 mm)
+- **Closed boxes:** 109
+- **Words (OCR):** 43 in 32 lines: WAAD-BECK · EREQUENCY_RESPONSE · CHARACIERLSICS · M46oA NPUT_MODULE EQUAL IZER · OdB · MID_FREQUENCY section · Boost: · to · +15 dB · in · dB steps . · FREQUENCY : kHz .
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p11 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p11%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–311 mm across, 0–421 mm up
+- **Outlines:** line 123 rings, 991 straight (4,203 mm) / 190 curved (311 mm); text 1,288 rings, 10,019 straight (11,390 mm) / 3,313 curved (5,146 mm)
+- **Words (OCR):** 150 in 129 lines: WARD-BECK Systems LTD · PARTS LIST · M460A InPUt · MODUL E · PART · DESCRIPTION · MFG · MFG PART NUMBER · Capacitor 33 · uF/ 10 · Kemet · T3900336M0104S
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p12 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p12%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 0–419 mm up
+- **Outlines:** line 12 rings, 534 straight (3,351 mm) / 39 curved (64.1 mm); text 757 rings, 5,796 straight (6,841 mm) / 1,633 curved (2,559 mm); tb 74 rings, 440 straight (619 mm) / 117 curved (193 mm)
+- **Words (OCR):** 101 in 88 lines: WAAD-BECK SYsTEMS LTD · PARIS LIST · M46OA · InPut · MODULE · NUMBER · PART · DESCRIPTION · MFG · MFG PART · C38 · Capacitor 22 uF/25
+- **Title block:** (22, 40)–(251, 422) mm: WAAD-BECK SYsTEMS LTD · PARIS LIST · M46OA · InPut · MODULE · PART · DESCRIPTION · MFG · MFG PART · C38 · Capacitor 22 uF/25 · Siemens · 150 uF/ 6 · Kemet · C39 · C40 · CR] · Diode · Motoro]a · 1n4003
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p13 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p13%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–310 mm across, 4–421 mm up
+- **Outlines:** line 108 rings, 883 straight (3,764 mm) / 147 curved (228 mm); text 613 rings, 4,774 straight (5,560 mm) / 1,385 curved (2,146 mm); tb 15 rings, 121 straight (297 mm) / 27 curved (53.6 mm)
+- **Words (OCR):** 93 in 83 lines: WARD-BECK Systems LTD · PARTS LIST · M4604 InPUT MODULE · PART · DESCRIPIION · MFG · MFG PART · NUMBER · R19 · (Delete · R20 · (De Tete
+- **Title block:** (22, 255)–(248, 421) mm: WARD-BECK Systems LTD · PARTS LIST · M4604 InPUT MODULE · PART · DESCRIPIION · MFG · MFG PART · R19 · (Delete · R20 · (De Tete · R21 · Potentiometer · A/ B · R22 · R23 · R24 · R25 · Potentiometer, qua
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p14 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p14%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 0–417 mm up
+- **Outlines:** line 144 rings, 1,292 straight (4,192 mm) / 219 curved (341 mm); text 523 rings, 4,013 straight (4,747 mm) / 1,195 curved (1,847 mm)
+- **Closed boxes:** 2
+- **Words (OCR):** 90 in 84 lines: WAAD-BECK Systems LTD. · PARIS LISI · M4604 InPUT · MODULE · DESCRI PTION · MFG · MFG PARI NUMBER · PART · 15k · Philips · R5S · Re sistor
+- **Title block:** (24, 397)–(134, 421) mm: WAAD-BECK Systems LTD.
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p15 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p15%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–307 mm across, 6–410 mm up
+- **Outlines:** line 21 rings, 606 straight (3,193 mm) / 45 curved (72.1 mm); text 613 rings, 5,267 straight (6,138 mm) / 1,409 curved (2,165 mm); tb 108 rings, 582 straight (716 mm) / 159 curved (232 mm)
+- **Words (OCR):** 98 in 89 lines: WAAD-BECK SySteMS LTD · PARLS_LISI · M460a InPut MODULE · MFG · MFG PART · NUMBER · PART · DESCRIPTION · Philips · R92 · Resistor · 15k
+- **Title block:** (19, 31)–(242, 420) mm: WAAD-BECK SySteMS LTD · PARLS_LISI · M460a InPut MODULE · MFG · MFG PART · PART · DESCRIPTION · Philips · R92 · Resistor · 15k · R93 · 15k · R94 · 15k · R95 · 15k · R96 · 15k · R97 · (Delete ) · R98 ·
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p16 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p16%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 0–417 mm up
+- **Outlines:** line 37 rings, 730 straight (3,418 mm) / 74 curved (114 mm); text 611 rings, 5,131 straight (5,908 mm) / 1,383 curved (2,142 mm); tb 60 rings, 328 straight (509 mm) / 61 curved (87.0 mm)
+- **Words (OCR):** 83 in 65 lines: WARD-BECK · systems LTD; · PARTS · LIST · M460a · INPUT MODULE · PART · DESCRIPTION · MFG · MFG · PART NUMBER · Sw5
+- **Title block:** (23, 85)–(248, 420) mm: WARD-BECK · systems LTD; · PARTS · LIST · M460a · INPUT MODULE · PART · DESCRIPTION · MFG · MFG · Sw5 · Switch · Schadow · WBS · S16 · SW7 · (Delete ) · SW8 · SWg · Switch · SW1o · (Delete ) · SW1l · 
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p17 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p17%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–427 mm up
+- **Outlines:** line 45 rings, 648 straight (2,969 mm) / 81 curved (115 mm); text 59 rings, 583 straight (679 mm) / 127 curved (193 mm)
+- **Words (OCR):** 5 in 3 lines: WARD-BECK SYETEmS LTD_ · 8-109 AMPLIFIER SERIES · 8-109
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p18 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p18%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 12–423 mm up
+- **Outlines:** line 126 rings, 1,327 straight (3,618 mm) / 251 curved (381 mm); text 1,346 rings, 10,689 straight (11,724 mm) / 2,920 curved (4,577 mm); tb 1 rings, 1 straight (0.6 mm) / 2 curved (2.2 mm)
+- **Words (OCR):** 207 in 127 lines: WAAD-BECK SYSTEmS LTD_ · 4oja GaAW · DESCRIPIION · AMPLLFIERSERIES · 8-109 · The 8-109 · series o f · amplifiers are · utilized · an · interna] · component within various
+- **Title block:** (20, 311)–(161, 430) mm: WAAD-BECK SYSTEmS LTD_ · 8-109 · The 8-109 · series o f · amplifiers are · component within various · Each 8-109 · amplifier mounts a5
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p19 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p19%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 0–421 mm up
+- **Outlines:** line 53 rings, 833 straight (3,119 mm) / 129 curved (198 mm); text 1,817 rings, 15,220 straight (16,398 mm) / 4,118 curved (6,402 mm); tb 1 rings, 3 straight (2.5 mm) / 2 curved (2.3 mm)
+- **Dots (junctions):** 2
+- **Words (OCR):** 252 in 114 lines: WARD-BECK SYSTEMS LTD_ · OTJ · DESCRIPTION · 8-109 AMPLIFIER · SERIES · Output Impedance: · Less than · 100 ohms 44 = · Load · Impedance:  600 ohms · ba ]anced_ · Output
+- **Title block:** (24, 404)–(152, 429) mm: WARD-BECK SYSTEMS LTD_
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p20 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p20%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 205 rings, 1,448 straight (3,560 mm) / 314 curved (394 mm); text 245 rings, 2,153 straight (2,420 mm) / 587 curved (906 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 32 in 15 lines: WARO-BECK BYSTEms LTD. · DESCRIPTION · 8-109 · AMPLLELER_SERIES · inverting amplifier with El externally strapped E6 _ · to · The output 0 f a 11 · mode ]s 0 f · the 8- 109 series is · actively · ba lanced and is · Pins E4 and
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p21 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p21%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–311 mm across, 0–423 mm up
+- **Outlines:** line 129 rings, 1,467 straight (4,534 mm) / 219 curved (327 mm); text 809 rings, 6,819 straight (7,679 mm) / 1,995 curved (3,104 mm)
+- **Closed boxes:** 13
+- **Words (OCR):** 107 in 94 lines: WAAD-BECK SYSTems LTD · 4a3a · DAAW · PARIS LIST · 8-109 AMPLLFLER_SERIES · 8-109 · PART DESCRIPILON · MFG · MFG · PARI_NUMBER · C1 · Capacitor 33 uF/ 10
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p22 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p22%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 11–422 mm up
+- **Outlines:** line 97 rings, 1,476 straight (3,953 mm) / 199 curved (299 mm); text 494 rings, 4,263 straight (4,772 mm) / 1,261 curved (1,929 mm)
+- **Closed boxes:** 16
+- **Words (OCR):** 99 in 92 lines: WAAD-BECK SYSTems LTD_ · PARIS LIST · 8-109 · AMPLIFIERSERIES · 8-109 · DESCRIPIION · MEG · MFG PART · NUMBER · PARI · Philips · R4  Resistor
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p23 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p23%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–308 mm across, 8–421 mm up
+- **Outlines:** line 65 rings, 1,485 straight (4,790 mm) / 173 curved (282 mm); text 662 rings, 5,426 straight (6,164 mm) / 1,584 curved (2,474 mm)
+- **Closed boxes:** 6
+- **Dots (junctions):** 1
+- **Words (OCR):** 101 in 85 lines: WAAD-BECK · Systems LTD · PARTS · LISI · 8-109 · AMPLLFLER_SERIES · 8-109 · 29 · 490 · PART DESCRIPIION · MFG · MFG PART_NUMBER
+- **Title block:** (22, 402)–(132, 426) mm: WAAD-BECK · Systems LTD
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p24 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p24%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–330 mm across, 10–427 mm up
+- **Outlines:** line 61 rings, 1,662 straight (4,636 mm) / 264 curved (403 mm); text 733 rings, 5,906 straight (6,634 mm) / 1,776 curved (2,738 mm); tb 1 rings, 3 straight (2.8 mm) / 0 curved (0.0 mm)
+- **Closed boxes:** 2
+- **Words (OCR):** 104 in 81 lines: WARD-BECK Systems LTD; · PARIS_LISI · 8-109 AMPLLFIER_SERIES · 8-109C · 20-2 · A11 · parts · per · 8-109 except noted below · PARI DESCRIPTION · MEG · LMEG_PARL_NUMBER
+- **Title block:** (23, 404)–(134, 428) mm: WARD-BECK Systems LTD;
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p25 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p25%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–307 mm across, 9–422 mm up
+- **Outlines:** line 35 rings, 1,144 straight (3,968 mm) / 141 curved (225 mm); text 590 rings, 4,851 straight (5,453 mm) / 1,398 curved (2,124 mm); tb 9 rings, 78 straight (72.4 mm) / 17 curved (25.0 mm)
+- **Closed boxes:** 2
+- **Words (OCR):** 71 in 47 lines: WAAD-BECK SYSTems LTD; · PARIS LIST · 8-109 · AMPLLELER_SERIES · 8-109E · A11 parts as per · 8-109 except as · noted · be ow · PARI DESCRIPIION · MFG · MFG
+- **Title block:** (22, 60)–(152, 427) mm: WAAD-BECK SYSTems LTD; · 8-109 · 8-109E · A11 parts as per · 8-109 except as · PARI DESCRIPIION · C6 · Capacitor 4.7 pF · C11 · R15 · Resistor %h · 510 · 8-109G · A1I parts · per · 8-109 except as · P
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p26 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p26%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–307 mm across, 21–426 mm up
+- **Outlines:** line 22 rings, 470 straight (2,729 mm) / 48 curved (75.1 mm); text 95 rings, 794 straight (998 mm) / 198 curved (294 mm); tb 3 rings, 6 straight (4.8 mm) / 4 curved (4.3 mm)
+- **Words (OCR):** 8 in 5 lines: WAAD-BECK systems LTD · 4-110 · PREAMP /HIGH-PASS FILTER · ISSUE · SEPTEMBER 1983
+- **Title block:** (22, 46)–(255, 427) mm: WAAD-BECK systems LTD · 4-110 · PREAMP /HIGH-PASS FILTER · ISSUE
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p27 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p27%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p27 (traced).dxf`).
+
+### Page 28
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–307 mm across, 0–421 mm up
+- **Outlines:** line 54 rings, 676 straight (3,145 mm) / 109 curved (167 mm); text 1,460 rings, 9,839 straight (10,796 mm) / 2,991 curved (4,604 mm); tb 18 rings, 183 straight (378 mm) / 30 curved (53.1 mm)
+- **Dots (junctions):** 2
+- **Words (OCR):** 204 in 109 lines: WAAD-BECK · LTD · CIRcuiT DESCRIPTION · 4-110 · PREAMP /HIGH-PASS FILTER · 4-110 · preamplifier is · printed circuit board · be · The · designed to · used as an
+- **Title block:** (22, 313)–(218, 427) mm: WAAD-BECK · LTD · CIRcuiT DESCRIPTION · 4-110 · PREAMP /HIGH-PASS FILTER · 4-110 · preamplifier is · printed circuit board · The · used as an · internal component · of the · Preceding the · module ser
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p28 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p28%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p28 (traced).dxf`).
+
+### Page 29
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–310 mm across, 0–417 mm up
+- **Outlines:** line 2,390 rings, 25,611 straight (34,862 mm) / 4,088 curved (5,894 mm); text 188 rings, 1,402 straight (1,772 mm) / 370 curved (596 mm)
+- **Closed boxes:** 565; named: OF RANGE CONTROL
+- **Words (OCR):** 27 in 23 lines: WARD-BECK · LTD; · FILTER · CHARACTERISTICS · 4-110 PREAMP /HIGH-PASS · FILTER · ~10 · RANGE · OF · 20 · CONTROL · 530
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p29 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p29%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p29 (traced).dxf`).
+
+### Page 30
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–311 mm across, 17–417 mm up
+- **Outlines:** line 159 rings, 1,306 straight (4,120 mm) / 238 curved (366 mm); text 780 rings, 6,066 straight (6,918 mm) / 1,843 curved (2,858 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 124 in 108 lines: WAAD-BECK · systems LTD; · PARTS LiST · 4-110 · PREAMP/HIGH-PASS FILTER · MFG PART · NUMBER · PART · DESCRIPTION · MFG · Philips · 2222-630-03561
+- **Title block:** (26, 403)–(135, 428) mm: WAAD-BECK · systems LTD;
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p30 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p30%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p30 (traced).dxf`).
+
+### Page 31
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–421 mm up
+- **Outlines:** line 36 rings, 685 straight (3,640 mm) / 83 curved (132 mm); text 411 rings, 3,122 straight (3,545 mm) / 875 curved (1,363 mm); tb 5 rings, 28 straight (25.2 mm) / 10 curved (10.2 mm)
+- **Words (OCR):** 50 in 33 lines: WARD-BECK SYSTems LTD · PARTS LiST · 4-110 · PREAMP/HIGH-PASS · FILTER · PART DESCRIPTION · MFG · MFG PART NUMBER · 1/4w · Philips · RIL · Resistor
+- **Title block:** (28, 54)–(137, 427) mm: WARD-BECK SYSTems LTD · 4-110 · PART DESCRIPTION · 1/4w · RIL · Resistor · R15 · R16 · 2i · Integrated Circuit · Selected t0 · WBS recommends the usc · manufacturers for continued
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p31 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p31%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p31 (traced).dxf`).
+
+### Page 32
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–309 mm across, 20–424 mm up
+- **Outlines:** line 21 rings, 595 straight (2,756 mm) / 57 curved (87.8 mm); text 96 rings, 855 straight (1,042 mm) / 194 curved (317 mm); tb 1 rings, 3 straight (2.9 mm) / 1 curved (1.3 mm)
+- **Words (OCR):** 9 in 5 lines: WAAD-BECK SYSTEMS LTD · 4-126 · EQUAL IZER FILTER AMPLIFIER · ISSUE · SEPTEMBER 1983
+- **Title block:** (20, 43)–(258, 432) mm: WAAD-BECK SYSTEMS LTD · 4-126 · EQUAL IZER FILTER AMPLIFIER · ISSUE
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p32 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p32%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p32 (traced).dxf`).
+
+### Page 33
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–324 mm across, 0–424 mm up
+- **Outlines:** line 28 rings, 570 straight (3,056 mm) / 46 curved (71.0 mm); text 1,835 rings, 12,777 straight (14,132 mm) / 3,943 curved (6,139 mm); tb 23 rings, 197 straight (440 mm) / 50 curved (67.9 mm)
+- **Words (OCR):** 239 in 104 lines: SYSTEMS LTD · WARD-BECK · CiRcuIT DESCRIPTION · 4-126 EQUAL IZER · FILTER AMPLIFIER · The 4-126 equalizer filter · amplifier is · circuit board · printed · utilized as an · internal component · in certain WBS 460 series
+- **Title block:** (19, 183)–(265, 432) mm: SYSTEMS LTD · WARD-BECK · CiRcuIT DESCRIPTION · 4-126 EQUAL IZER · FILTER AMPLIFIER · The 4-126 equalizer filter · amplifier is · printed · utilized as an · internal component · in certain WBS 460 ser
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p33 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p33%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p33 (traced).dxf`).
+
+### Page 34
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–303 mm across, 0–413 mm up
+- **Outlines:** line 68 rings, 1,029 straight (3,893 mm) / 126 curved (192 mm); text 1,375 rings, 9,775 straight (10,880 mm) / 3,137 curved (4,963 mm)
+- **Words (OCR):** 165 in 130 lines: WAAD-BECK SYSTems LTD · PARTS LiST · AMPLIFIER · 4-126 EQUALIZER FILTER · PART DESCRIPTION · MFG · MFG · PART NUMBER · C1 · Capacitor · 6 .8 uF/6 · Kemet
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p34 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p34%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p34 (traced).dxf`).
+
+### Page 35
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–423 mm up
+- **Outlines:** line 150 rings, 1,422 straight (4,116 mm) / 253 curved (388 mm); text 455 rings, 3,553 straight (4,080 mm) / 1,093 curved (1,682 mm)
+- **Words (OCR):** 92 in 82 lines: PARTS LIST · 4-126 EQUALIZER FICTER AMPLIFIER · MFG · MFG · PART NUMBER · PART DESCR IPTION · R1 · Resistor · 1/Lw 5% 10k · Philips · R2 · 10K
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p35 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p35%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p35 (traced).dxf`).
+
+### Page 36
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–325 mm across, 0–423 mm up
+- **Outlines:** line 54 rings, 1,000 straight (3,682 mm) / 132 curved (226 mm); text 466 rings, 3,614 straight (4,302 mm) / 998 curved (1,567 mm); tb 18 rings, 92 straight (92.3 mm) / 26 curved (38.3 mm)
+- **Words (OCR):** 62 in 46 lines: WAAD-BECK Systems LTD · PARTS LiST · 4-126 EQUAL IZER FILTER · AMPLIFIER · PART DESCRIPTION · MFG PART · NUMBER · MFG · R45 · Philips · Resistor · 1/4w59 6K2
+- **Title block:** (23, 48)–(135, 432) mm: WAAD-BECK Systems LTD · PART DESCRIPTION · R45 · Resistor · 1/4w59 6K2 · R46 · delete · R47 · Resistor · 1/4w5% 1m · R48 · R49 · R5O · delete · 21 · Integrated circuit · 22 · 23 · 25 · 26 · 27 · WBS r
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p36 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p36%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p36 (traced).dxf`).
+
+### Page 37
+
+- **Sheet:** layout 460-04-008, size B (assumed) 432 × 318 mm, 2000 × 1472 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 0–312 mm up
+- **Outlines:** line 2,509 rings, 14,220 straight (26,319 mm) / 4,718 curved (5,986 mm); text 1,248 rings, 5,595 straight (4,493 mm) / 2,549 curved (3,001 mm); tb 24 rings, 213 straight (251 mm) / 53 curved (60.1 mm)
+- **Circles and arcs:** 43 circles, 0 arcs; largest r 6.7 @ (191.0, 239.1), r 6.2 @ (190.1, 34.1), r 5.7 @ (190.9, 199.2), r 4.7 @ (190.3, 80.6)
+- **Closed boxes:** 26 (3 in the title block); named: SELECTOR swi Ech Sw sOurcc crcphane Jire; #igh RO: conlinucu frequencics Enepe joi; controi Riz: Provides Jaus " 30 dB Icyc!; with Sritch depressed output; R13/14; contcol cutpur; siana (POst) (PRE) PriOr channc Fader; Alcws Switch chodse poinc prior (Post) J; FOLORACK ther SEch depressed; outout; REV SEnD Level 317/182 buses; REV SEND Shio depressed OUCCU [; PRE /Post Svitcn 4ows chcose igna (PaB) ; sectido, Con Trom braticr correr From An
+- **Dots (junctions):** 14
+- **Words (OCR):** 195 in 159 lines: SELECTOR swi Ech Sw · crcphane Jirect mucrcohant · sOurcc · M4604 · Feed. · (PAD OFF · PHASE · wner · Ehi ; · sritch wi · #igh · Enepe cer
+- **Title block:** (350, 0)–(432, 35) mm: WBS WARD-BeCk SYSTEms · M460A · Ruh · INPUT MODULE · FRONT · PANEL · SCALE · ISSUE · 460-04-008
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p37 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p37%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p37 (traced).dxf`).
+
+### Page 38
+
+- **Sheet:** functional 460-01-002, size B (assumed) 432 × 280 mm, 2000 × 1299 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–258 mm up
+- **Outlines:** line 293 rings, 4,623 straight (11,186 mm) / 632 curved (928 mm); text 569 rings, 3,791 straight (4,167 mm) / 1,151 curved (1,681 mm); tb 12 rings, 272 straight (616 mm) / 22 curved (34.6 mm)
+- **Centre lines:** 5,569 paths (115 closed); straight 8,747 mm, curved 204 mm; horizontal 3,613 mm, vertical 2,274 mm, diagonal 2,860 mm
+- **Circles and arcs:** 13 circles, 21 arcs; largest r 3.0 @ (234.0, 185.1), r 1.5 @ (72.2, 207.8), r 1.4 @ (75.6, 202.9), r 1.3 @ (71.5, 214.5)
+- **Closed boxes:** 38 (30 in the title block); named: 4-126
+- **Words (OCR):** 93 in 84 lines: SENSITIVITY · DIRECT OUTPut · LINE · 30 dB · E Q · PAN · 10 dBm · LINE IN · INSERT · INSERT · ~20/+10 dBm · CHAN
+- **Title block:** (143, 4)–(384, 57) mm: Iss MOD  CKD. · USED ON · MATL · WBS WARD-BeCK BYSTEMS LTD_ · 3540 · DRN DNM · M46OA · FINISH · DATE 8 DEC 76 · INPUT MODULE · CKDReel · FUNCTIONAL DIAGRAM · SCALE · TOLS_ · 460 _ 01-002
+- **Wiring (first pass):** 171 connected wire groups from 380 runs; labelled ends: 162 mm → PFL; 126 mm → PRE /Post; 119 mm → CONTROL; 59 mm → PAN, INSERT, DIRECT OUTPut; 53 mm → 8-109, PRE /Post
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p38 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p38%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p38 (traced).dxf`).
+
+### Page 39
+
+- **Sheet:** schematic B460 02 012, size B 432 × 140 mm, 2000 × 646 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–138 mm up
+- **Outlines:** line 1,745 rings, 16,252 straight (21,404 mm) / 3,315 curved (3,646 mm); text 62 rings, 387 straight (277 mm) / 92 curved (97.4 mm)
+- **Centre lines:** 20,796 paths (494 closed); straight 14,042 mm, curved 72.6 mm; horizontal 5,068 mm, vertical 4,068 mm, diagonal 4,906 mm
+- **Circles and arcs:** 0 circles, 22 arcs
+- **Closed boxes:** 40
+- **Dots (junctions):** 2
+- **Words (OCR):** 9 in 9 lines: 77 · RjLO · 82-1' · NOTES · 4ors · P EFR · 705 · Coutvo- · 4c
+- **Wiring (first pass):** 180 connected wire groups from 1,189 runs, 1 dotted junctions; labelled ends: 77 mm → 82-1'; 71 mm → 77; 24 mm → 82-1'; 18 mm → 705; 17 mm → 4c
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p39 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p39%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p39 (traced).dxf`).
+
+### Page 40
+
+- **Sheet:** drawing, size B (assumed) 432 × 273 mm, 2000 × 1264 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–267 mm up
+- **Outlines:** line 754 rings, 5,935 straight (9,801 mm) / 1,269 curved (1,727 mm); text 1,168 rings, 7,237 straight (7,021 mm) / 2,511 curved (3,078 mm); tb 9 rings, 79 straight (138 mm) / 14 curved (17.9 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 3.0 @ (260.0, 228.0), r 1.6 @ (204.2, 200.1), r 1.6 @ (168.5, 174.4), r 1.6 @ (107.3, 200.5)
+- **Closed boxes:** 21; named: Swnol OTHEP Side Shi9; SWG OTHER Side Swib; EC4LL
+- **Dots (junctions):** 2
+- **Words (OCR):** 168 in 129 lines: Szw · Rios · Swis Swia Swi3 · Swnol Sw? · OTHEP · OTHER · SWG Sws Sw4 · Sh3 · Sw2 · Side · Side · Rio
+- **Title block:** (348, 15)–(411, 31) mm: WBS WARD Beck BYATEmb LTD · DAN · M460_
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p40 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p40%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p40 (traced).dxf`).
+
+### Page 41
+
+- **Sheet:** layout 460-04-004, size B (assumed) 432 × 281 mm, 2000 × 1302 px traced (0.216 mm/px)
+- **Ink extent:** 8–432 mm across, 0–272 mm up
+- **Outlines:** line 220 rings, 2,875 straight (7,236 mm) / 366 curved (519 mm); text 828 rings, 5,337 straight (6,251 mm) / 1,648 curved (2,350 mm); tb 27 rings, 301 straight (585 mm) / 54 curved (70.7 mm)
+- **Closed boxes:** 83 (32 in the title block); named: K9; 10; 10; R|14; WI 19
+- **Words (OCR):** 162 in 119 lines: P2 · Mic · MIC · NC · NC · NC · MIC SHIELD · GND · GND · PA · PA · LEFT OUT
+- **Title block:** (142, 4)–(422, 56) mm: Iss MOD.  CKD · USED OM · MATL_ · WES WARD-BECK SYSTEMS LTD · 37131520 · DRN: · ML6OA · FIMISH · DATE JAN 77 · NPUT MODULE · CKD · CONNECTOR REAR VIEW · SCALE · TOLS · ISS_ · 460-04-004
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p41 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p41%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p41 (traced).dxf`).
+
+### Page 42
+
+- **Sheet:** drawing, size B (assumed) 432 × 309 mm, 2000 × 1432 px traced (0.216 mm/px)
+- **Ink extent:** 13–432 mm across, 0–299 mm up
+- **Outlines:** line 332 rings, 3,688 straight (9,412 mm) / 844 curved (1,208 mm); text 412 rings, 2,353 straight (2,175 mm) / 894 curved (1,129 mm); tb 43 rings, 528 straight (1,221 mm) / 84 curved (100 mm)
+- **Closed boxes:** 4
+- **Words (OCR):** 96 in 89 lines: E3 · +i8 v · C3 · 390 · iolzs · Ri7 · Ris · 4k7 · 22 · 32 · Ph3C45 · 202102
+- **Title block:** (348, 0)–(432, 41) mm: Date · WBS WA RD-BECK ByotemB · 8 -10? · CKD: Rul · BOOSTER AMPLIFIER · ScHEMATiC · SCALE · ISSUE · -109 02-001
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p42 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p42%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p42 (traced).dxf`).
+
+### Page 43
+
+- **Sheet:** component layout 8-109-06-001, size B (assumed) 432 × 308 mm, 2000 × 1426 px traced (0.216 mm/px)
+- **Ink extent:** 6–432 mm across, 0–282 mm up
+- **Outlines:** line 228 rings, 3,046 straight (6,966 mm) / 763 curved (840 mm); text 807 rings, 7,270 straight (7,910 mm) / 1,930 curved (2,283 mm); tb 118 rings, 720 straight (909 mm) / 172 curved (172 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 9.2 @ (72.7, 215.0), r 8.7 @ (73.1, 111.7), r 8.5 @ (21.0, 112.0), r 8.5 @ (20.3, 215.2)
+- **Closed boxes:** 8 (7 in the title block); named: 0E7 E2 ~Ci33/12 33/1 E16 ~RIG 22k 441k 4
+- **Words (OCR):** 110 in 101 lines: 0E7 · E2 · ~Ci33/12 · 33/1 · E16 · ~RIG 22k · 441k · R2_ · 47k · ~Ri8 2ek · RS · GK2
+- **Title block:** (133, 2)–(432, 135) mm: WBS · ES · 8-109 · z2o/i2c16+ · Ielul 84 · Ecol93 4047 · ~R36 4k7 · ~R374k7 · 4008 · ISSUE |DATE · REVISION · APP · EG · WBS WARD-BECK SYSTEMS · DRN. GEB · 8 ~ 109 · ENG.MRW 4/78 · BOOSTER AMPLIFIER ·
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p43 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p43%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p43 (traced).dxf`).
+
+### Page 44
+
+- **Sheet:** schematic 8-109 02-002, size B (assumed) 432 × 320 mm, 2000 × 1483 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–308 mm up
+- **Outlines:** line 365 rings, 4,205 straight (10,298 mm) / 862 curved (1,209 mm); text 423 rings, 2,554 straight (2,387 mm) / 934 curved (1,204 mm); tb 16 rings, 155 straight (224 mm) / 29 curved (37.9 mm)
+- **Centre lines:** 6,340 paths (108 closed); straight 7,489 mm, curved 363 mm; horizontal 3,055 mm, vertical 1,837 mm, diagonal 2,596 mm
+- **Circles and arcs:** 8 circles, 58 arcs; largest r 4.5 @ (184.6, 278.6), r 4.4 @ (152.5, 115.7), r 4.4 @ (216.9, 214.5), r 4.2 @ (216.7, 271.5)
+- **Closed boxes:** 10 (3 in the title block); named: revision
+- **Words (OCR):** 100 in 97 lines: E3 · +18v · +21.5v · C3 · 390 · 10/zs · Ri7 · Ris · 22 · 02 · PN3C45 · 2N2i02
+- **Title block:** (351, 0)–(422, 42) mm: Issu Date · revision · WBS · 8 - 109 · Output AMPLIFIER · SCHEMATiC · SCALE · 8-109-02-002
+- **Wiring (first pass):** 60 connected wire groups from 396 runs; labelled ends: 202 mm → R2s, 4k7; 170 mm → 8k, cic, 4.7p; 154 mm → Rzo, V2 w, R34, R3; 152 mm → R32, 6.8, V2 w, R35; 145 mm → Lf3s6, T8v, c4, 10/2s
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p44 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p44%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p44 (traced).dxf`).
+
+### Page 45
+
+- **Sheet:** component layout 8-109-06-002, size B (assumed) 432 × 314 mm, 2000 × 1452 px traced (0.216 mm/px)
+- **Ink extent:** 11–432 mm across, 0–299 mm up
+- **Outlines:** line 213 rings, 2,638 straight (6,936 mm) / 579 curved (668 mm); text 783 rings, 7,684 straight (8,588 mm) / 1,894 curved (2,336 mm); tb 31 rings, 447 straight (720 mm) / 65 curved (71.8 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 9.8 @ (82.2, 228.1), r 9.7 @ (82.8, 117.9), r 9.7 @ (26.4, 228.0), r 9.2 @ (26.9, 118.2)
+- **Closed boxes:** 10 (7 in the title block); named: E2 33/10 23/6 #C2 Eie ~ci ~Cb-8p ~Ri #41; 2i LF356; z2 Lf356
+- **Words (OCR):** 112 in 99 lines: E2 · Eie ~ci · 33/10 #C2 · 23/6 · ~Cb-8p ~RI6 22k · ~Ri #41K CR2 · 47k · 22k · RS 30K · ~Ris · ~R2z 4K7 · R2i 4K7
+- **Title block:** (147, 2)–(432, 143) mm: ES6 · WBS · 8-109 · zzolec16 - · ~ci5+ · 22o/0 · ~~R374K7 · ISSUE DATE · REVISION · APPE · E6 · WBS WARD-BECK SYBTEMS · DRN: GEB · 8 = 109A · ENG.MRW 4/78 · OUTPUT · AMPLIFIER · CKDRr4 · COMPONENT LAY
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p45 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p45%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p45 (traced).dxf`).
+
+### Page 46
+
+- **Sheet:** schematic 4-110-02-001, size B (assumed) 432 × 282 mm, 2000 × 1306 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–271 mm up
+- **Outlines:** line 220 rings, 5,309 straight (12,354 mm) / 681 curved (1,115 mm); text 768 rings, 6,327 straight (8,071 mm) / 1,893 curved (3,082 mm); tb 80 rings, 669 straight (961 mm) / 132 curved (193 mm)
+- **Centre lines:** 6,908 paths (106 closed); straight 12,590 mm, curved 278 mm; horizontal 4,618 mm, vertical 2,549 mm, diagonal 5,423 mm
+- **Circles and arcs:** 5 circles, 26 arcs; largest r 6.7 @ (197.9, 231.1), r 6.4 @ (154.9, 221.2), r 6.3 @ (87.3, 190.9), r 6.2 @ (198.0, 132.6)
+- **Closed boxes:** 27 (24 in the title block)
+- **Words (OCR):** 132 in 111 lines: PRE AMPLIFIER · HIGH · PASS FILTER · E4 · +21v · C6 · RA · R5 · C12 · R2 · 22k · 18
+- **Title block:** (140, 5)–(383, 58) mm: RIG,Ci6,05,21 · ISS MOD  CKD: · USED ON · MATL_ · 4410 · WBS WARD-BECK SYSTEMB LTD_ · laodk · Ro · 4-110 · FINISH · 8MARZ4 · PRE-AMP/HP FILTER · CKD · 14 · Jiuv · Rc · SCHEMATIC · SCALE · TOLS
+- **Wiring (first pass):** 58 connected wire groups from 286 runs; labelled ends: 661 mm → R2, 2N5209, Itcie, RA; 339 mm → C12, 33/10, Q4, 2N4403; 286 mm → 028, *C1O, Ris, 470k; 218 mm → COMPONENT, E9, -21v; 206 mm → Ru, 1k5, RI2, 150
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p46 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p46%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p46 (traced).dxf`).
+
+### Page 47
+
+- **Sheet:** drawing, size B (assumed) 432 × 339 mm, 2000 × 1571 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–334 mm up
+- **Outlines:** line 362 rings, 4,915 straight (10,402 mm) / 1,029 curved (2,026 mm); text 442 rings, 3,442 straight (4,306 mm) / 948 curved (1,626 mm); tb 25 rings, 195 straight (330 mm) / 25 curved (34.8 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 10.7 @ (134.9, 192.1), r 10.7 @ (169.9, 151.4), r 10.7 @ (267.4, 178.5), r 10.7 @ (170.2, 191.6)
+- **Closed boxes:** 19 (2 in the title block); named: MaTL _; USED On; NL
+- **Words (OCR):** 38 in 31 lines: 28 · 339K · 248 · 8383 · 22/12 · 467 · 470k · 33/18 · NQTES · ComponenTs Ce,C9, Cio SELECTED · To · PRiOR
+- **Title block:** (283, 3)–(388, 50) mm: WBS WARD-BECK · DRN · 4-110 · DatE_IOJUNZ · PRE-AMP/HP FILTER · CKD · COMPONENT LAYOUT · SCALE · TOLs · 4-110-06-001
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p47 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p47%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p47 (traced).dxf`).
+
+### Page 48
+
+- **Sheet:** schematic 4-126-02-001, size B (assumed) 432 × 306 mm, 2000 × 1416 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 0–306 mm up
+- **Outlines:** line 869 rings, 7,376 straight (13,683 mm) / 1,614 curved (2,075 mm); text 537 rings, 3,196 straight (3,118 mm) / 1,145 curved (1,551 mm); tb 10 rings, 79 straight (147 mm) / 16 curved (25.6 mm)
+- **Centre lines:** 8,516 paths (116 closed); straight 9,876 mm, curved 314 mm; horizontal 3,692 mm, vertical 2,324 mm, diagonal 3,860 mm
+- **Circles and arcs:** 13 circles, 89 arcs; largest r 1.6 @ (139.5, 167.7), r 1.5 @ (336.9, 270.8), r 1.5 @ (276.6, 42.6), r 1.5 @ (307.4, 158.7)
+- **Closed boxes:** 17; named: USEd OH
+- **Dots (junctions):** 2
+- **Words (OCR):** 104 in 91 lines: (6khz · 23 < Hz · (~CC -= S<-7 · 23 · RA · 773/6 · 221 · 222 · 06 · 280 · YALLS · 6*85
+- **Title block:** (347, 14)–(411, 31) mm: WBS · WAAD-BeCK BYBTEMD LTD · 223 · 4-126
+- **Wiring (first pass):** 101 connected wire groups from 763 runs, 2 dotted junctions; labelled ends: 313 mm → USEd OH, WBS; 194 mm → R33, 6k2, 210, '023; 179 mm → iop; 122 mm → 317, 22<, 313, 218; 107 mm → RA, 221, 773/6
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p48 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p48%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p48 (traced).dxf`).
+
+### Page 49
+
+- **Sheet:** component layout 4-126-06-001, size B (assumed) 432 × 360 mm, 2000 × 1665 px traced (0.216 mm/px)
+- **Ink extent:** 6–432 mm across, 0–342 mm up
+- **Outlines:** line 395 rings, 5,920 straight (13,227 mm) / 1,431 curved (1,564 mm); text 577 rings, 5,800 straight (6,156 mm) / 1,611 curved (1,988 mm); tb 59 rings, 541 straight (671 mm) / 154 curved (180 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 4.8 @ (305.0, 221.4), r 4.7 @ (344.9, 324.7), r 4.7 @ (196.9, 206.2), r 4.6 @ (197.5, 115.8)
+- **Closed boxes:** 30 (21 in the title block)
+- **Words (OCR):** 81 in 72 lines: E3 · E2 · C6 · 25 · R2o · R1?cig C18 · C21 R2i R14 · R24 · R18 · R3 · E4 · 21
+- **Title block:** (170, 2)–(423, 53) mm: ISS NOo [cKD · USED_Oh · WBS · WAAD-DECk systems · BD · Dm · 4-126 · ML · MIMISH · EQUALIZER FILTER · ckd · COMPONENTASSEMBLY · SCALE · TOLS · 4-126-06-001
+
+Every curve, box, word and wire group: [1976 - M460A - Input Module p49 (traced).json](1976%20-%20M460A%20-%20Input%20Module%20p49%20%28traced%29.json) (the CAD file: `1976 - M460A - Input Module p49 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

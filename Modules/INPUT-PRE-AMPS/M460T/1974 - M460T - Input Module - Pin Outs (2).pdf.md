@@ -12,6 +12,28 @@ Wiki page: [M460T](../../../PAGES/M460T.md)
 - **Pages:** 2
 - **PDF created (scan date, not design date):** Wed Aug 20 23:43:40 2003 EDT
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 298 × 432 mm, 1379 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–298 mm across, 4–428 mm up
+- **Outlines:** line 534 rings, 7,361 straight (12,649 mm) / 1,550 curved (1,771 mm)
+- **Closed boxes:** 39
+- **Words (OCR):** 4 in 4 lines: ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1974 - M460T - Input Module - Pin Outs (2) p1 (traced).json](1974%20-%20M460T%20-%20Input%20Module%20-%20Pin%20Outs%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1974 - M460T - Input Module - Pin Outs (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 304 × 432 mm, 1409 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–303 mm across, 2–427 mm up
+- **Outlines:** line 524 rings, 7,224 straight (12,183 mm) / 1,565 curved (1,813 mm); text 1 rings, 5 straight (2.8 mm) / 1 curved (1.5 mm)
+- **Closed boxes:** 42
+- **Words (OCR):** 4 in 4 lines: ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1974 - M460T - Input Module - Pin Outs (2) p2 (traced).json](1974%20-%20M460T%20-%20Input%20Module%20-%20Pin%20Outs%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1974 - M460T - Input Module - Pin Outs (2) p2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

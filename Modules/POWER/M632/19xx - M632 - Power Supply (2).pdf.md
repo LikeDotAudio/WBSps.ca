@@ -12,6 +12,105 @@ Wiki page: [M632](../../../PAGES/M632.md)
 - **Pages:** 8
 - **PDF created (scan date, not design date):** Thu Nov  2 21:49:57 2006 EST
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 329 × 432 mm, 1524 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–323 mm across, 4–429 mm up
+- **Outlines:** line 100 rings, 1,745 straight (3,939 mm) / 315 curved (513 mm); text 68 rings, 862 straight (1,274 mm) / 204 curved (364 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.9 @ (143.8, 233.1)
+- **Closed boxes:** 1
+- **Words (OCR):** 17 in 10 lines: WARD-BECK SYSTE MS LTD · [W'El5) PI'ICGl'I!SII_...... ~ONT........c -eeeo · 2)(.A · "TE.EX:08!5-1la:JiIIlI · M632 · POWER SUPPLY · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [19xx - M632 - Power Supply (2) p1 (traced).json](19xx%20-%20M632%20-%20Power%20Supply%20%282%29%20p1%20%28traced%29.json) (the CAD file: `19xx - M632 - Power Supply (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 329 × 432 mm, 1524 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–322 mm across, 20–422 mm up
+- **Outlines:** line 260 rings, 2,709 straight (5,231 mm) / 632 curved (987 mm); text 743 rings, 5,408 straight (5,893 mm) / 1,613 curved (2,534 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.2 @ (159.6, 363.0), r 2.2 @ (44.0, 169.7), r 1.7 @ (257.6, 302.3), r 1.7 @ (53.7, 249.3)
+- **Closed boxes:** 1
+- **Dots (junctions):** 2
+- **Words (OCR):** 175 in 71 lines: WAFI · CK SYS EM · TECHNICAL DATA · Regulated Output · Outpu Voltoge · +25 volts de at loed currents from · to · mpe res · Line Regulatld'n · .25~ for lin vari ation · rom 105 to 125 volt · Lo od Regul ation
+
+Every curve, box, word and wire group: [19xx - M632 - Power Supply (2) p2 (traced).json](19xx%20-%20M632%20-%20Power%20Supply%20%282%29%20p2%20%28traced%29.json) (the CAD file: `19xx - M632 - Power Supply (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 329 × 432 mm, 1524 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–326 mm across, 18–422 mm up
+- **Outlines:** line 850 rings, 6,768 straight (9,706 mm) / 1,807 curved (2,834 mm); text 1,242 rings, 8,726 straight (9,484 mm) / 2,747 curved (4,341 mm); tb 81 rings, 569 straight (597 mm) / 166 curved (279 mm)
+- **Circles and arcs:** 16 circles, 0 arcs; largest r 2.2 @ (200.4, 373.8), r 2.2 @ (160.7, 360.0), r 1.8 @ (219.0, 146.5), r 1.7 @ (125.3, 292.4)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 365 in 144 lines: CIRCUIT DESCRIP TION · Tne M632 powe.. ...ppl · I.....eel · In rcom sy.,..... "'llli >:lng · he M70JB and 1147 128 In lercom mod... · le · ne · ma · wind ng of Ine powe I..ansforme.. · 10l · de.l gned for · op
+- **Title block:** (38, 55)–(96, 170) mm: vi · vo · app ea,.. at · in · co llec lor OUlput · 10 · jUft'li:le.. Jl · nd · lo ad dl e<;:tl · Ul · ont in · divide · R4/R · ampe · st'lo.- te · tn · Ov rv tage rotec on · network on · to app ro · r
+
+Every curve, box, word and wire group: [19xx - M632 - Power Supply (2) p3 (traced).json](19xx%20-%20M632%20-%20Power%20Supply%20%282%29%20p3%20%28traced%29.json) (the CAD file: `19xx - M632 - Power Supply (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 329 × 432 mm, 1524 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–302 mm across, 14–422 mm up
+- **Outlines:** line 398 rings, 3,863 straight (6,901 mm) / 923 curved (1,516 mm); text 396 rings, 3,193 straight (3,671 mm) / 917 curved (1,490 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.2 @ (153.5, 356.8), r 2.2 @ (100.6, 330.0), r 1.7 @ (192.3, 109.0), r 1.7 @ (93.6, 209.3)
+- **Dots (junctions):** 1
+- **Words (OCR):** 69 in 51 lines: WA · YSTEMS LTD. · ~AIN FRAM~ · cececnc- 9600 uF/50 · B~idge ~tifi · Pilot Lamp (LEO) · F10l · 2.5A S.B · MOL · F102 · 1o .0A · AGC 10
+
+Every curve, box, word and wire group: [19xx - M632 - Power Supply (2) p4 (traced).json](19xx%20-%20M632%20-%20Power%20Supply%20%282%29%20p4%20%28traced%29.json) (the CAD file: `19xx - M632 - Power Supply (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 329 × 432 mm, 1524 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–323 mm across, 10–423 mm up
+- **Outlines:** line 369 rings, 3,576 straight (6,389 mm) / 862 curved (1,396 mm); text 243 rings, 1,933 straight (2,151 mm) / 558 curved (882 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.3 @ (104.8, 330.2), r 1.7 @ (193.8, 183.2), r 1.7 @ (174.3, 102.8), r 1.7 @ (161.5, 109.5)
+- **Dots (junctions):** 1
+- **Words (OCR):** 84 in 54 lines: WARO-BE · YSTEM · LT · IOt'" · Te · Tt PXl · SCR · MoIOt'Ola · ZN6395 · Re~, tor !4W · R2 · 220
+
+Every curve, box, word and wire group: [19xx - M632 - Power Supply (2) p5 (traced).json](19xx%20-%20M632%20-%20Power%20Supply%20%282%29%20p5%20%28traced%29.json) (the CAD file: `19xx - M632 - Power Supply (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** schematic 632-02-001, size B (assumed) 432 × 287 mm, 2000 × 1329 px traced (0.216 mm/px)
+- **Ink extent:** 6–431 mm across, 1–287 mm up
+- **Outlines:** line 804 rings, 7,712 straight (13,120 mm) / 1,850 curved (2,470 mm); text 241 rings, 1,472 straight (1,346 mm) / 517 curved (665 mm); tb 2 rings, 15 straight (15.0 mm) / 3 curved (3.3 mm)
+- **Centre lines:** 8,301 paths (173 closed); straight 8,678 mm, curved 333 mm; horizontal 3,212 mm, vertical 2,246 mm, diagonal 3,220 mm
+- **Circles and arcs:** 8 circles, 85 arcs; largest r 3.9 @ (175.5, 210.5), r 2.6 @ (274.3, 154.6), r 1.2 @ (244.1, 192.6), r 1.0 @ (322.3, 95.7)
+- **Closed boxes:** 12 (3 in the title block); named: SCAU; 81; 632- 02- 001
+- **Words (OCR):** 101 in 69 lines: "'..-..LL. · AI!"~I~ Nd · ~CIT'OCS · 14I.w~"" · tIt.I>lOAU · ';"--L"'~TC~ ~!tl~ · 4)PC.8 · lc:»olS ARE · C6 .CA3 Q2 IA · tO · RtOt, ....t05,T· · 10
+- **Title block:** (356, 7)–(388, 26) mm: tp · DRH · ht · ENG._". · CKD · SCAU
+- **Wiring (first pass):** 149 connected wire groups from 609 runs; labelled ends: 285 mm → 9.6; 234 mm → 70","W; 188 mm → F'02; 134 mm → l0, 2!:JW; 124 mm → 9.6
+
+Every curve, box, word and wire group: [19xx - M632 - Power Supply (2) p6 (traced).json](19xx%20-%20M632%20-%20Power%20Supply%20%282%29%20p6%20%28traced%29.json) (the CAD file: `19xx - M632 - Power Supply (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** component layout 632-06-002, size B (assumed) 432 × 291 mm, 2000 × 1348 px traced (0.216 mm/px)
+- **Ink extent:** 3–432 mm across, 0–285 mm up
+- **Outlines:** line 781 rings, 8,502 straight (15,204 mm) / 1,466 curved (1,696 mm); text 105 rings, 886 straight (788 mm) / 323 curved (384 mm); tb 14 rings, 164 straight (192 mm) / 39 curved (41.8 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 1.5 @ (243.4, 223.5), r 1.5 @ (156.0, 253.1), r 1.5 @ (195.0, 254.0), r 1.4 @ (21.3, 141.1)
+- **Closed boxes:** 4 (3 in the title block)
+- **Words (OCR):** 24 in 19 lines: Cl0, · PZ · W10l · OSIOI · ps · BS II(VISIOOI · FIOI · APP. · (VVBS] WA~ · DRN.. · tp M632/M632A · ENG.•
+- **Title block:** (332, 11)–(432, 48) mm: BS II(VISIOOI · APP. · (VVBS] WA~ · DRN.. · tp M632/M632A · ENG.• · ht · POWEll SUI'l'lY · CKO. · COMPONENT LAYOUT
+
+Every curve, box, word and wire group: [19xx - M632 - Power Supply (2) p7 (traced).json](19xx%20-%20M632%20-%20Power%20Supply%20%282%29%20p7%20%28traced%29.json) (the CAD file: `19xx - M632 - Power Supply (2) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 432 × 258 mm, 2000 × 1196 px traced (0.216 mm/px)
+- **Ink extent:** 9–432 mm across, 0–251 mm up
+- **Outlines:** line 234 rings, 3,926 straight (9,301 mm) / 660 curved (1,153 mm); text 272 rings, 2,093 straight (2,823 mm) / 581 curved (969 mm); tb 33 rings, 315 straight (531 mm) / 68 curved (129 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 5.1 @ (46.9, 188.7), r 5.1 @ (194.6, 187.8), r 1.8 @ (65.6, 209.2), r 1.5 @ (135.2, 230.2)
+- **Closed boxes:** 12 (6 in the title block); named: (vvss] 9-104 CANADA 1GJ1l Y2w <iJ. --1=<; 1GJ1l t:J; Q1 ~oa TIP; Q2.; ~llO
+- **Dots (junctions):** 1
+- **Words (OCR):** 49 in 43 lines: (vvss] · 9-104 · CANADA · 1GJ1l · Y2w · <iJ. · --1=<3 J..Q..-.. · !/zw · t:J · ADJ · 10JK8 · Q1
+- **Title block:** (264, 4)–(432, 78) mm: hQIIJ~oI · ~llO · ML · ISSUE DATE · REVISION · lAPP. · (\NBS] WARe-BECK SYSTEMS · ps · DRN./?~Jh";£y' · BS · 9-104 · MRW03779 · ENG. · REGULAT0R BOARD · CKD. · IQ.; · COMPONENT · tp LAYOUT · APP. · ht
+
+Every curve, box, word and wire group: [19xx - M632 - Power Supply (2) p8 (traced).json](19xx%20-%20M632%20-%20Power%20Supply%20%282%29%20p8%20%28traced%29.json) (the CAD file: `19xx - M632 - Power Supply (2) p8 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

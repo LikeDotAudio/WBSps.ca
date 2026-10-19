@@ -17,6 +17,253 @@ Wiki page: [M455](../../../PAGES/M455.md)
 
 - **1979** (month): `JAN. 19 79` — …-ponent layout 88 -109 ·06 -004 a .c HANUAllS SUE I Z ps BS JAN. 19 79 W :// tp ht…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–324 mm across, 0–430 mm up
+- **Outlines:** line 139 rings, 2,090 straight (4,722 mm) / 382 curved (601 mm); text 105 rings, 760 straight (1,013 mm) / 124 curved (200 mm); tb 14 rings, 142 straight (182 mm) / 33 curved (53.8 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.9 @ (189.9, 232.7)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 24 in 13 lines: [~El5i] PROGRE_ AVENUl!, BCARBCRCL.lliI- II · WARD -BECK SYSTE · LTD · 8't1 · l:I'lTAAO M1H aX · 'TB..E)( D8l:I · T'£LEF'H[:NI!'''' · M455 · AUXIL IARY MODULE · ps · BS · tp
+- **Title block:** (118, 396)–(206, 421) mm: [~El5i] PROGRE_ AVENUl!, BCARBCRCL.lliI- II · WARD -BECK SYSTE · 8't1
+
+Every curve, box, word and wire group: [1979 - M455 - Auxiliary Module p1 (traced).json](1979%20-%20M455%20-%20Auxiliary%20Module%20p1%20%28traced%29.json) (the CAD file: `1979 - M455 - Auxiliary Module p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–312 mm across, 0–420 mm up
+- **Outlines:** line 268 rings, 2,736 straight (5,543 mm) / 645 curved (1,021 mm); text 362 rings, 2,852 straight (3,238 mm) / 764 curved (1,215 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.9 @ (164.0, 282.3)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 81 in 41 lines: WA · -BE CK SYSTE MS LT · TABLE OF CONTEN TS · /1\455 · AUXILIARY MODULE · Warranty · Technical Oata · Clrc",,1t ue · at · Parts list · 3·1 to 3-3 · 109 Description
+
+Every curve, box, word and wire group: [1979 - M455 - Auxiliary Module p2 (traced).json](1979%20-%20M455%20-%20Auxiliary%20Module%20p2%20%28traced%29.json) (the CAD file: `1979 - M455 - Auxiliary Module p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–310 mm across, 0–418 mm up
+- **Outlines:** line 326 rings, 3,229 straight (6,132 mm) / 790 curved (1,226 mm); text 790 rings, 5,924 straight (6,736 mm) / 1,642 curved (2,581 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 1.9 @ (137.1, 257.4), r 1.9 @ (112.9, 277.2), r 1.9 @ (264.8, 278.3), r 1.9 @ (209.0, 271.2)
+- **Closed boxes:** 3
+- **Dots (junctions):** 1
+- **Words (OCR):** 191 in 75 lines: WAFI · STEMS LTD · TECHHI CAL DATA · M45 AUXILIARY MODULE · Ga in · 33 · o.5 dB. · Fr equen cy Res po nse · dB fro 20 Hz to 20 kHz. · xc · B5 dB be low · dBm nom1na output
+
+Every curve, box, word and wire group: [1979 - M455 - Auxiliary Module p3 (traced).json](1979%20-%20M455%20-%20Auxiliary%20Module%20p3%20%28traced%29.json) (the CAD file: `1979 - M455 - Auxiliary Module p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–312 mm across, 0–431 mm up
+- **Outlines:** line 324 rings, 3,243 straight (6,354 mm) / 766 curved (1,188 mm); text 1,494 rings, 11,735 straight (13,010 mm) / 3,332 curved (5,260 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.9 @ (173.0, 277.3)
+- **Closed boxes:** 2
+- **Words (OCR):** 326 in 77 lines: WA · -BECK SYS · LTD. · CIRCUIT DESCR PTION · 14455 AUX ILIARY MODU LE · The "455 · Is desig ned to · iv · ilIudio ig na · ro an · ,-ux iliary console IIh ng bus uc as the FOl DBACt: · PA bus.
+
+Every curve, box, word and wire group: [1979 - M455 - Auxiliary Module p4 (traced).json](1979%20-%20M455%20-%20Auxiliary%20Module%20p4%20%28traced%29.json) (the CAD file: `1979 - M455 - Auxiliary Module p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–321 mm across, 11–421 mm up
+- **Outlines:** line 382 rings, 3,752 straight (6,667 mm) / 880 curved (1,391 mm); text 305 rings, 2,419 straight (2,721 mm) / 677 curved (1,064 mm)
+- **Closed boxes:** 3
+- **Words (OCR):** 99 in 68 lines: F'lD · CK SYS TE MS LTD. · PARTS LIST · ""55 AUXI LIARY MODULE · PART · DESCRI PTI ON · MFG PART NUMBER · ca · CJ · C4 · CR · OiOd
+
+Every curve, box, word and wire group: [1979 - M455 - Auxiliary Module p5 (traced).json](1979%20-%20M455%20-%20Auxiliary%20Module%20p5%20%28traced%29.json) (the CAD file: `1979 - M455 - Auxiliary Module p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 0–421 mm up
+- **Outlines:** line 254 rings, 2,629 straight (5,740 mm) / 578 curved (877 mm); text 397 rings, 3,149 straight (3,570 mm) / 1,000 curved (1,578 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.9 @ (102.4, 311.7)
+- **Closed boxes:** 17
+- **Words (OCR):** 98 in 52 lines: WA~ · ECK YSTEM LT · PARTS LIST · 14455 AUX LIARY MODULE · PART · DESCR IPTION · HFG PART NUMBER · Resi or lrll 5S · JOO · JOO · JOO · RJO
+
+Every curve, box, word and wire group: [1979 - M455 - Auxiliary Module p6 (traced).json](1979%20-%20M455%20-%20Auxiliary%20Module%20p6%20%28traced%29.json) (the CAD file: `1979 - M455 - Auxiliary Module p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 0–422 mm up
+- **Outlines:** line 98 rings, 1,256 straight (3,649 mm) / 200 curved (324 mm); text 37 rings, 265 straight (339 mm) / 81 curved (131 mm)
+- **Words (OCR):** 15 in 8 lines: AR · CK SYS EMS LTC · 109 AMPLI FI ER SERIES · ps · BS · tp · ht · 109
+
+Every curve, box, word and wire group: [1979 - M455 - Auxiliary Module p7 (traced).json](1979%20-%20M455%20-%20Auxiliary%20Module%20p7%20%28traced%29.json) (the CAD file: `1979 - M455 - Auxiliary Module p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 0–422 mm up
+- **Outlines:** line 722 rings, 5,379 straight (8,368 mm) / 1,412 curved (2,282 mm); text 830 rings, 5,657 straight (6,165 mm) / 1,714 curved (2,724 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 2.1 @ (191.7, 369.0), r 1.7 @ (255.8, 122.2), r 1.7 @ (197.8, 295.2), r 1.7 @ (224.0, 295.3)
+- **Closed boxes:** 1
+- **Dots (junctions):** 6
+- **Words (OCR):** 233 in 95 lines: Fl · CI< VSTEMS LTD · 10 AMPL IFI ER SERI ES · The · 8-109 ser ies · amQllfie..... are utili zed as an inte"" · componen · in var iou · was ser ie · of aud io console modules · Each · 8-109
+
+Every curve, box, word and wire group: [1979 - M455 - Auxiliary Module p8 (traced).json](1979%20-%20M455%20-%20Auxiliary%20Module%20p8%20%28traced%29.json) (the CAD file: `1979 - M455 - Auxiliary Module p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–327 mm across, 15–422 mm up
+- **Outlines:** line 662 rings, 5,025 straight (7,566 mm) / 1,479 curved (2,288 mm); text 1,299 rings, 8,941 straight (9,638 mm) / 2,742 curved (4,330 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 2.1 @ (177.6, 103.6), r 2.1 @ (47.4, 330.5), r 2.1 @ (160.9, 183.5), r 1.7 @ (195.5, 142.7)
+- **Dots (junctions):** 5
+- **Words (OCR):** 337 in 156 lines: Fl · CK · STEMS LTO · 109 AMPLIF IE SERIES · Ou tpu L.e vel · +30 dBm max Imum · Pow · ReQ ui me ts · 21 · vo tl dc, 18 rnA Quie5C.. nt Cu · nl · mA "II +30 dB
+
+Every curve, box, word and wire group: [1979 - M455 - Auxiliary Module p9 (traced).json](1979%20-%20M455%20-%20Auxiliary%20Module%20p9%20%28traced%29.json) (the CAD file: `1979 - M455 - Auxiliary Module p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–327 mm across, 0–432 mm up
+- **Outlines:** line 520 rings, 5,058 straight (8,516 mm) / 1,270 curved (1,960 mm); text 409 rings, 3,105 straight (3,626 mm) / 900 curved (1,431 mm)
+- **Closed boxes:** 12
+- **Dots (junctions):** 1
+- **Words (OCR):** 139 in 93 lines: WARD -BEC SYS TE · LTD. · PARTS LIS · 109 AHPLIFIER SERIES · 109 · PART · DESCRI PTI ON · Mro · HFG PART NUH8ER · CI · Capa~1tor 33 · I(ellet
+
+Every curve, box, word and wire group: [1979 - M455 - Auxiliary Module p10 (traced).json](1979%20-%20M455%20-%20Auxiliary%20Module%20p10%20%28traced%29.json) (the CAD file: `1979 - M455 - Auxiliary Module p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–432 mm up
+- **Outlines:** line 311 rings, 3,075 straight (6,379 mm) / 693 curved (1,072 mm); text 309 rings, 2,416 straight (2,751 mm) / 740 curved (1,146 mm)
+- **Closed boxes:** 17
+- **Dots (junctions):** 1
+- **Words (OCR):** 77 in 56 lines: WARD -SECK SYS · LTD. · PARTS LI ST · 109 AMPLI FIE SERIE · !.:.!.Q.i · PART · DESCRIPTION · HFG · HFG · PART NUMB ER · R4 · Res !tor
+
+Every curve, box, word and wire group: [1979 - M455 - Auxiliary Module p11 (traced).json](1979%20-%20M455%20-%20Auxiliary%20Module%20p11%20%28traced%29.json) (the CAD file: `1979 - M455 - Auxiliary Module p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–307 mm across, 8–416 mm up
+- **Outlines:** line 484 rings, 5,112 straight (8,568 mm) / 1,176 curved (1,823 mm); text 267 rings, 1,997 straight (2,267 mm) / 591 curved (916 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.9 @ (94.7, 46.0)
+- **Closed boxes:** 8; named: PTION
+- **Dots (junctions):** 1
+- **Words (OCR):** 106 in 62 lines: WAI=lD -BE CK · MS LTD · PARTS LI ST · ID9 AMPLIF IER SERIES · PART · DESCRI PTION · MFG PART NUMBER · R36 · R37 · 38 · let · Zl
+
+Every curve, box, word and wire group: [1979 - M455 - Auxiliary Module p12 (traced).json](1979%20-%20M455%20-%20Auxiliary%20Module%20p12%20%28traced%29.json) (the CAD file: `1979 - M455 - Auxiliary Module p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 27–332 mm across, 9–424 mm up
+- **Outlines:** line 241 rings, 3,055 straight (6,237 mm) / 611 curved (957 mm); text 590 rings, 4,607 straight (5,289 mm) / 1,287 curved (2,004 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.9 @ (96.2, 217.6)
+- **Closed boxes:** 4
+- **Dots (junctions):** 2
+- **Words (OCR):** 125 in 71 lines: WARO · CK YS TEMS · 109 AMPLIFIER SERIES · Al pa ts as pe · -109 xcep as noted below · PART · OESCRIPTION · MFG · MFG PART NUMB ER · gl · pa 1t · pF
+
+Every curve, box, word and wire group: [1979 - M455 - Auxiliary Module p13 (traced).json](1979%20-%20M455%20-%20Auxiliary%20Module%20p13%20%28traced%29.json) (the CAD file: `1979 - M455 - Auxiliary Module p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–325 mm across, 0–432 mm up
+- **Outlines:** line 314 rings, 3,583 straight (7,326 mm) / 784 curved (1,219 mm); text 339 rings, 2,668 straight (2,998 mm) / 762 curved (1,202 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.9 @ (198.5, 64.4), r 1.9 @ (73.5, 71.6)
+- **Closed boxes:** 2
+- **Words (OCR):** 101 in 40 lines: WAI=ID · ECK · MS LTD. · PARTS LI ST · -109 AMPLIF IER SERI ES · Al pa rts as per · 109 except IS note be low · PART · DESCRIPTION · MFG PART NUMBER · gl · ft or
+
+Every curve, box, word and wire group: [1979 - M455 - Auxiliary Module p14 (traced).json](1979%20-%20M455%20-%20Auxiliary%20Module%20p14%20%28traced%29.json) (the CAD file: `1979 - M455 - Auxiliary Module p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 395 × 432 mm, 1830 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–395 mm across, 0–411 mm up
+- **Outlines:** line 419 rings, 6,143 straight (10,430 mm) / 1,223 curved (1,762 mm); text 181 rings, 1,289 straight (1,323 mm) / 384 curved (538 mm); tb 46 rings, 535 straight (645 mm) / 134 curved (179 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 11.0 @ (197.8, 192.4), r 6.5 @ (199.0, 358.9), r 3.2 @ (171.2, 249.3), r 3.2 @ (171.4, 278.7)
+- **Closed boxes:** 11 (5 in the title block); named: AU' EXT; Meter: Indica tes VU eve of utp ut na
+- **Dots (junctions):** 3
+- **Words (OCR):** 70 in 47 lines: modU~ · VU · Meter: · Indica tes · eve · of · utp ut · na · When · deo- · meter · AU'
+- **Title block:** (256, 3)–(395, 71) mm: BS REVISION · ISSlI: oAn · (VVE3S) WARD-BECK SYSTEMS · ORN.:Y 1'It4~ · tp · M455 · 'NC. ht AUXILIARY t.'DDUlE · CKD.1?;h.. · FRONT PANEl · APP.~. · AI 55-0 4-0 · rs SUE · "$CAl.'
+
+Every curve, box, word and wire group: [1979 - M455 - Auxiliary Module p15 (traced).json](1979%20-%20M455%20-%20Auxiliary%20Module%20p15%20%28traced%29.json) (the CAD file: `1979 - M455 - Auxiliary Module p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 432 × 276 mm, 2000 × 1279 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–263 mm up
+- **Outlines:** line 123 rings, 2,514 straight (6,050 mm) / 349 curved (540 mm); text 245 rings, 1,727 straight (2,148 mm) / 463 curved (743 mm); tb 135 rings, 1,232 straight (1,821 mm) / 300 curved (502 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.0 @ (188.3, 166.6)
+- **Closed boxes:** 10 (6 in the title block); named: 8-109C WAS 4-109C; 7/78
+- **Words (OCR):** 64 in 45 lines: VU · EXT METER INPUT · EXT · +ldBm · 600 OHM · AUX · AUXILIARY INPUT · SWITCHED OUTPUT · -10dBm · +ldBm · 600 OHM · (-ldB)
+- **Title block:** (246, 3)–(432, 94) mm: 11/77 · REDRAWN · 4J'£- · ISSUE DATE · REVISION · APP. · (VVE3S] WARe-BECK SYSTEMS · ca · ps · DRN.:p~J.lo~ · BS · M455 · ENG. · AUXILIARY MODULE · CKD.'K~ · FUNCTIONAL · tp DIAGRAM · APP.~ · ht · ~cA
+
+Every curve, box, word and wire group: [1979 - M455 - Auxiliary Module p16 (traced).json](1979%20-%20M455%20-%20Auxiliary%20Module%20p16%20%28traced%29.json) (the CAD file: `1979 - M455 - Auxiliary Module p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 432 × 330 mm, 2000 × 1528 px traced (0.216 mm/px)
+- **Ink extent:** 7–432 mm across, 0–324 mm up
+- **Outlines:** line 496 rings, 7,447 straight (14,414 mm) / 1,480 curved (2,278 mm); text 649 rings, 4,765 straight (5,640 mm) / 1,550 curved (2,245 mm); tb 9 rings, 64 straight (58.3 mm) / 27 curved (38.0 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.0 @ (416.7, 187.5)
+- **Closed boxes:** 24 (13 in the title block); named: MOD.; 115; "10; DRN.; 14; ~"25; "i'1W( CKD; 3538
+- **Dots (junctions):** 1
+- **Words (OCR):** 178 in 133 lines: J8 · sw2 JIO · 3b · RSS · R3g · E.XTER NAl · ME TER · J7 · 5k · 10 · 9/0 · VU
+- **Title block:** (229, 1)–(340, 44) mm: MOD. CKD. · USED ON · MATl. · "10 · DRN. · 3-*2 · FINISH · DATE OCT. 74 · CKD · "i'1W( · 3538 · SCALE · :iaf:. · TOLS
+
+Every curve, box, word and wire group: [1979 - M455 - Auxiliary Module p17 (traced).json](1979%20-%20M455%20-%20Auxiliary%20Module%20p17%20%28traced%29.json) (the CAD file: `1979 - M455 - Auxiliary Module p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** component layout 32-06-003, size B (assumed) 432 × 347 mm, 2000 × 1608 px traced (0.216 mm/px)
+- **Ink extent:** 9–432 mm across, 0–342 mm up
+- **Outlines:** line 502 rings, 5,572 straight (10,418 mm) / 1,438 curved (1,603 mm); text 644 rings, 4,646 straight (4,620 mm) / 1,244 curved (1,459 mm); tb 12 rings, 138 straight (238 mm) / 15 curved (20.5 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 9.0 @ (217.2, 246.5), r 2.6 @ (188.1, 324.9), r 2.6 @ (308.6, 304.9), r 2.5 @ (309.0, 107.7)
+- **Closed boxes:** 31 (2 in the title block); named: MAT; ISS; KD.; ns,; ,41OJ; PM; 3~.3; SC ALE
+- **Dots (junctions):** 1
+- **Words (OCR):** 109 in 79 lines: lP · vu · R29 · 2PO · -R3()2?° · R27.l° · -R28~ · I3 · l.K2 · R9 · it? · 1£5
+- **Title block:** (300, 12)–(425, 44) mm: (EEIJ WARD-SECK SYSTEMS LTD · tp · DRN. · lYf · M455 · DATE · QEC./ 74 · ht AUXILIARY MODULE · "'I.l-l · CK · COMPONENT LAYOUT
+
+Every curve, box, word and wire group: [1979 - M455 - Auxiliary Module p18 (traced).json](1979%20-%20M455%20-%20Auxiliary%20Module%20p18%20%28traced%29.json) (the CAD file: `1979 - M455 - Auxiliary Module p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 326 × 432 mm, 1512 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–326 mm across, 0–432 mm up
+- **Outlines:** line 550 rings, 7,694 straight (14,251 mm) / 1,760 curved (2,172 mm); text 74 rings, 782 straight (916 mm) / 228 curved (273 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.5 @ (320.3, 208.6)
+- **Closed boxes:** 68; named: It; 14; 515; 16; 17; 18; 19; ps
+- **Dots (junctions):** 1
+- **Words (OCR):** 40 in 32 lines: £IT. HETER · C3 · AVI OUT DIR · rc · rc · tc It · rc · rc · tc · rc · tc · 14
+
+Every curve, box, word and wire group: [1979 - M455 - Auxiliary Module p19 (traced).json](1979%20-%20M455%20-%20Auxiliary%20Module%20p19%20%28traced%29.json) (the CAD file: `1979 - M455 - Auxiliary Module p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 432 × 314 mm, 2000 × 1452 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 0–305 mm up
+- **Outlines:** line 256 rings, 4,128 straight (10,521 mm) / 722 curved (1,060 mm); text 570 rings, 3,110 straight (2,919 mm) / 1,075 curved (1,386 mm); tb 75 rings, 516 straight (471 mm) / 178 curved (230 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.3 @ (217.9, 26.6), r 1.1 @ (87.7, 26.4)
+- **Closed boxes:** 7 (4 in the title block)
+- **Words (OCR):** 135 in 116 lines: E3 · +180v · R'3 · C3 · 10 · K7 · 22 · P\o.l3G.4 · EI · RS · 2N '2102 · G/3
+- **Title block:** (348, 0)–(432, 41) mm: ISSUE DATE · A£VtslON · lAPP. · tp · [\NBS] WARD-BECK SYSTEMS · ht E8 · ORN · 09 · ENG.M RW 4/78 · BOOSTER AM PLIFIER · CKO.rI""",- · SCHEM ATIC · SCALE · rs.... · 8-10 · -00
+
+Every curve, box, word and wire group: [1979 - M455 - Auxiliary Module p20 (traced).json](1979%20-%20M455%20-%20Auxiliary%20Module%20p20%20%28traced%29.json) (the CAD file: `1979 - M455 - Auxiliary Module p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 432 × 282 mm, 2000 × 1306 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 0–275 mm up
+- **Outlines:** line 487 rings, 4,812 straight (8,776 mm) / 1,141 curved (2,059 mm); text 496 rings, 3,639 straight (4,809 mm) / 1,108 curved (1,840 mm); tb 10 rings, 140 straight (310 mm) / 16 curved (31.7 mm)
+- **Circles and arcs:** 13 circles, 0 arcs; largest r 8.7 @ (71.0, 107.1), r 8.6 @ (70.5, 209.6), r 8.6 @ (18.7, 209.5), r 5.4 @ (13.0, 266.8)
+- **Closed boxes:** 9 (7 in the title block); named: E7 C8~ ep IB 21 4-1<7 1II 4-7 R20 \II N4; Z2 LF35
+- **Words (OCR):** 99 in 74 lines: E7 · C8~ ep · IB · 21 4-1<7 · R20 · 4-7 · 1II · N4-14 · IN4 14 · \II · CR\ · -l4- cR
+- **Title block:** (258, 2)–(432, 81) mm: ISSUEl ATE · REVISION · APP. · [\N8S) \NARC-BECK SYS TEM · ps · BS · ORN. GE · 109C · ENG.M RW · 78 · BO OSTER · PLIFIER · CK · 72dJ.-.- · tp · CO PO EN LAYO UT · ht · APP. · ISSUE · SCALE · sl
+
+Every curve, box, word and wire group: [1979 - M455 - Auxiliary Module p21 (traced).json](1979%20-%20M455%20-%20Auxiliary%20Module%20p21%20%28traced%29.json) (the CAD file: `1979 - M455 - Auxiliary Module p21 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

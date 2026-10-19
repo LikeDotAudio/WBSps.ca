@@ -12,6 +12,223 @@ Wiki page: [M433](../../../PAGES/M433.md)
 - **Pages:** 19
 - **PDF created (scan date, not design date):** Thu Nov  2 15:13:45 2006 EST
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–309 mm across, 16–421 mm up
+- **Outlines:** line 108 rings, 1,497 straight (4,147 mm) / 305 curved (479 mm); text 206 rings, 1,498 straight (1,941 mm) / 319 curved (556 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 3.2 @ (157.1, 218.3)
+- **Words (OCR):** 30 in 15 lines: (VVBS] 841 PROGRESS AVE NUE SCAR BOROUGH ONTAFl'O Ml &,X4 · WA · ECK SYSTEM · LTD · FAx: · "'81438-3B6~ · TELEPHONE · 38.e · M433{M434 · PEAK PROGRAM METER · ca · \fd NlI,H IUllE_ BS
+
+Every curve, box, word and wire group: [1992 - M433 - 434 - Peak Program Meter (2) p1 (traced).json](1992%20-%20M433%20-%20434%20-%20Peak%20Program%20Meter%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1992 - M433 - 434 - Peak Program Meter (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–307 mm across, 14–422 mm up
+- **Outlines:** line 636 rings, 4,616 straight (7,275 mm) / 1,356 curved (2,184 mm); text 683 rings, 4,596 straight (4,995 mm) / 1,539 curved (2,411 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.7 @ (128.8, 188.3), r 1.7 @ (209.3, 187.9), r 1.7 @ (194.5, 351.5)
+- **Closed boxes:** 4
+- **Dots (junctions):** 1
+- **Words (OCR):** 61 in 54 lines: WcAC BFCK SystENS · TECHNICALDATA · DUUYLLUFAREKUGKUUMLE · Input Sonsluvic: · Rourcc · ~44Au (rl Aeo · uhuncn) · mnat · -OAS Kiween sisd} · Ereduenet · Reiconio; · 7-0
+
+Every curve, box, word and wire group: [1992 - M433 - 434 - Peak Program Meter (2) p2 (traced).json](1992%20-%20M433%20-%20434%20-%20Peak%20Program%20Meter%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1992 - M433 - 434 - Peak Program Meter (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–326 mm across, 18–422 mm up
+- **Outlines:** line 312 rings, 2,636 straight (5,286 mm) / 712 curved (1,089 mm); text 1,015 rings, 7,182 straight (7,812 mm) / 2,213 curved (3,464 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 1.7 @ (177.3, 321.0), r 1.7 @ (125.6, 235.7), r 1.6 @ (252.9, 196.6), r 1.6 @ (107.0, 202.7)
+- **Dots (junctions):** 4
+- **Words (OCR):** 247 in 122 lines: M433 M43 PEAK PROGRA METER · Th M433 M434 eak Pr-ogr · Me Ier · be en · es · to OPer"l · om ly wi · Ih · ic io · fo rth · th · Br it
+
+Every curve, box, word and wire group: [1992 - M433 - 434 - Peak Program Meter (2) p3 (traced).json](1992%20-%20M433%20-%20434%20-%20Peak%20Program%20Meter%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1992 - M433 - 434 - Peak Program Meter (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–303 mm across, 21–422 mm up
+- **Outlines:** line 223 rings, 3,337 straight (7,179 mm) / 621 curved (1,003 mm); text 308 rings, 2,385 straight (2,601 mm) / 743 curved (1,160 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.2 @ (184.8, 370.5)
+- **Closed boxes:** 2; named: is
+- **Dots (junctions):** 1
+- **Words (OCR):** 69 in 36 lines: M433 /M434 PEAK PRO GRAM METER · Mountin · Th · M433/M4 34 · re qu i~s · ima te · 25 inch · dep · beh ind · an el · in he · Tn ro
+
+Every curve, box, word and wire group: [1992 - M433 - 434 - Peak Program Meter (2) p4 (traced).json](1992%20-%20M433%20-%20434%20-%20Peak%20Program%20Meter%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1992 - M433 - 434 - Peak Program Meter (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 30–328 mm across, 22–418 mm up
+- **Outlines:** line 224 rings, 3,497 straight (7,657 mm) / 657 curved (1,067 mm); text 13 rings, 91 straight (108 mm) / 24 curved (43.1 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.2 @ (186.5, 371.0)
+- **Closed boxes:** 1
+- **Words (OCR):** 7 in 7 lines: WA~ · YSTE · LTD · ca · BS · tp · ht
+
+Every curve, box, word and wire group: [1992 - M433 - 434 - Peak Program Meter (2) p5 (traced).json](1992%20-%20M433%20-%20434%20-%20Peak%20Program%20Meter%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1992 - M433 - 434 - Peak Program Meter (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–301 mm across, 18–422 mm up
+- **Outlines:** line 266 rings, 3,129 straight (7,256 mm) / 683 curved (1,079 mm); text 339 rings, 2,507 straight (2,754 mm) / 826 curved (1,273 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.1 @ (110.9, 178.6), r 1.7 @ (228.0, 301.0)
+- **Closed boxes:** 4
+- **Dots (junctions):** 1
+- **Words (OCR):** 98 in 49 lines: WAR · BE CK YaTEM8 LTO · NSTALL · IO · M4 33/M4 34 PEA · PROGR · ME ER · Ext ern al Connect on · M4 33/M434 · right · le · inch cen er) 10
+
+Every curve, box, word and wire group: [1992 - M433 - 434 - Peak Program Meter (2) p6 (traced).json](1992%20-%20M433%20-%20434%20-%20Peak%20Program%20Meter%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1992 - M433 - 434 - Peak Program Meter (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–307 mm across, 19–422 mm up
+- **Outlines:** line 219 rings, 2,826 straight (7,238 mm) / 557 curved (894 mm); text 347 rings, 2,467 straight (2,676 mm) / 773 curved (1,220 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 5.5 @ (171.8, 128.5), r 3.3 @ (91.0, 145.5), r 2.2 @ (186.7, 368.5), r 2.2 @ (171.3, 368.5)
+- **Closed boxes:** 3
+- **Words (OCR):** 95 in 51 lines: WARD · ECK SYS EMS · M4]]/M434 PE Al< PI'l:OGI'l:AM ME TEI'l: · he M4]3 /M4]4 Pe ak Program Met · are · bl · wi · nu mb · sca · ic · sh ou · sp ec
+
+Every curve, box, word and wire group: [1992 - M433 - 434 - Peak Program Meter (2) p7 (traced).json](1992%20-%20M433%20-%20434%20-%20Peak%20Program%20Meter%20%282%29%20p7%20%28traced%29.json) (the CAD file: `1992 - M433 - 434 - Peak Program Meter (2) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 32–331 mm across, 22–421 mm up
+- **Outlines:** line 135 rings, 2,753 straight (8,939 mm) / 416 curved (691 mm); text 149 rings, 1,301 straight (1,747 mm) / 334 curved (533 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 5.6 @ (172.0, 229.8), r 5.5 @ (172.8, 75.4), r 3.3 @ (253.3, 246.5), r 3.3 @ (254.1, 92.5)
+- **Closed boxes:** 7; named: 16 *12; 16 *12; 18 12 1I'/,; 18 12 1I'/,
+- **Words (OCR):** 30 in 18 lines: M433! M4J./l PEAK PROGRAM METE · 16 *12 · FIG 6-2 · M433 · OR M434!A · ABC · Sca · 18 12 · 1I'/, · ca · BS · IG 6_J
+
+Every curve, box, word and wire group: [1992 - M433 - 434 - Peak Program Meter (2) p8 (traced).json](1992%20-%20M433%20-%20434%20-%20Peak%20Program%20Meter%20%282%29%20p8%20%28traced%29.json) (the CAD file: `1992 - M433 - 434 - Peak Program Meter (2) p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–307 mm across, 20–421 mm up
+- **Outlines:** line 130 rings, 2,348 straight (8,850 mm) / 344 curved (553 mm); text 168 rings, 1,473 straight (1,872 mm) / 400 curved (656 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 5.5 @ (172.5, 225.6), r 5.5 @ (173.4, 79.6), r 3.4 @ (92.4, 96.6), r 3.4 @ (253.2, 242.7)
+- **Closed boxes:** 6; named: d8m; d8m; TEST I'l,; TEST I'l,
+- **Words (OCR):** 28 in 16 lines: WA~ ·I!IECK SYS EMS TD. · /101433//10104 PEAk PROGRA/Iol METER · d8m · IG · MU3/ · OR M434 · CBe Sca le · TEST · I'l, · ca · BS · M1r.33/
+
+Every curve, box, word and wire group: [1992 - M433 - 434 - Peak Program Meter (2) p9 (traced).json](1992%20-%20M433%20-%20434%20-%20Peak%20Program%20Meter%20%282%29%20p9%20%28traced%29.json) (the CAD file: `1992 - M433 - 434 - Peak Program Meter (2) p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** schematic 060_02_001, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–308 mm across, 14–422 mm up
+- **Outlines:** line 576 rings, 4,499 straight (7,436 mm) / 1,231 curved (1,968 mm); text 1,618 rings, 11,256 straight (12,157 mm) / 3,662 curved (5,707 mm)
+- **Centre lines:** 7,457 paths (370 closed); straight 12,059 mm, curved 161 mm; horizontal 2,613 mm, vertical 3,192 mm, diagonal 6,254 mm
+- **Circles and arcs:** 16 circles, 33 arcs; largest r 1.7 @ (181.0, 297.1), r 1.7 @ (184.9, 270.6), r 1.7 @ (198.7, 132.6), r 1.7 @ (197.2, 86.8)
+- **Closed boxes:** 1
+- **Words (OCR):** 370 in 201 lines: ARO· BE CK · YS TE MS TO · CIRCUIT DESCRIPT ION · "1433 · 434 PEAK · ROGRAM METER · Re fe · to schem...tlc 614_060_02_001) · Th · in om · er · ce
+- **Wiring (first pass):** 4 connected wire groups from 118 runs; labelled ends: 110 mm → "1433, METER; 72 mm → CIRCUIT, ION
+
+Every curve, box, word and wire group: [1992 - M433 - 434 - Peak Program Meter (2) p10 (traced).json](1992%20-%20M433%20-%20434%20-%20Peak%20Program%20Meter%20%282%29%20p10%20%28traced%29.json) (the CAD file: `1992 - M433 - 434 - Peak Program Meter (2) p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 28–328 mm across, 19–415 mm up
+- **Outlines:** line 128 rings, 1,433 straight (3,860 mm) / 311 curved (492 mm); text 450 rings, 3,458 straight (3,911 mm) / 1,031 curved (1,645 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.8 @ (197.5, 295.5), r 1.8 @ (155.0, 282.2), r 1.7 @ (203.5, 315.2)
+- **Words (OCR):** 106 in 41 lines: WAR · CK eVe T!!",..e LT · IRCU · DESCRIP ION · M433 jM434 PEAK ROGRAM METER · The SA14_06 · quires 24 to 35V DC Th · vo tage 15 egu te · down · to · 22V DC by regu to · U4
+
+Every curve, box, word and wire group: [1992 - M433 - 434 - Peak Program Meter (2) p11 (traced).json](1992%20-%20M433%20-%20434%20-%20Peak%20Program%20Meter%20%282%29%20p11%20%28traced%29.json) (the CAD file: `1992 - M433 - 434 - Peak Program Meter (2) p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–302 mm across, 14–422 mm up
+- **Outlines:** line 347 rings, 2,911 straight (5,644 mm) / 762 curved (1,191 mm); text 1,542 rings, 10,727 straight (11,653 mm) / 3,404 curved (5,342 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 1.7 @ (131.3, 297.2), r 1.7 @ (191.1, 257.7), r 1.7 @ (108.6, 211.9), r 1.7 @ (284.5, 304.1)
+- **Words (OCR):** 358 in 162 lines: WARD-B EC · SET_UP PROCEOURE · M433 /M434 PEAK PROGRA METER · The M433/M434 PPM' · tory · ali bra te · and nor mally · not · ec al lbr at lon · Th · il it · tr
+
+Every curve, box, word and wire group: [1992 - M433 - 434 - Peak Program Meter (2) p12 (traced).json](1992%20-%20M433%20-%20434%20-%20Peak%20Program%20Meter%20%282%29%20p12%20%28traced%29.json) (the CAD file: `1992 - M433 - 434 - Peak Program Meter (2) p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 32–330 mm across, 22–422 mm up
+- **Outlines:** line 291 rings, 2,625 straight (5,092 mm) / 690 curved (1,056 mm); text 239 rings, 1,827 straight (2,010 mm) / 520 curved (825 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 1.7 @ (240.2, 305.7), r 1.7 @ (193.6, 292.4), r 1.7 @ (170.2, 318.7), r 1.7 @ (109.4, 298.8)
+- **Words (OCR):** 97 in 41 lines: WA · 8ECK · YSTE · LTD · SET -UP PROCEDURE · 1014]]/101434 PEA PROGRAM METE · Incr........ · le ve 10 .12 dBm Ad · Sel · COIHI"OI R28 CW 10 · se the · mele<"
+
+Every curve, box, word and wire group: [1992 - M433 - 434 - Peak Program Meter (2) p13 (traced).json](1992%20-%20M433%20-%20434%20-%20Peak%20Program%20Meter%20%282%29%20p13%20%28traced%29.json) (the CAD file: `1992 - M433 - 434 - Peak Program Meter (2) p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–305 mm across, 16–422 mm up
+- **Outlines:** line 287 rings, 2,963 straight (5,926 mm) / 744 curved (1,140 mm); text 636 rings, 4,936 straight (5,577 mm) / 1,610 curved (2,517 mm)
+- **Dots (junctions):** 4
+- **Words (OCR):** 156 in 85 lines: WAR -BECK SYSTEMS TD. · U/M4 J4 PE · PRO RAM ETE · PARI · PE · PT ION · MF · MEG PARI NUMBER · PPM Aml'>lifi er · MeIer Movemenl · o.M433 · Bach.
+- **Title block:** (49, 392)–(130, 416) mm: WAR -BECK SYSTEMS TD.
+
+Every curve, box, word and wire group: [1992 - M433 - 434 - Peak Program Meter (2) p14 (traced).json](1992%20-%20M433%20-%20434%20-%20Peak%20Program%20Meter%20%282%29%20p14%20%28traced%29.json) (the CAD file: `1992 - M433 - 434 - Peak Program Meter (2) p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–329 mm across, 17–409 mm up
+- **Outlines:** line 354 rings, 3,234 straight (5,891 mm) / 855 curved (1,295 mm); text 331 rings, 2,772 straight (3,082 mm) / 818 curved (1,282 mm)
+- **Closed boxes:** 1
+- **Dots (junctions):** 22
+- **Words (OCR):** 81 in 65 lines: WARD -BECK SYSTEMS LTD · M4U1M4J4 · Ji RO RAM METER · PART · pESC · PTlON · MEG · fG · PARI NJJMBE · ntt · Resistor · 1'lb9K 09
+- **Title block:** (24, 394)–(130, 417) mm: WARD -BECK SYSTEMS LTD
+
+Every curve, box, word and wire group: [1992 - M433 - 434 - Peak Program Meter (2) p15 (traced).json](1992%20-%20M433%20-%20434%20-%20Peak%20Program%20Meter%20%282%29%20p15%20%28traced%29.json) (the CAD file: `1992 - M433 - 434 - Peak Program Meter (2) p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–301 mm across, 14–422 mm up
+- **Outlines:** line 224 rings, 2,245 straight (5,115 mm) / 592 curved (882 mm); text 381 rings, 2,895 straight (3,154 mm) / 921 curved (1,452 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.7 @ (212.6, 196.9)
+- **Closed boxes:** 2
+- **Dots (junctions):** 7
+- **Words (OCR):** 84 in 39 lines: WAR D-BECK YS TE MS · M4331MiH EAK PROG AM MEIE · RT · ES CR PT IO · Mf · EG PART · MD[ · Resistor 1/4W · Philips · as · ix · 52
+
+Every curve, box, word and wire group: [1992 - M433 - 434 - Peak Program Meter (2) p16 (traced).json](1992%20-%20M433%20-%20434%20-%20Peak%20Program%20Meter%20%282%29%20p16%20%28traced%29.json) (the CAD file: `1992 - M433 - 434 - Peak Program Meter (2) p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–302 mm across, 21–421 mm up
+- **Outlines:** line 331 rings, 3,357 straight (7,012 mm) / 731 curved (1,179 mm); text 135 rings, 1,083 straight (1,380 mm) / 248 curved (389 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 2.2 @ (150.0, 370.9), r 2.2 @ (95.7, 275.3), r 2.2 @ (174.1, 370.8), r 2.2 @ (252.0, 275.1)
+- **Closed boxes:** 12; named: YSTEMS
+- **Words (OCR):** 33 in 24 lines: WAR · ECK YSTEMS · CONNEC TOR LAYOUT · SUPP · VOLTAGE · TYPICAL MATIN · CO NNEC TOR · BERG · 6581 01 · Mini · Hou · ERG
+
+Every curve, box, word and wire group: [1992 - M433 - 434 - Peak Program Meter (2) p17 (traced).json](1992%20-%20M433%20-%20434%20-%20Peak%20Program%20Meter%20%282%29%20p17%20%28traced%29.json) (the CAD file: `1992 - M433 - 434 - Peak Program Meter (2) p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** schematic B 14-060-02-001, size B 432 × 257 mm, 2000 × 1192 px traced (0.216 mm/px)
+- **Ink extent:** 6–427 mm across, 4–253 mm up
+- **Outlines:** line 568 rings, 6,474 straight (10,368 mm) / 1,750 curved (2,271 mm); text 688 rings, 4,649 straight (4,521 mm) / 1,670 curved (2,124 mm)
+- **Centre lines:** 11,034 paths (158 closed); straight 9,514 mm, curved 407 mm; horizontal 2,653 mm, vertical 2,480 mm, diagonal 4,381 mm
+- **Circles and arcs:** 13 circles, 62 arcs; largest r 4.8 @ (147.8, 59.2), r 4.7 @ (248.1, 196.8), r 4.7 @ (248.1, 179.7), r 4.7 @ (248.2, 111.3)
+- **Closed boxes:** 2
+- **Words (OCR):** 182 in 141 lines: 22V · C6 · CR3 · 22P · CAL · R52 · 22K · R16 · C9 · R62 · R36 · N4 14
+- **Title block:** (363, 25)–(432, 38) mm: lvvEls] WARD-BECK SYSTEMS
+- **Wiring (first pass):** 71 connected wire groups from 626 runs; labelled ends: 245 mm → R60, 11K, 10/35, 240; 181 mm → 47K, R62, R36; 167 mm → N4, R36; 150 mm → 10/35, C6, R6, 12K; 131 mm → 15K, R3, R5, 27
+
+Every curve, box, word and wire group: [1992 - M433 - 434 - Peak Program Meter (2) p18 (traced).json](1992%20-%20M433%20-%20434%20-%20Peak%20Program%20Meter%20%282%29%20p18%20%28traced%29.json) (the CAD file: `1992 - M433 - 434 - Peak Program Meter (2) p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1434 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 16–278 mm across, 10–421 mm up
+- **Outlines:** line 1,115 rings, 9,590 straight (13,686 mm) / 2,791 curved (4,847 mm); text 53 rings, 359 straight (389 mm) / 135 curved (220 mm)
+- **Circles and arcs:** 104 circles, 0 arcs; largest r 11.6 @ (188.9, 70.8), r 11.6 @ (189.3, 135.8), r 5.3 @ (149.5, 29.4), r 4.7 @ (189.0, 70.7)
+- **Closed boxes:** 13; named: ~OK Rlo ~57 -HRll i5K iKss iii RI Ii R9 
+- **Words (OCR):** 158 in 99 lines: OOOU 8J 0000 · 00 · 000 · 000 · 00 · <Jl · rrt · <Jl · CD · CD · CD · CD
+
+Every curve, box, word and wire group: [1992 - M433 - 434 - Peak Program Meter (2) p19 (traced).json](1992%20-%20M433%20-%20434%20-%20Peak%20Program%20Meter%20%282%29%20p19%20%28traced%29.json) (the CAD file: `1992 - M433 - 434 - Peak Program Meter (2) p19 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

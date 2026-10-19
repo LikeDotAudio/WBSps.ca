@@ -12,6 +12,191 @@ Wiki page: [M625A](../../../PAGES/M625A.md)
 - **Pages:** 18
 - **PDF created (scan date, not design date):** Thu Nov  2 21:48:58 2006 EST
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–330 mm across, 22–424 mm up
+- **Outlines:** line 34 rings, 501 straight (2,748 mm) / 81 curved (124 mm); text 68 rings, 718 straight (1,156 mm) / 175 curved (354 mm); tb 18 rings, 375 straight (616 mm) / 86 curved (159 mm)
+- **Words (OCR):** 7 in 4 lines: WAAD-BECK BYSTEMS LTD; · WBS Telex: 083-25380 · M625A · POWER SUPPLY
+- **Title block:** (46, 386)–(266, 423) mm: WAAD-BECK BYSTEMS LTD; · WBS Telex: 083-25380
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply p1 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20p1%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–335 mm across, 16–424 mm up
+- **Outlines:** line 31 rings, 479 straight (2,740 mm) / 58 curved (82.1 mm); text 824 rings, 6,239 straight (6,925 mm) / 1,907 curved (3,022 mm); tb 19 rings, 137 straight (314 mm) / 40 curved (57.7 mm)
+- **Words (OCR):** 126 in 67 lines: WAAD-BeCK SysTemB LTD_ · TECHNICAL DATA · M6254_POWER SUPPLY · DC Output: · +25 volts at · load currents · from · to · amperes. · Regulation: · 0.1% for line · Line
+- **Title block:** (23, 97)–(276, 424) mm: WAAD-BeCK SysTemB LTD_ · TECHNICAL DATA · M6254_POWER SUPPLY · DC Output: · +25 volts at · load currents · from · to · amperes. · Regulation: · 0.1% for line · Line · variations · from 105 tO · volts 
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply p2 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20p2%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–329 mm across, 15–424 mm up
+- **Outlines:** line 50 rings, 689 straight (3,486 mm) / 86 curved (130 mm); text 1,738 rings, 12,904 straight (14,340 mm) / 3,926 curved (6,233 mm); tb 11 rings, 60 straight (68.4 mm) / 21 curved (28.0 mm)
+- **Words (OCR):** 266 in 139 lines: WAAD-BECK BYSTEMS LTD. · CIRCULT DESCRIPIION · M625A · POWER SUPPLY · The M625A is · +25 volt dc · which is · capable of · power supply · delivering currents uP · of · to
+- **Title block:** (22, 177)–(176, 425) mm: WAAD-BECK BYSTEMS LTD. · CIRCULT DESCRIPIION · M625A · The M625A is · +25 volt dc · delivering currents uP · of · to · amperes. · The primary · winding of · the power · Hz Iine. · operation from · 120
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply p3 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20p3%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–328 mm across, 10–423 mm up
+- **Outlines:** line 66 rings, 784 straight (3,285 mm) / 118 curved (178 mm); text 1,436 rings, 10,592 straight (11,818 mm) / 3,289 curved (5,049 mm)
+- **Dots (junctions):** 2
+- **Words (OCR):** 239 in 140 lines: WAAD-BeCK BYSTemB LTD · TEST · & SETUP · PROCEDURE · M625A POWER · SUPPLY · PCB 1-117_ · ~Remove · Vdc · ~Apply power · and check for presence of · approximately
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply p4 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20p4%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 31–332 mm across, 11–423 mm up
+- **Outlines:** line 76 rings, 803 straight (3,214 mm) / 161 curved (246 mm); text 1,438 rings, 11,002 straight (12,172 mm) / 3,384 curved (5,332 mm)
+- **Dots (junctions):** 2
+- **Words (OCR):** 251 in 114 lines: WAAD-BECK SySTems LTD; · TEST SETUP PROCEDURE · M625A POWER · SUPPLY · 12) ~Set the me · tering switch +25 and set · t0 · the DMM to · CURRENT · range. · ~Adjust · the calibration control
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply p5 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20p5%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–332 mm across, 11–424 mm up
+- **Outlines:** line 59 rings, 874 straight (3,363 mm) / 149 curved (236 mm); text 1,047 rings, 7,943 straight (8,900 mm) / 2,428 curved (3,852 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 174 in 101 lines: WAAD-BECK SySTeMB LTD; · TEST · SETUPPROCEDURE · M625A · POWER SUPPLY · ~Slowly apply ac · input with · variac. When the · voltage · reaches approximately · 28 to · 30 volts, the crowbar SCR 09
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply p6 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20p6%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–335 mm across, 0–423 mm up
+- **Outlines:** line 61 rings, 1,217 straight (3,489 mm) / 210 curved (344 mm); text 425 rings, 3,269 straight (3,600 mm) / 1,098 curved (1,739 mm)
+- **Words (OCR):** 79 in 56 lines: OT: · WAAD-BeCK Systems LTD: · IEST · SETUP PROCEDURE · M6254 POWER SUPPLY · #261lov · Emitter · Base · Collector · 00 9j? · 01 +40.0 · +40.0
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply p7 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20p7%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–333 mm across, 12–423 mm up
+- **Outlines:** line 134 rings, 1,050 straight (3,870 mm) / 200 curved (306 mm); text 580 rings, 4,873 straight (5,610 mm) / 1,468 curved (2,352 mm)
+- **Words (OCR):** 105 in 96 lines: WAAD-BECK BySTeMB LTD; · PARIS · LiST · M6254 POWER SUPPLY · PARI DESCRIPTION · MFG · MFG PART · NUMBER · C1 · Capacitor 0.033 · uF/400 · Philips
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply p8 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20p8%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 29–331 mm across, 12–423 mm up
+- **Outlines:** line 61 rings, 900 straight (3,725 mm) / 154 curved (240 mm); text 262 rings, 2,370 straight (2,594 mm) / 671 curved (1,068 mm); tb 4 rings, 27 straight (32.6 mm) / 3 curved (4.9 mm)
+- **Words (OCR):** 38 in 24 lines: PARTS LIST · M625A POWER · SUPPLY · PART · DESCRIPTION · MFG · MFg PARI_NUMBER · Swi · Switch · 9201 · Sw2 · CRL
+- **Title block:** (37, 76)–(201, 297) mm: Power Transformer · WBS · Regulator PCB · WBS recommends the use · of replacement parts made by · manufacturers for continued · optimum equipment performance .
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply p9 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20p9%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–329 mm across, 16–424 mm up
+- **Outlines:** line 59 rings, 874 straight (3,119 mm) / 128 curved (186 mm); text 2,221 rings, 16,092 straight (17,564 mm) / 5,073 curved (7,978 mm); tb 7 rings, 43 straight (50.2 mm) / 15 curved (20.0 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 357 in 164 lines: WAAD-BECK BYBTEMB LTD. · CIRcUIT DESCRIPTION · REGULATOR BOARD · The 1-117 Regulator is · printed circuit board unit. It is used · in · number · of WBS · Power Supplies and contains the · majority of the · active circui try of these units. · +25
+- **Title block:** (22, 309)–(152, 424) mm: WAAD-BECK BYBTEMB LTD. · The 1-117 Regulator is · number · of WBS · active circui try of these units.
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply p10 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20p10%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 31–332 mm across, 15–424 mm up
+- **Outlines:** line 37 rings, 827 straight (2,923 mm) / 100 curved (165 mm); text 460 rings, 3,714 straight (4,097 mm) / 1,119 curved (1,757 mm)
+- **Words (OCR):** 74 in 36 lines: WAAD-BECK Bybtemb LTD: · DESCRIPTION · CIRcULT · 1-117 · REGULATOR BOARD · Overvoltage protection is · provided by · crowbar' SCR 09 . · The  sensing · consisting of 07 · Q8, CR6, CR? and · R45 to
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply p11 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20p11%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–331 mm across, 11–424 mm up
+- **Outlines:** line 140 rings, 1,141 straight (3,849 mm) / 217 curved (347 mm); text 614 rings, 5,080 straight (5,896 mm) / 1,588 curved (2,557 mm)
+- **Words (OCR):** 99 in 90 lines: WAAD-BECK ByBTEMB LTD: · PARTS List · 1-17 · REGULATOR BOARD · PART DESCRIPTION · MFG · MFG PART · NUMBER · 2200 · pF · Cc092-MC-222m · C1
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply p12 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20p12%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 31–331 mm across, 14–423 mm up
+- **Outlines:** line 140 rings, 1,357 straight (4,077 mm) / 267 curved (415 mm); text 719 rings, 5,799 straight (6,525 mm) / 1,738 curved (2,690 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 145 in 125 lines: PARTS LiST · L-4lZ REGULATOR BOARD · PART · DESCRIPTION · MFG · MFG PART · NUMBER · RI · Resistor · 59 · 10k · Philips
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply p13 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20p13%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–328 mm across, 12–423 mm up
+- **Outlines:** line 44 rings, 617 straight (3,458 mm) / 97 curved (150 mm); text 493 rings, 4,045 straight (4,603 mm) / 1,180 curved (1,852 mm); tb 27 rings, 114 straight (116 mm) / 28 curved (44.1 mm)
+- **Words (OCR):** 74 in 63 lines: WAAD-BeCK BybtemB LTD: · PARTS LIST · 1-117 REGULATOR_BOARD · PART DESCRIPTION · MFG · MFG PART · NUMBER · R36 · Resistor · 1/4w · delete · R37
+- **Title block:** (23, 67)–(152, 419) mm: WAAD-BeCK BybtemB LTD: · PART DESCRIPTION · R36 · Resistor · 1/4w · R37 · R38 · R39 · Trim pot · 20k · R4o · 1/4w 5% · Resistor · 100 · RLI · IK · R42 · IK · R43 · R4b · R45 · IK · R46 · 10k · R47 · 1
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply p14 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20p14%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 432 × 145 mm, 2000 × 673 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–142 mm up
+- **Outlines:** line 716 rings, 6,451 straight (11,095 mm) / 1,424 curved (1,928 mm); text 451 rings, 2,685 straight (2,527 mm) / 976 curved (1,263 mm); tb 18 rings, 141 straight (114 mm) / 37 curved (46.2 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 1.1 @ (309.7, 63.9), r 1.1 @ (341.9, 63.9), r 1.1 @ (13.3, 82.1), r 1.0 @ (371.8, 98.3)
+- **Closed boxes:** 28 (14 in the title block)
+- **Dots (junctions):** 2
+- **Words (OCR):** 77 in 60 lines: CR? · IN4003 · R4 · 0.5,p0w · +25 · Swv · 56 · 2N3772 · CR& · DSe · FOWEC · 2N3772
+- **Title block:** (290, 5)–(413, 28) mm: OD.CKD: · WVBS WARD-BeCK · 242658 · CKD · 125v OWER SUPPLY · SCHEMATTC · SCALL
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply p15 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20p15%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 432 × 309 mm, 2000 × 1433 px traced (0.216 mm/px)
+- **Ink extent:** 3–432 mm across, 0–294 mm up
+- **Outlines:** line 764 rings, 9,047 straight (24,354 mm) / 1,671 curved (2,533 mm); text 29 rings, 186 straight (172 mm) / 68 curved (88.1 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 3.5 @ (217.8, 112.6), r 1.2 @ (48.2, 286.3)
+- **Words (OCR):** 8 in 8 lines: R1b · PCE · Sw| · 03 · J2 (BLACK) · (RED) · Sw2 · PO
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply p16 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20p16%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 432 × 142 mm, 2000 × 659 px traced (0.216 mm/px)
+- **Ink extent:** 4–430 mm across, 2–142 mm up
+- **Outlines:** line 1,017 rings, 8,175 straight (12,250 mm) / 2,107 curved (2,654 mm); text 338 rings, 1,886 straight (1,653 mm) / 680 curved (829 mm); tb 2 rings, 46 straight (98.5 mm) / 1 curved (1.4 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 6.7 @ (118.5, 54.1), r 6.5 @ (79.0, 86.7), r 1.1 @ (113.8, 60.8), r 1.0 @ (86.7, 86.8)
+- **Closed boxes:** 24 (1 in the title block); named: 4130; [roa; REGULATOR BOARD SCHEMATIC
+- **Words (OCR):** 53 in 47 lines: NTES · Al_ Resistors 4re · Otherwise · UNLEY · RES. BASE · (12 , {r8 Rao · TeNetors · WETE · 2N 364S · 183) · FEFLACED · 73o1
+- **Title block:** (353, 20)–(432, 31) mm: WAAD-BeCk sysTeMs · WBS
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply p17 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20p17%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** layout 1-117-04-031, size B (assumed) 432 × 347 mm, 2000 × 1609 px traced (0.216 mm/px)
+- **Ink extent:** 6–432 mm across, 0–328 mm up
+- **Outlines:** line 495 rings, 7,036 straight (11,648 mm) / 1,529 curved (2,586 mm); text 249 rings, 1,922 straight (2,028 mm) / 631 curved (837 mm)
+- **Circles and arcs:** 18 circles, 0 arcs; largest r 9.7 @ (97.9, 224.6), r 9.7 @ (163.8, 224.0), r 8.1 @ (164.4, 158.7), r 8.1 @ (230.1, 158.5)
+- **Closed boxes:** 12; named: Ri4; Rib; Q9 2n6395
+- **Words (OCR):** 69 in 64 lines: Me291 · ADJ · Rib DIF ADJ · Ri4 · 500 · 5k · R2s_* · Cio "O55 · Rib · R7-2 · ~44n5 · Zzoop
+
+Every curve, box, word and wire group: [1978 - M625A - Power Supply p18 (traced).json](1978%20-%20M625A%20-%20Power%20Supply%20p18%20%28traced%29.json) (the CAD file: `1978 - M625A - Power Supply p18 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

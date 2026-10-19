@@ -12,6 +12,33 @@ Wiki page: [M466M](../../../PAGES/M466M.md)
 - **Pages:** 2
 - **PDF created (scan date, not design date):** Tue Nov 25 00:16:36 2003 EST
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 432 × 392 mm, 2000 × 1818 px traced (0.216 mm/px)
+- **Ink extent:** 22–432 mm across, 1–347 mm up
+- **Outlines:** line 210 rings, 3,482 straight (8,095 mm) / 477 curved (789 mm); text 234 rings, 1,531 straight (1,733 mm) / 405 curved (610 mm); tb 2 rings, 26 straight (24.1 mm) / 11 curved (15.6 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 3.0 @ (177.6, 241.0), r 3.0 @ (303.2, 314.1), r 3.0 @ (303.3, 111.5), r 2.9 @ (177.1, 334.2)
+- **Closed boxes:** 26; named: ."'A"T,,-.:....-; ~~:J=:::Jffi![]E:= USED ON; DLltN. E.B
+- **Words (OCR):** 41 in 32 lines: r-r · IU · ee · r-r · 22 · ca · COM · E:N · SI · BS · TE · CH
+- **Title block:** (294, 2)–(323, 27) mm: DAn: · CKD. · SCAlE · TOLS
+
+Every curve, box, word and wire group: [1976 - M466M - Meter Module (2) p1 (traced).json](1976%20-%20M466M%20-%20Meter%20Module%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1976 - M466M - Meter Module (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 432 × 288 mm, 2000 × 1332 px traced (0.216 mm/px)
+- **Ink extent:** 21–432 mm across, 0–286 mm up
+- **Outlines:** line 151 rings, 3,382 straight (6,452 mm) / 490 curved (778 mm); text 227 rings, 2,057 straight (2,501 mm) / 542 curved (913 mm); tb 49 rings, 534 straight (796 mm) / 109 curved (196 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.5 @ (357.0, 5.8), r 2.1 @ (223.3, 155.4)
+- **Closed boxes:** 28 (10 in the title block); named: vu ME TER; MOD.
+- **Dots (junctions):** 2
+- **Words (OCR):** 54 in 40 lines: vu · ST ERE · IE · ME TER · OF · 12 · US · BUS · ER E.O · IE · OT · OR OM
+- **Title block:** (93, 22)–(414, 69) mm: MOD. CKD. · USED ON · 'MAT · (lED WA.RC-SECK · ps LTD. · SYSTEMS · BS · ORN. · DATE · FIN ISH · SSO · TE · tKO · tp
+
+Every curve, box, word and wire group: [1976 - M466M - Meter Module (2) p2 (traced).json](1976%20-%20M466M%20-%20Meter%20Module%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1976 - M466M - Meter Module (2) p2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

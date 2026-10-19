@@ -12,6 +12,165 @@ Wiki page: [M484](../../../PAGES/M484.md)
 - **Pages:** 14
 - **PDF created (scan date, not design date):** Mon Aug 17 16:48:40 2009 EDT
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 342 × 432 mm, 1586 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–311 mm across, 0–423 mm up
+- **Outlines:** line 712 rings, 6,096 straight (8,208 mm) / 1,634 curved (2,587 mm); text 1,112 rings, 8,644 straight (10,162 mm) / 2,722 curved (4,439 mm)
+- **Closed boxes:** 6
+- **Words (OCR):** 354 in 169 lines: Page · MODULE M484 · DUAL SUMMING AMPLIFIER · MODU LE M484A · NGLE SUMMI NG AMP LIF ER · DESI GN · DESCRI PTION · MFG · PART NUMBER · Cl · 330 Fd 6Y · ntal ua
+
+Every curve, box, word and wire group: [1975 - M484 - Dual Summing Amplifer (2) p1 (traced).json](1975%20-%20M484%20-%20Dual%20Summing%20Amplifer%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1975 - M484 - Dual Summing Amplifer (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 342 × 432 mm, 1586 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–319 mm across, 0–423 mm up
+- **Outlines:** line 530 rings, 4,552 straight (6,409 mm) / 1,282 curved (2,035 mm); text 464 rings, 3,749 straight (4,289 mm) / 1,216 curved (1,975 mm)
+- **Closed boxes:** 3
+- **Dots (junctions):** 1
+- **Words (OCR):** 205 in 128 lines: Pag! · MODULE 1'48 · DUAL SUMMING AM PLI FIE · MODULE M48 · NGLE SUMMING AMPLIFIER · DESIGN · DESCRIPTtDII: · MFG · PART NUHBER · Ql · Tra nsis tor · Fai rc hlld
+
+Every curve, box, word and wire group: [1975 - M484 - Dual Summing Amplifer (2) p2 (traced).json](1975%20-%20M484%20-%20Dual%20Summing%20Amplifer%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1975 - M484 - Dual Summing Amplifer (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 342 × 432 mm, 1586 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–312 mm across, 0–422 mm up
+- **Outlines:** line 462 rings, 3,812 straight (5,492 mm) / 1,066 curved (1,670 mm); text 264 rings, 2,112 straight (2,474 mm) / 694 curved (1,126 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 125 in 88 lines: Page · DUAL SUMMING AMPLIFI ER · MODULE M4 84 · MODULE M484A · INGLE SUMMING AMPLIFIER · DES IGN · DESCRIPTION · MFG. · PART NUMBE · .36 · rae · Philips
+
+Every curve, box, word and wire group: [1975 - M484 - Dual Summing Amplifer (2) p3 (traced).json](1975%20-%20M484%20-%20Dual%20Summing%20Amplifer%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1975 - M484 - Dual Summing Amplifer (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 342 × 432 mm, 1586 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–340 mm across, 0–423 mm up
+- **Outlines:** line 230 rings, 5,478 straight (10,358 mm) / 695 curved (1,131 mm); text 296 rings, 2,944 straight (3,809 mm) / 717 curved (1,135 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.4 @ (259.1, 83.0), r 2.4 @ (324.8, 198.0)
+- **Closed boxes:** 66; named: cc LoJ:.: ~LoJ OOZ:~ :::>LoJ VIZ ..J,z; en Ul; A1 B2 C3 JL 10 11 12 13 14 15; 00; A1; B2; JL; xci xxz ~~et ui; V1; °et UUl; 10; 11
+- **Dots (junctions):** 1
+- **Words (OCR):** 63 in 55 lines: en · Ul · (lJ · A1 · +25V · cc · LoJ:.: · B2 · OJ · C3 · (lJ · ~LoJ
+
+Every curve, box, word and wire group: [1975 - M484 - Dual Summing Amplifer (2) p4 (traced).json](1975%20-%20M484%20-%20Dual%20Summing%20Amplifer%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1975 - M484 - Dual Summing Amplifer (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 342 × 432 mm, 1586 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–342 mm across, 0–422 mm up
+- **Outlines:** line 392 rings, 7,348 straight (12,633 mm) / 1,087 curved (1,726 mm); text 77 rings, 813 straight (995 mm) / 197 curved (311 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.5 @ (260.7, 83.4), r 2.5 @ (326.3, 198.5), r 2.4 @ (260.8, 13.7)
+- **Closed boxes:** 66; named: llJ llJ CD IE; en 1Il; 1Il; BS; ps; ci lll:; ht
+- **Words (OCR):** 22 in 19 lines: en · 1Il · llJ · +25V · llJ · SUMMIN Ar~P · CD · OUT · IE · SUMMI NG AM · IN · 25V
+
+Every curve, box, word and wire group: [1975 - M484 - Dual Summing Amplifer (2) p5 (traced).json](1975%20-%20M484%20-%20Dual%20Summing%20Amplifer%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1975 - M484 - Dual Summing Amplifer (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 337 × 432 mm, 1560 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–337 mm across, 7–431 mm up
+- **Outlines:** line 1,796 rings, 17,147 straight (17,941 mm) / 4,337 curved (5,571 mm); text 20 rings, 69 straight (48.0 mm) / 23 curved (25.2 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.5 @ (295.4, 349.3), r 2.4 @ (253.2, 355.2), r 2.3 @ (25.0, 58.7), r 2.3 @ (26.3, 70.8)
+- **Closed boxes:** 1
+- **Dots (junctions):** 3
+- **Words (OCR):** 4 in 4 lines: ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1975 - M484 - Dual Summing Amplifer (2) p6 (traced).json](1975%20-%20M484%20-%20Dual%20Summing%20Amplifer%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1975 - M484 - Dual Summing Amplifer (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 337 × 432 mm, 1560 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–337 mm across, 24–431 mm up
+- **Outlines:** line 1,610 rings, 18,225 straight (20,490 mm) / 4,434 curved (5,846 mm); text 17 rings, 75 straight (51.3 mm) / 30 curved (27.7 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.6 @ (259.5, 163.3), r 2.5 @ (88.4, 349.4), r 2.5 @ (45.6, 355.4), r 2.4 @ (112.1, 234.3)
+- **Closed boxes:** 3
+- **Dots (junctions):** 5
+- **Words (OCR):** 4 in 4 lines: ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1975 - M484 - Dual Summing Amplifer (2) p7 (traced).json](1975%20-%20M484%20-%20Dual%20Summing%20Amplifer%20%282%29%20p7%20%28traced%29.json) (the CAD file: `1975 - M484 - Dual Summing Amplifer (2) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 337 × 432 mm, 1560 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–337 mm across, 0–429 mm up
+- **Outlines:** line 2,833 rings, 25,277 straight (24,054 mm) / 6,849 curved (8,158 mm); text 3 rings, 6 straight (3.4 mm) / 3 curved (2.8 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.5 @ (91.8, 70.8), r 1.7 @ (321.7, 226.7), r 1.7 @ (96.9, 48.1), r 1.6 @ (273.7, 235.2)
+- **Dots (junctions):** 5
+- **Words (OCR):** 4 in 4 lines: ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1975 - M484 - Dual Summing Amplifer (2) p8 (traced).json](1975%20-%20M484%20-%20Dual%20Summing%20Amplifer%20%282%29%20p8%20%28traced%29.json) (the CAD file: `1975 - M484 - Dual Summing Amplifer (2) p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 337 × 432 mm, 1560 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–337 mm across, 5–430 mm up
+- **Outlines:** line 2,019 rings, 16,814 straight (16,978 mm) / 4,496 curved (5,561 mm); text 23 rings, 110 straight (103 mm) / 38 curved (47.2 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.5 @ (223.7, 273.8), r 2.4 @ (121.5, 153.5), r 2.4 @ (134.3, 153.6), r 2.2 @ (228.1, 157.9)
+- **Dots (junctions):** 3
+- **Words (OCR):** 4 in 4 lines: ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1975 - M484 - Dual Summing Amplifer (2) p9 (traced).json](1975%20-%20M484%20-%20Dual%20Summing%20Amplifer%20%282%29%20p9%20%28traced%29.json) (the CAD file: `1975 - M484 - Dual Summing Amplifer (2) p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 337 × 432 mm, 1560 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–309 mm across, 29–432 mm up
+- **Outlines:** line 1,876 rings, 20,137 straight (20,416 mm) / 5,457 curved (6,681 mm); text 21 rings, 112 straight (83.8 mm) / 28 curved (27.8 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.6 @ (83.7, 163.5), r 2.5 @ (112.9, 353.4), r 1.1 @ (152.0, 282.3)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 4 in 4 lines: ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1975 - M484 - Dual Summing Amplifer (2) p10 (traced).json](1975%20-%20M484%20-%20Dual%20Summing%20Amplifer%20%282%29%20p10%20%28traced%29.json) (the CAD file: `1975 - M484 - Dual Summing Amplifer (2) p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 337 × 432 mm, 1560 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–337 mm across, 10–432 mm up
+- **Outlines:** line 702 rings, 9,048 straight (10,431 mm) / 2,032 curved (2,679 mm); text 80 rings, 708 straight (846 mm) / 183 curved (289 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.5 @ (68.0, 81.0), r 2.0 @ (222.0, 283.2), r 1.7 @ (291.4, 305.4)
+- **Closed boxes:** 19
+- **Dots (junctions):** 3
+- **Words (OCR):** 16 in 14 lines: C2\ · 400j · 2'2 t60 · -.2.1 · '1.?/2 · -79 · R?'I) B20 · -It. · 2.2/2? · -2.2 · ps · BS
+
+Every curve, box, word and wire group: [1975 - M484 - Dual Summing Amplifer (2) p11 (traced).json](1975%20-%20M484%20-%20Dual%20Summing%20Amplifer%20%282%29%20p11%20%28traced%29.json) (the CAD file: `1975 - M484 - Dual Summing Amplifer (2) p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 337 × 432 mm, 1560 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–337 mm across, 1–432 mm up
+- **Outlines:** line 660 rings, 7,742 straight (9,261 mm) / 1,837 curved (2,492 mm); text 254 rings, 2,307 straight (2,878 mm) / 618 curved (1,053 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.4 @ (280.3, 353.8)
+- **Dots (junctions):** 1
+- **Words (OCR):** 49 in 34 lines: in, · C11 · 112" · to · If · R2.7 · 41" · 12 28 C11 · 2·'11l · -.-l1lPU_T___ · C23 · 47P
+
+Every curve, box, word and wire group: [1975 - M484 - Dual Summing Amplifer (2) p12 (traced).json](1975%20-%20M484%20-%20Dual%20Summing%20Amplifer%20%282%29%20p12%20%28traced%29.json) (the CAD file: `1975 - M484 - Dual Summing Amplifer (2) p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 337 × 432 mm, 1560 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–337 mm across, 0–432 mm up
+- **Outlines:** line 655 rings, 8,813 straight (10,910 mm) / 2,113 curved (2,958 mm); text 82 rings, 661 straight (789 mm) / 145 curved (241 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.3 @ (128.6, 160.1), r 1.8 @ (116.2, 160.3), r 1.8 @ (214.7, 282.2)
+- **Dots (junctions):** 3
+- **Words (OCR):** 11 in 10 lines: 01 · .IOO · OUTP UT · RAI · 1240 · 4K7 · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1975 - M484 - Dual Summing Amplifer (2) p13 (traced).json](1975%20-%20M484%20-%20Dual%20Summing%20Amplifer%20%282%29%20p13%20%28traced%29.json) (the CAD file: `1975 - M484 - Dual Summing Amplifer (2) p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 337 × 432 mm, 1560 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–337 mm across, 18–432 mm up
+- **Outlines:** line 1,223 rings, 13,149 straight (13,812 mm) / 3,353 curved (4,192 mm); text 27 rings, 102 straight (79.1 mm) / 44 curved (42.1 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.5 @ (152.5, 306.0), r 2.2 @ (157.7, 306.1)
+- **Closed boxes:** 1
+- **Words (OCR):** 4 in 4 lines: ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1975 - M484 - Dual Summing Amplifer (2) p14 (traced).json](1975%20-%20M484%20-%20Dual%20Summing%20Amplifer%20%282%29%20p14%20%28traced%29.json) (the CAD file: `1975 - M484 - Dual Summing Amplifer (2) p14 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

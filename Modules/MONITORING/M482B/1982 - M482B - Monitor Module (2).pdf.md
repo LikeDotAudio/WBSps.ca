@@ -16,6 +16,176 @@ Wiki page: [M482B](../../../PAGES/M482B.md)
 
 - **1982** (manual_issue): `I SSUE 112 BS MANUAL W DECE MBER 1982` — …8482 -02 -003 M482B Component La y ou l 8482_06_002 a .c ps I SSUE 112 BS MANUAL W DECE MBER 1982 :// tp ht…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 303 × 432 mm, 1403 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–291 mm across, 27–432 mm up
+- **Outlines:** line 64 rings, 1,018 straight (3,555 mm) / 152 curved (245 mm); text 401 rings, 2,881 straight (3,206 mm) / 839 curved (1,286 mm)
+- **Words (OCR):** 63 in 28 lines: WARe -BECK YSTEMS LTO · TAB LE OF CO NTENTS · M48 28 MON TOR MODUL · SECTIO · PAGE · Tec hni cal Dill · Ci · il · De scr iption · Conn~lot'" I"you · Opera tional · Con lrol
+
+Every curve, box, word and wire group: [1982 - M482B - Monitor Module (2) p1 (traced).json](1982%20-%20M482B%20-%20Monitor%20Module%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1982 - M482B - Monitor Module (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 303 × 432 mm, 1403 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–292 mm across, 14–432 mm up
+- **Outlines:** line 134 rings, 1,444 straight (3,824 mm) / 316 curved (495 mm); text 1,067 rings, 7,355 straight (8,060 mm) / 2,107 curved (3,222 mm)
+- **Words (OCR):** 197 in 93 lines: WARC-BECK SYSTEM LTC · TECH NI CAL OATA · MI. 2B MON ITOR MOD ULE · Gil ln: · 10 dB · dB br idg ing gain) · Mo · or: · So lo · 10 dB · 0.5 dB · dgi ng
+
+Every curve, box, word and wire group: [1982 - M482B - Monitor Module (2) p2 (traced).json](1982%20-%20M482B%20-%20Monitor%20Module%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1982 - M482B - Monitor Module (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 303 × 432 mm, 1403 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 17–290 mm across, 2–414 mm up
+- **Outlines:** line 122 rings, 1,391 straight (3,600 mm) / 312 curved (494 mm); text 221 rings, 1,573 straight (1,719 mm) / 474 curved (702 mm); tb 1 rings, 4 straight (2.6 mm) / 0 curved (0.0 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.6 @ (37.0, 328.9)
+- **Dots (junctions):** 1
+- **Words (OCR):** 38 in 21 lines: WARD -BECK · SYSTEMS LTD · TECHNICAL DATA · M48 2B MON1TOR MODULE · 25 \/011,. de, 20 mA namin" · 60 mA · ximum. · to · 60 · iu" · Dimen lll ion · id.,
+- **Title block:** (11, 399)–(116, 422) mm: WARD -BECK · SYSTEMS LTD
+
+Every curve, box, word and wire group: [1982 - M482B - Monitor Module (2) p3 (traced).json](1982%20-%20M482B%20-%20Monitor%20Module%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1982 - M482B - Monitor Module (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 303 × 432 mm, 1403 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 17–291 mm across, 19–419 mm up
+- **Outlines:** line 833 rings, 6,365 straight (9,523 mm) / 1,761 curved (2,640 mm); text 1,299 rings, 9,048 straight (9,717 mm) / 2,770 curved (4,207 mm)
+- **Circles and arcs:** 17 circles, 0 arcs; largest r 2.1 @ (35.5, 125.8), r 2.1 @ (91.4, 118.6), r 2.1 @ (83.9, 99.0), r 2.1 @ (137.6, 91.9)
+- **Closed boxes:** 1
+- **Dots (junctions):** 5
+- **Words (OCR):** 384 in 151 lines: WARD-BECK SySTE · LTD · CI RCUI · DESCRIP ION · The M46 2B Mo to · Mod le perml ll he monl lori ng · the main coo llole · out pu · Ihe · ne · leclor Inpu lS · nd
+
+Every curve, box, word and wire group: [1982 - M482B - Monitor Module (2) p4 (traced).json](1982%20-%20M482B%20-%20Monitor%20Module%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1982 - M482B - Monitor Module (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 303 × 432 mm, 1403 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 17–298 mm across, 0–413 mm up
+- **Outlines:** line 110 rings, 1,384 straight (3,666 mm) / 271 curved (415 mm); text 717 rings, 4,854 straight (5,224 mm) / 1,523 curved (2,306 mm); tb 48 rings, 471 straight (624 mm) / 92 curved (135 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 154 in 72 lines: WARO-BECK SYSTEMS LTO · CIRCU IT DESCRIPT ION · MU2a MON TOR MODULE · Mod · Ou pu ts, · Tl>e M4828 Mon itor · Modul~ · l"'<)v lde · Ih r-ee ..-rilt" OUIPuts. The · mel ~rln9 OUlp ut app e"r ing · in · 57
+- **Title block:** (11, 296)–(117, 421) mm: WARO-BECK SYSTEMS LTO · Mod · Ou pu ts, · Tl>e M4828 Mon itor · mel ~rln9 OUlp ut app e"r ing · Tt,,, di l!(:1 ou lpu · VU · mel~r.
+
+Every curve, box, word and wire group: [1982 - M482B - Monitor Module (2) p5 (traced).json](1982%20-%20M482B%20-%20Monitor%20Module%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1982 - M482B - Monitor Module (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 303 × 432 mm, 1403 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 20–293 mm across, 14–411 mm up
+- **Outlines:** line 270 rings, 2,671 straight (5,533 mm) / 659 curved (997 mm); text 719 rings, 4,838 straight (5,397 mm) / 1,558 curved (2,408 mm); tb 4 rings, 43 straight (54.3 mm) / 13 curved (21.1 mm)
+- **Words (OCR):** 118 in 80 lines: WARD-BECK SYSTEMS LTD · PARTS · ST · M48 28 MONIT OR MODUL · PART · DESCRI TION · MF PART NUMBE · Capac lor · 22u /2S · Phi li · 416ETF22 · C2
+- **Title block:** (15, 396)–(120, 419) mm: WARD-BECK SYSTEMS LTD
+
+Every curve, box, word and wire group: [1982 - M482B - Monitor Module (2) p6 (traced).json](1982%20-%20M482B%20-%20Monitor%20Module%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1982 - M482B - Monitor Module (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 303 × 432 mm, 1403 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–293 mm across, 2–432 mm up
+- **Outlines:** line 106 rings, 1,428 straight (4,310 mm) / 273 curved (424 mm); text 594 rings, 3,996 straight (4,464 mm) / 1,197 curved (1,798 mm); tb 7 rings, 71 straight (90.1 mm) / 14 curved (21.5 mm)
+- **Words (OCR):** 85 in 64 lines: WAFlD-BECK SYSTEMS L.TD · PAR · ST · M4828 MON TOR MOOULE · DESCR PT ON · PAR NUMBER · PART · ran si to · ircn · 2NJ569 · 2NJ645 · 2N3569
+- **Title block:** (12, 398)–(117, 421) mm: WAFlD-BECK SYSTEMS L.TD
+
+Every curve, box, word and wire group: [1982 - M482B - Monitor Module (2) p7 (traced).json](1982%20-%20M482B%20-%20Monitor%20Module%20%282%29%20p7%20%28traced%29.json) (the CAD file: `1982 - M482B - Monitor Module (2) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 303 × 432 mm, 1403 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 17–303 mm across, 16–432 mm up
+- **Outlines:** line 217 rings, 2,190 straight (5,109 mm) / 544 curved (814 mm); text 401 rings, 2,675 straight (2,944 mm) / 833 curved (1,229 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.1 @ (99.8, 327.5)
+- **Closed boxes:** 2; named: ·BECI<
+- **Words (OCR):** 51 in 39 lines: WAFlD ·BECI< SYSTEMS LTD · PARTS LIST · /144828 MONI TOFt · ULE · OESCRIPTION · MF PART NUMB ER · Re sis ior 1/4W · Ph · R3' · J9 · 2.2M · 'J9'
+
+Every curve, box, word and wire group: [1982 - M482B - Monitor Module (2) p8 (traced).json](1982%20-%20M482B%20-%20Monitor%20Module%20%282%29%20p8%20%28traced%29.json) (the CAD file: `1982 - M482B - Monitor Module (2) p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 303 × 432 mm, 1403 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 18–303 mm across, 19–432 mm up
+- **Outlines:** line 54 rings, 1,284 straight (4,323 mm) / 201 curved (313 mm); text 571 rings, 4,221 straight (4,783 mm) / 1,193 curved (1,850 mm); tb 123 rings, 974 straight (1,209 mm) / 261 curved (392 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.2 @ (119.3, 65.9)
+- **Words (OCR):** 110 in 63 lines: WAFlD -BECK SYSTEMS LTD · PA RTS LIST · M4El2B MON TOR MODULE · PART · DESC RIPTION · MFG PART NUMBER · .68 · Reslslor · 300 · Philip.. · as · l/2W
+- **Title block:** (26, 55)–(117, 421) mm: WAFlD -BECK SYSTEMS LTD · PART · DESC RIPTION · .68 · Reslslor · l/2W · swlj · Inle.-Iock · lI...ileh ..ssembly · SWIO) · swu · In rl oc:k · lCh Ils 5emb · SW151 · ut · Inle sr"led · ircu · ua · UJ · 
+
+Every curve, box, word and wire group: [1982 - M482B - Monitor Module (2) p9 (traced).json](1982%20-%20M482B%20-%20Monitor%20Module%20%282%29%20p9%20%28traced%29.json) (the CAD file: `1982 - M482B - Monitor Module (2) p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 303 × 432 mm, 1403 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–290 mm across, 18–432 mm up
+- **Outlines:** line 237 rings, 3,216 straight (7,894 mm) / 566 curved (912 mm); text 339 rings, 2,971 straight (3,539 mm) / 783 curved (1,211 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.1 @ (98.3, 104.5), r 2.1 @ (176.3, 59.4), r 2.1 @ (103.6, 87.6), r 2.1 @ (138.5, 352.9)
+- **Closed boxes:** 55; named: J2 JS J2 as; J2; JS; J2; as; 19 zo SO 52 22 2.J 55 2S as 56 es 29 ao ; SO; zo; 52; 22; 2.J; 55
+- **Dots (junctions):** 1
+- **Words (OCR):** 99 in 60 lines: WAFlD -BEC · YSTEMS LTD · PI CONNEC TOR LAYOU · 0'4 4828 MON TOR MODULE · NC · NC J2 · NC · UT ITY · UT · NC · NC · NC JS
+
+Every curve, box, word and wire group: [1982 - M482B - Monitor Module (2) p10 (traced).json](1982%20-%20M482B%20-%20Monitor%20Module%20%282%29%20p10%20%28traced%29.json) (the CAD file: `1982 - M482B - Monitor Module (2) p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 303 × 432 mm, 1403 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–303 mm across, 17–432 mm up
+- **Outlines:** line 69 rings, 924 straight (3,339 mm) / 157 curved (253 mm); text 1,127 rings, 8,100 straight (8,889 mm) / 2,363 curved (3,571 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.1 @ (66.0, 188.9), r 1.6 @ (198.9, 260.4)
+- **Words (OCR):** 215 in 93 lines: WA~O·BECK · SYSTEMS LTO · OPERAT IONAL CONTROLS · M482B MO ITOr< MOOU LE · UTILITY switche · Band · SW8, SW9 an · SW10 respec ti ve · lQwS · oe · ti on of the · ter
+- **Title block:** (14, 397)–(120, 419) mm: WA~O·BECK · SYSTEMS LTO
+
+Every curve, box, word and wire group: [1982 - M482B - Monitor Module (2) p11 (traced).json](1982%20-%20M482B%20-%20Monitor%20Module%20%282%29%20p11%20%28traced%29.json) (the CAD file: `1982 - M482B - Monitor Module (2) p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 34–336 mm across, 0–361 mm up
+- **Outlines:** line 24 rings, 379 straight (1,195 mm) / 92 curved (259 mm); text 177 rings, 1,253 straight (1,384 mm) / 414 curved (617 mm); tb 222 rings, 1,891 straight (5,076 mm) / 370 curved (739 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 5.2 @ (83.9, 182.7), r 5.2 @ (83.3, 253.7), r 5.1 @ (83.1, 293.1), r 5.1 @ (83.8, 201.2)
+- **Words (OCR):** 27 in 24 lines: WBS · M4828 · CUE · SEL · AUX · M2 · OFF · SOLO · MONITOR · LEVEL · ca · BSps (
+- **Title block:** (152, 0)–(336, 365) mm: WBS · M4828 · CUE · SEL · AUX · M2 · OFF · SOLO · MONITOR · LEVEL · ca · BSps ( · ISSUE  DaTe · Revision · WBS WARD-BECK systeMs · DRN PMxe = · M4828 · ENG; Mrn 12/13 · MONITOR MODULE · CKD · FRONT PA
+
+Every curve, box, word and wire group: [1982 - M482B - Monitor Module (2) p12 (traced).json](1982%20-%20M482B%20-%20Monitor%20Module%20%282%29%20p12%20%28traced%29.json) (the CAD file: `1982 - M482B - Monitor Module (2) p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** functional 482-01-001, size B (assumed) 432 × 273 mm, 2000 × 1265 px traced (0.216 mm/px)
+- **Ink extent:** 17–432 mm across, 0–267 mm up
+- **Outlines:** line 204 rings, 2,658 straight (6,830 mm) / 438 curved (617 mm); text 364 rings, 2,398 straight (2,881 mm) / 607 curved (912 mm); tb 20 rings, 252 straight (421 mm) / 38 curved (48.2 mm)
+- **Centre lines:** 3,726 paths (51 closed); straight 5,489 mm, curved 120 mm; horizontal 2,252 mm, vertical 1,270 mm, diagonal 1,968 mm
+- **Circles and arcs:** 13 circles, 17 arcs; largest r 1.6 @ (327.5, 164.3), r 1.6 @ (333.8, 155.8), r 1.6 @ (141.6, 141.7), r 1.5 @ (131.7, 141.6)
+- **Closed boxes:** 9 (6 in the title block)
+- **Words (OCR):** 51 in 40 lines: LINE · INPUTS · (-idB) · -.J\I\I · METER · dB) · +8dBm · 600 OHMS · 1"'0----""""----~ MUTED · Il · K1 · .'fr MUTE
+- **Title block:** (288, 1)–(432, 67) mm: ISSUE DATE · REVISION · APP. · [\NBS] WARD-BECK SYSTEM · ps · BS · DRN · MAllOIV£, · M482B · MRW 1I/7!3 · ENG. · MONITOR MODULE · CKD · tp · FUNCTIONAL DIAGRAM · ht · APP. · SCALE · ISSUE · 482-01-001
+- **Wiring (first pass):** 56 connected wire groups from 188 runs; labelled ends: 78 mm → dB); 57 mm → LINE, INPUTS, +8dBm; 37 mm → (-idB), -.J\I\I; 36 mm → METER, MUTED; 26 mm → dB)
+
+Every curve, box, word and wire group: [1982 - M482B - Monitor Module (2) p13 (traced).json](1982%20-%20M482B%20-%20Monitor%20Module%20%282%29%20p13%20%28traced%29.json) (the CAD file: `1982 - M482B - Monitor Module (2) p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 432 × 277 mm, 2000 × 1284 px traced (0.216 mm/px)
+- **Ink extent:** 7–431 mm across, 0–277 mm up
+- **Outlines:** line 1,275 rings, 11,411 straight (16,966 mm) / 2,691 curved (3,362 mm); text 607 rings, 3,139 straight (2,903 mm) / 886 curved (1,092 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 1.0 @ (40.9, 179.0), r 1.0 @ (315.1, 54.1), r 1.0 @ (165.5, 134.7), r 0.9 @ (56.6, 223.9)
+- **Closed boxes:** 24 (3 in the title block); named: CD 40 16; 1ISSUl; Af VlS10N; \NBS] WA CK YS TEMS tp; 482 ONITOR MODULE SCHEM ATIC
+- **Dots (junctions):** 6
+- **Words (OCR):** 141 in 108 lines: SOL · '2.da,..,.) 6OOA. · Pu lS.3 · rOR lj4 510 · I'\IO · C:A,C IT"O · ",J..j · '''l-.E5- · _AST · "'E.R \l\r IS · PON · PEC rJ:" rE
+- **Title block:** (355, 0)–(383, 21) mm: ht til · OttN · P.A/I.t-, · MRW · ENG · CK · SCALE
+
+Every curve, box, word and wire group: [1982 - M482B - Monitor Module (2) p14 (traced).json](1982%20-%20M482B%20-%20Monitor%20Module%20%282%29%20p14%20%28traced%29.json) (the CAD file: `1982 - M482B - Monitor Module (2) p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 432 × 288 mm, 2000 × 1334 px traced (0.216 mm/px)
+- **Ink extent:** 20–432 mm across, 0–253 mm up
+- **Outlines:** line 2,053 rings, 13,054 straight (17,495 mm) / 2,932 curved (3,772 mm); text 231 rings, 1,267 straight (1,134 mm) / 353 curved (432 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 4.6 @ (225.0, 155.1), r 4.6 @ (256.1, 155.2), r 4.6 @ (256.4, 187.2), r 4.5 @ (228.8, 187.1)
+- **Closed boxes:** 7
+- **Dots (junctions):** 3
+- **Words (OCR):** 44 in 32 lines: an · ~I~I' uz · 20 · SW · R34""O · 'il · 44-!..1S.7 · F=1A · 8"6 40 · R.3 · ~7.L1( · 33
+
+Every curve, box, word and wire group: [1982 - M482B - Monitor Module (2) p15 (traced).json](1982%20-%20M482B%20-%20Monitor%20Module%20%282%29%20p15%20%28traced%29.json) (the CAD file: `1982 - M482B - Monitor Module (2) p15 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

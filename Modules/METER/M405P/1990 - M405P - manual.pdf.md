@@ -15,6 +15,187 @@ Wiki page: [M405P](../../../PAGES/M405P.md)
 
 - **1990** (manual_issue): `MANUAL ISSUE #5 November 2, 1990` — …E: 416/438-6550 WBS M4OSP PORTABLE EXTENDED RANGER VU METER MANUAL ISSUE #5 November 2, 1990 MW9OOOl/M4OSP.WP…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–298 mm across, 0–430 mm up
+- **Outlines:** line 79 rings, 1,637 straight (4,380 mm) / 192 curved (305 mm); text 118 rings, 1,211 straight (2,913 mm) / 148 curved (247 mm); tb 41 rings, 241 straight (506 mm) / 26 curved (26.1 mm)
+- **Words (OCR):** 9 in 9 lines: WVES · WBS · WBS · WBS · WBS · WBS · WBS · WBS · WBS
+- **Title block:** (184, 0)–(294, 351) mm: WBS · WBS · WBS · WBS · WBS · WBS · WBS · WBS
+
+Every curve, box, word and wire group: [1990 - M405P - manual p1 (traced).json](1990%20-%20M405P%20-%20manual%20p1%20%28traced%29.json) (the CAD file: `1990 - M405P - manual p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 191–286 mm across, 85–102 mm up
+- **Outlines:** text 47 rings, 484 straight (579 mm) / 118 curved (162 mm)
+- **Words (OCR):** 3 in 3 lines: M4OSP · PORTABLE EXTENDED RANGE · VU METER
+
+Every curve, box, word and wire group: [1990 - M405P - manual p2 (traced).json](1990%20-%20M405P%20-%20manual%20p2%20%28traced%29.json) (the CAD file: `1990 - M405P - manual p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–333 mm across, 6–418 mm up
+- **Outlines:** line 12 rings, 637 straight (2,778 mm) / 36 curved (63.2 mm); text 257 rings, 2,207 straight (3,266 mm) / 484 curved (756 mm)
+- **Words (OCR):** 17 in 11 lines: WARD-BECK · SYSTEMS LTD_ · WBS 841 PAOGRESS AVENUE SCARBOROUGH, ONTARIO M1A 2x4 · FAX: 416/438-3865 · TELEPHONE: 416/438-6550 · M4OSP · PORTABLE EXTENDED RANGER · VU METER · MANUAL ISSUE #5 · Nove mber 1990 · MW9OOo1/M4O5P.WP
+- **Title block:** (46, 64)–(282, 418) mm: WARD-BECK · SYSTEMS LTD_ · WBS 841 PAOGRESS AVENUE SCARBOROUGH, ONTARIO M1A 2x4 · FAX: 416/438-3865 · TELEPHONE: 416/438-6550 · M4OSP · PORTABLE EXTENDED RANGER · VU METER · MANUAL ISSUE #5 · Nove mbe
+
+Every curve, box, word and wire group: [1990 - M405P - manual p3 (traced).json](1990%20-%20M405P%20-%20manual%20p3%20%28traced%29.json) (the CAD file: `1990 - M405P - manual p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–332 mm across, 23–414 mm up
+- **Outlines:** line 17 rings, 706 straight (2,528 mm) / 74 curved (121 mm); text 431 rings, 3,402 straight (4,367 mm) / 998 curved (1,454 mm)
+- **Words (OCR):** 30 in 27 lines: WARD-BECK · SYSTEMS LTD_ · TABLE QFCONTENTS · MAOSP PORTABLE_EXTENDED RANGE_YU_METER · SECTION · PAGE · Warranty · Technical Data · 1-1 · General · 2-1 · Circuit Description
+- **Title block:** (23, 391)–(150, 416) mm: WARD-BECK · SYSTEMS LTD_
+
+Every curve, box, word and wire group: [1990 - M405P - manual p4 (traced).json](1990%20-%20M405P%20-%20manual%20p4%20%28traced%29.json) (the CAD file: `1990 - M405P - manual p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 29–304 mm across, 10–404 mm up
+- **Outlines:** text 2,357 rings, 19,092 straight (19,501 mm) / 5,638 curved (8,252 mm); tb 33 rings, 537 straight (2,531 mm) / 54 curved (88.0 mm)
+- **Words (OCR):** 44 in 37 lines: WARD-BECK SYSTEMS · WARRANTY · All Ward-Beck Systems Ltd , products are warranted against defective materials and workmanship for a period · of one year from the date of shipment_ · Ward-Beck Systems Ltd. · will repair or replace, at its option and without charge, all said products Or parts thereof 
+- **Title block:** (21, 33)–(312, 414) mm: WARD-BECK SYSTEMS · WARRANTY · All Ward-Beck Systems Ltd , products are warranted against defective materials and workmanship for a period · of one year from the date of shipment_ · Ward-Beck Systems 
+
+Every curve, box, word and wire group: [1990 - M405P - manual p5 (traced).json](1990%20-%20M405P%20-%20manual%20p5%20%28traced%29.json) (the CAD file: `1990 - M405P - manual p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 31–301 mm across, 16–411 mm up
+- **Outlines:** line 6 rings, 1,045 straight (2,417 mm) / 117 curved (190 mm); text 1,041 rings, 7,742 straight (8,428 mm) / 2,470 curved (3,626 mm)
+- **Words (OCR):** 44 in 40 lines: WAAD-BECK · systems LTD_ · TECHNICAL DATA · MAOSP PORTABLE EXTENDED RANGE YU METER · Range: · reading: · 30 dBm to +30 dBm in 2 dB steps for · 0 VU · Frequency Response: · +/-0.25 dB from 20 Hz to 20 kHz_ · 330 dB down at 60 Hz with filter in. · Noise:
+- **Title block:** (25, 396)–(131, 420) mm: WAAD-BECK · systems LTD_
+
+Every curve, box, word and wire group: [1990 - M405P - manual p6 (traced).json](1990%20-%20M405P%20-%20manual%20p6%20%28traced%29.json) (the CAD file: `1990 - M405P - manual p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 29–300 mm across, 13–405 mm up
+- **Outlines:** line 10 rings, 760 straight (2,933 mm) / 91 curved (133 mm); text 1,557 rings, 11,443 straight (11,586 mm) / 3,812 curved (5,614 mm); tb 8 rings, 55 straight (55.5 mm) / 23 curved (29.7 mm)
+- **Words (OCR):** 88 in 54 lines: WARD-BECK · SYSTEMS LTD · GENERAL · MAOSP · PORTABLE EXTENDED RANGE_VU METER · The M4OSP Extended Range VU Meter is · The active circuitry utilizes FET devices · battery operated, · portable instrument · to achicve high impedance operation with · designed for the measurement trans- · of
+- **Title block:** (23, 271)–(164, 414) mm: WARD-BECK · SYSTEMS LTD · MAOSP · The M4OSP Extended Range VU Meter is · battery operated, · portable instrument · designed for the measurement trans- · of · mission, noise and VU levels throughout an
+
+Every curve, box, word and wire group: [1990 - M405P - manual p7 (traced).json](1990%20-%20M405P%20-%20manual%20p7%20%28traced%29.json) (the CAD file: `1990 - M405P - manual p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 28–301 mm across, 14–407 mm up
+- **Outlines:** line 24 rings, 919 straight (2,945 mm) / 120 curved (190 mm); text 3,444 rings, 25,084 straight (24,924 mm) / 8,405 curved (12,479 mm)
+- **Words (OCR):** 236 in 109 lines: WARD-BECK · SYSTEMS LTD. · CIRCUIT DESCRIPTION · MAOSP PORTABLE EXTENDED RANGE VUMETER · The signal input to the M4OSP Extended The preamplifier output is via capacitor · Range VU Meter may be via binding post CS5. The output amplifier comprises trans- · terminals J2 and J3 or telephone jack Jl_ · i
+- **Title block:** (25, 391)–(152, 416) mm: WARD-BECK · SYSTEMS LTD.
+
+Every curve, box, word and wire group: [1990 - M405P - manual p8 (traced).json](1990%20-%20M405P%20-%20manual%20p8%20%28traced%29.json) (the CAD file: `1990 - M405P - manual p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** layout B405-04-016, size B 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px); scale ,
+- **Ink extent:** 28–300 mm across, 13–405 mm up
+- **Outlines:** line 14 rings, 747 straight (2,539 mm) / 78 curved (124 mm); text 2,691 rings, 19,590 straight (20,107 mm) / 6,709 curved (9,886 mm); tb 11 rings, 68 straight (68.8 mm) / 19 curved (25.3 mm)
+- **Words (OCR):** 185 in 109 lines: WARD-BECK SYSTEMS LTD_ · OPERATIONAL_ DESCRIPTION · MAOSP PORTABLE EXTENDED RANGE_YLMETER · (Refer to Front & Rear Layout B405-04-016) · VU Meter · movement: Standard scale, · this output source offers the · capability · movement · complics to ASA VU Meter · driving a 600 ohm line to approxi- · of'
+- **Title block:** (24, 205)–(231, 415) mm: WARD-BECK SYSTEMS LTD_ · OPERATIONAL_ DESCRIPTION · MAOSP PORTABLE EXTENDED RANGE_YLMETER · (Refer to Front & Rear Layout B405-04-016) · VU Meter · movement: Standard scale, · this output source offer
+
+Every curve, box, word and wire group: [1990 - M405P - manual p9 (traced).json](1990%20-%20M405P%20-%20manual%20p9%20%28traced%29.json) (the CAD file: `1990 - M405P - manual p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** component layout B142-06-002, size B 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 27–302 mm across, 12–405 mm up
+- **Outlines:** line 14 rings, 705 straight (2,493 mm) / 209 curved (187 mm); text 2,736 rings, 21,280 straight (19,294 mm) / 7,511 curved (8,897 mm)
+- **Words (OCR):** 183 in 80 lines: WARD-BECK SYSTEMS LTD_ · MAINTENANCE · MAUSP PORIABLE EXTENDED RANGE_VU METER · The M4OSP is   designed for dependable, If it is   necessary to · interchange COm- · trouble-free service. However, as with all · ponent to determine the cause Of · fault, · high quality electronic equipment, reg- remove
+- **Title block:** (24, 389)–(151, 415) mm: WARD-BECK SYSTEMS LTD_
+
+Every curve, box, word and wire group: [1990 - M405P - manual p10 (traced).json](1990%20-%20M405P%20-%20manual%20p10%20%28traced%29.json) (the CAD file: `1990 - M405P - manual p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–333 mm across, 11–427 mm up
+- **Outlines:** line 24 rings, 799 straight (2,814 mm) / 73 curved (115 mm); text 373 rings, 3,046 straight (4,042 mm) / 888 curved (1,301 mm)
+- **Words (OCR):** 40 in 35 lines: WARD-BECK SYSTEMS LTD · DC VOLTAGE CHARI · MAOSP PORTABLE EXTENDED RANGE VU METER · VE · VB · VC · Q1 · 4.6 · 22 · Q2 · 22.5 · 22
+- **Title block:** (24, 389)–(130, 413) mm: WARD-BECK SYSTEMS LTD
+
+Every curve, box, word and wire group: [1990 - M405P - manual p11 (traced).json](1990%20-%20M405P%20-%20manual%20p11%20%28traced%29.json) (the CAD file: `1990 - M405P - manual p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–301 mm across, 13–419 mm up
+- **Outlines:** line 131 rings, 1,481 straight (4,070 mm) / 222 curved (305 mm); text 936 rings, 7,336 straight (8,589 mm) / 2,065 curved (3,092 mm)
+- **Words (OCR):** 90 in 84 lines: WARD-BECK · SYSTEMS LTD_ · PARTS LIST · MAOSP PORTABLE EXTENDED RANGE VU_METER · PART · DESCRIPTION · MFG · MFG PARTNUMBER · Battery Alkaline · Capacitor 2.2 uF/250 · Philips · 341-49-225
+- **Title block:** (24, 390)–(131, 415) mm: WARD-BECK · SYSTEMS LTD_
+
+Every curve, box, word and wire group: [1990 - M405P - manual p12 (traced).json](1990%20-%20M405P%20-%20manual%20p12%20%28traced%29.json) (the CAD file: `1990 - M405P - manual p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** mechanical A405-03-006, size A 216 × 279 mm, 1546 × 2000 px traced (0.140 mm/px)
+- **Ink extent:** 20–212 mm across, 7–272 mm up
+- **Outlines:** line 199 rings, 1,804 straight (2,761 mm) / 328 curved (290 mm); text 1,119 rings, 8,463 straight (6,246 mm) / 2,604 curved (2,501 mm); tb 18 rings, 126 straight (89.4 mm) / 31 curved (26.0 mm)
+- **Centre lines:** 8,398 paths (141 closed); straight 5,916 mm, curved 12.4 mm; horizontal 1,386 mm, vertical 1,671 mm, diagonal 2,859 mm
+- **Circles and arcs:** 1 circles, 4 arcs; largest r 0.7 @ (26.7, 88.4)
+- **Words (OCR):** 131 in 121 lines: WARD-BECK SYSTEMS LTD_ · PARTS LIST · MAOSP PORTABLE_EXTENDED RANGE YU METER · PART · DESCRIPTION · MFG · MFG PARTNUMBER · Jack · ADC · PJ-339 · Binding Post; Red · Johnson
+- **Title block:** (15, 169)–(143, 270) mm: WARD-BECK SYSTEMS LTD_ · PARTS LIST · MAOSP PORTABLE_EXTENDED RANGE YU METER · PART · DESCRIPTION · MFG · Jack · ADC · Binding Post; Red · Johnson · Binding Post, Black · Green · Jack · ADC · Jack Mou
+
+Every curve, box, word and wire group: [1990 - M405P - manual p13 (traced).json](1990%20-%20M405P%20-%20manual%20p13%20%28traced%29.json) (the CAD file: `1990 - M405P - manual p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–332 mm across, 0–427 mm up
+- **Outlines:** line 52 rings, 918 straight (3,446 mm) / 88 curved (154 mm); text 476 rings, 3,992 straight (4,558 mm) / 1,224 curved (1,790 mm); tb 100 rings, 546 straight (740 mm) / 180 curved (250 mm)
+- **Words (OCR):** 54 in 48 lines: WARD-BECK SYSTEMS LTD_ · PARTS LIST · MAOSP PORTABLE EXTENDED RANGE VU METER · PART · DESCRIPTION · MFG · MFG PARTNUMBER · R26 · Resistor 1/4W 5% · IOOK · Philips · CR2S
+- **Title block:** (22, 48)–(245, 413) mm: WARD-BECK SYSTEMS LTD_ · PARTS LIST · MAOSP PORTABLE EXTENDED RANGE VU METER · PART · DESCRIPTION · MFG · R26 · Resistor 1/4W 5% · IOOK · Philips · CR2S · R27 · 75 · R28 · 27K · R29 · 24 · R30 · 24 · 
+
+Every curve, box, word and wire group: [1990 - M405P - manual p14 (traced).json](1990%20-%20M405P%20-%20manual%20p14%20%28traced%29.json) (the CAD file: `1990 - M405P - manual p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** schematic 405-02-016, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 2–415 mm across, 0–279 mm up
+- **Outlines:** line 820 rings, 7,587 straight (10,835 mm) / 1,788 curved (2,113 mm); text 183 rings, 1,321 straight (1,198 mm) / 364 curved (430 mm)
+- **Centre lines:** 8,945 paths (202 closed); straight 7,390 mm, curved 237 mm; horizontal 2,556 mm, vertical 2,034 mm, diagonal 2,800 mm
+- **Circles and arcs:** 11 circles, 21 arcs; largest r 3.8 @ (287.5, 188.7), r 3.7 @ (187.2, 186.0), r 3.6 @ (331.7, 189.5), r 3.6 @ (331.7, 148.9)
+- **Closed boxes:** 3
+- **Words (OCR):** 31 in 29 lines: cmil · 47/25 · HEADSIT · 27/30 · 2.2/250 · RUTC · ZN440I · 144146 · 14448 · 1542 · 624 < Kzi < · 004
+- **Title block:** (356, 31)–(424, 47) mm: WARD-BECK SYSTEMS · M4o5p
+- **Wiring (first pass):** 83 connected wire groups from 684 runs; labelled ends: 320 mm → Kzi <, 10/25, 004; 286 mm → 14448; 74 mm → 27/30, 2.2/250; 71 mm → 10/25; 66 mm → 1542
+
+Every curve, box, word and wire group: [1990 - M405P - manual p15 (traced).json](1990%20-%20M405P%20-%20manual%20p15%20%28traced%29.json) (the CAD file: `1990 - M405P - manual p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** layout 405-04-016, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px); scale DISC NO: 240
+- **Ink extent:** 0–432 mm across, 8–279 mm up
+- **Outlines:** line 329 rings, 3,291 straight (10,038 mm) / 658 curved (1,646 mm); text 266 rings, 1,783 straight (2,393 mm) / 547 curved (813 mm); tb 3 rings, 76 straight (191 mm) / 5 curved (11.9 mm)
+- **Circles and arcs:** 25 circles, 0 arcs; largest r 11.7 @ (130.2, 114.1), r 8.4 @ (140.6, 40.0), r 8.3 @ (121.3, 39.9), r 7.0 @ (140.7, 39.9)
+- **Closed boxes:** 22 (10 in the title block); named: 2o 0 100; DB 10 MTCH BDG MTCH TEST 40 50 FILTER CU; 405-04-016; SCALE; 405116 CODE:
+- **Words (OCR):** 37 in 35 lines: 2o 0 · 100 · DB · 10 · MTCH · BDG · MTCH · TEST · 40 · 50 · FILTER · 4PP
+- **Title block:** (254, 15)–(419, 80) mm: 4PP · ISSUE| DATE · REVISION · WARD-BECK   SYSTEMS · WBS · DRN. JRG 8/88 · M405P · ENG · EXTENDED · RANGE VU · METER · CKD_ · LA YOUT · APP · SCALE DISC NO: 240 · ISSUE · 405116 · 405-04-016 · CODE:
+
+Every curve, box, word and wire group: [1990 - M405P - manual p16 (traced).json](1990%20-%20M405P%20-%20manual%20p16%20%28traced%29.json) (the CAD file: `1990 - M405P - manual p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** component layout B 142-06-002, size B 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–279 mm up
+- **Outlines:** line 653 rings, 3,333 straight (4,715 mm) / 1,108 curved (1,107 mm); text 397 rings, 2,341 straight (2,000 mm) / 825 curved (849 mm); tb 3 rings, 51 straight (97.1 mm) / 5 curved (4.7 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 0.9 @ (285.0, 143.8), r 0.9 @ (256.5, 98.6)
+- **Closed boxes:** 1; named: ZNSOD7 2N401 Doox 49 ZN_LDI 245007 2N-01
+- **Words (OCR):** 31 in 29 lines: 2N401 · ZNSOD7 · Doox · 49 · ZN_LDI · 245007 · 2N-01 · cic · cs 22/35 · 22/35 · R9 18k · 22k
+- **Title block:** (340, 35)–(430, 51) mm: WBS WAAD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1990 - M405P - manual p17 (traced).json](1990%20-%20M405P%20-%20manual%20p17%20%28traced%29.json) (the CAD file: `1990 - M405P - manual p17 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

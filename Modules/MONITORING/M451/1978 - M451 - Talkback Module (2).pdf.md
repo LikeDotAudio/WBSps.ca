@@ -16,6 +16,184 @@ Wiki page: [M451](../../../PAGES/M451.md)
 
 - **1978** (manual_issue): `IS SUE IZ ps BS FEB. 1978` — …00 1 1'1 45 1 Co n necto r Layout A451-04-00 2 a .c MAN UAL IS SUE IZ ps BS FEB. 1978 W :// tp ht…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 319 × 432 mm, 1477 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 166–319 mm across, 3–432 mm up
+- **Outlines:** line 75 rings, 2,962 straight (9,767 mm) / 245 curved (412 mm); text 1 rings, 2 straight (1.5 mm) / 1 curved (0.9 mm)
+- **Closed boxes:** 6; named: \N8S; \N8S
+- **Words (OCR):** 16 in 14 lines: \N8S · \N8S · \N8S · \N8S · \N8S · \N8S · \N8S · .51 · TALKBACK MODUlE · \N8S ps · BS · tp
+
+Every curve, box, word and wire group: [1978 - M451 - Talkback Module (2) p1 (traced).json](1978%20-%20M451%20-%20Talkback%20Module%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1978 - M451 - Talkback Module (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 319 × 432 mm, 1477 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–318 mm across, 3–432 mm up
+- **Outlines:** line 102 rings, 2,148 straight (5,020 mm) / 317 curved (516 mm); text 85 rings, 712 straight (919 mm) / 194 curved (293 mm)
+- **Words (OCR):** 24 in 14 lines: WARD- BE CK YST · LTD · EaB ""VE NUe. · ac" po "'lOl...Q-1. · CNTAFW::l M1H IIX.., · oee· · Tn.J:PHCJNe.: · l"':3B · M451 · TALKBACK MODUL · ps · BS
+
+Every curve, box, word and wire group: [1978 - M451 - Talkback Module (2) p2 (traced).json](1978%20-%20M451%20-%20Talkback%20Module%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1978 - M451 - Talkback Module (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 321 × 432 mm, 1485 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 14–321 mm across, 21–431 mm up
+- **Outlines:** line 179 rings, 2,242 straight (4,843 mm) / 477 curved (720 mm); text 265 rings, 1,987 straight (2,331 mm) / 461 curved (738 mm)
+- **Words (OCR):** 75 in 37 lines: WAR · BECK SYSTEM · TO, · TAB LE OF COHTE HTS · "451 TAU.8 ACK OOULE · SECTI ON · PAG · Warranty · hn · Oll · Circuit Descr ption · 2-1
+
+Every curve, box, word and wire group: [1978 - M451 - Talkback Module (2) p3 (traced).json](1978%20-%20M451%20-%20Talkback%20Module%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1978 - M451 - Talkback Module (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 321 × 432 mm, 1485 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–318 mm across, 0–432 mm up
+- **Outlines:** line 299 rings, 2,735 straight (5,529 mm) / 706 curved (1,065 mm); text 1,431 rings, 9,980 straight (10,941 mm) / 2,994 curved (4,549 mm); tb 236 rings, 1,813 straight (2,113 mm) / 549 curved (784 mm)
+- **Words (OCR):** 351 in 93 lines: WARD-BeCK SYSTeMS LTD. · ARR ANTY · All Wa -Beck. · t~m Ltd. produ cts re wilr ra nt · aga nst · defe ct ve · te al an work. man sh · or · per10d of on · ear from da · sh ip ment. · Ward- Be ck Sy ells will re pa
+- **Title block:** (9, 104)–(215, 421) mm: WARD-BeCK SYSTeMS LTD. · ARR ANTY · All Wa -Beck. · t~m Ltd. produ cts re wilr ra nt · defe ct ve · te al an work. man sh · or · ear from da · sh ip ment. · Ward- Be ck Sy ells will re pa · rep la ce.
+
+Every curve, box, word and wire group: [1978 - M451 - Talkback Module (2) p4 (traced).json](1978%20-%20M451%20-%20Talkback%20Module%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1978 - M451 - Talkback Module (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 321 × 432 mm, 1485 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–320 mm across, 1–432 mm up
+- **Outlines:** line 320 rings, 3,159 straight (6,247 mm) / 687 curved (1,051 mm); text 719 rings, 5,270 straight (5,957 mm) / 1,409 curved (2,215 mm)
+- **Words (OCR):** 165 in 65 lines: WAF=lO -BECK YSTEMS LTO · TECHNI CAL DATA · "451 TAL KBACK AMPL IFIER · Tr ans duce Ga · B8 d8 · d8. · Frequ en cy Re spo ns · d8 ro. 100 Hz · 10 kHz. · Ho ise · 122 d8_ EIN. (20 Hz · 20 kHz
+
+Every curve, box, word and wire group: [1978 - M451 - Talkback Module (2) p5 (traced).json](1978%20-%20M451%20-%20Talkback%20Module%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1978 - M451 - Talkback Module (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 321 × 432 mm, 1485 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 11–320 mm across, 1–432 mm up
+- **Outlines:** line 551 rings, 5,120 straight (8,623 mm) / 1,285 curved (1,928 mm); text 1,677 rings, 12,221 straight (13,457 mm) / 3,496 curved (5,528 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.8 @ (239.0, 211.8), r 1.8 @ (267.3, 158.6)
+- **Closed boxes:** 1
+- **Words (OCR):** 434 in 87 lines: WARD-BECK YSTEMS LTD · CIRCU IT DESCR IPTION · M451 TAL KB ACK MODULE · The M451 TA LKBAC Modul is designed to accept inputs · om two · sepa rate mi crop hone sourc es · The signa is amplifi ed · an · output lev el of · dBm. Addi tio na lly, the unit incor por ate · mute co nt rol or each nput chann
+
+Every curve, box, word and wire group: [1978 - M451 - Talkback Module (2) p6 (traced).json](1978%20-%20M451%20-%20Talkback%20Module%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1978 - M451 - Talkback Module (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 321 × 432 mm, 1485 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–321 mm across, 1–432 mm up
+- **Outlines:** line 273 rings, 2,908 straight (5,824 mm) / 622 curved (976 mm); text 1,009 rings, 7,347 straight (8,149 mm) / 2,204 curved (3,456 mm)
+- **Words (OCR):** 228 in 55 lines: WARO-BECK SYSTEM LTO, · CIRCUIT DESCRIPTION · M45l TALK BAC MOD UL · 25 Hz Osc il · or · 25 Hz · xat on oscillator is made up of Z3 C2 · R53, R54 · and R55. · portion of the osci lator signal is nj ect ed into · Z2 via R49. · The 25 Hz si gnal appears at the output of the ampl if
+
+Every curve, box, word and wire group: [1978 - M451 - Talkback Module (2) p7 (traced).json](1978%20-%20M451%20-%20Talkback%20Module%20%282%29%20p7%20%28traced%29.json) (the CAD file: `1978 - M451 - Talkback Module (2) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 311 × 432 mm, 1440 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–294 mm across, 7–414 mm up
+- **Outlines:** line 611 rings, 5,749 straight (9,026 mm) / 1,489 curved (2,286 mm); text 646 rings, 4,650 straight (5,489 mm) / 1,275 curved (2,020 mm); tb 5 rings, 30 straight (44.4 mm) / 4 curved (5.7 mm)
+- **Dots (junctions):** 2
+- **Words (OCR):** 204 in 129 lines: WA~O -BECK · SYSTEMS L.TC · PARTS LIST · 451 TAlKBACK MOO ULE · PART · DESCRI TI ON · MFG PAR NUM BER · CI · Ca · ito · 10 uF /25 · Ph 11p
+- **Title block:** (33, 400)–(114, 423) mm: WA~O -BECK · SYSTEMS L.TC
+
+Every curve, box, word and wire group: [1978 - M451 - Talkback Module (2) p8 (traced).json](1978%20-%20M451%20-%20Talkback%20Module%20%282%29%20p8%20%28traced%29.json) (the CAD file: `1978 - M451 - Talkback Module (2) p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 311 × 432 mm, 1440 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 12–297 mm across, 2–417 mm up
+- **Outlines:** line 241 rings, 2,736 straight (5,230 mm) / 621 curved (992 mm); text 389 rings, 2,670 straight (3,149 mm) / 742 curved (1,166 mm)
+- **Dots (junctions):** 2
+- **Words (OCR):** 79 in 60 lines: WARD-BECK YSTEMS L.TD · PARTS IST · 1'1451 TALKBA CK MODULE · PART · DESCRIP TION · HFG · MFG PART HUMB ER · Diod · Mo or · 1H4003 · CR7 · Q1
+
+Every curve, box, word and wire group: [1978 - M451 - Talkback Module (2) p9 (traced).json](1978%20-%20M451%20-%20Talkback%20Module%20%282%29%20p9%20%28traced%29.json) (the CAD file: `1978 - M451 - Talkback Module (2) p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 311 × 432 mm, 1440 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 11–311 mm across, 8–432 mm up
+- **Outlines:** line 58 rings, 1,194 straight (3,704 mm) / 180 curved (286 mm); text 415 rings, 2,966 straight (3,327 mm) / 896 curved (1,354 mm); tb 236 rings, 1,838 straight (2,407 mm) / 546 curved (808 mm)
+- **Words (OCR):** 109 in 84 lines: WARD-BECK SYSTEMS LTD · PA RTS · ST · M45 TAL KBA CK MODUL · PA RT · OESCRIP TIO · MFG · MFG PART NUMB ER · Res sto · 51 · Ph1l 1ps · R22
+- **Title block:** (7, 112)–(241, 423) mm: WARD-BECK SYSTEMS LTD · PA RTS · ST · M45 TAL KBA CK MODUL · PA RT · OESCRIP TIO · MFG · Res sto · 51 · Ph1l 1ps · R22 · 620 · .24 · 56 · .26 · 1M · R27 · 22K · .28 · R29 · 62K · 330K · 31 · R32 · 22K
+
+Every curve, box, word and wire group: [1978 - M451 - Talkback Module (2) p10 (traced).json](1978%20-%20M451%20-%20Talkback%20Module%20%282%29%20p10%20%28traced%29.json) (the CAD file: `1978 - M451 - Talkback Module (2) p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 311 × 432 mm, 1440 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–300 mm across, 8–432 mm up
+- **Outlines:** line 72 rings, 1,418 straight (4,054 mm) / 260 curved (401 mm); text 719 rings, 5,311 straight (6,054 mm) / 1,544 curved (2,377 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 121 in 76 lines: YSTEMS LT · PARTS LIST · M451 TAL KBACK MODULE · PART · DESCRIPTION · MfG · MFG PART NUMB ER · Resistor · ss 15K · Philips · R56 · R57
+- **Title block:** (224, 98)–(248, 149) mm
+
+Every curve, box, word and wire group: [1978 - M451 - Talkback Module (2) p11 (traced).json](1978%20-%20M451%20-%20Talkback%20Module%20%282%29%20p11%20%28traced%29.json) (the CAD file: `1978 - M451 - Talkback Module (2) p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 311 × 432 mm, 1440 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 13–295 mm across, 9–414 mm up
+- **Outlines:** line 38 rings, 1,090 straight (3,675 mm) / 149 curved (247 mm); text 372 rings, 2,919 straight (3,353 mm) / 868 curved (1,359 mm); tb 23 rings, 157 straight (196 mm) / 44 curved (68.2 mm)
+- **Words (OCR):** 72 in 37 lines: WARD-BECK SYSTEMS · LTD. · PARTS · IS · M45 TA LKBACK MODUL · CONTROL KNOBS, · APS AN BU TTO NS · SED · DESCR PT 1ON · MFG · MFG PART NUM BER · nob
+- **Title block:** (7, 34)–(114, 423) mm: WARD-BECK SYSTEMS · SED · DESCR PT 1ON · nob · Coo · SWl · Button · SW4 · 5W5 · WBS recom me · ~nuf ct ur.,rs fo con in
+
+Every curve, box, word and wire group: [1978 - M451 - Talkback Module (2) p12 (traced).json](1978%20-%20M451%20-%20Talkback%20Module%20%282%29%20p12%20%28traced%29.json) (the CAD file: `1978 - M451 - Talkback Module (2) p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 311 × 432 mm, 1440 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–311 mm across, 0–432 mm up
+- **Outlines:** line 111 rings, 2,457 straight (6,416 mm) / 392 curved (635 mm); text 283 rings, 1,849 straight (1,744 mm) / 674 curved (919 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 5.5 @ (161.9, 201.1), r 5.5 @ (162.0, 223.5), r 5.0 @ (162.8, 282.9), r 4.9 @ (162.2, 156.5)
+- **Closed boxes:** 14; named: WU WI; WU WI; or LEVEL kAoS Contrah ll c~tro 19 the Ir; OUT I"UT S(LEClOl' he 5WI S\!4 TM..e Itc; ,,,ed. 2S Nz OSCILLATOR tc Whefll dap th; BS; CIlLO.; OCAU; AI; 'SI-OO-OCW
+- **Words (OCR):** 78 in 46 lines: WI · WU · LEVEL c~tro · kAoS · Contrah the · 19 · or ll · IrlOdule outputs · OUT I"UT S(LEClOl' · he 5WI · or the · S\!4
+
+Every curve, box, word and wire group: [1978 - M451 - Talkback Module (2) p13 (traced).json](1978%20-%20M451%20-%20Talkback%20Module%20%282%29%20p13%20%28traced%29.json) (the CAD file: `1978 - M451 - Talkback Module (2) p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 432 × 296 mm, 2000 × 1370 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–235 mm up
+- **Outlines:** line 207 rings, 2,454 straight (7,313 mm) / 423 curved (674 mm); text 414 rings, 2,736 straight (3,407 mm) / 752 curved (1,124 mm); tb 29 rings, 395 straight (599 mm) / 66 curved (103 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 1.7 @ (287.8, 130.8), r 1.7 @ (51.6, 188.2), r 1.7 @ (63.5, 188.1), r 1.6 @ (331.0, 180.2)
+- **Closed boxes:** 12 (6 in the title block); named: COMP; 25 Hz OSC; REVISED DESIGNATIONS; 10171; 9/11
+- **Words (OCR):** 81 in 59 lines: AUOIO · MIC INPUT · CONTROL · -70 dBm · 150 OHMS · TB · AUDIO · LEVEL · INSERT · CONTROL · OUTPUTS · MIC CONTROL
+- **Title block:** (275, 0)–(432, 72) mm: 9/11 · RED RAWN · ISSUE DATE · REVISION · ca APP. · [\NSS] WARD-BECK SYSTE · ps · BS · DRN · )'I'<{t\+(9)(:I:Y · MA5 · ENG_ RKB · -TA LKBACK MODULE · tp · CKD_KtLl<- · APP.~ ._1-1 · FUNCTIO · ht · DIA
+
+Every curve, box, word and wire group: [1978 - M451 - Talkback Module (2) p14 (traced).json](1978%20-%20M451%20-%20Talkback%20Module%20%282%29%20p14%20%28traced%29.json) (the CAD file: `1978 - M451 - Talkback Module (2) p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 432 × 276 mm, 2000 × 1277 px traced (0.216 mm/px)
+- **Ink extent:** 3–432 mm across, 0–271 mm up
+- **Outlines:** line 634 rings, 8,127 straight (15,626 mm) / 1,626 curved (2,095 mm); text 1,158 rings, 5,949 straight (5,092 mm) / 1,904 curved (2,286 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.0 @ (52.4, 49.5), r 0.9 @ (87.8, 40.5)
+- **Closed boxes:** 29; named: IlIIAT\; USlD ON; KD.; ,JO DATE OCT.
+- **Words (OCR):** 269 in 224 lines: "01 · tV QB · <2K · PN SGo · IO · l2 CR2 J4 · ..20 · R'O · Z3 · 100/ · CI · 22K
+
+Every curve, box, word and wire group: [1978 - M451 - Talkback Module (2) p15 (traced).json](1978%20-%20M451%20-%20Talkback%20Module%20%282%29%20p15%20%28traced%29.json) (the CAD file: `1978 - M451 - Talkback Module (2) p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 432 × 310 mm, 2000 × 1437 px traced (0.216 mm/px)
+- **Ink extent:** 50–432 mm across, 0–310 mm up
+- **Outlines:** line 1,369 rings, 12,373 straight (20,938 mm) / 3,144 curved (4,341 mm); text 108 rings, 670 straight (698 mm) / 196 curved (266 mm); tb 55 rings, 529 straight (647 mm) / 168 curved (234 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 6.2 @ (224.6, 150.8), r 6.1 @ (253.0, 150.7), r 5.1 @ (292.8, 247.2), r 4.8 @ (292.2, 80.5)
+- **Closed boxes:** 25 (6 in the title block); named: C5 VE EO; 7.3; BS 22 10 14 WA5; REVISION.
+- **Words (OCR):** 58 in 38 lines: C8 100! 2.S · 2~r · lL · -1<76 · ~20 · ,,400 · CR6 · Jl · Sw · ".00. · 11014001 · CR7
+- **Title block:** (326, 7)–(417, 50) mm: 7.3 BS 22 10 .ow. · 1/78 · 14 WA5 · ISSUE · OATE · REVISION. · [\NelS] WARD-BECK YST MS · tp · DflN.~ · M-45 · ENG. · ht TALKIlACK MODULE · CKD~¥N"~· · I>1'fJ'. · COM PONEN LAYOUT
+
+Every curve, box, word and wire group: [1978 - M451 - Talkback Module (2) p16 (traced).json](1978%20-%20M451%20-%20Talkback%20Module%20%282%29%20p16%20%28traced%29.json) (the CAD file: `1978 - M451 - Talkback Module (2) p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 325 × 432 mm, 1504 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 19–325 mm across, 0–432 mm up
+- **Outlines:** line 276 rings, 4,990 straight (9,872 mm) / 765 curved (1,278 mm); text 337 rings, 3,464 straight (4,488 mm) / 813 curved (1,264 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.5 @ (252.5, 89.5)
+- **Closed boxes:** 68; named: D4; LID; 11; N12; P13; Rl4; 515; TI6; UI); VI8; 19; XlD
+- **Words (OCR):** 87 in 70 lines: III · OPERATOR MI · OPERATOR · Hie · III · GND · GNO · III · iGo: · PRODUCER MI · PRODUCER IC · He
+
+Every curve, box, word and wire group: [1978 - M451 - Talkback Module (2) p17 (traced).json](1978%20-%20M451%20-%20Talkback%20Module%20%282%29%20p17%20%28traced%29.json) (the CAD file: `1978 - M451 - Talkback Module (2) p17 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

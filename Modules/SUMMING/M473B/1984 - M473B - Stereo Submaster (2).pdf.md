@@ -16,6 +16,141 @@ Wiki page: [M473B](../../../PAGES/M473B.md)
 
 - **1984** (manual_issue): `MANUAL ISSUE #1 BS //W OCTOBER 1984` — …99 TELEFOHONE, 416143S-6550 M4738 STEREO SUB MASTER a .c ps MANUAL ISSUE #1 BS //W OCTOBER 1984 : tp ht…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 12–423 mm up
+- **Outlines:** line 39 rings, 1,379 straight (2,885 mm) / 142 curved (220 mm); text 163 rings, 1,766 straight (2,460 mm) / 380 curved (646 mm); tb 16 rings, 90 straight (130 mm) / 31 curved (51.0 mm)
+- **Words (OCR):** 28 in 13 lines: (~El5) WARD-BECK SYSTEMS LTD. · ONTARIO M1H 2X4 · 641 F>t=IOGRESS AVENUE. SCAF'lBOFlClUGH. · TELEX, 065 -25399 · TELEFOHONE, 416143S-6550 · M4738 · STEREO · SUB MASTER · ps · MANUAL ISSUE BS · OCTOBER 1984 · tp
+- **Title block:** (113, 45)–(266, 426) mm: (~El5) WARD-BECK SYSTEMS LTD. · ONTARIO M1H 2X4 · 641 F>t=IOGRESS AVENUE. SCAF'lBOFlClUGH. · TELEX, 065 -25399 · TELEFOHONE, 416143S-6550 · M4738 · STEREO · SUB MASTER · MANUAL ISSUE BS
+
+Every curve, box, word and wire group: [1984 - M473B - Stereo Submaster (2) p1 (traced).json](1984%20-%20M473B%20-%20Stereo%20Submaster%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1984 - M473B - Stereo Submaster (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 18–432 mm up
+- **Outlines:** line 283 rings, 4,498 straight (8,911 mm) / 642 curved (1,052 mm); text 620 rings, 5,354 straight (6,596 mm) / 1,374 curved (2,273 mm); tb 7 rings, 50 straight (62.9 mm) / 13 curved (18.4 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.1 @ (101.4, 189.7), r 2.1 @ (242.8, 276.7), r 2.1 @ (235.7, 303.2), r 2.1 @ (235.7, 329.0)
+- **Closed boxes:** 44; named: 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 20; 21
+- **Words (OCR):** 124 in 73 lines: WARC-BECK SYSTEMS LTC · CONNECTOR LAYOUT · M473B STEREO SUBMASTER MODULE · LEFT · Ml OUTPUT · LEFTJ Ml OUTPUT · GH · RIGHT · LEFT · M2 OUTPUT · LEFT'l M2 OUTPUT · J.,BIGHT
+- **Title block:** (21, 409)–(131, 432) mm: WARC-BECK SYSTEMS LTC
+
+Every curve, box, word and wire group: [1984 - M473B - Stereo Submaster (2) p2 (traced).json](1984%20-%20M473B%20-%20Stereo%20Submaster%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1984 - M473B - Stereo Submaster (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–334 mm across, 19–423 mm up
+- **Outlines:** line 66 rings, 1,342 straight (3,119 mm) / 165 curved (272 mm); text 476 rings, 3,446 straight (4,004 mm) / 1,093 curved (1,749 mm); tb 238 rings, 1,648 straight (2,204 mm) / 429 curved (673 mm)
+- **Words (OCR):** 121 in 89 lines: WARD-BECK SYSTEMS LTD · PARTS LIST · M473B STEREO SUBMAS TER MODULE · PART · DESCR IPT IO · MFG · MFG PART NUMBE · CRI · iode · Moto rol · lN4003 · CR2
+- **Title block:** (20, 56)–(249, 432) mm: WARD-BECK SYSTEMS LTD · PARTS LIST · M473B STEREO SUBMAS TER MODULE · PART · DESCR IPT IO · MFG · CRI · iode · Moto rol · lN4003 · CR2 · PCB · Pri nted Circuit Board · WBS · WBS 4-140 · R1 · Re sistor
+
+Every curve, box, word and wire group: [1984 - M473B - Stereo Submaster (2) p3 (traced).json](1984%20-%20M473B%20-%20Stereo%20Submaster%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1984 - M473B - Stereo Submaster (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 26–336 mm across, 19–431 mm up
+- **Outlines:** line 67 rings, 1,611 straight (3,963 mm) / 178 curved (273 mm); text 624 rings, 4,932 straight (5,631 mm) / 1,364 curved (2,198 mm); tb 27 rings, 194 straight (234 mm) / 68 curved (105 mm)
+- **Words (OCR):** 86 in 48 lines: WARC-BECK SYSTEMS LTC. · PARTS LIST · M473B STEREO SUBMASTER MODULE · SOCKETS AND MISCELLANEOUS COMPONENTS · USED ON · DESCRIPTION · MFG · MFG PART NUMBER · R3 TO R6 · Black Knob · Elma · 023-3520
+- **Title block:** (19, 36)–(129, 432) mm: WARC-BECK SYSTEMS LTC. · USED ON · DESCRIPTION · R3 TO R6 · Black Knob · Black Cap · SWl · Switch Cap, Red · SW2 · P.B.Cap, Black · SW3 · Barndoor · BI ack/Vellow · SW4 · Barndoor · Black /Vellow · SW
+
+Every curve, box, word and wire group: [1984 - M473B - Stereo Submaster (2) p4 (traced).json](1984%20-%20M473B%20-%20Stereo%20Submaster%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1984 - M473B - Stereo Submaster (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–432 mm up
+- **Outlines:** line 704 rings, 8,338 straight (7,647 mm) / 1,863 curved (2,137 mm); text 66 rings, 679 straight (720 mm) / 172 curved (229 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.5 @ (142.4, 376.9), r 2.4 @ (124.5, 299.2)
+- **Words (OCR):** 33 in 27 lines: SUB ON · TO · BOOSu;,t · FADER · MOM · 800.n. · dem · AMPLIFIER · dBm · SUB ON · SliB Otl · TALLY
+
+Every curve, box, word and wire group: [1984 - M473B - Stereo Submaster (2) p5 (traced).json](1984%20-%20M473B%20-%20Stereo%20Submaster%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1984 - M473B - Stereo Submaster (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 476 rings, 11,671 straight (13,236 mm) / 2,122 curved (2,772 mm); text 108 rings, 1,332 straight (1,524 mm) / 306 curved (444 mm); tb 80 rings, 1,557 straight (1,628 mm) / 345 curved (482 mm)
+- **Closed boxes:** 15 (6 in the title block); named: --r---+-..,.--f---T--I-----'; ps BS tp; a<o.; ht
+- **Dots (junctions):** 1
+- **Words (OCR):** 23 in 17 lines: lJ:c.r · --r---+-..,.--f---T--I-----' · eoo.n. · M1 CONTROL · '----~~,..__-""*'-~IIIr--~ M2 OUTPUT · M2CONTROL · IOLOCONTAOL · REVISION · APP. · (VVEl5) WARe BECK IlVllIIiMIJ · ps · DMt.
+- **Title block:** (114, 40)–(333, 112) mm: REVISION · APP. · (VVEl5) WARe BECK IlVllIIiMIJ · ps · DMt. · BS · ENG. · a<o.
+
+Every curve, box, word and wire group: [1984 - M473B - Stereo Submaster (2) p6 (traced).json](1984%20-%20M473B%20-%20Stereo%20Submaster%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1984 - M473B - Stereo Submaster (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 348 rings, 7,783 straight (8,106 mm) / 1,441 curved (1,992 mm); text 268 rings, 2,110 straight (1,965 mm) / 646 curved (860 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 14.0 @ (205.3, 129.4), r 10.8 @ (205.1, 129.6), r 7.7 @ (205.1, 129.7), r 4.4 @ (192.6, 90.5)
+- **Closed boxes:** 2; named: ~witc~ Wi rlALANCEO SW" !"li oeor-es.seo
+- **Dots (junctions):** 1
+- **Words (OCR):** 96 in 55 lines: was · .47)8 · J~TEA ASSIGNMENT owll · de~ Ned · tt.e outP · si na · M2 · na ....istQt"s to tM · e.te · ~inQ id M2. · I~TER A5S IG_ Nr · dep,... s.4KI
+
+Every curve, box, word and wire group: [1984 - M473B - Stereo Submaster (2) p7 (traced).json](1984%20-%20M473B%20-%20Stereo%20Submaster%20%282%29%20p7%20%28traced%29.json) (the CAD file: `1984 - M473B - Stereo Submaster (2) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 528 rings, 9,742 straight (9,390 mm) / 1,941 curved (2,294 mm); text 174 rings, 1,457 straight (1,529 mm) / 370 curved (519 mm); tb 127 rings, 1,863 straight (2,058 mm) / 469 curved (680 mm)
+- **Closed boxes:** 8 (8 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 74 in 47 lines: 5W.: Wh.~ · !J"MlNT swl'ch · OU.tPUI signal Is f.d vie · rs to · the · Itxterna · ater · 5W W"":I · he output · NM£ NT · wit · gna
+- **Title block:** (116, 12)–(335, 113) mm: SSUE · DATE · REVISION · APP. · (VVE3S] WARD-BECK SYSTEMS · ps · DRN. D'rue:.t · M4738 BS · ENG. · STEREO SUBMASTER MODULE · CKO, · FRONT PANEL · APP. · tp · BI 47~-o4-o07 · SCALE · ht · ISSUE · 1:1
+
+Every curve, box, word and wire group: [1984 - M473B - Stereo Submaster (2) p8 (traced).json](1984%20-%20M473B%20-%20Stereo%20Submaster%20%282%29%20p8%20%28traced%29.json) (the CAD file: `1984 - M473B - Stereo Submaster (2) p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 359 rings, 6,021 straight (8,780 mm) / 1,096 curved (1,743 mm); text 74 rings, 786 straight (968 mm) / 193 curved (318 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 2.6 @ (56.4, 109.0), r 2.5 @ (6.7, 339.3), r 2.4 @ (204.5, 370.2), r 2.4 @ (141.2, 140.9)
+- **Dots (junctions):** 9
+- **Words (OCR):** 28 in 18 lines: TO · FADER · OdBm · sue ON TALLY · ue ON · TA LLY · CHASSIS ROUND · SIGNAL GROUN · NOTES: · ps · 2.1 · BS RESI51'
+
+Every curve, box, word and wire group: [1984 - M473B - Stereo Submaster (2) p9 (traced).json](1984%20-%20M473B%20-%20Stereo%20Submaster%20%282%29%20p9%20%28traced%29.json) (the CAD file: `1984 - M473B - Stereo Submaster (2) p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 279 rings, 6,048 straight (8,731 mm) / 1,021 curved (1,544 mm); text 170 rings, 1,739 straight (2,117 mm) / 454 curved (740 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.4 @ (134.2, 99.6)
+- **Dots (junctions):** 7
+- **Words (OCR):** 48 in 38 lines: BALANCE · 390 · R3 · IK · 12 · -=tK · on · R.e · 3~O · TO · FROM · BOOSTER
+
+Every curve, box, word and wire group: [1984 - M473B - Stereo Submaster (2) p10 (traced).json](1984%20-%20M473B%20-%20Stereo%20Submaster%20%282%29%20p10%20%28traced%29.json) (the CAD file: `1984 - M473B - Stereo Submaster (2) p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 279 rings, 9,763 straight (15,596 mm) / 1,545 curved (2,439 mm); text 183 rings, 1,721 straight (2,138 mm) / 449 curved (695 mm)
+- **Closed boxes:** 24
+- **Dots (junctions):** 21
+- **Words (OCR):** 48 in 43 lines: Ia · R\4- · 'OW2 · Is · SW · tON · RI7 · BALANCE · Rte · IN$ERT · S9K · RI9
+
+Every curve, box, word and wire group: [1984 - M473B - Stereo Submaster (2) p11 (traced).json](1984%20-%20M473B%20-%20Stereo%20Submaster%20%282%29%20p11%20%28traced%29.json) (the CAD file: `1984 - M473B - Stereo Submaster (2) p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–431 mm up
+- **Outlines:** line 417 rings, 7,614 straight (9,947 mm) / 1,390 curved (1,957 mm); text 102 rings, 1,253 straight (1,647 mm) / 276 curved (502 mm); tb 20 rings, 294 straight (408 mm) / 71 curved (126 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.3 @ (275.2, 99.6)
+- **Closed boxes:** 7; named: ht
+- **Words (OCR):** 25 in 19 lines: SUB · DIRECT · OUTPUTS · +8dBWI)GOOA · M1 OUTPUT · M1 CONTROL · SUMMING · BUS · OLfTPUTS · M20UTPUT · Me · CONTRO~
+- **Title block:** (196, 65)–(333, 90) mm: (\NBS] WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1984 - M473B - Stereo Submaster (2) p12 (traced).json](1984%20-%20M473B%20-%20Stereo%20Submaster%20%282%29%20p12%20%28traced%29.json) (the CAD file: `1984 - M473B - Stereo Submaster (2) p12 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

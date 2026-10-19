@@ -18,6 +18,338 @@ Wiki page: [M495](../../../PAGES/M495.md)
 - **1975** (labelled): `DATE FEB 75` — …0 IsS MOD CKD- 2 IEIOER [3142 GEB USED ON MATL. WBS DRM DM DATE FEB 75 CKDSLc SCALE 2: TOLS # FINISH…
 - **1975** (labelled): `DATE FEB 75` — …461-03-015. RED ON MATL . WBS WARD-BECK BysTEMS LTD DRN DM DATE FEB 75 CKD Cly SCALE 2. TOLS {Na 5-101B DUAL BOOSTER AMPLIFIER LAY…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–336 mm across, 21–425 mm up
+- **Outlines:** line 65 rings, 1,003 straight (2,739 mm) / 109 curved (159 mm); text 148 rings, 1,516 straight (2,072 mm) / 364 curved (653 mm); tb 2 rings, 110 straight (293 mm) / 4 curved (9.9 mm)
+- **Words (OCR):** 11 in 6 lines: WARD-BECK SYSTEMS LTD_ · WBS 841 PAOGAESS AVENUE SCAABOAOUGH, ONTARIO M1A 2x4 · TeLex= 065-25399 · TELEPHONE: 416/438-6550 · M495 · STEREO MONITOR MODULE
+- **Title block:** (40, 385)–(258, 421) mm: WARD-BECK SYSTEMS LTD_ · WBS 841 PAOGAESS AVENUE SCAABOAOUGH, ONTARIO M1A 2x4 · TeLex= 065-25399 · TELEPHONE: 416/438-6550
+
+Every curve, box, word and wire group: [1975 - M495 - Stereo Monitor Module p1 (traced).json](1975%20-%20M495%20-%20Stereo%20Monitor%20Module%20p1%20%28traced%29.json) (the CAD file: `1975 - M495 - Stereo Monitor Module p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–336 mm across, 10–431 mm up
+- **Outlines:** line 71 rings, 998 straight (3,354 mm) / 117 curved (178 mm); text 1,178 rings, 9,266 straight (10,278 mm) / 2,438 curved (3,927 mm); tb 1 rings, 3 straight (1.9 mm) / 0 curved (0.0 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 154 in 88 lines: WAAD-BECK SYSTEMS LTD_ · IECHNICAL DATA · M495 STEREO · MONITOR MODULE · Gain: · dB · +0.5 dB ma ximum_ · Frequency Response: · +0 .25 dB , from Hz to 20 kHz _ · 30 · Noise: · 80
+- **Title block:** (20, 401)–(129, 425) mm: WAAD-BECK SYSTEMS LTD_
+
+Every curve, box, word and wire group: [1975 - M495 - Stereo Monitor Module p2 (traced).json](1975%20-%20M495%20-%20Stereo%20Monitor%20Module%20p2%20%28traced%29.json) (the CAD file: `1975 - M495 - Stereo Monitor Module p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–330 mm across, 11–426 mm up
+- **Outlines:** line 80 rings, 1,299 straight (3,465 mm) / 155 curved (240 mm); text 1,903 rings, 14,898 straight (16,485 mm) / 4,235 curved (6,695 mm); tb 1 rings, 3 straight (1.6 mm) / 0 curved (0.0 mm)
+- **Dots (junctions):** 3
+- **Words (OCR):** 267 in 136 lines: WAAD-BECK SYSTEMS LTD_ · aTJ eMatbyb · CIRCUIT DESCRIPIION · M495 · STEREO MONITOR · MODULE · The · M495 a 7ows the selection 0 f five · stereo · signa 1 sources · from · within console system
+- **Title block:** (18, 401)–(126, 425) mm: WAAD-BECK SYSTEMS LTD_
+
+Every curve, box, word and wire group: [1975 - M495 - Stereo Monitor Module p3 (traced).json](1975%20-%20M495%20-%20Stereo%20Monitor%20Module%20p3%20%28traced%29.json) (the CAD file: `1975 - M495 - Stereo Monitor Module p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 22–336 mm across, 9–425 mm up
+- **Outlines:** line 62 rings, 1,307 straight (3,385 mm) / 143 curved (220 mm); text 346 rings, 2,879 straight (3,244 mm) / 744 curved (1,184 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 170 in 111 lines: WAAD-BECK SYSTEMS LTD_ · OTj · emateyz · CIRCUIT DESCRIPTION · M495 STEREO MONITOR · MODULE_ · Power · Supply · Decoupling 912 · 70 · ewof | 6 2eam #rT · nofeivon 9
+- **Title block:** (16, 399)–(125, 423) mm: WAAD-BECK SYSTEMS LTD_
+
+Every curve, box, word and wire group: [1975 - M495 - Stereo Monitor Module p4 (traced).json](1975%20-%20M495%20-%20Stereo%20Monitor%20Module%20p4%20%28traced%29.json) (the CAD file: `1975 - M495 - Stereo Monitor Module p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–336 mm across, 11–426 mm up
+- **Outlines:** line 192 rings, 1,721 straight (4,263 mm) / 219 curved (345 mm); text 605 rings, 4,918 straight (5,817 mm) / 1,339 curved (2,168 mm)
+- **Words (OCR):** 107 in 90 lines: WAAD-BECK SYSTEMS LTD_ · OAAW · GTJ bMateye · 4936 · PARTS · LISI · M495 · STEREO MONITOR · MODULE · PART NUMBER · PART DESCRIPTIOn · MFG
+- **Title block:** (19, 401)–(128, 425) mm: WAAD-BECK SYSTEMS LTD_
+
+Every curve, box, word and wire group: [1975 - M495 - Stereo Monitor Module p5 (traced).json](1975%20-%20M495%20-%20Stereo%20Monitor%20Module%20p5%20%28traced%29.json) (the CAD file: `1975 - M495 - Stereo Monitor Module p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–335 mm across, 0–426 mm up
+- **Outlines:** line 54 rings, 1,120 straight (3,468 mm) / 92 curved (127 mm); text 518 rings, 4,270 straight (5,115 mm) / 1,163 curved (1,811 mm); tb 141 rings, 867 straight (1,084 mm) / 166 curved (261 mm)
+- **Words (OCR):** 114 in 101 lines: WAAD-BECK SYSTEMS LTD_ · OTJ · PARIS LISI · M495 · STEREO MONITOR MQDULE · PART · DESCRIPTION · MFG · MFG PART NUMBER · <Transistor · J9m9X · Fairchild
+- **Title block:** (22, 63)–(252, 425) mm: WAAD-BECK SYSTEMS LTD_ · OTJ · PARIS LISI · M495 · STEREO MONITOR MQDULE · PART · DESCRIPTION · MFG · <Transistor · J9m9X · Fairchild · R1 · Resistor · 22k · Philips · 1q · R2 · R3 · 22k · R4 · 22k · 
+
+Every curve, box, word and wire group: [1975 - M495 - Stereo Monitor Module p6 (traced).json](1975%20-%20M495%20-%20Stereo%20Monitor%20Module%20p6%20%28traced%29.json) (the CAD file: `1975 - M495 - Stereo Monitor Module p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–312 mm across, 10–425 mm up
+- **Outlines:** line 44 rings, 1,161 straight (3,466 mm) / 101 curved (164 mm); text 493 rings, 4,090 straight (4,736 mm) / 1,208 curved (1,898 mm); tb 122 rings, 631 straight (865 mm) / 126 curved (210 mm)
+- **Words (OCR):** 111 in 98 lines: WAAD-BECK SYSTEMS LTD_ · LIST · PARIS · M495 STEREO MONITOR · MODULE · Voitel · PART DESCRIPTIOn · MFG · MFG PART NUMBER · R31 · Resistor · 10k
+- **Title block:** (22, 54)–(252, 425) mm: WAAD-BECK SYSTEMS LTD_ · LIST · PARIS · M495 STEREO MONITOR · MODULE · Voitel · PART DESCRIPTIOn · MFG · R31 · Resistor · 10k · Philips · 10k · R32 · R33 · 10k · R34 · 300 · R35 · 300 · R36 · 300 · R3
+
+Every curve, box, word and wire group: [1975 - M495 - Stereo Monitor Module p7 (traced).json](1975%20-%20M495%20-%20Stereo%20Monitor%20Module%20p7%20%28traced%29.json) (the CAD file: `1975 - M495 - Stereo Monitor Module p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–335 mm across, 18–425 mm up
+- **Outlines:** line 128 rings, 1,954 straight (4,673 mm) / 224 curved (364 mm); text 520 rings, 4,129 straight (4,780 mm) / 1,140 curved (1,835 mm); tb 11 rings, 59 straight (56.6 mm) / 22 curved (32.9 mm)
+- **Words (OCR):** 99 in 76 lines: WAAD-BECK · LTD_ · GTJ · PARTS · M495 STEREO MONITOR MQDULE · PART · DESCRIPTION · MFG · MFG · PART NUMBER · 22 · Integrated Circuit
+- **Title block:** (23, 61)–(89, 423) mm: WAAD-BECK · PART · 22 · 23 · 24 · USED ON · R25 ) · R26 ) · SW1 · To · SW6 · JiO~[! · WBS recommends the use
+
+Every curve, box, word and wire group: [1975 - M495 - Stereo Monitor Module p8 (traced).json](1975%20-%20M495%20-%20Stereo%20Monitor%20Module%20p8%20%28traced%29.json) (the CAD file: `1975 - M495 - Stereo Monitor Module p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–336 mm across, 22–427 mm up
+- **Outlines:** line 104 rings, 1,429 straight (3,286 mm) / 162 curved (249 mm); text 1,099 rings, 9,014 straight (10,158 mm) / 2,320 curved (3,725 mm); tb 13 rings, 113 straight (141 mm) / 25 curved (41.5 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 180 in 108 lines: WAAD-BECK · LTD_ · OTJ ematey? Ao3a-OAAW · DESCRIPIION · 5-l01 AMPLIFIER · SERIES · The · 5-101 series of · amp]ifiers are · utilized · plug-in units · within
+- **Title block:** (26, 308)–(177, 426) mm: WAAD-BECK · LTD_ · DESCRIPIION · 5-l01 AMPLIFIER · The · 5-101 series of · amp]ifiers are · within · certain Ward-Beck Systems · There are · two
+
+Every curve, box, word and wire group: [1975 - M495 - Stereo Monitor Module p9 (traced).json](1975%20-%20M495%20-%20Stereo%20Monitor%20Module%20p9%20%28traced%29.json) (the CAD file: `1975 - M495 - Stereo Monitor Module p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–333 mm across, 5–425 mm up
+- **Outlines:** line 81 rings, 1,277 straight (3,128 mm) / 155 curved (236 mm); text 1,116 rings, 9,127 straight (9,962 mm) / 2,512 curved (4,040 mm)
+- **Words (OCR):** 179 in 100 lines: WAAD-BECK SystemS LTD_ · aMsTaye · 453e OAAW · DESCRIPTION · 5-101 · AMPLIFIER · SERIES · The operation 0 f both · amp]ifier sections is · identical . · Only }dfi · 90
+- **Title block:** (21, 402)–(129, 426) mm: WAAD-BECK SystemS LTD_
+
+Every curve, box, word and wire group: [1975 - M495 - Stereo Monitor Module p10 (traced).json](1975%20-%20M495%20-%20Stereo%20Monitor%20Module%20p10%20%28traced%29.json) (the CAD file: `1975 - M495 - Stereo Monitor Module p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–308 mm across, 10–426 mm up
+- **Outlines:** line 292 rings, 2,636 straight (5,138 mm) / 418 curved (651 mm); text 627 rings, 5,031 straight (5,919 mm) / 1,430 curved (2,338 mm)
+- **Dots (junctions):** 2
+- **Words (OCR):** 98 in 83 lines: WAAD-BECK · SYSTEMS LTD_ · PARIS LIST · 5-101 DUAL · BOOSTER · AMPLIFIER · PART DESCRIPTION · MFG · MFG PART · NUMBER · 33  uF/ 10 V ;49 · T3900336M01OAS 19
+- **Title block:** (22, 402)–(130, 426) mm: WAAD-BECK · SYSTEMS LTD_
+
+Every curve, box, word and wire group: [1975 - M495 - Stereo Monitor Module p11 (traced).json](1975%20-%20M495%20-%20Stereo%20Monitor%20Module%20p11%20%28traced%29.json) (the CAD file: `1975 - M495 - Stereo Monitor Module p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–335 mm across, 10–426 mm up
+- **Outlines:** line 246 rings, 2,255 straight (4,571 mm) / 316 curved (490 mm); text 427 rings, 3,531 straight (4,086 mm) / 1,030 curved (1,624 mm)
+- **Words (OCR):** 122 in 108 lines: GTJ · Zmateye 4aaa-OAAW · WAAD-BECK SySteMS LTD_ · PARTS · LISI · 5-101 DUAL · BOOSTER AMPLIFIER · PART · DESCRIPTION · MFG · MFG PART NUMBER · RI
+- **Title block:** (22, 400)–(131, 425) mm: WAAD-BECK SySteMS LTD_
+
+Every curve, box, word and wire group: [1975 - M495 - Stereo Monitor Module p12 (traced).json](1975%20-%20M495%20-%20Stereo%20Monitor%20Module%20p12%20%28traced%29.json) (the CAD file: `1975 - M495 - Stereo Monitor Module p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–303 mm across, 11–425 mm up
+- **Outlines:** line 83 rings, 1,283 straight (3,701 mm) / 157 curved (244 mm); text 560 rings, 4,479 straight (5,177 mm) / 1,231 curved (1,957 mm); tb 41 rings, 218 straight (218 mm) / 48 curved (75.8 mm)
+- **Words (OCR):** 83 in 66 lines: WAAD-BECK SySteMS LTD_ · PARIS LIST · 5-101 DUAL BOOSTER · AMPLIFIER · PART DESCRIPTIon · MFG · MFG PART NUMBER · Philips · R36 · Resistor · 15k · R37
+- **Title block:** (18, 102)–(126, 425) mm: WAAD-BECK SySteMS LTD_ · PART DESCRIPTIon · R36 · Resistor · R37 · R38 · R39 · R4o · R41 · R42 · R43 · R44 · R45 · R46 · R47 · R48 · R49 · Res istor · GW · RSo · R51 · Resistor · R52 · R53 · R54 · 21 
+
+Every curve, box, word and wire group: [1975 - M495 - Stereo Monitor Module p13 (traced).json](1975%20-%20M495%20-%20Stereo%20Monitor%20Module%20p13%20%28traced%29.json) (the CAD file: `1975 - M495 - Stereo Monitor Module p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 22–426 mm up
+- **Outlines:** line 203 rings, 2,335 straight (4,562 mm) / 367 curved (549 mm); text 652 rings, 5,044 straight (5,844 mm) / 1,564 curved (2,526 mm)
+- **Closed boxes:** 8
+- **Words (OCR):** 82 in 73 lines: WAAD-BECK SYSTEMS LTD_ · bmateya · 4338-ORAW · PARTS LIST · 6-101B DUAL · BOOSTER AMPLIFIER · PART · DESCRIPIION · MFG · MFG PART NUMBER · Capacitor 33 · uF/1O
+- **Title block:** (22, 403)–(130, 426) mm: WAAD-BECK SYSTEMS LTD_
+
+Every curve, box, word and wire group: [1975 - M495 - Stereo Monitor Module p14 (traced).json](1975%20-%20M495%20-%20Stereo%20Monitor%20Module%20p14%20%28traced%29.json) (the CAD file: `1975 - M495 - Stereo Monitor Module p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 16–336 mm across, 4–426 mm up
+- **Outlines:** line 175 rings, 2,058 straight (4,466 mm) / 247 curved (382 mm); text 478 rings, 3,926 straight (4,490 mm) / 1,145 curved (1,807 mm)
+- **Closed boxes:** 8
+- **Words (OCR):** 103 in 98 lines: WAAD-BECK SystemS LTD_ · OTJ · emateyb · 4oae-QAAW · PARIS LIST · AMPLIFIER · 5-101B · DUAL · BOOSTER · PART · DESCRIPTION · MFG
+- **Title block:** (19, 405)–(126, 429) mm: WAAD-BECK SystemS LTD_
+
+Every curve, box, word and wire group: [1975 - M495 - Stereo Monitor Module p15 (traced).json](1975%20-%20M495%20-%20Stereo%20Monitor%20Module%20p15%20%28traced%29.json) (the CAD file: `1975 - M495 - Stereo Monitor Module p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–336 mm across, 22–426 mm up
+- **Outlines:** line 103 rings, 1,275 straight (3,806 mm) / 144 curved (222 mm); text 559 rings, 4,567 straight (5,236 mm) / 1,290 curved (1,991 mm); tb 36 rings, 175 straight (179 mm) / 33 curved (50.0 mm)
+- **Words (OCR):** 78 in 66 lines: WAAD-BECK SYSTeMs LTD_ · PARIS LIST · 5-1018 · D UAL BOOSTER · AMPLIFIER · PART · DESCRIPTION · MFG · MFG PART · NUMBER · R36 · Resistor
+- **Title block:** (19, 68)–(126, 425) mm: WAAD-BECK SYSTeMs LTD_ · 5-1018 · PART · DESCRIPTION · R36 · Resistor · Xw · R37 · R38 · R39 · R4o · R41 · R42 · R43 · R44 · R45 · R46 · R47 · R48 · R49 · Resistor sw · RsO · Resistor · R5I · R52 · R5
+
+Every curve, box, word and wire group: [1975 - M495 - Stereo Monitor Module p16 (traced).json](1975%20-%20M495%20-%20Stereo%20Monitor%20Module%20p16%20%28traced%29.json) (the CAD file: `1975 - M495 - Stereo Monitor Module p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–336 mm across, 0–429 mm up
+- **Outlines:** line 73 rings, 1,750 straight (5,045 mm) / 167 curved (256 mm); text 303 rings, 2,395 straight (2,240 mm) / 803 curved (1,087 mm); tb 109 rings, 1,488 straight (4,891 mm) / 194 curved (307 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.1 @ (114.1, 150.1)
+- **Closed boxes:** 13 (11 in the title block); named: DES IGNATION Str ip Indicate nput source; Mut ING switch S16 : Allows ion opera ma
+- **Words (OCR):** 62 in 40 lines: WBS · M495 · MonITOR input  SELECTOR switches SWI through · DES IGNATION Str ip · Indicate nput source · Sws · Iow · ect · the MONITOR feeds · Fron · any · one of five stereo signa
+- **Title block:** (142, 0)–(334, 317) mm: WBS · M495 · MonITOR input  SELECTOR switches SWI through · Sws · Iow · ect · the MONITOR feeds · Fron · any · one of five stereo signa · sources. · HONITOR LEVEL controi · Rz5 / R26 · Determines · ig
+
+Every curve, box, word and wire group: [1975 - M495 - Stereo Monitor Module p17 (traced).json](1975%20-%20M495%20-%20Stereo%20Monitor%20Module%20p17%20%28traced%29.json) (the CAD file: `1975 - M495 - Stereo Monitor Module p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 2–423 mm up
+- **Outlines:** line 238 rings, 3,428 straight (7,784 mm) / 455 curved (706 mm); text 115 rings, 864 straight (1,064 mm) / 280 curved (461 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.2 @ (306.5, 128.0)
+- **Closed boxes:** 4
+- **Words (OCR):** 14 in 12 lines: TALKBACK · INPUt · +8dBm 600 OHM · PRE · STEREO · MONIToR · MONITOR INPUTS · LEVEL · 5-101B · +8dBm 600 OHM · (-10 dBm) · PRE
+
+Every curve, box, word and wire group: [1975 - M495 - Stereo Monitor Module p18 (traced).json](1975%20-%20M495%20-%20Stereo%20Monitor%20Module%20p18%20%28traced%29.json) (the CAD file: `1975 - M495 - Stereo Monitor Module p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** functional 495-01-001, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 3–423 mm up
+- **Outlines:** line 171 rings, 2,553 straight (6,654 mm) / 359 curved (558 mm); text 228 rings, 2,090 straight (3,056 mm) / 590 curved (992 mm); tb 14 rings, 156 straight (356 mm) / 10 curved (14.5 mm)
+- **Centre lines:** 2,136 paths (34 closed); straight 5,021 mm, curved 83.8 mm; horizontal 2,188 mm, vertical 1,164 mm, diagonal 1,670 mm
+- **Circles and arcs:** 7 circles, 6 arcs; largest r 1.9 @ (65.7, 208.3), r 1.8 @ (55.7, 208.3), r 1.8 @ (56.0, 287.2), r 1.6 @ (30.1, 129.2)
+- **Closed boxes:** 9 (5 in the title block); named: 'SCALE; 495-01-001
+- **Words (OCR):** 29 in 22 lines: LEFT · 5-101B · MONITOR OUtPuts · 0 dBm 600 OHM · Right · MUTE CONTROL · MUTE ASSIGN · ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: MRW
+- **Title block:** (124, 8)–(336, 110) mm: ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: MRW · M495 · ENG. · STEREO MONITOR MODULE · CKDRA · FUNCTIONAL DIAGRAM · APP · naC · 'SCALE · ISSUE · 495-01-001
+- **Wiring (first pass):** 41 connected wire groups from 120 runs; labelled ends: 95 mm → Right; 16 mm → LEFT; 14 mm → Right; 14 mm → Right; 13 mm → LEFT
+
+Every curve, box, word and wire group: [1975 - M495 - Stereo Monitor Module p19 (traced).json](1975%20-%20M495%20-%20Stereo%20Monitor%20Module%20p19%20%28traced%29.json) (the CAD file: `1975 - M495 - Stereo Monitor Module p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 6–427 mm up
+- **Outlines:** line 430 rings, 6,720 straight (13,015 mm) / 1,352 curved (1,912 mm); text 309 rings, 2,601 straight (2,510 mm) / 867 curved (1,200 mm)
+- **Closed boxes:** 7
+- **Words (OCR):** 110 in 97 lines: R7 · 47/0 47k · 22k · TALKBACK · INPUT · t8dBm 60n · 22k_ · RB · 4T/10 47k · c7 · 620 · Swsa
+
+Every curve, box, word and wire group: [1975 - M495 - Stereo Monitor Module p20 (traced).json](1975%20-%20M495%20-%20Stereo%20Monitor%20Module%20p20%20%28traced%29.json) (the CAD file: `1975 - M495 - Stereo Monitor Module p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–427 mm up
+- **Outlines:** line 499 rings, 6,418 straight (11,849 mm) / 1,229 curved (1,650 mm); text 370 rings, 3,191 straight (3,112 mm) / 1,051 curved (1,475 mm); tb 22 rings, 218 straight (289 mm) / 41 curved (60.4 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.8 @ (301.8, 19.4), r 1.5 @ (235.3, 237.5)
+- **Closed boxes:** 12 (7 in the title block); named: 5-IOIB DUAL BOOSTER AMPLIFIER; REVISIOM
+- **Dots (junctions):** 1
+- **Words (OCR):** 100 in 90 lines: NoTes · I.ALL Resistors V+W, 5 % AND · ALL CAPACitoRS inAF UnLESs · Otherwise Specified · 2. LAST · ComponEnT DESIGNATIONS · czi, CR6,Dsi,03,R54 Sw6 24 · 3. UsE · PCB 7-I4 · R2o · 300 · IOK
+- **Title block:** (234, 0)–(286, 56) mm: kz 3694 · ISSU DATE · WBS · Mrw · STEREO · SCALE
+
+Every curve, box, word and wire group: [1975 - M495 - Stereo Monitor Module p21 (traced).json](1975%20-%20M495%20-%20Stereo%20Monitor%20Module%20p21%20%28traced%29.json) (the CAD file: `1975 - M495 - Stereo Monitor Module p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–419 mm up
+- **Outlines:** line 706 rings, 8,150 straight (18,066 mm) / 1,601 curved (2,501 mm); text 330 rings, 2,847 straight (3,067 mm) / 846 curved (1,227 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 9.6 @ (142.8, 143.0), r 7.9 @ (236.1, 141.5), r 2.5 @ (156.6, 296.8), r 2.5 @ (93.8, 366.3)
+- **Closed boxes:** 27; named: Zi LMzOI; 22 LMzoI; 23 LM z01; 24 LMzoI; Ki MrB 4424; R25 WBS 10-023
+- **Words (OCR):** 77 in 71 lines: sw | To · sw5 w Bs · 1-046 · Sws · 41 · ~R3 2 · RI 22K · R4_# · R9 Ak R2u · R2I- · 419 · ~C7I2p
+
+Every curve, box, word and wire group: [1975 - M495 - Stereo Monitor Module p22 (traced).json](1975%20-%20M495%20-%20Stereo%20Monitor%20Module%20p22%20%28traced%29.json) (the CAD file: `1975 - M495 - Stereo Monitor Module p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** component layout 495-06-001, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–431 mm up
+- **Outlines:** line 789 rings, 8,443 straight (14,380 mm) / 2,349 curved (2,378 mm); text 435 rings, 4,023 straight (4,040 mm) / 1,155 curved (1,369 mm); tb 62 rings, 337 straight (322 mm) / 73 curved (68.5 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 6.2 @ (155.1, 120.1), r 6.2 @ (157.3, 337.6), r 2.4 @ (133.8, 207.1), r 2.1 @ (134.0, 298.8)
+- **Closed boxes:** 28 (17 in the title block); named: zi LMzoi; 22 LMzI; 23 LM 201; 24 LMzOI
+- **Words (OCR):** 83 in 70 lines: Il-046 · RI %1x R4_ · Rg 4K · ~~Rio4K · R2I · L229 · ~C7IBP · zi · 22 · LMzoi · LMzI · ~Cii 9
+- **Title block:** (191, 1)–(334, 73) mm: 2178 R49 WAS · 2k · IssUE DATE · REVISION · App · WBS WARD-BECK BYSTEM8 · DRN. MRw · M495 · ENG.MRw 10177 STEREO MONiTOR MODULE · CKDRA · COMPONENT LAYOUT · APP · ScALE · ISSUE · 495-06-001
+
+Every curve, box, word and wire group: [1975 - M495 - Stereo Monitor Module p23 (traced).json](1975%20-%20M495%20-%20Stereo%20Monitor%20Module%20p23%20%28traced%29.json) (the CAD file: `1975 - M495 - Stereo Monitor Module p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 2–425 mm up
+- **Outlines:** line 231 rings, 5,244 straight (11,687 mm) / 678 curved (1,092 mm); text 610 rings, 6,345 straight (8,173 mm) / 1,428 curved (2,196 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.4 @ (251.8, 94.7), r 2.4 @ (252.0, 26.9)
+- **Closed boxes:** 85; named: 23; Al; B| 2; Dl 4; El 5; Fl 6; Hl 7; Eeee; Kl 9; L/1o; M11; N/ 12
+- **Dots (junctions):** 2
+- **Words (OCR):** 111 in 63 lines: 23 · RIGHT · IN #5 Al · RIGHT IN #5 · LEFT IN #5 B| 2 · LEFT IN #5 · RIGHT · IN #4 c| 3 RIGHT · IN #4 · LEFT IN #4 · LEFT IN #4 Dl 4 · RIGHT IN #3
+
+Every curve, box, word and wire group: [1975 - M495 - Stereo Monitor Module p24 (traced).json](1975%20-%20M495%20-%20Stereo%20Monitor%20Module%20p24%20%28traced%29.json) (the CAD file: `1975 - M495 - Stereo Monitor Module p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px); scale 2 : 1
+- **Ink extent:** 0–336 mm across, 0–427 mm up
+- **Outlines:** line 308 rings, 5,930 straight (12,986 mm) / 933 curved (1,826 mm); text 810 rings, 8,053 straight (10,540 mm) / 2,140 curved (3,797 mm); tb 13 rings, 47 straight (66.5 mm) / 19 curved (23.2 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 9.6 @ (102.8, 293.1), r 9.4 @ (287.5, 292.5), r 9.3 @ (174.5, 293.1), r 9.2 @ (319.0, 292.3)
+- **Closed boxes:** 35 (26 in the title block); named: 24 Lm3o; 23 LM3e; 22 Lmze; 21 Lm3oi; FINISH
+- **Words (OCR):** 117 in 93 lines: @EI @E7 · 063 · E4 · E8 · Ras 23_ · ~RAG-23 · R22 23 · ~R23.23 · R43+k7 · R444k7 · R2o4k7 · ~R21 4k7
+- **Title block:** (80, 9)–(336, 86) mm: Iss MOD   CKD · USED ON · MATL . · QIOEn · WBS · 3142 GEB · DRN_ · DM · DATE FEB 75 · FINISH · CKD_ · SCALE 2 : 1 · TOLS _
+
+Every curve, box, word and wire group: [1975 - M495 - Stereo Monitor Module p25 (traced).json](1975%20-%20M495%20-%20Stereo%20Monitor%20Module%20p25%20%28traced%29.json) (the CAD file: `1975 - M495 - Stereo Monitor Module p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** mechanical 461-03-015, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 1–431 mm up
+- **Outlines:** line 252 rings, 5,746 straight (10,145 mm) / 919 curved (1,397 mm); text 532 rings, 4,978 straight (6,717 mm) / 1,362 curved (2,415 mm); tb 29 rings, 291 straight (571 mm) / 43 curved (70.7 mm)
+- **Centre lines:** 8,562 paths (98 closed); straight 11,459 mm, curved 109 mm; horizontal 4,318 mm, vertical 2,351 mm, diagonal 4,790 mm
+- **Circles and arcs:** 4 circles, 18 arcs; largest r 9.5 @ (111.1, 292.4), r 8.6 @ (39.2, 292.7), r 4.1 @ (149.8, 120.6), r 3.3 @ (149.7, 120.5)
+- **Closed boxes:** 10 (3 in the title block); named: 22 Lmze; 21 LM3ci; RED; MATL _; WBS WARD-BeCK SYSTEMS LTD_; 5-101B DUAL BOOSTER AMPLIFIER LAYOUT; ISS_
+- **Words (OCR):** 82 in 68 lines: 0E3 · E4 0 · 23 · R22 23 · ~R23 23 · 4k7 · R2o+k7 · ~R21 4k7 · C6 · C7 · 220/18 · 220/10
+- **Title block:** (100, 9)–(306, 80) mm: WBS WARD-BeCK SYSTEMS LTD_ · DRN: · DM · 5-101B · DATE FEB 75 · DUAL BOOSTER AMPLIFIER · CKD. · Kul · LAYOUT · SCALE · XX · TOLS _ · ISS_
+
+Every curve, box, word and wire group: [1975 - M495 - Stereo Monitor Module p26 (traced).json](1975%20-%20M495%20-%20Stereo%20Monitor%20Module%20p26%20%28traced%29.json) (the CAD file: `1975 - M495 - Stereo Monitor Module p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 321 rings, 5,147 straight (7,759 mm) / 839 curved (1,126 mm); text 358 rings, 3,861 straight (5,566 mm) / 939 curved (1,734 mm)
+- **Words (OCR):** 54 in 45 lines: R8 · +18v I8k · R5I · 33/10 · 18k · 21 · Rio · 620 · t8vl · Ri · RG · 47k
+
+Every curve, box, word and wire group: [1975 - M495 - Stereo Monitor Module p27 (traced).json](1975%20-%20M495%20-%20Stereo%20Monitor%20Module%20p27%20%28traced%29.json) (the CAD file: `1975 - M495 - Stereo Monitor Module p27 (traced).dxf`).
+
+### Page 28
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 234 rings, 4,563 straight (8,301 mm) / 666 curved (1,187 mm); text 312 rings, 3,356 straight (4,644 mm) / 883 curved (1,605 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 5.8 @ (91.6, 258.7), r 5.7 @ (92.0, 244.3), r 5.6 @ (94.7, 410.4), r 5.6 @ (90.1, 93.4)
+- **Words (OCR):** 61 in 52 lines: External connECTion · R12 · i5k · Q1 · Pn3569 · CRI Ri6 · 33 · C6 R22 E3 · 33 · 2zo/1oL · CR2 33 · RI7
+
+Every curve, box, word and wire group: [1975 - M495 - Stereo Monitor Module p28 (traced).json](1975%20-%20M495%20-%20Stereo%20Monitor%20Module%20p28%20%28traced%29.json) (the CAD file: `1975 - M495 - Stereo Monitor Module p28 (traced).dxf`).
+
+### Page 29
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 253 rings, 4,783 straight (8,928 mm) / 686 curved (1,057 mm); text 260 rings, 2,606 straight (3,523 mm) / 739 curved (1,347 mm)
+- **Closed boxes:** 29; named: ISSMOD ICKD
+- **Words (OCR):** 50 in 48 lines: R31 · +18v 18k · C8 · R53 · [8k · E5 · 33/10 · 23 · R33 · 620 · R24 · -18v
+
+Every curve, box, word and wire group: [1975 - M495 - Stereo Monitor Module p29 (traced).json](1975%20-%20M495%20-%20Stereo%20Monitor%20Module%20p29%20%28traced%29.json) (the CAD file: `1975 - M495 - Stereo Monitor Module p29 (traced).dxf`).
+
+### Page 30
+
+- **Sheet:** schematic 5-101-02-003, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–429 mm up
+- **Outlines:** line 242 rings, 5,978 straight (12,646 mm) / 738 curved (1,340 mm); text 502 rings, 5,022 straight (7,079 mm) / 1,345 curved (2,433 mm); tb 15 rings, 232 straight (482 mm) / 26 curved (47.6 mm)
+- **Centre lines:** 4,760 paths (63 closed); straight 11,574 mm, curved 457 mm; horizontal 4,118 mm, vertical 2,722 mm, diagonal 4,734 mm
+- **Circles and arcs:** 11 circles, 12 arcs; largest r 8.9 @ (130.3, 125.1), r 8.7 @ (133.3, 378.1), r 8.6 @ (131.7, 212.1), r 8.5 @ (132.2, 290.2)
+- **Closed boxes:** 13 (4 in the title block); named: RED; MATL .; WBS WAAD-BECK LTD= BYSTEMS; 5-101B BOOSTE R DUAL AMPLIFIER SCHEMATIC; FINISH; XX TOLS_; LB; 5 _101-02 -003; ISS.
+- **Words (OCR):** 91 in 72 lines: ExtErNAL connECTion · R35 · ISk · Q5 · Pn35G9 · R?1 · CR5 R39 · H8v 18k · 33 · ci3 · R45 E7 · 2z0/1o
+- **Title block:** (98, 16)–(250, 86) mm: WBS WAAD-BECK BYSTEMS · DM · DRN_ · 5-101B · DATE JAN 75 · DUAL · CKD · Rel · SCHEMATIC · SCALE · XX
+- **Wiring (first pass):** 61 connected wire groups from 330 runs; labelled ends: 232 mm → ON, WBS; 187 mm → DRN_, DATE, CKD; 157 mm → R41, 33, cia, 220/10; 151 mm → CR5, R36, I5k, 06; 146 mm → BOOSTE R, SCHEMATIC, 5 _101-02 -003, ISS.
+
+Every curve, box, word and wire group: [1975 - M495 - Stereo Monitor Module p30 (traced).json](1975%20-%20M495%20-%20Stereo%20Monitor%20Module%20p30%20%28traced%29.json) (the CAD file: `1975 - M495 - Stereo Monitor Module p30 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

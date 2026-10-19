@@ -16,6 +16,151 @@ Wiki page: [M441M](../../../PAGES/M441M.md)
 
 - **1973** (labelled): `DATE APR 73` — …MP SENSITivITY Rzis MK R2i6< R2i7 R2i8 Ik2 sizk 270 DRN: Gf DATE APR 73 CKD SCALE TOLS _ #G MA! iiN CHANNEL AMPLIFIER SCHEMAT'C B/4…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 119–334 mm across, 1–353 mm up
+- **Outlines:** line 4 rings, 13 straight (13.0 mm) / 4 curved (3.0 mm); text 212 rings, 1,880 straight (1,957 mm) / 589 curved (875 mm)
+- **Words (OCR):** 19 in 17 lines: M441M · CHANNEL · AMPLIFIER · Designed and · Manufactured · by · Ward-Beck · Systems · Limited · 841 Progress · Avenue · Scarborough, Ontario
+- **Title block:** (115, 90)–(197, 116) mm: Ward-Beck · Systems · 841 Progress · Avenue
+
+Every curve, box, word and wire group: [1973 - M441M - Channel Amplifier p1 (traced).json](1973%20-%20M441M%20-%20Channel%20Amplifier%20p1%20%28traced%29.json) (the CAD file: `1973 - M441M - Channel Amplifier p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 27–299 mm across, 58–432 mm up
+- **Outlines:** line 11 rings, 156 straight (230 mm) / 27 curved (42.4 mm); text 1,417 rings, 11,896 straight (12,269 mm) / 4,019 curved (5,977 mm)
+- **Words (OCR):** 158 in 86 lines: M441 · CHANNEL AMPLIFIER · Technical Data: · Preamplifier · Gain: · Microphone input; · 60dB to · 10dB +0.SdB selectable · via · sensitivity switch · Line · input;
+
+Every curve, box, word and wire group: [1973 - M441M - Channel Amplifier p2 (traced).json](1973%20-%20M441M%20-%20Channel%20Amplifier%20p2%20%28traced%29.json) (the CAD file: `1973 - M441M - Channel Amplifier p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 27–271 mm across, 15–382 mm up
+- **Outlines:** line 11 rings, 29 straight (27.9 mm) / 15 curved (18.7 mm); text 632 rings, 5,446 straight (5,577 mm) / 1,818 curved (2,740 mm)
+- **Words (OCR):** 72 in 35 lines: Output Level: · Preamplifier -l0dBm nominal · +27dBm maximum · amplifier -lOdBm · Booster · nominal · +20dBm maximum · Load · Impedance · Preamplifier 600 ohms · balanced · Booster
+
+Every curve, box, word and wire group: [1973 - M441M - Channel Amplifier p3 (traced).json](1973%20-%20M441M%20-%20Channel%20Amplifier%20p3%20%28traced%29.json) (the CAD file: `1973 - M441M - Channel Amplifier p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–297 mm across, 1–397 mm up
+- **Outlines:** line 55 rings, 416 straight (605 mm) / 146 curved (210 mm); text 2,129 rings, 18,500 straight (18,970 mm) / 6,142 curved (9,140 mm)
+- **Dots (junctions):** 3
+- **Words (OCR):** 263 in 140 lines: M44IM CHANNEL · AMPLIFIER · Circuit Descriptioni · M441M Channel · Amplifier provides the · following major functions · The · preamplification to · microphone source · selection of line · input · sensitivity and phase reversal
+
+Every curve, box, word and wire group: [1973 - M441M - Channel Amplifier p4 (traced).json](1973%20-%20M441M%20-%20Channel%20Amplifier%20p4%20%28traced%29.json) (the CAD file: `1973 - M441M - Channel Amplifier p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** schematic 82-02-001, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 14–294 mm across, 52–392 mm up
+- **Outlines:** line 70 rings, 293 straight (305 mm) / 145 curved (200 mm); text 2,944 rings, 24,966 straight (25,730 mm) / 8,737 curved (12,990 mm)
+- **Centre lines:** 19,701 paths (364 closed); straight 19,149 mm, curved 55.5 mm; horizontal 3,917 mm, vertical 4,039 mm, diagonal 11,193 mm
+- **Circles and arcs:** 3 circles, 9 arcs; largest r 1.7 @ (88.3, 250.0), r 1.0 @ (207.6, 235.7), r 1.0 @ (207.6, 237.5)
+- **Dots (junctions):** 3
+- **Words (OCR):** 374 in 185 lines: actual · preamplifier. R8 · and the · resistors on · deck C of Swl set · the · feedback around and · 21 · therefore · its gain_ R3 · with CRI · and CR2 are an
+- **Wiring (first pass):** 1 connected wire groups from 20 runs; labelled ends: 6 mm → This, circuit provides, excellent, pins
+
+Every curve, box, word and wire group: [1973 - M441M - Channel Amplifier p5 (traced).json](1973%20-%20M441M%20-%20Channel%20Amplifier%20p5%20%28traced%29.json) (the CAD file: `1973 - M441M - Channel Amplifier p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 26–296 mm across, 115–371 mm up
+- **Outlines:** line 22 rings, 91 straight (94.0 mm) / 56 curved (74.9 mm); text 1,219 rings, 10,199 straight (10,551 mm) / 3,635 curved (5,440 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 164 in 90 lines: in · addition · makes selection of either Rev or · Rev · send buss _ · busses appear · pins 11 and · and 12 · and of · the module · These two · at
+
+Every curve, box, word and wire group: [1973 - M441M - Channel Amplifier p6 (traced).json](1973%20-%20M441M%20-%20Channel%20Amplifier%20p6%20%28traced%29.json) (the CAD file: `1973 - M441M - Channel Amplifier p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 314 × 432 mm, 1456 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–307 mm across, 22–421 mm up
+- **Outlines:** line 55 rings, 745 straight (952 mm) / 148 curved (208 mm); text 750 rings, 6,454 straight (6,826 mm) / 2,182 curved (3,230 mm)
+- **Words (OCR):** 141 in 98 lines: M441M CHANNEL AMPLIFIER · DC Voltage Chart: · The following DC voltages are · typical and · may vary +108_ · The · idle · current · should be between 48 ma · and 52 ma · with · supply
+
+Every curve, box, word and wire group: [1973 - M441M - Channel Amplifier p7 (traced).json](1973%20-%20M441M%20-%20Channel%20Amplifier%20p7%20%28traced%29.json) (the CAD file: `1973 - M441M - Channel Amplifier p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 432 × 359 mm, 2000 × 1661 px traced (0.216 mm/px)
+- **Ink extent:** 4–431 mm across, 0–341 mm up
+- **Outlines:** line 749 rings, 11,412 straight (14,683 mm) / 2,246 curved (3,308 mm); text 251 rings, 1,519 straight (1,662 mm) / 415 curved (586 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 7.5 @ (385.3, 232.7), r 7.4 @ (388.4, 39.3), r 7.4 @ (384.6, 287.8), r 3.8 @ (85.0, 303.4)
+- **Closed boxes:** 8
+- **Words (OCR):** 25 in 21 lines: W'8S · IN'8 · "0-'1 · sv.c · JWIA · WEA · S~2C · --;t(J:==l · CB /82. · 1-/10 · IN' · IV~-
+
+Every curve, box, word and wire group: [1973 - M441M - Channel Amplifier p8 (traced).json](1973%20-%20M441M%20-%20Channel%20Amplifier%20p8%20%28traced%29.json) (the CAD file: `1973 - M441M - Channel Amplifier p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 432 × 291 mm, 2000 × 1349 px traced (0.216 mm/px)
+- **Ink extent:** 4–426 mm across, 0–289 mm up
+- **Outlines:** line 2,303 rings, 26,772 straight (26,938 mm) / 6,284 curved (8,022 mm); text 435 rings, 2,326 straight (2,280 mm) / 681 curved (840 mm)
+- **Circles and arcs:** 21 circles, 0 arcs; largest r 9.6 @ (121.9, 73.7), r 9.5 @ (122.8, 167.2), r 8.7 @ (143.1, 81.7), r 8.7 @ (144.1, 175.1)
+- **Closed boxes:** 5
+- **Dots (junctions):** 1
+- **Words (OCR):** 26 in 22 lines: PCIBZ-- · VI, · SWIC · Gr, · TI- RO · 14 · C:1 · wlAE · SW3 · \-tNl<. · CUE SWITCH · oZ.
+
+Every curve, box, word and wire group: [1973 - M441M - Channel Amplifier p9 (traced).json](1973%20-%20M441M%20-%20Channel%20Amplifier%20p9%20%28traced%29.json) (the CAD file: `1973 - M441M - Channel Amplifier p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 432 × 290 mm, 2000 × 1344 px traced (0.216 mm/px)
+- **Ink extent:** 5–315 mm across, 0–287 mm up
+- **Outlines:** line 716 rings, 10,083 straight (11,685 mm) / 2,034 curved (2,766 mm); text 82 rings, 441 straight (443 mm) / 105 curved (150 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 10.3 @ (191.4, 174.9), r 10.2 @ (190.8, 73.0), r 10.1 @ (220.4, 72.6), r 10.1 @ (220.8, 174.5)
+- **Closed boxes:** 3; named: CI"; cn
+- **Words (OCR):** 5 in 5 lines: LIOI · CI" · CrtQ · cn · CrtQ
+
+Every curve, box, word and wire group: [1973 - M441M - Channel Amplifier p10 (traced).json](1973%20-%20M441M%20-%20Channel%20Amplifier%20p10%20%28traced%29.json) (the CAD file: `1973 - M441M - Channel Amplifier p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 432 × 135 mm, 2000 × 624 px traced (0.216 mm/px)
+- **Ink extent:** 4–429 mm across, 2–131 mm up
+- **Outlines:** line 936 rings, 7,914 straight (11,693 mm) / 1,957 curved (2,417 mm); text 440 rings, 2,528 straight (2,160 mm) / 928 curved (1,171 mm); tb 6 rings, 66 straight (119 mm) / 6 curved (6.6 mm)
+- **Closed boxes:** 36; named: LTD WBS WARD-BECK; CPANNJEL SCHERA C
+- **Dots (junctions):** 1
+- **Words (OCR):** 81 in 71 lines: SENSITYTY SWITCF · Level · COLDARCK · 6-VC · R23e · RAC · DEACK Pc 1B1 · BOOSTER · CUTFUT · 68"10 · LINE INPUT · PCiB2
+- **Title block:** (351, 18)–(409, 28) mm: WBS WARD-BECK
+
+Every curve, box, word and wire group: [1973 - M441M - Channel Amplifier p11 (traced).json](1973%20-%20M441M%20-%20Channel%20Amplifier%20p11%20%28traced%29.json) (the CAD file: `1973 - M441M - Channel Amplifier p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 432 × 228 mm, 2000 × 1056 px traced (0.216 mm/px)
+- **Ink extent:** 9–430 mm across, 15–205 mm up
+- **Outlines:** line 271 rings, 4,614 straight (9,018 mm) / 894 curved (1,373 mm); text 755 rings, 4,618 straight (4,659 mm) / 1,626 curved (2,252 mm); tb 5 rings, 63 straight (55.3 mm) / 11 curved (13.1 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 1.8 @ (398.7, 18.7), r 1.5 @ (398.7, 170.9), r 1.5 @ (193.2, 101.4), r 1.5 @ (154.3, 195.8)
+- **Closed boxes:** 30 (3 in the title block); named: USED ON; MAll.; I~WARD.B.CK SYSTEMS LTD.; 780; e.c ,'v1...1 OOST t-J IF SC AT; FINISH; ISS. 18 02; TOlS AN
+- **Words (OCR):** 190 in 147 lines: 36V · TO · AIZO · 620 · 15 · If · 01 · TE · 102 · NT · AY · SE
+- **Title block:** (324, 19)–(425, 56) mm: I~WARD.B.CK SYSTEMS LTD. · DRN. · ,'v1...1 · e.c · DATE AD · OOST · t-J IF · CKO, · SC · AT · SCALE · TOlS · 18 02 · ISS.
+
+Every curve, box, word and wire group: [1973 - M441M - Channel Amplifier p12 (traced).json](1973%20-%20M441M%20-%20Channel%20Amplifier%20p12%20%28traced%29.json) (the CAD file: `1973 - M441M - Channel Amplifier p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** schematic 82-02-001, size B (assumed) 432 × 137 mm, 2000 × 634 px traced (0.216 mm/px)
+- **Ink extent:** 3–429 mm across, 3–134 mm up
+- **Outlines:** line 1,420 rings, 11,686 straight (15,905 mm) / 2,552 curved (3,188 mm); text 491 rings, 2,851 straight (2,390 mm) / 917 curved (1,159 mm); tb 11 rings, 87 straight (139 mm) / 12 curved (18.1 mm)
+- **Centre lines:** 11,474 paths (246 closed); straight 10,711 mm, curved 530 mm; horizontal 3,702 mm, vertical 2,517 mm, diagonal 4,492 mm
+- **Circles and arcs:** 23 circles, 109 arcs; largest r 3.9 @ (365.0, 116.6), r 3.8 @ (208.8, 88.1), r 3.8 @ (208.6, 62.7), r 3.7 @ (355.3, 126.6)
+- **Closed boxes:** 30; named: WBS WAAD-BeCK; SCALL
+- **Dots (junctions):** 4
+- **Words (OCR):** 82 in 71 lines: 24323 · 22k · KJC · B8,ER · NOTES · FOR COMPONENT · SFE · JNSIC? · IcC _T · Bibi-O6 0o3 · FCR SCHEMATCC &F FC /92 BEE · 323 F8
+- **Title block:** (350, 19)–(409, 29) mm: WBS WAAD-BeCK
+- **Wiring (first pass):** 111 connected wire groups from 967 runs, 3 dotted junctions; labelled ends: 331 mm → 133, I0ia, 4k7; 153 mm → IN752, I0ia; 95 mm → 53; 88 mm → 828, 22, 7ocp; 85 mm → Pa, 4k7
+
+Every curve, box, word and wire group: [1973 - M441M - Channel Amplifier p13 (traced).json](1973%20-%20M441M%20-%20Channel%20Amplifier%20p13%20%28traced%29.json) (the CAD file: `1973 - M441M - Channel Amplifier p13 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

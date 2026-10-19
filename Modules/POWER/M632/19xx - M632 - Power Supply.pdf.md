@@ -12,6 +12,92 @@ Wiki page: [M632](../../../PAGES/M632.md)
 - **Pages:** 8
 - **PDF created (scan date, not design date):** Thu Nov  2 21:49:57 2006 EST
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 329 × 432 mm, 1524 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–323 mm across, 4–422 mm up
+- **Outlines:** line 29 rings, 757 straight (2,679 mm) / 96 curved (148 mm); text 135 rings, 1,695 straight (2,302 mm) / 393 curved (644 mm); tb 2 rings, 109 straight (293 mm) / 9 curved (18.0 mm)
+- **Words (OCR):** 11 in 7 lines: WARD-BECK SYSteMS LTD_ · WBS 841 PAOGAESS AVENUE; SCARBOAOUGH; ONTARIO M1h2x4 · TeLeX; 0b5-25399 · TELEPHONE: 416/438-8550 · M632 · POWER SUPPLY · DESIGN AND MANUFACTURE Of PROFESSIONAL AUDIO EQUIPMENT
+- **Title block:** (41, 388)–(262, 423) mm: WARD-BECK SYSteMS LTD_ · WBS 841 PAOGAESS AVENUE; SCARBOAOUGH; ONTARIO M1h2x4 · TeLeX; 0b5-25399 · TELEPHONE: 416/438-8550
+
+Every curve, box, word and wire group: [19xx - M632 - Power Supply p1 (traced).json](19xx%20-%20M632%20-%20Power%20Supply%20p1%20%28traced%29.json) (the CAD file: `19xx - M632 - Power Supply p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 329 × 432 mm, 1524 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–322 mm across, 20–422 mm up
+- **Outlines:** line 59 rings, 921 straight (3,228 mm) / 139 curved (209 mm); text 939 rings, 7,097 straight (7,906 mm) / 2,101 curved (3,302 mm)
+- **Words (OCR):** 147 in 76 lines: WAAD-BECK SYSTEms LTD_ · TECHNICAL DATA · M632 · POWER SUPPLY · Regulated Qutput · Output Voltage: · +25 volts dc at · load currents · from · to · amperes . · Line Regulation
+
+Every curve, box, word and wire group: [19xx - M632 - Power Supply p2 (traced).json](19xx%20-%20M632%20-%20Power%20Supply%20p2%20%28traced%29.json) (the CAD file: `19xx - M632 - Power Supply p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 329 × 432 mm, 1524 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–326 mm across, 18–422 mm up
+- **Outlines:** line 43 rings, 754 straight (2,786 mm) / 103 curved (162 mm); text 2,129 rings, 15,229 straight (16,723 mm) / 4,574 curved (7,260 mm); tb 4 rings, 108 straight (284 mm) / 8 curved (11.2 mm)
+- **Words (OCR):** 310 in 190 lines: WARD-BECK SYSTEmS · LTD_ · CIRcuITDESCRIPTION · M632 POWER · SUPPLY · The · M632 power supply · is used · primarily · in · intercom · systems utilizing
+- **Title block:** (20, 308)–(303, 429) mm: WARD-BECK SYSTEmS · LTD_ · CIRcuITDESCRIPTION · M632 POWER · SUPPLY · The · M632 power supply · is used · primarily · in · intercom · systems utilizing · the · M703B and · M712B intercom modules.
+
+Every curve, box, word and wire group: [19xx - M632 - Power Supply p3 (traced).json](19xx%20-%20M632%20-%20Power%20Supply%20p3%20%28traced%29.json) (the CAD file: `19xx - M632 - Power Supply p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 329 × 432 mm, 1524 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–318 mm across, 14–422 mm up
+- **Outlines:** line 58 rings, 931 straight (3,384 mm) / 148 curved (243 mm); text 712 rings, 5,843 straight (6,803 mm) / 1,654 curved (2,703 mm); tb 24 rings, 234 straight (352 mm) / 52 curved (71.8 mm)
+- **Words (OCR):** 108 in 87 lines: WARD-BECK SysTems LTD_ · PARTS LIST · M632 POWER SUPPLY · PART NUMBER · PART DESCRIPTION · MFG · MFG · MAIN_FRAME · c1o1 · Capacitor 9600 · uF/50 · Callins
+- **Title block:** (17, 131)–(246, 426) mm: WARD-BECK SysTems LTD_ · PARTS LIST · M632 POWER SUPPLY · PART DESCRIPTION · MFG · MFG · MAIN_FRAME · c1o1 · Capacitor 9600 · uF/50 · Callins · Bridge Rectifier · CRIOI · ED I · PB6o · DSI · Pilot Lam
+
+Every curve, box, word and wire group: [19xx - M632 - Power Supply p4 (traced).json](19xx%20-%20M632%20-%20Power%20Supply%20p4%20%28traced%29.json) (the CAD file: `19xx - M632 - Power Supply p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 329 × 432 mm, 1524 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–323 mm across, 10–423 mm up
+- **Outlines:** line 76 rings, 1,243 straight (3,755 mm) / 203 curved (328 mm); text 536 rings, 4,247 straight (4,776 mm) / 1,229 curved (1,954 mm)
+- **Words (OCR):** 84 in 68 lines: LTD_ · PARTS LIST · M632 POWER SUPPLY · MFG PART · NUMBER · PART DESCRIPTION · MFG · 01 · Transistor · Texas · TIpzOB · Motorola
+
+Every curve, box, word and wire group: [19xx - M632 - Power Supply p5 (traced).json](19xx%20-%20M632%20-%20Power%20Supply%20p5%20%28traced%29.json) (the CAD file: `19xx - M632 - Power Supply p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 432 × 287 mm, 2000 × 1329 px traced (0.216 mm/px)
+- **Ink extent:** 6–431 mm across, 1–287 mm up
+- **Outlines:** line 738 rings, 6,906 straight (12,388 mm) / 1,629 curved (2,165 mm); text 301 rings, 2,100 straight (1,882 mm) / 761 curved (1,005 mm); tb 5 rings, 76 straight (123 mm) / 16 curved (18.5 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.2 @ (329.7, 212.2), r 1.0 @ (54.7, 200.4)
+- **Closed boxes:** 15 (3 in the title block); named: 632-02-001
+- **Words (OCR):** 58 in 52 lines: ANDALL · Resistors · URLASS · LaST · COMPONINT Design · Pcb 5-104 · CrS a2,Ri · {01- · 3ioi · Rior · FOR · LAYOUT
+- **Title block:** (359, 19)–(402, 40) mm: DATE · WBS
+
+Every curve, box, word and wire group: [19xx - M632 - Power Supply p6 (traced).json](19xx%20-%20M632%20-%20Power%20Supply%20p6%20%28traced%29.json) (the CAD file: `19xx - M632 - Power Supply p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** component layout 632-06-002, size B (assumed) 432 × 291 mm, 2000 × 1348 px traced (0.216 mm/px)
+- **Ink extent:** 3–431 mm across, 0–283 mm up
+- **Outlines:** line 746 rings, 8,475 straight (15,182 mm) / 1,526 curved (1,786 mm); text 124 rings, 900 straight (802 mm) / 302 curved (360 mm); tb 8 rings, 126 straight (180 mm) / 31 curved (34.6 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.8 @ (168.3, 197.6), r 1.5 @ (156.0, 253.1)
+- **Closed boxes:** 5 (1 in the title block)
+- **Words (OCR):** 23 in 22 lines: cio1 · Rioi · Qi01 · Pz · Tioi · 9-104 PCB · SW101 · R9 · D51O1 · Fio1 · Ioil Meu · Apr
+- **Title block:** (331, 0)–(376, 41) mm: WBS · ENG_ · CKD: · SCALE
+
+Every curve, box, word and wire group: [19xx - M632 - Power Supply p7 (traced).json](19xx%20-%20M632%20-%20Power%20Supply%20p7%20%28traced%29.json) (the CAD file: `19xx - M632 - Power Supply p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 432 × 258 mm, 2000 × 1196 px traced (0.216 mm/px)
+- **Ink extent:** 9–432 mm across, 0–251 mm up
+- **Outlines:** line 58 rings, 2,103 straight (6,536 mm) / 241 curved (482 mm); text 359 rings, 2,788 straight (3,628 mm) / 788 curved (1,281 mm); tb 133 rings, 1,360 straight (2,463 mm) / 314 curved (531 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 6.3 @ (46.8, 188.7), r 3.9 @ (25.2, 234.1)
+- **Closed boxes:** 8 (6 in the title block); named: 9-104 WBS 300 R7 CRZIN4QO3 R8 27k CANADA; Tip 30b
+- **Words (OCR):** 53 in 47 lines: WBS · 9-104 · R7 · 300 · CRZIN4QO3 R8 27k · CANADA · R673 · #cR3IN47SOA · Vzw · R11-oo · U1 · R9
+- **Title block:** (39, 4)–(432, 248) mm: WBS · 9-104 · R7 · 300 · CRZIN4QO3 R8 27k · CANADA · R673 · #cR3IN47SOA · Vzw · R11-oo · U1 · R9 · R3 · 12 · Ce · Vzw · Lm376 · 70735 · Ri2'so · 5o0 · Rs LKs · R2229 22 · V ADU · Rio IK? · Q2 · Tip 30
+
+Every curve, box, word and wire group: [19xx - M632 - Power Supply p8 (traced).json](19xx%20-%20M632%20-%20Power%20Supply%20p8%20%28traced%29.json) (the CAD file: `19xx - M632 - Power Supply p8 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

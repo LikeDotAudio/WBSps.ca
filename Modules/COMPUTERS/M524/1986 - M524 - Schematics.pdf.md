@@ -11,6 +11,107 @@ Wiki page: [M524](../../../PAGES/M524.md)
 - **Size:** 14,617,336 bytes
 - **Pages:** 8
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 2–418 mm across, 11–233 mm up
+- **Outlines:** line 1,030 rings, 9,141 straight (18,686 mm) / 1,482 curved (1,704 mm); text 145 rings, 1,014 straight (971 mm) / 270 curved (345 mm)
+- **Closed boxes:** 6; named: 44147090 PRcGraMMER Logic
+- **Words (OCR):** 9 in 8 lines: 44147090 · PRcGraMMER Logic · WES WARD-BECX SYSTEMS · M524 · PROGRAMMER MODULE · SCHEMATIC · B524-02-00 1 · ISS.
+
+Every curve, box, word and wire group: [1986 - M524 - Schematics p1 (traced).json](1986%20-%20M524%20-%20Schematics%20p1%20%28traced%29.json) (the CAD file: `1986 - M524 - Schematics p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 1–431 mm across, 12–275 mm up
+- **Outlines:** line 411 rings, 2,905 straight (6,897 mm) / 531 curved (636 mm); text 180 rings, 1,112 straight (1,175 mm) / 290 curved (388 mm); tb 2 rings, 38 straight (95.1 mm) / 2 curved (5.5 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.0 @ (291.8, 31.4), r 1.8 @ (291.6, 259.5)
+- **Closed boxes:** 40; named: GRoup SELECT GRP CHs GRP GRouP GROUP PRE; GRoup SELECT GRP CHs GRP; PRE SET
+- **Dots (junctions):** 1
+- **Words (OCR):** 18 in 15 lines: GRoup SELECT · GRP · CHs GRP · GROUP · GRouP · PRE SET · CHARNEL · WBS WARD-BECX SYSTEMS · M524 · PROGRAMMER · MODULE · FRONT PANEL
+- **Title block:** (336, 34)–(427, 49) mm: WBS WARD-BECX SYSTEMS
+
+Every curve, box, word and wire group: [1986 - M524 - Schematics p2 (traced).json](1986%20-%20M524%20-%20Schematics%20p2%20%28traced%29.json) (the CAD file: `1986 - M524 - Schematics p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 54–430 mm across, 12–252 mm up
+- **Outlines:** line 1,848 rings, 16,659 straight (29,581 mm) / 2,531 curved (2,778 mm); text 112 rings, 657 straight (733 mm) / 195 curved (264 mm); tb 3 rings, 50 straight (104 mm) / 2 curved (3.4 mm)
+- **Closed boxes:** 11
+- **Dots (junctions):** 2
+- **Words (OCR):** 9 in 8 lines: FD · Lybul · WBS WARD-BECK SYSTEMS · SA14-090 · PROGRAMMER LoGIc · SCHEMATIC · B14-090-02-00 1 · ISS
+- **Title block:** (338, 32)–(427, 48) mm: WBS WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1986 - M524 - Schematics p3 (traced).json](1986%20-%20M524%20-%20Schematics%20p3%20%28traced%29.json) (the CAD file: `1986 - M524 - Schematics p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** component layout B14-090-06-001, size B 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 1–431 mm across, 8–279 mm up
+- **Outlines:** line 925 rings, 6,571 straight (11,244 mm) / 2,089 curved (2,012 mm); text 405 rings, 2,490 straight (2,100 mm) / 870 curved (894 mm); tb 435 rings, 3,257 straight (4,339 mm) / 1,058 curved (1,012 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 3.5 @ (62.5, 189.5), r 3.4 @ (76.3, 86.6), r 3.2 @ (179.6, 85.3), r 1.5 @ (156.9, 93.3)
+- **Closed boxes:** 25; named: KEYPAD; 28
+- **Words (OCR):** 42 in 41 lines: KEYPAD · 14-290 · 37 · CID · ISSUE · DISPLAY · TH4140 · R455 · 47n0 · l0f2 · 10/2 · 7736
+- **Title block:** (256, 29)–(432, 192) mm: 14-290 · 37 · CID · ISSUE · DISPLAY · l0f2 · Btcr = · Vco · 10/25 · 0 1/100 · je| · [0/25 · WBS WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1986 - M524 - Schematics p4 (traced).json](1986%20-%20M524%20-%20Schematics%20p4%20%28traced%29.json) (the CAD file: `1986 - M524 - Schematics p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** schematic B14-091-02-001, size B 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 18–429 mm across, 11–254 mm up
+- **Outlines:** line 1,581 rings, 13,567 straight (25,176 mm) / 2,471 curved (3,109 mm); text 192 rings, 1,104 straight (1,052 mm) / 298 curved (367 mm); tb 2 rings, 34 straight (101 mm) / 0 curved (0.0 mm)
+- **Centre lines:** 13,570 paths (366 closed); straight 15,106 mm, curved 411 mm; horizontal 6,451 mm, vertical 4,826 mm, diagonal 3,830 mm
+- **Circles and arcs:** 6 circles, 41 arcs; largest r 3.3 @ (225.2, 224.9), r 3.2 @ (246.6, 222.8), r 3.1 @ (63.8, 103.1), r 3.1 @ (144.7, 221.6)
+- **Closed boxes:** 202; named: 741,
+- **Dots (junctions):** 2
+- **Words (OCR):** 25 in 24 lines: D3 VE · LILVUN · 741, · To · [9-02 · 07-0 · DA VE · OFIVE · CCLUVN · DA IVE · ORIVE · FkIXE
+- **Title block:** (338, 34)–(428, 50) mm: WBS WAAD-BECK SYSTEMS
+- **Wiring (first pass):** 136 connected wire groups from 1,571 runs; labelled ends: 134 mm → 10is, 21725; 130 mm → iaico, 835, C.ino; 123 mm → 10is, 21725, C.ino; 64 mm → 835, iaico; 61 mm → C.ino
+
+Every curve, box, word and wire group: [1986 - M524 - Schematics p5 (traced).json](1986%20-%20M524%20-%20Schematics%20p5%20%28traced%29.json) (the CAD file: `1986 - M524 - Schematics p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** component layout B14-091-06-001, size B 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 2–429 mm across, 6–277 mm up
+- **Outlines:** line 64 rings, 975 straight (3,365 mm) / 225 curved (213 mm); text 436 rings, 2,402 straight (2,025 mm) / 858 curved (882 mm); tb 838 rings, 5,110 straight (6,552 mm) / 1,681 curved (1,674 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 3.5 @ (77.5, 85.4), r 3.4 @ (63.7, 188.2)
+- **Closed boxes:** 5 (1 in the title block); named: LASIT
+- **Words (OCR):** 33 in 31 lines: 14-391 · data/AddResS · ISSUE · JKeY TALLIES · CR5D 56 · 78 64/0 · 4/o · ALARM · Crz · ~R54 · CKZE · LASIT
+- **Title block:** (83, 28)–(432, 189) mm: 14-391 · data/AddResS · ISSUE · JKeY TALLIES · CR5D 56 · 78 64/0 · 4/o · ALARM · Crz · ~R54 · CKZE · 10zs · 74C9ii · 74C9I1 · LRIO · 0 V102 · 1/10 · SC-- DA · Led DISPLAY DRIvE · 215974 · 245904 · 215
+
+Every curve, box, word and wire group: [1986 - M524 - Schematics p6 (traced).json](1986%20-%20M524%20-%20Schematics%20p6%20%28traced%29.json) (the CAD file: `1986 - M524 - Schematics p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 16–431 mm across, 0–278 mm up
+- **Outlines:** line 791 rings, 6,771 straight (13,425 mm) / 1,121 curved (1,361 mm); text 128 rings, 749 straight (803 mm) / 240 curved (321 mm); tb 2 rings, 33 straight (101 mm) / 0 curved (0.0 mm)
+- **Closed boxes:** 87
+- **Dots (junctions):** 1
+- **Words (OCR):** 13 in 12 lines: uI-i · VI-23 · pitPly · Gap_4 · VI-19 · V-7 · WBS WARD-BECK SYSTEMS · SA14-093 · KEY PAD DISPLAY ASSEMBLY · SCHEMATIC · B14-093-02-001 · ISS
+- **Title block:** (337, 31)–(427, 47) mm: WBS WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1986 - M524 - Schematics p7 (traced).json](1986%20-%20M524%20-%20Schematics%20p7%20%28traced%29.json) (the CAD file: `1986 - M524 - Schematics p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** component layout B14-093-06-001, size B 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 3–273 mm up
+- **Outlines:** line 577 rings, 4,161 straight (8,558 mm) / 1,172 curved (1,086 mm); text 136 rings, 918 straight (908 mm) / 282 curved (301 mm); tb 2 rings, 45 straight (91.6 mm) / 7 curved (10.7 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 1.6 @ (211.6, 124.3), r 1.6 @ (139.3, 191.5), r 1.6 @ (139.3, 122.2), r 1.3 @ (211.5, 191.0)
+- **Closed boxes:** 52
+- **Dots (junctions):** 1
+- **Words (OCR):** 8 in 6 lines: WBS WARD-BECK SYSTEMS · SA14-093 · KEY PAD DISPLAY ASSEMBLY · COMPONENT LAYoUt · B14-093-06-001 · ISS.
+- **Title block:** (343, 31)–(432, 46) mm: WBS WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1986 - M524 - Schematics p8 (traced).json](1986%20-%20M524%20-%20Schematics%20p8%20%28traced%29.json) (the CAD file: `1986 - M524 - Schematics p8 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 12 words corrected)

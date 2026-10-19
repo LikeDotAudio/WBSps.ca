@@ -12,6 +12,43 @@ Wiki page: [M498](../../../PAGES/M498.md)
 - **Pages:** 3
 - **PDF created (scan date, not design date):** Wed Aug 20 23:59:18 2003 EDT
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** layout 496-04-003, size B (assumed) 325 × 432 mm, 1506 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 30–325 mm across, 0–321 mm up
+- **Outlines:** line 124 rings, 1,843 straight (7,906 mm) / 245 curved (390 mm); text 235 rings, 1,338 straight (1,230 mm) / 556 curved (735 mm); tb 1 rings, 14 straight (13.5 mm) / 5 curved (6.3 mm)
+- **Closed boxes:** 21; named: was; was; lnt&rlOCked SELEC lOR swl [l;he.s SWl 51; DESIGNATION STRI Indicat to Input sou rc; CKD, Kl;l
+- **Words (OCR):** 52 in 28 lines: was · lnt&rlOCked · DESIGNATION STRI · to · Indicat · SWl to · 510111.; All ow (0<11"1"9 · SELEC lOR swl [l;he.s · olr>y · Input sou rc · on of eight · ii\flut pa rs
+- **Title block:** (215, 7)–(235, 32) mm: ORN. · CKD, Kl;l
+
+Every curve, box, word and wire group: [19xx - M498 - 8 X 2 Switcher - User Guide (2) p1 (traced).json](19xx%20-%20M498%20-%208%20X%202%20Switcher%20-%20User%20Guide%20%282%29%20p1%20%28traced%29.json) (the CAD file: `19xx - M498 - 8 X 2 Switcher - User Guide (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** functional 498-01-001, size B (assumed) 432 × 293 mm, 2000 × 1358 px traced (0.216 mm/px)
+- **Ink extent:** 6–432 mm across, 0–256 mm up
+- **Outlines:** line 76 rings, 1,691 straight (7,836 mm) / 202 curved (260 mm); text 206 rings, 1,250 straight (1,594 mm) / 246 curved (344 mm); tb 108 rings, 913 straight (1,322 mm) / 224 curved (344 mm)
+- **Centre lines:** 2,647 paths (23 closed); straight 5,585 mm, curved 0.0 mm; horizontal 2,799 mm, vertical 1,341 mm, diagonal 1,445 mm
+- **Closed boxes:** 15 (8 in the title block)
+- **Words (OCR):** 34 in 26 lines: fl' · LEFT · INPUT · OUTPUT · oW · RIGHT · oW · oW · ISSUE DATE · REV ISION · ca APP. · [\NBS) WARD-BECK SYSTEMS
+- **Title block:** (276, 2)–(432, 73) mm: ISSUE DATE · REV ISION · ca APP. · [\NBS) WARD-BECK SYSTEMS · ps · BS · DRN.l.'~Ifqf/£y · M498 · ENG. · STEREO SWITCHER MODULE · CKD.~~ · tp · APP.~ · FUNCTIONAL DIAGRAM · ht · tSCALE · ISSUE · 498-01
+- **Wiring (first pass):** 67 connected wire groups from 110 runs; labelled ends: 389 mm → oW; 55 mm → fl'; 53 mm → oW; 52 mm → fl'; 52 mm → oW
+
+Every curve, box, word and wire group: [19xx - M498 - 8 X 2 Switcher - User Guide (2) p2 (traced).json](19xx%20-%20M498%20-%208%20X%202%20Switcher%20-%20User%20Guide%20%282%29%20p2%20%28traced%29.json) (the CAD file: `19xx - M498 - 8 X 2 Switcher - User Guide (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 432 × 243 mm, 2000 × 1127 px traced (0.216 mm/px)
+- **Ink extent:** 9–432 mm across, 0–223 mm up
+- **Outlines:** line 393 rings, 4,098 straight (11,773 mm) / 806 curved (1,079 mm); text 220 rings, 1,317 straight (1,443 mm) / 442 curved (552 mm); tb 16 rings, 224 straight (197 mm) / 56 curved (71.7 mm)
+- **Closed boxes:** 7; named: ht EW
+- **Words (OCR):** 48 in 33 lines: LEFT · a...1 · OUTPlJ · RIGH · OUTPU7 · "-O-J · LS · L!S · e:x: · BL · 7L · 6L
+- **Title block:** (168, 16)–(420, 71) mm: SliVl TCH SSe'M8 · SCIJAOO"", YPE · WBS MJ · 11- 070 · ps · BS · W'E3S] WA RO-BeCK 8Y8T1EMS · tp
+
+Every curve, box, word and wire group: [19xx - M498 - 8 X 2 Switcher - User Guide (2) p3 (traced).json](19xx%20-%20M498%20-%208%20X%202%20Switcher%20-%20User%20Guide%20%282%29%20p3%20%28traced%29.json) (the CAD file: `19xx - M498 - 8 X 2 Switcher - User Guide (2) p3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

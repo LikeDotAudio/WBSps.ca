@@ -12,6 +12,198 @@ Wiki page: [M405](../../../PAGES/M405.md)
 - **Pages:** 17
 - **PDF created (scan date, not design date):** Thu Nov  2 15:12:48 2006 EST
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–311 mm across, 0–422 mm up
+- **Outlines:** line 64 rings, 924 straight (3,766 mm) / 146 curved (238 mm); text 142 rings, 1,096 straight (1,557 mm) / 217 curved (369 mm); tb 55 rings, 688 straight (864 mm) / 161 curved (242 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.9 @ (112.1, 228.7)
+- **Words (OCR):** 25 in 15 lines: [woes] PAOGAIESS · WARD -BECK YSTE MS LTD · ax · Tali,. · oe.>. · "l!!UoO.38~ · M405 · PORT ABLE EXTENDED RANGE · VU METER · ps · UAL ISSUE · BS
+- **Title block:** (118, 51)–(284, 423) mm: WARD -BECK YSTE MS LTD · ax · Tali,. · oe.>. · "l!!UoO.38~ · M405 · PORT ABLE EXTENDED RANGE · VU METER · UAL ISSUE · BS
+
+Every curve, box, word and wire group: [1975 - M405 - Portable Extended Vu Meter (2) p1 (traced).json](1975%20-%20M405%20-%20Portable%20Extended%20Vu%20Meter%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1975 - M405 - Portable Extended Vu Meter (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–312 mm across, 0–422 mm up
+- **Outlines:** line 224 rings, 2,152 straight (5,139 mm) / 531 curved (820 mm); text 334 rings, 2,284 straight (2,517 mm) / 604 curved (930 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.2 @ (69.1, 333.3), r 2.1 @ (90.5, 280.4)
+- **Words (OCR):** 70 in 35 lines: WAFl · CI< YSTE · LTD · TABLE OF CONTENT · OS PORTA BLE EXTENDED RANGE · VU MET ER · Warr an · Te · ic · Da ta · Ge nera · CIN:ui De sc rip io
+
+Every curve, box, word and wire group: [1975 - M405 - Portable Extended Vu Meter (2) p2 (traced).json](1975%20-%20M405%20-%20Portable%20Extended%20Vu%20Meter%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1975 - M405 - Portable Extended Vu Meter (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–315 mm across, 0–422 mm up
+- **Outlines:** line 391 rings, 3,292 straight (6,446 mm) / 834 curved (1,280 mm); text 800 rings, 5,764 straight (6,200 mm) / 1,763 curved (2,656 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.7 @ (61.3, 290.3), r 1.7 @ (187.1, 257.9), r 1.7 @ (82.1, 119.3)
+- **Dots (junctions):** 1
+- **Words (OCR):** 203 in 88 lines: WARD · ECK SYSTEM. LTD. · TECH NIC AL DATA · "14 · PORTA BLE EX TE NDED RANGE VU · METER · Ra ng · -50 dBm to ·30 Bm · te ps lor · VU · ead ng. · equency Respon se:
+
+Every curve, box, word and wire group: [1975 - M405 - Portable Extended Vu Meter (2) p3 (traced).json](1975%20-%20M405%20-%20Portable%20Extended%20Vu%20Meter%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1975 - M405 - Portable Extended Vu Meter (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–312 mm across, 0–422 mm up
+- **Outlines:** line 310 rings, 2,442 straight (5,555 mm) / 697 curved (1,026 mm); text 1,320 rings, 9,436 straight (10,124 mm) / 2,824 curved (4,260 mm); tb 6 rings, 47 straight (80.0 mm) / 13 curved (18.9 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.6 @ (245.2, 191.4)
+- **Dots (junctions):** 4
+- **Words (OCR):** 266 in 92 lines: WARD -BEC SYSTEMS LTO · M405 PORT ABLE EXTE NOEO RANGE VU MET ER · The M40 · Extended Ra ge VU Me Ie · ac/ba llery opera te · por lable InSlrumen · ig ed fo · Ih · me · remen · is lon · noise
+- **Title block:** (34, 399)–(141, 422) mm: WARD -BEC SYSTEMS LTO
+
+Every curve, box, word and wire group: [1975 - M405 - Portable Extended Vu Meter (2) p4 (traced).json](1975%20-%20M405%20-%20Portable%20Extended%20Vu%20Meter%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1975 - M405 - Portable Extended Vu Meter (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–313 mm across, 0–423 mm up
+- **Outlines:** line 474 rings, 3,687 straight (6,808 mm) / 938 curved (1,429 mm); text 2,376 rings, 16,392 straight (17,374 mm) / 5,142 curved (7,762 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 1.7 @ (147.9, 245.7), r 1.6 @ (176.6, 252.2), r 1.6 @ (89.5, 325.0), r 1.6 @ (219.6, 225.9)
+- **Dots (junctions):** 2
+- **Words (OCR):** 469 in 213 lines: CI RCUI · DESCR IP ION · M405 · OR TABLE · XTE NDED RANGE VU MET ER · ig · to he M4 · Ex tended Range VU Me te ma · via · binding po st t"rm in ls J2 and J3 or · lephon · ack J1 An input via
+
+Every curve, box, word and wire group: [1975 - M405 - Portable Extended Vu Meter (2) p5 (traced).json](1975%20-%20M405%20-%20Portable%20Extended%20Vu%20Meter%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1975 - M405 - Portable Extended Vu Meter (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–422 mm up
+- **Outlines:** line 636 rings, 4,924 straight (8,000 mm) / 1,363 curved (2,016 mm); text 940 rings, 6,573 straight (6,960 mm) / 2,004 curved (3,051 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 2.1 @ (46.3, 330.3), r 2.1 @ (232.0, 226.3), r 1.6 @ (258.1, 232.4), r 1.6 @ (130.1, 297.3)
+- **Dots (junctions):** 1
+- **Words (OCR):** 273 in 106 lines: IRCU IT OESCRIPT ION · M40 PORT ABLE EXTENOED RANGE VU METE · OUlput coupling capacitor · con nect · lhe igna to the VU me ter · via · wi lc · SW4. Re is lor RJ · provide · Ih · required ,.OUf"'Ce dri ing · impedance,
+
+Every curve, box, word and wire group: [1975 - M405 - Portable Extended Vu Meter (2) p6 (traced).json](1975%20-%20M405%20-%20Portable%20Extended%20Vu%20Meter%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1975 - M405 - Portable Extended Vu Meter (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–317 mm across, 0–422 mm up
+- **Outlines:** line 787 rings, 5,796 straight (8,948 mm) / 1,727 curved (2,622 mm); text 1,435 rings, 10,002 straight (10,581 mm) / 3,154 curved (4,738 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 2.1 @ (90.8, 279.7), r 2.1 @ (214.9, 372.2), r 2.1 @ (289.8, 280.7), r 1.6 @ (116.3, 68.6)
+- **Dots (junctions):** 3
+- **Words (OCR):** 356 in 173 lines: WAR · CK · BTEMS · OPE RAT IONAL OESC IPT ION · M405 PORT ABLE EXTE NOEO RANGE VU METER · Ref · 10 r-onl · Re · Layou B4 05 00l0 00I · ar Ch ge di at or · du in · atl
+
+Every curve, box, word and wire group: [1975 - M405 - Portable Extended Vu Meter (2) p7 (traced).json](1975%20-%20M405%20-%20Portable%20Extended%20Vu%20Meter%20%282%29%20p7%20%28traced%29.json) (the CAD file: `1975 - M405 - Portable Extended Vu Meter (2) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–422 mm up
+- **Outlines:** line 562 rings, 4,197 straight (7,286 mm) / 1,144 curved (1,724 mm); text 1,064 rings, 7,264 straight (7,774 mm) / 2,278 curved (3,432 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 2.1 @ (127.5, 376.2), r 1.7 @ (125.7, 316.4), r 1.6 @ (259.5, 276.7), r 1.6 @ (186.2, 309.8)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 274 in 111 lines: WAR · ECK YSTEMS LT · OPE RAT IONAL DESCR IPTION · 114'05 PORTABLE EXTEN DED RANGE VU METER · An In · connlN: led 10 th · mei er · te lep · ype input · tomalic" lly · on lN:l · ing POSI termin" ls from
+
+Every curve, box, word and wire group: [1975 - M405 - Portable Extended Vu Meter (2) p8 (traced).json](1975%20-%20M405%20-%20Portable%20Extended%20Vu%20Meter%20%282%29%20p8%20%28traced%29.json) (the CAD file: `1975 - M405 - Portable Extended Vu Meter (2) p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** component layout 8142_06_001, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–309 mm across, 21–423 mm up
+- **Outlines:** line 452 rings, 3,787 straight (6,188 mm) / 1,241 curved (1,394 mm); text 2,382 rings, 17,675 straight (17,064 mm) / 6,092 curved (7,133 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 1.6 @ (253.1, 120.8), r 1.6 @ (141.5, 74.4), r 1.6 @ (154.1, 153.7), r 1.6 @ (135.8, 331.6)
+- **Dots (junctions):** 1
+- **Words (OCR):** 486 in 225 lines: WAR · ECK YST · LT · "1405 PORTABLE EXT NDED RANGE VU METER · Th · M405 is de sig · fo · epen · bl · lrou bl -fre · ic · Howe er
+
+Every curve, box, word and wire group: [1975 - M405 - Portable Extended Vu Meter (2) p9 (traced).json](1975%20-%20M405%20-%20Portable%20Extended%20Vu%20Meter%20%282%29%20p9%20%28traced%29.json) (the CAD file: `1975 - M405 - Portable Extended Vu Meter (2) p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–313 mm across, 0–423 mm up
+- **Outlines:** line 313 rings, 2,908 straight (6,365 mm) / 749 curved (1,149 mm); text 340 rings, 2,475 straight (2,735 mm) / 761 curved (1,148 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.2 @ (99.9, 192.7), r 2.1 @ (189.6, 193.1), r 1.6 @ (182.1, 166.0)
+- **Closed boxes:** 1
+- **Dots (junctions):** 3
+- **Words (OCR):** 86 in 30 lines: WAR · CK · STEM · LTD · OC Voc. TAGE CHART · ""405 ORTABLE EXTE NDEO RANGE VU ""ETER · Ka si nal ap plied · Unit tur- · on · il l'l no · pow er app ie when · me sur ng Cl to C7 AC ow er appl ie an
+
+Every curve, box, word and wire group: [1975 - M405 - Portable Extended Vu Meter (2) p10 (traced).json](1975%20-%20M405%20-%20Portable%20Extended%20Vu%20Meter%20%282%29%20p10%20%28traced%29.json) (the CAD file: `1975 - M405 - Portable Extended Vu Meter (2) p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–317 mm across, 16–422 mm up
+- **Outlines:** line 470 rings, 3,930 straight (7,015 mm) / 985 curved (1,521 mm); text 552 rings, 4,345 straight (5,063 mm) / 1,265 curved (1,948 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.1 @ (111.8, 334.2), r 1.7 @ (195.7, 63.3)
+- **Words (OCR):** 113 in 76 lines: WAR D-I!IECK lIye · l.TD · OS EXTE NDED RANGE VU MET ER · DESC RI TI ON · !::lF PAR · NU · Bell · Nic · ium · Ou · ell · cr
+
+Every curve, box, word and wire group: [1975 - M405 - Portable Extended Vu Meter (2) p11 (traced).json](1975%20-%20M405%20-%20Portable%20Extended%20Vu%20Meter%20%282%29%20p11%20%28traced%29.json) (the CAD file: `1975 - M405 - Portable Extended Vu Meter (2) p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 28–332 mm across, 20–422 mm up
+- **Outlines:** line 523 rings, 4,291 straight (7,417 mm) / 1,090 curved (1,663 mm); text 475 rings, 3,525 straight (3,916 mm) / 1,043 curved (1,612 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.2 @ (107.6, 335.5), r 1.6 @ (131.9, 183.4), r 1.6 @ (191.6, 163.5), r 1.6 @ (102.7, 321.7)
+- **Words (OCR):** 114 in 68 lines: YSTEM · LT · 05 EX TENDE RANGE VU MET ER · MFG PART NUMB ER · Sm · 11 Kn ob · 023-.520 · Bl · Cap · c.O- 4620 · La rg · Kn ob
+
+Every curve, box, word and wire group: [1975 - M405 - Portable Extended Vu Meter (2) p12 (traced).json](1975%20-%20M405%20-%20Portable%20Extended%20Vu%20Meter%20%282%29%20p12%20%28traced%29.json) (the CAD file: `1975 - M405 - Portable Extended Vu Meter (2) p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–311 mm across, 0–422 mm up
+- **Outlines:** line 463 rings, 3,451 straight (6,821 mm) / 896 curved (1,413 mm); text 436 rings, 3,508 straight (3,854 mm) / 1,057 curved (1,622 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.6 @ (103.8, 322.9)
+- **Words (OCR):** 86 in 60 lines: 405 EXT ENOeO RANGE VU METER · DESCRIPTION · "'FG PART NUMBER · 51 620 · Re stor 1/4W · Ph lip.. · ra · 620 · Trim Pol · SOO · her · PTlOV_500
+
+Every curve, box, word and wire group: [1975 - M405 - Portable Extended Vu Meter (2) p13 (traced).json](1975%20-%20M405%20-%20Portable%20Extended%20Vu%20Meter%20%282%29%20p13%20%28traced%29.json) (the CAD file: `1975 - M405 - Portable Extended Vu Meter (2) p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–423 mm up
+- **Outlines:** line 243 rings, 2,343 straight (5,993 mm) / 518 curved (807 mm); text 258 rings, 1,989 straight (2,154 mm) / 500 curved (766 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.7 @ (122.3, 325.1)
+- **Words (OCR):** 57 in 27 lines: WAR · CI< · YST EM L.TD · M40S EXTENDEO RANGE VU METE · DESCR IP TION · MF PART NUMBER · Po wer Tran sf or mer · Fuse li · ittl fu · 357001 · all.~ ry C!,i · Duracel
+
+Every curve, box, word and wire group: [1975 - M405 - Portable Extended Vu Meter (2) p14 (traced).json](1975%20-%20M405%20-%20Portable%20Extended%20Vu%20Meter%20%282%29%20p14%20%28traced%29.json) (the CAD file: `1975 - M405 - Portable Extended Vu Meter (2) p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** schematic B 406-02-001, size B 432 × 298 mm, 2000 × 1379 px traced (0.216 mm/px)
+- **Ink extent:** 7–428 mm across, 6–289 mm up
+- **Outlines:** line 703 rings, 7,030 straight (12,576 mm) / 1,874 curved (2,416 mm); text 342 rings, 2,419 straight (2,249 mm) / 846 curved (1,100 mm); tb 3 rings, 56 straight (138 mm) / 2 curved (3.8 mm)
+- **Centre lines:** 8,502 paths (165 closed); straight 9,084 mm, curved 336 mm; horizontal 3,017 mm, vertical 2,716 mm, diagonal 3,352 mm
+- **Circles and arcs:** 4 circles, 76 arcs; largest r 4.1 @ (182.7, 262.3), r 2.6 @ (119.6, 107.8), r 2.6 @ (37.2, 202.8), r 0.7 @ (392.3, 238.4)
+- **Closed boxes:** 6
+- **Words (OCR):** 61 in 55 lines: +22-Sv · Srzs · Qhscs · puasd · JlLO · 7h5i6r · JaLLOI · 04 · 22/'15 22/15 · MITCh · ILOTE J · Th4iP
+- **Title block:** (304, 35)–(417, 54) mm: WBS · WARD-Deck 4yuthmd
+- **Wiring (first pass):** 93 connected wire groups from 684 runs; labelled ends: 504 mm → ILOTE J, JNSE, S620,, 0,07; 296 mm → 105k >, '53, 'n0, 10/25; 239 mm → 93, 1CJ/?5, ICO/LC, 0Woc; 131 mm → Icox; 107 mm → J/ol, Icox
+
+Every curve, box, word and wire group: [1975 - M405 - Portable Extended Vu Meter (2) p15 (traced).json](1975%20-%20M405%20-%20Portable%20Extended%20Vu%20Meter%20%282%29%20p15%20%28traced%29.json) (the CAD file: `1975 - M405 - Portable Extended Vu Meter (2) p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** layout B 405-04-013, size B 432 × 392 mm, 2000 × 1818 px traced (0.216 mm/px)
+- **Ink extent:** 5–426 mm across, 7–383 mm up
+- **Outlines:** line 456 rings, 5,784 straight (13,352 mm) / 1,244 curved (2,778 mm); text 39 rings, 329 straight (496 mm) / 58 curved (116 mm)
+- **Circles and arcs:** 31 circles, 0 arcs; largest r 15.7 @ (143.1, 237.0), r 10.9 @ (95.5, 236.5), r 7.2 @ (102.8, 171.2), r 5.6 @ (223.0, 219.9)
+- **Closed boxes:** 3; named: 11
+- **Dots (junctions):** 1
+- **Words (OCR):** 21 in 12 lines: 0-----...2- 11 · 11 · ps · BS · (was) WARD-BECK SVSTEMS · M405 · tp RANGE VU METER · PORTABLE EXTENDED · ht · FRONT REAR LAYOUT · 405-04-013 · 155.1
+
+Every curve, box, word and wire group: [1975 - M405 - Portable Extended Vu Meter (2) p16 (traced).json](1975%20-%20M405%20-%20Portable%20Extended%20Vu%20Meter%20%282%29%20p16%20%28traced%29.json) (the CAD file: `1975 - M405 - Portable Extended Vu Meter (2) p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 432 × 336 mm, 2000 × 1558 px traced (0.216 mm/px)
+- **Ink extent:** 15–410 mm across, 18–322 mm up
+- **Outlines:** line 952 rings, 6,654 straight (9,598 mm) / 1,819 curved (2,724 mm); text 140 rings, 893 straight (1,091 mm) / 236 curved (340 mm)
+- **Circles and arcs:** 23 circles, 0 arcs; largest r 5.8 @ (303.1, 156.6), r 2.4 @ (28.7, 49.0), r 2.4 @ (29.0, 104.1), r 2.4 @ (28.9, 88.9)
+- **Closed boxes:** 1; named: II II, 1,,1t -CR3 15K -R17 5iK 15 jK 14 
+- **Dots (junctions):** 3
+- **Words (OCR):** 125 in 111 lines: In · R24 · 47K · 4K7 · 'Z1 · II II, · -R23- · l:=J 10 ;Jl · 18 · lOOK · VI · Xi -"";00<
+
+Every curve, box, word and wire group: [1975 - M405 - Portable Extended Vu Meter (2) p17 (traced).json](1975%20-%20M405%20-%20Portable%20Extended%20Vu%20Meter%20%282%29%20p17%20%28traced%29.json) (the CAD file: `1975 - M405 - Portable Extended Vu Meter (2) p17 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

@@ -17,6 +17,314 @@ Wiki page: [M529](../../../PAGES/M529.md)
 - **1985** (manual_issue): `MANUAL ISSUE #1 AuGust 1985` — …529 n 4. . ' .` COMMUNICATIONS MODULE . . s ' ` 2 . . ` : ` MANUAL ISSUE #1 AuGust 1985…
 - **1985** (manual_issue): `Issue #1 August 1985` — …. . . 4. ` . . . . U. . 4. . . ' . " . . . ` . : . . ` . . Issue #1 August 1985…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 343 × 432 mm, 1590 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–333 mm across, 0–432 mm up
+- **Outlines:** line 93 rings, 2,213 straight (6,662 mm) / 117 curved (286 mm); text 49 rings, 1,129 straight (3,901 mm) / 92 curved (238 mm); tb 2 rings, 52 straight (252 mm) / 3 curved (2.8 mm)
+- **Words (OCR):** 13 in 12 lines: WBS · WBS · WBS · WBS · WBS · WBS · WBS · WBS · M529 · COMMUNICAtIONS MODULE · WBS · WBS
+- **Title block:** (184, 6)–(293, 432) mm: WBS · WBS · WBS · WBS · WBS · WBS · WBS · WBS · M529 · COMMUNICAtIONS MODULE · WBS · WBS
+
+Every curve, box, word and wire group: [1985 - M529 - Communication Modules p1 (traced).json](1985%20-%20M529%20-%20Communication%20Modules%20p1%20%28traced%29.json) (the CAD file: `1985 - M529 - Communication Modules p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 307 × 432 mm, 1423 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–299 mm across, 4–418 mm up
+- **Outlines:** line 5 rings, 1,054 straight (2,575 mm) / 80 curved (135 mm); text 172 rings, 1,961 straight (2,647 mm) / 434 curved (748 mm); tb 19 rings, 279 straight (505 mm) / 38 curved (53.7 mm)
+- **Words (OCR):** 15 in 10 lines: WARD-BECK · SYSTEMS LTD_ · WBS 841 PAOGRESS AVENUE, SCAABOROUGH; ONTARIO · Telex 065-25399 · TELEPHONE · 4161438-6550 · M529 · COMMUNICATIONS MODULE · MANUAL ISSUE · AugusT 1985
+- **Title block:** (20, 27)–(274, 428) mm: WARD-BECK · SYSTEMS LTD_ · WBS 841 PAOGRESS AVENUE, SCAABOROUGH; ONTARIO · Telex 065-25399 · TELEPHONE · 4161438-6550 · M529 · COMMUNICATIONS MODULE · MANUAL ISSUE
+
+Every curve, box, word and wire group: [1985 - M529 - Communication Modules p2 (traced).json](1985%20-%20M529%20-%20Communication%20Modules%20p2%20%28traced%29.json) (the CAD file: `1985 - M529 - Communication Modules p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 314 × 432 mm, 1455 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–306 mm across, 6–427 mm up
+- **Outlines:** line 25 rings, 1,555 straight (3,483 mm) / 182 curved (299 mm); text 641 rings, 4,885 straight (5,754 mm) / 1,397 curved (2,320 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 69 in 50 lines: WAAD-BECK Bystems LTD; · TABLE OF · CONTENTS · M529 COMMUNICATIONS · MODULE · SECTION · PAGE · Warranty · Main_Frame · Technical Data · 1-1 to · 1-3
+
+Every curve, box, word and wire group: [1985 - M529 - Communication Modules p3 (traced).json](1985%20-%20M529%20-%20Communication%20Modules%20p3%20%28traced%29.json) (the CAD file: `1985 - M529 - Communication Modules p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 304 × 432 mm, 1409 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–300 mm across, 4–426 mm up
+- **Outlines:** line 35 rings, 1,485 straight (3,049 mm) / 176 curved (281 mm); text 1,262 rings, 9,128 straight (10,067 mm) / 2,646 curved (4,185 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 170 in 96 lines: WAAD-BECK SYSTEMS LTD · TECHNICAL DATA · M529 COMMUNICATIONS MODULE · Note: · Specifications are · based on · voltage · levels · of 600 ohm · system unless · otherwise · specified_
+
+Every curve, box, word and wire group: [1985 - M529 - Communication Modules p4 (traced).json](1985%20-%20M529%20-%20Communication%20Modules%20p4%20%28traced%29.json) (the CAD file: `1985 - M529 - Communication Modules p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 432 × 288 mm, 2000 × 1335 px traced (0.216 mm/px)
+- **Ink extent:** 4–428 mm across, 0–288 mm up
+- **Outlines:** line 159 rings, 2,331 straight (5,035 mm) / 464 curved (642 mm); text 1,752 rings, 9,847 straight (9,716 mm) / 3,486 curved (4,834 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.2 @ (319.2, 135.6), r 1.1 @ (331.6, 112.5), r 1.1 @ (151.3, 173.8)
+- **Closed boxes:** 3; named: TECHNICAL DATA COMMUNICATIONS_MODULE M52; TECHNICAL_DATA COMMUNLCATIONS_MODULE M52
+- **Words (OCR):** 233 in 126 lines: WARD-BECK BYETEMS LTD; · WAAD-BECK BYSTEMS LTD_ · TECHNICAL DATA · TECHNICAL_DATA · M529 · COMMUNICATIONS_MODULE · M529 · COMMUNLCATIONS_MODULE · Speaker Amnplifier Section: · Oscillator Section: · Gain: · To Speaker
+- **Title block:** (0, 271)–(326, 288) mm: WARD-BECK BYETEMS LTD; · WAAD-BECK BYSTEMS LTD_
+
+Every curve, box, word and wire group: [1985 - M529 - Communication Modules p5 (traced).json](1985%20-%20M529%20-%20Communication%20Modules%20p5%20%28traced%29.json) (the CAD file: `1985 - M529 - Communication Modules p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–303 mm across, 4–427 mm up
+- **Outlines:** line 17 rings, 1,110 straight (2,708 mm) / 104 curved (161 mm); text 2,319 rings, 16,308 straight (17,866 mm) / 4,984 curved (7,729 mm); tb 38 rings, 243 straight (395 mm) / 67 curved (94.1 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 295 in 149 lines: WAAD-BECK · Systems LTD_ · GENERAL · M529 COMMUNICATIONS · MODULE · The M529 · Communications · Module · provides the required · talkback, cue · ST · series of Stereo
+- **Title block:** (1, 72)–(197, 432) mm: WAAD-BECK · Systems LTD_ · GENERAL · M529 COMMUNICATIONS · The M529 · Communications · Module · provides the required · feed and test · oscillator facilities for the · Television consoles · The integr
+
+Every curve, box, word and wire group: [1985 - M529 - Communication Modules p6 (traced).json](1985%20-%20M529%20-%20Communication%20Modules%20p6%20%28traced%29.json) (the CAD file: `1985 - M529 - Communication Modules p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** layout B529-04-001, size B 308 × 432 mm, 1427 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–298 mm across, 8–427 mm up
+- **Outlines:** line 30 rings, 1,626 straight (3,919 mm) / 162 curved (264 mm); text 1,844 rings, 13,273 straight (14,753 mm) / 3,956 curved (6,249 mm)
+- **Words (OCR):** 243 in 112 lines: WAAD-BECK bystems LTD · OPERAT IONAL DESCRIPT ION · M529 COMMUNICATIONS · MODULE · Refer to · Module_Layout B529-04-001 · MICROPHONE · The · integral microphone is the · input to · the talkback pre- · amplifier.
+
+Every curve, box, word and wire group: [1985 - M529 - Communication Modules p7 (traced).json](1985%20-%20M529%20-%20Communication%20Modules%20p7%20%28traced%29.json) (the CAD file: `1985 - M529 - Communication Modules p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 432 × 286 mm, 2000 × 1324 px traced (0.216 mm/px)
+- **Ink extent:** 3–427 mm across, 0–286 mm up
+- **Outlines:** line 55 rings, 2,272 straight (5,664 mm) / 278 curved (380 mm); text 1,736 rings, 10,136 straight (9,947 mm) / 3,518 curved (4,842 mm); tb 3 rings, 9 straight (5.1 mm) / 3 curved (2.3 mm)
+- **Closed boxes:** 2; named: OPERATIONAL DESCRIPT ION COMMUNICATIONS ; OPERAT IONAL DESCRIPT ION COMMUNICATIONS
+- **Words (OCR):** 256 in 113 lines: WARD-BECK SySTeMS LTD. · WAAD-BECK Systems LTD, · OPERATIONAL DESCRIPT ION · OPERAT IONAL DESCRIPT ION · M529 · COMMUNICATIONS DESCRIPTION · M529 · COMMUNICATIONS DESCRIPT ION · DESIGNATION · 16) TALKBACK · The · designation strip labels
+- **Title block:** (0, 272)–(323, 286) mm: WARD-BECK SySTeMS LTD. · WAAD-BECK Systems LTD,
+
+Every curve, box, word and wire group: [1985 - M529 - Communication Modules p8 (traced).json](1985%20-%20M529%20-%20Communication%20Modules%20p8%20%28traced%29.json) (the CAD file: `1985 - M529 - Communication Modules p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 307 × 432 mm, 1424 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–300 mm across, 0–428 mm up
+- **Outlines:** line 34 rings, 1,407 straight (3,531 mm) / 160 curved (250 mm); text 2,318 rings, 16,571 straight (18,539 mm) / 4,845 curved (7,595 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 331 in 164 lines: WAAD-BECK sybtems LTD · CIRcUIT DESCRIPT ION · M529 COMMUNICATIONS · MODULE · Speaker Amplifier · Inputs · actively balanced · The · preamplifier u3 has · four inputs which may · be · connected to
+
+Every curve, box, word and wire group: [1985 - M529 - Communication Modules p9 (traced).json](1985%20-%20M529%20-%20Communication%20Modules%20p9%20%28traced%29.json) (the CAD file: `1985 - M529 - Communication Modules p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 432 × 285 mm, 2000 × 1320 px traced (0.216 mm/px)
+- **Ink extent:** 4–428 mm across, 0–284 mm up
+- **Outlines:** line 58 rings, 1,821 straight (5,154 mm) / 203 curved (308 mm); text 3,870 rings, 20,758 straight (19,758 mm) / 7,547 curved (10,324 mm); tb 1 rings, 17 straight (36.0 mm) / 2 curved (4.0 mm)
+- **Closed boxes:** 2; named: CIRcUIT DESCRIPTION M529 COMMUNICATIONS ; CIRcUIT DESCRIPTION COMMUNICATIONS MODUL
+- **Words (OCR):** 585 in 282 lines: X'^?.6'. · WAAD-BECK SysTems LTD. · 6 ~Taya ~'4a Oxcw · WAAD-BECK Systems LTD. · CIRcUIT DESCRIPTION · CIRcUIT DESCRIPTION · M529 COMMUNICATIONS MODULE · M529 · COMMUNICATIONS MODULE · ifier · P~vy Vo · Talkback
+- **Title block:** (0, 270)–(310, 285) mm: WAAD-BECK SysTems LTD. · 6 ~Taya ~'4a Oxcw · WAAD-BECK Systems LTD.
+
+Every curve, box, word and wire group: [1985 - M529 - Communication Modules p10 (traced).json](1985%20-%20M529%20-%20Communication%20Modules%20p10%20%28traced%29.json) (the CAD file: `1985 - M529 - Communication Modules p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 432 × 283 mm, 2000 × 1309 px traced (0.216 mm/px)
+- **Ink extent:** 6–428 mm across, 0–280 mm up
+- **Outlines:** line 310 rings, 2,932 straight (5,922 mm) / 641 curved (897 mm); text 1,497 rings, 8,716 straight (8,888 mm) / 3,079 curved (4,288 mm); tb 1 rings, 16 straight (24.9 mm) / 6 curved (14.5 mm)
+- **Closed boxes:** 2; named: CIRcUIT DESCRIPTION M529 COMMUNICATIONS ; PARIS_LIST COMMUNICATLONS_MODULE M529 PA
+- **Words (OCR):** 183 in 129 lines: WAAD-BECK SYBTEmS LTD · WAAD-BECK SYSTEMS LTD_ · CIRcUIT DESCRIPTION · PARIS_LIST · M529 COMMUNICATIONS MODULE · COMMUNICATLONS_MODULE · M529 · R159 , · C66 and C67 decouple the supply · decouple the · supply voltage u9 _ · voltage
+- **Title block:** (1, 265)–(325, 283) mm: WAAD-BECK SYBTEmS LTD · WAAD-BECK SYSTEMS LTD_
+
+Every curve, box, word and wire group: [1985 - M529 - Communication Modules p11 (traced).json](1985%20-%20M529%20-%20Communication%20Modules%20p11%20%28traced%29.json) (the CAD file: `1985 - M529 - Communication Modules p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 432 × 292 mm, 2000 × 1354 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 0–292 mm up
+- **Outlines:** line 252 rings, 2,105 straight (5,104 mm) / 460 curved (643 mm); text 1,838 rings, 11,047 straight (11,581 mm) / 3,776 curved (5,271 mm); tb 1 rings, 18 straight (31.8 mm) / 4 curved (7.3 mm)
+- **Closed boxes:** 1; named: PARTS LIST MODULE M529 COMMUNICATIONS DE
+- **Words (OCR):** 249 in 225 lines: WAAD-BECK SYSTEMS LTD; · WAAD-BECK SYSTEMS LTD; · PARTS LIST · PARTS LIST · M529 COMMUNICATIONS · MODULE · M529 COMMUNICATIONS MODULE · PART · DESCRIPTION · MFG · MFG PART · NUMBER
+- **Title block:** (0, 277)–(314, 292) mm: WAAD-BECK SYSTEMS LTD; · WAAD-BECK SYSTEMS LTD;
+
+Every curve, box, word and wire group: [1985 - M529 - Communication Modules p12 (traced).json](1985%20-%20M529%20-%20Communication%20Modules%20p12%20%28traced%29.json) (the CAD file: `1985 - M529 - Communication Modules p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 432 × 282 mm, 2000 × 1307 px traced (0.216 mm/px)
+- **Ink extent:** 6–427 mm across, 0–282 mm up
+- **Outlines:** line 293 rings, 2,633 straight (5,659 mm) / 559 curved (774 mm); text 1,002 rings, 6,195 straight (6,558 mm) / 2,061 curved (2,801 mm); tb 1 rings, 23 straight (38.9 mm) / 1 curved (2.1 mm)
+- **Closed boxes:** 2; named: PARTS LIST M529 COMMUNICATIONS_MODULE PA; PARIS LIST COMMUNICATIONS_MODULE M529 MF
+- **Words (OCR):** 174 in 161 lines: WAAD-BECK SySTEMS LTD · WAAD-BECK SYETEMS LTD_ · PARTS LIST · PARIS LIST · M529 COMMUNICATIONS_MODULE · COMMUNICATIONS_MODULE · M529 · PART DESCRIPTION · PART · DESCRIPIION · MFG · MFG PART NUMBER
+- **Title block:** (0, 267)–(322, 282) mm: WAAD-BECK SySTEMS LTD · WAAD-BECK SYETEMS LTD_
+
+Every curve, box, word and wire group: [1985 - M529 - Communication Modules p13 (traced).json](1985%20-%20M529%20-%20Communication%20Modules%20p13%20%28traced%29.json) (the CAD file: `1985 - M529 - Communication Modules p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 432 × 284 mm, 2000 × 1316 px traced (0.216 mm/px)
+- **Ink extent:** 6–428 mm across, 0–284 mm up
+- **Outlines:** line 24 rings, 1,275 straight (3,863 mm) / 153 curved (230 mm); text 1,161 rings, 7,047 straight (7,434 mm) / 2,426 curved (3,278 mm); tb 254 rings, 1,271 straight (1,829 mm) / 374 curved (532 mm)
+- **Closed boxes:** 3; named: PARTS_LIST M529 COMMUNICATIONS MQDULE PA; PARIS LIsT COMMUNICATIONS_MODULE M529 DE
+- **Words (OCR):** 183 in 155 lines: WARD-BECK SYSTEMS LTD · WAAD-BECK SYSTEMS LTD. · PARTS_LIST · PARIS LIsT · M529 COMMUNICATIONS MQDULE · M529 · COMMUNICATIONS_MODULE · PART DESCRIPT ION · MFG · MFG PART NUMBER · PART · DESCRIPTION
+- **Title block:** (0, 42)–(393, 284) mm: WARD-BECK SYSTEMS LTD · WAAD-BECK SYSTEMS LTD. · PARTS_LIST · PARIS LIsT · M529 COMMUNICATIONS MQDULE · M529 · COMMUNICATIONS_MODULE · PART DESCRIPT ION · MFG · MFG PART NUMBER · PART · DESCRIPTION · 
+
+Every curve, box, word and wire group: [1985 - M529 - Communication Modules p14 (traced).json](1985%20-%20M529%20-%20Communication%20Modules%20p14%20%28traced%29.json) (the CAD file: `1985 - M529 - Communication Modules p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 432 × 283 mm, 2000 × 1312 px traced (0.216 mm/px)
+- **Ink extent:** 3–428 mm across, 0–282 mm up
+- **Outlines:** line 25 rings, 1,357 straight (3,962 mm) / 169 curved (248 mm); text 1,316 rings, 8,235 straight (8,745 mm) / 2,762 curved (3,758 mm); tb 195 rings, 1,283 straight (2,165 mm) / 294 curved (401 mm)
+- **Closed boxes:** 2 (1 in the title block); named: PARIS_LISI M529 COMMUNICAT IONS MODULE C
+- **Words (OCR):** 165 in 132 lines: WAAD-BECK SYSTEMS LTD_ · WARD-BECK SYETEMS LTD. · PARTS_LISI · PARIS_LISI · M529 · COMMUNICATIONS_MODULE · M529 COMMUNICAT IONS MODULE · MISCELLANEouS · COMPONENTS · PART DESCRIPTION · MFG · MFG PART
+- **Title block:** (0, 12)–(359, 283) mm: WAAD-BECK SYSTEMS LTD_ · WARD-BECK SYETEMS LTD. · PARTS_LISI · PARIS_LISI · M529 · COMMUNICATIONS_MODULE · M529 COMMUNICAT IONS MODULE · MISCELLANEouS · COMPONENTS · PART DESCRIPTION · MFG · MFG PART 
+
+Every curve, box, word and wire group: [1985 - M529 - Communication Modules p15 (traced).json](1985%20-%20M529%20-%20Communication%20Modules%20p15%20%28traced%29.json) (the CAD file: `1985 - M529 - Communication Modules p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 303 × 432 mm, 1405 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–299 mm across, 0–428 mm up
+- **Outlines:** line 132 rings, 4,039 straight (8,015 mm) / 455 curved (711 mm); text 759 rings, 6,620 straight (8,221 mm) / 1,741 curved (2,894 mm)
+- **Closed boxes:** 55; named: 10; 11; 12; 14; 13; 15; 16; 17; 18; 20; 19; 22
+- **Words (OCR):** 142 in 110 lines: WAAD-BECK systems LTD_ · CONNECTOR LAYouT · M529 COMMUNICATIONS MODULE · -60 dBm · -60 dBm · SHIELD · SHIELD · OSC ILLATOR · OSC ILLATOR · dBm · dBm · outputs
+- **Title block:** (0, 412)–(112, 432) mm: WAAD-BECK systems LTD_
+
+Every curve, box, word and wire group: [1985 - M529 - Communication Modules p16 (traced).json](1985%20-%20M529%20-%20Communication%20Modules%20p16%20%28traced%29.json) (the CAD file: `1985 - M529 - Communication Modules p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 318 × 432 mm, 1471 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–318 mm across, 9–432 mm up
+- **Outlines:** line 165 rings, 3,898 straight (7,136 mm) / 463 curved (655 mm); text 533 rings, 4,979 straight (6,224 mm) / 1,172 curved (1,948 mm)
+- **Closed boxes:** 39; named: 10; 11; 12; 13; 15; 16; 17; 18; 19; 20; 21; 22
+- **Words (OCR):** 81 in 75 lines: WARD-BECK SYSTEMs · LTD · CONNECTOR · LAYouT · M529 · COMMUNICATIONS · MODULE · P2 · SUMM · NG · INPUT · SUMMING
+
+Every curve, box, word and wire group: [1985 - M529 - Communication Modules p17 (traced).json](1985%20-%20M529%20-%20Communication%20Modules%20p17%20%28traced%29.json) (the CAD file: `1985 - M529 - Communication Modules p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 432 × 306 mm, 2000 × 1417 px traced (0.216 mm/px)
+- **Ink extent:** 2–430 mm across, 0–301 mm up
+- **Outlines:** line 929 rings, 9,656 straight (19,984 mm) / 1,403 curved (2,080 mm); text 129 rings, 952 straight (1,045 mm) / 291 curved (459 mm); tb 2 rings, 40 straight (112 mm) / 0 curved (0.0 mm)
+- **Circles and arcs:** 30 circles, 0 arcs; largest r 6.7 @ (292.5, 34.9), r 3.9 @ (292.1, 97.8), r 3.9 @ (292.0, 117.3), r 3.8 @ (292.0, 127.6)
+- **Closed boxes:** 34; named: "on MON AUX AUX AUx AUX
+- **Dots (junctions):** 1
+- **Words (OCR):** 16 in 16 lines: OSC ILLATC · SAI-IZL · SuBASSHE · "on · MON · AUX · AUX · AUx · AUX · WBS · WARD-BECK SYSTEMS · M529
+- **Title block:** (340, 32)–(432, 50) mm: WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1985 - M529 - Communication Modules p18 (traced).json](1985%20-%20M529%20-%20Communication%20Modules%20p18%20%28traced%29.json) (the CAD file: `1985 - M529 - Communication Modules p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 5–423 mm across, 2–301 mm up
+- **Outlines:** line 652 rings, 5,553 straight (9,627 mm) / 983 curved (1,215 mm); text 226 rings, 1,735 straight (1,586 mm) / 523 curved (678 mm); tb 2 rings, 52 straight (106 mm) / 4 curved (7.0 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.0 @ (217.1, 247.5)
+- **Closed boxes:** 2; named: Vuitzr
+- **Dots (junctions):** 2
+- **Words (OCR):** 41 in 37 lines: SMTCHED · CoTPOL · SPEAKER · SPCAKER · AMPLFIEP · Satchod · LCVEL · INPUTS · CCHTOL · Bcbr · direct · UJTE
+- **Title block:** (332, 36)–(432, 54) mm: WBS WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1985 - M529 - Communication Modules p19 (traced).json](1985%20-%20M529%20-%20Communication%20Modules%20p19%20%28traced%29.json) (the CAD file: `1985 - M529 - Communication Modules p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 432 × 296 mm, 2000 × 1371 px traced (0.216 mm/px)
+- **Ink extent:** 7–431 mm across, 0–296 mm up
+- **Outlines:** line 1,239 rings, 17,403 straight (23,213 mm) / 3,583 curved (4,323 mm); text 134 rings, 1,000 straight (1,022 mm) / 246 curved (348 mm); tb 2 rings, 44 straight (109 mm) / 2 curved (2.8 mm)
+- **Closed boxes:** 40
+- **Words (OCR):** 9 in 8 lines: {E +2+ + · Jtkk · WBS WAAD-BeCK SYSTEMS · M529 · CommuniCATiOnS MODULE · SCHEMATIC · B 529 -02-001 · ISS.1
+- **Title block:** (342, 31)–(432, 48) mm: WBS WAAD-BeCK SYSTEMS
+
+Every curve, box, word and wire group: [1985 - M529 - Communication Modules p20 (traced).json](1985%20-%20M529%20-%20Communication%20Modules%20p20%20%28traced%29.json) (the CAD file: `1985 - M529 - Communication Modules p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** component layout B 529-06-001, size B 432 × 284 mm, 2000 × 1317 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–268 mm up
+- **Outlines:** line 2,381 rings, 16,926 straight (21,913 mm) / 5,043 curved (5,039 mm); text 628 rings, 3,700 straight (3,008 mm) / 1,312 curved (1,375 mm); tb 778 rings, 5,253 straight (5,541 mm) / 1,768 curved (1,801 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 3.6 @ (157.3, 84.2), r 3.6 @ (31.0, 83.9), r 2.5 @ (362.6, 203.7), r 2.4 @ (56.1, 182.8)
+- **Closed boxes:** 15 (4 in the title block); named: 108725; 1C3/25 ul (DISOP sop 0. 015 100 /40; 1C3/25; 18525
+- **Dots (junctions):** 4
+- **Words (OCR):** 77 in 73 lines: saje · CFAA · 546 · CFT-Ap · C4T-Ap · "FL/T8 · Vzu · 2i82 · 10/25 · CBD ICP · 448 · 448
+- **Title block:** (207, 30)–(432, 162) mm: 14-118'85 · 35322k · 35432k · ISSUE · R2922k · Rzz44 · 2102 · R5722k · R27 E R2i T · ul · R49 22k · RsQ !ok · 680/16 · (DISOP · "216| · sop · 0. 015 · 100 /40 · L/356 · S502 · Aiio@ · FL 0.75A · 9559 
+
+Every curve, box, word and wire group: [1985 - M529 - Communication Modules p21 (traced).json](1985%20-%20M529%20-%20Communication%20Modules%20p21%20%28traced%29.json) (the CAD file: `1985 - M529 - Communication Modules p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–333 mm across, 0–432 mm up
+- **Outlines:** line 183 rings, 3,019 straight (5,570 mm) / 447 curved (552 mm); text 70 rings, 670 straight (833 mm) / 128 curved (219 mm)
+- **Words (OCR):** 7 in 5 lines: WAAD-BECK · SYSTEMS · LTD. · SECTION · MODULES AND SUBASSE MBL IES
+- **Title block:** (12, 401)–(120, 426) mm: WAAD-BECK · SYSTEMS
+
+Every curve, box, word and wire group: [1985 - M529 - Communication Modules p22 (traced).json](1985%20-%20M529%20-%20Communication%20Modules%20p22%20%28traced%29.json) (the CAD file: `1985 - M529 - Communication Modules p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 308 × 432 mm, 1425 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–301 mm across, 9–426 mm up
+- **Outlines:** line 4 rings, 1,166 straight (2,597 mm) / 108 curved (189 mm); text 87 rings, 740 straight (904 mm) / 212 curved (343 mm); tb 3 rings, 6 straight (4.9 mm) / 5 curved (6.0 mm)
+- **Words (OCR):** 9 in 5 lines: WAAD-BECK Systems LTD; · SA14-124 OSC ILLATOR ASSEMBLY · Issue · August · 1985
+- **Title block:** (0, 29)–(246, 432) mm: WAAD-BECK Systems LTD; · SA14-124 OSC ILLATOR ASSEMBLY · Issue · August
+
+Every curve, box, word and wire group: [1985 - M529 - Communication Modules p23 (traced).json](1985%20-%20M529%20-%20Communication%20Modules%20p23%20%28traced%29.json) (the CAD file: `1985 - M529 - Communication Modules p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 302 × 432 mm, 1399 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–295 mm across, 5–427 mm up
+- **Outlines:** line 30 rings, 1,172 straight (3,068 mm) / 133 curved (211 mm); text 2,048 rings, 14,135 straight (15,651 mm) / 4,498 curved (7,115 mm)
+- **Words (OCR):** 276 in 115 lines: WAAD-BECK SysTeMS LTD; · CIRcUIT DESCRIPTION · SA14-124 OSC ILLATOR ASSEMBLY · The · SA14-124 is · ten · frequency oscillator · subassembly which · plugs · onto · the · M529 Communications
+
+Every curve, box, word and wire group: [1985 - M529 - Communication Modules p24 (traced).json](1985%20-%20M529%20-%20Communication%20Modules%20p24%20%28traced%29.json) (the CAD file: `1985 - M529 - Communication Modules p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** drawing, size B (assumed) 302 × 432 mm, 1401 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–293 mm across, 7–425 mm up
+- **Outlines:** line 124 rings, 1,776 straight (4,015 mm) / 222 curved (365 mm); text 1,037 rings, 8,027 straight (9,334 mm) / 2,496 curved (4,057 mm)
+- **Words (OCR):** 143 in 121 lines: WARD-BECK Systems LTD_ · PARTS · LiST · SA14-124 · OSC ILLATOR ASSEMBLY · PART DESCRIPT ION · MFG · MFG PART NUMBER · C1 · Capacitor 0.025 · uF/100 · C2
+- **Title block:** (0, 410)–(112, 432) mm: WARD-BECK Systems LTD_
+
+Every curve, box, word and wire group: [1985 - M529 - Communication Modules p25 (traced).json](1985%20-%20M529%20-%20Communication%20Modules%20p25%20%28traced%29.json) (the CAD file: `1985 - M529 - Communication Modules p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** drawing, size B (assumed) 432 × 306 mm, 2000 × 1415 px traced (0.216 mm/px)
+- **Ink extent:** 1–429 mm across, 0–290 mm up
+- **Outlines:** line 33 rings, 1,517 straight (4,688 mm) / 176 curved (264 mm); text 1,255 rings, 7,279 straight (7,377 mm) / 2,611 curved (3,476 mm); tb 295 rings, 1,820 straight (2,633 mm) / 457 curved (610 mm)
+- **Closed boxes:** 2; named: PARIS LIST OSCILLATOR ASSEMBLY 5A14-124 ; PARTS LIST 5A14-124OSCILLATOR ASSEMBLY P
+- **Words (OCR):** 193 in 159 lines: WAAD-BECK BYBTEMS LTD; · PARTS LIST · PARIS LIST · 5A14-124OSCILLATOR ASSEMBLY · 5A14-124 · OSCILLATOR ASSEMBLY · PART DESCRIPTION · MFG · MFG PART_NUMBER · PARI DESCRIPTION · MFG · MFG PART NUMBER
+- **Title block:** (14, 29)–(396, 287) mm: WAAD-BECK BYBTEMS LTD; · PARTS LIST · PARIS LIST · 5A14-124OSCILLATOR ASSEMBLY · 5A14-124 · OSCILLATOR ASSEMBLY · PART DESCRIPTION · MFG · MFG PART_NUMBER · PARI DESCRIPTION · MFG · R6 · Resistor 1/4w
+
+Every curve, box, word and wire group: [1985 - M529 - Communication Modules p26 (traced).json](1985%20-%20M529%20-%20Communication%20Modules%20p26%20%28traced%29.json) (the CAD file: `1985 - M529 - Communication Modules p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** schematic B 14-124-02-001, size B 432 × 278 mm, 2000 × 1286 px traced (0.216 mm/px)
+- **Ink extent:** 2–422 mm across, 0–274 mm up
+- **Outlines:** line 711 rings, 7,418 straight (11,552 mm) / 1,761 curved (2,063 mm); text 240 rings, 1,686 straight (1,581 mm) / 516 curved (633 mm); tb 2 rings, 50 straight (104 mm) / 2 curved (5.3 mm)
+- **Centre lines:** 8,948 paths (176 closed); straight 8,100 mm, curved 116 mm; horizontal 2,781 mm, vertical 2,308 mm, diagonal 3,010 mm
+- **Circles and arcs:** 2 circles, 37 arcs; largest r 0.7 @ (72.6, 203.5), r 0.7 @ (72.8, 130.9)
+- **Closed boxes:** 3
+- **Words (OCR):** 36 in 33 lines: FRECUENC  SZLECTCR · NES5J+N · 680 /16] · Riskkz= · 4ouini · 45; NESSJAN +22v · 3J/16 · 620 /16 · 3725" · 10/25 · AGC · 07k5
+- **Title block:** (333, 31)–(431, 47) mm: WBS WAAD-BECk SYSTEMS
+- **Wiring (first pass):** 89 connected wire groups from 675 runs; labelled ends: 254 mm → 07k5, JJZK, 4J2 1%; 251 mm → JJZK; 162 mm → 22/25; 114 mm → NESSJAN +22v, 45;, 3725", 3J/16; 109 mm → 45;
+
+Every curve, box, word and wire group: [1985 - M529 - Communication Modules p27 (traced).json](1985%20-%20M529%20-%20Communication%20Modules%20p27%20%28traced%29.json) (the CAD file: `1985 - M529 - Communication Modules p27 (traced).dxf`).
+
+### Page 28
+
+- **Sheet:** component layout B 14-124-06-001, size B 258 × 432 mm, 1195 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–248 mm across, 0–429 mm up
+- **Outlines:** line 479 rings, 5,087 straight (7,343 mm) / 1,462 curved (1,584 mm); text 615 rings, 4,977 straight (4,845 mm) / 1,730 curved (1,998 mm); tb 126 rings, 1,570 straight (2,233 mm) / 446 curved (463 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 3.8 @ (122.1, 373.5), r 3.8 @ (124.3, 324.2), r 2.8 @ (15.4, 327.3), r 2.4 @ (14.6, 158.8)
+- **Closed boxes:** 8
+- **Words (OCR):** 100 in 87 lines: FREQUENCY SELECTOR · NBS · 1-131 · 10/25 · LEVEL · e5 0 · R4594 · Ks · R4I R2z zk · R2i · c3925 · 432 L
+- **Title block:** (30, 49)–(253, 246) mm: 14-124 · 10/25 · 22p · L2zzes · C17 · JISSUE · 22k · U3 · N5; · R44 · NESS · ~~R45 22K · 34N · 47P · R4g !OK R48 Tk · Iok · RSQ · R47 · C2s · R54 · 680/16 · R52 · C2z · 00000 · Pi · 680/16 · WBS WARD-
+
+Every curve, box, word and wire group: [1985 - M529 - Communication Modules p28 (traced).json](1985%20-%20M529%20-%20Communication%20Modules%20p28%20%28traced%29.json) (the CAD file: `1985 - M529 - Communication Modules p28 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

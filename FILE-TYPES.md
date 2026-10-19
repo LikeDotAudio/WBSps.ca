@@ -6,11 +6,11 @@ Every file can be opened in the browser with `viewer.html?f=<path>` (links in th
 |---|---|---|---|---|
 | `.md` | 13,723 | Markdown note / wiki page | Obsidian; VS Code; any text editor | shown as text |
 | `.jpg` | 12,274 | photo / scan | any browser; Image Viewer; GIMP | native |
-| `.dxf` | 3,879 | AutoCAD DXF drawing (footprints, panels) | LibreOffice Draw; Inkscape; KiCad (import) | SVG via ezdxf |
+| `.dxf` | 10,255 | AutoCAD DXF drawing (footprints, panels) | LibreOffice Draw; Inkscape; KiCad (import) | SVG via ezdxf |
 | `.html` | 1,339 | — | — | none |
+| `.svg` | 761 | vector drawing (renders, previews) | any browser; Inkscape | native |
 | `.pdf` | 629 | PDF document | any browser; Document Viewer | native |
 | `.png` | 497 | image | any browser; Image Viewer; GIMP | native |
-| `.svg` | 374 | vector drawing (renders, previews) | any browser; Inkscape | native |
 | `.docx` | 209 | Word document (modern manuals) | LibreOffice Writer | PDF via LibreOffice |
 | `.dwg` | 115 | AutoCAD DWG drawing (R11/R12 mechanical) | needs a DWG viewer — ODA File Converter or DraftSight (not installed) | none yet |
 | `.kicad_sym` | 110 | — | — | none |

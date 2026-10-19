@@ -17,6 +17,192 @@ Wiki page: [M648](../../../PAGES/M648.md)
 - **1983** (manual_issue): `MANUAL ISSUE IS :// tp MA Y 1983` — …~ . ... . '....,. ..55C M648 'P O W E R SUPPLY a .c ps BS W MANUAL ISSUE IS :// tp MA Y 1983 ht…
 - **1983** (month): `JANUARY 1983` — …//W M648 POWER SUPPLIES PRIOR TO (VVE3S) WARD-BECK SYSTEMS JANUARY 1983 ADD 0 .047 UF : tp CAPAC ITOR TO SERIES PASS TRANSISTOR ON…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 329 × 432 mm, 1524 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–425 mm up
+- **Outlines:** line 40 rings, 977 straight (3,158 mm) / 93 curved (160 mm); text 50 rings, 506 straight (752 mm) / 118 curved (199 mm); tb 78 rings, 967 straight (1,194 mm) / 264 curved (422 mm)
+- **Words (OCR):** 20 in 16 lines: (VV8S] · WARD -BECK YSTE · LTD · CNT....-o · .......ax" · a.s·e-. · 55C · M648 · SUPPLY · ps · BS · IS
+- **Title block:** (110, 36)–(286, 419) mm: WARD -BECK YSTE · LTD · CNT....-o · .......ax" · a.s·e-. · 55C · M648 · SUPPLY · ps · BS · MANUAL ISSUE
+
+Every curve, box, word and wire group: [1983 - M648 - Power Supply p1 (traced).json](1983%20-%20M648%20-%20Power%20Supply%20p1%20%28traced%29.json) (the CAD file: `1983 - M648 - Power Supply p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 329 × 432 mm, 1524 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–305 mm across, 24–430 mm up
+- **Outlines:** line 228 rings, 2,267 straight (4,516 mm) / 473 curved (721 mm); text 551 rings, 4,102 straight (4,488 mm) / 1,208 curved (1,895 mm); tb 100 rings, 1,073 straight (1,406 mm) / 240 curved (371 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.7 @ (216.2, 230.0), r 1.7 @ (197.8, 117.8), r 1.7 @ (51.8, 263.3)
+- **Dots (junctions):** 4
+- **Words (OCR):** 131 in 69 lines: WARD -BECK SYSTEMS · LTD. · ECHNIC AL OATA · REGULATEO OUTPUT · Output Vo lt ag · to · mp · ampl fl er app licati on, · ..og · condition · to · O.S mp continuou
+- **Title block:** (24, 291)–(259, 429) mm: WARD -BECK SYSTEMS · LTD. · ECHNIC AL OATA · REGULATEO OUTPUT · Output Vo lt ag · to · mp · ampl fl er app licati on, · ..og · condition · to · O.S mp continuou
+
+Every curve, box, word and wire group: [1983 - M648 - Power Supply p2 (traced).json](1983%20-%20M648%20-%20Power%20Supply%20p2%20%28traced%29.json) (the CAD file: `1983 - M648 - Power Supply p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 329 × 432 mm, 1524 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 26–329 mm across, 22–426 mm up
+- **Outlines:** line 201 rings, 2,364 straight (4,604 mm) / 564 curved (867 mm); text 83 rings, 628 straight (679 mm) / 170 curved (264 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.7 @ (77.6, 332.9)
+- **Words (OCR):** 50 in 25 lines: WAFl · CK YSTE MS LTD · TECHN ICAL DATA · 104648 OWER SU LY · lma · 115 ol IS · 60 H:z 100 VA · Req uireme · Amb ie · Temperal ure, · 10 SO d.gr. · Cel iu
+
+Every curve, box, word and wire group: [1983 - M648 - Power Supply p3 (traced).json](1983%20-%20M648%20-%20Power%20Supply%20p3%20%28traced%29.json) (the CAD file: `1983 - M648 - Power Supply p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 329 × 432 mm, 1524 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–302 mm across, 23–425 mm up
+- **Outlines:** line 669 rings, 5,524 straight (8,087 mm) / 1,417 curved (2,222 mm); text 911 rings, 6,931 straight (7,346 mm) / 2,060 curved (3,241 mm)
+- **Circles and arcs:** 18 circles, 0 arcs; largest r 1.8 @ (112.8, 314.8), r 1.8 @ (129.5, 321.5), r 1.7 @ (75.8, 248.8), r 1.7 @ (43.6, 275.3)
+- **Dots (junctions):** 5
+- **Words (OCR):** 260 in 118 lines: SYSTe · LT · M648 POWER $UPPL · The M64 · In ..egulated pow · .upp ly Is des l!ilne<! · lma ";lv for · In Wa ..d-Be<::k <;OIlsoles and V.lems Th un it · lde · lIo · de; · am
+
+Every curve, box, word and wire group: [1983 - M648 - Power Supply p4 (traced).json](1983%20-%20M648%20-%20Power%20Supply%20p4%20%28traced%29.json) (the CAD file: `1983 - M648 - Power Supply p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 329 × 432 mm, 1524 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–302 mm across, 20–425 mm up
+- **Outlines:** line 898 rings, 7,199 straight (10,022 mm) / 1,839 curved (2,844 mm); text 1,461 rings, 10,604 straight (11,422 mm) / 3,228 curved (5,081 mm)
+- **Circles and arcs:** 21 circles, 0 arcs; largest r 2.2 @ (157.4, 361.2), r 1.7 @ (127.1, 320.9), r 1.7 @ (96.7, 155.5), r 1.7 @ (47.2, 261.4)
+- **Closed boxes:** 1; named: ts
+- **Dots (junctions):** 4
+- **Words (OCR):** 435 in 175 lines: WA~ · YSTeMS LTO. · M648 OWER SUPP LY · M648 pow · ply · lrKl · In lO he MF6 mou nling fr ame. · Th · fr me ma · be in stall ed · In · tand rd
+
+Every curve, box, word and wire group: [1983 - M648 - Power Supply p5 (traced).json](1983%20-%20M648%20-%20Power%20Supply%20p5%20%28traced%29.json) (the CAD file: `1983 - M648 - Power Supply p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** schematic B648_02_003, size B 329 × 432 mm, 1524 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–329 mm across, 0–416 mm up
+- **Outlines:** line 809 rings, 6,526 straight (9,473 mm) / 1,783 curved (2,778 mm); text 828 rings, 6,321 straight (6,947 mm) / 1,834 curved (2,907 mm)
+- **Centre lines:** 6,818 paths (329 closed); straight 8,807 mm, curved 1,452 mm; horizontal 1,857 mm, vertical 2,387 mm, diagonal 4,563 mm
+- **Circles and arcs:** 119 circles, 205 arcs; largest r 2.3 @ (177.4, 65.5), r 2.2 @ (169.9, 65.4), r 2.2 @ (158.5, 71.2), r 1.8 @ (173.5, 158.7)
+- **Closed boxes:** 1
+- **Dots (junctions):** 2
+- **Words (OCR):** 97 in 79 lines: WAAD-BeCK BYBTEME · EAataYF 4300 OFLW · IStaLLATiOY · Rolia SUPPLY · pcte · oatorbalncn · pceer ELoolt · nlald · vipmenl · [Mentyelive · orerte · remobt Nen (Ng
+- **Wiring (first pass):** 9 connected wire groups from 424 runs; labelled ends: 632 mm → nBSps.; 66 mm → Rolia SUPPLY; 46 mm → IStaLLATiOY, Rolia SUPPLY; 33 mm → exialing, cpacitoc, Icaneercc, added; 14 mm → WAAD-BeCK BYBTEME
+
+Every curve, box, word and wire group: [1983 - M648 - Power Supply p6 (traced).json](1983%20-%20M648%20-%20Power%20Supply%20p6%20%28traced%29.json) (the CAD file: `1983 - M648 - Power Supply p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 329 × 432 mm, 1524 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–300 mm across, 19–426 mm up
+- **Outlines:** line 227 rings, 2,207 straight (4,762 mm) / 495 curved (757 mm); text 539 rings, 4,158 straight (4,568 mm) / 1,144 curved (1,773 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.2 @ (157.2, 357.8), r 1.8 @ (111.1, 297.7), r 1.7 @ (160.9, 330.6), r 1.7 @ (233.3, 303.8)
+- **Dots (junctions):** 1
+- **Words (OCR):** 138 in 61 lines: WAFlO I!IECK SYSTE · LTD. · CIRCUIT DESCRIPT ION · Th · line volt age · li · to · an fo,.m · Tl · ia · onn ecto,. PI · termin al
+
+Every curve, box, word and wire group: [1983 - M648 - Power Supply p7 (traced).json](1983%20-%20M648%20-%20Power%20Supply%20p7%20%28traced%29.json) (the CAD file: `1983 - M648 - Power Supply p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 329 × 432 mm, 1524 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–302 mm across, 16–426 mm up
+- **Outlines:** line 673 rings, 5,680 straight (9,010 mm) / 1,550 curved (2,500 mm); text 303 rings, 2,269 straight (2,470 mm) / 719 curved (1,153 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 2.2 @ (106.0, 328.3), r 2.2 @ (155.6, 354.4), r 1.8 @ (90.5, 169.1), r 1.8 @ (96.0, 228.6)
+- **Dots (junctions):** 4
+- **Words (OCR):** 88 in 43 lines: WAR · V.T · TD. · M648 POWER SUPPL · MF PART NUMBER · 0.1 · /400 · Ph lip · 34 7104 · C2 · 2800 · l00
+
+Every curve, box, word and wire group: [1983 - M648 - Power Supply p8 (traced).json](1983%20-%20M648%20-%20Power%20Supply%20p8%20%28traced%29.json) (the CAD file: `1983 - M648 - Power Supply p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** schematic B 648-02-002, size B 432 × 299 mm, 2000 × 1386 px traced (0.216 mm/px)
+- **Ink extent:** 2–427 mm across, 5–269 mm up
+- **Outlines:** line 255 rings, 2,951 straight (7,283 mm) / 537 curved (837 mm); text 428 rings, 2,582 straight (2,767 mm) / 808 curved (1,125 mm); tb 13 rings, 118 straight (123 mm) / 20 curved (30.5 mm)
+- **Centre lines:** 3,636 paths (66 closed); straight 5,570 mm, curved 299 mm; horizontal 1,960 mm, vertical 1,579 mm, diagonal 2,031 mm
+- **Circles and arcs:** 9 circles, 41 arcs; largest r 8.1 @ (256.4, 246.8), r 3.4 @ (331.2, 227.2), r 1.7 @ (372.7, 20.6), r 1.3 @ (53.5, 179.0)
+- **Closed boxes:** 2; named: SA14-058 REGULATOR ASSEMBLY
+- **Words (OCR):** 94 in 66 lines: P2 · ri · R2 · +48V · -R4! · 2,3 · 5W · 2K2 · 3.75W · Rl · PCB 9-109 · 5W
+- **Title block:** (364, 29)–(432, 44) mm: (VVE3S] WARD-BECK SYSTEMS
+- **Wiring (first pass):** 39 connected wire groups from 222 runs; labelled ends: 986 mm → R2, ri, 2,3, -R4!; 261 mm → 470/40, 13,, 141; 148 mm → 470/40; 73 mm → L.-J, 16; 51 mm → GN
+
+Every curve, box, word and wire group: [1983 - M648 - Power Supply p9 (traced).json](1983%20-%20M648%20-%20Power%20Supply%20p9%20%28traced%29.json) (the CAD file: `1983 - M648 - Power Supply p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** schematic B 648-02-003, size B 432 × 269 mm, 2000 × 1244 px traced (0.216 mm/px)
+- **Ink extent:** 4–423 mm across, 5–253 mm up
+- **Outlines:** line 305 rings, 3,104 straight (6,247 mm) / 675 curved (1,093 mm); text 300 rings, 2,023 straight (2,207 mm) / 537 curved (766 mm); tb 5 rings, 62 straight (58.8 mm) / 14 curved (17.3 mm)
+- **Centre lines:** 3,313 paths (93 closed); straight 4,606 mm, curved 451 mm; horizontal 1,760 mm, vertical 1,183 mm, diagonal 1,662 mm
+- **Circles and arcs:** 45 circles, 32 arcs; largest r 2.2 @ (246.6, 166.5), r 2.1 @ (246.6, 172.9), r 2.1 @ (260.9, 186.0), r 2.0 @ (260.8, 172.9)
+- **Closed boxes:** 10; named: M648; M648; -SENSE
+- **Words (OCR):** 83 in 52 lines: POWER SUPPLY MOUNTING TRAY · TYP CAL SYSTEM WI RING · 11SV AC · 60 Hz · P1 · -SENSE · AC · 16 · M648 · +SENSE · +4BV · 60
+- **Title block:** (358, 32)–(431, 46) mm: BS SYSTEMS · (WE3S) WARD-BECK
+- **Wiring (first pass):** 50 connected wire groups from 198 runs; labelled ends: 232 mm → P2, +48V, +SENSE, 11; 114 mm → AC, 16, P2, 12; 74 mm → POWER, TRAY; 73 mm → 10, 11; 60 mm → P1, AC
+
+Every curve, box, word and wire group: [1983 - M648 - Power Supply p10 (traced).json](1983%20-%20M648%20-%20Power%20Supply%20p10%20%28traced%29.json) (the CAD file: `1983 - M648 - Power Supply p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 329 × 432 mm, 1524 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–302 mm across, 21–425 mm up
+- **Outlines:** line 484 rings, 4,184 straight (6,458 mm) / 1,203 curved (1,875 mm); text 2,592 rings, 17,311 straight (18,200 mm) / 6,011 curved (9,391 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.3 @ (45.3, 89.6)
+- **Dots (junctions):** 1
+- **Words (OCR):** 541 in 72 lines: WAFlD-II ~CI< · LTD. · ClRelllT DEscR · loN · 14_0 · BEGm AJOR 6ssEMBI · he constant current sourc Q2 isol ate the incremental changes of the unr el ulat ed · de input vol tai · rom the co ntrol current leav in,lhe eoll eet or ofQ · nd enle inl · the base of Q3. · Q3 is current amplifier desi lned t
+
+Every curve, box, word and wire group: [1983 - M648 - Power Supply p11 (traced).json](1983%20-%20M648%20-%20Power%20Supply%20p11%20%28traced%29.json) (the CAD file: `1983 - M648 - Power Supply p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 329 × 432 mm, 1524 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–300 mm across, 22–425 mm up
+- **Outlines:** line 196 rings, 2,519 straight (5,152 mm) / 637 curved (1,006 mm); text 226 rings, 1,545 straight (1,619 mm) / 526 curved (836 mm)
+- **Words (OCR):** 60 in 17 lines: TAGE · RT · 6558MB! · 5A I:4.0,8 fQ · IOB · The oUowin vc teages are typical aod are obtained under 'no load' conditions, · wilh Ihc ae inpllt adjll slcd Illch as 10 rCSII!t io an lIorCllllatcd voltaic of ..80 Vdc · Thc voltmeter used should ha ve minimllm sen sitivity of 20,000 ollm per volt. · QI 
+
+Every curve, box, word and wire group: [1983 - M648 - Power Supply p12 (traced).json](1983%20-%20M648%20-%20Power%20Supply%20p12%20%28traced%29.json) (the CAD file: `1983 - M648 - Power Supply p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 329 × 432 mm, 1524 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–300 mm across, 20–425 mm up
+- **Outlines:** line 472 rings, 5,277 straight (8,245 mm) / 1,406 curved (2,162 mm); text 391 rings, 3,172 straight (3,478 mm) / 1,018 curved (1,545 mm)
+- **Closed boxes:** 11
+- **Dots (junctions):** 11
+- **Words (OCR):** 131 in 100 lines: S6l+QU "em Am, Ass lMBI · MfG · ARr · ESCB IUION · MEG UBI · MB ER · co · C.~c:ito 4.1 I1F/3$ · Kc:mc: · T39004l$MOHAS · C2 · 2200 pF
+
+Every curve, box, word and wire group: [1983 - M648 - Power Supply p13 (traced).json](1983%20-%20M648%20-%20Power%20Supply%20p13%20%28traced%29.json) (the CAD file: `1983 - M648 - Power Supply p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 329 × 432 mm, 1524 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 25–329 mm across, 20–425 mm up
+- **Outlines:** line 158 rings, 2,377 straight (4,761 mm) / 566 curved (857 mm); text 162 rings, 1,085 straight (1,126 mm) / 353 curved (559 mm)
+- **Words (OCR):** 52 in 22 lines: A!+O$I BlGl rU IQR ASSE MBI · ART · PESCR IP TIO · ME · MEG AR NU MB · ur · V011l8~ Rel l,ll ll or · XU> · Soc ke · Pio Oil' · Am, · WBS ecommends lhe use of
+
+Every curve, box, word and wire group: [1983 - M648 - Power Supply p14 (traced).json](1983%20-%20M648%20-%20Power%20Supply%20p14%20%28traced%29.json) (the CAD file: `1983 - M648 - Power Supply p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** schematic B 14-058-02-001, size B 432 × 292 mm, 2000 × 1350 px traced (0.216 mm/px)
+- **Ink extent:** 3–430 mm across, 2–258 mm up
+- **Outlines:** line 75 rings, 2,375 straight (7,766 mm) / 322 curved (570 mm); text 888 rings, 5,568 straight (5,780 mm) / 1,800 curved (2,478 mm); tb 3 rings, 27 straight (29.4 mm) / 6 curved (8.7 mm)
+- **Centre lines:** 5,663 paths (115 closed); straight 7,993 mm, curved 169 mm; horizontal 2,612 mm, vertical 2,266 mm, diagonal 3,115 mm
+- **Circles and arcs:** 2 circles, 13 arcs; largest r 8.1 @ (83.8, 211.4), r 8.0 @ (104.4, 136.3)
+- **Closed boxes:** 10; named: RIO 6K8; UI LM376N; C2 LJ 2200p
+- **Words (OCR):** 164 in 118 lines: UNREGULATED · R5 · TO SERIES · 620 · PASS · VOLTAGE · IS · ~~TN~~02 · 13 TRANS ISTOR · BASE · CRI · (01)
+- **Title block:** (367, 26)–(432, 40) mm: (VVE3S) WARD-BECK SYSTEMS
+- **Wiring (first pass):** 30 connected wire groups from 186 runs; labelled ends: 620 mm → 820, 1/2W, 8~1, IN4003; 420 mm → C8, 2K2, 3.75W, ~Cl; 226 mm → II, RI2, ISO, R8; 196 mm → 1/2W; 193 mm → RIO, 6K8, TN2102
+
+Every curve, box, word and wire group: [1983 - M648 - Power Supply p15 (traced).json](1983%20-%20M648%20-%20Power%20Supply%20p15%20%28traced%29.json) (the CAD file: `1983 - M648 - Power Supply p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** component layout B 14-058-06-001, size B 432 × 261 mm, 2000 × 1208 px traced (0.216 mm/px)
+- **Ink extent:** 2–422 mm across, 6–255 mm up
+- **Outlines:** line 250 rings, 2,890 straight (5,691 mm) / 712 curved (829 mm); text 424 rings, 3,332 straight (3,770 mm) / 1,008 curved (1,197 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 8.6 @ (61.5, 218.0), r 7.6 @ (32.3, 236.4), r 5.4 @ (297.3, 169.6), r 1.9 @ (397.4, 18.7)
+- **Closed boxes:** 4
+- **Words (OCR):** 86 in 64 lines: 01~ · R7 12K 1/2W · RIO 6K8 (VVE3S] · TN2102 · 03 · R5.,g0 · TN2102\9 · Rll · R8 8201/2W · TN2~37@ · TN~j02 · C3
+
+Every curve, box, word and wire group: [1983 - M648 - Power Supply p16 (traced).json](1983%20-%20M648%20-%20Power%20Supply%20p16%20%28traced%29.json) (the CAD file: `1983 - M648 - Power Supply p16 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

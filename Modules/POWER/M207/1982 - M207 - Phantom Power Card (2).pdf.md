@@ -16,6 +16,85 @@ Wiki page: [M207](../../../PAGES/M207.md)
 
 - **1982** (manual_issue): `MANUAL ISSUE # 2 • W NOVEMBER 1982` — …tic B207 _0 2_oo1 Component Lay out B207_06 _oo1 a .c ps BS MANUAL ISSUE # 2 • W NOVEMBER 1982 :// tp ht…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 302 × 432 mm, 1397 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 16–290 mm across, 26–410 mm up
+- **Outlines:** line 110 rings, 1,712 straight (4,041 mm) / 366 curved (554 mm); text 165 rings, 1,271 straight (1,467 mm) / 364 curved (548 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.1 @ (50.8, 300.0), r 2.1 @ (143.6, 365.6), r 1.6 @ (121.0, 233.6)
+- **Words (OCR):** 44 in 25 lines: WAFlD ~BEC · YSTEMS LTD. · TABLE OF CONTENTS · M207 · Io8 · CONVERTER · SECT ON · PAGE · Clr<;u lt Descr tion · Pa tll · 2_1 · 2_2
+
+Every curve, box, word and wire group: [1982 - M207 - Phantom Power Card (2) p1 (traced).json](1982%20-%20M207%20-%20Phantom%20Power%20Card%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1982 - M207 - Phantom Power Card (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 302 × 432 mm, 1397 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 16–302 mm across, 18–432 mm up
+- **Outlines:** line 191 rings, 1,807 straight (4,222 mm) / 445 curved (686 mm); text 830 rings, 5,656 straight (6,198 mm) / 1,667 curved (2,546 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.6 @ (130.8, 314.3), r 1.6 @ (250.1, 306.8), r 1.6 @ (261.1, 267.4)
+- **Words (OCR):** 176 in 71 lines: WARO·SECl< SYSTEMS LTO · IRCUIT DESCRIPTION · M20 PHANT OM OWER SUPPLY · The M207 Pha om Po wer Su · is · 24 ol · 48 vol de · to · do; o;or'!ver ler. · ach ieved · th · push -pull r"la"al
+
+Every curve, box, word and wire group: [1982 - M207 - Phantom Power Card (2) p2 (traced).json](1982%20-%20M207%20-%20Phantom%20Power%20Card%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1982 - M207 - Phantom Power Card (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 302 × 432 mm, 1397 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 17–290 mm across, 17–430 mm up
+- **Outlines:** line 267 rings, 2,792 straight (5,583 mm) / 681 curved (1,025 mm); text 621 rings, 4,180 straight (4,638 mm) / 1,233 curved (1,844 mm); tb 6 rings, 60 straight (81.1 mm) / 11 curved (17.9 mm)
+- **Words (OCR):** 114 in 70 lines: WARD-BECK SYSTEMS LTC · PARTS LIS · "'201 24 · to 48V CONVERT ER · PART · DESCRIPTION · MF PAR NUMBER · Capaci1 0r · 100 uF 40 · Ph ilip", · 2200 · 30
+- **Title block:** (12, 397)–(118, 420) mm: WARD-BECK SYSTEMS LTC
+
+Every curve, box, word and wire group: [1982 - M207 - Phantom Power Card (2) p3 (traced).json](1982%20-%20M207%20-%20Phantom%20Power%20Card%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1982 - M207 - Phantom Power Card (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 302 × 432 mm, 1397 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 18–292 mm across, 18–432 mm up
+- **Outlines:** line 154 rings, 1,634 straight (4,463 mm) / 356 curved (555 mm); text 303 rings, 2,300 straight (2,540 mm) / 662 curved (988 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.1 @ (95.4, 322.5), r 1.7 @ (100.1, 39.1), r 1.6 @ (211.4, 38.6)
+- **Words (OCR):** 65 in 36 lines: WARO · eCK YSTEMS · LTO · ARTS LIST · /1420 24V 10 48 CONVERTER · PART · DESCR IP TI ON · NUMBER · 1!2W · lor- · lips · Resistor 1/4W
+
+Every curve, box, word and wire group: [1982 - M207 - Phantom Power Card (2) p4 (traced).json](1982%20-%20M207%20-%20Phantom%20Power%20Card%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1982 - M207 - Phantom Power Card (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 302 × 432 mm, 1397 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 16–296 mm across, 19–432 mm up
+- **Outlines:** line 82 rings, 1,582 straight (4,747 mm) / 235 curved (373 mm); text 131 rings, 1,088 straight (1,349 mm) / 333 curved (508 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.2 @ (183.9, 171.4), r 2.1 @ (183.9, 157.8)
+- **Closed boxes:** 15; named: io ie; io
+- **Words (OCR):** 38 in 25 lines: WARC-BECK SYSTEMB LTC · CONNECTOR LA YOU · 104201 24V tu · 48V CONV ERT ER · .21oV SUPPLY VOLTAGE · ·48 PHANTOM POWER · Ne · NO · NO · Ne · NO · Ne
+
+Every curve, box, word and wire group: [1982 - M207 - Phantom Power Card (2) p5 (traced).json](1982%20-%20M207%20-%20Phantom%20Power%20Card%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1982 - M207 - Phantom Power Card (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** schematic 207-02-001, size B (assumed) 432 × 276 mm, 2000 × 1278 px traced (0.216 mm/px)
+- **Ink extent:** 29–432 mm across, 0–244 mm up
+- **Outlines:** line 259 rings, 3,506 straight (7,489 mm) / 826 curved (1,154 mm); text 418 rings, 2,801 straight (2,973 mm) / 883 curved (1,239 mm); tb 23 rings, 361 straight (527 mm) / 59 curved (87.8 mm)
+- **Centre lines:** 5,852 paths (79 closed); straight 6,641 mm, curved 181 mm; horizontal 2,485 mm, vertical 1,384 mm, diagonal 2,772 mm
+- **Circles and arcs:** 0 circles, 49 arcs
+- **Closed boxes:** 9 (7 in the title block)
+- **Words (OCR):** 93 in 68 lines: NOTES: · "LL R.E.S1STOl<.S. · "L..L C"''''ACIT o~S · \t..J..A.<l...f L)\..1LES,S SP EC.IF IE. · A"-JO · OTHE.RW ISe:. · DE:' S.Ic=.k.1""'TI~~ · .....S.T OMP'O"'-JE..\..1T · I~.C · Ft,QS · USE Pc · 14
+- **Title block:** (285, 1)–(432, 68) mm: REVISION · ca APP. · ISSUE DATE · [\NBS] WARD-BECK SYSTEMS · ps · BS · DRN · M207 · ENG. · G;e · 24v TO 48v CON ERT ER · tp · CKD. · SC EM ATIC · APP · ht · SCALE · ISSUE · 207- 02 001
+- **Wiring (first pass):** 30 connected wire groups from 316 runs; labelled ends: 214 mm → 21p; 144 mm → -25, CIS; 116 mm → ell, 2'2/, CIO, Z2/t.3oJ; 104 mm → ell, 2'2/, CIO, Z2/t.3oJ; 83 mm → loa~/4o..
+
+Every curve, box, word and wire group: [1982 - M207 - Phantom Power Card (2) p6 (traced).json](1982%20-%20M207%20-%20Phantom%20Power%20Card%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1982 - M207 - Phantom Power Card (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 432 × 294 mm, 2000 × 1364 px traced (0.216 mm/px)
+- **Ink extent:** 63–432 mm across, 0–226 mm up
+- **Outlines:** line 98 rings, 1,815 straight (5,208 mm) / 221 curved (401 mm); text 399 rings, 2,683 straight (3,222 mm) / 789 curved (1,119 mm); tb 134 rings, 1,160 straight (1,594 mm) / 288 curved (463 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 5.1 @ (125.5, 143.6), r 5.1 @ (205.7, 174.2), r 3.3 @ (304.7, 161.6), r 3.3 @ (90.0, 195.5)
+- **Closed boxes:** 10 (7 in the title block); named: FI ·25
+- **Words (OCR):** 59 in 47 lines: 100/40... · 47 · FI · ij · ·25 · II · III · 2.'.1'403"'7 tl · Jf QI · 2,,)..,1<4037"'" · 2W '2)O~ · if
+- **Title block:** (276, 1)–(432, 72) mm: ISSUE DATE · REV ISION · ca APP. · [\NBS] WARD-SECK SYSTEMS · ps · BS · DRN. · .::leE> · M207 · ENG. · 6£13 · 24'1 TO 48'1 CONVERlER · tp · CKD. · COMPONENT · A,YOUT · APP. · ht · SCALE · ISSUE
+
+Every curve, box, word and wire group: [1982 - M207 - Phantom Power Card (2) p7 (traced).json](1982%20-%20M207%20-%20Phantom%20Power%20Card%20%282%29%20p7%20%28traced%29.json) (the CAD file: `1982 - M207 - Phantom Power Card (2) p7 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

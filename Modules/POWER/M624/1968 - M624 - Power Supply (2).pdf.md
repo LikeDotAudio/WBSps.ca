@@ -12,6 +12,106 @@ Wiki page: [M624](../../../PAGES/M624.md)
 - **Pages:** 9
 - **PDF created (scan date, not design date):** Tue Aug 26 21:23:35 2003 EDT
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1416 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 169–306 mm across, 3–432 mm up
+- **Outlines:** line 66 rings, 2,576 straight (9,320 mm) / 178 curved (330 mm); text 6 rings, 186 straight (610 mm) / 11 curved (20.2 mm)
+- **Closed boxes:** 2; named: \NBS
+- **Words (OCR):** 17 in 16 lines: \NBS · \NBS · \NBS · \NBS · \NBS · \NBS · \NBS · \NBS · "'''LYc · POWER UPP~ · \NBS · ps
+
+Every curve, box, word and wire group: [1968 - M624 - Power Supply (2) p1 (traced).json](1968%20-%20M624%20-%20Power%20Supply%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1968 - M624 - Power Supply (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 308 × 432 mm, 1425 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 15–291 mm across, 22–411 mm up
+- **Outlines:** line 35 rings, 1,100 straight (3,103 mm) / 145 curved (241 mm); text 61 rings, 655 straight (957 mm) / 146 curved (222 mm); tb 43 rings, 517 straight (684 mm) / 100 curved (171 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.7 @ (131.6, 232.0)
+- **Dots (junctions):** 1
+- **Words (OCR):** 22 in 12 lines: [VVElS] 941 F"RC:IGRl!GS · WARD-BECK SYSTEMS LTD · AVEN..JE. 9C · O>ITAAIO MlH · TEU'1"t-C3"E, "I'05/"':lQ- · TEL.EX: OG "'1lsaa& · M624 · POWE SUPPLY · ps · BS · tp · ht
+- **Title block:** (100, 394)–(247, 418) mm: WARD-BECK SYSTEMS LTD · AVEN..JE. 9C · O>ITAAIO MlH
+
+Every curve, box, word and wire group: [1968 - M624 - Power Supply (2) p2 (traced).json](1968%20-%20M624%20-%20Power%20Supply%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1968 - M624 - Power Supply (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 308 × 432 mm, 1425 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 16–308 mm across, 16–432 mm up
+- **Outlines:** line 25 rings, 823 straight (2,927 mm) / 126 curved (182 mm); text 241 rings, 1,703 straight (2,003 mm) / 476 curved (715 mm); tb 47 rings, 426 straight (754 mm) / 89 curved (134 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.2 @ (221.7, 39.8), r 2.1 @ (233.7, 39.7)
+- **Words (OCR):** 44 in 20 lines: WARO·SECK SYSTEMS LTO · TA BL OF CONT ENT · M6 24 POWER SUP PLY · SECTION · PAGE · ech · Oll · cu lt oe sc ..lpti on · Orl · Li · Dra wi gs · M62.4
+- **Title block:** (66, 41)–(272, 419) mm: WARO·SECK SYSTEMS LTO · TA BL OF CONT ENT · M6 24 POWER SUP PLY · PAGE · ech · Oll · cu lt oe sc ..lpti on · Orl · Li · Dra wi gs · M62.4 · Sc hema ti · LB 62 4-02-001 · ps · MAN UA BS · ISSUE
+
+Every curve, box, word and wire group: [1968 - M624 - Power Supply (2) p3 (traced).json](1968%20-%20M624%20-%20Power%20Supply%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1968 - M624 - Power Supply (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 308 × 432 mm, 1425 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 16–308 mm across, 32–432 mm up
+- **Outlines:** line 93 rings, 1,320 straight (4,028 mm) / 252 curved (386 mm); text 1,968 rings, 13,475 straight (14,218 mm) / 4,131 curved (6,152 mm); tb 53 rings, 300 straight (316 mm) / 101 curved (145 mm)
+- **Dots (junctions):** 2
+- **Words (OCR):** 332 in 170 lines: [W'ElS] ~5S .V'I!""-"E. SC'"PAOAD GH ONrAl'lO '''3Il·fl~ · WAR · LT · 'Ix · T"L~ 06~-=:KlQ · TE l..£PHON£ · "'16 · RA · All · Wa d_B...:; · System · td
+- **Title block:** (40, 110)–(248, 309) mm: lI.r d~Beck Sy"l"m · Ltd" · ili · rep · 111 · oplio · wlt hou · Charg · sa id pro duct · or · ar · eof · hich · tor · ns pec tion pro · de lec iv · dur in!) he · ar llnl · 10 · pro id ed th ai · or in
+
+Every curve, box, word and wire group: [1968 - M624 - Power Supply (2) p4 (traced).json](1968%20-%20M624%20-%20Power%20Supply%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1968 - M624 - Power Supply (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 308 × 432 mm, 1425 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 14–308 mm across, 16–432 mm up
+- **Outlines:** line 146 rings, 1,656 straight (3,961 mm) / 360 curved (547 mm); text 345 rings, 2,506 straight (2,713 mm) / 705 curved (1,068 mm); tb 4 rings, 28 straight (42.1 mm) / 8 curved (16.8 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.6 @ (188.1, 304.5), r 1.6 @ (36.0, 278.3), r 1.3 @ (223.3, 304.4)
+- **Dots (junctions):** 1
+- **Words (OCR):** 78 in 41 lines: WARO-BECK SYSTEMS LTO · TECH ICAL DATA · M6 2lo PO WER SUPPL · DUlPI,H Vo llilgC: · 22, 24, 26 vol · de:: om · wO · se · ou tpu ts · pe en · se · t.ee Cu
+- **Title block:** (9, 404)–(116, 426) mm: WARO-BECK SYSTEMS LTO
+
+Every curve, box, word and wire group: [1968 - M624 - Power Supply (2) p5 (traced).json](1968%20-%20M624%20-%20Power%20Supply%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1968 - M624 - Power Supply (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 308 × 432 mm, 1425 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 16–308 mm across, 11–432 mm up
+- **Outlines:** line 266 rings, 2,244 straight (4,900 mm) / 588 curved (865 mm); text 1,188 rings, 8,503 straight (9,170 mm) / 2,530 curved (3,776 mm); tb 26 rings, 230 straight (293 mm) / 58 curved (95.5 mm)
+- **Dots (junctions):** 3
+- **Words (OCR):** 236 in 95 lines: WAAO·BECK SYSTEMS LTO · CIRC UIT DESCRIPTION · M624 · POWER SUPPLY · The M624 · powe · "up ply Is designed primarily fo · use with · he · Wa -Be<k 600 · ~Ies eQuipment bu may be · for any appll o;.:Ilion
+- **Title block:** (9, 396)–(116, 418) mm: WAAO·BECK SYSTEMS LTO
+
+Every curve, box, word and wire group: [1968 - M624 - Power Supply (2) p6 (traced).json](1968%20-%20M624%20-%20Power%20Supply%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1968 - M624 - Power Supply (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 308 × 432 mm, 1425 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 16–292 mm across, 12–412 mm up
+- **Outlines:** line 139 rings, 1,607 straight (3,813 mm) / 357 curved (527 mm); text 2,060 rings, 14,773 straight (16,223 mm) / 4,139 curved (6,176 mm)
+- **Words (OCR):** 381 in 178 lines: WARD-BECK SYSTEM · LTD · INSTAL LAT ION · Mf>24 · PO WER SUPPLY · Mf>24 · lug · dl · tly into he M,l) · mounti ng · me wh ich may be In · le
+
+Every curve, box, word and wire group: [1968 - M624 - Power Supply (2) p7 (traced).json](1968%20-%20M624%20-%20Power%20Supply%20%282%29%20p7%20%28traced%29.json) (the CAD file: `1968 - M624 - Power Supply (2) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 308 × 432 mm, 1425 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 15–292 mm across, 12–411 mm up
+- **Outlines:** line 72 rings, 1,222 straight (3,736 mm) / 224 curved (366 mm); text 384 rings, 2,764 straight (3,180 mm) / 803 curved (1,228 mm)
+- **Words (OCR):** 68 in 43 lines: WA~o -aECK SYSTEM · L.TO · PAR TS LIST · M624 POWE SUPPL · PA RT · OESCR PT ON · FG · "FG · PART NUMBER · ct · ce cecncr- 4100 F/75 · cc-eeu
+
+Every curve, box, word and wire group: [1968 - M624 - Power Supply (2) p8 (traced).json](1968%20-%20M624%20-%20Power%20Supply%20%282%29%20p8%20%28traced%29.json) (the CAD file: `1968 - M624 - Power Supply (2) p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 432 × 177 mm, 2000 × 819 px traced (0.216 mm/px)
+- **Ink extent:** 7–432 mm across, 0–152 mm up
+- **Outlines:** line 145 rings, 1,889 straight (5,047 mm) / 366 curved (592 mm); text 525 rings, 3,068 straight (3,135 mm) / 1,027 curved (1,378 mm); tb 18 rings, 149 straight (231 mm) / 42 curved (58.9 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.3 @ (60.7, 102.5), r 1.3 @ (60.7, 110.2), r 1.2 @ (60.7, 106.3)
+- **Closed boxes:** 10 (7 in the title block); named: Ie.; 5.(0 7,8 13, 14 IS
+- **Dots (junctions):** 4
+- **Words (OCR):** 120 in 89 lines: OWER · PI...Y · MOU"-lT Il'-JG · TRAY · IISVAC · GO H.z. · SWI · FI · AS · 10 · 150 · 20
+- **Title block:** (334, 1)–(432, 48) mm: REDRAWN · GEB · ISSUE DATE · REV ISION · ca APP. · (\NBS) WARD-BECK SYSTEMS · BS · DRN · ENG. EB 9/79 · EB · M624 · 24 · tp · POWER SUPPLY · CKD · ht · SCHEMATIC · PP. · SCALE · LB 624 02 00 · ISSUE
+
+Every curve, box, word and wire group: [1968 - M624 - Power Supply (2) p9 (traced).json](1968%20-%20M624%20-%20Power%20Supply%20%282%29%20p9%20%28traced%29.json) (the CAD file: `1968 - M624 - Power Supply (2) p9 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

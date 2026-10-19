@@ -12,6 +12,333 @@ Wiki page: [M490J](../../../PAGES/M490J.md)
 - **Pages:** 29
 - **PDF created (scan date, not design date):** Mon Aug 17 16:50:48 2009 EDT
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 317 × 432 mm, 1470 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–308 mm across, 6–428 mm up
+- **Outlines:** line 72 rings, 1,669 straight (4,171 mm) / 341 curved (454 mm); text 111 rings, 1,363 straight (1,752 mm) / 332 curved (384 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 5.4 @ (168.1, 244.1), r 1.6 @ (157.3, 245.8)
+- **Words (OCR):** 23 in 17 lines: ['NElS] """l:lGI"E9.. · CK · STEM · LTD · Vl! · CINT£AOM · TI!I. · Of:Ie =:Jgg · T'ELE....cNE · I4I3B · M490J · MIC INPUT MODULE
+
+Every curve, box, word and wire group: [1983 - M490J - Mic Input Module (2) p1 (traced).json](1983%20-%20M490J%20-%20Mic%20Input%20Module%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1983 - M490J - Mic Input Module (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 302 × 432 mm, 1397 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–292 mm across, 2–415 mm up
+- **Outlines:** line 320 rings, 2,728 straight (4,992 mm) / 721 curved (1,150 mm); text 903 rings, 6,664 straight (7,375 mm) / 2,054 curved (3,319 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 2.2 @ (25.9, 160.0), r 2.2 @ (25.9, 187.4), r 1.8 @ (42.1, 275.5), r 1.8 @ (207.6, 172.7)
+- **Dots (junctions):** 1
+- **Words (OCR):** 214 in 87 lines: WAFlD-BI!!CK YSTEMS LTD · TECHN ICAL OATA · 101490) MIC INP UT MOOULE · ~ou rce · Inp ut · tl"lty · _70 to · Bm re · SO oh · Fr equenc Re spon se, · dB fr · 30 H:z to 20 kH:z
+
+Every curve, box, word and wire group: [1983 - M490J - Mic Input Module (2) p2 (traced).json](1983%20-%20M490J%20-%20Mic%20Input%20Module%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1983 - M490J - Mic Input Module (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 302 × 432 mm, 1401 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–302 mm across, 0–416 mm up
+- **Outlines:** line 202 rings, 2,066 straight (4,302 mm) / 490 curved (782 mm); text 280 rings, 2,061 straight (2,312 mm) / 703 curved (1,116 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.8 @ (91.7, 312.3), r 1.8 @ (30.1, 298.6)
+- **Words (OCR):** 64 in 35 lines: SYSTeMS · TO · TECHNICAL OATA · MlI.9O,J MIC INPU MODULE · Min im um load Imped ance: · 600 ohms · Ma ><imu · I_d · ....en · 40 mA · imum · ly
+
+Every curve, box, word and wire group: [1983 - M490J - Mic Input Module (2) p3 (traced).json](1983%20-%20M490J%20-%20Mic%20Input%20Module%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1983 - M490J - Mic Input Module (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 299 × 432 mm, 1385 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–291 mm across, 5–415 mm up
+- **Outlines:** line 809 rings, 6,366 straight (9,274 mm) / 1,872 curved (2,883 mm); text 1,136 rings, 8,064 straight (8,848 mm) / 2,509 curved (3,995 mm)
+- **Circles and arcs:** 22 circles, 0 arcs; largest r 1.8 @ (69.4, 107.5), r 1.7 @ (233.4, 66.5), r 1.7 @ (124.8, 230.0), r 1.7 @ (74.9, 305.0)
+- **Dots (junctions):** 5
+- **Words (OCR):** 125 in 91 lines: 36-TE` F · d 2 · WAAD BECK BYBTEMB · ciACUWI · Ftion · Vaam · Muput MOdulE · Vm · ccodhona ronn · Tcm inciuai · ade · Oeenal
+
+Every curve, box, word and wire group: [1983 - M490J - Mic Input Module (2) p4 (traced).json](1983%20-%20M490J%20-%20Mic%20Input%20Module%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1983 - M490J - Mic Input Module (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 300 × 432 mm, 1391 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–300 mm across, 2–417 mm up
+- **Outlines:** line 356 rings, 3,299 straight (6,443 mm) / 861 curved (1,381 mm); text 1,711 rings, 11,690 straight (13,190 mm) / 3,824 curved (6,084 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 2.2 @ (251.6, 190.1), r 2.2 @ (58.7, 210.2), r 1.7 @ (167.7, 223.4), r 1.7 @ (77.1, 105.8)
+- **Closed boxes:** 1
+- **Words (OCR):** 364 in 178 lines: WA O-ISE CK SYS EMS · LTO · RCU IT DESCRIP TION · M490J MIC INPU MODULE · Ch nn el Sw it · is · CMOS · an log · tCh · wi tchin · lem · of
+
+Every curve, box, word and wire group: [1983 - M490J - Mic Input Module (2) p5 (traced).json](1983%20-%20M490J%20-%20Mic%20Input%20Module%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1983 - M490J - Mic Input Module (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 300 × 432 mm, 1387 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–292 mm across, 2–415 mm up
+- **Outlines:** line 445 rings, 3,886 straight (6,885 mm) / 976 curved (1,530 mm); text 1,335 rings, 9,120 straight (10,197 mm) / 2,882 curved (4,531 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 2.3 @ (80.0, 139.2), r 2.2 @ (46.4, 310.9), r 2.2 @ (58.5, 235.3), r 2.1 @ (66.6, 77.7)
+- **Dots (junctions):** 1
+- **Words (OCR):** 307 in 153 lines: WA~ · YSTEMS LT · CIRCUIT OESCRIP TIO · M490J MIC NPUT MODULE · FOldback OU Put · Th · FOLDBACK oUlpul · like · POST · IRECT OU · la · from
+
+Every curve, box, word and wire group: [1983 - M490J - Mic Input Module (2) p6 (traced).json](1983%20-%20M490J%20-%20Mic%20Input%20Module%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1983 - M490J - Mic Input Module (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 316 × 432 mm, 1462 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–307 mm across, 1–431 mm up
+- **Outlines:** line 445 rings, 4,004 straight (7,032 mm) / 1,086 curved (1,744 mm); text 1,401 rings, 10,292 straight (11,560 mm) / 3,250 curved (5,239 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 2.4 @ (136.6, 52.1), r 2.3 @ (216.1, 195.4), r 1.9 @ (227.8, 230.4), r 1.8 @ (122.7, 315.2)
+- **Closed boxes:** 1
+- **Dots (junctions):** 2
+- **Words (OCR):** 340 in 155 lines: CI RCUI OESC IP ION · M4 90J MIC INP UT MOOULE · sili ve · se pO len li,, · ie · to eith er 01 · 14, · epend ing on wh · INP UT SELECTOR · lCh SWI · SW2 is · de ressed
+
+Every curve, box, word and wire group: [1983 - M490J - Mic Input Module (2) p7 (traced).json](1983%20-%20M490J%20-%20Mic%20Input%20Module%20%282%29%20p7%20%28traced%29.json) (the CAD file: `1983 - M490J - Mic Input Module (2) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 302 × 432 mm, 1400 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–294 mm across, 1–415 mm up
+- **Outlines:** line 341 rings, 3,194 straight (5,940 mm) / 830 curved (1,338 mm); text 1,540 rings, 10,785 straight (11,967 mm) / 3,251 curved (5,094 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 1.8 @ (75.8, 83.7), r 1.8 @ (208.6, 193.8), r 1.8 @ (137.4, 69.9), r 1.7 @ (188.6, 214.5)
+- **Dots (junctions):** 3
+- **Words (OCR):** 328 in 176 lines: CIRCUI · OESCR IPT ION · M490J MIC NP UT MODULE · Thi · chan · of · ta te ca · be bro ught · ou · by any · Ihree · iff er ent me th ods
+
+Every curve, box, word and wire group: [1983 - M490J - Mic Input Module (2) p8 (traced).json](1983%20-%20M490J%20-%20Mic%20Input%20Module%20%282%29%20p8%20%28traced%29.json) (the CAD file: `1983 - M490J - Mic Input Module (2) p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** mechanical 36_03 226, size B (assumed) 298 × 432 mm, 1382 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–290 mm across, 2–416 mm up
+- **Outlines:** line 474 rings, 3,876 straight (7,052 mm) / 1,087 curved (1,730 mm); text 671 rings, 5,359 straight (6,083 mm) / 1,735 curved (2,813 mm)
+- **Centre lines:** 4,323 paths (151 closed); straight 7,726 mm, curved 349 mm; horizontal 1,867 mm, vertical 1,977 mm, diagonal 3,881 mm
+- **Circles and arcs:** 10 circles, 69 arcs; largest r 1.7 @ (182.9, 110.0), r 1.7 @ (90.1, 327.5), r 1.5 @ (66.9, 327.7), r 1.5 @ (68.3, 413.8)
+- **Words (OCR):** 152 in 94 lines: PARTS LI ST · M490J MfC NP UT MODULE · MFG ART NUMBER · All · ato · oj. onn ect or · 1550 H35/ 100 · cr · le · sec · Cap ac itor · ips
+
+Every curve, box, word and wire group: [1983 - M490J - Mic Input Module (2) p9 (traced).json](1983%20-%20M490J%20-%20Mic%20Input%20Module%20%282%29%20p9%20%28traced%29.json) (the CAD file: `1983 - M490J - Mic Input Module (2) p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 309 × 432 mm, 1431 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 11–300 mm across, 0–417 mm up
+- **Outlines:** line 616 rings, 5,027 straight (8,606 mm) / 1,434 curved (2,286 mm); text 379 rings, 3,060 straight (3,557 mm) / 929 curved (1,516 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.8 @ (189.6, 201.4), r 1.7 @ (72.5, 56.0)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 136 in 86 lines: I='O ISE CK 8yeTE MS · 9O) MI · INP UT MOOUl · MFG PAR NUMBER · Capacila.. · As lca · C09 2_MC_68 2M · <>800 · F/25 · T3908225/140 25.45 · cas · F/35
+
+Every curve, box, word and wire group: [1983 - M490J - Mic Input Module (2) p10 (traced).json](1983%20-%20M490J%20-%20Mic%20Input%20Module%20%282%29%20p10%20%28traced%29.json) (the CAD file: `1983 - M490J - Mic Input Module (2) p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1417 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–304 mm across, 1–423 mm up
+- **Outlines:** line 474 rings, 3,839 straight (7,076 mm) / 1,011 curved (1,628 mm); text 243 rings, 1,904 straight (2,258 mm) / 547 curved (916 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 2.2 @ (90.6, 326.4), r 1.8 @ (180.7, 187.5), r 1.8 @ (70.1, 43.2), r 1.8 @ (172.5, 304.8)
+- **Words (OCR):** 73 in 54 lines: D-BECK · YS TE MS · M490J MIC INP UT MODULE · CR · delete · CR · Diode · CR · CR · CR · CR18 · IN47 43
+
+Every curve, box, word and wire group: [1983 - M490J - Mic Input Module (2) p11 (traced).json](1983%20-%20M490J%20-%20Mic%20Input%20Module%20%282%29%20p11%20%28traced%29.json) (the CAD file: `1983 - M490J - Mic Input Module (2) p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 301 × 432 mm, 1396 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–294 mm across, 2–418 mm up
+- **Outlines:** line 432 rings, 3,371 straight (6,552 mm) / 894 curved (1,420 mm); text 201 rings, 1,547 straight (1,792 mm) / 472 curved (763 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.2 @ (90.7, 328.1), r 1.7 @ (78.2, 161.6)
+- **Dots (junctions):** 3
+- **Words (OCR):** 49 in 42 lines: M490J · IC NPU MOOULE · Re · lor 1/4 · ilip.. · del et · delete · RUi,~ IOt' 1/4W · 220K · 220K · 22K · ROO
+
+Every curve, box, word and wire group: [1983 - M490J - Mic Input Module (2) p12 (traced).json](1983%20-%20M490J%20-%20Mic%20Input%20Module%20%282%29%20p12%20%28traced%29.json) (the CAD file: `1983 - M490J - Mic Input Module (2) p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 300 × 432 mm, 1387 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–293 mm across, 1–414 mm up
+- **Outlines:** line 469 rings, 3,765 straight (6,911 mm) / 1,066 curved (1,671 mm); text 158 rings, 1,142 straight (1,414 mm) / 358 curved (603 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.8 @ (74.4, 139.0)
+- **Dots (junctions):** 1
+- **Words (OCR):** 20 in 16 lines: ~T7"4 T 2' - · WUAAC ARCK EYETEN · hi · Maedi · ThpMT Koou_e · descrirtich · PiRT NukBFA · Aeninar · Philien · 3rtte · Petentioneter · 10-017
+
+Every curve, box, word and wire group: [1983 - M490J - Mic Input Module (2) p13 (traced).json](1983%20-%20M490J%20-%20Mic%20Input%20Module%20%282%29%20p13%20%28traced%29.json) (the CAD file: `1983 - M490J - Mic Input Module (2) p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 296 × 432 mm, 1371 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–289 mm across, 4–417 mm up
+- **Outlines:** line 308 rings, 2,326 straight (5,288 mm) / 635 curved (998 mm); text 307 rings, 2,303 straight (2,622 mm) / 705 curved (1,109 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.2 @ (89.5, 329.5)
+- **Closed boxes:** 1
+- **Words (OCR):** 57 in 47 lines: WARO·BECI< SYSTeM L.TO · M490J Ioll · NPUT MOOULE · OESCR IP ION · Rullior- · 4W · sl rs · Ph iP · R79 · ROO · RO' · R8J
+
+Every curve, box, word and wire group: [1983 - M490J - Mic Input Module (2) p14 (traced).json](1983%20-%20M490J%20-%20Mic%20Input%20Module%20%282%29%20p14%20%28traced%29.json) (the CAD file: `1983 - M490J - Mic Input Module (2) p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 301 × 432 mm, 1395 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–293 mm across, 0–414 mm up
+- **Outlines:** line 296 rings, 2,507 straight (5,246 mm) / 644 curved (974 mm); text 351 rings, 2,701 straight (3,264 mm) / 773 curved (1,200 mm)
+- **Words (OCR):** 78 in 67 lines: WA~ · Cl( SYSTeMS LTD · M490J · NPU MODUL · MFG · ART NUMB ER · sl · Rlll · Re si tor · 4W · Ph · Rl12
+
+Every curve, box, word and wire group: [1983 - M490J - Mic Input Module (2) p15 (traced).json](1983%20-%20M490J%20-%20Mic%20Input%20Module%20%282%29%20p15%20%28traced%29.json) (the CAD file: `1983 - M490J - Mic Input Module (2) p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 314 × 432 mm, 1452 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–306 mm across, 0–431 mm up
+- **Outlines:** line 550 rings, 4,498 straight (7,893 mm) / 1,207 curved (1,926 mm); text 373 rings, 3,070 straight (3,516 mm) / 940 curved (1,516 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 2.3 @ (90.4, 340.4), r 1.9 @ (95.8, 31.1), r 1.8 @ (77.5, 286.1), r 1.8 @ (57.3, 286.1)
+- **Dots (junctions):** 1
+- **Words (OCR):** 110 in 68 lines: M4'! OJ /'oII · NPU MODUL · eo A.R · NUMe ER · FlU · Resis tor /2W 51- 150 · Philips · FlU? · 41'1 · 620 · 48 · szo
+
+Every curve, box, word and wire group: [1983 - M490J - Mic Input Module (2) p16 (traced).json](1983%20-%20M490J%20-%20Mic%20Input%20Module%20%282%29%20p16%20%28traced%29.json) (the CAD file: `1983 - M490J - Mic Input Module (2) p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 303 × 432 mm, 1405 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–294 mm across, 1–414 mm up
+- **Outlines:** line 380 rings, 3,687 straight (7,102 mm) / 783 curved (1,310 mm); text 157 rings, 1,331 straight (1,763 mm) / 328 curved (530 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 2.3 @ (143.0, 366.5), r 2.3 @ (45.0, 38.7), r 2.2 @ (179.3, 132.4), r 2.2 @ (188.7, 297.4)
+- **Closed boxes:** 2
+- **Words (OCR):** 73 in 45 lines: SYS TEMS L.TC · CONNEC TOI'I: LAYOUT · M4 90J MIC INPUT MODULE · PG · OUT. · GM · OUT · EFT · GM · OUT. · GM · OUT.
+
+Every curve, box, word and wire group: [1983 - M490J - Mic Input Module (2) p17 (traced).json](1983%20-%20M490J%20-%20Mic%20Input%20Module%20%282%29%20p17%20%28traced%29.json) (the CAD file: `1983 - M490J - Mic Input Module (2) p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 301 × 432 mm, 1395 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–294 mm across, 2–417 mm up
+- **Outlines:** line 345 rings, 3,963 straight (7,622 mm) / 835 curved (1,336 mm); text 240 rings, 2,078 straight (2,820 mm) / 467 curved (764 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 2.8 @ (78.8, 414.2), r 2.3 @ (192.1, 38.7), r 2.2 @ (190.8, 65.9), r 2.2 @ (113.5, 189.6)
+- **Words (OCR):** 39 in 24 lines: CONNECTOR LAYOU · M490J · NPUT MODULE · 10 · MIC · CTL · 11 · EXT CUE · 12 · EXT CH OF · ON · IC
+
+Every curve, box, word and wire group: [1983 - M490J - Mic Input Module (2) p18 (traced).json](1983%20-%20M490J%20-%20Mic%20Input%20Module%20%282%29%20p18%20%28traced%29.json) (the CAD file: `1983 - M490J - Mic Input Module (2) p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 295 × 432 mm, 1366 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–288 mm across, 0–415 mm up
+- **Outlines:** line 242 rings, 3,555 straight (8,023 mm) / 731 curved (1,214 mm); text 379 rings, 3,148 straight (3,617 mm) / 927 curved (1,573 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 2.4 @ (61.4, 160.3), r 2.4 @ (140.4, 71.4), r 2.4 @ (215.4, 177.1), r 2.4 @ (211.5, 126.7)
+- **Closed boxes:** 4
+- **Dots (junctions):** 1
+- **Words (OCR):** 83 in 29 lines: INTEGRATED C1RCUIT DATA · C04016 · OUAD BI LATERAL · SWITCH · The CD4016 is · quad bila teral switch whic ut li ze P-channel · and N-cha nne complementary MOS (C/olO · circu its to pr vi de · xt me · gh "OFF res is an · nd lo "ON" · ta nce wi tch.
+
+Every curve, box, word and wire group: [1983 - M490J - Mic Input Module (2) p19 (traced).json](1983%20-%20M490J%20-%20Mic%20Input%20Module%20%282%29%20p19%20%28traced%29.json) (the CAD file: `1983 - M490J - Mic Input Module (2) p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 299 × 432 mm, 1383 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–292 mm across, 1–411 mm up
+- **Outlines:** line 354 rings, 4,318 straight (10,710 mm) / 891 curved (1,450 mm); text 667 rings, 5,171 straight (5,854 mm) / 1,501 curved (2,366 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.8 @ (127.5, 272.1)
+- **Closed boxes:** 16; named: ps BS; ps
+- **Dots (junctions):** 1
+- **Words (OCR):** 134 in 58 lines: ST · L.TO · NTEGRATED CIRCUIT DATA · illI§. · DUAL · FLIP -FLOP WIT CLEAR AND PRESET · The 74 C76J · flip -fl · is · mono it ic CMOS ci rcui · Each lip · flop has ndependent
+
+Every curve, box, word and wire group: [1983 - M490J - Mic Input Module (2) p20 (traced).json](1983%20-%20M490J%20-%20Mic%20Input%20Module%20%282%29%20p20%20%28traced%29.json) (the CAD file: `1983 - M490J - Mic Input Module (2) p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 303 × 432 mm, 1405 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–301 mm across, 2–424 mm up
+- **Outlines:** line 542 rings, 6,033 straight (11,543 mm) / 1,354 curved (2,149 mm); text 379 rings, 3,181 straight (3,614 mm) / 836 curved (1,327 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.9 @ (86.4, 286.7), r 1.9 @ (273.4, 84.6), r 1.8 @ (224.4, 49.7)
+- **Closed boxes:** 18; named: INPUTS OUTPUTS CLEAR; OUTPUTS; INPUTS; CLEAR
+- **Words (OCR):** 139 in 62 lines: l'".O · STEMS L.TO · trH EGRAHD · C.IRCUIT DATA · illill · DUA HONOSTABLE HULTI VI BRATOR · The 74C221 ual Ilo no · bh multiv rato is · CHO In gr ated · ci · it · ch Ilu ltlv fbra or futu
+
+Every curve, box, word and wire group: [1983 - M490J - Mic Input Module (2) p21 (traced).json](1983%20-%20M490J%20-%20Mic%20Input%20Module%20%282%29%20p21%20%28traced%29.json) (the CAD file: `1983 - M490J - Mic Input Module (2) p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1548 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–334 mm across, 2–431 mm up
+- **Outlines:** line 297 rings, 4,857 straight (9,819 mm) / 932 curved (1,371 mm); text 217 rings, 1,601 straight (1,459 mm) / 577 curved (787 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 4.5 @ (317.9, 77.7), r 2.2 @ (317.9, 91.5)
+- **Closed boxes:** 14; named: UIlG..-:MT hel\; flOl.Deo\C. Jtl1ll,111t1l1; Af IlllUA 10,1.. .h,,1\ It", IQ' 5W' ...; 5WIl e4 5W12 Hc:" CUI 0IIlI nd; C....-I 0IIlI 5"9 11. ,_7~1 .a~;'.,IIc::
+- **Dots (junctions):** 1
+- **Words (OCR):** 50 in 41 lines: WB · UIlG..-:MT · hel\ · tll · flOl.Deo\C. · Jtl1ll,111t1l1 · F81 · 10 · 40 · 50 · Af IlllUA · IQ'
+
+Every curve, box, word and wire group: [1983 - M490J - Mic Input Module (2) p22 (traced).json](1983%20-%20M490J%20-%20Mic%20Input%20Module%20%282%29%20p22%20%28traced%29.json) (the CAD file: `1983 - M490J - Mic Input Module (2) p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1565 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 1–431 mm up
+- **Outlines:** line 255 rings, 4,972 straight (11,145 mm) / 945 curved (1,368 mm); text 418 rings, 2,502 straight (2,406 mm) / 989 curved (1,315 mm)
+- **Closed boxes:** 18; named: ~7~~:~:I'.T~""(;'';:':I'':~!;.'';'"''..~; 1;0 ltw 19 le Ie H'd, 19" _CIO"'C>"a 11 ; IMI.~ 111M 111_ 11"•• IIOW II 10 11"2 "e; :"O:-p~"';:.~ e.-u·'O'. lo c.ot'l ll"Ol ; p"o~ 54. 11)£ At ""'ATaI' ATT 01' (;fIl ; '00 CU' .cll 0'\10 Ot" MI" fl 1)0,,11 10; -'''-11 CH OIF' wo he c.........h 1'fI0G; (wes); tp MA"" ht IoAIC IN 'UT MODUlE ~ANEI lQN; 'O-CW-ow
+- **Dots (junctions):** 1
+- **Words (OCR):** 110 in 75 lines: ....,lJ · ~7~~:~:I'.T~""(;'';:':I'':~!;.'';'"''..~ · "ou. 1r · 1;0 ltw _CIO"'C>"a 11 · H'd, · 19 · le · 19" I"(iM · Ie · l)u. · 111M · 11"••
+
+Every curve, box, word and wire group: [1983 - M490J - Mic Input Module (2) p23 (traced).json](1983%20-%20M490J%20-%20Mic%20Input%20Module%20%282%29%20p23%20%28traced%29.json) (the CAD file: `1983 - M490J - Mic Input Module (2) p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 332 × 432 mm, 1536 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–332 mm across, 0–421 mm up
+- **Outlines:** line 226 rings, 3,329 straight (7,310 mm) / 572 curved (948 mm); text 263 rings, 2,370 straight (3,449 mm) / 605 curved (1,009 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.4 @ (36.1, 111.0), r 2.4 @ (60.5, 243.8), r 2.4 @ (35.5, 88.7), r 2.3 @ (281.7, 319.8)
+- **Closed boxes:** 3; named: cn LOGIC
+- **Words (OCR):** 36 in 29 lines: IN · MIC INPUTS · L_J · -701-40 · SENSITIVITY · INPUT · SELECTOR · .)lE-~ · CONTROL · COM · CUE · CUE
+
+Every curve, box, word and wire group: [1983 - M490J - Mic Input Module (2) p24 (traced).json](1983%20-%20M490J%20-%20Mic%20Input%20Module%20%282%29%20p24%20%28traced%29.json) (the CAD file: `1983 - M490J - Mic Input Module (2) p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** functional 490-01-010, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–420 mm up
+- **Outlines:** line 169 rings, 3,640 straight (9,500 mm) / 589 curved (969 mm); text 153 rings, 1,332 straight (1,876 mm) / 353 curved (610 mm); tb 31 rings, 481 straight (801 mm) / 130 curved (241 mm)
+- **Centre lines:** 2,739 paths (31 closed); straight 6,890 mm, curved 148 mm; horizontal 3,388 mm, vertical 1,612 mm, diagonal 1,890 mm
+- **Circles and arcs:** 3 circles, 31 arcs; largest r 2.3 @ (155.8, 148.7), r 1.6 @ (155.6, 148.9), r 1.0 @ (327.1, 94.8)
+- **Closed boxes:** 17 (4 in the title block); named: [\N'I3S] WARD-BECK SYSIEMS ps; BS M490J INPUT MODULE tp FUNCTIONAL DIAG; 490-01-010
+- **Words (OCR):** 35 in 25 lines: P1 · P1 EFT · P2 · P2 LEFT · PAN · INSERT · PAN · P1 RIGHT · P2 RIGH · FB1 · FB2 · ISSW DATE
+- **Title block:** (119, 22)–(284, 104) mm: ISSW DATE · REVISION · [\N'I3S] WARD-BECK SYSIEMS · DAN. 60 · M490J · ENG..5et-lfl1EJ"1 · INPUT MODULE · CKD. · tp · FUNCTIONAL DIAGRAM · ht
+- **Wiring (first pass):** 65 connected wire groups from 184 runs; labelled ends: 67 mm → P1, P2; 66 mm → FB2; 62 mm → INSERT; 57 mm → FB1; 47 mm → FB1
+
+Every curve, box, word and wire group: [1983 - M490J - Mic Input Module (2) p25 (traced).json](1983%20-%20M490J%20-%20Mic%20Input%20Module%20%282%29%20p25%20%28traced%29.json) (the CAD file: `1983 - M490J - Mic Input Module (2) p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1556 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–336 mm across, 2–429 mm up
+- **Outlines:** line 1,019 rings, 11,740 straight (18,630 mm) / 3,026 curved (4,635 mm); text 467 rings, 2,958 straight (3,167 mm) / 1,053 curved (1,536 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.5 @ (10.0, 44.5)
+- **Closed boxes:** 8; named: tp ht
+- **Dots (junctions):** 1
+- **Words (OCR):** 61 in 55 lines: 'So · C,.TO" · 'So · Ie · 'To · 1"0 · 10...... · SO · lU5 · c:n · ·tO · PI
+
+Every curve, box, word and wire group: [1983 - M490J - Mic Input Module (2) p26 (traced).json](1983%20-%20M490J%20-%20Mic%20Input%20Module%20%282%29%20p26%20%28traced%29.json) (the CAD file: `1983 - M490J - Mic Input Module (2) p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 0–430 mm up
+- **Outlines:** line 1,250 rings, 14,561 straight (23,057 mm) / 3,639 curved (5,368 mm); text 249 rings, 1,770 straight (1,946 mm) / 563 curved (816 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.5 @ (322.3, 403.3), r 1.4 @ (138.5, 337.2), r 1.4 @ (208.2, 155.5)
+- **Closed boxes:** 15; named: ('NElS]; tp .JIIUU ht MODulI MIC INfIIT ICIlI....; c::.a
+- **Dots (junctions):** 3
+- **Words (OCR):** 64 in 55 lines: TO · N6 au ll[. · PO-' LU · .OK · »r-c: · 1h GoMT · OU · \JT · SW IEL"D. · _eo · ll-EFT · zz.
+
+Every curve, box, word and wire group: [1983 - M490J - Mic Input Module (2) p27 (traced).json](1983%20-%20M490J%20-%20Mic%20Input%20Module%20%282%29%20p27%20%28traced%29.json) (the CAD file: `1983 - M490J - Mic Input Module (2) p27 (traced).dxf`).
+
+### Page 28
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1565 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–338 mm across, 0–431 mm up
+- **Outlines:** line 811 rings, 8,554 straight (14,320 mm) / 1,993 curved (2,958 mm); text 207 rings, 852 straight (836 mm) / 375 curved (559 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 3.8 @ (106.8, 342.9), r 2.5 @ (172.7, 153.0), r 2.4 @ (150.5, 152.9), r 1.3 @ (249.9, 156.1)
+- **Closed boxes:** 15
+- **Dots (junctions):** 4
+- **Words (OCR):** 7 in 7 lines: OJ · H~-L · it·":::' · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1983 - M490J - Mic Input Module (2) p28 (traced).json](1983%20-%20M490J%20-%20Mic%20Input%20Module%20%282%29%20p28%20%28traced%29.json) (the CAD file: `1983 - M490J - Mic Input Module (2) p28 (traced).dxf`).
+
+### Page 29
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–429 mm up
+- **Outlines:** line 1,091 rings, 10,601 straight (17,423 mm) / 2,655 curved (3,928 mm); text 307 rings, 2,191 straight (2,323 mm) / 668 curved (961 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 5.8 @ (201.7, 295.7), r 5.5 @ (96.4, 270.2), r 5.3 @ (248.2, 232.9), r 5.2 @ (96.4, 306.0)
+- **Closed boxes:** 25; named: [WOBS]; tp ht COMPONfMf AYOUT
+- **Dots (junctions):** 7
+- **Words (OCR):** 21 in 18 lines: (SBN\) · ii · ii · lT1~ :.~!i~i · ur · SS · P3J · ps · BS · OM PONENT · ;'IDE · [WOBS]
+
+Every curve, box, word and wire group: [1983 - M490J - Mic Input Module (2) p29 (traced).json](1983%20-%20M490J%20-%20Mic%20Input%20Module%20%282%29%20p29%20%28traced%29.json) (the CAD file: `1983 - M490J - Mic Input Module (2) p29 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

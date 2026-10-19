@@ -16,6 +16,191 @@ Wiki page: [M479](../../../PAGES/M479.md)
 
 - **1978** (manual_issue): `MANUAL ISSUE #2 AUG 1978` — …4479-04-003 B479-01-001 B479-02-001 B479-06-001 A479-04-002 MANUAL ISSUE #2 AUG 1978…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 317 × 432 mm, 1470 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 76–284 mm across, 5–432 mm up
+- **Outlines:** line 22 rings, 1,402 straight (5,492 mm) / 76 curved (153 mm); text 49 rings, 1,050 straight (4,063 mm) / 115 curved (230 mm); tb 2 rings, 38 straight (136 mm) / 5 curved (8.7 mm)
+- **Words (OCR):** 13 in 13 lines: WBS · WBS · WBS · WBS · WBS · WBS · WBS · WBS · M479 · DUAL  AUXILIARY · MODULE · WBS
+- **Title block:** (171, 1)–(281, 432) mm: WBS · WBS · WBS · WBS · WBS · WBS · WBS · WBS · M479 · DUAL  AUXILIARY · MODULE · WBS · WBS
+
+Every curve, box, word and wire group: [1978 - M479 - Dual Auxiliary Module p1 (traced).json](1978%20-%20M479%20-%20Dual%20Auxiliary%20Module%20p1%20%28traced%29.json) (the CAD file: `1978 - M479 - Dual Auxiliary Module p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 318 × 432 mm, 1471 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 11–308 mm across, 4–422 mm up
+- **Outlines:** line 5 rings, 591 straight (2,552 mm) / 68 curved (106 mm); text 181 rings, 2,136 straight (2,730 mm) / 465 curved (732 mm); tb 2 rings, 106 straight (304 mm) / 6 curved (11.3 mm)
+- **Words (OCR):** 9 in 7 lines: WARD-BECK SYSTEMS LTD; · WBS B41 PAOCAESS AVENUE SCAABONOUGH, ONTARIO Mihexa · TELEX: 065-25399 · TELEPHONE: 418/438-A550 · Ma79 · DUAL AUXILIARY MODULE · DESIGN ANO MANUFACTURE Of PROFESSIONAL AUDIO CQUIPMENT
+- **Title block:** (30, 395)–(255, 432) mm: WARD-BECK SYSTEMS LTD; · WBS B41 PAOCAESS AVENUE SCAABONOUGH, ONTARIO Mihexa · TELEX: 065-25399 · TELEPHONE: 418/438-A550
+
+Every curve, box, word and wire group: [1978 - M479 - Dual Auxiliary Module p2 (traced).json](1978%20-%20M479%20-%20Dual%20Auxiliary%20Module%20p2%20%28traced%29.json) (the CAD file: `1978 - M479 - Dual Auxiliary Module p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 319 × 432 mm, 1477 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–310 mm across, 12–426 mm up
+- **Outlines:** line 5 rings, 527 straight (2,685 mm) / 41 curved (62.1 mm); text 426 rings, 3,538 straight (4,258 mm) / 931 curved (1,448 mm); tb 8 rings, 131 straight (519 mm) / 16 curved (24.2 mm)
+- **Words (OCR):** 44 in 32 lines: WARO-BECK systems LTD; · TABLE 0F · CONTENIS · M479 DUAL AUXILIARY MODULE · SECIION · PAGE · Warranty · Technica] Data · 1-1 · circuit Description · 2-1 to · 2 -2
+- **Title block:** (5, 43)–(295, 432) mm: WARO-BECK systems LTD; · TABLE 0F · CONTENIS · M479 DUAL AUXILIARY MODULE · SECIION · PAGE · Warranty · Technica] Data · 1-1 · circuit Description · 2-1 to · 2 -2 · Parts List · 3-1 to · 3-5 · Drawing
+
+Every curve, box, word and wire group: [1978 - M479 - Dual Auxiliary Module p3 (traced).json](1978%20-%20M479%20-%20Dual%20Auxiliary%20Module%20p3%20%28traced%29.json) (the CAD file: `1978 - M479 - Dual Auxiliary Module p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 315 × 432 mm, 1460 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–298 mm across, 13–418 mm up
+- **Outlines:** line 15 rings, 369 straight (2,622 mm) / 66 curved (101 mm); text 2,072 rings, 14,936 straight (16,266 mm) / 4,481 curved (6,705 mm); tb 37 rings, 334 straight (614 mm) / 67 curved (97.4 mm)
+- **Words (OCR):** 268 in 157 lines: WARD-BECK SYSTemS LTD · WBS 841 PAOGAESS AVENUC SCAABOAOUGH ONTARIO · TeLEX 066-25399 · TELEPHONC 416,438-655C · W ^ R R A n T Y · Al · Ward-Reck Systems · Ltd · products are · warranted · againsl · workmanship Tor
+- **Title block:** (21, 67)–(254, 428) mm: WARD-BECK SYSTemS LTD · WBS 841 PAOGAESS AVENUC SCAABOAOUGH ONTARIO · TeLEX 066-25399 · TELEPHONC 416,438-655C · W ^ R R A n T Y · Al · Ward-Reck Systems · Ltd · products are · warranted · workmanship
+
+Every curve, box, word and wire group: [1978 - M479 - Dual Auxiliary Module p4 (traced).json](1978%20-%20M479%20-%20Dual%20Auxiliary%20Module%20p4%20%28traced%29.json) (the CAD file: `1978 - M479 - Dual Auxiliary Module p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 315 × 432 mm, 1461 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 12–309 mm across, 3–425 mm up
+- **Outlines:** line 29 rings, 793 straight (3,018 mm) / 120 curved (173 mm); text 1,219 rings, 9,859 straight (11,342 mm) / 2,571 curved (4,010 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 149 in 99 lines: WARD-BECK SYSTEMS LTD · IECHNICAL DATA · M479 · DUAL_AUXILIARY MODULE · Ga in: · 18 · dB +0 .5 dB · Frequency Response: · +0.25 dB from · 30 Hz to · 20 kHz · dB be ]ow
+
+Every curve, box, word and wire group: [1978 - M479 - Dual Auxiliary Module p5 (traced).json](1978%20-%20M479%20-%20Dual%20Auxiliary%20Module%20p5%20%28traced%29.json) (the CAD file: `1978 - M479 - Dual Auxiliary Module p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 317 × 432 mm, 1467 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 12–306 mm across, 6–426 mm up
+- **Outlines:** line 37 rings, 825 straight (3,379 mm) / 137 curved (202 mm); text 1,952 rings, 15,855 straight (18,026 mm) / 4,180 curved (6,470 mm); tb 1 rings, 3 straight (2.5 mm) / 0 curved (0.0 mm)
+- **Words (OCR):** 266 in 135 lines: WAAD-BECK SySTeMS LTD_ · CIRCUIT DESCRIPIION · M479 DUAL_AUXIL LARY_MODULE · The · M479 15 · des igned · to receive · the auxiliary output feeds · originating from · M470 and M473 input and submaster · the WBS · modules combine them and
+- **Title block:** (6, 314)–(134, 432) mm: WAAD-BECK SySTeMS LTD_ · The · M479 15 · des igned · originating from · the WBS · modules combine them and · inea output mix. Two
+
+Every curve, box, word and wire group: [1978 - M479 - Dual Auxiliary Module p6 (traced).json](1978%20-%20M479%20-%20Dual%20Auxiliary%20Module%20p6%20%28traced%29.json) (the CAD file: `1978 - M479 - Dual Auxiliary Module p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 314 × 432 mm, 1452 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 12–304 mm across, 4–425 mm up
+- **Outlines:** line 12 rings, 609 straight (3,017 mm) / 63 curved (96.1 mm); text 579 rings, 4,686 straight (5,541 mm) / 1,278 curved (2,039 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 71 in 41 lines: WAAD-BECK SYSTEMs LTD; · CIRCUIT DESCRIPTION · M479 · DUAL AUXILIARY · MODULE · Sn2 i5 the · output · switch for · channe 1 · 27 , and Q5 through · 28 · Q8 comprise
+
+Every curve, box, word and wire group: [1978 - M479 - Dual Auxiliary Module p7 (traced).json](1978%20-%20M479%20-%20Dual%20Auxiliary%20Module%20p7%20%28traced%29.json) (the CAD file: `1978 - M479 - Dual Auxiliary Module p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 313 × 432 mm, 1450 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 11–303 mm across, 8–425 mm up
+- **Outlines:** line 153 rings, 1,328 straight (3,990 mm) / 256 curved (395 mm); text 1,114 rings, 8,869 straight (10,244 mm) / 2,677 curved (4,176 mm)
+- **Words (OCR):** 152 in 137 lines: WAAD-BECK SYSTEMS LTD_ · PARTS LIST · M479 DUAL AUXIlIARY · MODULE · PART · DESCRIPTION · MFG · MFG · PART · NUMBER · uF/6 · T390E 157MOO6AS
+
+Every curve, box, word and wire group: [1978 - M479 - Dual Auxiliary Module p8 (traced).json](1978%20-%20M479%20-%20Dual%20Auxiliary%20Module%20p8%20%28traced%29.json) (the CAD file: `1978 - M479 - Dual Auxiliary Module p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 312 × 432 mm, 1443 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 13–301 mm across, 1–425 mm up
+- **Outlines:** line 17 rings, 651 straight (2,718 mm) / 78 curved (127 mm); text 610 rings, 4,773 straight (5,567 mm) / 1,441 curved (2,207 mm); tb 102 rings, 647 straight (1,018 mm) / 139 curved (218 mm)
+- **Words (OCR):** 97 in 88 lines: WARD-BECK · SYSTEms LTD; · PARTS LiST · M479 DUAL · AUXILIARY MODULE · PART DESCRIPTION · MFG · MFG PART · NUMBER · Diode · Fairchild · INLI48
+- **Title block:** (6, 63)–(240, 432) mm: WARD-BECK · SYSTEms LTD; · PARTS LiST · M479 DUAL · AUXILIARY MODULE · PART DESCRIPTION · MFG · MFG PART · Diode · Fairchild · INLI48 · CR4 · CRS · CR6 · CR? · CRB · CR9 · Motorola · IN4003 · CRiO · L
+
+Every curve, box, word and wire group: [1978 - M479 - Dual Auxiliary Module p9 (traced).json](1978%20-%20M479%20-%20Dual%20Auxiliary%20Module%20p9%20%28traced%29.json) (the CAD file: `1978 - M479 - Dual Auxiliary Module p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 313 × 432 mm, 1449 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–302 mm across, 2–424 mm up
+- **Outlines:** line 112 rings, 1,047 straight (3,153 mm) / 196 curved (309 mm); text 565 rings, 4,693 straight (5,497 mm) / 1,322 curved (1,997 mm); tb 19 rings, 316 straight (702 mm) / 31 curved (50.8 mm)
+- **Words (OCR):** 104 in 92 lines: WAAD-BECK SYSTEms LTD · PARTS LIST · M479 DUAL · AUxILIARY MODULE · PART · DESCRIPTION · MFG · MFG PART · NUMBER · R16 · Resistor · 1/4w 57
+- **Title block:** (2, 259)–(241, 432) mm: WAAD-BECK SYSTEms LTD · PARTS LIST · M479 DUAL · AUxILIARY MODULE · PART · DESCRIPTION · MFG · MFG PART · R16 · Resistor · 1/4w 57 · 620 · Philips · R1? · 15k · R18 · Trim Pot · PTher · PT 10v 5k · R1
+
+Every curve, box, word and wire group: [1978 - M479 - Dual Auxiliary Module p10 (traced).json](1978%20-%20M479%20-%20Dual%20Auxiliary%20Module%20p10%20%28traced%29.json) (the CAD file: `1978 - M479 - Dual Auxiliary Module p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 312 × 432 mm, 1444 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–300 mm across, 7–427 mm up
+- **Outlines:** line 10 rings, 554 straight (2,748 mm) / 50 curved (81.1 mm); text 480 rings, 3,908 straight (4,604 mm) / 1,126 curved (1,712 mm); tb 132 rings, 800 straight (1,283 mm) / 187 curved (282 mm)
+- **Words (OCR):** 87 in 75 lines: WARD-BECK systems LTD · PARTS isT · ML79 DUAL AUXILIARY · MODULE · PART DESCRIPTION · MFG · MFG PART · NUMBER · R5I · Resistor · 1/4w  5% 75k · Philips
+- **Title block:** (3, 66)–(239, 432) mm: WARD-BECK systems LTD · PARTS isT · ML79 DUAL AUXILIARY · MODULE · PART DESCRIPTION · MFG · MFG PART · R5I · Resistor · 1/4w  5% 75k · Philips · R52 · 620 · R53 · R54 · R55 · 33 · R56 · 33 · R57 · 4k?
+
+Every curve, box, word and wire group: [1978 - M479 - Dual Auxiliary Module p11 (traced).json](1978%20-%20M479%20-%20Dual%20Auxiliary%20Module%20p11%20%28traced%29.json) (the CAD file: `1978 - M479 - Dual Auxiliary Module p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 316 × 432 mm, 1464 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 11–308 mm across, 6–428 mm up
+- **Outlines:** line 28 rings, 999 straight (3,507 mm) / 101 curved (162 mm); text 320 rings, 2,675 straight (3,133 mm) / 707 curved (1,109 mm); tb 13 rings, 54 straight (53.7 mm) / 13 curved (16.0 mm)
+- **Words (OCR):** 39 in 28 lines: WAAD-BECK SYSTems LTD; · PARTS LiST · DUAL AuxIIARY MODULE · M479 · PART · DESCRIPTION · MFG · MFG PART · NUMBER · 73 · Integrated · circuit
+- **Title block:** (5, 23)–(120, 432) mm: WAAD-BECK SYSTems LTD; · M479 · PART · DESCRIPTION · 73 · Integrated · circuit · 24 · 25 · 26 · 77 · 28 · WBS · recommends thc use · manufacturers for
+
+Every curve, box, word and wire group: [1978 - M479 - Dual Auxiliary Module p12 (traced).json](1978%20-%20M479%20-%20Dual%20Auxiliary%20Module%20p12%20%28traced%29.json) (the CAD file: `1978 - M479 - Dual Auxiliary Module p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 317 × 432 mm, 1468 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–317 mm across, 0–317 mm up
+- **Outlines:** line 76 rings, 650 straight (3,007 mm) / 147 curved (193 mm); text 412 rings, 2,375 straight (2,290 mm) / 938 curved (1,239 mm); tb 173 rings, 1,522 straight (4,093 mm) / 337 curved (494 mm)
+- **Closed boxes:** 4 (1 in the title block); named: M479 WBS; AUxiIARY 2 switch SwZa When depressed th; AuxiLiARY swiecn SwI; When  depressed th
+- **Dots (junctions):** 1
+- **Words (OCR):** 65 in 37 lines: WBS · M479 · Teve| contro| · Vows · adjust che · ouTput · both channel · AUxiIARY 2 switch SwZa When depressed the channe | · outputsa · Fgna · itched ONand appesrs · Lhe Led
+- **Title block:** (131, 0)–(317, 321) mm: WBS · M479 · Teve| contro| · Vows · adjust che · ouTput · both channel · Space for channe | · de s Ignation · AuxiLiART leve | · output Tave · both channe oulputs · Tows · adjus [ che · REDRAWN · DaTE
+
+Every curve, box, word and wire group: [1978 - M479 - Dual Auxiliary Module p13 (traced).json](1978%20-%20M479%20-%20Dual%20Auxiliary%20Module%20p13%20%28traced%29.json) (the CAD file: `1978 - M479 - Dual Auxiliary Module p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** functional 479-01-001, size B (assumed) 432 × 302 mm, 2000 × 1400 px traced (0.216 mm/px)
+- **Ink extent:** 19–432 mm across, 0–302 mm up
+- **Outlines:** line 82 rings, 1,601 straight (5,671 mm) / 206 curved (331 mm); text 221 rings, 2,002 straight (2,440 mm) / 613 curved (952 mm); tb 21 rings, 256 straight (464 mm) / 53 curved (88.0 mm)
+- **Centre lines:** 2,829 paths (36 closed); straight 4,903 mm, curved 47.0 mm; horizontal 2,149 mm, vertical 936 mm, diagonal 1,818 mm
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 3.5 @ (182.5, 196.7), r 3.4 @ (182.6, 151.6), r 1.7 @ (180.9, 226.1), r 1.2 @ (180.8, 226.2)
+- **Closed boxes:** 7 (4 in the title block); named: INFORMATIon ADDED AMP; lo/11
+- **Words (OCR):** 45 in 39 lines: AUX · SUMMINg · SUM · BST · OUtput · INPUT · +8dBm · 600  OHMS · EXTERNAL · Monitor · INPUT · AUX 2
+- **Title block:** (270, 2)–(432, 78) mm: lo/11 ADDED AMP · INFORMATIon · ISSUE |DATE · REVISION · APP · WBS WARO-BECK · M479 · ENG RKB · CKD: Rpl · DUAL AUXILIARY · MODULE · FUNCTIONAL DIAGRAM · APP: · SCALE · ISSUE · 479-01-001
+- **Wiring (first pass):** 50 connected wire groups from 90 runs; labelled ends: 135 mm → SUM; 115 mm → SUm; 102 mm → lo/11; 84 mm → BST; 65 mm → BST
+
+Every curve, box, word and wire group: [1978 - M479 - Dual Auxiliary Module p14 (traced).json](1978%20-%20M479%20-%20Dual%20Auxiliary%20Module%20p14%20%28traced%29.json) (the CAD file: `1978 - M479 - Dual Auxiliary Module p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** schematic 79-02-001, size B (assumed) 432 × 287 mm, 2000 × 1330 px traced (0.216 mm/px)
+- **Ink extent:** 3–432 mm across, 0–280 mm up
+- **Outlines:** line 1,116 rings, 10,457 straight (17,093 mm) / 2,682 curved (3,554 mm); text 763 rings, 4,160 straight (3,875 mm) / 1,630 curved (2,172 mm)
+- **Centre lines:** 11,068 paths (258 closed); straight 12,112 mm, curved 766 mm; horizontal 3,918 mm, vertical 2,798 mm, diagonal 5,397 mm
+- **Circles and arcs:** 24 circles, 140 arcs; largest r 4.1 @ (303.6, 117.9), r 4.1 @ (302.7, 209.3), r 4.0 @ (303.2, 179.5), r 3.9 @ (302.2, 236.1)
+- **Closed boxes:** 9; named: GEL
+- **Dots (junctions):** 3
+- **Words (OCR):** 153 in 142 lines: 203519 · CR + · R40 · so/0 · 620 · 210 · ALXICIARY · SuMMING · OLTPU · INPUT · 4*7 · R4?
+- **Wiring (first pass):** 147 connected wire groups from 1,001 runs; labelled ends: 297 mm → 41025, WBS; 148 mm → PSi, Sw2, DS2; 134 mm → 58, 22k; 128 mm → WBS, GEL; 122 mm → 827, Cid, Ris, 22k
+
+Every curve, box, word and wire group: [1978 - M479 - Dual Auxiliary Module p15 (traced).json](1978%20-%20M479%20-%20Dual%20Auxiliary%20Module%20p15%20%28traced%29.json) (the CAD file: `1978 - M479 - Dual Auxiliary Module p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** component layout 479-06-001, size B (assumed) 432 × 342 mm, 2000 × 1585 px traced (0.216 mm/px)
+- **Ink extent:** 10–432 mm across, 0–328 mm up
+- **Outlines:** line 382 rings, 4,367 straight (10,990 mm) / 1,200 curved (1,277 mm); text 618 rings, 4,883 straight (4,574 mm) / 1,611 curved (1,838 mm); tb 614 rings, 4,660 straight (5,683 mm) / 1,468 curved (1,625 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 9.2 @ (132.8, 279.6), r 3.9 @ (274.9, 273.6), r 1.4 @ (153.1, 272.1), r 1.3 @ (83.8, 292.2)
+- **Closed boxes:** 20 (6 in the title block); named: R?2 5k wBs 10-015; 5/82; 10/z7; WBS; M479 Auxiliary Module DUAL LAYOUT; GE
+- **Dots (junctions):** 1
+- **Words (OCR):** 125 in 116 lines: R7e 229 · R78 · ~R3 226 · CRis · 136/4 R7 · Rib · 5k · 5k Ris 42* · Azi 30* · ~Cii · R?2 · 5k
+- **Title block:** (50, 27)–(362, 259) mm: R?2 · 5k · 224 z2 · 23 · 22el · wBs · 2i · c27 · c28 · 24 · 10-015 · Lm3oi · Lmjoi · Lmzdi · Lmzoi · c1z- · 5w2 · DSz · FLvi7 · 204 · R4B l2 · R2 · 2n3545 · ~RIz Jok · CR4S · 2k2 · Zn3645 2nJ5L3 2n345
+
+Every curve, box, word and wire group: [1978 - M479 - Dual Auxiliary Module p16 (traced).json](1978%20-%20M479%20-%20Dual%20Auxiliary%20Module%20p16%20%28traced%29.json) (the CAD file: `1978 - M479 - Dual Auxiliary Module p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 327 × 432 mm, 1514 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 72–327 mm across, 0–432 mm up
+- **Outlines:** line 220 rings, 3,990 straight (9,627 mm) / 659 curved (1,081 mm); text 252 rings, 2,535 straight (3,231 mm) / 645 curved (1,026 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.5 @ (251.6, 21.6), r 2.5 @ (251.9, 92.7), r 2.5 @ (319.1, 210.0)
+- **Closed boxes:** 44; named: 10; 11; 12; 13; 14 15; 16 17; 18; 19 20; 21
+- **Words (OCR):** 32 in 31 lines: SUMMING · INPUT #2 · SHIELD · EXTERNAL · INPUT #1 · EXTERNAL · INPUT #2 · 10 · SHELD · 11 · AUX · 12
+
+Every curve, box, word and wire group: [1978 - M479 - Dual Auxiliary Module p17 (traced).json](1978%20-%20M479%20-%20Dual%20Auxiliary%20Module%20p17%20%28traced%29.json) (the CAD file: `1978 - M479 - Dual Auxiliary Module p17 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

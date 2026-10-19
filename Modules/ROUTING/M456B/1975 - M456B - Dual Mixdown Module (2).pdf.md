@@ -17,6 +17,339 @@ Wiki page: [M456B](../../../PAGES/M456B.md)
 - **1975** (labelled): `DATE FEB 75` — …LTD. BS Z 2/0" Q(iJ.M ~ 3 :3142 GtEB W DRN. DM 5-101 :// , DATE FEB 75 tp FINISH DUAL BOOSTE R AMPLIFIER CKD. c.yJlk ht SCALE 2 :…
 - **1978** (month): `SEPT . 19 78` — …nt l ay o u t 8S-10 1-06 -001 a .c ps BS HANUAL I SSUE 11 W SEPT . 19 78 :// tp ht…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–319 mm across, 0–425 mm up
+- **Outlines:** line 205 rings, 2,815 straight (5,552 mm) / 460 curved (737 mm); text 123 rings, 889 straight (1,151 mm) / 163 curved (260 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.8 @ (172.9, 237.0)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 22 in 15 lines: (VVElS) PROGF'ESSI AVE NuE! · WARD-BECK SYSTEM · TD · ax.. · SCAReOROLGH. ONTAFlCI · 1CLE · 0EIe'2S399 · TEl..EPHONE, · '''3f:N~S~ · M45SB · DUA MIXOOWN MODUL · ps
+
+Every curve, box, word and wire group: [1975 - M456B - Dual Mixdown Module (2) p1 (traced).json](1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1975 - M456B - Dual Mixdown Module (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–318 mm across, 0–429 mm up
+- **Outlines:** line 200 rings, 2,396 straight (5,150 mm) / 494 curved (751 mm); text 471 rings, 3,647 straight (4,213 mm) / 977 curved (1,544 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.9 @ (125.6, 172.7)
+- **Closed boxes:** 2
+- **Words (OCR):** 93 in 42 lines: WAR O-BECK SYS TEM · LTO · TA8LE OF CONTE NTS · M4568 DUAL MIlDOWN MOOULE · Warran · Te ch · Da te · to 1-2 · ut De cri ti on · to 2-3 · Parts List · to
+
+Every curve, box, word and wire group: [1975 - M456B - Dual Mixdown Module (2) p2 (traced).json](1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1975 - M456B - Dual Mixdown Module (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–324 mm across, 9–425 mm up
+- **Outlines:** line 299 rings, 3,081 straight (5,613 mm) / 711 curved (1,104 mm); text 828 rings, 6,312 straight (7,188 mm) / 1,747 curved (2,771 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.9 @ (115.8, 274.0)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 201 in 68 lines: WARO -BECK YS · MS LTO · TECHNICAL DATA · M456B DUAL MII DOW MO DULE · Gain · Adj ustab le ro ll · dB · dB · dB · de full open). · Fr eq ue ncy Re pon se: · dB rOIl 20 Hz to 20 kHz
+
+Every curve, box, word and wire group: [1975 - M456B - Dual Mixdown Module (2) p3 (traced).json](1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1975 - M456B - Dual Mixdown Module (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 9–419 mm up
+- **Outlines:** line 188 rings, 2,293 straight (4,734 mm) / 450 curved (704 mm); text 226 rings, 1,806 straight (2,046 mm) / 438 curved (697 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 68 in 28 lines: WAFlO ·SECI< · LT · TECHNICAL DATA · H4568 DUAL HIXOOWN MODULE · Phas ng · nput an output · minal des gna · by uebe t-s ar in phase · Power Requi re lllen ts: · t25 ol · ec 50 lilA noe net · 75
+
+Every curve, box, word and wire group: [1975 - M456B - Dual Mixdown Module (2) p4 (traced).json](1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1975 - M456B - Dual Mixdown Module (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–316 mm across, 0–419 mm up
+- **Outlines:** line 318 rings, 3,522 straight (6,264 mm) / 796 curved (1,180 mm); text 1,758 rings, 13,669 straight (14,962 mm) / 3,949 curved (6,178 mm); tb 84 rings, 747 straight (844 mm) / 194 curved (295 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.9 @ (227.8, 320.6), r 1.8 @ (223.8, 327.4)
+- **Closed boxes:** 1
+- **Dots (junctions):** 3
+- **Words (OCR):** 403 in 98 lines: WARO -BECK YS · MS LTO · CIRCUIT DESCRIPTION · H4S6B DUAL HI XDOW HODULE · The H456B · dua cha nnel un · designed · re cei ve · th · con so le DIRECT) outp ut · ta pe PLAYB ACK) ut pu · so lid
+- **Title block:** (53, 134)–(98, 427) mm: WARO -BECK YS · The H456B · con so le DIRECT) outp ut · swit ch · output fee · ed or th · Eac · ha nne is · on nec tor no · to grou · as si ne · perllit ing · The ou put of th · up 1f rs Z1 and Z2 · e
+
+Every curve, box, word and wire group: [1975 - M456B - Dual Mixdown Module (2) p5 (traced).json](1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1975 - M456B - Dual Mixdown Module (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–337 mm across, 0–418 mm up
+- **Outlines:** line 263 rings, 3,035 straight (5,641 mm) / 671 curved (1,014 mm); text 1,649 rings, 12,740 straight (14,031 mm) / 3,595 curved (5,714 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.9 @ (85.3, 272.8), r 1.9 @ (207.5, 326.7)
+- **Closed boxes:** 1
+- **Words (OCR):** 326 in 87 lines: WARC -BECK YST · LTC · CI RCUIT DESCRI PTION · 56 DUAL KIXDOW MODULE · Kl 15 operated by · transfstor rfver · ns ng · QI nd Q2. · lIay be switched irectly by appl ing · closure to the · co ntrol COllllon potentia at P2-P · sel ectively via op
+
+Every curve, box, word and wire group: [1975 - M456B - Dual Mixdown Module (2) p6 (traced).json](1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1975 - M456B - Dual Mixdown Module (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–313 mm across, 9–429 mm up
+- **Outlines:** line 180 rings, 2,377 straight (4,950 mm) / 426 curved (641 mm); text 566 rings, 4,309 straight (4,809 mm) / 1,202 curved (1,950 mm)
+- **Closed boxes:** 2
+- **Words (OCR):** 126 in 44 lines: ARO-BECK YST MS LTD. · CIRCUIT DESCRIP TIO · 144568 DUAL Ki DOW" MODUL · I!!.!.n.!!.tl.. · The second he nne of th 144568 ope rates · lIan ne · de · ce · che nne 11 as desc ri bed above. · The DIRECT ou uts · th two ..adu le cheln nels are broug ht ou · rs r-e
+
+Every curve, box, word and wire group: [1975 - M456B - Dual Mixdown Module (2) p7 (traced).json](1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29%20p7%20%28traced%29.json) (the CAD file: `1975 - M456B - Dual Mixdown Module (2) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–313 mm across, 0–426 mm up
+- **Outlines:** line 500 rings, 4,600 straight (7,795 mm) / 1,127 curved (1,789 mm); text 496 rings, 4,110 straight (4,762 mm) / 1,142 curved (1,790 mm)
+- **Closed boxes:** 7
+- **Dots (junctions):** 1
+- **Words (OCR):** 118 in 87 lines: WAF=lD -8ECl< YSTE MS LTD. · PARTS LI ST · M4568 DUAL MIXDOWN MODUL · PART · DESCRIPTION · HFG · MFG PART NUMBER · CI · Capa~1 to · 2Z uF/ · Phi ips · 426ETFZZ
+
+Every curve, box, word and wire group: [1975 - M456B - Dual Mixdown Module (2) p8 (traced).json](1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29%20p8%20%28traced%29.json) (the CAD file: `1975 - M456B - Dual Mixdown Module (2) p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–418 mm up
+- **Outlines:** line 427 rings, 4,160 straight (7,348 mm) / 876 curved (1,405 mm); text 280 rings, 2,223 straight (2,545 mm) / 615 curved (960 mm)
+- **Closed boxes:** 12; named: "IX
+- **Words (OCR):** 100 in 68 lines: PARTS · ST · 568 DUAL "IX DOIlN MODULE · PART · DESCRIPTION · MFG · MFG PART NUM8ER · C36 · Capa · or · 47 pF · Phll ip
+
+Every curve, box, word and wire group: [1975 - M456B - Dual Mixdown Module (2) p9 (traced).json](1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29%20p9%20%28traced%29.json) (the CAD file: `1975 - M456B - Dual Mixdown Module (2) p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–317 mm across, 0–426 mm up
+- **Outlines:** line 365 rings, 3,474 straight (6,513 mm) / 744 curved (1,138 mm); text 300 rings, 2,478 straight (2,900 mm) / 719 curved (1,106 mm)
+- **Closed boxes:** 11
+- **Words (OCR):** 76 in 63 lines: AFl · ECK SYS TEM · LTC · H4 56B DUAL HIXDOWN HOOULE · PART · DESCRIPTION · "FG · HFG PART HUMBER · ran ls or · ZNZI · PH3569 · Q3
+
+Every curve, box, word and wire group: [1975 - M456B - Dual Mixdown Module (2) p10 (traced).json](1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29%20p10%20%28traced%29.json) (the CAD file: `1975 - M456B - Dual Mixdown Module (2) p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–338 mm across, 0–428 mm up
+- **Outlines:** line 475 rings, 4,717 straight (7,998 mm) / 1,183 curved (1,804 mm); text 214 rings, 1,779 straight (2,091 mm) / 482 curved (750 mm)
+- **Closed boxes:** 13
+- **Words (OCR):** 24 in 19 lines: Vh EIEGK SYBTEME · "WhK · LISL · 4456@ dUAL AIxDORE Humt · "uscaM · PARL_MUNBEE · ator · Phflips · Trin · Pihor · lnecor · Philips
+
+Every curve, box, word and wire group: [1975 - M456B - Dual Mixdown Module (2) p11 (traced).json](1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29%20p11%20%28traced%29.json) (the CAD file: `1975 - M456B - Dual Mixdown Module (2) p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–315 mm across, 0–429 mm up
+- **Outlines:** line 312 rings, 3,339 straight (6,456 mm) / 652 curved (974 mm); text 335 rings, 2,594 straight (3,068 mm) / 712 curved (1,094 mm)
+- **Closed boxes:** 14
+- **Words (OCR):** 90 in 71 lines: WAR · CK YS TE MS LTD · PARTS LIST · H456B DUAL HIXDDW HDDULE · PART · DESCRIPTION · HFG · HFG PAR NUHBER · Res1~to · 51 IBDK · Ph!l · ps
+
+Every curve, box, word and wire group: [1975 - M456B - Dual Mixdown Module (2) p12 (traced).json](1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29%20p12%20%28traced%29.json) (the CAD file: `1975 - M456B - Dual Mixdown Module (2) p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 4–416 mm up
+- **Outlines:** line 299 rings, 3,085 straight (5,699 mm) / 699 curved (1,089 mm); text 301 rings, 2,228 straight (2,627 mm) / 654 curved (1,029 mm); tb 136 rings, 1,206 straight (1,563 mm) / 326 curved (506 mm)
+- **Closed boxes:** 6
+- **Dots (junctions):** 1
+- **Words (OCR):** 94 in 69 lines: WARD-BECK SYS TEM LTD. · mll...!..W. · M456B DUAL MIXODWH MODULE · PART · DESCRIPTION · MFGP ART NUMBER · Res 1~to · 51 15K · ps · Ph!l1 · R80 · 30K
+- **Title block:** (23, 248)–(262, 424) mm: WARD-BECK SYS TEM LTD. · mll...!..W. · M456B DUAL MIXODWH MODULE · PART · DESCRIPTION · Res 1~to · 51 15K · ps · Ph!l1 · R80 · 30K · R81 · 30' · R8' · 100 · R83 · 100 · Pote nt ometer · AlB · WBS 10 -
+
+Every curve, box, word and wire group: [1975 - M456B - Dual Mixdown Module (2) p13 (traced).json](1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29%20p13%20%28traced%29.json) (the CAD file: `1975 - M456B - Dual Mixdown Module (2) p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–312 mm across, 0–426 mm up
+- **Outlines:** line 241 rings, 2,619 straight (5,400 mm) / 576 curved (876 mm); text 499 rings, 4,264 straight (5,012 mm) / 1,145 curved (1,702 mm)
+- **Closed boxes:** 5
+- **Words (OCR):** 132 in 105 lines: WARD -BECK · TE · LT · PARTS LIST · M4 56B DUAL MIXDOW MODU LE · PART · DESCRI PTION · MFG · MFG PART NUMB ER · RI13 · Re · tor
+- **Title block:** (22, 403)–(88, 426) mm: WARD -BECK
+
+Every curve, box, word and wire group: [1975 - M456B - Dual Mixdown Module (2) p14 (traced).json](1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29%20p14%20%28traced%29.json) (the CAD file: `1975 - M456B - Dual Mixdown Module (2) p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–429 mm up
+- **Outlines:** line 525 rings, 4,857 straight (8,172 mm) / 1,128 curved (1,720 mm); text 142 rings, 1,247 straight (1,450 mm) / 307 curved (457 mm); tb 14 rings, 131 straight (178 mm) / 30 curved (48.2 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.9 @ (100.2, 112.6)
+- **Closed boxes:** 8
+- **Dots (junctions):** 1
+- **Words (OCR):** 101 in 77 lines: WARD BECK SYSTE MS LTD · PARTS LI ST · M45 · DUAL MIXDOWN MODULE · PART · HFG · DESCRI PTI ON · MFG PART NUMBER · Rl · Resi or %11 51 · 10K · Ph11ip
+- **Title block:** (25, 402)–(91, 425) mm: WARD BECK SYSTE MS LTD
+
+Every curve, box, word and wire group: [1975 - M456B - Dual Mixdown Module (2) p15 (traced).json](1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29%20p15%20%28traced%29.json) (the CAD file: `1975 - M456B - Dual Mixdown Module (2) p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–313 mm across, 0–429 mm up
+- **Outlines:** line 66 rings, 1,162 straight (3,781 mm) / 202 curved (320 mm); text 345 rings, 2,733 straight (3,119 mm) / 811 curved (1,281 mm); tb 251 rings, 1,969 straight (2,380 mm) / 506 curved (798 mm)
+- **Words (OCR):** 87 in 63 lines: WARD · ECK YS · MS LTD · PARTS LIS · M456B DUAL "'UDOW" MODULE · P....RT · DESCRIPTI ON · MFG PART UMBER · RI B3 · Res · or l:t; 52: 15K · RI B4
+- **Title block:** (22, 43)–(255, 428) mm: WARD · ECK YS · MS LTD · PARTS LIS · M456B DUAL "'UDOW" MODULE · P....RT · DESCRIPTI ON · RI B3 · Res · or l:t; 52: 15K · RI B4 · 15K · RI · 'OK · RI 86 · RI 87 · 100 · RI 88 · 100 · R189 · R190 · Pot
+
+Every curve, box, word and wire group: [1975 - M456B - Dual Mixdown Module (2) p16 (traced).json](1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29%20p16%20%28traced%29.json) (the CAD file: `1975 - M456B - Dual Mixdown Module (2) p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 6–417 mm up
+- **Outlines:** line 318 rings, 3,737 straight (6,639 mm) / 767 curved (1,190 mm); text 312 rings, 2,688 straight (3,126 mm) / 696 curved (1,105 mm)
+- **Closed boxes:** 7
+- **Words (OCR):** 101 in 56 lines: 56 · DUAL KilDO · MODULE · PART · DESCRIPTION · HFG · HfG PART NUMBER · SW9) · SWIO) · S.1tl;h Assell ly · Scll adow · WBS 11- 029
+
+Every curve, box, word and wire group: [1975 - M456B - Dual Mixdown Module (2) p17 (traced).json](1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29%20p17%20%28traced%29.json) (the CAD file: `1975 - M456B - Dual Mixdown Module (2) p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–312 mm across, 0–424 mm up
+- **Outlines:** line 83 rings, 904 straight (3,772 mm) / 124 curved (197 mm); text 34 rings, 259 straight (336 mm) / 65 curved (102 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 8 in 7 lines: 5·10 · AMPLIfiER SERIES · ps · BS · tp · ht · 101
+
+Every curve, box, word and wire group: [1975 - M456B - Dual Mixdown Module (2) p18 (traced).json](1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29%20p18%20%28traced%29.json) (the CAD file: `1975 - M456B - Dual Mixdown Module (2) p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–336 mm across, 22–427 mm up
+- **Outlines:** line 177 rings, 2,114 straight (4,113 mm) / 335 curved (521 mm); text 1,038 rings, 8,385 straight (9,387 mm) / 2,205 curved (3,534 mm); tb 8 rings, 69 straight (88.4 mm) / 11 curved (17.6 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.9 @ (264.5, 150.5), r 1.8 @ (143.1, 130.0)
+- **Words (OCR):** 161 in 53 lines: WARD-BECK SYSTEMS LTD · DESCR IPTION · 101 AMPLIFIER SERIE · The 5-101 series of amplifiers are utilized as plug-in units · within certain Ward-Beck Systems 450 and 460 series modules · There are two separa te ampli fiers per card each providing an · actively balanced output with · maximum capabilit
+- **Title block:** (25, 308)–(176, 425) mm: WARD-BECK SYSTEMS LTD · DESCR IPTION · 101 AMPLIFIER SERIE · The 5-101 series of amplifiers are utilized as plug-in units · within certain Ward-Beck Systems 450 and 460 series modules
+
+Every curve, box, word and wire group: [1975 - M456B - Dual Mixdown Module (2) p19 (traced).json](1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29%20p19%20%28traced%29.json) (the CAD file: `1975 - M456B - Dual Mixdown Module (2) p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–333 mm across, 5–425 mm up
+- **Outlines:** line 125 rings, 1,732 straight (3,662 mm) / 233 curved (358 mm); text 1,078 rings, 8,790 straight (9,509 mm) / 2,416 curved (3,835 mm); tb 3 rings, 28 straight (37.6 mm) / 8 curved (15.6 mm)
+- **Words (OCR):** 169 in 30 lines: WARD-BECK SYSTEMS LTD · DESCRIPTION · 5-10 · AMPLIFIER SERIES · The operation of both amplifier sections is identical. On ly · one section wi ll be described · Each section consists of two ndi vi dua inverting amplifiers, · namely Zl and Z2. These are followed by their respective out- · put stages Q
+- **Title block:** (20, 402)–(127, 424) mm: WARD-BECK SYSTEMS LTD
+
+Every curve, box, word and wire group: [1975 - M456B - Dual Mixdown Module (2) p20 (traced).json](1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29%20p20%20%28traced%29.json) (the CAD file: `1975 - M456B - Dual Mixdown Module (2) p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–313 mm across, 10–426 mm up
+- **Outlines:** line 228 rings, 2,138 straight (4,623 mm) / 317 curved (507 mm); text 706 rings, 5,548 straight (6,495 mm) / 1,573 curved (2,523 mm)
+- **Words (OCR):** 113 in 98 lines: WARD-BECK SYSTEMS LTD · PARTS LIST · 5-101 DUAL BOOSTER AMPLIFIER · PART · DESCRIPTION · MFG · MFG PART NUMBER · C1 · Capacitor 33 uF/1 · Kemet · T390D336M010AS · C2
+- **Title block:** (22, 403)–(130, 426) mm: WARD-BECK SYSTEMS LTD
+
+Every curve, box, word and wire group: [1975 - M456B - Dual Mixdown Module (2) p21 (traced).json](1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29%20p21%20%28traced%29.json) (the CAD file: `1975 - M456B - Dual Mixdown Module (2) p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–335 mm across, 10–426 mm up
+- **Outlines:** line 232 rings, 2,073 straight (4,447 mm) / 282 curved (443 mm); text 447 rings, 3,731 straight (4,272 mm) / 1,070 curved (1,682 mm)
+- **Words (OCR):** 96 in 87 lines: WARD-BECK SYSTEMS LTD · PARTS LIST · 5-101 DUAL BOOSTER AMPLIFIER · PART · OEseR PTION · MFG · MFG PART NUMBER · R1 · Resistor · 47K · Ph~lips · R2
+- **Title block:** (22, 401)–(130, 424) mm: WARD-BECK SYSTEMS LTD
+
+Every curve, box, word and wire group: [1975 - M456B - Dual Mixdown Module (2) p22 (traced).json](1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29%20p22%20%28traced%29.json) (the CAD file: `1975 - M456B - Dual Mixdown Module (2) p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–303 mm across, 11–425 mm up
+- **Outlines:** line 87 rings, 1,338 straight (3,720 mm) / 171 curved (264 mm); text 561 rings, 4,554 straight (5,261 mm) / 1,208 curved (1,905 mm); tb 41 rings, 172 straight (175 mm) / 43 curved (69.0 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 105 in 65 lines: WARD-BECK SYSTEMS LTD · PA RTS LI ST · 5-101 DUAL BOO STER AMPLI FIER · PART · DESCRI PTIO · MFG · MFG PART NUMB ER · R36 · Res is to l,;W · 15K · Ph~lips · R37
+- **Title block:** (17, 101)–(125, 424) mm: WARD-BECK SYSTEMS LTD · PART · DESCRI PTIO · R36 · Res is to l,;W · R37 · R38 · R39 · R40 · R41 · R42 · R43 · R44 · R45 · R46 · R47 · R48 · R49 · Resistor · R50 · R51 · Resistor l,;W · R52 · R53 · R54
+
+Every curve, box, word and wire group: [1975 - M456B - Dual Mixdown Module (2) p23 (traced).json](1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29%20p23%20%28traced%29.json) (the CAD file: `1975 - M456B - Dual Mixdown Module (2) p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** layout 456-04-009, size B (assumed) 425 × 432 mm, 1970 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 12–425 mm across, 2–418 mm up
+- **Outlines:** line 896 rings, 7,917 straight (17,919 mm) / 1,988 curved (2,838 mm); text 976 rings, 5,002 straight (4,493 mm) / 2,048 curved (2,764 mm); tb 62 rings, 609 straight (759 mm) / 139 curved (195 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 4.3 @ (248.8, 133.7), r 4.3 @ (229.6, 115.5), r 4.3 @ (248.9, 252.5), r 3.0 @ (229.4, 75.7)
+- **Closed boxes:** 23 (3 in the title block); named: MONITOR ASS IGNMENT switch es S""'3. SW1; REV SENO sw SW] With switch de ess ed he; tc sw REV Sn lD swi SIIE>: Wi th tch dep; depr se nab; r~:~e; REVISION
+- **Dots (junctions):** 2
+- **Words (OCR):** 192 in 91 lines: W8S · M4~8 · MONITOR ASS IGNMENT switch es S""'3. SW10 SWI · f;~1 Wh~~~~~~es · ~~u~x · 1a · mon to · sUfIr.lin · buses · to · se Whe dep resse · SYNC
+- **Title block:** (313, 2)–(406, 57) mm: ISSUE OATEI · REVISION · tp · ht · M4568 · CKD~":'l · DUAL MIXDOWN MODULE · FRONT PANEl · APP.~ · 456-04-009
+
+Every curve, box, word and wire group: [1975 - M456B - Dual Mixdown Module (2) p24 (traced).json](1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29%20p24%20%28traced%29.json) (the CAD file: `1975 - M456B - Dual Mixdown Module (2) p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** functional 456-01-003, size B (assumed) 432 × 279 mm, 2000 × 1293 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–269 mm up
+- **Outlines:** line 503 rings, 6,727 straight (14,623 mm) / 744 curved (950 mm); text 538 rings, 3,776 straight (3,656 mm) / 1,240 curved (1,671 mm); tb 29 rings, 612 straight (1,764 mm) / 80 curved (112 mm)
+- **Centre lines:** 8,622 paths (124 closed); straight 11,244 mm, curved 90.6 mm; horizontal 4,828 mm, vertical 3,017 mm, diagonal 3,400 mm
+- **Circles and arcs:** 3 circles, 20 arcs; largest r 2.3 @ (68.9, 98.6), r 1.0 @ (91.4, 91.1), r 0.8 @ (84.1, 93.5)
+- **Closed boxes:** 21
+- **Words (OCR):** 104 in 91 lines: DIRECT OUT · 10 dBm · SECTION · sensitivity · 10d8 · INSERT · PAN · MON OUt · PLAYBACK · IMPUT · CHANNEL · S_404
+- **Title block:** (316, 0)–(432, 60) mm: 8 / 78 · REDRAWN · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: PMAImey · M456 B · ENG RkB · DUAL MIXDOWN MODULE · cKD Kel · APP 717 · FUNCTIONAL DIAGRAM · ~SCALE · 456-01-003 · ISSUE
+- **Wiring (first pass):** 197 connected wire groups from 663 runs; labelled ends: 320 mm → MON, REV SEND; 186 mm → CHANNEL, ON, FADER, ~IsdB); 178 mm → COMMON; 151 mm → DIRECT; 137 mm → SOLO
+
+Every curve, box, word and wire group: [1975 - M456B - Dual Mixdown Module (2) p25 (traced).json](1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29%20p25%20%28traced%29.json) (the CAD file: `1975 - M456B - Dual Mixdown Module (2) p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** drawing, size B (assumed) 432 × 260 mm, 2000 × 1205 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–250 mm up
+- **Outlines:** line 709 rings, 9,261 straight (18,652 mm) / 1,914 curved (2,390 mm); text 1,471 rings, 8,582 straight (7,341 mm) / 3,242 curved (3,917 mm); tb 11 rings, 67 straight (93.7 mm) / 14 curved (16.9 mm)
+- **Closed boxes:** 25 (1 in the title block)
+- **Words (OCR):** 305 in 250 lines: PZ-t0 · 7187 · >P2-L · M2 · Rieao · Aaln · ~PI-1G · ciRECT · Lnnr · JPT · +24v ( Pz-Y) · K2
+- **Title block:** (355, 1)–(415, 27) mm: WBS WAAD-BeCK OyaterD LTD · DRL · FlA · M4568 · cKD · D4TL ALG · DUAL Mixdown MODUle · SCHEMATIC · SCALL · TOLS · 456 - 02 003
+
+Every curve, box, word and wire group: [1975 - M456B - Dual Mixdown Module (2) p26 (traced).json](1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29%20p26%20%28traced%29.json) (the CAD file: `1975 - M456B - Dual Mixdown Module (2) p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** drawing, size B (assumed) 248 × 432 mm, 1147 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–248 mm across, 3–432 mm up
+- **Outlines:** line 3,077 rings, 22,641 straight (30,344 mm) / 5,847 curved (7,234 mm); text 313 rings, 1,342 straight (1,125 mm) / 451 curved (555 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 3.6 @ (108.6, 94.1), r 2.6 @ (172.9, 363.4), r 2.6 @ (173.2, 57.5), r 2.5 @ (173.5, 247.6)
+- **Closed boxes:** 41; named: R20.3
+- **Dots (junctions):** 6
+- **Words (OCR):** 275 in 165 lines: Ii · 'i"lO · 11- · SW21 · 2.8 · SW2 · III · (VVsS) · R20 · CA NADA · R20.3 ...,20 · 7.102(2)
+
+Every curve, box, word and wire group: [1975 - M456B - Dual Mixdown Module (2) p27 (traced).json](1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29%20p27%20%28traced%29.json) (the CAD file: `1975 - M456B - Dual Mixdown Module (2) p27 (traced).dxf`).
+
+### Page 28
+
+- **Sheet:** drawing, size B (assumed) 432 × 265 mm, 2000 × 1228 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–262 mm up
+- **Outlines:** line 674 rings, 7,027 straight (9,183 mm) / 1,545 curved (2,213 mm); text 329 rings, 2,502 straight (2,593 mm) / 741 curved (1,020 mm)
+- **Closed boxes:** 41; named: Ii.; B2; C3; D4 E5; F6; H7; Mil; N12; 15; 15; 16; U17
+- **Words (OCR):** 262 in 139 lines: PI · MON OUT · Ii. · MON OUT · CHI DIR IN A1 CHI DIR IN · MON OUT · B2 MON OUT · CHI PB IN B2 · CHI PB IN · Ma OUT · C3 · t~ON
+
+Every curve, box, word and wire group: [1975 - M456B - Dual Mixdown Module (2) p28 (traced).json](1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29%20p28%20%28traced%29.json) (the CAD file: `1975 - M456B - Dual Mixdown Module (2) p28 (traced).dxf`).
+
+### Page 29
+
+- **Sheet:** drawing, size B (assumed) 432 × 146 mm, 2000 × 675 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–145 mm up
+- **Outlines:** line 704 rings, 7,312 straight (11,830 mm) / 1,710 curved (2,165 mm); text 585 rings, 3,480 straight (3,306 mm) / 1,357 curved (1,695 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 2.0 @ (148.5, 86.8), r 2.0 @ (371.1, 88.0), r 2.0 @ (148.7, 81.6), r 2.0 @ (371.0, 82.9)
+- **Closed boxes:** 19
+- **Words (OCR):** 135 in 111 lines: R3t · Cf · C8 · .J.18V 18k · R45 · R51 · R22 · E3 · R53 · 6k2 · :3g · 33//0
+
+Every curve, box, word and wire group: [1975 - M456B - Dual Mixdown Module (2) p29 (traced).json](1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29%20p29%20%28traced%29.json) (the CAD file: `1975 - M456B - Dual Mixdown Module (2) p29 (traced).dxf`).
+
+### Page 30
+
+- **Sheet:** component layout 5-101-06-001, size B (assumed) 432 × 335 mm, 2000 × 1552 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–326 mm up
+- **Outlines:** line 796 rings, 12,059 straight (16,349 mm) / 3,360 curved (3,627 mm); text 631 rings, 6,303 straight (6,812 mm) / 1,718 curved (2,006 mm); tb 93 rings, 543 straight (505 mm) / 100 curved (102 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 8.4 @ (144.6, 249.8), r 8.3 @ (54.4, 250.3), r 8.3 @ (82.3, 250.1), r 8.3 @ (208.1, 249.9)
+- **Closed boxes:** 30 (15 in the title block); named: ISS.; :3142
+- **Words (OCR):** 112 in 78 lines: Eee · eE3 · 8£11 8€.7 · E4e · -R452. · _R~~3 · -R222. · -R23 33 · R43 4-k7 · -R44 · ~lc.7 -R20±.1<.7 · -R2f 4:1<.7
+- **Title block:** (90, 6)–(415, 69) mm: ps · ISS. MOD. CKD. · USED ON · MATL. · ~WAAD.BECK BS LTD. · Q(iJ.M · SYSTEMS · :3142 GtEB · DRN. · DM · 5-101 · DATE · FEB 75 · tp AMPLIFIER · FINISH · DUAL BOOSTE · CKD. · c.yJlk · ht · LAYOUT · SCA
+
+Every curve, box, word and wire group: [1975 - M456B - Dual Mixdown Module (2) p30 (traced).json](1975%20-%20M456B%20-%20Dual%20Mixdown%20Module%20%282%29%20p30%20%28traced%29.json) (the CAD file: `1975 - M456B - Dual Mixdown Module (2) p30 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

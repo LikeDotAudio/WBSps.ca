@@ -12,6 +12,21 @@ Wiki page: [M480B](../../../PAGES/M480B.md)
 - **Pages:** 1
 - **PDF created (scan date, not design date):** Thu Dec 12 13:55:14 2013 EST
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 2–427 mm across, 3–277 mm up
+- **Outlines:** line 1,955 rings, 17,810 straight (25,397 mm) / 4,178 curved (5,014 mm); text 487 rings, 3,190 straight (2,648 mm) / 966 curved (1,193 mm); tb 14 rings, 115 straight (71.9 mm) / 15 curved (15.2 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 1.1 @ (191.7, 207.3), r 1.1 @ (299.2, 121.7), r 1.1 @ (39.4, 114.7), r 1.0 @ (241.6, 246.0)
+- **Closed boxes:** 14 (3 in the title block); named: 4155; M4BOB INPUT  MODULE SCHEMATIC
+- **Dots (junctions):** 5
+- **Words (OCR):** 94 in 90 lines: NOTES: · A R= · Mic · R32 · DS 2 · 63 63,212 · UNLESS · '0/25 · R3c · 72c1 · LAST OMFONENT CFSISNA: · 4RL
+- **Title block:** (354, 20)–(432, 36) mm: WBS · WAAD-BECK systeM5 · M4BOB
+
+Every curve, box, word and wire group: [1980 - M480B - Input Module Schematic p1 (traced).json](1980%20-%20M480B%20-%20Input%20Module%20Schematic%20p1%20%28traced%29.json) (the CAD file: `1980 - M480B - Input Module Schematic p1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 11 words corrected)

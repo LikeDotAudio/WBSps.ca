@@ -12,6 +12,292 @@ Wiki page: [M471A](../../../PAGES/M471A.md)
 - **Pages:** 25
 - **PDF created (scan date, not design date):** Thu Nov  2 18:04:09 2006 EST
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–310 mm across, 22–422 mm up
+- **Outlines:** line 101 rings, 1,322 straight (3,860 mm) / 231 curved (402 mm); text 90 rings, 1,030 straight (1,430 mm) / 248 curved (405 mm)
+- **Words (OCR):** 23 in 13 lines: WA · CK YS TE MS TD. · [VVE3S] Te 06.. ....399 · "''''''NuE .SCAF'l · .<,)N1"''-''''O · TELE · '4"'8 · M471A · STEREO INPUT MODULE · ps · BS · tp
+
+Every curve, box, word and wire group: [1985 - M471A - Stereo Input Module (2) p1 (traced).json](1985%20-%20M471A%20-%20Stereo%20Input%20Module%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1985 - M471A - Stereo Input Module (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–309 mm across, 0–422 mm up
+- **Outlines:** line 225 rings, 2,023 straight (5,168 mm) / 481 curved (748 mm); text 547 rings, 3,823 straight (4,298 mm) / 1,053 curved (1,693 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.1 @ (114.6, 210.8), r 2.1 @ (157.6, 368.4), r 1.6 @ (243.0, 287.8), r 1.6 @ (170.0, 176.8)
+- **Words (OCR):** 56 in 44 lines: WAAC · BeCK 3Y3TEMS · TABLE · CONTEvTS · Uta STERED Japu MUDULE · SECTiDN · PAGL · Aennical · Cicuil · 0422? ptico · Panls · Appunaix
+
+Every curve, box, word and wire group: [1985 - M471A - Stereo Input Module (2) p2 (traced).json](1985%20-%20M471A%20-%20Stereo%20Input%20Module%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1985 - M471A - Stereo Input Module (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–309 mm across, 18–423 mm up
+- **Outlines:** line 277 rings, 2,413 straight (5,028 mm) / 581 curved (912 mm); text 706 rings, 4,996 straight (5,393 mm) / 1,519 curved (2,381 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.7 @ (66.7, 131.1), r 1.7 @ (140.2, 242.8)
+- **Closed boxes:** 1
+- **Dots (junctions):** 2
+- **Words (OCR):** 162 in 66 lines: WA · CI< · YST MS LTD · TECHNIC · O....T · Pot47 · STER EO NPUT MODUL · InQul Sen it vit · dBm l"e · 600 ohm · sou~e · .2S
+
+Every curve, box, word and wire group: [1985 - M471A - Stereo Input Module (2) p3 (traced).json](1985%20-%20M471A%20-%20Stereo%20Input%20Module%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1985 - M471A - Stereo Input Module (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–300 mm across, 20–423 mm up
+- **Outlines:** line 399 rings, 3,514 straight (6,499 mm) / 881 curved (1,345 mm); text 1,827 rings, 12,485 straight (13,576 mm) / 3,940 curved (6,060 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 2.1 @ (196.3, 356.7), r 1.7 @ (65.8, 224.6), r 1.6 @ (171.8, 224.3), r 1.6 @ (255.3, 138.8)
+- **Words (OCR):** 364 in 187 lines: WA~ ·BECK YSTEMS LT · RCU IT DESCRIP TI ON · M4?lA STEREO INPUT MODUL · M4 1A St · pu · Modu · sign · to ace ..pt · ..eo in · SOu Ce · un it · ..ne ses th
+
+Every curve, box, word and wire group: [1985 - M471A - Stereo Input Module (2) p4 (traced).json](1985%20-%20M471A%20-%20Stereo%20Input%20Module%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1985 - M471A - Stereo Input Module (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 15–422 mm up
+- **Outlines:** line 314 rings, 2,967 straight (6,292 mm) / 720 curved (1,135 mm); text 814 rings, 5,848 straight (6,390 mm) / 1,786 curved (2,768 mm); tb 19 rings, 184 straight (247 mm) / 27 curved (40.2 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 2.2 @ (50.3, 235.0), r 2.1 @ (104.6, 326.7), r 2.1 @ (62.4, 280.9), r 2.1 @ (66.0, 327.0)
+- **Words (OCR):** 196 in 84 lines: WARC -BECK SYSTEMS LTO · CI RCUIT OESCRIPTION · M47 1A STEREO NPU MODULE · PRE/ POST SEL ECTOR SWIT CHES AN LE VEL CONTROL · Sw ilCh SWg aCI,. · Ihe · e/pOll "1e<;: 10.. for he AUX · OUlpUI. · ganged pOlenl iom eter RJ/ R4 eee al'ng · AUX · ev el · CO'"I"OI
+- **Title block:** (50, 397)–(131, 420) mm: WARC -BECK SYSTEMS LTO
+
+Every curve, box, word and wire group: [1985 - M471A - Stereo Input Module (2) p5 (traced).json](1985%20-%20M471A%20-%20Stereo%20Input%20Module%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1985 - M471A - Stereo Input Module (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–310 mm across, 0–413 mm up
+- **Outlines:** line 495 rings, 3,890 straight (7,146 mm) / 1,065 curved (1,697 mm); text 432 rings, 3,215 straight (3,733 mm) / 962 curved (1,547 mm)
+- **Words (OCR):** 112 in 74 lines: WAR · ECI<. · YS TEM LT · 101471 STEREO INPUT MOOULE · MFG PART NUMBER · Capacitor- · 22 uF /25 · .26ETF22 · PI'l:,liPS · C2 · 22 uF /25 · CJ
+
+Every curve, box, word and wire group: [1985 - M471A - Stereo Input Module (2) p6 (traced).json](1985%20-%20M471A%20-%20Stereo%20Input%20Module%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1985 - M471A - Stereo Input Module (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 0–422 mm up
+- **Outlines:** line 436 rings, 3,269 straight (6,426 mm) / 868 curved (1,372 mm); text 311 rings, 2,241 straight (2,412 mm) / 637 curved (977 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.2 @ (106.8, 327.1)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 56 in 43 lines: WAR · ECK YSTEM LTD. · ",1I.71A. STEREO INPU · MODULE · Pote nt iometer, qued · AlB · '81 · sl · Re Sistor · II.W · 3.3 · '13
+
+Every curve, box, word and wire group: [1985 - M471A - Stereo Input Module (2) p7 (traced).json](1985%20-%20M471A%20-%20Stereo%20Input%20Module%20%282%29%20p7%20%28traced%29.json) (the CAD file: `1985 - M471A - Stereo Input Module (2) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–319 mm across, 0–422 mm up
+- **Outlines:** line 250 rings, 2,293 straight (5,610 mm) / 525 curved (817 mm); text 406 rings, 3,213 straight (3,669 mm) / 950 curved (1,483 mm); tb 165 rings, 1,176 straight (1,799 mm) / 342 curved (550 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.1 @ (194.2, 355.5), r 2.1 @ (158.3, 355.5)
+- **Words (OCR):** 88 in 54 lines: Fl · ECK YSTE · LTO. · M471A STEREO · NPU MODULE · eo, · es i,~tor j4W" · Ph · eo, · le te · en · le te
+- **Title block:** (36, 41)–(245, 235) mm: SWI · de lete · SW2 · Sw itc · WBS 11_002 · swa · was 11_157 · was 11-002 · SW> · sws · swa · sws · WBS 11_003 · SW10 · aa · ISCELLANEOUS · OMPONENTS · 8P inOipSock et · WBS ecomm en · us · of · pl ac
+
+Every curve, box, word and wire group: [1985 - M471A - Stereo Input Module (2) p8 (traced).json](1985%20-%20M471A%20-%20Stereo%20Input%20Module%20%282%29%20p8%20%28traced%29.json) (the CAD file: `1985 - M471A - Stereo Input Module (2) p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–312 mm across, 9–417 mm up
+- **Outlines:** line 99 rings, 1,191 straight (3,592 mm) / 222 curved (349 mm); text 1,377 rings, 10,058 straight (11,220 mm) / 2,808 curved (4,522 mm); tb 35 rings, 239 straight (296 mm) / 80 curved (120 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.8 @ (192.6, 259.3), r 1.8 @ (288.2, 58.9)
+- **Closed boxes:** 1
+- **Words (OCR):** 208 in 81 lines: WARD- BECK YS TEM · 10 · AMPLIFIER SERIES · The · 10 · ries of mp · iers · util ed as an internal · component within various WBS series of audio console modules. · Each 8-109 ampl ifier mounts as · plu9-fn assembly onto the · module motherboard.
+- **Title block:** (25, 307)–(165, 425) mm: WARD- BECK YS TEM · 10 · The · 10 · ries of mp · iers · Each 8-109 ampl ifier mounts as
+
+Every curve, box, word and wire group: [1985 - M471A - Stereo Input Module (2) p9 (traced).json](1985%20-%20M471A%20-%20Stereo%20Input%20Module%20%282%29%20p9%20%28traced%29.json) (the CAD file: `1985 - M471A - Stereo Input Module (2) p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–332 mm across, 8–417 mm up
+- **Outlines:** line 557 rings, 5,235 straight (7,924 mm) / 1,328 curved (2,051 mm); text 1,308 rings, 10,279 straight (11,375 mm) / 2,900 curved (4,686 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.0 @ (50.5, 287.1), r 1.9 @ (161.9, 98.3), r 1.9 @ (102.3, 199.3), r 1.9 @ (145.6, 58.2)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 358 in 86 lines: WAR · BECK YSTE · TO. · DESCRIPTION · 109 · AMPLIFI ER SERIE · Output Illpedanc · less han 100 hlls. · oa Il1pedance · liOO ohlls. ba lan ce · Out pu · vel
+
+Every curve, box, word and wire group: [1985 - M471A - Stereo Input Module (2) p10 (traced).json](1985%20-%20M471A%20-%20Stereo%20Input%20Module%20%282%29%20p10%20%28traced%29.json) (the CAD file: `1985 - M471A - Stereo Input Module (2) p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–310 mm across, 8–422 mm up
+- **Outlines:** line 122 rings, 1,374 straight (3,765 mm) / 292 curved (460 mm); text 227 rings, 1,569 straight (1,821 mm) / 386 curved (607 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.9 @ (120.2, 312.4), r 1.9 @ (240.7, 324.4)
+- **Words (OCR):** 40 in 21 lines: WAR · CK YST'EM LTO. · DESCRIPTION · 8·109 AMPLIFIER SERIES · in ve rting .ap11f1 · wfth · xt erna ly strappe to · The output · 11 ao dels · th · 09 · ries is
+
+Every curve, box, word and wire group: [1985 - M471A - Stereo Input Module (2) p11 (traced).json](1985%20-%20M471A%20-%20Stereo%20Input%20Module%20%282%29%20p11%20%28traced%29.json) (the CAD file: `1985 - M471A - Stereo Input Module (2) p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–313 mm across, 10–423 mm up
+- **Outlines:** line 343 rings, 3,531 straight (6,521 mm) / 852 curved (1,330 mm); text 530 rings, 4,152 straight (4,969 mm) / 1,259 curved (2,062 mm)
+- **Closed boxes:** 20
+- **Words (OCR):** 143 in 91 lines: WARD-BECK SYSTEMS LTD. · f!.!!..IL!JJ.!. · 109 A/oI PLIF IER SERIES · 109 · PART · OESCR PTION · HFG · HFG PART NUHBER · cr · u~/lO · tor 33 · Ke~e
+- **Title block:** (25, 402)–(134, 425) mm: WARD-BECK SYSTEMS LTD.
+
+Every curve, box, word and wire group: [1985 - M471A - Stereo Input Module (2) p12 (traced).json](1985%20-%20M471A%20-%20Stereo%20Input%20Module%20%282%29%20p12%20%28traced%29.json) (the CAD file: `1985 - M471A - Stereo Input Module (2) p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–335 mm across, 7–422 mm up
+- **Outlines:** line 314 rings, 3,383 straight (6,017 mm) / 732 curved (1,144 mm); text 295 rings, 2,407 straight (2,744 mm) / 706 curved (1,113 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.9 @ (97.2, 62.6)
+- **Closed boxes:** 20
+- **Dots (junctions):** 1
+- **Words (OCR):** 79 in 66 lines: WAR · SYS TEMS LTD · PARTS LIST · -109 AMP LIFIER SERIES · PART · DESCRIPTION · MF' · HFG · PART HUHBER · R4 · s1 · 51:
+
+Every curve, box, word and wire group: [1985 - M471A - Stereo Input Module (2) p13 (traced).json](1985%20-%20M471A%20-%20Stereo%20Input%20Module%20%282%29%20p13%20%28traced%29.json) (the CAD file: `1985 - M471A - Stereo Input Module (2) p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–312 mm across, 8–423 mm up
+- **Outlines:** line 433 rings, 4,354 straight (8,266 mm) / 1,035 curved (1,688 mm); text 278 rings, 2,247 straight (2,616 mm) / 676 curved (1,091 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.9 @ (97.0, 305.1), r 1.9 @ (96.8, 171.6)
+- **Closed boxes:** 11; named: DESCRIPTION
+- **Dots (junctions):** 1
+- **Words (OCR):** 110 in 61 lines: WA~D ·BEC SYSTEM LTD · PARTS LI ST · 109 A",PLIr IE SERIES · PART · DESCRIPTION · "'FG PART IIU"'BER · 031 · 038 · dele te · Zl · Nation · Z2
+
+Every curve, box, word and wire group: [1985 - M471A - Stereo Input Module (2) p14 (traced).json](1985%20-%20M471A%20-%20Stereo%20Input%20Module%20%282%29%20p14%20%28traced%29.json) (the CAD file: `1985 - M471A - Stereo Input Module (2) p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–332 mm across, 8–422 mm up
+- **Outlines:** line 266 rings, 3,304 straight (6,542 mm) / 699 curved (1,112 mm); text 523 rings, 3,962 straight (4,733 mm) / 1,263 curved (2,065 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.9 @ (212.1, 109.9)
+- **Closed boxes:** 13
+- **Words (OCR):** 119 in 64 lines: ARO -BE · STEM LTO · f.!Iill....!:.. · 09 AHPLIFIER SERIES · Al · ts as per -109 except as noted bel ow · PART · DESCRI PTI ON · MFG · HFG PART HUHBER · ap it or · pF
+
+Every curve, box, word and wire group: [1985 - M471A - Stereo Input Module (2) p15 (traced).json](1985%20-%20M471A%20-%20Stereo%20Input%20Module%20%282%29%20p15%20%28traced%29.json) (the CAD file: `1985 - M471A - Stereo Input Module (2) p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1552 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–310 mm across, 7–422 mm up
+- **Outlines:** line 158 rings, 1,941 straight (5,200 mm) / 385 curved (621 mm); text 455 rings, 3,737 straight (4,279 mm) / 1,062 curved (1,691 mm)
+- **Closed boxes:** 3
+- **Words (OCR):** 77 in 31 lines: PARTS LIST · B-I09 AHPLI FI ER SERI ES · !:J..Q.iE. · Al parts as per B-I09 except · noted below · PART DESCRIPTION · HFG PART NUHBE · 22Z · ~B-0947B · R15 · Resistor · 5l 510
+
+Every curve, box, word and wire group: [1985 - M471A - Stereo Input Module (2) p16 (traced).json](1985%20-%20M471A%20-%20Stereo%20Input%20Module%20%282%29%20p16%20%28traced%29.json) (the CAD file: `1985 - M471A - Stereo Input Module (2) p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–308 mm across, 21–422 mm up
+- **Outlines:** line 263 rings, 2,449 straight (4,991 mm) / 633 curved (994 mm); text 1,278 rings, 9,206 straight (10,197 mm) / 2,836 curved (4,377 mm); tb 15 rings, 128 straight (162 mm) / 15 curved (27.4 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.1 @ (200.1, 352.8), r 1.7 @ (70.0, 319.1), r 1.7 @ (182.6, 220.7), r 1.6 @ (117.2, 292.9)
+- **Words (OCR):** 295 in 114 lines: WARO -BECK SYSTEMS LTC · OPERA ONAL CONTR OLS · M471A STERE · NPUT MOOUL · PHASE · iU · SW2, Wh en depressed, th · ....it · ....il · reverse the · re l~li ve to Ihe rig · po rit
+- **Title block:** (50, 397)–(131, 420) mm: WARO -BECK SYSTEMS LTC
+
+Every curve, box, word and wire group: [1985 - M471A - Stereo Input Module (2) p17 (traced).json](1985%20-%20M471A%20-%20Stereo%20Input%20Module%20%282%29%20p17%20%28traced%29.json) (the CAD file: `1985 - M471A - Stereo Input Module (2) p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 368 × 432 mm, 1706 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 23–368 mm across, 0–407 mm up
+- **Outlines:** line 236 rings, 3,348 straight (7,883 mm) / 737 curved (1,625 mm); text 72 rings, 569 straight (718 mm) / 160 curved (261 mm)
+- **Circles and arcs:** 21 circles, 0 arcs; largest r 10.7 @ (132.9, 188.3), r 8.0 @ (132.7, 188.4), r 7.3 @ (108.2, 217.3), r 7.3 @ (107.7, 188.2)
+- **Closed boxes:** 5; named: WB ---{IO BO CH ON; [)tiN 112; HKo.; eK
+- **Words (OCR):** 31 in 22 lines: WB · ---{IO · }--------II- · --1f- · -II BO · 11+- · CH ON · ps · BS VISIO · ISsul oAn · (VVI3SJ WARD·Be · fl'yp.T
+
+Every curve, box, word and wire group: [1985 - M471A - Stereo Input Module (2) p18 (traced).json](1985%20-%20M471A%20-%20Stereo%20Input%20Module%20%282%29%20p18%20%28traced%29.json) (the CAD file: `1985 - M471A - Stereo Input Module (2) p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** functional 471-01-002, size B (assumed) 432 × 292 mm, 2000 × 1351 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–254 mm up
+- **Outlines:** line 412 rings, 4,763 straight (10,256 mm) / 755 curved (1,102 mm); text 80 rings, 636 straight (817 mm) / 149 curved (241 mm); tb 133 rings, 1,086 straight (1,424 mm) / 267 curved (407 mm)
+- **Centre lines:** 3,557 paths (72 closed); straight 6,405 mm, curved 374 mm; horizontal 2,872 mm, vertical 1,603 mm, diagonal 1,931 mm
+- **Circles and arcs:** 32 circles, 48 arcs; largest r 4.6 @ (74.0, 174.9), r 1.7 @ (304.9, 93.3), r 1.7 @ (338.1, 149.2), r 1.7 @ (265.8, 70.9)
+- **Closed boxes:** 10 (5 in the title block)
+- **Words (OCR):** 47 in 37 lines: CHANNEL ON · STEREO · FADER · dBm/600.i'l. · 8-109B · PHASE · ON · Z1 · PRE/POST · Z2 · CONTROL COMMON · PRE/POST
+- **Title block:** (277, 1)–(432, 73) mm: REVISION · APP. · [\N'E3S] WARD-SECK SYSTEMS · ps · BS · DRN D.N ./82 · M471A · ENG. · STEREO INI;>UT MODULE · tp DIAGRAM · CKD · FUNCTIONAL · ht · APP. · SCALE · ISSUE · 471-01-002
+- **Wiring (first pass):** 98 connected wire groups from 328 runs; labelled ends: 124 mm → PRE/POST, PRE; 75 mm → Z1; 34 mm → PRE/POST; 31 mm → 8-109B; 29 mm → STEREO
+
+Every curve, box, word and wire group: [1985 - M471A - Stereo Input Module (2) p19 (traced).json](1985%20-%20M471A%20-%20Stereo%20Input%20Module%20%282%29%20p19%20%28traced%29.json) (the CAD file: `1985 - M471A - Stereo Input Module (2) p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 432 × 281 mm, 2000 × 1301 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 1–274 mm up
+- **Outlines:** line 736 rings, 7,588 straight (15,118 mm) / 1,857 curved (2,392 mm); text 819 rings, 5,080 straight (4,971 mm) / 1,903 curved (2,468 mm); tb 4 rings, 68 straight (113 mm) / 5 curved (6.6 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.5 @ (134.3, 139.0)
+- **Closed boxes:** 18 (1 in the title block); named: 471-02-002; ~CALF
+- **Words (OCR):** 172 in 160 lines: 1E3 · 257 · BALANCE · DBb- · ZE2 · 2e4 · 256 · 33k · 390 · 620 · 8-109B · LEFT
+- **Title block:** (361, 17)–(432, 33) mm: pate · REYE4Ot · WBS · WARD-Beck Bybtemb · M47 1A
+
+Every curve, box, word and wire group: [1985 - M471A - Stereo Input Module (2) p20 (traced).json](1985%20-%20M471A%20-%20Stereo%20Input%20Module%20%282%29%20p20%20%28traced%29.json) (the CAD file: `1985 - M471A - Stereo Input Module (2) p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 432 × 343 mm, 2000 × 1587 px traced (0.216 mm/px)
+- **Ink extent:** 6–432 mm across, 0–289 mm up
+- **Outlines:** line 156 rings, 2,180 straight (5,382 mm) / 301 curved (438 mm); text 392 rings, 2,459 straight (3,177 mm) / 728 curved (1,215 mm); tb 311 rings, 4,239 straight (9,724 mm) / 642 curved (951 mm)
+- **Closed boxes:** 3
+- **Words (OCR):** 54 in 41 lines: WBS · lIA · DS · \Z:l> · i~1 · I,R · I09 · AU" · 109 · R4 · jF==1 · Fli
+- **Title block:** (187, 0)–(432, 292) mm: WBS · lIA · \Z:l> · i~1 · I,R · I09 · AU" · R4 · jF==1 · AUX1 · rd'- _SW9 · R5. · R8 · 5W3 · CHON · B005 TE:R · AMP · (LEFT) · ps · BS AEVr5K)N APP. · ISSlE DATE · W'E3S) WARD-BECK SYSTEMS · DRN.P · e
+
+Every curve, box, word and wire group: [1985 - M471A - Stereo Input Module (2) p21 (traced).json](1985%20-%20M471A%20-%20Stereo%20Input%20Module%20%282%29%20p21%20%28traced%29.json) (the CAD file: `1985 - M471A - Stereo Input Module (2) p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** schematic 71-02-002, size B (assumed) 432 × 334 mm, 2000 × 1549 px traced (0.216 mm/px)
+- **Ink extent:** 20–432 mm across, 0–301 mm up
+- **Outlines:** line 781 rings, 6,610 straight (11,252 mm) / 1,761 curved (2,554 mm); text 530 rings, 3,486 straight (4,396 mm) / 1,145 curved (1,711 mm); tb 20 rings, 210 straight (318 mm) / 44 curved (66.3 mm)
+- **Centre lines:** 7,487 paths (192 closed); straight 9,724 mm, curved 393 mm; horizontal 3,383 mm, vertical 2,099 mm, diagonal 4,243 mm
+- **Circles and arcs:** 25 circles, 76 arcs; largest r 4.8 @ (320.2, 92.4), r 3.0 @ (347.9, 68.9), r 2.9 @ (217.7, 192.6), r 2.9 @ (348.1, 193.0)
+- **Closed boxes:** 28 (11 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 106 in 74 lines: isl · 51 · 11l · 1.'.s · LIW'\ · 45 · ZEI · 464...!5 · Me:::> · "'1~~1C. · _1111---'..511. · II
+- **Title block:** (224, 6)–(378, 44) mm: IIOCI CKD. · USED 011 · MAT'\. · ~WARD •CK · tp · 78 ht · 'INISH · DATI · CKD. · SCAU
+- **Wiring (first pass):** 104 connected wire groups from 457 runs; labelled ends: 53 mm → BS, ~WARD; 40 mm → LTD., •CK, M471A; 27 mm → :SO-IE, NOTES; 24 mm → [\Nas], 4-123; 18 mm → [\Nas]
+
+Every curve, box, word and wire group: [1985 - M471A - Stereo Input Module (2) p22 (traced).json](1985%20-%20M471A%20-%20Stereo%20Input%20Module%20%282%29%20p22%20%28traced%29.json) (the CAD file: `1985 - M471A - Stereo Input Module (2) p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 328 × 432 mm, 1521 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 19–328 mm across, 21–432 mm up
+- **Outlines:** line 99 rings, 2,625 straight (6,542 mm) / 313 curved (530 mm); text 729 rings, 6,417 straight (8,860 mm) / 1,549 curved (2,484 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.4 @ (232.3, 368.3)
+- **Closed boxes:** 35; named: iii; 1Il 1Il; Cl; ci; 11; 12; 13; 14; 15; 16; 18; 21
+- **Words (OCR):** 124 in 66 lines: to · 1Il · LEFT INPUT · LEFT INPUT · COMMON GROUND · COMMON GROUND · LU · to · LU · Cl · iii · RIGHT INPUT
+
+Every curve, box, word and wire group: [1985 - M471A - Stereo Input Module (2) p23 (traced).json](1985%20-%20M471A%20-%20Stereo%20Input%20Module%20%282%29%20p23%20%28traced%29.json) (the CAD file: `1985 - M471A - Stereo Input Module (2) p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 432 × 319 mm, 2000 × 1479 px traced (0.216 mm/px)
+- **Ink extent:** 10–432 mm across, 0–301 mm up
+- **Outlines:** line 487 rings, 5,365 straight (11,808 mm) / 1,223 curved (1,716 mm); text 298 rings, 1,645 straight (1,511 mm) / 528 curved (675 mm); tb 24 rings, 129 straight (115 mm) / 71 curved (92.5 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.2 @ (200.6, 274.3)
+- **Closed boxes:** 6 (3 in the title block); named: ll /sp
+- **Dots (junctions):** 1
+- **Words (OCR):** 98 in 82 lines: I3 · 10 25 · C3 · RI7 · RI~ · K7 · 22 · El · COl · RS · 33/ 10 · R30
+- **Title block:** (348, 0)–(398, 40) mm: tsSl.E DATE · tp · [\NBS] wARc·eecK vBTEMS · ht · DRM. GU · ENG.MItW"78 · eK 'DIJI_ · SCALE · 109
+
+Every curve, box, word and wire group: [1985 - M471A - Stereo Input Module (2) p24 (traced).json](1985%20-%20M471A%20-%20Stereo%20Input%20Module%20%282%29%20p24%20%28traced%29.json) (the CAD file: `1985 - M471A - Stereo Input Module (2) p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** component layout 8-109-06-003, size B (assumed) 432 × 283 mm, 2000 × 1310 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 0–274 mm up
+- **Outlines:** line 483 rings, 5,234 straight (9,722 mm) / 1,342 curved (1,570 mm); text 455 rings, 3,873 straight (4,540 mm) / 1,029 curved (1,228 mm); tb 136 rings, 1,257 straight (1,595 mm) / 335 curved (412 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 9.0 @ (71.1, 107.2), r 8.9 @ (70.1, 208.6), r 8.9 @ (20.1, 107.1), r 8.9 @ (19.0, 208.3)
+- **Closed boxes:** 15 (10 in the title block); named: 33/\0 CI '2Zk 4,K -RS Ka -R3 "1<.2 R2 -R; ISSUE
+- **Words (OCR):** 95 in 76 lines: CI · 33/\0 · '2Zk · 4,K · -RS Ka · R2 · -R3 "1<.2 · _R20 4-70 · -R8~ · 1N4-14S · CRI.....- · .........C.R2-
+- **Title block:** (257, 4)–(432, 81) mm: 12ch /1l11 · ISSlJElOATE · REVISION · lAPP. · ca · (VVE3S] WARD-BECK SYSTEMS · BS · ORN.GEB · 8-109B · ENG.MRW 4/78 · BOOSTER AMPLIFIER · CKO.(~ · tp LAYOUT · COMPONEN · APP. · ht · SCALE · ISSUE · 8-
+
+Every curve, box, word and wire group: [1985 - M471A - Stereo Input Module (2) p25 (traced).json](1985%20-%20M471A%20-%20Stereo%20Input%20Module%20%282%29%20p25%20%28traced%29.json) (the CAD file: `1985 - M471A - Stereo Input Module (2) p25 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

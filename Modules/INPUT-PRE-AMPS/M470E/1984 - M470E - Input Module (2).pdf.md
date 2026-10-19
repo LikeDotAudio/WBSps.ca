@@ -16,6 +16,311 @@ Wiki page: [M470E](../../../PAGES/M470E.md)
 
 - **1984** (manual_issue): `MANUAL ISSU E II BS W July 1984` — …6 ~ 1 2 H470E Conn e c to r La y o u t B 470 -04~13 a .c ps MANUAL ISSU E II BS W July 1984 :// tp ht…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–431 mm up
+- **Outlines:** line 76 rings, 1,184 straight (3,434 mm) / 169 curved (261 mm); text 96 rings, 951 straight (1,403 mm) / 223 curved (358 mm); tb 9 rings, 108 straight (109 mm) / 32 curved (49.4 mm)
+- **Words (OCR):** 20 in 12 lines: ('NElS] ~!lS SCAA T'EUOF'>'1ONl! · WARD-BECK SYSTEMS LTD. · ONT~ · ;i!x" · e.:s · ,",LEx 06$ "="89 · M470E · INPUT MODULE · ps · BS · tp · ht
+- **Title block:** (112, 394)–(262, 418) mm: ('NElS] ~!lS SCAA T'EUOF'>'1ONl! · WARD-BECK SYSTEMS LTD. · ONT~
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module (2) p1 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–430 mm up
+- **Outlines:** line 274 rings, 2,988 straight (5,836 mm) / 666 curved (1,022 mm); text 213 rings, 1,655 straight (1,898 mm) / 438 curved (718 mm)
+- **Words (OCR):** 72 in 31 lines: WA · CK SYSTEMS LTO. · TABLE OF CONTEHTS · H470EI NPUTI«lOUlE · War ran ty · Tec hnic al Da · Ci rcuit Dnc riptfo · 2-1 to · 2·3 · Hi gh Pus Fil · Parts li st · 4-1 to
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module (2) p2 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–432 mm up
+- **Outlines:** line 488 rings, 4,387 straight (7,018 mm) / 1,158 curved (1,799 mm); text 845 rings, 6,880 straight (7,652 mm) / 1,863 curved (2,980 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.9 @ (72.6, 39.4)
+- **Closed boxes:** 1
+- **Dots (junctions):** 3
+- **Words (OCR):** 225 in 82 lines: SYS EMS LTD · TECHNICAL-DATA · H470E NPUT MODULE · In put Se nsitivi ti · Une: :lg :fg · Kie Pad · Ie · 60 to -30 dBIl · 150 oh ll sourc · frequency Response: · to Z5 · dB fr om 30 Hz
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module (2) p3 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–320 mm across, 0–430 mm up
+- **Outlines:** line 851 rings, 7,500 straight (10,675 mm) / 1,906 curved (3,042 mm); text 1,104 rings, 9,214 straight (10,304 mm) / 2,529 curved (4,062 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 1.9 @ (215.1, 326.1), r 1.9 @ (196.0, 189.9), r 1.9 @ (268.9, 258.7), r 1.9 @ (159.8, 114.7)
+- **Words (OCR):** 118 in 96 lines: LUiAc · BeCK SYSTEME · 24672' - Nfj= · GRCULL DESCRPIO · mputKOMMm · N47oz · 'acfiittes · Hos input · module prorides · conzleze · aetenualor · Ahanne
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module (2) p4 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–425 mm up
+- **Outlines:** line 559 rings, 5,784 straight (9,140 mm) / 1,300 curved (2,028 mm); text 1,379 rings, 10,834 straight (11,901 mm) / 3,149 curved (4,971 mm)
+- **Closed boxes:** 2
+- **Dots (junctions):** 1
+- **Words (OCR):** 328 in 79 lines: SYS TEMS LTD. · CIRCUIT DESCRIPTION · M470E INPUT MODUL · Pr Bmpl if er Output Bnd PHASE ReverSB · The ut · put · the filt er feeds th · reamplif ier ut · stag · consisting of 21, Q6, Q7, · Q8 and Q9. The ac tiv el · balanced outp
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module (2) p5 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 606 rings, 5,775 straight (9,004 mm) / 1,454 curved (2,274 mm); text 990 rings, 8,250 straight (9,176 mm) / 2,257 curved (3,648 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 1.9 @ (214.8, 237.2), r 1.9 @ (132.1, 263.4), r 1.9 @ (117.7, 113.2), r 1.9 @ (113.4, 120.0)
+- **Closed boxes:** 2
+- **Words (OCR):** 284 in 80 lines: WA r=lO · STE · LTO. · CIRClJlTDESCRIPTION · H470EIN PlJTHODULE · DIRECT Output · TIle out put si9",1 of the booster lip if · fe eds the DIRECT · ut pu · connector P2 · Thi outpu · esigned
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module (2) p6 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–431 mm up
+- **Outlines:** line 3,622 rings, 25,164 straight (38,666 mm) / 3,651 curved (5,357 mm); text 89 rings, 802 straight (994 mm) / 214 curved (340 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.3 @ (51.9, 206.8)
+- **Closed boxes:** 909
+- **Words (OCR):** 9 in 8 lines: DECK GYSTEME · WAAD · Rus: FLIEC OHViRALTERLSTCS · Yi) · Iafat YQWLE · RIOVINCY · HERTZ · VNBSps
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module (2) p7 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20%282%29%20p7%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module (2) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 0–431 mm up
+- **Outlines:** line 837 rings, 7,828 straight (11,304 mm) / 2,006 curved (3,127 mm); text 444 rings, 3,775 straight (4,332 mm) / 1,013 curved (1,623 mm)
+- **Closed boxes:** 12
+- **Dots (junctions):** 1
+- **Words (OCR):** 220 in 214 lines: YS · EMS · TD · WAR · PARTS · LIST · K470E · INPUTMOOUI.E · NUMBER · PART · OESCRI · PTI
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module (2) p8 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20%282%29%20p8%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module (2) p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–428 mm up
+- **Outlines:** line 452 rings, 4,328 straight (7,395 mm) / 946 curved (1,497 mm); text 250 rings, 1,991 straight (2,307 mm) / 554 curved (872 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.9 @ (203.2, 272.6)
+- **Closed boxes:** 11
+- **Words (OCR):** 100 in 72 lines: SYS TEMS LTC. · PARTS LIST · H470EINPU'T MOOULE · PART · DESCRI PTIO · MFG · HFG PART NUHBER · 036 · Capa~ fto · 22 · 25 · S1:me ns
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module (2) p9 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20%282%29%20p9%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module (2) p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 7–432 mm up
+- **Outlines:** line 653 rings, 6,141 straight (9,313 mm) / 1,468 curved (2,279 mm); text 20 rings, 96 straight (94.7 mm) / 26 curved (32.4 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.0 @ (95.3, 281.2), r 1.9 @ (97.6, 69.9), r 1.9 @ (253.8, 58.0)
+- **Closed boxes:** 9
+- **Words (OCR):** 4 in 4 lines: ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module (2) p10 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20%282%29%20p10%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module (2) p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–425 mm up
+- **Outlines:** line 315 rings, 3,106 straight (5,922 mm) / 653 curved (964 mm); text 363 rings, 2,986 straight (3,312 mm) / 981 curved (1,522 mm)
+- **Closed boxes:** 15
+- **Dots (junctions):** 1
+- **Words (OCR):** 93 in 71 lines: WAR · CK SYST MS LTD · PARTS LIST · K470E NPUTI«lDll · PART · DESCRIPTi ON · MFG · MFG PART NUMBER · R33 · Re · lrW · 51 15K
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module (2) p11 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20%282%29%20p11%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module (2) p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–430 mm up
+- **Outlines:** line 372 rings, 3,577 straight (6,309 mm) / 772 curved (1,194 mm); text 373 rings, 2,926 straight (3,267 mm) / 885 curved (1,347 mm)
+- **Closed boxes:** 14
+- **Dots (junctions):** 1
+- **Words (OCR):** 80 in 56 lines: F=l · YS EM LT · wm..JJ.ll · H470EIN PUTHO DULE · PART DESCRI PTION · HFG PART HUMBER · Res · or · 51 · lf ps · R72 · R73
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module (2) p12 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20%282%29%20p12%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module (2) p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–336 mm across, 0–432 mm up
+- **Outlines:** line 329 rings, 3,160 straight (5,651 mm) / 626 curved (968 mm); text 347 rings, 3,336 straight (3,724 mm) / 886 curved (1,324 mm)
+- **Closed boxes:** 10
+- **Words (OCR):** 111 in 88 lines: W"AA C-BECK SYS EMS · PARTS LIST · H470E NPUTI«lOUlE · PART · DESCRI PTIO · HFG · MFG PART · ~8ER · 11. 10 · Rul!to · 51 7S · Ph !1fps
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module (2) p13 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20%282%29%20p13%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module (2) p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 283 rings, 3,062 straight (5,952 mm) / 585 curved (933 mm); text 205 rings, 2,097 straight (2,392 mm) / 538 curved (834 mm); tb 67 rings, 532 straight (595 mm) / 148 curved (235 mm)
+- **Closed boxes:** 6
+- **Dots (junctions):** 1
+- **Words (OCR):** 88 in 56 lines: CK YSTEMS LTC · M470E INPUT MODULE · DESCRIPTION · MFG · PART · FS PART HUPl BER · R141 · Res isto ItW SI · Philips · SWl · SWl} · Swit ch
+- **Title block:** (231, 95)–(266, 261) mm: WBS.II -030 · WB 11 -010 · WBS 11 17 · WBS 11 05 · was 11 -002 · WS5 11 -083 · WBS 11 00 · was 11 -005
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module (2) p14 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20%282%29%20p14%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module (2) p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–422 mm up
+- **Outlines:** line 168 rings, 2,080 straight (4,661 mm) / 362 curved (563 mm); text 241 rings, 2,010 straight (2,272 mm) / 564 curved (900 mm)
+- **Closed boxes:** 5
+- **Words (OCR):** 56 in 23 lines: WAR · BECK YS TEMS LT · PARTSLlS · K470E INPlfTt«lOlU · "FG · PART DESCRI PTION · HFG PART NUMBER · Int rat td Ci rc uit · "356 · Ul20J · l3 · Z4
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module (2) p15 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20%282%29%20p15%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module (2) p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–336 mm across, 8–414 mm up
+- **Outlines:** line 464 rings, 5,693 straight (13,818 mm) / 962 curved (1,457 mm); text 736 rings, 5,157 straight (4,934 mm) / 1,764 curved (2,434 mm)
+- **Circles and arcs:** 15 circles, 0 arcs; largest r 9.2 @ (260.3, 47.2), r 9.0 @ (259.6, 199.7), r 8.7 @ (260.4, 75.5), r 7.2 @ (260.3, 106.5)
+- **Closed boxes:** 13; named: SE LEC !INPUT tch When ,ened, connect LI; INI"UT SEUC TOIl; switch SW2, 'lfhlln de; depr.ned, 01. Itch When nHru 2tl PAD nto; Will flu to indica te ;£AK OVERlf».D ind; If""O ST AUXILIARY 'W9, 10, to llow choo; ~Uxt liARY SW2~. sw itches $St GfIo1 NT ; SOLO swi SW22, When depressed, the gnal 
+- **Dots (junctions):** 1
+- **Words (OCR):** 185 in 78 lines: .,41 · !INPUT · LI. 10000 rc · SE LEC · nput of uni · tch · When ,ened, connect · INI"UT SEUC TOIl; switch SW2, 'lfhlln dep ressed connects · MICROPHOME · to inpl,lt · unit · 0'1"
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module (2) p16 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20%282%29%20p16%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module (2) p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–427 mm up
+- **Outlines:** line 677 rings, 7,423 straight (12,392 mm) / 1,690 curved (2,281 mm); text 706 rings, 4,940 straight (4,410 mm) / 1,808 curved (2,313 mm); tb 13 rings, 141 straight (195 mm) / 36 curved (47.8 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 6.1 @ (16.8, 47.0), r 5.2 @ (16.3, 199.5), r 5.1 @ (17.1, 106.3), r 5.1 @ (16.8, 168.6)
+- **Closed boxes:** 14 (2 in the title block); named: 7F5; 76 nitcn rered interc) Mgi#ad Jigt ; Ph58 J78iiered- Gig Pass F EAr SEeci Jns; EYhor Ehe"= PHASL Ihtch FsGr@ Gotcn reye; 9rovieg8 & 5As | nucu conEro adiuseable ; R1dz LMILRY Level RDI Cneros Ieve[5 LLAT; FPSuliAStEa controi cnanne Qures De[Feen
+- **Dots (junctions):** 2
+- **Words (OCR):** 117 in 83 lines: Hutoe · HEASh- seeM · Olepy Mem · Wane · {ed tm ] Aancou{ Iy · turetsco · TeytFL0n} · eterm| stered JugmayTER hurlineDures · V.5753 · Anidr · rctoec tat · Mgi#ad
+- **Title block:** (229, 16)–(336, 48) mm: IEEUADan · RE YisiON · WBS · WARD-BeCK SySTems · DRNAD784 · MIZOE · INPUT · MODUlt · FRONT PANEL
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module (2) p17 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20%282%29%20p17%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module (2) p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 6–424 mm up
+- **Outlines:** line 553 rings, 5,632 straight (9,425 mm) / 1,281 curved (2,039 mm); text 13 rings, 94 straight (101 mm) / 36 curved (53.8 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 4.6 @ (260.0, 301.0), r 2.3 @ (317.7, 341.4), r 2.3 @ (226.6, 200.0), r 2.3 @ (22.7, 327.2)
+- **Closed boxes:** 1
+- **Words (OCR):** 6 in 6 lines: f;IC/LINE- · SELECTO" · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module (2) p18 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20%282%29%20p18%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module (2) p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** functional 470-01-006, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 2–432 mm up
+- **Outlines:** line 469 rings, 8,937 straight (16,880 mm) / 1,573 curved (2,367 mm); text 204 rings, 1,672 straight (2,283 mm) / 435 curved (705 mm); tb 63 rings, 620 straight (838 mm) / 163 curved (304 mm)
+- **Centre lines:** 6,012 paths (74 closed); straight 10,865 mm, curved 363 mm; horizontal 4,313 mm, vertical 3,064 mm, diagonal 3,488 mm
+- **Circles and arcs:** 23 circles, 39 arcs; largest r 4.7 @ (44.0, 145.7), r 2.3 @ (81.3, 141.7), r 2.3 @ (262.4, 411.4), r 1.8 @ (126.3, 44.5)
+- **Closed boxes:** 24 (3 in the title block); named: [\NBS] WARD-BECK SYSTEMS; ps M470E BS INPUT MODULE FUNCTIONAL DIAG; ISSUE; tp ht 470-01-006
+- **Words (OCR):** 38 in 32 lines: CONTROl. · ICOMMON4'--- · 1--I-w--Jl"N~ · CHAN · ON · FADER · (-15dB) · PRE/POST · SUMMING · BUS · OUTfOUTS · CONTROL
+- **Title block:** (190, 13)–(333, 113) mm: REVISION · APP. · [\NBS] WARD-BECK SYSTEMS · ps · M470E · BS · INPUT MODULE · FUNCTIONAL DIAGRAM · tp · ht · ISSUE · 470-01-006
+- **Wiring (first pass):** 125 connected wire groups from 479 runs; labelled ends: 315 mm → [\NBS], FUNCTIONAL; 134 mm → 1--I-w--Jl"N~; 108 mm → [\NBS]; 63 mm → 1--I-w--Jl"N~; 44 mm → [\NBS]
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module (2) p19 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20%282%29%20p19%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module (2) p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–429 mm up
+- **Outlines:** line 615 rings, 6,924 straight (13,996 mm) / 1,621 curved (2,258 mm); text 450 rings, 2,980 straight (3,342 mm) / 1,014 curved (1,600 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 1.9 @ (25.2, 187.6), r 1.8 @ (214.0, 125.1), r 1.6 @ (297.9, 337.2), r 1.6 @ (169.3, 109.6)
+- **Closed boxes:** 4
+- **Words (OCR):** 97 in 80 lines: 5W4 · P"C (-20 110) · MIC · dB~ · TO -10 · iso · NOMHJAL · PI-W · MIC SHIELD · PI -ZI,Y · P2 · MIC
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module (2) p20 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20%282%29%20p20%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module (2) p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–428 mm up
+- **Outlines:** line 369 rings, 4,861 straight (10,278 mm) / 1,069 curved (1,570 mm); text 514 rings, 3,413 straight (3,755 mm) / 1,132 curved (1,732 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 1.7 @ (236.8, 256.7), r 1.7 @ (51.3, 323.3), r 1.7 @ (152.6, 328.4), r 1.6 @ (65.6, 375.8)
+- **Words (OCR):** 110 in 84 lines: R2 · 51;,0 · +16 · E.Q UI'.L1 · "ISERT · CI · \-22 · PI· · so · R22 · 100 · CI2
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module (2) p21 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20%282%29%20p21%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module (2) p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 826 rings, 9,170 straight (18,864 mm) / 2,155 curved (3,088 mm); text 275 rings, 1,747 straight (1,856 mm) / 580 curved (834 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 1.7 @ (32.1, 52.4), r 1.6 @ (27.9, 375.3), r 1.6 @ (64.8, 64.7), r 1.5 @ (115.4, 227.6)
+- **Closed boxes:** 5
+- **Dots (junctions):** 1
+- **Words (OCR):** 76 in 68 lines: Cl · •SOp · 2N.2 10a · WB · R60 · CH"t-lt-lEL · RSO · 18 · IN SE RT · "nENU"TOR · RS2 · P2
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module (2) p22 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20%282%29%20p22%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module (2) p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** schematic 070-02-006, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–428 mm up
+- **Outlines:** line 1,115 rings, 12,914 straight (26,284 mm) / 3,021 curved (4,227 mm); text 496 rings, 3,028 straight (3,370 mm) / 1,115 curved (1,630 mm)
+- **Centre lines:** 11,465 paths (195 closed); straight 17,132 mm, curved 983 mm; horizontal 6,870 mm, vertical 4,439 mm, diagonal 5,823 mm
+- **Circles and arcs:** 44 circles, 220 arcs; largest r 1.9 @ (245.3, 200.3), r 1.9 @ (275.3, 200.3), r 1.9 @ (268.8, 308.1), r 1.7 @ (260.8, 200.4)
+- **Closed boxes:** 98; named: (iSIII)'!NA.. CK LTD.; tp MA70E ht INPur MODULE SCHEMATIC; TOU· :iM; 070-02-006; I'OLI
+- **Words (OCR):** 127 in 92 lines: P2 · DIRECT · AIOS · P2·C · (BRIDGE LC" Dl · PHI · PI-] · PI · R60 · PI · F2- · 18
+- **Wiring (first pass):** 147 connected wire groups from 1,138 runs; labelled ends: 1346 mm → tp, (iSIII)'!NA.., ht, JUJ.y; 684 mm → AIOS, 22, M301; 282 mm → f------l---<~; 261 mm → f------l---<~; 245 mm → f------l---<~
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module (2) p23 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20%282%29%20p23%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module (2) p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 432 × 336 mm, 2000 × 1558 px traced (0.216 mm/px)
+- **Ink extent:** 6–413 mm across, 0–336 mm up
+- **Outlines:** line 1,699 rings, 15,469 straight (22,879 mm) / 3,677 curved (5,299 mm); text 253 rings, 1,660 straight (1,695 mm) / 495 curved (660 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 5.5 @ (273.9, 7.4), r 5.5 @ (225.8, 7.8), r 3.8 @ (345.4, 282.4), r 3.8 @ (347.3, 108.8)
+- **Closed boxes:** 30
+- **Dots (junctions):** 6
+- **Words (OCR):** 145 in 117 lines: ':ow lS · ~W2 · fU · SW · 'B5 11-031 · -"lXl.ll.-' · .wr:l · (W.]iil · -RII. · II: · 116 · 7-10<4
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module (2) p24 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20%282%29%20p24%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module (2) p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** drawing, size B (assumed) 432 × 336 mm, 2000 × 1558 px traced (0.216 mm/px)
+- **Ink extent:** 5–427 mm across, 5–336 mm up
+- **Outlines:** line 1,716 rings, 17,862 straight (25,338 mm) / 4,202 curved (5,947 mm); text 121 rings, 803 straight (802 mm) / 237 curved (320 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 6.3 @ (289.6, 279.6), r 5.7 @ (226.5, 287.8), r 5.7 @ (241.7, 279.5), r 5.7 @ (299.3, 129.6)
+- **Closed boxes:** 44; named: C2
+- **Dots (junctions):** 8
+- **Words (OCR):** 87 in 70 lines: MlIl~i'~ · ;1IlJl · _Rn~ll,. tt4 .10' · ..atO · 47 Ja'" · Po'" · 1IIl1l · -'138 · _eto · -clal~ C21-. · 'U,3 -.tf'Crt\- · 'lJ
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module (2) p25 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20%282%29%20p25%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module (2) p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 3–427 mm up
+- **Outlines:** line 448 rings, 5,444 straight (9,156 mm) / 968 curved (1,556 mm); text 439 rings, 4,309 straight (5,334 mm) / 1,075 curved (1,702 mm)
+- **Closed boxes:** 44; named: 10; 11; 12; 13; 14; 15; 16; 17; 18; J9; 20; 21
+- **Words (OCR):** 166 in 86 lines: P1 · SUB RIGHT OUT · SUB RIGHT OUT · UNE IN · SUB RIGHT OUT · SUB RIGHT OUT · NC · SUB RIGHT OUT · SUB RIGHT OUT · DIRECT · SUB RIGHT OUT · SUB RIGHT OUT
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module (2) p26 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20%282%29%20p26%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module (2) p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** layout 470-04-013, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 0–430 mm up
+- **Outlines:** line 232 rings, 4,962 straight (9,223 mm) / 805 curved (1,083 mm); text 337 rings, 3,435 straight (4,396 mm) / 884 curved (1,435 mm); tb 97 rings, 1,275 straight (2,004 mm) / 280 curved (512 mm)
+- **Closed boxes:** 56 (8 in the title block); named: 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 20; 21
+- **Dots (junctions):** 1
+- **Words (OCR):** 117 in 71 lines: P2 · NE IN · li NE IN · NC · NC · DIRECT · DIRECT · SHIELD · SHIELD · ATT · OUT · ATT OUT
+- **Title block:** (115, 13)–(333, 113) mm: ISSUE DATE · REVISION · lAPP. · [VVE3S) WARD-BECK SYSTEMS · DRN. JP./O~ · ps · M470E · ~t..:f · BS · ENG. · INPUT MODULE · CKD. · CONNECTOR REAR VIEW · APP. · tp · SCALE · ht · 470-04-013 · ISfuE
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module (2) p27 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20%282%29%20p27%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module (2) p27 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

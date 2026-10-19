@@ -12,6 +12,33 @@ Wiki page: [M470](../../../PAGES/M470.md)
 - **Pages:** 2
 - **PDF created (scan date, not design date):** Wed Aug 20 23:50:03 2003 EDT
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** layout 470-04-003, size B (assumed) 432 × 292 mm, 2000 × 1350 px traced (0.216 mm/px)
+- **Ink extent:** 28–432 mm across, 0–292 mm up
+- **Outlines:** line 1,930 rings, 11,009 straight (19,411 mm) / 3,181 curved (3,860 mm); text 263 rings, 1,422 straight (1,189 mm) / 559 curved (668 mm); tb 14 rings, 127 straight (170 mm) / 27 curved (32.1 mm)
+- **Circles and arcs:** 26 circles, 0 arcs; largest r 6.3 @ (213.4, 33.6), r 6.2 @ (214.2, 115.4), r 6.2 @ (214.0, 73.0), r 5.3 @ (213.5, 33.6)
+- **Closed boxes:** 20 (4 in the title block); named: 2[crnji Jster; apect; Tave | 5; Suna; 470-04- 003
+- **Dots (junctions):** 23
+- **Words (OCR):** 52 in 47 lines: 5wz| ! · Jster · 2[crnji · Jutiny · apect · {umic5 · Jepresse0, · unit · 6i978 · MPVT · Hhen · fter Iltcr Hich-Pa5?
+- **Title block:** (357, 17)–(432, 34) mm: WBS WARO-BECk Bybtemb · MGB · M47o
+
+Every curve, box, word and wire group: [1977 - M470 - Input Module - User Guide p1 (traced).json](1977%20-%20M470%20-%20Input%20Module%20-%20User%20Guide%20p1%20%28traced%29.json) (the CAD file: `1977 - M470 - Input Module - User Guide p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 432 × 275 mm, 2000 × 1273 px traced (0.216 mm/px)
+- **Ink extent:** 12–432 mm across, 0–274 mm up
+- **Outlines:** line 419 rings, 4,730 straight (11,889 mm) / 632 curved (862 mm); text 633 rings, 4,187 straight (4,644 mm) / 1,316 curved (1,933 mm); tb 17 rings, 148 straight (290 mm) / 32 curved (49.2 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 3.2 @ (244.5, 90.9), r 1.5 @ (391.3, 263.9), r 1.5 @ (393.5, 162.0)
+- **Closed boxes:** 13 (9 in the title block); named: DC CONTROLS ADDED; 11/77
+- **Words (OCR):** 98 in 91 lines: MiciliNE · SELECTOR · DIRECT · Mic · INPUT · SUB · dBm  BRIDGING · 60/-10 dBm · CTL COM · 150 OhmS · MSoR · CTL
+- **Title block:** (286, 2)–(432, 76) mm: 11/77 · DC CONTROLS ADDED · lid 77 · REDRAWN · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN. GEB · M47o · ENG_ RKB · INPUT MODULE · FUNCTIONAL DIAGRAM · APP · SCALE · ISSUE · 470 - 01 - 0
+
+Every curve, box, word and wire group: [1977 - M470 - Input Module - User Guide p2 (traced).json](1977%20-%20M470%20-%20Input%20Module%20-%20User%20Guide%20p2%20%28traced%29.json) (the CAD file: `1977 - M470 - Input Module - User Guide p2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 25 words corrected)

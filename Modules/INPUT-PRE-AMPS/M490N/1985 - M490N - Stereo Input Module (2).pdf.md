@@ -12,6 +12,504 @@ Wiki page: [M490N](../../../PAGES/M490N.md)
 - **Pages:** 46
 - **PDF created (scan date, not design date):** Mon Aug 17 16:54:14 2009 EDT
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–310 mm across, 0–424 mm up
+- **Outlines:** line 70 rings, 985 straight (3,729 mm) / 133 curved (216 mm); text 226 rings, 1,841 straight (2,581 mm) / 360 curved (596 mm); tb 13 rings, 103 straight (110 mm) / 21 curved (30.4 mm)
+- **Words (OCR):** 23 in 14 lines: [\NElS] """OGAE "VE · WARD-BECK SYSTEMS LTD · CNTAFlIC · EL · 06" · 399 · T'ELE.....oNE "'18'438-8 · M490N · STEREO INPUT MODULE · ps · BS · !:,\ANU AL ISSUE
+- **Title block:** (115, 46)–(267, 416) mm: WARD-BECK SYSTEMS LTD · CNTAFlIC · EL · 06" · 399 · T'ELE.....oNE "'18'438-8 · M490N · STEREO INPUT MODULE · !:,\ANU AL ISSUE
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p1 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–310 mm across, 25–421 mm up
+- **Outlines:** line 277 rings, 2,318 straight (5,354 mm) / 551 curved (835 mm); text 579 rings, 3,847 straight (4,348 mm) / 1,072 curved (1,684 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 1.6 @ (246.6, 274.0), r 1.6 @ (246.6, 287.1), r 1.6 @ (246.5, 261.0), r 1.6 @ (246.5, 234.6)
+- **Dots (junctions):** 1
+- **Words (OCR):** 48 in 31 lines: WAAD AECK BYBTE06 · TaBLE_OE conTEnTS · McyC. STEPED INPuT MDDULE · Sacim · RACE · Wirrenty · Trams · Technicai · Atnari · Oaalidn Duecripinn · CiFcuit Ucecriotlor · Cennicon itcli:
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p2 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–310 mm across, 0–421 mm up
+- **Outlines:** line 77 rings, 1,139 straight (3,602 mm) / 183 curved (310 mm); text 10 rings, 60 straight (103 mm) / 14 curved (22.4 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.1 @ (169.3, 235.5)
+- **Words (OCR):** 7 in 6 lines: Fl · YSTEMS LTD · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p3 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 18–414 mm up
+- **Outlines:** line 297 rings, 2,384 straight (5,111 mm) / 698 curved (1,094 mm); text 1,164 rings, 7,953 straight (8,646 mm) / 2,396 curved (3,663 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 1.6 @ (160.3, 105.2), r 1.6 @ (197.0, 105.1), r 1.6 @ (165.1, 256.4), r 1.6 @ (106.0, 276.3)
+- **Closed boxes:** 1
+- **Words (OCR):** 242 in 106 lines: CK YSTEMS LTO · TE HN IC AL DATA · M490N ST ERE · INPUT MODULE · In · Se ns itivity · 10 to · 10 dBm · re · 600 oh · source) · Fre quency
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p4 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 0–414 mm up
+- **Outlines:** line 215 rings, 1,999 straight (4,920 mm) / 459 curved (747 mm); text 81 rings, 643 straight (763 mm) / 157 curved (236 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.6 @ (143.3, 330.2), r 1.6 @ (161.8, 297.3), r 1.3 @ (73.9, 317.2)
+- **Dots (junctions):** 1
+- **Words (OCR):** 30 in 16 lines: TE CH CA DAT · M.90N ST EREO NPUT MODULE · 60 wide" · IS hi gh" · 50" deep · 360 mm · 16 mm · We hl · Ibs · 02 · 10 · net
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p5 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–306 mm across, 16–412 mm up
+- **Outlines:** line 774 rings, 5,589 straight (8,255 mm) / 1,688 curved (2,582 mm); text 1,316 rings, 8,656 straight (9,284 mm) / 2,721 curved (4,163 mm)
+- **Circles and arcs:** 31 circles, 0 arcs; largest r 1.7 @ (182.5, 148.9), r 1.7 @ (154.2, 103.2), r 1.6 @ (75.8, 117.0), r 1.6 @ (286.2, 233.7)
+- **Dots (junctions):** 7
+- **Words (OCR):** 137 in 90 lines: Laind AeCK · 3YATRF · GENEAAL · iGC . · STERFO MNpu HODULE · Hant urtide · cranna Tagt · ccauirn · Rijon  RZCCO Lrua · uis 7iring · Coneal · urgcnonicail
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p6 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 0–415 mm up
+- **Outlines:** line 445 rings, 3,321 straight (6,024 mm) / 1,022 curved (1,566 mm); text 592 rings, 3,974 straight (4,365 mm) / 1,356 curved (2,118 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 2.1 @ (81.1, 284.8), r 1.7 @ (205.5, 323.3), r 1.6 @ (89.6, 277.5), r 1.6 @ (200.7, 277.5)
+- **Dots (junctions):** 2
+- **Words (OCR):** 63 in 43 lines: BeCk ByBTeMe · WAAC · CENEAAL · STEREO hpuT MODLE · Alil · RAnAnste · Onunnc 4 0e · progran · Drevietea · beloro · EicnauJr · channti
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p7 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p7%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–308 mm across, 0–415 mm up
+- **Outlines:** line 630 rings, 5,090 straight (8,671 mm) / 1,341 curved (2,055 mm); text 870 rings, 6,198 straight (6,868 mm) / 1,815 curved (2,778 mm)
+- **Circles and arcs:** 13 circles, 0 arcs; largest r 2.1 @ (66.9, 239.8), r 2.1 @ (93.6, 121.6), r 2.1 @ (81.2, 193.7), r 2.1 @ (143.3, 95.0)
+- **Dots (junctions):** 5
+- **Words (OCR):** 224 in 107 lines: OP ERA IONAL OESC IP rON · M.9QH STEREO INPUT MODULE · Refer 10 I.lodu le Layou · 90-04 _028 · Inp · se teecc- · il es SWI · SW2 ar · mUl ua ly in te lock ed · permits the · lec io · or
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p8 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p8%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–329 mm across, 0–416 mm up
+- **Outlines:** line 254 rings, 2,581 straight (5,177 mm) / 558 curved (841 mm); text 870 rings, 6,053 straight (6,637 mm) / 1,783 curved (2,737 mm); tb 225 rings, 1,769 straight (2,409 mm) / 487 curved (777 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.6 @ (97.1, 100.5), r 1.6 @ (184.5, 119.1)
+- **Dots (junctions):** 1
+- **Words (OCR):** 224 in 100 lines: WARD- ECK SYSTEMS LTD · OPERATIONAL DESCR IP TI ON · !,,49ON STEREO INPUT MODULE · 81 · CUE QI · Momen · la · OPe · io of SW12 wi · !ow itch Ih Cu · ls · It
+- **Title block:** (26, 134)–(132, 423) mm: WARD- ECK SYSTEMS LTD · 81 · CUE QI · Momen · la · OPe · ll te ly ON · OFF · CHANNEL ON · Momentary ope ra io · ON · Th · _in lal · ta lu · 10 · RIGHT SENSIT IVIT · Sen it it · <;on ro · Suba ss.emb l
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p9 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p9%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–310 mm across, 0–421 mm up
+- **Outlines:** line 273 rings, 2,668 straight (5,812 mm) / 580 curved (918 mm); text 435 rings, 2,987 straight (3,391 mm) / 900 curved (1,356 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.1 @ (93.3, 304.2), r 2.1 @ (59.1, 238.7), r 1.2 @ (64.8, 270.7)
+- **Words (OCR):** 110 in 47 lines: EM · LT · OP ERATIO NAL OESCRIPTI ON · 49ON ST EREO INPUT MODULE · Slide Attenua to ATT con tr ols the gain of the Progra · ha nnel · 161 ATTENUATOR CUT · Anenua lO<" Cu · ...it · SW10 · aC liva le · he
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p10 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p10%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–307 mm across, 0–420 mm up
+- **Outlines:** line 414 rings, 3,420 straight (6,544 mm) / 889 curved (1,346 mm); text 1,552 rings, 10,376 straight (11,255 mm) / 3,263 curved (4,941 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 2.1 @ (60.1, 52.6), r 1.6 @ (81.0, 130.8), r 1.6 @ (66.5, 58.3), r 1.6 @ (116.4, 130.6)
+- **Dots (junctions):** 4
+- **Words (OCR):** 326 in 152 lines: WAFI · BECK SYS EMS LT · CI RCU IT DESCRIPTIO · M490N ST EREO NP UT MODULE · Inp ut Selector · wi tc es SWI · SW2 are mu tua lly In · lock · permit the se lec io · of On · of two availab le St · es
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p11 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p11%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 0–414 mm up
+- **Outlines:** line 393 rings, 3,190 straight (6,375 mm) / 862 curved (1,319 mm); text 1,476 rings, 10,117 straight (10,878 mm) / 3,224 curved (4,915 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 2.1 @ (167.4, 356.1), r 1.6 @ (81.1, 99.3), r 1.6 @ (241.9, 59.1), r 1.6 @ (193.3, 309.4)
+- **Dots (junctions):** 2
+- **Words (OCR):** 294 in 154 lines: SYSTEMS LTD · CIRCUI TOESCR IP ION · M490N · ST EREO NPU MOOULE · ll · U1 · U4 · si · 1!l1 · 1!I mp lif ed · in te · le
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p12 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p12%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–308 mm across, 0–414 mm up
+- **Outlines:** line 357 rings, 2,826 straight (5,765 mm) / 767 curved (1,164 mm); text 1,738 rings, 11,683 straight (12,552 mm) / 3,776 curved (5,717 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 1.7 @ (82.3, 289.6), r 1.7 @ (104.9, 296.1), r 1.6 @ (164.4, 157.9), r 1.6 @ (193.7, 223.5)
+- **Words (OCR):** 372 in 189 lines: CIRCUIT DESCR IP ION · M490N ST ER EO NP UT MODULE · mb er · vidu · noul fu · io · gove rn he · taWs · ual · fl · lo US · descr iption of eac
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p13 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p13%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 0–414 mm up
+- **Outlines:** line 384 rings, 3,142 straight (5,942 mm) / 839 curved (1,279 mm); text 1,735 rings, 11,420 straight (12,257 mm) / 3,782 curved (5,751 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 2.1 @ (88.6, 67.7), r 2.1 @ (95.8, 47.9), r 1.7 @ (82.3, 191.9), r 1.6 @ (118.9, 211.4)
+- **Words (OCR):** 370 in 113 lines: CI RCUIT DESCRIPTION · M490N ST EREO INPUT MOOULE · Channel Off; · Momenlary opera li<><> of · the Channel Olf · sw,tch SW8 or · momen lary ground closure of Ihe External Cha ne Off con trol · input al P2, pin 12 will result in · negative going pulse at · U8, · in · and "clea
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p14 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p14%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–308 mm across, 0–422 mm up
+- **Outlines:** line 413 rings, 3,231 straight (6,230 mm) / 918 curved (1,374 mm); text 1,517 rings, 9,918 straight (10,650 mm) / 3,210 curved (4,951 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 2.1 @ (96.1, 329.9), r 2.1 @ (143.7, 310.0), r 1.6 @ (90.2, 302.8), r 1.6 @ (134.8, 184.2)
+- **Dots (junctions):** 2
+- **Words (OCR):** 319 in 156 lines: CK SYS EM LTC · CIRCU IT DESCRIP ION · M4 90N TER EO NP UT MODULE · Cue Off · An · itio · fe · ens es · ha · he · ue cha · ls
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p15 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p15%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–307 mm across, 0–421 mm up
+- **Outlines:** line 701 rings, 5,520 straight (9,111 mm) / 1,600 curved (2,494 mm); text 570 rings, 4,500 straight (5,080 mm) / 1,440 curved (2,276 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.1 @ (112.9, 327.8)
+- **Words (OCR):** 156 in 91 lines: CI< YSTE MS LTC · M490N STEREO INP UT MOOUlE · MFG PAR NUMBER · SSO/A HJ$/ l00 · Capac lto.- · "F/3 · J9OC225MOJ$A5 · T39QA.l 0U40JS A5 · ca · F/3 · JJ · /10
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p16 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p16%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 0–415 mm up
+- **Outlines:** line 473 rings, 3,354 straight (6,835 mm) / 967 curved (1,527 mm); text 371 rings, 2,789 straight (3,039 mm) / 759 curved (1,255 mm)
+- **Closed boxes:** 2
+- **Words (OCR):** 108 in 65 lines: CK YST · TD · PA RTS LIS · M490N STER EO NPUT MOOUL · OESCRIPTION · MFG PART NUMBER · cas · Ca p.ci lOt" · F/3S II · TJ9OA 10 SM03SAS · CJ6 · 10 uF /25 II
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p17 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p17%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–309 mm across, 0–421 mm up
+- **Outlines:** line 462 rings, 3,710 straight (6,914 mm) / 926 curved (1,443 mm); text 416 rings, 2,741 straight (2,906 mm) / 832 curved (1,316 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.1 @ (159.7, 356.0), r 2.1 @ (107.1, 330.0)
+- **Words (OCR):** 72 in 47 lines: MilI90N ST£"E · NPUT · OOUL · CR2 · Oi · en er lJV · lN474 3A · CR22 · lN4003 · CR23 · CR24 · OS,
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p18 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p18%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 29–326 mm across, 20–415 mm up
+- **Outlines:** line 356 rings, 2,931 straight (5,835 mm) / 725 curved (1,100 mm); text 471 rings, 3,314 straight (3,710 mm) / 995 curved (1,494 mm)
+- **Words (OCR):** 65 in 42 lines: WA · STEMS LT · M490N STEREO NPUT MODUL · DESCR IPT IO · PART NUMBER · Re si stor · 4W · Pnllips · Potent iomet er · her · Res istor 1/4 · roo
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p19 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p19%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–310 mm across, 0–413 mm up
+- **Outlines:** line 436 rings, 3,282 straight (6,519 mm) / 916 curved (1,405 mm); text 435 rings, 3,091 straight (3,382 mm) / 886 curved (1,345 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.1 @ (112.4, 329.8)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 78 in 54 lines: WA~ · YS TEMS LT · MIo90N STEREO NPUT MODUL · Retli,~tor IoW · hilips · as · 220" · roc · se · RS' · RS2 · RSJ
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p20 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p20%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 0–415 mm up
+- **Outlines:** line 583 rings, 4,324 straight (7,363 mm) / 1,236 curved (1,862 mm); text 222 rings, 1,447 straight (1,728 mm) / 331 curved (543 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 16 in 10 lines: LYBRD BECK SEtEms · PiRts · Aikiu upu HUUULC · PART ue caipnich · "_ParT NuMBe= · Acsator · Phlllp? · WNBSps , · ROE_TIR · pnilip
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p21 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p21%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–310 mm across, 0–422 mm up
+- **Outlines:** line 448 rings, 3,571 straight (7,225 mm) / 946 curved (1,503 mm); text 451 rings, 3,203 straight (3,573 mm) / 938 curved (1,424 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.2 @ (114.6, 330.0), r 2.1 @ (95.1, 162.2), r 2.1 @ (203.2, 355.8), r 2.1 @ (94.9, 135.9)
+- **Words (OCR):** 115 in 64 lines: WA~ · CK YSTEMS LT · M490N STER EO NPU MOOULE · OESCRIPTION · MF · ART NUMBEA · AilS · Ae si 5t Ot'" 114W · roc · Phi lips · l16 · SO
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p22 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p22%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 0–415 mm up
+- **Outlines:** line 464 rings, 4,062 straight (7,338 mm) / 1,135 curved (1,802 mm); text 441 rings, 3,365 straight (3,821 mm) / 1,006 curved (1,608 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.1 @ (69.8, 305.3), r 1.7 @ (134.9, 57.8)
+- **Dots (junctions):** 1
+- **Words (OCR):** 47 in 39 lines: WEFD BECK ststE06 · PRT€ · Annn RTERCO TMPUT MOuuLE · Cdckets · ECELLhEOUS Couaouts · MAPARL · descriptict · Atcntdto · P7Cctt | · ~ic" · Black) · Black |
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p23 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p23%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–313 mm across, 0–421 mm up
+- **Outlines:** line 434 rings, 4,451 straight (9,113 mm) / 943 curved (1,483 mm); text 122 rings, 723 straight (774 mm) / 115 curved (170 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 2.1 @ (202.0, 358.6), r 2.1 @ (150.8, 371.9), r 2.1 @ (166.2, 358.7), r 2.1 @ (214.6, 187.5)
+- **Closed boxes:** 22
+- **Words (OCR):** 58 in 33 lines: CONNE TO LA YOUT · M490N · TE EO NP UT MODUL · PGM lOUT · PG · lOUT LEFT · PGM · OUT. RIGHT · PGM · OUT, · PGM · OUT
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p24 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p24%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 0–416 mm up
+- **Outlines:** line 548 rings, 5,667 straight (11,263 mm) / 1,148 curved (1,794 mm); text 164 rings, 1,374 straight (1,669 mm) / 329 curved (496 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 2.1 @ (162.5, 358.8), r 2.1 @ (135.9, 56.0), r 2.1 @ (215.9, 55.9), r 2.1 @ (124.0, 148.0)
+- **Closed boxes:** 46; named: 12
+- **Words (OCR):** 57 in 32 lines: Fl · Cl< SYS · LTD. · P2 CONNE CT OR LAYOUT · M490N STEREO NP UT MODULE · NPUT · NP · INPUT · NP UT · IGHT · NPUT · NP UT
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p25 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p25%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 13–335 mm across, 19–431 mm up
+- **Outlines:** line 588 rings, 6,158 straight (16,063 mm) / 1,058 curved (1,774 mm); text 124 rings, 730 straight (966 mm) / 226 curved (406 mm)
+- **Circles and arcs:** 17 circles, 0 arcs; largest r 5.0 @ (309.9, 280.5), r 5.0 @ (310.4, 333.2), r 5.0 @ (310.2, 297.3), r 5.0 @ (310.6, 368.8)
+- **Closed boxes:** 33
+- **Words (OCR):** 10 in 9 lines: 5"'1' 120 · PREAMPLIFIER · SUBASSEMBL · -r-:-..,....;::;.~~!.jl · II~ · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p26 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p26%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–328 mm across, 12–410 mm up
+- **Outlines:** line 155 rings, 2,302 straight (8,213 mm) / 376 curved (922 mm); text 266 rings, 1,817 straight (2,502 mm) / 610 curved (1,058 mm)
+- **Circles and arcs:** 18 circles, 0 arcs; largest r 8.0 @ (159.9, 298.5), r 5.1 @ (57.9, 368.9), r 5.0 @ (249.8, 379.3), r 5.0 @ (249.9, 359.9)
+- **Closed boxes:** 14; named: p,D; p,D
+- **Words (OCR):** 42 in 36 lines: was · 490N · CD · p,D · OlO · PRE · PST · AUX · 10 · 10 · 15 · 15
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p27 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p27%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p27 (traced).dxf`).
+
+### Page 28
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 22–335 mm across, 19–432 mm up
+- **Outlines:** line 473 rings, 4,757 straight (9,247 mm) / 848 curved (1,380 mm); text 313 rings, 2,115 straight (2,817 mm) / 437 curved (692 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 4.6 @ (246.4, 210.4), r 4.4 @ (242.6, 147.4), r 2.1 @ (50.2, 89.8), r 2.1 @ (55.3, 112.7)
+- **Closed boxes:** 4; named: MODE SE ECT; PGM/ CUE TL LO
+- **Dots (junctions):** 2
+- **Words (OCR):** 65 in 48 lines: ADE · If NSE · 15 · CH ON · MODE · SE ECT · LEF · LEFT · SENS · TY · 20 · NE
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p28 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p28%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p28 (traced).dxf`).
+
+### Page 29
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 11–431 mm up
+- **Outlines:** line 269 rings, 3,616 straight (7,805 mm) / 554 curved (797 mm); text 291 rings, 2,141 straight (2,906 mm) / 465 curved (716 mm); tb 8 rings, 92 straight (96.1 mm) / 28 curved (36.0 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.0 @ (42.5, 348.4), r 2.0 @ (40.7, 252.4)
+- **Closed boxes:** 4
+- **Words (OCR):** 42 in 29 lines: Pl · LEFT · P2 · P2 LEFT · AUX · ON · )IE · 'WIr---:-7 AUX · LEFT · CUE LEFT · IGHT · P2 RIGHT
+- **Title block:** (248, 46)–(335, 67) mm: ps · [VVl3sJ WARe-BECK SYSTEMS · BS
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p29 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p29%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p29 (traced).dxf`).
+
+### Page 30
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 33–426 mm up
+- **Outlines:** line 1,761 rings, 14,872 straight (23,817 mm) / 3,917 curved (4,912 mm); text 26 rings, 132 straight (170 mm) / 60 curved (78.4 mm)
+- **Closed boxes:** 15
+- **Words (OCR):** 16 in 11 lines: Il. Il';t1T · CQN' "Ol. · "IPU · SH'E LD · ll 20 11 · ll · 1....-00 · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p30 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p30%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p30 (traced).dxf`).
+
+### Page 31
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 13–417 mm up
+- **Outlines:** line 1,662 rings, 13,308 straight (20,479 mm) / 3,443 curved (4,164 mm); text 253 rings, 1,611 straight (1,551 mm) / 560 curved (749 mm); tb 16 rings, 139 straight (165 mm) / 28 curved (47.8 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.4 @ (142.1, 132.3), r 2.4 @ (292.4, 35.6)
+- **Closed boxes:** 6
+- **Words (OCR):** 56 in 30 lines: IIII' NG 8US(5 · OUTPUTS TO · LEf · MoNEL · II · ..EL · E"(TEIl" · COfOTIle-.. · .o.u. IlU tSTOIlS >,liE · 4IlE · IJI: UN..US OTHEIl.. tSE SP EClF tE · Ct TQIII
+- **Title block:** (244, 47)–(335, 68) mm: ps · (VVE3SJ WARD-BECK SYSTEMS · BS
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p31 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p31%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p31 (traced).dxf`).
+
+### Page 32
+
+- **Sheet:** drawing, size B (assumed) 432 × 335 mm, 2000 × 1553 px traced (0.216 mm/px)
+- **Ink extent:** 34–396 mm across, 0–331 mm up
+- **Outlines:** line 1,040 rings, 8,953 straight (15,354 mm) / 2,322 curved (3,353 mm); text 82 rings, 475 straight (449 mm) / 185 curved (250 mm)
+- **Circles and arcs:** 16 circles, 0 arcs; largest r 4.9 @ (124.3, 132.1), r 4.9 @ (125.4, 304.4), r 4.8 @ (124.2, 22.3), r 3.2 @ (202.1, 19.3)
+- **Closed boxes:** 19; named: N::sE4SJ cID; OK
+- **Words (OCR):** 120 in 101 lines: Pl · 15K 11 · _R67 · R68~ 1J' · _RSO~K 1t · -RSl~ It · SI< 11 · -R69- · li'< 1.1' · R70 · -~;'?el · -Rse!2< 11
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p32 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p32%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p32 (traced).dxf`).
+
+### Page 33
+
+- **Sheet:** drawing, size B (assumed) 432 × 335 mm, 2000 × 1553 px traced (0.216 mm/px)
+- **Ink extent:** 1–270 mm across, 4–335 mm up
+- **Outlines:** line 1,399 rings, 11,468 straight (16,663 mm) / 3,408 curved (4,957 mm); text 265 rings, 1,839 straight (1,850 mm) / 632 curved (833 mm)
+- **Circles and arcs:** 19 circles, 0 arcs; largest r 4.9 @ (124.0, 270.5), r 4.9 @ (241.5, 78.1), r 4.9 @ (124.0, 99.2), r 3.2 @ (202.1, 267.4)
+- **Closed boxes:** 7
+- **Dots (junctions):** 1
+- **Words (OCR):** 241 in 190 lines: ~~1"8~ ~SK 20 · CA2 iN-4l<t · '<IN · RI · vk · CRl iOo · IE: · c.:n:> · -R1S- · 33 · co · RS
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p33 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p33%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p33 (traced).dxf`).
+
+### Page 34
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–310 mm across, 0–413 mm up
+- **Outlines:** line 64 rings, 823 straight (3,509 mm) / 146 curved (259 mm); text 49 rings, 403 straight (525 mm) / 114 curved (192 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.1 @ (164.1, 229.7)
+- **Words (OCR):** 12 in 9 lines: LT · WA~ · Cl< · YSTEMS · MOOULES AND SUBASSEMBL IES · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p34 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p34%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p34 (traced).dxf`).
+
+### Page 35
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–310 mm across, 21–413 mm up
+- **Outlines:** line 49 rings, 820 straight (3,110 mm) / 157 curved (255 mm); text 77 rings, 613 straight (765 mm) / 191 curved (307 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.3 @ (148.7, 242.3)
+- **Words (OCR):** 22 in 11 lines: WARD-BEC · YSTEMS LTD. · SA I-'-120 · ER EO PR EAMP LIFI ER · ASS 18 · Iss ue · MJ 27. 198S · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p35 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p35%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p35 (traced).dxf`).
+
+### Page 36
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 0–413 mm up
+- **Outlines:** line 918 rings, 6,631 straight (10,035 mm) / 1,927 curved (2,926 mm); text 1,271 rings, 8,635 straight (9,390 mm) / 2,631 curved (4,033 mm)
+- **Circles and arcs:** 29 circles, 0 arcs; largest r 1.7 @ (79.2, 46.1), r 1.7 @ (119.7, 59.3), r 1.6 @ (91.6, 217.1), r 1.6 @ (159.1, 105.1)
+- **Dots (junctions):** 6
+- **Words (OCR):** 130 in 87 lines: WAAD BECK 3TBTEME · ciaCUT dfscaipTiON · E414-120 STEREO PREAAPLIFIER ASSEMBLY · EE_|Jr Bueter Pccmolifict Bbemd < conidinb · Ainnt crarnc · Prcamdiitiers, Hooe Scicc: matrnino · cninne · Golid Ga1c #mucng_ · #Unora · 6l9ju/4 Situ Inbui · channs · dcntcal (hcerors
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p36 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p36%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p36 (traced).dxf`).
+
+### Page 37
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–328 mm across, 0–415 mm up
+- **Outlines:** line 296 rings, 2,627 straight (5,502 mm) / 683 curved (1,083 mm); text 835 rings, 5,651 straight (6,182 mm) / 1,756 curved (2,732 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.6 @ (143.4, 256.7), r 1.6 @ (72.8, 204.5)
+- **Words (OCR):** 186 in 74 lines: WA~ · BeCK SYS TE MS · LTD. · IRCUJT DESCRIPT ION · 5A 14_120 STEREO REA MPLI FI ER ASSEMBLY · The C....e · t"C....it con · he · log · id · te · wi
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p37 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p37%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p37 (traced).dxf`).
+
+### Page 38
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–307 mm across, 0–421 mm up
+- **Outlines:** line 446 rings, 3,525 straight (6,958 mm) / 918 curved (1,403 mm); text 941 rings, 6,997 straight (7,847 mm) / 2,125 curved (3,325 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.6 @ (202.4, 129.6)
+- **Words (OCR):** 163 in 102 lines: WARD -BE CK · YBTEM LTD · SA 14_120 STEREO PREAMPL IF IER ASSEMBLY · MFG PART NUMBER · cr · Ca ci lor · 68uF /IO · TJ900686MOIOA · C2 · 68 · 22pF · Philip
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p38 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p38%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p38 (traced).dxf`).
+
+### Page 39
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–329 mm across, 0–421 mm up
+- **Outlines:** line 614 rings, 4,724 straight (8,450 mm) / 1,308 curved (2,020 mm); text 474 rings, 3,470 straight (3,923 mm) / 1,143 curved (1,841 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.1 @ (110.5, 330.2), r 1.7 @ (200.6, 210.5)
+- **Words (OCR):** 99 in 72 lines: WA~ · SYSTEMS LTD · SA110 20 STEREO PREA MPL 1F ER ASSEMBLY · MF PART NUMBER · CJ6 · Capac llOt'" · 22 pF · Philip · 2222-638- 10229 · CJ? · It.7pF · 2222-6 38-34479
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p39 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p39%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p39 (traced).dxf`).
+
+### Page 40
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–309 mm across, 0–422 mm up
+- **Outlines:** line 425 rings, 3,280 straight (6,732 mm) / 835 curved (1,299 mm); text 450 rings, 3,178 straight (3,374 mm) / 922 curved (1,412 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.1 @ (153.3, 353.6)
+- **Closed boxes:** 1
+- **Words (OCR):** 62 in 40 lines: SA14_120 STEREO PflEA MPl.IFIER ASSEMBl.Y · ED, · Yell ow · Pin Bergstic;k · 8=,"g · 65646_106 · 12 Pin Bergs lic;k · 5646-112 · Pin Bt!r gs tkk · !>646_106 · Resis to · 1/4W 5!j
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p40 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p40%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p40 (traced).dxf`).
+
+### Page 41
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 0–414 mm up
+- **Outlines:** line 329 rings, 2,500 straight (5,920 mm) / 635 curved (971 mm); text 484 rings, 3,447 straight (3,751 mm) / 1,043 curved (1,592 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.1 @ (110.5, 330.5), r 1.6 @ (95.6, 316.5)
+- **Dots (junctions):** 1
+- **Words (OCR):** 63 in 40 lines: Fl · STEM LTD · 14_120 STEREO PREAMPLIFI ER ASSEMBL · Resi,;"' · 4W sS · Philip · 220 · 32. · 220K · R3S · 2M' · Potent iome ter
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p41 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p41%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p41 (traced).dxf`).
+
+### Page 42
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–310 mm across, 0–421 mm up
+- **Outlines:** line 321 rings, 2,531 straight (5,705 mm) / 577 curved (872 mm); text 490 rings, 3,555 straight (3,989 mm) / 961 curved (1,457 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.1 @ (113.6, 326.7)
+- **Closed boxes:** 1
+- **Words (OCR):** 73 in 53 lines: SA 14_120 STEREO PREAMPL IFIER ASSEMBLY · eo, · Resistor 1!4W · Phi ip · eo, · aac · eo, · eo, · 220 · 220 · 220K · eao
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p42 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p42%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p42 (traced).dxf`).
+
+### Page 43
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 30–327 mm across, 20–415 mm up
+- **Outlines:** line 191 rings, 2,143 straight (5,186 mm) / 470 curved (725 mm); text 352 rings, 2,594 straight (2,963 mm) / 686 curved (1,103 mm)
+- **Words (OCR):** 66 in 30 lines: CK SY · SA 14_ 120 STE RE PREAMPLIF ER ASSEMBL · MI SCELLAN EOUS SOCKETS · ~£...2'''-----£!Co:.!.!~!'!'...- · ~MFG PART NUMBER · Wi ng Kn · lll Ck) · 023_3220 · ce · ck · 04 0_36 20 · U2,
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p43 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p43%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p43 (traced).dxf`).
+
+### Page 44
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–335 mm across, 19–398 mm up
+- **Outlines:** line 1,055 rings, 9,447 straight (14,786 mm) / 2,636 curved (3,313 mm); text 304 rings, 1,481 straight (1,277 mm) / 530 curved (682 mm)
+- **Closed boxes:** 5
+- **Dots (junctions):** 1
+- **Words (OCR):** 81 in 41 lines: LEF · PR EA MP · 10 <Jam TO · <JBm · 4.7110 · t>00 · BIt> · 120 · 68 /10 · CIO · we' · 510:8
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p44 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p44%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p44 (traced).dxf`).
+
+### Page 45
+
+- **Sheet:** schematic B 14-120-02-001, size B 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 11–402 mm up
+- **Outlines:** line 821 rings, 7,832 straight (13,522 mm) / 1,992 curved (2,473 mm); text 405 rings, 2,377 straight (2,437 mm) / 740 curved (998 mm); tb 9 rings, 87 straight (86.6 mm) / 19 curved (31.4 mm)
+- **Centre lines:** 7,192 paths (151 closed); straight 9,165 mm, curved 315 mm; horizontal 3,108 mm, vertical 2,890 mm, diagonal 3,167 mm
+- **Circles and arcs:** 1 circles, 111 arcs; largest r 0.8 @ (207.4, 142.9)
+- **Closed boxes:** 13
+- **Words (OCR):** 77 in 42 lines: r--t- · to .o.U · PREF ADE · AR · FT · CH ANNEL · lP r5 · fi':' · 10 · 1')1< · sa · 12
+- **Title block:** (246, 46)–(335, 67) mm: ps · [VVE3SJ WARD-BECK SYSTEMS · BS
+- **Wiring (first pass):** 89 connected wire groups from 596 runs; labelled ends: 286 mm → 12; 166 mm → r--t-; 112 mm → r--t-; 53 mm → fi':'; 23 mm → [VVE3SJ
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p45 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p45%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p45 (traced).dxf`).
+
+### Page 46
+
+- **Sheet:** component layout B 14-120-06-001, size B 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 42–322 mm across, 18–352 mm up
+- **Outlines:** line 1,914 rings, 14,522 straight (17,524 mm) / 4,501 curved (4,951 mm); text 268 rings, 1,857 straight (1,893 mm) / 627 curved (748 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 4.9 @ (123.5, 141.9), r 4.9 @ (123.5, 152.7), r 4.8 @ (170.8, 152.7), r 4.8 @ (170.8, 141.8)
+- **Closed boxes:** 23
+- **Words (OCR):** 45 in 33 lines: IlI lOHT · SENSIT IVITY · LEFT · SENSI TIVITY · VI · 1185 · ic-e-s IIBS · 1O- O~6 · IIBS · 11-1~2 · 681 10 53/H' · 12P
+- **Title block:** (238, 46)–(328, 68) mm: ps · (WElS) WARD-BECK SYSTEMS · BS · SA14-120
+
+Every curve, box, word and wire group: [1985 - M490N - Stereo Input Module (2) p46 (traced).json](1985%20-%20M490N%20-%20Stereo%20Input%20Module%20%282%29%20p46%20%28traced%29.json) (the CAD file: `1985 - M490N - Stereo Input Module (2) p46 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

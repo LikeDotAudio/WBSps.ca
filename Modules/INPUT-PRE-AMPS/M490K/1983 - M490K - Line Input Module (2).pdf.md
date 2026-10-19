@@ -16,6 +16,351 @@ Wiki page: [M490K](../../../PAGES/M490K.md)
 
 - **1983** (manual_issue): `ISSUE 111 W :// DECEMBER 1983` — …"" ll '''3a · ~= M490K LINE INPUT MODULE a .c ps BS ~ANUAL ISSUE 111 W :// DECEMBER 1983 tp ht…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–310 mm across, 19–421 mm up
+- **Outlines:** line 45 rings, 841 straight (3,283 mm) / 119 curved (187 mm); text 149 rings, 1,146 straight (1,539 mm) / 233 curved (388 mm); tb 65 rings, 781 straight (1,075 mm) / 184 curved (312 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 28 in 16 lines: (\NBS] 84 0Ge·~ · WARD-BECK SYSTEMS LTD · A\Il!Nue · SCARElCII'lOI.J CNT.....-::l · TELEX · TE l..E PMONI!! · ll '''3a · M490K · LINE INPUT MODULE · ps · BS · ~ANUAL ISSUE
+- **Title block:** (112, 42)–(272, 416) mm: WARD-BECK SYSTEMS LTD · A\Il!Nue · SCARElCII'lOI.J CNT.....-::l · TELEX · TE l..E PMONI!! · ll '''3a · M490K · LINE INPUT MODULE · ~ANUAL ISSUE
+
+Every curve, box, word and wire group: [1983 - M490K - Line Input Module (2) p1 (traced).json](1983%20-%20M490K%20-%20Line%20Input%20Module%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1983 - M490K - Line Input Module (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** component layout 8490-06-021, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–310 mm across, 0–422 mm up
+- **Outlines:** line 172 rings, 1,763 straight (4,419 mm) / 502 curved (553 mm); text 475 rings, 3,571 straight (3,650 mm) / 1,004 curved (1,143 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.7 @ (262.4, 237.6), r 1.7 @ (262.3, 250.9), r 1.7 @ (262.2, 277.6)
+- **Dots (junctions):** 1
+- **Words (OCR):** 39 in 32 lines: Linm · BeCk Ertems · TABLE · CONTENTS · Mank LINE hPUT "ODULE · SECWION · PacF · Warrant · Eachnic · cicum Deaccloilo · Pacia · Connectcn
+
+Every curve, box, word and wire group: [1983 - M490K - Line Input Module (2) p2 (traced).json](1983%20-%20M490K%20-%20Line%20Input%20Module%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1983 - M490K - Line Input Module (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–420 mm up
+- **Outlines:** line 709 rings, 5,564 straight (8,759 mm) / 1,544 curved (2,442 mm); text 661 rings, 4,757 straight (5,216 mm) / 1,396 curved (2,230 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 2.2 @ (194.5, 360.5), r 2.2 @ (107.2, 60.2), r 2.2 @ (219.1, 94.0), r 1.7 @ (180.6, 60.0)
+- **Closed boxes:** 1
+- **Dots (junctions):** 3
+- **Words (OCR):** 212 in 87 lines: TECH NICAL DATA · M490K · INE INPUT MODULE · Inp UI Sen ti ity · _30 to · dBm · 600 oh · sou rc:,, · dB f!"Om · 30 Hz to · 20 kHz. · 10 dB below nominal ope ,.ating I"vel
+
+Every curve, box, word and wire group: [1983 - M490K - Line Input Module (2) p3 (traced).json](1983%20-%20M490K%20-%20Line%20Input%20Module%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1983 - M490K - Line Input Module (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 17–422 mm up
+- **Outlines:** line 212 rings, 2,154 straight (4,688 mm) / 490 curved (745 mm); text 367 rings, 2,463 straight (2,727 mm) / 633 curved (983 mm); tb 5 rings, 44 straight (62.1 mm) / 8 curved (12.1 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.8 @ (166.8, 331.7), r 1.7 @ (83.1, 325.5)
+- **Dots (junctions):** 1
+- **Words (OCR):** 73 in 36 lines: WAFID-BECK SYSTEMS LTD · TECHN CA DATA · M4901< LINE NPU MODUL · I_d Impe dance · 600 · ms · Ma mu · current: · 40 · mA · mu · supply voltage:
+- **Title block:** (25, 404)–(134, 427) mm: WAFID-BECK SYSTEMS LTD
+
+Every curve, box, word and wire group: [1983 - M490K - Line Input Module (2) p4 (traced).json](1983%20-%20M490K%20-%20Line%20Input%20Module%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1983 - M490K - Line Input Module (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–311 mm across, 0–420 mm up
+- **Outlines:** line 682 rings, 5,587 straight (8,678 mm) / 1,535 curved (2,372 mm); text 1,221 rings, 8,866 straight (9,754 mm) / 2,670 curved (4,204 mm)
+- **Circles and arcs:** 18 circles, 0 arcs; largest r 1.7 @ (119.0, 93.6), r 1.7 @ (168.6, 127.5), r 1.7 @ (166.0, 313.7), r 1.7 @ (50.7, 152.8)
+- **Closed boxes:** 1
+- **Dots (junctions):** 4
+- **Words (OCR):** 136 in 109 lines: WAC BECK · SYSTERS · cirCUI · OFeCRIPTIOY · M-sjr LINE · IupuT · MORULE · Dovidar · (acililcs · teabirtd · Loc · ndui
+
+Every curve, box, word and wire group: [1983 - M490K - Line Input Module (2) p5 (traced).json](1983%20-%20M490K%20-%20Line%20Input%20Module%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1983 - M490K - Line Input Module (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 0–419 mm up
+- **Outlines:** line 437 rings, 4,183 straight (7,320 mm) / 1,046 curved (1,654 mm); text 1,606 rings, 11,422 straight (12,611 mm) / 3,549 curved (5,533 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 2.2 @ (129.1, 139.8), r 2.1 @ (79.8, 219.6), r 2.1 @ (266.1, 199.9), r 2.1 @ (187.6, 239.6)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 370 in 157 lines: YSTEMS LTO. · CIRCUIT DESCR IP TION · M490K LI NE NPUT MOOUL · Program Ch nne Sw itch · CMOS ana og · wi tc · se · as th · li ve switching le men · of · th · PROGRAM ch ann el
+
+Every curve, box, word and wire group: [1983 - M490K - Line Input Module (2) p6 (traced).json](1983%20-%20M490K%20-%20Line%20Input%20Module%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1983 - M490K - Line Input Module (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–310 mm across, 0–418 mm up
+- **Outlines:** line 495 rings, 4,337 straight (7,719 mm) / 1,169 curved (1,853 mm); text 1,249 rings, 8,832 straight (9,801 mm) / 2,675 curved (4,184 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 2.2 @ (199.0, 357.6), r 2.2 @ (247.5, 231.3), r 2.2 @ (172.7, 311.2), r 2.2 @ (82.5, 324.4)
+- **Dots (junctions):** 5
+- **Words (OCR):** 313 in 118 lines: WAR · BECK SYS EMS LT · CI RCU IT DESCRIPTION · M49Ol( LINE INP UT MODULE · oldba c:k Ouipui · The FQl.D8ACI( outpul&. ike Ihe POS · DIR ECT OUIP UI er-e · en fl"Otn · he eeeer ee ampl ifier OUtp · via le el c:onlt'Ols RISO_R ISI · BI · nd
+
+Every curve, box, word and wire group: [1983 - M490K - Line Input Module (2) p7 (traced).json](1983%20-%20M490K%20-%20Line%20Input%20Module%20%282%29%20p7%20%28traced%29.json) (the CAD file: `1983 - M490K - Line Input Module (2) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–432 mm up
+- **Outlines:** line 925 rings, 6,848 straight (10,111 mm) / 2,042 curved (3,158 mm); text 1,007 rings, 7,344 straight (8,244 mm) / 2,249 curved (3,548 mm)
+- **Circles and arcs:** 33 circles, 0 arcs; largest r 2.2 @ (168.2, 224.7), r 2.2 @ (188.8, 271.3), r 2.2 @ (147.7, 124.7), r 2.2 @ (147.0, 64.8)
+- **Closed boxes:** 1
+- **Dots (junctions):** 6
+- **Words (OCR):** 117 in 95 lines: LAAC · ECk SYETEME · ecnirtioy · cikcuL · 4eyck · FhPMT VOIULE · {Dolntio| · poailve · Eher · Gecence · Wneincr · INPUT ceLefTOR ieh
+
+Every curve, box, word and wire group: [1983 - M490K - Line Input Module (2) p8 (traced).json](1983%20-%20M490K%20-%20Line%20Input%20Module%20%282%29%20p8%20%28traced%29.json) (the CAD file: `1983 - M490K - Line Input Module (2) p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–419 mm up
+- **Outlines:** line 835 rings, 6,609 straight (10,032 mm) / 1,860 curved (2,890 mm); text 1,068 rings, 7,483 straight (8,182 mm) / 2,334 curved (3,667 mm)
+- **Circles and arcs:** 22 circles, 0 arcs; largest r 2.2 @ (208.5, 213.0), r 2.2 @ (83.1, 292.7), r 2.2 @ (201.2, 373.0), r 2.2 @ (89.3, 272.6)
+- **Dots (junctions):** 6
+- **Words (OCR):** 336 in 149 lines: IRCUIT DESCR IPTION · M490K LINE INPUT MOOULE · Tnl · cn ang · of · Ia le · an be brough · about by any · ne of · th · different melhods · Mom
+
+Every curve, box, word and wire group: [1983 - M490K - Line Input Module (2) p9 (traced).json](1983%20-%20M490K%20-%20Line%20Input%20Module%20%282%29%20p9%20%28traced%29.json) (the CAD file: `1983 - M490K - Line Input Module (2) p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–308 mm across, 12–420 mm up
+- **Outlines:** line 820 rings, 6,759 straight (10,135 mm) / 1,956 curved (3,129 mm); text 385 rings, 3,042 straight (3,502 mm) / 921 curved (1,496 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.2 @ (194.9, 360.6), r 1.7 @ (99.3, 306.2), r 1.7 @ (201.2, 119.9)
+- **Dots (junctions):** 1
+- **Words (OCR):** 149 in 100 lines: 9OK LIN · NPUT MQOULE · DESCR IPTION · MF PAR · NUMBER · All enu lI lor, · eeee ee re · 5SO!AH3 100 · ct · Il clI · 01 of · C0 92- Me- 03M
+
+Every curve, box, word and wire group: [1983 - M490K - Line Input Module (2) p10 (traced).json](1983%20-%20M490K%20-%20Line%20Input%20Module%20%282%29%20p10%20%28traced%29.json) (the CAD file: `1983 - M490K - Line Input Module (2) p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 0–418 mm up
+- **Outlines:** line 506 rings, 4,082 straight (7,391 mm) / 1,078 curved (1,732 mm); text 512 rings, 4,288 straight (4,887 mm) / 1,271 curved (2,057 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.7 @ (202.4, 210.8), r 1.6 @ (86.9, 291.1)
+- **Words (OCR):** 147 in 87 lines: WAR · SYS EMS LT · M4901( LI NE INPUT MOOULE · PART · DESCRIPTION · MFG PART NUM8ER · CJJ · Il P~C llOf" · CQ92- MC-68 2M · CJ< · 6800 uF/ 25 · T39OB225M025AS
+
+Every curve, box, word and wire group: [1983 - M490K - Line Input Module (2) p11 (traced).json](1983%20-%20M490K%20-%20Line%20Input%20Module%20%282%29%20p11%20%28traced%29.json) (the CAD file: `1983 - M490K - Line Input Module (2) p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–311 mm across, 0–422 mm up
+- **Outlines:** line 465 rings, 3,950 straight (7,287 mm) / 907 curved (1,424 mm); text 310 rings, 2,226 straight (2,600 mm) / 666 curved (1,066 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.2 @ (197.2, 359.1), r 1.7 @ (196.7, 252.0)
+- **Dots (junctions):** 1
+- **Words (OCR):** 82 in 59 lines: WAR -BECK YSTEMS LT · M490K LINE INPUT MODULE · DESCRI TI ON · MFG PAR NUMBER · CRI3 · delel · CRI4 · Diode · "'010;0 · IN400J · CRI5 · CR IG
+
+Every curve, box, word and wire group: [1983 - M490K - Line Input Module (2) p12 (traced).json](1983%20-%20M490K%20-%20Line%20Input%20Module%20%282%29%20p12%20%28traced%29.json) (the CAD file: `1983 - M490K - Line Input Module (2) p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 0–417 mm up
+- **Outlines:** line 346 rings, 3,200 straight (6,183 mm) / 682 curved (1,079 mm); text 334 rings, 2,457 straight (2,659 mm) / 653 curved (1,040 mm)
+- **Words (OCR):** 54 in 41 lines: M4901( LI NE NPUT MODULE · DESCRIPTION · MF PART NUMBE · Re si stor · 4W · PMTps · '50 · 50 · R9 · 50 · 50 · te
+
+Every curve, box, word and wire group: [1983 - M490K - Line Input Module (2) p13 (traced).json](1983%20-%20M490K%20-%20Line%20Input%20Module%20%282%29%20p13%20%28traced%29.json) (the CAD file: `1983 - M490K - Line Input Module (2) p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–310 mm across, 0–418 mm up
+- **Outlines:** line 352 rings, 3,058 straight (6,009 mm) / 677 curved (1,066 mm); text 359 rings, 2,632 straight (2,985 mm) / 724 curved (1,153 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 73 in 52 lines: WARC- · CK YSTE · LTO · 490K · INE NPUT MODULE · --"MFG · MFG PART NUM8ER · Re si st · 1/4W · Phi ps · OK · OK
+
+Every curve, box, word and wire group: [1983 - M490K - Line Input Module (2) p14 (traced).json](1983%20-%20M490K%20-%20Line%20Input%20Module%20%282%29%20p14%20%28traced%29.json) (the CAD file: `1983 - M490K - Line Input Module (2) p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 0–421 mm up
+- **Outlines:** line 359 rings, 3,026 straight (6,176 mm) / 650 curved (1,014 mm); text 322 rings, 2,339 straight (2,527 mm) / 630 curved (1,003 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.2 @ (111.4, 331.1), r 1.7 @ (81.1, 50.9)
+- **Closed boxes:** 1
+- **Words (OCR):** 53 in 43 lines: M4901( INE IN PUT MODULE · MFG PART NUMBER · R78 · Re si slor 1/4W · 51 · Phi lips · on · R78 · R79 · ROO · R82 · RaJ
+
+Every curve, box, word and wire group: [1983 - M490K - Line Input Module (2) p15 (traced).json](1983%20-%20M490K%20-%20Line%20Input%20Module%20%282%29%20p15%20%28traced%29.json) (the CAD file: `1983 - M490K - Line Input Module (2) p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–309 mm across, 0–419 mm up
+- **Outlines:** line 386 rings, 3,331 straight (6,540 mm) / 733 curved (1,123 mm); text 290 rings, 2,218 straight (2,523 mm) / 650 curved (1,001 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.2 @ (195.6, 359.9)
+- **Words (OCR):** 79 in 64 lines: INP UT MOOULE · MFG PART NUMBER · Resj.~lor 4W SI 'OK · RI ll · Philip · RI12 · Rl 13 · OK · 114 · 'OOK · RllS · R1l6
+
+Every curve, box, word and wire group: [1983 - M490K - Line Input Module (2) p16 (traced).json](1983%20-%20M490K%20-%20Line%20Input%20Module%20%282%29%20p16%20%28traced%29.json) (the CAD file: `1983 - M490K - Line Input Module (2) p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–432 mm up
+- **Outlines:** line 208 rings, 2,425 straight (5,796 mm) / 466 curved (730 mm); text 417 rings, 3,172 straight (3,616 mm) / 998 curved (1,604 mm); tb 323 rings, 2,192 straight (2,479 mm) / 681 curved (1,055 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.2 @ (192.3, 358.5)
+- **Closed boxes:** 1
+- **Words (OCR):** 124 in 69 lines: WAFI · ECK YB TE MB TD · /101.901( LINE INPUT MODUL · DESCRIPTION · ,so · Re · lor · 51 · R141 · 1/4W 51 · 620 · l48
+- **Title block:** (36, 40)–(248, 292) mm: Rl50 · Pot entiometer · AlB · WBS 10-005 · R151 · R152) · Po tent iom eter · Rl$3) · AlB · was 10- 005 · SWl) · Swi tch ss · was 11- 04 · SW2) · swa · wa 11_044 · wa 11_04 · SW' · SW' · del te · swt ·
+
+Every curve, box, word and wire group: [1983 - M490K - Line Input Module (2) p17 (traced).json](1983%20-%20M490K%20-%20Line%20Input%20Module%20%282%29%20p17%20%28traced%29.json) (the CAD file: `1983 - M490K - Line Input Module (2) p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–310 mm across, 17–418 mm up
+- **Outlines:** line 277 rings, 3,037 straight (7,227 mm) / 610 curved (1,013 mm); text 251 rings, 2,159 straight (2,728 mm) / 543 curved (878 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 2.2 @ (208.0, 251.6), r 2.2 @ (199.8, 144.9), r 2.2 @ (208.0, 318.2), r 2.2 @ (208.0, 265.0)
+- **Closed boxes:** 21; named: 16; 11; 18
+- **Words (OCR):** 69 in 33 lines: WAR · CK SYSTE MS LTD. · CONNECTOR LAYOUT · M49Ot< LINE INPUT MODULE · PG · lOUT, LEfT · PGM · OUT LEFT · GM lOUT, RI GHT · GM lOUT RIGH · PGM · OUT,
+
+Every curve, box, word and wire group: [1983 - M490K - Line Input Module (2) p18 (traced).json](1983%20-%20M490K%20-%20Line%20Input%20Module%20%282%29%20p18%20%28traced%29.json) (the CAD file: `1983 - M490K - Line Input Module (2) p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 0–417 mm up
+- **Outlines:** line 465 rings, 5,240 straight (10,824 mm) / 1,077 curved (1,714 mm); text 110 rings, 959 straight (1,185 mm) / 244 curved (389 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 2.2 @ (137.0, 370.3), r 2.2 @ (128.4, 170.7), r 2.2 @ (225.3, 170.6), r 2.2 @ (188.8, 104.1)
+- **Closed boxes:** 43; named: 10
+- **Words (OCR):** 37 in 20 lines: CONNECTOR LAYOUT · M490K LINE INPUT MODULE · SHIE · LI NE · CTL · 10 · LI NE · CTL · OfF TALLY · 18 · OFF TALLY · ps
+
+Every curve, box, word and wire group: [1983 - M490K - Line Input Module (2) p19 (traced).json](1983%20-%20M490K%20-%20Line%20Input%20Module%20%282%29%20p19%20%28traced%29.json) (the CAD file: `1983 - M490K - Line Input Module (2) p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 295 × 432 mm, 1366 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–288 mm across, 0–415 mm up
+- **Outlines:** line 242 rings, 3,555 straight (8,023 mm) / 731 curved (1,214 mm); text 379 rings, 3,148 straight (3,617 mm) / 927 curved (1,573 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 2.4 @ (61.4, 160.3), r 2.4 @ (140.4, 71.4), r 2.4 @ (215.4, 177.1), r 2.4 @ (211.5, 126.7)
+- **Closed boxes:** 4
+- **Dots (junctions):** 1
+- **Words (OCR):** 83 in 29 lines: INTEGRATED C1RCUIT DATA · C04016 · OUAD BI LATERAL · SWITCH · The CD4016 is · quad bila teral switch whic ut li ze P-channel · and N-cha nne complementary MOS (C/olO · circu its to pr vi de · xt me · gh "OFF res is an · nd lo "ON" · ta nce wi tch.
+
+Every curve, box, word and wire group: [1983 - M490K - Line Input Module (2) p20 (traced).json](1983%20-%20M490K%20-%20Line%20Input%20Module%20%282%29%20p20%20%28traced%29.json) (the CAD file: `1983 - M490K - Line Input Module (2) p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 299 × 432 mm, 1383 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–292 mm across, 1–411 mm up
+- **Outlines:** line 354 rings, 4,318 straight (10,710 mm) / 891 curved (1,450 mm); text 667 rings, 5,171 straight (5,854 mm) / 1,501 curved (2,366 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.8 @ (127.5, 272.1)
+- **Closed boxes:** 16; named: ps BS; ps
+- **Dots (junctions):** 1
+- **Words (OCR):** 134 in 58 lines: ST · L.TO · NTEGRATED CIRCUIT DATA · illI§. · DUAL · FLIP -FLOP WIT CLEAR AND PRESET · The 74 C76J · flip -fl · is · mono it ic CMOS ci rcui · Each lip · flop has ndependent
+
+Every curve, box, word and wire group: [1983 - M490K - Line Input Module (2) p21 (traced).json](1983%20-%20M490K%20-%20Line%20Input%20Module%20%282%29%20p21%20%28traced%29.json) (the CAD file: `1983 - M490K - Line Input Module (2) p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 303 × 432 mm, 1405 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–301 mm across, 2–424 mm up
+- **Outlines:** line 542 rings, 6,033 straight (11,543 mm) / 1,354 curved (2,149 mm); text 379 rings, 3,181 straight (3,614 mm) / 836 curved (1,327 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.9 @ (86.4, 286.7), r 1.9 @ (273.4, 84.6), r 1.8 @ (224.4, 49.7)
+- **Closed boxes:** 18; named: INPUTS OUTPUTS CLEAR; OUTPUTS; INPUTS; CLEAR
+- **Words (OCR):** 139 in 62 lines: l'".O · STEMS L.TO · trH EGRAHD · C.IRCUIT DATA · illill · DUA HONOSTABLE HULTI VI BRATOR · The 74C221 ual Ilo no · bh multiv rato is · CHO In gr ated · ci · it · ch Ilu ltlv fbra or futu
+
+Every curve, box, word and wire group: [1983 - M490K - Line Input Module (2) p22 (traced).json](1983%20-%20M490K%20-%20Line%20Input%20Module%20%282%29%20p22%20%28traced%29.json) (the CAD file: `1983 - M490K - Line Input Module (2) p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 3–428 mm up
+- **Outlines:** line 582 rings, 6,678 straight (14,222 mm) / 1,555 curved (2,177 mm); text 283 rings, 1,408 straight (1,297 mm) / 565 curved (748 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 4.9 @ (227.1, 361.3), r 4.6 @ (209.8, 80.4), r 4.6 @ (227.8, 299.5), r 2.1 @ (209.6, 94.0)
+- **Closed boxes:** 14; named: p,D; p,D; fflOGA- IUtM It HI. _'1''''1 It I"G-.; i,n::,:.::.;,':'., '01' ltch ct 1Ic11 11; ~Uf. le Wil cur. 111 .110" Of'. Of' 111
+- **Dots (junctions):** 2
+- **Words (OCR):** 97 in 82 lines: we. · 1:1101( IIoII"'UT MUCfO'l It · ...111 · ...,_11 · II · _l-.r. · 11 · 11. · 11....... · II · p,D · fflOGA-
+
+Every curve, box, word and wire group: [1983 - M490K - Line Input Module (2) p23 (traced).json](1983%20-%20M490K%20-%20Line%20Input%20Module%20%282%29%20p23%20%28traced%29.json) (the CAD file: `1983 - M490K - Line Input Module (2) p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 2–430 mm up
+- **Outlines:** line 468 rings, 6,096 straight (12,429 mm) / 1,295 curved (1,823 mm); text 408 rings, 2,175 straight (2,071 mm) / 973 curved (1,315 mm); tb 13 rings, 151 straight (160 mm) / 47 curved (70.3 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 4.7 @ (13.2, 361.3), r 4.4 @ (14.0, 299.5), r 1.7 @ (299.9, 30.8), r 1.7 @ (282.0, 24.8)
+- **Closed boxes:** 16; named: ""CIG""' II~h AUIGHM("" l"la 1M llf! Ill; 1*----:1 Ill", "AM 1'01 111_ 1.1 11 ft l; :"~II~"~:'~ CO"',.... Utu; cut et li •11.......... ".11,, .......11; (If" 111 OCIll..... "vlll_' Ill, ..Ill ~; !ssw:; BS (was) WARD-llIICK SYSTeMS; MA901( tp IINf IN'UT MOOUlf fRO NT ANfl ; on. eo
+- **Dots (junctions):** 2
+- **Words (OCR):** 96 in 66 lines: II · l:::r::..,~::/ ~.::":.~'~~Il_'l, · ""CIG""' AUIGHM("" · II~h · l"la 1M llf! oj .10_ · "'h,I · Ill · ,.11 · OM · HI · .1"0 va · Ill", 1'01 111_
+- **Title block:** (257, 35)–(330, 56) mm: BS · !ssw: DATI · (was) WARD-llIICK SYSTeMS · MA901(
+
+Every curve, box, word and wire group: [1983 - M490K - Line Input Module (2) p24 (traced).json](1983%20-%20M490K%20-%20Line%20Input%20Module%20%282%29%20p24%20%28traced%29.json) (the CAD file: `1983 - M490K - Line Input Module (2) p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 6–429 mm up
+- **Outlines:** line 311 rings, 4,032 straight (8,628 mm) / 669 curved (1,129 mm); text 257 rings, 1,799 straight (2,483 mm) / 556 curved (868 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 4.4 @ (208.2, 155.8), r 2.3 @ (269.0, 156.0), r 2.3 @ (263.6, 330.3), r 2.3 @ (23.7, 163.0)
+- **Closed boxes:** 3; named: PGM/ CUE cn LOGIC
+- **Words (OCR):** 47 in 36 lines: r-31~INSERT · PAN · INSERT · LINE INPUTS · dBm · 30/0 · 600 ohm · TRIM · ?lE · INPUT · 0d · SELECTOR
+
+Every curve, box, word and wire group: [1983 - M490K - Line Input Module (2) p25 (traced).json](1983%20-%20M490K%20-%20Line%20Input%20Module%20%282%29%20p25%20%28traced%29.json) (the CAD file: `1983 - M490K - Line Input Module (2) p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** functional 490-01-011, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 6–428 mm up
+- **Outlines:** line 104 rings, 3,144 straight (8,927 mm) / 432 curved (661 mm); text 301 rings, 2,431 straight (3,680 mm) / 643 curved (1,076 mm); tb 54 rings, 580 straight (946 mm) / 119 curved (222 mm)
+- **Centre lines:** 2,938 paths (40 closed); straight 7,186 mm, curved 84.0 mm; horizontal 3,361 mm, vertical 1,659 mm, diagonal 2,167 mm
+- **Circles and arcs:** 4 circles, 13 arcs; largest r 2.3 @ (142.9, 265.3), r 1.8 @ (142.7, 265.5), r 1.7 @ (170.3, 265.5), r 1.6 @ (156.6, 281.5)
+- **Closed boxes:** 18 (7 in the title block); named: DIREcr OUTPUTS' ADDED; 'V1''V83; ALE; ISSUE; ht 490-01-011
+- **Words (OCR):** 55 in 38 lines: Pt · Pt LEFT · P2 · P2 LEFT · PAN · INSERT · PA · Pt RIGH · P2 RIGH · j-7 POST DIRECT · FB · ~FB1
+- **Title block:** (119, 12)–(335, 113) mm: 'V1''V83 ADDED · DIREcr OUTPUTS' · ISSUE DATE · REVISION · APP. · VVE3S] WARD-BECK SYSTEMS · 5D · ps · DRN. · M490K BS · ENc:S l4Vll · LINE INPUT MODULE · CKD · FUNCTIONAL DIAGRAM · APP · tp · ALE · h
+- **Wiring (first pass):** 40 connected wire groups from 93 runs; labelled ends: 283 mm → OUTPUTS', APP.; 135 mm → j-7, ~FB1; 85 mm → AS~GN; 71 mm → Pt, P2; 69 mm → INSERT
+
+Every curve, box, word and wire group: [1983 - M490K - Line Input Module (2) p26 (traced).json](1983%20-%20M490K%20-%20Line%20Input%20Module%20%282%29%20p26%20%28traced%29.json) (the CAD file: `1983 - M490K - Line Input Module (2) p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 6–428 mm up
+- **Outlines:** line 1,381 rings, 13,675 straight (22,587 mm) / 3,842 curved (5,811 mm); text 331 rings, 1,770 straight (1,847 mm) / 730 curved (1,050 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 1.4 @ (75.4, 145.8), r 1.4 @ (22.5, 328.4), r 1.3 @ (17.8, 324.4), r 1.2 @ (22.8, 373.3)
+- **Closed boxes:** 17; named: ht
+- **Dots (junctions):** 5
+- **Words (OCR):** 89 in 74 lines: IW · C.TO" · OW · Pl · eM · eo · 30 oO · ,Ai; · IllL · oO · c.e 21K · Roc.
+
+Every curve, box, word and wire group: [1983 - M490K - Line Input Module (2) p27 (traced).json](1983%20-%20M490K%20-%20Line%20Input%20Module%20%282%29%20p27%20%28traced%29.json) (the CAD file: `1983 - M490K - Line Input Module (2) p27 (traced).dxf`).
+
+### Page 28
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 2–426 mm up
+- **Outlines:** line 1,378 rings, 15,425 straight (25,851 mm) / 4,025 curved (5,950 mm); text 175 rings, 1,074 straight (1,105 mm) / 348 curved (496 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 1.5 @ (254.9, 98.6), r 1.4 @ (209.5, 154.4), r 1.4 @ (265.6, 143.3), r 1.3 @ (58.6, 369.9)
+- **Closed boxes:** 52; named: eWBS] In'a~ co<; tp M4 90 UNl INPUT MOOUll ht SCH lMATlC; ClIl.D.; 490 02 -011
+- **Dots (junctions):** 3
+- **Words (OCR):** 68 in 49 lines: OUTPUT~ TO · lt ll' · e..us~ · O.O · t..r.'T · ttlCoM'T · OUT P'U, · _I1IEL · Po·, · OS. · en · J"'la
+
+Every curve, box, word and wire group: [1983 - M490K - Line Input Module (2) p28 (traced).json](1983%20-%20M490K%20-%20Line%20Input%20Module%20%282%29%20p28%20%28traced%29.json) (the CAD file: `1983 - M490K - Line Input Module (2) p28 (traced).dxf`).
+
+### Page 29
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 7–426 mm up
+- **Outlines:** line 1,070 rings, 9,932 straight (18,060 mm) / 2,477 curved (3,673 mm); text 246 rings, 975 straight (979 mm) / 451 curved (645 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 4.9 @ (119.0, 197.2), r 3.6 @ (51.2, 341.0), r 3.6 @ (325.6, 340.0), r 2.4 @ (92.1, 156.1)
+- **Closed boxes:** 22
+- **Dots (junctions):** 6
+- **Words (OCR):** 10 in 10 lines: [SElN\] · I9I · ..6,'1-." · !HI · 6l · I_.J.).. · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1983 - M490K - Line Input Module (2) p29 (traced).json](1983%20-%20M490K%20-%20Line%20Input%20Module%20%282%29%20p29%20%28traced%29.json) (the CAD file: `1983 - M490K - Line Input Module (2) p29 (traced).dxf`).
+
+### Page 30
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 3–427 mm up
+- **Outlines:** line 1,101 rings, 10,674 straight (19,203 mm) / 2,816 curved (4,262 mm); text 302 rings, 2,215 straight (2,464 mm) / 712 curved (1,017 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 5.7 @ (99.7, 254.1), r 5.7 @ (201.4, 295.5), r 5.3 @ (184.5, 303.2), r 5.1 @ (245.7, 234.4)
+- **Closed boxes:** 47; named: WBS; Mirok LInE INTUI MODUll COMPONINT [Atout; 490-06-02i
+- **Dots (junctions):** 11
+- **Words (OCR):** 21 in 18 lines: SEm · 4984 · 9 9 · 09 · 13 · Iaaa · AA · 06 Ut · 1a · 86 · Sps € · COMPONENT SIDE
+
+Every curve, box, word and wire group: [1983 - M490K - Line Input Module (2) p30 (traced).json](1983%20-%20M490K%20-%20Line%20Input%20Module%20%282%29%20p30%20%28traced%29.json) (the CAD file: `1983 - M490K - Line Input Module (2) p30 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

@@ -12,6 +12,300 @@ Wiki page: [M470E](../../../PAGES/M470E.md)
 - **Pages:** 27
 - **PDF created (scan date, not design date):** Mon Aug 17 16:45:29 2009 EDT
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–431 mm up
+- **Outlines:** line 58 rings, 872 straight (2,882 mm) / 130 curved (194 mm); text 114 rings, 1,241 straight (1,756 mm) / 277 curved (447 mm); tb 2 rings, 97 straight (287 mm) / 10 curved (20.3 mm)
+- **Words (OCR):** 12 in 8 lines: WARD-BECK · LTD_ · WBS 841 PAOGAESS · AVENUE: SCAABOAOUGH ONTARIO M1h2*4 · Telex 065-25399 · TELEPHONVE 416,438-6550 · M47OE · INPUT MODULE
+- **Title block:** (41, 384)–(202, 420) mm: WARD-BECK · WBS 841 PAOGAESS · Telex 065-25399
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module p1 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20p1%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–430 mm up
+- **Outlines:** line 35 rings, 842 straight (3,120 mm) / 94 curved (148 mm); text 420 rings, 3,564 straight (4,364 mm) / 957 curved (1,527 mm); tb 28 rings, 162 straight (222 mm) / 40 curved (51.1 mm)
+- **Words (OCR):** 43 in 35 lines: WARD-BECK SysteMS LTD · JABLE_OF_CONTENTS · M4ZOE_INPUI_MODULE · SECIION · PAGE · Warranty · Technica] · Data · 1-1 · circuit Description · 2-1 to · 2 -3
+- **Title block:** (17, 54)–(310, 432) mm: WARD-BECK SysteMS LTD · JABLE_OF_CONTENTS · M4ZOE_INPUI_MODULE · SECIION · PAGE · Warranty · Technica] · Data · 1-1 · circuit Description · 2-1 to · 2 -3 · High-Pass · Filter · 3 -1 · 4-1 to · 4-8 · P
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module p2 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20p2%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–432 mm up
+- **Outlines:** line 89 rings, 985 straight (3,086 mm) / 187 curved (269 mm); text 1,244 rings, 10,286 straight (11,584 mm) / 2,834 curved (4,511 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 174 in 101 lines: WARD-BECK Systems LTD. · TECHNICAL_DATA · M4ZQE_INPUT_MODULE · Input · Sensitivities: · Line: · 10 to · +20 dBm · (ref _ 600 ohm · Mic · Pad: · -40 to
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module p3 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20p3%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–320 mm across, 0–430 mm up
+- **Outlines:** line 71 rings, 1,034 straight (3,311 mm) / 180 curved (290 mm); text 1,871 rings, 15,624 straight (17,622 mm) / 4,236 curved (6,783 mm); tb 12 rings, 57 straight (50.4 mm) / 16 curved (23.5 mm)
+- **Words (OCR):** 267 in 165 lines: WARD-BECK SYSTEmS LTD_ · CIRCUIT DESCRIPTION · M4ZOE_INPUT MODULE · The · M47OE input · module provides the · facilities 0 f · complete · 0 f the attenuator · input mixing channe1 with · the · exception
+- **Title block:** (22, 144)–(169, 432) mm: WARD-BECK SYSTEmS LTD_ · CIRCUIT DESCRIPTION · M4ZOE_INPUT MODULE · The · M47OE input · module provides the · input mixing channe1 with · the · and an · optiona] externa] · Lnput · switches SW1, · InP
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module p4 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20p4%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–425 mm up
+- **Outlines:** line 101 rings, 1,589 straight (4,354 mm) / 249 curved (380 mm); text 1,835 rings, 15,001 straight (16,665 mm) / 4,205 curved (6,632 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 269 in 146 lines: WARD-BECK SYSTEmS LTD_ · CIRCUIT_DESCRLPTION · M4ZOE_INPUI_MODULE · Preamplifier Qutput · and PHASE Reversal · 7 0 - · the Preamplifier output stage, · The output · 0 f · the filter feeds · consisting 0 f · 21 Q6 ,
+- **Title block:** (20, 411)–(132, 432) mm: WARD-BECK SYSTEmS LTD_
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module p5 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20p5%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 87 rings, 1,355 straight (4,046 mm) / 195 curved (298 mm); text 1,509 rings, 12,662 straight (14,135 mm) / 3,515 curved (5,622 mm)
+- **Words (OCR):** 210 in 131 lines: WARD-BECK SYSTEMS LTD; · CIRCUIT_DESCRIPTION · DIRECL_Quteut · 0 f the · booster amplifier feeds the · DIRECT · The output · signa ] · output at · connector · P2 pins · 3/C . This
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module p6 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20p6%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–431 mm up
+- **Outlines:** line 3,562 rings, 24,733 straight (38,006 mm) / 3,537 curved (5,175 mm); text 147 rings, 1,230 straight (1,654 mm) / 324 curved (517 mm); tb 2 rings, 5 straight (3.2 mm) / 2 curved (2.2 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.3 @ (51.9, 206.8)
+- **Closed boxes:** 909
+- **Words (OCR):** 16 in 13 lines: WARD-BECK Systems LTD_ · HIGH_PASS_FILTER_CHARACIERISTICS · -10 · ~20 · 30 · 10 · 20 · 30 · 50 · 100 · 200 300 · FREQUENCY IN HERTZ
+- **Title block:** (22, 410)–(154, 432) mm: WARD-BECK Systems LTD_
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module p7 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20p7%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 0–431 mm up
+- **Outlines:** line 164 rings, 1,860 straight (4,398 mm) / 268 curved (413 mm); text 1,114 rings, 9,709 straight (11,218 mm) / 2,746 curved (4,332 mm)
+- **Closed boxes:** 12
+- **Words (OCR):** 139 in 130 lines: WARD-BECK SYSTEMS LTD_ · PARIS_LISL · M4ZOE_INPUI MODULE · 374 · MFG · MFG · PARTNUMBER · PART · DESCRIPIION · Aselco · cQ92-MC-473M · C1
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module p8 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20p8%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–428 mm up
+- **Outlines:** line 182 rings, 1,883 straight (4,417 mm) / 320 curved (492 mm); text 510 rings, 4,373 straight (5,250 mm) / 1,162 curved (1,854 mm)
+- **Closed boxes:** 11
+- **Words (OCR):** 65 in 57 lines: WARD-BECK SYSTEms LTD. · PARIS LISI · M4ZQE INPUT MODULE · PARI · DESCRIPIION · MFG · MFG PARI NUMBER · C36 Capacitor · 22 uF/25 · Siemens · B41313-45226-2 · C37
+- **Title block:** (20, 410)–(153, 432) mm: WARD-BECK SYSTEms LTD.
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module p9 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20p9%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 7–432 mm up
+- **Outlines:** line 55 rings, 1,103 straight (3,548 mm) / 151 curved (235 mm); text 517 rings, 4,561 straight (5,315 mm) / 1,212 curved (1,898 mm); tb 87 rings, 500 straight (482 mm) / 121 curved (168 mm)
+- **Words (OCR):** 91 in 88 lines: WARD-BECK · SYSTEMS LTD. · PARTS_LISI · M4ZOE_INPUT_MODULE · PART · DESCRIPIION · MFG · MFGPART_NUMBER · Q10 · Transistor · Nationa 7 · 2n2102
+- **Title block:** (17, 66)–(255, 431) mm: WARD-BECK · SYSTEMS LTD. · PARTS_LISI · M4ZOE_INPUT_MODULE · PART · DESCRIPIION · MFG · Q10 · Transistor · Nationa 7 · 2n2102 · 2n4037 · Q11 · YC ( ? · Rl · Res istor · 15k · Philips · 15K · R2 · R3 ·
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module p10 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20p10%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–425 mm up
+- **Outlines:** line 189 rings, 1,988 straight (4,556 mm) / 367 curved (530 mm); text 480 rings, 4,058 straight (4,643 mm) / 1,254 curved (1,938 mm)
+- **Closed boxes:** 15
+- **Dots (junctions):** 1
+- **Words (OCR):** 88 in 85 lines: WARD-BECK SYSTeMs LTD_ · PARTS_LISI · PARI · DESCRIPTION · MFG · MFG PART NUMBER · R33 · Res istor · 15k · Philips · 75k · R34
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module p11 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20p11%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–430 mm up
+- **Outlines:** line 52 rings, 1,059 straight (3,440 mm) / 125 curved (196 mm); text 587 rings, 4,800 straight (5,530 mm) / 1,397 curved (2,160 mm); tb 93 rings, 568 straight (546 mm) / 122 curved (173 mm)
+- **Words (OCR):** 92 in 88 lines: WARD-BECK · SYSTEMS LTD; · PARTS_LISI · M4Z OE_INPUT_MODULE · DESCRIPTION · Jim · MFG · MFG · PART_NUMBER · PARI · 620 · Philips
+- **Title block:** (20, 54)–(258, 432) mm: WARD-BECK · SYSTEMS LTD; · PARTS_LISI · M4Z OE_INPUT_MODULE · DESCRIPTION · Jim · MFG · MFG · PARI · 620 · Philips · R69 · Resistor #W · R7O · 22k · R71 · 22k · R72 · 6K2 · R73 · 6K2 · R74 · 6K2 · R75
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module p12 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20p12%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–336 mm across, 0–432 mm up
+- **Outlines:** line 174 rings, 1,804 straight (3,967 mm) / 268 curved (408 mm); text 488 rings, 4,601 straight (5,332 mm) / 1,228 curved (1,860 mm)
+- **Closed boxes:** 9
+- **Words (OCR):** 87 in 85 lines: WARD-BECK SYSTEMS LTD; · PARTS LIST · M4ZOE_INPUT_MODULE · PARI · DESCRIPIION · MFG · MFG PART NUMBER · Resistor · 75 · Philips · R105 · R106
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module p13 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20p13%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 49 rings, 1,138 straight (3,668 mm) / 107 curved (162 mm); text 427 rings, 4,064 straight (4,776 mm) / 1,036 curved (1,650 mm); tb 78 rings, 473 straight (488 mm) / 126 curved (188 mm)
+- **Words (OCR):** 67 in 63 lines: WARD-BECK SYSTEMS LTD_ · PARTS LISI · MAZOE INPUT_MODULE · DESCRIPIION · MFG · MFG_PARI · NUMBER · PART · 47 · Philips · R141 Resistor · SW1
+- **Title block:** (19, 23)–(259, 432) mm: WARD-BECK SYSTEMS LTD_ · PARTS LISI · MAZOE INPUT_MODULE · DESCRIPIION · MFG · MFG_PARI · PART · 47 · Philips · R141 Resistor · SW1 · Sw2 · Schadow · WBS 11-031 · Switch · Sw3 · Sw4 · Sw5 · WBS · Sw6 
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module p14 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20p14%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–422 mm up
+- **Outlines:** line 74 rings, 1,230 straight (3,597 mm) / 150 curved (232 mm); text 307 rings, 2,748 straight (3,231 mm) / 752 curved (1,198 mm); tb 13 rings, 55 straight (50.0 mm) / 11 curved (15.5 mm)
+- **Closed boxes:** 3
+- **Words (OCR):** 40 in 28 lines: WARD-BECK SYSTEMs LTD_ · PARTS_ LIST · M4ZOE_INPUT_MOQULE · PART DESCRIPTION · MFG · MEG PART NUMBER · Integrated · circuit · 21 · Nationa | · LF356 · 22
+- **Title block:** (21, 114)–(133, 432) mm: WARD-BECK SYSTEMs LTD_ · PART DESCRIPTION · Integrated · 21 · 22 · 23 · 24 · 25 · 2€w · 2 3 # · 46 " · WbS · recommends the us e · manufacturers for continued
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module p15 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20p15%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–336 mm across, 8–414 mm up
+- **Outlines:** line 599 rings, 6,474 straight (14,831 mm) / 1,176 curved (1,813 mm); text 599 rings, 4,369 straight (3,932 mm) / 1,545 curved (2,074 mm)
+- **Circles and arcs:** 32 circles, 0 arcs; largest r 9.2 @ (260.3, 47.2), r 9.0 @ (259.6, 199.7), r 8.7 @ (260.4, 75.5), r 7.7 @ (260.3, 47.2)
+- **Closed boxes:** 14; named: NPut SELEcTOR suitch Su} Khen depressed,; I NPUT SELECTOR suitch When ccpresscd, c; PAD insertion When SwL switch depressed,; Wili Flash indicate DS2 : PEAK OVERLDAD ; PRE/Post Auxiliary ShId, Sw12: swi tches; AUX ILIARY AssiGMHENT Sw23 . Sw24 5h25 5; SOLD switch Hnen depressed, Ene igna | C
+- **Words (OCR):** 125 in 69 lines: Matoe · Line source · NPut SELEcTOR suitch Su} Khen depressed, connec [$ · input · uni · I NPUT SELECTOR suitch · input · When ccpresscd, connecls · MicRophone #2 · 81 · ynithen Oepressed, connects · PAD insertion switch
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module p16 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20p16%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–427 mm up
+- **Outlines:** line 605 rings, 6,498 straight (10,816 mm) / 1,492 curved (1,986 mm); text 759 rings, 5,332 straight (4,780 mm) / 1,945 curved (2,515 mm); tb 29 rings, 602 straight (1,415 mm) / 78 curved (112 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 6.1 @ (16.8, 47.0), r 5.2 @ (16.3, 199.5), r 5.1 @ (17.1, 106.3), r 5.1 @ (16.8, 168.6)
+- **Closed boxes:** 13; named: high PAss filter svitch When depressed, ; High-Pass filter switch SwS When inserts; When depressed; PHA SE switch Sw7 : chis; SENSiTiviTY control R26 Provides cont nu; AUxiliary LEVEL RIOO Rioi_ R102 _ R1O3 c; control RB7 : Pos itions channe igna Pan
+- **Dots (junctions):** 1
+- **Words (OCR):** 146 in 89 lines: 54z1: · taneous · Jhen depressed · 5 tors · stereo SubMasTER suming buses 5.52,5} · high PAss filter svitch Sh6 ; · When depressed, inseres · igna path_ · dB { octave · filter nto che · High-Pass filter switch SwS When · Hi.
+- **Title block:** (229, 0)–(336, 57) mm: ISSUE DATe · REvIsION · WBS · WAAD-BECK SYSTEMS · DRN · 7h7e4 · M4ZOE · INPUT MODule · ENG · CkD · FRONT PANEL · SCALE · ISSUE · 470-04-014
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module p17 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20p17%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 6–424 mm up
+- **Outlines:** line 332 rings, 3,674 straight (7,114 mm) / 654 curved (1,000 mm); text 234 rings, 2,052 straight (2,412 mm) / 663 curved (1,093 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 4.6 @ (260.0, 301.0)
+- **Words (OCR):** 43 in 37 lines: Mic/LiNE · Selector · mic input · 60/-10 dBm · 150 Ohms · mic · Mute · Mic PAD · InSERT CHAN · mic 2 iNput · INSERT · PhASE
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module p18 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20p18%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** functional 470-01-006, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 2–432 mm up
+- **Outlines:** line 383 rings, 7,787 straight (15,441 mm) / 1,218 curved (1,761 mm); text 345 rings, 3,267 straight (4,192 mm) / 935 curved (1,581 mm); tb 8 rings, 168 straight (364 mm) / 19 curved (37.5 mm)
+- **Centre lines:** 6,012 paths (74 closed); straight 11,098 mm, curved 130 mm; horizontal 4,355 mm, vertical 3,085 mm, diagonal 3,658 mm
+- **Circles and arcs:** 4 circles, 15 arcs; largest r 5.0 @ (13.7, 302.0), r 4.7 @ (44.0, 145.7), r 2.3 @ (262.4, 411.4), r 1.6 @ (262.3, 411.5)
+- **Closed boxes:** 24 (7 in the title block); named: ISSUE; 470-01-006; SCALE
+- **Words (OCR):** 53 in 48 lines: DIRECT · 0 dBm BRIDGING · COnTROL · Ommom · CONTROL · PAM · INSERT · CHAN · CONTROL · ON · FADER · BST
+- **Title block:** (116, 14)–(333, 115) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN.JRJ7/84 · MAZoE · ENG.ELT · INPUT · MODULE · CKD · FUNCTIONAL DIAGRAM · APP · SCALE · ISSUE · 470-01-006
+- **Wiring (first pass):** 140 connected wire groups from 373 runs; labelled ends: 273 mm → BST; 258 mm → BRIDGING; 160 mm → PEAK, INDICATOR; 101 mm → INDICATOR; 39 mm → BST, FADER, ~15dB)
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module p19 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20p19%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–429 mm up
+- **Outlines:** line 425 rings, 5,540 straight (12,550 mm) / 1,153 curved (1,544 mm); text 634 rings, 4,343 straight (4,774 mm) / 1,475 curved (2,305 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.6 @ (297.9, 337.2)
+- **Closed boxes:** 4
+- **Words (OCR):** 124 in 114 lines: Sw4 · c7 · PAD (2oj8) · 22125 · (SEE Note 4) · swi · #0i · R7 750 · 2n5203 · Pi-19 · RD_ · Mic 1
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module p20 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20p20%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–428 mm up
+- **Outlines:** line 193 rings, 3,487 straight (8,858 mm) / 610 curved (902 mm); text 662 rings, 4,599 straight (5,012 mm) / 1,552 curved (2,354 mm); tb 4 rings, 20 straight (18.8 mm) / 5 curved (5.4 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.5 @ (231.7, 195.5)
+- **Words (OCR):** 133 in 111 lines: R2| · 560 · +18 V · Ri7 · RI4 · 03 · 22 · ISk · 2n4403 · EQUALIZER · INSERT · cib
+- **Title block:** (40, 38)–(127, 65) mm: 3 USE PcB 7 -104 · WBS Go-iO · OR WBS Go-12- · ADDED WHEN Ti IS · WBS 6O-12 · * R29 IS Factory SELECTED · VALUE
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module p21 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20p21%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 324 rings, 5,812 straight (15,358 mm) / 962 curved (1,381 mm); text 777 rings, 5,104 straight (5,363 mm) / 1,772 curved (2,540 mm)
+- **Closed boxes:** 4
+- **Dots (junctions):** 1
+- **Words (OCR):** 181 in 170 lines: cis · 7p · Rt6 · cib · (20 · +IBv · +24v · 1SOp · 28 · Zn2i02 · Sw7 · Sw3
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module p22 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20p22%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–428 mm up
+- **Outlines:** line 567 rings, 9,420 straight (22,653 mm) / 1,699 curved (2,347 mm); text 1,036 rings, 6,414 straight (6,807 mm) / 2,428 curved (3,498 mm); tb 8 rings, 105 straight (194 mm) / 9 curved (11.7 mm)
+- **Closed boxes:** 96 (10 in the title block); named: WBS WAAD-beck bybtemB LTD; M4zoe INPUT MODULE SCHEMATIC; FINISH; 02 - 006 470-; ISS_
+- **Words (OCR):** 190 in 162 lines: Ri04 75 · F2-3 · DIRECT · Rio5 75 · P2-c · (BRIDGE LOAD) · Swi3 · swi8 Riob I5K · PAN · Pi-8 · Rio7 Isk · Pi-J
+- **Title block:** (126, 10)–(288, 53) mm: [SSMOD CKDJ · USEDO · WBS WAAD-beck bybtemB LTD · DRH · JR · M4zoe · FINISH · DATE €JULY/84 · INPUT MODULE · CKD: · SCHEMATIC · SCAD · LBI 470-
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module p23 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20p23%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 1–413 mm up
+- **Outlines:** line 1,480 rings, 13,358 straight (20,420 mm) / 3,096 curved (4,330 mm); text 460 rings, 3,795 straight (3,982 mm) / 1,215 curved (1,828 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 5.5 @ (329.0, 273.8), r 5.5 @ (328.5, 225.7), r 3.8 @ (54.0, 345.3), r 3.8 @ (227.6, 347.2)
+- **Closed boxes:** 30; named: 88
+- **Dots (junctions):** 2
+- **Words (OCR):** 36 in 27 lines: 44 · ed · 78 · 72 · Jg · 2 8 · 918 · 2 2 · 8283 · 25 28 · 88 · NQTES
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module p24 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20p24%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** component layout 8470-06-005, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 5–432 mm up
+- **Outlines:** line 1,813 rings, 17,163 straight (22,801 mm) / 5,245 curved (5,480 mm); text 442 rings, 4,003 straight (3,624 mm) / 1,285 curved (1,469 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 5.7 @ (56.9, 241.6), r 5.7 @ (48.6, 226.5), r 5.7 @ (206.8, 299.2), r 5.7 @ (56.9, 289.3)
+- **Closed boxes:** 37; named: 35; WBS LTD; Mizoe INPUT MODule ASSEMBLY; 470 - 06 = 012
+- **Dots (junctions):** 9
+- **Words (OCR):** 44 in 38 lines: P2 · 4444 · CR4 · Reo · 44844 · Ri3s · 8448 · 858 02 · ~cR7 · 844 · Rbe- · 00
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module p25 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20p25%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 3–427 mm up
+- **Outlines:** line 160 rings, 2,679 straight (5,783 mm) / 310 curved (456 mm); text 726 rings, 7,065 straight (8,699 mm) / 1,735 curved (2,804 mm)
+- **Closed boxes:** 44; named: 10; 12; 13; 14; 15; 16; 17; 18; 19; 20; 21; 22`
+- **Words (OCR):** 133 in 102 lines: PI · SUB RIGHT OUT · SUB 4 · RiGHT Out · LINE In · SUB · RIGHT · Out · SUB 3 · RIGHT · Out · NC
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module p26 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20p26%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** layout 470-04-013, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 0–430 mm up
+- **Outlines:** line 169 rings, 4,487 straight (8,637 mm) / 657 curved (839 mm); text 486 rings, 4,959 straight (6,546 mm) / 1,286 curved (2,138 mm); tb 11 rings, 208 straight (441 mm) / 26 curved (49.5 mm)
+- **Closed boxes:** 56 (8 in the title block); named: 10; 12; 13; 14; S|15; 16; 17; 18; 19; 20; 21; 22
+- **Words (OCR):** 90 in 74 lines: P2 · LINE in · LINE In · NC · NC · D IRECT · D RECT · SHIELD · SHIELD · Att   Out · AtT  Out · Ch ON IN
+- **Title block:** (115, 13)–(334, 115) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: JR/07184 · M47OE · ENG · Eu · INPUT MODULE · CKD · CONNECTOR REAR VIEW · APP · SCALE · ISSUE · 470-04-013
+
+Every curve, box, word and wire group: [1984 - M470E - Input Module p27 (traced).json](1984%20-%20M470E%20-%20Input%20Module%20p27%20%28traced%29.json) (the CAD file: `1984 - M470E - Input Module p27 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -18,6 +18,322 @@ Wiki page: [M473A](../../../PAGES/M473A.md)
 - **1977** (labelled): `DATE JUNE 77` — …L D E R SlO e:.. ~ mo 1> DRN. GE B M .47 3 A .., -"'" ht <u DATE JUNE 77 SUB- M A STER M O DU LE 2. P IN S Pc B 2 E l TO 8 - 10 9 G…
 - **1979** (manual_issue): `ISSUE 17 W :// JII ARCH 1979` — …1096 Co.ponent LayOu t 88-109 -06 -008 .c a ps BS " A/f UAl ISSUE 17 W :// JII ARCH 1979 tp ht…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 324 × 432 mm, 1502 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 170–287 mm across, 0–430 mm up
+- **Outlines:** line 71 rings, 2,516 straight (9,860 mm) / 185 curved (345 mm)
+- **Closed boxes:** 8; named: VVBS; VVBS; VVBS; VVBS; VVBS
+- **Words (OCR):** 17 in 15 lines: VVBS · [VVBS] · VVBS · VVBS · VVBS · VVBS · VVBS · VVBS · M~7J' · SIJIMASTEIl MClDUL£ · VVBS BS · ps
+
+Every curve, box, word and wire group: [1977 - M473A - Submaster Module (2) p1 (traced).json](1977%20-%20M473A%20-%20Submaster%20Module%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1977 - M473A - Submaster Module (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 313 × 432 mm, 1451 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–303 mm across, 5–423 mm up
+- **Outlines:** line 48 rings, 1,172 straight (3,558 mm) / 205 curved (333 mm); text 140 rings, 1,445 straight (1,909 mm) / 325 curved (521 mm); tb 8 rings, 123 straight (143 mm) / 28 curved (43.1 mm)
+- **Words (OCR):** 21 in 14 lines: WARD-BECK SYSTEMS LTD. · (VVBS] ~55 AVf:NL.E. · G41 · ONTARIO · '1><4 · TEl.£X: · QG!'l. ,;,=ea · 438 · M473A · UBMAS TER MODULE · ps · BS
+- **Title block:** (98, 406)–(250, 431) mm: WARD-BECK SYSTEMS LTD. · (VVBS] ~55 AVf:NL.E. · G41 · ONTARIO
+
+Every curve, box, word and wire group: [1977 - M473A - Submaster Module (2) p2 (traced).json](1977%20-%20M473A%20-%20Submaster%20Module%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1977 - M473A - Submaster Module (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 323 × 432 mm, 1498 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–310 mm across, 12–427 mm up
+- **Outlines:** line 286 rings, 2,952 straight (6,048 mm) / 676 curved (1,064 mm); text 441 rings, 3,436 straight (3,969 mm) / 911 curved (1,479 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 111 in 50 lines: WAR · ECK SYS TEMS LTO · TABL OF CO NT[ NTS · M473A SU8MASTE MODULE · SEC TIO · PAGE · Warranty · Techn ca Da · Circ uit De cr ip io · Part Lis · 3-1 to · Appe ndl lt
+
+Every curve, box, word and wire group: [1977 - M473A - Submaster Module (2) p3 (traced).json](1977%20-%20M473A%20-%20Submaster%20Module%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1977 - M473A - Submaster Module (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 315 × 432 mm, 1460 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–305 mm across, 12–424 mm up
+- **Outlines:** line 64 rings, 865 straight (3,418 mm) / 159 curved (231 mm); text 1,849 rings, 13,972 straight (15,396 mm) / 4,059 curved (6,253 mm); tb 47 rings, 471 straight (515 mm) / 119 curved (169 mm)
+- **Words (OCR):** 359 in 92 lines: WAFID -BEC · YSTEMS LTD · WARR ANT · All Wa d-Beck Sys ems ltd pr oduct · ee war ra nt ed · g.lnst · de fective · and wor · nshi · for · peri od of on · ye ar fr
+- **Title block:** (26, 70)–(232, 354) mm: All Wa d-Beck Sys ems ltd pr oduct · ee war ra nt ed · de fective · and wor · nshi · for · ye ar fr · de of sh lp. ent. · Ward·B eck Sys te.s wi · epair or rep lace · It · without cha ge · sa · produc
+
+Every curve, box, word and wire group: [1977 - M473A - Submaster Module (2) p4 (traced).json](1977%20-%20M473A%20-%20Submaster%20Module%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1977 - M473A - Submaster Module (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 316 × 432 mm, 1462 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–303 mm across, 4–426 mm up
+- **Outlines:** line 249 rings, 2,501 straight (5,141 mm) / 584 curved (886 mm); text 987 rings, 7,709 straight (8,786 mm) / 2,101 curved (3,332 mm); tb 13 rings, 104 straight (167 mm) / 31 curved (51.3 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 226 in 70 lines: WARD -BECK SYSTEMS LTD · TE CHNICAL DATA · M4 73A SUB MA ST ER MODULE · Gain; · dB · dB · (wit fader in 15 dB "in hand · position · Fr quency Resp onse: · 25 dB fr om 20 Hz · 20 kHz. · Noise
+- **Title block:** (3, 413)–(115, 432) mm: WARD -BECK SYSTEMS LTD
+
+Every curve, box, word and wire group: [1977 - M473A - Submaster Module (2) p5 (traced).json](1977%20-%20M473A%20-%20Submaster%20Module%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1977 - M473A - Submaster Module (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 318 × 432 mm, 1472 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–308 mm across, 4–425 mm up
+- **Outlines:** line 613 rings, 5,700 straight (9,128 mm) / 1,461 curved (2,238 mm); text 1,634 rings, 12,490 straight (13,992 mm) / 3,436 curved (5,393 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.9 @ (254.2, 242.8)
+- **Dots (junctions):** 1
+- **Words (OCR):** 431 in 117 lines: BECK SYS TEM LTD · CI RCU · DESC RIPTIO · M473A SU BMAS TER MODULE · The M4 73A · de si gned to accept co mbin ed · II I)(ed feeds · olll · re vious · ass gned mi xing cha nnel npu ts. The ass ign ed mi x1ng · channel nputs are ampli fie · nd oute to he ppropriate
+
+Every curve, box, word and wire group: [1977 - M473A - Submaster Module (2) p6 (traced).json](1977%20-%20M473A%20-%20Submaster%20Module%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1977 - M473A - Submaster Module (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 307 × 432 mm, 1421 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–298 mm across, 6–432 mm up
+- **Outlines:** line 286 rings, 3,201 straight (6,423 mm) / 734 curved (1,112 mm); text 1,531 rings, 12,035 straight (13,609 mm) / 3,385 curved (5,294 mm); tb 37 rings, 273 straight (322 mm) / 59 curved (89.1 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.9 @ (184.9, 303.8), r 1.9 @ (205.6, 297.2)
+- **Words (OCR):** 369 in 82 lines: WA · BECK · SYSTEMS · CIRCU IT DESCR IPTION · M473A SUB MASTER MOD ULE · DIRECT Ou put and MON ITOR Out put · The DIRECT outp ut app ea · at pins S/S · Two · sol · out · puts re provid ed
+- **Title block:** (33, 305)–(112, 432) mm: BECK · SYSTEMS · DIRECT Ou put and MON ITOR Out put · The DIRECT outp ut app ea · puts re provid ed
+
+Every curve, box, word and wire group: [1977 - M473A - Submaster Module (2) p7 (traced).json](1977%20-%20M473A%20-%20Submaster%20Module%20%282%29%20p7%20%28traced%29.json) (the CAD file: `1977 - M473A - Submaster Module (2) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1434 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–308 mm across, 4–430 mm up
+- **Outlines:** line 326 rings, 3,530 straight (6,639 mm) / 929 curved (1,447 mm); text 675 rings, 4,981 straight (5,632 mm) / 1,390 curved (2,200 mm)
+- **Words (OCR):** 150 in 100 lines: WARD-BEC · SYST EM LTD · PARTS LIS · M47 3A SU8M ASTE MODUL · PART · OESCRl 1'1 ON · MFG PART NUM8ER · Cl · C.pac Ho 330 F/6 · KtllI~ · 390F33 7M00 6AS · 02
+
+Every curve, box, word and wire group: [1977 - M473A - Submaster Module (2) p8 (traced).json](1977%20-%20M473A%20-%20Submaster%20Module%20%282%29%20p8%20%28traced%29.json) (the CAD file: `1977 - M473A - Submaster Module (2) p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 313 × 432 mm, 1449 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–308 mm across, 5–427 mm up
+- **Outlines:** line 422 rings, 4,138 straight (7,204 mm) / 998 curved (1,558 mm); text 263 rings, 2,053 straight (2,379 mm) / 593 curved (912 mm)
+- **Closed boxes:** 5
+- **Dots (junctions):** 1
+- **Words (OCR):** 109 in 84 lines: WAFlO ·SECK SYSTEMS LTC · PARTS LI ST · M473A SUBMA STER MOD ULE · PART · OE eRI PT ON · MFG · KFG PART NUMBER · Q6 · Tr an sis · Nat na · PH36 45 · 07
+
+Every curve, box, word and wire group: [1977 - M473A - Submaster Module (2) p9 (traced).json](1977%20-%20M473A%20-%20Submaster%20Module%20%282%29%20p9%20%28traced%29.json) (the CAD file: `1977 - M473A - Submaster Module (2) p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 320 × 432 mm, 1481 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 11–306 mm across, 3–424 mm up
+- **Outlines:** line 105 rings, 1,308 straight (3,933 mm) / 246 curved (387 mm); text 511 rings, 4,084 straight (4,625 mm) / 1,227 curved (1,836 mm); tb 124 rings, 1,065 straight (1,358 mm) / 257 curved (388 mm)
+- **Words (OCR):** 122 in 87 lines: WARO BECK SYSTEMS LTO · PARTS LIST · H4 1JA SUBHASTER HODUl · PART · DESCRIPTION · HFG · MFG PART NUMBER · R28 · Re si to · 22 0K · Phil ps · 15'
+- **Title block:** (39, 194)–(247, 432) mm: WARO BECK SYSTEMS LTO · PARTS LIST · H4 1JA SUBHASTER HODUl · DESCRIPTION · HFG · Re si to · 22 0K · Phil ps · 15' · Tri lll pot · Pi he · ss · Res is to · Phflip · HO · HO · ,SO · 2K4 · 2K4 · Pot nt 
+
+Every curve, box, word and wire group: [1977 - M473A - Submaster Module (2) p10 (traced).json](1977%20-%20M473A%20-%20Submaster%20Module%20%282%29%20p10%20%28traced%29.json) (the CAD file: `1977 - M473A - Submaster Module (2) p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 314 × 432 mm, 1454 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 14–306 mm across, 4–432 mm up
+- **Outlines:** line 60 rings, 1,045 straight (3,707 mm) / 168 curved (274 mm); text 440 rings, 3,423 straight (3,839 mm) / 946 curved (1,473 mm); tb 170 rings, 1,380 straight (1,792 mm) / 365 curved (542 mm)
+- **Words (OCR):** 114 in 59 lines: WAf=lO BECK SYSTEM LTO · PARTS LI ST · M4 73A SUSMAST ER MODULE · PA RT DESCRIP TIO · MFG · MFG PART NUMB ER · ees ts ter · 15K · Ph · ps · 15K · 470
+- **Title block:** (25, 115)–(249, 432) mm: WAf=lO BECK SYSTEM LTO · PARTS LI ST · M4 73A SUSMAST ER MODULE · PA RT DESCRIP TIO · MFG · ees ts ter · 15K · Ph · ps · 15K · 470 · '67 · exa · '68 · R70 · R7 · 47 · 5Wl · Sw1 ch · Schadow · 5W2 · WB
+
+Every curve, box, word and wire group: [1977 - M473A - Submaster Module (2) p11 (traced).json](1977%20-%20M473A%20-%20Submaster%20Module%20%282%29%20p11%20%28traced%29.json) (the CAD file: `1977 - M473A - Submaster Module (2) p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 332 × 432 mm, 1540 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–328 mm across, 5–427 mm up
+- **Outlines:** line 19 rings, 611 straight (3,044 mm) / 87 curved (148 mm); text 76 rings, 542 straight (600 mm) / 110 curved (145 mm)
+- **Words (OCR):** 8 in 5 lines: 109 AIoiIPLl ER SERIES · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1977 - M473A - Submaster Module (2) p12 (traced).json](1977%20-%20M473A%20-%20Submaster%20Module%20%282%29%20p12%20%28traced%29.json) (the CAD file: `1977 - M473A - Submaster Module (2) p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 323 × 432 mm, 1497 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–319 mm across, 3–426 mm up
+- **Outlines:** line 736 rings, 6,747 straight (9,852 mm) / 1,794 curved (2,259 mm); text 846 rings, 6,910 straight (7,642 mm) / 1,887 curved (2,370 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.8 @ (240.0, 294.9)
+- **Closed boxes:** 2; named: dBm
+- **Dots (junctions):** 4
+- **Words (OCR):** 251 in 137 lines: DESCR IPTION · 09 · PllF ER · SERIES · 8-109 · ri · IlrT'l) llf iers arll · ti li zed · In tern al omp oo · ith · va lnu · WBS
+
+Every curve, box, word and wire group: [1977 - M473A - Submaster Module (2) p13 (traced).json](1977%20-%20M473A%20-%20Submaster%20Module%20%282%29%20p13%20%28traced%29.json) (the CAD file: `1977 - M473A - Submaster Module (2) p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 323 × 432 mm, 1497 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–321 mm across, 4–428 mm up
+- **Outlines:** line 927 rings, 8,341 straight (11,576 mm) / 2,174 curved (2,808 mm); text 1,117 rings, 9,456 straight (10,391 mm) / 2,584 curved (3,253 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 1.9 @ (96.6, 88.2), r 1.8 @ (56.4, 252.2), r 1.8 @ (276.9, 176.3), r 1.8 @ (240.3, 221.5)
+- **Dots (junctions):** 1
+- **Words (OCR):** 312 in 178 lines: DESCR TI ON · 109 AMPL IF IER SER iE · Oul · L/lve · 1-30 Bm m""imu · Requ remc · 21 · oll · 18 mA cvtesceo Curren · mA III +30 lJm OU UI · mbie nt Te mp · eg
+
+Every curve, box, word and wire group: [1977 - M473A - Submaster Module (2) p14 (traced).json](1977%20-%20M473A%20-%20Submaster%20Module%20%282%29%20p14%20%28traced%29.json) (the CAD file: `1977 - M473A - Submaster Module (2) p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 317 × 432 mm, 1470 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–315 mm across, 1–429 mm up
+- **Outlines:** line 54 rings, 1,293 straight (3,542 mm) / 197 curved (296 mm); text 222 rings, 1,816 straight (2,046 mm) / 478 curved (771 mm)
+- **Words (OCR):** 48 in 18 lines: DES CR IPTION · 8-109 AMPLIF IER SE RIES · nve · ng am ifier wit · xt nal · stra pped to E6. · Th output · al mode · of he · 8-109 seri es is · \ve ly · bal anc ed nd
+
+Every curve, box, word and wire group: [1977 - M473A - Submaster Module (2) p15 (traced).json](1977%20-%20M473A%20-%20Submaster%20Module%20%282%29%20p15%20%28traced%29.json) (the CAD file: `1977 - M473A - Submaster Module (2) p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 316 × 432 mm, 1464 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–312 mm across, 8–424 mm up
+- **Outlines:** line 159 rings, 2,202 straight (5,158 mm) / 610 curved (783 mm); text 776 rings, 6,756 straight (7,501 mm) / 2,048 curved (2,540 mm)
+- **Closed boxes:** 3
+- **Words (OCR):** 119 in 77 lines: PAR TS · IS · -109 AMP LI FI ER SERIES · -109 · PART · DEseR IPT ION · MFG PART NUMBER · Ce.p e.cilo · aa uF/10 · K",m"l · 900 36 M0 AS · ca
+
+Every curve, box, word and wire group: [1977 - M473A - Submaster Module (2) p16 (traced).json](1977%20-%20M473A%20-%20Submaster%20Module%20%282%29%20p16%20%28traced%29.json) (the CAD file: `1977 - M473A - Submaster Module (2) p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 316 × 432 mm, 1464 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–312 mm across, 11–426 mm up
+- **Outlines:** line 218 rings, 2,432 straight (5,483 mm) / 583 curved (759 mm); text 480 rings, 4,180 straight (4,507 mm) / 1,249 curved (1,527 mm)
+- **Words (OCR):** 77 in 53 lines: PARTS LI ST · 109 AMPLIFIER SER ES · -109 · rr · OESCR IP TION · FG · MFGPAAT NUM8ER · Re i,OIor · 4W · Pi"l tl iJ · OS• · 390
+
+Every curve, box, word and wire group: [1977 - M473A - Submaster Module (2) p17 (traced).json](1977%20-%20M473A%20-%20Submaster%20Module%20%282%29%20p17%20%28traced%29.json) (the CAD file: `1977 - M473A - Submaster Module (2) p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 319 × 432 mm, 1479 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–318 mm across, 5–427 mm up
+- **Outlines:** line 267 rings, 3,231 straight (7,301 mm) / 817 curved (1,127 mm); text 505 rings, 4,270 straight (4,797 mm) / 1,274 curved (1,618 mm)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 99 in 62 lines: PAR · iS · 8_109 AM PLI IER SERIES · 109'" · pa rt · per · 10 · cp as nOIe-<:! elow · PAR' · OESC RI TIO · FG · MFG PART NUMBER
+
+Every curve, box, word and wire group: [1977 - M473A - Submaster Module (2) p18 (traced).json](1977%20-%20M473A%20-%20Submaster%20Module%20%282%29%20p18%20%28traced%29.json) (the CAD file: `1977 - M473A - Submaster Module (2) p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** wiring 638_09 478, size B (assumed) 319 × 432 mm, 1479 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–318 mm across, 9–430 mm up
+- **Outlines:** line 73 rings, 1,510 straight (5,295 mm) / 303 curved (457 mm); text 751 rings, 6,526 straight (7,397 mm) / 1,920 curved (2,358 mm)
+- **Centre lines:** 3,913 paths (101 closed); straight 7,288 mm, curved 18.9 mm; horizontal 2,512 mm, vertical 1,907 mm, diagonal 2,869 mm
+- **Circles and arcs:** 2 circles, 1 arcs; largest r 2.0 @ (64.3, 330.6), r 1.2 @ (32.4, 278.1)
+- **Words (OCR):** 106 in 64 lines: PAR TS LI ST · 109 AMP IF ER SER IES · 10 90 · Al · ar- · <:IS · per · 109 · cept as no ted · ow · PAR · DESCRIPTION
+- **Wiring (first pass):** 16 connected wire groups from 53 runs; labelled ends: 71 mm → ESCRIP, TIO, PA, ce; 59 mm → AMP, IES; 53 mm → MFG, 2222-638-09476; 49 mm → MFG, 2222-638-09476, NUMBER; 48 mm → _09478, NUMBE, 222
+
+Every curve, box, word and wire group: [1977 - M473A - Submaster Module (2) p19 (traced).json](1977%20-%20M473A%20-%20Submaster%20Module%20%282%29%20p19%20%28traced%29.json) (the CAD file: `1977 - M473A - Submaster Module (2) p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 316 × 432 mm, 1464 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–313 mm across, 6–423 mm up
+- **Outlines:** line 51 rings, 997 straight (4,074 mm) / 207 curved (282 mm); text 378 rings, 3,126 straight (3,597 mm) / 849 curved (1,075 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 64 in 32 lines: DARTS · IST · 8-109 AM PL · ER SERIES · 8_I09G · rt · er 8-10 · 88 no · elo · PAR · DESCI PTI QN · MF
+
+Every curve, box, word and wire group: [1977 - M473A - Submaster Module (2) p20 (traced).json](1977%20-%20M473A%20-%20Submaster%20Module%20%282%29%20p20%20%28traced%29.json) (the CAD file: `1977 - M473A - Submaster Module (2) p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 322 × 432 mm, 1490 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–322 mm across, 0–431 mm up
+- **Outlines:** line 385 rings, 4,236 straight (10,601 mm) / 886 curved (1,290 mm); text 621 rings, 4,128 straight (3,957 mm) / 1,531 curved (2,083 mm); tb 33 rings, 505 straight (624 mm) / 125 curved (175 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 8.9 @ (167.0, 146.6), r 5.2 @ (167.5, 190.8), r 5.1 @ (167.5, 234.2), r 4.3 @ (147.0, 190.6)
+- **Closed boxes:** 21 (5 in the title block); named: was IlUm P~E(()"T AUX sO SUB ON; was IlUm P~E(()"T AUX sO SUB ON; MlSTEJt ASS IGIiMEN! sw itch $'14 wt.n d; SWS de9,.. ued MIo STU ASS IGH MT switch; 00 I'ItE/ I"05T AUXl ll Ality switch Al ; AUX ILIA RY LEYEL ontrol AA2 Controls le; SWll AUXllI UY sw ne .nd S\II"J Wi th th; I"OSl AUX LIAItY swi tch SW1 Allows to h; AUX IL IAltl LEVU control 1IU9 Con ls 1e; 00 AUX ILI AlitY sw ltche 5'lI6 nd With ; SOLO sw ch $WIO When dep s_d the post·'.; SUBHASlER ON sw itch SWI When depre"ed, 
+- **Dots (junctions):** 1
+- **Words (OCR):** 240 in 100 lines: was · IlUm · MlSTEJt ASS IGIiMEN! sw itch $'14 · wt.n dep ,..ued, · he · MIo STU ASS IGH MT switch · SWS When · de9,.. ued · the · output lg · exterM · er
+- **Title block:** (212, 11)–(322, 56) mm: BS · '0/771 · tfQaIlfrNN · f1. · hs~ DATE · VVE3S] WARD-BECK SYSTEMS · tp · DflH · olIb« · M473A · ENG. · ht SU6MASTER MODUlE · eKD. P.IL · FRONT pANEL
+
+Every curve, box, word and wire group: [1977 - M473A - Submaster Module (2) p21 (traced).json](1977%20-%20M473A%20-%20Submaster%20Module%20%282%29%20p21%20%28traced%29.json) (the CAD file: `1977 - M473A - Submaster Module (2) p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 432 × 290 mm, 2000 × 1345 px traced (0.216 mm/px)
+- **Ink extent:** 11–432 mm across, 0–288 mm up
+- **Outlines:** line 251 rings, 3,228 straight (9,684 mm) / 407 curved (558 mm); text 540 rings, 3,485 straight (4,191 mm) / 1,007 curved (1,484 mm); tb 14 rings, 121 straight (282 mm) / 12 curved (17.5 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.6 @ (108.9, 225.7), r 1.6 @ (345.9, 99.5)
+- **Closed boxes:** 26 (10 in the title block); named: IG) WA 109A (Gl; 10/; ROLS MODI FIED; REDRA; CALE; 47 01-00; ISSUE
+- **Words (OCR):** 105 in 73 lines: MO · OR · OUTPUT · DIR ECT OUTPUT · Ml · dBm 600 · MASTER · Ml · SU · TRJ · ON · FA DE
+- **Title block:** (277, 4)–(432, 73) mm: 10/ 77 · REDRA · ISSUE DATE · REVIS ION ca · APP · (VVE3S] WARD-BECK SYSTEMS · ps · BS · DRN GEB · M4 3A · ENG. RKB · SUB- · STE · ODU LE · CKD · FUNCTI ONAL · tp DIA GRAM · APP · ht · CALE · ISSUE · 
+
+Every curve, box, word and wire group: [1977 - M473A - Submaster Module (2) p22 (traced).json](1977%20-%20M473A%20-%20Submaster%20Module%20%282%29%20p22%20%28traced%29.json) (the CAD file: `1977 - M473A - Submaster Module (2) p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 432 × 283 mm, 2000 × 1310 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–278 mm up
+- **Outlines:** line 1,168 rings, 10,836 straight (20,258 mm) / 2,537 curved (3,289 mm); text 841 rings, 4,726 straight (4,315 mm) / 1,620 curved (2,044 mm); tb 12 rings, 128 straight (182 mm) / 28 curved (30.7 mm)
+- **Closed boxes:** 34 (16 in the title block); named: rEEIJ tp WARD-B ECK SY8TEMS LTD; 473A SUB-MASTER MODU LE SC EMA IC; 473 -0'-00'; SS.
+- **Dots (junctions):** 1
+- **Words (OCR):** 230 in 184 lines: R+3 75 · 17 · -VVv--3> · R4 75 · MO ITO · ANa · R4S · ER I'JG · wT · R4(.. 7S · lv · 1v
+- **Title block:** (294, 1)–(404, 32) mm: rEEIJ WARD-B ECK SY8TEMS LTD · 'SS MOO. CKD. · USED ON · MA · tp · 1f50 · t>iI · ht · 3$17 · FINISH · OIUt · DATE JUNE 77 · EB · f-M. · eKD."";?; · SCALE · 473 -0'-00' · if,l · 'Iii · TOLS.
+
+Every curve, box, word and wire group: [1977 - M473A - Submaster Module (2) p23 (traced).json](1977%20-%20M473A%20-%20Submaster%20Module%20%282%29%20p23%20%28traced%29.json) (the CAD file: `1977 - M473A - Submaster Module (2) p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** component layout 473-06-002, size B (assumed) 432 × 321 mm, 2000 × 1485 px traced (0.216 mm/px)
+- **Ink extent:** 10–432 mm across, 0–317 mm up
+- **Outlines:** line 1,226 rings, 9,590 straight (19,136 mm) / 2,596 curved (2,734 mm); text 764 rings, 4,853 straight (4,612 mm) / 1,626 curved (1,838 mm); tb 729 rings, 4,506 straight (4,568 mm) / 1,386 curved (1,513 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 8.8 @ (204.7, 250.1), r 8.7 @ (228.5, 250.2), r 8.7 @ (87.8, 242.8), r 4.0 @ (269.3, 263.8)
+- **Closed boxes:** 67 (50 in the title block); named: ISS.
+- **Words (OCR):** 134 in 94 lines: 1J400..! · IN4¢O.lc. · ~R31~ · 1I · R"B · R32: J.k · E!;.4- · -R34. · 53 TO R'-2 · ouNT · R35 10 · ON '?>OLD
+- **Title block:** (60, 3)–(396, 190) mm: I~t · 5WS · WBS 11-005' · 02EI · 2E · 'R,4-8 2·2 · [VVBS] · 2·Z · P,4 · CANADA · P.4 · R44 · 7-105 · R43 · 2S · WG. · IEl · -Rll · 2E70 · RGG · rv,OU t-lT ED OJ.,,) · BS · CO MPO t-J NT · 1D · OL · \D
+
+Every curve, box, word and wire group: [1977 - M473A - Submaster Module (2) p24 (traced).json](1977%20-%20M473A%20-%20Submaster%20Module%20%282%29%20p24%20%28traced%29.json) (the CAD file: `1977 - M473A - Submaster Module (2) p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** drawing, size B (assumed) 327 × 432 mm, 1514 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 40–327 mm across, 0–431 mm up
+- **Outlines:** line 526 rings, 6,456 straight (13,115 mm) / 1,226 curved (2,064 mm); text 230 rings, 2,186 straight (2,834 mm) / 480 curved (792 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.5 @ (251.4, 92.2)
+- **Closed boxes:** 71; named: III III ID II; H7; M11; 12; 13; 14; IS; 16; u1; 17; 18; 1101119
+- **Dots (junctions):** 1
+- **Words (OCR):** 112 in 64 lines: III · INPUT · NPUT · III · SHI ELD · SHI ELD · AUX · OU · AUX · OU · AUX · OU
+
+Every curve, box, word and wire group: [1977 - M473A - Submaster Module (2) p25 (traced).json](1977%20-%20M473A%20-%20Submaster%20Module%20%282%29%20p25%20%28traced%29.json) (the CAD file: `1977 - M473A - Submaster Module (2) p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** drawing, size B (assumed) 419 × 432 mm, 1939 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 16–402 mm across, 15–432 mm up
+- **Outlines:** line 664 rings, 12,025 straight (20,158 mm) / 2,628 curved (2,994 mm); text 183 rings, 2,752 straight (4,081 mm) / 573 curved (660 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 16.7 @ (43.3, 300.2), r 15.8 @ (139.3, 110.5), r 15.8 @ (43.6, 111.4), r 15.7 @ (138.7, 300.3)
+- **Words (OCR):** 41 in 36 lines: ~3/1O · -cr · "'ill. · -R5 · f8k. · ns -Rl..i.ZQ · -R8 · 4'1., · -CIO- · -cz, · _CIl~"P' · -RI4-.gg
+
+Every curve, box, word and wire group: [1977 - M473A - Submaster Module (2) p26 (traced).json](1977%20-%20M473A%20-%20Submaster%20Module%20%282%29%20p26%20%28traced%29.json) (the CAD file: `1977 - M473A - Submaster Module (2) p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** drawing, size B (assumed) 432 × 292 mm, 2000 × 1355 px traced (0.216 mm/px)
+- **Ink extent:** 44–430 mm across, 0–278 mm up
+- **Outlines:** line 413 rings, 4,993 straight (9,928 mm) / 1,036 curved (1,364 mm); text 305 rings, 1,655 straight (1,468 mm) / 546 curved (687 mm); tb 73 rings, 566 straight (570 mm) / 166 curved (215 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 1.9 @ (322.0, 224.4), r 1.1 @ (232.5, 201.9), r 1.1 @ (108.0, 101.9), r 1.1 @ (119.7, 266.3)
+- **Closed boxes:** 16 (11 in the title block); named: '1'p
+- **Dots (junctions):** 2
+- **Words (OCR):** 145 in 122 lines: E3 · 'lJ · I3 · 1·S · .39 · 10 · I7 · K7 · 22 · t;;i' · n.lt:> · El
+- **Title block:** (352, 1)–(432, 34) mm: ISS UE OAf( · RE'lJtSION · (VVE3S] WARD- 8ECK SYSTEMS · tp · ht · OftN. El .'78 · ENG.MRW · CKD. · l-4 · TPU · AMPLI FIER · SCHEMATIC · sc.... GI '09 02 · ISSUE
+
+Every curve, box, word and wire group: [1977 - M473A - Submaster Module (2) p27 (traced).json](1977%20-%20M473A%20-%20Submaster%20Module%20%282%29%20p27%20%28traced%29.json) (the CAD file: `1977 - M473A - Submaster Module (2) p27 (traced).dxf`).
+
+### Page 28
+
+- **Sheet:** drawing, size B (assumed) 410 × 432 mm, 1901 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–406 mm across, 5–432 mm up
+- **Outlines:** line 711 rings, 8,971 straight (18,357 mm) / 2,066 curved (3,991 mm); text 117 rings, 1,385 straight (2,508 mm) / 337 curved (715 mm)
+- **Circles and arcs:** 21 circles, 0 arcs; largest r 17.4 @ (33.0, 298.5), r 17.4 @ (132.4, 299.1), r 16.5 @ (33.5, 103.4), r 16.5 @ (132.9, 103.4)
+- **Closed boxes:** 2
+- **Dots (junctions):** 1
+- **Words (OCR):** 45 in 36 lines: E1 · CI · -RI~K · R5 · -R3 c.K2 · 18K · /N4 14 · CR · >l3<b45 · Cr~op · 2N 21 · RIr 41<7
+
+Every curve, box, word and wire group: [1977 - M473A - Submaster Module (2) p28 (traced).json](1977%20-%20M473A%20-%20Submaster%20Module%20%282%29%20p28%20%28traced%29.json) (the CAD file: `1977 - M473A - Submaster Module (2) p28 (traced).dxf`).
+
+### Page 29
+
+- **Sheet:** drawing, size B (assumed) 432 × 304 mm, 2000 × 1409 px traced (0.216 mm/px)
+- **Ink extent:** 16–432 mm across, 0–292 mm up
+- **Outlines:** line 195 rings, 3,620 straight (9,985 mm) / 561 curved (812 mm); text 637 rings, 3,591 straight (3,347 mm) / 1,216 curved (1,538 mm); tb 30 rings, 226 straight (197 mm) / 59 curved (76.9 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.2 @ (233.1, 204.2)
+- **Closed boxes:** 8 (3 in the title block); named: ~lr' oIt -"7p; DATi
+- **Words (OCR):** 142 in 114 lines: E3 · B'I · 0.13 · 1-S · 39 · RI · 1<"7 · 22 · 17 · PN.3" · EI · CI
+- **Title block:** (349, 0)–(432, 32) mm: !IS SUE DATi · REV ISION · PP. · tp · (\NBS) WARD-BECK SYSTEMS · ht · DAN. GE · -109(; · EHG.M RW 4/78 · BO OS7 ER AM PLIF IER · CKO. · '1!'"""ii:.. · SCH EM ATI · APP. · ISSUE · SCALE · 109- 02- 008
+
+Every curve, box, word and wire group: [1977 - M473A - Submaster Module (2) p29 (traced).json](1977%20-%20M473A%20-%20Submaster%20Module%20%282%29%20p29%20%28traced%29.json) (the CAD file: `1977 - M473A - Submaster Module (2) p29 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

@@ -13,6 +13,242 @@ Wiki page: [M455](../../../PAGES/M455.md)
 - **Pages:** 21
 - **PDF created (scan date, not design date):** Thu Nov  2 17:46:34 2006 EST
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–324 mm across, 0–430 mm up
+- **Outlines:** line 31 rings, 751 straight (2,926 mm) / 86 curved (133 mm); text 157 rings, 1,883 straight (2,474 mm) / 437 curved (697 mm); tb 2 rings, 106 straight (291 mm) / 8 curved (15.9 mm)
+- **Words (OCR):** 11 in 8 lines: WAAD-BECK · SYSTEMS LTD_ · WBS 841 PAOGRESS AVENUE; SCAABOROUCH; ONTARIO M1H2X4 · TeLeX; 065-25399 · TELEPHONE: 418/438-6550 · M455 · AUXILIARY MODULE · DESIGN AND MANUFACTURE OF PAOFESSIONAL AUDID EOUPMENT
+- **Title block:** (47, 387)–(268, 423) mm: WAAD-BECK · SYSTEMS LTD_ · WBS 841 PAOGRESS AVENUE; SCAABOROUCH; ONTARIO M1H2X4 · TeLeX; 065-25399 · TELEPHONE: 418/438-6550
+
+Every curve, box, word and wire group: [1974 - M455 - Auxiliary Module p1 (traced).json](1974%20-%20M455%20-%20Auxiliary%20Module%20p1%20%28traced%29.json) (the CAD file: `1974 - M455 - Auxiliary Module p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–312 mm across, 0–420 mm up
+- **Outlines:** line 27 rings, 786 straight (3,010 mm) / 69 curved (111 mm); text 580 rings, 4,548 straight (5,305 mm) / 1,295 curved (2,061 mm); tb 13 rings, 202 straight (418 mm) / 39 curved (58.9 mm)
+- **Words (OCR):** 61 in 44 lines: WAAD-BECK SYSTems LTD; · IABLE QF_CONTENIS · M455 AUXILIARY · MODULE · SECTION · PAGE · Warranty · Technica] Data · 1-1 · Circuit Description · 2-1 · Parts List
+- **Title block:** (24, 60)–(287, 426) mm: WAAD-BECK SYSTems LTD; · IABLE QF_CONTENIS · M455 AUXILIARY · MODULE · SECTION · PAGE · Warranty · Technica] Data · 1-1 · Circuit Description · 2-1 · Parts List · 3 -1 to 3-3 · Appendix · 8 - 109 · De
+
+Every curve, box, word and wire group: [1974 - M455 - Auxiliary Module p2 (traced).json](1974%20-%20M455%20-%20Auxiliary%20Module%20p2%20%28traced%29.json) (the CAD file: `1974 - M455 - Auxiliary Module p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–310 mm across, 0–418 mm up
+- **Outlines:** line 42 rings, 831 straight (3,384 mm) / 131 curved (201 mm); text 1,074 rings, 8,309 straight (9,485 mm) / 2,300 curved (3,603 mm)
+- **Words (OCR):** 146 in 90 lines: WAAD-BECK SYSTEMs LTD; · IECHNICAL DATA · M455 AUXILIARY · MODULE · Gain: · 33 · dB +0.5 · dB . · Frequency Response: · +0.25 dB from · 20 Hz to · 20 kHz
+
+Every curve, box, word and wire group: [1974 - M455 - Auxiliary Module p3 (traced).json](1974%20-%20M455%20-%20Auxiliary%20Module%20p3%20%28traced%29.json) (the CAD file: `1974 - M455 - Auxiliary Module p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–312 mm across, 0–431 mm up
+- **Outlines:** line 58 rings, 818 straight (3,490 mm) / 131 curved (202 mm); text 1,760 rings, 14,156 straight (15,875 mm) / 3,966 curved (6,245 mm)
+- **Dots (junctions):** 2
+- **Words (OCR):** 245 in 122 lines: WARD-BECK SYSTEMS LTD; · CIRCUII_DESCRIPIION · M455 AUXIL IARY_MODULE · The · M455 is · designed to receive audio signa ] · from an · a n · auxiliary · console mixing bus · such · the
+
+Every curve, box, word and wire group: [1974 - M455 - Auxiliary Module p4 (traced).json](1974%20-%20M455%20-%20Auxiliary%20Module%20p4%20%28traced%29.json) (the CAD file: `1974 - M455 - Auxiliary Module p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–321 mm across, 11–421 mm up
+- **Outlines:** line 52 rings, 952 straight (3,314 mm) / 142 curved (232 mm); text 594 rings, 4,860 straight (5,574 mm) / 1,332 curved (2,102 mm); tb 39 rings, 335 straight (492 mm) / 81 curved (114 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 84 in 72 lines: WARD-BECK SYSTEMS LTD · PARIS LISI · M455 AUXILIARY · MODULE · PARI DESCRIPTION · MFG · MFG · PARI__NUMBER · C1 · Capacitor 22 uF/25 · Philips · 426ETF22
+- **Title block:** (24, 151)–(254, 428) mm: WARD-BECK SYSTEMS LTD · PARIS LISI · M455 AUXILIARY · MODULE · PARI DESCRIPTION · MFG · MFG · C1 · Capacitor 22 uF/25 · Philips · 426ETF22 · c2 · c3 · C4 · CR1 · Diode · Motoro]a · 1n4003 · CR2 · CR3 
+
+Every curve, box, word and wire group: [1974 - M455 - Auxiliary Module p5 (traced).json](1974%20-%20M455%20-%20Auxiliary%20Module%20p5%20%28traced%29.json) (the CAD file: `1974 - M455 - Auxiliary Module p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 0–421 mm up
+- **Outlines:** line 28 rings, 731 straight (3,394 mm) / 78 curved (125 mm); text 575 rings, 4,585 straight (5,271 mm) / 1,425 curved (2,233 mm); tb 45 rings, 449 straight (636 mm) / 74 curved (96.4 mm)
+- **Words (OCR):** 86 in 71 lines: WAAD-BECK SYSTEMs LTD · LIST · PARTS · MODULE · M455 AUXILIARY · PART · DESCRIPIION · MFG · MFG · PART NUMBER · R27 · Resistor
+- **Title block:** (27, 70)–(288, 425) mm: WAAD-BECK SYSTEMs LTD · LIST · PARTS · MODULE · M455 AUXILIARY · PART · DESCRIPIION · MFG · MFG · PART NUMBER · R27 · Resistor · 300 · Philips · R2 8 · 300 · R29 · 300 · 300 · R30 · R31,32 · delete · 
+
+Every curve, box, word and wire group: [1974 - M455 - Auxiliary Module p6 (traced).json](1974%20-%20M455%20-%20Auxiliary%20Module%20p6%20%28traced%29.json) (the CAD file: `1974 - M455 - Auxiliary Module p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 0–422 mm up
+- **Outlines:** line 32 rings, 748 straight (2,906 mm) / 74 curved (110 mm); text 68 rings, 551 straight (695 mm) / 144 curved (217 mm)
+- **Words (OCR):** 6 in 4 lines: WAAD-BECK SYSTEms LTD; · 8-109 · AMPLIFIER SERIES · 8-109
+
+Every curve, box, word and wire group: [1974 - M455 - Auxiliary Module p7 (traced).json](1974%20-%20M455%20-%20Auxiliary%20Module%20p7%20%28traced%29.json) (the CAD file: `1974 - M455 - Auxiliary Module p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 0–422 mm up
+- **Outlines:** line 58 rings, 850 straight (3,406 mm) / 115 curved (175 mm); text 1,490 rings, 10,163 straight (11,116 mm) / 3,006 curved (4,822 mm); tb 2 rings, 10 straight (10.0 mm) / 2 curved (4.5 mm)
+- **Dots (junctions):** 3
+- **Words (OCR):** 198 in 114 lines: WARD-BECK · systems LTD; · DESCRIPTION · 8-109 · AMPLIFIER SERIES · The 8-109 series of · amplifiers are · utilized 45 · an · internal · component · audio console
+- **Title block:** (26, 310)–(136, 424) mm: WARD-BECK · systems LTD; · The 8-109 series of · within various WBS series of · amplifier mounts 35
+
+Every curve, box, word and wire group: [1974 - M455 - Auxiliary Module p8 (traced).json](1974%20-%20M455%20-%20Auxiliary%20Module%20p8%20%28traced%29.json) (the CAD file: `1974 - M455 - Auxiliary Module p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–327 mm across, 15–422 mm up
+- **Outlines:** line 45 rings, 798 straight (2,972 mm) / 103 curved (156 mm); text 1,916 rings, 13,155 straight (14,237 mm) / 4,116 curved (6,454 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 285 in 124 lines: WAAD-BECK sybtems · LTD · DESCRIPTION · 8-109 AMPLIFIER SERIES · Output Level · +30 dBm · maximum. · Power Requirements: · 21.5 volts · dc, 18 MA quiescent current. · 65 mA at · +30 dBm output.
+
+Every curve, box, word and wire group: [1974 - M455 - Auxiliary Module p9 (traced).json](1974%20-%20M455%20-%20Auxiliary%20Module%20p9%20%28traced%29.json) (the CAD file: `1974 - M455 - Auxiliary Module p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–327 mm across, 0–432 mm up
+- **Outlines:** line 128 rings, 1,677 straight (4,589 mm) / 272 curved (420 mm); text 797 rings, 6,459 straight (7,535 mm) / 1,893 curved (2,964 mm)
+- **Closed boxes:** 12
+- **Dots (junctions):** 1
+- **Words (OCR):** 103 in 88 lines: WAAD-BECK SYSTEMs LTD · PARIS LIST · 8-109 AMPLIFIER · SERIES · 8-109 · PART · DESCRIPTION · MFG · MFG · PART NUMBER · C1 · Capacitor 33
+- **Title block:** (28, 402)–(138, 427) mm: WAAD-BECK SYSTEMs LTD
+
+Every curve, box, word and wire group: [1974 - M455 - Auxiliary Module p10 (traced).json](1974%20-%20M455%20-%20Auxiliary%20Module%20p10%20%28traced%29.json) (the CAD file: `1974 - M455 - Auxiliary Module p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–432 mm up
+- **Outlines:** line 99 rings, 1,311 straight (4,338 mm) / 199 curved (313 mm); text 509 rings, 4,110 straight (4,746 mm) / 1,220 curved (1,888 mm)
+- **Closed boxes:** 17
+- **Dots (junctions):** 1
+- **Words (OCR):** 89 in 79 lines: WAAD-BECK Systems · LTD: · PARTS LIST · 8-109 · AMPLIFIER_SERIES · 8-109 · PARI DESCRIPTION · MFG · MFG PART · NUMBER · R4  Resistor · 6k2
+- **Title block:** (27, 404)–(137, 428) mm: WAAD-BECK Systems
+
+Every curve, box, word and wire group: [1974 - M455 - Auxiliary Module p11 (traced).json](1974%20-%20M455%20-%20Auxiliary%20Module%20p11%20%28traced%29.json) (the CAD file: `1974 - M455 - Auxiliary Module p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–307 mm across, 8–416 mm up
+- **Outlines:** line 61 rings, 1,631 straight (4,467 mm) / 214 curved (345 mm); text 685 rings, 5,400 straight (6,332 mm) / 1,551 curved (2,408 mm)
+- **Closed boxes:** 6
+- **Words (OCR):** 87 in 76 lines: WARD-BECK SYSTEms LTD; · PARIS LISI · 8-109 · AMPLIEIER_SERIES · 8-109 · PART · DESCRLPTION · MFG · MEG · PART_NUMBER · R36 · Res istor
+
+Every curve, box, word and wire group: [1974 - M455 - Auxiliary Module p12 (traced).json](1974%20-%20M455%20-%20Auxiliary%20Module%20p12%20%28traced%29.json) (the CAD file: `1974 - M455 - Auxiliary Module p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 27–332 mm across, 9–424 mm up
+- **Outlines:** line 67 rings, 1,647 straight (4,567 mm) / 228 curved (349 mm); text 755 rings, 5,964 straight (6,923 mm) / 1,659 curved (2,599 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.9 @ (209.3, 104.6)
+- **Closed boxes:** 4
+- **Words (OCR):** 98 in 77 lines: WAAD-BECK SYSTEMS LTD_ · PARIS_LISI · 8-109 AMPLIFIER SERIES · 8-109C · A11 · parts as · 8-109 except noted below · per · DESCRIPTION · MFG · MFG PART NUMBER · PARI
+
+Every curve, box, word and wire group: [1974 - M455 - Auxiliary Module p13 (traced).json](1974%20-%20M455%20-%20Auxiliary%20Module%20p13%20%28traced%29.json) (the CAD file: `1974 - M455 - Auxiliary Module p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–325 mm across, 0–432 mm up
+- **Outlines:** line 37 rings, 1,336 straight (4,691 mm) / 154 curved (244 mm); text 605 rings, 4,830 straight (5,518 mm) / 1,371 curved (2,146 mm); tb 10 rings, 72 straight (112 mm) / 19 curved (28.5 mm)
+- **Closed boxes:** 2
+- **Words (OCR):** 74 in 52 lines: WAAD-BECK SystemS LTD · PARIS_LISI · 8-109 AMPLIFIER SERIES · 8- 109F · A11 · parts · 8-109 except · per · noted · be ] ow · PARI DESCRIPTION · MFG
+- **Title block:** (29, 59)–(139, 425) mm: WAAD-BECK SystemS LTD · 8- 109F · A11 · parts · 8-109 except · per · PARI DESCRIPTION · C6 · Capacitor 4 .7 · pF · C11 · R15 · Resistor · 53 510 · 8-1096 · A11 parts · per · PART DESCRIPTION · c6 · Ca
+
+Every curve, box, word and wire group: [1974 - M455 - Auxiliary Module p14 (traced).json](1974%20-%20M455%20-%20Auxiliary%20Module%20p14%20%28traced%29.json) (the CAD file: `1974 - M455 - Auxiliary Module p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** layout 455-04-003, size B (assumed) 395 × 432 mm, 1830 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–395 mm across, 0–411 mm up
+- **Outlines:** line 42 rings, 1,969 straight (4,568 mm) / 188 curved (305 mm); text 470 rings, 3,512 straight (3,552 mm) / 1,182 curved (1,630 mm); tb 114 rings, 2,328 straight (4,172 mm) / 346 curved (516 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 3.2 @ (171.4, 278.7), r 1.4 @ (112.2, 251.2)
+- **Closed boxes:** 6 (4 in the title block); named: WBS M455 AUX EXT AuX ON; VU Meter Indicates Ieve of modu le igna 
+- **Words (OCR):** 82 in 49 lines: WBS · M455 · AUX ILIARY MA STER LEVEL control · RI/2: · Controls signa · leve · of both outputs · VU Meter igna /' · Indicates Ieve of modu le · AUX · output · AUXILIARY meter switch SW1 When de-
+- **Title block:** (154, 0)–(395, 415) mm: WBS · M455 · AUX ILIARY MA STER LEVEL control · RI/2: · Controls signa · leve · of both outputs · AUX · EXT · AuX · Auxiliart · ON switcn Sw7 · When depressed, · ON · Feeds output · signa · to · SwItC
+
+Every curve, box, word and wire group: [1974 - M455 - Auxiliary Module p15 (traced).json](1974%20-%20M455%20-%20Auxiliary%20Module%20p15%20%28traced%29.json) (the CAD file: `1974 - M455 - Auxiliary Module p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** functional 455-01-001, size B (assumed) 432 × 276 mm, 2000 × 1279 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–263 mm up
+- **Outlines:** line 81 rings, 2,289 straight (5,831 mm) / 257 curved (392 mm); text 417 rings, 3,057 straight (3,949 mm) / 823 curved (1,343 mm); tb 3 rings, 97 straight (245 mm) / 11 curved (23.2 mm)
+- **Centre lines:** 3,042 paths (65 closed); straight 5,380 mm, curved 41.1 mm; horizontal 1,975 mm, vertical 1,224 mm, diagonal 2,182 mm
+- **Circles and arcs:** 0 circles, 6 arcs
+- **Closed boxes:** 10 (6 in the title block); named: 8-109C WAS 4-109C; 7/78
+- **Words (OCR):** 55 in 44 lines: EXT · METER INPUT · EXT · +8 dBm · 600 OHM · AUX · AUX · AUXILIARY INPUT · ON · SWiTCHEd Output · ~10 dBm · 8-109C
+- **Title block:** (245, 4)–(432, 96) mm: u/zz · REDRAWN · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN;PMAHoNey · M455 · ENG_ · AUXILIARY MODULE · Rulu · CKD_ · FUNCTIONAL DIAGRAM · APP · FCALE · ISSUE · 455-01-001
+- **Wiring (first pass):** 37 connected wire groups from 75 runs; labelled ends: 134 mm → 7/78, u/zz; 120 mm → EXT, AUX, METER INPUT; 119 mm → 8-109C, (-15dB), (-33dB); 102 mm → 8-109C, ON, (-6dB); 64 mm → EXT, AUX
+
+Every curve, box, word and wire group: [1974 - M455 - Auxiliary Module p16 (traced).json](1974%20-%20M455%20-%20Auxiliary%20Module%20p16%20%28traced%29.json) (the CAD file: `1974 - M455 - Auxiliary Module p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** schematic 455-02-001, size B (assumed) 432 × 330 mm, 2000 × 1528 px traced (0.216 mm/px)
+- **Ink extent:** 7–432 mm across, 0–324 mm up
+- **Outlines:** line 291 rings, 5,895 straight (12,517 mm) / 966 curved (1,487 mm); text 841 rings, 6,158 straight (7,153 mm) / 2,103 curved (3,079 mm); tb 18 rings, 249 straight (380 mm) / 37 curved (55.2 mm)
+- **Centre lines:** 7,883 paths (133 closed); straight 11,972 mm, curved 464 mm; horizontal 4,466 mm, vertical 2,235 mm, diagonal 5,272 mm
+- **Circles and arcs:** 22 circles, 48 arcs; largest r 5.0 @ (289.3, 134.7), r 4.9 @ (112.7, 49.6), r 4.7 @ (87.4, 111.5), r 4.6 @ (100.7, 28.7)
+- **Closed boxes:** 24 (23 in the title block)
+- **Words (OCR):** 155 in 138 lines: SW1 · Sw2 Jio · R36 R35 · R2? · EXTERNAL · METER · 310 · 5k · 910 · vu · INPUT · R24 3k2
+- **Title block:** (211, 1)–(399, 45) mm: DSS MoD CCKD · MATL · 211755 · USED ON · WBS WAAD-BeCk bybteMB · 2010 · DRM: · Dn · M455 · 5/2452 · FIniSh · DATE OCI [74 · AUXiLIARY MODULE · 3533 · CKD · SCHEMATIC · SCALE · ToLS_ · 455-02-001
+- **Wiring (first pass):** 100 connected wire groups from 347 runs; labelled ends: 267 mm → pg, Ik2, 6*0, Rio; 156 mm → Ik2, Rio, 620, R28; 136 mm → c3, 22/25, 23125, 20 <; 124 mm → R42, 5.6, R43, PN3569; 120 mm → C4, 22/25, CRA, 104003
+
+Every curve, box, word and wire group: [1974 - M455 - Auxiliary Module p17 (traced).json](1974%20-%20M455%20-%20Auxiliary%20Module%20p17%20%28traced%29.json) (the CAD file: `1974 - M455 - Auxiliary Module p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** component layout 4-132-06-003, size B (assumed) 432 × 347 mm, 2000 × 1608 px traced (0.216 mm/px)
+- **Ink extent:** 9–432 mm across, 0–342 mm up
+- **Outlines:** line 398 rings, 4,285 straight (9,110 mm) / 1,089 curved (1,193 mm); text 683 rings, 5,600 straight (5,531 mm) / 1,612 curved (1,930 mm); tb 24 rings, 195 straight (414 mm) / 33 curved (32.9 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 9.0 @ (217.3, 246.5), r 2.6 @ (188.2, 324.9), r 2.6 @ (187.9, 234.3), r 2.6 @ (308.7, 304.9)
+- **Closed boxes:** 30 (15 in the title block); named: 2eo764; 13463; 3338
+- **Words (OCR):** 93 in 75 lines: 7ip298 · TiP3OB · Q3 · R4256 · Rao · R435 · R4i · CRIE · CR3 4oc3 Pns645 · CRZ · Pn3563 · 81
+- **Title block:** (208, 2)–(395, 49) mm: ISS  MOD_ CKD: · USED ON · MATL · WBS WAAD-BeCK ByBTEMB LTD · 2eo764 · 13463 · DRN RM · M455 · DATE DEC / 74 · AUXILIARY MODULE · 3338 PM · FINISH · CKD ReX · SCALE · COMPONENT LAYOUT · TOLS · 4-132-0
+
+Every curve, box, word and wire group: [1974 - M455 - Auxiliary Module p18 (traced).json](1974%20-%20M455%20-%20Auxiliary%20Module%20p18%20%28traced%29.json) (the CAD file: `1974 - M455 - Auxiliary Module p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 326 × 432 mm, 1512 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–326 mm across, 0–432 mm up
+- **Outlines:** line 235 rings, 3,562 straight (9,568 mm) / 729 curved (940 mm); text 386 rings, 4,698 straight (5,410 mm) / 1,370 curved (1,656 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.5 @ (320.3, 208.5)
+- **Closed boxes:** 65; named: HI 7; Kl 9; 10; M1I; N12; Pl13; sh15l; T/16; U 17; VI18; W/19; Xi20
+- **Words (OCR):** 77 in 47 lines: EXT. · METER In · EXT. · METER IN · IC · IC · TALKBACK In · TALKBACK In · AUX  OUt SW' D · SW' D · AUX   OUT · AUX OUT DIR
+
+Every curve, box, word and wire group: [1974 - M455 - Auxiliary Module p19 (traced).json](1974%20-%20M455%20-%20Auxiliary%20Module%20p19%20%28traced%29.json) (the CAD file: `1974 - M455 - Auxiliary Module p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 432 × 314 mm, 2000 × 1452 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 0–305 mm up
+- **Outlines:** line 395 rings, 5,136 straight (11,053 mm) / 975 curved (1,359 mm); text 398 rings, 2,360 straight (2,226 mm) / 840 curved (1,045 mm); tb 25 rings, 229 straight (243 mm) / 61 curved (74.9 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.3 @ (134.0, 294.3)
+- **Closed boxes:** 7 (2 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 82 in 80 lines: E3 · +13v · C3 · 10/25 · R17 · RIs · 32 · PN3645 · 2n2i02 · F356 · Pn3563 · 4.p
+- **Title block:** (348, 9)–(432, 35) mm: WBS WARD-BeCk systems · 10?€ · ENG MR'Y · BOOSTER AMPLIFIER · SCHEMATIC
+
+Every curve, box, word and wire group: [1974 - M455 - Auxiliary Module p20 (traced).json](1974%20-%20M455%20-%20Auxiliary%20Module%20p20%20%28traced%29.json) (the CAD file: `1974 - M455 - Auxiliary Module p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** component layout 8-109-06-004, size B (assumed) 432 × 282 mm, 2000 × 1306 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 0–275 mm up
+- **Outlines:** line 167 rings, 2,651 straight (6,076 mm) / 676 curved (693 mm); text 843 rings, 7,517 straight (8,125 mm) / 2,050 curved (2,439 mm); tb 21 rings, 350 straight (664 mm) / 48 curved (61.2 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 9.0 @ (19.5, 107.1), r 9.0 @ (19.0, 209.3), r 8.6 @ (71.0, 107.1), r 8.6 @ (70.4, 209.5)
+- **Closed boxes:** 10 (7 in the title block); named: E7 E2 ~CI 33/10 33/1 #c2 RIG 22k -ce G8p; LF356; 22 LF356
+- **Words (OCR):** 116 in 105 lines: E7 · E2 · ~CI 33/10 #c2 · 33/1 · -ce G8p · RIG 22k · 22k · R5 eK? · R4 Lk? · ~Ri8 · ~R2z · 4k7
+- **Title block:** (130, 1)–(432, 130) mm: WBS · ES · 8-109 · 22o/ecl · ~Ci5+ · 22o/0 · 4k7 ~R374k7 · ~R36 · ISSUE |DATE · REVISION · APP · EG · WBS WAAD-BECK · SYSTEMS · DRN: GEB · 8 = 109C · ENGMRW 4/78 · BOOSTER AMPLIFIER · CKD: Rxlh · COMP
+
+Every curve, box, word and wire group: [1974 - M455 - Auxiliary Module p21 (traced).json](1974%20-%20M455%20-%20Auxiliary%20Module%20p21%20%28traced%29.json) (the CAD file: `1974 - M455 - Auxiliary Module p21 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

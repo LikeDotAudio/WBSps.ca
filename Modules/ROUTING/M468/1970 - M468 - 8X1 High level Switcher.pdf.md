@@ -21,6 +21,135 @@ Wiki page: [M468](../../../PAGES/M468.md)
 - **1970** (month): `DEC 70` — …RELAY Sw ITCHER SCHENMTIC Oct 70 Rez | MATERIAL FRACL #V7e5 DEC 70]PLACES GIVEN ANGLES A2 MMA BEND RAD UNESS SPEC ED 4668 32 0…
 - **1970** (month): `OCT 70` — …Sw8 FINISH 0JG WARD BECK SYSTENS LiD PCI78 COMPONENT LayoUT OCT 70 MATERIAL 2*FULL FRZI MREBEREGRAB WEs sehE ANGLES 4 B 178 06…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–336 mm across, 19–430 mm up
+- **Outlines:** line 35 rings, 172 straight (238 mm) / 26 curved (37.8 mm); text 157 rings, 1,377 straight (1,516 mm) / 369 curved (588 mm)
+- **Words (OCR):** 14 in 11 lines: M 468 · 8 x 1 · HIGH LEVEL SHITCHER · Des igned Manufactured · By · Ward-Beck Systems · Limited · 841 · Progress Avenue · Scarborough , Ontario · (416) 438-6550
+- **Title block:** (158, 104)–(230, 129) mm: By · Ward-Beck Systems · 841 · Progress Avenue
+
+Every curve, box, word and wire group: [1970 - M468 - 8X1 High level Switcher p1 (traced).json](1970%20-%20M468%20-%208X1%20High%20level%20Switcher%20p1%20%28traced%29.json) (the CAD file: `1970 - M468 - 8X1 High level Switcher p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 5–432 mm up
+- **Outlines:** line 95 rings, 836 straight (1,121 mm) / 122 curved (175 mm); text 342 rings, 2,796 straight (2,846 mm) / 875 curved (1,338 mm)
+- **Words (OCR):** 39 in 22 lines: M468 Teehnical Data · Configuration: 8 inputs to · output · Latching: · Self or · external by · conditional strapping · Requirement: 24 dc · unregulated · Power · (negative ground) · 40 ma
+
+Every curve, box, word and wire group: [1970 - M468 - 8X1 High level Switcher p2 (traced).json](1970%20-%20M468%20-%208X1%20High%20level%20Switcher%20p2%20%28traced%29.json) (the CAD file: `1970 - M468 - 8X1 High level Switcher p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–336 mm across, 2–425 mm up
+- **Outlines:** line 90 rings, 682 straight (966 mm) / 120 curved (183 mm); text 1,786 rings, 14,084 straight (14,572 mm) / 4,821 curved (7,281 mm)
+- **Words (OCR):** 206 in 92 lines: M468 CIRCUIT DESCRIPTION · M468 Switcher module contains an · input to · output relay · The · switcher The · switcher may · be · operated directly · by depressing · the momentary pushbuttons the · on
+
+Every curve, box, word and wire group: [1970 - M468 - 8X1 High level Switcher p3 (traced).json](1970%20-%20M468%20-%208X1%20High%20level%20Switcher%20p3%20%28traced%29.json) (the CAD file: `1970 - M468 - 8X1 High level Switcher p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–335 mm across, 0–430 mm up
+- **Outlines:** line 131 rings, 1,112 straight (1,889 mm) / 147 curved (223 mm); text 1,128 rings, 9,390 straight (10,324 mm) / 2,977 curved (4,555 mm)
+- **Words (OCR):** 198 in 143 lines: 468 · REPLACEABLE PARTS LIST · SYMBOL · DESCRIPTION · MFG · PART NUMBER · CRL · Diode · I.R. · 1M4003 · CR2 · Diode
+
+Every curve, box, word and wire group: [1970 - M468 - 8X1 High level Switcher p4 (traced).json](1970%20-%20M468%20-%208X1%20High%20level%20Switcher%20p4%20%28traced%29.json) (the CAD file: `1970 - M468 - 8X1 High level Switcher p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–336 mm across, 0–422 mm up
+- **Outlines:** line 157 rings, 722 straight (892 mm) / 227 curved (373 mm); text 725 rings, 6,165 straight (6,541 mm) / 2,047 curved (3,109 mm)
+- **Words (OCR):** 101 in 83 lines: M468_Replaceable Parts_List · Page_2 · Rl · 1OK A1l · resistors 1/4w · Philips · 1OK 5% unless · specified · 1OK otherwise · 1OK · RS · 1OK
+
+Every curve, box, word and wire group: [1970 - M468 - 8X1 High level Switcher p5 (traced).json](1970%20-%20M468%20-%208X1%20High%20level%20Switcher%20p5%20%28traced%29.json) (the CAD file: `1970 - M468 - 8X1 High level Switcher p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–430 mm up
+- **Outlines:** line 720 rings, 6,310 straight (7,644 mm) / 975 curved (1,450 mm); text 230 rings, 1,847 straight (2,137 mm) / 495 curved (754 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.2 @ (144.0, 397.7), r 2.1 @ (143.6, 406.0)
+- **Dots (junctions):** 2
+- **Words (OCR):** 41 in 40 lines: R14 · AUDiO (Nputs · Srio · N? 3 · N? 5 · +8aBm · N27 · ok · 6000 · Ri3 · R9 · IOk
+
+Every curve, box, word and wire group: [1970 - M468 - 8X1 High level Switcher p6 (traced).json](1970%20-%20M468%20-%208X1%20High%20level%20Switcher%20p6%20%28traced%29.json) (the CAD file: `1970 - M468 - 8X1 High level Switcher p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 882 rings, 6,312 straight (6,690 mm) / 1,115 curved (1,415 mm); text 186 rings, 1,140 straight (1,199 mm) / 289 curved (415 mm)
+- **Dots (junctions):** 3
+- **Words (OCR):** 30 in 30 lines: Rg · N? 2 · N? 3 · R2 · R4 · R5 · Ri · R3 · cRS · CRI · KI · CR3
+
+Every curve, box, word and wire group: [1970 - M468 - 8X1 High level Switcher p7 (traced).json](1970%20-%20M468%20-%208X1%20High%20level%20Switcher%20p7%20%28traced%29.json) (the CAD file: `1970 - M468 - 8X1 High level Switcher p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 5–431 mm up
+- **Outlines:** line 962 rings, 7,051 straight (6,980 mm) / 1,373 curved (1,715 mm); text 152 rings, 935 straight (980 mm) / 236 curved (329 mm)
+- **Dots (junctions):** 3
+- **Words (OCR):** 22 in 22 lines: Ne 4 · Ri2 · R4 · R8 · R3 · R7 · CRI · K2 · K4 · Kc · I406 3 · INAOC?
+
+Every curve, box, word and wire group: [1970 - M468 - 8X1 High level Switcher p8 (traced).json](1970%20-%20M468%20-%208X1%20High%20level%20Switcher%20p8%20%28traced%29.json) (the CAD file: `1970 - M468 - 8X1 High level Switcher p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 14–430 mm up
+- **Outlines:** line 258 rings, 3,523 straight (4,272 mm) / 716 curved (956 mm); text 280 rings, 2,157 straight (2,491 mm) / 544 curved (814 mm); tb 95 rings, 439 straight (421 mm) / 92 curved (118 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.6 @ (70.7, 346.2)
+- **Closed boxes:** 4 (4 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 57 in 46 lines: NoTE · N? 8 · NOTE | · Ri6 · i0k · AUDIO · OUTPUT · Vot e · Ri5 · -22abm INTO · 600 _ · I0 k
+- **Title block:** (61, 8)–(336, 269) mm: NOTE · WHEN MOI · SysteMS · Requir · 1S · Jum · WITA · Shorting · Ke · RELAYS. · CANCEL · BUS · 24v · 20 · FFIMISH · WARD BECK · DRN DJG · DATE OCt 70 · M462 · CHKD R6 | · MATERIAL · RELAY · SCHEMATI 
+
+Every curve, box, word and wire group: [1970 - M468 - 8X1 High level Switcher p9 (traced).json](1970%20-%20M468%20-%208X1%20High%20level%20Switcher%20p9%20%28traced%29.json) (the CAD file: `1970 - M468 - 8X1 High level Switcher p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 2–426 mm up
+- **Outlines:** line 272 rings, 3,645 straight (4,481 mm) / 733 curved (879 mm); text 344 rings, 2,885 straight (3,377 mm) / 822 curved (1,246 mm); tb 5 rings, 27 straight (32.1 mm) / 12 curved (17.4 mm)
+- **Closed boxes:** 4; named: FINISH; BECK  SYSTEES LD WARD; Oct 70; M462 2 WVAY RELAY Sw ITCHER SCHENMTIC
+- **Dots (junctions):** 1
+- **Words (OCR):** 58 in 42 lines: AUDIO · OUTPUT · -22ddm INTO · 600 _ · I0 · NoTE · WHEN · MODULE 15 · JSed IN · Systems WHERE Jo · Loss · 15
+- **Title block:** (173, 48)–(300, 269) mm: WHEN · MODULE 15 · Systems WHERE Jo · 15 · Required · RepLace Ri -Ris · Jumpers ANO · WIth · Shorting JumPERS FRoM · RELAYS. · BECK  SYSTEES LD · WARD
+
+Every curve, box, word and wire group: [1970 - M468 - 8X1 High level Switcher p10 (traced).json](1970%20-%20M468%20-%208X1%20High%20level%20Switcher%20p10%20%28traced%29.json) (the CAD file: `1970 - M468 - 8X1 High level Switcher p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–431 mm up
+- **Outlines:** line 846 rings, 9,215 straight (11,195 mm) / 1,582 curved (2,298 mm); text 363 rings, 3,957 straight (4,949 mm) / 929 curved (1,537 mm); tb 1 rings, 3 straight (1.2 mm) / 1 curved (1.0 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 5.0 @ (147.1, 172.1), r 4.9 @ (114.3, 369.0), r 1.3 @ (212.3, 303.6)
+- **Closed boxes:** 2 (2 in the title block)
+- **Words (OCR):** 50 in 36 lines: SwI(No) · DSI · DSg Sw3 · CR 17 · 'CRKI · K3 · cR · SLEEVED WIRE * · BUSS · DSe · Sw2 · CRK2
+- **Title block:** (294, 20)–(329, 87) mm: DRN · DATE · CHKD · SCALE · TOLS FRA
+
+Every curve, box, word and wire group: [1970 - M468 - 8X1 High level Switcher p11 (traced).json](1970%20-%20M468%20-%208X1%20High%20level%20Switcher%20p11%20%28traced%29.json) (the CAD file: `1970 - M468 - 8X1 High level Switcher p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 830 rings, 9,296 straight (11,728 mm) / 1,479 curved (2,120 mm); text 345 rings, 3,116 straight (3,673 mm) / 780 curved (1,189 mm); tb 1 rings, 12 straight (16.9 mm) / 2 curved (2.7 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 4.9 @ (172.2, 169.5), r 4.9 @ (207.0, 367.0)
+- **Closed boxes:** 9; named: DJ6; FINISH; SYSHEIS WARD BECK LiD; 70 OCT; PCI78 COMPONENT LaYoUT; MATERIAL; 178 06 001
+- **Dots (junctions):** 1
+- **Words (OCR):** 64 in 49 lines: Sw5(No) · '3(No} · sw7(nlo) · 035 · 057 · Q1 · CR CRKS · CR · K7 bol · I0 · 14 · CR
+- **Title block:** (172, 59)–(250, 91) mm: WARD BECK
+
+Every curve, box, word and wire group: [1970 - M468 - 8X1 High level Switcher p12 (traced).json](1970%20-%20M468%20-%208X1%20High%20level%20Switcher%20p12%20%28traced%29.json) (the CAD file: `1970 - M468 - 8X1 High level Switcher p12 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

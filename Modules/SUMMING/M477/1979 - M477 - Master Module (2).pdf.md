@@ -16,6 +16,302 @@ Wiki page: [M477](../../../PAGES/M477.md)
 
 - **1979** (manual_issue): `I SSUE '4 BS W MARCil 1979` — …COlll po nen t LiS y b ut 88- 109 -06 -00 6 a .c ps MA NUAL I SSUE '4 BS W MARCil 1979 :// tp ht…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 311 × 432 mm, 1439 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 165–281 mm across, 2–429 mm up
+- **Outlines:** line 55 rings, 2,203 straight (8,591 mm) / 134 curved (278 mm); text 16 rings, 323 straight (1,216 mm) / 26 curved (47.4 mm)
+- **Closed boxes:** 5; named: 'NBS
+- **Words (OCR):** 17 in 15 lines: 'NBS · 'NBS · 'NBS · 'NBS · 'NBS · 'NBS · 'NBS · 'NBS · "'77 · MASTEIt MODULE · 'NBS ps · BS
+
+Every curve, box, word and wire group: [1979 - M477 - Master Module (2) p1 (traced).json](1979%20-%20M477%20-%20Master%20Module%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1979 - M477 - Master Module (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 315 × 432 mm, 1458 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–314 mm across, 4–430 mm up
+- **Outlines:** line 123 rings, 1,908 straight (4,439 mm) / 364 curved (560 mm); text 81 rings, 742 straight (1,147 mm) / 146 curved (249 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.0 @ (270.0, 405.0)
+- **Words (OCR):** 22 in 12 lines: ['NElS) 84'1 maGPFG9 AvENUE. QCARBORO....I(jH, 4'1a lo>3B-t'l!lo!lO · WARD-BECK YS · LTD · ONTARIO · TEU"x 00'Ie -2l5389 · Ta.EF'HONE' · M477 · MASTER MODULE · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1979 - M477 - Master Module (2) p2 (traced).json](1979%20-%20M477%20-%20Master%20Module%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1979 - M477 - Master Module (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 317 × 432 mm, 1470 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–308 mm across, 14–425 mm up
+- **Outlines:** line 290 rings, 2,903 straight (5,935 mm) / 719 curved (1,132 mm); text 424 rings, 3,315 straight (3,762 mm) / 894 curved (1,396 mm); tb 4 rings, 24 straight (26.6 mm) / 5 curved (9.5 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.9 @ (270.3, 231.9)
+- **Words (OCR):** 116 in 53 lines: WARO -BECK SYSTEMS LTO · TABL OF CO NTENTS · H4 · MASTER HOOUL · S£CTION · PA GE · Warranty · Tectln · Oa ta · Cl u1t Descript ion · 2-1 to 2-2 · Pa
+- **Title block:** (34, 410)–(119, 432) mm: WARO -BECK SYSTEMS LTO
+
+Every curve, box, word and wire group: [1979 - M477 - Master Module (2) p3 (traced).json](1979%20-%20M477%20-%20Master%20Module%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1979 - M477 - Master Module (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 309 × 432 mm, 1432 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–300 mm across, 16–425 mm up
+- **Outlines:** line 71 rings, 857 straight (3,529 mm) / 166 curved (256 mm); text 1,774 rings, 13,504 straight (14,706 mm) / 3,924 curved (6,029 mm); tb 99 rings, 706 straight (806 mm) / 215 curved (342 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 335 in 113 lines: WARC -Be:CK YSTEMS LTC · WARR AN TY · Al War d-B · Systems ltd prod ucts ar warr ante · gai nst · or ~ansh · def ct ve ma · ls an · for · pe rio · one · ye
+- **Title block:** (23, 73)–(185, 355) mm: Al War d-B · Systems ltd prod ucts ar warr ante · or ~ansh · def ct ve ma · ls an · ye · fr OM da te of · pme · Ward -Be · Sys te~s wi · epa ir · epla · wi hou charge, · upon facto ry Insp ectio · pro
+
+Every curve, box, word and wire group: [1979 - M477 - Master Module (2) p4 (traced).json](1979%20-%20M477%20-%20Master%20Module%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1979 - M477 - Master Module (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1438 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–297 mm across, 3–432 mm up
+- **Outlines:** line 404 rings, 3,744 straight (6,486 mm) / 987 curved (1,464 mm); text 931 rings, 7,384 straight (8,141 mm) / 2,070 curved (3,171 mm); tb 21 rings, 179 straight (228 mm) / 57 curved (92.7 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.9 @ (171.6, 288.2), r 1.8 @ (225.5, 184.7)
+- **Closed boxes:** 1
+- **Words (OCR):** 231 in 86 lines: WARO -BECK SYSTEMS LTO · TECHNICAL DATA · "477 MASTER MOOULE · Ga in · dB · dB · (wi · ade · IS dB · hand" · ~osition · Frequen cy
+- **Title block:** (30, 410)–(115, 432) mm: WARO -BECK SYSTEMS LTO
+
+Every curve, box, word and wire group: [1979 - M477 - Master Module (2) p5 (traced).json](1979%20-%20M477%20-%20Master%20Module%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1979 - M477 - Master Module (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 311 × 432 mm, 1440 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–302 mm across, 3–426 mm up
+- **Outlines:** line 546 rings, 5,025 straight (8,395 mm) / 1,230 curved (1,886 mm); text 1,419 rings, 11,185 straight (12,357 mm) / 3,064 curved (4,712 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.9 @ (249.0, 241.7), r 1.8 @ (211.0, 55.5)
+- **Closed boxes:** 1
+- **Words (OCR):** 376 in 76 lines: WARD · ECK SYS TEMS LTD · CIRCU IT DESCR IPTION · M417 MASTER MODUL · The M477 1s desi gned to receive he mixed eeds fr · the · .ixing ch annel inpu ts or sub.ast er inputs · Thes combi ned · gnlls · are a.p llf ied · and · li ne leve ls nd th
+
+Every curve, box, word and wire group: [1979 - M477 - Master Module (2) p6 (traced).json](1979%20-%20M477%20-%20Master%20Module%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1979 - M477 - Master Module (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 315 × 432 mm, 1460 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–303 mm across, 5–429 mm up
+- **Outlines:** line 200 rings, 2,372 straight (5,141 mm) / 522 curved (793 mm); text 746 rings, 5,977 straight (6,758 mm) / 1,603 curved (2,536 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.9 @ (95.0, 306.3)
+- **Closed boxes:** 1
+- **Words (OCR):** 186 in 39 lines: WARo ~eECK SYSTEMS LTO. · Ci RCUIT DESCR IPTION · H4 77 HASTER MODULE · Ou tputs · Two 600 oh• ba lan ced ou puts are provided on pins 17/U and · 16/T re pect vel · ea ch wi · axi.u. ou tput ca pabi · i24 dB. · mo ni to ou tpu is av aila bl at pins 15/S to feed · the in put · the 475 oni to
+
+Every curve, box, word and wire group: [1979 - M477 - Master Module (2) p7 (traced).json](1979%20-%20M477%20-%20Master%20Module%20%282%29%20p7%20%28traced%29.json) (the CAD file: `1979 - M477 - Master Module (2) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 311 × 432 mm, 1441 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–302 mm across, 5–426 mm up
+- **Outlines:** line 195 rings, 2,240 straight (5,207 mm) / 499 curved (773 mm); text 698 rings, 5,455 straight (6,045 mm) / 1,653 curved (2,560 mm); tb 26 rings, 247 straight (337 mm) / 43 curved (65.8 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.8 @ (178.6, 57.0)
+- **Dots (junctions):** 1
+- **Words (OCR):** 150 in 94 lines: WARD-BECK SYSTEMS LTD · PART LIST · H4 77 "ASTER DOULE · PART · OESCRIPTIOH · MFG · Hf PART HUMB ER · 330 16 · t1 · Cap acito · Ke.e · T390f337H006AS
+- **Title block:** (3, 411)–(114, 432) mm: WARD-BECK SYSTEMS LTD
+
+Every curve, box, word and wire group: [1979 - M477 - Master Module (2) p8 (traced).json](1979%20-%20M477%20-%20Master%20Module%20%282%29%20p8%20%28traced%29.json) (the CAD file: `1979 - M477 - Master Module (2) p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 315 × 432 mm, 1460 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 12–306 mm across, 5–431 mm up
+- **Outlines:** line 274 rings, 2,807 straight (5,871 mm) / 680 curved (1,057 mm); text 396 rings, 3,103 straight (3,409 mm) / 922 curved (1,420 mm)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 102 in 80 lines: SYSTEM LT · PARTS LIST · "477 MASTER MODULE · PART · OEseR PT OM · MF PART HUMBER · ns · MUion'll · PN36 45 · Q7 · PN35 · Q8
+
+Every curve, box, word and wire group: [1979 - M477 - Master Module (2) p9 (traced).json](1979%20-%20M477%20-%20Master%20Module%20%282%29%20p9%20%28traced%29.json) (the CAD file: `1979 - M477 - Master Module (2) p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 332 × 432 mm, 1540 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–328 mm across, 5–427 mm up
+- **Outlines:** line 19 rings, 611 straight (3,044 mm) / 87 curved (148 mm); text 76 rings, 542 straight (600 mm) / 110 curved (145 mm)
+- **Words (OCR):** 8 in 5 lines: 109 AIoiIPLl ER SERIES · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1979 - M477 - Master Module (2) p10 (traced).json](1979%20-%20M477%20-%20Master%20Module%20%282%29%20p10%20%28traced%29.json) (the CAD file: `1979 - M477 - Master Module (2) p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 323 × 432 mm, 1497 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–319 mm across, 3–426 mm up
+- **Outlines:** line 736 rings, 6,747 straight (9,852 mm) / 1,794 curved (2,259 mm); text 846 rings, 6,910 straight (7,642 mm) / 1,887 curved (2,370 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.8 @ (240.0, 294.9)
+- **Closed boxes:** 2; named: dBm
+- **Dots (junctions):** 4
+- **Words (OCR):** 251 in 137 lines: DESCR IPTION · 09 · PllF ER · SERIES · 8-109 · ri · IlrT'l) llf iers arll · ti li zed · In tern al omp oo · ith · va lnu · WBS
+
+Every curve, box, word and wire group: [1979 - M477 - Master Module (2) p11 (traced).json](1979%20-%20M477%20-%20Master%20Module%20%282%29%20p11%20%28traced%29.json) (the CAD file: `1979 - M477 - Master Module (2) p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 323 × 432 mm, 1497 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–321 mm across, 4–428 mm up
+- **Outlines:** line 926 rings, 8,333 straight (11,573 mm) / 2,169 curved (2,799 mm); text 1,118 rings, 9,464 straight (10,393 mm) / 2,589 curved (3,262 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 1.9 @ (96.6, 88.2), r 1.8 @ (56.4, 252.2), r 1.8 @ (276.9, 176.3), r 1.8 @ (240.3, 221.5)
+- **Dots (junctions):** 1
+- **Words (OCR):** 311 in 177 lines: DESCR TI ON · 109 AMPL IF IER SER iE · Oul · L/lve · 1-30 Bm m""imu · Requ remc · 21 · oll · 18 mA cvtesceo Curren · mA III +30 lJm OU UI · mbie nt Te mp · eg
+
+Every curve, box, word and wire group: [1979 - M477 - Master Module (2) p12 (traced).json](1979%20-%20M477%20-%20Master%20Module%20%282%29%20p12%20%28traced%29.json) (the CAD file: `1979 - M477 - Master Module (2) p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 317 × 432 mm, 1470 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–315 mm across, 1–429 mm up
+- **Outlines:** line 54 rings, 1,293 straight (3,542 mm) / 197 curved (296 mm); text 222 rings, 1,816 straight (2,046 mm) / 478 curved (771 mm)
+- **Words (OCR):** 48 in 18 lines: DES CR IPTION · 8-109 AMPLIF IER SE RIES · nve · ng am ifier wit · xt nal · stra pped to E6. · Th output · al mode · of he · 8-109 seri es is · \ve ly · bal anc ed nd
+
+Every curve, box, word and wire group: [1979 - M477 - Master Module (2) p13 (traced).json](1979%20-%20M477%20-%20Master%20Module%20%282%29%20p13%20%28traced%29.json) (the CAD file: `1979 - M477 - Master Module (2) p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 316 × 432 mm, 1464 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–312 mm across, 8–424 mm up
+- **Outlines:** line 159 rings, 2,202 straight (5,158 mm) / 610 curved (783 mm); text 776 rings, 6,756 straight (7,501 mm) / 2,048 curved (2,540 mm)
+- **Closed boxes:** 3
+- **Words (OCR):** 119 in 77 lines: PAR TS · IS · -109 AMP LI FI ER SERIES · -109 · PART · DEseR IPT ION · MFG PART NUMBER · Ce.p e.cilo · aa uF/10 · K",m"l · 900 36 M0 AS · ca
+
+Every curve, box, word and wire group: [1979 - M477 - Master Module (2) p14 (traced).json](1979%20-%20M477%20-%20Master%20Module%20%282%29%20p14%20%28traced%29.json) (the CAD file: `1979 - M477 - Master Module (2) p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 316 × 432 mm, 1464 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–312 mm across, 11–426 mm up
+- **Outlines:** line 210 rings, 2,362 straight (5,414 mm) / 552 curved (723 mm); text 488 rings, 4,250 straight (4,576 mm) / 1,280 curved (1,563 mm)
+- **Words (OCR):** 76 in 51 lines: PARTS LI ST · 109 AMPLIFIER SER ES · -109 · rr · OESCR IP TION · FG · MFGPAAT NUM8ER · Re i:OIor · 4W · Pi"l tl iJ · OS• · 390
+
+Every curve, box, word and wire group: [1979 - M477 - Master Module (2) p15 (traced).json](1979%20-%20M477%20-%20Master%20Module%20%282%29%20p15%20%28traced%29.json) (the CAD file: `1979 - M477 - Master Module (2) p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 319 × 432 mm, 1479 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–318 mm across, 5–427 mm up
+- **Outlines:** line 267 rings, 3,231 straight (7,301 mm) / 817 curved (1,127 mm); text 505 rings, 4,270 straight (4,797 mm) / 1,274 curved (1,618 mm)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 99 in 62 lines: PAR · iS · 8_109 AM PLI IER SERIES · 109'" · pa rt · per · 10 · cp as nOIe-<:! elow · PAR' · OESC RI TIO · FG · MFG PART NUMBER
+
+Every curve, box, word and wire group: [1979 - M477 - Master Module (2) p16 (traced).json](1979%20-%20M477%20-%20Master%20Module%20%282%29%20p16%20%28traced%29.json) (the CAD file: `1979 - M477 - Master Module (2) p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** wiring 638_09 478, size B (assumed) 319 × 432 mm, 1479 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–318 mm across, 9–430 mm up
+- **Outlines:** line 73 rings, 1,510 straight (5,295 mm) / 303 curved (457 mm); text 751 rings, 6,526 straight (7,397 mm) / 1,920 curved (2,358 mm)
+- **Centre lines:** 3,913 paths (101 closed); straight 7,288 mm, curved 18.9 mm; horizontal 2,512 mm, vertical 1,907 mm, diagonal 2,869 mm
+- **Circles and arcs:** 2 circles, 1 arcs; largest r 2.0 @ (64.3, 330.6), r 1.2 @ (32.4, 278.1)
+- **Words (OCR):** 106 in 64 lines: PAR TS LI ST · 109 AMP IF ER SER IES · 10 90 · Al · ar- · <:IS · per · 109 · cept as no ted · ow · PAR · DESCRIPTION
+- **Wiring (first pass):** 16 connected wire groups from 53 runs; labelled ends: 71 mm → ESCRIP, TIO, PA, ce; 59 mm → AMP, IES; 53 mm → MFG, 2222-638-09476; 49 mm → MFG, 2222-638-09476, NUMBER; 48 mm → _09478, NUMBE, 222
+
+Every curve, box, word and wire group: [1979 - M477 - Master Module (2) p17 (traced).json](1979%20-%20M477%20-%20Master%20Module%20%282%29%20p17%20%28traced%29.json) (the CAD file: `1979 - M477 - Master Module (2) p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 316 × 432 mm, 1464 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–313 mm across, 6–423 mm up
+- **Outlines:** line 51 rings, 997 straight (4,074 mm) / 207 curved (282 mm); text 378 rings, 3,126 straight (3,597 mm) / 849 curved (1,075 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 64 in 32 lines: DARTS · IST · 8-109 AM PL · ER SERIES · 8_I09G · rt · er 8-10 · 88 no · elo · PAR · DESCI PTI QN · MF
+
+Every curve, box, word and wire group: [1979 - M477 - Master Module (2) p18 (traced).json](1979%20-%20M477%20-%20Master%20Module%20%282%29%20p18%20%28traced%29.json) (the CAD file: `1979 - M477 - Master Module (2) p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 326 × 432 mm, 1510 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–326 mm across, 0–320 mm up
+- **Outlines:** line 139 rings, 1,887 straight (4,389 mm) / 345 curved (505 mm); text 100 rings, 629 straight (571 mm) / 200 curved (261 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.0 @ (158.9, 313.9)
+- **Closed boxes:** 9; named: WB M4n sO; WB M4n sO; SOLO switch SWIO When depre the ou tput ; '101711; tSSl.I:; OIIT(; NG.
+- **Words (OCR):** 32 in 16 lines: WB · M4n · sO · SOLO switch SWIO · fed to he: SOLO output · When depre · the ou tput ignl · ps · BS · '101711 · tSSl.I: OIIT( · tp
+
+Every curve, box, word and wire group: [1979 - M477 - Master Module (2) p19 (traced).json](1979%20-%20M477%20-%20Master%20Module%20%282%29%20p19%20%28traced%29.json) (the CAD file: `1979 - M477 - Master Module (2) p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 432 × 254 mm, 2000 × 1179 px traced (0.216 mm/px)
+- **Ink extent:** 8–432 mm across, 0–246 mm up
+- **Outlines:** line 113 rings, 1,683 straight (5,885 mm) / 228 curved (343 mm); text 330 rings, 2,596 straight (3,069 mm) / 771 curved (1,234 mm); tb 6 rings, 66 straight (101 mm) / 9 curved (11.7 mm)
+- **Closed boxes:** 15 (4 in the title block); named: MfTElUHG OUTI"UT AOO(D; -lnAU WAS 1.."U:l; IS....; DflN. MRW
+- **Words (OCR):** 58 in 32 lines: SU8MU~ING · -,II-;)' l~~~::l · INPUT · MASTER OUTPUTS · Bm ItO ohm · MON IT OR OUTPUT · METIEIIlIHG OUTPUT · SOLO · SOLO SUM MI NG BUS · COHT IIlOl · SOLO CO NTROl · COM ON
+- **Title block:** (323, 46)–(432, 83) mm: wm · '"'DRAWN · IS.... DATE · REVtslOH · (VVSS WARD·aeCK SYSTEMS · ps
+
+Every curve, box, word and wire group: [1979 - M477 - Master Module (2) p20 (traced).json](1979%20-%20M477%20-%20Master%20Module%20%282%29%20p20%20%28traced%29.json) (the CAD file: `1979 - M477 - Master Module (2) p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 432 × 281 mm, 2000 × 1300 px traced (0.216 mm/px)
+- **Ink extent:** 12–432 mm across, 0–272 mm up
+- **Outlines:** line 765 rings, 7,126 straight (12,614 mm) / 1,687 curved (2,284 mm); text 638 rings, 3,159 straight (2,878 mm) / 1,042 curved (1,290 mm); tb 58 rings, 459 straight (492 mm) / 135 curved (176 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 1.2 @ (376.7, 223.6), r 1.1 @ (248.8, 48.0), r 1.1 @ (89.7, 102.3), r 1.1 @ (115.0, 39.1)
+- **Closed boxes:** 12 (3 in the title block); named: 78; ..SUE; OAT£; REV ISION
+- **Words (OCR):** 204 in 164 lines: ,20< · R'O · <5K · l2 · +2.1" -2\V · ...2.1\1 · 1v · 330/1i. · BK2 · ERT · 2E' · '5k
+- **Title block:** (357, 0)–(432, 29) mm: ..SUE OAT£ · REV ISION · tp · \NB · WAAO-BECK SYSTEMS · ht · DRH. · MR · M4 · ENG. · MASTER MO DULE · CKO..(f\J... · SC HEMAT IC · SCALE · 001 · rs SUE
+
+Every curve, box, word and wire group: [1979 - M477 - Master Module (2) p21 (traced).json](1979%20-%20M477%20-%20Master%20Module%20%282%29%20p21%20%28traced%29.json) (the CAD file: `1979 - M477 - Master Module (2) p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 326 × 432 mm, 1509 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–326 mm across, 0–431 mm up
+- **Outlines:** line 274 rings, 4,404 straight (10,552 mm) / 708 curved (1,217 mm); text 390 rings, 3,586 straight (4,739 mm) / 883 curved (1,440 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.5 @ (318.7, 207.8), r 2.5 @ (250.9, 91.9)
+- **Closed boxes:** 69; named: 10 10 10 II 10 II: et; wO Hi; L10; 11; 12; PlJ; 515; K2D; ps; 21; '22; tp ht
+- **Words (OCR):** 89 in 64 lines: 10 · INPUT · 1NPUT · 10 · SHIELD · SH IELO · 10 · IC · IC · II · wO · IC
+
+Every curve, box, word and wire group: [1979 - M477 - Master Module (2) p22 (traced).json](1979%20-%20M477%20-%20Master%20Module%20%282%29%20p22%20%28traced%29.json) (the CAD file: `1979 - M477 - Master Module (2) p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 432 × 292 mm, 2000 × 1355 px traced (0.216 mm/px)
+- **Ink extent:** 44–430 mm across, 0–278 mm up
+- **Outlines:** line 413 rings, 4,992 straight (9,930 mm) / 1,036 curved (1,364 mm); text 304 rings, 1,643 straight (1,459 mm) / 544 curved (685 mm); tb 74 rings, 578 straight (579 mm) / 168 curved (216 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 1.9 @ (322.0, 224.4), r 1.1 @ (232.5, 201.9), r 1.1 @ (108.0, 101.9), r 1.1 @ (119.7, 266.3)
+- **Closed boxes:** 16 (11 in the title block); named: '1'p
+- **Dots (junctions):** 2
+- **Words (OCR):** 144 in 120 lines: E3 · 'lJ · I3 · 1·S · .39 · 10 · I7 · K7 · 22 · t;;i' · n.lt:> · El
+- **Title block:** (352, 1)–(432, 34) mm: ISS UE OAf( · RE'lJtSION · (VVE3S] WARD- 8ECK SYSTEMS · tp · ht · OftN. El .'78 · ENG.MRW · CKD. .J(t. · TPU · AMPLI FIER · SCHEMATIC · sc.... GI '09 02 · ISSUE
+
+Every curve, box, word and wire group: [1979 - M477 - Master Module (2) p23 (traced).json](1979%20-%20M477%20-%20Master%20Module%20%282%29%20p23%20%28traced%29.json) (the CAD file: `1979 - M477 - Master Module (2) p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 419 × 432 mm, 1939 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 16–402 mm across, 15–432 mm up
+- **Outlines:** line 664 rings, 12,025 straight (20,158 mm) / 2,628 curved (2,994 mm); text 183 rings, 2,752 straight (4,081 mm) / 573 curved (660 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 16.7 @ (43.3, 300.2), r 15.8 @ (139.3, 110.5), r 15.8 @ (43.6, 111.4), r 15.7 @ (138.7, 300.3)
+- **Words (OCR):** 41 in 36 lines: ~3/1O · -cr · "'ill. · -R5 · f8k. · ns -Rl..i.ZQ · -R8 · 4'1., · -CIO- · -cz, · _CIl~"P' · -RI4-.gg
+
+Every curve, box, word and wire group: [1979 - M477 - Master Module (2) p24 (traced).json](1979%20-%20M477%20-%20Master%20Module%20%282%29%20p24%20%28traced%29.json) (the CAD file: `1979 - M477 - Master Module (2) p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** drawing, size B (assumed) 432 × 332 mm, 2000 × 1539 px traced (0.216 mm/px)
+- **Ink extent:** 8–432 mm across, 0–328 mm up
+- **Outlines:** line 1,136 rings, 8,552 straight (15,945 mm) / 2,230 curved (3,154 mm); text 341 rings, 1,937 straight (2,160 mm) / 524 curved (734 mm); tb 104 rings, 789 straight (1,007 mm) / 231 curved (321 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 8.7 @ (219.6, 259.1), r 3.8 @ (261.3, 90.8), r 2.1 @ (258.1, 185.2), r 1.8 @ (214.1, 70.1)
+- **Closed boxes:** 22 (9 in the title block); named: f7~; 7/78 78; /76
+- **Words (OCR):** 103 in 73 lines: 02 E5 · E2 · R~I 'SI< · R.62 .ll..l< · IE3 · <:E4 · 2El · R.S · j,,1 · (\NBS] · R.4 ",20 · R4 oo
+- **Title block:** (315, 0)–(432, 56) mm: 7/77 · BS ISION · APP · ISSUE · DATE · REV · (\NBS] WARC-BECK · DRN. · MRW tp · ENG. ht ASTER OD ULE · M4 · If, · CKO · COM PO EN LA YO · APP. · SC ALE · BI 77 06-00 · ISSUE
+
+Every curve, box, word and wire group: [1979 - M477 - Master Module (2) p25 (traced).json](1979%20-%20M477%20-%20Master%20Module%20%282%29%20p25%20%28traced%29.json) (the CAD file: `1979 - M477 - Master Module (2) p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** drawing, size B (assumed) 432 × 295 mm, 2000 × 1366 px traced (0.216 mm/px)
+- **Ink extent:** 9–432 mm across, 0–292 mm up
+- **Outlines:** line 284 rings, 4,060 straight (10,287 mm) / 695 curved (1,006 mm); text 484 rings, 2,639 straight (2,419 mm) / 940 curved (1,190 mm); tb 80 rings, 463 straight (410 mm) / 157 curved (193 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.0 @ (320.4, 96.1), r 1.1 @ (246.2, 256.6), r 1.1 @ (105.6, 27.3), r 1.1 @ (261.2, 92.7)
+- **Closed boxes:** 9 (6 in the title block); named: 31; Cl lj
+- **Words (OCR):** 149 in 126 lines: I3 · E3 · 18.'/ · 39 · 1·5" · C3 · '<17 · /25 · K7 · e7 · R5 · IV'
+- **Title block:** (353, 0)–(432, 39) mm: IS$U EI OAH · REVISION · tp · [\NBS] WARC·BECK SYSTEMS · ht 78 · ORN. E6 · 10 · ENG.MRW · KD. · BOOS TER AMP LIfiER · SCHEMATI · SCALE · 61 -109 -02 -00 · IS SUE
+
+Every curve, box, word and wire group: [1979 - M477 - Master Module (2) p26 (traced).json](1979%20-%20M477%20-%20Master%20Module%20%282%29%20p26%20%28traced%29.json) (the CAD file: `1979 - M477 - Master Module (2) p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** drawing, size B (assumed) 415 × 432 mm, 1923 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–411 mm across, 4–429 mm up
+- **Outlines:** line 825 rings, 15,821 straight (22,624 mm) / 3,334 curved (3,900 mm); text 121 rings, 1,922 straight (2,457 mm) / 388 curved (471 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 17.4 @ (134.5, 103.2), r 17.4 @ (34.7, 104.2), r 17.4 @ (35.4, 301.3), r 16.5 @ (134.8, 301.2)
+- **Words (OCR):** 24 in 22 lines: 1O · IB · 18 · N2 10Z. · LF35G. · Rn · 1('7 · 5.:t·1 · I9 · c..G. ·7p · R1 · .2&K.
+
+Every curve, box, word and wire group: [1979 - M477 - Master Module (2) p27 (traced).json](1979%20-%20M477%20-%20Master%20Module%20%282%29%20p27%20%28traced%29.json) (the CAD file: `1979 - M477 - Master Module (2) p27 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

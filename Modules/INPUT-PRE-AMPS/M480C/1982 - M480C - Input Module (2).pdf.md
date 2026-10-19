@@ -17,6 +17,286 @@ Wiki page: [M480C](../../../PAGES/M480C.md)
 
 - **1982** (manual_issue): `MANUAL ISSUE ;;2 BS DECEMB ER 1982` — …2 - 00 5 M4 8 0C Com ponen t Layou t B 480 _06 _004 a .c ps MANUAL ISSUE ;;2 BS DECEMB ER 1982 W :// tp ht…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** layout 480_04_006, size B (assumed) 303 × 432 mm, 1403 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–287 mm across, 25–432 mm up
+- **Outlines:** line 8 rings, 572 straight (2,664 mm) / 65 curved (100 mm); text 451 rings, 3,304 straight (3,670 mm) / 932 curved (1,439 mm); tb 66 rings, 591 straight (982 mm) / 110 curved (169 mm)
+- **Words (OCR):** 80 in 38 lines: WAI=lD·BECK SYSTEMS LTD · TA BL OF CONTE NTS · M48 0C NPU MODUL · SEC IO · PAGE · Techn ica cete · 1_1 to 1-2 · 2_1 to 2_5 · ircuit De · io · Equ,, Ze Fr · Response
+- **Title block:** (7, 45)–(262, 419) mm: WAI=lD·BECK SYSTEMS LTD · TA BL OF CONTE NTS · M48 0C NPU MODUL · SEC IO · PAGE · Techn ica cete · 1_1 to 1-2 · 2_1 to 2_5 · ircuit De · io · Equ,, Ze Fr · Response · Character tie · to 3-2 · Pa rl · 
+
+Every curve, box, word and wire group: [1982 - M480C - Input Module (2) p1 (traced).json](1982%20-%20M480C%20-%20Input%20Module%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1982 - M480C - Input Module (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 303 × 432 mm, 1403 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–286 mm across, 17–432 mm up
+- **Outlines:** line 172 rings, 1,872 straight (4,215 mm) / 366 curved (578 mm); text 1,109 rings, 7,533 straight (8,171 mm) / 2,349 curved (3,592 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.1 @ (29.1, 83.8)
+- **Dots (junctions):** 1
+- **Words (OCR):** 218 in 87 lines: WAFlD-BECl< SYSTEMS LTD · TECHN ICAL OAT · MIoBOC INPUT MOOULE · ",pu 5e...sl llvil' es · Li ne: · :lO to +10 · dam lref .600 ohm · ~rce) · M,c · 10 10 -40 · dBm 1.....1. 150 ohm souI"'Ce · Mlc lPe
+
+Every curve, box, word and wire group: [1982 - M480C - Input Module (2) p2 (traced).json](1982%20-%20M480C%20-%20Input%20Module%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1982 - M480C - Input Module (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 299 × 432 mm, 1385 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 13–288 mm across, 20–415 mm up
+- **Outlines:** line 147 rings, 1,687 straight (4,014 mm) / 322 curved (498 mm); text 554 rings, 3,898 straight (4,240 mm) / 1,170 curved (1,784 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 120 in 68 lines: WARD-BECK BYBTEMS LTD. · EC HNICAL OA TA · M480C NPU · MOCUL · Eq · ze Cont,...,1 · Sect ion · Shel in · IYpe · equa iza ion · IS · ma im
+
+Every curve, box, word and wire group: [1982 - M480C - Input Module (2) p3 (traced).json](1982%20-%20M480C%20-%20Input%20Module%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1982 - M480C - Input Module (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 299 × 432 mm, 1385 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–286 mm across, 18–423 mm up
+- **Outlines:** line 286 rings, 2,590 straight (5,029 mm) / 610 curved (930 mm); text 1,859 rings, 12,765 straight (13,684 mm) / 3,844 curved (5,793 mm); tb 8 rings, 85 straight (107 mm) / 32 curved (56.2 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.1 @ (95.8, 111.6), r 1.6 @ (128.2, 97.5), r 1.6 @ (152.7, 104.0)
+- **Dots (junctions):** 2
+- **Words (OCR):** 380 in 144 lines: WARO-BECK SYSTEMS LTO · CI RCU IT DESCRI TION · M480C NPUT MOD ULE · The M480C Input Modu le rov ides the ",eSN ry · pu $el llon · equ~ lI · 1.~l lon and OUlput · Ignmenl fOf" Ihe · eee ll on · each Inp ul · he T12 02A · spor ble on so le
+- **Title block:** (7, 397)–(112, 420) mm: WARO-BECK SYSTEMS LTO
+
+Every curve, box, word and wire group: [1982 - M480C - Input Module (2) p4 (traced).json](1982%20-%20M480C%20-%20Input%20Module%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1982 - M480C - Input Module (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 299 × 432 mm, 1385 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 13–288 mm across, 18–413 mm up
+- **Outlines:** line 676 rings, 5,175 straight (7,925 mm) / 1,433 curved (2,134 mm); text 1,797 rings, 12,184 straight (12,974 mm) / 3,786 curved (5,749 mm); tb 21 rings, 162 straight (233 mm) / 37 curved (60.2 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 2.1 @ (120.3, 263.0), r 1.6 @ (167.7, 58.2), r 1.6 @ (118.6, 91.4), r 1.6 @ (92.9, 321.5)
+- **Dots (junctions):** 3
+- **Words (OCR):** 428 in 164 lines: WARO -BECK SYSTEMS LTO. · IRCUIT DESCRIPTION · M48 0C INP UT MODULE · im · ly · the CUr/ BOOST con tro · Rle fo · Ihe Low Frequency · ec tion · fee ds II slgnll · 10 Ih · low-pass
+- **Title block:** (34, 398)–(113, 421) mm: WARO -BECK SYSTEMS LTO.
+
+Every curve, box, word and wire group: [1982 - M480C - Input Module (2) p5 (traced).json](1982%20-%20M480C%20-%20Input%20Module%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1982 - M480C - Input Module (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 299 × 432 mm, 1385 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 14–287 mm across, 2–412 mm up
+- **Outlines:** line 293 rings, 2,561 straight (5,450 mm) / 597 curved (908 mm); text 1,658 rings, 11,308 straight (12,228 mm) / 3,506 curved (5,267 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.1 @ (30.0, 327.2), r 1.6 @ (69.6, 96.6), r 1.6 @ (146.0, 89.7)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 341 in 118 lines: WARD-BECK YSTEMS LTD. · CIRCUIT DESCR IPT ION · /IoI48OC INPU /IoIOOULE · Output -'"'pl lf le.- Con · Th · ou tpu · r-outed 10 the · Att en · lor · In~rl po nt appea ng · mod ule con neclor · ins t6
+
+Every curve, box, word and wire group: [1982 - M480C - Input Module (2) p6 (traced).json](1982%20-%20M480C%20-%20Input%20Module%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1982 - M480C - Input Module (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 299 × 432 mm, 1385 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–286 mm across, 1–412 mm up
+- **Outlines:** line 307 rings, 2,833 straight (5,351 mm) / 711 curved (1,054 mm); text 1,858 rings, 12,572 straight (13,491 mm) / 3,781 curved (5,652 mm); tb 71 rings, 530 straight (694 mm) / 141 curved (216 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.6 @ (197.0, 50.9), r 1.6 @ (114.8, 110.4)
+- **Dots (junctions):** 1
+- **Words (OCR):** 362 in 166 lines: WARO-BECK SYSTEMS LTO · CI RCU IT DESCR IP ION · M48 0C INPU MOOULE · Au Ovl UI · ou lp · prov, ed 10 fe-ed · li · m,x''''g · The · /Po · ll · SW7 alto...s he sl
+- **Title block:** (7, 243)–(114, 420) mm: WARO-BECK SYSTEMS LTO · Au Ovl UI · ou lp · /Po · ll · SW7 alto...s he sl · he · de · 01" · afl · nomina · in-n and · Pos pos il lon · eq · Ole ll me te · R9 · SWl is 'he assi gnme nt wi ICh. · AUX ou
+
+Every curve, box, word and wire group: [1982 - M480C - Input Module (2) p7 (traced).json](1982%20-%20M480C%20-%20Input%20Module%20%282%29%20p7%20%28traced%29.json) (the CAD file: `1982 - M480C - Input Module (2) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 299 × 432 mm, 1385 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–286 mm across, 0–413 mm up
+- **Outlines:** line 12 rings, 580 straight (2,545 mm) / 67 curved (106 mm); text 431 rings, 2,871 straight (3,218 mm) / 826 curved (1,244 mm); tb 86 rings, 772 straight (1,197 mm) / 209 curved (324 mm)
+- **Words (OCR):** 90 in 34 lines: WAFlD-BECK SySTE · LTD. · IR CUIT DESC RIP TION · M48 0C IN UT MODULE · Ref · 10 T120 2A · SHl Oll on s«;llon lo · sel_up · nd · Iibrel;on of · dic lor InrOlShold con rol · I04.
+- **Title block:** (8, 257)–(218, 421) mm: WAFlD-BECK SySTE · LTD. · IR CUIT DESC RIP TION · M48 0C IN UT MODULE · Ref · 10 T120 2A · SHl Oll on s«;llon lo · sel_up · nd · dic lor InrOlShold con rol · I04. · Power Su pl · O~oup lln!l · Po · su
+
+Every curve, box, word and wire group: [1982 - M480C - Input Module (2) p8 (traced).json](1982%20-%20M480C%20-%20Input%20Module%20%282%29%20p8%20%28traced%29.json) (the CAD file: `1982 - M480C - Input Module (2) p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 299 × 432 mm, 1385 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–299 mm across, 8–432 mm up
+- **Outlines:** line 584 rings, 7,311 straight (17,206 mm) / 987 curved (1,491 mm); text 173 rings, 1,369 straight (1,572 mm) / 375 curved (562 mm)
+- **Closed boxes:** 113; named: .pt. .•I-+f; .pt.; .•I-+f
+- **Words (OCR):** 46 in 20 lines: Fl · BI!: CK YSTEM LT · REQU ENCY REsPQNSE CHARACT ERI STI CS · M4BQC INPUT MOOULE EOUALlZ SR · .pt. · .•I-+f · OW REQUENCY · rr: 15 · se tio · iR)OSf/CU · REQUE NCY · 100 H2
+
+Every curve, box, word and wire group: [1982 - M480C - Input Module (2) p9 (traced).json](1982%20-%20M480C%20-%20Input%20Module%20%282%29%20p9%20%28traced%29.json) (the CAD file: `1982 - M480C - Input Module (2) p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 299 × 432 mm, 1385 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 12–287 mm across, 14–415 mm up
+- **Outlines:** line 646 rings, 7,623 straight (16,649 mm) / 1,105 curved (1,687 mm); text 181 rings, 1,092 straight (1,200 mm) / 324 curved (476 mm); tb 19 rings, 171 straight (216 mm) / 36 curved (59.8 mm)
+- **Closed boxes:** 107; named: ~~::lt;
+- **Dots (junctions):** 1
+- **Words (OCR):** 38 in 22 lines: WARO ·BECK SYSTEMS LTD. · FR EQUENCV RESPO NSE CHARACTERISTI CS · "'480(: · INPUT "'OOLLE EQU....LllER · FREQUE NCV 5eC1;on · BOOST/CU · 15 · dB. · REQUENCV, · to · kH · ~~::lt;
+- **Title block:** (33, 400)–(113, 422) mm: WARO ·BECK SYSTEMS LTD.
+
+Every curve, box, word and wire group: [1982 - M480C - Input Module (2) p10 (traced).json](1982%20-%20M480C%20-%20Input%20Module%20%282%29%20p10%20%28traced%29.json) (the CAD file: `1982 - M480C - Input Module (2) p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 299 × 432 mm, 1385 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 12–292 mm across, 17–432 mm up
+- **Outlines:** line 251 rings, 2,303 straight (5,230 mm) / 624 curved (918 mm); text 1,009 rings, 7,425 straight (8,197 mm) / 2,309 curved (3,490 mm); tb 19 rings, 170 straight (223 mm) / 45 curved (64.4 mm)
+- **Words (OCR):** 162 in 105 lines: WARC -BECK SYSTEMS LTC · PARTS LIST · M~8OC NPUT MODUL · PART · OESCR IPTION · PAR HUMBER · pa llor · 10 uF/ · Ph ilips · 035 SER IE · C2 · 0.022
+- **Title block:** (32, 397)–(112, 420) mm: WARC -BECK SYSTEMS LTC
+
+Every curve, box, word and wire group: [1982 - M480C - Input Module (2) p11 (traced).json](1982%20-%20M480C%20-%20Input%20Module%20%282%29%20p11%20%28traced%29.json) (the CAD file: `1982 - M480C - Input Module (2) p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 299 × 432 mm, 1385 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 14–288 mm across, 1–414 mm up
+- **Outlines:** line 299 rings, 2,920 straight (5,763 mm) / 770 curved (1,148 mm); text 668 rings, 4,687 straight (5,240 mm) / 1,476 curved (2,232 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 123 in 85 lines: PARTS LIST · 8OC INPUT MODULE · PART · OESCR IPT ION · FO · "FO · PART NUM8ER · C"Pllc: ll or · 10 uF/25 · TJ9QC 1(l6M0 25AS · en · 220 FjlO
+
+Every curve, box, word and wire group: [1982 - M480C - Input Module (2) p12 (traced).json](1982%20-%20M480C%20-%20Input%20Module%20%282%29%20p12%20%28traced%29.json) (the CAD file: `1982 - M480C - Input Module (2) p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 299 × 432 mm, 1385 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 13–286 mm across, 16–432 mm up
+- **Outlines:** line 133 rings, 1,596 straight (4,154 mm) / 311 curved (479 mm); text 624 rings, 4,101 straight (4,577 mm) / 1,273 curved (1,903 mm); tb 9 rings, 110 straight (146 mm) / 21 curved (31.1 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 81 in 57 lines: WARD -BECK SYSTEMS · LTD. · PARTS IS · M4BOC INP UT MODULE · PART · OESCRI · ION · MF · MFC PA RT NUM BER · ce · tor · Nllt lo nll
+- **Title block:** (9, 396)–(114, 419) mm: WARD -BECK SYSTEMS
+
+Every curve, box, word and wire group: [1982 - M480C - Input Module (2) p13 (traced).json](1982%20-%20M480C%20-%20Input%20Module%20%282%29%20p13%20%28traced%29.json) (the CAD file: `1982 - M480C - Input Module (2) p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 299 × 432 mm, 1385 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–290 mm across, 17–432 mm up
+- **Outlines:** line 149 rings, 1,808 straight (4,694 mm) / 391 curved (588 mm); text 761 rings, 5,171 straight (5,783 mm) / 1,665 curved (2,514 mm)
+- **Words (OCR):** 102 in 57 lines: WARD -BECK YSTEMS L.TD · PAR TS LIST · M480C · NPUT MODUL · PART · DESCR PT ON · "CO · PART · MUNBER · Resis tor · 1!4W · Ph il ip
+- **Title block:** (9, 396)–(72, 418) mm: WARD -BECK YSTEMS L.TD
+
+Every curve, box, word and wire group: [1982 - M480C - Input Module (2) p14 (traced).json](1982%20-%20M480C%20-%20Input%20Module%20%282%29%20p14%20%28traced%29.json) (the CAD file: `1982 - M480C - Input Module (2) p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 299 × 432 mm, 1385 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 14–288 mm across, 17–412 mm up
+- **Outlines:** line 90 rings, 1,047 straight (3,370 mm) / 257 curved (398 mm); text 585 rings, 3,699 straight (4,073 mm) / 1,159 curved (1,666 mm); tb 161 rings, 1,315 straight (1,658 mm) / 348 curved (522 mm)
+- **Words (OCR):** 82 in 61 lines: WARC ·BECK YSTEMS LTC · PART LIST · M480C INP UT MODUL · PART · DESCR TION · MFG PART NUM 8ER · R66 · R~slstor · 4W · Phili ps · 30 · ROS
+- **Title block:** (34, 118)–(231, 420) mm: WARC ·BECK YSTEMS LTC · PART LIST · M480C INP UT MODUL · PART · DESCR TION · R66 · R~slstor · 4W · Phili ps · 30 · Res;stOt'" · Philips · R10 · Rn · R7S · OK · en · 'OK · R?8 · R7S · ROO' · Potenl;omo
+
+Every curve, box, word and wire group: [1982 - M480C - Input Module (2) p15 (traced).json](1982%20-%20M480C%20-%20Input%20Module%20%282%29%20p15%20%28traced%29.json) (the CAD file: `1982 - M480C - Input Module (2) p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 299 × 432 mm, 1385 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 12–287 mm across, 9–418 mm up
+- **Outlines:** line 41 rings, 828 straight (2,933 mm) / 126 curved (190 mm); text 668 rings, 4,478 straight (5,136 mm) / 1,355 curved (2,078 mm); tb 162 rings, 1,395 straight (2,005 mm) / 398 curved (578 mm)
+- **Words (OCR):** 123 in 78 lines: WARD-BeCK SYSTI!MS L.TD. · PART LI ST · M480C NPU MOOULE · PAR · OESCRI TION · "FG · "FG · PART NUMB · Rl01 · Res ls to.. · j4W · Phllips
+- **Title block:** (9, 83)–(229, 426) mm: WARD-BeCK SYSTI!MS L.TD. · PART LI ST · M480C NPU MOOULE · PAR · OESCRI TION · "FG · "FG · Rl01 · Res ls to.. · j4W · Phllips · 02 · RI · Plhe · lOV · ROO' Res ls lor 4W · SI · Ph ilips · IO? · ROO' ·
+
+Every curve, box, word and wire group: [1982 - M480C - Input Module (2) p16 (traced).json](1982%20-%20M480C%20-%20Input%20Module%20%282%29%20p16%20%28traced%29.json) (the CAD file: `1982 - M480C - Input Module (2) p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 299 × 432 mm, 1385 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 13–286 mm across, 21–417 mm up
+- **Outlines:** line 236 rings, 2,778 straight (6,009 mm) / 664 curved (1,032 mm); text 601 rings, 4,218 straight (4,798 mm) / 1,357 curved (2,081 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.1 @ (200.8, 259.6), r 2.1 @ (91.4, 331.5)
+- **Closed boxes:** 1
+- **Words (OCR):** 114 in 78 lines: WAFID -BECK VSTI!MS LTC · TS iST · ~OC NPU MOOUL · P....R · DESCRI TI ON · PAR NUMBER · UJ · lt · Nll ti on ll · F)S3N · F3SJN · NE SS34
+
+Every curve, box, word and wire group: [1982 - M480C - Input Module (2) p17 (traced).json](1982%20-%20M480C%20-%20Input%20Module%20%282%29%20p17%20%28traced%29.json) (the CAD file: `1982 - M480C - Input Module (2) p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 299 × 432 mm, 1385 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 13–287 mm across, 19–414 mm up
+- **Outlines:** line 132 rings, 1,598 straight (4,333 mm) / 358 curved (568 mm); text 352 rings, 2,598 straight (2,972 mm) / 797 curved (1,215 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.1 @ (48.8, 329.7)
+- **Closed boxes:** 1
+- **Words (OCR):** 69 in 38 lines: WARO -BE CK YSTEMS LTO. · PART NUMBER · M480C NPUT MODUL · "SED · DESCRI PT ON · MF PA RT NUMBER · Bu lton · Wh · rr · FM_WH · SWl · Gr~l'
+
+Every curve, box, word and wire group: [1982 - M480C - Input Module (2) p18 (traced).json](1982%20-%20M480C%20-%20Input%20Module%20%282%29%20p18%20%28traced%29.json) (the CAD file: `1982 - M480C - Input Module (2) p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 299 × 432 mm, 1385 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 12–299 mm across, 0–432 mm up
+- **Outlines:** line 248 rings, 2,937 straight (7,296 mm) / 575 curved (927 mm); text 343 rings, 2,979 straight (3,766 mm) / 731 curved (1,153 mm); tb 9 rings, 84 straight (122 mm) / 16 curved (23.5 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 2.1 @ (199.3, 274.8), r 2.1 @ (92.8, 275.7), r 2.1 @ (183.4, 275.2), r 2.1 @ (175.6, 262.5)
+- **Closed boxes:** 43; named: rz; zo; at; aa
+- **Dots (junctions):** 1
+- **Words (OCR):** 98 in 61 lines: WARD ·BECK SYSTEMS · LTD · CONNECTOR · VOU · M/oBoe NPU MOQUL · INPUT · NPU · MI · NP UT · NPUT · SH EL · SH IE
+- **Title block:** (8, 398)–(114, 420) mm: WARD ·BECK SYSTEMS
+
+Every curve, box, word and wire group: [1982 - M480C - Input Module (2) p19 (traced).json](1982%20-%20M480C%20-%20Input%20Module%20%282%29%20p19%20%28traced%29.json) (the CAD file: `1982 - M480C - Input Module (2) p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 299 × 432 mm, 1385 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 14–288 mm across, 15–410 mm up
+- **Outlines:** line 441 rings, 3,912 straight (6,656 mm) / 1,021 curved (1,518 mm); text 1,561 rings, 10,755 straight (11,547 mm) / 3,357 curved (5,066 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.1 @ (64.6, 246.1), r 2.1 @ (65.5, 325.1), r 1.6 @ (94.0, 48.4)
+- **Words (OCR):** 332 in 126 lines: WA~D-BECK YSTEMS LTD · OPERAT IONAL CONTROLS · M480C INPU MOOULE · II · PHANT OM · OWER · wi lch SWI: Selec · .48 vol ts phanlom pow"r 10 · he ".,lc l"OPhon · UI for · condcn~ ".,lcl"OPOOne appiIUi ion". · MIC
+
+Every curve, box, word and wire group: [1982 - M480C - Input Module (2) p20 (traced).json](1982%20-%20M480C%20-%20Input%20Module%20%282%29%20p20%20%28traced%29.json) (the CAD file: `1982 - M480C - Input Module (2) p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 299 × 432 mm, 1385 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 14–297 mm across, 18–413 mm up
+- **Outlines:** line 230 rings, 2,102 straight (4,627 mm) / 530 curved (820 mm); text 1,151 rings, 8,062 straight (8,860 mm) / 2,404 curved (3,570 mm)
+- **Closed boxes:** 1; named: ·BECl<
+- **Words (OCR):** 250 in 102 lines: WAFlD ·BECl< SYSTEMS LTD · OPER ATIONAL CONTROLS · M480C INPUT MODULE · GM/PEAK Ind icat or 052 · Fla"he" green · ith norma · am · ever of · VU Of" · .-calc" · at lhe · re
+
+Every curve, box, word and wire group: [1982 - M480C - Input Module (2) p21 (traced).json](1982%20-%20M480C%20-%20Input%20Module%20%282%29%20p21%20%28traced%29.json) (the CAD file: `1982 - M480C - Input Module (2) p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 300 × 432 mm, 1387 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 37–300 mm across, 0–386 mm up
+- **Outlines:** line 324 rings, 3,432 straight (7,968 mm) / 678 curved (1,352 mm); text 328 rings, 2,713 straight (3,899 mm) / 765 curved (1,267 mm); tb 4 rings, 69 straight (145 mm) / 11 curved (16.4 mm)
+- **Circles and arcs:** 36 circles, 0 arcs; largest r 5.4 @ (149.5, 292.9), r 5.3 @ (43.8, 118.2), r 5.3 @ (149.5, 341.6), r 5.3 @ (44.1, 136.7)
+- **Closed boxes:** 7 (5 in the title block); named: BS REVISION
+- **Dots (junctions):** 1
+- **Words (OCR):** 57 in 44 lines: BS · M480C · ~13 · 48" · OFF · OUT · PAD · J:1 · 30 SENSO · MIC · UtI li · PEAK
+- **Title block:** (192, 13)–(285, 58) mm: ps · IISSUEIOATf · BS REVISION · VVElS) WARD-BECK SYS · DRN. · ENG. · f.Al-!w · tp · 480C · ht · INPUT MODULE · FRONT PANEl
+
+Every curve, box, word and wire group: [1982 - M480C - Input Module (2) p22 (traced).json](1982%20-%20M480C%20-%20Input%20Module%20%282%29%20p22%20%28traced%29.json) (the CAD file: `1982 - M480C - Input Module (2) p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** functional 480-01-002, size B (assumed) 432 × 274 mm, 2000 × 1269 px traced (0.216 mm/px)
+- **Ink extent:** 11–432 mm across, 0–239 mm up
+- **Outlines:** line 156 rings, 2,999 straight (8,026 mm) / 439 curved (651 mm); text 487 rings, 3,426 straight (3,874 mm) / 1,002 curved (1,462 mm); tb 14 rings, 202 straight (356 mm) / 31 curved (48.3 mm)
+- **Centre lines:** 4,664 paths (83 closed); straight 6,922 mm, curved 128 mm; horizontal 2,599 mm, vertical 1,718 mm, diagonal 2,605 mm
+- **Circles and arcs:** 3 circles, 21 arcs; largest r 4.8 @ (159.2, 120.7), r 1.5 @ (73.9, 149.6), r 1.5 @ (393.7, 88.6)
+- **Closed boxes:** 9 (6 in the title block); named: EQUALI ZER
+- **Words (OCR):** 104 in 79 lines: INB · SELECT · A~--4IIf- · PAD · IC NPUT · OUT MIC /L1NE · SENS IV lTV · -70/ -40 dBm · SELECT · 30dB · EQ · PAD -50/-20dBm
+- **Title block:** (286, 1)–(432, 68) mm: ISSUE DATE · REVISION · APP. · (VVE3S) WARD-BECK YSTEM · ps · BS · DRN · lol~. · M480C · Me"" · ENG. · INPUT MODULE · CKO. · tp · FUNCTIONAL DIAGRAM · ht · APP. · SCALE · ISSUE · 480-01 -002
+- **Wiring (first pass):** 87 connected wire groups from 254 runs; labelled ends: 302 mm → L-.-J, SOLO; 80 mm → EQUALI; 72 mm → PEAK, PGM; 64 mm → POST; 52 mm → SELECT
+
+Every curve, box, word and wire group: [1982 - M480C - Input Module (2) p23 (traced).json](1982%20-%20M480C%20-%20Input%20Module%20%282%29%20p23%20%28traced%29.json) (the CAD file: `1982 - M480C - Input Module (2) p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 432 × 281 mm, 2000 × 1300 px traced (0.216 mm/px)
+- **Ink extent:** 8–432 mm across, 0–281 mm up
+- **Outlines:** line 1,204 rings, 12,838 straight (19,944 mm) / 2,793 curved (3,418 mm); text 926 rings, 4,990 straight (3,749 mm) / 1,446 curved (1,622 mm); tb 24 rings, 446 straight (972 mm) / 65 curved (92.8 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 0.7 @ (30.7, 143.3)
+- **Closed boxes:** 11
+- **Dots (junctions):** 1
+- **Words (OCR):** 198 in 142 lines: PT. Nil · DESC RIP ION · EO INSERT · os · PHANT(»ol POWER · FLVII7 · IiOTES · Al.L AES ISTOflS · Al.L CAPAClTe.ts ARE 1M uF · 4W 5S AND · PIolA.NT OIol · -.BV
+- **Title block:** (356, 0)–(432, 36) mm: 1'1•• · !ISSUE loAT£ · tp · (VVBS) · D-BEC · SYSTEMS · ht Jp · DRN. 11/8 · M-480C · ENG · Mi!J..J · INPUT MODULE · CKD · APP · SCHEMATIC · SCAl( · <SSU< · "'80 02- 00
+
+Every curve, box, word and wire group: [1982 - M480C - Input Module (2) p24 (traced).json](1982%20-%20M480C%20-%20Input%20Module%20%282%29%20p24%20%28traced%29.json) (the CAD file: `1982 - M480C - Input Module (2) p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** drawing, size B (assumed) 432 × 310 mm, 2000 × 1437 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 0–278 mm up
+- **Outlines:** line 1,893 rings, 14,976 straight (23,231 mm) / 3,271 curved (4,108 mm); text 302 rings, 1,713 straight (1,715 mm) / 550 curved (698 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 3.2 @ (248.3, 104.3), r 2.6 @ (165.4, 199.1)
+- **Closed boxes:** 17; named: ht
+- **Words (OCR):** 43 in 32 lines: so. · 11L., · ID~~ · IIJ'_oo,,, · Iv · GE' · 31 · Ul · ii LF~N · II · 14 49 · O~~22 O~~2 UI~ ti: CANADA
+
+Every curve, box, word and wire group: [1982 - M480C - Input Module (2) p25 (traced).json](1982%20-%20M480C%20-%20Input%20Module%20%282%29%20p25%20%28traced%29.json) (the CAD file: `1982 - M480C - Input Module (2) p25 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

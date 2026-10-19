@@ -33,6 +33,7 @@ iframe, embed { border:0; width:100%; height:100%; display:block; background:#ff
 /* CAD-style navigation of a picture: wheel zooms at the pointer, drag pans, double-click fits */
 main.cad { overflow:hidden; cursor:grab; touch-action:none } main.cad.drag { cursor:grabbing }
 main.cad .img .pg { transform-origin:0 0; will-change:transform }
+.pg.alone svg.trace { --ink:1 !important }   /* no scan on the website: the trace stands alone, in full */
 main.cad .img img, main.cad .img canvas { max-height:calc(100vh - 140px); user-select:none; -webkit-user-drag:none }
 /* the on-screen handles: pan arrows round a fit button, zoom below; bottom left, clear of the LIKE.AUDIO badge on the right */
 #zoom { position:absolute; left:14px; bottom:14px; z-index:6; display:grid; grid-template-columns:repeat(3, 34px); gap:2px;
@@ -147,6 +148,12 @@ function showOffline(dv) {
       const key = dv[1] ? '&resourcekey=' + encodeURIComponent(dv[1]) : '';
       if (/\.(jpe?g|png|gif|bmp|webp|tiff?)$/i.test(rel))   // a picture: drawn here, so the hover links sit on it
         { view.innerHTML = `<div class="img"><div class="pg"><img src="https://drive.google.com/thumbnail?sz=w2400&id=${dv[0]}${key}" alt="">${spotsHtml(1)}</div></div>`; turnImages(); trace(); }
+      else if (/\.pdf$/i.test(rel) && window.tracePages)
+        window.tracePages(rel).then(tp => {
+          if (tp) return pdfView(tp[0], rel, tp[1], null, pdfAlone);
+          view.innerHTML = `<iframe src="https://drive.google.com/file/d/${dv[0]}/preview${dv[1] ? '?resourcekey=' + encodeURIComponent(dv[1]) : ''}"
+            title="from the archive's Google Drive" allow="autoplay"></iframe>`;
+        });
       else
         view.innerHTML = `<iframe src="https://drive.google.com/file/d/${dv[0]}/preview${dv[1] ? '?resourcekey=' + encodeURIComponent(dv[1]) : ''}"
           title="from the archive's Google Drive" allow="autoplay"></iframe>`;
@@ -173,14 +180,46 @@ function trace() {
 let pdfGo = null;
 function pdfTraced(path) {
   if (!window.tracePages || !window.tracePdfJs) return;
-  window.tracePages(path).then(tp => tp && window.tracePdfJs().then(lib => lib.getDocument({ url: new URL(enc(path), location.href).href }).promise).then(doc => pdfView(doc, path, tp[1])))
+  window.tracePages(path).then(tp => tp && window.tracePdfJs().then(lib => lib.getDocument({ url: new URL(enc(path), location.href).href }).promise).then(doc => pdfView(doc.numPages, path, tp[1], pdfPage(doc))))
     .catch(() => {});   // no pdf.js, or the PDF would not open in it: the browser's viewer stays
 }
-function pdfView(doc, path, traced) {
-  const N = doc.numPages, bar = document.getElementById('tracebar');
+// a page drawn by pdf.js onto the canvas: drawn aside, then swapped in (no blank flash between pages)
+function pdfPage(doc) {
+  let task = null;
+  return (p, cv, live) => doc.getPage(p).then(page => {
+    if (!live()) return false;
+    const v1 = page.getViewport({ scale: 1 }), vp = page.getViewport({ scale: Math.min(4, 2400 / Math.max(v1.width, v1.height)) });
+    if (task) task.cancel();
+    const off = Object.assign(document.createElement('canvas'), { width: Math.round(vp.width), height: Math.round(vp.height) });
+    task = page.render({ canvas: off, canvasContext: off.getContext('2d'), viewport: vp });
+    return task.promise.then(() => {
+      if (!live()) return false;
+      cv.width = off.width; cv.height = off.height;
+      cv.getContext('2d').drawImage(off, 0, 0);
+      return true;
+    });
+  });
+}
+// the website has no PDFs: a traced PDF is shown as its traces alone, page by page, on blank paper sized to each sheet
+function pdfAlone(cv, path) {
+  return (p, _, live) => window.traceLookup(path + '#p' + p).then(t => {
+    if (!live()) return false;
+    const pg = cv.parentNode;
+    pg.classList.add('alone');
+    if (!t) { cv.width = 1000; cv.height = 1294; cv.getContext('2d').clearRect(0, 0, 1000, 1294); return true; }
+    return window.traceOverlay(pg, path + '#p' + p, document.getElementById('tracebar')).then(() => {
+      const vb = (pg.querySelector('svg.trace') || {}).viewBox;
+      if (vb && vb.baseVal && vb.baseVal.width) { cv.width = vb.baseVal.width; cv.height = vb.baseVal.height; }
+      return live();
+    });
+  });
+}
+function pdfView(N, path, traced, draw, alone) {
+  const bar = document.getElementById('tracebar');
   view.innerHTML = '<div class="img"><div class="pg"><canvas></canvas></div></div>';
   const pg = view.querySelector('.pg'), cv = pg.querySelector('canvas');
-  let cur = 0, seq = 0, task = null;
+  if (alone) draw = alone(cv, path);
+  let cur = 0, seq = 0;
   pdfGo = p => {
     p = Math.min(N, Math.max(1, p | 0));
     if (p === cur) return;
@@ -189,23 +228,15 @@ function pdfView(doc, path, traced) {
     history.replaceState(null, '', '#page=' + p);
     const count = document.querySelector('#zoom .pages .count');
     if (count) count.textContent = `${p}/${N}`;
-    doc.getPage(p).then(page => {
-      if (me !== seq) return;
-      const v1 = page.getViewport({ scale: 1 }), vp = page.getViewport({ scale: Math.min(4, 2400 / Math.max(v1.width, v1.height)) });
-      if (task) task.cancel();
-      const off = Object.assign(document.createElement('canvas'), { width: Math.round(vp.width), height: Math.round(vp.height) });
-      task = page.render({ canvas: off, canvasContext: off.getContext('2d'), viewport: vp });
-      return task.promise.then(() => {
-        if (me !== seq) return;
-        cv.width = off.width; cv.height = off.height;   // drawn aside, then swapped in: no blank flash between pages
-        cv.getContext('2d').drawImage(off, 0, 0);
-        pg.querySelectorAll('.hot, .trace').forEach(a => a.remove());
-        pg.insertAdjacentHTML('beforeend', spotsHtml(p));
-        bar.hidden = true;
-        cv.style.opacity = '';
-        if (traced.includes(p)) window.traceOverlay(pg, path + '#p' + p, bar);
-        else pg.dataset.trace = '';
-      });
+    if (alone) { pg.querySelectorAll('.hot').forEach(a => a.remove()); pg.insertAdjacentHTML('beforeend', spotsHtml(p)); }
+    draw(p, cv, () => me === seq).then(ok => {
+      if (!ok || alone) return;
+      pg.querySelectorAll('.hot, .trace').forEach(a => a.remove());
+      pg.insertAdjacentHTML('beforeend', spotsHtml(p));
+      bar.hidden = true;
+      cv.style.opacity = '';
+      if (traced.includes(p)) window.traceOverlay(pg, path + '#p' + p, bar);
+      else pg.dataset.trace = '';
     }).catch(() => {});
   };
   cad(pg);
@@ -218,7 +249,8 @@ function pdfView(doc, path, traced) {
     if (e.target.closest('input, textarea')) return;
     if (e.key === '[') pdfGo(cur - 1); if (e.key === ']') pdfGo(cur + 1);
   });
-  document.getElementById('meta').textContent += ` · ${traced.length} of ${N} pages traced (Original file: the browser's PDF viewer)`;
+  document.getElementById('meta').textContent += alone ? ` · ${traced.length} of ${N} pages traced, shown as their traces (the scan is kept in the archive)`
+    : ` · ${traced.length} of ${N} pages traced (Original file: the browser's PDF viewer)`;
   pdfGo(+(location.hash.match(/page=(\d+)/) || [])[1] || 1);
 }
 // CAD-style: wheel or +/− zooms at the pointer, drag pans, double-click / 0 / "fit" puts the whole sheet back

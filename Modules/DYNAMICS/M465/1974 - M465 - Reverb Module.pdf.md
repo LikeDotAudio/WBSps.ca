@@ -12,6 +12,378 @@ Wiki page: [M465](../../../PAGES/M465.md)
 - **Pages:** 34
 - **PDF created (scan date, not design date):** Mon Aug 17 16:43:38 2009 EDT
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–315 mm across, 0–422 mm up
+- **Outlines:** line 27 rings, 759 straight (2,826 mm) / 78 curved (120 mm); text 169 rings, 1,958 straight (2,577 mm) / 415 curved (699 mm); tb 3 rings, 120 straight (291 mm) / 10 curved (21.2 mm)
+- **Words (OCR):** 13 in 9 lines: WARD-BECK · SYSTEMS LTD_ · WBS 841 PROGAESS AVENUE; SCAABOROUGH; ONTAAIO M1H 2x4 · TELEX: 065-25399 · TELEPHONE: 416/439-6550 · M465 · REVERB MODULE · DESIGN AND MANUFACTUAE Of PPOFESSIONL · AUDIO EQUPMENT
+- **Title block:** (45, 386)–(266, 423) mm: WARD-BECK · SYSTEMS LTD_ · WBS 841 PROGAESS AVENUE; SCAABOROUGH; ONTAAIO M1H 2x4 · TELEX: 065-25399 · TELEPHONE: 416/439-6550
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p1 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p1%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** functional 8465-01-881, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–315 mm across, 0–422 mm up
+- **Outlines:** line 30 rings, 670 straight (2,994 mm) / 54 curved (93.4 mm); text 711 rings, 5,340 straight (6,280 mm) / 1,498 curved (2,396 mm); tb 6 rings, 96 straight (306 mm) / 11 curved (15.0 mm)
+- **Centre lines:** 2,800 paths (123 closed); straight 5,686 mm, curved 0.0 mm; horizontal 1,499 mm, vertical 1,791 mm, diagonal 2,396 mm
+- **Words (OCR):** 74 in 55 lines: WAAD-BECK SYSTEMS LTD_ · IABLE · 0F · COnTENIS · M465 REVERB · MODULE · PAGE · SECTION · Warranty · Technica] Da ta · 1-1 · to 1-2
+- **Title block:** (22, 78)–(281, 427) mm: WAAD-BECK SYSTEMS LTD_ · IABLE · 0F · COnTENIS · M465 REVERB · MODULE · PAGE · SECTION · Warranty · Technica] Da ta · 1-1 · to 1-2 · circuit Description · 2 -1 to · 2-2 · List · 3 - 1 t0 · 3 - 3 · Par
+- **Wiring (first pass):** 2 connected wire groups from 21 runs
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p2 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p2%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 0–419 mm up
+- **Outlines:** line 46 rings, 930 straight (3,297 mm) / 129 curved (186 mm); text 963 rings, 7,179 straight (8,251 mm) / 2,017 curved (3,216 mm)
+- **Dots (junctions):** 2
+- **Words (OCR):** 138 in 69 lines: WAAD-BECK systems LTD_ · TECHNICAL · DATA · M465 REVERB MODULE · Gain: · Return: · 15 · dB +0 .5 dB_ · Send: · 33 · dB +0 .5 dB · Frequency Response:
+- **Title block:** (25, 400)–(154, 424) mm: WAAD-BECK systems LTD_
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p3 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p3%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–422 mm up
+- **Outlines:** line 38 rings, 964 straight (3,347 mm) / 71 curved (120 mm); text 490 rings, 3,883 straight (4,476 mm) / 998 curved (1,552 mm)
+- **Words (OCR):** 62 in 34 lines: WAAD-BECK SYSTeMS LTD_ · TECHNICAL DATA · M465 REVERB MODULE · Output · Levels: · Return: · -10 dBm nomina ] · +28 dBm maximum. · Send : · dBm · nomina] , 424 dBm maximum_ · Phasing:
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p4 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p4%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–315 mm across, 0–416 mm up
+- **Outlines:** line 68 rings, 968 straight (3,607 mm) / 131 curved (202 mm); text 1,893 rings, 14,185 straight (16,065 mm) / 4,129 curved (6,573 mm)
+- **Dots (junctions):** 2
+- **Words (OCR):** 261 in 131 lines: WARD-BECK · LTD_ · CIRCUII_DESCRIPIION · M465 REVERB · MODULE · The · M465 REVERB · MODULE des igned be · i5 · t0 · used in · conjunction
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p5 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p5%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–422 mm up
+- **Outlines:** line 46 rings, 981 straight (3,664 mm) / 103 curved (166 mm); text 509 rings, 3,990 straight (4,542 mm) / 1,136 curved (1,808 mm)
+- **Words (OCR):** 67 in 35 lines: WAAD-BECK SYSTEmS LTD_ · CIRCUIT DESCRIPTION · M465 REVERB · MODULE · Power · Supply_Decoupl · ing · An · active power · supply decoup]ing network · consisting 0 f Q1 · through Q6
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p6 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p6%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–315 mm across, 0–419 mm up
+- **Outlines:** line 73 rings, 971 straight (3,798 mm) / 111 curved (171 mm); text 658 rings, 4,963 straight (5,728 mm) / 1,508 curved (2,435 mm); tb 63 rings, 354 straight (528 mm) / 91 curved (136 mm)
+- **Words (OCR):** 90 in 76 lines: WARD-BECK SYSTEMS LTD · PARIS LIST · M465 REVERB · MODULE · PART DESCRIPTION · MFG · MFG · PART · NUMBER · C1 · Capacitor 22 uF/25 · Philips
+- **Title block:** (24, 108)–(264, 425) mm: WARD-BECK SYSTEMS LTD · PARIS LIST · M465 REVERB · MODULE · PART DESCRIPTION · MFG · MFG · C1 · Capacitor 22 uF/25 · Philips · 426ETF22 · Cz · C3 · C4 · CRl Diode · Motoro]a · 1n4003 · CR2 · CR3 · CR4
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p7 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p7%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–421 mm up
+- **Outlines:** line 36 rings, 981 straight (3,547 mm) / 94 curved (153 mm); text 549 rings, 4,402 straight (5,195 mm) / 1,314 curved (2,081 mm); tb 116 rings, 544 straight (643 mm) / 155 curved (240 mm)
+- **Words (OCR):** 94 in 85 lines: WAAD-BECK SYSTEMS · LTD_ · PARIS LISI · M465 · REVERB MODULE · PART DESCRIPTION · MFG · MFG PART · NUMBER · R19 · Res istor · 390
+- **Title block:** (24, 38)–(260, 424) mm: WAAD-BECK SYSTEMS · LTD_ · PARIS LISI · M465 · REVERB MODULE · PART DESCRIPTION · MFG · MFG PART · R19 · Res istor · 390 · Philips · R20 · 390 · R21 · 390 · R22 · 390 · R2 3 · 15k · R24 · 15k · R25 · 
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p8 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p8%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–311 mm across, 7–414 mm up
+- **Outlines:** line 30 rings, 816 straight (3,117 mm) / 99 curved (157 mm); text 217 rings, 1,790 straight (2,038 mm) / 485 curved (764 mm); tb 1 rings, 2 straight (1.3 mm) / 1 curved (1.0 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 25 in 14 lines: WAAD-BECK Systems LTD · PARTS · LIST · M465 REVERB · MODULE · WBS recommends the us e · 0 f · replacement parts ma de by · the · specified · manufacturers for · continued optimum equipment
+- **Title block:** (21, 311)–(132, 424) mm: WAAD-BECK Systems LTD · WBS recommends the us e · specified · manufacturers for
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p9 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p9%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 0–422 mm up
+- **Outlines:** line 41 rings, 674 straight (2,968 mm) / 73 curved (108 mm); text 58 rings, 528 straight (667 mm) / 129 curved (197 mm)
+- **Words (OCR):** 6 in 4 lines: WAAD-BECK · Sybtems LTD_ · 8-109 AMPLIFIER SERIES · 8-109
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p10 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p10%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 12–423 mm up
+- **Outlines:** line 98 rings, 1,176 straight (3,406 mm) / 227 curved (351 mm); text 1,352 rings, 10,532 straight (11,836 mm) / 2,937 curved (4,660 mm); tb 1 rings, 2 straight (1.6 mm) / 1 curved (1.2 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.9 @ (172.3, 189.1)
+- **Words (OCR):** 201 in 109 lines: WARD-BECK Systems LTD. · OAAW · DESCRIPIION · 8-109 AMPLIFIER · SERIES · The 8-109 series · of amplifiers utilized an · are · internal · component within various · WBS series 0 f audio console · modules .
+- **Title block:** (19, 310)–(162, 429) mm: WARD-BECK Systems LTD. · 8-109 AMPLIFIER · The 8-109 series · component within various · Each · 8-109 amplifier mounts a5
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p11 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p11%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 0–419 mm up
+- **Outlines:** line 53 rings, 847 straight (3,124 mm) / 134 curved (214 mm); text 1,810 rings, 15,049 straight (16,410 mm) / 4,016 curved (6,325 mm); tb 1 rings, 1 straight (1.1 mm) / 3 curved (3.6 mm)
+- **Dots (junctions):** 2
+- **Words (OCR):** 262 in 122 lines: WAAD-BECK SYSTEMS LTD · DESCRLPILON · 8-109 AMPLIFIER · SERIES · Output Impedance: · Less than · 100 ohms · 1C · Load Impedance: 600 ohms ba ]anced . · 80; -0 · Output Level : · +30 dBm maximum_
+- **Title block:** (24, 404)–(152, 429) mm: WAAD-BECK SYSTEMS LTD
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p12 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p12%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 198 rings, 1,452 straight (3,565 mm) / 299 curved (372 mm); text 242 rings, 2,115 straight (2,419 mm) / 570 curved (890 mm)
+- **Words (OCR):** 29 in 13 lines: WARO-BECK BYSTEME LTD_ · DESCRIPIION · 8-109 AMPLIELER_SERIES · inverting amplifier with El externally strapped to E6 _ · The output · of a11 models 0 f the 8-109 · series · is actively · ba lanced and is · brought out at · Pins · E4 and E6 _
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p13 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p13%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–311 mm across, 0–423 mm up
+- **Outlines:** line 138 rings, 1,554 straight (4,676 mm) / 243 curved (372 mm); text 795 rings, 6,561 straight (7,470 mm) / 1,971 curved (3,088 mm)
+- **Closed boxes:** 14
+- **Dots (junctions):** 1
+- **Words (OCR):** 104 in 93 lines: WAAD-BECK · LTD_ · LIST · PARIS · 8-109 · AMPLLFIERSERIES · 8-109 · PARI DESCRIPILON · MFG · MFG PART NUMBER · C1 · Capacitor 33 uF/ 10
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p14 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p14%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 11–422 mm up
+- **Outlines:** line 103 rings, 1,471 straight (3,974 mm) / 233 curved (355 mm); text 490 rings, 4,025 straight (4,618 mm) / 1,266 curved (1,973 mm)
+- **Closed boxes:** 16
+- **Dots (junctions):** 2
+- **Words (OCR):** 93 in 85 lines: WAAD-BECK · LTD_ · PARIS LISI · 8-109 AMPLIFLERSERLES · 8-109 · MFG · MFG PART · NUMBER · PART DESCRIPIION · R4  Resistor · 6k2 · Philips
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p15 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p15%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–308 mm across, 8–421 mm up
+- **Outlines:** line 63 rings, 1,403 straight (4,867 mm) / 151 curved (247 mm); text 661 rings, 5,397 straight (6,209 mm) / 1,499 curved (2,346 mm)
+- **Closed boxes:** 5
+- **Dots (junctions):** 1
+- **Words (OCR):** 99 in 84 lines: WAAD-BECK SYStems LTD. · PARIS · LIST · 8-109 · AMPLIFIER_SERIES · 8-109 · 2 9 · 790 · PART · DESCRIPIION · MFG · MFG PART
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p16 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p16%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–330 mm across, 10–426 mm up
+- **Outlines:** line 68 rings, 1,624 straight (4,708 mm) / 267 curved (397 mm); text 728 rings, 5,780 straight (6,622 mm) / 1,688 curved (2,647 mm)
+- **Closed boxes:** 4
+- **Words (OCR):** 103 in 85 lines: WARD-BECK systems LTD; · PARIS_LISI · 8-109 · AMPLLEIER_SERLES · 8-109C · 2-2 · A1I · parts · per · 8-109 except as noted be Iow · PARI DESCRIPIION · MEG
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p17 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p17%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–307 mm across, 9–422 mm up
+- **Outlines:** line 36 rings, 1,099 straight (3,999 mm) / 118 curved (187 mm); text 585 rings, 4,707 straight (5,379 mm) / 1,398 curved (2,179 mm); tb 8 rings, 78 straight (71.1 mm) / 12 curved (17.8 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 72 in 48 lines: WAAD-BECK sysTems LTO_ · PARIS LISI · 8-109 · AMPLLFLER_SERIES · 8-109F · A11 · parts as per · 8-109 except · noted be ]ow · PART DESCRIPIION · MFG · MFG PART
+- **Title block:** (22, 60)–(132, 426) mm: WAAD-BECK sysTems LTO_ · 8-109 · 8-109F · A11 · parts as per · 8-109 except · PART DESCRIPIION · C6 · Capacitor · 4.7 PF · C11 · R15 · Res istor sw · 8-109G · AII parts · per · PARI DESCRIPIION · C6 ·
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p18 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p18%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 4–428 mm up
+- **Outlines:** line 228 rings, 5,499 straight (12,021 mm) / 624 curved (1,048 mm); text 581 rings, 5,082 straight (6,683 mm) / 1,259 curved (2,110 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.3 @ (257.0, 27.6), r 2.3 @ (322.3, 208.3)
+- **Closed boxes:** 80; named: B| 2; cl 3; D 4; El5; Fl6; HI 7; Kl 9; L/1o; M11; N/12; Pl13; R/14
+- **Words (OCR):** 113 in 54 lines: IC · IC · IC B| 2 · IC · IC · cl 3 IC · REV SEND OUT · D 4 · REV SEND OUT · REV SEND Out El5 · REV SEND OUT · REV
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p19 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p19%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 8–402 mm up
+- **Outlines:** line 58 rings, 1,499 straight (4,265 mm) / 155 curved (240 mm); text 103 rings, 728 straight (850 mm) / 230 curved (376 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 16 in 16 lines: REV SEND (RS) · SECTION · RS · VU · RS · LEVEL · RR IN · RS IN · RS · -10 dBm · 8- 109C · 10 dBm
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p20 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p20%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 8–424 mm up
+- **Outlines:** line 114 rings, 3,990 straight (10,669 mm) / 395 curved (620 mm); text 423 rings, 3,357 straight (4,409 mm) / 944 curved (1,598 mm); tb 13 rings, 179 straight (370 mm) / 36 curved (69.9 mm)
+- **Closed boxes:** 18 (10 in the title block); named: WAS 4-109(C) 8-109 (C); 7/78; ISSUE; 465-01-00 1; SCALE
+- **Words (OCR):** 62 in 51 lines: REV RETURN (RR) · SECTION · RR · DIRECT Out · PAN · dBm · -10 · INSERT · RR ON · RR · FADER · LEFT Out
+- **Title block:** (118, 14)–(334, 125) mm: 7/78 · 8-109 (C) · WAS 4-109(C) · 10/77 · REDRAWN · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: PMAKOXEY · M465 · ENG RKB · REVERB · MODULE · cKD Rully · FUNCTIONAL DIAGRAM · APP · SCAL
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p21 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p21%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 8–412 mm up
+- **Outlines:** line 260 rings, 4,520 straight (9,367 mm) / 804 curved (1,284 mm); text 382 rings, 3,180 straight (3,685 mm) / 1,105 curved (1,664 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 93 in 81 lines: Sw7 · R-R ON · 15 · 713 12< · 2E2 · 5.6 · R38 · FADER · R13 · RETURN · IN · R37
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p22 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p22%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 7–424 mm up
+- **Outlines:** line 368 rings, 7,127 straight (16,876 mm) / 1,062 curved (1,585 mm); text 544 rings, 4,229 straight (4,775 mm) / 1,429 curved (2,174 mm); tb 12 rings, 116 straight (188 mm) / 15 curved (17.7 mm)
+- **Closed boxes:** 28 (3 in the title block); named: 3C0 J4 R28; WBS WARD-Beck LTD; 1755; M465 REVERB MODULE SCHEMATIC; 465-02-001
+- **Dots (junctions):** 8
+- **Words (OCR):** 120 in 113 lines: 16 · #2iV · ~2iv · LEFT · 2E3 · Sw? · 32E2 · 2E4 · REVERB · RETURN · Ri9 · R2i
+- **Title block:** (214, 8)–(296, 52) mm: WBS WARD-Beck · DRK: · DATE 2 OCLL7Z · M465 · CKD_ · REVERB MODULE · SCALE · SCHEMATIC · Ex · TOLS · 465-02-001
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p23 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p23%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 2–424 mm up
+- **Outlines:** line 326 rings, 4,444 straight (8,237 mm) / 798 curved (1,300 mm); text 528 rings, 4,265 straight (5,199 mm) / 1,365 curved (2,074 mm); tb 60 rings, 380 straight (448 mm) / 79 curved (111 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 10.2 @ (273.8, 286.6), r 3.9 @ (220.3, 253.6), r 3.4 @ (23.8, 65.0), r 3.0 @ (241.6, 375.4)
+- **Closed boxes:** 28; named: ON
+- **Words (OCR):** 91 in 74 lines: tipz9b · Q3 · R4236 · R43zs · CRi · 2N3569 · 73569 · Q5 ~R4456 · ~R45z6 · 2225_ C3 _ · 22/25 · -R3947ok
+- **Title block:** (118, 137)–(176, 293) mm: SwS · WBS 11-002 · To · To · Pin 6 Pin F · JS · Sw6 · SW? · J6 83 88 · R21 · Sw3 · wBS !1-022
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p24 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p24%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** component layout 4-132-06 001, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 1–422 mm up
+- **Outlines:** line 413 rings, 5,214 straight (9,525 mm) / 1,463 curved (1,519 mm); text 528 rings, 4,798 straight (4,684 mm) / 1,473 curved (1,766 mm); tb 32 rings, 376 straight (543 mm) / 120 curved (131 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 9.7 @ (84.4, 286.2), r 3.9 @ (30.8, 253.1), r 3.8 @ (190.9, 252.9), r 3.8 @ (190.9, 100.4)
+- **Closed boxes:** 39 (25 in the title block); named: WBS WAAD-BECK LTD.; M465 REVERB MODULE PCB LAYOUT; FiMiSH; 4-132-06-001; TolS
+- **Words (OCR):** 81 in 74 lines: tipz9b · Q3 R4256 04 · A4 · R4326 · R4i · #CR3 N+jo} · CRi · 343569 · CR2 · #CRA- · 05 -R445L · 06
+- **Title block:** (54, 10)–(281, 66) mm: DSS MODJICKD · USED OM · MATL · WBS WAAD-BECK · Dm · 1B532 · DRN: · M465 · FiMiSH · cKo Ral · REVERB MODULE · PCB LAYOUT · SCALE · TolS · 4-132-06-001
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p25 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p25%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** layout 465-04-004, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–431 mm up
+- **Outlines:** line 73 rings, 2,249 straight (6,107 mm) / 243 curved (372 mm); text 688 rings, 4,372 straight (4,037 mm) / 1,715 curved (2,191 mm); tb 288 rings, 2,792 straight (6,595 mm) / 538 curved (851 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.1 @ (47.6, 145.8)
+- **Closed boxes:** 16 (12 in the title block); named: output leve ] sect ion VU Heter Indicate; Hhen depressed, FOLDBACK Sh? : the REV R; PAN switch Sh}: enables Pan contro| Hhen; Pre- fade REV SOLO stitch S4 Hhen depres
+- **Words (OCR):** 128 in 73 lines: WBS · M465 · REVERB SEND MASTER Ieve | control Ri/z: Controls Ieve · REV SEND section · VU Heter Indicates · output leve ] of REV SEND · sect ion · MSTR · feeds · Pre-fade REY · SOLO shitch · SEND signa
+- **Title block:** (145, 0)–(335, 319) mm: WBS · M465 · REVERB SEND MASTER Ieve | control Ri/z: Controls Ieve · REV SEND section · MSTR · feeds · Pre-fade REY · SOLO shitch · SEND signa · Hhen depres sed, · output bus. · FOLdBACK LEVEL control
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p26 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p26%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 1–432 mm up
+- **Outlines:** line 184 rings, 3,706 straight (10,935 mm) / 658 curved (1,094 mm); text 469 rings, 3,034 straight (3,167 mm) / 1,074 curved (1,526 mm)
+- **Closed boxes:** 4; named: Ci ISe
+- **Words (OCR):** 119 in 117 lines: Ri3 · +I8v · C3 · 390 · iol25 · Ri7 · Ris · 4k7 · 22 · 02 · Pn3645 · Rs
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p27 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p27%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p27 (traced).dxf`).
+
+### Page 28
+
+- **Sheet:** schematic 8-109 02-001, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 1–432 mm up
+- **Outlines:** line 236 rings, 4,423 straight (8,635 mm) / 840 curved (1,111 mm); text 378 rings, 2,772 straight (2,896 mm) / 901 curved (1,284 mm); tb 4 rings, 69 straight (150 mm) / 2 curved (5.5 mm)
+- **Centre lines:** 9,598 paths (81 closed); straight 8,365 mm, curved 298 mm; horizontal 3,163 mm, vertical 1,829 mm, diagonal 3,374 mm
+- **Circles and arcs:** 5 circles, 35 arcs; largest r 5.9 @ (51.6, 362.4), r 5.8 @ (50.6, 91.3), r 5.8 @ (51.5, 286.9), r 5.7 @ (50.7, 167.0)
+- **Closed boxes:** 10 (8 in the title block)
+- **Words (OCR):** 94 in 87 lines: E3 · +21.5Y · Ris · 22 · 32 · Pn3645 · 03 · C7 · 2n2102 · IOp · R3o · 6*B
+- **Title block:** (226, 0)–(336, 57) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN, GEB · 8 - 109 · ENG.MRW 4178 · CKD · BOOSTER AMPLIFIER · SCHEMATIC · APP · SCALE · 8-109-02-001 · ISSUE
+- **Wiring (first pass):** 27 connected wire groups from 254 runs; labelled ends: 202 mm → 2N4037, E7; 200 mm → E3; 148 mm → 220/10, E4, R3c; 148 mm → 4K7, E6, Cig, 22o/10; 107 mm → R35, 5*6, Cig, 22o/10
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p28 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p28%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p28 (traced).dxf`).
+
+### Page 29
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–426 mm up
+- **Outlines:** line 197 rings, 2,948 straight (7,017 mm) / 540 curved (1,211 mm); text 607 rings, 5,307 straight (7,106 mm) / 1,384 curved (2,382 mm); tb 15 rings, 200 straight (491 mm) / 25 curved (66.8 mm)
+- **Circles and arcs:** 15 circles, 0 arcs; largest r 11.3 @ (84.7, 269.5), r 11.1 @ (21.0, 269.5), r 10.6 @ (85.1, 143.4), r 10.5 @ (21.3, 143.8)
+- **Words (OCR):** 99 in 93 lines: E7 · E2 · ~C1 33/10 +c2: 47k · 33/1" · ~RI6 22k · +4lk CR2- · ~Ri8 · 22k · RS GK? · R4 Lk? · ~R2z · 4K7
+- **Title block:** (162, 40)–(336, 173) mm: ES · WBS · 8-109 · z2o/i2c16 · 22o/6 · 4k7 · ~R37 4k7 · ~R36 · EG · DrI · ENG · CKC
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p29 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p29%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p29 (traced).dxf`).
+
+### Page 30
+
+- **Sheet:** component layout 8-109-06-001, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 595 rings, 5,231 straight (7,856 mm) / 1,504 curved (1,422 mm); text 362 rings, 3,644 straight (4,215 mm) / 940 curved (1,095 mm); tb 115 rings, 556 straight (561 mm) / 91 curved (92.5 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 5.5 @ (44.7, 340.0), r 5.5 @ (43.9, 163.8), r 5.4 @ (43.8, 91.5)
+- **Closed boxes:** 12 (10 in the title block); named: SCALE; 8-109-06-001
+- **Words (OCR):** 47 in 42 lines: E2 · 23/6 · FC2- A7k · R2- · R4 · Lk2 · Re · Gk2 · R7 · I8k · z2 · LF356
+- **Title block:** (114, 10)–(332, 112) mm: 4068 · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: GEB · 8 ~ 109 · ENG.MRW · 4/78 · BOOSTER AMPLIFIER · COMPONENT · LAYOUT · APP · SCALE · ISSUE · 8-109-06-001
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p30 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p30%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p30 (traced).dxf`).
+
+### Page 31
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 1–432 mm up
+- **Outlines:** line 277 rings, 4,828 straight (12,118 mm) / 743 curved (1,216 mm); text 477 rings, 2,946 straight (3,056 mm) / 1,096 curved (1,506 mm)
+- **Closed boxes:** 3; named: Ci '7p
+- **Words (OCR):** 112 in 110 lines: RI3 · +18v · C3 · Ri7 · Ris · 10/2s · 4k7 · 22 · 32 · PN3645 · 03 · 2n2102
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p31 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p31%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p31 (traced).dxf`).
+
+### Page 32
+
+- **Sheet:** schematic 8-109-02-004, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–432 mm up
+- **Outlines:** line 347 rings, 5,827 straight (9,533 mm) / 1,126 curved (1,427 mm); text 410 rings, 2,668 straight (2,848 mm) / 925 curved (1,270 mm); tb 8 rings, 79 straight (172 mm) / 9 curved (11.0 mm)
+- **Centre lines:** 11,266 paths (88 closed); straight 8,989 mm, curved 309 mm; horizontal 3,416 mm, vertical 1,875 mm, diagonal 3,698 mm
+- **Circles and arcs:** 7 circles, 37 arcs; largest r 5.9 @ (49.4, 360.6), r 5.8 @ (51.6, 90.3), r 5.7 @ (50.3, 285.4), r 5.7 @ (50.9, 165.8)
+- **Closed boxes:** 10 (9 in the title block)
+- **Words (OCR):** 83 in 79 lines: E3 · +21-5Y · 219 · 22 · 02 · PN3645 · 03 · 2N2102 · Cp · R3o · 2*B · 28
+- **Title block:** (226, 0)–(335, 59) mm: REvISION · IsSUE IDATE · WBS · WARD-BECK SYsTEMs · DRN: GEE · 8 = 109 € · ENG MRW 4/78 · BOOSTER AMPLiFiER · CKD · APP: · SCHEMATIC · SCALE · ISSUE · 8-109-02-004
+- **Wiring (first pass):** 24 connected wire groups from 242 runs; labelled ends: 204 mm → E3; 197 mm → E7; 147 mm → E4, 220/10, R36; 147 mm → R37, 4K7, 220/10; 107 mm → R34, 5.6, 220/10
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p32 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p32%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p32 (traced).dxf`).
+
+### Page 33
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–424 mm up
+- **Outlines:** line 199 rings, 3,214 straight (7,188 mm) / 516 curved (1,114 mm); text 652 rings, 5,470 straight (7,063 mm) / 1,520 curved (2,571 mm)
+- **Circles and arcs:** 13 circles, 0 arcs; largest r 11.2 @ (95.9, 143.4), r 10.6 @ (95.0, 269.6), r 10.6 @ (32.1, 143.8), r 10.5 @ (31.3, 269.5)
+- **Closed boxes:** 2; named: 2i LF356; 22 Lf356
+- **Words (OCR):** 106 in 100 lines: E7 · E2 · ~Ci 33/10 FC2: 47k · 23/1 · RIG 22k · -c8G8p · R2- · ~Ri · ~Ri8 · 22k · RS · 6k2
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p33 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p33%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p33 (traced).dxf`).
+
+### Page 34
+
+- **Sheet:** component layout 8-109-06-004, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–432 mm up
+- **Outlines:** line 748 rings, 6,521 straight (7,987 mm) / 1,972 curved (1,788 mm); text 319 rings, 3,351 straight (3,960 mm) / 860 curved (1,031 mm); tb 18 rings, 245 straight (401 mm) / 42 curved (48.8 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 5.4 @ (44.6, 164.0), r 5.4 @ (45.0, 91.9)
+- **Closed boxes:** 14 (10 in the title block); named: ISSUE; 8-109-06-004; SCALE
+- **Words (OCR):** 45 in 43 lines: E20 · 33/6 · R2_ · 47k · R4 · 6k2 · R6 · 6k2 · I8k · R7 · 22 · LF356
+- **Title block:** (115, 12)–(332, 114) mm: ISSUE |DATE · REVISION · APP · WBS WARD-BECK systEMS · DRN: GEB · 8 = 109€ · ENG.MRW · 4/78 · BOOSTER · AMPLIFIER · CKD: · Ruk · COMPONENT · LAYOUT · APP · ISSUE · SCALE · 8-109-06-004
+
+Every curve, box, word and wire group: [1974 - M465 - Reverb Module p34 (traced).json](1974%20-%20M465%20-%20Reverb%20Module%20p34%20%28traced%29.json) (the CAD file: `1974 - M465 - Reverb Module p34 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

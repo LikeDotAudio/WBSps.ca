@@ -12,6 +12,34 @@ Wiki page: [M473](../../../PAGES/M473.md)
 - **Pages:** 2
 - **PDF created (scan date, not design date):** Wed Aug 20 23:53:38 2003 EDT
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 328 × 432 mm, 1520 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 11–328 mm across, 0–320 mm up
+- **Outlines:** line 281 rings, 3,150 straight (10,544 mm) / 607 curved (1,028 mm); text 881 rings, 4,896 straight (4,497 mm) / 1,868 curved (2,445 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 8.8 @ (173.3, 150.8), r 7.3 @ (173.3, 150.8), r 5.1 @ (173.9, 194.0), r 5.1 @ (174.0, 237.2)
+- **Closed boxes:** 20; named: :,0';'0 AUX PRf PSI AUX SUB QN; :,0';'0 AUX PRf PSI AUX SUB QN; nl G~Nl lIe" SW5 clepr UUd, el he 10 "'H; ",nu ~SSIG~ SWIo clop Ip~ vI. 1"1/ rulno; PAt/ POST AU IL It Al low SOt}, pl~ 'up ; AUJl ll LEV!l e"",,<>1 tro1s .lUXIl RY b; .II1X LIU 'ch SIl8 \the <lepr.. hot .19"; PRH POsr .IUl LI.l ,ch Sl<2, ll""" he IL; Ul 1«;1'1 SOIl'> <lepr. .19_1 A\lll \<li; Itc el, cle SOl 10 \then ""'I>r 019"' SO; SH'" ~lt eh ON SlIll, deopru do S_SiU 19; lS~
+- **Dots (junctions):** 1
+- **Words (OCR):** 154 in 96 lines: ",nu ~SSIG~ · SWIo · clop · nl G~Nl · lIe" SW5 · clepr UUd, · Ip~ · vI. · 1"1/ rulnor · htl · "'Hp.. · el
+
+Every curve, box, word and wire group: [1984 - M473 - Submaster Module - User Guide (2) p1 (traced).json](1984%20-%20M473%20-%20Submaster%20Module%20-%20User%20Guide%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1984 - M473 - Submaster Module - User Guide (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** functional 473-01-001, size B (assumed) 432 × 285 mm, 2000 × 1320 px traced (0.216 mm/px)
+- **Ink extent:** 21–432 mm across, 0–282 mm up
+- **Outlines:** line 178 rings, 2,429 straight (8,112 mm) / 277 curved (405 mm); text 644 rings, 3,812 straight (4,746 mm) / 1,100 curved (1,607 mm); tb 24 rings, 209 straight (369 mm) / 32 curved (45.8 mm)
+- **Centre lines:** 3,933 paths (74 closed); straight 6,762 mm, curved 65.7 mm; horizontal 2,787 mm, vertical 1,662 mm, diagonal 2,313 mm
+- **Circles and arcs:** 6 circles, 9 arcs; largest r 1.6 @ (341.9, 112.2), r 1.2 @ (342.1, 101.1), r 1.2 @ (335.9, 96.9), r 1.1 @ (348.6, 96.9)
+- **Closed boxes:** 22 (12 in the title block); named: 7/78; ·109A(G) ·109 A(G WAS; 10/77; CONTROL MODIFIED
+- **Words (OCR):** 96 in 68 lines: MONITOR · OUTPUT · DIR ECT OUTPU · 8dBm 60 0.n. · MA STER · SUB · TR · SUMMI NG · ON · FAO ER · Ml · US
+- **Title block:** (281, 2)–(432, 78) mm: 10/77 · CONTROL MODIFIED · 10/n · REDRAWN · ISSUE DATE · REVI SION · ca PP. · [\N8 · WARO-BECK SYS TEMS · BS · DRN GEB · MA · ENG. RK · SUB-MASTER · ODULE · CKD. · tp DIAGRAM · FUNCTI ONA · APP. · ht 
+- **Wiring (first pass):** 99 connected wire groups from 169 runs; labelled ends: 343 mm → DIR, TR; 95 mm → 10/77, 10/n, ca; 95 mm → 7/78, A(G, 10/77, 10/n; 92 mm → OL; 70 mm → TR, Ml, M2
+
+Every curve, box, word and wire group: [1984 - M473 - Submaster Module - User Guide (2) p2 (traced).json](1984%20-%20M473%20-%20Submaster%20Module%20-%20User%20Guide%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1984 - M473 - Submaster Module - User Guide (2) p2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

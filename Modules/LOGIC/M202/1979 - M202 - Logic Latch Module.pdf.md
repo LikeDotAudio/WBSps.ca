@@ -12,6 +12,133 @@ Wiki page: [M202](../../../PAGES/M202.md)
 - **Pages:** 11
 - **PDF created (scan date, not design date):** Thu Nov  2 15:10:41 2006 EST
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 301 × 432 mm, 1395 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–293 mm across, 1–410 mm up
+- **Outlines:** line 5 rings, 624 straight (2,765 mm) / 76 curved (122 mm); text 121 rings, 1,614 straight (2,199 mm) / 408 curved (709 mm)
+- **Words (OCR):** 12 in 8 lines: WARD-BECK SYSTEMS LTD_ · WES 841 PAOGAESS AVENUE; SCARBOROUGH, ONTAAIO M1h2x4 · TELEX: 065-25399 · TELEPHONE; 4161438-6550 · M2oz · LoGic LATCH MODULE · AND MANUFACTUPE Of PACFESSONAL AUOIO EQUIPMENT · OESICN
+- **Title block:** (96, 392)–(245, 419) mm: WARD-BECK SYSTEMS LTD_ · WES 841 PAOGAESS AVENUE; SCARBOROUGH, ONTAAIO M1h2x4 · TELEX: 065-25399 · TELEPHONE; 4161438-6550
+
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p1 (traced).json](1979%20-%20M202%20-%20Logic%20Latch%20Module%20p1%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 302 × 432 mm, 1401 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–295 mm across, 2–411 mm up
+- **Outlines:** line 48 rings, 873 straight (3,463 mm) / 138 curved (220 mm); text 2,106 rings, 15,563 straight (17,041 mm) / 4,729 curved (7,658 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.8 @ (143.9, 50.9)
+- **Words (OCR):** 355 in 188 lines: WAAD-BECX SYSTEMS LTD; · CIRCUIT DESCRIPTION · M202 · Logic LATCH MQDULE · The M202 Logic · Latch module accepts · three momentary · pushbutton · inputs and stores or · Iatches the status · of the · pushbutton depressed .
+
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p2 (traced).json](1979%20-%20M202%20-%20Logic%20Latch%20Module%20p2%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 300 × 432 mm, 1387 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–292 mm across, 2–410 mm up
+- **Outlines:** line 41 rings, 895 straight (3,335 mm) / 160 curved (257 mm); text 2,050 rings, 14,858 straight (16,401 mm) / 4,456 curved (7,124 mm)
+- **Words (OCR):** 338 in 173 lines: WAAD-BECX SYSTEms LTD; · ciRcuIT DESCRiPTION · M202 · Logic LATCH MODULE · Aside from · clearing the three · Iatches, the · negative-going outPuts · generated at · pin · or · of u2 wili preset
+
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p3 (traced).json](1979%20-%20M202%20-%20Logic%20Latch%20Module%20p3%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 308 × 432 mm, 1425 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–308 mm across, 1–427 mm up
+- **Outlines:** line 226 rings, 3,553 straight (8,453 mm) / 695 curved (1,109 mm); text 497 rings, 4,311 straight (5,189 mm) / 1,249 curved (2,036 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.4 @ (183.8, 276.8)
+- **Closed boxes:** 11; named: Outputs Inputs 3 4 5 6 7 8 i8 17; Outputs; Inputs; 3 4 5 6 7 8; i8 17
+- **Dots (junctions):** 3
+- **Words (OCR):** 67 in 37 lines: WAAD-BECX Systems LTD_ · INIEGRATED_CIRCUII_DATA · 24042 · BCD · IO DECIMAL_DECODER · The · 74c42 one-of-ten · decoder is monolithic · CMOS · circuit · This · decoder Produces Togic
+
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p4 (traced).json](1979%20-%20M202%20-%20Logic%20Latch%20Module%20p4%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 301 × 432 mm, 1393 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–293 mm across, 2–416 mm up
+- **Outlines:** line 122 rings, 2,556 straight (8,510 mm) / 371 curved (626 mm); text 868 rings, 7,065 straight (8,084 mm) / 2,143 curved (3,475 mm)
+- **Closed boxes:** 16; named: tn tn+1 8n Qn; Preset Clear Qn|an; tn; Preset; Clear; 8n Qn
+- **Dots (junctions):** 4
+- **Words (OCR):** 126 in 78 lines: WAAD-BECX systems LTD. · INTEGRATED CIRCUII_DAIA · 24CZ6 · DUAL J-K FLIP-FLOP · WIIHCLEAR_AND_PRESEI · The · 74c76 J-k flip-fTop is · monolithic CMOS circuit · Each · flip- · flop has · independent
+
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p5 (traced).json](1979%20-%20M202%20-%20Logic%20Latch%20Module%20p5%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 299 × 432 mm, 1385 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–289 mm across, 1–411 mm up
+- **Outlines:** line 95 rings, 1,509 straight (3,783 mm) / 284 curved (453 mm); text 435 rings, 3,769 straight (4,493 mm) / 1,109 curved (1,786 mm)
+- **Closed boxes:** 27
+- **Dots (junctions):** 2
+- **Words (OCR):** 76 in 69 lines: WARD-BECX SYSTEms LTD · PARIS LISI · M202 · LOGIC LAICH_MODULE · PARI DESCRIPIION · MFG · MFG PART NUMBER · Ez Capacitor · 0.1 uF/35 · Kemet · T3904104M035As · 83
+- **Title block:** (4, 397)–(113, 421) mm: WARD-BECX SYSTEms LTD
+
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p6 (traced).json](1979%20-%20M202%20-%20Logic%20Latch%20Module%20p6%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 295 × 432 mm, 1366 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–287 mm across, 1–411 mm up
+- **Outlines:** line 90 rings, 1,447 straight (3,947 mm) / 257 curved (405 mm); text 335 rings, 2,993 straight (3,568 mm) / 898 curved (1,388 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.0 @ (89.1, 307.4)
+- **Closed boxes:** 14
+- **Words (OCR):** 74 in 70 lines: WAAD-BECX systems LTD_ · OTJ · PARIS LISI · M202 LOGIC · LAICH_MODULE · PART · DESCRIPTION · MFG · MFG_PART NUMBER · Jems} · Nationa] · 2n3569
+
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p7 (traced).json](1979%20-%20M202%20-%20Logic%20Latch%20Module%20p7%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 293 × 432 mm, 1359 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–287 mm across, 1–411 mm up
+- **Outlines:** line 86 rings, 1,352 straight (3,931 mm) / 233 curved (362 mm); text 470 rings, 3,917 straight (4,577 mm) / 1,107 curved (1,789 mm); tb 11 rings, 116 straight (166 mm) / 19 curved (33.1 mm)
+- **Closed boxes:** 13
+- **Dots (junctions):** 3
+- **Words (OCR):** 64 in 53 lines: WAAD-BECK · PARIS LISI · M202 LOGIC LAICH · MODULE · PART · DESCRIPTION · MFG · MFG · PARI_NUMBER · Philips · R26 · Resistor
+- **Title block:** (3, 34)–(68, 421) mm: WAAD-BECK · PART · R26 · R27 · R28 · R29 · R30 · R31 · R32 · R33 · R34 · R35 · R36 · R37 · R38 · R39 · R40 · R41 · U6 · WBS recommends the us e
+
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p8 (traced).json](1979%20-%20M202%20-%20Logic%20Latch%20Module%20p8%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** schematic 202-02-001, size B (assumed) 432 × 295 mm, 2000 × 1367 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–292 mm up
+- **Outlines:** line 575 rings, 8,514 straight (12,629 mm) / 2,170 curved (2,807 mm); text 176 rings, 1,457 straight (1,325 mm) / 535 curved (692 mm)
+- **Centre lines:** 12,500 paths (106 closed); straight 9,554 mm, curved 318 mm; horizontal 3,062 mm, vertical 2,384 mm, diagonal 4,108 mm
+- **Circles and arcs:** 4 circles, 76 arcs; largest r 3.5 @ (240.7, 196.5), r 3.5 @ (240.8, 259.6), r 0.8 @ (21.0, 17.7), r 0.8 @ (391.8, 274.1)
+- **Closed boxes:** 13
+- **Dots (junctions):** 1
+- **Words (OCR):** 42 in 39 lines: NOTES · TLULY · ALL · resistors · ALL Capacitors · Specified Otherwise · LAST · Are · Crzi _ · USE PCB · 9-102 · CI
+- **Wiring (first pass):** 123 connected wire groups from 784 runs; labelled ends: 151 mm → 74042, RK, Lha, 12; 149 mm → WBS; 144 mm → WBS; 134 mm → RK, Lha, 12; 116 mm → CRI
+
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p9 (traced).json](1979%20-%20M202%20-%20Logic%20Latch%20Module%20p9%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 330 × 432 mm, 1526 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–329 mm across, 0–432 mm up
+- **Outlines:** line 244 rings, 4,015 straight (9,288 mm) / 536 curved (879 mm); text 364 rings, 3,245 straight (4,155 mm) / 869 curved (1,426 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.5 @ (255.0, 22.7), r 2.5 @ (254.7, 93.2)
+- **Closed boxes:** 60; named: A| 1 B | 2 D| 4 E|5 F| 6 H|7 K| 9 L/1o M; A| 1; Eael; F| 6; H|7; L/1o; Ml11; N /12; P |13; R/14; S/15
+- **Dots (junctions):** 2
+- **Words (OCR):** 55 in 36 lines: NC · A| 1 +24v · CTL · Input · B | 2 · CTL · Input · A2 · A1 · D| 4 · NC E|5 · NC
+
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p10 (traced).json](1979%20-%20M202%20-%20Logic%20Latch%20Module%20p10%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** component layout 202-06-001, size B (assumed) 432 × 412 mm, 2000 × 1906 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 0–401 mm up
+- **Outlines:** line 199 rings, 3,934 straight (7,962 mm) / 994 curved (1,106 mm); text 298 rings, 3,121 straight (3,199 mm) / 1,037 curved (1,245 mm); tb 308 rings, 3,925 straight (5,274 mm) / 1,071 curved (1,207 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 7.1 @ (45.6, 249.3), r 5.7 @ (46.0, 351.8), r 4.2 @ (45.3, 249.1)
+- **Closed boxes:** 7 (2 in the title block); named: Ui 74014
+- **Words (OCR):** 31 in 28 lines: WBS · I0 · caada · U6 · 9-102 · 44# U2 · U4 · 692, · 74C42 · 74C76 · 144 · 1941
+- **Title block:** (111, 39)–(355, 396) mm: WBS · I0 · caada · U6 · 9-102 · U4 · 692, · 74C42 · 74C76 · 144 · 1941 · 8888 · 18 296 · 79c00 · 74676 · J33 · Ge · Issuidate · WBS
+
+Every curve, box, word and wire group: [1979 - M202 - Logic Latch Module p11 (traced).json](1979%20-%20M202%20-%20Logic%20Latch%20Module%20p11%20%28traced%29.json) (the CAD file: `1979 - M202 - Logic Latch Module p11 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)
