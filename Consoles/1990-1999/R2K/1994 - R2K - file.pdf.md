@@ -25,6 +25,211 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **1999** (month): `OCT. 15, 1999` — …R2K R204 FUNCTIONAL STUDIO MONITOR R204ISS3.DSN PAGE 1 OF 1 OCT. 15, 1999…
 - **1999** (month): `OCT. 18, 1999` — …R2K R206 FUNCTIONAL UTILITY MODULE R206ISS4.DSN PAGE 1 OF 1 OCT. 18, 1999…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 9–431 mm across, 0–290 mm up
+- **Outlines:** line 149 rings, 2,357 straight (11,347 mm) / 249 curved (323 mm); text 568 rings, 3,580 straight (4,174 mm) / 1,004 curved (1,408 mm)
+- **Closed boxes:** 6; named: MIX BUS XPT'S; VU METER; VU METER; MIX BUS XPT'S
+- **Words (OCR):** 129 in 97 lines: DIR OUT LEFT · PROGRAM · DIR OUT RIGHT · P1-L · LEFT · P1-L\R · P2-L\R · P1-L · A-LEFT · A-RIGHT · P3-L\R · P1-L
+- **Title block:** (316, 17)–(431, 39) mm: WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - R2K - file p1 (traced).json](1994%20-%20R2K%20-%20file%20p1%20%28traced%29.json) (the CAD file: `1994 - R2K - file p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 4–431 mm across, 1–323 mm up
+- **Outlines:** line 124 rings, 1,486 straight (11,969 mm) / 80 curved (96.3 mm); text 736 rings, 4,708 straight (5,130 mm) / 1,361 curved (1,920 mm)
+- **Closed boxes:** 7; named: VU METER; VU METER; MUTE T\B SWITCHING
+- **Dots (junctions):** 2
+- **Words (OCR):** 133 in 75 lines: AUX METER · R203 CONTROL ROOM MONITOR MODULE · VU METER · VU METER · CUE AUDIO BUS · OUT2-L · LEFT · MUTE · IN1-L · OUT2 · IN1-R · OUT2-R
+- **Title block:** (316, 18)–(431, 39) mm: WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - R2K - file p2 (traced).json](1994%20-%20R2K%20-%20file%20p2%20%28traced%29.json) (the CAD file: `1994 - R2K - file p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 8–432 mm across, 1–288 mm up
+- **Outlines:** line 195 rings, 4,023 straight (11,992 mm) / 599 curved (816 mm); text 1,265 rings, 7,319 straight (7,491 mm) / 2,213 curved (2,985 mm)
+- **Closed boxes:** 10; named: MUTE A,B,C R201 INPUT CHANNEL TIMER RESE; MUTE A,B,C R201 INPUT CHANNEL TIMER RESE; MUTE A,B,C R201 INPUT CHANNEL TIMER RESE; R254 TIMER DISPLAY; TORPEY CLOCK DISPLAY; R250SA2 STUDIO I\O ASSEMBLY
+- **Words (OCR):** 286 in 150 lines: 12 CHANNEL · 20 CHANNEL · 28 CHANNEL · 20 CHANNEL · 28 CHANNEL · MUTE A,B,C · MUTE A,B,C · POSITION · POSITION · POSITION 17 · CONTROL IN1-4 · R201 INPUT CHANNEL
+- **Title block:** (320, 18)–(432, 39) mm: WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - R2K - file p3 (traced).json](1994%20-%20R2K%20-%20file%20p3%20%28traced%29.json) (the CAD file: `1994 - R2K - file p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 33–431 mm across, 2–329 mm up
+- **Outlines:** line 191 rings, 1,967 straight (10,031 mm) / 63 curved (60.1 mm); text 864 rings, 5,827 straight (7,495 mm) / 1,456 curved (2,152 mm)
+- **Closed boxes:** 20
+- **Words (OCR):** 130 in 103 lines: ADDRESSES 16-27(12CH) · ADDRESSES 8-27 (20CH) · ADDRESS 29 · ADDRESS 30 · ADDRESS 30,31 · ADDRESSES 0-27 (28CH) · R203 CR · R204 STUDIO · A(LEFT) · B(RIGHT) · R201 INPUT · MONITOR
+- **Title block:** (315, 18)–(431, 40) mm: WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - R2K - file p4 (traced).json](1994%20-%20R2K%20-%20file%20p4%20%28traced%29.json) (the CAD file: `1994 - R2K - file p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 24–432 mm across, 0–324 mm up
+- **Outlines:** line 413 rings, 4,772 straight (20,318 mm) / 236 curved (273 mm); text 898 rings, 6,054 straight (7,125 mm) / 1,642 curved (2,245 mm)
+- **Closed boxes:** 66
+- **Words (OCR):** 172 in 149 lines: R202 · OUTPUT · R206 · A(LEFT) · P1 · B(RIGHT) · MODULE · P1 · UTILITY · P1METER-L+ · 11 · P1METER-R+
+- **Title block:** (321, 15)–(432, 37) mm: WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - R2K - file p5 (traced).json](1994%20-%20R2K%20-%20file%20p5%20%28traced%29.json) (the CAD file: `1994 - R2K - file p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 6–430 mm across, 1–329 mm up
+- **Outlines:** line 814 rings, 5,979 straight (20,964 mm) / 679 curved (882 mm); text 946 rings, 6,112 straight (6,228 mm) / 1,867 curved (2,454 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.4 @ (388.3, 194.9), r 1.3 @ (68.8, 94.2), r 1.3 @ (224.2, 269.7)
+- **Closed boxes:** 35; named: 10 11 12 13 14 15 16 17 18 19 20; 10 11 12 13 14 15 16 17 18 19 20
+- **Words (OCR):** 342 in 309 lines: TO MB-2 · P2 · P2 · P2 · P2 · P2 · P2 · T0 R250SA2 STUDIO I\O ASSEMBLY · P2 · HDSTL · P1-L · HDSTL
+- **Title block:** (321, 16)–(431, 38) mm: WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - R2K - file p6 (traced).json](1994%20-%20R2K%20-%20file%20p6%20%28traced%29.json) (the CAD file: `1994 - R2K - file p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 40–394 mm across, 28–264 mm up
+- **Outlines:** line 611 rings, 3,357 straight (27,112 mm) / 162 curved (307 mm); text 832 rings, 5,540 straight (7,236 mm) / 1,348 curved (2,099 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 3.7 @ (153.5, 67.2), r 3.7 @ (153.6, 226.0)
+- **Closed boxes:** 120; named: GND RIGHT INPUT LEFT INPUT RIGHT INPUT L; GND; RIGHT INPUT; LEFT INPUT; RIGHT INPUT; LEFT INPUT; GND; GND; RIGHT INPUT; LEFT INPUT; RIGHT INPUT; LEFT INPUT
+- **Words (OCR):** 120 in 64 lines: GND · RIGHT INPUT · TYPICAL TERMINAL BLOCK · LEFT INPUT · RIGHT INPUT · LEFT INPUT · GND · GND · RIGHT INPUT · LEFT INPUT · RIGHT INPUT · LEFT INPUT
+
+Every curve, box, word and wire group: [1994 - R2K - file p7 (traced).json](1994%20-%20R2K%20-%20file%20p7%20%28traced%29.json) (the CAD file: `1994 - R2K - file p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 2–317 mm up
+- **Outlines:** line 223 rings, 2,926 straight (14,862 mm) / 496 curved (657 mm); text 558 rings, 3,665 straight (4,002 mm) / 1,011 curved (1,353 mm)
+- **Closed boxes:** 21; named: MODULE CONTROL LOGIC
+- **Dots (junctions):** 8
+- **Words (OCR):** 106 in 77 lines: P1-L · A-LEFT+ · P2-L · P3-L · A-LEFT- · INSERT BYPASS · P4-L · B-LEFT+ · LEFT+ · LEFT+ · MM1-L · LEFT-
+- **Title block:** (319, 18)–(432, 40) mm: WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - R2K - file p8 (traced).json](1994%20-%20R2K%20-%20file%20p8%20%28traced%29.json) (the CAD file: `1994 - R2K - file p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 39–393 mm across, 29–265 mm up
+- **Outlines:** line 582 rings, 3,259 straight (26,932 mm) / 224 curved (404 mm); text 961 rings, 6,502 straight (8,149 mm) / 1,678 curved (2,596 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 3.7 @ (176.1, 66.5), r 3.7 @ (176.2, 225.2)
+- **Closed boxes:** 134; named: GND PGM1 RIGHT OUTPUT PGM1 RIGHT OUTPUT ; GND; PGM1 RIGHT OUTPUT; PGM1 LEFT OUTPUT; PGM1 RIGHT OUTPUT; PGM1 LEFT OUTPUT; GND; GND; PGM1 RIGHT OUTPUT; PGM1 LEFT OUTPUT; PGM1 RIGHT OUTPUT; PGM1 LEFT OUTPUT
+- **Words (OCR):** 140 in 64 lines: GND · PGM1 RIGHT OUTPUT · TYPICAL TERMINAL BLOCK · PGM1 LEFT OUTPUT · PGM1 RIGHT OUTPUT · PGM1 LEFT OUTPUT · GND · GND · PGM1 RIGHT OUTPUT · PGM1 LEFT OUTPUT · PGM1 RIGHT OUTPUT · PGM1 LEFT OUTPUT
+
+Every curve, box, word and wire group: [1994 - R2K - file p9 (traced).json](1994%20-%20R2K%20-%20file%20p9%20%28traced%29.json) (the CAD file: `1994 - R2K - file p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 46–432 mm across, 0–294 mm up
+- **Outlines:** line 189 rings, 2,655 straight (9,935 mm) / 203 curved (356 mm); text 408 rings, 3,394 straight (3,323 mm) / 982 curved (1,185 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.1 @ (356.8, 13.3), r 2.1 @ (390.2, 19.9), r 1.7 @ (384.3, 13.3)
+- **Closed boxes:** 7
+- **Words (OCR):** 116 in 56 lines: P1 LEFT · P1 RIGHT · P1 LEFT · P1 RIGHT · P1-L SUMMING BUS · P1 LEFT · P1-R SUMMING BUS · P1 RIGHT · P1 LEFT · P1 RIGHT · P1 LEFT · P1 RIGHT
+
+Every curve, box, word and wire group: [1994 - R2K - file p10 (traced).json](1994%20-%20R2K%20-%20file%20p10%20%28traced%29.json) (the CAD file: `1994 - R2K - file p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 39–393 mm across, 29–265 mm up
+- **Outlines:** line 586 rings, 3,219 straight (27,017 mm) / 226 curved (404 mm); text 783 rings, 5,304 straight (6,930 mm) / 1,171 curved (1,796 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 3.7 @ (176.1, 66.5), r 3.7 @ (176.2, 225.2)
+- **Closed boxes:** 135; named: GND RIGHT INPUT RIGHT INPUT LEFT INPUT L; GND; RIGHT INPUT; LEFT INPUT; RIGHT INPUT; LEFT INPUT; GND; GND; RIGHT INPUT; LEFT INPUT; RIGHT INPUT; LEFT INPUT
+- **Words (OCR):** 124 in 64 lines: GND · RIGHT INPUT · TYPICAL TERMINAL BLOCK · LEFT INPUT · RIGHT INPUT · LEFT INPUT · GND · GND · RIGHT INPUT · LEFT INPUT · RIGHT INPUT · LEFT INPUT
+
+Every curve, box, word and wire group: [1994 - R2K - file p11 (traced).json](1994%20-%20R2K%20-%20file%20p11%20%28traced%29.json) (the CAD file: `1994 - R2K - file p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 25–431 mm across, 0–321 mm up
+- **Outlines:** line 90 rings, 1,183 straight (8,471 mm) / 126 curved (230 mm); text 632 rings, 4,026 straight (4,863 mm) / 1,124 curved (1,643 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 6.8 @ (292.2, 165.5), r 1.8 @ (293.9, 163.7)
+- **Closed boxes:** 2; named: STEREO AUDIO SWITCHER; VCA
+- **Words (OCR):** 105 in 80 lines: BALANCED AUDIO · INPUTS · INPUT · LEFT · RIGHT · LEFT+ · LEFT · INPUT · RIGHT · LEFT- · OUTPUT · TO AUX
+- **Title block:** (306, 19)–(431, 41) mm: WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - R2K - file p12 (traced).json](1994%20-%20R2K%20-%20file%20p12%20%28traced%29.json) (the CAD file: `1994 - R2K - file p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 42–387 mm across, 24–292 mm up
+- **Outlines:** line 661 rings, 3,507 straight (29,087 mm) / 237 curved (425 mm); text 810 rings, 5,320 straight (6,910 mm) / 1,236 curved (1,884 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 3.7 @ (163.2, 93.1), r 3.7 @ (163.3, 251.8)
+- **Closed boxes:** 144; named: GND RIGHT INPUT RIGHT INPUT LEFT INPUT L; GND; RIGHT INPUT; LEFT INPUT; RIGHT INPUT; LEFT INPUT; GND; GND; RIGHT INPUT; LEFT INPUT; RIGHT INPUT; LEFT INPUT
+- **Words (OCR):** 118 in 66 lines: GND · RIGHT INPUT · TYPICAL TERMINAL BLOCK · LEFT INPUT · RIGHT INPUT · LEFT INPUT · GND · GND · RIGHT INPUT · LEFT INPUT · RIGHT INPUT · LEFT INPUT
+
+Every curve, box, word and wire group: [1994 - R2K - file p13 (traced).json](1994%20-%20R2K%20-%20file%20p13%20%28traced%29.json) (the CAD file: `1994 - R2K - file p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 3–431 mm across, 1–317 mm up
+- **Outlines:** line 128 rings, 1,622 straight (13,836 mm) / 69 curved (83.1 mm); text 689 rings, 4,445 straight (5,160 mm) / 1,305 curved (1,831 mm)
+- **Closed boxes:** 13; named: MUTE SWITCH; STEREO AUDIO SWITCHER; MUTE SWITCH; MUTE SWITCH; MUTE SWITCH; CONTROL
+- **Words (OCR):** 118 in 95 lines: BALANCED AUDIO · INPUTS · MUTE SWITCH · CW · INPUT · LEFT · RIGHT · LEFT+ · LEFT- · INPUT · LEFT · RIGHT
+- **Title block:** (306, 20)–(431, 42) mm: WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - R2K - file p14 (traced).json](1994%20-%20R2K%20-%20file%20p14%20%28traced%29.json) (the CAD file: `1994 - R2K - file p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 39–393 mm across, 29–265 mm up
+- **Outlines:** line 582 rings, 3,278 straight (26,997 mm) / 235 curved (410 mm); text 698 rings, 4,740 straight (6,225 mm) / 1,041 curved (1,604 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 3.7 @ (176.1, 66.5), r 3.7 @ (176.2, 225.3)
+- **Closed boxes:** 134; named: GND RIGHT INPUT RIGHT INPUT LEFT INPUT L; GND; RIGHT INPUT; LEFT INPUT; RIGHT INPUT; LEFT INPUT; GND; GND; RIGHT INPUT; LEFT INPUT; RIGHT INPUT; LEFT INPUT
+- **Words (OCR):** 108 in 64 lines: GND · RIGHT INPUT · TYPICAL TERMINAL BLOCK · LEFT INPUT · RIGHT INPUT · LEFT INPUT · GND · GND · RIGHT INPUT · LEFT INPUT · RIGHT INPUT · LEFT INPUT
+
+Every curve, box, word and wire group: [1994 - R2K - file p15 (traced).json](1994%20-%20R2K%20-%20file%20p15%20%28traced%29.json) (the CAD file: `1994 - R2K - file p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 50–431 mm across, 2–308 mm up
+- **Outlines:** line 48 rings, 567 straight (6,373 mm) / 16 curved (16.0 mm); text 446 rings, 3,092 straight (4,201 mm) / 760 curved (1,144 mm)
+- **Closed boxes:** 1; named: STEREO AUDIO SWITCHER
+- **Words (OCR):** 65 in 52 lines: BALANCED AUDIO · INPUTS · LEFT · INPUT · RIGHT · LEFT+ · INPUT · LEFT · RIGHT · LEFT- · OUTPUT · LEFT
+- **Title block:** (288, 25)–(429, 48) mm: WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - R2K - file p16 (traced).json](1994%20-%20R2K%20-%20file%20p16%20%28traced%29.json) (the CAD file: `1994 - R2K - file p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 39–393 mm across, 29–265 mm up
+- **Outlines:** line 586 rings, 3,219 straight (27,017 mm) / 226 curved (404 mm); text 1,034 rings, 6,777 straight (8,644 mm) / 1,748 curved (2,695 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 3.7 @ (176.1, 66.5), r 3.7 @ (176.2, 225.2)
+- **Closed boxes:** 135; named: GND MASTER RS422 TRANSMIT+ MASTER RS422 ; GND; MASTER RS422 TRANSMIT+; MASTER RS422 RECIEVE-; MASTER RS422 TRANSMIT-; MASTER RS422 RECIEVE+; GND; GND; CONTROL INPUT 3(MUTE; CONTROL INPUT 2(MUTE; CONTROL INPUT 4(SPARE); CONTROL INPUT 1(MUTE
+- **Words (OCR):** 146 in 64 lines: GND · MASTER RS422 TRANSMIT+ · TYPICAL TERMINAL BLOCK · MASTER RS422 RECIEVE- · MASTER RS422 TRANSMIT- · MASTER RS422 RECIEVE+ · GND · GND · CONTROL INPUT 3(MUTE · CONTROL INPUT 2(MUTE · CONTROL INPUT 4(SPARE) · CONTROL INPUT 1(MUTE
+
+Every curve, box, word and wire group: [1994 - R2K - file p17 (traced).json](1994%20-%20R2K%20-%20file%20p17%20%28traced%29.json) (the CAD file: `1994 - R2K - file p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 12–430 mm across, 2–317 mm up
+- **Outlines:** line 96 rings, 1,289 straight (9,044 mm) / 66 curved (81.7 mm); text 638 rings, 4,398 straight (4,657 mm) / 1,218 curved (1,644 mm)
+- **Closed boxes:** 3; named: TIMER; MODULE CONTROL LOGIC
+- **Dots (junctions):** 1
+- **Words (OCR):** 132 in 72 lines: CUE AUDIO BUS · MUTE · LEFT VU+ · EXT CUE · CUE OUT+ · LEFT VU- · CUE OUT- · STEREO VU BAR GRAPH METER · EXT CUE · RIGHT VU+ · RIGHT VU- · EXT CUE
+- **Title block:** (318, 18)–(431, 39) mm: WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - R2K - file p18 (traced).json](1994%20-%20R2K%20-%20file%20p18%20%28traced%29.json) (the CAD file: `1994 - R2K - file p18 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

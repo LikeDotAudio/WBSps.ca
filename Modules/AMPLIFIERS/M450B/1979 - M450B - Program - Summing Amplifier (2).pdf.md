@@ -16,6 +16,180 @@ Wiki page: [M450B](../../../PAGES/M450B.md)
 
 - **1979** (manual_issue): `ISSuE /I 3 BS W OCTOBER 1979` — …e<; lor L.youl 84SO....()6-OOJ A450 04 001 a .c ps MANUA L ISSuE /I 3 BS W OCTOBER 1979 :// tp ht…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 301 × 432 mm, 1396 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–301 mm across, 0–432 mm up
+- **Outlines:** line 472 rings, 3,748 straight (9,141 mm) / 674 curved (903 mm); text 20 rings, 461 straight (1,611 mm) / 67 curved (91.6 mm)
+- **Closed boxes:** 9; named: (\NBS]; \NBS; \NBS; \NBS; ht
+- **Words (OCR):** 17 in 16 lines: \NBS · \NBS · \NBS · (\NBS] · \NBS · \NBS · \NBS · \NBS · M450a · PROG RAM/SUMM · AMPLIFIER · \NBS
+
+Every curve, box, word and wire group: [1979 - M450B - Program - Summing Amplifier (2) p1 (traced).json](1979%20-%20M450B%20-%20Program%20-%20Summing%20Amplifier%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1979 - M450B - Program - Summing Amplifier (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 301 × 432 mm, 1396 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–291 mm across, 11–416 mm up
+- **Outlines:** line 49 rings, 1,340 straight (3,398 mm) / 227 curved (350 mm); text 156 rings, 1,535 straight (2,134 mm) / 290 curved (444 mm); tb 16 rings, 129 straight (140 mm) / 32 curved (50.7 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.8 @ (101.0, 236.7)
+- **Dots (junctions):** 1
+- **Words (OCR):** 19 in 12 lines: ARD-BECK SYSTEMS LTD · (VVEl5i] · c:::NT......-.o M1'" OlXA · oe~-Ol=sJg · T£LEPHC:lNe: · .41el":Jo · M450B · PROG RAM /SUMMING AMPLIFIER · ps · BS · tp · ht
+- **Title block:** (104, 401)–(240, 426) mm: ARD-BECK SYSTEMS LTD · c:::NT......-.o M1'" OlXA
+
+Every curve, box, word and wire group: [1979 - M450B - Program - Summing Amplifier (2) p2 (traced).json](1979%20-%20M450B%20-%20Program%20-%20Summing%20Amplifier%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1979 - M450B - Program - Summing Amplifier (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 301 × 432 mm, 1396 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–301 mm across, 26–432 mm up
+- **Outlines:** line 156 rings, 1,690 straight (4,378 mm) / 369 curved (596 mm); text 284 rings, 1,991 straight (2,297 mm) / 552 curved (861 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 59 in 32 lines: WA · ECI< · EM LTC · TA8Le: OF CONTENT · M45 08 PROGRAM SUMM ING AMPL IF IER · SECTI ON · PAGe: · .....an ly · Tect1n h:a · 51"- · in; · scr PI
+
+Every curve, box, word and wire group: [1979 - M450B - Program - Summing Amplifier (2) p3 (traced).json](1979%20-%20M450B%20-%20Program%20-%20Summing%20Amplifier%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1979 - M450B - Program - Summing Amplifier (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 301 × 432 mm, 1396 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 14–287 mm across, 23–407 mm up
+- **Outlines:** line 675 rings, 5,225 straight (7,961 mm) / 1,452 curved (2,134 mm); text 1,436 rings, 9,438 straight (9,859 mm) / 2,919 curved (4,252 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 1.5 @ (238.9, 291.7), r 1.5 @ (46.6, 278.0), r 1.5 @ (139.6, 133.0), r 1.2 @ (90.1, 73.6)
+- **Closed boxes:** 1
+- **Dots (junctions):** 3
+- **Words (OCR):** 297 in 178 lines: WARo ~eeCK · TEM · LT · 84' · LlVliNUE; · ONT"""'IO M1>-< 01 · l~~E'" 061>- 01"" · 30 · AAf.llY · Al · Wa · d_B~d<
+
+Every curve, box, word and wire group: [1979 - M450B - Program - Summing Amplifier (2) p4 (traced).json](1979%20-%20M450B%20-%20Program%20-%20Summing%20Amplifier%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1979 - M450B - Program - Summing Amplifier (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 301 × 432 mm, 1396 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–301 mm across, 22–432 mm up
+- **Outlines:** line 521 rings, 4,221 straight (7,361 mm) / 1,137 curved (1,730 mm); text 700 rings, 5,154 straight (5,695 mm) / 1,522 curved (2,349 mm); tb 9 rings, 85 straight (102 mm) / 18 curved (27.4 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 2.1 @ (27.8, 130.6), r 2.1 @ (60.7, 143.8), r 1.7 @ (31.6, 116.7), r 1.6 @ (31.8, 288.7)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 216 in 95 lines: WARD-BECK SYSTEMS LTD · TECHNICAL DATA · M4508 ROGRAM SUMM ING' AM · IFI ER · U"ed · Used as · PROGRA AMP IFIE · SUMMING AMPLIF IER · Gll · 24 10 · 40 · Unity.
+- **Title block:** (2, 408)–(109, 431) mm: WARD-BECK SYSTEMS LTD
+
+Every curve, box, word and wire group: [1979 - M450B - Program - Summing Amplifier (2) p5 (traced).json](1979%20-%20M450B%20-%20Program%20-%20Summing%20Amplifier%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1979 - M450B - Program - Summing Amplifier (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 301 × 432 mm, 1396 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–301 mm across, 19–432 mm up
+- **Outlines:** line 1,099 rings, 8,260 straight (11,254 mm) / 2,237 curved (3,374 mm); text 1,146 rings, 7,668 straight (8,367 mm) / 2,272 curved (3,479 mm)
+- **Circles and arcs:** 16 circles, 0 arcs; largest r 1.6 @ (59.6, 278.4), r 1.6 @ (250.8, 104.6), r 1.6 @ (240.5, 197.6), r 1.6 @ (41.8, 212.6)
+- **Closed boxes:** 2
+- **Dots (junctions):** 3
+- **Words (OCR):** 378 in 161 lines: CK SYSTE MS · CIRCUIT OESCRlPTION · M4S0B PROGRAM!SUMM ING AMP · IER · The- M4500 · d;r1l<;1 · rep la o:me · u~1 purpose- · rog 'ltn/ · ng Amoll fler · Whe1> · ed
+
+Every curve, box, word and wire group: [1979 - M450B - Program - Summing Amplifier (2) p6 (traced).json](1979%20-%20M450B%20-%20Program%20-%20Summing%20Amplifier%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1979 - M450B - Program - Summing Amplifier (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 301 × 432 mm, 1396 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–285 mm across, 15–413 mm up
+- **Outlines:** line 187 rings, 1,683 straight (3,869 mm) / 418 curved (616 mm); text 595 rings, 4,099 straight (4,612 mm) / 1,159 curved (1,733 mm); tb 35 rings, 382 straight (632 mm) / 53 curved (85.4 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 1.7 @ (60.5, 247.6), r 1.6 @ (108.5, 254.1), r 1.6 @ (231.0, 260.2), r 1.6 @ (219.7, 286.9)
+- **Closed boxes:** 1
+- **Words (OCR):** 140 in 65 lines: WARD-BECK SYS TEMS · LT · RCUI · DESCRIP TIO · /'0\4508 PRQGR AM/SUMMI NG AMPl · Th bipo'-,,' · 25 voll · app lied 10 pi · Sand 15 · cou led · vt · isol3.1 ion
+- **Title block:** (0, 317)–(185, 423) mm: WARD-BECK SYS TEMS · LT · RCUI · DESCRIP TIO · /'0\4508 PRQGR AM/SUMMI NG AMPl · Th bipo'-,,' · 25 voll · cou led · vt · isol3.1 ion · diode~ CR5 li nd CR6 10 C2
+
+Every curve, box, word and wire group: [1979 - M450B - Program - Summing Amplifier (2) p7 (traced).json](1979%20-%20M450B%20-%20Program%20-%20Summing%20Amplifier%20%282%29%20p7%20%28traced%29.json) (the CAD file: `1979 - M450B - Program - Summing Amplifier (2) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 300 × 432 mm, 1387 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–292 mm across, 6–420 mm up
+- **Outlines:** line 1,421 rings, 18,844 straight (31,714 mm) / 2,222 curved (3,507 mm); text 362 rings, 2,727 straight (3,104 mm) / 720 curved (1,112 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.9 @ (196.1, 255.9), r 1.9 @ (215.9, 164.2)
+- **Closed boxes:** 554; named: 40. ~~~~~i~~i~~~~~Resistor pi ns ~tween ; ~~~~~i~~i~~~~~Resistor
+- **Dots (junctions):** 1
+- **Words (OCR):** 69 in 30 lines: SECK YS TE · TC · GAIN ADJ USTKENT · H450B PROGRAM/S UMM IN AMP LI FIER · Use as · PROGRAM AMPLIF ER · 40. · ~~~~~i~~i~~~~~Resistor pi ns po · 30 · ~tween · or · 20
+
+Every curve, box, word and wire group: [1979 - M450B - Program - Summing Amplifier (2) p8 (traced).json](1979%20-%20M450B%20-%20Program%20-%20Summing%20Amplifier%20%282%29%20p8%20%28traced%29.json) (the CAD file: `1979 - M450B - Program - Summing Amplifier (2) p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 301 × 432 mm, 1396 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–301 mm across, 23–432 mm up
+- **Outlines:** line 456 rings, 4,054 straight (7,042 mm) / 1,167 curved (1,743 mm); text 691 rings, 4,948 straight (5,498 mm) / 1,580 curved (2,361 mm)
+- **Closed boxes:** 2
+- **Dots (junctions):** 1
+- **Words (OCR):** 148 in 102 lines: WAF=lO · ECK SYS · MS LT · PARTS LIS · M4S0B PROGRAM/SUMMIN AMPLIF IE · PART · DESCR IPT ION · FG · MFG PART NUMBER · ciIOr- · uF/6 · T39OFJ 37MOO6AS
+
+Every curve, box, word and wire group: [1979 - M450B - Program - Summing Amplifier (2) p9 (traced).json](1979%20-%20M450B%20-%20Program%20-%20Summing%20Amplifier%20%282%29%20p9%20%28traced%29.json) (the CAD file: `1979 - M450B - Program - Summing Amplifier (2) p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 301 × 432 mm, 1396 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–285 mm across, 22–419 mm up
+- **Outlines:** line 332 rings, 3,003 straight (5,894 mm) / 739 curved (1,110 mm); text 454 rings, 3,091 straight (3,490 mm) / 959 curved (1,468 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.6 @ (71.8, 63.6)
+- **Words (OCR):** 87 in 66 lines: WARC · ECK YS TEMS LTC · PAR TS · IS · M4S08 PROGRAM/SUMM NG AMP LI FI ER · PMH · OESCRIPTIO · MeG · MeG PART NUM8 ER · Mot or-o · 1N400 · OR'
+
+Every curve, box, word and wire group: [1979 - M450B - Program - Summing Amplifier (2) p10 (traced).json](1979%20-%20M450B%20-%20Program%20-%20Summing%20Amplifier%20%282%29%20p10%20%28traced%29.json) (the CAD file: `1979 - M450B - Program - Summing Amplifier (2) p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 301 × 432 mm, 1396 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–284 mm across, 18–416 mm up
+- **Outlines:** line 310 rings, 2,801 straight (5,644 mm) / 753 curved (1,105 mm); text 416 rings, 2,927 straight (3,310 mm) / 898 curved (1,343 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.6 @ (69.4, 78.3)
+- **Words (OCR):** 76 in 51 lines: WAF=lO-eeCK YSTEMS LTO · PARTS LI ST · M450B PROGRAM/S UMM NG AMP · 1ER · PAR · OEse PT ION · M'G · PART NU MBER · ,.tor · 1/4W · Ph ilip · za
+
+Every curve, box, word and wire group: [1979 - M450B - Program - Summing Amplifier (2) p11 (traced).json](1979%20-%20M450B%20-%20Program%20-%20Summing%20Amplifier%20%282%29%20p11%20%28traced%29.json) (the CAD file: `1979 - M450B - Program - Summing Amplifier (2) p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 301 × 432 mm, 1396 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–285 mm across, 13–432 mm up
+- **Outlines:** line 178 rings, 1,943 straight (4,734 mm) / 443 curved (673 mm); text 369 rings, 2,578 straight (2,926 mm) / 721 curved (1,107 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.6 @ (67.3, 312.0), r 1.6 @ (200.9, 73.5)
+- **Dots (junctions):** 2
+- **Words (OCR):** 79 in 37 lines: CK YST EMS LTO. · PAR TS · ST · M450B PR (}{;RAM !SUMM NG MPI..I 1ER · PART · DESCRI PTIO · MFG · MFG PA RT NUM BER · ne ste tc · 4W · 00 · Ph il ip"
+
+Every curve, box, word and wire group: [1979 - M450B - Program - Summing Amplifier (2) p12 (traced).json](1979%20-%20M450B%20-%20Program%20-%20Summing%20Amplifier%20%282%29%20p12%20%28traced%29.json) (the CAD file: `1979 - M450B - Program - Summing Amplifier (2) p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 432 × 292 mm, 2000 × 1353 px traced (0.216 mm/px)
+- **Ink extent:** 17–432 mm across, 0–279 mm up
+- **Outlines:** line 812 rings, 8,165 straight (14,971 mm) / 2,040 curved (2,726 mm); text 484 rings, 2,400 straight (2,070 mm) / 870 curved (1,077 mm); tb 78 rings, 605 straight (586 mm) / 182 curved (236 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.3 @ (25.2, 47.2), r 1.0 @ (137.6, 116.6), r 1.0 @ (325.9, 133.3)
+- **Closed boxes:** 7 (5 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 150 in 122 lines: 24\1 · R1 · RB · 22 · 22 · Ol' · Ol2 · Q3 · 2~4:-? .o\OI · N3C.45 · OlIO · 33~/G.
+- **Title block:** (354, 0)–(432, 37) mm: 1<;1,., · .3.-40 · APP · 11SSl.E DAn: · tp · (VVE3S] WARD-BECK SYSTEMS · ht 18 · OftN. · ENG.MIt · soa · CK · PRO RAM SUMMING AMPLIFIER · al · CHEMATIC · SCAU · 003 · ISSUE
+
+Every curve, box, word and wire group: [1979 - M450B - Program - Summing Amplifier (2) p13 (traced).json](1979%20-%20M450B%20-%20Program%20-%20Summing%20Amplifier%20%282%29%20p13%20%28traced%29.json) (the CAD file: `1979 - M450B - Program - Summing Amplifier (2) p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 432 × 256 mm, 2000 × 1186 px traced (0.216 mm/px)
+- **Ink extent:** 9–432 mm across, 0–247 mm up
+- **Outlines:** line 322 rings, 3,667 straight (8,929 mm) / 777 curved (1,242 mm); text 837 rings, 5,519 straight (6,008 mm) / 1,815 curved (2,454 mm); tb 37 rings, 439 straight (573 mm) / 113 curved (164 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 5.1 @ (156.1, 134.6), r 4.0 @ (61.2, 220.8), r 4.0 @ (61.1, 191.4), r 4.0 @ (61.3, 131.2)
+- **Closed boxes:** 17 (5 in the title block); named: QI\ 11 P2; LF35(.; 4038; 3/83; 364'3; ../7!l; 31040; G179
+- **Words (OCR):** 172 in 141 lines: -R44 · IO · -R6' roo · -R4.0 'L'L · -R~Go.£ · _c.+~7p · "'5~2 · QI\ · R45 · ZK · 11 P2 · It,.,.
+- **Title block:** (314, 0)–(432, 54) mm: G179 · 31040 · ps · PlY{ · ISS<.£ DATE · REVesK* · APP. · BS SYSTEMS · VVE3S] WARe · BECK · DRN. GEe · M",S OB · ENC. Ml · 78 · tp · CKO.<? · PROGRAM/SUMMING AMPLIFIER · ht · COM PONENT · LAYOUT · APP
+
+Every curve, box, word and wire group: [1979 - M450B - Program - Summing Amplifier (2) p14 (traced).json](1979%20-%20M450B%20-%20Program%20-%20Summing%20Amplifier%20%282%29%20p14%20%28traced%29.json) (the CAD file: `1979 - M450B - Program - Summing Amplifier (2) p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 318 × 432 mm, 1471 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–318 mm across, 0–432 mm up
+- **Outlines:** line 287 rings, 4,166 straight (9,472 mm) / 760 curved (1,228 mm); text 139 rings, 1,376 straight (1,732 mm) / 334 curved (524 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.5 @ (313.8, 207.6), r 2.5 @ (246.9, 89.3)
+- **Closed boxes:** 35; named: 10; 11; IS; ca; BS
+- **Dots (junctions):** 2
+- **Words (OCR):** 43 in 32 lines: II · II · II · ec · II · oz · II · +25 · Nle · INPUT WH EN · USED AS · NPUT WH EN
+
+Every curve, box, word and wire group: [1979 - M450B - Program - Summing Amplifier (2) p15 (traced).json](1979%20-%20M450B%20-%20Program%20-%20Summing%20Amplifier%20%282%29%20p15%20%28traced%29.json) (the CAD file: `1979 - M450B - Program - Summing Amplifier (2) p15 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

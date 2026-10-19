@@ -12,6 +12,414 @@ Wiki page: [M462B](../../../PAGES/M462B.md)
 - **Pages:** 39
 - **PDF created (scan date, not design date):** Wed Aug 20 23:47:52 2003 EDT
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 325 × 432 mm, 1507 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 166–324 mm across, 0–432 mm up
+- **Outlines:** line 58 rings, 2,075 straight (8,048 mm) / 141 curved (265 mm); text 24 rings, 545 straight (2,043 mm) / 58 curved (105 mm)
+- **Closed boxes:** 2; named: 'NBS
+- **Words (OCR):** 16 in 14 lines: 'NBS · 'NBS · 'NBS · 'NBS · 'NBS · 'NBS · 'NBS · H1t628 · EQUAliZER MODUlE · 'NBS ps · BS · tp
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p1 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p1%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1551 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–331 mm across, 3–424 mm up
+- **Outlines:** line 234 rings, 2,794 straight (6,091 mm) / 662 curved (873 mm); text 590 rings, 5,493 straight (6,320 mm) / 1,589 curved (2,015 mm)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 133 in 63 lines: TA8LE OF CONTENTS · 1446 28 EQUALIZER MODU LE · SECTI ON · PAG · Wa rtn ty · Te chnical Datil. · 1-1 · Circu · Desc iptio · 2-3 · Fre uen cy Re pcn · to 3-3
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p2 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p2%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1551 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–329 mm across, 8–424 mm up
+- **Outlines:** line 349 rings, 3,678 straight (6,762 mm) / 961 curved (1,236 mm); text 1,503 rings, 13,366 straight (15,300 mm) / 3,839 curved (4,776 mm); tb 92 rings, 827 straight (951 mm) / 212 curved (252 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 343 in 117 lines: WA RRANT · All Wa · Be ck Systl!.s lt · products re lla · nted · ga in st · def ec tive · nd llo rk ~an · or · period of on · te ia · year from date of Sh ipme
+- **Title block:** (76, 100)–(169, 357) mm: nd llo rk ~an · te ia · year from date of Sh ipme · Sys te ms wi · re pai · na rg · said product · upon factory ns pe ti on · pro · wa rrant pl:!r lod pr vided th · Or ig in · ia nue be · been ta mper
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p3 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p3%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1551 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–326 mm across, 8–428 mm up
+- **Outlines:** line 33 rings, 665 straight (3,543 mm) / 106 curved (151 mm); text 959 rings, 8,890 straight (10,643 mm) / 2,365 curved (2,964 mm)
+- **Words (OCR):** 174 in 63 lines: TECH NIC AL DATA · M4 62B EQUALIZER MODULE · ae · Untt · Frequ ency Response: · 25 dB fr om 20 Hz · 20 kHz (al · qualiz in co ntr ols In · FLA posi tio · Noi se: · (20 · Hz
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p4 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p4%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1551 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–330 mm across, 5–425 mm up
+- **Outlines:** line 179 rings, 2,493 straight (5,578 mm) / 654 curved (843 mm); text 2,005 rings, 18,476 straight (21,378 mm) / 5,033 curved (6,328 mm)
+- **Words (OCR):** 401 in 104 lines: CI RCU · DESCRIPTION · M4628 EQUA LI ER MODULE · nput · Th~ · npu s1gnal ~nt~rs · the K(628 modu le vl p1ns · and · of · the edge conne to · 21 and 12 · he
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p5 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p5%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1551 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–335 mm across, 2–426 mm up
+- **Outlines:** line 46 rings, 757 straight (3,114 mm) / 108 curved (168 mm); text 2,262 rings, 21,565 straight (25,190 mm) / 6,143 curved (7,768 mm)
+- **Words (OCR):** 298 in 172 lines: CIRCUII_DESCRIPIION · M462B_EQUALIZER_MODULE · HIGH FREQUENCY equa]ization continuously · 15 · adjustable from · 1 .6 to 25 · kHz and i5 · controlled by · RI/R2 · R13 determines the · amount · 0 f
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p6 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p6%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1551 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–328 mm across, 4–424 mm up
+- **Outlines:** line 116 rings, 1,753 straight (4,785 mm) / 383 curved (516 mm); text 871 rings, 8,013 straight (9,202 mm) / 2,350 curved (2,970 mm)
+- **Words (OCR):** 176 in 41 lines: CIRCU · DESC RIPTION · H4 628 EQUAL ZER HOD UlE · Thus wit SW] depress ed the eq ua iz ed 1gna is fe · he · outpu a.pl 1e · 109A. In ddi tiOn as SW3 · dep ressed · the LED ndit to is ac tivated. · Trans ent · ee ope ratio of the inse tio pushbutt on · ensured by emp oy in
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p7 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p7%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1551 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–331 mm across, 4–425 mm up
+- **Outlines:** line 452 rings, 8,966 straight (24,389 mm) / 1,259 curved (1,730 mm); text 320 rings, 3,137 straight (3,914 mm) / 875 curved (1,089 mm)
+- **Closed boxes:** 64
+- **Dots (junctions):** 1
+- **Words (OCR):** 40 in 29 lines: FREQUENCY · RESPONSE_CHARACTERLSTICS · M462B · EQUALIZER MODULE · OdB · LOW_FREQUENCY section · Mode : · SHELVING · CUT/Boost: · +15 dB · FREQUENCY · 25
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p8 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p8%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1551 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–335 mm across, 2–432 mm up
+- **Outlines:** line 850 rings, 11,024 straight (28,722 mm) / 1,981 curved (2,598 mm); text 329 rings, 2,876 straight (3,315 mm) / 830 curved (1,066 mm)
+- **Closed boxes:** 189; named: ps BS; ps
+- **Dots (junctions):** 2
+- **Words (OCR):** 57 in 24 lines: FRE QUENCY RE SP ON SE CHARA CTER ISTICS · "46 2B EOUALl 2ER KODULE · FRE QU EN CY section KF2 · BOOST · to +15 dB · !-rt-:T · dB ste ps. · CUT · 15 ee · 10 · FREQUE NCY: · 1.6 kil
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p9 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p9%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1551 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–333 mm across, 6–427 mm up
+- **Outlines:** line 560 rings, 10,166 straight (26,019 mm) / 1,617 curved (2,099 mm); text 243 rings, 2,050 straight (2,398 mm) / 590 curved (746 mm)
+- **Closed boxes:** 58; named: 1-1 II Yrl LX :rlt 1'.1; ..f-l+fl+ ps BS
+- **Words (OCR):** 35 in 20 lines: REQUENCY RESPONSE CHARACTERISTICS · M4 62B EqUALIZE MODUL · II Yrl LX · 1-1 · :rlt · 1'.1 · HIGH FREQU ENC se · on · SHE LVI NG · Mode: · CUT/ BOOST: t1 · dB.
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p10 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p10%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 332 × 432 mm, 1536 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–330 mm across, 4–428 mm up
+- **Outlines:** line 606 rings, 7,274 straight (10,909 mm) / 2,047 curved (2,587 mm); text 653 rings, 6,167 straight (6,922 mm) / 1,723 curved (2,190 mm)
+- **Dots (junctions):** 2
+- **Words (OCR):** 212 in 122 lines: PAR TS LI ST · "4628 EQUALIZE MOOUL · PART · DE SCRIPTION · "FG PART NUMBER · 01 · ae ec · lJ uF · ee · n90D33 6M010AS · 02 · 03
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p11 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p11%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 332 × 432 mm, 1536 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–328 mm across, 2–427 mm up
+- **Outlines:** line 193 rings, 2,659 straight (5,983 mm) / 652 curved (855 mm); text 522 rings, 4,665 straight (5,263 mm) / 1,260 curved (1,567 mm)
+- **Words (OCR):** 108 in 72 lines: PART LI ST · M46 2B EQ UAL ZER MODULE · PA RT · DESC RI PTIO · MFG · MFG PART NUMBE · C36 · Capaci to · pF · Phil ips · 2222 ·63 8-10 59 · CJ)
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p12 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p12%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 332 × 432 mm, 1536 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–328 mm across, 4–427 mm up
+- **Outlines:** line 93 rings, 1,682 straight (4,842 mm) / 385 curved (522 mm); text 512 rings, 4,912 straight (5,506 mm) / 1,333 curved (1,634 mm)
+- **Words (OCR):** 82 in 63 lines: PAR TS LIST · M4 62B EQUALIZER MODULE · PART · OESCR 1PTION · MFG · MFG PART NU MBER · R1O · Potentiome ter · Al · WOS 10-007 · Pot entiome er · WBS
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p13 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p13%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 332 × 432 mm, 1536 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–330 mm across, 4–429 mm up
+- **Outlines:** line 199 rings, 2,514 straight (5,846 mm) / 592 curved (764 mm); text 405 rings, 3,918 straight (4,252 mm) / 1,020 curved (1,260 mm)
+- **Dots (junctions):** 3
+- **Words (OCR):** 62 in 49 lines: PARTS LIST · H462B EQUALI ZER MODULE · PART · DESCRIP TION · KFG · HFG PART HUHBER · sx · Res is or · Phi ip · 10K · sao · R41
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p14 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p14%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 319 × 432 mm, 1478 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–317 mm across, 4–428 mm up
+- **Outlines:** line 59 rings, 1,024 straight (4,220 mm) / 253 curved (362 mm); text 376 rings, 3,294 straight (3,928 mm) / 868 curved (1,115 mm)
+- **Words (OCR):** 80 in 35 lines: PARTS LI ST · M462B EQ UAL IZER MOD UL · PAR · DE SCR IPTI ON · MFG · PART NUMB ER · Swi · WO · OO2 · SWl · Sch ado · SW2
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p15 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p15%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 319 × 432 mm, 1478 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–316 mm across, 7–426 mm up
+- **Outlines:** line 435 rings, 4,713 straight (8,360 mm) / 1,284 curved (1,701 mm); text 515 rings, 4,375 straight (5,074 mm) / 1,251 curved (1,575 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 130 in 80 lines: PA RTS LIST · M4628 EOUA LI ZER MODUL · CONT ROL KNOBS, CA PS ANO SUT ONS · USED · ON · DESCR IPTION · MFG PAR · NU....BE · Knob · il t;kJ · 021 352 · Knob
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p16 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p16%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 332 × 432 mm, 1540 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–328 mm across, 5–427 mm up
+- **Outlines:** line 19 rings, 611 straight (3,044 mm) / 87 curved (148 mm); text 76 rings, 542 straight (600 mm) / 110 curved (145 mm)
+- **Words (OCR):** 8 in 5 lines: 109 AIoiIPLl ER SERIES · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p17 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p17%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 323 × 432 mm, 1497 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–319 mm across, 3–426 mm up
+- **Outlines:** line 736 rings, 6,747 straight (9,852 mm) / 1,794 curved (2,259 mm); text 846 rings, 6,910 straight (7,642 mm) / 1,887 curved (2,370 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.8 @ (240.0, 294.9)
+- **Closed boxes:** 2; named: dBm
+- **Dots (junctions):** 4
+- **Words (OCR):** 251 in 137 lines: DESCR IPTION · 09 · PllF ER · SERIES · 8-109 · ri · IlrT'l) llf iers arll · ti li zed · In tern al omp oo · ith · va lnu · WBS
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p18 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p18%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 323 × 432 mm, 1497 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–321 mm across, 4–428 mm up
+- **Outlines:** line 927 rings, 8,341 straight (11,576 mm) / 2,174 curved (2,808 mm); text 1,117 rings, 9,456 straight (10,391 mm) / 2,584 curved (3,253 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 1.9 @ (96.6, 88.2), r 1.8 @ (56.4, 252.2), r 1.8 @ (276.9, 176.3), r 1.8 @ (240.3, 221.5)
+- **Dots (junctions):** 1
+- **Words (OCR):** 312 in 178 lines: DESCR TI ON · 109 AMPL IF IER SER iE · Oul · L/lve · 1-30 Bm m""imu · Requ remc · 21 · oll · 18 mA cvtesceo Curren · mA III +30 lJm OU UI · mbie nt Te mp · eg
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p19 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p19%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 317 × 432 mm, 1470 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–315 mm across, 1–429 mm up
+- **Outlines:** line 54 rings, 1,293 straight (3,542 mm) / 197 curved (296 mm); text 222 rings, 1,816 straight (2,046 mm) / 478 curved (771 mm)
+- **Words (OCR):** 48 in 18 lines: DES CR IPTION · 8-109 AMPLIF IER SE RIES · nve · ng am ifier wit · xt nal · stra pped to E6. · Th output · al mode · of he · 8-109 seri es is · \ve ly · bal anc ed nd
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p20 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p20%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 316 × 432 mm, 1464 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–312 mm across, 8–424 mm up
+- **Outlines:** line 159 rings, 2,202 straight (5,158 mm) / 610 curved (783 mm); text 776 rings, 6,756 straight (7,501 mm) / 2,048 curved (2,540 mm)
+- **Closed boxes:** 3
+- **Words (OCR):** 119 in 77 lines: PAR TS · IS · -109 AMP LI FI ER SERIES · -109 · PART · DEseR IPT ION · MFG PART NUMBER · Ce.p e.cilo · aa uF/10 · K",m"l · 900 36 M0 AS · ca
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p21 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p21%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 316 × 432 mm, 1464 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–312 mm across, 11–426 mm up
+- **Outlines:** line 218 rings, 2,432 straight (5,483 mm) / 583 curved (759 mm); text 480 rings, 4,180 straight (4,507 mm) / 1,249 curved (1,527 mm)
+- **Words (OCR):** 77 in 53 lines: PARTS LI ST · 109 AMPLIFIER SER ES · -109 · rr · OESCR IP TION · FG · MFGPAAT NUM8ER · Re i,OIor · 4W · Pi"l tl iJ · OS• · 390
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p22 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p22%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 319 × 432 mm, 1479 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–318 mm across, 5–427 mm up
+- **Outlines:** line 267 rings, 3,231 straight (7,301 mm) / 817 curved (1,127 mm); text 505 rings, 4,270 straight (4,797 mm) / 1,274 curved (1,618 mm)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 99 in 62 lines: PAR · iS · 8_109 AM PLI IER SERIES · 109'" · pa rt · per · 10 · cp as nOIe-<:! elow · PAR' · OESC RI TIO · FG · MFG PART NUMBER
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p23 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p23%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** wiring 638_09 478, size B (assumed) 319 × 432 mm, 1479 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–318 mm across, 9–430 mm up
+- **Outlines:** line 73 rings, 1,510 straight (5,295 mm) / 303 curved (457 mm); text 751 rings, 6,526 straight (7,397 mm) / 1,920 curved (2,358 mm)
+- **Centre lines:** 3,913 paths (101 closed); straight 7,288 mm, curved 18.9 mm; horizontal 2,512 mm, vertical 1,907 mm, diagonal 2,869 mm
+- **Circles and arcs:** 2 circles, 1 arcs; largest r 2.0 @ (64.3, 330.6), r 1.2 @ (32.4, 278.1)
+- **Words (OCR):** 106 in 64 lines: PAR TS LI ST · 109 AMP IF ER SER IES · 10 90 · Al · ar- · <:IS · per · 109 · cept as no ted · ow · PAR · DESCRIPTION
+- **Wiring (first pass):** 16 connected wire groups from 53 runs; labelled ends: 71 mm → ESCRIP, TIO, PA, ce; 59 mm → AMP, IES; 53 mm → MFG, 2222-638-09476; 49 mm → MFG, 2222-638-09476, NUMBER; 48 mm → _09478, NUMBE, 222
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p24 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p24%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** drawing, size B (assumed) 316 × 432 mm, 1464 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–313 mm across, 6–423 mm up
+- **Outlines:** line 51 rings, 997 straight (4,074 mm) / 207 curved (282 mm); text 378 rings, 3,126 straight (3,597 mm) / 849 curved (1,075 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 64 in 32 lines: DARTS · IST · 8-109 AM PL · ER SERIES · 8_I09G · rt · er 8-10 · 88 no · elo · PAR · DESCI PTI QN · MF
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p25 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p25%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** drawing, size B (assumed) 316 × 432 mm, 1464 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–315 mm across, 5–427 mm up
+- **Outlines:** line 12 rings, 428 straight (2,844 mm) / 60 curved (95.2 mm); text 92 rings, 707 straight (808 mm) / 119 curved (149 mm)
+- **Words (OCR):** 10 in 6 lines: 4-1 12 EQUALIZER ILTER AMPLIFIER · ps · BS · tp · ht · 112
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p26 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p26%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** drawing, size B (assumed) 319 × 432 mm, 1478 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–316 mm across, 3–427 mm up
+- **Outlines:** line 406 rings, 4,516 straight (7,812 mm) / 1,164 curved (1,544 mm); text 1,468 rings, 13,128 straight (15,054 mm) / 3,583 curved (4,581 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.0 @ (125.1, 117.3)
+- **Words (OCR):** 365 in 82 lines: CI RCUI DESCRIPT ON · 4-112 EQUALIZER FILTE AMPLIFIER · Th · 11 eqve tt aer fil er · pl1 f1t Is · prin te · irc ul · board · ti i~e as an nt nal omponen in WBS 4628 · equa ze 1I0d ules. · The 4·1 12 · co~
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p27 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p27%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p27 (traced).dxf`).
+
+### Page 28
+
+- **Sheet:** drawing, size B (assumed) 318 × 432 mm, 1473 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–316 mm across, 5–426 mm up
+- **Outlines:** line 784 rings, 8,487 straight (12,666 mm) / 2,481 curved (3,213 mm); text 955 rings, 9,100 straight (10,336 mm) / 2,677 curved (3,356 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.1 @ (81.3, 149.1), r 2.1 @ (203.8, 302.7)
+- **Words (OCR):** 290 in 149 lines: PARTS It · SI · 11 EQ UA LI ZER FI LTER AMP LIFI ER · PART · PESCRIPT ION · HFG · HFG PART NLt18ER · CI · Capac · or · uf · T390B68S/'l006AS
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p28 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p28%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p28 (traced).dxf`).
+
+### Page 29
+
+- **Sheet:** drawing, size B (assumed) 318 × 432 mm, 1473 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–314 mm across, 5–424 mm up
+- **Outlines:** line 303 rings, 3,293 straight (7,006 mm) / 764 curved (1,218 mm); text 421 rings, 3,616 straight (4,332 mm) / 904 curved (1,417 mm)
+- **Dots (junctions):** 2
+- **Words (OCR):** 101 in 78 lines: PAR TS · ST · 112 EQUA IZER · FI LTER AMPLIF IER · PAR · DESC RIPTION · MFG · MFG PART NUMBER · c45 · CapacItor · 68 uF/ · Keme
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p29 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p29%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p29 (traced).dxf`).
+
+### Page 30
+
+- **Sheet:** drawing, size B (assumed) 322 × 432 mm, 1492 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–318 mm across, 4–427 mm up
+- **Outlines:** line 94 rings, 1,865 straight (4,955 mm) / 397 curved (538 mm); text 562 rings, 5,242 straight (6,131 mm) / 1,442 curved (1,823 mm)
+- **Words (OCR):** 103 in 63 lines: PARTS · ST · 12 EQUAL ZER ILTER · A~PLIFI ER · PARI · DESCRI PTI ON · MFG · MEG P"E.R,T NUMBER · l:-w 5%6K2 · R3J · Resi stor · Phllip
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p30 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p30%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p30 (traced).dxf`).
+
+### Page 31
+
+- **Sheet:** drawing, size B (assumed) 330 × 432 mm, 1528 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–330 mm across, 0–333 mm up
+- **Outlines:** line 1,099 rings, 8,980 straight (15,739 mm) / 2,667 curved (3,626 mm); text 1,194 rings, 7,446 straight (6,885 mm) / 2,758 curved (3,669 mm); tb 60 rings, 640 straight (784 mm) / 174 curved (256 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 6.1 @ (170.4, 202.3), r 6.1 @ (169.5, 278.8), r 6.1 @ (169.9, 240.3), r 6.0 @ (170.8, 164.2)
+- **Closed boxes:** 21 (1 in the title block); named: HICH FUQUENCY sect CWl FREQUE NCY ADJUST; wa 1144618 HF lO,A, <ot MFI 21 yo' 21 Q+; wa 1144618 HF lO,A, <ot MFI 21 yo' 21 Q+; HIGH sect on. ADJUSTM ENT All ows F~EQUE; HIGN seetiOl"l. 100ST/ CUT cOl"ltr f1UQU; HIGH FREQUENCY sectiCWl MODE SELECT OR s; FREQUENCY ADJUSTME MT HID FREQUENC sect ; RI~ MID fRE QUENCY lOl"lS BOOST/C UT con; ADJUSTMENTS ons HID FREQUfNCY he of Al o; FII;EQUE NC ect on. FREQUENCY ADJUSTM EN; Ollf FREQU£HC section ADJUSTME NT Al low; lW FR[QU(NCY sec t.i on aOOST/C UT on tr
+- **Dots (junctions):** 4
+- **Words (OCR):** 472 in 246 lines: HICH FUQUENCY sect CWl · FREQUE NCY ADJUSTMENT · on tro IU · Cont inuous ly · rl .ble from 1.6 · 2S kHz · In · PEA kiNG · eeee · frequency · wa · ca ibrat ion
+- **Title block:** (222, 0)–(330, 47) mm: IISSlI: lo.t.T£ · [\NSS] WARD-BECK SYSTEMS · DftN · tp · M4628 · ht EQUALIZER MODULE · CIUl · \ii'.u. · FRONT PANEL · SCALE · AI 62-04 007 · ISSUE
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p31 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p31%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p31 (traced).dxf`).
+
+### Page 32
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1548 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 0–334 mm up
+- **Outlines:** line 230 rings, 3,239 straight (9,896 mm) / 655 curved (967 mm); text 201 rings, 1,401 straight (1,708 mm) / 434 curved (677 mm); tb 35 rings, 331 straight (664 mm) / 66 curved (112 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 4.5 @ (294.0, 226.9), r 2.0 @ (114.5, 60.1), r 1.9 @ (169.1, 60.0), r 1.8 @ (268.2, 245.0)
+- **Closed boxes:** 43 (3 in the title block); named: ,SS; MO; KD; USED ON; MAT; ps WA RD BeCK BS SYSTEMS LTD; 3$3; M4 ODU LI ZE tp ht FU CT AG; SC ALE; -01; IS; TOtS AN
+- **Dots (junctions):** 1
+- **Words (OCR):** 59 in 45 lines: BOOS TI · RE · BOO STI · REO · BOOST · FREQ · OO · nne · cu · cur · ur · cu
+- **Title block:** (245, 22)–(416, 66) mm: ps · WA RD BeCK BS LTD · SYSTEMS · DRN · CE · M4 · DATE · CT · LI ZE · ODU · ceo. ''''~U.l.- · tp
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p32 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p32%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p32 (traced).dxf`).
+
+### Page 33
+
+- **Sheet:** schematic 462-02-003, size B (assumed) 432 × 277 mm, 2000 × 1283 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–277 mm up
+- **Outlines:** line 1,433 rings, 16,996 straight (28,897 mm) / 4,143 curved (5,231 mm); text 508 rings, 3,178 straight (3,041 mm) / 1,147 curved (1,391 mm)
+- **Centre lines:** 21,366 paths (252 closed); straight 19,896 mm, curved 697 mm; horizontal 6,245 mm, vertical 5,774 mm, diagonal 7,876 mm
+- **Circles and arcs:** 15 circles, 173 arcs; largest r 3.2 @ (368.3, 189.5), r 3.1 @ (352.7, 193.1), r 3.1 @ (331.1, 81.8), r 3.0 @ (360.4, 180.3)
+- **Closed boxes:** 24; named: IEIO IE9 IE8; R39; (ITIIriIJ .va,.... tp LTD •CK WAIIID-; M462B QUAl 11£R MODULE SOHMATI(; '"1i'iL.--- CKD,; Me; SCAL.; 462-02-003; TOLS.:&,_
+- **Dots (junctions):** 1
+- **Words (OCR):** 135 in 112 lines: LOW FR£.QUENCY · 2Sf/r400Jh · RIO · RU · 10 · IEIO · IE8 · IE9 · REG~21V' · NOTE: · Ie" LM2.01, · ALL
+- **Wiring (first pass):** 232 connected wire groups from 1,274 runs; labelled ends: 250 mm → 10, IE9; 112 mm → CUT/BOOST; 110 mm → LTD, MAT, (ITIIriIJ, tp; 106 mm → REG~21V'; 106 mm → 5k, 15k, R30
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p33 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p33%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p33 (traced).dxf`).
+
+### Page 34
+
+- **Sheet:** drawing, size B (assumed) 432 × 365 mm, 2000 × 1691 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–365 mm up
+- **Outlines:** line 684 rings, 5,974 straight (12,435 mm) / 1,031 curved (1,593 mm); text 1,603 rings, 10,765 straight (12,061 mm) / 3,584 curved (5,085 mm); tb 25 rings, 280 straight (508 mm) / 45 curved (67.3 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 8.0 @ (248.5, 141.5), r 5.6 @ (203.1, 108.9), r 5.5 @ (254.9, 108.5), r 3.1 @ (302.4, 329.7)
+- **Closed boxes:** 29 (8 in the title block); named: 27 M2si; 29 M2ol; Zio M_oi; 27 M2si; 25 Lmzoi; 26 -4oe; 23 42o; 22 M2o1; 21 M?e; DPAB; IsS MOo; 3868
+- **Words (OCR):** 266 in 183 lines: O1es · IE8 · iE2 · JLlRI ( 2.816 · P75 +*7 · 68/6937 + · c32 · <29_+68/6 C2+6-ele · 3164 · 73| R67 · RGIk R587sk R5S- · 757
+- **Title block:** (204, 0)–(392, 50) mm: IsS MOo CKD · USED ON · MaTtL · 3868 TU · WBS WAAO-BeCK · 519] MaB · 3536 FM · DRN · em · DATE SEC 74 · M4628 · 1B59BM · FINISA · EQUALIZER · J69d · CKD · [epl · COMPONENT LAYOUT · SCALE · 460 · TOLS 
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p34 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p34%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p34 (traced).dxf`).
+
+### Page 35
+
+- **Sheet:** drawing, size B (assumed) 322 × 432 mm, 1489 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 19–322 mm across, 0–432 mm up
+- **Outlines:** line 300 rings, 4,951 straight (10,942 mm) / 834 curved (1,378 mm); text 160 rings, 1,446 straight (1,821 mm) / 351 curved (545 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.5 @ (314.6, 209.6)
+- **Closed boxes:** 67; named: ID; 10; 11; lJ; 14; 15; 17; ps; 19; 20; ZI; ci
+- **Words (OCR):** 35 in 25 lines: III · )/CPUT · III · IKPUT SH IElD · III · ID · se · It · cl · 10 · 11 · lJ
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p35 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p35%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p35 (traced).dxf`).
+
+### Page 36
+
+- **Sheet:** drawing, size B (assumed) 432 × 292 mm, 2000 × 1355 px traced (0.216 mm/px)
+- **Ink extent:** 44–430 mm across, 0–278 mm up
+- **Outlines:** line 413 rings, 4,993 straight (9,933 mm) / 1,036 curved (1,364 mm); text 304 rings, 1,643 straight (1,459 mm) / 544 curved (685 mm); tb 74 rings, 578 straight (579 mm) / 168 curved (216 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 1.9 @ (322.0, 224.4), r 1.1 @ (232.5, 201.9), r 1.1 @ (108.0, 101.9), r 1.1 @ (119.7, 266.3)
+- **Closed boxes:** 16 (11 in the title block); named: '1'p
+- **Dots (junctions):** 2
+- **Words (OCR):** 144 in 120 lines: E3 · 'lJ · I3 · 1·S · .39 · 10 · I7 · K7 · 22 · t;;i' · n.lt:> · El
+- **Title block:** (352, 1)–(432, 34) mm: ISS UE OAf( · RE'lJtSION · (VVE3S] WARD- 8ECK SYSTEMS · tp · ht · OftN. El .'78 · ENG.MRW · CKD. .J(t. · TPU · AMPLI FIER · SCHEMATIC · sc.... GI '09 02 · ISSUE
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p36 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p36%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p36 (traced).dxf`).
+
+### Page 37
+
+- **Sheet:** drawing, size B (assumed) 419 × 432 mm, 1939 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 16–402 mm across, 15–432 mm up
+- **Outlines:** line 664 rings, 12,025 straight (20,158 mm) / 2,628 curved (2,994 mm); text 183 rings, 2,752 straight (4,081 mm) / 573 curved (660 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 16.7 @ (43.3, 300.2), r 15.8 @ (139.3, 110.5), r 15.8 @ (43.6, 111.4), r 15.7 @ (138.7, 300.3)
+- **Words (OCR):** 41 in 36 lines: ~3/1O · -cr · "'ill. · -R5 · f8k. · ns -Rl..i.ZQ · -R8 · 4'1., · -CIO- · -cz, · _CIl~"P' · -RI4-.gg
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p37 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p37%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p37 (traced).dxf`).
+
+### Page 38
+
+- **Sheet:** drawing, size B (assumed) 432 × 279 mm, 2000 × 1292 px traced (0.216 mm/px)
+- **Ink extent:** 17–432 mm across, 2–279 mm up
+- **Outlines:** line 771 rings, 8,269 straight (15,481 mm) / 2,056 curved (2,616 mm); text 716 rings, 3,806 straight (3,471 mm) / 1,421 curved (1,792 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.5 @ (95.4, 193.2), r 1.2 @ (124.2, 97.7)
+- **Closed boxes:** 22; named: tp
+- **Words (OCR):** 63 in 52 lines: "OT · 1-\2.0I · li · Of, · 0l.5 · !of'£C. 'Ltl QT · Il'..a s.E · c.l :::IC · C"ii. · ;:1t · e."3 · "'''40.
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p38 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p38%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p38 (traced).dxf`).
+
+### Page 39
+
+- **Sheet:** drawing, size B (assumed) 432 × 300 mm, 2000 × 1388 px traced (0.216 mm/px)
+- **Ink extent:** 3–428 mm across, 10–298 mm up
+- **Outlines:** line 632 rings, 10,086 straight (16,308 mm) / 2,674 curved (3,253 mm); text 555 rings, 6,965 straight (7,439 mm) / 2,034 curved (2,414 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 5.1 @ (55.8, 277.9), r 5.1 @ (54.9, 29.6), r 5.0 @ (233.0, 29.4), r 5.0 @ (411.1, 89.6)
+- **Closed boxes:** 12; named: 1N; 75 LMZ; 74; 2a IN; z2; ZI IN; 212; IN Z8; ZIO; Lt-A<!O IN ZII; L~201 Z7; LM ZCtN Z9
+- **Words (OCR):** 121 in 95 lines: CD R24 JM · R20 J!j. · CD Rtf · f:'7 · CD · -c24 !EP =c.21- · ~-Cf()..!!'" · -c12 · :.9P -C9 · -ee g:itp · -c2 · fS
+
+Every curve, box, word and wire group: [1974 - M462B - EQ Module p39 (traced).json](1974%20-%20M462B%20-%20EQ%20Module%20p39%20%28traced%29.json) (the CAD file: `1974 - M462B - EQ Module p39 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

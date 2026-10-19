@@ -12,6 +12,32 @@ Wiki page: [POD2](../../../PAGES/POD2.md)
 - **Pages:** 2
 - **PDF created (scan date, not design date):** Wed Mar 10 05:39:14 2004 EST
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 17–332 mm across, 34–334 mm up
+- **Outlines:** line 938 rings, 6,105 straight (17,657 mm) / 1,840 curved (3,095 mm); text 2 rings, 17 straight (26.1 mm) / 1 curved (0.9 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 46.9 @ (64.5, 244.7), r 9.9 @ (69.4, 176.0), r 9.9 @ (36.1, 176.0), r 2.1 @ (159.7, 42.5)
+- **Closed boxes:** 35; named: GRN
+- **Dots (junctions):** 1
+- **Words (OCR):** 122 in 97 lines: 30R · 24 · 20K0 · 30R · PAN356 · 24 · 33/10T · PAN256 · 22p · BK · 22p · 10K0
+- **Title block:** (403, 186)–(432, 299) mm: 0.1 · 0.1 ISSUE · 0.1 · SWITCHER · 0.1 · 1/35T AUDIO · SYSTEMS STEREO · WARD-BECK 6X1 POD-2,
+
+Every curve, box, word and wire group: [2004 - POD2 - POD2 - POD2 - DOCUMENT p1 (traced).json](2004%20-%20POD2%20-%20POD2%20-%20POD2%20-%20DOCUMENT%20p1%20%28traced%29.json) (the CAD file: `2004 - POD2 - POD2 - POD2 - DOCUMENT p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 17–332 mm across, 0–119 mm up
+- **Outlines:** line 376 rings, 2,361 straight (9,284 mm) / 395 curved (548 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.3 @ (225.4, 112.5)
+- **Closed boxes:** 53; named: J1
+- **Words (OCR):** 24 in 19 lines: WECO BLOCKS · USE · POSITIONS AND · POSITIONS · LEFT · RIGHT · POD8-2.PCB · BERG SOCKETS · DE-9S · 2X3 · R-ANGLE BERG · HEADERS 2X3
+
+Every curve, box, word and wire group: [2004 - POD2 - POD2 - POD2 - DOCUMENT p2 (traced).json](2004%20-%20POD2%20-%20POD2%20-%20POD2%20-%20DOCUMENT%20p2%20%28traced%29.json) (the CAD file: `2004 - POD2 - POD2 - POD2 - DOCUMENT p2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

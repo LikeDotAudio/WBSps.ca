@@ -12,6 +12,52 @@ Wiki page: [M402A](../../../PAGES/M402A.md)
 - **Pages:** 4
 - **PDF created (scan date, not design date):** Sun Feb  1 13:34:04 2009 EST
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 329 × 432 mm, 1525 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–329 mm across, 0–432 mm up
+- **Outlines:** line 682 rings, 4,700 straight (8,047 mm) / 1,181 curved (1,455 mm); text 1,882 rings, 11,493 straight (12,056 mm) / 4,071 curved (5,710 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 5.5 @ (154.2, 261.9), r 1.4 @ (279.9, 180.8)
+- **Dots (junctions):** 2
+- **Words (OCR):** 282 in 44 lines: [\NB · M402A EFFECTS EQUALIZER · DESCRIPTION: · FEATURES: · he M4 02A Effects Equali zer is plug-in, high-perf orm ance module designed · to be compatible with the Ward-Beck group of modular console components. · Active circuitry uses operational · Frequency selection and degree of equalization are 
+
+Every curve, box, word and wire group: [1968 - M402A - Spec Sheet (2) p1 (traced).json](1968%20-%20M402A%20-%20Spec%20Sheet%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1968 - M402A - Spec Sheet (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 332 × 432 mm, 1540 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 1–432 mm up
+- **Outlines:** line 123 rings, 2,209 straight (9,629 mm) / 276 curved (554 mm); text 1,162 rings, 8,021 straight (9,451 mm) / 2,431 curved (3,611 mm); tb 1 rings, 0 straight (0.0 mm) / 4 curved (5.2 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 5.2 @ (319.3, 47.8), r 5.2 @ (323.4, 385.3), r 5.2 @ (321.6, 216.8), r 4.6 @ (107.9, 323.9)
+- **Closed boxes:** 10
+- **Words (OCR):** 64 in 52 lines: PANEL cutoUT · DETaILS · Tthk Pc CONNecTor · (22 Pin) · 9-5 B · St5 · 5.29 · M402A · TECHNICAL DATA: · OUTPUT IMPEDANCE · MATCHED GAIN · 600 ohms ( 150 ohms available)
+- **Title block:** (17, 18)–(254, 50) mm: WBS · WARD-BECK SYSTEMS LTD. · 2OC0 ELLESMERE ROAD SCARBOROUGH ONTARIO 416/291-2106
+
+Every curve, box, word and wire group: [1968 - M402A - Spec Sheet (2) p2 (traced).json](1968%20-%20M402A%20-%20Spec%20Sheet%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1968 - M402A - Spec Sheet (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 332 × 432 mm, 1536 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 1–432 mm up
+- **Outlines:** line 834 rings, 9,736 straight (32,312 mm) / 694 curved (1,410 mm); text 267 rings, 1,685 straight (2,310 mm) / 481 curved (763 mm)
+- **Closed boxes:** 327; named: 11- 1'00; !"oo
+- **Words (OCR):** 46 in 31 lines: M402A EFFECTS EQUALIZER CHARACTERISTICS · dB · 12 · 10 · 11- · 1'00 · 12 · 15 · -20 · 100 · 1000 · 10000
+- **Title block:** (126, 24)–(260, 48) mm: WARD-BECK SYSTEMS · tp
+
+Every curve, box, word and wire group: [1968 - M402A - Spec Sheet (2) p3 (traced).json](1968%20-%20M402A%20-%20Spec%20Sheet%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1968 - M402A - Spec Sheet (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 332 × 432 mm, 1536 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 1–432 mm up
+- **Outlines:** line 735 rings, 8,916 straight (31,155 mm) / 739 curved (1,398 mm); text 109 rings, 715 straight (766 mm) / 224 curved (325 mm)
+- **Closed boxes:** 369; named: __:-I-...d-.....l:-t.J-++++----+-+-+-++-; __:-I-...d-.....l:-t.J-++++----+-+-+-++-; 1---+---+-I-H--J...~I--
+- **Words (OCR):** 39 in 31 lines: dB · 1---+---+-I-H--J...~I-- · __:-I-...d-.....l:-t.J-++++----+-+-+-++-H-+1 · 10 · FIVE PRE PO;CE · rep. · SHOWN · ONE CUR' 1e · FAMILY · jJ · 1000 · 10000
+
+Every curve, box, word and wire group: [1968 - M402A - Spec Sheet (2) p4 (traced).json](1968%20-%20M402A%20-%20Spec%20Sheet%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1968 - M402A - Spec Sheet (2) p4 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

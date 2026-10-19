@@ -26,6 +26,550 @@ Wiki page: [microCOM](../../../PAGES/microCOM.md)
 - **1981** (numeric): `11/13/81` — …MON3C Iss 01 b ) Both use the same Table: 11/13/81 04/03/84 11/13/81 TBLMN6 Issue 01 EPROM #50-287 (Disk #67) 3 , 5-2…
 - **1981** (numeric): `07/13/81` — …MND iy ) KEY ASGN Iss . 04 Iss. 07 Iss . 01 Iss. 01 Iss. 04 07/13/81 01/21/81 10/21/81 10/21/81 12/29/81 b ) Daughter Assembly (…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–279 mm across, 0–432 mm up
+- **Outlines:** line 81 rings, 1,841 straight (5,719 mm) / 114 curved (267 mm); text 49 rings, 984 straight (3,880 mm) / 90 curved (218 mm); tb 1 rings, 21 straight (118 mm) / 4 curved (6.3 mm)
+- **Words (OCR):** 12 in 12 lines: WBS · WBS · WBS · WBS · WBS · WBS · WBS · WBS · WBS Microcom · INSTRUCTION MANUAL · WBS · WBS
+- **Title block:** (173, 20)–(275, 432) mm: WBS · WBS · WBS · WBS · WBS · WBS · WBS · WBS · WBS Microcom · INSTRUCTION MANUAL · WBS · WBS
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p1 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p1%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 0–423 mm up
+- **Outlines:** line 43 rings, 1,066 straight (2,489 mm) / 129 curved (201 mm); text 170 rings, 1,892 straight (2,705 mm) / 384 curved (655 mm); tb 4 rings, 103 straight (274 mm) / 8 curved (16.0 mm)
+- **Words (OCR):** 14 in 8 lines: WAAD-BECK SYSTEMS LTD_ · WBS 641 PROGRESS AVENUE, SCARBOAOUGH_ · ONTARIO M1H 2x4 · TELEX O65-25339 · TELEPHONE: 416.1436-6550 · WBS MicroCOM · INSTRUCTION · MANUAL
+- **Title block:** (40, 238)–(245, 424) mm: WAAD-BECK SYSTEMS LTD_ · WBS 641 PROGRESS AVENUE, SCARBOAOUGH_ · ONTARIO M1H 2x4 · TELEX O65-25339 · TELEPHONE: 416.1436-6550 · WBS MicroCOM · INSTRUCTION
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p2 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p2%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–291 mm across, 0–424 mm up
+- **Outlines:** line 95 rings, 1,248 straight (3,160 mm) / 174 curved (280 mm); text 2,539 rings, 17,084 straight (19,250 mm) / 5,317 curved (8,054 mm); tb 3 rings, 33 straight (93.1 mm) / 2 curved (3.2 mm)
+- **Closed boxes:** 2
+- **Words (OCR):** 230 in 137 lines: WARD-BECK SysteMs LTD. · TABLE OF · CONTENTS · WBS MICROCOM INSTRUCT ION MANUAL · Microcom · Communications Systems · Operation/Service · INS 8060 · Documentation · NTC Crosspoint · Programm · ing
+- **Title block:** (21, 330)–(162, 432) mm: WARD-BECK SysteMs LTD. · TABLE OF · WBS MICROCOM INSTRUCT ION MANUAL · Microcom · Communications Systems · INS 8060 · Documentation
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p3 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p3%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 13–423 mm up
+- **Outlines:** line 19 rings, 867 straight (2,718 mm) / 82 curved (130 mm); text 1,105 rings, 7,373 straight (8,139 mm) / 2,274 curved (3,476 mm)
+- **Words (OCR):** 90 in 46 lines: WAAD-BECK SYSTeMS LTD_ · TABLE OF CONTENTS · WBS · MICROCOM INSTRUCTION MANUAL · 7810-01-001 · M7810 Intercom · Studio Termina Functional · 7810-02-001 · M7810 Intercom Studio Termina Schematic · 7810-06-001 · M7810 Intercom Studio · Terminal Perspective Layout
+- **Title block:** (21, 356)–(123, 432) mm: WAAD-BECK SYSTeMS LTD_ · WBS
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p4 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p4%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 0–420 mm up
+- **Outlines:** line 33 rings, 1,050 straight (2,512 mm) / 103 curved (164 mm); text 159 rings, 1,751 straight (2,406 mm) / 409 curved (755 mm); tb 2 rings, 107 straight (271 mm) / 9 curved (16.7 mm)
+- **Words (OCR):** 10 in 7 lines: WARD-BECK SYSTEMS LTD_ · WBS 841 PROGRESS AVENUE, SCARBOROJGH, ONTARIO M1h2xa · TeLeX: 065-25399 · TELEPHONE; · 416/438-6550 · MicroCOM · Communication System
+- **Title block:** (41, 391)–(247, 426) mm: WARD-BECK SYSTEMS LTD_ · WBS 841 PROGRESS AVENUE, SCARBOROJGH, ONTARIO M1h2xa · TeLeX: 065-25399 · TELEPHONE; · 416/438-6550
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p5 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p5%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–291 mm across, 0–416 mm up
+- **Outlines:** line 47 rings, 1,112 straight (2,995 mm) / 136 curved (219 mm); text 570 rings, 4,133 straight (4,682 mm) / 1,212 curved (1,828 mm); tb 2 rings, 20 straight (22.7 mm) / 4 curved (5.4 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.0 @ (196.3, 228.3)
+- **Words (OCR):** 69 in 46 lines: WARD-BECK SYETEMS LTD_ · TABLE OF · CONTENTS · MicroCoM Communication · System · SECTION · PAGE · Warranty · General · 1-1 to · 1-2 · Systems
+- **Title block:** (22, 260)–(124, 426) mm: WARD-BECK SYETEMS LTD_ · SECTION · Warranty · General · Systems · Central · Central
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p6 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p6%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–290 mm across, 0–419 mm up
+- **Outlines:** line 58 rings, 1,081 straight (2,714 mm) / 147 curved (236 mm); text 2,968 rings, 19,437 straight (20,292 mm) / 6,431 curved (9,372 mm); tb 12 rings, 163 straight (267 mm) / 25 curved (33.8 mm)
+- **Words (OCR):** 384 in 187 lines: WARD-BECK · SysTems LTD_ · GENERAL · MicroCOM · Communication System · The WBS · Microcom Communication System · is · flexible, cost · effective · reliable intercom · system
+- **Title block:** (22, 294)–(246, 428) mm: WARD-BECK · SysTems LTD_ · GENERAL · MicroCOM · Communication System · The WBS · Microcom Communication System · is · flexible, cost · reliable intercom · system · for Radio and · TV · broadcasting fa
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p7 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p7%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–290 mm across, 0–432 mm up
+- **Outlines:** line 60 rings, 1,147 straight (2,866 mm) / 120 curved (181 mm); text 589 rings, 3,950 straight (4,260 mm) / 1,251 curved (1,840 mm)
+- **Words (OCR):** 71 in 38 lines: WAAD-BECK SYSTEMS LTD_ · GENERAL · MicroCOM Communication · System · microprocessor controlled · power supply monitor · continuously · supplies of · the system · for correct · operating · scans
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p8 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p8%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–290 mm across, 0–419 mm up
+- **Outlines:** line 56 rings, 1,270 straight (3,126 mm) / 144 curved (232 mm); text 2,440 rings, 15,998 straight (17,003 mm) / 5,276 curved (7,658 mm)
+- **Words (OCR):** 324 in 156 lines: WAAD-BECK SYSTEMS LTD_ · SYSTEMS DESCRIPTION · MicroCoM · Communication System · Central · Matrix · Audie · The MFZD · Matrix frames of the MicroCOM system · form the · modular · building blocks, each
+- **Title block:** (22, 364)–(156, 429) mm: WAAD-BECK SYSTEMS LTD_ · MicroCoM
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p9 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p9%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 0–416 mm up
+- **Outlines:** line 591 rings, 6,876 straight (10,783 mm) / 1,189 curved (1,744 mm); text 253 rings, 1,974 straight (2,177 mm) / 581 curved (870 mm)
+- **Words (OCR):** 35 in 23 lines: WAAD-BECK SYSTEMS LTD_ · SYSTEMS DESCRIPTION · MicroCoM Communication System · Figure below lustrates · typical · audio path in the · MicroCoM · system . · H770 · DUAD BUFFER · AMPL ifieR · 4F7D
+- **Title block:** (21, 361)–(156, 426) mm: WAAD-BECK SYSTEMS LTD_
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p10 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p10%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–291 mm across, 0–420 mm up
+- **Outlines:** line 45 rings, 1,189 straight (2,617 mm) / 129 curved (203 mm); text 2,611 rings, 17,727 straight (18,869 mm) / 5,663 curved (8,190 mm); tb 17 rings, 204 straight (543 mm) / 26 curved (34.9 mm)
+- **Words (OCR):** 359 in 161 lines: WAAD-BECK SYSTEMS LTD. · . ` : `i -`.. `.a · SYSTEMS DESCRIPTION · MicroCoM Communication System · Centra · Matrix Control · The control · system · of the · MicroCOM consists of · series of micro- · processor
+- **Title block:** (22, 232)–(252, 430) mm: WAAD-BECK SYSTEMS LTD. · . ` : `i -`.. `.a · SYSTEMS DESCRIPTION · MicroCoM Communication System · Centra · Matrix Control · The control · system · of the · MicroCOM consists of · series of micro- · p
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p11 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p11%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–416 mm up
+- **Outlines:** line 231 rings, 5,496 straight (11,512 mm) / 701 curved (1,063 mm); text 1,587 rings, 11,506 straight (12,102 mm) / 3,648 curved (5,241 mm)
+- **Closed boxes:** 12; named: Ii; 771 MtRiX JTCHES; 11; K7764 Output CONTROLLER; K7764 OUTPuT CONTROLLER
+- **Words (OCR):** 218 in 120 lines: WAAD-BECK SYSTEMS LTD_ · SYSTEMS DESCRIPTION · MicroCom Communication System · M771 Matrix · Latch · Module is · located in · the first position of each · MFZD · matrix block . · multi · position
+- **Title block:** (22, 361)–(155, 426) mm: WAAD-BECK SYSTEMS LTD_
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p12 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p12%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–291 mm across, 0–419 mm up
+- **Outlines:** line 48 rings, 1,081 straight (2,899 mm) / 115 curved (171 mm); text 790 rings, 5,552 straight (5,822 mm) / 1,727 curved (2,533 mm); tb 4 rings, 29 straight (40.3 mm) / 6 curved (10.8 mm)
+- **Words (OCR):** 97 in 50 lines: WARD-BECK · SYSTEMS LTD_ · SYSTEMS DESCRIPT TON · MicroCom Communication System · Since the · crosspoint · assignment data · is recei ved and · continously · updated · from the · communication terminals,
+- **Title block:** (21, 288)–(156, 429) mm: WARD-BECK · SYSTEMS LTD_ · Since the · crosspoint · assignment data · updated · from the · remote · the matrix control · system is not necessary · failure. · Upon · receovery · from power · will · aut
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p13 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p13%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–291 mm across, 13–432 mm up
+- **Outlines:** line 24 rings, 985 straight (2,442 mm) / 101 curved (164 mm); text 2,985 rings, 19,318 straight (20,480 mm) / 6,331 curved (9,155 mm); tb 27 rings, 246 straight (568 mm) / 58 curved (79.0 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 385 in 181 lines: WAAD-BECK SYSTEMS LTD_ · SYSTEMS · DESCRIPTION · MicroCOM Communication · System · Communication · Terminals · broad Iine · of Communication · Terminals designed to · interface · with
+- **Title block:** (24, 149)–(250, 429) mm: WAAD-BECK SYSTEMS LTD_ · SYSTEMS · DESCRIPTION · MicroCOM Communication · System · Communication · Terminals · broad Iine · of Communication · Terminals designed to · interface · the central · matrix,
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p14 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p14%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–290 mm across, 0–420 mm up
+- **Outlines:** line 57 rings, 1,190 straight (2,989 mm) / 142 curved (216 mm); text 2,745 rings, 17,984 straight (18,980 mm) / 5,694 curved (8,314 mm)
+- **Words (OCR):** 353 in 149 lines: WAAD-BECK SYSTEMs LTD. · SYSTEMS DESCRIPTION · MicroCoM Communication System · The assignable · keys (A,B,C and may · be · programmed to any · valid · recei · ving station by · entering its · corresponding code number on
+- **Title block:** (22, 364)–(156, 430) mm: WAAD-BECK SYSTEMs LTD.
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p15 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p15%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–291 mm across, 13–420 mm up
+- **Outlines:** line 22 rings, 859 straight (2,702 mm) / 79 curved (120 mm); text 586 rings, 4,033 straight (4,317 mm) / 1,268 curved (1,858 mm); tb 1 rings, 1 straight (0.6 mm) / 2 curved (1.9 mm)
+- **Words (OCR):** 62 in 28 lines: WARD-BECK BYSTEMS LTD. · SYSTEMS · DESCRIPTI ON · MicroCOM Communication System · The · secondary terminals · contains no · microprocessor based control · circuitry AII controls; such as · fixed or · assignable lever · keys are
+- **Title block:** (22, 365)–(157, 429) mm: WARD-BECK BYSTEMS LTD. · SYSTEMS
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p16 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p16%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–298 mm across, 0–420 mm up
+- **Outlines:** line 981 rings, 12,913 straight (20,615 mm) / 2,181 curved (3,184 mm); text 88 rings, 656 straight (709 mm) / 186 curved (260 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.2 @ (85.7, 246.6)
+- **Closed boxes:** 27; named: 8383-; 8383-
+- **Dots (junctions):** 2
+- **Words (OCR):** 4 in 3 lines: WAAD-BECK SYSTEMS LTD_ · 8383- · 2-9
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p17 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p17%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–291 mm across, 41–432 mm up
+- **Outlines:** line 60 rings, 1,142 straight (3,274 mm) / 139 curved (214 mm); text 2,664 rings, 17,422 straight (18,291 mm) / 5,649 curved (8,190 mm); tb 1 rings, 2 straight (1.5 mm) / 1 curved (0.7 mm)
+- **Words (OCR):** 336 in 136 lines: WARD-BECK SYSTEMS LTD. · ceoi . · SYSTEMS DESCRIPTION · MicroCoM Communication System · Optiona · Facilities · Optional monitor and test · facilities permit · safe and · efficient diag- · nostic and serv · icing procedures for the MicroCOM system
+- **Title block:** (23, 365)–(157, 430) mm: WARD-BECK SYSTEMS LTD.
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p18 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p18%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–290 mm across, 0–417 mm up
+- **Outlines:** line 352 rings, 4,442 straight (8,390 mm) / 704 curved (1,085 mm); text 319 rings, 2,559 straight (2,763 mm) / 715 curved (1,028 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.4 @ (129.8, 181.7)
+- **Closed boxes:** 7; named: SELeCT Latch; MATRIX CONTROL System; OutPUT MoNiTOR LATCH
+- **Words (OCR):** 34 in 27 lines: WARD-BECK SYSTEMS LTD · SYSTEMS DESCRIPT ION · MicroCOM · Communication_System · Figure · below functionally iustrates the matrix · monitor package. · MATRIX · ISOLATION · CEKTRAL · INPUTS · AMPLIF IERS
+- **Title block:** (21, 362)–(156, 427) mm: WARD-BECK SYSTEMS LTD
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p19 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p19%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 0–416 mm up
+- **Outlines:** line 373 rings, 4,982 straight (9,320 mm) / 814 curved (1,162 mm); text 967 rings, 6,846 straight (7,270 mm) / 2,121 curved (3,067 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 1.8 @ (162.8, 137.2), r 1.8 @ (163.1, 202.6), r 1.7 @ (163.0, 169.7), r 1.7 @ (212.7, 126.1)
+- **Closed boxes:** 14; named: KTTT; M7764; 47764; M7764; 47764
+- **Words (OCR):** 130 in 68 lines: WAAD-BECK SYsteMS · LTD. · SYSTEMS DESCRIPTION · MicroCom · Communication System · The · optional M777 or · M777A Status Monitor · Module · provides quick · and accurate · visual indication
+- **Title block:** (22, 361)–(155, 426) mm: WAAD-BECK SYsteMS · LTD.
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p20 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p20%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 0–432 mm up
+- **Outlines:** line 50 rings, 1,207 straight (3,337 mm) / 132 curved (210 mm); text 1,617 rings, 10,779 straight (11,693 mm) / 3,204 curved (4,660 mm); tb 20 rings, 168 straight (223 mm) / 41 curved (64.3 mm)
+- **Words (OCR):** 215 in 97 lines: WARD-BECK · LTD, · SYSTEMS DESCRIPT ION · MicroCoM Communication System · The optional · M7720 Power · Supply Monitor continuously scans · all · power · supplies. If · power · supply
+- **Title block:** (22, 294)–(158, 430) mm: WARD-BECK · LTD, · The optional · M7720 Power · power · supplies. If · power · supply · exceeds or · drops · below the · voltage Iimits are · pre-programmed in · for different systems application) the
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p21 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p21%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–291 mm across, 0–418 mm up
+- **Outlines:** line 118 rings, 2,802 straight (6,894 mm) / 378 curved (596 mm); text 1,758 rings, 12,258 straight (13,252 mm) / 3,852 curved (5,578 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 228 in 121 lines: WAAD-BECK SYSTEMS LTD_ · SERVICE INFORMATION · MicroCoM Communication System · Communication · Terminal Data · Vo · The serial data · received · from the communication terminals · swi tches · between · 5V with nominal
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p22 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p22%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 0–432 mm up
+- **Outlines:** line 78 rings, 2,532 straight (6,950 mm) / 259 curved (416 mm); text 1,701 rings, 11,627 straight (12,302 mm) / 3,648 curved (5,325 mm)
+- **Words (OCR):** 220 in 130 lines: WARD-BECK SYSTEMS LTD_ · SERVICE INFORMATION · MicroCoM Communication · System · Calling tally data · block · (dependent upon · system · configuration) is · from the · M772 to · the communication terminal
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p23 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p23%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–291 mm across, 0–422 mm up
+- **Outlines:** line 48 rings, 1,201 straight (3,035 mm) / 146 curved (231 mm); text 1,609 rings, 10,903 straight (11,777 mm) / 3,460 curved (5,071 mm)
+- **Words (OCR):** 211 in 99 lines: WAAD-BECK sSTeMS LTD_ · SERVICE INFORMATION · MicroCQM_Communication System · Transmit Receive_Data · The M772 Data · Transmit/Receive Module · and its · companion · M774A · Input Controller · communicate simultaneously · with up to
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p24 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p24%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 0–418 mm up
+- **Outlines:** line 29 rings, 949 straight (2,447 mm) / 85 curved (133 mm); text 1,896 rings, 12,929 straight (13,849 mm) / 4,085 curved (5,959 mm); tb 41 rings, 324 straight (472 mm) / 62 curved (94.9 mm)
+- **Words (OCR):** 247 in 114 lines: WAAD-BECK SYSTEMS LTD_ · SERVICE INFORMATION · MicroCOM Communication · System · Multi_Processor_Communications_Bus · This bus network passes · data · from an · M774A Input · Controller to · all · M776A
+- **Title block:** (21, 84)–(240, 427) mm: WAAD-BECK SYSTEMS LTD_ · SERVICE INFORMATION · MicroCOM Communication · System · Multi_Processor_Communications_Bus · This bus network passes · data · from an · M774A Input · M776A · Output Controller
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p25 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p25%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–290 mm across, 0–417 mm up
+- **Outlines:** line 120 rings, 3,762 straight (7,868 mm) / 445 curved (696 mm); text 1,317 rings, 9,223 straight (9,703 mm) / 3,040 curved (4,474 mm)
+- **Words (OCR):** 180 in 76 lines: WAAD-BECK SYSTEMs LTD. · SERVICE INFORMATION · MicroCoM Communication System · Qutput-Latch_Data · The · configured crosspoint bit pattern data is passed from the · M776A · Output Controllers to · the M771 Latch · modules via an · bit data bus · (port of the output
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p26 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p26%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 0–432 mm up
+- **Outlines:** line 49 rings, 1,233 straight (3,022 mm) / 148 curved (232 mm); text 1,757 rings, 11,727 straight (12,477 mm) / 3,820 curved (5,590 mm)
+- **Words (OCR):** 236 in 114 lines: WARD-BECK · SYSTEMS LTD. · SERVICE · INFORMATION · MicroCoM Communication · System · Crosspoint_Data · The · crosspoint bit pattern · data at · the output · of the
+- **Title block:** (20, 402)–(122, 427) mm: WARD-BECK · SYSTEMS LTD.
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p27 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p27%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p27 (traced).dxf`).
+
+### Page 28
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 0–417 mm up
+- **Outlines:** line 54 rings, 873 straight (2,812 mm) / 120 curved (172 mm); text 1,379 rings, 9,320 straight (9,990 mm) / 3,002 curved (4,440 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 167 in 78 lines: WAAD-BECK SYSTEMS LTD_ · SUMMARY · MicroCOM_Communication System · AII · microprocessor controllers of the · Microcom system operate · with · the same · general overai · philosophy · utilizing the · National Semi-
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p28 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p28%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p28 (traced).dxf`).
+
+### Page 29
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–431 mm up
+- **Outlines:** line 74 rings, 1,323 straight (2,888 mm) / 138 curved (213 mm); text 143 rings, 1,687 straight (2,140 mm) / 381 curved (630 mm); tb 4 rings, 123 straight (264 mm) / 17 curved (38.3 mm)
+- **Words (OCR):** 10 in 6 lines: WARD-BECK SYSTEMS LTD_ · WBS 841 PAOCRESS AVENUE SCARBOROUGH ONTARO NH 2x4 · TELEX: 065-25399 · TELEPHONE: 4161433-8550 · INS 8060 · DOCUMENTATION
+- **Title block:** (39, 400)–(250, 432) mm: WARD-BECK SYSTEMS LTD_ · WBS 841 PAOCRESS AVENUE SCARBOROUGH ONTARO NH 2x4 · TELEX: 065-25399 · TELEPHONE: 4161433-8550
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p29 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p29%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p29 (traced).dxf`).
+
+### Page 30
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 0–432 mm up
+- **Outlines:** line 2,539 rings, 21,737 straight (30,227 mm) / 5,086 curved (6,291 mm); text 709 rings, 4,989 straight (4,930 mm) / 1,702 curved (2,386 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.6 @ (53.6, 303.3), r 1.5 @ (102.6, 125.1)
+- **Closed boxes:** 18; named: INPUTIOUTPUT CONTROL; QUTPUT; PoinTer REGISTER M1; Pointer register 62; OSCILLATOR AND Timing GENERATOR; Functidk; INSTRUCTION DECODE AND CONTROL; OUTPUT LATCH; reGISTER; ArithmETIC LOGIC UNI; OUTPUT bUfFeA; INPUT/OUTPUT DATA AeCiSTER
+- **Dots (junctions):** 1
+- **Words (OCR):** 57 in 57 lines: MEMORY ADDRESS REGISTE · Adoress BUFFERS · OSCILLATOR AND · Timing GENERATOR · PROGRAM COUNTER AND · Pointer REGISTERS 1, 2 AND · INPUTIOUTPUT · SERIAL INPUTISERIAL QUTPL · CONtROL LOGIc · BUS EXCHANGE Logic · ACCUMULATOR · FLAG OUTputs
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p30 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p30%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p30 (traced).dxf`).
+
+### Page 31
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 4–432 mm up
+- **Outlines:** line 984 rings, 11,382 straight (15,702 mm) / 2,677 curved (3,668 mm); text 819 rings, 5,411 straight (5,603 mm) / 1,631 curved (2,406 mm)
+- **Circles and arcs:** 16 circles, 0 arcs; largest r 2.0 @ (233.7, 187.5), r 1.9 @ (103.4, 71.0), r 1.9 @ (36.1, 226.8), r 1.4 @ (209.4, 245.6)
+- **Closed boxes:** 30; named: Vhi 23 Il 21 339 28 214; I3
+- **Words (OCR):** 9 in 9 lines: Vhi · 23 · Il · 21 · 339 · 28 · 214 · I3 · 9-2
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p31 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p31%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p31 (traced).dxf`).
+
+### Page 32
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 0–432 mm up
+- **Outlines:** line 1,067 rings, 9,804 straight (13,673 mm) / 2,384 curved (3,519 mm); text 1,173 rings, 7,598 straight (7,764 mm) / 2,359 curved (3,474 mm)
+- **Circles and arcs:** 19 circles, 0 arcs; largest r 1.5 @ (163.1, 192.1), r 1.4 @ (259.6, 232.2), r 1.4 @ (272.6, 299.9), r 1.4 @ (246.8, 191.6)
+- **Closed boxes:** 22; named: 14 21 34 Hi { 18 28 Ii li 01 J4 23 82 18
+- **Dots (junctions):** 1
+- **Words (OCR):** 15 in 13 lines: 14 · 21 · 34 · Hi { 28 · 18 · Ii · li J4 · 01 · 23 · 82 · 18 · li
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p32 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p32%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p32 (traced).dxf`).
+
+### Page 33
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 13–430 mm up
+- **Outlines:** line 912 rings, 9,641 straight (13,248 mm) / 2,418 curved (3,269 mm); text 620 rings, 4,053 straight (4,117 mm) / 1,258 curved (1,891 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 2.0 @ (217.2, 194.0), r 1.9 @ (49.4, 232.0), r 1.9 @ (127.6, 72.3), r 1.4 @ (63.1, 202.7)
+- **Closed boxes:** 9
+- **Dots (junctions):** 2
+- **Words (OCR):** 6 in 6 lines: 21 · 12 · 13 · 18 · 11 · 9_4
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p33 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p33%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p33 (traced).dxf`).
+
+### Page 34
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 0–428 mm up
+- **Outlines:** line 1,072 rings, 9,554 straight (13,709 mm) / 2,352 curved (3,468 mm); text 1,053 rings, 6,942 straight (7,116 mm) / 2,140 curved (3,170 mm)
+- **Circles and arcs:** 22 circles, 0 arcs; largest r 2.0 @ (179.5, 293.9), r 1.9 @ (38.5, 229.4), r 1.9 @ (186.3, 206.6), r 1.8 @ (213.2, 68.4)
+- **Closed boxes:** 23; named: 82 Z3 03 VH 11 Z1 Ia 1g 841 2 94
+- **Dots (junctions):** 1
+- **Words (OCR):** 11 in 10 lines: 82 · Z3 · 03 · VH · 11 · Z1 · Ia · 1g 2 94 · 841 · 9-5
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p34 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p34%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p34 (traced).dxf`).
+
+### Page 35
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 0–430 mm up
+- **Outlines:** line 1,180 rings, 12,423 straight (15,685 mm) / 3,280 curved (4,109 mm); text 1,055 rings, 7,013 straight (7,123 mm) / 2,151 curved (3,219 mm)
+- **Circles and arcs:** 17 circles, 0 arcs; largest r 2.0 @ (100.5, 93.8), r 1.9 @ (146.0, 101.0), r 1.9 @ (190.8, 94.9), r 1.9 @ (190.7, 114.0)
+- **Closed boxes:** 15
+- **Dots (junctions):** 2
+- **Words (OCR):** 15 in 14 lines: 08 · 82 · 3 2 · 49 · Iji · VH 22 · 22 · 33 · Ji · 21 · Je · Ji
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p35 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p35%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p35 (traced).dxf`).
+
+### Page 36
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 0–432 mm up
+- **Outlines:** line 810 rings, 9,382 straight (12,744 mm) / 2,179 curved (3,118 mm); text 977 rings, 7,293 straight (7,329 mm) / 2,278 curved (3,261 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 1.9 @ (277.5, 192.3), r 1.9 @ (263.5, 129.4), r 1.5 @ (70.7, 225.6), r 1.5 @ (84.8, 304.7)
+- **Closed boxes:** 15; named: 14 18 23 83 2 9 21 43 23 iHh IL Ii
+- **Words (OCR):** 12 in 9 lines: 14 · 18 · 23 83 · 2 9 43 · 21 · 23 · iHh · IL Ii · 9-7
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p36 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p36%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p36 (traced).dxf`).
+
+### Page 37
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–430 mm up
+- **Outlines:** line 985 rings, 8,559 straight (11,398 mm) / 2,072 curved (3,056 mm); text 1,196 rings, 8,050 straight (8,223 mm) / 2,477 curved (3,652 mm)
+- **Circles and arcs:** 26 circles, 0 arcs; largest r 2.0 @ (83.3, 267.4), r 1.9 @ (267.9, 246.7), r 1.9 @ (244.8, 280.7), r 1.9 @ (161.1, 196.3)
+- **Closed boxes:** 8
+- **Words (OCR):** 9 in 8 lines: 40 · 12 · 23 · 11 · 3 9 · il ZH · Ji: · 9-8
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p37 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p37%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p37 (traced).dxf`).
+
+### Page 38
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 0–428 mm up
+- **Outlines:** line 980 rings, 11,408 straight (14,177 mm) / 3,092 curved (3,813 mm); text 611 rings, 4,292 straight (4,259 mm) / 1,352 curved (1,911 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 1.9 @ (66.1, 107.5), r 1.9 @ (42.3, 237.5), r 1.6 @ (132.8, 103.5), r 1.5 @ (87.8, 213.3)
+- **Closed boxes:** 9; named: IH 83
+- **Words (OCR):** 4 in 4 lines: Jl · IH · 83 · 9-9
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p38 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p38%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p38 (traced).dxf`).
+
+### Page 39
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 0–429 mm up
+- **Outlines:** line 768 rings, 8,474 straight (11,620 mm) / 2,086 curved (2,880 mm); text 717 rings, 5,020 straight (5,092 mm) / 1,501 curved (2,200 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 1.9 @ (75.9, 72.0), r 1.5 @ (82.2, 292.2), r 1.5 @ (83.1, 223.3), r 1.4 @ (43.1, 302.0)
+- **Closed boxes:** 7
+- **Words (OCR):** 6 in 6 lines: g3 · 8 g · 43 · HhX · 11 · 9-10
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p39 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p39%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p39 (traced).dxf`).
+
+### Page 40
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 0–429 mm up
+- **Outlines:** line 879 rings, 7,976 straight (11,902 mm) / 1,961 curved (2,951 mm); text 910 rings, 5,969 straight (6,024 mm) / 1,933 curved (2,836 mm)
+- **Circles and arcs:** 21 circles, 0 arcs; largest r 2.0 @ (267.6, 197.8), r 1.9 @ (280.8, 274.7), r 1.9 @ (254.0, 101.3), r 1.9 @ (253.9, 78.9)
+- **Closed boxes:** 14; named: Jl; HH 28 Hi 3 2 HH IH 13 12
+- **Words (OCR):** 10 in 8 lines: Jl · HH · 28 · Hi · 3 2 HH · IH 12 · 13 · 9-11
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p40 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p40%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p40 (traced).dxf`).
+
+### Page 41
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 0–430 mm up
+- **Outlines:** line 1,033 rings, 9,774 straight (13,904 mm) / 2,557 curved (3,853 mm); text 471 rings, 3,266 straight (3,278 mm) / 947 curved (1,402 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 1.4 @ (36.4, 246.6), r 1.4 @ (251.1, 344.1), r 1.4 @ (43.8, 215.2), r 1.4 @ (75.0, 289.8)
+- **Closed boxes:** 18; named: Vi 82 dsip; Hw 13
+- **Dots (junctions):** 2
+- **Words (OCR):** 6 in 6 lines: Hw · 82 · Vi · 13 · dsip · 9-12
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p41 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p41%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p41 (traced).dxf`).
+
+### Page 42
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 0–415 mm up
+- **Outlines:** line 34 rings, 804 straight (2,536 mm) / 77 curved (116 mm); text 162 rings, 1,731 straight (2,445 mm) / 422 curved (777 mm); tb 2 rings, 104 straight (272 mm) / 8 curved (15.0 mm)
+- **Words (OCR):** 16 in 9 lines: WARD-BECK SYSTEMS LTD_ · WBS 841 PROCRESS AVENUE SCARBOROUGH, 416/438-6550 · ONTARIO · M1H2x4 · TELeX 065-25399 · TELEPHONE: · NTC · CROSSPOINT · PROGRAMMING
+- **Title block:** (42, 389)–(247, 423) mm: WARD-BECK SYSTEMS LTD_ · WBS 841 PROCRESS AVENUE SCARBOROUGH, 416/438-6550 · ONTARIO · TELeX 065-25399 · TELEPHONE:
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p42 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p42%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p42 (traced).dxf`).
+
+### Page 43
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 0–419 mm up
+- **Outlines:** line 56 rings, 1,213 straight (2,617 mm) / 156 curved (251 mm); text 2,061 rings, 13,789 straight (14,555 mm) / 4,370 curved (6,326 mm); tb 4 rings, 84 straight (203 mm) / 9 curved (11.7 mm)
+- **Words (OCR):** 261 in 119 lines: WAAD-BECK SysteMs LTD_ · GENERAL · CROSSPOINT · ADDRESSING · The Programming · of the · crosspoint control · functions in the · WBS Micro- · com · System for NTC · Hollywood is divided into the
+- **Title block:** (22, 326)–(258, 429) mm: WAAD-BECK SysteMs LTD_ · GENERAL · CROSSPOINT · ADDRESSING · The Programming · of the · crosspoint control · functions in the · WBS Micro- · com · System for NTC · Hollywood is divided into the · foll
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p43 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p43%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p43 (traced).dxf`).
+
+### Page 44
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–291 mm across, 13–432 mm up
+- **Outlines:** line 71 rings, 1,176 straight (3,434 mm) / 149 curved (242 mm); text 2,246 rings, 14,884 straight (15,713 mm) / 4,846 curved (7,065 mm)
+- **Words (OCR):** 312 in 156 lines: WAAD-BECK SYSTEMS LTD. · ^.tc -.i · KEY · FIXED LEVER · AND PUSHBUTTON · CROSSPOINT ADDRESSING · The · addressing for fixed lever · key and · pushbutton control on · communications · terminal is determined
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p44 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p44%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p44 (traced).dxf`).
+
+### Page 45
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–418 mm up
+- **Outlines:** line 25 rings, 957 straight (2,744 mm) / 119 curved (200 mm); text 764 rings, 5,203 straight (5,564 mm) / 1,628 curved (2,426 mm)
+- **Words (OCR):** 91 in 45 lines: WARD-BECK SYSTEMS LTD_ · FIXED LEVER KEY · AND PUSHBUTTON · CROSSPO INT ADDRESSING · The · addressing for the · pushbutton control · functions i5 similar to · ddressing for the · fixed ever · the · keys
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p45 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p45%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p45 (traced).dxf`).
+
+### Page 46
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–291 mm across, 22–418 mm up
+- **Outlines:** line 54 rings, 1,246 straight (2,871 mm) / 128 curved (202 mm); text 1,166 rings, 7,728 straight (8,297 mm) / 2,431 curved (3,571 mm)
+- **Words (OCR):** 148 in 68 lines: WARD-BECK · SysteMs LTD. · ASSIGNABLE LEVER KEY · CROSSPOINT ADDRESSING · The addressing · of the assignable · lever · keys is determined by · coding table · EPROM (2716) located in each · of the · M7800 series
+- **Title block:** (23, 404)–(125, 428) mm: WARD-BECK · SysteMs LTD.
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p46 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p46%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p46 (traced).dxf`).
+
+### Page 47
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 11–432 mm up
+- **Outlines:** line 47 rings, 971 straight (2,989 mm) / 109 curved (178 mm); text 1,120 rings, 7,438 straight (7,858 mm) / 2,477 curved (3,703 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 157 in 68 lines: WAAD-BECK SYSTEMS LTD · SPECIALIZED CROSSPOINT · CONTROL · FUNCTIONS · The program · that is · loaded into the EPROM on · the · M774A input · controller · daughter assembly contains · revised
+- **Title block:** (23, 404)–(143, 428) mm: WAAD-BECK SYSTEMS LTD
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p47 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p47%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p47 (traced).dxf`).
+
+### Page 48
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 0–418 mm up
+- **Outlines:** line 40 rings, 1,165 straight (2,794 mm) / 119 curved (193 mm); text 2,099 rings, 13,646 straight (14,604 mm) / 4,632 curved (6,995 mm)
+- **Words (OCR):** 317 in 153 lines: WAAD-BECK SYBTEmS · LTO. · SPECIALIZED · CROSSPOINT · CONTROL FUNCTIONS · The program · is loaded into the · EPROM on · the M776A output · that · controller · daughter assembly contains
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p48 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p48%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p48 (traced).dxf`).
+
+### Page 49
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–291 mm across, 6–431 mm up
+- **Outlines:** line 42 rings, 1,131 straight (3,215 mm) / 78 curved (126 mm); text 1,051 rings, 7,010 straight (8,200 mm) / 2,286 curved (3,478 mm); tb 16 rings, 82 straight (177 mm) / 15 curved (18.0 mm)
+- **Words (OCR):** 137 in 111 lines: WARO-BECK SySTEMs LTD_ · PROGRAMMING SUMMARY · System · Input · Controller (M774A · Assembly · (SA14-029) · Mother · Program: · NCTL3 · 08 · Issue
+- **Title block:** (22, 128)–(187, 426) mm: WARO-BECK SySTEMs LTD_ · PROGRAMMING SUMMARY · System · Input · Controller (M774A · Assembly · (SA14-029) · Mother · Program: · NCTL3 · 08 · Issue · EPROM · #50-070 (Disk #31 ) · Comprised of the · fo
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p49 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p49%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p49 (traced).dxf`).
+
+### Page 50
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 0–418 mm up
+- **Outlines:** line 8 rings, 984 straight (2,380 mm) / 76 curved (123 mm); text 901 rings, 6,387 straight (7,365 mm) / 1,974 curved (2,990 mm); tb 83 rings, 397 straight (516 mm) / 110 curved (176 mm)
+- **Words (OCR):** 121 in 79 lines: WAAD-BECK SySTeMS LTD_ · PROGRAMMING SUMMARY · System · Output Controller · (M776A ) · Mother Assembly · (SA14-029) · Program: OUTMAC · Issue · 03 · EPROM · #50-277 (Disk #64 )
+- **Title block:** (22, 79)–(220, 428) mm: WAAD-BECK SySTeMS LTD_ · PROGRAMMING SUMMARY · System · Output Controller · (M776A ) · Mother Assembly · (SA14-029) · Program: OUTMAC · Issue · 03 · EPROM · #50-277 (Disk #64 ) · Comprised of · the · 
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p50 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p50%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p50 (traced).dxf`).
+
+### Page 51
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 0–432 mm up
+- **Outlines:** line 43 rings, 1,011 straight (2,729 mm) / 85 curved (128 mm); text 987 rings, 6,992 straight (8,120 mm) / 2,117 curved (3,169 mm); tb 38 rings, 174 straight (276 mm) / 54 curved (78.7 mm)
+- **Words (OCR):** 127 in 84 lines: WAAD-BECK SYSTEMS LTD. · PROGRAMMING SUMMARY · M7800 Series Communications Terminals · The Supervisor Expander · and Expander terminals use · Program: TURET? · Issue 04 · EPROM #50-077 · Comprised · of the · following routines · 02/08/82
+- **Title block:** (24, 99)–(187, 430) mm: WAAD-BECK SYSTEMS LTD. · PROGRAMMING SUMMARY · M7800 Series Communications Terminals · The Supervisor Expander · Program: TURET? · Issue 04 · EPROM #50-077 · Comprised · of the · following routines · 
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p51 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p51%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p51 (traced).dxf`).
+
+### Page 52
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1415 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 0–418 mm up
+- **Outlines:** line 14 rings, 803 straight (2,442 mm) / 59 curved (92.4 mm); text 287 rings, 2,172 straight (2,547 mm) / 634 curved (964 mm); tb 12 rings, 86 straight (145 mm) / 17 curved (22.7 mm)
+- **Words (OCR):** 35 in 21 lines: WAAD-BECK SysTeMs LTD. · PROGRAMMING SUMMARY · M777A Status · Monitor · Table · STATA · Issue · 01 · EPROM · #50-086 (Disk #25 ) · M7720 Power Supply Monitor · Terminal
+- **Title block:** (22, 263)–(185, 428) mm: WAAD-BECK SysTeMs LTD. · PROGRAMMING SUMMARY · M777A Status · Monitor · Table · STATA · Issue · 01 · EPROM · #50-086 (Disk #25 ) · M7720 Power Supply Monitor · Terminal · Program: MNTR · Issue · EPROM
+
+Every curve, box, word and wire group: [1982 - microCOM - Instruction Manual p52 (traced).json](1982%20-%20microCOM%20-%20Instruction%20Manual%20p52%20%28traced%29.json) (the CAD file: `1982 - microCOM - Instruction Manual p52 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

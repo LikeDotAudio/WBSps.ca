@@ -15,6 +15,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 
 - **1999** (month): `NOV., 05,1999` — …Y WARD-BECK SYSTEMS R2K R2K FUNCTIONAL R251.DSN PAGE 3 OF 3 NOV., 05,1999…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 8–432 mm across, 1–288 mm up
+- **Outlines:** line 195 rings, 4,023 straight (11,992 mm) / 599 curved (816 mm); text 1,265 rings, 7,319 straight (7,491 mm) / 2,213 curved (2,985 mm)
+- **Closed boxes:** 10; named: MUTE A,B,C R201 INPUT CHANNEL TIMER RESE; MUTE A,B,C R201 INPUT CHANNEL TIMER RESE; MUTE A,B,C R201 INPUT CHANNEL TIMER RESE; R254 TIMER DISPLAY; TORPEY CLOCK DISPLAY; R250SA2 STUDIO I\O ASSEMBLY
+- **Words (OCR):** 286 in 150 lines: 12 CHANNEL · 20 CHANNEL · 28 CHANNEL · 20 CHANNEL · 28 CHANNEL · MUTE A,B,C · MUTE A,B,C · POSITION · POSITION · POSITION 17 · CONTROL IN1-4 · R201 INPUT CHANNEL
+- **Title block:** (320, 18)–(432, 39) mm: WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - R2K - R2Kfunctional_pg3 (1) p1 (traced).json](1994%20-%20R2K%20-%20R2Kfunctional_pg3%20%281%29%20p1%20%28traced%29.json) (the CAD file: `1994 - R2K - R2Kfunctional_pg3 (1) p1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

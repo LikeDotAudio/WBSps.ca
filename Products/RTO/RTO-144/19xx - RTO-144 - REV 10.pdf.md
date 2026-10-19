@@ -12,6 +12,20 @@ Wiki page: [RTO-144](../../../PAGES/RTO-144.md)
 - **Pages:** 1
 - **PDF created (scan date, not design date):** Sat Feb  1 15:26:32 2020 EST
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 2–420 mm across, 0–186 mm up
+- **Outlines:** line 1,786 rings, 12,241 straight (21,181 mm) / 3,417 curved (5,199 mm); text 162 rings, 866 straight (874 mm) / 258 curved (341 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 3.7 @ (48.3, 133.6), r 3.5 @ (398.9, 133.5), r 3.4 @ (52.9, 173.0), r 3.4 @ (398.9, 108.5)
+- **Closed boxes:** 17; named: B.A.2.N.1; 5.A.2.P.3
+- **Dots (junctions):** 69
+- **Words (OCR):** 219 in 176 lines: 7.A.4.P.3 JMP.7.5 · JMP.7.9 · 12.A.4.P.6 · 13.A.4.P.7 JMP.14.13 · 15.A.4.P.8 JMP.15.16 16.A.4.N.10 · A.A.4.N.1 · 1.A.4.P.1 · C.A.4.N.4 · 3.A.4.P.2 · 4.A.4.N.3 · JMP.F.H · H.A.4.N.5
+
+Every curve, box, word and wire group: [19xx - RTO-144 - REV 10 p1 (traced).json](19xx%20-%20RTO-144%20-%20REV%2010%20p1%20%28traced%29.json) (the CAD file: `19xx - RTO-144 - REV 10 p1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

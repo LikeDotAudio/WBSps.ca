@@ -11,6 +11,55 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Pages:** 5
 - **PDF created (scan date, not design date):** Thu Aug  3 05:19:24 2006 EDT
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–297 mm across, 47–390 mm up
+- **Outlines:** line 249 rings, 1,477 straight (4,870 mm) / 245 curved (410 mm); text 2,232 rings, 13,867 straight (15,786 mm) / 4,268 curved (6,158 mm)
+- **Circles and arcs:** 18 circles, 0 arcs; largest r 4.3 @ (273.3, 290.4), r 4.3 @ (286.7, 290.4), r 3.3 @ (290.4, 89.0), r 3.3 @ (290.5, 192.9)
+- **Closed boxes:** 24
+- **Words (OCR):** 326 in 33 lines: R221 · STEREO INPUT MODULE · The R221 accepts two balanced stereo console, inputs, or and has individual front · panel accessible screw driver adjustments to trim the level of the left (lower trim) and · right (upper trim) channels. · MO NO pushbu tton switch will sum the left and right · stereo sig
+
+Every curve, box, word and wire group: [1994 - R2K - R221 MANUAL p1 (traced).json](1994%20-%20R2K%20-%20R221%20MANUAL%20p1%20%28traced%29.json) (the CAD file: `1994 - R2K - R221 MANUAL p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–294 mm across, 93–390 mm up
+- **Outlines:** line 7 rings, 28 straight (732 mm) / 0 curved (0.0 mm); text 3,462 rings, 21,629 straight (23,974 mm) / 6,956 curved (10,039 mm)
+- **Words (OCR):** 548 in 50 lines: R221 · STEREO INPUT MODULE CONTROL · A-B SOURCE SELECT · Source pushbuttons · and · are electronically interlocked and select between stereo inputs · and · respectively. Left and righ trim controls are accessible from the front panel. These trim controls are post · input selec · MONO SELECT · Pressi
+
+Every curve, box, word and wire group: [1994 - R2K - R221 MANUAL p2 (traced).json](1994%20-%20R2K%20-%20R221%20MANUAL%20p2%20%28traced%29.json) (the CAD file: `1994 - R2K - R221 MANUAL p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–236 mm across, 76–391 mm up
+- **Outlines:** line 17 rings, 69 straight (1,631 mm) / 5 curved (9.1 mm); text 838 rings, 5,530 straight (6,948 mm) / 1,578 curved (2,481 mm)
+- **Words (OCR):** 141 in 82 lines: DIP SWITCH SETTING (REF DES=SW · SWITCH FUNCTIONS · SW1 · Mode Selection · SW2 · Mode Selection · SW3 · Mode Selection · SW4 · M1 Pre-Channel · isable · SW5
+
+Every curve, box, word and wire group: [1994 - R2K - R221 MANUAL p3 (traced).json](1994%20-%20R2K%20-%20R221%20MANUAL%20p3%20%28traced%29.json) (the CAD file: `1994 - R2K - R221 MANUAL p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–294 mm across, 63–391 mm up
+- **Outlines:** line 1 rings, 4 straight (130 mm) / 0 curved (0.0 mm); text 2,281 rings, 14,527 straight (16,943 mm) / 4,241 curved (6,408 mm)
+- **Words (OCR):** 390 in 110 lines: MODES OF OPERATION: · MO DE · Control in CH ON · Control out CH ON IN · ally · Control in · CH OFF Control out CH ON IN · ally · Control in · SEL · Control out · ally
+
+Every curve, box, word and wire group: [1994 - R2K - R221 MANUAL p4 (traced).json](1994%20-%20R2K%20-%20R221%20MANUAL%20p4%20%28traced%29.json) (the CAD file: `1994 - R2K - R221 MANUAL p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–294 mm across, 336–391 mm up
+- **Outlines:** line 1 rings, 18 straight (185 mm) / 2 curved (5.6 mm); text 441 rings, 2,817 straight (3,191 mm) / 830 curved (1,272 mm)
+- **Words (OCR):** 79 in 13 lines: OD ES · PER ATION (cont’d): · MO DE · Control in CH ON · Control out CH ON event pulse · Control in · CH OFF Control out CH OFF Tally · Control in Cue On · Control out Cu on ally · Control in Cue ff · Control out Cu off ally · hen bringing fader down the en of travel turns the channel off. Ch annel 
+
+Every curve, box, word and wire group: [1994 - R2K - R221 MANUAL p5 (traced).json](1994%20-%20R2K%20-%20R221%20MANUAL%20p5%20%28traced%29.json) (the CAD file: `1994 - R2K - R221 MANUAL p5 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

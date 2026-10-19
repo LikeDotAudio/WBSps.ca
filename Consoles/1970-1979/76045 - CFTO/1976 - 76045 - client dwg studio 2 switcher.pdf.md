@@ -11,6 +11,20 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Pages:** 1
 - **PDF created (scan date, not design date):** Sat Feb 25 21:12:30 2012 EST
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 259 × 432 mm, 1201 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–259 mm across, 5–432 mm up
+- **Outlines:** line 736 rings, 7,584 straight (9,249 mm) / 1,598 curved (2,131 mm); text 297 rings, 1,880 straight (1,798 mm) / 544 curved (706 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 3.0 @ (224.3, 346.6), r 1.2 @ (201.3, 94.5)
+- **Closed boxes:** 2
+- **Dots (junctions):** 2
+- **Words (OCR):** 5 in 5 lines: Vi · 2 3 · 2k2 · 13 / · 11
+
+Every curve, box, word and wire group: [1976 - 76045 - client dwg studio 2 switcher p1 (traced).json](1976%20-%2076045%20-%20client%20dwg%20studio%202%20switcher%20p1%20%28traced%29.json) (the CAD file: `1976 - 76045 - client dwg studio 2 switcher p1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

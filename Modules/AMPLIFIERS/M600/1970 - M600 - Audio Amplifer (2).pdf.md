@@ -12,6 +12,333 @@ Wiki page: [M600](../../../PAGES/M600.md)
 - **Pages:** 29
 - **PDF created (scan date, not design date):** Mon Aug 17 17:07:47 2009 EDT
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–314 mm across, 21–425 mm up
+- **Outlines:** line 53 rings, 1,122 straight (3,464 mm) / 181 curved (281 mm); text 151 rings, 1,185 straight (1,590 mm) / 242 curved (398 mm); tb 66 rings, 564 straight (761 mm) / 140 curved (231 mm)
+- **Words (OCR):** 27 in 18 lines: WARD -BECK YST · LTD · ['Nas] """CIGRI!1!I8 · "VI!"'lJI!.~ CNTAI'lQ · ""'"'il><" · TI!i LI! · T'EU!.....c:NII! · ""3e · M60 · AUDI AMP LIFIER · ISSUE ps · bl
+- **Title block:** (115, 60)–(297, 422) mm: WARD -BECK YST · LTD · "VI!"'lJI!.~ CNTAI'lQ · ""'"'il><" · TI!i LI! · T'EU!.....c:NII! · ""3e · M60 · AUDI AMP LIFIER · ISSUE ps · bl · A1 · BS
+
+Every curve, box, word and wire group: [1970 - M600 - Audio Amplifer (2) p1 (traced).json](1970%20-%20M600%20-%20Audio%20Amplifer%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1970 - M600 - Audio Amplifer (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–312 mm across, 0–425 mm up
+- **Outlines:** line 226 rings, 2,472 straight (5,176 mm) / 498 curved (814 mm); text 526 rings, 3,395 straight (3,776 mm) / 954 curved (1,546 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.2 @ (68.1, 324.9), r 2.1 @ (166.9, 358.6), r 1.7 @ (269.7, 284.3)
+- **Words (OCR):** 108 in 46 lines: YSTEMS LTD · TABLE OF CONTENTS · M600 AUD IO At-IPL IF IER · Wa · TK · lc · Ge ne · a-t · Cll"Cl.d Desc.. tl · In eli llt ion · Ma lnl · nc
+
+Every curve, box, word and wire group: [1970 - M600 - Audio Amplifer (2) p2 (traced).json](1970%20-%20M600%20-%20Audio%20Amplifer%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1970 - M600 - Audio Amplifer (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–307 mm across, 0–425 mm up
+- **Outlines:** line 304 rings, 2,867 straight (5,784 mm) / 652 curved (1,038 mm); text 875 rings, 6,054 straight (6,686 mm) / 1,935 curved (3,112 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 2.2 @ (46.7, 166.0), r 2.2 @ (46.7, 179.4), r 1.7 @ (167.5, 124.6), r 1.7 @ (240.1, 299.7)
+- **Closed boxes:** 1
+- **Dots (junctions):** 3
+- **Words (OCR):** 210 in 98 lines: SY · EMS LTD · TEC HN ICAL DATA · "'600 AUDIO AMPLIFIER · Tr · Gain · 50- 70 d8 · 0.5 d8. · reQu en · Resp on · 25 d8 · 20 Hz to
+
+Every curve, box, word and wire group: [1970 - M600 - Audio Amplifer (2) p3 (traced).json](1970%20-%20M600%20-%20Audio%20Amplifer%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1970 - M600 - Audio Amplifer (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–308 mm across, 0–418 mm up
+- **Outlines:** line 486 rings, 4,052 straight (6,742 mm) / 1,034 curved (1,624 mm); text 1,154 rings, 8,320 straight (9,050 mm) / 2,696 curved (4,331 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 1.7 @ (87.2, 205.2), r 1.7 @ (89.5, 299.5), r 1.7 @ (206.8, 280.3), r 1.7 @ (64.0, 279.4)
+- **Dots (junctions):** 4
+- **Words (OCR):** 284 in 121 lines: /<01600 AUO IO AMPL IF IER · Tn M600 Is · nigl'o performance .udio .mp li fier designed spec lflc.l · for pro fe,.sl one · ppllca llons In In · broadc.s' and sound · ~ording · Indus tri · The · unl · exl'olblls exceedi ng ly low · InpU
+
+Every curve, box, word and wire group: [1970 - M600 - Audio Amplifer (2) p4 (traced).json](1970%20-%20M600%20-%20Audio%20Amplifer%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1970 - M600 - Audio Amplifer (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–312 mm across, 0–426 mm up
+- **Outlines:** line 511 rings, 4,170 straight (7,158 mm) / 1,181 curved (1,856 mm); text 1,954 rings, 13,151 straight (14,146 mm) / 4,307 curved (6,755 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.7 @ (148.3, 293.1), r 1.7 @ (296.3, 299.9)
+- **Closed boxes:** 1
+- **Dots (junctions):** 3
+- **Words (OCR):** 427 in 201 lines: WA · BE CK SYSTEM · LT · IRCU · OESCR IPTlOII · 1>1600 AUDIO AMPLIF IER · Ref er 10 ac hema tlc dlag r."n · 600 2_0 10 · 122- · 00 · Ih rou · OJ comp rise
+
+Every curve, box, word and wire group: [1970 - M600 - Audio Amplifer (2) p5 (traced).json](1970%20-%20M600%20-%20Audio%20Amplifer%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1970 - M600 - Audio Amplifer (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–425 mm up
+- **Outlines:** line 226 rings, 2,177 straight (4,982 mm) / 453 curved (686 mm); text 305 rings, 2,053 straight (2,301 mm) / 588 curved (938 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 1.7 @ (96.2, 326.5), r 1.7 @ (182.8, 306.4), r 1.7 @ (123.3, 313.1), r 1.7 @ (154.1, 306.4)
+- **Closed boxes:** 1
+- **Words (OCR):** 69 in 36 lines: WA~ · ECK · LTC. · IRCU · DESCR IP TION · M600 AUD IO AMP LI IER · The "1600 OUtp · Impe'dance · prima.. il · th · of · he de.
+
+Every curve, box, word and wire group: [1970 - M600 - Audio Amplifer (2) p6 (traced).json](1970%20-%20M600%20-%20Audio%20Amplifer%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1970 - M600 - Audio Amplifer (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–312 mm across, 2–421 mm up
+- **Outlines:** line 695 rings, 5,508 straight (8,278 mm) / 1,626 curved (2,525 mm); text 1,785 rings, 11,985 straight (12,887 mm) / 3,959 curved (6,264 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.1 @ (188.8, 373.9), r 1.7 @ (51.6, 118.0), r 1.7 @ (108.8, 306.6), r 1.7 @ (51.7, 252.8)
+- **Closed boxes:** 1
+- **Dots (junctions):** 2
+- **Words (OCR):** 417 in 177 lines: Itl STALLATI Ofj · 1.16 00 AUO IO AMPLI IE · he M600 plu gs · lf · InlO · MF · m,,\,mt!n9 frllR>e · le · la" da.. · Inch · equlp~nl · wl lh
+
+Every curve, box, word and wire group: [1970 - M600 - Audio Amplifer (2) p7 (traced).json](1970%20-%20M600%20-%20Audio%20Amplifer%20%282%29%20p7%20%28traced%29.json) (the CAD file: `1970 - M600 - Audio Amplifer (2) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–312 mm across, 2–422 mm up
+- **Outlines:** line 826 rings, 6,057 straight (8,863 mm) / 1,802 curved (2,794 mm); text 1,489 rings, 10,125 straight (10,958 mm) / 3,328 curved (5,187 mm); tb 27 rings, 184 straight (184 mm) / 58 curved (91.0 mm)
+- **Circles and arcs:** 18 circles, 0 arcs; largest r 1.7 @ (52.2, 111.8), r 1.7 @ (156.7, 294.4), r 1.7 @ (237.6, 322.0), r 1.7 @ (62.4, 152.1)
+- **Closed boxes:** 1
+- **Dots (junctions):** 7
+- **Words (OCR):** 380 in 183 lines: The 1>1600 15 de si gn · fo · ro bl · se.. 1ce; how ev · as w!lh · il high Qu" ll · lec ..on lc · ""gu · he · In e<:l lo · eS · li he
+- **Title block:** (75, 141)–(170, 198) mm: eeec tee-ee · Wh · unger el · Ir · lit Ih · "acuum · Sli · 10 · he · rl le · imi · ha rp · which · jf proV · her app ic lons
+
+Every curve, box, word and wire group: [1970 - M600 - Audio Amplifer (2) p8 (traced).json](1970%20-%20M600%20-%20Audio%20Amplifer%20%282%29%20p8%20%28traced%29.json) (the CAD file: `1970 - M600 - Audio Amplifer (2) p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 0–421 mm up
+- **Outlines:** line 294 rings, 2,716 straight (5,927 mm) / 698 curved (1,080 mm); text 71 rings, 511 straight (632 mm) / 162 curved (267 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.1 @ (57.7, 198.9)
+- **Dots (junctions):** 6
+- **Words (OCR):** 26 in 16 lines: CK SYSTE MS · LT · M600 · UD IO · MPLIF IE · DC VOLT AGE CHART · 22 · 25 · 25.5 · Ampllffer · lo · 50 dB ga in.
+
+Every curve, box, word and wire group: [1970 - M600 - Audio Amplifer (2) p9 (traced).json](1970%20-%20M600%20-%20Audio%20Amplifer%20%282%29%20p9%20%28traced%29.json) (the CAD file: `1970 - M600 - Audio Amplifer (2) p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 9–426 mm up
+- **Outlines:** line 269 rings, 2,581 straight (6,556 mm) / 502 curved (798 mm); text 220 rings, 1,442 straight (1,755 mm) / 369 curved (619 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.1 @ (262.6, 268.7), r 2.1 @ (45.9, 336.1), r 2.1 @ (262.9, 336.0), r 1.7 @ (162.0, 241.3)
+- **Dots (junctions):** 1
+- **Words (OCR):** 54 in 28 lines: WARO BEC SYS TEMS LTD · "1600 AUD · AMPLIFIER · AMPL · ER RECEPTA CLE CONNEC IONS · SOURCE IM"' · CE'-'' · SO oh ms · 108, Sla 16 · and 16 · 600 ohms · and 16
+
+Every curve, box, word and wire group: [1970 - M600 - Audio Amplifer (2) p10 (traced).json](1970%20-%20M600%20-%20Audio%20Amplifer%20%282%29%20p10%20%28traced%29.json) (the CAD file: `1970 - M600 - Audio Amplifer (2) p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–418 mm up
+- **Outlines:** line 199 rings, 2,681 straight (6,374 mm) / 521 curved (867 mm); text 213 rings, 1,253 straight (1,378 mm) / 342 curved (567 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.1 @ (187.5, 158.1), r 2.1 @ (177.8, 137.9), r 2.1 @ (160.0, 372.7)
+- **Words (OCR):** 45 in 30 lines: WAR · ECK SYS TEMS · LT · 104600 AUDIO · MPLIFIER · GA · \I/s GAI · SE RES IS TA NCE · RES IS TANCE VA LUES FOR SPECIFIC GAI · GAI · SO · 10K
+
+Every curve, box, word and wire group: [1970 - M600 - Audio Amplifer (2) p11 (traced).json](1970%20-%20M600%20-%20Audio%20Amplifer%20%282%29%20p11%20%28traced%29.json) (the CAD file: `1970 - M600 - Audio Amplifer (2) p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–312 mm across, 0–417 mm up
+- **Outlines:** line 1,062 rings, 8,314 straight (12,176 mm) / 2,350 curved (3,716 mm); text 44 rings, 361 straight (466 mm) / 72 curved (108 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 2.2 @ (113.3, 332.3), r 1.7 @ (102.7, 150.3), r 1.7 @ (201.1, 109.6), r 1.7 @ (103.3, 318.2)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 13 in 7 lines: CK SYSTEMS LTD · M600 AUO IO AMP LI · ER · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1970 - M600 - Audio Amplifer (2) p12 (traced).json](1970%20-%20M600%20-%20Audio%20Amplifer%20%282%29%20p12%20%28traced%29.json) (the CAD file: `1970 - M600 - Audio Amplifer (2) p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 27–332 mm across, 17–423 mm up
+- **Outlines:** line 409 rings, 3,476 straight (6,246 mm) / 792 curved (1,231 mm); text 307 rings, 2,137 straight (2,476 mm) / 625 curved (992 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.2 @ (110.9, 335.5), r 2.1 @ (165.4, 362.3), r 1.7 @ (103.6, 321.4)
+- **Words (OCR):** 63 in 53 lines: WA RD- SECt< · MS LT · 101600 AUD · AMPL · ER · MF · PAR NUMBER · Tr · ist or · MMJOO7 · OW · MMS007
+
+Every curve, box, word and wire group: [1970 - M600 - Audio Amplifer (2) p13 (traced).json](1970%20-%20M600%20-%20Audio%20Amplifer%20%282%29%20p13%20%28traced%29.json) (the CAD file: `1970 - M600 - Audio Amplifer (2) p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–313 mm across, 0–426 mm up
+- **Outlines:** line 254 rings, 2,452 straight (5,597 mm) / 558 curved (902 mm); text 480 rings, 3,192 straight (3,518 mm) / 999 curved (1,555 mm); tb 134 rings, 1,281 straight (1,814 mm) / 322 curved (515 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.1 @ (115.8, 334.4)
+- **Closed boxes:** 1
+- **Words (OCR):** 104 in 56 lines: WAFl · SYS TE MS LTD · ~RT LIS!. · MFG ART NUMBER · RJO · Re si ior 1/4W 5S · '00 · Rn · R3J · '00 · RJS · RJ7
+- **Title block:** (39, 33)–(258, 237) mm: rr · Tr · forme · WBS 60 · ra · HlI.n......,nd · Yr "BS 70- · MiSCELLA NEOUS COMPONE NTS · MF · 09, 10, · 01 1,0 12 Hea SInk · Bi tcher · AL68 2R · Trlln 515 10r Moun ting ad · nnoll ll.Y · 11 17 · In
+
+Every curve, box, word and wire group: [1970 - M600 - Audio Amplifer (2) p14 (traced).json](1970%20-%20M600%20-%20Audio%20Amplifer%20%282%29%20p14%20%28traced%29.json) (the CAD file: `1970 - M600 - Audio Amplifer (2) p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–318 mm across, 4–426 mm up
+- **Outlines:** line 134 rings, 2,510 straight (6,647 mm) / 348 curved (661 mm); text 315 rings, 2,117 straight (2,685 mm) / 508 curved (878 mm); tb 13 rings, 112 straight (139 mm) / 23 curved (39.6 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 1.9 @ (179.4, 186.9), r 1.9 @ (179.8, 236.7), r 1.9 @ (155.0, 223.8), r 1.9 @ (154.7, 186.9)
+- **Closed boxes:** 5
+- **Dots (junctions):** 2
+- **Words (OCR):** 49 in 24 lines: WARD-BECK SYSTEMS LTD · M600 AUDIO AMPL IF IER · CONNECTOR LAYOUT · 600 OHM STRAPPING · 10 · COM · +48V · 600 OHM · OUTP UT · GAIN SET · (SEE NOTE · 600 OHM INPUT
+- **Title block:** (20, 406)–(130, 429) mm: WARD-BECK SYSTEMS LTD
+
+Every curve, box, word and wire group: [1970 - M600 - Audio Amplifer (2) p15 (traced).json](1970%20-%20M600%20-%20Audio%20Amplifer%20%282%29%20p15%20%28traced%29.json) (the CAD file: `1970 - M600 - Audio Amplifer (2) p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–426 mm up
+- **Outlines:** line 127 rings, 2,541 straight (6,909 mm) / 352 curved (615 mm); text 324 rings, 2,308 straight (3,022 mm) / 516 curved (846 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.3 @ (186.6, 236.0), r 2.3 @ (186.1, 185.5), r 2.1 @ (94.2, 229.8), r 2.0 @ (162.0, 185.6)
+- **Closed boxes:** 3
+- **Dots (junctions):** 8
+- **Words (OCR):** 59 in 29 lines: WARD BE CK SYSTE MS LT · M600 UD IO · MPL · ER · PI CONNE CT OR · YOUT · 150 OHM STRA PP ING · COM · +48 · jf-, · 150 OHM · OUT PUT
+
+Every curve, box, word and wire group: [1970 - M600 - Audio Amplifer (2) p16 (traced).json](1970%20-%20M600%20-%20Audio%20Amplifer%20%282%29%20p16%20%28traced%29.json) (the CAD file: `1970 - M600 - Audio Amplifer (2) p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–309 mm across, 0–426 mm up
+- **Outlines:** line 169 rings, 2,248 straight (5,424 mm) / 439 curved (676 mm); text 1,306 rings, 8,776 straight (9,759 mm) / 3,005 curved (4,652 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 1.7 @ (255.2, 138.3), r 1.6 @ (290.1, 253.1), r 1.6 @ (284.0, 333.8), r 1.6 @ (166.5, 245.9)
+- **Closed boxes:** 10; named: M6oo M6oo M648 PS; M648 PS; M6oo; M6oo
+- **Dots (junctions):** 2
+- **Words (OCR):** 180 in 98 lines: WAAD-BECK sysTeMs LTD · M6oo AUDI0 AMPLIFIER · ADDENDUM · Purpose · Addendum · To describe · necessary · wiring and mounting · required for up · from one · Mgoo · individually isolated
+
+Every curve, box, word and wire group: [1970 - M600 - Audio Amplifer (2) p17 (traced).json](1970%20-%20M600%20-%20Audio%20Amplifer%20%282%29%20p17%20%28traced%29.json) (the CAD file: `1970 - M600 - Audio Amplifer (2) p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 16–338 mm across, 6–394 mm up
+- **Outlines:** line 166 rings, 2,391 straight (4,702 mm) / 416 curved (650 mm); text 58 rings, 365 straight (409 mm) / 104 curved (162 mm)
+- **Words (OCR):** 20 in 18 lines: T1 · ';TJOO~ J2 · 15 · 'It. · A.frI4PL~\~ SSEMBLy · AUDI · NPU · ~/600 · ,q~I-----"'8L-vt~ · GN:!.... · LO · G....IN
+
+Every curve, box, word and wire group: [1970 - M600 - Audio Amplifer (2) p18 (traced).json](1970%20-%20M600%20-%20Audio%20Amplifer%20%282%29%20p18%20%28traced%29.json) (the CAD file: `1970 - M600 - Audio Amplifer (2) p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 5–406 mm up
+- **Outlines:** line 77 rings, 1,366 straight (2,904 mm) / 230 curved (383 mm); text 143 rings, 1,345 straight (1,958 mm) / 356 curved (562 mm); tb 9 rings, 99 straight (178 mm) / 39 curved (63.9 mm)
+- **Words (OCR):** 38 in 26 lines: J2 · is · +48V · cr OUTPUT · T2 · 14 · 8R · 7D- · 122 · ER ASSEMBL · 150 /600 · IL 11
+- **Title block:** (243, 42)–(301, 64) mm: was WARD- BECK · BS SYSTEM
+
+Every curve, box, word and wire group: [1970 - M600 - Audio Amplifer (2) p19 (traced).json](1970%20-%20M600%20-%20Audio%20Amplifer%20%282%29%20p19%20%28traced%29.json) (the CAD file: `1970 - M600 - Audio Amplifer (2) p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 25–335 mm across, 19–431 mm up
+- **Outlines:** line 220 rings, 3,039 straight (5,862 mm) / 618 curved (940 mm); text 260 rings, 1,808 straight (2,041 mm) / 606 curved (841 mm)
+- **Closed boxes:** 7; named: 12
+- **Dots (junctions):** 3
+- **Words (OCR):** 65 in 47 lines: fMl57'PAo · BOAAO ASSY. · 300 · JOO · MA TC · GA · JOO · 16 · INCL · CORR · -28dBm · JOO
+
+Every curve, box, word and wire group: [1970 - M600 - Audio Amplifer (2) p20 (traced).json](1970%20-%20M600%20-%20Audio%20Amplifer%20%282%29%20p20%20%28traced%29.json) (the CAD file: `1970 - M600 - Audio Amplifer (2) p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** schematic B 600-02-011, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 10–363 mm up
+- **Outlines:** line 252 rings, 2,815 straight (4,807 mm) / 650 curved (974 mm); text 226 rings, 1,654 straight (1,942 mm) / 505 curved (717 mm)
+- **Centre lines:** 4,810 paths (81 closed); straight 4,430 mm, curved 267 mm; horizontal 1,230 mm, vertical 1,255 mm, diagonal 1,945 mm
+- **Circles and arcs:** 17 circles, 44 arcs; largest r 2.5 @ (213.8, 26.8), r 2.5 @ (256.4, 34.2), r 2.2 @ (241.6, 14.0), r 1.8 @ (213.7, 26.9)
+- **Closed boxes:** 5; named: ,1[7> M600 12dB HAN SE TT NG; 12
+- **Dots (junctions):** 1
+- **Words (OCR):** 78 in 57 lines: i"ARoAS'SY. · M----o · 100 · 'VV---O · 100 · "'IV----<J · 100 · 'VV---O · 100 · 48dB · 4d Bm · NV--<J
+- **Wiring (first pass):** 41 connected wire groups from 118 runs; labelled ends: 420 mm → ,1[7>, M600, 300, roo; 42 mm → ,1[7>, -28d; 23 mm → ,1[7>; 20 mm → WARD-BECK, was]; 19 mm → was]
+
+Every curve, box, word and wire group: [1970 - M600 - Audio Amplifer (2) p21 (traced).json](1970%20-%20M600%20-%20Audio%20Amplifer%20%282%29%20p21%20%28traced%29.json) (the CAD file: `1970 - M600 - Audio Amplifer (2) p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 11–338 mm across, 19–430 mm up
+- **Outlines:** line 134 rings, 2,498 straight (6,002 mm) / 353 curved (529 mm); text 166 rings, 1,203 straight (1,398 mm) / 320 curved (485 mm)
+- **Closed boxes:** 7; named: ML6B; INSULATED GROUNO
+- **Words (OCR):** 21 in 21 lines: outPut · INput · ML6B · TSV · 50/60 Hz · Input · inpuT · (NpUT · impuT · InpuT · INPUT · cuTPUT
+
+Every curve, box, word and wire group: [1970 - M600 - Audio Amplifer (2) p22 (traced).json](1970%20-%20M600%20-%20Audio%20Amplifer%20%282%29%20p22%20%28traced%29.json) (the CAD file: `1970 - M600 - Audio Amplifer (2) p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 12–389 mm up
+- **Outlines:** line 95 rings, 1,374 straight (2,695 mm) / 278 curved (458 mm); text 60 rings, 434 straight (563 mm) / 121 curved (193 mm); tb 22 rings, 184 straight (267 mm) / 46 curved (82.4 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.4 @ (252.6, 36.9), r 2.2 @ (226.8, 16.4)
+- **Closed boxes:** 3; named: PS
+- **Words (OCR):** 25 in 15 lines: 2,3 · 10 .11 · PS · 115V · 50/ 60 Hz · ps · [vvasJ WARD-BECK SYSTEMS · BS · M600 · AUDIO AMPLIFIER · tp · TYPICAL SYSTEM WIRING SCHEMATIC
+- **Title block:** (238, 48)–(331, 69) mm: ps · [vvasJ WARD-BECK SYSTEMS · BS
+
+Every curve, box, word and wire group: [1970 - M600 - Audio Amplifer (2) p23 (traced).json](1970%20-%20M600%20-%20Audio%20Amplifer%20%282%29%20p23%20%28traced%29.json) (the CAD file: `1970 - M600 - Audio Amplifer (2) p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 22–320 mm across, 19–415 mm up
+- **Outlines:** line 188 rings, 3,262 straight (7,902 mm) / 630 curved (882 mm); text 9 rings, 51 straight (103 mm) / 13 curved (25.7 mm)
+- **Words (OCR):** 4 in 4 lines: ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1970 - M600 - Audio Amplifer (2) p24 (traced).json](1970%20-%20M600%20-%20Audio%20Amplifer%20%282%29%20p24%20%28traced%29.json) (the CAD file: `1970 - M600 - Audio Amplifer (2) p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** layout B 600-04-010, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–328 mm across, 11–414 mm up
+- **Outlines:** line 110 rings, 1,238 straight (2,631 mm) / 244 curved (392 mm); text 59 rings, 414 straight (565 mm) / 99 curved (174 mm); tb 12 rings, 122 straight (144 mm) / 25 curved (40.7 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.4 @ (293.6, 25.1)
+- **Words (OCR):** 14 in 10 lines: ps · ['Was] WARO-BECK SYSTEMS · BS · M600 · AUDIO AMPLIFIER · tp · PERSPECTIVE LAYOUT · ht · 600-04-010 · 155
+- **Title block:** (239, 44)–(333, 66) mm: ps · ['Was] WARO-BECK SYSTEMS · BS
+
+Every curve, box, word and wire group: [1970 - M600 - Audio Amplifer (2) p25 (traced).json](1970%20-%20M600%20-%20Audio%20Amplifer%20%282%29%20p25%20%28traced%29.json) (the CAD file: `1970 - M600 - Audio Amplifer (2) p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–338 mm across, 19–394 mm up
+- **Outlines:** line 95 rings, 3,330 straight (8,389 mm) / 446 curved (725 mm); text 342 rings, 2,014 straight (2,042 mm) / 575 curved (814 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 80 in 75 lines: R6 · 15K · ca · 2216 · R12 · SKI · R2I · R4 · R7 · 220 · l20K · R2
+
+Every curve, box, word and wire group: [1970 - M600 - Audio Amplifer (2) p26 (traced).json](1970%20-%20M600%20-%20Audio%20Amplifer%20%282%29%20p26%20%28traced%29.json) (the CAD file: `1970 - M600 - Audio Amplifer (2) p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** schematic B 122-02-001, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–318 mm across, 19–428 mm up
+- **Outlines:** line 113 rings, 3,261 straight (8,579 mm) / 508 curved (887 mm); text 475 rings, 3,075 straight (3,307 mm) / 970 curved (1,394 mm); tb 3 rings, 68 straight (78.0 mm) / 15 curved (18.6 mm)
+- **Centre lines:** 3,646 paths (65 closed); straight 6,594 mm, curved 393 mm; horizontal 2,010 mm, vertical 2,470 mm, diagonal 2,114 mm
+- **Circles and arcs:** 4 circles, 49 arcs; largest r 6.2 @ (254.5, 147.2), r 6.2 @ (135.5, 302.7), r 5.8 @ (99.6, 264.5), r 1.2 @ (226.7, 165.4)
+- **Words (OCR):** 105 in 91 lines: RJ4 · CR3 · PI · 100 1m 0.01 · 1m IN400 · 15 · 8V · 47 · R24 · lOOK · R21 · R27
+- **Title block:** (227, 55)–(322, 77) mm: (\NBS] WARe-BECK SYSTEMS · ps
+- **Wiring (first pass):** 33 connected wire groups from 161 runs; labelled ends: 481 mm → RJ4, 100, 1m, T~2; 404 mm → to, !./12, 15K, 2N~~~7; 302 mm → R21, R24, R27, RJ4; 296 mm → lOOK, Cll, 22/35, tV; 240 mm → 27, 271, R30, 4K7
+
+Every curve, box, word and wire group: [1970 - M600 - Audio Amplifer (2) p27 (traced).json](1970%20-%20M600%20-%20Audio%20Amplifer%20%282%29%20p27%20%28traced%29.json) (the CAD file: `1970 - M600 - Audio Amplifer (2) p27 (traced).dxf`).
+
+### Page 28
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 13–339 mm across, 19–310 mm up
+- **Outlines:** line 321 rings, 3,537 straight (6,540 mm) / 815 curved (1,515 mm); text 398 rings, 2,683 straight (3,216 mm) / 775 curved (1,310 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 7.9 @ (165.0, 226.1), r 2.1 @ (176.9, 254.3)
+- **Words (OCR):** 98 in 68 lines: R6 · 8~3645 · R19.!2.t< · R21 220 · N38 19 · R24.lQ.OK · R7 · 'R18.12.K · R4 8K2 · Rl7 6K2 · R27 8K2 · R3
+
+Every curve, box, word and wire group: [1970 - M600 - Audio Amplifer (2) p28 (traced).json](1970%20-%20M600%20-%20Audio%20Amplifer%20%282%29%20p28%20%28traced%29.json) (the CAD file: `1970 - M600 - Audio Amplifer (2) p28 (traced).dxf`).
+
+### Page 29
+
+- **Sheet:** component layout B 122-06-012, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 15–432 mm up
+- **Outlines:** line 293 rings, 4,327 straight (6,644 mm) / 992 curved (1,229 mm); text 358 rings, 2,588 straight (2,781 mm) / 714 curved (801 mm); tb 6 rings, 74 straight (83.6 mm) / 14 curved (16.1 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 13.6 @ (161.5, 269.4), r 13.1 @ (105.2, 269.6), r 13.0 @ (106.2, 172.2)
+- **Closed boxes:** 1; named: C16 .01
+- **Words (OCR):** 46 in 32 lines: KZ · R34 .!.Q9 · R32 100 · 8E.N3645 · 27 /ZW · em 08 02 · R37 · R39 · TN21 · J:~l ZW · R38 · R40
+- **Title block:** (219, 54)–(314, 76) mm: (VVE3S) WARD-BECK SYSTEMS · ps
+
+Every curve, box, word and wire group: [1970 - M600 - Audio Amplifer (2) p29 (traced).json](1970%20-%20M600%20-%20Audio%20Amplifer%20%282%29%20p29%20%28traced%29.json) (the CAD file: `1970 - M600 - Audio Amplifer (2) p29 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

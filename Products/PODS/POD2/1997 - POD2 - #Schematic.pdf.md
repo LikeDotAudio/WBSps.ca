@@ -17,6 +17,32 @@ Wiki page: [POD2](../../../PAGES/POD2.md)
 - **1997** (month): `OCT 7,1997` — …D2 AUDIO SWITCHER STEREO 6 X 1 ISS2PCB POD2.DSN PAGE 1 OF 2 OCT 7,1997…
 - **1998** (month): `OCT 7,1998` — …D2 AUDIO SWITCHER STEREO 6 X 1 ISS2PCB POD2.DSN PAGE 2 OF 2 OCT 7,1998…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 8–426 mm across, 37–302 mm up
+- **Outlines:** line 299 rings, 4,151 straight (24,528 mm) / 384 curved (543 mm); text 1,275 rings, 7,022 straight (6,473 mm) / 2,573 curved (3,238 mm)
+- **Closed boxes:** 110 (1 in the title block); named: 11; 11; 10; 10; 10; 10; 11; 11; 10; 10; 10; 10
+- **Words (OCR):** 316 in 254 lines: H2 · R30 · C28 · U15 · U14 · H5 · R18 · C17 · U9 · U8 · 14 · X0 13
+- **Title block:** (320, 53)–(428, 73) mm: WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1997 - POD2 - #Schematic p1 (traced).json](1997%20-%20POD2%20-%20%23Schematic%20p1%20%28traced%29.json) (the CAD file: `1997 - POD2 - #Schematic p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 0–426 mm across, 37–333 mm up
+- **Outlines:** line 1,568 rings, 12,099 straight (28,462 mm) / 2,876 curved (3,641 mm); text 13 rings, 60 straight (58.1 mm) / 14 curved (17.4 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 4.3 @ (342.4, 52.5), r 1.1 @ (254.2, 235.4), r 1.0 @ (324.0, 115.2), r 1.0 @ (69.3, 156.0)
+- **Closed boxes:** 38; named: RP1; C2 470/25; C3; 1/35
+- **Dots (junctions):** 4
+- **Words (OCR):** 274 in 249 lines: 22p · 22p · C36 · C35 · R46 · 10K0 · RP5 · U1 · RP5 · R42 · 10K0 · 10K
+- **Title block:** (416, 115)–(432, 134) mm
+
+Every curve, box, word and wire group: [1997 - POD2 - #Schematic p2 (traced).json](1997%20-%20POD2%20-%20%23Schematic%20p2%20%28traced%29.json) (the CAD file: `1997 - POD2 - #Schematic p2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

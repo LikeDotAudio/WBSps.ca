@@ -10,6 +10,20 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 1,872,747 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 317 × 432 mm, 1469 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–315 mm across, 1–432 mm up
+- **Outlines:** line 7,316 rings, 42,279 straight (61,803 mm) / 9,168 curved (12,004 mm); text 201 rings, 1,196 straight (1,820 mm) / 127 curved (175 mm)
+- **Circles and arcs:** 293 circles, 0 arcs; largest r 3.7 @ (46.2, 274.0), r 3.7 @ (46.3, 220.9), r 2.7 @ (212.3, 230.0), r 2.7 @ (213.1, 39.3)
+- **Closed boxes:** 109
+- **Dots (junctions):** 110
+- **Words (OCR):** 4 in 4 lines: 80 · 80 · 8998999 · 68
+
+Every curve, box, word and wire group: [1979 - WBS 1979 custom L series - 1979 L series full size p1 (traced).json](1979%20-%20WBS%201979%20custom%20L%20series%20-%201979%20L%20series%20full%20size%20p1%20%28traced%29.json) (the CAD file: `1979 - WBS 1979 custom L series - 1979 L series full size p1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

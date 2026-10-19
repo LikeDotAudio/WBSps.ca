@@ -17,6 +17,482 @@ Wiki page: [M612A](../../../PAGES/M612A.md)
 - **1983** (month): `JUNE 1983` — …WA R D - B ECK B YS T E M S LTD . a .c ps BS ISSUENl W :// JUNE 1983 . tp ht…
 - **1983** (month): `JUNE 1983` — …-«>6 OUTPUT SPLI TT ER NETW ORK ASSEMBLY a .c ps BS ~ W :// JUNE 1983. tp ht…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–318 mm across, 0–427 mm up
+- **Outlines:** line 96 rings, 1,359 straight (4,065 mm) / 184 curved (283 mm); text 110 rings, 737 straight (1,015 mm) / 125 curved (198 mm); tb 90 rings, 975 straight (1,293 mm) / 244 curved (449 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.9 @ (131.1, 222.3)
+- **Dots (junctions):** 1
+- **Words (OCR):** 26 in 14 lines: (~El5] RD -BECK STE MS LTD · 841 O"FIOGFIE SS · "'VE · ONT'""""O · Til"" oea'C'SJ99 · TEL.II!:Pt<lNl!. · "3Ill·e~~ · M612A · AUDIO DISTRIBUT ION AMPLIFIER · ps · BS · MANUAL ISSUE
+- **Title block:** (155, 36)–(290, 422) mm: (~El5] RD -BECK STE MS LTD · "'VE · ONT'""""O · TEL.II!:Pt<lNl!. · "3Ill·e~~ · M612A · AUDIO DISTRIBUT ION AMPLIFIER · BS · MANUAL ISSUE
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p1 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–328 mm across, 0–429 mm up
+- **Outlines:** line 238 rings, 2,986 straight (6,291 mm) / 563 curved (904 mm); text 726 rings, 5,034 straight (5,767 mm) / 1,506 curved (2,439 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.2 @ (68.4, 330.7), r 2.2 @ (164.2, 371.3), r 2.2 @ (192.8, 357.8)
+- **Dots (junctions):** 1
+- **Words (OCR):** 129 in 60 lines: WAR · CK SYS EM LTC. · TA8 LE OF CONTENTS · M61 2A AUOIO · ISTR IBUTION AMP LIF IER · Wa · nt · Technical Oata · to 1_2 · General · 2-1 to · sta llation
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p2 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 0–429 mm up
+- **Outlines:** line 88 rings, 1,420 straight (3,703 mm) / 205 curved (345 mm); text 20 rings, 150 straight (240 mm) / 28 curved (48.2 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.2 @ (178.1, 241.6)
+- **Words (OCR):** 9 in 6 lines: WAR · ECK YSTE MS LT · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p3 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–310 mm across, 13–426 mm up
+- **Outlines:** line 321 rings, 2,875 straight (5,235 mm) / 665 curved (1,081 mm); text 992 rings, 6,889 straight (7,775 mm) / 2,101 curved (3,330 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 2.2 @ (131.9, 358.7), r 2.2 @ (47.0, 129.6), r 1.7 @ (167.6, 61.2), r 1.7 @ (265.0, 249.8)
+- **Dots (junctions):** 2
+- **Words (OCR):** 211 in 86 lines: WAR · CK SYS · MS LTO · TECHNICAL DATA · M612A AUDIO DIS TR IBUTI ON AMP LI IER · +40 dB to · dB · tinuou sly ariable · wi lh · dB trim (Bridgin Gain) · Frequ ency Re sponse: · dB 20 Hz to 20 kHz
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p4 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–338 mm across, 0–426 mm up
+- **Outlines:** line 200 rings, 2,111 straight (4,782 mm) / 463 curved (720 mm); text 223 rings, 1,500 straight (1,717 mm) / 375 curved (591 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.2 @ (148.8, 358.8)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 53 in 31 lines: WAR · BECK · STE · TD. · TECHN IC AL DA TA · M612A AUDIO · ISTRIBUT IO AMPLIF IER · we Requiremen · 115V · AC · 50/ 60 Hz 25 VA. · Ambie
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p5 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–313 mm across, 0–426 mm up
+- **Outlines:** line 671 rings, 5,242 straight (8,029 mm) / 1,375 curved (2,180 mm); text 1,797 rings, 12,410 straight (13,777 mm) / 3,892 curved (6,059 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 2.2 @ (148.5, 358.8), r 1.7 @ (201.9, 107.9), r 1.7 @ (56.8, 318.3), r 1.7 @ (232.2, 168.3)
+- **Dots (junctions):** 4
+- **Words (OCR):** 446 in 173 lines: WAFI · YS TEMS · M6 12,t, AUDIO · IST BUTI ON AMPL IF IE · The M6 12,t, Au di · DIS lr lbul lan Amp ifi · is an ec po · ered madul · lu · In · il · signed 10
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p6 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–338 mm across, 17–428 mm up
+- **Outlines:** line 217 rings, 2,438 straight (4,698 mm) / 540 curved (852 mm); text 590 rings, 4,351 straight (4,853 mm) / 1,207 curved (1,936 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.8 @ (281.0, 306.4), r 1.7 @ (213.5, 313.1), r 1.7 @ (107.2, 299.9)
+- **Dots (junctions):** 1
+- **Words (OCR):** 128 in 51 lines: STEM LT · M61 · UDJO · IST RIBUTION AMPLIFIER · The · tive circuit elements are con Jalned on · ubs · lug-in · p,.ln ted circui · card · p,.ovldi ng · ml'l><imum
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p7 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p7%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–312 mm across, 0–427 mm up
+- **Outlines:** line 457 rings, 3,960 straight (6,722 mm) / 931 curved (1,446 mm); text 1,885 rings, 13,184 straight (14,512 mm) / 4,146 curved (6,562 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 1.7 @ (55.6, 232.3), r 1.7 @ (72.2, 171.7), r 1.7 @ (53.1, 158.3), r 1.7 @ (201.4, 225.2)
+- **Dots (junctions):** 2
+- **Words (OCR):** 397 in 163 lines: WA · BE · YSTEMS LTD. · NSTA · ON · M61 2A AUDIO DISTRIBUTION AMPLIFIER · The M612A pl ug · rectly · to the WBS MF6 seri · mou nl ing freme · me · inSl alled
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p8 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p8%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–315 mm across, 0–428 mm up
+- **Outlines:** line 384 rings, 3,983 straight (7,319 mm) / 920 curved (1,506 mm); text 590 rings, 4,490 straight (5,196 mm) / 1,351 curved (2,187 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 2.2 @ (195.1, 361.7), r 2.2 @ (71.4, 132.7), r 1.7 @ (105.8, 44.4), r 1.7 @ (91.8, 320.5)
+- **Closed boxes:** 1
+- **Dots (junctions):** 2
+- **Words (OCR):** 67 in 53 lines: aDd ECK · BYSTEAE · AART · Usima · DISTR · JutTiom 4GpliF · PART CescRipTIOY · PARI NUMUER · Foca · Connesior · Female · 307_027_5i-i0z
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p9 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p9%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 0–427 mm up
+- **Outlines:** line 448 rings, 5,581 straight (12,029 mm) / 1,067 curved (1,797 mm); text 106 rings, 890 straight (1,170 mm) / 217 curved (361 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 2.3 @ (183.9, 179.6), r 2.2 @ (255.9, 187.9), r 2.2 @ (255.8, 199.5), r 2.2 @ (54.2, 175.8)
+- **Closed boxes:** 25; named: +-.,J.I-
+- **Dots (junctions):** 9
+- **Words (OCR):** 33 in 14 lines: WAR D-BECK · TEMS TO. · AND P2 CONNECTOR LAYOUTS · M6 12A AUDIO · IS TRI BU IO AMPLIF IER · CHASSIS · +-.,J.I- OUTPUT · AMPLI FIER ELECTRICAL · GROUND RETURN TO · INSULATED GROUND BUS · ps · BS
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p10 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p10%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–339 mm across, 19–395 mm up
+- **Outlines:** line 142 rings, 3,187 straight (6,522 mm) / 459 curved (806 mm); text 309 rings, 1,804 straight (2,080 mm) / 487 curved (808 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 5.7 @ (235.6, 97.3), r 5.7 @ (235.5, 137.0), r 5.6 @ (235.8, 57.2), r 2.1 @ (225.2, 266.6)
+- **Words (OCR):** 43 in 29 lines: (-9d · (-6d · 6dB · (-6d · 6d · TR IM · tr GAIN dB · IN PU · 6d · RE · -32 Bm TO +14 dBm · 30K
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p11 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p11%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 5–395 mm up
+- **Outlines:** line 173 rings, 2,724 straight (5,314 mm) / 497 curved (797 mm); text 282 rings, 1,868 straight (2,267 mm) / 463 curved (762 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.5 @ (295.8, 20.8), r 2.5 @ (239.4, 27.9), r 2.4 @ (266.3, 20.5), r 2.4 @ (281.7, 28.1)
+- **Dots (junctions):** 1
+- **Words (OCR):** 41 in 28 lines: (-9dB) · 6d · (-6;;B · 6d · OUTP UTS · Bm · 600 oh ms · (-6d · 10 · 6d · 11 · (-6dB)
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p12 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p12%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–338 mm across, 19–367 mm up
+- **Outlines:** line 91 rings, 2,425 straight (6,346 mm) / 373 curved (574 mm); text 215 rings, 1,292 straight (1,404 mm) / 435 curved (550 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 30 in 25 lines: 32 'H'U' · dBm · C~P.TI:c... · d8 · CW · .ro, · CONT · GAl ROL · ·40/-6 · cw · r-o- · SAI4-06S
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p13 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p13%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** schematic B812-02-002, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 6–428 mm up
+- **Outlines:** line 257 rings, 2,972 straight (5,596 mm) / 564 curved (824 mm); text 193 rings, 1,261 straight (1,386 mm) / 440 curved (558 mm)
+- **Centre lines:** 3,965 paths (62 closed); straight 4,271 mm, curved 76.4 mm; horizontal 1,018 mm, vertical 1,732 mm, diagonal 1,522 mm
+- **Circles and arcs:** 3 circles, 17 arcs; largest r 2.5 @ (241.0, 29.1), r 2.5 @ (283.3, 29.5), r 1.7 @ (291.8, 21.7)
+- **Dots (junctions):** 1
+- **Words (OCR):** 57 in 43 lines: PI · Pl_ · ~~T~R · 1"1- · NET WORK · I-4 · P2- · SAl"'~ P2-J · SPL ITT ER · 00 · '2-4 · P2-
+- **Wiring (first pass):** 27 connected wire groups from 78 runs; labelled ends: 137 mm → 19; 93 mm → 19, Il::::.; 69 mm → 19; 67 mm → Il::::.; 57 mm → PI, ~~T~R
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p14 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p14%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–339 mm across, 20–390 mm up
+- **Outlines:** line 363 rings, 5,827 straight (13,790 mm) / 1,165 curved (1,674 mm); text 8 rings, 61 straight (118 mm) / 20 curved (41.5 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.7 @ (23.4, 371.4)
+- **Words (OCR):** 6 in 6 lines: ..___-Pl · 1f1 · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p15 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p15%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** component layout B 612-06-003, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–324 mm across, 8–391 mm up
+- **Outlines:** line 228 rings, 4,092 straight (6,843 mm) / 729 curved (874 mm); text 196 rings, 1,444 straight (1,512 mm) / 367 curved (429 mm); tb 20 rings, 189 straight (194 mm) / 33 curved (34.9 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.4 @ (46.8, 104.6)
+- **Dots (junctions):** 1
+- **Words (OCR):** 22 in 15 lines: 0:2/ 12:< · os · 11'1-4----- · f2 01 · -;=Zo · ps · (was] WARD-BECK SYSTEMS · BS · M612A · AUDIO DISTRIBUTION AMPLIFIER · tp · PERSPECTIVE LAYOUT
+- **Title block:** (238, 44)–(330, 66) mm: ps · (was] WARD-BECK SYSTEMS · BS
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p16 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p16%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 18–329 mm across, 37–411 mm up
+- **Outlines:** line 415 rings, 6,651 straight (13,155 mm) / 986 curved (1,707 mm); text 242 rings, 2,102 straight (2,588 mm) / 546 curved (929 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.1 @ (209.2, 55.5)
+- **Closed boxes:** 63
+- **Dots (junctions):** 3
+- **Words (OCR):** 53 in 34 lines: MULTIPLE UNIT WIRING · WITH IN · MOUNT ING FRAME · Al OUTPUTS · .----I-t-------lrt---<> · of · 12) · INPUT · r-----l-+--+-+--+t--o · A2 OUTPUTS · INPUT · AJ OUTPUTS
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p17 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p17%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** schematic 12-02-003, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–337 mm across, 6–411 mm up
+- **Outlines:** line 250 rings, 3,976 straight (7,320 mm) / 693 curved (1,172 mm); text 126 rings, 1,052 straight (1,308 mm) / 307 curved (500 mm); tb 18 rings, 207 straight (241 mm) / 39 curved (60.7 mm)
+- **Centre lines:** 2,748 paths (59 closed); straight 4,853 mm, curved 527 mm; horizontal 2,054 mm, vertical 1,396 mm, diagonal 1,403 mm
+- **Circles and arcs:** 29 circles, 43 arcs; largest r 2.1 @ (120.2, 319.4), r 1.7 @ (99.9, 381.5), r 1.7 @ (100.2, 363.0), r 1.7 @ (100.3, 323.9)
+- **Closed boxes:** 27; named: r---H------+-t---o; r---H---jl-I---.J-l.--o; r---H-I-+---+-l--o
+- **Dots (junctions):** 1
+- **Words (OCR):** 49 in 22 lines: WI RING · TING FRAM · r---H------+-t---o Al OUTP UT · of 12) · A2 OUT PUTS · r---H---jl-I---.J-l.--o A3 OUTPUTS · A4 OUTP UTS · r---H-I-+---+-l--o AS OUT PUTS · llSV AC · 50/60 Hz · ps · BS IIYIIT.~
+- **Title block:** (242, 8)–(291, 64) mm: (\/Vas) WARD-• •CK · M612A · tp · AUDIO DISTRIBUTION AMPLIFIER · ht · SYSTEMS WIRING
+- **Wiring (first pass):** 30 connected wire groups from 261 runs; labelled ends: 513 mm → r---H---jl-I---.J-l.--o; 331 mm → r---H---jl-I---.J-l.--o; 315 mm → r---H---jl-I---.J-l.--o; 144 mm → r---H------+-t---o; 139 mm → r---H-I-+---+-l--o
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p18 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p18%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 0–428 mm up
+- **Outlines:** line 88 rings, 1,295 straight (3,739 mm) / 185 curved (296 mm); text 44 rings, 382 straight (525 mm) / 98 curved (157 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.2 @ (124.6, 226.9), r 2.2 @ (172.4, 240.5)
+- **Words (OCR):** 12 in 8 lines: WAR · ECK SYSTE · LTO. · MODULES AND SUB-ASSEMBLI ES · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p19 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p19%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 21–426 mm up
+- **Outlines:** line 103 rings, 1,421 straight (3,875 mm) / 254 curved (410 mm); text 28 rings, 198 straight (307 mm) / 49 curved (81.1 mm)
+- **Words (OCR):** 11 in 9 lines: YSTE · LTC · SA 14_06 · UDI · AMPLIFIER ASSEMBLY · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p20 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p20%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 0–426 mm up
+- **Outlines:** line 421 rings, 3,902 straight (6,565 mm) / 947 curved (1,486 mm); text 1,642 rings, 11,651 straight (12,899 mm) / 3,704 curved (5,744 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 2.2 @ (51.0, 164.0), r 1.7 @ (173.2, 257.9), r 1.7 @ (158.9, 210.7), r 1.7 @ (127.9, 291.2)
+- **Dots (junctions):** 1
+- **Words (OCR):** 348 in 158 lines: WA~ · CK YSTEMS LTC. · CIRCUIT DESCR IPT ION · SAI4-065 AUD IO AMP LI IER ASSE M8 LY · The · io · pu · to · SA14-065 Ampli fi · sembl app ear · pins · an
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p21 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p21%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–427 mm up
+- **Outlines:** line 329 rings, 3,121 straight (5,854 mm) / 784 curved (1,208 mm); text 657 rings, 4,616 straight (5,260 mm) / 1,468 curved (2,306 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 1.7 @ (164.3, 272.4), r 1.7 @ (200.3, 313.1), r 1.7 @ (237.0, 306.4), r 1.7 @ (161.3, 306.3)
+- **Closed boxes:** 2; named: YSTEMS
+- **Dots (junctions):** 1
+- **Words (OCR):** 160 in 65 lines: WAFl D-BECK YSTEMS LTD · CIRCUIT DESCR IPTION · SA 4-06~ · AUDIO AMP LI IER ASSEMBLY · he power · eg · to · SA14-065 · sembl · deri ves liS ec · ol l"ge · pp rl
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p22 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p22%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–312 mm across, 0–428 mm up
+- **Outlines:** line 434 rings, 3,715 straight (6,664 mm) / 978 curved (1,544 mm); text 901 rings, 7,291 straight (8,217 mm) / 2,220 curved (3,532 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.7 @ (102.6, 279.5)
+- **Dots (junctions):** 1
+- **Words (OCR):** 167 in 108 lines: Fl · CK YSTEMS LTO. · SAI4 _065 AUDIO AMPLIFIER ASSEMBLY · DESCRIPTION · MFG PART NUMBER · cr · Ca ~~,,;ltor · ISO uF /l0 · Kernel · TJ9QE157MOIOAS · C2 · ISO
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p23 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p23%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–427 mm up
+- **Outlines:** line 513 rings, 4,145 straight (7,451 mm) / 1,122 curved (1,794 mm); text 367 rings, 2,781 straight (3,244 mm) / 764 curved (1,219 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.7 @ (96.1, 272.7)
+- **Dots (junctions):** 1
+- **Words (OCR):** 98 in 65 lines: WA · SYS TE MS LTD · 5"14-065 AUDIO AMPLIFIER ASSEMBLY · DESCRIPTION · MFG PART NUMBER · CJ' · ap~C: lt · 22 vF !25 · Si....... ns · 22/2585200 · car · CJ8
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p24 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p24%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 0–428 mm up
+- **Outlines:** line 407 rings, 3,592 straight (6,601 mm) / 825 curved (1,319 mm); text 471 rings, 3,710 straight (4,240 mm) / 1,119 curved (1,735 mm)
+- **Words (OCR):** 130 in 72 lines: CK YST EMS LTC · SAI 4-065 AUD IO AMPL · ER ASSE MBL · DESCRIP TIO · MF PAR NUMBER · RIS · Re si stor lAW 51 · Ph lip5 · 180K · sac · >SK · 200<
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p25 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p25%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 16–427 mm up
+- **Outlines:** line 459 rings, 4,115 straight (8,009 mm) / 1,024 curved (1,627 mm); text 399 rings, 3,092 straight (3,566 mm) / 958 curved (1,539 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 2.2 @ (221.0, 165.4), r 2.2 @ (156.6, 360.4), r 2.2 @ (208.1, 165.4), r 2.2 @ (103.9, 165.5)
+- **Words (OCR):** 92 in 48 lines: SYSTEMS LTD · SAI4-065 UDIO AMPLIFIER ASSEMBLY · DESCRIPT ON · MFG PA RT NUMBER · h~/;P · Resi stor 1!4W · Resi stor 1!2W · 2.2 · 2.2 · R>3 · Re sistor 4W · 22
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p26 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p26%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–339 mm across, 16–395 mm up
+- **Outlines:** line 474 rings, 6,311 straight (13,112 mm) / 1,644 curved (2,306 mm); text 187 rings, 906 straight (854 mm) / 233 curved (302 mm)
+- **Closed boxes:** 6
+- **Words (OCR):** 4 in 4 lines: ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p27 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p27%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p27 (traced).dxf`).
+
+### Page 28
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 3–397 mm up
+- **Outlines:** line 605 rings, 7,423 straight (12,387 mm) / 1,917 curved (2,636 mm); text 58 rings, 532 straight (642 mm) / 131 curved (201 mm)
+- **Closed boxes:** 6
+- **Dots (junctions):** 2
+- **Words (OCR):** 18 in 10 lines: ps · BS · was WARD-.lEcK · tp 14 066 · SA · ht · AUDIO AMPLIFIER ASSEMBL · HE MATIC · 15- 0.2 001 · IS
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p28 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p28%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p28 (traced).dxf`).
+
+### Page 29
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 16–338 mm across, 17–270 mm up
+- **Outlines:** line 826 rings, 7,076 straight (9,990 mm) / 2,032 curved (2,755 mm); text 98 rings, 349 straight (293 mm) / 15 curved (22.4 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 4.5 @ (25.2, 259.4), r 3.7 @ (246.8, 260.5), r 2.6 @ (107.1, 195.5), r 2.2 @ (329.7, 260.3)
+- **Closed boxes:** 8
+- **Dots (junctions):** 1
+- **Words (OCR):** 4 in 4 lines: ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p29 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p29%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p29 (traced).dxf`).
+
+### Page 30
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 4–430 mm up
+- **Outlines:** line 468 rings, 4,334 straight (6,198 mm) / 1,095 curved (1,539 mm); text 159 rings, 946 straight (1,165 mm) / 249 curved (394 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 3.7 @ (62.3, 259.9), r 3.7 @ (173.3, 201.8), r 3.7 @ (172.8, 262.2), r 2.6 @ (297.4, 19.6)
+- **Closed boxes:** 2
+- **Dots (junctions):** 1
+- **Words (OCR):** 18 in 11 lines: eo; · ps · BS .V.T_.. · was) WA"D-_CK · tp A,,4 · AUDIO AMPLIFIER ",SSEMBLY · ht · COMPONENT LAYOUT · 14 · 5-011-0 01 · 188
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p30 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p30%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p30 (traced).dxf`).
+
+### Page 31
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 0–426 mm up
+- **Outlines:** line 119 rings, 1,703 straight (4,201 mm) / 305 curved (495 mm); text 17 rings, 135 straight (192 mm) / 33 curved (53.6 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.2 @ (166.0, 224.9)
+- **Closed boxes:** 1
+- **Words (OCR):** 11 in 9 lines: WA · ECK YS · LTD · ps · BS · ISSUENl · JUNE 1983 · tp · ht
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p31 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p31%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p31 (traced).dxf`).
+
+### Page 32
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 0–427 mm up
+- **Outlines:** line 328 rings, 3,066 straight (5,759 mm) / 691 curved (1,148 mm); text 1,350 rings, 9,293 straight (10,418 mm) / 2,898 curved (4,495 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 1.8 @ (282.6, 138.5), r 1.7 @ (173.9, 313.7), r 1.7 @ (203.3, 280.0), r 1.7 @ (296.6, 279.9)
+- **Dots (junctions):** 1
+- **Words (OCR):** 286 in 143 lines: WAR · CK · STEMS LTD · CIRCU IT DESC RIPT ION · SA8 _11 · IND ICATOR DRIV ER ASSE MBLY · hree LED · ca to rs · pN>vided · th · ro · of
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p32 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p32%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p32 (traced).dxf`).
+
+### Page 33
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 0–429 mm up
+- **Outlines:** line 502 rings, 4,147 straight (7,553 mm) / 989 curved (1,565 mm); text 555 rings, 4,051 straight (4,743 mm) / 1,179 curved (1,921 mm)
+- **Closed boxes:** 2; named: YSTEMS
+- **Words (OCR):** 117 in 76 lines: 1=lO · YSTEMS LTO. · PARTS LI · SA8_117 INDICATOR DRIVER ASSEMBLY · DESCRIPTION · ctor · /35 · Cap=cllor · Cl02 · /35 · CRIOI · Zen er IOV
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p33 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p33%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p33 (traced).dxf`).
+
+### Page 34
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 27–338 mm across, 19–294 mm up
+- **Outlines:** line 214 rings, 2,721 straight (5,341 mm) / 663 curved (978 mm); text 145 rings, 723 straight (700 mm) / 297 curved (390 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.2 @ (121.4, 250.5)
+- **Closed boxes:** 1
+- **Words (OCR):** 38 in 35 lines: co-----,!)~---,--r-,---T----r--I---I · .J2V · I05 · su · RIl2 · OK' · OK' · ~OS2 · "OVLO" · RO · K5 · COMMON
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p34 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p34%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p34 (traced).dxf`).
+
+### Page 35
+
+- **Sheet:** schematic B8-117-02-001, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 6–370 mm up
+- **Outlines:** line 190 rings, 2,135 straight (3,603 mm) / 474 curved (706 mm); text 183 rings, 1,154 straight (1,211 mm) / 381 curved (530 mm)
+- **Centre lines:** 2,400 paths (39 closed); straight 2,878 mm, curved 124 mm; horizontal 850 mm, vertical 687 mm, diagonal 1,340 mm
+- **Circles and arcs:** 5 circles, 11 arcs; largest r 5.7 @ (28.8, 197.7), r 3.1 @ (44.9, 250.0), r 3.1 @ (15.7, 250.1), r 2.7 @ (311.2, 76.1)
+- **Closed boxes:** 1
+- **Words (OCR):** 39 in 35 lines: RIIO · tr · OSZ · 053 · "OVl. · ~OIl: · ON · RIll · oe · R4~k] · 1/]5 · IOI
+- **Wiring (first pass):** 28 connected wire groups from 137 runs; labelled ends: 162 mm → R4~k], IOI, 1/]5, IN4148; 102 mm → C102, 35; 77 mm → CR10J, 48, CRI05, IN4148; 70 mm → CRlO4, IN41; 66 mm → CRlO4, IN41, CRI05, IN4148
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p35 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p35%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p35 (traced).dxf`).
+
+### Page 36
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 22–338 mm across, 19–325 mm up
+- **Outlines:** line 123 rings, 1,926 straight (3,618 mm) / 322 curved (604 mm); text 498 rings, 3,441 straight (4,217 mm) / 900 curved (1,485 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 7.7 @ (81.7, 125.4), r 4.9 @ (64.7, 316.5), r 4.4 @ (65.9, 107.0), r 1.8 @ (159.1, 185.2)
+- **Closed boxes:** 2; named: UIO LM1458
+- **Words (OCR):** 79 in 61 lines: NOTES · TRANSISTORS 0101 · OC · 0102 ARE PN3646. · Rl01 · 8-117 · DIODES CR102 TO CR · ~3W oE · Rl02 · ARE lN414S · DS2 · Rl05
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p36 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p36%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p36 (traced).dxf`).
+
+### Page 37
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 8–429 mm up
+- **Outlines:** line 209 rings, 2,180 straight (3,071 mm) / 506 curved (819 mm); text 136 rings, 1,019 straight (1,268 mm) / 292 curved (454 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.4 @ (301.1, 22.6), r 2.4 @ (241.5, 22.4), r 2.4 @ (252.3, 31.0), r 1.9 @ (21.7, 185.0)
+- **Dots (junctions):** 1
+- **Words (OCR):** 45 in 26 lines: NOT ES · TRANSISTORS 0101 AND · OC · 102 RE PN3646 · ODES CR 102 TO CR105 · ~3W OE · ARE N4148. · 0101 · 17 7K5 · lJi.8 · 1/3 · 47K
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p37 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p37%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p37 (traced).dxf`).
+
+### Page 38
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 20–429 mm up
+- **Outlines:** line 81 rings, 1,255 straight (3,600 mm) / 219 curved (368 mm); text 70 rings, 570 straight (758 mm) / 165 curved (266 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 18 in 8 lines: WAR -BECK YSTEMS · LTD. · SA,14-«>6 OUTPUT SPLI TT ER NETW ORK ASSEMBLY · ps · BS · JUNE 1983. · tp · ht
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p38 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p38%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p38 (traced).dxf`).
+
+### Page 39
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 0–426 mm up
+- **Outlines:** line 224 rings, 2,593 straight (5,561 mm) / 496 curved (797 mm); text 281 rings, 1,977 straight (2,207 mm) / 499 curved (827 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.7 @ (98.5, 311.8)
+- **Words (OCR):** 58 in 26 lines: WA~ · CK YSTEMS LTD · SA14- 066 OUTPUT SPL TT ER NET WORK ASSEMBLY · DESCRI · ON · MF PART NUMBER · Re · 51 · li ps · 2W · 200 · aoo
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p39 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p39%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p39 (traced).dxf`).
+
+### Page 40
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 75–339 mm across, 25–412 mm up
+- **Outlines:** line 79 rings, 1,025 straight (1,886 mm) / 254 curved (443 mm); text 61 rings, 473 straight (586 mm) / 137 curved (231 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.2 @ (89.8, 221.4), r 2.2 @ (78.5, 208.1), r 2.2 @ (213.4, 205.9), r 2.1 @ (330.4, 359.6)
+- **Words (OCR):** 15 in 11 lines: 300 · aa · TO AMPHENOL · 26*1 59* 16 · CONNEC OR · 300 · 300 · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p40 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p40%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p40 (traced).dxf`).
+
+### Page 41
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 9–411 mm up
+- **Outlines:** line 180 rings, 1,841 straight (2,627 mm) / 481 curved (796 mm); text 73 rings, 521 straight (606 mm) / 171 curved (271 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.4 @ (233.7, 31.2), r 2.2 @ (209.7, 332.2), r 2.2 @ (197.2, 332.3)
+- **Dots (junctions):** 1
+- **Words (OCR):** 28 in 15 lines: AL.L. RESISTORS ARE l/2w 51. · L.AST COMPONENT O£S IGNATlON: · TO AMPHENOl. · 26_159_16 · CONNECTOA · ps · BS · tp · SA 104-o66 · OUTPUT SPU TTER NETWORK · ht · SC HEMATIC
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p41 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p41%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p41 (traced).dxf`).
+
+### Page 42
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 49–338 mm across, 9–268 mm up
+- **Outlines:** line 103 rings, 1,112 straight (2,227 mm) / 275 curved (476 mm); text 6 rings, 33 straight (69.5 mm) / 8 curved (15.1 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 5 in 5 lines: ps · BS · tp · ht · 814-
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p42 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p42%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p42 (traced).dxf`).
+
+### Page 43
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 8–429 mm up
+- **Outlines:** line 122 rings, 1,238 straight (1,794 mm) / 314 curved (507 mm); text 32 rings, 241 straight (314 mm) / 73 curved (116 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.5 @ (301.4, 23.1), r 2.4 @ (311.7, 31.2)
+- **Closed boxes:** 1
+- **Words (OCR):** 18 in 9 lines: ps · BS · tp · 14 -o6 · OUTPUT SPLITTER NETWORK · ht · COM PONEN LAY OUT · 14 68 -08- 00 · ISS
+
+Every curve, box, word and wire group: [1983 - M612A - Audio DA (2) p43 (traced).json](1983%20-%20M612A%20-%20Audio%20DA%20%282%29%20p43%20%28traced%29.json) (the CAD file: `1983 - M612A - Audio DA (2) p43 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

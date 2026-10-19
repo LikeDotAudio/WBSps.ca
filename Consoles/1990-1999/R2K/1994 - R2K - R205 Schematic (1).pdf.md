@@ -11,6 +11,67 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Pages:** 6
 - **PDF created (scan date, not design date):** Mon Jun 15 14:16:39 2009 EDT
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 47–308 mm across, 8–410 mm up
+- **Outlines:** line 204 rings, 3,775 straight (8,710 mm) / 972 curved (1,162 mm); text 29 rings, 332 straight (324 mm) / 106 curved (131 mm)
+- **Closed boxes:** 7
+- **Words (OCR):** 1 in 1 lines: Ee
+
+Every curve, box, word and wire group: [1994 - R2K - R205 Schematic (1) p1 (traced).json](1994%20-%20R2K%20-%20R205%20Schematic%20%281%29%20p1%20%28traced%29.json) (the CAD file: `1994 - R2K - R205 Schematic (1) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 46–334 mm across, 5–409 mm up
+- **Outlines:** line 840 rings, 11,470 straight (23,475 mm) / 3,041 curved (3,436 mm); text 73 rings, 617 straight (577 mm) / 224 curved (258 mm)
+- **Closed boxes:** 69; named: 23 2l; DJ; tod
+- **Words (OCR):** 5 in 5 lines: 23 · 2l · DJ · tod · 09
+
+Every curve, box, word and wire group: [1994 - R2K - R205 Schematic (1) p2 (traced).json](1994%20-%20R2K%20-%20R205%20Schematic%20%281%29%20p2%20%28traced%29.json) (the CAD file: `1994 - R2K - R205 Schematic (1) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 46–308 mm across, 6–409 mm up
+- **Outlines:** line 841 rings, 11,812 straight (23,467 mm) / 3,047 curved (3,514 mm); text 76 rings, 856 straight (882 mm) / 272 curved (324 mm)
+- **Closed boxes:** 67; named: 84; 97
+- **Words (OCR):** 3 in 3 lines: 84 · 97 · 03
+
+Every curve, box, word and wire group: [1994 - R2K - R205 Schematic (1) p3 (traced).json](1994%20-%20R2K%20-%20R205%20Schematic%20%281%29%20p3%20%28traced%29.json) (the CAD file: `1994 - R2K - R205 Schematic (1) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 43–305 mm across, 10–410 mm up
+- **Outlines:** line 256 rings, 4,728 straight (9,351 mm) / 1,189 curved (1,365 mm); text 100 rings, 1,061 straight (1,039 mm) / 312 curved (364 mm)
+- **Closed boxes:** 8; named: 23; 00; 00
+- **Words (OCR):** 3 in 2 lines: 23 · 00 00
+
+Every curve, box, word and wire group: [1994 - R2K - R205 Schematic (1) p4 (traced).json](1994%20-%20R2K%20-%20R205%20Schematic%20%281%29%20p4%20%28traced%29.json) (the CAD file: `1994 - R2K - R205 Schematic (1) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 46–310 mm across, 8–410 mm up
+- **Outlines:** line 770 rings, 9,925 straight (19,906 mm) / 2,571 curved (3,032 mm); text 113 rings, 1,038 straight (1,040 mm) / 372 curved (445 mm)
+- **Closed boxes:** 24; named: Ue; 008; 68681858 Eod8; 03333868; 2222
+- **Words (OCR):** 9 in 9 lines: Ue · 03333868 · 68681858 · 008 · Eod8 · 2222 · 83 · 292 · 62
+
+Every curve, box, word and wire group: [1994 - R2K - R205 Schematic (1) p5 (traced).json](1994%20-%20R2K%20-%20R205%20Schematic%20%281%29%20p5%20%28traced%29.json) (the CAD file: `1994 - R2K - R205 Schematic (1) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 34–294 mm across, 7–409 mm up
+- **Outlines:** line 907 rings, 11,862 straight (27,802 mm) / 3,115 curved (3,605 mm); text 80 rings, 882 straight (908 mm) / 280 curved (332 mm)
+- **Closed boxes:** 31
+
+Every curve, box, word and wire group: [1994 - R2K - R205 Schematic (1) p6 (traced).json](1994%20-%20R2K%20-%20R205%20Schematic%20%281%29%20p6%20%28traced%29.json) (the CAD file: `1994 - R2K - R205 Schematic (1) p6 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

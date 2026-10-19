@@ -11,6 +11,650 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Pages:** 58
 - **PDF created (scan date, not design date):** Wed Jun  8 00:07:35 2011 EDT
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1548 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 5–432 mm up
+- **Outlines:** line 133 rings, 2,952 straight (5,570 mm) / 315 curved (435 mm); text 86 rings, 2,003 straight (3,872 mm) / 291 curved (498 mm); tb 337 rings, 3,656 straight (3,082 mm) / 619 curved (673 mm)
+- **Words (OCR):** 16 in 15 lines: WBS · WBS · WBS · WBS · WBS · WBS · WBS · WBS · ST SERIES STEREO · CONSOLE · WBS · WBS
+- **Title block:** (0, 0)–(283, 421) mm: WBS · WBS · WBS · WBS · WBS · WBS · WBS · WBS · ST SERIES STEREO · CONSOLE · WBS · WBS · WAAD-beck byatemb · LTO_ · WBS
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p1 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p1%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1550 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 1–432 mm up
+- **Outlines:** line 9 rings, 842 straight (2,758 mm) / 103 curved (172 mm); text 167 rings, 1,974 straight (2,537 mm) / 530 curved (838 mm); tb 64 rings, 504 straight (964 mm) / 101 curved (148 mm)
+- **Words (OCR):** 13 in 10 lines: WAAD-BECK SYSTEMS LTD_ · WBS B41 PAOGRESs AVENUE, SCARBOROUCH; ONTARIO M1h 2*4 · TELEPHONE: · 416/433-6550 · TeleX · 085.25393 · ST2442/5T3642' · STEREO TELEVISION CONSOLES · WBS · Preservatiom Society
+- **Title block:** (0, 0)–(261, 432) mm: WAAD-BECK SYSTEMS LTD_ · WBS B41 PAOGRESs AVENUE, SCARBOROUCH; ONTARIO M1h 2*4 · TELEPHONE: · 416/433-6550 · TeleX · 085.25393 · ST2442/5T3642' · STEREO TELEVISION CONSOLES · WBS · Preservatiom Societ
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p2 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p2%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1550 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 1–432 mm up
+- **Outlines:** line 82 rings, 1,834 straight (4,809 mm) / 304 curved (570 mm); text 3,186 rings, 22,448 straight (23,282 mm) / 6,819 curved (9,979 mm); tb 34 rings, 240 straight (342 mm) / 57 curved (75.5 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 5.9 @ (27.1, 329.6), r 2.7 @ (2.9, 416.9), r 2.7 @ (3.0, 260.4), r 2.7 @ (2.4, 103.4)
+- **Closed boxes:** 1; named: WBS5
+- **Words (OCR):** 347 in 192 lines: Introduction · The WARD-BECK · Series ST · Stereophonic Production and · Programming · Consoles · have been · designed primarily provide the broadcaster · to · flexibility and · comprehensive stereophonic facilities · with
+- **Title block:** (78, 6)–(323, 404) mm: The WARD-BECK · Series ST · Stereophonic Production and · Programming · Consoles · have been · designed primarily provide the broadcaster · to · flexibility and · comprehensive stereophonic facilities
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p3 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p3%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–318 mm across, 1–419 mm up
+- **Outlines:** line 1 rings, 171 straight (781 mm) / 21 curved (34.2 mm); text 2,403 rings, 18,948 straight (21,568 mm) / 5,546 curved (8,297 mm); tb 48 rings, 602 straight (1,188 mm) / 134 curved (195 mm)
+- **Words (OCR):** 272 in 141 lines: ST2442 Summary of Facilities · 12 · Monaural · Microphone/Line Input · Channels, · consisting of · WBS Type · M520 · Input Module, M522 Three Band State Variable · Channel · Equalizer , and · Penny and Giles
+- **Title block:** (0, 0)–(321, 381) mm: 12 · Monaural · Microphone/Line Input · Channels, · consisting of · WBS Type · M520 · Input Module, M522 Three Band State Variable · Channel · Equalizer , and · Penny and Giles · conductive · plastic 
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p4 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p4%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–322 mm across, 1–418 mm up
+- **Outlines:** line 3 rings, 251 straight (814 mm) / 23 curved (36.8 mm); text 1,520 rings, 11,991 straight (13,794 mm) / 3,449 curved (5,163 mm); tb 49 rings, 741 straight (1,436 mm) / 158 curved (235 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.7 @ (3.5, 415.6)
+- **Words (OCR):** 173 in 99 lines: 16 · Audio Level · Meters, (vu · Meters · standard, PPM Meters · optional ) with meters · dedicated to · Stereo Submasters and · Stereo · and · Monaural · Masters, plus two
+- **Title block:** (0, 0)–(325, 357) mm: Prewred tions to · 12 · posi · accommodate · comprehensive · family of · Audio · Processing Modules, available to · console · input or · basis. · output channels on · patchable · Insertion/Output Jack
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p5 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p5%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–327 mm across, 1–418 mm up
+- **Outlines:** line 24 rings, 478 straight (1,301 mm) / 94 curved (117 mm); text 1,597 rings, 13,027 straight (14,989 mm) / 3,676 curved (5,473 mm); tb 29 rings, 303 straight (800 mm) / 47 curved (70.1 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.7 @ (4.2, 374.9), r 2.7 @ (3.4, 414.9), r 2.7 @ (4.8, 217.7), r 1.6 @ (75.3, 232.3)
+- **Words (OCR):** 168 in 109 lines: Patchable Audio · Processing · Modules, up · t0 · maximum · of 12 · standard · prewired mainframe. · devices, for · inclusion in · the · The
+- **Title block:** (0, 0)–(327, 30) mm: WBS · WBS · Preservation Society
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p6 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p6%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–321 mm across, 1–419 mm up
+- **Outlines:** line 5 rings, 337 straight (1,026 mm) / 68 curved (112 mm); text 2,425 rings, 18,473 straight (20,492 mm) / 5,545 curved (8,294 mm); tb 58 rings, 947 straight (1,875 mm) / 178 curved (313 mm)
+- **Words (OCR):** 270 in 153 lines: ST3642 Summary of Facilities · 24 · Monaural · Microphone/Line Input · Channels, consisting of · WBS · Type M520 · Input Module, M522 · Three Band · State Variable · Equalizer , and · Penny and
+- **Title block:** (0, 0)–(324, 380) mm: 24 · Monaural · Microphone/Line Input · Channels, consisting of · WBS · Type M520 · Input Module, M522 · Three Band · State Variable · Equalizer , and · Penny and · Giles conductive · plastic · Channe
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p7 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p7%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 1–419 mm up
+- **Outlines:** line 5 rings, 226 straight (827 mm) / 21 curved (34.2 mm); text 1,517 rings, 12,044 straight (13,994 mm) / 3,521 curved (5,256 mm); tb 48 rings, 588 straight (1,330 mm) / 122 curved (189 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.7 @ (3.1, 416.1)
+- **Words (OCR):** 178 in 97 lines: 16 · Audio Level · Meters · (vu Meters · standard, PPM Meters · optional) with meters · dedicated to · Stereo · Submasters and · Stereo and · Monaural · Masters, plus
+- **Title block:** (0, 0)–(324, 357) mm: Poenired positions accommodate · 12 · comprehensive family of · t0 · Audio Processing · Modules, available to · console input or · output channels on · patchable basis. · Insertion/Output · Jackfield,
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p8 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p8%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 1–419 mm up
+- **Outlines:** line 40 rings, 586 straight (1,749 mm) / 163 curved (282 mm); text 3,217 rings, 24,250 straight (26,530 mm) / 7,035 curved (10,559 mm); tb 26 rings, 289 straight (671 mm) / 58 curved (75.5 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.8 @ (3.2, 376.7), r 2.7 @ (2.7, 416.6), r 2.6 @ (2.8, 219.4)
+- **Words (OCR):** 381 in 218 lines: ST3642 Summary of Optional Facilities · Preselection, · utilizing · M538 , microphone · Microphone Input · section · of M538A , or · M538B Input · Preselectors. · Input · preselect · capability may
+- **Title block:** (0, 0)–(324, 30) mm: WBS · WBS · Preservation Society
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p9 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p9%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–323 mm across, 1–419 mm up
+- **Outlines:** line 57 rings, 1,186 straight (2,623 mm) / 227 curved (384 mm); text 1,601 rings, 12,411 straight (14,028 mm) / 3,630 curved (5,411 mm); tb 6 rings, 71 straight (193 mm) / 9 curved (15.3 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 5.9 @ (26.5, 327.9), r 2.7 @ (3.0, 416.0), r 1.6 @ (73.5, 380.7)
+- **Closed boxes:** 1; named: WB3S Preservation Society
+- **Dots (junctions):** 2
+- **Words (OCR):** 178 in 111 lines: maximum of 12 · Patchable · Audio · Processing · Modules, up · to · devices, for · inclusion in the · standard · prewired mainframe. · The processing modules may · be any
+- **Title block:** (84, 4)–(327, 235) mm: Peak · Program · Metering, available · with · variety of meter · metering functions, or · only on · scales, provided for · all · specified Master · Sub, or · Utility meter groups, · with vu · Metering
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p10 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p10%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–321 mm across, 1–419 mm up
+- **Outlines:** line 36 rings, 637 straight (1,540 mm) / 104 curved (122 mm); text 2,450 rings, 19,202 straight (21,886 mm) / 5,544 curved (8,430 mm); tb 6 rings, 75 straight (195 mm) / 8 curved (12.9 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.7 @ (2.9, 218.4)
+- **Words (OCR):** 263 in 158 lines: ST3642A Summary of Facilities · Microphone/Line Input · Channels, · consisting of · 12 · Monaural · WBS Type · M520 · Input Module, M522 Three · Band State Variable · plastic · Channel
+- **Title block:** (85, 4)–(324, 384) mm: Microphone/Line Input · Channels, · consisting of · Monaural · WBS Type · M520 · Input Module, M522 Three · Band State Variable · plastic · Channel · Equalizer, and · Penny and · Giles conductive · fa
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p11 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p11%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–320 mm across, 1–419 mm up
+- **Outlines:** line 47 rings, 967 straight (2,275 mm) / 181 curved (280 mm); text 1,516 rings, 11,683 straight (13,431 mm) / 3,485 curved (5,200 mm); tb 3 rings, 66 straight (183 mm) / 4 curved (12.0 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 6.0 @ (26.0, 328.0), r 2.7 @ (2.9, 218.3)
+- **Words (OCR):** 173 in 98 lines: 16 · Audio Level · Meters · (vu Meters · standard, PPM Meters · optional ) with meters · dedicated to · Stereo Submasters · and · Stereo and · Monaural Masters, · plus [Wo
+- **Title block:** (144, 1)–(322, 356) mm: positions accommodate · comprehensive family of · to · Processing Modules, available to · console · input or · patchable basis. · consisting of ten rows · of 24 · Bantam · (ADC PJ839 · Series) jacks, 
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p12 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p12%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–324 mm across, 1–418 mm up
+- **Outlines:** line 61 rings, 842 straight (2,255 mm) / 181 curved (290 mm); text 3,237 rings, 24,114 straight (26,565 mm) / 7,164 curved (10,815 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 2.7 @ (4.1, 218.3), r 2.7 @ (3.2, 415.6), r 2.6 @ (3.8, 375.8), r 2.6 @ (3.6, 20.8)
+- **Closed boxes:** 1; named: WB3S
+- **Words (OCR):** 390 in 233 lines: ST3642A Summary of Optional Facilities · Preselection, utilizing · M538 , icrophone · Microphone · Input · section of · M538A , or · M538B Input · Preselectors. · Input · added in-line · with
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p13 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p13%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–325 mm across, 1–420 mm up
+- **Outlines:** line 49 rings, 718 straight (1,931 mm) / 133 curved (190 mm); text 1,629 rings, 12,999 straight (15,031 mm) / 3,811 curved (5,716 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.7 @ (3.1, 21.5), r 1.7 @ (72.0, 381.6), r 1.6 @ (71.6, 295.9), r 1.6 @ (71.2, 229.8)
+- **Words (OCR):** 175 in 103 lines: Patchable Audio · Processing · Modules, up · to · maximum · of 12 · devices, for · inclusion in the · standard · prewired mainframe . · The process · ing modules may
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p14 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p14%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 0–417 mm up
+- **Outlines:** line 9 rings, 470 straight (1,603 mm) / 63 curved (116 mm); text 2,953 rings, 22,103 straight (24,661 mm) / 6,463 curved (9,717 mm); tb 32 rings, 378 straight (838 mm) / 81 curved (96.0 mm)
+- **Words (OCR):** 343 in 218 lines: Operational Features · Input Channels · The Series ST · Console · family utilizes the · M520 Channel · Amplifier for · applications, and the · Microphone · and Monaural · Line · M521 Channel
+- **Title block:** (0, 0)–(325, 326) mm: Preamplifier. · 20 · dB · pad may · be · inserted · into the · microphone · preamplifier accommodate the · outputs · of · condenser · to · higher · level · microphones . · preamplifier · Sensitivity c
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p15 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p15%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 2–430 mm up
+- **Outlines:** line 59 rings, 880 straight (2,157 mm) / 131 curved (214 mm); text 2,966 rings, 22,477 straight (24,620 mm) / 6,611 curved (9,854 mm); tb 25 rings, 285 straight (665 mm) / 56 curved (75.4 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.7 @ (3.3, 219.0), r 2.7 @ (2.7, 337.2), r 2.6 @ (2.9, 258.4), r 2.6 @ (2.8, 416.2)
+- **Words (OCR):** 369 in 204 lines: An · iMluminated, · silent, momentary · Channel-on · pushbutton with · ing, controls · the audio · signal flow · through · the · electronic Jatch · module, a5
+- **Title block:** (0, 0)–(324, 30) mm: WBS · WBS · Preservation Society
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p16 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p16%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–321 mm across, 2–419 mm up
+- **Outlines:** line 24 rings, 442 straight (1,228 mm) / 96 curved (149 mm); text 2,626 rings, 19,848 straight (21,987 mm) / 5,864 curved (8,764 mm); tb 29 rings, 291 straight (691 mm) / 46 curved (59.9 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.8 @ (3.1, 376.3), r 2.7 @ (2.4, 337.1), r 2.7 @ (2.6, 416.0), r 2.6 @ (2.7, 218.9)
+- **Words (OCR):** 308 in 167 lines: Program/Peak indicator is included in the · M521 Channel · Amplifier · iluminating Green the · presence · of normal signal · levels and Red · at · at · the onset · of overload · The
+- **Title block:** (0, 0)–(324, 30) mm: WBS · WBS · Preservation Society
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p17 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p17%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 2–428 mm up
+- **Outlines:** line 39 rings, 829 straight (2,248 mm) / 142 curved (239 mm); text 2,602 rings, 20,097 straight (22,412 mm) / 5,730 curved (8,509 mm); tb 27 rings, 296 straight (684 mm) / 51 curved (65.9 mm)
+- **Words (OCR):** 315 in 179 lines: B. Equalization · GGV The S12442 in-Iine and stereo · and 5t3642 · consoles · utilize M522 Series · State Variable · Equalizers for · monaural · channel · equalization. · 18 M522 Monaural State input be an is be · Variable
+- **Title block:** (0, 0)–(324, 29) mm: WBS · WBS · Preservation Society
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p18 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p18%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–326 mm across, 2–419 mm up
+- **Outlines:** line 25 rings, 435 straight (1,256 mm) / 81 curved (130 mm); text 3,322 rings, 24,870 straight (27,405 mm) / 7,377 curved (11,069 mm); tb 24 rings, 285 straight (671 mm) / 54 curved (68.9 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.7 @ (2.9, 376.4), r 2.7 @ (2.5, 218.8), r 2.7 @ (2.4, 416.0), r 2.7 @ (2.7, 297.7)
+- **Words (OCR):** 389 in 205 lines: Submaster Channels · The four Submaster · channels in · the ST2442 and · 5t3642 Consoles each · provide fuli · stereophonic · submastering, and each · utilizes an · M523 · Submaster · Module and
+- **Title block:** (0, 0)–(324, 29) mm: WBS · WBS · Preservation Society
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p19 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p19%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 2–418 mm up
+- **Outlines:** line 31 rings, 470 straight (1,617 mm) / 78 curved (130 mm); text 2,600 rings, 20,083 straight (22,694 mm) / 5,856 curved (8,744 mm); tb 28 rings, 296 straight (682 mm) / 49 curved (66.6 mm)
+- **Words (OCR):** 315 in 160 lines: Master Channels · The two · Stereophonic · and two · Monaural · Master Output channels · utilize two · M527 Triple Summing/Line Amplifier Modules · Independent · assignment to · the · four master
+- **Title block:** (0, 0)–(322, 29) mm: WBS · WBS · Preservation Societv
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p20 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p20%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–320 mm across, 1–420 mm up
+- **Outlines:** line 32 rings, 536 straight (1,475 mm) / 101 curved (131 mm); text 2,594 rings, 20,103 straight (22,652 mm) / 5,946 curved (8,864 mm); tb 8 rings, 93 straight (202 mm) / 10 curved (13.9 mm)
+- **Words (OCR):** 298 in 173 lines: Monitor Channels · The ST2442 · and · 5t3642 Consoles are · wired to · accommodate up to · four · M525 Stereophonic Monitor Modules . · Any number M525 · of · modules from · to
+- **Title block:** (59, 3)–(323, 401) mm: The ST2442 · and · 5t3642 Consoles are · wired to · accommodate up to · four · M525 Stereophonic Monitor Modules . · Any number M525 · of · modules from · to · the total of four may · be · fitted, in 
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p21 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p21%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 1–418 mm up
+- **Outlines:** line 43 rings, 698 straight (2,108 mm) / 137 curved (208 mm); text 2,831 rings, 21,562 straight (24,147 mm) / 6,172 curved (9,295 mm); tb 11 rings, 166 straight (393 mm) / 18 curved (28.8 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 2.8 @ (3.8, 415.3), r 2.7 @ (4.2, 138.8), r 2.7 @ (4.0, 178.4), r 2.6 @ (3.9, 336.3)
+- **Words (OCR):** 326 in 206 lines: Communications, Slating, and Oscillator · Talkback, Slating, · PFL, and · Test · Oscillator facilities in · the · 5T2442 · and · St3642 consoles are · provided in · the M529 · Communications
+- **Title block:** (0, 0)–(328, 109) mm: and the · third · input · feeds · directly the · t0 · PFL amplifier, · permitting · interface with · variety of · communications systems_ · The · PFL · bus, · assignable · in any · combination · from 
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p22 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p22%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–323 mm across, 1–419 mm up
+- **Outlines:** line 47 rings, 1,044 straight (2,456 mm) / 195 curved (365 mm); text 3,289 rings, 24,200 straight (26,565 mm) / 7,112 curved (10,542 mm); tb 6 rings, 75 straight (196 mm) / 10 curved (13.2 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.7 @ (3.2, 258.6), r 2.7 @ (3.5, 416.5), r 2.6 @ (3.9, 219.2), r 2.6 @ (3.3, 337.5)
+- **Closed boxes:** 1; named: WB3S
+- **Words (OCR):** 374 in 223 lines: H. Jackfield · standard 5T2442 Console · is furnished · with an · integral · The · Insertion/Output · jackfield consisting of eight rows · of 24 Bantam · ADC · includes an · PJ839 Series
+- **Title block:** (116, 4)–(325, 261) mm: wired to accommodate up · ST3642 Consoles are · factory · audio processing · modules, with their · inputs · and outputs · provided as · part · of · the · basic · jackfield package. · Limiter /Compress
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p23 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p23%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–325 mm across, 0–417 mm up
+- **Outlines:** line 49 rings, 1,045 straight (2,516 mm) / 179 curved (266 mm); text 2,114 rings, 16,367 straight (18,455 mm) / 4,621 curved (6,892 mm); tb 7 rings, 124 straight (362 mm) / 19 curved (28.1 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.7 @ (3.0, 256.1), r 2.6 @ (2.9, 374.2), r 2.6 @ (3.9, 216.6), r 2.6 @ (3.4, 295.4)
+- **Dots (junctions):** 1
+- **Words (OCR):** 234 in 148 lines: originating · from another · channel . · "voice-over" · announcement · Limiter/Compressors may · be · inserted in · input channels, submasters, · peak limiting, may · serve · or
+- **Title block:** (0, 0)–(328, 30) mm: WBS · WBS · Preservation Society
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p24 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p24%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–320 mm across, 1–419 mm up
+- **Outlines:** line 56 rings, 1,155 straight (2,932 mm) / 199 curved (312 mm); text 2,645 rings, 19,760 straight (21,909 mm) / 5,886 curved (8,755 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.7 @ (2.5, 258.5), r 2.7 @ (3.0, 219.1)
+- **Dots (junctions):** 4
+- **Words (OCR):** 305 in 156 lines: ML62A Monaural · Three Band · State Variable Equalizer · The M462A · State Variable · Equalizer is · three · band variable · parameter · equalizer providing considerable · flexibility , and ideal · for use
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p25 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p25%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–323 mm across, 1–419 mm up
+- **Outlines:** line 26 rings, 758 straight (1,850 mm) / 130 curved (215 mm); text 2,022 rings, 16,266 straight (18,488 mm) / 4,577 curved (6,791 mm); tb 28 rings, 288 straight (672 mm) / 51 curved (68.5 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.6 @ (70.9, 394.1), r 1.6 @ (71.2, 182.3)
+- **Dots (junctions):** 2
+- **Words (OCR):** 269 in 174 lines: Continuous Mid · Frequency · Band · selection from · 600 Hz to · 12.8 kHZ, · Peaking · mode, with · continuously · variable · and · continuously
+- **Title block:** (0, 0)–(326, 29) mm: WBS · WBS · Preservation Society
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p26 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p26%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–318 mm across, 1–419 mm up
+- **Outlines:** line 56 rings, 808 straight (2,061 mm) / 135 curved (188 mm); text 2,004 rings, 16,027 straight (18,305 mm) / 4,652 curved (7,026 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 2.7 @ (2.8, 376.9), r 1.7 @ (65.6, 242.4), r 1.6 @ (64.5, 117.1), r 1.6 @ (64.7, 136.7)
+- **Dots (junctions):** 2
+- **Words (OCR):** 219 in 116 lines: 3. Compression and Limiting · M466 Monaural · Limiter/Comeressor[De_esser · The M466 · Limiter/Compressor /De-esser provides separate · Limiter and · functions, · individually insertable, with · Compressor · comprehensive · parameter · adjustments_ The Limiter section
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p27 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p27%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p27 (traced).dxf`).
+
+### Page 28
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–323 mm across, 0–417 mm up
+- **Outlines:** line 27 rings, 607 straight (1,695 mm) / 116 curved (210 mm); text 2,216 rings, 17,407 straight (19,380 mm) / 5,014 curved (7,444 mm); tb 26 rings, 291 straight (675 mm) / 48 curved (62.9 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.6 @ (70.2, 287.2)
+- **Dots (junctions):** 1
+- **Words (OCR):** 264 in 171 lines: Limit · Release, · continuously variable from 0.1 · seconds t0 · seconds. · Limit Ratio fixed at · 50:1 · dB of · Limiting LED · Indicators, · Green · LED operates
+- **Title block:** (0, 0)–(326, 29) mm: WBS · WBS · Preservation Society
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p28 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p28%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p28 (traced).dxf`).
+
+### Page 29
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–322 mm across, 2–419 mm up
+- **Outlines:** line 22 rings, 438 straight (1,352 mm) / 87 curved (138 mm); text 2,382 rings, 17,931 straight (20,286 mm) / 5,239 curved (7,944 mm); tb 30 rings, 357 straight (861 mm) / 56 curved (79.9 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.6 @ (68.1, 215.5)
+- **Dots (junctions):** 2
+- **Words (OCR):** 274 in 153 lines: Noise Gating · Noise · Gate · M467 · Noise Gate provides · attenuation · of an · audio signal to · The M467 · preset · Ievel, · when
+- **Title block:** (0, 0)–(324, 169) mm: The · M467 Noise Gate module also · accommodates edgewise · vu · Compressor · Link · pushbuttons utilized · with · meter · and · companion · M466 · Limiter/Compressor · 5. oice_Over · ~Over Module · T
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p29 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p29%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p29 (traced).dxf`).
+
+### Page 30
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 2–419 mm up
+- **Outlines:** line 33 rings, 537 straight (1,821 mm) / 108 curved (171 mm); text 2,594 rings, 19,846 straight (22,261 mm) / 5,729 curved (8,623 mm); tb 25 rings, 294 straight (698 mm) / 53 curved (66.6 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.6 @ (68.8, 354.8)
+- **Dots (junctions):** 1
+- **Words (OCR):** 284 in 148 lines: (vo) switch applies · the voice · (controlling) signal the processor · to · With the VO · switch · deenergized , the · "music" signal unaffected · is · by · the · presence of the
+- **Title block:** (0, 0)–(322, 29) mm: WBS · WBS · Preservation Societv
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p30 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p30%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p30 (traced).dxf`).
+
+### Page 31
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–321 mm across, 2–419 mm up
+- **Outlines:** line 44 rings, 916 straight (2,327 mm) / 172 curved (241 mm); text 2,857 rings, 21,555 straight (23,714 mm) / 6,227 curved (9,323 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 331 in 186 lines: ganged · preselector sections are · utilized, such as · for main · and · back-up microphones, or · tracks · and · of multi-channel tape · machines, input · capability of an · individual console
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p31 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p31%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p31 (traced).dxf`).
+
+### Page 32
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–323 mm across, 1–418 mm up
+- **Outlines:** line 33 rings, 465 straight (1,488 mm) / 89 curved (111 mm); text 2,033 rings, 16,458 straight (18,685 mm) / 4,752 curved (7,161 mm); tb 5 rings, 79 straight (199 mm) / 3 curved (4.4 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.6 @ (5.3, 218.0)
+- **Words (OCR):** 220 in 140 lines: Microprocessor Controllers · The · ST2442 and · St3642 · Audio Consoles · utilize type · M52OOA micro- · muting · processor · based · controllers to · perform certain
+- **Title block:** (74, 2)–(326, 297) mm: comp lete controller · designed · malfunction or · failure. Each · console is · t0 · accommodate two · M52OOA · Control lers, · providing an · added measure · of protection · L. Metering · Each 5t2442
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p32 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p32%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p32 (traced).dxf`).
+
+### Page 33
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–321 mm across, 1–419 mm up
+- **Outlines:** line 19 rings, 428 straight (1,396 mm) / 53 curved (117 mm); text 2,714 rings, 20,866 straight (23,134 mm) / 5,976 curved (8,902 mm); tb 38 rings, 582 straight (1,303 mm) / 108 curved (153 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 5.9 @ (28.1, 328.6), r 2.7 @ (4.1, 416.4), r 2.7 @ (3.7, 337.4), r 2.6 @ (4.2, 298.1)
+- **Words (OCR):** 325 in 163 lines: Utility volume indicators are · The two · switchable · assigned via the · Utility Meter selector , part · of · the · M529A · Auxiliary Switching · following · Module. The meters are · switched as
+- **Title block:** (0, 0)–(324, 278) mm: Dual power · supply systems are · standard on · the · ST2442 · and St3642 · Cp Consoles of Modular Bi-polar Power Supplies and · total · four M625B · two · M611 Modular Logic · Power Supplies are · su
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p33 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p33%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p33 (traced).dxf`).
+
+### Page 34
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–324 mm across, 1–418 mm up
+- **Outlines:** line 175 rings, 2,580 straight (5,502 mm) / 571 curved (909 mm); text 1,861 rings, 13,953 straight (14,592 mm) / 4,118 curved (6,102 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 5.9 @ (28.4, 327.2), r 2.7 @ (3.6, 415.5), r 2.7 @ (4.0, 297.2), r 2.6 @ (4.1, 375.9)
+- **Dots (junctions):** 1
+- **Words (OCR):** 221 in 132 lines: N. Mechanical · fabricated entirely · of · metal . The console · The console structure · is · base · is · solid · welded · steel · assembly,
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p34 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p34%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p34 (traced).dxf`).
+
+### Page 35
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–324 mm across, 2–419 mm up
+- **Outlines:** line 127 rings, 2,160 straight (4,970 mm) / 427 curved (736 mm); text 1,409 rings, 10,538 straight (11,233 mm) / 3,013 curved (4,489 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 5.9 @ (26.8, 328.4), r 2.7 @ (2.4, 100.8), r 2.7 @ (2.6, 140.3), r 2.7 @ (3.5, 416.6)
+- **Dots (junctions):** 3
+- **Words (OCR):** 162 in 95 lines: Note: Specifications in dBm are · on equivalent voltage levels · based · of · 600 · ohm system unless otherwise · Specifications · specified. · MONO INPUTS: · MICROPHONE: · ting_ · Source Impedance:
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p35 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p35%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p35 (traced).dxf`).
+
+### Page 36
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 2–418 mm up
+- **Outlines:** line 126 rings, 1,688 straight (3,804 mm) / 394 curved (612 mm); text 1,204 rings, 9,806 straight (11,216 mm) / 2,824 curved (4,193 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 6.0 @ (27.1, 327.4), r 2.7 @ (3.2, 336.4), r 1.7 @ (192.5, 304.6), r 1.3 @ (233.1, 305.0)
+- **Dots (junctions):** 2
+- **Words (OCR):** 136 in 87 lines: equivalent input · Mic · Inputs: · -125 dBm 0r less · nolse, · for ~60 dBm · input · sensitivity · 20 Hz · setting and measured over · to 20 kHz bandwidth. · TOTAL HARMONIC DISTORTION:
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p36 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p36%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p36 (traced).dxf`).
+
+### Page 37
+
+- **Sheet:** layout 2442-04-002, size B (assumed) 432 × 273 mm, 2000 × 1263 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–273 mm up
+- **Outlines:** line 496 rings, 8,405 straight (16,707 mm) / 984 curved (1,280 mm); text 171 rings, 1,445 straight (1,365 mm) / 475 curved (605 mm); tb 34 rings, 633 straight (1,176 mm) / 80 curved (107 mm)
+- **Closed boxes:** 94; named: 03.26.53; OPT IONAL Stereo Line iNput SeLectoRs (1; OPT IONAL MiciliNe INpuT SeLecTORS 021; 03.26.53; conTROLLER MsZO04
+- **Words (OCR):** 34 in 31 lines: OPT IONAL · OPT IONAL · M528 · AuX · INpuT SeLecTORS 021 · MiciliNe · iNput SeLectoRs (12) · Stereo Line · MODULES · BLANK · 03.26.53 · (3i
+- **Title block:** (0, 0)–(432, 42) mm: ISSU IDATE · REViSION · WBS WAAD-BECk sysTen · DRM  'ulr: · ST2442 · FENG · STEREO TELEVISION CONSC · CKD. · FRONT VIEW LAYOUT · Dr50 7 · WBS · ISCALI · 2442-04-002 · Preservation Society
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p37 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p37%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p37 (traced).dxf`).
+
+### Page 38
+
+- **Sheet:** layout 2442-04-001, size B (assumed) 432 × 314 mm, 2000 × 1456 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–313 mm up
+- **Outlines:** line 675 rings, 8,634 straight (19,931 mm) / 881 curved (1,281 mm); text 155 rings, 1,053 straight (988 mm) / 348 curved (480 mm); tb 12 rings, 141 straight (178 mm) / 36 curved (42.3 mm)
+- **Closed boxes:** 213 (2 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 22 in 19 lines: ooin. · 168.24mm · 33.s0ln_ · 860.9omm · 45.50ln . · 1155.7omm · CABLE Duct OPENIng ooln; · 1473.20mm · 50.ooln: · 70.20mm · 75.0oln-- · soln:
+- **Title block:** (360, 18)–(432, 36) mm: WBS WARD-BeCk BYBTE · ST2442
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p38 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p38%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p38 (traced).dxf`).
+
+### Page 39
+
+- **Sheet:** layout 2442-04-003, size B (assumed) 432 × 314 mm, 2000 × 1456 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–308 mm up
+- **Outlines:** line 201 rings, 6,149 straight (14,128 mm) / 482 curved (679 mm); text 256 rings, 2,412 straight (2,120 mm) / 757 curved (953 mm); tb 48 rings, 913 straight (2,063 mm) / 89 curved (131 mm)
+- **Closed boxes:** 13; named: OpTIONAL INPuT JaCKF IELd; 12 provision For Processing Modules; M522 MONO EQuALiZerS; FuturE M525 Mon'toriMonitor Modules (21; 452} SUBMASTER MODuLES; STEREO MASTER FAders; Mono MSTER FADERS; SterEO SuB MASTER FADERS (4)
+- **Words (OCR):** 62 in 56 lines: M522 · stereo EQUALizers · M5224 · Processing Modules · provision For · 12 · INPuT JaCKF IELd · OpTIONAL · MONO EQuALiZerS · INSERT AND · output · JACKF IELD
+- **Title block:** (0, 0)–(432, 50) mm: Issu · Revision · WBS WARD-BECK bybTe · DaMsiiki · ST2442 · ENG. · STEREO TELEVISKON CON: · CKD: · TOP VIEW LAYOUT · AZA · sq · 2442-04-003 · WBS
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p39 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p39%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p39 (traced).dxf`).
+
+### Page 40
+
+- **Sheet:** drawing, size B (assumed) 280 × 432 mm, 1296 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–280 mm across, 0–425 mm up
+- **Outlines:** line 1,639 rings, 16,260 straight (30,790 mm) / 3,610 curved (6,423 mm); text 295 rings, 1,797 straight (2,020 mm) / 560 curved (997 mm)
+- **Circles and arcs:** 386 circles, 0 arcs; largest r 2.6 @ (187.9, 236.4), r 2.5 @ (151.3, 236.4), r 2.5 @ (200.0, 346.9), r 2.5 @ (181.8, 194.6)
+- **Closed boxes:** 40; named: AB BA; ooo0; Be 0B; o00; BC; 06; 0oo0; EB 2 BE; ooo00; FB 4 @F; 000; CB
+- **Words (OCR):** 39 in 39 lines: AB · BA · ooo0 · Be · 0B · o00 · BC · 06 · 0oo0 · EB · 2 BE · ooo00
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p40 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p40%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p40 (traced).dxf`).
+
+### Page 41
+
+- **Sheet:** drawing, size B (assumed) 432 × 290 mm, 2000 × 1342 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–290 mm up
+- **Outlines:** line 790 rings, 10,003 straight (21,880 mm) / 913 curved (1,340 mm); text 137 rings, 1,017 straight (939 mm) / 284 curved (393 mm); tb 75 rings, 560 straight (782 mm) / 94 curved (120 mm)
+- **Closed boxes:** 239 (2 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 22 in 21 lines: 1158-24mm · Boln · 860 _ · omm · 5oln · T166.7omm · cabLE duct OPEnING · 58.00ln; · z0mm · 1473.20mm · REVIsIOH · solo.
+- **Title block:** (0, 0)–(432, 32) mm: 58.00ln; · z0mm · 1473.20mm · REVIsIOH · solo. · WBS WAAO-BeCK SyBTE · 2390.T4mm · ST3642 · STEREO TELEVISION CONS · QUTLINE · [WBS · 7:1 · SCALL · 3642-04-001
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p41 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p41%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p41 (traced).dxf`).
+
+### Page 42
+
+- **Sheet:** layout 3642-04-002, size B (assumed) 432 × 254 mm, 2000 × 1174 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–254 mm up
+- **Outlines:** line 541 rings, 8,588 straight (19,348 mm) / 812 curved (1,162 mm); text 169 rings, 1,469 straight (1,314 mm) / 434 curved (558 mm); tb 7 rings, 62 straight (112 mm) / 7 curved (12.8 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 0.8 @ (298.9, 138.8)
+- **Closed boxes:** 146 (5 in the title block); named: 32; OpTiOMal input Mecectors (12); 32; s2; 3642-04-002; WB3S
+- **Words (OCR):** 32 in 30 lines: OpTiONal · OPTIOhal · M528 · input Mecectors (12) · OpTiOMal · Mic/line · SeLecToRS (121 · INpuT · Stereo Line · SeLectorS (121 · HOOUles · BLANK
+- **Title block:** (355, 7)–(432, 45) mm: Issu  DATE · Revision · WBS WARD-BECK Syste · Drh 984 · ENG. · ST3642 · CKD · STEREO TELEVISION CONS · App ' / · FRONT VIEW LAYOUT · s2 · 3642-04-002
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p42 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p42%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p42 (traced).dxf`).
+
+### Page 43
+
+- **Sheet:** layout 3642-04-003, size B (assumed) 432 × 277 mm, 2000 × 1285 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–277 mm up
+- **Outlines:** line 328 rings, 8,303 straight (18,298 mm) / 889 curved (1,254 mm); text 320 rings, 2,620 straight (2,228 mm) / 883 curved (1,061 mm); tb 2 rings, 54 straight (100 mm) / 2 curved (4.0 mm)
+- **Closed boxes:** 33 (5 in the title block); named: provision For 12 ProcessiNg Modules; M5224 SteReO EqualiZEAs; M522 MONO EOUALIZeRs; M522 MONO EQUALIZERS; 452] SUBMASTER MoouLES; M520 MonO INPUt CHANNELS; M520 MuNO iNput CHANNELS; M52| Stereo iNpui CHANNELS; M527 MASTER MOduLES; M525 Monitor MODuLES; MOnO iNput F Aders (12); INPUTFaders (12) SterEO
+- **Words (OCR):** 65 in 55 lines: M522 · M522 · M5224 · provision For 12 · MONO EQUALIZERS · MONO EOUALIZeRs · SteReO EqualiZEAs · ProcessiNg Modules · OpT IONAL · INput JaCKF IELO · 6o · M520
+- **Title block:** (353, 6)–(432, 41) mm: issu DaTE · REvision · WBS WARO-BECK BYBTEN · DRN, 9/84 · ST3642 · ENG.MpI) · CKD. F^ ( · STEREO TELEVISION CONS · A857 d · IOP VIEW LAYOUT · scM
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p43 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p43%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p43 (traced).dxf`).
+
+### Page 44
+
+- **Sheet:** drawing, size B (assumed) 286 × 432 mm, 1327 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–278 mm across, 0–432 mm up
+- **Outlines:** line 2,209 rings, 23,055 straight (41,733 mm) / 4,863 curved (8,836 mm); text 207 rings, 1,076 straight (1,154 mm) / 347 curved (564 mm)
+- **Circles and arcs:** 540 circles, 0 arcs; largest r 2.6 @ (192.2, 382.7), r 2.6 @ (179.8, 368.1), r 2.6 @ (111.5, 367.9), r 2.6 @ (186.8, 241.4)
+- **Closed boxes:** 20; named: oo00; BC Ce; 00; He; 000
+- **Words (OCR):** 32 in 32 lines: AB · ooo00 · Be · oo00 · Ce · BC · 000 · d0 · Z0 · BE · 00 · GB
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p44 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p44%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p44 (traced).dxf`).
+
+### Page 45
+
+- **Sheet:** layout 520-04-001, size B (assumed) 213 × 432 mm, 987 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–213 mm across, 0–432 mm up
+- **Outlines:** line 10 rings, 847 straight (1,536 mm) / 77 curved (126 mm); text 197 rings, 1,985 straight (2,315 mm) / 537 curved (787 mm); tb 290 rings, 3,375 straight (5,794 mm) / 505 curved (822 mm)
+- **Closed boxes:** 3 (3 in the title block)
+- **Words (OCR):** 37 in 35 lines: WBS · M520 · PAN · PGmi · PEAK · SENS · AUX · Pre PST · AUX 3 · Pre · PST · AUX 2
+- **Title block:** (0, 0)–(186, 430) mm: WBS · M520 · PAN · PGmi · PEAK · SENS · AUX · Pre PST · AUX 3 · Pre · PST · AUX 2 · PRE · PST · AUX 1 · PRE · PST · ISSUE |DATE · RE VISION · WBS WAAD-BECK · ch · ON · DRN, LO · M520 · ENG · Mrw) · MO
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p45 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p45%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p45 (traced).dxf`).
+
+### Page 46
+
+- **Sheet:** layout 521-04-001, size B (assumed) 195 × 432 mm, 904 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–194 mm across, 0–430 mm up
+- **Outlines:** line 8 rings, 626 straight (1,437 mm) / 48 curved (71.8 mm); text 215 rings, 1,920 straight (2,184 mm) / 572 curved (849 mm); tb 257 rings, 3,101 straight (5,998 mm) / 437 curved (699 mm)
+- **Closed boxes:** 6 (6 in the title block)
+- **Words (OCR):** 40 in 35 lines: WBS · M5z1 · BAL · 4 $ 3 · MODE · 46 _ · PGhi · PEAX · SENS · AUX · PRE PST · AUX 3
+- **Title block:** (0, 0)–(174, 432) mm: WBS · M5z1 · BAL · 4 $ 3 · MODE · 46 _ · PGhi · PEAX · SENS · AUX · PRE PST · AUX 3 · Pre PST · AUX 2 · PRE · PST · AUX 1 · Pre PST · Ch · ON · ISSUE |DATE · RE VISION · WBS WAAD-BECK syst · DRN LL) ·
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p46 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p46%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p46 (traced).dxf`).
+
+### Page 47
+
+- **Sheet:** layout 522-04-001, size B (assumed) 200 × 432 mm, 926 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–200 mm across, 0–416 mm up
+- **Outlines:** line 32 rings, 1,324 straight (2,368 mm) / 181 curved (273 mm); text 142 rings, 1,786 straight (2,224 mm) / 483 curved (809 mm); tb 214 rings, 2,562 straight (3,538 mm) / 575 curved (854 mm)
+- **Closed boxes:** 5 (4 in the title block); named: WB3S5
+- **Words (OCR):** 25 in 23 lines: WbS · M922 · Kh} · RHt · 4e · 1d · 206 · IssU DATE · Revisiom · WBS WAAD-BECK byBTe · DrN 66 3 · eS
+- **Title block:** (20, 11)–(167, 419) mm: WbS · M922 · Kh} · RHt · 4e · 1d · 206 · IssU DATE · Revisiom · WBS WAAD-BECK byBTe · DrN 66 3 · eS · M522 · ENG · Mew · MONO EQUALIZER · CKD. · FRONT PANEL LAYOU · App · scae
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p47 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p47%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p47 (traced).dxf`).
+
+### Page 48
+
+- **Sheet:** layout 522-04-002, size B (assumed) 210 × 432 mm, 973 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–210 mm across, 0–432 mm up
+- **Outlines:** line 3 rings, 40 straight (47.5 mm) / 6 curved (5.8 mm); text 156 rings, 1,969 straight (2,507 mm) / 507 curved (818 mm); tb 304 rings, 4,312 straight (6,655 mm) / 814 curved (1,197 mm)
+- **Words (OCR):** 27 in 26 lines: WBS · MSZ1A · ekz · AO- · 440 · 14 · 10 · 200 · Hi · ISSUE DATE · REVISION · WBS WARO-BECK SYBTEM:
+- **Title block:** (0, 0)–(210, 418) mm: WBS · MSZ1A · ekz · AO- · 440 · 14 · 10 · 200 · Hi · ISSUE DATE · REVISION · WBS WARO-BECK SYBTEM: · DRN: BD 33 · 84 · M522A · ENG . · Mew · STEREO EQUALIZER · CKD: · FRONT PANEL LAYOUT · APP · SCALE 
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p48 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p48%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p48 (traced).dxf`).
+
+### Page 49
+
+- **Sheet:** layout 523-04-001, size B (assumed) 211 × 432 mm, 976 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–211 mm across, 0–430 mm up
+- **Outlines:** line 8 rings, 657 straight (1,452 mm) / 69 curved (114 mm); text 183 rings, 1,914 straight (2,153 mm) / 549 curved (827 mm); tb 261 rings, 2,916 straight (4,966 mm) / 387 curved (590 mm)
+- **Closed boxes:** 6 (6 in the title block)
+- **Words (OCR):** 38 in 32 lines: WBS · M52} · BAL · PGM · Mix · AUX 4 · Pre PST · AUX 3 · PRE PST · AUX 2 · Pre · PST
+- **Title block:** (0, 0)–(194, 430) mm: WBS · M52} · BAL · PGM · Mix · AUX 4 · Pre PST · AUX 3 · PRE PST · AUX 2 · Pre · PST · AUX · PRE PST · ISSUE DATE · REVISION · SUB · WBS WAAD-BECK syste · ON · DrN: +D · M523 · ENG. · MLW · STEREO SUB
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p49 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p49%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p49 (traced).dxf`).
+
+### Page 50
+
+- **Sheet:** layout 525-04-001, size B (assumed) 222 × 432 mm, 1029 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–222 mm across, 0–432 mm up
+- **Outlines:** line 11 rings, 791 straight (1,564 mm) / 101 curved (172 mm); text 243 rings, 2,328 straight (2,649 mm) / 650 curved (1,030 mm); tb 287 rings, 3,338 straight (6,914 mm) / 391 curved (639 mm)
+- **Closed boxes:** 2 (2 in the title block)
+- **Words (OCR):** 43 in 41 lines: WBS · 4325 · ExT · ExT 3 · EXT 2 · EXT · AuX · Aux 3 · AuX 2 · AuX · Hz · HI
+- **Title block:** (0, 0)–(197, 431) mm: WBS · 4325 · ExT · ExT 3 · EXT 2 · EXT · AuX · Aux 3 · AuX 2 · AuX · Hz · HI · Mz · HI · Sua · SuB 3 · SUB 2 · SUB · solo/1e · Mono · DIM · Mute · LEVEL · 61z · ISSUE |DATE · REVISION · WBS · WARD-BEC
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p50 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p50%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p50 (traced).dxf`).
+
+### Page 51
+
+- **Sheet:** layout 527-04-001, size B (assumed) 220 × 432 mm, 1017 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–220 mm across, 1–432 mm up
+- **Outlines:** line 230 rings, 2,885 straight (4,788 mm) / 345 curved (465 mm); text 131 rings, 1,351 straight (1,597 mm) / 369 curved (561 mm); tb 49 rings, 489 straight (676 mm) / 75 curved (90.0 mm)
+- **Closed boxes:** 5 (5 in the title block)
+- **Words (OCR):** 23 in 19 lines: Wes · Mb?1 · ISSUE |DATE · RE VISION · WBS WARO-BECK SysTEMe · DRN.BD 85 · 5T · M527 · ENG. · Mru · MASTER MODULE · CKD:
+- **Title block:** (0, 0)–(187, 76) mm: ISSUE |DATE · RE VISION · WBS WARO-BECK SysTEMe · DRN.BD 85 · 5T · M527 · ENG. · Mru · MASTER MODULE · CKD: · FRONT PANEL LAYOUT · App Jn · SCALE · 527-04-001 · WBS · Preservation Society
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p51 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p51%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p51 (traced).dxf`).
+
+### Page 52
+
+- **Sheet:** layout 528-04-001, size B (assumed) 206 × 432 mm, 955 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–206 mm across, 0–419 mm up
+- **Outlines:** line 35 rings, 1,333 straight (2,460 mm) / 194 curved (307 mm); text 135 rings, 1,875 straight (2,366 mm) / 482 curved (786 mm); tb 113 rings, 1,632 straight (2,221 mm) / 261 curved (361 mm)
+- **Closed boxes:** 1 (1 in the title block)
+- **Words (OCR):** 21 in 18 lines: WBs · M528 · ISSUE DATE · REvision · WBS WARD-BECK · sybter · DRN BD · 58 · M528 · ENG · Mrw DUAL AUXILIARY MODULE · Ckd
+- **Title block:** (20, 2)–(178, 414) mm: WBs · M528 · ISSUE DATE · REvision · WBS WARD-BECK · DRN BD · 58 · M528 · ENG · Mrw DUAL AUXILIARY MODULE · Ckd · FRONT PANEL LAYOUT · ARp · ScALe · 528-04-001
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p52 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p52%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p52 (traced).dxf`).
+
+### Page 53
+
+- **Sheet:** layout C 529-04-001, size C 303 × 559 mm, 1085 × 2000 px traced (0.279 mm/px)
+- **Ink extent:** 0–303 mm across, 0–555 mm up
+- **Outlines:** line 577 rings, 5,097 straight (9,956 mm) / 819 curved (1,509 mm); text 220 rings, 2,361 straight (3,656 mm) / 622 curved (1,288 mm); tb 13 rings, 958 straight (2,521 mm) / 88 curved (178 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 6.2 @ (29.0, 65.0), r 5.9 @ (55.5, 263.4), r 4.7 @ (29.8, 263.3), r 3.6 @ (55.9, 416.7)
+- **Closed boxes:** 10; named: s20 so spo AyX AUX; WB3S
+- **Words (OCR):** 36 in 34 lines: Wde · 4in · 0e4 · He · Osc · Ttont · Pgm · SLAte · peak · s20 · so · spo
+- **Title block:** (102, 0)–(303, 99) mm: ISSUE |DATE · REVISION · APP · WBS WARO-BECK · SYSTEMS · M529 · DRN60 · ENG · Mruj COMMUNICA TIONS MODULE · CKo. · lola · FRONT PANEL LAYOUT · APP /r. ( · SCALE · ISSUE · 529-04-001
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p53 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p53%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p53 (traced).dxf`).
+
+### Page 54
+
+- **Sheet:** layout 529-04-002, size B (assumed) 224 × 432 mm, 1037 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–224 mm across, 0–429 mm up
+- **Outlines:** text 200 rings, 2,022 straight (2,472 mm) / 546 curved (897 mm); tb 260 rings, 3,530 straight (6,465 mm) / 476 curved (753 mm)
+- **Words (OCR):** 32 in 29 lines: WBS · 4ste4 · utility · Heter · AUx · AUX · AuX · AUX · 10 · 10 · 10 · 10
+- **Title block:** (0, 0)–(224, 431) mm: WBS · 4ste4 · utility · Heter · AUx · AUX · AuX · AUX · 10 · 10 · 10 · 10 · ISSUE |DATE · RE VISION · APP · WBS WARD-BECK systeMs · DRN.BD 61 · SFT · M529A · ENG: · AUXILIARY MASTER MODULE · CKD. · FR
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p54 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p54%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p54 (traced).dxf`).
+
+### Page 55
+
+- **Sheet:** layout 538-04-001, size B (assumed) 187 × 432 mm, 867 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–187 mm across, 1–425 mm up
+- **Outlines:** line 31 rings, 1,509 straight (2,619 mm) / 212 curved (320 mm); text 146 rings, 2,107 straight (2,754 mm) / 474 curved (796 mm); tb 125 rings, 2,161 straight (3,527 mm) / 295 curved (461 mm)
+- **Closed boxes:** 6 (3 in the title block); named: 538-04-001; NBS
+- **Dots (junctions):** 1
+- **Words (OCR):** 21 in 17 lines: WBS · Msh · ISSU DATE · REVision · WBS WARD-BECK systen · 372 · DRN,BD · M538 · ENG. (ICW 8X1 STEREO SWITCHER MOC · CKD: · FRONT PANEL LAYOUT · ApF Kai
+- **Title block:** (4, 8)–(159, 427) mm: WBS · Msh · ISSU DATE · REVision · WBS WARD-BECK systen · 372 · DRN,BD · M538 · ENG. (ICW 8X1 STEREO SWITCHER MOC · CKD: · FRONT PANEL LAYOUT · ApF Kai · SCALE · 538-04-001 · NBS
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p55 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p55%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p55 (traced).dxf`).
+
+### Page 56
+
+- **Sheet:** layout 538-04-002, size B (assumed) 193 × 432 mm, 894 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–193 mm across, 0–412 mm up
+- **Outlines:** line 36 rings, 1,453 straight (2,194 mm) / 197 curved (300 mm); text 117 rings, 1,826 straight (2,103 mm) / 477 curved (706 mm); tb 119 rings, 2,302 straight (3,824 mm) / 247 curved (385 mm)
+- **Closed boxes:** 5 (5 in the title block)
+- **Words (OCR):** 22 in 19 lines: WBS · Ms364 ] · ISSUE |DATE · RE VISION · WBS WARD-BECK systen · DrnF5IE · M538A · 0R · ENG · MeiJ 4X2 MONO SWITCHER MODL · CKD; · kt '-
+- **Title block:** (0, 0)–(158, 407) mm: WBS · Ms364 ] · ISSUE |DATE · RE VISION · WBS WARD-BECK systen · DrnF5IE · M538A · 0R · ENG · MeiJ 4X2 MONO SWITCHER MODL · CKD; · kt '- · FRONT PANEL LAYOUT · ApP · SCALE · 538-04-002 · WBS · Preserv
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p56 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p56%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p56 (traced).dxf`).
+
+### Page 57
+
+- **Sheet:** layout 538-04-003, size B (assumed) 200 × 432 mm, 927 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–200 mm across, 0–410 mm up
+- **Outlines:** line 202 rings, 3,125 straight (4,832 mm) / 438 curved (630 mm); text 150 rings, 2,135 straight (2,671 mm) / 504 curved (825 mm); tb 9 rings, 181 straight (326 mm) / 30 curved (49.9 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 3.9 @ (101.6, 154.0)
+- **Closed boxes:** 11 (6 in the title block); named: 445380 Wus; 445380 Wus; WB3ss
+- **Words (OCR):** 22 in 18 lines: Wus · 445380 · ISSUE DATE · RE VISION · WBS WARD-BECK sysTenI · DRN,BD jn · 82 · M538B · HWw 4X2 MONO SWITCHER MODULE · ENG: · CKd 10 · FRONT PANEL LAYOUT
+- **Title block:** (19, 0)–(200, 92) mm: ISSUE DATE · RE VISION · WBS WARD-BECK sysTenI · DRN,BD jn · 82 · M538B · HWw 4X2 MONO SWITCHER MODULE · ENG: · CKd 10 · FRONT PANEL LAYOUT · APP K ^ · SCALE · 538-04-003 · ISSUE
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p57 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p57%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p57 (traced).dxf`).
+
+### Page 58
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 1–419 mm up
+- **Outlines:** line 89 rings, 574 straight (976 mm) / 166 curved (232 mm); text 164 rings, 1,951 straight (2,353 mm) / 429 curved (632 mm); tb 3 rings, 397 straight (475 mm) / 56 curved (82.7 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 2.8 @ (329.0, 139.5), r 2.8 @ (329.1, 415.9), r 2.8 @ (328.8, 258.1), r 2.8 @ (328.4, 218.5)
+- **Closed boxes:** 2; named: WBS5 Preservation Society; WBS5
+- **Words (OCR):** 12 in 9 lines: WBS · WARD-BECK SYSTEMS LTD, · DUKE McLANE U.S. REPRESENTATIVE · 4012 MENDENHALL · DRIVE, DALLAS, · TEXAS 75234 · TELEX: 79-1964 TELEPHONE: 214/247-5999 · WBS5 · Preservation Society
+- **Title block:** (81, 42)–(251, 106) mm: WBS · WARD-BECK SYSTEMS LTD, · DUKE McLANE U.S. REPRESENTATIVE
+
+Every curve, box, word and wire group: [1985 - ST - Series Stereo Console p58 (traced).json](1985%20-%20ST%20-%20Series%20Stereo%20Console%20p58%20%28traced%29.json) (the CAD file: `1985 - ST - Series Stereo Console p58 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

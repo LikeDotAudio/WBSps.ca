@@ -16,6 +16,170 @@ Wiki page: [M481B](../../../PAGES/M481B.md)
 
 - **1982** (manual_issue): `I SSUE 12 BS DECE MBER 1982` — …M481B Com pon ...,t La y o ul B 481 -06-002 a .c ps MANUA L I SSUE 12 BS DECE MBER 1982 W :// tp ht…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** schematic 481_02_002, size B (assumed) 302 × 432 mm, 1397 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 17–302 mm across, 26–432 mm up
+- **Outlines:** line 124 rings, 1,675 straight (4,294 mm) / 321 curved (512 mm); text 340 rings, 2,425 straight (2,728 mm) / 698 curved (1,049 mm)
+- **Centre lines:** 1,752 paths (57 closed); straight 4,067 mm, curved 25.0 mm; horizontal 1,342 mm, vertical 1,298 mm, diagonal 1,426 mm
+- **Circles and arcs:** 1 circles, 5 arcs; largest r 2.1 @ (77.2, 259.9)
+- **Closed boxes:** 1; named: ·eECK
+- **Words (OCR):** 65 in 34 lines: WA~D ·eECK · SYSTEMS LTD · TABLE OF CONTE NTS · M4 1B CUE, OSC ILL ATOR, RE _ENTRY MODUL · PA.,. · SECTION · Tech ic.. · cr-eon Descr iption · i,.1 · Conneclor · ou · Opera tion al Control
+- **Wiring (first pass):** 7 connected wire groups from 43 runs; labelled ends: 125 mm → M4, MODUL; 66 mm → TABLE, NTS; 46 mm → BS, tp, ht; 39 mm → MANUA, BS, ps, SSUE; 19 mm → MODUL
+
+Every curve, box, word and wire group: [1982 - M481B - Cue OSC Re-entry Module (2) p1 (traced).json](1982%20-%20M481B%20-%20Cue%20OSC%20Re-entry%20Module%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1982 - M481B - Cue OSC Re-entry Module (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 302 × 432 mm, 1397 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 16–300 mm across, 16–432 mm up
+- **Outlines:** line 204 rings, 2,008 straight (4,661 mm) / 436 curved (680 mm); text 845 rings, 5,946 straight (6,467 mm) / 1,692 curved (2,569 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 167 in 81 lines: WARO·SECK · SYSTeMS LTO. · TECHNICAL DATA · Mlr.8 · CUE, OSC RE_E NTRY MOOUl · CUE AMPLIF IER · Ca in · 25 dB · dB · id in ga in · dB rom · 100 Hz 10
+
+Every curve, box, word and wire group: [1982 - M481B - Cue OSC Re-entry Module (2) p2 (traced).json](1982%20-%20M481B%20-%20Cue%20OSC%20Re-entry%20Module%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1982 - M481B - Cue OSC Re-entry Module (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 302 × 432 mm, 1397 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–293 mm across, 17–431 mm up
+- **Outlines:** line 278 rings, 2,636 straight (5,416 mm) / 634 curved (966 mm); text 741 rings, 5,159 straight (5,671 mm) / 1,536 curved (2,281 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.1 @ (176.1, 150.2), r 2.1 @ (186.6, 354.3), r 2.0 @ (128.1, 353.8), r 1.6 @ (163.1, 90.1)
+- **Words (OCR):** 164 in 75 lines: WARD-BECK BYBTI!MS LTO · TEC HNIC AL DATA · M48 1B CUE, OSC, RE NTRY MODULE · Aux ia · Nomi · Level · Corllrat Sett ng' · 10 dB In · nd · n~ut · Lev · 10 dSm omina
+
+Every curve, box, word and wire group: [1982 - M481B - Cue OSC Re-entry Module (2) p3 (traced).json](1982%20-%20M481B%20-%20Cue%20OSC%20Re-entry%20Module%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1982 - M481B - Cue OSC Re-entry Module (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 302 × 432 mm, 1397 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 16–290 mm across, 17–412 mm up
+- **Outlines:** line 548 rings, 4,574 straight (7,456 mm) / 1,214 curved (1,802 mm); text 1,619 rings, 11,089 straight (11,946 mm) / 3,362 curved (5,067 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 2.1 @ (80.9, 209.6), r 2.1 @ (67.4, 85.0), r 2.1 @ (126.3, 308.4), r 2.1 @ (134.3, 308.4)
+- **Dots (junctions):** 1
+- **Words (OCR):** 391 in 114 lines: WAFlD ·BeCI< SYSTI!MB LTD. · CIRCUIT OESCRIPTlON · ",4SIS CUE, OSCILLATOR, RE _EN TRY "'COULE · The "'4S1 · module prov ides lhe fol low ing funcl lons for Ihe T1 202A · Ir~ns,porl",blC! lKlng · con~ole: · mp lif ie wi lh UE/SOLO selec funC llon. · Re ference la llng oscilla tor sctecr eete to lol a
+
+Every curve, box, word and wire group: [1982 - M481B - Cue OSC Re-entry Module (2) p4 (traced).json](1982%20-%20M481B%20-%20Cue%20OSC%20Re-entry%20Module%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1982 - M481B - Cue OSC Re-entry Module (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 302 × 432 mm, 1397 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 18–302 mm across, 17–432 mm up
+- **Outlines:** line 42 rings, 909 straight (3,220 mm) / 124 curved (199 mm); text 2,064 rings, 14,482 straight (15,832 mm) / 4,289 curved (6,350 mm)
+- **Words (OCR):** 307 in 148 lines: WAAD-BeCK Systems LTD: · CIRCUIT DESCRIPTION · M48IB CUE · OSC ILLATOR, RE_ ENTRY · MODULE · The output · from · the irst section · of u1 operates · into the · inverting · integrating
+
+Every curve, box, word and wire group: [1982 - M481B - Cue OSC Re-entry Module (2) p5 (traced).json](1982%20-%20M481B%20-%20Cue%20OSC%20Re-entry%20Module%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1982 - M481B - Cue OSC Re-entry Module (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 302 × 432 mm, 1397 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–290 mm across, 14–432 mm up
+- **Outlines:** line 160 rings, 1,831 straight (4,652 mm) / 385 curved (587 mm); text 886 rings, 6,156 straight (7,014 mm) / 1,899 curved (2,951 mm); tb 3 rings, 24 straight (32.3 mm) / 4 curved (6.2 mm)
+- **Words (OCR):** 139 in 91 lines: WAFlD-BECK SYSTEMS L.TD · PART · IST · '-14818 CUE OSCILL TOR, RE NTRY MODUL · PAR · DESCRIP TI ON · PA RT NUMBER · CO · ct · Ca pa<: · 22 F/2S · Sie men
+- **Title block:** (11, 394)–(116, 417) mm: WAFlD-BECK SYSTEMS L.TD
+
+Every curve, box, word and wire group: [1982 - M481B - Cue OSC Re-entry Module (2) p6 (traced).json](1982%20-%20M481B%20-%20Cue%20OSC%20Re-entry%20Module%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1982 - M481B - Cue OSC Re-entry Module (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 302 × 432 mm, 1397 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 17–291 mm across, 13–413 mm up
+- **Outlines:** line 129 rings, 1,547 straight (4,240 mm) / 310 curved (470 mm); text 545 rings, 3,818 straight (4,248 mm) / 1,102 curved (1,670 mm); tb 16 rings, 112 straight (157 mm) / 30 curved (47.3 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 60 in 40 lines: WARD·SECK SYSTeMS LTD · PAR TS LIST · M48 1B CUE OSC · ATOR · RE~EN TRY MODUL · PART · DESCRIP ION · MFG PART NUMBER · sao · R9 · lm Pot · it>e..
+- **Title block:** (12, 398)–(117, 421) mm: WARD·SECK SYSTeMS LTD
+
+Every curve, box, word and wire group: [1982 - M481B - Cue OSC Re-entry Module (2) p7 (traced).json](1982%20-%20M481B%20-%20Cue%20OSC%20Re-entry%20Module%20%282%29%20p7%20%28traced%29.json) (the CAD file: `1982 - M481B - Cue OSC Re-entry Module (2) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 302 × 432 mm, 1397 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–302 mm across, 16–432 mm up
+- **Outlines:** line 151 rings, 1,816 straight (5,238 mm) / 348 curved (532 mm); text 654 rings, 4,741 straight (5,400 mm) / 1,453 curved (2,200 mm); tb 8 rings, 66 straight (76.0 mm) / 18 curved (30.7 mm)
+- **Words (OCR):** 97 in 61 lines: WARD-BECK SYSTEMS LTO · PART LiST · M481B CUE OSCILL ATOR, RE_E NTR · MODULE · PART · DESCRIPT ION · MFG · MFG PAR · NUMB ER · Re '5i '5lor · 4W · Ph lip
+- **Title block:** (11, 396)–(116, 418) mm: WARD-BECK SYSTEMS LTO
+
+Every curve, box, word and wire group: [1982 - M481B - Cue OSC Re-entry Module (2) p8 (traced).json](1982%20-%20M481B%20-%20Cue%20OSC%20Re-entry%20Module%20%282%29%20p8%20%28traced%29.json) (the CAD file: `1982 - M481B - Cue OSC Re-entry Module (2) p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 302 × 432 mm, 1397 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 18–291 mm across, 18–425 mm up
+- **Outlines:** line 132 rings, 1,853 straight (4,824 mm) / 375 curved (574 mm); text 276 rings, 2,101 straight (2,391 mm) / 550 curved (859 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.6 @ (119.0, 77.7)
+- **Words (OCR):** 50 in 26 lines: WARo-seC SYSTeMS LTO · PARTS LIST · ~48 1B CUE, OSCILLATOR, RE _ENTRY · ~OOULE · CONTROL I(NoeS CAPS AND BUTTONS · USED ON · DESCRI TI ON · on · Ull"" · (While · on · on
+
+Every curve, box, word and wire group: [1982 - M481B - Cue OSC Re-entry Module (2) p9 (traced).json](1982%20-%20M481B%20-%20Cue%20OSC%20Re-entry%20Module%20%282%29%20p9%20%28traced%29.json) (the CAD file: `1982 - M481B - Cue OSC Re-entry Module (2) p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 302 × 432 mm, 1397 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 11–302 mm across, 11–432 mm up
+- **Outlines:** line 85 rings, 1,746 straight (5,891 mm) / 209 curved (321 mm); text 650 rings, 5,966 straight (7,335 mm) / 1,520 curved (2,435 mm)
+- **Closed boxes:** 44; named: 16; 10; 12; 13; 14; 115; 16; 117; 18; 19; 20; 21
+- **Words (OCR):** 139 in 76 lines: WAAO-BeCK sysTems LTD_ · P1 · CONNECTOR LAYOUT · M481B CUE · OSCILLATOR , ENTRY_MODULE · RE · M1 · MI · REF · OSC · REF OSC · NSERT IN
+
+Every curve, box, word and wire group: [1982 - M481B - Cue OSC Re-entry Module (2) p10 (traced).json](1982%20-%20M481B%20-%20Cue%20OSC%20Re-entry%20Module%20%282%29%20p10%20%28traced%29.json) (the CAD file: `1982 - M481B - Cue OSC Re-entry Module (2) p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 302 × 432 mm, 1397 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 17–290 mm across, 17–431 mm up
+- **Outlines:** line 141 rings, 1,730 straight (4,108 mm) / 372 curved (575 mm); text 822 rings, 5,947 straight (6,759 mm) / 1,744 curved (2,682 mm)
+- **Words (OCR):** 183 in 66 lines: WARO ·SECK YST eM LTO · OPE RAT IONAL CONTROLS · M48 18 CUE OSC RE_ ENTRV MODULE · RE FER ENCY OSC ILL ATOR · ll · SW1: Wn en dep · sed · Ine · ud io · rog · fol low · In
+
+Every curve, box, word and wire group: [1982 - M481B - Cue OSC Re-entry Module (2) p11 (traced).json](1982%20-%20M481B%20-%20Cue%20OSC%20Re-entry%20Module%20%282%29%20p11%20%28traced%29.json) (the CAD file: `1982 - M481B - Cue OSC Re-entry Module (2) p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 328 × 432 mm, 1518 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 28–327 mm across, 0–432 mm up
+- **Outlines:** line 244 rings, 2,742 straight (7,836 mm) / 580 curved (973 mm); text 208 rings, 1,331 straight (1,567 mm) / 389 curved (609 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 6.0 @ (34.9, 213.9), r 6.0 @ (249.2, 136.7), r 6.0 @ (34.4, 274.8), r 6.0 @ (248.8, 182.8)
+- **Closed boxes:** 4; named: ISSlA; MIlW 11m tHG; II-. eK
+- **Dots (junctions):** 1
+- **Words (OCR):** 47 in 34 lines: was · M4S1B · AUX · CD · MAST[ · REI OSC · SOlO · LEVEL · AO · CUE · SOlO · LE VEL
+
+Every curve, box, word and wire group: [1982 - M481B - Cue OSC Re-entry Module (2) p12 (traced).json](1982%20-%20M481B%20-%20Cue%20OSC%20Re-entry%20Module%20%282%29%20p12%20%28traced%29.json) (the CAD file: `1982 - M481B - Cue OSC Re-entry Module (2) p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** component layout 481-06-002, size B (assumed) 432 × 318 mm, 2000 × 1474 px traced (0.216 mm/px)
+- **Ink extent:** 6–432 mm across, 0–318 mm up
+- **Outlines:** line 1,376 rings, 11,188 straight (16,871 mm) / 2,962 curved (2,979 mm); text 465 rings, 2,209 straight (1,889 mm) / 641 curved (677 mm); tb 77 rings, 640 straight (526 mm) / 209 curved (233 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 3.4 @ (66.3, 212.9), r 3.3 @ (246.1, 212.1), r 1.9 @ (93.4, 135.1), r 1.2 @ (109.9, 142.2)
+- **Closed boxes:** 17 (2 in the title block); named: II III; ru.r; .>00; 300
+- **Dots (junctions):** 2
+- **Words (OCR):** 72 in 48 lines: OTE · OI · 1-4 · PC...B · '-IEAT51N · 10R TO · ll.. lz.EO · IS SUE · 2".5I · MOl)N ,EC' · LA.RI Lv · NEA~ Rl/
+- **Title block:** (374, 0)–(432, 295) mm: 2".5I · MOl)N ,EC' · LA.RI Lv · NEA~ Rl/ · G'l"7 AQ · ON · r-ee vrcc.s OC · ISSue · ca · BS · IU YISION · APP · (VVE3S] WARC·BECK SYSTEMS · 4818 · ue, OSC, RE ENTRY MODUlE · COM PONEN lAyOUT · 481-06-
+
+Every curve, box, word and wire group: [1982 - M481B - Cue OSC Re-entry Module (2) p13 (traced).json](1982%20-%20M481B%20-%20Cue%20OSC%20Re-entry%20Module%20%282%29%20p13%20%28traced%29.json) (the CAD file: `1982 - M481B - Cue OSC Re-entry Module (2) p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 432 × 282 mm, 2000 × 1305 px traced (0.216 mm/px)
+- **Ink extent:** 10–432 mm across, 0–271 mm up
+- **Outlines:** line 201 rings, 3,003 straight (7,640 mm) / 473 curved (668 mm); text 439 rings, 3,055 straight (3,534 mm) / 957 curved (1,405 mm); tb 18 rings, 228 straight (386 mm) / 43 curved (70.1 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.6 @ (237.9, 263.3), r 1.6 @ (37.3, 223.6)
+- **Closed boxes:** 8 (6 in the title block); named: 1000 Hz OSC
+- **Words (OCR):** 93 in 70 lines: HOdB) · AUX MSTR · LEV EL · (OdB) · 'V'I'o · M2 · M1 · RE-ENTRY · REF · LEVEL · OSC · M1
+- **Title block:** (284, 1)–(432, 70) mm: ISSUE DA · REV ISION · APP. · [\NBS] RD-BECK SYSTEMS · ps · BS · DRN.? · /v(4i1JNI!I/ · M48 18 · ENG. · MRft' · 1I/7~ · CUE, OSC, RE NTRY MODULE · tp · CKD. · APP. · FUNCTIONAL DIAGRAM · ht · SCAL · I
+
+Every curve, box, word and wire group: [1982 - M481B - Cue OSC Re-entry Module (2) p14 (traced).json](1982%20-%20M481B%20-%20Cue%20OSC%20Re-entry%20Module%20%282%29%20p14%20%28traced%29.json) (the CAD file: `1982 - M481B - Cue OSC Re-entry Module (2) p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 432 × 291 mm, 2000 × 1347 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 0–291 mm up
+- **Outlines:** line 444 rings, 5,799 straight (10,750 mm) / 1,206 curved (1,528 mm); text 1,017 rings, 6,312 straight (5,564 mm) / 2,206 curved (2,823 mm); tb 35 rings, 399 straight (1,028 mm) / 78 curved (103 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.1 @ (87.8, 268.5)
+- **Closed boxes:** 2
+- **Words (OCR):** 270 in 230 lines: NOTESi · ALL RESISTORS ARE Vaw 57 · Isy · CUE · ALELEEB · ALL CAPACITCRS ARE · LNLESS CTHERWISE SPECIFIED · p8e · LAST · CCMPONENT DESIGNAT · R2s · CUE AMP MUTE
+- **Title block:** (352, 0)–(432, 39) mm: Kissue D4TE · REVISION · WES WAAD-BECK SYSTEMS · DRN 2uene s · M48 IB · ENG · CKD · WIJ · CUE, OSC_ RE-ENTRY MODULE · APP · SCHEMATIC · SCALE · 481-02-002 · ISSUE
+
+Every curve, box, word and wire group: [1982 - M481B - Cue OSC Re-entry Module (2) p15 (traced).json](1982%20-%20M481B%20-%20Cue%20OSC%20Re-entry%20Module%20%282%29%20p15%20%28traced%29.json) (the CAD file: `1982 - M481B - Cue OSC Re-entry Module (2) p15 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

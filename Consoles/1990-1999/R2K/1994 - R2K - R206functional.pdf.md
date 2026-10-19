@@ -15,6 +15,20 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 
 - **1999** (month): `OCT. 18, 1999` — …R2K R206 FUNCTIONAL UTILITY MODULE R206ISS4.DSN PAGE 1 OF 1 OCT. 18, 1999…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 12–430 mm across, 2–317 mm up
+- **Outlines:** line 96 rings, 1,289 straight (9,044 mm) / 66 curved (81.7 mm); text 638 rings, 4,398 straight (4,657 mm) / 1,218 curved (1,644 mm)
+- **Closed boxes:** 3; named: TIMER; MODULE CONTROL LOGIC
+- **Dots (junctions):** 1
+- **Words (OCR):** 132 in 72 lines: CUE AUDIO BUS · MUTE · LEFT VU+ · EXT CUE · CUE OUT+ · LEFT VU- · CUE OUT- · STEREO VU BAR GRAPH METER · EXT CUE · RIGHT VU+ · RIGHT VU- · EXT CUE
+- **Title block:** (318, 18)–(431, 39) mm: WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - R2K - R206functional p1 (traced).json](1994%20-%20R2K%20-%20R206functional%20p1%20%28traced%29.json) (the CAD file: `1994 - R2K - R206functional p1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

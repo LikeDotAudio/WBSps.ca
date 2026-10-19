@@ -15,6 +15,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 
 - **1998** (month): `NOV 11,1998` — …TEMS R2K R202 FUNCTIONAL OUTPUT MODULE R202.DSN PAGE 1 OF 1 NOV 11,1998…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 10–411 mm across, 70–324 mm up
+- **Outlines:** line 108 rings, 1,886 straight (9,539 mm) / 110 curved (126 mm); text 632 rings, 3,927 straight (3,940 mm) / 1,020 curved (1,332 mm)
+- **Closed boxes:** 12 (1 in the title block); named: R2K R202 FUNCTIONAL OUTPUT MODULE; R202.DSN PAGE OF NOV 11,1998
+- **Words (OCR):** 128 in 62 lines: P1 LEFT · P1 RIGHT · P1 LEFT · P1 RIGHT · P1-L SUMMING BUS · P1 LEFT · P1-R SUMMING BUS · P1 RIGHT · P1 LEFT · P1 RIGHT · P1 LEFT · P1 RIGHT
+- **Title block:** (308, 84)–(412, 105) mm: WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - R2K - R202-functional p1 (traced).json](1994%20-%20R2K%20-%20R202-functional%20p1%20%28traced%29.json) (the CAD file: `1994 - R2K - R202-functional p1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

@@ -15,6 +15,297 @@ Wiki page: [Job-73050](../../../PAGES/Job-73050.md)
 
 - **1973** (labelled): `DATE Sept 73` — …JBm 150_ Mi24L? WBS WAAD-BECK BybtemB LTD IO JBr } DRN: PC DATE Sept 73 CKD Rc TScALE TOLs _ Na AuDIO COrSOLE FINISH MONITOR SCHEMA…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1547 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–334 mm across, 41–432 mm up
+- **Outlines:** line 10 rings, 73 straight (94.2 mm) / 18 curved (21.9 mm); text 204 rings, 1,974 straight (2,206 mm) / 642 curved (967 mm); tb 1 rings, 3 straight (3.0 mm) / 1 curved (2.3 mm)
+- **Words (OCR):** 23 in 10 lines: 12 CHANNEL AUDIO · MIXING CONSOLE · PROJECT 73050 · DESIGNED AND MANURHCTURED · TsY · WARD-BECK SYSTEMS LID · 841 PROGRESS AVENCE · SCARBOROUGH , ONTARIO _ · (416) 238-6550 · Telex 06-23469
+- **Title block:** (144, 121)–(227, 146) mm: DESIGNED AND MANURHCTURED · TsY · WARD-BECK SYSTEMS LID · 841 PROGRESS AVENCE
+
+Every curve, box, word and wire group: [1973 - 73050 - 12 Channel Audio Mixing Console p1 (traced).json](1973%20-%2073050%20-%2012%20Channel%20Audio%20Mixing%20Console%20p1%20%28traced%29.json) (the CAD file: `1973 - 73050 - 12 Channel Audio Mixing Console p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1547 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–317 mm across, 43–432 mm up
+- **Outlines:** line 17 rings, 372 straight (812 mm) / 65 curved (96.0 mm); text 320 rings, 3,033 straight (3,299 mm) / 1,009 curved (1,464 mm)
+- **Words (OCR):** 35 in 28 lines: AUDIQ MIXING · CONSOLE · STANDARD · PRODUCP_MANUALS · QUANTITY · MANUAL · ZEM · Systems Amplifier · Mi24 · ing Modu le · Ml66 · Active Sumri
+
+Every curve, box, word and wire group: [1973 - 73050 - 12 Channel Audio Mixing Console p2 (traced).json](1973%20-%2073050%20-%2012%20Channel%20Audio%20Mixing%20Console%20p2%20%28traced%29.json) (the CAD file: `1973 - 73050 - 12 Channel Audio Mixing Console p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1547 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 43–432 mm up
+- **Outlines:** line 14 rings, 228 straight (794 mm) / 33 curved (50.7 mm); text 918 rings, 7,981 straight (8,687 mm) / 2,767 curved (4,136 mm)
+- **Words (OCR):** 107 in 85 lines: REPLACEABLE PARTS · SIMEOL · DESCRIPTION · MFG · PARZ NUMEER · Al-A7 · System · Amplifier · WBS · Ml24 · ASKl-ASMS · Active Summ
+- **Title block:** (197, 170)–(224, 355) mm: WBS · WBS · WBS · WBS · Elco · Cannon · PSG · WBS
+
+Every curve, box, word and wire group: [1973 - 73050 - 12 Channel Audio Mixing Console p3 (traced).json](1973%20-%2073050%20-%2012%20Channel%20Audio%20Mixing%20Console%20p3%20%28traced%29.json) (the CAD file: `1973 - 73050 - 12 Channel Audio Mixing Console p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1547 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–334 mm across, 43–432 mm up
+- **Outlines:** line 58 rings, 495 straight (980 mm) / 161 curved (225 mm); text 874 rings, 7,458 straight (8,006 mm) / 2,807 curved (4,168 mm)
+- **Words (OCR):** 92 in 71 lines: REPLACEABLE PARTS · DESCRTPFION · MFG · PART AUNBER · MIC · Pushbuttons · Schadow · 2XCL 5.5 17 .5 · ZRus.buttons · Position 1/1 · WI/Clear CR3 · Pushbutton Bank
+
+Every curve, box, word and wire group: [1973 - 73050 - 12 Channel Audio Mixing Console p4 (traced).json](1973%20-%2073050%20-%2012%20Channel%20Audio%20Mixing%20Console%20p4%20%28traced%29.json) (the CAD file: `1973 - 73050 - 12 Channel Audio Mixing Console p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1547 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 42–432 mm up
+- **Outlines:** line 28 rings, 292 straight (828 mm) / 64 curved (99.6 mm); text 938 rings, 7,597 straight (8,204 mm) / 2,782 curved (4,171 mm)
+- **Words (OCR):** 101 in 67 lines: REPIACEABLE PARTS · DESCRIPTION_ · MFG · PART NMBER · Swvitches · Monitor Sclect Switch · Centralab · PAZOO3 · Position · Pole · Rotary Switch · (non-shorting)
+
+Every curve, box, word and wire group: [1973 - 73050 - 12 Channel Audio Mixing Console p5 (traced).json](1973%20-%2073050%20-%2012%20Channel%20Audio%20Mixing%20Console%20p5%20%28traced%29.json) (the CAD file: `1973 - 73050 - 12 Channel Audio Mixing Console p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1547 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–322 mm across, 42–432 mm up
+- **Outlines:** line 16 rings, 297 straight (789 mm) / 53 curved (64.7 mm); text 252 rings, 2,122 straight (2,354 mm) / 745 curved (1,120 mm)
+- **Words (OCR):** 30 in 22 lines: REPLACEABI PARTS · 301 · DESCRIPTION · MFG · PART NUMPER · Knobs · Level Control Knobs · Rogan · RP67-1-SK7 · Selector Knobs · Rog an · RB67-IB-SK
+
+Every curve, box, word and wire group: [1973 - 73050 - 12 Channel Audio Mixing Console p6 (traced).json](1973%20-%2073050%20-%2012%20Channel%20Audio%20Mixing%20Console%20p6%20%28traced%29.json) (the CAD file: `1973 - 73050 - 12 Channel Audio Mixing Console p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1547 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–334 mm across, 42–432 mm up
+- **Outlines:** line 72 rings, 644 straight (1,162 mm) / 158 curved (220 mm); text 722 rings, 5,703 straight (6,019 mm) / 2,115 curved (3,143 mm)
+- **Words (OCR):** 74 in 54 lines: REPLACEABLE PARTS · Turret · Parts · List · DESCRIPTION · NFG · PART · Talkback Pushbutton · s2204274 · Zushbittons · C.P.Clare · MIC ON Pushbutton
+
+Every curve, box, word and wire group: [1973 - 73050 - 12 Channel Audio Mixing Console p7 (traced).json](1973%20-%2073050%20-%2012%20Channel%20Audio%20Mixing%20Console%20p7%20%28traced%29.json) (the CAD file: `1973 - 73050 - 12 Channel Audio Mixing Console p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1547 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–334 mm across, 0–432 mm up
+- **Outlines:** line 2,510 rings, 26,827 straight (32,569 mm) / 4,680 curved (6,449 mm); text 736 rings, 4,948 straight (5,271 mm) / 1,336 curved (1,907 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 1.9 @ (188.7, 333.2), r 1.9 @ (304.2, 343.3), r 1.7 @ (137.7, 281.1), r 1.7 @ (50.2, 281.0)
+- **Dots (junctions):** 2
+- **Words (OCR):** 88 in 61 lines: TZSTED 9y MR_WEIIZMANN · 73050 · 04TE 2.7 · 13_ · {CUTE · FREQ · RES?P REF · DiSTORTION · Z0 30 · 50 · Zo · 5C
+
+Every curve, box, word and wire group: [1973 - 73050 - 12 Channel Audio Mixing Console p8 (traced).json](1973%20-%2073050%20-%2012%20Channel%20Audio%20Mixing%20Console%20p8%20%28traced%29.json) (the CAD file: `1973 - 73050 - 12 Channel Audio Mixing Console p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1547 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–334 mm across, 0–432 mm up
+- **Outlines:** line 1,206 rings, 20,767 straight (30,764 mm) / 2,915 curved (4,254 mm); text 377 rings, 2,440 straight (2,615 mm) / 647 curved (915 mm)
+- **Closed boxes:** 3
+- **Words (OCR):** 27 in 22 lines: ILo HEFOn | · TZSTED 3Y MA_WEITZMANN · 72252 · DATE · 21 · XEASURED SIGNA [ · FREQUENCY · CROS · Path · PATX · s/N · +13 dBm
+
+Every curve, box, word and wire group: [1973 - 73050 - 12 Channel Audio Mixing Console p9 (traced).json](1973%20-%2073050%20-%2012%20Channel%20Audio%20Mixing%20Console%20p9%20%28traced%29.json) (the CAD file: `1973 - 73050 - 12 Channel Audio Mixing Console p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1547 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–334 mm across, 0–432 mm up
+- **Outlines:** line 95 rings, 584 straight (860 mm) / 121 curved (181 mm); text 748 rings, 6,239 straight (6,772 mm) / 2,095 curved (3,234 mm)
+- **Words (OCR):** 66 in 45 lines: AUDIO MIXING CONSCLE; · DRAWING · INDEX · 73050-01-001 · Functional Diagram · 73050-02-001 · Input and · Output Schematic · Auxilliary and Fevezb Schemazic · 73050-02-002 · 73050-02-003 · Foldback and Cue-
+
+Every curve, box, word and wire group: [1973 - 73050 - 12 Channel Audio Mixing Console p10 (traced).json](1973%20-%2073050%20-%2012%20Channel%20Audio%20Mixing%20Console%20p10%20%28traced%29.json) (the CAD file: `1973 - 73050 - 12 Channel Audio Mixing Console p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 432 × 264 mm, 2000 × 1222 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–264 mm up
+- **Outlines:** line 1,756 rings, 20,027 straight (22,156 mm) / 3,681 curved (4,161 mm); text 1,192 rings, 8,040 straight (6,576 mm) / 2,720 curved (3,242 mm); tb 35 rings, 126 straight (90.0 mm) / 18 curved (20.0 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 3.8 @ (49.5, 239.9)
+- **Closed boxes:** 24 (10 in the title block); named: AuGiO CONSOLE FUACTIOMAL:
+- **Words (OCR):** 300 in 232 lines: Ch12 2 Orly · RELAY · (-i5) · SENS Sw · dBm · dm · 782 · LoW LEVELX · TBi · JBm · Chi ON · "o-0 _ 9bm
+- **Title block:** (286, 12)–(411, 29) mm: REAR M6zi · 22443 · MuTf · 130 · EahooCKD · USDOM · WES WARD-BeCk BYBTEMB LTD_ · RC
+
+Every curve, box, word and wire group: [1973 - 73050 - 12 Channel Audio Mixing Console p11 (traced).json](1973%20-%2073050%20-%2012%20Channel%20Audio%20Mixing%20Console%20p11%20%28traced%29.json) (the CAD file: `1973 - 73050 - 12 Channel Audio Mixing Console p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** schematic 73050-02-001, size B (assumed) 432 × 148 mm, 2000 × 684 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–144 mm up
+- **Outlines:** line 1,104 rings, 13,458 straight (16,602 mm) / 2,575 curved (3,173 mm); text 227 rings, 1,451 straight (1,213 mm) / 535 curved (630 mm)
+- **Centre lines:** 16,258 paths (159 closed); straight 12,245 mm, curved 302 mm; horizontal 4,634 mm, vertical 3,172 mm, diagonal 4,439 mm
+- **Circles and arcs:** 4 circles, 112 arcs; largest r 0.9 @ (396.9, 123.3), r 0.9 @ (208.2, 129.9), r 0.9 @ (369.7, 108.6), r 0.7 @ (333.9, 108.3)
+- **Closed boxes:** 86; named: AMPUF ER; (-15)
+- **Dots (junctions):** 1
+- **Words (OCR):** 50 in 46 lines: '548 FoR · 164 · DUTPUT · Level · 611 · UNE KEYIL · Mi_-M2 · Z2n5v · ASMt · 5,2 · CHANHEL OF' · SHEr )
+- **Wiring (first pass):** 123 connected wire groups from 1,115 runs, 3 dotted junctions; labelled ends: 1069 mm → Auxi/R5e, -I0 Jemn, Buss, Bu55; 221 mm → 66); 85 mm → ASMt, ASME; 81 mm → Z2n5v, ASMt; 57 mm → ASMt
+
+Every curve, box, word and wire group: [1973 - 73050 - 12 Channel Audio Mixing Console p12 (traced).json](1973%20-%2073050%20-%2012%20Channel%20Audio%20Mixing%20Console%20p12%20%28traced%29.json) (the CAD file: `1973 - 73050 - 12 Channel Audio Mixing Console p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** schematic 73050_02-002, size B (assumed) 432 × 134 mm, 2000 × 622 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–134 mm up
+- **Outlines:** line 974 rings, 9,314 straight (8,448 mm) / 1,682 curved (1,785 mm); text 366 rings, 2,832 straight (2,355 mm) / 966 curved (1,135 mm)
+- **Centre lines:** 15,878 paths (92 closed); straight 8,215 mm, curved 91.5 mm; horizontal 2,455 mm, vertical 1,782 mm, diagonal 3,978 mm
+- **Circles and arcs:** 0 circles, 35 arcs
+- **Closed boxes:** 18; named: M124; 155_
+- **Words (OCR):** 92 in 78 lines: Aux! / RS! · Sk · M2 · LEVEC (OUT) · AuxI/KRI · Level (Id) · S00 · 620 · M124 · 0o · TbI · FROM ASM+
+- **Wiring (first pass):** 69 connected wire groups from 421 runs; labelled ends: 141 mm → M124, 0o, Sk, (7224); 123 mm → LoG, Tzz/i3v, ze15v=; 90 mm → 300, 2k7, 2ky, (7224); 82 mm → TbI, "iS, Level (Id), 300.; 74 mm → NEHOnL, AConlcro
+
+Every curve, box, word and wire group: [1973 - 73050 - 12 Channel Audio Mixing Console p13 (traced).json](1973%20-%2073050%20-%2012%20Channel%20Audio%20Mixing%20Console%20p13%20%28traced%29.json) (the CAD file: `1973 - 73050 - 12 Channel Audio Mixing Console p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** schematic 73050-02-003, size B (assumed) 432 × 138 mm, 2000 × 638 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 0–138 mm up
+- **Outlines:** line 510 rings, 6,554 straight (9,000 mm) / 1,079 curved (1,326 mm); text 579 rings, 3,694 straight (3,156 mm) / 1,275 curved (1,559 mm); tb 1 rings, 6 straight (5.2 mm) / 2 curved (2.2 mm)
+- **Centre lines:** 11,254 paths (136 closed); straight 8,336 mm, curved 105 mm; horizontal 2,826 mm, vertical 1,990 mm, diagonal 3,520 mm
+- **Circles and arcs:** 2 circles, 32 arcs; largest r 1.0 @ (262.1, 64.6), r 0.8 @ (262.0, 60.3)
+- **Closed boxes:** 39 (1 in the title block); named: Miz4 A3; M416 Aio; Mi24; 73050-02-003; Tols _; ISS_
+- **Words (OCR):** 136 in 117 lines: From · #DST · PGm · LEvEL · 50n Sw · FOLDBACK · LEVEL · Cue - T/b · AMP · Cw · ~I0 dBm · 300
+- **Title block:** (349, 6)–(386, 26) mm: DRN Pc · DNTE sepi 73 · CKD · SC4LE
+- **Wiring (first pass):** 78 connected wire groups from 468 runs; labelled ends: 234 mm → Cue - T/b, AMP, M416, 750< (-I8) < 330; 217 mm → Moutcko, DRN, DNTE sepi, CKD; 95 mm → 300, Miz4, 3o0, {-6) gczo; 92 mm → (DJS, Sw, Cue - T/b, AMP; 85 mm → Miz4, 300, 3o0
+
+Every curve, box, word and wire group: [1973 - 73050 - 12 Channel Audio Mixing Console p14 (traced).json](1973%20-%2073050%20-%2012%20Channel%20Audio%20Mixing%20Console%20p14%20%28traced%29.json) (the CAD file: `1973 - 73050 - 12 Channel Audio Mixing Console p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** schematic 73050-02-004, size B (assumed) 432 × 136 mm, 2000 × 631 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–136 mm up
+- **Outlines:** line 1,060 rings, 9,443 straight (13,886 mm) / 1,864 curved (2,295 mm); text 173 rings, 1,016 straight (851 mm) / 353 curved (430 mm); tb 9 rings, 92 straight (129 mm) / 15 curved (24.0 mm)
+- **Centre lines:** 7,624 paths (159 closed); straight 8,703 mm, curved 159 mm; horizontal 3,342 mm, vertical 2,594 mm, diagonal 2,767 mm
+- **Circles and arcs:** 1 circles, 60 arcs; largest r 0.7 @ (158.0, 69.6)
+- **Closed boxes:** 59; named: WBS WARD LTD; LUcic SCHEMATIC; FINISH; SCALL; 73050-02-004
+- **Dots (junctions):** 2
+- **Words (OCR):** 34 in 30 lines: Selector · E" 4 · OfF · 752 · TuRRET · Host · 782 · 842 · MokioR s7kr · Muting · Cor-Jolt · Host
+- **Title block:** (353, 17)–(401, 27) mm: WBS WARD
+- **Wiring (first pass):** 120 connected wire groups from 851 runs, 1 dotted junctions; labelled ends: 303 mm → WBS, DAE; 151 mm → Mo;, SelzctoR, VR; 122 mm → 842; 84 mm → SelzctoR; 46 mm → T2 3
+
+Every curve, box, word and wire group: [1973 - 73050 - 12 Channel Audio Mixing Console p15 (traced).json](1973%20-%2073050%20-%2012%20Channel%20Audio%20Mixing%20Console%20p15%20%28traced%29.json) (the CAD file: `1973 - 73050 - 12 Channel Audio Mixing Console p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** schematic 050-02-005, size B (assumed) 432 × 177 mm, 2000 × 820 px traced (0.216 mm/px)
+- **Ink extent:** 3–431 mm across, 0–177 mm up
+- **Outlines:** line 639 rings, 7,594 straight (10,638 mm) / 1,256 curved (1,527 mm); text 204 rings, 1,291 straight (1,230 mm) / 442 curved (585 mm); tb 28 rings, 212 straight (253 mm) / 58 curved (75.2 mm)
+- **Centre lines:** 8,593 paths (71 closed); straight 7,781 mm, curved 206 mm; horizontal 3,106 mm, vertical 2,416 mm, diagonal 2,259 mm
+- **Circles and arcs:** 17 circles, 40 arcs; largest r 1.2 @ (201.3, 153.2), r 1.1 @ (34.1, 61.8), r 1.1 @ (34.3, 72.4), r 1.1 @ (34.2, 83.1)
+- **Closed boxes:** 130 (3 in the title block); named: SwR #4 M46B4; 8x/ Swr # 2 M+684
+- **Words (OCR):** 33 in 26 lines: SwR #4 M46B4 · (HANNEL · IHPT · (781-h3,74 (75)) · To t8 dBm · LINz · 20kn · 620 · 8x/ Swr # 2 M+684 · CHANNEL · INPUT  (TBI- 16,77(78)) · AL
+- **Title block:** (328, 3)–(404, 34) mm: WBS WAAD-BeCK ByTEMB LTD · AUDIO · CONSCLE · DATE Sept · 13 · cKD · SCALE · TOLS _ · 7z050-02-005
+- **Wiring (first pass):** 26 connected wire groups from 556 runs; labelled ends: 990 mm → 620, M+684, 8x/, Swr # 2; 545 mm → 8x/; 376 mm → INPUT  (TBI- 16,77(78)), WBS; 270 mm → Swr # 2; 113 mm → SwR #4, M46B4
+
+Every curve, box, word and wire group: [1973 - 73050 - 12 Channel Audio Mixing Console p16 (traced).json](1973%20-%2073050%20-%2012%20Channel%20Audio%20Mixing%20Console%20p16%20%28traced%29.json) (the CAD file: `1973 - 73050 - 12 Channel Audio Mixing Console p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** schematic 73050-02-006, size B (assumed) 432 × 263 mm, 2000 × 1218 px traced (0.216 mm/px)
+- **Ink extent:** 2–430 mm across, 0–263 mm up
+- **Outlines:** line 1,568 rings, 15,485 straight (13,306 mm) / 2,826 curved (3,175 mm); text 227 rings, 2,329 straight (1,987 mm) / 571 curved (680 mm)
+- **Centre lines:** 16,067 paths (94 closed); straight 10,604 mm, curved 187 mm; horizontal 3,589 mm, vertical 2,815 mm, diagonal 4,200 mm
+- **Circles and arcs:** 13 circles, 23 arcs; largest r 1.5 @ (39.2, 236.3), r 1.5 @ (28.6, 236.3), r 1.5 @ (62.9, 236.4), r 1.5 @ (52.4, 236.6)
+- **Closed boxes:** 27
+- **Dots (junctions):** 3
+- **Words (OCR):** 35 in 28 lines: ExTz EXT | · Air · FB · TB / · M2 · Juo · 620 · 620 · VU · METER · Sk 9i0 · 910
+- **Wiring (first pass):** 92 connected wire groups from 714 runs; labelled ends: 314 mm → USED ON, FINISA; 216 mm → vu 2; 202 mm → FB, 620; 193 mm → ExTz, 620, Ext2; 169 mm → Juo, 620, Ext, MoNiTOR SEL
+
+Every curve, box, word and wire group: [1973 - 73050 - 12 Channel Audio Mixing Console p17 (traced).json](1973%20-%2073050%20-%2012%20Channel%20Audio%20Mixing%20Console%20p17%20%28traced%29.json) (the CAD file: `1973 - 73050 - 12 Channel Audio Mixing Console p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** schematic 73050-02-007, size B (assumed) 432 × 141 mm, 2000 × 652 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–141 mm up
+- **Outlines:** line 434 rings, 5,706 straight (7,986 mm) / 856 curved (991 mm); text 590 rings, 3,394 straight (2,849 mm) / 1,238 curved (1,479 mm); tb 4 rings, 21 straight (17.1 mm) / 2 curved (2.0 mm)
+- **Centre lines:** 8,960 paths (118 closed); straight 7,129 mm, curved 8.0 mm; horizontal 2,821 mm, vertical 1,658 mm, diagonal 2,650 mm
+- **Circles and arcs:** 0 circles, 3 arcs
+- **Closed boxes:** 33 (5 in the title block); named: 1648 Ps; M6l8 Ps 2; SIGNAL GNO BAR
+- **Words (OCR):** 113 in 86 lines: My#im · MODULE N? ]-3 PINS · Muuim · Ng 4-6 · 22 22 · 2242 · Mulim · ModuLES Pins · 18 &v (SEPARATE RUns) · Mylim Midoules Pins · 19 &w · P2-42.2
+- **Title block:** (291, 17)–(411, 30) mm: ISSMMOD cKD] · USED OM · WBS WAAD-BECK BysteMB LTD;
+- **Wiring (first pass):** 58 connected wire groups from 280 runs; labelled ends: 345 mm → SIGNAL, BAR, STATION GROUND; 202 mm → Re, M6l8, Ps 2, To A88A9; 139 mm → M2y, Migg, +24v; 93 mm → ISSMMOD, INISH; 89 mm → CHASSIS, GND
+
+Every curve, box, word and wire group: [1973 - 73050 - 12 Channel Audio Mixing Console p18 (traced).json](1973%20-%2073050%20-%2012%20Channel%20Audio%20Mixing%20Console%20p18%20%28traced%29.json) (the CAD file: `1973 - 73050 - 12 Channel Audio Mixing Console p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** schematic 73050-02-005, size B (assumed) 432 × 139 mm, 2000 × 645 px traced (0.216 mm/px)
+- **Ink extent:** 2–431 mm across, 0–139 mm up
+- **Outlines:** line 1,145 rings, 12,809 straight (19,231 mm) / 2,457 curved (3,113 mm); text 323 rings, 2,070 straight (1,727 mm) / 667 curved (787 mm)
+- **Centre lines:** 12,598 paths (196 closed); straight 12,799 mm, curved 299 mm; horizontal 5,713 mm, vertical 2,941 mm, diagonal 4,144 mm
+- **Circles and arcs:** 5 circles, 87 arcs; largest r 2.6 @ (202.5, 36.9), r 2.4 @ (219.2, 36.9), r 0.9 @ (143.8, 41.6), r 0.7 @ (125.7, 88.2)
+- **Closed boxes:** 40
+- **Words (OCR):** 66 in 60 lines: 782 · M++M · TBZ · (RED} · DMf · FS2 +24v · 330 · CONITROL · Ps? TeLy · READY LAMP · LAAP · 7825
+- **Title block:** (353, 17)–(413, 27) mm: WBS · WARD-Beck
+- **Wiring (first pass):** 164 connected wire groups from 1,123 runs; labelled ends: 231 mm → WBS; 114 mm → Sto "98, K5GIL; 98 mm → Kolc; 90 mm → 7825; 83 mm → MIC, OFF
+
+Every curve, box, word and wire group: [1973 - 73050 - 12 Channel Audio Mixing Console p19 (traced).json](1973%20-%2073050%20-%2012%20Channel%20Audio%20Mixing%20Console%20p19%20%28traced%29.json) (the CAD file: `1973 - 73050 - 12 Channel Audio Mixing Console p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 432 × 138 mm, 2000 × 639 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–138 mm up
+- **Outlines:** line 629 rings, 6,422 straight (9,032 mm) / 1,376 curved (1,692 mm); text 164 rings, 910 straight (746 mm) / 321 curved (393 mm); tb 44 rings, 244 straight (240 mm) / 72 curved (92.7 mm)
+- **Closed boxes:** 31 (1 in the title block); named: WBS WARD-Beck LTD ByetemB
+- **Words (OCR):** 40 in 34 lines: Tarz · TAQP · MIM · STop · 762 · 01i7 · 0126 · 782 · 8, 6 · 81054 03e0920 92 · 361 063 06Lo6z · Toz C47069
+- **Title block:** (349, 3)–(412, 26) mm: WBS WARD-Beck ByetemB · IcKd · ISCALE
+
+Every curve, box, word and wire group: [1973 - 73050 - 12 Channel Audio Mixing Console p20 (traced).json](1973%20-%2073050%20-%2012%20Channel%20Audio%20Mixing%20Console%20p20%20%28traced%29.json) (the CAD file: `1973 - 73050 - 12 Channel Audio Mixing Console p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 432 × 331 mm, 2000 × 1533 px traced (0.216 mm/px)
+- **Ink extent:** 0–428 mm across, 4–331 mm up
+- **Outlines:** line 405 rings, 11,959 straight (16,252 mm) / 1,460 curved (2,167 mm); text 252 rings, 2,704 straight (2,985 mm) / 640 curved (906 mm)
+- **Circles and arcs:** 17 circles, 0 arcs; largest r 2.8 @ (305.4, 148.4), r 2.7 @ (319.5, 193.3), r 2.6 @ (333.1, 206.3), r 2.6 @ (319.4, 206.2)
+- **Closed boxes:** 26; named: ASSIGN MIXER; Rr Level; FLiCK; Hh; 32 LSTD Mr Air SeL %6 oooo 56 [ PGh CRHO; 441 CHANNEL AMPLIFIERS; MIc 7/e; ATTENUATORs; AtT; FUT ATT
+- **Words (OCR):** 32 in 27 lines: MIXER · ASSIGN · Hh Rr Level · FLiCK · 32 · FUTURE · LSTD · 441 · MIc · oooo · Mr Air SeL %6 · CHANNEL AMPLIFIERS
+
+Every curve, box, word and wire group: [1973 - 73050 - 12 Channel Audio Mixing Console p21 (traced).json](1973%20-%2073050%20-%2012%20Channel%20Audio%20Mixing%20Console%20p21%20%28traced%29.json) (the CAD file: `1973 - 73050 - 12 Channel Audio Mixing Console p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 293 × 432 mm, 1359 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–294 mm across, 0–432 mm up
+- **Outlines:** line 844 rings, 11,562 straight (15,847 mm) / 1,755 curved (2,468 mm); text 543 rings, 4,887 straight (6,000 mm) / 1,227 curved (1,882 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.8 @ (61.4, 281.5), r 1.8 @ (94.8, 165.9), r 1.8 @ (6.3, 154.4)
+- **Closed boxes:** 62; named: 13C
+- **Dots (junctions):** 1
+- **Words (OCR):** 74 in 66 lines: SHIELD · SHIELD · LL · LLZ · LL3 · LLYC · CONSOLE · 13C · LLS · LL6 · "Low LeveL · 19
+
+Every curve, box, word and wire group: [1973 - 73050 - 12 Channel Audio Mixing Console p22 (traced).json](1973%20-%2073050%20-%2012%20Channel%20Audio%20Mixing%20Console%20p22%20%28traced%29.json) (the CAD file: `1973 - 73050 - 12 Channel Audio Mixing Console p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 293 × 432 mm, 1359 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–293 mm across, 0–432 mm up
+- **Outlines:** line 835 rings, 11,809 straight (16,357 mm) / 1,754 curved (2,476 mm); text 667 rings, 5,347 straight (6,183 mm) / 1,656 curved (2,464 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.1 @ (29.7, 53.1), r 1.6 @ (7.4, 153.5)
+- **Closed boxes:** 84
+- **Words (OCR):** 111 in 88 lines: LicE · LE 2 · Line KEY · OUT · MASTeR · OUT · Mi · MASTER · OUT 13 · M2 · Mz · F B
+
+Every curve, box, word and wire group: [1973 - 73050 - 12 Channel Audio Mixing Console p23 (traced).json](1973%20-%2073050%20-%2012%20Channel%20Audio%20Mixing%20Console%20p23%20%28traced%29.json) (the CAD file: `1973 - 73050 - 12 Channel Audio Mixing Console p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 432 × 287 mm, 2000 × 1330 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 0–287 mm up
+- **Outlines:** line 1,558 rings, 14,061 straight (12,101 mm) / 3,385 curved (3,815 mm); text 377 rings, 2,794 straight (2,780 mm) / 791 curved (1,053 mm); tb 197 rings, 948 straight (656 mm) / 246 curved (234 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 3.5 @ (110.5, 252.2), r 3.2 @ (239.8, 195.1), r 3.2 @ (239.4, 181.5), r 1.7 @ (121.3, 272.5)
+- **Closed boxes:** 1 (1 in the title block)
+- **Words (OCR):** 67 in 47 lines: ALUIED REL AY · RELAY · ALLiED · Typicai · 42 · LAYOuT 6C · TPICAL · RELAY · PIN · coNkol · F N · CcY 2 4
+- **Title block:** (172, 8)–(427, 58) mm: FINISH · WARD · BECKSYSHIS T · DRN · DATE · 4uLp · Keby · CHKDI · MATERIAL · SCALE
+
+Every curve, box, word and wire group: [1973 - 73050 - 12 Channel Audio Mixing Console p24 (traced).json](1973%20-%2073050%20-%2012%20Channel%20Audio%20Mixing%20Console%20p24%20%28traced%29.json) (the CAD file: `1973 - 73050 - 12 Channel Audio Mixing Console p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** drawing, size B (assumed) 432 × 286 mm, 2000 × 1324 px traced (0.216 mm/px)
+- **Ink extent:** 7–432 mm across, 0–286 mm up
+- **Outlines:** line 1,151 rings, 13,003 straight (11,767 mm) / 2,697 curved (3,142 mm); text 575 rings, 4,590 straight (4,610 mm) / 1,184 curved (1,582 mm); tb 29 rings, 155 straight (133 mm) / 33 curved (40.6 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 2.1 @ (157.7, 181.1), r 1.9 @ (157.7, 119.8), r 1.8 @ (339.6, 181.0), r 1.7 @ (103.4, 160.7)
+- **Closed boxes:** 4 (4 in the title block)
+- **Dots (junctions):** 6
+- **Words (OCR):** 91 in 71 lines: (2N < 4N2) · usk BYIIQN LAYe4I · PENDAR Push · LAYOLI · PENPAR · TYPE 1033 · MOMENTARY · TYPE · '139.Locking · TYFE 1013 · MOMENTARY · TYFE 1218
+- **Title block:** (179, 8)–(354, 57) mm: FFINISH · WARD · DRN · F s · DATE MAECH 1970 · CLARE PENDAR · CHKD · MATERIAL · AL · SCALE · TOLS}
+
+Every curve, box, word and wire group: [1973 - 73050 - 12 Channel Audio Mixing Console p25 (traced).json](1973%20-%2073050%20-%2012%20Channel%20Audio%20Mixing%20Console%20p25%20%28traced%29.json) (the CAD file: `1973 - 73050 - 12 Channel Audio Mixing Console p25 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

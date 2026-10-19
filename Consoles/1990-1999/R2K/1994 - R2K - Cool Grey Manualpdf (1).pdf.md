@@ -16,6 +16,1397 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **2001** (month): `Oct 2001` — …ition: Oct. 12, 999 Third Edition: Dec_ 999 Fourth Edition: Oct 2001 Fifth Edition: March 2003 Torpey Controls & Engineering Lim…
 - **2003** (month): `March 2003` — …d Edition: Dec_ 999 Fourth Edition: Oct 2001 Fifth Edition: March 2003 Torpey Controls & Engineering Limited 98-2220 Midland Ave_…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–334 mm across, 4–430 mm up
+- **Outlines:** line 59 rings, 1,218 straight (987 mm) / 108 curved (125 mm); text 16 rings, 198 straight (305 mm) / 36 curved (92.7 mm)
+- **Words (OCR):** 3 in 2 lines: WBS · rzk cool grey
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p1 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p1%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 332–334 mm across, 1–414 mm up
+- **Outlines:** line 46 rings, 164 straight (94.6 mm) / 13 curved (12.3 mm)
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p2 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p2%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–334 mm across, 7–423 mm up
+- **Outlines:** line 28 rings, 1,059 straight (915 mm) / 96 curved (117 mm); text 32 rings, 471 straight (690 mm) / 79 curved (155 mm)
+- **Words (OCR):** 3 in 2 lines: WBS · Uection 1 R241,R242,R243, & R244
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p3 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p3%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 321–334 mm across, 1–401 mm up
+- **Outlines:** line 36 rings, 115 straight (68.6 mm) / 11 curved (9.4 mm)
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p4 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p4%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 34–333 mm across, 22–430 mm up
+- **Outlines:** line 868 rings, 9,909 straight (19,167 mm) / 1,326 curved (1,885 mm); text 236 rings, 1,807 straight (2,156 mm) / 521 curved (755 mm)
+- **Circles and arcs:** 24 circles, 0 arcs; largest r 4.6 @ (240.5, 342.4), r 4.5 @ (293.0, 342.3), r 4.4 @ (194.9, 305.4), r 4.4 @ (178.8, 305.4)
+- **Closed boxes:** 13; named: SAS ROUTER; SAS ROUTER
+- **Words (OCR):** 33 in 33 lines: R241 · R242 · R243 · R244 · SAS · SAS · ROUTER · ROUTER · MONO · MONO · COOL GREY · INPUT MODULES
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p5 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p5%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 34–292 mm across, 121–360 mm up
+- **Outlines:** line 5 rings, 25 straight (27.5 mm) / 7 curved (10.4 mm); text 2,909 rings, 20,886 straight (23,055 mm) / 6,202 curved (8,812 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.6 @ (204.1, 178.8)
+- **Words (OCR):** 52 in 41 lines: R241IR242IR243IR244 · STEREO INPUT MODULE · The R241 Stereo Input Module is the basic input channel module for the Cool · Grey radio audio console series · The model R242 offers all the features and facilities of the R241 as well as indivvidual level controls on the two · mono sends · The model R243
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p6 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p6%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–312 mm across, 73–420 mm up
+- **Outlines:** line 11 rings, 53 straight (55.4 mm) / 11 curved (14.5 mm); text 3,282 rings, 24,737 straight (27,286 mm) / 7,385 curved (10,694 mm)
+- **Words (OCR):** 61 in 46 lines: AB SQURCE SELECL (R241/R242) · Source pushbuttons A and · B are electronically interlocked and select between stereo inputs and · respectively: *Module has jumper selectable +6 or Unity gain post input select. · MONQ SELECI (R241/R242) · Pressing the MONO pushbutton will mix the left and right chann
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p7 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p7%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 49–334 mm across, 2–390 mm up
+- **Outlines:** line 18 rings, 70 straight (55.9 mm) / 7 curved (6.4 mm); text 729 rings, 8,086 straight (10,232 mm) / 2,031 curved (2,922 mm)
+- **Words (OCR):** 77 in 77 lines: DIP SWITCH SETTINGS (REF DES_SW2) · SWITCH FUNCTIONS · SWI · Mode Selection · SW2 · Mode Selection · SW3 · Mode Selection · SW4 · MI Pre/Post Channel On · SWS · M2 Pre/Post Channel On
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p8 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p8%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 32–287 mm across, 38–380 mm up
+- **Outlines:** line 15 rings, 134 straight (123 mm) / 23 curved (36.1 mm); text 2,410 rings, 18,168 straight (20,854 mm) / 4,695 curved (7,018 mm)
+- **Words (OCR):** 103 in 72 lines: MODE#1 (SOFTWARE M1.02) · MODE 0: · Control in 1- CH ON Control out 1- CH ON · INA Tally · Tally · Control in 2-CH OFF Control out 2- CH ON INB · Control in 3- A SEL · Control out 3- A Tally · Control in 4- B SEL Control out 4- B Tally · MODE 1: · Control in 1- CH ON Control out 1- CH ON · INA event
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p9 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p9%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 46–305 mm across, 22–407 mm up
+- **Outlines:** line 1,358 rings, 14,315 straight (35,312 mm) / 1,865 curved (2,827 mm); text 319 rings, 2,682 straight (3,306 mm) / 582 curved (919 mm)
+- **Circles and arcs:** 27 circles, 0 arcs; largest r 4.0 @ (261.4, 146.6), r 4.0 @ (87.7, 146.7), r 4.0 @ (271.0, 381.0), r 1.7 @ (277.2, 71.6)
+- **Closed boxes:** 235; named: e/g gl2 3/3 Ii Slla e8; Ii
+- **Dots (junctions):** 3
+- **Words (OCR):** 9 in 9 lines: E2 · 63 · Fee · gl2 · e/g · 3/3 · Ii · Slla · e8
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p10 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p10%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 45–306 mm across, 21–406 mm up
+- **Outlines:** line 1,375 rings, 14,874 straight (35,404 mm) / 2,034 curved (3,021 mm); text 309 rings, 2,530 straight (3,245 mm) / 608 curved (956 mm)
+- **Circles and arcs:** 30 circles, 0 arcs; largest r 4.0 @ (261.0, 145.4), r 4.0 @ (86.7, 145.9), r 3.3 @ (271.4, 380.0), r 1.7 @ (186.1, 68.4)
+- **Closed boxes:** 221; named: Hi 08 57 Ii ea; Hi; 08; Ii; 57
+- **Dots (junctions):** 2
+- **Words (OCR):** 7 in 6 lines: 58 · 33 · Hi · 08 · 57 · Ii ea
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p11 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p11%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 57–334 mm across, 1–421 mm up
+- **Outlines:** line 897 rings, 12,078 straight (22,398 mm) / 2,406 curved (3,050 mm); text 567 rings, 3,502 straight (3,372 mm) / 1,094 curved (1,450 mm)
+- **Closed boxes:** 84; named: ek; 92; 66 86 8943; 66 36; 88 36
+- **Dots (junctions):** 1
+- **Words (OCR):** 28 in 26 lines: ek · 8g8 · 22 · 23 · 92 · #2J · 82? · 823 · 28 · 28 · Zzh · 82
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p12 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p12%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 55–334 mm across, 7–421 mm up
+- **Outlines:** line 750 rings, 10,520 straight (19,459 mm) / 2,048 curved (2,597 mm); text 449 rings, 2,875 straight (2,736 mm) / 926 curved (1,215 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.5 @ (95.9, 232.7)
+- **Closed boxes:** 64; named: 21; 01; 66 86 87; 66
+- **Dots (junctions):** 1
+- **Words (OCR):** 24 in 21 lines: 21 · 01 · CN · 28 · Eto · 0401 · 0x0 · 6+8 · 66 86 · 66 · 228 · 87
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p13 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p13%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 56–334 mm across, 23–421 mm up
+- **Outlines:** line 727 rings, 9,981 straight (18,960 mm) / 1,945 curved (2,458 mm); text 355 rings, 2,157 straight (2,039 mm) / 736 curved (956 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.4 @ (201.2, 363.7), r 1.4 @ (275.0, 238.3)
+- **Closed boxes:** 88; named: 81; 8443; 8947; 86 66 8942; 86
+- **Dots (junctions):** 1
+- **Words (OCR):** 21 in 20 lines: 81 · 8443 · 228 · 228 · 28 · #5J · 823 · 8947 · 053 · 223 · 2< 2 · Ub 070
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p14 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p14%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 55–333 mm across, 19–422 mm up
+- **Outlines:** line 1,147 rings, 15,358 straight (25,672 mm) / 2,867 curved (3,713 mm); text 524 rings, 3,417 straight (3,299 mm) / 1,111 curved (1,463 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 0.9 @ (312.4, 408.7)
+- **Closed boxes:** 77; named: 80; 82; F3222828 222222 JN?; ong; 23
+- **Dots (junctions):** 1
+- **Words (OCR):** 38 in 37 lines: 8+3 · 80 · 23 · 82 · 22 · 28 · 88 · JOOE · #8ld · L9j · 893 · 0L/01
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p15 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p15%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 56–334 mm across, 5–421 mm up
+- **Outlines:** line 765 rings, 7,747 straight (13,876 mm) / 1,292 curved (1,569 mm); text 85 rings, 605 straight (593 mm) / 194 curved (258 mm)
+- **Closed boxes:** 66; named: 51; 4ntnor; 002 993703 953703
+- **Words (OCR):** 7 in 6 lines: 51 · 9 < % 2 · 4ntnor · 08 · 002 · 993703 953703
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p16 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p16%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 56–334 mm across, 22–429 mm up
+- **Outlines:** line 922 rings, 9,673 straight (17,314 mm) / 1,815 curved (2,302 mm); text 226 rings, 1,478 straight (1,382 mm) / 484 curved (635 mm)
+- **Closed boxes:** 102; named: 28; 92; 833385883 8i g3
+- **Dots (junctions):** 1
+- **Words (OCR):** 10 in 9 lines: 28 · 92 · 838 · EA_ · 693 · 1*0 · 833385883 · 8i g3 · 83
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p17 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p17%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 332–334 mm across, 1–321 mm up
+- **Outlines:** line 44 rings, 143 straight (80.3 mm) / 18 curved (15.7 mm)
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p18 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p18%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–334 mm across, 0–429 mm up
+- **Outlines:** line 38 rings, 1,042 straight (935 mm) / 84 curved (99.6 mm); text 12 rings, 255 straight (375 mm) / 41 curved (83.9 mm)
+- **Words (OCR):** 3 in 2 lines: WES · Jection 2 R245
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p19 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p19%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 332–334 mm across, 3–418 mm up
+- **Outlines:** line 69 rings, 248 straight (144 mm) / 26 curved (22.3 mm)
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p20 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p20%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 33–334 mm across, 3–387 mm up
+- **Outlines:** line 26 rings, 576 straight (1,672 mm) / 73 curved (118 mm); text 754 rings, 5,667 straight (6,454 mm) / 1,667 curved (2,387 mm); tb 6 rings, 34 straight (33.3 mm) / 9 curved (11.9 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 3.5 @ (271.2, 371.0), r 3.4 @ (269.4, 37.8), r 2.6 @ (269.6, 74.6), r 2.6 @ (270.4, 216.4)
+- **Words (OCR):** 15 in 13 lines: R245 · STEREO OUTPUT MODULE · WBS · R245 · The R245 contains the summing and output amplifiers for PGM, AUD, UTL, AUX and · SENDS 1, 2 buses · To provide the correct console outputs, the R245 must be installed · in slot 13 of the RCF/16, slot 21 of the RCF/24 or slot 29 of the RCF/32 console frame_ 
+- **Title block:** (123, 299)–(273, 382) mm: STEREO OUTPUT MODULE · WBS · The R245 contains the summing and output amplifiers for PGM, AUD, UTL, AUX and · To provide the correct console outputs, the R245 must be installed · in slot 13 of the RCF
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p21 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p21%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 14–303 mm across, 37–393 mm up
+- **Outlines:** line 1,170 rings, 13,532 straight (30,980 mm) / 1,862 curved (2,745 mm); text 354 rings, 2,813 straight (3,505 mm) / 714 curved (1,078 mm)
+- **Circles and arcs:** 21 circles, 0 arcs; largest r 3.7 @ (103.6, 175.0), r 3.7 @ (264.6, 174.8), r 1.6 @ (153.8, 111.6), r 1.6 @ (216.6, 111.3)
+- **Closed boxes:** 158; named: 06
+- **Dots (junctions):** 2
+- **Words (OCR):** 9 in 6 lines: Ji · Il · 2/2 · 2/3 2/3 · 5/5 5/5 · HL 06
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p22 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p22%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 19–334 mm across, 4–423 mm up
+- **Outlines:** line 570 rings, 5,498 straight (9,121 mm) / 985 curved (1,200 mm); text 408 rings, 3,354 straight (3,740 mm) / 857 curved (1,127 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.6 @ (214.1, 196.0), r 2.5 @ (214.2, 205.5), r 2.3 @ (22.0, 213.0)
+- **Closed boxes:** 2
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p23 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p23%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–334 mm across, 10–398 mm up
+- **Outlines:** line 1,436 rings, 17,324 straight (24,981 mm) / 3,643 curved (4,370 mm); text 326 rings, 2,247 straight (2,256 mm) / 686 curved (844 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 0.9 @ (37.4, 187.2), r 0.9 @ (45.1, 144.3), r 0.9 @ (80.3, 168.3)
+- **Closed boxes:** 3; named: He
+- **Dots (junctions):** 2
+- **Words (OCR):** 8 in 8 lines: He · 88 · 38 · 8+1 · 5F4 · 98 · 89 · 3 2
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p24 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p24%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–334 mm across, 6–426 mm up
+- **Outlines:** line 37 rings, 1,210 straight (958 mm) / 84 curved (92.4 mm); text 11 rings, 235 straight (348 mm) / 45 curved (92.9 mm)
+- **Words (OCR):** 3 in 2 lines: WBS · 8ection 3 R246
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p25 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p25%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 138–334 mm across, 1–426 mm up
+- **Outlines:** line 43 rings, 189 straight (104 mm) / 18 curved (14.9 mm)
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p26 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p26%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 34–334 mm across, 37–391 mm up
+- **Outlines:** line 186 rings, 2,216 straight (5,376 mm) / 229 curved (345 mm); text 1,370 rings, 9,791 straight (10,849 mm) / 2,980 curved (4,307 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 16.7 @ (275.3, 62.8), r 3.0 @ (276.0, 385.7), r 3.0 @ (274.9, 42.3), r 2.4 @ (268.2, 373.5)
+- **Closed boxes:** 16
+- **Words (OCR):** 34 in 24 lines: R246 · R246 · CONTROL ROOM MONITOR MODULE · METER · The R246 module provides monitoring and metering selection for the console_ This · module is equipped with an eight input two output balanced stereo audio switcher · and has two banks of 8 front panel switches for independent meter and monitor · se
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p27 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p27%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p27 (traced).dxf`).
+
+### Page 28
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 63–333 mm across, 4–393 mm up
+- **Outlines:** line 1,164 rings, 13,854 straight (31,667 mm) / 1,910 curved (2,794 mm); text 239 rings, 1,934 straight (2,309 mm) / 448 curved (657 mm)
+- **Circles and arcs:** 13 circles, 0 arcs; largest r 3.7 @ (103.5, 175.2), r 3.7 @ (264.7, 174.7), r 3.7 @ (275.1, 366.9), r 3.0 @ (264.5, 351.1)
+- **Closed boxes:** 161
+- **Words (OCR):** 9 in 6 lines: EE · 59 · Hi · E1 · 2/5/5 2/5/5 2/5 Slla · 8/5 25/5
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p28 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p28%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p28 (traced).dxf`).
+
+### Page 29
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–334 mm across, 8–417 mm up
+- **Outlines:** line 417 rings, 5,193 straight (11,173 mm) / 957 curved (1,312 mm); text 239 rings, 1,527 straight (1,461 mm) / 463 curved (612 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 5.2 @ (176.9, 273.0), r 1.7 @ (285.6, 391.1), r 1.7 @ (285.6, 400.8), r 1.6 @ (178.3, 274.4)
+- **Closed boxes:** 6; named: 88
+- **Words (OCR):** 4 in 4 lines: 88 · 35 · 52 · 52
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p29 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p29%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p29 (traced).dxf`).
+
+### Page 30
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–334 mm across, 1–430 mm up
+- **Outlines:** line 1,092 rings, 11,678 straight (23,574 mm) / 2,377 curved (2,969 mm); text 227 rings, 1,403 straight (1,354 mm) / 456 curved (588 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 0.9 @ (169.5, 274.3)
+- **Closed boxes:** 93; named: 84 Rx 87; (00; 8N; An; Rx 87 8N; 8N RX 87
+- **Dots (junctions):** 2
+- **Words (OCR):** 9 in 8 lines: Rx 87 · 84 · (00 · 8N · Rx 87 8N · An · RX 87 · 8N
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p30 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p30%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p30 (traced).dxf`).
+
+### Page 31
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 38–334 mm across, 6–417 mm up
+- **Outlines:** line 1,081 rings, 12,660 straight (23,709 mm) / 2,419 curved (3,018 mm); text 234 rings, 1,529 straight (1,458 mm) / 530 curved (658 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.6 @ (280.0, 370.2), r 1.4 @ (280.0, 382.2), r 1.0 @ (142.0, 303.9)
+- **Closed boxes:** 100; named: 8z; {to0; 87 87; 87 85
+- **Words (OCR):** 11 in 7 lines: 8z · {to0 · 8N {<o0 · 87 87 · 87 85 · Rx 87 · i6
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p31 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p31%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p31 (traced).dxf`).
+
+### Page 32
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 40–334 mm across, 8–419 mm up
+- **Outlines:** line 746 rings, 8,221 straight (15,169 mm) / 1,721 curved (2,167 mm); text 318 rings, 1,962 straight (1,844 mm) / 732 curved (924 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 2.1 @ (278.9, 332.8), r 1.8 @ (278.9, 328.6), r 1.7 @ (285.1, 370.3), r 1.6 @ (280.9, 382.6)
+- **Closed boxes:** 27; named: 0 8; 58 33; 53 5; MODE V1g; MODE 41g %4 #9 68
+- **Dots (junctions):** 1
+- **Words (OCR):** 11 in 8 lines: 0 8 58 33 · 53 5 · MODE · MODE · V1g · %4 #9 68 · 41g · Rx 87 8R
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p32 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p32%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p32 (traced).dxf`).
+
+### Page 33
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 38–334 mm across, 13–417 mm up
+- **Outlines:** line 1,229 rings, 14,685 straight (26,439 mm) / 2,899 curved (3,674 mm); text 439 rings, 2,653 straight (2,450 mm) / 943 curved (1,195 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 1.6 @ (280.3, 369.6), r 1.6 @ (284.6, 369.3), r 1.6 @ (284.5, 359.1), r 0.9 @ (95.0, 65.9)
+- **Closed boxes:** 50; named: 88; 68833868 33 Eo33; 68888883 88; 9 9; 222232 GND VDD GND; 0ov
+- **Dots (junctions):** 1
+- **Words (OCR):** 22 in 21 lines: QQoQ 00 · efF · 68833868 33 · 68888883 88 · 82 · Eo33 · 88 · 38 · 3 2 · 9 9 · 222232 · VDD
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p33 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p33%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p33 (traced).dxf`).
+
+### Page 34
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–334 mm across, 7–416 mm up
+- **Outlines:** line 1,198 rings, 14,682 straight (28,441 mm) / 2,631 curved (3,374 mm); text 259 rings, 1,556 straight (1,482 mm) / 532 curved (689 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 1.6 @ (280.0, 391.4), r 1.6 @ (280.1, 369.8), r 1.2 @ (251.5, 44.9), r 1.2 @ (135.0, 37.6)
+- **Closed boxes:** 60; named: 88; 68888883 %8; WCOI
+- **Dots (junctions):** 2
+- **Words (OCR):** 11 in 9 lines: 68888883 %8 · 88 · Bi Ik · 88 · Bi Bi · Bi · F8 · Je · WCOI
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p34 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p34%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p34 (traced).dxf`).
+
+### Page 35
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–334 mm across, 1–414 mm up
+- **Outlines:** line 29 rings, 1,042 straight (931 mm) / 87 curved (109 mm); text 11 rings, 233 straight (368 mm) / 31 curved (64.2 mm)
+- **Words (OCR):** 3 in 2 lines: WES · Ueetion 4 R247
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p35 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p35%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p35 (traced).dxf`).
+
+### Page 36
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 332–334 mm across, 0–425 mm up
+- **Outlines:** line 39 rings, 131 straight (76.7 mm) / 12 curved (10.9 mm)
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p36 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p36%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p36 (traced).dxf`).
+
+### Page 37
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 33–334 mm across, 3–426 mm up
+- **Outlines:** line 187 rings, 2,340 straight (5,647 mm) / 274 curved (419 mm); text 1,693 rings, 12,110 straight (13,160 mm) / 3,623 curved (5,151 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 4.4 @ (262.7, 119.3), r 4.3 @ (280.1, 119.3), r 3.1 @ (271.6, 383.7), r 3.1 @ (270.9, 36.6)
+- **Closed boxes:** 19
+- **Words (OCR):** 41 in 31 lines: R247 · R247 · STUDIO MONITOR MODULE · STUDIO 2- · The R247 module provides studio monitoring and talkback selection for the console. · This module is equipped with an eightinput; two output balanced stereo audio switcher · and has two banks of 8 front panel switches for independent monitor selection
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p37 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p37%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p37 (traced).dxf`).
+
+### Page 38
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 34–334 mm across, 10–381 mm up
+- **Outlines:** line 32 rings, 140 straight (117 mm) / 15 curved (19.3 mm); text 1,220 rings, 8,876 straight (9,870 mm) / 2,838 curved (4,040 mm)
+- **Words (OCR):** 34 in 30 lines: R247 PROTOCOL · The R247 is connected to an internal RS485 serial communications bus The serial bus is accessible from · the RS422 serial port on the R248 utility module; the R248 controls the RS485 bus. Each input module · position has a unique 5 bit address (0-27) which is read from the console mo
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p38 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p38%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p38 (traced).dxf`).
+
+### Page 39
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 34–334 mm across, 39–388 mm up
+- **Outlines:** line 1,301 rings, 14,759 straight (33,713 mm) / 1,938 curved (2,810 mm); text 215 rings, 1,891 straight (2,412 mm) / 408 curved (633 mm)
+- **Circles and arcs:** 15 circles, 0 arcs; largest r 3.8 @ (237.0, 161.8), r 3.7 @ (75.4, 162.5), r 1.6 @ (231.1, 231.1), r 1.6 @ (258.1, 107.9)
+- **Closed boxes:** 192
+- **Dots (junctions):** 4
+- **Words (OCR):** 9 in 8 lines: 22 · e2 · g8 · E1 · 55 · 5E · 2/5/5 2/5/5 · 3 5/5
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p39 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p39%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p39 (traced).dxf`).
+
+### Page 40
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–334 mm across, 6–416 mm up
+- **Outlines:** line 455 rings, 6,590 straight (15,257 mm) / 1,001 curved (1,304 mm); text 336 rings, 2,236 straight (2,254 mm) / 721 curved (928 mm)
+- **Closed boxes:** 20; named: gz
+- **Words (OCR):** 9 in 9 lines: 00 · 00 · gz · Cw · CW · Cw · MM · 22 · 73
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p40 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p40%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p40 (traced).dxf`).
+
+### Page 41
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 38–334 mm across, 13–416 mm up
+- **Outlines:** line 969 rings, 11,918 straight (23,035 mm) / 2,268 curved (2,837 mm); text 298 rings, 1,892 straight (1,866 mm) / 644 curved (817 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.7 @ (284.6, 368.8)
+- **Closed boxes:** 105; named: Rx 8N {<00; R ?7 8N {<o0; 400; 8n 87 8x; 400 8x; R7
+- **Dots (junctions):** 1
+- **Words (OCR):** 18 in 14 lines: Rx · 8N {<00 · R ?7 8N {<o0 · 400 · 8x · 87 · 8n · R7 · 8x · 400 · RX · ef 87 Ito0
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p41 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p41%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p41 (traced).dxf`).
+
+### Page 42
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–334 mm across, 13–417 mm up
+- **Outlines:** line 1,081 rings, 12,267 straight (23,745 mm) / 2,414 curved (3,000 mm); text 243 rings, 1,456 straight (1,422 mm) / 499 curved (623 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.1 @ (278.5, 331.9), r 1.4 @ (280.4, 379.3), r 1.0 @ (246.5, 155.0)
+- **Closed boxes:** 112; named: Ji; 87 Rn €; Rx 87 8N 100; R2 87 AN; 8w {<ou; Rx 87 RN 400; {<00
+- **Words (OCR):** 14 in 9 lines: Ji · 01 · 87 Rn € · R2 87 AN · Rx 87 8N 100 · 18 · 8w {<ou · Rx 87 RN 400 · {<00
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p42 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p42%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p42 (traced).dxf`).
+
+### Page 43
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 37–334 mm across, 5–417 mm up
+- **Outlines:** line 1,049 rings, 11,508 straight (20,420 mm) / 2,396 curved (3,003 mm); text 355 rings, 2,208 straight (2,192 mm) / 715 curved (932 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.1 @ (277.9, 331.9), r 1.8 @ (277.9, 327.7), r 1.1 @ (231.1, 238.3), r 0.9 @ (228.6, 324.5)
+- **Closed boxes:** 56; named: 29; 83 33; 83 33; 87 8; T00; 8x 97 {<o0; 8x ?7
+- **Words (OCR):** 12 in 10 lines: 53 88 · 83 33 · 29 · Cw · 83 33 · 58 · 87 8 · T00 · 8x 97 {<o0 · 8x ?7
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p43 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p43%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p43 (traced).dxf`).
+
+### Page 44
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 40–334 mm across, 13–417 mm up
+- **Outlines:** line 1,017 rings, 12,442 straight (23,373 mm) / 2,410 curved (3,019 mm); text 365 rings, 2,228 straight (2,041 mm) / 777 curved (996 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.1 @ (278.9, 327.8), r 2.1 @ (278.9, 332.0), r 1.1 @ (245.9, 74.1), r 1.0 @ (195.7, 371.7)
+- **Closed boxes:** 35; named: 6038; 58883863 33 6o33; 58333383 93 6083; 222222 VDD GND GND; 2 3
+- **Dots (junctions):** 3
+- **Words (OCR):** 15 in 14 lines: 58883863 33 58333383 93 · 6038 · 6o33 · 6083 · 5 8 · 222222 · 3 2 · 2 3 · VDD · GND · GND · 225
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p44 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p44%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p44 (traced).dxf`).
+
+### Page 45
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 38–334 mm across, 4–417 mm up
+- **Outlines:** line 1,145 rings, 14,282 straight (28,368 mm) / 2,487 curved (3,187 mm); text 131 rings, 891 straight (926 mm) / 253 curved (343 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 1.7 @ (284.9, 369.6), r 1.7 @ (284.8, 359.4), r 1.2 @ (126.4, 378.6), r 1.2 @ (139.1, 190.9)
+- **Closed boxes:** 47; named: 82; 0I; E<0UDW4OI
+- **Words (OCR):** 7 in 7 lines: 82 · Bi · 0I · 00 · Ki · Bi · E<0UDW4OI
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p45 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p45%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p45 (traced).dxf`).
+
+### Page 46
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 331–334 mm across, 1–422 mm up
+- **Outlines:** line 72 rings, 268 straight (150 mm) / 24 curved (20.6 mm)
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p46 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p46%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p46 (traced).dxf`).
+
+### Page 47
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–334 mm across, 32–414 mm up
+- **Outlines:** line 26 rings, 963 straight (894 mm) / 95 curved (118 mm); text 13 rings, 221 straight (358 mm) / 49 curved (91.3 mm)
+- **Words (OCR):** 3 in 2 lines: WBS · Uection 5 R248
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p47 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p47%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p47 (traced).dxf`).
+
+### Page 48
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 328–334 mm across, 4–430 mm up
+- **Outlines:** line 43 rings, 150 straight (89.4 mm) / 16 curved (14.4 mm)
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p48 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p48%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p48 (traced).dxf`).
+
+### Page 49
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 34–297 mm across, 34–390 mm up
+- **Outlines:** line 128 rings, 1,648 straight (3,338 mm) / 226 curved (349 mm); text 3,230 rings, 23,324 straight (25,775 mm) / 7,042 curved (10,171 mm)
+- **Circles and arcs:** 15 circles, 0 arcs; largest r 5.1 @ (285.9, 115.7), r 4.5 @ (264.8, 85.8), r 4.4 @ (283.6, 285.4), r 4.0 @ (285.8, 115.6)
+- **Closed boxes:** 9
+- **Words (OCR):** 93 in 73 lines: R248 · R248 · UTILITY MODULE · The R248 Utility Module serves as a "catchall" module for various console functions · RECALL · It houses the drive amplifiers for the console headset; cue speaker, timer driver and · controls, and system settings recall. TheR248 also contains the RS422/485 interface · 
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p49 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p49%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p49 (traced).dxf`).
+
+### Page 50
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 36–295 mm across, 106–390 mm up
+- **Outlines:** line 2 rings, 13 straight (13.1 mm) / 3 curved (6.6 mm); text 2,796 rings, 20,472 straight (22,671 mm) / 6,176 curved (8,867 mm)
+- **Words (OCR):** 48 in 43 lines: PROGRAMMABLE CONFIGURATION RECALL FUNCTION · The programmable configuration recall function allows for system settings to be saved and recalled with the · push of a button_ · There are four buttons on the front panel which allow for four system settings to be saved · and restored. · Saving the_Syste
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p50 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p50%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p50 (traced).dxf`).
+
+### Page 51
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 62–303 mm across, 34–389 mm up
+- **Outlines:** line 1,534 rings, 14,817 straight (33,746 mm) / 2,244 curved (3,295 mm); text 527 rings, 3,961 straight (4,630 mm) / 1,097 curved (1,592 mm)
+- **Circles and arcs:** 40 circles, 0 arcs; largest r 3.7 @ (102.8, 172.0), r 3.7 @ (264.2, 171.9), r 3.0 @ (270.0, 365.8), r 1.6 @ (180.1, 92.1)
+- **Closed boxes:** 221; named: 5158 IL 20 2/2 Gle 3/3 515 E1 elde a/66 ; 2/2; Gle; 5158; 515; E1; a/66; 3/3; 3/2/3; elde
+- **Dots (junctions):** 1
+- **Words (OCR):** 16 in 14 lines: 84 · 85 · 82 · g3 25 · 5158 · IL · 20 · Gle · 2/2 · 515 E1 · 3/3 · elde
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p51 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p51%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p51 (traced).dxf`).
+
+### Page 52
+
+- **Sheet:** component layout 28 06 706, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–334 mm across, 4–431 mm up
+- **Outlines:** line 964 rings, 13,303 straight (23,181 mm) / 3,430 curved (3,417 mm); text 717 rings, 5,128 straight (4,508 mm) / 1,627 curved (1,816 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 1.5 @ (86.6, 58.7), r 1.4 @ (252.7, 139.8), r 1.0 @ (311.8, 317.8), r 0.9 @ (91.7, 202.8)
+- **Closed boxes:** 46; named: 36 89; 66 86 8*43
+- **Words (OCR):** 40 in 36 lines: 428 · 828 · 98 · J8 · 1'0 · Lvj · 07" 95 · 1*0 · 230 · 6*0 · 828 · 98 1*0
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p52 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p52%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p52 (traced).dxf`).
+
+### Page 53
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–328 mm across, 3–430 mm up
+- **Outlines:** line 711 rings, 10,847 straight (21,191 mm) / 1,860 curved (2,365 mm); text 355 rings, 2,615 straight (2,620 mm) / 799 curved (1,067 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.0 @ (218.2, 330.4)
+- **Closed boxes:** 54; named: Zs6nt; ONJ aNJ 22222832; 3m
+- **Words (OCR):** 17 in 17 lines: 324 · Zs6nt · 0 0 0 0 0 0 0 0 · E38 · 8 2 · 0 0 0 0 0 0 Q 0 · 3+3 · ONJ · aNJ · 22222832 · 8 3 · Lg&
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p53 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p53%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p53 (traced).dxf`).
+
+### Page 54
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–334 mm across, 4–426 mm up
+- **Outlines:** line 1,092 rings, 14,475 straight (25,523 mm) / 2,768 curved (3,544 mm); text 429 rings, 3,095 straight (3,007 mm) / 980 curved (1,307 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.0 @ (154.9, 390.2)
+- **Closed boxes:** 96; named: T1 33333; 43 IN? ON) 931 931 E222; 04
+- **Words (OCR):** 28 in 26 lines: 988 · 288 · XL · 59/L+ · 62j · 4823 · aLz · T1 33333 · 822 43 · IN? · 931 · 931
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p54 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p54%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p54 (traced).dxf`).
+
+### Page 55
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 40–334 mm across, 4–427 mm up
+- **Outlines:** line 402 rings, 6,871 straight (13,976 mm) / 1,107 curved (1,504 mm); text 304 rings, 1,900 straight (1,874 mm) / 644 curved (888 mm)
+- **Closed boxes:** 63
+- **Words (OCR):** 8 in 8 lines: 8i · 8+ !#M · #LQ · ejala · 82 · xlx · 2<2 · 822
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p55 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p55%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p55 (traced).dxf`).
+
+### Page 56
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 44–334 mm across, 6–426 mm up
+- **Outlines:** line 358 rings, 5,347 straight (9,976 mm) / 936 curved (1,183 mm); text 115 rings, 799 straight (887 mm) / 245 curved (325 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.0 @ (232.0, 158.6)
+- **Closed boxes:** 44; named: 5938648588 95303
+- **Words (OCR):** 4 in 4 lines: Mb · dppp · 5938648588 · 95303
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p56 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p56%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p56 (traced).dxf`).
+
+### Page 57
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–334 mm across, 0–415 mm up
+- **Outlines:** line 29 rings, 1,081 straight (935 mm) / 79 curved (102 mm); text 12 rings, 220 straight (355 mm) / 35 curved (82.6 mm)
+- **Words (OCR):** 3 in 2 lines: WBS · Jection 6 R249
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p57 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p57%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p57 (traced).dxf`).
+
+### Page 58
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 332–334 mm across, 4–423 mm up
+- **Outlines:** line 56 rings, 209 straight (123 mm) / 7 curved (7.3 mm)
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p58 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p58%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p58 (traced).dxf`).
+
+### Page 59
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 33–334 mm across, 0–393 mm up
+- **Outlines:** line 159 rings, 2,397 straight (5,189 mm) / 301 curved (450 mm); text 705 rings, 5,176 straight (5,721 mm) / 1,624 curved (2,372 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 3.2 @ (275.4, 29.0), r 3.2 @ (276.3, 374.4), r 2.5 @ (268.3, 242.3), r 2.3 @ (267.6, 362.4)
+- **Closed boxes:** 2
+- **Words (OCR):** 18 in 14 lines: R249 · 8 x 2 STEREO LINE SELECTOR · R249 · The R249 is an 8 x 2 Stereo Line Selector. Two banks of eight illuminating pushbutton · switches allow for the independent selection of any input to the two selector outputs_ · OUT 2 · A convenient, front panel designation strip allows for easy identificati
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p59 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p59%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p59 (traced).dxf`).
+
+### Page 60
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 62–333 mm across, 39–430 mm up
+- **Outlines:** line 1,035 rings, 12,180 straight (30,500 mm) / 1,616 curved (2,397 mm); text 259 rings, 2,303 straight (3,000 mm) / 466 curved (716 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 3.7 @ (264.3, 177.4), r 3.7 @ (103.4, 177.3), r 1.5 @ (258.2, 105.0), r 1.5 @ (285.1, 105.2)
+- **Closed boxes:** 197; named: EF; 3 5/5; 3 5/5; 3/5/5
+- **Dots (junctions):** 2
+- **Words (OCR):** 13 in 4 lines: EF · 99 · 515 · 3 5/5 3 5/5 3/5/5 3/5/5 3/5/5 2/5/5 2/5/5 2/5/5 2/5/5 3/5/5
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p60 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p60%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p60 (traced).dxf`).
+
+### Page 61
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–334 mm across, 2–419 mm up
+- **Outlines:** line 270 rings, 3,660 straight (8,688 mm) / 554 curved (779 mm); text 176 rings, 1,106 straight (1,037 mm) / 356 curved (457 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.1 @ (277.3, 330.1), r 2.1 @ (277.3, 334.3), r 1.4 @ (284.1, 411.5)
+- **Closed boxes:** 5
+- **Words (OCR):** 3 in 2 lines: 52 · E2 G2
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p61 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p61%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p61 (traced).dxf`).
+
+### Page 62
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 40–334 mm across, 6–419 mm up
+- **Outlines:** line 1,026 rings, 12,059 straight (23,384 mm) / 2,340 curved (2,939 mm); text 253 rings, 1,661 straight (1,559 mm) / 503 curved (626 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 0.9 @ (132.1, 276.7)
+- **Closed boxes:** 93; named: 24/2; 8N 400; Rx 8f RN I(o0; Rx 9 {(o0; 8f t00 87; 8n {<0o; Rx 8N 87
+- **Dots (junctions):** 2
+- **Words (OCR):** 16 in 12 lines: 24/2 · Rx 8f RN I(o0 · 8N 400 · Rx 9 · {(o0 · 87 · 8f t00 · 18 · 13 · 8n {<0o · Rx 87 · 8N
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p62 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p62%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p62 (traced).dxf`).
+
+### Page 63
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 37–334 mm across, 16–419 mm up
+- **Outlines:** line 1,053 rings, 12,255 straight (23,675 mm) / 2,360 curved (2,893 mm); text 248 rings, 1,692 straight (1,637 mm) / 558 curved (704 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 1.4 @ (292.6, 371.5), r 1.4 @ (284.2, 382.2), r 1.0 @ (225.3, 150.7), r 0.9 @ (142.4, 155.7)
+- **Closed boxes:** 93; named: 2/1 8z; 87 T00; 40C; {<o0 Rv; Rx 87 84; *00
+- **Words (OCR):** 14 in 11 lines: 2/1 · 8z · 87 T00 · Rv · {<o0 · 40C · Rx 87 84 · 38 · 88 · Rx ?7 RN · *00
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p63 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p63%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p63 (traced).dxf`).
+
+### Page 64
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–334 mm across, 2–420 mm up
+- **Outlines:** line 489 rings, 5,173 straight (9,873 mm) / 1,104 curved (1,430 mm); text 154 rings, 1,026 straight (988 mm) / 330 curved (425 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 1.7 @ (284.8, 383.6), r 1.4 @ (293.3, 372.8), r 1.3 @ (293.2, 343.0), r 1.1 @ (169.4, 131.3)
+- **Closed boxes:** 12; named: 231 83; 8p
+- **Dots (junctions):** 1
+- **Words (OCR):** 3 in 3 lines: 231 · 83 · 8p
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p64 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p64%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p64 (traced).dxf`).
+
+### Page 65
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 38–334 mm across, 4–419 mm up
+- **Outlines:** line 867 rings, 10,795 straight (20,301 mm) / 2,210 curved (2,768 mm); text 379 rings, 2,326 straight (2,116 mm) / 888 curved (1,131 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 1.6 @ (286.1, 371.5), r 1.6 @ (280.8, 371.4), r 1.6 @ (280.8, 383.3), r 1.4 @ (286.1, 381.8)
+- **Closed boxes:** 28; named: 88; 68838883; 68338388; 68838368 Eo33; 222222 VDD
+- **Dots (junctions):** 1
+- **Words (OCR):** 15 in 15 lines: Qon · 68838883 · 68338388 · 68838368 · Eo33 · 88 · Ea · 11 · 3 2 · 222222 · VDD · 3 2
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p65 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p65%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p65 (traced).dxf`).
+
+### Page 66
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 40–334 mm across, 17–420 mm up
+- **Outlines:** line 1,174 rings, 13,858 straight (28,529 mm) / 2,518 curved (3,178 mm); text 158 rings, 971 straight (953 mm) / 283 curved (405 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.2 @ (135.0, 41.5), r 1.1 @ (141.0, 381.5), r 1.0 @ (134.0, 253.0)
+- **Closed boxes:** 53; named: 88; 68888388; VI
+- **Words (OCR):** 7 in 7 lines: 88 · Bi · 31 · (oOoWLOI · 3 6 · 68888388 · VI
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p66 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p66%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p66 (traced).dxf`).
+
+### Page 67
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–334 mm across, 10–418 mm up
+- **Outlines:** line 21 rings, 1,113 straight (930 mm) / 94 curved (109 mm); text 11 rings, 231 straight (366 mm) / 34 curved (70.5 mm)
+- **Words (OCR):** 3 in 2 lines: WBS · Jection 7 R250
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p67 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p67%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p67 (traced).dxf`).
+
+### Page 68
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 310–334 mm across, 3–430 mm up
+- **Outlines:** line 42 rings, 150 straight (86.5 mm) / 12 curved (9.4 mm)
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p68 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p68%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p68 (traced).dxf`).
+
+### Page 69
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 32–291 mm across, 27–396 mm up
+- **Outlines:** line 194 rings, 2,273 straight (4,240 mm) / 316 curved (422 mm); text 2,174 rings, 15,935 straight (17,809 mm) / 4,846 curved (7,039 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 3.3 @ (268.1, 390.4), r 3.3 @ (268.3, 32.3), r 2.6 @ (259.4, 124.3), r 2.6 @ (259.1, 377.7)
+- **Closed boxes:** 11
+- **Words (OCR):** 56 in 46 lines: R250 · R250 · STUDIO MONITOR MODULE · MONITOR · The R250 module provides studio monitoring and talkback from the console to six · This module is equipped with a four input switcher that is used to select · locations_ · the program to be fed to the six locations · The six momentary talkback pushbutto
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p69 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p69%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p69 (traced).dxf`).
+
+### Page 70
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 37–334 mm across, 43–391 mm up
+- **Outlines:** line 1,149 rings, 13,448 straight (31,858 mm) / 1,538 curved (2,224 mm); text 346 rings, 2,815 straight (3,418 mm) / 664 curved (990 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 3.7 @ (238.8, 166.6), r 3.7 @ (77.6, 167.6), r 1.5 @ (169.3, 94.7), r 1.5 @ (175.9, 94.6)
+- **Closed boxes:** 231; named: E15 EE 33 92 22 HLa Ji He Bi Slla; E15; EE 92; 33; 33 22; Ji; Bi; HLa
+- **Dots (junctions):** 1
+- **Words (OCR):** 11 in 8 lines: 21 · E15 EE · 33 · 92 · 22 · Ji · He Bi Slla · HLa
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p70 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p70%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p70 (traced).dxf`).
+
+### Page 71
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 38–334 mm across, 6–421 mm up
+- **Outlines:** line 699 rings, 10,551 straight (22,649 mm) / 1,736 curved (2,246 mm); text 318 rings, 2,330 straight (2,505 mm) / 688 curved (928 mm)
+- **Closed boxes:** 21; named: 88; Id
+- **Dots (junctions):** 1
+- **Words (OCR):** 6 in 6 lines: 88 · 11 · Id · 228222 · 88 · 52
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p71 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p71%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p71 (traced).dxf`).
+
+### Page 72
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 40–334 mm across, 15–418 mm up
+- **Outlines:** line 808 rings, 8,747 straight (17,560 mm) / 1,692 curved (2,142 mm); text 274 rings, 1,636 straight (1,559 mm) / 585 curved (721 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 2.1 @ (278.6, 333.7), r 1.8 @ (278.6, 329.4), r 1.7 @ (284.7, 371.2), r 1.7 @ (280.5, 381.0)
+- **Closed boxes:** 80; named: 8N Rx 87 T20; 400; Rx 87 8R 4 0 0; 87 AN; Rx ?3 8N
+- **Dots (junctions):** 1
+- **Words (OCR):** 20 in 14 lines: 400 · Rx 8 · Rx 87 · 8N T20 · Rx · 31 11 · I3 · Ia · 38 · 8n {00 · Rx ?3 8N · Rx 87 8R 4 0 0
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p72 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p72%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p72 (traced).dxf`).
+
+### Page 73
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 37–334 mm across, 9–422 mm up
+- **Outlines:** line 640 rings, 7,476 straight (14,539 mm) / 1,479 curved (1,891 mm); text 353 rings, 2,038 straight (1,866 mm) / 723 curved (921 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 1.6 @ (283.2, 364.5), r 1.6 @ (283.2, 374.8), r 1.2 @ (166.2, 379.2), r 1.2 @ (173.3, 332.0)
+- **Closed boxes:** 31; named: 83; 53; 85 8f AN 4D(C; Rx
+- **Dots (junctions):** 3
+- **Words (OCR):** 12 in 10 lines: 83 · 83 · 53 · 53 · 38 · 33 · 38 · 38 · Rx · 85 8f AN 4D(C
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p73 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p73%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p73 (traced).dxf`).
+
+### Page 74
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–334 mm across, 4–418 mm up
+- **Outlines:** line 1,042 rings, 11,255 straight (20,907 mm) / 2,277 curved (2,871 mm); text 437 rings, 2,518 straight (2,328 mm) / 913 curved (1,167 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 1.7 @ (284.9, 371.1), r 1.6 @ (280.8, 381.0), r 1.2 @ (168.5, 400.1), r 1.1 @ (202.6, 349.9)
+- **Closed boxes:** 67; named: 88; 83; 53; 33; Rx ? RN *00; E<o0; 8N {<a8 Rx ?7; 8x ?7
+- **Words (OCR):** 17 in 14 lines: 13 · 83 · 53 · 53 · 33 · 88 · 53 · 58 · 98 · 89 · Rx ? RN *00 · E<o0 Rx ?7
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p74 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p74%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p74 (traced).dxf`).
+
+### Page 75
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 38–333 mm across, 15–419 mm up
+- **Outlines:** line 1,010 rings, 13,773 straight (27,653 mm) / 2,359 curved (2,972 mm); text 455 rings, 2,627 straight (2,339 mm) / 893 curved (1,121 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.4 @ (280.8, 380.8), r 1.1 @ (118.2, 346.6), r 1.1 @ (156.2, 346.3)
+- **Closed boxes:** 82; named: k8; 68888838  %8; 68338853 Go83; 68383353 6o38; 8 1; 222222 VDO GND GNU
+- **Dots (junctions):** 1
+- **Words (OCR):** 19 in 18 lines: 68888838  %8 68338853 · 68383353 · Go83 · 6o38 · 8 1 · k8 · 222222 · 8 2 · VDO · GND · GNU · 22
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p75 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p75%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p75 (traced).dxf`).
+
+### Page 76
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–334 mm across, 1–430 mm up
+- **Outlines:** line 673 rings, 8,946 straight (18,312 mm) / 1,549 curved (1,962 mm); text 99 rings, 705 straight (763 mm) / 217 curved (308 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.6 @ (284.2, 363.8)
+- **Closed boxes:** 49; named: 88; (DOCWLOI 58 3 6; 22?
+- **Dots (junctions):** 1
+- **Words (OCR):** 6 in 5 lines: 88 · 88 · (DOCWLOI 58 · 3 6 · 22?
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p76 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p76%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p76 (traced).dxf`).
+
+### Page 77
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–334 mm across, 0–417 mm up
+- **Outlines:** line 31 rings, 1,006 straight (941 mm) / 85 curved (93.9 mm); text 14 rings, 224 straight (356 mm) / 43 curved (93.4 mm)
+- **Words (OCR):** 3 in 2 lines: WES · Uection 8 R258
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p77 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p77%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p77 (traced).dxf`).
+
+### Page 78
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 325–334 mm across, 11–430 mm up
+- **Outlines:** line 37 rings, 143 straight (80.3 mm) / 12 curved (10.5 mm)
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p78 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p78%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p78 (traced).dxf`).
+
+### Page 79
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 32–334 mm across, 4–423 mm up
+- **Outlines:** line 148 rings, 1,470 straight (2,916 mm) / 244 curved (392 mm); text 479 rings, 3,769 straight (4,386 mm) / 1,027 curved (1,489 mm)
+- **Circles and arcs:** 17 circles, 0 arcs; largest r 2.0 @ (265.9, 221.8), r 2.0 @ (266.2, 358.7), r 1.9 @ (265.9, 324.4), r 1.9 @ (265.9, 311.6)
+- **Words (OCR):** 22 in 22 lines: R258 · R258 · CLEAN FEED MODULE · The R258 Clean Feed · Module can provide mix minus sends to feed up to six · telephone hybrids_ · Front panel pushbuttons allow assignment of Mono Mix 1, Mono · MIX · Mix 2 or both to any of the six send outputs. · MIX 2 · The return signal from any or all hybrids m
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p79 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p79%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p79 (traced).dxf`).
+
+### Page 80
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 63–333 mm across, 38–395 mm up
+- **Outlines:** line 1,333 rings, 14,617 straight (33,072 mm) / 2,188 curved (3,160 mm); text 265 rings, 2,058 straight (2,644 mm) / 501 curved (763 mm)
+- **Circles and arcs:** 18 circles, 0 arcs; largest r 3.7 @ (264.5, 177.1), r 3.7 @ (103.7, 177.4), r 1.6 @ (163.7, 320.8), r 1.6 @ (163.7, 368.4)
+- **Closed boxes:** 189; named: JI
+- **Dots (junctions):** 3
+- **Words (OCR):** 3 in 2 lines: 88 Aed · JI
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p80 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p80%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p80 (traced).dxf`).
+
+### Page 81
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 30–334 mm across, 15–420 mm up
+- **Outlines:** line 389 rings, 7,363 straight (17,858 mm) / 919 curved (1,215 mm); text 201 rings, 1,488 straight (1,480 mm) / 404 curved (518 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.1 @ (278.8, 333.6), r 1.8 @ (278.7, 329.4)
+- **Closed boxes:** 88; named: 84
+- **Dots (junctions):** 2
+- **Words (OCR):** 4 in 3 lines: 84 · 01 · 04 2 4
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p81 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p81%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p81 (traced).dxf`).
+
+### Page 82
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 40–334 mm across, 16–421 mm up
+- **Outlines:** line 1,048 rings, 10,973 straight (18,264 mm) / 2,381 curved (2,918 mm); text 143 rings, 968 straight (896 mm) / 325 curved (422 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 1.1 @ (259.4, 354.4), r 1.0 @ (118.7, 82.2), r 1.0 @ (124.2, 142.6), r 0.8 @ (99.6, 358.9)
+- **Closed boxes:** 3; named: 88
+- **Dots (junctions):** 2
+- **Words (OCR):** 8 in 7 lines: 88 · 33 · 8/3 63 · a1 · 29 · 58 · 29
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p82 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p82%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p82 (traced).dxf`).
+
+### Page 83
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 37–334 mm across, 7–420 mm up
+- **Outlines:** line 1,389 rings, 14,956 straight (26,599 mm) / 3,092 curved (3,735 mm); text 208 rings, 1,264 straight (1,346 mm) / 418 curved (554 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 1.1 @ (230.9, 142.5), r 1.0 @ (102.9, 105.5), r 1.0 @ (178.8, 115.7), r 0.9 @ (238.5, 304.6)
+- **Closed boxes:** 75; named: g8
+- **Words (OCR):** 6 in 6 lines: 58 · 98 · 98 · 58 · g8 · 38
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p83 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p83%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p83 (traced).dxf`).
+
+### Page 84
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 332–334 mm across, 4–424 mm up
+- **Outlines:** line 48 rings, 159 straight (93.3 mm) / 12 curved (10.4 mm)
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p84 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p84%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p84 (traced).dxf`).
+
+### Page 85
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–333 mm across, 2–418 mm up
+- **Outlines:** line 18 rings, 1,034 straight (904 mm) / 93 curved (111 mm); text 11 rings, 233 straight (342 mm) / 49 curved (94.7 mm)
+- **Words (OCR):** 3 in 2 lines: WES · Uection 9 | R259
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p85 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p85%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p85 (traced).dxf`).
+
+### Page 86
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 328–334 mm across, 2–430 mm up
+- **Outlines:** line 55 rings, 203 straight (115 mm) / 21 curved (17.2 mm)
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p86 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p86%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p86 (traced).dxf`).
+
+### Page 87
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 33–334 mm across, 6–398 mm up
+- **Outlines:** line 439 rings, 2,680 straight (4,063 mm) / 636 curved (936 mm); text 535 rings, 3,938 straight (4,537 mm) / 1,092 curved (1,590 mm)
+- **Circles and arcs:** 15 circles, 0 arcs; largest r 4.3 @ (280.0, 244.6), r 4.3 @ (279.7, 197.1), r 4.3 @ (280.3, 330.8), r 4.3 @ (280.4, 350.2)
+- **Words (OCR):** 16 in 16 lines: R259 · R259 · EQUALIZER MODULE · The R259 Equalizer module provides four independent stereo three band equalizers · in a single module strip_ · The equalizers may be wired into the insert point ofany of the · input modules by installing the appropriate jumpers on the motherboard: · The boost cut con
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p87 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p87%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p87 (traced).dxf`).
+
+### Page 88
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 64–332 mm across, 43–400 mm up
+- **Outlines:** line 1,008 rings, 11,644 straight (29,270 mm) / 1,434 curved (2,165 mm); text 370 rings, 2,654 straight (3,214 mm) / 677 curved (1,047 mm)
+- **Circles and arcs:** 16 circles, 0 arcs; largest r 3.7 @ (102.4, 158.4), r 3.7 @ (263.5, 157.8), r 1.5 @ (215.7, 238.2), r 1.5 @ (221.5, 102.0)
+- **Closed boxes:** 141
+- **Dots (junctions):** 2
+- **Words (OCR):** 10 in 7 lines: ek2l? · ald 2el3/? · 43 · 513 · E5 · 2/2 · 811 22 2/2
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p88 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p88%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p88 (traced).dxf`).
+
+### Page 89
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 27–334 mm across, 16–423 mm up
+- **Outlines:** line 1,101 rings, 12,418 straight (19,348 mm) / 2,538 curved (3,054 mm); text 259 rings, 1,790 straight (1,732 mm) / 528 curved (672 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.3 @ (246.9, 352.0)
+- **Closed boxes:** 8; named: 88; 88
+- **Words (OCR):** 6 in 5 lines: 11 · 12 21 · 88 · 28 · 8 8
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p89 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p89%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p89 (traced).dxf`).
+
+### Page 90
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 42–334 mm across, 2–425 mm up
+- **Outlines:** line 62 rings, 211 straight (120 mm) / 17 curved (14.3 mm)
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p90 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p90%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p90 (traced).dxf`).
+
+### Page 91
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–334 mm across, 16–429 mm up
+- **Outlines:** line 27 rings, 1,095 straight (935 mm) / 72 curved (84.9 mm); text 29 rings, 369 straight (579 mm) / 78 curved (173 mm)
+- **Words (OCR):** 4 in 3 lines: WBS · Uection 10 Console · Drawings
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p91 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p91%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p91 (traced).dxf`).
+
+### Page 92
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 328–334 mm across, 4–429 mm up
+- **Outlines:** line 40 rings, 138 straight (82.4 mm) / 11 curved (11.2 mm)
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p92 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p92%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p92 (traced).dxf`).
+
+### Page 93
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 12–334 mm across, 8–423 mm up
+- **Outlines:** line 624 rings, 7,660 straight (19,029 mm) / 980 curved (1,456 mm); text 250 rings, 1,924 straight (2,221 mm) / 557 curved (782 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.3 @ (302.1, 328.9)
+- **Closed boxes:** 68; named: E08 25; Ew Ib E3 37
+- **Words (OCR):** 8 in 7 lines: 69 · g37 · Ew E08 · E3 · Ib · 37 · 25
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p93 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p93%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p93 (traced).dxf`).
+
+### Page 94
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 13–334 mm across, 4–430 mm up
+- **Outlines:** line 602 rings, 5,018 straight (10,242 mm) / 728 curved (999 mm); text 79 rings, 679 straight (821 mm) / 200 curved (292 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 1.5 @ (117.7, 335.0), r 1.4 @ (121.7, 337.5), r 1.3 @ (303.2, 326.7), r 1.3 @ (210.9, 255.4)
+- **Closed boxes:** 32
+- **Words (OCR):** 1 in 1 lines: 22
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p94 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p94%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p94 (traced).dxf`).
+
+### Page 95
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 12–334 mm across, 16–429 mm up
+- **Outlines:** line 841 rings, 9,137 straight (22,036 mm) / 1,158 curved (1,649 mm); text 259 rings, 1,758 straight (1,889 mm) / 553 curved (763 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.1 @ (297.2, 398.9), r 1.3 @ (37.4, 316.5), r 1.3 @ (303.1, 325.7)
+- **Closed boxes:** 124
+- **Words (OCR):** 10 in 10 lines: Je · Ie · 03 · 0o · 83 · 53 · pNS · JNO · AND · ONJ
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p95 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p95%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p95 (traced).dxf`).
+
+### Page 96
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 12–333 mm across, 20–426 mm up
+- **Outlines:** line 1,358 rings, 14,495 straight (28,594 mm) / 2,502 curved (3,283 mm); text 337 rings, 2,131 straight (2,166 mm) / 789 curved (1,033 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.4 @ (80.5, 345.9), r 1.3 @ (46.9, 345.7), r 1.3 @ (144.9, 346.0)
+- **Closed boxes:** 127; named: (obowloa; 08; ZZZ222 GND GNDE 822828
+- **Dots (junctions):** 2
+- **Words (OCR):** 10 in 10 lines: 29 · 28 · 08 · (obowloa · Sodnc · ZZZ222 · GND · GNDE · 822828 · 2 3
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p96 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p96%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p96 (traced).dxf`).
+
+### Page 97
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 18–334 mm across, 5–425 mm up
+- **Outlines:** line 760 rings, 8,172 straight (18,587 mm) / 891 curved (1,264 mm); text 748 rings, 5,240 straight (6,179 mm) / 1,077 curved (1,502 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.1 @ (305.1, 364.6), r 2.1 @ (305.6, 312.6), r 2.0 @ (305.6, 316.7), r 1.7 @ (78.4, 279.6)
+- **Closed boxes:** 42; named: IH FRYOR LOCk; ERRCR LOCK; IH z8 FRIOR He Lock; IH FRYOR LOCk; IH EKToR; ERRCR LOCK
+- **Dots (junctions):** 1
+- **Words (OCR):** 13 in 11 lines: 82 · IH · IH · IH · z8 FRIOR · FRYOR · EKToR · ERRCR · He Lock · LOCk · LOCK
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p97 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p97%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p97 (traced).dxf`).
+
+### Page 98
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 12–334 mm across, 20–428 mm up
+- **Outlines:** line 495 rings, 5,136 straight (10,574 mm) / 810 curved (1,363 mm); text 142 rings, 1,146 straight (1,247 mm) / 350 curved (476 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 5.7 @ (120.3, 121.5), r 5.6 @ (92.3, 93.8), r 5.6 @ (120.3, 107.6), r 5.6 @ (134.2, 107.6)
+- **Closed boxes:** 28
+- **Dots (junctions):** 1
+- **Words (OCR):** 3 in 3 lines: JU · Iba · 38
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p98 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p98%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p98 (traced).dxf`).
+
+### Page 99
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 12–334 mm across, 6–426 mm up
+- **Outlines:** line 615 rings, 5,687 straight (11,212 mm) / 990 curved (1,318 mm); text 338 rings, 2,574 straight (3,162 mm) / 651 curved (972 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 1.9 @ (302.8, 331.3), r 1.9 @ (302.8, 334.9), r 1.8 @ (168.4, 261.5), r 1.7 @ (20.3, 197.2)
+- **Closed boxes:** 9; named: Okar; 2e CXDo ONv
+- **Words (OCR):** 12 in 11 lines: Iu · Okar · 22 · 042 · ONOV · 2e CXDo · ONv · @NSV · 83 · ONDV · ANSV
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p99 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p99%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p99 (traced).dxf`).
+
+### Page 100
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 14–334 mm across, 2–430 mm up
+- **Outlines:** line 920 rings, 8,018 straight (15,217 mm) / 1,410 curved (1,790 mm); text 419 rings, 2,715 straight (3,010 mm) / 806 curved (1,124 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.3 @ (161.1, 179.6), r 1.3 @ (289.5, 260.4)
+- **Closed boxes:** 106
+- **Words (OCR):** 4 in 4 lines: 8H · VI · Vu · VI
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p100 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p100%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p100 (traced).dxf`).
+
+### Page 101
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 12–334 mm across, 12–423 mm up
+- **Outlines:** line 1,561 rings, 13,806 straight (26,767 mm) / 2,622 curved (3,319 mm); text 242 rings, 1,710 straight (1,888 mm) / 529 curved (719 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 1.3 @ (159.8, 169.0), r 1.3 @ (112.3, 341.7), r 1.3 @ (303.4, 328.6), r 1.3 @ (252.9, 229.8)
+- **Closed boxes:** 213
+- **Words (OCR):** 3 in 3 lines: 7w · 28 · 3 3
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p101 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p101%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p101 (traced).dxf`).
+
+### Page 102
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 23–334 mm across, 29–423 mm up
+- **Outlines:** line 1,543 rings, 13,756 straight (23,668 mm) / 2,457 curved (2,842 mm); text 249 rings, 1,739 straight (1,934 mm) / 539 curved (740 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.3 @ (201.4, 326.0), r 1.3 @ (190.2, 226.2), r 1.3 @ (23.9, 46.6)
+- **Closed boxes:** 24; named: 28
+- **Dots (junctions):** 1
+- **Words (OCR):** 4 in 4 lines: 57 · 01 · Ih · 28
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p102 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p102%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p102 (traced).dxf`).
+
+### Page 103
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 12–334 mm across, 3–425 mm up
+- **Outlines:** line 663 rings, 8,129 straight (18,001 mm) / 1,138 curved (1,532 mm); text 406 rings, 2,842 straight (3,012 mm) / 748 curved (1,007 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 1.9 @ (302.8, 387.9), r 1.6 @ (305.6, 323.0), r 1.2 @ (234.0, 102.1), r 1.2 @ (30.8, 166.1)
+- **Closed boxes:** 17; named: 4k
+- **Dots (junctions):** 2
+- **Words (OCR):** 2 in 2 lines: 4k · 51
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p103 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p103%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p103 (traced).dxf`).
+
+### Page 104
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 13–332 mm across, 19–424 mm up
+- **Outlines:** line 768 rings, 7,451 straight (18,060 mm) / 1,141 curved (1,542 mm); text 310 rings, 2,150 straight (2,401 mm) / 623 curved (864 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 1.9 @ (302.8, 383.6), r 1.6 @ (23.0, 98.4), r 1.6 @ (160.2, 298.3), r 1.6 @ (23.0, 101.6)
+- **Closed boxes:** 6
+- **Dots (junctions):** 4
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p104 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p104%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p104 (traced).dxf`).
+
+### Page 105
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 12–334 mm across, 6–425 mm up
+- **Outlines:** line 982 rings, 11,017 straight (20,216 mm) / 2,070 curved (2,723 mm); text 678 rings, 4,152 straight (4,058 mm) / 1,335 curved (1,747 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 1.5 @ (267.4, 199.6), r 1.5 @ (249.3, 183.1), r 1.1 @ (184.2, 28.9), r 1.1 @ (121.4, 56.0)
+- **Closed boxes:** 28; named: bi
+- **Words (OCR):** 6 in 6 lines: 84 · VV · 94 · 83 · 01 · bi
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p105 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p105%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p105 (traced).dxf`).
+
+### Page 106
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 329–334 mm across, 12–418 mm up
+- **Outlines:** line 17 rings, 54 straight (31.5 mm) / 4 curved (4.0 mm)
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p106 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p106%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p106 (traced).dxf`).
+
+### Page 107
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–334 mm across, 5–426 mm up
+- **Outlines:** line 29 rings, 1,087 straight (935 mm) / 86 curved (98.7 mm); text 14 rings, 246 straight (387 mm) / 35 curved (66.2 mm)
+- **Words (OCR):** 3 in 2 lines: WBS · 8ection 11 Turret
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p107 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p107%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p107 (traced).dxf`).
+
+### Page 108
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 331–333 mm across, 0–425 mm up
+- **Outlines:** line 27 rings, 104 straight (58.2 mm) / 5 curved (4.7 mm)
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p108 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p108%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p108 (traced).dxf`).
+
+### Page 109
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–334 mm across, 32–395 mm up
+- **Outlines:** line 17 rings, 74 straight (61.1 mm) / 10 curved (15.4 mm); text 1,083 rings, 9,177 straight (10,514 mm) / 2,574 curved (4,024 mm)
+- **Words (OCR):** 21 in 18 lines: R257 TURRET · The R257 Studio Turret is designed to provide the following functions from · studio or a location away from the control room where · the console is located: · external control of the channel ONIOFF of an input module · provide talkback control from the studio to the control room by act
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p109 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p109%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p109 (traced).dxf`).
+
+### Page 110
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 56–300 mm across, 119–395 mm up
+- **Outlines:** line 70 rings, 3,125 straight (9,514 mm) / 192 curved (318 mm); text 829 rings, 7,114 straight (8,842 mm) / 1,840 curved (2,963 mm)
+- **Closed boxes:** 69; named: Binary Position Function Decimal No Addr; Position No; Function; Decimal Address; Binary Address; Input or 8x2 Selector Module; 16; 1 0 0 0 0; Input or 8x2 Selector Module; 17; 1 0 0 0 1; Input Module
+- **Words (OCR):** 67 in 63 lines: PROGRAMMING THE R257 TURRET · Each module (channel) slot in an RZK audio console has its' unique binary coded · address_ · The channel slots are coded (from left to right) as follows: · MODULE SLOT ADDRESS FOR R2KI12 · Position Function · Decimal · Binary · No · Address · Address · Input or 8x2 Sele
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p110 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p110%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p110 (traced).dxf`).
+
+### Page 111
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 55–282 mm across, 56–395 mm up
+- **Outlines:** line 102 rings, 4,745 straight (13,745 mm) / 308 curved (504 mm); text 887 rings, 7,468 straight (9,319 mm) / 1,904 curved (3,061 mm)
+- **Closed boxes:** 97; named: Decimal Address; Function; Binary Address; Input or 8x2 Selector Module; 0 1 0 0 0; Input or 8x2 Selector Module; 0 1 0 0 1; Input Module; 10; 0 1 0 1 0; Input Module; 11
+- **Words (OCR):** 93 in 88 lines: MODULE SLOT ADDRESS FOR R2KI2O · Position Function · Decimal · Binary · No_ · Address · Address · Input or 8x2 Selector Module · 0 1 0 0 0 · Input or 8x2 Selector Module · 0 1 0 0 1 · Input Module
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p111 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p111%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p111 (traced).dxf`).
+
+### Page 112
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 55–326 mm across, 31–396 mm up
+- **Outlines:** line 114 rings, 5,008 straight (14,748 mm) / 368 curved (608 mm); text 917 rings, 7,776 straight (9,548 mm) / 1,899 curved (3,145 mm)
+- **Closed boxes:** 108; named: Function; Position No_; Decimal Address; Binary Address; Input or 8x2 Selector Module; 0 0 0 0 0; Input or 8x2 Selector Module; 0 0 0 0 1; Input Module; 0 0 0 1 0; 0 0 0 1 1; Input Module
+- **Words (OCR):** 93 in 89 lines: MODULE SLOT ADDRESS FOR R2KI28 · Position Function · Decimal Binary · No_ · Address · Address · Input or 8x2 Selector Module · 0 0 0 0 0 · Input or 8x2 Selector Module · 0 0 0 0 1 · Input Module · 0 0 0 1 0
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p112 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p112%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p112 (traced).dxf`).
+
+### Page 113
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 54–301 mm across, 69–398 mm up
+- **Outlines:** line 72 rings, 2,176 straight (6,294 mm) / 144 curved (240 mm); text 1,551 rings, 13,170 straight (15,167 mm) / 3,797 curved (5,914 mm)
+- **Closed boxes:** 36; named: 27 Input or 8x2 Selector Module 26 1 1 0; 27; Input or 8x2 Selector Module; 26; 1 1 0 1 0; 28; Input or 8x2 Selector Module; 27; 1 1 0 1 1; Program Master Module; 28; 1 1 1 0 0
+- **Words (OCR):** 74 in 65 lines: 27 · Input or 8x2 Selector Module 26 · 1 1 0 1 0 · 28 · Input or 8x2 Selector Module 27 · 1 1 0 1 1 · Program Master Module · 29 · 28 · 1 1 1 0 0 · Control Room Monitor · 30
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p113 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p113%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p113 (traced).dxf`).
+
+### Page 114
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 29–333 mm across, 0–421 mm up
+- **Outlines:** line 410 rings, 5,283 straight (11,728 mm) / 743 curved (1,011 mm); text 115 rings, 987 straight (1,083 mm) / 282 curved (401 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.4 @ (131.2, 58.6), r 1.4 @ (67.9, 169.2)
+- **Closed boxes:** 11; named: 21
+- **Words (OCR):** 1 in 1 lines: 21
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p114 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p114%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p114 (traced).dxf`).
+
+### Page 115
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 26–334 mm across, 13–416 mm up
+- **Outlines:** line 707 rings, 12,106 straight (20,513 mm) / 2,211 curved (2,807 mm); text 259 rings, 1,575 straight (1,372 mm) / 571 curved (708 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.1 @ (111.0, 131.2)
+- **Closed boxes:** 38
+- **Dots (junctions):** 2
+- **Words (OCR):** 8 in 7 lines: 19 · 96 2 9 · Ii · 2 3 · 98 · 09 · 29
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p115 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p115%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p115 (traced).dxf`).
+
+### Page 116
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 28–293 mm across, 10–414 mm up
+- **Outlines:** line 1,064 rings, 15,607 straight (27,864 mm) / 2,597 curved (3,401 mm); text 182 rings, 1,170 straight (1,093 mm) / 382 curved (496 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.1 @ (181.1, 67.6)
+- **Closed boxes:** 163; named: VDD SND CND; DI Jm UO; 222928; 918; 68838863 6o33
+- **Dots (junctions):** 2
+- **Words (OCR):** 10 in 10 lines: VDD · SND · CND · Jm UO · DI · d3 · 222928 · 918 · 68838863 · 6o33
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p116 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p116%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p116 (traced).dxf`).
+
+### Page 117
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 27–334 mm across, 11–414 mm up
+- **Outlines:** line 490 rings, 7,276 straight (14,485 mm) / 1,070 curved (1,460 mm); text 56 rings, 311 straight (285 mm) / 112 curved (134 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.1 @ (147.4, 224.8)
+- **Closed boxes:** 121; named: 922428; 2229; 6083; 83
+- **Words (OCR):** 4 in 4 lines: 922428 · 2229 · 6083 · 83
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p117 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p117%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p117 (traced).dxf`).
+
+### Page 118
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 27–333 mm across, 4–414 mm up
+- **Outlines:** line 534 rings, 8,211 straight (16,808 mm) / 1,269 curved (1,654 mm); text 173 rings, 1,120 straight (1,000 mm) / 383 curved (481 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 0.9 @ (81.6, 170.2)
+- **Closed boxes:** 34; named: 21
+- **Words (OCR):** 6 in 5 lines: 21 · 18 · 28 < · 48 · 02 01
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p118 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p118%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p118 (traced).dxf`).
+
+### Page 119
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 33–285 mm across, 32–395 mm up
+- **Outlines:** line 1 rings, 2 straight (1.3 mm) / 1 curved (1.6 mm); text 2,461 rings, 20,340 straight (23,259 mm) / 6,004 curved (9,344 mm); tb 4 rings, 14 straight (16.0 mm) / 4 curved (6.8 mm)
+- **Words (OCR):** 52 in 43 lines: WARRANTY · AIl Ward-Beck Systems Ltd: products are warranted against defective materials · and workmanship for a period of one year from the date of shipment: · Ward-Beck Systems Ltd; will repair or replace, at its option and without charge , · all said products or parts thereof which upon factory i
+- **Title block:** (39, 21)–(294, 389) mm: AIl Ward-Beck Systems Ltd: products are warranted against defective materials · and workmanship for a period of one year from the date of shipment: · Ward-Beck Systems Ltd; will repair or replace, at 
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p119 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p119%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p119 (traced).dxf`).
+
+### Page 120
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 331–334 mm across, 99–427 mm up
+- **Outlines:** line 31 rings, 101 straight (58.8 mm) / 8 curved (6.6 mm)
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p120 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p120%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p120 (traced).dxf`).
+
+### Page 121
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–334 mm across, 6–419 mm up
+- **Outlines:** line 31 rings, 1,007 straight (940 mm) / 84 curved (97.0 mm); text 22 rings, 291 straight (462 mm) / 68 curved (160 mm)
+- **Words (OCR):** 3 in 2 lines: WBS · Uection 12 Torpey Clock
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p121 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p121%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p121 (traced).dxf`).
+
+### Page 122
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 327–333 mm across, 2–428 mm up
+- **Outlines:** line 27 rings, 108 straight (62.1 mm) / 7 curved (5.6 mm)
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p122 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p122%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p122 (traced).dxf`).
+
+### Page 123
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 64–334 mm across, 7–397 mm up
+- **Outlines:** line 349 rings, 3,767 straight (2,522 mm) / 765 curved (737 mm); text 508 rings, 4,068 straight (5,526 mm) / 1,131 curved (1,784 mm); tb 1 rings, 7 straight (7.6 mm) / 1 curved (1.0 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 49.8 @ (175.8, 345.3)
+- **Words (OCR):** 21 in 16 lines: TORPEY TIME · CPU-7BIDSP-17 (WBS) · REMOTE TIME DISPLAY · TECHNICAL INSTRUCTION MANUAL · First issue: Feb 15 999_ · Second Edition: Oct. 12, 1999 · Third Edition: Dec 999 · Fourth Edition: Oct 2001 · Fifth Edition: March 2003 · Torpey Controls & Engineering Limited · 98-2220 Midland Ave_ · Scarborou
+- **Title block:** (76, 160)–(277, 244) mm: CPU-7BIDSP-17 (WBS) · REMOTE TIME DISPLAY · TECHNICAL INSTRUCTION MANUAL · First issue: Feb 15 999_ · Second Edition: Oct. 12, 1999 · Third Edition: Dec 999
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p123 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p123%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p123 (traced).dxf`).
+
+### Page 124
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 331–332 mm across, 223–428 mm up
+- **Outlines:** line 9 rings, 30 straight (18.5 mm) / 3 curved (2.4 mm)
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p124 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p124%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p124 (traced).dxf`).
+
+### Page 125
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 32–334 mm across, 6–423 mm up
+- **Outlines:** line 253 rings, 787 straight (1,118 mm) / 249 curved (260 mm); text 314 rings, 2,471 straight (3,171 mm) / 665 curved (1,044 mm)
+- **Words (OCR):** 13 in 13 lines: TORPEY MODEL CPU-7B-WBS · Page · CONTENTS · This Technical manual contains: · Installation and Technical Description · 8 pages · Module Schematic · Drawing CPU-7B/2-1 · Display Schematic · Drawing DSP-17/2-1 · Warranty · 'PRODUCT WARRANTY'
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p125 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p125%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p125 (traced).dxf`).
+
+### Page 126
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 34–333 mm across, 18–421 mm up
+- **Outlines:** line 111 rings, 514 straight (871 mm) / 147 curved (159 mm); text 1,475 rings, 10,585 straight (12,276 mm) / 3,195 curved (4,756 mm); tb 3 rings, 7 straight (4.4 mm) / 4 curved (3.3 mm)
+- **Words (OCR):** 45 in 40 lines: TORPEY MODEL CPU-7B-WBS · Page · WTRODUCTION · The CPU-7BIDSP-17WBS DIGITAL TIME DISPLAY is a versatile display that is designed to be mounted · in a control console. It is a 'slave' · display of time data as delivered from a central Master Clock system. · On-board jumpers allow selection of differe
+- **Title block:** (128, 234)–(299, 431) mm: TORPEY MODEL CPU-7B-WBS · WTRODUCTION · The CPU-7BIDSP-17WBS DIGITAL TIME DISPLAY is a versatile display that is designed to be mounted · display of time data as delivered from a central Master Clock 
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p126 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p126%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p126 (traced).dxf`).
+
+### Page 127
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 33–318 mm across, 20–428 mm up
+- **Outlines:** line 14 rings, 1,163 straight (3,282 mm) / 61 curved (99.7 mm); text 2,921 rings, 21,670 straight (25,150 mm) / 6,473 curved (9,612 mm); tb 5 rings, 19 straight (17.7 mm) / 9 curved (8.5 mm)
+- **Closed boxes:** 11 (9 in the title block); named: CODE; ESE TC76 ESE TC89 ESE TC9O DQS SMPTE NPR
+- **Words (OCR):** 95 in 83 lines: TORPEY MODEL CPU-7B-WBS Page · INSTALLATION · PHYSICAL INSTALLATION · Referring to the enclosed mechanical drawing; mounting holes are provided to allow easy installation in · your console_ · A red acrylic bezel is recommended for the viewing window. · CQDE SELECTION · Since the CPU-7B is designed t
+- **Title block:** (43, 102)–(320, 432) mm: TORPEY MODEL CPU-7B-WBS Page · INSTALLATION · PHYSICAL INSTALLATION · Referring to the enclosed mechanical drawing; mounting holes are provided to allow easy installation in · your console_ · A red ac
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p127 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p127%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p127 (traced).dxf`).
+
+### Page 128
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 32–317 mm across, 14–423 mm up
+- **Outlines:** line 6 rings, 297 straight (751 mm) / 17 curved (25.1 mm); text 2,520 rings, 18,394 straight (20,879 mm) / 5,611 curved (8,254 mm)
+- **Words (OCR):** 55 in 43 lines: TORPEY MODEL CPU-7B-WBS Page · CIRCUIT DESCRIPTION · The CPU-7BIDSP-17 is made up of two circuit boards: a CPU-7B controller board and a DSP-17 display · board. Each type of board is described separately in the following pages_ · 2.0 CPU-7B CONTROLLER · Please refer to drawing CPU-7B/2-1 Schematic f
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p128 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p128%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p128 (traced).dxf`).
+
+### Page 129
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 31–333 mm across, 6–422 mm up
+- **Outlines:** line 88 rings, 687 straight (1,160 mm) / 181 curved (251 mm); text 2,069 rings, 15,440 straight (17,686 mm) / 4,416 curved (6,529 mm)
+- **Words (OCR):** 62 in 52 lines: TORPEY MODEL CPU-7B-WBS Page · 4.0 · DISPLAY MODES · The mode of operation is what decides what time value will appear on the display: You have a choice of · time zone offsets, including 30 minutes_ 12-hour or 24-hour formats are also available: · The mode of operation is controlled by selectively i
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p129 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p129%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p129 (traced).dxf`).
+
+### Page 130
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 34–333 mm across, 19–423 mm up
+- **Outlines:** line 17 rings, 343 straight (782 mm) / 35 curved (42.5 mm); text 669 rings, 5,016 straight (6,044 mm) / 1,405 curved (2,178 mm)
+- **Words (OCR):** 13 in 10 lines: TORPEY MODEL CPU-7B-WBS Page · DSP-17 DISPLAY BOARD · WTRODUCTION · The DSP-17 is a remote timer display board intended for use with the CPU-7 controller board. The · display features 0.56 ins. LEDs for hours, minutes and seconds display: · Please refer to the schematic labeled DSP-17 for connection
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p130 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p130%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p130 (traced).dxf`).
+
+### Page 131
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 31–316 mm across, 17–421 mm up
+- **Outlines:** line 24 rings, 432 straight (903 mm) / 68 curved (106 mm); text 2,474 rings, 18,949 straight (22,129 mm) / 5,433 curved (8,072 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 3.3 @ (84.6, 240.9)
+- **Closed boxes:** 1
+- **Words (OCR):** 48 in 39 lines: TORPEY MODEL CPU-7B-WBS Page · ADDENDUM · SEL -UP QF SOSS SYSTEMFORNPR CODE · Torpey Clock to operate on the National Public Radio system, it must receivve Time · In order for any · Packets from the SOSS system, which is communicating with NPR headquarters_ and receiving this data (among · others) ·
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p131 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p131%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p131 (traced).dxf`).
+
+### Page 132
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–332 mm across, 18–415 mm up
+- **Outlines:** line 1,331 rings, 16,293 straight (27,975 mm) / 3,317 curved (4,495 mm); text 414 rings, 2,755 straight (2,497 mm) / 921 curved (1,234 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.2 @ (74.4, 349.5), r 1.2 @ (276.5, 41.0)
+- **Closed boxes:** 127; named: Ie; JN]; Fezx; 22
+- **Dots (junctions):** 2
+- **Words (OCR):** 10 in 9 lines: Ie · Zn · 23 · 43 · 23 · JN] · Fezx · ailg 22 · 822
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p132 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p132%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p132 (traced).dxf`).
+
+### Page 133
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 11–324 mm across, 22–401 mm up
+- **Outlines:** line 771 rings, 13,521 straight (25,255 mm) / 2,338 curved (2,907 mm); text 281 rings, 2,521 straight (2,582 mm) / 718 curved (878 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.2 @ (308.8, 362.5)
+- **Closed boxes:** 40; named: NNNNNN cooowlo cuoul@; NNNNNNN cooblo TX T0; NNNNNNN
+- **Words (OCR):** 8 in 8 lines: NNNNNN · cooowlo · cuoul@ · NNNNNNN · cooblo · TX · T0 · NNNNNNN
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p133 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p133%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p133 (traced).dxf`).
+
+### Page 134
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 27–323 mm across, 28–406 mm up
+- **Outlines:** line 40 rings, 881 straight (1,215 mm) / 152 curved (220 mm); text 2,899 rings, 25,546 straight (25,397 mm) / 7,838 curved (10,751 mm)
+- **Words (OCR):** 55 in 42 lines: TORPEYCONTROLS ENGINEERING LIMITED · PRODUCL WARRANTY · Torpey Controls warrants all ofits products to be free from defects in materials and workmanship under · normal and proper use and service for one year from the date of shipment_ · Torpey Controls agrees to repair or · replace without charge (e
+
+Every curve, box, word and wire group: [1994 - R2K - Cool Grey Manualpdf (1) p134 (traced).json](1994%20-%20R2K%20-%20Cool%20Grey%20Manualpdf%20%281%29%20p134%20%28traced%29.json) (the CAD file: `1994 - R2K - Cool Grey Manualpdf (1) p134 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

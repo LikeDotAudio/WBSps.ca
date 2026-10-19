@@ -12,6 +12,228 @@ Wiki page: [M8200](../../../PAGES/M8200.md)
 - **Pages:** 21
 - **PDF created (scan date, not design date):** Mon Aug 17 17:16:13 2009 EDT
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 332 × 432 mm, 1540 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–304 mm across, 14–421 mm up
+- **Outlines:** line 24 rings, 576 straight (2,933 mm) / 52 curved (89.1 mm); text 160 rings, 1,824 straight (2,451 mm) / 515 curved (852 mm)
+- **Words (OCR):** 14 in 10 lines: WARD-BECK SYSTEMS LTD · WBS 841 proGAESS AVENUE; SCAAbOROUGH ONTARIO M1h 2x4 · FAX: 416/438-3865 · TELEPHONE; 416/438-6550 · M8200 · MICROPHONE PREAMPLIFIER · MANLAL LSSUE #2 · August 12, 1993 · /M8200#2.WP · MW9IOOL
+- **Title block:** (47, 380)–(264, 415) mm: WARD-BECK SYSTEMS LTD · WBS 841 proGAESS AVENUE; SCAAbOROUGH ONTARIO M1h 2x4 · FAX: 416/438-3865 · TELEPHONE; 416/438-6550
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp p1 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20p1%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 332 × 432 mm, 1540 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–304 mm across, 21–422 mm up
+- **Outlines:** line 60 rings, 1,154 straight (3,200 mm) / 172 curved (293 mm); text 1,647 rings, 10,565 straight (11,550 mm) / 3,527 curved (5,798 mm)
+- **Words (OCR):** 68 in 57 lines: WAAD-BECK SYSTems LTD. · IECHNCAL DAIA · M8200 MCRQPHQNE PREAMPLIELER · (TRANSFORMERLESS · REMQTE SENSITLITY · Gain: (Transducer) · 68 dB to 40 dB continuously variable: · 48 dB to 20 dB continuously variable · (with 20 dB input pad): · Input Sensitivity: · 30 dB continuously variable (remote or loc
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp p2 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20p2%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 332 × 432 mm, 1540 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 26–325 mm across, 22–421 mm up
+- **Outlines:** line 22 rings, 801 straight (2,603 mm) / 63 curved (106 mm); text 396 rings, 3,252 straight (3,800 mm) / 976 curved (1,554 mm)
+- **Words (OCR):** 30 in 19 lines: WAAD-BECK systems LTD_ · IECHNCAL DATA · M8200 MLCROPHONE PREAMPLLELER · (TRANSEQRMERLESSL REMOTE SENSITLYIIY) · Phasing: · The numbered terminal of the · input pair and the · numbered terminal of the output pair are in phase. · Power Requirements: · +/-22 volts DC, 80 ma · Ambient Temperature: 0 to
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp p3 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20p3%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 332 × 432 mm, 1540 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–305 mm across, 21–421 mm up
+- **Outlines:** line 25 rings, 775 straight (2,623 mm) / 92 curved (149 mm); text 1,871 rings, 12,017 straight (13,059 mm) / 4,060 curved (6,507 mm); tb 3 rings, 21 straight (21.0 mm) / 8 curved (12.1 mm)
+- **Words (OCR):** 127 in 69 lines: WAAD-BECK Systems LTD · GENERAL · M8200 MCROPHONE PREAMPLLEIER · The M8200 Microphone Preamplifier Along with the input preamplifier remote · with its transformerless input circuitry sensitivity adjustment capabilitics, the · and solid-state remote sensitivity capa- overall amplifier gain may be tri
+- **Title block:** (26, 219)–(296, 420) mm: WAAD-BECK Systems LTD · GENERAL · M8200 MCROPHONE PREAMPLLEIER · The M8200 Microphone Preamplifier Along with the input preamplifier remote · with its transformerless input circuitry sensitivity adjus
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp p4 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20p4%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 332 × 432 mm, 1540 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–302 mm across, 19–422 mm up
+- **Outlines:** line 26 rings, 823 straight (2,662 mm) / 79 curved (124 mm); text 3,253 rings, 20,967 straight (22,626 mm) / 7,113 curved (11,383 mm); tb 4 rings, 21 straight (30.7 mm) / 11 curved (16.8 mm)
+- **Words (OCR):** 223 in 107 lines: WAAD-BeCK Systems LTD_ · CIRCULI DESCRIPTION · M8200 MCROPHONE PREAMPLIFIER · Lnput · Preamplifie · The   microphone  input cable connects · The low noise preamplifier is of a dual · to pins 9 & K of the module connector, differential configuration made up of · with the cable shield wiring to pin Lj
+- **Title block:** (23, 94)–(214, 419) mm: WAAD-BeCK Systems LTD_ · CIRCULI DESCRIPTION · M8200 MCROPHONE PREAMPLIFIER · Lnput · Preamplifie · The   microphone  input cable connects · to pins 9 & K of the module connector, differential configu
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp p5 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20p5%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 31–330 mm across, 23–412 mm up
+- **Outlines:** line 22 rings, 743 straight (2,592 mm) / 101 curved (159 mm); text 3,101 rings, 20,412 straight (22,199 mm) / 6,883 curved (10,868 mm)
+- **Words (OCR):** 235 in 122 lines: WAAD-BECK systems LTD · CIRCUII DESCRIPTION · M8200_MICROPHONE PREAMPLIEIER · The overall amplifier gain is adjusted · It is normal practice when the external · by · gain trim control R35 (scc setup and · sensitivity control is wired to the M8200 · adjustment section · for  adjustment de- · Micropho
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp p6 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20p6%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–302 mm across, 20–409 mm up
+- **Outlines:** line 23 rings, 734 straight (2,603 mm) / 84 curved (140 mm); text 3,345 rings, 21,909 straight (23,614 mm) / 7,210 curved (11,469 mm); tb 2 rings, 13 straight (15.6 mm) / 6 curved (10.6 mm)
+- **Words (OCR):** 240 in 129 lines: WAAD-BECK Systems LTD; · [NSIALLATIONAND SETUE · M820Q MICROPHONE PREAMPLIEIER · Reference · If sclf or externally powered condenser · microphones are being used then there · Refer the technical manual of the is no · to · requirement for · the utilization · D8242 Audio · Distribution System and
+- **Title block:** (23, 68)–(292, 420) mm: WAAD-BECK Systems LTD; · [NSIALLATIONAND SETUE · M820Q MICROPHONE PREAMPLIEIER · Reference · If sclf or externally powered condenser · microphones are being used then there · Refer the technical manua
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp p7 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20p7%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 32–332 mm across, 22–421 mm up
+- **Outlines:** line 18 rings, 698 straight (2,524 mm) / 73 curved (128 mm); text 3,249 rings, 20,795 straight (22,429 mm) / 7,038 curved (11,239 mm); tb 6 rings, 44 straight (39.5 mm) / 12 curved (20.0 mm)
+- **Words (OCR):** 234 in 118 lines: WAAD-BECK systems LTD · NSTALLATIQNAND SETUE · M8200_ MCRQPHQNE PREAMPLIFIER · microphone receptacle, due consideration The remotc · input   sensitivity control · must be given t0 the type of connection · provides a 30 dB continuous · gain change · made. Solder type terminations are best; of the M82
+- **Title block:** (27, 97)–(296, 420) mm: WAAD-BECK systems LTD · NSTALLATIQNAND SETUE · M8200_ MCRQPHQNE PREAMPLIFIER · microphone receptacle, due consideration The remotc · input   sensitivity control · must be given t0 the type of connecti
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp p8 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20p8%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–302 mm across, 19–422 mm up
+- **Outlines:** line 23 rings, 781 straight (2,618 mm) / 99 curved (152 mm); text 491 rings, 3,649 straight (4,230 mm) / 1,177 curved (1,926 mm)
+- **Words (OCR):** 32 in 19 lines: WAAD-BeCK systems LTD · NSTALLATIONAND SETUE · M8200 MCROPHONE PREAMPLLELER · Qutputs · Thc · M8200   preamplifier  provides [wo · Refer t0 the Input/Output connections · 60 ohm isolated outputs: · The outputs · section of the D82I2 Audio Distribution · are designed t0 operate primarily into System 
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp p9 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20p9%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–302 mm across, 19–421 mm up
+- **Outlines:** line 21 rings, 657 straight (2,612 mm) / 60 curved (103 mm); text 2,936 rings, 19,441 straight (21,143 mm) / 6,588 curved (10,550 mm); tb 3 rings, 24 straight (25.5 mm) / 4 curved (7.4 mm)
+- **Words (OCR):** 216 in 132 lines: WAAO-BeCK SYSTems LTD; · INSIALLATIONAND SETUP · D8212 AUDIQ DISTRIBUTIQN SYSTEM · Unpacking · Power   Supplics arc · for · nominal · sct · 230v AC operation (link J2 in place on · Remove cquipment from packing carton the M8245 Power Supply) The primary · and examine for any damage that may · AC fus
+- **Title block:** (22, 48)–(293, 417) mm: WAAO-BeCK SYSTems LTD; · INSIALLATIONAND SETUP · D8212 AUDIQ DISTRIBUTIQN SYSTEM · Unpacking · Power   Supplics arc · for · nominal · sct · 230v AC operation (link J2 in place on · Remove cquipment fr
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp p10 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20p10%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 33–332 mm across, 23–411 mm up
+- **Outlines:** line 28 rings, 772 straight (2,894 mm) / 132 curved (221 mm); text 3,137 rings, 20,382 straight (21,864 mm) / 7,072 curved (11,130 mm); tb 1 rings, 6 straight (10.5 mm) / 4 curved (5.0 mm)
+- **Words (OCR):** 230 in 133 lines: WAAD-BECK Systems LTD; · INSTALLATION · AND SETUE · D824 AUDIQ DISTRIBUIIONSYSTEM · Input/QutoutConnections · and examine for the proper · intercon- · nection of link JI for HISV AC operation · Refer to page 7-1 and drawing D8242- or link J2 for 230V AC operation. Refer · 02-001 · for illustrated de
+- **Title block:** (27, 64)–(135, 421) mm: WAAD-BECK Systems LTD; · Input/QutoutConnections · 02-001 · for illustrated details of audio to · system interconnects · cable  shields be connected at one end · t0 · thc · audio · system   ground. Th
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp p11 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20p11%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–301 mm across, 11–421 mm up
+- **Outlines:** line 111 rings, 1,375 straight (3,745 mm) / 262 curved (391 mm); text 1,035 rings, 8,149 straight (9,475 mm) / 2,658 curved (4,340 mm)
+- **Dots (junctions):** 4
+- **Words (OCR):** 128 in 127 lines: WAAD-BeCK SYSTems LTD_ · PARIS LISI · M8200 MICRQPHONE PREAMPLLEIER · PART · DESCRIPTION · MEG · MEG PARINUMBER · CI To · Capacitor · 47 uF/S0 V · Philips · 035 90015
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp p12 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20p12%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 33–331 mm across, 13–422 mm up
+- **Outlines:** line 78 rings, 1,245 straight (3,467 mm) / 238 curved (382 mm); text 710 rings, 5,547 straight (6,483 mm) / 1,735 curved (2,791 mm); tb 27 rings, 175 straight (167 mm) / 56 curved (78.2 mm)
+- **Dots (junctions):** 4
+- **Words (OCR):** 97 in 94 lines: WAAD-BECK SYSTeMs LTD_ · PARTS LISI · M82OL MLCRQPHONE PREAMPLLEIER · PARL · DESCRIPTION · MFG · MEG PARLNUMBER · C46 · Capacitor · 22 uF/35 · Kemet · T3OOE226MO3SAS
+- **Title block:** (28, 164)–(216, 420) mm: WAAD-BECK SYSTeMs LTD_ · PARTS LISI · M82OL MLCRQPHONE PREAMPLLEIER · PARL · DESCRIPTION · MFG · C46 · Capacitor · 22 uF/35 · Kemet · C47 · 22 uF/35 · C48 · 47 uF/So V · Philips · C49 · 47 uF/SO V · C
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp p13 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20p13%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–304 mm across, 14–422 mm up
+- **Outlines:** line 146 rings, 1,959 straight (4,012 mm) / 379 curved (604 mm); text 739 rings, 5,724 straight (6,518 mm) / 1,841 curved (2,941 mm)
+- **Dots (junctions):** 13
+- **Words (OCR):** 123 in 117 lines: WAAD-BECK · systems LTD; · PARIS LIST · M8200 MICRQPHONE PREAMPLLELER · PARL · DESCRIPTION · MEG · MEG PARLNUMBER · Resistor 1/4w 59 8K2 · Philips · CR2S · RH
+- **Title block:** (25, 396)–(154, 421) mm: WAAD-BECK · systems LTD;
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp p14 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20p14%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 33–333 mm across, 12–421 mm up
+- **Outlines:** line 115 rings, 1,493 straight (3,641 mm) / 307 curved (468 mm); text 523 rings, 4,255 straight (4,913 mm) / 1,342 curved (2,134 mm)
+- **Dots (junctions):** 10
+- **Words (OCR):** 84 in 79 lines: WAAD-BECK systems LTD_ · PARISLSI · M8200 MLCROPHONE PREAMPLLELER · PARL · DESCRIPTION · MEG · MEG PARLNUMBER · RSo · Resistor 1/4w 59 27K · Philips · CR25 · RSI
+- **Title block:** (28, 395)–(136, 419) mm: WAAD-BECK systems LTD_
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp p15 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20p15%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–306 mm across, 10–421 mm up
+- **Outlines:** line 21 rings, 595 straight (2,635 mm) / 54 curved (93.2 mm); text 419 rings, 3,248 straight (3,844 mm) / 1,095 curved (1,745 mm); tb 25 rings, 435 straight (806 mm) / 106 curved (185 mm)
+- **Words (OCR):** 30 in 30 lines: WAAD-BeCK SYSTEmS LTD · PARIS LISI · M8200 MCROPHONE PREAMPLIEIER · MSCELLANEQUS COMPONENTS · USEDON · DESCRIPTION · MEG · MEG PARTNUMBER · HANDLE · Module Handle · WBS · B8205-004
+- **Title block:** (27, 28)–(308, 417) mm: WAAD-BeCK SYSTEmS LTD · PARIS LISI · M8200 MCROPHONE PREAMPLIEIER · MSCELLANEQUS COMPONENTS · USEDON · DESCRIPTION · MEG · MEG PARTNUMBER · HANDLE · Module Handle · WBS · B8205-004 · LKI To LK3 · 2 Pi
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp p16 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20p16%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–305 mm across, 13–422 mm up
+- **Outlines:** line 119 rings, 1,808 straight (5,984 mm) / 293 curved (592 mm); text 286 rings, 2,987 straight (4,012 mm) / 754 curved (1,331 mm); tb 9 rings, 146 straight (199 mm) / 21 curved (34.5 mm)
+- **Circles and arcs:** 22 circles, 0 arcs; largest r 4.6 @ (169.3, 231.0), r 4.6 @ (191.3, 183.7), r 4.6 @ (191.3, 171.8), r 4.6 @ (169.3, 242.9)
+- **Closed boxes:** 13 (7 in the title block)
+- **Dots (junctions):** 2
+- **Words (OCR):** 41 in 34 lines: WARD-BECK SYSTEMS LTD_ · SA14-146 · AUDIO TERMINAL · ASSEMBLY · +48v · TERMINAL · PHANTOM POWER · REFERENCE · SYSTEM GROUND · OUTPUT · OUTPUT · 10
+- **Title block:** (24, 98)–(152, 414) mm: WARD-BECK SYSTEMS LTD_ · TERMINAL · REFERENCE · MICROPHONE · RECEPTACE · RD · BK 15 · RD · 5k · BK · (LIN) · REMOTE · cwy · INPUT · SENSITIMTY · (WBS 10-037)
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp p17 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20p17%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 14–334 mm across, 56–383 mm up
+- **Outlines:** line 374 rings, 6,917 straight (11,679 mm) / 1,473 curved (2,045 mm); text 394 rings, 3,676 straight (3,505 mm) / 1,180 curved (1,615 mm)
+- **Closed boxes:** 13; named: U5 LM3IZLZ; U6 LMJJ7LZ
+- **Dots (junctions):** 1
+- **Words (OCR):** 150 in 141 lines: +10v · +20 · C16 · +48v · NoTe · 10/35 · S8P · CS 47 /50 · Uib · 47 /50 C4 · C1B · C25
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp p18 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20p18%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** schematic B8200-02-001, size B 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 16–432 mm up
+- **Outlines:** line 272 rings, 4,007 straight (6,095 mm) / 932 curved (1,200 mm); text 350 rings, 3,420 straight (3,382 mm) / 1,086 curved (1,558 mm)
+- **Centre lines:** 9,202 paths (66 closed); straight 6,999 mm, curved 63.8 mm; horizontal 1,956 mm, vertical 1,634 mm, diagonal 3,410 mm
+- **Circles and arcs:** 1 circles, 19 arcs; largest r 0.8 @ (187.0, 332.9)
+- **Closed boxes:** 5
+- **Words (OCR):** 83 in 67 lines: OFFSET · R3B · 22v · R39 · 0.+7/100, · R22 · UJA · OUTPUT · 10K C25 · C58 · NESSJJN · HF
+- **Title block:** (229, 44)–(320, 69) mm: WES WARD-BECK · SYSTEMS · M82oo
+- **Wiring (first pass):** 52 connected wire groups from 320 runs; labelled ends: 202 mm → R22, 10K, C25, R2J; 152 mm → C57, 27P, Rz, 58k; 120 mm → U2B, cJJ, 150/10, C3O; 119 mm → O7, SE, 22, C57; 92 mm → 0.+7/100,, NESSJJN, UJA
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp p19 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20p19%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 9–431 mm up
+- **Outlines:** line 628 rings, 6,401 straight (9,824 mm) / 1,535 curved (2,670 mm); text 265 rings, 2,179 straight (2,070 mm) / 705 curved (1,012 mm)
+- **Circles and arcs:** 18 circles, 0 arcs; largest r 6.9 @ (58.6, 227.4), r 6.4 @ (82.0, 290.9), r 6.4 @ (73.5, 227.4), r 6.4 @ (58.6, 277.9)
+- **Closed boxes:** 12; named: LoRI VILSC4
+- **Words (OCR):** 86 in 77 lines: ISSUE · 840 _K · LOK R39 22k · 4ZK · R14 · 429 S6P · S6P · 47P 2. 47 · SOT · C17 · Cri · C33
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp p20 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20p20%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** component layout 8200-06-001, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 7–425 mm up
+- **Outlines:** line 624 rings, 6,032 straight (7,499 mm) / 1,638 curved (1,748 mm); text 605 rings, 5,249 straight (5,034 mm) / 1,588 curved (1,867 mm); tb 114 rings, 1,127 straight (1,306 mm) / 355 curved (406 mm)
+- **Circles and arcs:** 16 circles, 0 arcs; largest r 7.8 @ (128.3, 290.9), r 6.4 @ (127.2, 269.1), r 6.4 @ (127.2, 254.2), r 6.3 @ (141.7, 254.2)
+- **Closed boxes:** 6 (1 in the title block); named: LorI VILSCA
+- **Words (OCR):** 105 in 83 lines: R14499 S6P · DIF · 592 · 15K R7 · C14 · WBS · 5o1 · CR2 5 6v 5-65p · LKI · NOTE · CrI IN756A · CANADA
+- **Title block:** (137, 49)–(320, 306) mm: 592 · WBS · LKI · NOTE · CANADA · 4-212 · 34 R44 · 32 4 R45 · {/50 · 452 · 6Ke · R2# · '000" LKz · '080; LK3 · 753 as · NOTE · C46 C47 · 868 @ · 22/35 22/55 · PHANTOM POHER LINK LKI IS · SHIPPED IN TH
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp p21 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20p21%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp p21 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

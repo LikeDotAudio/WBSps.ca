@@ -12,6 +12,457 @@ Wiki page: [MP1](../../../PAGES/MP1.md)
 - **Pages:** 42
 - **PDF created (scan date, not design date):** Mon Aug 17 17:17:10 2009 EDT
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–308 mm across, 0–426 mm up
+- **Outlines:** line 24 rings, 237 straight (917 mm) / 18 curved (26.1 mm); text 165 rings, 1,572 straight (1,942 mm) / 493 curved (769 mm)
+- **Words (OCR):** 9 in 9 lines: 841 Progress Avenue, Scarborough, Ontario MIH 2X4 · WARD-BECK SYSTEMS LTD · Fax: (416) 438-3865 · Telephone: (416) 438-6550 · MPI, MP2, MP3, MP4 · METER PANELS · MANUAL ISSUE #2 · January 8, 1992 · Mw900O2 /MPItoMPA WP
+- **Title block:** (25, 52)–(256, 417) mm: 841 Progress Avenue, Scarborough, Ontario MIH 2X4 · WARD-BECK SYSTEMS LTD · Fax: (416) 438-3865 · MPI, MP2, MP3, MP4 · METER PANELS · MANUAL ISSUE #2
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p1 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p1%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px); scale Options
+- **Ink extent:** 0–307 mm across, 0–426 mm up
+- **Outlines:** line 68 rings, 647 straight (1,705 mm) / 123 curved (184 mm); text 665 rings, 5,155 straight (6,082 mm) / 1,689 curved (2,739 mm); tb 11 rings, 89 straight (106 mm) / 20 curved (32.0 mm)
+- **Words (OCR):** 53 in 51 lines: WARD-BECK SYSTEMS LTD · IABLE OF CONTENTS · MPL MPZ MPZMPAMETER PANELS · SECTION · PAGE · Warranty · Main Frame Assemblx · General · WBS 2-107 VU Padboard · 2-1 · Parts List · 3-1
+- **Title block:** (24, 208)–(156, 416) mm: WARD-BECK SYSTEMS LTD · SECTION · Warranty · Main Frame Assemblx · General · WBS 2-107 VU Padboard · Parts List · Meter Panel Layouts · Drawing: · Schematic · II) · Subassemblies · M433LM434 Peak Prog
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p2 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p2%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–307 mm across, 0–426 mm up
+- **Outlines:** line 23 rings, 204 straight (869 mm) / 17 curved (26.1 mm); text 56 rings, 562 straight (769 mm) / 158 curved (254 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 3 in 3 lines: WARD-BECK SYSTEMS LTD · SECTION · MAIN FRAME ASSEMBLY
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p3 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p3%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–309 mm across, 14–426 mm up
+- **Outlines:** line 20 rings, 189 straight (792 mm) / 19 curved (31.3 mm); text 1,484 rings, 10,175 straight (10,754 mm) / 3,385 curved (5,219 mm); tb 23 rings, 353 straight (521 mm) / 87 curved (124 mm)
+- **Words (OCR):** 110 in 52 lines: WARD-BECK SYSTEMS LTD_ · GENERAL · MPLMPZ MPZ · MPA METER PANELS · The MPA, MP2, MP3 and MP4 Meter Panels Connections t0 the meters is made via a 12 · have been designed to accommodate one · way barrier strip conveniently mounted on · to four standard PPM or VU meters for · the rear panel. · uSC · i
+- **Title block:** (26, 239)–(305, 417) mm: WARD-BECK SYSTEMS LTD_ · GENERAL · MPLMPZ MPZ · MPA METER PANELS · The MPA, MP2, MP3 and MP4 Meter Panels Connections t0 the meters is made via a 12 · have been designed to accommodate one · way barri
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p4 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p4%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–309 mm across, 0–425 mm up
+- **Outlines:** line 114 rings, 1,694 straight (5,652 mm) / 298 curved (522 mm); text 339 rings, 2,848 straight (3,783 mm) / 838 curved (1,375 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 3.0 @ (231.7, 157.0), r 3.0 @ (178.4, 216.1), r 2.6 @ (129.2, 219.3), r 2.6 @ (160.7, 216.3)
+- **Closed boxes:** 14; named: R2 RJ R5; VU LosS R2 R3 R4 CALIBRATION IN IN IN IN; VU CALIBRATION IN  dBu; LosS IN dB; R2 IN OHMS; R3 IN OHMS; R4 IN OHMS; +14; -10; 2k4 3k6 4K7; 100 910 2KO; OPEN 8K2 2K4
+- **Words (OCR):** 60 in 53 lines: WARD-BECK SYSTEMS LTD. · WBS 2 Z VU PADBOARD · MPLMPZ MPZ · MPAMETER PANELS · PADBOARD COMPONENT LAYOUT · R2 · RJ · INPUT · BK · R5 · PADBOARD · SCHEMATIC
+- **Title block:** (26, 369)–(220, 419) mm: WARD-BECK SYSTEMS LTD. · WBS 2 Z VU PADBOARD · MPLMPZ MPZ · MPAMETER PANELS
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p5 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p5%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–306 mm across, 15–426 mm up
+- **Outlines:** line 74 rings, 928 straight (1,977 mm) / 214 curved (322 mm); text 656 rings, 4,953 straight (5,604 mm) / 1,555 curved (2,495 mm); tb 8 rings, 45 straight (41.6 mm) / 12 curved (14.9 mm)
+- **Words (OCR):** 64 in 54 lines: WARD-BECK SYSTEMS LTD: · PARTS LIST · MPLMPZMP3 MPAMETER PANELS · PART · DESCRIPTION · MFG · MEG PARLNUMBER · M433 · 4.0" Peak Program Meter · WBS · M433 · M434
+- **Title block:** (23, 34)–(206, 417) mm: WARD-BECK SYSTEMS LTD: · PARTS LIST · MPLMPZMP3 MPAMETER PANELS · PART · DESCRIPTION · MFG · M433 · 4.0" Peak Program Meter · WBS · M434 · 4.5" Peak Program Meter · 4.0" Amplified · VU Meter · M435 · 
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p6 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p6%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 0–426 mm up
+- **Outlines:** line 236 rings, 3,663 straight (13,234 mm) / 612 curved (954 mm); text 107 rings, 1,019 straight (1,265 mm) / 308 curved (481 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.0 @ (123.5, 191.5), r 1.9 @ (231.4, 109.7)
+- **Closed boxes:** 35
+- **Words (OCR):** 14 in 7 lines: WARD-BECK SYSTEMS LTD. · MPI · MP2 MP3 · METER_PANEL_LAYOUTS · MP1 Meter Panel · MP? Meter Panel · MP3 Meter Panel
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p7 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p7%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 16–426 mm up
+- **Outlines:** line 200 rings, 3,299 straight (10,665 mm) / 546 curved (830 mm); text 73 rings, 787 straight (1,004 mm) / 221 curved (344 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.8 @ (241.5, 125.8), r 1.8 @ (191.2, 125.7), r 1.8 @ (90.5, 125.8)
+- **Closed boxes:** 30
+- **Words (OCR):** 9 in 6 lines: WARD-BECK SYSTEMS LTD_ · MPA METER_PANEL_QUTLINE · 74 · MP4 Meter Panel · DA9OOOI / XLUP4 · 4-2
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p8 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p8%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–339 mm across, 39–407 mm up
+- **Outlines:** line 307 rings, 4,135 straight (12,963 mm) / 567 curved (1,330 mm); text 176 rings, 1,495 straight (2,032 mm) / 353 curved (568 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 16.0 @ (137.3, 56.4), r 12.8 @ (137.4, 56.5), r 9.3 @ (137.5, 56.2), r 1.7 @ (57.7, 206.7)
+- **Closed boxes:** 21; named: AC/0C ADAPTER
+- **Words (OCR):** 20 in 15 lines: M433 PPM · M435 VU · M4331 · P1-1 · P1-2 · P1-2 · +24v · COMMON · 0.75A · 18 · METER #1 METER · METER #3 METER
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p9 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p9%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** schematic B 8100-02-001, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–318 mm across, 19–406 mm up
+- **Outlines:** line 190 rings, 2,330 straight (8,486 mm) / 294 curved (557 mm); text 479 rings, 4,205 straight (5,697 mm) / 1,020 curved (1,633 mm); tb 2 rings, 56 straight (146 mm) / 1 curved (2.8 mm)
+- **Centre lines:** 3,784 paths (58 closed); straight 7,891 mm, curved 245 mm; horizontal 2,699 mm, vertical 2,570 mm, diagonal 2,622 mm
+- **Circles and arcs:** 10 circles, 18 arcs; largest r 4.8 @ (62.4, 375.1), r 3.8 @ (34.2, 161.3), r 3.8 @ (58.1, 161.2), r 3.8 @ (22.4, 161.3)
+- **Closed boxes:** 10
+- **Words (OCR):** 68 in 35 lines: M43L PPM · 543WL VU · 910 · 8K2 · 3k6 (-4dB) · P1-2 · 10 · 2K · METER #3 METER · NOTES: · METERS · #4 ILLUSTRA TE THE WIRING REQUIRED FOR THE
+- **Title block:** (202, 46)–(325, 71) mm: SYSTEMS · WBS · WARD-BECK · MPt To MP4
+- **Wiring (first pass):** 117 connected wire groups from 244 runs; labelled ends: 793 mm → 910, 8K2, (-4dB), 2K; 62 mm → 10; 59 mm → P1-2; 31 mm → METER #3, METER; 30 mm → METER #3, METER
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p10 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p10%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–307 mm across, 0–426 mm up
+- **Outlines:** line 26 rings, 244 straight (1,061 mm) / 21 curved (30.8 mm); text 54 rings, 522 straight (686 mm) / 164 curved (284 mm)
+- **Words (OCR):** 3 in 3 lines: WARD-BECK SYSTEMS LTD. · SECTION II · SUBASSEMBLIES
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p11 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p11%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–310 mm across, 18–426 mm up
+- **Outlines:** line 20 rings, 200 straight (736 mm) / 16 curved (20.7 mm); text 98 rings, 904 straight (1,119 mm) / 286 curved (446 mm)
+- **Words (OCR):** 5 in 5 lines: WARD-BECK SYSTEMS LTD: · M433/M434 PEAK PROGRAM METERS · Lssue#L · July 3, 199 1 · Mw90O0? /MPITOMPA WP
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p12 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p12%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px); scale , Meter Scale 1).
+- **Ink extent:** 7–305 mm across, 12–425 mm up
+- **Outlines:** line 29 rings, 229 straight (753 mm) / 44 curved (77.3 mm); text 1,309 rings, 8,773 straight (9,725 mm) / 2,979 curved (4,687 mm)
+- **Words (OCR):** 66 in 58 lines: WARD-BECK SYSTEMS LTD: · TECHNICAL DATA · M433/M434PEAKPROGRAMMETER · Input Sensitivity: · 0, +4,+8,+14 dBu (ref. 600 ohm source) · 0, +4, +8,+14 dBu (ref. 150 ohm source) · Strapable t0 within 25 dB between steps. · Frequency Response: +/-0.3 dB from 30 Hz t0 [5 kHz. · Noise: · 40 dB below referenc
+- **Title block:** (22, 298)–(275, 422) mm: WARD-BECK SYSTEMS LTD: · TECHNICAL DATA · M433/M434PEAKPROGRAMMETER · Input Sensitivity: · 0, +4,+8,+14 dBu (ref. 600 ohm source) · 0, +4, +8,+14 dBu (ref. 150 ohm source) · Strapable t0 within 25 dB 
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p13 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p13%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px); scale deflection
+- **Ink extent:** 0–308 mm across, 0–426 mm up
+- **Outlines:** line 22 rings, 168 straight (891 mm) / 9 curved (16.6 mm); text 1,661 rings, 11,583 straight (12,374 mm) / 3,825 curved (5,886 mm); tb 7 rings, 34 straight (27.9 mm) / 14 curved (22.0 mm)
+- **Words (OCR):** 103 in 60 lines: WARD-BECK SYSTEMS LTD. · GENERAL · M433LM434 PEAKPROGRAM METER · The M433/M434 Peak Program Meter has PPM meter scales are typically divided into · been designed to operate and comply with · 6 approximately equal · major divisions of · the specification set forth by the British · 4 dB cach. This all
+- **Title block:** (24, 247)–(305, 418) mm: WARD-BECK SYSTEMS LTD. · GENERAL · M433LM434 PEAKPROGRAM METER · The M433/M434 Peak Program Meter has PPM meter scales are typically divided into · been designed to operate and comply with · 6 approxi
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p14 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p14%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px); scale QPTIONS
+- **Ink extent:** 9–307 mm across, 17–425 mm up
+- **Outlines:** line 22 rings, 212 straight (697 mm) / 24 curved (37.0 mm); text 613 rings, 4,577 straight (5,178 mm) / 1,521 curved (2,339 mm); tb 41 rings, 803 straight (3,015 mm) / 104 curved (176 mm)
+- **Words (OCR):** 44 in 26 lines: WARD-BECK SYSTEMS LTD · SCALE QPTIONS · M433[M43A PEAK_PROGRAMMETER · The M433/M434 Peak Program Meters are · If no scale options are specified, the meter · available with numbcr of scale types_ · will · be   supplied with the standard BBC · Numbers have been · assigned to the · dif - · scale as
+- **Title block:** (24, 9)–(304, 419) mm: WARD-BECK SYSTEMS LTD · SCALE QPTIONS · M433[M43A PEAK_PROGRAMMETER · The M433/M434 Peak Program Meters are · If no scale options are specified, the meter · available with numbcr of scale types_ · wil
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p15 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p15%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px); scale QPTIONS
+- **Ink extent:** 0–336 mm across, 0–425 mm up
+- **Outlines:** line 47 rings, 1,132 straight (6,075 mm) / 138 curved (208 mm); text 216 rings, 2,014 straight (2,608 mm) / 554 curved (842 mm); tb 55 rings, 471 straight (958 mm) / 104 curved (201 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 3.7 @ (249.9, 100.0), r 3.7 @ (249.8, 265.6)
+- **Closed boxes:** 6; named: -12 -16 -20 dB; -12 -16 -20 dB; 18,7, -12 -16 ~20 dB; 18,7, -12 -16 ~20 dB
+- **Words (OCR):** 22 in 21 lines: WARD-BECK SYSTEMS LTD · SCALE QPTIONS · M43JM4L PEAKPROCRAMMETER · -12 · -16 · -20 · dB · Fig: 1-2 · METER SCALE 2 · Reference -8 with · t0 +6 yellow marker · -16
+- **Title block:** (24, 12)–(204, 420) mm: WARD-BECK SYSTEMS LTD · SCALE QPTIONS · M43JM4L PEAKPROCRAMMETER · -12 · -16 · -20 · dB · Fig: 1-2 · METER SCALE 2 · Reference -8 with · t0 +6 yellow marker · -16 · -12 · ~20 · dB · Fig: [-3 · METER S
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p16 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p16%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px); scale QPTIONS
+- **Ink extent:** 6–304 mm across, 18–426 mm up
+- **Outlines:** line 45 rings, 1,057 straight (5,908 mm) / 108 curved (192 mm); text 204 rings, 1,979 straight (2,488 mm) / 566 curved (884 mm); tb 49 rings, 556 straight (985 mm) / 125 curved (206 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 3.6 @ (246.0, 99.9), r 3.6 @ (245.9, 265.1)
+- **Closed boxes:** 6; named: +12 +16 +20 dBm 600n WE; +12 +16 +20 dBm 600n WE; REF +12 +16 dBu WE; REF +12 +16 dBu WE
+- **Words (OCR):** 23 in 21 lines: WARD-BECK SYSTEMS LTD · SCALE QPTIONS · M433M434 PEAK_PRQGRAM METER · +12 +16 · +20 · dBm 600n · WE · Fig: · METER SCALE · Reference +8 with +16 t0 +24 yellow marker · REF · +12
+- **Title block:** (21, 12)–(200, 419) mm: WARD-BECK SYSTEMS LTD · SCALE QPTIONS · M433M434 PEAK_PRQGRAM METER · +12 +16 · dBm 600n · WE · Fig: · METER SCALE · Reference +8 with +16 t0 +24 yellow marker · REF · +12 · dBu · WE · Fig: 1-5 · METE
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p17 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p17%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px); scale OPTONS
+- **Ink extent:** 1–333 mm across, 0–425 mm up
+- **Outlines:** line 53 rings, 1,041 straight (5,803 mm) / 141 curved (222 mm); text 163 rings, 1,691 straight (2,135 mm) / 497 curved (764 mm); tb 66 rings, 678 straight (1,198 mm) / 135 curved (219 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 3.7 @ (248.2, 266.6), r 3.7 @ (248.1, 101.0)
+- **Closed boxes:** 6; named: +12 dB; +12 dB; TEST +12 dB WE; TEST +12 dB WE
+- **Words (OCR):** 18 in 17 lines: WARD-BECK SYSTEMS LTD · SCALE OPTONS · M43M43A PEAKPRQGRAM METER · +12 · dB · Fig: 1-6 · METER SCALE 6 · Reference 0 · TEST · +12 · dB · WE
+- **Title block:** (23, 13)–(203, 421) mm: WARD-BECK SYSTEMS LTD · SCALE OPTONS · M43M43A PEAKPRQGRAM METER · dB · Fig: 1-6 · METER SCALE 6 · Reference 0 · TEST · dB · WE · Fig: 1-7 · METER SCALE 7 · Reference 0 Test · D491OO1 /SCALE6-7 · 3-4
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p18 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p18%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px); scale QPTIONS
+- **Ink extent:** 0–307 mm across, 0–425 mm up
+- **Outlines:** line 48 rings, 754 straight (3,556 mm) / 85 curved (127 mm); text 149 rings, 1,449 straight (1,903 mm) / 417 curved (641 mm); tb 31 rings, 281 straight (531 mm) / 58 curved (108 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 3.7 @ (246.7, 265.5)
+- **Closed boxes:** 3; named: -16 -12 -20 TEST WE; -16 -12 -20 TEST WE
+- **Words (OCR):** 12 in 12 lines: WARD-BECK SYSTEMS LTD · SCALE QPTIONS · M433/M434 PEAKPROGRAMMETER · -16 -12 · -20 · TEST · WE · Fig: 1-8 · METER SCALE 8 · Reference -8 Test with 0 to +6 yellow marker · DA9IOO1 /SCALEB · 3-5
+- **Title block:** (22, 12)–(202, 418) mm: WARD-BECK SYSTEMS LTD · SCALE QPTIONS · M433/M434 PEAKPROGRAMMETER · -16 -12 · -20 · TEST · WE · Fig: 1-8 · METER SCALE 8 · Reference -8 Test with 0 to +6 yellow marker · DA9IOO1 /SCALEB · 3-5
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p19 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p19%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–308 mm across, 0–426 mm up
+- **Outlines:** line 32 rings, 249 straight (997 mm) / 31 curved (45.4 mm); text 2,647 rings, 18,158 straight (19,503 mm) / 6,218 curved (9,454 mm)
+- **Words (OCR):** 190 in 108 lines: WARD-BECK SYSTEMS LTD · CIRCUIT DESCRIPTION · M433/M434 PEAKPROGRAM METER · SA4L-06O_PPMAMPLIFER_ASSEMBLY · (Refer_to_Schematic BLL06L-02-QQL · The   incoming balanced · audio signal is · connection · point when · it is necessary · attenuated by · a loss network
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p20 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p20%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px); scale (confirm linearity as in 5).
+- **Ink extent:** 0–307 mm across, 0–426 mm up
+- **Outlines:** line 24 rings, 187 straight (912 mm) / 21 curved (31.4 mm); text 2,287 rings, 15,681 straight (16,853 mm) / 5,350 curved (8,117 mm); tb 35 rings, 335 straight (434 mm) / 98 curved (149 mm)
+- **Words (OCR):** 172 in 95 lines: WARD-BECK SYSTEMS LTD · SEL-UP PROCEDURE · M433/M434 PEAKPROGRAMMETER · The M433/M434 PPM meters are · factory · needle on · the · dBu mark on · the · calibrated and · normally do · no  require
+- **Title block:** (24, 42)–(304, 419) mm: WARD-BECK SYSTEMS LTD · SEL-UP PROCEDURE · M433/M434 PEAKPROGRAMMETER · The M433/M434 PPM meters are · factory · needle on · the · dBu mark on · the · calibrated and · normally do · no  require · mete
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p21 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p21%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–425 mm up
+- **Outlines:** line 151 rings, 1,407 straight (2,578 mm) / 312 curved (436 mm); text 775 rings, 5,965 straight (7,009 mm) / 2,071 curved (3,238 mm)
+- **Closed boxes:** 1
+- **Dots (junctions):** 4
+- **Words (OCR):** 101 in 98 lines: WARD-BECK SYSTEMS LTD_ · PARIS LIST · M433/M434 PEAK PROGRAMMETER · PART · DESCRIPTION · MEG · MG PARTNUMBER · PPM Amplifier · WBS · SAI4-060 · Meter Movement · for M433 (4"=
+- **Title block:** (22, 325)–(206, 418) mm: WARD-BECK SYSTEMS LTD_ · PARIS LIST · M433/M434 PEAK PROGRAMMETER · PART · DESCRIPTION · MEG · PPM Amplifier · WBS · Meter Movement
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p22 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p22%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–425 mm up
+- **Outlines:** line 217 rings, 1,754 straight (3,034 mm) / 472 curved (691 mm); text 463 rings, 3,918 straight (4,546 mm) / 1,218 curved (1,888 mm)
+- **Dots (junctions):** 11
+- **Words (OCR):** 98 in 95 lines: WARD-BECK SYSTEMS LTD. · PARTS LISI · M433[M434 PEAKPROGRAM METER · PART · DESCRLPTION · MFG · MFG PARLNUMBER · R16 · Resistor 1/4w 596 · 82K · Philips · CR25
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p23 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p23%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 0–425 mm up
+- **Outlines:** line 114 rings, 1,238 straight (2,401 mm) / 301 curved (428 mm); text 283 rings, 2,285 straight (2,648 mm) / 713 curved (1,140 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 44 in 41 lines: WARD-BECK SYSTEMS LTD_ · PARTS LISI · M433/M434 PEAK PROGRAM METER · PART · DESCRIPTION · MEG · MEG PARTNUMBER · RS6 · Resistor 1/4W 50 · 3K3 · Philips · CR2S
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p24 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p24%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–310 mm across, 0–425 mm up
+- **Outlines:** line 99 rings, 823 straight (2,315 mm) / 124 curved (170 mm); text 291 rings, 3,531 straight (4,322 mm) / 1,049 curved (1,634 mm)
+- **Closed boxes:** 8
+- **Words (OCR):** 41 in 28 lines: WARD-BECK SYSTEMS LTD. · CONNECTOR LAYOUL · M433 M434 PEAK  PROGRAM METER · SUPPLY · VOLTAGE · OPT: LAMP VOLTAGE · EXTERNAL METER DRIVE · EXTERNAL METER DRIVE · SHIELD · SHIELD · PPM · INPUT
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p25 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p25%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–339 mm across, 65–368 mm up
+- **Outlines:** line 191 rings, 3,864 straight (9,024 mm) / 691 curved (967 mm); text 694 rings, 5,022 straight (5,297 mm) / 1,651 curved (2,337 mm)
+- **Closed boxes:** 1; named: U4
+- **Dots (junctions):** 3
+- **Words (OCR):** 164 in 154 lines: CAL · R16 · 22P · 82K · R64 · R21 · R62 · R36 · s0K · 47K · PI · +22v
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p26 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p26%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** schematic B 14-060-02-001, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 21–370 mm up
+- **Outlines:** line 171 rings, 2,916 straight (6,198 mm) / 554 curved (912 mm); text 696 rings, 5,197 straight (5,588 mm) / 1,724 curved (2,418 mm); tb 2 rings, 41 straight (134 mm) / 7 curved (14.7 mm)
+- **Centre lines:** 6,761 paths (77 closed); straight 7,247 mm, curved 448 mm; horizontal 1,841 mm, vertical 1,876 mm, diagonal 3,530 mm
+- **Circles and arcs:** 12 circles, 34 arcs; largest r 6.7 @ (64.6, 172.5), r 6.6 @ (64.6, 220.5), r 6.6 @ (64.7, 268.5), r 6.5 @ (64.5, 196.6)
+- **Words (OCR):** 142 in 128 lines: +22v · CRS · R52 · 1N4148 · 22K · R62 · R36 · R53 · 150P · 47k · 47k · UIB
+- **Title block:** (199, 49)–(322, 73) mm: WBS WARD-BECK · SYSTEMS · SA14-060
+- **Wiring (first pass):** 45 connected wire groups from 246 runs; labelled ends: 267 mm → CRS, 1N4148, R36, 47k; 239 mm → R36, 47k, +11v, R37; 178 mm → R23, SET 3, R24, 20k; 125 mm → R53, 2M2, R55, VM; 110 mm → LF3SJBN, R51
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p27 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p27%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p27 (traced).dxf`).
+
+### Page 28
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 17–339 mm across, 164–372 mm up
+- **Outlines:** line 706 rings, 5,359 straight (7,666 mm) / 1,612 curved (2,743 mm); text 181 rings, 1,423 straight (1,483 mm) / 528 curved (746 mm)
+- **Circles and arcs:** 103 circles, 0 arcs; largest r 10.0 @ (262.6, 228.4), r 9.9 @ (317.9, 228.4), r 4.0 @ (262.6, 228.3), r 4.0 @ (318.0, 228.3)
+- **Closed boxes:** 10
+- **Words (OCR):** 27 in 25 lines: SENSITIVITY   STRAP · 50_QHMS · 600_OHMS · THLD · SET 2% · SET 4% SET 5% · OdBm · Ea · STRAP · zik · 414142 · 2848
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p28 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p28%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p28 (traced).dxf`).
+
+### Page 29
+
+- **Sheet:** component layout 14-060-06-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–314 mm across, 20–354 mm up
+- **Outlines:** line 794 rings, 5,970 straight (7,514 mm) / 1,951 curved (2,138 mm); text 358 rings, 2,530 straight (2,480 mm) / 889 curved (1,052 mm); tb 28 rings, 230 straight (339 mm) / 61 curved (71.6 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 10.0 @ (58.5, 228.2), r 10.0 @ (114.4, 228.1), r 4.5 @ (150.2, 194.1), r 4.0 @ (114.4, 228.1)
+- **Closed boxes:** 13 (1 in the title block); named: THLD % SET 65 SET SET SET SET SET E82 Ed
+- **Words (OCR):** 46 in 36 lines: THLD % SET SET · SET · SET · SET 65 SET · E82 · STRFP · Ed E88 · E&e · 22229 · 89 8882 · 28802 · II
+- **Title block:** (63, 48)–(321, 196) mm: 14-060 · 47/16 · ISSUE · WBS WARD-BECK SYSTEMS · SA14-060
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p29 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p29%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p29 (traced).dxf`).
+
+### Page 30
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–307 mm across, 0–424 mm up
+- **Outlines:** line 28 rings, 230 straight (1,060 mm) / 16 curved (33.7 mm); text 87 rings, 807 straight (1,004 mm) / 232 curved (376 mm)
+- **Words (OCR):** 5 in 5 lines: WARD-BECK SYSTEMS LTD_ · M435/M436 VU METERS · Lssue_# · July 3, 199 [ · Mw9O002 /MPITOMPA WP
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p30 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p30%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p30 (traced).dxf`).
+
+### Page 31
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–309 mm across, 0–424 mm up
+- **Outlines:** line 36 rings, 275 straight (975 mm) / 44 curved (69.3 mm); text 1,162 rings, 8,161 straight (9,032 mm) / 2,631 curved (4,092 mm)
+- **Words (OCR):** 72 in 54 lines: WARD-BECK SYSTEMS LTD. · TECHNCAL DATA · M435[M436_VU METER · Input Sensitivity: · +14 dBu (ref . 600 ohm sourcc). · +43 · +8, +14 dBu (ref 150 ohm source) · Vernicr range: 4 dB min · Frequency Response: +/-0.25 dB 30 Hz to [5 kHz. · Noise: · Greater than 75 dB below 0 VU · reading:
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p31 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p31%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p31 (traced).dxf`).
+
+### Page 32
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–309 mm across, 0–424 mm up
+- **Outlines:** line 31 rings, 238 straight (986 mm) / 29 curved (50.4 mm); text 997 rings, 6,895 straight (7,472 mm) / 2,257 curved (3,493 mm)
+- **Words (OCR):** 65 in 34 lines: WARD-BECK SYSTEMS LTD. · GENERAL · M435[M436_VU METER · The M43S/M436 VU Meter and amplifier Integral loop through connections are · assembly   complies with ANSI standard · provided for the meter lamps · along with · #C16.5 with respect t0 meter ballistics and · a current · limiting resistor. · sca
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p32 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p32%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p32 (traced).dxf`).
+
+### Page 33
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–309 mm across, 17–424 mm up
+- **Outlines:** line 32 rings, 219 straight (918 mm) / 51 curved (81.5 mm); text 2,318 rings, 16,151 straight (17,705 mm) / 5,314 curved (8,224 mm)
+- **Words (OCR):** 131 in 82 lines: WARD-BECK SYSTEMS LTD_ · CIRCUIT DESCRIPTION · M435 LMj36_VU METER · SALLLLAMPLIEIERASSEMBLY · (Reter_to_Schematic BL4-12L-02-QQL) · Lnpu · Power_Supply_Decoupling · The signal applied t0 the actively balanc- · unregulated regulated positive · The · or · ed  input at
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p33 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p33%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p33 (traced).dxf`).
+
+### Page 34
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–307 mm across, 0–423 mm up
+- **Outlines:** line 543 rings, 3,650 straight (4,732 mm) / 1,269 curved (1,972 mm); text 537 rings, 3,721 straight (4,123 mm) / 1,312 curved (2,006 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 1.7 @ (135.2, 187.4), r 1.7 @ (78.9, 344.8), r 1.7 @ (135.9, 199.3), r 1.7 @ (280.0, 332.1)
+- **Closed boxes:** 6
+- **Words (OCR):** 44 in 37 lines: WARD-DECK SYSTEMS LTD: · Ra- #KUKE · HJSOJLLMLUINER · M435 /41s · mctet · Tnerony cal- · m *ior · feidna · Voratcd Jn · DL fcdr Teali- · Beryittit · Fdnner
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p34 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p34%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p34 (traced).dxf`).
+
+### Page 35
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–307 mm across, 0–423 mm up
+- **Outlines:** line 153 rings, 1,477 straight (2,675 mm) / 375 curved (551 mm); text 868 rings, 6,659 straight (7,681 mm) / 2,157 curved (3,365 mm); tb 14 rings, 205 straight (299 mm) / 59 curved (83.7 mm)
+- **Dots (junctions):** 8
+- **Words (OCR):** 121 in 115 lines: WARD-BECK SYSTEMS LTD. · PARTS LIST · M435 [M436_YUMETER · PART · DESCRIPTION · MFG · MEG PARTNMBER · VU Amplifier · WBS · SAI4-[21 · Meter Movement · for M435 (4")
+- **Title block:** (23, 328)–(208, 419) mm: WARD-BECK SYSTEMS LTD. · PARTS LIST · M435 [M436_YUMETER · PART · DESCRIPTION · MFG · VU Amplifier · WBS · Meter Movement
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p35 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p35%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p35 (traced).dxf`).
+
+### Page 36
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–423 mm up
+- **Outlines:** line 110 rings, 1,428 straight (2,967 mm) / 330 curved (500 mm); text 407 rings, 3,300 straight (3,828 mm) / 1,099 curved (1,709 mm); tb 15 rings, 88 straight (74.2 mm) / 21 curved (31.9 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 50 in 44 lines: WARD-BECK SYSTEMS LTD · PARTS LISI · M435/M436_YUMETER · PART · DESCRIPTION · MFG · MEG PARTNUMBER · R2I · Resistor 1/4w 50 SK · Philips · R22 · 3K9
+- **Title block:** (24, 108)–(158, 419) mm: WARD-BECK SYSTEMS LTD · PART · DESCRIPTION · R2I · Resistor 1/4w 50 SK · R22 · 3K9 · R23 · 470K · R24 · 3K9 · R2S · 240 · R26 · 22K · R27 · 24K · R28 · 3/75W 5% 330 · UI · Integrated Circuit · U2 · US
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p36 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p36%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p36 (traced).dxf`).
+
+### Page 37
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–304 mm across, 0–423 mm up
+- **Outlines:** line 109 rings, 847 straight (2,600 mm) / 128 curved (169 mm); text 286 rings, 3,559 straight (4,331 mm) / 1,084 curved (1,674 mm)
+- **Closed boxes:** 10
+- **Words (OCR):** 44 in 26 lines: WARD-BECK SYSTEMS LTD: · P1 CONNECTOR LAYOUT · M435 /M436 VU · METER · SUPPLY VOLTAGE · VU METER · LAMP SUPPLY VOLTAGE · EXTERNAL METER DRIVE · EXTERNAL METER   DRIVE · SHIELD · COMMON · VU INPUT
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p37 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p37%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p37 (traced).dxf`).
+
+### Page 38
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–337 mm across, 0–423 mm up
+- **Outlines:** line 42 rings, 521 straight (1,743 mm) / 82 curved (120 mm); text 187 rings, 2,213 straight (2,672 mm) / 680 curved (1,066 mm)
+- **Closed boxes:** 2
+- **Words (OCR):** 25 in 17 lines: WARD-BECK SYSTEMS LTD · CONNECTOR LAYOUT · P2 · M435 'M436 VU METER · LAMP · VOLTAGE · LAMP COMMON · TYPICAL MATING CONNECTOR_J2 · CRIMP TYPE · BERG · 65039-035 · (Mini-Latch Housing)
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p38 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p38%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p38 (traced).dxf`).
+
+### Page 39
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–339 mm across, 94–350 mm up
+- **Outlines:** line 152 rings, 2,889 straight (6,235 mm) / 512 curved (731 mm); text 542 rings, 4,382 straight (4,761 mm) / 1,480 curved (2,136 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.6 @ (188.1, 218.6)
+- **Closed boxes:** 1; named: U2
+- **Words (OCR):** 116 in 107 lines: 22P · CAL · R16 · R2O · 43k · R17 · 50k · Jok · R13 · +22v · U1B · 15k
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p39 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p39%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p39 (traced).dxf`).
+
+### Page 40
+
+- **Sheet:** schematic 14-121-02-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–313 mm across, 19–344 mm up
+- **Outlines:** line 57 rings, 886 straight (1,788 mm) / 170 curved (228 mm); text 314 rings, 2,721 straight (3,191 mm) / 833 curved (1,225 mm)
+- **Centre lines:** 2,901 paths (44 closed); straight 3,162 mm, curved 66.7 mm; horizontal 853 mm, vertical 739 mm, diagonal 1,570 mm
+- **Circles and arcs:** 3 circles, 11 arcs; largest r 1.8 @ (141.1, 320.5), r 1.8 @ (141.2, 330.7), r 1.5 @ (141.3, 320.4)
+- **Words (OCR):** 50 in 41 lines: CAL · R2O · METER DRIVE · U1B · R18 · LM8SJN · R22 · P1 · 10/25 · R18 · R19 · 10/25
+- **Title block:** (228, 47)–(320, 72) mm: WES WARD-BECK SYSTEMS · SA14-121
+- **Wiring (first pass):** 23 connected wire groups from 88 runs; labelled ends: 102 mm → R18, R19, 200, 470p; 49 mm → R22; 42 mm → LM8SJN, 10/25; 40 mm → COMMON; 28 mm → WES, WARD-BECK
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p40 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p40%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p40 (traced).dxf`).
+
+### Page 41
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 22–339 mm across, 153–295 mm up
+- **Outlines:** line 429 rings, 3,278 straight (5,059 mm) / 1,039 curved (2,031 mm); text 120 rings, 942 straight (902 mm) / 363 curved (510 mm)
+- **Circles and arcs:** 100 circles, 0 arcs; largest r 10.0 @ (266.0, 223.8), r 9.9 @ (321.1, 223.7), r 4.0 @ (265.9, 223.8), r 4.0 @ (321.2, 223.7)
+- **Closed boxes:** 6
+- **Words (OCR):** 21 in 19 lines: SENSTTMTY STRAP · 150 OHMS · 600 OHMS · SV1 · R1z · SENS · 5ok · StRAP 0 · OdBm · 31 · 32 · 8342222
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p41 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p41%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p41 (traced).dxf`).
+
+### Page 42
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–314 mm across, 19–370 mm up
+- **Outlines:** line 241 rings, 1,898 straight (3,328 mm) / 608 curved (1,075 mm); text 203 rings, 1,737 straight (1,978 mm) / 529 curved (773 mm); tb 25 rings, 277 straight (499 mm) / 69 curved (131 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 10.0 @ (58.6, 224.4), r 10.0 @ (114.5, 224.5), r 4.1 @ (114.5, 224.4), r 4.1 @ (58.6, 224.3)
+- **Closed boxes:** 4; named: SVI WBS CAL SENS CANADA STRAP 14-121 818
+- **Words (OCR):** 28 in 24 lines: SVI · WBS · SENS · CAL · CANADA · STRAP · 14-121 · 818 · ISSUE · 28 · 282222 · I1
+- **Title block:** (124, 47)–(322, 287) mm: WBS · CANADA · 14-121 · ISSUE · 22/25 · 22/25 · 22222 · WBS WARD-BECK SYSTEMS · SA14-121
+
+Every curve, box, word and wire group: [1992 - MP1 - MP2-MP3-MP4 Meter Panels p42 (traced).json](1992%20-%20MP1%20-%20MP2-MP3-MP4%20Meter%20Panels%20p42%20%28traced%29.json) (the CAD file: `1992 - MP1 - MP2-MP3-MP4 Meter Panels p42 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

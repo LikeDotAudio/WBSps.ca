@@ -16,6 +16,21 @@ Wiki page: [M462B](../../../PAGES/M462B.md)
 
 - **1976** (labelled): `DATE oct 76` — …2 3536 IRkm JSEDEON MAT L _ WARD-BECK BYSTEMS LTDL DRNE GEB DATE oct 76 CKD Bdu SCALE M462B E QUALIZER MODU LE: FUNCTIONAL DIAG RAM…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 3–424 mm across, 3–277 mm up
+- **Outlines:** line 401 rings, 6,534 straight (11,093 mm) / 730 curved (884 mm); text 296 rings, 2,248 straight (2,051 mm) / 486 curved (654 mm); tb 88 rings, 465 straight (322 mm) / 47 curved (45.7 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 3.6 @ (312.4, 185.9), r 1.5 @ (223.6, 125.2)
+- **Closed boxes:** 24 (21 in the title block); named: 4 -112; M462 B EQUALIZER MODULE DIAG RA M FUNCTI
+- **Dots (junctions):** 1
+- **Words (OCR):** 51 in 44 lines: MF · MF 2 · HF · Boost/ · Boostl · Boost/ · Boost/ · EQ · FREQ · FREQ · FREQ · FREQ
+- **Title block:** (146, 11)–(375, 61) mm: ISSJMOD [CKD · USEDON · MATL · 3536 RKM · WBS WAAD-BECK · DRN: GEB · M462 B · DATE Oct 76 · FINISH · CKD Pil · EQUALIZER MODULE · FUNCTIONAL · SCALE · 462 - 01-00 3
+
+Every curve, box, word and wire group: [1976 - M462B - Equalizer Module Functional p1 (traced).json](1976%20-%20M462B%20-%20Equalizer%20Module%20Functional%20p1%20%28traced%29.json) (the CAD file: `1976 - M462B - Equalizer Module Functional p1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

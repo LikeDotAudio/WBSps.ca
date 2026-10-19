@@ -15,6 +15,20 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 
 - **1999** (month): `NOV.05,1999` — …T WARD-BECK SYSTEMS R2K R2K FUNCTIONAL R251.DSN PAGE 2 OF 3 NOV.05,1999…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 4–431 mm across, 1–323 mm up
+- **Outlines:** line 124 rings, 1,486 straight (11,969 mm) / 80 curved (96.3 mm); text 736 rings, 4,708 straight (5,130 mm) / 1,361 curved (1,920 mm)
+- **Closed boxes:** 7; named: VU METER; VU METER; MUTE T\B SWITCHING
+- **Dots (junctions):** 2
+- **Words (OCR):** 133 in 75 lines: AUX METER · R203 CONTROL ROOM MONITOR MODULE · VU METER · VU METER · CUE AUDIO BUS · OUT2-L · LEFT · MUTE · IN1-L · OUT2 · IN1-R · OUT2-R
+- **Title block:** (316, 18)–(431, 39) mm: WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - R2K - R2Kfunctional_pg2 p1 (traced).json](1994%20-%20R2K%20-%20R2Kfunctional_pg2%20p1%20%28traced%29.json) (the CAD file: `1994 - R2K - R2Kfunctional_pg2 p1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

@@ -17,6 +17,471 @@ Wiki page: [M462](../../../PAGES/M462.md)
 - **1978** (labelled): `DATE OCT 78` — ….c m=EI)WARD-BECK SVSTEMS LTD. ps BS DRN. GEB M462 W FINISH DATE OCT 78 :// EQUALIZER MODU LE tp FUNCTIONAL DIAGRAM ht SCALE -xx TO…
 - **1985** (manual_issue): `I SSUE 14 . W SEPTEMBER 1985` — …I·e l5lKl M462 /M562 EQUALIZER MODULE a .c ps BS !::!A NUAL I SSUE 14 . W SEPTEMBER 1985 :// tp ht…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–302 mm across, 21–425 mm up
+- **Outlines:** line 93 rings, 1,631 straight (4,367 mm) / 284 curved (486 mm); text 73 rings, 704 straight (966 mm) / 161 curved (273 mm); tb 6 rings, 91 straight (113 mm) / 39 curved (65.6 mm)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 24 in 14 lines: WARD -BECK YSTE MS LTD · ~.CNT"""CI · T.uI>< · ~·a538a · Tl".,Ef'I'-oClNI! · 3lI·e l5lKl · M462 /M562 · EQUALIZER MODULE · ps · BS · NUAL SSUE 14 · SEPTEMBER 1985
+- **Title block:** (111, 396)–(198, 421) mm: WARD -BECK YSTE MS LTD
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p1 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p1%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–309 mm across, 20–425 mm up
+- **Outlines:** line 328 rings, 3,112 straight (5,642 mm) / 741 curved (1,206 mm); text 415 rings, 3,320 straight (3,709 mm) / 980 curved (1,593 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 2.2 @ (182.8, 374.0), r 1.8 @ (109.4, 253.5), r 1.8 @ (129.4, 326.4), r 1.8 @ (210.2, 253.8)
+- **Dots (junctions):** 1
+- **Words (OCR):** 54 in 38 lines: WAAD ECK BTITMs · ntronuct · 44uz/Mjoz LAualizep MCGULE · Daeaesee · Equaller Vor · "ecillary precenicg mdau · @etanec · nedcate · Vacous · scr |c5 · congas Byblem · 4lmizing
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p2 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p2%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–309 mm across, 11–416 mm up
+- **Outlines:** line 276 rings, 2,612 straight (5,226 mm) / 656 curved (1,051 mm); text 685 rings, 5,272 straight (6,181 mm) / 1,327 curved (2,144 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.9 @ (155.9, 216.3), r 1.9 @ (156.0, 169.5)
+- **Closed boxes:** 2
+- **Dots (junctions):** 2
+- **Words (OCR):** 174 in 75 lines: Fl · ECK · TEM · LTO. · TECHNICAL DATA · N462 EQUALI ZER NODULE · 6aln · Un · ity · Fr equene yRespo nse · 2S d8 ro ll 20 Hz · 20 kHz
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p3 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p3%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 12–418 mm up
+- **Outlines:** line 177 rings, 2,120 straight (4,719 mm) / 465 curved (716 mm); text 1,810 rings, 14,189 straight (15,970 mm) / 4,154 curved (6,716 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.9 @ (163.2, 215.1), r 1.9 @ (143.5, 94.9), r 1.9 @ (203.3, 275.0)
+- **Closed boxes:** 2
+- **Words (OCR):** 369 in 85 lines: CIRCUIT DESCRIPTION · 1'4462 EQUALIZER MODULE · The 1npu · gnal enters the /11462 module via pins · and · of · he dge co nne · and I2 · serve as the prea mpl rt · il26 · part · he pream
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p4 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p4%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 22–331 mm across, 9–425 mm up
+- **Outlines:** line 176 rings, 1,915 straight (4,351 mm) / 494 curved (798 mm); text 1,773 rings, 14,151 straight (15,932 mm) / 3,980 curved (6,463 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.9 @ (154.4, 254.1)
+- **Words (OCR):** 368 in 93 lines: WAF{D- EC · YSTEM · LTD. · CERC UIT DESCRIPTION · M462 EQUALIZER MQDU LE · HEG FREQUENC equalizat ion is continuo usly ad jus able fro · 1.6 to · kHz nd is on · ll · by R1/R2. R13 determines the · amount of CUT or BOOS · total range from
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p5 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p5%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–304 mm across, 10–425 mm up
+- **Outlines:** line 141 rings, 1,871 straight (4,460 mm) / 413 curved (656 mm); text 762 rings, 5,872 straight (6,615 mm) / 1,775 curved (2,921 mm)
+- **Words (OCR):** 165 in 44 lines: RD · ECI< 8VS TI!MB · CIRCUIT DESCRI PTION · 462 EOUALIZER MODULE · rh us wi · SlI3 dep ruse · the qua zed signol.l · fed · the · outpu allplHler 8-t09A. · dd it on. IS SlI3 is · depressed.
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p6 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p6%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–308 mm across, 7–426 mm up
+- **Outlines:** line 915 rings, 10,367 straight (24,076 mm) / 1,569 curved (2,466 mm); text 141 rings, 1,110 straight (1,375 mm) / 296 curved (446 mm)
+- **Closed boxes:** 183; named: II II II; II; II; ps; BS
+- **Words (OCR):** 45 in 25 lines: WARO-BECK SYSTEMS LTO · FREQUENCY RESPONSE CHARACTERi STICS · H~62 EQUALI ZER MODULE · II · II · II · OW REQUENCY sec ion · Ho · SHELY IN · CUT/ BOOST · tI dB · FREQUENCY: 25
+- **Title block:** (22, 403)–(129, 425) mm: WARO-BECK SYSTEMS LTO
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p7 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p7%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 26–331 mm across, 9–415 mm up
+- **Outlines:** line 829 rings, 9,523 straight (23,875 mm) / 1,221 curved (2,010 mm); text 269 rings, 2,135 straight (2,509 mm) / 601 curved (937 mm)
+- **Closed boxes:** 196; named: ps BS; ps; BS
+- **Words (OCR):** 43 in 32 lines: Fl · YSTEMS · LTO. · CY RESPONSE CHARACTERISTICS · M46Z EQUALIZER MOOULE · HI · FRE · sectf on · CUT/BOOS · tI dB. · FREQUENCY: · kHL
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p8 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p8%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 11–425 mm up
+- **Outlines:** line 669 rings, 8,591 straight (20,492 mm) / 1,078 curved (1,739 mm); text 286 rings, 2,084 straight (2,414 mm) / 638 curved (966 mm)
+- **Closed boxes:** 136; named: II
+- **Words (OCR):** 51 in 30 lines: WARO-BE · STE · L.TO · FREOUENCY RESPONS CHARACTERISTICS · 11462 EOUALIZER MODULE · HIGH FREOUENCY se ct on · Mode: SHELVING. · se. · CUT/ BOOST · t15 · ~RE EIICY 1.6 · 25 kHz..
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p9 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p9%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–307 mm across, 10–425 mm up
+- **Outlines:** line 333 rings, 3,137 straight (6,214 mm) / 833 curved (1,308 mm); text 867 rings, 6,785 straight (7,802 mm) / 2,126 curved (3,540 mm)
+- **Closed boxes:** 16
+- **Dots (junctions):** 1
+- **Words (OCR):** 211 in 115 lines: WAR · SI! CK · 8V. · M8 L.TC · PARTS LIST · 46 EOUALIZER MOD ULE · PART · DESCRI PTI ON · 'FG · MFG PART NUH8£ · Cl · Ca il~
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p10 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p10%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 21–330 mm across, 8–424 mm up
+- **Outlines:** line 440 rings, 3,968 straight (7,252 mm) / 974 curved (1,581 mm); text 397 rings, 2,932 straight (3,401 mm) / 821 curved (1,336 mm)
+- **Closed boxes:** 9
+- **Words (OCR):** 122 in 71 lines: CK · LT · PARTS LIS · 14462 Eq UALIZER MODULE · PAil:T · DESCRI PTI ON · MFG PART NUHBER · C36 · Capac Ito 15 · pF · Phili ps · 2222 ·638· 1015
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p11 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p11%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–307 mm across, 10–426 mm up
+- **Outlines:** line 327 rings, 3,224 straight (6,225 mm) / 730 curved (1,149 mm); text 352 rings, 2,795 straight (3,249 mm) / 872 curved (1,382 mm)
+- **Closed boxes:** 11
+- **Dots (junctions):** 1
+- **Words (OCR):** 91 in 59 lines: WA~ O-eI! Cl< 8V8T.M8 L.T · PARTS LIST · 1(462 EOUALIZER MOD ULE · PART · DESCRI PTI OH · KFG · MFG PART HUMBER · Rl · PoUnt olleUr, · RH · del · IS
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p12 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p12%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 20–330 mm across, 8–425 mm up
+- **Outlines:** line 321 rings, 3,030 straight (5,964 mm) / 725 curved (1,158 mm); text 288 rings, 2,254 straight (2,688 mm) / 668 curved (1,102 mm)
+- **Closed boxes:** 10
+- **Dots (junctions):** 1
+- **Words (OCR):** 97 in 71 lines: WA~ · CK SYS EM LTO · PARTS LIST · M46 · EOUALI ZER MODULE · PART · DESCRIPTI ON · MFG · MFG PART · MBER · OSO · Reshto r'lW 5S
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p13 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p13%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–302 mm across, 20–425 mm up
+- **Outlines:** line 286 rings, 2,750 straight (6,245 mm) / 616 curved (1,028 mm); text 534 rings, 4,079 straight (4,790 mm) / 1,261 curved (2,109 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.2 @ (117.8, 248.5), r 1.7 @ (91.3, 227.8), r 1.7 @ (106.8, 221.2), r 1.7 @ (81.2, 300.6)
+- **Dots (junctions):** 1
+- **Words (OCR):** 106 in 74 lines: Fl · ElE Cl< YSTE MS · LT · M462 EOUAl. 12!;:R MODUl.E · MF ,"ART NUMBER · Z6 · e,~rat · C;r<; u;t · zs · arc · CONTROL KNOBS. CA,"S AND BUTTONS · MFG
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p14 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p14%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 26–331 mm across, 18–425 mm up
+- **Outlines:** line 184 rings, 2,058 straight (4,553 mm) / 498 curved (848 mm); text 563 rings, 4,597 straight (5,188 mm) / 1,397 curved (2,289 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 118 in 69 lines: WAR · SE CK SYSTEM · LT · M562 EOUALIZ!O:i'I MODULE · ON · OESCRIPTION · US"D · MFG PART NUMBER · R1,R · Blac · Knob · Elma
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p15 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p15%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–323 mm across, 21–426 mm up
+- **Outlines:** line 327 rings, 2,749 straight (5,248 mm) / 678 curved (1,107 mm); text 1,172 rings, 7,768 straight (8,677 mm) / 2,393 curved (3,870 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.7 @ (214.7, 195.6), r 1.7 @ (59.0, 168.5), r 1.6 @ (212.6, 89.7)
+- **Dots (junctions):** 1
+- **Words (OCR):** 230 in 113 lines: WA O-B E.C · YSTE · L.T · 8-109 AMPLIF IER SERIES · 8-109 se.. ies · mplifier · re · til ze · an interna compo<1ent · it hin · us wa · .,.,"';es
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p16 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p16%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 24–330 mm across, 18–425 mm up
+- **Outlines:** line 453 rings, 3,735 straight (6,239 mm) / 1,012 curved (1,626 mm); text 1,445 rings, 9,984 straight (10,945 mm) / 3,027 curved (4,862 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 2.2 @ (42.0, 332.9), r 1.7 @ (47.6, 186.0), r 1.7 @ (77.9, 165.7), r 1.7 @ (89.7, 239.0)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 360 in 139 lines: WA · YSTE MS · 8-109 AMPL IF' IE SERIE · Output Le el' · 30 dam ma ximum. · Pow er Requ ir...,.,erl · 21 · ol t!J dc, 18 rnA · Ie sc en current. · 65 rnA 1I1 +30 dBm · Ut. · Amb
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p17 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p17%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 20–425 mm up
+- **Outlines:** line 364 rings, 3,032 straight (5,801 mm) / 745 curved (1,214 mm); text 551 rings, 4,262 straight (4,925 mm) / 1,358 curved (2,207 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.6 @ (90.0, 181.5), r 1.6 @ (84.1, 181.5), r 1.6 @ (78.0, 181.5)
+- **Closed boxes:** 1
+- **Words (OCR):** 102 in 69 lines: 109 AMPL FIER SER ES · DESCRIPTION · MF P"'RT NUMBER · cr · Capac tor · 33 uF l0 · Kerne · T3900336M OI O"'S · C2 · 10 uF /25 · CS · pF
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p18 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p18%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–329 mm across, 22–420 mm up
+- **Outlines:** line 286 rings, 2,612 straight (5,282 mm) / 589 curved (944 mm); text 373 rings, 2,818 straight (3,164 mm) / 899 curved (1,459 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.7 @ (76.6, 243.4), r 1.7 @ (82.6, 243.5), r 1.7 @ (88.6, 243.4)
+- **Words (OCR):** 68 in 51 lines: WARO-BEC · STeM · LTC · 109 AMPLI FI ER SERIES · OESCRI PTION · MF · ART · NUMBER · Res istor · f>K2 · Ph il ip · 18K
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p19 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p19%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–307 mm across, 20–425 mm up
+- **Outlines:** line 429 rings, 3,958 straight (7,702 mm) / 956 curved (1,578 mm); text 334 rings, 2,248 straight (2,569 mm) / 747 curved (1,203 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.2 @ (110.3, 96.2), r 2.2 @ (109.5, 321.9), r 1.7 @ (94.4, 278.0), r 1.7 @ (79.8, 68.9)
+- **Closed boxes:** 1
+- **Words (OCR):** 73 in 45 lines: -109 AMPL IF IER SER IES · All arts · _109 e><cep · noted elow · C6 · Cap aci tor · pF · cn · CO' · 47 00 · pF · RJI
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p20 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p20%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 23–329 mm across, 19–420 mm up
+- **Outlines:** line 579 rings, 4,926 straight (8,921 mm) / 1,234 curved (2,024 mm); text 217 rings, 1,518 straight (1,691 mm) / 503 curved (828 mm)
+- **Circles and arcs:** 13 circles, 0 arcs; largest r 2.2 @ (106.5, 174.9), r 2.2 @ (107.3, 321.2), r 1.8 @ (190.5, 333.1), r 1.8 @ (162.0, 187.1)
+- **Dots (junctions):** 2
+- **Words (OCR):** 57 in 37 lines: WAR · CK · ST MS LT · 8-109 AMPL IF IER SERIES · co · Ca c:IIOl" · pF · ct · O.OI5 uF · RS · IOr- 4W · 51. 4K7
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p21 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p21%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–301 mm across, 20–425 mm up
+- **Outlines:** line 191 rings, 2,104 straight (4,984 mm) / 453 curved (733 mm); text 225 rings, 1,614 straight (1,771 mm) / 458 curved (747 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.2 @ (103.9, 321.4), r 1.7 @ (92.7, 287.5)
+- **Words (OCR):** 51 in 24 lines: PARTSLtST · 8_109 AMPLIFIER SER IES · art as · er 8_109 except ee not ed · elow · CllP llc itor · 4.7 pF · Phil ip · Resi sto · 1!4W · 21(4 · was
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p22 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p22%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–308 mm across, 21–428 mm up
+- **Outlines:** line 516 rings, 4,505 straight (7,159 mm) / 1,195 curved (1,892 mm); text 1,233 rings, 8,665 straight (9,486 mm) / 2,711 curved (4,348 mm)
+- **Circles and arcs:** 16 circles, 0 arcs; largest r 1.8 @ (79.2, 266.2), r 1.8 @ (135.5, 130.6), r 1.7 @ (138.0, 110.1), r 1.7 @ (276.1, 217.1)
+- **Dots (junctions):** 3
+- **Words (OCR):** 300 in 156 lines: IRCU IT DESCR PTI ON · 126 EQUAL IZEi'! · LTER AMPLI IE · The 4_126 · equ Uz · filt · fie · int ed · ci ui · bo · utili zed as · in te na
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p23 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p23%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–297 mm across, 19–425 mm up
+- **Outlines:** line 405 rings, 3,796 straight (6,717 mm) / 980 curved (1,632 mm); text 895 rings, 6,369 straight (7,317 mm) / 2,112 curved (3,518 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 2.2 @ (103.6, 333.3), r 1.7 @ (186.0, 74.0), r 1.7 @ (94.6, 93.7), r 1.7 @ (94.6, 80.4)
+- **Dots (junctions):** 1
+- **Words (OCR):** 216 in 115 lines: WA~ · ECK YS EM · TC · 10_126 · EQUALI ZER ILT Ei'l AMPLIFIER · MFG ART NUMBER · cr · 6.8 uF · Kerne · T3908685MOO6AS · C2 · pF
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p24 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p24%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–331 mm across, 21–426 mm up
+- **Outlines:** line 304 rings, 2,730 straight (5,316 mm) / 637 curved (1,012 mm); text 278 rings, 2,089 straight (2,488 mm) / 678 curved (1,071 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.2 @ (102.3, 342.1), r 1.7 @ (77.8, 138.4), r 1.7 @ (77.8, 118.2), r 1.7 @ (83.9, 138.5)
+- **Words (OCR):** 55 in 45 lines: 4_126 · EOU "'L.IZ~R ILT · AMPL · ER · MFG PART NUMBER · Res i.~:o 1/4W · 'OK · Phili · R2 · >OK · eac · 2ZK
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p25 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p25%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–320 mm across, 21–427 mm up
+- **Outlines:** line 224 rings, 2,439 straight (5,201 mm) / 534 curved (873 mm); text 266 rings, 2,151 straight (2,523 mm) / 582 curved (951 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.2 @ (108.1, 339.6), r 1.8 @ (197.3, 271.8)
+- **Dots (junctions):** 1
+- **Words (OCR):** 64 in 35 lines: 126 EOUALIZER FILT ER AMPLIF IER · R4S · Re stor · 4W · il · R46 · elet · R47 · Re · tor 1!4W · 1M · R48
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p26 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p26%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1533 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–331 mm across, 4–429 mm up
+- **Outlines:** line 419 rings, 4,569 straight (11,758 mm) / 1,061 curved (1,588 mm); text 1,888 rings, 11,106 straight (10,092 mm) / 4,456 curved (5,853 mm); tb 4 rings, 80 straight (170 mm) / 6 curved (10.0 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 5.0 @ (179.6, 261.2), r 4.8 @ (179.5, 209.2), r 4.7 @ (179.5, 157.1), r 4.2 @ (158.4, 157.2)
+- **Closed boxes:** 18 (6 in the title block); named: 62 BS 106 HF O+l"Hl ''3'2" 106 MF Hl IS ; 62 BS 106 HF O+l"Hl ''3'2" 106 MF Hl IS ; se io va ry GH FREQUENCY ADJUS TMENT Olo; nt HID FREQUENCY ,ect rOt!. FREQUfNCY AD; !'tID FREQUENCY section ADJUSTMENT All o; MID REQUENCY se ct on 800 ST/C UT contro; LOW FREQUENCY sect ion. FREQUENC ADJUSTM; LOW FREQUENCY se ADJUST!'tENT 11. 12; Al; LOW fR EQUENCY se tion 8ooST/CUT contro ; lOW FREQUENC se on MODE SEl ECTOA swi ch; EQUl LIZ ER NSERT swi SW) Wl'ten de pres
+- **Dots (junctions):** 4
+- **Words (OCR):** 486 in 241 lines: GH FREQUENCY · ct 1011. FREQUENCY AOJUSTJol NT · on ro · BS · 62 · RI R2, Con ti nuo ly · l'll!! · PEAKI NG · recce · he · l!!(Iull ncy · ia Dl Fr om
+- **Title block:** (222, 13)–(331, 57) mm: BS REDRAW · 10/17 · ISSUEToAn · REVISION · (vvas] WARC aeCK SYSTEMS · DRN. PM;J:. · tp · ENG. · ht EQUALIZER MODULE · M462 · CI<D. · FRONT PANEL
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p27 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p27%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p27 (traced).dxf`).
+
+### Page 28
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1533 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 0–421 mm up
+- **Outlines:** line 119 rings, 3,283 straight (8,469 mm) / 446 curved (715 mm); text 121 rings, 977 straight (1,190 mm) / 320 curved (530 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.2 @ (283.4, 309.3), r 2.2 @ (288.1, 309.2)
+- **Closed boxes:** 28; named: eKD.; MOD.; 3536; ht
+- **Dots (junctions):** 3
+- **Words (OCR):** 35 in 30 lines: LF · MF · HF · BOOS · BOO ST · BOOS · FREQ · FREQ · FRE · CU · UT · CU
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p28 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p28%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p28 (traced).dxf`).
+
+### Page 29
+
+- **Sheet:** functional 462-01-001, size B (assumed) 331 × 432 mm, 1533 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 0–422 mm up
+- **Outlines:** line 150 rings, 4,286 straight (8,961 mm) / 659 curved (996 mm); text 179 rings, 1,457 straight (2,131 mm) / 384 curved (626 mm); tb 38 rings, 423 straight (770 mm) / 85 curved (155 mm)
+- **Centre lines:** 3,815 paths (49 closed); straight 6,630 mm, curved 43.6 mm; horizontal 2,975 mm, vertical 1,716 mm, diagonal 1,940 mm
+- **Circles and arcs:** 3 circles, 9 arcs; largest r 5.7 @ (133.5, 283.5), r 2.8 @ (274.0, 36.5), r 2.2 @ (279.9, 27.0)
+- **Closed boxes:** 11 (2 in the title block); named: LTD. m=EI)WARD-BECK SVSTEMS ps; BS M462 EQUALIZER MODU LE tp FUNCTIONAL ; FINISH; 462-01-001; -xx TOLS ll NG; BI
+- **Words (OCR):** 43 in 34 lines: HF · BOO ST · EQ · FREQ · FREQ · CU · NSERT · 'Iv" · )Vv · OU TP · 26 · -10!1"8dBm
+- **Title block:** (100, 11)–(249, 77) mm: m=EI)WARD-BECK SVSTEMS · DRN. · GEB · M462 · DATE OCT 78 · FUNCTIONAL · SCALE · -xx
+- **Wiring (first pass):** 30 connected wire groups from 125 runs; labelled ends: 176 mm → A,t; 155 mm → )Vv, 'Iv"; 95 mm → FINISH; 80 mm → DRN., DATE, FINISH; 64 mm → BOO
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p29 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p29%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p29 (traced).dxf`).
+
+### Page 30
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1533 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 0–426 mm up
+- **Outlines:** line 961 rings, 10,598 straight (19,286 mm) / 2,555 curved (3,738 mm); text 240 rings, 1,674 straight (2,091 mm) / 450 curved (658 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 1.6 @ (184.8, 121.7), r 1.6 @ (158.2, 175.5), r 1.6 @ (238.9, 71.1), r 1.5 @ (154.5, 50.4)
+- **Words (OCR):** 77 in 58 lines: I-lI G,1-l RE QE I.lCY · FR · UE NCY · 2S IcJ~ · 00 Hz- · Hz. · Rl · R.4- · as · FluFl PlFJ · Ot · LT
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p30 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p30%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p30 (traced).dxf`).
+
+### Page 31
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1533 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 0–426 mm up
+- **Outlines:** line 1,159 rings, 11,736 straight (20,712 mm) / 2,794 curved (4,112 mm); text 97 rings, 582 straight (689 mm) / 208 curved (317 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 1.9 @ (80.1, 183.0), r 1.8 @ (54.1, 414.4), r 1.7 @ (281.5, 16.7), r 1.4 @ (25.1, 85.5)
+- **Closed boxes:** 22
+- **Words (OCR):** 27 in 22 lines: ~OW · F;<E UE NC · SH -40 0~~t · ---r11 · 11<. · 1'1; · 10 · SV · ~"'5Gj RSO · i..B/ · li'~c.__ · OS
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p31 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p31%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p31 (traced).dxf`).
+
+### Page 32
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1533 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 1–422 mm up
+- **Outlines:** line 1,275 rings, 11,157 straight (18,014 mm) / 2,907 curved (4,524 mm); text 500 rings, 3,783 straight (4,748 mm) / 1,081 curved (1,738 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 9.1 @ (314.9, 164.4), r 6.7 @ (245.8, 126.7), r 6.3 @ (264.2, 126.7), r 3.5 @ (218.8, 267.9)
+- **Closed boxes:** 32; named: USED ON; MOD.; CKO; 3o"; 319; A!G; tp; ~DL; 36"; 00; jp
+- **Words (OCR):** 93 in 66 lines: rt£'3 · NO · US ED) · is.. · 2£3 · 18 · C43' · C4 · ·Il/' · C2...t' · -R33 · -R28~
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p32 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p32%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p32 (traced).dxf`).
+
+### Page 33
+
+- **Sheet:** component layout 4-111-06-001, size B (assumed) 331 × 432 mm, 1533 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 2–422 mm up
+- **Outlines:** line 1,512 rings, 14,397 straight (20,798 mm) / 4,279 curved (4,798 mm); text 254 rings, 2,220 straight (2,331 mm) / 627 curved (761 mm); tb 24 rings, 231 straight (321 mm) / 55 curved (61.4 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 9.6 @ (120.3, 164.7), r 6.6 @ (50.7, 127.1), r 6.6 @ (128.0, 127.1), r 5.9 @ (145.9, 127.1)
+- **Closed boxes:** 42 (1 in the title block); named: USED ON; ~WARD.BECK LTD. SYSTEMS; eKD; MOD; ISS; 3o"; 193; MGI!>; M462 tp EQUALIZER MODUlF ht COMPONENT lA; 36"; M'L; 00
+- **Words (OCR):** 45 in 34 lines: lei3 · COMPONENT · IDE · ps · BS · IDE, · ISS MOD eKD · USED ON · ~WARD.BECK SYSTEMS · )LDE ff> ID · LTD. · 3o"
+- **Title block:** (179, 5)–(315, 59) mm: BS · ~WARD.BECK SYSTEMS · DRN, · M462 · DATE · 74 · tp · ht · EQUALIZER MODUlF · CKD, · I'<'.«L..... · SCALE · COMPONENT lAYOU', · 81 -111 -06-001 · 15
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p33 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p33%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p33 (traced).dxf`).
+
+### Page 34
+
+- **Sheet:** layout 462-04-004, size B (assumed) 432 × 331 mm, 2000 × 1533 px traced (0.216 mm/px)
+- **Ink extent:** 4–425 mm across, 7–331 mm up
+- **Outlines:** line 200 rings, 4,269 straight (8,335 mm) / 653 curved (992 mm); text 264 rings, 2,346 straight (3,103 mm) / 571 curved (939 mm); tb 4 rings, 140 straight (318 mm) / 11 curved (19.9 mm)
+- **Closed boxes:** 14 (7 in the title block); named: 462-04-004
+- **Dots (junctions):** 1
+- **Words (OCR):** 20 in 16 lines: ISSUE DATE · REVISION · APP · WBS WARD-BECK · SYSTEMS · NBSA · DRN_ DM/ 0ct74 · ENG_ · M462 M4624 M462B · EQUALIZER  MODULe · CKD · CONNECTOR REAR VIEW
+- **Title block:** (206, 14)–(429, 110) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK · SYSTEMS · NBSA · DRN_ DM/ 0ct74 · ENG_ · M462 M4624 M462B · EQUALIZER  MODULe · CKD · CONNECTOR REAR VIEW · APP · SCALE · ISSUE · 462-04-004
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p34 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p34%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p34 (traced).dxf`).
+
+### Page 35
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1533 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–331 mm across, 24–405 mm up
+- **Outlines:** line 443 rings, 6,108 straight (11,928 mm) / 1,360 curved (2,191 mm); text 167 rings, 1,110 straight (1,190 mm) / 370 curved (543 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 1.7 @ (239.0, 154.3), r 1.7 @ (279.6, 93.4), r 1.6 @ (184.4, 40.3), r 1.6 @ (110.7, 387.9)
+- **Closed boxes:** 2; named: II .'7p
+- **Words (OCR):** 68 in 64 lines: I3 · +-18v · RI~ · C3 · 17 · 10 25 · ZZ · CI · RS · 2N2 OZ · VV' · 10
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p35 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p35%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p35 (traced).dxf`).
+
+### Page 36
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1533 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 0–415 mm up
+- **Outlines:** line 337 rings, 5,014 straight (8,627 mm) / 1,121 curved (1,703 mm); text 137 rings, 1,047 straight (1,087 mm) / 325 curved (482 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.6 @ (72.9, 360.8), r 1.5 @ (72.1, 163.9)
+- **Closed boxes:** 3; named: tp ORN. El
+- **Words (OCR):** 49 in 39 lines: E3 · 21·S. · /22 · IS · E4. · I--JV\I\,--,---l'~.------~® · 220 10 · ES · R37 · 1-S · RZ · 22
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p36 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p36%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p36 (traced).dxf`).
+
+### Page 37
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1533 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 1–423 mm up
+- **Outlines:** line 566 rings, 6,392 straight (11,623 mm) / 1,424 curved (2,712 mm); text 200 rings, 1,774 straight (2,669 mm) / 428 curved (825 mm)
+- **Circles and arcs:** 15 circles, 0 arcs; largest r 11.4 @ (93.1, 139.2), r 11.2 @ (28.5, 266.6), r 10.6 @ (92.4, 266.7), r 7.7 @ (61.2, 265.8)
+- **Words (OCR):** 45 in 37 lines: -R8 · lN4i4S · -CRI"- · P~~.5 · ZI · 'ZZ · :2N210Z. _C,.!..op · lF3S," · LF35Go · -Rn 41<, · -R19 22 · _CS±7p
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p37 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p37%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p37 (traced).dxf`).
+
+### Page 38
+
+- **Sheet:** component layout 8-109-06-002, size B (assumed) 331 × 432 mm, 1533 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 0–424 mm up
+- **Outlines:** line 276 rings, 2,994 straight (6,648 mm) / 732 curved (723 mm); text 278 rings, 2,652 straight (3,324 mm) / 727 curved (864 mm); tb 45 rings, 695 straight (925 mm) / 177 curved (218 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 5.6 @ (44.8, 161.0), r 5.6 @ (44.7, 88.1), r 2.0 @ (231.2, 111.3)
+- **Closed boxes:** 15 (10 in the title block); named: SCALE; BI; ht 8-109-06-002; ISSUE
+- **Words (OCR):** 49 in 40 lines: ·--C2~e · 4,lC. · 1.§..K · -Rl£lQ · LF35G- · -CIO±·7p · -CII~·"P · _RI\~K · 21< · \3390 · _C~O/'lS · E.Se
+- **Title block:** (117, 6)–(331, 107) mm: 1201, 1%11 · co · ISSUE DATE · REVISION · lAPP. · VVE3S] WARD-BECK SYSTEMS · ps · DRN.GEB · BS · 8-109A · ENG.MRW · ./78 · OUTPUT · AMPLIFIER · CKD. ,Ri\A, · COMPONENT LAYOUT · APP. · tp · ht · SCALE 
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p38 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p38%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p38 (traced).dxf`).
+
+### Page 39
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1533 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 0–432 mm up
+- **Outlines:** line 318 rings, 3,686 straight (7,003 mm) / 834 curved (1,267 mm); text 312 rings, 2,083 straight (2,358 mm) / 660 curved (1,058 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.2 @ (328.6, 287.5), r 2.2 @ (172.4, 233.7), r 1.9 @ (189.2, 137.0)
+- **Words (OCR):** 67 in 45 lines: IGH · FR~QU C:l' · I4 · 25 \<:l4 · 1<1 · C9 · IO · R2. · lE IIlE tL · oo · oo op · C.O"li!lo
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p39 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p39%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p39 (traced).dxf`).
+
+### Page 40
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1533 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 1–426 mm up
+- **Outlines:** line 598 rings, 7,039 straight (14,371 mm) / 1,418 curved (2,022 mm); text 362 rings, 2,444 straight (2,743 mm) / 779 curved (1,142 mm); tb 2 rings, 5 straight (3.3 mm) / 1 curved (0.9 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.6 @ (169.4, 297.9)
+- **Closed boxes:** 16; named: USED ON; (EEI)~AAD LT V.TaMS •CK tp; 3047; ee....
+- **Words (OCR):** 83 in 69 lines: ID · I<z. · I4- · Ok · ere · G~~l~EO · 15 · ~A.I.U · I4- · ll · lO · :;20
+- **Title block:** (212, 5)–(233, 34) mm: DATE · CKD. · ee....
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p40 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p40%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p40 (traced).dxf`).
+
+### Page 41
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1533 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 4–410 mm up
+- **Outlines:** line 747 rings, 8,996 straight (16,808 mm) / 1,893 curved (3,188 mm); text 72 rings, 698 straight (901 mm) / 193 curved (328 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 4.9 @ (309.9, 233.0), r 4.9 @ (199.6, 336.2), r 4.9 @ (202.5, 124.9), r 4.9 @ (200.8, 216.5)
+- **Closed boxes:** 16; named: ht
+- **Words (OCR):** 33 in 27 lines: E3 · E5" · CD · QI · R14 · c21R21 · 21 · R1 · R5 · 82S · gl 13 · R10CD VI
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p41 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p41%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p41 (traced).dxf`).
+
+### Page 42
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1533 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 5–411 mm up
+- **Outlines:** line 828 rings, 9,882 straight (17,964 mm) / 2,095 curved (3,591 mm); text 1 rings, 17 straight (18.4 mm) / 1 curved (0.9 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 5.0 @ (198.4, 233.2), r 4.9 @ (238.7, 233.7), r 4.9 @ (90.3, 125.1), r 4.9 @ (237.7, 338.2)
+- **Closed boxes:** 29; named: BS; tp ht
+- **Dots (junctions):** 4
+- **Words (OCR):** 5 in 5 lines: CD · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1978 - M462 - M562 - Equalizer p42 (traced).json](1978%20-%20M462%20-%20M562%20-%20Equalizer%20p42%20%28traced%29.json) (the CAD file: `1978 - M462 - M562 - Equalizer p42 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

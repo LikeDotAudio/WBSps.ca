@@ -11,6 +11,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Pages:** 1
 - **PDF created (scan date, not design date):** Fri Dec  6 10:19:21 2002 EST
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 46–432 mm across, 0–294 mm up
+- **Outlines:** line 189 rings, 2,655 straight (9,935 mm) / 203 curved (356 mm); text 408 rings, 3,394 straight (3,323 mm) / 982 curved (1,185 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.1 @ (356.8, 13.3), r 2.1 @ (390.2, 19.9), r 1.7 @ (384.3, 13.3)
+- **Closed boxes:** 7
+- **Words (OCR):** 116 in 56 lines: P1 LEFT · P1 RIGHT · P1 LEFT · P1 RIGHT · P1-L SUMMING BUS · P1 LEFT · P1-R SUMMING BUS · P1 RIGHT · P1 LEFT · P1 RIGHT · P1 LEFT · P1 RIGHT
+
+Every curve, box, word and wire group: [1994 - R2K - R202functional (1) p1 (traced).json](1994%20-%20R2K%20-%20R202functional%20%281%29%20p1%20%28traced%29.json) (the CAD file: `1994 - R2K - R202functional (1) p1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

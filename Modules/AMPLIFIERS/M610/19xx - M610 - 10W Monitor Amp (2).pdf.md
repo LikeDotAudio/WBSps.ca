@@ -12,6 +12,274 @@ Wiki page: [M610](../../../PAGES/M610.md)
 - **Pages:** 25
 - **PDF created (scan date, not design date):** Mon Aug 17 17:11:32 2009 EDT
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–425 mm up
+- **Outlines:** line 141 rings, 851 straight (1,354 mm) / 216 curved (341 mm); text 145 rings, 1,146 straight (1,434 mm) / 304 curved (492 mm)
+- **Words (OCR):** 33 in 15 lines: 10 · 10 WATT MONITOR AMPL IFIER · Designed · Manufactu red · By · WARO- ECK SYSTEMS LIMI TEO · 84 Prog re ss Avenue · Scarborough, Ont ar · 16) 438 -6550 · Tel · 065 25399 · ps
+
+Every curve, box, word and wire group: [19xx - M610 - 10W Monitor Amp (2) p1 (traced).json](19xx%20-%20M610%20-%2010W%20Monitor%20Amp%20%282%29%20p1%20%28traced%29.json) (the CAD file: `19xx - M610 - 10W Monitor Amp (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–329 mm across, 0–425 mm up
+- **Outlines:** line 189 rings, 1,353 straight (2,270 mm) / 326 curved (509 mm); text 351 rings, 2,541 straight (3,019 mm) / 721 curved (1,171 mm)
+- **Dots (junctions):** 2
+- **Words (OCR):** 73 in 30 lines: 10 \o'Ai MONI TOR AMPL · ns ro..: tion Manua · CON · Circu · Des ription · Te hn ca Data · ifie · justment · DC Vol se Cha · Rep · ea le Parts · List
+
+Every curve, box, word and wire group: [19xx - M610 - 10W Monitor Amp (2) p2 (traced).json](19xx%20-%20M610%20-%2010W%20Monitor%20Amp%20%282%29%20p2%20%28traced%29.json) (the CAD file: `19xx - M610 - 10W Monitor Amp (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–327 mm across, 0–409 mm up
+- **Outlines:** line 246 rings, 2,008 straight (2,622 mm) / 644 curved (961 mm); text 2,412 rings, 19,217 straight (20,153 mm) / 6,946 curved (10,545 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 2.1 @ (184.6, 390.3), r 2.1 @ (168.5, 390.4), r 1.9 @ (257.2, 209.5), r 1.9 @ (285.1, 316.5)
+- **Dots (junctions):** 1
+- **Words (OCR):** 402 in 91 lines: Circuit Descriotion' · The · lan · pu · the ampl i::i er · via ·mo · con nec tor P2 · 16 nd · o~er at ional amp ifiers ZlA and Zl operate in the :lVe ti ng · The two · mode · Th
+
+Every curve, box, word and wire group: [19xx - M610 - 10W Monitor Amp (2) p3 (traced).json](19xx%20-%20M610%20-%2010W%20Monitor%20Amp%20%282%29%20p3%20%28traced%29.json) (the CAD file: `19xx - M610 - 10W Monitor Amp (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 0–414 mm up
+- **Outlines:** line 326 rings, 2,802 straight (3,491 mm) / 834 curved (1,253 mm); text 863 rings, 7,069 straight (7,534 mm) / 2,233 curved (3,434 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.1 @ (62.4, 315.6), r 1.9 @ (147.9, 129.2), r 1.9 @ (131.5, 214.8), r 1.9 @ (119.8, 129.0)
+- **Dots (junctions):** 1
+- **Words (OCR):** 149 in 61 lines: M6l · lOW MONI TOR AMPLIFIER · Technical Data · 40 or 60 dB ma · ed ga in · nd · z'arne · Fr on · nel vari:able co ntro · REQUENCY · 5d from 30Hz to 0kHz · RES?Q NSE
+
+Every curve, box, word and wire group: [19xx - M610 - 10W Monitor Amp (2) p4 (traced).json](19xx%20-%20M610%20-%2010W%20Monitor%20Amp%20%282%29%20p4%20%28traced%29.json) (the CAD file: `19xx - M610 - 10W Monitor Amp (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–318 mm across, 20–425 mm up
+- **Outlines:** line 215 rings, 1,355 straight (2,361 mm) / 394 curved (603 mm); text 878 rings, 6,399 straight (7,562 mm) / 1,829 curved (2,949 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.9 @ (205.2, 260.6), r 1.9 @ (265.2, 320.3)
+- **Dots (junctions):** 1
+- **Words (OCR):** 145 in 52 lines: 10 WATT MONITOR AMPliFI ER · AMPL IF ER AOJUSTMErfl · Lono it ud nal Ba nc Adjus ment: · ra · he ampli · fo · he ow ga · nd appl · gnal to give · n~T~r · nc~E v~~:n ~On~ ~:m~dj · Tie
+
+Every curve, box, word and wire group: [19xx - M610 - 10W Monitor Amp (2) p5 (traced).json](19xx%20-%20M610%20-%2010W%20Monitor%20Amp%20%282%29%20p5%20%28traced%29.json) (the CAD file: `19xx - M610 - 10W Monitor Amp (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 0–425 mm up
+- **Outlines:** line 328 rings, 2,686 straight (3,817 mm) / 778 curved (1,207 mm); text 419 rings, 3,451 straight (3,779 mm) / 1,132 curved (1,729 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.1 @ (146.6, 399.8), r 1.9 @ (126.5, 319.5), r 1.9 @ (78.3, 205.9)
+- **Closed boxes:** 1
+- **Words (OCR):** 100 in 41 lines: lOW MONITOR AJ1?t. IE' IS · DC Voltac Ch · The foll owing DC vol ge are typ cal nd ma va ry +10 · T;"e · idle cu re · ah ou · be · 50 rna. At 10 wat ts u::;pUl:. ower · the DC su · ren wil n;ea re · ro mat ly 55 rna · The
+
+Every curve, box, word and wire group: [19xx - M610 - 10W Monitor Amp (2) p6 (traced).json](19xx%20-%20M610%20-%2010W%20Monitor%20Amp%20%282%29%20p6%20%28traced%29.json) (the CAD file: `19xx - M610 - 10W Monitor Amp (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–329 mm across, 20–431 mm up
+- **Outlines:** line 612 rings, 4,931 straight (6,086 mm) / 1,585 curved (2,433 mm); text 1,069 rings, 8,512 straight (9,592 mm) / 2,781 curved (4,407 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.9 @ (223.1, 70.5), r 1.7 @ (139.3, 399.4)
+- **Closed boxes:** 1
+- **Words (OCR):** 253 in 149 lines: S~OL · cr · mte.. 2SV · 22 · 362 -C226 -Q2.::A.S · ca · 22 mf · 25v · T36 · 26-Q 25AS · ca · 10 pfd, OOV
+
+Every curve, box, word and wire group: [19xx - M610 - 10W Monitor Amp (2) p7 (traced).json](19xx%20-%20M610%20-%2010W%20Monitor%20Amp%20%282%29%20p7%20%28traced%29.json) (the CAD file: `19xx - M610 - 10W Monitor Amp (2) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–426 mm up
+- **Outlines:** line 394 rings, 3,354 straight (4,558 mm) / 938 curved (1,387 mm); text 640 rings, 5,048 straight (5,567 mm) / 1,719 curved (2,696 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 2.1 @ (73.8, 394.0), r 1.9 @ (218.5, 279.2), r 1.9 @ (226.7, 218.0), r 1.9 @ (226.7, 279.0)
+- **Words (OCR):** 130 in 101 lines: REPLACEAi3LE P.".RTS · 01610 · PART 'mJ",..aER · Fus · amp · 313 001 · amp · 31 001 · Ll · Spec ial · nductor · Pr
+
+Every curve, box, word and wire group: [19xx - M610 - 10W Monitor Amp (2) p8 (traced).json](19xx%20-%20M610%20-%2010W%20Monitor%20Amp%20%282%29%20p8%20%28traced%29.json) (the CAD file: `19xx - M610 - 10W Monitor Amp (2) p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 0–426 mm up
+- **Outlines:** line 358 rings, 2,977 straight (4,096 mm) / 914 curved (1,384 mm); text 373 rings, 3,172 straight (3,449 mm) / 1,045 curved (1,578 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 2.1 @ (111.3, 317.8), r 2.1 @ (139.6, 394.0), r 2.1 @ (71.0, 394.1), r 1.9 @ (115.4, 279.2)
+- **Closed boxes:** 1
+- **Words (OCR):** 92 in 73 lines: REPr..;,.CEA3LE ?i\R · M6 · aai · 620 · Ph · Ol: Al · .sistors · 1:1',; · R2 · 7S · Al · unl
+
+Every curve, box, word and wire group: [19xx - M610 - 10W Monitor Amp (2) p9 (traced).json](19xx%20-%20M610%20-%2010W%20Monitor%20Amp%20%282%29%20p9%20%28traced%29.json) (the CAD file: `19xx - M610 - 10W Monitor Amp (2) p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–430 mm up
+- **Outlines:** line 170 rings, 1,415 straight (2,528 mm) / 376 curved (594 mm); text 136 rings, 1,048 straight (1,183 mm) / 331 curved (494 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.2 @ (141.3, 397.7), r 2.2 @ (73.0, 398.0)
+- **Words (OCR):** 24 in 17 lines: 0'.'4<'':5 · ",E2::"':"C · M610 · XC1 · aeae i::k · 3AL6aO -2R · I!l t.a<;r t.ed · :z:uit · Pa .ir :"ild · U6.;>.773939 · aa · U5a7709393
+
+Every curve, box, word and wire group: [19xx - M610 - 10W Monitor Amp (2) p10 (traced).json](19xx%20-%20M610%20-%2010W%20Monitor%20Amp%20%282%29%20p10%20%28traced%29.json) (the CAD file: `19xx - M610 - 10W Monitor Amp (2) p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–339 mm across, 12–428 mm up
+- **Outlines:** line 5,620 rings, 44,344 straight (35,664 mm) / 11,422 curved (12,394 mm); text 103 rings, 484 straight (337 mm) / 149 curved (140 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 4 in 4 lines: ps · BS · tp · ht
+
+Every curve, box, word and wire group: [19xx - M610 - 10W Monitor Amp (2) p11 (traced).json](19xx%20-%20M610%20-%2010W%20Monitor%20Amp%20%282%29%20p11%20%28traced%29.json) (the CAD file: `19xx - M610 - 10W Monitor Amp (2) p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–339 mm across, 13–427 mm up
+- **Outlines:** line 5,502 rings, 39,596 straight (31,403 mm) / 9,998 curved (10,722 mm); text 92 rings, 470 straight (337 mm) / 116 curved (113 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.3 @ (170.8, 201.3)
+- **Dots (junctions):** 3
+- **Words (OCR):** 4 in 4 lines: ps · BS · tp · ht
+
+Every curve, box, word and wire group: [19xx - M610 - 10W Monitor Amp (2) p12 (traced).json](19xx%20-%20M610%20-%2010W%20Monitor%20Amp%20%282%29%20p12%20%28traced%29.json) (the CAD file: `19xx - M610 - 10W Monitor Amp (2) p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–339 mm across, 25–426 mm up
+- **Outlines:** line 6,579 rings, 43,273 straight (33,846 mm) / 11,706 curved (12,354 mm); text 78 rings, 393 straight (286 mm) / 100 curved (100 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.3 @ (22.6, 316.1)
+- **Words (OCR):** 4 in 4 lines: ps · BS · tp · ht
+
+Every curve, box, word and wire group: [19xx - M610 - 10W Monitor Amp (2) p13 (traced).json](19xx%20-%20M610%20-%2010W%20Monitor%20Amp%20%282%29%20p13%20%28traced%29.json) (the CAD file: `19xx - M610 - 10W Monitor Amp (2) p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–339 mm across, 60–426 mm up
+- **Outlines:** line 3,586 rings, 23,584 straight (19,191 mm) / 6,301 curved (6,980 mm); text 5 rings, 17 straight (9.6 mm) / 6 curved (7.6 mm)
+- **Words (OCR):** 4 in 4 lines: ps · BS · tp · ht
+
+Every curve, box, word and wire group: [19xx - M610 - 10W Monitor Amp (2) p14 (traced).json](19xx%20-%20M610%20-%2010W%20Monitor%20Amp%20%282%29%20p14%20%28traced%29.json) (the CAD file: `19xx - M610 - 10W Monitor Amp (2) p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–339 mm across, 48–432 mm up
+- **Outlines:** line 4,196 rings, 33,522 straight (27,019 mm) / 9,161 curved (9,922 mm); text 23 rings, 106 straight (76.1 mm) / 19 curved (19.6 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.5 @ (138.9, 111.6)
+- **Words (OCR):** 4 in 4 lines: ps · BS · tp · ht
+
+Every curve, box, word and wire group: [19xx - M610 - 10W Monitor Amp (2) p15 (traced).json](19xx%20-%20M610%20-%2010W%20Monitor%20Amp%20%282%29%20p15%20%28traced%29.json) (the CAD file: `19xx - M610 - 10W Monitor Amp (2) p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–339 mm across, 16–429 mm up
+- **Outlines:** line 8,789 rings, 58,259 straight (43,281 mm) / 15,925 curved (16,328 mm); text 62 rings, 283 straight (191 mm) / 76 curved (75.3 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 3.5 @ (163.3, 199.9), r 3.4 @ (289.7, 191.2), r 2.0 @ (219.2, 252.0), r 1.9 @ (34.7, 189.6)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 4 in 4 lines: ps · BS · tp · ht
+
+Every curve, box, word and wire group: [19xx - M610 - 10W Monitor Amp (2) p16 (traced).json](19xx%20-%20M610%20-%2010W%20Monitor%20Amp%20%282%29%20p16%20%28traced%29.json) (the CAD file: `19xx - M610 - 10W Monitor Amp (2) p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–339 mm across, 12–432 mm up
+- **Outlines:** line 9,866 rings, 60,752 straight (44,976 mm) / 16,584 curved (16,977 mm); text 131 rings, 520 straight (365 mm) / 127 curved (126 mm)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 4 in 4 lines: ps · BS · tp · ht
+
+Every curve, box, word and wire group: [19xx - M610 - 10W Monitor Amp (2) p17 (traced).json](19xx%20-%20M610%20-%2010W%20Monitor%20Amp%20%282%29%20p17%20%28traced%29.json) (the CAD file: `19xx - M610 - 10W Monitor Amp (2) p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–339 mm across, 24–421 mm up
+- **Outlines:** line 8,834 rings, 54,773 straight (41,286 mm) / 14,839 curved (15,430 mm); text 2 rings, 9 straight (4.8 mm) / 2 curved (1.6 mm)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 4 in 4 lines: ps · BS · tp · ht
+
+Every curve, box, word and wire group: [19xx - M610 - 10W Monitor Amp (2) p18 (traced).json](19xx%20-%20M610%20-%2010W%20Monitor%20Amp%20%282%29%20p18%20%28traced%29.json) (the CAD file: `19xx - M610 - 10W Monitor Amp (2) p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–338 mm across, 93–422 mm up
+- **Outlines:** line 5,734 rings, 35,249 straight (26,620 mm) / 9,929 curved (10,210 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 4 in 4 lines: ps · BS · tp · ht
+
+Every curve, box, word and wire group: [19xx - M610 - 10W Monitor Amp (2) p19 (traced).json](19xx%20-%20M610%20-%2010W%20Monitor%20Amp%20%282%29%20p19%20%28traced%29.json) (the CAD file: `19xx - M610 - 10W Monitor Amp (2) p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–328 mm across, 0–431 mm up
+- **Outlines:** line 520 rings, 5,418 straight (7,804 mm) / 984 curved (1,512 mm); text 448 rings, 3,593 straight (4,552 mm) / 773 curved (1,375 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 21.1 @ (84.2, 160.0), r 20.6 @ (200.7, 160.1), r 2.8 @ (170.1, 289.7), r 2.8 @ (170.5, 319.8)
+- **Closed boxes:** 1
+- **Words (OCR):** 63 in 39 lines: 10 · P2 · CW · 13 · cwt · PI · EX~ ON OL · INTERNAL CONTROL · s,;?o-',:;,":; SO · ARM · AR · LOW
+
+Every curve, box, word and wire group: [19xx - M610 - 10W Monitor Amp (2) p20 (traced).json](19xx%20-%20M610%20-%2010W%20Monitor%20Amp%20%282%29%20p20%20%28traced%29.json) (the CAD file: `19xx - M610 - 10W Monitor Amp (2) p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 432 × 339 mm, 2000 × 1569 px traced (0.216 mm/px)
+- **Ink extent:** 0–424 mm across, 3–338 mm up
+- **Outlines:** line 941 rings, 7,945 straight (12,249 mm) / 1,724 curved (2,680 mm); text 21 rings, 156 straight (157 mm) / 34 curved (48.4 mm)
+- **Circles and arcs:** 18 circles, 0 arcs; largest r 2.9 @ (110.8, 126.9), r 2.9 @ (79.9, 136.4), r 2.9 @ (111.1, 166.0), r 2.9 @ (110.7, 136.5)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 43 in 34 lines: COM · MUTE:. CON TRO · l-ED · r[O~ · SPKR OUTPU · SP · IRE CT · IJ rF-'I IT · COt-....Jt-....JE CIO · +e:v · (VIEW FROM REAR · FRAME
+
+Every curve, box, word and wire group: [19xx - M610 - 10W Monitor Amp (2) p21 (traced).json](19xx%20-%20M610%20-%2010W%20Monitor%20Amp%20%282%29%20p21%20%28traced%29.json) (the CAD file: `19xx - M610 - 10W Monitor Amp (2) p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–339 mm across, 12–432 mm up
+- **Outlines:** line 4,556 rings, 37,191 straight (30,825 mm) / 9,609 curved (10,652 mm); text 15 rings, 77 straight (54.3 mm) / 17 curved (16.5 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 11.2 @ (280.5, 234.9), r 11.1 @ (114.3, 229.7), r 10.3 @ (159.2, 350.0), r 5.4 @ (52.2, 339.3)
+- **Closed boxes:** 7
+- **Words (OCR):** 4 in 4 lines: ps · BS · tp · ht
+
+Every curve, box, word and wire group: [19xx - M610 - 10W Monitor Amp (2) p22 (traced).json](19xx%20-%20M610%20-%2010W%20Monitor%20Amp%20%282%29%20p22%20%28traced%29.json) (the CAD file: `19xx - M610 - 10W Monitor Amp (2) p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–339 mm across, 47–432 mm up
+- **Outlines:** line 2,784 rings, 25,279 straight (21,628 mm) / 6,380 curved (7,220 mm); text 6 rings, 20 straight (13.9 mm) / 8 curved (8.8 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 13.1 @ (138.2, 271.7), r 13.1 @ (138.2, 302.5), r 13.1 @ (138.0, 241.4), r 13.1 @ (96.0, 287.8)
+- **Closed boxes:** 3
+- **Words (OCR):** 4 in 4 lines: ps · BS · tp · ht
+
+Every curve, box, word and wire group: [19xx - M610 - 10W Monitor Amp (2) p23 (traced).json](19xx%20-%20M610%20-%2010W%20Monitor%20Amp%20%282%29%20p23%20%28traced%29.json) (the CAD file: `19xx - M610 - 10W Monitor Amp (2) p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–339 mm across, 9–432 mm up
+- **Outlines:** line 2,716 rings, 23,455 straight (19,973 mm) / 5,823 curved (6,508 mm); text 58 rings, 203 straight (137 mm) / 45 curved (44.5 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 3.4 @ (322.4, 147.5), r 2.5 @ (180.9, 352.1)
+- **Closed boxes:** 1
+- **Words (OCR):** 4 in 4 lines: ps · BS · tp · ht
+
+Every curve, box, word and wire group: [19xx - M610 - 10W Monitor Amp (2) p24 (traced).json](19xx%20-%20M610%20-%2010W%20Monitor%20Amp%20%282%29%20p24%20%28traced%29.json) (the CAD file: `19xx - M610 - 10W Monitor Amp (2) p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 0–432 mm up
+- **Outlines:** line 2,910 rings, 26,549 straight (23,106 mm) / 6,829 curved (7,708 mm); text 38 rings, 167 straight (127 mm) / 57 curved (60.0 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.5 @ (238.8, 219.3), r 2.2 @ (226.6, 236.3)
+- **Closed boxes:** 2
+- **Words (OCR):** 4 in 4 lines: ps · BS · tp · ht
+
+Every curve, box, word and wire group: [19xx - M610 - 10W Monitor Amp (2) p25 (traced).json](19xx%20-%20M610%20-%2010W%20Monitor%20Amp%20%282%29%20p25%20%28traced%29.json) (the CAD file: `19xx - M610 - 10W Monitor Amp (2) p25 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

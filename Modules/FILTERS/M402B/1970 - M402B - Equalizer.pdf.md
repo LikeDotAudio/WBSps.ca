@@ -17,6 +17,154 @@ Wiki page: [M402B](../../../PAGES/M402B.md)
 - **1970** (labelled): `DATE JAN 70` — …AAD-BECK ByBTeM8 LTo. psSMoccko 5 17/8 BT USED ON DRN: f; J DATE JAN 70 CKD {; SCALE FimiSH M40z A(B) & MAO44 SYSTEM WiRING TOLS_ 4…
 - **1971** (labelled): `DATE Oct 71` — …EEMD RAD _ULESS FINISH DRM PHHL 1+402B EQOAU ZERMQDULE PcB DATE Oct 71 CONMSMENT LAvOUT MATEUL CRD SCNE] 2 /1 8 /1-132 06-0o1 ISS.…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 20–227 mm across, 105–412 mm up
+- **Outlines:** line 5 rings, 15 straight (11.7 mm) / 6 curved (8.8 mm); text 176 rings, 2,068 straight (2,206 mm) / 612 curved (899 mm)
+- **Words (OCR):** 22 in 12 lines: EQUALIZER MODULE · MODEL 402-B · DESIGNED AND MANUFACTURED · BY · WARD-BECK · SYSTEMS LIMITED · PROGRESS AVENUE · 841 · SCARBOROU GH , ONTARIO MlH 2x4 · (416) 438-6550 · Telex · 06-23469
+- **Title block:** (96, 149)–(179, 173) mm: BY · WARD-BECK · SYSTEMS LIMITED · PROGRESS AVENUE · 841
+
+Every curve, box, word and wire group: [1970 - M402B - Equalizer p1 (traced).json](1970%20-%20M402B%20-%20Equalizer%20p1%20%28traced%29.json) (the CAD file: `1970 - M402B - Equalizer p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 7–425 mm across, 3–334 mm up
+- **Outlines:** line 7,550 rings, 74,536 straight (98,773 mm) / 11,768 curved (15,239 mm); text 23 rings, 173 straight (199 mm) / 51 curved (78.2 mm)
+- **Closed boxes:** 312
+- **Words (OCR):** 3 in 3 lines: +I0 · UE · URVE
+
+Every curve, box, word and wire group: [1970 - M402B - Equalizer p2 (traced).json](1970%20-%20M402B%20-%20Equalizer%20p2%20%28traced%29.json) (the CAD file: `1970 - M402B - Equalizer p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 3–418 mm across, 20–326 mm up
+- **Outlines:** line 8,710 rings, 57,376 straight (69,434 mm) / 9,928 curved (12,217 mm); text 44 rings, 316 straight (390 mm) / 83 curved (134 mm)
+- **Closed boxes:** 68
+- **Dots (junctions):** 1
+- **Words (OCR):** 6 in 5 lines: FEL EssEa · IQOHZ · IOKHZ · +12 · +I0
+
+Every curve, box, word and wire group: [1970 - M402B - Equalizer p3 (traced).json](1970%20-%20M402B%20-%20Equalizer%20p3%20%28traced%29.json) (the CAD file: `1970 - M402B - Equalizer p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 3–420 mm across, 7–326 mm up
+- **Outlines:** line 9,237 rings, 61,272 straight (73,934 mm) / 10,363 curved (12,724 mm); text 29 rings, 244 straight (291 mm) / 66 curved (101 mm)
+- **Closed boxes:** 65
+- **Words (OCR):** 5 in 5 lines: UFFEL · fiOOHZ · KHZ · I0 · 44
+
+Every curve, box, word and wire group: [1970 - M402B - Equalizer p4 (traced).json](1970%20-%20M402B%20-%20Equalizer%20p4%20%28traced%29.json) (the CAD file: `1970 - M402B - Equalizer p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 8–424 mm across, 5–325 mm up
+- **Outlines:** line 8,563 rings, 66,765 straight (84,867 mm) / 10,847 curved (13,564 mm); text 19 rings, 127 straight (126 mm) / 41 curved (59.6 mm)
+- **Closed boxes:** 136
+- **Words (OCR):** 3 in 3 lines: KCUFFCL · ZER · ES
+
+Every curve, box, word and wire group: [1970 - M402B - Equalizer p5 (traced).json](1970%20-%20M402B%20-%20Equalizer%20p5%20%28traced%29.json) (the CAD file: `1970 - M402B - Equalizer p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 3–422 mm across, 16–324 mm up
+- **Outlines:** line 9,148 rings, 58,686 straight (70,644 mm) / 10,253 curved (12,594 mm); text 4 rings, 49 straight (61.5 mm) / 7 curved (9.7 mm)
+- **Closed boxes:** 47
+- **Words (OCR):** 1 in 1 lines: KHZ
+
+Every curve, box, word and wire group: [1970 - M402B - Equalizer p6 (traced).json](1970%20-%20M402B%20-%20Equalizer%20p6%20%28traced%29.json) (the CAD file: `1970 - M402B - Equalizer p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 4–421 mm across, 6–325 mm up
+- **Outlines:** line 9,488 rings, 63,980 straight (77,041 mm) / 11,091 curved (13,596 mm); text 13 rings, 127 straight (161 mm) / 23 curved (33.0 mm)
+- **Closed boxes:** 70
+- **Dots (junctions):** 1
+- **Words (OCR):** 3 in 3 lines: IKHZ · IOKHZ · NG;
+
+Every curve, box, word and wire group: [1970 - M402B - Equalizer p7 (traced).json](1970%20-%20M402B%20-%20Equalizer%20p7%20%28traced%29.json) (the CAD file: `1970 - M402B - Equalizer p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 432 × 318 mm, 2000 × 1472 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–288 mm up
+- **Outlines:** line 419 rings, 9,186 straight (14,064 mm) / 1,407 curved (2,268 mm); text 207 rings, 1,835 straight (2,064 mm) / 555 curved (833 mm); tb 31 rings, 451 straight (501 mm) / 112 curved (172 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 10.3 @ (328.7, 151.5), r 8.6 @ (328.9, 201.7), r 8.4 @ (328.8, 151.5), r 7.3 @ (341.4, 114.6)
+- **Closed boxes:** 42 (4 in the title block); named: VvE-(o': HF J5 PRFS 15; Ti 'BS 68-7; BECK WARD SYSTENS LTD; TOLs; EQJALIZER MODULE LAYour; CD; ISS_
+- **Dots (junctions):** 2
+- **Words (OCR):** 33 in 27 lines: VvE-(o': · HF J5 · Ti · 'BS 68-7 · SWAB · SWAA" · PRFS · Sw34B · Sw2 · PCB 1-139 · SWIB_ · 15
+- **Title block:** (236, 16)–(374, 61) mm: WARD · DRN · DATE No; 71 · EQJALIZER MODULE · LAYour
+
+Every curve, box, word and wire group: [1970 - M402B - Equalizer p8 (traced).json](1970%20-%20M402B%20-%20Equalizer%20p8%20%28traced%29.json) (the CAD file: `1970 - M402B - Equalizer p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 432 × 300 mm, 2000 × 1392 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–294 mm up
+- **Outlines:** line 780 rings, 15,674 straight (20,493 mm) / 2,748 curved (4,204 mm); text 440 rings, 3,519 straight (3,738 mm) / 1,044 curved (1,529 mm); tb 51 rings, 525 straight (518 mm) / 167 curved (236 mm)
+- **Circles and arcs:** 16 circles, 0 arcs; largest r 8.8 @ (226.7, 179.7), r 8.8 @ (226.0, 208.6), r 8.8 @ (226.3, 156.6), r 8.5 @ (226.6, 134.4)
+- **Closed boxes:** 34 (4 in the title block); named: Kod; ISS; Moo; 4028 cor; (FInish; MATERUL; ISS_
+- **Words (OCR):** 92 in 81 lines: CIS,i8 &51 CCWVN ON UNDERSIDE JF BOARD · Re i2 Qce · 4R2 · (32 · CSICF · IC TE', · C3i · {Ji · 33 34 · CI3 · RISRI} RI4 · RIS
+- **Title block:** (102, 28)–(379, 61) mm: Ckd · ON · WARD BECK · Kod · TOLS · Moo Ra; · 4028 · (FInish · DRN · PHL · Oct 71
+
+Every curve, box, word and wire group: [1970 - M402B - Equalizer p9 (traced).json](1970%20-%20M402B%20-%20Equalizer%20p9%20%28traced%29.json) (the CAD file: `1970 - M402B - Equalizer p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** schematic 402-02-012, size B (assumed) 432 × 266 mm, 2000 × 1232 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–240 mm up
+- **Outlines:** line 156 rings, 4,916 straight (8,534 mm) / 546 curved (834 mm); text 482 rings, 3,652 straight (3,932 mm) / 1,105 curved (1,669 mm); tb 66 rings, 543 straight (693 mm) / 68 curved (94.8 mm)
+- **Centre lines:** 4,523 paths (76 closed); straight 7,876 mm, curved 107 mm; horizontal 3,663 mm, vertical 1,732 mm, diagonal 2,480 mm
+- **Circles and arcs:** 5 circles, 12 arcs; largest r 1.8 @ (91.3, 226.6), r 1.7 @ (89.9, 136.9), r 1.6 @ (108.3, 227.7), r 1.6 @ (327.8, 237.3)
+- **Closed boxes:** 32 (2 in the title block); named: 15 M4O2 A Ig 0 Mao4 A 13 @ 190 180 22 20; SEE NOTe; 6o0 LOAD; MATL _; BT; 5 17/8
+- **Words (OCR):** 71 in 56 lines: 15 · output · M4O2 A · 620 · (SySTEmS OUPUT) · Go0 n · Mao4 A · Ig 0 · SoURCE · SEE NOTe · 3OO · 13 @
+- **Title block:** (276, 4)–(397, 235) mm: output · 620 · (SySTEmS OUPUT) · Ig 0 · 3OO · 13 @ · OuTPUT · 6o0 · LOAD · SYSTEMS GND BAR · OR · GROUNo · WBS WAAD-BECK ByBTeM8 LTo. · DRN: · f; J · DATE JAN 70 · M40z A(B) & MAO44 · CKD · SYSTEM · W
+- **Wiring (first pass):** 50 connected wire groups from 243 runs; labelled ends: 659 mm → GROUNo, WBS, psSMoccko, 5 17/8; 223 mm → SEE; 130 mm → M4O2 A; 106 mm → 48, +24, OR Equiv: CoM; 103 mm → 48, +24
+
+Every curve, box, word and wire group: [1970 - M402B - Equalizer p10 (traced).json](1970%20-%20M402B%20-%20Equalizer%20p10%20%28traced%29.json) (the CAD file: `1970 - M402B - Equalizer p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–329 mm across, 4–412 mm up
+- **Outlines:** line 341 rings, 6,004 straight (7,744 mm) / 1,003 curved (1,482 mm); text 587 rings, 6,029 straight (7,429 mm) / 1,409 curved (2,287 mm); tb 14 rings, 140 straight (196 mm) / 34 curved (40.7 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 4.6 @ (70.4, 199.9), r 3.1 @ (20.9, 57.7), r 2.4 @ (70.7, 285.7)
+- **Words (OCR):** 74 in 49 lines: PAD IN · S Y:TEMS EX TEZNAL · PAD · PzovisioN · PAD OUT · (M434A) · 6c@n STRAF 6 To 7 · TRANSFOFMER · IEc n STRAF · 5 To7 · iNPUT · AND
+- **Title block:** (200, 56)–(287, 240) mm: SYSTEMS OUTPUT · EXTERNAL 6dB · PAD · REQUIRED: · LAMP · FEED To 2 4 V · SYSTEMS LTD,
+
+Every curve, box, word and wire group: [1970 - M402B - Equalizer p11 (traced).json](1970%20-%20M402B%20-%20Equalizer%20p11%20%28traced%29.json) (the CAD file: `1970 - M402B - Equalizer p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** schematic 1-129-02-001, size B (assumed) 432 × 138 mm, 2000 × 640 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–136 mm up
+- **Outlines:** line 553 rings, 9,531 straight (16,727 mm) / 1,491 curved (1,976 mm); text 1,083 rings, 6,463 straight (5,237 mm) / 2,036 curved (2,282 mm); tb 5 rings, 24 straight (19.9 mm) / 0 curved (0.0 mm)
+- **Centre lines:** 14,870 paths (284 closed); straight 13,608 mm, curved 324 mm; horizontal 4,627 mm, vertical 3,822 mm, diagonal 5,158 mm
+- **Circles and arcs:** 7 circles, 47 arcs; largest r 3.9 @ (110.5, 89.5), r 3.9 @ (119.8, 97.3), r 3.8 @ (178.2, 97.2), r 3.7 @ (53.8, 89.4)
+- **Closed boxes:** 39 (5 in the title block); named: 227. pp; M402 3 {QLAL:ZE? (^ODULE PC B SCHEMATIC; FINISH IJTERIAL; 2L; 1-129-02-001
+- **Words (OCR):** 324 in 261 lines: Qio · 2N4923 · (PS IN4003 · C46 · 7 22 · +48v · (45 · 247 · 6*8 · 47/35 · P6o · 6800
+- **Title block:** (344, 8)–(432, 32) mm: OHI · 16 · Mod CKD · MzEKaAs Ed sdmeoraues WARD BECK_SYSHELS_LID · m0 · DRN · PAL · {QLAL:ZE? (^ODULE · M402 3 · DATE · NoJ Z · PC B SCHEMATIC · CHD 2L
+- **Wiring (first pass):** 133 connected wire groups from 873 runs; labelled ends: 388 mm → 470, Rzo, iook, R2s; 298 mm → 234, 3ok, 2yei, Kioki; 280 mm → c2, Rgs, 3k9, Ri9_; 175 mm → C57, 47/20, R30 3k6< 5k63, 2k2; 170 mm → 470k< iok<, B8
+
+Every curve, box, word and wire group: [1970 - M402B - Equalizer p12 (traced).json](1970%20-%20M402B%20-%20Equalizer%20p12%20%28traced%29.json) (the CAD file: `1970 - M402B - Equalizer p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 432 × 126 mm, 2000 × 586 px traced (0.216 mm/px)
+- **Ink extent:** 3–432 mm across, 2–125 mm up
+- **Outlines:** line 1,142 rings, 11,186 straight (12,768 mm) / 2,452 curved (2,934 mm); text 69 rings, 483 straight (406 mm) / 156 curved (180 mm)
+- **Closed boxes:** 18; named: PL; CD
+- **Words (OCR):** 21 in 21 lines: 749 · ToX · Crio · Lep · 236 · PESSTOCS · 401 · 2k7 · 04o · 250 · WSERT · LF boost
+
+Every curve, box, word and wire group: [1970 - M402B - Equalizer p13 (traced).json](1970%20-%20M402B%20-%20Equalizer%20p13%20%28traced%29.json) (the CAD file: `1970 - M402B - Equalizer p13 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

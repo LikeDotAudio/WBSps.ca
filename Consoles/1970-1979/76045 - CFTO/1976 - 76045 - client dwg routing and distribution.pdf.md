@@ -11,6 +11,18 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Pages:** 1
 - **PDF created (scan date, not design date):** Sat Feb 25 21:12:56 2012 EST
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 267 × 432 mm, 1237 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–267 mm across, 0–430 mm up
+- **Outlines:** line 1,429 rings, 11,509 straight (15,387 mm) / 2,128 curved (3,001 mm); text 174 rings, 1,159 straight (1,254 mm) / 306 curved (443 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 4.2 @ (221.6, 421.5)
+- **Words (OCR):** 7 in 7 lines: 20 · LYiXY · 33 · 77177 · 993744} · 38 · 8 0n?
+
+Every curve, box, word and wire group: [1976 - 76045 - client dwg routing and distribution p1 (traced).json](1976%20-%2076045%20-%20client%20dwg%20routing%20and%20distribution%20p1%20%28traced%29.json) (the CAD file: `1976 - 76045 - client dwg routing and distribution p1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

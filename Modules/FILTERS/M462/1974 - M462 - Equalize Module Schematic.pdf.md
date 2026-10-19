@@ -12,6 +12,21 @@ Wiki page: [M462](../../../PAGES/M462.md)
 - **Pages:** 1
 - **PDF created (scan date, not design date):** Thu Dec 12 13:55:22 2013 EST
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 2–428 mm across, 3–277 mm up
+- **Outlines:** line 1,780 rings, 17,045 straight (26,511 mm) / 3,441 curved (4,081 mm); text 692 rings, 3,935 straight (3,544 mm) / 1,353 curved (1,688 mm); tb 29 rings, 123 straight (76.2 mm) / 11 curved (9.7 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.1 @ (262.3, 238.1), r 1.0 @ (249.1, 259.1), r 0.9 @ (183.3, 256.3)
+- **Closed boxes:** 6; named: FILTER AmPLIFIER 4-126 202
+- **Dots (junctions):** 3
+- **Words (OCR):** 130 in 123 lines: HiGh · FREDENCY · Mid FREOUENCY · Ow FRECUENCT · 0c4z- 4kkz · 25H2-400 · cak · P293 · 14403 · 257+ · 2435c2 · FILTER AmPLIFIER
+- **Title block:** (347, 17)–(423, 34) mm: WBS WARD-BeCK byeTeMS · 2517 · M4 6 2
+
+Every curve, box, word and wire group: [1974 - M462 - Equalize Module Schematic p1 (traced).json](1974%20-%20M462%20-%20Equalize%20Module%20Schematic%20p1%20%28traced%29.json) (the CAD file: `1974 - M462 - Equalize Module Schematic p1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

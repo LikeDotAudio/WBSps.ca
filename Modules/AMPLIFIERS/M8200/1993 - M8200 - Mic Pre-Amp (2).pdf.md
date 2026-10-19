@@ -12,6 +12,239 @@ Wiki page: [M8200](../../../PAGES/M8200.md)
 - **Pages:** 21
 - **PDF created (scan date, not design date):** Mon Aug 17 17:16:13 2009 EDT
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 332 × 432 mm, 1540 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–308 mm across, 14–421 mm up
+- **Outlines:** line 114 rings, 1,620 straight (4,138 mm) / 371 curved (609 mm); text 137 rings, 1,127 straight (1,540 mm) / 231 curved (363 mm)
+- **Words (OCR):** 33 in 16 lines: [WElS] ROG FlE AveNue, SCA PElOA Oua.. ONT 11-12)(. · ARD · EC · STE MS LT · 1t!I .38-3B6e · Tll LEP I-ION · ISI. 38-8&eO · M8200 · MICROPHONE PREAMPLI FIER · ps · IW BS · {HUE_
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp (2) p1 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 332 × 432 mm, 1540 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–305 mm across, 21–422 mm up
+- **Outlines:** line 290 rings, 3,128 straight (5,464 mm) / 762 curved (1,270 mm); text 1,421 rings, 8,626 straight (9,300 mm) / 2,948 curved (4,836 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.4 @ (48.4, 56.8), r 2.3 @ (48.6, 83.1), r 1.7 @ (100.3, 238.8)
+- **Closed boxes:** 1
+- **Words (OCR):** 320 in 80 lines: WA · CK · STE · LTD · UCH Nl · AJA · UOO · ICROPHONE PRu'MP FIfR · lTRA NSfORMnl ESS REMOTE SENS ITJ YJ · Ga in (Tunsducc · 61 dB to 40 · con tin uo usly var iabl
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp (2) p2 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 332 × 432 mm, 1540 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 26–325 mm across, 22–421 mm up
+- **Outlines:** line 149 rings, 2,238 straight (4,379 mm) / 465 curved (737 mm); text 284 rings, 1,918 straight (2,094 mm) / 586 curved (939 mm)
+- **Words (OCR):** 85 in 29 lines: WA · ECK SYST EMS LTO · UCH Nl f6J · AH · MB2QQ IC · ON · PR EA MPIIElER · (TR NSFQRM ER fSSt · MO TE SE NS JIlY'Ty) · or {he inpI,I1 pair nd he · Phas ins: · he nl,lmbered lermina
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp (2) p3 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 332 × 432 mm, 1540 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–305 mm across, 21–421 mm up
+- **Outlines:** line 321 rings, 3,056 straight (5,276 mm) / 751 curved (1,225 mm); text 1,570 rings, 9,719 straight (10,364 mm) / 3,392 curved (5,414 mm); tb 8 rings, 53 straight (56.2 mm) / 22 curved (36.3 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.8 @ (280.9, 323.0), r 1.7 @ (52.0, 206.5)
+- **Closed boxes:** 1
+- **Words (OCR):** 380 in 68 lines: SYSTE MS · MIlDD MIC ROP ONE PR · IflfB · Th M8200 Microphone Prea mplitie · Alon lwitll he inpu preamolitie remote · wit its tran st ormerless input circui tr · sensit vi ty adju st ment ca pab ilities. he · an · lid-sta te remo sellsit iv lly capa- · cver eu amplit ier lai may be rimm ed · bilit i
+- **Title block:** (229, 220)–(296, 268) mm: has bee co nvenient ly pack al ed to · llow ts illtegt ati on in lO he WBS · 12 Au io Distr bu ioll Syst em. he · M.2 00 ma be mount ed ....it th M120$ · Dist ribu tion Amplif ier pr oyidi nl the
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp (2) p4 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 332 × 432 mm, 1540 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–302 mm across, 19–422 mm up
+- **Outlines:** line 415 rings, 4,005 straight (6,398 mm) / 1,090 curved (1,773 mm); text 2,869 rings, 17,812 straight (18,916 mm) / 6,116 curved (9,761 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.7 @ (139.9, 256.9)
+- **Words (OCR):** 648 in 115 lines: CIRellIT DES RIPTJQN · MUon MICRQPHON PRUMPIIfIIJR · Th micro pho ne in put cable connects · he low noise pr eam pl ifi er is of. dual · to it., · of the modu le COnllec lor, · ifferen ia co fi,urat loo ma de UP of · it th ca ble shiel wir in til pin · Ql hrOUIII Q4 an · llis mpli ier · e.lll ibiu v
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp (2) p5 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 31–330 mm across, 23–412 mm up
+- **Outlines:** line 343 rings, 3,531 straight (5,929 mm) / 926 curved (1,478 mm); text 2,780 rings, 17,635 straight (18,855 mm) / 6,063 curved (9,558 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.4 @ (112.9, 306.3), r 1.8 @ (96.3, 338.5), r 1.7 @ (191.0, 109.5)
+- **Closed boxes:** 3
+- **Words (OCR):** 636 in 137 lines: Fl · BECI< · Cl BC! !1T pESCR IP TlON · MURO MIC · NE RU MPI IFfE · The ove ra ll am!)lifier la in is ad j\lsted · It · no rmal pnctice wilen he cer nal · by li Iri con tr ol R3S (see se tU!) nd · ensil ,vi ty contr olis ....iredlo theMI200 · dj \ls\lnenl secuo · or ad
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp (2) p6 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–302 mm across, 20–409 mm up
+- **Outlines:** line 435 rings, 4,124 straight (6,564 mm) / 1,152 curved (1,846 mm); text 2,936 rings, 18,549 straight (19,674 mm) / 6,145 curved (9,769 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.8 @ (94.6, 133.2), r 1.7 @ (199.5, 126.1)
+- **Closed boxes:** 4
+- **Words (OCR):** 662 in 114 lines: YSTEMS LTD · TA LATION ANn I:TJJ · MU OO MICRO ONE REAMP ifi ER · rf clf or · ter ll l)Ower ed condenl er · mier op hone arebciollU ledlhenlhere · Refe 10 th tec hn al manu of he · ilnorequiremcnt forllleUlilizati on · 8212 AUd io Disui bul ion Synem and · of he phantom JXlwer circ ui ry of th · Sec
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp (2) p7 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20%282%29%20p7%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp (2) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 32–332 mm across, 22–421 mm up
+- **Outlines:** line 870 rings, 6,957 straight (9,579 mm) / 1,964 curved (3,200 mm); text 2,403 rings, 14,592 straight (15,413 mm) / 5,160 curved (8,189 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.7 @ (127.1, 43.2), r 1.7 @ (205.5, 108.1), r 1.7 @ (248.2, 198.9)
+- **Closed boxes:** 2
+- **Words (OCR):** 568 in 136 lines: YSTEMS TO · NSTA · ATI ON · UII · MUH · MICROPHO · Pl · !flU · mic ropho llerece prael e,d uecollJider al ioa · he · illpul SCIIJill ..it)' COIIIJIII · IIlUJlbeai.. IO he ype or CO.... eelio
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp (2) p8 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20%282%29%20p8%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp (2) p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–302 mm across, 19–422 mm up
+- **Outlines:** line 172 rings, 2,211 straight (4,332 mm) / 538 curved (871 mm); text 344 rings, 2,254 straight (2,524 mm) / 742 curved (1,213 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.5 @ (233.1, 336.0), r 1.8 @ (248.2, 328.7)
+- **Words (OCR):** 105 in 25 lines: WAFl · CK SYS TE MS LTD · STr!. · TI · AN SET IJP · MIlOO MI CBO PHQN PR EAMP · IFl · Thc M8200 prea mplificr pr ov idc IWO · cfcr to thc Input /Out pu co nncct ion! · 60 ohm ito lal cd OUt pUll. hc outp Ull · $cct ion of hc Dl · Audio istribut ion
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp (2) p9 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20%282%29%20p9%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp (2) p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–302 mm across, 19–421 mm up
+- **Outlines:** line 1,058 rings, 7,740 straight (10,399 mm) / 2,415 curved (3,886 mm); text 1,898 rings, 12,383 straight (13,380 mm) / 4,239 curved (6,777 mm)
+- **Circles and arcs:** 28 circles, 0 arcs; largest r 1.8 @ (88.1, 328.5), r 1.8 @ (280.2, 341.4), r 1.7 @ (215.9, 210.3), r 1.7 @ (197.9, 295.6)
+- **Closed boxes:** 3
+- **Words (OCR):** 161 in 128 lines: FA44. ^ · 5 |4 ` - = ~ ( · WAAD BLCIC BYOTEMe · EAALAIELALHLUE · DTZLAUDIO_DISTRIBUIION SXSTESE · ncari · Powar Sunnid · oecratioa (lint · Keelind Gtion · Remntceomirmcne (rom · iht Mzs FouerSupplyL · prMan
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp (2) p10 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20%282%29%20p10%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp (2) p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 33–332 mm across, 23–411 mm up
+- **Outlines:** line 298 rings, 3,243 straight (5,735 mm) / 926 curved (1,470 mm); text 2,868 rings, 17,916 straight (19,032 mm) / 6,282 curved (9,888 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.7 @ (86.4, 162.0)
+- **Words (OCR):** 643 in 135 lines: Fl · SYSTEMS LTC · NSTAl ATI ON AN · pl · P'S TB IBIJTION SYSTf · Ut · tp · Cp lnsllp. · and examin for Ihe proper in tereon- · neel ion of li nk · or ISV ACo J)era tio · Rere to pa ge 7-1 nd dr awi ol 82 12·
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp (2) p11 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20%282%29%20p11%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp (2) p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–301 mm across, 11–421 mm up
+- **Outlines:** line 394 rings, 3,714 straight (6,564 mm) / 1,024 curved (1,652 mm); text 754 rings, 5,871 straight (6,678 mm) / 1,910 curved (3,088 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.4 @ (135.7, 272.4), r 2.4 @ (135.8, 154.9)
+- **Dots (junctions):** 4
+- **Words (OCR):** 190 in 113 lines: WA · SYS EMS TD · Ma200 MICROP HO NE PR UMPIIfIER · PA RI · ESCR IPTIO · MEG · MEG PART · ER · cr To · Ca paeilor · 47 uF/S · Ph ili ps
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp (2) p12 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20%282%29%20p12%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp (2) p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 33–331 mm across, 13–422 mm up
+- **Outlines:** line 729 rings, 6,302 straight (9,328 mm) / 1,805 curved (2,880 mm); text 88 rings, 697 straight (793 mm) / 234 curved (386 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.7 @ (107.0, 142.8), r 1.7 @ (209.6, 129.3)
+- **Closed boxes:** 3
+- **Dots (junctions):** 8
+- **Words (OCR):** 29 in 21 lines: WAR · Cl< · YSTE MS LTO · MU · IC · HONE PR t;AMPJ IfI ER · MEG · EG · K.eme · T390E226M035AS · Kerner · T39OC106M035AS
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp (2) p13 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20%282%29%20p13%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp (2) p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–305 mm across, 14–422 mm up
+- **Outlines:** line 355 rings, 3,842 straight (6,206 mm) / 981 curved (1,570 mm); text 534 rings, 3,889 straight (4,352 mm) / 1,241 curved (1,968 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.7 @ (97.9, 110.8)
+- **Dots (junctions):** 13
+- **Words (OCR):** 134 in 94 lines: YSTEM LTD · M'2 00 MIC ROP · NE RE AMP) IfiER · ART · ES · PTl QN · ffi · MEG PA RT · BER · eu · Rcsi5 lor · 4W
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp (2) p14 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20%282%29%20p14%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp (2) p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 33–333 mm across, 12–421 mm up
+- **Outlines:** line 261 rings, 2,871 straight (5,271 mm) / 722 curved (1,112 mm); text 388 rings, 2,963 straight (3,336 mm) / 941 curved (1,512 mm)
+- **Dots (junctions):** 9
+- **Words (OCR):** 98 in 64 lines: CK YSTE MS LTC. · 82 QQ · CR OP HO · PREAMP! !FIER · ESCRIPTIO · MEG · MfG · RT 1!M EB · RSO · Ru istor 4W S1llo27K · CR2S · RSO
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp (2) p15 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20%282%29%20p15%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp (2) p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–306 mm across, 10–421 mm up
+- **Outlines:** line 155 rings, 2,227 straight (5,064 mm) / 543 curved (920 mm); text 293 rings, 1,969 straight (2,081 mm) / 685 curved (1,072 mm); tb 18 rings, 105 straight (116 mm) / 45 curved (73.0 mm)
+- **Closed boxes:** 2
+- **Words (OCR):** 81 in 26 lines: CI< · YST EMS LTD · MI1QQ · MIC ROPHO NE RE rl:MP fl · i\nson r1:N IO Il MP ONENTS · SfQ · QES CR IPTIQ · ME · MFC PA RT N!!MBfR · Mod ule Han dl · Pin Ju mper · Ap lro nics
+- **Title block:** (35, 29)–(216, 287) mm: Prin tcd ircuil Boar · WBS · PC' · 14 Pin Dip Sock et · pi Dip Soc kcl · WBS re<;o mmen ds tile usc of rep la<;cmcn p:lrrl mad by Ihe specified manufac turers or · <;ootinued(lpl;mumequ ip mentpe rfo 
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp (2) p16 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20%282%29%20p16%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp (2) p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–306 mm across, 13–422 mm up
+- **Outlines:** line 372 rings, 4,463 straight (9,570 mm) / 970 curved (1,789 mm); text 40 rings, 463 straight (641 mm) / 95 curved (150 mm)
+- **Circles and arcs:** 29 circles, 0 arcs; largest r 4.6 @ (169.3, 231.0), r 4.6 @ (169.2, 242.9), r 4.6 @ (169.5, 183.5), r 4.6 @ (191.3, 183.7)
+- **Closed boxes:** 13; named: ::::'-"*-+.-\cI--
+- **Dots (junctions):** 1
+- **Words (OCR):** 29 in 15 lines: WARO~8EC SYS MS TO · SA 14-1 46 · AUDIO TERMINAL ASSEM8L · 48'" · RE~~~tf · PHANTOM POWER · SYSTEt.t GROUND · ::::'-"*-+.-\cI-- OUlPUT · '~H-4;I- OUlPU · IMRING SIDE · Of CONNECTOR SHOWN · ca
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp (2) p17 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20%282%29%20p17%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp (2) p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 14–334 mm across, 56–383 mm up
+- **Outlines:** line 639 rings, 9,267 straight (13,949 mm) / 2,252 curved (3,126 mm); text 129 rings, 1,326 straight (1,236 mm) / 401 curved (534 mm)
+- **Closed boxes:** 21
+- **Dots (junctions):** 2
+- **Words (OCR):** 46 in 42 lines: tt · +20 · Hay · INPUT · 60 dBu · TO dBu · eOOO/H500 OHWS · SYSroI · GROUND · ev · NOTES: · ALL
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp (2) p18 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20%282%29%20p18%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp (2) p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** schematic 88200-02-001, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 16–432 mm up
+- **Outlines:** line 333 rings, 4,730 straight (6,794 mm) / 1,138 curved (1,494 mm); text 291 rings, 2,773 straight (2,732 mm) / 876 curved (1,256 mm)
+- **Centre lines:** 9,298 paths (68 closed); straight 7,011 mm, curved 92.2 mm; horizontal 1,967 mm, vertical 1,635 mm, diagonal 3,409 mm
+- **Circles and arcs:** 1 circles, 29 arcs; largest r 0.8 @ (187.0, 332.9)
+- **Closed boxes:** 5
+- **Words (OCR):** 93 in 48 lines: +20 · 30.". · OUTPUT · '01< C25 · '43 · OUlPUT · JO.11 · '00' · OUlP\JTS · 10 TO · d8u · OUl'PUT
+- **Title block:** (229, 45)–(319, 67) mm: ps · (VVElS) WARD -BECK SYSTEMS · BS · M8200
+- **Wiring (first pass):** 53 connected wire groups from 362 runs; labelled ends: 202 mm → '01<, C25, C20, Il2J; 152 mm → 30.1'•, 30.1, ~7P; 119 mm → ~7P; 78 mm → 30."., '43, JO.11; 26 mm → (VVElS), WARD
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp (2) p19 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20%282%29%20p19%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp (2) p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 9–431 mm up
+- **Outlines:** line 893 rings, 8,580 straight (11,894 mm) / 2,240 curved (3,681 mm)
+- **Circles and arcs:** 19 circles, 0 arcs; largest r 6.9 @ (58.6, 227.4), r 6.4 @ (82.0, 290.9), r 6.4 @ (73.5, 227.4), r 6.4 @ (58.6, 277.9)
+- **Closed boxes:** 14
+- **Dots (junctions):** 2
+- **Words (OCR):** 5 in 5 lines: NOTE · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp (2) p20 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20%282%29%20p20%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp (2) p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** parts list 8200-08-001, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–313 mm across, 9–425 mm up
+- **Outlines:** line 773 rings, 7,625 straight (10,130 mm) / 2,053 curved (3,332 mm); text 288 rings, 2,425 straight (2,651 mm) / 750 curved (1,156 mm); tb 4 rings, 18 straight (24.6 mm) / 12 curved (21.2 mm)
+- **Circles and arcs:** 19 circles, 0 arcs; largest r 7.8 @ (128.3, 290.9), r 6.4 @ (127.2, 269.0), r 6.4 @ (159.9, 263.1), r 6.4 @ (127.2, 254.2)
+- **Closed boxes:** 7
+- **Words (OCR):** 53 in 24 lines: NOTE · NOTE · NOTES- · PHRNTOM POVER LINK LK1 IS · SHIPPEO · THE · POSITION · NO CONNECTION TO EXTERN'lL POVER SOURCE · NPUT LOSS PRO LINKS LK2 RND LK3 · 'IRE SHIPPEO · THE · POSITION
+- **Title block:** (230, 49)–(320, 71) mm: ps · (was) WARD-BECK SYSTEMS · BS · M8200
+
+Every curve, box, word and wire group: [1993 - M8200 - Mic Pre-Amp (2) p21 (traced).json](1993%20-%20M8200%20-%20Mic%20Pre-Amp%20%282%29%20p21%20%28traced%29.json) (the CAD file: `1993 - M8200 - Mic Pre-Amp (2) p21 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

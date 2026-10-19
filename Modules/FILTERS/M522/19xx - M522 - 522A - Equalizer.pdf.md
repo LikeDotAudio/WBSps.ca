@@ -12,6 +12,364 @@ Wiki page: [M522](../../../PAGES/M522.md)
 - **Pages:** 34
 - **PDF created (scan date, not design date):** Mon Aug 17 17:05:47 2009 EDT
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 20–424 mm up
+- **Outlines:** line 28 rings, 539 straight (2,751 mm) / 52 curved (82.6 mm); text 167 rings, 1,780 straight (2,528 mm) / 466 curved (750 mm); tb 2 rings, 87 straight (299 mm) / 3 curved (5.0 mm)
+- **Words (OCR):** 13 in 8 lines: WAAD-BECK SysteMS LTD_ · WBS 841 PAOGRESS AVENUE; SCAABOAOUGH ONTARIO M12x4 · TeleX 065-25399 · TELEPHONE: 416/438-6550 · M522/M522A · EQUALIZER MODULES · MANUAL LSSUE_#? · JANUARY 1986
+- **Title block:** (44, 387)–(264, 422) mm: WAAD-BECK SysteMS LTD_ · WBS 841 PAOGRESS AVENUE; SCAABOAOUGH ONTARIO M12x4 · TeleX 065-25399 · TELEPHONE: 416/438-6550
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p1 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p1%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** assembly 3527_05-067, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–307 mm across, 0–426 mm up
+- **Outlines:** line 39 rings, 723 straight (3,204 mm) / 105 curved (170 mm); text 580 rings, 4,436 straight (5,240 mm) / 1,307 curved (2,089 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 66 in 54 lines: WAAD-BeCK BYBTEms LTD · TABLE · QFCONTENIS · M522/M522A EQUAL IZER · MODULES · SECTION · PAGE · Warranty · Technical Data · 1-1 · General · 2-1
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p2 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p2%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–310 mm across, 0–425 mm up
+- **Outlines:** line 691 rings, 5,193 straight (8,331 mm) / 1,507 curved (2,385 mm); text 725 rings, 5,109 straight (5,706 mm) / 1,568 curved (2,472 mm)
+- **Circles and arcs:** 16 circles, 0 arcs; largest r 1.7 @ (108.3, 260.1), r 1.7 @ (165.2, 173.6), r 1.7 @ (143.9, 87.4), r 1.7 @ (224.8, 279.5)
+- **Closed boxes:** 1
+- **Dots (junctions):** 8
+- **Words (OCR):** 79 in 58 lines: ~VAAD BECK SYBTEMB · ccam · 0522/M22e FOMAIZER MuduLCS · S_ciliculicn · nclu; · Rct · Lolad cycis · Con ahm Bvenm Mni Ocneolise Eoioatid · Gina · Unlit 4-.25 · Rutnanae · equallzer Fceerad
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p3 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p3%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–311 mm across, 22–419 mm up
+- **Outlines:** line 52 rings, 887 straight (3,035 mm) / 144 curved (220 mm); text 1,465 rings, 10,193 straight (11,376 mm) / 3,158 curved (4,857 mm)
+- **Dots (junctions):** 2
+- **Words (OCR):** 216 in 82 lines: WAAD-BECK Systems LTD; · GENERAL · M522 M522A EQUAL IZER MODULES · The · M522/M522A Mono and · Stereo Equalizers operate · in conjunction · with the M520 and · M521 series of Input modules · The equalization · functions divide the · audio spectrum
+- **Title block:** (29, 405)–(138, 429) mm: WAAD-BECK Systems LTD;
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p4 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p4%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 22–418 mm up
+- **Outlines:** line 29 rings, 761 straight (3,578 mm) / 72 curved (109 mm); text 1,415 rings, 9,956 straight (11,351 mm) / 3,000 curved (4,702 mm); tb 14 rings, 204 straight (590 mm) / 44 curved (70.4 mm)
+- **Words (OCR):** 181 in 85 lines: WAAD-BECK systems LTD_ · OPERATIONAL DESCRIPTION · M522/M522A EQUAL IZER · MODULES · Refer t0 · Module Layout B522-0L-001 · HIGH · FREQUENCY · Controls R43 and R4L set · the corner · frequency for the · High
+- **Title block:** (25, 102)–(169, 428) mm: WAAD-BECK systems LTD_ · M522/M522A EQUAL IZER · Refer t0 · HIGH · FREQUENCY · Controls R43 and R4L set · Frequency shel · the filter networks in · equalizer · simultaneously · 21 · MId-FREQUENCY · R1
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p5 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p5%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–308 mm across, 0–426 mm up
+- **Outlines:** line 21 rings, 706 straight (3,422 mm) / 61 curved (97.3 mm); text 174 rings, 1,428 straight (1,796 mm) / 348 curved (576 mm)
+- **Words (OCR):** 19 in 8 lines: WAAD-BECK Systems LTD; · OPERATIONAL DESCRIPT ION · M522/m5224 EQUAL IZER MODULES · INSERT · INDICATOR · DSI iuminates when · the Insert Switch Sw2 is selected · 3-2
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p6 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p6%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 0–417 mm up
+- **Outlines:** line 42 rings, 757 straight (3,564 mm) / 87 curved (132 mm); text 1,926 rings, 13,211 straight (14,705 mm) / 4,029 curved (6,223 mm)
+- **Words (OCR):** 281 in 131 lines: WAAD-BECK SYSTems LTD · ciRcuiT · DESCRIPTION · M522/M522A EQUAL IZER · MODULES · The left channel · of the · M522A · Stereo Equalizer will be · described · This is the same · circuitry that
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p7 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p7%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–309 mm across, 0–425 mm up
+- **Outlines:** line 44 rings, 819 straight (3,728 mm) / 90 curved (144 mm); text 1,122 rings, 7,905 straight (8,937 mm) / 2,549 curved (3,955 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 167 in 86 lines: WAAD-BECK SYBTEms LTD · CiRcuiT DESCRIPTION · M522/M522A EQUAL IZER MODULES · High · Frequency Equalization · The summing · amplifier UZA · forms the · high · frequency equalizer · section, long with · cut/boost control
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p8 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p8%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–328 mm across, 0–425 mm up
+- **Outlines:** line 456 rings, 5,734 straight (20,360 mm) / 515 curved (822 mm); text 221 rings, 2,039 straight (2,483 mm) / 560 curved (884 mm)
+- **Closed boxes:** 252
+- **Words (OCR):** 33 in 25 lines: WAAD-BECK · sy8tems LTD_ · FREQUENCY RESPONSE · CHARACTERISTICS · M522/m5224 EQUAL IZER · MODULE · +15 · +12 · OdB · ~12 · 15 · 20Hz
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p9 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p9%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 19–426 mm up
+- **Outlines:** line 557 rings, 6,697 straight (21,148 mm) / 650 curved (1,164 mm); text 235 rings, 2,111 straight (2,604 mm) / 541 curved (846 mm)
+- **Closed boxes:** 207
+- **Words (OCR):** 32 in 21 lines: WAAD-BECK Sybtems LTD. · FREQUENCY RESPONSE · CHARACTERISTICS · M522/m5224 EQUAL IZER MODULE · +15 · +12 · OdB · ~12 · 15 · 20Hz · 10k 20k · 30k 40k
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p10 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p10%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–309 mm across, 0–426 mm up
+- **Outlines:** line 460 rings, 5,537 straight (20,118 mm) / 516 curved (853 mm); text 226 rings, 2,036 straight (2,551 mm) / 544 curved (884 mm)
+- **Closed boxes:** 258
+- **Words (OCR):** 31 in 22 lines: WAAD-BECK Systems LTD; · FREQUENCY RESPONSE · CHARACTERISTICS · M522/M522A EQUALIZER · MODULE · +15 · +12 · OdB · -12 · -15 · 20Hz · 10k 20k
+- **Title block:** (27, 403)–(136, 428) mm: WAAD-BECK Systems LTD;
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p11 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p11%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–309 mm across, 0–425 mm up
+- **Outlines:** line 143 rings, 1,275 straight (4,123 mm) / 238 curved (349 mm); text 1,002 rings, 7,522 straight (8,815 mm) / 2,329 curved (3,780 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 137 in 113 lines: WAAD-BeCK SYSTemS LTD; · PARTS LiST · M522 MONO EQUALIZER MODULE · PART DESCR IPTION · MFG · MFG PART NUMBER · C1 · Capacitor 4.7 · uF/10 · Kemet · T390B475M010A5 · C2
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p12 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p12%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–306 mm across, 22–427 mm up
+- **Outlines:** line 22 rings, 611 straight (2,767 mm) / 67 curved (103 mm); text 807 rings, 6,027 straight (7,042 mm) / 1,769 curved (2,812 mm); tb 112 rings, 610 straight (1,102 mm) / 158 curved (242 mm)
+- **Words (OCR):** 121 in 102 lines: WAAO-BECK systems LTD_ · PARTS LiST · M522 MONO EQUALIZER MODULE · PART DESCRIPTION · MFG · MFG PART NUMBER · C52 · Capacitor · uF/35 · Kemet · T3900475M035AS · C53
+- **Title block:** (24, 45)–(249, 429) mm: WAAO-BECK systems LTD_ · PARTS LiST · M522 MONO EQUALIZER MODULE · PART DESCRIPTION · MFG · C52 · Capacitor · uF/35 · Kemet · C53 · uF/35 · C54 · uF/35 · 4.7 · C55 · 4.7 uF/35 · C56 · delete · C57 · d
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p13 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p13%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–308 mm across, 0–426 mm up
+- **Outlines:** line 54 rings, 740 straight (3,103 mm) / 112 curved (167 mm); text 744 rings, 5,468 straight (6,280 mm) / 1,747 curved (2,761 mm); tb 61 rings, 402 straight (865 mm) / 89 curved (143 mm)
+- **Words (OCR):** 115 in 98 lines: WAAD-BECK systems LTD_ · PARTS · LiST · M522 MONO EQUAL IZER MODULE · PART DESCRIPT ION · MFG · MFG PART NUMBER · R2o · Resistor 1/4w · 15K · Philips · R21
+- **Title block:** (26, 128)–(253, 428) mm: WAAD-BECK systems LTD_ · PARTS · LiST · M522 MONO EQUAL IZER MODULE · PART DESCRIPT ION · MFG · R2o · Resistor 1/4w · 15K · Philips · R21 · 1M · R22 · 3k · R23 · Potentiometer · Sk · Clarostat · WBS 1
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p14 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p14%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–308 mm across, 0–426 mm up
+- **Outlines:** line 68 rings, 1,183 straight (4,302 mm) / 121 curved (204 mm); text 909 rings, 6,889 straight (8,104 mm) / 2,103 curved (3,313 mm); tb 16 rings, 63 straight (70.5 mm) / 26 curved (41.3 mm)
+- **Words (OCR):** 122 in 89 lines: WAAD-BECK · systems LTD · PARTS LIST · M522 MOnO EQUALIZER MODULE · PART DESCR IPTION · MFG · MFG PART · NUMBER · R86 · Resistor 1/4w · 10K · Philips
+- **Title block:** (26, 36)–(135, 427) mm: WAAD-BECK · systems LTD · PART DESCR IPTION · R86 · Resistor 1/4w · R87 · R88 · 3w · R89 · 1/4w · Sw1 · Lc · A/A Pushbutton · Sw2 · Circuit · U1-u5 Integrated · USED · ON DESCR IPTION · R4 · Knob (Bla
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p15 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p15%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–310 mm across, 0–426 mm up
+- **Outlines:** line 154 rings, 1,283 straight (4,174 mm) / 272 curved (436 mm); text 1,200 rings, 9,030 straight (10,563 mm) / 2,790 curved (4,551 mm)
+- **Words (OCR):** 155 in 135 lines: WAAD-BeCk Sybtems · LTD · PARTS · LIST · M522A · STEREO EQUAL IZER · MODULE · PART · DESCRIPTION · MFG · MFG PART NUMBER · C1
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p16 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p16%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–308 mm across, 0–426 mm up
+- **Outlines:** line 212 rings, 1,633 straight (4,495 mm) / 329 curved (484 mm); text 860 rings, 6,711 straight (7,880 mm) / 2,043 curved (3,275 mm)
+- **Words (OCR):** 126 in 108 lines: WAAD-BeCK SYSTEmS LTD; · PARTS LiST · M522A STEREO EQUAL IZER MODULE · PART DESCRIPTION · MFG · MFG PART · NUMBER · C36 · Capacitor 680 pF · Philips · 2222-630-03681 · C37
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p17 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p17%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–308 mm across, 0–426 mm up
+- **Outlines:** line 30 rings, 634 straight (2,921 mm) / 59 curved (103 mm); text 727 rings, 5,307 straight (6,184 mm) / 1,669 curved (2,625 mm); tb 89 rings, 469 straight (1,024 mm) / 113 curved (174 mm)
+- **Words (OCR):** 112 in 98 lines: WAAD-BeCk BYBTEMS LTD. · PARTS · LisT · M522A STEREO EQUAL IZER · MODULE · PART DESCRIPTION · MFG · MFG · PARTNUMBER · RI · Resistor · 1/4w
+- **Title block:** (26, 48)–(253, 428) mm: WAAD-BeCk BYBTEMS LTD. · PARTS · LisT · M522A STEREO EQUAL IZER · MODULE · PART DESCRIPTION · MFG · MFG · RI · Resistor · 1/4w · 15k · Philips · R2 · 15k · R3 · 15k · R4) · Potentiometer · 5k · Claros
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p18 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p18%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–308 mm across, 0–425 mm up
+- **Outlines:** line 124 rings, 902 straight (3,290 mm) / 187 curved (283 mm); text 505 rings, 3,979 straight (4,653 mm) / 1,157 curved (1,817 mm); tb 30 rings, 248 straight (735 mm) / 51 curved (78.1 mm)
+- **Words (OCR):** 94 in 86 lines: WAAD-BECK systems · LTD. · PARTS LiST · M522A STEREO · EQUALIZER MODULE · PART DESCRIPTION · MFG · MFG PART · NUMBER · R36 · Resistor 1/4w · 1SK
+- **Title block:** (26, 251)–(252, 428) mm: WAAD-BECK systems · LTD. · PARTS LiST · M522A STEREO · EQUALIZER MODULE · PART DESCRIPTION · MFG · MFG PART · R36 · Resistor 1/4w · 1SK · Philips · R37 · IK · R38 · 2k7 · R39 · 390 · R4o · 15k · R4I ·
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p19 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p19%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–308 mm across, 21–425 mm up
+- **Outlines:** line 98 rings, 1,028 straight (3,762 mm) / 172 curved (276 mm); text 443 rings, 3,303 straight (4,020 mm) / 1,026 curved (1,603 mm)
+- **Words (OCR):** 76 in 64 lines: WAAD-BECK systems LTD · PARTS List · M522A STEREO EQUAL IZER · MODULE · PART DESCRIPTION · MFG · MFG PART · NUMBER · R71 · Resistor 1/4w · 15k · Philips
+- **Title block:** (27, 403)–(136, 428) mm: WAAD-BECK systems LTD
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p20 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p20%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–311 mm across, 20–418 mm up
+- **Outlines:** line 26 rings, 967 straight (3,386 mm) / 100 curved (169 mm); text 795 rings, 5,913 straight (6,903 mm) / 1,764 curved (2,837 mm); tb 44 rings, 230 straight (316 mm) / 62 curved (96.4 mm)
+- **Words (OCR):** 104 in 79 lines: WAAD-BECK systems LTD · PARTS LiST · M522A STEREO · EQUALIZER MODULE · MISCELLANEouS COMPONENTS · USED ON · DESCRIPTION · MFG · MFG PART NUMBER · DSI · LED · Mounting Bracket
+- **Title block:** (29, 77)–(204, 428) mm: WAAD-BECK systems LTD · PARTS LiST · M522A STEREO · EQUALIZER MODULE · MISCELLANEouS COMPONENTS · USED ON · DESCRIPTION · MFG · DSI · LED · Mounting Bracket · WBS · R4 ) · Knob (Black ) · Elma · RS) ·
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p21 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p21%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–307 mm across, 0–425 mm up
+- **Outlines:** line 60 rings, 1,516 straight (5,232 mm) / 166 curved (255 mm); text 274 rings, 2,349 straight (3,067 mm) / 618 curved (1,039 mm)
+- **Closed boxes:** 21; named: 10; 12; 14; 15; 16; 18; 19; 20; 21; 22
+- **Words (OCR):** 51 in 44 lines: WARD-BECK SYSTEms LTD_ · CONNECTOR LAYouT · M522/M522A EQUALIZER · MODULES · NC · NC · SHIELD · iNPUT · LEFT/MONO · NC · outPut · NC
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p22 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p22%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–338 mm across, 10–317 mm up
+- **Outlines:** line 209 rings, 3,074 straight (8,923 mm) / 343 curved (627 mm); text 67 rings, 379 straight (362 mm) / 147 curved (198 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 5.0 @ (288.6, 145.8), r 5.0 @ (289.3, 187.0), r 5.0 @ (289.3, 212.6), r 5.0 @ (289.7, 237.8)
+- **Closed boxes:** 10; named: RL]; R16; R18; R17; RIS; R2B; R27
+- **Words (OCR):** 15 in 9 lines: RL] · R16 R18 R17 · RIS · Sw2 · R2B R27 · WBS 14-110 · CANADA · NQTEi · NoT SUPPLIED ON M522
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p23 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p23%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** layout 522-04-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 38–332 mm across, 14–315 mm up
+- **Outlines:** line 26 rings, 543 straight (2,573 mm) / 87 curved (230 mm); text 121 rings, 1,058 straight (1,265 mm) / 283 curved (459 mm); tb 205 rings, 1,424 straight (2,214 mm) / 470 curved (935 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 5.1 @ (43.4, 146.0), r 5.0 @ (44.0, 187.2), r 5.0 @ (44.7, 290.3), r 5.0 @ (44.2, 238.0)
+- **Closed boxes:** 2; named: M522A WBS KHz 16 3.2 3.8 AHz MF 200; M522A WBS KHz 16 3.2 3.8 AHz MF 200
+- **Words (OCR):** 16 in 13 lines: WBS · M522A · KHz · 16 3.2 3.8 · AHz · MF · 200 · WBS WARD-BECK SYSTEMS · M522/M522A · EQUALIZER MODULES · MODULE LAYOUT · 522-04-001
+- **Title block:** (120, 49)–(338, 320) mm: WBS · M522A · KHz · 16 3.2 3.8 · AHz · MF · 200 · WBS WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p24 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p24%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 16–338 mm across, 163–296 mm up
+- **Outlines:** line 76 rings, 1,618 straight (4,412 mm) / 160 curved (276 mm); text 77 rings, 500 straight (523 mm) / 158 curved (234 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 3.8 @ (309.1, 197.1)
+- **Closed boxes:** 3
+- **Words (OCR):** 15 in 14 lines: EO · INSERT · INPUT · cu/ FREQ · BOOST · cuT/ · SEL · FREQ · cuT/ · FREQ · BOOST · BOOST
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p25 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p25%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–328 mm across, 12–294 mm up
+- **Outlines:** line 54 rings, 989 straight (2,466 mm) / 115 curved (184 mm); text 128 rings, 1,004 straight (1,276 mm) / 248 curved (405 mm); tb 2 rings, 67 straight (154 mm) / 0 curved (0.0 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 3.9 @ (131.6, 196.6)
+- **Closed boxes:** 1
+- **Words (OCR):** 15 in 13 lines: NSER · output · EL · FREQ · cuT/ FREQ · BOOST · WBS · WARD-BECK SYSTEMB · M522 · EQUALIZER MODULE · FUNCTIONAL · B 522-01-001
+- **Title block:** (211, 46)–(336, 70) mm: WBS · WARD-BECK SYSTEMB
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p26 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p26%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–338 mm across, 9–351 mm up
+- **Outlines:** line 126 rings, 2,737 straight (7,535 mm) / 334 curved (606 mm); text 80 rings, 555 straight (592 mm) / 161 curved (242 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 3.9 @ (327.0, 246.0)
+- **Closed boxes:** 5
+- **Words (OCR):** 16 in 14 lines: EQ · INSERT · LEFT · HF · INPUT · cut/ FREQ · cut/ · BOOST · BOOST · SEL · FREQ · cut/ FREQ
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p27 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p27%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p27 (traced).dxf`).
+
+### Page 28
+
+- **Sheet:** functional 522-01-002, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 13–349 mm up
+- **Outlines:** line 83 rings, 1,700 straight (4,486 mm) / 203 curved (319 mm); text 148 rings, 1,107 straight (1,393 mm) / 317 curved (499 mm); tb 2 rings, 63 straight (148 mm) / 5 curved (7.3 mm)
+- **Centre lines:** 1,475 paths (20 closed); straight 3,196 mm, curved 25.9 mm; horizontal 1,137 mm, vertical 950 mm, diagonal 1,109 mm
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 4.0 @ (134.7, 246.1)
+- **Closed boxes:** 1
+- **Words (OCR):** 17 in 15 lines: EQ · INSERT · LEFT · SeL FREQ · output · cuT/ FREQ · BOOST · RIGHT · WBS · WARD-BECK SYSTEMS · M522A · EQUALIZER MODULE
+- **Title block:** (212, 46)–(338, 70) mm: WBS · WARD-BECK SYSTEMS
+- **Wiring (first pass):** 64 connected wire groups from 137 runs; labelled ends: 134 mm → INSERT; 74 mm → INSERT, LEFT; 61 mm → RIGHT; 12 mm → RIGHT; 11 mm → RIGHT
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p28 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p28%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p28 (traced).dxf`).
+
+### Page 29
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 13–338 mm across, 8–366 mm up
+- **Outlines:** line 534 rings, 5,834 straight (10,235 mm) / 1,569 curved (1,966 mm); text 164 rings, 954 straight (800 mm) / 383 curved (445 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 37 in 35 lines: J9/10 · Lhaji · 10//25 · cuT/BOOST · VALUE · VALUG · SHELF · 50 Hz-200 · 7/10 · 6.4 Khz · 0.022 · 0047
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p29 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p29%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p29 (traced).dxf`).
+
+### Page 30
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 12–364 mm up
+- **Outlines:** line 414 rings, 3,855 straight (6,251 mm) / 1,122 curved (1,330 mm); text 135 rings, 1,043 straight (1,220 mm) / 316 curved (471 mm); tb 2 rings, 59 straight (152 mm) / 1 curved (1.6 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 21 in 19 lines: 574 · LhbJJN · cutfecOST · 1/15 · CCMBINED · LUAJIA · 170t · 0.022 · 15002 · 0.047 · FLUO · capaciTOAS ARE
+- **Title block:** (212, 45)–(338, 70) mm: WBS WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p30 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p30%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p30 (traced).dxf`).
+
+### Page 31
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 12–339 mm across, 9–410 mm up
+- **Outlines:** line 1,186 rings, 11,360 straight (18,794 mm) / 2,723 curved (3,320 mm); text 203 rings, 1,121 straight (904 mm) / 448 curved (522 mm)
+- **Words (OCR):** 47 in 42 lines: Left · UIB · SFTELO · RJ · 68/6 · Cu  HOOST · VALUC · coma NEd · 7/10 · VALUI 90000 · SKELF · LUUJJH
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p31 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p31%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p31 (traced).dxf`).
+
+### Page 32
+
+- **Sheet:** schematic 522-02-002, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 13–408 mm up
+- **Outlines:** line 773 rings, 7,081 straight (11,130 mm) / 1,729 curved (2,055 mm); text 210 rings, 1,462 straight (1,602 mm) / 512 curved (705 mm); tb 2 rings, 61 straight (145 mm) / 7 curved (11.9 mm)
+- **Centre lines:** 6,725 paths (132 closed); straight 7,478 mm, curved 152 mm; horizontal 2,583 mm, vertical 2,089 mm, diagonal 2,806 mm
+- **Circles and arcs:** 3 circles, 50 arcs; largest r 2.4 @ (170.8, 148.2), r 0.7 @ (97.5, 323.0), r 0.7 @ (143.5, 320.6)
+- **Words (OCR):** 39 in 36 lines: INSEAT · 428 · 323 · Left QuTFuT · Sc16 · Jii0 · 68/6 · Hoost · Lualh · hatah · Lhbjo · SHFLF
+- **Title block:** (209, 46)–(335, 71) mm: WBS WAAD-BECK SYSTEMB
+- **Wiring (first pass):** 100 connected wire groups from 662 runs; labelled ends: 125 mm → 323, Sc16, Lhbjo; 124 mm → Jii0; 113 mm → bedo, VIOR; 90 mm → Lualh; 84 mm → 68/6
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p32 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p32%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p32 (traced).dxf`).
+
+### Page 33
+
+- **Sheet:** component layout 522-06-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 44–322 mm across, 19–361 mm up
+- **Outlines:** line 125 rings, 1,652 straight (4,344 mm) / 370 curved (374 mm); text 691 rings, 4,368 straight (4,121 mm) / 1,768 curved (2,054 mm); tb 582 rings, 5,215 straight (7,004 mm) / 1,599 curved (1,753 mm)
+- **Closed boxes:** 18 (13 in the title block)
+- **Words (OCR):** 120 in 104 lines: 58, · 68/6 · 68/6 33/10 · R422k · 1CO · C1O · RL J5K · 4.7/10 47/35 · VBS · 220 · 1SK · Ullo-052
+- **Title block:** (65, 46)–(329, 350) mm: 1CO · C1O · 4.7/10 47/35 · VBS · 220 · 1SK · Ullo-052 · WBS · R40 · 82o K · 14-110 CANADA 68OP · 833 · 853 · J0K · R3z · ISSUE · R46 · R45# R3335K 74535 10/25 · R39390 · 1100 · RSo zK? · R3I · RSZ · R
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p33 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p33%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p33 (traced).dxf`).
+
+### Page 34
+
+- **Sheet:** component layout 522-06-002, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 44–324 mm across, 19–361 mm up
+- **Outlines:** line 142 rings, 1,776 straight (4,767 mm) / 375 curved (368 mm); text 1,012 rings, 6,380 straight (5,844 mm) / 2,489 curved (2,862 mm); tb 1,047 rings, 8,975 straight (11,675 mm) / 2,753 curved (3,027 mm)
+- **Closed boxes:** 24 (18 in the title block)
+- **Words (OCR):** 186 in 161 lines: 68/6 · 68/6 33/10 · 501 · 100 · C1o · RI 15K · R79 · 4.710 · 47/35 · Wbs 10-056 · R41 · 220
+- **Title block:** (67, 46)–(332, 352) mm: 501 · 100 · C1o · RI 15K · R79 · 4.710 · 47/35 · Wbs 10-056 · R41 · 220 · R26 · 4SK · WBS · R40 I5K · 8zo · 14-110 CANADA 680P (c] · 220p · 835 · 833 · R3z · ISSUE · R46!OK · R3g390 0.I7100 · RbO · R4
+
+Every curve, box, word and wire group: [19xx - M522 - 522A - Equalizer p34 (traced).json](19xx%20-%20M522%20-%20522A%20-%20Equalizer%20p34%20%28traced%29.json) (the CAD file: `19xx - M522 - 522A - Equalizer p34 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

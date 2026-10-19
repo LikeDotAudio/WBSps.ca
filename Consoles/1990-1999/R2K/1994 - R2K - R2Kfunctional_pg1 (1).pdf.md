@@ -15,6 +15,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 
 - **1998** (month): `NOV 11,1998` — …E WARD-BECK SYSTEMS R2K R2K FUNCTIONAL R251.DSN PAGE 1 OF 3 NOV 11,1998…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 9–431 mm across, 0–290 mm up
+- **Outlines:** line 149 rings, 2,357 straight (11,347 mm) / 249 curved (323 mm); text 568 rings, 3,580 straight (4,174 mm) / 1,004 curved (1,408 mm)
+- **Closed boxes:** 6; named: MIX BUS XPT'S; VU METER; VU METER; MIX BUS XPT'S
+- **Words (OCR):** 129 in 97 lines: DIR OUT LEFT · PROGRAM · DIR OUT RIGHT · P1-L · LEFT · P1-L\R · P2-L\R · P1-L · A-LEFT · A-RIGHT · P3-L\R · P1-L
+- **Title block:** (316, 17)–(431, 39) mm: WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - R2K - R2Kfunctional_pg1 (1) p1 (traced).json](1994%20-%20R2K%20-%20R2Kfunctional_pg1%20%281%29%20p1%20%28traced%29.json) (the CAD file: `1994 - R2K - R2Kfunctional_pg1 (1) p1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

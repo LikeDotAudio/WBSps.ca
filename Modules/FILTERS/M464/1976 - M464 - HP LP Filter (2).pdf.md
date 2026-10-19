@@ -16,6 +16,294 @@ Wiki page: [M464](../../../PAGES/M464.md)
 
 - **1976** (month): `NOV 76` — …" R E CO M P ~ \ S E D O F T WO COM PO~ E N 'T~ 'INISH DATI NOV 76 W\1 1-\ i 't-\ E. P...... R/t..\..l. E L SU tv\ E: a U A.L…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 309 × 432 mm, 1431 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 46–309 mm across, 2–432 mm up
+- **Outlines:** line 76 rings, 2,787 straight (9,819 mm) / 198 curved (335 mm); text 7 rings, 20 straight (13.5 mm) / 3 curved (2.5 mm)
+- **Closed boxes:** 3; named: '\NBS; '\NBS; '\NBS
+- **Words (OCR):** 14 in 12 lines: '\NBS · '\NBS · '\NBS · '\NBS · '\NBS · '\NB · '\NB · '\NBS · '\NBS ps · BS · tp · '\NB ht
+
+Every curve, box, word and wire group: [1976 - M464 - HP LP Filter (2) p1 (traced).json](1976%20-%20M464%20-%20HP%20LP%20Filter%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1976 - M464 - HP LP Filter (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 309 × 432 mm, 1431 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–303 mm across, 5–431 mm up
+- **Outlines:** line 221 rings, 2,832 straight (4,853 mm) / 591 curved (879 mm); text 49 rings, 694 straight (887 mm) / 118 curved (173 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.1 @ (152.1, 238.2)
+- **Closed boxes:** 3
+- **Words (OCR):** 20 in 15 lines: SYSTEMS · (VVE:lS · SC: · EBa · OtlTAMO M1H 0!X4 · t!l!!"'Z3469 · TR.B+ONl!: 415.1130 · M464 · HIG · PASS · lOW PASS FILTER · ps
+
+Every curve, box, word and wire group: [1976 - M464 - HP LP Filter (2) p2 (traced).json](1976%20-%20M464%20-%20HP%20LP%20Filter%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1976 - M464 - HP LP Filter (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 314 × 432 mm, 1452 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–314 mm across, 3–417 mm up
+- **Outlines:** line 156 rings, 1,700 straight (3,973 mm) / 359 curved (505 mm); text 609 rings, 4,559 straight (5,199 mm) / 1,214 curved (1,832 mm)
+- **Words (OCR):** 114 in 51 lines: AR -BECK SYSTE MS TD · TAB LE OF CON TEN TS · M46 · HIGH PASS-LOW PA SS FI LTER · EC TION · PAGE · War an · ec mt ce Da ta · Ci rc uit Oes crip io · to · Freq uenc Re pons · Pa
+
+Every curve, box, word and wire group: [1976 - M464 - HP LP Filter (2) p3 (traced).json](1976%20-%20M464%20-%20HP%20LP%20Filter%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1976 - M464 - HP LP Filter (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 314 × 432 mm, 1452 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–314 mm across, 11–432 mm up
+- **Outlines:** line 35 rings, 636 straight (2,680 mm) / 100 curved (138 mm); text 1,715 rings, 12,905 straight (14,634 mm) / 3,620 curved (5,576 mm); tb 96 rings, 683 straight (896 mm) / 171 curved (253 mm)
+- **Words (OCR):** 295 in 98 lines: WAFID-BECK SYSTEMS LTD. · WARRANTY · All Ward_ Beck Systems Lt · ro duc ts · war ranted · ga ns · defect ive mete Lal · nd workman ship · or · pe ri od of one · yea fr Oll1 date of shi pment · Ward_Beck Systems wi
+- **Title block:** (17, 79)–(235, 421) mm: WAFID-BECK SYSTEMS LTD. · WARRANTY · All Ward_ Beck Systems Lt · ro duc ts · war ranted · defect ive mete Lal · nd workman ship · or · yea fr Oll1 date of shi pment · Ward_Beck Systems wi · epo · or r
+
+Every curve, box, word and wire group: [1976 - M464 - HP LP Filter (2) p4 (traced).json](1976%20-%20M464%20-%20HP%20LP%20Filter%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1976 - M464 - HP LP Filter (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 314 × 432 mm, 1452 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–306 mm across, 0–431 mm up
+- **Outlines:** line 180 rings, 2,183 straight (4,078 mm) / 428 curved (636 mm); text 1,071 rings, 8,247 straight (9,079 mm) / 2,212 curved (3,387 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 214 in 79 lines: WARO ·SECK · MS LT · TECHNICAL DA TA · M464 HIGH · ~ASS · PASS FILTER · Gain · Unit)'. · Frequen cy Respo nse: · 10 25 dB fr oll 20 Hz · 20 kHz wf · bot in se
+
+Every curve, box, word and wire group: [1976 - M464 - HP LP Filter (2) p5 (traced).json](1976%20-%20M464%20-%20HP%20LP%20Filter%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1976 - M464 - HP LP Filter (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 314 × 432 mm, 1452 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 12–314 mm across, 2–432 mm up
+- **Outlines:** line 145 rings, 1,999 straight (4,369 mm) / 344 curved (492 mm); text 2,014 rings, 15,896 straight (17,473 mm) / 4,590 curved (6,811 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.8 @ (30.0, 50.1)
+- **Words (OCR):** 432 in 112 lines: WARD-BECK · TE · LTD · CIRCU · DESCR IPTI ON · M4 64 HIGH · PA S-LO PASS FI LTER · Inpu · The nput ig n"l ent er the · 64 aod ul · pi ns · nd
+
+Every curve, box, word and wire group: [1976 - M464 - HP LP Filter (2) p6 (traced).json](1976%20-%20M464%20-%20HP%20LP%20Filter%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1976 - M464 - HP LP Filter (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 314 × 432 mm, 1452 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–312 mm across, 9–427 mm up
+- **Outlines:** line 115 rings, 1,854 straight (4,017 mm) / 320 curved (475 mm); text 1,001 rings, 7,780 straight (8,489 mm) / 2,234 curved (3,375 mm)
+- **Closed boxes:** 2
+- **Words (OCR):** 211 in 52 lines: WARO · ECK SYS · TO · CIRCUI DES~RIPTIOH · H464 · HI GH PASS- LOW PASS FILTE · Outp ut · The outp ut of SW4 · con nected di ec tly to th · 109A outpu · p11fie · The act fyely bala nce ou tpu of he
+
+Every curve, box, word and wire group: [1976 - M464 - HP LP Filter (2) p7 (traced).json](1976%20-%20M464%20-%20HP%20LP%20Filter%20%282%29%20p7%20%28traced%29.json) (the CAD file: `1976 - M464 - HP LP Filter (2) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 314 × 432 mm, 1452 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–309 mm across, 4–431 mm up
+- **Outlines:** line 833 rings, 12,143 straight (24,760 mm) / 1,742 curved (2,712 mm); text 64 rings, 508 straight (565 mm) / 132 curved (172 mm)
+- **Closed boxes:** 73
+- **Words (OCR):** 16 in 10 lines: WAR -BE CK SYS · MS LT · -21 · IlIGH REQU ENC · CUT · ps · 20IIL · BS · tp · ht
+
+Every curve, box, word and wire group: [1976 - M464 - HP LP Filter (2) p8 (traced).json](1976%20-%20M464%20-%20HP%20LP%20Filter%20%282%29%20p8%20%28traced%29.json) (the CAD file: `1976 - M464 - HP LP Filter (2) p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 314 × 432 mm, 1452 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–299 mm across, 2–430 mm up
+- **Outlines:** line 412 rings, 4,324 straight (6,753 mm) / 1,084 curved (1,609 mm); text 909 rings, 6,660 straight (7,488 mm) / 2,035 curved (3,025 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 212 in 120 lines: WAR -SECK SYSTEM · LTC · PARTS II ST · 1'1464 HI GH /lOW PASS llT FR MO DULE · PART · DESCRIPTI ON · Hf PART NU/'IBE · CI · Capa itor · 25 · S1eaens · 841 31 A5226
+
+Every curve, box, word and wire group: [1976 - M464 - HP LP Filter (2) p9 (traced).json](1976%20-%20M464%20-%20HP%20LP%20Filter%20%282%29%20p9%20%28traced%29.json) (the CAD file: `1976 - M464 - HP LP Filter (2) p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 314 × 432 mm, 1452 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–313 mm across, 4–432 mm up
+- **Outlines:** line 277 rings, 2,915 straight (5,139 mm) / 627 curved (908 mm); text 476 rings, 3,405 straight (3,818 mm) / 965 curved (1,461 mm); tb 6 rings, 45 straight (68.0 mm) / 14 curved (21.4 mm)
+- **Words (OCR):** 109 in 77 lines: WARD-BECK SYSTEMS LTD. · PART LI ST · M4 64 HI GH/ LOW PASS FI LT ER MODULE · PA RT · DESCR IP TIO · KFG PART NUMB ER · CR1 · Diode · Mo or · N400 · CR · CR]
+- **Title block:** (9, 402)–(116, 425) mm: WARD-BECK SYSTEMS LTD.
+
+Every curve, box, word and wire group: [1976 - M464 - HP LP Filter (2) p10 (traced).json](1976%20-%20M464%20-%20HP%20LP%20Filter%20%282%29%20p10%20%28traced%29.json) (the CAD file: `1976 - M464 - HP LP Filter (2) p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 314 × 432 mm, 1452 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–312 mm across, 4–429 mm up
+- **Outlines:** line 315 rings, 3,124 straight (5,426 mm) / 761 curved (1,087 mm); text 376 rings, 2,720 straight (3,045 mm) / 780 curved (1,135 mm); tb 13 rings, 123 straight (159 mm) / 36 curved (58.7 mm)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 89 in 67 lines: WARD -BECK YS · MS LiO · f.!!!..!S 1I ST · M464 HIGH/ OW PASS iLTER MOD UL[ · HFG · PA RT · DESCRIPTION · Hf PART NUM BER · ss · eec · Resis tor · Phi ips
+- **Title block:** (9, 401)–(74, 424) mm: WARD -BECK YS
+
+Every curve, box, word and wire group: [1976 - M464 - HP LP Filter (2) p11 (traced).json](1976%20-%20M464%20-%20HP%20LP%20Filter%20%282%29%20p11%20%28traced%29.json) (the CAD file: `1976 - M464 - HP LP Filter (2) p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 314 × 432 mm, 1452 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–313 mm across, 3–426 mm up
+- **Outlines:** line 686 rings, 5,939 straight (8,516 mm) / 1,384 curved (2,050 mm); text 8 rings, 40 straight (44.2 mm) / 7 curved (6.9 mm)
+- **Closed boxes:** 3
+- **Dots (junctions):** 3
+- **Words (OCR):** 5 in 5 lines: ps · BS · tp · ht · 4-4
+
+Every curve, box, word and wire group: [1976 - M464 - HP LP Filter (2) p12 (traced).json](1976%20-%20M464%20-%20HP%20LP%20Filter%20%282%29%20p12%20%28traced%29.json) (the CAD file: `1976 - M464 - HP LP Filter (2) p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 314 × 432 mm, 1452 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–311 mm across, 0–432 mm up
+- **Outlines:** line 177 rings, 1,851 straight (4,030 mm) / 396 curved (530 mm); text 609 rings, 4,386 straight (5,099 mm) / 1,237 curved (1,860 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 102 in 77 lines: WAR · BECK SY TE · LTD · PARTS LIST · M464 HIGH/ LO~ · PASS FILTER MODU LE · PART · DESCRIPTION · MFG PART NUMBE · MFG · >65 Re sis tor l/B 51 · 560
+
+Every curve, box, word and wire group: [1976 - M464 - HP LP Filter (2) p13 (traced).json](1976%20-%20M464%20-%20HP%20LP%20Filter%20%282%29%20p13%20%28traced%29.json) (the CAD file: `1976 - M464 - HP LP Filter (2) p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 314 × 432 mm, 1452 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 5–432 mm up
+- **Outlines:** line 164 rings, 1,940 straight (4,387 mm) / 355 curved (506 mm); text 234 rings, 1,848 straight (2,140 mm) / 446 curved (653 mm); tb 2 rings, 4 straight (2.6 mm) / 2 curved (1.7 mm)
+- **Closed boxes:** 2
+- **Words (OCR):** 49 in 30 lines: WARD -BECK · TE · LTD. · PARTS LIST · M4 · HIGH/ lO PASS FILT ER MODU LE · PART · DESCRIP TIO · MFG · MFG PART NU MBE · ZI · nteg ra ted Ci rcuit
+- **Title block:** (9, 398)–(74, 421) mm: WARD -BECK
+
+Every curve, box, word and wire group: [1976 - M464 - HP LP Filter (2) p14 (traced).json](1976%20-%20M464%20-%20HP%20LP%20Filter%20%282%29%20p14%20%28traced%29.json) (the CAD file: `1976 - M464 - HP LP Filter (2) p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 314 × 432 mm, 1452 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–308 mm across, 8–429 mm up
+- **Outlines:** line 128 rings, 1,494 straight (3,093 mm) / 249 curved (335 mm); text 69 rings, 434 straight (437 mm) / 67 curved (96.0 mm)
+- **Words (OCR):** 10 in 6 lines: STEM LTD · 109 AMPLIF IER SERIES · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1976 - M464 - HP LP Filter (2) p15 (traced).json](1976%20-%20M464%20-%20HP%20LP%20Filter%20%282%29%20p15%20%28traced%29.json) (the CAD file: `1976 - M464 - HP LP Filter (2) p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 314 × 432 mm, 1452 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 11–312 mm across, 1–429 mm up
+- **Outlines:** line 103 rings, 1,517 straight (3,263 mm) / 280 curved (394 mm); text 1,491 rings, 10,933 straight (12,109 mm) / 3,144 curved (4,809 mm); tb 31 rings, 247 straight (460 mm) / 47 curved (65.0 mm)
+- **Words (OCR):** 279 in 112 lines: WARD-BECK SYSTEMS · DFSCRIPTIO · 10 · AMPLI FIER SfR1 fS · The · 109 · lllP1 1f le · are · nt.ed ircuit board un · whi ch · ut li zed · nter na
+- **Title block:** (9, 306)–(265, 424) mm: WARD-BECK SYSTEMS · DFSCRIPTIO · 10 · AMPLI FIER SfR1 fS · The · 109 · lllP1 1f le · are · nt.ed ircuit board un · whi ch · ut li zed · nter na · co~ pon ent in ce rtai WBS 450 · nd 460 · se rie Mo du
+
+Every curve, box, word and wire group: [1976 - M464 - HP LP Filter (2) p16 (traced).json](1976%20-%20M464%20-%20HP%20LP%20Filter%20%282%29%20p16%20%28traced%29.json) (the CAD file: `1976 - M464 - HP LP Filter (2) p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 314 × 432 mm, 1452 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–312 mm across, 0–428 mm up
+- **Outlines:** line 136 rings, 1,730 straight (3,698 mm) / 335 curved (483 mm); text 1,489 rings, 11,343 straight (12,326 mm) / 3,232 curved (4,835 mm); tb 26 rings, 247 straight (337 mm) / 43 curved (61.0 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 291 in 85 lines: WARO-BECK SYSTEMS LT · DESCR IPTION · 09 · AMP LIFIE S[R · The two · pllfier ections · integrated circuit II · function · as · he input bu fer and voltag gain devices of the 4-109 units · The inputs of · ay be nt erconnec ed
+- **Title block:** (9, 401)–(116, 424) mm: WARO-BECK SYSTEMS LT
+
+Every curve, box, word and wire group: [1976 - M464 - HP LP Filter (2) p17 (traced).json](1976%20-%20M464%20-%20HP%20LP%20Filter%20%282%29%20p17%20%28traced%29.json) (the CAD file: `1976 - M464 - HP LP Filter (2) p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 314 × 432 mm, 1452 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–309 mm across, 5–425 mm up
+- **Outlines:** line 339 rings, 3,174 straight (5,858 mm) / 797 curved (1,198 mm); text 677 rings, 4,966 straight (5,532 mm) / 1,455 curved (2,213 mm); tb 14 rings, 144 straight (198 mm) / 12 curved (17.8 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 164 in 94 lines: WARD -BECK · MS LT · PAR TS LIST · 4-1 09 AMP LIFIE SER IES · 4-1 09 · PART · OESCRI PTiON · HFG · MFG PART HUMBER · CI · Cilpilc to 1000 pF · Ase co
+- **Title block:** (9, 402)–(74, 425) mm: WARD -BECK
+
+Every curve, box, word and wire group: [1976 - M464 - HP LP Filter (2) p18 (traced).json](1976%20-%20M464%20-%20HP%20LP%20Filter%20%282%29%20p18%20%28traced%29.json) (the CAD file: `1976 - M464 - HP LP Filter (2) p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 314 × 432 mm, 1452 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–313 mm across, 8–430 mm up
+- **Outlines:** line 398 rings, 3,783 straight (6,208 mm) / 829 curved (1,177 mm); text 333 rings, 2,318 straight (2,785 mm) / 636 curved (915 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 76 in 61 lines: AA · BE · LTc'. · PARTS LIST · 10 · AMPLIfl(R SERI ES · 4-1 09 · PART DESCR PTION · HFG · MFG PART NUMBER · K1 · Res is
+
+Every curve, box, word and wire group: [1976 - M464 - HP LP Filter (2) p19 (traced).json](1976%20-%20M464%20-%20HP%20LP%20Filter%20%282%29%20p19%20%28traced%29.json) (the CAD file: `1976 - M464 - HP LP Filter (2) p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 314 × 432 mm, 1452 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–312 mm across, 2–431 mm up
+- **Outlines:** line 461 rings, 4,298 straight (7,109 mm) / 1,005 curved (1,531 mm); text 364 rings, 2,648 straight (2,965 mm) / 805 curved (1,212 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 115 in 72 lines: WA · YS · MS LTD. · PAR TS LIST · 10 AMP LIF IER SER IES · 10 · PA RT · OESCR IPTI ON · MfG · MFG PART NU MSER · 36 · Re is
+
+Every curve, box, word and wire group: [1976 - M464 - HP LP Filter (2) p20 (traced).json](1976%20-%20M464%20-%20HP%20LP%20Filter%20%282%29%20p20%20%28traced%29.json) (the CAD file: `1976 - M464 - HP LP Filter (2) p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 314 × 432 mm, 1452 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–313 mm across, 3–426 mm up
+- **Outlines:** line 549 rings, 5,387 straight (8,717 mm) / 1,249 curved (1,852 mm); text 430 rings, 3,133 straight (3,550 mm) / 885 curved (1,336 mm)
+- **Closed boxes:** 2
+- **Words (OCR):** 133 in 78 lines: WARO -SECK SYSTEMS LTO · PARTS LIST · 10 AMP IFIER SERIES · 1098 · All pa rts · pe · as noted below · PART · DtSCR IP TION · HFG PART NUM8ER · 027 · Resis to
+
+Every curve, box, word and wire group: [1976 - M464 - HP LP Filter (2) p21 (traced).json](1976%20-%20M464%20-%20HP%20LP%20Filter%20%282%29%20p21%20%28traced%29.json) (the CAD file: `1976 - M464 - HP LP Filter (2) p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 314 × 432 mm, 1452 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–309 mm across, 3–431 mm up
+- **Outlines:** line 280 rings, 3,113 straight (5,969 mm) / 603 curved (876 mm); text 355 rings, 2,804 straight (3,106 mm) / 816 curved (1,225 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 83 in 49 lines: SYSTe MS · PARTS LI ST · 109 AMPLIF IER SERIES · 4-109£ · exc~pt as noted below · All parts as per -109 · PART · DESCR IPTIOH · HFG · MFC PART HUMBER · R27 · Res istor
+
+Every curve, box, word and wire group: [1976 - M464 - HP LP Filter (2) p22 (traced).json](1976%20-%20M464%20-%20HP%20LP%20Filter%20%282%29%20p22%20%28traced%29.json) (the CAD file: `1976 - M464 - HP LP Filter (2) p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** layout 464-04-003, size B (assumed) 432 × 296 mm, 2000 × 1371 px traced (0.216 mm/px)
+- **Ink extent:** 7–432 mm across, 0–287 mm up
+- **Outlines:** line 124 rings, 2,311 straight (8,321 mm) / 263 curved (478 mm); text 1,020 rings, 5,804 straight (5,709 mm) / 2,084 curved (2,777 mm); tb 14 rings, 92 straight (105 mm) / 25 curved (39.4 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 6.9 @ (200.7, 133.8), r 6.9 @ (200.6, 233.0), r 5.1 @ (188.2, 199.8), r 5.0 @ (188.2, 102.9)
+- **Closed boxes:** 40 (18 in the title block); named: M464 WB 4k 30 5k 6k 8k 10k 2k lk 12k 500; HI GH FRE QUE NCY CUT switch SW Al ow to; HIGH FREQUENCY CUT INSE RT switch SW4, W; LOW FREQUE NCY CUT switc SW1, Al low se ; LOW FREQUENCY CU INSERT swi SW3, Whe dep; MOO.; FINISH; -xx xx~ OLS AN; el
+- **Words (OCR):** 238 in 79 lines: WB · M464 · 4k · 30 5k 6k 8k · HI GH FRE QUE NCY CUT switch SW · Al ow · to se lect one · of le ven di screte cut -off · reque nc ie · the high · 2k · 10k
+- **Title block:** (212, 4)–(424, 48) mm: BS · IlS MOO. CKD. · USED ON · MATL · .=8J WARC -BECKSVSTEMS LTC. · DRN. · DATE · EB 77 · tp · 64 · FINISH · ht · PASS-t PASS FI LTE · CKD. · FRONT PANEL · SCALE · OLS · -xx · xx~ · el 464 -04 003 · I
+
+Every curve, box, word and wire group: [1976 - M464 - HP LP Filter (2) p23 (traced).json](1976%20-%20M464%20-%20HP%20LP%20Filter%20%282%29%20p23%20%28traced%29.json) (the CAD file: `1976 - M464 - HP LP Filter (2) p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 432 × 287 mm, 2000 × 1331 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 0–240 mm up
+- **Outlines:** line 207 rings, 3,400 straight (6,893 mm) / 508 curved (798 mm); text 135 rings, 1,005 straight (1,116 mm) / 275 curved (410 mm); tb 23 rings, 200 straight (197 mm) / 65 curved (94.6 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 4.3 @ (285.0, 218.7), r 1.8 @ (282.1, 3.9)
+- **Closed boxes:** 30 (13 in the title block); named: LOW PASS dB OCTIVE; MOD.; ISS.; DRN. DNM; DATE EB 77
+- **Words (OCR):** 49 in 32 lines: LF CUT · HF CUT · INSERT · INSERT · INPUT · OUTPUT · HIGH PASS · LOW PASS · 1.dB/OCTIVE · dB OCTIVE · IF CUT · HFCUT
+- **Title block:** (154, 4)–(299, 56) mm: ISS. MOD. CKD. · USED ON · DRN. DNM · FINISH · DATE EB 77 · KD · SCALE · -xx
+
+Every curve, box, word and wire group: [1976 - M464 - HP LP Filter (2) p24 (traced).json](1976%20-%20M464%20-%20HP%20LP%20Filter%20%282%29%20p24%20%28traced%29.json) (the CAD file: `1976 - M464 - HP LP Filter (2) p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** drawing, size B (assumed) 432 × 281 mm, 2000 × 1300 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–259 mm up
+- **Outlines:** line 1,135 rings, 11,371 straight (18,098 mm) / 3,156 curved (3,851 mm); text 698 rings, 3,868 straight (3,412 mm) / 1,543 curved (1,897 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 0.9 @ (205.5, 53.0), r 0.8 @ (188.8, 55.4)
+- **Closed boxes:** 16; named: DATI NOV 76; S<AU
+- **Dots (junctions):** 1
+- **Words (OCR):** 197 in 158 lines: FRE UE l-l · c.u · IG · F"REQ UE · cui · 0.3 · RI · HI · 5S · PI'.5 · 2i · 5v
+
+Every curve, box, word and wire group: [1976 - M464 - HP LP Filter (2) p25 (traced).json](1976%20-%20M464%20-%20HP%20LP%20Filter%20%282%29%20p25%20%28traced%29.json) (the CAD file: `1976 - M464 - HP LP Filter (2) p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** drawing, size B (assumed) 432 × 384 mm, 2000 × 1779 px traced (0.216 mm/px)
+- **Ink extent:** 12–432 mm across, 0–373 mm up
+- **Outlines:** line 1,491 rings, 13,095 straight (25,341 mm) / 3,029 curved (4,536 mm); text 471 rings, 2,970 straight (3,433 mm) / 960 curved (1,400 mm); tb 42 rings, 293 straight (440 mm) / 71 curved (115 mm)
+- **Circles and arcs:** 13 circles, 0 arcs; largest r 10.4 @ (171.4, 282.4), r 4.6 @ (314.7, 308.9), r 4.6 @ (312.5, 102.5), r 2.4 @ (259.1, 79.6)
+- **Closed boxes:** 55 (1 in the title block); named: 27 l.M 30; 30; 25 NE; M301; USED ON
+- **Dots (junctions):** 1
+- **Words (OCR):** 147 in 110 lines: 7Sk · c.(.~3 · ll~k. · _RS .2§..k. · 3"3/ 10 · _~'O~'k. · NO · Ci!.20P · CI · SHOWN · I?EO · Sw
+- **Title block:** (293, 14)–(391, 52) mm: ~WARD.B.CK VB EMB LTD · tp · DRN. GE · DATE EC 76 · ht PASS LOW PA SS FI T·E · M464 · HI · KO. · COMPONENT LA YOU
+
+Every curve, box, word and wire group: [1976 - M464 - HP LP Filter (2) p26 (traced).json](1976%20-%20M464%20-%20HP%20LP%20Filter%20%282%29%20p26%20%28traced%29.json) (the CAD file: `1976 - M464 - HP LP Filter (2) p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** drawing, size B (assumed) 314 × 432 mm, 1452 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 4–432 mm up
+- **Outlines:** line 303 rings, 5,930 straight (11,763 mm) / 895 curved (1,390 mm); text 142 rings, 1,210 straight (1,426 mm) / 354 curved (550 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.4 @ (241.7, 96.2)
+- **Closed boxes:** 61; named: III III III II ID II et II; ec 19~; et; 10; 11; 12 13; 15; 20 21; ps; ci
+- **Dots (junctions):** 1
+- **Words (OCR):** 38 in 35 lines: III · NPUT · III · SHIELD GNO · ec · III · 19~ · II · ID · II · et · et
+
+Every curve, box, word and wire group: [1976 - M464 - HP LP Filter (2) p27 (traced).json](1976%20-%20M464%20-%20HP%20LP%20Filter%20%282%29%20p27%20%28traced%29.json) (the CAD file: `1976 - M464 - HP LP Filter (2) p27 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

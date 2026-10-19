@@ -20,6 +20,354 @@ Wiki page: [M621](../../../PAGES/M621.md)
 - **1973** (labelled): `DATE 1973` — …WARD-BECK BYBTEMS LTD_ DDRN: D.PS sept 20 WATT MONITOR AMP DATE 1973 CKD Ra P € B SCHEMATIC [SCALE TOLS # B 173-02-001 IsS_ FINI…
 - **1973** (labelled): `DATE SEPT 73` — …T PANEL R64 R23 ) ON MATL WBS WARD-BECK SYSTEMS LTD. DRN BZ DATE SEPT 73 CKD Duui SCALE NIS TOLS _ { M62/ 20 WATT MONIToR AMPLIFIER…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–268 mm across, 0–425 mm up
+- **Outlines:** line 78 rings, 471 straight (963 mm) / 58 curved (91.1 mm); text 185 rings, 1,627 straight (1,907 mm) / 482 curved (751 mm)
+- **Words (OCR):** 18 in 11 lines: 20w MONI TOR AMPLIFIER · MODEL · M621/M621 · Des igned Manufactured · By · WARD- BECK  SYSTEMS LIMITED · 841 Progress Avenue · Scarborough, · Ontario · (416) 438-6550 · Te lex 06-23469
+
+Every curve, box, word and wire group: [1973 - M621 - 621T - 20W Monitor Amp p1 (traced).json](1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20p1%20%28traced%29.json) (the CAD file: `1973 - M621 - 621T - 20W Monitor Amp p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–316 mm across, 0–424 mm up
+- **Outlines:** line 59 rings, 273 straight (752 mm) / 55 curved (76.3 mm); text 488 rings, 4,829 straight (5,113 mm) / 1,458 curved (2,204 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 47 in 34 lines: Model · M621/M621T · 20w Monitor Amplifier · INSTRUCTION_MANUAL · Contents · Circuit Description · Technical Data M621 · Technical Data · M621T · Amplifier Adjustments · DC Voltage Chart · Parts list
+
+Every curve, box, word and wire group: [1973 - M621 - 621T - 20W Monitor Amp p2 (traced).json](1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20p2%20%28traced%29.json) (the CAD file: `1973 - M621 - 621T - 20W Monitor Amp p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–320 mm across, 0–426 mm up
+- **Outlines:** line 54 rings, 362 straight (982 mm) / 87 curved (122 mm); text 2,327 rings, 20,047 straight (21,020 mm) / 6,560 curved (9,943 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 344 in 171 lines: Model M621/M621T · 20w Monitor · Amplifier · Juqjzo · CIRCUIT_DESCRIPTION · 016 · ba]zuc? · Input · Circuit. · 40 · 1c · 6C
+
+Every curve, box, word and wire group: [1973 - M621 - 621T - 20W Monitor Amp p3 (traced).json](1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20p3%20%28traced%29.json) (the CAD file: `1973 - M621 - 621T - 20W Monitor Amp p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–336 mm across, 7–425 mm up
+- **Outlines:** line 72 rings, 760 straight (1,034 mm) / 199 curved (311 mm); text 1,228 rings, 11,475 straight (11,740 mm) / 3,552 curved (5,378 mm)
+- **Words (OCR):** 258 in 142 lines: Driver and_Qutput_Stages · its · associated components form the power · 23 and · amplifier driver stage · The output · from the driver is · couplea through RS · and · the biasing diodes CRS and · CR6 to · the output power
+
+Every curve, box, word and wire group: [1973 - M621 - 621T - 20W Monitor Amp p4 (traced).json](1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20p4%20%28traced%29.json) (the CAD file: `1973 - M621 - 621T - 20W Monitor Amp p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–326 mm across, 0–424 mm up
+- **Outlines:** line 52 rings, 288 straight (699 mm) / 56 curved (80.4 mm); text 981 rings, 9,157 straight (9,556 mm) / 2,823 curved (4,242 mm)
+- **Words (OCR):** 131 in 64 lines: Model M621 · 2Ow Monitor Amplifier · TECHNICAL DATA · GA IN: · 43 or · 63 dB matched gain (conditional frame · strap) · Front panel variable control · FREQUENCY RESPONSE: · +0.25 dB from 20 Hz to kHz · 20 · NOISE:
+
+Every curve, box, word and wire group: [1973 - M621 - 621T - 20W Monitor Amp p5 (traced).json](1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20p5%20%28traced%29.json) (the CAD file: `1973 - M621 - 621T - 20W Monitor Amp p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–327 mm across, 0–424 mm up
+- **Outlines:** line 62 rings, 473 straight (985 mm) / 58 curved (85.4 mm); text 1,016 rings, 8,484 straight (9,480 mm) / 2,367 curved (3,664 mm)
+- **Words (OCR):** 127 in 71 lines: Model M62k-I · 20W Monitor · Amplifier · JECHNICAL DAIA: · GAIN: · 42 or · 62  ma tched ga in (conditiona] ) · ga in strap) · Front pane] variable · contro] · FREQUEnCY · RESPONSE:
+
+Every curve, box, word and wire group: [1973 - M621 - 621T - 20W Monitor Amp p6 (traced).json](1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20p6%20%28traced%29.json) (the CAD file: `1973 - M621 - 621T - 20W Monitor Amp p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–318 mm across, 0–424 mm up
+- **Outlines:** line 44 rings, 389 straight (751 mm) / 83 curved (132 mm); text 1,048 rings, 9,694 straight (9,973 mm) / 3,057 curved (4,590 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 140 in 57 lines: Model M621/M621T · 20w Monitor Amplifier · AMPLIFIER ADJUSTMENTS · Lonqitudinal · Balance · Ad justment · Strap the · amplifier for low gain and apply · a signal · Adjust the · input signal level for convenient output · level_
+
+Every curve, box, word and wire group: [1973 - M621 - 621T - 20W Monitor Amp p7 (traced).json](1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20p7%20%28traced%29.json) (the CAD file: `1973 - M621 - 621T - 20W Monitor Amp p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–308 mm across, 0–426 mm up
+- **Outlines:** line 97 rings, 636 straight (993 mm) / 166 curved (283 mm); text 616 rings, 5,643 straight (5,967 mm) / 1,777 curved (2,692 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.2 @ (145.2, 150.7), r 2.2 @ (105.3, 227.2)
+- **Words (OCR):** 101 in 66 lines: Model M621 /M621T · 2ow Monitor · Amplifier · DC VOLTAGE · CHART · The following voltages are · DC · typical may · and · vary +lO%. · The idle current shoula be between 35 and 45 mA_ At watts · 20
+
+Every curve, box, word and wire group: [1973 - M621 - 621T - 20W Monitor Amp p8 (traced).json](1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20p8%20%28traced%29.json) (the CAD file: `1973 - M621 - 621T - 20W Monitor Amp p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–321 mm across, 0–425 mm up
+- **Outlines:** line 99 rings, 866 straight (1,787 mm) / 208 curved (335 mm); text 1,534 rings, 12,578 straight (14,170 mm) / 3,673 curved (5,822 mm)
+- **Words (OCR):** 204 in 151 lines: 40e42 · oje · REPLACEABLE PARTS · A-TevI · M621/M621-T · A-c? RM · SYMBOL · DESCRIPTION · MFG · PART NUMBER · ans · C1
+
+Every curve, box, word and wire group: [1973 - M621 - 621T - 20W Monitor Amp p9 (traced).json](1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20p9%20%28traced%29.json) (the CAD file: `1973 - M621 - 621T - 20W Monitor Amp p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 0–425 mm up
+- **Outlines:** line 96 rings, 871 straight (1,629 mm) / 208 curved (310 mm); text 811 rings, 7,327 straight (7,830 mm) / 2,220 curved (3,415 mm)
+- **Closed boxes:** 3
+- **Words (OCR):** 134 in 113 lines: REPLACEABLE PARTS · M621 [M621T · SYMBOL · DESCRIPTION · MFG · BARTNUMBER · CRI · Diode Zener · I/R · IN757-A · CR2 · Diode Zener
+- **Title block:** (195, 187)–(222, 226) mm: WBS · WBS
+
+Every curve, box, word and wire group: [1973 - M621 - 621T - 20W Monitor Amp p10 (traced).json](1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20p10%20%28traced%29.json) (the CAD file: `1973 - M621 - 621T - 20W Monitor Amp p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 0–425 mm up
+- **Outlines:** line 56 rings, 661 straight (1,476 mm) / 156 curved (215 mm); text 569 rings, 5,439 straight (5,729 mm) / 1,659 curved (2,469 mm)
+- **Words (OCR):** 133 in 116 lines: REPLACEABLE PARTS · M621/M62LT · SYMBOL · DESCRIPTION · MFG · PART · NUMBER · Philips Al1 · Rl · 1K ohms · or · resistors %w
+- **Title block:** (198, 213)–(242, 282) mm: Beckman · VC mlo · uulo · TS · Beckman · {Jc7969 T.0, 2
+
+Every curve, box, word and wire group: [1973 - M621 - 621T - 20W Monitor Amp p11 (traced).json](1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20p11%20%28traced%29.json) (the CAD file: `1973 - M621 - 621T - 20W Monitor Amp p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–336 mm across, 12–425 mm up
+- **Outlines:** line 56 rings, 541 straight (1,041 mm) / 108 curved (157 mm); text 636 rings, 5,899 straight (6,196 mm) / 1,810 curved (2,770 mm)
+- **Closed boxes:** 2
+- **Words (OCR):** 132 in 113 lines: REPLACEABLE PARTS · M621/M621T · SYMBOL · DESCRIPTION · MFG . · PART NUMBER · 2 .2K · &Io 7 · R42 · 150 ohm · R43 · 2 . 2K
+
+Every curve, box, word and wire group: [1973 - M621 - 621T - 20W Monitor Amp p12 (traced).json](1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20p12%20%28traced%29.json) (the CAD file: `1973 - M621 - 621T - 20W Monitor Amp p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–431 mm up
+- **Outlines:** line 184 rings, 4,889 straight (8,563 mm) / 626 curved (1,039 mm); text 195 rings, 1,817 straight (2,195 mm) / 447 curved (732 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.7 @ (159.3, 110.4), r 1.7 @ (158.7, 263.6), r 1.6 @ (159.1, 158.6)
+- **Closed boxes:** 3; named: 16; STRAP TOGETHER Low FOR GAiN STRAP TOGETH
+- **Dots (junctions):** 4
+- **Words (OCR):** 31 in 24 lines: P 2 · INPUT · 16 · PC B 17 3 · STRAP TOGETHER · FOR · Low GAiN · STRAP TOGETHER · FOR LOw GAIN · INPUT AND · REMOTE GAIN · SHIELD
+
+Every curve, box, word and wire group: [1973 - M621 - 621T - 20W Monitor Amp p13 (traced).json](1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20p13%20%28traced%29.json) (the CAD file: `1973 - M621 - 621T - 20W Monitor Amp p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–427 mm up
+- **Outlines:** line 69 rings, 4,024 straight (7,449 mm) / 482 curved (789 mm); text 220 rings, 1,963 straight (2,252 mm) / 546 curved (884 mm)
+- **Words (OCR):** 44 in 42 lines: +30 V · 22 · Cn 7 · IN 4003 · 17 3 · 2N3791 · R 60 · R 55 · ( 33 · 0.75/5W · 62/ 3n · 68 OOP
+
+Every curve, box, word and wire group: [1973 - M621 - 621T - 20W Monitor Amp p14 (traced).json](1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20p14%20%28traced%29.json) (the CAD file: `1973 - M621 - 621T - 20W Monitor Amp p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–431 mm up
+- **Outlines:** line 122 rings, 4,844 straight (8,409 mm) / 626 curved (1,049 mm); text 180 rings, 1,508 straight (1,733 mm) / 425 curved (673 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 5.5 @ (246.1, 192.2)
+- **Closed boxes:** 27; named: 10; USED ON; ISS MOD  CKD
+- **Dots (junctions):** 2
+- **Words (OCR):** 29 in 27 lines: 4A · C 30 · 4200/40 · F 3 · Swi · 2A SB · OUTPUT · CR 9 · zow 85 · MDA 980/4 · R 64 · iook
+
+Every curve, box, word and wire group: [1973 - M621 - 621T - 20W Monitor Amp p15 (traced).json](1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20p15%20%28traced%29.json) (the CAD file: `1973 - M621 - 621T - 20W Monitor Amp p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** schematic 173-02-001, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–430 mm up
+- **Outlines:** line 155 rings, 3,962 straight (6,572 mm) / 585 curved (866 mm); text 551 rings, 5,233 straight (6,229 mm) / 1,394 curved (2,354 mm); tb 17 rings, 325 straight (475 mm) / 50 curved (87.7 mm)
+- **Centre lines:** 3,686 paths (73 closed); straight 8,103 mm, curved 118 mm; horizontal 3,086 mm, vertical 1,935 mm, diagonal 3,083 mm
+- **Circles and arcs:** 6 circles, 8 arcs; largest r 1.9 @ (54.2, 253.5), r 1.9 @ (102.1, 246.2), r 1.8 @ (102.0, 176.9), r 1.8 @ (43.9, 246.5)
+- **Closed boxes:** 11 (3 in the title block); named: 16; MATL _; WBS LTDS WAAD-BeCK BYSTEMS; M 621 20 WATT MONITOR AMPLIFIER; FINISH; 621-02-003; XX TOLS_
+- **Words (OCR):** 61 in 40 lines: NOTES · I.FOR SCHEMATIC OF PC B 173 SEE · 17 3-06-001 · 2 FOR COMPONENT LAYOUT OF · PC B 173 · SEE B173-02-001 · 3. UNLESS SPECIFIED ALL RESISTORS · TOLERANCE :5% · ARE 1/4 WATT · VA LUES ARE IN OHMS.(n) · CAPACITOR VA LUES · IN MIc ROFARADS_ (UF)
+- **Title block:** (99, 17)–(249, 87) mm: WBS WAAD-BeCK BYSTEMS · DRN: · DPs · M 621 · DATE SEPT 73 · CKD R1 · 20 WATT MONITOR AMPLIFIER · SCALE · TOLS_ · XX
+- **Wiring (first pass):** 18 connected wire groups from 78 runs; labelled ends: 239 mm → ON, WBS; 192 mm → DRN:, DATE, CKD; 99 mm → 16; 99 mm → 20 WATT MONITOR AMPLIFIER, ISS,, 621-02-003; 21 mm → 2A SB
+
+Every curve, box, word and wire group: [1973 - M621 - 621T - 20W Monitor Amp p16 (traced).json](1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20p16%20%28traced%29.json) (the CAD file: `1973 - M621 - 621T - 20W Monitor Amp p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 157 rings, 6,181 straight (11,001 mm) / 807 curved (1,287 mm); text 402 rings, 3,601 straight (4,367 mm) / 1,006 curved (1,688 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 92 in 87 lines: R 7 · ISk · HG. DIF · R8 · Ri3 · iio k · 2ok · R 14 · 41k · C13 22 P · ci · R5
+
+Every curve, box, word and wire group: [1973 - M621 - 621T - 20W Monitor Amp p17 (traced).json](1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20p17%20%28traced%29.json) (the CAD file: `1973 - M621 - 621T - 20W Monitor Amp p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 7–432 mm up
+- **Outlines:** line 179 rings, 5,254 straight (9,199 mm) / 749 curved (1,204 mm); text 306 rings, 2,953 straight (3,576 mm) / 802 curved (1,372 mm)
+- **Dots (junctions):** 8
+- **Words (OCR):** 67 in 67 lines: +I8v · 2n49 · C /7 · C22 · Io/2s · 10o/35 · C 28 · 10/25 · R3o · R32 · s.o.T · s.0.T
+
+Every curve, box, word and wire group: [1973 - M621 - 621T - 20W Monitor Amp p18 (traced).json](1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20p18%20%28traced%29.json) (the CAD file: `1973 - M621 - 621T - 20W Monitor Amp p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 2–430 mm up
+- **Outlines:** line 161 rings, 5,224 straight (10,540 mm) / 632 curved (1,044 mm); text 360 rings, 3,503 straight (4,254 mm) / 985 curved (1,655 mm)
+- **Closed boxes:** 22; named: ISSMOD  CKD:; [267GEB; Rn; 11912; 1925; 2306/(L
+- **Words (OCR):** 72 in 71 lines: +30v · 22 · )21 · 2n4923 · R39 · R 53 · 2k2 · R44 · Ik · ISk · '/2 W · 21
+
+Every curve, box, word and wire group: [1973 - M621 - 621T - 20W Monitor Amp p19 (traced).json](1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20p19%20%28traced%29.json) (the CAD file: `1973 - M621 - 621T - 20W Monitor Amp p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** schematic 173-02-001, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 2–432 mm up
+- **Outlines:** line 130 rings, 2,901 straight (5,818 mm) / 397 curved (582 mm); text 435 rings, 4,284 straight (5,827 mm) / 1,017 curved (1,836 mm); tb 33 rings, 318 straight (659 mm) / 27 curved (42.0 mm)
+- **Centre lines:** 3,600 paths (54 closed); straight 7,403 mm, curved 3.2 mm; horizontal 3,046 mm, vertical 1,509 mm, diagonal 2,848 mm
+- **Circles and arcs:** 0 circles, 1 arcs
+- **Closed boxes:** 12 (4 in the title block); named: WBS WAAD-BECK BYSTEMs LTD_; MATL; 20 WATT MONITOR AMR P C B SCHEMATIC; FINISH; ISS,; 173-02-001; XX TOLS _
+- **Words (OCR):** 58 in 34 lines: NOTES: · UNLEsS OTHERwise · STATED, · ALL · resistors ARe · 'aWATT, · 15 %, VALUES Ohms · in · CAPAC itor VALUES · Micro FARADS · COMPONENT · DesignATions C 33 : R65 Q6
+- **Title block:** (102, 16)–(253, 88) mm: WBS WAAD-BECK BYSTEMs LTD_ · DRN: · DPs 20 WATT MONITOR AMR · DATE Sept 1973 · CKD · Ra · P C B SCHEMATIC · SCALE · TOLS _ · XX
+- **Wiring (first pass):** 7 connected wire groups from 59 runs; labelled ends: 254 mm → WBS, ON; 201 mm → DRN:, DATE, CKD; 146 mm → LTD_, WBS, WAAD-BECK, 20 WATT; 64 mm → ISS,, 173-02-001; 36 mm → NOTES:, UNLEsS, 'aWATT,
+
+Every curve, box, word and wire group: [1973 - M621 - 621T - 20W Monitor Amp p20 (traced).json](1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20p20%20%28traced%29.json) (the CAD file: `1973 - M621 - 621T - 20W Monitor Amp p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 759 rings, 11,580 straight (14,244 mm) / 2,224 curved (3,206 mm); text 125 rings, 1,284 straight (1,532 mm) / 335 curved (515 mm)
+- **Circles and arcs:** 16 circles, 0 arcs; largest r 15.4 @ (197.1, 313.7), r 15.0 @ (197.7, 220.8), r 12.5 @ (197.3, 313.5), r 10.4 @ (58.0, 218.9)
+- **Closed boxes:** 21; named: IR?; K 1; RZ; 52o; SJc7; HRILH
+- **Words (OCR):** 37 in 37 lines: c ? 2 · HRZ] · IR? · 16 · Cci? · 22 · 114 · 213 · R22 · Cc 14 · C3 · DIF
+
+Every curve, box, word and wire group: [1973 - M621 - 621T - 20W Monitor Amp p21 (traced).json](1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20p21%20%28traced%29.json) (the CAD file: `1973 - M621 - 621T - 20W Monitor Amp p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** component layout B 173 06 001, size B 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 1,395 rings, 15,519 straight (16,349 mm) / 4,569 curved (4,537 mm); text 436 rings, 4,838 straight (4,568 mm) / 1,474 curved (1,646 mm); tb 18 rings, 65 straight (40.8 mm) / 8 curved (7.3 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 15.3 @ (160.5, 271.6), r 15.1 @ (210.5, 331.0), r 14.9 @ (289.1, 297.0), r 12.5 @ (160.6, 271.6)
+- **Closed boxes:** 25 (1 in the title block); named: rsi; fr48; r44; R4?; Ice4; RzeH0; To; ~2a; 43; r34; c 27; Rao
+- **Dots (junctions):** 3
+- **Words (OCR):** 66 in 59 lines: Hole $ FoR · TrANSFeR OF · TrAck · ONL Y · R53 · rsi · Q 5 · 233 · r44 · fr48 · 247 · R4?
+- **Title block:** (87, 32)–(254, 92) mm: CNGLES · WARD · BECK · Pp5 · DRN · M 6 2 | · 27 july 70 · 20 W · MONITOR · DATE
+
+Every curve, box, word and wire group: [1973 - M621 - 621T - 20W Monitor Amp p22 (traced).json](1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20p22%20%28traced%29.json) (the CAD file: `1973 - M621 - 621T - 20W Monitor Amp p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 104 rings, 3,826 straight (6,514 mm) / 523 curved (898 mm); text 168 rings, 1,525 straight (1,920 mm) / 432 curved (791 mm)
+- **Circles and arcs:** 16 circles, 0 arcs; largest r 2.9 @ (164.9, 154.6), r 2.9 @ (164.9, 144.2), r 2.9 @ (165.1, 174.1), r 2.8 @ (165.1, 184.4)
+- **Words (OCR):** 34 in 27 lines: VIEWED FROM · connector · "5 V · REAR · 0F FRAME · Gohz · Pi · P2 · 08 16 · 09 10 · 15 0 · Oio 2 0
+
+Every curve, box, word and wire group: [1973 - M621 - 621T - 20W Monitor Amp p23 (traced).json](1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20p23%20%28traced%29.json) (the CAD file: `1973 - M621 - 621T - 20W Monitor Amp p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–429 mm up
+- **Outlines:** line 73 rings, 3,101 straight (5,030 mm) / 428 curved (739 mm); text 167 rings, 1,574 straight (1,951 mm) / 422 curved (696 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.7 @ (2.6, 174.2), r 2.7 @ (2.6, 203.8), r 2.3 @ (2.5, 194.3), r 2.1 @ (2.7, 134.7)
+- **Closed boxes:** 6
+- **Words (OCR):** 26 in 16 lines: P2 · INPuT · 20 Abn · 600f · Note · BALANCED · Pz · MUTE · RELAY · FuTuRE REMOTE GAIN Facility · Cw · 5k Log EXTERNAL
+
+Every curve, box, word and wire group: [1973 - M621 - 621T - 20W Monitor Amp p24 (traced).json](1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20p24%20%28traced%29.json) (the CAD file: `1973 - M621 - 621T - 20W Monitor Amp p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 102 rings, 4,583 straight (8,143 mm) / 504 curved (834 mm); text 181 rings, 1,623 straight (2,040 mm) / 420 curved (708 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.6 @ (77.8, 145.5), r 2.5 @ (143.6, 145.1), r 2.5 @ (59.4, 145.5)
+- **Closed boxes:** 32; named: 053; 5 1265
+- **Words (OCR):** 35 in 28 lines: 1/5 V · 60 Hz · P2 · pi · 4 3 dBn 31 · OUTPUT · Pi · 10 · 2ow MAX: · F1 · UNBAL ANCED · p2
+
+Every curve, box, word and wire group: [1973 - M621 - 621T - 20W Monitor Amp p25 (traced).json](1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20p25%20%28traced%29.json) (the CAD file: `1973 - M621 - 621T - 20W Monitor Amp p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 130 rings, 3,590 straight (5,654 mm) / 496 curved (689 mm); text 367 rings, 3,535 straight (4,446 mm) / 919 curved (1,542 mm); tb 20 rings, 351 straight (541 mm) / 60 curved (107 mm)
+- **Closed boxes:** 10 (3 in the title block); named: WBS WARD-BECK BysTEMS LTD_; MATL; M621 20 WATT MONITOR AMP WIRING system; FINISH; 62 1-02-00 2; XX TOLS_
+- **Words (OCR):** 63 in 39 lines: NOTES · For GAIN aF · 63 46, · P2 pins · 14 , 7,I5 ARE · Not To · BE · Linked · For · GAiN OF · 43 · 46 , Link
+- **Title block:** (101, 17)–(252, 87) mm: WBS WARD-BECK BysTEMS LTD_ · DRN: · D P 3 · M621 · DATE 21m4?.73 · 20 WATT MONITOR AMP · CKD · SCALE · system · TOLS_ · XX
+
+Every curve, box, word and wire group: [1973 - M621 - 621T - 20W Monitor Amp p26 (traced).json](1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20p26%20%28traced%29.json) (the CAD file: `1973 - M621 - 621T - 20W Monitor Amp p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–429 mm up
+- **Outlines:** line 334 rings, 7,702 straight (13,314 mm) / 986 curved (1,550 mm); text 123 rings, 1,018 straight (1,156 mm) / 343 curved (521 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 3.7 @ (332.5, 193.7), r 3.6 @ (332.4, 223.6), r 2.0 @ (75.3, 305.9), r 2.0 @ (74.9, 328.5)
+- **Closed boxes:** 37; named: Pi; C3o; P2
+- **Dots (junctions):** 4
+- **Words (OCR):** 28 in 26 lines: R58 · RS7 · R5e · Rs5 · LOC · 034 · c33 · HEAT SINK · Icre · crs · Cr6 · CR7
+
+Every curve, box, word and wire group: [1973 - M621 - 621T - 20W Monitor Amp p27 (traced).json](1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20p27%20%28traced%29.json) (the CAD file: `1973 - M621 - 621T - 20W Monitor Amp p27 (traced).dxf`).
+
+### Page 28
+
+- **Sheet:** component layout 621-06-002, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px); scale NIS
+- **Ink extent:** 0–336 mm across, 0–431 mm up
+- **Outlines:** line 582 rings, 6,312 straight (9,330 mm) / 1,695 curved (1,601 mm); text 319 rings, 3,460 straight (3,698 mm) / 915 curved (1,090 mm); tb 80 rings, 517 straight (561 mm) / 100 curved (98.3 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 11.4 @ (97.9, 195.1), r 7.7 @ (74.2, 223.5), r 7.5 @ (74.8, 194.1), r 3.8 @ (74.5, 224.0)
+- **Closed boxes:** 9; named: PANEL FRONT Sw Rg4 DS | R23; MATL .; M62/ AMPLIFIER MoNItoR 20 WATT COMPONENT; FINISH; TOLS
+- **Words (OCR):** 46 in 39 lines: NOTES · NT · SHOWN · COVER · SINk AND · FRONT · PANEL · HEAT · SHOWN SEPARATE · FOR · CLARITY · ALL
+- **Title block:** (104, 14)–(255, 86) mm: WBS WARD-BECK · DRN · B7 · M62/ · DATE SEPT 73 20 WATT · MoNItoR · CKD · 0 0. · COMPONENT LAYOUT · SCALE NIS · TOLS · 621- 06- 002
+
+Every curve, box, word and wire group: [1973 - M621 - 621T - 20W Monitor Amp p28 (traced).json](1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20p28%20%28traced%29.json) (the CAD file: `1973 - M621 - 621T - 20W Monitor Amp p28 (traced).dxf`).
+
+### Page 29
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–431 mm up
+- **Outlines:** line 129 rings, 4,754 straight (9,432 mm) / 628 curved (1,086 mm); text 241 rings, 2,139 straight (2,607 mm) / 550 curved (898 mm)
+- **Closed boxes:** 8; named: 16 15 50 30
+- **Dots (junctions):** 5
+- **Words (OCR):** 40 in 36 lines: 115 V AC · 60 HZ · PI · T2 · 6N · YL · P2 · OR · INPUT · WH · 16 · INPUT SHLE LD
+
+Every curve, box, word and wire group: [1973 - M621 - 621T - 20W Monitor Amp p29 (traced).json](1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20p29%20%28traced%29.json) (the CAD file: `1973 - M621 - 621T - 20W Monitor Amp p29 (traced).dxf`).
+
+### Page 30
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–425 mm up
+- **Outlines:** line 157 rings, 4,494 straight (7,236 mm) / 641 curved (1,106 mm); text 185 rings, 1,583 straight (1,924 mm) / 406 curved (677 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 3.1 @ (299.4, 250.9), r 3.0 @ (299.3, 275.4), r 2.8 @ (179.9, 275.4), r 2.7 @ (299.2, 267.3)
+- **Closed boxes:** 3; named: 14 12
+- **Words (OCR):** 27 in 24 lines: OUTPU · 8 OHM · 4 OHM · 16O · 160 · 150 · 140 · 14 · 13 · 30 · 12 · 128
+
+Every curve, box, word and wire group: [1973 - M621 - 621T - 20W Monitor Amp p30 (traced).json](1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20p30%20%28traced%29.json) (the CAD file: `1973 - M621 - 621T - 20W Monitor Amp p30 (traced).dxf`).
+
+### Page 31
+
+- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–429 mm up
+- **Outlines:** line 283 rings, 7,785 straight (13,182 mm) / 1,106 curved (2,045 mm); text 201 rings, 2,122 straight (2,744 mm) / 519 curved (909 mm); tb 29 rings, 558 straight (735 mm) / 69 curved (110 mm)
+- **Circles and arcs:** 32 circles, 0 arcs; largest r 3.3 @ (137.8, 275.5), r 3.3 @ (138.2, 250.7), r 3.3 @ (137.8, 258.6), r 3.3 @ (137.9, 243.2)
+- **Closed boxes:** 36 (29 in the title block); named: FINISH; TOLS _
+- **Words (OCR):** 35 in 32 lines: OUTPUT · TRANSFORMER CONNECT IONS · 4 OHM · 16 OHM · 150 OHM · 160 · 16 · 16 · 150 · 15 · 15 · 14
+- **Title block:** (54, 16)–(321, 94) mm: DSS MOD  CKD: · USED ON · MATL · WBS WA · DRN_ · BJ · DATESEPT73 · FINISH · CKD: · SCALE · TOLS _
+
+Every curve, box, word and wire group: [1973 - M621 - 621T - 20W Monitor Amp p31 (traced).json](1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20p31%20%28traced%29.json) (the CAD file: `1973 - M621 - 621T - 20W Monitor Amp p31 (traced).dxf`).
+
+### Page 32
+
+- **Sheet:** schematic 621-02-004, size B (assumed) 336 × 432 mm, 1558 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–431 mm up
+- **Outlines:** line 244 rings, 7,231 straight (11,846 mm) / 1,101 curved (1,958 mm); text 239 rings, 2,643 straight (3,397 mm) / 608 curved (1,070 mm); tb 23 rings, 371 straight (524 mm) / 72 curved (103 mm)
+- **Centre lines:** 3,196 paths (82 closed); straight 9,063 mm, curved 521 mm; horizontal 3,908 mm, vertical 2,472 mm, diagonal 2,684 mm
+- **Circles and arcs:** 41 circles, 25 arcs; largest r 3.2 @ (206.5, 259.6), r 3.2 @ (206.5, 276.4), r 3.2 @ (206.2, 251.9), r 3.2 @ (206.8, 243.6)
+- **Closed boxes:** 13 (3 in the title block); named: MATL; WBS WARD-BECK BYSTEMB LTD-; M 62it OUTPUT TRANSFORME R CONNECT IONS; FINISH; TOLS _; 621-02-004; ISS,
+- **Words (OCR):** 36 in 31 lines: R CONNECT IONS · 150 OHM · 600 OHM · OHM · PI · 160 · 160 · 160 · 150 · 15 · 140 · 14
+- **Title block:** (99, 16)–(250, 87) mm: WBS WARD-BECK BYSTEMB LTD- · DRN: · BJ · M 62it · DATESEPL 73 · OUTPUT TRANSFORME R · Rc · CKD. · SCALE · TOLS _ · 621-02-004
+- **Wiring (first pass):** 68 connected wire groups from 267 runs; labelled ends: 229 mm → ON; 193 mm → DRN:, DATESEPL 73, CKD.; 178 mm → R CONNECT IONS; 92 mm → 160; 91 mm → 160
+
+Every curve, box, word and wire group: [1973 - M621 - 621T - 20W Monitor Amp p32 (traced).json](1973%20-%20M621%20-%20621T%20-%2020W%20Monitor%20Amp%20p32%20%28traced%29.json) (the CAD file: `1973 - M621 - 621T - 20W Monitor Amp p32 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

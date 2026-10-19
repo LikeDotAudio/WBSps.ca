@@ -19,6 +19,1354 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **2001** (month): `Oct. 2001` — …on: Oct 12, 1999 Third Edition: Dec 2, 1999 Fourth Edition: Oct. 2001 Fifth Edition: March 2003 Torpey Controls Engineering Limit…
 - **2003** (month): `March 2003` — …ition: Dec 2, 1999 Fourth Edition: Oct. 2001 Fifth Edition: March 2003 Torpey Controls Engineering Limited 98-2220 Midland Ave Sca…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–334 mm across, 0–431 mm up
+- **Outlines:** line 97 rings, 1,348 straight (1,044 mm) / 87 curved (99.6 mm); text 48 rings, 569 straight (773 mm) / 127 curved (200 mm)
+- **Words (OCR):** 5 in 4 lines: WBS · genaissance RZK · Audio Console · of Maly Ist 2007
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p1 (traced).json](1994%20-%20R2K%20-%20Manual%20p1%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–334 mm across, 0–392 mm up
+- **Outlines:** line 30 rings, 1,195 straight (961 mm) / 90 curved (95.7 mm); text 38 rings, 556 straight (873 mm) / 100 curved (213 mm)
+- **Words (OCR):** 5 in 4 lines: WBS · SECTION · R2O R221 · STEREO INPUT MODULES
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p2 (traced).json](1994%20-%20R2K%20-%20Manual%20p2%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 38–313 mm across, 35–391 mm up
+- **Outlines:** line 375 rings, 5,121 straight (9,998 mm) / 625 curved (990 mm); text 2,314 rings, 16,593 straight (18,689 mm) / 5,118 curved (7,246 mm); tb 4 rings, 39 straight (54.5 mm) / 14 curved (21.7 mm)
+- **Circles and arcs:** 26 circles, 0 arcs; largest r 4.6 @ (286.9, 307.5), r 4.5 @ (272.9, 307.7), r 3.5 @ (290.5, 199.0), r 3.4 @ (290.2, 82.9)
+- **Closed boxes:** 44
+- **Words (OCR):** 102 in 71 lines: R201 & R221 · WBS · R2o1 · WBS · R221 · STEREO INPUT MODULE · The R201 R221 accept two · balanced stereo · console, inputs, A or B_ · and · has individual front panel · accessible screw driver adjustments to trim the level of
+- **Title block:** (208, 374)–(282, 397) mm: WBS · R2o1 · WBS
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p3 (traced).json](1994%20-%20R2K%20-%20Manual%20p3%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–298 mm across, 92–389 mm up
+- **Outlines:** line 7 rings, 31 straight (35.7 mm) / 7 curved (13.1 mm); text 3,477 rings, 25,265 straight (27,981 mm) / 7,896 curved (11,261 mm)
+- **Words (OCR):** 69 in 51 lines: R201 & R221 · STEREO INPUT MODULE CONTROL · ABSQURCE SELECI · Source pushbuttons A and · are electronically interlocked and select between stereo inputs A and · respectively. · Left and right trim controls are accessible from the front panel. · These trim controls are post · input select: · MONQ SEL
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p4 (traced).json](1994%20-%20R2K%20-%20Manual%20p4%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 48–334 mm across, 3–392 mm up
+- **Outlines:** line 21 rings, 85 straight (65.3 mm) / 6 curved (6.2 mm); text 720 rings, 8,336 straight (10,297 mm) / 2,166 curved (3,140 mm)
+- **Words (OCR):** 80 in 80 lines: DIPSWITCH SETTINGS (REFDES_SW2) · SWITCH FUNCTIONS · SWI · Mode Selection · SW2 · Mode Selection · SW3 · Mode Selection · SW4 · MI PrelPost Channel On · SWS · M2 PrelPost Channel On
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p5 (traced).json](1994%20-%20R2K%20-%20Manual%20p5%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 21–334 mm across, 3–390 mm up
+- **Outlines:** line 22 rings, 139 straight (106 mm) / 35 curved (42.8 mm); text 2,286 rings, 17,141 straight (19,645 mm) / 4,803 curved (7,162 mm)
+- **Words (OCR):** 99 in 74 lines: MODES QF QPERATION: · MODE 0: · Control in 1- CH ON Control out 1- CH ON INA · Tally · Control in 2-CH OFF Control out 2-CH ON INB · Tally · Control in 3- A SEL · Control out 3- A Tally · Tally · Control in 4- B SEL · Control out 4- B · Channel ON acts as an alternate action push button_
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p6 (traced).json](1994%20-%20R2K%20-%20Manual%20p6%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 42–334 mm across, 3–390 mm up
+- **Outlines:** line 28 rings, 88 straight (49.0 mm) / 10 curved (8.3 mm); text 444 rings, 3,428 straight (3,996 mm) / 907 curved (1,375 mm)
+- **Words (OCR):** 13 in 12 lines: MODES QE_OPERATION (cont'd): · MODE 7: · Control in 1-CH ON · Control out 1- CH ON event pulse · Control in 2- CH OFF Control out 2- CH OFF · Tally · Control in 3- Cue On · Control out 3- Cue on Tally · Control in 4- Cue Off · Control out 4- Cue off Tally · When bringing fader down the end of travel
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p7 (traced).json](1994%20-%20R2K%20-%20Manual%20p7%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 15–320 mm across, 21–415 mm up
+- **Outlines:** line 513 rings, 10,003 straight (19,610 mm) / 1,486 curved (1,951 mm); text 143 rings, 1,325 straight (1,379 mm) / 357 curved (450 mm)
+- **Closed boxes:** 37; named: J2
+- **Words (OCR):** 6 in 6 lines: 0 0 · J2 · 08 · IL · 88488 · 92
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p8 (traced).json](1994%20-%20R2K%20-%20Manual%20p8%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 62–333 mm across, 21–420 mm up
+- **Outlines:** line 886 rings, 11,912 straight (22,266 mm) / 2,372 curved (2,996 mm); text 585 rings, 3,622 straight (3,527 mm) / 1,177 curved (1,586 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.4 @ (178.7, 371.3)
+- **Closed boxes:** 92; named: 10C; 89H3; 66 32 86; 894
+- **Words (OCR):** 26 in 25 lines: Il · 828 · 88 · 23 · 28 · 822 · 222 · z2 · 10C · 89H3 · 233 · ZZH
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p9 (traced).json](1994%20-%20R2K%20-%20Manual%20p9%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 61–334 mm across, 22–421 mm up
+- **Outlines:** line 722 rings, 10,320 straight (19,309 mm) / 1,956 curved (2,449 mm); text 501 rings, 3,123 straight (2,970 mm) / 1,006 curved (1,316 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.4 @ (124.3, 156.3)
+- **Closed boxes:** 63; named: 21; 00; 66 8943; 66 86; 48
+- **Words (OCR):** 27 in 24 lines: 21 · 228 4J · 238 · 00 · 8 8 · 040 · 228 · 0x0[ · 6+8 · g+8 · 66 · 66 86
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p10 (traced).json](1994%20-%20R2K%20-%20Manual%20p10%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 62–333 mm across, 22–421 mm up
+- **Outlines:** line 721 rings, 10,196 straight (18,913 mm) / 1,934 curved (2,459 mm); text 346 rings, 2,268 straight (2,139 mm) / 756 curved (986 mm)
+- **Closed boxes:** 87; named: e2; 8443; 35 843; EJ; 86 06 8943; 26 86 86 89; EJ
+- **Words (OCR):** 25 in 23 lines: e2 · 228 · E28 · 228 · 8443 · 28 · 5s) · 228 · 63 · 823 · 822 · 35
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p11 (traced).json](1994%20-%20R2K%20-%20Manual%20p11%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 61–334 mm across, 23–421 mm up
+- **Outlines:** line 1,199 rings, 15,278 straight (26,124 mm) / 2,980 curved (3,800 mm); text 524 rings, 3,161 straight (3,067 mm) / 1,015 curved (1,336 mm)
+- **Closed boxes:** 89; named: 21; EJ
+- **Words (OCR):** 33 in 31 lines: 21 · 8Y2 · EJ · 22 · gz18 · 29 · #814 · 4d02 · L9? · HF · 393 · 01/01
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p12 (traced).json](1994%20-%20R2K%20-%20Manual%20p12%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 62–334 mm across, 8–419 mm up
+- **Outlines:** line 801 rings, 7,997 straight (14,035 mm) / 1,412 curved (1,747 mm); text 77 rings, 467 straight (475 mm) / 169 curved (212 mm)
+- **Closed boxes:** 78; named: 8H; 2=1]; 952v03
+- **Dots (junctions):** 2
+- **Words (OCR):** 5 in 5 lines: 8H · 11 · 2=1] · 2 ? ? 2 · 952v03
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p13 (traced).json](1994%20-%20R2K%20-%20Manual%20p13%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 63–334 mm across, 20–414 mm up
+- **Outlines:** line 899 rings, 10,559 straight (16,488 mm) / 1,757 curved (2,239 mm); text 147 rings, 1,125 straight (1,020 mm) / 354 curved (478 mm)
+- **Closed boxes:** 79; named: 21
+- **Words (OCR):** 9 in 9 lines: 21 · 38 · 2228 · 8t3 · EEp · 693 · bz · 83 · 88
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p14 (traced).json](1994%20-%20R2K%20-%20Manual%20p14%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–333 mm across, 4–390 mm up
+- **Outlines:** line 193 rings, 2,303 straight (4,865 mm) / 294 curved (462 mm); text 2,012 rings, 14,626 straight (16,396 mm) / 4,342 curved (6,201 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 5.5 @ (278.9, 312.3), r 3.4 @ (271.4, 383.9), r 3.2 @ (270.6, 60.0), r 2.6 @ (271.4, 370.1)
+- **Closed boxes:** 20
+- **Words (OCR):** 63 in 44 lines: R207 · WBS · R207 · STEREO INPUT MODULE · The R207 accepts two balanced stereo inputs A or B, and has · individual front panel accessible screw driver adjustments to trim · the level of the left and right channels_ AMONO pushbutton switch · MONO · will sum the left and right stereo signal:. This fea
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p15 (traced).json](1994%20-%20R2K%20-%20Manual%20p15%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 38–298 mm across, 48–388 mm up
+- **Outlines:** line 5 rings, 31 straight (41.8 mm) / 2 curved (2.4 mm); text 3,437 rings, 24,807 straight (27,738 mm) / 7,754 curved (11,106 mm)
+- **Words (OCR):** 80 in 58 lines: R207 · STEREO INPUT MODULE CONTROL · AB SQURCE SELECT · Source pushbuttons A and · B are electronically interlocked and select between stereo inputs and · Left and right trim controls are accessible from the front panel. These trim controls are post · respectively: · input select: · MONQ SELECI · Pr
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p16 (traced).json](1994%20-%20R2K%20-%20Manual%20p16%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–333 mm across, 42–390 mm up
+- **Outlines:** line 3 rings, 10 straight (5.2 mm) / 2 curved (1.5 mm); text 2,389 rings, 17,492 straight (20,042 mm) / 5,043 curved (7,454 mm)
+- **Words (OCR):** 95 in 70 lines: MQDES QE QPERATIONcont'd) · MODE 1: · Control in 1- CH ON · Control out 1- CH ON event pulse · Control in 2- CHOFF Control out 2-CH OFF · Tally · Control in 3- A SEL Control out 3- A · Tally · Tally · Control in 4-B SEL Control out 4- B · Channel ONIOFF button keeps the channel on all the time and i
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p17 (traced).json](1994%20-%20R2K%20-%20Manual%20p17%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 38–334 mm across, 4–392 mm up
+- **Outlines:** line 95 rings, 453 straight (356 mm) / 79 curved (114 mm); text 169 rings, 1,342 straight (1,828 mm) / 379 curved (632 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.1 @ (159.8, 336.9), r 1.8 @ (159.8, 349.4), r 1.8 @ (159.8, 343.1)
+- **Dots (junctions):** 2
+- **Words (OCR):** 26 in 26 lines: MQDE SETUP FQR R20z USING MODE JUMPERS · Off · Off · Off · Modeo · Off · Off · On · Mode1 · Off · On · Mode2
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p18 (traced).json](1994%20-%20R2K%20-%20Manual%20p18%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 49–332 mm across, 36–390 mm up
+- **Outlines:** line 1,216 rings, 13,985 straight (29,404 mm) / 1,756 curved (2,478 mm); text 270 rings, 1,973 straight (2,197 mm) / 544 curved (790 mm)
+- **Circles and arcs:** 13 circles, 0 arcs; largest r 3.4 @ (263.3, 326.9), r 3.3 @ (245.2, 150.0), r 3.3 @ (97.0, 150.5), r 2.8 @ (243.7, 322.9)
+- **Closed boxes:** 212; named: 58; 2/2; Bi; 3/5; 515 3/5; 88; 22; 88
+- **Dots (junctions):** 1
+- **Words (OCR):** 10 in 10 lines: 28 · 58 · Bi · 2/2 · 88 · 515 · 3/5 · 88 · 3/5 · 22
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p19 (traced).json](1994%20-%20R2K%20-%20Manual%20p19%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–334 mm across, 4–393 mm up
+- **Outlines:** line 38 rings, 1,070 straight (873 mm) / 72 curved (80.1 mm); text 38 rings, 560 straight (859 mm) / 112 curved (236 mm)
+- **Words (OCR):** 4 in 4 lines: WES · SECTION 2 · R202 · STEREO OUTPUT MODULE
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p20 (traced).json](1994%20-%20R2K%20-%20Manual%20p20%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 27–334 mm across, 4–391 mm up
+- **Outlines:** line 53 rings, 813 straight (1,788 mm) / 97 curved (157 mm); text 742 rings, 5,534 straight (6,389 mm) / 1,670 curved (2,414 mm); tb 1 rings, 7 straight (9.2 mm) / 1 curved (0.7 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 3.3 @ (274.4, 385.7), r 3.3 @ (272.4, 44.1), r 2.7 @ (274.3, 371.1), r 2.6 @ (272.5, 84.9)
+- **Words (OCR):** 20 in 16 lines: R202 · WBS R202 · STEREO OUTPUT MODULE · The R202 contains the summing and output amplifiers for PROGRAM 1_ · 2,3_ 4 and MONO MIX 1,2 buses_ · To provide the correct console outputs · the R202 must be installed in slot 13 of the R2K/12, slot 21 of the R2KI2O · or slot 29 of the R2KI28 console_ · Bal
+- **Title block:** (32, 289)–(276, 398) mm: R202 · WBS R202 · STEREO OUTPUT MODULE · The R202 contains the summing and output amplifiers for PROGRAM 1_ · 2,3_ 4 and MONO MIX 1,2 buses_ · To provide the correct console outputs · the R202 must be
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p21 (traced).json](1994%20-%20R2K%20-%20Manual%20p21%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 48–333 mm across, 19–390 mm up
+- **Outlines:** line 1,252 rings, 15,128 straight (30,698 mm) / 1,802 curved (2,530 mm); text 421 rings, 3,231 straight (3,602 mm) / 842 curved (1,220 mm)
+- **Circles and arcs:** 20 circles, 0 arcs; largest r 3.7 @ (247.3, 175.4), r 3.6 @ (88.3, 176.0), r 3.6 @ (249.6, 356.0), r 3.6 @ (249.4, 336.0)
+- **Closed boxes:** 194; named: Ji 58 IH e5 e8 22 22 22 22 212 22 28 2/2; 212; 22; 28; 22; Ji 22; 22; e8 2/2; IH; 58; BE; 88
+- **Dots (junctions):** 2
+- **Words (OCR):** 15 in 9 lines: Ji · 58 · e5 · e8 · IH · 212 22 28 · 22 22 22 22 2/2 · 88 · BE
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p22 (traced).json](1994%20-%20R2K%20-%20Manual%20p22%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 28–334 mm across, 9–431 mm up
+- **Outlines:** line 376 rings, 6,932 straight (11,365 mm) / 1,082 curved (1,478 mm); text 148 rings, 1,307 straight (1,220 mm) / 438 curved (560 mm)
+- **Closed boxes:** 9
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p23 (traced).json](1994%20-%20R2K%20-%20Manual%20p23%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 31–334 mm across, 10–414 mm up
+- **Outlines:** line 1,333 rings, 16,711 straight (25,176 mm) / 3,599 curved (4,530 mm); text 303 rings, 2,054 straight (1,896 mm) / 605 curved (763 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 1.4 @ (287.8, 365.5), r 1.1 @ (182.7, 130.9), r 1.1 @ (92.1, 131.1), r 1.0 @ (57.1, 115.8)
+- **Closed boxes:** 5
+- **Dots (junctions):** 2
+- **Words (OCR):** 7 in 6 lines: 83 · 6 h · 50 19 · 28 · 58 · 38
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p24 (traced).json](1994%20-%20R2K%20-%20Manual%20p24%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–334 mm across, 10–392 mm up
+- **Outlines:** line 28 rings, 990 straight (865 mm) / 73 curved (86.5 mm); text 46 rings, 622 straight (1,042 mm) / 134 curved (296 mm)
+- **Words (OCR):** 4 in 4 lines: WBS · SECTION 3 · R203 · CONTROL ROOM MONITOR MODULE
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p25 (traced).json](1994%20-%20R2K%20-%20Manual%20p25%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 33–334 mm across, 7–430 mm up
+- **Outlines:** line 163 rings, 2,559 straight (5,763 mm) / 255 curved (442 mm); text 1,358 rings, 9,701 straight (10,720 mm) / 3,008 curved (4,315 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 15.7 @ (274.8, 63.5), r 4.0 @ (276.8, 72.3), r 3.3 @ (276.4, 383.7), r 2.7 @ (268.4, 369.4)
+- **Closed boxes:** 31
+- **Words (OCR):** 40 in 32 lines: R203 · WBS · R203 · CONTROL ROOM MONITOR · MODULE · METER · The R203 module provides monitoring and metering selection for the · console. · This module is equipped with an eight input two output · balanced stereo audio switcher · and has two banks of 8 front panel · switches for independent meter an
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p26 (traced).json](1994%20-%20R2K%20-%20Manual%20p26%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 48–334 mm across, 2–389 mm up
+- **Outlines:** line 1,153 rings, 14,175 straight (30,559 mm) / 1,633 curved (2,308 mm); text 333 rings, 2,619 straight (2,935 mm) / 587 curved (829 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 3.7 @ (247.5, 174.6), r 3.6 @ (247.3, 327.9), r 3.6 @ (247.4, 347.8), r 3.6 @ (88.5, 175.3)
+- **Closed boxes:** 215; named: 3/5/5; 3/5/5; 2/5/5; E5
+- **Words (OCR):** 6 in 5 lines: HHH · 515 · E5 · 3/5/5 · 3/5/5 2/5/5
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p27 (traced).json](1994%20-%20R2K%20-%20Manual%20p27%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p27 (traced).dxf`).
+
+### Page 28
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 34–334 mm across, 1–411 mm up
+- **Outlines:** line 444 rings, 5,868 straight (11,455 mm) / 952 curved (1,276 mm); text 172 rings, 1,208 straight (1,160 mm) / 364 curved (478 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 5.2 @ (173.6, 267.5), r 1.7 @ (283.5, 372.6), r 1.7 @ (283.6, 393.3), r 1.6 @ (175.0, 268.7)
+- **Closed boxes:** 7
+- **Words (OCR):** 9 in 7 lines: 88h · 83 · 82 · E8 · 52 · 58 52 · 52 62
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p28 (traced).json](1994%20-%20R2K%20-%20Manual%20p28%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p28 (traced).dxf`).
+
+### Page 29
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 46–334 mm across, 5–411 mm up
+- **Outlines:** line 891 rings, 12,120 straight (22,795 mm) / 2,141 curved (2,699 mm); text 272 rings, 1,869 straight (1,829 mm) / 547 curved (678 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 1.7 @ (288.3, 362.2), r 1.4 @ (288.3, 383.3), r 1.0 @ (149.6, 300.7), r 0.9 @ (122.2, 101.6)
+- **Closed boxes:** 94; named: Rx; RR 87; Rx 85 4 W 0; 85 {<wo Rx 87; Rx 8N; RX; {<o0 87; Rx {<od RN
+- **Words (OCR):** 17 in 16 lines: Rx · RR 87 · Rx · 85 4 W 0 · Rx 87 · 85 {<wo · 18 · 0 2 · Rx · 8N · RX · {<o0
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p29 (traced).json](1994%20-%20R2K%20-%20Manual%20p29%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p29 (traced).dxf`).
+
+### Page 30
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 8–412 mm up
+- **Outlines:** line 894 rings, 12,494 straight (23,197 mm) / 2,135 curved (2,683 mm); text 290 rings, 1,860 straight (1,752 mm) / 587 curved (759 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.6 @ (293.8, 362.6), r 0.9 @ (136.9, 299.1)
+- **Closed boxes:** 96; named: 2l; 8N 40O; Rx ?f; {<00; {<00 85; 40 D; {<00 RN 87; {*00
+- **Words (OCR):** 16 in 14 lines: 2l · 8N 40O · Rx ?f · {<00 · {<00 · 85 · 18 · RX 87 · Tmu · 40 D · 87 · RN
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p30 (traced).json](1994%20-%20R2K%20-%20Manual%20p30%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p30 (traced).dxf`).
+
+### Page 31
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 34–334 mm across, 4–410 mm up
+- **Outlines:** line 798 rings, 9,446 straight (16,833 mm) / 1,842 curved (2,293 mm); text 155 rings, 1,063 straight (1,033 mm) / 304 curved (409 mm)
+- **Closed boxes:** 36; named: MODE; 85 87; R7
+- **Dots (junctions):** 1
+- **Words (OCR):** 7 in 6 lines: 8 R · MODE · 3 3 · 2 R · 85 87 · R7
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p31 (traced).json](1994%20-%20R2K%20-%20Manual%20p31%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p31 (traced).dxf`).
+
+### Page 32
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 46–334 mm across, 4–412 mm up
+- **Outlines:** line 1,174 rings, 14,977 straight (26,308 mm) / 2,855 curved (3,594 mm); text 349 rings, 2,279 straight (2,151 mm) / 794 curved (1,001 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 1.7 @ (293.8, 361.8), r 1.7 @ (289.4, 374.1), r 1.1 @ (199.7, 357.7), r 1.1 @ (194.3, 357.8)
+- **Closed boxes:** 46; named: 33 6o83; Eo8a; 2 3; VDD GNG GND; 2222 22222828
+- **Dots (junctions):** 1
+- **Words (OCR):** 16 in 16 lines: QoQrq · 33 · 82 · 6o83 · Eo8a · I6 · 88 · 3 9 · 2 3 · VDD · GNG · GND
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p32 (traced).json](1994%20-%20R2K%20-%20Manual%20p32%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p32 (traced).dxf`).
+
+### Page 33
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 32–334 mm across, 4–411 mm up
+- **Outlines:** line 1,260 rings, 14,471 straight (28,756 mm) / 2,566 curved (3,265 mm); text 205 rings, 1,275 straight (1,237 mm) / 424 curved (562 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.7 @ (279.7, 361.6), r 1.4 @ (245.1, 40.4), r 0.9 @ (172.3, 319.4)
+- **Closed boxes:** 55; named: 38 68333863   818; 72
+- **Dots (junctions):** 1
+- **Words (OCR):** 6 in 6 lines: 38 · 68333863   818 · 72 · 29 · Ki · Bx
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p33 (traced).json](1994%20-%20R2K%20-%20Manual%20p33%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p33 (traced).dxf`).
+
+### Page 34
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–334 mm across, 65–406 mm up
+- **Outlines:** line 38 rings, 1,040 straight (876 mm) / 79 curved (87.0 mm); text 42 rings, 538 straight (920 mm) / 100 curved (207 mm)
+- **Words (OCR):** 4 in 4 lines: WBS · SECTION 4 · R2O4 · STUDIO MONITOR MODULE
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p34 (traced).json](1994%20-%20R2K%20-%20Manual%20p34%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p34 (traced).dxf`).
+
+### Page 35
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–334 mm across, 3–391 mm up
+- **Outlines:** line 185 rings, 2,889 straight (5,881 mm) / 314 curved (493 mm); text 1,676 rings, 11,938 straight (12,959 mm) / 3,752 curved (5,311 mm)
+- **Circles and arcs:** 13 circles, 0 arcs; largest r 3.7 @ (280.2, 128.0), r 3.7 @ (264.8, 128.2), r 3.4 @ (272.0, 43.4), r 3.2 @ (274.6, 385.5)
+- **Closed boxes:** 30
+- **Words (OCR):** 39 in 30 lines: R204 · WBS R204 · STUDIO MONITOR MODULE · STUDIO · The R204 module provides studio monitoring and talkback selection for · the console. · This module is equipped with an eight input, two output · balanced stereo audio switcher and has two banks of 8 front panel · switches for independent monitor sel
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p35 (traced).json](1994%20-%20R2K%20-%20Manual%20p35%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p35 (traced).dxf`).
+
+### Page 36
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 40–333 mm across, 52–376 mm up
+- **Outlines:** line 1,300 rings, 14,889 straight (30,830 mm) / 1,752 curved (2,470 mm); text 269 rings, 2,138 straight (2,609 mm) / 451 curved (658 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 3.4 @ (226.7, 167.2), r 3.4 @ (77.0, 167.4), r 1.4 @ (226.9, 110.6), r 1.4 @ (221.0, 110.6)
+- **Closed boxes:** 248; named: 515 55 E15 51 E5 3/5/5 3/5/5 2/5/5 2/5/5; 515; 3/5/5; 2/5/5; E5; 3/5/5; 55; 2/5/5; E15; 51; 3/5/5; 2/5/5
+- **Words (OCR):** 11 in 8 lines: 515 · E5 · 55 · E15 51 · 3/5/5 3/5/5 · 2/5/5 2/5/5 · 3/5/5 · 2/5/5
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p36 (traced).json](1994%20-%20R2K%20-%20Manual%20p36%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p36 (traced).dxf`).
+
+### Page 37
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 46–334 mm across, 4–411 mm up
+- **Outlines:** line 444 rings, 7,105 straight (15,921 mm) / 1,075 curved (1,426 mm); text 208 rings, 1,465 straight (1,446 mm) / 438 curved (572 mm)
+- **Closed boxes:** 20
+- **Words (OCR):** 7 in 3 lines: Iee · 52 68 52 · 52 57 62
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p37 (traced).json](1994%20-%20R2K%20-%20Manual%20p37%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p37 (traced).dxf`).
+
+### Page 38
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 34–334 mm across, 5–418 mm up
+- **Outlines:** line 899 rings, 12,448 straight (23,294 mm) / 2,134 curved (2,658 mm); text 256 rings, 1,633 straight (1,533 mm) / 506 curved (619 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.6 @ (280.6, 351.1)
+- **Closed boxes:** 105; named: Rx {*e0 27 8N; {CU 8N; Iou; 8x 8f; F<oq; 8N Rx 87; [<08 87 ?f 84
+- **Words (OCR):** 18 in 14 lines: 14 · Rx 27 8N · {*e0 · 8N · {CU · Iou · 8x 8f · 5 8 · F<oq · Rx 87 · 8N · 87 ?f 84
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p38 (traced).json](1994%20-%20R2K%20-%20Manual%20p38%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p38 (traced).dxf`).
+
+### Page 39
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 34–334 mm across, 6–414 mm up
+- **Outlines:** line 874 rings, 12,957 straight (23,226 mm) / 2,212 curved (2,772 mm); text 270 rings, 1,824 straight (1,737 mm) / 594 curved (755 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.6 @ (283.0, 361.7)
+- **Closed boxes:** 102; named: dl; R* ef; RN {*20 85; RN; 8x; {<20 8N; 8x 8n
+- **Words (OCR):** 12 in 11 lines: dl · 85 · RN {*20 · R* ef · RN · 18 · 8x · 8N · {<20 · 8x · 8n
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p39 (traced).json](1994%20-%20R2K%20-%20Manual%20p39%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p39 (traced).dxf`).
+
+### Page 40
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 45–334 mm across, 8–410 mm up
+- **Outlines:** line 1,021 rings, 12,278 straight (20,980 mm) / 2,343 curved (2,944 mm); text 286 rings, 1,750 straight (1,611 mm) / 628 curved (805 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 1.1 @ (186.6, 294.8), r 1.1 @ (246.5, 232.2), r 1.0 @ (228.8, 350.5), r 0.9 @ (167.3, 187.7)
+- **Closed boxes:** 46; named: 05 9; 83 93; 85 87; 8f RR; 83 3; 85; AR
+- **Dots (junctions):** 2
+- **Words (OCR):** 10 in 9 lines: 08 · 05 9 · 83 93 · 87 · 85 · 8f RR · 83 3 · 85 · AR
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p40 (traced).json](1994%20-%20R2K%20-%20Manual%20p40%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p40 (traced).dxf`).
+
+### Page 41
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 16–334 mm across, 7–424 mm up
+- **Outlines:** line 880 rings, 13,899 straight (23,566 mm) / 2,370 curved (2,968 mm); text 446 rings, 2,903 straight (2,660 mm) / 992 curved (1,273 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.1 @ (207.0, 179.6)
+- **Closed boxes:** 34; named: 21; 3/eza; 58833363   813; 68838368 85; 222233 VDD GND GND 22822222 222228e8
+- **Dots (junctions):** 1
+- **Words (OCR):** 16 in 15 lines: 58833363   813 · 68838368 85 · 3/eza · 21 · 222233 · 5 3 · VDD · GND 31 · GND · 22822222 222228e8 · 82 · 3 2
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p41 (traced).json](1994%20-%20R2K%20-%20Manual%20p41%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p41 (traced).dxf`).
+
+### Page 42
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 34–334 mm across, 9–411 mm up
+- **Outlines:** line 1,109 rings, 14,255 straight (27,969 mm) / 2,540 curved (3,242 mm); text 118 rings, 812 straight (817 mm) / 243 curved (316 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 1.7 @ (280.4, 361.6), r 1.4 @ (47.1, 333.0), r 1.1 @ (117.9, 197.7), r 0.9 @ (96.5, 89.1)
+- **Closed boxes:** 54; named: 2l; 729; 0 r
+- **Dots (junctions):** 2
+- **Words (OCR):** 5 in 5 lines: 2l · Bi · 729 · 3X · 0 r
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p42 (traced).json](1994%20-%20R2K%20-%20Manual%20p42%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p42 (traced).dxf`).
+
+### Page 43
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–334 mm across, 8–394 mm up
+- **Outlines:** line 38 rings, 1,360 straight (957 mm) / 70 curved (69.7 mm); text 40 rings, 598 straight (912 mm) / 108 curved (218 mm)
+- **Words (OCR):** 4 in 4 lines: WES · SECTION 5 · R2O5 · 8 X 2 STEREO LINE SELECTOR
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p43 (traced).json](1994%20-%20R2K%20-%20Manual%20p43%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p43 (traced).dxf`).
+
+### Page 44
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 12–431 mm up
+- **Outlines:** line 131 rings, 2,104 straight (4,811 mm) / 229 curved (352 mm); text 707 rings, 5,106 straight (5,745 mm) / 1,595 curved (2,337 mm); tb 30 rings, 266 straight (459 mm) / 29 curved (41.7 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 3.5 @ (274.5, 382.8), r 3.3 @ (273.0, 40.7), r 2.6 @ (281.9, 368.0), r 2.6 @ (274.4, 368.1)
+- **Closed boxes:** 21
+- **Words (OCR):** 19 in 14 lines: R205 · WBS · R205 · 8 x 2 STEREO LINE SELECTOR · OUT 2 · The R205 is an 8 x 2 Stereo Line Selector. Two banks of eight illuminating · pushbutton switches allow for the independent selection of any input to the two · selector outputs_ A convenient, front panel designation strip allows for easy · iden
+- **Title block:** (32, 309)–(276, 394) mm: R205 · WBS · 8 x 2 STEREO LINE SELECTOR · OUT 2 · The R205 is an 8 x 2 Stereo Line Selector. Two banks of eight illuminating · pushbutton switches allow for the independent selection of any input to t
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p44 (traced).json](1994%20-%20R2K%20-%20Manual%20p44%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p44 (traced).dxf`).
+
+### Page 45
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 47–333 mm across, 10–390 mm up
+- **Outlines:** line 1,003 rings, 13,013 straight (28,794 mm) / 1,289 curved (1,831 mm); text 428 rings, 3,619 straight (4,239 mm) / 732 curved (1,058 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 3.6 @ (247.2, 174.2), r 3.6 @ (87.4, 174.8), r 1.6 @ (262.1, 238.9), r 1.5 @ (255.6, 238.1)
+- **Closed boxes:** 249; named: 51 EF e2 98 HH E1 515 a/5/slla/5/5 2/5/5; 51; EF 98; e2; e2; E1 3/5/5; E1; 2/5/5; 3/5/5; 2/5/5; HH
+- **Words (OCR):** 15 in 9 lines: 28 · 51 · EF · 98 · e2 · HH · 515 · E1 · a/5/slla/5/5 2/5/5/2/5/5 3/5/5 2/5/5 3/5/5 2/5/5 Gla
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p45 (traced).json](1994%20-%20R2K%20-%20Manual%20p45%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p45 (traced).dxf`).
+
+### Page 46
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 30–334 mm across, 0–410 mm up
+- **Outlines:** line 263 rings, 3,623 straight (8,407 mm) / 565 curved (779 mm); text 128 rings, 981 straight (1,107 mm) / 284 curved (386 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.4 @ (304.0, 379.8)
+- **Closed boxes:** 5; named: 232
+- **Dots (junctions):** 1
+- **Words (OCR):** 3 in 3 lines: 232 · 52 · 52
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p46 (traced).json](1994%20-%20R2K%20-%20Manual%20p46%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p46 (traced).dxf`).
+
+### Page 47
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 46–334 mm across, 1–409 mm up
+- **Outlines:** line 909 rings, 12,420 straight (23,170 mm) / 2,162 curved (2,702 mm); text 250 rings, 1,685 straight (1,551 mm) / 563 curved (683 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.7 @ (287.9, 383.7)
+- **Closed boxes:** 90; named: 2l; Rx ?{; [<00; 8x 97 8R; 8x er; AN; Rx 27 35; RR; 27 Ar 400
+- **Dots (junctions):** 1
+- **Words (OCR):** 17 in 12 lines: Id · 2l · Rx ?{ · [<00 · 8x 97 8R · 8x er · i8 · Rx 27 35 · AN · RR · 27 Ar 400 · 8a
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p47 (traced).json](1994%20-%20R2K%20-%20Manual%20p47%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p47 (traced).dxf`).
+
+### Page 48
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 46–334 mm across, 0–409 mm up
+- **Outlines:** line 900 rings, 12,579 straight (23,460 mm) / 2,229 curved (2,857 mm); text 271 rings, 1,655 straight (1,439 mm) / 549 curved (644 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.7 @ (289.5, 379.4)
+- **Closed boxes:** 85; named: RR; RR ef 87 {<m0; RX ?7 {<o0 8N; {<00 Rx %7; Foq Rx e7 RR; Rx
+- **Dots (junctions):** 1
+- **Words (OCR):** 16 in 13 lines: RR · RR ef 87 {<m0 · RX ?7 {<o0 · 8N · I8 · 58 · {<00 · Foq · Rx %7 · Rx e7 RR · Rx · i3
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p48 (traced).json](1994%20-%20R2K%20-%20Manual%20p48%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p48 (traced).dxf`).
+
+### Page 49
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 43–334 mm across, 4–410 mm up
+- **Outlines:** line 450 rings, 5,572 straight (9,639 mm) / 1,107 curved (1,423 mm); text 139 rings, 944 straight (915 mm) / 316 curved (420 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.1 @ (209.8, 246.8), r 1.1 @ (212.8, 124.2), r 1.1 @ (212.5, 246.3)
+- **Closed boxes:** 11; named: 2l; 53 53
+- **Words (OCR):** 6 in 6 lines: 2l · 53 53 · 23 · 23 · 23 · 98
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p49 (traced).json](1994%20-%20R2K%20-%20Manual%20p49%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p49 (traced).dxf`).
+
+### Page 50
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 46–334 mm across, 8–410 mm up
+- **Outlines:** line 795 rings, 11,130 straight (19,973 mm) / 2,037 curved (2,543 mm); text 351 rings, 2,178 straight (2,069 mm) / 824 curved (1,074 mm)
+- **Closed boxes:** 33; named: 6o88; 68888868 a8 Eoda; 68833858 6084; 22222 VDD GND
+- **Words (OCR):** 15 in 14 lines: [98 · 68833858 · 68888868 a8 · 6o88 · Eoda · 6084 · 8 2 · 22222 · VDD · GND · 3 3 · 222
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p50 (traced).json](1994%20-%20R2K%20-%20Manual%20p50%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p50 (traced).dxf`).
+
+### Page 51
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 34–333 mm across, 7–409 mm up
+- **Outlines:** line 1,173 rings, 14,618 straight (28,273 mm) / 2,498 curved (3,170 mm); text 167 rings, 1,046 straight (1,131 mm) / 290 curved (407 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 0.9 @ (121.4, 127.5)
+- **Closed boxes:** 52; named: OI; 6838 3La8838888; 400
+- **Dots (junctions):** 1
+- **Words (OCR):** 6 in 6 lines: 88 · OI · 6838 · 3La8838888 · Be · 400
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p51 (traced).json](1994%20-%20R2K%20-%20Manual%20p51%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p51 (traced).dxf`).
+
+### Page 52
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–334 mm across, 7–426 mm up
+- **Outlines:** line 29 rings, 1,127 straight (887 mm) / 82 curved (95.6 mm); text 38 rings, 557 straight (874 mm) / 94 curved (182 mm)
+- **Words (OCR):** 5 in 4 lines: WBS · SECTION 6 · R2O6 RZO6A · UTILITY MODULES
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p52 (traced).json](1994%20-%20R2K%20-%20Manual%20p52%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p52 (traced).dxf`).
+
+### Page 53
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 38–296 mm across, 36–389 mm up
+- **Outlines:** line 147 rings, 1,771 straight (3,378 mm) / 319 curved (502 mm); text 2,677 rings, 18,902 straight (20,670 mm) / 6,097 curved (8,689 mm); tb 46 rings, 209 straight (182 mm) / 116 curved (164 mm)
+- **Circles and arcs:** 17 circles, 0 arcs; largest r 4.6 @ (283.8, 124.7), r 3.4 @ (283.8, 124.7), r 3.3 @ (276.8, 383.7), r 3.3 @ (274.7, 41.4)
+- **Closed boxes:** 8
+- **Dots (junctions):** 2
+- **Words (OCR):** 95 in 78 lines: R206 · WBS · R206 · UTILITY MODULE · The R206 Utility Module serves as · 'catchall" module for various · console functions. Ithouses the drive amplifiers for the console headset, · cue speaker, timer driver and controls · utility LED, bar graph, and · level indicator , · The R2o6 also contains the R
+- **Title block:** (32, 308)–(278, 395) mm: R206 · WBS · UTILITY MODULE · The R206 Utility Module serves as · 'catchall" module for various · console functions. Ithouses the drive amplifiers for the console headset, · cue speaker, timer driver 
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p53 (traced).json](1994%20-%20R2K%20-%20Manual%20p53%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p53 (traced).dxf`).
+
+### Page 54
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–334 mm across, 4–405 mm up
+- **Outlines:** line 34 rings, 109 straight (70.8 mm) / 7 curved (11.3 mm); text 1,486 rings, 10,670 straight (11,721 mm) / 3,293 curved (4,696 mm)
+- **Words (OCR):** 33 in 20 lines: is stopped. Pressing the DOWN button will preset the timer to count down from the displayed · time the next time the START button is pushed. · LOAD · The LOAD button can only be activated if the timer is stopped. Pressing the LOAD button · will cause the function of the STOPIRESET, START and DOWN to
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p54 (traced).json](1994%20-%20R2K%20-%20Manual%20p54%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p54 (traced).dxf`).
+
+### Page 55
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 49–289 mm across, 36–390 mm up
+- **Outlines:** line 1,443 rings, 16,745 straight (33,443 mm) / 2,187 curved (3,142 mm); text 471 rings, 3,502 straight (3,861 mm) / 910 curved (1,271 mm)
+- **Circles and arcs:** 18 circles, 0 arcs; largest r 3.7 @ (245.8, 351.4), r 3.7 @ (250.3, 174.0), r 3.6 @ (245.6, 331.2), r 3.6 @ (90.0, 174.5)
+- **Closed boxes:** 247; named: 33 22 51 23 33 25 22 88; 33; 22; 22; 23 25; 88; 51 33
+- **Dots (junctions):** 2
+- **Words (OCR):** 11 in 9 lines: 29 42 · 822 · 33 · 22 · 51 · 23 · 22 · 25 88 · 33
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p55 (traced).json](1994%20-%20R2K%20-%20Manual%20p55%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p55 (traced).dxf`).
+
+### Page 56
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 20–334 mm across, 4–409 mm up
+- **Outlines:** line 423 rings, 6,238 straight (12,748 mm) / 1,078 curved (1,482 mm); text 228 rings, 1,865 straight (1,855 mm) / 506 curved (674 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.0 @ (121.4, 310.7)
+- **Closed boxes:** 6; named: Hh
+- **Words (OCR):** 2 in 2 lines: Hh · 01
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p56 (traced).json](1994%20-%20R2K%20-%20Manual%20p56%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p56 (traced).dxf`).
+
+### Page 57
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 17–334 mm across, 4–421 mm up
+- **Outlines:** line 1,047 rings, 13,653 straight (22,772 mm) / 2,779 curved (3,463 mm); text 293 rings, 1,964 straight (1,843 mm) / 668 curved (844 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 0.9 @ (160.6, 25.3)
+- **Closed boxes:** 22; named: {00; RX ?7 00
+- **Dots (junctions):** 1
+- **Words (OCR):** 12 in 12 lines: 88 · 98 · 58 · 93 · 98 · I41 · 23 · 82 · {00 · RX ?7 · 00 · 6 2
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p57 (traced).json](1994%20-%20R2K%20-%20Manual%20p57%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p57 (traced).dxf`).
+
+### Page 58
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 17–334 mm across, 4–430 mm up
+- **Outlines:** line 926 rings, 14,011 straight (21,518 mm) / 2,747 curved (3,321 mm); text 380 rings, 2,555 straight (2,384 mm) / 806 curved (992 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.0 @ (196.4, 109.7), r 0.9 @ (87.4, 52.2), r 0.9 @ (119.0, 236.7)
+- **Closed boxes:** 24; named: GND VDD 22222822 eerreeez; GNC VDD VDO ONL 222273 @ze
+- **Dots (junctions):** 2
+- **Words (OCR):** 21 in 21 lines: 2 2 · 21~ · VDD · GND · 22222822 eerreeez · VDD · GNC · VDO · ONL · 222273 @ze · 22 · 22
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p58 (traced).json](1994%20-%20R2K%20-%20Manual%20p58%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p58 (traced).dxf`).
+
+### Page 59
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 17–334 mm across, 1–421 mm up
+- **Outlines:** line 459 rings, 8,485 straight (17,333 mm) / 1,289 curved (1,647 mm); text 303 rings, 2,056 straight (2,017 mm) / 762 curved (984 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.0 @ (260.9, 84.6)
+- **Closed boxes:** 26; named: 222223 VDD GND GND 22222822 28z2geee
+- **Dots (junctions):** 1
+- **Words (OCR):** 6 in 6 lines: 222223 · VDD · GND · GND · 22222822 28z2geee · 37
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p59 (traced).json](1994%20-%20R2K%20-%20Manual%20p59%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p59 (traced).dxf`).
+
+### Page 60
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 16–334 mm across, 4–420 mm up
+- **Outlines:** line 721 rings, 10,148 straight (17,904 mm) / 1,758 curved (2,195 mm); text 293 rings, 2,085 straight (2,014 mm) / 658 curved (864 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.1 @ (50.2, 314.8), r 0.9 @ (180.5, 224.6)
+- **Closed boxes:** 14; named: Z2; 59383959993 222 88
+- **Words (OCR):** 6 in 6 lines: 8/3 · Z2 · 1a · 59383959993 · 222 · 88
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p60 (traced).json](1994%20-%20R2K%20-%20Manual%20p60%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p60 (traced).dxf`).
+
+### Page 61
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–295 mm across, 37–390 mm up
+- **Outlines:** line 144 rings, 1,946 straight (3,820 mm) / 262 curved (436 mm); text 3,274 rings, 23,437 straight (25,765 mm) / 7,408 curved (10,588 mm); tb 18 rings, 147 straight (247 mm) / 25 curved (37.9 mm)
+- **Circles and arcs:** 16 circles, 0 arcs; largest r 4.6 @ (283.6, 125.5), r 3.7 @ (267.4, 96.6), r 3.5 @ (283.6, 125.5), r 3.3 @ (276.1, 384.6)
+- **Closed boxes:** 10
+- **Dots (junctions):** 1
+- **Words (OCR):** 102 in 80 lines: R2O6A · WBS · R206 · UTILITY MODULE · The R2O6A Utility Module serves as · 'catchall" module for various console · RECALL · functions_ · It houses the drive amplifiers for the console headset, cue speaker, timer · driver and controls, and system settings recall: The R2OBA also contains the · RS422/4
+- **Title block:** (32, 314)–(277, 396) mm: R2O6A · WBS · UTILITY MODULE · The R2O6A Utility Module serves as · 'catchall" module for various console · RECALL · functions_ · It houses the drive amplifiers for the console headset, cue speaker, t
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p61 (traced).json](1994%20-%20R2K%20-%20Manual%20p61%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p61 (traced).dxf`).
+
+### Page 62
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 38–334 mm across, 18–389 mm up
+- **Outlines:** line 8 rings, 25 straight (19.1 mm) / 5 curved (6.6 mm); text 2,792 rings, 20,059 straight (21,997 mm) / 6,364 curved (8,985 mm)
+- **Words (OCR):** 51 in 44 lines: PROGRAMMABLE CONFIGURATION RECALL FUNCTION · The programmable configuration recall function allows for system settings to be saved and recalled with the · push of a button. · There are four buttons on the front panel which allow for four system settings to be saved · and restored. · Saving the Syste
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p62 (traced).json](1994%20-%20R2K%20-%20Manual%20p62%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p62 (traced).dxf`).
+
+### Page 63
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 48–288 mm across, 36–391 mm up
+- **Outlines:** line 1,502 rings, 16,952 straight (33,689 mm) / 2,226 curved (3,159 mm); text 557 rings, 4,288 straight (4,867 mm) / 1,023 curved (1,454 mm)
+- **Circles and arcs:** 30 circles, 0 arcs; largest r 3.7 @ (249.0, 174.1), r 3.6 @ (88.6, 174.9), r 1.6 @ (159.4, 230.4), r 1.5 @ (159.5, 224.5)
+- **Closed boxes:** 242; named: Hi HH E5 22 Ji FE 32 23 33 E5 22 8e 87 H; 22; E5; E5 Ji; HH; Hi; 22; Hu; 23; FE; 32 E5; 8e
+- **Dots (junctions):** 1
+- **Words (OCR):** 18 in 15 lines: 59 · 24 · 04 · 28 · HH · Hi · E5 · 22 · Ji · FE 32 · 23 E5 8e · 22
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p63 (traced).json](1994%20-%20R2K%20-%20Manual%20p63%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p63 (traced).dxf`).
+
+### Page 64
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 35–333 mm across, 2–425 mm up
+- **Outlines:** line 719 rings, 12,635 straight (23,032 mm) / 2,396 curved (3,137 mm); text 681 rings, 4,664 straight (4,623 mm) / 1,478 curved (2,018 mm)
+- **Closed boxes:** 47; named: 97; 84]; 36 8943
+- **Words (OCR):** 35 in 34 lines: 97 · 2<8 · F"0 · 484 · 70/ · 92 · 222 · 6+3 · 84] · 8+3 · 228 · He
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p64 (traced).json](1994%20-%20R2K%20-%20Manual%20p64%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p64 (traced).dxf`).
+
+### Page 65
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 34–334 mm across, 2–425 mm up
+- **Outlines:** line 714 rings, 11,962 straight (21,015 mm) / 2,079 curved (2,742 mm); text 395 rings, 2,796 straight (2,766 mm) / 876 curved (1,143 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.0 @ (214.3, 329.3), r 1.0 @ (208.7, 401.8), r 1.0 @ (203.1, 331.6)
+- **Closed boxes:** 45; named: I7; 348282; @ 0 0 @ 0; 8 8 Le 224229e8; 223 4e
+- **Words (OCR):** 19 in 18 lines: @pppa I7 · Id · 838 · 348282 · 8 9 · @ 0 0 @ 0 · 8 8 · 228 · Le · 224229e8 · 28 · 8 3
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p65 (traced).json](1994%20-%20R2K%20-%20Manual%20p65%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p65 (traced).dxf`).
+
+### Page 66
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 26–334 mm across, 4–425 mm up
+- **Outlines:** line 1,047 rings, 15,336 straight (25,266 mm) / 2,938 curved (3,763 mm); text 459 rings, 3,430 straight (3,380 mm) / 1,075 curved (1,454 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.0 @ (149.9, 242.5)
+- **Closed boxes:** 75; named: Ii; 33333 44; 4534 p21 p21 3988 Ead; Igt; 238p2
+- **Words (OCR):** 31 in 31 lines: Ii · 81 · 988 · Xi · EzJ · 58& · +82J · Mm · 33333 · 4534 · 44 · p21
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p66 (traced).json](1994%20-%20R2K%20-%20Manual%20p66%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p66 (traced).dxf`).
+
+### Page 67
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 38–334 mm across, 3–429 mm up
+- **Outlines:** line 418 rings, 6,810 straight (13,724 mm) / 1,203 curved (1,600 mm); text 332 rings, 2,291 straight (2,266 mm) / 736 curved (972 mm)
+- **Closed boxes:** 48; named: IFi
+- **Words (OCR):** 12 in 10 lines: IFi · 22 2g · 8+L#N · #LO · zjaja · 2|de · E/8 · Xlx · 222 82 · 331
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p67 (traced).json](1994%20-%20R2K%20-%20Manual%20p67%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p67 (traced).dxf`).
+
+### Page 68
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–334 mm across, 3–392 mm up
+- **Outlines:** line 39 rings, 1,241 straight (912 mm) / 92 curved (97.1 mm); text 36 rings, 476 straight (794 mm) / 84 curved (183 mm)
+- **Words (OCR):** 4 in 4 lines: WES · SECTION 7 · R208 · EQUALIZER MODULE
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p68 (traced).json](1994%20-%20R2K%20-%20Manual%20p68%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p68 (traced).dxf`).
+
+### Page 69
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–334 mm across, 4–431 mm up
+- **Outlines:** line 382 rings, 2,992 straight (4,617 mm) / 620 curved (862 mm); text 527 rings, 3,872 straight (4,515 mm) / 1,085 curved (1,596 mm)
+- **Circles and arcs:** 19 circles, 0 arcs; largest r 3.8 @ (283.9, 322.3), r 3.8 @ (282.2, 126.6), r 3.8 @ (284.2, 341.5), r 3.8 @ (283.7, 303.4)
+- **Dots (junctions):** 2
+- **Words (OCR):** 18 in 17 lines: R208 · WBS · R2o8 · EQUALIZER MODULE · The R2o8 equalizer module provides four independent stereo three band · equalizers in a single module strip. The equalizers may be wired into the · insert point of any of the input modules by installing the appropriate · jumpers on the motherboard. · The boost 
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p69 (traced).json](1994%20-%20R2K%20-%20Manual%20p69%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p69 (traced).dxf`).
+
+### Page 70
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 46–334 mm across, 40–393 mm up
+- **Outlines:** line 1,098 rings, 13,524 straight (29,606 mm) / 1,478 curved (2,123 mm); text 293 rings, 2,237 straight (2,651 mm) / 526 curved (811 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 3.7 @ (243.3, 154.2), r 3.6 @ (84.6, 154.8), r 1.5 @ (211.2, 216.5), r 1.5 @ (128.1, 212.4)
+- **Closed boxes:** 183; named: e28 3443 22 2/2 Ii 2/2; e28; 2/2; 22; 3443; Ii
+- **Dots (junctions):** 1
+- **Words (OCR):** 7 in 7 lines: 28 · e28 · 3443 · 2/2 · 22 · Ii · 2/2
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p70 (traced).json](1994%20-%20R2K%20-%20Manual%20p70%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p70 (traced).dxf`).
+
+### Page 71
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 18–334 mm across, 8–411 mm up
+- **Outlines:** line 878 rings, 11,249 straight (19,895 mm) / 1,758 curved (2,145 mm); text 163 rings, 1,083 straight (1,018 mm) / 320 curved (406 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 0.9 @ (63.4, 87.9)
+- **Closed boxes:** 7
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p71 (traced).json](1994%20-%20R2K%20-%20Manual%20p71%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p71 (traced).dxf`).
+
+### Page 72
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–334 mm across, 5–391 mm up
+- **Outlines:** line 37 rings, 1,262 straight (927 mm) / 78 curved (77.4 mm); text 47 rings, 668 straight (1,032 mm) / 106 curved (208 mm)
+- **Words (OCR):** 4 in 4 lines: WBS · SECTION 8 · R2O9 & R2OQA · CLEAN FEED MODULES
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p72 (traced).json](1994%20-%20R2K%20-%20Manual%20p72%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p72 (traced).dxf`).
+
+### Page 73
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 30–334 mm across, 2–389 mm up
+- **Outlines:** line 118 rings, 1,518 straight (3,290 mm) / 216 curved (346 mm); text 489 rings, 3,704 straight (4,276 mm) / 1,112 curved (1,584 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 3.4 @ (277.3, 383.0), r 3.2 @ (276.3, 41.0), r 2.6 @ (277.3, 368.4), r 2.5 @ (276.3, 78.5)
+- **Words (OCR):** 22 in 22 lines: R2og · WBS · R20g · CLEAN FEED MODULE · The R20g Clean Feed Module can provide mix minus sends to feed up to · six telephone hybrids_ · Front panel pushbuttons allow assignment of Mono · MIX · Mix 1, Mono Mix 2 or both to any of the six send outputs_ · MiX 2 · The return signal from any or all hybri
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p73 (traced).json](1994%20-%20R2K%20-%20Manual%20p73%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p73 (traced).dxf`).
+
+### Page 74
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 48–287 mm across, 37–390 mm up
+- **Outlines:** line 1,316 rings, 15,697 straight (32,195 mm) / 1,814 curved (2,537 mm); text 353 rings, 2,816 straight (3,386 mm) / 608 curved (892 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 3.7 @ (248.5, 174.1), r 3.6 @ (88.9, 174.7), r 1.5 @ (269.3, 114.3), r 1.5 @ (148.3, 316.1)
+- **Closed boxes:** 241; named: 58 Ji I8; 58 Ji; I8
+- **Dots (junctions):** 2
+- **Words (OCR):** 4 in 4 lines: F23 · 58 · Ji · I8
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p74 (traced).json](1994%20-%20R2K%20-%20Manual%20p74%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p74 (traced).dxf`).
+
+### Page 75
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 28–334 mm across, 3–412 mm up
+- **Outlines:** line 341 rings, 7,512 straight (17,754 mm) / 922 curved (1,235 mm); text 189 rings, 1,510 straight (1,495 mm) / 414 curved (532 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.6 @ (290.2, 370.4)
+- **Closed boxes:** 86; named: 23; 00
+- **Words (OCR):** 7 in 4 lines: Ji · li Hl 23 · 00 · 2 1 02
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p75 (traced).json](1994%20-%20R2K%20-%20Manual%20p75%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p75 (traced).dxf`).
+
+### Page 76
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 45–334 mm across, 7–410 mm up
+- **Outlines:** line 938 rings, 10,831 straight (17,788 mm) / 2,362 curved (2,927 mm); text 176 rings, 1,144 straight (1,032 mm) / 343 curved (426 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 1.1 @ (91.9, 286.5), r 1.1 @ (197.6, 285.9), r 0.9 @ (121.1, 108.7), r 0.9 @ (142.7, 37.2)
+- **Closed boxes:** 5
+- **Words (OCR):** 5 in 5 lines: 38 · JF · al · a 3 · 38
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p76 (traced).json](1994%20-%20R2K%20-%20Manual%20p76%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p76 (traced).dxf`).
+
+### Page 77
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 28–334 mm across, 7–411 mm up
+- **Outlines:** line 1,271 rings, 15,247 straight (26,662 mm) / 3,010 curved (3,772 mm); text 166 rings, 977 straight (912 mm) / 369 curved (489 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 1.0 @ (98.6, 400.1), r 0.9 @ (122.4, 105.9), r 0.9 @ (118.1, 296.8), r 0.9 @ (83.6, 406.6)
+- **Closed boxes:** 80
+- **Words (OCR):** 8 in 8 lines: g5 · 98 · 58 · 58 · 11141 · 53 · 58 · 58
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p77 (traced).json](1994%20-%20R2K%20-%20Manual%20p77%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p77 (traced).dxf`).
+
+### Page 78
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 38–334 mm across, 12–391 mm up
+- **Outlines:** line 232 rings, 3,003 straight (6,680 mm) / 311 curved (481 mm); text 1,978 rings, 14,374 straight (15,811 mm) / 4,363 curved (6,174 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 3.2 @ (274.3, 384.8), r 3.2 @ (273.4, 43.3), r 2.6 @ (274.3, 370.2), r 2.6 @ (273.5, 80.7)
+- **Closed boxes:** 42; named: CHANNEL DISABLE CHANNEL2 DISABLE CHANNEL; CHANNEL DISABLE; CHANNEL2 DISABLE; CHANNEL3 DISABLE; CHANNEL4 DISABLE; CHANNELS DISABLE; CHANNEL ! DISABLE
+- **Words (OCR):** 64 in 62 lines: R2O9A · WBS · R20g · CLEAN FEED MODULE · CHANNEL · The RZOgA Clean Feed Module can provide mix minus sends to feed up to · six telephone hybrids_ · Front panel pushbuttons allow assignment of Mono · Mix 1, Mono Mix 2 or both to any of the six send outputs _ · Each channel · has a talkback and an inp
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p78 (traced).json](1994%20-%20R2K%20-%20Manual%20p78%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p78 (traced).dxf`).
+
+### Page 79
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 44–334 mm across, 37–391 mm up
+- **Outlines:** line 1,598 rings, 17,731 straight (34,711 mm) / 2,337 curved (3,289 mm); text 355 rings, 2,566 straight (2,822 mm) / 688 curved (967 mm)
+- **Circles and arcs:** 20 circles, 0 arcs; largest r 3.7 @ (245.6, 331.8), r 3.6 @ (250.2, 174.6), r 3.6 @ (245.7, 351.9), r 3.6 @ (89.9, 175.4)
+- **Closed boxes:** 226; named: Ji elela 3/5; Ji; elela; 3/5
+- **Words (OCR):** 4 in 4 lines: 48 · Ji · elela · 3/5
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p79 (traced).json](1994%20-%20R2K%20-%20Manual%20p79%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p79 (traced).dxf`).
+
+### Page 80
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–334 mm across, 0–395 mm up
+- **Outlines:** line 31 rings, 1,031 straight (841 mm) / 72 curved (79.2 mm); text 41 rings, 525 straight (867 mm) / 115 curved (263 mm)
+- **Words (OCR):** 4 in 4 lines: WBS · SECTION 9 · R210 · STUDIO MONITOR MODULE
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p80 (traced).json](1994%20-%20R2K%20-%20Manual%20p80%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p80 (traced).dxf`).
+
+### Page 81
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 29–333 mm across, 36–390 mm up
+- **Outlines:** line 157 rings, 2,360 straight (5,181 mm) / 230 curved (342 mm); text 2,179 rings, 15,896 straight (17,715 mm) / 4,855 curved (6,967 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 3.1 @ (273.8, 383.7), r 3.0 @ (272.2, 65.9), r 2.3 @ (267.6, 370.2), r 2.3 @ (279.8, 370.1)
+- **Closed boxes:** 25
+- **Dots (junctions):** 1
+- **Words (OCR):** 55 in 47 lines: R21O · WBS · R204 · STUDIO MONITOR MODULE · The R210 module provides studio monitoring and talkback from the console to · six locations · This module is equipped with a four input switcher that is used · MONITOR · to select the program to be fed to the six locations. · The six momentary · talkback p
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p81 (traced).json](1994%20-%20R2K%20-%20Manual%20p81%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p81 (traced).dxf`).
+
+### Page 82
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–333 mm across, 6–378 mm up
+- **Outlines:** line 1,144 rings, 13,899 straight (30,470 mm) / 1,598 curved (2,236 mm); text 318 rings, 2,667 straight (3,088 mm) / 569 curved (844 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 3.5 @ (229.5, 166.0), r 3.4 @ (77.3, 166.5), r 1.5 @ (197.7, 227.6), r 1.5 @ (223.9, 227.3)
+- **Closed boxes:** 246; named: 98; 53; 2/5/5; 33; 2/5/5; 2/5/5; 9/5/5
+- **Dots (junctions):** 1
+- **Words (OCR):** 8 in 6 lines: 55 · 53 · 98 · 33 · 2/5/5 2/5/5 · 2/5/5 9/5/5
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p82 (traced).json](1994%20-%20R2K%20-%20Manual%20p82%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p82 (traced).dxf`).
+
+### Page 83
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 32–334 mm across, 8–411 mm up
+- **Outlines:** line 532 rings, 10,022 straight (21,964 mm) / 1,506 curved (2,036 mm); text 307 rings, 2,651 straight (2,658 mm) / 766 curved (1,012 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.2 @ (159.0, 35.8), r 1.2 @ (105.0, 351.7), r 1.2 @ (75.1, 351.9)
+- **Closed boxes:** 26; named: 8ef
+- **Dots (junctions):** 1
+- **Words (OCR):** 7 in 5 lines: 66 66 64 · 8ef · 22222p · 58 · 52 52 52
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p83 (traced).json](1994%20-%20R2K%20-%20Manual%20p83%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p83 (traced).dxf`).
+
+### Page 84
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 33–334 mm across, 0–410 mm up
+- **Outlines:** line 687 rings, 8,642 straight (17,184 mm) / 1,509 curved (1,931 mm); text 313 rings, 1,920 straight (1,841 mm) / 637 curved (820 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.6 @ (280.7, 360.0), r 0.9 @ (137.5, 275.2), r 0.9 @ (123.0, 79.1)
+- **Closed boxes:** 78; named: {700 8N R2; 85 87 RN; 4o0 8R; Rx Pf Rr {to0; 83; 87 7 00; Rx 87 R7
+- **Dots (junctions):** 1
+- **Words (OCR):** 18 in 13 lines: R2 · 8N · {700 · 85 87 RN · 8R · 4o0 · Rx Pf Rr {to0 · 41 · 83 · 87 7 00 · Rx 87 R7 · 8+18
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p84 (traced).json](1994%20-%20R2K%20-%20Manual%20p84%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p84 (traced).dxf`).
+
+### Page 85
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 34–334 mm across, 8–411 mm up
+- **Outlines:** line 747 rings, 8,169 straight (14,999 mm) / 1,691 curved (2,189 mm); text 177 rings, 1,148 straight (1,075 mm) / 373 curved (470 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.7 @ (282.7, 351.3), r 1.6 @ (282.7, 361.0), r 1.1 @ (243.0, 319.4)
+- **Closed boxes:** 31; named: Nv
+- **Words (OCR):** 5 in 5 lines: 08 87 · 38 · 38 · Nv · 28
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p85 (traced).json](1994%20-%20R2K%20-%20Manual%20p85%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p85 (traced).dxf`).
+
+### Page 86
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 33–334 mm across, 4–410 mm up
+- **Outlines:** line 910 rings, 10,807 straight (19,695 mm) / 2,189 curved (2,770 mm); text 319 rings, 1,941 straight (1,810 mm) / 637 curved (817 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 1.1 @ (88.7, 341.9), r 1.1 @ (232.9, 340.7), r 1.1 @ (202.8, 341.3), r 0.9 @ (99.6, 347.6)
+- **Closed boxes:** 67; named: 2l; Hi; 53 38; {7o0; R* 87 87; Eoo; 0 U MOESO OHBL
+- **Words (OCR):** 13 in 13 lines: Hi · 53 38 · 2l · 58 · 29 · 29 · 38 · {7o0 · R* 87 87 · Eoo · 0 U · MOESO OHBL
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p86 (traced).json](1994%20-%20R2K%20-%20Manual%20p86%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p86 (traced).dxf`).
+
+### Page 87
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 34–334 mm across, 4–410 mm up
+- **Outlines:** line 993 rings, 13,664 straight (27,156 mm) / 2,380 curved (3,116 mm); text 351 rings, 2,089 straight (1,842 mm) / 670 curved (840 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.5 @ (290.6, 331.8), r 0.9 @ (107.5, 69.0)
+- **Closed boxes:** 83; named: Eo8a; a8 Eod3; 68838868   %8 6o33; 0 WL; 222273 VDO SNO GND; 2-N23
+- **Dots (junctions):** 1
+- **Words (OCR):** 19 in 18 lines: XX · E8 · a8 68838868   %8 · 0 WL · Eo8a · Eod3 · 6o33 · 222273 · 8 2 · VDO · SNO · JF >
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p87 (traced).json](1994%20-%20R2K%20-%20Manual%20p87%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p87 (traced).dxf`).
+
+### Page 88
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 33–334 mm across, 9–411 mm up
+- **Outlines:** line 661 rings, 8,713 straight (18,140 mm) / 1,504 curved (1,959 mm); text 75 rings, 582 straight (636 mm) / 175 curved (256 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.4 @ (277.4, 371.4), r 0.9 @ (80.5, 275.1)
+- **Closed boxes:** 50; named: 2l; DI; 22-
+- **Words (OCR):** 4 in 4 lines: 00 · 2l · DI · 22-
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p88 (traced).json](1994%20-%20R2K%20-%20Manual%20p88%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p88 (traced).dxf`).
+
+### Page 89
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–334 mm across, 2–426 mm up
+- **Outlines:** line 45 rings, 1,041 straight (885 mm) / 63 curved (71.2 mm); text 36 rings, 515 straight (797 mm) / 109 curved (204 mm)
+- **Words (OCR):** 4 in 4 lines: WBS · SECTION 10 · RZK · CONSOLE DIAGRAMS
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p89 (traced).json](1994%20-%20R2K%20-%20Manual%20p89%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p89 (traced).dxf`).
+
+### Page 90
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 24–334 mm across, 0–404 mm up
+- **Outlines:** line 795 rings, 8,190 straight (13,980 mm) / 1,296 curved (1,682 mm); text 157 rings, 1,237 straight (1,259 mm) / 382 curved (505 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.3 @ (250.2, 123.7), r 1.1 @ (199.3, 151.2), r 1.0 @ (212.1, 151.2)
+- **Closed boxes:** 12; named: Iua
+- **Words (OCR):** 2 in 2 lines: Iua · 17
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p90 (traced).json](1994%20-%20R2K%20-%20Manual%20p90%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p90 (traced).dxf`).
+
+### Page 91
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 22–334 mm across, 4–426 mm up
+- **Outlines:** line 837 rings, 7,899 straight (14,984 mm) / 1,253 curved (1,672 mm); text 250 rings, 1,961 straight (1,992 mm) / 571 curved (769 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.6 @ (250.9, 359.4)
+- **Closed boxes:** 11
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p91 (traced).json](1994%20-%20R2K%20-%20Manual%20p91%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p91 (traced).dxf`).
+
+### Page 92
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 24–334 mm across, 4–430 mm up
+- **Outlines:** line 1,185 rings, 11,266 straight (16,744 mm) / 2,203 curved (2,789 mm); text 439 rings, 2,923 straight (2,607 mm) / 966 curved (1,196 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 0.9 @ (126.5, 140.2)
+- **Closed boxes:** 13; named: Ji Ji Ji; Ji; Ji Ji
+- **Words (OCR):** 6 in 5 lines: Ji · Ji Ji · Ji · Ji · Ji
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p92 (traced).json](1994%20-%20R2K%20-%20Manual%20p92%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p92 (traced).dxf`).
+
+### Page 93
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 23–334 mm across, 2–419 mm up
+- **Outlines:** line 122 rings, 2,233 straight (6,050 mm) / 169 curved (244 mm); text 109 rings, 1,101 straight (1,385 mm) / 273 curved (419 mm)
+- **Closed boxes:** 5
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p93 (traced).json](1994%20-%20R2K%20-%20Manual%20p93%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p93 (traced).dxf`).
+
+### Page 94
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 32–334 mm across, 9–411 mm up
+- **Outlines:** line 1,261 rings, 12,362 straight (18,718 mm) / 2,167 curved (3,096 mm); text 386 rings, 3,002 straight (3,219 mm) / 953 curved (1,322 mm)
+- **Circles and arcs:** 13 circles, 0 arcs; largest r 5.6 @ (139.7, 31.1), r 5.6 @ (139.5, 57.9), r 5.6 @ (112.0, 31.7), r 5.6 @ (153.4, 44.4)
+- **Closed boxes:** 41
+- **Words (OCR):** 9 in 9 lines: sissvhj · le · 3557J · Je # · Jel E · DNSO · Dr · 83 · Ze
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p94 (traced).json](1994%20-%20R2K%20-%20Manual%20p94%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p94 (traced).dxf`).
+
+### Page 95
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 15–334 mm across, 5–400 mm up
+- **Outlines:** line 1,182 rings, 10,226 straight (16,530 mm) / 1,809 curved (2,380 mm); text 250 rings, 1,971 straight (2,143 mm) / 554 curved (790 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 1.6 @ (66.3, 214.7), r 1.6 @ (193.5, 38.1), r 1.6 @ (249.5, 163.8), r 1.0 @ (176.5, 85.8)
+- **Closed boxes:** 52; named: Iu Hp
+- **Dots (junctions):** 1
+- **Words (OCR):** 3 in 3 lines: Iu · Hp · be
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p95 (traced).json](1994%20-%20R2K%20-%20Manual%20p95%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p95 (traced).dxf`).
+
+### Page 96
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 24–334 mm across, 11–414 mm up
+- **Outlines:** line 886 rings, 9,824 straight (19,448 mm) / 1,332 curved (1,826 mm); text 135 rings, 1,119 straight (1,138 mm) / 335 curved (459 mm)
+- **Closed boxes:** 110; named: Ie
+- **Dots (junctions):** 2
+- **Words (OCR):** 2 in 2 lines: Ie · 05
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p96 (traced).json](1994%20-%20R2K%20-%20Manual%20p96%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p96 (traced).dxf`).
+
+### Page 97
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 34–334 mm across, 4–424 mm up
+- **Outlines:** line 553 rings, 5,291 straight (10,491 mm) / 973 curved (1,560 mm); text 138 rings, 1,041 straight (1,034 mm) / 322 curved (417 mm)
+- **Circles and arcs:** 18 circles, 0 arcs; largest r 5.5 @ (157.9, 121.9), r 5.5 @ (130.7, 121.9), r 5.5 @ (157.7, 108.8), r 5.5 @ (171.3, 108.9)
+- **Closed boxes:** 31
+- **Words (OCR):** 3 in 3 lines: H6 · 2l · 83
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p97 (traced).json](1994%20-%20R2K%20-%20Manual%20p97%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p97 (traced).dxf`).
+
+### Page 98
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 35–334 mm across, 5–398 mm up
+- **Outlines:** line 781 rings, 8,318 straight (13,760 mm) / 1,325 curved (1,635 mm); text 317 rings, 2,400 straight (2,694 mm) / 644 curved (920 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 1.6 @ (57.2, 282.0), r 1.6 @ (235.2, 245.5), r 1.6 @ (255.5, 245.6), r 1.6 @ (55.5, 215.1)
+- **Closed boxes:** 72; named: 24
+- **Words (OCR):** 3 in 3 lines: 24 · Vt · TTT
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p98 (traced).json](1994%20-%20R2K%20-%20Manual%20p98%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p98 (traced).dxf`).
+
+### Page 99
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 24–334 mm across, 3–389 mm up
+- **Outlines:** line 1,211 rings, 14,108 straight (23,372 mm) / 2,069 curved (2,495 mm); text 275 rings, 2,158 straight (2,375 mm) / 607 curved (869 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 1.6 @ (212.5, 301.7), r 1.6 @ (226.4, 134.2), r 1.0 @ (154.7, 275.0), r 1.0 @ (54.2, 273.7)
+- **Closed boxes:** 165
+- **Dots (junctions):** 3
+- **Words (OCR):** 7 in 7 lines: Hl · 88 · Tq · 43 < · 28 · 43 · 37
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p99 (traced).json](1994%20-%20R2K%20-%20Manual%20p99%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p99 (traced).dxf`).
+
+### Page 100
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 36–334 mm across, 12–400 mm up
+- **Outlines:** line 1,753 rings, 15,499 straight (25,290 mm) / 3,010 curved (3,493 mm); text 237 rings, 1,641 straight (1,721 mm) / 481 curved (622 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 1.6 @ (203.0, 293.7), r 1.6 @ (234.1, 303.4), r 1.6 @ (239.3, 293.7), r 1.6 @ (198.2, 257.9)
+- **Closed boxes:** 34; named: 81; 023; 2222P8
+- **Dots (junctions):** 2
+- **Words (OCR):** 10 in 10 lines: 81 · 25] · 28 0 & & & · 8 2 · 14 · 101 · CT · 12 · 2222P8 · 023
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p100 (traced).json](1994%20-%20R2K%20-%20Manual%20p100%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p100 (traced).dxf`).
+
+### Page 101
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 20–334 mm across, 2–424 mm up
+- **Outlines:** line 980 rings, 14,313 straight (26,069 mm) / 2,133 curved (2,695 mm); text 166 rings, 1,052 straight (954 mm) / 338 curved (421 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.1 @ (147.3, 315.3), r 1.0 @ (135.3, 279.1)
+- **Closed boxes:** 103; named: 08; <000u403; CNG VCD; 88288888
+- **Dots (junctions):** 1
+- **Words (OCR):** 6 in 6 lines: <000u403 · 08 · 24 · VCD · CNG · 88288888
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p101 (traced).json](1994%20-%20R2K%20-%20Manual%20p101%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p101 (traced).dxf`).
+
+### Page 102
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 24–334 mm across, 4–396 mm up
+- **Outlines:** line 279 rings, 4,183 straight (8,379 mm) / 644 curved (829 mm); text 53 rings, 460 straight (474 mm) / 150 curved (206 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 0.8 @ (85.0, 267.1)
+- **Closed boxes:** 9
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p102 (traced).json](1994%20-%20R2K%20-%20Manual%20p102%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p102 (traced).dxf`).
+
+### Page 103
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 22–334 mm across, 3–414 mm up
+- **Outlines:** line 456 rings, 9,263 straight (21,527 mm) / 1,216 curved (1,636 mm); text 52 rings, 400 straight (409 mm) / 158 curved (209 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.6 @ (248.0, 366.6)
+- **Closed boxes:** 81; named: di
+- **Dots (junctions):** 3
+- **Words (OCR):** 1 in 1 lines: di
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p103 (traced).json](1994%20-%20R2K%20-%20Manual%20p103%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p103 (traced).dxf`).
+
+### Page 104
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–334 mm across, 16–414 mm up
+- **Outlines:** line 32 rings, 1,169 straight (908 mm) / 71 curved (71.4 mm); text 17 rings, 271 straight (425 mm) / 47 curved (101 mm)
+- **Words (OCR):** 4 in 3 lines: WBS · SECTION 11 · TURRET
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p104 (traced).json](1994%20-%20R2K%20-%20Manual%20p104%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p104 (traced).dxf`).
+
+### Page 105
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 56–334 mm across, 4–421 mm up
+- **Outlines:** line 30 rings, 101 straight (81.7 mm) / 26 curved (27.9 mm); text 1,077 rings, 8,828 straight (10,323 mm) / 2,564 curved (4,012 mm)
+- **Words (OCR):** 20 in 19 lines: R257 TURRET · The R257 Studio Turret is designed to provide the following functions from · studio or a location away from the control room where the console is located: · external control of the channel ONIOFF of an input module · provide talkback control from the studio to the control room by activ
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p105 (traced).json](1994%20-%20R2K%20-%20Manual%20p105%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p105 (traced).dxf`).
+
+### Page 106
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 59–334 mm across, 8–391 mm up
+- **Outlines:** line 74 rings, 3,127 straight (9,411 mm) / 188 curved (300 mm); text 829 rings, 7,061 straight (8,748 mm) / 1,851 curved (2,938 mm)
+- **Closed boxes:** 69; named: Binary Position Decimal Function Address; Position No_; Function; Decimal Address; Binary Address; Input or 8x2 Selector Module; 1 0 0 0 0; 16; Input or 8x2 Selector Module; 17; 1 0 0 0 1; Input Module
+- **Words (OCR):** 67 in 61 lines: PROGRAMMING THE R257 TURRET · Each module (channel) slot in an RZK audio console has its' unique binary coded · address. The channel slots are coded (from left to right) as follows: · MODULE SLOT ADDRESS FOR R2KI12 · Position Function · Decimal · Binary · Address Address · No_ · Input or 8x2 Selecto
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p106 (traced).json](1994%20-%20R2K%20-%20Manual%20p106%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p106 (traced).dxf`).
+
+### Page 107
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 56–333 mm across, 53–391 mm up
+- **Outlines:** line 105 rings, 4,554 straight (13,661 mm) / 259 curved (409 mm); text 889 rings, 7,359 straight (9,158 mm) / 1,927 curved (3,129 mm)
+- **Closed boxes:** 100; named: Function; Binary Address; Position No.; Decimal Address; Input or 8x2 Selector Module; 0 1 0 0 0; Input or 8x2 Selector Module; 0 1 0 0 1; Input Module; 10; 0 1 0 1 0; Input Module
+- **Words (OCR):** 93 in 91 lines: MODULE SLOT ADDRESS FOR R2KI2O · Position · Function · Decimal · Binary · No. · Address · Address · Input or 8x2 Selector Module · 0 1 0 0 0 · Input or 8x2 Selector Module · 0 1 0 0 1
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p107 (traced).json](1994%20-%20R2K%20-%20Manual%20p107%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p107 (traced).dxf`).
+
+### Page 108
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 58–332 mm across, 27–391 mm up
+- **Outlines:** line 114 rings, 4,607 straight (14,744 mm) / 266 curved (425 mm); text 917 rings, 7,416 straight (9,391 mm) / 1,916 curved (3,154 mm)
+- **Closed boxes:** 107; named: Function; Position No.; Decimal Address; Binary Address; Input or 8x2 Selector Module; 0 0 0 0 0; Input or 8x2 Selector Module; 0 0 0 0 1; Input Module; 0 0 0 1 0; Input Module; 0 0 0 1 1
+- **Words (OCR):** 92 in 88 lines: MODULE SLOT ADDRESS FOR R2KI28 · Function · Position · Decimal Binary · No. · Address Address · Input or 8x2 Selector Module · 0 0 0 0 0 · Input or 8x2 Selector Module · 0 0 0 0 1 · Input Module · 0 0 0 1 0
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p108 (traced).json](1994%20-%20R2K%20-%20Manual%20p108%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p108 (traced).dxf`).
+
+### Page 109
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 31–302 mm across, 64–392 mm up
+- **Outlines:** line 63 rings, 2,130 straight (6,125 mm) / 136 curved (211 mm); text 1,561 rings, 12,861 straight (15,011 mm) / 3,753 curved (5,826 mm)
+- **Closed boxes:** 38; named: Input or 8x2 Selector Module 27 26 1 1 0; Input or 8x2 Selector Module; 27; 26; 1 1 0 1 0; Input or 8x2 Selector Module; 28; 27; 1 1 0 1 1; Program Master Module; 29; 28
+- **Words (OCR):** 75 in 62 lines: 27 · Input or 8x2 Selector Module 26 · 1 1 0 1 0 · 28 · Input or 8x2 Selector Module 27 · 1 1 0 1 1 · 29 · Program Master Module · 28 · 11 1 0 0 · 30 · Control Room Monitor
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p109 (traced).json](1994%20-%20R2K%20-%20Manual%20p109%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p109 (traced).dxf`).
+
+### Page 110
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 33–334 mm across, 6–408 mm up
+- **Outlines:** line 451 rings, 5,348 straight (11,892 mm) / 760 curved (1,048 mm); text 94 rings, 784 straight (836 mm) / 227 curved (321 mm)
+- **Closed boxes:** 10; named: 21
+- **Dots (junctions):** 2
+- **Words (OCR):** 1 in 1 lines: 21
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p110 (traced).json](1994%20-%20R2K%20-%20Manual%20p110%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p110 (traced).dxf`).
+
+### Page 111
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 32–334 mm across, 9–410 mm up
+- **Outlines:** line 762 rings, 12,048 straight (20,366 mm) / 2,217 curved (2,807 mm); text 240 rings, 1,466 straight (1,333 mm) / 523 curved (638 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 0.9 @ (214.8, 312.5)
+- **Closed boxes:** 44; named: Ie
+- **Dots (junctions):** 1
+- **Words (OCR):** 10 in 8 lines: Ie · 88 · 28 28 · 24 2 9 · 31 · 2 3 · 2 8 · 88
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p111 (traced).json](1994%20-%20R2K%20-%20Manual%20p111%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p111 (traced).dxf`).
+
+### Page 112
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 32–334 mm across, 9–410 mm up
+- **Outlines:** line 1,028 rings, 14,811 straight (27,697 mm) / 2,449 curved (3,160 mm); text 238 rings, 1,337 straight (1,183 mm) / 481 curved (593 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.1 @ (245.5, 52.4), r 1.1 @ (120.4, 339.2)
+- **Closed boxes:** 170; named: 312223 VDD GND CND 22222828 28222228; a I; "283228 2#F?; 68833363 6038
+- **Words (OCR):** 14 in 14 lines: 46 · 312223 · VDD · GND · CND · 22222828 28222228 · a I · ZAN · 28 · "283228 · 2#F? · 08
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p112 (traced).json](1994%20-%20R2K%20-%20Manual%20p112%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p112 (traced).dxf`).
+
+### Page 113
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 32–334 mm across, 5–410 mm up
+- **Outlines:** line 460 rings, 6,474 straight (14,126 mm) / 853 curved (1,126 mm); text 116 rings, 692 straight (682 mm) / 242 curved (326 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.1 @ (148.7, 86.3), r 1.1 @ (77.0, 212.0)
+- **Closed boxes:** 120; named: 84; OI; 82 OI; 933928; 33 Eo83; 33 60
+- **Dots (junctions):** 1
+- **Words (OCR):** 9 in 9 lines: 84 · OI · OI · 82 · 933928 · 33 · 60 · 33 · Eo83
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p113 (traced).json](1994%20-%20R2K%20-%20Manual%20p113%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p113 (traced).dxf`).
+
+### Page 114
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 31–334 mm across, 4–429 mm up
+- **Outlines:** line 570 rings, 8,049 straight (16,745 mm) / 1,248 curved (1,593 mm); text 167 rings, 1,079 straight (1,038 mm) / 367 curved (467 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 0.9 @ (67.6, 166.8)
+- **Closed boxes:** 35; named: 88
+- **Words (OCR):** 3 in 3 lines: 88 · 28 < · 42
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p114 (traced).json](1994%20-%20R2K%20-%20Manual%20p114%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p114 (traced).dxf`).
+
+### Page 115
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–293 mm across, 30–392 mm up
+- **Outlines:** line 1 rings, 4 straight (2.6 mm) / 0 curved (0.0 mm); text 2,474 rings, 20,349 straight (23,099 mm) / 5,944 curved (9,170 mm); tb 5 rings, 22 straight (16.8 mm) / 8 curved (9.0 mm)
+- **Words (OCR):** 46 in 39 lines: WARRANTY · AIl Ward-Beck Systems Ltd: products are warranted against defective materials · and workmanship for a period of one year from the date of shipment: · Ward-Beck Systems Ltd: will repair or replace, atits option and without charge , · all said products or · parts thereof which upon factory 
+- **Title block:** (45, 20)–(296, 386) mm: AIl Ward-Beck Systems Ltd: products are warranted against defective materials · and workmanship for a period of one year from the date of shipment: · Ward-Beck Systems Ltd: will repair or replace, ati
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p115 (traced).json](1994%20-%20R2K%20-%20Manual%20p115%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p115 (traced).dxf`).
+
+### Page 116
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–334 mm across, 6–422 mm up
+- **Outlines:** line 52 rings, 1,257 straight (934 mm) / 84 curved (86.8 mm); text 25 rings, 361 straight (582 mm) / 63 curved (120 mm)
+- **Words (OCR):** 3 in 3 lines: WBS · SECTION 12 · TORPEY CLOCK
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p116 (traced).json](1994%20-%20R2K%20-%20Manual%20p116%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p116 (traced).dxf`).
+
+### Page 117
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 47–334 mm across, 5–408 mm up
+- **Outlines:** line 378 rings, 3,664 straight (2,417 mm) / 746 curved (703 mm); text 499 rings, 4,036 straight (5,447 mm) / 1,110 curved (1,764 mm); tb 3 rings, 25 straight (26.2 mm) / 4 curved (4.8 mm)
+- **Words (OCR):** 22 in 16 lines: TORPEY TIME · CPU-ZBIDSP-17 (WBS) · REMOTE TIME DISPLAY · TECHNICAL INSTRUCTION MANUAL · First issue: Feb 15 1999 · Second Edition: Oct 12 999 · Third Edition; Dec. 999 · Fourth Edition: Oct 2001 · Fifth Edition: March 2003 · Torpey Controls & Engineering Limited · 98-2220 Midland Ave. · Scarborough
+- **Title block:** (81, 156)–(278, 241) mm: CPU-ZBIDSP-17 (WBS) · REMOTE TIME DISPLAY · TECHNICAL INSTRUCTION MANUAL · First issue: Feb 15 1999 · Second Edition: Oct 12 999 · Third Edition; Dec. 999
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p117 (traced).json](1994%20-%20R2K%20-%20Manual%20p117%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p117 (traced).dxf`).
+
+### Page 118
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–334 mm across, 4–419 mm up
+- **Outlines:** line 277 rings, 843 straight (1,127 mm) / 275 curved (273 mm); text 315 rings, 2,479 straight (3,067 mm) / 692 curved (1,066 mm)
+- **Words (OCR):** 12 in 12 lines: TORPEY MODEL CPU-7B-WBS Page · CONTENTS · This Technical manual contains: · Installation and Technical Description · 8 pages · Module Schematic · Drawing CPU-7B/2-1 · Display Schematic · Drawing DSP-17/2-1 · Warranty · 'PRODUCT WARRANTY' · TORPEY CONTROLS: THE 'GOOD TIME PEOPLE'
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p118 (traced).json](1994%20-%20R2K%20-%20Manual%20p118%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p118 (traced).dxf`).
+
+### Page 119
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 38–334 mm across, 6–419 mm up
+- **Outlines:** line 102 rings, 473 straight (846 mm) / 111 curved (121 mm); text 1,479 rings, 10,547 straight (12,235 mm) / 3,177 curved (4,666 mm); tb 4 rings, 24 straight (18.0 mm) / 6 curved (8.8 mm)
+- **Words (OCR):** 44 in 38 lines: TORPEY MODEL CPU-7B-WBS Page · INTRODUCTION · The CPU-7BIDSP-17WBS DIGITAL TIME DISPLAY is a versatile display that is designed to be mounted · in a control console. It is a 'slave' display of time data as delivered from a central Master Clock system: · On-board jumpers allow selection of different 
+- **Title block:** (130, 233)–(318, 429) mm: TORPEY MODEL CPU-7B-WBS Page · INTRODUCTION · The CPU-7BIDSP-17WBS DIGITAL TIME DISPLAY is a versatile display that is designed to be mounted · in a control console. It is a 'slave' display of time da
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p119 (traced).json](1994%20-%20R2K%20-%20Manual%20p119%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p119 (traced).dxf`).
+
+### Page 120
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 37–317 mm across, 17–419 mm up
+- **Outlines:** line 15 rings, 1,130 straight (3,212 mm) / 71 curved (118 mm); text 2,893 rings, 21,114 straight (24,455 mm) / 6,495 curved (9,561 mm); tb 8 rings, 67 straight (90.0 mm) / 11 curved (16.9 mm)
+- **Closed boxes:** 11 (9 in the title block); named: CODE; ESE TC76 ESE TC89 ESE TC9O DQS SMPTE NPR
+- **Words (OCR):** 91 in 80 lines: TORPEY MODEL CPU-7B-WBS · Page · ISTALLATION · PHYSICAL INSTALLATION · Referring to the enclosed mechanical drawing, mounting holes are provided to allow easy installation in · your console · A red acrylic bezel is recommended for the viewing window: · CQDE SELECTION · Since the CPU-7B is designed t
+- **Title block:** (47, 99)–(319, 429) mm: TORPEY MODEL CPU-7B-WBS · Page · ISTALLATION · PHYSICAL INSTALLATION · Referring to the enclosed mechanical drawing, mounting holes are provided to allow easy installation in · your console · A red ac
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p120 (traced).json](1994%20-%20R2K%20-%20Manual%20p120%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p120 (traced).dxf`).
+
+### Page 121
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 36–333 mm across, 4–420 mm up
+- **Outlines:** line 12 rings, 307 straight (773 mm) / 23 curved (28.6 mm); text 2,525 rings, 18,202 straight (20,705 mm) / 5,522 curved (8,112 mm)
+- **Words (OCR):** 60 in 46 lines: TORPEY MODEL CPU-7B-WBS Page · CIRCUIT DESCRIPTION · The CPU-7BIDSP-17 is made up of two circuit boards: a CPU-7B controller board and a DSP-17 display · board. Each type of board is described separately in the following pages. · 2.0 · CPU-7B CONTROLLER · Please refer to drawing CPU-7B/2-1 Schematic
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p121 (traced).json](1994%20-%20R2K%20-%20Manual%20p121%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p121 (traced).dxf`).
+
+### Page 122
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 35–334 mm across, 4–419 mm up
+- **Outlines:** line 81 rings, 531 straight (1,025 mm) / 104 curved (155 mm); text 2,079 rings, 15,158 straight (17,371 mm) / 4,575 curved (6,688 mm)
+- **Words (OCR):** 57 in 51 lines: TORPEY MODEL CPU-7B-WBS Page · 4.0 · DISPLAY MODES · The mode of operation is what decides what time value will appear on the display: You have a choice of · time zone offsets, including 30 minutes 12-hour or 24-hour formats are also available: · The mode of operation is controlled by selectively in
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p122 (traced).json](1994%20-%20R2K%20-%20Manual%20p122%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p122 (traced).dxf`).
+
+### Page 123
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 38–334 mm across, 0–420 mm up
+- **Outlines:** line 40 rings, 379 straight (826 mm) / 32 curved (34.7 mm); text 674 rings, 5,054 straight (6,006 mm) / 1,409 curved (2,109 mm)
+- **Words (OCR):** 14 in 10 lines: TORPEY MODEL CPU-7B-WBS Page · DSP-17 DISPLAY BOARD · ITRODUCTION · The DSP-17 is a remote timer display board intended for use with the CPU-7 controller board, The · display features 0.56 ins_ LEDs for hours, minutes and seconds display: · Please refer to the schematic labeled DSP-17 for connection
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p123 (traced).json](1994%20-%20R2K%20-%20Manual%20p123%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p123 (traced).dxf`).
+
+### Page 124
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 36–333 mm across, 17–419 mm up
+- **Outlines:** line 26 rings, 436 straight (892 mm) / 79 curved (115 mm); text 2,473 rings, 18,624 straight (21,741 mm) / 5,422 curved (7,919 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 3.3 @ (88.8, 239.9)
+- **Closed boxes:** 1
+- **Words (OCR):** 46 in 40 lines: TORPEY MODEL CPU-7B-WBS Page · ADDENDUM · SET-UP QE SOSS SYSTEM FOR NPR CQDE · In order for any Torpey Clock to operate on the National Public Radio system_ it must receive Time · Packets from the SOSS system, which is · communicating with NPR headquarters, and receiving this data (among · others) ·
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p124 (traced).json](1994%20-%20R2K%20-%20Manual%20p124%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p124 (traced).dxf`).
+
+### Page 125
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–323 mm across, 8–426 mm up
+- **Outlines:** line 81 rings, 1,157 straight (1,425 mm) / 247 curved (323 mm); text 2,870 rings, 25,332 straight (25,030 mm) / 7,637 curved (10,393 mm)
+- **Words (OCR):** 47 in 42 lines: TORPEY CONTROLS ENGINEERING LIMITED · PRODUCT WARRANTY · Torpey Controls warrants all of:its products to be-free from defects in materials and workmanship under · normal and proper use and service for one year from the date of shipment · Torpey Controls agrees to repair or replace without charge (ex
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p125 (traced).json](1994%20-%20R2K%20-%20Manual%20p125%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p125 (traced).dxf`).
+
+### Page 126
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1545 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–311 mm across, 13–426 mm up
+- **Outlines:** line 72 rings, 1,155 straight (1,412 mm) / 248 curved (305 mm); text 2,894 rings, 25,436 straight (25,054 mm) / 7,555 curved (10,289 mm)
+- **Words (OCR):** 46 in 40 lines: TORPEY CONTROLS ENGINEERING LIMITED · PRQDUCT WARRANTY · Torpey Controls warrants all of its products to be free from defects in materials and workmanship under · normal and proper use and service for one year from the date of shipment_ · Torpey Controls agrees to repair Or replace without · charge 
+
+Every curve, box, word and wire group: [1994 - R2K - Manual p126 (traced).json](1994%20-%20R2K%20-%20Manual%20p126%20%28traced%29.json) (the CAD file: `1994 - R2K - Manual p126 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

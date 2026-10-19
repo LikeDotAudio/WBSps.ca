@@ -16,6 +16,162 @@ Wiki page: [M450A](../../../PAGES/M450A.md)
 
 - **1977** (month): `SEPT . 19 77` — …0A Co nn ec to r Layou t "'450-04 -001 MANUAL ISSUE 13 a .c SEPT . 19 77 ps BS W :// tp ht…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–310 mm across, 0–422 mm up
+- **Outlines:** line 114 rings, 1,651 straight (4,599 mm) / 247 curved (401 mm); text 68 rings, 665 straight (867 mm) / 163 curved (250 mm); tb 35 rings, 404 straight (617 mm) / 64 curved (106 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 17 in 11 lines: ['NBS] 841"'l'ClQFlES8AVENUE,~c:N'T,t,FlQM'lH:a)( · WARD-BECK SYSTEMS · Te..l!X: 08-234811 · A'l8 /4I:;JB ..-eo · T'El..I!F'HCII': · M450A · PROGRAM AMPLIFIER · ps · BS · tp · ht
+- **Title block:** (114, 403)–(264, 428) mm: ['NBS] 841"'l'ClQFlES8AVENUE,~c:N'T,t,FlQM'lH:a)( · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1977 - M450A - Program Amplifer p1 (traced).json](1977%20-%20M450A%20-%20Program%20Amplifer%20p1%20%28traced%29.json) (the CAD file: `1977 - M450A - Program Amplifer p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–328 mm across, 0–425 mm up
+- **Outlines:** line 148 rings, 1,840 straight (4,611 mm) / 327 curved (518 mm); text 362 rings, 2,840 straight (3,352 mm) / 709 curved (1,103 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 34 in 20 lines: WVfAC BECKS 3yrt0ms · IABLE_QE_conMNIS · Misoh_PROGRAY AHFLIFIER · SECMA · page · Herrinty · ennicu · Cirera Descriveion · circui Deseriocion · Ga In · Ment · Taro St
+
+Every curve, box, word and wire group: [1977 - M450A - Program Amplifer p2 (traced).json](1977%20-%20M450A%20-%20Program%20Amplifer%20p2%20%28traced%29.json) (the CAD file: `1977 - M450A - Program Amplifer p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–309 mm across, 10–422 mm up
+- **Outlines:** line 81 rings, 1,296 straight (3,318 mm) / 237 curved (376 mm); text 1,100 rings, 8,590 straight (9,567 mm) / 2,351 curved (3,634 mm); tb 77 rings, 554 straight (739 mm) / 215 curved (329 mm)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 216 in 67 lines: WA · SYSTEM LTD. · TECHN ICAL DATE · M45DA PROGRAM AMP LI FIER · Hote: All data give below are based · he us of the M450A · Progra ll AMplif ter in co njun tion with the WBS ou tput · ra ns fo rMer type 70-7. The · or lle · not part of · the Ulp l1f'\er as se Mbly and Mus be rde red separately. · So
+- **Title block:** (134, 47)–(258, 376) mm: TECHN ICAL DATE · M45DA PROGRAM AMP LI FIER · he us of the M450A · Progra ll AMplif ter in co njun tion with the WBS ou tput · or lle · the Ulp l1f'\er as se Mbly and Mus be rde red separately. · 600 
+
+Every curve, box, word and wire group: [1977 - M450A - Program Amplifer p3 (traced).json](1977%20-%20M450A%20-%20Program%20Amplifer%20p3%20%28traced%29.json) (the CAD file: `1977 - M450A - Program Amplifer p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–308 mm across, 8–431 mm up
+- **Outlines:** line 467 rings, 4,205 straight (6,585 mm) / 1,081 curved (1,658 mm); text 901 rings, 6,958 straight (7,657 mm) / 1,950 curved (2,981 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 1.8 @ (82.3, 245.1), r 1.8 @ (98.2, 191.6), r 1.8 @ (86.6, 298.4), r 1.8 @ (114.9, 317.9)
+- **Closed boxes:** 2
+- **Words (OCR):** 87 in 54 lines: LAAnd AECK Ryatovs · GIALERA · uesciktiax · M50A Prucrah AHPLINIA · Renerrance · HISG Foora · dicr · p Minie desiuned · pronessi 0 · citiont · Teveis used culari aner · Mica
+
+Every curve, box, word and wire group: [1977 - M450A - Program Amplifer p4 (traced).json](1977%20-%20M450A%20-%20Program%20Amplifer%20p4%20%28traced%29.json) (the CAD file: `1977 - M450A - Program Amplifer p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–311 mm across, 0–422 mm up
+- **Outlines:** line 358 rings, 3,595 straight (6,030 mm) / 859 curved (1,315 mm); text 1,994 rings, 14,924 straight (16,390 mm) / 4,356 curved (6,819 mm); tb 2 rings, 21 straight (33.9 mm) / 5 curved (5.6 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.8 @ (48.0, 310.9), r 1.8 @ (48.0, 284.2), r 1.8 @ (145.0, 117.7)
+- **Words (OCR):** 438 in 112 lines: WARD -BECK SYST MS LTD · CI RCUIT DESCRI PTI ON · H4s 0A PROG RAM AHPLI FIER · The two ha lves of the npu signa are ppli · to in · i1nd · the dge con nec to · nd then proc ee via on -board · si or · pin · and · of 11 presenti ng
+- **Title block:** (25, 400)–(90, 423) mm: WARD -BECK SYST MS LTD
+
+Every curve, box, word and wire group: [1977 - M450A - Program Amplifer p5 (traced).json](1977%20-%20M450A%20-%20Program%20Amplifer%20p5%20%28traced%29.json) (the CAD file: `1977 - M450A - Program Amplifer p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–415 mm up
+- **Outlines:** line 268 rings, 3,081 straight (5,653 mm) / 645 curved (1,013 mm); text 654 rings, 4,879 straight (5,383 mm) / 1,497 curved (2,344 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 171 in 53 lines: WARe BEC · YST MS LT · CIRCUIT DESCRI PTION · H450A PROGRAM AMPLI FI ER · The · po hr supp · 'to · ge · t25 · vel · dc 15 ed 'tta sc · cn
+
+Every curve, box, word and wire group: [1977 - M450A - Program Amplifer p6 (traced).json](1977%20-%20M450A%20-%20Program%20Amplifer%20p6%20%28traced%29.json) (the CAD file: `1977 - M450A - Program Amplifer p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–317 mm across, 0–421 mm up
+- **Outlines:** line 2,534 rings, 19,026 straight (33,089 mm) / 1,613 curved (2,695 mm); text 79 rings, 644 straight (812 mm) / 169 curved (276 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 2.5 @ (86.8, 227.1), r 1.8 @ (234.8, 269.5), r 1.8 @ (246.8, 269.4), r 1.8 @ (263.7, 188.5)
+- **Closed boxes:** 1680
+- **Dots (junctions):** 1
+- **Words (OCR):** 19 in 12 lines: GAI ADJUSTMENT · M450A PROGRAM AMPLl · 40 · 30 · 20 · 10 · Res istance in ki ohms · ps · BS · tp · ht · 4-1
+
+Every curve, box, word and wire group: [1977 - M450A - Program Amplifer p7 (traced).json](1977%20-%20M450A%20-%20Program%20Amplifer%20p7%20%28traced%29.json) (the CAD file: `1977 - M450A - Program Amplifer p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 0–416 mm up
+- **Outlines:** line 551 rings, 5,025 straight (8,230 mm) / 1,183 curved (1,890 mm); text 765 rings, 6,048 straight (7,013 mm) / 1,795 curved (2,818 mm)
+- **Closed boxes:** 2
+- **Words (OCR):** 188 in 122 lines: WARC -SECK SYS TEM LTC · PARTS LIST · "450A · PROGRAHAHPLIFIER · PART DESCRIPTIOH · HFG PART HUMBE · C1 · Capa~ itor 22 · ~F/25 · Sf!lIens · B41313·~5226-Z · C2
+
+Every curve, box, word and wire group: [1977 - M450A - Program Amplifer p8 (traced).json](1977%20-%20M450A%20-%20Program%20Amplifer%20p8%20%28traced%29.json) (the CAD file: `1977 - M450A - Program Amplifer p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 0–417 mm up
+- **Outlines:** line 414 rings, 4,020 straight (6,924 mm) / 966 curved (1,509 mm); text 284 rings, 2,113 straight (2,406 mm) / 623 curved (961 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.9 @ (203.7, 312.3)
+- **Closed boxes:** 1
+- **Words (OCR):** 98 in 81 lines: WA · CK SYSTEMS LTD · PARTS LI ST · M450A PROGRAM AMPLI FIER · PART DESCRIPTION · MFG · MFG PART HUM8ER · Olod~ · Mo · la · OO · CR3
+
+Every curve, box, word and wire group: [1977 - M450A - Program Amplifer p9 (traced).json](1977%20-%20M450A%20-%20Program%20Amplifer%20p9%20%28traced%29.json) (the CAD file: `1977 - M450A - Program Amplifer p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–309 mm across, 9–422 mm up
+- **Outlines:** line 419 rings, 4,052 straight (6,780 mm) / 894 curved (1,369 mm); text 221 rings, 1,654 straight (1,966 mm) / 454 curved (694 mm)
+- **Closed boxes:** 4; named: AHPLIFIER; DESCRIPTION
+- **Words (OCR):** 95 in 85 lines: WA · -SE · SY · LT · PARTS LIST · H450A · PROGRAH AHPLIFIER · PART DESCRIPTION · MFG · HFG PART /fUHBER · R1. · Res1~tor
+
+Every curve, box, word and wire group: [1977 - M450A - Program Amplifer p10 (traced).json](1977%20-%20M450A%20-%20Program%20Amplifer%20p10%20%28traced%29.json) (the CAD file: `1977 - M450A - Program Amplifer p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–416 mm up
+- **Outlines:** line 152 rings, 2,107 straight (4,888 mm) / 353 curved (568 mm); text 218 rings, 1,503 straight (1,648 mm) / 363 curved (582 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.9 @ (93.5, 311.5)
+- **Closed boxes:** 3
+- **Dots (junctions):** 1
+- **Words (OCR):** 48 in 22 lines: WA · -BECK SYS EMS TO · H450A · ROGRAM AMPLIF IER · PART DESCRIPTION · MFG PART NUMBER · RSI · Re sis to · Fac tory Se lected · RS2 · %11 51 620 · Phi lips
+
+Every curve, box, word and wire group: [1977 - M450A - Program Amplifer p11 (traced).json](1977%20-%20M450A%20-%20Program%20Amplifer%20p11%20%28traced%29.json) (the CAD file: `1977 - M450A - Program Amplifer p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 432 × 290 mm, 2000 × 1344 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–289 mm up
+- **Outlines:** line 876 rings, 9,451 straight (15,513 mm) / 2,520 curved (3,343 mm); text 629 rings, 4,109 straight (4,037 mm) / 1,595 curved (1,972 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.3 @ (96.1, 254.2)
+- **Closed boxes:** 9
+- **Words (OCR):** 184 in 138 lines: R3" · 10 · +24v · R47 · 22 · hI · Q«o · R7 · TlP$OB · 28 J2 · R37 · 330
+
+Every curve, box, word and wire group: [1977 - M450A - Program Amplifer p12 (traced).json](1977%20-%20M450A%20-%20Program%20Amplifer%20p12%20%28traced%29.json) (the CAD file: `1977 - M450A - Program Amplifer p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 432 × 283 mm, 2000 × 1310 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–283 mm up
+- **Outlines:** line 1,029 rings, 8,695 straight (14,183 mm) / 2,310 curved (3,353 mm); text 374 rings, 2,495 straight (2,740 mm) / 964 curved (1,250 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 5.2 @ (268.6, 154.8), r 5.0 @ (170.2, 156.5), r 3.6 @ (352.3, 168.6), r 2.4 @ (330.2, 170.9)
+- **Closed boxes:** 18; named: Q8 rJP 19 QIO TIP; SCAlf
+- **Dots (junctions):** 1
+- **Words (OCR):** 156 in 112 lines: R3 11<7 · R52.HQ · RS..411! · 1lS2 · R38 · R24 151< · R6 m5 · G.W · Q8 · R44..!K.. · R3 · rJP 19
+
+Every curve, box, word and wire group: [1977 - M450A - Program Amplifer p13 (traced).json](1977%20-%20M450A%20-%20Program%20Amplifer%20p13%20%28traced%29.json) (the CAD file: `1977 - M450A - Program Amplifer p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1532 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–330 mm across, 0–432 mm up
+- **Outlines:** line 292 rings, 5,091 straight (11,007 mm) / 1,133 curved (1,478 mm); text 255 rings, 3,273 straight (3,768 mm) / 924 curved (1,168 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.9 @ (155.0, 193.8), r 2.5 @ (253.1, 21.2)
+- **Closed boxes:** 41; named: 15; BS; ca
+- **Words (OCR):** 54 in 33 lines: Ii ct · ur · o~5 · +25v · N/C · 0'0' · Wo UT WI-I t-l · ~1Jl · IN PUT WlI,EN · Ul-\\-1HJ(4 A.MP · S-E.O ....50 · Crt/A
+
+Every curve, box, word and wire group: [1977 - M450A - Program Amplifer p14 (traced).json](1977%20-%20M450A%20-%20Program%20Amplifer%20p14%20%28traced%29.json) (the CAD file: `1977 - M450A - Program Amplifer p14 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

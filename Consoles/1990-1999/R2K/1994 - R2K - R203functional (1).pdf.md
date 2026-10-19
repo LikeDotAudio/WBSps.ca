@@ -15,6 +15,20 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 
 - **1999** (month): `OCT. 18, 1999` — …03 FUNCTIONAL CONTROL ROOM MONITOR R203ISS3.DSN PAGE 1 OF 1 OCT. 18, 1999…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 25–431 mm across, 0–321 mm up
+- **Outlines:** line 90 rings, 1,183 straight (8,471 mm) / 126 curved (230 mm); text 632 rings, 4,026 straight (4,863 mm) / 1,124 curved (1,643 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 6.8 @ (292.2, 165.5), r 1.8 @ (293.9, 163.7)
+- **Closed boxes:** 2; named: STEREO AUDIO SWITCHER; VCA
+- **Words (OCR):** 105 in 80 lines: BALANCED AUDIO · INPUTS · INPUT · LEFT · RIGHT · LEFT+ · LEFT · INPUT · RIGHT · LEFT- · OUTPUT · TO AUX
+- **Title block:** (306, 19)–(431, 41) mm: WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - R2K - R203functional (1) p1 (traced).json](1994%20-%20R2K%20-%20R203functional%20%281%29%20p1%20%28traced%29.json) (the CAD file: `1994 - R2K - R203functional (1) p1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

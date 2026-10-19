@@ -11,6 +11,114 @@ Wiki page: [RA24](../../../PAGES/RA24.md)
 - **Size:** 202,777 bytes
 - **Pages:** 10
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1550 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–333 mm across, 0–430 mm up
+- **Outlines:** line 586 rings, 5,405 straight (10,843 mm) / 749 curved (1,037 mm); text 78 rings, 1,198 straight (1,939 mm) / 237 curved (486 mm); tb 126 rings, 1,078 straight (1,291 mm) / 260 curved (271 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 4.3 @ (39.3, 199.8), r 3.7 @ (247.1, 330.7), r 3.7 @ (261.8, 330.6), r 1.3 @ (184.0, 191.0)
+- **Closed boxes:** 14; named: IOD
+- **Words (OCR):** 9 in 9 lines: SELECT SERIES · by WARD-BECK SYSTEMS · WBS · Raz4 · IOD · 2eeiee2 · 66366 · Ra24 · AUdIo SWITCHER
+- **Title block:** (34, 253)–(242, 363) mm: by WARD-BECK SYSTEMS · WBS
+
+Every curve, box, word and wire group: [19xx - RA24 - Manual p1 (traced).json](19xx%20-%20RA24%20-%20Manual%20p1%20%28traced%29.json) (the CAD file: `19xx - RA24 - Manual p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1550 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–334 mm across, 0–430 mm up
+- **Outlines:** line 25 rings, 587 straight (1,196 mm) / 74 curved (101 mm); text 1,384 rings, 11,745 straight (13,492 mm) / 3,098 curved (4,786 mm)
+- **Words (OCR):** 38 in 28 lines: RA24 · AUDIO SWITCHER · Just one of many products in our SELECT SERIES Iine of high quality, and high · performance broadcast products · RA24 is 12 input; 2 output Audio switcher: This unit features clickless audio · switching; and a R5422/485 data port_ · RAV24 Installation · Audio connections are 
+
+Every curve, box, word and wire group: [19xx - RA24 - Manual p2 (traced).json](19xx%20-%20RA24%20-%20Manual%20p2%20%28traced%29.json) (the CAD file: `19xx - RA24 - Manual p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1550 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–334 mm across, 0–423 mm up
+- **Outlines:** line 61 rings, 818 straight (1,497 mm) / 101 curved (154 mm); text 935 rings, 8,453 straight (10,203 mm) / 2,060 curved (3,184 mm); tb 2 rings, 43 straight (47.6 mm) / 8 curved (14.4 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 48 in 37 lines: R5422/485 COMMUNICATIONS PROTOCOL · The RA24's serial communications are eight bit, no parity at 9600 baud rate. The · protocol forthe RA24 requires two bytes ofinformation to be sent: The first byte is 2n · address byte(ALWAYS CF] and the second · byte is the · command byte; · The · communication p
+- **Title block:** (67, 132)–(165, 167) mm: Silent Switch · X-ONo Update to LED Display · Update LED Display
+
+Every curve, box, word and wire group: [19xx - RA24 - Manual p3 (traced).json](19xx%20-%20RA24%20-%20Manual%20p3%20%28traced%29.json) (the CAD file: `19xx - RA24 - Manual p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1550 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–334 mm across, 0–430 mm up
+- **Outlines:** line 42 rings, 617 straight (881 mm) / 103 curved (127 mm); text 664 rings, 5,445 straight (6,592 mm) / 1,410 curved (2,226 mm)
+- **Words (OCR):** 34 in 33 lines: SPECIFICATIONS · Audio · Gain · Unity: · Max Input Level · 27 dBu zs" · Max Output Level · +27 dBuzs · Frequency Response · 0.1dB.20Hz to 20kHz · Noise · less than-85 dBu, 20Hzto 20kHz
+
+Every curve, box, word and wire group: [19xx - RA24 - Manual p4 (traced).json](19xx%20-%20RA24%20-%20Manual%20p4%20%28traced%29.json) (the CAD file: `19xx - RA24 - Manual p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1550 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–334 mm across, 0–430 mm up
+- **Outlines:** line 716 rings, 8,827 straight (18,098 mm) / 1,703 curved (2,135 mm); text 78 rings, 751 straight (881 mm) / 199 curved (271 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.7 @ (262.5, 365.0), r 1.0 @ (195.5, 103.0)
+- **Closed boxes:** 85; named: 11 21
+- **Words (OCR):** 2 in 2 lines: 11 · 21
+
+Every curve, box, word and wire group: [19xx - RA24 - Manual p5 (traced).json](19xx%20-%20RA24%20-%20Manual%20p5%20%28traced%29.json) (the CAD file: `19xx - RA24 - Manual p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1550 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–333 mm across, 0–428 mm up
+- **Outlines:** line 863 rings, 11,947 straight (21,406 mm) / 2,540 curved (3,236 mm); text 72 rings, 639 straight (718 mm) / 202 curved (288 mm)
+- **Closed boxes:** 42; named: 21; Rx ?F RR
+- **Words (OCR):** 3 in 2 lines: 21 · Rx ?F RR
+
+Every curve, box, word and wire group: [19xx - RA24 - Manual p6 (traced).json](19xx%20-%20RA24%20-%20Manual%20p6%20%28traced%29.json) (the CAD file: `19xx - RA24 - Manual p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1550 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–333 mm across, 0–429 mm up
+- **Outlines:** line 181 rings, 3,409 straight (7,972 mm) / 615 curved (827 mm); text 66 rings, 622 straight (713 mm) / 167 curved (240 mm)
+- **Closed boxes:** 7; named: 21
+- **Words (OCR):** 3 in 3 lines: 21 · GND · 54
+
+Every curve, box, word and wire group: [19xx - RA24 - Manual p7 (traced).json](19xx%20-%20RA24%20-%20Manual%20p7%20%28traced%29.json) (the CAD file: `19xx - RA24 - Manual p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1550 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–334 mm across, 0–429 mm up
+- **Outlines:** line 1,061 rings, 13,411 straight (24,941 mm) / 2,620 curved (3,408 mm); text 268 rings, 2,208 straight (2,206 mm) / 739 curved (991 mm)
+- **Closed boxes:** 42; named: 21; #nt; ef8; 222223 VCO GND 22222822 22222222/; 2229 g22 2229222222 @ND aNB aND CNc GNc 
+- **Dots (junctions):** 1
+- **Words (OCR):** 22 in 22 lines: #nt · 21 · ef8 · 00g · 222223 · VCO · GND · 22222822 22222222/ · Wnh · g22 2229222222 · 2229 · aNB
+
+Every curve, box, word and wire group: [19xx - RA24 - Manual p8 (traced).json](19xx%20-%20RA24%20-%20Manual%20p8%20%28traced%29.json) (the CAD file: `19xx - RA24 - Manual p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1550 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–333 mm across, 0–432 mm up
+- **Outlines:** line 478 rings, 8,594 straight (23,433 mm) / 1,089 curved (1,518 mm); text 148 rings, 1,452 straight (1,506 mm) / 427 curved (563 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.0 @ (60.5, 224.0)
+- **Closed boxes:** 124; named: 31; Nf?
+- **Dots (junctions):** 1
+- **Words (OCR):** 9 in 9 lines: 29 · Nf? · 23 · 31 · 13 · 08 · 23 · 28 · 28
+
+Every curve, box, word and wire group: [19xx - RA24 - Manual p9 (traced).json](19xx%20-%20RA24%20-%20Manual%20p9%20%28traced%29.json) (the CAD file: `19xx - RA24 - Manual p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1550 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–334 mm across, 0–432 mm up
+- **Outlines:** line 1,237 rings, 11,774 straight (19,125 mm) / 2,270 curved (2,539 mm); text 118 rings, 1,003 straight (1,150 mm) / 288 curved (414 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 2.0 @ (44.4, 281.7), r 1.8 @ (76.4, 387.7), r 1.6 @ (75.1, 361.2), r 1.6 @ (71.4, 361.2)
+- **Closed boxes:** 41; named: Zh
+- **Words (OCR):** 2 in 2 lines: Zh · OH
+
+Every curve, box, word and wire group: [19xx - RA24 - Manual p10 (traced).json](19xx%20-%20RA24%20-%20Manual%20p10%20%28traced%29.json) (the CAD file: `19xx - RA24 - Manual p10 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

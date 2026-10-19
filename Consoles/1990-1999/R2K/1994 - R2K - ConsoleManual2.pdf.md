@@ -11,6 +11,470 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Pages:** 46
 - **PDF created (scan date, not design date):** Fri Aug 17 12:55:07 2007 EDT
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–327 mm across, 42–399 mm up
+- **Outlines:** line 9 rings, 81 straight (793 mm) / 14 curved (23.4 mm); text 46 rings, 518 straight (668 mm) / 190 curved (290 mm)
+- **Words (OCR):** 4 in 4 lines: WBS · genaisance RZK · Audio Console · as ofMay Ist 2007
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p1 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p1%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p2 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p2%20%28traced%29.json).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–328 mm across, 237–393 mm up
+- **Outlines:** line 8 rings, 71 straight (799 mm) / 12 curved (17.0 mm); text 42 rings, 548 straight (928 mm) / 130 curved (256 mm)
+- **Words (OCR):** 4 in 4 lines: WBS · SECTION · R201 & R221 · STEREO INPUT MODULES
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p3 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p3%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–294 mm across, 38–392 mm up
+- **Outlines:** line 408 rings, 2,912 straight (10,424 mm) / 729 curved (953 mm); text 2,249 rings, 13,823 straight (15,881 mm) / 4,325 curved (6,244 mm)
+- **Circles and arcs:** 25 circles, 0 arcs; largest r 4.5 @ (283.2, 310.2), r 3.7 @ (269.6, 310.1), r 3.5 @ (239.3, 85.3), r 3.5 @ (239.4, 201.5)
+- **Closed boxes:** 43
+- **Dots (junctions):** 1
+- **Words (OCR):** 324 in 51 lines: R201 R221 · STEREO INPUT MODULE · The R201 · R221 accept two balanced stereo · console, inputs, or · and has individual front panel · accessible screw driver adjustm ents to trim the level of · the left (lower trim and right (upper trim channels. · MONO pushbutton switch will sum the left and right 
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p4 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p4%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–294 mm across, 93–390 mm up
+- **Outlines:** line 7 rings, 26 straight (729 mm) / 0 curved (0.0 mm); text 3,480 rings, 21,748 straight (24,107 mm) / 6,959 curved (10,060 mm)
+- **Words (OCR):** 541 in 46 lines: R201 R221 · STEREO INPUT MODULE CONTROL · A-B SOURCE SELECT · Source pushbuttons · and · are electronically interlocked and select between stereo inputs · and · respectively. Left and right trim controls are accessible from the front panel. These trim controls are post · input select. · ONO SELECT ·
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p5 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p5%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–236 mm across, 76–391 mm up
+- **Outlines:** line 22 rings, 88 straight (1,750 mm) / 5 curved (10.8 mm); text 856 rings, 5,702 straight (6,992 mm) / 1,638 curved (2,560 mm)
+- **Words (OCR):** 141 in 83 lines: DIP SW ITCH SETTINGS (REF DES=SW · SW ITCH FUNCTIONS · SW · Mode Selection · SW · Mode Selection · SW · Mode Selection · SW · M1 Pre/Post Channel On · SW · M2 Pre/Post Channel On
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p6 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p6%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–294 mm across, 63–391 mm up
+- **Outlines:** line 1 rings, 4 straight (130 mm) / 0 curved (0.0 mm); text 2,277 rings, 14,484 straight (17,003 mm) / 4,200 curved (6,322 mm)
+- **Words (OCR):** 378 in 106 lines: ODES OF OPERATION: · MODE · Control in CH ON · Control out CH ON INA Tally · Control in · CH OFF Control out CH ON INB Tally · Control in · SEL · Control out · Tally · Control in · SEL
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p7 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p7%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–294 mm across, 336–391 mm up
+- **Outlines:** line 1 rings, 19 straight (186 mm) / 2 curved (5.6 mm); text 440 rings, 2,809 straight (3,192 mm) / 825 curved (1,266 mm)
+- **Words (OCR):** 74 in 14 lines: ODES OF OPERATION (cont’d): · MODE · Control in CH ON · Control out CH ON event pulse · Control in · CH OFF Control out CH OFF Tally · Control in · Cue On · Control out Cue on Tally · Control in · Cue Off · Control out Cue off Tally
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p8 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p8%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–291 mm across, 57–391 mm up
+- **Outlines:** line 213 rings, 1,498 straight (5,132 mm) / 331 curved (458 mm); text 1,990 rings, 12,191 straight (14,011 mm) / 3,858 curved (5,642 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 5.6 @ (280.4, 314.8), r 3.5 @ (272.7, 385.7), r 3.4 @ (272.8, 62.2), r 2.6 @ (280.3, 256.7)
+- **Closed boxes:** 18
+- **Words (OCR):** 288 in 38 lines: R207 · STEREO INPUT MODULE · The R207 accepts two balanced stereo inputs, · or · and has · individual front panel accessible screw driver adjustm ents to trim the · level of the left and right channels. · MONO pushbutton switch will · sum the left and right stereo signal. This feature is particularl
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p9 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p9%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–294 mm across, 50–390 mm up
+- **Outlines:** line 8 rings, 30 straight (846 mm) / 0 curved (0.0 mm); text 3,427 rings, 21,605 straight (23,994 mm) / 6,644 curved (9,662 mm)
+- **Words (OCR):** 530 in 61 lines: R207 · STEREO INPUT MODULE CONTROL · A-B SOURCE SELECT · Source pushbuttons · and · are electronically interlocked and select between stereo inputs · and · respectively. Left and right trim controls are accessible from the front panel. These trim controls are post · input select. · ONO SELECT · Pres
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p10 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p10%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–294 mm across, 44–391 mm up
+- **Outlines:** line 1 rings, 16 straight (175 mm) / 4 curved (9.8 mm); text 2,379 rings, 15,142 straight (17,498 mm) / 4,387 curved (6,664 mm)
+- **Words (OCR):** 399 in 105 lines: ODES OF OPERATION(cont'd) · MODE · Control in CH ON · Control out CH ON event pulse · Control in · CHOFF · Control out CH OFF Tally · Control in · SEL · Control out · Tally · Control in
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p11 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p11%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–212 mm across, 325–391 mm up
+- **Outlines:** line 1 rings, 4 straight (257 mm) / 0 curved (0.0 mm); text 191 rings, 1,334 straight (1,636 mm) / 337 curved (561 mm)
+- **Words (OCR):** 40 in 33 lines: ODE SETUP FOR R207 USING ODE JUM PERS · Off · Off · Off · Mode0 · Off · Off · On · Mode1 · Off · On · Off
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p12 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p12%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 49–285 mm across, 40–392 mm up
+- **Outlines:** line 860 rings, 5,277 straight (26,210 mm) / 875 curved (1,243 mm); text 478 rings, 3,108 straight (3,679 mm) / 1,140 curved (1,600 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 3.4 @ (96.1, 151.8), r 3.4 @ (242.1, 151.8), r 3.3 @ (259.4, 329.9), r 1.4 @ (236.6, 88.3)
+- **Closed boxes:** 128; named: Hh elle; FIb; FIb
+- **Dots (junctions):** 1
+- **Words (OCR):** 4 in 3 lines: 22 · Hh FIb · elle
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p13 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p13%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–294 mm across, 237–393 mm up
+- **Outlines:** line 7 rings, 77 straight (726 mm) / 14 curved (19.5 mm); text 38 rings, 506 straight (896 mm) / 105 curved (206 mm)
+- **Words (OCR):** 4 in 4 lines: WBS · SECTION 2 · R202 · STEREO OUTPUT MODULE
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p14 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p14%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–289 mm across, 40–392 mm up
+- **Outlines:** line 44 rings, 263 straight (1,102 mm) / 79 curved (110 mm); text 737 rings, 4,628 straight (5,508 mm) / 1,429 curved (2,126 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 3.5 @ (269.5, 46.6), r 3.5 @ (269.6, 387.8), r 2.7 @ (269.5, 86.8), r 2.7 @ (269.5, 251.9)
+- **Words (OCR):** 108 in 12 lines: R202 · STEREO OUTPUT MODULE · The R202 contains the sum ing and output am plifiers for PROGRAM · and MONO MIX 1,2 buses. To provide the correct console outputs, · the R202 ust be installed in slot 13 of the R2K/12, slot 21 of the R2K/20 · or slot 29 of the R2K/28 console. · Balanced, low im pedance 
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p15 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p15%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 49–284 mm across, 41–392 mm up
+- **Outlines:** line 890 rings, 5,868 straight (24,175 mm) / 1,305 curved (1,907 mm); text 226 rings, 1,543 straight (1,792 mm) / 629 curved (946 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 3.6 @ (258.2, 374.1), r 3.6 @ (89.6, 177.2), r 1.4 @ (267.0, 104.2), r 1.4 @ (91.5, 241.6)
+- **Closed boxes:** 116; named: 22; 22; 22; 2/2/z; Ii; Ii
+- **Words (OCR):** 11 in 6 lines: 22 22 · 22 212 22 22 · Ii · 515 5/5 · Ii · 2/2/z
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p16 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p16%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–294 mm across, 237–393 mm up
+- **Outlines:** line 7 rings, 77 straight (726 mm) / 14 curved (19.5 mm); text 48 rings, 678 straight (1,106 mm) / 156 curved (289 mm)
+- **Words (OCR):** 4 in 4 lines: WBS · SECTION 3 · R203 · CONTROL ROOM MONITOR MODULE
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p17 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p17%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–291 mm across, 42–392 mm up
+- **Outlines:** line 170 rings, 1,184 straight (5,793 mm) / 284 curved (643 mm); text 1,342 rings, 8,095 straight (9,173 mm) / 2,687 curved (3,941 mm)
+- **Circles and arcs:** 13 circles, 0 arcs; largest r 15.3 @ (272.1, 66.1), r 4.0 @ (274.1, 74.9), r 3.3 @ (272.1, 386.2), r 3.1 @ (272.3, 46.7)
+- **Closed boxes:** 31
+- **Words (OCR):** 188 in 22 lines: R203 · CONTROL ROOM MONITOR · MODULE · The R203 odule provides onitoring and etering selection for the · console. This odule is equipped with an eight input two output · balanced stereo audio switcher and has two banks of front panel · switches for independent eter and onitor selections. All audio ·
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p18 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p18%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 49–284 mm across, 41–391 mm up
+- **Outlines:** line 781 rings, 5,096 straight (28,200 mm) / 909 curved (1,316 mm); text 458 rings, 3,101 straight (3,688 mm) / 984 curved (1,459 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 3.6 @ (245.5, 350.7), r 3.6 @ (89.2, 176.5), r 3.6 @ (245.5, 330.7), r 3.6 @ (255.7, 366.0)
+- **Closed boxes:** 142; named: HH HA 515 2/5/5 a/e/slle/5/5 5lle/5/5 9/; HA; e/s/5; 9/5/5; 2/5/5; 5lle/5/5
+- **Words (OCR):** 8 in 5 lines: HH · HA · 515 · e/s/5 · 2/5/5 a/e/slle/5/5 5lle/5/5 9/5/5
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p19 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p19%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 157–334 mm across, 236–392 mm up
+- **Outlines:** line 9 rings, 103 straight (543 mm) / 15 curved (18.7 mm); text 33 rings, 429 straight (689 mm) / 106 curved (197 mm)
+- **Closed boxes:** 1; named: WBS
+- **Words (OCR):** 4 in 4 lines: WBS · SECTION · R204 · STUDIO MONITOR
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p20 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p20%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–288 mm across, 41–393 mm up
+- **Outlines:** line 208 rings, 1,431 straight (6,242 mm) / 294 curved (390 mm); text 1,637 rings, 9,880 straight (11,061 mm) / 3,235 curved (4,700 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 3.7 @ (262.6, 129.5), r 3.7 @ (277.9, 129.5), r 3.4 @ (270.2, 45.6), r 3.4 @ (270.2, 387.4)
+- **Closed boxes:** 32
+- **Words (OCR):** 233 in 23 lines: R204 · STUDIO MONITOR MODULE · The R204 odule provides studio onitoring and talkback selection for · the console. This odule is equipped with an eight input, two output · balanced stereo audio switcher and has two banks of front panel · switches for independent onitor selections for two studios. All
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p21 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p21%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 40–290 mm across, 54–377 mm up
+- **Outlines:** line 995 rings, 6,365 straight (28,484 mm) / 1,168 curved (1,563 mm); text 346 rings, 2,340 straight (2,943 mm) / 713 curved (988 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 3.4 @ (77.3, 167.9), r 2.0 @ (57.8, 346.5), r 1.4 @ (213.9, 224.6), r 1.4 @ (233.2, 231.5)
+- **Closed boxes:** 179; named: Ji 57 15 HH 3/5/5; 57; Ji; 15; 3/5/5; HH
+- **Words (OCR):** 5 in 5 lines: Ji · 57 · 15 · HH · 3/5/5
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p22 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p22%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–294 mm across, 236–392 mm up
+- **Outlines:** line 7 rings, 79 straight (727 mm) / 13 curved (20.1 mm); text 41 rings, 541 straight (922 mm) / 123 curved (235 mm)
+- **Words (OCR):** 4 in 4 lines: WBS · SECTION 5 · R205 · 8 X 2 STEREO LINE SELECTOR
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p23 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p23%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–289 mm across, 38–391 mm up
+- **Outlines:** line 161 rings, 1,025 straight (5,442 mm) / 215 curved (278 mm); text 697 rings, 4,254 straight (4,932 mm) / 1,434 curved (2,104 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 3.5 @ (270.5, 385.1), r 3.4 @ (270.5, 43.3), r 2.7 @ (270.6, 80.3), r 2.7 @ (278.0, 370.6)
+- **Closed boxes:** 30
+- **Words (OCR):** 96 in 12 lines: R205 · STEREO LINE SELECTOR · The R205 is an · Stereo Line Selector. Two banks of eight illum inating · pushbutton switches allow for the independent selection of any input to the two · selector outputs. · convenient, front panel designation strip allows for easy · identification of the eight select
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p24 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p24%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 48–283 mm across, 40–392 mm up
+- **Outlines:** line 1,000 rings, 6,572 straight (30,034 mm) / 1,169 curved (1,729 mm); text 173 rings, 1,372 straight (1,871 mm) / 458 curved (678 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 3.6 @ (88.0, 176.2), r 1.5 @ (246.1, 104.6)
+- **Closed boxes:** 167
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p25 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p25%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–294 mm across, 237–393 mm up
+- **Outlines:** line 7 rings, 59 straight (725 mm) / 14 curved (18.8 mm); text 40 rings, 518 straight (852 mm) / 131 curved (253 mm)
+- **Words (OCR):** 4 in 4 lines: WBS · SECTION 6 · R206 & R2O6A · UTILITY MODULES
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p26 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p26%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–290 mm across, 40–392 mm up
+- **Outlines:** line 212 rings, 1,535 straight (3,957 mm) / 460 curved (658 mm); text 2,632 rings, 15,849 straight (17,823 mm) / 5,186 curved (7,381 mm)
+- **Circles and arcs:** 23 circles, 0 arcs; largest r 4.5 @ (280.8, 127.4), r 3.6 @ (272.1, 386.8), r 3.5 @ (272.1, 44.7), r 3.4 @ (280.8, 127.5)
+- **Closed boxes:** 10
+- **Dots (junctions):** 2
+- **Words (OCR):** 388 in 53 lines: R206 · UTILITY MODULE · The R206 Utility Module serves as · “catchall” odule for various · console functions. It houses the drive am plifiers for the console headset, · cue speaker, tim er driver and controls, utility LED, bar graph, and · level indicator. The R206 also contains the RS422/485 interf
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p27 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p27%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p27 (traced).dxf`).
+
+### Page 28
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–295 mm across, 268–391 mm up
+- **Outlines:** text 1,488 rings, 9,094 straight (10,198 mm) / 3,003 curved (4,299 mm)
+- **Words (OCR):** 239 in 22 lines: is stopped. Pressing the DOW button will preset the tim er to count down from the displayed · tim the next tim the START button is pushed. · LOAD · The LOAD button can only be activated if the tim er is stopped. Pressing the LOAD button · will cause the function of the STOP/RESET, START and DOW to c
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p28 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p28%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p28 (traced).dxf`).
+
+### Page 29
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 49–285 mm across, 40–392 mm up
+- **Outlines:** line 964 rings, 6,472 straight (30,046 mm) / 1,191 curved (1,772 mm); text 707 rings, 5,083 straight (6,192 mm) / 1,601 curved (2,381 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 3.7 @ (242.3, 334.4), r 3.7 @ (242.3, 354.4), r 3.6 @ (89.3, 176.3), r 3.5 @ (252.6, 369.9)
+- **Closed boxes:** 174; named: HML 22 Ji 06 32 HHA Gla 42; 22; HML; 32; HHA
+- **Words (OCR):** 10 in 8 lines: 28 · ef3 · HML · 22 · Ji · 06 32 · HHA 42 · Gla
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p29 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p29%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p29 (traced).dxf`).
+
+### Page 30
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–290 mm across, 41–393 mm up
+- **Outlines:** line 122 rings, 1,045 straight (2,564 mm) / 266 curved (382 mm); text 3,249 rings, 19,958 straight (22,402 mm) / 6,329 curved (9,015 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 4.5 @ (280.1, 128.1), r 3.6 @ (271.4, 387.4), r 3.5 @ (271.4, 45.4), r 3.4 @ (280.1, 128.1)
+- **Closed boxes:** 5
+- **Words (OCR):** 477 in 54 lines: R206A · UTILITY MODULE · The R206A Utility Module serves as · “catchall” odule for various console · functions. It houses the drive am plifiers for the console headset, cue speaker, tim er · driver and controls, and system settings recall. The R206A also contains the · RS422/485 interface circuitry 
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p30 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p30%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p30 (traced).dxf`).
+
+### Page 31
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–294 mm across, 98–391 mm up
+- **Outlines:** line 6 rings, 82 straight (338 mm) / 20 curved (29.4 mm); text 2,809 rings, 16,953 straight (18,826 mm) / 5,807 curved (8,281 mm)
+- **Words (OCR):** 441 in 36 lines: PROGRAM ABLE CONFIGURATION RECALL FUNCTION · The program able configuration recall function allows for system settings to be saved and recalled with the · push of button. There are four buttons on the front panel which allow for four system settings to be saved · and restored. · Saving the System Se
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p31 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p31%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p31 (traced).dxf`).
+
+### Page 32
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 48–284 mm across, 40–392 mm up
+- **Outlines:** line 1,100 rings, 7,527 straight (31,209 mm) / 1,427 curved (2,117 mm); text 692 rings, 4,868 straight (6,055 mm) / 1,689 curved (2,524 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 3.6 @ (88.4, 176.3), r 1.5 @ (219.5, 120.9)
+- **Closed boxes:** 162; named: HA 82 Ji HH g3; Ih; 82; HA; HH; Ih
+- **Words (OCR):** 10 in 9 lines: 23 · 02 · #25 · 23 · HA · 82 · Ji · HH Ih · g3
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p32 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p32%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p32 (traced).dxf`).
+
+### Page 33
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–294 mm across, 238–394 mm up
+- **Outlines:** line 7 rings, 77 straight (726 mm) / 14 curved (19.6 mm); text 37 rings, 458 straight (826 mm) / 89 curved (179 mm)
+- **Words (OCR):** 4 in 4 lines: WBS · SECTION 7 · R208 · EQUALIZER MODULE
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p33 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p33%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p33 (traced).dxf`).
+
+### Page 34
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–292 mm across, 40–392 mm up
+- **Outlines:** line 279 rings, 2,021 straight (4,911 mm) / 598 curved (813 mm); text 481 rings, 2,899 straight (3,562 mm) / 849 curved (1,282 mm)
+- **Circles and arcs:** 18 circles, 0 arcs; largest r 3.9 @ (280.2, 175.6), r 3.9 @ (280.2, 325.5), r 3.8 @ (280.2, 241.1), r 3.8 @ (280.2, 109.8)
+- **Closed boxes:** 10
+- **Dots (junctions):** 1
+- **Words (OCR):** 69 in 8 lines: R208 · EQUALIZER MODULE · The R208 equalizer odule provides four independent stereo three band · equalizers in single odule strip. The equalizers ay be wired into the · insert point of any of the input odules by installing the appropriate · jum pers on the otherboard. · The boost cut controls provid
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p34 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p34%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p34 (traced).dxf`).
+
+### Page 35
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 48–283 mm across, 42–394 mm up
+- **Outlines:** line 882 rings, 5,948 straight (28,888 mm) / 1,006 curved (1,468 mm); text 265 rings, 1,779 straight (2,139 mm) / 636 curved (932 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 3.7 @ (85.3, 154.8), r 3.6 @ (241.5, 343.0), r 3.6 @ (251.9, 358.5), r 1.5 @ (169.4, 213.2)
+- **Closed boxes:** 128; named: zeleleeld Ii elzl? 48 2/2 2p 3/2; elzl?; zeleleeld; 2/2; 2p; 48; Ii
+- **Words (OCR):** 8 in 7 lines: 22 · elzl? · zeleleeld · 48 · Ii · 2/2 2p · 3/2
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p35 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p35%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p35 (traced).dxf`).
+
+### Page 36
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–294 mm across, 236–392 mm up
+- **Outlines:** line 7 rings, 77 straight (726 mm) / 14 curved (19.6 mm); text 47 rings, 590 straight (1,016 mm) / 141 curved (253 mm)
+- **Words (OCR):** 4 in 4 lines: WBS · SECTION 8 · R209 & R2OQA · CLEAN FEED MODULES
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p36 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p36%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p36 (traced).dxf`).
+
+### Page 37
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–291 mm across, 39–391 mm up
+- **Outlines:** line 156 rings, 1,133 straight (3,773 mm) / 331 curved (454 mm); text 423 rings, 2,737 straight (3,275 mm) / 807 curved (1,228 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 3.4 @ (273.4, 44.5), r 3.4 @ (273.1, 386.1), r 2.7 @ (273.2, 371.6), r 2.6 @ (273.3, 226.4)
+- **Closed boxes:** 2
+- **Words (OCR):** 68 in 7 lines: R209 · CLEAN FEED MODULE · The R209 Clean Feed Module can provide ix inus sends to feed up to · six telephone hybrids. Front panel pushbuttons allow assignm ent of Mono · Mix Mono Mix or both to any of the six send outputs. · The return signal from any or all hybrids ay be connected to the R209 to ·
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p37 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p37%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p37 (traced).dxf`).
+
+### Page 38
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 49–285 mm across, 40–392 mm up
+- **Outlines:** line 1,000 rings, 6,993 straight (30,922 mm) / 1,279 curved (1,863 mm); text 372 rings, 2,832 straight (3,455 mm) / 814 curved (1,219 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 3.6 @ (242.6, 334.5), r 3.6 @ (242.6, 354.4), r 3.6 @ (89.7, 176.3), r 3.0 @ (252.9, 369.9)
+- **Closed boxes:** 162; named: 9yel: ell?
+- **Words (OCR):** 6 in 6 lines: 20 · 29 · 43= · 423 · 9yel: · ell?
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p38 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p38%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p38 (traced).dxf`).
+
+### Page 39
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–291 mm across, 41–393 mm up
+- **Outlines:** line 212 rings, 1,829 straight (7,250 mm) / 332 curved (436 mm); text 1,917 rings, 11,686 straight (13,361 mm) / 3,643 curved (5,321 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 3.5 @ (271.8, 387.4), r 3.4 @ (271.9, 45.8), r 2.6 @ (271.8, 372.9), r 1.5 @ (263.7, 349.6)
+- **Closed boxes:** 54
+- **Dots (junctions):** 2
+- **Words (OCR):** 270 in 44 lines: R209A · CLEAN FEED MODULE · The R209A Clean Feed Module can provide ix inus sends to feed up to · six telephone hybrids. Front panel pushbuttons allow assignm ent of Mono · Mix Mono Mix or both to any of the six send outputs. Each channel · has talkback and an input disable, as well as, external con
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p39 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p39%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p39 (traced).dxf`).
+
+### Page 40
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 49–285 mm across, 40–392 mm up
+- **Outlines:** line 1,233 rings, 8,358 straight (32,168 mm) / 1,929 curved (2,882 mm); text 384 rings, 2,930 straight (3,802 mm) / 914 curved (1,356 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 3.6 @ (89.3, 176.3), r 1.5 @ (192.3, 339.2)
+- **Closed boxes:** 168; named: di eelae; di; eelae
+- **Words (OCR):** 4 in 4 lines: 95 · 24 · di · eelae
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p40 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p40%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p40 (traced).dxf`).
+
+### Page 41
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–294 mm across, 237–393 mm up
+- **Outlines:** line 7 rings, 59 straight (725 mm) / 14 curved (19.0 mm); text 42 rings, 549 straight (886 mm) / 137 curved (262 mm)
+- **Words (OCR):** 4 in 4 lines: WBS · SECTION 9 · R210 · STUDIO MONITOR MODULE
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p41 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p41%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p41 (traced).dxf`).
+
+### Page 42
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 39–290 mm across, 40–392 mm up
+- **Outlines:** line 153 rings, 831 straight (5,170 mm) / 203 curved (267 mm); text 2,175 rings, 13,627 straight (15,685 mm) / 4,169 curved (6,107 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.4 @ (263.8, 373.0), r 1.5 @ (262.6, 297.4), r 1.5 @ (262.6, 163.9)
+- **Closed boxes:** 16
+- **Dots (junctions):** 1
+- **Words (OCR):** 320 in 40 lines: R210 · STUDIO MONITOR MODULE · The R210 odule provides studio onitoring and talkback from the console to · six locations. This odule is equipped with four input switcher that is used · to select the program to be fed to the six locations. The six om entary · talkback pushbuttons allows the console o
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p42 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p42%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p42 (traced).dxf`).
+
+### Page 43
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 41–294 mm across, 52–380 mm up
+- **Outlines:** line 1,159 rings, 6,859 straight (30,126 mm) / 1,303 curved (1,741 mm); text 179 rings, 1,387 straight (1,766 mm) / 443 curved (624 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 3.5 @ (78.4, 168.1), r 1.4 @ (183.8, 99.3), r 1.4 @ (223.1, 99.3), r 1.4 @ (164.2, 99.3)
+- **Closed boxes:** 148; named: Ji; Ji
+- **Words (OCR):** 2 in 2 lines: 28 · Ji
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p43 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p43%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p43 (traced).dxf`).
+
+### Page 44
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–294 mm across, 236–392 mm up
+- **Outlines:** line 7 rings, 59 straight (725 mm) / 14 curved (19.0 mm); text 36 rings, 479 straight (796 mm) / 108 curved (205 mm)
+- **Words (OCR):** 4 in 4 lines: WBS · SECTION 10 · RZK · CONSOLE DIAGRAMS
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p44 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p44%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p44 (traced).dxf`).
+
+### Page 45
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–294 mm across, 248–392 mm up
+- **Outlines:** line 7 rings, 83 straight (724 mm) / 15 curved (21.2 mm); text 17 rings, 229 straight (446 mm) / 43 curved (93.7 mm)
+- **Words (OCR):** 3 in 3 lines: WBS · SECTION H1 · TURRET
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p45 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p45%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p45 (traced).dxf`).
+
+### Page 46
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–294 mm across, 248–393 mm up
+- **Outlines:** line 7 rings, 60 straight (725 mm) / 14 curved (18.8 mm); text 25 rings, 324 straight (595 mm) / 62 curved (118 mm)
+- **Words (OCR):** 3 in 3 lines: WBS · SECTION 12 · TORPEY CLOCK
+
+Every curve, box, word and wire group: [1994 - R2K - ConsoleManual2 p46 (traced).json](1994%20-%20R2K%20-%20ConsoleManual2%20p46%20%28traced%29.json) (the CAD file: `1994 - R2K - ConsoleManual2 p46 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

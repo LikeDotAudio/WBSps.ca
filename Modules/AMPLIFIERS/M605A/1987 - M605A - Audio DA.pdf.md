@@ -16,6 +16,265 @@ Wiki page: [M605A](../../../PAGES/M605A.md)
 
 - **1987** (labelled): `ISSUE 3 JANUARY 1987` — …01 B 8-118-06-001 M6o5a System Wi ring LB 605-02-003 MANUAL_ISSUE 3 JANUARY 1987…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 337 × 432 mm, 1562 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–337 mm across, 0–432 mm up
+- **Outlines:** line 74 rings, 2,285 straight (7,842 mm) / 199 curved (425 mm); text 50 rings, 1,016 straight (4,135 mm) / 107 curved (227 mm); tb 1 rings, 40 straight (127 mm) / 1 curved (3.7 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.9 @ (83.4, 368.5)
+- **Closed boxes:** 6
+- **Words (OCR):** 13 in 13 lines: WBS · WBS · WBS · WBS · WBS · WBS · WBS · WBS · M6OSA · AUDIO DIST RIBUTION · MPLIFTER · WBS
+- **Title block:** (186, 1)–(298, 432) mm: WBS · WBS · WBS · WBS · WBS · WBS · WBS · WBS · M6OSA · AUDIO DIST RIBUTION · MPLIFTER · WBS · WBS
+
+Every curve, box, word and wire group: [1987 - M605A - Audio DA p1 (traced).json](1987%20-%20M605A%20-%20Audio%20DA%20p1%20%28traced%29.json) (the CAD file: `1987 - M605A - Audio DA p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 337 × 432 mm, 1562 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–336 mm across, 4–432 mm up
+- **Outlines:** line 29 rings, 605 straight (3,886 mm) / 68 curved (113 mm); text 154 rings, 1,612 straight (2,276 mm) / 371 curved (611 mm); tb 48 rings, 401 straight (624 mm) / 105 curved (173 mm)
+- **Closed boxes:** 8
+- **Words (OCR):** 11 in 9 lines: SYSTEMS LTD · WBS FAX: 416/438-3885 · WARD-BECK · ONTAAIO MTH 2*4 · TELEPHONE; 416/438-6550 · M6OSA · AUDIO DISTRIBUTION AMPLIFIER · MANUAL JSSUE # · January [987
+- **Title block:** (44, 390)–(262, 426) mm: SYSTEMS LTD · WBS FAX: 416/438-3885 · WARD-BECK · ONTAAIO MTH 2*4 · TELEPHONE; 416/438-6550
+
+Every curve, box, word and wire group: [1987 - M605A - Audio DA p2 (traced).json](1987%20-%20M605A%20-%20Audio%20DA%20p2%20%28traced%29.json) (the CAD file: `1987 - M605A - Audio DA p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 337 × 432 mm, 1562 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–337 mm across, 4–432 mm up
+- **Outlines:** line 35 rings, 796 straight (3,604 mm) / 77 curved (138 mm); text 577 rings, 4,379 straight (5,335 mm) / 1,276 curved (1,995 mm); tb 4 rings, 27 straight (30.9 mm) / 12 curved (17.6 mm)
+- **Closed boxes:** 5
+- **Words (OCR):** 43 in 39 lines: WAAD-beck systems Ltd · IABLE_QFCONTENTS · M6Q54_AUDIO_DLSTRIBUTION_AMPLLFIER · SECTION · PAGE · Warranty · Technical Data · 1-1 to 1-2 · Circuit Description · 2-1 to · 2-3 · Installation
+- **Title block:** (29, 48)–(253, 429) mm: WAAD-beck systems Ltd · IABLE_QFCONTENTS · M6Q54_AUDIO_DLSTRIBUTION_AMPLLFIER · SECTION · PAGE · Warranty · Technical Data · 1-1 to 1-2 · Circuit Description · 2-1 to · 2-3 · Installation · 3-1 · Part
+
+Every curve, box, word and wire group: [1987 - M605A - Audio DA p3 (traced).json](1987%20-%20M605A%20-%20Audio%20DA%20p3%20%28traced%29.json) (the CAD file: `1987 - M605A - Audio DA p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 314 × 432 mm, 1456 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 11–425 mm up
+- **Outlines:** line 42 rings, 432 straight (2,731 mm) / 69 curved (94.2 mm); text 1,738 rings, 16,695 straight (17,381 mm) / 5,136 curved (7,638 mm); tb 27 rings, 386 straight (669 mm) / 72 curved (112 mm)
+- **Closed boxes:** 15
+- **Words (OCR):** 42 in 36 lines: WARD-BECK SYSTEMS · WARRANTY · products are warranted against defective materials and workmanship for a period · All Ward-Beck Systems Ltd · of one year from the date of shipment_ · Ward-Beck Systems · Ltd . · will repair or replace , at its option and without charge , all said products or parts the
+- **Title block:** (16, 36)–(309, 419) mm: WARD-BECK SYSTEMS · WARRANTY · products are warranted against defective materials and workmanship for a period · All Ward-Beck Systems Ltd · of one year from the date of shipment_ · Ward-Beck Systems 
+
+Every curve, box, word and wire group: [1987 - M605A - Audio DA p4 (traced).json](1987%20-%20M605A%20-%20Audio%20DA%20p4%20%28traced%29.json) (the CAD file: `1987 - M605A - Audio DA p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 314 × 432 mm, 1456 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–314 mm across, 1–425 mm up
+- **Outlines:** line 60 rings, 699 straight (3,627 mm) / 106 curved (153 mm); text 1,341 rings, 9,171 straight (9,881 mm) / 2,938 curved (4,556 mm); tb 1 rings, 5 straight (3.1 mm) / 1 curved (1.3 mm)
+- **Words (OCR):** 190 in 103 lines: WAAD-BECK SYSTEms LTD · TECHNICAL DATA · M6O5A AUDI0 DISTR IBUTION AMPLIFIER · Gain: · +18 t0 · dB continuously variable · (Bridging Gain) · Frequency Response: · 40.2 · dB from 20 Hz 20 khz . · Noise: · maximum gain:
+- **Title block:** (19, 401)–(144, 425) mm: WAAD-BECK SYSTEms LTD
+
+Every curve, box, word and wire group: [1987 - M605A - Audio DA p5 (traced).json](1987%20-%20M605A%20-%20Audio%20DA%20p5%20%28traced%29.json) (the CAD file: `1987 - M605A - Audio DA p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 311 × 432 mm, 1442 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–311 mm across, 1–424 mm up
+- **Outlines:** line 21 rings, 447 straight (3,076 mm) / 61 curved (90.9 mm); text 180 rings, 1,492 straight (1,775 mm) / 363 curved (578 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 25 in 14 lines: WAAD-BecK systems LTD · TECHNICAL DATA · MGOSA AUDI0 distributION · AMPLIFIER · Dimensions: · wide 3.4" high · 13.7" deep · (42 mm · 83 mm · 336 mm) · Weight: · 3 pounds
+
+Every curve, box, word and wire group: [1987 - M605A - Audio DA p6 (traced).json](1987%20-%20M605A%20-%20Audio%20DA%20p6%20%28traced%29.json) (the CAD file: `1987 - M605A - Audio DA p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 311 × 432 mm, 1442 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–311 mm across, 1–415 mm up
+- **Outlines:** line 35 rings, 608 straight (3,302 mm) / 86 curved (138 mm); text 1,929 rings, 13,336 straight (14,371 mm) / 4,137 curved (6,496 mm); tb 4 rings, 13 straight (10.7 mm) / 9 curved (13.2 mm)
+- **Words (OCR):** 284 in 132 lines: WARO-Beck Systems LTD · CiRcuIT DESCRIPTION · M6o5A AUD0 · DISTRIBUTION · AMPLIFIER · The M6OSA audio distribution · amplifier is an · ac · operated, modular · plug-in unit · designed t0 · bridge across
+- **Title block:** (15, 54)–(122, 425) mm: WARO-Beck Systems LTD · M6o5A AUD0 · The M6OSA audio distribution · plug-in unit · designed t0 · provide · for distribution through audio · Lnput · The audio input appears at · and enters · the 8-116 
+
+Every curve, box, word and wire group: [1987 - M605A - Audio DA p7 (traced).json](1987%20-%20M605A%20-%20Audio%20DA%20p7%20%28traced%29.json) (the CAD file: `1987 - M605A - Audio DA p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 311 × 432 mm, 1442 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 19–310 mm across, 0–430 mm up
+- **Outlines:** line 50 rings, 599 straight (3,094 mm) / 107 curved (162 mm); text 1,872 rings, 12,770 straight (13,819 mm) / 4,070 curved (6,367 mm)
+- **Words (OCR):** 276 in 118 lines: WARD-BECK systems LTD_ · CiRcuiT · DESCRIPLON · MGOSA · AUDI0 DISTRIBUTION AMPLIFIER · The · DIRECT output may · utilized t0 expand the number of · be · isolated · outputs by an · additional four t0 total
+
+Every curve, box, word and wire group: [1987 - M605A - Audio DA p8 (traced).json](1987%20-%20M605A%20-%20Audio%20DA%20p8%20%28traced%29.json) (the CAD file: `1987 - M605A - Audio DA p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 311 × 432 mm, 1442 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–311 mm across, 2–417 mm up
+- **Outlines:** line 35 rings, 625 straight (3,416 mm) / 94 curved (146 mm); text 723 rings, 5,203 straight (5,735 mm) / 1,613 curved (2,508 mm)
+- **Words (OCR):** 111 in 46 lines: WARO-BeCk Systems LTD · circuit DESCRiPTION · M6O5A AUD/0 DISTRIBUTION · AMPLIFIER · The three · LED indicator · circuits are · packaged separately on · printed card, · type · 8-117 · Powec Supely
+
+Every curve, box, word and wire group: [1987 - M605A - Audio DA p9 (traced).json](1987%20-%20M605A%20-%20Audio%20DA%20p9%20%28traced%29.json) (the CAD file: `1987 - M605A - Audio DA p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** schematic 605-02-003, size B (assumed) 311 × 432 mm, 1442 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 20–311 mm across, 0–416 mm up
+- **Outlines:** line 29 rings, 515 straight (3,147 mm) / 70 curved (100 mm); text 1,976 rings, 14,194 straight (15,184 mm) / 4,391 curved (6,812 mm); tb 6 rings, 53 straight (112 mm) / 17 curved (25.1 mm)
+- **Centre lines:** 7,408 paths (361 closed); straight 11,685 mm, curved 6.3 mm; horizontal 2,549 mm, vertical 3,082 mm, diagonal 6,054 mm
+- **Circles and arcs:** 0 circles, 1 arcs
+- **Words (OCR):** 282 in 134 lines: WAAD-BECK Systems LTD; · INSTALLATION · MGO5A AuDi0 DISTRIBUTION · AMPL IFIER · The M6O5A plugs · directly into the · WBS MF6 · mounting frame, which · May · be · installed in · standard EIA 19 inch
+- **Title block:** (14, 280)–(184, 426) mm: WAAD-BECK Systems LTD; · INSTALLATION · MGO5A AuDi0 DISTRIBUTION · The M6O5A plugs · directly into the · WBS MF6 · May · be · installed in · standard EIA 19 inch · frame wi · MF6 · accommodate · maxim
+- **Wiring (first pass):** 2 connected wire groups from 11 runs
+
+Every curve, box, word and wire group: [1987 - M605A - Audio DA p10 (traced).json](1987%20-%20M605A%20-%20Audio%20DA%20p10%20%28traced%29.json) (the CAD file: `1987 - M605A - Audio DA p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 311 × 432 mm, 1442 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 21–293 mm across, 1–419 mm up
+- **Outlines:** line 122 rings, 1,011 straight (3,410 mm) / 201 curved (303 mm); text 1,070 rings, 8,680 straight (9,609 mm) / 2,776 curved (4,400 mm); tb 6 rings, 201 straight (667 mm) / 21 curved (32.5 mm)
+- **Words (OCR):** 154 in 124 lines: WAAD-BECK Systems LtD · PARTS LIST · M6O54 AUDIO DISTRIBUTION AMPLIFIER · PARI DESCRIPTION · MFG · MFG PART · NUMBER · MAiN ERAME · F201 · Fuse 0.175A S.B _ · Buss · MDL 175/1000
+- **Title block:** (15, 283)–(237, 429) mm: WAAD-BECK Systems LtD · PARTS LIST · M6O54 AUDIO DISTRIBUTION AMPLIFIER · PARI DESCRIPTION · MFG · MFG PART · MAiN ERAME · F201 · Fuse 0.175A S.B _ · Buss · R201 · Potentiometer Sk · Clarostat · WBS 1
+
+Every curve, box, word and wire group: [1987 - M605A - Audio DA p11 (traced).json](1987%20-%20M605A%20-%20Audio%20DA%20p11%20%28traced%29.json) (the CAD file: `1987 - M605A - Audio DA p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** wiring 08 09 010, size B (assumed) 311 × 432 mm, 1442 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 20–294 mm across, 19–417 mm up
+- **Outlines:** line 100 rings, 945 straight (3,566 mm) / 214 curved (322 mm); text 694 rings, 5,696 straight (6,368 mm) / 1,683 curved (2,654 mm)
+- **Centre lines:** 3,598 paths (113 closed); straight 6,086 mm, curved 0.0 mm; horizontal 1,654 mm, vertical 1,752 mm, diagonal 2,680 mm
+- **Dots (junctions):** 1
+- **Words (OCR):** 117 in 102 lines: WAAD-Beck SYSTems LTD · PARTS List · M6OSA AUdiO DISTRIBUTION AMPLIFIER · PART DESCRIPTION · MFG · MFG PART · NUMBER · C29 · Capacitor 470 · uF/40 · Philips · L37ETG470
+- **Wiring (first pass):** 2 connected wire groups from 55 runs; labelled ends: 130 mm → M6OSA, AMPLIFIER
+
+Every curve, box, word and wire group: [1987 - M605A - Audio DA p12 (traced).json](1987%20-%20M605A%20-%20Audio%20DA%20p12%20%28traced%29.json) (the CAD file: `1987 - M605A - Audio DA p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 311 × 432 mm, 1442 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–311 mm across, 0–416 mm up
+- **Outlines:** line 152 rings, 1,283 straight (4,386 mm) / 273 curved (420 mm); text 534 rings, 4,421 straight (4,952 mm) / 1,285 curved (2,000 mm)
+- **Words (OCR):** 107 in 93 lines: WAAD-BECK Systems LTD; · PARTS LIST · M6OSA AUdi0 DSTRibUTION · AMLIFIER · MFG PART · NUMBER · PART · DESCRIPTION · MFG · 1/4w 57 · R13 · Resistor
+- **Title block:** (13, 402)–(120, 426) mm: WAAD-BECK Systems LTD;
+
+Every curve, box, word and wire group: [1987 - M605A - Audio DA p13 (traced).json](1987%20-%20M605A%20-%20Audio%20DA%20p13%20%28traced%29.json) (the CAD file: `1987 - M605A - Audio DA p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 311 × 432 mm, 1442 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–311 mm across, 0–419 mm up
+- **Outlines:** line 128 rings, 1,183 straight (3,866 mm) / 238 curved (372 mm); text 605 rings, 4,923 straight (5,642 mm) / 1,390 curved (2,207 mm)
+- **Words (OCR):** 94 in 82 lines: WAAD-BECK · systems LTD · ORaw · PARTS LIST · MGOSA AUDO distriButiON · AMPLIFIER · PARI DESCRIPTION · MFG · MFG PART · NUMBER · RL6 · Resistor
+- **Title block:** (13, 404)–(120, 429) mm: WAAD-BECK · systems LTD
+
+Every curve, box, word and wire group: [1987 - M605A - Audio DA p14 (traced).json](1987%20-%20M605A%20-%20Audio%20DA%20p14%20%28traced%29.json) (the CAD file: `1987 - M605A - Audio DA p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 311 × 432 mm, 1442 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–311 mm across, 0–416 mm up
+- **Outlines:** line 77 rings, 858 straight (3,902 mm) / 138 curved (216 mm); text 666 rings, 5,241 straight (5,835 mm) / 1,551 curved (2,431 mm); tb 57 rings, 285 straight (294 mm) / 81 curved (127 mm)
+- **Words (OCR):** 98 in 84 lines: WAAD-BECK systems · LTD · PARTS List · M6O5A AUDIO distriButiON · AMPLIFIER · PART · DESCRIPTION · MFG · MFG · PART NUMBER · 3w  57 · Dale
+- **Title block:** (15, 56)–(121, 426) mm: WAAD-BECK systems · PART · DESCRIPTION · 3w  57 · RoI · Resistor · Ri0z · R103 · Resistor 1/4w · Riou · Resistor · 3w  5% · R105 · 1/4w 59 · Resistor · R106 · R107 · R1O8 · R1og · R1IO · R1I2 · R1T3 ·
+
+Every curve, box, word and wire group: [1987 - M605A - Audio DA p15 (traced).json](1987%20-%20M605A%20-%20Audio%20DA%20p15%20%28traced%29.json) (the CAD file: `1987 - M605A - Audio DA p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 311 × 432 mm, 1442 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 19–311 mm across, 0–414 mm up
+- **Outlines:** line 12 rings, 492 straight (2,768 mm) / 58 curved (91.7 mm); text 148 rings, 1,571 straight (2,102 mm) / 420 curved (681 mm)
+- **Words (OCR):** 19 in 12 lines: WAAD-BECk BYBTEMB LTD: · ADDENDUM · M605A AUDLO_DLSIRLBUILON_AMPLIELER · 8-Ll6_PCB · On some · units · U2 wil be T1 · TLO7ICP _ In · this instance R5S · and R56 wi · be  1800 ohms · 1/4w 5%.
+
+Every curve, box, word and wire group: [1987 - M605A - Audio DA p16 (traced).json](1987%20-%20M605A%20-%20Audio%20DA%20p16%20%28traced%29.json) (the CAD file: `1987 - M605A - Audio DA p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** functional 605-01-002, size B (assumed) 432 × 334 mm, 2000 × 1549 px traced (0.216 mm/px)
+- **Ink extent:** 8–432 mm across, 0–310 mm up
+- **Outlines:** line 96 rings, 2,023 straight (6,926 mm) / 228 curved (410 mm); text 346 rings, 2,529 straight (3,429 mm) / 752 curved (1,301 mm); tb 10 rings, 132 straight (374 mm) / 14 curved (25.2 mm)
+- **Centre lines:** 2,559 paths (65 closed); straight 5,981 mm, curved 117 mm; horizontal 2,478 mm, vertical 1,452 mm, diagonal 2,051 mm
+- **Circles and arcs:** 4 circles, 1 arcs; largest r 5.3 @ (179.8, 111.5), r 5.3 @ (180.0, 147.3), r 5.2 @ (180.5, 182.8), r 1.5 @ (326.9, 252.0)
+- **Closed boxes:** 6 (5 in the title block)
+- **Words (OCR):** 46 in 39 lines: DIRECT Output · INPUT · 10 To +14 dBm · (-6 dB) · PRE · Out · 600 ohms · (-6 dB) · +8 dBm · 600 ohms · GAIN · (-6 dB)
+- **Title block:** (242, 4)–(432, 93) mm: ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRNVIncE 72.2 · M6oSA · ENG_ · AUDIO DISTRIBUTION · AMPLIFIER · CKD: Kilc_ · FUNCTIONAL · DIAGRAM · APP · SCALE · ISSUE · 605-01-002
+- **Wiring (first pass):** 61 connected wire groups from 116 runs; labelled ends: 272 mm → DIRECT, (-6 dB), Out; 114 mm → VAC; 109 mm → 6/+18 dB; 76 mm → PRE, Out; 63 mm → PRE, 10 To +14 dBm
+
+Every curve, box, word and wire group: [1987 - M605A - Audio DA p17 (traced).json](1987%20-%20M605A%20-%20Audio%20DA%20p17%20%28traced%29.json) (the CAD file: `1987 - M605A - Audio DA p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** schematic 605-02-002, size B (assumed) 432 × 281 mm, 2000 × 1301 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–276 mm up
+- **Outlines:** line 1,281 rings, 12,162 straight (22,626 mm) / 2,755 curved (3,543 mm); text 835 rings, 4,786 straight (4,239 mm) / 1,951 curved (2,481 mm)
+- **Centre lines:** 14,947 paths (310 closed); straight 15,812 mm, curved 514 mm; horizontal 5,779 mm, vertical 4,128 mm, diagonal 5,905 mm
+- **Circles and arcs:** 13 circles, 111 arcs; largest r 4.0 @ (317.8, 139.3), r 4.0 @ (303.3, 132.8), r 3.9 @ (186.8, 32.4), r 3.9 @ (303.2, 247.9)
+- **Closed boxes:** 17; named: T3zy CR; 4007
+- **Dots (junctions):** 1
+- **Words (OCR):** 207 in 192 lines: 338 · 32 + · r45 · F4C · GkB · 220 · 52e · czo · 230 · ?N4037 · Lmzoi · L420
+- **Wiring (first pass):** 161 connected wire groups from 1,320 runs, 2 dotted junctions; labelled ends: 294 mm → IkB, RIs, ak, 33k; 242 mm → 08J, 4007, 36170, 28; 192 mm → 33/10; 185 mm → 220, cz2, 223, R37; 168 mm → c32, 33/10
+
+Every curve, box, word and wire group: [1987 - M605A - Audio DA p18 (traced).json](1987%20-%20M605A%20-%20Audio%20DA%20p18%20%28traced%29.json) (the CAD file: `1987 - M605A - Audio DA p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** component layout 605-06-006, size B (assumed) 432 × 282 mm, 2000 × 1304 px traced (0.216 mm/px)
+- **Ink extent:** 6–432 mm across, 0–282 mm up
+- **Outlines:** line 485 rings, 7,593 straight (11,984 mm) / 918 curved (964 mm); text 222 rings, 1,987 straight (2,136 mm) / 525 curved (636 mm); tb 19 rings, 241 straight (345 mm) / 47 curved (62.4 mm)
+- **Closed boxes:** 5 (5 in the title block)
+- **Words (OCR):** 33 in 28 lines: Rs · R1z · R23 · PCB 8-116 · Rai · c2b · Tp · PCB 8-117 · R2o1 · F2o1 · PCB 8-118 · Tzo1
+- **Title block:** (286, 1)–(432, 71) mm: Issu DATE · REVISION · APF · WBS WAAD-BECK SYBTEMB · M6oSA · ENG_ · AUDIO DISTRIBUTION · AMPLIFIER · COMPONENT LAYOUT · APP · SCALE · ISSUE · 605-06-006
+
+Every curve, box, word and wire group: [1987 - M605A - Audio DA p19 (traced).json](1987%20-%20M605A%20-%20Audio%20DA%20p19%20%28traced%29.json) (the CAD file: `1987 - M605A - Audio DA p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** component layout 8-116-06-001, size B (assumed) 432 × 272 mm, 2000 × 1261 px traced (0.216 mm/px)
+- **Ink extent:** 15–432 mm across, 0–261 mm up
+- **Outlines:** line 710 rings, 6,966 straight (12,334 mm) / 1,771 curved (1,842 mm); text 1,088 rings, 9,135 straight (9,184 mm) / 2,627 curved (3,149 mm); tb 14 rings, 189 straight (321 mm) / 34 curved (43.2 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 8.6 @ (225.7, 139.8), r 8.6 @ (226.0, 199.4), r 8.2 @ (225.7, 220.4), r 7.4 @ (225.2, 161.3)
+- **Closed boxes:** 22 (6 in the title block); named: R9 z0k; Iriz 5k; R23 s0k; R4i 5ok; Lmzoi; 02 L73572; 03 m2oi; 04 Lm2oi; Crs 25584; 100; 3671; 2/80
+- **Words (OCR):** 156 in 124 lines: OUTLINE OF · AEAT · Sink FOR Q4,05,Qstqi0_ · Hf · LF · OfF Set Off · Tp · 2n3569 · +-C322/35 · R9 z0k · Iriz 5k · R23 s0k
+- **Title block:** (282, 2)–(432, 71) mm: 2/80 · 3670 · PM · IsSUE DATE · REVISION · APP · WBS · WARD-BECK SYBTEMB · DRN: GEB · 8-116 · ENG.GEB 2/79 · DA_ AMPLIFIER · COMPONENT LAYOUT · APP · SCALE · ISSUE · 2.1 · 8-116-06-001
+
+Every curve, box, word and wire group: [1987 - M605A - Audio DA p20 (traced).json](1987%20-%20M605A%20-%20Audio%20DA%20p20%20%28traced%29.json) (the CAD file: `1987 - M605A - Audio DA p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** component layout 8-117-06-001, size B (assumed) 376 × 432 mm, 1739 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–376 mm across, 0–418 mm up
+- **Outlines:** line 160 rings, 3,151 straight (7,269 mm) / 746 curved (862 mm); text 551 rings, 6,374 straight (7,646 mm) / 1,503 curved (1,857 mm); tb 9 rings, 234 straight (396 mm) / 24 curved (30.1 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 8.3 @ (73.9, 159.7), r 5.5 @ (53.9, 371.5), r 5.1 @ (56.5, 139.3), r 3.1 @ (335.6, 381.0)
+- **Closed boxes:** 10 (7 in the title block); named: C C Ik 3w RiOI 8 - 117 Ik 3w Rioz C E Ds; uiOI Jen356? LMI4S8
+- **Words (OCR):** 82 in 69 lines: NOTE:: · TRANSISTORS 3io1 AND · 3102 ARE · PN3645 _ · DIODES · ARE IN4143 · C C · Ik 3w · RiOI · 8 - 117 · Ik 3w · Rioz
+- **Title block:** (140, 2)–(376, 114) mm: 42 · 4oz9 · 380 219 · ML · ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: GEB · 8-117 · ENG. GEB 1/79 · INDICATOR DRIVER · CKD. · COMPONENT · LAYOUT · APP · SCALE · ISSUE · 8-117-06-001 ·
+
+Every curve, box, word and wire group: [1987 - M605A - Audio DA p21 (traced).json](1987%20-%20M605A%20-%20Audio%20DA%20p21%20%28traced%29.json) (the CAD file: `1987 - M605A - Audio DA p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** component layout 8-118-06-001, size B (assumed) 262 × 432 mm, 1214 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 14–262 mm across, 0–413 mm up
+- **Outlines:** line 72 rings, 1,858 straight (5,057 mm) / 457 curved (470 mm); text 312 rings, 3,796 straight (4,616 mm) / 979 curved (1,176 mm); tb 4 rings, 165 straight (316 mm) / 11 curved (13.7 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.2 @ (51.2, 275.6)
+- **Closed boxes:** 7 (7 in the title block)
+- **Words (OCR):** 38 in 32 lines: NOTE · RESISTORZ ARE · ALL · 300_ '2 W · R23s · R2o3 · R2o7 · R2o4 · R2o8 · R2os · R2os · Risht HAND
+- **Title block:** (41, 0)–(262, 107) mm: ISSUE (DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN. · GEB · 8-118 · ENG. GEB 1/79 · ISOLATION NETWORK · CKD. Kell_ · COMPONENT · LAYOUT · APP · SCALE · ISSUE · 8-118-06-001 · 2:1
+
+Every curve, box, word and wire group: [1987 - M605A - Audio DA p22 (traced).json](1987%20-%20M605A%20-%20Audio%20DA%20p22%20%28traced%29.json) (the CAD file: `1987 - M605A - Audio DA p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** schematic 605-02-003, size B (assumed) 432 × 148 mm, 2000 × 688 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–144 mm up
+- **Outlines:** line 804 rings, 6,819 straight (13,201 mm) / 1,488 curved (1,958 mm); text 396 rings, 2,201 straight (2,015 mm) / 807 curved (1,064 mm); tb 2 rings, 40 straight (102 mm) / 2 curved (3.2 mm)
+- **Centre lines:** 9,316 paths (206 closed); straight 9,600 mm, curved 200 mm; horizontal 3,824 mm, vertical 2,492 mm, diagonal 3,284 mm
+- **Circles and arcs:** 2 circles, 68 arcs; largest r 1.3 @ (390.0, 13.3), r 1.0 @ (1.8, 80.6)
+- **Closed boxes:** 45
+- **Dots (junctions):** 1
+- **Words (OCR):** 65 in 62 lines: CONNECTR · VEW · Wiriug · OEMUTPLE · WRINs · RELR · FrAME · DuT · LCAC · (NPUT · Teehinition · LDDD
+- **Title block:** (354, 20)–(432, 31) mm: WBS · WARD-BECK systenB
+- **Wiring (first pass):** 92 connected wire groups from 867 runs, 2 dotted junctions; labelled ends: 337 mm → TECHVICAL; 261 mm → 75, JcDI; 196 mm → CutpuT, Output; 137 mm → PuT; 131 mm → HOC, WARD-BECK systenB, WBS
+
+Every curve, box, word and wire group: [1987 - M605A - Audio DA p23 (traced).json](1987%20-%20M605A%20-%20Audio%20DA%20p23%20%28traced%29.json) (the CAD file: `1987 - M605A - Audio DA p23 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

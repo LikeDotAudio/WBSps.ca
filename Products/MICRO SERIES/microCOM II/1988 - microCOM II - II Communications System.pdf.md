@@ -15,6 +15,231 @@ Wiki page: [microCOM-II](../../../PAGES/microCOM-II.md)
 
 - **1988** (manual_issue): `MANUAL ISSUE #2 March 17 , 1988` — …ONE_ C16,433-6550 WES 3 3 MicroCOM Il COMMUNICATIONS SYSTEM MANUAL ISSUE #2 March 17 , 1988…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 324 × 432 mm, 1500 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–324 mm across, 0–431 mm up
+- **Outlines:** line 396 rings, 4,367 straight (8,643 mm) / 503 curved (688 mm); text 48 rings, 945 straight (3,741 mm) / 76 curved (144 mm); tb 5 rings, 84 straight (356 mm) / 5 curved (17.9 mm)
+- **Words (OCR):** 12 in 12 lines: WBS · WBS · WBS · WBS · WBS · WBS · WBS · WBS · MicroCOM II · COMMUNICATIONS SYSTEM · WBS · WBS
+- **Title block:** (177, 0)–(281, 412) mm: WBS · WBS · WBS · WBS · WBS · WBS · WBS · WBS · MicroCOM II · COMMUNICATIONS SYSTEM · WBS · WBS
+
+Every curve, box, word and wire group: [1988 - microCOM II - II Communications System p1 (traced).json](1988%20-%20microCOM%20II%20-%20II%20Communications%20System%20p1%20%28traced%29.json) (the CAD file: `1988 - microCOM II - II Communications System p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 324 × 432 mm, 1501 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–324 mm across, 36–410 mm up
+- **Outlines:** line 5,879 rings, 40,578 straight (26,411 mm) / 7,135 curved (6,708 mm); text 159 rings, 864 straight (567 mm) / 107 curved (92.8 mm); tb 7 rings, 27 straight (16.0 mm) / 1 curved (0.9 mm)
+- **Closed boxes:** 14
+- **Dots (junctions):** 3
+- **Words (OCR):** 76 in 58 lines: 4B $ · Nicrocon I · Commun ications System · Matrix Index f ile. file . · Create Edit · or · Create Edit Teraina[ Group file · or · Termina ] · asstignment · Create Edit a · or
+- **Title block:** (60, 37)–(282, 176) mm: With its superior design and advanced PC based software, MicrocOM Il moves communications · technology a whole generation forward , outperforming all the rest by · significant margin · While some of i
+
+Every curve, box, word and wire group: [1988 - microCOM II - II Communications System p2 (traced).json](1988%20-%20microCOM%20II%20-%20II%20Communications%20System%20p2%20%28traced%29.json) (the CAD file: `1988 - microCOM II - II Communications System p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 324 × 432 mm, 1501 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–324 mm across, 0–415 mm up
+- **Outlines:** line 71 rings, 1,419 straight (4,371 mm) / 177 curved (241 mm); text 187 rings, 1,822 straight (2,522 mm) / 464 curved (735 mm)
+- **Closed boxes:** 5
+- **Words (OCR):** 14 in 12 lines: WARD-BECK SYSTEMS · LTD_ · WES 841 PAOGAESS · AVENUE, SCARBOROUGH, ONTARIO M1A2x4 · 035-25399 · TELEPHONE · 416/438-6550 · TELEX · MicroCOM II · COMMUNICATIONS SYSTEM · MANUAL ISSUE #2 · March 17 , 1988
+- **Title block:** (103, 66)–(283, 402) mm: WARD-BECK SYSTEMS · LTD_ · AVENUE, SCARBOROUGH, ONTARIO M1A2x4 · 035-25399 · TELEPHONE · 416/438-6550 · TELEX · MicroCOM II · COMMUNICATIONS SYSTEM · MANUAL ISSUE #2 · March 17 , 1988
+
+Every curve, box, word and wire group: [1988 - microCOM II - II Communications System p3 (traced).json](1988%20-%20microCOM%20II%20-%20II%20Communications%20System%20p3%20%28traced%29.json) (the CAD file: `1988 - microCOM II - II Communications System p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 432 × 324 mm, 2000 × 1501 px traced (0.216 mm/px)
+- **Ink extent:** 0–414 mm across, 55–323 mm up
+- **Outlines:** line 674 rings, 8,612 straight (16,215 mm) / 1,364 curved (1,720 mm); text 17 rings, 183 straight (383 mm) / 42 curved (101 mm)
+- **Closed boxes:** 8
+- **Dots (junctions):** 1
+- **Words (OCR):** 1 in 1 lines: WBS MicroCOM II
+
+Every curve, box, word and wire group: [1988 - microCOM II - II Communications System p4 (traced).json](1988%20-%20microCOM%20II%20-%20II%20Communications%20System%20p4%20%28traced%29.json) (the CAD file: `1988 - microCOM II - II Communications System p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 324 × 432 mm, 1501 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–323 mm across, 0–415 mm up
+- **Outlines:** line 50 rings, 1,441 straight (4,294 mm) / 215 curved (300 mm); text 537 rings, 3,961 straight (4,481 mm) / 1,312 curved (1,954 mm)
+- **Words (OCR):** 30 in 29 lines: WARD-BECK Systems · LTD · IABLE QF CONTENTS · MictoCOM ILCOMMUNCATIONS SYSTEM · SECTION · PAGE · Introduction · 1-] to 1-2 · Communications Terminals: · 2-1 to 2-11 · General · The M7880 Communications Terminal
+- **Title block:** (19, 377)–(122, 402) mm: WARD-BECK Systems
+
+Every curve, box, word and wire group: [1988 - microCOM II - II Communications System p5 (traced).json](1988%20-%20microCOM%20II%20-%20II%20Communications%20System%20p5%20%28traced%29.json) (the CAD file: `1988 - microCOM II - II Communications System p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 324 × 432 mm, 1501 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–324 mm across, 21–428 mm up
+- **Outlines:** line 46 rings, 1,297 straight (3,822 mm) / 156 curved (246 mm); text 3,779 rings, 24,367 straight (24,087 mm) / 8,975 curved (13,124 mm); tb 30 rings, 153 straight (128 mm) / 79 curved (102 mm)
+- **Words (OCR):** 316 in 153 lines: 7 : 6Xa*0.? / 3.v · WAAD-BECK · systeMS LTD_ · MicroCOM ILCQMMUNICATIONSSYSTEM · INTRODLCTION · The Ward-Beck · Systems MicroCOM II · From each M7880 series communications · Communications system has evolved · terminal only three pair of audio wires · from over · eighteen years of experience are
+- **Title block:** (29, 120)–(287, 425) mm: 7 : 6Xa*0.? / 3.v · WAAD-BECK · systeMS LTD_ · MicroCOM ILCQMMUNICATIONSSYSTEM · INTRODLCTION · The Ward-Beck · Systems MicroCOM II · From each M7880 series communications · Communications system has 
+
+Every curve, box, word and wire group: [1988 - microCOM II - II Communications System p6 (traced).json](1988%20-%20microCOM%20II%20-%20II%20Communications%20System%20p6%20%28traced%29.json) (the CAD file: `1988 - microCOM II - II Communications System p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 432 × 306 mm, 2000 × 1415 px traced (0.216 mm/px)
+- **Ink extent:** 0–425 mm across, 0–288 mm up
+- **Outlines:** line 106 rings, 1,787 straight (5,070 mm) / 316 curved (474 mm); text 3,882 rings, 21,302 straight (18,721 mm) / 7,326 curved (9,540 mm); tb 106 rings, 509 straight (420 mm) / 189 curved (262 mm)
+- **Closed boxes:** 2; named: MicroCOM LL COMMUNCATIONS SYSTEM [NTRODU; MicroCOM IL COMMUNICATIONS SYSTEM COMMUN
+- **Words (OCR):** 360 in 225 lines: WAAD-BECK SySsteMS LTD; · WAAD-BECK systeMs LTD; · 2 ^437' ~o.~m~ · < .^R ='0 .5^" -AAV · MicroCOM IL COMMUNICATIONS SYSTEM · MicroCOM LL COMMUNCATIONS SYSTEM · COMMUNCATIONS _TERMINALS · [NTRODUCTION · General · available and normally supplied with · voltage  monitoring unit which · MicroCOM II
+- **Title block:** (9, 75)–(360, 285) mm: WAAD-BECK SySsteMS LTD; · WAAD-BECK systeMs LTD; · < .^R ='0 .5^" -AAV · MicroCOM IL COMMUNICATIONS SYSTEM · MicroCOM LL COMMUNCATIONS SYSTEM · COMMUNCATIONS _TERMINALS · [NTRODUCTION · General · avai
+
+Every curve, box, word and wire group: [1988 - microCOM II - II Communications System p7 (traced).json](1988%20-%20microCOM%20II%20-%20II%20Communications%20System%20p7%20%28traced%29.json) (the CAD file: `1988 - microCOM II - II Communications System p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 432 × 306 mm, 2000 × 1415 px traced (0.216 mm/px)
+- **Ink extent:** 17–426 mm across, 0–287 mm up
+- **Outlines:** line 196 rings, 2,270 straight (5,367 mm) / 411 curved (569 mm); text 5,093 rings, 28,258 straight (24,819 mm) / 9,740 curved (12,768 mm); tb 34 rings, 163 straight (144 mm) / 54 curved (71.1 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.1 @ (46.3, 49.0), r 1.1 @ (328.1, 185.0), r 1.1 @ (29.7, 175.2)
+- **Closed boxes:** 2; named: MicroCQMIL COMMUNICATIONS SYSTEM CQMMUNI; MicroCOM IL COMMUNICATIONS_SYSTEM CQMMUN
+- **Words (OCR):** 401 in 252 lines: WAAD-BECK SYSTEMS LTD_ · WAAD-BECK SYSTEMS LTD; · 7'4oy2 Jj "E C:,V · MicroCOM IL COMMUNICATIONS_SYSTEM · MicroCQMIL COMMUNICATIONS SYSTEM · CQMMUNICATIONS TERMINALS · CQMMUNICATIQNS TERMINALS · The M7880 Communications_Terminal · The_MZ880 Communications_Terninal · Six external control inputs and o
+- **Title block:** (10, 184)–(313, 286) mm: WAAD-BECK SYSTEMS LTD_ · WAAD-BECK SYSTEMS LTD; · MicroCOM IL COMMUNICATIONS_SYSTEM · CQMMUNICATIONS TERMINALS · The_MZ880 Communications_Terninal · Six external control inputs and outputs · If  all d
+
+Every curve, box, word and wire group: [1988 - microCOM II - II Communications System p8 (traced).json](1988%20-%20microCOM%20II%20-%20II%20Communications%20System%20p8%20%28traced%29.json) (the CAD file: `1988 - microCOM II - II Communications System p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 317 × 432 mm, 1468 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 27–297 mm across, 25–431 mm up
+- **Outlines:** line 29 rings, 1,042 straight (2,952 mm) / 163 curved (215 mm); text 822 rings, 6,003 straight (6,263 mm) / 2,056 curved (3,086 mm)
+- **Words (OCR):** 113 in 78 lines: WAAD-BECK SYSTEMS LtD · GT #Matdxa Xoaa-GAAW · MicroCOM IL COMMUNICATIONS_SYSTEM · COMMUNICATIONS TERMINALS · The_M7883 Remote_Communications Panel · The M7883 contains · the · front panel · AIL  keyswitches, displays and · keypad · functions of the M7880 communications · functions of the M7880 comm
+
+Every curve, box, word and wire group: [1988 - microCOM II - II Communications System p9 (traced).json](1988%20-%20microCOM%20II%20-%20II%20Communications%20System%20p9%20%28traced%29.json) (the CAD file: `1988 - microCOM II - II Communications System p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 317 × 432 mm, 1467 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–317 mm across, 0–412 mm up
+- **Outlines:** line 1,031 rings, 10,752 straight (27,421 mm) / 1,787 curved (2,711 mm); text 83 rings, 532 straight (502 mm) / 203 curved (284 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 2.7 @ (286.2, 315.9), r 1.6 @ (286.2, 315.9), r 1.4 @ (270.3, 134.8), r 1.4 @ (270.0, 157.1)
+- **Closed boxes:** 36
+- **Dots (junctions):** 27
+- **Words (OCR):** 1 in 1 lines: 2-7
+
+Every curve, box, word and wire group: [1988 - microCOM II - II Communications System p10 (traced).json](1988%20-%20microCOM%20II%20-%20II%20Communications%20System%20p10%20%28traced%29.json) (the CAD file: `1988 - microCOM II - II Communications System p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 317 × 432 mm, 1467 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–315 mm across, 0–412 mm up
+- **Outlines:** line 749 rings, 7,793 straight (16,537 mm) / 1,343 curved (2,211 mm); text 95 rings, 796 straight (835 mm) / 223 curved (318 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 3.3 @ (126.3, 62.3), r 2.0 @ (126.3, 62.3), r 1.8 @ (127.6, 352.3), r 1.8 @ (150.5, 246.5)
+- **Closed boxes:** 32
+- **Dots (junctions):** 25
+- **Words (OCR):** 2 in 2 lines: 8-2 · pegege
+
+Every curve, box, word and wire group: [1988 - microCOM II - II Communications System p11 (traced).json](1988%20-%20microCOM%20II%20-%20II%20Communications%20System%20p11%20%28traced%29.json) (the CAD file: `1988 - microCOM II - II Communications System p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 317 × 432 mm, 1467 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 0–408 mm up
+- **Outlines:** line 307 rings, 3,234 straight (10,892 mm) / 409 curved (742 mm); text 60 rings, 355 straight (353 mm) / 130 curved (172 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 1.7 @ (148.9, 242.2), r 1.7 @ (148.8, 225.5), r 1.7 @ (148.8, 211.5), r 1.7 @ (148.8, 256.2)
+- **Closed boxes:** 20
+- **Dots (junctions):** 1
+- **Words (OCR):** 1 in 1 lines: 6-2
+
+Every curve, box, word and wire group: [1988 - microCOM II - II Communications System p12 (traced).json](1988%20-%20microCOM%20II%20-%20II%20Communications%20System%20p12%20%28traced%29.json) (the CAD file: `1988 - microCOM II - II Communications System p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 317 × 432 mm, 1467 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 1–410 mm up
+- **Outlines:** line 118 rings, 1,699 straight (5,596 mm) / 274 curved (426 mm); text 38 rings, 233 straight (248 mm) / 95 curved (132 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 1.6 @ (94.8, 221.1), r 1.6 @ (94.7, 204.2), r 1.6 @ (94.6, 168.0), r 1.5 @ (150.0, 349.8)
+- **Closed boxes:** 7
+- **Words (OCR):** 1 in 1 lines: 01-
+
+Every curve, box, word and wire group: [1988 - microCOM II - II Communications System p13 (traced).json](1988%20-%20microCOM%20II%20-%20II%20Communications%20System%20p13%20%28traced%29.json) (the CAD file: `1988 - microCOM II - II Communications System p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 317 × 432 mm, 1467 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–317 mm across, 0–410 mm up
+- **Outlines:** line 846 rings, 8,078 straight (21,168 mm) / 1,457 curved (2,184 mm); text 101 rings, 735 straight (748 mm) / 289 curved (384 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 2.7 @ (287.1, 297.1), r 1.7 @ (287.1, 297.1), r 1.4 @ (269.5, 80.6), r 1.4 @ (269.3, 94.0)
+- **Closed boxes:** 40; named: UUL; 0l
+- **Dots (junctions):** 27
+- **Words (OCR):** 3 in 3 lines: 0l · UUL · 2-11
+
+Every curve, box, word and wire group: [1988 - microCOM II - II Communications System p14 (traced).json](1988%20-%20microCOM%20II%20-%20II%20Communications%20System%20p14%20%28traced%29.json) (the CAD file: `1988 - microCOM II - II Communications System p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 317 × 432 mm, 1467 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–314 mm across, 0–411 mm up
+- **Outlines:** line 93 rings, 1,579 straight (4,283 mm) / 271 curved (378 mm); text 3,471 rings, 21,546 straight (21,297 mm) / 7,717 curved (11,388 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 261 in 161 lines: WAAD-BECK SYSTEMS LTD · Ot: Xy5*eehous oA · MictoCOM IL COMMUNICATIONS SYSTEM · CENTRAL MATRIX · Audio · central   switching matrix of the · not left in · the system that do not · The · MicroCOM II Communications System is · have · utilization for
+
+Every curve, box, word and wire group: [1988 - microCOM II - II Communications System p15 (traced).json](1988%20-%20microCOM%20II%20-%20II%20Communications%20System%20p15%20%28traced%29.json) (the CAD file: `1988 - microCOM II - II Communications System p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 432 × 306 mm, 2000 × 1415 px traced (0.216 mm/px)
+- **Ink extent:** 19–424 mm across, 0–288 mm up
+- **Outlines:** line 666 rings, 6,055 straight (11,212 mm) / 922 curved (1,198 mm); text 1,656 rings, 9,641 straight (8,488 mm) / 3,364 curved (4,309 mm); tb 29 rings, 138 straight (119 mm) / 47 curved (60.3 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.1 @ (96.8, 158.2)
+- **Closed boxes:** 2; named: MicroCOM CENTRAL MATRIX AUDIOINTERCONNEC; MicroCOM ILCOMMUNCATIONS SYSTEM CENTRAL 
+- **Words (OCR):** 169 in 113 lines: WAAD-BECK SYSTEMS LTD · 2~_ 2vS12y^ >"5 ~ · WAAD-BECK SYSTEMB LTD: · C7UVztey3Xcle _ vv · MicroCOM ILCOMMUNCATIONS SYSTEM · CENTRAL MATRLX · MicroCOM CENTRAL MATRIX · AUDIOINTERCONNECT · Audio · COMMUNICATIONS · Crosspoints are controlled by the micro- · This input utilized for separate
+- **Title block:** (10, 185)–(326, 285) mm: WAAD-BECK SYSTEMS LTD · 2~_ 2vS12y^ >"5 ~ · WAAD-BECK SYSTEMB LTD: · MicroCOM ILCOMMUNCATIONS SYSTEM · CENTRAL MATRLX · Audio · COMMUNICATIONS · Crosspoints are controlled by the micro- · This input u
+
+Every curve, box, word and wire group: [1988 - microCOM II - II Communications System p16 (traced).json](1988%20-%20microCOM%20II%20-%20II%20Communications%20System%20p16%20%28traced%29.json) (the CAD file: `1988 - microCOM II - II Communications System p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 432 × 306 mm, 2000 × 1415 px traced (0.216 mm/px)
+- **Ink extent:** 0–425 mm across, 0–287 mm up
+- **Outlines:** line 516 rings, 4,656 straight (9,316 mm) / 777 curved (1,029 mm); text 3,540 rings, 20,217 straight (17,370 mm) / 7,215 curved (9,236 mm); tb 9 rings, 45 straight (36.8 mm) / 13 curved (16.3 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.1 @ (411.6, 36.4)
+- **Closed boxes:** 2; named: MicroCom M CENTRAL MATRIX To3 WFB AUd4o ; MictoCOM IL COMMUNICATIONS SYSTEM CENTRA
+- **Words (OCR):** 325 in 184 lines: (.WMatCtu J5i .^-kj · WAAD-BECX BYSTEMS LTD. · WAAD-BECK SYSTEMS LTD_ · 3~3 2.2 Mo53. .^ · MictoCOM IL COMMUNICATIONS SYSTEM · MicroCom M CENTRAL MATRIX · CENTRAL MATRIX · To3 WFB AUd4o INTERCONNECT · Control · The MicroCOM II control system con- · Any stored data · held
+- **Title block:** (234, 211)–(395, 282) mm: WAAD-BECK SYSTEMS LTD_ · MictoCOM IL COMMUNICATIONS SYSTEM · CENTRAL MATRIX · Control · The MicroCOM II control system con- · Any stored data · failure: · electrically erasable memories (EEPROM)_ · si
+
+Every curve, box, word and wire group: [1988 - microCOM II - II Communications System p17 (traced).json](1988%20-%20microCOM%20II%20-%20II%20Communications%20System%20p17%20%28traced%29.json) (the CAD file: `1988 - microCOM II - II Communications System p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 432 × 306 mm, 2000 × 1415 px traced (0.216 mm/px)
+- **Ink extent:** 20–425 mm across, 0–287 mm up
+- **Outlines:** line 301 rings, 4,352 straight (11,915 mm) / 550 curved (776 mm); text 1,023 rings, 6,881 straight (6,397 mm) / 2,240 curved (2,797 mm); tb 1 rings, 21 straight (24.6 mm) / 11 curved (20.1 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.2 @ (388.6, 65.2)
+- **Closed boxes:** 18; named: CONTROL SYSTEM BASIC Microcom CENTRAL AS; MicroCOM IL COMMUNICATIONS SYSTEM CENTRA; M777A STATUS MONITOR; 0b5o8 RELAY CIL; MTRIX LATCHES; I7; M7Z1 MATRIX LATCHES; M7Z1 MAIRIX LATCHES; 15; Mb5o6 MaTrIX CONIRCLLER; M85c6 MATRIX CONTROLLER
+- **Dots (junctions):** 2
+- **Words (OCR):** 162 in 142 lines: WAAD-BECK SYSTEM3 LTD; · WARD-BECK SYSTems LTD, · ~/E.: ^YJBF--i ~ · MicroCOM IL COMMUNICATIONS SYSTEM · CENTRAL MATRLX · BASIC Microcom · CONTROL SYSTEM · Control · at clock speed of 16 MHz in The · balanced   RS422 serial · conjunction with RISC instruction archi- · operating
+- **Title block:** (11, 265)–(329, 284) mm: WAAD-BECK SYSTEM3 LTD; · WARD-BECK SYSTems LTD, · ~/E.: ^YJBF--i ~
+
+Every curve, box, word and wire group: [1988 - microCOM II - II Communications System p18 (traced).json](1988%20-%20microCOM%20II%20-%20II%20Communications%20System%20p18%20%28traced%29.json) (the CAD file: `1988 - microCOM II - II Communications System p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 432 × 306 mm, 2000 × 1415 px traced (0.216 mm/px)
+- **Ink extent:** 3–432 mm across, 2–291 mm up
+- **Outlines:** line 963 rings, 8,105 straight (9,446 mm) / 738 curved (799 mm); text 1,308 rings, 7,703 straight (6,812 mm) / 2,744 curved (3,546 mm)
+- **Closed boxes:** 3; named: MicroCOM IL COMMUNCATIONS SYSTEM Technic
+- **Words (OCR):** 62 in 57 lines: WAAD-BECK SYSTEMS LTD · MicroCOM IL COMMUNCATIONS SYSTEM · TechnicaL Specifications · Gain: · Microphone input via · matrix to spcaker output · +87 dB nominal (-62 dBm in · for 300 mw out) · +107 dB maximum (-72 dBm in, for · watts out): · Frcquency Response: · Microphonc input via matrix to spcaker
+
+Every curve, box, word and wire group: [1988 - microCOM II - II Communications System p19 (traced).json](1988%20-%20microCOM%20II%20-%20II%20Communications%20System%20p19%20%28traced%29.json) (the CAD file: `1988 - microCOM II - II Communications System p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 432 × 306 mm, 2000 × 1415 px traced (0.216 mm/px)
+- **Ink extent:** 0–424 mm across, 0–287 mm up
+- **Outlines:** line 57 rings, 1,232 straight (4,386 mm) / 182 curved (296 mm); text 1,429 rings, 8,346 straight (7,603 mm) / 2,712 curved (3,618 mm)
+- **Closed boxes:** 2; named: MicroCQM IL COMMUNICATIONS_SYSTEM Techni; MictoCQM JLCQMMUNICATIONS SYSTEM Technic
+- **Words (OCR):** 84 in 67 lines: WAAD-BECK SysteMs LTD; · WAAD-BECK SYSTEMS LTD · MictoCQM JLCQMMUNICATIONS SYSTEM · MicroCQM IL COMMUNICATIONS_SYSTEM · Technical Spccifications · TechnicaL Specifications · Output Levels: · Powcr Rcquirements: · Preamplificr: +8 dBm nominal · Communications Terminal: · 15/230 Volts 50/60 Hz 50 VA. 
+- **Title block:** (11, 264)–(327, 283) mm: WAAD-BECK SysteMs LTD; · WAAD-BECK SYSTEMS LTD
+
+Every curve, box, word and wire group: [1988 - microCOM II - II Communications System p20 (traced).json](1988%20-%20microCOM%20II%20-%20II%20Communications%20System%20p20%20%28traced%29.json) (the CAD file: `1988 - microCOM II - II Communications System p20 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -15,6 +15,699 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 
 - **1985** (month): `JAN 85` — …Wbs Msj08 ISSUE DATE REVISION WBS WARD-BECK SYSTEME ORN.BD JAN 85 ENG: Hw Ckd; '6 ! M538B 4X2 MONO SWITCHER MODULE FRONT PANE…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1547 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 22–332 mm across, 5–432 mm up
+- **Outlines:** line 88 rings, 1,958 straight (5,589 mm) / 127 curved (271 mm); text 84 rings, 1,372 straight (3,307 mm) / 234 curved (424 mm); tb 12 rings, 286 straight (1,091 mm) / 30 curved (120 mm)
+- **Words (OCR):** 15 in 14 lines: WBS · WBS · WBS · WBS · WBS · WBS · WBS · WBS · SERIES STEREO CONSOLE · ST · WBS · WBS
+- **Title block:** (29, 15)–(282, 420) mm: WBS · WBS · WBS · WBS · WBS · WBS · WBS · WBS · SERIES STEREO CONSOLE · ST · WBS · WBS · WARD-BeCk · bybteMB LTD_
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p1 (traced).json](1985%20-%20ST%20-%20Binder1%20p1%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1548 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 5–432 mm up
+- **Outlines:** line 52 rings, 1,202 straight (3,152 mm) / 151 curved (251 mm); text 163 rings, 1,811 straight (2,488 mm) / 490 curved (851 mm); tb 7 rings, 114 straight (308 mm) / 11 curved (17.7 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 2.7 @ (4.0, 141.6), r 2.7 @ (4.1, 102.6), r 2.7 @ (4.4, 24.3), r 2.6 @ (3.6, 415.6)
+- **Words (OCR):** 13 in 9 lines: WARD-BECK · SYSTEMS LTD; · WBS 841 PROGRESS AVENUE, SCARBOROUGH; ONTARIO Mhexa · 4161438-6550 · TeLex 065-25399 · TeLEPHONJE: · ST2442/5T3642 · STEREO · TELEVISION CONSOLES
+- **Title block:** (36, 394)–(260, 432) mm: WARD-BECK · SYSTEMS LTD; · WBS 841 PROGRESS AVENUE, SCARBOROUGH; ONTARIO Mhexa · 4161438-6550 · TeLex 065-25399 · TeLEPHONJE:
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p2 (traced).json](1985%20-%20ST%20-%20Binder1%20p2%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1548 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 5–432 mm up
+- **Outlines:** line 51 rings, 968 straight (2,771 mm) / 179 curved (505 mm); text 3,045 rings, 20,218 straight (22,509 mm) / 6,583 curved (10,039 mm); tb 226 rings, 1,457 straight (1,684 mm) / 477 curved (721 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 5.9 @ (27.1, 329.5), r 2.7 @ (3.0, 416.6), r 2.6 @ (2.9, 260.3), r 2.6 @ (3.3, 221.2)
+- **Words (OCR):** 329 in 176 lines: Introduction · ST Stereophonic · Production · and Programming · The · WARD-BECK Series · Consoles have · been designed primarily to · provide the · broadcaster · flexibility and · stereophonic facilities
+- **Title block:** (78, 7)–(323, 404) mm: ST Stereophonic · Production · and Programming · WARD-BECK Series · Consoles have · been designed primarily to · provide the · broadcaster · flexibility and · stereophonic facilities · th · maximum · 
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p3 (traced).json](1985%20-%20ST%20-%20Binder1%20p3%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 2–420 mm up
+- **Outlines:** line 24 rings, 604 straight (1,769 mm) / 97 curved (207 mm); text 2,503 rings, 17,542 straight (20,613 mm) / 5,762 curved (9,106 mm); tb 12 rings, 89 straight (208 mm) / 18 curved (25.8 mm)
+- **Words (OCR):** 277 in 144 lines: ST2442 Summary of Facilities · 12 · Monaural · Microphone/Line Input · Channels, consisting of · WBS · Type M520 · Input Module, M522 Three · Band State Variable · Channel Equalizer, and · Penny and · Giles conductive
+- **Title block:** (83, 3)–(321, 380) mm: Monaural · Microphone/Line Input · Channels, consisting of · WBS · Type M520 · Input Module, M522 Three · Band State Variable · Channel Equalizer, and · Penny and · Giles conductive · plastic · fader 
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p4 (traced).json](1985%20-%20ST%20-%20Binder1%20p4%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 0–418 mm up
+- **Outlines:** line 72 rings, 678 straight (1,543 mm) / 76 curved (172 mm); text 1,584 rings, 11,159 straight (13,456 mm) / 3,510 curved (5,613 mm); tb 5 rings, 79 straight (195 mm) / 6 curved (8.0 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 6.0 @ (26.8, 328.4), r 2.7 @ (3.1, 336.6), r 2.6 @ (3.4, 415.6), r 2.6 @ (3.5, 218.5)
+- **Dots (junctions):** 1
+- **Words (OCR):** 175 in 102 lines: 16 · Audio · Level Meters, · (vu · Meters · standard, PPM Meters · optional ) with meters · dedicated to · Stereo · Submasters and · Stereo · and Monaural
+- **Title block:** (144, 3)–(324, 356) mm: posi tions to · accommodate · comprehensive family of · Processing Modules, available to · console input or · patchable basis_ · consisting of · eight rows · of 24 · (ADC PJ839 · Series) jacks, · prov
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p5 (traced).json](1985%20-%20ST%20-%20Binder1%20p5%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 2–431 mm up
+- **Outlines:** line 28 rings, 427 straight (1,401 mm) / 83 curved (166 mm); text 1,681 rings, 12,025 straight (14,417 mm) / 3,715 curved (5,901 mm); tb 7 rings, 98 straight (196 mm) / 12 curved (18.5 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.7 @ (4.2, 374.9), r 2.7 @ (3.4, 414.7), r 2.6 @ (4.7, 20.2), r 2.6 @ (4.7, 217.7)
+- **Dots (junctions):** 1
+- **Words (OCR):** 173 in 108 lines: Patchable Audio · Processing Modules, up · to · maximum of · 12 · standard prewired · mainframe. · devices, for · inclusion in the · The · processing · modules may
+- **Title block:** (86, 4)–(326, 238) mm: Peak · Program · Metering, available with · variety of meter · only on · scales, · provided for all · metering functions, or · specified Master, Sub or · Utility meter groups, · with vu · Metering ret
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p6 (traced).json](1985%20-%20ST%20-%20Binder1%20p6%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 1–432 mm up
+- **Outlines:** line 63 rings, 1,012 straight (2,331 mm) / 149 curved (415 mm); text 2,486 rings, 17,250 straight (19,883 mm) / 5,598 curved (8,782 mm); tb 7 rings, 94 straight (190 mm) / 14 curved (22.6 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.6 @ (2.5, 219.1)
+- **Words (OCR):** 269 in 160 lines: of Facilities · ST3642 Summary · Microphone/Line Input · Channels, consisting of · 24 · Monaural · WBS · Type M520 Input · Module, M522 · Three Band State · Variable · Equalizer, and
+- **Title block:** (85, 3)–(323, 380) mm: Microphone/Line Input · Channels, consisting of · Monaural · WBS · Type M520 Input · Module, M522 · Three Band State · Variable · Equalizer, and · Penny and Giles · conductive · plastic · Channel · fa
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p7 (traced).json](1985%20-%20ST%20-%20Binder1%20p7%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 1–419 mm up
+- **Outlines:** line 40 rings, 602 straight (1,743 mm) / 77 curved (160 mm); text 1,571 rings, 11,067 straight (13,330 mm) / 3,597 curved (5,749 mm); tb 10 rings, 102 straight (204 mm) / 15 curved (19.0 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.7 @ (3.1, 416.1), r 2.7 @ (3.5, 376.4), r 2.6 @ (3.1, 219.1), r 2.6 @ (2.8, 337.2)
+- **Words (OCR):** 167 in 97 lines: 16 · Audio Level · Meters · (vu Meters · standard, PPM Meters · optional ) with · meters · dedicated to · Stereo Submasters and · Stereo and Monaural · Masters, plus two · Utility meters,
+- **Title block:** (162, 2)–(324, 357) mm: accommodate · comprehensive · family of · Processing Modules, available to · console · input or · patchable basis_ · consisting of ten rows · of 24 · Bantam jacks · (ADC PJ839 · Series) · providing · 
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p8 (traced).json](1985%20-%20ST%20-%20Binder1%20p8%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 2–419 mm up
+- **Outlines:** line 47 rings, 593 straight (1,727 mm) / 108 curved (213 mm); text 3,318 rings, 22,690 straight (25,803 mm) / 7,289 curved (11,432 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.6 @ (2.7, 416.5)
+- **Dots (junctions):** 3
+- **Words (OCR):** 391 in 214 lines: ST3642 Summary · of · Optional Facilities · Preselection, utilizing M538, · Microphone Input · microphone · section of M538A or · M538B Input · Preselectors · Input · preselect capability · may be
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p9 (traced).json](1985%20-%20ST%20-%20Binder1%20p9%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 2–432 mm up
+- **Outlines:** line 33 rings, 534 straight (1,728 mm) / 112 curved (250 mm); text 1,678 rings, 11,759 straight (14,168 mm) / 3,714 curved (5,872 mm); tb 4 rings, 83 straight (191 mm) / 4 curved (5.7 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.7 @ (3.3, 21.5), r 2.6 @ (2.9, 416.0), r 2.6 @ (3.8, 218.9), r 2.6 @ (3.2, 60.9)
+- **Dots (junctions):** 1
+- **Words (OCR):** 167 in 115 lines: Patchable · Audio · Processing · Modules, up · to · maximum of 12 · devices, for · inclusion in the · standard · prewired mainframe. · The processing · modules may
+- **Title block:** (84, 4)–(326, 235) mm: Peak · Program · Metering, available · with · variety of · meter · provided for · metering · functions, or · only on · scales, · all · specified Master , · Sub, or · Utility meter · groups, · with · v
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p10 (traced).json](1985%20-%20ST%20-%20Binder1%20p10%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 1–432 mm up
+- **Outlines:** line 41 rings, 675 straight (2,108 mm) / 92 curved (224 mm); text 2,512 rings, 17,550 straight (20,500 mm) / 5,750 curved (9,090 mm); tb 8 rings, 99 straight (196 mm) / 14 curved (23.0 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.7 @ (2.9, 218.5), r 2.6 @ (2.7, 375.8), r 2.6 @ (2.4, 21.1)
+- **Words (OCR):** 275 in 150 lines: St3642A Summary · of Facilities · Microphone/Line Input · Channels, · consisting of · 12 · Monaural · WBS Type M520 · Input Module, M522 · Three Band · State Variable · plastic
+- **Title block:** (84, 5)–(323, 384) mm: Microphone/Line Input · Channels, · consisting of · Monaural · WBS Type M520 · Input Module, M522 · Three Band · State Variable · plastic · Channel · Equalizer, and · Penny and · Giles conductive · fa
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p11 (traced).json](1985%20-%20ST%20-%20Binder1%20p11%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 0–418 mm up
+- **Outlines:** line 23 rings, 632 straight (1,973 mm) / 85 curved (212 mm); text 1,576 rings, 10,997 straight (13,140 mm) / 3,548 curved (5,682 mm); tb 7 rings, 75 straight (195 mm) / 12 curved (17.0 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.7 @ (2.8, 218.5)
+- **Words (OCR):** 164 in 85 lines: 16 · Audio Level Meters · (vu Meters · standard, PPM Meters · optional ) with meters · dedicated to · Stereo Submasters and · Stereo · and Monaural · Masters, · plus two · Utility meters,
+- **Title block:** (161, 1)–(322, 356) mm: comprehensive family of · to · Processing Modules, available to · console · input or · patchable basis_ · consisting of ten rows · of 24 · (ADC PJ839 · Series)jacks, providing · points of all input · 
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p12 (traced).json](1985%20-%20ST%20-%20Binder1%20p12%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 2–418 mm up
+- **Outlines:** line 42 rings, 583 straight (1,468 mm) / 94 curved (153 mm); text 3,341 rings, 22,859 straight (26,079 mm) / 7,416 curved (11,713 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.6 @ (3.7, 21.1), r 2.6 @ (4.0, 218.5), r 2.6 @ (3.8, 375.8), r 2.6 @ (3.1, 415.5)
+- **Dots (junctions):** 2
+- **Words (OCR):** 392 in 233 lines: St3642A Summary · of Optional Facilities · Preselection, utilizing M538, microphone · Microphone Input · section · of · M538A , or · M538B Input · Preselectors. · Input · with · mixing
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p13 (traced).json](1985%20-%20ST%20-%20Binder1%20p13%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 2–419 mm up
+- **Outlines:** line 37 rings, 494 straight (1,308 mm) / 80 curved (196 mm); text 1,693 rings, 12,067 straight (14,504 mm) / 3,768 curved (6,020 mm); tb 4 rings, 84 straight (195 mm) / 5 curved (7.5 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 6.0 @ (25.9, 328.7), r 2.6 @ (3.9, 219.1), r 2.6 @ (3.2, 21.7), r 2.6 @ (3.4, 416.2)
+- **Dots (junctions):** 2
+- **Words (OCR):** 184 in 105 lines: Processing Modules, up · Patchable Audio · to · maximum · of 12 · devices, for inclusion · in the standard · prewired · mainframe. · The processing · modules may be any · combination of :
+- **Title block:** (82, 3)–(323, 236) mm: Peak · Program · Metering, available · with · variety of meter · scales, · provided for · all · Volume Indicator · functions, or on · Master, · Sub , or · Utility meter groups, · with vu · Metering · 
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p14 (traced).json](1985%20-%20ST%20-%20Binder1%20p14%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–432 mm up
+- **Outlines:** line 25 rings, 550 straight (2,002 mm) / 77 curved (191 mm); text 3,026 rings, 20,594 straight (23,714 mm) / 6,559 curved (10,395 mm); tb 15 rings, 108 straight (215 mm) / 26 curved (32.2 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 6.0 @ (26.0, 326.7), r 2.7 @ (3.7, 19.8), r 2.6 @ (4.2, 217.3), r 2.6 @ (3.4, 414.2)
+- **Words (OCR):** 334 in 216 lines: Operational Features · Channels · Input · The Series · ST Console · family utilizes · the · M520 Channel · Amplifier · for · Microphone · and Monaural
+- **Title block:** (119, 3)–(325, 326) mm: 20 · dB · pad may be · inserted into the · microphone · preamplifier accommodate the · higher level · outputs · of · condenser · Sensitivity control · varies the · gain of the preamp · dB range . · Th
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p15 (traced).json](1985%20-%20ST%20-%20Binder1%20p15%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 2–419 mm up
+- **Outlines:** line 57 rings, 806 straight (2,176 mm) / 114 curved (292 mm); text 3,055 rings, 21,126 straight (23,795 mm) / 6,763 curved (10,461 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 5.9 @ (25.8, 328.9), r 2.6 @ (3.4, 219.1), r 2.6 @ (2.7, 337.2), r 2.6 @ (2.7, 21.7)
+- **Words (OCR):** 365 in 205 lines: An iIlum · inated, silent, momentary · Channel-on · pushbutton with · Iatching, controls the · audio signal · flow · through the · electronic · module, as · wel| as · providing mute
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p16 (traced).json](1985%20-%20ST%20-%20Binder1%20p16%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 2–419 mm up
+- **Outlines:** line 53 rings, 753 straight (1,877 mm) / 109 curved (273 mm); text 2,689 rings, 18,117 straight (20,846 mm) / 5,995 curved (9,312 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 5.9 @ (26.7, 329.4), r 2.7 @ (3.1, 376.3), r 2.6 @ (2.5, 337.2), r 2.6 @ (2.8, 219.0)
+- **Words (OCR):** 309 in 154 lines: Program/Peak indicator included in the · is · M521 · Channel · Amplifier · illuminating Green at · the · presence of normal signal · levels and Red · at · the onset · of
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p17 (traced).json](1985%20-%20ST%20-%20Binder1%20p17%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 2–425 mm up
+- **Outlines:** line 28 rings, 801 straight (1,960 mm) / 113 curved (210 mm); text 2,682 rings, 18,860 straight (21,993 mm) / 5,939 curved (9,231 mm)
+- **Words (OCR):** 318 in 179 lines: Equalization · The · 5T2442 and · 5t3642 consoles utilize · M522 Series State Variable · stereo channel equalization · Equalizers · for in-line monaural · and · M522 Monaural · State · Variable Equalizer
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p18 (traced).json](1985%20-%20ST%20-%20Binder1%20p18%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–326 mm across, 10–419 mm up
+- **Outlines:** line 29 rings, 576 straight (1,436 mm) / 90 curved (198 mm); text 3,368 rings, 23,111 straight (26,316 mm) / 7,645 curved (11,969 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 5.9 @ (26.8, 329.1), r 2.7 @ (2.9, 376.3), r 2.7 @ (2.4, 218.9), r 2.7 @ (2.4, 416.0)
+- **Dots (junctions):** 2
+- **Words (OCR):** 390 in 191 lines: Submaster Channels · The four · Submaster channels in the · 5T2442 and · 5t3642 Consoles each · submastering, and each utilizes an · provide full · stereophonic · M523 · Submaster Module · and · stereophonic Penny
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p19 (traced).json](1985%20-%20ST%20-%20Binder1%20p19%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 2–418 mm up
+- **Outlines:** line 42 rings, 667 straight (1,913 mm) / 93 curved (220 mm); text 2,645 rings, 18,775 straight (21,874 mm) / 5,933 curved (9,306 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 6.0 @ (24.6, 328.7)
+- **Words (OCR):** 306 in 164 lines: Master · Channels · The two · Stereophonic and two · Monaural · Master Output channels · utilize two · M527 · Triple Summing/Line Amplifier · Modules · Independent · assignment to
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p20 (traced).json](1985%20-%20ST%20-%20Binder1%20p20%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 2–432 mm up
+- **Outlines:** line 19 rings, 460 straight (1,111 mm) / 34 curved (49.7 mm); text 2,690 rings, 18,613 straight (21,877 mm) / 5,971 curved (9,424 mm); tb 12 rings, 114 straight (209 mm) / 18 curved (22.0 mm)
+- **Words (OCR):** 298 in 168 lines: Monitor · Channels · The 5t2442 and · 5t3642 Consoles are · wired to · accommodate up · to · four · M525 Stereophonic Monitor · Modules_ · Any number · of
+- **Title block:** (59, 3)–(323, 401) mm: The 5t2442 and · 5t3642 Consoles are · wired to · accommodate up · to · four · M525 Stereophonic Monitor · Modules_ · Any number · of · M525 · modules from · the total · of four may · be · fitted, in 
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p21 (traced).json](1985%20-%20ST%20-%20Binder1%20p21%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 1–418 mm up
+- **Outlines:** line 34 rings, 785 straight (2,277 mm) / 129 curved (352 mm); text 2,888 rings, 19,646 straight (22,819 mm) / 6,332 curved (9,837 mm); tb 5 rings, 86 straight (198 mm) / 6 curved (8.3 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 2.7 @ (3.8, 336.3), r 2.7 @ (3.8, 415.3), r 2.6 @ (4.4, 60.0), r 2.6 @ (4.3, 99.5)
+- **Words (OCR):** 329 in 203 lines: Communications, Slating, and Oscillator · Talkback, · Slating, · PFL, and · Test Oscillator · facilities in the · 5T2442 · and St3642 consoles are · provided in the · M529 Communications · line-up/test · Module
+- **Title block:** (219, 3)–(328, 109) mm: amplifier, · permitting · systems · The PFL · bus, · console input · channels, is · PFL amplifier PFL/Cue and Talkback · trol, power · amplifier, · loudspeaker _ Pushbutton · and · tally are · part · 
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p22 (traced).json](1985%20-%20ST%20-%20Binder1%20p22%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 2–419 mm up
+- **Outlines:** line 23 rings, 447 straight (1,268 mm) / 64 curved (160 mm); text 3,359 rings, 22,817 straight (26,025 mm) / 7,553 curved (11,709 mm); tb 7 rings, 87 straight (202 mm) / 11 curved (12.8 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 6.0 @ (26.8, 328.0), r 2.7 @ (3.5, 416.5), r 2.6 @ (3.0, 21.8), r 2.6 @ (3.3, 258.7)
+- **Words (OCR):** 380 in 217 lines: Jackfield · standard 5t2442 Console is furnished · with an · integral · The · Insertion/Output jackfield consisting eight rows · of · of 24 Bantam · ADC · Pj839 Series · tip-ring-sleeve jacks_ · The St3642 console
+- **Title block:** (116, 3)–(325, 261) mm: accommodate up · 5T2442 and 5T3642 Consoles are · factory · wired to · processing · modules, with their · inputs · and outputs · provided as · part · of · the basic · jackfield package. · Filters, · L
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p23 (traced).json](1985%20-%20ST%20-%20Binder1%20p23%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 1–418 mm up
+- **Outlines:** line 30 rings, 789 straight (2,242 mm) / 85 curved (155 mm); text 2,187 rings, 15,310 straight (18,207 mm) / 4,726 curved (7,506 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.6 @ (2.9, 374.2), r 2.6 @ (3.8, 216.7)
+- **Dots (junctions):** 2
+- **Words (OCR):** 244 in 152 lines: originating · from · another · channel _ · "voice-over" announcement · Limiter/Compressors may be · inserted in · input · channels, submasters, · limiting, may serve · or · outputs to
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p24 (traced).json](1985%20-%20ST%20-%20Binder1%20p24%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 2–419 mm up
+- **Outlines:** line 32 rings, 1,046 straight (2,637 mm) / 108 curved (257 mm); text 2,715 rings, 18,417 straight (21,265 mm) / 5,886 curved (9,174 mm); tb 10 rings, 101 straight (199 mm) / 24 curved (37.1 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 5.9 @ (25.1, 328.8), r 2.7 @ (2.7, 416.3), r 2.6 @ (2.5, 337.4), r 2.6 @ (3.0, 219.2)
+- **Words (OCR):** 298 in 145 lines: M462A Monaural · Three Band State Variable · Equalizer · M462A State Variable · Equalizer is · three · band variable · The · parameter · equalizer providing · considerable · flexibility , and ideal
+- **Title block:** (77, 3)–(322, 368) mm: parameter · equalizer providing · recording and · production audio consoles in all but the · for use · in · sophisticated systems_ · The M462A · Equalizer · provides · Shelving mode · equalization in 
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p25 (traced).json](1985%20-%20ST%20-%20Binder1%20p25%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 2–432 mm up
+- **Outlines:** line 28 rings, 744 straight (2,124 mm) / 86 curved (152 mm); text 2,101 rings, 15,242 straight (18,301 mm) / 4,680 curved (7,376 mm)
+- **Dots (junctions):** 3
+- **Words (OCR):** 264 in 169 lines: Continuous Mid · Frequency · Band · selection · from 600 Hz to · 12.8 kHz, · Peaking · mode, with · continuously variable · and · continuously · variable Boost or
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p26 (traced).json](1985%20-%20ST%20-%20Binder1%20p26%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 2–419 mm up
+- **Outlines:** line 39 rings, 853 straight (2,329 mm) / 134 curved (251 mm); text 2,091 rings, 14,642 straight (17,325 mm) / 4,735 curved (7,545 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.6 @ (2.9, 377.0)
+- **Dots (junctions):** 6
+- **Words (OCR):** 220 in 109 lines: Compression · and Limiting · M466 · Monaural Limi · ter/Compressor/De-esser · The · M466 · Limiter /Compressor/De-esser provides separate · Limiter and · functions, individually insertable, with · Compressor · comprehensive
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p27 (traced).json](1985%20-%20ST%20-%20Binder1%20p27%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p27 (traced).dxf`).
+
+### Page 28
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 1–432 mm up
+- **Outlines:** line 35 rings, 808 straight (2,174 mm) / 110 curved (215 mm); text 2,326 rings, 16,155 straight (18,829 mm) / 5,134 curved (8,095 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.6 @ (3.3, 335.2)
+- **Dots (junctions):** 4
+- **Words (OCR):** 254 in 156 lines: Limit · Release, continuously · variable from 0.1 · seconds to · seconds_ · Limit Ratio fixed at · 50:1 _ · dB of · Limiting LED · Indicators, Green · LED operates at · Limiting greater,
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p28 (traced).json](1985%20-%20ST%20-%20Binder1%20p28%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p28 (traced).dxf`).
+
+### Page 29
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 2–419 mm up
+- **Outlines:** line 43 rings, 584 straight (1,523 mm) / 105 curved (232 mm); text 2,434 rings, 16,582 straight (19,522 mm) / 5,440 curved (8,565 mm); tb 4 rings, 87 straight (192 mm) / 4 curved (7.5 mm)
+- **Dots (junctions):** 5
+- **Words (OCR):** 285 in 162 lines: Noise Gating · Noise · Gate · M467 · provides attenuation of an · audio · signal to · The · M467 Noise · Gate · preset · level , when the
+- **Title block:** (204, 4)–(324, 169) mm: accommodates · edgewise vu · pushbuttons utilized · with · provides fade to an · audio · signal at · signal , to · achieve · automatically · by the presence · continuously variable over · 50 dB · para
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p29 (traced).json](1985%20-%20ST%20-%20Binder1%20p29%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p29 (traced).dxf`).
+
+### Page 30
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 2–419 mm up
+- **Outlines:** line 34 rings, 643 straight (1,902 mm) / 86 curved (125 mm); text 2,683 rings, 18,508 straight (21,501 mm) / 6,031 curved (9,564 mm)
+- **Dots (junctions):** 3
+- **Words (OCR):** 287 in 158 lines: (vo) switch · applies the voice · (controlling) signal to · the · processor . · With the · VO switch · deenergized, the "music" · signal is · unaffected by · the presence · of the
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p30 (traced).json](1985%20-%20ST%20-%20Binder1%20p30%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p30 (traced).dxf`).
+
+### Page 31
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–320 mm across, 10–419 mm up
+- **Outlines:** line 26 rings, 720 straight (1,830 mm) / 103 curved (238 mm); text 2,940 rings, 19,901 straight (22,704 mm) / 6,400 curved (9,920 mm); tb 3 rings, 84 straight (189 mm) / 5 curved (8.4 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 6.0 @ (25.3, 328.8), r 2.7 @ (2.9, 20.7), r 2.6 @ (2.8, 415.1), r 2.6 @ (2.8, 336.1)
+- **Words (OCR):** 332 in 183 lines: ganged · preselector sections are · utilized, such as · for main and · back-up microphones, or · tracks · and · of · multi-channel tape · machines, input · capability of an · individual
+- **Title block:** (210, 4)–(323, 138) mm: inputs of the · effectively overriding · becknanez utbiaced · bree · limited to one · assembly Through · from the · three types · broadcast · facility input · accomplished by the · ST Series 24 · WBS
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p31 (traced).json](1985%20-%20ST%20-%20Binder1%20p31%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p31 (traced).dxf`).
+
+### Page 32
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 1–418 mm up
+- **Outlines:** line 20 rings, 636 straight (1,468 mm) / 83 curved (202 mm); text 2,087 rings, 15,044 straight (17,617 mm) / 4,850 curved (7,754 mm); tb 6 rings, 89 straight (195 mm) / 8 curved (11.7 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 5.9 @ (27.2, 327.2), r 2.7 @ (4.8, 20.7), r 2.6 @ (5.4, 218.1), r 2.6 @ (4.6, 415.1)
+- **Words (OCR):** 223 in 142 lines: Microprocessor Controllers · The · 5T2442 · and · 5t3642 Audio Consoles · utilize type · MS2OOA · icro- · processor · based controllers to · perform certain status, · muting
+- **Title block:** (74, 3)–(326, 297) mm: 10 unique fail-safe assignment, channel · complete controller failure _ · designed · malfunction or · Each console is · to · accommodate two · M52OOA · Control lers, providing an · added measure · of 
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p32 (traced).json](1985%20-%20ST%20-%20Binder1%20p32%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p32 (traced).dxf`).
+
+### Page 33
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–321 mm across, 1–432 mm up
+- **Outlines:** line 33 rings, 794 straight (2,186 mm) / 115 curved (334 mm); text 2,795 rings, 19,180 straight (21,925 mm) / 6,246 curved (9,784 mm); tb 13 rings, 122 straight (214 mm) / 13 curved (18.1 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 5.9 @ (28.0, 328.6), r 2.7 @ (4.2, 416.3), r 2.7 @ (3.8, 219.3), r 2.6 @ (3.3, 258.7)
+- **Words (OCR):** 324 in 163 lines: Utility volume · The two · switchable · indicators are · assigned · via the · Utility Meter · selector, part · of the · M529A Auxiliary · Switching · NV The switched stereo to
+- **Title block:** (132, 1)–(324, 278) mm: supply systems are · standard on · the · ST2442 and · ST3642 · Cp Consoles total four Modular Power Supplies 24 · of · M625B · Bi-polar · and · Power Supplies are · supplied with · the · mainframe, an
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p33 (traced).json](1985%20-%20ST%20-%20Binder1%20p33%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p33 (traced).dxf`).
+
+### Page 34
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 1–418 mm up
+- **Outlines:** line 60 rings, 1,319 straight (3,388 mm) / 174 curved (393 mm); text 2,056 rings, 14,040 straight (15,707 mm) / 4,557 curved (7,269 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.7 @ (3.4, 336.5), r 2.6 @ (3.8, 218.4), r 2.6 @ (4.0, 297.2), r 2.6 @ (4.1, 375.9)
+- **Words (OCR):** 241 in 133 lines: N. Mechanical · of metal · The console · The · console structure · is · fabricated · entirely · base is · solid welded steel · assembly, · including cable entry
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p34 (traced).json](1985%20-%20ST%20-%20Binder1%20p34%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p34 (traced).dxf`).
+
+### Page 35
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 2–419 mm up
+- **Outlines:** line 77 rings, 1,278 straight (3,317 mm) / 239 curved (620 mm); text 1,467 rings, 10,324 straight (12,172 mm) / 3,209 curved (5,081 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 5.9 @ (26.7, 328.5), r 2.6 @ (3.6, 416.4), r 2.6 @ (3.6, 219.5), r 2.6 @ (4.0, 377.0)
+- **Words (OCR):** 176 in 94 lines: Note: Specifications in dBm are · voltage levels · based on · equivalent · of 600 · ohm system unless · otherwise · Specifications · specified _ · MONO INPUTS: · MICROPHONE : · Source
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p35 (traced).json](1985%20-%20ST%20-%20Binder1%20p35%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p35 (traced).dxf`).
+
+### Page 36
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 2–418 mm up
+- **Outlines:** line 177 rings, 2,061 straight (4,071 mm) / 471 curved (922 mm); text 1,169 rings, 8,247 straight (9,944 mm) / 2,667 curved (4,326 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 6.0 @ (27.1, 327.4), r 2.6 @ (3.8, 20.9), r 2.6 @ (3.4, 257.8), r 2.6 @ (3.8, 375.7)
+- **Dots (junctions):** 1
+- **Words (OCR):** 150 in 91 lines: input · Mic Inputs: · -125 dBm or · less, equivalent · noise, · for -60 · dBm input sensitivity · setting and · measured over · 20 Hz · 20 kHz · bandwidth_
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p36 (traced).json](1985%20-%20ST%20-%20Binder1%20p36%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p36 (traced).dxf`).
+
+### Page 37
+
+- **Sheet:** layout 2442-04-002, size B (assumed) 432 × 273 mm, 2000 × 1263 px traced (0.216 mm/px)
+- **Ink extent:** 9–432 mm across, 0–273 mm up
+- **Outlines:** line 450 rings, 7,175 straight (17,212 mm) / 696 curved (984 mm); text 219 rings, 1,476 straight (1,365 mm) / 549 curved (702 mm); tb 5 rings, 65 straight (136 mm) / 3 curved (4.4 mm)
+- **Closed boxes:** 102 (2 in the title block); named: E326:c3]; M528 AUX MOdulEs; OptiONAL Mic/liNe INPuT SELEcToRS (12); E326:c3]; E326:c3]; CONTROLLER MSZOOA OPIIONAL; CONTROLLER MSZOOA
+- **Dots (junctions):** 1
+- **Words (OCR):** 36 in 31 lines: OptiONAL · OPTIONAL · M528 · AUX · INPuT SELEcToRS (12) · Mic/liNe · INPUT · Stereo LiNE · SELecTORS (121 · MOdulEs · BLANK · E326:c3]
+- **Title block:** (346, 0)–(426, 42) mm: ISSUE DATE · REVisiON · WBS WARD-BECK systen · DRN · 'ul · ST2442 · ENG · STEREO TELEVISION CONSC · CKD. · FRONT VIEW LAYOUT · APtA 7 ( · SCALE · 2442-04-002
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p37 (traced).json](1985%20-%20ST%20-%20Binder1%20p37%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p37 (traced).dxf`).
+
+### Page 38
+
+- **Sheet:** layout 2442-04-001, size B (assumed) 432 × 314 mm, 2000 × 1456 px traced (0.216 mm/px)
+- **Ink extent:** 9–432 mm across, 0–312 mm up
+- **Outlines:** line 691 rings, 7,941 straight (20,778 mm) / 763 curved (1,113 mm); text 166 rings, 1,039 straight (991 mm) / 340 curved (473 mm); tb 16 rings, 151 straight (192 mm) / 39 curved (46.4 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 1.2 @ (70.4, 290.6), r 1.1 @ (312.1, 52.6), r 1.1 @ (95.3, 41.4), r 1.0 @ (366.9, 12.8)
+- **Closed boxes:** 229 (1 in the title block); named: 2442-04-001
+- **Dots (junctions):** 3
+- **Words (OCR):** 21 in 19 lines: 20mmi1422.40mm · 45.6 Oln: · 1160.24mm · 33.60ln_ · 050.90mm · 45.soln. · 166.7omm · ooln; · 1473.20mm · 58.0oln: · 70.20mm · sOln:
+- **Title block:** (360, 18)–(432, 36) mm: WBS WARD-BeCk By8TE · ST2442
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p38 (traced).json](1985%20-%20ST%20-%20Binder1%20p38%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p38 (traced).dxf`).
+
+### Page 39
+
+- **Sheet:** layout 2442-04-003, size B (assumed) 432 × 315 mm, 2000 × 1457 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–289 mm up
+- **Outlines:** line 246 rings, 6,352 straight (15,906 mm) / 490 curved (671 mm); text 340 rings, 2,504 straight (2,155 mm) / 963 curved (1,192 mm); tb 2 rings, 54 straight (110 mm) / 0 curved (0.0 mm)
+- **Closed boxes:** 21 (2 in the title block); named: OptIONAL input JACKF IELD; M5224 StereO EQUALIZeRS; Future M525 MoNiTor |MoniTor ModuleS (21; M52] SUbMASTER MODULES; M521 Stereo ]InPut CHANNELS; M520 input CHANNELS MONO; MONO MaSTeR FADERS; STEREO MASTER FAdERS (21; STEREO suB MASTER FAdERS (4); FADERS (12) MONO INput; 2442-04-003; ScaLl
+- **Words (OCR):** 66 in 55 lines: M522 · M5224 · Paocessing ModulES · Provision for · 12 · input JACKF IELD · OptIONAL · MONO · EQUALIZERS · StereO EQUALIZeRS · insERT AND · JACKTPELd
+- **Title block:** (351, 11)–(432, 50) mm: Issuidate · REVisiON · WBS WARD-BECK gYBTE · DRMshik; · ST2442 · ENG · STEREO TELEVISKON CON: · CKD · TOP VIEW LAYOUT · APt: · 70 · ScaLl
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p39 (traced).json](1985%20-%20ST%20-%20Binder1%20p39%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p39 (traced).dxf`).
+
+### Page 40
+
+- **Sheet:** drawing, size B (assumed) 280 × 432 mm, 1295 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–269 mm across, 0–432 mm up
+- **Outlines:** line 1,709 rings, 15,989 straight (31,117 mm) / 3,633 curved (6,566 mm); text 283 rings, 1,625 straight (1,770 mm) / 517 curved (898 mm)
+- **Circles and arcs:** 397 circles, 0 arcs; largest r 2.5 @ (206.0, 332.8), r 2.5 @ (157.2, 346.7), r 2.5 @ (132.8, 346.7), r 2.5 @ (126.7, 346.7)
+- **Closed boxes:** 43; named: AB; 0ooo; Be 1  1; 000; ce; De; EB; oooo0 00; Fe; 000; GB; 000
+- **Dots (junctions):** 1
+- **Words (OCR):** 33 in 33 lines: AB · 0ooo · Be · 000 · 1  1 · ce · De · EB · 00 · oooo0 · Fe · 000
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p40 (traced).json](1985%20-%20ST%20-%20Binder1%20p40%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p40 (traced).dxf`).
+
+### Page 41
+
+- **Sheet:** drawing, size B (assumed) 432 × 290 mm, 2000 × 1342 px traced (0.216 mm/px)
+- **Ink extent:** 7–432 mm across, 0–283 mm up
+- **Outlines:** line 814 rings, 9,169 straight (22,746 mm) / 807 curved (1,188 mm); text 147 rings, 898 straight (870 mm) / 324 curved (439 mm); tb 15 rings, 153 straight (174 mm) / 34 curved (41.4 mm)
+- **Closed boxes:** 244 (1 in the title block)
+- **Words (OCR):** 18 in 17 lines: 45.80ln_ · soin_ · 050.90mm · 166 _ · Jomm · CABLE duct OPENING J.00in. · 68.0Oln. · 4umm · J47J-0mm · Toln · soln · WBS WAAD-BeCK SyBTE
+- **Title block:** (361, 16)–(432, 33) mm: WBS WAAD-BeCK SyBTE · St3642
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p41 (traced).json](1985%20-%20ST%20-%20Binder1%20p41%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p41 (traced).dxf`).
+
+### Page 42
+
+- **Sheet:** layout 3642-04-002, size B (assumed) 432 × 254 mm, 2000 × 1174 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–247 mm up
+- **Outlines:** line 471 rings, 7,893 straight (19,552 mm) / 652 curved (900 mm); text 202 rings, 1,536 straight (1,371 mm) / 490 curved (605 mm); tb 8 rings, 70 straight (118 mm) / 11 curved (17.9 mm)
+- **Closed boxes:** 134 (4 in the title block); named: OPTIONAL Stereo Line iNput SeLecTors (12; OpTIONAL Miciline inputSeLecToRS (12); 032.; Sc; 3642-04-002
+- **Words (OCR):** 38 in 31 lines: OPT IONAL · OPTIONAL · M528 · AuX · OpTIONAL · Miciline · Mic/line · SeLectors (121 · iNput SeLecTors (121 · Stereo Line · MOOULIS · BLANK
+- **Title block:** (355, 7)–(430, 45) mm: Issu |DATE · REVISION · WBS WARD-BECK SYBTE · DRN. 954 · ENG_ · ST3642 · CKD: · STEREO TELEVISION CONS · APP · FRONT VIEW LAYOUT · Sc · 3642-04-002
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p42 (traced).json](1985%20-%20ST%20-%20Binder1%20p42%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p42 (traced).dxf`).
+
+### Page 43
+
+- **Sheet:** layout 3642-04-003, size B (assumed) 432 × 277 mm, 2000 × 1285 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–274 mm up
+- **Outlines:** line 353 rings, 7,470 straight (17,836 mm) / 694 curved (996 mm); text 411 rings, 2,727 straight (2,294 mm) / 984 curved (1,176 mm); tb 2 rings, 43 straight (101 mm) / 1 curved (3.5 mm)
+- **Closed boxes:** 31 (4 in the title block); named: OpT IONAL INPuT JACKF IELO; M5224 STEREO EQuaLiZERS; Provision For 12 PROCESSiNG MODuLES; M522 MONO EQUALiZer5; M522 MONO EQUALiZERS; M523 SUBMASTER MODUL ES; M527 MASTER MOduLES; m520 MONO iNPut CHANNELS; M520 MOnO iNPuT CHANNELS; M521 STEREO INput CHANNELS; M525 MoniTor MOduLES; STEREO input FADErS (12)
+- **Dots (junctions):** 1
+- **Words (OCR):** 72 in 50 lines: M522 · M522 · M5224 · MONO EQUALiZERS · MONO EQUALiZer5 · STEREO EQuaLiZERS · PROCESSiNG MODuLES · Provision For 12 · OpT IONAL · INPuT JACKF IELO · m520 · M520
+- **Title block:** (353, 6)–(428, 41) mm: ISSU DATE · REVISion · WBS WARD-BECK sysTeC · Drh_ 9/84 · ST3642 · ENG . MVu) · STEREO TELEVISION CONS · CKd Fa( · APR7 - · TOP VIEW LAYOUT · scA
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p43 (traced).json](1985%20-%20ST%20-%20Binder1%20p43%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p43 (traced).dxf`).
+
+### Page 44
+
+- **Sheet:** drawing, size B (assumed) 286 × 432 mm, 1327 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–278 mm across, 0–432 mm up
+- **Outlines:** line 2,271 rings, 21,201 straight (41,173 mm) / 4,810 curved (8,715 mm); text 276 rings, 1,399 straight (1,542 mm) / 433 curved (769 mm)
+- **Circles and arcs:** 534 circles, 0 arcs; largest r 2.6 @ (211.0, 368.2), r 2.6 @ (186.0, 368.1), r 2.5 @ (199.7, 156.4), r 2.5 @ (192.9, 269.4)
+- **Closed boxes:** 21; named: 0o0; Ooo; He; 0o; ooo0 0o0
+- **Dots (junctions):** 3
+- **Words (OCR):** 39 in 38 lines: AB · ooooo0 · Be · 0B · 442 · ooo00 · ce · 0o0 · de · Ooo · E0 · BE
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p44 (traced).json](1985%20-%20ST%20-%20Binder1%20p44%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p44 (traced).dxf`).
+
+### Page 45
+
+- **Sheet:** layout 520-04-001, size B (assumed) 213 × 432 mm, 987 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–213 mm across, 0–429 mm up
+- **Outlines:** line 56 rings, 2,050 straight (4,856 mm) / 162 curved (263 mm); text 184 rings, 1,764 straight (2,084 mm) / 480 curved (731 mm); tb 292 rings, 2,380 straight (3,648 mm) / 424 curved (702 mm)
+- **Closed boxes:** 6 (6 in the title block)
+- **Words (OCR):** 38 in 33 lines: WBS · Ms0 · PAN · PGMI · PEAK · SENS · AUX · PRE · PST · AUX 3 · Pre PST · AUX 2
+- **Title block:** (15, 0)–(186, 429) mm: WBS · Ms0 · PAN · PGMI · PEAK · SENS · AUX · PRE · PST · AUX 3 · Pre PST · AUX 2 · PRE PST · AUX · PRE · PST · ISSUE |DATE · RE VISION · WBS WAAD-BECK sybter · Ch · ON · DRN LD · M520 · ENG · Mrw) · M
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p45 (traced).json](1985%20-%20ST%20-%20Binder1%20p45%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p45 (traced).dxf`).
+
+### Page 46
+
+- **Sheet:** layout 521-04-001, size B (assumed) 195 × 432 mm, 905 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–194 mm across, 0–429 mm up
+- **Outlines:** line 27 rings, 1,757 straight (4,581 mm) / 163 curved (265 mm); text 242 rings, 1,864 straight (2,214 mm) / 560 curved (818 mm); tb 243 rings, 1,952 straight (3,086 mm) / 390 curved (633 mm)
+- **Closed boxes:** 6 (6 in the title block)
+- **Words (OCR):** 40 in 35 lines: WBS · M521 · BAL · MODE · 46_ · PGMi · PEAK · SENS · AUX · PRE PST · AUX 3 · PRE PST
+- **Title block:** (12, 0)–(174, 432) mm: WBS · M521 · BAL · MODE · 46_ · PGMi · PEAK · SENS · AUX · PRE PST · AUX 3 · PRE PST · AUX 2 · PRE · PST · AUX · Pre · PsT · Ch · ON · ISSUE |DATE · RE VISION · WBS WAAD-BECK sybt · DRN.bL) 25 · M521 
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p46 (traced).json](1985%20-%20ST%20-%20Binder1%20p46%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p46 (traced).dxf`).
+
+### Page 47
+
+- **Sheet:** layout 522-04-001, size B (assumed) 200 × 432 mm, 926 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 22–200 mm across, 0–415 mm up
+- **Outlines:** line 10 rings, 993 straight (2,052 mm) / 103 curved (170 mm); text 156 rings, 1,667 straight (2,256 mm) / 487 curved (854 mm); tb 244 rings, 2,552 straight (3,921 mm) / 507 curved (843 mm)
+- **Closed boxes:** 5 (5 in the title block)
+- **Words (OCR):** 25 in 22 lines: WBS · Msz2 · KHI · RHI · 1u · 206 · ISSU DATE · ReVision · WBS WAAD-BECk · ByBTe · DRN · 60+
+- **Title block:** (21, 2)–(177, 419) mm: WBS · Msz2 · KHI · RHI · 1u · 206 · ISSU DATE · ReVision · WBS WAAD-BECk · DRN · 60+ · 8s · M522 · ENG · Melj · MONO EQUALIZER · CKd: · FRONT PANEL LAYOU · App: · ScALE · 522-04-001
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p47 (traced).json](1985%20-%20ST%20-%20Binder1%20p47%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p47 (traced).dxf`).
+
+### Page 48
+
+- **Sheet:** layout 522-04-002, size B (assumed) 210 × 432 mm, 972 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–210 mm across, 0–429 mm up
+- **Outlines:** line 69 rings, 1,430 straight (2,728 mm) / 158 curved (239 mm); text 172 rings, 1,892 straight (2,508 mm) / 517 curved (882 mm); tb 240 rings, 2,465 straight (3,724 mm) / 494 curved (800 mm)
+- **Closed boxes:** 8 (4 in the title block); named: REVISION; 522-04-002; SCALE
+- **Words (OCR):** 28 in 24 lines: WBS · 45z4 · 12 · aiz · GHz · 140 · 180 · 200 · Hz · ISSUE DATE · REVISION · WBS WARO-BECK SYSTEM:
+- **Title block:** (23, 5)–(174, 417) mm: WBS · 45z4 · 12 · aiz · GHz · 140 · 180 · 200 · Hz · ISSUE DATE · REVISION · WBS WARO-BECK SYSTEM: · DRN: BD 29 · 84 · M522A · ENG . · Mew · STEREO EQUALIZER · CKD: Lx · FRONT PANEL LA YOUT · APP · SC
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p48 (traced).json](1985%20-%20ST%20-%20Binder1%20p48%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p48 (traced).dxf`).
+
+### Page 49
+
+- **Sheet:** layout 523-04-001, size B (assumed) 211 × 432 mm, 976 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–211 mm across, 0–425 mm up
+- **Outlines:** line 53 rings, 1,904 straight (4,710 mm) / 156 curved (246 mm); text 208 rings, 1,872 straight (2,204 mm) / 531 curved (818 mm); tb 201 rings, 1,649 straight (2,616 mm) / 291 curved (473 mm)
+- **Closed boxes:** 5 (5 in the title block)
+- **Words (OCR):** 38 in 33 lines: WBS · M523 · BAL · PGM · Mix · AUX · PRE · PST · AUX 3 · PRE · PST · AUX 2
+- **Title block:** (15, 0)–(194, 430) mm: WBS · M523 · BAL · PGM · Mix · AUX · PRE · PST · AUX 3 · PRE · PST · AUX 2 · PRE · PST · AUX · PRE PST · ISSUE DATE · REViSION · SUB · WBS WAAD-BECK syste · ON · DRN. tD · M523 · ENG. · Mkw · STEREO ·
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p49 (traced).json](1985%20-%20ST%20-%20Binder1%20p49%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p49 (traced).dxf`).
+
+### Page 50
+
+- **Sheet:** layout 525-04-001, size B (assumed) 222 × 432 mm, 1028 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 14–222 mm across, 0–432 mm up
+- **Outlines:** line 36 rings, 1,921 straight (4,908 mm) / 124 curved (211 mm); text 267 rings, 2,245 straight (2,695 mm) / 646 curved (1,011 mm); tb 203 rings, 2,177 straight (4,170 mm) / 270 curved (477 mm)
+- **Closed boxes:** 2 (2 in the title block)
+- **Words (OCR):** 41 in 39 lines: WBS · Ms?5 · EXt · EXT · EXT · EXT · Aux · AUX · AuX · AuX · Hz · HI
+- **Title block:** (20, 0)–(196, 430) mm: WBS · Ms?5 · EXt · EXT · EXT · EXT · Aux · AUX · AuX · AuX · Hz · HI · Hz · MI · SuB · SuB 3 · SUB 2 · SUB · solo/18 · MONO · Dim · Mute · LEVEL _ · 01z · ISSUE |DATE · REVISION · WBS WARO-BECK · DRN.
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p50 (traced).json](1985%20-%20ST%20-%20Binder1%20p50%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p50 (traced).dxf`).
+
+### Page 51
+
+- **Sheet:** layout 527-04-001, size B (assumed) 219 × 432 mm, 1016 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–219 mm across, 1–424 mm up
+- **Outlines:** line 42 rings, 1,251 straight (3,256 mm) / 105 curved (176 mm); text 143 rings, 1,326 straight (1,664 mm) / 376 curved (592 mm); tb 24 rings, 758 straight (1,822 mm) / 75 curved (120 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 3.1 @ (30.9, 415.9), r 3.0 @ (31.3, 37.2)
+- **Words (OCR):** 23 in 19 lines: Mos · Ms27 · ISSUE |DATE · REVISION · WBS WARD-BECK SYSTEME · DRN.BD 85 · 5T · M527 · ENG: · Mrw · MASTER MODULE · CKD
+- **Title block:** (77, 1)–(219, 77) mm: ISSUE |DATE · REVISION · WBS WARD-BECK SYSTEME · DRN.BD 85 · 5T · M527 · ENG: · Mrw · MASTER MODULE · CKD · FRONT · PANEL · LAYOUT · APP Jn · SCALE · 527-04-001 · ISSUE
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p51 (traced).json](1985%20-%20ST%20-%20Binder1%20p51%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p51 (traced).dxf`).
+
+### Page 52
+
+- **Sheet:** layout 528-04-001, size B (assumed) 206 × 432 mm, 954 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 21–206 mm across, 0–411 mm up
+- **Outlines:** line 11 rings, 1,113 straight (2,272 mm) / 85 curved (145 mm); text 144 rings, 1,619 straight (2,303 mm) / 419 curved (756 mm); tb 38 rings, 1,526 straight (2,613 mm) / 170 curved (286 mm)
+- **Closed boxes:** 3 (3 in the title block)
+- **Words (OCR):** 20 in 17 lines: WBS · M528 · ISSUE DATE · REvision · WBS WARO-BECK · sybter · DRN BD · 38 · M528 · ENG · Mrw DUAL AUXILIARY MODULE · Ckd.
+- **Title block:** (20, 2)–(178, 414) mm: WBS · M528 · ISSUE DATE · REvision · WBS WARO-BECK · DRN BD · 38 · M528 · ENG · Mrw DUAL AUXILIARY MODULE · Ckd. · La · FRONT PANEL LAYOUT · App · ScALE · 528-04-001
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p52 (traced).json](1985%20-%20ST%20-%20Binder1%20p52%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p52 (traced).dxf`).
+
+### Page 53
+
+- **Sheet:** layout 529-04-001, size B (assumed) 234 × 432 mm, 1085 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–234 mm across, 0–428 mm up
+- **Outlines:** line 201 rings, 2,431 straight (5,161 mm) / 252 curved (439 mm); text 273 rings, 2,407 straight (2,967 mm) / 680 curved (1,131 mm); tb 365 rings, 2,857 straight (4,871 mm) / 488 curved (742 mm)
+- **Closed boxes:** 2 (2 in the title block)
+- **Words (OCR):** 42 in 38 lines: wbs · 0sz · 1ae · T8 · VA · Hi · Osc · M2 · TONE · PGm · SLATE · Peak
+- **Title block:** (12, 0)–(234, 430) mm: wbs · 0sz · 1ae · T8 · VA · Hi · Osc · M2 · TONE · PGm · SLATE · Peak · SP · sp0 · sto · sto · 44x · ^4X · ISSUE DATE · REVISION · APP · WBS WARD-BECK systems · Mute · M529 · PFL/TB · DRN 6 0> · EFT ·
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p53 (traced).json](1985%20-%20ST%20-%20Binder1%20p53%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p53 (traced).dxf`).
+
+### Page 54
+
+- **Sheet:** layout 529-04-002, size B (assumed) 224 × 432 mm, 1036 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–224 mm across, 0–429 mm up
+- **Outlines:** line 262 rings, 3,456 straight (7,176 mm) / 571 curved (996 mm); text 167 rings, 1,442 straight (1,871 mm) / 389 curved (632 mm); tb 11 rings, 149 straight (297 mm) / 16 curved (27.3 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 6.1 @ (40.5, 115.7), r 5.3 @ (40.0, 90.0), r 5.3 @ (39.8, 64.3), r 5.2 @ (40.7, 191.7)
+- **Closed boxes:** 9 (7 in the title block)
+- **Words (OCR):** 22 in 18 lines: AUX 1 · AUX · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN.BD B4 · SuFT · M529A · ENG · AUXILIARY MASTER MODULE · CKD;
+- **Title block:** (74, 1)–(224, 77) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN.BD B4 · SuFT · M529A · ENG · AUXILIARY MASTER MODULE · CKD; · FRONT PANEL LAYOUT · APP · Ka · SCALE · 529-04-002 · ISSUE
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p54 (traced).json](1985%20-%20ST%20-%20Binder1%20p54%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p54 (traced).dxf`).
+
+### Page 55
+
+- **Sheet:** layout 538-04-001, size B (assumed) 187 × 432 mm, 867 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–187 mm across, 4–424 mm up
+- **Outlines:** line 12 rings, 1,198 straight (2,431 mm) / 102 curved (171 mm); text 149 rings, 1,735 straight (2,319 mm) / 470 curved (811 mm); tb 95 rings, 2,469 straight (4,282 mm) / 266 curved (440 mm)
+- **Closed boxes:** 8 (5 in the title block); named: 538-04-001; SCALE
+- **Words (OCR):** 21 in 18 lines: WBS · M53 · ReVision · ISSUE DATE · WBS WARD-BECK · systen · DRN.BD · M538 · ENG. · AICW 8X1 STEREO SWITCHER MOL · CKD: · 65'
+- **Title block:** (5, 8)–(160, 427) mm: WBS · M53 · ReVision · ISSUE DATE · WBS WARD-BECK · DRN.BD · M538 · ENG. · AICW 8X1 STEREO SWITCHER MOL · CKD: · 65' · FRONT PANEL LAYOUT · ra · App · SCALE · 538-04-001
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p55 (traced).json](1985%20-%20ST%20-%20Binder1%20p55%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p55 (traced).dxf`).
+
+### Page 56
+
+- **Sheet:** layout 538-04-002, size B (assumed) 193 × 432 mm, 893 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 24–193 mm across, 0–412 mm up
+- **Outlines:** line 13 rings, 766 straight (1,926 mm) / 84 curved (142 mm); text 134 rings, 1,518 straight (2,079 mm) / 459 curved (806 mm); tb 72 rings, 1,992 straight (4,109 mm) / 170 curved (299 mm)
+- **Closed boxes:** 5 (5 in the title block)
+- **Words (OCR):** 22 in 16 lines: WbS · Ms384 · ISSUE DATE · REVision · WBS WARD-BECK systen · DRRFD 05 · JAN · M538A · ENG · MeJ 4x2 MONO SWITCHER MODL · CKd; Ul ` · FRONT PANEL LAYOUT
+- **Title block:** (23, 2)–(167, 407) mm: WbS · Ms384 · ISSUE DATE · REVision · WBS WARD-BECK systen · DRRFD 05 · JAN · M538A · ENG · MeJ 4x2 MONO SWITCHER MODL · CKd; Ul ` · FRONT PANEL LAYOUT · APP · SCALE · 538-04-002
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p56 (traced).json](1985%20-%20ST%20-%20Binder1%20p56%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p56 (traced).dxf`).
+
+### Page 57
+
+- **Sheet:** layout 538-04-003, size B (assumed) 200 × 432 mm, 927 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 21–200 mm across, 0–406 mm up
+- **Outlines:** line 1 rings, 1 straight (0.8 mm) / 2 curved (2.0 mm); text 162 rings, 1,793 straight (2,414 mm) / 455 curved (784 mm); tb 61 rings, 2,493 straight (5,214 mm) / 241 curved (408 mm)
+- **Words (OCR):** 21 in 16 lines: Wbs · Msj08 · ISSUE DATE · REVISION · WBS WARD-BECK SYSTEME · ORN.BD 85 · JAN · M538B · Hw 4X2 MONO SWITCHER MODULE · ENG: · Ckd; · FRONT PANEL LAYOUT
+- **Title block:** (20, 0)–(200, 401) mm: Wbs · Msj08 · ISSUE DATE · REVISION · WBS WARD-BECK SYSTEME · ORN.BD 85 · JAN · M538B · Hw 4X2 MONO SWITCHER MODULE · ENG: · Ckd; · FRONT PANEL LAYOUT · APP · SCALE · 538-04-003 · ISSUE
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p57 (traced).json](1985%20-%20ST%20-%20Binder1%20p57%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p57 (traced).dxf`).
+
+### Page 58
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 1–419 mm up
+- **Outlines:** line 85 rings, 500 straight (735 mm) / 128 curved (190 mm); text 161 rings, 1,836 straight (2,227 mm) / 332 curved (540 mm); tb 3 rings, 557 straight (606 mm) / 55 curved (77.7 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.9 @ (328.9, 415.9), r 2.7 @ (328.7, 258.2), r 2.7 @ (328.1, 218.6), r 2.7 @ (328.6, 21.3)
+- **Words (OCR):** 15 in 6 lines: WBS · WARD-BECK SYSTEMS LTD. · DUKE McLANE U.S. REPRESENTATIVE · 4012 MENDENHALL DRIVE · DALLAS TEXAS 75234 · TELEX: 79-1964 TELEPHONE: 214/247-5999
+- **Title block:** (82, 42)–(251, 106) mm: WBS · WARD-BECK SYSTEMS LTD. · DUKE McLANE U.S. REPRESENTATIVE
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p58 (traced).json](1985%20-%20ST%20-%20Binder1%20p58%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p58 (traced).dxf`).
+
+### Page 59
+
+- **Sheet:** drawing, size B (assumed) 324 × 432 mm, 1500 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 17–322 mm across, 0–431 mm up
+- **Outlines:** line 1,066 rings, 10,809 straight (15,045 mm) / 2,145 curved (2,759 mm); text 61 rings, 586 straight (789 mm) / 106 curved (131 mm)
+- **Words (OCR):** 2 in 2 lines: 01 · 01
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p59 (traced).json](1985%20-%20ST%20-%20Binder1%20p59%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p59 (traced).dxf`).
+
+### Page 60
+
+- **Sheet:** drawing, size B (assumed) 324 × 432 mm, 1500 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–324 mm across, 0–432 mm up
+- **Outlines:** line 1,481 rings, 14,952 straight (22,391 mm) / 2,991 curved (3,786 mm); text 30 rings, 256 straight (302 mm) / 52 curved (72.1 mm)
+- **Closed boxes:** 3
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p60 (traced).json](1985%20-%20ST%20-%20Binder1%20p60%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p60 (traced).dxf`).
+
+### Page 61
+
+- **Sheet:** drawing, size B (assumed) 432 × 324 mm, 2000 × 1500 px traced (0.216 mm/px)
+- **Ink extent:** 0–428 mm across, 0–312 mm up
+- **Outlines:** line 2,903 rings, 33,239 straight (37,340 mm) / 7,251 curved (9,238 mm)
+- **Closed boxes:** 4
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p61 (traced).json](1985%20-%20ST%20-%20Binder1%20p61%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p61 (traced).dxf`).
+
+### Page 62
+
+- **Sheet:** drawing, size B (assumed) 432 × 324 mm, 2000 × 1500 px traced (0.216 mm/px)
+- **Ink extent:** 0–416 mm across, 0–324 mm up
+- **Outlines:** line 2,019 rings, 21,808 straight (22,810 mm) / 5,061 curved (6,143 mm)
+- **Closed boxes:** 1
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p62 (traced).json](1985%20-%20ST%20-%20Binder1%20p62%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p62 (traced).dxf`).
+
+### Page 63
+
+- **Sheet:** drawing, size B (assumed) 324 × 432 mm, 1500 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–324 mm across, 0–415 mm up
+- **Outlines:** line 1,685 rings, 16,708 straight (22,469 mm) / 3,431 curved (4,471 mm)
+- **Closed boxes:** 5
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p63 (traced).json](1985%20-%20ST%20-%20Binder1%20p63%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p63 (traced).dxf`).
+
+### Page 64
+
+- **Sheet:** drawing, size B (assumed) 324 × 432 mm, 1500 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–324 mm across, 52–432 mm up
+- **Outlines:** line 555 rings, 6,944 straight (10,868 mm) / 1,291 curved (1,640 mm); text 1 rings, 6 straight (5.9 mm) / 0 curved (0.0 mm)
+- **Closed boxes:** 1
+
+Every curve, box, word and wire group: [1985 - ST - Binder1 p64 (traced).json](1985%20-%20ST%20-%20Binder1%20p64%20%28traced%29.json) (the CAD file: `1985 - ST - Binder1 p64 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

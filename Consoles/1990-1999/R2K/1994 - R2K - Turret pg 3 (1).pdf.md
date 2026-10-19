@@ -11,6 +11,18 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Pages:** 1
 - **PDF created (scan date, not design date):** Mon Mar 13 12:54:12 2006 EST
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 58–278 mm across, 29–414 mm up
+- **Outlines:** line 116 rings, 2,127 straight (14,649 mm) / 123 curved (176 mm); text 909 rings, 6,795 straight (9,170 mm) / 1,851 curved (3,047 mm)
+- **Closed boxes:** 107; named: Binary Address; Decimal Address; Function; Position No; 0 0 0 0 0; Input or 8x2 Selector Module; 0 0 0 0 1; Input or 8x2 Selector Module; 0 0 0 1 0; Input Module; 0 0 0 1 1; Input Module
+- **Words (OCR):** 93 in 92 lines: MODULE SLOT ADDRESS FOR R2KI28 · Position · Function · Decimal · Binary · No · Address · Address · Input or 8x2 Selector Module · 0 0 0 0 0 · 0 0 0 0 1 · Input or 8x2 Selector Module
+
+Every curve, box, word and wire group: [1994 - R2K - Turret pg 3 (1) p1 (traced).json](1994%20-%20R2K%20-%20Turret%20pg%203%20%281%29%20p1%20%28traced%29.json) (the CAD file: `1994 - R2K - Turret pg 3 (1) p1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -11,6 +11,20 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Pages:** 1
 - **PDF created (scan date, not design date):** Thu Feb 13 22:26:20 2014 EST
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 333 × 432 mm, 1541 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 2–432 mm up
+- **Outlines:** line 6,313 rings, 42,638 straight (70,095 mm) / 9,418 curved (11,062 mm); text 349 rings, 2,998 straight (2,249 mm) / 803 curved (893 mm)
+- **Circles and arcs:** 52 circles, 0 arcs; largest r 1.0 @ (70.8, 49.0), r 0.9 @ (177.7, 348.2), r 0.9 @ (177.3, 221.1), r 0.8 @ (225.5, 238.8)
+- **Closed boxes:** 243; named: AUX 7Mon? Mon 5; AUX; AUX; 7Mon? Mon 5; TTMON ? MON 3 Mon4
+- **Dots (junctions):** 6
+- **Words (OCR):** 71 in 50 lines: Four M498 8x1' LIne SeLeCTors · 32 Line_ Inputs With selector outputs · STRAPPABLE To ANY Four Mixing CHANNELS · AUX · M47OA Input SELECTION · Mic, LInE Per CHANNEL · TOTAL 64 mic, 32 Line inPuts · 7Mon? Mon 5 · STANDARD L32424 821442 CONSOLE · M498 · In-Line With Input CHANNELS · 871
+
+Every curve, box, word and wire group: [1977 - L3242A - WBS L3242P layout p1 (traced).json](1977%20-%20L3242A%20-%20WBS%20L3242P%20layout%20p1%20%28traced%29.json) (the CAD file: `1977 - L3242A - WBS L3242P layout p1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

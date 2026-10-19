@@ -15,6 +15,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 
 - **1999** (month): `OCT. 15, 1999` — …R2K R204 FUNCTIONAL STUDIO MONITOR R204ISS3.DSN PAGE 1 OF 1 OCT. 15, 1999…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 3–431 mm across, 1–317 mm up
+- **Outlines:** line 128 rings, 1,622 straight (13,836 mm) / 69 curved (83.1 mm); text 689 rings, 4,445 straight (5,160 mm) / 1,305 curved (1,831 mm)
+- **Closed boxes:** 13; named: MUTE SWITCH; STEREO AUDIO SWITCHER; MUTE SWITCH; MUTE SWITCH; MUTE SWITCH; CONTROL
+- **Words (OCR):** 118 in 95 lines: BALANCED AUDIO · INPUTS · MUTE SWITCH · CW · INPUT · LEFT · RIGHT · LEFT+ · LEFT- · INPUT · LEFT · RIGHT
+- **Title block:** (306, 20)–(431, 42) mm: WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - R2K - R204functional p1 (traced).json](1994%20-%20R2K%20-%20R204functional%20p1%20%28traced%29.json) (the CAD file: `1994 - R2K - R204functional p1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

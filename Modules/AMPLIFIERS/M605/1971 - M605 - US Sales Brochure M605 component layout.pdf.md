@@ -12,6 +12,20 @@ Wiki page: [M605](../../../PAGES/M605.md)
 - **Pages:** 1
 - **PDF created (scan date, not design date):** Wed Feb 22 12:08:25 2012 EST
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** component layout 605-06-006, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–279 mm up
+- **Outlines:** line 592 rings, 9,326 straight (14,515 mm) / 1,333 curved (1,307 mm); text 282 rings, 2,151 straight (2,321 mm) / 683 curved (788 mm); tb 3 rings, 121 straight (232 mm) / 19 curved (19.2 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.9 @ (266.0, 121.6)
+- **Closed boxes:** 7 (7 in the title block)
+- **Words (OCR):** 39 in 33 lines: R9 · R1z · R23 · PCB 8-116 · R41 · C2b · Tp 1 · PCB · 8-117 · R2o1 · F2o1 · PCB 8-118
+- **Title block:** (259, 2)–(414, 68) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRNP Marovzy · M605A · ENG · AUDIO · DISTRIBUTION AMPLIFIER · CKD Rull · COMPONENT · LAYOUT · APP · SCALE · 605-06-006 · ISSUE
+
+Every curve, box, word and wire group: [1971 - M605 - US Sales Brochure M605 component layout p1 (traced).json](1971%20-%20M605%20-%20US%20Sales%20Brochure%20M605%20component%20layout%20p1%20%28traced%29.json) (the CAD file: `1971 - M605 - US Sales Brochure M605 component layout p1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

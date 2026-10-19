@@ -16,6 +16,157 @@ Wiki page: [M450A](../../../PAGES/M450A.md)
 
 - **1973** (month): `MAR 73` — …8e~ ESw E I USED 04 WBS WAAD-DeCk Jyutems LTM #or MASOA EuL MAR 73 COARCC PROGRAM MpLifier ISCALE COMPONENT ASS Tols 4-120-06-…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–308 mm across, 0–422 mm up
+- **Outlines:** line 35 rings, 602 straight (3,080 mm) / 57 curved (85.3 mm); text 170 rings, 1,929 straight (2,637 mm) / 402 curved (648 mm); tb 2 rings, 99 straight (302 mm) / 5 curved (7.8 mm)
+- **Words (OCR):** 15 in 10 lines: WARD-BECK SystemS · LTD. · WBS 841 PAOGRESS AVENUE; SCARBOROUGH; ONTARIO AH 2X4 · TELEX: 08-23489 · TELEPHONE: 418/438-B660 · Ma50A · PROGRAM AMPLIFIER · Nov 77 · DESIGN AND · MANUFACTUAE Of PROFESSIONAL ALDIO EOUIPMENT
+- **Title block:** (43, 394)–(265, 430) mm: WARD-BECK SystemS · WBS 841 PAOGRESS AVENUE; SCARBOROUGH; ONTARIO AH 2X4 · TELEX: 08-23489 · TELEPHONE: 418/438-B660
+
+Every curve, box, word and wire group: [1973 - M450A - Program Amplifer p1 (traced).json](1973%20-%20M450A%20-%20Program%20Amplifer%20p1%20%28traced%29.json) (the CAD file: `1973 - M450A - Program Amplifer p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–328 mm across, 0–425 mm up
+- **Outlines:** line 35 rings, 901 straight (3,346 mm) / 79 curved (126 mm); text 407 rings, 3,349 straight (3,945 mm) / 909 curved (1,423 mm); tb 8 rings, 157 straight (453 mm) / 25 curved (42.4 mm)
+- **Words (OCR):** 47 in 30 lines: WAAD-BECK Systems LTD · TABLE 0F · CONTENIS · M45OA PROGRAM · AMPLIFIER · SECTION · PAGE · Warranty · Technical Da ta · T-1 · Genera] Description · 2-1
+- **Title block:** (25, 72)–(295, 428) mm: WAAD-BECK Systems LTD · TABLE 0F · CONTENIS · M45OA PROGRAM · AMPLIFIER · SECTION · PAGE · Warranty · Technical Da ta · T-1 · Genera] Description · 2-1 · circuit Description · 3 - I · to 3-2 · Ga i n 
+
+Every curve, box, word and wire group: [1973 - M450A - Program Amplifer p2 (traced).json](1973%20-%20M450A%20-%20Program%20Amplifer%20p2%20%28traced%29.json) (the CAD file: `1973 - M450A - Program Amplifer p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–309 mm across, 10–422 mm up
+- **Outlines:** line 23 rings, 866 straight (2,658 mm) / 88 curved (154 mm); text 1,221 rings, 9,513 straight (10,628 mm) / 2,690 curved (4,152 mm); tb 14 rings, 57 straight (344 mm) / 20 curved (24.9 mm)
+- **Words (OCR):** 177 in 91 lines: WAAD-BECK SYSTEMS LTD · TECHNICAL DATE · M45OA PROGRAM · AMPLIFIER · Note: AII da ta · given below are · based on · the use · 0 f the · M450A · Program · Amp]ifier in
+- **Title block:** (21, 47)–(259, 425) mm: WAAD-BECK SYSTEMS LTD · TECHNICAL DATE · M45OA PROGRAM · AMPLIFIER · Note: AII da ta · given below are · based on · the use · 0 f the · Program · Amp]ifier in · conjunction with the WBS · transformer 
+
+Every curve, box, word and wire group: [1973 - M450A - Program Amplifer p3 (traced).json](1973%20-%20M450A%20-%20Program%20Amplifer%20p3%20%28traced%29.json) (the CAD file: `1973 - M450A - Program Amplifer p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–308 mm across, 8–431 mm up
+- **Outlines:** line 30 rings, 810 straight (2,638 mm) / 125 curved (199 mm); text 1,326 rings, 10,177 straight (11,232 mm) / 2,879 curved (4,404 mm); tb 12 rings, 166 straight (372 mm) / 27 curved (35.6 mm)
+- **Words (OCR):** 158 in 64 lines: WAAD-BECK SYSTEMs LTD; · GENERAL DESCRIPIION · M45oa PROGRAM · AMPLIFIER · The M4soa Program Amplifier is high performance audio am- · plifier designed for · professiona ] applications · It · is used particularly in applications which require output · Teve]s up · to +36 · dBm into either 150 or
+- **Title block:** (20, 220)–(276, 425) mm: WAAD-BECK SYSTEMs LTD; · GENERAL DESCRIPIION · M45oa PROGRAM · AMPLIFIER · The M4soa Program Amplifier is high performance audio am- · plifier designed for · professiona ] applications · It · is used 
+
+Every curve, box, word and wire group: [1973 - M450A - Program Amplifer p4 (traced).json](1973%20-%20M450A%20-%20Program%20Amplifer%20p4%20%28traced%29.json) (the CAD file: `1973 - M450A - Program Amplifer p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–311 mm across, 0–422 mm up
+- **Outlines:** line 59 rings, 1,104 straight (3,359 mm) / 141 curved (224 mm); text 2,282 rings, 17,374 straight (19,054 mm) / 5,047 curved (7,867 mm); tb 12 rings, 58 straight (49.4 mm) / 27 curved (36.6 mm)
+- **Dots (junctions):** 2
+- **Words (OCR):** 341 in 142 lines: WAAD-BECK SYSTEMs LTD · CIRCUIT · DESCRIPTION · M45OA_PROGRAM AMPLIFIER · The two ha lves 0 f the · input signa 1 are · applied pins and · to · 0 f the · edge connector · then proceed via · and
+- **Title block:** (24, 46)–(134, 425) mm: WAAD-BECK SYSTEMs LTD · The two ha lves 0 f the · 0 f the · edge connector · to pins · and 0 f 21 · mately 5k ohm to the · The two sections 0 f 21 are · tors · Q1 , Q2 , · Q3 and · 04 _ · Pins and 0 f
+
+Every curve, box, word and wire group: [1973 - M450A - Program Amplifer p5 (traced).json](1973%20-%20M450A%20-%20Program%20Amplifer%20p5%20%28traced%29.json) (the CAD file: `1973 - M450A - Program Amplifer p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–415 mm up
+- **Outlines:** line 44 rings, 1,091 straight (3,382 mm) / 154 curved (241 mm); text 866 rings, 6,812 straight (7,607 mm) / 1,983 curved (3,112 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 136 in 52 lines: WAAD-BECK SyStems LTD_ · CIRCUIT DESCRIPIION · M450A · PROGRAM_AMPLIEIER · The · bi-polar supply · voltage 0 f +25 volts dc is fed · via · iso]a - · tion diodes CRI and · CR2 to · c3 and C4
+
+Every curve, box, word and wire group: [1973 - M450A - Program Amplifer p6 (traced).json](1973%20-%20M450A%20-%20Program%20Amplifer%20p6%20%28traced%29.json) (the CAD file: `1973 - M450A - Program Amplifer p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–317 mm across, 0–421 mm up
+- **Outlines:** line 2,383 rings, 17,859 straight (31,781 mm) / 1,272 curved (2,165 mm); text 230 rings, 1,805 straight (2,119 mm) / 510 curved (806 mm)
+- **Closed boxes:** 1680; named: or pot Resistor between pins 10 Resistor
+- **Words (OCR):** 28 in 21 lines: WAAD-BECK SYSTEms LTD · GAIN · ADJUSTMENT · M45OA PROGRAM · AMPLIFIER · 50 · 40 · Resistor · or pot · between pins · 10 · 30
+- **Title block:** (20, 402)–(130, 426) mm: WAAD-BECK SYSTEms LTD
+
+Every curve, box, word and wire group: [1973 - M450A - Program Amplifer p7 (traced).json](1973%20-%20M450A%20-%20Program%20Amplifer%20p7%20%28traced%29.json) (the CAD file: `1973 - M450A - Program Amplifer p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 0–416 mm up
+- **Outlines:** line 162 rings, 1,697 straight (4,298 mm) / 268 curved (421 mm); text 1,152 rings, 9,329 straight (10,911 mm) / 2,708 curved (4,292 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 151 in 123 lines: WAAD-BECK Systems LTD_ · PARTS LIST · M450A PROGRAM AMPLIFIER · PART DESCRIPTION · MFG · MFG_PART NUMBER · C1 · Capacitor 22 uF/25 · Siemens · B41313-45226-2 · C2 · c3
+
+Every curve, box, word and wire group: [1973 - M450A - Program Amplifer p8 (traced).json](1973%20-%20M450A%20-%20Program%20Amplifer%20p8%20%28traced%29.json) (the CAD file: `1973 - M450A - Program Amplifer p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 0–417 mm up
+- **Outlines:** line 123 rings, 1,615 straight (4,118 mm) / 235 curved (370 mm); text 564 rings, 4,464 straight (5,178 mm) / 1,340 curved (2,078 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 81 in 77 lines: WAAD-BECK SySTems LTD; · PARIS LIST · M450A · PROGRAM_AMPLIFIER · PART DESCRIPTION · MFG · MFG · PARI_NUMBER · CRI · Diode · Motoro]a · 1n4003
+- **Title block:** (23, 402)–(134, 426) mm: WAAD-BECK SySTems LTD;
+
+Every curve, box, word and wire group: [1973 - M450A - Program Amplifer p9 (traced).json](1973%20-%20M450A%20-%20Program%20Amplifer%20p9%20%28traced%29.json) (the CAD file: `1973 - M450A - Program Amplifer p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–308 mm across, 9–422 mm up
+- **Outlines:** line 137 rings, 1,725 straight (4,015 mm) / 265 curved (421 mm); text 496 rings, 3,939 straight (4,694 mm) / 1,080 curved (1,638 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 89 in 82 lines: WAAD-BECK SYSTeMs LTD · PARTS LIST · M450a PROGRAM · AMPLIFIER · PART · DESCRIPIION · MFG · MFG PART · NUMBER · R16 Resistor · 4k7 · Philips
+
+Every curve, box, word and wire group: [1973 - M450A - Program Amplifer p10 (traced).json](1973%20-%20M450A%20-%20Program%20Amplifer%20p10%20%28traced%29.json) (the CAD file: `1973 - M450A - Program Amplifer p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–416 mm up
+- **Outlines:** line 29 rings, 1,109 straight (3,698 mm) / 100 curved (166 mm); text 254 rings, 2,109 straight (2,477 mm) / 580 curved (936 mm); tb 5 rings, 33 straight (29.0 mm) / 10 curved (12.0 mm)
+- **Words (OCR):** 31 in 23 lines: WAAD-BECK SYSTEMS LTD · PARTS LISI · M4504 PROGRAM · AMPLIFIER · PART DESCRIPTION · MF G · MFG PART NUMBER · R51 · Resistor Factory Selected · R52 · 4w · 620
+- **Title block:** (28, 253)–(192, 426) mm: WAAD-BECK SYSTEMS LTD · PARTS LISI · M4504 PROGRAM · PART DESCRIPTION · MF G · R51 · Resistor Factory Selected · R52 · 4w · 620 · 21 · circuit · Integrated · 22 · 21 · is Factory Selected WBS · by
+
+Every curve, box, word and wire group: [1973 - M450A - Program Amplifer p11 (traced).json](1973%20-%20M450A%20-%20Program%20Amplifer%20p11%20%28traced%29.json) (the CAD file: `1973 - M450A - Program Amplifer p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** schematic 450-02 002, size B (assumed) 432 × 290 mm, 2000 × 1344 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–289 mm up
+- **Outlines:** line 616 rings, 7,625 straight (13,868 mm) / 1,816 curved (2,453 mm); text 874 rings, 5,606 straight (5,404 mm) / 2,261 curved (2,825 mm); tb 32 rings, 222 straight (266 mm) / 57 curved (70.3 mm)
+- **Centre lines:** 14,421 paths (199 closed); straight 12,812 mm, curved 480 mm; horizontal 3,650 mm, vertical 3,087 mm, diagonal 6,076 mm
+- **Circles and arcs:** 11 circles, 76 arcs; largest r 3.5 @ (189.2, 154.9), r 3.5 @ (188.7, 104.4), r 3.5 @ (304.8, 201.4), r 3.4 @ (330.7, 65.5)
+- **Closed boxes:** 6
+- **Words (OCR):** 196 in 175 lines: R38 · 027 · 96 · Tipbo8 · Pn3569 · 227 · CRS · R39 · 680OP · ~I6v · {N4148 · 40
+- **Title block:** (352, 14)–(406, 195) mm: Wbs · FO2I50 · Far 6o 0 LQAD · STCAP 4/5 · 330/6 R33 · WBS WARD-[ · M4so_
+- **Wiring (first pass):** 118 connected wire groups from 713 runs; labelled ends: 406 mm → R35, 34, C18, (SOA; 214 mm → Rzo, IcO, C15, 33/0; 186 mm → 1884; 170 mm → 227, Ra=, 470, 33o/6; 125 mm → C14, Pi7, 220p, 220
+
+Every curve, box, word and wire group: [1973 - M450A - Program Amplifer p12 (traced).json](1973%20-%20M450A%20-%20Program%20Amplifer%20p12%20%28traced%29.json) (the CAD file: `1973 - M450A - Program Amplifer p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 432 × 283 mm, 2000 × 1310 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–272 mm up
+- **Outlines:** line 620 rings, 5,728 straight (11,296 mm) / 1,281 curved (2,038 mm); text 766 rings, 5,281 straight (5,435 mm) / 1,988 curved (2,569 mm); tb 15 rings, 96 straight (139 mm) / 14 curved (20.2 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 5.2 @ (137.3, 156.1), r 3.6 @ (352.3, 168.7), r 2.4 @ (330.2, 170.9), r 2.2 @ (235.9, 171.8)
+- **Closed boxes:** 15; named: Q8 Q6 tip %b 20 247 3.75w Qio r49 Qi2 Ti
+- **Words (OCR):** 146 in 131 lines: IOOP · 2K2 · C16 · R3 · RSZ 62 · R5 · A1K · R4 · 2KZ · c28 · C27 · R38-I
+- **Title block:** (348, 14)–(399, 30) mm: WBS · WARD
+
+Every curve, box, word and wire group: [1973 - M450A - Program Amplifer p13 (traced).json](1973%20-%20M450A%20-%20Program%20Amplifer%20p13%20%28traced%29.json) (the CAD file: `1973 - M450A - Program Amplifer p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1532 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 0–432 mm up
+- **Outlines:** line 228 rings, 3,899 straight (9,763 mm) / 782 curved (1,027 mm); text 313 rings, 4,394 straight (5,011 mm) / 1,270 curved (1,613 mm)
+- **Closed boxes:** 42; named: Baee; 12; 14; 15
+- **Words (OCR):** 29 in 24 lines: +25v · n/c · WHEn · Ii · USED AS · INPUT WHEn · USED AS · PROGrAM AMP · inPUT SHIELD · COMMON · GAIN · SET
+
+Every curve, box, word and wire group: [1973 - M450A - Program Amplifer p14 (traced).json](1973%20-%20M450A%20-%20Program%20Amplifer%20p14%20%28traced%29.json) (the CAD file: `1973 - M450A - Program Amplifer p14 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

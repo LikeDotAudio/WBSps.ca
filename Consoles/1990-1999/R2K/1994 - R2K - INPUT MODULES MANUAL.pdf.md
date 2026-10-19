@@ -11,6 +11,77 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Pages:** 7
 - **PDF created (scan date, not design date):** Wed Oct 20 10:49:54 2004 EDT
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 40–313 mm across, 32–398 mm up
+- **Outlines:** line 500 rings, 3,211 straight (19,178 mm) / 419 curved (952 mm); text 366 rings, 2,287 straight (2,809 mm) / 729 curved (1,053 mm)
+- **Circles and arcs:** 51 circles, 0 arcs; largest r 4.5 @ (294.6, 342.5), r 4.5 @ (242.6, 342.5), r 4.4 @ (198.3, 305.6), r 4.4 @ (301.6, 305.3)
+- **Closed boxes:** 49
+- **Words (OCR):** 40 in 38 lines: R241 · R242 · R243 · R244 · SAS · SAS · ROUTER · ROUTER · MONO · MONO · COOL GREY · INPUT MODULES
+
+Every curve, box, word and wire group: [1994 - R2K - INPUT MODULES MANUAL p1 (traced).json](1994%20-%20R2K%20-%20INPUT%20MODULES%20MANUAL%20p1%20%28traced%29.json) (the CAD file: `1994 - R2K - INPUT MODULES MANUAL p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 52–308 mm across, 20–404 mm up
+- **Outlines:** line 626 rings, 3,350 straight (29,638 mm) / 201 curved (387 mm); text 951 rings, 6,450 straight (9,070 mm) / 1,620 curved (2,634 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 4.0 @ (264.6, 143.2), r 4.0 @ (92.6, 143.2)
+- **Closed boxes:** 146; named: CONNECTION INPUT- INPUT+ OUTPUT-** CONNE; INPUT RIGHT; INPUT RIGHT; GND; INPUT RIGHT; INPUT RIGHT; GND; OUT+ INSERT RIGHT; OUT- INSERT RIGHT; GND; INPUT+ INSERT RIGHT; INPUT- INSERT RIGHT
+- **Words (OCR):** 134 in 39 lines: BLOCK · OUTPUT OUTPUT · TERMINATION CONSOLE · TERMINAL · DIRECT DIRECT · RIGHT LEFT · TYPICAL · ON ON · ENABLED APPEARS APPEARS · R241/R242 · R2K · WHEN SEND SEND
+
+Every curve, box, word and wire group: [1994 - R2K - INPUT MODULES MANUAL p2 (traced).json](1994%20-%20R2K%20-%20INPUT%20MODULES%20MANUAL%20p2%20%28traced%29.json) (the CAD file: `1994 - R2K - INPUT MODULES MANUAL p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 52–308 mm across, 20–404 mm up
+- **Outlines:** line 640 rings, 3,403 straight (29,752 mm) / 198 curved (380 mm); text 986 rings, 6,662 straight (9,209 mm) / 1,790 curved (2,851 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 4.0 @ (264.8, 143.2), r 4.0 @ (92.7, 143.3)
+- **Closed boxes:** 153; named: CONNECTION Switcher Switcher INPUT- INPU; Switcher From INPUT RIGHT; Switcher From INPUT RIGHT; GND; DATA CONTROL SAS; DATA CONTROL SAS; OUT+ INSERT RIGHT; OUT- INSERT RIGHT; GND; INPUT+ INSERT RIGHT; INPUT- INSERT RIGHT; GND
+- **Words (OCR):** 138 in 49 lines: BLOCK · OUTPUT OUTPUT · TERMINATION CONSOLE · TERMINAL · DIRECT DIRECT · RIGHT LEFT · TYPICAL · ON ON · ENABLED APPEARS APPEARS · R243/R244 · R2K · WHEN SEND SEND
+
+Every curve, box, word and wire group: [1994 - R2K - INPUT MODULES MANUAL p3 (traced).json](1994%20-%20R2K%20-%20INPUT%20MODULES%20MANUAL%20p3%20%28traced%29.json) (the CAD file: `1994 - R2K - INPUT MODULES MANUAL p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 52–298 mm across, 137–369 mm up
+- **Outlines:** text 2,738 rings, 18,433 straight (21,955 mm) / 5,722 curved (8,315 mm)
+- **Words (OCR):** 416 in 32 lines: R241\R242\R243\R244 · STEREO INPUT MODULE · The R241 Stereo Input Module is the basic input channel module for the Cool Grey radio audio console series. · The model R242 offers all the features and facilities of the R241 as well as individual level controls on the two · mono sends The model R243 mim
+
+Every curve, box, word and wire group: [1994 - R2K - INPUT MODULES MANUAL p4 (traced).json](1994%20-%20R2K%20-%20INPUT%20MODULES%20MANUAL%20p4%20%28traced%29.json) (the CAD file: `1994 - R2K - INPUT MODULES MANUAL p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 52–298 mm across, 93–369 mm up
+- **Outlines:** line 78 rings, 1,055 straight (2,135 mm) / 231 curved (367 mm); text 3,034 rings, 20,486 straight (23,528 mm) / 6,483 curved (9,468 mm)
+- **Words (OCR):** 483 in 41 lines: A-B SOURCE SELECT (R241/R242) · Source pushbuttons and are electronically interlocked and select between stereo inputs and · respectively. Left and right trim controls are accessible from the front panel. These trim controls are post · input select. · MONO SELECT (R241/R242) · Pressing the MONO push
+
+Every curve, box, word and wire group: [1994 - R2K - INPUT MODULES MANUAL p5 (traced).json](1994%20-%20R2K%20-%20INPUT%20MODULES%20MANUAL%20p5%20%28traced%29.json) (the CAD file: `1994 - R2K - INPUT MODULES MANUAL p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 52–294 mm across, 78–368 mm up
+- **Outlines:** line 18 rings, 357 straight (790 mm) / 69 curved (108 mm); text 919 rings, 6,643 straight (8,423 mm) / 2,051 curved (3,178 mm)
+- **Words (OCR):** 164 in 66 lines: EXTERNAL CONTROL · For external control, the Cool Grey input modules offer four control inputs and four control outputs. Up to · eight different pre-programmed operating modes are offered. The different modes are selected by setting · series of DIP switches and include the definition of the operatio
+
+Every curve, box, word and wire group: [1994 - R2K - INPUT MODULES MANUAL p6 (traced).json](1994%20-%20R2K%20-%20INPUT%20MODULES%20MANUAL%20p6%20%28traced%29.json) (the CAD file: `1994 - R2K - INPUT MODULES MANUAL p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 52–298 mm across, 39–368 mm up
+- **Outlines:** text 2,271 rings, 15,993 straight (19,810 mm) / 4,477 curved (6,732 mm)
+- **Words (OCR):** 401 in 90 lines: MODE#1 (SOFTWARE M1.02) · MODE · Control in CH ON · Control out CH ON INA Tally · Control in CH OFF Control out CH ON INB Tally · Control in · SEL · Control out · Tally · Control in · SEL · Control out
+
+Every curve, box, word and wire group: [1994 - R2K - INPUT MODULES MANUAL p7 (traced).json](1994%20-%20R2K%20-%20INPUT%20MODULES%20MANUAL%20p7%20%28traced%29.json) (the CAD file: `1994 - R2K - INPUT MODULES MANUAL p7 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

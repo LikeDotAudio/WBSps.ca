@@ -12,6 +12,17 @@ Wiki page: [M450](../../../PAGES/M450.md)
 - **Pages:** 1
 - **PDF created (scan date, not design date):** Wed May 24 16:28:02 2006 EDT
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 432 × 270 mm, 2000 × 1250 px traced (0.216 mm/px)
+- **Ink extent:** 10–424 mm across, 8–261 mm up
+- **Outlines:** line 5 rings, 17 straight (679 mm) / 7 curved (26.6 mm); text 633 rings, 5,023 straight (8,469 mm) / 1,455 curved (2,970 mm)
+- **Words (OCR):** 80 in 11 lines: Multiple files are bound together in this PDF Package. · Adobe recommends using Adobe Reader or Adobe Acrobat version or later to work with · documents contained within PDF Package. By updating to the latest version, you’ll enjoy · the following benefits: · Efficient, integrated PDF viewing · Easy p
+
+Every curve, box, word and wire group: [1975 - M450 - Program Summing Amp p1 (traced).json](1975%20-%20M450%20-%20Program%20Summing%20Amp%20p1%20%28traced%29.json) (the CAD file: `1975 - M450 - Program Summing Amp p1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

@@ -12,6 +12,91 @@ Wiki page: [POD2](../../../PAGES/POD2.md)
 - **Pages:** 8
 - **PDF created (scan date, not design date):** Wed Jun 22 22:08:12 2050 EDT
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 49–298 mm across, 70–388 mm up
+- **Outlines:** line 114 rings, 2,451 straight (6,452 mm) / 282 curved (460 mm); text 236 rings, 2,045 straight (2,543 mm) / 619 curved (1,055 mm); tb 222 rings, 1,826 straight (3,328 mm) / 298 curved (458 mm)
+- **Circles and arcs:** 13 circles, 0 arcs; largest r 7.2 @ (246.2, 157.2), r 2.7 @ (233.9, 151.1), r 2.7 @ (58.6, 157.6), r 2.6 @ (287.6, 266.5)
+- **Closed boxes:** 17; named: PODS by Ward-Beck Systems NPUT SELECT SU; 2223 3822 298 115 VAC 112 AS.B. LEFT Rig
+- **Words (OCR):** 19 in 18 lines: POD 2 · STEREO AUDIO SWITCHER · PODS by Ward-Beck Systems · NPUT SELECT · SUM · POD-2 STEREO AUDIO SWITCHER · 2223 · 298 · 3822 · 115 VAC 112 AS.B. · LEFT · Right
+- **Title block:** (109, 58)–(235, 292) mm: PODS by Ward-Beck Systems · NPUT SELECT · SUM · 2223 · 298 · 3822 · 00 · CONTROL · by Ward-Beck Systems
+
+Every curve, box, word and wire group: [1997 - POD2 - POD2_Manual p1 (traced).json](1997%20-%20POD2%20-%20POD2_Manual%20p1%20%28traced%29.json) (the CAD file: `1997 - POD2 - POD2_Manual p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 56–281 mm across, 59–357 mm up
+- **Outlines:** line 10 rings, 59 straight (331 mm) / 19 curved (32.3 mm); text 1,862 rings, 15,023 straight (18,123 mm) / 4,352 curved (6,981 mm)
+- **Words (OCR):** 58 in 46 lines: POD 2 · STEREO AUDIO SWITCHER · Just one of many in our line of · top quality; low-cost broadcast · problem solvers: PODS are compact; rugged and affordable: · For table · top use; or rack-mountable · singly or in pairs, in any · combination_ · Connections to POD2 · POD2 is a unity gain six by one s
+
+Every curve, box, word and wire group: [1997 - POD2 - POD2_Manual p2 (traced).json](1997%20-%20POD2%20-%20POD2_Manual%20p2%20%28traced%29.json) (the CAD file: `1997 - POD2 - POD2_Manual p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 62–328 mm across, 6–425 mm up
+- **Outlines:** line 1,081 rings, 16,935 straight (26,503 mm) / 3,435 curved (4,469 mm); text 423 rings, 2,828 straight (2,717 mm) / 1,021 curved (1,365 mm)
+- **Closed boxes:** 71; named: J0H; 22222822 222222 CNJ; #le/g; Eg3; 135
+- **Words (OCR):** 25 in 24 lines: JLz · 95 · Hb · 22222822 222222 · J0H · #le/g ES3 · CNJ · Xoi · X0 | · Mv · Eg3 · ng"
+
+Every curve, box, word and wire group: [1997 - POD2 - POD2_Manual p3 (traced).json](1997%20-%20POD2%20-%20POD2_Manual%20p3%20%28traced%29.json) (the CAD file: `1997 - POD2 - POD2_Manual p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 61–328 mm across, 6–425 mm up
+- **Outlines:** line 848 rings, 15,831 straight (25,584 mm) / 3,230 curved (4,207 mm); text 296 rings, 2,094 straight (1,992 mm) / 727 curved (968 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.0 @ (169.0, 223.7)
+- **Closed boxes:** 51; named: di; 06 84; 66 3341; 66 65 8943; 66; 86 86 8848; 66 36; 2E2
+- **Words (OCR):** 29 in 27 lines: di · 06 · 66 · 84 · 847 · 8947 · #SJ · Dav · 66 · 3341 · 28 · 238
+
+Every curve, box, word and wire group: [1997 - POD2 - POD2_Manual p4 (traced).json](1997%20-%20POD2%20-%20POD2_Manual%20p4%20%28traced%29.json) (the CAD file: `1997 - POD2 - POD2_Manual p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 60–328 mm across, 9–427 mm up
+- **Outlines:** line 642 rings, 8,598 straight (14,796 mm) / 1,555 curved (2,040 mm); text 77 rings, 550 straight (556 mm) / 196 curved (265 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 1.0 @ (175.5, 290.7), r 1.0 @ (240.2, 226.5), r 1.0 @ (240.2, 224.4), r 0.9 @ (293.0, 226.8)
+- **Closed boxes:** 70; named: 2 6; 83
+- **Dots (junctions):** 1
+- **Words (OCR):** 3 in 3 lines: 2 6 · LuacnJkd · 83
+
+Every curve, box, word and wire group: [1997 - POD2 - POD2_Manual p5 (traced).json](1997%20-%20POD2%20-%20POD2_Manual%20p5%20%28traced%29.json) (the CAD file: `1997 - POD2 - POD2_Manual p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 56–280 mm across, 261–388 mm up
+- **Outlines:** line 1 rings, 8 straight (7.7 mm) / 3 curved (4.6 mm); text 644 rings, 5,430 straight (6,484 mm) / 1,463 curved (2,351 mm)
+- **Words (OCR):** 32 in 30 lines: SPECIFICATIONS · Gain · Unity · Max Input Level · +30 dBu · Max Output Level · +30 dBu · Frequency Response · +0.1 dB. 20Hz t0 20kHz · Noise · better than 90 dBu; 2OHz to 2OkHz · THD Noise
+
+Every curve, box, word and wire group: [1997 - POD2 - POD2_Manual p6 (traced).json](1997%20-%20POD2%20-%20POD2_Manual%20p6%20%28traced%29.json) (the CAD file: `1997 - POD2 - POD2_Manual p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 113–225 mm across, 171–389 mm up
+- **Outlines:** line 38 rings, 450 straight (660 mm) / 83 curved (140 mm); text 225 rings, 2,458 straight (3,150 mm) / 633 curved (952 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.9 @ (156.7, 376.5), r 2.9 @ (208.6, 376.4), r 2.9 @ (180.5, 376.5), r 2.9 @ (132.5, 376.5)
+- **Words (OCR):** 21 in 21 lines: GPL Control Connections · 1. Mix (Pod2 only) · 2. NIC · 3. Input 1 · Input 2 · 5. Input 3 · 6. Input 4 · Input 5 · 8. Input 6 · GND · GPL Control Connections · for PQD3O
+
+Every curve, box, word and wire group: [1997 - POD2 - POD2_Manual p7 (traced).json](1997%20-%20POD2%20-%20POD2_Manual%20p7%20%28traced%29.json) (the CAD file: `1997 - POD2 - POD2_Manual p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 41–284 mm across, 27–386 mm up
+- **Outlines:** line 1 rings, 2 straight (1.7 mm) / 1 curved (0.7 mm); text 2,478 rings, 20,132 straight (22,448 mm) / 6,056 curved (9,446 mm); tb 2 rings, 11 straight (12.5 mm) / 3 curved (3.9 mm)
+- **Words (OCR):** 47 in 39 lines: WARRANTY · AIl Ward-Beck Systems Ltd. products are warranted against defective materials · and workmanship for a period of one year from the date of shipment: · Ward-Beck Systems Ltd. will repair or replace, at its option and without charge _ · all said products or parts thereof which upon · factory
+- **Title block:** (47, 18)–(291, 380) mm: AIl Ward-Beck Systems Ltd. products are warranted against defective materials · and workmanship for a period of one year from the date of shipment: · Ward-Beck Systems Ltd. will repair or replace, at 
+
+Every curve, box, word and wire group: [1997 - POD2 - POD2_Manual p8 (traced).json](1997%20-%20POD2%20-%20POD2_Manual%20p8%20%28traced%29.json) (the CAD file: `1997 - POD2 - POD2_Manual p8 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

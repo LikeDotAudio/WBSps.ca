@@ -16,6 +16,487 @@ Wiki page: [M462C](../../../PAGES/M462C.md)
 
 - **1985** (manual_issue): `I ssu e Oc tobe r 1985` — …SA14-109A UNIVERSAL AMPLIFIER ASSEMBLY , a .c ps BS ,¥ 1 W I ssu e Oc tobe r 1985 :// tp ht…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 314 × 432 mm, 1453 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 11–307 mm across, 5–415 mm up
+- **Outlines:** line 82 rings, 761 straight (3,172 mm) / 173 curved (220 mm); text 134 rings, 1,375 straight (2,127 mm) / 427 curved (586 mm); tb 39 rings, 375 straight (680 mm) / 90 curved (122 mm)
+- **Words (OCR):** 10 in 9 lines: WAAD-BECK SYSTEMS LTO · WBS EO ic3 · 3cabcouh cuIPO · 333 · Gc 73J2 · M4gzC /M5G2C · STEREO EQUALIZER MODULE · Uani · Aque
+- **Title block:** (29, 388)–(284, 425) mm: WAAD-BECK SYSTEMS LTO · WBS EO ic3 · 3cabcouh cuIPO · 333 · Gc 73J2
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p1 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 313 × 432 mm, 1451 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 12–309 mm across, 0–423 mm up
+- **Outlines:** line 298 rings, 3,056 straight (5,510 mm) / 760 curved (1,236 mm); text 476 rings, 3,801 straight (4,388 mm) / 1,140 curved (1,908 mm)
+- **Circles and arcs:** 16 circles, 0 arcs; largest r 1.8 @ (33.1, 282.8), r 1.8 @ (186.9, 256.9), r 1.8 @ (177.9, 243.0), r 1.8 @ (128.6, 290.6)
+- **Words (OCR):** 64 in 48 lines: OQAD AECR · atatrhr · intrcouC/u · STEAEU · FouiLIZER hoduli · "L62C/Msezc · ancillery 0rorc · Mgac4552C Bueen quai · "adula · deiloned · Inlegrate · Jacto 3res
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p2 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1436 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 11–304 mm across, 1–414 mm up
+- **Outlines:** line 246 rings, 2,525 straight (4,869 mm) / 661 curved (1,087 mm); text 1,082 rings, 7,438 straight (8,283 mm) / 2,482 curved (4,040 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.2 @ (23.3, 168.7), r 1.8 @ (26.0, 57.7), r 1.7 @ (187.8, 98.6), r 1.7 @ (201.6, 98.5)
+- **Closed boxes:** 1
+- **Words (OCR):** 229 in 116 lines: WARD-BEC · YST eM LTD · TEC HN ICAL DATA · M4 2C TEIl EO EQ UALlZEn MODULE · Un ity · Fre qu en · Re sp nse · fr · 20 · 10 20 H7 · equ" ll ze rn · le lIn th
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p3 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 305 × 432 mm, 1412 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–304 mm across, 2–424 mm up
+- **Outlines:** line 71 rings, 1,223 straight (3,542 mm) / 210 curved (352 mm); text 141 rings, 1,050 straight (1,204 mm) / 305 curved (508 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.3 @ (138.3, 355.6), r 1.8 @ (142.7, 306.2)
+- **Words (OCR):** 30 in 18 lines: WAFlD-BECI< BYSTEMS LTD. · TECHr IlCAL DATA · 62C STER EO EQUA · ZER MODUL · Di me io · "lit, 178 mm · wi · .00 · ;!lh · eep · (41 · H:'S
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p4 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 308 × 432 mm, 1427 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–303 mm across, 2–422 mm up
+- **Outlines:** line 35 rings, 675 straight (2,816 mm) / 102 curved (170 mm); text 918 rings, 6,741 straight (7,514 mm) / 2,100 curved (3,425 mm); tb 707 rings, 5,101 straight (5,898 mm) / 1,551 curved (2,532 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.7 @ (278.6, 167.5), r 1.7 @ (280.2, 284.5)
+- **Words (OCR):** 108 in 76 lines: WARD · BECK BYBTEME · 046?C STEREO oualiZEn HODUC · Sta {quallzer Eidande · LaGnc · Drortesing · Mcouies · Gerso ppnicalcns. · Simnuttanenue enuaitannn Admenig · rinne · chinnn aipnale · equazer
+- **Title block:** (7, 25)–(271, 423) mm: WARD · BECK BYBTEME · 046?C STEREO oualiZEn HODUC · Sta {quallzer Eidande · LaGnc · Drortesing · Mcouies · Gerso ppnicalcns. · Simnuttanenue enuaitannn Admenig · chinnn aipnale · equazer · 0ivides · a
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p5 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 309 × 432 mm, 1431 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–300 mm across, 2–417 mm up
+- **Outlines:** line 503 rings, 4,548 straight (7,615 mm) / 1,275 curved (2,048 mm); text 842 rings, 6,580 straight (7,410 mm) / 2,021 curved (3,300 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 2.2 @ (47.1, 154.3), r 1.8 @ (92.3, 201.7), r 1.8 @ (98.0, 243.1), r 1.8 @ (138.1, 174.1)
+- **Dots (junctions):** 3
+- **Words (OCR):** 92 in 61 lines: WAAD · ECK Oyotomg · CAERATIC UL ZscRi · stereo ECIliZER ADDULE · 6zl · Aau LM · Futuuulast · frequrncy · Conirol · coTncr · shclvina · cenicr Jn#qurct
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p6 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 308 × 432 mm, 1427 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–296 mm across, 6–422 mm up
+- **Outlines:** line 187 rings, 2,164 straight (5,145 mm) / 501 curved (846 mm); text 635 rings, 4,609 straight (5,324 mm) / 1,412 curved (2,331 mm)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 142 in 80 lines: WAFl D-B CI< SYSTE MS · LTD · OPERA IONAL OESCR IP ION · M46 2C STE REO EOUAL IZER MODUL · HI GH FREQU ENCY CU T/BOOST · RJ · ;/lp r-op rl" te scc · ter ln es · moun · 1·1;9h · or · N!qu.....c
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p7 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p7%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 304 × 432 mm, 1409 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–295 mm across, 7–420 mm up
+- **Outlines:** line 768 rings, 6,029 straight (9,215 mm) / 1,775 curved (2,868 mm); text 952 rings, 7,131 straight (7,916 mm) / 2,211 curved (3,613 mm)
+- **Circles and arcs:** 23 circles, 0 arcs; largest r 2.2 @ (186.1, 368.6), r 1.8 @ (28.3, 129.8), r 1.8 @ (76.3, 109.2), r 1.8 @ (48.9, 231.9)
+- **Dots (junctions):** 5
+- **Words (OCR):** 115 in 77 lines: IVAAC HECIS 3YBTEME · ciacuIT dEscp · M-GZC STEREO EQUALIZER NODULE · circule ceteriblian yuuta · Channel , · ptrimin · chanei Gccutr ndecnter · Antinr manner; · npui · moduit · righi chennei · nout
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p8 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p8%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1419 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–297 mm across, 2–423 mm up
+- **Outlines:** line 372 rings, 3,424 straight (6,582 mm) / 938 curved (1,517 mm); text 1,521 rings, 10,875 straight (12,045 mm) / 3,532 curved (5,794 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 1.8 @ (94.5, 237.2), r 1.8 @ (132.2, 251.3), r 1.8 @ (169.9, 237.1), r 1.8 @ (281.7, 237.1)
+- **Closed boxes:** 1
+- **Dots (junctions):** 4
+- **Words (OCR):** 399 in 168 lines: IRCU IT OESCr'llP ION · M462C TEREO QUAL IZ ER MOOULE · The oU lpu · om · fl lt · Is fed b"ck In to he mi in · amp le · hro · CS wh ere it · Is · dde · or eve u-ee tee lrom Ih millin
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p9 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p9%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 308 × 432 mm, 1427 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–298 mm across, 3–413 mm up
+- **Outlines:** line 252 rings, 2,554 straight (5,303 mm) / 641 curved (1,057 mm); text 1,104 rings, 7,886 straight (8,884 mm) / 2,512 curved (4,154 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 2.2 @ (29.5, 326.6), r 1.8 @ (110.1, 209.4), r 1.8 @ (103.4, 237.0), r 1.8 @ (69.8, 140.0)
+- **Closed boxes:** 1
+- **Words (OCR):** 261 in 113 lines: ARO · CK YSTE MS · LT · IRCU IT DESCR IP TI ON · M462C STEREO EOU..... IZER MODULE · Th · channel outpu · r'<!m · wit ch SWI..... co nec ts to the · SAI4 _109A one weu ou tpu · mp ie · The
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p10 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p10%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1435 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–298 mm across, 1–422 mm up
+- **Outlines:** line 561 rings, 6,992 straight (20,347 mm) / 771 curved (1,286 mm); text 200 rings, 1,675 straight (1,952 mm) / 495 curved (784 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.1 @ (193.9, 354.1)
+- **Closed boxes:** 230; named: In 12- -o<E 1--1- 12- 1--1-; 12-; -o<E; 1--1-; 12-; 1--1-
+- **Words (OCR):** 45 in 20 lines: ECK YB TEM LT · FnEClUEUCY RESPONSE CHAFIACTER ST CS · 46 2C STEREO EOUALI ZER '·'OOULE · In · 12- · -o<E · OB · 1--1- · 12- · 1--1- · -15 · 2(tJ(l 4l1.
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p11 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p11%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 307 × 432 mm, 1421 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–297 mm across, 5–414 mm up
+- **Outlines:** line 611 rings, 7,624 straight (21,376 mm) / 869 curved (1,445 mm); text 142 rings, 1,188 straight (1,438 mm) / 337 curved (541 mm)
+- **Closed boxes:** 200
+- **Dots (junctions):** 2
+- **Words (OCR):** 35 in 17 lines: YBT EMS LT · FR EQUEIlCY RESPOtISE CHARAC TER 1ST · CS · M'62C STEREO EOUAl. ZEn MODULE · -ts · 2Oi, · ,1Ott · ~tlO FREOUENCY SEC T1011 · eoost/ cut · dB. · FREOUEtl CY · 400 Hz 10
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p12 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p12%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–300 mm across, 2–422 mm up
+- **Outlines:** line 604 rings, 7,216 straight (21,127 mm) / 838 curved (1,395 mm); text 133 rings, 1,142 straight (1,370 mm) / 328 curved (534 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.8 @ (84.9, 409.7)
+- **Closed boxes:** 205; named: "'NI\ Al
+- **Dots (junctions):** 1
+- **Words (OCR):** 38 in 21 lines: WAR · BECK VBTE · LTC · FREQUEtj CY RESPOUSE CHARACT ER 1ST · CS · I>1462C STEREO EOUAL ER MOOULE · "'NI\ · H2 · Al · lOU · ca · OW FREOUENCY SECT ION
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p13 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p13%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 303 × 432 mm, 1405 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–293 mm across, 8–423 mm up
+- **Outlines:** line 389 rings, 3,398 straight (6,306 mm) / 838 curved (1,387 mm); text 922 rings, 7,195 straight (8,252 mm) / 2,252 curved (3,750 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.0 @ (227.1, 144.6)
+- **Closed boxes:** 2
+- **Dots (junctions):** 1
+- **Words (OCR):** 206 in 125 lines: MA62C STEREO EQUAL IZ ER · MOOULE · DESCR PT ION · M'G · PART · p~<;I IO" · 1,1 10 · Kelnel · ca · uF 10 · ca · 33 pI"
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p14 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p14%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1435 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–301 mm across, 3–429 mm up
+- **Outlines:** line 649 rings, 5,786 straight (9,273 mm) / 1,585 curved (2,604 mm); text 687 rings, 5,053 straight (5,732 mm) / 1,639 curved (2,631 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.3 @ (140.2, 362.8), r 2.1 @ (129.6, 306.4)
+- **Dots (junctions):** 3
+- **Words (OCR):** 202 in 130 lines: WAR · CK · 1'EMS · MODUL · 46 · STERE · EOUALI · P....RT · DESCn TI ON · FO · MFr. P"lll · IIf" OE
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p15 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p15%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1435 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–304 mm across, 0–429 mm up
+- **Outlines:** line 709 rings, 5,654 straight (8,904 mm) / 1,569 curved (2,591 mm); text 99 rings, 878 straight (1,121 mm) / 241 curved (397 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.3 @ (94.0, 326.3), r 1.9 @ (184.2, 54.3), r 1.8 @ (85.0, 54.6), r 1.8 @ (63.6, 103.1)
+- **Dots (junctions):** 1
+- **Words (OCR):** 18 in 12 lines: WA~D·BECI< SYSTEMS · LTD. · M46 2C STEREO EQUALIZER MODUL · ps · BS · 3569 · PN3645 · TIP29B · tp · TI P30B · ht · TN2102
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p16 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p16%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 309 × 432 mm, 1433 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–298 mm across, 2–423 mm up
+- **Outlines:** line 366 rings, 3,140 straight (5,940 mm) / 796 curved (1,271 mm); text 305 rings, 2,384 straight (2,845 mm) / 720 curved (1,184 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.8 @ (71.3, 411.5), r 2.0 @ (247.6, 265.1)
+- **Closed boxes:** 1; named: YSTEMS
+- **Words (OCR):** 78 in 59 lines: WAR · BECK YSTEMS LTO · M462C STE REO EOUAL IZER MODUL · DESCRIPTION · 06 · Tr lln slslor · TI140 36 · PN3569 · 08 · PN36 45 · Po ten ti ome ter · 5K
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p17 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p17%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 305 × 432 mm, 1411 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–305 mm across, 3–424 mm up
+- **Outlines:** line 332 rings, 2,956 straight (5,858 mm) / 728 curved (1,164 mm); text 250 rings, 2,066 straight (2,425 mm) / 575 curved (937 mm)
+- **Words (OCR):** 55 in 41 lines: Fl ·lle CK VeTE M8 LTD · "'''62(; STEREO QUALl2ER · ~'ODUL · OESCR PT ION · J,!F · ART · NUM8E · R36 · Res Is tor · Ph: ll · R35 · RJ8
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p18 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p18%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 304 × 432 mm, 1410 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–302 mm across, 4–423 mm up
+- **Outlines:** line 479 rings, 3,785 straight (6,837 mm) / 998 curved (1,591 mm); text 114 rings, 1,024 straight (1,278 mm) / 258 curved (418 mm)
+- **Closed boxes:** 2
+- **Words (OCR):** 62 in 51 lines: FlO · CK SYSTEMS LTC · M462C STEREO EOUAL IZER MODULE · DESCRIPTION · R69 · Res is tor 1/4'" 51 · Ph ilIps · R7<> · R77 · Rn · ISk · R13
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p19 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p19%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 304 × 432 mm, 1406 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–302 mm across, 2–423 mm up
+- **Outlines:** line 270 rings, 2,447 straight (5,136 mm) / 570 curved (895 mm); text 405 rings, 3,430 straight (4,130 mm) / 989 curved (1,619 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.7 @ (126.0, 229.5)
+- **Words (OCR):** 91 in 62 lines: WAFlD ·II ECK SYSTEMS LTD · M462C STEREO EQUAL IZER MODULE · PART · DESCR PT IO · MFO PART UUMBER · RI · Ru $lo · low · ese · Ph~,1IP · IDS · lO6
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p20 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p20%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1417 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–298 mm across, 2–422 mm up
+- **Outlines:** line 444 rings, 3,983 straight (7,545 mm) / 947 curved (1,559 mm); text 336 rings, 2,711 straight (3,243 mm) / 724 curved (1,234 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.8 @ (99.5, 34.3)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 89 in 51 lines: WAR · l!!CK SVS Tl!! MS · LTO · M46 2C STE REO QUALI ZE MODULE · DESCRI · ON · ut · SI~,ne tlcs · ua · ua · U5 · us
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p21 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p21%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1419 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–296 mm across, 3–418 mm up
+- **Outlines:** line 332 rings, 3,643 straight (7,246 mm) / 827 curved (1,387 mm); text 523 rings, 4,403 straight (5,393 mm) / 1,293 curved (2,201 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.3 @ (46.1, 129.0)
+- **Dots (junctions):** 2
+- **Words (OCR):** 59 in 51 lines: WAAD AECK By8t005 · OCa · PARIS · M4gzc_SteREo EquALIZER mouulg · 4iscelCaNcQUS Co"DONents · ue |dh · Nu"2e · Bluck) · (Green/"hlte| · _ies0 · (Alncki · LSAAL
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p22 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p22%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1417 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–296 mm across, 3–424 mm up
+- **Outlines:** line 154 rings, 2,305 straight (5,099 mm) / 450 curved (751 mm); text 309 rings, 2,532 straight (2,993 mm) / 765 curved (1,297 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.3 @ (47.2, 326.0), r 1.8 @ (114.8, 35.8)
+- **Closed boxes:** 1
+- **Words (OCR):** 38 in 30 lines: atatems · LOAAD · PARTS List · MSer Gnind uum A Hc · cdhtrOL · 440be · BuTTCY · descRinTiOH · PAKI LUXUEH · uMee · 031-7335 · (aad/Whlto)
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p23 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p23%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 298 × 432 mm, 1381 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–292 mm across, 11–417 mm up
+- **Outlines:** line 225 rings, 2,954 straight (6,931 mm) / 568 curved (920 mm); text 141 rings, 1,132 straight (1,423 mm) / 323 curved (542 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.2 @ (189.9, 69.8), r 2.2 @ (176.2, 69.8)
+- **Closed boxes:** 22; named: to
+- **Words (OCR):** 45 in 20 lines: ARO ·SECK SYSTEMS LT · CONNECT OfI · 't'OUT · /IoI462C STE REO EOUALI ZER MODULE · Le fl Chennel · In ut · Righ Chenne · In ui · to · eft Ch nn · Ou to · RIgh Chann..,
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p24 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p24%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** drawing, size B (assumed) 340 × 432 mm, 1574 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–340 mm across, 0–432 mm up
+- **Outlines:** line 493 rings, 6,506 straight (12,512 mm) / 1,118 curved (1,458 mm); text 26 rings, 212 straight (200 mm) / 67 curved (90.5 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.8 @ (135.7, 213.5), r 2.5 @ (135.7, 151.0), r 1.4 @ (130.2, 280.8), r 1.3 @ (129.9, 157.0)
+- **Closed boxes:** 18
+- **Words (OCR):** 13 in 9 lines: lot · SAI4_ 1098 · UN IV ERSAL · AMPL IFIE · SU8ASSEM8LY · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p25 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p25%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** layout B 462-04-008, size B 329 × 432 mm, 1522 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–329 mm across, 9–432 mm up
+- **Outlines:** line 184 rings, 2,023 straight (4,728 mm) / 442 curved (970 mm); text 255 rings, 1,751 straight (1,979 mm) / 500 curved (779 mm); tb 4 rings, 30 straight (35.8 mm) / 10 curved (15.3 mm)
+- **Circles and arcs:** 15 circles, 0 arcs; largest r 5.0 @ (65.5, 239.5), r 5.0 @ (258.7, 212.8), r 5.0 @ (65.6, 265.5), r 5.0 @ (65.2, 146.4)
+- **Closed boxes:** 2; named: 1MlS It" 15 15 30 kH, Mf 0"0' 03 Lf l5 1; 1MlS It" 15 15 30 kH, Mf 0"0' 03 Lf l5 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 30 in 24 lines: 1MlS · CD · It" · 15 · 15 · 30 · kH, · Mf · 0"0' · 03 · Lf · l5
+- **Title block:** (238, 45)–(329, 66) mm: ps · [\NBS) WARD-BECK SYSTEMS · BS
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p26 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p26%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** drawing, size B (assumed) 341 × 432 mm, 1580 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–341 mm across, 2–430 mm up
+- **Outlines:** line 361 rings, 5,072 straight (8,261 mm) / 1,017 curved (1,298 mm); text 81 rings, 604 straight (776 mm) / 111 curved (152 mm)
+- **Words (OCR):** 11 in 11 lines: L£fT · rl · III'IJT · CUT · II · BOOST · RIGHT · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p27 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p27%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p27 (traced).dxf`).
+
+### Page 28
+
+- **Sheet:** functional B 462-01-004, size B 337 × 432 mm, 1560 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 230 rings, 3,605 straight (4,723 mm) / 732 curved (779 mm); text 174 rings, 1,394 straight (1,873 mm) / 326 curved (500 mm)
+- **Centre lines:** 9,359 paths (59 closed); straight 5,622 mm, curved 38.3 mm; horizontal 1,680 mm, vertical 1,261 mm, diagonal 2,680 mm
+- **Circles and arcs:** 0 circles, 10 arcs
+- **Closed boxes:** 2; named: $A14-108; 50\14-101
+- **Words (OCR):** 22 in 18 lines: EO · IHSEIlT · $A14-108 · ~---+UFT · IFII£O · OUlPllT · 50\14-101 · RIGHT · ps · BS SYSTEMS · [\/VB=:) WARD-BECK · M462C
+- **Title block:** (249, 40)–(337, 62) mm: BS SYSTEMS · [\/VB=:) WARD-BECK
+- **Wiring (first pass):** 30 connected wire groups from 241 runs; labelled ends: 62 mm → IHSEIlT; 24 mm → [\/VB=:); 15 mm → [\/VB=:); 14 mm → IHSEIlT; 6 mm → [\/VB=:)
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p28 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p28%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p28 (traced).dxf`).
+
+### Page 29
+
+- **Sheet:** drawing, size B (assumed) 342 × 432 mm, 1586 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–343 mm across, 2–431 mm up
+- **Outlines:** line 1,218 rings, 15,911 straight (22,317 mm) / 3,311 curved (4,323 mm); text 87 rings, 486 straight (486 mm) / 106 curved (144 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.1 @ (273.4, 152.1)
+- **Closed boxes:** 12
+- **Words (OCR):** 13 in 12 lines: an,....,. · .mT · AU. · M.L~ · /llLL · .-u..fHl~QII · c=r'a.=:t=:l · CM,~ OM · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p29 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p29%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p29 (traced).dxf`).
+
+### Page 30
+
+- **Sheet:** schematic B 462-02-004, size B 319 × 432 mm, 1478 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–316 mm across, 0–415 mm up
+- **Outlines:** line 707 rings, 8,929 straight (12,628 mm) / 1,915 curved (2,373 mm); text 226 rings, 1,593 straight (1,666 mm) / 417 curved (584 mm)
+- **Centre lines:** 11,199 paths (101 closed); straight 9,302 mm, curved 99.9 mm; horizontal 3,457 mm, vertical 2,324 mm, diagonal 3,521 mm
+- **Circles and arcs:** 0 circles, 34 arcs
+- **Closed boxes:** 2
+- **Dots (junctions):** 2
+- **Words (OCR):** 16 in 11 lines: ~,~,L~~-n: · 011 · ps · (VVSs) WARD-BECK · BS SYSTEMB · M462C · STEREO EQUALIZER MODULE · tp · ht SCHEMATIC · 462-02-004 · ISS.1
+- **Wiring (first pass):** 48 connected wire groups from 691 runs; labelled ends: 393 mm → ~,~,L~~-n:; 167 mm → ~,~,L~~-n:; 116 mm → ~,~,L~~-n:; 116 mm → ~,~,L~~-n:; 98 mm → ~,~,L~~-n:
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p30 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p30%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p30 (traced).dxf`).
+
+### Page 31
+
+- **Sheet:** component layout B 462-06-009, size B 338 × 432 mm, 1563 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–333 mm across, 7–401 mm up
+- **Outlines:** line 2,636 rings, 21,825 straight (24,591 mm) / 6,765 curved (7,516 mm); text 132 rings, 1,140 straight (1,270 mm) / 335 curved (424 mm); tb 7 rings, 60 straight (61.2 mm) / 18 curved (23.8 mm)
+- **Circles and arcs:** 15 circles, 0 arcs; largest r 6.3 @ (158.3, 150.8), r 6.3 @ (260.5, 153.5), r 6.3 @ (185.7, 160.3), r 5.9 @ (233.1, 160.1)
+- **Closed boxes:** 36
+- **Dots (junctions):** 16
+- **Words (OCR):** 30 in 17 lines: It'!IIELf · Ill. · 4Cf-cHT-AA · OF · Tl£ FlJU.OVIH; CSIPAC.ITtItS ARE 51. · 22CIOPF. 33OCIPF. 47«6'F RHO OlSl..F. · j:L1. · ps · [vvasJ WARD-BECK SYSTEMS · BS · M462C · STEREO EQUALIZER MODULE
+- **Title block:** (239, 44)–(333, 66) mm: ps · [vvasJ WARD-BECK SYSTEMS · BS
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p31 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p31%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p31 (traced).dxf`).
+
+### Page 32
+
+- **Sheet:** drawing, size B (assumed) 311 × 432 mm, 1440 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–300 mm across, 7–422 mm up
+- **Outlines:** line 16 rings, 937 straight (2,733 mm) / 88 curved (144 mm); text 161 rings, 1,142 straight (1,316 mm) / 266 curved (404 mm)
+- **Words (OCR):** 16 in 10 lines: WARD-BECK SYSTEMS LTD. · SECTION" · SA14-109A UNIVERSAL AMPLIFIER ASSEMBLY · ps · BS · ssu · Oc tobe · 1985 · tp · ht
+- **Title block:** (5, 398)–(117, 421) mm: WARD-BECK SYSTEMS LTD.
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p32 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p32%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p32 (traced).dxf`).
+
+### Page 33
+
+- **Sheet:** drawing, size B (assumed) 300 × 432 mm, 1387 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–290 mm across, 6–414 mm up
+- **Outlines:** line 189 rings, 2,004 straight (4,514 mm) / 470 curved (781 mm); text 866 rings, 6,118 straight (6,817 mm) / 2,012 curved (3,269 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.2 @ (17.1, 171.5), r 1.7 @ (21.5, 273.0)
+- **Dots (junctions):** 3
+- **Words (OCR):** 186 in 88 lines: WARD ·BECK VBTI!!!MB LTD · TEClHl CAL DATA · SA ~_I09 · UN IVERS AL AMPL IF IER ASSEMOL · sem~ · In pu · Gai · SA · I09 · ba anc"d · dB · I09A
+- **Title block:** (2, 399)–(67, 422) mm: WARD ·BECK VBTI!!!MB LTD
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p33 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p33%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p33 (traced).dxf`).
+
+### Page 34
+
+- **Sheet:** drawing, size B (assumed) 297 × 432 mm, 1374 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–292 mm across, 2–423 mm up
+- **Outlines:** line 223 rings, 2,157 straight (4,684 mm) / 571 curved (939 mm); text 386 rings, 2,894 straight (3,353 mm) / 888 curved (1,449 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 1.8 @ (61.9, 312.2), r 1.8 @ (103.8, 318.8), r 1.8 @ (100.6, 257.2), r 1.8 @ (243.5, 298.3)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 131 in 48 lines: WARO·SECK SYSTEMS · LTO · GENERAL · SA14- 109 UNI VER SAL AMPLI FIE ASSEM BL · The SA I4 _109 Amp lifi ers · sed · tern at com ponen to · rIous · was ser ies of audi · con so · mod es · It "ooun
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p34 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p34%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p34 (traced).dxf`).
+
+### Page 35
+
+- **Sheet:** drawing, size B (assumed) 295 × 432 mm, 1366 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–288 mm across, 2–416 mm up
+- **Outlines:** line 187 rings, 1,973 straight (4,488 mm) / 479 curved (776 mm); text 1,538 rings, 10,919 straight (12,075 mm) / 3,478 curved (5,511 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.6 @ (32.6, 151.5)
+- **Words (OCR):** 292 in 143 lines: WA~D -BeC · V8T I!MS · RCU IT DESCRIP ION · SAI I09 UNIVER SAL AMPLIFI ER ASSEMBL · ...ls · mp ll fler · Is · wo sec tion · Wh ic · orm ll · re · con fl
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p35 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p35%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p35 (traced).dxf`).
+
+### Page 36
+
+- **Sheet:** drawing, size B (assumed) 299 × 432 mm, 1385 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–297 mm across, 1–423 mm up
+- **Outlines:** line 172 rings, 1,761 straight (4,249 mm) / 388 curved (620 mm); text 562 rings, 4,242 straight (4,784 mm) / 1,272 curved (2,071 mm); tb 4 rings, 40 straight (55.7 mm) / 7 curved (12.6 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.7 @ (139.9, 263.7)
+- **Words (OCR):** 132 in 63 lines: WA~D -BECK SYSTEMS LTD · IRCU IT DESCR IP TIO · SA1 109 UNI VERSA · MP FI ER ASSEM!!hr · ll · 01 · er · en Sen"", trenslstor · whi · cont rol · out pu · c8
+- **Title block:** (29, 397)–(111, 421) mm: WA~D -BECK SYSTEMS LTD
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p36 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p36%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p36 (traced).dxf`).
+
+### Page 37
+
+- **Sheet:** drawing, size B (assumed) 303 × 432 mm, 1405 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 11–295 mm across, 2–422 mm up
+- **Outlines:** line 202 rings, 2,270 straight (5,195 mm) / 514 curved (828 mm); text 806 rings, 6,113 straight (7,057 mm) / 1,851 curved (3,024 mm)
+- **Words (OCR):** 160 in 93 lines: WA~ · ECI< YSTE · TD · PARTS IST · 14- 109 UN IVERSAL AMPL IER ASSEM BLY · PART · OESCR IP TI ON · FG · MFG PART · NUMBER · Kerne · T3900 336MOI OA
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p37 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p37%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p37 (traced).dxf`).
+
+### Page 38
+
+- **Sheet:** drawing, size B (assumed) 306 × 432 mm, 1419 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–302 mm across, 1–423 mm up
+- **Outlines:** line 581 rings, 4,732 straight (7,522 mm) / 1,323 curved (2,090 mm); text 65 rings, 615 straight (779 mm) / 155 curved (261 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.3 @ (93.1, 326.4), r 1.8 @ (83.9, 36.2)
+- **Words (OCR):** 18 in 9 lines: CK YSTEMS LTD · ARTS · IST · 5,1,1 109 UN VE RSAL AM PLIF · ASSEM BL · ca · BS · tp · ht
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p38 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p38%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p38 (traced).dxf`).
+
+### Page 39
+
+- **Sheet:** drawing, size B (assumed) 304 × 432 mm, 1410 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–300 mm across, 1–422 mm up
+- **Outlines:** line 200 rings, 2,565 straight (5,837 mm) / 523 curved (850 mm); text 279 rings, 2,164 straight (2,573 mm) / 599 curved (978 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.2 @ (145.4, 167.4), r 2.1 @ (34.7, 264.3)
+- **Closed boxes:** 1; named: YSTEMS
+- **Words (OCR):** 66 in 40 lines: WAAo · YSTEMS LTO. · PARTS LIST · SA14- I09 UNI VERSAL AMPL · IER ASSEM BL · PART · DESCRI TIO · CO · PART NUMBER · slor · Na ion · PN 3569
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p39 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p39%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p39 (traced).dxf`).
+
+### Page 40
+
+- **Sheet:** drawing, size B (assumed) 305 × 432 mm, 1411 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–296 mm across, 1–423 mm up
+- **Outlines:** line 312 rings, 3,457 straight (6,657 mm) / 828 curved (1,349 mm); text 259 rings, 2,059 straight (2,451 mm) / 594 curved (969 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 1.8 @ (90.5, 49.6), r 1.8 @ (124.2, 49.7), r 1.8 @ (208.2, 50.2), r 1.8 @ (65.8, 277.4)
+- **Dots (junctions):** 2
+- **Words (OCR):** 89 in 45 lines: WAFeO· l!I Il!!CI< YSTEMS · LT · PARTS LIS · SA ~-I09 UNIVERSAL AMPL IF IEH AS5E,.lOL · SA · 09A · Al · as per 5Alll l09 xcep · ted belo..... · t.1F PAi · NUMll · PAR
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p40 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p40%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p40 (traced).dxf`).
+
+### Page 41
+
+- **Sheet:** drawing, size B (assumed) 340 × 432 mm, 1577 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–338 mm across, 1–432 mm up
+- **Outlines:** line 278 rings, 4,917 straight (6,853 mm) / 965 curved (1,271 mm); text 224 rings, 1,425 straight (1,255 mm) / 419 curved (535 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 35 in 33 lines: +21V · 3.)/10 · ell · !IV · NE5S34H · no< · 1'12 · 22Q · IU1 · 571(' · J'U · 10/ 35
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p41 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p41%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p41 (traced).dxf`).
+
+### Page 42
+
+- **Sheet:** schematic B 14-109-02-002, size B 339 × 432 mm, 1571 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–432 mm up
+- **Outlines:** line 237 rings, 3,896 straight (4,303 mm) / 930 curved (1,117 mm); text 253 rings, 1,878 straight (1,919 mm) / 624 curved (889 mm); tb 3 rings, 81 straight (95.7 mm) / 9 curved (14.5 mm)
+- **Centre lines:** 11,385 paths (96 closed); straight 6,637 mm, curved 137 mm; horizontal 1,834 mm, vertical 1,374 mm, diagonal 3,429 mm
+- **Circles and arcs:** 0 circles, 32 arcs
+- **Closed boxes:** 2
+- **Words (OCR):** 60 in 37 lines: P2 · +UV · CURREN · IMIT · NOTE · AU. RESISTORS 1/4W · 51 AMI) · ALL CAPAC ITORS ARE IN uF · UNLESS OTHERWISE SPlCIFIEO · LAST COMP ONE NT DESIGNATIONS · C2O, · PI, 012, R4'Z
+- **Title block:** (242, 44)–(334, 65) mm: ps · (\NBS) WARD-BECK SYSTEMS · BS
+- **Wiring (first pass):** 28 connected wire groups from 278 runs; labelled ends: 88 mm → P2; 46 mm → RJI; 46 mm → 620, ;vr; 23 mm → (\NBS); 16 mm → (\NBS)
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p42 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p42%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p42 (traced).dxf`).
+
+### Page 43
+
+- **Sheet:** component layout B 14-109-06-002, size B 332 × 432 mm, 1539 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 0–431 mm up
+- **Outlines:** line 894 rings, 7,893 straight (8,256 mm) / 2,267 curved (2,414 mm); text 130 rings, 1,093 straight (1,216 mm) / 375 curved (452 mm); tb 2 rings, 14 straight (19.4 mm) / 5 curved (7.9 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 3.4 @ (119.3, 284.2), r 2.5 @ (125.3, 159.6), r 2.0 @ (37.0, 160.6), r 2.0 @ (126.2, 284.6)
+- **Closed boxes:** 6; named: -fBI'" DP -R17
+- **Dots (junctions):** 1
+- **Words (OCR):** 18 in 13 lines: -fBI'" · -R17 · DP · (\NBS) WARD-BECK SYSTEMS · ps · BS · SA14-109A · UNIVERSAL AMPLIFIER ASSEMBLY · COMPONENT LAYOUT · tp · ht · 14-109-06-002
+- **Title block:** (240, 47)–(332, 69) mm: (\NBS) WARD-BECK SYSTEMS · ps · BS
+
+Every curve, box, word and wire group: [1985 - M462C - M562C - Stereo Equalizer (2) p43 (traced).json](1985%20-%20M462C%20-%20M562C%20-%20Stereo%20Equalizer%20%282%29%20p43%20%28traced%29.json) (the CAD file: `1985 - M462C - M562C - Stereo Equalizer (2) p43 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

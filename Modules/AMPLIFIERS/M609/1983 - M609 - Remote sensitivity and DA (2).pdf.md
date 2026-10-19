@@ -17,6 +17,568 @@ Wiki page: [M609](../../../PAGES/M609.md)
 - **1983** (month): `JUNE 1983` — …WA R D - B ECK B YS T E M S LTD . a .c ps BS ISSUENl W :// JUNE 1983 . tp ht…
 - **1985** (month): `NOVEMBER 1985` — …VB/C OUTPUT SPl.I TTER NE TW~K ASSEMBL I ES a .c ps BS ~. W NOVEMBER 1985. :// tp ht…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–428 mm up
+- **Outlines:** line 124 rings, 1,575 straight (4,336 mm) / 243 curved (421 mm); text 221 rings, 1,846 straight (2,434 mm) / 399 curved (659 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 5.0 @ (174.9, 246.6), r 1.6 @ (185.1, 248.1)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 27 in 13 lines: ['NElS] """'OGRl!SS "\lENUE.~CN'TAFlIO '''3fH31'1:'50 · CK YSTE MS LT · 09-'1' 06:\-,,= · TEU!><· · Ti!U!Po<INE · M609 · REMOTE SENS TIVITY · AUDIO DISTRIBUTION AMPLIFIER · ps · ~"'NUAL ISS UE BS · /f2 · tp
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p1 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–310 mm across, 0–428 mm up
+- **Outlines:** line 211 rings, 2,549 straight (6,091 mm) / 542 curved (857 mm); text 841 rings, 6,253 straight (7,077 mm) / 1,819 curved (2,939 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.7 @ (250.5, 297.4), r 1.7 @ (250.6, 277.3)
+- **Words (OCR):** 162 in 64 lines: WARD-BECK SYSTEMS · L.TD · TA8LE OF CONTENTS · M609 REMOTE SENS IT IVITY AUDIO 0lST R18UTION AMPLiFI ER · Wa · I-I to 1_2 · Te<=h ic · Oa · Ge e,.a · 2-1 to 2-2 · In Sla ll at ion · 3-1 to
+- **Title block:** (28, 407)–(136, 430) mm: WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p2 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 0–429 mm up
+- **Outlines:** line 89 rings, 1,114 straight (3,676 mm) / 195 curved (330 mm); text 15 rings, 95 straight (156 mm) / 32 curved (54.3 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.1 @ (168.8, 242.5)
+- **Closed boxes:** 1
+- **Words (OCR):** 9 in 7 lines: WA · ECK SY · EMS TO. · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p3 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–428 mm up
+- **Outlines:** line 504 rings, 4,087 straight (6,970 mm) / 1,032 curved (1,657 mm); text 751 rings, 5,312 straight (5,906 mm) / 1,516 curved (2,400 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 1.7 @ (182.8, 226.2), r 1.7 @ (224.3, 332.8), r 1.7 @ (204.5, 246.1), r 1.7 @ (94.9, 260.0)
+- **Words (OCR):** 182 in 71 lines: ARD -BEC · YSTE · LTD · TECHNI CAL DATA · M609 REMOTE SENSITIVI TY AUD IO · IST IBUT ION AMPL IF ER · +30 · 10 30 · ont inu ou · lable. · quency Responn, · Hz to 20 kHz.
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p4 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–419 mm up
+- **Outlines:** line 244 rings, 2,406 straight (5,214 mm) / 522 curved (826 mm); text 413 rings, 2,780 straight (3,017 mm) / 719 curved (1,138 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 2.2 @ (94.3, 360.3), r 1.8 @ (151.1, 312.9), r 1.7 @ (63.6, 320.0), r 1.7 @ (70.6, 246.2)
+- **Words (OCR):** 95 in 46 lines: ARO -BECK · YSTEM LTO. · TECH NIC....L D....T · M60 REMOTE SE NSI TIVITY ....UD IO DI STR IB UTIO ....MPLI IE · ire up 10 1000 fHI · with · 51< · line ar · po tenllometer · <;Onirol iing elemen · Ph · ing
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p5 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–306 mm across, 10–428 mm up
+- **Outlines:** line 468 rings, 3,875 straight (6,694 mm) / 994 curved (1,588 mm); text 2,356 rings, 15,967 straight (17,708 mm) / 4,967 curved (7,720 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 1.7 @ (123.8, 227.8), r 1.7 @ (201.2, 327.1), r 1.7 @ (263.2, 207.6), r 1.7 @ (136.4, 181.0)
+- **Dots (junctions):** 3
+- **Words (OCR):** 478 in 194 lines: WARO-BeCK YSTEMS LTO. · M609 REMOTE SE NSITIV ITY AUDI DI STRIB UT ION AMPL IF IER · The M609 Remot · Sens itivity Audio Oi str lbu tion Amplifi · Is an · po we ed modular · unit de sign ed to · id ge acr oss · le · audio source and al lo ws remo · tme · of he amplifi
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p6 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–338 mm across, 18–418 mm up
+- **Outlines:** line 303 rings, 2,877 straight (5,531 mm) / 674 curved (1,078 mm); text 557 rings, 4,130 straight (4,513 mm) / 1,157 curved (1,800 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.2 @ (182.6, 359.6), r 1.7 @ (82.3, 279.2), r 1.7 @ (127.4, 259.1), r 1.7 @ (238.5, 325.2)
+- **Closed boxes:** 1
+- **Dots (junctions):** 2
+- **Words (OCR):** 144 in 50 lines: WAI=I ·BECK SYS · MS LTC. · "'609 REMOT SENSITI VIT AUCIO · ISTR IBUTI ON AMPt.,IFIER · The eC lve · ircu il · emenls · C:O ,lIe ned on su · ldl · In · prinled c:ircuil ee · prov id ing 1M me imum In
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p7 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p7%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–308 mm across, 0–421 mm up
+- **Outlines:** line 506 rings, 4,390 straight (7,238 mm) / 1,132 curved (1,806 mm); text 2,158 rings, 15,433 straight (16,922 mm) / 4,808 curved (7,542 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 2.2 @ (226.6, 362.6), r 1.7 @ (226.0, 281.8), r 1.7 @ (220.0, 122.3), r 1.7 @ (111.3, 182.5)
+- **Words (OCR):** 460 in 218 lines: FI · ECK YSTEMS · LTC. · M60 REMOTE SENS ITIVITY AUDIO DI STR IBUTIO AMP IF IER · Th · M609 plug direcl ly · nlO · was MF6 se.. ie · mounl ing fr am · ieh may · in st ll ed in · EIA nin leen in ch
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p8 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p8%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–420 mm up
+- **Outlines:** line 252 rings, 2,578 straight (5,216 mm) / 548 curved (887 mm); text 528 rings, 3,793 straight (4,140 mm) / 1,157 curved (1,800 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 2.2 @ (178.2, 360.3), r 2.2 @ (101.3, 360.3), r 2.2 @ (46.3, 247.2), r 2.2 @ (224.0, 360.3)
+- **Dots (junctions):** 2
+- **Words (OCR):** 131 in 61 lines: ECK · YSTEMS LTC · INSTALLATION · M60 REMOTE SENSITIVIT AUDIO DI STR BUTION MPLIFIER · he remote cOO"trol 'li · Is eft open the amp lifi er · aln will go to · m1nlmum · ss · han · dB). Simlla rily If th · control li ne
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p9 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p9%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–325 mm across, 11–429 mm up
+- **Outlines:** line 330 rings, 3,522 straight (7,165 mm) / 743 curved (1,170 mm); text 228 rings, 1,317 straight (1,483 mm) / 328 curved (531 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 2.2 @ (177.1, 363.0), r 1.7 @ (167.9, 342.3), r 1.7 @ (132.8, 329.0), r 1.7 @ (208.8, 342.1)
+- **Dots (junctions):** 1
+- **Words (OCR):** 44 in 17 lines: WAR · CK SYS · LTD · 101609 REMOTE SENSITIV ITY AUDIO DISTRI BUTION AMPLIF IER · GAIN · IN dB · Wilh the remot <:01111"'01 line open amplif Ier ga in · will · go 10 r_le,. Ihan -60 · Ihe <:0111.-01 · vollage · see-ee.. ll 10 +16
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p10 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p10%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–308 mm across, 0–429 mm up
+- **Outlines:** line 427 rings, 3,843 straight (7,517 mm) / 955 curved (1,550 mm); text 404 rings, 3,085 straight (3,474 mm) / 874 curved (1,400 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.2 @ (100.7, 366.0), r 1.7 @ (113.3, 172.0), r 1.7 @ (211.8, 285.0), r 1.7 @ (204.7, 185.1)
+- **Closed boxes:** 2
+- **Dots (junctions):** 2
+- **Words (OCR):** 91 in 46 lines: YS TE MS LTC. · M609 REMOTE SENSITIV ITY AUDIO · iSTR IBUT ION AMPLIFIER · Local LE · V.,llo · HLMP · 140 · 201 · Fuse · 25A 58 · MOL · eeoeete.. 22 Pin em
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p11 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p11%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–338 mm across, 0–419 mm up
+- **Outlines:** line 151 rings, 1,642 straight (5,068 mm) / 353 curved (568 mm); text 626 rings, 4,675 straight (5,479 mm) / 1,330 curved (2,173 mm); tb 116 rings, 854 straight (974 mm) / 238 curved (394 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 133 in 57 lines: WAR · SYSTE MS LT · M609 REMOTE SENSITIV ITY AUDIO DISTRIBUTION AMPLiFIER · SCEL ANEOUS COMPONENTS · M,FG PAR NUMBER · R201 · OG/R em Sw itch · Elma · SW201 · OG Sen CO< (rol Kn ob · Op ti ona · ack Caps Op ti nal
+- **Title block:** (41, 49)–(253, 265) mm: RE MOTE · Remota Sansi tiv ity · WBS 10_03 · CONTROL · Control {Opt io al) · (1/8 sha ft · 1/4" · Lin · Po ntiom.. · II · WBS · Bradl ey · Ramot · sit ivi ty · 21-1220 · Con trol Kno · for · (Opt ion 
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p12 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p12%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–309 mm across, 0–428 mm up
+- **Outlines:** line 409 rings, 4,944 straight (11,723 mm) / 1,000 curved (1,700 mm); text 138 rings, 1,081 straight (1,402 mm) / 295 curved (510 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 2.5 @ (126.5, 259.8), r 2.5 @ (150.8, 234.6), r 2.4 @ (126.6, 173.5), r 2.4 @ (126.3, 234.5)
+- **Closed boxes:** 20
+- **Dots (junctions):** 18
+- **Words (OCR):** 55 in 23 lines: WA F=lO · CK YSTEMS LTO · PI AND · CONNECTOR LAyoUTS · M609 REMOTE SENS ITI VIT AUDIO DI ST RI BUTION AMPLIF IER · 115V AC · SO/ GO Hz · RE MO TE · CONTROL · ---=::=-t-,J6I--- OUTPU · OUTP UT · 41-;-+--,-----'
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p13 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p13%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–338 mm across, 5–396 mm up
+- **Outlines:** line 104 rings, 2,184 straight (5,568 mm) / 291 curved (546 mm); text 267 rings, 1,951 straight (2,245 mm) / 495 curved (841 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 5.9 @ (285.7, 136.9), r 5.8 @ (286.0, 96.8), r 5.7 @ (130.8, 248.1), r 2.3 @ (151.5, 238.2)
+- **Closed boxes:** 1; named: M208 ATTENUATOR
+- **Dots (junctions):** 2
+- **Words (OCR):** 32 in 26 lines: INPUT · To +8dBm · 22dBm · PRE · M208 · 30k ohms · out · ATTENUATOR · LOc SENS · REMOTE · +30/_ 30dB · SENSITiViTY
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p14 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p14%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** functional B 609-01-001, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 5–424 mm up
+- **Outlines:** line 128 rings, 2,168 straight (4,747 mm) / 331 curved (580 mm); text 311 rings, 2,288 straight (2,914 mm) / 583 curved (977 mm)
+- **Centre lines:** 1,696 paths (37 closed); straight 4,077 mm, curved 101 mm; horizontal 1,573 mm, vertical 1,112 mm, diagonal 1,393 mm
+- **Circles and arcs:** 3 circles, 4 arcs; largest r 5.9 @ (46.3, 137.1), r 5.8 @ (46.7, 97.0), r 5.8 @ (47.1, 56.5)
+- **Words (OCR):** 35 in 26 lines: 6d · (-6dB · (-6d · OUTP UTS · (-6dB · Bm · 600 oh ms · -6d · -6dB · (-6dB) · .IJ · OVERLOAD
+- **Wiring (first pass):** 43 connected wire groups from 99 runs; labelled ends: 387 mm → (-6dB, (-6d; 56 mm → -6dB; 48 mm → 6d; 48 mm → (-6dB; 48 mm → (-6dB
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p15 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p15%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–339 mm across, 6–404 mm up
+- **Outlines:** line 192 rings, 3,170 straight (7,444 mm) / 571 curved (792 mm); text 151 rings, 1,118 straight (1,164 mm) / 367 curved (521 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.3 @ (117.8, 166.2)
+- **Closed boxes:** 3
+- **Words (OCR):** 28 in 27 lines: IkPuT · HobMn · Hanne · PO_is · hpUT GHIELO · 0-254 · Jo-3- · 5401 · 30/6C · UaliFier · PIib · AAOUNo
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p16 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p16%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** schematic B 609-02-001, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 5–401 mm up
+- **Outlines:** line 238 rings, 2,873 straight (5,722 mm) / 594 curved (816 mm); text 103 rings, 852 straight (1,059 mm) / 258 curved (410 mm); tb 12 rings, 154 straight (203 mm) / 44 curved (77.4 mm)
+- **Centre lines:** 3,697 paths (53 closed); straight 4,228 mm, curved 79.8 mm; horizontal 1,201 mm, vertical 1,583 mm, diagonal 1,444 mm
+- **Circles and arcs:** 1 circles, 22 arcs; largest r 1.0 @ (181.1, 76.1)
+- **Closed boxes:** 1
+- **Words (OCR):** 28 in 15 lines: our zurs · dBm NOMINAl.. · ·14 Bm MA l(l MU · 600 otwns · P1-' CHASSIS · ps · [waS] WARe-BECK SYSTEMS · BS · M609 · REMOTE SENSITIVITY · AUDIO DISTRIBUTION AMPLIFIER · tp
+- **Title block:** (229, 47)–(322, 69) mm: ps · [waS] WARe-BECK SYSTEMS · BS · M609
+- **Wiring (first pass):** 29 connected wire groups from 135 runs; labelled ends: 40 mm → P1-'
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p17 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p17%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–339 mm across, 4–403 mm up
+- **Outlines:** line 461 rings, 6,799 straight (16,824 mm) / 1,384 curved (2,170 mm); text 41 rings, 342 straight (370 mm) / 97 curved (153 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.4 @ (335.2, 107.7)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 12 in 12 lines: SA14-066A · P1 · SA14-0668 · ~~-R23 · SA14-066C · R31 · P2 · M20B · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p18 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p18%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** component layout B 609-06-002, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–320 mm across, 5–412 mm up
+- **Outlines:** line 255 rings, 4,524 straight (7,757 mm) / 872 curved (1,022 mm); text 259 rings, 1,642 straight (1,684 mm) / 428 curved (490 mm); tb 10 rings, 165 straight (162 mm) / 36 curved (44.4 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 4.8 @ (106.5, 143.0), r 2.4 @ (84.2, 107.6), r 2.3 @ (288.3, 28.4)
+- **Dots (junctions):** 2
+- **Words (OCR):** 21 in 15 lines: R12 · ~R31 · R201 · F201 · ps · (was] WARC-BECK SYSTEMS · BS · M609 · REMOTE SENSITIVITY · AUDIO DISTRIBUTION AMPLIFIER · tp LAYOUT · PERSPECTIVE
+- **Title block:** (231, 48)–(324, 70) mm: ps · (was] WARC-BECK SYSTEMS · BS · M609
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p19 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p19%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–339 mm across, 26–408 mm up
+- **Outlines:** line 341 rings, 6,549 straight (16,062 mm) / 883 curved (1,564 mm); text 454 rings, 3,779 straight (4,401 mm) / 1,066 curved (1,773 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.2 @ (131.6, 192.3)
+- **Closed boxes:** 86; named: II; p2-16; TT; II; Ip2-16; II; II; Ip2-16; TT; II; II; p2-16
+- **Words (OCR):** 121 in 100 lines: MULTIPLE UNIT WIRING · WITHIN · MOUNTING FRAME · NC · REMOTE · CONTROL · P2-2 · II · P2_"~ II · (5K LINEAR) · P2-8 · NPUT
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p20 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p20%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–337 mm across, 6–408 mm up
+- **Outlines:** line 315 rings, 4,604 straight (9,510 mm) / 783 curved (1,329 mm); text 197 rings, 1,739 straight (2,103 mm) / 467 curved (773 mm); tb 42 rings, 387 straight (502 mm) / 99 curved (158 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.4 @ (222.5, 35.0), r 2.2 @ (160.4, 370.2), r 2.1 @ (156.7, 315.7)
+- **Closed boxes:** 30
+- **Dots (junctions):** 5
+- **Words (OCR):** 42 in 27 lines: JNIT WIRING · UNT ING FRAME · A1 OUTPUTS · OF · A2 OUTPUTS · A3 · OUTPUTS · A4 OUTPUTS · AS · OUTPUTS · AC · ISV
+- **Title block:** (221, 14)–(324, 68) mm: ps · .(was] WAI'lC-BECK SYSTEMS · BS · M609 · REMOTE SENSITIVITY · AUDIO DISTRIBUTION AMPLIFIER · tp · SYSTEMS WIRING · ht · ISS
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p21 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p21%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 23–428 mm up
+- **Outlines:** line 105 rings, 1,267 straight (3,886 mm) / 220 curved (380 mm); text 13 rings, 108 straight (177 mm) / 25 curved (39.8 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.2 @ (172.6, 242.0)
+- **Closed boxes:** 1
+- **Words (OCR):** 9 in 6 lines: WAR · ECK YST EM LT · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p22 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p22%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–318 mm across, 0–429 mm up
+- **Outlines:** line 98 rings, 1,299 straight (3,800 mm) / 209 curved (365 mm); text 42 rings, 322 straight (436 mm) / 66 curved (110 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 14 in 7 lines: WAFI · CK SYS TE MS LTO · SAI4-101 AUDIO OISTRIBUTlON AMPLIFIER · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p23 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p23%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–429 mm up
+- **Outlines:** line 1,001 rings, 7,538 straight (10,886 mm) / 2,145 curved (3,354 mm); text 1,257 rings, 9,207 straight (10,191 mm) / 2,717 curved (4,306 mm)
+- **Circles and arcs:** 29 circles, 0 arcs; largest r 1.7 @ (224.1, 238.3), r 1.7 @ (119.1, 105.1), r 1.7 @ (183.0, 172.0), r 1.7 @ (108.4, 318.1)
+- **Closed boxes:** 1
+- **Dots (junctions):** 10
+- **Words (OCR):** 138 in 92 lines: WAAC DLCK 3TOTLMs · Ciacuit descRIPTIOY · Oaetdi Fuod WSR AN · APLIZ · Uneut · audlc rouC · S44-101 Arginlc- Asgembly poc4ry · 42auin1bis comntucloi · delermna · Inpui imredance · Aciyt halanced Jnnt · Tnrauah
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p24 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p24%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–420 mm up
+- **Outlines:** line 384 rings, 3,485 straight (6,393 mm) / 907 curved (1,419 mm); text 1,480 rings, 10,301 straight (11,470 mm) / 3,245 curved (5,053 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 1.7 @ (114.9, 148.5), r 1.7 @ (82.0, 128.7), r 1.7 @ (265.0, 162.0), r 1.7 @ (111.6, 188.6)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 331 in 135 lines: CIRCU IT DESCRIPT ION · SA14 _101 AUDI · IST RI BUT ION AMPL IFIE · Th · v"l · "nced · output · Is ma de UP of · mp li · In teg,.." ted cf r-cult U2 along with · Ihr'"Ough · mak up
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p25 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p25%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–326 mm across, 0–429 mm up
+- **Outlines:** line 480 rings, 3,950 straight (7,604 mm) / 1,041 curved (1,706 mm); text 862 rings, 6,874 straight (7,930 mm) / 2,177 curved (3,476 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 194 in 117 lines: PARTS · IST · SA 14_ 101 AUDIO IST RIBU TI ON AMP LIFIER · MF PART NUMBER · Cap ~dlo" · 220 uF l0 · T390F227M01 0AS · ca · 220uF /l0V · ca · 22pF · ::~~iS
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p26 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p26%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–428 mm up
+- **Outlines:** line 597 rings, 4,506 straight (7,858 mm) / 1,224 curved (1,909 mm); text 374 rings, 2,929 straight (3,353 mm) / 854 curved (1,345 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.2 @ (104.2, 335.0), r 2.2 @ (141.4, 361.5)
+- **Words (OCR):** 100 in 73 lines: AR O-BEC · TEM · LTO · 5,01, · AUDIO · STR BUT ION AMPL · IE · MFC PART NUMBER · Diode · rch · C'2 · CR.
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p27 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p27%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p27 (traced).dxf`).
+
+### Page 28
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–338 mm across, 0–429 mm up
+- **Outlines:** line 566 rings, 4,435 straight (7,606 mm) / 1,129 curved (1,778 mm); text 330 rings, 2,629 straight (2,916 mm) / 773 curved (1,212 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.2 @ (144.5, 366.0)
+- **Words (OCR):** 76 in 56 lines: 5A14-IOl AUDIO · ISTR BUT ION AMPLIFIER · DESCRIP TIO · MF PART NUMBER · RJ · Poten tiome ter · 50' · Plher · F'Tl Oh (2.5 501< · RJ' · sl,~tor 4W" · F'h~.r iP5
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p28 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p28%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p28 (traced).dxf`).
+
+### Page 29
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–419 mm up
+- **Outlines:** line 526 rings, 4,811 straight (8,715 mm) / 1,142 curved (1,833 mm); text 436 rings, 3,391 straight (3,931 mm) / 965 curved (1,553 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 2.2 @ (58.7, 118.7), r 2.2 @ (94.6, 138.5), r 1.7 @ (79.3, 164.6), r 1.7 @ (95.2, 287.7)
+- **Closed boxes:** 2
+- **Words (OCR):** 91 in 52 lines: SA14_101 AUDIO DISTRIBUTION AMPL · ER · ae · Ph!}'P., · Re si stor- 1/4W · JKJ2 · ee · se · PNJ569 · 02 · TN4CJ6 · 03
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p29 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p29%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p29 (traced).dxf`).
+
+### Page 30
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–339 mm across, 4–412 mm up
+- **Outlines:** line 456 rings, 6,314 straight (11,149 mm) / 1,460 curved (1,981 mm); text 129 rings, 946 straight (854 mm) / 337 curved (446 mm)
+- **Closed boxes:** 10; named: CR.J N4; Am %00; %00; £55
+- **Dots (junctions):** 1
+- **Words (OCR):** 54 in 44 lines: CR.J · N4 · Am · ::OliO · %00 · C7 · 10/ 25 · COMMON · no · 5O · 30<3% · en
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p30 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p30%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p30 (traced).dxf`).
+
+### Page 31
+
+- **Sheet:** schematic B 14-101-02-001, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–327 mm across, 16–417 mm up
+- **Outlines:** line 431 rings, 6,425 straight (10,627 mm) / 1,527 curved (2,221 mm); text 217 rings, 1,540 straight (1,536 mm) / 495 curved (667 mm); tb 20 rings, 183 straight (238 mm) / 57 curved (83.5 mm)
+- **Centre lines:** 5,726 paths (71 closed); straight 7,264 mm, curved 408 mm; horizontal 2,530 mm, vertical 2,060 mm, diagonal 2,674 mm
+- **Circles and arcs:** 6 circles, 83 arcs; largest r 4.7 @ (184.2, 310.4), r 4.7 @ (178.7, 390.0), r 2.4 @ (233.0, 38.7), r 1.8 @ (284.7, 31.0)
+- **Closed boxes:** 3; named: 1(1(
+- **Words (OCR):** 75 in 46 lines: '50 · .5O · 2.%1 /rrt · eJO · Uo · Iro · en · 22/" · 12 · 31/ 10 · 101( · 01
+- **Title block:** (238, 50)–(331, 72) mm: ps · (was) WARO-BECK SYSTEMS · BS
+- **Wiring (first pass):** 67 connected wire groups from 494 runs; labelled ends: 304 mm → '50, .5O, Uo; 276 mm → 1/2W, eoa; 254 mm → 50, eoa; 138 mm → /rrt, .5O, 22/"; 122 mm → lU
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p31 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p31%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p31 (traced).dxf`).
+
+### Page 32
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–339 mm across, 4–358 mm up
+- **Outlines:** line 1,088 rings, 10,065 straight (13,734 mm) / 3,087 curved (4,595 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 4.9 @ (51.0, 196.4), r 4.5 @ (39.1, 196.4), r 4.5 @ (85.6, 263.4), r 2.9 @ (124.2, 201.0)
+- **Closed boxes:** 6
+- **Dots (junctions):** 1
+- **Words (OCR):** 4 in 4 lines: ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p32 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p32%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p32 (traced).dxf`).
+
+### Page 33
+
+- **Sheet:** component layout B 14-101-06-001, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–338 mm across, 2–419 mm up
+- **Outlines:** line 731 rings, 7,014 straight (8,958 mm) / 2,065 curved (2,362 mm); text 222 rings, 1,369 straight (1,390 mm) / 311 curved (354 mm); tb 6 rings, 100 straight (103 mm) / 15 curved (17.7 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 4.6 @ (185.6, 264.6), r 4.5 @ (185.7, 204.4), r 2.5 @ (159.6, 263.4), r 2.0 @ (75.2, 262.5)
+- **Closed boxes:** 9
+- **Words (OCR):** 15 in 10 lines: [VVElS) WARe-BECK SYSTEMS · ps · BS · SA14-101 · AUDIO AMPLIFIER ASSEMBLY · COMPONENT LAYOUT · tp · 14-101-06-001 · ht · ISS
+- **Title block:** (239, 55)–(332, 77) mm: [VVElS) WARe-BECK SYSTEMS · ps
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p33 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p33%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p33 (traced).dxf`).
+
+### Page 34
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 0–426 mm up
+- **Outlines:** line 119 rings, 1,703 straight (4,201 mm) / 305 curved (495 mm); text 17 rings, 135 straight (192 mm) / 33 curved (53.6 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.2 @ (166.0, 224.9)
+- **Closed boxes:** 1
+- **Words (OCR):** 11 in 9 lines: WA · ECK YS · LTD · ps · BS · ISSUENl · JUNE 1983 · tp · ht
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p34 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p34%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p34 (traced).dxf`).
+
+### Page 35
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 0–427 mm up
+- **Outlines:** line 328 rings, 3,066 straight (5,759 mm) / 691 curved (1,148 mm); text 1,350 rings, 9,293 straight (10,418 mm) / 2,898 curved (4,495 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 1.8 @ (282.6, 138.5), r 1.7 @ (173.9, 313.7), r 1.7 @ (203.3, 280.0), r 1.7 @ (296.6, 279.9)
+- **Dots (junctions):** 1
+- **Words (OCR):** 286 in 143 lines: WAR · CK · STEMS LTD · CIRCU IT DESC RIPT ION · SA8 _11 · IND ICATOR DRIV ER ASSE MBLY · hree LED · ca to rs · pN>vided · th · ro · of
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p35 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p35%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p35 (traced).dxf`).
+
+### Page 36
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 0–429 mm up
+- **Outlines:** line 502 rings, 4,147 straight (7,553 mm) / 989 curved (1,565 mm); text 555 rings, 4,051 straight (4,743 mm) / 1,179 curved (1,921 mm)
+- **Closed boxes:** 2; named: YSTEMS
+- **Words (OCR):** 117 in 76 lines: 1=lO · YSTEMS LTO. · PARTS LI · SA8_117 INDICATOR DRIVER ASSEMBLY · DESCRIPTION · ctor · /35 · Cap=cllor · Cl02 · /35 · CRIOI · Zen er IOV
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p36 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p36%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p36 (traced).dxf`).
+
+### Page 37
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 27–338 mm across, 19–294 mm up
+- **Outlines:** line 216 rings, 2,732 straight (5,351 mm) / 665 curved (981 mm); text 143 rings, 712 straight (690 mm) / 295 curved (388 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.2 @ (121.4, 250.5)
+- **Closed boxes:** 1
+- **Words (OCR):** 37 in 34 lines: co-----,!)~---,--r-,---T----r--I---I · .J2V · I05 · su · RIl2 · OK' · OK' · ~OS2 · "OVLO" · RO · K5 · COMMON
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p37 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p37%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p37 (traced).dxf`).
+
+### Page 38
+
+- **Sheet:** schematic B8-117-02-001, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 6–370 mm up
+- **Outlines:** line 190 rings, 2,135 straight (3,603 mm) / 474 curved (706 mm); text 183 rings, 1,154 straight (1,211 mm) / 381 curved (530 mm)
+- **Centre lines:** 2,400 paths (39 closed); straight 2,878 mm, curved 124 mm; horizontal 850 mm, vertical 687 mm, diagonal 1,340 mm
+- **Circles and arcs:** 5 circles, 11 arcs; largest r 5.7 @ (28.8, 197.7), r 3.1 @ (44.9, 250.0), r 3.1 @ (15.7, 250.1), r 2.7 @ (311.2, 76.1)
+- **Closed boxes:** 1
+- **Words (OCR):** 39 in 35 lines: RIIO · tr · OSZ · 053 · "OVl. · ~OIl: · ON · RIll · oe · R4~k] · 1/]5 · IOI
+- **Wiring (first pass):** 28 connected wire groups from 137 runs; labelled ends: 162 mm → R4~k], IOI, 1/]5, IN4148; 102 mm → C102, 35; 77 mm → CR10J, 48, CRI05, IN4148; 70 mm → CRlO4, IN41; 66 mm → CRlO4, IN41, CRI05, IN4148
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p38 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p38%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p38 (traced).dxf`).
+
+### Page 39
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 22–338 mm across, 19–325 mm up
+- **Outlines:** line 123 rings, 1,926 straight (3,618 mm) / 322 curved (604 mm); text 498 rings, 3,441 straight (4,217 mm) / 900 curved (1,485 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 7.7 @ (81.7, 125.4), r 4.9 @ (64.7, 316.5), r 4.4 @ (65.9, 107.0), r 1.8 @ (159.1, 185.2)
+- **Closed boxes:** 2; named: UIO LM1458
+- **Words (OCR):** 79 in 61 lines: NOTES · TRANSISTORS 0101 · OC · 0102 ARE PN3646. · Rl01 · 8-117 · DIODES CR102 TO CR · ~3W oE · Rl02 · ARE lN414S · DS2 · Rl05
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p39 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p39%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p39 (traced).dxf`).
+
+### Page 40
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 8–429 mm up
+- **Outlines:** line 209 rings, 2,180 straight (3,071 mm) / 506 curved (819 mm); text 136 rings, 1,019 straight (1,268 mm) / 292 curved (454 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.4 @ (301.1, 22.6), r 2.4 @ (241.5, 22.4), r 2.4 @ (252.3, 31.0), r 1.9 @ (21.7, 185.0)
+- **Dots (junctions):** 1
+- **Words (OCR):** 45 in 26 lines: NOT ES · TRANSISTORS 0101 AND · OC · 102 RE PN3646 · ODES CR 102 TO CR105 · ~3W OE · ARE N4148. · 0101 · 17 7K5 · lJi.8 · 1/3 · 47K
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p40 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p40%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p40 (traced).dxf`).
+
+### Page 41
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–314 mm across, 10–429 mm up
+- **Outlines:** line 91 rings, 1,238 straight (3,640 mm) / 223 curved (360 mm); text 65 rings, 580 straight (708 mm) / 167 curved (266 mm)
+- **Words (OCR):** 16 in 9 lines: WA~ · YSTE · SAI~JVB/C OUTPUT SPl.I TTER · NE TW~K ASSEMBL ES · ps · BS · NOVEMBER 1985. · tp · ht
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p41 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p41%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p41 (traced).dxf`).
+
+### Page 42
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–326 mm across, 0–428 mm up
+- **Outlines:** line 151 rings, 1,807 straight (4,884 mm) / 326 curved (537 mm); text 233 rings, 1,563 straight (1,778 mm) / 428 curved (682 mm); tb 106 rings, 819 straight (989 mm) / 236 curved (378 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.7 @ (147.7, 63.1)
+- **Words (OCR):** 46 in 22 lines: t=lO · SYSTEMS LT · SAI 4-066A/8/C OUTPUT SPL TTER NETWORK ASSEMBLIE · Res istor 1/2'" · 300 · ace · '00 · WBS ..eo;onvne nd · he se of · cem ent · -ts made · by the
+- **Title block:** (40, 58)–(134, 430) mm: t=lO · SYSTEMS LT · Res istor 1/2'" · WBS ..eo;onvne nd · he se of · man utac lu · tor ont
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p42 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p42%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p42 (traced).dxf`).
+
+### Page 43
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 20–339 mm across, 6–418 mm up
+- **Outlines:** line 38 rings, 566 straight (1,157 mm) / 114 curved (200 mm); text 319 rings, 2,539 straight (2,971 mm) / 711 curved (1,196 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 52 in 26 lines: NOTES · ALL RESISTORS ARE 1/21'1 · AST COMPONENT · DES NATION: R4 · SA 14- 066A USES COMPONENT AY OUT B14-06E · SA1 4-066B USES COMPONE NT AYOUT B14 -06E · SA 14-066C USES COMPONE NT · YOUT B14-06E · R1 · 30 · R2 · FROM
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p43 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p43%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p43 (traced).dxf`).
+
+### Page 44
+
+- **Sheet:** component layout B14-066-06-002, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–338 mm across, 2–418 mm up
+- **Outlines:** line 129 rings, 1,140 straight (1,330 mm) / 273 curved (310 mm); text 371 rings, 3,379 straight (3,671 mm) / 1,078 curved (1,318 mm); tb 13 rings, 186 straight (210 mm) / 40 curved (54.6 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.4 @ (296.9, 44.9)
+- **Words (OCR):** 57 in 21 lines: NOTES: · ALL RESISTORS ARE 1/2W · AST COMPONE NT · DES I~NATION: R4 · SA1 066 USES COMPO NE NT LAYOU B14-066-06-002 · SA 14-066 USES COMP ONENT AYOU · 14- 066- 06-003. · SA14-066C USES COMP ONE NT LAYOUT BI4-066-06-004 · TO AMPHENOL · 26 -159- 16 · CONNECTOR · [WElS] WARe-BEcK SYSTEMS
+- **Title block:** (232, 55)–(325, 77) mm: [WElS] WARe-BEcK SYSTEMS · ps
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p44 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p44%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p44 (traced).dxf`).
+
+### Page 45
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–339 mm across, 6–424 mm up
+- **Outlines:** line 69 rings, 717 straight (1,679 mm) / 135 curved (242 mm); text 82 rings, 619 straight (813 mm) / 173 curved (301 mm)
+- **Closed boxes:** 1; named: 300 --Rl 1/2W 300 R2 1/2W 300 R3 1/2W 30
+- **Words (OCR):** 22 in 18 lines: 300 · --Rl · 1/2W · 300 R2 · 1/2W · 300 · R3 1/2W · 300 R4 · 1/2W · ps · (VV8S] · BS
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p45 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p45%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p45 (traced).dxf`).
+
+### Page 46
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 6–401 mm up
+- **Outlines:** line 79 rings, 883 straight (1,270 mm) / 184 curved (295 mm); text 59 rings, 372 straight (507 mm) / 111 curved (191 mm); tb 21 rings, 234 straight (294 mm) / 53 curved (88.7 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.4 @ (218.9, 40.5), r 2.3 @ (303.4, 41.1), r 2.3 @ (293.5, 33.0)
+- **Dots (junctions):** 1
+- **Words (OCR):** 15 in 10 lines: [VVSS] WARe-BECK SYSTEMS · ps · BS · SA14-066A · OUTPUT SPLITTER NETWORKS · COMPONENT LAYOUT · tp · ht · 14-066-06-00 · ISS
+- **Title block:** (237, 52)–(330, 74) mm: [VVSS] WARe-BECK SYSTEMS · ps · BS
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p46 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p46%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p46 (traced).dxf`).
+
+### Page 47
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–338 mm across, 5–400 mm up
+- **Outlines:** line 89 rings, 950 straight (1,788 mm) / 226 curved (390 mm); text 9 rings, 52 straight (107 mm) / 9 curved (21.0 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 4 in 4 lines: ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p47 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p47%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p47 (traced).dxf`).
+
+### Page 48
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 17–402 mm up
+- **Outlines:** line 86 rings, 868 straight (1,295 mm) / 199 curved (315 mm); text 66 rings, 496 straight (643 mm) / 130 curved (221 mm); tb 17 rings, 152 straight (193 mm) / 53 curved (99.8 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.3 @ (311.1, 39.9), r 2.3 @ (301.4, 31.7)
+- **Dots (junctions):** 1
+- **Words (OCR):** 16 in 10 lines: [W8SJ WARO-BECK SYSTEMS · ps · BS · SA14-0668 · OUTPUT SPLITTER NETWORKS · COMPONENT LAYOUT · tp · ht · 14-066 -06-003 · ISS
+- **Title block:** (245, 51)–(337, 73) mm: [W8SJ WARO-BECK SYSTEMS · ps · BS
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p48 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p48%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p48 (traced).dxf`).
+
+### Page 49
+
+- **Sheet:** drawing, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–338 mm across, 3–408 mm up
+- **Outlines:** line 57 rings, 835 straight (1,729 mm) / 152 curved (263 mm); text 87 rings, 628 straight (838 mm) / 185 curved (322 mm)
+- **Closed boxes:** 1; named: 30 Rl 2W 00 2W R2 300 1!2W R3 30 R4 2W
+- **Words (OCR):** 21 in 18 lines: 30 · Rl · 2W · 00 · 2W R2 · 300 · R3 · 1!2W · 30 · 2W · R4 · ps
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p49 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p49%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p49 (traced).dxf`).
+
+### Page 50
+
+- **Sheet:** component layout B 14-066-06-004, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 6–410 mm up
+- **Outlines:** line 128 rings, 1,354 straight (1,715 mm) / 329 curved (408 mm); text 55 rings, 407 straight (496 mm) / 118 curved (139 mm); tb 5 rings, 83 straight (105 mm) / 18 curved (20.3 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.4 @ (245.9, 24.2), r 2.4 @ (230.4, 24.4), r 2.4 @ (209.0, 32.7), r 2.3 @ (297.8, 33.2)
+- **Words (OCR):** 15 in 10 lines: ps · ('NBS] WARO-BECK SYSTEMS · BS · SA14-066C · OUTPUT SPLITTER NETWORKS · tp · COMPONENT LAYOUT · ht · 14-066-06-004 · 155
+- **Title block:** (232, 43)–(325, 65) mm: ps · ('NBS] WARO-BECK SYSTEMS · BS
+
+Every curve, box, word and wire group: [1983 - M609 - Remote sensitivity and DA (2) p50 (traced).json](1983%20-%20M609%20-%20Remote%20sensitivity%20and%20DA%20%282%29%20p50%20%28traced%29.json) (the CAD file: `1983 - M609 - Remote sensitivity and DA (2) p50 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

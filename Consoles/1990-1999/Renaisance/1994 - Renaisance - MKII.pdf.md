@@ -26,6 +26,745 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **1997** (labelled): `ISS. 1/97` — …AISSANCE MKII AUX PGM2 OUTPUT CHANNELS SCHEMATIC MKIISO1 06 ISS. 1/97…
 - **1997** (labelled): `ISS 1/97` — …YSTEMS RENAISSANCE MKII INPUT CHANNELS To SCHEMATIC MKIISO1 ISS 1/97…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–331 mm across, 1–432 mm up
+- **Outlines:** line 45 rings, 265 straight (1,275 mm) / 21 curved (28.2 mm); text 87 rings, 640 straight (775 mm) / 228 curved (350 mm)
+- **Words (OCR):** 3 in 3 lines: WARD-BECK SYSTEMS LTD. · Standard Renaissance MKII · Stereo Audio Console
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p1 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p1%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–331 mm across, 2–432 mm up
+- **Outlines:** line 41 rings, 282 straight (1,724 mm) / 20 curved (26.1 mm); text 216 rings, 1,851 straight (2,558 mm) / 507 curved (828 mm)
+- **Words (OCR):** 8 in 7 lines: 841 Progress Avenue, Scarborough; Ontario CANADA MIH 2X4 · WARD-BECK SYSTEMS LTD. · Telephone: (416) 438-6550 Fax: (416) 438-3865 · WARD-BECK SYSTEMS · STANDARD RENAISSANCE MKII · STEREO AUDIO CONSOLE · PROJECT NO.
+- **Title block:** (33, 301)–(217, 398) mm: WARD-BECK SYSTEMS LTD. · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p2 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p2%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–334 mm across, 3–432 mm up
+- **Outlines:** line 24 rings, 363 straight (1,284 mm) / 38 curved (56.1 mm)
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p3 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p3%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–331 mm across, 2–432 mm up
+- **Outlines:** line 55 rings, 374 straight (1,799 mm) / 51 curved (81.3 mm); text 403 rings, 3,945 straight (4,751 mm) / 1,079 curved (1,619 mm)
+- **Words (OCR):** 17 in 17 lines: WARD-BECK SYSTEMS LTD. · WARDBECK SYSTEMS · Standard Renaissance MKII · Stereo Audio Console · TABLE OF CONTENTS · Console Test Result · Module List · List of Separately Supplied Standard Product Manuals · Drawing Index · System Drawings · SA14-268 Illuminated Assembly · 1) Schematic
+- **Title block:** (32, 350)–(210, 405) mm: WARD-BECK SYSTEMS LTD. · WARDBECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p4 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p4%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–331 mm across, 2–432 mm up
+- **Outlines:** line 91 rings, 614 straight (2,182 mm) / 39 curved (57.9 mm); text 700 rings, 6,767 straight (8,544 mm) / 1,952 curved (2,898 mm)
+- **Closed boxes:** 16
+- **Words (OCR):** 25 in 23 lines: WARD-BECK SYSTEMS LTD. · WARD-BECK SYSTEMS · Standard Renaissance MKIL · Stereg Audi Console · LISTOF SEPARATELY SUPPLIED STANDARD PRQDUCTMANUALS · Supplement Manual · (Note this console may have non-standard Or custom · wiring:   Find details in supplement manual:) · M9OIA LineMMic Input Module · M
+- **Title block:** (33, 342)–(211, 404) mm: WARD-BECK SYSTEMS LTD. · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p5 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p5%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–330 mm across, 2–432 mm up
+- **Outlines:** line 81 rings, 372 straight (1,613 mm) / 34 curved (50.5 mm); text 1,291 rings, 12,123 straight (14,880 mm) / 3,538 curved (5,165 mm)
+- **Words (OCR):** 60 in 60 lines: WARD-BECK SYSTEMS LTD. · WARDBECK SYSTEMS · Standard Renaissance MKII · Stereo Audio Consle · DRAWING INDEX · Description · Dwg · No · Connector Layout P75 (PGM 1) · MKIILO9 · Connector Layout P22 (PGM 2 & Aux) · MKIILIO
+- **Title block:** (32, 334)–(210, 395) mm: WARD-BECK SYSTEMS LTD. · WARDBECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p6 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p6%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–332 mm across, 3–432 mm up
+- **Outlines:** line 69 rings, 425 straight (1,720 mm) / 53 curved (77.4 mm); text 1,077 rings, 10,915 straight (13,027 mm) / 3,085 curved (4,475 mm)
+- **Words (OCR):** 57 in 55 lines: WARD-BECK SYSTEMS LTD_ · WARDBECK SYSTEMS · Standard Renaissance MKI · Stereo Audio Console · DRAWING INDEX · Description · Dwg No · Functional · MKFO1 · Console Layout · MKIILO1 · Input Channels 1 to 4 Schematic
+- **Title block:** (32, 343)–(210, 403) mm: WARD-BECK SYSTEMS LTD_ · WARDBECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p7 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p7%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–331 mm across, 3–432 mm up
+- **Outlines:** line 1,186 rings, 9,330 straight (26,169 mm) / 1,532 curved (2,049 mm); text 370 rings, 2,060 straight (2,178 mm) / 548 curved (702 mm); tb 3 rings, 55 straight (108 mm) / 7 curved (15.5 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 5.5 @ (220.8, 353.8), r 5.5 @ (242.2, 353.8), r 1.5 @ (233.6, 350.4), r 1.5 @ (224.7, 363.1)
+- **Closed boxes:** 155; named: 01 61 101; 000@00; 0 0; 0 0; 0 6; 0 0; 0000
+- **Dots (junctions):** 2
+- **Words (OCR):** 19 in 15 lines: 01 61 · 101 · 000@00 · 0 0 · 0 0 · 0 6 · 0 0 · 0000 · WBS · WARD-BECK SYSTEMS · RENAISSANCE MkiI · STEREO AudIO CONSOLE
+- **Title block:** (246, 46)–(328, 71) mm: WBS · WARD-BECK SYSTEMS · RENAISSANCE MkiI
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p8 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p8%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–334 mm across, 14–432 mm up
+- **Outlines:** line 23 rings, 290 straight (1,175 mm) / 31 curved (43.3 mm)
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p9 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p9%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–332 mm across, 3–432 mm up
+- **Outlines:** line 343 rings, 4,048 straight (11,007 mm) / 737 curved (994 mm); text 975 rings, 6,434 straight (6,944 mm) / 2,016 curved (2,765 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.5 @ (109.4, 117.5), r 2.5 @ (109.4, 110.9), r 2.5 @ (109.4, 124.1), r 2.5 @ (109.4, 104.3)
+- **Closed boxes:** 17; named: M9pL NFUI MQDULE (POSITION To 8) NOTE
+- **Dots (junctions):** 1
+- **Words (OCR):** 129 in 109 lines: NPUL CHANNELS IQ · P2i To F18 · SUMMINC · P2 · BUSES · LEFT · LEFT · INPUT · RICHT · MR · RIGHT · TO P44
+- **Title block:** (261, 48)–(325, 70) mm: WES WARD-BECK SYSTEMS · RENAISSANCE MKII
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p10 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p10%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–331 mm across, 4–432 mm up
+- **Outlines:** line 314 rings, 3,790 straight (11,290 mm) / 712 curved (987 mm); text 1,038 rings, 6,779 straight (7,552 mm) / 2,117 curved (2,947 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.6 @ (103.0, 129.0), r 2.6 @ (102.9, 115.1), r 2.6 @ (102.9, 122.1), r 2.1 @ (103.0, 136.0)
+- **Closed boxes:** 17; named: M9Q1 MODULE INPUT (POSITION 9 To 12) NOT; P2 |47 | 33 | 32 | 33' | %'
+- **Words (OCR):** 147 in 115 lines: NPUI CHANNELS IO · SUMMING · F1? · To Pi4 · P2 · BUSES · LEFT · P1 · LeFt · INPUT · RIGHT · FL-MR
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p11 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p11%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–331 mm across, 3–432 mm up
+- **Outlines:** line 294 rings, 3,916 straight (10,939 mm) / 657 curved (926 mm); text 1,023 rings, 6,765 straight (7,605 mm) / 2,128 curved (2,947 mm); tb 2 rings, 44 straight (99.7 mm) / 3 curved (5.1 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.6 @ (102.2, 116.3), r 2.6 @ (102.2, 123.3), r 2.1 @ (102.1, 109.4), r 2.1 @ (102.2, 130.3)
+- **Closed boxes:** 15; named: M2Q1 NPUI_MODULE (POSITION 13 To 16}; P2 | #' | 33 | 32 | 32' | 35'
+- **Dots (junctions):** 2
+- **Words (OCR):** 131 in 107 lines: INPUL CHANNELS · TO 12 · P1j To P10 · P2 · SUMMING · BUSES · LEFT · LEFT · PL-KL · INPUT · RICHT · Fl_UR
+- **Title block:** (238, 50)–(328, 72) mm: WBS · WARD-BECK SYSTEMS · RENAISSANCE MKII
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p12 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p12%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–331 mm across, 3–432 mm up
+- **Outlines:** line 300 rings, 3,741 straight (11,131 mm) / 607 curved (833 mm); text 1,019 rings, 6,662 straight (7,535 mm) / 2,088 curved (2,883 mm); tb 2 rings, 35 straight (102 mm) / 1 curved (1.4 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.6 @ (101.1, 128.7), r 2.6 @ (101.0, 121.7), r 2.6 @ (101.0, 114.8), r 2.6 @ (101.0, 107.9)
+- **Closed boxes:** 20; named: M9Ol NPUL MQDULE (POSITION To 20); P2 | 43'; 53 | 52 | 54
+- **Dots (junctions):** 1
+- **Words (OCR):** 127 in 105 lines: NPUL CHANNELS13 IQ16 · SUMMING · P9 · To PS · P2 · BUSES · LEFT · LEFT · Pi_ML · INPUT · RiGHT · Pi_MR
+- **Title block:** (238, 48)–(327, 71) mm: WBS · WARD-BECK SYSTEMS · RENAISSANCE MkII
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p13 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p13%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–331 mm across, 3–432 mm up
+- **Outlines:** line 319 rings, 3,767 straight (11,847 mm) / 634 curved (839 mm); text 1,291 rings, 8,791 straight (10,277 mm) / 2,593 curved (3,627 mm); tb 2 rings, 46 straight (104 mm) / 0 curved (0.0 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.6 @ (134.4, 161.9), r 2.6 @ (134.4, 154.9), r 2.5 @ (134.4, 175.6), r 2.5 @ (134.4, 168.7)
+- **Closed boxes:** 47; named: M9oz SUMMING QUTPUI MODULE (POSITION 3); IN CONSOLE POSITION M9o7 MODULE PBRGRAM ; IN CONSOLE POSITION M9o7 MODULE; POSITION; POSITION; LK5; LK6; Lk7; LK8; Lk9; LKTO; LKI1
+- **Words (OCR):** 174 in 138 lines: QUIPUL CHANNEL · P2 · PGMI LEFT · To M90g · PGMI RICHT · M9OSA · MSOSB · MIX-MINUS · PCM: MUSIC LEFT · P49 · PGMI · VOIcE LEFT
+- **Title block:** (236, 49)–(326, 71) mm: WBS WARD-BECK SYSTEMS · RENAISSANCE MKII
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p14 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p14%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–331 mm across, 3–432 mm up
+- **Outlines:** line 329 rings, 3,734 straight (11,392 mm) / 640 curved (870 mm); text 1,018 rings, 6,966 straight (8,028 mm) / 2,079 curved (2,916 mm); tb 3 rings, 50 straight (132 mm) / 1 curved (1.7 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.6 @ (124.6, 155.8), r 2.6 @ (124.6, 162.6), r 2.1 @ (124.6, 176.5), r 2.1 @ (124.6, 169.6)
+- **Closed boxes:** 48; named: M9Z SUMMING QUIPUI MODULE (POSITION; M907 MODULE IN CONSOLE POSITION POSitON ; M907 MODULE IN CONSOLE POSITION; POSitON; PBOGERM; Pos_TiON; Lk5; LK6; LK?; LK8; LK9; LX1O
+- **Dots (junctions):** 1
+- **Words (OCR):** 155 in 124 lines: QUIPUI CHANNEL · P2 · P2 LEFT TO M909, · M9OSA & M9O58 · P2 RIGHT · PGM1 MusiC LEFT · P48 · PGMI VOiCE LEFT · LEFT · LEFT · PGMi · MuSIC Right
+- **Title block:** (234, 49)–(323, 71) mm: WBS WARD-BECK · SYSTEMS · RENAISSANCE MKII
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p15 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p15%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–331 mm across, 4–432 mm up
+- **Outlines:** line 289 rings, 3,366 straight (11,144 mm) / 530 curved (713 mm); text 1,007 rings, 6,876 straight (7,985 mm) / 2,131 curved (2,938 mm); tb 2 rings, 33 straight (96.1 mm) / 3 curved (7.0 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.6 @ (128.2, 158.2), r 2.6 @ (128.2, 151.2), r 2.1 @ (128.1, 165.1), r 2.1 @ (128.1, 172.1)
+- **Closed boxes:** 49; named: M9Qz SUMMNG QUTPUI MODULE (POSITION21); M907 MODULE IN CONSOLE POSITION 21 PROCE; M907 MODULE IN CONSOLE POSITION 21; PROCERM; POSITON; PoSLTJON; LK5; LK6; LK7; Lk?; LK9; LK10
+- **Words (OCR):** 139 in 108 lines: QUTPUI CHANNEL · P3I · FGMI MUSIC LEFT · LEFT · LEFT PCMJ OUT · PGMI VOICE LEFT · RIGHT · PCM1 MUSIC RICHT · RIGHT · PGMI VOICE RIGHT · PGM2 LEFT · LEFT
+- **Title block:** (235, 50)–(324, 72) mm: WBS WARD-BECK SYSTEMS · RENAISSANCE MkiI
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p16 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p16%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–330 mm across, 3–432 mm up
+- **Outlines:** line 442 rings, 4,845 straight (13,205 mm) / 974 curved (1,347 mm); text 1,269 rings, 8,394 straight (9,531 mm) / 2,512 curved (3,558 mm); tb 2 rings, 47 straight (95.1 mm) / 3 curved (7.9 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.6 @ (131.2, 63.2), r 2.6 @ (131.1, 56.3), r 2.1 @ (131.1, 42.5), r 2.1 @ (131.2, 70.2)
+- **Closed boxes:** 13; named: 3152
+- **Dots (junctions):** 1
+- **Words (OCR):** 175 in 149 lines: JUMPERED TO · M9OSB · BELDEN 8451 · ComMON · LEFT · CUE · COMMON · CUE BUS RIGHT · SPEAKER · ComMON · COMMON · PGMI
+- **Title block:** (238, 48)–(327, 70) mm: WBS WARD-BECK · SYSTEMS · RENAISSANCE MKII
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p17 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p17%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–330 mm across, 3–432 mm up
+- **Outlines:** line 333 rings, 4,049 straight (10,623 mm) / 788 curved (1,090 mm); text 1,222 rings, 8,333 straight (9,275 mm) / 2,433 curved (3,364 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.6 @ (131.4, 48.3), r 2.6 @ (131.5, 69.2), r 2.1 @ (130.0, 41.3), r 2.1 @ (131.5, 62.2)
+- **Closed boxes:** 1
+- **Words (OCR):** 177 in 148 lines: LEFT · LEFT · PGMI · RIGHT · JUMPERED FROM · M9O5A · RIGHT · 83 · PSS · LEFT · LEFT · LEFT
+- **Title block:** (258, 48)–(325, 70) mm: WES WARD-BECK SYSTEMS · RENAISSANCE MKII
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p18 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p18%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–331 mm across, 2–432 mm up
+- **Outlines:** line 496 rings, 5,884 straight (15,281 mm) / 1,121 curved (1,504 mm); text 839 rings, 5,555 straight (6,088 mm) / 1,693 curved (2,374 mm); tb 3 rings, 51 straight (120 mm) / 6 curved (8.9 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.6 @ (130.6, 69.0), r 2.6 @ (130.8, 96.8), r 2.6 @ (130.6, 75.9), r 2.6 @ (130.7, 89.8)
+- **Closed boxes:** 2
+- **Dots (junctions):** 2
+- **Words (OCR):** 135 in 109 lines: P24 · P2S · LEFT · LEFT · RIGH · RIGHT · LEFT 10 · LEFT · RIGHT · 12 · RIGHT · 12
+- **Title block:** (238, 48)–(326, 70) mm: WBS WARD-BECK · SYSTEMS · RENAISSANCE MkiI
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p19 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p19%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–331 mm across, 2–432 mm up
+- **Outlines:** line 339 rings, 4,027 straight (11,667 mm) / 748 curved (1,018 mm); text 841 rings, 5,802 straight (6,555 mm) / 1,652 curved (2,267 mm); tb 3 rings, 49 straight (110 mm) / 9 curved (18.8 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.6 @ (133.5, 69.1), r 2.6 @ (133.3, 41.4), r 2.1 @ (133.4, 62.1), r 2.1 @ (133.3, 48.3)
+- **Closed boxes:** 1
+- **Words (OCR):** 116 in 100 lines: PGMI · LEFT · FROM M907 · POSI TION RIGH · PCM2 · LEFT · FROM M907 · POSITION RIGHT · P26 · LEFT · RIGHT · LEFT
+- **Title block:** (237, 48)–(325, 70) mm: WBS · WARD-BECK SYSTEMS · RENAISSANCE MKII
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p20 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p20%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–330 mm across, 3–432 mm up
+- **Outlines:** line 325 rings, 3,689 straight (10,633 mm) / 570 curved (863 mm); text 325 rings, 2,137 straight (2,337 mm) / 620 curved (858 mm); tb 2 rings, 42 straight (97.0 mm) / 3 curved (6.5 mm)
+- **Closed boxes:** 21; named: 10 78
+- **Words (OCR):** 17 in 13 lines: 25 · 78 · 10 · 63 · 293 · WARD-BECK SYSTEMS · WBS · RENAISSANCE MkiI · METER PANEL · SCHEMATIC · 23 2 2 · MkiIS12
+- **Title block:** (233, 53)–(322, 76) mm: WARD-BECK SYSTEMS · WBS · RENAISSANCE MkiI
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p21 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p21%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–330 mm across, 2–432 mm up
+- **Outlines:** line 693 rings, 5,268 straight (10,402 mm) / 1,157 curved (1,795 mm); text 328 rings, 1,962 straight (2,190 mm) / 748 curved (1,063 mm); tb 3 rings, 50 straight (120 mm) / 9 curved (16.0 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 3.5 @ (201.7, 142.5), r 3.5 @ (185.1, 126.0), r 3.5 @ (201.7, 134.3), r 3.5 @ (201.6, 125.9)
+- **Closed boxes:** 5; named: 34
+- **Dots (junctions):** 5
+- **Words (OCR):** 15 in 11 lines: 33 · 34 · 8 08 · 0323 · ] 88 · WBS WARD-BECK SYSTEMS · RENAISSANCE MKII · POWER SUPPLY · SCHEMA TIc · MKIIS13 · ISS_ 1/97
+- **Title block:** (235, 50)–(324, 72) mm: WBS WARD-BECK SYSTEMS · RENAISSANCE MKII
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p22 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p22%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–330 mm across, 3–432 mm up
+- **Outlines:** line 2,230 rings, 18,278 straight (42,265 mm) / 4,238 curved (5,834 mm); text 279 rings, 1,781 straight (1,857 mm) / 567 curved (767 mm); tb 2 rings, 41 straight (98.9 mm) / 2 curved (4.5 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 1.5 @ (89.6, 387.8), r 1.3 @ (175.3, 384.9), r 1.3 @ (196.0, 191.0), r 1.2 @ (237.4, 214.5)
+- **Closed boxes:** 273; named: 92; 11; i9; 33; 31; 313
+- **Dots (junctions):** 2
+- **Words (OCR):** 17 in 13 lines: 92 · 11 i9 · 33 · 31 · 313 · WBS WARD-BECK · SYSTEMS · RENAISSANCE MKII · POWER DISTRIBUTION · RUNNING LIST · MKIIRO1 · ISS.
+- **Title block:** (233, 50)–(322, 72) mm: WBS WARD-BECK · SYSTEMS · RENAISSANCE MKII
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p23 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p23%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–330 mm across, 3–432 mm up
+- **Outlines:** line 1,073 rings, 14,223 straight (37,027 mm) / 2,729 curved (3,725 mm); text 254 rings, 1,512 straight (1,628 mm) / 491 curved (663 mm); tb 2 rings, 39 straight (93.2 mm) / 5 curved (10.2 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.2 @ (124.8, 179.6), r 1.2 @ (112.3, 186.5)
+- **Closed boxes:** 228; named: 348; 13; 24; 91; 98 88; 88
+- **Words (OCR):** 23 in 17 lines: 348 · da · 443N · 38 · a3 · 93 13 44 · 24 · 98 · 91 · 88 · 88 · WBS WARD-BECK SYSTEMS
+- **Title block:** (237, 49)–(326, 71) mm: WBS WARD-BECK SYSTEMS · RENAISSANCE MKII
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p24 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p24%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** drawing, size B (assumed) 432 × 147 mm, 2000 × 681 px traced (0.216 mm/px)
+- **Ink extent:** 2–424 mm across, 0–147 mm up
+- **Outlines:** line 659 rings, 5,082 straight (11,792 mm) / 948 curved (1,284 mm); text 805 rings, 4,626 straight (3,297 mm) / 1,231 curved (1,410 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 0.9 @ (326.2, 60.2)
+- **Closed boxes:** 101; named: P25 P26 P21 P23 P24 P22 P19 P20 Pi8 (6G_; P13 P12 P10 P11 66 (66 (66_ 66 P39 P38 P; J2 J3 (9t) (NP) (4T) POWER P9 P6 P5 P4 P; J3 (9t) P4 (24G) P3O (246) P56 (246) CR ; (9t); (4T); (NP); P22 (15G) P48 (216) P74 (216) AUX PGM2 A; P23 (156) P49 (216) P75 (216) PGM1 MUSI ; P5 (15G) P31 (216) P57 (21G) PGM3 PGM4 S; (8T) (LARGE); (246)
+- **Words (OCR):** 254 in 223 lines: J2 · J3 · (NP) · (4T) · (9t) · POWER · P19 · P20 · P21 · P22 · P23 · P24
+- **Title block:** (388, 19)–(432, 28) mm: WBE · WARD-BECK SYSTEMS · RENAISSANCE MKII
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p25 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p25%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–331 mm across, 2–432 mm up
+- **Outlines:** line 115 rings, 1,434 straight (6,373 mm) / 172 curved (405 mm); text 230 rings, 2,031 straight (3,547 mm) / 455 curved (866 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 6.0 @ (206.9, 215.1), r 6.0 @ (207.0, 190.2), r 6.0 @ (182.2, 215.1), r 6.0 @ (182.2, 190.2)
+- **Closed boxes:** 6 (2 in the title block); named: To P6 P2I
+- **Words (OCR):** 34 in 24 lines: WARD-BECK SYSTEMS LTD_ · DWG NO. · MKIILO3 · DISK NO_ · SYS01 · CODE · MKIILO3 · ISSUE 1/97 · P2I · To P6 · RENAISSANCE MKII · M901 INPUT
+- **Title block:** (55, 385)–(264, 431) mm: WARD-BECK SYSTEMS LTD_ · DWG NO. · DISK NO_ · SYS01 · CODE · MKIILO3 · ISSUE 1/97
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p26 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p26%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–333 mm across, 2–432 mm up
+- **Outlines:** line 132 rings, 1,581 straight (6,271 mm) / 150 curved (351 mm); text 238 rings, 2,114 straight (3,562 mm) / 477 curved (908 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 6.0 @ (158.6, 189.1), r 6.0 @ (158.4, 213.9), r 6.0 @ (207.5, 214.3), r 6.0 @ (183.0, 214.1)
+- **Closed boxes:** 5 (2 in the title block); named: P32 P47
+- **Dots (junctions):** 1
+- **Words (OCR):** 33 in 27 lines: LTD_ · WARD-BECK SYSTEMS · MKIILO4 · DWG · NO. · ISSUE 1/97 · DISK NO_ · SYSO1 · CODE · MKIILO4 · P47 · P32
+- **Title block:** (55, 384)–(263, 429) mm: LTD_ · WARD-BECK SYSTEMS · DWG · NO. · ISSUE 1/97 · DISK NO_ · SYSO1 · CODE · MKIILO4
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p27 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p27%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p27 (traced).dxf`).
+
+### Page 28
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–332 mm across, 1–432 mm up
+- **Outlines:** line 153 rings, 1,795 straight (7,064 mm) / 210 curved (512 mm); text 292 rings, 2,631 straight (4,256 mm) / 596 curved (1,156 mm); tb 1 rings, 7 straight (12.6 mm) / 0 curved (0.0 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 6.1 @ (181.9, 200.7), r 6.1 @ (206.6, 200.9), r 6.0 @ (181.7, 225.8), r 6.0 @ (182.1, 175.8)
+- **Closed boxes:** 8 (2 in the title block); named: P58 To P73
+- **Dots (junctions):** 1
+- **Words (OCR):** 42 in 33 lines: SYSTEMS LTD · WARD-BECK · MKIILOS · DWG · NO. · ISSUE · /97 · DISK NO_ · Syso1 · CODE · MKIILO5 · P73
+- **Title block:** (53, 384)–(242, 430) mm: SYSTEMS LTD · WARD-BECK · DWG · NO. · ISSUE · DISK NO_ · Syso1 · CODE · MKIILO5
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p28 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p28%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p28 (traced).dxf`).
+
+### Page 29
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–333 mm across, 3–432 mm up
+- **Outlines:** line 148 rings, 2,414 straight (8,709 mm) / 387 curved (1,131 mm); text 472 rings, 4,208 straight (6,690 mm) / 973 curved (1,825 mm); tb 1 rings, 8 straight (13.3 mm) / 0 curved (0.0 mm)
+- **Circles and arcs:** 24 circles, 0 arcs; largest r 6.1 @ (220.0, 190.6), r 6.1 @ (170.5, 190.1), r 6.1 @ (219.7, 215.6), r 6.1 @ (219.2, 265.7)
+- **Closed boxes:** 3 (2 in the title block); named: J4 To J19
+- **Dots (junctions):** 3
+- **Words (OCR):** 70 in 59 lines: WARD-BECK · SYSTEMS LTD. · DWG NO_ · MKIILO6 · /97 · MKIILO6 · ISSUE · DISK NO_ · SysO1 · CODE · J19 · To
+- **Title block:** (53, 386)–(242, 432) mm: WARD-BECK · SYSTEMS LTD. · DWG NO_ · MKIILO6 · ISSUE · DISK NO_ · SysO1 · CODE
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p29 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p29%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p29 (traced).dxf`).
+
+### Page 30
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–332 mm across, 1–432 mm up
+- **Outlines:** line 286 rings, 3,273 straight (10,629 mm) / 549 curved (1,423 mm); text 327 rings, 2,924 straight (4,959 mm) / 673 curved (1,252 mm)
+- **Circles and arcs:** 24 circles, 0 arcs; largest r 6.1 @ (223.3, 239.0), r 6.1 @ (173.6, 263.8), r 6.1 @ (223.2, 264.0), r 6.1 @ (173.7, 238.8)
+- **Closed boxes:** 19 (2 in the title block); named: P23
+- **Dots (junctions):** 1
+- **Words (OCR):** 61 in 54 lines: WARD-BECK SYSTEMS LTD_ · DWG NO. · MKIILO7 · ISSUE · 1/97 · DISK NO_ · SYSO1 · CODE · MKIILO7 · P23 · RENAISSANCE MKII · M907
+- **Title block:** (53, 385)–(242, 431) mm: WARD-BECK SYSTEMS LTD_ · DWG NO. · ISSUE · DISK NO_ · SYSO1 · CODE · MKIILO7
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p30 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p30%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p30 (traced).dxf`).
+
+### Page 31
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–332 mm across, 1–432 mm up
+- **Outlines:** line 265 rings, 3,412 straight (11,114 mm) / 503 curved (1,250 mm); text 342 rings, 3,093 straight (5,018 mm) / 734 curved (1,372 mm)
+- **Circles and arcs:** 23 circles, 0 arcs; largest r 6.1 @ (224.0, 138.8), r 6.1 @ (174.3, 138.7), r 6.1 @ (223.6, 213.8), r 6.1 @ (174.1, 188.6)
+- **Closed boxes:** 18 (2 in the title block); named: P49
+- **Dots (junctions):** 2
+- **Words (OCR):** 57 in 48 lines: WARD-BECK SYSTEMS LTD_ · DWG NO. MKIILO8 · ISSUE · 1/97 · DISK NO. · SYSO1 · CODE · MKIILO3 · P49 · RENAISSANCE MKII · M907 · OU TPUTS
+- **Title block:** (53, 384)–(243, 430) mm: WARD-BECK SYSTEMS LTD_ · ISSUE · DISK NO. · SYSO1 · CODE · MKIILO3
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p31 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p31%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p31 (traced).dxf`).
+
+### Page 32
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–332 mm across, 0–431 mm up
+- **Outlines:** line 280 rings, 3,485 straight (10,891 mm) / 601 curved (1,546 mm); text 326 rings, 2,984 straight (4,921 mm) / 705 curved (1,310 mm)
+- **Circles and arcs:** 23 circles, 0 arcs; largest r 6.1 @ (176.0, 164.6), r 6.1 @ (200.6, 214.8), r 6.1 @ (200.7, 189.7), r 6.1 @ (175.9, 189.6)
+- **Closed boxes:** 19 (2 in the title block); named: P75
+- **Dots (junctions):** 3
+- **Words (OCR):** 55 in 45 lines: WARD-BECK SYSTEMS LTD. · DWG NO. · MKIILO9 · CODE · ISSUE · 1/97 · DISK NO. SYS01 · MKIILO9 · P75 · RENAISSANCE · MKII · M907
+- **Title block:** (56, 386)–(245, 431) mm: WARD-BECK SYSTEMS LTD. · DWG NO. · CODE · ISSUE · DISK NO. SYS01 · MKIILO9
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p32 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p32%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p32 (traced).dxf`).
+
+### Page 33
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–331 mm across, 1–432 mm up
+- **Outlines:** line 270 rings, 3,224 straight (10,660 mm) / 523 curved (1,327 mm); text 317 rings, 2,878 straight (4,871 mm) / 607 curved (1,138 mm)
+- **Circles and arcs:** 24 circles, 0 arcs; largest r 6.1 @ (222.3, 264.0), r 6.1 @ (222.7, 163.9), r 6.1 @ (222.4, 238.9), r 6.1 @ (222.5, 213.9)
+- **Closed boxes:** 17 (2 in the title block); named: P22
+- **Words (OCR):** 64 in 54 lines: WARD-BECK SYSTEMS LTD_ · DWG NO. · MKIILIO · ISSUE · 1/97 · DISK NO_ Syso1 · CODE · MKIILIO · P22 · RENAISSANCE MKII · M907 · INSER TS
+- **Title block:** (53, 384)–(242, 430) mm: WARD-BECK SYSTEMS LTD_ · DWG NO. · ISSUE · DISK NO_ Syso1 · CODE · MKIILIO
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p33 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p33%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p33 (traced).dxf`).
+
+### Page 34
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–331 mm across, 0–431 mm up
+- **Outlines:** line 293 rings, 3,552 straight (10,940 mm) / 576 curved (1,488 mm); text 304 rings, 2,699 straight (4,588 mm) / 620 curved (1,134 mm)
+- **Circles and arcs:** 24 circles, 0 arcs; largest r 6.3 @ (173.5, 188.8), r 6.1 @ (198.3, 163.9), r 6.1 @ (223.2, 163.9), r 6.1 @ (198.4, 138.8)
+- **Closed boxes:** 19 (2 in the title block); named: P48
+- **Words (OCR):** 49 in 41 lines: WARD-BECK SYSTEMS · LTD · DWG NO. · MKIILI1 · ISSUE · 1/97 · DISK NO_ SYSO1 · CODE · MKIILI1 · P48 · RENAISSANCE MKII · M9o7 OUTPUTS
+- **Title block:** (54, 385)–(242, 430) mm: WARD-BECK SYSTEMS · LTD · DWG NO. · ISSUE · DISK NO_ SYSO1 · CODE · MKIILI1
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p34 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p34%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p34 (traced).dxf`).
+
+### Page 35
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–333 mm across, 2–432 mm up
+- **Outlines:** line 275 rings, 3,563 straight (10,961 mm) / 511 curved (1,344 mm); text 308 rings, 2,852 straight (4,673 mm) / 660 curved (1,170 mm)
+- **Circles and arcs:** 24 circles, 0 arcs; largest r 6.1 @ (226.9, 139.9), r 6.1 @ (201.9, 139.6), r 6.1 @ (225.6, 239.8), r 6.1 @ (226.6, 164.9)
+- **Closed boxes:** 20 (2 in the title block); named: P74
+- **Dots (junctions):** 1
+- **Words (OCR):** 52 in 45 lines: WARD-BECK SYSTEMS LTD. · DWG NO_ · MKIILI2 · ISSUE · 1/97 · DISK NO. · SYsO1 · CODE · MKIILI2 · P74 · RENAISSANCE MKII · M907
+- **Title block:** (54, 386)–(243, 432) mm: WARD-BECK SYSTEMS LTD. · DWG NO_ · ISSUE · DISK NO. · SYsO1 · CODE · MKIILI2
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p35 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p35%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p35 (traced).dxf`).
+
+### Page 36
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–334 mm across, 6–432 mm up
+- **Outlines:** line 266 rings, 3,361 straight (10,614 mm) / 507 curved (1,353 mm); text 331 rings, 2,999 straight (4,899 mm) / 695 curved (1,308 mm)
+- **Circles and arcs:** 24 circles, 0 arcs; largest r 6.1 @ (224.3, 138.2), r 6.1 @ (224.1, 163.3), r 6.1 @ (223.8, 188.3), r 6.1 @ (223.5, 213.3)
+- **Closed boxes:** 14 (2 in the title block); named: P5
+- **Dots (junctions):** 2
+- **Words (OCR):** 66 in 60 lines: WARD-BECK SYSTEMS LTD: · MKIILT3 · DWG NO. · ISSUE · 1/97 · DISK NO_ · SYsO1 · CODE · MKIIL13 · P5 · RENAISSANCE MKII · INSERTS
+- **Title block:** (52, 384)–(242, 430) mm: WARD-BECK SYSTEMS LTD: · DWG NO. · ISSUE · DISK NO_ · SYsO1 · CODE · MKIIL13
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p36 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p36%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p36 (traced).dxf`).
+
+### Page 37
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–333 mm across, 2–432 mm up
+- **Outlines:** line 277 rings, 3,583 straight (11,109 mm) / 526 curved (1,340 mm); text 317 rings, 2,889 straight (4,770 mm) / 644 curved (1,193 mm)
+- **Circles and arcs:** 24 circles, 0 arcs; largest r 6.1 @ (224.2, 190.2), r 6.1 @ (224.7, 140.2), r 6.1 @ (223.4, 265.2), r 6.1 @ (224.5, 165.2)
+- **Closed boxes:** 20 (2 in the title block); named: P31
+- **Dots (junctions):** 4
+- **Words (OCR):** 52 in 47 lines: WARD-BECK SYSTEMS LTD_ · DWG · NO. · MKIIL14 · 1/97 · CODE · ISSUE · DISK · NO. · SysO1 · MKIIL14 · P31
+- **Title block:** (53, 386)–(242, 432) mm: WARD-BECK SYSTEMS LTD_ · DWG · NO. · CODE · ISSUE · DISK · NO. · SysO1 · MKIIL14
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p37 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p37%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p37 (traced).dxf`).
+
+### Page 38
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–333 mm across, 2–432 mm up
+- **Outlines:** line 298 rings, 3,470 straight (10,783 mm) / 509 curved (1,367 mm); text 319 rings, 2,930 straight (4,801 mm) / 678 curved (1,256 mm)
+- **Circles and arcs:** 23 circles, 0 arcs; largest r 6.1 @ (226.3, 164.2), r 6.1 @ (225.8, 214.2), r 6.1 @ (226.5, 139.2), r 6.1 @ (225.6, 239.2)
+- **Closed boxes:** 20 (2 in the title block); named: P57
+- **Dots (junctions):** 2
+- **Words (OCR):** 55 in 48 lines: WARD-BECK · SYSTEMS LTD_ · DWG NO. · MKIIL15 · ISSUE · 1/97 · DISK NO_ · SYsO1 · CODE · MKIILI5 · P57 · RENAISSANCE MKII
+- **Title block:** (55, 385)–(244, 431) mm: WARD-BECK · SYSTEMS LTD_ · DWG NO. · ISSUE · DISK NO_ · SYsO1 · CODE · MKIILI5
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p38 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p38%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p38 (traced).dxf`).
+
+### Page 39
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–333 mm across, 2–432 mm up
+- **Outlines:** line 112 rings, 1,548 straight (5,890 mm) / 166 curved (429 mm); text 279 rings, 2,530 straight (4,189 mm) / 589 curved (1,119 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 6.3 @ (184.2, 177.8), r 6.1 @ (184.0, 202.8), r 6.1 @ (208.8, 203.1), r 6.1 @ (159.5, 177.6)
+- **Closed boxes:** 3 (2 in the title block); named: J3
+- **Words (OCR):** 42 in 34 lines: WARD-BECK SYSTEMS · LTD_ · DWG · NO. · MKIILI6 · ISSUE · 1/97 · CODE · MKIILIS · DISK NO_ SYSO1 · J3 · RENAISSANCE
+- **Title block:** (54, 386)–(244, 432) mm: WARD-BECK SYSTEMS · LTD_ · DWG · NO. · ISSUE · CODE · MKIILIS · DISK NO_ SYSO1
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p39 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p39%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p39 (traced).dxf`).
+
+### Page 40
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–333 mm across, 2–432 mm up
+- **Outlines:** line 300 rings, 3,484 straight (10,895 mm) / 526 curved (1,334 mm); text 339 rings, 3,094 straight (5,171 mm) / 657 curved (1,169 mm)
+- **Circles and arcs:** 24 circles, 0 arcs; largest r 6.1 @ (223.9, 263.3), r 6.1 @ (174.5, 262.8), r 6.0 @ (150.6, 188.2), r 6.0 @ (150.0, 262.7)
+- **Closed boxes:** 19 (2 in the title block); named: P4
+- **Words (OCR):** 58 in 52 lines: WARD-BECK · SYSTEMS LTD. · DWG · NO. · MKIILI7 · ISSUE · 1/97 · DISK NO · Sys01 · CODE · MKIILI7 · P4
+- **Title block:** (55, 383)–(242, 429) mm: WARD-BECK · SYSTEMS LTD. · DWG · NO. · ISSUE · DISK NO · Sys01 · CODE · MKIILI7
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p40 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p40%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p40 (traced).dxf`).
+
+### Page 41
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–333 mm across, 2–432 mm up
+- **Outlines:** line 287 rings, 3,467 straight (11,171 mm) / 539 curved (1,348 mm); text 350 rings, 3,209 straight (5,264 mm) / 684 curved (1,284 mm)
+- **Circles and arcs:** 24 circles, 0 arcs; largest r 6.1 @ (199.0, 189.0), r 6.1 @ (223.7, 214.2), r 6.1 @ (223.4, 264.2), r 6.1 @ (223.5, 239.2)
+- **Closed boxes:** 19 (2 in the title block); named: P30
+- **Dots (junctions):** 2
+- **Words (OCR):** 58 in 50 lines: WARD-BECK · SYSTEMS LTD · DWG NO_ · MKIILT8 · ISSUE · 1/97 · DISK · NO. SysO1 · CODE · MKIIL18 · P30 · RENAISSANCE
+- **Title block:** (53, 385)–(242, 430) mm: WARD-BECK · SYSTEMS LTD · DWG NO_ · ISSUE · DISK · NO. SysO1 · CODE · MKIIL18
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p41 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p41%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p41 (traced).dxf`).
+
+### Page 42
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–332 mm across, 2–432 mm up
+- **Outlines:** line 274 rings, 3,281 straight (10,407 mm) / 511 curved (1,332 mm); text 492 rings, 4,381 straight (6,906 mm) / 1,016 curved (1,864 mm)
+- **Circles and arcs:** 24 circles, 0 arcs; largest r 6.1 @ (173.8, 190.5), r 6.1 @ (223.5, 190.7), r 6.1 @ (149.0, 190.4), r 6.1 @ (223.6, 165.6)
+- **Closed boxes:** 15 (2 in the title block); named: P56
+- **Words (OCR):** 78 in 61 lines: WARD-BECK SYSTEMS LTD_ · DWG NO · MKIIL19 · ISSUE · 1/97 · DISK NO. SYSQ1 · CODE · MKIILI9 · P56 · RENAISSANCE MkII · M9OSA · CUE
+- **Title block:** (53, 386)–(242, 432) mm: WARD-BECK SYSTEMS LTD_ · DWG NO · ISSUE · DISK NO. SYSQ1 · CODE · MKIILI9
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p42 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p42%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p42 (traced).dxf`).
+
+### Page 43
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–332 mm across, 2–432 mm up
+- **Outlines:** line 87 rings, 1,465 straight (6,028 mm) / 188 curved (475 mm); text 248 rings, 2,179 straight (3,734 mm) / 512 curved (984 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 6.1 @ (186.1, 227.0), r 6.1 @ (211.0, 227.1), r 6.1 @ (186.4, 177.0), r 6.1 @ (211.3, 177.1)
+- **Closed boxes:** 3 (2 in the title block); named: J2
+- **Dots (junctions):** 1
+- **Words (OCR):** 38 in 27 lines: WARD-BECK SYSTEMS LTD · DWG NO. MKIILZO · ISSUE · 1/97 · DISK NO, SYSQ1 · CODE · MKIIL2O · J2 · RENAISSANCE MKII · M9O5B CON TROL · CONSOLE · POSITION
+- **Title block:** (54, 385)–(242, 431) mm: WARD-BECK SYSTEMS LTD · ISSUE · DISK NO, SYSQ1 · CODE · MKIIL2O
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p43 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p43%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p43 (traced).dxf`).
+
+### Page 44
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–331 mm across, 2–432 mm up
+- **Outlines:** line 277 rings, 3,501 straight (11,148 mm) / 560 curved (1,419 mm); text 341 rings, 3,160 straight (5,194 mm) / 655 curved (1,216 mm)
+- **Circles and arcs:** 24 circles, 0 arcs; largest r 6.1 @ (222.6, 214.6), r 6.1 @ (222.5, 264.7), r 6.1 @ (222.8, 164.7), r 6.1 @ (222.8, 139.7)
+- **Closed boxes:** 18 (2 in the title block); named: P3
+- **Dots (junctions):** 5
+- **Words (OCR):** 55 in 45 lines: WARD-BECK SYSTEMS LTD. · DWG NO. · MKIIL2I · DISK NO_ · SYSO1 · CODE · ISSUE · 1/97 · MKIIL2I · P3 · RENAISSANCE MKII · M9O5B
+- **Title block:** (54, 386)–(242, 431) mm: WARD-BECK SYSTEMS LTD. · DWG NO. · DISK NO_ · SYSO1 · CODE · ISSUE · MKIIL2I
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p44 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p44%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p44 (traced).dxf`).
+
+### Page 45
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–331 mm across, 2–432 mm up
+- **Outlines:** line 291 rings, 3,407 straight (10,903 mm) / 564 curved (1,427 mm); text 339 rings, 3,181 straight (5,264 mm) / 670 curved (1,239 mm)
+- **Circles and arcs:** 24 circles, 0 arcs; largest r 6.1 @ (222.6, 239.7), r 6.1 @ (222.6, 214.7), r 6.1 @ (222.8, 164.7), r 6.1 @ (148.3, 239.6)
+- **Closed boxes:** 18 (2 in the title block); named: P29
+- **Dots (junctions):** 1
+- **Words (OCR):** 56 in 47 lines: WARD-BECK SYSTEMS LTD · DWG NO. MKIIL22 · DISK · NO. SYSo1 · CODE · MKIIL22 · ISSUE · 1/97 · P29 · RENAISSANCE MKII · M9OSB · EXTERNAL
+- **Title block:** (53, 385)–(242, 431) mm: WARD-BECK SYSTEMS LTD · DISK · NO. SYSo1 · CODE · MKIIL22 · ISSUE
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p45 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p45%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p45 (traced).dxf`).
+
+### Page 46
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–330 mm across, 0–431 mm up
+- **Outlines:** line 307 rings, 3,311 straight (11,124 mm) / 505 curved (1,259 mm); text 472 rings, 4,318 straight (6,999 mm) / 915 curved (1,691 mm)
+- **Circles and arcs:** 24 circles, 0 arcs; largest r 6.3 @ (173.3, 238.8), r 6.1 @ (222.8, 138.7), r 6.1 @ (222.9, 163.8), r 6.1 @ (173.0, 138.8)
+- **Closed boxes:** 19 (2 in the title block); named: P55
+- **Dots (junctions):** 2
+- **Words (OCR):** 65 in 55 lines: WARD-BECK SYSTEMS LTD_ · DWG NO. MKIIL23 · ISSUE · 1/97 A · DISK NO. SYSO1 · CODE · MKIIL23 · P55 · RENAISSANCE · MkII · M9O5B HEADPHONE · OU TPUTS
+- **Title block:** (54, 384)–(244, 431) mm: WARD-BECK SYSTEMS LTD_ · ISSUE · DISK NO. SYSO1 · CODE · MKIIL23
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p46 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p46%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p46 (traced).dxf`).
+
+### Page 47
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–331 mm across, 1–432 mm up
+- **Outlines:** line 267 rings, 3,362 straight (11,006 mm) / 520 curved (1,304 mm); text 358 rings, 3,078 straight (5,313 mm) / 717 curved (1,340 mm)
+- **Circles and arcs:** 24 circles, 0 arcs; largest r 6.3 @ (173.8, 188.9), r 6.1 @ (173.8, 163.9), r 6.1 @ (173.9, 138.9), r 6.1 @ (223.7, 139.0)
+- **Closed boxes:** 20 (2 in the title block); named: P54
+- **Dots (junctions):** 1
+- **Words (OCR):** 58 in 49 lines: WARD-BECK SYSTEMS · LTD · DWG NO. MKIIL24 · ISSUE · 1/97 · DISK NO. · SysQ1 · CODE · MKIIL24 · P54 · RENAISSANCE MKII · TALKBACK
+- **Title block:** (53, 385)–(242, 431) mm: WARD-BECK SYSTEMS · LTD · ISSUE · DISK NO. · SysQ1 · CODE · MKIIL24
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p47 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p47%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p47 (traced).dxf`).
+
+### Page 48
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–332 mm across, 1–432 mm up
+- **Outlines:** line 266 rings, 3,389 straight (11,080 mm) / 543 curved (1,414 mm); text 323 rings, 2,869 straight (4,754 mm) / 622 curved (1,132 mm)
+- **Circles and arcs:** 24 circles, 0 arcs; largest r 6.1 @ (174.3, 139.5), r 6.1 @ (224.1, 139.7), r 6.1 @ (199.2, 139.7), r 6.1 @ (198.6, 239.6)
+- **Closed boxes:** 19 (2 in the title block); named: P24
+- **Dots (junctions):** 1
+- **Words (OCR):** 55 in 47 lines: WARD-BECK · SYSTEMS LTD_ · DWG NO_ · MKIIL2S · CODE · MKIIL25 · ISSUE · 1/97 · DISK · NO. SYs01 · P24 · RENAISSANCE MKII
+- **Title block:** (53, 386)–(242, 431) mm: WARD-BECK · SYSTEMS LTD_ · DWG NO_ · CODE · MKIIL25 · ISSUE · DISK · NO. SYs01
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p48 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p48%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p48 (traced).dxf`).
+
+### Page 49
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–333 mm across, 1–432 mm up
+- **Outlines:** line 281 rings, 3,508 straight (11,020 mm) / 489 curved (1,301 mm); text 335 rings, 2,903 straight (4,743 mm) / 696 curved (1,298 mm)
+- **Circles and arcs:** 23 circles, 0 arcs; largest r 6.1 @ (223.4, 214.1), r 6.1 @ (223.2, 239.2), r 6.1 @ (173.7, 213.8), r 6.1 @ (223.9, 139.1)
+- **Closed boxes:** 19 (2 in the title block); named: P5O
+- **Words (OCR):** 55 in 46 lines: WARD-BECK · SYSTEMS · LTD_ · DWG NO_ MKIIL26 · ISSUE · 1/97 · DISK NO · SYsO1 · CODE · MKIIL26 · P5O · RENAISSANCE MKII
+- **Title block:** (53, 385)–(242, 430) mm: WARD-BECK · SYSTEMS · LTD_ · ISSUE · DISK NO · SYsO1 · CODE · MKIIL26
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p49 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p49%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p49 (traced).dxf`).
+
+### Page 50
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–332 mm across, 2–432 mm up
+- **Outlines:** line 273 rings, 3,391 straight (10,996 mm) / 518 curved (1,370 mm); text 332 rings, 2,919 straight (4,879 mm) / 642 curved (1,227 mm)
+- **Circles and arcs:** 24 circles, 0 arcs; largest r 6.2 @ (173.3, 189.8), r 6.1 @ (222.8, 215.0), r 6.1 @ (222.7, 240.0), r 6.1 @ (223.2, 165.1)
+- **Closed boxes:** 19 (2 in the title block); named: P76
+- **Dots (junctions):** 1
+- **Words (OCR):** 55 in 47 lines: WARD-BECK · SYSTEMS LTD: · DWG NO. · MKIIL27 · CODE · ISSUE · 1/97 · DISK NO. · SYSO1 · MKIIL27 · P76 · MkII
+- **Title block:** (53, 386)–(242, 431) mm: WARD-BECK · SYSTEMS LTD: · DWG NO. · CODE · ISSUE · DISK NO. · SYSO1 · MKIIL27
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p50 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p50%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p50 (traced).dxf`).
+
+### Page 51
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–331 mm across, 1–432 mm up
+- **Outlines:** line 278 rings, 3,187 straight (10,881 mm) / 493 curved (1,321 mm); text 340 rings, 2,981 straight (4,797 mm) / 669 curved (1,244 mm)
+- **Circles and arcs:** 24 circles, 0 arcs; largest r 6.1 @ (222.3, 215.6), r 6.1 @ (197.6, 190.5), r 6.1 @ (172.7, 190.4), r 6.1 @ (222.2, 265.5)
+- **Closed boxes:** 20 (2 in the title block); named: P25
+- **Dots (junctions):** 1
+- **Words (OCR):** 57 in 47 lines: WARD-BECK · SYSTEMS LTD_ · DWG NO. MKIIL28 · 1/97 · DISK NO. · SYsO1 · CODE · MKIIL28 · ISSUE · P25 · RENAISSANCE · MKII
+- **Title block:** (53, 386)–(242, 432) mm: WARD-BECK · SYSTEMS LTD_ · DISK NO. · SYsO1 · CODE · MKIIL28 · ISSUE
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p51 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p51%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p51 (traced).dxf`).
+
+### Page 52
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–331 mm across, 2–432 mm up
+- **Outlines:** line 276 rings, 3,407 straight (11,060 mm) / 530 curved (1,341 mm); text 338 rings, 2,891 straight (4,727 mm) / 687 curved (1,308 mm)
+- **Circles and arcs:** 23 circles, 0 arcs; largest r 6.1 @ (223.5, 190.2), r 6.1 @ (223.4, 215.3), r 6.1 @ (198.4, 240.3), r 6.1 @ (198.3, 265.3)
+- **Closed boxes:** 16 (2 in the title block); named: P51
+- **Dots (junctions):** 1
+- **Words (OCR):** 54 in 44 lines: WARD-BECK SYSTEMS · LTD. · DWC NO_ MKIIL29 · 1/97 · DISK NO. Syso1 · CODE · MKIIL29 · ISSUE · P51 · RENAISSANCE MKII · M908 · INPUTS To
+- **Title block:** (53, 386)–(243, 432) mm: WARD-BECK SYSTEMS · LTD. · DISK NO. Syso1 · CODE · MKIIL29 · ISSUE
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p52 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p52%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p52 (traced).dxf`).
+
+### Page 53
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–331 mm across, 1–432 mm up
+- **Outlines:** line 278 rings, 3,552 straight (10,831 mm) / 555 curved (1,381 mm); text 347 rings, 2,993 straight (4,866 mm) / 721 curved (1,357 mm)
+- **Circles and arcs:** 23 circles, 0 arcs; largest r 6.1 @ (223.3, 213.7), r 6.1 @ (223.4, 163.9), r 6.1 @ (223.5, 139.0), r 6.1 @ (223.2, 263.4)
+- **Closed boxes:** 20 (2 in the title block); named: P77
+- **Dots (junctions):** 1
+- **Words (OCR):** 57 in 49 lines: WARD-BECK SYSTEMS LTD_ · DWG NO_ MKIIL3O · ISSUE · 1/97 · DISK NO_ · Syso1 · CODE · MKIIL3O · P77 · RENAISSANCE MkII · & INPUTS · M908
+- **Title block:** (54, 384)–(243, 429) mm: WARD-BECK SYSTEMS LTD_ · ISSUE · DISK NO_ · Syso1 · CODE · MKIIL3O
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p53 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p53%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p53 (traced).dxf`).
+
+### Page 54
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–331 mm across, 2–432 mm up
+- **Outlines:** line 307 rings, 3,500 straight (11,074 mm) / 574 curved (1,444 mm); text 311 rings, 2,914 straight (4,765 mm) / 601 curved (1,146 mm)
+- **Circles and arcs:** 24 circles, 0 arcs; largest r 6.1 @ (222.9, 140.9), r 6.1 @ (222.8, 166.0), r 6.1 @ (197.9, 140.9), r 6.1 @ (222.6, 216.0)
+- **Closed boxes:** 20 (2 in the title block); named: P26
+- **Words (OCR):** 44 in 35 lines: WARD-BECK SYSTEMS LTD_ · DWG NO. · MKIIL31 · ISSUE · 97 · DISK NO. SYSO1 · CODE · MKIIL3I · P26 · RENAISSANCE MKII · M909 STEREO · METER  SELECTOR INPUTS
+- **Title block:** (53, 387)–(242, 432) mm: WARD-BECK SYSTEMS LTD_ · DWG NO. · ISSUE · DISK NO. SYSO1 · CODE · MKIIL3I
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p54 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p54%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p54 (traced).dxf`).
+
+### Page 55
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–331 mm across, 2–432 mm up
+- **Outlines:** line 307 rings, 3,352 straight (10,915 mm) / 543 curved (1,411 mm); text 381 rings, 3,369 straight (5,691 mm) / 758 curved (1,435 mm)
+- **Circles and arcs:** 24 circles, 0 arcs; largest r 6.1 @ (223.1, 140.5), r 6.1 @ (223.0, 190.5), r 6.1 @ (222.8, 240.6), r 6.1 @ (222.9, 215.5)
+- **Closed boxes:** 20 (2 in the title block); named: P52
+- **Dots (junctions):** 1
+- **Words (OCR):** 58 in 49 lines: WARD-BECK SYSTEMS · LTD. · DWG NO. MKIIL32 · 1/97 · DISK NO_ SySOI · CODE · MKIIL32 · ISSUE · P52 · RENAISSANCE MKII · M909 · METER
+- **Title block:** (53, 386)–(242, 432) mm: WARD-BECK SYSTEMS · LTD. · DISK NO_ SySOI · CODE · MKIIL32 · ISSUE
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p55 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p55%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p55 (traced).dxf`).
+
+### Page 56
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–331 mm across, 1–432 mm up
+- **Outlines:** line 288 rings, 3,580 straight (11,004 mm) / 563 curved (1,435 mm); text 367 rings, 3,357 straight (5,531 mm) / 704 curved (1,308 mm)
+- **Circles and arcs:** 24 circles, 0 arcs; largest r 6.1 @ (222.5, 139.6), r 6.1 @ (222.5, 214.8), r 6.1 @ (222.5, 239.8), r 6.1 @ (222.5, 189.8)
+- **Closed boxes:** 18 (2 in the title block); named: P78
+- **Dots (junctions):** 1
+- **Words (OCR):** 56 in 47 lines: WARD-BECK · SYSTEMS LTD: · DWG NO. · MKIIL33 · DISK NO. · SYSO1 · CODE · MKIIL33 · ISSUE · 1/97 · P78 · RENAISSANCE MKII
+- **Title block:** (54, 385)–(242, 432) mm: WARD-BECK · SYSTEMS LTD: · DWG NO. · DISK NO. · SYSO1 · CODE · MKIIL33 · ISSUE
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p56 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p56%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p56 (traced).dxf`).
+
+### Page 57
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–331 mm across, 2–432 mm up
+- **Outlines:** line 316 rings, 2,499 straight (6,599 mm) / 443 curved (870 mm); text 204 rings, 1,416 straight (1,804 mm) / 349 curved (546 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.8 @ (47.4, 269.6)
+- **Closed boxes:** 1
+- **Words (OCR):** 1 in 1 lines: 11
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p57 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p57%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p57 (traced).dxf`).
+
+### Page 58
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–331 mm across, 2–432 mm up
+- **Outlines:** line 421 rings, 4,146 straight (8,369 mm) / 951 curved (1,321 mm); text 437 rings, 2,561 straight (2,409 mm) / 860 curved (1,096 mm)
+- **Closed boxes:** 3; named: 33; 33; 33
+- **Words (OCR):** 18 in 15 lines: 33 · 33 · 847 · 234 232 · 282 · 332 · J0 JI · 32 · 33 · 33 · 81] · 2f7 843
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p58 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p58%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p58 (traced).dxf`).
+
+### Page 59
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–331 mm across, 3–432 mm up
+- **Outlines:** line 406 rings, 4,770 straight (10,471 mm) / 643 curved (1,344 mm); text 435 rings, 3,390 straight (3,998 mm) / 873 curved (1,414 mm); tb 6 rings, 48 straight (58.8 mm) / 10 curved (17.7 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 6.6 @ (93.4, 341.8), r 6.6 @ (199.6, 283.4), r 6.6 @ (198.9, 343.0), r 6.6 @ (94.6, 221.1)
+- **Closed boxes:** 61; named: 1KS; 1K5; 10K; [K5; 10K; 1K5; 10K; 10K; 1K5; 10K; 1k5; 4K5
+- **Words (OCR):** 58 in 53 lines: WBS 14-295 · ISSUE · CANADA · CRZD TN2102 Q2D · 1N4003 · 1KS · RAD · RID · CRID U1D · P2D · 1K5 · IN4003
+- **Title block:** (100, 331)–(174, 366) mm: WBS 14-295 · ISSUE · CANADA
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p59 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p59%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p59 (traced).dxf`).
+
+### Page 60
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–334 mm across, 13–432 mm up
+- **Outlines:** line 299 rings, 3,004 straight (6,303 mm) / 545 curved (804 mm); text 188 rings, 1,377 straight (1,641 mm) / 409 curved (615 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 3.1 @ (116.3, 96.0), r 2.5 @ (176.3, 96.0), r 1.8 @ (224.5, 110.9), r 1.5 @ (306.7, 340.6)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 3 in 3 lines: lu · J2 · 13
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p60 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p60%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p60 (traced).dxf`).
+
+### Page 61
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–332 mm across, 4–429 mm up
+- **Outlines:** line 9 rings, 27 straight (43.1 mm) / 0 curved (0.0 mm); text 2,404 rings, 19,421 straight (19,469 mm) / 5,536 curved (8,172 mm); tb 39 rings, 681 straight (2,545 mm) / 72 curved (112 mm)
+- **Words (OCR):** 49 in 40 lines: WARD-BECK SYSTEMS · WARRANTY · products are warranted against defective materials and workmanship for a period · All Ward-Beck Systems Ltd, · of one year from the date of shipment. · Ward-Beck Systems Ltd,, will repair or replace, at its option and without charge, all said products or parts thereof 
+- **Title block:** (21, 38)–(310, 419) mm: WARD-BECK SYSTEMS · WARRANTY · products are warranted against defective materials and workmanship for a period · All Ward-Beck Systems Ltd, · of one year from the date of shipment. · Ward-Beck Systems
+
+Every curve, box, word and wire group: [1994 - Renaisance - MKII p61 (traced).json](1994%20-%20Renaisance%20-%20MKII%20p61%20%28traced%29.json) (the CAD file: `1994 - Renaisance - MKII p61 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

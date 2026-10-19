@@ -11,6 +11,18 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Pages:** 1
 - **PDF created (scan date, not design date):** Mon Mar 13 12:50:34 2006 EST
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 35–296 mm across, 37–391 mm up
+- **Outlines:** line 76 rings, 1,247 straight (9,408 mm) / 44 curved (67.6 mm); text 819 rings, 6,271 straight (8,309 mm) / 1,748 curved (2,882 mm)
+- **Closed boxes:** 69; named: Binary Decimal Position Function Address; Binary Address; Decimal Address; Function; Position No_; 1 0 0 0 0; 16; Input or 8x2 Selector Module; 1 0 0 0 1; 17; Input or 8x2 Selector Module; 1 0 0 1 0
+- **Words (OCR):** 67 in 65 lines: PROGRAMMING THE R257 TURRET · Each module (channel) slot in an R2K audio console has its' unique binary coded · address. · The channel slots are coded (from left to right) as follows: · MODULE SLOT ADDRESS FOR R2KI12 · Position Function · Decimal · Binary · Address · Address · No_ · 16
+
+Every curve, box, word and wire group: [1994 - R2K - Turret pg 1 (1) p1 (traced).json](1994%20-%20R2K%20-%20Turret%20pg%201%20%281%29%20p1%20%28traced%29.json) (the CAD file: `1994 - R2K - Turret pg 1 (1) p1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

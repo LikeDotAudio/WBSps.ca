@@ -11,6 +11,18 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Pages:** 1
 - **PDF created (scan date, not design date):** Sat Feb 25 21:13:04 2012 EST
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 265 × 432 mm, 1229 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–265 mm across, 0–431 mm up
+- **Outlines:** line 683 rings, 8,346 straight (13,602 mm) / 1,598 curved (2,288 mm); text 298 rings, 1,846 straight (1,865 mm) / 611 curved (800 mm)
+- **Closed boxes:** 6; named: Fkoor Serr; ImTER Cum
+- **Words (OCR):** 51 in 46 lines: B4 · AC R UiDE $ · Qax 7 · 5Vio Teks FRom Sho 2cnTL · 1+2 · F75 · (oz 2 · Be. 3 · Bek! · Fm IFG · Fx IFC · Mic
+
+Every curve, box, word and wire group: [1976 - 76045 - client dwg studio p1 (traced).json](1976%20-%2076045%20-%20client%20dwg%20studio%20p1%20%28traced%29.json) (the CAD file: `1976 - 76045 - client dwg studio p1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

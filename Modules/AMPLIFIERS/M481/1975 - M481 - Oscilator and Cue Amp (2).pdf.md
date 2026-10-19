@@ -12,6 +12,70 @@ Wiki page: [M481](../../../PAGES/M481.md)
 - **Pages:** 6
 - **PDF created (scan date, not design date):** Thu Nov  2 18:05:15 2006 EST
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1533 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–294 mm across, 0–425 mm up
+- **Outlines:** line 46 rings, 1,668 straight (5,378 mm) / 95 curved (240 mm); text 44 rings, 1,070 straight (3,670 mm) / 107 curved (246 mm)
+- **Words (OCR):** 13 in 13 lines: (""E35] · (""85] · (""E35] · (""E35] · (""E35 · (""E35] · (""E35] · (""E35] · ps · BS · [S/VE3® · tp
+
+Every curve, box, word and wire group: [1975 - M481 - Oscilator and Cue Amp (2) p1 (traced).json](1975%20-%20M481%20-%20Oscilator%20and%20Cue%20Amp%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1975 - M481 - Oscilator and Cue Amp (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–323 mm across, 21–425 mm up
+- **Outlines:** line 432 rings, 3,607 straight (4,978 mm) / 990 curved (1,609 mm); text 960 rings, 7,451 straight (8,721 mm) / 2,303 curved (3,714 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.9 @ (218.7, 124.6)
+- **Words (OCR):** 254 in 131 lines: Page · OSCILI.ATOR/CUEAAPLl Ft ER · MODULE M48I · DESIGN · DESCRI PT ON · MFG. · PART NUMBER · CI · 22mFd 25Y El ect rolyt · steeens · B4131 3·A5226 · 02
+
+Every curve, box, word and wire group: [1975 - M481 - Oscilator and Cue Amp (2) p2 (traced).json](1975%20-%20M481%20-%20Oscilator%20and%20Cue%20Amp%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1975 - M481 - Oscilator and Cue Amp (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 44–331 mm across, 19–424 mm up
+- **Outlines:** line 465 rings, 3,645 straight (4,898 mm) / 1,122 curved (1,790 mm); text 523 rings, 4,083 straight (4,728 mm) / 1,210 curved (1,952 mm)
+- **Words (OCR):** 174 in 125 lines: Pa ge · OSCILLATOR/CU AMPLIFIER · DESI GN · DESCRIPTION · MFG. · PART HUMBER · RI · 2501 · Ga nged · A11 · n~Bra d1l! · WBS
+
+Every curve, box, word and wire group: [1975 - M481 - Oscilator and Cue Amp (2) p3 (traced).json](1975%20-%20M481%20-%20Oscilator%20and%20Cue%20Amp%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1975 - M481 - Oscilator and Cue Amp (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–308 mm across, 20–424 mm up
+- **Outlines:** line 262 rings, 2,089 straight (3,113 mm) / 590 curved (977 mm); text 567 rings, 4,811 straight (5,630 mm) / 1,375 curved (2,256 mm)
+- **Words (OCR):** 149 in 87 lines: Pag · OSCILLATOR/CUE AMPLI FI ER · MODULE M48 · DESIGN · DESCRIPTION · MFG. · PART NUMBER · Philips · Phili ps · 15K · Philips · 15K
+
+Every curve, box, word and wire group: [1975 - M481 - Oscilator and Cue Amp (2) p4 (traced).json](1975%20-%20M481%20-%20Oscilator%20and%20Cue%20Amp%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1975 - M481 - Oscilator and Cue Amp (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–329 mm across, 6–431 mm up
+- **Outlines:** line 306 rings, 5,989 straight (12,058 mm) / 853 curved (1,380 mm); text 406 rings, 3,540 straight (4,602 mm) / 940 curved (1,537 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.5 @ (255.0, 98.4)
+- **Closed boxes:** 87; named: Ol><Z; K9; lO; Il; 13; 14; 515; 16; 17; BS; ps; te
+- **Dots (junctions):** 3
+- **Words (OCR):** 79 in 54 lines: li · III · IIN · Ml!H · M2 · HZ IN · III · MIOUT · OUT · III · MZOU · HZ QUT
+
+Every curve, box, word and wire group: [1975 - M481 - Oscilator and Cue Amp (2) p5 (traced).json](1975%20-%20M481%20-%20Oscilator%20and%20Cue%20Amp%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1975 - M481 - Oscilator and Cue Amp (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 432 × 174 mm, 2000 × 808 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 0–163 mm up
+- **Outlines:** line 612 rings, 6,605 straight (10,421 mm) / 1,534 curved (1,714 mm); text 646 rings, 3,795 straight (3,189 mm) / 1,272 curved (1,481 mm); tb 23 rings, 228 straight (345 mm) / 31 curved (42.9 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.0 @ (379.0, 76.3)
+- **Closed boxes:** 19 (12 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 199 in 146 lines: RE:·E:NTRY · MI · E·E NTRY RI6 · RI3 · EV EL · (-12) · 17 · 2k2 · RIS · 15k · TO MI · IN PUT
+- **Title block:** (266, 4)–(428, 36) mm: ps · MOD. CKD. · USED ON · MATL · 'WAAD-BI!CK SYSTEMS · BS · LTD. · 'IN, · DRN. · r11 · M48 · DATE · MIIY 75 · OSCI · LLATOh'/ CUE · AI' · F"I~FJ.. · FINISH · CKD. · tp "i/'TJC · CH · SCALE · ht · \IS
+
+Every curve, box, word and wire group: [1975 - M481 - Oscilator and Cue Amp (2) p6 (traced).json](1975%20-%20M481%20-%20Oscilator%20and%20Cue%20Amp%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1975 - M481 - Oscilator and Cue Amp (2) p6 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

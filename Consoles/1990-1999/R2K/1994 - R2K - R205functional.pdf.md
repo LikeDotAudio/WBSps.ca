@@ -15,6 +15,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 
 - **1998** (month): `NOV 11,1998` — …NCTIONAL 8X2 LINE SELECTOR MONITOR R205ISS3.DSN PAGE 1 OF 1 NOV 11,1998…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px)
+- **Ink extent:** 50–431 mm across, 2–308 mm up
+- **Outlines:** line 48 rings, 567 straight (6,373 mm) / 16 curved (16.0 mm); text 446 rings, 3,092 straight (4,201 mm) / 760 curved (1,144 mm)
+- **Closed boxes:** 1; named: STEREO AUDIO SWITCHER
+- **Words (OCR):** 65 in 52 lines: BALANCED AUDIO · INPUTS · LEFT · INPUT · RIGHT · LEFT+ · INPUT · LEFT · RIGHT · LEFT- · OUTPUT · LEFT
+- **Title block:** (288, 25)–(429, 48) mm: WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - R2K - R205functional p1 (traced).json](1994%20-%20R2K%20-%20R205functional%20p1%20%28traced%29.json) (the CAD file: `1994 - R2K - R205functional p1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

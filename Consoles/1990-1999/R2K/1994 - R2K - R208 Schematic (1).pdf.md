@@ -11,6 +11,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Pages:** 1
 - **PDF created (scan date, not design date):** Mon Jun 15 15:32:44 2009 EDT
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 18–329 mm across, 8–411 mm up
+- **Outlines:** line 640 rings, 9,936 straight (19,531 mm) / 2,460 curved (2,764 mm); text 25 rings, 320 straight (359 mm) / 103 curved (134 mm)
+- **Closed boxes:** 10
+- **Dots (junctions):** 1
+- **Words (OCR):** 1 in 1 lines: I 0
+
+Every curve, box, word and wire group: [1994 - R2K - R208 Schematic (1) p1 (traced).json](1994%20-%20R2K%20-%20R208%20Schematic%20%281%29%20p1%20%28traced%29.json) (the CAD file: `1994 - R2K - R208 Schematic (1) p1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

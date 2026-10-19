@@ -12,6 +12,71 @@ Wiki page: [M462A](../../../PAGES/M462A.md)
 - **Pages:** 6
 - **PDF created (scan date, not design date):** Wed Aug 20 23:46:17 2003 EDT
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 317 × 432 mm, 1468 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 11–301 mm across, 5–423 mm up
+- **Outlines:** line 129 rings, 2,000 straight (4,444 mm) / 428 curved (653 mm); text 122 rings, 977 straight (1,392 mm) / 205 curved (325 mm)
+- **Closed boxes:** 1; named: TD.
+- **Words (OCR):** 20 in 12 lines: [VVElS] E14' · WARD-BECK SYSTEM · TD. · O'\ITARO M1 · TEl..EX DB-23<>l'l!'l · 411514::lQ '"00 · M462A · EQ UA IZE MODULE · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1974 - M462A - EQ Module - User Guide (2) p1 (traced).json](1974%20-%20M462A%20-%20EQ%20Module%20-%20User%20Guide%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1974 - M462A - EQ Module - User Guide (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 316 × 432 mm, 1464 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 15–304 mm across, 2–420 mm up
+- **Outlines:** line 34 rings, 845 straight (3,243 mm) / 119 curved (190 mm); text 985 rings, 7,972 straight (8,876 mm) / 2,139 curved (3,308 mm)
+- **Words (OCR):** 173 in 61 lines: WARD · ECK SYS TE MS · TE CHNICA DATA · H46 2A EQUALI ZER MODU LE · Uni · "Fr equency Res ponse · 1'0 · dB · om 20 Hz to 20 kHz (all · lizing · co nt rols in FLAT position). · Nois
+
+Every curve, box, word and wire group: [1974 - M462A - EQ Module - User Guide (2) p2 (traced).json](1974%20-%20M462A%20-%20EQ%20Module%20-%20User%20Guide%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1974 - M462A - EQ Module - User Guide (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 319 × 432 mm, 1478 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 13–305 mm across, 3–425 mm up
+- **Outlines:** line 711 rings, 9,419 straight (25,044 mm) / 1,180 curved (1,747 mm); text 273 rings, 2,213 straight (2,600 mm) / 599 curved (905 mm)
+- **Closed boxes:** 198; named: HH-; -.,1-1--1-; ~LL; ps
+- **Words (OCR):** 48 in 22 lines: WAFIO-SECK SYSTEMS LT · FREQUENCY RESPONSE CHA RACTERIST ICS · N46 2A · EQUALIZER MODULE · HH- · -.1-1-.. · LOW FREQu ENCY secti on · CUT/BOOST: tI dB · FR EQUENCY: 25 400 Hz. · _.,J..l..l · -.,1-1--1- · HID
+
+Every curve, box, word and wire group: [1974 - M462A - EQ Module - User Guide (2) p3 (traced).json](1974%20-%20M462A%20-%20EQ%20Module%20-%20User%20Guide%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1974 - M462A - EQ Module - User Guide (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 307 × 432 mm, 1424 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–298 mm across, 4–425 mm up
+- **Outlines:** line 664 rings, 9,920 straight (24,839 mm) / 1,368 curved (2,037 mm); text 313 rings, 2,572 straight (2,971 mm) / 698 curved (1,034 mm)
+- **Closed boxes:** 173; named: "hf+; I--If+; .e_bJU; r-r-rr-; •.I-+-h-'; ...lJC!
+- **Dots (junctions):** 1
+- **Words (OCR):** 62 in 31 lines: WARD · ECK SY STEM LT · FREq UENCY RESPO NSE CHA RACTER ISTICS · M4 62A Eq UALIZER MO DULE · "hf+ · MH+ · MID FREqUENCY section · BOOST · to +15 dB in · I--If+ · dB te · FREQUENCY: kHz
+
+Every curve, box, word and wire group: [1974 - M462A - EQ Module - User Guide (2) p4 (traced).json](1974%20-%20M462A%20-%20EQ%20Module%20-%20User%20Guide%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1974 - M462A - EQ Module - User Guide (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 14–331 mm across, 0–318 mm up
+- **Outlines:** line 132 rings, 2,209 straight (6,660 mm) / 385 curved (553 mm); text 1,344 rings, 8,060 straight (7,374 mm) / 2,926 curved (3,848 mm); tb 159 rings, 1,155 straight (2,623 mm) / 285 curved (436 mm)
+- **Closed boxes:** 12; named: HIGH REQUENC section fREQU£NC ADJUSTMENT; HIGH FREQUE NC I.ct ion BOOST/ CUT cont ; HID fRE QU£NCY section, FREQU£ItCY AOJUS; R6 MID flUQUENCY I.ctlon. ADJUSTMENT All; HI REQUEMC'" se on BOO STIC UT co ntro 1; LOW fREQU£NC'" sect ion, FREQUENCY ADJUS; LOW REQUENC sec tion, lOOST/C UT ont rol; EQUAL IZER NSERT Iw ltcll SIi']: When de; 11Of'77
+- **Dots (junctions):** 1
+- **Words (OCR):** 303 in 108 lines: WBS · Mj 62. · HIGH REQUENC section fREQU£NC ADJUSTMENT · ntrol · Rl R2 Cont rtUOl.l,l., · frO/tl · to · 25 kH:r. The · lbr.t lon define thll · d8 orl'\'" po int fran the · SHELVltrtG BOOST or CUT · 15 d8.
+- **Title block:** (143, 6)–(242, 322) mm: WBS · Mj 62. · IS · HIGH FREQUE NC · Contl nuous · rl · g.ln · mue · with · 30 · 106 HI REQUEMC'" se on BOO STIC UT co ntro Sets · MF · kHI · IS · Con ti nuou sly · rl · in or loss of mid fr ..qu. nc 
+
+Every curve, box, word and wire group: [1974 - M462A - EQ Module - User Guide (2) p5 (traced).json](1974%20-%20M462A%20-%20EQ%20Module%20-%20User%20Guide%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1974 - M462A - EQ Module - User Guide (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 318 × 432 mm, 1475 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 18–318 mm across, 0–432 mm up
+- **Outlines:** line 312 rings, 4,923 straight (11,045 mm) / 867 curved (1,423 mm); text 146 rings, 1,322 straight (1,622 mm) / 358 curved (546 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.5 @ (312.4, 210.3)
+- **Closed boxes:** 67; named: 00; 10; 11; 12; 13; 14; 15; 17; ps; 18; 19; 20
+- **Words (OCR):** 39 in 30 lines: lD · "PUT · lD · HPUT SH IEL · lD · lD · II · 10 · 11 · 12 · 00 · 13
+
+Every curve, box, word and wire group: [1974 - M462A - EQ Module - User Guide (2) p6 (traced).json](1974%20-%20M462A%20-%20EQ%20Module%20-%20User%20Guide%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1974 - M462A - EQ Module - User Guide (2) p6 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

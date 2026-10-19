@@ -12,6 +12,235 @@ Wiki page: [M522B](../../../PAGES/M522B.md)
 - **Pages:** 22
 - **PDF created (scan date, not design date):** Mon Aug 17 17:06:35 2009 EDT
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 14–311 mm across, 8–419 mm up
+- **Outlines:** line 38 rings, 854 straight (3,234 mm) / 122 curved (198 mm); text 1,370 rings, 9,523 straight (10,362 mm) / 3,138 curved (5,067 mm)
+- **Words (OCR):** 181 in 68 lines: TECHNICAL DATA · ME228 /M522C · EQUALIZER_MODULE: · Note: Specifications are Dased voltage levels · on · of · 600 cnm · system unless otherwise speciiiec. · Gain: · Unity t/-0.25 dB = · Frequency Response: F/-0.5 aB From 20 Az t0 · 20 KHz With the
+
+Every curve, box, word and wire group: [19xx - M522B - M522C Equalizer p1 (traced).json](19xx%20-%20M522B%20-%20M522C%20Equalizer%20p1%20%28traced%29.json) (the CAD file: `19xx - M522B - M522C Equalizer p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–330 mm across, 0–432 mm up
+- **Outlines:** line 148 rings, 1,274 straight (3,215 mm) / 302 curved (396 mm); text 1,872 rings, 13,439 straight (14,497 mm) / 3,880 curved (5,713 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 254 in 134 lines: GENERAL · 11522E M5ZZC · ECUALIZER · MODLLE: · Tne M5228 MEZZC Mono and · Stereo Ecualizers operate · in conjunction · M520 and · with the · M5zi scries OT · Input · Voclles
+
+Every curve, box, word and wire group: [19xx - M522B - M522C Equalizer p2 (traced).json](19xx%20-%20M522B%20-%20M522C%20Equalizer%20p2%20%28traced%29.json) (the CAD file: `19xx - M522B - M522C Equalizer p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–329 mm across, 10–427 mm up
+- **Outlines:** line 100 rings, 1,039 straight (3,407 mm) / 194 curved (253 mm); text 1,896 rings, 14,117 straight (15,735 mm) / 4,012 curved (6,099 mm)
+- **Words (OCR):** 263 in 105 lines: CIRcUII · DESCRIPT ION · M522E MSZZC · EQUALLZER_MODULE: · Tne ef: channel 0f the · M522C Stereo Equalizer wi be described · This description also apo/ ies the M5228 Mono · to · Equalizer _ · Lreut · An actively balancec differential input provided by UIA and · is
+
+Every curve, box, word and wire group: [19xx - M522B - M522C Equalizer p3 (traced).json](19xx%20-%20M522B%20-%20M522C%20Equalizer%20p3%20%28traced%29.json) (the CAD file: `19xx - M522B - M522C Equalizer p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–328 mm across, 1–432 mm up
+- **Outlines:** line 284 rings, 2,277 straight (4,642 mm) / 561 curved (816 mm); text 1,882 rings, 13,466 straight (14,433 mm) / 3,932 curved (5,833 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 1.8 @ (228.2, 315.4), r 1.7 @ (63.9, 90.7), r 1.7 @ (222.0, 250.1), r 1.7 @ (51.0, 198.8)
+- **Words (OCR):** 260 in 153 lines: Cibcju DescRiption · ECLALIZE? · Freclencv · Equalizer · High · hign · Summing amolitier · long witn · cut/boosi · controi · R4A and · assembly
+
+Every curve, box, word and wire group: [19xx - M522B - M522C Equalizer p4 (traced).json](19xx%20-%20M522B%20-%20M522C%20Equalizer%20p4%20%28traced%29.json) (the CAD file: `19xx - M522B - M522C Equalizer p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–332 mm across, 2–430 mm up
+- **Outlines:** line 186 rings, 1,287 straight (3,698 mm) / 318 curved (393 mm); text 462 rings, 3,319 straight (3,626 mm) / 1,029 curved (1,581 mm)
+- **Words (OCR):** 68 in 30 lines: ciRcuiT descRi?TION · vE22B/*522C · Power Supply Decuusl · The · +/-25 volt · supoly voltage is decoupled by · the secies decouplers · 01 through 04 _ · Divicer nerwork · R8z , RBL and · Re5 sels · the decoupler
+
+Every curve, box, word and wire group: [19xx - M522B - M522C Equalizer p5 (traced).json](19xx%20-%20M522B%20-%20M522C%20Equalizer%20p5%20%28traced%29.json) (the CAD file: `19xx - M522B - M522C Equalizer p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 0–432 mm up
+- **Outlines:** line 439 rings, 7,604 straight (21,702 mm) / 912 curved (1,334 mm); text 239 rings, 2,154 straight (2,624 mm) / 535 curved (827 mm)
+- **Closed boxes:** 156
+- **Words (OCR):** 23 in 21 lines: FRECLeNCY · PCSPONSE · CHARACTERiSTiCS · M522P Mi2ZC · EQUALIZER · MODULE? · +15 · +12 · OdB · 33 · -12 · -15
+
+Every curve, box, word and wire group: [19xx - M522B - M522C Equalizer p6 (traced).json](19xx%20-%20M522B%20-%20M522C%20Equalizer%20p6%20%28traced%29.json) (the CAD file: `19xx - M522B - M522C Equalizer p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–334 mm across, 1–432 mm up
+- **Outlines:** line 566 rings, 9,055 straight (22,266 mm) / 1,114 curved (1,615 mm); text 237 rings, 2,066 straight (2,546 mm) / 584 curved (904 mm)
+- **Closed boxes:** 90
+- **Words (OCR):** 24 in 16 lines: FREQUENcY RESPONSE CHARACTERISTICS · MS?2C EQUALIZER MODULEi · 45 · Uab · -12 · -15 · 20Hz · 1OOHz · Ikdz · IUk · 20k" 3Ok 4Ok · MID_FREQUENCY_SECTION_#l
+
+Every curve, box, word and wire group: [19xx - M522B - M522C Equalizer p7 (traced).json](19xx%20-%20M522B%20-%20M522C%20Equalizer%20p7%20%28traced%29.json) (the CAD file: `19xx - M522B - M522C Equalizer p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–334 mm across, 4–428 mm up
+- **Outlines:** line 509 rings, 7,838 straight (22,228 mm) / 1,082 curved (1,499 mm); text 253 rings, 2,160 straight (2,700 mm) / 606 curved (933 mm)
+- **Closed boxes:** 128
+- **Words (OCR):** 25 in 20 lines: FRLQUENCY RESPONSC · CHARACTERISTICS · M5223 M522C' ECUALIZER · MODULE: · +15 · 46 · OcB · -12 · ~15 · ICOHz · IkHz · jOk
+
+Every curve, box, word and wire group: [19xx - M522B - M522C Equalizer p8 (traced).json](19xx%20-%20M522B%20-%20M522C%20Equalizer%20p8%20%28traced%29.json) (the CAD file: `19xx - M522B - M522C Equalizer p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–331 mm across, 2–432 mm up
+- **Outlines:** line 558 rings, 8,626 straight (22,699 mm) / 1,203 curved (1,768 mm); text 130 rings, 1,160 straight (1,318 mm) / 299 curved (475 mm)
+- **Closed boxes:** 154
+- **Words (OCR):** 16 in 15 lines: 1no/1soog · Xop XOC XOz · zHI · zHoo| · ZHOZ · Sl - · Zi- · 0p0 · 2l+ · Sl+ · 63770ow · Ozzsw Fzzsi
+
+Every curve, box, word and wire group: [19xx - M522B - M522C Equalizer p9 (traced).json](19xx%20-%20M522B%20-%20M522C%20Equalizer%20p9%20%28traced%29.json) (the CAD file: `19xx - M522B - M522C Equalizer p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–332 mm across, 7–432 mm up
+- **Outlines:** line 260 rings, 1,928 straight (4,299 mm) / 433 curved (592 mm); text 1,094 rings, 8,650 straight (9,870 mm) / 2,725 curved (4,191 mm)
+- **Words (OCR):** 147 in 129 lines: PARTS · M5228 MONO · EQUAL IZER MODLLE · PART DESCRIPTION · MFG · MFG PART · NUMBER · Ci · Capacitor TC · LF/25 · Keme: · T390c10gM025A5
+
+Every curve, box, word and wire group: [19xx - M522B - M522C Equalizer p10 (traced).json](19xx%20-%20M522B%20-%20M522C%20Equalizer%20p10%20%28traced%29.json) (the CAD file: `19xx - M522B - M522C Equalizer p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–334 mm across, 0–431 mm up
+- **Outlines:** line 284 rings, 2,000 straight (4,384 mm) / 461 curved (650 mm); text 712 rings, 5,586 straight (6,375 mm) / 1,628 curved (2,469 mm); tb 10 rings, 35 straight (33.0 mm) / 11 curved (13.3 mm)
+- **Words (OCR):** 113 in 103 lines: eystems · LTS. · PARTS · LiST · M5228 MONO · EQUALIZER · MODULE · PART · DESCRIPTION · MFG · MFG PART · NUMBER
+- **Title block:** (221, 156)–(250, 238) mm: WBS 10-060 · WBS · WBS · WBS · CR25
+
+Every curve, box, word and wire group: [19xx - M522B - M522C Equalizer p11 (traced).json](19xx%20-%20M522B%20-%20M522C%20Equalizer%20p11%20%28traced%29.json) (the CAD file: `19xx - M522B - M522C Equalizer p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–333 mm across, 4–432 mm up
+- **Outlines:** line 347 rings, 2,184 straight (4,767 mm) / 525 curved (704 mm); text 611 rings, 4,980 straight (5,566 mm) / 1,504 curved (2,234 mm); tb 3 rings, 11 straight (9.2 mm) / 3 curved (3.7 mm)
+- **Words (OCR):** 108 in 89 lines: PARTS LiST · M5223 MONO · EQUALiZER · MODuLE · MFG PART NUMBER · PART DEECRIPTION · MFG · 326 · Resisor · 1/4w · 53 220 · Philips
+- **Title block:** (222, 47)–(250, 78) mm
+
+Every curve, box, word and wire group: [19xx - M522B - M522C Equalizer p12 (traced).json](19xx%20-%20M522B%20-%20M522C%20Equalizer%20p12%20%28traced%29.json) (the CAD file: `19xx - M522B - M522C Equalizer p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–331 mm across, 0–432 mm up
+- **Outlines:** line 192 rings, 1,758 straight (4,206 mm) / 354 curved (476 mm); text 832 rings, 6,603 straight (7,616 mm) / 1,939 curved (2,998 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 102 in 83 lines: PARTS LiST · M5228 · MoNO · ECUALIZER MODULE · MISCELLAVEOUS · COMPONENTS · CN · DESCRiPTION · MFG · MFG PART · NUMBER · LEo
+
+Every curve, box, word and wire group: [19xx - M522B - M522C Equalizer p13 (traced).json](19xx%20-%20M522B%20-%20M522C%20Equalizer%20p13%20%28traced%29.json) (the CAD file: `19xx - M522B - M522C Equalizer p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 2–423 mm up
+- **Outlines:** line 230 rings, 2,062 straight (6,020 mm) / 411 curved (538 mm); text 397 rings, 3,548 straight (4,267 mm) / 946 curved (1,401 mm)
+- **Closed boxes:** 22; named: 10; 12; 13.; 14; 15; 16; 17; 18; 19; 20; 21; 22
+- **Dots (junctions):** 2
+- **Words (OCR):** 64 in 41 lines: CCNNECTOR LAYOUT · Mi229/m522c ECUALIZER MODULES · NC · NC · Left/MONO · inPuT (RD) · BALANCED · INPuT · (BK ) · INPuT · (RD ) · UNBALANCEO
+
+Every curve, box, word and wire group: [19xx - M522B - M522C Equalizer p14 (traced).json](19xx%20-%20M522B%20-%20M522C%20Equalizer%20p14%20%28traced%29.json) (the CAD file: `19xx - M522B - M522C Equalizer p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 8–432 mm up
+- **Outlines:** line 152 rings, 1,496 straight (4,054 mm) / 289 curved (392 mm); text 1,563 rings, 11,576 straight (12,642 mm) / 3,297 curved (4,898 mm)
+- **Dots (junctions):** 2
+- **Words (OCR):** 203 in 100 lines: CIRcUI T · DESCRIPTION · 4414-152/5414-1524 FILTER ASSEMBLIES · The · channel · section · wili be described_ · The rign[ channel · cperates · in wn · icentical manner · and the mono
+
+Every curve, box, word and wire group: [19xx - M522B - M522C Equalizer p15 (traced).json](19xx%20-%20M522B%20-%20M522C%20Equalizer%20p15%20%28traced%29.json) (the CAD file: `19xx - M522B - M522C Equalizer p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–333 mm across, 2–432 mm up
+- **Outlines:** line 492 rings, 3,650 straight (6,462 mm) / 1,016 curved (1,480 mm); text 1,354 rings, 10,159 straight (11,560 mm) / 3,052 curved (4,645 mm)
+- **Words (OCR):** 159 in 142 lines: PARTS LisT · 5A1A-1524 MONO · ASEMBLY · DESCRiPTion · MFG · P4RT · MFG PART · NuMBE3 · C1 · Capacitor 4.7 · 4f/10 · Kemne:
+
+Every curve, box, word and wire group: [19xx - M522B - M522C Equalizer p16 (traced).json](19xx%20-%20M522B%20-%20M522C%20Equalizer%20p16%20%28traced%29.json) (the CAD file: `19xx - M522B - M522C Equalizer p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–431 mm up
+- **Outlines:** line 418 rings, 2,718 straight (5,077 mm) / 670 curved (910 mm); text 524 rings, 3,993 straight (4,358 mm) / 1,204 curved (1,732 mm)
+- **Words (OCR):** 87 in 84 lines: WAFE-=Esk · Systems L7z · PARTS · MCNO · FilteR · 343- · MFG · MFS · PART_NUMBER · Connector , 2C · 3in · Fergstik
+
+Every curve, box, word and wire group: [19xx - M522B - M522C Equalizer p17 (traced).json](19xx%20-%20M522B%20-%20M522C%20Equalizer%20p17%20%28traced%29.json) (the CAD file: `19xx - M522B - M522C Equalizer p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–330 mm across, 7–432 mm up
+- **Outlines:** line 210 rings, 1,826 straight (4,312 mm) / 383 curved (493 mm); text 308 rings, 2,410 straight (2,728 mm) / 654 curved (1,014 mm)
+- **Words (OCR):** 31 in 17 lines: PARTS LiST · SATL-1SZ4 MONO · FiLtER ASSEMBLY · ~ISCELLANEOUS · COMPONENIS · DESCRiPTiON · MF; · PART · Pin Dip Socket · AMP · 620463-2 · 7B5 recommends the usc
+
+Every curve, box, word and wire group: [19xx - M522B - M522C Equalizer p18 (traced).json](19xx%20-%20M522B%20-%20M522C%20Equalizer%20p18%20%28traced%29.json) (the CAD file: `19xx - M522B - M522C Equalizer p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** schematic B 14-152-02-002, size B 432 × 241 mm, 2000 × 1117 px traced (0.216 mm/px)
+- **Ink extent:** 4–428 mm across, 8–213 mm up
+- **Outlines:** line 728 rings, 6,518 straight (9,672 mm) / 1,764 curved (2,158 mm); text 104 rings, 732 straight (759 mm) / 215 curved (314 mm); tb 2 rings, 39 straight (105 mm) / 2 curved (3.0 mm)
+- **Centre lines:** 6,340 paths (109 closed); straight 6,419 mm, curved 106 mm; horizontal 2,044 mm, vertical 1,841 mm, diagonal 2,534 mm
+- **Circles and arcs:** 3 circles, 35 arcs; largest r 0.9 @ (275.9, 86.8), r 0.7 @ (158.9, 85.6), r 0.7 @ (56.1, 86.4)
+- **Dots (junctions):** 1
+- **Words (OCR):** 10 in 9 lines: Vsa · '0/zs · ccu · WBS WARD-BeCk SYSTEMS · SA 14-152A · MonO FILTER ASSEMBLY · SCHEMATIC · 14-152-02-002 · ISS
+- **Title block:** (342, 32)–(432, 47) mm: WBS WARD-BeCk SYSTEMS
+- **Wiring (first pass):** 77 connected wire groups from 625 runs; labelled ends: 52 mm → Vsa; 34 mm → '0/zs; 31 mm → '0/zs; 12 mm → Vsa
+
+Every curve, box, word and wire group: [19xx - M522B - M522C Equalizer p19 (traced).json](19xx%20-%20M522B%20-%20M522C%20Equalizer%20p19%20%28traced%29.json) (the CAD file: `19xx - M522B - M522C Equalizer p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** schematic B 522-02-003, size B 432 × 272 mm, 2000 × 1261 px traced (0.216 mm/px)
+- **Ink extent:** 5–429 mm across, 6–250 mm up
+- **Outlines:** line 464 rings, 5,162 straight (9,555 mm) / 1,166 curved (1,461 mm); text 469 rings, 3,571 straight (3,103 mm) / 1,056 curved (1,310 mm); tb 2 rings, 37 straight (110 mm) / 0 curved (0.0 mm)
+- **Centre lines:** 7,360 paths (115 closed); straight 7,692 mm, curved 148 mm; horizontal 3,186 mm, vertical 1,719 mm, diagonal 2,787 mm
+- **Circles and arcs:** 2 circles, 28 arcs; largest r 3.4 @ (80.0, 52.3), r 0.8 @ (235.5, 245.0)
+- **Closed boxes:** 2; named: 5414-02 4 JL7? AS52VBLy; I04 Reo
+- **Words (OCR):** 154 in 138 lines: P19 · 220 · 66 · AiE " · ~by Jo7 · 135 · ~BV · LbjIn · LvBjiN · 328 · I0o · LbJIN
+- **Title block:** (340, 30)–(432, 46) mm: WBS WARD-BECK SYSTEMS
+- **Wiring (first pass):** 111 connected wire groups from 585 runs; labelled ends: 182 mm → R17, 56, 74, LbJIN; 173 mm → Res, Ca, 2/23, R8t; 132 mm → Co, 0/100, C4, 40/zs"; 113 mm → LvBjiN, 328; 79 mm → 50/0, R17, 56, 74
+
+Every curve, box, word and wire group: [19xx - M522B - M522C Equalizer p20 (traced).json](19xx%20-%20M522B%20-%20M522C%20Equalizer%20p20%20%28traced%29.json) (the CAD file: `19xx - M522B - M522C Equalizer p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** parts list B 14-152-08-002, size B 330 × 432 mm, 1528 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 11–322 mm across, 8–421 mm up
+- **Outlines:** line 543 rings, 4,926 straight (8,782 mm) / 1,268 curved (2,058 mm); text 277 rings, 2,395 straight (3,086 mm) / 724 curved (1,215 mm); tb 13 rings, 138 straight (311 mm) / 17 curved (32.1 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.7 @ (23.4, 411.4), r 2.7 @ (22.6, 183.4), r 2.6 @ (204.5, 410.7)
+- **Closed boxes:** 2; named: OOOOO O0 JCCP 40 32 725 C29 RI 72 Cs 727; OOOOO O0
+- **Words (OCR):** 50 in 43 lines: OOOOO · O0 · JCCP 40 · 32 · RI · 725 · C29 · 72 · 35 · Cs · 727* 54 · 51
+- **Title block:** (166, 55)–(330, 320) mm: ISSUE · 10/2s · WBS WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [19xx - M522B - M522C Equalizer p21 (traced).json](19xx%20-%20M522B%20-%20M522C%20Equalizer%20p21%20%28traced%29.json) (the CAD file: `19xx - M522B - M522C Equalizer p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 362 × 432 mm, 1677 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 11–353 mm across, 9–415 mm up
+- **Outlines:** line 720 rings, 7,545 straight (13,462 mm) / 1,725 curved (2,820 mm); text 419 rings, 3,270 straight (3,897 mm) / 1,005 curved (1,576 mm); tb 54 rings, 568 straight (845 mm) / 155 curved (232 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.4 @ (123.7, 200.7), r 2.4 @ (283.2, 401.0), r 2.4 @ (124.0, 402.1)
+- **Closed boxes:** 19; named: 54; DF
+- **Dots (junctions):** 1
+- **Words (OCR):** 86 in 75 lines: 38 · Ji- · L3S · 222 · 7252 · 526 · 220 · 317 · 315- · 216220 68/10 · 54 · RZE 68 R19 E
+- **Title block:** (212, 51)–(359, 317) mm: 14-151 · ISSUE · 2781 · ~uiezis · Res @ · 33 384 · C2 · 27D · R8z · C45 · WBS WARD-BECK SYSTEMs
+
+Every curve, box, word and wire group: [19xx - M522B - M522C Equalizer p22 (traced).json](19xx%20-%20M522B%20-%20M522C%20Equalizer%20p22%20%28traced%29.json) (the CAD file: `19xx - M522B - M522C Equalizer p22 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

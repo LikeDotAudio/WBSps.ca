@@ -17,6 +17,213 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **1988** (manual_issue): `ISSUE DECEMBER 2, 1988` — …TELEPHONE: 4161438-655C TeleX 065-25399 WES WBS MAINTENANCE ISSUE DECEMBER 2, 1988…
 - **1989** (month): `January 10, 1989` — …te originated: May 3, 1988 Current Revision: Revision Date: January 10, 1989 STARPLEX DISK: #827 STARPLEX FILE: CSLG.OBJ CSLGSW.OBJ EPRO…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–332 mm across, 0–432 mm up
+- **Outlines:** line 103 rings, 1,340 straight (3,332 mm) / 166 curved (241 mm); text 2,100 rings, 17,285 straight (18,506 mm) / 4,864 curved (7,299 mm)
+- **Words (OCR):** 213 in 105 lines: WAAD-BECK SYSTEMS LTD_ · WES 841 PAOGAESS AVENUE; SCAABOROUGH ONTARIO · M1H · 2xa · TELEX 065-25399 · TELEPHONE: · 416/433-6550 · THE ST SERIES CONSOLE INSTALLATION · Place the console close to · its fina] ition · pos · and ensure that
+- **Title block:** (108, 397)–(256, 424) mm: WAAD-BECK SYSTEMS LTD_ · WES 841 PAOGAESS AVENUE; SCAABOROUGH ONTARIO · M1H · TELEX 065-25399 · TELEPHONE: · 416/433-6550
+
+Every curve, box, word and wire group: [1985 - ST - ward beck systems st console installation p1 (traced).json](1985%20-%20ST%20-%20ward%20beck%20systems%20st%20console%20installation%20p1%20%28traced%29.json) (the CAD file: `1985 - ST - ward beck systems st console installation p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 12–432 mm up
+- **Outlines:** line 64 rings, 1,683 straight (2,920 mm) / 104 curved (193 mm); text 1,833 rings, 14,551 straight (15,340 mm) / 4,450 curved (6,659 mm)
+- **Words (OCR):** 192 in 144 lines: WAAD-BECK EYSTEME LTD · CINCH-JONES sufficiently to · termina] · blocks , · the screws on · the · two · Loosen · power · supply · frames · the fanning strips to
+
+Every curve, box, word and wire group: [1985 - ST - ward beck systems st console installation p2 (traced).json](1985%20-%20ST%20-%20ward%20beck%20systems%20st%20console%20installation%20p2%20%28traced%29.json) (the CAD file: `1985 - ST - ward beck systems st console installation p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 33–432 mm up
+- **Outlines:** line 79 rings, 1,484 straight (2,827 mm) / 93 curved (139 mm); text 1,272 rings, 9,800 straight (10,467 mm) / 2,950 curved (4,421 mm)
+- **Words (OCR):** 129 in 98 lines: WAAD-EECX · SYSTEms · LTD_ · side · Locate · the · M52Ooa in · the · bottom of the · right-hand · with the · four rack screws
+
+Every curve, box, word and wire group: [1985 - ST - ward beck systems st console installation p3 (traced).json](1985%20-%20ST%20-%20ward%20beck%20systems%20st%20console%20installation%20p3%20%28traced%29.json) (the CAD file: `1985 - ST - ward beck systems st console installation p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–334 mm across, 8–432 mm up
+- **Outlines:** line 68 rings, 1,392 straight (2,951 mm) / 76 curved (117 mm); text 175 rings, 2,042 straight (2,562 mm) / 420 curved (652 mm); tb 15 rings, 106 straight (110 mm) / 18 curved (22.9 mm)
+- **Words (OCR):** 15 in 10 lines: WARD-BECK SYSTEME M1h2x2 · LTD_ · WES PAOGRESS AVENUE TELEPHONE · SCAABOAOUGH ONTARIC · 416,438-6550 · 055-25399 · WBS MAINTENANCE · ISSUE · DECEMBER 2, · 1988
+- **Title block:** (107, 56)–(270, 424) mm: WARD-BECK SYSTEME M1h2x2 · LTD_ · WES PAOGRESS AVENUE TELEPHONE · SCAABOAOUGH ONTARIC · 416,438-6550 · 055-25399 · WBS MAINTENANCE · ISSUE · DECEMBER 2,
+
+Every curve, box, word and wire group: [1985 - ST - ward beck systems st console installation p4 (traced).json](1985%20-%20ST%20-%20ward%20beck%20systems%20st%20console%20installation%20p4%20%28traced%29.json) (the CAD file: `1985 - ST - ward beck systems st console installation p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–334 mm across, 1–432 mm up
+- **Outlines:** line 65 rings, 1,284 straight (2,617 mm) / 128 curved (188 mm); text 2,416 rings, 19,011 straight (20,026 mm) / 5,199 curved (7,711 mm); tb 25 rings, 381 straight (597 mm) / 49 curved (71.9 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 249 in 182 lines: WARD-BECK SYSTEMS LTD_ · WES 841 PAOGAESS · AVENUE, SCAABOROUGH, ONTARIO · M1H 2x2 · TELEPHONE: 416/438-6550 · TELeX · 065-25399 · WBS  MAINTENANCE · INTRODUCTION · should be · imp]emented · to
+- **Title block:** (43, 186)–(257, 424) mm: WARD-BECK SYSTEMS LTD_ · WES 841 PAOGAESS · AVENUE, SCAABOROUGH, ONTARIO · TELEPHONE: 416/438-6550 · TELeX · 065-25399 · WBS  MAINTENANCE · INTRODUCTION · should be · imp]emented · to · preventive ma 
+
+Every curve, box, word and wire group: [1985 - ST - ward beck systems st console installation p5 (traced).json](1985%20-%20ST%20-%20ward%20beck%20systems%20st%20console%20installation%20p5%20%28traced%29.json) (the CAD file: `1985 - ST - ward beck systems st console installation p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–332 mm across, 0–429 mm up
+- **Outlines:** line 106 rings, 1,465 straight (2,993 mm) / 172 curved (269 mm); text 2,474 rings, 19,127 straight (19,878 mm) / 5,510 curved (8,143 mm); tb 3 rings, 10 straight (12.0 mm) / 5 curved (5.8 mm)
+- **Words (OCR):** 282 in 110 lines: WAAD-BECX BySTeMB LTD_ · WBS MAINTENANCE _ Page · GENERAL · SERVICE · Two ma intenance activities require · specia] caution and care · when · servicing any · item of WBS equipment · cieaning and Soldering- · Cleaning · When cleaning WBS equipment use
+- **Title block:** (89, 294)–(215, 423) mm: WAAD-BECX BySTeMB LTD_ · Two ma intenance activities require · item of WBS equipment · cieaning and Soldering- · Cleaning · When cleaning WBS equipment use · only · substitutes which have proven · age
+
+Every curve, box, word and wire group: [1985 - ST - ward beck systems st console installation p6 (traced).json](1985%20-%20ST%20-%20ward%20beck%20systems%20st%20console%20installation%20p6%20%28traced%29.json) (the CAD file: `1985 - ST - ward beck systems st console installation p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–331 mm across, 1–431 mm up
+- **Outlines:** line 83 rings, 1,298 straight (2,964 mm) / 180 curved (271 mm); text 2,593 rings, 20,197 straight (21,096 mm) / 5,731 curved (8,388 mm)
+- **Words (OCR):** 302 in 141 lines: WAAD-BECX BysteMs LTD. · WBS MAINTENANCE . · Page · When remounting new  component use · minima] amounts of solder. Do not · OW · solder or · so]der flux to flow on · to · switches or · intermittent · switch
+
+Every curve, box, word and wire group: [1985 - ST - ward beck systems st console installation p7 (traced).json](1985%20-%20ST%20-%20ward%20beck%20systems%20st%20console%20installation%20p7%20%28traced%29.json) (the CAD file: `1985 - ST - ward beck systems st console installation p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 11–334 mm across, 0–432 mm up
+- **Outlines:** line 51 rings, 1,311 straight (2,650 mm) / 128 curved (198 mm); text 2,623 rings, 20,246 straight (20,981 mm) / 5,962 curved (8,644 mm); tb 31 rings, 171 straight (193 mm) / 60 curved (85.2 mm)
+- **Words (OCR):** 272 in 198 lines: WARD-BECX BYSTEMB LTD_ · WBS  MAINTENANCE . · Page · POTENTI OMETERS · The majority · of potentiometers · used in · WBS · equipment are · of the · conduc - · elements
+- **Title block:** (22, 173)–(290, 426) mm: WARD-BECX BYSTEMB LTD_ · WBS  MAINTENANCE . · Page · POTENTI OMETERS · The majority · of potentiometers · used in · WBS · equipment are · of the · conduc - · elements · of · most potentiometers are · 
+
+Every curve, box, word and wire group: [1985 - ST - ward beck systems st console installation p8 (traced).json](1985%20-%20ST%20-%20ward%20beck%20systems%20st%20console%20installation%20p8%20%28traced%29.json) (the CAD file: `1985 - ST - ward beck systems st console installation p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–334 mm across, 4–432 mm up
+- **Outlines:** line 137 rings, 1,859 straight (3,226 mm) / 253 curved (373 mm); text 2,420 rings, 19,312 straight (19,731 mm) / 5,590 curved (8,158 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 271 in 182 lines: WBS MAINTENANCE _ · Page · switch manufacturers · Further as · an aid to · infrequent · switch operation, · switch contacts · with very · thin Tayer of · Iubricant · This
+
+Every curve, box, word and wire group: [1985 - ST - ward beck systems st console installation p9 (traced).json](1985%20-%20ST%20-%20ward%20beck%20systems%20st%20console%20installation%20p9%20%28traced%29.json) (the CAD file: `1985 - ST - ward beck systems st console installation p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 11–334 mm across, 30–431 mm up
+- **Outlines:** line 43 rings, 1,353 straight (2,620 mm) / 94 curved (147 mm); text 2,461 rings, 19,336 straight (20,019 mm) / 5,471 curved (8,051 mm); tb 20 rings, 107 straight (93.9 mm) / 36 curved (50.0 mm)
+- **Words (OCR):** 277 in 182 lines: WBS   MAINTENANCE_ Page · WARD-BECX Sy8TeMs · LTD_ · Production · of · crystaline · salts (which are · the chemica] · reaction · insulators as · result · of
+- **Title block:** (22, 147)–(251, 426) mm: WBS   MAINTENANCE_ Page · WARD-BECX Sy8TeMs · LTD_ · Production · of · crystaline · salts (which are · the chemica] · reaction · insulators as · result · of · and/or · electrolysis among · the · clean
+
+Every curve, box, word and wire group: [1985 - ST - ward beck systems st console installation p10 (traced).json](1985%20-%20ST%20-%20ward%20beck%20systems%20st%20console%20installation%20p10%20%28traced%29.json) (the CAD file: `1985 - ST - ward beck systems st console installation p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–334 mm across, 4–432 mm up
+- **Outlines:** line 83 rings, 1,540 straight (2,770 mm) / 121 curved (185 mm); text 362 rings, 2,891 straight (3,098 mm) / 779 curved (1,136 mm); tb 1 rings, 3 straight (2.4 mm) / 2 curved (2.4 mm)
+- **Words (OCR):** 38 in 29 lines: WAAD-BECX SYSTeMB LTD · WBS  MAINTENANCE _ · Page · "fail-safe" mode, where · norma ] Iy · Relays · which are · used in · they are · basis, should · be · checked
+- **Title block:** (185, 342)–(250, 426) mm: WBS  MAINTENANCE _ · they are · be · checked · for · from · is · removed
+
+Every curve, box, word and wire group: [1985 - ST - ward beck systems st console installation p11 (traced).json](1985%20-%20ST%20-%20ward%20beck%20systems%20st%20console%20installation%20p11%20%28traced%29.json) (the CAD file: `1985 - ST - ward beck systems st console installation p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 12–334 mm across, 30–432 mm up
+- **Outlines:** line 60 rings, 1,487 straight (2,614 mm) / 135 curved (213 mm); text 2,372 rings, 19,968 straight (20,987 mm) / 6,248 curved (8,956 mm); tb 15 rings, 126 straight (302 mm) / 22 curved (28.4 mm)
+- **Words (OCR):** 171 in 153 lines: WAFD-BECX SYstems LTD_ · CUSTOMER: TV-3 · OB VAN · REV . · SOFTWARE DOCUMENTATION · TV-3 OB · VaN · CUSTOMER: · PROJECT NUMBER: · 880858 · CONSOLE TYPE: · ST2442/ST3642
+- **Title block:** (26, 51)–(298, 425) mm: WAFD-BECX SYstems LTD_ · CUSTOMER: TV-3 · OB VAN · REV . · SOFTWARE DOCUMENTATION · TV-3 OB · VaN · CUSTOMER: · PROJECT NUMBER: · 880858 · CONSOLE TYPE: · ST2442/ST3642 · Date originated: · May 3, 198
+
+Every curve, box, word and wire group: [1985 - ST - ward beck systems st console installation p12 (traced).json](1985%20-%20ST%20-%20ward%20beck%20systems%20st%20console%20installation%20p12%20%28traced%29.json) (the CAD file: `1985 - ST - ward beck systems st console installation p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–334 mm across, 24–432 mm up
+- **Outlines:** line 48 rings, 1,380 straight (3,161 mm) / 48 curved (70.2 mm); text 949 rings, 8,053 straight (9,151 mm) / 2,241 curved (3,364 mm); tb 5 rings, 98 straight (236 mm) / 9 curved (14.8 mm)
+- **Words (OCR):** 96 in 94 lines: WARD-BECK · SYSTEMS · LTD_ · TV-3 OB VAN · AUdIO CONSOLE · PARTS LIST · REPLACEABLE · PART · NUMBER · SYMBOL · DESCRIPTION · MFG
+- **Title block:** (18, 45)–(221, 419) mm: WARD-BECK · SYSTEMS · LTD_ · TV-3 OB VAN · AUdIO CONSOLE · PARTS LIST · REPLACEABLE · SYMBOL · DESCRIPTION · MFG · ~CH18 · Mono · Input Module · WBS · CHl · CH1g-CH24 · Stereo · Input Module · WBS · M
+
+Every curve, box, word and wire group: [1985 - ST - ward beck systems st console installation p13 (traced).json](1985%20-%20ST%20-%20ward%20beck%20systems%20st%20console%20installation%20p13%20%28traced%29.json) (the CAD file: `1985 - ST - ward beck systems st console installation p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–334 mm across, 27–431 mm up
+- **Outlines:** line 46 rings, 1,196 straight (3,110 mm) / 65 curved (105 mm); text 1,023 rings, 8,376 straight (9,345 mm) / 2,332 curved (3,503 mm); tb 18 rings, 151 straight (375 mm) / 31 curved (38.1 mm)
+- **Words (OCR):** 109 in 91 lines: WARD-BECK SYSTEMS LTD. · TV-30B VAN · AUDIO CONSOLE · REPLACEABLE · PARTS_LISI · DESCRIPTION · MFG · PART NUMBER · SYMBOL · Dua] Fader Assembly · WBS · SA91-032
+- **Title block:** (21, 34)–(219, 422) mm: WARD-BECK SYSTEMS LTD. · TV-30B VAN · AUDIO CONSOLE · REPLACEABLE · PARTS_LISI · DESCRIPTION · MFG · SYMBOL · Dua] Fader Assembly · WBS · ATT SUB MSTR · & MIXDOWN · FADER : KNOBS · Fader Knob · White 
+
+Every curve, box, word and wire group: [1985 - ST - ward beck systems st console installation p14 (traced).json](1985%20-%20ST%20-%20ward%20beck%20systems%20st%20console%20installation%20p14%20%28traced%29.json) (the CAD file: `1985 - ST - ward beck systems st console installation p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–334 mm across, 25–432 mm up
+- **Outlines:** line 67 rings, 1,285 straight (3,209 mm) / 70 curved (106 mm); text 1,056 rings, 8,515 straight (9,474 mm) / 2,396 curved (3,645 mm); tb 7 rings, 106 straight (256 mm) / 10 curved (15.7 mm)
+- **Words (OCR):** 89 in 82 lines: WARD-BECK · SYSTEMS LTD. · TV-3OBVAN · AUDIO CONSOLE · REPLACEABLE · PARTS LIST · PART NUMBER · SYMBOL · DESCRIPTION · MFG · sa91-006 6A · PS CHANGEOVER
+- **Title block:** (20, 65)–(218, 421) mm: WARD-BECK · SYSTEMS LTD. · TV-3OBVAN · AUDIO CONSOLE · REPLACEABLE · PARTS LIST · SYMBOL · DESCRIPTION · MFG · PS CHANGEOVER · Power Supply Decoup] · ing · WBS · Assembly · Jackfield Assembly · WBS · 
+
+Every curve, box, word and wire group: [1985 - ST - ward beck systems st console installation p15 (traced).json](1985%20-%20ST%20-%20ward%20beck%20systems%20st%20console%20installation%20p15%20%28traced%29.json) (the CAD file: `1985 - ST - ward beck systems st console installation p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–334 mm across, 26–432 mm up
+- **Outlines:** line 39 rings, 1,241 straight (3,276 mm) / 81 curved (127 mm); text 983 rings, 8,115 straight (8,955 mm) / 2,226 curved (3,372 mm)
+- **Words (OCR):** 97 in 83 lines: SYSTEMS LTD · WARD-BECK · IV-3_QB VAN · AUdIO_CONSOLE · PART LIST · REPLACEABLE · MFG · PART · NUMBER · SYMBOL · DESCRIPTION · Power Supply Connectors
+- **Title block:** (21, 395)–(148, 422) mm: SYSTEMS LTD · WARD-BECK
+
+Every curve, box, word and wire group: [1985 - ST - ward beck systems st console installation p16 (traced).json](1985%20-%20ST%20-%20ward%20beck%20systems%20st%20console%20installation%20p16%20%28traced%29.json) (the CAD file: `1985 - ST - ward beck systems st console installation p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–334 mm across, 18–432 mm up
+- **Outlines:** line 82 rings, 1,326 straight (3,258 mm) / 68 curved (101 mm); text 843 rings, 7,191 straight (8,152 mm) / 1,984 curved (2,999 mm); tb 2 rings, 87 straight (217 mm) / 7 curved (11.2 mm)
+- **Words (OCR):** 90 in 82 lines: WARD-BECK · SYSTEMS LTD_ · TV-3 OB VAN · AUdIO_CONSOLE · REPLACEABLE · PARTS LIST · DESCRIPTION · MFG · PART NUMBER · SYMBOL · Fanning Strip · JONES
+- **Title block:** (20, 242)–(214, 420) mm: WARD-BECK · SYSTEMS LTD_ · TV-3 OB VAN · AUdIO_CONSOLE · REPLACEABLE · PARTS LIST · DESCRIPTION · MFG · SYMBOL · Fanning Strip · JONES · TB · Fanning Strip · JONES · Dua] 300 · ohm Log Pot · WBS · Pot
+
+Every curve, box, word and wire group: [1985 - ST - ward beck systems st console installation p17 (traced).json](1985%20-%20ST%20-%20ward%20beck%20systems%20st%20console%20installation%20p17%20%28traced%29.json) (the CAD file: `1985 - ST - ward beck systems st console installation p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–334 mm across, 25–432 mm up
+- **Outlines:** line 51 rings, 1,319 straight (3,204 mm) / 48 curved (72.3 mm); text 938 rings, 8,177 straight (9,207 mm) / 2,138 curved (3,203 mm); tb 7 rings, 93 straight (233 mm) / 16 curved (22.6 mm)
+- **Words (OCR):** 92 in 84 lines: WARD-BECK · SYSTEMS LTD. · TV-3_OB VAN · AUDIO_CONSOLE · REPLACEABLE · PARTS LIST · MFG · PART NUMBER · SYMBOL · DESCRIPTION · CENTRALAB · PA2013
+- **Title block:** (21, 29)–(221, 420) mm: WARD-BECK · SYSTEMS LTD. · TV-3_OB VAN · AUDIO_CONSOLE · REPLACEABLE · PARTS LIST · MFG · SYMBOL · DESCRIPTION · CENTRALAB · PUSHBUTTONS · Rotary Switch · GREYHILL · Rotary Switch · SCHADOW · 4c Switc
+
+Every curve, box, word and wire group: [1985 - ST - ward beck systems st console installation p18 (traced).json](1985%20-%20ST%20-%20ward%20beck%20systems%20st%20console%20installation%20p18%20%28traced%29.json) (the CAD file: `1985 - ST - ward beck systems st console installation p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 12–334 mm across, 23–432 mm up
+- **Outlines:** line 52 rings, 1,485 straight (3,327 mm) / 41 curved (64.0 mm); text 273 rings, 2,445 straight (2,882 mm) / 652 curved (991 mm)
+- **Words (OCR):** 26 in 23 lines: WARD-BECK SYSTEMS LTD_ · IV-3 OB · VAN · AUdIO_CONSOLE · REPLACEABLE_PARTS_LIST · PART NUMBER · DESCRIPTION · MFG · SYMBOL · 4861-3332 · Led Green · DIALIGHT
+
+Every curve, box, word and wire group: [1985 - ST - ward beck systems st console installation p19 (traced).json](1985%20-%20ST%20-%20ward%20beck%20systems%20st%20console%20installation%20p19%20%28traced%29.json) (the CAD file: `1985 - ST - ward beck systems st console installation p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–334 mm across, 23–432 mm up
+- **Outlines:** line 64 rings, 1,399 straight (3,184 mm) / 41 curved (63.7 mm); text 807 rings, 6,922 straight (7,904 mm) / 1,756 curved (2,692 mm)
+- **Words (OCR):** 77 in 71 lines: WARD-BECK SYSTEMS LTD_ · TV-3 OB · VAN · AUdIO_CONSOLE · SUPPLIED_STANDARD_PRODUCT MANUALS · LIST_QF · SEPARATELY · M520 · Mono · Input Module · M521 · Stereo Input Module
+
+Every curve, box, word and wire group: [1985 - ST - ward beck systems st console installation p20 (traced).json](1985%20-%20ST%20-%20ward%20beck%20systems%20st%20console%20installation%20p20%20%28traced%29.json) (the CAD file: `1985 - ST - ward beck systems st console installation p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–334 mm across, 22–432 mm up
+- **Outlines:** line 40 rings, 1,173 straight (3,074 mm) / 48 curved (70.8 mm); text 206 rings, 1,831 straight (2,222 mm) / 456 curved (701 mm)
+- **Words (OCR):** 21 in 18 lines: WARD-BECK SYSTEMS LTD_ · TV-3 OB · VAN · AUDIO_CONSOLE · LIST · OF   SEPARATELY · SUPPLIED · STANDARD PRODUCT · MANUALS · 23) · CORRELATOR · (Phase
+
+Every curve, box, word and wire group: [1985 - ST - ward beck systems st console installation p21 (traced).json](1985%20-%20ST%20-%20ward%20beck%20systems%20st%20console%20installation%20p21%20%28traced%29.json) (the CAD file: `1985 - ST - ward beck systems st console installation p21 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 9 words corrected)

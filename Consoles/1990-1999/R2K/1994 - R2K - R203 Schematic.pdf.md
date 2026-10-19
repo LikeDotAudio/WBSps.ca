@@ -11,6 +11,72 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Pages:** 6
 - **PDF created (scan date, not design date):** Mon Jun 15 13:59:39 2009 EDT
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 34–295 mm across, 8–411 mm up
+- **Outlines:** line 330 rings, 5,652 straight (11,639 mm) / 1,462 curved (1,720 mm); text 35 rings, 332 straight (315 mm) / 113 curved (127 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 5.0 @ (173.7, 267.5)
+- **Closed boxes:** 10
+- **Words (OCR):** 1 in 1 lines: 1e
+
+Every curve, box, word and wire group: [1994 - R2K - R203 Schematic p1 (traced).json](1994%20-%20R2K%20-%20R203%20Schematic%20p1%20%28traced%29.json) (the CAD file: `1994 - R2K - R203 Schematic p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 46–307 mm across, 9–411 mm up
+- **Outlines:** line 845 rings, 11,747 straight (23,599 mm) / 3,102 curved (3,540 mm); text 32 rings, 182 straight (172 mm) / 88 curved (102 mm)
+- **Closed boxes:** 69; named: 87 36; 85; 87 95
+- **Dots (junctions):** 1
+- **Words (OCR):** 4 in 4 lines: 87 36 · 85 · 87 95 · 87
+
+Every curve, box, word and wire group: [1994 - R2K - R203 Schematic p2 (traced).json](1994%20-%20R2K%20-%20R203%20Schematic%20p2%20%28traced%29.json) (the CAD file: `1994 - R2K - R203 Schematic p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 46–308 mm across, 10–412 mm up
+- **Outlines:** line 843 rings, 11,910 straight (23,557 mm) / 3,152 curved (3,621 mm); text 60 rings, 596 straight (606 mm) / 205 curved (238 mm)
+- **Closed boxes:** 67; named: J2; 8; 87
+- **Dots (junctions):** 1
+- **Words (OCR):** 2 in 2 lines: J2 · 8; 87
+
+Every curve, box, word and wire group: [1994 - R2K - R203 Schematic p3 (traced).json](1994%20-%20R2K%20-%20R203%20Schematic%20p3%20%28traced%29.json) (the CAD file: `1994 - R2K - R203 Schematic p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 34–294 mm across, 8–410 mm up
+- **Outlines:** line 534 rings, 8,190 straight (16,329 mm) / 2,222 curved (2,528 mm); text 52 rings, 611 straight (627 mm) / 168 curved (201 mm)
+- **Closed boxes:** 26; named: 2l
+- **Words (OCR):** 2 in 2 lines: 2l · 45
+
+Every curve, box, word and wire group: [1994 - R2K - R203 Schematic p4 (traced).json](1994%20-%20R2K%20-%20R203%20Schematic%20p4%20%28traced%29.json) (the CAD file: `1994 - R2K - R203 Schematic p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 45–308 mm across, 10–412 mm up
+- **Outlines:** line 1,033 rings, 13,596 straight (25,992 mm) / 3,643 curved (4,277 mm); text 117 rings, 1,122 straight (1,113 mm) / 384 curved (445 mm)
+- **Closed boxes:** 47; named: Eoca; 83; 68338888; CD
+- **Dots (junctions):** 1
+- **Words (OCR):** 10 in 10 lines: 83 · 68338888 · 22 · Eoca · "8 4 · CD · H6 · 33 · ESE · 62
+
+Every curve, box, word and wire group: [1994 - R2K - R203 Schematic p5 (traced).json](1994%20-%20R2K%20-%20R203%20Schematic%20p5%20%28traced%29.json) (the CAD file: `1994 - R2K - R203 Schematic p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 32–332 mm across, 9–411 mm up
+- **Outlines:** line 950 rings, 12,819 straight (28,059 mm) / 3,335 curved (3,834 mm); text 111 rings, 995 straight (969 mm) / 332 curved (401 mm)
+- **Closed boxes:** 33; named: 68333868
+- **Words (OCR):** 2 in 2 lines: 68333868 · 0 0
+
+Every curve, box, word and wire group: [1994 - R2K - R203 Schematic p6 (traced).json](1994%20-%20R2K%20-%20R203%20Schematic%20p6%20%28traced%29.json) (the CAD file: `1994 - R2K - R203 Schematic p6 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

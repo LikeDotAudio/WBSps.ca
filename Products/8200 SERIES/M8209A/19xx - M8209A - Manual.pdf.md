@@ -11,6 +11,72 @@ Wiki page: [M8209A](../../../PAGES/M8209A.md)
 - **Size:** 1,780,495 bytes
 - **Pages:** 6
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–330 mm across, 2–432 mm up
+- **Outlines:** line 1,196 rings, 8,108 straight (21,149 mm) / 846 curved (1,143 mm); text 256 rings, 1,924 straight (2,662 mm) / 376 curved (556 mm); tb 3 rings, 125 straight (335 mm) / 8 curved (14.4 mm)
+- **Closed boxes:** 4; named: M8209A MANUAL
+- **Words (OCR):** 6 in 6 lines: WBS · WARD · BECK PROFESSIONAL BROADCAST EQUIPMENT · UUU · 8200 SERIES DISTRIBUTION SYSTEM · M8209A MANUAL
+- **Title block:** (154, 371)–(321, 419) mm: WBS · WARD · BECK PROFESSIONAL BROADCAST EQUIPMENT
+
+Every curve, box, word and wire group: [19xx - M8209A - Manual p1 (traced).json](19xx%20-%20M8209A%20-%20Manual%20p1%20%28traced%29.json) (the CAD file: `19xx - M8209A - Manual p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–330 mm across, 2–432 mm up
+- **Outlines:** line 953 rings, 12,386 straight (24,976 mm) / 2,726 curved (3,856 mm); text 694 rings, 4,076 straight (4,111 mm) / 1,491 curved (2,100 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.4 @ (79.1, 139.2)
+- **Closed boxes:** 21; named: a1
+- **Words (OCR):** 42 in 41 lines: 88 · a1 · 22 · 82 · 43 · 98 · 92 Lij · 13 · Ia; · zi0 · 28 · 28
+
+Every curve, box, word and wire group: [19xx - M8209A - Manual p2 (traced).json](19xx%20-%20M8209A%20-%20Manual%20p2%20%28traced%29.json) (the CAD file: `19xx - M8209A - Manual p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–330 mm across, 1–432 mm up
+- **Outlines:** line 343 rings, 4,043 straight (10,283 mm) / 929 curved (1,249 mm); text 276 rings, 1,646 straight (1,690 mm) / 575 curved (788 mm)
+- **Closed boxes:** 13; named: Ih
+- **Words (OCR):** 11 in 11 lines: Ih · 832 · s88 · Xz0[ · 9LJ · 6LJ · BLY · 084 · 4029 · 4029 · SLY
+
+Every curve, box, word and wire group: [19xx - M8209A - Manual p3 (traced).json](19xx%20-%20M8209A%20-%20Manual%20p3%20%28traced%29.json) (the CAD file: `19xx - M8209A - Manual p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–330 mm across, 1–432 mm up
+- **Outlines:** line 598 rings, 5,805 straight (13,090 mm) / 1,242 curved (1,992 mm); text 190 rings, 1,232 straight (1,207 mm) / 424 curved (574 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 5.2 @ (259.4, 145.2), r 5.2 @ (235.2, 385.3), r 5.2 @ (286.4, 356.3), r 5.2 @ (213.1, 385.2)
+- **Closed boxes:** 99
+- **Words (OCR):** 25 in 25 lines: 222 · 223 · 298 · 558 · 998 · 954 · 878 · 618 · LId · 628 · 978 · B38
+
+Every curve, box, word and wire group: [19xx - M8209A - Manual p4 (traced).json](19xx%20-%20M8209A%20-%20Manual%20p4%20%28traced%29.json) (the CAD file: `19xx - M8209A - Manual p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 25–330 mm across, 11–276 mm up
+- **Outlines:** line 1,058 rings, 4,188 straight (7,129 mm) / 1,606 curved (2,603 mm); text 121 rings, 983 straight (1,266 mm) / 327 curved (475 mm)
+- **Circles and arcs:** 50 circles, 0 arcs; largest r 3.9 @ (217.3, 228.8), r 3.9 @ (229.4, 229.0), r 3.9 @ (229.9, 200.3), r 3.9 @ (217.5, 200.1)
+- **Closed boxes:** 3
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [19xx - M8209A - Manual p5 (traced).json](19xx%20-%20M8209A%20-%20Manual%20p5%20%28traced%29.json) (the CAD file: `19xx - M8209A - Manual p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–295 mm across, 37–425 mm up
+- **Outlines:** line 2 rings, 5 straight (4.4 mm) / 1 curved (1.3 mm); text 2,483 rings, 19,101 straight (22,733 mm) / 5,892 curved (9,224 mm); tb 10 rings, 39 straight (33.1 mm) / 16 curved (18.6 mm)
+- **Words (OCR):** 50 in 45 lines: WARRANTY · products are warranted against defective materials and · All Ward-Beck Systems Ltd_ · workmanship for a · period of one year from the date of shipment · Ward-Beck Systems Ltd,, will repair or replace , at its option and without charge, all said · products or parts thereof which upon facto
+- **Title block:** (28, 27)–(303, 386) mm: products are warranted against defective materials and · All Ward-Beck Systems Ltd_ · workmanship for a · period of one year from the date of shipment · Ward-Beck Systems Ltd,, will repair or replace 
+
+Every curve, box, word and wire group: [19xx - M8209A - Manual p6 (traced).json](19xx%20-%20M8209A%20-%20Manual%20p6%20%28traced%29.json) (the CAD file: `19xx - M8209A - Manual p6 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

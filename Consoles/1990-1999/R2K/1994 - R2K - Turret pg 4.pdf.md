@@ -11,6 +11,18 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Pages:** 1
 - **PDF created (scan date, not design date):** Mon Mar 13 12:55:26 2006 EST
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 58–296 mm across, 38–412 mm up
+- **Outlines:** line 58 rings, 876 straight (6,057 mm) / 52 curved (77.5 mm); text 1,557 rings, 11,883 straight (14,525 mm) / 3,602 curved (5,784 mm)
+- **Closed boxes:** 38; named: 26 1 10 1 0 Input or 8x2 Selector Module; 1 10 1 0; 26; Input or 8x2 Selector Module; 27; 1 10 1 1; 27; Input or 8x2 Selector Module; 28; 1 1 1 0 0; 28; Program Master Module
+- **Words (OCR):** 81 in 75 lines: 27 · Input or 8x2 Selector Module · 26 · 1 10 1 0 · 1 10 1 1 · 28 · Input or 8x2 Selector Module · 27 · Program Master Module · 28 · 1 1 1 0 0 · 29
+
+Every curve, box, word and wire group: [1994 - R2K - Turret pg 4 p1 (traced).json](1994%20-%20R2K%20-%20Turret%20pg%204%20p1%20%28traced%29.json) (the CAD file: `1994 - R2K - Turret pg 4 p1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)
