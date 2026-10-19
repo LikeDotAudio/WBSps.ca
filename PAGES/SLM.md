@@ -27,7 +27,7 @@ tags: ["product", "metering", "2010s"]
 
 _What it is made of and what it is part of._
 
-<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="SLM" data-n="Series Stereo Loudness Meter" data-cat="METERING"></div><svg class="wbs-panel" data-m="SLM" data-n="Series Stereo Loudness Meter" data-cat="METERING" role="img" aria-label="SLM front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"SLM","title":"Series Stereo Loudness Meter","rto":null,"parts":[],"parents":[{"label":"ABS1","href":"ABS1.html","note":"on 4 drawings with it: Audio Bit Spitter Portab"},{"label":"microDriver","href":"microDriver.html","note":"on 4 drawings with it: Miniature Stereo Headpho"}]}</script></div></div><script src="wbs_spice.js"></script>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="SLM" data-n="Series Stereo Loudness Meter" data-cat="METERING"></div><svg class="wbs-panel" data-m="SLM" data-n="Series Stereo Loudness Meter" data-cat="METERING" role="img" aria-label="SLM front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"SLM","title":"Series Stereo Loudness Meter","rto":null,"parts":[],"parents":[{"label":"microDriver","href":"microDriver.html","note":"on 4 drawings with it: Miniature Stereo Headpho"},{"label":"ABS1","href":"ABS1.html","note":"on 4 drawings with it: Audio Bit Spitter Portab"}]}</script></div></div><script src="wbs_spice.js"></script>
 
 ## Dates found in the documents
 
